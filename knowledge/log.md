@@ -808,3 +808,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-26 00:57]` **finalize** | KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterev | research | deep-research-os — composite:7.0 status:Needs Improvement
 - `[2026-08-26 09:49]` **finalize** | Evidence-backed architecture verdict on the missing mastery-transfer and surpassing proof spine acro | general | MES 3.0 with Source-to-Skill System — composite:9.0 status:Keep
 - `[2026-08-11 21:04]` **finalize** | Notion Second Brain end-to-end reliability live smoke | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-08-28 12:11]` **finalize** | 2026-08-28 Angle Map Listening Brief, source receipt, Friday synthesis, flagship post, and finished  | general | Oren Operational Systems — composite:7.0 status:Needs Improvement
+- `[2026-08-28 16:03]` **finalize** | Angle Map Brief Repair Plan: creative-director format, four-artifact architecture, implementation ph | general | Ciel Strategic Intelligence — composite:7.7 status:Keep
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep

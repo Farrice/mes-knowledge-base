@@ -376,3 +376,6 @@ I'd take A now and only go to B if the `LIKELY` grades start showing up in conte
 Separately, COS wants you: it's been 5 days since your last check-in (`/cos`, 90 seconds), and the board session is 25 days overdue (`/cos weekly`, ~15 min).
 ERROR: lock not held by this token
 === 2026-08-27 10:35:25 listening run end rc=0 ===
+=== 2026-08-28 07:19:39 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)

@@ -82,18 +82,38 @@ Then execute the generated `native-web-runbook.md` in the active Codex thread:
    RSS/changelog angles sequentially in the main thread.
 3. Open the strongest pages. Search snippets are discovery, not `VERIFIED`
    evidence.
-4. Use bounded, basic-depth Tavily **Search and Extract** only for identified
+4. When a public URL is already known, use the evidence-backed acquisition
+   fallback inside this workflow: native web first; direct public HTTP for a
+   deterministic local capture; then the public no-key Jina Reader endpoint
+   when text normalization or PDF-to-text recovery is useful. These are
+   transports, not evidence authorities. A transport `200` is not success when
+   the returned content reports that the target URL was blocked or failed.
+5. Treat community access as source-specific. If direct HTTP and Jina both fail
+   on Reddit-like pages, retry with the host native web reader. If native web is
+   unavailable, record the source gap; do not bypass access controls, infer
+   quotes from URL tokens, or promote snippets to full-page evidence.
+6. Use bounded, basic-depth Tavily **Search and Extract** only for identified
    gaps. Do not invoke Tavily Research. Disclose the estimated credits and say
    when the account's billing-plan/overage state could not be verified. The
    Tavily command fails closed until the zero-dollar account boundary is
    explicitly confirmed.
-5. Pull public RSS/Atom feeds on demand when they improve recency or source
+7. Pull public RSS/Atom feeds on demand when they improve recency or source
    coverage. Do not create a schedule.
-6. Ingest the JSONL findings through `free_first_research.py ingest`.
-7. Only after the external evidence gate passes, load relevant local context and
+8. Ingest the JSONL findings through `free_first_research.py ingest`.
+9. Only after the external evidence gate passes, load relevant local context and
    skills for interpretation and downstream use.
-8. Synthesize the cited decision artifact, run the quality gate, and expose the
+10. Synthesize the cited decision artifact, run the quality gate, and expose the
    value receipt.
+
+The 30-URL zero-dollar acquisition fixture and its evaluation-only harness live
+at `execution/fixtures/research-acquisition-bakeoff/health-performance-30.json`
+and `execution/deep_research_acquisition_bakeoff.py`. They are regression assets
+for this owner, not a new scraper, command, scheduler, or production collection
+surface. The 2026-08-28 receipt showed direct HTTP and Jina each usable on 24 of
+30 URLs; both missed six Reddit pages, while a host-native spot check recovered
+the sampled Reddit page. Direct HTTP remains the fast ordinary-page path; Jina
+is the optional text/PDF recovery path; native web remains the authority and
+community recovery path. No new dependency is justified by that evidence.
 
 Current-world authority is **live external evidence retrieved in this run**.
 Local memory, harness files, skills, and prior artifacts may shape questions,

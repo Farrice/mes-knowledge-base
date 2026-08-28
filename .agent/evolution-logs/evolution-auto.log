@@ -3902,3 +3902,69 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-28T07:19:42.638269",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-28.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.38,
+            "joey-cinema-os": 0.69,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.38,
+            "gemini-api-dev": 0.53,
+            "dave-clark": 1.47,
+            "ghostwriting-voice-engine": 1.44,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.37,
+            "nick-saraev-agentic-workflows": 1.38,
+            "kallaway-social-commerce": 0.62,
+            "kallaway-illusion-of-novelty": 0.98,
+            "extract-mastery": 1.36,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.38,
+            "michael-israetel-hypertrophy": 1.26,
+            "andrew-dun-vibe-consulting": 1.14,
+            "creative-direction": 0.75,
+            "oren-one-person-ai-marketer": 0.77
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 96.3
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.3
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 2.99
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 11.99
+    }
+  ]
+}

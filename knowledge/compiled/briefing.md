@@ -1,30 +1,30 @@
 # Knowledge Briefing
-*Generated: 2026-08-26 | 1175 sources | 3,730,876 words*
+*Generated: 2026-08-28 | 1181 sources | 3,734,578 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 7,326 words — `knowledge/index.md`
-- **log** (general) — 19,951 words — `knowledge/log.md`
+- **log** (general) — 20,073 words — `knowledge/log.md`
+- **analysis** (content [nicolas-cole]) — 495 words — `extractions/video-context/Ox4JdlCwh24/analysis.md`
+- **behavior-proof** (copywriting) — 811 words — `extractions/video-context/Ox4JdlCwh24/behavior-proof.md`
+- **deep-extraction** (general [nicolas-cole]) — 1,081 words — `extractions/video-context/Ox4JdlCwh24/deep-extraction.md`
+- **skill-system-contract** (general [nicolas-cole]) — 623 words — `extractions/video-context/Ox4JdlCwh24/skill-system-contract.md`
+- **uncertainty-report** (strategy [nicolas-cole]) — 185 words — `extractions/video-context/Ox4JdlCwh24/uncertainty-report.md`
+- **video-context-ledger** (content [nicolas-cole]) — 320 words — `extractions/video-context/Ox4JdlCwh24/video-context-ledger.md`
+- **index** (content) — 7,391 words — `knowledge/index.md`
 - **blind-embodiment-receipt** (content) — 307 words — `extractions/jun-yuh-creator-vision/blind-embodiment-receipt.md`
 - **USER-GUIDE** (content) — 681 words — `extractions/video-context/XS-E6rnCr5U/USER-GUIDE.md`
-- **analysis** (screenwriting) — 910 words — `extractions/video-context/XS-E6rnCr5U/analysis.md`
-- **architecture** (brand) — 330 words — `extractions/video-context/XS-E6rnCr5U/architecture.md`
-- **david-bayer-language-pass** (copywriting) — 1,622 words — `extractions/video-context/XS-E6rnCr5U/bayer-language-pass/david-bayer-language-pass.md`
-- **behavior-proof** (screenwriting) — 717 words — `extractions/video-context/XS-E6rnCr5U/behavior-proof.md`
-- **commercial-field-proof** (screenwriting) — 2,288 words — `extractions/video-context/XS-E6rnCr5U/commercial-field-proof.md`
-- **deep-extraction** (content) — 920 words — `extractions/video-context/XS-E6rnCr5U/deep-extraction.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 372 | nathan-gotch |
-| copywriting | 204 | jason-fladlien |
+| content | 374 | nathan-gotch |
+| copywriting | 205 | jason-fladlien |
+| general | 129 | nick-saraev |
 | screenwriting | 129 | connelly |
-| general | 127 | nick-saraev |
-| strategy | 116 | april-dunford |
+| strategy | 117 | april-dunford |
 | brand | 67 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |

@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T06:00:13.964183",
+ "generated": "2026-08-28T07:20:39.351384",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -1184,7 +1184,7 @@
   "execution:ai_misfire_sprint_guard.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:anchor_memory.py": {
    "status": "PROVEN",
@@ -1234,7 +1234,7 @@
   "execution:audit_extraction_integrity.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:autopilot_runtime_preflight.py": {
    "status": "PROVEN",
@@ -1322,9 +1322,9 @@
    "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:client_package_lint.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "status": "PROVEN",
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:co_creative_launchpad.py": {
    "status": "PROVEN",
@@ -1409,7 +1409,7 @@
   "execution:cos_reminders.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:cost_gate.py": {
    "status": "PROVEN",
@@ -1454,7 +1454,7 @@
   "execution:design_md_extract.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:design_md_validate.py": {
    "status": "PROVEN",
@@ -1609,7 +1609,7 @@
   "execution:generate_agent_stacking_registry.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:generate_codex_indexes.py": {
    "status": "PROVEN",
@@ -1939,7 +1939,7 @@
   "execution:perception_engineering_bridge_audit.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:performance_evidence_audit.py": {
    "status": "PROVEN",
@@ -1999,7 +1999,7 @@
   "execution:publishable_copy_guard.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:pulse_dashboard.py": {
    "status": "PROVEN",
@@ -2284,127 +2284,127 @@
   "execution:system_efficiency_benchmark.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:system_health.py": {
    "status": "PROVEN",
    "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:task_queue.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:taste_signature.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:teardown_ethics_gate.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:test_video_enhance.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T15:20:14.403052"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:thought_bank.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:tool_router.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:trim_workflow_descriptions.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:validate_skill.py": {
    "status": "PROVEN",
-   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 27x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_activation_governor.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_antigravity_global_access.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_artifact_router.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_autopilot_routing.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_autopilot_runtime_preflight.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_born_intent_drift.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_codex_authority.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_codex_claude_parity.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_codex_dynamic_workflow.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_control_intent.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_convene.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_cos_primer_gate.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_deep_research_os.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_dialect_injector.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_end_session_intelligence.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_execution_receipt.py": {
    "status": "PROVEN",
@@ -2413,518 +2413,518 @@
   },
   "execution:verify_expert_composition_standard.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_extraction_command_surface.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_failure_learning.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_fleet.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "the fleet runner itself \u2014 discovery executed by this probe",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_global_autopilot_source_truth.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_global_execution_bias_bridge.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_global_steering_persistence.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_google_operator_core.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_health_performance_geo_prompt.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_high_taste_os.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_high_taste_writing_os.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_markdown_readability_guard.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_memory_stack.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_mission_activation_contract.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_mission_runner.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_mission_validator.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_cockpit.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_ai_employee_os.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_end_session.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_expert_composition_governor.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_extraction_governor_agent.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_fast_proof.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_health_check.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_knowledge_librarian.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_orchestrate.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_repeatability_spine.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_routing_intelligence.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_self_evolve.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_skill_anneal.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_source_to_skill_system.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_status.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_core_system_audit.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_operator_lesson.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_performance_evidence_gate.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_plugin_readiness_stdout.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_proof_ledger.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_protocol_lifecycle.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_raw_intent_bridge_command.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_raw_intent_global_skill.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_raw_intent_run_packet.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_recall_mcp_auth.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_recurring_ops_dry_run.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_repeatability_spine.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_savant_control_room.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_self_heal.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_session_lock_gate.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_session_state_freshness_loop.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_skill_evolution_candidate_freshness.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_skill_evolution_candidates.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_skill_evolution_local_first.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_skill_system_contract.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_steering_compass_quality.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_subagent_approval_language.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_subagent_readiness.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_system.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_system_control_plane.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_video_context_source_package.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_virtuoso_orchestration.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:video_context/transcript.py": {
    "status": "PROVEN",
-   "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "referenced 39x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:video_context_ledger.py": {
    "status": "PROVEN",
    "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:video_enhance.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:virtuoso_orchestration.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:voice_ratchet.py": {
    "status": "PROVEN",
-   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "referenced 29x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:weather_data.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:20:02.153220"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:wire_prompt_pointers.py": {
    "status": "PROVEN",
-   "via": "referenced 402x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "referenced 442x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:wiring_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:20:14.403052"
+   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:workflow_router.py": {
    "status": "PROVEN",
-   "via": "referenced 69x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "referenced 76x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:world_brief.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:world_pulse_research.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:adam-enfroy-affiliate-marketing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:adam-sandler-second-brain-gtm": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ai-carousel-content-engine": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ai-chris-lee-zero-testimonial-sales": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alan-aragon-nutrition": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alen-sultanic-copywriting": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-content-science": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-copper-creative-strategy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-hormozi-business": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-m-smith-natural-strategy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-myatt-creative-engine": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:alex-suzuki-digital-product-revenue-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:algorithmic-art": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ali-abdaal-action-bias": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andreessen-horowitz-new-media": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andrew-dun-vibe-consulting": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andrew-lane-design-systems": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andrew-stanton-audience-engineering": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andrew-wilkinson-ai-entrepreneurship": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andy-galpin-training-intelligence": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:andy-lo-premium-websites": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:april-dunford-positioning": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ash-maurya-founder-systems": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ash-maurya-lean-metrics": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:asset_generator": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:attention-hijack-hooks": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:authority-hacker-ai-social-media": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:banana-pro-director": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:ben-watkins-storytelling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:benjamin-hardy-identity": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:bill-browder-high-stakes-narrative": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:bitbranding-fashion-shopify": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:bond-halbert-copywriting": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:boris-claude-code": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "skill:brad-bonanno-explainer-architecture": {
    "status": "PROVEN",
@@ -17648,58 +17648,58 @@
   },
   "execution:verify_dead_channels.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_wiring_audit.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:antigravity_global_access.py": {
    "status": "PROVEN",
    "via": "python-imported ('import antigravity_global_access')",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:canon_audit.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:hooks/campaign_beacon.py": {
-   "status": "PROVEN",
-   "via": "registered in .claude/settings.json",
-   "checked": "2026-07-29T00:51:29.816489"
+   "status": "ORPHAN",
+   "via": "hook file not registered in .claude/settings.json",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:hooks/superseded_read_guard.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:paths.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:project_relocate.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:projects_index.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-29T00:51:29.816489"
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_project_filer.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "execution:verify_projects_index.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
   },
   "workflow:missions": {
    "status": "PROVEN",
@@ -19170,6 +19170,21 @@
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
    "checked": "2026-08-26T06:00:11.440451"
+  },
+  "execution:notion_session_memory.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('import notion_session_memory')",
+   "checked": "2026-08-28T07:20:18.108193"
+  },
+  "execution:verify_notion_second_brain_reliability.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-28T07:20:18.108193"
+  },
+  "skill:nicolas-cole-library-first-writing": {
+   "status": "PROVEN",
+   "via": "listed in SKILL_INDEX.md (router-reachable)",
+   "checked": "2026-08-28T07:20:18.108193"
   }
  }
 }

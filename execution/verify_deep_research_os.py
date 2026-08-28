@@ -43,6 +43,10 @@ def main() -> int:
         "semantic_libraries/antigravity/primitives/free-first-research-mission-contract.md"
     )
     free_first_runtime = read("execution/free_first_research.py")
+    acquisition_bakeoff = read("execution/deep_research_acquisition_bakeoff.py")
+    acquisition_fixture = read(
+        "execution/fixtures/research-acquisition-bakeoff/health-performance-30.json"
+    )
     read("execution/verify_free_first_research_mission.py")
     legacy_command = read(".claude/commands/deep-research.md")
     legacy_skill = read(".agents/skills/source-command-deep-research/SKILL.md")
@@ -62,6 +66,8 @@ def main() -> int:
         "live external evidence retrieved in this run",
         "Tavily **Search and Extract**",
         "cost_usd: 0.0",
+        "public no-key Jina Reader endpoint",
+        "not a new scraper, command, scheduler",
     )
     for term in required_terms:
         require(term in workflow, f"workflow missing required term: {term}")
@@ -76,6 +82,18 @@ def main() -> int:
     require("Value Receipt" in free_first_contract, "free-first value receipt missing")
     require("def cmd_tavily" in free_first_runtime, "free-first Tavily Search/Extract leg missing")
     require("def cmd_rss" in free_first_runtime, "free-first RSS leg missing")
+    require(
+        "Target URL returned error" in acquisition_bakeoff,
+        "acquisition bakeoff lacks the Jina wrapper false-green regression",
+    )
+    require(
+        '"name": "health-performance-real-corpus-30"' in acquisition_fixture,
+        "30-URL acquisition fixture identity missing",
+    )
+    require(
+        acquisition_fixture.count('"id":') == 30,
+        "acquisition fixture must contain exactly 30 URL ids",
+    )
     require(
         "execution/research_router.py" not in workflow,
         "workflow still points to nonexistent research_router.py",
@@ -96,7 +114,10 @@ def main() -> int:
         "Legacy provider-backed escalation only" in legacy_workflow,
         "legacy paid/swarm workflow lacks an explicit escalation boundary",
     )
-    require("social_listening_free_first" in routing_doc, "routing appendix still names Apify-first social listening")
+    require(
+        "social_listening_free_first" in routing_doc,
+        "routing appendix is missing the free-first social-listening owner",
+    )
 
     query = "current decision grade deep research in Codex with native web Tavily RSS and no paid tools"
     menu = names_from_menu(query)
@@ -122,7 +143,8 @@ def main() -> int:
     print("Deep Research OS verification: PASS")
     print("- workflow, source command, and skill wrapper exist and bridge correctly")
     print("- Codex current research defaults to the free-first companion contract")
-    print("- native web, Tavily Search/Extract, RSS, stale-context, and value-receipt boundaries are present")
+    print("- native web, direct HTTP, no-key Jina, Tavily Search/Extract, RSS, stale-context, and value-receipt boundaries are present")
+    print("- 30-URL bakeoff remains an evaluation asset, not a new command or scraper surface")
     print("- command_menu, workflow_router, and mandatory bindings rank /deep-research-os first for ordinary current research")
     print("- /deep-research aliases free-first; its paid/swarm workflow is explicit escalation only")
     print("- routing governor detects the deep-research-os lane")

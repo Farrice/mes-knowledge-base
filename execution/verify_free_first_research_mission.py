@@ -308,6 +308,7 @@ def verify_tavily_extract_env_bridge() -> list[str]:
     captured: dict = {}
     original_run = native_floor._subprocess.run
     original_load_env = native_floor.load_env_vars
+    original_process_key = native_floor._os.environ.pop("TAVILY_API_KEY", None)
 
     def fake_run(*args, **kwargs):
         captured.update(kwargs)
@@ -333,6 +334,10 @@ def verify_tavily_extract_env_bridge() -> list[str]:
     finally:
         native_floor._subprocess.run = original_run
         native_floor.load_env_vars = original_load_env
+        if original_process_key is None:
+            native_floor._os.environ.pop("TAVILY_API_KEY", None)
+        else:
+            native_floor._os.environ["TAVILY_API_KEY"] = original_process_key
 
     require(len(rows) == 1, "Tavily Extract fixture did not parse")
     require(

@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-28 | [stack-moved-inside-scoop-post](2026-08-28-stack-moved-inside-scoop-post.md) | LinkedIn post (flagship) | Thesis · P1 | Authority | Bridge | READY |
+| 2026-08-28 | [supplement-stack-changed-containers-essay](2026-08-28-supplement-stack-changed-containers-essay.md) | Synthesis essay (long-form) | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-27 | [two-tubs-post](2026-08-27-two-tubs-post.md) | LinkedIn post (flagship) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-27 | [claim-with-a-clock-proof-chain-2](2026-08-27-claim-with-a-clock-proof-chain-2.md) | Series/education post (long-form) | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-27 | [two-tubs-video](2026-08-27-two-tubs-video.md) | 45-60s video script | Thesis · P1 | Growth | Outer | READY |

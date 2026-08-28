@@ -10019,3 +10019,1241 @@ parked-conflict  codex/antigravity-operator-core                2 file(s) collid
                    └─ guides/INDEX.md
 
 32 lane(s): 2 merged · 0 reclaimed · 9 parked · 21 live · 98 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            10 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            13 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            21 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+skipped-live     worktree-apify-decommission                    2 uncommitted file(s) — a session is still working here
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            22 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 7 parked · 22 live · 74 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+skipped-live     worktree-kallaway-sandcastles-forge            24 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 8 parked · 21 live · 79 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   9 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+29 lane(s): 0 merged · 0 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded
+parked-conflict  worktree-apify-decommission                    49 file(s) collide — needs resolution
+                   └─ .agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ … +41 more
+skipped-live     worktree-cash-paths-research                   13 uncommitted file(s) — a session is still working here
+skipped-live     worktree-course-kit-ignition                   5 uncommitted file(s) — a session is still working here
+skipped-live     claude/dazzling-cannon-6ed186                  6 uncommitted file(s) — a session is still working here
+parked-conflict  worktree-kallaway-sandcastles-forge            51 file(s) collide — needs resolution
+                   └─ .agent/homebase/homebase.html
+                   └─ .agent/perplexity-usage.json
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ … +43 more
+parked-conflict  worktree-mailroom                              48 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ deliverables/research-briefs/index.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json
+                   └─ deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+                   └─ deliverables/research-briefs/mission-board/mission-board-brief.html
+                   └─ deliverables/research-briefs/mission-board/mission-board-context.json
+                   └─ … +40 more
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/ad-creative-intelligence                 2 file(s) collide — needs resolution
+                   └─ knowledge/compiled/manifest.json
+                   └─ knowledge/index.md
+parked-conflict  codex/briefing-room-gtm-preview                20 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +12 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/content-authority-upgrade                9 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-pmf-closeout                    65 uncommitted file(s) — a session is still working here
+parked-conflict  codex/mastery-transfer-proof-spine             2 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+parked-conflict  codex/oren-funnel-flywheel                     1 file(s) collide — needs resolution
+                   └─ SLASH_COMMANDS.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+skipped-live     codex/william-fitzpatrick-reader-science       11 uncommitted file(s) — a session is still working here
+torn-down        codex/wkqdevj6xtk-source-skill                 LANE PARKED: codex/wkqdevj6xtk-source-skill — main tree dirty (121 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/wkqdevj6xtk-source-skill
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                2 file(s) collide — needs resolution
+                   └─ docs/solutions/index.md
+                   └─ guides/INDEX.md
+
+30 lane(s): 0 merged · 1 reclaimed · 9 parked · 20 live · 82 commit(s) still stranded

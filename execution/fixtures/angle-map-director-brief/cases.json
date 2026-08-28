@@ -1,0 +1,56 @@
+{
+  "schema_version": "angle-map-director-brief-fixtures-v1",
+  "cases": [
+    {
+      "name": "pass_daily_shadow",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "daily",
+      "expect": "PASS"
+    },
+    {
+      "name": "pass_friday_shadow",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "friday",
+      "expect": "PASS"
+    },
+    {
+      "name": "fail_over_complete_full_brief",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-listening-brief.md",
+      "mode": "daily",
+      "expect": "FAIL",
+      "error_contains": "exactly the five reader-facing sections"
+    },
+    {
+      "name": "sabotage_deleted_proof",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "daily",
+      "mutation": "remove_http",
+      "expect": "FAIL",
+      "error_contains": "at least three live source links"
+    },
+    {
+      "name": "sabotage_hidden_process_log",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "daily",
+      "mutation": "append_hidden_process",
+      "expect": "FAIL",
+      "error_contains": "hidden process log"
+    },
+    {
+      "name": "sabotage_duplicate_lead",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "daily",
+      "mutation": "duplicate_territory",
+      "expect": "FAIL",
+      "error_contains": "exactly one recommended territory"
+    },
+    {
+      "name": "sabotage_forced_format_volume",
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "mode": "daily",
+      "mutation": "force_format_volume",
+      "expect": "FAIL",
+      "error_contains": "forced production bundle"
+    }
+  ]
+}

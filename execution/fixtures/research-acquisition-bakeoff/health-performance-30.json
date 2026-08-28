@@ -1,0 +1,40 @@
+{
+  "name": "health-performance-real-corpus-30",
+  "purpose": "Free-first acquisition benchmark using public URLs already present in Angle Map research briefs.",
+  "urls": [
+    {"id": "official-01", "class": "official_guidance", "url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements", "expected_tokens": ["dietary supplements", "FDA"]},
+    {"id": "official-02", "class": "official_guidance", "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims", "expected_tokens": ["structure", "function claims"]},
+    {"id": "official-03", "class": "official_guidance", "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance", "expected_tokens": ["health products", "compliance guidance"]},
+    {"id": "official-04", "class": "official_guidance", "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers", "expected_tokens": ["consumer reviews", "testimonials"]},
+    {"id": "official-05", "class": "official_guidance", "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863", "expected_tokens": ["AB-2863", "automatic renewal"]},
+
+    {"id": "editorial-01", "class": "editorial_legal", "url": "https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html", "expected_tokens": ["ZOE", "ruling"]},
+    {"id": "editorial-02", "class": "editorial_legal", "url": "https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance", "expected_tokens": ["Amazon", "dietary supplements"]},
+    {"id": "editorial-03", "class": "editorial_legal", "url": "https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/", "expected_tokens": ["class action", "creatine gummies"]},
+    {"id": "editorial-04", "class": "editorial_legal", "url": "https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/", "expected_tokens": ["higher dose creatine", "healthspan"]},
+    {"id": "editorial-05", "class": "editorial_legal", "url": "https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/", "expected_tokens": ["Amazon", "third-party verification"]},
+    {"id": "editorial-06", "class": "editorial_legal", "url": "https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/", "expected_tokens": ["Create Wellness", "creatine"]},
+    {"id": "editorial-07", "class": "editorial_legal", "url": "https://athletechnews.com/the-best-supplements-for-women-in-2026/", "expected_tokens": ["supplements", "women"]},
+    {"id": "editorial-08", "class": "editorial_legal", "url": "https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html", "expected_tokens": ["David Beckham", "IM8"]},
+    {"id": "editorial-09", "class": "editorial_legal", "url": "https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion", "expected_tokens": ["Procter", "Thorne"]},
+    {"id": "editorial-10", "class": "editorial_legal", "url": "https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/", "expected_tokens": ["Applied Nutrition", "sport nutrition"]},
+
+    {"id": "brand-01", "class": "brand_product", "url": "https://ritual.com/products/essential-prenatal-multivitamin", "expected_tokens": ["Essential Prenatal", "multivitamin"]},
+    {"id": "brand-02", "class": "brand_product", "url": "https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco", "expected_tokens": ["Ritual Prenatal", "Costco"]},
+    {"id": "brand-03", "class": "brand_product", "url": "https://eightx.co/blog/how-to-price-supplements", "expected_tokens": ["price supplements", "margin"]},
+    {"id": "brand-04", "class": "brand_product", "url": "https://evolutagency.com/supplement-marketing-2026/", "expected_tokens": ["supplement marketing", "2026"]},
+    {"id": "brand-05", "class": "brand_product", "url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026", "expected_tokens": ["Andromeda", "creative strategy"]},
+
+    {"id": "community-01", "class": "community", "url": "https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/", "expected_tokens": ["creatine gummies", "AmazonVine"]},
+    {"id": "community-02", "class": "community", "url": "https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do", "expected_tokens": ["TikTok", "supplement influencers"]},
+    {"id": "community-03", "class": "community", "url": "https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/", "expected_tokens": ["creatine", "10g"]},
+    {"id": "community-04", "class": "community", "url": "https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else", "expected_tokens": ["supplement trend", "Supplements"]},
+    {"id": "community-05", "class": "community", "url": "https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update", "expected_tokens": ["Andromeda", "FacebookAds"]},
+    {"id": "community-06", "class": "community", "url": "https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/", "expected_tokens": ["subscriptions", "CAC"]},
+    {"id": "community-07", "class": "community", "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09", "expected_tokens": ["dietary supplements", "Amazon"]},
+
+    {"id": "pdf-01", "class": "pdf", "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf", "expected_tokens": ["Health Products Compliance Guidance", "substantiation"]},
+    {"id": "pdf-02", "class": "pdf", "url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf", "expected_tokens": ["exercise", "athletic performance"]},
+    {"id": "pdf-03", "class": "pdf", "url": "https://ods.od.nih.gov/pubs/dietphys.pdf", "expected_tokens": ["dietary supplements", "exercise performance"]}
+  ]
+}

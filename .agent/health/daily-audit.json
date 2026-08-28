@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-27T06:00:00.335430",
+  "timestamp": "2026-08-28T07:19:42.511894",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (16 projects, 4 drift items)"
@@ -10,9 +10,8 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 10,
+    "findings": 9,
     "ids": [
-      "born_intent_drift",
       "dead_launchd",
       "stale_feeds",
       "wiring_orphans",
@@ -29,22 +28,22 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 0,
-    "coverage": "3834/3834",
+    "new": 3,
+    "coverage": "3837/3837",
     "orphans_total": 13,
     "flips": [
-      "execution:hooks/divergence_alarm_hook.py: PROVEN -> ORPHAN",
-      "execution:hooks/pending_decisions_hook.py: PROVEN -> ORPHAN"
+      "execution:client_package_lint.py: ORPHAN -> PROVEN",
+      "execution:hooks/campaign_beacon.py: PROVEN -> ORPHAN"
     ],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",
       "execution:audit_extraction_integrity.py",
-      "execution:client_package_lint.py",
       "execution:design_md_extract.py",
       "execution:generate_agent_stacking_registry.py",
       "execution:hooks/divergence_alarm_hook.py",
       "execution:hooks/pending_decisions_hook.py",
-      "execution:perception_engineering_bridge_audit.py"
+      "execution:perception_engineering_bridge_audit.py",
+      "execution:publishable_copy_guard.py"
     ]
   }
 }

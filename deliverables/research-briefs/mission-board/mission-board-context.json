@@ -1,7 +1,7 @@
 {
   "slug": "mission-board",
   "title": "the board",
-  "compiled": "aug 27, 2026",
+  "compiled": "aug 28, 2026",
   "generated_by": "execution/render_brief.py",
   "path_policy": {
     "canonical_field": "path",
@@ -13,21 +13,15 @@
   "brief_md": "deliverables/research-briefs/mission-board/mission-board-brief.md",
   "paths": [
     {
-      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
       "role": "related · ACTIVE"
     },
     {
-      "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
-      "role": "related · BUILD"
-    },
-    {
-      "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.html",
       "role": "related · ACTIVE"
     },
     {
@@ -49,16 +43,16 @@
       "role": "related · ACTIVE"
     },
     {
-      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
-      "role": "related · ACTIVE"
-    },
-    {
       "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
       "role": "related · READY"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
+      "role": "related · BUILD"
     },
     {
       "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
@@ -71,6 +65,12 @@
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.html",
       "role": "related · ACTIVE"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html",
+      "role": "related · READY"
     },
     {
       "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",

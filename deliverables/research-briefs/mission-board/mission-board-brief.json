@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "169 sessions swept",
-  "compiled": "aug 27, 2026",
+  "sources": "159 sessions swept",
+  "compiled": "aug 28, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -32,15 +32,15 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "45",
+          "value": "68",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "3",
+          "value": "2",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "169",
+          "value": "159",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -54,10 +54,9 @@
           "values": [
             1,
             1,
-            1,
             0,
+            2,
             3,
-            3,
             0,
             0,
             1,
@@ -65,9 +64,10 @@
             0,
             1,
             0,
-            1
+            1,
+            0
           ],
-          "value": "12",
+          "value": "10",
           "note": "per day"
         },
         {
@@ -83,12 +83,12 @@
             0,
             0,
             0,
-            0,
             8,
             0,
-            1
+            1,
+            4
           ],
-          "value": "9",
+          "value": "13",
           "note": "per day"
         }
       ],
@@ -99,18 +99,6 @@
       "heading": "where the work *went*",
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
-        {
-          "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
-          "values": [
-            9
-          ]
-        },
-        {
-          "label": "deep research",
-          "values": [
-            3
-          ]
-        },
         {
           "label": "02 book blueprint",
           "values": [
@@ -128,6 +116,18 @@
           "values": [
             3
           ]
+        },
+        {
+          "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
+          "values": [
+            9
+          ]
+        },
+        {
+          "label": "geo content",
+          "values": [
+            4
+          ]
         }
       ]
     },
@@ -138,18 +138,13 @@
       "links": [
         {
           "k": "ACTIVE",
-          "title": "execution",
-          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
-        },
-        {
-          "k": "BUILD",
-          "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
-          "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
+          "title": "linkedin",
+          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "deep research",
-          "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html"
+          "title": "execution",
+          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         },
         {
           "k": "READY",
@@ -167,14 +162,14 @@
           "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "linkedin",
-          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
-        },
-        {
           "k": "READY",
           "title": "extract forge",
           "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
+        },
+        {
+          "k": "BUILD",
+          "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
+          "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
         },
         {
           "k": "READY",
@@ -185,6 +180,11 @@
           "k": "ACTIVE",
           "title": "harness",
           "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "geo content",
+          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -204,6 +204,12 @@
       "tag": "NO LIVE THREAD",
       "items": [
         {
+          "date": "2026-08-26",
+          "title": "deep-research-os",
+          "body": "KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint",
+          "done": true
+        },
+        {
           "date": "2026-08-25",
           "title": "extract-virtuoso-mastery",
           "body": "Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capab",
@@ -221,7 +227,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n218 more threads cleared the bar but sit below the 12-card ceiling and were not carded: extract virtuoso mastery, deliverables, angle map listening engine v4 1, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind, codex parity, novelty campaign.\n\n215 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n220 more threads cleared the bar but sit below the 12-card ceiling and were not carded: health performance ip library, deep research, extract virtuoso mastery, deliverables, angle map listening engine v4 1, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind.\n\n212 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

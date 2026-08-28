@@ -1,6 +1,6 @@
 # Created Josh's research-backed Eightward brand strategy…
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 27, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 28, 2026
 
 Delivered and waiting on him. Send one nudge and move on.
 
@@ -17,7 +17,7 @@ Next: Send Josh one short message asking whether he has booked the legal consult
 ## the state, as the last session left it
 Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.
 
-Handoff written 55d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 56d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -74,7 +74,7 @@ RESUME HERE: Created Josh's research-backed Eightward brand strategy packet for 
 _READ THE EDGES_
 Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.
 
-The judged analysis above is 6 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

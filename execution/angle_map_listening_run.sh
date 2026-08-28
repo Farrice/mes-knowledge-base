@@ -20,6 +20,13 @@ if [[ -f "$REPO/.env" ]]; then
   set +a
 fi
 
+# Guard the two hard boundaries this automation can violate if its prompt drifts:
+# retired paid-tool routing (cost) and unsupported quote promotion (factual grade).
+if ! python3 execution/verify_health_performance_geo_prompt.py --self-test >> "$LOG" 2>&1; then
+  echo "prompt contract invalid — skipping run before any research or writes" >> "$LOG"
+  exit 1
+fi
+
 # GOLDEN RULE: one writer per tree. Claim or skip — never run alongside a live session.
 CLAIM=$(python3 execution/session_lock.py claim "angle-map-listening daily run" 2>&1)
 echo "$CLAIM" >> "$LOG"

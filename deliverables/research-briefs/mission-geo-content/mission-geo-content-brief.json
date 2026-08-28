@@ -5,8 +5,8 @@
   "dek": "The whole launch is written down. Nobody has run it.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "0 sessions · 6 files · 0 assets",
-  "compiled": "aug 21, 2026",
+  "sources": "0 sessions · 4 files · 0 assets",
+  "compiled": "aug 28, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready.\n\nNext: Publish the proof surface and check every public link in a private browser window before doing anything else today."
+      "body": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is ready.\n\nNext: Publish the proof surface and check every public link in a private browser window before doing anything else today."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.\n\nHandoff written 5d ago — mostly current; skim the latest sessions below for drift.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
+      "body": "Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.\n\nHandoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
     },
     {
       "kind": "decision",
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Revenue: Claim Check Funnel - Ready to Launch\nSLUG: geo-content\nSTATUS: ready · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-16-geo-content.md\n\nRESUME HERE: Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea\n\nFILES TOUCHED (6):\n  - _active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md\n  - _active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md\n  - _active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md\n  - _active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md\n  - _active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md\n  - _active/farrice-brand/content/vault/INDEX.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Revenue: Claim Check Funnel - Ready to Launch\nSLUG: geo-content\nSTATUS: ready · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-16-geo-content.md\n\nRESUME HERE: Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea\n\nFILES TOUCHED (4):\n  - _active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md\n  - _active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md\n  - _active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md\n  - _active/farrice-brand/content/vault/INDEX.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "6",
+          "value": "4",
           "label": "FILES WRITTEN"
         }
       ]
@@ -114,16 +114,16 @@
             0,
             0,
             0,
-            3,
-            0,
-            0,
-            3,
             0,
             0,
             0,
-            0
+            0,
+            0,
+            0,
+            0,
+            4
           ],
-          "value": "6",
+          "value": "4",
           "unit": "files",
           "note": "per day"
         }
@@ -159,40 +159,28 @@
       "tag": "COPY THE PATH",
       "items": [
         {
-          "title": "2026-08-16-what-a-shelf-does-longform.md",
+          "title": "2026-08-27-claim-with-a-clock-proof-chain-2.md",
           "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
-          "note": "aug 16, 2026"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
+          "note": "aug 27, 2026"
         },
         {
-          "title": "2026-08-16-the-second-price-post.md",
+          "title": "2026-08-27-two-tubs-post.md",
           "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
-          "note": "aug 16, 2026"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
+          "note": "aug 27, 2026"
         },
         {
           "title": "INDEX.md",
           "role": "FILE",
           "path": "_active/farrice-brand/content/vault/INDEX.md",
-          "note": "aug 16, 2026"
+          "note": "aug 27, 2026"
         },
         {
-          "title": "2026-08-13-ads-that-last-post.md",
+          "title": "2026-08-27-two-tubs-video.md",
           "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
-          "note": "aug 13, 2026"
-        },
-        {
-          "title": "2026-08-13-decision-under-the-round-entry-4.md",
-          "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
-          "note": "aug 13, 2026"
-        },
-        {
-          "title": "2026-08-13-thirteen-months-old-script.md",
-          "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
-          "note": "aug 13, 2026"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
+          "note": "aug 27, 2026"
         },
         {
           "title": "2026-08-16-geo-content.md",
@@ -227,7 +215,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nThe judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }
