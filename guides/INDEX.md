@@ -9,6 +9,10 @@
 ## By use case
 
 | I want to… | Go to |
+| **Search Notion from recall without the network / control Codex automations** | |
+| Recall across all 9 stores incl. the Notion local mirror | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `memory_facade.py "<query>" --top 10` |
+| See/pause what ChatGPT desktop schedules on this Mac | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `automation_control_status.py` + dual-store pause |
+| Diagnose "app quit unexpectedly" pop-ups | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `.ips` `responsibleProc` forensics |
 | **Deploy Joanna Wiebe across copy, belief, messaging, and writing-business work** | |
 | Invoke Joanna by name and let the system select the right capability | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe` |
 | Use Joanna's complete extracted expertise on one high-stakes asset | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe full deployment: ...` |
@@ -293,6 +297,7 @@
 
 ## Chronology
 
+- **2026-08-28 — [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md)** (operator-guide) — daily Chrome/Firefox/Playwright "quit unexpectedly" pop-ups root-caused to ChatGPT desktop's local Codex automations launching browsers from a windowless background context (`responsibleProc` forensics on `.ips` crash reports); both daily briefs paused dual-store (toml + sqlite), the two-week-failing 10-minute merge heartbeat deleted, and the merge it was starving **landed**: `codex/notion-second-brain-reliability` union-merged into `memory_facade.py` — recall now spans 9 stores including the network-free **notion local mirror** (verifier 11/11 PASS, live smoke hit). Doctrine: a stuck retry automation is an alarm clock, not the work. Open: origin +9 divergence recovery, crash-free-morning confirmation.
 - **2026-08-23 — [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md)** (operator-guide) — source-grounded belief-community extension, named adaptive/full expert front door, five globally verified Codex/Claude routes, and proof-bounded deployment rules.
 - **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
 
