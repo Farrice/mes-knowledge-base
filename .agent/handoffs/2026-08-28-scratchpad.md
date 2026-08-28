@@ -1,0 +1,22 @@
+---
+thread: scratchpad
+status: active
+resume_hint: Mailroom live + register default set; week plan decided (warm calls + 3 teardown sends are Farrice's) — 2 of 3 cost-review runs done
+branch: worktree-mailroom
+pin: false
+---
+
+## Purpose
+Built THE MAILROOM (agent-to-agent council layer, Grok Bot blueprint), ran two live councils on Farrice's real offer decisions, and — after his register correction — encoded debate-then-memo as the DEFAULT output register for all substantive work.
+
+## Current State
+- 4 commits on lane worktree-mailroom, clean, auto-merges at close: persona_team.py bridge · agent-mailroom.md protocol (now with entry gate / grounding contract / reader contract) · roundtable-live.md runbook · council_pulse.py in session digest · MAILROOM-GUIDE.md + artifact 928d2858.
+- Council session 2 verdict (grounded in real reports — $4,650 all-warm revenue, not the "zero cash" run-1 error): warm-base calls first, 3 teardowns sent this week, About page shipped from v12-14 in 20 min, Featured funnel deployed repointed at $750 (kill $500 price), realtor pack = 15-min Stripe flip + Jen-confirm question, KDP/Signal Pilot parked. Digest: knowledge/council-sessions/2026-08-27-offer-path-decision.md.
+- Register rules durable: memory feedback_default-output-register-debate-then-memo + feedback_council-output-one-page-memo. Invocation: "run a live roundtable on X"; entry gate = one-paragraph answer first.
+- Cost: ~1M tokens across both council questions, $0 cash. Live-mode review: 2 of 3 measured runs done.
+
+## Remaining Priority
+Farrice executes the week plan — warm calls + 3 teardown sends are his, human-only. System-side next: close the 3 July calibration rows when he reports outcomes.
+
+## Do NOT Rebuild
+- The Mailroom, persona_team.py, council_pulse.py, roundtable-live runbook — all EXTEND-ONLY. Live councils are conductor-run Agent-tool teams, never .workflow.js.
