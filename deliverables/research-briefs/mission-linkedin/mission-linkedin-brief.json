@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 1 asset generated.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
+      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 1 asset generated.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 17d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 20d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -40,6 +40,10 @@
         {
           "action": "Park public posting and go direct-message only to named brands",
           "why": "Faster path to a conversation and less exposure, but abandons the compounding surface that makes the later direct messages land warm."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 7 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -89,7 +93,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Linkedin — Execution Checklist\nSLUG: linkedin\nSTATUS: active · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-linkedin.md\n\nRESUME HERE: Linkedin — Execution Checklist\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Linkedin — Execution Checklist\nSLUG: linkedin\nSTATUS: active · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/kallaway-sandcastles-forge/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/handoffs/2026-08-08-linkedin.md\n\nRESUME HERE: Linkedin — Execution Checklist\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -108,7 +112,7 @@
           "note": "codex"
         },
         {
-          "value": "13",
+          "value": "16",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -320,7 +324,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }
