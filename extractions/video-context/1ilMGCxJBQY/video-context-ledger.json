@@ -1,0 +1,170 @@
+[
+  {
+    "id": "S01",
+    "time": "00:00-03:38",
+    "type": "observed_spoken",
+    "claim": "Micro-fame is authority inside a category, not raw follower count; the practical variable is authority density per follower.",
+    "evidence": "transcript_segments.json",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "S02",
+    "time": "01:05-03:38",
+    "type": "observed_spoken",
+    "claim": "A high-value audience should name the creator among the most trusted people in the niche; broad but poorly matched reach can dilute that density.",
+    "evidence": "transcript_segments.json",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "S03",
+    "time": "03:39-08:39",
+    "type": "observed_spoken",
+    "claim": "The creator attributes current opportunity to zero-ramp virality, automatic targeting, and unlimited scale through recommendation feeds.",
+    "evidence": "transcript_segments.json",
+    "status": "SOURCE_CLAIM_UNCONFIRMED_EXTERNALLY"
+  },
+  {
+    "id": "V01",
+    "time": "04:37-05:20",
+    "type": "observed_visual",
+    "claim": "On-screen cards explicitly show '3 Core Shifts', 'Zero Ramp Virality', and 'Automatic Targeting'.",
+    "evidence": "frames/frame_0019.jpg; frames/frame_0023.jpg",
+    "status": "VISUALLY_VERIFIED"
+  },
+  {
+    "id": "V02",
+    "time": "07:25",
+    "type": "observed_visual",
+    "claim": "A title card names the method 'The Micro-Fame Playbook'.",
+    "evidence": "frames/frame_0033.jpg",
+    "status": "VISUALLY_VERIFIED"
+  },
+  {
+    "id": "S04",
+    "time": "08:40-12:56",
+    "type": "observed_spoken",
+    "claim": "Unique strategic positioning is created by finding white space across seven attributes: topic, substance depth, stories/scenarios, avatar specificity, delivery style, storytelling format, and visual format.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "S05",
+    "time": "12:56-18:34",
+    "type": "observed_spoken",
+    "claim": "Crowded markets require stacking several attributes; the creator's worked example combines deeper substance, distinctive delivery, cinematic visuals, and an under-covered AI-workflow topic.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "C01",
+    "time": "13:24-13:43",
+    "type": "observed_spoken",
+    "claim": "The creator reports roughly 60,000 followers in 90 days, 5.5 million views, 20,000 collected emails, and more than $100,000 revenue.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "SELF_REPORTED_UNCONFIRMED"
+  },
+  {
+    "id": "S06",
+    "time": "17:30-18:34",
+    "type": "observed_spoken",
+    "claim": "A format novelty can be cloned quickly; substance and delivery style are treated as harder-to-copy moats.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "S07",
+    "time": "19:24-20:55",
+    "type": "observed_spoken",
+    "claim": "Transpositioning means learning the baseline in one's niche, then importing an effective execution pattern from a similar or distant niche instead of cloning the incumbent leader.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "V03",
+    "time": "20:30-20:41",
+    "type": "observed_visual",
+    "claim": "The video shows Sandcastles collections as a browsing surface for formats, signature series, editing styles, and visual hooks.",
+    "evidence": "frames/frame_0091.jpg; frames/frame_0092.jpg; frames/frame_0093.jpg",
+    "status": "VISUALLY_VERIFIED_INTERFACE_ONLY"
+  },
+  {
+    "id": "S08",
+    "time": "21:19-22:38",
+    "type": "observed_spoken",
+    "claim": "The 3-2-1 strategy is three topic buckets, two videos per bucket per week, and one chaos-agent post.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "S09",
+    "time": "21:55-22:38",
+    "type": "observed_spoken",
+    "claim": "One bucket is broad for reach; two are narrow for avatar relevance, conversion, and trust accrual per view; the chaos agent preserves controlled exploration.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "V04",
+    "time": "21:32-21:56",
+    "type": "observed_visual",
+    "claim": "On-screen graphics state '3 2 1 Content Strategy' and spell out three topic buckets, two videos each per week, and one chaos agent.",
+    "evidence": "frames/frame_0097.jpg; frames/frame_0099.jpg",
+    "status": "VISUALLY_VERIFIED"
+  },
+  {
+    "id": "S10",
+    "time": "22:40-25:18",
+    "type": "observed_spoken",
+    "claim": "The recommended research path is a 20-25 channel competitor set, 25K-250K followers, last three months, outlier-score sorting, minimum 2% engagement, and a 50-video initial deep-analysis batch.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE_RECIPE"
+  },
+  {
+    "id": "V05",
+    "time": "23:48-25:09",
+    "type": "observed_visual",
+    "claim": "The video visibly demonstrates channel discovery, sort/filter controls, analyzed-video cards, results, and CSV export inside Sandcastles.",
+    "evidence": "frames/frame_0105.jpg through frames/frame_0114.jpg",
+    "status": "VISUALLY_VERIFIED_INTERFACE_ONLY"
+  },
+  {
+    "id": "S11",
+    "time": "25:09-26:20",
+    "type": "observed_spoken",
+    "claim": "The exported analysis is described as including transcript, topic, hook, format, and storytelling structure, then being clustered into one broad and two narrow topic buckets with personality-only outliers excluded.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE_RECIPE"
+  },
+  {
+    "id": "S12",
+    "time": "26:20-27:40",
+    "type": "observed_spoken",
+    "claim": "The operating test is two weeks: four posts per core bucket; a bucket that underperforms across all four is killed and replaced from the candidate or chaos pool.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE_RECIPE"
+  },
+  {
+    "id": "S13",
+    "time": "27:40-29:29",
+    "type": "observed_spoken",
+    "claim": "Strategy is only the first layer; the creator names winning-video construction, team building, evaluation, and learning transfer as subsequent operating questions.",
+    "evidence": "transcript-timestamped.txt",
+    "status": "VERIFIED_FROM_SOURCE"
+  },
+  {
+    "id": "I01",
+    "time": "whole video",
+    "type": "inferred",
+    "claim": "Authority density is operationalized by balancing broad acquisition with narrow trust-building content and by pruning weak buckets, although the video does not supply a formal equation.",
+    "evidence": "S01; S08; S09; S12",
+    "status": "BOUNDED_INFERENCE"
+  },
+  {
+    "id": "I02",
+    "time": "whole video",
+    "type": "inferred",
+    "claim": "The seven positioning attributes form a combinatorial differentiation system: use the smallest stack that creates credible contrast and favors attributes grounded in capabilities that are difficult to copy.",
+    "evidence": "S04; S05; S06",
+    "status": "BOUNDED_INFERENCE"
+  }
+]
