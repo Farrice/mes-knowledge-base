@@ -3,11 +3,13 @@
   "title": "Matt Haig Reader Bridge — Checkpoint 3 Validation",
   "source_id": "WKQDevJ6XTk",
   "checkpoint": 3,
-  "status": "complete-cold-b-tier",
+  "status": "complete-a-tier",
   "chain_trace": "trace_20260828_173507_matt-haig-reader-bridge.json",
   "chain_score": 8.67,
   "blind_precedent": "EVAL-065",
-  "human_blind_pass": false,
+  "human_blind_pass": true,
+  "human_eval": "EVAL-066",
+  "a_tier_trace": "trace_20260828_192010_matt-haig-reader-bridge.json",
   "market_observed": false,
   "created_at": "2026-08-28"
 }

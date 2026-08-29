@@ -26,9 +26,9 @@
 - **LIKELY:** coherent inference from repeated source behavior.
 - **UNCONFIRMED:** needs wider corpus or named external verification.
 - **UNTESTED:** built but not observed with real readers, clients, or market behavior.
-- **NO EVENT:** no publication, sale, reply, or human promotion decision occurred.
+- **HUMAN APPROVED:** EVAL-066 records Farrice's blind-pass preference and A-tier promotion.
+- **NO EVENT:** no publication, sale, reply, reader-response, or market outcome occurred.
 
 ## Stop Conditions
 
 Stop and hold when source material is missing, voice imitation is requested, a bestseller result is promised, a protected original is absent, or revision lowers charge without a named reader benefit.
-

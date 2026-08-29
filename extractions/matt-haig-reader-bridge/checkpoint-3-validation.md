@@ -1,10 +1,12 @@
 # Matt Haig Reader Bridge — Checkpoint 3 Validation
 
+> **Post-checkpoint promotion:** Farrice completed the human blind test after this cold-build checkpoint. EVAL-066 passed through the preferred path, and the system is now A-tier. See `human-a-tier-verdict.md`. The cold-build evidence below is preserved as the pre-promotion baseline.
+
 ## Verdict
 
 **COMPLETE AS A COLD B-TIER EXTRACTION FORGE. READY FOR WORKSPACE USE.**
 
-The full system is built, source-grounded, locally registered, menu-reachable, prompt-wired, behavior-tested, and recorded. It is not A-tier: Farrice has not judged the blind comparison, video visuals were unavailable, and no real reader or market outcome has occurred.
+At checkpoint 3, the full system was built, source-grounded, locally registered, menu-reachable, prompt-wired, behavior-tested, and recorded as cold B-tier. Human promotion had not yet occurred; video visuals were unavailable, and no real reader or market outcome had occurred.
 
 ## Shipped System
 
@@ -90,8 +92,9 @@ The deterministic manifest earned an 11-workflow floor. The approved ten routes 
 |---|---|---|
 | EVAL-064 | FAIL | Correct mechanics, but the proof scene was too composed and announced its craft |
 | EVAL-065 | PASS — model only | One bounded repair removed the polished taxonomy and conspicuous metaphor; plain language, uncertainty, and underexplained residue held |
+| EVAL-066 | PASS — Farrice | B was easier to read and had the better ending; generated Y was preferred alongside real X and over real Z |
 
-The latest instrumental verdict is PASS. `calibrated_by_human` remains false. This permits a complete cold B-tier forge, not A-tier promotion.
+The latest verdict is a Farrice-calibrated PASS. `calibrated_by_human` is true for EVAL-066. This promotes the system to A-tier through preference, not voice imitation.
 
 ## Deduplication Verdict
 
@@ -116,8 +119,8 @@ Haig remains the sole function owner; add at most one support expert plus the na
 | Negative-control behavior | RUNTIME OBSERVED in deterministic verifier |
 | Finished artifact production | MODEL RUNTIME OBSERVED |
 | Source-mechanic recognition | MODEL-JUDGED PASS after one repair |
-| Farrice blind verdict | NO EVENT |
-| A-tier promotion | NOT AUTHORIZED |
+| Farrice blind verdict | PASS — EVAL-066 |
+| A-tier promotion | AUTHORIZED AND RECORDED |
 | Public/client deployment | NO EVENT |
 | Reader response | UNTESTED |
 | Revenue or market effect | NO EVENT |
@@ -137,8 +140,8 @@ Diagnose the highest causal reader-bridge failure, preserve the original, produc
 
 ## Final Status
 
-**LOCKED:** Cold B-tier system, 11 workflows, seven prompts, one owner, source and proof boundaries.
+**LOCKED:** A-tier system, 11 workflows, seven prompts, one owner, source and proof boundaries.
 
-**PARKED:** A-tier promotion, global mirrors, external publication, expert endorsement, reader-response claims, and market validation.
+**PARKED:** Global mirrors, external publication, expert endorsement, reader-response claims, and market validation.
 
-**NEXT GATE:** Farrice may run or judge the two proof artifacts. A human blind-pass verdict can promote or send the system back for one explicitly authorized revision cycle.
+**NEXT GATE:** Apply the A-tier system to real material. Reader response and market outcomes remain separate from promotion.

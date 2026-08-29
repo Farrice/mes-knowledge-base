@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Deterministic cold-build verifier for matt-haig-reader-bridge.
+"""Deterministic build and promotion verifier for matt-haig-reader-bridge.
 
 Proves source/structure/prompt/menu/output-contract integrity and exercises
-negative-control policy. It never upgrades model judgment into human or market
-proof.
+negative-control policy. Human promotion is accepted only from a recorded,
+Farrice-calibrated blind PASS; market proof remains separate.
 """
 
 from __future__ import annotations
@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SKILL = ROOT / "skills" / "matt-haig-reader-bridge"
 EXTRACTION = ROOT / "extractions" / "matt-haig-reader-bridge"
 SOURCE = ROOT / "extractions" / "video-context" / "WKQDevJ6XTk"
+EVAL_SET = ROOT / "evolution_store" / "ground_truth" / "eval_set_v1.jsonl"
 
 WORKFLOWS = {
     "haig-reader-bridge",
@@ -85,7 +86,7 @@ def route_case(text: str) -> str:
 def verify_structure() -> None:
     skill_text = read(SKILL / "SKILL.md")
     genius = read(SKILL / "genius.md")
-    for marker in ("Cold B-tier", "Recognition Test", "Do-Not List", "Source Boundary"):
+    for marker in ("A-tier, Farrice-calibrated", "Recognition Test", "Do-Not List", "Source Boundary"):
         if marker not in skill_text:
             fail(f"SKILL.md missing marker: {marker}")
     if len(re.findall(r"^### \d+\.", genius, re.M)) != 18:
@@ -164,6 +165,31 @@ def verify_proof_outputs() -> None:
         fail("proof output crosses a prohibited claim or voice boundary")
 
 
+def verify_human_promotion() -> None:
+    verdict = read(EXTRACTION / "human-a-tier-verdict.md")
+    if "PASS — A-TIER PROMOTION EARNED THROUGH THE PREFERRED PATH" not in verdict:
+        fail("human promotion artifact does not carry the A-tier PASS")
+    if "Reader or market outcome | NO EVENT" not in verdict:
+        fail("human promotion artifact collapses promotion into market proof")
+
+    entries = []
+    for line in read(EVAL_SET).splitlines():
+        if not line.strip():
+            continue
+        try:
+            entries.append(json.loads(line))
+        except json.JSONDecodeError:
+            continue
+    human_passes = [
+        entry for entry in entries
+        if entry.get("domain") == "matt-haig-reader-bridge"
+        and entry.get("calibrated_by_human") is True
+        and (entry.get("blind_pass") or {}).get("verdict") == "PASS"
+    ]
+    if not human_passes or human_passes[-1].get("id") != "EVAL-066":
+        fail("EVAL-066 is not the latest Farrice-calibrated blind PASS")
+
+
 def self_test() -> None:
     """Sabotage both signal detection and failure detection without disk writes."""
     malformed = "## Role & Activation\n## Input Required\n"
@@ -189,11 +215,12 @@ def main() -> int:
         ("source_and_menu", verify_source_and_menu),
         ("negative_controls", verify_negative_controls),
         ("proof_outputs", verify_proof_outputs),
+        ("human_promotion", verify_human_promotion),
     ]
     for name, check in checks:
         check()
         print(f"PASS {name}")
-    print("RESULT PASS — STRUCTURAL_VERIFIED + MODEL_RUNTIME_OBSERVED; HUMAN_APPROVED and MARKET_OBSERVED remain false")
+    print("RESULT PASS — STRUCTURAL_VERIFIED + MODEL_RUNTIME_OBSERVED + HUMAN_APPROVED; MARKET_OBSERVED remains false")
     return 0
 
 

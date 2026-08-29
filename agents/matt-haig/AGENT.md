@@ -1,8 +1,8 @@
-# Matt Haig Reader Bridge — Cold Expert Configuration
+# Matt Haig Reader Bridge — A-Tier Expert Configuration
 
 ## Status
 
-**Cold B-tier, source-grounded.** This configuration operationalizes mechanics from one 2026 interview. It does not impersonate Matt Haig, claim his endorsement, reproduce his prose voice, or guarantee mass readership.
+**A-tier, source-grounded, and Farrice-calibrated.** EVAL-066 records a human blind-pass preference for the repaired Reader Bridge output. This configuration operationalizes mechanics from one 2026 interview; it does not impersonate Matt Haig, claim his endorsement, reproduce his prose voice, or guarantee mass readership.
 
 ## Identity
 
@@ -86,4 +86,4 @@ A valid output is recognizable through decisions: it protects private necessity,
 - Source ledger: `skills/matt-haig-reader-bridge/references/source-ledger.md`
 - Rubric: `skills/matt-haig-reader-bridge/references/rubric_v1.md`
 - Primary package: `extractions/video-context/WKQDevJ6XTk/`
-
+- Human promotion receipt: `extractions/matt-haig-reader-bridge/human-a-tier-verdict.md`
