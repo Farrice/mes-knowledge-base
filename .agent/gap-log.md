@@ -39,3 +39,11 @@
 **Mode**: Advisory
 **Resolution**: unresolved (auto-logged by skill_router_hook, top match score 2.7)
 **Skill Created**: none
+
+## 2026-08-28 — merge-unblock
+
+**Task**: unblock it and merge please
+**Severity**: Medium
+**Mode**: Advisory
+**Resolution**: unresolved (auto-logged by skill_router_hook, top match score 0.0)
+**Skill Created**: none

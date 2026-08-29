@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-28T23:39:50.603291+00:00",
+  "ts": "2026-08-29T05:42:50.018336+00:00",
   "dry_run": false,
-  "lanes": 30,
+  "lanes": 31,
   "merged": 0,
-  "torn_down": 1,
-  "parked": 9,
+  "torn_down": 0,
+  "parked": 11,
   "live": 20,
-  "stranded_commits": 82,
+  "stranded_commits": 86,
   "results": [
     {
       "branch": "worktree-apify-decommission",
@@ -16,29 +16,18 @@
       "conflicts": [
         ".agent/sessions/seen-injections-8bbde7f8-5a0e-442e-b629-a134a5c22b5e.json",
         "PROJECTS.md",
+        "SLASH_COMMANDS.md",
         "deliverables/research-briefs/index.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md",
         "deliverables/research-briefs/mission-board/mission-board-brief.html",
         "deliverables/research-briefs/mission-board/mission-board-context.json",
         "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
         "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.json",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.json",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md",
-        "deliverables/research-briefs/mission-go/mission-go-brief-share.html",
         "deliverables/research-briefs/mission-go/mission-go-brief.html",
-        "deliverables/research-briefs/mission-go/mission-go-brief.json",
-        "deliverables/research-briefs/mission-go/mission-go-brief.md",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief-share.html",
         "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.json",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.md",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief-share.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.json",
@@ -52,20 +41,18 @@
         "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.json",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.md",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief-share.html",
         "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.json",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.md",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.json",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md",
         "directives/feedback-ratchet.md",
         "directives/quality_gate.md",
+        "directives/session-state-protocol.md",
         "guides/INDEX.md"
       ],
       "action": "parked-conflict",
-      "detail": "49 file(s) collide \u2014 needs resolution"
+      "detail": "36 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "worktree-cash-paths-research",
@@ -103,29 +90,18 @@
         ".agent/homebase/homebase.html",
         ".agent/perplexity-usage.json",
         "PROJECTS.md",
+        "SLASH_COMMANDS.md",
         "deliverables/research-briefs/index.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md",
         "deliverables/research-briefs/mission-board/mission-board-brief.html",
         "deliverables/research-briefs/mission-board/mission-board-context.json",
         "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
         "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.json",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.json",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md",
-        "deliverables/research-briefs/mission-go/mission-go-brief-share.html",
         "deliverables/research-briefs/mission-go/mission-go-brief.html",
-        "deliverables/research-briefs/mission-go/mission-go-brief.json",
-        "deliverables/research-briefs/mission-go/mission-go-brief.md",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief-share.html",
         "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.json",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.md",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief-share.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.json",
@@ -139,10 +115,7 @@
         "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.json",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.md",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief-share.html",
         "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.json",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.md",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.json",
@@ -153,7 +126,7 @@
         "guides/INDEX.md"
       ],
       "action": "parked-conflict",
-      "detail": "51 file(s) collide \u2014 needs resolution"
+      "detail": "37 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "worktree-mailroom",
@@ -162,29 +135,18 @@
       "dirty_files": 0,
       "conflicts": [
         "PROJECTS.md",
+        "SLASH_COMMANDS.md",
         "deliverables/research-briefs/index.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html",
         "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json",
-        "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md",
         "deliverables/research-briefs/mission-board/mission-board-brief.html",
         "deliverables/research-briefs/mission-board/mission-board-context.json",
         "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
         "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.json",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
         "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.json",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md",
-        "deliverables/research-briefs/mission-go/mission-go-brief-share.html",
         "deliverables/research-briefs/mission-go/mission-go-brief.html",
-        "deliverables/research-briefs/mission-go/mission-go-brief.json",
-        "deliverables/research-briefs/mission-go/mission-go-brief.md",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief-share.html",
         "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.json",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.md",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief-share.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html",
         "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.json",
@@ -198,20 +160,18 @@
         "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.json",
         "deliverables/research-briefs/mission-mission/mission-mission-brief.md",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief-share.html",
         "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.json",
-        "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.md",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.json",
         "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md",
         "directives/feedback-ratchet.md",
         "directives/quality_gate.md",
+        "directives/session-state-protocol.md",
         "guides/INDEX.md"
       ],
       "action": "parked-conflict",
-      "detail": "48 file(s) collide \u2014 needs resolution"
+      "detail": "35 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/vigilant-leakey-5f6293",
@@ -237,11 +197,12 @@
       "commits_ahead": 5,
       "dirty_files": 0,
       "conflicts": [
+        "SLASH_COMMANDS.md",
         "knowledge/compiled/manifest.json",
         "knowledge/index.md"
       ],
       "action": "parked-conflict",
-      "detail": "2 file(s) collide \u2014 needs resolution"
+      "detail": "3 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/briefing-room-gtm-preview",
@@ -290,6 +251,15 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "9 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/cos-parity-repair",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/cos-parity-repair",
+      "commits_ahead": 1,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/cos-parity-repair \u2014 main tree dirty (6 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/cos-parity-repair"
     },
     {
       "branch": "codex/daniel-priestley-experience-revenue",
@@ -342,11 +312,13 @@
       "commits_ahead": 7,
       "dirty_files": 0,
       "conflicts": [
+        "SLASH_COMMANDS.md",
         "directives/feedback-ratchet.md",
-        "directives/quality_gate.md"
+        "directives/quality_gate.md",
+        "directives/session-state-protocol.md"
       ],
       "action": "parked-conflict",
-      "detail": "2 file(s) collide \u2014 needs resolution"
+      "detail": "4 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/mert-consultancy-spine",
@@ -425,11 +397,13 @@
     {
       "branch": "codex/wkqdevj6xtk-source-skill",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/wkqdevj6xtk-source-skill",
-      "commits_ahead": 0,
+      "commits_ahead": 3,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "torn-down",
-      "detail": "LANE PARKED: codex/wkqdevj6xtk-source-skill \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/wkqdevj6xtk-source-skill"
+      "conflicts": [
+        "SLASH_COMMANDS.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "1 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/zero-momentum-design-repair",
