@@ -241,6 +241,7 @@
 | `mark-manson-values-psychology` | **mark-manson-values-psychology** | the mindset layer for transformation coaching, values psychology & wellbeing | 3 | 0 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `marketing-studio-director` | **marketing-studio-director** | higgsfield marketing studio prompt director, universal director | 9 | 0 |
+| `matt-haig-reader-bridge` | **matt-haig-reader-bridge** | source-grounded narrative craft for carrying personally necessary, slightly strange emotional truth to a broad reader without trend imitation, prestige performance | 11 | 0 |
 | `matt-mcgarry-newsletters` | **Matt McGarry — Newsletter Growth & Email Monetization** | launch, newsletter-as-product design, paid-growth gates with hard benchmarks | 3 | 0 |
 | `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | 5m+ with 100% organic linkedin, 5,000+ booked calls, zero ads, zero virality, linkedin revenue architecture | 13 | 0 |
 | `matthew-volkwyn-copywriting` | **matthew-volkwyn-copywriting** | dual-lens hooks, named close archive, voice trinity | 3 | 0 |

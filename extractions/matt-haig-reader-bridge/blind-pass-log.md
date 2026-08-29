@@ -1,0 +1,6 @@
+# Blind-Pass Log — matt-haig-reader-bridge
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-08-28T17:29:20 — **FAIL** — eval: EVAL-064 — generated: `extractions/matt-haig-reader-bridge/proof/fixture-01-output.md` — reference: `extractions/matt-haig-reader-bridge/reference-corpus/01-interview-private-reader.md` — corpus: 2 piece(s) — Model side-by-side against held-out 00:25:59 and 00:41:14 interview pieces: source mechanics held, but fixture-01 was too composed and symmetrical; the opening taxonomy and final 'made a mistake' line announced craft. Repair only texture and underexplanation, then retry once. Not human-calibrated.
+- 2026-08-28T17:30:39 — **PASS** — eval: EVAL-065 — generated: `extractions/matt-haig-reader-bridge/proof/fixture-01-output-round2.md` — reference: `extractions/matt-haig-reader-bridge/reference-corpus` — corpus: 2 piece(s) — Model retry after one bounded texture repair, judged against held-out 00:25:59 private-reader and 00:41:14 feeling-contagion interview pieces. Round 2 removes the composed taxonomy and announced 'beautiful mistake' metaphor; it keeps plain language, uncertainty, writer-state pressure, and underexplained residue. PASS for source-mechanic recognition and rough texture only. Not human-calibrated; A-tier remains unavailable.
