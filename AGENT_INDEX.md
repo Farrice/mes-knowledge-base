@@ -148,7 +148,7 @@
 | `mark-forsyth` | **mark-forsyth** | enchantment, enchantment-vs-efficiency triage, end-to-end composition in the enchantment method, etymology, etymology and slang as a wedge into worlds, line forging under fixed content, memorable language, rhetoric, the 24-figure catalog as memory engineering, the inky fool, the practice regimen, voice establishment, writing craft |
 | `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage |
 | `mark-manson` | **mark-manson** | behavior change, behavior-first value change, change-window exploitation, durable wellbeing (mindset layer for transformation coaching), sacrifice-based hierarchy diagnosis, three-layer wellbeing architecture, value discovery, values psychology, values psychology agent |
-| `matt-haig` | **Matt Haig Reader Bridge** | cold expert configuration |
+| `matt-haig` | **Matt Haig Reader Bridge** | a-tier expert configuration |
 | `matt-mcgarry` | **matt-mcgarry** | email monetization, monetization stack building, newsletter growth, newsletter-as-product design, paid growth operations, source-quality economics, two-channel architecture |
 | `matthew-lakajev` | **matthew-lakajev** | category-of-one niching, conversation-layer prospecting, founder psychology & ip generation, linkedin client acquisition, never-pitch dm conversion, offer viability, offer viability testing, organic linkedin funnel architecture, organic sales funnels, plain-text email monetization, trust architecture |
 | `matthew-volkwyn` | **matthew-volkwyn** | close architecture, copy auditing, copy coach, copywriter business strategy, copywriting critique, full-stack copy positioning, full-stack positioning strategist, hook engineering, voice capture and preservation, voice engineering |
