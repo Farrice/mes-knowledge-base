@@ -111,7 +111,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 |-------|-------|
 | **Last Activated** | 2026-08-29 (chain_runner finalize for luke-iha-proof-ladder) |
 | **Last Activated** | 2026-08-29 (chain_runner finalize for luke-iha-proof-ladder) |
-| **Activation Count** | 886 |
+| **Activation Count** | 887 |
 | **30-Day Review Date** | 2026-09-28 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
