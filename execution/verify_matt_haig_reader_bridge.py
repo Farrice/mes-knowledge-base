@@ -133,6 +133,10 @@ def verify_source_and_menu() -> None:
         wrapper_path = f".agent/workflows/{slug}.md"
         if wrapper_path not in shim:
             fail(f"command shim does not point to {wrapper_path}")
+    # The prompt index is an ignored, per-checkout cache. Rebuild it here so a
+    # clean integration checkout proves discovery from the merged source files
+    # instead of inheriting a potentially stale cache from an earlier session.
+    run("python3", "execution/prompt_library.py", "build")
     search = run("python3", "execution/prompt_library.py", "search", "Matt Haig Reader Bridge")
     if "matt-haig-reader-bridge" not in search:
         fail("prompt library cannot discover the skill")
