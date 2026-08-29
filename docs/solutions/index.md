@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-29 · linkedin-zero-to-840k-growth-os · Turn a YouTube video and full HubSpot guide into a source-grounded, runnable LinkedIn growth operating system for personal and client accounts
 - 2026-08-28 · cross-harness-contract-runtime-parity · A shared workflow contract was present in both Claude and Codex, but its executable dependency remained on an unmerged Claude branch and the bare Codex command lacked a hot bridge.
 - 2026-08-24 · connected-story-owner-boundary · A new storytelling source overlapped existing Jun and Shaan capabilities and risked creating a duplicate mega-skill or forcing story into every output.
 - 2026-08-21 · documented-but-unwired-read-paths · a memory or knowledge store writes perfectly on launchd schedule yet 'feels dormant' — its retrieval side exists only as a markdown instruction ('always run memory_facade first'), so it fires at model discretion under 5% of prompts while every hook-wired injection path fires on all of them
