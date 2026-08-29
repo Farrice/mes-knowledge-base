@@ -34,4 +34,3 @@
 - **Next input:** traceable facts and proof objects for story dosage
 - **Validation:** Shaan `FULL STORY` still requires want, obstacle, change, and supported turn
 - **Open risk:** a documented contrast does not establish causality when the turn remains unknown
-

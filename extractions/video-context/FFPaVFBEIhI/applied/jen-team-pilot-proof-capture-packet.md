@@ -196,4 +196,3 @@ evidence_paths | uncertainty | claim_safe_public_summary
   exists; Shaan resumes ownership only at the dosage decision.
 - **External actions:** none.
 - **Live usefulness:** `UNTESTED` until the first authorized capture cycle.
-

@@ -57,4 +57,3 @@ the material returns to Shaan for dosage and one body owner.
 - The visual teaching quality, whiteboard diagrams, slide wording, camera/editing choices, and audience reactions beyond caption markers.
 - The source-reported commercial results and social metrics.
 - Whether the proof-before-story handoff improves live production output; this build supplies an applied scenario and negative controls, not market or publishing proof.
-

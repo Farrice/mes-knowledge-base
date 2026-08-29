@@ -6,4 +6,3 @@ No outreach event is recorded.
 states, payment, delivery, use, results, and permissions. This file exists only
 as the stable companion path named by the offer brief; do not maintain a second
 event table here.
-

@@ -272,4 +272,3 @@ No improvement claim is made without a real exposure event.
    inside `/watch-and-remix` as a bounded test, not a new universal framework.
 4. **Thank-you-economy experiment:** treat service-as-content funding as an
    `UNTESTED` business hypothesis requiring real audience and sponsor evidence.
-

@@ -46,4 +46,3 @@ Do not create placeholder evidence files from the example.
   published.
 
 Authority: `extractions/video-context/FFPaVFBEIhI/applied/jen-team-pilot-proof-capture-packet.md`.
-

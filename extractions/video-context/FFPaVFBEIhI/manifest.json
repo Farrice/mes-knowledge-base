@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "analysis.md",
-      "bytes": 5130,
-      "sha256": "81554198241118ecd2c094863ed1de45f825c12ab792ae696d97cb5747ebec55"
+      "bytes": 5129,
+      "sha256": "a30948785b0c88234d0213b7d6023112e70ec59797f9946c9ae17db2c2778bdb"
     },
     {
       "path": "behavior-proof.md",
@@ -41,8 +41,8 @@
     },
     {
       "path": "skill-system-contract.md",
-      "bytes": 4044,
-      "sha256": "4fb59f8ee5afefb1fc5b4002380630283d2a5d5601e9319b1ac8151bef3a6aa3"
+      "bytes": 4043,
+      "sha256": "d826c733e1aff39bbb92612c8e882baaa3bbc59afc4dcaaf47b2abdd5628dc95"
     },
     {
       "path": "skill-system-contract.metadata.json",
@@ -56,8 +56,8 @@
     },
     {
       "path": "transcript.vtt",
-      "bytes": 447681,
-      "sha256": "7c77d5f5eb2dd0cd584265d4ed9cf3000a21457d859adec704d7e5aed874d26f"
+      "bytes": 446166,
+      "sha256": "f39fe02132891b95715302838ef6d0195d48541786043c6a0ec8d97eeb0df483"
     },
     {
       "path": "transcript_segments.json",
@@ -81,8 +81,8 @@
     },
     {
       "path": "virtuoso-mastery-extraction.md",
-      "bytes": 12445,
-      "sha256": "47a1dd81cc660c0d00e1042c0d83fa90a0f815487d661e1f382cf0d15be9a59a"
+      "bytes": 12444,
+      "sha256": "dcacb9c92f2dcd534f7e914b3059bde33d00820ed6eb3f32617d2b72fb42321c"
     },
     {
       "path": "virtuoso-mastery-extraction.metadata.json",
