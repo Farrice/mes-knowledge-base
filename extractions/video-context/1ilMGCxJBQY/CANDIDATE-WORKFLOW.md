@@ -13,15 +13,16 @@ Status: judgment candidate, not live runtime.
 
 ## Stage 2 — Seven-axis scan
 
-For each of topic, substance depth, stories/scenarios, avatar specificity, delivery style, storytelling format, and visual format:
+Use topic, substance depth, stories/scenarios, avatar specificity, delivery style, storytelling format, and visual format as backstage search lenses.
 
-1. describe the competitive baseline;
-2. cite representative evidence;
-3. identify a credible gap;
-4. tie the gap to creator capability;
-5. rate copyability as low, medium, or high.
+1. Describe the category's default promise and execution.
+2. Search the lenses for capability-backed differences.
+3. Surface the one controlling contrast most likely to change buyer choice or recall.
+4. Run a blind distinction test against three nearby alternatives.
+5. Add one supporting contrast only if the first test fails.
+6. Stop when the distinction is clear and park the unused lenses.
 
-Select the smallest stack that produces an obvious and believable contrast.
+A completed or scored seven-axis grid is a failure unless the user explicitly asks for research notes.
 
 ## Stage 3 — Transpositioning
 
@@ -54,11 +55,11 @@ Do this before seeing the results.
 
 ## Stage 6 — Two-week decision
 
-After four executions per core bucket:
+After at least four fair executions per core bucket:
 
 1. compare the median to its job-specific threshold;
 2. inspect qualitative signals and confounders;
-3. decide `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE`;
+3. decide `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE`; four reps are the floor, not a forced verdict;
 4. promote the strongest candidate if a bucket is killed;
 5. record what changes in the next batch.
 

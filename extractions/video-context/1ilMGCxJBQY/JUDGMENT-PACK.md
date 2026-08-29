@@ -2,14 +2,14 @@
 
 ## Decision in one page
 
-This video contains one strong, integrated operating model: build category authority by finding a capability-backed position, then run a one-broad/two-narrow content portfolio with one bounded experiment and a two-week pruning loop.
+This video contains one strong, integrated operating model: build category authority by finding a capability-backed position, then run a one-broad/two-narrow content portfolio with one bounded experiment and an evidence-floor review loop.
 
 The source is worth keeping. It is not worth a new standalone skill system. Most of the research and cadence mechanics already exist in the Kallaway Content OS and the sealed Growth Blueprint OS candidate. The additive value is:
 
 - **authority density** as a warning against low-fit audience growth;
-- a **seven-axis positioning scan**;
+- a **decisive positioning contrast diagnosis** using seven backstage search lenses;
 - **separate scorecards** for reach and trust content;
-- a **four-rep decision cadence** with an inconclusive state;
+- a **four-rep minimum evidence floor** with an inconclusive state;
 - explicit **capability-backed differentiation**.
 
 ## What was actually completed
@@ -21,9 +21,10 @@ The source is worth keeping. It is not worth a new standalone skill system. Most
 - Claim and uncertainty report.
 - Full mastery extraction with 14 patterns, seven hidden mechanics, four-level 30-day method, execution pathways, failure modes, and transcendence opportunities.
 - Existing-system overlap audit and integration verdict.
-- Candidate Skill System Contract and workflow.
-- Four born-v2 prompts with acceptance tests.
+- Approved Skill System Contract and live companion workflow inside the existing Kallaway owner.
+- Four indexed born-v2 prompts with acceptance tests.
 - Frozen behavior proof and negative control.
+- Dedicated verifier covering source completeness, contrast-not-checklist behavior, four-rep evidence floors, and corrupted-result rejection.
 - Human judgment card.
 
 ## Read in this order
@@ -48,7 +49,7 @@ The source is worth keeping. It is not worth a new standalone skill system. Most
 
 ## Final extraction verdict
 
-**Do this:** preserve the complete source package and, after human approval, enrich the existing Kallaway system with the authority-density companion.
+**Do this:** preserve the complete source package and enrich the existing Kallaway system with the approved authority-density companion.
 
 **Do not do:** create a separate Micro-Fame OS, pretend Sandcastles is required, or present the creator’s results and platform claims as independently verified facts.
 
@@ -56,6 +57,8 @@ The source is worth keeping. It is not worth a new standalone skill system. Most
 
 ## Current state
 
-- `LOCKED`: source evidence, proof labels, existing Kallaway function ownership, and no silent live promotion.
-- `PARKED`: merging the prior Growth Blueprint branch; editing live skills; registry/global changes; external validation of outcome claims.
-- `NEXT ACTION`: Farrice judges the card and marks accept, modify, or reject.
+- `LOCKED`: source evidence, proof labels, existing Kallaway function ownership, authority density, strategically clean broad/narrow/chaos portfolio, contrast-not-checklist positioning, and four reps as the floor.
+- `ACCEPTED`: companion workflow plus four prompts inside the existing Kallaway Content OS owner.
+- `VERIFIED`: top-ranked workflow and command routing, prompt-library discovery, contract integrity, strict Codex live-surface health, factual grounding, and sabotage-tested behavior controls.
+- `PARKED`: merging the prior Growth Blueprint branch, global changes, and external validation of outcome claims.
+- `NEXT ACTION`: Farrice judges the rebuilt V2 behavior proof for remarkability and excellence; structural validation cannot replace that taste verdict.

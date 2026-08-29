@@ -1,76 +1,60 @@
-# Behavior Proof
+# Behavior Proof: V2 After Taste Review
 
-This is a frozen synthetic case. It proves the candidate extension changes a decision; it does not prove market performance.
+## Human verdict on V1
 
-## Input case
+Farrice rated the first health-performance proof **6/10 for remarkability and excellence**: directionally close, but surface-level. The system architecture was accepted as a companion extension. The proof was not allowed to become the exemplar unchanged.
 
-A health-performance advisor wants to attract funded brands that need claim-safe educational content. Current plan:
+## What changed
 
-- Position: “science-backed health content.”
-- Topics: general wellness news, supplement trends, founder advice.
-- Cadence: publish whatever has the largest apparent reach opportunity.
-- Evidence: no supplied analytics; several buyer conversations reportedly focus on claim risk and turning research into usable campaigns.
+- The generic “science-backed health content” position became a consequential buyer decision: **what the evidence permits the campaign to promise**.
+- The seven-axis worksheet was removed. The workflow now surfaces one controlling contrast and adds a supporting contrast only when a blind distinction test still fails.
+- Four reps became the minimum evidence floor, not an automatic kill timer.
+- The case now contains a frozen 14-post dataset that creates an obvious wrong winner if views are treated as authority.
+- Chaos shows strong early signals but remains unpromoted after two reps, proving the floor constrains excitement as well as disappointment.
 
-## Baseline output without the companion
+## Frozen proof case
 
-The generic plan would likely recommend publishing across the three topics, adopting high-performing formats, and tracking engagement. It does not force a distinction between broad audience growth and commercially relevant authority, and “science-backed” remains category-generic.
+The live companion proof is:
 
-## Candidate workflow output
+- `skills/kallaway-content-operating-system/references/authority-density-behavior-proof.md`
+- fixture: `skills/kallaway-content-operating-system/references/fixtures/authority-density-health-performance.json`
 
-### Authority objective
+The scenario uses synthetic economics and is not a current Farrice offer or market result.
 
-Be named by funded health/performance brands as the advisor who turns credible evidence into commercially usable, claim-safe content.
+## Decisive positioning output
 
-Evidence state:
+> **The claim boundary is the creative brief.** We turn the sentence a study can actually support into the strongest promise a health brand can responsibly take to market.
 
-- Reach: `UNKNOWN` — no analytics supplied.
-- Audience fit: `LIKELY` from the stated buyer context, but not observed in this case.
-- Trust behavior: `UNKNOWN` until qualified replies, saves from target accounts, or referrals are captured.
-- Commercial action: `UNKNOWN` until calls, proposals, deposits, or payments are attributed.
+Supporting contrast: show the decision, not just the conclusion. Each piece resolves to `APPROVE`, `REWRITE`, `KILL`, or `NEED MORE PROOF`, with the evidence boundary visible.
 
-### Seven-axis positioning scan
+## Wrong-winner test
 
-| Axis | Generic baseline | Candidate whitespace | Capability dependency | Status |
-|---|---|---|---|---|
-| Topic | broad health/science commentary | evidence-to-campaign decisions for funded brands | research synthesis | UNTESTED |
-| Substance depth | citation-heavy explanation | proof boundary plus usable commercial implication | evidence judgment | UNTESTED |
-| Stories/scenarios | generic case examples | claim-risk decision rooms and campaign tradeoffs | access to real or sanitized cases | UNKNOWN |
-| Avatar | consumers or broad founders | funded health/performance brand teams | buyer access | UNTESTED |
-| Delivery | expert explainer | decisive operator memo with visible proof states | judgment and clarity | UNTESTED |
-| Story format | myth/fact or listicle | claim → evidence → commercial use → boundary | repeatable editorial skill | UNTESTED |
-| Visual format | science graphics | proof ledger plus decision surface | design system | UNTESTED |
+| Bucket | Average views | Qualified authority/commercial evidence | Correct decision |
+|---|---:|---|---|
+| Broad Claim Court | 77,750 | 2 target-account saves; no qualified replies, calls, proposals, or deposits | MODIFY |
+| Narrow Proof to Promise | 7,625 | 39 target-account saves; 8 qualified replies; 3 calls; 1 proposal | KEEP |
+| Narrow Campaign Decision Room | 4,950 | 35 target-account saves; 6 qualified replies; 3 calls; 1 proposal; 1 synthetic deposit | KEEP |
+| Chaos Claim Memo | 11,700 | strong early signals, but only 2 reps | INCONCLUSIVE; CONTINUE TO FOUR |
 
-Smallest-sufficient stack: avatar specificity + substance depth + decision-oriented delivery. Visual difference is parked until the core contrast is proven.
+The baseline content strategy crowns the broad bucket because it reaches ten to sixteen times more people. The companion rejects that false authority win and protects every commercial-quality signal in the fixture.
 
-### 3-2-1 portfolio
+## Verification receipt
 
-| Bucket | Job | Example | Primary evidence |
-|---|---|---|---|
-| Broad: costly health-marketing mistakes | Qualified acquisition | “The supplement claim that makes a strong ad commercially unusable” | target-account reach and qualified follows |
-| Narrow A: evidence-to-creative translation | Authority/trust | “What this study lets a performance brand say—and what it doesn’t” | saves, qualified replies, referrals |
-| Narrow B: claim-safe campaign decisions | Authority/commercial | “The 15-minute proof check before a founder approves the angle” | buyer conversations, proposals, deposits |
-| Chaos: transposed investment-memo format | Exploration | “Bull case / bear case / proof boundary” for one current claim | whether qualified signals exceed narrow-bucket baseline |
+- Companion behavior verifier: **PASS**.
+- Source package: **989 segments**, **13,856 clean words**, and **14 observed spoken-ledger rows**.
+- Routing: `/kallaway-content-os` ranks first for the authority-density job on both workflow and command surfaces.
+- Prompt system: the new Authority Density Diagnostic ranks first for `authority density`; the full born-v2 prompt audit passes **3,930/3,930** files.
+- Negative controls: a corrupted broad-content `KEEP` verdict and a narrow-content decision made before the fourth rep both fail as expected.
+- Proof boundary: the fixture is synthetic; market performance remains **UNTESTED**.
 
-### Precommitted review
+## Behavior delta
 
-- Broad bucket: keep if it recruits target accounts; high reach with low target-account fit triggers `MODIFY`.
-- Narrow buckets: keep if qualified trust or commercial actions appear even at below-median reach.
-- Any bucket: four executions before `KILL`, unless a factual or claim-safety veto fires.
-- No outcome data: `INCONCLUSIVE`, followed by instrumentation—not a fabricated verdict.
+1. **Position:** category-safe description becomes a memorable commercial judgment.
+2. **Scoreboard:** views stop hiding fit, trust, and commercial action.
+3. **Portfolio:** broad content is modified rather than scaled; narrow content is preserved rather than killed.
+4. **Exploration:** promising chaos earns more testing, not premature promotion.
+5. **Learning:** every decision specifies an exact next-batch change.
 
-## Decision change proved
+## Remaining taste gate
 
-The extension changes four material decisions:
-
-1. The position narrows from generic “science-backed” content to a buyer-specific evidence-to-campaign job.
-2. Viral performance is no longer allowed to stand in for authority.
-3. Broad and narrow content receive different scorecards.
-4. Visual differentiation is parked until the capability-backed contrast is proven.
-
-## Negative control
-
-If the same input is reduced to “make seven viral posts,” the system must reject the instruction as insufficient for authority design. It should ask for category, target buyer, proof, and observable trust behavior while still offering a provisional safe test.
-
-## Proof boundary
-
-This case demonstrates behavior change and refusal of false precision. It does not establish that the proposed position has market demand, that the cadence is sustainable, or that any content will generate revenue.
+The revised proof is structurally stronger and changes a consequential decision. Farrice's taste verdict on V2 remains the final excellence gate; no internal score substitutes for that judgment.

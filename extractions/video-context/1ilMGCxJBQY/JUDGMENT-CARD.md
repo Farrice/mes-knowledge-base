@@ -1,5 +1,7 @@
 # Farrice Judgment Card
 
+Verdict received: **ACCEPT AS A COMPANION EXTENSION**, with the taste modifications below.
+
 The extraction is complete. Judge the source and the proposed system extension separately.
 
 ## A. Source truth
@@ -36,18 +38,18 @@ Recommended: **accept as a companion extension** to the Kallaway Content OS / Gr
 
 Your judgment choices:
 
-- `[ ] ACCEPT` — integrate the candidate workflow and four prompts into the existing owner.
+- `[x] ACCEPT` — integrate the candidate workflow and four prompts into the existing owner.
 - `[ ] MODIFY` — name the concepts, rules, or language to change before integration.
 - `[ ] REJECT` — retain the source package only; do not change the live system.
 
 ## C. Taste questions
 
-1. Does “authority density” feel like a useful governing phrase, or clever-but-vague language that should be replaced?
-2. Does the broad/narrow/chaos portfolio feel strategically clean for your work, or too rigid?
-3. Is the seven-axis stack sharp enough to improve positioning judgment, or does it create checkbox strategy?
-4. Should four reps be a default, a floor, or merely a heuristic?
-5. Does the proposed health-performance proof case feel commercially alive enough to warrant live integration?
+1. **Authority density:** accepted as a useful governing phrase.
+2. **Broad/narrow/chaos portfolio:** strategically clean.
+3. **Seven-axis stack:** rejected as checkbox strategy. Revised into backstage search lenses that produce one controlling contrast and, only if necessary, one supporting contrast.
+4. **Four reps:** the minimum evidence floor, not an automatic kill timer.
+5. **Health-performance proof:** V1 rated 6/10 for remarkability and excellence. It was rebuilt around the consequential wrong-winner test, “the claim boundary is the creative brief,” distinct buyer signals, and a held chaos promotion.
 
 ## D. Integration boundary
 
-Nothing in the live skill tree or global Codex behavior has been changed. Promotion, prior-branch merge, and registry updates remain parked until this card receives your verdict.
+The companion workflow and four prompts are approved for the existing Kallaway Content OS owner. Global behavior, a new command, and the prior Growth Blueprint branch remain outside this verdict. If that branch is later merged, its scored seven/eight-axis whitespace grid must be reconciled with this judgment-led contrast rule.

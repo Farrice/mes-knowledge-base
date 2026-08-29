@@ -46,14 +46,16 @@ The prior OS has iteration. This source contributes a memorable bounded rule: fo
 
 The strongest positioning attributes are the ones a competitor cannot copy from a screenshot: expertise, depth, delivery, proof, access, and accumulated judgment. This should be explicit in the whitespace route.
 
-## Recommended integration shape after Farrice's judgment
+## Approved integration shape
 
 1. Add this video as the eleventh Kallaway source package and evidence-map row.
-2. Enrich Magnetic Personal Brand Architecture with authority density, the trusted-name test, and the seven-axis stack.
+2. Enrich the existing owner with authority density, the trusted-name test, and a decisive contrast diagnosis. The seven axes stay backstage; they are not a scored or completed output grid.
 3. Add one companion workflow: `micro-fame-authority-density`.
-4. Add four born-v2 prompts to the existing OS; do not create a new skill family.
+4. Add four born-v2 prompts to the existing OS; do not create a new skill family or command.
 5. If the sealed Growth Blueprint branch is accepted and merged, attach the prompts and workflow there first, then expose them through the Kallaway Content OS router.
-6. Validate against frozen cases for broad-reach inflation, narrow-post false negatives, copied positioning, and unsupported creator claims.
+6. Validate against frozen cases for broad-reach inflation, narrow-post false negatives, premature chaos promotion, checklist positioning, and unsupported creator claims.
+
+Farrice accepted this shape on 2026-08-29. Four reps are the minimum evidence floor; `INCONCLUSIVE` remains available after the floor when evidence is noisy or conflicted.
 
 ## Preservation locks
 

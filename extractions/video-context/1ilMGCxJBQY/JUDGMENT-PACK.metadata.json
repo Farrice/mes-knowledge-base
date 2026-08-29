@@ -3,7 +3,10 @@
   "title": "Kallaway Micro-Fame Judgment Pack",
   "source_video_id": "1ilMGCxJBQY",
   "source_url": "https://www.youtube.com/watch?v=1ilMGCxJBQY",
-  "status": "candidate_for_human_judgment",
-  "promotion_applied": false,
-  "primary_owner": "kallaway-content-operating-system"
+  "status": "accepted_companion_extension",
+  "promotion_applied": true,
+  "primary_owner": "kallaway-content-operating-system",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false
 }
