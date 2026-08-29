@@ -1,8 +1,13 @@
 {
   "title": "Micro-Fame Authority Density: Complete Taste-Test Packet",
   "artifact_type": "taste-test-packet",
-  "status": "ready-for-human-judgment",
+  "status": "depth-revision-ready-for-human-judgment",
   "source_video_id": "1ilMGCxJBQY",
   "synthetic_commercial_case": true,
-  "market_proof": "UNTESTED"
+  "market_proof": "UNTESTED",
+  "human_taste": {
+    "overall": 10,
+    "depth_before_revision": 8,
+    "depth_gap": "Needs a perspective shift or aha moment that opens the reader's mind and transfers authority to the creator."
+  }
 }

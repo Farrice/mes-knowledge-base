@@ -60,5 +60,7 @@ The source is worth keeping. It is not worth a new standalone skill system. Most
 - `LOCKED`: source evidence, proof labels, existing Kallaway function ownership, authority density, strategically clean broad/narrow/chaos portfolio, contrast-not-checklist positioning, and four reps as the floor.
 - `ACCEPTED`: companion workflow plus four prompts inside the existing Kallaway Content OS owner.
 - `VERIFIED`: top-ranked workflow and command routing, prompt-library discovery, contract integrity, strict Codex live-surface health, factual grounding, and sabotage-tested behavior controls.
+- `TASTE`: complete content proof rated 10/10 overall; depth rated 8/10 because explanation did not yet consistently produce a portable perspective shift.
+- `DEPTH REPAIR`: bounded Luke Iha Insight Vectors support now converts narrow authority pieces from evidence explanation into one grounded mental-model shift without exposing another checklist.
 - `PARKED`: merging the prior Growth Blueprint branch, global changes, and external validation of outcome claims.
-- `NEXT ACTION`: Farrice judges the rebuilt V2 behavior proof for remarkability and excellence; structural validation cannot replace that taste verdict.
+- `NEXT ACTION`: Farrice judges whether the injected perspective shifts close the remaining depth gap; structural validation cannot replace that taste verdict.

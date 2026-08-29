@@ -16,6 +16,7 @@ SOURCE = ROOT / "extractions" / "video-context" / "1ilMGCxJBQY"
 WORKFLOW = SKILL / "workflows" / "micro-fame-authority-density.md"
 PROOF = SKILL / "references" / "authority-density-behavior-proof.md"
 FIXTURE = SKILL / "references" / "fixtures" / "authority-density-health-performance.json"
+TASTE_PROOF = SOURCE / "TASTE-TEST-COMPLETE-CONTENT.md"
 
 PROMPTS = (
     "authority-density-diagnostic.md",
@@ -112,6 +113,19 @@ def main() -> int:
             "KILL",
             "INCONCLUSIVE",
             "Do not collapse these into one authority-density number",
+            "Authority-transfer test",
+            "portable decision rule",
+            "luke-iha-insight-vectors",
+        ),
+        failures,
+    )
+    require_text(
+        TASTE_PROOF,
+        (
+            "invent the bridge between two real ones",
+            "Research draws the edge of the territory",
+            "where certainty stops",
+            "it becomes a map",
         ),
         failures,
     )
@@ -140,7 +154,13 @@ def main() -> int:
     )
     require_text(
         SKILL / "SKILL.md",
-        ("Micro-Fame Authority Density Companion", "smallest decisive contrast"),
+        (
+            "Micro-Fame Authority Density Companion",
+            "smallest decisive contrast",
+            "Authority transfer",
+            "luke-iha-insight-vectors",
+            "portable decision rule",
+        ),
         failures,
     )
 
@@ -187,6 +207,7 @@ def main() -> int:
     print("Kallaway Authority Density companion: PASS")
     print("- source package complete")
     print("- contrast diagnosis rejects checkbox positioning")
+    print("- authority-transfer depth layer changes the reader's portable decision rule")
     print("- four prompts satisfy born-v2 structure")
     print("- vanity-reach, narrow-value, four-rep, and synthetic-proof controls pass")
     print("- corrupted decision and missing-rep controls fail as expected")

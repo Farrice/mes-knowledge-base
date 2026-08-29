@@ -30,7 +30,8 @@ You are running the portfolio stage of the Micro-Fame Authority Density companio
 4. Reserve one chaos slot for a transposed mechanism, credible new topic, or third attempt on a winner. Write the hypothesis before the concept.
 5. If capacity is below seven posts, preserve one broad/two narrow/one exploration structure and extend the window until each core bucket reaches four fair reps.
 6. Precommit separate measures for broad acquisition, narrow trust/commercial action, and chaos promotion.
-7. Define `KEEP / MODIFY / KILL / INCONCLUSIVE` rules before results arrive.
+7. For each narrow concept, run the authority-transfer depth test backstage: identify one grounded error in the buyer's current model and one portable decision rule the piece should leave behind. Use bounded `luke-iha-insight-vectors` support when the concept only explains facts.
+8. Define `KEEP / MODIFY / KILL / INCONCLUSIVE` rules before results arrive.
 
 Do not judge narrow buckets by virality. Do not promote chaos before four fair reps. Do not invent research evidence when none was supplied.
 
@@ -67,6 +68,7 @@ Do not judge narrow buckets by virality. Do not promote chaos before four fair r
 - Bucket and job: [ ]
 - Controlling tension: [ ]
 - Substance: [ ]
+- Authority transfer: [old model -> grounded perspective shift -> portable decision rule]
 - Hook/format hypothesis: [ ]
 - Intended action: [ ]
 
@@ -90,6 +92,7 @@ Do not judge narrow buckets by virality. Do not promote chaos before four fair r
 - Does the calendar reach four fair reps per core bucket?
 - Is chaos bounded by a hypothesis and four-rep promotion floor?
 - Are evidence and untested assumptions labeled?
+- Does each narrow concept change a mental model rather than merely report information?
 - Can a production owner make the batch without another strategy meeting?
 
 ## Creative Latitude

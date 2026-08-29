@@ -65,6 +65,10 @@ therefore creatine makes you bald
 
 The first line came from the study. The last line did not.
 
+That is how a lot of bad health marketing gets built. Nobody has to invent a fact. They only have to invent the bridge between two real ones.
+
+The claim borrows credibility from both facts while hiding that the bridge was never tested. Once you see it, study review changes. Checking whether each fact is true is only half the job. You also have to check whether the study tested the sentence connecting them.
+
 The researchers measured serum hormones. Hair was never assessed.
 
 In 2025, another randomized trial finally measured the outcome people had been arguing about. Thirty-eight resistance-trained men completed 12 weeks of creatine or placebo. Researchers tracked DHT, hair density, follicular units, hair thickness, and other hair measures.
@@ -90,6 +94,8 @@ The 2009 study raised a reasonable question. It never proved the answer people r
 ### The sentence a creatine brand wants
 
 > Creatine doesn't cause hair loss.
+
+Research draws the edge of the territory. Creative strategy finds the strongest sentence that can stand inside it.
 
 ### Decision
 
@@ -121,7 +127,7 @@ That sentence keeps the strength of the result without pretending the study answ
 
 > The first trial to measure the thing people were afraid of found no difference.
 
-The claim becomes more credible when the limit stays visible. A careful sentence gives the buyer something solid to believe. An absolute sentence gives a critic one loose brick to pull out.
+The study limit becomes part of the reason to believe: exact population, dose, duration, and result. A careful sentence gives the buyer something solid. An absolute sentence gives a critic one loose brick to pull out.
 
 **Source note:** The trial limitations include its 12-week duration, male-only sample, plasma rather than scalp androgen measurement, and missing family-history data.
 
@@ -153,6 +159,10 @@ The new study is useful because it measured hair directly. The submitted copy wa
 
 1. “The science has settled it” turns one useful trial into permanent certainty.
 2. “Keep your hair” reads like a product outcome, even though the study found no between-group difference over 12 weeks. It did not prove a protective effect.
+
+Absolute copy often looks stronger because it deletes uncertainty. It also deletes the evidence trail that makes the claim believable.
+
+A health brand earns authority by showing exactly where certainty stops. In this case, the limit supplies the hook: 12 weeks, hair measured, no difference.
 
 The campaign does not need a louder conclusion. It needs the exact fact competitors are skipping.
 
@@ -187,6 +197,8 @@ If a health brand sent me this claim before launch, the submitted version would 
 **Job:** Controlled-chaos exploration  
 **Format:** Evidence memo adapted from an investment memo  
 **Claim under review:** “Creatine doesn't cause hair loss.”
+
+Uncertainty usually appears in campaign work as a blank space or a warning label. In a claim memo, it becomes a map: what can ship now, what stays out, and which next study would change the decision.
 
 ### Bull case
 
@@ -223,7 +235,7 @@ One author also disclosed previous research support or in-kind gifts from nutrit
 
 A longer trial, a larger sample, prespecified analysis by family-history risk, scalp-level androgen measures, and inclusion of people already concerned enough to pursue hair-loss treatment.
 
-Until then, the clean claim is narrower than the confident one. It is also harder to knock down.
+The unanswered questions tell the brand where its next dollar of evidence should go. Until then, the clean claim is narrower than the confident one. It is also harder to knock down.
 
 ---
 

@@ -43,6 +43,7 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 | Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving human judgment. |
 | Strategy and buyer intent | `kallaway-content-psychology` | Choose the content market, dopamine strategy, buyer path, and conversion intent. |
 | Authority density | `workflows/micro-fame-authority-density.md` | Separate reach from fit, trust, and commercial action; find the decisive positioning contrast; run the broad/narrow/chaos portfolio; review after the four-rep floor. |
+| Authority transfer | `luke-iha-insight-vectors` | Add one grounded mental-model shift when authority content explains evidence without giving the reader a portable new rule. |
 | Production loop | `kallaway-content-system` | Run Topic -> Format -> Substance -> Hook -> Script -> Edit -> Batch Feedback. |
 | Retention | `kallaway-addictive-storytelling` | Engineer stakes, big question, head fake, rehook, and loop density. |
 | Audience obsession | `kallaway-audience-obsession` | Build suggestion, belief shift, proof, and action-layer content. |
@@ -78,7 +79,7 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 
 **Micro-Fame Authority Engine**
 
-`micro-fame-authority-density -> kallaway-content-psychology -> /kcs-topic-format -> /kcs-performance-loop -> kallaway-social-commerce`
+`micro-fame-authority-density -> luke-iha-insight-vectors when the depth test fails -> kallaway-content-psychology -> /kcs-topic-format -> /kcs-performance-loop -> kallaway-social-commerce`
 
 **Hook And Story Upgrade**
 
@@ -115,6 +116,7 @@ Every run must prove:
 5. Batch learning and monetization are considered when the work is more than a single content piece.
 6. Positioning work identifies the smallest decisive contrast instead of filling a seven-axis checklist.
 7. Broad reach, audience fit, trust behavior, and commercial action remain separate, and four reps are treated as the minimum evidence floor.
+8. Narrow authority content gives the reader one grounded perspective shift or portable decision rule; factual explanation alone is credibility, not complete authority transfer.
 
 ## File Map
 

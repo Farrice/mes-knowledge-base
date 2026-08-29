@@ -76,6 +76,22 @@ Prefer differences that require judgment, proof, access, accumulated examples, o
 
 Execution prompt: `references/prompts-v2/positioning-contrast-brief.md` — honor its Output Contract.
 
+## Stage 2.5: Create the authority transfer
+
+For narrow authority or educational content, check whether the draft merely explains the evidence or changes the reader's mental model. When it is only explanatory, use `luke-iha-insight-vectors` as a bounded upstream depth layer.
+
+Work backstage:
+
+1. State the audience's current reasonable model.
+2. Find one grounded structural error: a missing bridge, missing variable, hidden condition, false causal link, or mistaken control point.
+3. Build one perspective shift from the evidence. Do not invent a mechanism or force novelty.
+4. Give the reader a portable decision rule they can apply to the next example without the creator present.
+5. Inject that shift into the piece without naming the vector taxonomy or adding a visible worksheet.
+
+Use at most one primary shift in a short piece. If the evidence cannot support a real shift, keep the piece useful and factual rather than manufacturing an aha moment.
+
+**Authority-transfer test:** after reading, can the intended buyer inspect the next claim, campaign, or decision differently? If not, the piece may be credible but it has not yet transferred authority.
+
 ## Stage 3: Build the authority portfolio
 
 Choose:
@@ -90,6 +106,7 @@ Precommit different measures:
 
 - broad bucket: qualified reach, target-account follows, and entry into the intended category;
 - narrow buckets: saves, qualified replies, referrals, buyer conversations, proposals, deposits, or attributed action;
+- narrow authority quality: whether a reader can repeat and apply the perspective shift to a new decision;
 - chaos: whether the experiment earns enough evidence to enter a core-bucket trial.
 
 Execution prompt: `references/prompts-v2/authority-321-batch-plan.md` — honor its Output Contract.
@@ -141,6 +158,7 @@ Do not force all four deliverables when the user only needs one. Every output mu
 - Does the work distinguish reach from fit, trust, and commercial action?
 - Did the contrast diagnosis surface only the differences that change choice or recall?
 - Is every chosen difference backed by a real creator capability?
+- Does narrow authority content change the reader's mental model and leave one portable decision rule?
 - Do broad and narrow buckets have different jobs and measures?
 - Is four reps treated as a floor rather than a mechanical kill rule?
 - Does the decision change the next batch?

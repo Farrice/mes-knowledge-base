@@ -57,4 +57,6 @@ The baseline content strategy crowns the broad bucket because it reaches ten to 
 
 ## Remaining taste gate
 
-The revised proof is structurally stronger and changes a consequential decision. Farrice's taste verdict on V2 remains the final excellence gate; no internal score substitutes for that judgment.
+Farrice rated the complete content proof **10/10 overall**. He rated its depth layer **8/10**: strong and useful, but missing the perspective shift or aha moment that makes the reader feel their mind opened and transfers that intelligence back to the creator as authority.
+
+The live repair adds a bounded `luke-iha-insight-vectors` authority-transfer pass. Each narrow authority piece must move from evidence explanation to one grounded mental-model shift and one portable decision rule. The revised depth treatment remains pending Farrice's taste verdict; no internal score substitutes for it.

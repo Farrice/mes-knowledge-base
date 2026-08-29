@@ -29,9 +29,10 @@ You are reviewing a completed or partially completed authority portfolio. Four f
 3. Separate reach, fit, trust, and commercial action.
 4. Judge each bucket by its declared job and precommitted threshold.
 5. Inspect countervailing evidence: low reach with strong buyer action; high reach with poor fit; execution or distribution confounders.
-6. Return `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE` for each bucket after the floor.
-7. Promote a chaos candidate only after four fair reps and enough evidence to enter a core role.
-8. Specify the exact change to the next batch and write one decision-log row per change.
+6. For narrow authority content, inspect authority-transfer evidence: did qualified readers repeat, save, reference, or apply the new decision rule to another example? Treat absence as a depth diagnosis, not automatic proof of failure.
+7. Return `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE` for each bucket after the floor.
+8. Promote a chaos candidate only after four fair reps and enough evidence to enter a core role.
+9. Specify the exact change to the next batch and write one decision-log row per change.
 
 ## Output Contract
 
@@ -83,6 +84,7 @@ You are reviewing a completed or partially completed authority portfolio. Four f
 - Is each bucket judged by its own job rather than a universal reach metric?
 - Does high reach with poor fit avoid a false win?
 - Does low reach with strong trust or commercial action avoid a false loss?
+- Does narrow content show evidence of a perspective shift being remembered or applied?
 - Is chaos held to the same four-rep floor before promotion?
 - Does the review produce exact next-batch changes rather than commentary?
 
