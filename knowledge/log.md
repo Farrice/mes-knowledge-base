@@ -812,3 +812,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-28 16:03]` **finalize** | Angle Map Brief Repair Plan: creative-director format, four-artifact architecture, implementation ph | general | Ciel Strategic Intelligence — composite:7.7 status:Keep
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-08-29 09:33]` **finalize** | Chris Do proof-before-story mastery extraction and bounded Shaan-to-Luke skill-system expansion | general | extract-mastery — composite:8.0 status:Keep
