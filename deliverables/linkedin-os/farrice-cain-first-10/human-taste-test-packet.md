@@ -23,14 +23,18 @@ The first ten posts then test whether four different types of evidence can earn 
 
 ## Packet contents
 
-1. [Profile architecture](profile.md)
-2. [Ranked idea queue](ranked-ideas.csv)
-3. [First ten-post learning block](first-ten-post-learning-block.md)
-4. [Account configuration](config.json)
-5. [Empty results ledger](posts.csv)
-6. [Operating rhythm](operating-rhythm.md)
-7. [Source ledger](source-ledger.md)
-8. [Quality gate](quality-gate.md)
+1. [Profile architecture v1](profile.md)
+2. [Profile architecture v2: tension pass](profile-v2-tension-pass.md)
+3. [Copy-ready About v2](about-v2-copy-ready.md)
+4. [Profile copy-block audit](profile-copy-block-audit.md)
+5. [Profile v2 quality gate](profile-v2-quality-gate.md)
+6. [Ranked idea queue](ranked-ideas.csv)
+7. [First ten-post learning block](first-ten-post-learning-block.md)
+8. [Account configuration](config.json)
+9. [Empty results ledger](posts.csv)
+10. [Operating rhythm](operating-rhythm.md)
+11. [Source ledger](source-ledger.md)
+12. [Quality gate](quality-gate.md)
 
 ## What changed from the public profile
 
@@ -58,6 +62,16 @@ The first ten posts then test whether four different types of evidence can earn 
 | 10 | Personal | The confidence-buying origin deepens trust without turning into memoir | Depth-rate comments and profile views |
 
 ## Your taste test
+
+### Profile verdict received: FIX, 7/10
+
+**Keep:** the architecture, clarity, expertise, offer cards, concrete deliverables, and decision-ready structure.
+
+**Change:** add enough tension, distinct point of view, and emotional pull that the reader remembers Farrice and wants the offer instead of merely understanding it.
+
+**Why:** the first draft was logical, direct, and useful, but became dry and blasé halfway through. It was not forgettable, but it was not memorable enough to compel action.
+
+**Repair shipped:** [Profile architecture v2: tension pass](profile-v2-tension-pass.md). The [copy-ready About](about-v2-copy-ready.md) isolates the live copy, and the [copy-block audit](profile-copy-block-audit.md) preserves the diagnosis and each structural repair.
 
 Use three verdicts only:
 
