@@ -813,3 +813,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep
 - `[2026-08-29 09:33]` **finalize** | Chris Do proof-before-story mastery extraction and bounded Shaan-to-Luke skill-system expansion | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-08-29 10:58]` **finalize** | Listing Launch Kit proof-before-story diagnosis and exact local proof-capture packet | general | luke-iha — composite:7.0 status:Needs Improvement
+- `[2026-08-29 10:58]` **finalize** | Listing Launch Kit proof-before-story diagnosis and exact local proof-capture packet | general | luke-iha — composite:8.0 status:Keep

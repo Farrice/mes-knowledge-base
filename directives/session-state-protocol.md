@@ -69,7 +69,7 @@ Paraphrasing flow ("We discussed X, then Y") loses specifics. Instead: "Decided:
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-08-29 (chain_runner session checkpoint) |
-| **Activation Count** | 883 |
+| **Activation Count** | 885 |
 | **30-Day Review Date** | 2026-09-28 |
 
 *Created: 2026-02-27 | Compressed: 2026-04-13*
