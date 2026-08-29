@@ -74,3 +74,5 @@
 {"timestamp": "2026-08-09T12:02:50.877758", "workflow": "extract-forge", "skill": "", "expert": "", "task_type": "", "qualifying": true, "sub_agents_spawned": 0, "source": "stop_hook"}
 {"timestamp": "2026-08-18T10:09:50.565133", "workflow": "extract-forge", "skill": "source-command-extract-forge", "expert": "andrew-sean-greer", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-18T10:10:06.784773", "workflow": "extract-forge", "skill": "source-command-extract-forge", "expert": "andrew-sean-greer", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-08-28T17:35:07.984131", "workflow": "extract-forge", "skill": "matt-haig-reader-bridge", "expert": "matt-haig", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-08-28T19:20:10.948398", "workflow": "extract-forge", "skill": "matt-haig-reader-bridge", "expert": "matt-haig", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
