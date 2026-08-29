@@ -1,0 +1,41 @@
+<section class="mybpm-section" aria-label="Product quality proof">
+  <div class="mybpm-proof-strip" style="--proof-columns: {{ section.blocks.size }};">
+    {% for block in section.blocks %}
+      <article class="mybpm-proof-strip__item" {{ block.shopify_attributes }}>
+        <p class="mybpm-kicker">{{ block.settings.label | escape }}</p>
+        <p class="mybpm-proof-strip__value">{{ block.settings.value | escape }}</p>
+        <p class="mybpm-proof-strip__body">{{ block.settings.body | escape }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MyBPM proof strip",
+  "tag": "section",
+  "max_blocks": 4,
+  "disabled_on": { "groups": ["header", "footer"] },
+  "blocks": [
+    {
+      "type": "proof",
+      "name": "Proof point",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label", "default": "WEIGHT" },
+        { "type": "text", "id": "value", "label": "Value", "default": "330 GSM" },
+        { "type": "text", "id": "body", "label": "Body", "default": "Heavyweight cotton with structure, not a disposable event tee." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "MyBPM proof strip",
+      "blocks": [
+        { "type": "proof", "settings": { "label": "WEIGHT", "value": "330 GSM", "body": "Heavyweight cotton with structure, not a disposable event tee." } },
+        { "type": "proof", "settings": { "label": "FIT", "value": "RELAXED", "body": "A loose unisex silhouette built for movement and everyday wear." } },
+        { "type": "proof", "settings": { "label": "SIGNAL", "value": "IF YOU KNOW", "body": "Specific cultural recognition without generic festival graphics." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,46 @@
+{% liquid
+  assign collection_image = collection.image
+  if collection_image == blank and collection.products.first != blank
+    assign collection_image = collection.products.first.images[2] | default: collection.products.first.featured_image
+  endif
+
+  assign short_description = collection.metafields.custom.short_description.value
+  if short_description == blank
+    assign short_description = collection.description | strip_html | truncatewords: 34
+  endif
+%}
+
+<section class="mybpm-collection-hero" aria-labelledby="MybpmCollection-{{ section.id }}">
+  <div class="mybpm-collection-hero__media">
+    {% if collection_image != blank %}
+      {{ collection_image
+        | image_url: width: 1800
+        | image_tag:
+          widths: '700, 1000, 1400, 1800',
+          sizes: '(max-width: 749px) 100vw, 60vw',
+          loading: 'eager',
+          fetchpriority: 'high',
+          alt: collection.title
+      }}
+    {% endif %}
+  </div>
+  <div class="mybpm-collection-hero__content">
+    <p class="mybpm-kicker">{{ section.settings.kicker | escape }}</p>
+    <h1 id="MybpmCollection-{{ section.id }}">{{ collection.title | escape }}</h1>
+    {% if short_description != blank %}
+      <div class="mybpm-collection-hero__description">{{ short_description }}</div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MyBPM collection hero",
+  "tag": "section",
+  "enabled_on": { "templates": ["collection"] },
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "CURRENT DROP" }
+  ],
+  "presets": [{ "name": "MyBPM collection hero" }]
+}
+{% endschema %}
