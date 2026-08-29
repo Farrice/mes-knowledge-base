@@ -5,6 +5,7 @@ Use this compact map before loading `genius.md`. It decides whether Shaan's stor
 ## Evidence labels
 
 - **SHAAN-DERIVED:** Traceable to the canonical transcript package under `extractions/video-context/GlTA4wXSACE/`.
+- **CHRIS-DO-DERIVED:** Traceable to the transcript-only source package under `extractions/video-context/FFPaVFBEIhI/`; adds only the proof-before-story recovery handoff.
 - **INTERNAL EVOLUTION:** A repository-developed extension, preserved but not attributed to Shaan.
 - **SYSTEM GOVERNANCE:** Truth, verification, routing, and expert-composition rules supplied by Antigravity.
 
@@ -56,6 +57,7 @@ Atomic prompts under `references/prompts-v2/` remain available when the user nee
 | Named weakness | Existing owner | Handoff boundary |
 |---|---|---|
 | Ordinary lived material is thin, scattered, or described as “boring” | `/jun-story-engine` → `story-material-miner` | Jun returns a fact-traced LIFE + Safe/Real/Raw + 3P packet. Shaan still decides `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` and assigns one body owner. |
+| A brand or sales request depends on an experience or transformation the audience cannot yet inspect, and the raw material contains claims but no seeable proof | `/proof-portfolio-builder` using `references/chris-do-proof-before-story.md` | Keep the current publishable asset at `NO STORY`; pass the claim, proof inventory, before/after evidence needs, turn gap, capture forms, and permission boundary. Return to Shaan only after real proof exists. |
 | Candidate material may not contain a story | Story Compass | Pass facts and the proposed want, obstacle, and change only |
 | Long-form or high-stakes composed writing | How I Write | Pass the dosage decision, selected Shaan mechanic, source facts, voice target, and truth constraints |
 | Cross-domain narrative architecture | `/narrative-transfer` | Transfer the operation, not surface style |
@@ -94,3 +96,10 @@ Exit condition: [what must pass before delivery]
 ```
 
 Missing presentation context is not story evidence. Keep it unknown, request it when truth, safety, scope, or external shipment depends on it, or use a reversible neutral default and label the asset provisional. Never downgrade or upgrade narrative dosage merely to compensate for missing platform or voice details.
+
+**CHRIS-DO-DERIVED:** Missing proof is different from missing presentation
+context. For brand or sales work, if the requested transformation remains a
+claim the audience would have to imagine, keep the current asset at `NO STORY`
+and use the proof-before-story handoff. Do not apply that handoff to incidents,
+procedures, specifications, calculations, status, or evidence-sensitive domain
+analysis merely because those tasks also use `NO STORY`.
