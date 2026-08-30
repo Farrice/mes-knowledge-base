@@ -1,0 +1,747 @@
+# Video Context Ledger
+
+## Observed Spoken Evidence
+
+- `00:00:00.000` — Over the course of my Instagram career,
+- `00:00:02.000` — I've gotten more than two billion views.
+- `00:00:03.840` — And in today's episode, I'm going to
+- `00:00:04.960` — share with you the seven key lessons
+- `00:00:06.480` — that I've learned about human psychology
+- `00:00:08.240` — along the way. And I'm sure that a more
+- `00:00:10.080` — attention-grabbing title for this video
+- `00:00:11.759` — would have been the seven things that I
+- `00:00:13.120` — learned about the algorithm along the
+- `00:00:14.799` — way. But in all reality, that's kind of
+- `00:00:17.039` — tip number zero, which is that the focus
+- `00:00:19.119` — should be on the audience, not the
+- `00:00:20.960` — algorithm. If you can understand human
+- `00:00:23.119` — psychology and even to take it a step
+- `00:00:24.640` — further, understand the psychology of
+- `00:00:26.080` — your ICP, your ideal customer profile,
+- `00:00:29.279` — then you'll win. You'll get views. You
+- `00:00:31.279` — won't constantly be playing catch-up
+- `00:00:32.719` — trying to figure out what hooks are
+- `00:00:34.000` — trending, what formats are going viral,
+- `00:00:36.160` — and what audios are people using to blow
+- `00:00:38.079` — up their Instagram right now. Instead,
+- `00:00:39.600` — you'll be able to consistently get
+- `00:00:41.040` — views, engagement, and grow your
+- `00:00:42.879` — following. Yes, you need a basic
+- `00:00:44.559` — understanding of how the algorithm
+- `00:00:45.920` — works, but if you can truly understand
+- `00:00:47.520` — human psychology, then you will win on
+- `00:00:50.079` — social media. Fortunately, the algorithm
+- `00:00:51.920` — is designed for humans. And so, even
+- `00:00:53.360` — though the algorithm changes every day,
+- `00:00:55.199` — it's ultimately constantly changing and
+- `00:00:57.360` — evolving and adapting to meet the needs
+- `00:00:59.760` — and the demands and the desires that us
+- `00:01:02.399` — humans, the actual consumers are
+- `00:01:04.320` — expressing. It is changing and being
+- `00:01:06.720` — tweaked to match the triggers and the
+- `00:01:08.960` — signals that we are giving it. And that
+- `00:01:10.479` — leads me directly into the first lesson
+- `00:01:11.840` — learned, which is that people share
+- `00:01:13.600` — posts to say something about themselves,
+- `00:01:16.400` — not necessarily because of the post
+- `00:01:18.240` — itself, and rarely because of the person
+- `00:01:20.240` — who created the post. First of all, I've
+- `00:01:22.000` — talked about this many times before, but
+- `00:01:23.439` — shares are the number one metric for
+- `00:01:25.280` — growth, views, and virality on
+- `00:01:27.439` — Instagram. And next week, I'm going to
+- `00:01:28.960` — be doing an entire episode talking more
+- `00:01:30.720` — in depth about how to get shares. So,
+- `00:01:32.720` — make sure you hit the subscribe button
+- `00:01:33.920` — to stay tuned for that. But in general,
+- `00:01:36.159` — from a human psychology standpoint, when
+- `00:01:38.799` — people share something, they do so
+- `00:01:40.799` — because they're trying to signal or say
+- `00:01:43.040` — something about themselves. Let's say I
+- `00:01:45.360` — see your post and I think it's super
+- `00:01:46.880` — funny and so I send it to my wife Tay. I
+- `00:01:49.280` — am sharing it with her to signal to her
+- `00:01:51.920` — that I am funny or that I am the source
+- `00:01:54.399` — of the funny material. Yes, ultimately
+- `00:01:56.799` — you are the creator. You are the person
+- `00:01:58.159` — who posted the funny meme, but I'm
+- `00:02:00.159` — sharing it to say something about
+- `00:02:01.680` — myself. And so the challenge for you is
+- `00:02:03.439` — to really understand and empathize with
+- `00:02:05.520` — your ideal followers so that you can
+- `00:02:07.200` — know what it is that they want to say
+- `00:02:09.520` — about themselves. What are their
+- `00:02:11.200` — self-beliefs both positively and
+- `00:02:13.200` — negatively? What are they trying to
+- `00:02:14.959` — signal to their friends and families and
+- `00:02:17.040` — the people who follow them? Basically,
+- `00:02:18.879` — when people share your post, it's a way
+- `00:02:20.480` — for them to signal their identity to
+- `00:02:22.560` — others. And when I started thinking more
+- `00:02:24.400` — about this myself and thinking more
+- `00:02:25.840` — about my ideal target followers and
+- `00:02:28.400` — customers, I realized that they're
+- `00:02:29.840` — almost all small business owners. And
+- `00:02:31.920` — universally across the board, small
+- `00:02:33.840` — business owners struggle with lack of
+- `00:02:35.599` — support from friends and family. When
+- `00:02:37.280` — you're first getting started as a solo
+- `00:02:38.480` — entrepreneur, building your personal
+- `00:02:39.920` — brand or your business, it feels like,
+- `00:02:41.760` — "Oh my gosh, I just can't get the
+- `00:02:43.360` — support. My friends and family aren't
+- `00:02:45.120` — hyping me up. I can't grow my
+- `00:02:46.480` — following." And it just feels like
+- `00:02:47.840` — you're yelling into the void. And so I
+- `00:02:49.840` — began creating content that kind of
+- `00:02:52.319` — signaled this or called this out or
+- `00:02:54.239` — sometimes explicitly stated that, you
+- `00:02:56.400` — know, my friends don't support me as
+- `00:02:58.080` — much as the strangers do or it costs
+- `00:02:59.920` — nothing to share and support someone on
+- `00:03:02.319` — Instagram. And as I started creating
+- `00:03:04.080` — messages like that, the small business
+- `00:03:05.599` — owners and soloreneurs and personal
+- `00:03:07.360` — brands who followed me on Instagram
+- `00:03:08.959` — began sharing my posts and those posts
+- `00:03:11.200` — specifically so much more. When you
+- `00:03:13.519` — truly empathize with your ICP and you
+- `00:03:15.519` — understand their psychology, you're also
+- `00:03:18.400` — able to eventually, the highest level of
+- `00:03:20.720` — this is to tap into the things that they
+- `00:03:24.239` — want to say, but that they'll never say
+- `00:03:26.400` — out loud. The things that they believe
+- `00:03:28.159` — or the things that they wish other
+- `00:03:29.440` — people knew, but they're too shy or
+- `00:03:31.599` — timid or scared or nervous to say it
+- `00:03:34.080` — themselves. And so, when you post saying
+- `00:03:36.879` — those things, they can then share your
+- `00:03:38.879` — post to amplify your voice. And it's
+- `00:03:41.200` — kind of like a way that they can say it
+- `00:03:42.640` — without directly saying it. And by far
+- `00:03:44.640` — the best way to understand the
+- `00:03:46.080` — psychology of your ICP is to have direct
+- `00:03:49.280` — conversations with them. Whether that's
+- `00:03:51.120` — in the comment section, in the direct
+- `00:03:53.040` — messages, having consultation calls,
+- `00:03:55.280` — hosting free one-on-one coaching. That's
+- `00:03:57.120` — something that I did a ton of when I was
+- `00:03:58.799` — first getting started growing on
+- `00:03:59.840` — Instagram. And it's still something that
+- `00:04:01.360` — I do to this day. I'm constantly giving
+- `00:04:03.360` — away free 15minute coaching calls as
+- `00:04:06.239` — rewards, as prizes, and giveaways on my
+- `00:04:08.319` — Instagram because, yes, it's a great
+- `00:04:10.159` — incentive for engagement, but for me
+- `00:04:12.319` — personally, I get so much out of those
+- `00:04:14.159` — 15-minute one-on-one sessions because
+- `00:04:16.079` — I'm having real conversations with real
+- `00:04:18.239` — human beings, and I'm getting to hear
+- `00:04:20.000` — their concerns, their fears, the things
+- `00:04:22.000` — that they're struggling with, and I'm
+- `00:04:23.520` — able to hear the words that they're
+- `00:04:25.199` — willing to tell me in a private
+- `00:04:26.560` — one-on-one call, but they would never
+- `00:04:28.160` — post about on Instagram. And so then I
+- `00:04:30.080` — can turn those sentiments, I can turn
+- `00:04:31.759` — those ideas, I can turn those identities
+- `00:04:33.759` — into posts that they will then be so
+- `00:04:35.919` — much more likely to share. The second
+- `00:04:37.680` — absolute fact that I've learned about
+- `00:04:39.040` — human psychology as I've gotten more
+- `00:04:40.560` — than two billion views on Instagram is
+- `00:04:42.479` — that nobody is watching. And I know that
+- `00:04:44.800` — that sounds silly because I got two
+- `00:04:46.560` — billion views and yet what I have
+- `00:04:48.080` — learned is true that nobody's watching
+- `00:04:50.639` — or maybe more precisely nobody's paying
+- `00:04:53.120` — attention. People are watching, they're
+- `00:04:54.800` — scrolling, but no one's paying
+- `00:04:56.720` — attention. And while I think there's
+- `00:04:57.919` — definitely a negative side to the fact
+- `00:04:59.199` — that there is no one paying attention,
+- `00:05:00.960` — and while it can definitely be hard to
+- `00:05:02.639` — get in front of people nowadays, and
+- `00:05:04.160` — while the human attention span is
+- `00:05:06.080` — shorter than a goldfish, that's a fact.
+- `00:05:07.840` — You can look it up. I think there's
+- `00:05:09.199` — actually four key benefits that I choose
+- `00:05:11.440` — to focus on when I'm considering the
+- `00:05:13.199` — fact that nobody's paying attention.
+- `00:05:14.960` — Number one, it gives me permission to
+- `00:05:16.320` — post more. It is true on Instagram that
+- `00:05:18.080` — the more you post, the more you grow.
+- `00:05:20.000` — And oftentimes when I say that, one of
+- `00:05:21.680` — the chief concerns that comes to
+- `00:05:22.960` — people's mind is overwhelming their
+- `00:05:25.360` — followers or spamming their feed so that
+- `00:05:27.840` — their followers are like, "Oh my god,
+- `00:05:29.120` — I'm overwhelmed. It's too much." I am
+- `00:05:31.039` — someone who posts five times a day on
+- `00:05:32.880` — Instagram. And yet, I know that the vast
+- `00:05:34.960` — majority of my almost 1 million
+- `00:05:36.880` — followers will not see most of my posts.
+- `00:05:39.759` — And if they do see any of my posts,
+- `00:05:41.360` — they're probably not paying that close
+- `00:05:42.639` — of attention. And so if they see another
+- `00:05:44.320` — post that's literally covering the exact
+- `00:05:46.000` — same topic or telling the exact same
+- `00:05:47.680` — story or even another post later that
+- `00:05:49.759` — afternoon after they saw one of my posts
+- `00:05:51.199` — in the morning, they're probably not
+- `00:05:52.720` — even going to notice and they're
+- `00:05:53.840` — probably not going to care because
+- `00:05:54.960` — they're not paying that much attention.
+- `00:05:56.560` — And so that gives me permission to post
+- `00:05:58.560` — more and thus grow more and not concern
+- `00:06:01.120` — with overwhelming or spamming people.
+- `00:06:03.280` — The second benefit to no one paying
+- `00:06:04.880` — attention is that you can literally post
+- `00:06:07.039` — the same thing multiple times. And this
+- `00:06:08.960` — is one of the strategies that I
+- `00:06:10.000` — recommend. It's called upycling. And
+- `00:06:11.840` — it's basically taking a post that you
+- `00:06:13.280` — have already posted and once 90 days
+- `00:06:15.600` — have passed, literally posting it again.
+- `00:06:17.919` — Same exact post, same exact caption,
+- `00:06:19.600` — same audio, literally same everything,
+- `00:06:21.120` — just re-uploading it. You don't need to
+- `00:06:22.800` — delete or archive or do anything to the
+- `00:06:24.800` — original. You don't need to announce
+- `00:06:25.840` — that it's a repost because again, no one
+- `00:06:28.000` — is paying attention. And so very few
+- `00:06:29.520` — people saw it the first time. And the
+- `00:06:30.800` — very few who did see it, they don't
+- `00:06:32.639` — remember seeing it because they weren't
+- `00:06:34.160` — paying that much attention. But
+- `00:06:35.520` — additionally, besides just directly
+- `00:06:37.120` — upycling and reposting something from
+- `00:06:38.880` — the past, you can constantly be sharing
+- `00:06:40.880` — the same tips, telling the same stories,
+- `00:06:42.639` — giving the same ideas, teaching the same
+- `00:06:44.639` — lessons over and over again. Because
+- `00:06:46.720` — ultimately, for most people, it's going
+- `00:06:48.479` — in one ear and out the other. Meet
+- `00:06:50.479` — Brevo, the all-in-one marketing and CRM
+- `00:06:53.039` — platform that is designed to help you
+- `00:06:54.479` — connect with your customers, boost
+- `00:06:56.240` — engagement, and grow your business
+- `00:06:58.319` — smarter. With Brevo, you can manage all
+- `00:07:00.240` — of your customer interactions in one
+- `00:07:01.759` — place, nurture leads with their built-in
+- `00:07:03.840` — CRM, reach your audience through both
+- `00:07:05.840` — email and SMS, and keep your audience
+- `00:07:08.080` — coming back with powerful automations.
+- `00:07:10.000` — But here's where it gets really
+- `00:07:11.440` — exciting. Meet Aura, Brevo's AI
+- `00:07:13.680` — assistant. Aura helps you craft smarter
+- `00:07:15.520` — campaigns by recommending personalized
+- `00:07:17.440` — suggestions, optimizing send times, and
+- `00:07:20.160` — even analyzing performance data to
+- `00:07:22.240` — improve your strategy in real time. It's
+- `00:07:24.479` — like having a marketing expert on your
+- `00:07:26.160` — team 24/7. And of course, Brevo offers
+- `00:07:28.400` — advanced analytics, streamless
+- `00:07:30.000` — integrations, and AIdriven
+- `00:07:31.440` — personalization. Everything that you
+- `00:07:32.880` — need to create multi-channel campaigns
+- `00:07:34.479` — that hit the mark every time. Get
+- `00:07:36.160` — started for free today or use code tribe
+- `00:07:38.560` — 50 to save 50% on starter and standard
+- `00:07:42.000` — plans for the first 3 months of the
+- `00:07:43.759` — annual subscription. Just head to
+- `00:07:45.440` — www.brevo.com/tribe
+- `00:07:48.960` — to take your marketing further with
+- `00:07:50.400` — Brevo and Aura. The third one I hope is
+- `00:07:52.560` — going to provide a huge piece of
+- `00:07:53.840` — permission and a huge sense of relief
+- `00:07:55.360` — for you. And that's that since no one is
+- `00:07:57.280` — paying attention, no one is noticing
+- `00:07:59.280` — your mistakes. They don't care. In
+- `00:08:01.360` — reality, the only person who is noticing
+- `00:08:03.520` — the imperfections, the cluttered
+- `00:08:05.440` — background, the typo, the misspelled
+- `00:08:07.919` — word, the food that was in your teeth,
+- `00:08:10.080` — the hair that was out of place, the
+- `00:08:11.520` — smudge of in your makeup. No one is
+- `00:08:13.840` — noticing that besides you. We are all
+- `00:08:16.319` — our own harshest critics. And that's one
+- `00:08:18.000` — of the reasons that no one's paying
+- `00:08:19.759` — attention is because everyone is so
+- `00:08:21.199` — self-absorbed. Everyone is so busy
+- `00:08:23.120` — paying attention to their own problems
+- `00:08:24.560` — and their own flaws and their own
+- `00:08:25.919` — mistakes and their own challenges and
+- `00:08:27.280` — their own futures and their own
+- `00:08:28.400` — anxieties and their own past and their
+- `00:08:29.840` — own traumas and all that. They're way
+- `00:08:31.680` — too busy worried about their dang selves
+- `00:08:33.760` — to worry about you. And so that gives
+- `00:08:35.599` — you permission, I hope, to make
+- `00:08:37.599` — mistakes, to experiment, to try new
+- `00:08:39.360` — things, to flop. I hear often times the
+- `00:08:41.440` — business owners are scared to flop. And
+- `00:08:43.279` — I believe that if you're not flopping on
+- `00:08:44.959` — Instagram, you're not going to be
+- `00:08:46.240` — growing. I believe that at least 20% of
+- `00:08:48.240` — your posts should be a flop. They should
+- `00:08:50.480` — be a failure. They should be a post that
+- `00:08:52.080` — isn't getting very many views because
+- `00:08:53.839` — the purpose of every post should not be
+- `00:08:55.839` — to go viral. You need to have a good
+- `00:08:58.320` — amount of experimentation. You need to
+- `00:09:00.000` — have a good amount of trial and error.
+- `00:09:01.519` — And part of trial and error is error.
+- `00:09:03.839` — Part of failing until you learn is
+- `00:09:06.160` — failing. And fortunately, because no
+- `00:09:08.000` — one's paying attention, you have
+- `00:09:09.440` — permission. You have permission to
+- `00:09:10.800` — change niches. You have permission to
+- `00:09:12.560` — try new styles of content. You have
+- `00:09:14.399` — permission to test out new theories and
+- `00:09:16.720` — new uh kinds of reels. You have
+- `00:09:18.560` — permission to try out new trends. You
+- `00:09:20.160` — have permission to make those mistakes
+- `00:09:22.160` — because no one cares and no one is
+- `00:09:23.760` — paying attention. And the fourth thing
+- `00:09:25.519` — that's really awesome about no one
+- `00:09:26.880` — paying attention is that you don't have
+- `00:09:28.800` — to be like a college professor. You
+- `00:09:30.880` — don't have to be like the world's
+- `00:09:32.480` — leading expert or be super smart in any
+- `00:09:34.640` — given field or to be like the world's
+- `00:09:36.080` — leading expert in your domain in order
+- `00:09:38.240` — to grow on Instagram. In fact, one of my
+- `00:09:40.080` — favorite formats that is currently super
+- `00:09:41.839` — popular is explaining different
+- `00:09:43.760` — nutrition topics or fitness topics as if
+- `00:09:46.160` — I have CTE. This format was created by
+- `00:09:48.320` — Josh Gilliam. And while it's silly and
+- `00:09:49.920` — while it's a little bit over the top and
+- `00:09:51.360` — his oversimplification of the way he's
+- `00:09:52.959` — speaking, it is kind of a play on the
+- `00:09:55.600` — modern lack of attention and the modern
+- `00:09:57.920` — uh ability to focus and learn on social
+- `00:10:00.560` — media, the modern literacy rates as low
+- `00:10:02.480` — as they are. And so you have permission
+- `00:10:05.519` — to dumb it down, to simplify your reels,
+- `00:10:07.920` — to use easier to understand language.
+- `00:10:09.440` — You don't need to impress people by
+- `00:10:10.959` — using fancy vocab and big words and
+- `00:10:13.279` — trying to teach these big topics and
+- `00:10:14.800` — terms when often times that's going to
+- `00:10:16.640` — be less effective because people are
+- `00:10:18.079` — going to zone out. It's going to go over
+- `00:10:19.519` — their head. They're going to stop paying
+- `00:10:20.640` — attention. So dumb it down. Simplify
+- `00:10:22.959` — your teaching which makes it easier for
+- `00:10:24.640` — you as an educator if you are an
+- `00:10:26.720` — educational entrepreneur. And then that
+- `00:10:28.800` — allows also your audience to pay more
+- `00:10:30.800` — attention and actually learn more in the
+- `00:10:32.560` — process. So keep it simple, sweetie.
+- `00:10:34.800` — That should be easier on you and it will
+- `00:10:36.240` — be easier on your audience as well. The
+- `00:10:38.160` — third thing that I've learned about
+- `00:10:39.200` — human psychology is that everyone can
+- `00:10:41.200` — smell your BS. And I don't know
+- `00:10:43.200` — scientifically why this happens, but we
+- `00:10:46.000` — all can tell. And I think that over the
+- `00:10:48.079` — last 5 years, I think that since 2020,
+- `00:10:50.560` — our BS radar has been finely tuned. Our
+- `00:10:53.600` — nose is really dialed in to be able to
+- `00:10:55.680` — smell that stuff from a mile away. We
+- `00:10:57.600` — can smell when someone is pandering to
+- `00:10:59.600` — get engagement. We can smell when
+- `00:11:01.360` — someone is about to start selling to us.
+- `00:11:03.200` — We can smell and detect when someone is
+- `00:11:05.440` — using AI in their content. And so the
+- `00:11:08.160` — biggest recommendation that I have for
+- `00:11:09.360` — you is to stop trying to trick your
+- `00:11:11.519` — audience. And often times tricking your
+- `00:11:13.519` — audience is because you're trying to
+- `00:11:15.040` — cater to or pander to the algorithm.
+- `00:11:18.000` — Stop doing that. That sort of stuff
+- `00:11:19.839` — might have worked in 2014, 2015, but
+- `00:11:22.560` — it's 2026. We're almost in 2027 now.
+- `00:11:25.040` — Stop trying the BS hacks and tricks
+- `00:11:27.279` — because people can smell that stuff from
+- `00:11:28.720` — a mile away. Instead, make sure that you
+- `00:11:31.120` — have a good heart. Make sure that your
+- `00:11:33.040` — intentions are in the right places, that
+- `00:11:34.720` — you're truly trying to serve rather than
+- `00:11:36.240` — sell and you're about the transformation
+- `00:11:37.920` — more than the transaction. And finally,
+- `00:11:40.000` — if you aren't excited about what you're
+- `00:11:41.920` — posting, if you aren't excited about
+- `00:11:43.680` — what you're doing, if you don't love
+- `00:11:45.519` — what it is that you are sharing online,
+- `00:11:47.200` — that's going to come through in your
+- `00:11:48.399` — content. If you're just kind of mailing
+- `00:11:49.760` — it in and throwing spaghetti against the
+- `00:11:51.760` — wall and posting things because you
+- `00:11:53.519` — heard from some guy on some podcast who
+- `00:11:55.760` — has a buzz cut and a beard that you have
+- `00:11:58.079` — to post a certain amount of times per
+- `00:11:59.360` — day. I'm talking about myself that you
+- `00:12:01.200` — have to post certain amount of times and
+- `00:12:02.480` — so you're like, "Oh, I guess I just got
+- `00:12:03.839` — to post it today. I just got to throw
+- `00:12:04.800` — something against the wall and you're
+- `00:12:06.160` — just kind of halfassing it and mailing
+- `00:12:07.519` — it in." Of course, that's not going to
+- `00:12:08.880` — work. Like people can smell that. And
+- `00:12:11.120` — again, I don't know if it's because
+- `00:12:12.240` — we've all been on social media for 15,
+- `00:12:14.560` — 20 years now. I don't know if it's
+- `00:12:16.399` — because the modern consumer is consuming
+- `00:12:18.480` — tens of thousands of videos a day and so
+- `00:12:20.959` — they just get really really good at
+- `00:12:22.160` — spotting what they like and what they
+- `00:12:23.600` — don't like, what is real and what is
+- `00:12:24.880` — fake, but I mean ultimately if you
+- `00:12:27.200` — aren't excited about what you're
+- `00:12:28.480` — posting, if you're not enjoying the
+- `00:12:30.240` — process, I'm not saying that you need to
+- `00:12:31.680` — love Instagram or you need to love every
+- `00:12:33.279` — step of the way, but if you're not just
+- `00:12:35.040` — enjoying it at a minimum, if you are
+- `00:12:37.519` — mailing it in and you're treating it
+- `00:12:39.360` — like a chore to be posting on social
+- `00:12:41.360` — media, well then that's going to come
+- `00:12:42.720` — through in your content. it's going to
+- `00:12:43.920` — be very tough to grow because of it. The
+- `00:12:45.920` — fourth thing that I've learned about
+- `00:12:46.880` — human psychology is that negativity bias
+- `00:12:49.279` — is real. It's powerful and unfortunately
+- `00:12:52.560` — it's very exploitable. And of course,
+- `00:12:54.560` — negativity bias is basically our brains
+- `00:12:56.560` — hardwiring to pay more attention to the
+- `00:12:58.320` — negative thing than the positive. It's
+- `00:12:59.519` — why that one mean thing that someone
+- `00:13:01.040` — said to you in high school is still in
+- `00:13:02.560` — your head today. It's why that one
+- `00:13:04.160` — negative comment out of the thousands of
+- `00:13:05.920` — positive comments has stuck with you.
+- `00:13:07.600` — And so, I think that there's two things
+- `00:13:08.639` — that you need to keep in mind when it
+- `00:13:09.680` — comes to this negativity bias. Number
+- `00:13:11.680` — one, like I said, it's exploitable. Now,
+- `00:13:14.000` — I don't want you to overdo it. And
+- `00:13:15.519` — actually, studies have shown that if you
+- `00:13:16.880` — overdo the negativity, if you basically
+- `00:13:19.120` — become the negative Nelly and all of
+- `00:13:20.560` — your posts are, don't do this, stop
+- `00:13:22.480` — doing this, the world is ending, drama,
+- `00:13:24.399` — drama, drama, it eventually becomes
+- `00:13:26.000` — white noise. It's one of the reasons
+- `00:13:27.519` — that cable news is so much less engaging
+- `00:13:30.480` — today than it was 10, 15 years ago, is
+- `00:13:32.880` — because they went down the slippery
+- `00:13:34.560` — slope of negativity, negativity,
+- `00:13:36.560` — negativity. Right? If you turn on your
+- `00:13:38.079` — local news, you're going to hear 10
+- `00:13:40.079` — negative stories about car crashes and
+- `00:13:42.720` — murders and whatnot before you hear
+- `00:13:44.720` — about the positive things going on in
+- `00:13:46.320` — your community. But over the course of
+- `00:13:48.320` — decades, that has caused all of us as
+- `00:13:50.240` — consumers to really lose our enjoyment
+- `00:13:52.959` — in the news. When the news first started
+- `00:13:55.040` — posting about all these negative things,
+- `00:13:56.720` — it grabbed our attention. The first ever
+- `00:13:58.560` — car chase that was televised on the news
+- `00:14:00.720` — became a nationally televised event that
+- `00:14:02.720` — millions of people tuned in for. But
+- `00:14:04.880` — now, even likely as I'm speaking right
+- `00:14:06.880` — now, there are probably dozens of car
+- `00:14:08.880` — chases going on around the United States
+- `00:14:10.720` — and around the world, but most of them
+- `00:14:12.240` — you probably won't even hear about
+- `00:14:13.680` — because there's just so much negativity
+- `00:14:15.440` — and the news is filled with so much
+- `00:14:16.800` — negativity that it's lost its luster, if
+- `00:14:19.440` — you will. And so, as a content creator,
+- `00:14:21.839` — I want you to first of all know that
+- `00:14:23.519` — using words like no, that is N O, not K
+- `00:14:26.480` — N O W, but no, stop, don't, avoid, lose,
+- `00:14:30.399` — quit, those sorts of things grab
+- `00:14:31.920` — people's attention. And on average, they
+- `00:14:33.519` — grab people's attention more than their
+- `00:14:34.880` — positive counterparts. It's the reason
+- `00:14:36.160` — that ESPN will use the headline, the
+- `00:14:37.920` — team lost the game, rather than the
+- `00:14:39.519` — other team won the game. Or if they are
+- `00:14:41.199` — talking about the team that won the
+- `00:14:42.240` — game, they won't say the team won the
+- `00:14:43.600` — game. They will say the team snapped
+- `00:14:45.279` — their three-game losing streak. Snapped
+- `00:14:47.279` — and lose. Two negative words. So
+- `00:14:48.880` — whenever you're writing your scripts,
+- `00:14:50.079` — whenever you're coming up with your
+- `00:14:50.959` — hooks, whenever you're deciding what the
+- `00:14:52.480` — content of the post will actually be,
+- `00:14:54.399` — consider, is there a negative angle that
+- `00:14:56.240` — I could take? But just make sure not to
+- `00:14:57.920` — overdo it. Now, I also want to speak to
+- `00:15:00.160` — you as someone who's just a human being,
+- `00:15:02.000` — right? As someone who's a business
+- `00:15:02.959` — owner, as someone who's trying to grow
+- `00:15:04.079` — on Instagram, like I said at the very
+- `00:15:06.240` — beginning of this fourth lesson about
+- `00:15:07.920` — human psychology, it is by far one of
+- `00:15:09.920` — the biggest biases of our Insta Club Hub
+- `00:15:12.079` — members to focus on the negative, to
+- `00:15:14.880` — focus on the unfollows or the post that
+- `00:15:17.519` — didn't get a lot of views or to compare
+- `00:15:19.600` — their own stats to someone else's stats.
+- `00:15:21.839` — And I'm not going to sit here and tell
+- `00:15:22.880` — you that the negatives don't exist or
+- `00:15:24.240` — that you need to not pay attention to
+- `00:15:25.600` — them, but I do think it's important to
+- `00:15:27.120` — number one, remind yourself of the
+- `00:15:28.639` — positives. Number two, to be grateful
+- `00:15:30.560` — for what you have and to literally write
+- `00:15:32.320` — out lists that show what you are
+- `00:15:34.079` — grateful for. And number three, to
+- `00:15:36.079` — remember that social media exists in
+- `00:15:38.720` — kind of two polar opposite extremes that
+- `00:15:41.199` — are super bad for your mental health.
+- `00:15:42.959` — One of which being you are only seeing
+- `00:15:44.880` — other people's wins. You're only seeing
+- `00:15:46.639` — other people's highlight reels, success
+- `00:15:48.320` — stories, and triumphs on social media,
+- `00:15:50.720` — especially on Instagram. And you, for
+- `00:15:52.720` — yourself, are only seeing your own
+- `00:15:54.880` — negative things because of the negative
+- `00:15:56.320` — bias. you're only seeing your own low
+- `00:15:58.399` — views, low engagement, unfollows, lack
+- `00:16:00.880` — of growth. And so that's super
+- `00:16:02.560` — unhealthy. The reality is likely
+- `00:16:04.560` — somewhere a lot more in the middle.
+- `00:16:06.079` — People aren't having as many successes
+- `00:16:07.680` — as they try to portray on Instagram. And
+- `00:16:09.680` — you are having way more successes than
+- `00:16:11.279` — you probably realize if you're just
+- `00:16:12.959` — scrolling and not thinking about it.
+- `00:16:14.399` — Listen, I totally get it. Hiring help
+- `00:16:16.480` — for your business is scary. It's
+- `00:16:18.880` — frustrating. And it is such a headache.
+- `00:16:20.880` — But it shouldn't have to be that way
+- `00:16:22.079` — because Upwork makes it easy to hire
+- `00:16:24.399` — specialized freelancers quickly. You can
+- `00:16:26.639` — browse profiles, review past work, and
+- `00:16:28.800` — get help scoping out the role so you can
+- `00:16:30.800` — hire with confidence and get started
+- `00:16:32.480` — quickly. And with Business Plus, you can
+- `00:16:34.240` — access the top 1% of talent on Upwork
+- `00:16:36.880` — with AI powered shortlisting so you can
+- `00:16:39.120` — get matched with the right freelancer in
+- `00:16:41.839` — less time without having to do endless
+- `00:16:44.320` — searching. Visit upwork.com to post your
+- `00:16:46.639` — job for free. Again, that's upwork.com
+- `00:16:48.880` — to get connected with the top talent
+- `00:16:50.880` — ready to help your business grow. That's
+- `00:16:52.959` — upw.com.
+- `00:16:55.360` — upwork.com. The fifth thing that I've
+- `00:16:57.279` — learned about human psychology is what I
+- `00:16:58.880` — like to call the say, do need gap. And
+- `00:17:02.079` — the say, do need gap is what people say
+- `00:17:04.799` — they need or want is very different from
+- `00:17:07.439` — what they actually take action on. What
+- `00:17:09.520` — they do and that is also very different
+- `00:17:11.439` — from what they actually need. And when
+- `00:17:13.760` — you understand these three things, it's
+- `00:17:15.120` — going to totally change how you post and
+- `00:17:16.799` — how you sell and what you sell. And
+- `00:17:18.880` — here's what I've learned as an example.
+- `00:17:20.319` — By far the number one thing that my
+- `00:17:22.319` — followers say that they want is more
+- `00:17:24.480` — followers. But then when it comes to
+- `00:17:26.079` — what they actually do, they are
+- `00:17:27.679` — constantly chasing viral post ideas.
+- `00:17:30.640` — It's always about viral posts, trending
+- `00:17:33.039` — audios, and things that will make you
+- `00:17:34.480` — get a ton of views. But then neither of
+- `00:17:36.559` — those things are what they need in my
+- `00:17:38.080` — opinion, which are systems, strategies,
+- `00:17:40.480` — and the mindsets necessary to grow their
+- `00:17:43.360` — Instagram. If I were to make a post
+- `00:17:45.280` — about the mindsets you need to grow on
+- `00:17:47.039` — Instagram, no one would watch that
+- `00:17:48.559` — video. But as soon as I make a video
+- `00:17:50.080` — about seven viral real ideas, it blows
+- `00:17:52.240` — up. We did a live training earlier this
+- `00:17:53.840` — year in the Insta Club about the systems
+- `00:17:55.600` — for success. And it was one of our
+- `00:17:57.120` — lowest attended live workshops of the
+- `00:17:58.880` — entire year. Yet, it is also the
+- `00:18:00.880` — workshop that has gotten the most
+- `00:18:02.240` — positive feedback from the people who
+- `00:18:04.080` — did attend it. Because the people who
+- `00:18:05.440` — did attend, they realized that they are
+- `00:18:06.799` — getting what they need and they are
+- `00:18:07.919` — finally able to have success as the
+- `00:18:09.520` — result of watching that recording. But
+- `00:18:11.679` — systems are not sexy and the strategies
+- `00:18:13.760` — and the mindsets that you need are not
+- `00:18:15.600` — necessarily what most people go to when
+- `00:18:17.360` — they're thinking of what they want.
+- `00:18:19.120` — There's also this principle or analogy
+- `00:18:20.559` — that I think about often called the
+- `00:18:22.000` — chocolatecovered carrot. And the
+- `00:18:23.440` — chocolate covered carrot is basically
+- `00:18:24.559` — that most people don't want the carrot.
+- `00:18:26.240` — They don't want the healthy thing, the
+- `00:18:27.600` — thing that's good for them, the thing
+- `00:18:28.480` — that they actually need. They want the
+- `00:18:30.080` — chocolate, the thing that is a quick
+- `00:18:31.440` — fix, the thing that is dopamine, the
+- `00:18:32.880` — thing that is really sweet and that
+- `00:18:34.240` — feels rewarding for a moment. And so as
+- `00:18:36.960` — a business owner, as someone who is
+- `00:18:38.400` — posting on social media, it is your job
+- `00:18:40.400` — to create the chocolatecovered carrot,
+- `00:18:42.720` — the thing that looks very enticing from
+- `00:18:44.160` — the outside and it portrays or comes
+- `00:18:46.400` — across as exactly what people are
+- `00:18:48.160` — looking for, exactly what they say they
+- `00:18:50.400` — want, and exactly what they are going to
+- `00:18:52.240` — choose when they have a bunch of
+- `00:18:53.760` — different options. But then once they
+- `00:18:55.280` — bite into it, yes, they are initially
+- `00:18:57.039` — getting the thing that they came for,
+- `00:18:58.240` — the chocolate, but they're also getting
+- `00:18:59.840` — the thing that they need, the thing
+- `00:19:01.360` — that's going to ultimately help them the
+- `00:19:03.200` — most in the long run, which is the
+- `00:19:04.640` — carrot. The sixth thing that I've
+- `00:19:06.240` — learned about human psychology is that
+- `00:19:07.919` — discipline beats motivation. A question
+- `00:19:10.400` — that I often receive is, "Brock, how do
+- `00:19:12.400` — you stay so motivated?" I've now posted,
+- `00:19:14.320` — at the time of recording this, almost
+- `00:19:15.600` — 2,000 straight days on Instagram. How do
+- `00:19:18.640` — you stay so motivated? And the reality
+- `00:19:20.240` — is I don't. There are plenty of days
+- `00:19:22.080` — where I'm not motivated, but I have the
+- `00:19:24.720` — discipline to stick to what I've set out
+- `00:19:26.640` — to do. I have the discipline and I think
+- `00:19:28.880` — not to uh you know toot my own horn but
+- `00:19:30.880` — I think that that was honed over years
+- `00:19:32.640` — and years of being an athlete and being
+- `00:19:34.320` — a college football player like I was I
+- `00:19:36.480` — developed that discipline as a muscle
+- `00:19:38.160` — that I can rely on so that even when I'm
+- `00:19:40.080` — not feeling motivated to make content or
+- `00:19:42.000` — motivated to show up on Instagram, I
+- `00:19:43.919` — still have the discipline to show up
+- `00:19:45.280` — anyways. But the reality is that systems
+- `00:19:48.240` — beat both of those things. systems beat
+- `00:19:51.120` — both discipline and motivation because
+- `00:19:52.799` — there are going to be days where even
+- `00:19:54.320` — the most disciplined person is just
+- `00:19:56.160` — literally not going to be able to create
+- `00:19:58.400` — content. Even the most disciplined
+- `00:19:59.840` — person is going to have life get in the
+- `00:20:01.679` — way. Even the most disciplined person is
+- `00:20:03.520` — going to get married like I did. And I
+- `00:20:05.840` — still posted multiple times on the day
+- `00:20:08.000` — of my wedding. Not because I was
+- `00:20:10.160` — disciplined on that day, but because I
+- `00:20:12.160` — had systems that were already in place
+- `00:20:14.320` — that allowed me to show up to provide
+- `00:20:17.039` — for my audience, to grow my audience, to
+- `00:20:19.440` — serve my followers, and to ultimately
+- `00:20:21.840` — engage with more people and grow my
+- `00:20:23.440` — business as a result because I had
+- `00:20:25.520` — systems that were already in place. Now,
+- `00:20:27.360` — again, as I talked about just a few
+- `00:20:28.480` — minutes ago, systems aren't sexy, but
+- `00:20:30.640` — systems are necessary if you want to get
+- `00:20:33.039` — off the hamster wheel of having to rely
+- `00:20:34.799` — on motivation and/or discipline. And
+- `00:20:37.039` — then the seventh and final thing that
+- `00:20:38.080` — I've learned as I've amassed over two
+- `00:20:39.520` — billion views on Instagram. And this one
+- `00:20:41.600` — has not just been amassed from my own
+- `00:20:43.919` — conclusions from getting views, but also
+- `00:20:45.600` — from going to creator workshops and
+- `00:20:48.080` — going to can lions and meeting all these
+- `00:20:50.799` — other creators who have posted thousands
+- `00:20:52.640` — of times and have millions of followers
+- `00:20:54.640` — is that delusional optimism is required.
+- `00:20:58.159` — This belief that everything will work
+- `00:20:59.840` — out and that everything is figure
+- `00:21:01.440` — outable. That is essentially what is
+- `00:21:03.200` — required if you want to have success on
+- `00:21:05.280` — social. Delusional optimism beats
+- `00:21:07.760` — imposttor syndrome. That's not to say
+- `00:21:09.520` — that you're never going to have doubts.
+- `00:21:10.720` — It's not to say that you're never going
+- `00:21:11.679` — to have imposter syndrome. But that is
+- `00:21:13.360` — to say that more times than not, the
+- `00:21:15.120` — majority of the time, your thought is
+- `00:21:17.280` — this is going to work out. This post is
+- `00:21:18.720` — going to go viral. My ideas are great.
+- `00:21:20.640` — I'm only one post away from success. I
+- `00:21:22.960` — am funny. I am a good storyteller. I am
+- `00:21:25.679` — engaging. I am a good content creator.
+- `00:21:28.320` — This kind of goes back to point number
+- `00:21:29.520` — three about how everyone can smell your
+- `00:21:31.280` — BS in the same way that everyone can
+- `00:21:33.120` — smell if you're a phony, if you're a
+- `00:21:34.799` — fake, if you're just in it for the
+- `00:21:36.080` — money. People can smell it if you truly
+- `00:21:37.760` — believe in yourself. If you truly think
+- `00:21:39.440` — that your posts are funny, if you truly
+- `00:21:41.440` — think that your content is good. And
+- `00:21:43.520` — people want to be around people like
+- `00:21:45.200` — that. No one wants to follow someone or
+- `00:21:47.760` — be in the same room as someone who is a
+- `00:21:49.760` — constant Debbie Downer, who's constantly
+- `00:21:51.360` — doubting themselves, who's constantly
+- `00:21:52.559` — second-guessing everything they're
+- `00:21:53.760` — doing. And so some amount of delusional
+- `00:21:56.240` — optimism, some sort of, you know,
+- `00:21:58.159` — internal belief that just is unshakable
+- `00:22:00.880` — is necessary if you want to really build
+- `00:22:03.679` — a big audience and grow your personal
+- `00:22:05.360` — brand on Instagram. I've even heard it
+- `00:22:07.120` — said that you need a certain amount of
+- `00:22:08.320` — narcissism. And I kind of believe that's
+- `00:22:10.240` — true. I mean, to believe that you are
+- `00:22:12.320` — not only able, but that you are
+- `00:22:14.880` — deserving of having a massive audience
+- `00:22:17.679` — is something that is a little bit
+- `00:22:19.440` — narcissistic. And so I'm not saying that
+- `00:22:20.880` — you need to be a narcissist to grow on
+- `00:22:22.320` — Instagram, but there is some degree of
+- `00:22:23.760` — narcissism required, some degree of I
+- `00:22:26.240` — have a unique story to tell. I have a
+- `00:22:27.919` — unique problem that I have solved. I
+- `00:22:29.600` — have some sort of special gift or talent
+- `00:22:31.760` — or ability that the world needs to see.
+- `00:22:34.159` — And I want to be the person who tells
+- `00:22:35.520` — you that that is true for you. You are
+- `00:22:37.520` — watching this episode and you are
+- `00:22:38.559` — hearing my voice right now because I
+- `00:22:39.919` — believe that there is some story that
+- `00:22:41.840` — you have to tell or some problem that
+- `00:22:43.440` — you have solved or some people out there
+- `00:22:44.960` — that you can truly help. And yes, it
+- `00:22:47.360` — does require some narcissism. does
+- `00:22:49.039` — require some delusional self-belief to
+- `00:22:50.960` — be willing to post about yourself and to
+- `00:22:53.600` — post about the lessons you've learned,
+- `00:22:55.120` — the problems you've solved, whatever it
+- `00:22:56.240` — may be on Instagram in order to find
+- `00:22:58.640` — that audience. So, I hope you believe in
+- `00:23:00.400` — yourself. I believe in you. And as
+- `00:23:02.000` — always, happy networking. [music]
+
+## Uncertain Or Unavailable
+
+- Transcript-only evidence package: watch retrieved native English auto-captions, but video frames were unavailable because the local YouTube PO-token provider could not obtain playable formats.
+- OCR is unavailable because no video frames were captured.
+- Performance claims and psychology statements are speaker claims unless independently verified elsewhere.

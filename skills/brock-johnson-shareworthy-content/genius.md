@@ -61,6 +61,34 @@ Specifically:
 **Success metric:** Content that performs across platforms and survives algorithm updates
 **Source anchor:** `references/_legacy-prompts/algorithm-transcendence-playbook.md` states the underlying premise directly — "Algorithms change quarterly. Human nature hasn't changed in 200,000 years."
 
+### 8. Private-Truth Identity Proxy
+**Unconscious behavior:** Brock looks for the belief an audience will admit privately but will not post publicly, then lets the content become the audience's proxy voice.
+**Executable behavior:** Mine comments, DMs, consultation calls, and one-to-one conversations for exact private language. Convert one tension into a statement the audience can share to say it without authoring it themselves.
+**Deployment context:** Share-first ideation, relatable posts, identity content, customer-language research
+**Success metric:** A named sharer can complete the sentence: “I would send this because it says ___ for me.”
+**Source anchor:** `extractions/video-context/MX-Emk6vkE4/video-context-ledger.md` at `00:03:18–00:04:35`; Brock describes private 15-minute conversations as the source for sentiments followers would not post themselves.
+
+### 9. Attention-Permission Loop
+**Unconscious behavior:** Brock treats low audience attention as permission to increase repetitions and experiments, rather than as evidence that every post must become more elaborate.
+**Executable behavior:** Re-teach durable ideas, re-post proven assets after a 90-day interval, simplify language, and reserve a deliberate experiment lane where roughly one in five posts may fail without invalidating the system.
+**Deployment context:** Editorial cadence, content reuse, experimentation, creator perfectionism
+**Success metric:** The content plan includes a reuse rule, an experiment allocation, and one plain-language simplification pass.
+**Source anchor:** `extractions/video-context/MX-Emk6vkE4/video-context-ledger.md` at `00:05:14–00:10:34`; “upycling” is defined at `00:06:09–00:06:35`, and the 20% flop heuristic at `00:08:43–00:09:07`.
+
+### 10. Say–Do–Need Message Bridge
+**Unconscious behavior:** Brock separates what an audience says it wants, what its observed behavior selects, and what it needs for durable progress.
+**Executable behavior:** Use Say to name the desired outcome, Do to choose the attractive wrapper, and Need to design the delivery. Fulfill the wrapper's literal promise first; add the deeper result rather than substituting it.
+**Deployment context:** Content positioning, offer framing, lead magnets, workshops, product education
+**Success metric:** The final artifact contains evidence for all three columns, fulfills the surface promise, and names the deeper behavior or outcome it advances.
+**Source anchor:** `extractions/video-context/MX-Emk6vkE4/video-context-ledger.md` at `00:16:57–00:19:05`; Brock calls the wrapper a “chocolate-covered carrot.”
+
+### 11. Negative-Angle Saturation Guard
+**Unconscious behavior:** Brock uses loss language to earn attention but recognizes that constant negativity becomes white noise and degrades trust.
+**Executable behavior:** Test a negative framing—no, stop, don't, avoid, lose, quit—only when it accurately names the risk. Rotate away when the feed or brand already overuses threat language.
+**Deployment context:** Hooks, headlines, myth/mistake content, editorial mix
+**Success metric:** The negative hook is truthful, non-catastrophic, and paired with a constructive payoff; the batch is not dominated by negative frames.
+**Source anchor:** `extractions/video-context/MX-Emk6vkE4/video-context-ledger.md` at `00:12:46–00:14:57`.
+
 ## Hidden Knowledge
 
 ### 1. The Share Hierarchy
@@ -77,6 +105,12 @@ Each format triggers different psychological responses. Reels = pattern interrup
 ### 4. Content Compounding
 One shareworthy piece > 30 mediocre pieces. Shareworthy content creates exponential reach through network effects. Each share exposes you to a new audience cluster that would never have found you through the algorithm alone. Quality doesn't just beat quantity — it makes quantity irrelevant.
 
+### 5. The Wrapper Is A Contract
+The “chocolate” is not permission to conceal or swap the promised outcome. It is the audience-recognizable entry point. Deliver it completely, then connect it to the less glamorous system, strategy, or mindset that creates the durable result. If the audience cannot honestly say it received what the hook promised, the bridge has become bait-and-switch.
+
+### 6. Systems Carry The Cadence
+Motivation may start a run and discipline may extend it, but a content system is what survives weddings, travel, low-energy days, and competing obligations. Treat consistency as an inventory, batching, scheduling, and reuse design problem—not a personality test. Source: `extractions/video-context/MX-Emk6vkE4/video-context-ledger.md` at `00:19:07–00:20:37`.
+
 ## Anti-Patterns (Sourced)
 
 - **Chasing algorithm mechanics instead of psychology** — never lead a strategy with posting-time optimization or hashtag-count tricks; per `references/_legacy-prompts/algorithm-transcendence-playbook.md`, both are flagged "Algorithm-dependent (fragile)" against the durable, psychology-dependent alternative.
@@ -85,6 +119,10 @@ One shareworthy piece > 30 mediocre pieces. Shareworthy content creates exponent
 - **Aspirational flex with no achievable next step** — never show the "10 steps ahead" version without the "2 steps ahead" bridge; per `references/quality-rubric.md`, the "Look At Me" Aspirational Post anti-exemplar scores Aspiration Gap Engineering 0/10 for exactly this gap.
 - **Vague motivational platitude with stock imagery** — never ship a "Believe in yourself and good things will happen" graphic; this file's own Anti-Exemplar scores 0/10 on both Share-Trigger Architecture and Save-Worthy Density for it.
 - **Format-blind repurposing** — don't drop a Reel script into a static post unchanged; per `references/_legacy-prompts/content-format-architect.md`, "Format isn't a container for content. Format IS content," and each format triggers a different cognitive mode.
+- **Need-first packaging** — don't lead with the worthy but unwanted lesson and blame the audience for ignoring it; use Say and Do evidence to create an honest entry point.
+- **Chocolate-only delivery** — don't provide a dopamine wrapper with no durable value underneath; the content must advance the Need layer.
+- **Bait-and-switch carrots** — don't promise a quick result and replace it with an unrelated lecture; fulfill the exact promise before adding the deeper system.
+- **Negativity monoculture** — don't turn every hook into “stop,” “don't,” or disaster framing; the source explicitly warns that repeated negativity becomes white noise.
 
 ---
 
@@ -119,6 +157,7 @@ One shareworthy piece > 30 mediocre pieces. Shareworthy content creates exponent
 *   **The Micro-Observation Mine**: Brock dedicates 15 minutes daily to observing mundane, universal human behaviors or unspoken internal thoughts (e.g., how people react to an annoying sound, the internal monologue during a common task). He then logs these as potential "Relatability Reflex" content anchors. → **Deploy when**: Stalling on content ideation or seeking fresh, authentic angles.
 *   **The "Value Stack" Outline**: When designing educational content, Brock doesn't just list points; he structures it as a series of nested, interlinked insights and actionable steps, ensuring each layer adds new, dense value that compounds upon the last. → **Deploy when**: Building any "save-worthy" content, like carousels, long-form captions, or mini-tutorials.
 *   **The Disagreement Dial**: When exploring a potentially controversial topic, Brock specifically identifies the prevailing, unchallenged assumption, then crafts a counter-narrative that targets the *idea* with evidence, not the *person*, always providing a logical pathway for the audience to shift their perspective. → **Deploy when**: Crafting opinion pieces or challenging industry norms.
+*   **The Three-Column Message Bridge**: Write SAY / DO / NEED before drafting. Use exact audience language in SAY, observed choice behavior in DO, and source-grounded operator judgment in NEED. Then build a promise that satisfies SAY and DO while delivering NEED. → **Deploy when**: A valuable workshop, offer, or content theme is being ignored despite strong downstream usefulness.
 
 ## Quality Rubric
 

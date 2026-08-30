@@ -8,10 +8,10 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-08-29 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-29 | active |
-| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-08-28 | active* |
-| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-28 | active* |
+| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-08-30 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-30 | active |
+| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-08-30 | active* |
+| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `products` | _active/ | **— none —** | 2026-08-26 | active* |

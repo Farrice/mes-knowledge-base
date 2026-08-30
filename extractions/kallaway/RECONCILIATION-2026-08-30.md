@@ -15,6 +15,7 @@ The two builds were complementary, not competing copies. `f1370d15b` had the str
 | Signal collection | `execution/outlier_radar.py` | Collect, normalize, score, enrich, and emit the versioned pack. |
 | Research judgment | `kallaway-ai-content-engine` | Choose metric class, cohort eligibility, signal hygiene, data maturity, and the human creative stop. |
 | Client strategy product | `growth-blueprint-os` | Produce the dossier, whitespace map, bullseye, topic scan, format playbook, blueprint, intake, and reader-pure client package. |
+| Qualified authority | `micro-fame-authority-density` | Separate reach, fit, trust, and commercial action; choose the decisive positioning contrast; enforce the four-rep evidence floor. |
 | End-to-end production route | `kallaway-content-operating-system` | Route accepted evidence through strategy and production components without recreating Growth Blueprint artifacts. |
 
 The shared seam is `execution/specs/outlier-radar-pack.schema.md`, now `pack_version: 2`.
@@ -27,6 +28,7 @@ The shared seam is `execution/specs/outlier-radar-pack.schema.md`, now `pack_ver
 - Canonical engagement state and a bounded set of final client examples in `growth-lab/`.
 - A frozen offline validation set under `extractions/kallaway/validation/`.
 - `f1370d15b` research controls, now carried through the signal-pack fields and Growth Blueprint topic-scan preflight.
+- Main's later authority-density companion and `1ilMGCxJBQY` evidence package, preserved alongside the additive `GmIn1W9V8Rs` signal-maturity evidence rather than choosing one source lane over the other.
 
 ## Deliberately Excluded From Integration
 
@@ -74,3 +76,5 @@ The historical live receipt is preserved under `extractions/kallaway/validation/
 | Repository-wide system verifier | PARTIAL — Kallaway surfaces clean; two pre-existing Jay Sun registry errors remain outside this diff |
 
 The Jay Sun negative control is present in the pre-merge `HEAD` indexes and absent from this merge's changed-path set.
+
+The final main reconciliation preserved both later authority-density work and the parked signal-pack v2/Growth Blueprint build. Their overlap was resolved at the Content OS routing seam: authority density owns qualified-authority judgment; signal-pack v2 owns evidence maturity and proxy hygiene; Growth Blueprint owns client strategy artifacts.

@@ -30,13 +30,13 @@ Activate before storytelling, narrative, founder-story, explanation, pitch, cont
 ## EXECUTION PROTOCOL
 
 1. **Lock the job**: Classify the primary job as connection, explanation and recall, persuasion, transformation, entertainment, audience building, voice transfer, decision support, or direct instruction.
-2. **Inventory truth**: Separate supplied facts, operator opinion, source-reported claims, uncertainty, and constructed examples. Name any story fact that is missing.
+2. **Inventory truth**: Separate supplied facts, operator opinion, source-reported claims, uncertainty, and constructed examples. Name any story fact that is missing. For brand or sales work, distinguish the transformation claim from a seeable proof object. If the audience would still have to imagine the result, keep the current asset at `NO STORY` and prepare the bounded `/proof-portfolio-builder` handoff in `references/chris-do-proof-before-story.md`.
 3. **Choose dosage**:
    - `FULL STORY`: transformation is central and the material contains a real want, obstacle, change, and supported turn;
    - `STORY FRAGMENT`: evidence or direct explanation stays primary, with one sourced moment, labeled analogy, frame, or micro-example;
    - `NO STORY`: a decision, procedure, specification, calculation, incident, risk statement, status, or direct instruction is primary, or the facts cannot support a story.
 4. **Reject the alternatives**: Give one concrete reason each unused dosage would be weaker or less honest.
-5. **Select one owner**: Choose one Shaan workflow, one atomic prompt, or one external production route. Story Compass may qualify material only after `FULL STORY`. How I Write may conduct only long-form or high-stakes composition.
+5. **Select one owner**: Choose one Shaan workflow, one atomic prompt, or one external production route. Story Compass may qualify material only after `FULL STORY`. How I Write may conduct only long-form or high-stakes composition. Use `/proof-portfolio-builder` only when a brand or sales transformation claim lacks seeable proof; do not send direct, technical, incident, status, or evidence-sensitive `NO STORY` work through proof capture.
 6. **Lock truth constraints**: Prohibit invented dialogue, chronology, metrics, outcomes, motives, emotional states, and sensory details as real. Require labels for analogies, composites, and hypotheticals.
 7. **Prepare the handoff**: Pass only the decision, objective, audience, selected mechanic, owner, supplied facts, uncertainty, destination, and exit condition. A missing presentation field does not force a dosage downgrade when the facts otherwise qualify; label the default and the deployment caveat.
 
@@ -100,6 +100,8 @@ Exit condition:
 - Does `FULL STORY` have enough facts for want, obstacle, change, and turn?
 - Does `STORY FRAGMENT` keep evidence or direct explanation primary?
 - Does `NO STORY` prohibit narrative theater?
+- Does a brand or sales transformation claim without seeable proof remain `NO STORY` and route to proof acquisition?
+- Do negative-control `NO STORY` cases avoid proof capture when it would not solve the real job?
 - Are every unknown and constructed element labeled?
 - Is the handoff compact enough to avoid loading unrelated context?
 - If presentation context is incomplete, are defaults labeled as reversible assumptions and the result prevented from claiming channel-specific deployment readiness?

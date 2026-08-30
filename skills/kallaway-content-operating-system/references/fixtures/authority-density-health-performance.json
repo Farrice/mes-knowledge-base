@@ -1,0 +1,40 @@
+{
+  "fixture_id": "authority-density-health-performance-v1",
+  "synthetic": true,
+  "category": "claim-safe growth strategy for funded health and performance brands",
+  "high_value_buyer": "founders and growth leaders at funded health and performance brands",
+  "synthetic_offer": {
+    "name": "Evidence-to-Campaign Sprint",
+    "price_usd": 5000,
+    "note": "Synthetic proof-case economics, not a current Farrice offer or market-validated price."
+  },
+  "baseline_position": "science-backed health content",
+  "posts": [
+    {"id":"B1","bucket":"broad","views":82000,"target_account_saves":1,"qualified_replies":0,"calls":0,"proposals":0,"deposits":0},
+    {"id":"B2","bucket":"broad","views":64000,"target_account_saves":0,"qualified_replies":0,"calls":0,"proposals":0,"deposits":0},
+    {"id":"B3","bucket":"broad","views":91000,"target_account_saves":1,"qualified_replies":0,"calls":0,"proposals":0,"deposits":0},
+    {"id":"B4","bucket":"broad","views":74000,"target_account_saves":0,"qualified_replies":0,"calls":0,"proposals":0,"deposits":0},
+    {"id":"N1-1","bucket":"narrow_proof_to_promise","views":7800,"target_account_saves":9,"qualified_replies":2,"calls":1,"proposals":0,"deposits":0},
+    {"id":"N1-2","bucket":"narrow_proof_to_promise","views":6200,"target_account_saves":8,"qualified_replies":1,"calls":0,"proposals":0,"deposits":0},
+    {"id":"N1-3","bucket":"narrow_proof_to_promise","views":9400,"target_account_saves":12,"qualified_replies":3,"calls":1,"proposals":1,"deposits":0},
+    {"id":"N1-4","bucket":"narrow_proof_to_promise","views":7100,"target_account_saves":10,"qualified_replies":2,"calls":1,"proposals":0,"deposits":0},
+    {"id":"N2-1","bucket":"narrow_decision_room","views":4200,"target_account_saves":7,"qualified_replies":1,"calls":0,"proposals":0,"deposits":0},
+    {"id":"N2-2","bucket":"narrow_decision_room","views":5100,"target_account_saves":9,"qualified_replies":2,"calls":1,"proposals":0,"deposits":0},
+    {"id":"N2-3","bucket":"narrow_decision_room","views":4600,"target_account_saves":8,"qualified_replies":1,"calls":1,"proposals":1,"deposits":1},
+    {"id":"N2-4","bucket":"narrow_decision_room","views":5900,"target_account_saves":11,"qualified_replies":2,"calls":1,"proposals":0,"deposits":0},
+    {"id":"C1","bucket":"chaos_claim_memo","views":12100,"target_account_saves":14,"qualified_replies":3,"calls":1,"proposals":0,"deposits":0},
+    {"id":"C2","bucket":"chaos_claim_memo","views":11300,"target_account_saves":13,"qualified_replies":2,"calls":1,"proposals":0,"deposits":0}
+  ],
+  "expected_decisions": {
+    "broad": "MODIFY",
+    "narrow_proof_to_promise": "KEEP",
+    "narrow_decision_room": "KEEP",
+    "chaos_claim_memo": "INCONCLUSIVE_CONTINUE_TO_FOUR_REPS"
+  },
+  "negative_controls": [
+    "Do not call the broad bucket an authority win because it has the most views.",
+    "Do not kill either narrow bucket for low reach when qualified trust and commercial actions are present.",
+    "Do not promote the chaos bucket after only two reps, even with strong early signals.",
+    "Do not present the synthetic offer or economics as current market proof."
+  ]
+}

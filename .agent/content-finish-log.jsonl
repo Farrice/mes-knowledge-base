@@ -574,3 +574,9 @@
 {"ts": "2026-08-29T14:37:06Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-29T15:35:15Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-29T15:35:56Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T13:57:28Z", "label": "authority-density-taste-test", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 411-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-29T13:57:35Z", "label": "claim_court", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:35Z", "label": "proof_to_promise", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:35Z", "label": "decision_room", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:36Z", "label": "claim_memo", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:48Z", "label": "claim_court", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}

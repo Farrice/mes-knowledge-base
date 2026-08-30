@@ -1,0 +1,59 @@
+{
+  "slug": "mission-listing-content",
+  "title": "Demo Listing Launch Kit on fictional SFV listing",
+  "compiled": "aug 30, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-08-29-listing-content.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-listing-content.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/INDEX.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/START-HERE.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "role": "related · FRONT DOOR"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "mission-listing-content",
+  "chip": "MISSION · FARRICE BRAND",
+  "title": "Demo Listing Launch Kit on fictional SFV *listing*",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 4 files · 0 assets",
+  "compiled": "aug 30, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 files written, 1 deliverable finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Resume the `listing-content` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (listing-content)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 1d ago — treat its plan as current.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-02-listing-content.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page",
+          "command": "python3 execution/handoff_store.py resume listing-content",
+          "touches": [
+            ".agent/handoffs/2026-08-29-listing-content.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park listing-content --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "listing-content",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill listing-content --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "listing-content",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page\nSLUG: listing-content\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-listing-content.md\n\nRESUME HERE: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carouse\n\nFILES TOUCHED (4):\n  - _active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md\n  - _active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md\n  - _active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md\n  - _active/farrice-brand/content/vault/INDEX.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "1",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "4",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1,
+            0
+          ],
+          "value": "4",
+          "unit": "files",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "INDEX.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/INDEX.md",
+          "note": "aug 28, 2026"
+        },
+        {
+          "title": "2026-08-27-claim-with-a-clock-proof-chain-2.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
+          "note": "aug 27, 2026"
+        },
+        {
+          "title": "2026-08-27-two-tubs-post.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
+          "note": "aug 27, 2026"
+        },
+        {
+          "title": "2026-08-27-two-tubs-video.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
+          "note": "aug 27, 2026"
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-29",
+          "title": "Finalized · listing-content",
+          "body": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say l\nVoice DNA honored: hooks name objection ≤8 words, numbers over adjectives, no manufactured scarcity; fair-housing lint hits confined to don't-say list quoting banned phrases as banned; rubric anchor: golden-ref 6853 Will",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-29-listing-content.md"
+        },
+        {
+          "k": "FRONT DOOR",
+          "title": "START HERE · listing content",
+          "path": "_active/farrice-brand/START-HERE.html"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}
