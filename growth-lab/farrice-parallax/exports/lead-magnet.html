@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Supplement &amp; Performance Brand Growth — outlier mini-report</title>
+<style>
+  /* ================================================================
+     Farrice Cain Premium Minimal — mini-report surface
+     Tokens per 02-DESIGN-CONTRACT. Single look, offline, zero network.
+     ================================================================ */
+  :root {
+    --canvas: #F3F3F0;
+    --paper: #FAFAF8;
+    --ink: #101010;
+    --graphite: #555553;
+    --line: #D8D8D3;
+    --stone: #8C8C82;
+    --white: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; border-radius: 0; }
+  html, body { background: var(--canvas); color: var(--ink); }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ink); }
+  button { font: inherit; color: inherit; }
+
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+
+  /* Twelve-column base grid */
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 16px; }
+  .span-12 { grid-column: 1 / -1; }
+  .span-8 { grid-column: 1 / span 8; }
+  @media (max-width: 640px) { .span-8 { grid-column: 1 / -1; } }
+
+  /* Functional labels */
+  .label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--graphite);
+  }
+  .label--stone { color: var(--stone); }
+
+  /* Masthead */
+  header.masthead { padding: 28px 0 20px; }
+  .masthead-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .masthead-rule { border: 0; border-top: 2px solid var(--ink); margin-top: 18px; }
+
+  /* Display type */
+  h1 {
+    font-size: clamp(30px, 5.4vw, 42px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.08;
+  }
+  h2 {
+    font-size: clamp(20px, 3.4vw, 26px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+  .dek { color: var(--graphite); max-width: 56ch; }
+
+  .field-index {
+    font-size: clamp(40px, 8vw, 64px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: var(--stone);
+    line-height: 1;
+  }
+
+  /* ---------------- Step: inputs ---------------- */
+  #step-input { padding: 44px 0 72px; }
+  #step-input h1 { margin: 18px 0 14px; }
+  .question { margin-top: 44px; }
+  .question .label { display: block; margin-bottom: 14px; }
+  .choices {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+    gap: 10px;
+  }
+  button.choice {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: 15px 16px;
+    text-align: left;
+    cursor: pointer;
+    line-height: 1.3;
+  }
+  button.choice:hover { border-color: var(--graphite); }
+  button.choice .choice-sub { display: block; margin-top: 4px; font-size: 13px; color: var(--graphite); }
+  button.choice[aria-pressed="true"] {
+    border: 2px solid var(--ink);
+    padding: 14px 15px;
+    font-weight: 500;
+  }
+  .gate { margin-top: 52px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  #build-report {
+    background: var(--canvas);
+    border: 2px solid var(--ink);
+    padding: 14px 26px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  #build-report:disabled { border-color: var(--line); color: var(--stone); cursor: default; }
+  #gate-hint { color: var(--graphite); font-size: 14px; }
+  #resume-row { margin-top: 18px; }
+  #resume-row button {
+    background: none; border: 0; padding: 0;
+    text-decoration: underline; cursor: pointer; color: var(--graphite);
+  }
+
+  /* ---------------- Step: report ---------------- */
+  #step-report { padding: 36px 0 0; }
+  .lens { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; flex-wrap: wrap; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+  #lens-line { color: var(--graphite); font-size: 14px; }
+  #change-answers {
+    background: none; border: 0; padding: 0;
+    text-decoration: underline; cursor: pointer; color: var(--graphite); font-size: 14px;
+  }
+
+  .block { padding: 40px 0 44px; border-top: 1px solid var(--line); }
+  .block:first-child { border-top: 0; }
+  .block.is-lead { border-top: 2px solid var(--ink); }
+  .block-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 8px; }
+  .note-index { font-weight: 500; }
+  .block h2 { margin-bottom: 10px; }
+  .block .block-dek { color: var(--graphite); font-size: 15px; max-width: 60ch; margin-bottom: 26px; }
+  .lead-why { display: none; color: var(--graphite); font-size: 14px; margin: -16px 0 26px; }
+  .block.is-lead .lead-why { display: block; }
+
+  /* Outlier rows */
+  ol.video-list { list-style: none; }
+  .video-row {
+    display: grid;
+    grid-template-columns: 44px 1fr 112px;
+    gap: 14px;
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .video-row:first-child { border-top: 0; }
+  .vr-rank { font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); }
+  .vr-title { font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .vr-title:hover { border-bottom-color: var(--ink); }
+  .vr-meta { display: block; margin-top: 5px; font-size: 13px; color: var(--graphite); }
+  .vr-mult { text-align: right; }
+  .vr-mult-n { display: block; font-size: 24px; font-weight: 700; letter-spacing: -0.025em; }
+  .vr-mult-label { display: block; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone); }
+  @media (max-width: 480px) {
+    .video-row { grid-template-columns: 32px 1fr; }
+    .vr-mult { grid-column: 2; text-align: left; margin-top: 2px; }
+    .vr-mult-n { display: inline; margin-right: 8px; font-size: 20px; }
+    .vr-mult-label { display: inline; }
+  }
+
+  /* Topic leaderboard */
+  ol.topic-list { list-style: none; }
+  .topic-row {
+    display: grid;
+    grid-template-columns: 44px minmax(120px, 1fr) minmax(90px, 160px) auto;
+    gap: 14px;
+    align-items: center;
+    padding: 13px 0;
+    border-top: 1px solid var(--line);
+  }
+  .topic-row:first-child { border-top: 0; }
+  .tr-rank { font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); }
+  .tr-name { font-weight: 500; }
+  .tr-bar { height: 2px; background: var(--line); position: relative; }
+  .tr-bar span { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ink); }
+  .tr-meta { font-size: 13px; color: var(--graphite); text-align: right; white-space: nowrap; }
+  @media (max-width: 480px) {
+    .topic-row { grid-template-columns: 32px 1fr auto; }
+    .tr-bar { display: none; }
+  }
+
+  /* Why-it-broke-pattern rows */
+  ol.why-list { list-style: none; }
+  .why-row {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 14px;
+    padding: 15px 0;
+    border-top: 1px solid var(--line);
+  }
+  .why-row:first-child { border-top: 0; }
+  .wr-rank { font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); }
+  .wr-title { display: block; font-weight: 500; margin-bottom: 4px; }
+  .wr-why { display: block; color: var(--graphite); font-size: 15px; max-width: 60ch; }
+  @media (max-width: 480px) { .why-row { grid-template-columns: 32px 1fr; } }
+
+  /* Whitespace insight */
+  .ws-insight { border-left: 2px solid var(--ink); padding-left: 20px; max-width: 62ch; }
+  .ws-insight .ws-headline { font-weight: 700; letter-spacing: -0.025em; font-size: 19px; margin-bottom: 8px; }
+  .ws-receipt { margin-top: 12px; font-size: 13px; color: var(--graphite); }
+
+  /* Teaching panel — five beats */
+  ol.beats { list-style: none; counter-reset: beat; }
+  .beat { display: grid; grid-template-columns: 64px 1fr; gap: 18px; padding: 20px 0; border-top: 1px solid var(--line); }
+  .beat:first-child { border-top: 0; }
+  .beat-n { font-size: 28px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); line-height: 1; }
+  .beat-title { font-weight: 500; margin-bottom: 6px; }
+  .beat-body { color: var(--graphite); font-size: 15px; max-width: 58ch; }
+  .beat-body p + p { margin-top: 8px; }
+  .beat-body .variant { color: var(--ink); }
+  @media (max-width: 480px) { .beat { grid-template-columns: 40px 1fr; } .beat-n { font-size: 22px; } }
+
+  /* Honest ceiling — the one dark interruption */
+  .ceiling { background: var(--ink); color: var(--paper); margin-top: 56px; padding: 48px 32px 44px; }
+  .ceiling .label { color: var(--stone); }
+  .ceiling h2 { color: var(--white); margin: 14px 0 6px; }
+  .ceiling .ceiling-dek { color: var(--stone); margin-bottom: 8px; }
+  .limit { padding: 20px 0; border-top: 1px solid #3A3A38; }
+  .limit:first-of-type { margin-top: 22px; }
+  .limit-name { font-weight: 500; color: var(--white); margin-bottom: 4px; }
+  .limit p { color: #B9B9B2; font-size: 15px; max-width: 60ch; }
+  .ceiling-close { margin-top: 26px; padding-top: 24px; border-top: 2px solid var(--paper); }
+  .ceiling-close p { color: var(--paper); max-width: 58ch; margin-bottom: 22px; }
+  a.cta {
+    display: inline-block;
+    background: var(--paper);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 28px;
+  }
+  a.cta:hover { background: var(--white); }
+  .coverage-line { margin-top: 26px; font-size: 13px; color: var(--stone); }
+  .status-note { margin-top: 8px; font-size: 13px; color: var(--stone); }
+
+  footer { padding: 36px 0 56px; }
+  footer .foot-row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; }
+  footer p { font-size: 13px; color: var(--graphite); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead-row">
+      <span class="label">Farrice Cain</span>
+      <span class="label label--stone">Outlier mini-report — Supplement &amp; Performance Brand Growth</span>
+    </div>
+    <hr class="masthead-rule">
+  </header>
+
+  <main>
+
+    <!-- ============ STEP 1 — INPUTS ============ -->
+    <section id="step-input">
+      <p class="field-index">FIELD / 01</p>
+      <div class="grid">
+        <div class="span-8">
+          <h1>Three answers, then the report reads itself to you.</h1>
+          <p class="dek">The numbers below come from real channel data in Supplement &amp; Performance Brand Growth. Your answers don&rsquo;t change the data &mdash; they decide what gets read first, and what it means at your size.</p>
+        </div>
+      </div>
+
+      <div class="question">
+        <span class="label">01 &mdash; What are you closest to?</span>
+        <div class="choices" data-q="role">
+          <button type="button" class="choice" data-q="role" data-v="creator" aria-pressed="false">Creator / educator<span class="choice-sub">Content is the product</span></button>
+          <button type="button" class="choice" data-q="role" data-v="coach" aria-pressed="false">Coach / consultant<span class="choice-sub">Content sells expertise</span></button>
+          <button type="button" class="choice" data-q="role" data-v="brand" aria-pressed="false">Brand / e-commerce<span class="choice-sub">Content sells a product</span></button>
+          <button type="button" class="choice" data-q="role" data-v="agency" aria-pressed="false">Agency / service<span class="choice-sub">Content brings clients</span></button>
+          <button type="button" class="choice" data-q="role" data-v="exploring" aria-pressed="false">Still deciding<span class="choice-sub">Reading the field first</span></button>
+        </div>
+      </div>
+
+      <div class="question">
+        <span class="label">02 &mdash; Where is your channel today?</span>
+        <div class="choices" data-q="size">
+          <button type="button" class="choice" data-q="size" data-v="s0" aria-pressed="false">Starting out<span class="choice-sub">0 &ndash; 1K</span></button>
+          <button type="button" class="choice" data-q="size" data-v="s1" aria-pressed="false">Early signal<span class="choice-sub">1K &ndash; 10K</span></button>
+          <button type="button" class="choice" data-q="size" data-v="s2" aria-pressed="false">Compounding<span class="choice-sub">10K &ndash; 100K</span></button>
+          <button type="button" class="choice" data-q="size" data-v="s3" aria-pressed="false">Established<span class="choice-sub">100K+</span></button>
+        </div>
+      </div>
+
+      <div class="question">
+        <span class="label">03 &mdash; What matters most right now?</span>
+        <div class="choices" data-q="goal">
+          <button type="button" class="choice" data-q="goal" data-v="reach" aria-pressed="false">Reach<span class="choice-sub">Get discovered by new people</span></button>
+          <button type="button" class="choice" data-q="goal" data-v="trust" aria-pressed="false">Trust<span class="choice-sub">Deepen the audience you have</span></button>
+          <button type="button" class="choice" data-q="goal" data-v="conversion" aria-pressed="false">Conversion<span class="choice-sub">Turn viewers into buyers</span></button>
+        </div>
+      </div>
+
+      <div class="gate">
+        <button type="button" id="build-report" disabled>Read the report</button>
+        <span id="gate-hint">Answer all three to open the report.</span>
+      </div>
+      <div id="resume-row" hidden>
+        <button type="button" id="resume-btn">You answered these before &mdash; jump straight to your report</button>
+      </div>
+    </section>
+
+    <!-- ============ STEP 2 — MINI-REPORT ============ -->
+    <section id="step-report" hidden>
+      <div class="lens">
+        <span id="lens-line"></span>
+        <button type="button" id="change-answers">Change answers</button>
+      </div>
+
+      <div id="blocks">
+      <section class="block" data-block="outliers">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 01</span>
+        </div>
+        <h2>The five that broke pattern</h2>
+        <p class="block-dek">Ranked by how far each video ran past its own channel&rsquo;s normal. Every row links to its receipt.</p>
+        <p class="lead-why"></p>
+        <ol class="video-list">
+        <li class="video-row">
+          <span class="vr-rank">01</span>
+          <span class="vr-main">
+            <a class="vr-title" href="https://www.youtube.com/watch?v=CpIZPIbU0cU" rel="noopener">Amazon Just Lost Control Of Shopping! What It Means For You</a>
+            <span class="vr-meta">MyWifeQuitHerJob Ecommerce Channel &middot; 1.4M views &middot; 2026-04-28</span>
+          </span>
+          <span class="vr-mult">
+            <span class="vr-mult-n">64.2×</span>
+            <span class="vr-mult-label">channel normal</span>
+          </span>
+        </li>
+        <li class="video-row">
+          <span class="vr-rank">02</span>
+          <span class="vr-main">
+            <a class="vr-title" href="https://www.youtube.com/watch?v=ReYEYoLsppk" rel="noopener">Claude Has Officially Changed Facebook Ads  Forever (And Nobody&#x27;s Talking About It)</a>
+            <span class="vr-meta">Chase Chappell &middot; 41K views &middot; 2026-08-09</span>
+          </span>
+          <span class="vr-mult">
+            <span class="vr-mult-n">21.8×</span>
+            <span class="vr-mult-label">channel normal</span>
+          </span>
+        </li>
+        <li class="video-row">
+          <span class="vr-rank">03</span>
+          <span class="vr-main">
+            <a class="vr-title" href="https://www.youtube.com/watch?v=8eHZqKtnymY" rel="noopener">🛑STOP Losing Sales! The ULTIMATE Product Page Blueprint</a>
+            <span class="vr-meta">Supliful &middot; 12K views &middot; 2025-01-10</span>
+          </span>
+          <span class="vr-mult">
+            <span class="vr-mult-n">19.9×</span>
+            <span class="vr-mult-label">channel normal</span>
+          </span>
+        </li>
+        <li class="video-row">
+          <span class="vr-rank">04</span>
+          <span class="vr-main">
+            <a class="vr-title" href="https://www.youtube.com/watch?v=CERZXt6lpxk" rel="noopener">I Sold ONE Product in ONE Color - Then Exited for Half a Billion</a>
+            <span class="vr-meta">Foundr  &middot; 39K views &middot; 2026-07-30</span>
+          </span>
+          <span class="vr-mult">
+            <span class="vr-mult-n">15.9×</span>
+            <span class="vr-mult-label">channel normal</span>
+          </span>
+        </li>
+        <li class="video-row">
+          <span class="vr-rank">05</span>
+          <span class="vr-main">
+            <a class="vr-title" href="https://www.youtube.com/watch?v=6psqtXu4u88" rel="noopener">Do This to Scale Your CPG Brand — Guaranteed</a>
+            <span class="vr-meta">Common Thread Collective &middot; 10K views &middot; 2026-08-13</span>
+          </span>
+          <span class="vr-mult">
+            <span class="vr-mult-n">14.2×</span>
+            <span class="vr-mult-label">channel normal</span>
+          </span>
+        </li>
+        </ol>
+      </section>
+
+      <section class="block" data-block="pattern">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 02</span>
+        </div>
+        <h2>Why each one broke pattern</h2>
+        <p class="block-dek">One line each on the hook mechanics &mdash; the part you can copy. The numbers stay in the list above.</p>
+        <p class="lead-why"></p>
+        <ol class="why-list">
+        <li class="why-row">
+          <span class="wr-rank">01</span>
+          <span class="wr-main">
+            <span class="wr-title">Amazon Just Lost Control Of Shopping! What It Means For…</span>
+            <span class="wr-why">Opens on a hard number (400) inside a piece of market news that just broke. Specific and urgent at once, and the viewer is the one affected.</span>
+          </span>
+        </li>
+        <li class="why-row">
+          <span class="wr-rank">02</span>
+          <span class="wr-main">
+            <span class="wr-title">Claude Has Officially Changed Facebook Ads  Forever…</span>
+            <span class="wr-why">States a flat claim about something that just changed in the market. No hedge, no question, so the stakes feel current and the viewer stays to see it proven.</span>
+          </span>
+        </li>
+        <li class="why-row">
+          <span class="wr-rank">03</span>
+          <span class="wr-main">
+            <span class="wr-title">🛑STOP Losing Sales! The ULTIMATE Product Page Blueprint</span>
+            <span class="wr-why">States its claim from inside the operation, with the author&#x27;s own working material on screen. That is the one kind of proof an operator audience can&#x27;t argue with.</span>
+          </span>
+        </li>
+        <li class="why-row">
+          <span class="wr-rank">04</span>
+          <span class="wr-main">
+            <span class="wr-title">I Sold ONE Product in ONE Color - Then Exited for Half…</span>
+            <span class="wr-why">Opens inside a founder&#x27;s own story with the outcome in dollars on the table. Proof first, mechanics second.</span>
+          </span>
+        </li>
+        <li class="why-row">
+          <span class="wr-rank">05</span>
+          <span class="wr-main">
+            <span class="wr-title">Do This to Scale Your CPG Brand — Guaranteed</span>
+            <span class="wr-why">Stakes one specific, checkable outcome up front and lets the specificity do the convincing.</span>
+          </span>
+        </li>
+        </ol>
+      </section>
+
+      <section class="block" data-block="topics">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 03</span>
+        </div>
+        <h2>Where the pull concentrates</h2>
+        <p class="block-dek">Only themes that repeat make this list &mdash; a subject that breaks pattern more than once is demand talking.</p>
+        <p class="lead-why"></p>
+        <ol class="topic-list">
+        <li class="topic-row">
+          <span class="tr-rank">01</span>
+          <span class="tr-name">The theme behind &ldquo;Give Me 27 Minutes and I&#x27;ll Make You Disgustingly Good…&rdquo;</span>
+          <span class="tr-bar"><span style="width:100%"></span></span>
+          <span class="tr-meta">2 videos on it &middot; score 15.8</span>
+        </li>
+        </ol>
+      </section>
+
+      <section class="block" data-block="whitespace">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 04</span>
+        </div>
+        <h2>One open lane</h2>
+        <p class="block-dek">The single clearest gap this sample supports &mdash; stated with its evidence, or honestly absent.</p>
+        <p class="lead-why"></p>
+        <div class="ws-insight">
+          <p class="ws-headline">One lane is sitting open</p>
+          <p>The open lane: videos that open by stating one concrete claim as fact, where the payoff on the table is an edge the viewer&#x27;s competitors can&#x27;t easily copy. That exact combination shows up exactly once in this sample, and it scored about 2.5× the field&#x27;s median when it ran. It works, and nobody is crowding it yet. A founder&#x27;s move here: open your next video with the one thing you know is true about your corner of the market, stated flat with no hedge, then spend the video proving it.</p>
+          <p class="ws-receipt">Receipt: count 1 vs sample median 2 · avg score 19.9 vs median 7.9</p>
+        </div>
+      </section>
+
+      <section class="block" data-block="market-signal">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 05</span>
+        </div>
+        <h2>Two live market signals</h2>
+        <p class="block-dek">A taste of the live-market layer behind the full Content Growth Blueprint &mdash; each line carries its source.</p>
+        <p class="lead-why"></p>
+        <div class="ws-insight">
+          <p class="ws-headline">Rising demand: the subject behind &ldquo;Amazon Just Lost Control Of Shopping! What It Means For…&rdquo;</p>
+          <p>Interest keeps climbing. Within the last 90 days ChatGPT gained in-chat checkout through a major card issuer (Aug 17), Visa opened payments to AI shopping agents (June), and Amazon began licensing its own shopping assistant to other retailers (June) - the &#x27;who controls product discovery&#x27; story is getting bigger, not smaller.</p>
+          <p class="ws-receipt">VERIFIED &middot; <a href="https://www.cnbc.com/2026/08/17/synchrony-openai-chatgpt-shopping.html" rel="noopener">Synchrony, credit card issuer to Amazon and Walmart, partners with OpenAI for ChatGPT shopping (CNBC, Aug 17 2026)</a></p>
+        </div>
+        <div class="ws-insight">
+          <p class="ws-headline">What changed in this niche recently</p>
+          <p>Meta updated its health-and-wellness ad enforcement on July 22, 2026, reportedly moving from rejecting whole product categories toward claim-by-claim review, with changes to before/after imagery rules, supplement age-gating, and shop placements. For supplement advertisers this makes which claims you run - not whether you run ads - the compliance question.</p>
+          <p class="ws-receipt">LIKELY &middot; <a href="https://adligator.com/blog/meta-health-wellness-ad-policy-update-2026" rel="noopener">source</a></p>
+        </div>
+      </section>
+
+      <section class="block" data-block="teach">
+        <div class="block-head">
+          <span class="label note-index">NOTE / 06</span>
+        </div>
+        <h2>How to read an outlier</h2>
+        <p class="block-dek">Five beats. After these, the numbers above read themselves.</p>
+        <p class="lead-why"></p>
+        <ol class="beats">
+        <li class="beat">
+          <span class="beat-n">01</span>
+          <span>
+            <p class="beat-title">What an outlier is</p>
+            <span class="beat-body"><p>An outlier is a video that beat its own channel&rsquo;s normal &mdash; views per day divided by that channel&rsquo;s typical views per day. A 6× outlier did six times the channel&rsquo;s usual daily pull. The top outlier in this report runs at 64.2× &mdash; the channel&rsquo;s own audience voting “more of this.”</p></span>
+          </span>
+        </li>
+        <li class="beat">
+          <span class="beat-n">02</span>
+          <span>
+            <p class="beat-title">The total menu</p>
+            <span class="beat-body"><p>The five outlier rows in this report are the winners, not the field. They surfaced from 12 channels and every recent video each one published &mdash; the full menu of what this niche is currently trying.</p></span>
+          </span>
+        </li>
+        <li class="beat">
+          <span class="beat-n">03</span>
+          <span>
+            <p class="beat-title">The scoreboard</p>
+            <span class="beat-body"><p>Pull concentrates. One theme &mdash; the one behind &ldquo;Give Me 27 Minutes and I&#x27;ll Make You Disgustingly Good…&rdquo; &mdash; put 2 separate videos on this board. A subject that repeats among outliers is demand talking &mdash; before you spend a single filming day.</p></span>
+          </span>
+        </li>
+        <li class="beat">
+          <span class="beat-n">04</span>
+          <span>
+            <p class="beat-title">The open lane</p>
+            <span class="beat-body"><p>White space means demand without supply: a lane that scores when tried but almost nobody is trying. The open-lane note on this page is exactly one of those, with its receipt attached.</p></span>
+          </span>
+        </li>
+        <li class="beat">
+          <span class="beat-n">05</span>
+          <span>
+            <p class="beat-title">What it means for you</p>
+            <span class="beat-body"><p>Outliers are the niche handing you its receipts. What to do with them depends on who you are and where you stand &mdash; which is why this page asked.</p>
+              <p class="variant" data-goal="reach" hidden>Your pick: weight the topic leaderboard. Demand the niche has already proven pulls hardest for discovery.</p>
+              <p class="variant" data-goal="trust" hidden>Your pick: teach the mechanism behind one outlier instead of chasing five. Depth converts attention into belief.</p>
+              <p class="variant" data-goal="conversion" hidden>Your pick: the open lane. Reach numbers are proxies for you &mdash; less crowd means more buyer attention per view.</p>
+              <p class="variant" data-size="s0" hidden>Under 1K, your own channel median is still noise. Read these outliers as the niche&rsquo;s scoreboard, not yours &mdash; copy the packaging move, never the topic verbatim.</p>
+              <p class="variant" data-size="s1" hidden>At 1K&ndash;10K you have enough signal to test against your own median. One leaderboard topic against one open-lane bet per batch.</p>
+              <p class="variant" data-size="s2" hidden>At 10K&ndash;100K your own outliers outrank the niche&rsquo;s. Use this page to check whether your winners sit where the pull actually is.</p>
+              <p class="variant" data-size="s3" hidden>Past 100K you set part of this scoreboard. The open lane is your cheapest expansion &mdash; nobody expects you there yet.</p></span>
+          </span>
+        </li>
+        </ol>
+      </section>
+      </div>
+
+      <!-- The honest ceiling. One dark interruption, reserved for the decision. -->
+      <aside class="ceiling">
+        <span class="label">The honest ceiling</span>
+        <h2>What this report deliberately does not know</h2>
+        <p class="ceiling-dek">A mini-report earns trust by naming its own edge. Three things live past it.</p>
+
+        <div class="limit">
+          <p class="limit-name">Your buyer</p>
+          <p>Every number above measures audience pull, not purchase intent. None of it has been validated against the people who actually pay you.</p>
+        </div>
+        <div class="limit">
+          <p class="limit-name">Your position</p>
+          <p>An outlier proves the niche wants the shape. It cannot prove you should be the one making it, or how it sounds in your voice without becoming someone else&rsquo;s channel.</p>
+        </div>
+        <div class="limit">
+          <p class="limit-name">The follow-through</p>
+          <p>Five videos and one open lane make a reading, not an operating system. No cadence, no scripts, no feedback loop lives on this page.</p>
+        </div>
+
+        <div class="ceiling-close">
+          <p>The full Content Growth Blueprint closes all three: angles validated against your buyer, a position only you can hold, and the production loop that compounds it.</p>
+          <a class="cta" href="https://parallaxletter.substack.com?utm_source=outlier-mini-report&amp;utm_medium=lead_magnet&amp;utm_campaign=farrice-parallax" rel="noopener">Get the full Blueprint</a>
+        </div>
+
+        <p class="coverage-line">Measured: YouTube. Not yet measured: TikTok, Instagram. Data window closed 2026-08-27.</p>
+
+      </aside>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="foot-row">
+      <p>Outlier mini-report &middot; Supplement &amp; Performance Brand Growth &middot; data window closed 2026-08-27</p>
+      <p>No tracking on this page. The only link out is the one you can see.</p>
+    </div>
+  </footer>
+
+</div>
+
+<script id="mini-data" type="application/json">{"mode": "full", "pack_version": 1, "niche_slug": "farrice-parallax", "niche_label": "Supplement & Performance Brand Growth", "generated_at": "2026-08-27T19:38:33+00:00", "status": "ok", "coverage": {"youtube": "measured", "tiktok": "none", "instagram": "none"}, "channel_count": 12, "videos": [{"video_id": "CpIZPIbU0cU", "title": "Amazon Just Lost Control Of Shopping! What It Means For You", "url": "https://www.youtube.com/watch?v=CpIZPIbU0cU", "channel": "MyWifeQuitHerJob Ecommerce Channel", "outlier_multiplier": 64.1821, "views": 1400000, "views_per_day": 15555.56, "topic": "amazon just lost", "published_at": "2026-04-28T13:30:25+00:00", "why": "Opens on a hard number (400) inside a piece of market news that just broke. Specific and urgent at once, and the viewer is the one affected."}, {"video_id": "ReYEYoLsppk", "title": "Claude Has Officially Changed Facebook Ads  Forever (And Nobody's Talking About It)", "url": "https://www.youtube.com/watch?v=ReYEYoLsppk", "channel": "Chase Chappell", "outlier_multiplier": 21.7638, "views": 41000, "views_per_day": 2967.18, "topic": "claude officially changed", "published_at": "2026-08-09T20:00:01+00:00", "why": "States a flat claim about something that just changed in the market. No hedge, no question, so the stakes feel current and the viewer stays to see it proven."}, {"video_id": "8eHZqKtnymY", "title": "🛑STOP Losing Sales! The ULTIMATE Product Page Blueprint", "url": "https://www.youtube.com/watch?v=8eHZqKtnymY", "channel": "Supliful", "outlier_multiplier": 19.9165, "views": 12000, "views_per_day": 133.33, "topic": "stop losing sales", "published_at": "2025-01-10T00:00:06+00:00", "why": "States its claim from inside the operation, with the author's own working material on screen. That is the one kind of proof an operator audience can't argue with."}, {"video_id": "CERZXt6lpxk", "title": "I Sold ONE Product in ONE Color - Then Exited for Half a Billion", "url": "https://www.youtube.com/watch?v=CERZXt6lpxk", "channel": "Foundr ", "outlier_multiplier": 15.9375, "views": 39000, "views_per_day": 1401.98, "topic": "sold product color", "published_at": "2026-07-30T14:00:24+00:00", "why": "Opens inside a founder's own story with the outcome in dollars on the table. Proof first, mechanics second."}, {"video_id": "6psqtXu4u88", "title": "Do This to Scale Your CPG Brand — Guaranteed", "url": "https://www.youtube.com/watch?v=6psqtXu4u88", "channel": "Common Thread Collective", "outlier_multiplier": 14.2452, "views": 9900, "views_per_day": 716.47, "topic": "scale brand guaranteed", "published_at": "2026-08-13T16:29:58+00:00", "why": "Stakes one specific, checkable outcome up front and lets the specificity do the convincing."}], "topics": [{"topic": "give minutes i'll", "score_sum": 15.849, "video_count": 2, "example_title": "Give Me 27 Minutes and I'll Make You Disgustingly Good at Digital Marketing"}], "whitespace": {"kind": "format", "headline": "One lane is sitting open", "body": "The open lane: videos that open by stating one concrete claim as fact, where the payoff on the table is an edge the viewer's competitors can't easily copy. That exact combination shows up exactly once in this sample, and it scored about 2.5× the field's median when it ran. It works, and nobody is crowding it yet. A founder's move here: open your next video with the one thing you know is true about your corner of the market, stated flat with no hedge, then spend the video proving it.", "receipt": "count 1 vs sample median 2 · avg score 19.9 vs median 7.9"}, "excluded_ids": ["5w2aWizgIuY", "o3xqrJix3zk", "xyEQuqv1TLw", "yNEeCYoIQrs"], "enrichment_nuggets": [{"kind": "topic_demand", "topic": "amazon just lost", "topic_title": "Amazon Just Lost Control Of Shopping! What It Means For You", "text": "Interest keeps climbing. Within the last 90 days ChatGPT gained in-chat checkout through a major card issuer (Aug 17), Visa opened payments to AI shopping agents (June), and Amazon began licensing its own shopping assistant to other retailers (June) - the 'who controls product discovery' story is getting bigger, not smaller.", "trend_direction": "rising", "url": "https://www.cnbc.com/2026/08/17/synchrony-openai-chatgpt-shopping.html", "source_title": "Synchrony, credit card issuer to Amazon and Walmart, partners with OpenAI for ChatGPT shopping (CNBC, Aug 17 2026)", "label": "VERIFIED"}, {"kind": "market_pulse", "text": "Meta updated its health-and-wellness ad enforcement on July 22, 2026, reportedly moving from rejecting whole product categories toward claim-by-claim review, with changes to before/after imagery rules, supplement age-gating, and shop placements. For supplement advertisers this makes which claims you run - not whether you run ads - the compliance question.", "url": "https://adligator.com/blog/meta-health-wellness-ad-policy-update-2026", "source_title": "", "label": "LIKELY"}]}</script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- data (baked at build time; page renders fine without it) ---------- */
+  var data = { mode: "interview" };
+  try {
+    var dEl = document.getElementById("mini-data");
+    if (dEl && dEl.textContent) { data = JSON.parse(dEl.textContent) || data; }
+  } catch (e) { /* keep interview defaults */ }
+
+  /* ---------- persisted answers (storage optional; every read/write guarded) ---------- */
+  var LS_KEY = "fc-mini-report-v1";
+  function loadState() {
+    try {
+      var raw = window.localStorage.getItem(LS_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+  function saveState(s) {
+    try { window.localStorage.setItem(LS_KEY, JSON.stringify(s)); } catch (e) { /* fine */ }
+  }
+
+  var state = { role: null, size: null, goal: null };
+  var saved = loadState();
+  if (saved && typeof saved === "object") {
+    ["role", "size", "goal"].forEach(function (k) { if (saved[k]) { state[k] = saved[k]; } });
+  }
+
+  var ROLE_LABELS = {
+    creator: "creator / educator", coach: "coach / consultant", brand: "brand / e-commerce",
+    agency: "agency / service", exploring: "still deciding"
+  };
+  var SIZE_LABELS = { s0: "0–1K", s1: "1K–10K", s2: "10K–100K", s3: "100K+" };
+  var GOAL_LABELS = { reach: "reach", trust: "trust", conversion: "conversion" };
+
+  /* Which block reads first, per goal. Blocks missing from the page are skipped. */
+  var ORDER = {
+    reach: ["topics", "outliers", "pattern", "whitespace", "market-signal", "teach"],
+    trust: ["teach", "outliers", "pattern", "topics", "whitespace", "market-signal"],
+    conversion: ["whitespace", "outliers", "pattern", "topics", "market-signal", "teach"]
+  };
+  var ORDER_WHY = {
+    reach: "the strongest proven pull reads first.",
+    trust: "the reading frame comes first — mechanism over volume.",
+    conversion: "the open lane reads first — less crowd, more buyer attention per view."
+  };
+
+  var inputStep = document.getElementById("step-input");
+  var reportStep = document.getElementById("step-report");
+  var buildBtn = document.getElementById("build-report");
+  var gateHint = document.getElementById("gate-hint");
+  var resumeRow = document.getElementById("resume-row");
+  var resumeBtn = document.getElementById("resume-btn");
+  var changeBtn = document.getElementById("change-answers");
+  var lensLine = document.getElementById("lens-line");
+
+  function complete() { return Boolean(state.role && state.size && state.goal); }
+
+  function paintChoices() {
+    var choices = document.querySelectorAll("button.choice");
+    for (var i = 0; i < choices.length; i++) {
+      var b = choices[i];
+      var on = state[b.getAttribute("data-q")] === b.getAttribute("data-v");
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+  }
+
+  function updateGate() {
+    var done = complete();
+    if (buildBtn) { buildBtn.disabled = !done; }
+    if (gateHint) {
+      var missing = 3 - ["role", "size", "goal"].filter(function (k) { return state[k]; }).length;
+      gateHint.textContent = done ? "Ready." : ("Answer all three to open the report. " + missing + " to go.");
+    }
+  }
+
+  function reorderBlocks() {
+    var wrap = document.getElementById("blocks");
+    if (!wrap) { return; }
+    var order = ORDER[state.goal] || [];
+    order.forEach(function (name) {
+      var b = wrap.querySelector('[data-block="' + name + '"]');
+      if (b) { wrap.appendChild(b); }
+    });
+    var blocks = wrap.querySelectorAll(".block");
+    for (var i = 0; i < blocks.length; i++) { blocks[i].classList.remove("is-lead"); }
+    if (blocks.length) {
+      var lead = wrap.querySelector('[data-block="' + (order[0] || "") + '"]') || blocks[0];
+      lead.classList.add("is-lead");
+      var why = lead.querySelector(".lead-why");
+      if (why && ORDER_WHY[state.goal]) { why.textContent = "First because " + ORDER_WHY[state.goal]; }
+    }
+    /* renumber the visible NOTE indices so order and index never disagree */
+    var idx = wrap.querySelectorAll(".block .note-index");
+    for (var j = 0; j < idx.length; j++) { idx[j].textContent = "NOTE / 0" + (j + 1); }
+  }
+
+  function applyVariants() {
+    var g = document.querySelectorAll("[data-goal]");
+    for (var i = 0; i < g.length; i++) { g[i].hidden = g[i].getAttribute("data-goal") !== state.goal; }
+    var s = document.querySelectorAll("[data-size]");
+    for (var j = 0; j < s.length; j++) { s[j].hidden = s[j].getAttribute("data-size") !== state.size; }
+  }
+
+  function paintLens() {
+    if (!lensLine) { return; }
+    var parts = [
+      "Read as " + (ROLE_LABELS[state.role] || "—"),
+      SIZE_LABELS[state.size] || "—",
+      "ordered for " + (GOAL_LABELS[state.goal] || "—")
+    ];
+    lensLine.textContent = parts.join(" · ");
+  }
+
+  function showReport() {
+    if (!complete()) { return; }
+    reorderBlocks();
+    applyVariants();
+    paintLens();
+    if (inputStep) { inputStep.hidden = true; }
+    if (reportStep) { reportStep.hidden = false; }
+    window.scrollTo(0, 0);
+  }
+
+  function showInputs() {
+    if (reportStep) { reportStep.hidden = true; }
+    if (inputStep) { inputStep.hidden = false; }
+    window.scrollTo(0, 0);
+  }
+
+  /* ---------- wiring ---------- */
+  var allChoices = document.querySelectorAll("button.choice");
+  for (var i = 0; i < allChoices.length; i++) {
+    allChoices[i].addEventListener("click", function () {
+      state[this.getAttribute("data-q")] = this.getAttribute("data-v");
+      saveState(state);
+      paintChoices();
+      updateGate();
+    });
+  }
+  if (buildBtn) { buildBtn.addEventListener("click", showReport); }
+  if (changeBtn) { changeBtn.addEventListener("click", showInputs); }
+  if (resumeBtn) { resumeBtn.addEventListener("click", showReport); }
+
+  paintChoices();
+  updateGate();
+  if (complete() && resumeRow) { resumeRow.hidden = false; }
+})();
+</script>
+</body>
+</html>

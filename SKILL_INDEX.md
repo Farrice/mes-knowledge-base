@@ -143,6 +143,7 @@
 | `grace-liu` | **Grace Liu: Direction Discipline (Taste Doctrine)** | a rubric other skills consume before they generate, not a workflow, direction discipline | 0 | 0 |
 | `greg-hickman-service-scaling` | **greg-hickman-service-scaling** | pre-sell a productized prototype at founder pricing, land the first 5 clients from warm pipeline via icp interviews, service provider scaling & productization | 3 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | for personal-brand mechanics use seth-godin-brand, for cult/magnetism on a smaller scale use erica-mallet-brand-magnetism, brand mastery | 6 | 0 |
+| `growth-blueprint-os` | **Growth Blueprint OS** | premium content-strategy system: receipted positioning, whitespace mapping, revenue-wired bullseye | 10 | 0 |
 | `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | info business scaling, offer architecture, growth ecosystems | 12 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** | for full campaign architecture use bond-halbert-copywriting, for dopamine craft use stefan-georgi-dopamine-copy, for big-idea methodology use chris-cimorelli-copywriting | 5 | 14 |
 | `henrik-werdelin-portfolio-entrepreneurship` | **henrik-werdelin-portfolio-entrepreneurship** | donkeycorn business design ($1m sustainable ventures, not unicorn-or-nothing), relationship-capital moats (depth/density/durability) | 3 | 0 |

@@ -28,6 +28,12 @@ Every content task falls into one of two categories:
 
 All workflows in this domain automate the transactional while protecting the creative.
 
+## Signal Producer Contract
+
+`execution/outlier_radar.py` is the default $0 public-data producer. Its versioned pack contract is `execution/specs/outlier-radar-pack.schema.md`. The producer may calculate outlier, engagement, freshness, and confidence; it must not invent cohort fit or promote a topic into production. This skill owns those judgments and passes accepted rows downstream to Growth Blueprint OS or the Kallaway Content Operating System.
+
+Required boundary fields: `evidence_class`, `data_maturity_state`, `cohort_role`, `engagement_rate`, `signal_hygiene`, and `rejection_reasons`. `PUBLIC_PROXY` can discover candidates; it cannot prove demand, conversion, or revenue.
+
 ## Workflows (4)
 
 ### Tier 1 — Foundation

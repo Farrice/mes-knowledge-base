@@ -41,6 +41,7 @@ Ask only if the missing information changes the execution path. Otherwise state 
 | Upgrade storytelling and retention | `SDHKQbKC7gA` | `/addiction-loop-architect -> /loop-chain-scripting -> /word-rhythm -> /word-grip` |
 | Create content faster with AI | `1q__Vs2JqbI`, `B9l9TRhu5Vw` | `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep` |
 | Build data-enabled creativity without proxy drift | `GmIn1W9V8Rs` | `/ai-topic-mining -> /ai-creative-sprint -> /kcs-one-rep -> /kcs-performance-loop` |
+| Deliver a sellable client content strategy | `GmIn1W9V8Rs` + `extractions/kallaway/` | `outlier-radar signal pack -> kallaway-ai-content-engine research controls -> /gb-orchestrate -> selected production components` |
 
 ## Execution Protocol
 

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Format Matrix — Farrice Cain</title>
+<style>
+  :root{--navy:#0F172A;--panel:#1E293B;--line:#334155;--text:#F1F5F9;--dim:#94A3B8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 60px;max-width:860px;margin:0 auto}
+  h1{font-size:1.4rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;line-height:1.5;margin-bottom:12px}
+  .warnbar{background:#7C2D12;border:1px solid #C2410C;border-radius:10px;padding:10px 14px;font-size:.8rem;line-height:1.5;margin-bottom:16px}
+  .warnbar b{color:#FDBA74}
+  h2{font-size:1.05rem;margin:18px 0 8px}
+  .picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+  .pick{background:var(--panel);border:2px solid #FCD34D55;border-radius:14px;padding:13px 14px;font-size:.8rem;line-height:1.5}
+  .pick h3{font-size:.92rem;margin-bottom:2px}
+  .pick .combo{color:#FCD34D;font-size:.7rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px}
+  .pick .k{color:var(--dim);font-size:.66rem;text-transform:uppercase;letter-spacing:.6px;font-weight:700;margin-top:8px}
+  .bet{display:inline-block;background:#4C1D95;color:#C4B5FD;font-size:.6rem;font-weight:800;padding:2px 7px;border-radius:99px;margin-left:6px}
+  .mwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin-top:10px}
+  table{border-collapse:collapse;min-width:760px;width:100%;font-size:.72rem}
+  th{background:#111C33;padding:8px 6px;text-align:center;border:1px solid #26334A;font-size:.68rem;line-height:1.3;min-width:88px}
+  th.rowh{text-align:left;min-width:150px;position:sticky;left:0;background:#111C33;z-index:2}
+  td{border:1px solid #26334A;padding:8px 6px;text-align:center;color:#475569;background:#16233C}
+  td.picked{background:#3f3410;color:#FCD34D;font-weight:700}
+  .info{display:inline-block;width:14px;height:14px;border-radius:50%;background:#334155;color:#CBD5E1;font-size:.62rem;line-height:14px;text-align:center;cursor:pointer;margin-left:4px;font-weight:700}
+  #expl{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-top:10px;display:none;font-size:.82rem;line-height:1.55}
+  #expl.open{display:block}
+  #expl .k{color:var(--dim);font-size:.66rem;text-transform:uppercase;letter-spacing:.6px;font-weight:700;margin-top:8px}
+  .note{color:var(--dim);font-size:.75rem;line-height:1.5;margin-top:10px}
+</style>
+</head>
+<body>
+  <h1>The Format Matrix</h1>
+  <div class="sub">A format = a <b>storytelling structure</b> (rows — how the spoken words are organized) × a <b>visual layout</b> (columns — how it's shot and edited). They recombine freely. Tap any ⓘ for the plain-English explainer of that row or column.</div>
+  <div class="warnbar"><b>BUILT WITHOUT NICHE DATA.</b> This matrix normally shows, in each cell, the specimen video's thumbnail with an outlier badge and a count of niche winners using that combo. The top-50 export is empty (Topic Scanner ran without the Sandcastles MCP) and no favorite-videos list was pasted, so <b>every cell reads "no data."</b> Empty here does NOT mean "nobody's doing this" — it means we can't see. When the scan runs, cells that stay empty while neighbors fill become your format whitespace.</div>
+
+  <h2>Try these 3 first</h2>
+  <div class="picks">
+    <div class="pick">
+      <h3>Busting a myth × You on camera</h3>
+      <div class="combo">Pick 1 · S4 × V1</div>
+      <div><b>What it is:</b> take a thing your founder believes and show why it's wrong — you, straight to the lens, one take.</div>
+      <div class="k">12-second example</div>"'Clinically proven' doesn't mean what your label thinks it means" — then one warning-letter receipt.
+      <div class="k">Skeleton</div>1. State the belief in his words → 2. Break it with one receipt → 3. Replace it with the decision to make.
+      <div class="k">Model videos</div>None on file — no niche archive to pull specimens from.
+    </div>
+    <div class="pick">
+      <h3>Story with a lesson × You on camera</h3>
+      <div class="combo">Pick 2 · S8 × V1</div>
+      <div><b>What it is:</b> one true story that lands one point — same zero-production layout as Pick 1, so you build one filming habit, not two.</div>
+      <div class="k">12-second example</div>"A customer at the Vitamin Shoppe counter once asked me…" — scene, tension, the line that lands.
+      <div class="k">Skeleton</div>1. Drop into the scene → 2. The tension (what honesty costs) → 3. The line that lands the lesson.
+      <div class="k">Model videos</div>None on file.
+    </div>
+    <div class="pick">
+      <h3>This vs. That × Words on screen <span class="bet">THE BET</span></h3>
+      <div class="combo">Pick 3 · S2 × V5</div>
+      <div><b>What it is:</b> two things side by side, big text does the talking — no camera, no filming window needed.</div>
+      <div class="k">12-second example</div>The banned claim types itself out, gets struck through, the legal rewrite appears.
+      <div class="k">Skeleton</div>1. Put the pair on screen → 2. Strike the differences beat by beat → 3. Verdict card.
+      <div class="k">Model videos</div>None on file. Flagged as the one deliberate unproven bet the test set allows.
+    </div>
+  </div>
+
+  <h2>Structure × layout matrix</h2>
+  <div class="mwrap"><table id="mx"></table></div>
+  <div id="expl"></div>
+  <div class="note">After ~2–3 batches, the data (via the channel-coach) crowns your <b>1–2 hero formats</b> — testing ends, reps begin. Gold cells = the three test picks above.</div>
+
+<script>
+// Static, file-authored data only.
+function setHTML(el, html){ el.replaceChildren(document.createRange().createContextualFragment(html)); }
+const STRUCTS=[
+ {id:'S1',n:'Countdown list',what:'Ranks several things and walks through them in order.',ex:'Opens with "The 4 supplement claims most likely to draw a warning letter" — then counts them down.'},
+ {id:'S2',n:'This vs. That',what:'Puts two things side by side and compares them.',ex:'"Same product, two homepages: one got the FTC letter, one didn\'t. Spot the difference."'},
+ {id:'S3',n:'Copying the winner',what:'Recreates what a successful example does, in your world.',ex:'"I rewrote this dead brand\'s homepage the way the category leader writes theirs."'},
+ {id:'S4',n:'Busting a myth',what:'Takes a thing people believe and shows why it\'s wrong.',ex:'"\'Clinically proven\' doesn\'t mean what your label thinks it means."'},
+ {id:'S5',n:'How it really happened',what:'Walks through one real case start to finish.',ex:'"This brand had a real study and still got a warning letter. Here\'s the chain."'},
+ {id:'S6',n:'Show me how',what:'Teaches the steps to do one thing.',ex:'"How to check if your top claim survives a substantiation audit — in three steps."'},
+ {id:'S7',n:'I tried it',what:'Runs an experiment on camera and reports what happened.',ex:'"I asked ChatGPT to recommend a pre-workout 10 times. Your brand came up zero."'},
+ {id:'S8',n:'Story with a lesson',what:'One personal story that lands one point.',ex:'"A customer at the counter once asked me…" — story, then the point.'},
+ {id:'S9',n:'Hot take on the news',what:'Reacts to something current with a clear stance.',ex:'"The FTC just fined another supplement brand. Everyone\'s missing the real reason."'},
+ {id:'S10',n:'Playing a character',what:'Acts out a scene instead of explaining.',ex:'"POV: you\'re the customer reading \'proprietary blend\' on the label."'}
+];
+const LAYOUTS=[
+ {id:'V1',n:'You on camera, nothing else',what:'One person talking straight to the lens, single take. Lowest effort.',ex:'Farrice at his desk, phone at eye level, captions on — no cuts.'},
+ {id:'V2',n:'You + cutaway shots',what:'Talking head with extra footage layered over the voice (that footage is called b-roll).',ex:'Screen cuts to the nine homepages as he names them.'},
+ {id:'V3',n:'Screen recording',what:'Your screen does the showing while you talk. No camera at all.',ex:'A warning-letter PDF scrolls as he reads the claim that caused it.'},
+ {id:'V4',n:'Movie-look',what:'Polished, cinematic, multiple setups. High effort — honest warning for a 1–3 hr/day operator.',ex:'A moody rotating bottle shot under narration.'},
+ {id:'V5',n:'Words on the screen',what:'Big text carries the video; voice or music underneath. Template-driven, low effort.',ex:'The banned claim types out, gets struck through, the rewrite appears.'},
+ {id:'V6',n:'Follow-me-around',what:'Handheld, day-in-the-life feel.',ex:'Walking supplement-store aisles: "three years behind this counter…"'},
+ {id:'V7',n:'Two people talking',what:'Interview or podcast-style clip. Needs a second person.',ex:'A founder asks "so what CAN we say?" — cut to the answer.'}
+];
+const PICKED={'S4|V1':1,'S8|V1':2,'S2|V5':3};
+const tbl=document.getElementById('mx');
+let html='<thead><tr><th class="rowh">Structure ↓ · Layout →</th>'+LAYOUTS.map(l=>`<th>${l.n}<span class="info" data-k="${l.id}">i</span></th>`).join('')+'</tr></thead><tbody>';
+STRUCTS.forEach(s=>{
+  html+=`<tr><th class="rowh">${s.n}<span class="info" data-k="${s.id}">i</span></th>`;
+  LAYOUTS.forEach(l=>{
+    const p=PICKED[s.id+'|'+l.id];
+    html+=p?`<td class="picked">TEST PICK ${p}<br><span style="font-size:.62rem">no data yet</span></td>`:`<td>no data</td>`;
+  });
+  html+='</tr>';
+});
+html+='</tbody>';
+setHTML(tbl,html);
+const ALL=[...STRUCTS,...LAYOUTS];
+document.querySelectorAll('.info').forEach(el=>el.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  const item=ALL.find(x=>x.id===el.getAttribute('data-k'));
+  const kind=item.id.startsWith('S')?'Storytelling structure':'Visual layout';
+  setHTML(document.getElementById('expl'), `
+    <b>${item.n}</b> <span style="color:#94A3B8;font-size:.7rem">(${kind})</span>
+    <div class="k">What it is</div>${item.what}
+    <div class="k">12-second example</div>${item.ex}
+    <div class="k">Specimen from your niche</div>None on file — specimens require the analyzed watchlist (Sandcastles MCP) or a pasted favorites list.`);
+  document.getElementById('expl').classList.add('open');
+  document.getElementById('expl').scrollIntoView({behavior:'smooth',block:'nearest'});
+}));
+</script>
+</body>
+</html>

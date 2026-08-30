@@ -12,7 +12,7 @@ template, never here. All content strings are html-escaped (XSS discipline
 mirrors asset_gallery.py: briefs carry arbitrary scraped text).
 
 Usage:
-    python3 execution/render_brief.py <brief.json> [--out-dir DIR] [--open]
+    python3 execution/render_brief.py <brief.json> [--out-dir DIR] [--open] [--share] [--client]
 
 Outputs per slug: <slug>-brief.html, <slug>-brief.json (provenance copy),
 <slug>-brief.md (agent-paste mirror), <slug>-context.json (agent context pack —
@@ -104,6 +104,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "templates" / "research-brief" / "template.html"
+# Client-grade sibling: same placeholders/section classes, outward design contract
+# (package/02-DESIGN-CONTRACT.md) instead of the internal report dialect.
+TEMPLATE_CLIENT = ROOT / "templates" / "research-brief" / "template-client.html"
 DEFAULT_OUT = ROOT / "deliverables" / "research-briefs"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -671,13 +674,14 @@ def build_nav(brief, has_pack=False):
     return "".join(links)
 
 
-def render(brief, share=False, pagepack=None):
+def render(brief, share=False, pagepack=None, template=None):
     """Render the brief HTML. share=True strips internals (safe to send outward);
-    pagepack embeds {path, brief} for the page-level path / copy-brief buttons."""
+    pagepack embeds {path, brief} for the page-level path / copy-brief buttons;
+    template overrides the template file (default the internal report template)."""
     global SHARE
     SHARE = share
     try:
-        tpl = TEMPLATE.read_text(encoding="utf-8")
+        tpl = (template or TEMPLATE).read_text(encoding="utf-8")
         sections_html, n = [], 0
         for s in brief.get("sections", []):
             kind = s.get("kind")
@@ -872,15 +876,15 @@ def export_gdoc(out_html, title):
         return None
 
 
-def write_brief(brief, out_root=None, share=False, src_json=None):
+def write_brief(brief, out_root=None, share=False, src_json=None, client=False):
     """Render a brief dict to disk and return the paths written.
 
     `render()` is a pure function that returns HTML; the file layout used to live
     only inside main(), so every non-CLI caller either reimplemented it or
     silently wrote nothing. One layout, one owner.
 
-    Returns {"dir","html","md","json","context","share"} — values are Paths, and
-    "context"/"share" are None when not written.
+    Returns {"dir","html","md","json","context","share","client"} — values are
+    Paths, and "context"/"share"/"client" are None when not written.
     """
     slug = brief.get("slug") or "brief"
     out_dir = (Path(out_root) if out_root else DEFAULT_OUT) / slug
@@ -928,8 +932,20 @@ def write_brief(brief, out_root=None, share=False, src_json=None):
         share_path = out_dir / f"{slug}-brief-share.html"
         share_path.write_text(render(brief, share=True), encoding="utf-8")
 
+    # Client-grade form: outward design contract + the same internals-stripping
+    # as --share (a client page must never carry paths, costs, or write buttons).
+    client_path = None
+    if client:
+        client_path = out_dir / f"{slug}-brief-client.html"
+        client_html = render(brief, share=True, template=TEMPLATE_CLIENT)
+        # A client page ships comment-free: template documentation must never reach
+        # a delivered file (2026-08-28 — the template header comment shipped inside
+        # every client render). Strips leading comments regardless of template state.
+        client_html = re.sub(r"(<!doctype html>\s*)(?:<!--.*?-->\s*)+", r"\1", client_html, flags=re.S | re.I)
+        client_path.write_text(client_html, encoding="utf-8")
+
     return {"dir": out_dir, "html": out_html, "md": out_md, "json": out_json,
-            "context": ctx_path, "share": share_path}
+            "context": ctx_path, "share": share_path, "client": client_path}
 
 
 def main():
@@ -941,6 +957,9 @@ def main():
                     help="also export as a native Google Doc via gws (graceful skip on auth failure)")
     ap.add_argument("--share", action="store_true",
                     help="also render <slug>-brief-share.html with internals stripped (safe to send outward)")
+    ap.add_argument("--client", action="store_true",
+                    help="also render <slug>-brief-client.html from template-client.html "
+                         "(outward design contract; --share internals-stripping implied)")
     ap.add_argument("--no-index", action="store_true",
                     help="skip the automatic Briefing Room index refresh")
     args = ap.parse_args()
@@ -949,7 +968,7 @@ def main():
     brief = json.loads(src.read_text(encoding="utf-8"))
     slug = brief.get("slug") or src.stem
     out_root = Path(args.out_dir) if args.out_dir else DEFAULT_OUT
-    paths = write_brief(brief, out_root=out_root, share=args.share, src_json=src)
+    paths = write_brief(brief, out_root=out_root, share=args.share, src_json=src, client=args.client)
     out_dir, out_html, out_md, out_json = paths["dir"], paths["html"], paths["md"], paths["json"]
 
     gdoc_url = export_gdoc(out_html, _plain(brief.get("title") or slug)) if args.gdoc else None
@@ -962,6 +981,8 @@ def main():
         print(f"[render_brief] ctx → {paths['context']}")
     if paths["share"]:
         print(f"[render_brief] share → {paths['share']}  (internals stripped — the only client-visible form)")
+    if paths["client"]:
+        print(f"[render_brief] client → {paths['client']}  (outward design contract — client-grade form)")
 
     print(f"[render_brief] OK → {out_html}")
     print(f"[render_brief] md → {out_md}")
