@@ -2,14 +2,14 @@
 
 ## Status
 
-Photography V2 is **locked at the brand-idea level**:
+Photography V3 is **LOCKED — 2026-08-30**:
 
 - Night Society remains the permanent visual world.
 - Afterimage Archive remains the emotional thesis.
 - PLUR beyond the dance floor remains the purpose.
 - The white premium commerce environment remains locked.
 
-V3 refines execution before material and texture work begins.
+The continuity system is now a preservation lock. Material, typography, site, and campaign work may extend it, but may not split Festival / Club / Daily Life into different identities.
 
 ## Decision this board serves
 
@@ -71,6 +71,14 @@ Transition and afterimage frames are captured inside these three shoots rather t
 - No luxury lounge posing that removes actual dance culture.
 - No anonymous crowd spectacle or stage-only photography.
 - No daily-life imagery so clean that it loses personality and community.
+
+## Locked outcome
+
+- **One identity. Three environments.**
+- Festival, Club, and Daily Life remain balanced.
+- Afterimage remains connective tissue, not a gritty fourth world.
+- The same recurring cast, hero looks, lens family, grade baseline, and PLUR behavior connect the season.
+- The white-premium material world is the next controlled decision.
 
 ## Next gate
 
