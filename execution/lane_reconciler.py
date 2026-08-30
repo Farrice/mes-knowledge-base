@@ -38,8 +38,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+import re
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -82,16 +85,55 @@ def commits_ahead(branch: str) -> int:
     return int(out) if rc == 0 and out.isdigit() else 0
 
 
-def conflict_files(branch: str) -> list[str]:
-    """Probe the merge without touching any working tree."""
-    p = subprocess.run(["git", "-C", str(REPO), "merge-tree", "--write-tree", "main", branch],
-                       capture_output=True, text=True, timeout=TIMEOUT)
+def merge_probe(branch: str) -> tuple[list[str], str]:
+    """Probe a merge without touching a worktree or writing repo objects.
+
+    ``git merge-tree --write-tree`` needs an object database even though it
+    never changes refs. Codex's normal sandbox cannot write ``.git/objects``;
+    an unchecked failure there previously looked identical to a clean merge.
+    Use a temporary object database backed by the repository's objects and
+    fail closed when Git cannot complete the probe.
+    """
+    rc, object_path = git("rev-parse", "--git-path", "objects")
+    if rc != 0 or not object_path:
+        return [], "cannot resolve Git object directory"
+    objects = Path(object_path)
+    if not objects.is_absolute():
+        objects = (REPO / objects).resolve()
+
+    with tempfile.TemporaryDirectory(prefix="lane-reconciler-objects-") as temp_objects:
+        env = os.environ.copy()
+        env["GIT_OBJECT_DIRECTORY"] = temp_objects
+        alternates = [str(objects)]
+        if env.get("GIT_ALTERNATE_OBJECT_DIRECTORIES"):
+            alternates.append(env["GIT_ALTERNATE_OBJECT_DIRECTORIES"])
+        env["GIT_ALTERNATE_OBJECT_DIRECTORIES"] = os.pathsep.join(alternates)
+        p = subprocess.run(
+            ["git", "-C", str(REPO), "merge-tree", "--write-tree", "main", branch],
+            capture_output=True,
+            text=True,
+            timeout=TIMEOUT,
+            env=env,
+        )
     blob = (p.stdout or "") + (p.stderr or "")
-    return sorted({
-        line.split("Merge conflict in ", 1)[1].strip()
-        for line in blob.splitlines()
-        if "Merge conflict in " in line
-    })
+    conflicts: set[str] = set()
+    for line in blob.splitlines():
+        if "Merge conflict in " in line:
+            conflicts.add(line.split("Merge conflict in ", 1)[1].strip())
+            continue
+        if not line.startswith("CONFLICT "):
+            continue
+        match = re.search(
+            r"CONFLICT \([^)]+\): (.+?)(?: deleted in | renamed to | added in |$)",
+            line,
+        )
+        if match:
+            conflicts.add(match.group(1).strip())
+
+    if p.returncode and not conflicts:
+        detail = next((line.strip() for line in reversed(blob.splitlines()) if line.strip()), "")
+        return [], detail or f"merge-tree failed with exit {p.returncode}"
+    return sorted(conflicts), ""
 
 
 def worktree_dirty(path: str) -> int:
@@ -117,7 +159,8 @@ def reconcile(dry_run: bool = False) -> dict:
         ahead = commits_ahead(branch)
         dirty = worktree_dirty(path)
         row = {"branch": branch, "path": path, "commits_ahead": ahead,
-               "dirty_files": dirty, "conflicts": [], "action": "", "detail": ""}
+               "dirty_files": dirty, "conflicts": [], "probe_error": "",
+               "action": "", "detail": ""}
 
         # --- empty lane: nothing ahead, nothing uncommitted -> reclaim it ------
         if ahead == 0 and dirty == 0:
@@ -140,7 +183,12 @@ def reconcile(dry_run: bool = False) -> dict:
             continue
 
         # --- probe before acting ---------------------------------------------
-        row["conflicts"] = conflict_files(branch)
+        row["conflicts"], row["probe_error"] = merge_probe(branch)
+        if row["probe_error"]:
+            row["action"] = "parked-probe-error"
+            row["detail"] = f"merge safety probe failed — {row['probe_error']}"
+            results.append(row)
+            continue
         if row["conflicts"]:
             row["action"] = "parked-conflict"
             row["detail"] = f"{len(row['conflicts'])} file(s) collide — needs resolution"
