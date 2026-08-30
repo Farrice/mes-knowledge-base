@@ -40,7 +40,7 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 |---|---|---|
 | Source evidence | `extractions/video-context/<video_id>/` | Ground every system claim in transcript, frame, OCR, or uncertainty rows. |
 | Signal radar | `/kallaway-trend-hook-engine` | Normalize compliant trend inputs, score outliers, cluster hook patterns, and hand off to human creative reaction. |
-| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving human judgment. |
+| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving metric classes, cohort integrity, first-party learning maturity, and human creative judgment. |
 | Strategy and buyer intent | `kallaway-content-psychology` | Choose the content market, dopamine strategy, buyer path, and conversion intent. |
 | Production loop | `kallaway-content-system` | Run Topic -> Format -> Substance -> Hook -> Script -> Edit -> Batch Feedback. |
 | Retention | `kallaway-addictive-storytelling` | Engineer stakes, big question, head fake, rehook, and loop density. |
@@ -86,6 +86,8 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 
 `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep`
 
+Before the sprint, declare `COLD_START`, `HYBRID`, or `OWNED_LEARNING`; label signals as private outcomes, owned proxies, or public proxies; and keep cross-niche or celebrity examples format-only.
+
 **Trend Hook Engine**
 
 `/kallaway-trend-hook-engine -> /ai-topic-mining -> /ai-hook-extractor -> /kcs-topic-format -> /kcs-hook-triad -> /ai-creative-sprint`
@@ -107,6 +109,8 @@ Every run must prove:
 3. The first artifact is usable without another explanation pass.
 4. The system optimizes for buyer-quality attention, not empty views.
 5. Batch learning and monetization are considered when the work is more than a single content piece.
+6. Views are not allowed to stand in for trust, demand, conversion, or revenue.
+7. The competitor-to-owned evidence mix changes after the first 10-20 published pieces.
 
 ## File Map
 

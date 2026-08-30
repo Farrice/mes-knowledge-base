@@ -40,14 +40,16 @@ Ask only if the missing information changes the execution path. Otherwise state 
 | Build hooks that cannot be skipped | `onQoYdxWXdA` | `/kcs-hook-triad -> /word-opener -> /word-grip -> /addiction-loop-architect` |
 | Upgrade storytelling and retention | `SDHKQbKC7gA` | `/addiction-loop-architect -> /loop-chain-scripting -> /word-rhythm -> /word-grip` |
 | Create content faster with AI | `1q__Vs2JqbI`, `B9l9TRhu5Vw` | `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep` |
+| Build data-enabled creativity without proxy drift | `GmIn1W9V8Rs` | `/ai-topic-mining -> /ai-creative-sprint -> /kcs-one-rep -> /kcs-performance-loop` |
 
 ## Execution Protocol
 
 1. Select the lane and evidence packages.
 2. Load no more than three source analyses unless the user asks for a full evidence synthesis.
 3. Produce a compact source evidence summary.
-4. Run the component chain in order.
-5. After each component, write a handoff:
+4. For research or AI-production lanes, declare the data-maturity state (`COLD_START`, `HYBRID`, or `OWNED_LEARNING`), highest available metric class, and topic-vs-format cohort boundary.
+5. Run the component chain in order.
+6. After each component, write a handoff:
 
 ```markdown
 ## Skill System Handoff: [Component] -> [Next Component]
@@ -59,14 +61,14 @@ Ask only if the missing information changes the execution path. Otherwise state 
 - **Open risk**: [none or exact limitation]
 ```
 
-6. Produce the first artifact:
+7. Produce the first artifact:
    - content strategy blueprint
    - one-rep production brief
    - hook and story package
    - 10-video batch plan
    - content system audit
    - content-to-revenue map
-7. Close with validation, next command, and reuse hook.
+8. Close with validation, next command, and reuse hook.
 
 ## Output Schema
 
@@ -96,6 +98,9 @@ Before final output, confirm:
 - The output is not a generic content plan.
 - The artifact can be used immediately without asking the user to choose another workflow.
 - Buyer quality, batch learning, and monetization are considered when relevant.
+- Public views are never reported as proof of demand, conversion, or revenue.
+- Competitor research is intentionally reduced once 10-20 owned pieces provide usable first-party evidence.
+- AI collection and drafting never substitute for the creator's thesis, substance, or final creative judgment.
 
 ## Failure Modes
 
