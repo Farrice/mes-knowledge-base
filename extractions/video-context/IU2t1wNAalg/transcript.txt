@@ -1,0 +1,539 @@
+[00:01] Claude Co-work is one of the best ways to supercharge your real estate business
+[00:03] to supercharge your real estate business and automate time sucking tasks, but
+[00:06] and automate time sucking tasks, but unfortunately most agents don't know how
+[00:07] unfortunately most agents don't know how to properly do it. So, I'm going to walk
+[00:10] to properly do it. So, I'm going to walk you through step by step, click byclick,
+[00:12] you through step by step, click byclick, exactly not only how to understand
+[00:14] exactly not only how to understand Claude Co-work as a real estate agent,
+[00:17] Claude Co-work as a real estate agent, but also in this example, I'm going to
+[00:19] but also in this example, I'm going to show you how to build an AI powered
+[00:21] show you how to build an AI powered content assistant that would replace a
+[00:24] content assistant that would replace a virtual assistant and a social media
+[00:26] virtual assistant and a social media content manager using these six blocks.
+[00:29] content manager using these six blocks. So, what are we going to be building?
+[00:31] So, what are we going to be building? Well, the first is going to be a realtor
+[00:32] Well, the first is going to be a realtor business profile. Claude needs to
+[00:35] business profile. Claude needs to understand your market, your target
+[00:37] understand your market, your target avatar, and your goals. Then we're going
+[00:40] avatar, and your goals. Then we're going to build out a workspace to keep
+[00:42] to build out a workspace to keep everything organized so that it's easy
+[00:44] everything organized so that it's easy to find, navigate, and use. Then we're
+[00:47] to find, navigate, and use. Then we're going to give it instructions. I'm going
+[00:48] going to give it instructions. I'm going to give you the exact prompt that you
+[00:50] to give you the exact prompt that you can copy and paste. I'll show you how to
+[00:52] can copy and paste. I'll show you how to get it for free so that every time you
+[00:54] get it for free so that every time you want to do something, it does it the
+[00:56] want to do something, it does it the right way the first time immediately.
+[00:59] right way the first time immediately. Same [snorts] with the right skills. I'm
+[01:00] Same [snorts] with the right skills. I'm also going to show you how to connect it
+[01:02] also going to show you how to connect it to a Google Drive folder so that every
+[01:03] to a Google Drive folder so that every time you ask for your new content
+[01:06] time you ask for your new content strategy, it's going to put it in the
+[01:07] strategy, it's going to put it in the same place. But the most important part
+[01:09] same place. But the most important part is at the end of this video, I'm going
+[01:11] is at the end of this video, I'm going to show you how to create a weekly
+[01:12] to show you how to create a weekly automated content task so that every
+[01:14] automated content task so that every single week, it automatically delivers
+[01:17] single week, it automatically delivers you the exact videos you should record
+[01:19] you the exact videos you should record that week specific to your business,
+[01:22] that week specific to your business, your goals, and generating the kind of
+[01:24] your goals, and generating the kind of leads that you want. So, let's go ahead
+[01:26] leads that you want. So, let's go ahead and dive in. Now, the first thing that
+[01:27] and dive in. Now, the first thing that we need to do looking at Claude is
+[01:30] we need to do looking at Claude is making sure that you've downloaded the
+[01:32] making sure that you've downloaded the desktop app. That's going to be the only
+[01:35] desktop app. That's going to be the only way that you get access to Claude
+[01:37] way that you get access to Claude Co-work. So, you can go to claude.com/d
+[01:41] Co-work. So, you can go to claude.com/d download. I'll link that in the
+[01:43] download. I'll link that in the description so you can click it as well.
+[01:45] description so you can click it as well. But you have to be on the desktop app
+[01:48] But you have to be on the desktop app and you have to be on the $20 a month
+[01:52] and you have to be on the $20 a month plan, the pro plan as you'll be able to
+[01:54] plan, the pro plan as you'll be able to see down here in order to make sure that
+[01:57] see down here in order to make sure that you have access to Claude Co-work as
+[02:00] you have access to Claude Co-work as well for productivity. So after you've
+[02:03] well for productivity. So after you've downloaded the desktop, that's where we
+[02:05] downloaded the desktop, that's where we can see here. Normally you just have
+[02:07] can see here. Normally you just have access to chat, but when you do the $23
+[02:10] access to chat, but when you do the $23 a month, you have access to co-work.
+[02:12] a month, you have access to co-work. What is the difference before we start
+[02:14] What is the difference before we start diving into how to use this? When you
+[02:17] diving into how to use this? When you have a chat, it goes back and forth with
+[02:19] have a chat, it goes back and forth with you in a chat very linearly and it's
+[02:23] you in a chat very linearly and it's conversational in order to go back and
+[02:25] conversational in order to go back and forth and back and forth using the
+[02:28] forth and back and forth using the information it has access to on the
+[02:30] information it has access to on the internet in order to give you a
+[02:33] internet in order to give you a response. With co-work, I want you to
+[02:35] response. With co-work, I want you to view this as your automated assistant.
+[02:38] view this as your automated assistant. That's where it can actually do tasks
+[02:40] That's where it can actually do tasks for you. We can connect it, which we
+[02:43] for you. We can connect it, which we will, to our email, our calendar, our
+[02:45] will, to our email, our calendar, our Google Drive. It can use all of your
+[02:48] Google Drive. It can use all of your information about your business to
+[02:51] information about your business to deliver it the right way that you want.
+[02:54] deliver it the right way that you want. So, think of chat as back and forth
+[02:56] So, think of chat as back and forth conversation. Think of co-work as an
+[02:58] conversation. Think of co-work as an assistant doing the work for you. So,
+[03:00] assistant doing the work for you. So, now let's go ahead and get started with
+[03:03] now let's go ahead and get started with context. So, the first thing that we
+[03:06] context. So, the first thing that we need to do is give context to Claude as
+[03:08] need to do is give context to Claude as to who you are. What are you trying to
+[03:10] to who you are. What are you trying to do? What is your goal with your content
+[03:12] do? What is your goal with your content so that it understands your business?
+[03:15] so that it understands your business? So, what I'm going to do here is just
+[03:17] So, what I'm going to do here is just paste in this prompt. I'm an awesome
+[03:19] paste in this prompt. I'm an awesome real estate agent. I work with
+[03:22] real estate agent. I work with relocation buyers specializing in new
+[03:24] relocation buyers specializing in new construction.
+[03:26] construction. And this is something that you could
+[03:28] And this is something that you could just do in a chat.
+[03:30] just do in a chat. So, we're going to go ahead and just get
+[03:33] So, we're going to go ahead and just get started.
+[03:34] started. Now, what I want you to understand with
+[03:36] Now, what I want you to understand with this is that this is going to be
+[03:39] this is that this is going to be something very basic. If you want to do
+[03:42] something very basic. If you want to do this the utmost powerful way, that's
+[03:45] this the utmost powerful way, that's where I've built out an entire free
+[03:48] where I've built out an entire free clawed course showing you how to
+[03:50] clawed course showing you how to automate your entire real estate
+[03:51] automate your entire real estate business. Most people are charging like
+[03:53] business. Most people are charging like $5,000 to teach you this stuff. It's
+[03:55] $5,000 to teach you this stuff. It's entirely free. I built this out for you.
+[03:58] entirely free. I built this out for you. And as you can see here, we actually
+[04:01] And as you can see here, we actually gave custom skills to build your brain
+[04:05] gave custom skills to build your brain for you in Claude. Also, how to reverse
+[04:09] for you in Claude. Also, how to reverse engineer your goals so Claude
+[04:10] engineer your goals so Claude understands your business of what you're
+[04:12] understands your business of what you're looking to achieve. Then we build out
+[04:15] looking to achieve. Then we build out your entire personal brand and replace a
+[04:18] your entire personal brand and replace a virtual assistant and a content engine,
+[04:21] virtual assistant and a content engine, but most importantly, lead magnets and
+[04:24] but most importantly, lead magnets and funnels. It's all entirely free. And if
+[04:26] funnels. It's all entirely free. And if you want access to it, just drop a
+[04:29] you want access to it, just drop a comment below and let me know what your
+[04:31] comment below and let me know what your favorite part of this video is so that I
+[04:33] favorite part of this video is so that I can learn a bit more about you as well
+[04:35] can learn a bit more about you as well as like the video. If you do those two
+[04:37] as like the video. If you do those two things, I will make sure to give you the
+[04:39] things, I will make sure to give you the free course. So, coming back to Claude,
+[04:41] free course. So, coming back to Claude, we can come down here and say that,
+[04:44] we can come down here and say that, okay,
+[04:45] okay, it's done some research and here's the
+[04:48] it's done some research and here's the document, right? So this is going to be
+[04:50] document, right? So this is going to be you and you can download it as an MD
+[04:53] you and you can download it as an MD file which is exactly what you want to
+[04:55] file which is exactly what you want to do. So an MD file is just a markdown
+[04:58] do. So an MD file is just a markdown file. This is a type of file that Claude
+[05:00] file. This is a type of file that Claude likes to be used when it comes to
+[05:02] likes to be used when it comes to uploading files into the project which
+[05:05] uploading files into the project which is going to be the next component of it.
+[05:08] is going to be the next component of it. So the next thing that we need to do is
+[05:10] So the next thing that we need to do is we need to build the actual workspace.
+[05:13] we need to build the actual workspace. Where is your content manager going to
+[05:16] Where is your content manager going to live? that's going to be in a project.
+[05:19] live? that's going to be in a project. So, as you can see here, you can have a
+[05:22] So, as you can see here, you can have a project for a virtual assistant. I have
+[05:24] project for a virtual assistant. I have one for my YouTube channel just to give
+[05:26] one for my YouTube channel just to give you some context where it has
+[05:28] you some context where it has instructions. This is how I want my
+[05:31] instructions. This is how I want my content for my YouTube channel to be
+[05:33] content for my YouTube channel to be delivered every time to me. So, now
+[05:36] delivered every time to me. So, now Claude knows how I like to work. It also
+[05:39] Claude knows how I like to work. It also has all my files, information about me,
+[05:42] has all my files, information about me, my target avatar, all of this which are
+[05:46] my target avatar, all of this which are the context files. So for you, let's go
+[05:50] the context files. So for you, let's go do the same new project and we will just
+[05:53] do the same new project and we will just say YouTube assistant
+[05:59] done. And now what we're going to do is we're
+[06:00] And now what we're going to do is we're going to upload your instructions as
+[06:02] going to upload your instructions as well.
+[06:08] So I will copy and paste this here. You're my real estate content assistant.
+[06:09] You're my real estate content assistant. Your job is to help me create simple,
+[06:11] Your job is to help me create simple, clear, local lead generating content for
+[06:13] clear, local lead generating content for my business. Always write in a way
+[06:15] my business. Always write in a way that's easy for buyers to understand.
+[06:17] that's easy for buyers to understand. Avoid complex jargon, which is the worst
+[06:20] Avoid complex jargon, which is the worst thing you can do. Focus on content that
+[06:22] thing you can do. Focus on content that builds trust, positions me as a local
+[06:24] builds trust, positions me as a local expert, and generates conversation with
+[06:26] expert, and generates conversation with clients when giving me ideas. Include
+[06:28] clients when giving me ideas. Include practical topics that you can film. So,
+[06:32] practical topics that you can film. So, now we've got our instructions, but we
+[06:34] now we've got our instructions, but we can also add the context file, which we
+[06:36] can also add the context file, which we just created. So I'll upload my open my
+[06:39] just created. So I'll upload my open my documents and this is the file we just
+[06:42] documents and this is the file we just downloaded the markdown file. So now it
+[06:45] downloaded the markdown file. So now it understands us which is going to be the
+[06:48] understands us which is going to be the second component of this.
+[06:51] second component of this. So now we've got our assistant, we've
+[06:54] So now we've got our assistant, we've got a project, we've got instructions
+[06:58] got a project, we've got instructions and it has context about us.
+[07:02] and it has context about us. Now, what we need to do is we need to
+[07:05] Now, what we need to do is we need to build a skill. And I want you to build a
+[07:07] build a skill. And I want you to build a skill because the worst thing that you
+[07:09] skill because the worst thing that you could do is waste time with AI. The goal
+[07:11] could do is waste time with AI. The goal is for it to save time. So, where most
+[07:14] is for it to save time. So, where most agents go wrong is every time they need
+[07:18] agents go wrong is every time they need a video, they go into Claude and they
+[07:20] a video, they go into Claude and they write something like, "I need a list of
+[07:23] write something like, "I need a list of videos for this month." Well, then it
+[07:25] videos for this month." Well, then it gives you videos, but you don't like it.
+[07:27] gives you videos, but you don't like it. It doesn't have the script. It doesn't
+[07:29] It doesn't have the script. It doesn't have the description. It doesn't have
+[07:31] have the description. It doesn't have titles. It doesn't have the hook. It
+[07:32] titles. It doesn't have the hook. It doesn't have the call to action. So, you
+[07:34] doesn't have the call to action. So, you have to go back and forth in the chat
+[07:37] have to go back and forth in the chat and ask it for all these things every
+[07:39] and ask it for all these things every single time. But if we just build a
+[07:42] single time. But if we just build a skill, a skill is a reusable process
+[07:46] skill, a skill is a reusable process Claude can follow again and again. So,
+[07:49] Claude can follow again and again. So, if we build a skill for this, you save
+[07:51] if we build a skill for this, you save the process once and you reuse it for
+[07:55] the process once and you reuse it for Instagram real scripts, YouTube content
+[07:58] Instagram real scripts, YouTube content ideas. So, it's a repeatable process
+[08:01] ideas. So, it's a repeatable process that saves you time. Think of it as an
+[08:03] that saves you time. Think of it as an SOP or a standard operating procedure
+[08:06] SOP or a standard operating procedure for a certain activity that you're going
+[08:08] for a certain activity that you're going to do on an ongoing basis. So, let's go
+[08:10] to do on an ongoing basis. So, let's go ahead and create one. Now, [snorts]
+[08:14] ahead and create one. Now, [snorts] there's multiple ways to access skills.
+[08:16] there's multiple ways to access skills. If you want to see all of my skills, we
+[08:18] If you want to see all of my skills, we can come over to co-work here and you
+[08:20] can come over to co-work here and you come down over to skills. And now you
+[08:23] come down over to skills. And now you can see I've got a lot of skills, right?
+[08:27] can see I've got a lot of skills, right? Canva assistant. So, being able to
+[08:29] Canva assistant. So, being able to automate all of your Instagram
+[08:31] automate all of your Instagram carousels, competition analysis, we can
+[08:35] carousels, competition analysis, we can look at daily planners. If we come down
+[08:37] look at daily planners. If we come down here, open house, pre-listing,
+[08:40] here, open house, pre-listing, newsletters.
+[08:41] newsletters. We can look at personal brand persona,
+[08:45] We can look at personal brand persona, brand guides, logo designs, market
+[08:47] brand guides, logo designs, market updates, neighborhood tours, script
+[08:48] updates, neighborhood tours, script writers, YouTube channel setup, YouTube
+[08:51] writers, YouTube channel setup, YouTube repurposing. And by the way, if you want
+[08:53] repurposing. And by the way, if you want all of those skills, we built out 40 of
+[08:56] all of those skills, we built out 40 of them for you so that you can immediately
+[08:58] them for you so that you can immediately download them. And these are all based
+[09:00] download them. And these are all based on what my team uses. Again, that's in
+[09:03] on what my team uses. Again, that's in the free course if you access it. So
+[09:07] the free course if you access it. So coming back to this,
+[09:09] coming back to this, we got to build a skill. So these are
+[09:11] we got to build a skill. So these are the skills that I have. But if you want
+[09:13] the skills that I have. But if you want to access skills, you can come over to
+[09:16] to access skills, you can come over to customize
+[09:18] customize and then come down under customize and
+[09:21] and then come down under customize and you're automatically going to be
+[09:22] you're automatically going to be defaulted to skills. Now if you download
+[09:26] defaulted to skills. Now if you download the ones that I have, you could populate
+[09:28] the ones that I have, you could populate them here or you can add a skill. Now
+[09:31] them here or you can add a skill. Now there's two different ways to create a
+[09:32] there's two different ways to create a skill. First, you can either just click
+[09:36] skill. First, you can either just click create with Claude and it will open a
+[09:38] create with Claude and it will open a new chat and you can create the skill or
+[09:42] new chat and you can create the skill or you can literally come in here and ask
+[09:45] you can literally come in here and ask for it. So, let me show you what this
+[09:47] for it. So, let me show you what this looks like.
+[09:49] looks like. I will copy this and I will paste this.
+[09:52] I will copy this and I will paste this. Create a custom clawed skill, right?
+[09:55] Create a custom clawed skill, right? Specifically calling out what you want
+[09:57] Specifically calling out what you want called the real estate YouTube topic
+[09:59] called the real estate YouTube topic planner. This skill should help me,
+[10:02] planner. This skill should help me, right? You can just put me.
+[10:09] Uh, generate YouTube topics and video topics about your market. Follow the
+[10:11] topics about your market. Follow the 8020 content strategy. 80% proven
+[10:14] 8020 content strategy. 80% proven topics, 20% niche. Avoid repetitive
+[10:17] topics, 20% niche. Avoid repetitive topics. Explain why it's worth creating
+[10:19] topics. Explain why it's worth creating and working Claude co-work. So, we're
+[10:22] and working Claude co-work. So, we're going to go ahead and we're going to
+[10:24] going to go ahead and we're going to create that.
+[10:26] create that. So now as you can see here it's going to
+[10:28] So now as you can see here it's going to get working on all of this in order to
+[10:30] get working on all of this in order to create this skill for us. So we can see
+[10:33] create this skill for us. So we can see here progress build real estate YouTube
+[10:36] here progress build real estate YouTube topic planner skill package it as a zip
+[10:39] topic planner skill package it as a zip folder verify it and deliver it because
+[10:43] folder verify it and deliver it because when we want to upload this skill it
+[10:46] when we want to upload this skill it needs to be in that proper zip folder.
+[10:50] needs to be in that proper zip folder. As you can see here, it's going through
+[10:52] As you can see here, it's going through the process, writing the file, and it's
+[10:54] the process, writing the file, and it's going to use the skills creator to do
+[10:56] going to use the skills creator to do so. So, now it's building up the skill,
+[10:59] so. So, now it's building up the skill, and now every single time we need
+[11:00] and now every single time we need YouTube video topics, it's going to know
+[11:02] YouTube video topics, it's going to know exactly what we need for those topics.
+[11:06] exactly what we need for those topics. Now, the skills that I have for you in
+[11:08] Now, the skills that I have for you in that course, um, they will take care of
+[11:11] that course, um, they will take care of the SEO, they will take care of the
+[11:13] the SEO, they will take care of the scripting, they will take care of
+[11:15] scripting, they will take care of literally everything. This is just a
+[11:17] literally everything. This is just a quick tutorial basically to show you how
+[11:20] quick tutorial basically to show you how you can get the right video topic ideas
+[11:22] you can get the right video topic ideas anytime that you want. So, I'll wait for
+[11:24] anytime that you want. So, I'll wait for this to finish and I'll show you what it
+[11:26] this to finish and I'll show you what it looks like. Okay. So, as you can see
+[11:27] looks like. Okay. So, as you can see here, it is complete. And it says that,
+[11:29] here, it is complete. And it says that, okay, the skills ready, and it's going
+[11:31] okay, the skills ready, and it's going to walk through gathering all of your
+[11:33] to walk through gathering all of your video topics, ranking by buyer and
+[11:35] video topics, ranking by buyer and seller intent, making your weekly plan,
+[11:37] seller intent, making your weekly plan, and now we need to upload the zip into
+[11:40] and now we need to upload the zip into Claude and install it, and it'll trigger
+[11:42] Claude and install it, and it'll trigger things like what should you film or
+[11:44] things like what should you film or YouTube topics without needing the exact
+[11:46] YouTube topics without needing the exact skill name. So, we can just say allow.
+[11:49] skill name. So, we can just say allow. And now we've got that here, which is
+[11:52] And now we've got that here, which is our skill. So what I'm going to do is
+[11:55] our skill. So what I'm going to do is I'm going to come back to the project
+[11:58] I'm going to come back to the project and we can go customize skills and we
+[12:00] and we can go customize skills and we need to add. So now what we need to do
+[12:03] need to add. So now what we need to do is upload a skill and all that you need
+[12:06] is upload a skill and all that you need to do is drag and drop the folder here
+[12:09] to do is drag and drop the folder here rather.
+[12:11] rather. So if you come you'll see this the skill
+[12:13] So if you come you'll see this the skill MD it downloaded as this file skill MD.
+[12:18] MD it downloaded as this file skill MD. So all that we need to do is drag and
+[12:21] So all that we need to do is drag and drop that in there. And now you can see
+[12:23] drop that in there. And now you can see the real estate YouTube topic planner is
+[12:26] the real estate YouTube topic planner is here.
+[12:27] here. And now you can see it's on. We need to
+[12:30] And now you can see it's on. We need to make sure that this is on. And what the
+[12:33] make sure that this is on. And what the skill does, it turns four outputs,
+[12:35] skill does, it turns four outputs, market, audience, business goals, and
+[12:36] market, audience, business goals, and video history into a weekly batch of
+[12:38] video history into a weekly batch of content. Gathers four outputs, market,
+[12:41] content. Gathers four outputs, market, ideal audience, business goals, and
+[12:43] ideal audience, business goals, and previous video library. Checks for
+[12:46] previous video library. Checks for repeats so you don't repetitively do it.
+[12:48] repeats so you don't repetitively do it. Applies the 8020 topic strategy.
+[12:51] Applies the 8020 topic strategy. and then prioritizes intent not novelty
+[12:56] and then prioritizes intent not novelty produces your weekly content plan
+[12:57] produces your weekly content plan anytime you want. So this skill is ready
+[13:00] anytime you want. So this skill is ready to go and now we have access to that
+[13:03] to go and now we have access to that skill the weekly YouTube content
+[13:05] skill the weekly YouTube content planner.
+[13:06] planner. Now if we come over here,
+[13:09] Now if we come over here, we can either search the skill there or
+[13:12] we can either search the skill there or we can do weekly YouTube
+[13:21] as we can see here and we come down and we've got our YouTube content planner.
+[13:24] we've got our YouTube content planner. Right there we go. So we can use that
+[13:27] Right there we go. So we can use that skill anytime that we want. Now, before
+[13:31] skill anytime that we want. Now, before going to the next layer, because I'm
+[13:34] going to the next layer, because I'm going to show you how to create a
+[13:35] going to show you how to create a scheduled automated task for this, we
+[13:38] scheduled automated task for this, we want to make sure that it is connected
+[13:40] want to make sure that it is connected to your Google Drive because that way we
+[13:43] to your Google Drive because that way we can keep everything in one centralized
+[13:44] can keep everything in one centralized location. So, if you want to create a
+[13:47] location. So, if you want to create a specific Google Drive folder where you
+[13:49] specific Google Drive folder where you would like all of your content for
+[13:52] would like all of your content for YouTube, for example, to be managed,
+[13:55] YouTube, for example, to be managed, then just create the Google Drive folder
+[13:57] then just create the Google Drive folder and then you want to click share.
+[14:01] and then you want to click share. anyone with the link can access it and
+[14:03] anyone with the link can access it and copy it. And now whenever you're asking
+[14:06] copy it. And now whenever you're asking for certain things, you can specifically
+[14:09] for certain things, you can specifically ask it to use this. So place
+[14:14] ask it to use this. So place all of my content moving forward in this
+[14:18] all of my content moving forward in this folder here.
+[14:21] folder here. Right? So I've noted it going forward.
+[14:23] Right? So I've noted it going forward. I'll save all content into this folder.
+[14:26] I'll save all content into this folder. Done.
+[14:28] Done. Now, how do you make sure that that
+[14:30] Now, how do you make sure that that happens? What you want to do is make
+[14:33] happens? What you want to do is make sure that you've got your Google Drive
+[14:35] sure that you've got your Google Drive connected,
+[14:38] connected, customize,
+[14:40] customize, connectors,
+[14:42] connectors, and then you'll be able to come to
+[14:43] and then you'll be able to come to browse connectors and Google Drive will
+[14:45] browse connectors and Google Drive will be there. Otherwise, if you come over
+[14:47] be there. Otherwise, if you come over and look at mine, you can see based on
+[14:50] and look at mine, you can see based on what's already connected,
+[14:52] what's already connected, Google calendar, Google Drive. I could
+[14:55] Google calendar, Google Drive. I could disconnect it, reconnect it, but you
+[14:56] disconnect it, reconnect it, but you just have to connect it. And to connect
+[14:58] just have to connect it. And to connect it, if you were to add any connector,
+[15:01] it, if you were to add any connector, for example, like Slack, you just click
+[15:03] for example, like Slack, you just click it and you click connect. You'll be able
+[15:05] it and you click connect. You'll be able to click that beside Google Drive. Now,
+[15:07] to click that beside Google Drive. Now, the most important thing
+[15:10] the most important thing is that you have this to always allow.
+[15:12] is that you have this to always allow. Now, my team has some quirks here
+[15:14] Now, my team has some quirks here because of how we run our business, but
+[15:17] because of how we run our business, but the way that you usually want it is
+[15:18] the way that you usually want it is always allow. Done. Now you can see
+[15:22] always allow. Done. Now you can see everything is going to be put in that
+[15:24] everything is going to be put in that folder moving forward. And lastly, what
+[15:26] folder moving forward. And lastly, what we need to do,
+[15:28] we need to do, if we come back here,
+[15:31] if we come back here, is we need to make sure we've built our
+[15:33] is we need to make sure we've built our skill, we've connected to Google Drive,
+[15:37] skill, we've connected to Google Drive, and now we need to build a scheduled
+[15:39] and now we need to build a scheduled task, a repeat routine that runs
+[15:42] task, a repeat routine that runs automatically for you. So that for
+[15:44] automatically for you. So that for example, every week at a certain time,
+[15:46] example, every week at a certain time, maybe you want Monday at 8:00 a.m., it's
+[15:48] maybe you want Monday at 8:00 a.m., it's just going to deliver your content ideas
+[15:51] just going to deliver your content ideas of what you need to do that week for
+[15:54] of what you need to do that week for you. Okay. So, how do we automate that
+[15:57] you. Okay. So, how do we automate that task? Well, we come back to our project
+[16:01] task? Well, we come back to our project and you can do it a couple different
+[16:02] and you can do it a couple different ways. You can either a simply ask it to
+[16:06] ways. You can either a simply ask it to create, for example,
+[16:10] create, for example, we could do it like this. Every Monday
+[16:12] we could do it like this. Every Monday at 7 am create a simply weekly content
+[16:15] at 7 am create a simply weekly content plan for me. Right? Use my realtor
+[16:17] plan for me. Right? Use my realtor business profile. And maybe you want
+[16:19] business profile. And maybe you want Instagram res ideas, YouTube video
+[16:21] Instagram res ideas, YouTube video topics, and a newsletter topic. Make it
+[16:23] topics, and a newsletter topic. Make it simple. This would go ahead and because
+[16:26] simple. This would go ahead and because you asked for a repeat process at 7 a.m.
+[16:32] you asked for a repeat process at 7 a.m. Claude knows that you're asking for a
+[16:35] Claude knows that you're asking for a scheduled task. So, you could do it
+[16:37] scheduled task. So, you could do it there. Or you could come down here
+[16:41] there. Or you could come down here and click that you want a scheduled task
+[16:45] and click that you want a scheduled task and say weekly
+[16:48] and say weekly content ideas.
+[16:55] And now you can say every morning at or maybe every Monday morning 7 a.m. create
+[16:57] maybe every Monday morning 7 a.m. create a simple content plan. Use my business
+[17:00] a simple content plan. Use my business profile content instructions. and you
+[17:03] profile content instructions. and you just want it to skip all approvals so
+[17:05] just want it to skip all approvals so that it actually runs autonomously and
+[17:07] that it actually runs autonomously and doesn't continue to ask you for
+[17:09] doesn't continue to ask you for approvals and frequency can be manual or
+[17:14] approvals and frequency can be manual or hourly or whatever you want but you can
+[17:16] hourly or whatever you want but you can just leave it as manual
+[17:18] just leave it as manual and then save.
+[17:21] and then save. So now you've got a scheduled task here
+[17:25] So now you've got a scheduled task here as we can see. So this is going to be
+[17:27] as we can see. So this is going to be weekly content is active every Monday
+[17:29] weekly content is active every Monday it's going to do this. We can run it now
+[17:32] it's going to do this. We can run it now to show you what this looks like. And
+[17:34] to show you what this looks like. And it'll populate down here and say, "Okay,
+[17:37] it'll populate down here and say, "Okay, let's look at what this is going to show
+[17:38] let's look at what this is going to show us." As we can see here, it wants to
+[17:42] us." As we can see here, it wants to begin the process.
+[17:45] begin the process. So, what it's going to do, and we'll let
+[17:47] So, what it's going to do, and we'll let it run for a couple seconds here so I
+[17:49] it run for a couple seconds here so I can show you the output of what happens.
+[17:51] can show you the output of what happens. And this is just going to show up every
+[17:52] And this is just going to show up every single week autonomously for your
+[17:55] single week autonomously for your business. Now, while it's going through
+[17:56] business. Now, while it's going through that,
+[17:58] that, I want to show you that you can also
+[18:00] I want to show you that you can also have, for example, daily briefings,
+[18:02] have, for example, daily briefings, right? If we look at this, here's a
+[18:04] right? If we look at this, here's a daily briefing from my business where
+[18:06] daily briefing from my business where this is connected to my email. It's also
+[18:08] this is connected to my email. It's also connected to my calendar. So, that it
+[18:11] connected to my calendar. So, that it just tells me every single day, good
+[18:13] just tells me every single day, good morning. Here's your briefing for July
+[18:16] morning. Here's your briefing for July 10th. Here's,
+[18:18] 10th. Here's, you know, today's schedule because it's
+[18:20] you know, today's schedule because it's connected to my calendar. Here's the top
+[18:23] connected to my calendar. Here's the top priorities and to-dos. Here's the emails
+[18:27] priorities and to-dos. Here's the emails received in the last 24 hours. And then
+[18:30] received in the last 24 hours. And then here's the ones that need attention. The
+[18:32] here's the ones that need attention. The inbox is organized. Everything is done
+[18:34] inbox is organized. Everything is done and good to go. Right? So, I just wanted
+[18:38] and good to go. Right? So, I just wanted to show you some context as to what that
+[18:40] to show you some context as to what that looks like. Now, let's go ahead wait for
+[18:42] looks like. Now, let's go ahead wait for this to finish, which is done. And we
+[18:45] this to finish, which is done. And we can say, "Okay, done. This week's plan
+[18:48] can say, "Okay, done. This week's plan is filmed and ready to shoot." And we
+[18:51] is filmed and ready to shoot." And we can see here
+[18:53] can see here five in Instagram reels specific to our
+[18:55] five in Instagram reels specific to our market, Austin.
+[18:57] market, Austin. Here's the exact Instagram reel ideas
+[19:01] Here's the exact Instagram reel ideas using our YouTube content plan. Right?
+[19:04] using our YouTube content plan. Right? Here's our video ideas as well. And
+[19:07] Here's our video ideas as well. And here's a newsletter topic. So, two
+[19:09] here's a newsletter topic. So, two YouTube videos for the week, one email
+[19:11] YouTube videos for the week, one email newsletter topic, and then five
+[19:13] newsletter topic, and then five Instagram real ideas. And this would
+[19:15] Instagram real ideas. And this would just automatically show up every single
+[19:17] just automatically show up every single Monday at 7 a.m. here under scheduled
+[19:20] Monday at 7 a.m. here under scheduled tasks. And if you want to go back and
+[19:23] tasks. And if you want to go back and look at
+[19:25] look at anything else, you can come back here to
+[19:26] anything else, you can come back here to scheduled. We can see weekly content
+[19:29] scheduled. We can see weekly content ideas.
+[19:31] ideas. And that's here.
+[19:34] And that's here. Now,
+[19:36] Now, what we've done is we've built
+[19:37] what we've done is we've built everything out. So now, six blocks, one
+[19:40] everything out. So now, six blocks, one assistant. We have one content
+[19:42] assistant. We have one content assistant. Context teaches Claude about
+[19:45] assistant. Context teaches Claude about you. Instructions guides how it
+[19:47] you. Instructions guides how it responds. Projects organizes the work.
+[19:49] responds. Projects organizes the work. Skills repeat your process. Connect feed
+[19:52] Skills repeat your process. Connect feed it your files and schedule. Keep it
+[19:55] it your files and schedule. Keep it consistent so that your business starts
+[19:56] consistent so that your business starts to run autonomously. That's the power of
+[19:59] to run autonomously. That's the power of Claude Co-work. Right now, again, my
+[20:03] Claude Co-work. Right now, again, my recommendation if you want to go to the
+[20:04] recommendation if you want to go to the next level is to access that free course
+[20:06] next level is to access that free course because this is just the surface where
+[20:08] because this is just the surface where things get really interesting is when
+[20:11] things get really interesting is when you come over to plugins. And you can
+[20:12] you come over to plugins. And you can see here from my Realtor YouTube system,
+[20:15] see here from my Realtor YouTube system, it's got 16 skills built into it that
+[20:18] it's got 16 skills built into it that all take care of your analytics to give
+[20:20] all take care of your analytics to give you performance feedback and tell you
+[20:22] you performance feedback and tell you why you're not generating leads and
+[20:24] why you're not generating leads and exactly how to do so. all of your ideas,
+[20:27] exactly how to do so. all of your ideas, all of your SEO, scripting the videos,
+[20:29] all of your SEO, scripting the videos, repurposing it for short form,
+[20:31] repurposing it for short form, identifying viral outliers and
+[20:34] identifying viral outliers and everything. So again, if you want access
+[20:36] everything. So again, if you want access to our entire Claude system, you can
+[20:38] to our entire Claude system, you can feel free to like the video, drop a
+[20:40] feel free to like the video, drop a comment below, and we will send it to
+[20:41] comment below, and we will send it to you. But otherwise, now you have a
+[20:44] you. But otherwise, now you have a project with a YouTube assistant that
+[20:46] project with a YouTube assistant that knows your market, you've got a
+[20:48] knows your market, you've got a scheduled task, and you've built that a
+[20:50] scheduled task, and you've built that a skill. So, if you want to go,
+[20:53] skill. So, if you want to go, you know, create this week's video
+[20:57] you know, create this week's video topics for me,
+[21:00] topics for me, as you can see here,
+[21:03] as you can see here, working on it and it's going to be
+[21:05] working on it and it's going to be handled by the workflow. It ran the
+[21:07] handled by the workflow. It ran the skill. It knows that it wants the
+[21:09] skill. It knows that it wants the YouTube ideiation skill and it's going
+[21:12] YouTube ideiation skill and it's going to build it out for you. So, now you
+[21:15] to build it out for you. So, now you don't have to go explain all the things
+[21:18] don't have to go explain all the things you want. You simply ask for the videos
+[21:22] you want. You simply ask for the videos and you can just say just this week,
+[21:24] and you can just say just this week, right?
+[21:27] right? And then we can just click continue
+[21:31] And then we can just click continue and it's going to work on everything for
+[21:33] and it's going to work on everything for you using claude co-work right running
+[21:36] you using claude co-work right running the skills using everything you need and
+[21:38] the skills using everything you need and it's going to build out all of your
+[21:40] it's going to build out all of your content. So that's why I love using
+[21:42] content. So that's why I love using skills instead of trying to map
+[21:45] skills instead of trying to map everything out over and over and over.
+[21:47] everything out over and over and over. It knows everything for you. So, let me
+[21:51] It knows everything for you. So, let me just show you what this looks like.
+[21:52] just show you what this looks like. Okay, so as you can see here now, we've
+[21:54] Okay, so as you can see here now, we've got the exact videos that we need,
+[21:56] got the exact videos that we need, everything specific to our business, and
+[21:58] everything specific to our business, and we're good to go just by asking it to
+[22:00] we're good to go just by asking it to create this week's videos. So, that's
+[22:03] create this week's videos. So, that's how to properly use Claude Co-work. Set
+[22:05] how to properly use Claude Co-work. Set it up, get everything dialed in with
+[22:07] it up, get everything dialed in with your contacts, and now your assistant is
+[22:10] your contacts, and now your assistant is live and you can plug it into your
+[22:12] live and you can plug it into your business. Now, if you want to properly
+[22:13] business. Now, if you want to properly understand all the different features of
+[22:15] understand all the different features of Claude, from skills to plugins to
+[22:18] Claude, from skills to plugins to connectors and how to automate your
+[22:19] connectors and how to automate your business, replace virtual assistant,
+[22:22] business, replace virtual assistant, check out this next video where I walk
+[22:23] check out this next video where I walk you through everything in detail so you
+[22:26] you through everything in detail so you have a proper understanding of how to
+[22:28] have a proper understanding of how to use Claude to turbocharge your real
+[22:30] use Claude to turbocharge your real estate business.
