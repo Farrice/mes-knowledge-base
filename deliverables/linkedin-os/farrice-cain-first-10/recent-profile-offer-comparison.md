@@ -1,5 +1,7 @@
 # Farrice LinkedIn Profile — Recent Offer and Copy Comparison
 
+> **SUPERSEDED — WRONG OFFER ROUTE (2026-08-30).** This comparison incorrectly made the older Proof-to-Market/Angle Map lineage the strategic owner. Farrice clarified that the protected primary is the **creative strategist + ad statics crossover**, led by “18 years training the people who took your supplements” and the Control-Beater. Preserve this file only as the failed comparison. Use [profile-v3-creative-strategist-blend.md](profile-v3-creative-strategist-blend.md) for the corrected blend.
+
 **Status:** Draft-only comparison surface  
 **Purpose:** Recover the recent profile/offer decisions, compare them with the current tension pass, and preserve the strongest material before another rewrite.  
 **External action:** None. No LinkedIn edits, publishing, messages, or outreach were performed.
@@ -197,4 +199,3 @@ Recent task lineage used for this comparison:
 - **System: Portable Mission Packet - Profile Copy** — `019ff1b7-2aee-7e30-b9fa-025cc6f1bb5e`
 - **Revenue: Umbrella Offer Session - Recover Priestley Strategy** — `01a036f6-ffaf-7d01-8c54-f3f7269c565e`
 - **LinkedIn Profile: Niche & Offer Planning** — `6a3ebec5-6960-83e8-8551-ac3dbf3b546f`
-
