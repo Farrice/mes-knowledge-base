@@ -28,20 +28,43 @@ is called out in the open-items list below.
 
 ## Assignments
 
+**The rule, set by the design pass:** STRUCTURE slides stay white, STORY slides carry
+photography. The three photo-free slides are the three densest layouts — that is the
+deck's breathing rhythm, not a gap.
+
 | Artboard | Image | Treatment | Why this one |
 |---|---|---|---|
 | A1 · Hook | `palm-tree-sunset-city-02` | bleed | The basin at golden hour, palms, skyline. Establishes place in one frame. |
 | A2 · Old Map | `valley-street-01` | duotone | Archival palm-lined street. The 1981 beat wants an archival photograph, not a modern one. |
-| A3 · 29→40 | `los-angeles-street-00` | bottom band | Real LA street sign. Data keeps the white ground; the band just grounds it. |
+| A3 · 29→40 | *(none)* | — | Comparison slide. Stays white. |
 | A4 · 21% | `apartment-building-dusk-03` | duotone | Curved balconies — architectural, abstract, doesn't compete with the stat. |
-| A5 · Three Questions | *(none)* | — | The restraint anchor. Densest slide on the deck; a photo would bury it. |
+| A5 · Three Questions | *(none)* | — | Densest slide on the deck; a photo would bury it. |
 | A6 · CTA | `valley-street-00` | bleed | Apartment block at dusk with palms. Closes where the buyer actually lives. |
 | R1 | `apartment-building-dusk-01` | bleed | Looking out a window at the apartments you rent. Exactly the reel's premise. |
-| R2 | `paper-sheet-01` | bleed | The honest math, done by hand. Quiet, not corporate. |
+| R2 | `apartment-building-dusk-02` | bleed | Renting, at dusk — the literal subject of the line. |
 | R3 | `california-bungalow-00` | bleed | The entry home. Replaced a better photograph (see below). |
-| R4 | `contract-signing-pen-02` | bleed | The 20% myth, on paper. |
+| R4 | `suburban-neighborhood-aerial-02` | bleed | The market itself, from above. |
 | R5 | `house-key-lock-00` | bleed | Keys in the lock — the "last week I handed her keys" payoff. |
-| M1 · Magnet | `sunlight-through-window-floor-03` | top band | Palm shadow on grass. California without saying California. |
+| M1 · Magnet | *(none)* | — | Card layout with its own numbered list and CTA. Stays white. |
+
+## Design pass — what the first cut got wrong
+
+Three slides shipped broken in pass one and are fixed:
+
+1. **A6's call to action was invisible.** A6's v1 frame was already dark, so its inline
+   colours were authored for a dark ground. The light→dark remap fired on it anyway and
+   turned a white button's navy label white — "DM me MATH" disappeared into its own
+   button. Fix: `ALREADY_DARK = {"A4", "A6"}` is skipped by the remap.
+2. **Band treatments sat on live type.** Every v1 layout pins content to both edges with
+   `justify-content:space-between`, so an edge band has no empty edge to occupy. A3's
+   source line and page number were buried under the band; M1's headline was swallowed.
+   Fix: band treatments removed entirely; those slides stay white.
+3. **A global `scale(1.10)` cropped every image.** It was added once to hide a scan
+   border on A2 and silently took 10% off all the others — that is what reduced R2 and
+   R4 to a wrist on empty grey. Fix: scale and `object-position` are per slide now; only
+   A2 carries a scale.
+
+R2 and R4 also got new photographs; the close-crop hand shots never survived a 4:5 frame.
 
 ### One deliberate downgrade
 

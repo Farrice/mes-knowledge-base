@@ -22,33 +22,62 @@ HERE = pathlib.Path(__file__).parent
 V1 = HERE.parent / "canvas"
 IMG = HERE.parent / "imagery" / "prepared"
 
-# artboard -> (treatment, image stem, note)
+# artboard -> dict(t=treatment, img=stem, note=..., [scale=], [pos=])
+#
+# BAND TREATMENTS REMOVED. Every v1 layout pins its content to both edges with
+# justify-content:space-between, so an edge band lands ON live type — it buried
+# A3's source line and page number, and swallowed M1's headline. The system is:
+#
+#   STRUCTURE slides stay white  (A3 comparison, A5 questions, M1 magnet card)
+#   STORY slides carry photography (A1, A2, A4, A6, R1-R5)
+#
+# Three photo-free slides out of twelve is the deck's breathing rhythm, and they
+# are exactly the three densest layouts. That is the rule, not an exception.
+#
+# scale/pos are PER SLIDE. A global scale(1.10), added once to hide a scan border
+# on A2, was silently cropping 10% off every other image — that is what reduced
+# R2 and R4 to a wrist on empty grey.
 PLAN = {
-    "Main": ("bleed", "palm-tree-sunset-city-02", "A1 hook - the basin at golden hour"),
-    "A2":   ("duo",   "valley-street-01",         "A2 old map - archival palm street, 1981 beat"),
-    "A3":   ("band-bottom", "los-angeles-street-00", "A3 29->40 - street sign band, data stays white"),
-    "A4":   ("duo",   "apartment-building-dusk-03", "A4 21% - curved balconies, already a dark frame"),
-    "A5":   ("none",  None,                       "A5 three questions - pure white, no photo"),
-    "A6":   ("bleed", "valley-street-00",         "A6 CTA - apartment block at dusk, palms"),
-    "R1":   ("bleed", "apartment-building-dusk-01", "R1 - looking out at the apartments you rent"),
-    "R2":   ("bleed", "paper-sheet-01",           "R2 - the honest math, by hand"),
-    # front-door-house-00 (yellow wall / red door) was the first pick and is a
-    # better photograph — but it reads Mediterranean and fights the navy brand.
-    # The craftsman bungalow is the Valley, which is the point.
-    "R3":   ("bleed", "california-bungalow-00",   "R3 - the entry home, together"),
-    "R4":   ("bleed", "contract-signing-pen-02",  "R4 - the 20% myth, on paper"),
-    "R5":   ("bleed", "house-key-lock-00",        "R5 - keys in the lock"),
-    "M1":   ("band-top", "sunlight-through-window-floor-03", "M1 magnet - palm shadow on grass"),
+    "Main": dict(t="bleed", img="palm-tree-sunset-city-02", pos="50% 42%",
+                 note="A1 hook - the basin at golden hour"),
+    "A2":   dict(t="duo", img="valley-street-01", scale=1.14, pos="50% 46%",
+                 note="A2 old map - archival palm street; scale crops the scan border"),
+    "A3":   dict(t="none", img=None, note="A3 29->40 - comparison slide, stays white"),
+    "A4":   dict(t="duo", img="apartment-building-dusk-03", pos="50% 50%",
+                 note="A4 21% - curved balconies (v1 frame already dark)"),
+    "A5":   dict(t="none", img=None, note="A5 three questions - stays white"),
+    "A6":   dict(t="bleed", img="valley-street-00", pos="50% 58%",
+                 note="A6 CTA - apartment block at dusk (v1 frame already dark)"),
+    "R1":   dict(t="bleed", img="apartment-building-dusk-01", pos="50% 40%",
+                 note="R1 - looking out at the apartments you rent"),
+    # paper-sheet-01 cropped to an unreadable smear of wrist and grey. A dusk
+    # apartment is the literal subject of "renting is cheaper right now".
+    "R2":   dict(t="bleed", img="apartment-building-dusk-02", pos="50% 45%",
+                 note="R2 - renting, at dusk"),
+    # front-door-house-00 (yellow wall / red door) is the better photograph but
+    # reads Mediterranean and fights the navy brand. The bungalow is the Valley.
+    "R3":   dict(t="bleed", img="california-bungalow-00", pos="50% 55%",
+                 note="R3 - the entry home, together"),
+    # contract-signing-pen-02 cropped to a pen tip on empty grey. An aerial of
+    # the market survives any crop and carries "the wrong number" better.
+    "R4":   dict(t="bleed", img="suburban-neighborhood-aerial-02", pos="50% 50%",
+                 note="R4 - the 20% myth, over the market itself"),
+    "R5":   dict(t="bleed", img="house-key-lock-00", pos="46% 50%",
+                 note="R5 - keys in the lock"),
+    "M1":   dict(t="none", img=None, note="M1 magnet - card layout, stays white"),
 }
+
+# Artboards whose v1 frame is ALREADY dark. Their inline colours are authored for
+# a dark ground, so the light->dark remap must not touch them: on A6 it turned a
+# white CTA button's navy label white, erasing "DM me MATH" entirely.
+ALREADY_DARK = {"A4", "A6"}
 
 EXTRA_CSS = """
   /* --- v2 photography layer ------------------------------------------- */
   .photo { position:absolute; inset:0; z-index:0; overflow:hidden; }
-  /* scale(1.05) pushes scan borders and edge artefacts off-frame */
+  /* No global scale — framing is set per slide via inline style on the img. */
   .photo > img { width:100%; height:100%; object-fit:cover; display:block;
-                 transform:scale(1.10); transform-origin:center; }
-  .photo.band-bottom { top:auto; height:320px; }
-  .photo.band-top { bottom:auto; height:430px; }
+                 transform-origin:center; }
   .tint  { position:absolute; inset:0; background:#16304F; mix-blend-mode:multiply; }
   .lift  { position:absolute; inset:0; background:#C9D7E8; mix-blend-mode:screen; }
   .scrim { position:absolute; inset:0; }
@@ -82,21 +111,23 @@ def b64(stem):
     return base64.b64encode(p.read_bytes()).decode()
 
 
-def photo_div(treatment, stem):
-    cls = {"bleed": "photo bleed", "duo": "photo duo",
-           "band-bottom": "photo duo band-bottom",
-           "band-top": "photo duo band-top"}[treatment]
-    layers = '<div class="tint"></div><div class="lift"></div>'
-    if treatment == "bleed":
-        layers = '<div class="tint"></div><div class="scrim"></div>'
-    return ('<div class="%s"><img alt="" src="data:image/jpeg;base64,%s">%s</div>'
-            % (cls, b64(stem), layers))
+def photo_div(treatment, stem, scale, pos):
+    cls = "photo bleed" if treatment == "bleed" else "photo duo"
+    layers = ('<div class="tint"></div><div class="scrim"></div>'
+              if treatment == "bleed"
+              else '<div class="tint"></div><div class="lift"></div>')
+    style = "object-position:%s;" % pos
+    if scale and scale != 1.0:
+        style += "transform:scale(%s);" % scale
+    return ('<div class="%s"><img alt="" style="%s" src="data:image/jpeg;base64,%s">%s</div>'
+            % (cls, style, b64(stem), layers))
 
 
 def main():
     HERE.mkdir(parents=True, exist_ok=True)
     made = []
-    for name, (treatment, stem, note) in PLAN.items():
+    for name, spec in PLAN.items():
+        treatment, stem = spec["t"], spec.get("img")
         src = V1 / ("%s.dc.html" % name)
         html = src.read_text()
 
@@ -104,25 +135,29 @@ def main():
         html = html.replace("</style>", EXTRA_CSS + "</style>", 1)
 
         if treatment != "none":
-            # 2. full-bleed treatments flip the frame to dark and remap inline colours
-            if treatment in ("bleed", "duo"):
-                head, sep, body = html.partition('<div class="frame')
-                close = body.index(">")
-                frame_attr, rest = body[:close], body[close:]
-                frame_attr = frame_attr.replace("light", "dark")
+            # 2. flip the frame to dark; remap inline colours ONLY on artboards
+            #    whose v1 frame was light (see ALREADY_DARK).
+            head, sep, body = html.partition('<div class="frame')
+            close = body.index(">")
+            frame_attr, rest = body[:close], body[close:]
+            frame_attr = frame_attr.replace("light", "dark")
+            if name not in ALREADY_DARK:
                 for pat, rep in DARKEN:
                     rest = rest.replace(pat, rep)
-                html = head + sep + frame_attr + rest
+            html = head + sep + frame_attr + rest
 
             # 3. inject the photo layer immediately inside the frame
             m = re.search(r'(<div class="frame[^"]*">)', html)
-            html = html[:m.end()] + "\n" + photo_div(treatment, stem) + html[m.end():]
+            html = (html[:m.end()] + "\n"
+                    + photo_div(treatment, stem, spec.get("scale"),
+                                spec.get("pos", "50% 50%"))
+                    + html[m.end():])
 
         out = HERE / ("%s.dc.html" % name)
         out.write_text(html)
         kb = out.stat().st_size // 1024
-        made.append((name, treatment, stem or "-", kb, note))
-        print("  %-5s %-11s %-34s %5d KB" % (name, treatment, stem or "-", kb))
+        made.append((name, treatment, stem or "-", kb, spec["note"]))
+        print("  %-5s %-6s %-34s %5d KB" % (name, treatment, stem or "-", kb))
 
     shutil.copy2(V1 / "canvas.json", HERE / "canvas.json")
     total = sum(m[3] for m in made)
