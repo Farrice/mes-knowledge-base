@@ -1,0 +1,36 @@
+{
+  "name": "@farrice/premium-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Farrice Cain Premium Minimal — React component library built to the approved P2-01 design contract.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./premium-minimal.css": "./dist/premium-minimal.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && cp src/premium-minimal.css dist/premium-minimal.css && mkdir -p dist/guidelines && cp ../package/02-DESIGN-CONTRACT.md dist/guidelines/design-contract.md && cp ../package/01-BRAND-FOUNDATION.md dist/guidelines/brand-foundation.md",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
