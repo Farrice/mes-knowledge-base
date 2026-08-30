@@ -1,0 +1,26 @@
+{
+  "project": "MyBPM Premium Shopify Relaunch",
+  "status": "local_staging_not_published",
+  "theme": {
+    "base": "Shopify Horizon",
+    "source": "https://github.com/Shopify/horizon",
+    "commit": "1c479ca2825f0a2066a935720d6512a659fa257f",
+    "commit_date": "2026-08-12"
+  },
+  "working_drop": {
+    "title": "DROP 001 / SUBLEVEL",
+    "handle_to_create": "drop-001-sublevel",
+    "hero_product_handle": "mybpm-sublevel-heavyweight-tee-dubstep-streetwear"
+  },
+  "navigation": ["New Drop", "Shop", "Editorial", "About"],
+  "product_metafields": [
+    "custom.short_description",
+    "custom.product_story",
+    "custom.material",
+    "custom.fit_note",
+    "custom.care",
+    "custom.production_note"
+  ],
+  "collection_metafields": ["custom.short_description"],
+  "publish_requires_explicit_approval": true
+}
