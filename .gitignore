@@ -198,6 +198,7 @@ _active/video-studio/hyperframes-studio/
 .agent/sessions/observe-log.jsonl
 .agent/sessions/steering-observe.jsonl
 .agent/pulse-serve.log
+.agent/pulse/serve.log
 .agent/sessions/solution-injections.jsonl
 .agent/sessions/menu-parity.jsonl
 .agent/sessions/closeout-intelligence-guard.jsonl
