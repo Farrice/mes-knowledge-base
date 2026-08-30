@@ -612,6 +612,12 @@ def _park(main, lane, branch, reason, push=True) -> int:
 
 
 def cmd_merge(args) -> int:
+    if args.no_push:
+        # This repo's post-commit and post-merge hooks auto-push. Suppress them
+        # inside this one-shot helper process so local-only means local-only.
+        os.environ["GIT_CONFIG_COUNT"] = "1"
+        os.environ["GIT_CONFIG_KEY_0"] = "core.hooksPath"
+        os.environ["GIT_CONFIG_VALUE_0"] = "/dev/null"
     cwd = Path.cwd()
     main = main_root(cwd)
     if args.lane:
