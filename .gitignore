@@ -73,6 +73,16 @@ Thumbs.db
 
 # Per-session runtime ledgers (one file per session, written by session_ledger_hook.py)
 .agent/sessions/ledger-*.json
+.agent/sessions/memory-injections.jsonl
+.agent/sessions/menu-parity-seen.json
+.agent/sessions/menu-parity.log
+.agent/sessions/seen-injections-*.json
+.agent/sessions/session-ledger-report.md
+
+# Lane reconciliation runtime receipts. Read locally by the pulse/dashboard;
+# rewritten on cadence and never source-of-truth for repository history.
+.agent/health/lane-reconciler.json
+.agent/lane-reconciler.log
 
 # Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
 # holds verbatim copies of .agent/session-state.md, which is deliberately
