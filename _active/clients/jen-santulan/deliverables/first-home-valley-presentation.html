@@ -1,0 +1,278 @@
+<title>The First Home Valley</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --paper: #f8f5f1;
+    --surface: #ffffff;
+    --ink: #221c2e;
+    --muted: #6d6579;
+    --line: #e4ddd4;
+    --gold: #a97a2f;
+    --gold-soft: #f3e9d8;
+    --rose: #a25a48;
+    --dusk: #2e2741;
+    --dusk-text: #f0ebe3;
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #191521;
+      --surface: #221d2e;
+      --ink: #ece7df;
+      --muted: #a79dae;
+      --line: #37304a;
+      --gold: #d4a355;
+      --gold-soft: #322a1e;
+      --rose: #d08a76;
+      --dusk: #131019;
+      --dusk-text: #f0ebe3;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #191521;
+    --surface: #221d2e;
+    --ink: #ece7df;
+    --muted: #a79dae;
+    --line: #37304a;
+    --gold: #d4a355;
+    --gold-soft: #322a1e;
+    --rose: #d08a76;
+    --dusk: #131019;
+    --dusk-text: #f0ebe3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Figtree', 'Avenir Next', 'Segoe UI', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding: 0 24px 96px; }
+  h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; text-wrap: balance; margin: 0; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 14px;
+  }
+  section { margin-top: 72px; }
+  p { margin: 0 0 18px; }
+  .muted { color: var(--muted); }
+
+  /* hero */
+  .hero { padding: 84px 0 0; }
+  .hero h1 { font-size: clamp(42px, 9vw, 64px); font-weight: 500; line-height: 1.06; letter-spacing: -0.01em; }
+  .hero .thesis { font-size: 21px; line-height: 1.5; margin-top: 26px; max-width: 34ch; font-weight: 500; }
+  .hero .thesis em { color: var(--rose); font-style: normal; }
+  .rule { border: 0; border-top: 1px solid var(--line); margin: 40px 0 0; }
+
+  h2 { font-size: 30px; font-weight: 500; line-height: 1.2; margin-bottom: 18px; }
+  h3 { font-size: 19px; font-weight: 600; margin-bottom: 8px; }
+
+  /* stats */
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0; }
+  .stat {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 4px;
+    padding: 18px 16px;
+  }
+  .stat .n { font-family: 'Fraunces', Georgia, serif; font-size: 38px; font-weight: 500; color: var(--gold); line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat .l { font-size: 13px; line-height: 1.4; color: var(--muted); margin-top: 8px; }
+  @media (max-width: 540px) { .stats { grid-template-columns: 1fr; } .stat { display: flex; align-items: baseline; gap: 14px; } .stat .l { margin-top: 0; } }
+
+  blockquote {
+    margin: 28px 0; padding: 22px 26px; background: var(--gold-soft);
+    border-radius: 4px; font-family: 'Fraunces', Georgia, serif; font-size: 21px; line-height: 1.45; font-weight: 500;
+  }
+
+  /* asset stacks */
+  .stack { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 26px 26px 20px; margin-top: 18px; }
+  .stack .tag { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--rose); margin-bottom: 6px; }
+  .stack ul { margin: 12px 0 6px; padding-left: 20px; }
+  .stack li { margin-bottom: 8px; }
+  .stack .ready { font-size: 13px; font-weight: 600; color: var(--gold); margin-top: 10px; }
+
+  /* flow */
+  .flow { margin: 26px 0; display: flex; flex-direction: column; gap: 0; }
+  .step { display: flex; gap: 18px; align-items: flex-start; }
+  .step .dot {
+    flex: none; width: 34px; height: 34px; border-radius: 50%;
+    background: var(--dusk); color: var(--dusk-text);
+    font-family: 'Fraunces', Georgia, serif; font-size: 15px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step .body { padding-bottom: 26px; border-left: 0; }
+  .step:not(:last-child) .col { position: relative; }
+  .col { display: flex; flex-direction: column; align-items: center; flex: none; }
+  .stem { width: 2px; flex: 1; background: var(--line); min-height: 18px; }
+  .step b { font-weight: 700; }
+  .step .body p { margin-bottom: 4px; }
+  .step .sub { font-size: 14px; color: var(--muted); }
+
+  /* time split */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 26px 0; }
+  .half { border-radius: 6px; padding: 22px; }
+  .half.you { background: var(--gold-soft); }
+  .half.machine { background: var(--dusk); color: var(--dusk-text); }
+  .half .who { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 10px; opacity: 0.75; }
+  .half .big { font-family: 'Fraunces', Georgia, serif; font-size: 26px; font-weight: 500; line-height: 1.2; margin-bottom: 10px; }
+  .half ul { margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6; }
+  @media (max-width: 540px) { .split { grid-template-columns: 1fr; } }
+
+  /* phases */
+  .phases { display: flex; flex-direction: column; gap: 12px; margin: 26px 0; }
+  .phase { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 20px 24px; }
+  .phase .when { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+
+  /* asks */
+  .asks { counter-reset: ask; margin: 26px 0 0; padding: 0; list-style: none; }
+  .asks li { counter-increment: ask; display: flex; gap: 16px; margin-bottom: 20px; }
+  .asks li::before {
+    content: counter(ask);
+    flex: none; width: 30px; height: 30px; border-radius: 50%;
+    background: var(--rose); color: #fff;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .foot { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+</style>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Built for Jen &middot; San Fernando Valley &middot; August 2026</div>
+    <h1>The First Home Valley</h1>
+    <p class="thesis">The typical first-time buyer is now <em>40 years old</em> — and every agent in the Valley is still marketing to a 27-year-old. This is the engine that makes you the one who actually talks to her.</p>
+    <hr class="rule">
+  </header>
+
+  <section>
+    <div class="eyebrow">The opening</div>
+    <h2>Why this buyer, why now</h2>
+    <div class="stats">
+      <div class="stat"><div class="n">40</div><div class="l">median age of today's first-time buyer (NAR, 2025 Profile)</div></div>
+      <div class="stat"><div class="n">21%</div><div class="l">first-timers' share of the market — a record low. The rest gave up or got ignored.</div></div>
+      <div class="stat"><div class="n">62%</div><div class="l">of Americans now believe buying is unrealistic (IPX1031, Dec 2025)</div></div>
+    </div>
+    <p>She's a dual-income renter in her late 30s or 40s, paying around $3,000 a month, financially serious, and exhausted from being told it's impossible. Every agent online sells her the same fantasy — <span class="muted">"free down payment money!"</span> — and she's stopped believing any of it.</p>
+    <blockquote>The down payment isn't the wall. Income and access are — and she's closer than she's been told.</blockquote>
+    <p>Rates are sitting in the mid-6s right now (6.66% on the 30-year as of August 27), which means owning an entry condo genuinely costs more per month than renting it — and you're the agent who says that out loud, then shows what the difference is buying. In a market this cynical, doing the math honestly is the single most trust-building move available. Nobody else in the Valley is making it.</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">Already built</div>
+    <h2>What's sitting ready, tonight</h2>
+    <p>None of this is a plan to make things. These exist, in your voice, and you can deploy the first pieces this week.</p>
+
+    <div class="stack">
+      <div class="tag">Stack one &middot; The buyer engine</div>
+      <h3>Ten documents that reposition you around this buyer</h3>
+      <ul>
+        <li>Your positioning and messaging spine — built from how you already talk, not a script pasted over you</li>
+        <li>A YouTube channel system (<b>@TheFirstHomeValley</b>) with 5 pillars and a 12-week calendar</li>
+        <li>A complete, record-ready 12-minute flagship script — you read it, one sitting</li>
+        <li><b>12 Instagram pieces ready to post now</b>: 5 reels, a neighborhood carousel, stories, feed posts</li>
+        <li>A lead engine: the "Honest First-Home Math" guide, a DM keyword, a teaching webinar blueprint, and 5 follow-up emails already written</li>
+      </ul>
+      <div class="ready">Every statistic in it is verified and sourced — you can repeat any line to a buyer with confidence.</div>
+    </div>
+
+    <div class="stack">
+      <div class="tag">Stack two &middot; The listing machine</div>
+      <h3>Four real listing packages, already produced</h3>
+      <ul>
+        <li>Willis &middot; Armida &middot; Moonseed &middot; Bothwell — each one a complete kit</li>
+        <li>Shoot sheet for one phone walkthrough, teleprompter scripts in your voice, captions and hooks with pick-one options, a 5-frame story arc ending in a DM keyword</li>
+        <li>Every line screened against fair-housing rules before it ever reaches you</li>
+      </ul>
+      <div class="ready">This is the repeatable move: any new listing becomes a full content package within 48 hours.</div>
+    </div>
+
+    <div class="stack">
+      <div class="tag">Stack three &middot; The brand layer</div>
+      <h3>12 designed carousel slides on your real brands</h3>
+      <ul>
+        <li>One set for <b>@_jiing</b>, one for House Sellers — your colors, your type, backed by what Valley buyers and sellers are actually searching this month</li>
+        <li>Two registers, kept deliberately separate: calm-warm for first-time buyers, quiet-authority for the $2M+ side</li>
+      </ul>
+      <div class="ready">Yours if you want them — check the numbers in them and post whichever you like.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">The strategy</div>
+    <h2>One hour on camera. The machine does the rest.</h2>
+    <div class="flow">
+      <div class="step">
+        <div class="col"><div class="dot">1</div><div class="stem"></div></div>
+        <div class="body"><p><b>You record one video a week.</b></p><p class="sub">The script is already written, teleprompter-ready, in your voice. That's your whole content job.</p></div>
+      </div>
+      <div class="step">
+        <div class="col"><div class="dot">2</div><div class="stem"></div></div>
+        <div class="body"><p><b>The system turns it into a full week of content.</b></p><p class="sub">Six clips, carousels, stories, feed posts — cut, captioned, and scheduled across Instagram and Facebook.</p></div>
+      </div>
+      <div class="step">
+        <div class="col"><div class="dot">3</div><div class="stem"></div></div>
+        <div class="body"><p><b>The right buyers raise their hand.</b></p><p class="sub">"DM me MATH" sends the honest-math guide. Five emails follow up automatically while you sleep.</p></div>
+      </div>
+      <div class="step">
+        <div class="col"><div class="dot">4</div><div class="stem"></div></div>
+        <div class="body"><p><b>You only talk to people who are ready.</b></p><p class="sub">A monthly teaching webinar converts watchers into booked consults. Less chasing, fewer 50/50 Zillow leads, more closings from people who already trust you.</p></div>
+      </div>
+    </div>
+
+    <div class="split">
+      <div class="half you">
+        <div class="who">Your week</div>
+        <div class="big">~2&ndash;2.5 hours</div>
+        <ul>
+          <li>Record one script</li>
+          <li>Approve the week's posts</li>
+          <li>Reply to DMs, show up on booked calls</li>
+        </ul>
+      </div>
+      <div class="half machine">
+        <div class="who">The machine's week</div>
+        <div class="big">Everything else</div>
+        <ul>
+          <li>Scripts, thumbnails, editing handoff</li>
+          <li>Clips, carousels, captions, stories</li>
+          <li>Lead capture, nurture emails, webinar pages</li>
+          <li>Fresh market numbers, verified before anything ships</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">The rollout</div>
+    <h2>Ninety days, week by week</h2>
+    <div class="phases">
+      <div class="phase">
+        <div class="when">Days 1&ndash;30 &middot; Build the pipes</div>
+        <p style="margin:0">The lead guide and DM keyword go live first, then the channel, then flagship video #1 and its first wave of clips. Interest has somewhere to land before we turn on the tap.</p>
+      </div>
+      <div class="phase">
+        <div class="when">Days 31&ndash;60 &middot; Find the rhythm</div>
+        <p style="margin:0">One flagship a week until it's boring. Around day 45: your first live teaching webinar — "The Honest First-Home Math for the Valley" — with slides built from your own scripts.</p>
+      </div>
+      <div class="phase">
+        <div class="when">Days 61&ndash;90 &middot; Compound</div>
+        <p style="margin:0">Evergreen videos keep answering "is this even possible for me?" at 1am. The funnel keeps capturing. Your listing packages keep proving the system on the sell side. And the EDM lane — the world you're already in — is seeded for when the core engine is humming.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Tonight</div>
+    <h2>Three things I want from you</h2>
+    <ol class="asks">
+      <li><div><b>Pick the first post.</b> Twelve Instagram pieces are ready — choose the one that feels most like you and it goes up this week.</div></li>
+      <li><div><b>Give me the voice verdict.</b> Read the flagship script out loud. If any line isn't something you'd say to a friend over coffee, we fix it before you record.</div></li>
+      <li><div><b>Greenlight the channel.</b> If this feels right, the YouTube channel and the lead guide go live inside two weeks — and we build the rest of your brand system on top of what's working.</div></li>
+    </ol>
+  </section>
+
+  <div class="foot">Sources for every number live in the package (Doc 09). Load-bearing facts: buyer age 40 and 21% share — NAR 2025 Profile of Home Buyers and Sellers; 62% — IPX1031, Dec 2025; 6.66% 30-year average — Freddie Mac, Aug 27, 2026. Entry-condo payment math gets re-verified the same day anything posts.</div>
+
+</div>
