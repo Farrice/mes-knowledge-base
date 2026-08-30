@@ -14,9 +14,9 @@ This package turns the current MyBPM store into a focused premium streetwear sta
 
 ## Current status
 
-**V2 LOCAL STAGING BUILD — NOT PUBLISHED.** The theme uses a white primary canvas, black structure, controlled acid signals, and restrained mineral texture. It is ready for local validation and upload as a new unpublished Shopify theme. It has not changed the live theme, products, navigation, policies, inventory, domains, or checkout.
+**V2 SHOPIFY STAGING BUILD — UPLOADED, NOT PUBLISHED.** The theme uses a white primary canvas, black structure, controlled acid signals, and restrained mineral texture. The exact reviewed package is installed as the unpublished Shopify theme `MyBPM v2 — White Signal Staging` (`158270324891`). It has not changed the live theme, products, navigation, policies, inventory, domains, or checkout.
 
-Publishing requires authenticated Shopify store access and Farrice's final approval after the unpublished theme is reviewed on desktop and mobile.
+The live theme remains `Updated copy of MyBPM Ira 4.3.0` (`133086773403`). Publishing requires Farrice's final approval after the unpublished theme is reviewed on desktop and mobile and the blocking checkout checks pass.
 
 ## Theme source provenance
 
@@ -30,9 +30,9 @@ Shopify notes that Horizon's main branch can contain unreleased APIs. For that r
 
 ## Review order
 
-1. Open `preview/index.html` for the storefront direction.
-2. Open `preview/design-board.html` for the Kith-to-MyBPM translation and page grammar.
-3. Read `03-capsule-selection.md`; only the Sublevel tee presently has enough public evidence to lead.
-4. Approve or replace the sample-gated hoodie, bucket hat, and Defined tee.
-5. Upload `theme/` as a new unpublished theme.
+1. Review the unpublished Shopify preview: `https://mybpm.store/?preview_theme_id=158270324891`.
+2. Open `preview/index.html` for the static storefront direction.
+3. Open `preview/design-board.html` for the Kith-to-MyBPM translation and page grammar.
+4. Read `03-capsule-selection.md`; only the Sublevel tee presently has enough public evidence to lead.
+5. Approve or replace the sample-gated hoodie, bucket hat, and Defined tee.
 6. Complete `06-qa.md`; publish only after every blocking item passes.
