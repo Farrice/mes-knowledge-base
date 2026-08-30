@@ -41,6 +41,20 @@ Sound-system engineering, garment construction, brushed aluminum, speaker compon
 
 Listening rooms, record shops, radio studios, mature styling, and portraits of credible cultural participants. Commercially mature; risks becoming a derivative lifestyle club without a sharper MyBPM tension.
 
+## Gate 0 verdict — locked 2026-08-30
+
+**Primary world: Night Society.** Its complete aesthetic, framing, positioning, maturity, and cultural credibility represent the long-term MyBPM vision.
+
+**Emotional thesis: Afterimage Archive.** “The clothes live after the wristband comes off” is the ownable MyBPM idea that prevents Night Society from becoming a generic record-bar lifestyle campaign.
+
+The hierarchy is deliberate:
+
+- Night Society controls the permanent brand world, casting, styling, composition, and premium editorial restraint.
+- Afterimage Archive controls the narrative tension, time progression, lived garment evidence, transit, daylight, and what a person carries home.
+- Resonance Lab is parked as a future technical capsule language, not part of the permanent brand world.
+
+The two chosen directions are not averaged. Night Society is the frame; Afterimage Archive is what happens inside it.
+
 ## Approval language
 
 - `LOCK A`, `LOCK B`, or `LOCK C`
