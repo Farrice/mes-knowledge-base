@@ -78,6 +78,7 @@ Thumbs.db
 .agent/sessions/menu-parity.log
 .agent/sessions/seen-injections-*.json
 .agent/sessions/session-ledger-report.md
+.agent/memory-facade-fires.jsonl
 
 # Lane reconciliation runtime receipts. Read locally by the pulse/dashboard;
 # rewritten on cadence and never source-of-truth for repository history.
