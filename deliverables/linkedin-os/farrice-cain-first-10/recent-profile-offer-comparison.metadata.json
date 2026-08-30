@@ -1,0 +1,14 @@
+{
+  "artifact_type": "strategy_comparison",
+  "title": "Farrice LinkedIn Profile — Recent Offer and Copy Comparison",
+  "status": "draft-only",
+  "subject": "LinkedIn profile and offer decision lineage",
+  "audience": "Farrice Cain",
+  "external_action": false,
+  "created": "2026-08-30",
+  "source_scope": [
+    "prior Codex tasks",
+    "local LinkedIn profile artifacts",
+    "current v2 tension pass"
+  ]
+}
