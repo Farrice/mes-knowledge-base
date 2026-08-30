@@ -2,11 +2,11 @@
 """
 Worktree Lane OS — lifecycle helper for parallel sessions (2026-08-06).
 
-One writer per tree; lanes are automatic. The first session keeps the main
-tree; every additional session (Claude Code or Codex) works in its own git
-worktree "lane" with FULL harness power (hooks, .env, MCP, memory, spend
-trackers — main-identical, proven by `parity`), then auto-merges back to main
-when clean. Conflicts PARK the branch and surface one line — never silent loss.
+Main is integration-only; every write-capable Claude Code or Codex session
+works in its own git worktree "lane" with FULL harness power (hooks, .env, MCP,
+memory, spend trackers — main-identical, proven by `parity`), then auto-merges
+back to clean main. Read-only inspection may stay on main. Conflicts PARK the
+branch and surface one line — never silent loss.
 
 STDLIB-ONLY by design: Codex lanes and the pre-bootstrap window have no venv,
 so this must run under bare python3.
@@ -673,8 +673,8 @@ def cmd_merge(args) -> int:
     tracked_dirty = [l for l in out.splitlines() if l.strip() and not l.startswith("??")]
     if tracked_dirty:
         return _park(main, lane, branch,
-                     f"main tree dirty ({len(tracked_dirty)} tracked change(s)) — "
-                     f"first driver owns it")
+                     f"main integration tree dirty ({len(tracked_dirty)} tracked change(s)) — "
+                     f"reconcile main before merging lanes")
     exclude = _lane_session_ids(main) | set(getattr(args, "exclude_session", None) or [])
     writer = fresh_main_writer(main, exclude_ids=exclude,
                                own_lock_token=getattr(args, "lock_token", None))
