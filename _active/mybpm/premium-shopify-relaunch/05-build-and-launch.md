@@ -13,10 +13,10 @@ From this package directory, authenticate to the correct store and push the them
 
 ```sh
 shopify auth login --store mybpm.store
-shopify theme push --store mybpm.store --unpublished --path theme
+shopify theme push --store mybpm.store --unpublished --theme "MyBPM v2 — White Signal Staging" --path theme
 ```
 
-Record the returned theme ID. Do not use `--publish` during staging.
+Record the returned theme ID and preview URL. Do not use `--publish` during staging. Verify that `Updated copy of MyBPM Ira 4.3.0` remains the `MAIN` theme after upload.
 
 ## 3. Configure the store in Shopify Admin
 

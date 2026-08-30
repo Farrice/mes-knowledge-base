@@ -20,11 +20,13 @@ Primary identity driver: **subculture pride**. Secondary driver: **belonging**. 
 | Role | Value |
 |---|---|
 | Ink | `#0A0A0A` |
-| Bone | `#F1EFE8` |
-| Concrete | `#B7B3AA` |
+| Signal white | `#FFFFFF` |
+| Mineral white | `#F7F7F4` |
+| Concrete caption | `#5A5A56` |
+| Quiet joint | `#D8D8D2` |
 | Signal acid | `#D7FF2F` |
 
-The acid tone is a signal, not a wallpaper. Corners stay square. Type is large, compressed, and mostly monochrome. Motion is subtle and respects reduced-motion settings.
+Signal white is the primary commerce canvas. Mineral white appears only on restrained editorial transitions, where low-contrast veining creates material feel without competing with the garments. Ink supplies structure; acid is a signal, not wallpaper. Corners stay square. Type is large, compressed, and mostly monochrome. Motion is subtle and respects reduced-motion settings.
 
 ## Voice
 
@@ -33,6 +35,7 @@ Specific, grounded, and culturally fluent. Speak like someone who was there, not
 ## Do not use
 
 - Generic neon gradients, lasers, equalizers, “rave fam” clichés, or psychedelic UI
+- Brown, cream, or beige page canvases
 - Luxury claims unsupported by blank, construction, sample, and photography quality
 - Long SEO-stuffed product descriptions above the buy button
 - Fake scarcity, vague sustainability claims, or invented technical performance

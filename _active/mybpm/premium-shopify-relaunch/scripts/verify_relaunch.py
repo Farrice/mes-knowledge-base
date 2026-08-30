@@ -80,7 +80,9 @@ def check_required_files(errors: list[str]) -> None:
         THEME / "templates/collection.json",
         THEME / "templates/product.json",
         PREVIEW / "index.html",
+        PREVIEW / "design-board.html",
         PREVIEW / "preview.css",
+        ROOT / "DESIGN.md",
         ROOT / "data/shopify-config-manifest.json",
         ROOT / "06-qa.md",
     ]
@@ -98,7 +100,15 @@ def check_content(errors: list[str]) -> None:
             and "locales" not in path.parts
         ):
             searchable.append((path, path.read_text(encoding="utf-8", errors="replace")))
-    forbidden = [r"\bLorem ipsum\b", r">\s*Product Name\s*<", r"\bTODO\b", r"black\.png\?v=2056", r"white\.png\?v=2056"]
+    forbidden = [
+        r"\bLorem ipsum\b",
+        r">\s*Product Name\s*<",
+        r"\bTODO\b",
+        r"black\.png\?v=2056",
+        r"white\.png\?v=2056",
+        r"#F1EFE8",
+        r"#B7B3AA",
+    ]
     for path, text in searchable:
         for term in forbidden:
             if re.search(term, text, flags=re.IGNORECASE):
@@ -113,21 +123,32 @@ def check_content(errors: list[str]) -> None:
         if f"custom.{key}" not in product_notes:
             errors.append(f"METAFIELD: product notes does not reference custom.{key}")
 
+    settings = (THEME / "config/settings_data.json").read_text(encoding="utf-8")
+    if settings.count('"background": "#FFFFFF"') < 2:
+        errors.append("PALETTE: current and default theme backgrounds must both be Signal White")
 
-def check_preview(errors: list[str]) -> PreviewParser:
-    parser = PreviewParser()
-    html_path = PREVIEW / "index.html"
-    parser.feed(html_path.read_text(encoding="utf-8"))
-    for ref in parser.local_refs:
-        target = (PREVIEW / ref.split("?", 1)[0]).resolve()
-        if not target.is_file():
-            errors.append(f"PREVIEW LINK: missing local asset {ref}")
-    if parser.images_without_alt:
-        errors.append(f"ACCESSIBILITY: {len(parser.images_without_alt)} preview images have empty alt text")
-    for anchor in re.findall(r'href="#([^"]+)"', html_path.read_text(encoding="utf-8")):
-        if anchor not in parser.ids:
-            errors.append(f"PREVIEW ANCHOR: #{anchor} has no target")
-    return parser
+    css = (THEME / "assets/mybpm-premium.css").read_text(encoding="utf-8")
+    if ".mybpm-section--marble" not in css or "--mybpm-mineral: #f7f7f4" not in css:
+        errors.append("PALETTE: restrained Mineral White treatment is missing")
+
+
+def check_preview(errors: list[str]) -> int:
+    image_count = 0
+    for html_path in sorted(PREVIEW.glob("*.html")):
+        parser = PreviewParser()
+        html = html_path.read_text(encoding="utf-8")
+        parser.feed(html)
+        image_count += parser.images
+        for ref in parser.local_refs:
+            target = (PREVIEW / ref.split("?", 1)[0]).resolve()
+            if not target.is_file():
+                errors.append(f"PREVIEW LINK: {html_path.name} missing local asset {ref}")
+        if parser.images_without_alt:
+            errors.append(f"ACCESSIBILITY: {html_path.name} has {len(parser.images_without_alt)} images with empty alt text")
+        for anchor in re.findall(r'href="#([^"]+)"', html):
+            if anchor not in parser.ids:
+                errors.append(f"PREVIEW ANCHOR: {html_path.name} #{anchor} has no target")
+    return image_count
 
 
 def main() -> int:
@@ -136,11 +157,11 @@ def main() -> int:
     json_count = parse_json_files(errors)
     schema_count = parse_liquid_schemas(errors)
     check_content(errors)
-    preview = check_preview(errors)
+    preview_images = check_preview(errors)
 
     print(f"JSON files parsed: {json_count}")
     print(f"Liquid schemas parsed: {schema_count}")
-    print(f"Preview images checked: {preview.images}")
+    print(f"Preview images checked: {preview_images}")
     if errors:
         print(f"FAIL ({len(errors)} issue(s))")
         for error in errors:
