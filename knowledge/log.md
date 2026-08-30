@@ -812,3 +812,16 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-28 16:03]` **finalize** | Angle Map Brief Repair Plan: creative-director format, four-artifact architecture, implementation ph | general | Ciel Strategic Intelligence — composite:7.7 status:Keep
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-08-29 06:14]` **finalize** | Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, | general | enrico-incarnati — composite:6.0 status:Needs Improvement
+- `[2026-08-29 06:43]` **finalize** | Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objecti | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:7.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:9.0 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 08:14]` **finalize** | Coach Cooz homepage conversion copy v2 and Squarespace implementation specification | copywriting | stefan-georgi-dopamine-copy — composite:8.0 status:Keep
+- `[2026-08-29 08:18]` **finalize** | Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-deman | brand | mike-sherrard — composite:6.0 status:Needs Improvement
+- `[2026-08-29 09:16]` **finalize** | Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps name | general | jay-sun-films — composite:5.67 status:Needs Improvement
+- `[2026-08-29 09:34]` **finalize** | Acusio Bivona premium local website pre-rewrite copy brief | general | luke-iha-avatar-machine — composite:8.0 status:Keep
+- `[2026-08-29 12:18]` **finalize** | Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG po | brand | farrice-brand — composite:6.0 status:Needs Improvement
+- `[2026-08-30 05:00]` **lint** | Lint scan — 70 issues (24 errors, 34 warnings) — Files scanned: 1205
+- `[2026-08-30 05:00]` **compile** | Full compilation — 1205 files, 3,780,688 words, 70 lint issues

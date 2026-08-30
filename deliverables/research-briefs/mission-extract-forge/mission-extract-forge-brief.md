@@ -1,6 +1,6 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 28, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 30, 2026
 
 Done and clean. Do not reopen it.
 
@@ -8,9 +8,9 @@ Done and clean. Do not reopen it.
 _CURRENT POSITION_
 This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.
 
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Handoff status is ready. Last activity 9d ago.
+Handoff status is ready. Last activity 1d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 24d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -59,7 +59,6 @@ The first option is the recommended one; the rest are the real alternatives with
 1. **Close it now, promotion declined** — Recommended. The skill works locally and that was the point. Costs a badge that changes nothing.
 2. **Run the blind judgment pack in one short sitting** — Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue.
 3. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
-4. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
@@ -91,12 +90,16 @@ HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extrac
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
 
+SHIPPED IN WINDOW:
+  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e
+
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
 
 ## by the numbers
-- SESSIONS: **1** (codex)
-- DAYS ACTIVE: **9 d**
+- DELIVERABLES FINALIZED: **1**
+- SESSIONS: **1** (claude · codex)
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 
@@ -105,6 +108,8 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 
 
 ## how it got here
+- 2026-08-29 · **Finalized · extract-forge** — Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, editorial design contract, carousel grammar); AGENT-INTAKE.md
+Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) and output grammar (frame_0106); recency 2026 source; extend-not-rebuild: added to existing v2.0 skill | Factual Grounding: 9 | Verification:
 - 2026-08-18 · **codex session** — Extraction: Video Extract Forge - Build Grounded System
 
 ## the record
@@ -119,7 +124,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

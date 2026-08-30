@@ -5,8 +5,8 @@
   "dek": "Pull the wargamed launch thread and the buyer-grounded profile takes forward together, since one sells what the other proves; let the realtor and production-playbook material sleep until there is a client paying for that motion.",
   "window": "last 7 days",
   "lens": "librarian",
-  "sources": "1012 catalog rows",
-  "compiled": "aug 23, 2026",
+  "sources": "1161 catalog rows",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · LIBRARIAN",
   "footer_right": "@farricecain",
   "category": "library",
@@ -24,15 +24,15 @@
       "tag": "CATALOG",
       "items": [
         {
-          "value": "1012",
+          "value": "1161",
           "label": "ITEMS CATALOGED"
         },
         {
-          "value": "57",
+          "value": "96",
           "label": "NEW THIS WEEK"
         },
         {
-          "value": "13",
+          "value": "38",
           "label": "WORTH RESUMING"
         },
         {
@@ -58,22 +58,21 @@
         },
         {
           "k": "THREAD",
+          "title": "Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)"
+        },
+        {
+          "k": "THREAD",
+          "title": "System: Codex End-Session - Built and Verified",
+          "path": "deliverables/research-briefs/mission-codex-end-session-control-plane/mission-codex-end-session-control-plane-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "coaching business os"
+        },
+        {
+          "k": "THREAD",
           "title": "Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=",
           "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html"
-        },
-        {
-          "k": "THREAD",
-          "title": "Willis Approved Three-Reel Closeout",
-          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
-        },
-        {
-          "k": "THREAD",
-          "title": "Added complete production playbook and morning content brief layer to the content-team OS ",
-          "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html"
-        },
-        {
-          "k": "THREAD",
-          "title": "Panel Session — Pressure-test whether Farrice Cain should pivot his LinkedIn positioning t"
         }
       ]
     },
@@ -84,39 +83,35 @@
       "links": [
         {
           "k": "THREAD",
-          "title": "Execution — Worktree Lane",
-          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+          "title": "real estate content offer strategy"
         },
         {
           "k": "THREAD",
-          "title": "Scratchpad — Probe"
-        },
-        {
-          "k": "KNOWLEDGE",
-          "title": "Knowledge Log",
-          "path": "knowledge/log.md"
-        },
-        {
-          "k": "GUIDE",
-          "title": "Operator Guide Library — Master Index",
-          "path": "guides/INDEX.md"
-        },
-        {
-          "k": "GUIDE",
-          "title": "date: 2026-08-21",
-          "path": "guides/2026-08-21-guides-empty-slug-fix.md"
+          "title": "Coach Cooz — Brief"
         },
         {
           "k": "THREAD",
-          "title": "system session hygiene preserve then archive"
+          "title": "Deliverables — Receipt Selftest"
         },
         {
           "k": "THREAD",
-          "title": "improve chat archive hygiene"
+          "title": "extraction two videos build skill system"
         },
         {
           "k": "THREAD",
-          "title": "library shelf report"
+          "title": "client mybpm shopify premium relaunch build"
+        },
+        {
+          "k": "THREAD",
+          "title": "build premium bpm shopify store"
+        },
+        {
+          "k": "THREAD",
+          "title": "revenue chris do listing launch proof scaffold readine"
+        },
+        {
+          "k": "THREAD",
+          "title": "revenue listing launch proof scaffold readiness audit"
         }
       ]
     },

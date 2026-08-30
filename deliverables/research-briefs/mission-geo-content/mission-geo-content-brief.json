@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 4 files · 0 assets",
-  "compiled": "aug 28, 2026",
+  "compiled": "aug 29, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is ready.\n\nNext: Publish the proof surface and check every public link in a private browser window before doing anything else today."
+      "body": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is ready. Last activity today.\n\nNext: Publish the proof surface and check every public link in a private browser window before doing anything else today."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.\n\nHandoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
+      "body": "Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.\n\nHandoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
     },
     {
       "kind": "decision",
@@ -120,8 +120,8 @@
             0,
             0,
             0,
-            0,
-            4
+            3,
+            1
           ],
           "value": "4",
           "unit": "files",
@@ -159,6 +159,12 @@
       "tag": "COPY THE PATH",
       "items": [
         {
+          "title": "INDEX.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/INDEX.md",
+          "note": "aug 28, 2026"
+        },
+        {
           "title": "2026-08-27-claim-with-a-clock-proof-chain-2.md",
           "role": "FILE",
           "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
@@ -171,12 +177,6 @@
           "note": "aug 27, 2026"
         },
         {
-          "title": "INDEX.md",
-          "role": "FILE",
-          "path": "_active/farrice-brand/content/vault/INDEX.md",
-          "note": "aug 27, 2026"
-        },
-        {
           "title": "2026-08-27-two-tubs-video.md",
           "role": "FILE",
           "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
@@ -186,6 +186,19 @@
           "title": "2026-08-16-geo-content.md",
           "role": "GUIDE",
           "path": "guides/2026-08-16-geo-content.md"
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-28",
+          "title": "commit 63fb3b2a5",
+          "body": "Merge branch 'codex/cos-parity-repair'\u000073ba8b974c7e5cb34ebce9a56d27b1bf970682de",
+          "done": true
         }
       ]
     },
@@ -215,7 +228,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nThe judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nThe judged analysis above is 8 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

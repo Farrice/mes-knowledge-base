@@ -1,7 +1,7 @@
 # Wiki Lint Report
-*Generated: 2026-08-23 | 67 issues found*
+*Generated: 2026-08-30 | 70 issues found*
 
-**Errors**: 24 | **Warnings**: 31 | **Info**: 12
+**Errors**: 24 | **Warnings**: 34 | **Info**: 12
 
 ---
 
@@ -32,13 +32,14 @@
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REDLINING.md](REDLINING.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [OOXML.md](OOXML.md) points to nonexistent file
 
-## WARNING (31)
+## WARNING (34)
 
-- **[orphan]** `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md` — Not referenced by any other file (33 days old, 3,063 words)
+- **[orphan]** `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md` — Not referenced by any other file (39 days old, 3,063 words)
 - **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-01-decision-reasons.md` — Only 29 words — stub or incomplete
 - **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-02-phone-attention.md` — Only 30 words — stub or incomplete
 - **[stub]** `extractions/david-perell-writing/reference-corpus/2020-04-11-good-writing-editing.md` — Only 24 words — stub or incomplete
 - **[stub]** `extractions/luke-iha-avatar-machine/PROVENANCE.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/matt-haig-reader-bridge/reference-corpus/02-interview-feeling-contagion.md` — Only 49 words — stub or incomplete
 - **[stub]** `extractions/meg-heckman/video-context-7MNa2YTPGs4/ocr-notes.md` — Only 20 words — stub or incomplete
 - **[stub]** `extractions/persuasion-story-code/source/coverage-report.md` — Only 25 words — stub or incomplete
 - **[stub]** `extractions/ron-lynch/source-metadata.md` — Only 36 words — stub or incomplete
@@ -58,6 +59,8 @@
 - **[stub]** `extractions/video-context/GlTA4wXSACE/ocr-notes.md` — Only 41 words — stub or incomplete
 - **[stub]** `extractions/video-context/H_TvNSNbRiU/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/H_TvNSNbRiU/ocr-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/Tnv9PuMo84E/ocr-notes.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/video-context/XS-E6rnCr5U/ocr-notes.md` — Only 11 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/a7VjpIqq8Xk/ocr-notes.md` — Only 20 words — stub or incomplete
@@ -78,8 +81,8 @@
 - **[contradiction_zone]** `domain:systems` — 22 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:brand` — 24 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:sales` — 11 files contain strong assertions — review for consistency
-- **[very_stale]** `multiple` — 359 files are >90 days old — candidates for archive
-- **[missing_frontmatter]** `multiple` — 1043/1150 files lack YAML frontmatter — limits metadata queries
+- **[very_stale]** `multiple` — 372 files are >90 days old — candidates for archive
+- **[missing_frontmatter]** `multiple` — 1097/1205 files lack YAML frontmatter — limits metadata queries
 
 ---
 

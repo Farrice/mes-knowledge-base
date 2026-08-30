@@ -2,11 +2,11 @@
   "slug": "mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
   "chip": "MISSION · PRODUCTS",
   "title": "ignite realtor content-pack subscription *per*…",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 2 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 5 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
-  "sources": "2 sessions · 9 files · 0 assets",
-  "compiled": "aug 28, 2026",
+  "sources": "5 sessions · 9 files · 0 assets",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 2 sessions, 9 files written.\n\n Last activity 12d ago."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 files written.\n\n Last activity 2d ago."
     },
     {
       "kind": "decision",
@@ -27,10 +27,6 @@
         {
           "action": "Close or park: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybri",
           "why": "Open mission (compiled), serves revenue-5k-incumbency."
-        },
-        {
-          "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 12 days while the handoff is still open. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -103,12 +99,12 @@
           "label": "FILES WRITTEN"
         },
         {
-          "value": "2",
+          "value": "5",
           "label": "SESSIONS",
           "note": "claude"
         },
         {
-          "value": "13",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -122,22 +118,22 @@
         {
           "label": "sessions",
           "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
             1,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0
           ],
-          "value": "2",
+          "value": "5",
           "unit": "total",
           "note": "per day"
         },
@@ -152,11 +148,11 @@
             0,
             0,
             0,
-            0,
-            0,
             8,
             0,
             1,
+            0,
+            0,
             0
           ],
           "value": "9",
@@ -256,15 +252,33 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-15",
-          "title": "claude session · 5 msgs",
-          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-15-ai-consulting-linkedin-signals.json /U",
+          "date": "2026-08-27",
+          "title": "claude session · 2 msgs",
+          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-27-ai-consulting-linkedin-signals.json /U",
           "done": true
         },
         {
-          "date": "2026-08-14",
-          "title": "claude session · 3 msgs",
-          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-14-ai-consulting-linkedin-signals.json. T",
+          "date": "2026-08-26",
+          "title": "claude session · 2 msgs",
+          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-26-ai-consulting-linkedin-signals.json. T",
+          "done": true
+        },
+        {
+          "date": "2026-08-25",
+          "title": "claude session · 2 msgs",
+          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-25-ai-consulting-linkedin-signals.json. T",
+          "done": true
+        },
+        {
+          "date": "2026-08-25",
+          "title": "claude session · 31 msgs",
+          "body": "Ignite realtor content-pack subscription",
+          "done": true
+        },
+        {
+          "date": "2026-08-24",
+          "title": "claude session · 2 msgs",
+          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-24-ai-consulting-linkedin-signals.json /U",
           "done": true
         }
       ]
@@ -290,7 +304,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

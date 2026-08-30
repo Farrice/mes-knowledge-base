@@ -156,6 +156,7 @@
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 38 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
+| `jay-sun-films-video-craft` | **jay-sun-films-video-craft** | deployable now for shoot sheets and edit direction, interview gaps listed for full harvest, video craft (observed) | 0 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user drops a listing url or property address for content or is producing inst..., specifically not for generic real-estate marketing — jen's registers are bran... | 4 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 14 | 0 |
 | `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 14 | 0 |
@@ -253,7 +254,7 @@
 | `michael-margolis-user-research` | **michael-margolis-user-research** | michael margolis's (ux research partner, then validate with 5 interviews, 3 comparison prototypes | 3 | 0 |
 | `mickmumpitz` | **Mickmumpitz: Deterministic Character & Shot Control** | determinism over prompting — the character-dataset method, camera blocking before generation, and the four building blocks of a controlled shot | 3 | 0 |
 | `mike-foutia-marketing-tools` | **Mike Foutia — Marketing Tools** | social, reviews, marketplaces) into deployable ad briefs and internal tool blueprints | 3 | 9 |
-| `mike-sherrard-realtor-branding` | **mike-sherrard-realtor-branding** | hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, hvc content structure | 3 | 0 |
+| `mike-sherrard-realtor-branding` | **mike-sherrard-realtor-branding** | hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, hvc content structure | 4 | 0 |
 | `mike-taylor-synthetic-research` | **Mike Taylor — Synthetic Customer Research OS** | 17 genius patterns, 7 workflows across 3 tiers, co-author, o'reilly's prompt engineering for generative ai, co-founder, ask rally (synthetic-audience simulator) | 7 | 0 |
 | `mitch-albom-writing-mastery` | **Mitch Albom — Theme-First Writing & Emotional Architecture** | grounded in his 2026 how i write interview with david perell, build the story backward as a tool), the tether/cord discipline | 13 | 31 |
 | `monk-ai-offer-architecture` | **Monk.Ai - AI Consulting Offer Architecture** | multi-stakeholder enterprise sales, proposal engineering, client ascension | 4 | 17 |

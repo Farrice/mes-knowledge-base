@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "159 sessions swept",
-  "compiled": "aug 28, 2026",
+  "sources": "210 sessions swept",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,11 +28,11 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "8",
+          "value": "18",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "68",
+          "value": "51",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "159",
+          "value": "210",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -52,8 +52,6 @@
         {
           "label": "sessions",
           "values": [
-            1,
-            1,
             0,
             2,
             3,
@@ -62,12 +60,14 @@
             1,
             0,
             0,
+            2,
+            2,
+            2,
             1,
             0,
-            1,
             0
           ],
-          "value": "10",
+          "value": "13",
           "note": "per day"
         },
         {
@@ -81,12 +81,12 @@
             0,
             0,
             0,
-            0,
-            0,
             8,
             0,
             1,
-            4
+            3,
+            1,
+            0
           ],
           "value": "13",
           "note": "per day"
@@ -99,6 +99,30 @@
       "heading": "where the work *went*",
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
+        {
+          "label": "listing content",
+          "values": [
+            7
+          ]
+        },
+        {
+          "label": "extract forge",
+          "values": [
+            3
+          ]
+        },
+        {
+          "label": "first 10k",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
+          "values": [
+            9
+          ]
+        },
         {
           "label": "02 book blueprint",
           "values": [
@@ -116,18 +140,6 @@
           "values": [
             3
           ]
-        },
-        {
-          "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
-          "values": [
-            9
-          ]
-        },
-        {
-          "label": "geo content",
-          "values": [
-            4
-          ]
         }
       ]
     },
@@ -137,9 +149,29 @@
       "tag": "OPEN ONE",
       "links": [
         {
+          "k": "READY",
+          "title": "proof to market",
+          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+        },
+        {
           "k": "ACTIVE",
-          "title": "linkedin",
-          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
+          "title": "listing content",
+          "path": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "extract forge",
+          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "first 10k",
+          "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html"
+        },
+        {
+          "k": "BUILD",
+          "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
+          "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -162,19 +194,9 @@
           "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html"
         },
         {
-          "k": "READY",
-          "title": "extract forge",
-          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
-        },
-        {
-          "k": "BUILD",
-          "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
-          "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "proof to market",
-          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+          "k": "ACTIVE",
+          "title": "linkedin",
+          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -182,19 +204,9 @@
           "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
         {
-          "k": "READY",
-          "title": "geo content",
-          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
-        },
-        {
           "k": "ACTIVE",
           "title": "writers room",
           "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "mission",
-          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
         }
       ]
     },
@@ -203,6 +215,42 @@
       "heading": "also shipped",
       "tag": "NO LIVE THREAD",
       "items": [
+        {
+          "date": "2026-08-29",
+          "title": "landing-page",
+          "body": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones",
+          "done": true
+        },
+        {
+          "date": "2026-08-29",
+          "title": "offer-packaging",
+          "body": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
+          "done": true
+        },
+        {
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
+          "done": true
+        },
+        {
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
+          "done": true
+        },
+        {
+          "date": "2026-08-29",
+          "title": "watch-and-extract",
+          "body": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
+          "done": true
+        },
+        {
+          "date": "2026-08-28",
+          "title": "system-audit",
+          "body": "Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship",
+          "done": true
+        },
         {
           "date": "2026-08-26",
           "title": "deep-research-os",
@@ -227,7 +275,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n220 more threads cleared the bar but sit below the 12-card ceiling and were not carded: health performance ip library, deep research, extract virtuoso mastery, deliverables, angle map listening engine v4 1, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind.\n\n212 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n227 more threads cleared the bar but sit below the 12-card ceiling and were not carded: mission, extract virtuoso mastery, landing page, offer packaging, system audit, deep research, health performance ip library, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh, global org sweep.\n\n243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

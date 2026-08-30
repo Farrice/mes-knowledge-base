@@ -1,7 +1,7 @@
 {
   "slug": "mission-harness",
   "title": "Harness — Cockpit",
-  "compiled": "aug 28, 2026",
+  "compiled": "aug 30, 2026",
   "generated_by": "execution/render_brief.py",
   "path_policy": {
     "canonical_field": "path",
@@ -23,6 +23,12 @@
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-20-harness-opus5-diagnosis.md",
       "role": "asset · GUIDE"
+    },
+    {
+      "path": "docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md",
+      "role": "asset · SOLUTION"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",

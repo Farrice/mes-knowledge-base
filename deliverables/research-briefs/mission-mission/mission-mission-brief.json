@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 28, 2026",
+  "compiled": "aug 29, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.\n\nHandoff written 56d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.\n\nHandoff written 57d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -165,7 +165,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.\n\nThe judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.\n\nThe judged analysis above is 8 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

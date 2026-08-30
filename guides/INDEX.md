@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Carry emotionally necessary material to readers without flattening it (Matt Haig Reader Bridge)** | |
+| Diagnose why a meaningful passage is not reaching the reader | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-bridge` |
+| Turn a reader-friction diagnosis into a complete revision | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-access-rewrite` |
+| Protect private taste from trend, review, or prestige pressure | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-taste-boundary` |
+| Prove a Reader Bridge result or recheck A-tier integrity | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-bridge-proof` + deterministic verifier |
 | **Search Notion from recall without the network / control Codex automations** | |
 | Recall across all 9 stores incl. the Notion local mirror | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `memory_facade.py "<query>" --top 10` |
 | See/pause what ChatGPT desktop schedules on this Mac | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `automation_control_status.py` + dual-store pause |
@@ -297,6 +302,7 @@
 
 ## Chronology
 
+- **2026-08-29 — [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md)** (operator-guide) — A-tier, Farrice-calibrated narrative-craft system from the 2026 Haig–Perell interview: protect the private signal, give feeling a concrete carrier, repair the highest causal layer, and stop before access costs charge. Eleven routes, seven born-v2 prompts, four-piece reference corpus, EVAL-066 human PASS, and a cold-safe verifier; market observation remains `NO EVENT`.
 - **2026-08-28 — [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md)** (operator-guide) — daily Chrome/Firefox/Playwright "quit unexpectedly" pop-ups root-caused to ChatGPT desktop's local Codex automations launching browsers from a windowless background context (`responsibleProc` forensics on `.ips` crash reports); both daily briefs paused dual-store (toml + sqlite), the two-week-failing 10-minute merge heartbeat deleted, and the merge it was starving **landed**: `codex/notion-second-brain-reliability` union-merged into `memory_facade.py` — recall now spans 9 stores including the network-free **notion local mirror** (verifier 11/11 PASS, live smoke hit). Doctrine: a stuck retry automation is an alarm clock, not the work. Open: origin +9 divergence recovery, crash-free-morning confirmation.
 - **2026-08-23 — [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md)** (operator-guide) — source-grounded belief-community extension, named adaptive/full expert front door, five globally verified Codex/Claude routes, and proof-bounded deployment rules.
 - **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
@@ -383,6 +389,9 @@
 
 
 ## Pending enrichment
+- [2026-08-29 — Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, honest attribution (filming by her videographer, system underneath is the product)](2026-08-29-listing-launch-kit-landing-page-premium-minimal-brand-4-real.md) — operator-guide stub, needs enrichment
+- [2026-08-29 — Revenue: Madison AI Engagement - Draft Reply](2026-08-29-madison-ai-engagement.md) — operator-guide stub, needs enrichment
+- [2026-08-29 — Extraction: Matt Haig Reader Bridge - Merged and A-Tier Verified](2026-08-29-extraction-matt-haig-reader-bridge-merged-and-a-tier-verifie.md) — operator-guide stub, needs enrichment
 - [2026-08-27 — Knowledge Thread Handoff — 2026-08-27](2026-08-27-knowledge-thread-handoff-2026-08-27.md) — operator-guide stub, needs enrichment
 - [2026-08-27 — Angle Map Listening Engine — 2026-08-27 daily run (Thursday)](2026-08-27-angle-map-listening-engine-2026-08-27-daily-run-thursday.md) — operator-guide stub, needs enrichment
 - [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment

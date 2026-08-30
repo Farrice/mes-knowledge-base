@@ -1,19 +1,18 @@
 # ignite realtor content-pack subscription per…
 
-> MISSION · PRODUCTS · window: last 14 days · lens: claude · sources: 2 sessions · 9 files · 0 assets · compiled: aug 28, 2026
+> MISSION · PRODUCTS · window: last 14 days · lens: claude · sources: 5 sessions · 9 files · 0 assets · compiled: aug 30, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 2 session(s), the handoff store, the finalize ledger and the asset manifest.
+Everything this thread has produced, where it stands, and the next move — assembled from 5 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: build — files are moving; nothing finalized. In the last 14 days: 2 sessions, 9 files written.
+Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 files written.
 
- Last activity 12d ago.
+ Last activity 2d ago.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
 1. **Close or park: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybri** — Open mission (compiled), serves revenue-5k-incumbency.
-2. **Decide: resume, park, or kill** — No recorded activity in 12 days while the handoff is still open. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Reload the stored handoff and continue.
@@ -63,8 +62,8 @@ FILES TOUCHED (9):
 
 ## by the numbers
 - FILES WRITTEN: **9**
-- SESSIONS: **2** (claude)
-- DAYS ACTIVE: **13 d**
+- SESSIONS: **5** (claude)
+- DAYS ACTIVE: **5 d**
 
 ## momentum
 
@@ -84,8 +83,11 @@ FILES TOUCHED (9):
 - **02-reel-scripts.md** [FILE] `_active/products/realtor-content-pack/04-deliverables/month-01-pack/02-reel-scripts.md` — aug 24, 2026
 
 ## how it got here
-- 2026-08-15 · **claude session · 5 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-15-ai-consulting-linkedin-signals.json /U
-- 2026-08-14 · **claude session · 3 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-14-ai-consulting-linkedin-signals.json. T
+- 2026-08-27 · **claude session · 2 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-27-ai-consulting-linkedin-signals.json /U
+- 2026-08-26 · **claude session · 2 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-26-ai-consulting-linkedin-signals.json. T
+- 2026-08-25 · **claude session · 2 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-25-ai-consulting-linkedin-signals.json. T
+- 2026-08-25 · **claude session · 31 msgs** — Ignite realtor content-pack subscription
+- 2026-08-24 · **claude session · 2 msgs** — Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-24-ai-consulting-linkedin-signals.json /U
 
 ## swings to
 - [FRONT DOOR] START HERE · ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1 — _active/products/realtor-content-pack/START-HERE.html
@@ -95,7 +97,7 @@ FILES TOUCHED (9):
 _READ THE EDGES_
 No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.
 
-The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

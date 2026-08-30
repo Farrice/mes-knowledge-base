@@ -1,6 +1,6 @@
 # Book One 80/20 product, layout, pricing, imagery…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 28, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 30, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity 5d ago.
 
 Next: Resume the `02-book-blueprint` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (02-book-blueprint)._
 
 ## the state, as the last session left it
-Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 6d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -63,7 +63,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **4 d**
+- DAYS ACTIVE: **6 d**
 
 ## momentum
 
@@ -86,7 +86,7 @@ Amazon sample and live prices inspected; KDP policies and older-adult exercise s
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -1,34 +1,34 @@
 # Knowledge Briefing
-*Generated: 2026-08-28 | 1181 sources | 3,734,578 words*
+*Generated: 2026-08-30 | 1205 sources | 3,780,688 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **log** (general) — 20,073 words — `knowledge/log.md`
-- **analysis** (content [nicolas-cole]) — 495 words — `extractions/video-context/Ox4JdlCwh24/analysis.md`
-- **behavior-proof** (copywriting) — 811 words — `extractions/video-context/Ox4JdlCwh24/behavior-proof.md`
-- **deep-extraction** (general [nicolas-cole]) — 1,081 words — `extractions/video-context/Ox4JdlCwh24/deep-extraction.md`
-- **skill-system-contract** (general [nicolas-cole]) — 623 words — `extractions/video-context/Ox4JdlCwh24/skill-system-contract.md`
-- **uncertainty-report** (strategy [nicolas-cole]) — 185 words — `extractions/video-context/Ox4JdlCwh24/uncertainty-report.md`
-- **video-context-ledger** (content [nicolas-cole]) — 320 words — `extractions/video-context/Ox4JdlCwh24/video-context-ledger.md`
-- **index** (content) — 7,391 words — `knowledge/index.md`
-- **blind-embodiment-receipt** (content) — 307 words — `extractions/jun-yuh-creator-vision/blind-embodiment-receipt.md`
-- **USER-GUIDE** (content) — 681 words — `extractions/video-context/XS-E6rnCr5U/USER-GUIDE.md`
+- **index** (content) — 7,554 words — `knowledge/index.md`
+- **log** (general) — 20,350 words — `knowledge/log.md`
+- **visual-context** (screenwriting) — 542 words — `extractions/jay-video-craft/visual-context.md`
+- **visual-context** (screenwriting) — 462 words — `extractions/jay-video-craft-r2/visual-context.md`
+- **visual-context** (screenwriting) — 283 words — `extractions/jay-video-craft-r3/visual-context.md`
+- **visual-context** (content) — 8,887 words — `extractions/real-estate-offer-enrichment/visual-context.md`
+- **README** (copywriting) — 64 words — `extractions/matt-haig-reader-bridge/README.md`
+- **blind-pass-log** (copywriting) — 256 words — `extractions/matt-haig-reader-bridge/blind-pass-log.md`
+- **checkpoint-3-validation** (general) — 1,315 words — `extractions/matt-haig-reader-bridge/checkpoint-3-validation.md`
+- **human-a-tier-verdict** (copywriting) — 429 words — `extractions/matt-haig-reader-bridge/human-a-tier-verdict.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 374 | nathan-gotch |
-| copywriting | 205 | jason-fladlien |
-| general | 129 | nick-saraev |
-| screenwriting | 129 | connelly |
+| content | 380 | nathan-gotch |
+| copywriting | 215 | jason-fladlien |
+| screenwriting | 133 | connelly |
+| general | 132 | nick-saraev |
 | strategy | 117 | april-dunford |
 | brand | 67 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
-| research | 42 | jason-fladlien |
+| research | 43 | jason-fladlien |
 | sales | 14 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
