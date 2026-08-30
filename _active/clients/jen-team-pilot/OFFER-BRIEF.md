@@ -22,12 +22,12 @@ Delivered as one forwardable package: the SEND shape already proven with Jen. On
 **Why this SKU instead of a monthly retainer as the wedge:** a listing is urgent, attached to real money, and has a deadline. It is the easiest yes in an agent's world. A retainer asks for a relationship before trust exists.
 
 **Fallback SKU when the agent has no active listing: Agent Engine Starter, same $200.**
-Profile curb-appeal fix (bio, pins, link, top of grid) plus 10 ready-to-film scripts in their voice from their niche, plus a 2-week posting calendar. Built on the Sherrard four-mistakes audit. Agents who post consistently and still get zero leads are usually posting for views or for other agents, stating facts without translating them, skipping hook-value-CTA structure, and running a listings-only grid that reads like a homes magazine.
+Profile curb-appeal fix (bio, pins, link, top of grid) plus 10 ready-to-film scripts in their voice from their niche, plus a 2-week posting calendar. Scripts are demand-backed, not guessed: a live research pass on what buyers/sellers/relocators in their market are searching this month, prioritizing the questions no local agent is answering (Sherrard workflow 04, Stage 2). Built on the Sherrard four-mistakes audit. Agents who post consistently and still get zero leads are usually posting for views or for other agents, stating facts without translating them, skipping hook-value-CTA structure, and running a listings-only grid that reads like a homes magazine.
 
 **Terms of the founding rate:** $200 instead of $450, first 3 agents only, in exchange for (a) permission to screenshot results and (b) one sentence of feedback after the first kit posts. Paid up front (Zelle/Venmo). The low price is a trade, not a discount, so it never anchors as your real price.
 
 **Ascension path (do not pitch it yet, just know it):**
-Kit at $200 founding → repeat kits at $450 → Monthly Content Engine around $500-750/mo (four kits' worth of content plus profile management) → team deal through Jen.
+Kit at $200 founding → repeat kits at $450 → Monthly Content Engine around $500-750/mo (four kits' worth of content plus profile management, plus a monthly demand-backed carousel set — 3/week is the Sherrard cadence) → team deal through Jen. Video-production add-on slots into the engine tier if the partner bundle happens (open thread).
 
 ## 2. Positioning (how you frame yourself)
 
@@ -52,13 +52,15 @@ Proof objects on hand: the Willis, Armida, Moonseed, and Bothwell listing packag
 
 Send rule: message, then when they say "show me," send ONE sample package plus a payment link. No calls needed at this price.
 
+**The sample package exists:** `demo-kit/SAMPLE-KIT.md` (share page: `demo-kit/sample-kit.html`, published artifact). Full kit on a fictional Van Nuys listing, clearly labeled sample. Share it from the artifact's share menu, or screen-record a scroll-through for DMs.
+
 ## 4. Delivery Process (the repeatable run, per agent)
 
 | Step | What happens | Harness route | Time |
 |---|---|---|---|
-| 1. Intake | One text form: listing address, MLS sheet, 5 photos, IG handle, "anything you refuse to say on camera" | manual (form template below) | 10 min their side |
-| 2. Voice card | Scrape their last 15 posts, build a mini voice card, pick the register (calm-warm vs. authority; the Jen register ladder generalizes) | voice-scrape run, new file `agents/<name>-voice-card.md` in this folder | 20 min |
-| 3. Production | Shoot sheet, teleprompter pack, captions/carousel/stories, keyword CTA | `skills/jen-santulan-listing-content` workflows + `/enrico-expand` for script variety, adapted per voice card | 60-90 min |
+| 1. Intake | Two text forms: Brand intake Part A (once per agent — colors, type feel, headshots, register, admired creators) + Listing intake Part B (per kit) | `AGENT-INTAKE.md` | 10-20 min their side |
+| 2. Brand card | Scrape their last 15 posts + intake answers → `agents/<name>-brand-card.md`: voice register + design tokens (their brand, never ours) | voice-scrape run + intake merge | 20 min |
+| 3. Production | Shoot sheet, teleprompter pack, captions/carousel/stories, keyword CTA — carousel built under the Sherrard design contract in THEIR tokens | `skills/jen-santulan-listing-content` + `/enrico-expand` + `skills/mike-sherrard-realtor-branding/workflows/04-market-demand-carousel-system.md` | 60-90 min |
 | 4. Compliance | Fair-housing screen on every line; build the don't-say list | `skills/re-compliance-pack` | 10 min |
 | 5. Package | Assemble the SEND: one forwardable text, pick-one options, don't-say list | Jen SEND shape (proven format) | 15 min |
 | 6. Follow-up | Day 3: "filmed yet? send me the raw take and I'll tighten it." Day 7: results screenshot + feedback sentence into the proof bank | manual, calendar reminder | 10 min |
@@ -82,6 +84,7 @@ Send rule: message, then when they say "show me," send ONE sample package plus a
 ## 6. Risks + Objections
 
 - **"My brokerage gives us marketing."** "Templates with your headshot dropped in. This is scripts in your voice for your listing, ready to film tonight. Different animal."
+- **"We already pay a VA ~$1,200-1,400/mo for content."** Never knock the VA. Position a caliber jump, not a replacement: "Keep what works. This is the premium layer — demand-researched, designed to your brand, compliance-screened. Try one kit at $200 next to what you're getting; your feed will tell you." The POC carousels ARE this argument. If the caliber gap is obvious, the takeover conversation happens on their initiative, not yours.
 - **"I don't have a listing right now."** Fallback SKU, same price, same day.
 - **Ghosting after "show me."** One follow-up 48h later with the sample attached. Then stop and move to the next agent.
 - **Jen optics.** Solved by asking first (§2). Frame to her: "I'm proving your system on the team so it's warm when you're ready."

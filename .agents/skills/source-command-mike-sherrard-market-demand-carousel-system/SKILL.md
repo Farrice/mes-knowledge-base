@@ -1,0 +1,14 @@
+---
+name: "source-command-mike-sherrard-market-demand-carousel-system"
+description: "/mike-sherrard-market-demand-carousel-system — Never generate from a cold start. Load the agent's brand + market file first — in our harness this is the completed `AGENT-INTAKE` (brand tokens, voice register, niche, market) plus their voice card. Missing intake = stop and collect it; generic output is the failure mode this whole system exists to kill."
+---
+
+# source-command-mike-sherrard-market-demand-carousel-system
+
+Use this skill when the user asks to run the migrated source command `mike-sherrard-market-demand-carousel-system`.
+
+## Command Template
+
+<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
+
+Read and execute the workflow at `.agent/workflows/mike-sherrard-market-demand-carousel-system.md` - /mike-sherrard-market-demand-carousel-system — Never generate from a cold start. Load the agent's brand + market file first — in our harness this is the completed `AGENT-INTAKE` (brand tokens, voice register, niche, market) plus their voice card. Missing intake = stop and collect it; generic output is the failure mode this whole system exists to kill.
