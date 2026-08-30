@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "id": "ready_bridge",
+      "say_evidence": true,
+      "do_evidence": true,
+      "need_support": "likely",
+      "promise_delivered": true,
+      "regulated_claim": false,
+      "expected": "READY_TO_TEST"
+    },
+    {
+      "id": "missing_say",
+      "say_evidence": false,
+      "do_evidence": true,
+      "need_support": "likely",
+      "promise_delivered": true,
+      "regulated_claim": false,
+      "expected": "NEEDS_EVIDENCE"
+    },
+    {
+      "id": "missing_do",
+      "say_evidence": true,
+      "do_evidence": false,
+      "need_support": "likely",
+      "promise_delivered": true,
+      "regulated_claim": false,
+      "expected": "NEEDS_EVIDENCE"
+    },
+    {
+      "id": "unsupported_need",
+      "say_evidence": true,
+      "do_evidence": true,
+      "need_support": "untested",
+      "promise_delivered": true,
+      "regulated_claim": false,
+      "expected": "UNTESTED_BRIDGE"
+    },
+    {
+      "id": "broken_promise",
+      "say_evidence": true,
+      "do_evidence": true,
+      "need_support": "verified",
+      "promise_delivered": false,
+      "regulated_claim": false,
+      "expected": "REJECT_BAIT_SWITCH"
+    },
+    {
+      "id": "regulated_claim",
+      "say_evidence": true,
+      "do_evidence": true,
+      "need_support": "verified",
+      "promise_delivered": true,
+      "regulated_claim": true,
+      "expected": "HUMAN_REVIEW"
+    }
+  ]
+}
