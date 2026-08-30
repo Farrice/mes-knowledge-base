@@ -1850,6 +1850,35 @@ def finalize(
         except Exception as e:
             result["revenue_autolink"] = {"skipped": True, "error": str(e)}
 
+    # ── Step 12.1: Governed creative-intelligence capture ─────────
+    # Creative/Strategy finalizes start an append-only NO_EVENT record. Later
+    # outcomes and explicit feedback can qualify a lesson for the existing
+    # human-reviewed memory queue. This is intentionally non-fatal and never
+    # edits an expert, skill, prompt, or doctrine file.
+    if passed and task_type in {"Creative", "Strategy"}:
+        try:
+            try:
+                from creative_intelligence import capture_finalize_event
+            except ImportError:
+                from execution.creative_intelligence import capture_finalize_event
+            check_in_date = ""
+            revenue_entry = result.get("revenue_autolink", {}).get("entry", {})
+            if isinstance(revenue_entry, dict):
+                check_in_date = revenue_entry.get("check_in_date", "")
+            result["creative_intelligence"] = capture_finalize_event(
+                output_description=output_description,
+                expert=expert,
+                skill=skill,
+                workflow=workflow,
+                task_type=task_type,
+                project=project,
+                content_path=content_path,
+                expected_outcome=expected_outcome,
+                check_in_date=check_in_date,
+            )
+        except Exception as e:
+            result["creative_intelligence"] = {"skipped": True, "error": str(e)}
+
     # ── Supercomputer anchor-memory write (added 2026-05-20) ─────────
     # When a project slug is supplied, log this finalize to the project's
     # state.yaml history and (optionally) register the deliverable as a

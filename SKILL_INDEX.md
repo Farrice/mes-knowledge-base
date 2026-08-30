@@ -393,6 +393,7 @@
 | `tom-noske-personal-brand` | **Tom Noske Personal Brand** | mission clarity, and trust infrastructure | 4 | 26 |
 | `tom-segura-comedy-storytelling` | **Tom Segura: Observational Comedy & Storytelling Craft** | the upstream craft robert mack's mechanics assume you already have, observational comedy & storytelling craft | 12 | 0 |
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, and 'how i' narratives, linkedin founder growth | 6 | 4 |
+| `trigger-event-creative-strategy` | **Trigger-Event Creative Strategy** | mines exact voice-of-customer moments when a problem became intolerable, turns them into source-grounded creative narratives | 3 | 0 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
 | `video-studio` | **video-studio** | agentic video editing + production, the edit bay — in-house conversational video studio (vox-style explainers, documentaries | 6 | 0 |

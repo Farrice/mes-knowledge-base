@@ -193,10 +193,20 @@ def auto_promote(threshold: float = 9.0) -> list:
     for fr in list_pending("pending", limit=100):
         if (fr.get("judge_score") or 0) < threshold:
             continue
+        full = get_one(fr["id"])
+        try:
+            proposal_meta = json.loads(full.get("proposed_metadata") or "{}")
+        except json.JSONDecodeError:
+            proposal_meta = {}
+        # Some domains require an explicit human checkpoint regardless of
+        # score. Creative-intelligence candidates carry this field because a
+        # high-scoring cross-project pattern is still not permission to alter
+        # taste, strategy, or doctrine without review.
+        if proposal_meta.get("auto_promotion_allowed") is False:
+            continue
         body = (fr.get("proposed_content") or "").lower()
         if any(k in body for k in TASTE_GUARD):
             continue
-        full = get_one(fr["id"])
         full["proposed_content"] = ("[PROVISIONAL — auto-promoted, unreviewed; "
                                     f"veto: memory_review.py veto {fr['id']}]\n"
                                     + (full["proposed_content"] or ""))

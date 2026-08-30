@@ -26,7 +26,7 @@ Read `genius.md` — Creative Strategy OS layer:
    ```bash
    python3 execution/review_miner.py <reviews.csv> --out .tmp/review-mine/
    ```
-   It ranks products by review count × rating, surfaces candidate golden nuggets (emotion/specificity heuristics), and emits an analysis-ready markdown pack. $0, local, no API.
+   It ranks products by review count × rating, surfaces candidate golden nuggets and `trigger-event-candidates.md` (exact moment/intolerance heuristics), and emits an analysis-ready markdown pack. $0, local, no API. Both candidate lists require human/model judgment.
 2. **Rank products** — by number of reviews AND rating; note deltas vs what the brand pushes on paid social (a beloved product with no ad spend = finding).
 3. **Golden-nugget pass (HUMAN/MODEL JUDGMENT — never fully delegated)** — from the candidates, select quotes that could headline a top-performing ad: specific, emotional, self-selecting, taboo-touching, or objection-flipping. The Oats Overnight standard: DIY objection + its defender counter-voices ("I love the convenience… I work odd hours… when I do it myself it doesn't taste like that") → became "DEAR DIY'ers… THIS IS NOT 4 U."
 4. **AI analysis** — run the corpus through Dara's questions:
@@ -42,6 +42,7 @@ Read `genius.md` — Creative Strategy OS layer:
 - Golden Nugget Bank (each: verbatim quote · source tag · why it could carry an ad · candidate mechanic from the 8 copy mechanics)
 - AI Analysis (the 4 questions answered, convergence/divergence vs reputation analysis called out)
 - Trigger Points (ranked buy-triggers with supporting quotes)
+- Trigger Events (concrete intolerable moments with exact quote, CSV row/source, and VERIFIED/LIKELY/UNCONFIRMED state; hand off to `/trigger-event-creative-strategy`)
 - Handoff line: "Feed this + the reputation analysis to `/dara-persona-intel`."
 
 ## Context Adaptations
