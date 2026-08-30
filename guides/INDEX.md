@@ -389,6 +389,7 @@
 
 
 ## Pending enrichment
+- [2026-08-30 — Jen Santulan / First Home Valley — Session Handoff](2026-08-30-jen-santulan-first-home-valley-session-handoff.md) — operator-guide stub, needs enrichment
 - [2026-08-29 — Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, honest attribution (filming by her videographer, system underneath is the product)](2026-08-29-listing-launch-kit-landing-page-premium-minimal-brand-4-real.md) — operator-guide stub, needs enrichment
 - [2026-08-29 — Revenue: Madison AI Engagement - Draft Reply](2026-08-29-madison-ai-engagement.md) — operator-guide stub, needs enrichment
 - [2026-08-29 — Extraction: Matt Haig Reader Bridge - Merged and A-Tier Verified](2026-08-29-extraction-matt-haig-reader-bridge-merged-and-a-tier-verifie.md) — operator-guide stub, needs enrichment
