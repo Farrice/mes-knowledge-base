@@ -15,9 +15,9 @@ Commands:
   bootstrap [--if-needed] [--quiet]     provision a lane (symlinks + state + parity)
   parity                                prove full-power (also: doctor --parity)
   list [--json]                         active + parked lanes
-  merge [--lane BRANCH] [--no-teardown] [--dry-run]
+  merge [--lane BRANCH] [--no-teardown] [--no-push] [--dry-run]
                                         seal -> gate -> merge -> Law-3 audit ->
-                                        regen -> push -> teardown | PARK
+                                        regen -> optional push -> teardown | PARK
   teardown [--lane BRANCH] [--force]    remove a merged/parked lane
   doctor [--fix] [--parity]             health table; --fix re-links/prunes
 
@@ -597,8 +597,9 @@ def _theirs_is_stale(main: Path, path: str, depth: int = 60) -> bool:
     return False
 
 
-def _park(main, lane, branch, reason) -> int:
-    _git(lane, "push", "-u", "origin", branch, timeout=90)  # best effort
+def _park(main, lane, branch, reason, push=True) -> int:
+    if push:
+        _git(lane, "push", "-u", "origin", branch, timeout=90)  # best effort
     reg = load_registry(main)
     entry = reg.get(branch, {})
     entry.update({"path": str(lane), "status": "parked", "reason": reason,
@@ -674,12 +675,13 @@ def cmd_merge(args) -> int:
     if tracked_dirty:
         return _park(main, lane, branch,
                      f"main integration tree dirty ({len(tracked_dirty)} tracked change(s)) — "
-                     f"reconcile main before merging lanes")
+                     f"reconcile main before merging lanes", push=not args.no_push)
     exclude = _lane_session_ids(main) | set(getattr(args, "exclude_session", None) or [])
     writer = fresh_main_writer(main, exclude_ids=exclude,
                                own_lock_token=getattr(args, "lock_token", None))
     if writer:
-        return _park(main, lane, branch, f"main has a fresh writer: {writer}")
+        return _park(main, lane, branch, f"main has a fresh writer: {writer}",
+                     push=not args.no_push)
     lockfile = (main / ".agent" / "lane-merge.lock")
     lockfile.parent.mkdir(exist_ok=True)
     lock_fd = os.open(lockfile, os.O_CREAT | os.O_RDWR)
@@ -688,7 +690,8 @@ def cmd_merge(args) -> int:
         fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
     except OSError:
         os.close(lock_fd)
-        return _park(main, lane, branch, "another lane is merging right now")
+        return _park(main, lane, branch, "another lane is merging right now",
+                     push=not args.no_push)
 
     try:
         # 3 AUDITSET (Law-3 evidence, computed BEFORE the merge)
@@ -703,7 +706,8 @@ def cmd_merge(args) -> int:
         if rc != 0:
             rc2, merging, _ = _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")
             if rc2 != 0:  # merge never started (e.g. untracked-overwrite refusal)
-                return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}")
+                return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}",
+                             push=not args.no_push)
             rc2, u_raw, _ = _git(main, "diff", "--name-only", "--diff-filter=U")
             unresolved = []
             for u in u_raw.splitlines():
@@ -747,7 +751,8 @@ def cmd_merge(args) -> int:
                 _git(main, "merge", "--abort")
                 return _park(main, lane, branch,
                              f"conflict in {', '.join(unresolved[:3])}"
-                             + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else ""))
+                             + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else ""),
+                             push=not args.no_push)
             _git(main, "commit", "--no-edit")
 
         # 5 LAW-3 AUDIT — every branch-added file must exist on merged main
@@ -757,7 +762,8 @@ def cmd_merge(args) -> int:
             _git(main, "reset", "--merge", "ORIG_HEAD")
             return _park(main, lane, branch,
                          f"Law-3 audit failed: merge dropped {dropped[0]}"
-                         + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""))
+                         + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""),
+                         push=not args.no_push)
 
         # 6 REGEN — generated artifacts are rebuilt, never hand-merged
         if gen_touched:
@@ -772,9 +778,12 @@ def cmd_merge(args) -> int:
                 _git(main, "commit", "-m",
                      "chore(lane): regenerate indexes post-merge")
 
-        # 7 PUSH (post-commit hook also pushes; explicit push is idempotent)
-        rc, _, err = _git(main, "push", "origin", "main", timeout=120)
-        push_note = "" if rc == 0 else " (push pending — will drain via post-commit hook)"
+        # 7 PUSH (optional: local reconciliation does not imply remote export)
+        if args.no_push:
+            push_note = " (local only — push skipped)"
+        else:
+            rc, _, err = _git(main, "push", "origin", "main", timeout=120)
+            push_note = "" if rc == 0 else " (push pending — will drain via post-commit hook)"
 
         # 8 TEARDOWN
         rc, n_commits, _ = _git(main, "rev-list", "--count", f"{base}..{branch}")
@@ -945,6 +954,8 @@ def main() -> int:
     m = sub.add_parser("merge", help="seal + merge this lane back to main (auto-merge-when-clean)")
     m.add_argument("--lane", help="branch name (default: the lane you're in)")
     m.add_argument("--no-teardown", action="store_true", dest="no_teardown")
+    m.add_argument("--no-push", action="store_true", dest="no_push",
+                   help="merge locally without pushing the lane or main")
     m.add_argument("--dry-run", action="store_true", dest="dry_run")
     m.add_argument("--lock-token", dest="lock_token",
                    help="session_lock token owned by the caller (own lock ≠ foreign writer)")
