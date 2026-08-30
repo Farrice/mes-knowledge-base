@@ -114,6 +114,27 @@ def test_human_taste_stays_project_scoped(tmp_path):
     assert candidate["proof_state"] == "HUMAN_TASTE"
 
 
+def test_explicit_feedback_after_descriptive_outcome_remains_reviewable_taste(tmp_path):
+    ledger = tmp_path / "events.jsonl"
+    event_id = capture(tmp_path)
+    ci.attach_outcome(
+        event_id,
+        metric="distribution",
+        value="0 sends; 0 published",
+        test_design="descriptive",
+        ledger_path=ledger,
+    )
+    ci.attach_feedback(
+        event_id,
+        verdict="approved",
+        candidate_lesson="Keep the listing launch system as the project flagship",
+        ledger_path=ledger,
+    )
+    candidate = ci.synthesize(ledger_path=ledger)["candidates"][0]
+    assert candidate["scope"] == "project"
+    assert candidate["proof_state"] == "HUMAN_TASTE"
+
+
 def test_three_taste_preferences_do_not_become_shared_doctrine(tmp_path):
     ledger = tmp_path / "events.jsonl"
     lesson = "Use the client's preferred reporting order"

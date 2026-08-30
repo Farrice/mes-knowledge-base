@@ -291,10 +291,20 @@ def attach_feedback(
 
 def _latest_proof(state: dict[str, Any]) -> str:
     outcomes = state.get("outcomes") or []
-    if outcomes:
-        return outcomes[-1].get("proof_state", "DESCRIPTIVE_SIGNAL")
-    if state.get("feedback"):
+    feedback = state.get("feedback") or []
+    # Outcomes and explicit taste are independent evidence streams. Resolve
+    # precedence by the record that most recently supplied the candidate
+    # lesson; otherwise a descriptive outcome can permanently mask a later,
+    # explicit human verdict.
+    latest_outcome = outcomes[-1] if outcomes else {}
+    latest_feedback = feedback[-1] if feedback else {}
+    if latest_feedback and (
+        not latest_outcome
+        or latest_feedback.get("recorded_at", "") >= latest_outcome.get("recorded_at", "")
+    ):
         return "HUMAN_TASTE"
+    if latest_outcome:
+        return latest_outcome.get("proof_state", "DESCRIPTIVE_SIGNAL")
     return state.get("proof_state", "NO_EVENT")
 
 

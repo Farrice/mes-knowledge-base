@@ -21,7 +21,7 @@
 | Check | Result | Evidence |
 |---|---|---|
 | Creative intelligence verifier | PASS | Required files, integrations, proof-state bounds, contradiction block, review veto, cold-start route |
-| Focused tests | PASS | 12 tests |
+| Focused tests | PASS | 13 tests |
 | Skill-system contract verifier | PASS | Contract is decision-complete |
 | Operator Core status | PASS | 14/14 aligned |
 | Operator Core status verifier | PASS | Dashboard and next-audit checks |
