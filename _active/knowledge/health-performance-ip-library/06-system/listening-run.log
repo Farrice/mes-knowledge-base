@@ -379,3 +379,21 @@ ERROR: lock not held by this token
 === 2026-08-28 07:19:39 listening run start ===
 BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
 lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-29 05:30:05 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: b158f974d5a8  (heartbeat every wave: session_lock.py heartbeat b158f974d5a8)
+Not logged in · Please run /login
+released
+=== 2026-08-29 05:30:08 listening run end rc=1 ===
+=== 2026-08-30 05:30:01 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 3986c72ffd09  (heartbeat every wave: session_lock.py heartbeat 3986c72ffd09)
+Not logged in · Please run /login
+released
+=== 2026-08-30 05:30:05 listening run end rc=1 ===
