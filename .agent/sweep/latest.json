@@ -1,11 +1,140 @@
 {
-  "generated": "2026-08-28T07:19:44",
+  "generated": "2026-08-30T02:45:03",
   "window": {
-    "since": "2026-08-14T07:19:43",
-    "until": "2026-08-28T07:19:44",
+    "since": "2026-08-16T02:45:03",
+    "until": "2026-08-30T02:45:03",
     "days": 14
   },
   "census": [
+    {
+      "key": "landing-page",
+      "title": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, honest attribution (filming by her videograph",
+      "arena": "",
+      "status": "active",
+      "stage": "outcome",
+      "pin": true,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-landing-page.md",
+      "resume_hint": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, honest attribution (filming by her videograph",
+      "first_seen": "2026-08-19T22:16:53",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 1,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        6.0
+      ]
+    },
+    {
+      "key": "first-10k",
+      "title": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+      "arena": "",
+      "status": "active",
+      "stage": "outcome",
+      "pin": true,
+      "promoted": true,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-first-10k.md",
+      "resume_hint": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 2,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        7.33,
+        9.0
+      ]
+    },
+    {
+      "key": "listing-content",
+      "title": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair",
+      "arena": "farrice-brand",
+      "status": "active",
+      "stage": "outcome",
+      "pin": true,
+      "promoted": true,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-listing-content.md",
+      "resume_hint": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair",
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 1,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 4,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        6.33
+      ]
+    },
+    {
+      "key": "offer-packaging",
+      "title": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with harness routes, 30-day trial plan with kill",
+      "arena": "",
+      "status": "active",
+      "stage": "shipped",
+      "pin": true,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-offer-packaging.md",
+      "resume_hint": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with harness routes, 30-day trial plan with kill",
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 1,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        6.0
+      ]
+    },
+    {
+      "key": "follow-up-monitor",
+      "title": "System: Browser Crash Automations + Second Brain Merge - Fixed and Landed",
+      "arena": "",
+      "status": "active",
+      "stage": "research",
+      "pin": true,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-28-follow-up-monitor.md",
+      "resume_hint": "Check ~/Library/Logs/DiagnosticReports for 8-9 AM crashes; Farrice: restart ChatGPT + recreate briefs as ChatGPT tasks; then origin+9 divergence recovery",
+      "first_seen": "2026-08-17T13:00:25",
+      "last_active": "2026-08-26T16:01:39",
+      "evidence": {
+        "sessions": 9,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
     {
       "key": "extract-virtuoso-mastery",
       "title": "Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capability readiness audit, and 72-hour paid-",
@@ -18,9 +147,9 @@
       "handoff": ".agent/handoffs/2026-08-25-extract-virtuoso-mastery.md",
       "resume_hint": "Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capability readiness audit, and 72-hour paid-",
       "first_seen": "2026-08-25",
-      "last_active": "2026-08-25T21:53:53",
+      "last_active": "2026-08-29T16:10:20",
       "evidence": {
-        "sessions": 1,
+        "sessions": 2,
         "deliverables": 1,
         "assets": 0,
         "commits": 0,
@@ -208,13 +337,37 @@
       "scores": []
     },
     {
+      "key": "cos-standing-board",
+      "title": "System: COS Standing Board - Prototype Preserved, Wiring Pending",
+      "arena": "",
+      "status": "ready",
+      "stage": "research",
+      "pin": true,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-16-cos-standing-board.md",
+      "resume_hint": "Invoke /cos in Codex and grade the fresh daily sitting keep/change/scrap",
+      "first_seen": "2026-08-16T14:10:51",
+      "last_active": "2026-08-28T23:16:28",
+      "evidence": {
+        "sessions": 3,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
       "key": "geo-content",
       "title": "Revenue: Claim Check Funnel - Ready to Launch",
-      "arena": "farrice-brand",
+      "arena": "",
       "status": "ready",
-      "stage": "build",
+      "stage": "research",
       "pin": true,
-      "promoted": true,
+      "promoted": false,
       "killed": false,
       "handoff": ".agent/handoffs/2026-08-16-geo-content.md",
       "resume_hint": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
@@ -222,30 +375,6 @@
       "last_active": "",
       "evidence": {
         "sessions": 0,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 4,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
-      "key": "cos-standing-board",
-      "title": "System: COS Standing Board - Prototype Preserved, Wiring Pending",
-      "arena": "",
-      "status": "mid-build",
-      "stage": "research",
-      "pin": true,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-08-16-cos-standing-board.md",
-      "resume_hint": "Restore or replace the missing board caster, wire Phase 5, then run a fresh August COS acceptance test",
-      "first_seen": "2026-08-16T14:10:51",
-      "last_active": "2026-08-22T16:01:39",
-      "evidence": {
-        "sessions": 2,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -266,10 +395,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-08-12-angle-map-listening-engine.md",
       "resume_hint": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-28T17:12:33",
+      "last_active": "2026-08-28T17:12:33",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -279,30 +408,6 @@
       "verdicts": [
         "good"
       ],
-      "scores": []
-    },
-    {
-      "key": "clients",
-      "title": "Clients \u2014 Readme",
-      "arena": "",
-      "status": "active",
-      "stage": "research",
-      "pin": true,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-08-12-clients.md",
-      "resume_hint": "Clients \u2014 Readme",
-      "first_seen": "",
-      "last_active": "",
-      "evidence": {
-        "sessions": 0,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
       "scores": []
     },
     {
@@ -485,12 +590,12 @@
       "handoff": ".agent/handoffs/2026-08-08-linkedin.md",
       "resume_hint": "Linkedin \u2014 Execution Checklist",
       "first_seen": "2026-08-17T14:23:44",
-      "last_active": "2026-08-27T11:51:47",
+      "last_active": "2026-08-21T04:41:45",
       "evidence": {
         "sessions": 5,
         "deliverables": 0,
         "assets": 0,
-        "commits": 1,
+        "commits": 0,
         "artifacts": 0,
         "missions": 11
       },
@@ -607,12 +712,12 @@
       "handoff": ".agent/handoffs/2026-08-07-health-performance-ip-library.md",
       "resume_hint": "Health Performance Ip Library \u2014 W32 Health Performance Synthesis",
       "first_seen": "2026-08-25T17:43:39",
-      "last_active": "2026-08-27T11:51:47",
+      "last_active": "2026-08-25T21:12:20",
       "evidence": {
         "sessions": 2,
         "deliverables": 0,
         "assets": 0,
-        "commits": 1,
+        "commits": 0,
         "artifacts": 3,
         "missions": 0
       },
@@ -696,19 +801,19 @@
       "title": "Marketing Intelligence Engine \u2014 Overnight Build (Cody Forge + Signal Scout + Angle Brief)",
       "arena": "",
       "status": "ready",
-      "stage": "build",
+      "stage": "research",
       "pin": true,
       "promoted": false,
       "killed": false,
       "handoff": ".agent/handoffs/2026-08-06-marketing-intelligence-engine.md",
       "resume_hint": "Fill listening-creators.md (10-20 real creators via /creator-aperture) then first full scout run + Organic Engine v1 pen card",
-      "first_seen": "2026-08-27T11:51:47",
-      "last_active": "2026-08-27T11:51:47",
+      "first_seen": "",
+      "last_active": "",
       "evidence": {
         "sessions": 0,
         "deliverables": 0,
         "assets": 0,
-        "commits": 1,
+        "commits": 0,
         "artifacts": 0,
         "missions": 0
       },
@@ -992,10 +1097,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-08-05-health-performance-geo-daily-brief.md",
       "resume_hint": "2026-08-05 Angle Map Listening Brief: trust has an owner, promises-not-kept ownership-event deep dive, flagship post, teardown post, +3 insight rows, +2 promises rows; Google Drive disabled by current",
-      "first_seen": "2026-08-14T12:01:34",
+      "first_seen": "2026-08-17T12:01:22",
       "last_active": "2026-08-27T15:02:58",
       "evidence": {
-        "sessions": 15,
+        "sessions": 14,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -1137,17 +1242,19 @@
       "handoff": ".agent/handoffs/2026-08-04-extract-forge.md",
       "resume_hint": "Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.",
       "first_seen": "2026-08-18T13:34:12",
-      "last_active": "2026-08-18T13:34:12",
+      "last_active": "2026-08-29",
       "evidence": {
         "sessions": 1,
-        "deliverables": 0,
+        "deliverables": 1,
         "assets": 0,
         "commits": 0,
         "artifacts": 0,
         "missions": 2
       },
       "verdicts": [],
-      "scores": []
+      "scores": [
+        6.0
+      ]
     },
     {
       "key": "dhar-mann-production-os",
@@ -1304,10 +1411,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-28-opus5-harness-repair.md",
       "resume_hint": "Send the 3 teardown DMs (copy in teardowns/ \u00a78), log them, THEN clean-session About verdict",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T00:32:27",
+      "last_active": "2026-08-29T00:32:27",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -2209,30 +2316,6 @@
       "scores": []
     },
     {
-      "key": "first-10k",
-      "title": "Delivered a direct answer to Farrice's urgent request: recovered 25 ideas he actually developed, ranked each in a compact table by immediate-cash importance and long-term fit, refreshed the relevant 2",
-      "arena": "",
-      "status": "active",
-      "stage": "outcome",
-      "pin": true,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-07-21-first-10k.md",
-      "resume_hint": "Delivered a direct answer to Farrice's urgent request: recovered 25 ideas he actually developed, ranked each in a compact table by immediate-cash importance and long-term fit, refreshed the relevant 2",
-      "first_seen": "",
-      "last_active": "",
-      "evidence": {
-        "sessions": 0,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
       "key": "farrice-engine",
       "title": "Produced the complete Health Performance GEO Creative Strategist daily brief for 2026-07-20 in the required local shape: saved the Foundation-to-FOMO Map brief, appended three valid JSONL insight rows",
       "arena": "",
@@ -2573,19 +2656,19 @@
       "title": "PROOF-TO-MARKET-OS.md v2.0 \u2014 fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnos",
       "arena": "",
       "status": "ready",
-      "stage": "research",
+      "stage": "build",
       "pin": true,
       "promoted": true,
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-18-proof-to-market.md",
       "resume_hint": "PROOF-TO-MARKET-OS.md v2.0 \u2014 fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnos",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
       "evidence": {
         "sessions": 0,
         "deliverables": 0,
         "assets": 0,
-        "commits": 0,
+        "commits": 1,
         "artifacts": 0,
         "missions": 6
       },
@@ -2891,10 +2974,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-15-system-health-check-framework.md",
       "resume_hint": "System Health Check Framework \u2014 P1 Fixes",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-25T04:56:52",
+      "last_active": "2026-08-25T04:56:52",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -3035,10 +3118,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-15-tommy-clark-linkedin-growth.md",
       "resume_hint": "Tommy Clark Linkedin Growth \u2014 Blind Pass Sample Uncopyable Filter",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T07:04:02",
+      "last_active": "2026-08-29T07:04:11",
       "evidence": {
-        "sessions": 0,
+        "sessions": 2,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -3515,10 +3598,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-08-coach-cooz.md",
       "resume_hint": "Coach Cooz \u2014 Brief",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T14:02:04",
+      "last_active": "2026-08-30T05:38:55",
       "evidence": {
-        "sessions": 0,
+        "sessions": 3,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -4135,7 +4218,7 @@
       "status": "active",
       "stage": "research",
       "pin": true,
-      "promoted": true,
+      "promoted": false,
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-03-mission.md",
       "resume_hint": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTU",
@@ -4333,42 +4416,20 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-07-02-system-audit.md",
       "resume_hint": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-28",
+      "last_active": "2026-08-28",
       "evidence": {
         "sessions": 0,
-        "deliverables": 0,
+        "deliverables": 1,
         "assets": 0,
         "commits": 0,
         "artifacts": 0,
         "missions": 0
       },
       "verdicts": [],
-      "scores": []
-    },
-    {
-      "key": "listing-content",
-      "title": "Repaired Willis clean recording pack after ADU overfit regression: restored suspicion/gate/full-setup hook spine, made ADU proof rather than the product, preserved Van Nuys reconsideration angle, upda",
-      "arena": "",
-      "status": "active",
-      "stage": "outcome",
-      "pin": true,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-07-02-listing-content.md",
-      "resume_hint": "Repaired Willis clean recording pack after ADU overfit regression: restored suspicion/gate/full-setup hook spine, made ADU proof rather than the product, preserved Van Nuys reconsideration angle, upda",
-      "first_seen": "",
-      "last_active": "",
-      "evidence": {
-        "sessions": 0,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
+      "scores": [
+        7.33
+      ]
     },
     {
       "key": "raw-intent-bridge",
@@ -4741,10 +4802,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-06-23-three-layer-memory-second-brain.md",
       "resume_hint": "Commit the uncommitted memory-system + Notion Library work; then optionally extend the Library",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-28T17:02:45",
+      "last_active": "2026-08-28T17:02:45",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -4765,6 +4826,54 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-06-23-ai-slop-newsjack.md",
       "resume_hint": "2026-06-23 \u00b7 LinkedIn Daily \u2014 \"AI slop\" CMO newsjack (HALT, awaiting raw take)",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "clients",
+      "title": "Handoff \u2014 jen-team-pilot (fresh-session resume)",
+      "arena": "",
+      "status": "active",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-jen-team-pilot.md",
+      "resume_hint": "Jen-Team Pilot pickup: all assets shipped+approved; refine carousels / demand pass / Jay interview; Farrice pitching today",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "farrice-brand",
+      "title": "Premium Minimal \u2192 Claude Design component library",
+      "arena": "",
+      "status": "active",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": ".agent/handoffs/2026-08-29-farrice-brand.md",
+      "resume_hint": "Premium Minimal React library built + verified (12 components, validate clean); blocked on /design-login to create the Claude Design project and upload",
       "first_seen": "",
       "last_active": "",
       "evidence": {
@@ -4827,30 +4936,6 @@
       "scores": []
     },
     {
-      "key": "follow-up-monitor",
-      "title": "Handoff \u2014 Browser crash pop-ups / Codex automations",
-      "arena": "",
-      "status": "active",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-08-27-follow-up-monitor.md",
-      "resume_hint": "Browser crash pop-ups fixed: Codex local automations paused + heartbeat deleted; verify no crashes tomorrow 8-9 AM, notion-reliability branch still unmerged",
-      "first_seen": "2026-08-14T13:02:08",
-      "last_active": "2026-08-26T16:01:39",
-      "evidence": {
-        "sessions": 10,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
       "key": "execution",
       "title": "Handoff \u2014 System Health Audit + Repair (2026-08-24)",
       "arena": "",
@@ -4875,30 +4960,6 @@
       "scores": []
     },
     {
-      "key": "farrice-brand",
-      "title": "2026-08-24-farrice-brand",
-      "arena": "",
-      "status": "active",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": ".agent/handoffs/2026-08-24-farrice-brand.md",
-      "resume_hint": "Market Pulse #11 shipped \u2014 Rejuvenate names Kroger, Cure Hydration Dream 100 delta proposed, review gate + WebFetch egress block pending",
-      "first_seen": "",
-      "last_active": "",
-      "evidence": {
-        "sessions": 0,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
       "key": "products",
       "title": "2026-08-24-products",
       "arena": "",
@@ -4909,10 +4970,10 @@
       "killed": false,
       "handoff": ".agent/handoffs/2026-08-24-products.md",
       "resume_hint": "realtor-pack-ignition mid-flight: 3 agents producing pack/storefront/outreach \u2014 gate, integrate, close",
-      "first_seen": "2026-08-24T14:01:52",
-      "last_active": "2026-08-24T14:01:52",
+      "first_seen": "",
+      "last_active": "",
       "evidence": {
-        "sessions": 1,
+        "sessions": 0,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7333,10 +7394,10 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T11:57:11",
+      "last_active": "2026-08-29T11:57:11",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7357,10 +7418,10 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "2026-08-14T17:22:36",
-      "last_active": "2026-08-24T12:52:07",
+      "first_seen": "2026-08-16T14:10:05",
+      "last_active": "2026-08-29T12:30:07",
       "evidence": {
-        "sessions": 4,
+        "sessions": 11,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7507,10 +7568,10 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "",
-      "last_active": "",
+      "first_seen": "2026-08-29T15:32:15",
+      "last_active": "2026-08-29T15:32:15",
       "evidence": {
-        "sessions": 0,
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7532,9 +7593,9 @@
       "handoff": "",
       "resume_hint": "",
       "first_seen": "2026-08-18T13:33:23",
-      "last_active": "2026-08-25T21:54:10",
+      "last_active": "2026-08-30T04:09:56",
       "evidence": {
-        "sessions": 2,
+        "sessions": 4,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7676,9 +7737,9 @@
       "handoff": "",
       "resume_hint": "",
       "first_seen": "2026-08-20T00:06:08",
-      "last_active": "2026-08-20T00:06:08",
+      "last_active": "2026-08-28T17:17:07",
       "evidence": {
-        "sessions": 1,
+        "sessions": 2,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -7939,10 +8000,10 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "2026-08-14T14:19:44",
-      "last_active": "2026-08-15T14:20:39",
+      "first_seen": "2026-08-24T14:07:57",
+      "last_active": "2026-08-27T13:28:57",
       "evidence": {
-        "sessions": 2,
+        "sessions": 5,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -8059,10 +8120,10 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "2026-08-14T09:50:59",
+      "first_seen": "2026-08-16T12:01:59",
       "last_active": "2026-08-20T06:45:12",
       "evidence": {
-        "sessions": 7,
+        "sessions": 5,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -8084,9 +8145,179 @@
       "handoff": "",
       "resume_hint": "",
       "first_seen": "2026-08-21T04:06:23",
-      "last_active": "2026-08-21T04:06:23",
+      "last_active": "2026-08-29T13:14:38",
       "evidence": {
-        "sessions": 1,
+        "sessions": 2,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "create-a-professional-creative-director-repair-plan-and-implementation-brief-for-the-recurring-angle-map-research-brief-it-is-too-verbose-scattered-summary-h",
+      "title": "Create a professional creative-director repair plan and implementation brief for the recurring Angle Map research brief. It is too verbose, scattered, summary-h",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-24T14:01:52",
+      "last_active": "2026-08-28T23:08:04",
+      "evidence": {
+        "sessions": 3,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "package-what-we-built-for-jen-listing-content-engine-shoot-sheets-teleprompter-packs-reels-scripts-send-packages-compliance-pack-into-a-repeatable-200-i",
+      "title": "Package what we built for Jen (listing content engine, shoot sheets, teleprompter packs, reels scripts, SEND packages, compliance pack) into a repeatable $200 i",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "jen-team-pilot-offer",
+      "title": "Package Jen-system into $200 intro offer for her team agents; brief + process; $300-600/30d",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "read-and-understand-my-complete-imessage-conversation-with-coach-cooz-including-voice-memos-so-we-can-extract-his-real-positioning-identify-what-he-wants-to",
+      "title": "Read and understand my complete iMessage conversation with Coach Cooz, including voice memos, so we can extract his real positioning, identify what he wants to ",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-21T03:52:39",
+      "last_active": "2026-08-21T04:45:28",
+      "evidence": {
+        "sessions": 2,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "draft-a-concise-imessage-reply-to-madison-after-reading-our-full-thread-position-an-ai-and-admin-systems-engagement-for-her-dog-sitting-business-as-paid-work-t",
+      "title": "Draft a concise iMessage reply to Madison after reading our full thread. Position an AI and admin systems engagement for her dog-sitting business as paid work t",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T14:12:13",
+      "last_active": "2026-08-29T16:23:25",
+      "evidence": {
+        "sessions": 3,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "jen-poc-carousels",
+      "title": "Jen POC carousels v2 elevation + Claude Design handoff packet",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 1
+      },
+      "verdicts": [
+        "good"
+      ],
+      "scores": []
+    },
+    {
+      "key": "i-m-going-to-continue-our-work-and-i-need-to-know-your-plan-or-how-we-are-going-to-execute-replicating-and-building-our-own-version-of-the-kith-website-with-ou",
+      "title": "I'm going to continue our work, and I need to know your plan or how we are going to execute replicating and building our own version of the Kith website with ou",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -8123,6 +8354,131 @@
       ]
     },
     {
+      "key": "website-wireframe-generator",
+      "title": "website wireframe generator",
+      "arena": "",
+      "status": "",
+      "stage": "outcome",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 2,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        8.33,
+        8.33
+      ]
+    },
+    {
+      "key": "watch-and-extract",
+      "title": "watch and extract",
+      "arena": "",
+      "status": "",
+      "stage": "shipped",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 1,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": [
+        5.67
+      ]
+    },
+    {
+      "key": "jay-sun-films-video-craft",
+      "title": "jay sun films video craft",
+      "arena": "skills",
+      "status": "",
+      "stage": "build",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 1,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "jen-team-pilot",
+      "title": "jen team pilot",
+      "arena": "clients",
+      "status": "",
+      "stage": "build",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 1,
+        "artifacts": 8,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "premium-minimal",
+      "title": "premium minimal",
+      "arena": "farrice-brand",
+      "status": "",
+      "stage": "build",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 1,
+        "artifacts": 9,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
       "key": "library-shelf-report",
       "title": "library shelf report",
       "arena": "",
@@ -8147,8 +8503,8 @@
       "scores": []
     },
     {
-      "key": "kdp-book-one-pilot",
-      "title": "kdp book one pilot",
+      "key": "shaan-puri-storytelling",
+      "title": "shaan puri storytelling",
       "arena": "",
       "status": "",
       "stage": "build",
@@ -8157,8 +8513,56 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "2026-08-27T11:51:47",
-      "last_active": "2026-08-27T11:51:47",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 1,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "video-context",
+      "title": "video context",
+      "arena": "",
+      "status": "",
+      "stage": "build",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 1,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "matt-haig-reader-bridge",
+      "title": "matt haig reader bridge",
+      "arena": "",
+      "status": "",
+      "stage": "build",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48",
       "evidence": {
         "sessions": 0,
         "deliverables": 0,
@@ -8183,78 +8587,6 @@
       "resume_hint": "",
       "first_seen": "2026-08-20T20:53:41",
       "last_active": "2026-08-20T20:53:41",
-      "evidence": {
-        "sessions": 1,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
-      "key": "token-usage-for-deployable-skills",
-      "title": "token usage for deployable skills",
-      "arena": "",
-      "status": "",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": "",
-      "resume_hint": "",
-      "first_seen": "2026-08-20T03:45:20",
-      "last_active": "2026-08-20T03:45:20",
-      "evidence": {
-        "sessions": 1,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
-      "key": "cash-paths-research",
-      "title": "cash paths research",
-      "arena": "",
-      "status": "",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": "",
-      "resume_hint": "",
-      "first_seen": "2026-08-22T18:26:32",
-      "last_active": "2026-08-22T18:26:32",
-      "evidence": {
-        "sessions": 1,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
-      "key": "agentic-os-build-and-deployment",
-      "title": "agentic os build and deployment",
-      "arena": "",
-      "status": "",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": "",
-      "resume_hint": "",
-      "first_seen": "2026-08-23T15:56:53",
-      "last_active": "2026-08-23T15:56:53",
       "evidence": {
         "sessions": 1,
         "deliverables": 0,
@@ -8363,8 +8695,8 @@
       "scores": []
     },
     {
-      "key": "ops-weekly-review-work-summary",
-      "title": "ops weekly review work summary",
+      "key": "token-usage-for-deployable-skills",
+      "title": "token usage for deployable skills",
       "arena": "",
       "status": "",
       "stage": "research",
@@ -8373,10 +8705,106 @@
       "killed": false,
       "handoff": "",
       "resume_hint": "",
-      "first_seen": "2026-08-14T23:12:06",
-      "last_active": "2026-08-21T23:33:48",
+      "first_seen": "2026-08-20T03:45:20",
+      "last_active": "2026-08-20T03:45:20",
       "evidence": {
-        "sessions": 3,
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "cash-paths-research",
+      "title": "cash paths research",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T06:48:15",
+      "last_active": "2026-08-29T06:48:15",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "agentic-os-build-and-deployment",
+      "title": "agentic os build and deployment",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-23T15:56:53",
+      "last_active": "2026-08-23T15:56:53",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "real-estate-content-offer-strategy",
+      "title": "real estate content offer strategy",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-30T07:35:08",
+      "last_active": "2026-08-30T07:35:08",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "second-brain-awakening",
+      "title": "second brain awakening",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-22T17:58:53",
+      "last_active": "2026-08-22T17:58:53",
+      "evidence": {
+        "sessions": 1,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -9011,30 +9439,6 @@
       "scores": []
     },
     {
-      "key": "revenue-zero-momentum-offer-brand-aligned-landing-page-r",
-      "title": "revenue zero momentum offer brand aligned landing page r",
-      "arena": "",
-      "status": "",
-      "stage": "research",
-      "pin": false,
-      "promoted": false,
-      "killed": false,
-      "handoff": "",
-      "resume_hint": "",
-      "first_seen": "2026-08-19T22:16:53",
-      "last_active": "2026-08-19T22:16:53",
-      "evidence": {
-        "sessions": 1,
-        "deliverables": 0,
-        "assets": 0,
-        "commits": 0,
-        "artifacts": 0,
-        "missions": 0
-      },
-      "verdicts": [],
-      "scores": []
-    },
-    {
       "key": "improve-chat-archive-hygiene",
       "title": "improve chat archive hygiene",
       "arena": "",
@@ -9049,6 +9453,30 @@
       "last_active": "2026-08-21T04:06:00",
       "evidence": {
         "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "ops-weekly-review-work-summary",
+      "title": "ops weekly review work summary",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-21T20:04:18",
+      "last_active": "2026-08-21T23:33:48",
+      "evidence": {
+        "sessions": 2,
         "deliverables": 0,
         "assets": 0,
         "commits": 0,
@@ -9515,6 +9943,462 @@
       "scores": []
     },
     {
+      "key": "system-claude-import-boundary-canonical",
+      "title": "system claude import boundary canonical",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T17:44:20",
+      "last_active": "2026-08-28T17:44:20",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "system-claude-import-boundary-measure-and-repair",
+      "title": "system claude import boundary measure and repair",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T17:44:38",
+      "last_active": "2026-08-28T17:44:38",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "research-scraping-and-enrichment-stack-replace-apify",
+      "title": "research scraping and enrichment stack replace apify",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T17:50:13",
+      "last_active": "2026-08-28T17:50:13",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "research-firecrawl-purchase-gate-recommendation-audit",
+      "title": "research firecrawl purchase gate recommendation audit",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T18:27:20",
+      "last_active": "2026-08-28T18:27:20",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "ops-weekly-outcome-review-bounded",
+      "title": "ops weekly outcome review bounded",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T23:02:11",
+      "last_active": "2026-08-28T23:02:11",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extract-video-into-skill-system",
+      "title": "extract video into skill system",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T23:12:17",
+      "last_active": "2026-08-29T12:22:17",
+      "evidence": {
+        "sessions": 2,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-wkqdevj6xtk-connected-skill-system",
+      "title": "extraction wkqdevj6xtk connected skill system",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T23:12:23",
+      "last_active": "2026-08-28T23:12:23",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "route-with-cos-command",
+      "title": "route with cos command",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-28T23:16:20",
+      "last_active": "2026-08-28T23:16:20",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-matt-haig-reader-bridge-merge-a-tier",
+      "title": "extraction matt haig reader bridge merge a tier",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T06:35:02",
+      "last_active": "2026-08-29T06:35:02",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-matt-haig-reader-bridge-merged-and-a-tier-ver",
+      "title": "extraction matt haig reader bridge merged and a tier ver",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T07:07:32",
+      "last_active": "2026-08-29T07:07:32",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-youtube-mastery-system-full-judgment-pack",
+      "title": "extraction youtube mastery system full judgment pack",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T12:22:30",
+      "last_active": "2026-08-29T12:22:30",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-kallaway-micro-fame-companion-integration",
+      "title": "extraction kallaway micro fame companion integration",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T13:25:12",
+      "last_active": "2026-08-29T13:25:12",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-authority-transfer-real-health-claim-test",
+      "title": "extraction authority transfer real health claim test",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T14:54:36",
+      "last_active": "2026-08-29T14:54:36",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "system-futur-storytelling-merged-and-verified",
+      "title": "system futur storytelling merged and verified",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T19:11:17",
+      "last_active": "2026-08-29T19:11:17",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "revenue-listing-launch-proof-scaffold-readiness-audit",
+      "title": "revenue listing launch proof scaffold readiness audit",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T19:19:22",
+      "last_active": "2026-08-29T19:19:22",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "revenue-chris-do-listing-launch-proof-scaffold-readine",
+      "title": "revenue chris do listing launch proof scaffold readine",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T19:21:16",
+      "last_active": "2026-08-29T19:21:16",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "build-premium-bpm-shopify-store",
+      "title": "build premium bpm shopify store",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T19:26:07",
+      "last_active": "2026-08-29T19:26:07",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "client-mybpm-shopify-premium-relaunch-build",
+      "title": "client mybpm shopify premium relaunch build",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-29T21:14:26",
+      "last_active": "2026-08-29T21:14:26",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-two-videos-build-skill-system",
+      "title": "extraction two videos build skill system",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "2026-08-30T04:10:14",
+      "last_active": "2026-08-30T04:10:14",
+      "evidence": {
+        "sessions": 1,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
       "key": "joanna-wiebe-global-deployment",
       "title": "Extraction: Joanna Wiebe Psychology System - Global Deployment",
       "arena": "",
@@ -9565,6 +10449,54 @@
     {
       "key": "index",
       "title": "index",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "madison-ai-engagement",
+      "title": "madison ai engagement",
+      "arena": "",
+      "status": "",
+      "stage": "research",
+      "pin": false,
+      "promoted": false,
+      "killed": false,
+      "handoff": "",
+      "resume_hint": "",
+      "first_seen": "",
+      "last_active": "",
+      "evidence": {
+        "sessions": 0,
+        "deliverables": 0,
+        "assets": 0,
+        "commits": 0,
+        "artifacts": 0,
+        "missions": 0
+      },
+      "verdicts": [],
+      "scores": []
+    },
+    {
+      "key": "extraction-matt-haig-reader-bridge-merged-and-a-tier-verifie",
+      "title": "extraction matt haig reader bridge merged and a tier verifie",
       "arena": "",
       "status": "",
       "stage": "research",
@@ -10669,14 +11601,14 @@
   ],
   "degraded": [],
   "counts": {
-    "sessions": 159,
-    "threads_seen": 444,
+    "sessions": 210,
+    "threads_seen": 482,
     "threads_promoted": 12,
-    "deliverables": 8,
-    "artifacts": 68,
+    "deliverables": 18,
+    "artifacts": 51,
     "assets": 2,
-    "artifacts_vanished": 11,
-    "overflow": 220
+    "artifacts_vanished": 34,
+    "overflow": 227
   },
   "threads": {
     "linkedin": {
@@ -10749,13 +11681,7 @@
       "deliverables": [],
       "artifacts": [],
       "assets": [],
-      "commits": [
-        {
-          "sha": "d1d98190c",
-          "ts": "2026-08-27T11:51:47",
-          "subject": "Merge codex/notion-second-brain-reliability: Notion second brain local-first + session recall\u00004ca1a1d79a3a1d46e150b69b02729edc4c08b17f"
-        }
-      ],
+      "commits": [],
       "missions": [
         {
           "key": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
@@ -10925,13 +11851,13 @@
       "daily": {
         "sessions": [
           0,
-          0,
-          0,
           2,
           2,
           0,
           0,
           1,
+          0,
+          0,
           0,
           0,
           0,
@@ -10973,7 +11899,7 @@
         ]
       },
       "first_seen": "2026-08-17T14:23:44",
-      "last_active": "2026-08-27T11:51:47"
+      "last_active": "2026-08-21T04:41:45"
     },
     "proof-to-market": {
       "slug": "proof-to-market",
@@ -10989,7 +11915,13 @@
       "deliverables": [],
       "artifacts": [],
       "assets": [],
-      "commits": [],
+      "commits": [
+        {
+          "sha": "c72f6981c",
+          "ts": "2026-08-29T18:10:48",
+          "subject": "Merge remote-tracking branch 'origin/main'\u0000d8f69bdc87ce8a225892b23609a0ae8fe15fca47"
+        }
+      ],
       "missions": [
         {
           "key": "Fuse Proof-to-Market Sprint into Path A canonical offer + contact kit + founding brief + 2x/week market-pulse loop",
@@ -11078,8 +12010,8 @@
         "handoff status: ready"
       ],
       "killed": false,
-      "stage": "research",
-      "stage_index": 0,
+      "stage": "build",
+      "stage_index": 1,
       "daily": {
         "sessions": [
           0,
@@ -11130,8 +12062,8 @@
           0
         ]
       },
-      "first_seen": "",
-      "last_active": ""
+      "first_seen": "2026-08-29T18:10:48",
+      "last_active": "2026-08-29T18:10:48"
     },
     "harness": {
       "slug": "harness",
@@ -11205,7 +12137,13 @@
           "ts": "2026-08-20T13:52:22"
         }
       ],
-      "solutions": [],
+      "solutions": [
+        {
+          "path": "docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md",
+          "name": "2026-08-28-cross-harness-contract-runtime-parity.md",
+          "ts": "2026-08-28T23:43:11"
+        }
+      ],
       "outcomes": [],
       "harnesses": [],
       "promoted": true,
@@ -11273,713 +12211,95 @@
       "first_seen": "",
       "last_active": ""
     },
-    "execution": {
-      "slug": "execution",
-      "title": "Handoff \u2014 System Health Audit + Repair (2026-08-24)",
-      "arena": "",
+    "listing-content": {
+      "slug": "listing-content",
+      "title": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page",
+      "arena": "farrice-brand",
       "status": "active",
-      "resume_hint": "Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)",
+      "resume_hint": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page",
       "unfinished": "",
       "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-24-execution.md",
-      "pin": false,
-      "sessions": [
-        {
-          "harness": "codex",
-          "id": "01a0370d-7118-7560-9f98-0a325b1fd978",
-          "title": "Revenue: Creative Sprint Execution - Competence OS",
-          "titled": true,
-          "ts": "2026-08-26T16:12:10",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [
-        {
-          "key": "Build an Apify scrape-creators social-listening integration for the Antigravity system using execution-layer tooling \u2014 budget-aware, ending the underuse of the",
-          "slug": "build-an-apify-scrape-creators-social-listening-integration-for-the-antigravity-system-using-execution-layer-tooling-budget-aware-ending-the-underuse-of-the",
-          "title": "Build an Apify scrape-creators social-listening integration for the Antigravity system usi",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false,
-          "outcome": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: Riley Brown OS /scrape-creator /ad-spy",
-          "verdict": ""
-        },
-        {
-          "key": "Validate Systeme.io as a cold-start affiliate opportunity and design an evidence-backed ICP, funnel, traffic plan, economics model, 20-day execution sprint, and",
-          "slug": "validate-systeme-io-as-a-cold-start-affiliate-opportunity-and-design-an-evidence-backed-icp-funnel-traffic-plan-economics-model-20-day-execution-sprint-and",
-          "title": "Validate Systeme.io as a cold-start affiliate opportunity and design an evidence-backed IC",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false,
-          "outcome": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: Path A lock",
-          "verdict": ""
-        },
-        {
-          "key": "Pinnacle premium offer arc \u2014 creative/content strategy + positioning, execution internalized",
-          "slug": "pinnacle-premium-offer-arc-creative-content-strategy-positioning-execution-internalized",
-          "title": "Pinnacle premium offer arc \u2014 creative/content strategy + positioning, execution internalized",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1",
-          "ts": "2026-07-21T20:51:12",
-          "open": false,
-          "outcome": "PREMIUM-ARC-2026-07-21.md shipped: 4-rung arc (door / 2K pilot / 5-7.5K Full Build / 3-8K retainer), executor screen v2, verified receipts",
-          "verdict": ""
-        },
-        {
-          "key": "I have a messy business idea and need the right execution pa",
-          "slug": "i-have-a-messy-business-idea-and-need-the-right-execution-pa",
-          "title": "I have a messy business idea and need the right execution path",
-          "status": "stopped",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:44:34",
-          "open": false,
-          "outcome": "KILLED (triage 2026-07-29): Codex portable-packet test compile \u2014 log noise, no deliverable ever attached",
-          "verdict": ""
-        }
-      ],
-      "guides": [
-        {
-          "path": "guides/2026-08-21-handoff-execution.md",
-          "name": "2026-08-21-handoff-execution.md",
-          "ts": "2026-08-21T11:23:58"
-        }
-      ],
-      "solutions": [],
-      "outcomes": [],
-      "harnesses": [
-        "codex"
-      ],
-      "promoted": true,
-      "declares": [
-        "handoff status: active"
-      ],
-      "activity": [],
-      "touched": "2026-08-24T21:56:48",
-      "promotion_reasons": [
-        "handoff status: active"
-      ],
-      "killed": false,
-      "stage": "research",
-      "stage_index": 0,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-08-26T16:12:10",
-      "last_active": "2026-08-26T16:12:10"
-    },
-    "02-book-blueprint": {
-      "slug": "02-book-blueprint",
-      "title": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
-      "arena": "",
-      "status": "ready",
-      "resume_hint": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-24-02-book-blueprint.md",
-      "pin": true,
-      "sessions": [
-        {
-          "harness": "codex",
-          "id": "01a034b4-fe4d-7a91-aed3-3c16c59d7a71",
-          "title": "Revenue: First E-book - Validate and Blueprint",
-          "titled": true,
-          "ts": "2026-08-24T17:00:59",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [
-        {
-          "date": "2026-08-24",
-          "output": "Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan",
-          "skill": "sean-dollwet-kdp-publishing",
-          "workflow": "02-book-blueprint",
-          "project": "",
-          "type": "Strategy",
-          "score": 7.0,
-          "status": "Needs Improvement",
-          "expert": "sean-dollwet",
-          "notes": "Hybrid Athlete After 40 selected over scam defense and trend-only alternatives; full drafting gated behind outline and gold chapter | platform: codex | Verification: PARTIAL \u2014 live Amazon and primary KDP policy PASS; direct YouTube extraction blocked by PO-token generation, thesis corroborated throu",
-          "platform": "codex"
-        },
-        {
-          "date": "2026-08-24",
-          "output": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
-          "skill": "sean-dollwet-kdp-publishing",
-          "workflow": "02-book-blueprint",
-          "project": "",
-          "type": "Strategy",
-          "score": 7.33,
-          "status": "Needs Improvement",
-          "expert": "sean-dollwet-kdp-publishing",
-          "notes": "Amazon sample and live prices inspected; KDP policies and older-adult exercise sources verified; AI authorship and pen-name claims remain unconfirmed | platform: codex | Verification: PASS with labeled uncertainty | telemetry: sub_agents_spawned=0",
-          "platform": "codex"
-        }
-      ],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [],
-      "guides": [],
-      "solutions": [],
-      "outcomes": [
-        {
-          "deliverable": "Research-backed decision brief for Farrice's first ebook: select two candidate books, choose one Book One concept, define the outline, war-game failure modes, and stop before product drafting so execu",
-          "workflow": "02-book-blueprint",
-          "skill": "sean-dollwet-kdp-publishing",
-          "revenue": 0,
-          "outcome": "pending tracking"
-        },
-        {
-          "deliverable": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
-          "workflow": "02-book-blueprint",
-          "skill": "sean-dollwet-kdp-publishing",
-          "revenue": 0,
-          "outcome": "pending tracking"
-        }
-      ],
-      "harnesses": [
-        "codex"
-      ],
-      "promoted": true,
-      "declares": [
-        "finalized deliverable",
-        "handoff status: ready"
-      ],
-      "activity": [],
-      "touched": "2026-08-24T13:41:56",
-      "promotion_reasons": [
-        "finalized deliverable",
-        "handoff status: ready"
-      ],
-      "killed": false,
-      "stage": "outcome",
-      "stage_index": 3,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-08-24",
-      "last_active": "2026-08-24T17:00:59"
-    },
-    "go": {
-      "slug": "go",
-      "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
-      "arena": "",
-      "status": "active",
-      "resume_hint": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-07-28-go.md",
+      "handoff": ".agent/handoffs/2026-08-29-listing-content.md",
       "pin": true,
       "sessions": [],
       "deliverables": [
         {
-          "date": "2026-08-20",
-          "output": "Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session filing both harnesses, nightly chain hardened, E2E verified)",
-          "skill": "execution",
-          "workflow": "go",
+          "date": "2026-08-29",
+          "output": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page",
+          "skill": "skills/jen-santulan-listing-content",
+          "workflow": "listing-content",
           "project": "",
-          "type": "System",
-          "score": 7.0,
+          "type": "Content",
+          "score": 6.33,
           "status": "Needs Improvement",
-          "expert": "readout-os",
-          "notes": "Four /go missions in one arc, all verdict-good or pending; every check sabotage-tested both directions; critical save: old nightly destroyed judged synthesis, restore-not-discard proven by md5 survival | Factual Grounding: 9 | Verification: PASS | telemetry: sub_agents_spawned=3",
-          "platform": "claude"
-        },
-        {
-          "date": "2026-08-24",
-          "output": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthrough, pricing rationale) + 50-contact verified outreach list with scripts",
-          "skill": "jen-santulan-listing-content",
-          "workflow": "go",
-          "project": "",
-          "type": "Client Work",
-          "score": 8.33,
-          "status": "Keep",
-          "expert": "mike-sherrard + enrico-incarnati + cardinal-mason + jen-listing-engine",
-          "notes": "Fleet pattern 3/3 spawns as carded; sales-page drop counts reconciled to actual pack; outreach 50/50 rows source-verified, 8 dead-domain candidates dropped not faked; classifier flags judged structural | Factual Grounding: 9 | Verification: PASS | Anchor: golden-ref parity (6853-willis) | telemetry:",
+          "expert": "jen-santulan-listing-content",
+          "notes": "Voice DNA honored: hooks name objection \u22648 words, numbers over adjectives, no manufactured scarcity; fair-housing lint hits confined to don't-say list quoting banned phrases as banned; rubric anchor: golden-ref 6853 Willis hook shape | Factual Grounding: N/A (labeled fictional sample) | Verification",
           "platform": "claude"
         }
       ],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [],
-      "guides": [],
-      "solutions": [],
-      "outcomes": [
-        {
-          "deliverable": "Part-2 Mel Robbins x Godin expansion of seth-godin-marketing-mind: gap-diff extraction (6 new patterns 13-18, 4 new anti-patterns incl. the merely-ship-it correction), new workflow 15-pick-yourself + ",
-          "workflow": "go",
-          "skill": "seth-godin-marketing-mind",
-          "revenue": 0,
-          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
-        },
-        {
-          "deliverable": "Zero-base fast-cash opportunity portfolio and Client-Ready Release Desk paid-test decision",
-          "workflow": "go",
-          "skill": "alex-hormozi",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "PROOF-TO-MARKET-OS.md \u2014 Path A canonical offer fusion (messaging leads, AI-Search Shadow module, claim-safe wedge, 25-day clock, teardown rule)",
-          "workflow": "go",
-          "skill": "april-dunford-positioning",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "Proof-to-Market contact kit \u2014 profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), first 3 posts + 3 DM scripts",
-          "workflow": "go",
-          "skill": "lara-acosta-linkedin-mastery",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "Premium Arc \u2014 Pinnacle Offer Architecture (swarm research + market receipts + executor ICP integration + ladder logic + moat positioning + momentum steps)",
-          "workflow": "go",
-          "skill": "leadership-cli",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "Premium Arc offer architecture \u2014 pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps",
-          "workflow": "go",
-          "skill": "linkedin-launch/02-offer",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthrough, pricing rationale) + 50-contact verif",
-          "workflow": "go",
-          "skill": "jen-santulan-listing-content",
-          "revenue": 0,
-          "outcome": "pending tracking"
-        }
-      ],
-      "harnesses": [
-        "claude"
-      ],
-      "promoted": true,
-      "declares": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "activity": [],
-      "touched": "2026-07-28T16:40:47",
-      "promotion_reasons": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "killed": false,
-      "stage": "outcome",
-      "stage_index": 3,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-08-20",
-      "last_active": "2026-08-24"
-    },
-    "offer-redteam": {
-      "slug": "offer-redteam",
-      "title": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
-      "arena": "",
-      "status": "active",
-      "resume_hint": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-24-offer-redteam.md",
-      "pin": true,
-      "sessions": [],
-      "deliverables": [
-        {
-          "date": "2026-08-24",
-          "output": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
-          "skill": "mark-kashef-wargame-os",
-          "workflow": "offer-redteam",
-          "project": "",
-          "type": "Strategy",
-          "score": 9.0,
-          "status": "Keep",
-          "expert": "kashef-wargame + hormozi/fladlien-frame",
-          "notes": "All 3 agents blind, both advocates conceded (gate passed); convergence from opposite postures = high signal; evidence found the one live comparable (,100 Concierge) AND the killing counter-anchor (/listing) | Factual Grounding: 9 | Verification: PASS | Anchor: adversarial-convergence (blind-agent ag",
-          "platform": "claude"
-        }
-      ],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [
-        {
-          "key": "realtor-pack-offer-redteam",
-          "slug": "realtor-pack-offer-redteam",
-          "title": "Red-team the Listing Launch Install offer",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1",
-          "ts": "2026-08-24T21:23:18",
-          "open": false,
-          "outcome": "MODIFY: agencies out of cohort 1, right-to-publish term, GCI-relative pricing, license month-4, funnel recalibrated to benchmarks, 3 stale artifacts flagged as send-blockers",
-          "verdict": ""
-        }
-      ],
-      "guides": [],
-      "solutions": [],
-      "outcomes": [
-        {
-          "deliverable": "Three-offer market stress test (GEO/creative-strategy/exec-ghostwriting) + Signal Pilot blind red-team + permanent offer-truth loop (offer_gate.py + /offer-redteam workflow, PoC-proven in-session)",
-          "workflow": "offer-redteam",
-          "skill": "chief-of-staff-os",
-          "revenue": 0,
-          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
-        },
-        {
-          "deliverable": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
-          "workflow": "offer-redteam",
-          "skill": "mark-kashef-wargame-os",
-          "revenue": 0,
-          "outcome": "pending tracking"
-        }
-      ],
-      "harnesses": [
-        "claude"
-      ],
-      "promoted": true,
-      "declares": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "activity": [],
-      "touched": "2026-08-24T21:23:17",
-      "promotion_reasons": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "killed": false,
-      "stage": "outcome",
-      "stage_index": 3,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-08-24",
-      "last_active": "2026-08-24"
-    },
-    "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1": {
-      "slug": "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
-      "title": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 ",
-      "arena": "products",
-      "status": "",
-      "resume_hint": "",
-      "unfinished": "",
-      "branch": "",
-      "handoff": "",
-      "pin": false,
-      "sessions": [
-        {
-          "harness": "claude",
-          "id": "deffada7-d28f-4edb-84e1-15973805c611",
-          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-14-ai-consulting-linkedin-signals.json. This is the scheduled",
-          "titled": false,
-          "ts": "2026-08-14T14:19:44",
-          "messages": 3,
-          "branch": "main",
-          "project": "-Users-farricecain-Google-Antigravity",
-          "sidechain": false
-        },
-        {
-          "harness": "claude",
-          "id": "fee914e9-1518-47a5-8b64-019c01383e8e",
-          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-15-ai-consulting-linkedin-signals.json /Users/farricecain/Goo",
-          "titled": false,
-          "ts": "2026-08-15T14:20:39",
-          "messages": 5,
-          "branch": "main",
-          "project": "-Users-farricecain-Google-Antigravity",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [],
       "artifacts": [
         {
-          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/02-reel-scripts.md",
-          "ts": "2026-08-24T15:10:46"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
+          "ts": "2026-08-27T10:17:44"
         },
         {
-          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/03-captions.md",
-          "ts": "2026-08-24T15:14:28"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
+          "ts": "2026-08-27T10:18:02"
         },
         {
-          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/04-emails.md",
-          "ts": "2026-08-24T15:11:59"
+          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
+          "ts": "2026-08-27T10:17:07"
         },
         {
-          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/05-faceless-video-scripts.md",
-          "ts": "2026-08-24T15:12:25"
-        },
-        {
-          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/06-FLAGSHIP-listing-launch-system.md",
-          "ts": "2026-08-24T15:14:32"
-        },
-        {
-          "path": "_active/products/realtor-content-pack/05-outreach/01-contact-list.csv",
-          "ts": "2026-08-24T15:24:02"
-        },
-        {
-          "path": "_active/products/realtor-content-pack/05-outreach/02-list-notes.md",
-          "ts": "2026-08-24T15:24:29"
-        },
-        {
-          "path": "_active/products/realtor-content-pack/05-outreach/03-outreach-scripts.md",
-          "ts": "2026-08-24T15:25:26"
-        },
-        {
-          "path": "_active/products/realtor-content-pack/OFFER.md",
-          "ts": "2026-08-26T00:19:09"
+          "path": "_active/farrice-brand/content/vault/INDEX.md",
+          "ts": "2026-08-28T12:01:55"
         }
       ],
       "assets": [],
       "commits": [],
-      "missions": [
-        {
-          "key": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1",
-          "slug": "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
-          "title": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 ",
-          "status": "compiled",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1 auto",
-          "ts": "2026-08-24T15:06:53",
-          "open": true,
-          "outcome": "",
-          "verdict": ""
-        }
-      ],
+      "missions": [],
       "guides": [],
       "solutions": [],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "deliverable": "Listing content package for 5421 Bothwell Rd Tarzana \u2014 MLS description + brochure + 6 Reels hooks + 75s walkthrough script + filming roadmap. ICP adapted from FTHB to luxury Move-Up Family Permission ",
+          "workflow": "listing-content",
+          "skill": "jen-santulan-listing-content",
+          "revenue": 0,
+          "outcome": "amnesty 2026-07-02: archived without outcome data (Farrice decision, system audit \u2014 fresh start; check-in dates enforced going forward)"
+        },
+        {
+          "deliverable": "Jen Santulan \u2014 5421 Bothwell Rd, Tarzana Luxury Property Listing Package (Complete: MLS Description + Brochure Copy + 6 Reels Hooks + 75s Walkthrough Script + Filming Roadmap)",
+          "workflow": "listing-content",
+          "skill": "jen-santulan-listing-content",
+          "revenue": 0,
+          "outcome": "amnesty 2026-07-02: archived without outcome data (Farrice decision, system audit \u2014 fresh start; check-in dates enforced going forward)"
+        }
+      ],
       "harnesses": [
         "claude"
       ],
       "promoted": true,
       "declares": [
-        "open mission"
+        "finalized deliverable",
+        "handoff status: active"
       ],
       "activity": [
         "artifact written"
       ],
+      "touched": "2026-08-29T06:43:50",
       "promotion_reasons": [
-        "open mission",
+        "finalized deliverable",
+        "handoff status: active",
         "artifact written"
       ],
       "killed": false,
-      "stage": "build",
-      "stage_index": 1,
+      "stage": "outcome",
+      "stage_index": 3,
       "daily": {
         "sessions": [
-          1,
-          1,
+          0,
+          0,
           0,
           0,
           0,
@@ -12004,8 +12324,8 @@
           0,
           0,
           0,
-          8,
           0,
+          3,
           1,
           0
         ],
@@ -12026,8 +12346,8 @@
           0
         ]
       },
-      "first_seen": "2026-08-14T14:19:44",
-      "last_active": "2026-08-15T14:20:39"
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29"
     },
     "extract-forge": {
       "slug": "extract-forge",
@@ -12052,7 +12372,21 @@
           "sidechain": false
         }
       ],
-      "deliverables": [],
+      "deliverables": [
+        {
+          "date": "2026-08-29",
+          "output": "Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, editorial design contract, carousel grammar); AGENT-INTAKE.md two-part bespoke branding form; offer brief wired to both",
+          "skill": "skills/mike-sherrard-realtor-branding",
+          "workflow": "extract-forge",
+          "project": "",
+          "type": "Extraction",
+          "score": 6.0,
+          "status": "Needs Improvement",
+          "expert": "mike-sherrard",
+          "notes": "Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) and output grammar (frame_0106); recency 2026 source; extend-not-rebuild: added to existing v2.0 skill | Factual Grounding: 9 | Verification: PASS | telemetry: sub_agents_spawned=0",
+          "platform": "claude"
+        }
+      ],
       "artifacts": [],
       "assets": [],
       "commits": [],
@@ -12360,15 +12694,18 @@
         }
       ],
       "harnesses": [
+        "claude",
         "codex"
       ],
       "promoted": true,
       "declares": [
+        "finalized deliverable",
         "handoff status: ready"
       ],
       "activity": [],
       "touched": "2026-08-06T18:55:06",
       "promotion_reasons": [
+        "finalized deliverable",
         "handoff status: ready"
       ],
       "killed": false,
@@ -12378,9 +12715,9 @@
         "sessions": [
           0,
           0,
-          0,
-          0,
           1,
+          0,
+          0,
           0,
           0,
           0,
@@ -12425,68 +12762,114 @@
         ]
       },
       "first_seen": "2026-08-18T13:34:12",
-      "last_active": "2026-08-18T13:34:12"
+      "last_active": "2026-08-29"
     },
-    "geo-content": {
-      "slug": "geo-content",
-      "title": "Revenue: Claim Check Funnel - Ready to Launch",
-      "arena": "farrice-brand",
-      "status": "ready",
-      "resume_hint": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
+    "first-10k": {
+      "slug": "first-10k",
+      "title": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "Madison paid-engagement iMessage reply grounded in the full direct thread",
       "unfinished": "",
       "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-16-geo-content.md",
+      "handoff": ".agent/handoffs/2026-08-29-first-10k.md",
       "pin": true,
       "sessions": [],
-      "deliverables": [],
-      "artifacts": [
+      "deliverables": [
         {
-          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-post.md",
-          "ts": "2026-08-27T10:17:44"
+          "date": "2026-08-29",
+          "output": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+          "skill": "anti-slop",
+          "workflow": "first-10k",
+          "project": "",
+          "type": "Content",
+          "score": 7.33,
+          "status": "Needs Improvement",
+          "expert": "first-10k",
+          "notes": "Warm friend register with explicit fixed-fee pilot, investor-readiness relevance, and permission-based case study | platform: codex | Verification: PASS \u2014 full 501-message thread reviewed; prose CLEAN 0/10; finish gate CLEAN; grounding PASS | telemetry: sub_agents_spawned=0",
+          "platform": "codex"
         },
         {
-          "path": "_active/farrice-brand/content/vault/2026-08-27-claim-with-a-clock-proof-chain-2.md",
-          "ts": "2026-08-27T10:18:02"
-        },
-        {
-          "path": "_active/farrice-brand/content/vault/2026-08-27-two-tubs-video.md",
-          "ts": "2026-08-27T10:17:07"
-        },
-        {
-          "path": "_active/farrice-brand/content/vault/INDEX.md",
-          "ts": "2026-08-27T10:17:13"
+          "date": "2026-08-29",
+          "output": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+          "skill": "anti-slop",
+          "workflow": "first-10k",
+          "project": "",
+          "type": "Content",
+          "score": 9.0,
+          "status": "Keep",
+          "expert": "first-10k",
+          "notes": "Retried intent-alignment receipt after the initial score mapping understated a fully specified 5-of-5 intent. Warm friend register, explicit fixed-fee pilot, bounded scope, investor-readiness relevance, permission-based case study, and no send action | platform: codex | Verification: PASS \u2014 full 501",
+          "platform": "codex"
         }
       ],
+      "artifacts": [],
       "assets": [],
       "commits": [],
       "missions": [],
-      "guides": [
+      "guides": [],
+      "solutions": [],
+      "outcomes": [
         {
-          "path": "guides/2026-08-16-geo-content.md",
-          "name": "2026-08-16-geo-content.md",
-          "ts": "2026-08-16T07:16:28"
+          "deliverable": "Revised research verdict with one commercial decision, explicit two-clock boundaries, ranked options, current primary-source support, uncertainty labels, a seven-day cash target, a 30-day validation t",
+          "workflow": "first-10k",
+          "skill": "alex-hormozi-business",
+          "revenue": 0,
+          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
+        },
+        {
+          "deliverable": "AI revenue opportunity reality check and one recommended productized service with a fourteen-day paid validation plan",
+          "workflow": "first-10k",
+          "skill": "business-intelligence-audit",
+          "revenue": 0,
+          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
+        },
+        {
+          "deliverable": "Delivered a direct answer to Farrice's urgent request: recovered 25 ideas he actually developed, ranked each in a compact table by immediate-cash importance and long-term fit, refreshed the relevant 2",
+          "workflow": "first-10k",
+          "skill": "business-intelligence-audit",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Angle Map is the primary zero-start Campaign For; AI consulting is parked until one bounded offer and buyer universe are selected. Activation stops before outreach.",
+          "workflow": "first-10k",
+          "skill": "daniel-priestley-marketing-playground",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        },
+        {
+          "deliverable": "Commercial portfolio playbook: Angle Map primary, AI Native Employee closed proof lane, Agent God internal",
+          "workflow": "first-10k",
+          "skill": "daniel-priestley-marketing-playground",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        },
+        {
+          "deliverable": "Madison paid-engagement iMessage reply grounded in the full direct thread",
+          "workflow": "first-10k",
+          "skill": "anti-slop",
+          "revenue": 0,
+          "outcome": "pending tracking"
         }
       ],
-      "solutions": [],
-      "outcomes": [],
       "harnesses": [
         "codex"
       ],
       "promoted": true,
       "declares": [
-        "handoff status: ready"
+        "finalized deliverable",
+        "handoff status: active"
       ],
-      "activity": [
-        "artifact written"
-      ],
-      "touched": "2026-08-16T07:18:07",
+      "activity": [],
+      "touched": "2026-08-29T07:17:59",
       "promotion_reasons": [
-        "handoff status: ready",
-        "artifact written"
+        "finalized deliverable",
+        "handoff status: active"
       ],
       "killed": false,
-      "stage": "build",
-      "stage_index": 1,
+      "stage": "outcome",
+      "stage_index": 3,
       "daily": {
         "sessions": [
           0,
@@ -12518,7 +12901,7 @@
           0,
           0,
           0,
-          4
+          0
         ],
         "assets": [
           0,
@@ -12537,8 +12920,797 @@
           0
         ]
       },
-      "first_seen": "",
-      "last_active": ""
+      "first_seen": "2026-08-29",
+      "last_active": "2026-08-29"
+    },
+    "execution": {
+      "slug": "execution",
+      "title": "Handoff \u2014 System Health Audit + Repair (2026-08-24)",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-08-24-execution.md",
+      "pin": false,
+      "sessions": [
+        {
+          "harness": "codex",
+          "id": "01a0370d-7118-7560-9f98-0a325b1fd978",
+          "title": "Revenue: Creative Sprint Execution - Competence OS",
+          "titled": true,
+          "ts": "2026-08-26T16:12:10",
+          "messages": 0,
+          "branch": "",
+          "project": "codex",
+          "sidechain": false
+        }
+      ],
+      "deliverables": [],
+      "artifacts": [],
+      "assets": [],
+      "commits": [],
+      "missions": [
+        {
+          "key": "Build an Apify scrape-creators social-listening integration for the Antigravity system using execution-layer tooling \u2014 budget-aware, ending the underuse of the",
+          "slug": "build-an-apify-scrape-creators-social-listening-integration-for-the-antigravity-system-using-execution-layer-tooling-budget-aware-ending-the-underuse-of-the",
+          "title": "Build an Apify scrape-creators social-listening integration for the Antigravity system usi",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false,
+          "outcome": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: Riley Brown OS /scrape-creator /ad-spy",
+          "verdict": ""
+        },
+        {
+          "key": "Validate Systeme.io as a cold-start affiliate opportunity and design an evidence-backed ICP, funnel, traffic plan, economics model, 20-day execution sprint, and",
+          "slug": "validate-systeme-io-as-a-cold-start-affiliate-opportunity-and-design-an-evidence-backed-icp-funnel-traffic-plan-economics-model-20-day-execution-sprint-and",
+          "title": "Validate Systeme.io as a cold-start affiliate opportunity and design an evidence-backed IC",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false,
+          "outcome": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: Path A lock",
+          "verdict": ""
+        },
+        {
+          "key": "Pinnacle premium offer arc \u2014 creative/content strategy + positioning, execution internalized",
+          "slug": "pinnacle-premium-offer-arc-creative-content-strategy-positioning-execution-internalized",
+          "title": "Pinnacle premium offer arc \u2014 creative/content strategy + positioning, execution internalized",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1",
+          "ts": "2026-07-21T20:51:12",
+          "open": false,
+          "outcome": "PREMIUM-ARC-2026-07-21.md shipped: 4-rung arc (door / 2K pilot / 5-7.5K Full Build / 3-8K retainer), executor screen v2, verified receipts",
+          "verdict": ""
+        },
+        {
+          "key": "I have a messy business idea and need the right execution pa",
+          "slug": "i-have-a-messy-business-idea-and-need-the-right-execution-pa",
+          "title": "I have a messy business idea and need the right execution path",
+          "status": "stopped",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:44:34",
+          "open": false,
+          "outcome": "KILLED (triage 2026-07-29): Codex portable-packet test compile \u2014 log noise, no deliverable ever attached",
+          "verdict": ""
+        }
+      ],
+      "guides": [
+        {
+          "path": "guides/2026-08-21-handoff-execution.md",
+          "name": "2026-08-21-handoff-execution.md",
+          "ts": "2026-08-21T11:23:58"
+        }
+      ],
+      "solutions": [],
+      "outcomes": [],
+      "harnesses": [
+        "codex"
+      ],
+      "promoted": true,
+      "declares": [
+        "handoff status: active"
+      ],
+      "activity": [],
+      "touched": "2026-08-24T21:56:48",
+      "promotion_reasons": [
+        "handoff status: active"
+      ],
+      "killed": false,
+      "stage": "research",
+      "stage_index": 0,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-26T16:12:10",
+      "last_active": "2026-08-26T16:12:10"
+    },
+    "02-book-blueprint": {
+      "slug": "02-book-blueprint",
+      "title": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
+      "arena": "",
+      "status": "ready",
+      "resume_hint": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-08-24-02-book-blueprint.md",
+      "pin": true,
+      "sessions": [
+        {
+          "harness": "codex",
+          "id": "01a034b4-fe4d-7a91-aed3-3c16c59d7a71",
+          "title": "Revenue: First E-book - Validate and Blueprint",
+          "titled": true,
+          "ts": "2026-08-24T17:00:59",
+          "messages": 0,
+          "branch": "",
+          "project": "codex",
+          "sidechain": false
+        }
+      ],
+      "deliverables": [
+        {
+          "date": "2026-08-24",
+          "output": "Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan",
+          "skill": "sean-dollwet-kdp-publishing",
+          "workflow": "02-book-blueprint",
+          "project": "",
+          "type": "Strategy",
+          "score": 7.0,
+          "status": "Needs Improvement",
+          "expert": "sean-dollwet",
+          "notes": "Hybrid Athlete After 40 selected over scam defense and trend-only alternatives; full drafting gated behind outline and gold chapter | platform: codex | Verification: PARTIAL \u2014 live Amazon and primary KDP policy PASS; direct YouTube extraction blocked by PO-token generation, thesis corroborated throu",
+          "platform": "codex"
+        },
+        {
+          "date": "2026-08-24",
+          "output": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
+          "skill": "sean-dollwet-kdp-publishing",
+          "workflow": "02-book-blueprint",
+          "project": "",
+          "type": "Strategy",
+          "score": 7.33,
+          "status": "Needs Improvement",
+          "expert": "sean-dollwet-kdp-publishing",
+          "notes": "Amazon sample and live prices inspected; KDP policies and older-adult exercise sources verified; AI authorship and pen-name claims remain unconfirmed | platform: codex | Verification: PASS with labeled uncertainty | telemetry: sub_agents_spawned=0",
+          "platform": "codex"
+        }
+      ],
+      "artifacts": [],
+      "assets": [],
+      "commits": [],
+      "missions": [],
+      "guides": [],
+      "solutions": [],
+      "outcomes": [
+        {
+          "deliverable": "Research-backed decision brief for Farrice's first ebook: select two candidate books, choose one Book One concept, define the outline, war-game failure modes, and stop before product drafting so execu",
+          "workflow": "02-book-blueprint",
+          "skill": "sean-dollwet-kdp-publishing",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        },
+        {
+          "deliverable": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
+          "workflow": "02-book-blueprint",
+          "skill": "sean-dollwet-kdp-publishing",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        }
+      ],
+      "harnesses": [
+        "codex"
+      ],
+      "promoted": true,
+      "declares": [
+        "finalized deliverable",
+        "handoff status: ready"
+      ],
+      "activity": [],
+      "touched": "2026-08-24T13:41:56",
+      "promotion_reasons": [
+        "finalized deliverable",
+        "handoff status: ready"
+      ],
+      "killed": false,
+      "stage": "outcome",
+      "stage_index": 3,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-24",
+      "last_active": "2026-08-24T17:00:59"
+    },
+    "go": {
+      "slug": "go",
+      "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-07-28-go.md",
+      "pin": true,
+      "sessions": [],
+      "deliverables": [
+        {
+          "date": "2026-08-20",
+          "output": "Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session filing both harnesses, nightly chain hardened, E2E verified)",
+          "skill": "execution",
+          "workflow": "go",
+          "project": "",
+          "type": "System",
+          "score": 7.0,
+          "status": "Needs Improvement",
+          "expert": "readout-os",
+          "notes": "Four /go missions in one arc, all verdict-good or pending; every check sabotage-tested both directions; critical save: old nightly destroyed judged synthesis, restore-not-discard proven by md5 survival | Factual Grounding: 9 | Verification: PASS | telemetry: sub_agents_spawned=3",
+          "platform": "claude"
+        },
+        {
+          "date": "2026-08-24",
+          "output": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthrough, pricing rationale) + 50-contact verified outreach list with scripts",
+          "skill": "jen-santulan-listing-content",
+          "workflow": "go",
+          "project": "",
+          "type": "Client Work",
+          "score": 8.33,
+          "status": "Keep",
+          "expert": "mike-sherrard + enrico-incarnati + cardinal-mason + jen-listing-engine",
+          "notes": "Fleet pattern 3/3 spawns as carded; sales-page drop counts reconciled to actual pack; outreach 50/50 rows source-verified, 8 dead-domain candidates dropped not faked; classifier flags judged structural | Factual Grounding: 9 | Verification: PASS | Anchor: golden-ref parity (6853-willis) | telemetry:",
+          "platform": "claude"
+        }
+      ],
+      "artifacts": [],
+      "assets": [],
+      "commits": [],
+      "missions": [],
+      "guides": [],
+      "solutions": [],
+      "outcomes": [
+        {
+          "deliverable": "Part-2 Mel Robbins x Godin expansion of seth-godin-marketing-mind: gap-diff extraction (6 new patterns 13-18, 4 new anti-patterns incl. the merely-ship-it correction), new workflow 15-pick-yourself + ",
+          "workflow": "go",
+          "skill": "seth-godin-marketing-mind",
+          "revenue": 0,
+          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
+        },
+        {
+          "deliverable": "Zero-base fast-cash opportunity portfolio and Client-Ready Release Desk paid-test decision",
+          "workflow": "go",
+          "skill": "alex-hormozi",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "PROOF-TO-MARKET-OS.md \u2014 Path A canonical offer fusion (messaging leads, AI-Search Shadow module, claim-safe wedge, 25-day clock, teardown rule)",
+          "workflow": "go",
+          "skill": "april-dunford-positioning",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Proof-to-Market contact kit \u2014 profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), first 3 posts + 3 DM scripts",
+          "workflow": "go",
+          "skill": "lara-acosta-linkedin-mastery",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Premium Arc \u2014 Pinnacle Offer Architecture (swarm research + market receipts + executor ICP integration + ladder logic + moat positioning + momentum steps)",
+          "workflow": "go",
+          "skill": "leadership-cli",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Premium Arc offer architecture \u2014 pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps",
+          "workflow": "go",
+          "skill": "linkedin-launch/02-offer",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthrough, pricing rationale) + 50-contact verif",
+          "workflow": "go",
+          "skill": "jen-santulan-listing-content",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        }
+      ],
+      "harnesses": [
+        "claude"
+      ],
+      "promoted": true,
+      "declares": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "activity": [],
+      "touched": "2026-07-28T16:40:47",
+      "promotion_reasons": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "killed": false,
+      "stage": "outcome",
+      "stage_index": 3,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-20",
+      "last_active": "2026-08-24"
+    },
+    "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1": {
+      "slug": "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
+      "title": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 ",
+      "arena": "products",
+      "status": "",
+      "resume_hint": "",
+      "unfinished": "",
+      "branch": "",
+      "handoff": "",
+      "pin": false,
+      "sessions": [
+        {
+          "harness": "claude",
+          "id": "9512649c-6b61-4ae7-a2c6-5251847a7562",
+          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-26-ai-consulting-linkedin-signals.json. This is the scheduled",
+          "titled": false,
+          "ts": "2026-08-26T13:23:04",
+          "messages": 2,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        },
+        {
+          "harness": "claude",
+          "id": "a73f3135-2637-400b-ae5a-83877a65ae4e",
+          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-25-ai-consulting-linkedin-signals.json. This is the scheduled",
+          "titled": false,
+          "ts": "2026-08-25T13:23:35",
+          "messages": 2,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        },
+        {
+          "harness": "claude",
+          "id": "bfd58639-05d3-4296-9119-a628f89ceb58",
+          "title": "Ignite realtor content-pack subscription",
+          "titled": true,
+          "ts": "2026-08-25T04:23:49",
+          "messages": 31,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        },
+        {
+          "harness": "claude",
+          "id": "e5d05bdd-78a5-46f7-a2c6-326b93b5173f",
+          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-27-ai-consulting-linkedin-signals.json /Users/farricecain/Goo",
+          "titled": false,
+          "ts": "2026-08-27T13:28:57",
+          "messages": 2,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        },
+        {
+          "harness": "claude",
+          "id": "f53da43a-808c-4e53-8d0c-ab6188ac61bf",
+          "title": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-24-ai-consulting-linkedin-signals.json /Users/farricecain/Goo",
+          "titled": false,
+          "ts": "2026-08-24T14:07:57",
+          "messages": 2,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        }
+      ],
+      "deliverables": [],
+      "artifacts": [
+        {
+          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/02-reel-scripts.md",
+          "ts": "2026-08-24T15:10:46"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/03-captions.md",
+          "ts": "2026-08-24T15:14:28"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/04-emails.md",
+          "ts": "2026-08-24T15:11:59"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/05-faceless-video-scripts.md",
+          "ts": "2026-08-24T15:12:25"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/04-deliverables/month-01-pack/06-FLAGSHIP-listing-launch-system.md",
+          "ts": "2026-08-24T15:14:32"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/05-outreach/01-contact-list.csv",
+          "ts": "2026-08-24T15:24:02"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/05-outreach/02-list-notes.md",
+          "ts": "2026-08-24T15:24:29"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/05-outreach/03-outreach-scripts.md",
+          "ts": "2026-08-24T15:25:26"
+        },
+        {
+          "path": "_active/products/realtor-content-pack/OFFER.md",
+          "ts": "2026-08-26T00:19:09"
+        }
+      ],
+      "assets": [],
+      "commits": [],
+      "missions": [
+        {
+          "key": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1",
+          "slug": "ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
+          "title": "ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 ",
+          "status": "compiled",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1 auto",
+          "ts": "2026-08-24T15:06:53",
+          "open": true,
+          "outcome": "",
+          "verdict": ""
+        }
+      ],
+      "guides": [],
+      "solutions": [],
+      "outcomes": [],
+      "harnesses": [
+        "claude"
+      ],
+      "promoted": true,
+      "declares": [
+        "open mission"
+      ],
+      "activity": [
+        "artifact written"
+      ],
+      "promotion_reasons": [
+        "open mission",
+        "artifact written"
+      ],
+      "killed": false,
+      "stage": "build",
+      "stage_index": 1,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-24T14:07:57",
+      "last_active": "2026-08-27T13:28:57"
+    },
+    "offer-redteam": {
+      "slug": "offer-redteam",
+      "title": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-08-24-offer-redteam.md",
+      "pin": true,
+      "sessions": [],
+      "deliverables": [
+        {
+          "date": "2026-08-24",
+          "output": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
+          "skill": "mark-kashef-wargame-os",
+          "workflow": "offer-redteam",
+          "project": "",
+          "type": "Strategy",
+          "score": 9.0,
+          "status": "Keep",
+          "expert": "kashef-wargame + hormozi/fladlien-frame",
+          "notes": "All 3 agents blind, both advocates conceded (gate passed); convergence from opposite postures = high signal; evidence found the one live comparable (,100 Concierge) AND the killing counter-anchor (/listing) | Factual Grounding: 9 | Verification: PASS | Anchor: adversarial-convergence (blind-agent ag",
+          "platform": "claude"
+        }
+      ],
+      "artifacts": [],
+      "assets": [],
+      "commits": [],
+      "missions": [
+        {
+          "key": "realtor-pack-offer-redteam",
+          "slug": "realtor-pack-offer-redteam",
+          "title": "Red-team the Listing Launch Install offer",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1",
+          "ts": "2026-08-24T21:23:18",
+          "open": false,
+          "outcome": "MODIFY: agencies out of cohort 1, right-to-publish term, GCI-relative pricing, license month-4, funnel recalibrated to benchmarks, 3 stale artifacts flagged as send-blockers",
+          "verdict": ""
+        }
+      ],
+      "guides": [],
+      "solutions": [],
+      "outcomes": [
+        {
+          "deliverable": "Three-offer market stress test (GEO/creative-strategy/exec-ghostwriting) + Signal Pilot blind red-team + permanent offer-truth loop (offer_gate.py + /offer-redteam workflow, PoC-proven in-session)",
+          "workflow": "offer-redteam",
+          "skill": "chief-of-staff-os",
+          "revenue": 0,
+          "outcome": "parked: superseded by Aug 17-23 direction, not pursuing"
+        },
+        {
+          "deliverable": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card written",
+          "workflow": "offer-redteam",
+          "skill": "mark-kashef-wargame-os",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        }
+      ],
+      "harnesses": [
+        "claude"
+      ],
+      "promoted": true,
+      "declares": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "activity": [],
+      "touched": "2026-08-24T21:23:17",
+      "promotion_reasons": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "killed": false,
+      "stage": "outcome",
+      "stage_index": 3,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-24",
+      "last_active": "2026-08-24"
     },
     "writers-room": {
       "slug": "writers-room",
@@ -12684,125 +13856,51 @@
       },
       "first_seen": "",
       "last_active": ""
-    },
-    "mission": {
-      "slug": "mission",
-      "title": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. This directly answers the raw-intent-bridge + source-command-mission request and the attached high-depth swarm brief: it includes a cultural research dossier; cultural distance map; 56-entry visual reference board with source links and rights posture; fashion and silhouette direction; brand positioning and messaging; first product/capsule architecture; cultural safety, legal, trademark, copyright, publicity, and IP risk map; lawyer consult agenda; cultural-review questions; validation plan; 90-day roadmap; and Mission composition ledger. It preserves Eightward as lead, treats The Eighth House as backup/capsule only, retires Airstep unless counsel clears it, centers Lindy Hop as Black American social dance history, keeps joke shirts as a satellite line, and gives Josh a concrete private-testing path before legal clearance, paid cultural review, or public launch. Verification passed: export_format_guard; copy-ban scan had no hits; artifact_router classified the file as canonical client deliverable; mission_control validate PASS; intent_memory verify PASS; system_cohesion_state verify PASS; artifact has 13 sections, 56 source/reference rows, and 74 source links.",
-      "arena": "",
-      "status": "active",
-      "resume_hint": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. This directly answers the raw-intent-bridge + source-command-mission request and the attached high-depth swarm brief: it includes a cultural research dossier; cultural distance map; 56-entry visual reference board with source links and rights posture; fashion and silhouette direction; brand positioning and messaging; first product/capsule architecture; cultural safety, legal, trademark, copyright, publicity, and IP risk map; lawyer consult agenda; cultural-review questions; validation plan; 90-day roadmap; and Mission composition ledger. It preserves Eightward as lead, treats The Eighth House as backup/capsule only, retires Airstep unless counsel clears it, centers Lindy Hop as Black American social dance history, keeps joke shirts as a satellite line, and gives Josh a concrete private-testing path before legal clearance, paid cultural review, or public launch. Verification passed: export_format_guard; copy-ban scan had no hits; artifact_router classified the file as canonical client deliverable; mission_control validate PASS; intent_memory verify PASS; system_cohesion_state verify PASS; artifact has 13 sections, 56 source/reference rows, and 74 source links.",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-07-03-mission.md",
-      "pin": true,
-      "sessions": [],
-      "deliverables": [],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [
-        {
-          "key": "Maestro stress test \u2014 3 live Mission Cards",
-          "slug": "maestro-stress-test-3-live-mission-cards",
-          "title": "Maestro stress test \u2014 3 live Mission Cards",
-          "status": "done",
-          "serves": "system-leverage",
-          "tier": "T1",
-          "ts": "2026-07-13T16:20:00",
-          "open": false,
-          "outcome": "cards compiled; binding conflict correctly surfaced on card 2",
-          "verdict": ""
-        },
-        {
-          "key": "Research and rank an evidence-backed digital-product opportunity map for Farrice's zero-capital 20-day revenue mission using business intelligence and adversari",
-          "slug": "research-and-rank-an-evidence-backed-digital-product-opportunity-map-for-farrice-s-zero-capital-20-day-revenue-mission-using-business-intelligence-and-adversari",
-          "title": "Research and rank an evidence-backed digital-product opportunity map for Farrice's zero-ca",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false,
-          "outcome": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: offer canon locked",
-          "verdict": ""
-        }
-      ],
-      "guides": [],
-      "solutions": [
-        {
-          "path": "docs/solutions/2026-07-21-mission-card-refusal-net-masking.md",
-          "name": "2026-07-21-mission-card-refusal-net-masking.md",
-          "ts": "2026-08-21T11:37:58"
-        }
-      ],
-      "outcomes": [],
-      "harnesses": [],
-      "promoted": true,
-      "declares": [
-        "handoff status: active"
-      ],
-      "activity": [],
-      "touched": "2026-08-07T10:05:19",
-      "promotion_reasons": [
-        "handoff status: active"
-      ],
-      "killed": false,
-      "stage": "research",
-      "stage_index": 0,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "",
-      "last_active": ""
     }
   },
   "also_shipped": [
+    {
+      "thread": "landing-page",
+      "date": "2026-08-29",
+      "output": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones",
+      "workflow": "landing-page",
+      "type": "Content"
+    },
+    {
+      "thread": "offer-packaging",
+      "date": "2026-08-29",
+      "output": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
+      "workflow": "offer-packaging",
+      "type": "Strategy"
+    },
+    {
+      "thread": "website-wireframe-generator",
+      "date": "2026-08-29",
+      "output": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
+      "workflow": "website-wireframe-generator",
+      "type": "Client Work"
+    },
+    {
+      "thread": "website-wireframe-generator",
+      "date": "2026-08-29",
+      "output": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
+      "workflow": "website-wireframe-generator",
+      "type": "Client Work"
+    },
+    {
+      "thread": "watch-and-extract",
+      "date": "2026-08-29",
+      "output": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
+      "workflow": "watch-and-extract",
+      "type": "Extraction"
+    },
+    {
+      "thread": "system-audit",
+      "date": "2026-08-28",
+      "output": "Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship",
+      "workflow": "system-audit",
+      "type": "System"
+    },
     {
       "thread": "deep-research",
       "date": "2026-08-26",
@@ -12826,11 +13924,15 @@
     }
   ],
   "overflow": [
-    "health-performance-ip-library",
-    "deep-research",
+    "mission",
     "extract-virtuoso-mastery",
-    "deliverables",
+    "landing-page",
+    "offer-packaging",
+    "system-audit",
+    "deep-research",
+    "health-performance-ip-library",
     "angle-map-listening-engine-v4-1",
+    "deliverables",
     "guides",
     "teardown-1-fresh",
     "global-org-sweep",
@@ -12841,32 +13943,41 @@
     "codex-parity",
     "novelty-campaign",
     "cos-daily",
+    "coach-cooz",
+    "harvest-daniel-s-two-supplied-youtube-videos-plus-up-to-10-additional-relevant-videos-into-a-source-grounded-deployable-entrepreneurship-and-marketing-capabili",
+    "draft-a-concise-imessage-reply-to-madison-after-reading-our-full-thread-position-an-ai-and-admin-systems-engagement-for-her-dog-sitting-business-as-paid-work-t",
+    "build-a-new-codex-task-that-locates-the-existing-god-agent-concept-and-handoff-then-deploys-the-cold-expert-practice-os-to-pressure-test-it-as-an-ai-native-con",
+    "create-a-canva-editable-10-page-master-from-the-approved-linkedin-carousel-source-preserve-the-current-design-system-and-approved-png-renders-as-regression-ref",
+    "build-the-angle-map-industry-listening-engine-fuse-health-performance-geo-daily-brief-insight-brief-into-one-scheduled-daily-automation-local-launchd-05-30",
+    "create-one-final-copy-and-paste-linkedin-authority-reset-master-for-farrice-cain-coherent-supplement-and-performance-brand-positioning-profile-fields-proof-l",
+    "tommy-clark-linkedin-growth",
+    "opus5-harness-repair",
+    "cos-standing-board",
+    "create-a-professional-creative-director-repair-plan-and-implementation-brief-for-the-recurring-angle-map-research-brief-it-is-too-verbose-scattered-summary-h",
+    "contain-apify-spend-now-stop-the-active-angle-map-run-pause-the-duplicate-codex-health-geo-automation-unload-all-six-apify-launch-agents-verify-zero-schedul",
+    "three-layer-memory-second-brain",
     "health-performance-geo-daily-brief",
-    "marketing-intelligence-engine",
     "linkedin-profile-content",
     "workflows",
+    "follow-up-monitor",
     "oren-slop-era-creative-strategy",
     "i-want-to-execute-and-build-my-first-ebook-by-extracting-and-applying-the-expert-playbook-in-https-www-youtube-com-watch-v-jrfz-ky7aze-t-340s-research-viable",
     "upgrade-the-attached-project-package-into-a-publish-today-linkedin-authority-article-and-production-grade-content-deck-preserve-the-existing-composition-and-ae",
-    "harvest-daniel-s-two-supplied-youtube-videos-plus-up-to-10-additional-relevant-videos-into-a-source-grounded-deployable-entrepreneurship-and-marketing-capabili",
+    "system-health-check-framework",
     "search-our-thread-histories-recover-the-daniel-priestley-team-conversation-about-a-stable-umbrella-offer-that-lets-farrice-battle-test-offers-with-waitlists-m",
     "nathan-gotch-forge",
     "tommy-clark-2026",
-    "products",
     "ron-lynch-arsenal",
-    "build-the-angle-map-industry-listening-engine-fuse-health-performance-geo-daily-brief-insight-brief-into-one-scheduled-daily-automation-local-launchd-05-30",
     "harness-apex-2026-07-07",
     "stanton-extraction-deploy",
-    "cos-standing-board",
     "i-need-a-true-sense-of-what-the-daniel-system-we-built-can-actually-do-to-drive-leads-inbound-content-creation-and-paying-high-quality-clients-as-soon-as-pos",
-    "create-a-canva-editable-10-page-master-from-the-approved-linkedin-carousel-source-preserve-the-current-design-system-and-approved-png-renders-as-regression-ref",
+    "read-and-understand-my-complete-imessage-conversation-with-coach-cooz-including-voice-memos-so-we-can-extract-his-real-positioning-identify-what-he-wants-to",
     "walk-me-through-uploading-this-package-to-linkedin-in-exact-order-but-first-rebuild-every-png-at-the-highest-practical-quality-fix-pixelation-and-crops-prefe",
-    "contain-apify-spend-now-stop-the-active-angle-map-run-pause-the-duplicate-codex-health-geo-automation-unload-all-six-apify-launch-agents-verify-zero-schedul",
     "research-ten-solutions-with-current-paid-demand-evidence-that-match-farrice-s-capabilities-in-ai-research-and-icp-intelligence-ai-consulting-and-auditing-copy",
     "autopilot",
     "hooks",
     "proposed-diffs",
-    "clients",
+    "geo-content",
     "first-client-engine",
     "trailer-treatment",
     "quick-concept-application",
@@ -12878,6 +13989,7 @@
     "thought-bank",
     "video-studio-edit-bay",
     "mastery-forge",
+    "marketing-intelligence-engine",
     "forsyth-enchantment-os",
     "sam-vander-wielen-forge",
     "solutions",
@@ -12897,7 +14009,6 @@
     "codex-end-session-control-plane",
     "profile-copy-fresh-0730-packet",
     "create",
-    "opus5-harness-repair",
     "about-rebuild-ship",
     "unhobble-harness",
     "research-outputs",
@@ -12931,7 +14042,6 @@
     "satori-v3",
     "expansion-2026-07-21",
     "ray-amjad-agentic-ladder",
-    "first-10k",
     "farrice-engine",
     "health-performance-geo-client-acquisition-engine",
     "adpsy-taboo-ad",
@@ -12954,13 +14064,11 @@
     "social-listening-head-spec",
     "assemble-re-convene-with-material-new-evidence-update-the",
     "assemble-pressure-test-whether-farrice-cain-should-pivot",
-    "system-health-check-framework",
     "cold-offer-frontdoor",
     "oren-john-identity-marketing",
     "expert-assembly-os",
     "assemble-competitive-sailing-rigging-optimization-for-a-3",
     "jh-offer-audit",
-    "tommy-clark-linkedin-growth",
     "swarm-apex",
     "maestro-os",
     "kdp-engine",
@@ -12977,7 +14085,6 @@
     "daily-zeitgeist-brief",
     "none",
     "cos-os",
-    "coach-cooz",
     "wargame-os-forge",
     "pmf-ofm-options-2026-07-07",
     "pmf-offer-research",
@@ -13007,8 +14114,6 @@
     "end-session-creative-deck",
     "claude-export-harvest",
     "elevation-track",
-    "system-audit",
-    "listing-content",
     "raw-intent-bridge",
     "sky-tan-format-engine",
     "john-whiting-propaganda-os",
@@ -13023,17 +14128,15 @@
     "content-team-os",
     "high-taste-writing-os",
     "brief",
-    "three-layer-memory-second-brain",
     "linkedin-daily",
+    "products",
     "raw-intent-bridge-for-codex-run-packets",
     "messy-context-and-i-do-not-know-how-to-ask-codex",
     "i-have-a-messy-business-idea-and-need-the-right-execution-path",
     "i-have-a-rough-offer-idea-but-do-not-know-how-to-ask-codex",
     "audit-this-raw-task-and-give-me-the-first-safe-action",
     "profile-copy-fresh-0730",
-    "create-one-final-copy-and-paste-linkedin-authority-reset-master-for-farrice-cain-coherent-supplement-and-performance-brand-positioning-profile-fields-proof-l",
     "i-have-this-crazy-idea-that-crossed-my-mind-to-make-a-digital-product-for-gacha-games-that-would-allow-players-that-understand-the-game-faster-to-be-able-to-mak",
-    "build-a-new-codex-task-that-locates-the-existing-god-agent-concept-and-handoff-then-deploys-the-cold-expert-practice-os-to-pressure-test-it-as-an-ai-native-con",
     "i-need-a-true-commercial-read-on-the-daniel-system-we-built-how-it-can-generate-leads-inbound-content-sold-offers-and-a-pipeline-of-high-quality-paying-cli",
     "i-want-a-production-grade-openart-director-mode-prompt-that-uses-at-least-five-supplied-assets-such-as-character-sheets-references-and-examples-to-generate-a",
     "diagnose-why-katie-holds-135-lb-despite-visible-recomposition-leaner-stronger-muscle-up-prescribe-the-metabolism-safe-path-to-her-130-goal-and-set-next-b",
@@ -13041,10 +14144,12 @@
     "write-a-linkedin-post-for-coaches",
     "build-the-homebase-unified-hub-command-center-surface-at-on-the-existing-readout-os-pulse-serve-py-three-zones-focus-library-launch-always-on-launchd-s",
     "realtor-pack-elevation",
-    "follow-up-monitor",
+    "package-what-we-built-for-jen-listing-content-engine-shoot-sheets-teleprompter-packs-reels-scripts-send-packages-compliance-pack-into-a-repeatable-200-i",
+    "i-m-going-to-continue-our-work-and-i-need-to-know-your-plan-or-how-we-are-going-to-execute-replicating-and-building-our-own-version-of-the-kith-website-with-ou",
+    "clients",
+    "farrice-brand",
     "knowledge",
     "launchd-fix",
-    "farrice-brand",
     "scratchpad"
   ],
   "filtered_out": [
@@ -13061,6 +14166,7 @@
     "build-ad-creative-intelligence",
     "build-an-apify-scrape-creators-social-listening-integration",
     "build-an-expert-assembly-skill-system-for-the-antigravity-ha",
+    "build-premium-bpm-shopify-store",
     "build-the-raw-intent-generation-suite-for-the-antigravity-sy",
     "build-the-raw-intent-generation-suite-for-the-antigravity-system-using-source-to-skill-system-prompt-forge-skill-forge-and-plugin-forge-front-doors-that-com",
     "built-not-fireable-per-workflow-minting-gap",
@@ -13075,6 +14181,7 @@
     "claude-skills-business",
     "claude-skills-digital-product-top-10-premium-market-swarm-research-sop-sourcing-offer-website-workup-3-5k-mo-target",
     "claude5-context-rules-six-shifts",
+    "client-mybpm-shopify-premium-relaunch-build",
     "co-creation-enforcement-layer",
     "codex-end-session-exact-handoff-and-owned-git",
     "compass-doctrine-blocking-gate-audit",
@@ -13107,20 +14214,29 @@
     "extract-ryan-doser-s-claude-skills-selling-business-model-fr",
     "extract-ryan-doser-s-claude-skills-selling-business-model-from-video-sales-page-teardown-into-a-deployable-skill-and-a-replicate-and-surpass-launch-plan-for-t",
     "extract-the-ai-brain-installation-for-businesses-expert-os-f",
+    "extract-video-into-skill-system",
     "extract-youtube-video-insights",
     "extraction-andrew-sean-greer-novel-craft-forge",
+    "extraction-authority-transfer-real-health-claim-test",
     "extraction-geoff-woods-ai-thought-partner-os-built-ampl",
     "extraction-joanna-wiebe-psychology-system-global-deploym",
     "extraction-jun-story-engine-commercial-hardening",
+    "extraction-kallaway-micro-fame-companion-integration",
     "extraction-keyword-research-portfolio-architecture-ready",
     "extraction-mastery-proof-apprentice-mode-build",
     "extraction-mastery-transfer-proof-spine-oren-pilot",
+    "extraction-matt-haig-reader-bridge-merge-a-tier",
+    "extraction-matt-haig-reader-bridge-merged-and-a-tier-ver",
+    "extraction-matt-haig-reader-bridge-merged-and-a-tier-verifie",
     "extraction-source-to-skill-loop-find-missing-leverage",
     "extraction-storytelling-masterclass-connected-capability",
+    "extraction-two-videos-build-skill-system",
     "extraction-watch-403-fallback-and-local-vision",
     "extraction-watch-403-fallback-and-notion-bridge",
     "extraction-william-fitzpatrick-reader-science-build-shad",
     "extraction-winning-ad-creative-intelligence-build-system",
+    "extraction-wkqdevj6xtk-connected-skill-system",
+    "extraction-youtube-mastery-system-full-judgment-pack",
     "fidelity-low-review-40-renaissance-era-flags-28-nathan-go",
     "fidelity-low-review-40-renaissance-era-flags-28-nathan-gotch-re-watch-decision",
     "first-full-stack-buyer-council-council-run-on-proof-to-marke",
@@ -13151,12 +14267,15 @@
     "index",
     "instagram-voice-scrape-without-downloads",
     "is-the-ai-rush-over-research-the-real-market-demand-across",
+    "jay-sun-films-video-craft",
+    "jen-poc-carousels",
     "jen-santulan-listing-reel-hooks-for-1654-moonseed-ln-simi-va",
     "jen-santulan-listing-reel-hooks-for-1654-moonseed-ln-simi-valley-ca-93065-6-jen-hooks-3-team-variations-shoot-sheet-format",
+    "jen-team-pilot",
+    "jen-team-pilot-offer",
     "joanna-wiebe-global-deployment",
     "jsonl-row-purge-by-fingerprint-not-position",
     "katie-135-plateau-next-block",
-    "kdp-book-one-pilot",
     "librarian-hardening",
     "library-shelf-report",
     "linkedin-ai-boom",
@@ -13166,10 +14285,12 @@
     "loops-die-at-the-last-mile",
     "lynch-expansion-forge-2-new-interview-sources-mined-into-creative-campaign-strategy",
     "lynch-full-arsenal-amplification-3-next-moves-career-deal-structure-p2m-synthesis",
+    "madison-ai-engagement",
     "maestro-layer-go-v2-doctrine-session-lock-pulse-board",
     "maestro-layer-go-v2-doctrine-session-lock-pulse-board-voice-over",
     "make-the-jcked-bottle-teaser-for-the-trendscale-trial-hit-ha",
     "make-the-jcked-bottle-teaser-for-the-trendscale-trial-hit-harder-for-the-recruiter",
+    "matt-haig-reader-bridge",
     "mybpm-week-1-hero-video-kandi-keeper",
     "new-slash-commands-and-skills-visibility",
     "new-voice-chat",
@@ -13181,6 +14302,7 @@
     "ops-mac-recovery-reclaim-150-gib-safely",
     "ops-mac-storage-and-google-drive-recover-space",
     "ops-operator-workspace-recovery-filing-and-routing-reset",
+    "ops-weekly-outcome-review-bounded",
     "ops-weekly-review-work-summary",
     "opus-5-user-experience-issues",
     "organize-desktop-filing-system",
@@ -13194,6 +14316,7 @@
     "portability-research-codex-cli-gemini-cli-hooks-fleet-orchestration-for-conductor-ladder-wiring",
     "positioning-before-headline",
     "pre-monday-upgrade-make-right-clauses-kallaway-x-dunford-re-expressions-into-dm-set",
+    "premium-minimal",
     "priestley-sll-content-os-extraction-ideation-co-creation-os",
     "profile-live-tonight-0728",
     "prompt-wiring-os-hook-pointers-forging-gate-1-650-born-v2-backfill-verification",
@@ -13205,23 +14328,30 @@
     "raw-intent-production-grade-prompt-skill-plugin-forge-suite-self-evolving-model-adaptive-cornerstone-build",
     "readout-collapse-and-deepen",
     "readout-intel-synthesis",
+    "real-estate-content-offer-strategy",
     "realtor-pack-ignition",
     "recover-cleared-chatgpt-session",
     "recover-the-last-20-to-25-money-making-ideas-personal-brand",
     "recover-the-last-20-to-25-money-making-ideas-personal-brand-concepts-productized-offers-and-services-farrice-has-been-developing-rank-them-by-immediate-cash",
     "research-and-rank-an-evidence-backed-digital-product-opportu",
+    "research-firecrawl-purchase-gate-recommendation-audit",
     "research-rank-and-select-a-fast-cash-productized-ai-servic",
+    "research-scraping-and-enrichment-stack-replace-apify",
     "retrieve-ron-lynch-extraction-full-asset-map-for-success-modeling",
+    "revenue-chris-do-listing-launch-proof-scaffold-readine",
     "revenue-digital-income-path-first-500-1-000",
     "revenue-health-content-sprint-va",
+    "revenue-listing-launch-proof-scaffold-readiness-audit",
     "revenue-paid-social-creative-offers-war-game",
-    "revenue-zero-momentum-offer-brand-aligned-landing-page-r",
+    "route-with-cos-command",
     "rubber-stamp-blind-pass-artifact-only-retest",
     "rule-amnesty-0729",
     "run-deep-parallel-market-research-and-offer-workup-for-a-cla",
     "run-deep-parallel-market-research-and-offer-workup-for-a-claude-skills-digital-product-top-10-premium-niches-willing-to-pay-for-claude-codex-skill-packs-worl",
     "satori-v3-layout-contrast",
+    "second-brain-awakening",
     "session-state-anchor",
+    "shaan-puri-storytelling",
     "shoot-kandi-keeper-video-from-production-sheet",
     "simplify-codex-communication-style",
     "slash-commands-skill-family-documentation",
@@ -13233,8 +14363,11 @@
     "system-claude-desktop-black-screen-diagnose-and-recover",
     "system-claude-desktop-black-screen-persistently-fixed-an",
     "system-claude-desktop-black-screen-recovered-and-ready-t",
+    "system-claude-import-boundary-canonical",
+    "system-claude-import-boundary-measure-and-repair",
     "system-clear-depth-communication-pilot",
     "system-clear-depth-round-three-pilot",
+    "system-futur-storytelling-merged-and-verified",
     "system-health-debt-control-loop-recurring-health-check-anti-bloat-drift-ledger",
     "system-higgsfield-mcp-remove-reconnect-prompt",
     "system-homebase-ambient-librarian-shipped-and-verified",
@@ -13249,8 +14382,10 @@
     "unattributed",
     "validate-systeme-io-as-a-cold-start-affiliate-opportunity-an",
     "verifier-text-pin-triage-pattern",
+    "video-context",
     "visual-delivery-os",
     "vosler-7fig-extract",
+    "watch-and-extract",
     "wave-2-step-1-routing-bindings-enforce-flip-1-week-trial-file-route-override-classifier-exempt-golden-24-24-7-7",
     "wave-3-asset-renaissance-lane-1-production-core-repair-fleet",
     "wave-3-completion-forge-kallaway-x-priestley-sll-jenny-hoy",
@@ -13258,6 +14393,7 @@
     "wave-3-completion-kallaway-x-priestley-sll-jenny-hoyos-handshake-diandra-hawley-handshake-vicious-hooks",
     "wave-3-lane-2-revenue-cluster-repair-claim-safe-s-c-lanes",
     "wave-3-lane-3-active-project-repair-fleet-17-skills-to-6-6-4-sample-opus-verify-2-minor-label-fixes",
+    "website-wireframe-generator",
     "wired-but-never-loaded-prompts",
     "write-and-send-teardown-1-for-a-named-supplement-brand-plu"
   ]

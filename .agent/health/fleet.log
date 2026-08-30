@@ -169,3 +169,5 @@ usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
 verify_fleet.py: error: unrecognized arguments: run
 usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
 verify_fleet.py: error: unrecognized arguments: run
+FLEET: 97 verifier(s) — FAIL 20 · PASS 76 · TIMEOUT 1
+  21 not passing → /Users/farricecain/Google Antigravity/.agent/health/fleet-report.md

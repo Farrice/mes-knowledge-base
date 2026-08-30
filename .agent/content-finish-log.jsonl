@@ -566,3 +566,11 @@
 {"ts": "2026-08-28T23:16:32Z", "label": "angle-map-director-handoff", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('one \u2026 one \u2026 one') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-28T23:16:52Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-28T23:18:12Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:17:09Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:17:35Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:25:37Z", "label": "publishable-copy", "verdict": "WARN", "fails": [], "warns": ["Question close (verify it's earned/non-transferable): \"If it works, we can expand from there. With your permission,\""]}
+{"ts": "2026-08-29T14:26:11Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:36:01Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:37:06Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T15:35:15Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T15:35:56Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}

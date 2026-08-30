@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-28T07:19:42.511894",
+  "timestamp": "2026-08-30T06:00:04.419661",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (16 projects, 4 drift items)"
@@ -10,17 +10,20 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 9,
+    "findings": 23,
     "ids": [
-      "dead_launchd",
-      "stale_feeds",
       "wiring_orphans",
       "org_drift",
       "verify_dhar_mann_transformational_content_factory.py",
       "verify_execution_receipt.py",
-      "verify_sales_psychology_mastery_layer.py",
-      "verify_skill_evolution_candidate_freshness.py",
-      "fleet_timeouts"
+      "verify_global_steering_persistence.py",
+      "verify_google_operator_core.py",
+      "verify_operator_cockpit.py",
+      "verify_operator_core_end_session.py",
+      "verify_operator_core_extraction_governor_agent.py",
+      "verify_operator_core_health_check.py",
+      "verify_operator_core_knowledge_librarian.py",
+      "verify_operator_core_repeatability_spine.py"
     ]
   },
   "brief_harvest": {
@@ -28,13 +31,10 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 3,
-    "coverage": "3837/3837",
+    "new": 2,
+    "coverage": "3857/3857",
     "orphans_total": 13,
-    "flips": [
-      "execution:client_package_lint.py: ORPHAN -> PROVEN",
-      "execution:hooks/campaign_beacon.py: PROVEN -> ORPHAN"
-    ],
+    "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",
       "execution:audit_extraction_integrity.py",

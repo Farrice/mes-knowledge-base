@@ -3968,3 +3968,120 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-29T07:00:03.142010",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-28T07:19:44.524911",
+      "reason": "not_due_yet",
+      "days_remaining": 0.01
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 2.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 11.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-30T02:14:52.513081",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-30.md",
+        "traces_24h": 11,
+        "routing_decisions_24h": 11,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.41,
+            "joey-cinema-os": 0.66,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.41,
+            "gemini-api-dev": 0.5,
+            "dave-clark": 1.5,
+            "ghostwriting-voice-engine": 1.47,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.45,
+            "nick-saraev-agentic-workflows": 1.41,
+            "kallaway-social-commerce": 0.59,
+            "kallaway-illusion-of-novelty": 0.95,
+            "extract-mastery": 1.39,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.41,
+            "michael-israetel-hypertrophy": 1.29,
+            "andrew-dun-vibe-consulting": 1.17,
+            "creative-direction": 0.72,
+            "oren-one-person-ai-marketer": 0.74,
+            "donald-miller-storybrand": 1.1,
+            "stefan-georgi-dopamine-copy": 1.01,
+            "luke-iha-avatar-machine": 1.05
+          },
+          "candidates_appended": 2,
+          "quality_finalizes_counted": 4,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 139.3
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 42.9
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 1.2
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 10.2
+    }
+  ]
+}
+{
+  "run_at": "2026-08-30T07:00:05.773626",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-30T02:15:26.409901",
+      "reason": "already_ran_today",
+      "days_remaining": 0.8
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 1.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 10.0
+    }
+  ]
+}

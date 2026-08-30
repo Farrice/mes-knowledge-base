@@ -117,3 +117,9 @@ no pending cards
 released
 ABORT: session lock held by another driver — one driver per tree (orchestration-doctrine.md Law 5). No cards touched.
 BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+claimed: a2eeef49df2d  (heartbeat every wave: session_lock.py heartbeat a2eeef49df2d)
+no pending cards
+released
+claimed: 13666d1a0e8d  (heartbeat every wave: session_lock.py heartbeat 13666d1a0e8d)
+T1 EXECUTED card-outcome-chase-2026-08-30.md: COMPLETED -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-outcome-chase-2026-08-30-transcript.md
+released

@@ -380,3 +380,13 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-28
   ⚑ verifier fleet: 5/93 failing (run 2026-08-24) — each is a contract the system claims to hold; triage in weekly closeout
   ⚑ session context injection grew 27% in ~1mo (54KB → 68KB) — every session pays this; trim or justify
   ⚑ skills grew +38 in ~1mo with growth unchecked — pair new builds with archive passes or the routing surface dilutes
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-29.json (9 flag(s))
+  ⚑ routine com.antigravity.angle-map-listening: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log
+  ⚑ routine com.antigravity.verify-fleet: last exit 2 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log
+  ⚑ .tmp at 12,079MB / 200,293 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 48 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ _active/ holds 2343 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.pulse-serve: log silent 6d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.pulse-serve`
+  ⚑ verifier fleet: 5/93 failing (run 2026-08-24) — each is a contract the system claims to hold; triage in weekly closeout
+  ⚑ session context injection grew 27% in ~1mo (54KB → 68KB) — every session pays this; trim or justify
+  ⚑ skills grew +39 in ~1mo with growth unchecked — pair new builds with archive passes or the routing surface dilutes

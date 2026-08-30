@@ -2240,3 +2240,761 @@
   commits BEFORE repointing (docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md).
 ==============================================================
 
+
+==============================================================
+  CITATION INTEGRITY — 9306 sources scanned
+==============================================================
+
+  [MEMORY] — 13 missing
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback_council-output-one-page-memo.md
+      ✗ .agent/workflows/roundtable-live.md
+      ✗ directives/agent-mailroom.md
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_growth-blueprint-os.md
+      ✗ extractions/kallaway/E2E-REPORT-2026-08-27.md
+      ✗ execution/outlier_radar.py
+      ✗ execution/pack_enrich.py
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_mailroom-agent-to-agent-councils.md
+      ✗ execution/persona_team.py
+      ✗ directives/agent-mailroom.md
+      ✗ .agent/workflows/roundtable-live.md
+      ✗ execution/council_pulse.py
+      ✗ councils/MAILROOM-GUIDE.md
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_style-vault.md
+      ✗ execution/style_vault.py
+      ✗ skills/style-vault/references/midjourney-port.md
+      ✗ skills/style-vault/references/realism-floor.md
+
+  [SOLUTIONS] — 1 missing
+    docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md
+      ✗ agents/skills/source-command-cos/SKILL.md
+
+  [WIRING] — 470 missing
+    skills/algorithmic-art/SKILL.md
+      ✗ templates/viewer.html
+    skills/ali-abdaal-action-bias/references/source-ledger.md
+      ✗ agents/skills/source-command-ali-abdaal/SKILL.md
+    skills/ash-maurya-founder-systems/references/source-map.md
+      ✗ extractions/ash-maurya-founder-systems/Av-G_d5sPWA-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/Nc0oN6XyVfY-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/S6djn6K6OjM-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/U2za4uy3cgc-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/tytX0xTcDTY-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/n0FbbVfBw4o-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/HxSsThn_ptc-transcript.txt
+      ✗ extractions/ash-maurya-founder-systems/combined-transcript.txt
+    skills/ash-maurya-founder-systems/workflows/09-founder-systems-war-room.md
+      ✗ skills/operator-autopilot/SKILL.md
+    skills/ash-maurya-founder-systems/workflows/10-productized-service-validation.md
+      ✗ deliverables/ash-maurya-founder-systems/productization-guide.md
+    skills/asset_generator/SKILL.md
+      ✗ templates/master_theme.html
+    skills/brad-bonanno-explainer-architecture/genius.md
+      ✗ extractions/brad-bonanno/transcript.txt
+    skills/brad-bonanno-explainer-architecture/references/PROVENANCE-2026-07-17.md
+      ✗ extractions/brad-bonanno/transcript.txt
+    skills/brad-bonanno-explainer-architecture/references/source-ledger.md
+      ✗ extractions/brad-bonanno/transcript.txt
+    skills/brandon-jacoby-taste-mastery/SKILL.md
+      ✗ extractions/brandon-jacoby-taste-mastery/transcript.txt
+    skills/brandon-jacoby-taste-mastery/genius.md
+      ✗ extractions/brandon-jacoby-taste-mastery/transcript.txt
+    skills/brandon-jacoby-taste-mastery/references/source-ledger.md
+      ✗ extractions/brandon-jacoby-taste-mastery/transcript.txt
+    skills/chief-of-staff-os/workflows/cos-daily.md
+      ✗ .agent/cos/briefs/YYYY-MM-DD.md
+    skills/chief-of-staff-os/workflows/cos-dump.md
+      ✗ .agent/cos/journal/YYYY-MM-DD.md
+    skills/cody-schneider-signal-outbound/workflows/engager-signal-audit.md
+      ✗ _active/linkedin/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md
+    skills/dai-media-consumer-posture/references/PROVENANCE-2026-07-17.md
+      ✗ skills/dai-media-consumer-posture/PROVENANCE.md
+    skills/dara-denney-meta-ads/references/persona-intelligence-moat.md
+      ✗ templates/persona-research-deck-template.md
+    skills/david-deutsch-copywriting/references/PROVENANCE-2026-07-17.md
+      ✗ agents/skills/source-command-david-deutsch/SKILL.md
+    skills/david-deutsch-copywriting/references/source-ledger.md
+      ✗ agents/skills/source-command-david-deutsch/SKILL.md
+    skills/donald-miller-business-growth/SKILL.md
+      ✗ evolution/SKILL.md
+    skills/fantastic-posters/CLAUDE.md
+      ✗ .claude/skills/fantastic-posters/SKILL.md
+    skills/fantastic-posters/README.md
+      ✗ .claude/skills/fantastic-posters/SKILL.md
+    skills/forge-os/SKILL.md
+      ✗ execution/plugin_build.py
+    skills/forge-os/references/plugin-forge-lift-plan.md
+      ✗ hooks/hooks.json
+      ✗ execution/plugin_build.py
+    skills/forge-os/workflows/plugin-forge.md
+      ✗ hooks/hooks.json
+    skills/futurepedia-prompt-engineering/references/source-ledger.md
+      ✗ agents/skills/source-command-futurepedia-prompt/SKILL.md
+    skills/gary-vaynerchuk-attention/source-ledger.md
+      ✗ skills/gary-vaynerchuk-attention/references/source-ledger.md
+    skills/ghostwriting-voice-engine/SKILL.md
+      ✗ _active/offers/call-script.md
+      ✗ _active/offers/intake-form-questions.md
+      ✗ _active/offers/voice-profile-template.md
+      ✗ _active/offers/demo-workflow.md
+      ✗ _active/offers/before-after-template.md
+    skills/ghostwriting-voice-engine/workflows/01-voice-capture.md
+      ✗ _active/offers/voice-profile-template.md
+    skills/ghostwriting-voice-engine/workflows/03-unsolicited-demo.md
+      ✗ _active/offers/voice-profile-template.md
+      ✗ _active/offers/before-after-template.md
+      ✗ _active/offers/outreach-system-v3.md
+      ✗ _active/offers/demo-workflow.md
+      ✗ _active/offers/proof-run-offer-page.md
+    skills/higgsfield-creative-studio/SKILL.md
+      ✗ skills/satori-graphics-design-mastery/SKILL.md
+    skills/higgsfield-creative-studio/workflows/combined-asset-package.md
+      ✗ skills/satori-graphics-design-mastery/SKILL.md
+    skills/james-i-bond-brain-glue/genius.md
+      ✗ agents/james-i-bond/memory/context.md
+    skills/jason-fladlien-marketing/workflows/brand-first-dr-fusion-strategy.md
+      ✗ skills/grace-andrews-media/genius.md
+    skills/jason-fladlien-marketing/workflows/copywriter-accelerator.md
+      ✗ skills/nicolas-cole-digital-strategy/genius.md
+      ✗ skills/joanna-wiebe-strategic-writing/genius.md
+    skills/jason-fladlien-marketing/workflows/proof-fortified-fear-engine.md
+      ✗ skills/luke-iha-copywriting/genius.md
+    skills/jeremy-haynes-cold-offer/workflows/jh-value-crosscheck.md
+      ✗ skills/alex-hormozi/SKILL.md
+    skills/jessica-jensen-platform-intelligence/source-ledger.md
+      ✗ skills/jessica-jensen-platform-intelligence/references/source-ledger.md
+    skills/kallaway-addictive-storytelling/references/source-ledger.md
+      ✗ extractions/kallaway/addictive-storytelling-transcript.txt
+    skills/kallaway-audience-obsession/references/source-ledger.md
+      ✗ agents/skills/source-command-kallaway-audience/SKILL.md
+    skills/liam-mley-ai-brain-builder/workflows/02-context-layer-builder.md
+      ✗ products/catalog.md
+    skills/luke-iha-insight-vectors/references/source-ledger.md
+      ✗ hooks/transcript.txt
+    skills/mark-kashef-silver-platter-agentic-os/references/greenfield_vs_audit_detection.md
+      ✗ .claude/CLAUDE.md
+    skills/mark-kashef-silver-platter-agentic-os/references/hidden-knowledge.md
+      ✗ agents/skills/source-command-silver-platter/SKILL.md
+    skills/mark-kashef-silver-platter-agentic-os/references/tool_defaults.md
+      ✗ .claude/rules/x-twitter-scraping.md
+    skills/mark-kashef-silver-platter-agentic-os/workflows/audit-and-classify.md
+      ✗ .claude/CLAUDE.md
+    skills/mark-kashef-wargame-os/references/mission-brief-library.md
+      ✗ _active/linkedin/research/deep-icp-profile-invisible-expert.md
+    skills/market_intelligence/SKILL.md
+      ✗ templates/brief_template.md
+    skills/nathan-gotch-ai-seo/references/jerkygent-case-study.md
+      ✗ extractions/nathan-gotch/visual-context.md
+    skills/nathan-gotch-ai-seo/references/linkbait-prompt-bank.md
+      ✗ extractions/nathan-gotch/visual-context.md
+    skills/nathan-gotch-ai-seo/references/source-ledger.md
+      ✗ extractions/nathan-gotch/visual-context.md
+    skills/nba-betting-edge/genius.md
+      ✗ execution/perplexity.py
+    skills/new-media-ghostwriting/workflows/01-voice-to-media-empire.md
+      ✗ skills/nicolas-cole-ghostwriting/SKILL.md
+      ✗ skills/nicolas-cole-ghostwriting/workflows/voice-document.md
+      ✗ skills/lara-acosta/SKILL.md
+    skills/new-media-kingmaker/genius.md
+      ✗ hooks/transcript.txt
+      ✗ skills/cardinal-mason/SKILL.md
+    skills/new-media-kingmaker/references/source-ledger.md
+      ✗ hooks/transcript.txt
+      ✗ skills/cardinal-mason/SKILL.md
+    skills/new-media-kingmaker/workflows/01-kingmaker-sprint.md
+      ✗ skills/nicolas-cole-ghostwriting/SKILL.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+      ✗ skills/luke-iha-proof-copy/workflows/proof-ladder-builder.md
+      ✗ skills/lara-acosta/SKILL.md
+      ✗ skills/cardinal-mason/SKILL.md
+      ✗ skills/luke-iha-proof-copy/workflows/vicious-hook-sprint.md
+      ✗ hooks/transcript.txt
+    skills/new-media-kingmaker/workflows/02-narrative-warfare.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+    skills/new-media-kingmaker/workflows/03-platform-launch.md
+      ✗ skills/lara-acosta/SKILL.md
+      ✗ skills/cardinal-mason/SKILL.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+    skills/nicolas-cole-edan-writing-mechanics/references/source-map.md
+      ✗ extractions/video-context/gAVbSZHwzNU/transcript.txt
+      ✗ extractions/video-context/gAVbSZHwzNU/video-context-ledger.md
+    skills/nicolas-cole-newsletter-flywheel/references/source-ledger.md
+      ✗ agents/skills/source-command-nicolas-cole-newsletter-flywheel/SKILL.md
+    skills/nicolas-cole-nonfiction-value-architecture/references/source-ledger.md
+      ✗ extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md
+    skills/nicolas-cole-nonfiction-value-architecture/references/source-map.md
+      ✗ extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md
+    skills/nicolas-cole-sales-education-messaging/references/source-ledger.md
+      ✗ extractions/video-context/jWL3Am1v9t8/transcript.txt
+    skills/nicolas-cole-sales-education-messaging/references/source-map.md
+      ✗ extractions/video-context/jWL3Am1v9t8/transcript.txt
+      ✗ extractions/video-context/jWL3Am1v9t8/video-context-ledger.md
+    skills/noah-hawley-storytelling-mastery/workflows/hawley-handshake-vicious-hooks.md
+      ✗ hooks/genius.md
+    skills/omar-eddaoudi-scaling-ops/workflows/09-lara-visual-stack.md
+      ✗ skills/junyuh-content-engine/SKILL.md
+      ✗ agents/junyuh/AGENT.md
+      ✗ skills/junyuh-content-engine/workflows/junyuh-identity.md
+    skills/oren-dara-ad-psychology/workflows/09-organic-flywheel.md
+      ✗ skills/kallaway/SKILL.md
+    skills/patrick-debois-cdlc/workflows/01-cdlc-audit.md
+      ✗ evolution_store/skill_versions.jsonl
+    skills/patrick-debois-cdlc/workflows/02-context-evals.md
+      ✗ skills/lara-acosta-linkedin/SKILL.md
+      ✗ skills/X/SKILL.md
+      ✗ directives/X.md
+    skills/patrick-debois-cdlc/workflows/03-context-library.md
+      ✗ evolution_store/skill_versions.jsonl
+      ✗ execution/skill_security_scan.py
+      ✗ execution/skill_versions.py
+      ✗ execution/skill_dependencies.py
+    skills/patrick-debois-cdlc/workflows/04-context-observe.md
+      ✗ skills/X/SKILL.md
+      ✗ evolution_store/observability/missing_context_candidates.jsonl
+      ✗ execution/observability_scanner.py
+      ✗ evolution_store/observability/context_patches.jsonl
+      ✗ execution/context_filter.py
+    skills/phil-m-jones-conversational-influence/references/PROVENANCE-2026-07-18.md
+      ✗ extractions/phil-m-jones/transcript.txt
+    skills/phil-m-jones-conversational-influence/references/source-ledger.md
+      ✗ extractions/phil-m-jones/transcript.txt
+    skills/phil-m-jones-conversational-influence/references/source-notes.md
+      ✗ extractions/phil-m-jones/transcript.txt
+    skills/sam-parr-copywriting-mechanics/SKILL.md
+      ✗ extractions/video-context/uf4fR3qcDkU/transcript.txt
+    skills/sam-vander-wielen/SKILL.md
+      ✗ extractions/sam-vander-wielen/visual-context.md
+    skills/sam-vander-wielen/references/source-ledger.md
+      ✗ extractions/sam-vander-wielen/visual-context.md
+    skills/semantic-document-library-os/references/PROVENANCE-2026-07-18.md
+      ✗ docs/ai-operating-partner-deep-stack-offer-v2.md
+    skills/semantic-document-library-os/references/productized-service-blueprint.md
+      ✗ extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md
+      ✗ extractions/semantic-document-library-os/generated-docs/ai-operating-partner-deep-stack-offer-v2.md
+    skills/semantic-document-library-os/references/source-ledger.md
+      ✗ extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md
+    skills/sweat-equity-speedrun-social-os/genius.md
+      ✗ extractions/sweat-equity-speedrun-social-os/result-claims.md
+    skills/sweat-equity-speedrun-social-os/references/PROVENANCE-2026-07-18.md
+      ✗ extractions/sweat-equity-speedrun-social-os/result-claims.md
+    skills/sweat-equity-speedrun-social-os/references/implementation.md
+      ✗ extractions/sweat-equity-speedrun-social-os/result-claims.md
+    skills/sweat-equity-speedrun-social-os/references/source-ledger.md
+      ✗ extractions/sweat-equity-speedrun-social-os/result-claims.md
+    skills/tao-prompts-ai-video/references/PROVENANCE-2026-07-18.md
+      ✗ extractions/tao-prompts/hidden-knowledge.md
+    skills/velocity-scaling/workflows/velocity-to-content.md
+      ✗ skills/content-psychology/SKILL.md
+    skills/vince-nijhof-dtc-operator-system/workflows/11-vince-x-luke-data-driven-hooks.md
+      ✗ skills/luke-iha-copywriting/genius.md
+    skills/youtube-video-context-analysis/SKILL.md
+      ✗ execution/video_context/fixtures/sample_video_context.json
+    agents/_framework/invocation-cards.md
+      ✗ skills/boris-ai-productivity/SKILL.md
+    agents/brad-bonanno/AGENT.md
+      ✗ extractions/brad-bonanno/transcript.txt
+    agents/dakota-thiefofboredom/AGENT.md
+      ✗ skills/dakota-content-design/01-design-viral-carousel.md
+      ✗ skills/dakota-content-design/02-write-standalone-slides.md
+      ✗ skills/dakota-content-design/03-audit-carousel-performance.md
+    agents/nicolas-cole/memory/context.md
+      ✗ _active/linkedin/ICP-and-avatar.md
+    agents/nicolas-cole/workflows/health-wellness-positioning-session.md
+      ✗ _active/linkedin/ICP-and-avatar.md
+    agents/operator-autopilot/AGENT.md
+      ✗ .agent/autopilot-state.md
+    agents/patrick-debois/memory/context.md
+      ✗ evolution_store/skill_versions.jsonl
+    agents/prediction-market-strategist/memory/context.md
+      ✗ execution/polymarket_paper.py
+      ✗ execution/polymarket_client.py
+      ✗ execution/polymarket_ws.py
+      ✗ execution/strategy_orchestrator.py
+    agents/research-intelligence-agent/AGENT.md
+      ✗ .agent/research-intelligence-agent-state.md
+    agents/ross-minchev/AGENT.md
+      ✗ products/SKILL.md
+    agents/samuel-thompson/AGENT.md
+      ✗ skills/info-product-generator.md
+      ✗ skills/url-to-copy-builder.md
+      ✗ skills/shadow-market-detector.md
+      ✗ skills/ad-creative-generator.md
+      ✗ skills/unit-economics-analyzer.md
+    agents/sinem-gunel/AGENT.md
+      ✗ skills/substack-business-architecture/genius.md
+    guides/2026-07-19-nathan-gotch-forge.md
+      ✗ extractions/nathan-gotch/visual-context.md
+    guides/2026-07-24-.md
+      ✗ skills/riley-brown-marketing-automation/workflows/1-foundation-competitor-scraper.md
+      ✗ skills/riley-brown-marketing-automation/workflows/1-foundation-skill-extractor.md
+      ✗ skills/riley-brown-marketing-automation/workflows/1-foundation-social-scraper.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-ad-auditor.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-brand-scraper.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-content-calendar.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-creator-analyzer.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-engagement-detector.md
+      ✗ skills/riley-brown-marketing-automation/workflows/2-practitioner-research-pipeline.md
+      ✗ skills/riley-brown-marketing-automation/workflows/3-stacking-farrice-parallax-pipeline.md
+      ✗ skills/riley-brown-marketing-automation/workflows/3-stacking-lara-amplifier.md
+      ✗ skills/riley-brown-marketing-automation/workflows/3-stacking-luke-auditor.md
+    guides/2026-07-25-.md
+      ✗ guides/YYYY-MM-DD-.md
+    guides/2026-07-26-opus-5-dialect.md
+      ✗ execution/jsonl_surgery.py
+    guides/2026-08-06-mastery-forge.md
+      ✗ .agent/odds-api-quota.json
+    guides/2026-08-08-loss-alarm-repair.md
+      ✗ products/catalog.md
+      ✗ deliverables/carousel_scripts/YOUR_FILE.md
+      ✗ execution/perplexity.py
+      ✗ execution/jsonl_surgery.py
+    guides/2026-08-16-cos-standing-board.md
+      ✗ .agent/cos/primers/YYYY-MM-DD.md
+    guides/INDEX.md
+      ✗ deliverables/carousel_scripts/YOUR_FILE.md
+    .agent/workflows/ai-employee-os.md
+      ✗ agents/skills/source-command-ai-employee-os/SKILL.md
+      ✗ .agent/workflows/client-delivery-agent.md
+    .agent/workflows/assignment-accountability-builder.md
+      ✗ products/SKILL.md
+      ✗ products/genius.md
+      ✗ products/references/course-module-transformation.md
+      ✗ products/workflows/assignment-accountability-builder.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/references/course-module-transformation.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/workflows/assignment-accountability-builder.md
+    .agent/workflows/atomize.md
+      ✗ extractions/transcripts/my-talk.txt
+    .agent/workflows/attention-hijack-hooks.md
+      ✗ agents/attention-hijack-hooks/AGENT.md
+      ✗ .claude/agents/attention-hijack-hook-auditor.md
+      ✗ execution/verify_attention_hijack_hooks.py
+    .agent/workflows/buyer-trigger-os.md
+      ✗ skills/meg-heckman-buyer-trigger-os/workflows/buyer-trigger-audit.md
+      ✗ skills/meg-heckman-buyer-trigger-os/workflows/apparel-concept-generator.md
+      ✗ skills/meg-heckman-buyer-trigger-os/workflows/product-design-scoring.md
+      ✗ skills/meg-heckman-buyer-trigger-os/workflows/cross-vertical-transfer.md
+      ✗ skills/meg-heckman-buyer-trigger-os/workflows/research-backed-trigger-run.md
+      ✗ skills/meg-heckman-buyer-trigger-os/references/source-ledger.md
+      ✗ extractions/video-context/7MNa2YTPGs4/video-context-ledger.md
+      ✗ execution/research_router.py
+    .agent/workflows/category-building-os.md
+      ✗ skills/erica-mallet-brand-magnetism/workflows/category-of-one-deployment-system.md
+      ✗ extractions/video-context/5TEMdTopdy8/source-package.md
+      ✗ extractions/video-context/5TEMdTopdy8/uncertainty-report.md
+    .agent/workflows/cooz-flywheel-v5.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-CONTENT-SYSTEM.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-PROFILE.md
+      ✗ _active/clients/coach-cooz/16-may-2026-pivot/V5-VISUAL-BRAND-BRIEF.md
+      ✗ _active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md
+      ✗ _active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md
+    .agent/workflows/cooz-flywheel.md
+      ✗ _active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md
+      ✗ _active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md
+    .agent/workflows/council.md
+      ✗ skills/mark-kashef-ai-councils/references/prompts/council-commander.md
+    .agent/workflows/course-module-architect.md
+      ✗ products/SKILL.md
+      ✗ products/genius.md
+      ✗ products/references/course-module-transformation.md
+      ✗ products/workflows/course-module-architect.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/references/course-module-transformation.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/workflows/course-module-architect.md
+    .agent/workflows/course-proof-and-bonus-stack.md
+      ✗ products/SKILL.md
+      ✗ products/genius.md
+      ✗ products/references/course-module-transformation.md
+      ✗ products/workflows/course-proof-and-bonus-stack.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/references/course-module-transformation.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-products/workflows/course-proof-and-bonus-stack.md
+    .agent/workflows/ctm-clean.md
+      ✗ skills/customer-truth-map/workflows/ctm-clean.md
+    .agent/workflows/ctm-deepen.md
+      ✗ skills/customer-truth-map/workflows/ctm-deepen.md
+    .agent/workflows/ctm-gaps.md
+      ✗ skills/customer-truth-map/workflows/ctm-gaps.md
+    .agent/workflows/ctm-gather.md
+      ✗ skills/customer-truth-map/workflows/ctm-gather.md
+    .agent/workflows/ctm-jobs.md
+      ✗ skills/customer-truth-map/workflows/ctm-jobs.md
+    .agent/workflows/ctm-map.md
+      ✗ skills/customer-truth-map/workflows/ctm-map.md
+    .agent/workflows/ctm-refresh.md
+      ✗ skills/customer-truth-map/workflows/ctm-refresh.md
+    .agent/workflows/ctm-scope.md
+      ✗ skills/customer-truth-map/workflows/ctm-scope.md
+    .agent/workflows/ctm-to-content.md
+      ✗ skills/customer-truth-map/workflows/ctm-to-content.md
+    .agent/workflows/ctm-to-copy.md
+      ✗ skills/customer-truth-map/workflows/ctm-to-copy.md
+    .agent/workflows/ctm-to-offer.md
+      ✗ skills/customer-truth-map/workflows/ctm-to-offer.md
+    .agent/workflows/ctm-triangulate.md
+      ✗ skills/customer-truth-map/workflows/ctm-triangulate.md
+    .agent/workflows/customer-truth-map.md
+      ✗ skills/customer-truth-map/workflows/customer-truth-map.md
+    .agent/workflows/diandra-content-engine.md
+      ✗ _active/content/calendar.md
+    .agent/workflows/diandra-linkedin-system.md
+      ✗ extractions/video-context/R8nrEQx8rEY/analysis.md
+      ✗ extractions/video-context/R8nrEQx8rEY/uncertainty-report.md
+    .agent/workflows/draft-proposal.md
+      ✗ skills/cardinal-mason-conversion-copy/SKILL.md
+    .agent/workflows/drk-creative-unblock.md
+      ✗ skills/steven-pressfield-narrative-physics/genius.md
+      ✗ skills/nicolas-cole-ghostwriting/genius.md
+    .agent/workflows/drk-identity-rebuild.md
+      ✗ skills/identity-engineering/genius.md
+    .agent/workflows/drk-mind-garden-content.md
+      ✗ skills/eric-roth-cinematic-prose/genius.md
+    .agent/workflows/drk-proof-clarity.md
+      ✗ skills/luke-iha-copywriting/genius.md
+    .agent/workflows/drk-resistance.md
+      ✗ skills/steven-pressfield-narrative-physics/genius.md
+    .agent/workflows/expert-composition-governor.md
+      ✗ docs/solutions/high-taste-writing-os.md
+      ✗ docs/solutions/routing-governor-self-compounding-workspace.md
+    .agent/workflows/extraction-governor-agent.md
+      ✗ .agent/extraction-governor-agent-state.md
+      ✗ agents/extraction-governor-agent/AGENT.md
+      ✗ agents/extraction-governor-agent/memory/context.md
+    .agent/workflows/farrice-content-os.md
+      ✗ _active/farrice-brand/ideation-bank/INDEX.md
+      ✗ _active/farrice-content-os/context-index.md
+      ✗ templates/content-card-template.md
+      ✗ execution/verify_farrice_content_os.py
+    .agent/workflows/fladlien-proof-fear.md
+      ✗ skills/luke-iha-copywriting/genius.md
+    .agent/workflows/fourth-wall-agent-workflow.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-client-experience.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-concept-forge.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-content-engine.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-council.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-diagnostic.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-domain-transfer.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-launch-experience.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-live-presentation.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/fourth-wall-product-moment.md
+      ✗ /Users/farricecain/Google Antigravity/agents/rafa-conde/AGENT.md
+    .agent/workflows/generate-handcrafted-carousel.md
+      ✗ deliverables/carousel_scripts/YOUR_FILE.md
+    .agent/workflows/ghostwrite.md
+      ✗ _active/offers/intake-form-questions.md
+      ✗ _active/offers/call-script.md
+      ✗ _active/offers/voice-profile-template.md
+      ✗ _active/offers/demo-workflow.md
+    .agent/workflows/grace-to-copy.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+      ✗ skills/nicolas-cole-ghostwriting/SKILL.md
+      ✗ skills/cardinal-mason/SKILL.md
+      ✗ skills/lara-acosta/SKILL.md
+    .agent/workflows/handoff.md
+      ✗ execution/verify_contextual_next_prompts.py
+    .agent/workflows/higgsfield-studio.md
+      ✗ skills/satori-graphics-design-mastery/SKILL.md
+    .agent/workflows/hook-viciousness-audit.md
+      ✗ hooks/SKILL.md
+      ✗ hooks/genius.md
+      ✗ hooks/workflows/hook-viciousness-audit.md
+    .agent/workflows/jackpost.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-writing/SKILL.md
+      ✗ /Users/farricecain/Google Antigravity/skills/nicolas-cole-digital-writing/genius.md
+      ✗ /Users/farricecain/Google Antigravity/skills/cardinal-mason-copywriting/SKILL.md
+      ✗ /Users/farricecain/Google Antigravity/skills/cardinal-mason-copywriting/genius.md
+    .agent/workflows/kallaway-trend-hook-engine.md
+      ✗ skills/kallaway-ai-content-engine/references/kallaway-trend-hook-plugin-spec.md
+    .agent/workflows/kishotenketsu-contrast-storytelling.md
+      ✗ skills/lucas-alpay-storytelling/workflows/kishotenketsu-contrast-story-system.md
+      ✗ _active/kishotenketsu-storytelling-os/01-source-map.md
+      ✗ _active/kishotenketsu-storytelling-os/02-operating-model.md
+      ✗ _active/kishotenketsu-storytelling-os/03-mechanics-ledger.md
+    .agent/workflows/knowledge-librarian.md
+      ✗ .agent/knowledge-librarian-state.md
+      ✗ agents/knowledge-librarian/AGENT.md
+    .agent/workflows/linkedin-daily.md
+      ✗ _active/linkedin/06-automation/daily/briefing-YYYY-MM-DD.md
+    .agent/workflows/low-cognitive-load-message-gate.md
+      ✗ extractions/donald-miller/storybrand-message-clarity-system/source-map.md
+      ✗ extractions/donald-miller/storybrand-message-clarity-system/extraction-brief.md
+    .agent/workflows/mission.md
+      ✗ agents/extraction-governor-agent/AGENT.md
+      ✗ agents/knowledge-librarian/AGENT.md
+    .agent/workflows/narrative-warfare.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+    .agent/workflows/new-media-content-engine.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+      ✗ skills/luke-iha-proof-copy/genius.md
+      ✗ skills/luke-iha-proof-copy/workflows/proof-copy-engine.md
+      ✗ skills/lara-acosta/SKILL.md
+      ✗ skills/cardinal-mason/SKILL.md
+    .agent/workflows/new-media-ghostwriting.md
+      ✗ skills/nicolas-cole-ghostwriting/SKILL.md
+      ✗ skills/lara-acosta/SKILL.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+    .agent/workflows/niche-bending-system.md
+      ✗ extractions/tim-danilov/niche-bending-system/source-map.md
+      ✗ extractions/tim-danilov/niche-bending-system/command-contract.md
+      ✗ extractions/tim-danilov/niche-bending-system/operating-mechanics.md
+      ✗ extractions/tim-danilov/niche-bending-system/quality-gates.md
+    .agent/workflows/offer-stack.md
+      ✗ products/SKILL.md
+      ✗ products/genius.md
+      ✗ products/workflows/offer-stacking-optimizer.md
+    .agent/workflows/orchestrate.md
+      ✗ agents/antigravity-orchestrator/AGENT.md
+      ✗ .agent/orchestrator-state.md
+    .agent/workflows/platform-launch.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+      ✗ skills/lara-acosta/SKILL.md
+      ✗ skills/cardinal-mason/SKILL.md
+    .agent/workflows/platform-pulse.md
+      ✗ research_outputs/platform-pulse/YYYY-MM-DD-pulse.md
+    .agent/workflows/proof-across-platforms.md
+      ✗ skills/luke-iha-proof-copy/SKILL.md
+      ✗ skills/luke-iha-proof-copy/genius.md
+    .agent/workflows/reflect.md
+      ✗ knowledge/synthesis/slug.md
+    .agent/workflows/research-intelligence-agent.md
+      ✗ _active/research-intelligence-entry-point/README.md
+      ✗ _active/research-intelligence-entry-point/EXPERT-COUNCIL.md
+      ✗ _active/research-intelligence-entry-point/MARKET-TRUTH-LEDGER.md
+      ✗ _active/research-intelligence-entry-point/HUMAN-RESONANCE-GATE.md
+      ✗ _active/research-intelligence-entry-point/LEAD-MAGNET.md
+      ✗ _active/research-intelligence-entry-point/RESEARCH-BRIEF-TEMPLATE.md
+      ✗ .agent/research-intelligence-agent-state.md
+    .agent/workflows/roth-content.md
+      ✗ skills/eric-roth-writing-mastery/workflows/content-writing-mastery.md
+    .agent/workflows/roth-copy.md
+      ✗ skills/eric-roth-writing-mastery/workflows/copywriting-elevation-protocol.md
+    .agent/workflows/roth-erosion.md
+      ✗ skills/eric-roth-writing-mastery/workflows/erosion-protocol-all-content.md
+    .agent/workflows/roth-residue.md
+      ✗ skills/eric-roth-writing-mastery/workflows/memorable-residue-engineering.md
+    .agent/workflows/roth-social.md
+      ✗ skills/eric-roth-writing-mastery/workflows/social-media-craft-engine.md
+    .agent/workflows/roth-theme.md
+      ✗ skills/eric-roth-writing-mastery/workflows/theme-compass-content-strategy.md
+    .agent/workflows/roth-tone.md
+      ✗ skills/eric-roth-writing-mastery/workflows/tone-compass-marketing.md
+    .agent/workflows/roth-visual-prose.md
+      ✗ skills/eric-roth-writing-mastery/workflows/visual-prose-for-content.md
+    .agent/workflows/ship.md
+      ✗ skills/lara-acosta-linkedin-content/SKILL.md
+      ✗ skills/nicolas-cole-digital-writing/SKILL.md
+    .agent/workflows/sinem-50-notes-extract.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-about-page.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-audit.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-bestseller-campaign.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-collaboration-outreach.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-multimedia-accelerator.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-notes-discovery.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-paid-tier-design.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-publication-setup.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-quarterly-review.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-retention-engine.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/sinem-revenue-architect.md
+      ✗ agents/skills/source-command-sinem-substack/genius.md
+    .agent/workflows/skill-evolution.md
+      ✗ .agent/evolution-cycle-counter.json
+      ✗ knowledge/patterns/discarded-lessons.md
+    .agent/workflows/source-to-skill-system.md
+      ✗ extractions/video-context/PzVV4X37ihg/analysis.md
+      ✗ extractions/video-context/PzVV4X37ihg/video-context-ledger.md
+      ✗ extractions/video-context/PzVV4X37ihg/uncertainty-report.md
+      ✗ extractions/video-context/ogTLWGBc3cE/analysis.md
+      ✗ extractions/video-context/ogTLWGBc3cE/video-context-ledger.md
+      ✗ execution/verify_behavior_changing_extraction_contract.py
+    .agent/workflows/storybrand-message-clarity-system.md
+      ✗ extractions/donald-miller/storybrand-message-clarity-system/source-map.md
+      ✗ extractions/donald-miller/storybrand-message-clarity-system/skill-system-contract.md
+    .agent/workflows/system-audit.md
+      ✗ execution/verify_intent_memory_contract.py
+      ✗ execution/verify_system_cohesion_spine.py
+      ✗ execution/verify_automation_cohesion_standard.py
+      ✗ execution/verify_agentic_engineering_loop_contract.py
+    .agent/workflows/talking-points.md
+      ✗ extractions/transcripts/my-talk.txt
+    .agent/workflows/test-model-compliance.md
+      ✗ skills/lara-acosta-linkedin/SKILL.md
+    .agent/workflows/velocity-to-content.md
+      ✗ skills/content-psychology/SKILL.md
+    .agent/workflows/vibe-tax-brief.md
+      ✗ _active/research-intelligence-entry-point/README.md
+      ✗ _active/research-intelligence-entry-point/EXPERT-COUNCIL.md
+      ✗ _active/research-intelligence-entry-point/LEAD-MAGNET.md
+      ✗ _active/research-intelligence-entry-point/HUMAN-RESONANCE-GATE.md
+      ✗ _active/research-intelligence-entry-point/MARKET-TRUTH-LEDGER.md
+      ✗ _active/research-intelligence-entry-point/RESEARCH-BRIEF-TEMPLATE.md
+      ✗ _active/research-intelligence-entry-point/COPY-GATE-RESULT.md
+    .agent/workflows/vibe-tax-deploy.md
+      ✗ _active/vibe-tax-brief-deployment-os/START-HERE.md
+      ✗ _active/research-intelligence-entry-point/README.md
+      ✗ _active/research-intelligence-entry-point/LEAD-MAGNET.md
+      ✗ _active/research-intelligence-entry-point/OFFER-PAGE.md
+      ✗ _active/research-intelligence-entry-point/RESEARCH-BRIEF-TEMPLATE.md
+      ✗ _active/vibe-tax-brief-deployment-os/RESEARCH-LEDGER.md
+      ✗ _active/research-intelligence-entry-point/EXPERT-COUNCIL.md
+      ✗ _active/research-intelligence-entry-point/HUMAN-RESONANCE-GATE.md
+      ✗ _active/research-intelligence-entry-point/STICKINESS-GATE.md
+      ✗ _active/research-intelligence-entry-point/SOCIAL-DISTRIBUTION-PACK.md
+      ✗ _active/research-intelligence-entry-point/SAMPLE-BRIEF.md
+      ✗ _active/research-intelligence-entry-point/COPY-GATE-RESULT.md
+      ✗ _active/vibe-tax-brief-deployment-os/DEPLOYMENT-RUNBOOK.md
+      ✗ _active/vibe-tax-brief-deployment-os/LINKEDIN-LAUNCH-POST.md
+      ✗ _active/vibe-tax-brief-deployment-os/content-cards/vibe-tax-launch-001.md
+      ✗ .agent/missions/vibe-tax-brief-deployment-os/mission.json
+      ✗ _active/farrice-brand/ideation-bank/voice-signals.md
+    .agent/workflows/vibe-tax-result-writer.md
+      ✗ _active/research-intelligence-entry-point/README.md
+      ✗ _active/research-intelligence-entry-point/LEAD-MAGNET.md
+      ✗ _active/research-intelligence-entry-point/HUMAN-RESONANCE-GATE.md
+      ✗ _active/research-intelligence-entry-point/RESEARCH-BRIEF-TEMPLATE.md
+      ✗ _active/research-intelligence-entry-point/COPY-GATE-RESULT.md
+      ✗ _active/research-intelligence-entry-point/06-system/vibe-tax-diagnostic-lab-portable-schema-2026-05-12.md
+      ✗ _active/research-intelligence-entry-point/04-deliverables/vibe-tax-google-ship-checklist-2026-05-12.md
+    .agent/workflows/vicious-hook-sprint.md
+      ✗ hooks/SKILL.md
+      ✗ hooks/genius.md
+      ✗ hooks/workflows/vicious-hook-sprint.md
+    .agent/workflows/vicious-hook.md
+      ✗ hooks/SKILL.md
+      ✗ hooks/genius.md
+      ✗ hooks/workflows/vicious-hook-writer.md
+    .agent/workflows/vicious-rewrite.md
+      ✗ hooks/SKILL.md
+      ✗ hooks/genius.md
+      ✗ hooks/workflows/vicious-rewrite-engine.md
+    .agent/workflows/vince-ai-native-team-design.md
+      ✗ skills/nate-b-jones-ai-agent-architecture/genius.md
+    .agent/workflows/vince-x-luke-data-driven-hooks.md
+      ✗ skills/luke-iha-copywriting/genius.md
+    .agent/workflows/watch-and-remix.md
+      ✗ extractions/source/visual-context.md
+    .agent/handoffs/2026-06-20-diandra-hooks-only.md
+      ✗ _active/linkedin/ai-boom-content-DIANDRA-upgrade.md
+      ✗ _active/linkedin/ai-boom-Post1-SANDWICH-result.md
+    .agent/handoffs/2026-06-23-content-os-slop-fix.md
+      ✗ _active/linkedin/content-engine/CONTENT-ENGINE.md
+    .agent/handoffs/2026-07-01-john-whiting-propaganda-os.md
+      ✗ _active/linkedin/research/deep-icp-profile-invisible-expert.md
+    .agent/handoffs/2026-07-01-sky-tan-format-engine.md
+      ✗ _active/linkedin/sky-format-farrice.md
+      ✗ _active/linkedin/authority-flywheel-format-finder-onepager.md
+    .agent/handoffs/2026-07-04-claude-video-watch-update.md
+      ✗ skills/watch/scripts/watch.py
+    .agent/handoffs/2026-07-05-dwa-threads-engine-2026-07-05.md
+      ✗ deliverables/00-ground-truth-compliance-and-offer.md
+      ✗ deliverables/00-farrice-voice-and-assets.md
+    .agent/handoffs/2026-07-05-pmf-offer-package-2026-07-05.md
+      ✗ deliverables/06-delivery-blueprint.md
+      ✗ deliverables/01-offer-positioning.md
+    .agent/handoffs/2026-07-06-customer-truth-map.md
+      ✗ extractions/customer-truth-map/transcript.txt
+      ✗ execution/ctm_verbatim_check.py
+      ✗ skills/customer-truth-map/references/worked-exemplar-jen-fthb.md
+      ✗ extractions/customer-truth-map/extraction-report.md
+      ✗ execution/token_meter.py
+    .agent/handoffs/2026-07-06-execution.md
+      ✗ /Users/farricecain/Google Antigravity/execution/token_meter.py
+    .agent/handoffs/2026-07-07-pmf-ofm-options-2026-07-07.md
+      ✗ deliverables/best-paths-brief/10-BEST-PATHS-STRATEGIC-BRIEF.md
+    .agent/handoffs/2026-07-11-context-engineering-os.md
+      ✗ _active/linkedin/00-CONTROL-TOWER.md
+    .agent/handoffs/2026-07-13-farrice-engine.md
+      ✗ _active/linkedin/drive-export-manifest.json
+    .agent/handoffs/2026-07-13-stanton-extraction-deploy.md
+      ✗ _active/linkedin/content-os/REVIEW-clean-posts.md
+    .agent/handoffs/2026-07-15-jeremy-haynes-cold-offer.md
+      ✗ /Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-articulation-brief.md
+    .agent/handoffs/2026-07-15-system-health-check-framework.md
+      ✗ /Users/farricecain/Google Antigravity/_active/harness/system-health-check-framework/FRAMEWORK.md
+    .agent/handoffs/2026-07-16-social-listening-head-spec.md
+      ✗ execution/hooks/apify_mcp_bootstrap.py
+    .agent/handoffs/2026-07-21-linkedin-launch.md
+      ✗ deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md
+    .agent/handoffs/2026-07-24-workflows.md
+      ✗ /Users/farricecain/Google Antigravity/skills/riley-brown-marketing-automation/workflows/2-practitioner-engagement-detector.md
+      ✗ /Users/farricecain/Google Antigravity/skills/riley-brown-marketing-automation/workflows/2-practitioner-research-pipeline.md
+      ✗ /Users/farricecain/Google Antigravity/skills/riley-brown-marketing-automation/workflows/3-stacking-lara-amplifier.md
+      ✗ /Users/farricecain/Google Antigravity/skills/riley-brown-marketing-automation/workflows/3-stacking-luke-auditor.md
+      ✗ /Users/farricecain/Google Antigravity/skills/riley-brown-marketing-automation/workflows/3-stacking-farrice-parallax-pipeline.md
+    .agent/handoffs/2026-07-25-execution.md
+      ✗ /Users/farricecain/Google Antigravity/execution/plugin_build.py
+      ✗ /Users/farricecain/Google Antigravity/skills/forge-os/workflows/arsenal-loop-e2e-probe.md
+    .agent/handoffs/2026-07-25-offer-rederivation-2026-07-25.md
+      ✗ deliverables/OFFER-VALIDATION-VERIFIED.md
+      ✗ deliverables/DEPTH-FIX-PROOF.md
+    .agent/handoffs/2026-07-27-deliverables.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    .agent/handoffs/2026-07-28-deliverables.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    .agent/handoffs/2026-07-28-hillary-gidley.md
+      ✗ /Users/farricecain/Google Antigravity/extractions/hillary-gidley/vision.md
+    .agent/handoffs/2026-08-01-codex-end-session-control-plane.md
+      ✗ /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/end-session-control-plane/guides/2026-08-01-codex-end-session-control-plane.md
+      ✗ /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/end-session-control-plane/execution/codex_end_session.py
+      ✗ /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/end-session-control-plane/execution/handoff_store.py
+      ✗ /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/end-session-control-plane/execution/end_session_closeout.py
+      ✗ /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/end-session-control-plane/execution/verify_codex_end_session.py
+    .agent/handoffs/2026-08-05-digital-product-lane-2026-08-05.md
+      ✗ /Users/farricecain/Google Antigravity/_active/offer-strategy/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md
+    .agent/handoffs/2026-08-05-linkedin-launch.md
+      ✗ deliverables/hotel-test-luxury-lane-2026-08-05.md
+    .agent/handoffs/2026-08-06-mastery-forge.md
+      ✗ .agent/odds-api-quota.json
+    .agent/handoffs/2026-08-07-health-performance-ip-library.md
+      ✗ /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/weekly/2026-W32-health-performance-synthesis.md
+    .agent/handoffs/2026-08-07-linkedin-launch.md
+      ✗ /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md
+    .agent/handoffs/2026-08-08-deliverables.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    .agent/handoffs/2026-08-08-loss-alarm-repair.md
+      ✗ products/catalog.md
+      ✗ deliverables/carousel_scripts/YOUR_FILE.md
+      ✗ execution/perplexity.py
+      ✗ execution/jsonl_surgery.py
+    .agent/handoffs/2026-08-16-cos-standing-board.md
+      ✗ agents/skills/source-command-cos/SKILL.md
+    .agent/handoffs/2026-08-21-guides-empty-slug-fix.md
+      ✗ guides/YYYY-MM-DD-.md
+      ✗ guides/2026-08-20-.md
+    .agent/handoffs/2026-08-24-deliverables.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    .agent/handoffs/2026-08-29-jen-team-pilot.md
+      ✗ agents/jen-brand-card.md
+    .agent/handoffs/2026-08-30-deliverables.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    .agent/handoffs/LATEST.md
+      ✗ /Users/farricecain/Google Antigravity/deliverables/_receipt_selftest.md
+    deliverables/research-briefs/mission-execution/mission-execution-brief.md
+      ✗ execution/mission-execution-brief.md
+
+  484 missing pointer(s). A live doc citing a missing file
+  is a LOSS SIGNAL — check `git log --all -- <path>` for orphaned
+  commits BEFORE repointing (docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md).
+==============================================================
+
