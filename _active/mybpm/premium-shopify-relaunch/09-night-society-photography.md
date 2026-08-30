@@ -4,6 +4,20 @@
 
 Lock the recurring photographic world for MyBPM before deciding typography, materials, product presentation, page composition, or Shopify implementation.
 
+## Revision 2 — PLUR beyond the dance floor
+
+The first photography board was too heavily weighted toward listening rooms and quiet interiors. It established maturity, but underrepresented the actual EDM community, festival life, and the values MyBPM exists to carry forward.
+
+The expanded photography world now has three equal narrative territories:
+
+1. **At the event** — festival and event images where joy, individuality, participation, and community are visible.
+2. **In between** — thresholds, transit, recovery, weather, and the visual afterimage of the night.
+3. **In daily life** — work, city movement, record shops, cafés, homes, and friendships where the same identity remains present.
+
+PLUR is shown through conduct rather than decorative language: welcoming, sharing, checking in, making room, respecting boundaries, protecting one another, and carrying connection into ordinary life.
+
+**Extended thesis:** The dance floor is where we practice the values. Daily life is where we prove them.
+
 ## Locked synthesis
 
 Night Society is the permanent world. Afterimage Archive is its emotional thesis. The images should feel like an adult electronic-music culture documented from inside: credible people, refined clothes, private rituals, thresholds, transit, and the quiet proof that identity continues after the event ends.
@@ -21,11 +35,11 @@ The pairing makes continuity visible. It also creates an original, repeatable ed
 
 ## Image ratio
 
-- **60% Private culture:** quiet interiors, real actions, mature social intimacy.
-- **25% Threshold:** exits, corridors, platforms, street crossings, transitional architecture.
-- **15% Evidence:** garment wear, hands, pockets, record sleeves, earplug cases, transit objects, subtle remnants.
+- **40% Events and festivals:** expressive full looks, human connection, care, and participation.
+- **25% Threshold and afterimage:** exits, corridors, platforms, street crossings, transitional architecture.
+- **35% Daily life:** quiet interiors, work, movement, friendship, and mature social intimacy.
 
-This ratio protects the premium Night Society frame while giving Afterimage enough pressure to make it MyBPM.
+This ratio protects the premium Night Society frame while making the real EDM community—and the PLUR values lived beyond the event—the center of MyBPM.
 
 ## Composition rules
 
@@ -36,6 +50,8 @@ This ratio protects the premium Night Society frame while giving Afterimage enou
 - Use 35mm and 50mm documentary proximity. Avoid hyper-wide club distortion and glossy 85mm beauty perfection as the default.
 - Preserve empty space and real architecture. One intentional off-center or cropped frame may break the grid per story.
 - Show people choosing, listening, leaving, waiting, carrying, or remembering. Do not pose them beside records as décor.
+- At events, frame people before spectacle: recognizable faces, complete looks, gestures of care, and enough environment to establish the culture.
+- Treat festival photography with the same editorial discipline as the daily-life imagery; energy does not require visual chaos.
 
 ## The one thing
 
@@ -46,6 +62,8 @@ This ratio protects the premium Night Society frame while giving Afterimage enou
 - No fake members' club, velvet-rope, hotel-lobby, cigar-room, or hospitality luxury.
 - No staged vinyl worship or record walls used as instant credibility.
 - No literal festival, laser, DJ-booth, waveform, or cyberpunk imagery.
+- No anonymous crowd-only spectacle, influencer posing, or festival-fashion costume coverage.
+- No rainbow-coded PLUR clichés or values reduced to decorative slogans.
 - No retro costume styling or nostalgia cosplay.
 - No anonymous models pretending to be a community.
 - No amber-brown wash over every image; warmth belongs to interiors, not the entire brand.
@@ -62,3 +80,5 @@ The white storefront remains quiet. Paired campaign plates create the emotional 
 - `REJECT PHOTOGRAPHY: [why]`
 
 Typography, texture, and Shopify remain untouched until this gate is approved.
+
+All photographs in the visual board are reference-only and source-linked. Commercial site imagery must be commissioned, licensed, or originally produced before publication.
