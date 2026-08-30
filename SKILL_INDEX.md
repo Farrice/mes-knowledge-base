@@ -49,7 +49,7 @@
 | `brandon-jacoby-taste-mastery` | **Brandon Jacoby: Taste Mastery and Deployment** | taste as decisive product judgment: knowing when to obey patterns, when to invent, how to push past good enough | 10 | 3 |
 | `brendan-kane-viral-strategy` | **brendan-kane-viral-strategy** | treats virality as a reproducible research discipline, not luck, viral strategy & hook points | 3 | 0 |
 | `briar-cochran-content-science` | **briar-cochran-content-science** | content ideation, content testing, data-backed topics | 12 | 0 |
-| `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | for tiktok/short-form video patterns use a video-specific skill, shareworthy content mastery | 3 | 6 |
+| `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | for tiktok/short-form video patterns use a video-specific skill, shareworthy content mastery | 4 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** | mckinsey-level business analysis and deep web extraction for consulting engag... | 3 | 10 |
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 21 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
@@ -184,7 +184,7 @@
 | `kallaway-addictive-storytelling` | **kallaway-addictive-storytelling** | neurochemical retention engineering (content psychology × audience obsession), governing metric is time-per-hand — gap between dopamine hits, skill.md | 12 | 0 |
 | `kallaway-ai-content-engine` | **kallaway-ai-content-engine** | ai-augmented content production infrastructure, outlier mining, hook clustering | 5 | 0 |
 | `kallaway-audience-obsession` | **Kallaway Audience Obsession** | kallaway's power of suggestion framework for engineering audience obsession t..., audience obsession engineering | 12 | 0 |
-| `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 1 | 0 |
+| `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 2 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 10 | 39 |
 | `kallaway-content-system` | **Kallaway Content System** | end-to-end ai-enabled content production system: validated topics, format locking, substance | 9 | 0 |
 | `kallaway-hook-mastery` | **kallaway-hook-mastery** | hooks, attention, short-form content | 10 | 0 |

@@ -41,7 +41,7 @@
 | `brad-bonanno` | **Brad Bonanno** | agent, explainer-video architecture |
 | `brendan-kane` | **brendan-kane** | gsb performance analysis, hook point architect, hook point engineering, hook points, mass-audience translation, retention storytelling, social media format research, viral content strategy, viral format research, viral strategy |
 | `briar-cochran` | **Briar Cochran** | agent configuration |
-| `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
+| `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, say–do–need message bridge, shareworthy content framework, specificity-as-relatability |
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `chase-hughes` | **Chase Hughes** | agent configuration |
