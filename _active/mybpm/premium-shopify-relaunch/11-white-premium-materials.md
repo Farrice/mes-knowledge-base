@@ -2,7 +2,7 @@
 
 ## Status
 
-Photography V3 is **LOCKED**. This is the next single-decision board.
+Photography V3 and the white-premium material system are **LOCKED — 2026-08-30**.
 
 ## Decision this board serves
 
@@ -105,7 +105,7 @@ This is a hierarchy, not a recipe to fill every frame. Some pages should be near
 
 ## Decision language
 
-- `LOCK MATERIALS` — preserve this material ratio and build the typography/wordmark board next.
+- `LOCK MATERIALS` — completed 2026-08-30. Preserve this material ratio through typography and wordmark development.
 - `REVISE MATERIALS: [specific material, ratio, or use]`
 - `ELIMINATE: [specific image, material, or finish]`
 
