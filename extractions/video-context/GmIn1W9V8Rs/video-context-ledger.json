@@ -1,0 +1,16 @@
+[
+  {"type":"observed_spoken","start":"00:00:41","end":"00:00:53","claim":"Modern content stack; views are the third metric","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:01:03","end":"00:03:44","claim":"ICP density, content minutes, and short/long form feeding email","status":"VERIFIED_SOURCE_STATED"},
+  {"type":"observed_spoken","start":"00:07:35","end":"00:08:30","claim":"Email conversions then followers then views; competitor views are a public proxy","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:15:11","end":"00:17:47","claim":"Micro-to-medium watchlist and celebrity confounder control","status":"VERIFIED"},
+  {"type":"observed_visual","start":"00:15:15","end":"00:17:30","claim":"Sandcastles channel discovery and watchlist construction demonstrated","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:19:08","end":"00:20:04","claim":"Topics stay in-niche while hooks, formats, and edits may transfer cross-niche","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:20:53","end":"00:21:42","claim":"Two-percent engagement floor and rolling three-month outlier score","status":"VERIFIED"},
+  {"type":"observed_visual","start":"00:20:35","end":"00:23:11","claim":"Video filters, outlier badges, transcript, hook, story, and visual analysis demonstrated","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:25:01","end":"00:28:28","claim":"Competitor and first-party lanes plus interesting and non-obvious approval gate","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:29:55","end":"00:30:21","claim":"Five-times outlier and two-percent engagement automation rule","status":"VERIFIED"},
+  {"type":"observed_visual","start":"00:29:55","end":"00:29:55","claim":"Automation form shows minimum outlier 5 and engagement 2","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:31:18","end":"00:33:30","claim":"External structure at cold start, own top performers after ten to twenty videos","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:33:39","end":"00:36:53","claim":"Per-stage data-creative dial and data enabled creativity","status":"VERIFIED"},
+  {"type":"observed_spoken","start":"00:36:57","end":"00:38:00","claim":"Visual comprehension moat balanced against resources and email conversion","status":"VERIFIED_SOURCE_STATED"}
+]

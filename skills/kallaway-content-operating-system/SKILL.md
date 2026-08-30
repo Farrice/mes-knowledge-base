@@ -40,7 +40,8 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 |---|---|---|
 | Source evidence | `extractions/video-context/<video_id>/` | Ground every system claim in transcript, frame, OCR, or uncertainty rows. |
 | Signal radar | `/kallaway-trend-hook-engine` | Normalize compliant trend inputs, score outliers, cluster hook patterns, and hand off to human creative reaction. |
-| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving human judgment. |
+| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving metric classes, cohort integrity, first-party learning maturity, and human creative judgment. |
+| Client strategy delivery | `growth-blueprint-os` | Turn the accepted evidence set into durable positioning, whitespace, bullseye, topic, format, and flagship client artifacts. |
 | Strategy and buyer intent | `kallaway-content-psychology` | Choose the content market, dopamine strategy, buyer path, and conversion intent. |
 | Authority density | `workflows/micro-fame-authority-density.md` | Separate reach from fit, trust, and commercial action; find the decisive positioning contrast; run the broad/narrow/chaos portfolio; review after the four-rep floor. |
 | Authority transfer | `luke-iha-insight-vectors` | Add one grounded mental-model shift when authority content explains evidence without giving the reader a portable new rule. |
@@ -93,9 +94,17 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 
 `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep`
 
+Before the sprint, declare `COLD_START`, `HYBRID`, or `OWNED_LEARNING`; label signals as private outcomes, owned proxies, or public proxies; and keep cross-niche or celebrity examples format-only.
+
 **Trend Hook Engine**
 
 `/kallaway-trend-hook-engine -> /ai-topic-mining -> /ai-hook-extractor -> /kcs-topic-format -> /kcs-hook-triad -> /ai-creative-sprint`
+
+**Sellable Client Strategy Package**
+
+`outlier-radar signal pack -> kallaway-ai-content-engine research controls -> /gb-orchestrate -> production components as needed`
+
+Growth Blueprint owns the strategy engagement and its artifacts. This OS owns the route into production; it does not recreate the dossier, whitespace map, bullseye, topic scan, format playbook, or assembled blueprint.
 
 ## Evidence And Context Policy
 
@@ -117,6 +126,8 @@ Every run must prove:
 6. Positioning work identifies the smallest decisive contrast instead of filling a seven-axis checklist.
 7. Broad reach, audience fit, trust behavior, and commercial action remain separate, and four reps are treated as the minimum evidence floor.
 8. Narrow authority content gives the reader one grounded perspective shift or portable decision rule; factual explanation alone is credibility, not complete authority transfer.
+9. Views are not allowed to stand in for trust, demand, conversion, or revenue.
+10. The competitor-to-owned evidence mix changes after the first 10-20 published pieces.
 
 ## File Map
 

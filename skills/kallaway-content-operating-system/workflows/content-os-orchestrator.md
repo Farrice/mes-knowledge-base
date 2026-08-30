@@ -41,6 +41,8 @@ Ask only if the missing information changes the execution path. Otherwise state 
 | Build hooks that cannot be skipped | `onQoYdxWXdA` | `/kcs-hook-triad -> /word-opener -> /word-grip -> /addiction-loop-architect` |
 | Upgrade storytelling and retention | `SDHKQbKC7gA` | `/addiction-loop-architect -> /loop-chain-scripting -> /word-rhythm -> /word-grip` |
 | Create content faster with AI | `1q__Vs2JqbI`, `B9l9TRhu5Vw` | `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep` |
+| Build data-enabled creativity without proxy drift | `GmIn1W9V8Rs` | `/ai-topic-mining -> /ai-creative-sprint -> /kcs-one-rep -> /kcs-performance-loop` |
+| Deliver a sellable client content strategy | `GmIn1W9V8Rs` + `extractions/kallaway/` | `outlier-radar signal pack -> kallaway-ai-content-engine research controls -> /gb-orchestrate -> selected production components` |
 
 ## Execution Protocol
 
@@ -48,8 +50,9 @@ Ask only if the missing information changes the execution path. Otherwise state 
 2. Load no more than three source analyses unless the user asks for a full evidence synthesis.
 3. Produce a compact source evidence summary.
 4. When the authority lane is selected, load `workflows/micro-fame-authority-density.md`. Treat the seven positioning axes as search lenses, surface only the decisive contrast, and treat four reps as the minimum evidence floor.
-5. Run the component chain in order.
-6. After each component, write a handoff:
+5. For research or AI-production lanes, declare the data-maturity state (`COLD_START`, `HYBRID`, or `OWNED_LEARNING`), highest available metric class, and topic-vs-format cohort boundary.
+6. Run the component chain in order.
+7. After each component, write a handoff:
 
 ```markdown
 ## Skill System Handoff: [Component] -> [Next Component]
@@ -61,7 +64,7 @@ Ask only if the missing information changes the execution path. Otherwise state 
 - **Open risk**: [none or exact limitation]
 ```
 
-7. Produce the first artifact:
+8. Produce the first artifact:
    - authority-density diagnostic
    - positioning contrast brief
    - 3-2-1 authority batch plan
@@ -72,7 +75,7 @@ Ask only if the missing information changes the execution path. Otherwise state 
    - 10-video batch plan
    - content system audit
    - content-to-revenue map
-8. Close with validation, next command, and reuse hook.
+9. Close with validation, next command, and reuse hook.
 
 ## Output Schema
 
@@ -105,6 +108,9 @@ Before final output, confirm:
 - Authority-lane outputs keep reach, fit, trust, and commercial action separate.
 - Positioning outputs surface the smallest decisive contrast rather than a completed axis checklist.
 - Four-rep reviews treat four fair executions as a floor and preserve `INCONCLUSIVE` when evidence conflicts.
+- Public views are never reported as proof of demand, conversion, or revenue.
+- Competitor research is intentionally reduced once 10-20 owned pieces provide usable first-party evidence.
+- AI collection and drafting never substitute for the creator's thesis, substance, or final creative judgment.
 
 ## Failure Modes
 

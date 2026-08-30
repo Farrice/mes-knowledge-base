@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 3-2-1 Mix — Farrice Cain</title>
+<style>
+  :root{--navy:#0F172A;--panel:#1E293B;--line:#334155;--text:#F1F5F9;--dim:#94A3B8;--chaos:#A78BFA}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin:0 auto}
+  h1{font-size:1.4rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;line-height:1.5;margin-bottom:10px}
+  #stage{max-width:480px;margin:0 auto}
+  svg{width:100%;height:auto;display:block}
+  .zone{cursor:pointer}
+  .zone:hover path{filter:brightness(1.25)}
+  .dart{cursor:pointer;font-weight:800}
+  .toggle{display:flex;gap:8px;justify-content:center;margin:10px 0}
+  .toggle button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:99px;padding:6px 14px;font-size:.78rem;cursor:pointer}
+  .toggle button.on{background:#334155;border-color:#64748B}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin:10px auto;display:none;font-size:.85rem;line-height:1.55;max-width:560px}
+  .card.open{display:block}
+  .batch{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;margin-top:16px}
+  .batch h3{font-size:.9rem;margin-bottom:10px}
+  .slots{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+  .slot{border-radius:8px;padding:7px 4px;text-align:center;font-size:.66rem;line-height:1.3;min-height:96px}
+  .slot b{display:block;font-size:.85rem;margin-bottom:3px}
+  .rack{margin-top:22px}
+  .rack h2{font-size:1.05rem;margin-bottom:2px}
+  .rack .rsub{color:var(--dim);font-size:.8rem;margin-bottom:12px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .bcard{background:var(--panel);border:2px solid var(--line);border-radius:12px;padding:11px 12px;font-size:.78rem;line-height:1.45;cursor:pointer;transition:all .25s;position:relative}
+  .bcard .ringbadge{position:absolute;top:9px;right:10px;font-size:.62rem;font-weight:800;padding:2px 7px;border-radius:99px;background:#0F172A}
+  .bcard h4{font-size:.88rem;margin-bottom:3px;padding-right:52px}
+  .bcard .job{color:#CBD5E1;margin-bottom:5px}
+  .bcard .ex{color:var(--dim);font-size:.72rem}
+  .bcard.activeb{border-color:#FCD34D;box-shadow:0 0 14px #FCD34D33}
+  .bcard.activeb::after{content:'ON THE BOARD';position:absolute;bottom:8px;right:10px;font-size:.58rem;font-weight:800;color:#FCD34D;letter-spacing:.5px}
+  .bcard.bench{opacity:.55}
+  .bcard.bench:hover{opacity:.9}
+  .bcard.bench::after{content:'BENCH — tap to swap in';position:absolute;bottom:8px;right:10px;font-size:.58rem;font-weight:800;color:#94A3B8;letter-spacing:.5px}
+  .chaosbox{margin-top:14px;border:1px dashed var(--chaos);border-radius:12px;padding:12px 14px;font-size:.8rem;line-height:1.5}
+  .chaosbox h4{color:var(--chaos);font-size:.85rem;margin-bottom:4px}
+  .note{color:var(--dim);font-size:.75rem;text-align:center;margin-top:6px}
+</style>
+</head>
+<body>
+  <h1>The 3-2-1 Content Mix</h1>
+  <div class="sub"><b>3 topic buckets · 2 videos each per batch · 1 chaos agent = the 7-video batch.</b> Buckets live on Rings 2–4 only. Ring 1 is who you <em>speak to</em>, not a content lane; Ring 5 is the danger zone — going viral with the wrong avatar wrecks the algorithm's read on who your channel is for.</div>
+  <div class="toggle">
+    <button id="tNow" class="on" onclick="setMode('now')">Batch 1 (today)</button>
+    <button id="tLater" onclick="setMode('later')">After 2–3 batches (calibration)</button>
+  </div>
+  <div id="stage"><svg id="sv" viewBox="0 0 480 480" aria-label="3-2-1 mix on the bullseye"></svg></div>
+  <div class="note" id="modeNote">Tap a bucket zone or a dart for its card. Tap a bench card below to swap it onto the board.</div>
+  <div class="card" id="card"></div>
+
+  <div class="batch">
+    <h3>The 7-video batch — 2 | 2 | 2 | +1</h3>
+    <div class="slots" id="slots"></div>
+  </div>
+
+  <div class="rack">
+    <h2>Pick the three that fit</h2>
+    <div class="rsub">These are my recommendations — swap any of them. Narrow swaps for narrow, broad for broad (the 2-narrow + 1-broad shape is the rule). The bench stays in your map as live alternates.</div>
+    <div class="cards" id="rack"></div>
+    <div class="chaosbox" id="chaosbox"></div>
+  </div>
+
+<script>
+// Static, file-authored data only.
+function setHTML(el, html){ el.replaceChildren(document.createRange().createContextualFragment(html)); }
+
+const BUCKETS = {
+ N1:{name:'Claim Autopsies', ring:2, breadth:'narrow', job:'Own the empty claims-and-compliance lane; make the $53,088 stakes felt', ex:['The anatomy of a warning-letter claim','Rewriting a banned claim so it\'s legal AND stronger']},
+ N2:{name:'What To Prove', ring:2, breadth:'narrow', job:'Teach the proof-hierarchy decision — the offer\'s core thesis as content', ex:['Your study is real. Your ad still lies.','Who has to believe you: buyer, FTC, or algorithm?']},
+ N3:{name:'Launch-Clock Decisions', ring:2, breadth:'narrow', job:'Speak to the dated-occasion buyer; "writing problem" → "unmade decision"', ex:['The launch decision most founders never make','60 days out: what to settle before you fund a dollar']},
+ N4:{name:'The AI Shortlist', ring:3, breadth:'narrow', job:'AI-citation topic WITH the claims layer competitors skip', ex:['ChatGPT recommends your competitor. Here\'s why.','The two gates between your product and being the answer']},
+ N5:{name:'Behind the Counter', ring:3, breadth:'narrow', job:'Uncopyable proof lane: 18 years + the Vitamin Shoppe counter', ex:['Three years as the last person before purchase','What magazine-era ads taught me about your customer']},
+ B1:{name:'AI Killed the Average Brand', ring:4, breadth:'broad', job:'Reach engine on the AI-content trust collapse', ex:['AI didn\'t flatten your voice; it revealed you never had one','Consumer trust in AI content: 60% → 26%']},
+ B2:{name:'Ads Die Faster Now', ring:4, breadth:'broad', job:'Creative-fatigue economics — universal DTC pain', ex:['Your winning ad didn\'t die because the market got bored','"Testing" that\'s the same ad 15 times']},
+ B3:{name:'The Honest-Claim Problem', ring:4, breadth:'broad', job:'Your public thesis at category-agnostic altitude', ex:['Careful sounds like maybe; maybe loses to a lie','Why the truthful brand loses the banner war']},
+ B4:{name:'Say It In One Sentence', ring:4, breadth:'broad', job:'Founder-fog recognition content — the widest credible net', ex:['73% of founders can\'t say what their company does','The one-sentence test your positioning keeps failing']}
+};
+const CHAOS = {name:'Chaos agent — "Grading my own 2018 hype copy with 2026 rules"', kind:'pure "this shouldn\'t work" gut punt', ring:2,
+  note:'One rogue video per batch — a probe for lightning, not a strategy. It can land anywhere in Rings 1–4 (even inside Ring 1, which buckets can\'t touch) but NEVER Ring 5. Reserve: the substantiation-dossier read-along · the silent 1998-vs-2026 ad essay · "naptime is my office" · anime power-scaling your claims.'};
+
+let active = ['N1','N5','B1'];   // 2 narrow + 1 broad
+let narrowOrder = ['N1','N5'];   // oldest first — a bench narrow replaces the oldest
+let mode='now';
+
+const RINGBANDS={1:[0,52],2:[52,96],3:[96,140],4:[140,184],5:[184,226]};
+const RINGCOLORS={1:'#EF4444',2:'#F97316',3:'#F59E0B',4:'#38BDF8',5:'#1E3A5F'};
+const SLOTANGLES=[[-70,25],[135,230],[255,350]]; // arc spans for the 3 bucket zones
+const BCOLORS=['#EF4444','#F59E0B','#38BDF8'];   // narrow, narrow, broad
+const CX=240,CY=240;
+function polar(r,deg){const a=(deg-90)*Math.PI/180;return [CX+r*Math.cos(a),CY+r*Math.sin(a)];}
+function annular(a0,a1,r0,r1){
+  const large=(a1-a0)>180?1:0;
+  const [x0,y0]=polar(r1,a0),[x1,y1]=polar(r1,a1),[x2,y2]=polar(r0,a1),[x3,y3]=polar(r0,a0);
+  return `M ${x0} ${y0} A ${r1} ${r1} 0 ${large} 1 ${x1} ${y1} L ${x2} ${y2} A ${r0} ${r0} 0 ${large} 0 ${x3} ${y3} Z`;
+}
+const svg=document.getElementById('sv');
+
+function render(){
+  while(svg.firstChild) svg.removeChild(svg.firstChild);
+  // base rings (dim)
+  [5,4,3,2,1].forEach(n=>{
+    const c=document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx',CX);c.setAttribute('cy',CY);c.setAttribute('r',RINGBANDS[n][1]);
+    c.setAttribute('fill',RINGCOLORS[n]);c.setAttribute('opacity',n===1||n===5?'0.22':'0.32');
+    c.setAttribute('stroke','#0F172A');c.setAttribute('stroke-width','2');
+    svg.appendChild(c);
+  });
+  // no-fly hatching on Ring 1 + Ring 5
+  const defs=document.createElementNS('http://www.w3.org/2000/svg','defs');
+  const pat=document.createElementNS('http://www.w3.org/2000/svg','pattern');
+  pat.setAttribute('id','hatch');pat.setAttribute('width','8');pat.setAttribute('height','8');
+  pat.setAttribute('patternTransform','rotate(45)');pat.setAttribute('patternUnits','userSpaceOnUse');
+  const pl=document.createElementNS('http://www.w3.org/2000/svg','line');
+  pl.setAttribute('x1','0');pl.setAttribute('y1','0');pl.setAttribute('x2','0');pl.setAttribute('y2','8');
+  pl.setAttribute('stroke','#EF4444');pl.setAttribute('stroke-width','1.5');pl.setAttribute('opacity','0.5');
+  pat.appendChild(pl);defs.appendChild(pat);svg.appendChild(defs);
+  const h5=document.createElementNS('http://www.w3.org/2000/svg','path');
+  h5.setAttribute('d',annular(0,359.9,RINGBANDS[5][0],RINGBANDS[5][1]));
+  h5.setAttribute('fill','url(#hatch)');svg.appendChild(h5);
+  const h1=document.createElementNS('http://www.w3.org/2000/svg','circle');
+  h1.setAttribute('cx',CX);h1.setAttribute('cy',CY);h1.setAttribute('r',RINGBANDS[1][1]);
+  h1.setAttribute('fill','url(#hatch)');svg.appendChild(h1);
+  // no-fly labels
+  const l1=mk('text',{x:CX,y:CY-2,'text-anchor':'middle',fill:'#FCA5A5','font-size':'8.5','font-weight':'700'});
+  l1.textContent='RING 1: TOO NARROW';svg.appendChild(l1);
+  const l1b=mk('text',{x:CX,y:CY+9,'text-anchor':'middle',fill:'#94A3B8','font-size':'7'});
+  l1b.textContent='(no buckets — speak to, don\'t theme on)';svg.appendChild(l1b);
+  const l5=mk('text',{x:CX,y:CY-RINGBANDS[5][1]+14,'text-anchor':'middle',fill:'#FCA5A5','font-size':'9','font-weight':'800'});
+  l5.textContent='⚠ RING 5: TOO BROAD — viral with the wrong avatar';svg.appendChild(l5);
+
+  // bucket zones
+  const nowActive = mode==='later' ? active : active;
+  nowActive.forEach((id,slot)=>{
+    const b=BUCKETS[id], band=RINGBANDS[b.ring], [a0,a1]=SLOTANGLES[slot];
+    const g=document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.setAttribute('class','zone');
+    const p=document.createElementNS('http://www.w3.org/2000/svg','path');
+    p.setAttribute('d',annular(a0,a1,band[0]+3,band[1]-3));
+    p.setAttribute('fill',BCOLORS[slot]);p.setAttribute('opacity',mode==='later'&&slot===2?'0.35':'0.85');
+    p.setAttribute('stroke','#0F172A');p.setAttribute('stroke-width','1.5');
+    if(mode==='later'&&slot===0){p.style.filter='drop-shadow(0 0 12px '+BCOLORS[0]+')';p.setAttribute('opacity','1');}
+    g.appendChild(p);
+    const mid=(a0+a1)/2, rmid=(band[0]+band[1])/2;
+    const [tx,ty]=polar(rmid,mid);
+    const t=mk('text',{x:tx,y:ty-6,'text-anchor':'middle',fill:'#0F172A','font-size':'8.5','font-weight':'800'});
+    t.textContent=b.name.toUpperCase().slice(0,22);g.appendChild(t);
+    // 2 numbered darts (3 for the winner in later mode)
+    const nd = (mode==='later'&&slot===0)?3:2;
+    for(let d=0;d<nd;d++){
+      const [dx,dy]=polar(rmid,mid-14+d*14);
+      const circ=mk('circle',{cx:dx,cy:dy+8,r:8,fill:'#0F172A',stroke:BCOLORS[slot],'stroke-width':'2'});
+      g.appendChild(circ);
+      const dt=mk('text',{x:dx,y:dy+11,'text-anchor':'middle',fill:'#F1F5F9','font-size':'8','font-weight':'800',class:'dart'});
+      dt.textContent=(d+1);g.appendChild(dt);
+    }
+    g.addEventListener('click',()=>showBucketCard(id,slot));
+    svg.appendChild(g);
+  });
+  // chaos dart — violet, Rings 1–4 only
+  const chaosPos = mode==='later' ? polar((RINGBANDS[3][0]+RINGBANDS[3][1])/2, 60) : polar((RINGBANDS[2][0]+RINGBANDS[2][1])/2, 80);
+  if(mode==='later'){
+    // chaos minted a new zone
+    const p=document.createElementNS('http://www.w3.org/2000/svg','path');
+    p.setAttribute('d',annular(45,95,RINGBANDS[3][0]+3,RINGBANDS[3][1]-3));
+    p.setAttribute('fill','#A78BFA');p.setAttribute('opacity','0.8');
+    p.setAttribute('stroke','#0F172A');svg.appendChild(p);
+    const nt=mk('text',{x:polar(118,70)[0],y:polar(118,70)[1],'text-anchor':'middle',fill:'#0F172A','font-size':'7.5','font-weight':'800'});
+    nt.textContent='NEW BUCKET ← chaos hit';svg.appendChild(nt);
+  }
+  const cg=document.createElementNS('http://www.w3.org/2000/svg','g');
+  cg.setAttribute('class','zone');
+  const cc=mk('circle',{cx:chaosPos[0],cy:chaosPos[1],r:10,fill:'#A78BFA',stroke:'#0F172A','stroke-width':'2'});
+  cg.appendChild(cc);
+  const ctx=mk('text',{x:chaosPos[0],y:chaosPos[1]+3.5,'text-anchor':'middle',fill:'#0F172A','font-size':'9','font-weight':'900'});
+  ctx.textContent='🃏';cg.appendChild(ctx);
+  cg.addEventListener('click',showChaosCard);
+  svg.appendChild(cg);
+  renderSlots(); renderRack();
+}
+function mk(tag,attrs){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e;}
+
+function renderSlots(){
+  const rows=[];
+  active.forEach((id,slot)=>{
+    const b=BUCKETS[id];
+    b.ex.slice(0,2).forEach((ex,i)=>{
+      rows.push(`<div class="slot" style="background:${BCOLORS[slot]}22;border:1px solid ${BCOLORS[slot]}"><b style="color:${BCOLORS[slot]}">${rows.length+1}</b>${b.name}<div style="margin-top:4px;color:#CBD5E1">${ex}</div></div>`);
+    });
+  });
+  rows.push(`<div class="slot" style="background:#A78BFA22;border:1px dashed #A78BFA"><b style="color:#A78BFA">7 🃏</b>CHAOS<div style="margin-top:4px;color:#CBD5E1">2018 hype copy, graded live</div></div>`);
+  setHTML(document.getElementById('slots'), rows.join(''));
+}
+
+function renderRack(){
+  const html=Object.entries(BUCKETS).map(([id,b])=>{
+    const isActive=active.includes(id);
+    return `<div class="bcard ${isActive?'activeb':'bench'}" data-id="${id}">
+      <span class="ringbadge" style="color:${RINGCOLORS[b.ring]};border:1px solid ${RINGCOLORS[b.ring]}">RING ${b.ring} · ${b.breadth.toUpperCase()}</span>
+      <h4>${b.name}</h4>
+      <div class="job">${b.job}</div>
+      <div class="ex">• ${b.ex[0]}<br>• ${b.ex[1]}</div>
+    </div>`;
+  }).join('');
+  setHTML(document.getElementById('rack'), html);
+  document.querySelectorAll('.bcard').forEach(c=>c.addEventListener('click',()=>swapIn(c.getAttribute('data-id'))));
+  setHTML(document.getElementById('chaosbox'), `<h4>🃏 Slot 7 — ${CHAOS.name}</h4><div style="color:#CBD5E1">${CHAOS.kind} · lands on Ring ${CHAOS.ring}</div><div style="color:#94A3B8;margin-top:5px">${CHAOS.note}</div>`);
+}
+
+function swapIn(id){
+  if(active.includes(id)) {showBucketCard(id, active.indexOf(id)); return;}
+  const b=BUCKETS[id];
+  if(b.breadth==='broad'){ active[2]=id; }
+  else { const oldest=narrowOrder.shift(); const idx=active.indexOf(oldest); active[idx]=id; narrowOrder.push(id); }
+  render();
+}
+
+function showBucketCard(id,slot){
+  const b=BUCKETS[id];
+  setHTML(document.getElementById('card'), `<b style="color:${BCOLORS[slot]??'#F1F5F9'}">${b.name}</b> — Ring ${b.ring} (${b.breadth}). ${b.job}. <br><span style="color:#94A3B8">Batch topics: ${b.ex.join(' · ')}</span>`);
+  document.getElementById('card').classList.add('open');
+}
+function showChaosCard(){
+  setHTML(document.getElementById('card'), `<b style="color:#A78BFA">🃏 ${CHAOS.name}</b> — ${CHAOS.kind}.<br><span style="color:#94A3B8">${CHAOS.note}</span>`);
+  document.getElementById('card').classList.add('open');
+}
+function setMode(m){
+  mode=m;
+  document.getElementById('tNow').classList.toggle('on',m==='now');
+  document.getElementById('tLater').classList.toggle('on',m==='later');
+  document.getElementById('modeNote').textContent = m==='now'
+    ? 'Tap a bucket zone or a dart for its card. Tap a bench card below to swap it onto the board.'
+    : 'Calibration view: the winning bucket glows and gains a dart · the broad bucket faded toward a bench challenger · the chaos hit minted a brand-new zone. The data decides, not the vibes.';
+  render();
+}
+render();
+</script>
+</body>
+</html>

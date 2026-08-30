@@ -1,0 +1,7 @@
+{
+  "_readme": "Single source for intake wiring. Fill form_url + prefill_entry after creating the Google Form (kit: growth-lab/intake/google-form-kit.md), then re-bake: .venv/bin/python3 execution/build_intake_faces.py. payment_url is the {{PAYMENT_URL}} single-source slot — wired to the open Stripe task in _active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md. Empty strings = unset; faces bake the 'intake opens shortly' state and gb-intake uses the mailto fallback.",
+  "form_url": "",
+  "prefill_entry": "",
+  "payment_url": "",
+  "sheet_id": ""
+}

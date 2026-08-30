@@ -256,6 +256,35 @@ def system_counts():
         return degraded({}, "health receipt unreadable — system counts unknown", e)
 
 
+def radar_freshness():
+    """One-line outlier-radar pack freshness across niches ('' if no packs)."""
+    import glob as _glob
+    import datetime as _dt
+    parts = []
+    for p in sorted(_glob.glob(os.path.join(ROOT, ".agent", "outlier-radar", "packs", "*", "latest.json"))):
+        try:
+            pk = json.load(open(p, encoding="utf-8"))
+            ts = _dt.datetime.fromisoformat(pk["generated_at"].replace("Z", "+00:00"))
+            age_h = (_dt.datetime.now(_dt.timezone.utc) - ts).total_seconds() / 3600
+            flag = "" if pk.get("status") == "ok" else " ⚠"
+            parts.append(f"{pk.get('niche_slug', Path(p).parent.name)} {age_h:.0f}h{flag}")
+        except (OSError, ValueError, KeyError):
+            parts.append(f"{Path(p).parent.name} unreadable ⚠")
+    line = ("radar: " + ", ".join(parts)) if parts else ""
+    # Intake pending count (intake_bridge.py status writes the receipt; absent = no segment)
+    pj_path = os.path.join(ROOT, ".agent", "intake", "pending.json")
+    if os.path.exists(pj_path):
+        try:
+            pj = json.load(open(pj_path, encoding="utf-8"))
+            seg = f"intake: {pj.get('pending_count', '?')} pending"
+            if pj.get("overdue_count"):
+                seg += f" ({pj['overdue_count']} past 48h ⚠)"
+        except (OSError, ValueError):
+            seg = "intake: pending.json unreadable ⚠"
+        line = f"{line} · {seg}" if line else seg
+    return line
+
+
 # ── Agentic OS cockpit widgets (2026-08-21) ─────────────────────────────────
 
 def _next_fire(cal):
@@ -1187,6 +1216,9 @@ def main():
     shelf_html, asset_total = asset_shelf()
     sc = system_counts()
     sys_line = " · ".join(f"{v:,} {k}" for k, v in sc.items() if v) if sc else ""
+    radar_line = radar_freshness()
+    if radar_line:
+        sys_line = f"{sys_line} · {radar_line}" if sys_line else radar_line
 
     resume_html = resume_strip()
     library_uri = Path(ROOT, ".agent", "catalog", "library.html").as_uri()

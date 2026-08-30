@@ -114,3 +114,26 @@ this repair pass could not locate the source file to verify them.
 | `skills/kallaway-social-commerce/references/source-ledger.md` | (read in full) | Confirmed independent discovery of the same ImzoNTrgvFg mismatch by a different repair pass — cross-validates this finding |
 | `_active/harness/claude-export/` (INDEX.md, state.json, index.json, routed-decisions.json, harvest/, reports/, triage/) | directory scan + grep | Searched for Pattern 7's "claude.ai export tranche 2" — not found |
 | `_archive/claude-export-2026-07-01.tar.gz` | tarball listing only | Searched (filtered `kallaway`) for Pattern 7 source — no matching entries |
+
+---
+
+## 2026-08-30 Source Delta — `GmIn1W9V8Rs`
+
+**Source**: Kallaway, *"Kallaway's EXACT System For Going Viral (Over and Over),"* interview by Jay Clouse, YouTube ID `GmIn1W9V8Rs`, analyzed from 00:42 through 38:19.
+
+**Evidence package**: `extractions/video-context/GmIn1W9V8Rs/` contains metadata, native-caption transcript, 1,203 timestamped transcript segments, 23 transcript-cued frames, a video-context ledger, frame notes, uncertainty report, extraction analysis, and skill-system contract.
+
+| Claim | Label | Source anchor | Deployment consequence |
+|---|---|---|---|
+| Email conversions or qualified leads matter more than relevant followers, which matter more than views | VERIFIED as speaker statement | 07:35-08:14 | Add the metric-class ladder; do not flatten public proxies into business outcomes. |
+| Competitor views are used because stronger competitor conversion data is private | VERIFIED as speaker statement | 08:23 | Mark competitor research `PUBLIC_PROXY`; no demand or revenue inference. |
+| Topic evidence should come from comparable micro/medium creators; celebrity scale confounds it | VERIFIED as speaker statement | 15:32-15:39 | Add cohort eligibility before outlier ranking. |
+| Topics stay within-niche while formats, hooks, and editing patterns can transfer across niches | VERIFIED as speaker statement | 19:39 | Separate `TOPIC_COHORT` from `FORMAT_ONLY`. |
+| A 2% engagement floor helps filter likely boosted or weakly resonant content | VERIFIED as speaker statement; causal brand-deal effect SOURCE-STATED | 20:53 | Use 2% as signal hygiene when available, not as independent proof of organic reach. |
+| Outlier score is calculated against a rolling prior-three-month baseline | VERIFIED as speaker statement and interface demonstration | 21:19-21:28 | Preserve a rolling recency window. |
+| Automated intake can require 5x outlier and greater-than-2% engagement | VERIFIED as speaker statement and sampled interface frame | 29:55-30:05 | Apply thresholds to collection; keep promotion human. |
+| After roughly 10-20 owned videos, first-party data should increasingly replace competitor proxies | VERIFIED as speaker statement | 32:35 | Add COLD_START, HYBRID, and OWNED_LEARNING states. |
+| AI can create a strong first draft, but the creator must own thesis, substance, and final judgment | VERIFIED as speaker statement | 33:48-34:56 | Add the per-stage creative dial and prohibit generated creator opinions. |
+| Visual comprehension may be a moat only if downstream conversion justifies the resource burden | SOURCE-STATED strategy, not independently measured | 36:57-37:17 | Treat visual investment as a testable economics decision, not a universal mandate. |
+
+**Preservation boundary**: This delta does not validate Pattern 7. The Pattern 7 provenance status remains UNCONFIRMED.

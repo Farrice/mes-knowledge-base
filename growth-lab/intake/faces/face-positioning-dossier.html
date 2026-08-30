@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Growth report - the Positioning Dossier - Farrice Cain</title>
+<style>
+  /* ================================================================
+     Farrice Cain Premium Minimal — intake face surface
+     Tokens per the design contract. Static pitch: no JS, no network,
+     no storage. One dark interruption, reserved for the decision.
+     ================================================================ */
+  :root {
+    --canvas: #F3F3F0;
+    --paper: #FAFAF8;
+    --ink: #101010;
+    --graphite: #555553;
+    --line: #D8D8D3;
+    --stone: #8C8C82;
+    --white: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; border-radius: 0; }
+  html, body { background: var(--canvas); color: var(--ink); }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ink); }
+
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+
+  /* Twelve-column base grid */
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 16px; }
+  .span-8 { grid-column: 1 / span 8; }
+  @media (max-width: 640px) { .span-8 { grid-column: 1 / -1; } }
+
+  /* Functional labels */
+  .label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--graphite);
+  }
+  .label--stone { color: var(--stone); }
+
+  /* Masthead */
+  header.masthead { padding: 28px 0 20px; }
+  .masthead-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .masthead-rule { border: 0; border-top: 2px solid var(--ink); margin-top: 18px; }
+
+  /* Display type */
+  h1 {
+    font-size: clamp(30px, 5.4vw, 42px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.08;
+  }
+  h2 {
+    font-size: clamp(20px, 3.4vw, 26px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+  .dek { color: var(--graphite); max-width: 56ch; }
+
+  .field-index {
+    font-size: clamp(40px, 8vw, 64px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: var(--stone);
+    line-height: 1;
+  }
+
+  /* Opening section */
+  #open { padding: 44px 0 8px; }
+  #open h1 { margin: 18px 0 14px; }
+
+  /* Content blocks */
+  .block { padding: 40px 0 44px; border-top: 1px solid var(--line); }
+  .block-head { margin-bottom: 8px; }
+  .block h2 { margin-bottom: 10px; }
+  .block .block-dek { color: var(--graphite); font-size: 15px; max-width: 60ch; margin-bottom: 26px; }
+
+  /* What-you-get rows */
+  ol.gets { list-style: none; }
+  .get-row { display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 16px 0; border-top: 1px solid var(--line); }
+  .get-row:first-child { border-top: 0; }
+  .get-rank { font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); }
+  .get-name { font-weight: 500; }
+  .get-sub { display: block; margin-top: 4px; font-size: 14px; color: var(--graphite); max-width: 58ch; }
+
+  /* Excerpt — real lines from a live report */
+  .excerpt { border-left: 2px solid var(--ink); padding-left: 20px; max-width: 64ch; }
+  .excerpt p { padding: 8px 0; }
+  .excerpt p + p { border-top: 1px solid var(--line); }
+  .excerpt-source { margin-top: 14px; font-size: 13px; color: var(--graphite); }
+
+  /* How it works — three quiet steps */
+  ol.steps { list-style: none; }
+  .step { display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 15px 0; border-top: 1px solid var(--line); }
+  .step:first-child { border-top: 0; }
+  .step-n { font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--stone); }
+  .step p { color: var(--graphite); font-size: 15px; max-width: 58ch; }
+  .step p strong { color: var(--ink); font-weight: 500; }
+
+  /* The one dark interruption — the decision */
+  .ceiling { background: var(--ink); color: var(--paper); margin-top: 24px; padding: 48px 32px 44px; }
+  .ceiling .label { color: var(--stone); }
+  .ceiling h2 { color: var(--white); margin: 14px 0 10px; }
+  .ceiling p { color: #B9B9B2; font-size: 15px; max-width: 58ch; }
+  .ceiling-close { margin-top: 26px; padding-top: 24px; border-top: 2px solid var(--paper); }
+  .ceiling-close p { color: var(--paper); margin-bottom: 22px; }
+  a.cta {
+    display: inline-block;
+    background: var(--paper);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 28px;
+  }
+  a.cta:hover { background: var(--white); }
+  span.cta--soon {
+    display: inline-block;
+    border: 1px solid #3A3A38;
+    color: var(--stone);
+    font-weight: 500;
+    padding: 15px 28px;
+  }
+  .cta-note { margin-top: 14px; font-size: 13px; color: var(--stone); }
+
+  footer { padding: 36px 0 56px; }
+  footer .foot-row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; }
+  footer p { font-size: 13px; color: var(--graphite); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead-row">
+      <span class="label">Farrice Cain</span>
+      <span class="label label--stone">Growth report — the Positioning Dossier</span>
+    </div>
+    <hr class="masthead-rule">
+  </header>
+
+  <main>
+
+    <section id="open">
+      <p class="field-index">FIELD / 01</p>
+      <div class="grid">
+        <div class="span-8">
+          <h1>Your buyer, mapped in their own words.</h1>
+          <p class="dek">Most positioning documents quote the founder. This one quotes the buyer — real sentences pulled from where your buyers actually talk, ranked by how often they say them, each one tied to something you sell.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="label">NOTE / 01</span></div>
+      <h2>What this report gives you</h2>
+      <p class="block-dek">One document. Four things most brands have never actually written down.</p>
+      <ol class="gets">
+        <li class="get-row">
+          <span class="get-rank">01</span>
+          <span>
+            <span class="get-name">A portrait of the one buyer worth aiming at</span>
+            <span class="get-sub">A person, not a demographic band — what their day looks like, what they already tried, what they said right before buying.</span>
+          </span>
+        </li>
+        <li class="get-row">
+          <span class="get-rank">02</span>
+          <span>
+            <span class="get-name">The pain bank, in their words</span>
+            <span class="get-sub">Real quotes from forums, reviews, and comment sections where your buyers talk when you are not in the room — each wired to an offer.</span>
+          </span>
+        </li>
+        <li class="get-row">
+          <span class="get-rank">03</span>
+          <span>
+            <span class="get-name">What not-buying protects</span>
+            <span class="get-sub">The belief they hold, what saying yes would cost them socially, and why your best prospect hesitates. This is the layer generic personas never reach.</span>
+          </span>
+        </li>
+        <li class="get-row">
+          <span class="get-rank">04</span>
+          <span>
+            <span class="get-name">Your authority statement</span>
+            <span class="get-sub">Three candidate shapes, pressure-tested, one recommendation.</span>
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="label">NOTE / 02</span></div>
+      <h2>Lines from a live report</h2>
+      <p class="block-dek">Not a mockup. These lines are quoted from a finished report, built the same way yours would be.</p>
+      <div class="excerpt">
+        <p>“facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it's creative fatigue, I know I need new ad concepts, but... I don't have time to endlessly scroll looking for ideas.”</p>
+        <p>“Six months in looking for customers cold on Meta we've burned through about 30k and gotten only 56 orders.”</p>
+        <p>Mis-diagnosis reflex: more ads, not a message decision.</p>
+      </div>
+      <p class="excerpt-source">Quoted from a finished Positioning Dossier — 7 forum threads, a founder interview, and a 12-channel competitive scan behind it.</p>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="label">NOTE / 03</span></div>
+      <h2>How this works</h2>
+      <ol class="steps">
+        <li class="step"><span class="step-n">01</span><p><strong>Nine questions, about seven minutes.</strong> What you sell, who buys it, what they say, who you watch. No uploads, no documents — your answers are enough to start.</p></li>
+        <li class="step"><span class="step-n">02</span><p><strong>Within 48 hours, a free mini-read of your niche lands in your inbox.</strong> Built from real channel data pulled for you — the videos beating their own channels&rsquo; normal, where demand concentrates, and one open lane. Free, and yours either way.</p></li>
+        <li class="step"><span class="step-n">03</span><p><strong>Then you decide.</strong> If the mini-read earns it, the full report is the next conversation. If it doesn&rsquo;t, you keep the read and we&rsquo;re done — no follow-up sequence, no drip.</p></li>
+      </ol>
+    </section>
+
+    <aside class="ceiling">
+      <span class="label">The decision</span>
+      <h2>Stop guessing what your buyer thinks.</h2>
+      <p>Every flat piece of content traces back to the same root: the buyer was imagined, not listened to. This report replaces the imagined buyer with the recorded one.</p>
+      <div class="ceiling-close">
+        <p>Nine answers now. A real read of your niche within 48 hours.</p>
+        <span class="cta cta--soon">Intake opens shortly</span>
+        <p class="cta-note">This page is being connected to the intake form. If you were sent here directly, reply to the message that brought you and the nine questions come to you instead.</p>
+      </div>
+    </aside>
+
+  </main>
+
+  <footer>
+    <div class="foot-row">
+      <p>A free mini-read of your niche within 48 hours of your answers. The full report only if you ask for it.</p>
+      <p>No tracking on this page. The only link out is the one you can see.</p>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>

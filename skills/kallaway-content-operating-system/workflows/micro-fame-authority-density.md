@@ -1,5 +1,6 @@
 ---
 description: Diagnose whether content is building qualified category authority, find the decisive positioning contrast, run a broad-narrow-chaos portfolio, and make evidence-floor batch decisions
+menu_exempt: true
 ---
 
 # Micro-Fame Authority Density Companion
