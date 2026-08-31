@@ -87,6 +87,7 @@ Thumbs.db
 .agent/lane-reconciler.log
 .agent/health/collector.log
 .agent/weekly-cards.log
+.agent/catalog/catalog.jsonl
 
 # Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
 # holds verbatim copies of .agent/session-state.md, which is deliberately
