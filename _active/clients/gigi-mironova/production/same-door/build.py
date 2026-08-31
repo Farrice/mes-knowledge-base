@@ -41,8 +41,8 @@ def photo(name, treatment, pos="50% 50%", scale=1.0):
     layers = ('<div class="tint"></div><div class="lift"></div>' if treatment == "duo"
               else '<div class="tint" style="opacity:0.44"></div><div class="scrim"></div>')
     tf = "" if scale == 1.0 else " transform:scale(%s);" % scale
-    return ('<div class="photo %s"><img alt="" style="object-position:%s;%s" src="%s">%s</div>'
-            % (treatment, pos, tf, embed(IMG / (name + ".jpg")), layers))
+    return ('<div class="photo %s"><img alt="" style="object-position:%s;%s" src="%s.jpg">%s</div>'
+            % (treatment, pos, tf, name, layers))
 
 
 def ghost(n, right, top, dark):
@@ -74,7 +74,10 @@ def body(text, dark, width=680):
 def frame(cls, inner, ru=False):
     return """<!doctype html>
 <html>
-<head><meta charset="utf-8"></head>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
 <body>
 <x-dc>
 <helmet>
@@ -251,7 +254,7 @@ def reel(img_name, treatment, pos, g, headline, top_r, ru=False, series=None,
 def portrait_board():
     """Her real headshot (Equity Union profile) under the duo treatment, on the dark
     ground — the floor's photographic grammar applied to the portrait slot."""
-    img = embed(BRAND / "gigi-headshot.jpg")
+    img = "gigi-headshot.jpg"
     block = (
         '<div style="display:flex; gap:48px; align-items:flex-end;">'
         '<div style="position:relative; width:440px; height:440px; flex:none; overflow:hidden;">'
@@ -332,37 +335,40 @@ BOARDS = [
     # real bio text and the nine cover files instead.
     ("C1", "C1 · Same Door", lambda: story(
         "palm-tree-sunset-city-01", "bleed", "50% 58%", "124",
-        [head('one unit. listed<br>both ways, <span class="si">right now.</span>', 84),
-         price_pair_dark()],
-        NAME, ADDR, "SWIPE — THE REAL MONTHLY MATH", "1 / 6", gy=120, gx=-100)),
+        [head('one unit. two listings.<br>both of them <span class="si">mine.</span>', 84),
+         price_pair_dark(),
+         body("unit 124 — one bedroom, 619 square feet, two parking spots. I hold the "
+              "lease and the sale, so for once the comparison is honest.", True, 640)],
+        NAME, ADDR, "SWIPE — THE MATH NOBODY RUNS", "1 / 6", gy=120, gx=-100)),
 
     ("C2", "C2 · The Math", lambda: story(
         "contract-signing-pen-01", "duo", "42% 64%", "",
-        [head('what owning unit 124<br><span class="si">actually</span> costs.', 72),
+        [head('own it for fifteen dollars<br>more than you rent <span class="si">it.</span>', 66),
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
           ' · *dues as recorded for a 2-bd in this building; unit 124&#8217;s exact figure is '
           'in its HOA documents · confirm with your lender</div>' % T.D_MUTED)],
-        NAME, SERIES, "FIFTEEN DOLLARS APART, BEFORE EQUITY", "2 / 6", scale=1.55)),
+        NAME, SERIES, "BEFORE A DOLLAR OF EQUITY — AND THE PRICE ISN'T WHY", "2 / 6", scale=1.55)),
 
     ("C3", "C3 · The 477", lambda: structure(
         "477",
         [head('the number nobody<br>quotes you: <span class="si">$477.</span>', 76),
          hoa_covers(),
-         body("the dues cover the pool, spa, gym, water, trash and the building's "
-              "insurance — but they sit in the HOA documents, not on the listing. "
-              "they move your payment more than half a point on the rate does.", False, 800)],
-        NAME, SERIES, "SOURCE: MLS RECORD, THIS BUILDING · AUG 2026", "3 / 6",
+         body("everyone compares the price to the rent. the number that actually swings "
+              "the answer is the dues — and they live in the HOA documents, not on the "
+              "listing. here they buy the pool, spa, gym, water, trash, and the "
+              "building's insurance.", False, 800)],
+        NAME, SERIES, "MOST BUYERS MEET THIS NUMBER AFTER THEY OFFER", "3 / 6",
         gy=430, foot_size=16)),
 
     ("C4", "C4 · Equity", lambda: structure(
         "224",
-        [head('and <span class="si">$224</span> of that first<br>payment stays yours.', 72),
+        [head('rent leaves. <span class="si">$224</span> of<br>this payment stays.', 72),
          stat_ladder(),
-         body("that is the part rent never does. the building averages $393,000 a sale "
-              "in a valley whose median is over a million — and at 82 days on market, "
-              "there is time to read everything before you write.", False, 800)],
+         body("that is month one, and the kept share grows every month after. the building "
+              "averages $393,000 a sale in a valley whose median is a million — and at "
+              "82 days on market, there is time to read everything first.", False, 800)],
         NAME, ADDR, "PRINCIPAL, MONTH ONE · BUILDING 12-MO · SFV APRIL 2026", "4 / 6",
         gy=430, foot_size=15)),
 
@@ -376,7 +382,8 @@ BOARDS = [
                 "can you lease it later, or is the building already at its cap?"),
                ("the board minutes",
                 "has something been voted through that the dues do not show yet?")],
-              "you are entitled to all three before you commit. almost nobody asks.")],
+              "you are entitled to all three before you sign. almost nobody asks. "
+              "be the buyer who does.")],
         NAME, SERIES, "SAVE THIS BEFORE YOUR NEXT OFFER", "5 / 6")),
 
     ("C5RU", "C5 · Three Documents · RU", lambda: structure(
@@ -389,16 +396,17 @@ BOARDS = [
                 "сможете ли вы сдавать квартиру, или лимит уже исчерпан?"),
                ("протоколы собраний правления",
                 "что уже утвердили, но ещё не включили в ежемесячные взносы?")],
-              "вы имеете право получить все три до подписания. почти никто не просит.")],
+              "вы имеете право получить все три до подписания. почти никто не просит. "
+              "будьте покупателем, который просит.")],
         NAME, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6", ru=True)),
 
     ("C6", "C6 · CTA", lambda: story(
         "front-door-house-02", "duo", "50% 56%", "",
         [head('sixteen years in litigation<br>support before I ever<br>sold a '
               '<span class="si">house.</span>', 76),
-         body("residential, leasing and investment at Equity Union. sixteen years of reading "
-              "the fine print, now on your side of the table. the full breakdown of this "
-              "unit — one message away.", True, 700),
+         body("most agents sell the tour. the transaction is decided in the reading — "
+              "financials, disclosures, minutes. I did that for sixteen years before I "
+              "held a license. the full breakdown of this unit is one message away.", True, 700),
          cta_button("DM ME “124”")],
         NAME, SERIES, NAME, "6 / 6", scale=1.16)),
 

@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-30 (chain_runner finalize for _shared/realtor-editorial-system) |
-| **Last Activated** | 2026-08-30 (chain_runner finalize for _shared/realtor-editorial-system) |
-| **Activation Count** | 895 |
+| **Last Activated** | 2026-08-30 (chain_runner finalize for jen-santulan-listing-content) |
+| **Last Activated** | 2026-08-30 (chain_runner finalize for jen-santulan-listing-content) |
+| **Activation Count** | 896 |
 | **30-Day Review Date** | 2026-09-29 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

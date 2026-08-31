@@ -169,16 +169,15 @@ BODY = """
   <div class="lede" style="margin-top:44px;">
     <span class="caps">Caption · pick one</span>
     <div class="opts">
-      <div class="opt"><b>A</b> · Same unit. Two listings. Both mine. Renting it runs
-      $2,500 a month. Do the actual math on owning it and the answer is closer than
-      almost anyone guesses. The figure that decides it isn&#8217;t the price, and it
-      isn&#8217;t on the listing. Full math in the slides. Estimate, not a quote;
-      your numbers will differ. DM me &#8220;124&#8221; for the complete breakdown.</div>
-      <div class="opt"><b>B</b> · One Reseda unit, two of my listings: the lease and the
-      sale. That makes this rent-vs-own math real, line by line, sources included. If
-      you&#8217;ve been assuming owning is out of reach, slide two is worth thirty
-      seconds. Message me &#8220;124&#8221; and
-      I&#8217;ll send the full breakdown.</div>
+      <div class="opt"><b>A</b> · Everyone compares the rent to the price. Wrong comparison.
+      I hold the lease and the sale on the same Reseda unit, so I ran the honest monthly
+      math on both, line by line. The gap is fifteen dollars, and the number that decides
+      it isn&#8217;t on the listing. Slides have everything. Estimate, not a quote; your
+      numbers will differ. DM me &#8220;124&#8221; for the complete breakdown.</div>
+      <div class="opt"><b>B</b> · Rent disappears. A payment splits: part gone, part kept.
+      On this unit the honest gap between the two is fifteen dollars a month, and I can
+      say that because I hold both listings. Slide two shows every line. Estimate, not a
+      quote. Message me &#8220;124&#8221; and I&#8217;ll send the full breakdown.</div>
     </div>
   </div>
 </div></section>
@@ -195,12 +194,12 @@ BODY = """
   </div>
   <div class="script"><span class="caps">Reel 01 · Same Door · ~30s</span>
     <p>&#8220;I&#8217;m the agent on both listings for the same unit at 19350 Sherman Way.
-    Renting it: twenty-five hundred a month. Buying it: just under three hundred twenty
-    thousand. Most people assume owning costs far more. Run the actual numbers. Twenty
-    percent down at today&#8217;s average rate, taxes, insurance, and the dues: about
-    twenty-five fifteen a month. Fifteen dollars apart. And about two
-    hundred twenty of that first payment is principal. Money that stays yours. Want the
-    full breakdown? Message me the number 124.&#8221;</p>
+    To rent it: twenty-five hundred a month. To buy it: just under three twenty. Everyone
+    assumes owning costs far more, so I ran the honest numbers. Down payment, today&#8217;s
+    rate, taxes, insurance, the dues. Everything. Fifteen dollars. That&#8217;s the gap,
+    before a single dollar of equity. Treat it as an estimate; your numbers will differ.
+    But if that gap surprised you, message me 124 and I&#8217;ll send the whole
+    breakdown.&#8221;</p>
   </div>
   <div class="opts">
     <div class="opt"><b>Caption A</b> · The full math is in my Same Door carousel, sources
@@ -210,13 +209,13 @@ BODY = """
     &#8220;124&#8221; for the breakdown.</div>
   </div>
   <div class="script"><span class="caps">Reel 02 · The $477 · ~30s</span>
-    <p>&#8220;Here&#8217;s the number nobody quotes you when you&#8217;re shopping for a
-    condo: the association dues. In this building the recorded figure is four hundred
-    seventy-seven dollars a month. It covers the pool, the spa, the gym, water, trash and
-    the building&#8217;s insurance. And it isn&#8217;t on the listing. It lives in the
-    HOA documents. I spent sixteen years in litigation support before I got my license,
-    so reading those documents is the part of this job I&#8217;m built for. Looking at any condo, mine included: ask for the financials before you write. Message me 124 and
-    I&#8217;ll send you the exact list to ask for.&#8221;</p>
+    <p>&#8220;The association dues are the most expensive number most condo buyers never
+    check, and they are not on the listing. Here, the recorded figure is four
+    seventy-seven a month. Pool, spa, gym, water, trash, the building&#8217;s insurance. Skip it, and your
+    monthly math is fiction. I read documents for a living for sixteen years before I got
+    my license, so this is the part I never skip. Shopping for any condo, mine included:
+    ask for the financials before you write. Message me 124 and I&#8217;ll send the exact
+    list to ask for.&#8221;</p>
   </div>
   <div class="plates" style="margin-top:34px;">
     <div class="pair">__R3__ __R4__</div>
@@ -260,8 +259,12 @@ BODY = """
     <span class="caps">Profile · bio and covers</span>
     <h2>The bio, one line stronger</h2>
     <div class="opts">
-      <div class="opt"><b>Bio</b> · Real estate, read carefully. 16 years in litigation
+      <div class="opt"><b>Bio A</b> · Real estate, read carefully. 16 years in litigation
       support before my license; now the fine print works for you.<br>
+      English · Русский&nbsp; |&nbsp; SFV + Conejo Valley<br>
+      DM &#8220;HOME&#8221; to start</div>
+      <div class="opt"><b>Bio B</b> · The tour is the easy part. The deal is in the
+      documents, and I read those for 16 years before my license.<br>
       English · Русский&nbsp; |&nbsp; SFV + Conejo Valley<br>
       DM &#8220;HOME&#8221; to start</div>
     </div>
@@ -305,8 +308,9 @@ BODY = """
     <li><b>Your photos of the unit.</b> The moment you send the listing set, slide one
     carries the actual door instead of the Valley at dusk.</li>
   </ul>
-  <p style="margin-top:26px;">This one&#8217;s on me. It&#8217;s the same kit I build for
-     Jen&#8217;s listings. If it works, all I&#8217;d ask is a screenshot of the results
+  <p style="margin-top:26px;">You don&#8217;t hire an agent to open the door. You hire one
+     to read what signing it means. That&#8217;s the story this whole kit tells about
+     you. This one&#8217;s on me. It&#8217;s the same kit I build for Jen&#8217;s listings. If it works, all I&#8217;d ask is a screenshot of the results
      and one sentence of feedback. And if you want the next listing to arrive like this automatically (shoot sheet,
      scripts, captions, compliance pass, done in 48 hours), that&#8217;s the thing I do.
      Text me.</p>
