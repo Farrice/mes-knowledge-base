@@ -8,6 +8,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import lane_reconciler as lr
+import worktree_lane as wtl
 
 
 def lane(branch: str = "codex/test") -> list[dict]:
@@ -90,6 +91,18 @@ def main() -> int:
         result = lr.reconcile(dry_run=True)
         check(result["results"][0]["action"] == "parked-status-error",
               "status failure fails closed instead of masquerading as clean")
+
+    with tempfile.TemporaryDirectory() as temp:
+        root = Path(temp)
+        (root / ".agent").mkdir()
+        check(wtl.fresh_main_writer(root) is None,
+              "read-only main sessions do not block integration without write evidence")
+        (root / ".agent" / "session.lock").write_text(
+            '{"heartbeat": %s, "token": "foreign", "mission": "active edit"}' % time.time()
+        )
+        writer = wtl.fresh_main_writer(root, own_lock_token="ours")
+        check(writer is not None and "session lock" in writer,
+              "fresh foreign main write-lock still blocks integration")
 
     print("PASS: lane reconciler safety suite")
     return 0
