@@ -1,0 +1,10 @@
+{
+  "artifact_type": "breadth_to_leverage_decision_brief",
+  "title": "90-day focus decision brief",
+  "status": "local_draft",
+  "decision_date": "2026-08-31",
+  "evidence_window": "2026-06-02/2026-08-31",
+  "primary_workflow": "/breadth-to-leverage",
+  "commercial_proof_state": "untested",
+  "external_action": "none"
+}
