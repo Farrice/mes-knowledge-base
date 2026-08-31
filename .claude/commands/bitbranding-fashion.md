@@ -1,5 +1,5 @@
 ---
-description: "Christian Pinyon (BitBranding) — Fashion DTC Shopify execution. Audit/rebuild/optimize clothing-brand collection pages and product cards on the free Horizon theme. Free-tier-fluent, gap-honest, mobile-first."
+description: "Christian Pinyon (BitBranding) — Fashion DTC Shopify execution. Audit/rebuild clothing-brand collection pages, product cards, and evidence-led product-detail pages on Horizon. Draft-theme-safe, free-tier-fluent, gap-honest, mobile-first."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
