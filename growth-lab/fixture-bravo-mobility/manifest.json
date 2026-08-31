@@ -1,0 +1,30 @@
+{
+  "niche_slug": "fixture-bravo-mobility",
+  "engagement": {
+    "client": "Fixture Bravo Mobility",
+    "mode": "client-proof",
+    "offer_map": "$89/month online mobility cohort for desk workers"
+  },
+  "source": {
+    "intake": "extractions/kallaway/validation/fixtures/fixture-intake.csv row fixture-bravo@example.com",
+    "signal_pack": "extractions/kallaway/validation/fixtures/fixture-pack.json",
+    "generated_at": "2026-08-27T09:00:00Z",
+    "status": "frozen-stale",
+    "coverage": "synthetic YouTube only; six rows",
+    "cost_usd": 0
+  },
+  "artifacts": {
+    "ai-topic-mining-report": {"file": "ai-topic-mining-report.md", "status": "complete", "evidence": "thin"},
+    "positioning-dossier": {"file": "positioning-dossier.md", "status": "complete", "depends_on": []},
+    "whitespace-map": {"file": "whitespace-map.md", "status": "complete", "depends_on": ["positioning-dossier"]},
+    "bullseye": {"file": "bullseye.md", "status": "complete", "depends_on": ["positioning-dossier", "whitespace-map"]},
+    "topic-buckets": {"file": "topic-buckets.md", "status": "complete", "depends_on": ["bullseye", "ai-topic-mining-report"]},
+    "top-50": {"file": "top-50.md", "status": "partial-by-source", "available_rows": 6, "missing_rows_not_fabricated": 44},
+    "format-playbook": {"file": "format-playbook.md", "status": "complete", "depends_on": ["top-50", "whitespace-map"]},
+    "growth-blueprint": {"file": "growth-blueprint.md", "status": "complete", "depends_on": ["positioning-dossier", "whitespace-map", "bullseye", "topic-buckets", "top-50", "format-playbook"]},
+    "client-html": {"file": "exports/fixture-bravo-mobility-growth-blueprint/fixture-bravo-mobility-growth-blueprint-brief-client.html", "status": "validated", "reader_purity_findings": 0},
+    "client-pdf": {"file": "exports/fixture-bravo-mobility-growth-blueprint/fixture-bravo-mobility-growth-blueprint.pdf", "status": "validated", "pages": 5, "bytes": 230820}
+  },
+  "human_owned": ["clinical opinion", "exercise selection", "contraindications", "client story", "voice", "final approval", "publishing"],
+  "external_actions": "none"
+}

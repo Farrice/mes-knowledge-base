@@ -1,0 +1,38 @@
+{
+  "slug": "fixture-bravo-mobility-growth-blueprint",
+  "title": "the four-minute mobility authority plan",
+  "compiled": "aug 31, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/fixture-bravo-mobility-growth-blueprint/fixture-bravo-mobility-growth-blueprint-brief.html",
+  "brief_md": "deliverables/research-briefs/fixture-bravo-mobility-growth-blueprint/fixture-bravo-mobility-growth-blueprint-brief.md",
+  "paths": [
+    {
+      "path": "growth-lab/fixture-bravo-mobility/growth-blueprint.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/kallaway-frozen-client-proof/growth-lab/fixture-bravo-mobility/growth-blueprint.md",
+      "role": "state source"
+    },
+    {
+      "path": "growth-lab/fixture-bravo-mobility/ai-topic-mining-report.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/kallaway-frozen-client-proof/growth-lab/fixture-bravo-mobility/ai-topic-mining-report.md",
+      "role": "research handoff"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=fixC00002",
+      "label": "synthetic fixture video fixC00002"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fixA00001",
+      "label": "synthetic fixture video fixA00001"
+    }
+  ]
+}
