@@ -158,9 +158,9 @@ def four_numbers():
 
 
 def stat_ladder():
-    stats = [("$393,000", "average sale in this building, last 12 months", True),
-             ("82", "average days on market here", False),
-             ("$1,034,250", "San Fernando Valley median, all property types", False)]
+    stats = [("$393,000", "what homes in this building actually sell for", True),
+             ("82", "days they usually take — no bidding-war panic", False),
+             ("$1,034,250", "what the rest of the Valley costs right now", False)]
     out = []
     for n, label, lead in stats:
         out.append(
@@ -337,15 +337,15 @@ BOARDS = [
     # real bio text and the nine cover files instead.
     ("C1", "C1 · Same Door", lambda: story(
         "palm-tree-sunset-city-01", "bleed", "50% 58%", "124",
-        [head('one unit. two listings.<br>both of them <span class="si">mine.</span>', 84),
+        [head('the renter and the owner<br>live behind the same <span class="si">door.</span>', 76),
          price_pair_dark(),
-         body("unit 124 — one bedroom, 619 square feet, two parking spots. I hold the "
-              "lease and the sale, so for once the comparison is honest.", True, 640)],
+         body("same one-bedroom in Reseda. same parking spots, same pool. I'm the "
+              "agent on both listings — so this isn't a what-if. swipe.", True, 640)],
         NAME, ADDR, "SWIPE — THE MATH NOBODY RUNS", "1 / 6", gy=120, gx=-100)),
 
     ("C2", "C2 · The Math", lambda: structure(
         "15",
-        [head('own it for fifteen dollars<br>more than you rent <span class="si">it.</span>', 66),
+        [head('fifteen dollars. that&#8217;s<br>the whole <span class="si">difference.</span>', 68),
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
@@ -356,12 +356,12 @@ BOARDS = [
 
     ("C3", "C3 · The 477", lambda: structure(
         "477",
-        [head('the number nobody<br>quotes you: <span class="si">$477.</span>', 76),
+        [head('the fee that ambushes<br>first-time condo <span class="si">buyers.</span>', 70),
          hoa_covers(),
-         body("everyone compares the price to the rent. the number that actually swings "
-              "the answer is the dues — and they live in the HOA documents, not on the "
-              "listing. here they buy the pool, spa, gym, water, trash, and the "
-              "building's insurance.", False, 800)],
+         body("you tour the place. you love it. you've done the math on the price — "
+              "and then a fee you've never heard of shows up after you're already "
+              "attached. dues: $477 a month here. this is what they buy. nobody puts "
+              "it in the ad.", False, 800)],
         NAME, SERIES, "MOST BUYERS MEET THIS NUMBER AFTER THEY OFFER", "3 / 6",
         gy=430, foot_size=16)),
 
@@ -369,47 +369,52 @@ BOARDS = [
         "224",
         [head('rent leaves. <span class="si">$224</span> of<br>this payment stays.', 72),
          stat_ladder(),
-         body("that is month one, and the kept share grows every month after. the building "
-              "averages $393,000 a sale in a valley whose median is a million — and at "
-              "82 days on market, there is time to read everything first.", False, 800)],
+         body("every rent check is gone the day you send it. this payment keeps $224 "
+              "the first month — your money, parked in your own walls — and the kept "
+              "share grows every month after.", False, 800)],
         NAME, ADDR, "PRINCIPAL, MONTH ONE · BUILDING 12-MO · SFV APRIL 2026", "4 / 6",
         gy=430, foot_size=15)),
 
     ("C5", "C5 · Three Documents", lambda: structure(
         "",
-        [head('three documents to ask for<br>before you write an '
-              '<span class="si">offer.</span>', 62),
-         docs([("the financials and the reserve study",
-                "is the building funded, or one repair away from an assessment?"),
-               ("the CC&amp;Rs on renting",
-                "can you lease it later, or is the building already at its cap?"),
-               ("the board minutes",
-                "has something been voted through that the dues do not show yet?")],
-              "you are entitled to all three before you sign. almost nobody asks. "
-              "be the buyer who does.")],
-        NAME, SERIES, "SAVE THIS BEFORE YOUR NEXT OFFER", "5 / 6")),
+        [head('three pieces of paper that<br>protect your life '
+              '<span class="si">savings.</span>', 62),
+         docs([("the building's bank account",
+                "is money saved for the roof and pipes — or does everyone split a "
+                "surprise bill?"),
+               ("the rulebook",
+                "can you rent it out someday? have a dog? the rules decide, not the "
+                "seller."),
+               ("the meeting notes",
+                "boards vote on new fees months before they land on your statement.")],
+              "you're allowed to read all three before you sign anything. most people "
+              "never find that out.")],
+        NAME, SERIES, "THREE PAGES THAT PROTECT YOUR SAVINGS", "5 / 6")),
 
     ("C5RU", "C5 · Three Documents · RU", lambda: structure(
         "",
-        [head('три документа, которые нужно<br>запросить до '
-              '<span class="si">оферты.</span>', 56),
-         docs([("финансы ассоциации и резервный фонд",
-                "дом обеспечен, или один ремонт отделяет вас от спецвзноса?"),
-               ("правила CC&amp;R об аренде",
-                "сможете ли вы сдавать квартиру, или лимит уже исчерпан?"),
-               ("протоколы собраний правления",
-                "что уже утвердили, но ещё не включили в ежемесячные взносы?")],
-              "вы имеете право получить все три до подписания. почти никто не просит. "
-              "будьте покупателем, который просит.")],
+        [head('три листа бумаги, которые<br>защищают ваши '
+              '<span class="si">сбережения.</span>', 58),
+         docs([("банковский счёт дома",
+                "есть ли деньги на крышу и трубы — или всех ждёт внезапный счёт?"),
+               ("правила дома",
+                "сможете ли сдавать квартиру? завести собаку? решают правила, а не "
+                "продавец."),
+               ("протоколы собраний",
+                "новые взносы утверждают за месяцы до того, как они придут вам в "
+                "квитанции.")],
+              "вы имеете право прочитать все три документа до подписи. большинство об "
+              "этом просто не знает.")],
         NAME, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6", ru=True)),
 
     ("C6", "C6 · CTA", lambda: story(
         "front-door-house-02", "duo", "50% 56%", "",
         [head('sixteen years in litigation<br>support before I ever<br>sold a '
               '<span class="si">house.</span>', 76),
-         body("most agents sell the tour. the transaction is decided in the reading — "
-              "financials, disclosures, minutes. I did that for sixteen years before I "
-              "held a license. the full breakdown of this unit is one message away.", True, 700),
+         body("before real estate, my job was reading legal documents. all day, for "
+              "sixteen years. now I do it for people making the biggest purchase of "
+              "their life. want the real numbers on this unit, in plain English or "
+              "по-русски? one message.", True, 700),
          cta_button("DM ME “124”")],
         NAME, SERIES, NAME, "6 / 6", scale=1.16)),
 
@@ -420,7 +425,7 @@ BOARDS = [
 
     ("R2", "Reel 2 Cover", lambda: reel(
         "balcony-plants-apartment-02", "duo", "50% 34%", "477",
-        'the number nobody<br>quotes you:<br><span class="si">$477 a month.</span>',
+        'the fee nobody<br>mentions until<br>it&#8217;s <span class="si">yours.</span>',
         "REEL · 02")),
 
     ("R3", "Reel 3 Cover · RU", lambda: reel(
