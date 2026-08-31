@@ -1,34 +1,34 @@
 # Knowledge Briefing
-*Generated: 2026-08-16 | 1138 sources | 3,603,261 words*
+*Generated: 2026-08-30 | 1205 sources | 3,780,688 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 19,197 words — `knowledge/log.md`
-- **amplification-report** (research [jason-fladlien]) — 1,238 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/amplification-report.md`
-- **architecture** (copywriting [jason-fladlien]) — 1,553 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/architecture.md`
-- **behavior-proof** (copywriting [jason-fladlien]) — 2,054 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/behavior-proof.md`
-- **canonical-admission-map** (research [jason-fladlien]) — 3,120 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-admission-map.md`
-- **canonical-deployment-receipt** (research [jason-fladlien]) — 1,105 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-deployment-receipt.md`
-- **development-behavior-proof** (copywriting [jason-fladlien]) — 1,376 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-behavior-proof.md`
-- **development-benchmark** (sales [lara-acosta]) — 1,468 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-benchmark.md`
-- **implementation-receipt** (systems [jason-fladlien]) — 969 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/implementation-receipt.md`
+- **index** (content) — 7,554 words — `knowledge/index.md`
+- **log** (general) — 20,350 words — `knowledge/log.md`
+- **visual-context** (screenwriting) — 542 words — `extractions/jay-video-craft/visual-context.md`
+- **visual-context** (screenwriting) — 462 words — `extractions/jay-video-craft-r2/visual-context.md`
+- **visual-context** (screenwriting) — 283 words — `extractions/jay-video-craft-r3/visual-context.md`
+- **visual-context** (content) — 8,887 words — `extractions/real-estate-offer-enrichment/visual-context.md`
+- **README** (copywriting) — 64 words — `extractions/matt-haig-reader-bridge/README.md`
+- **blind-pass-log** (copywriting) — 256 words — `extractions/matt-haig-reader-bridge/blind-pass-log.md`
+- **checkpoint-3-validation** (general) — 1,315 words — `extractions/matt-haig-reader-bridge/checkpoint-3-validation.md`
+- **human-a-tier-verdict** (copywriting) — 429 words — `extractions/matt-haig-reader-bridge/human-a-tier-verdict.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 362 | nathan-gotch |
-| copywriting | 197 | jason-fladlien |
-| general | 123 | nick-saraev |
-| screenwriting | 118 | connelly |
-| strategy | 113 | april-dunford |
-| brand | 66 | oren-john |
+| content | 380 | nathan-gotch |
+| copywriting | 215 | jason-fladlien |
+| screenwriting | 133 | connelly |
+| general | 132 | nick-saraev |
+| strategy | 117 | april-dunford |
+| brand | 67 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
-| research | 41 | jason-fladlien |
+| research | 43 | jason-fladlien |
 | sales | 14 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)

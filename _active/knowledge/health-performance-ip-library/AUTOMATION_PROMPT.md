@@ -103,11 +103,10 @@ The deep-focus section carries the April Dunford positioning read (what this mea
 
 ## Social Listening Tool Ladder (real tools, in this order — never training-memory research)
 
-1. **Apify first** (`/social-listen` pipeline, `execution/apify_client.py`): Reddit actors for buyer verbatim, sc-* actors for TikTok/YouTube creator and hashtag signal. Default ceiling $0.25 per actor call, guidance ≤$0.75/day against the $29/mo budget (`.agent/apify-usage.json`). Standing approval: Farrice 2026-07-31, recorded in `.agent/missions/angle-map-listening-engine/contract.json`.
-2. **research.py facade** (`execution/research.py`): Gemini Deep Research primary (free under Ultra), Perplexity fallback within $30/mo (`.agent/perplexity-usage.json`).
-3. **Native $0 floor**: WebSearch, WebFetch, Tavily, Recall — cannot break.
+1. **research.py facade** (`execution/research.py`): Gemini Deep Research primary (free under Ultra), Perplexity fallback within $30/mo (`.agent/perplexity-usage.json`). Reddit thread text fetches come LIKELY-grade (not VERIFIED) due to WebFetch harness block on reddit.com — **standing manual URL-check step** (≤30s per source): open the raw Reddit link, skim buyer verbatim for accuracy, label receipt `VERIFIED` if claimed quote matches thread voice and context, `DISCARD` if quote was invented or paraphrased beyond recognition. This step is non-negotiable before any VERIFIED receipt ships externally or enters influence decisions.
+2. **Native $0 floor**: WebSearch, WebFetch, Tavily, Recall — cannot break.
 
-Budget exhaustion degrades one rung down the ladder; it never stalls the run and never raises spend. Zero actual Reddit/social thread reads in a run = the Social Listening lane is marked `DEGRADED` in the brief, honestly, like the 2026-07-30 run did.
+Budget exhaustion degrades one rung down the ladder; it never stalls the run and never raises spend. Zero actual Reddit/social thread reads in a run = the Social Listening lane is marked `DEGRADED` in the brief, honestly, like the 2026-07-30 run did. **Note (2026-08-27):** Apify retired per fleet decision; ladder updated to reflect current stack.
 
 ## Compounding Contract (the exponential-education mechanism)
 
@@ -448,9 +447,12 @@ Run the lanes in this order and label each item by lane.
    - Purpose: identify funnel mechanics, offer shapes, price anchors, proof
      moves, lead magnets, audit hooks, content gaps, and service opportunities.
 
-3. **Social Listening Lane** (Apify-first — see Social Listening Tool Ladder)
-   - Public Reddit threads via Apify reddit actor, public YouTube comments or
-     transcripts via sc-* actors, public forum language, public social posts.
+3. **Social Listening Lane** (`research.py`-first — see Social Listening Tool Ladder)
+   - Public Reddit threads recovered through the research facade, public YouTube
+     comments or transcripts where available, public forum language, public social posts.
+   - Research-recovered Reddit verbatim remains `LIKELY` until the standing
+     manual raw-URL check confirms quote, voice, and context; then promote it to
+     `VERIFIED`, or `DISCARD` it when the recovery does not hold.
    - Purpose: extract buyer language, doubts, wince lines, side-effect anxieties,
      founder anxieties, purchase objections, content fatigue, and lived-experience
      phrasing — VERBATIM, with URLs. Paraphrased buyer language is not a receipt.
@@ -502,6 +504,43 @@ Use one integrated output. Expert names are not proof. Evidence of integration i
 | Architecture | Nicolas Cole | Pillar/series threading, education-that-positions, category-of-one framing; the "why they come back" read on themes. |
 | Platform | Lara Acosta | LinkedIn-native format fit against 05-CONTENT-STRATEGY mechanics (saves ~10x, dwell, golden hour, 3-5/week ceiling); the "where it lands" gate. |
 | Story | Jenny Hoyos plus Shaan Puri | Narrative arcs, open loops, retention beats for video scripts and story-first posts; the "why they feel it" pass. |
+
+## Director Brief Shadow Contract (ACTIVE, NOT PROMOTED)
+
+Render one additional reader-facing brief from the completed research state. Do
+not run another search, fetch another source, or change the evidence grades for
+this render. The full `0-11` listening brief remains the authoritative research
+and production record while the Director Brief is tested in SHADOW mode.
+
+Save the shadow render to:
+
+`daily/YYYY-MM-DD-angle-map-director-brief.md`
+
+The Director Brief must be `900-1200` words and use only these five sections:
+
+1. `The answer` — the market change, why it matters, the recommended territory,
+   and the one thing to make next. Keep this section to 150 words or fewer.
+2. `Market read` — no more than three `Signal / Meaning / Use` blocks. Put live
+   source links beside the factual claims they support.
+3. `Creative direction` — one lead campaign territory and no more than two
+   clearly secondary alternatives. Include audience, tension, insight, proof,
+   counterpoint, visual world, and tone only when each changes production.
+4. `Production handoff` — objective, desired response, required material, first
+   deliverable, quality bar, and `Do not` boundaries. It must be sufficient for
+   a fresh writer to produce one strong asset without opening the full brief.
+5. `Action board` — create now, watch next, and ignore for now, followed by links
+   to the Production Pack, Evidence Pack, and System Receipt.
+
+Keep route traces, context-load notes, gate logs, candidate-angle tables,
+source inventories, living-doc deltas, and full finished assets out of this
+reader-facing brief. Surface evidence labels only when they change what the
+reader may safely claim. On Friday, link the separate weekly synthesis from the
+Action board; do not embed it.
+
+Write a sidecar `daily/YYYY-MM-DD-angle-map-director-brief.md.metadata.json`
+with `status: SHADOW`, `authoritative: false`, `research_refresh: false`, the
+authoritative full-brief path, and the companion-pack paths. This shadow
+contract does not replace the full brief or change the approved Drive mirror.
 
 ## Required Output Shape
 
@@ -833,6 +872,13 @@ Before finalizing, verify:
 - JSONL validates line by line (both insights.jsonl and promises-not-kept.jsonl)
 - Google Drive export was attempted to the approved folder (`11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`) and its outcome (exported, with link, or FAILED with reason) is reported honestly — a Drive failure does not block finalizing, but a skipped or unreported attempt does
 - `content_finish_gate.py`, `grounding_guard.py`, and export format guard run
+- the Director Brief shadow render exists, is 900-1200 words, contains only the
+  five required reader-facing sections, and links its Production, Evidence, and
+  System companion packs
+- the Director Brief was rendered from the completed research state without a
+  second research pass; its metadata keeps the full brief authoritative
+- on Friday, the Director Brief links the separate weekly synthesis instead of
+  embedding it
 
 If any acceptance check fails, mark the run `REVISE` and fix the weakest
 section before finalizing.
@@ -868,6 +914,10 @@ Include:
 Save the daily brief to:
 
 `_active/knowledge/health-performance-ip-library/daily/YYYY-MM-DD-angle-map-listening-brief.md`
+
+Also save the SHADOW reader-facing render to:
+
+`_active/knowledge/health-performance-ip-library/daily/YYYY-MM-DD-angle-map-director-brief.md`
 
 After the brief passes its gates, overwrite the exec cut at:
 

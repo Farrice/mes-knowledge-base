@@ -1,0 +1,184 @@
+<title>Listing Launch Kit — Sample</title>
+<style>
+  :root{
+    --canvas:#F3F3F0; --paper:#FAFAF8; --ink:#101010; --graphite:#555553;
+    --line:#D8D8D3; --stone:#8C8C82; --white:#FFFFFF;
+    --sans:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  body{background:var(--canvas); color:var(--ink); margin:0;
+    font-family:var(--sans); font-size:16px; line-height:1.6; font-weight:400;}
+  .wrap{max-width:680px; margin:0 auto; padding:48px 24px 96px;}
+  .label{font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;}
+  .masthead{display:flex; justify-content:space-between; align-items:baseline;
+    border-bottom:1px solid var(--ink); padding-bottom:14px; margin-bottom:48px; gap:12px; flex-wrap:wrap;}
+  .masthead .name{color:var(--ink);}
+  .masthead .desc{color:var(--stone);}
+  h1{font-weight:700; font-size:44px; line-height:1.05; letter-spacing:-.025em;
+    margin:0 0 18px; text-wrap:balance;}
+  .dek{color:var(--graphite); font-size:17px; margin:0 0 36px; max-width:54ch;}
+  .spec{border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:16px 0; margin:0 0 16px; font-size:14px; color:var(--graphite); line-height:1.9;}
+  .spec .label{color:var(--stone); display:block; margin-bottom:6px;}
+  .spec b{color:var(--ink); font-weight:500;}
+  .note{font-size:14px; color:var(--graphite); margin:0 0 64px; max-width:58ch;}
+  section{margin:0 0 72px;}
+  .sechead{display:flex; align-items:baseline; gap:16px; border-top:2px solid var(--ink);
+    padding-top:14px; margin-bottom:6px;}
+  .sechead .idx{color:var(--stone); font-weight:700; font-size:28px; letter-spacing:-.025em;
+    font-variant-numeric:tabular-nums;}
+  h2{font-weight:700; font-size:26px; letter-spacing:-.025em; margin:0; text-wrap:balance;}
+  .secsub{color:var(--stone); margin:0 0 20px;}
+  p{margin:0 0 14px;}
+  .tablewrap{overflow-x:auto; margin:20px 0;}
+  table{border-collapse:collapse; width:100%; font-size:14px; min-width:600px;}
+  th{font-size:10.5px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--graphite); text-align:left; padding:8px 14px 8px 0;
+    border-bottom:1px solid var(--ink);}
+  td{padding:10px 14px 10px 0; border-bottom:1px solid var(--line); vertical-align:top;
+    color:var(--ink);}
+  td:first-child{color:var(--stone); font-weight:700; font-variant-numeric:tabular-nums;}
+  td:last-child{color:var(--graphite);}
+  .prompter{background:var(--ink); color:var(--white); padding:32px 34px; margin:20px 0;}
+  .prompter .label{color:var(--stone); display:block; margin:0 0 4px;}
+  .prompter .shots{font-size:12px; color:var(--stone); margin:0 0 20px;}
+  .prompter .script{font-size:20px; line-height:1.55; font-weight:500;
+    letter-spacing:-.01em; margin:0;}
+  .prompter .fine{font-size:12.5px; color:var(--stone); margin:18px 0 0;}
+  .pick{background:var(--paper); border:1px solid var(--line); padding:20px 24px; margin:14px 0;}
+  .pick .label{color:var(--stone); display:block; margin:0 0 12px;}
+  .pick ol{margin:0; padding-left:20px;}
+  .pick li{margin:0 0 10px;} .pick li:last-child{margin:0;}
+  ol.frames{margin:20px 0; padding:0; list-style:none; counter-reset:fr;}
+  ol.frames li{counter-increment:fr; padding:12px 0 12px 44px; position:relative;
+    border-bottom:1px solid var(--line);}
+  ol.frames li:first-child{border-top:1px solid var(--line);}
+  ol.frames li::before{content:"0" counter(fr); position:absolute; left:0; top:14px;
+    color:var(--stone); font-weight:700; font-size:12px; letter-spacing:.16em;}
+  ul.dontsay{margin:20px 0; padding:0; list-style:none;}
+  ul.dontsay li{padding:12px 0; border-bottom:1px solid var(--line);}
+  ul.dontsay li:first-child{border-top:1px solid var(--line);}
+  ul.dontsay b{font-weight:700;}
+  .foot{border-top:2px solid var(--ink); padding-top:18px; margin-top:24px;
+    font-size:14.5px; color:var(--graphite); display:flex; justify-content:space-between;
+    gap:16px; flex-wrap:wrap;}
+  .foot b{color:var(--ink); font-weight:700;}
+</style>
+
+<div class="wrap">
+  <div class="masthead">
+    <span class="label name">Farrice Cain</span>
+    <span class="label desc">Listing content system</span>
+  </div>
+
+  <p class="label" style="color:var(--stone); margin:0 0 12px;">Sample kit · fictional property</p>
+  <h1>Listing launch kit</h1>
+  <p class="dek">One active listing becomes everything below, ready to film in one walkthrough. This sample uses a made-up address so you can see exactly what you get.</p>
+
+  <div class="spec">
+    <span class="label">The listing</span>
+    <b>1234 Hazeltine Ave, Van Nuys (demo)</b><br>
+    3 bed · 2 bath · 1,380 sqft · single-story · renovated kitchen · detached 2-car garage (ADU potential) · gated yard<br>
+    listed <b>$875K</b> · pocket median <b>$940K</b> · comparable house rents <b>~$4,200/mo</b> · all figures are sample figures
+  </div>
+  <p class="note">Your kit is built from your listing's verified MLS facts and written in your voice, pulled from your last 15 posts. Film-ready the day you receive it.</p>
+
+  <section>
+    <div class="sechead"><span class="idx">01</span><h2>Shoot sheet</h2></div>
+    <p class="secsub">One walkthrough · ~40 minutes · phone only</p>
+    <p>Film vertical (9:16). Natural light, midday. Wipe the counters and open every blind. Each clip runs 8-15 seconds; trim later or send me the raws.</p>
+    <div class="tablewrap"><table>
+      <tr><th>#</th><th>Where</th><th>The shot</th><th>Say or capture</th></tr>
+      <tr><td>1</td><td>Curb, across the street</td><td>Slow walk toward the gate, open it on camera</td><td>Nothing; this is your hook footage</td></tr>
+      <tr><td>2</td><td>Front door</td><td>Hand on handle, push open, step in</td><td>"Okay. Come see this."</td></tr>
+      <tr><td>3</td><td>Living room</td><td>Pan from entry, stop on the light from the front windows</td><td>Silent pan, hold 3 seconds at the end</td></tr>
+      <tr><td>4</td><td>Kitchen</td><td>Walk in, run hand along the counter, open one cabinet</td><td>"This whole kitchen was redone."</td></tr>
+      <tr><td>5</td><td>Kitchen detail</td><td>Close-up: faucet, backsplash, counter edge</td><td>Silent; b-roll for captions + stories</td></tr>
+      <tr><td>6</td><td>Primary bedroom</td><td>Doorway reveal, walk to window</td><td>"Single-story. No stairs, ever."</td></tr>
+      <tr><td>7</td><td>Bathroom</td><td>Doorway shot only, lights on</td><td>Silent</td></tr>
+      <tr><td>8</td><td>Backyard</td><td>Step out the back door, pan the gated yard</td><td>"And this is all yours."</td></tr>
+      <tr><td>9</td><td>Garage</td><td>Walk from yard to garage, open it, stand inside</td><td>"Two-car garage. Remember this one. It matters."</td></tr>
+      <tr><td>10</td><td>Selfie close</td><td>You, backyard behind you</td><td>"DM me KEYS and I'll send you the full walkthrough."</td></tr>
+    </table></div>
+    <p>That's every shot for all three reels plus stories. One walkthrough, done.</p>
+  </section>
+
+  <section>
+    <div class="sechead"><span class="idx">02</span><h2>Teleprompter pack</h2></div>
+    <p class="secsub">Three reels · word for word</p>
+    <p>Read these off your phone. Don't memorize; your natural read is the point.</p>
+
+    <div class="prompter">
+      <span class="label">Reel A · The scroll-past flip</span>
+      <p class="shots">Footage: shots 1, 2, 3, 6, 10</p>
+      <p class="script">Saw "Van Nuys" and kept scrolling? That scroll just cost you. This is a single-story 3-bedroom at $875K, in a pocket where the median is $940K. The kitchen's already done. The yard is gated. And you're ten minutes from the Sherman Oaks stores everyone actually drives to. The zip code made you hesitate. The house is why you shouldn't. DM me KEYS and I'll send you the full walkthrough.</p>
+    </div>
+
+    <div class="prompter">
+      <span class="label">Reel B · The renter's math</span>
+      <p class="shots">Footage: shots 3, 4, 8 · overlay the numbers as on-screen text</p>
+      <p class="script">If you're paying around $4,200 a month renting a house in the Valley, look at this. Sample math on this one: with a standard down payment at today's rates, the monthly lands closer to that rent number than most people guess. And part of it is going to YOU, not a landlord. I'm not going to tell you renting is throwing money away. I'm going to show you the actual number, side by side, and let you decide. DM me KEYS and I'll run it for your situation.</p>
+      <p class="fine">Compliance note in your kit: we insert YOUR lender's quoted figure before you film; no invented payment claims on camera.</p>
+    </div>
+
+    <div class="prompter">
+      <span class="label">Reel C · The garage that isn't a garage</span>
+      <p class="shots">Footage: shots 9, 8, 5, 10</p>
+      <p class="script">This garage is the reason to buy this house. Not for the cars. For what it can become. Detached, two-car, sitting on its own at the back of a gated lot. That's a future office. A gym. And with LA's ADU rules, potentially a whole separate unit down the line. You're not just buying 1,380 square feet. You're buying the option to add more. DM me KEYS and I'll send the lot details.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead"><span class="idx">03</span><h2>Caption + hook set</h2></div>
+    <p class="secsub">Pick one per post</p>
+    <div class="pick"><span class="label">Reel A captions</span><ol>
+      <li>the zip code made you hesitate. the house is about to change your mind 🔑 single-story, 3 bed, $875K where the median is $940K. DM me KEYS for the walkthrough.</li>
+      <li>everyone has an opinion about Van Nuys. nobody's looked at this house yet. $875K, kitchen done, gated yard. DM me KEYS.</li>
+    </ol></div>
+    <div class="pick"><span class="label">Reel B captions</span><ol>
+      <li>I put the rent number next to the mortgage number so you don't have to guess. DM me KEYS and I'll run yours.</li>
+      <li>you don't need permission to look at the math. you just need the math 🔑 DM me KEYS.</li>
+    </ol></div>
+    <div class="pick"><span class="label">Reel C captions</span><ol>
+      <li>the best room in this house doesn't have a room number yet. detached 2-car garage, ADU potential, gated lot. DM me KEYS for lot details.</li>
+      <li>bought a house, got a backyard office/gym/maybe-a-whole-unit for free. DM me KEYS.</li>
+    </ol></div>
+    <div class="pick"><span class="label">Carousel · "3 things the photos don't show you"</span><ol>
+      <li>Hook card: "3 things the listing photos don't show you about this Van Nuys 3-bed"</li>
+      <li>The light in the living room at noon (shot 3 still)</li>
+      <li>The garage + what ADU potential actually means, in two sentences</li>
+      <li>The math card: rent vs. sample monthly, side by side</li>
+      <li>CTA: "DM me KEYS. I answer every one."</li>
+    </ol></div>
+  </section>
+
+  <section>
+    <div class="sechead"><span class="idx">04</span><h2>Stories sequence</h2></div>
+    <p class="secsub">Five frames · post the day the reel drops</p>
+    <ol class="frames">
+      <li>Shot 1 footage + poll sticker: "Would you look past a zip code for the right house?" Yes / Honestly no</li>
+      <li>Shot 5 close-up + text: "kitchen's already done. that's one renovation you're not paying for."</li>
+      <li>Math card (from carousel slide 4) + text: "the number that surprises everyone"</li>
+      <li>Shot 9 garage + text: "future office? gym? ADU? this is the sleeper feature"</li>
+      <li>Selfie frame + text: "DM me KEYS for the full walkthrough. I answer every DM" (link sticker optional)</li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="sechead"><span class="idx">05</span><h2>The don't-say list</h2></div>
+    <p class="secsub">Fair-housing screen · included with every kit</p>
+    <p>Every line above has been screened. When you improvise on camera or in DMs, stay off these:</p>
+    <ul class="dontsay">
+      <li><b>Never describe the people, describe the property.</b> Not "perfect for young families / couples / professionals." Say "3 bedrooms and a flat, gated yard" and let buyers self-select.</li>
+      <li><b>No "safe" / "low-crime" / "good neighborhood" claims.</b> Say what's verifiable: "gated yard," "ten minutes from [named store/park]."</li>
+      <li><b>No school talk on camera.</b> Not even positive. Buyers can research schools; agents steering on them is a fair-housing risk.</li>
+      <li><b>No religious or demographic landmarks as selling points.</b></li>
+      <li><b>No invented urgency.</b> No "won't last," no fake countdowns. If interest is real, name it precisely ("second showing booked for Saturday").</li>
+      <li><b>No payment promises.</b> Monthly figures only from a lender quote, labeled as such.</li>
+    </ul>
+  </section>
+
+  <div class="foot">
+    <span>Your kit: built from your listing's MLS facts, written in your voice, delivered within 48 hours of intake.</span>
+    <span><b>$200 founding rate</b> · standard $450 · first three agents on the team</span>
+  </div>
+</div>

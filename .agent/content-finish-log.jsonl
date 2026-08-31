@@ -542,3 +542,41 @@
 {"ts": "2026-08-16T14:06:47Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 348-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-25T22:29:48Z", "label": "jun-founder-story", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-25T22:29:49Z", "label": "jun-proof-fragment", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-25T22:29:49Z", "label": "jun-direct-sales", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-27T17:17:32Z", "label": "2026-08-27-two-tubs-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 652-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:17:32Z", "label": "2026-08-27-claim-with-a-clock-proof-chain-2", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('it \u2026 it \u2026 it') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["A 446-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:17:32Z", "label": "2026-08-27-two-tubs-video", "verdict": "WARN", "fails": [], "warns": ["A 382-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:17:47Z", "label": "2026-08-27-two-tubs-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 652-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:17:47Z", "label": "2026-08-27-claim-with-a-clock-proof-chain-2", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('at \u2026 at \u2026 at') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["A 323-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:17:48Z", "label": "2026-08-27-two-tubs-video", "verdict": "WARN", "fails": [], "warns": ["A 382-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:18:06Z", "label": "2026-08-27-two-tubs-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 652-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:18:06Z", "label": "2026-08-27-claim-with-a-clock-proof-chain-2", "verdict": "WARN", "fails": [], "warns": ["A 323-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:18:06Z", "label": "2026-08-27-two-tubs-video", "verdict": "WARN", "fails": [], "warns": ["A 382-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:20:27Z", "label": "2026-08-27-two-tubs-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 652-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:20:27Z", "label": "2026-08-27-claim-with-a-clock-proof-chain-2", "verdict": "WARN", "fails": [], "warns": ["A 323-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-27T17:20:28Z", "label": "2026-08-27-two-tubs-video", "verdict": "WARN", "fails": [], "warns": ["A 382-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-28T19:07:43Z", "label": "Angle Map Friday essay", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-28T19:07:43Z", "label": "Angle Map 2026-08-28 brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["A 685-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-28T19:07:43Z", "label": "Angle Map flagship post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-28T19:08:53Z", "label": "Angle Map 2026-08-28 brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["A 685-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-28T19:08:53Z", "label": "Angle Map Friday essay", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-28T19:09:13Z", "label": "Angle Map 2026-08-28 brief", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 685-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-28T23:16:32Z", "label": "angle-map-director-handoff", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('one \u2026 one \u2026 one') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-28T23:16:52Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-28T23:18:12Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:17:09Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:17:35Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:25:37Z", "label": "publishable-copy", "verdict": "WARN", "fails": [], "warns": ["Question close (verify it's earned/non-transferable): \"If it works, we can expand from there. With your permission,\""]}
+{"ts": "2026-08-29T14:26:11Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:36:01Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T14:37:06Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T15:35:15Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T15:35:56Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-29T13:57:28Z", "label": "authority-density-taste-test", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 411-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-29T13:57:35Z", "label": "claim_court", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:35Z", "label": "proof_to_promise", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:35Z", "label": "decision_room", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:36Z", "label": "claim_memo", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-29T13:57:48Z", "label": "claim_court", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}

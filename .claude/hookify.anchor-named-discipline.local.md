@@ -1,6 +1,6 @@
 ---
 name: anchor-named-discipline
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

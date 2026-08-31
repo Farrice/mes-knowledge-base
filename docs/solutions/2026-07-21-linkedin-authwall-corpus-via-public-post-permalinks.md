@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: extract-forge matthew-lakajev expansion
+name: linkedin-authwall-corpus-via-public-post-permalinks
+problem_class: extraction / corpus gate / authwall
+domain: research
+status: proven
+problem_signature: "the blind-pass corpus gate needs two verbatim published pieces from a LinkedIn-native expert, but LinkedIn hits the authwall for logged-out fetchers, so the extraction ships with skip-blind-pass and stalls at A-tier forever with no corpus on disk"
+tags: [linkedin, authwall, corpus, blind-pass, extraction, webfetch]
+---
 # LinkedIn Blind-Pass Corpus via Public Post Permalinks
 
 **Date**: 2026-07-21 · **Session**: extract-forge matthew-lakajev expansion #2 · **Domain**: extraction / embodiment-standard

@@ -1,0 +1,14 @@
+{
+  "title": "Angle Map Director Brief - 2026-08-28",
+  "artifact_type": "director_brief_shadow",
+  "date": "2026-08-28",
+  "status": "SHADOW",
+  "authoritative": false,
+  "research_refresh": false,
+  "source_brief": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-listening-brief.md",
+  "evidence_pack": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-source-receipt.md",
+  "production_pack": "_active/farrice-brand/content/vault/2026-08-28-stack-moved-inside-scoop-post.md",
+  "weekly_synthesis": "_active/knowledge/health-performance-ip-library/weekly/2026-W35-health-performance-synthesis.md",
+  "system_receipt": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-shadow-system-receipt.json",
+  "target_word_range": [900, 1200]
+}

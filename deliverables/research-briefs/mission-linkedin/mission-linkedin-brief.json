@@ -1,12 +1,12 @@
 {
   "slug": "mission-linkedin",
-  "chip": "MISSION · LINKEDIN",
+  "chip": "MISSION · THREAD",
   "title": "Linkedin — Execution *Checklist*",
-  "dek": "The launch is fully prepared and has not launched.",
+  "dek": "Everything is written. The only thing missing is the part where a stranger reads it.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "3 sessions · 4 files · 9 assets",
-  "compiled": "aug 17, 2026",
+  "sources": "5 sessions · 0 files · 0 assets",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,86 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The campaign machinery is written — cadence, follow-up, delivery protocol, and a campaign file that keeps getting touched. What the records do not show is a single send or a logged reply.\n\nHandoff status is active. Last activity today.\n\nNext: Send the offer to real named prospects and log what comes back, before writing any more campaign scaffolding."
+      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 5 sessions.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 22d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Ship the existing posts on a fixed daily cadence for one week, no new writing",
+          "why": "Recommended. The writing debt is already paid; the only untested variable is whether the market answers. Costs nothing but the discomfort of publishing work you have already judged good."
+        },
+        {
+          "action": "Run one more sharpening pass on the profile and featured section before publishing",
+          "why": "Buys a slightly better first impression for anyone who clicks through, but spends another day on the shopfront and keeps the real question — does anyone respond — unanswered."
+        },
+        {
+          "action": "Park public posting and go direct-message only to named brands",
+          "why": "Faster path to a conversation and less exposure, but abandons the compounding surface that makes the later direct messages land warm."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Linkedin — Execution Checklist",
+          "command": "python3 execution/handoff_store.py resume linkedin",
+          "touches": [
+            ".agent/handoffs/2026-08-08-linkedin.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park linkedin --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "linkedin",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill linkedin --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "linkedin",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Linkedin — Execution Checklist\nSLUG: linkedin\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-linkedin.md\n\nRESUME HERE: Linkedin — Execution Checklist\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,20 +103,12 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "4",
-          "label": "FILES WRITTEN"
-        },
-        {
-          "value": "9",
-          "label": "ASSETS GENERATED"
-        },
-        {
-          "value": "3",
+          "value": "5",
           "label": "SESSIONS",
           "note": "codex"
         },
         {
-          "value": "10",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -52,66 +123,22 @@
           "label": "sessions",
           "values": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
+            2,
             2,
             0,
             0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
-          "value": "3",
+          "value": "5",
           "unit": "total",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            3,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "4",
-          "unit": "files",
-          "note": "per day"
-        },
-        {
-          "label": "assets",
-          "values": [
-            0,
-            0,
-            0,
-            1,
-            4,
-            1,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "9",
-          "unit": "made",
           "note": "per day"
         }
       ]
@@ -126,16 +153,16 @@
         },
         {
           "label": "build",
-          "state": "current",
-          "note": "files are moving; nothing finalized"
+          "state": "done"
         },
         {
           "label": "shipped",
-          "state": "todo"
+          "state": "done"
         },
         {
           "label": "outcome",
-          "state": "todo"
+          "state": "current",
+          "note": "an outcome was recorded against it"
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
@@ -146,111 +173,9 @@
       "tag": "COPY THE PATH",
       "items": [
         {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html",
-          "note": "aug 11, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html",
-          "note": "aug 9, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "role": "IMAGE",
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "role": "AUDIO",
-          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "carousel01-cover_recraft-v3_20260802-141930.png",
-          "role": "IMAGE",
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "CAMPAIGN.md",
-          "role": "FILE",
-          "path": "_active/linkedin/CAMPAIGN.md",
-          "note": "aug 12, 2026"
-        },
-        {
-          "title": "2026-08-10-DELIVERY-READY-PROTOCOL.md",
-          "role": "FILE",
-          "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
-          "role": "FILE",
-          "path": "_active/linkedin/05-lead-gen/2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-          "role": "FILE",
-          "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-07-13-stanton-linkedin-launch.md",
-          "role": "GUIDE",
-          "path": "guides/2026-07-13-stanton-linkedin-launch.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Linkedin — Execution Checklist",
-          "command": "python3 execution/handoff_store.py resume linkedin",
-          "touches": [
-            ".agent/handoffs/2026-08-08-linkedin.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done linkedin --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
+          "title": "2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md",
+          "role": "SOLUTION",
+          "path": "docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md"
         }
       ]
     },
@@ -260,28 +185,83 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
+          "date": "2026-08-21",
+          "title": "codex session",
+          "body": "Revenue: LinkedIn PMF Signal Lane - Built and Verified",
+          "done": true
+        },
+        {
+          "date": "2026-08-18",
+          "title": "codex session",
+          "body": "Revenue: LinkedIn PMF Signal Lane - Caleb Deployment",
+          "done": true
+        },
+        {
           "date": "2026-08-17",
-          "title": "commit eae54a99b",
-          "body": "chore(session): end-session commit gate — 2026-08-17",
+          "title": "codex session",
+          "body": "Research: Recent LinkedIn Offers - Corrected PMF Verdict",
           "done": true
         },
         {
-          "date": "2026-08-13",
+          "date": "2026-08-17",
           "title": "codex session",
-          "body": "Revenue: LinkedIn B2B Offer Recovery - Consolidated Continu…",
+          "body": "Research: LinkedIn AI Health Offers - PMF Verdict",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
+          "evidence": "v2 shipped beside v1; prose-clean body; feedback banked as memory + voice-ratchet FAIL entry",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         },
         {
-          "date": "2026-08-13",
-          "title": "codex session",
-          "body": "Find LinkedIn offer sessions",
-          "done": true
+          "claim": "Is the AI rush over? Research the real market demand across AI consulting, AI creative str",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: 07-21 red-team + 07-28 research",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         },
         {
-          "date": "2026-08-12",
-          "title": "codex session",
-          "body": "Extraction: LinkedIn Missing Link - Harvest System",
-          "done": true
+          "claim": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn pro",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: SPRINT SPINE Signal Pilot locked 2026-07-21 (send-before-build binding)",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
+          "evidence": "Two-gate dispatch principle; stay fitness cycle-1; hold $2K founder-rate frame; copy WINCEs fixed; re-aim shelved on kill condition",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Week 1 LinkedIn launch content for the Proof-to-Market offer — posts that feel like receip",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped + felt-judged 07-22",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Week 1 LinkedIn launch content - Proof-to-Market receipts",
+          "evidence": "3 posts delivered, gates passed (verify FAIL->fixed, adversarial FIX-LINE->fixed); Farrice: good, wants full-file read before posting · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: tracked in CAMPAIGN.md (2b/4)",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "LinkedIn cash launch: wargame canonical offer vs $500-2K/7-14d, lock profile, day-by-day motion plan from exis",
+          "evidence": "Farrice verdict: GOOD (emphatic) — About takes all rated 9/10, leaning A; executing the full package; first /go run with captured human feedback · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -296,11 +276,6 @@
           "path": ".agent/handoffs/2026-08-08-linkedin.md"
         },
         {
-          "k": "FRONT DOOR",
-          "title": "START HERE · linkedin",
-          "path": "_active/linkedin/START-HERE.html"
-        },
-        {
           "k": "BOARD",
           "title": "Mission board — every live thread",
           "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
@@ -311,7 +286,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Every mission on this thread is closed and the artifacts are recent, but nothing has been finalized through the ledger and no outcome has been recorded — so the thread looks busier than it is proven. Sessions here ran on the other harness, so this sweep sees their titles more than their substance.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

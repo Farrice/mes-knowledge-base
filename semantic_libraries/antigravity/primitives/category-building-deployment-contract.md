@@ -95,6 +95,7 @@ A category is deployed only when all four layers exist:
 
 - `/category-building-os` owns category deployment orchestration.
 - `erica-mallet-brand-magnetism` owns belief architecture, enemy effect, open-lane detection, and category-of-one craft.
+- `joanna-wiebe-persuasion-mastery/workflows/belief-community-architecture.md` owns the downstream persuasion sequence that translates an approved worldview into ethical contrast, symbols, rituals, shared language, proof-bounded conviction, and finished cross-channel expressions. It does not replace Erica or `/category-building-os`.
 - `/source-to-skill-system` owns future source-to-capability upgrades.
 - `/extraction-governor-agent` owns build-shape triage for new category sources.
 - `/expert-composition-governor` owns multi-expert category work when brand, offer, copy, research, and design all collide.

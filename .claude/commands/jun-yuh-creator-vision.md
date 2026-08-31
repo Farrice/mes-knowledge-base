@@ -1,5 +1,5 @@
 ---
-description: "Methodology for psychographic content alignment, Creator Vision identity architecture, permutation-based ideation, silent storytelling, and 1-to-7 systemized repurposing."
+description: "Methodology for psychographic content alignment, Creator Vision identity architecture, truth-safe lived-story mining, social story deployment, permutation-based ideation, silent storytelling, and 1-to-7 systemized repurposing."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

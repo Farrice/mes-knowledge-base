@@ -73,11 +73,30 @@ Thumbs.db
 
 # Per-session runtime ledgers (one file per session, written by session_ledger_hook.py)
 .agent/sessions/ledger-*.json
+.agent/sessions/memory-injections.jsonl
+.agent/sessions/menu-parity-seen.json
+.agent/sessions/menu-parity.log
+.agent/sessions/seen-injections-*.json
+.agent/sessions/session-ledger-report.md
+.agent/memory-facade-fires.jsonl
+.agent/finalize-runtime.jsonl
+
+# Lane reconciliation runtime receipts. Read locally by the pulse/dashboard;
+# rewritten on cadence and never source-of-truth for repository history.
+.agent/health/lane-reconciler.json
+.agent/lane-reconciler.log
+.agent/health/collector.log
+.agent/weekly-cards.log
+.agent/catalog/catalog.jsonl
+.agent/creative-strategy-learning-events.jsonl
+.agent/dara-format-outcomes.jsonl
 
 # Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
 # holds verbatim copies of .agent/session-state.md, which is deliberately
 # never committed (privacy) — must never leak via `git add .`.
 .agent/sessions/end-session-memory-ledger.jsonl
+.agent/sessions/notion-session-memory-outbox.jsonl
+.agent/sessions/notion-session-memory-events.jsonl
 .agent/sessions/state-archive/
 
 # Ephemeral intent-tracking state
@@ -185,6 +204,7 @@ _active/video-studio/hyperframes-studio/
 .agent/sessions/observe-log.jsonl
 .agent/sessions/steering-observe.jsonl
 .agent/pulse-serve.log
+.agent/pulse/serve.log
 .agent/sessions/solution-injections.jsonl
 .agent/sessions/menu-parity.jsonl
 .agent/sessions/closeout-intelligence-guard.jsonl

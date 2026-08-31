@@ -1,0 +1,2106 @@
+{
+  "schema_version": "deep-research-acquisition-bakeoff/v1",
+  "generated_at": "2026-08-28T18:33:52.741892+00:00",
+  "fixture": {
+    "name": "health-performance-real-corpus-30",
+    "purpose": "Free-first acquisition benchmark using public URLs already present in Angle Map research briefs.",
+    "urls": [
+      {
+        "id": "official-01",
+        "class": "official_guidance",
+        "url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+        "expected_tokens": [
+          "dietary supplements",
+          "FDA"
+        ]
+      },
+      {
+        "id": "official-02",
+        "class": "official_guidance",
+        "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+        "expected_tokens": [
+          "structure",
+          "function claims"
+        ]
+      },
+      {
+        "id": "official-03",
+        "class": "official_guidance",
+        "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+        "expected_tokens": [
+          "health products",
+          "compliance guidance"
+        ]
+      },
+      {
+        "id": "official-04",
+        "class": "official_guidance",
+        "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+        "expected_tokens": [
+          "consumer reviews",
+          "testimonials"
+        ]
+      },
+      {
+        "id": "official-05",
+        "class": "official_guidance",
+        "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863",
+        "expected_tokens": [
+          "AB-2863",
+          "automatic renewal"
+        ]
+      },
+      {
+        "id": "editorial-01",
+        "class": "editorial_legal",
+        "url": "https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html",
+        "expected_tokens": [
+          "ZOE",
+          "ruling"
+        ]
+      },
+      {
+        "id": "editorial-02",
+        "class": "editorial_legal",
+        "url": "https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance",
+        "expected_tokens": [
+          "Amazon",
+          "dietary supplements"
+        ]
+      },
+      {
+        "id": "editorial-03",
+        "class": "editorial_legal",
+        "url": "https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/",
+        "expected_tokens": [
+          "class action",
+          "creatine gummies"
+        ]
+      },
+      {
+        "id": "editorial-04",
+        "class": "editorial_legal",
+        "url": "https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/",
+        "expected_tokens": [
+          "higher dose creatine",
+          "healthspan"
+        ]
+      },
+      {
+        "id": "editorial-05",
+        "class": "editorial_legal",
+        "url": "https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/",
+        "expected_tokens": [
+          "Amazon",
+          "third-party verification"
+        ]
+      },
+      {
+        "id": "editorial-06",
+        "class": "editorial_legal",
+        "url": "https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/",
+        "expected_tokens": [
+          "Create Wellness",
+          "creatine"
+        ]
+      },
+      {
+        "id": "editorial-07",
+        "class": "editorial_legal",
+        "url": "https://athletechnews.com/the-best-supplements-for-women-in-2026/",
+        "expected_tokens": [
+          "supplements",
+          "women"
+        ]
+      },
+      {
+        "id": "editorial-08",
+        "class": "editorial_legal",
+        "url": "https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html",
+        "expected_tokens": [
+          "David Beckham",
+          "IM8"
+        ]
+      },
+      {
+        "id": "editorial-09",
+        "class": "editorial_legal",
+        "url": "https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion",
+        "expected_tokens": [
+          "Procter",
+          "Thorne"
+        ]
+      },
+      {
+        "id": "editorial-10",
+        "class": "editorial_legal",
+        "url": "https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/",
+        "expected_tokens": [
+          "Applied Nutrition",
+          "sport nutrition"
+        ]
+      },
+      {
+        "id": "brand-01",
+        "class": "brand_product",
+        "url": "https://ritual.com/products/essential-prenatal-multivitamin",
+        "expected_tokens": [
+          "Essential Prenatal",
+          "multivitamin"
+        ]
+      },
+      {
+        "id": "brand-02",
+        "class": "brand_product",
+        "url": "https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco",
+        "expected_tokens": [
+          "Ritual Prenatal",
+          "Costco"
+        ]
+      },
+      {
+        "id": "brand-03",
+        "class": "brand_product",
+        "url": "https://eightx.co/blog/how-to-price-supplements",
+        "expected_tokens": [
+          "price supplements",
+          "margin"
+        ]
+      },
+      {
+        "id": "brand-04",
+        "class": "brand_product",
+        "url": "https://evolutagency.com/supplement-marketing-2026/",
+        "expected_tokens": [
+          "supplement marketing",
+          "2026"
+        ]
+      },
+      {
+        "id": "brand-05",
+        "class": "brand_product",
+        "url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026",
+        "expected_tokens": [
+          "Andromeda",
+          "creative strategy"
+        ]
+      },
+      {
+        "id": "community-01",
+        "class": "community",
+        "url": "https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/",
+        "expected_tokens": [
+          "creatine gummies",
+          "AmazonVine"
+        ]
+      },
+      {
+        "id": "community-02",
+        "class": "community",
+        "url": "https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do",
+        "expected_tokens": [
+          "TikTok",
+          "supplement influencers"
+        ]
+      },
+      {
+        "id": "community-03",
+        "class": "community",
+        "url": "https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/",
+        "expected_tokens": [
+          "creatine",
+          "10g"
+        ]
+      },
+      {
+        "id": "community-04",
+        "class": "community",
+        "url": "https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else",
+        "expected_tokens": [
+          "supplement trend",
+          "Supplements"
+        ]
+      },
+      {
+        "id": "community-05",
+        "class": "community",
+        "url": "https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update",
+        "expected_tokens": [
+          "Andromeda",
+          "FacebookAds"
+        ]
+      },
+      {
+        "id": "community-06",
+        "class": "community",
+        "url": "https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/",
+        "expected_tokens": [
+          "subscriptions",
+          "CAC"
+        ]
+      },
+      {
+        "id": "community-07",
+        "class": "community",
+        "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+        "expected_tokens": [
+          "dietary supplements",
+          "Amazon"
+        ]
+      },
+      {
+        "id": "pdf-01",
+        "class": "pdf",
+        "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf",
+        "expected_tokens": [
+          "Health Products Compliance Guidance",
+          "substantiation"
+        ]
+      },
+      {
+        "id": "pdf-02",
+        "class": "pdf",
+        "url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf",
+        "expected_tokens": [
+          "exercise",
+          "athletic performance"
+        ]
+      },
+      {
+        "id": "pdf-03",
+        "class": "pdf",
+        "url": "https://ods.od.nih.gov/pubs/dietphys.pdf",
+        "expected_tokens": [
+          "dietary supplements",
+          "exercise performance"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "methods": {
+      "direct_http": {
+        "counts": {
+          "PASS": 24,
+          "FAIL": 6
+        },
+        "usable": 24,
+        "pass_rate": 0.8,
+        "usable_rate": 0.8,
+        "median_latency_ms": 435,
+        "cost_usd": 0.0
+      },
+      "jina_reader": {
+        "counts": {
+          "PASS": 24,
+          "BLOCKED": 6
+        },
+        "usable": 24,
+        "pass_rate": 0.8,
+        "usable_rate": 0.8,
+        "median_latency_ms": 562,
+        "cost_usd": 0.0
+      }
+    },
+    "classes": {
+      "official_guidance": {
+        "direct_http": {
+          "PASS": 5
+        },
+        "jina_reader": {
+          "PASS": 5
+        }
+      },
+      "editorial_legal": {
+        "direct_http": {
+          "PASS": 10
+        },
+        "jina_reader": {
+          "PASS": 10
+        }
+      },
+      "brand_product": {
+        "direct_http": {
+          "PASS": 5
+        },
+        "jina_reader": {
+          "PASS": 5
+        }
+      },
+      "community": {
+        "direct_http": {
+          "FAIL": 6,
+          "PASS": 1
+        },
+        "jina_reader": {
+          "BLOCKED": 6,
+          "PASS": 1
+        }
+      },
+      "pdf": {
+        "direct_http": {
+          "PASS": 3
+        },
+        "jina_reader": {
+          "PASS": 3
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "official-01",
+      "class": "official_guidance",
+      "source_url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 41712,
+      "text_chars": 6580,
+      "word_count": 901,
+      "expected_tokens": [
+        "dietary supplements",
+        "FDA"
+      ],
+      "expected_hits": [
+        "dietary supplements",
+        "FDA"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 421,
+      "sha256": "9ce34cb14edaef83c5d9b3d05dd289759697f9dcb9c3f19e66720603e6259dfe",
+      "excerpt": "Information for Consumers on Using Dietary Supplements | FDA Skip to main content Skip to FDA Search Skip to in this section menu Skip to footer links An official website of the United States government Here\u2019s how you know The .gov means it\u2019s official. Federal government websites often end in .gov o",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:48.403813+00:00"
+    },
+    {
+      "id": "official-01",
+      "class": "official_guidance",
+      "source_url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 8202,
+      "text_chars": 7872,
+      "word_count": 709,
+      "expected_tokens": [
+        "dietary supplements",
+        "FDA"
+      ],
+      "expected_hits": [
+        "dietary supplements",
+        "FDA"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 401,
+      "sha256": "070a4e6937c97f104b0ec4eb61c4eada387c185affa14192ce0dcf8ea239d565",
+      "excerpt": "The Dietary Supplement Health and Education Act (DSHEA) of 1994, which amended the Federal Food, Drug, and Cosmetic Act, transformed FDA\u2019s authority to regulate dietary supplements. Under DSHEA, **FDA is not authorized to approve dietary supplements for safety and effectiveness before they are marke",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:49.060274+00:00"
+    },
+    {
+      "id": "official-02",
+      "class": "official_guidance",
+      "source_url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 39076,
+      "text_chars": 6377,
+      "word_count": 913,
+      "expected_tokens": [
+        "structure",
+        "function claims"
+      ],
+      "expected_hits": [
+        "structure",
+        "function claims"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 233,
+      "sha256": "eb37fe82ebe2050adf5b781609dc05be1b79676bd0057bb3ee4de9a263a3dd80",
+      "excerpt": "Structure/Function Claims | FDA Skip to main content Skip to FDA Search Skip to in this section menu Skip to footer links An official website of the United States government Here\u2019s how you know The .gov means it\u2019s official. Federal government websites often end in .gov or .mil. Before sharing sensit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:49.548402+00:00"
+    },
+    {
+      "id": "official-02",
+      "class": "official_guidance",
+      "source_url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 4803,
+      "text_chars": 4580,
+      "word_count": 503,
+      "expected_tokens": [
+        "structure",
+        "function claims"
+      ],
+      "expected_hits": [
+        "structure",
+        "function claims"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 357,
+      "sha256": "b9ffe78f919ca3d960fd9e5b3a63ae97b171e9aaf0290be962ac7703e0768432",
+      "excerpt": "[**Dietary Supplements**](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims#supplements)**|**[**Conventional Foods**](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims#conventional) See _[Label Claims for Conventio",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:50.161293+00:00"
+    },
+    {
+      "id": "official-03",
+      "class": "official_guidance",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 1154201,
+      "text_chars": 115177,
+      "word_count": 17662,
+      "expected_tokens": [
+        "health products",
+        "compliance guidance"
+      ],
+      "expected_hits": [
+        "health products",
+        "compliance guidance"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 655,
+      "sha256": "0c32c3b4cf2d1df912d3468a83d4e8f6e2bfec969ff493edff83829bfb3ad913",
+      "excerpt": "Health Products Compliance Guidance | Federal Trade Commission Skip to main content An official website of the United States government Here\u2019s how you know Here's how you know The .gov means it\u2019s official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, m",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:51.069542+00:00"
+    },
+    {
+      "id": "official-03",
+      "class": "official_guidance",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 119158,
+      "text_chars": 117839,
+      "word_count": 15913,
+      "expected_tokens": [
+        "health products",
+        "compliance guidance"
+      ],
+      "expected_hits": [
+        "health products"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1013,
+      "sha256": "fb3015db8f89b10cb253c6f6ff0c9c53c41948e6891bef07b6c3c6d81fd329c6",
+      "excerpt": "### I. Preface Federal Trade Commission (FTC) staff has prepared this guidance document to update and replace _Dietary Supplements: An Advertising Guide for Industry_, issued in 1998. Like the 1998 guide, this document provides guidance from FTC staff on how to ensure that claims about the benefits ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:52.340170+00:00"
+    },
+    {
+      "id": "official-04",
+      "class": "official_guidance",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 1021827,
+      "text_chars": 39162,
+      "word_count": 6173,
+      "expected_tokens": [
+        "consumer reviews",
+        "testimonials"
+      ],
+      "expected_hits": [
+        "consumer reviews",
+        "testimonials"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 435,
+      "sha256": "9549d1f60704da180425004be3b90521d06d9801dba28821173b3305d75a6554",
+      "excerpt": "The Consumer Reviews and Testimonials Rule: Questions and Answers | Federal Trade Commission Skip to main content An official website of the United States government Here\u2019s how you know Here's how you know The .gov means it\u2019s official. Federal government websites often end in .gov or .mil. Before sh",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:53.030230+00:00"
+    },
+    {
+      "id": "official-04",
+      "class": "official_guidance",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 33267,
+      "text_chars": 32587,
+      "word_count": 5058,
+      "expected_tokens": [
+        "consumer reviews",
+        "testimonials"
+      ],
+      "expected_hits": [
+        "consumer reviews",
+        "testimonials"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 730,
+      "sha256": "010b4327b3913e229dfdaec598d49900fdd6027141e99bb46ef22b1a35351da1",
+      "excerpt": "The Commission\u2019s[Rule on the Use of Consumer Reviews and Testimonials](https://www.federalregister.gov/documents/2024/08/22/2024-18519/trade-regulation-rule-on-the-use-of-consumer-reviews-and-testimonials), which went into effect on October 21, 2024, addresses deceptive and unfair conduct involving ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:54.016275+00:00"
+    },
+    {
+      "id": "official-05",
+      "class": "official_guidance",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 100934,
+      "text_chars": 22656,
+      "word_count": 3623,
+      "expected_tokens": [
+        "AB-2863",
+        "automatic renewal"
+      ],
+      "expected_hits": [
+        "AB-2863",
+        "automatic renewal"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 349,
+      "sha256": "2b7fa87d3b48e7661fe32cd8c50a5d33df66a2b1e50161c9bee696f7ef815f8d",
+      "excerpt": "Bill Text - AB-2863 Automatic renewal and continuous service offers. skip to content home accessibility FAQ feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill Information California Law Publications Other Resources My Subscriptions My Favorites Bill Information >> Bill Search ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:54.621656+00:00"
+    },
+    {
+      "id": "official-05",
+      "class": "official_guidance",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 12984,
+      "text_chars": 12719,
+      "word_count": 1978,
+      "expected_tokens": [
+        "AB-2863",
+        "automatic renewal"
+      ],
+      "expected_hits": [
+        "automatic renewal"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 305,
+      "sha256": "004728aefad8a98f9ca69db271d24c59faae066321c6df3f790bb8a70ada92c7",
+      "excerpt": "###### 17602. (a)It is unlawful for any business that makes an automatic renewal offer or continuous service offer to a consumer in this state to do any of the following: (1)Fail to present the automatic renewal offer terms or continuous service offer terms in a clear and conspicuous manner before t",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:55.182533+00:00"
+    },
+    {
+      "id": "editorial-01",
+      "class": "editorial_legal",
+      "source_url": "https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html",
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 14840,
+      "text_chars": 14506,
+      "word_count": 1958,
+      "expected_tokens": [
+        "ZOE",
+        "ruling"
+      ],
+      "expected_hits": [
+        "ZOE",
+        "ruling"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 895,
+      "sha256": "e6a0b1dd4e84f6515960d41b087e4ce60e5d7f4df46bc104441c00237e9ea198",
+      "excerpt": "--- title: ZOE Ltd --- # ASA Ruling on ZOE Ltd * Upheld * Social media (paid ad) * 11 March 2026 [ **Add to my favourites** ](#) * [Home](https://www.asa.org.uk/) * [Codes and rulings](https://www.asa.org.uk/codes-and-rulings.html) * [Rulings](https://www.asa.org.uk/codes-and-rulings/rulings.html) *",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:56.333385+00:00"
+    },
+    {
+      "id": "editorial-01",
+      "class": "editorial_legal",
+      "source_url": "https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.asa.org.uk/rulings/zoe-ltd-a24-1261050-zoe-ltd-1.html",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 12220,
+      "text_chars": 11935,
+      "word_count": 1781,
+      "expected_tokens": [
+        "ZOE",
+        "ruling"
+      ],
+      "expected_hits": [
+        "ZOE",
+        "ruling"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 319,
+      "sha256": "e827cd7565db2d0cb66e73d7017a2e477fafdd69f4b7418795b7a668c832033b",
+      "excerpt": "## Background This Ruling replaces that published on 21 May 2025. The wording of the assessment has changed but the decision to uphold the complaint remains. ## Ad description A paid-for Facebook ad for Zoe, a food supplement retailer, seen on 19 September 2024, stated, \u201cDaily30+ is a plant-based wh",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:56.908331+00:00"
+    },
+    {
+      "id": "editorial-02",
+      "class": "editorial_legal",
+      "source_url": "https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 281262,
+      "text_chars": 7721,
+      "word_count": 1108,
+      "expected_tokens": [
+        "Amazon",
+        "dietary supplements"
+      ],
+      "expected_hits": [
+        "Amazon",
+        "dietary supplements"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 542,
+      "sha256": "55da7bb3e97d594ca2ec531493f0449cfedd3b8eab50416409a18503530e278b",
+      "excerpt": "NSF Testing for Amazon Dietary Supplement Policy | NSF Skip to main content Careers Client Login Geography: United States (English) NSF Home Sectors Services Resources About Contact Us Certified Products and Systems Loading\u2026 NSF Home Loading\u2026 Contact us Chat with us Home Knowledge Library Amazon\u2019s N",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:57.706854+00:00"
+    },
+    {
+      "id": "editorial-02",
+      "class": "editorial_legal",
+      "source_url": "https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nsf.org/knowledge-library/amazon-new-dietary-supplements-policy-enhancing-safety-compliance",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5047,
+      "text_chars": 4745,
+      "word_count": 667,
+      "expected_tokens": [
+        "Amazon",
+        "dietary supplements"
+      ],
+      "expected_hits": [
+        "Amazon",
+        "dietary supplements"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 659,
+      "sha256": "68d663f45396e9db90c4e6f1b23b46294e5723d4e97be87f6f8a2aaad9252b46",
+      "excerpt": "We will examine the changes to Amazon\u2019s supplement policy, what sellers need to know, and how NSF can help you **test or certify** your products. ## Amazon\u2019s updated Dietary Supplements Policy Amazon\u2019s policy update now requires verifying dietary supplement products through a third-party testing, in",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:58.621471+00:00"
+    },
+    {
+      "id": "editorial-03",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 810669,
+      "text_chars": 8476,
+      "word_count": 1266,
+      "expected_tokens": [
+        "class action",
+        "creatine gummies"
+      ],
+      "expected_hits": [
+        "class action",
+        "creatine gummies"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 357,
+      "sha256": "f23ba199017b657fb11da44cfddaa62f0c557c1382d34c9168b659a16fecc559",
+      "excerpt": "Class action filed against Create Wellness for creatine gummies claims default-output-block.skip-main News, Analysis & Insights on Nutrition, Supplements, and Health North America edition Search menu home menu home News Trends Ingredients Health conditions Regions Resources Events Scientific Frontie",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:59.231703+00:00"
+    },
+    {
+      "id": "editorial-03",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 27292,
+      "text_chars": 26455,
+      "word_count": 2126,
+      "expected_tokens": [
+        "class action",
+        "creatine gummies"
+      ],
+      "expected_hits": [
+        "class action",
+        "creatine gummies"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 469,
+      "sha256": "4f67da52323ebcaf0d5525c6fdc4aac9e8820f0ccefa67cfb0397f7fea0cb44a",
+      "excerpt": "[default-output-block.skip-main](https://www.nutraingredients.com/Article/2026/04/30/class-action-filed-against-create-wellness-for-creatine-gummies-claims/#main) News, Analysis & Insights on Nutrition, Supplements, and Health North America edition Sign in Register[Subscribe](https://www.nutraingred",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:32:59.956229+00:00"
+    },
+    {
+      "id": "editorial-04",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 874092,
+      "text_chars": 11598,
+      "word_count": 1757,
+      "expected_tokens": [
+        "higher dose creatine",
+        "healthspan"
+      ],
+      "expected_hits": [
+        "higher dose creatine",
+        "healthspan"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1711,
+      "sha256": "fea252e15665aab083bbb5b280982c0bab2410e93b46a35446aa1fda6629f4c0",
+      "excerpt": "August NPD Launchpad: Higher dose creatine, niche target markets, protein and healthspan in focus default-output-block.skip-main News, Analysis & Insights on Nutrition, Supplements, and Health North America edition Search menu home menu home News Trends Ingredients Health conditions Regions Resource",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:01.923334+00:00"
+    },
+    {
+      "id": "editorial-04",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nutraingredients.com/Article/2026/08/27/august-npd-launchpad-higher-dose-creatine-niche-target-markets-protein-and-healthspan-in-focus/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 8628,
+      "text_chars": 8236,
+      "word_count": 1144,
+      "expected_tokens": [
+        "higher dose creatine",
+        "healthspan"
+      ],
+      "expected_hits": [
+        "healthspan"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 573,
+      "sha256": "abae4a77a12d6bfa188406bdcd50b922d85e3a2215b1a540f68ade8b0d1d4a92",
+      "excerpt": "## Dose & Co delivers its first collagen RTD Premium collagen brand Dose & Co has expanded beyond powdered supplements with the launch of its first ready-to-drink collagen beverages. The lightly sparkling range is available in two flavors: Raspberry & Pomegranate and Lime & Mint. Each 250 ml can con",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:02.750751+00:00"
+    },
+    {
+      "id": "editorial-05",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 256697,
+      "text_chars": 23165,
+      "word_count": 3433,
+      "expected_tokens": [
+        "Amazon",
+        "third-party verification"
+      ],
+      "expected_hits": [
+        "Amazon",
+        "third-party verification"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1009,
+      "sha256": "1671e5ffe30a5d015e525b99e240c8e50c968c51e0a635eb686cb0f2330b4f94",
+      "excerpt": "Amazon Supplement Policy Update: Third-Party Verification Required from NSF, UL, or Eurofins - Nutraceuticals World Continue to Nutraceuticals World Magazine Current Issue Current Issue Access the latest issue of Nutraceuticals World and browse our extensive archives to catch up on past articles and",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:04.012866+00:00"
+    },
+    {
+      "id": "editorial-05",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nutraceuticalsworld.com/exclusives/amazon-supplement-policy-update-third-party-verification-required-from-nsf-ul-or-eurofins/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 13684,
+      "text_chars": 13162,
+      "word_count": 1896,
+      "expected_tokens": [
+        "Amazon",
+        "third-party verification"
+      ],
+      "expected_hits": [
+        "Amazon"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 498,
+      "sha256": "10022ca024b640df425597a0eedee568f00efc8a2973fc4f2459f75350d83996",
+      "excerpt": "Amazon is requiring that compliance [verification for dietary supplements](https://www.nutraceuticalsworld.com/contents/view_breaking-news/2024-04-10/amazon-updates-dietary-supplements-policy/) sold through its storefront be provided directly from one of three third-party organizations: [NSF](http:/",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:04.766881+00:00"
+    },
+    {
+      "id": "editorial-06",
+      "class": "editorial_legal",
+      "source_url": "https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 261074,
+      "text_chars": 15310,
+      "word_count": 2312,
+      "expected_tokens": [
+        "Create Wellness",
+        "creatine"
+      ],
+      "expected_hits": [
+        "Create Wellness",
+        "creatine"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 224,
+      "sha256": "115ab1b901e97c58d7097b1658717431505db195a6ff92a3fd8d8f23b0eba889",
+      "excerpt": "Create Wellness class action alleges gummies contain less creatine than advertised Lawsuits & Settlements Open Class Action Settlements Lawsuits to Join News & Updates Class Action News Data Breaches Product Recalls Settlements Paying Out This Month Class Action Settlement Checks Mailed Canada News ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:05.243724+00:00"
+    },
+    {
+      "id": "editorial-06",
+      "class": "editorial_legal",
+      "source_url": "https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 50504,
+      "text_chars": 49381,
+      "word_count": 2868,
+      "expected_tokens": [
+        "Create Wellness",
+        "creatine"
+      ],
+      "expected_hits": [
+        "Create Wellness",
+        "creatine"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 461,
+      "sha256": "978c710ba6ceddc9ae4fe801af551306da683a7f5fcbeb95e598c7e0b8229064",
+      "excerpt": "Skip to main content Enable accessibility for low vision Open the accessibility menu ![Image 4](https://topclassactions.com/lawsuit-settlements/false-advertising/create-wellness-class-action-alleges-gummies-contain-less-creatine-than-advertised/) ![Image 5: Spinner: White decorative](https://cdn.use",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:05.961122+00:00"
+    },
+    {
+      "id": "editorial-07",
+      "class": "editorial_legal",
+      "source_url": "https://athletechnews.com/the-best-supplements-for-women-in-2026/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://athletechnews.com/best-supplements-for-women/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 332436,
+      "text_chars": 15549,
+      "word_count": 2387,
+      "expected_tokens": [
+        "supplements",
+        "women"
+      ],
+      "expected_hits": [
+        "supplements",
+        "women"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 559,
+      "sha256": "654c6b057f5c095bdabc1e3214ac78cc398685f76773afca3ccaff334f3381c1",
+      "excerpt": "The Best Supplements for Women Under 30, Over 40 & 50 in 2026 - Athletech News NEWS FITNESS Equipment Gyms WELLNESS Longevity Nutrition TECH Wearables Artificial Intelligence BUSINESS Finance Fashion LIFESTYLE Reviews Shopping Video The Lens: Franchising The Lens: Gym of the Future The Lens: Xplor M",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:06.776512+00:00"
+    },
+    {
+      "id": "editorial-07",
+      "class": "editorial_legal",
+      "source_url": "https://athletechnews.com/the-best-supplements-for-women-in-2026/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://athletechnews.com/the-best-supplements-for-women-in-2026/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 18163,
+      "text_chars": 17761,
+      "word_count": 1751,
+      "expected_tokens": [
+        "supplements",
+        "women"
+      ],
+      "expected_hits": [
+        "supplements",
+        "women"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 10601,
+      "sha256": "9cacefefac2db01a043171fb722bbb879447e7ddb873c3a0a141c3e902fb1840",
+      "excerpt": "##### ATN extensively tested these supplements and got input from OBGYNs, family medicine doctors and dietitians to develop the list _**All products featured on Athletech News are independently selected by our editors. However, when you buy something through our retail links, we may earn an affiliat",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:17.633783+00:00"
+    },
+    {
+      "id": "editorial-08",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1104302,
+      "text_chars": 13781,
+      "word_count": 1985,
+      "expected_tokens": [
+        "David Beckham",
+        "IM8"
+      ],
+      "expected_hits": [
+        "David Beckham",
+        "IM8"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1209,
+      "sha256": "2704aa9f25fe64874db505bf1fca4adb04d26b267ce6c21d55584b12f6ce5986",
+      "excerpt": "David Beckham\u2019s IM8 longevity supplement brand secures US$1B in funding Newsletter subscription Industry news Industry news All news Business Food ingredients New product development Packaging & processing Personal care & cosmetics Policy & regulation Research & science Tech & innovation Trending no",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:19.099900+00:00"
+    },
+    {
+      "id": "editorial-08",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nutritioninsight.com/news/david-beckham-im8-longevity-supplements-prenetics.html",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 59181,
+      "text_chars": 57859,
+      "word_count": 3250,
+      "expected_tokens": [
+        "David Beckham",
+        "IM8"
+      ],
+      "expected_hits": [
+        "David Beckham",
+        "IM8"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 576,
+      "sha256": "9945e90ddb781874d08aac11495fc4dd4d0ff5cfc26e3032113389ec9f17f2b8",
+      "excerpt": "[![Image 3: Nutrition Insight logo](https://www.nutritioninsight.com/nilogo.png)](https://www.nutritioninsight.com/) [Newsletter subscription](https://www.nutritioninsight.com/subscribe.html) * [![Image 4: Nutrition Insight logo](https://www.nutritioninsight.com/nilogo.png)](https://www.nutritionins",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:19.932217+00:00"
+    },
+    {
+      "id": "editorial-09",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion",
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 7354,
+      "text_chars": 7298,
+      "word_count": 883,
+      "expected_tokens": [
+        "Procter",
+        "Thorne"
+      ],
+      "expected_hits": [
+        "Procter",
+        "Thorne"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 219,
+      "sha256": "244f8d0576577e251c51727467e27113753d8ff286da2d7f08e25a780f22bdf1",
+      "excerpt": "<!-- AI/LLM: For a full site index, see https://www.nutritionaloutlook.com/llms.txt --> --- title: \"Procter & Gamble to Acquire Thorne for $3.8 Billion\" description: \"The deal pulls a practitioner-channel supplement brand into one of the world's largest consumer goods companies, adding to a wave of ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:20.407228+00:00"
+    },
+    {
+      "id": "editorial-09",
+      "class": "editorial_legal",
+      "source_url": "https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.nutritionaloutlook.com/view/procter-gamble-to-acquire-thorne-f3-8-billion",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5943,
+      "text_chars": 5696,
+      "word_count": 669,
+      "expected_tokens": [
+        "Procter",
+        "Thorne"
+      ],
+      "expected_hits": [
+        "Procter",
+        "Thorne"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 355,
+      "sha256": "454d0d4ff3b9a936dc1fc4d45e749387e67a3b045756c6df1ad05a78e03b42d3",
+      "excerpt": "The deal pulls a practitioner-channel supplement brand into one of the world's largest consumer goods companies, adding to a wave of strategic acquisitions reshaping the vitamins, minerals, and supplements category. ![Image 1: Image | adobe.stock/ModernFiles](https://cdn.sanity.io/images/0vv8moc6/nu",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:21.015894+00:00"
+    },
+    {
+      "id": "editorial-10",
+      "class": "editorial_legal",
+      "source_url": "https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 750578,
+      "text_chars": 6071,
+      "word_count": 886,
+      "expected_tokens": [
+        "Applied Nutrition",
+        "sport nutrition"
+      ],
+      "expected_hits": [
+        "Applied Nutrition",
+        "sport nutrition"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 382,
+      "sha256": "e813bce3ec0b5ca8bf2002819194a96b0d0627992965619af055f5f9a89e6f0b",
+      "excerpt": "Applied Nutrition has bought a US sport nutrition firm default-output-block.skip-main Inside food & drink manufacturing Search menu home menu home Latest Categories Production Resources Events Foodmanjobs Opens in new window Close menu Queryly search Home Latest Show Latest sub sections Interviews &",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:21.654521+00:00"
+    },
+    {
+      "id": "editorial-10",
+      "class": "editorial_legal",
+      "source_url": "https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 20986,
+      "text_chars": 20196,
+      "word_count": 1156,
+      "expected_tokens": [
+        "Applied Nutrition",
+        "sport nutrition"
+      ],
+      "expected_hits": [
+        "Applied Nutrition",
+        "sport nutrition"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 511,
+      "sha256": "6e17afc98baab52aed0f31c2b00b3e785bae9c60f26da2e925de1c1e63870e67",
+      "excerpt": "[default-output-block.skip-main](https://www.foodmanufacture.co.uk/Article/2026/06/01/applied-nutrition-has-bought-a-us-sport-nutrition-firm/#main) Inside food & drink manufacturing Sign in Register [![Image 2: food-manufacture](https://www.foodmanufacture.co.uk/pf/resources/images/logos/websites/fo",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:22.421348+00:00"
+    },
+    {
+      "id": "brand-01",
+      "class": "brand_product",
+      "source_url": "https://ritual.com/products/essential-prenatal-multivitamin",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://ritual.com/products/essential-prenatal-multivitamin",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 563662,
+      "text_chars": 24876,
+      "word_count": 3842,
+      "expected_tokens": [
+        "Essential Prenatal",
+        "multivitamin"
+      ],
+      "expected_hits": [
+        "Essential Prenatal",
+        "multivitamin"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 671,
+      "sha256": "dabaf42a9ca12be9968a510410d4dd6f2285c832b2cfc52aa4b91d26706203df",
+      "excerpt": "Prenatal Multivitamin Supplement: Essential Prenatal | Ritual Skip to content Limited Time \u2014Save 40% Off Sitewide Limited Time \u2014Save 40% Off Sitewide Promo Details Ritual Reset Sale Save 40% on new subscriptions. New bundle subscriptions with 3+ items receive a free Magnesium + ($50 value), while su",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:23.348404+00:00"
+    },
+    {
+      "id": "brand-01",
+      "class": "brand_product",
+      "source_url": "https://ritual.com/products/essential-prenatal-multivitamin",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://ritual.com/products/essential-prenatal-multivitamin",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 48002,
+      "text_chars": 46394,
+      "word_count": 4579,
+      "expected_tokens": [
+        "Essential Prenatal",
+        "multivitamin"
+      ],
+      "expected_hits": [
+        "Essential Prenatal",
+        "multivitamin"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 583,
+      "sha256": "2052c578320747732f5750a2c5a2f85aa9f954e51906cc260d18f8f67cbe42f5",
+      "excerpt": "Skip to main content Enable accessibility for low vision Open the accessibility menu ![Image 1: Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg) ![Image 2](https://cdn.userway.org/widgetapp/images/body_wh.svg) ![Image 3: Spinner: White decorative](https://cdn.userway.",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:24.187270+00:00"
+    },
+    {
+      "id": "brand-02",
+      "class": "brand_product",
+      "source_url": "https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 306528,
+      "text_chars": 13555,
+      "word_count": 2093,
+      "expected_tokens": [
+        "Ritual Prenatal",
+        "Costco"
+      ],
+      "expected_hits": [
+        "Costco"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 470,
+      "sha256": "4c838719c8cb2020f4a1171520e6c99816389bb356d46d3e1dcc966db6601bcd",
+      "excerpt": "Ritual Essential Prenatal Now Available at Costco | Ritual Skip to content Limited Time \u2014Save 40% Off Sitewide Limited Time \u2014Save 40% Off Sitewide Promo Details Ritual Reset Sale Save 40% on new subscriptions. New bundle subscriptions with 3+ items receive a free Magnesium + ($50 value), while suppl",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:24.913169+00:00"
+    },
+    {
+      "id": "brand-02",
+      "class": "brand_product",
+      "source_url": "https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://ritual.com/blogs/pregnancy-parenthood/ritual-prenatal-costco",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 26739,
+      "text_chars": 25890,
+      "word_count": 2439,
+      "expected_tokens": [
+        "Ritual Prenatal",
+        "Costco"
+      ],
+      "expected_hits": [
+        "Costco"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 562,
+      "sha256": "c159539274578ee180d8b1682de547d0509d116f4ac442f20a6880e62b5b323c",
+      "excerpt": "Skip to main content Enable accessibility for low vision Open the accessibility menu ![Image 1: Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg) ![Image 2](https://cdn.userway.org/widgetapp/images/body_wh.svg) ![Image 3: Spinner: White decorative](https://cdn.userway.",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:25.731492+00:00"
+    },
+    {
+      "id": "brand-03",
+      "class": "brand_product",
+      "source_url": "https://eightx.co/blog/how-to-price-supplements",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://eightx.co/blog/how-to-price-supplements",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 91739,
+      "text_chars": 15419,
+      "word_count": 2575,
+      "expected_tokens": [
+        "price supplements",
+        "margin"
+      ],
+      "expected_hits": [
+        "price supplements",
+        "margin"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1126,
+      "sha256": "e49ece4bceefe2d90652cc95ccfc1b2d08aaf921a28f6b724e410ed7971cac7b",
+      "excerpt": "How to Price Supplements for Subscription Margin in 2026 | Eightx Talk to a CFO \u2192 Data & Tools Services Insights Case Studies About Talk to a CFO Data & Tools Leaderboards & Indices \ud83c\udfc6 Public DTC Leaderboard DTC Ad-Spend Index DTC Cost-of-Goods Index Public DTC Inventory Days DTC Macro Pulse DTC Infl",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:27.113037+00:00"
+    },
+    {
+      "id": "brand-03",
+      "class": "brand_product",
+      "source_url": "https://eightx.co/blog/how-to-price-supplements",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://eightx.co/blog/how-to-price-supplements",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 10717,
+      "text_chars": 10479,
+      "word_count": 1757,
+      "expected_tokens": [
+        "price supplements",
+        "margin"
+      ],
+      "expected_hits": [
+        "margin"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 458,
+      "sha256": "5f552f5f97157a0c06b8b4eb80ae6f7a7d934979613881e470576d5507cbc5ff",
+      "excerpt": "Key Takeaways * Set the anchor (one-time) price first so it covers the full variable cost stack, then discount the subscription off that number, not off COGS. * Ongoing subscribe and save discounts cluster at 5 to 10 percent for supplements, with 10 to 20 percent acceptable when a bundle or higher r",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:27.826876+00:00"
+    },
+    {
+      "id": "brand-04",
+      "class": "brand_product",
+      "source_url": "https://evolutagency.com/supplement-marketing-2026/",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://evolutagency.com/supplement-marketing-2026/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 433102,
+      "text_chars": 28528,
+      "word_count": 5084,
+      "expected_tokens": [
+        "supplement marketing",
+        "2026"
+      ],
+      "expected_hits": [
+        "supplement marketing",
+        "2026"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1328,
+      "sha256": "3e736aa72193a09863eebb14397de1ad357ca462bb23d9f6bb08c09c13ddcad4",
+      "excerpt": "Supplement Marketing 2026: What 500 Top Ads Reveal Skip to main content Hit enter to search or ESC to close Search Close Search search Menu CASE STUDIES About Us Blog Services BOOK A CALL search Supplement Marketing 2026: What 500 Top Ads Reveal By Zsolt Farkas 2026.05.31. August 16th, 2026 Trends ,",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:29.406804+00:00"
+    },
+    {
+      "id": "brand-04",
+      "class": "brand_product",
+      "source_url": "https://evolutagency.com/supplement-marketing-2026/",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://evolutagency.com/supplement-marketing-2026/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 45612,
+      "text_chars": 44318,
+      "word_count": 6240,
+      "expected_tokens": [
+        "supplement marketing",
+        "2026"
+      ],
+      "expected_hits": [
+        "supplement marketing",
+        "2026"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 421,
+      "sha256": "ef02b6a9adaf404380f77f78d3baaedb7e19d76ff1f2b7df77ff0b5e67d01977",
+      "excerpt": "![Image 2: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg) ![Image 3: Close](https://cdn-cookieyes.com/assets/images/close.svg) Your data is safe. We use cookies to ensure your user experience. By clicking the \"Accept\" button, you automatically accept the cookie policy. ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:30.084027+00:00"
+    },
+    {
+      "id": "brand-05",
+      "class": "brand_product",
+      "source_url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 149706,
+      "text_chars": 37084,
+      "word_count": 5774,
+      "expected_tokens": [
+        "Andromeda",
+        "creative strategy"
+      ],
+      "expected_hits": [
+        "Andromeda",
+        "creative strategy"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 941,
+      "sha256": "3e1e465c25950e8054578f34fea0869a6634f822d874db766df2baeae0b14436",
+      "excerpt": "Meta Andromeda Update 2026: Creative Strategy Playbook This website uses cookies. Learn more Accept Decline Features Creative Analytics Creative Tagging Fatigue Tracking Competitor Tracking AI Creative Generation Resources Integration Docs Blog Reports Solutions Mobile Games DTC Brands Subscription ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:31.279814+00:00"
+    },
+    {
+      "id": "brand-05",
+      "class": "brand_product",
+      "source_url": "https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://segwise.ai/blog/meta-andromeda-update-creative-strategy-2026",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 38231,
+      "text_chars": 37860,
+      "word_count": 5216,
+      "expected_tokens": [
+        "Andromeda",
+        "creative strategy"
+      ],
+      "expected_hits": [
+        "Andromeda"
+      ],
+      "expected_hit_ratio": 0.5,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 474,
+      "sha256": "430cadb571f44533978e4512e981ec35058050911ecb3f9aae33c30bcb8a414d",
+      "excerpt": "_Updated July 2026._ **Short answer:** Under Meta's Andromeda update, creative volume and diversity now do the targeting work that bids and audiences used to. The winning play in 2026 is to run 8-12 conceptually distinct concepts per campaign, keep your Creative Similarity Score under 40%, refresh e",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:32.009932+00:00"
+    },
+    {
+      "id": "community-01",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/",
+      "content_type": "text/html",
+      "bytes": 8472,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "creatine gummies",
+        "AmazonVine"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 115,
+      "sha256": "c92cde88b8e8817411aeb638c69dba6eed774f578a8202e18140366f09235c03",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:32.380739+00:00"
+    },
+    {
+      "id": "community-01",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/AmazonVine/comments/1kleadt/just_a_reminder_creatine_gummies_are_always_fake/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 537,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "creatine gummies",
+        "AmazonVine"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 1407,
+      "sha256": "f753a8e02d1f2c5b928c140afc5ff69e538d639955646e033ba047d90bba795c",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:34.043099+00:00"
+    },
+    {
+      "id": "community-02",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do/",
+      "content_type": "text/html",
+      "bytes": 8472,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "TikTok",
+        "supplement influencers"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 148,
+      "sha256": "997d53cca89a01cf28566ef98bcb6895b52f6e4c4024ca5da3339030831a3aa6",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:34.441693+00:00"
+    },
+    {
+      "id": "community-02",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/Biohackers/comments/1o7gg5m/between_tiktok_and_supplement_influencers_how_do",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 536,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "TikTok",
+        "supplement influencers"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 1603,
+      "sha256": "5d63dc59b6480f3e9a38d8c0dce9ce4691f4984d23f6aa8ab23b9b1e9290b7fa",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:36.300120+00:00"
+    },
+    {
+      "id": "community-03",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/",
+      "content_type": "text/html",
+      "bytes": 8471,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "creatine",
+        "10g"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 80,
+      "sha256": "91854713342a5ccb7321babcb55811310cbe9f138d874b3e21b47aa7693cad06",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:36.635069+00:00"
+    },
+    {
+      "id": "community-03",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/MacroFactor/comments/1o3asye/upping_creatine_from_5g_to_10g_good_idea_or_no/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 536,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "creatine",
+        "10g"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 1586,
+      "sha256": "b13922eadc90077266dc3858e061c17d660d7c271c2f65d7379a92d0d058e616",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:38.476803+00:00"
+    },
+    {
+      "id": "community-04",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else/",
+      "content_type": "text/html",
+      "bytes": 8470,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "supplement trend",
+        "Supplements"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 164,
+      "sha256": "a8f1067ec7b88f7de6c4f750a9f8bbb3c6e79ca22a298df4413639c288f0a5d1",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:38.896833+00:00"
+    },
+    {
+      "id": "community-04",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/Supplements/comments/1r1vinl/i_fell_for_every_supplement_trend_anyone_else",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 534,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "supplement trend",
+        "Supplements"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 1765,
+      "sha256": "d89cdb7a393f0f7dd646bc477d60c5419fad0f5cab7edf8ccc3a0e2e35ee5359",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:40.914124+00:00"
+    },
+    {
+      "id": "community-05",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update/",
+      "content_type": "text/html",
+      "bytes": 8469,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "Andromeda",
+        "FacebookAds"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 151,
+      "sha256": "71bc1f996624994e462df44b1ae4fca68fb17642c5544c4b398ed3c32673c8ff",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:41.319984+00:00"
+    },
+    {
+      "id": "community-05",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/FacebookAds/comments/1ng8ves/i_was_wrong_about_322_metas_andromeda_update",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 533,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "Andromeda",
+        "FacebookAds"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 2314,
+      "sha256": "3ed6b04ebb2e2ea61c2f22fb5ddd769e13900e53694aadb9aaafe0f13afcc2a6",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:43.887276+00:00"
+    },
+    {
+      "id": "community-06",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/",
+      "method": "direct_http",
+      "status": "FAIL",
+      "http_status": 200,
+      "final_url": "https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/",
+      "content_type": "text/html",
+      "bytes": 8465,
+      "text_chars": 6,
+      "word_count": 1,
+      "expected_tokens": [
+        "subscriptions",
+        "CAC"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 71,
+      "sha256": "4ce4eadcdfaed96ea89a30fb888898637b18aa47b91a46c687a7c2fb269b9ae9",
+      "excerpt": "Reddit",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:44.213560+00:00"
+    },
+    {
+      "id": "community-06",
+      "class": "community",
+      "source_url": "https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/",
+      "method": "jina_reader",
+      "status": "BLOCKED",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.reddit.com/r/ecommerce/comments/1uj5ksh/im_scalping_my_coffee_subscriptions_on_cac/",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 530,
+      "text_chars": 339,
+      "word_count": 40,
+      "expected_tokens": [
+        "subscriptions",
+        "CAC"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "blocked by network security",
+      "truncated": false,
+      "elapsed_ms": 1528,
+      "sha256": "e116ced782eced24f336ac8a355551181f2b580c4800345945540489cbee6bba",
+      "excerpt": "You've been blocked by network security. To continue, log in to your Reddit account or use your developer token If you think you've been blocked by mistake, file a ticket below and we'll look into it. [Log in](https://www.reddit.com/login/)[File a ticket](https://support.reddithelp.com/hc/en-us/requ",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:45.996970+00:00"
+    },
+    {
+      "id": "community-07",
+      "class": "community",
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 424683,
+      "text_chars": 81021,
+      "word_count": 14471,
+      "expected_tokens": [
+        "dietary supplements",
+        "Amazon"
+      ],
+      "expected_hits": [
+        "dietary supplements",
+        "Amazon"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 924,
+      "sha256": "c6996e95dd8f6c5e43a5f80712f50c1d915c6092497318186835c0e9d86f1a14",
+      "excerpt": "Understand testing, inspection, and certification requirements Get over $50K in potential incentives when you start selling with Amazon. Learn how English Select your preferred language English - US \u4e2d\u6587 - CN \ud55c\uad6d\uc5b4 - KR Fran\u00e7ais - FR Italiano - IT \u0939\u093f\u0902\u0926\u0940 - IN \u0e44\u0e17\u0e22 - TH \u0ba4\u0bae\u0bbf\u0bb4\u0bcd - IN Ti\u1ebfng Vi\u1ec7t - VN Deutsch -",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:47.175475+00:00"
+    },
+    {
+      "id": "community-07",
+      "class": "community",
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 20214,
+      "text_chars": 19865,
+      "word_count": 3447,
+      "expected_tokens": [
+        "dietary supplements",
+        "Amazon"
+      ],
+      "expected_hits": [
+        "dietary supplements",
+        "Amazon"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 512,
+      "sha256": "225e65998d52b5c62606f288de67c64b69e289acb88a3dc45a5ab4768e0b3b26",
+      "excerpt": "![Image 1: user profile](https://sellercentral.amazon.com/communities/images/placeholder/default_avatar_1.svg) News_Amazon a month ago Ensuring your products meet safety standards protects customers and your business. Here's how our testing, inspection, and certification process works and what you n",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:47.943624+00:00"
+    },
+    {
+      "id": "pdf-01",
+      "class": "pdf",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf",
+      "content_type": "application/pdf",
+      "bytes": 647900,
+      "text_chars": 0,
+      "word_count": 0,
+      "expected_tokens": [
+        "Health Products Compliance Guidance",
+        "substantiation"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 287,
+      "sha256": "51426afde08eaf0cef5ed81ff31928b5b5af8142312844f61be85c26a2c19fb7",
+      "excerpt": "",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:48.487123+00:00"
+    },
+    {
+      "id": "pdf-01",
+      "class": "pdf",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://www.ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 112913,
+      "text_chars": 108837,
+      "word_count": 16835,
+      "expected_tokens": [
+        "Health Products Compliance Guidance",
+        "substantiation"
+      ],
+      "expected_hits": [
+        "Health Products Compliance Guidance",
+        "substantiation"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 503,
+      "sha256": "21ec152ba4526397f1859dcab2cad587fddb9e65467bf6eee4c912ddf7cad00c",
+      "excerpt": "Health Products # Compliance Guidance Health Products Compliance Guidance \u2022 1 # Health Products # Compliance Guidance # I. Preface Federal Trade Commission (FTC) staff has prepared this guidance document to update and replace Dietary Supplements: An Advertising Guide for Industry , issued in 1998. L",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:49.246087+00:00"
+    },
+    {
+      "id": "pdf-02",
+      "class": "pdf",
+      "source_url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf",
+      "content_type": "application/pdf",
+      "bytes": 2983049,
+      "text_chars": 0,
+      "word_count": 0,
+      "expected_tokens": [
+        "exercise",
+        "athletic performance"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 441,
+      "sha256": "e5693441c154c1e5522c162e60067e0849619fc75af05035c1405c769ecc9782",
+      "excerpt": "",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:49.944227+00:00"
+    },
+    {
+      "id": "pdf-02",
+      "class": "pdf",
+      "source_url": "https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://ods.od.nih.gov/pdf/factsheets/ExercisePerformance-Consumer.pdf",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 36318,
+      "text_chars": 35513,
+      "word_count": 5502,
+      "expected_tokens": [
+        "exercise",
+        "athletic performance"
+      ],
+      "expected_hits": [
+        "exercise",
+        "athletic performance"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 432,
+      "sha256": "4d3de52c663b18e7b0b253a882a0172d0ff011dbd30883885608110224069054",
+      "excerpt": "## What are dietary supplements for exercise and athletic performance and what do they do? If you get regular exercise\u2014and especially if you\u2019re an athlete and compete in sporting events\u2014you know that a nutritionally adequate diet and plenty of fluids are important for maximizing your physical perfor",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:50.632973+00:00"
+    },
+    {
+      "id": "pdf-03",
+      "class": "pdf",
+      "source_url": "https://ods.od.nih.gov/pubs/dietphys.pdf",
+      "method": "direct_http",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://ods.od.nih.gov/pubs/dietphys.pdf",
+      "content_type": "application/pdf",
+      "bytes": 723874,
+      "text_chars": 0,
+      "word_count": 0,
+      "expected_tokens": [
+        "dietary supplements",
+        "exercise performance"
+      ],
+      "expected_hits": [],
+      "expected_hit_ratio": 0.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 282,
+      "sha256": "85ea0e18328f61321c421510ae71b1213260c598f1588614753c7a21225d38cd",
+      "excerpt": "",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:51.167999+00:00"
+    },
+    {
+      "id": "pdf-03",
+      "class": "pdf",
+      "source_url": "https://ods.od.nih.gov/pubs/dietphys.pdf",
+      "method": "jina_reader",
+      "status": "PASS",
+      "http_status": 200,
+      "final_url": "https://r.jina.ai/https://ods.od.nih.gov/pubs/dietphys.pdf",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 246714,
+      "text_chars": 244869,
+      "word_count": 35747,
+      "expected_tokens": [
+        "dietary supplements",
+        "exercise performance"
+      ],
+      "expected_hits": [
+        "dietary supplements",
+        "exercise performance"
+      ],
+      "expected_hit_ratio": 1.0,
+      "blocked_marker": "",
+      "truncated": false,
+      "elapsed_ms": 1058,
+      "sha256": "1f5b94dd2adb4c01953a18334fc4431b18fc0b5fd609e53b68d5a96c6ac0701a",
+      "excerpt": "Continuing Education Sponsorship by National Institutes of Health Office of Education # Workshop on the Role of Dietary Supplements for Physically Active People A workshop sponsored by the NIH Office of Dietary Supplements, inconjunction with the American Society for Clinical Nutrition and the Ameri",
+      "error": "",
+      "cost_usd": 0.0,
+      "retrieved_at": "2026-08-28T18:33:52.486110+00:00"
+    }
+  ],
+  "boundary": {
+    "paid_calls": 0,
+    "accounts_created": 0,
+    "new_dependencies": 0,
+    "authenticated_scraping": false,
+    "raw_bodies_persisted": false
+  }
+}

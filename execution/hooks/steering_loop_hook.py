@@ -513,14 +513,24 @@ def _mirror_block(prompt: str, mode) -> str:
     if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING"):
         return ""
     if _mirror_signals(prompt) >= 2:
+        # Upgraded 2026-08-20 (Farrice, approved plan "Intent Brief Default"):
+        # raw intent → compiled brief → his confirm → fresh-context execution.
+        # He self-diagnosed: best work in planning mode, worst on free-run;
+        # blind A/B proved quality = settled brief + clean head, not model.
         return (
-            "🪞 INTENT MIRROR — FULL (raw dump): BEFORE producing, reflect "
-            "back in ≤5 lines — deliverable+format · felt standard · "
-            "references/assets in play · budget/constraints · the one detail "
-            "that makes it HIS — then add exactly ONE senior-partner "
-            "push-back or sharpening question (the question a partner with "
-            "skin in the game would ask, not a soft clarifier). Proceed on "
-            "his confirm or visible non-objection.")
+            "📋 INTENT BRIEF (raw ask — 2026-08-20 ruling): do NOT produce "
+            "yet. Compile a ≤10-line brief from his raw intent — Deliverable+"
+            "size · Outcome/felt standard · Constraints · Sources to load · "
+            "Taste bar (voice/register rules in play) · Pen seat (Executor "
+            "Registry) · Open questions (ONLY ones that change execution) — "
+            "and present it for confirm/edit, plus ONE senior-partner "
+            "push-back if a real fork is live. On his confirm or edit: "
+            "artifact-shaped work dispatches to ONE fresh-context executor "
+            "carrying \"no Chain, no finalize, no Notion, no Next Moves, "
+            "return only the artifact\"; he iterates on the FINAL product — "
+            "rejection = fix the brief, dispatch fresh, never iterate "
+            "in-thread. \"Just do it\" = skip the confirm beat, never the "
+            "fresh dispatch.")
     return (
         "🪞 INTENT MIRROR (universal — every substantive ask): open the reply "
         "with a 1-3 line mirror of what you're reading — deliverable · "
@@ -723,6 +733,52 @@ def handle_prompt(payload: dict) -> None:
     except Exception:
         co_creation = ""
 
+    # ── Fresh Pen Protocol (Farrice 2026-08-20) ───────────────────────────
+    # Blind 3-seat A/B proved artifact quality comes from a clean one-shot
+    # brief executed in a FRESH context, not from the conversation seat
+    # (scar: 2026-07-27 eight in-thread headline rounds; ruling: 2026-08-20
+    # "Take B" test, dialect card § Fable-Seat Re-probe). Nudge, not cage:
+    # "just do it" skips the veto beat, never the fresh dispatch.
+    fresh_pen = ""
+    try:
+        # Suppress when the INTENT BRIEF card already fired this prompt —
+        # that card carries the same dispatch rule (approved plan 2026-08-20).
+        if "INTENT BRIEF" not in cc_block:
+            _pl = prompt.lower()
+            _pen_execute = re.search(
+                r"\b(just do it|just run|go ahead|proceed|ship it|no questions|"
+                r"execute)\b", _pl)
+            _artifact = re.search(
+                r"\b(write|draft|ghostwrite|rewrite|revise|produce|generate|"
+                r"build)\b.{0,60}\b(post|copy|email|edition|newsletter|caption|"
+                r"script|headline|hook|bio|carousel|about section|sales page|"
+                r"landing|opener|thread|article|essay|brief|report|analysis|"
+                r"doc|deck|page|plan|extraction|one.?pager)\b"
+                r"|\b(linkedin post|cold email|substack edition|listing copy|"
+                r"research brief)\b", _pl)
+            if _artifact and _pen_execute:
+                fresh_pen = (
+                    "FRESH PEN (execute dial): skip the veto beat — compile "
+                    "the brief silently and dispatch the fresh-context "
+                    "executor (seat per Executor Registry, negative brief) "
+                    "now; still never produce the artifact in-thread.\n")
+            elif _artifact:
+                fresh_pen = (
+                    "FRESH PEN PROTOCOL (artifact-shaped ask — 2026-08-20 "
+                    "blind-test ruling): do NOT produce the artifact in this "
+                    "thread. Compile the ≤10-line brief (deliverable+size · "
+                    "outcome · constraints · sources · taste bar · pen seat · "
+                    "open questions), show it for a quick veto, then dispatch "
+                    "ONE fresh-context executor seated per "
+                    "directives/orchestration-doctrine.md Executor Registry "
+                    "(creative prose: Opus 5, blind-verified 2026-08-20; "
+                    "mechanical/grind: Sonnet 5) carrying \"no Chain, no "
+                    "finalize, no Notion, no Next Moves, return only the "
+                    "artifact\". Rejected take → fix the BRIEF and dispatch "
+                    "fresh; never iterate the same executor in-thread.\n")
+    except Exception:
+        fresh_pen = ""
+
     # ── Bound injector (Model-Dialect Adaptation Layer, 2026-07-28) ───────
     # Injects the ACTIVE model's pathology corrections (from its dialect
     # card's machine-dialect block) for this prompt's class. Fail-safe: any
@@ -748,7 +804,7 @@ def handle_prompt(payload: dict) -> None:
     tip = ""
     if count % 5 == 1:
         tip = f"Harness tip: {TIPS[(count - 1) % len(TIPS)]}"
-    block = (cc_block + co_creation + dialect + steering + tip).rstrip()
+    block = (cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
     if block:
         print(block)
     sys.exit(0)

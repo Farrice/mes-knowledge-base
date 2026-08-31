@@ -1,3 +1,13 @@
+---
+date: 2026-07-26
+session: telemetry surgery under concurrent sessions
+name: jsonl-row-purge-by-fingerprint-not-position
+problem_class: harness / telemetry surgery / positional delete
+domain: harness
+status: proven
+problem_signature: "a bad row has to be removed from an append-only .agent jsonl log and the obvious positional delete (the last line, the most recent entry, the top row) would silently destroy a genuine record a sibling session appended in the meantime"
+tags: [jsonl, telemetry, concurrency, surgery, backup, fingerprint]
+---
 # Solution Card — purge a `.agent/*.jsonl` row by fingerprint, never by position
 
 **Date**: 2026-07-26 · **Domain**: system fix (telemetry surgery under concurrent sessions) · **Status**: SOLVED (recipe; helper script not built)

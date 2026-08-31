@@ -1,27 +1,27 @@
 # Added complete production playbook and morning content…
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 18, 2026
 
-Best-rated work on the board, parked with nobody using it.
+The brief system and its production playbook are built and skinned; no one has run a real day through them yet.
 
 ## where this stands
 _CURRENT POSITION_
-The production playbook and morning brief layer landed at keep grade — among the few results in this sweep rated worth keeping — and then the thread went quiet.
+The readout layer shipped: the brief renderer got its Premium Minimal skin and richer section kinds, with a production playbook and a morning brief template stacked on top. It has been still since it landed.
 
-Handoff status is active. Last activity 11d ago.
+Handoff status is active. Last activity 13d ago.
 
-Next: Decide whether this layer is finished: close it, or name the next piece it needs.
+Next: Put the morning brief template through a real production day and cut whatever doesn't survive contact.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **14 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — This is some of the highest-rated work in the sweep sitting idle with an open status — either it is done and should be closed, or something downstream is quietly waiting on it.
+1. **Decide: resume or park** — It shipped complete and then stopped moving, which reads as finished rather than abandoned — the honest call is to close the thread out, not keep it warm.
 
 ## pick it back up
 1. **Resume here** — Added complete production playbook and morning content brief layer to the content-team OS launch assets. Created 05-content-production-playbook.md with morning run-of-show, time-boxed production modes, format decision tree, asset SOPs, daily minimum, standard day, flagship day, and end-of-day closeout. Created 06-morning-content-brief-template.md with a 10-section daily production brief, paste-ready AI production prompt, and filled Thursday example. Updated 00-START-HERE.md to index the new files. Grounded in brand-operating-system skill and master creative brief inheritance, plus the existing content-team OS launch assets. Verification: file inventory pass, ASCII pass, unsafe-language scan pass, export_format_guard pass, prose warnings expected for checklist/template parallel structure.
@@ -41,7 +41,7 @@ python3 execution/handoff_store.py resume 04-briefs
 
 ## what this isn't
 _READ THE EDGES_
-Quality was self-assessed at finalize time and no outcome has been recorded, so keep grade means the work was judged good, not that anyone has run a day off it yet.
+Everything recorded here is build evidence. The playbook and template exist and passed their own verification checks, but no record shows either used on a live production day — shipped is not the same as adopted.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

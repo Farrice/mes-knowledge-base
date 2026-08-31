@@ -2,11 +2,11 @@
   "slug": "mission-trailer-treatment",
   "chip": "MISSION · THREAD",
   "title": "Midnight Oil native reference pack, continuity *manifest*…",
-  "dek": "Prep is done; the pack has not been fired.",
+  "dek": "Beautiful work, wrong month. Name it a hobby out loud so it stops taxing you.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "compiled": "aug 23, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,86 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The reference pack, continuity manifest and director prompt are finalized. The outcome slot is still sitting on pending, so nothing downstream has been recorded as made from them.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Run the pack through generation and record the result against the pending outcome."
+      "body": "Three finished deliverables and a locked character canon sit here from a week and a half ago, all built at zero spend — this is real craft output with no line to the sprint's money.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Decide today whether this is a portfolio proof piece or a hobby, and write that decision down in one line."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: The work is genuinely complete at the preparation layer: reference pack locked, continuity manifest built, director prompt written, physics vetoes verified. The discipline in it is the same discipline that makes the claim-safe brand work good, so it is not wasted practice. But it serves no buyer and no revenue thread. Left as is, it will either quietly rot or quietly eat a weekend. Both outcomes are worse than deciding now which one it is.\n\nHandoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Park it explicitly as a hobby, revisit after the sprint clears its money target",
+          "why": "Recommended. Protects it from guilt and protects the sprint from distraction. Costs the momentum of a nearly-ready creative piece."
+        },
+        {
+          "action": "Finish it as a public proof piece showing production-grade prompt craft",
+          "why": "Turns a hobby into credibility for the buyers you are approaching, but the audience for a bowling-anime trailer and the audience for claim-safe supplement content barely overlap."
+        },
+        {
+          "action": "Kill it and reclaim the attention outright",
+          "why": "Cleanest for focus, but throws away finished preparation that cost real hours and would be expensive to rebuild."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt",
+          "command": "python3 execution/handoff_store.py resume trailer-treatment",
+          "touches": [
+            ".agent/handoffs/2026-08-11-trailer-treatment.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park trailer-treatment --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "trailer-treatment",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill trailer-treatment --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "trailer-treatment",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\nSLUG: trailer-treatment\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-11-trailer-treatment.md\n\nRESUME HERE: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\nSHIPPED IN WINDOW:\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon a\n  - 2026-08-11 · Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -28,7 +107,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "6",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -59,22 +138,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt",
-          "command": "python3 execution/handoff_store.py resume trailer-treatment",
-          "touches": [
-            ".agent/handoffs/2026-08-11-trailer-treatment.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
@@ -82,19 +145,19 @@
         {
           "date": "2026-08-11",
           "title": "Finalized · trailer-treatment",
-          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling-physics constraints, character and world continuity locks, ",
+          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling-physics constraints, character and world continuity locks, \nCreative Direction owned the trailer spine; PJ Accetturo added production discipline; Tao Prompts added deterministic continuity; Joey Cinema OS added asset authority and scene-level repair. OpenArt current capability ve",
           "done": true
         },
         {
           "date": "2026-08-11",
           "title": "Finalized · trailer-treatment",
-          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon assets, a four-act timecoded story spine, accurate bowling me",
+          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon assets, a four-act timecoded story spine, accurate bowling me\nThe audience and success test now distinguishes non-bowlers from bowling-literate viewers. Creative Direction owned the trailer spine; PJ Accetturo added production discipline; Tao Prompts added deterministic continuity;",
           "done": true
         },
         {
           "date": "2026-08-11",
           "title": "Finalized · trailer-treatment",
-          "body": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt",
+          "body": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\nMicah canon locked; 20 approved native reference images; A00 excluded; asset authority hierarchy and bowling-physics vetoes verified; OpenArt spend remains zero | platform: codex | Verification: PASS (prose classifier N/",
           "done": true
         }
       ]
@@ -120,7 +183,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The creative deliverables scored below the keep bar at finalize time, and no outcome has been logged, so this is a well-formed setup with no evidence yet that it produces the intended footage.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Two of the three recorded deliverables look like versions of the same prompt rather than distinct outputs, so the actual finished count may be smaller than it reads. Nothing in the pack states whether any video was ever generated.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

@@ -1,13 +1,32 @@
 {
-  "ts": "2026-08-08T19:23:29.009476",
-  "total": 85,
+  "ts": "2026-08-30T05:36:29.336727",
+  "total": 97,
   "counts": {
-    "PASS": 83,
-    "FAIL": 1,
-    "TIMEOUT": 1
+    "PASS": 76,
+    "TIMEOUT": 1,
+    "FAIL": 20
   },
   "failing": [
+    "verify_autopilot_routing.py",
     "verify_dhar_mann_transformational_content_factory.py",
+    "verify_execution_receipt.py",
+    "verify_global_steering_persistence.py",
+    "verify_google_operator_core.py",
+    "verify_operator_cockpit.py",
+    "verify_operator_core_end_session.py",
+    "verify_operator_core_extraction_governor_agent.py",
+    "verify_operator_core_health_check.py",
+    "verify_operator_core_knowledge_librarian.py",
+    "verify_operator_core_repeatability_spine.py",
+    "verify_operator_core_routing_intelligence.py",
+    "verify_operator_core_self_evolve.py",
+    "verify_operator_core_skill_anneal.py",
+    "verify_operator_core_source_to_skill_system.py",
+    "verify_operator_core_system_audit.py",
+    "verify_recall_mcp_auth.py",
+    "verify_sales_psychology_mastery_layer.py",
+    "verify_search_content_mastery.py",
+    "verify_steering_compass_quality.py",
     "verify_system_control_plane.py"
   ],
   "results": [
@@ -15,37 +34,49 @@
       "script": "verify_activation_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.3
+      "secs": 3.2
     },
     {
       "script": "verify_antigravity_global_access.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.7
+      "secs": 7.7
     },
     {
       "script": "verify_artifact_router.py",
       "status": "PASS",
       "detail": "",
-      "secs": 61.8
+      "secs": 138.4
     },
     {
       "script": "verify_autopilot_routing.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 151.3
+      "status": "TIMEOUT",
+      "detail": "exceeded 180s",
+      "secs": 180
     },
     {
       "script": "verify_autopilot_runtime_preflight.py",
       "status": "PASS",
       "detail": "",
-      "secs": 87.7
+      "secs": 170.1
+    },
+    {
+      "script": "verify_belief_community_runtime.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 28.6
     },
     {
       "script": "verify_born_intent_drift.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.4
+      "secs": 1.3
+    },
+    {
+      "script": "verify_briefing_room_portability.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
     },
     {
       "script": "verify_codex_authority.py",
@@ -57,19 +88,19 @@
       "script": "verify_codex_claude_parity.py",
       "status": "PASS",
       "detail": "",
-      "secs": 8.1
+      "secs": 12.0
     },
     {
       "script": "verify_codex_dynamic_workflow.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 0.4
     },
     {
       "script": "verify_codex_end_session.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.8
+      "secs": 3.3
     },
     {
       "script": "verify_control_intent.py",
@@ -81,67 +112,79 @@
       "script": "verify_convene.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.4
+    },
+    {
+      "script": "verify_cos_board_cast.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
     },
     {
       "script": "verify_cos_primer_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.8
     },
     {
       "script": "verify_dead_channels.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.2
     },
     {
       "script": "verify_deep_research_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.6
+      "secs": 5.6
     },
     {
       "script": "verify_dhar_mann_transformational_content_factory.py",
       "status": "FAIL",
       "detail": "- NOTE: direct command search surfaces Dhar factory",
-      "secs": 3.7
+      "secs": 9.7
     },
     {
       "script": "verify_dialect_injector.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.9
     },
     {
       "script": "verify_end_session_intelligence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.0
+      "secs": 1.1
     },
     {
       "script": "verify_execution_receipt.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 5.1
+      "status": "FAIL",
+      "detail": "  - flagged session: no block decision \u2014 {\"decision\": \"block\", \"reason\": \"LIBRARIAN \\u2014 one deposit before you close (this is what makes the work findable and resumable later; the catalog and missi",
+      "secs": 23.9
     },
     {
       "script": "verify_expert_composition_standard.py",
       "status": "PASS",
       "detail": "",
-      "secs": 13.0
+      "secs": 20.4
     },
     {
       "script": "verify_extraction_command_surface.py",
       "status": "PASS",
       "detail": "",
-      "secs": 15.8
+      "secs": 25.1
     },
     {
       "script": "verify_failure_learning.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.0
+      "secs": 2.1
+    },
+    {
+      "script": "verify_free_first_research_mission.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 22.6
     },
     {
       "script": "verify_global_adaptive_judgment_floor.py",
@@ -159,43 +202,67 @@
       "script": "verify_global_execution_bias_bridge.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.6
     },
     {
       "script": "verify_global_steering_persistence.py",
-      "status": "PASS",
-      "detail": "",
+      "status": "FAIL",
+      "detail": "- check_global_agents: global AGENTS missing: Persistent Per-Exchange Steering, not command-only behavior, At the end of every meaningful exchange, Do not omit this just because the user did not invok",
       "secs": 0.2
     },
     {
-      "script": "verify_google_operator_core.py",
+      "script": "verify_google_doc_lifecycle.py",
       "status": "PASS",
       "detail": "",
-      "secs": 16.9
+      "secs": 0.1
+    },
+    {
+      "script": "verify_google_operator_core.py",
+      "status": "FAIL",
+      "detail": "- check_global_agents: global AGENTS missing: Persistent Per-Exchange Steering, not command-only behavior, At the end of every meaningful exchange, Do not omit this just because the user did not invok",
+      "secs": 30.3
     },
     {
       "script": "verify_health_performance_geo_prompt.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_high_taste_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.1
+      "secs": 1.3
     },
     {
       "script": "verify_high_taste_writing_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 15.7
+    },
+    {
+      "script": "verify_jason_buyer_psychology_overlay.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.8
+    },
+    {
+      "script": "verify_joanna_belief_community.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_jun_story_engine.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
     },
     {
       "script": "verify_kdp_book_one_system.py",
       "status": "PASS",
       "detail": "",
-      "secs": 16.7
+      "secs": 23.0
     },
     {
       "script": "verify_markdown_readability_guard.py",
@@ -204,130 +271,142 @@
       "secs": 0.1
     },
     {
+      "script": "verify_matt_haig_reader_bridge.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 4.1
+    },
+    {
       "script": "verify_memory_stack.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.0
+      "secs": 7.4
     },
     {
       "script": "verify_mission_activation_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.0
+      "secs": 6.1
     },
     {
       "script": "verify_mission_runner.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.4
     },
     {
       "script": "verify_mission_validator.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.4
+      "secs": 1.5
+    },
+    {
+      "script": "verify_notion_second_brain_reliability.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.3
     },
     {
       "script": "verify_operator_cockpit.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 144.7
+      "status": "FAIL",
+      "detail": "subprocess.TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', 'execution/operator_cockpit.py', '--intent', 'engineering debt and user failure modes are creating bottl",
+      "secs": 90.1
     },
     {
       "script": "verify_operator_core_ai_employee_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 6.1
+      "secs": 10.7
     },
     {
       "script": "verify_operator_core_end_session.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 36.8
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.2
     },
     {
       "script": "verify_operator_core_expert_composition_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 43.5
+      "secs": 71.9
     },
     {
       "script": "verify_operator_core_extraction_governor_agent.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 35.3
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.2
     },
     {
       "script": "verify_operator_core_fast_proof.py",
       "status": "PASS",
       "detail": "",
-      "secs": 66.1
+      "secs": 95.1
     },
     {
       "script": "verify_operator_core_health_check.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 30.5
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_knowledge_librarian.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 30.9
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_orchestrate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 32.4
+      "secs": 49.6
     },
     {
       "script": "verify_operator_core_repeatability_spine.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 40.5
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_routing_intelligence.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 40.0
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_self_evolve.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 40.0
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_skill_anneal.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 30.1
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_source_to_skill_system.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 42.4
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_core_status.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.3
     },
     {
       "script": "verify_operator_core_system_audit.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 30.3
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 0.1
     },
     {
       "script": "verify_operator_lesson.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.3
+      "secs": 4.4
     },
     {
       "script": "verify_performance_evidence_gate.py",
@@ -345,7 +424,7 @@
       "script": "verify_project_filer.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.9
+      "secs": 7.2
     },
     {
       "script": "verify_projects_index.py",
@@ -357,91 +436,97 @@
       "script": "verify_proof_ledger.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_protocol_lifecycle.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.3
     },
     {
       "script": "verify_raw_intent_bridge_command.py",
       "status": "PASS",
       "detail": "",
-      "secs": 12.9
+      "secs": 27.6
     },
     {
       "script": "verify_raw_intent_global_skill.py",
       "status": "PASS",
       "detail": "",
-      "secs": 13.7
+      "secs": 27.6
     },
     {
       "script": "verify_raw_intent_run_packet.py",
       "status": "PASS",
       "detail": "",
-      "secs": 39.6
+      "secs": 86.8
     },
     {
       "script": "verify_reality_before_rhetoric.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 0.8
     },
     {
       "script": "verify_recall_mcp_auth.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 3.5
+      "status": "FAIL",
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'codex'",
+      "secs": 0.1
     },
     {
       "script": "verify_recurring_ops_dry_run.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 1.2
     },
     {
       "script": "verify_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 15.7
+      "secs": 30.2
+    },
+    {
+      "script": "verify_sales_psychology_mastery_layer.py",
+      "status": "FAIL",
+      "detail": "- run-runtime-surface: fullSurfaceSha256: aa514a6125dc13aaba3d4abdf888ee1dcf3e34ccd9bd55150118923d0c6f9b60",
+      "secs": 141.8
     },
     {
       "script": "verify_savant_control_room.py",
       "status": "PASS",
       "detail": "",
-      "secs": 76.9
+      "secs": 83.7
     },
     {
       "script": "verify_search_content_mastery.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 17.6
+      "status": "FAIL",
+      "detail": "}",
+      "secs": 33.7
     },
     {
       "script": "verify_self_heal.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.2
+      "secs": 10.7
     },
     {
       "script": "verify_session_lock_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.6
+      "secs": 1.3
     },
     {
       "script": "verify_session_state_freshness_loop.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_silent_degradation.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.5
+      "secs": 5.4
     },
     {
       "script": "verify_skill_evolution_candidate_freshness.py",
@@ -453,49 +538,55 @@
       "script": "verify_skill_evolution_candidates.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.5
     },
     {
       "script": "verify_skill_evolution_local_first.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.4
+      "secs": 0.9
     },
     {
       "script": "verify_skill_system_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.6
+      "secs": 22.2
+    },
+    {
+      "script": "verify_social_to_notion_watch_packet.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.4
     },
     {
       "script": "verify_steering_compass_quality.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 1.3
+      "status": "FAIL",
+      "detail": "- check_global_bridge: Global AGENTS missing 'Insightful Momentum'",
+      "secs": 2.0
     },
     {
       "script": "verify_subagent_approval_language.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.2
+      "secs": 2.2
     },
     {
       "script": "verify_subagent_readiness.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_system.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.5
     },
     {
       "script": "verify_system_control_plane.py",
-      "status": "TIMEOUT",
-      "detail": "exceeded 480s",
-      "secs": 480
+      "status": "FAIL",
+      "detail": "- global AGENTS missing: real Codex subagents require explicit authorization",
+      "secs": 163.7
     },
     {
       "script": "verify_systems_thinking_expertise_overlay.py",
@@ -513,13 +604,13 @@
       "script": "verify_virtuoso_orchestration.py",
       "status": "PASS",
       "detail": "",
-      "secs": 26.8
+      "secs": 53.4
     },
     {
       "script": "verify_wiring_audit.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.2
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-16T09:00:04.727856",
+  "timestamp": "2026-08-30T06:00:04.419661",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (15 projects, 4 drift items)"
+    "out": "Wrote PROJECTS.md (16 projects, 4 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
@@ -10,16 +10,20 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 8,
+    "findings": 23,
     "ids": [
-      "platform_drift",
-      "dead_hooks",
-      "dead_launchd",
-      "stale_feeds",
       "wiring_orphans",
       "org_drift",
       "verify_dhar_mann_transformational_content_factory.py",
-      "fleet_timeouts"
+      "verify_execution_receipt.py",
+      "verify_global_steering_persistence.py",
+      "verify_google_operator_core.py",
+      "verify_operator_cockpit.py",
+      "verify_operator_core_end_session.py",
+      "verify_operator_core_extraction_governor_agent.py",
+      "verify_operator_core_health_check.py",
+      "verify_operator_core_knowledge_librarian.py",
+      "verify_operator_core_repeatability_spine.py"
     ]
   },
   "brief_harvest": {
@@ -27,19 +31,19 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 6,
-    "coverage": "3790/3790",
-    "orphans_total": 14,
+    "new": 2,
+    "coverage": "3857/3857",
+    "orphans_total": 13,
     "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",
       "execution:audit_extraction_integrity.py",
-      "execution:client_package_lint.py",
       "execution:design_md_extract.py",
       "execution:generate_agent_stacking_registry.py",
+      "execution:hooks/divergence_alarm_hook.py",
+      "execution:hooks/pending_decisions_hook.py",
       "execution:perception_engineering_bridge_audit.py",
-      "execution:publishable_copy_guard.py",
-      "execution:system_efficiency_benchmark.py"
+      "execution:publishable_copy_guard.py"
     ]
   }
 }

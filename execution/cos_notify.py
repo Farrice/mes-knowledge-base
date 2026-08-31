@@ -39,8 +39,9 @@ def main() -> int:
     )
     try:
         subprocess.run(["osascript", "-e", script], capture_output=True, timeout=10)
-    except Exception:
-        pass
+        print(f"notified: {nudge[:80]}")
+    except Exception as e:
+        print(f"notify-failed: {e}")
     return 0
 
 

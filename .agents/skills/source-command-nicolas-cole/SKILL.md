@@ -1,6 +1,6 @@
 ---
 name: "source-command-nicolas-cole"
-description: "nicolas-cole — full expert front door: Sentence-level writing optimization, Digital product creation strategy, Niche positioning, Ghostwriting client acquisition & Newsletter flywheel architecture. Skills: nicolas-cole-client-acquisition, nicolas-cole-digital-products, nicolas-cole-edan-writing-mechanics, nicolas-cole-newsletter-flywheel, nicolas-cole-niche-positioning, nicolas-cole-nonfiction-value-architecture, nicolas-cole-sales-education-messaging, nicolas-cole-sentence-craft."
+description: "nicolas-cole — full expert front door: Sentence craft, library-first format strategy, digital products, niche positioning, client acquisition, and newsletters. Skills: nicolas-cole-client-acquisition, nicolas-cole-digital-products, nicolas-cole-edan-writing-mechanics, nicolas-cole-library-first-writing, nicolas-cole-newsletter-flywheel, nicolas-cole-niche-positioning, nicolas-cole-nonfiction-value-architecture, nicolas-cole-sales-education-messaging, nicolas-cole-sentence-craft."
 ---
 
 # source-command-nicolas-cole
@@ -20,6 +20,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | nicolas-cole-client-acquisition | `skills/nicolas-cole-client-acquisition/SKILL.md` | `skills/nicolas-cole-client-acquisition/genius.md` | `skills/nicolas-cole-client-acquisition/workflows/zero-to-client-sprint.md` |
 | nicolas-cole-digital-products | `skills/nicolas-cole-digital-products/SKILL.md` | `skills/nicolas-cole-digital-products/genius.md` | `skills/nicolas-cole-digital-products/workflows/digital-product-launch-specification.md` |
 | nicolas-cole-edan-writing-mechanics | `skills/nicolas-cole-edan-writing-mechanics/SKILL.md` | `skills/nicolas-cole-edan-writing-mechanics/genius.md` | `skills/nicolas-cole-edan-writing-mechanics/workflows/01-edan-block-map.md` |
+| nicolas-cole-library-first-writing | `skills/nicolas-cole-library-first-writing/SKILL.md` | `skills/nicolas-cole-library-first-writing/genius.md` | `skills/nicolas-cole-library-first-writing/workflows/01-format-ladder-plan.md` |
 | nicolas-cole-newsletter-flywheel | `skills/nicolas-cole-newsletter-flywheel/SKILL.md` | `skills/nicolas-cole-newsletter-flywheel/genius.md` | `skills/nicolas-cole-newsletter-flywheel/workflows/01-newsletter-flywheel.md` |
 | nicolas-cole-niche-positioning | `skills/nicolas-cole-niche-positioning/SKILL.md` | `skills/nicolas-cole-niche-positioning/genius.md` | `skills/nicolas-cole-niche-positioning/workflows/01-specificity-drill.md` |
 | nicolas-cole-nonfiction-value-architecture | `skills/nicolas-cole-nonfiction-value-architecture/SKILL.md` | `skills/nicolas-cole-nonfiction-value-architecture/genius.md` | `skills/nicolas-cole-nonfiction-value-architecture/workflows/01-value-spotlight-map.md` |

@@ -2,11 +2,11 @@
   "slug": "mission-teardown-1-fresh",
   "chip": "MISSION · THREAD",
   "title": "Three named-brand teardowns (Create Wellness, Hilma, *BPN*)…",
-  "dek": "The strongest outward-facing assets on the board, and none of them are recorded as sent.",
+  "dek": "Three brands, three finished teardowns, zero sends. That is the whole problem in one line.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,86 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Send the teardowns to the named brands and log whatever comes back."
+      "body": "Three named-brand teardowns shipped almost two weeks ago at zero cost with verification ledgers and direct messages already written — this is finished sales ammunition sitting in a drawer.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Send one teardown to its named brand today with a plain two-sentence note and no rewrite."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: This is the most sales-ready artifact in the whole portfolio. Each teardown carries its own post, its own direct message, and its own evidence trail, which means each one is a complete outreach unit for a brand you can name. And yet the thread is twelve days idle and nothing indicates any of them were sent. The prose gate scored badly on the shipping copy, which is probably the real reason it stalled — the analysis is solid, the writing around it is not. That is a much smaller problem than it feels like, because a teardown lands on the strength of the finding, not the sentence.\n\nHandoff written 14d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Send all three to their named brands this week, as-is",
+          "why": "Recommended. The findings are verified and the brands are real; the writing polish matters far less than the fact that you noticed something about their product. Costs the discomfort of sending prose you scored low."
+        },
+        {
+          "action": "Rewrite the shipping copy with a fresh pen before any send",
+          "why": "Fixes a real quality complaint and protects first impressions, but the gate score was on the wrapper, not the analysis, and another rewrite round is the same avoidance shape as everywhere else on this board."
+        },
+        {
+          "action": "Publish the teardowns publicly instead of sending them privately",
+          "why": "Builds the proof surface and reaches brands you have not named, but trades a direct reply from a specific buyer for the hope of being found."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards",
+          "command": "python3 execution/handoff_store.py resume teardown-1-fresh",
+          "touches": [
+            ".agent/handoffs/2026-08-07-teardown-1-fresh.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park teardown-1-fresh --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "teardown-1-fresh",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill teardown-1-fresh --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "teardown-1-fresh",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\nSLUG: teardown-1-fresh\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-teardown-1-fresh.md\n\nRESUME HERE: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\n\nSHIPPED IN WINDOW:\n  - 2026-08-07 · Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each;\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,7 +103,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "2",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -33,7 +112,7 @@
           "note": "claude"
         },
         {
-          "value": "13",
+          "value": "14",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -48,18 +127,18 @@
           "label": "sessions",
           "values": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "value": "1",
@@ -93,28 +172,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards",
-          "command": "python3 execution/handoff_store.py resume teardown-1-fresh",
-          "touches": [
-            ".agent/handoffs/2026-08-07-teardown-1-fresh.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done teardown-1-fresh --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
@@ -122,7 +179,7 @@
         {
           "date": "2026-08-07",
           "title": "Finalized · teardown-1-fresh",
-          "body": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share varian",
+          "body": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share varian\nFresh-pen packet run; receipts pulled live via Playwright/WebFetch ($0); prose gate 2.0/10 on shipping prose; repaired a concurrent-session directory rename mid-run (accept-repair-dedupe) | Factual Grounding: 9 | Verific",
           "done": true
         },
         {
@@ -130,12 +187,19 @@
           "title": "claude session · 29 msgs",
           "body": "<command-message>go</command-message> <command-name>/go</command-name> <command-args>run the packet at .agent/missions/teardown-1-fresh-0805/portable.md</command-args>",
           "done": true
-        },
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
         {
-          "date": "2026-07-27",
-          "title": "Finalized · teardown",
-          "body": "Teardowns #1-3 (Transparent Labs, Momentous, Puori) with DMs + published post copy, and the LinkedIn profile rebuilt top-to-bottom on the 2026-07-27 positioning",
-          "done": true
+          "claim": "Teardown #1 — fresh pen, v1.3 card + atlas + conversion spine",
+          "evidence": "3 teardowns shipped (Create Wellness, Hilma, BPN) — analysis + LinkedIn post + DM + verification ledger + adversarial pass each; 3 Briefing Room briefs w/ share variants; 10 brand-system cards via new execution/teardown_cards.py; $0 run. Ve",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -160,7 +224,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No reply, meeting, or outcome is recorded against any of these, so this is proof of production and not proof of demand. The verification and adversarial passes were self-run.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The prose gate score recorded here is severe and the pack does not say whether it was ever addressed. The run also happened alongside a concurrent session that renamed a directory mid-flight, so the location and completeness of these files should be confirmed before sending anything.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

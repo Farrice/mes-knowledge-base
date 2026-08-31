@@ -3,7 +3,7 @@
 Self-contained: Codex does NOT auto-follow file pointers, so everything load-bearing is in THIS file. `CODEX.md` is the Codex-native operating authority for this workspace; read it as the expanded harness contract when repairing routing, hooks, command surfaces, or Operator Core behavior. Deep reference (read on demand, never assume loaded): `GEMINI.md`, `CLAUDE.md`, `PRODUCTION_CORE.md`, `OPERATING_MANUAL.md`.
 
 <!-- BEGIN:shared-golden-rule -->
-> **⚠️ GOLDEN RULE — ONE WRITER PER TREE; LANES ARE AUTOMATIC (2026-08-06).** The first session keeps the main tree. Every additional session — Claude Code or Codex — works in its own git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: the SessionStart AUTO-LANE directive tells a second session to call EnterWorktree before any write — obey it. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge back to main at end-session when clean** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Never two writers in one tree — the lane machinery exists so nobody has to be the second one. (Old failure this retires: "apply one fix, another breaks", root-caused 2026-06-30.)
+> **⚠️ GOLDEN RULE — MAIN IS INTEGRATION-ONLY; EVERY WRITER GETS A LANE (2026-08-30).** Ordinary Claude Code and Codex sessions never author in the main checkout, including the first session. Read-only inspection may remain on main; before the first write, create or enter a git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: obey the SessionStart AUTO-LANE directive and call EnterWorktree. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge into clean main when ready** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Main is reserved for audited integration, reconciliation, and lock-aware scheduled maintenance. (This closes the dirty-main merge dependency left by the 2026-08-06 one-writer-per-tree rule.)
 <!-- END:shared-golden-rule -->
 <!-- Shared blocks are GENERATED from directives/constitution/shared-blocks.md — edit there, then `python3 execution/constitution_compiler.py sync` (apex W3, 2026-07-29). -->
 
@@ -19,7 +19,7 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
 - Intermediates → `.tmp/` (never commit).
 
 ## Codex lane protocol (2026-08-06 — the golden rule, automated)
-When the main tree is busy (`python3 execution/session_lock.py check` blocked, or a fresh Claude session is live there), take a lane instead of waiting:
+For any session that may write, take a lane before the first write; main is integration-only. Read-only inspection may remain on main:
 1. `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `cd` into it.
 2. `python3 execution/worktree_lane.py bootstrap` — bare python3, stdlib-only; symlinks `.env`/`.venv`/MCP/memory/budget trackers from main and prints `LANE READY … FULL POWER` (or names exactly what's degraded). Never hand-copy those files.
 3. Work normally — full harness, no lock needed (a lane is single-writer by construction).

@@ -1,0 +1,188 @@
+{
+  "slug": "mission-harness",
+  "chip": "MISSION · THREAD",
+  "title": "Harness — *Cockpit*",
+  "dek": "This one is done being useful for now. Building more of it is how the sprint dies.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 30, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "The system-building thread has been quiet for nearly two weeks and that is the right outcome, not a problem — the last real work here closed with your own verdict of good and the sprint does not need more machinery.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Leave this parked and touch it only when a specific sprint task hits friction you can name in one sentence."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.\n\nHandoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Formally park until the sprint produces collected money",
+          "why": "Recommended. Removes the most seductive avoidance path in the portfolio. Costs nothing real — the working parts already run without attention."
+        },
+        {
+          "action": "Spend one bounded session clearing the degraded lanes and drift warnings flagged at startup",
+          "why": "Buys a quieter working environment and removes low-grade friction, but it is maintenance dressed as progress and it competes with sending."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Harness — Cockpit",
+          "command": "python3 execution/handoff_store.py resume harness",
+          "touches": [
+            ".agent/handoffs/2026-08-20-harness.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park harness --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "harness",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill harness --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "harness",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Harness — Cockpit\nSLUG: harness\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md\n\nRESUME HERE: Harness — Cockpit\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "current",
+          "note": "reading and deciding — nothing built yet"
+        },
+        {
+          "label": "build",
+          "state": "todo"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "2026-08-20-harness-opus5-diagnosis.md",
+          "role": "GUIDE",
+          "path": "guides/2026-08-20-harness-opus5-diagnosis.md"
+        },
+        {
+          "title": "2026-08-28-cross-harness-contract-runtime-parity.md",
+          "role": "SOLUTION",
+          "path": "docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Build an expert-assembly skill system for the Antigravity harness extending /convene, coun",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: Expert Assembly OS /assemble",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Research, rank, and select a fast-cash productized AI service offer for Farrice using the ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: offer canon locked 07-21",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Research, rank, and select a fast-cash productized AI service offer for Farrice using the Google Antigravity h",
+          "evidence": "Selected a capped seven-day Alignment Audit cash bridge and retained the Claim-Safe Citation Audit as the 30-day primary business; no outreach sent.",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Harness Apex: metabolism + focus + generation (deepest-cut program)",
+          "evidence": "Farrice verdict GOOD 2026-07-29 ('you covered a lot of bases'). Session extended past the program: OPERATOR-ROUTINE.md driver card, interactive-rhythm made constitutional, 7:15 COS macOS notification, /fresh-pen primitive + workflow born at · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-20-harness.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

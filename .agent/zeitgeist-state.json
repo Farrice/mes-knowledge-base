@@ -1,9 +1,9 @@
 {
   "last_run": {
-    "ai-consulting-linkedin": "2026-08-12",
-    "supplement-brands": "2026-08-12",
-    "ai-tools-creator": "2026-08-12",
-    "jen-sfv-realestate": "2026-08-12"
+    "ai-consulting-linkedin": "2026-08-27",
+    "supplement-brands": "2026-08-27",
+    "ai-tools-creator": "2026-08-27",
+    "jen-sfv-realestate": "2026-08-27"
   },
   "history": [
     {
@@ -119,6 +119,66 @@
       "lane": "jen-sfv-realestate",
       "cost": 0,
       "live_pulls": 0
+    },
+    {
+      "ts": "2026-08-24T13:58:44Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.1,
+      "live_pulls": 2
+    },
+    {
+      "ts": "2026-08-24T14:01:51Z",
+      "lane": "supplement-brands",
+      "cost": 0.0001,
+      "live_pulls": 2
+    },
+    {
+      "ts": "2026-08-24T14:06:13Z",
+      "lane": "ai-tools-creator",
+      "cost": 0.1025,
+      "live_pulls": 3
+    },
+    {
+      "ts": "2026-08-24T14:07:48Z",
+      "lane": "jen-sfv-realestate",
+      "cost": 0.12,
+      "live_pulls": 1
+    },
+    {
+      "ts": "2026-08-25T13:23:27Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.1,
+      "live_pulls": 3
+    },
+    {
+      "ts": "2026-08-26T13:22:55Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.158,
+      "live_pulls": 4
+    },
+    {
+      "ts": "2026-08-27T13:23:16Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.158,
+      "live_pulls": 4
+    },
+    {
+      "ts": "2026-08-27T13:25:15Z",
+      "lane": "supplement-brands",
+      "cost": 0.0581,
+      "live_pulls": 3
+    },
+    {
+      "ts": "2026-08-27T13:26:58Z",
+      "lane": "ai-tools-creator",
+      "cost": 0.1225,
+      "live_pulls": 3
+    },
+    {
+      "ts": "2026-08-27T13:28:49Z",
+      "lane": "jen-sfv-realestate",
+      "cost": 0.12,
+      "live_pulls": 1
     }
   ]
 }

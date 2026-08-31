@@ -1,0 +1,9 @@
+{
+  "artifact_type": "strategy",
+  "title": "Listing Launch Kit: Proof-Before-Story Diagnosis",
+  "source_format": "markdown",
+  "status": "ready",
+  "evidence_boundary": "existing local evidence only; no external action",
+  "created_at": "2026-08-29",
+  "owner": "Farrice Cain"
+}

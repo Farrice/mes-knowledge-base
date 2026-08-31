@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: alignment-audit red team
+name: alignment-audit-red-team-verdict
+problem_class: offer strategy / diagnostic offer / unvalidated demand
+domain: clients
+status: proven
+problem_signature: "an audit- or diagnostic-shaped offer feels amazing and assets keep getting built on top of it, but nobody has ever paid for one — the purchased outcome is a process benefit like clarity or alignment rather than a concrete asset, and the buyer does not know they want it"
+tags: [offer, red-team, audit-offer, pricing, demand-validation, revenue]
+---
 # Solution Card — Alignment Audit Red-Team Verdict (kill the rung, sell the fix)
 
 **Date:** 2026-07-21

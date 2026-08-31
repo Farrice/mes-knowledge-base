@@ -11,7 +11,7 @@ What finalize() does (in order):
     3. Determines pass/fail against the quality gate thresholds
     4. Checks for regression against skill's rolling baseline
     5. Logs to Notion Performance Database
-    6. Activates protocol tracking on quality_gate.md and feedback-ratchet.md
+    6. Records protocol activation without dirtying integration-only main
     7. Writes session state checkpoint
 
 Usage:
@@ -37,10 +37,9 @@ CLI:
         --type Content \\
         --intent 8 --expert-score 7 --adversarial 8
 
-IMPORTANT: This script is additive — it calls existing execution/ scripts
-(log_performance.py, protocol_tracker.py, checkpoint_manager.py) but does
-not modify any directives, skills, or system architecture. It only enforces
-what already exists.
+IMPORTANT: Runtime use on integration-only main writes telemetry under
+``.agent/`` and never edits tracked directives or knowledge indexes. Runs in
+isolated lanes retain the existing document-update behavior.
 """
 
 import os
@@ -48,6 +47,7 @@ import re
 import sys
 import json
 import argparse
+import subprocess
 from datetime import date, datetime
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
@@ -98,6 +98,37 @@ SINGLE_DIMENSION_MIN = 6
 QUALITY_GATE_PATH = "directives/quality_gate.md"
 FEEDBACK_RATCHET_PATH = "directives/feedback-ratchet.md"
 SESSION_STATE_PATH = "directives/session-state-protocol.md"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+FINALIZE_RUNTIME_LOG = PROJECT_ROOT / ".agent" / "finalize-runtime.jsonl"
+
+
+def _on_integration_main() -> bool:
+    """True only for the canonical main checkout, never a worktree lane."""
+    try:
+        def probe(*args: str):
+            return subprocess.run(
+                ["git", "-C", str(PROJECT_ROOT), *args],
+                capture_output=True, text=True, timeout=10,
+            )
+
+        branch = probe("rev-parse", "--abbrev-ref", "HEAD")
+        git_dir = probe("rev-parse", "--path-format=absolute", "--git-dir")
+        common_dir = probe("rev-parse", "--path-format=absolute", "--git-common-dir")
+        return (
+            branch.returncode == git_dir.returncode == common_dir.returncode == 0
+            and branch.stdout.strip() == "main"
+            and Path(git_dir.stdout.strip()).resolve() == Path(common_dir.stdout.strip()).resolve()
+        )
+    except Exception:
+        return False
+
+
+def _record_main_runtime_event(kind: str, payload: Dict[str, Any]) -> None:
+    """Append observable runtime telemetry without changing repository truth."""
+    FINALIZE_RUNTIME_LOG.parent.mkdir(parents=True, exist_ok=True)
+    event = {"ts": datetime.now().astimezone().isoformat(), "kind": kind, **payload}
+    with FINALIZE_RUNTIME_LOG.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(event, sort_keys=True) + "\n")
 
 
 def _classify_domain_from_skill(skill_name: str) -> str:
@@ -1445,12 +1476,21 @@ def finalize(
         result["notion_result"] = {"success": True, "skipped": True}
 
     # ── Step 6: Activate protocol tracking ───────────────────────
+    integration_runtime_only = _on_integration_main()
+    result["integration_main_runtime_only"] = integration_runtime_only
     protocols_activated = []
     for protocol_path in [QUALITY_GATE_PATH, FEEDBACK_RATCHET_PATH]:
         try:
-            activation = activate_protocol(protocol_path, note=f"chain_runner finalize for {skill or expert or task_type}")
-            if activation.get("success"):
+            note = f"chain_runner finalize for {skill or expert or task_type}"
+            if integration_runtime_only:
+                _record_main_runtime_event(
+                    "protocol_activation", {"protocol": protocol_path, "note": note}
+                )
                 protocols_activated.append(protocol_path)
+            else:
+                activation = activate_protocol(protocol_path, note=note)
+                if activation.get("success"):
+                    protocols_activated.append(protocol_path)
         except Exception as e:
             # Non-fatal: protocol tracking is observability, not critical path
             pass
@@ -1493,7 +1533,13 @@ def finalize(
 
         # Also activate the session state protocol
         try:
-            activate_protocol(SESSION_STATE_PATH, note="chain_runner session checkpoint")
+            if integration_runtime_only:
+                _record_main_runtime_event(
+                    "protocol_activation",
+                    {"protocol": SESSION_STATE_PATH, "note": "chain_runner session checkpoint"},
+                )
+            else:
+                activate_protocol(SESSION_STATE_PATH, note="chain_runner session checkpoint")
             protocols_activated.append(SESSION_STATE_PATH)
         except Exception:
             pass
@@ -1670,15 +1716,29 @@ def finalize(
         except ImportError:
             from execution.knowledge_compiler import log_activity, update_index, generate_briefing as gen_briefing
         domain = _classify_domain_from_skill(skill) if skill else task_type.lower()
-        log_activity(
-            action='finalize',
-            title=output_description[:100],
-            domain=domain,
-            expert=expert or '',
-            notes=f"composite:{composite} status:{status}",
-        )
-        if composite >= 8:
-            gen_briefing()
+        if integration_runtime_only:
+            _record_main_runtime_event(
+                "knowledge_activity",
+                {
+                    "action": "finalize",
+                    "title": output_description[:100],
+                    "domain": domain,
+                    "expert": expert or "",
+                    "notes": f"composite:{composite} status:{status}",
+                    "briefing_regeneration_deferred": composite >= 8,
+                },
+            )
+            result["wiki_cascade_runtime_only"] = True
+        else:
+            log_activity(
+                action='finalize',
+                title=output_description[:100],
+                domain=domain,
+                expert=expert or '',
+                notes=f"composite:{composite} status:{status}",
+            )
+            if composite >= 8:
+                gen_briefing()
         result["wiki_cascade"] = True
     except Exception as e:
         result["wiki_cascade"] = False
@@ -1849,6 +1909,35 @@ def finalize(
             result["revenue_autolink"] = reg
         except Exception as e:
             result["revenue_autolink"] = {"skipped": True, "error": str(e)}
+
+    # ── Step 12.1: Governed creative-intelligence capture ─────────
+    # Creative/Strategy finalizes start an append-only NO_EVENT record. Later
+    # outcomes and explicit feedback can qualify a lesson for the existing
+    # human-reviewed memory queue. This is intentionally non-fatal and never
+    # edits an expert, skill, prompt, or doctrine file.
+    if passed and task_type in {"Creative", "Strategy"}:
+        try:
+            try:
+                from creative_intelligence import capture_finalize_event
+            except ImportError:
+                from execution.creative_intelligence import capture_finalize_event
+            check_in_date = ""
+            revenue_entry = result.get("revenue_autolink", {}).get("entry", {})
+            if isinstance(revenue_entry, dict):
+                check_in_date = revenue_entry.get("check_in_date", "")
+            result["creative_intelligence"] = capture_finalize_event(
+                output_description=output_description,
+                expert=expert,
+                skill=skill,
+                workflow=workflow,
+                task_type=task_type,
+                project=project,
+                content_path=content_path,
+                expected_outcome=expected_outcome,
+                check_in_date=check_in_date,
+            )
+        except Exception as e:
+            result["creative_intelligence"] = {"skipped": True, "error": str(e)}
 
     # ── Supercomputer anchor-memory write (added 2026-05-20) ─────────
     # When a project slug is supplied, log this finalize to the project's

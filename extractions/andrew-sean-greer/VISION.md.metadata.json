@@ -1,0 +1,9 @@
+{
+  "artifact_type": "extraction_vision",
+  "title": "Andrew Sean Greer Novel Craft Forge - Vision Checkpoint",
+  "status": "approval_required",
+  "source_url": "https://www.youtube.com/watch?v=0kkAl04_0og",
+  "expert": "Andrew Sean Greer",
+  "workflow": "extract-forge",
+  "phase": 2
+}

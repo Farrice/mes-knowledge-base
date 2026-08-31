@@ -1,3 +1,13 @@
+---
+date: 2026-08-06
+session: sam-vander-wielen extract-forge
+name: auto-caption-proper-nouns-poison-extraction-slug
+problem_class: extraction / identity / mangled proper noun
+domain: research
+status: proven
+problem_signature: "YouTube auto-captions consistently mangle an expert's name or domain and the extraction inherits the misspelling into the skill slug, so every wrapper, index, memory reference and future extension match keys off a name that is not the real person's"
+tags: [extraction, captions, slug, identity, verification, youtube]
+---
 # Auto-caption proper nouns poison the extraction slug
 
 **Date**: 2026-08-06

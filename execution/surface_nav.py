@@ -30,13 +30,33 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 # key -> (label, target path). ORDER IS THE DISPLAY ORDER.
+# 2026-08-20 COLLAPSE (Farrice's two-surfaces ruling): Pulse and Mission
+# Control retired as pages — Homebase is the one place to ACT, the Briefing
+# Room the one place to READ. Their generators live on as libraries/CLI;
+# /pulse and /missions redirect to / in pulse_serve.
 HOME_BASES = {
-    "pulse":   ("⚡ pulse",         ROOT / ".agent" / "pulse" / "pulse-board.html"),
-    "missions": ("🎯 mission control", ROOT / ".agent" / "missions" / "mission-control.html"),
+    "homebase": ("🏠 homebase",      ROOT / ".agent" / "homebase" / "homebase.html"),
+    "brain":   ("🧠 brain",          ROOT / ".agent" / "brain" / "brain.html"),
+    "library": ("🏛 library",       ROOT / ".agent" / "catalog" / "library.html"),
     "briefs":  ("📋 briefing room",  ROOT / "deliverables" / "research-briefs" / "index.html"),
     "assets":  ("🎨 asset board",    ROOT / ".agent" / "assets" / "assets-board.html"),
     "oracle":  ("🔮 oracle",         ROOT / ".agent" / "oracle" / "oracle-dashboard.html"),
     "docs":    ("📄 docs",           ROOT / ".agent" / "mdview" / "index.html"),
+}
+
+# key -> pulse_serve route. When a surface is opened over http, file:// links
+# in the nav are dead (browsers refuse the scheme hop) — worse, routing them
+# through open-path pops a STATIC file:// copy and silently drops the operator
+# out of live mode. The nav script below rewrites hrefs to these routes on
+# http pages, so navigation between home bases stays inside the live server.
+ROUTES = {
+    "homebase": "/",
+    "brain": "/brain",
+    "library": "/library",
+    "briefs": "/room",
+    "assets": "/assets",
+    "oracle": "/oracle",
+    "docs": "/repo/.agent/mdview/index.html",
 }
 
 # Guarded style: injected once per page, namespaced, so briefs/mdview render the
@@ -59,6 +79,17 @@ def links() -> list[tuple[str, str, Path]]:
     return [(k, label, path) for k, (label, path) in HOME_BASES.items()]
 
 
+# Guarded script: on an http page, swap each nav link's file:// href for its
+# live server route (data-route). Idempotent per page; file:// pages untouched.
+_LIVE_SCRIPT = (
+    '<script data-surface-nav-live="1">'
+    "if(location.protocol.indexOf('http')===0){"
+    "document.querySelectorAll('.homenav a[data-route]').forEach(function(a){"
+    "a.href=a.dataset.route;});}"
+    '</script>'
+)
+
+
 def nav_html(current: str | None = None, style: bool = True) -> str:
     parts = []
     for key, (label, path) in HOME_BASES.items():
@@ -66,9 +97,11 @@ def nav_html(current: str | None = None, style: bool = True) -> str:
         if key == current:
             parts.append(f'<span class="here">{_html.escape(label)}</span>')
         else:
-            parts.append(f'<a href="{_html.escape(path.as_uri())}">{lab}</a>')
+            route = f' data-route="{_html.escape(ROUTES[key])}"' if key in ROUTES else ""
+            parts.append(f'<a href="{_html.escape(path.as_uri())}"{route}>{lab}</a>')
     return ((_STYLE if style else "")
-            + f'<span class="homenav" data-surface-nav="1">{"".join(parts)}</span>')
+            + f'<span class="homenav" data-surface-nav="1">{"".join(parts)}</span>'
+            + _LIVE_SCRIPT)
 
 
 def self_test() -> int:
@@ -84,12 +117,18 @@ def self_test() -> int:
     check("marker attribute present", 'data-surface-nav="1"' in h)
     check("all bases linked", all(k in ("docs",) or HOME_BASES[k][0].split(" ", 1)[1] in h
                                   for k in HOME_BASES))
-    check("current renders unlinked", '<span class="here">' in nav_html(current="pulse"))
+    check("current renders unlinked", '<span class="here">' in nav_html(current="homebase"))
     check("current is not also a link",
-          nav_html(current="pulse").count("pulse-board.html") == 0)
+          nav_html(current="homebase").count("homebase.html") == 0)
+    check("retired surfaces are gone", "pulse" not in HOME_BASES and "missions" not in HOME_BASES)
     # every target must exist on disk — a nav to a missing board is a dead channel
     missing = [k for k, _, p in links() if not p.exists()]
     check(f"every target exists on disk (missing: {missing})", not missing)
+    check("live-route script shipped", 'data-surface-nav-live="1"' in h)
+    stray = [k for k in ROUTES if k not in HOME_BASES]
+    check(f"every route maps a real base (stray: {stray})", not stray)
+    unrouted = [k for k in HOME_BASES if k not in ROUTES]
+    check(f"every base has a live route (unrouted: {unrouted})", not unrouted)
     print(f"surface_nav self-test: {'OK' if not bad else 'FAILED'} ({ok} passed, {len(bad)} failed)")
     for b in bad:
         print(f"  FAIL: {b}")

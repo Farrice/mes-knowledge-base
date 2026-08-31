@@ -26,6 +26,9 @@ Stores unified (in rank order):
     solutions   docs/solutions/*.md — Solution Recorder cards (hard-won fixes
                 captured via execution/solution_recorder.py), frontmatter-
                 scored on name+problem_signature+tags.
+    notion      Local mirror of the Notion databases in sovereign.db. This is
+                queried without a network round-trip; mirror_notion.py owns
+                freshness and the nightly external sync.
 
 Design rules:
     - Read-only. The facade never writes to any store.
@@ -75,7 +78,7 @@ elif _episodic_env:
 else:
     EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
 
-ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions", "prompts")
+ALL_SOURCES = ("sovereign", "notion", "automem", "wiki", "agents", "episodic", "solutions", "prompts", "catalog")
 
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -87,6 +90,36 @@ _STOPWORDS = {
 def _tokens(text: str) -> List[str]:
     return [t for t in re.findall(r"[a-z0-9]+", (text or "").lower())
             if len(t) > 2 and t not in _STOPWORDS]
+
+
+def _query_catalog(query: str, top_k: int) -> Dict[str, Any]:
+    """The work catalog (2026-08-20): the librarian's permanent census. Lets any
+    session find prior work by half-remembered phrase BEFORE rebuilding it."""
+    try:
+        import work_catalog as wc
+        q_tokens = _tokens(query)
+        results = []
+        for r in wc.load_catalog().values():
+            hay = " ".join([str(r.get("title") or ""), r.get("k", ""),
+                            " ".join(r.get("tags") or []), r.get("arena") or ""])
+            score = _overlap_score(q_tokens, hay)
+            if score > 0:
+                snippet = str(r.get("title") or r.get("k"))[:200]
+                if r.get("resume"):
+                    snippet += f"  [{r['resume']}]"
+                elif r.get("path"):
+                    snippet += f"  [{r['path']}]"
+                results.append({
+                    "source": "catalog", "via": r.get("kind") or "row",
+                    "score": score + (0.5 if r.get("merit") else 0),
+                    "id": r.get("k"), "pinned": False,
+                    "snippet": snippet,
+                    "path": r.get("brief") or r.get("path") or "",
+                })
+        results.sort(key=lambda x: x["score"], reverse=True)
+        return {"results": results[:top_k]}
+    except Exception as e:  # noqa: BLE001
+        return {"results": [], "degraded": f"catalog: {e}"}
 
 
 def _overlap_score(query_tokens: List[str], text: str) -> float:
@@ -164,6 +197,50 @@ def _query_sovereign(query: str, workspace: Optional[str], top_k: int) -> Dict[s
                 "degraded": f"sovereign vector path unavailable ({vec_error}); used FTS fallback"}
     except Exception as exc:
         return {"results": [], "degraded": f"sovereign: {str(exc)[:120]}"}
+
+
+# ──────────────────────────────────────────────────────────────────
+# notion — network-free search over the nightly local mirror
+# ──────────────────────────────────────────────────────────────────
+def _query_notion_mirror(query: str, top_k: int) -> Dict[str, Any]:
+    try:
+        q_tokens = _tokens(query)
+        if not SOVEREIGN_DB.exists() or not q_tokens:
+            return {"results": [], "degraded": None}
+        toks = q_tokens[:8]
+        clauses = ["lower(coalesce(title, '') || ' ' || coalesce(content_excerpt, '')) LIKE ?" for _ in toks]
+        params: List[Any] = [f"%{t}%" for t in toks]
+        params.append(max(top_k * 20, 80))
+        sql = (
+            "SELECT page_id, db_name, title, content_excerpt, last_edited_at "
+            "FROM notion_mirror WHERE " + " OR ".join(clauses) +
+            " ORDER BY last_edited_at DESC LIMIT ?"
+        )
+        con = sqlite3.connect(f"file:{SOVEREIGN_DB}?mode=ro", uri=True)
+        try:
+            con.execute("PRAGMA query_only=ON")
+            rows = con.execute(sql, params).fetchall()
+        finally:
+            con.close()
+        results = []
+        for page_id, db_name, title, excerpt, edited in rows:
+            hay = f"{title or ''} {excerpt or ''}"
+            results.append({
+                "source": "notion",
+                "via": "local_mirror",
+                "score": _overlap_score(q_tokens, hay),
+                "id": page_id,
+                "pinned": False,
+                "snippet": f"[{db_name}] {title or '(untitled)'} — {(excerpt or '')[:220]}",
+                "path": f"https://www.notion.so/{str(page_id).replace('-', '')}",
+                "last_edited_at": edited,
+            })
+        results.sort(key=lambda r: r["score"], reverse=True)
+        return {"results": results[:top_k], "degraded": None}
+    except sqlite3.OperationalError as exc:
+        return {"results": [], "degraded": f"notion mirror unavailable: {str(exc)[:120]}"}
+    except Exception as exc:
+        return {"results": [], "degraded": f"notion mirror: {str(exc)[:120]}"}
 
 
 # ──────────────────────────────────────────────────────────────────
@@ -437,12 +514,14 @@ def recall(
 
     for name, fn in (
         ("sovereign", lambda: _query_sovereign(query, workspace, per_store)),
+        ("notion", lambda: _query_notion_mirror(query, per_store)),
         ("automem", lambda: _query_automem(query, per_store)),
         ("wiki", lambda: _query_wiki(query, per_store)),
         ("agents", lambda: _query_agents(query, per_store)),
         ("episodic", lambda: _query_episodic(query, per_store)),
         ("solutions", lambda: _query_solutions(query, per_store)),
         ("prompts", lambda: _query_prompts(query, per_store)),
+        ("catalog", lambda: _query_catalog(query, per_store)),
     ):
         if name not in use:
             continue
@@ -466,6 +545,12 @@ def recall(
                   key=lambda r: r["score"], reverse=True)
     final = (pinned + rest)[:top_k]
 
+    # Read instrumentation: only the rows that actually reached the caller.
+    # Bumping inside _query_sovereign would over-count — that path returns
+    # per_store candidates, many of which dedup/top_k then drops.
+    _bump_sovereign_access([r["id"] for r in final
+                            if r.get("source") == "sovereign" and r.get("id")])
+
     payload = {
         "query": query,
         "workspace": workspace,
@@ -476,6 +561,38 @@ def recall(
     }
     _log_fire(payload)
     return payload
+
+
+def _bump_sovereign_access(ids: List[str]) -> None:
+    """Record that these sovereign rows were actually surfaced to a caller.
+
+    Before this (2026-08-21), `memories.access_count` / `last_accessed` sat
+    frozen at their one-time backfill values for every row in the table, so
+    nothing downstream — decay, pruning, "which memories does the system
+    actually use" — could tell a hot row from a dead one. Reads were the only
+    signal never captured.
+
+    Telemetry only, and deliberately cheap: short busy timeout so a locked db
+    (harvest/distill writing) is skipped rather than waited on, and every
+    exception swallowed. A failed bump must never degrade a recall.
+    """
+    if not ids or not SOVEREIGN_DB.exists():
+        return
+    try:
+        con = sqlite3.connect(str(SOVEREIGN_DB), timeout=0.5)
+        try:
+            con.execute("PRAGMA busy_timeout = 500")
+            placeholders = ",".join("?" * len(ids))
+            con.execute(
+                "UPDATE memories SET access_count = COALESCE(access_count, 0) + 1, "
+                f"last_accessed = ? WHERE id IN ({placeholders})",
+                [datetime.now(timezone.utc).isoformat(), *ids],
+            )
+            con.commit()
+        finally:
+            con.close()
+    except Exception:
+        pass
 
 
 def _log_fire(payload: Dict[str, Any]) -> None:

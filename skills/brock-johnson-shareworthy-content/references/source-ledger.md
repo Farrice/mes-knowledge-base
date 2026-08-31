@@ -65,13 +65,31 @@ Brock Johnson said the quoted line in an interview — they cite the skill's
 own prompt files as the origin of the pattern, which is the honest
 provenance available.
 
+## 4. Primary source added 2026-08-30 — VERIFIED transcript package
+
+Source: [What Getting 2 Billion Views On Instagram Taught Me About Human Psychology](https://www.youtube.com/watch?v=MX-Emk6vkE4), published 2026-08-27 on the Build Your Tribe channel.
+
+Local evidence package: `extractions/video-context/MX-Emk6vkE4/`.
+
+- `transcript.vtt`: native English auto-caption track.
+- `transcript.txt`: 5,070-word cleaned reading surface.
+- `transcript_segments.json`: 737 timestamped spoken segments.
+- `video-context-ledger.*`: spoken-evidence rows plus explicit uncertainty rows.
+- Frames and OCR: unavailable because the local YouTube PO-token provider could retrieve captions and metadata but not playable formats.
+
+| Mechanic | Timestamp | Evidence status | Translation |
+|---|---:|---|---|
+| Sharing as identity expression | `00:01:10–00:03:44` | VERIFIED as spoken | Design the post around what forwarding it lets the sharer say about themselves. |
+| Private conversation as taboo-language research | `00:03:46–00:04:35` | VERIFIED as spoken | Mine DMs, comments, calls, and coaching for beliefs people admit privately but will not post publicly. |
+| Repetition and 90-day “upycling” | `00:05:14–00:06:46` | VERIFIED as spoken | Repeat durable ideas and re-post proven assets after 90 days; treat the interval as Brock's heuristic, not a platform rule. |
+| Experiment permission and 20% flop target | `00:07:53–00:09:22` | VERIFIED as spoken | Reserve a visible experiment lane; 20% is a speaker heuristic, not a guaranteed optimal rate. |
+| Plain-language simplification | `00:09:25–00:10:34` | VERIFIED as spoken | Reduce cognitive load so the audience can understand and retain the lesson. |
+| Authenticity / anti-pandering | `00:10:38–00:12:44` | VERIFIED as spoken, mechanism UNCONFIRMED | Treat intention-content mismatch as a creative risk; do not assert that audiences can literally detect AI or motive with certainty. |
+| Negativity bias with saturation warning | `00:12:46–00:14:57` | VERIFIED as spoken, scientific causality UNCONFIRMED | Test accurate negative framing, but avoid a feed dominated by threat language. |
+| Say–Do–Need gap / chocolate-covered carrot | `00:16:57–00:19:05` | VERIFIED as spoken | Attract with stated desire and observed choice while delivering the system or behavior needed for durable progress. |
+| Systems over motivation and discipline | `00:19:07–00:20:37` | VERIFIED as spoken | Make consistency an inventory, batching, scheduling, and reuse problem. |
+| Delusional optimism | `00:20:38–00:22:58` | VERIFIED as spoken, outcome effect UNTESTED | Preserve as creator posture, not as a guaranteed growth mechanism or mental-health prescription. |
+
 ## Net assessment
 
-This skill has no primary-source grounding in this repo. Its genius.md
-patterns, Hall of Fame exemplars, and Signature Moves are self-consistent
-synthesized content built to model a real public figure's known positioning
-(Instagram growth strategist, share-based content philosophy) but are not
-traceable to a transcript, course export, or interview file. Treat output
-from this skill as a well-structured content framework, not as a verified
-Brock Johnson quote engine, until a primary source is added to
-`extractions/`.
+The skill now has one primary transcript source that directly grounds identity-signaling, audience-language research, repetition, experimentation, simplicity, the Say–Do–Need gap, the chocolate-covered-carrot metaphor, and systems-led consistency. Earlier framework details and authority claims remain mixed: the source verifies that Brock stated several performance figures and methods, but it does not independently verify those figures or prove the claimed psychological causality. Use the source-grounded mechanics as testable practitioner heuristics; do not treat the skill as a scientific-claim or verbatim-quote engine beyond the preserved transcript.

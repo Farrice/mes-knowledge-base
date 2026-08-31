@@ -340,6 +340,34 @@ def step_memory_bridge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tu
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_notion_session_memory(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Queue an allow-listed closeout summary locally for explicit review.
+
+    This step never contacts Notion. Network delivery belongs to the nightly
+    mirror and is eligible only after an `approved` event.
+    """
+    content = ctx.get("content")
+    if not content:
+        return "SKIP", "no content source resolved (see resolve-handoff)"
+    source_key = _dedup_key(content)
+    if dry_run:
+        return "OK", f"[dry-run] would queue Session Memory for review (key={source_key})"
+    try:
+        from notion_session_memory import queue_record  # noqa: E402
+
+        row = queue_record(
+            title=content["title"],
+            key_decisions=content.get("completed") or "",
+            pickup_prompt=content.get("remaining") or "",
+            mode="Codex/Claude closeout",
+            source_key=source_key,
+        )
+        suffix = "already queued" if row.get("duplicate") else "queued for review"
+        return "OK", f"Session Memory {suffix} (key={row['key']})"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 def step_cos_journal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     if not COS_DIR.exists():
         return "SKIP", ".agent/cos/ does not exist"
@@ -672,7 +700,14 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
     when NOT to / worked examples / honest edges) and updates guides/INDEX.md."""
     try:
         today = datetime.now().date().isoformat()
-        guide_path = GUIDES_DIR / f"{today}-{slug}.md"
+        content = ctx.get("content") or {}
+        # Empty slug must never produce a blank filename (guides/YYYY-MM-DD-.md):
+        # fall back to the stub's title, then to a fixed sentinel.
+        safe_slug = re.sub(r"[^a-z0-9]+", "-", (slug or "").lower()).strip("-")
+        if not safe_slug:
+            title_src = (content.get("title") or "").lower()
+            safe_slug = re.sub(r"[^a-z0-9]+", "-", title_src)[:60].strip("-") or "unnamed-session"
+        guide_path = GUIDES_DIR / f"{today}-{safe_slug}.md"
         rel = guide_path.relative_to(ROOT)
         if guide_path.exists():
             if "status: stub" in guide_path.read_text(encoding="utf-8"):
@@ -694,7 +729,6 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
         except Exception as e:
             degrade.degraded(None, "operator_guide_sync check failed — guide tier may downgrade to brief", e)
 
-        content = ctx.get("content") or {}
         if not assets and not content:
             return "SKIP", "conversational session — no guide or brief needed"
 
@@ -703,14 +737,14 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
             return "OK", f"[dry-run] would write {tier} stub → {rel}"
 
         GUIDES_DIR.mkdir(exist_ok=True)
-        title = content.get("title") or slug.replace("-", " ").title()
+        title = content.get("title") or safe_slug.replace("-", " ").title()
         completed = content.get("completed") or ""
         remaining = content.get("remaining") or ""
         asset_lines = "\n".join(f"- `{a}`" for a in assets[:40]) or "- (none detected)"
         stub = (
             f"---\n"
             f"date: {today}\n"
-            f"session: {slug}\n"
+            f"session: {safe_slug}\n"
             f"tier: {tier}\n"
             f"status: stub  # written deterministically by end_session_closeout.py — ENRICH to the\n"
             f"              # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched\n"
@@ -988,6 +1022,7 @@ def run(slug: str, degraded: bool, dry_run: bool,
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),
+        ("notion-session-memory", lambda: step_notion_session_memory(ctx, degraded, dry_run)),
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),

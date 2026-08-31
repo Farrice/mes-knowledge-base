@@ -1,6 +1,6 @@
 ---
 name: freshness-tax-enforcement
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

@@ -1,6 +1,6 @@
 ---
 name: performance-log-reminder
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

@@ -1,0 +1,16 @@
+{
+  "title": "Angle Map Brief Repair Plan",
+  "artifact_type": "strategic_implementation_brief",
+  "date": "2026-08-28",
+  "status": "PLAN_READY",
+  "implementation_authorized": false,
+  "primary_owner": "Angle Map creative direction",
+  "system_owner": "existing Angle Map Listening Engine",
+  "source_artifact": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-listening-brief.md",
+  "constraints": [
+    "extend the existing Angle Map system",
+    "preserve source rigor and claim boundaries",
+    "no runtime changes in this artifact turn",
+    "no publishing, outreach, paid tools, external writes, or subagents"
+  ]
+}

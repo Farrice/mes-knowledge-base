@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>who the buyer is, in his own words</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — outward contract (package/02-DESIGN-CONTRACT.md) ── */
+  :root{
+    --canvas:#F3F3F0;   /* default background */
+    --paper:#FAFAF8;    /* lifted field */
+    --ink:#101010;      /* primary text and recommendation */
+    --graphite:#555553; /* secondary text */
+    --line:#D8D8D3;     /* rules and quiet structure */
+    --stone:#8C8C82;    /* large indices and nonessential labels only */
+    --white:#FFFFFF;    /* dark-page text only */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace; /* <pre> verbatim text only */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--canvas); color:var(--ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  em{ font-family:inherit; font-style:normal; font-weight:500 } /* accent = 500 weight, upright */
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* functional label voice: uppercase, +0.16em tracking, medium weight */
+  .lab, .kicker, .sectag, .chip, .trust .k, .conf, .bars-caption, .brief-nav a, .navtool,
+  .deploy .bar .k, .copybtn, .livebtn, .cta, .asset .role, .tl-item .date, .stat .lab,
+  .sparklab, .plab, .matrix-axes, .matrix .quad .qlab, .swing a .k, .ledger th,
+  .play .receipt b, footer.brief{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.16em; font-weight:500 }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--canvas);
+    border-bottom:1px solid var(--line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:16px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-size:9.5px; color:var(--graphite); text-decoration:none }
+  .brief-nav a:hover{ color:var(--ink) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:14px }
+  .navtool{ font-size:9.5px; cursor:pointer; color:var(--graphite); user-select:none }
+  .navtool:hover, .navtool.cp{ color:var(--ink) }
+  .navtool.done{ color:var(--ink); border-bottom:1px solid var(--ink) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--paper);
+    font-family:var(--sans); font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:500;
+    padding:9px 20px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-size:9.5px; letter-spacing:.18em; color:var(--ink);
+    border-top:2px solid var(--ink); padding-top:8px }
+  .kicker{ font-size:10px; letter-spacing:.18em; color:var(--stone); display:block }
+  h1.display{ font-size:54px; line-height:1.04; letter-spacing:-.025em; font-weight:700; margin:22px 0 0; max-width:14ch }
+  .dek{ font-size:16px; line-height:1.55; color:var(--graphite); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--graphite) }
+  strong{ color:var(--ink); font-weight:500 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ink); border-bottom:1px solid var(--line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--line); padding-left:14px }
+  .trust .k{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-size:12px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  h2.sec{ font-size:26px; letter-spacing:-.02em; font-weight:700; flex:1 }
+  .sectag{ font-size:8.5px; color:var(--stone); white-space:nowrap }
+
+  .panel{ background:var(--paper); padding:18px 20px; margin-top:8px; border:1px solid var(--line) }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows — the checkmark glyph is suppressed on this surface */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 0; padding:16px 0; border-bottom:1px solid var(--line); align-items:start }
+  .ev .mark{ display:none }
+  .ev h3{ font-size:15px; font-weight:500; letter-spacing:-.005em; line-height:1.35; color:var(--ink) }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-size:11px; color:var(--graphite); text-decoration:underline; text-underline-offset:2px }
+  .srcref:hover{ color:var(--ink) }
+  .conf{ font-size:8px; letter-spacing:.14em; padding:2px 7px }
+  .conf.verified{ color:var(--ink); border:1px solid var(--ink) }
+  .conf.likely{ color:var(--graphite); border:1px solid var(--graphite) }
+  .conf.unconfirmed{ color:var(--stone); border:1px solid var(--stone) }
+
+  /* decision layer — the one dark interruption on this surface */
+  .decision{ background:var(--ink); color:var(--white); padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--white); opacity:.55 }
+  .decision h2{ font-size:32px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--white) }
+  .decision .dek{ color:var(--white); opacity:.75; font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--graphite); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-size:12px; letter-spacing:.08em; color:var(--stone); min-width:24px; margin-top:3px; font-weight:500 }
+  .dec-item h3{ font-size:16px; font-weight:500; color:var(--white); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--white); opacity:.72; margin-top:4px }
+
+  /* bars — same-scale small multiples, data in ink */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--paper); border:1px solid var(--line); padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:500 }
+  .bars-card .note{ font-size:11.5px; color:var(--stone); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ink); min-height:2px }
+  .bars-caption{ font-size:9px; letter-spacing:.12em; color:var(--stone); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--line) }
+  .hbar-label{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--stone); margin-top:1px }
+  .hbar-track{ height:12px; background:var(--canvas); border:1px solid var(--line); overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ink) }
+  .hbar-track i.zero{ background:var(--stone) }
+  .hbar-val{ font-size:11px; color:var(--graphite); text-align:right; font-weight:500 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks — verbatim copy-paste text keeps monospace for legibility */
+  .deploy{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:8px 14px }
+  .deploy .bar .k{ font-size:9px; color:var(--graphite) }
+  .copybtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--line); padding:4px 10px; color:var(--graphite) }
+  .copybtn:hover{ border-color:var(--ink); color:var(--ink) }
+  .copybtn.done{ border-color:var(--ink); color:var(--ink) }
+  .livebtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--graphite); padding:3px 10px; color:var(--graphite); margin-right:6px }
+  .livebtn:hover{ background:var(--ink); border-color:var(--ink); color:var(--paper) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink);
+    white-space:pre-wrap; word-break:break-word; background:var(--paper) }
+
+  /* caveats */
+  .caveats h2{ font-size:26px; font-weight:700; letter-spacing:-.02em; color:var(--ink) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-size:10px; letter-spacing:.18em;
+    color:var(--ink); border:1px solid var(--ink); padding:10px 20px; text-decoration:none }
+  .cta:hover{ background:var(--ink); color:var(--paper) }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-size:8.5px; color:var(--stone); padding:0 10px 8px 0; border-bottom:1px solid var(--ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--graphite); padding:9px 10px 9px 0; border-bottom:1px solid var(--line); vertical-align:top }
+  .ledger td a{ color:var(--graphite); text-decoration:underline; text-underline-offset:2px; word-break:break-all }
+  .ledger td a:hover{ color:var(--ink) }
+
+  /* playbook — numbered plays with command + receipt */
+  .play{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:9px 14px }
+  .play .head .n{ font-size:11px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  .play .head h3{ font-size:13.5px; font-weight:500; flex:1; line-height:1.3; color:var(--ink) }
+  .play .body{ padding:12px 14px 14px; background:var(--paper) }
+  .play .intent{ font-size:12px; color:var(--graphite); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--canvas); border:1px solid var(--line); padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-size:10px; color:var(--stone); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--graphite) }
+  .play .receipt b{ font-size:8.5px; color:var(--stone); margin-right:8px }
+
+  /* asset rail */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--line); background:var(--paper); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-size:8.5px; color:var(--stone) }
+  .asset h3{ font-size:13px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .asset img{ max-width:100%; border:1px solid var(--line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-size:10px; color:var(--stone); word-break:break-all; flex:1 }
+
+  /* timeline */
+  .timeline{ margin-top:14px; border-left:2px solid var(--line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px;
+    background:var(--canvas); border:2px solid var(--ink) }
+  .tl-item.done::before{ background:var(--ink) }
+  .tl-item .date{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step sequence */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--paper); border:1px solid var(--line); padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-size:10px; letter-spacing:.08em; color:var(--stone); display:block; margin-bottom:3px; font-weight:500 }
+  .flow .step h3{ font-size:12.5px; font-weight:500; line-height:1.3; color:var(--ink) }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--graphite) }
+  .flow .arrow{ align-self:center; color:var(--stone); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ink) }
+  .stat .num small{ font-size:14px; font-weight:500; color:var(--stone) }
+  .stat .lab{ font-size:8.5px; color:var(--stone); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--graphite); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple trend lines, data in ink */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--paper); border:1px solid var(--line); padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-size:8.5px; color:var(--stone) }
+  .sparknote{ font-size:10px; color:var(--stone); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ink); opacity:.06; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--stone); stroke-width:1; opacity:.6 }
+  .sparkbase{ stroke:var(--line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:500; color:var(--stone); letter-spacing:0 }
+
+  /* progress — segmented stage bar, hueless */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; background:var(--line) }
+  .ptrack .pseg.done{ background:var(--ink) }
+  .ptrack .pseg.current{ background:var(--ink); opacity:.4 }
+  .ptrack .pseg.blocked{ background:var(--stone) }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-size:8px; letter-spacing:.13em; color:var(--stone); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--graphite) }
+  .plab.current{ color:var(--ink); font-weight:700 }
+  .plab.blocked{ color:var(--graphite) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; background:var(--ink); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none;
+    font-weight:400; color:var(--stone); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-size:8.5px; color:var(--stone); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line);
+    overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--paper); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-size:8px; color:var(--stone); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--stone) }
+
+  /* related — quiet swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--line); padding:9px 13px; text-decoration:none; background:var(--paper); max-width:100% }
+  .swing a .k{ font-size:8px; color:var(--stone); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ink) }
+
+  /* footer — brand mark left, "prepared for" line right */
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+    gap:16px; font-size:9px; letter-spacing:.16em; color:var(--stone) }
+  footer.brief span:first-child{ color:var(--ink) }
+
+  @media (max-width:640px){
+    .brief-nav{ position:static } /* a wrapped sticky index would blanket a small screen */
+    h1.display{ font-size:36px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    @page{ margin:16mm }
+    body{ background:var(--white) }
+    .brief-nav, #toast, .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+    section.blk{ margin-top:44px }
+    a{ color:inherit }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-single-truth">the single truth</a><a href="#the-buyer-across-the-table">the buyer, across the table</a><a href="#the-pain-bank-verbatim">the pain bank, verbatim</a><a href="#what-this-dossier-settles">what this dossier settles</a><a href="#what-to-do-with-this">what to do with this</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><span class="navtools"></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">GROWTH BLUEPRINT · POSITIONING DOSSIER</span>
+    <h1 class="display">who the <em>buyer</em> is, in his own words</h1>
+    <p class="dek">Identity-layer positioning dossier for the Farrice Cain engagement: the Formulator-Founder avatar, the belief system that blocks the sale, and a pain bank of fifteen exact buyer verbatims pulled live from the forums where this buyer talks. Every claim labeled. Evidence current as of Aug 27, 2026.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">mined 2026-08-27</span></div>
+      <div><span class="k">Lens</span><span class="v">positioning · audience · offer wiring</span></div>
+      <div><span class="k">Sources</span><span class="v">9 forum threads + founder interview + 12-channel competitive scan</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 27, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-single-truth"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the single truth</h2></div><span class="kicker" style="margin-bottom:8px">WHAT THE EVIDENCE SAYS</span><div class="panel"><p>The buyer is a founder-formulator (33-50) at an already-selling supplement or performance brand under $15M, with a dated launch occasion inside 60-90 days. He believes his copy problem is a writing and volume problem. The mined threads show what he does about that belief: he buys mechanisms - quiz funnels, CAPI hygiene, agency ad accounts, AI media buyers - and in seven out of seven threads, nobody in his feed tells him the real problem is an unmade decision about what the brand proves, to whom, with what defensible claim. That silence is the positioning opening. The offer ladder ($750 Angle Map, $2,500 Proof-to-Market Sprint) is wired to exactly that gap.</p></div></section><section class="blk" id="the-buyer-across-the-table"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the buyer, across the table</h2></div><p>He is the credentialed face of the brand, built because he needed the product himself. Total decision authority, near-zero time: he&#x27;d rather be in the lab or the gym than on LinkedIn. He spends his own runway against a launch clock.</p><p>What he has already tried has a specific failure signature: scaled ChatGPT content with volume and zero edge, 8-12 AI tools that never replaced the thinking, creative testing that was the same ad fifteen times, agency ROAS he distrusts, rankings that stayed flat while clicks vanished.</p><p>His midnight fear: I&#x27;m the most knowledgeable person in this category and I&#x27;m invisible - and some kid with half my expertise and twice the posting cadence is becoming the name people associate with this. His identity: I&#x27;m the real one, I earned this the hard way. Visibility feels like joining the influencers he built the brand against. Content that flatters visibility loses him. Content that arms credibility recruits him.</p></section><section class="blk" id="the-pain-bank-verbatim"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the pain bank, verbatim</h2><span class="sectag">FIFTEEN EXACT RECEIPTS</span></div><div class="ev"><span class="mark">✓</span><div><h3>Creative fatigue hits in 10-14 days, and the founder has no time to feed the machine</h3><p>&quot;facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it&#x27;s creative fatigue, I know I need new ad concepts, but... I don&#x27;t have time to endlessly scroll looking for ideas.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/" target="_blank" rel="noopener">r/ecommerce · 2025-10-31 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The reflex is always more ads, never a message decision</h3><p>&quot;CAC goes up, creatives stop hitting the same, growth plateaus / and the first instinct is always that we need new ads or we need to scale harder&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/" target="_blank" rel="noopener">r/dtc · 2026-04-03 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>$30K of cold traffic, 56 orders: spend arrived before the message was settled</h3><p>&quot;Six months in looking for customers cold on Meta we&#x27;ve burned through about 30k and gotten only 56 orders.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">r/PPC · 2026-05-24 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Ninety days of paid tuition, and he cannot name one lesson</h3><p>&quot;I guess i&#x27;m ok to be paying to learn how to do this, but in the last 30 days I can&#x27;t tell you what I know now that I didn&#x27;t know a month ago.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">r/PPC · 2026-05-24 · same founder as above ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>140 ads in 90 days - volume standing in for one unmade decision</h3><p>&quot;140 unique ads across 31 ad sets in 90 days. ~30 LP/PDP iterations.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">r/PPC · 2026-05-24 · same thread ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The sea of sameness, named from inside the category</h3><p>&quot;most brands look crowded because they&#x27;re all selling the exact same formulas with the exact same marketing.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/" target="_blank" rel="noopener">r/growmybusiness · 2025-11-20 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Compliance fear shapes every ad decision</h3><p>&quot;My ads are FDA compliant, but what can I do to not be flagged a health?&quot; ... &quot;I want to make sure I&#x27;m not getting throttled just because I sell supplements.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">r/FacebookAds · 2026-02-17 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The same compliance wall, seen from the practitioner side</h3><p>&quot;one of my client&#x27;s ads is promoting a women&#x27;s health program &amp; the ad got disapproved for supposedly promoting drugs&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">r/FacebookAds · 2026-02-17 · practitioner reply, same thread ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>AI answer engines recommend his competitors, not him</h3><p>&quot;AI keeps recommending my competitors but not us - how to fix this?&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/" target="_blank" rel="noopener">r/ecommerce · 2026-03-03 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Bland mistaken for professional</h3><p>&quot;I thought we were being &#x27;professional.&#x27; I thought bland was safe. I thought sounding like everyone else meant we were doing it right.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/" target="_blank" rel="noopener">r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern) ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The buyer&#x27;s verdict, said to a founder&#x27;s face</h3><p>&quot;It took a customer telling me &#x27;I honestly can&#x27;t remember what makes you different from the other three tools I looked at&#x27; for me to realize we had no voice. We were just... noise.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/" target="_blank" rel="noopener">r/startupcontentlab · 2026-01-27 · same thread ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The stall is distribution and visibility - heard just below the buying line</h3><p>&quot;Where I feel stuck is distribution and visibility.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/" target="_blank" rel="noopener">r/smallbusiness · 2026-02-18 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The launch triple bind, stated as one question - in a thread eighteen days old</h3><p>&quot;How do you take a genuinely differentiated supplement product and get the first 100-1,000 customers without: burning money on Meta ads / becoming another influencer/discount-code brand / making the same generic &#x27;5 foods for healthy joints&#x27; content everyone else is making?&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">r/AskMarketing · 2026-08-09 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Founder-led content doubt: already doing the prescribed fix, losing faith before launch</h3><p>&quot;I&#x27;ve started founder-led educational content, but it seems like it won&#x27;t work.&quot; Same clinically-dosed joint-health founder, same post</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">r/AskMarketing · 2026-08-09 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>A message problem priced as a media problem - the founder&#x27;s own conclusion after the spend (pre-scale, kept honestly)</h3><p>&quot;Trust and conveying the benefits of our product is something we need to work on, it seems like. That is the common theme amongst all of the feedback we have got.&quot; After $2K+ in ad spend bought 4 orders</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/" target="_blank" rel="noopener">r/FacebookAds · 2025-07-11 ↗</a></div></div></div></section><section class="decision" id="what-this-dossier-settles"><span class="kicker">THE POSITIONING CALLS</span><h2>what this dossier <em>settles</em></h2><p class="dek">The calls every document after this one builds on.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Center the buyer, not the viewer</h3><p>The niche&#x27;s channels reach founders AND marketers/aspirants who never buy a $2,500 sprint; the paying center is the founder with a dated occasion inside 60-90 days</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Meet the belief, never argue with it</h3><p>Seven of seven mined threads show the buyer being sold mechanisms; the content lane opens by naming the mis-fix marketplace, not by debating it</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Authority statement stays the live one</h3><p>&quot;Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement &amp; performance brands&quot; - ratified and live; two written alternates stand ready the day he wants a swap</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Register: arm credibility, never flatter visibility</h3><p>His identity claim - &#x27;I&#x27;m the real one&#x27; - means visibility-flavored content repels the exact buyer it targets</p></div></div></div></section><section class="blk" id="what-to-do-with-this"><div class="sechead"><span class="secnum">05</span><h2 class="sec">what to <em>do</em> with this</h2><span class="sectag">EACH INSIGHT ENDS IN A MOVE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Seven of seven threads sold him a mechanism; nobody named the unmade decision - the first voice that names it owns the lane</h3><p>Make that the opening beat of every piece: grant what the mechanism does, then name the decision it cannot make. Batch one&#x27;s scripts start there - this week, not after more research</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">basis: 7/7 mined threads</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The pain bank is title material - the buyer already wrote the hooks, dated and in his own words</h3><p>Pull batch one&#x27;s titles and openers straight from the fifteen verbatims before any paraphrase: creative fatigue in ten days, the $30K lesson, compliant and still throttled. Recognition converts where polish cannot</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">basis: 15 sourced verbatims</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>His identity line - I&#x27;m the real one - decides which content recruits him and which repels him</h3><p>Run every draft through one filter before it ships: does this arm his credibility, or ask him to perform visibility? Keep what proves; cut what performs</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">basis: founder interview, identity layer</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The dollar figures under the ladder are stated assumptions - good enough to aim with, not to forecast with</h3><p>Log the outcome of the first ten buyer conversations as they happen; real closes replace the assumed rates everywhere downstream the day they exist</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">basis: list prices real, rates assumed</span></div></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">GAPS, NAMED</span><h2>what this <em>isn&#x27;t</em></h2><p>This ladder has no sales history yet: every downstream lead value is list price times an assumed close rate, replaced the moment the first ten conversations log outcomes. The supplement end-buyer&#x27;s own words are not in this bank yet - founder and operator voices are. The measured evidence is YouTube-side; LinkedIn, where the sales conversations actually happen, awaits its own structured read (TikTok and Instagram: not measured). Four of the ten pains the founder named going in stand as his claims until the wild confirms them.</p></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Founder interview, August 2026</td><td>—</td><td>2026-08-27</td><td>business facts, avatar, identity layer, authority statements</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>r/PPC thread (DTC supplement, $30K burn)</td><td><a href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/</a></td><td>2026-08-27</td><td>pain bank #3-5</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>r/FacebookAds thread (post-Andromeda compliance)</td><td><a href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/</a></td><td>2026-08-27</td><td>pain bank #7-8</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>r/ecommerce, r/growmybusiness, r/dtc, r/smallbusiness, r/startupcontentlab threads</td><td><a href="https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/" target="_blank" rel="noopener">https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/</a></td><td>2026-08-27</td><td>pain bank #1, #2, #6, #9-12</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>Competitive channel scan, 12 channels / 50 ranked videos</td><td>—</td><td>2026-08-27</td><td>secondary language source; evidence-currency declaration</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>Second-pass buyer-language mining (web search + direct page pulls), Aug 27</td><td><a href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/</a></td><td>2026-08-27</td><td>pain bank rows 13-15: the launch triple bind, founder-led content doubt, trust-not-media conclusion</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+
+  <footer class="brief">
+    <span>GROWTH BLUEPRINT</span>
+    <span>farrice-parallax</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        function done(){ toast('copied'); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+  /* No live-action or repo-link wiring on this surface: --client renders are
+     share-stripped, so a client page carries no write affordances and no local paths. */
+})();
+</script>
+</body>
+</html>

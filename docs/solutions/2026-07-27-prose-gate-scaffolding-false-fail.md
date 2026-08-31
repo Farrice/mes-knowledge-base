@@ -1,3 +1,13 @@
+---
+date: 2026-07-27
+session: teardowns x3 + LinkedIn profile
+name: prose-gate-scaffolding-false-fail
+problem_class: content / QA gate / scaffolding false fail
+domain: content
+status: proven
+problem_signature: "prose_classifier flags a finished document as 10/10 AI on em dashes, headers, arrows, and parallel blocks that all come from markdown scaffolding rather than from the copy that actually ships inside the fenced blocks"
+tags: [prose-classifier, gates, ai-slop, delivery, false-positive]
+---
 # Solution Card — prose_classifier fails whole documents when only the fenced blocks ship
 
 **Date:** 2026-07-27 · **Domain:** content QA / delivery gates · **Session:** teardowns x3 + LinkedIn profile

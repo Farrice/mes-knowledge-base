@@ -2,11 +2,11 @@
   "slug": "mission-proof-to-market",
   "chip": "MISSION · THREAD",
   "title": "PROOF-TO-MARKET-OS.md v2.*0*",
-  "dek": "The offer is written and has never met a buyer.",
+  "dek": "You have a fully loaded offer and an empty outbox.",
   "window": "last 14 days",
-  "lens": "codex",
-  "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,51 +16,76 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The offer layer is documented and marked ready, and the strategy work behind it is closed out. In this window the thread produced thinking about cash validation rather than an attempt at it.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Put the ready offer in front of a real buyer and record what they say yes or no to."
+      "body": "The offer is finished and defensible — buyer council run, make-right clause added, contact kit paste-ready — and it has been sitting untouched for over a week, which means the sprint's most complete asset is also its most idle one.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: no recorded activity.\n\nHandoff status is ready. Last activity today.\n\nNext: Send the contact kit to five named supplement or performance brands today, using the offer exactly as written."
     },
     {
-      "kind": "stats",
-      "heading": "by the numbers",
-      "tag": "LAST 14 DAYS",
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.\n\nHandoff written 43d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
       "items": [
         {
-          "value": "1",
-          "label": "SESSIONS",
-          "note": "codex"
+          "action": "Send the existing contact kit to a first batch of named brands this week",
+          "why": "Recommended. The asset is review-hardened and paste-ready; the send is the only untested step. Costs nothing but the risk of hearing no, which is information you currently do not have."
         },
         {
-          "value": "5",
-          "label": "DAYS ACTIVE",
-          "unit": "d"
+          "action": "Refresh the market pulse and re-cut the offer before sending",
+          "why": "Buys currency in a fast-moving category, but the offer already passed a council and another revision round is the shape of avoidance more than improvement."
         }
       ]
     },
     {
-      "kind": "spark",
-      "heading": "momentum",
-      "caption": "daily, last 14 days — each series scaled to itself",
-      "series": [
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
         {
-          "label": "sessions",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
+          "title": "Resume here",
+          "intent": "PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)",
+          "command": "python3 execution/handoff_store.py resume proof-to-market",
+          "touches": [
+            ".agent/handoffs/2026-07-18-proof-to-market.md"
           ],
-          "value": "1",
-          "unit": "total",
-          "note": "per day"
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park proof-to-market --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "proof-to-market",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill proof-to-market --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "proof-to-market",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\nSLUG: proof-to-market\nSTATUS: ready · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-18-proof-to-market.md\n\nRESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -70,12 +95,12 @@
       "stages": [
         {
           "label": "research",
-          "state": "current",
-          "note": "reading and deciding — nothing built yet"
+          "state": "done"
         },
         {
           "label": "build",
-          "state": "todo"
+          "state": "current",
+          "note": "files are moving; nothing finalized"
         },
         {
           "label": "shipped",
@@ -89,37 +114,58 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)",
-          "command": "python3 execution/handoff_store.py resume proof-to-market",
-          "touches": [
-            ".agent/handoffs/2026-07-18-proof-to-market.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done proof-to-market --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-12",
-          "title": "codex session",
-          "body": "Revenue: AI Proof-to-Market Ideas - Cash Validation Ranking",
+          "date": "2026-08-29",
+          "title": "commit c72f6981c",
+          "body": "Merge remote-tracking branch 'origin/main'\u0000d8f69bdc87ce8a225892b23609a0ae8fe15fca47",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Fuse Proof-to-Market Sprint into Path A canonical offer + contact kit + founding brief + 2x/week market-pulse ",
+          "evidence": "OS doc canonical + review-hardened; founding brief (5 pillars/24 angles/32 Dream100); contact kit paste-ready; market-pulse routine trig_016fRdBgXrSbLJHvhNkSjKg1 live Mon+Thu; freeze lifted on record; pushed 393854d25",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "First full-stack buyer-council COUNCIL run on PROOF-TO-MARKET-OS v2.1, grounded via mt-per",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: buyer-council-verdict-2026-07-19.md",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "First full-stack buyer-council COUNCIL run on PROOF-TO-MARKET-OS v2.1",
+          "evidence": "5-seat verdict sheet, make-right-clause revision, Monday-DM calibration prediction logged; finalize 8.67 PASS",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Pre-Monday upgrade: make-right clause into PROOF-TO-MARKET-OS + kallaway-x-dunford re-expr",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: skill in arsenal",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Grounding ladder upgrade: social-listening gap-fill rung in mt-persona-grounding (social-l",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: mt-persona-grounding + Riley OS",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Pre-Monday upgrade: make-right clause into PROOF-TO-MARKET-OS + kallaway-x-dunford re-expr",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: skill exists in the arsenal",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -144,7 +190,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nothing was finalized, written or generated against this thread in the window, so ready describes a document rather than a tested offer. The pricing and positioning in it remain unconfirmed until someone pays.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

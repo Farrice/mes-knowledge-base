@@ -1,0 +1,41 @@
+{
+  "_doc": "Curated Skills Deck for the Homebase cockpit. Only cards in this file can run headlessly via /action run_skill — skill_deck_runner.py re-reads it server-side on every run and refuses anything else. Hand-edit to add cards; models/efforts are per-card allowlists.",
+  "cards": [
+    {
+      "id": "zeitgeist",
+      "command": "/zeitgeist",
+      "blurb": "Today's market zeitgeist brief — grounds content work in the live web.",
+      "models": ["sonnet", "opus"],
+      "efforts": ["medium", "high"],
+      "default_model": "sonnet",
+      "default_effort": "medium"
+    },
+    {
+      "id": "health-check",
+      "command": "/health-check",
+      "blurb": "System health sweep — receipts, ledgers, degradations.",
+      "models": ["haiku", "sonnet"],
+      "efforts": ["low", "medium"],
+      "default_model": "sonnet",
+      "default_effort": "low"
+    },
+    {
+      "id": "sweep",
+      "command": "/sweep",
+      "blurb": "Session sweep — refresh resumable threads from recent sessions.",
+      "models": ["sonnet"],
+      "efforts": ["low", "medium"],
+      "default_model": "sonnet",
+      "default_effort": "medium"
+    },
+    {
+      "id": "picks-tonight",
+      "command": "/picks-tonight",
+      "blurb": "Tonight's NBA betting card — edges with receipts.",
+      "models": ["sonnet", "opus"],
+      "efforts": ["medium", "high"],
+      "default_model": "sonnet",
+      "default_effort": "medium"
+    }
+  ]
+}

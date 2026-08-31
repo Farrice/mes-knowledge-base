@@ -1,3 +1,13 @@
+---
+date: 2026-07-25
+session: scrape-creator pipeline fix
+name: social-intel-date-normalization-and-watch-url-parse
+problem_class: infra / scraper / boundary normalization
+domain: infra
+status: proven
+problem_signature: "scraping a single YouTube watch URL pulls an unrelated channel because watch was parsed as the creator handle, and posts get skipped entirely because the actor returns human-readable dates that Notion rejects as invalid ISO"
+tags: [scraping, apify, youtube, notion, dates, normalization]
+---
 # Solution Card — social_intel.py: video-URL misparse + non-ISO date rejection
 
 **Date**: 2026-07-25 · **Domain**: system fix (/scrape-creator pipeline) · **Status**: SOLVED (both)

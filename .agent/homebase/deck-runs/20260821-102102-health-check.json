@@ -1,0 +1,12 @@
+{
+ "card_id": "health-check",
+ "model": "sonnet",
+ "effort": "low",
+ "started": "2026-08-21T10:21:02",
+ "state": "done",
+ "command": "/health-check",
+ "ended": "2026-08-21T10:22:47",
+ "duration_s": 104,
+ "total_cost_usd": 0.8991351000000001,
+ "report_rel": ".agent/homebase/deck-runs/20260821-102102-health-check.md"
+}

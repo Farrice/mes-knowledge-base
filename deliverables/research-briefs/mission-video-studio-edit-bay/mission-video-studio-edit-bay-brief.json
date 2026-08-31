@@ -327,5 +327,5 @@
       "body": "The unwired components and untested integrations are known and written down rather than discovered; the vertical reframing step is acknowledged as crude, so vertical output should not be assumed usable.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "active"
+  "status": "archived"
 }

@@ -354,6 +354,9 @@ button.act:hover { background:var(--accent); color:#101010; }
 <script>
 "use strict";
 const REPO = __REPO__;
+// live pages must fetch thumbs over /repo/ — relative 'thumbs/' resolves
+// against the ROUTE (/assets -> /thumbs/*, no such route) and 404s every tile
+const TB = location.protocol.indexOf('http') === 0 ? '/repo/.agent/assets/thumbs/' : 'thumbs/';
 const ALL = JSON.parse(document.getElementById('data').textContent);
 const STYLES = JSON.parse(document.getElementById('styledata').textContent);
 const TYPE_ICON = { image:'🖼️', video:'🎬', audio:'🎵', doc:'📄' };
@@ -437,7 +440,7 @@ function buildHero() {
   const pick = byTs.find(r => r.thumb) || byTs[0];
   if (!pick) return;
   const hero = document.getElementById('hero');
-  hero.style.backgroundImage = 'url("thumbs/' + encodeURIComponent(pick.thumb) + '")';
+  hero.style.backgroundImage = 'url("' + TB + encodeURIComponent(pick.thumb) + '")';
   document.getElementById('hero-kicker').textContent =
     (TYPE_ICON[pick.type] || '') + '  LATEST · ' + (pick.engine || pick.zone || '');
   document.getElementById('hero-title').textContent =
@@ -461,7 +464,7 @@ function card(r) {
   let media;
   const isBrief = r.zone === 'research-briefs';
   if (r.thumb) { media = el('img'); media.loading = 'lazy';
-    media.src = 'thumbs/' + encodeURIComponent(r.thumb); c.appendChild(media); }
+    media.src = TB + encodeURIComponent(r.thumb); c.appendChild(media); }
   else if (isBrief) {
     const g = el('div', 'glyph brief-glyph');
     g.appendChild(el('span', 'bg-icon', '📋'));
@@ -555,7 +558,7 @@ function renderFilters() {
 function tile(r) {
   const d = el('div', 'tile');
   if (r.thumb) { const img = el('img'); img.loading = 'lazy';
-    img.src = 'thumbs/' + encodeURIComponent(r.thumb); d.appendChild(img); }
+    img.src = TB + encodeURIComponent(r.thumb); d.appendChild(img); }
   else d.appendChild(el('div', 'glyph', TYPE_ICON[r.type] || '📄'));
   if (r.type !== 'image') d.appendChild(el('span', 'tbadge', TYPE_ICON[r.type] || ''));
   const ov = el('div', 'ov');
@@ -592,7 +595,7 @@ function refresh() {
   const hg = document.getElementById('hero-gen');
   const lead = filtered.find(r => r.thumb);
   if (hg && lead) hg.style.backgroundImage =
-    'url("thumbs/' + encodeURIComponent(lead.thumb) + '")';
+    'url("' + TB + encodeURIComponent(lead.thumb) + '")';
   const active = FACETS.map(f => sel[f.key]).filter(Boolean);
   document.getElementById('gen-title').textContent =
     (active.length ? active.join(' · ') : 'All Assets').replace(/-/g, ' ').toUpperCase();
@@ -637,7 +640,7 @@ if (STYLES.length) {
   const sthumb = (STYLES.find(s => s.thumb) || {}).thumb ||
     (([...ALL].sort((a,b) => (b.ts||'').localeCompare(a.ts||'')).find(r => r.thumb)) || {}).thumb;
   if (hs && sthumb) hs.style.backgroundImage =
-    'url("thumbs/' + encodeURIComponent(sthumb) + '")';
+    'url("' + TB + encodeURIComponent(sthumb) + '")';
   const sm = document.getElementById('styles-meta');
   sm.appendChild(el('span', 'pill', STYLES.length + ' styles banked'));
 }
@@ -645,7 +648,7 @@ const sg = document.getElementById('stylegrid');
 if (sg) STYLES.forEach(s => {
   const c = el('div', 'stylecard');
   if (s.thumb) { const img = el('img'); img.loading = 'lazy';
-    img.src = 'thumbs/' + encodeURIComponent(s.thumb); c.appendChild(img); }
+    img.src = TB + encodeURIComponent(s.thumb); c.appendChild(img); }
   const m = el('div', 'meta');
   m.appendChild(el('div', 'name', s.name));
   m.appendChild(el('div', 'desc', s.desc));
@@ -683,7 +686,8 @@ def render_board(records, styles):
     except Exception as e:
         # DELIBERATE-QUIET: nav bug must never block the board render
         degraded(None, "surface_nav injection failed — assets board renders without home-base nav", e)
-    open(BOARD, "w", encoding="utf-8").write(html_doc)
+    from board_theme import atomic_write
+    atomic_write(BOARD, html_doc)
     return BOARD
 
 

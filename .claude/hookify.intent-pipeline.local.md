@@ -1,6 +1,6 @@
 ---
 name: intent-pipeline-check
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

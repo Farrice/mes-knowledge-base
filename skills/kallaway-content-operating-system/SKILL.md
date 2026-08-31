@@ -11,13 +11,13 @@ routing: long-tail
 
 ## Domain
 
-End-to-end content operating system for creators, founders, and teams who need buyer-attracting content that can move from validated signal to production, retention, belief shift, articulation, and revenue architecture.
+End-to-end content operating system for creators, founders, and teams who need buyer-attracting content that can move from validated signal to qualified category authority, production, retention, belief shift, articulation, and revenue architecture.
 
 ## Core Thesis
 
 Kallaway should not run as a pile of isolated content skills. The useful system is a staged operating loop:
 
-`Compliant signal radar -> audience and buyer strategy -> topic and format validation -> substance -> hook triad -> script and retention -> word craft -> edit path -> batch feedback -> monetization`
+`Compliant signal radar -> audience and authority strategy -> decisive positioning contrast -> topic portfolio -> substance -> hook triad -> script and retention -> word craft -> edit path -> batch feedback -> monetization`
 
 This OS layer chooses the right Kallaway component at the right time, passes compact handoffs between components, and keeps evidence limits visible. It extends the existing Kallaway suite rather than replacing it.
 
@@ -40,8 +40,11 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 |---|---|---|
 | Source evidence | `extractions/video-context/<video_id>/` | Ground every system claim in transcript, frame, OCR, or uncertainty rows. |
 | Signal radar | `/kallaway-trend-hook-engine` | Normalize compliant trend inputs, score outliers, cluster hook patterns, and hand off to human creative reaction. |
-| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving human judgment. |
+| Research and acceleration | `kallaway-ai-content-engine` | Mine topics, patterns, hooks, and production leverage while preserving metric classes, cohort integrity, first-party learning maturity, and human creative judgment. |
+| Client strategy delivery | `growth-blueprint-os` | Turn the accepted evidence set into durable positioning, whitespace, bullseye, topic, format, and flagship client artifacts. |
 | Strategy and buyer intent | `kallaway-content-psychology` | Choose the content market, dopamine strategy, buyer path, and conversion intent. |
+| Authority density | `workflows/micro-fame-authority-density.md` | Separate reach from fit, trust, and commercial action; find the decisive positioning contrast; run the broad/narrow/chaos portfolio; review after the four-rep floor. |
+| Authority transfer | `luke-iha-insight-vectors` | Add one grounded mental-model shift when authority content explains evidence without giving the reader a portable new rule. |
 | Production loop | `kallaway-content-system` | Run Topic -> Format -> Substance -> Hook -> Script -> Edit -> Batch Feedback. |
 | Retention | `kallaway-addictive-storytelling` | Engineer stakes, big question, head fake, rehook, and loop density. |
 | Audience obsession | `kallaway-audience-obsession` | Build suggestion, belief shift, proof, and action-layer content. |
@@ -53,12 +56,13 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 | Workflow | Command | Produces | Use When |
 |---|---|---|---|
 | Kallaway Content OS Orchestrator | `/kallaway-content-os` | Source-backed content system route, component handoffs, first artifact, validation checklist | The user needs the whole Kallaway stack to act as one system. |
+| Micro-Fame Authority Density Companion | `/kallaway-content-os` authority lane | Authority diagnosis, positioning contrast, 3-2-1 batch, four-rep review | The user needs qualified category authority rather than raw audience growth. |
 
 ## Default Run Order
 
 1. Lock the work goal and result surface.
 2. Load `references/source-evidence-map.md` and only the source packages relevant to the request.
-3. Choose the operating lane: buyer engine, production engine, hook/story engine, obsession engine, AI speed engine, or monetization engine.
+3. Choose the operating lane: authority engine, buyer engine, production engine, hook/story engine, obsession engine, AI speed engine, or monetization engine.
 4. Run the minimum component chain needed for the lane.
 5. Pass a handoff after every component: evidence used, output produced, next input, validation, and open risk.
 6. Produce the first usable artifact, usually a content blueprint, one-rep brief, script package, batch plan, or content-to-revenue map.
@@ -74,6 +78,10 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 
 `kallaway-content-psychology -> /kcs-topic-format -> /obsession-level-architect -> /word-expert -> kallaway-social-commerce`
 
+**Micro-Fame Authority Engine**
+
+`micro-fame-authority-density -> luke-iha-insight-vectors when the depth test fails -> kallaway-content-psychology -> /kcs-topic-format -> /kcs-performance-loop -> kallaway-social-commerce`
+
 **Hook And Story Upgrade**
 
 `/kcs-hook-triad -> /addiction-loop-architect -> /loop-chain-scripting -> /word-opener -> /word-grip`
@@ -86,9 +94,17 @@ This OS layer chooses the right Kallaway component at the right time, passes com
 
 `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep`
 
+Before the sprint, declare `COLD_START`, `HYBRID`, or `OWNED_LEARNING`; label signals as private outcomes, owned proxies, or public proxies; and keep cross-niche or celebrity examples format-only.
+
 **Trend Hook Engine**
 
 `/kallaway-trend-hook-engine -> /ai-topic-mining -> /ai-hook-extractor -> /kcs-topic-format -> /kcs-hook-triad -> /ai-creative-sprint`
+
+**Sellable Client Strategy Package**
+
+`outlier-radar signal pack -> kallaway-ai-content-engine research controls -> /gb-orchestrate -> production components as needed`
+
+Growth Blueprint owns the strategy engagement and its artifacts. This OS owns the route into production; it does not recreate the dossier, whitespace map, bullseye, topic scan, format playbook, or assembled blueprint.
 
 ## Evidence And Context Policy
 
@@ -107,6 +123,11 @@ Every run must prove:
 3. The first artifact is usable without another explanation pass.
 4. The system optimizes for buyer-quality attention, not empty views.
 5. Batch learning and monetization are considered when the work is more than a single content piece.
+6. Positioning work identifies the smallest decisive contrast instead of filling a seven-axis checklist.
+7. Broad reach, audience fit, trust behavior, and commercial action remain separate, and four reps are treated as the minimum evidence floor.
+8. Narrow authority content gives the reader one grounded perspective shift or portable decision rule; factual explanation alone is credibility, not complete authority transfer.
+9. Views are not allowed to stand in for trust, demand, conversion, or revenue.
+10. The competitor-to-owned evidence mix changes after the first 10-20 published pieces.
 
 ## File Map
 
@@ -119,7 +140,8 @@ skills/kallaway-content-operating-system/
 │   ├── source-evidence-map.md
 │   └── skill-system-contract.md
 └── workflows/
-    └── content-os-orchestrator.md
+    ├── content-os-orchestrator.md
+    └── micro-fame-authority-density.md
 ```
 
 Related signal layer:
@@ -134,13 +156,17 @@ execution/kallaway_trend_hook_radar.py
 
 ## Execution Prompts (structure-pure v2)
 
-6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+10 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **10-Video Batch Plan** — `skills/kallaway-content-operating-system/references/prompts-v2/10-video-batch-plan.md`
+- **3-2-1 Authority Batch Plan** — `skills/kallaway-content-operating-system/references/prompts-v2/authority-321-batch-plan.md`
+- **Authority Density Diagnostic** — `skills/kallaway-content-operating-system/references/prompts-v2/authority-density-diagnostic.md`
 - **Content Strategy Blueprint** — `skills/kallaway-content-operating-system/references/prompts-v2/content-strategy-blueprint.md`
 - **Content System Audit** — `skills/kallaway-content-operating-system/references/prompts-v2/content-system-audit.md`
 - **Content-to-Revenue Map** — `skills/kallaway-content-operating-system/references/prompts-v2/content-to-revenue-map.md`
+- **Four-Rep Authority Review** — `skills/kallaway-content-operating-system/references/prompts-v2/four-rep-authority-review.md`
 - **Hook and Story Package** — `skills/kallaway-content-operating-system/references/prompts-v2/hook-and-story-package.md`
 - **One-Rep Production Brief** — `skills/kallaway-content-operating-system/references/prompts-v2/one-rep-production-brief.md`
+- **Positioning Contrast Brief** — `skills/kallaway-content-operating-system/references/prompts-v2/positioning-contrast-brief.md`
 
 <!-- END:execution-prompts -->

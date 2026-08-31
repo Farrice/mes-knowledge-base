@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: Signal Pilot day-1 spec samples
+name: spec-sample-receipted-override-protocol
+problem_class: content / QA gates / prospect-voice false flags
+domain: voice
+status: proven
+problem_signature: "copy written in a prospect's own voice gets FLAGGED by the prose classifier and called invented numbers or creepy mimicry by reviewers, when the flagged lines are the prospect's own verbatim words — and rewriting to satisfy the gate de-voices the sample and destroys its value"
+tags: [spec-sample, voice-mimicry, prose-classifier, outreach, receipts, qa-gate]
+---
 # Solution Card — Spec samples in a prospect's voice: the receipted-override protocol
 
 **Date:** 2026-07-21 (Signal Pilot day-1 execution, Rosner + Broxterman flagships)

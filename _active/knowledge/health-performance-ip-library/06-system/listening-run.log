@@ -304,3 +304,96 @@ Counter-case in the same month: Applied Nutrition licensed Sour Patch Kids and S
 **One risk on today's flagship:** it names Ritual and shows their loyalists paying 59% more. It's sourced entirely to their own two pages and credits them hard, but Pillar-1 protocol isn't optional here — send it before publishing. An unnamed variant is in the hook stack if you'd rather run it structurally.
 released
 === 2026-08-16 10:10:25 listening run end rc=0 ===
+=== 2026-08-24 05:34:19 listening run start ===
+claimed: 9cf8dc737694  (heartbeat every wave: session_lock.py heartbeat 9cf8dc737694)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-24 05:52:08 listening run end rc=1 ===
+=== 2026-08-25 05:30:05 listening run start ===
+claimed: bfd9f23543ff  (heartbeat every wave: session_lock.py heartbeat bfd9f23543ff)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-25 05:30:19 listening run end rc=1 ===
+=== 2026-08-26 05:30:04 listening run start ===
+claimed: a328fa57396e  (heartbeat every wave: session_lock.py heartbeat a328fa57396e)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-26 05:30:16 listening run end rc=1 ===
+=== 2026-08-27 05:30:00 listening run start ===
+claimed: 99bffe80f75f  (heartbeat every wave: session_lock.py heartbeat 99bffe80f75f)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-27 05:30:10 listening run end rc=1 ===
+=== 2026-08-27 09:37:27 listening run start ===
+claimed: f988a07cc8ac  (heartbeat every wave: session_lock.py heartbeat f988a07cc8ac)
+Handoff saved to `.agent/handoffs/2026-08-27-knowledge.md` (thread `knowledge`, status active).
+
+Resume hint: *Angle Map 2026-08-27 shipped (dose-as-weakest-claim); next: fix the dead launchd job `com.antigravity.angle-map-listening`.*
+
+The single next move I flagged: the scheduler. Every other defect from this run is survivable — a dead cadence is not, because the engine's whole value is compounding day over day, and it just lost eleven days of market movement.
+released
+=== 2026-08-27 10:21:45 listening run end rc=0 ===
+=== 2026-08-27 10:32:32 listening run start ===
+claimed: d58aa1c1aec1  (heartbeat every wave: session_lock.py heartbeat d58aa1c1aec1)
+=== 2026-08-27 10:32:42 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 10s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-27 10:32:52 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 20s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+Execution error=== 2026-08-27 10:33:07 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-27 10:33:14 listening run start ===
+claimed: cb1a215cbedb  (heartbeat every wave: session_lock.py heartbeat cb1a215cbedb)
+Today's run was already done — I verified it instead of re-running it. The brief was produced at 10:20 this morning and committed as `8511588d8`, about fifteen minutes before this session started. Re-running would have duplicated five ledger rows, overwritten a PASS brief with a weaker second draft, and created a second Google Doc, which breaks the prompt's own "one brief in, one Doc out, per day" boundary.
+
+What I checked directly rather than taking the brief's word for it:
+
+- Brief saved, 457 lines, at `_active/knowledge/health-performance-ip-library/daily/2026-08-27-angle-map-listening-brief.md`
+- Exec cut rewritten, 6 lines, Thursday deep focus (category/creator/offer patterns)
+- 3 insight rows and 2 promises rows dated today; both ledgers validate clean at 236 and 48 rows
+- 3 finished vault assets filed with `status: READY` and all four tags, plus 3 matching INDEX rows
+- Living-doc deltas appended to both 07-AUDIENCE and 03-ICP-TRUTH-MAP
+- Google Drive mirror — **independently verified**, not just claimed. Doc `1nHR1pfTWyED4ry5705omVcK1pa10EOK6C1FSH1dgzMk`, correct title, parent folder `11pHojFQgW9...` confirmed, native Google Doc, not trashed. I checked this specifically because the 07:45 launchd run logged an OAuth failure, so the claim was worth doubting. It holds.
+
+No publishing, no outreach, no contact of any kind occurred, and I wrote nothing.
+
+The one thing genuinely open is the thing the brief flagged on itself: today's buyer quotes grade `LIKELY`, not `VERIFIED`. Apify was retired this morning at 09:05, and WebFetch is blocked from reddit.com in this harness, so the quotes came back engine-recovered rather than directly read. Opening the two Reddit URLs in the brief's §1.5 takes about thirty seconds and upgrades them to `VERIFIED`.
+
+★ Insight ─────────────────────────────────────
+Retiring Apify quietly removed the only tool that could read Reddit directly, but the engine's acceptance checks still require verbatim buyer language with a URL. The prompt file at line 106 still reads "Apify first." The engine didn't break — it degraded honestly and said so — but it now structurally cannot hit `VERIFIED` on its own core receipt without a human opening a browser.
+─────────────────────────────────────────────────
+
+That's a real fork worth your call, since the promises-not-kept receipt is the offer's home turf:
+
+**A. Patch the ladder, accept `LIKELY`.** Edit AUTOMATION_PROMPT.md so rung 1 is `research.py`, and write the thirty-second human URL check into the daily flow as a standing step. Cheapest, keeps the engine running, but every receipt carries a caveat until you personally clear it.
+
+**B. Find Apify's replacement for the Reddit seat.** Something that actually fetches thread text so quotes land `VERIFIED` unattended. Costs a build session and probably a small subscription, right after you just cancelled one.
+
+I'd take A now and only go to B if the `LIKELY` grades start showing up in content you actually want to publish — a caveat you clear yourself in thirty seconds is not worth a new vendor.
+
+Separately, COS wants you: it's been 5 days since your last check-in (`/cos`, 90 seconds), and the board session is 25 days overdue (`/cos weekly`, ~15 min).
+ERROR: lock not held by this token
+=== 2026-08-27 10:35:25 listening run end rc=0 ===
+=== 2026-08-28 07:19:39 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-29 05:30:05 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: b158f974d5a8  (heartbeat every wave: session_lock.py heartbeat b158f974d5a8)
+Not logged in · Please run /login
+released
+=== 2026-08-29 05:30:08 listening run end rc=1 ===
+=== 2026-08-30 05:30:01 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 3986c72ffd09  (heartbeat every wave: session_lock.py heartbeat 3986c72ffd09)
+Not logged in · Please run /login
+released
+=== 2026-08-30 05:30:05 listening run end rc=1 ===

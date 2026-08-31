@@ -169,7 +169,13 @@ def get_baseline(
     window: int = 10,
 ) -> dict:
     """
-    Get rolling baseline (last N outputs) for a skill or agent.
+    Get the rolling baseline from the local-first performance ledger.
+
+    Notion is the sync target, not the runtime source of truth. Regression
+    checks run during every finalize, including sandboxed Codex runs that may
+    not have DNS access to api.notion.com. Reading the append-only local ledger
+    keeps regression detection available without making Notion a critical-path
+    dependency.
 
     Returns: {
         'count': int,
@@ -180,58 +186,36 @@ def get_baseline(
         'keep_rate': float,  # % of outputs marked 'Keep'
     }
     """
-    api = NotionAPI()
-
-    # Build filter — Notion 2022-06-28 filter syntax
-    filters = []
+    entries = get_local_performance_entries()
     if skill:
-        filters.append({
-            'property': 'Skill',
-            'rich_text': {'contains': skill}
-        })
+        entries = [e for e in entries if skill.lower() in str(e.get('skill', '')).lower()]
     if agent:
-        filters.append({
-            'property': 'Agent',
-            'rich_text': {'contains': agent}
-        })
+        entries = [e for e in entries if agent.lower() in str(e.get('agent', '')).lower()]
+    entries = entries[-window:]
 
-    query_filter = None
-    if len(filters) == 1:
-        query_filter = filters[0]
-    elif len(filters) > 1:
-        query_filter = {'and': filters}
+    if not entries:
+        return {
+            'count': 0, 'avg_quality': 0, 'avg_intent': 0,
+            'avg_expert': 0, 'avg_adversarial': 0, 'keep_rate': 0,
+            'source': 'local_performance_ledger',
+        }
 
-    sorts = [{'property': 'Date', 'direction': 'descending'}]
-    result = api.query_database(PERFORMANCE_DB_ID, filter=query_filter, sorts=sorts, page_size=window)
-    pages = result.get('results', [])
-
-    if not pages:
-        return {'count': 0, 'avg_quality': 0, 'avg_intent': 0, 'avg_expert': 0, 'avg_adversarial': 0, 'keep_rate': 0}
-
-    def extract_number(page, prop_name):
-        prop = page.get('properties', {}).get(prop_name, {})
-        return prop.get('number') if prop.get('type') == 'number' else None
-
-    def extract_select(page, prop_name):
-        prop = page.get('properties', {}).get(prop_name, {})
-        sel = prop.get('select')
-        return sel.get('name') if sel else None
-
-    quality_scores = [s for s in (extract_number(p, 'Quality Score') for p in pages) if s is not None]
-    intent_scores = [s for s in (extract_number(p, 'Intent Alignment') for p in pages) if s is not None]
-    expert_scores = [s for s in (extract_number(p, 'Expert Standard') for p in pages) if s is not None]
-    adversarial_scores = [s for s in (extract_number(p, 'Adversarial Resilience') for p in pages) if s is not None]
-    statuses = [extract_select(p, 'Status') for p in pages]
+    quality_scores = [e.get('quality_score') for e in entries if e.get('quality_score') is not None]
+    intent_scores = [e.get('intent_alignment') for e in entries if e.get('intent_alignment') is not None]
+    expert_scores = [e.get('expert_standard') for e in entries if e.get('expert_standard') is not None]
+    adversarial_scores = [e.get('adversarial_resilience') for e in entries if e.get('adversarial_resilience') is not None]
+    statuses = [e.get('status') for e in entries]
 
     keep_count = sum(1 for s in statuses if s == 'Keep')
 
     return {
-        'count': len(pages),
+        'count': len(entries),
         'avg_quality': sum(quality_scores) / len(quality_scores) if quality_scores else 0,
         'avg_intent': sum(intent_scores) / len(intent_scores) if intent_scores else 0,
         'avg_expert': sum(expert_scores) / len(expert_scores) if expert_scores else 0,
         'avg_adversarial': sum(adversarial_scores) / len(adversarial_scores) if adversarial_scores else 0,
-        'keep_rate': keep_count / len(pages) if pages else 0,
+        'keep_rate': keep_count / len(entries) if entries else 0,
+        'source': 'local_performance_ledger',
     }
 
 

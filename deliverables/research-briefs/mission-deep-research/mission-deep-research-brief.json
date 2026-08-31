@@ -2,11 +2,11 @@
   "slug": "mission-deep-research",
   "chip": "MISSION · THREAD",
   "title": "Josh Eightward Lindy Hop Brand Positioning *Packet*",
-  "dek": "Research keeps producing usable verdicts; the gap is whether anyone acts on them.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
-  "lens": "claude",
-  "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 10, 2026",
+  "lens": "claude · codex",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "aug 27, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,62 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Research runs here keep landing, and their most valuable output has been telling other threads what not to build. It behaves as a service thread: it produces verdicts that only pay off when another lane adopts them.\n\nHandoff status is active. Last activity 4d ago.\n\nNext: Route the outstanding findings into the threads that own them, then close the run."
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Resume the `deep-research` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (deep-research)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 55d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md",
+          "command": "python3 execution/handoff_store.py resume deep-research",
+          "touches": [
+            ".agent/handoffs/2026-07-03-deep-research.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park deep-research --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "deep-research",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill deep-research --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "deep-research",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md\nSLUG: deep-research\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-03-deep-research.md\n\nRESUME HERE: Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md\n\nSHIPPED IN WINDOW:\n  - 2026-08-26 · KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,13 +79,47 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "2",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "13",
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "claude · codex"
+        },
+        {
+          "value": "9",
           "label": "DAYS ACTIVE",
           "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
         }
       ]
     },
@@ -59,36 +148,20 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md",
-          "command": "python3 execution/handoff_store.py resume deep-research",
-          "touches": [
-            ".agent/handoffs/2026-07-03-deep-research.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-06",
-          "title": "Finalized · deep-research",
-          "body": "Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vig CLV methodology, Platt-scaling calibration fix w/ Bath rec",
+          "date": "2026-08-26",
+          "title": "Finalized · deep-research-os",
+          "body": "KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint\nDeep Research OS native-web mission PASS: 23 accepted findings, 20 full-page sources, 7 domains, 8 counterevidence findings, 12 authoritative claims, zero paid spend, zero subagents. Prose classifier remained structurall",
           "done": true
         },
         {
-          "date": "2026-07-28",
-          "title": "Finalized · deep-research",
-          "body": "Graph-engineering vetted deep research: 41-source hype audit (term=joke coinage w/ fabricated Anthropic attribution, predates Opus 5), substance benchmarks (graphs=compression not accuracy), 4-bucket harness verdict tabl",
+          "date": "2026-08-17",
+          "title": "codex session",
+          "body": "Research: Deep Research Parity - Near-Free $10 Bakeoff",
           "done": true
         }
       ]
@@ -114,7 +187,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The records show research delivered but not adopted, so practical impact is unverified — a correct verdict nobody acts on looks identical to one nobody needed.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 6 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

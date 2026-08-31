@@ -1,3 +1,13 @@
+---
+date: 2026-07-27
+session: compass doctrine gate audit
+name: compass-doctrine-blocking-gate-audit
+problem_class: harness / gates / overcorrection
+domain: harness
+status: proven
+problem_signature: "the system keeps interrupting shipping — a finalize refuses over a missing flag, a stale mirror halts a creative run, a routing trial blocks a prompt on one keyword — and it feels like the harness is overcorrecting and trapping the operator, with more gates scheduled to switch themselves on by date"
+tags: [gates, compass-doctrine, enforcement, trials, chain-runner, directives]
+---
 # Solution Card — the enforcement layer was scheduled to cage itself
 
 **Date:** 2026-07-27 · **Domain:** control plane / harness · **Trigger:** Farrice, mid-flow: *"the system is overcorrecting and trapping me"*

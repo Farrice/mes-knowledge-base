@@ -1,0 +1,62 @@
+{% liquid
+  assign product_story = product.metafields.custom.product_story.value
+  assign material = product.metafields.custom.material.value
+  assign fit_note = product.metafields.custom.fit_note.value
+  assign care = product.metafields.custom.care.value
+  assign production = product.metafields.custom.production_note.value
+
+  if product_story == blank
+    assign product_story = product.description | strip_html | truncatewords: 80
+  endif
+%}
+
+<section class="mybpm-section mybpm-section--light" aria-labelledby="MybpmProductNotes-{{ section.id }}">
+  <div class="mybpm-product-notes">
+    <div>
+      <p class="mybpm-kicker">{{ section.settings.kicker | escape }}</p>
+      <h2 id="MybpmProductNotes-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+    </div>
+    <div class="mybpm-product-notes__grid">
+      <article class="mybpm-product-note">
+        <h3>Story</h3>
+        <div>{{ product_story }}</div>
+      </article>
+      <article class="mybpm-product-note">
+        <h3>Material</h3>
+        <div>{{ material | default: 'Material verification pending sample approval.' }}</div>
+      </article>
+      <article class="mybpm-product-note">
+        <h3>Fit</h3>
+        <div>{{ fit_note | default: 'Fit note pending sample approval and on-body measurement.' }}</div>
+      </article>
+      <article class="mybpm-product-note">
+        <h3>Care</h3>
+        <div>{{ care | default: 'Care instructions will be confirmed against the production blank.' }}</div>
+      </article>
+      {% if production != blank %}
+        <article class="mybpm-product-note">
+          <h3>Production</h3>
+          <div>{{ production }}</div>
+        </article>
+      {% endif %}
+      <article class="mybpm-product-note">
+        <h3>Shipping & returns</h3>
+        <div>{{ section.settings.shipping_copy }}</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MyBPM product notes",
+  "tag": "section",
+  "enabled_on": { "templates": ["product"] },
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "THE GARMENT" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "BUILT TO LIVE PAST THE NIGHT." },
+    { "type": "richtext", "id": "shipping_copy", "label": "Shipping and returns copy", "default": "<p>Production time and return eligibility are shown before checkout. Final policy language must match the live fulfillment partner.</p>" }
+  ],
+  "presets": [{ "name": "MyBPM product notes" }]
+}
+{% endschema %}

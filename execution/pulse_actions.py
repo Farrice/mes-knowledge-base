@@ -11,6 +11,8 @@ Actions:
     outcome-snooze "<full deliverable>"                        check_in_date +14d (atomic)
     thread-archive <thread>                                    → handoff_store archive
 
+    refresh                              re-collect ledgers (sweep + asset index) then regen boards
+
 Contracts: mission line schema per .agent/workflows/go.md Stage 2.5; append
 style per raw_intent_run_packet._log_mission (json.dumps + newline, never
 blocks on OSError). Revenue numbers are NEVER invented — they arrive from
@@ -107,19 +109,44 @@ def act_park(slug, reason):
     ok = _append_mission(line)
     if not ok:
         return False
-    # If a handoff thread by this name exists, mark it blocked with the reason
-    # (annotate works flag-only; save does not — never call save here).
+    # If a handoff thread by this name exists, mark it PARKED with the reason.
+    # Was "blocked" — which ranks rank-0 most-urgent in why_needs_you, so every
+    # parked thread shouted from the top of needs-you (bug, fixed 2026-08-20).
     try:
         r = subprocess.run(
             [PY, os.path.join(ROOT, "execution", "handoff_store.py"),
-             "annotate", slug, "--status", "blocked", "--hint", reason],
+             "annotate", slug, "--status", "parked", "--hint", reason],
             capture_output=True, text=True, timeout=20)
         if r.returncode == 0:
-            print(f"parked: {slug} (handoff annotated blocked)")
+            print(f"parked: {slug} (handoff annotated parked)")
         else:
             print(f"parked: {slug} (no matching handoff thread — mission line only)")
     except Exception:
         print(f"parked: {slug} (handoff annotate skipped)")
+    return True
+
+
+def act_kill(slug, reason):
+    """Kill = dead + hidden (Farrice's ruling, 2026-08-20). Appends a terminal
+    `killed` line to the append-only ledger (never a delete) and archives the
+    handoff thread so it stops surfacing on boards and in sweep promotion.
+    Recoverable only by digging: `reopen` + `handoff_store.py unarchive`.
+    A reason is REQUIRED — a kill with no reason is a decision with no record."""
+    reason = (reason or "").strip()
+    if not reason:
+        print("[pulse_actions] kill refused: --reason is required", file=sys.stderr)
+        return False
+    line = _close_line(slug, "killed", f"KILLED: {reason}")
+    if not _append_mission(line):
+        return False
+    try:
+        r = subprocess.run(
+            [PY, os.path.join(ROOT, "execution", "handoff_store.py"), "archive", slug],
+            capture_output=True, text=True, timeout=20)
+        note = "handoff archived" if r.returncode == 0 else "no matching handoff thread"
+    except Exception:
+        note = "handoff archive skipped"
+    print(f"killed: {slug} ({note}) — {reason}")
     return True
 
 
@@ -186,6 +213,36 @@ def act_thread_archive(thread):
     return r.returncode == 0
 
 
+def act_refresh():
+    """Re-collect the data every board reads, then regenerate the hub surfaces.
+    Order matters: ledgers first (sweep, asset index), boards last — the
+    homebase regen flips /ping's homebase_mtime, which is the open page's
+    signal that the data is actually fresh. Synchronous and honest here; the
+    server wraps this CLI in a detached Popen so the button returns instantly."""
+    steps = [
+        ("session sweep", ["session_sweep.py", "run"], 600),      # chains catalog merge
+        ("asset index", ["asset_index.py"], 300),
+        ("analyst synthesis", ["brief_synthesis.py", "run"], 660),
+        ("librarian triage", ["brief_synthesis.py", "triage"], 660),
+        ("mission briefs", ["mission_brief.py", "build", "--quiet"], 300),
+        ("work catalog", ["work_catalog.py", "merge"], 120),       # picks up new brief links
+        ("homebase", ["homebase_board.py"], 90),
+        ("library", ["catalog_board.py"], 90),
+    ]
+    all_ok = True
+    for label, cmd, timeout in steps:
+        try:
+            r = subprocess.run([PY, os.path.join(ROOT, "execution", cmd[0]), *cmd[1:]],
+                               capture_output=True, text=True, timeout=timeout)
+            ok = r.returncode == 0
+        except Exception as e:
+            print(f"[pulse_actions] refresh {label} crashed: {e}", file=sys.stderr)
+            ok = False
+        print(f"refresh {label}: {'ok' if ok else 'FAILED'}")
+        all_ok = all_ok and ok
+    return all_ok
+
+
 def act_oracle_closes():
     """Capture closing lines for pending paper bets (Oracle board button)."""
     r = subprocess.run([PY, os.path.join(ROOT, "execution", "paper_trader.py"), "closes"],
@@ -228,11 +285,13 @@ def main():
     d = sub.add_parser("done"); d.add_argument("slug"); d.add_argument("--outcome", default="")
     p = sub.add_parser("park"); p.add_argument("slug"); p.add_argument("--reason", default="")
     r = sub.add_parser("reopen"); r.add_argument("slug")
+    k = sub.add_parser("kill"); k.add_argument("slug"); k.add_argument("--reason", default="")
     o = sub.add_parser("outcome"); o.add_argument("deliverable")
     o.add_argument("--revenue", type=float, default=0); o.add_argument("--outcome", default="")
     x = sub.add_parser("outcome-dismiss"); x.add_argument("deliverable")
     s = sub.add_parser("outcome-snooze"); s.add_argument("deliverable"); s.add_argument("--days", type=int, default=14)
     t = sub.add_parser("thread-archive"); t.add_argument("thread")
+    sub.add_parser("refresh")
     sub.add_parser("oracle-closes")
     sub.add_parser("oracle-gate")
     n = sub.add_parser("oracle-note"); n.add_argument("text")
@@ -241,10 +300,12 @@ def main():
         "done": lambda: act_done(a.slug, a.outcome),
         "park": lambda: act_park(a.slug, a.reason),
         "reopen": lambda: act_reopen(a.slug),
+        "kill": lambda: act_kill(a.slug, a.reason),
         "outcome": lambda: act_outcome(a.deliverable, a.revenue, a.outcome),
         "outcome-dismiss": lambda: act_outcome_dismiss(a.deliverable),
         "outcome-snooze": lambda: act_outcome_snooze(a.deliverable, a.days),
         "thread-archive": lambda: act_thread_archive(a.thread),
+        "refresh": act_refresh,
         "oracle-closes": act_oracle_closes,
         "oracle-gate": act_oracle_gate,
         "oracle-note": lambda: act_oracle_note(a.text),

@@ -1,0 +1,166 @@
+{
+  "niche_slug": "farrice-parallax",
+  "engagement": {
+    "client": "Farrice Cain (self)",
+    "mode": "self",
+    "offer_map": "$750 Angle Map -> $2,500 Proof-to-Market Sprint, supplement/performance brands"
+  },
+  "artifacts": {
+    "positioning-dossier": {
+      "file": "positioning-dossier.md",
+      "workflow": "gb-interview",
+      "produced_at": "2026-08-27T19:55:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:40:00Z"
+      },
+      "ttl_days": 90,
+      "depends_on": [],
+      "status": "fresh",
+      "notes": "Pain bank: 15 exact verbatims w/ URLs (12 first pass + 3 from the 2026-08-27 gb-enrich pass, all page-pulled). Prose gate: 7.6 after 3 passes; residual flags are contract-required structures (VERIFIED labels x12, evidence tables, em dashes inside frozen verbatims) - judgment call logged."
+    },
+    "whitespace-map": {
+      "file": "whitespace-map.md",
+      "workflow": "gb-whitespace",
+      "produced_at": "2026-08-27T20:20:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 90,
+      "depends_on": [
+        "positioning-dossier"
+      ],
+      "status": "fresh",
+      "notes": "Wheel + client HTML in exports/. Prose gate 2.0 (residual: table parallelism + one receipt title containing a banned word, kept as evidence)."
+    },
+    "bullseye": {
+      "file": "bullseye.md",
+      "workflow": "gb-bullseye",
+      "produced_at": "2026-08-28T15:35:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 90,
+      "depends_on": [
+        "positioning-dossier",
+        "whitespace-map"
+      ],
+      "status": "fresh",
+      "notes": "REBUILT 2026-08-28 to the Ring Intelligence contract (rejected 2026-08-27 family snapshotted to history/ as *-rejected). Full six-field sourcing map per ring in bullseye.md + the three same-geometry views + client render w/ sourcing section; residue ban verified zero-hit on all reader-facing exports; client lint PASS. Prose gate: flagged only on contract-required structures (tables, six-field parallels, [NEED] markers, receipt em-dashes) — judgment call logged, same class as prior runs."
+    },
+    "topic-buckets": {
+      "file": "topic-buckets.md",
+      "workflow": "gb-topic-scan",
+      "produced_at": "2026-08-27T21:10:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 45,
+      "depends_on": [
+        "bullseye"
+      ],
+      "status": "fresh",
+      "notes": "6 buckets w/ mechanisms; trio validated 4-factor. Prose 3.5 WARNING (structural residuals). Enriched 2026-08-27: live-market read table added (web demand per top-5 topic, sourced + labeled)."
+    },
+    "top-50": {
+      "file": "top-50.md",
+      "workflow": "gb-topic-scan",
+      "produced_at": "2026-08-27T21:10:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 45,
+      "depends_on": [
+        "bullseye"
+      ],
+      "status": "fresh",
+      "notes": "50 rows, 25 qualified, 25 struck w/ reasons; velocity pending (snapshots 64 min apart). Prose 5.0 (contract glyphs + table)."
+    },
+    "format-playbook": {
+      "file": "format-playbook.md",
+      "workflow": "gb-format-find",
+      "produced_at": "2026-08-27T21:40:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 60,
+      "depends_on": [
+        "top-50",
+        "whitespace-map"
+      ],
+      "status": "fresh",
+      "notes": "5 structures, 4 layouts, 5 mechanism cards, matrix w/ 2 invented rows, test set 2 proven + 1 labeled bet. Prose 5.0 (structural residuals)."
+    },
+    "growth-blueprint": {
+      "file": "growth-blueprint.md",
+      "workflow": "gb-blueprint",
+      "produced_at": "2026-08-27T22:10:00Z",
+      "data_tier": "fresh",
+      "pack_ref": {
+        "path": ".agent/outlier-radar/packs/farrice-parallax/latest.json",
+        "generated_at": "2026-08-27T19:38:33+00:00"
+      },
+      "ttl_days": 45,
+      "depends_on": [
+        "positioning-dossier",
+        "whitespace-map",
+        "bullseye",
+        "topic-buckets",
+        "top-50",
+        "format-playbook"
+      ],
+      "status": "fresh",
+      "inherited_tier": "fresh (worst of five inputs: all fresh)",
+      "notes": "Bet register: 10 rows. Client HTML + PDF in exports/. Prose 5.0 (structural residuals). Voice: exec layer under input-pack voice constraints; full VOICE-CARD pass deferred to public shipping. Enriched 2026-08-27: 'the market, last 30 days' section added (5 dated pulse rows); verbatim count now 15."
+    }
+  },
+  "refresh_order": [
+    "positioning-dossier",
+    "whitespace-map",
+    "bullseye",
+    "topic-buckets",
+    "top-50",
+    "format-playbook",
+    "growth-blueprint"
+  ],
+  "step_down": {
+    "file": "exports/lead-magnet.html",
+    "built_by": "execution/build_lead_magnet.py",
+    "mode": "full (pack ok, enrichment nuggets: 2)",
+    "cta": "https://parallaxletter.substack.com",
+    "produced_at": "2026-08-27T20:56:00Z"
+  },
+  "exports_pdf": "exports/pdf/ (10 files, headless Chrome, deliverable of record)",
+  "enrichment_run": {
+    "workflow": "gb-enrich",
+    "generated_at": "2026-08-27T20:55:00Z",
+    "merged_into": ".agent/outlier-radar/packs/farrice-parallax/latest.json (enrichment block; pre-merge snapshot 2026-08-27-pre-enrich-204742.json)",
+    "receipt": "topics=5 buyer_quotes=4 pulse=5 dropped_sourceless=0",
+    "lanes": [
+      "tavily (8 searches + 1 failed extract)",
+      "perplexity sonar x1 recency=month (ledger-logged $0.02)",
+      "playwright page pulls x2 ($0)"
+    ],
+    "cost_estimate_stated_upfront_usd": "0.03-0.08",
+    "cost_actual_usd_est": 0.11,
+    "propagated_to": [
+      "topic-buckets.md (live-market read table)",
+      "exports/topic-scan/topic-scan-brief.json + exports/briefs/topic-scan.json (live-market read section)",
+      "exports/growth-blueprint/growth-blueprint-brief.json + exports/briefs/growth-blueprint.json (market last-30-days section; verbatim count 12->15)",
+      "positioning-dossier.md + dossier brief (pain bank rows 13-15)",
+      "exports/lead-magnet.html (re-bake, enrichment_nuggets=2)"
+    ],
+    "pre_enrich_snapshots": "history/2026-08-27-*-preenrich.*"
+  }
+}

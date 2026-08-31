@@ -1,0 +1,204 @@
+{
+  "schema_version": "angle-map-source-receipt/v1",
+  "date": "2026-08-28",
+  "status": "REAL",
+  "owner": "/deep-research-os",
+  "routing": [
+    "codex_native_web",
+    "direct_http_known_url",
+    "jina_reader_conditional"
+  ],
+  "market_discovery_queries": 15,
+  "accepted_source_urls": 15,
+  "accepted_domains": 14,
+  "native_full_page_reads": 13,
+  "native_failures": 2,
+  "direct_http_recoveries": 2,
+  "jina_attempts": 2,
+  "jina_recoveries": 1,
+  "jina_blocked": 1,
+  "paid_calls": 0,
+  "accounts_created": 0,
+  "tavily_calls": 0,
+  "raw_page_bodies_persisted": false,
+  "sources": [
+    {
+      "id": "sec-pg-10k",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+      "source_class": "primary_filing",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED",
+      "accepted_use": "P&G agreement to acquire Thorne for $3.8 billion, subject to closing conditions"
+    },
+    {
+      "id": "pg-thorne-rationale",
+      "source_url": "https://us.pg.com/blogs/thorne/",
+      "source_class": "official_company",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED",
+      "accepted_use": "P&G acquisition rationale: science, quality, practitioner credibility and trust"
+    },
+    {
+      "id": "dizzy-product",
+      "source_url": "https://dizzysupps.com/shop",
+      "source_class": "official_product",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED",
+      "accepted_use": "One scoop, 12 ingredients, £38 one-time price, £34.20 subscription, and the brand's routine-simplification comparison"
+    },
+    {
+      "id": "dizzy-launch",
+      "source_url": "https://www.thecheckout.eu/article/dizzy-launches-a-women-focused-daily-supplement",
+      "source_class": "trade_press",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED",
+      "accepted_use": "August 20 launch date, bootstrapped founder context, single-SKU positioning and audience"
+    },
+    {
+      "id": "niq-self-directed-health",
+      "source_url": "https://nielseniq.com/global/en/insights/analysis/2026/health-and-wellness-consumer-trends-the-rise-of-the-self-directed-health-consumer/",
+      "source_class": "market_research",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED_AS_PUBLISHED_RESEARCH",
+      "accepted_use": "Consumers moving toward self-directed, outcome-led health decisions and using digital tools"
+    },
+    {
+      "id": "pwc-everyday-health",
+      "source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html",
+      "source_class": "market_research",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED_AS_PUBLISHED_RESEARCH",
+      "accepted_use": "21,808-consumer survey and health occasions spanning food, sleep, stress, performance and longevity"
+    },
+    {
+      "id": "reddit-current-stack",
+      "source_url": "https://www.reddit.com/r/Biohackers/comments/1vyldyx/rate_my_stack/",
+      "source_class": "public_community",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED_AS_BUYER_TEXT",
+      "accepted_use": "Current stack image and author clarification that the post was half a joke after 370 comments"
+    },
+    {
+      "id": "reddit-all-in-one",
+      "source_url": "https://www.reddit.com/r/Supplements/comments/1roe9a9/what_a_properly_dosed_allinone_actually_looks_like/",
+      "source_class": "public_community",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED_AS_BUYER_TEXT",
+      "accepted_use": "Buyer skepticism about all-in-one dosing and the line: This is why people eventually simplify"
+    },
+    {
+      "id": "fools-fix-product",
+      "source_url": "https://foolsfix.com/",
+      "source_class": "official_product",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "VERIFIED",
+      "accepted_use": "Recovery-product offer language and current pack pricing"
+    },
+    {
+      "id": "fools-fix-launch",
+      "source_url": "https://www.thegrocer.co.uk/news/james-watt-unveils-fools-fix-detoxification-drink/722862.article",
+      "source_class": "trade_press",
+      "retrieval_method": "direct_http_known_url",
+      "status": "PASS_AFTER_NATIVE_405",
+      "claim_label": "VERIFIED",
+      "accepted_use": "August 25 launch reporting and recovery-brand positioning",
+      "direct_http": {
+        "http_status": 200,
+        "text_chars": 8877,
+        "expected_hit_ratio": 1.0,
+        "sha256": "7653f2ecefb2385872f98a24ca3667b279adb66db6e467466db5f4cc0435f217"
+      },
+      "jina_reader": {
+        "status": "BLOCKED",
+        "http_status": 200,
+        "blocked_marker": "security check"
+      }
+    },
+    {
+      "id": "google-genai-report",
+      "source_url": "https://support.google.com/webmasters/answer/16984139?hl=en",
+      "source_class": "official_platform_documentation",
+      "retrieval_method": "direct_http_known_url+jina_reader",
+      "status": "PASS_AFTER_NATIVE_429",
+      "claim_label": "VERIFIED",
+      "accepted_use": "Google's generative AI performance report covers AI Overviews and AI Mode impressions for a subset of site owners",
+      "direct_http": {
+        "http_status": 200,
+        "text_chars": 6789,
+        "expected_hit_ratio": 1.0,
+        "sha256": "96bd938090538ac72dd2d0c3fb97787684c270659b899d08b5dc036df3ee47d8"
+      },
+      "jina_reader": {
+        "status": "PASS",
+        "http_status": 200,
+        "text_chars": 6114,
+        "expected_hit_ratio": 1.0,
+        "sha256": "2e3b2e3263bbeed0590187eb090ef58dfa781d66534075f11a73d0f74cba91db"
+      }
+    },
+    {
+      "id": "attaboy-growth",
+      "source_url": "https://www.bevnet.com/pr/2026/08/06/attaboy-lab-continues-rapid-subscription-growth-adding-800000-in-monthly-arr-as-malar-expands-investment-ceo-joins-board",
+      "source_class": "company_press_release",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "LIKELY_COMPANY_REPORTED",
+      "accepted_use": "Company-reported subscription growth and once-daily multi-outcome positioning"
+    },
+    {
+      "id": "isagenix-within",
+      "source_url": "https://www.issuewire.com/isagenix-expands-microbiome-innovation-portfolio-with-within-a-5-in-1-daily-gut-immune-support-system-1873895632945060",
+      "source_class": "company_press_release",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "LIKELY_COMPANY_REPORTED",
+      "accepted_use": "August 18 launch and five-components-one-foundation positioning; efficacy not independently evaluated"
+    },
+    {
+      "id": "vogue-longevity",
+      "source_url": "https://www.vogue.com/article/the-execs-guide-to-longevity-tech",
+      "source_class": "editorial",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "LIKELY",
+      "accepted_use": "Longevity as consumer identity and premium status signal"
+    },
+    {
+      "id": "gpo-ai-search",
+      "source_url": "https://gpo.com/blog/august-2026-state-of-search-ai/",
+      "source_class": "agency_secondary",
+      "retrieval_method": "codex_native_web",
+      "status": "PASS",
+      "claim_label": "DIRECTIONAL",
+      "accepted_use": "Citation versus recommendation distinction; excluded from public factual claims pending primary-study review"
+    }
+  ],
+  "evidence_gate": {
+    "full_pages_opened": true,
+    "community_verbatim_checked_in_context": true,
+    "counterevidence_found": true,
+    "authoritative_claim_floor_met": true,
+    "snippets_promoted_to_verified": false,
+    "blocked_paths_executed": []
+  },
+  "value_receipt": {
+    "data_returned": "REAL",
+    "evidence_gate": "PASS",
+    "decision_supported": "PASS",
+    "artifact_produced": "PASS",
+    "downstream_use": "2026-08-28 Angle Map brief and Friday synthesis",
+    "drive_mirror": "FAILED_EXTERNAL_WRITE_APPROVAL_BOUNDARY_NO_DOC_CREATED",
+    "accepted_by_operator": "UNTESTED",
+    "used_in_work": "UNTESTED",
+    "commercial_event": "NO EVENT"
+  }
+}

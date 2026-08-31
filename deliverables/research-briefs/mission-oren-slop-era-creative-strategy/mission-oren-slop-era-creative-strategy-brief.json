@@ -232,5 +232,6 @@
       "kicker": "READ THE EDGES",
       "body": "The grade on this extraction is self-assigned and low. Sessions attached here span more than this skill, so the thread's apparent activity overstates progress on the skill itself.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }

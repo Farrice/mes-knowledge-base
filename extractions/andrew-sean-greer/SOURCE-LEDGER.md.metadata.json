@@ -1,0 +1,12 @@
+{
+  "artifact_type": "source_ledger",
+  "expert": "Andrew Sean Greer",
+  "source_url": "https://www.youtube.com/watch?v=0kkAl04_0og",
+  "source_video_id": "0kkAl04_0og",
+  "source_duration_seconds": 4358,
+  "transcript_words": 13369,
+  "evidence_states": ["VERIFIED", "OBSERVED", "INFERRED", "LIMITATION", "UNTESTED"],
+  "phase": 3,
+  "status": "complete",
+  "created_at": "2026-08-18"
+}

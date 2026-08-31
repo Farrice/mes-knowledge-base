@@ -1,3 +1,13 @@
+---
+date: 2026-07-25
+session: arsenal loop build
+name: built-not-fireable-per-workflow-minting-gap
+problem_class: harness / arsenal / unreachable assets
+domain: harness
+status: proven
+problem_signature: "hundreds of workflows and skills sit on disk with no way to invoke them and assets keep getting rebuilt because no surface can answer what do I already have for this — a checker correctly reports the drift every run and nothing ever mints the missing wrappers"
+tags: [arsenal, wrappers, minting, index, reachability, generators]
+---
 # Solution Card — Built-but-not-fireable: a generator that mints per-SKILL does not mint per-WORKFLOW
 
 **Date:** 2026-07-25 · **Domain:** system / harness · **Status:** SOLVED, physically enforced

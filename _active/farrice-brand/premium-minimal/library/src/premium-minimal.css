@@ -1,0 +1,405 @@
+/* Farrice Cain Premium Minimal — design tokens + component styles.
+   Token values are verbatim from package/tokens/design-tokens.css (approved P2-01).
+   Never introduce a colour, weight, or rule width that is not defined here. */
+
+:root {
+  --fc-canvas: #f3f3f0;
+  --fc-paper: #fafaf8;
+  --fc-ink: #101010;
+  --fc-graphite: #555553;
+  --fc-line: #d8d8d3;
+  --fc-stone: #8c8c82;
+  --fc-white: #ffffff;
+
+  --fc-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fc-weight-regular: 400;
+  --fc-weight-medium: 500;
+  --fc-weight-bold: 700;
+  --fc-tracking-display: -0.025em;
+  --fc-tracking-label: 0.16em;
+
+  --fc-space-1: 12px;
+  --fc-space-2: 18px;
+  --fc-space-3: 24px;
+  --fc-space-4: 36px;
+  --fc-space-5: 48px;
+  --fc-space-6: 72px;
+  --fc-space-7: 84px;
+  --fc-space-8: 96px;
+  --fc-space-9: 120px;
+
+  --fc-rule-hairline: 1px;
+  --fc-rule-structural: 2px;
+  --fc-route-lead: 6px;
+}
+
+/* ---------------------------------------------------------------- Surface */
+
+.fc-surface {
+  background: var(--fc-canvas);
+  box-sizing: border-box;
+  color: var(--fc-ink);
+  container-type: inline-size;
+  font-family: var(--fc-font-sans);
+  font-weight: var(--fc-weight-regular);
+  position: relative;
+  width: 100%;
+}
+
+.fc-surface--paper {
+  background: var(--fc-paper);
+}
+
+.fc-surface--ink {
+  background: var(--fc-ink);
+  color: var(--fc-paper);
+}
+
+/* Native canvases from the design contract. Padding is expressed as a
+   percentage of width so the declared safe margins hold at any render size. */
+
+.fc-surface--banner {
+  aspect-ratio: 1584 / 396;
+  padding: 3.0303%;
+}
+
+.fc-surface--cover {
+  aspect-ratio: 1920 / 1080;
+  padding: 6.25%;
+}
+
+.fc-surface--feed,
+.fc-surface--carousel {
+  aspect-ratio: 1080 / 1350;
+  padding: 8.8889% 7.7778% 10%;
+}
+
+.fc-surface--field-guide {
+  aspect-ratio: 16 / 9;
+  padding: 5.4%;
+}
+
+.fc-surface--free {
+  padding: var(--fc-space-5);
+}
+
+.fc-surface__body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ------------------------------------------------------------------- Grid */
+
+.fc-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  width: 100%;
+}
+
+.fc-grid__col {
+  min-width: 0;
+}
+
+/* -------------------------------------------------------------- Typography */
+
+.fc-display {
+  color: inherit;
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-display);
+  line-height: 1.04;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.fc-display--1 {
+  font-size: clamp(28px, 6.4cqw, 132px);
+}
+
+.fc-display--2 {
+  font-size: clamp(22px, 4.4cqw, 88px);
+}
+
+.fc-display--3 {
+  font-size: clamp(18px, 3cqw, 56px);
+  font-weight: var(--fc-weight-medium);
+}
+
+.fc-functional-label {
+  color: var(--fc-graphite);
+  display: block;
+  font-size: clamp(9px, 1.05cqw, 20px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.fc-functional-label--ink {
+  color: var(--fc-ink);
+}
+
+.fc-functional-label--stone {
+  color: var(--fc-stone);
+}
+
+.fc-functional-label--on-ink {
+  color: var(--fc-paper);
+}
+
+.fc-secondary {
+  color: var(--fc-graphite);
+  font-size: clamp(12px, 1.5cqw, 30px);
+  font-weight: var(--fc-weight-regular);
+  line-height: 1.42;
+  margin: 0;
+  max-width: 62ch;
+}
+
+.fc-secondary--on-ink {
+  color: var(--fc-line);
+}
+
+/* --------------------------------------------------------------- Masthead */
+
+.fc-masthead {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--fc-space-1) var(--fc-space-3);
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fc-masthead__identity {
+  color: var(--fc-ink);
+  font-size: clamp(10px, 1.15cqw, 22px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.fc-masthead__descriptor {
+  color: var(--fc-graphite);
+  font-size: clamp(9px, 1.05cqw, 20px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.fc-surface--ink .fc-masthead__identity {
+  color: var(--fc-paper);
+}
+
+.fc-surface--ink .fc-masthead__descriptor {
+  color: var(--fc-line);
+}
+
+/* ------------------------------------------------------------- Field index */
+
+.fc-field-index {
+  display: block;
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.fc-field-index--label {
+  color: var(--fc-graphite);
+  font-size: clamp(9px, 1.05cqw, 20px);
+}
+
+.fc-field-index--large {
+  color: var(--fc-stone);
+  font-size: clamp(32px, 7cqw, 148px);
+  letter-spacing: var(--fc-tracking-display);
+}
+
+/* ---------------------------------------------------------- Decision line */
+
+.fc-decision-line {
+  background: none;
+  border: 0;
+  border-top-color: var(--fc-line);
+  border-top-style: solid;
+  border-top-width: var(--fc-rule-hairline);
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.fc-decision-line--structural {
+  border-top-color: var(--fc-graphite);
+  border-top-width: var(--fc-rule-structural);
+}
+
+.fc-decision-line--recommendation {
+  border-top-color: var(--fc-ink);
+  border-top-width: var(--fc-route-lead);
+}
+
+.fc-surface--ink .fc-decision-line {
+  border-top-color: var(--fc-graphite);
+}
+
+.fc-surface--ink .fc-decision-line--recommendation {
+  border-top-color: var(--fc-paper);
+}
+
+/* ------------------------------------------------------------- Route set */
+
+.fc-route-set {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fc-space-3);
+  width: 100%;
+}
+
+.fc-route {
+  display: grid;
+  gap: var(--fc-space-1) var(--fc-space-3);
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.fc-route__index {
+  color: var(--fc-stone);
+  font-size: clamp(11px, 1.3cqw, 26px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+}
+
+.fc-route--recommended .fc-route__index {
+  color: var(--fc-ink);
+}
+
+.fc-route__stroke {
+  background: var(--fc-line);
+  grid-column: 1 / -1;
+  height: var(--fc-rule-hairline);
+  width: 100%;
+}
+
+.fc-route--quiet .fc-route__stroke {
+  background: var(--fc-graphite);
+  height: var(--fc-rule-structural);
+}
+
+.fc-route--recommended .fc-route__stroke {
+  background: var(--fc-ink);
+  height: var(--fc-route-lead);
+}
+
+.fc-route__label {
+  color: var(--fc-graphite);
+  font-size: clamp(12px, 1.6cqw, 32px);
+  font-weight: var(--fc-weight-medium);
+  line-height: 1.3;
+}
+
+.fc-route--recommended .fc-route__label {
+  color: var(--fc-ink);
+  font-weight: var(--fc-weight-bold);
+}
+
+.fc-route__note {
+  color: var(--fc-graphite);
+  font-size: clamp(11px, 1.25cqw, 24px);
+  grid-column: 2;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* --------------------------------------------------------- Proof boundary */
+
+.fc-proof-boundary {
+  display: grid;
+  gap: 0;
+  width: 100%;
+}
+
+.fc-proof-field {
+  border-top: var(--fc-rule-hairline) solid var(--fc-line);
+  display: flex;
+  flex-direction: column;
+  gap: var(--fc-space-1);
+  padding: var(--fc-space-2) 0;
+}
+
+.fc-proof-field:last-child {
+  border-bottom: var(--fc-rule-hairline) solid var(--fc-line);
+}
+
+.fc-proof-field__status {
+  color: var(--fc-graphite);
+  font-size: clamp(9px, 1.05cqw, 20px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.fc-proof-field--supported .fc-proof-field__status {
+  color: var(--fc-ink);
+}
+
+.fc-proof-field--outside .fc-proof-field__status {
+  color: var(--fc-stone);
+}
+
+.fc-proof-field__claim {
+  color: var(--fc-ink);
+  font-size: clamp(12px, 1.5cqw, 30px);
+  line-height: 1.36;
+  margin: 0;
+}
+
+.fc-proof-field--outside .fc-proof-field__claim {
+  color: var(--fc-graphite);
+}
+
+/* ---------------------------------------------------- Dark recommendation */
+
+.fc-dark-recommendation {
+  background: var(--fc-ink);
+  box-sizing: border-box;
+  color: var(--fc-paper);
+  display: flex;
+  flex-direction: column;
+  gap: var(--fc-space-2);
+  padding: var(--fc-space-4);
+  width: 100%;
+}
+
+.fc-dark-recommendation__eyebrow {
+  color: var(--fc-line);
+  font-size: clamp(9px, 1.05cqw, 20px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.fc-dark-recommendation__statement {
+  color: var(--fc-paper);
+  font-size: clamp(18px, 3cqw, 60px);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-display);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.fc-dark-recommendation__support {
+  color: var(--fc-line);
+  font-size: clamp(12px, 1.5cqw, 30px);
+  line-height: 1.42;
+  margin: 0;
+  max-width: 62ch;
+}

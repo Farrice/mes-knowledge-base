@@ -1,3 +1,13 @@
+---
+date: 2026-07-16
+session: kieran-flanagan second-brain extraction
+name: sparse-frames-focused-watch-zoom-midbuild-drop
+problem_class: extraction / video frames / sparse sampling
+domain: research
+status: proven
+problem_signature: "a long video extraction comes back with frames spread thin across the whole clip (the tool prints its own frame-coverage-is-sparse warning), the demo or screen-share segment gets 2-3 accidental frames, and the extraction quietly paraphrases what the speaker said about the screen instead of what the screen showed"
+tags: [extraction, video, frames, watch, screen-recording, subagent]
+---
 # Sparse Frames → Focused /watch Zoom → Mid-Build Schema Drop
 
 **Date**: 2026-07-16

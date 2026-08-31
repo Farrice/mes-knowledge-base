@@ -1,84 +1,80 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 234 sessions swept · compiled: aug 17, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 210 sessions swept · compiled: aug 30, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-Almost every live thread is one step short of contact with the outside world: the writing, the packaging and the decisions are done, and the send, the publish or the logged result is not. The board is heavy with finished documents and light on evidence that any of them worked.
+Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.
+
+Needs a decision: ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **48**
-- FILES WRITTEN: **31**
-- ASSETS GENERATED: **251**
-- SESSIONS SWEPT: **234**
+- DELIVERABLES FINALIZED: **18**
+- FILES WRITTEN: **51**
+- ASSETS GENERATED: **2**
+- SESSIONS SWEPT: **210**
 
 ## momentum
 
 
 ## where the work went
-- linkedin: 13
-- system audit: 6
-- geo content: 10
-- health performance ip library: 6
-- angle map listening engine v4 1: 6
-- first client engine: 6
-- trailer treatment: 9
-- extract forge: 21
-- 04 briefs: 6
-- 01 listing content: 9
+- listing content: 7
+- extract forge: 3
+- first 10k: 6
+- ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1: 9
+- 02 book blueprint: 6
+- go: 6
+- offer redteam: 3
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
-- [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
-- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
-- [READY] geo content — deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html
-- [ACTIVE] health performance ip library — deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html
-- [ACTIVE] angle map listening engine v4 1 — deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
-- [ACTIVE] first client engine — deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html
-- [ACTIVE] trailer treatment — deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html
+- [ACTIVE] listing content — deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html
 - [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
-- [ACTIVE] 04 briefs — deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html
-- [READY] 01 listing content — deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html
+- [ACTIVE] first 10k — deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html
+- [BUILD] ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1 — deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html
 - [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
+- [READY] 02 book blueprint — deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
+- [ACTIVE] go — deliverables/research-briefs/mission-go/mission-go-brief.html
+- [ACTIVE] offer redteam — deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html
+- [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
+- [ACTIVE] harness — deliverables/research-briefs/mission-harness/mission-harness-brief.html
+- [ACTIVE] writers room — deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html
 
 ## also shipped
-- 2026-08-13 · **end-session** — Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han
-- 2026-08-12 · **rescue-stalled-progress** — Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos for Katie and Josh (Carbon Torch)
-- 2026-08-12 · **build-transformation-program** — New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-mode nutrition) and Josh Titration Defense v3 (anchor-compres
-- 2026-08-12 · **coaching-business-os** — Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis
-- 2026-08-12 · **coaching-business-os** — Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis
-- 2026-08-12 · **coaching-business-os** — Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis
-- 2026-08-12 · **design-hypertrophy-mesocycle** — Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-position variants (Israetel selection rules), anchors kept with sta
-- 2026-08-12 · **design-hypertrophy-mesocycle** — Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 sessions (delts 3x/wk, back thickness, pullover, arms, traps, 
-- 2026-08-11 · **zero-data-discovery** — Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence
-- 2026-08-09 · **quick-concept-application** — Five radically divergent surreal poster concept directions about time, spanning typographic minimalism, cinematic simultaneity, bureaucratic satire, mythic bota
-- 2026-08-09 · **briefing-room** — Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with generated index replacement and live-route verification
-- 2026-08-09 · **briefing-room** — Selective main integration completed: preserved unrelated main-tree work, integrated only the verified Briefing Room portability repair and Jordan/GTM brief pac
+- 2026-08-29 · **landing-page** — Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones
+- 2026-08-29 · **offer-packaging** — Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har
+- 2026-08-29 · **website-wireframe-generator** — Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview
+- 2026-08-29 · **website-wireframe-generator** — Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview
+- 2026-08-29 · **watch-and-extract** — Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda
+- 2026-08-28 · **system-audit** — Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship
+- 2026-08-26 · **deep-research-os** — KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint
+- 2026-08-25 · **extract-virtuoso-mastery** — Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capab
+- 2026-08-21 · **homebase-cockpit** — Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck 
 
 ## what this board isn't
 _READ THE EDGES_
-This board sees what was written, finalized and committed. It cannot see what was sent, published, replied to or paid — so a thread reading ready may be ready on the strength of a document alone. Deliverable scores here are self-assessed at finalize time, not outcomes.
+Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.
 
-211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: teardown 1 fresh, mission, writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, deep research, daily zeitgeist brief, fantastic posters.
+227 more threads cleared the bar but sit below the 12-card ceiling and were not carded: mission, extract virtuoso mastery, landing page, offer packaging, system audit, deep research, health performance ip library, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh, global org sweep.
 
-230 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
-- `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html` — related · READY
-- `deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html` — related · READY
-- `deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
-- `deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html` — related · READY
+- `deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html` — related · BUILD
 - `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html` — related · READY
+- `deliverables/research-briefs/mission-go/mission-go-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-harness/mission-harness-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html` — related · ACTIVE

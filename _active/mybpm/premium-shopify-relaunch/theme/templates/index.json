@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "mybpm_hero": {
+      "type": "mybpm-editorial-hero",
+      "settings": {
+        "hero_product": "mybpm-sublevel-heavyweight-tee-dubstep-streetwear",
+        "image_alt": "MyBPM Sublevel heavyweight streetwear worn after dark",
+        "kicker": "DROP 001 / SUBLEVEL",
+        "heading": "THE FREQUENCY BELOW THE FLOOR.",
+        "copy": "<p>Heavyweight streetwear for the people who know what the room feels like when the bass travels through concrete.</p>",
+        "primary_label": "Shop the drop",
+        "primary_link": "shopify://collections/all",
+        "secondary_label": "Read the story",
+        "secondary_link": "shopify://pages/our-story"
+      }
+    },
+    "mybpm_manifesto": {
+      "type": "mybpm-manifesto",
+      "settings": {
+        "kicker": "WHAT WE WEAR AFTER",
+        "heading": "NOT FESTIVAL MERCH. A SIGNAL TO THE PEOPLE WHO WERE THERE.",
+        "copy": "<p>MyBPM makes clothing for the raver whose identity stays on after the wristband comes off. The references are specific, the garments carry real weight, and the design never has to shout to prove it belongs.</p>"
+      }
+    },
+    "drop_edit": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "drop_heading": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h2>THE CURRENT EDIT</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-heading--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "drop_button": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "Shop all",
+                "open_in_new_tab": false,
+                "style_class": "button-unstyled",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["drop_heading", "drop_button"]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 6,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "drop_gallery": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "4 / 5",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "drop_title": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "drop_price": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "paragraph",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "drop_swatches": {
+              "type": "swatches",
+              "name": "t:names.swatches",
+              "settings": {
+                "product_swatches_alignment": "flex-start",
+                "product_swatches_padding_top": 4,
+                "product_swatches_padding_bottom": 0,
+                "product_swatches_padding_left": 0,
+                "product_swatches_padding_right": 0
+              }
+            }
+          },
+          "block_order": ["drop_gallery", "drop_title", "drop_price", "drop_swatches"]
+        }
+      },
+      "name": "DROP 001 / Current edit",
+      "settings": {
+        "collection": "all",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 28,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 32,
+        "padding-block-start": 72,
+        "padding-block-end": 72
+      }
+    },
+    "mybpm_story": {
+      "type": "mybpm-editorial-split",
+      "settings": {
+        "focus_product": "mybpm-sublevel-heavyweight-tee-dubstep-streetwear",
+        "image_alt": "MyBPM Sublevel heavyweight tee worn in a city setting",
+        "kicker": "THE SUBLEVEL",
+        "quote": "YOU DON'T LEAVE THE CULTURE AT THE EXIT.",
+        "copy": "<p>The first premium drop starts with one garment that already clears the bar: 330 gsm cotton, a relaxed silhouette, and photography that shows how it lives beyond the venue. Every next piece has to earn its place beside it.</p>"
+      }
+    },
+    "mybpm_proof": {
+      "type": "mybpm-proof-strip",
+      "blocks": {
+        "weight": { "type": "proof", "settings": { "label": "WEIGHT", "value": "330 GSM", "body": "Heavyweight cotton with structure, not a disposable event tee." } },
+        "fit": { "type": "proof", "settings": { "label": "FIT", "value": "RELAXED", "body": "A loose unisex silhouette built for movement and everyday wear." } },
+        "signal": { "type": "proof", "settings": { "label": "SIGNAL", "value": "IF YOU KNOW", "body": "Specific cultural recognition without generic festival graphics." } }
+      },
+      "block_order": ["weight", "fit", "signal"],
+      "settings": {}
+    }
+  },
+  "order": ["mybpm_hero", "mybpm_manifesto", "drop_edit", "mybpm_story", "mybpm_proof"]
+}

@@ -1,0 +1,20 @@
+{
+  "file": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-listening-brief.md",
+  "overall_pass": true,
+  "overall_score": 100,
+  "depth": "deep",
+  "metrics": {
+    "total_urls": 15,
+    "unique_domains": 14,
+    "detected_depth": "deep",
+    "min_sources_expected": 15,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "100% (2/2)",
+    "hedge_ratio": "0.0 per 1000 words",
+    "min_domains_expected": 6,
+    "unique_source_urls": 15
+  },
+  "critical_issues": [],
+  "validated_at": "2026-08-28T12:11:32",
+  "gate": "research_quality_gate.py"
+}

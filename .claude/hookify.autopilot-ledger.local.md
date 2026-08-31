@@ -1,6 +1,6 @@
 ---
 name: autopilot-ledger-reminder
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

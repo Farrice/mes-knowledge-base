@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "Done and working — the open item is a badge, not a build.",
+  "dek": "Done and clean. Do not reopen it.",
   "window": "last 14 days",
-  "lens": "claude",
-  "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "lens": "claude · codex",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,82 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The build is finished and usable — the skill is verified and there is no functional debt. What remains is a taste verdict that only matters if the work needs a top-tier badge.\n\nHandoff status is ready. Last activity 11d ago.\n\nNext: Decide whether A-tier promotion is worth the blind recognition pass, then close this thread either way."
+      "body": "This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Mark this closed and skip the blind pack unless you personally want the tier."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Close it now, promotion declined",
+          "why": "Recommended. The skill works locally and that was the point. Costs a badge that changes nothing."
+        },
+        {
+          "action": "Run the blind judgment pack in one short sitting",
+          "why": "Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue."
+        },
+        {
+          "action": "Finish what's open",
+          "why": "Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.",
+          "command": "python3 execution/handoff_store.py resume extract-forge",
+          "touches": [
+            ".agent/handoffs/2026-08-04-extract-forge.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park extract-forge --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "extract-forge",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill extract-forge --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "extract-forge",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,13 +99,47 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "7",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "13",
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "claude · codex"
+        },
+        {
+          "value": "11",
           "label": "DAYS ACTIVE",
           "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
         }
       ]
     },
@@ -59,97 +168,40 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Finish what's open",
-          "why": "This is the only thing keeping a finished build filed as unfinished, and it is optional by the thread's own account — a minute of judgment ends it."
-        }
-      ]
-    },
-    {
-      "kind": "assets",
-      "heading": "what this thread *made*",
-      "tag": "COPY THE PATH",
-      "items": [
-        {
-          "title": "2026-08-04-extract-forge.md",
-          "role": "GUIDE",
-          "path": "guides/2026-08-04-extract-forge.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.",
-          "command": "python3 execution/handoff_store.py resume extract-forge",
-          "touches": [
-            ".agent/handoffs/2026-08-04-extract-forge.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done extract-forge --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-06",
+          "date": "2026-08-29",
           "title": "Finalized · extract-forge",
-          "body": "Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal Scout listening engine (2 new Apify actors, signal_scout.py, 229-engager live test) + Angle Brief Mon/Thu loop + Hype-vs",
+          "body": "Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, editorial design contract, carousel grammar); AGENT-INTAKE.md\nWatch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) and output grammar (frame_0106); recency 2026 source; extend-not-rebuild: added to existing v2.0 skill | Factual Grounding: 9 | Verification:",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "Finalized · extract",
-          "body": "God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timestamped patterns E1-E9 + era-bound appendix) plus delta memo vs Antigravity harness with 5 ranked adoptable moves. Watch-c",
+          "date": "2026-08-18",
+          "title": "codex session",
+          "body": "Extraction: Video Extract Forge - Build Grounded System",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Extract the AI-brain-installation-for-businesses expert OS from YouTube video nTiMbqFwv4c ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: ai-brain* family + liam-mley builder",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         },
         {
-          "date": "2026-08-06",
-          "title": "Finalized · extract",
-          "body": "God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus extension of riley-brown + delta memo with 5 ranked adoptable moves; 'god agent' = router rebrand, new organs are organizatio",
-          "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Finalized · extract-forge",
-          "body": "Kallaway — Hook Mastery (Interrupt Theory) forge extraction: skill + 10 workflows + 7 born-v2 prompts + agent expansion",
-          "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Finalized · extract-forge",
-          "body": "Scott Norton × Oren John — Brand World-Building mastery extraction (forge): 10 workflows + 10 born-v2 prompts + agent + 2 live lane deployments",
-          "done": true
-        },
-        {
-          "date": "2026-08-04",
-          "title": "Finalized · extract-forge",
-          "body": "Oren John — Slop-Era Creative Strategy mastery extraction (forge expansion, 2 fresh 2026 sources watched with frames)",
-          "done": true
-        },
-        {
-          "date": "2026-08-04",
-          "title": "Finalized · extract-forge",
-          "body": "Benoit Vatere — Full-Funnel Media Systems mastery extraction (forge)",
-          "done": true
+          "claim": "Mike Taylor extract-forge: watched-source synthetic-customer-research OS (7 mt-* wf, 3-tier grounding ladder),",
+          "evidence": "WATCHED fidelity, forge-tier skill+agent live, finalize 8.33 PASS by extraction agent",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -174,7 +226,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Most of the finalized extractions carry needs-improvement verdicts rather than keep verdicts, so the thread is complete but not demonstrably excellent. The recorded outcomes are amnesty backfills from an old reset, not real-world results, and the thread has been quiet for a while.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+  <style>
+  body { margin:0; }
+  .frame { width:1080px; height:1350px; position:relative; overflow:hidden;
+           font-family:'Figtree','Avenir Next',sans-serif; box-sizing:border-box; }
+  .light { background:#FFFFFF; color:#1E3A5F; }
+  .dark  { background:#16304F; color:#FFFFFF; }
+  .si { font-family:'Playfair Display',Georgia,serif; font-style:italic; font-weight:500; }
+  .light .si { color:#4C7CA8; }
+  .dark .si { color:#C9D4E2; }
+  .caps { font-weight:600; letter-spacing:0.24em; text-transform:uppercase; }
+  a { color:#1E3A5F; } a:hover { color:#16304F; }
+
+  /* --- v2 photography layer ------------------------------------------- */
+  .photo { position:absolute; inset:0; z-index:0; overflow:hidden; }
+  /* No global scale — framing is set per slide via inline style on the img. */
+  .photo > img { width:100%; height:100%; object-fit:cover; display:block;
+                 transform-origin:center; }
+  .tint  { position:absolute; inset:0; background:#16304F; mix-blend-mode:multiply; }
+  .lift  { position:absolute; inset:0; background:#C9D7E8; mix-blend-mode:screen; }
+  .scrim { position:absolute; inset:0; }
+  /* duotone: desaturate hard, then push through navy — rich, not pale */
+  .duo > img { filter:grayscale(1) contrast(1.14) brightness(0.86); }
+  .duo .tint { opacity:0.92; }
+  .duo .lift { opacity:0.10; }
+  /* colour bleed: hold the photo, darken enough for type to sit on it everywhere */
+  .bleed > img { filter:saturate(0.72) contrast(1.06) brightness(0.94); }
+  .bleed .scrim { background:linear-gradient(180deg,
+        rgba(9,20,34,0.62) 0%, rgba(9,20,34,0.48) 26%,
+        rgba(9,20,34,0.66) 60%, rgba(9,20,34,0.92) 100%); }
+  .bleed .tint { background:#16304F; opacity:0.42; }
+</style>
+</helmet>
+<div class="frame light">
+<div style="position:relative; z-index:1; display:flex; flex-direction:column; height:100%; box-sizing:border-box; padding:64px 72px; justify-content:space-between;"><div style="display:flex; justify-content:space-between; align-items:baseline; padding-bottom:22px; border-bottom:1px solid #DCE2EA;"><div class="caps" style="font-size:21px;">@_JIING</div><div class="caps" style="font-size:21px; opacity:0.75;">FIRST-TIME BUYER FILE</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="caps" style="font-size:23px; color:#5A6B80;">FREE · ONE PAGE · NO SIGNUP SPEECH</div><div style="font-size:84px; line-height:1.12; font-weight:600; letter-spacing:-0.02em;">the honest SFV<br>first-home<br><span class="si">math sheet</span></div><div><div style="display:flex; gap:24px; padding:26px 0; border-top:1px solid #DCE2EA; align-items:baseline;"><div class="si" style="font-size:34px; color:#5A6B80;">01</div><div style="font-size:36px; font-weight:500; line-height:1.3;">the rent-vs-buy math, side by side, honestly</div></div><div style="display:flex; gap:24px; padding:26px 0; border-top:1px solid #DCE2EA; align-items:baseline;"><div class="si" style="font-size:34px; color:#5A6B80;">02</div><div style="font-size:36px; font-weight:500; line-height:1.3;">the income that actually qualifies you</div></div><div style="display:flex; gap:24px; padding:26px 0; border-top:1px solid #DCE2EA; align-items:baseline;"><div class="si" style="font-size:34px; color:#5A6B80;">03</div><div style="font-size:36px; font-weight:500; line-height:1.3;">the 2026 program menu — open AND closed</div></div><div style="display:flex; gap:24px; padding:26px 0; border-top:1px solid #DCE2EA; align-items:baseline;"><div class="si" style="font-size:34px; color:#5A6B80;">04</div><div style="font-size:36px; font-weight:500; line-height:1.3;">the three readiness questions</div></div></div><div style="align-self:flex-start; background:#1E3A5F; color:#FFFFFF; padding:26px 42px; font-size:34px; font-weight:600; letter-spacing:0.02em;">DM me <span class="si" style="color:#FFFFFF">“MATH”</span></div></div><div style="display:flex; justify-content:space-between; align-items:center;"><div class="caps" style="font-size:17px; color:#5A6B80;">NUMBERS VERIFIED THE DAY WE RUN YOURS · AUG 2026</div><svg width="190" viewBox="0 0 640 240" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M96 118 L320 34 L544 118" stroke="#1E3A5F" stroke-width="14" stroke-linecap="square" fill="none"/><rect x="150" y="58" width="34" height="46" fill="#1E3A5F"/><text x="320" y="184" text-anchor="middle" font-family="Figtree,Avenir Next,sans-serif" font-size="64" letter-spacing="1"><tspan fill="#1E3A5F" font-weight="300">HOUSE</tspan><tspan fill="#1E3A5F" font-weight="700">SELLERS</tspan></text><text x="320" y="218" text-anchor="middle" font-family="Figtree,Avenir Next,sans-serif" font-size="19" letter-spacing="7" fill="#1E3A5F" opacity="0.85">MYHOUSESELLERS.COM</text></svg></div></div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -132,6 +132,11 @@
     background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
   .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
   .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
   .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
     white-space:pre-wrap; word-break:break-word }
 
@@ -266,29 +271,38 @@
   }
   @media print{
     .brief-nav{ position:static }
-    .copybtn{ display:none }
+    .copybtn, .livebtn{ display:none }
     section.blk, .decision{ break-inside:avoid-page }
   }
 </style>
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#where-this-stands">where this stands</a><a href="#by-the-numbers">by the numbers</a><a href="#lifecycle">lifecycle</a><a href="#what-needs-you">what needs you</a><a href="#what-this-thread-made">what this thread made</a><a href="#pick-it-back-up">pick it back up</a><a href="#how-it-got-here">how it got here</a><a href="#what-this-isn-t">what this isn&#x27;t</a><span class="navtools"></span></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#where-this-stands">where this stands</a><a href="#the-state-as-the-last-session-left-it">the state, as the last session left it</a><a href="#resume-park-kill">resume · park · kill</a><a href="#pick-it-up-anywhere">pick it up anywhere</a><a href="#lifecycle">lifecycle</a><a href="#what-this-thread-made">what this thread made</a><a href="#the-record">the record</a><a href="#what-this-isn-t">what this isn&#x27;t</a><span class="navtools"></span></div></nav>
 
 <div class="wrap">
   <header>
     <span class="chip">MISSION · THREAD</span>
     <h1 class="display">LinkedIn About <em>rebuild</em></h1>
-    <p class="dek">Good About takes exist and nobody chose one.</p>
+    <p class="dek">Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.</p>
     <div class="trust">
       <div><span class="k">Window</span><span class="v">last 14 days</span></div>
       <div><span class="k">Lens</span><span class="v">claude</span></div>
       <div><span class="k">Sources</span><span class="v">0 sessions · 0 files · 0 assets</span></div>
-      <div><span class="k">Compiled</span><span class="v">aug 10, 2026</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 30, 2026</span></div>
     </div>
   </header>
 
-  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>The profile-copy rebuild landed with distinct takes and a ruling on architecture, then the thread went quiet. Its handoff still reads active even though nothing has touched it since.</p><p>Handoff status is active. Last activity 13d ago.</p><p>Next: Choose one take and ship it, or park the thread.</p></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">by the numbers</h2><span class="sectag">LAST 14 DAYS</span></div><div class="stats"><div class="stat"><div class="num">1</div><span class="lab">DELIVERABLES FINALIZED</span></div><div class="stat"><div class="num">13<small> d</small></div><span class="lab">DAYS ACTIVE</span></div></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">03</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="decision" id="what-needs-you"><span class="kicker">OPEN</span><h2>what needs <em>you</em></h2><p class="dek">Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Decide: resume or park</h3><p>An active handoff with no movement quietly holds a decision open; parking costs nothing and stops it reading as live work.</p></div></div></div></section><section class="blk" id="what-this-thread-made"><div class="sechead"><span class="secnum">05</span><h2 class="sec">what this thread <em>made</em></h2><span class="sectag">COPY THE PATH</span></div><div class="assetgrid"><div class="asset"><span class="role">SOLUTION</span><h3>2026-07-28-writers-room-pen-protocol.md</h3></div></div></section><section class="blk" id="pick-it-back-up"><div class="sechead"><span class="secnum">06</span><h2 class="sec">pick it back <em>up</em></h2><span class="sectag">RUN THIS</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Resume here</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1-&gt;1.2</p><pre>python3 execution/handoff_store.py resume writers-room</pre><div class="receipt"><b>receipt</b>The stored handoff prints with drift since it was written.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Close the mission</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Mark it done or park it with a reason.</p><pre>python3 execution/pulse_actions.py done writers-room --outcome &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>It leaves the open set on the next pulse regen.</div></div></div></section><section class="blk" id="how-it-got-here"><div class="sechead"><span class="secnum">07</span><h2 class="sec">how it got <em>here</em></h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-07-28</span><h3>Finalized · writers-room</h3><p>LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 fel</p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>The takes were classifier-clean and grounded in buyer language, but no felt verdict picking a winner is on record and nothing was published — done here is a producer&#x27;s claim, not a result.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
+  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>Stage: outcome — an outcome was recorded against it. In the last 14 days: no recorded activity.</p><p>Handoff status is active.</p><p>Next: Resume the `writers-room` work-stream — see the deliverable above.</p><p>_Auto-pinned by chain_runner.finalize (writers-room)._</p></div></section><section class="blk" id="the-state-as-the-last-session-left-it"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the state, as the last session <em>left</em> it</h2></div><p>Handoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.</p><p>Do not rebuild:
+(auto-scaffolded — the store adds this when a handoff omits it)</p><p>- Previous handoff on this thread: `.agent/handoffs/2026-07-27-writers-room.md` — everything it lists as shipped is EXTEND-ONLY.</p><p>- Before building anything named above: `/arsenal &lt;task&gt;` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.</p></section><section class="blk" id="resume-park-kill"><div class="sechead"><span class="secnum">03</span><h2 class="sec">resume · park · <em>kill</em></h2><span class="sectag">DECIDE + RUN</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Resume here</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1-&gt;1.2</p><pre>python3 execution/handoff_store.py resume writers-room</pre><div class="receipt"><b>receipt</b>The stored handoff prints with drift since it was written.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Park it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Shelve deliberately — resumable, muted, never urgent.</p><pre>python3 execution/pulse_actions.py park writers-room --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Handoff annotated parked; drops out of needs-you.</div></div></div><div class="play"><div class="head"><span class="n">03</span><h3>Kill it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.</p><pre>python3 execution/pulse_actions.py kill writers-room --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Ledger line `killed` + handoff archived.</div></div></div></section><section class="blk" id="pick-it-up-anywhere"><div class="sechead"><span class="secnum">04</span><h2 class="sec">pick it up <em>anywhere</em></h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">CONTEXT PACK — paste into any session</span><button class="copybtn" type="button">copy</button></div><pre>THREAD: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1-&gt;1.2
+SLUG: writers-room
+STATUS: active · STAGE: outcome
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-writers-room.md
+
+RESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1-&gt;1.2
+
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)</pre></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">05</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="blk" id="what-this-thread-made"><div class="sechead"><span class="secnum">06</span><h2 class="sec">what this thread <em>made</em></h2><span class="sectag">COPY THE PATH</span></div><div class="assetgrid"><div class="asset"><span class="role">SOLUTION</span><h3>2026-07-28-writers-room-pen-protocol.md</h3></div></div></section><section class="blk" id="the-record"><div class="sechead"><span class="secnum">07</span><h2 class="sec">the <em>record</em></h2><span class="sectag">HOW IT ENDED</span></div><div class="ev"><span class="mark">✓</span><div><h3>Platform Narrative Temperature layer (research-&gt;card-&gt;wire) + writers-room pass on v2 + I-</h3><p>TRIAGE 2026-07-29 (Farrice: execute all): shipped: Platform Narrative Card + /platform-pulse</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">missions.jsonl · done</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Platform Narrative Temperature layer + writers-room pass + I-arc fold</h3><p>PLATFORM-NARRATIVE-CARD v1.0 live + wired into wf12; I-arc now structural (wf12 Phase 2.5 + prompt + treatment); writers-room: ship-with-patches, 4 proposed for felt verdict</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">missions.jsonl · done</span></div></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>The narrative sections above come from this thread&#x27;s own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.</p><p>The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY · MISSION SWEEP</span>
@@ -335,6 +349,32 @@
       var host=btn.closest('.deploy, .play, .asset');
       var pre=host && host.querySelector('pre');
       if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
     });
   });
 

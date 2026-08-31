@@ -41,6 +41,13 @@ SELF_STORY_MARKERS = [
     "my doctor", "as a", "i work", "i tried", "i used to", "before this", "after ",
     "years of", "months of", "i'm a ", "i am a ",
 ]
+TRIGGER_EVENT_MARKERS = [
+    "the moment", "the day", "one night", "that night", "that morning",
+    "when i", "when my", "after i", "after my", "until i", "until my",
+    "woke up", "at 2", "at 3", "couldn't", "could not", "wouldn't",
+    "would not", "finally", "enough was enough", "realized", "noticed",
+    "stopped", "started", "refused", "starving", "bleeding", "crying",
+]
 SPECIFICITY_RE = re.compile(r"\b\d+[\d,.]*\s*(?:lbs?|pounds?|kg|days?|weeks?|months?|years?|minutes?|hours?|%|x|times?|inches?|sizes?)\b", re.I)
 NUMBER_RE = re.compile(r"\b\d+\b")
 
@@ -94,6 +101,35 @@ def score_nugget(text):
     return max(0, min(100, score)), reasons
 
 
+def score_trigger_event(text):
+    """Heuristic pre-pass for an exact moment when a problem became intolerable.
+
+    This deliberately returns candidates, not truth. A human/model must verify
+    that the quote contains a concrete problem transition before using it.
+    """
+    t = text.lower()
+    nugget_score, nugget_reasons = score_nugget(text)
+    score = 0
+    reasons = []
+    markers = [marker for marker in TRIGGER_EVENT_MARKERS if marker in t]
+    if markers:
+        score += min(35, 12 + len(markers) * 7)
+        reasons.append("moment/inflection marker: " + ", ".join(markers[:3]))
+    if any(marker in t for marker in SELF_STORY_MARKERS):
+        score += 20
+        reasons.append("first-person situation")
+    if SPECIFICITY_RE.search(text) or re.search(r"\b\d{1,2}:\d{2}\b", text):
+        score += 20
+        reasons.append("specific time/quantity")
+    if any(word in t for word in ("pain", "itch", "chew", "sleep", "eat", "work", "walk", "doctor", "vet", "embarrass", "scared", "worried")):
+        score += 15
+        reasons.append("problem consequence")
+    if nugget_score >= 50:
+        score += 10
+        reasons.append("emotion/specificity support")
+    return max(0, min(100, score)), reasons or nugget_reasons[:1]
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("csv_path")
@@ -143,7 +179,8 @@ def main():
 
     # Nugget candidates
     cands = []
-    for r in rows:
+    trigger_cands = []
+    for row_number, r in enumerate(rows, start=2):
         text = (r.get(tcol) or "").strip()
         if not text:
             continue
@@ -158,6 +195,11 @@ def main():
             prod = (r.get(pcol) or "").strip() if pcol else ""
             rating = (str(r.get(rcol, "")).strip() if rcol else "")
             cands.append((sc, text, reasons, prod, rating))
+        trigger_score, trigger_reasons = score_trigger_event(text)
+        if trigger_score >= 45:
+            prod = (r.get(pcol) or "").strip() if pcol else ""
+            rating = (str(r.get(rcol, "")).strip() if rcol else "")
+            trigger_cands.append((trigger_score, text, trigger_reasons, prod, rating, row_number))
     cands.sort(key=lambda x: -x[0])
     cands = cands[: args.top]
 
@@ -172,6 +214,25 @@ def main():
         meta = " · ".join(x for x in (prod, f"{rating}★" if rating else "") if x)
         nug_md.append(f"- **[{sc}]** \"{one}\"" + (f"  \n  _{meta}_" if meta else "") + f"  \n  _why: {', '.join(reasons)}_")
     (out / "nugget-candidates.md").write_text("\n".join(nug_md) + "\n")
+
+    trigger_cands.sort(key=lambda x: -x[0])
+    trigger_cands = trigger_cands[: args.top]
+    trigger_md = [
+        "# Trigger-Event CANDIDATES (heuristic pre-pass — verification required)\n",
+        "A trigger event is a concrete moment when the problem became intolerable. "
+        "These rows are candidates, not invented stories or approved ad claims.\n",
+    ]
+    for sc, text, reasons, prod, rating, row_number in trigger_cands:
+        one = " ".join(text.split())
+        if len(one) > 500:
+            one = one[:497] + "..."
+        meta = " · ".join(x for x in (prod, f"{rating}★" if rating else "", f"CSV row {row_number}") if x)
+        trigger_md.append(
+            f"- **[{sc}]** \"{one}\"  \n"
+            f"  _{meta}_  \n"
+            f"  _why surfaced: {', '.join(reasons)}_"
+        )
+    (out / "trigger-event-candidates.md").write_text("\n".join(trigger_md) + "\n")
 
     # Corpus stats
     lens = [len((r.get(tcol) or "").split()) for r in rows]
@@ -195,7 +256,8 @@ def main():
     (out / "corpus-stats.md").write_text("\n".join(stats_md) + "\n")
 
     pack = "\n\n---\n\n".join(
-        (out / n).read_text() for n in ("corpus-stats.md", "product-ranking.md", "nugget-candidates.md")
+        (out / n).read_text()
+        for n in ("corpus-stats.md", "product-ranking.md", "nugget-candidates.md", "trigger-event-candidates.md")
     )
     (out / "analysis-pack.md").write_text(
         "# Review Mining Pre-Pass (deterministic)\n\n"
@@ -203,7 +265,11 @@ def main():
         "(see skills/dara-denney-meta-ads/workflows/20-review-mining.md).\n\n" + pack
     )
 
-    print(f"review_miner: {len(rows)} reviews -> {out}/ (product-ranking, nugget-candidates x{len(cands)}, corpus-stats, analysis-pack)")
+    print(
+        f"review_miner: {len(rows)} reviews -> {out}/ "
+        f"(product-ranking, nugget-candidates x{len(cands)}, "
+        f"trigger-event-candidates x{len(trigger_cands)}, corpus-stats, analysis-pack)"
+    )
 
 
 if __name__ == "__main__":

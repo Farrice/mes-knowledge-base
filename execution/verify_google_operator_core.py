@@ -7,6 +7,7 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -320,6 +321,43 @@ def check_hook_parity() -> list[str]:
     return receipts
 
 
+def check_integration_only_main() -> list[str]:
+    """A fresh main checkout must route writers to a lane even with no sibling."""
+    receipts: list[str] = []
+    hook = ROOT / "execution" / "hooks" / "concurrent_session_alarm.py"
+    with tempfile.TemporaryDirectory(prefix="antigravity-integration-main-") as tmp:
+        temp_root = Path(tmp)
+        init = subprocess.run(
+            ["git", "init", "-q", str(temp_root)], text=True, capture_output=True
+        )
+        if init.returncode != 0:
+            fail(f"temporary git init failed: {init.stderr.strip()}")
+        for source in ("startup", "resume"):
+            payload = json.dumps(
+                {
+                    "session_id": f"verify-integration-main-{source}",
+                    "source": source,
+                    "cwd": str(temp_root),
+                }
+            )
+            proc = subprocess.run(
+                [sys.executable, str(hook)],
+                cwd=temp_root,
+                text=True,
+                capture_output=True,
+                input=payload,
+            )
+            if proc.returncode != 0:
+                fail(f"integration-only hook failed ({source}): {proc.stderr.strip()}")
+            if "AUTO-LANE" not in proc.stdout or "integration-only" not in proc.stdout:
+                fail(
+                    f"fresh main did not route {source} session to a lane: "
+                    f"{proc.stdout.strip() or '<no output>'}"
+                )
+        receipts.append("fresh and resumed main sessions route writers to AUTO-LANE")
+    return receipts
+
+
 def check_preflight_schema() -> dict[str, Any]:
     proc = run(
         [
@@ -604,6 +642,7 @@ def main() -> int:
         ("router_probes", check_router_probes),
         ("routing_enforcer", check_routing_enforcer),
         ("hook_parity", check_hook_parity),
+        ("integration_only_main", check_integration_only_main),
         ("preflight_schema", check_preflight_schema),
         ("storage_recovery_routing", check_storage_recovery_routing),
         ("risk_constraint_parsing", check_risk_constraint_parsing),

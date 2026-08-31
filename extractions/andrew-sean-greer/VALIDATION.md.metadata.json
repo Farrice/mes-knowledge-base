@@ -1,0 +1,16 @@
+{
+  "artifact_type": "validation_receipt",
+  "checkpoint": "architecture",
+  "expert": "Andrew Sean Greer",
+  "artifact_verdict": "PASS",
+  "deployment_verdict": "NOT_AUTHORIZED",
+  "source_ledger_sections": 22,
+  "genius_patterns": 18,
+  "hidden_knowledge_items": 12,
+  "proposed_workflows": 12,
+  "proposed_practitioner_prompts": 7,
+  "cold_start": "NO_EVENT",
+  "unlike_domain_proof": "NO_EVENT",
+  "negative_controls": "NO_EVENT",
+  "created_at": "2026-08-18"
+}

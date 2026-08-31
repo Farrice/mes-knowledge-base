@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "234 sessions swept",
-  "compiled": "aug 17, 2026",
+  "sources": "210 sessions swept",
+  "compiled": "aug 30, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "Almost every live thread is one step short of contact with the outside world: the writing, the packaging and the decisions are done, and the send, the publish or the logged result is not. The board is heavy with finished documents and light on evidence that any of them worked.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.\n\nNeeds a decision: ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "48",
+          "value": "18",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "31",
+          "value": "51",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "251",
+          "value": "2",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "234",
+          "value": "210",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,21 +53,21 @@
           "label": "sessions",
           "values": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            3,
             2,
+            3,
             0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            2,
+            2,
+            1,
             0,
             0
           ],
-          "value": "5",
+          "value": "13",
           "note": "per day"
         },
         {
@@ -80,36 +80,15 @@
             0,
             0,
             0,
-            6,
+            0,
+            8,
+            0,
+            1,
             3,
             1,
-            4,
-            0,
-            1,
-            5
-          ],
-          "value": "20",
-          "note": "per day"
-        },
-        {
-          "label": "assets",
-          "values": [
-            0,
-            0,
-            0,
-            1,
-            4,
-            1,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
             0
           ],
-          "value": "9",
+          "value": "13",
           "note": "per day"
         }
       ],
@@ -121,63 +100,45 @@
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
         {
-          "label": "linkedin",
+          "label": "listing content",
           "values": [
-            13
-          ]
-        },
-        {
-          "label": "system audit",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "geo content",
-          "values": [
-            10
-          ]
-        },
-        {
-          "label": "health performance ip library",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "angle map listening engine v4 1",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "first client engine",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "trailer treatment",
-          "values": [
-            9
+            7
           ]
         },
         {
           "label": "extract forge",
           "values": [
-            21
+            3
           ]
         },
         {
-          "label": "04 briefs",
+          "label": "first 10k",
           "values": [
             6
           ]
         },
         {
-          "label": "01 listing content",
+          "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
           "values": [
             9
+          ]
+        },
+        {
+          "label": "02 book blueprint",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "go",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "offer redteam",
+          "values": [
+            3
           ]
         }
       ]
@@ -188,44 +149,14 @@
       "tag": "OPEN ONE",
       "links": [
         {
-          "k": "ACTIVE",
-          "title": "linkedin",
-          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "geo content",
-          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "health performance ip library",
-          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "angle map listening engine v4 1",
-          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
-        },
-        {
           "k": "READY",
           "title": "proof to market",
           "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "first client engine",
-          "path": "deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "trailer treatment",
-          "path": "deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html"
+          "title": "listing content",
+          "path": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html"
         },
         {
           "k": "READY",
@@ -234,18 +165,48 @@
         },
         {
           "k": "ACTIVE",
-          "title": "04 briefs",
-          "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html"
+          "title": "first 10k",
+          "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html"
         },
         {
-          "k": "READY",
-          "title": "01 listing content",
-          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
+          "k": "BUILD",
+          "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
+          "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
         },
         {
           "k": "ACTIVE",
           "title": "execution",
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "02 book blueprint",
+          "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "go",
+          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "offer redteam",
+          "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "linkedin",
+          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "harness",
+          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
         }
       ]
     },
@@ -255,75 +216,57 @@
       "tag": "NO LIVE THREAD",
       "items": [
         {
-          "date": "2026-08-13",
-          "title": "end-session",
-          "body": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
+          "date": "2026-08-29",
+          "title": "landing-page",
+          "body": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "rescue-stalled-progress",
-          "body": "Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos for Katie and Josh (Carbon Torch)",
+          "date": "2026-08-29",
+          "title": "offer-packaging",
+          "body": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "build-transformation-program",
-          "body": "New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-mode nutrition) and Josh Titration Defense v3 (anchor-compres",
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "date": "2026-08-29",
+          "title": "watch-and-extract",
+          "body": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "date": "2026-08-28",
+          "title": "system-audit",
+          "body": "Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "design-hypertrophy-mesocycle",
-          "body": "Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-position variants (Israetel selection rules), anchors kept with sta",
+          "date": "2026-08-26",
+          "title": "deep-research-os",
+          "body": "KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint",
           "done": true
         },
         {
-          "date": "2026-08-12",
-          "title": "design-hypertrophy-mesocycle",
-          "body": "Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 sessions (delts 3x/wk, back thickness, pullover, arms, traps, ",
+          "date": "2026-08-25",
+          "title": "extract-virtuoso-mastery",
+          "body": "Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capab",
           "done": true
         },
         {
-          "date": "2026-08-11",
-          "title": "zero-data-discovery",
-          "body": "Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence",
-          "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "quick-concept-application",
-          "body": "Five radically divergent surreal poster concept directions about time, spanning typographic minimalism, cinematic simultaneity, bureaucratic satire, mythic bota",
-          "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "briefing-room",
-          "body": "Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with generated index replacement and live-route verification",
-          "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "briefing-room",
-          "body": "Selective main integration completed: preserved unrelated main-tree work, integrated only the verified Briefing Room portability repair and Jordan/GTM brief pac",
+          "date": "2026-08-21",
+          "title": "homebase-cockpit",
+          "body": "Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck ",
           "done": true
         }
       ]
@@ -332,7 +275,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board sees what was written, finalized and committed. It cannot see what was sent, published, replied to or paid — so a thread reading ready may be ready on the strength of a document alone. Deliverable scores here are self-assessed at finalize time, not outcomes.\n\n211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: teardown 1 fresh, mission, writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, deep research, daily zeitgeist brief, fantastic posters.\n\n230 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n227 more threads cleared the bar but sit below the 12-card ceiling and were not carded: mission, extract virtuoso mastery, landing page, offer packaging, system audit, deep research, health performance ip library, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh, global org sweep.\n\n243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

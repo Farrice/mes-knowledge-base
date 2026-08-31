@@ -1,0 +1,38 @@
+{
+  "brand": "Night Signal",
+  "product": "Afterhours Tee",
+  "platform": "Shopify",
+  "theme": "Horizon, version not supplied",
+  "current_pdp": "Four flat-lay images, title, price, size dropdown, add-to-cart, generic description.",
+  "verified_product_facts": {
+    "price_usd": 48,
+    "colors": ["Black", "Bone"],
+    "sizes": ["S", "M", "L", "XL"],
+    "care": "Machine wash cold; hang dry"
+  },
+  "missing_product_facts": [
+    "fabric composition",
+    "fabric weight",
+    "fit classification",
+    "garment measurements",
+    "model height and worn size",
+    "country of origin"
+  ],
+  "customer_questions": [
+    {"question": "Is it oversized or true to size?", "count": 17},
+    {"question": "How long is the body?", "count": 12},
+    {"question": "Does the print crack after washing?", "count": 8},
+    {"question": "When will Bone restock?", "count": 6}
+  ],
+  "return_reasons": [
+    {"reason": "Too short", "count": 9},
+    {"reason": "Expected heavier fabric", "count": 7}
+  ],
+  "policies": {
+    "shipping": "Not supplied",
+    "returns": "Not supplied"
+  },
+  "voice_samples": [],
+  "reference_pdps": [],
+  "connector_write_permission": "NO PERMISSION"
+}

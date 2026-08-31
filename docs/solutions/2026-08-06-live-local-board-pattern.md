@@ -1,3 +1,13 @@
+---
+date: 2026-08-06
+session: pulse board build
+name: live-local-board-pattern
+problem_class: infra / dashboards / static board cannot act
+domain: infra
+status: proven
+problem_signature: "a generated dashboard can show state but no button on it can change anything — a file:// page has no server to write to, and once it is served over http the browser blocks its links to sibling file:// surfaces — so boards decay into lists nobody feels any association with"
+tags: [dashboard, pulse, http-server, cli-writers, board, stdlib]
+---
 # Solution Card — the Live Local Board pattern (static HTML that can act)
 
 **Problem**: a static `file://` dashboard can show state but can't change it — buttons can't write to logs (no server), and once served over http, the browser blocks its `file://` links to sibling surfaces. Result: boards decay into "lists I have no association with" (Farrice, 2026-08-06).

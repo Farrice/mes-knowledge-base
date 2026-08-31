@@ -1,3 +1,13 @@
+---
+date: 2026-07-27
+session: COS reminders build
+name: dated-promise-needs-deterministic-tickler
+problem_class: harness / reminders / dated promise
+domain: harness
+status: proven
+problem_signature: "a promise or follow-up tied to a specific future date gets written as a prose note in a living doc, so it only surfaces if some future session happens to read that section on the right morning — you might forget"
+tags: [reminders, tickler, cos, observability, brief, one-shot]
+---
 # Solution Card — A dated promise needs a tickler, not a note in a living doc
 
 **Date:** 2026-07-27

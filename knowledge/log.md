@@ -781,3 +781,47 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-16 10:09]` **finalize** | Angle Map Listening Brief 2026-08-16 (Sunday, education chapter): the second price — entering club/m | general | Oren Operational Systems — composite:6.67 status:Needs Improvement
 - `[2026-08-17 00:50]` **finalize** | Preservation-first Mac recovery control package, exact duplicate and worktree manifests, Drive recei | strategy | system-audit — composite:7.0 status:Needs Improvement
 - `[2026-08-17 16:12]` **lint** | Lint scan — 92 issues (50 errors, 30 warnings) — Files scanned: 1138
+- `[2026-08-18 10:09]` **finalize** | Andrew Sean Greer Deep Extraction and skill-system Architecture checkpoint | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
+- `[2026-08-18 10:10]` **finalize** | Andrew Sean Greer Deep Extraction and skill-system Architecture checkpoint, validated revision | general | andrew-sean-greer — composite:7.8 status:Keep
+- `[2026-08-18 10:30]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
+- `[2026-08-18 10:31]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:8.0 status:Keep
+- `[2026-08-20 21:35]` **finalize** | Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent  | general | readout-os — composite:7.0 status:Needs Improvement
+- `[2026-08-21 10:25]` **finalize** | Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-bra | general | none — composite:7.0 status:Needs Improvement
+- `[2026-08-21 11:19]` **finalize** | Second-brain full install: harvested Kieran Flanagan sequel video, proved dormancy root cause (docum | general | none — composite:7.0 status:Needs Improvement
+- `[2026-08-23 07:59]` **lint** | Lint scan — 67 issues (24 errors, 31 warnings) — Files scanned: 1150
+- `[2026-08-23 07:59]` **compile** | Full compilation — 1150 files, 3,652,525 words, 67 lint issues
+- `[2026-08-23 09:09]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.0 status:Needs Improvement
+- `[2026-08-23 09:10]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.9 status:Keep
+- `[2026-08-24 10:15]` **finalize** | Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-da | general | sean-dollwet — composite:7.0 status:Needs Improvement
+- `[2026-08-24 10:16]` **finalize** | Research-backed decision brief for Farrice's first ebook: select two candidate books, choose one Boo | general | sean-dollwet — composite:8.33 status:Keep
+- `[2026-08-24 12:12]` **finalize** | Chrome CoAuthor analytics rerun that corrected Book One from Hybrid Athlete After 40 to a civilian M | general | sean-dollwet — composite:8.67 status:Keep
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:7.33 status:Needs Improvement
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:8.67 status:Keep
+- `[2026-08-24 15:26]` **finalize** | Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-r | content | mike-sherrard + enrico-incarnati + cardinal-mason + jen-listing-engine — composite:8.33 status:Keep
+- `[2026-08-24 21:23]` **finalize** | Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged v | general | kashef-wargame + hormozi/fladlien-frame — composite:9.0 status:Keep
+- `[2026-08-25 18:07]` **finalize** | Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI  | brand | extract-mastery + mike-sherrard — composite:8.67 status:Keep
+- `[2026-08-25 20:25]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:7.0 status:Needs Improvement
+- `[2026-08-25 20:26]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:8.0 status:Keep
+- `[2026-08-24 20:54]` **finalize** | Jun Yuh — connected storytelling skill-system expansion | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-08-25 15:32]` **finalize** | Hardened the connected Jun Story Engine with one authorized live-field packet, a three-asset commerc | general | Jun Yuh Creator Vision — composite:7.0 status:Needs Improvement
+- `[2026-08-26 00:54]` **finalize** | KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterev | research | deep-research-os — composite:6.33 status:Needs Improvement
+- `[2026-08-26 00:57]` **finalize** | KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterev | research | deep-research-os — composite:7.0 status:Needs Improvement
+- `[2026-08-26 09:49]` **finalize** | Evidence-backed architecture verdict on the missing mastery-transfer and surpassing proof spine acro | general | MES 3.0 with Source-to-Skill System — composite:9.0 status:Keep
+- `[2026-08-11 21:04]` **finalize** | Notion Second Brain end-to-end reliability live smoke | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-08-28 12:11]` **finalize** | 2026-08-28 Angle Map Listening Brief, source receipt, Friday synthesis, flagship post, and finished  | general | Oren Operational Systems — composite:7.0 status:Needs Improvement
+- `[2026-08-28 16:03]` **finalize** | Angle Map Brief Repair Plan: creative-director format, four-artifact architecture, implementation ph | general | Ciel Strategic Intelligence — composite:7.7 status:Keep
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-08-29 06:14]` **finalize** | Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, | general | enrico-incarnati — composite:6.0 status:Needs Improvement
+- `[2026-08-29 06:43]` **finalize** | Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objecti | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:7.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:9.0 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 08:14]` **finalize** | Coach Cooz homepage conversion copy v2 and Squarespace implementation specification | copywriting | stefan-georgi-dopamine-copy — composite:8.0 status:Keep
+- `[2026-08-29 08:18]` **finalize** | Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-deman | brand | mike-sherrard — composite:6.0 status:Needs Improvement
+- `[2026-08-29 09:16]` **finalize** | Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps name | general | jay-sun-films — composite:5.67 status:Needs Improvement
+- `[2026-08-29 09:34]` **finalize** | Acusio Bivona premium local website pre-rewrite copy brief | general | luke-iha-avatar-machine — composite:8.0 status:Keep
+- `[2026-08-29 12:18]` **finalize** | Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG po | brand | farrice-brand — composite:6.0 status:Needs Improvement
+- `[2026-08-30 05:00]` **lint** | Lint scan — 70 issues (24 errors, 34 warnings) — Files scanned: 1205
+- `[2026-08-30 05:00]` **compile** | Full compilation — 1205 files, 3,780,688 words, 70 lint issues

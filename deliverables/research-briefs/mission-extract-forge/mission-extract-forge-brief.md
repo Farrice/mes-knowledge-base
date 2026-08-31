@@ -1,52 +1,120 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 30, 2026
 
-Done and working — the open item is a badge, not a build.
+Done and clean. Do not reopen it.
 
 ## where this stands
 _CURRENT POSITION_
-The build is finished and usable — the skill is verified and there is no functional debt. What remains is a taste verdict that only matters if the work needs a top-tier badge.
+This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.
 
-Handoff status is ready. Last activity 11d ago.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Next: Decide whether A-tier promotion is worth the blind recognition pass, then close this thread either way.
+Handoff status is ready. Last activity 1d ago.
 
-## by the numbers
-- DELIVERABLES FINALIZED: **7**
-- DAYS ACTIVE: **13 d**
+Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
-## lifecycle
+## the state, as the last session left it
+Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.
 
+Completed: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.
+
+Remaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.
+
+
+
+- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`
+
+- Custom verifier: `24/24 PASS`
+
+- Detached runtime fixtures: `18/18 PASS`
+
+- Skill heartbeat: `7/7 PASS`
+
+- Prompt regression: `3782/3782 PASS`
+
+- Codex live surface: `STRICT PASS`
+
+- Chain finalize: `7.0/10 B-TIER`
+
+- Forge record: `SHIPPED 2026-08-04`
+
+- Human blind recognition: `DEFERRED`
+
+- Market effect: `UNOBSERVED`
+
+Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+
+Do not rebuild:
+- Do not create another David Perell skill, expert, or hot command for this source.
+
+- Do not rewrite the three byte-protected POP-era assets.
+
+- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.
+
+- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic.
 
 ## what needs you
-Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — This is the only thing keeping a finished build filed as unfinished, and it is optional by the thread's own account — a minute of judgment ends it.
+The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
+1. **Close it now, promotion declined** — Recommended. The skill works locally and that was the point. Costs a badge that changes nothing.
+2. **Run the blind judgment pack in one short sitting** — Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue.
+3. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
 
-## what this thread made
-- **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
-
-## pick it back up
+## resume · park · kill
 1. **Resume here** — Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 ```
 python3 execution/handoff_store.py resume extract-forge
 ```
    touches: .agent/handoffs/2026-08-04-extract-forge.md
    receipt: The stored handoff prints with drift since it was written.
-2. **Close the mission** — Mark it done or park it with a reason.
+2. **Park it** — Shelve deliberately — resumable, muted, never urgent.
 ```
-python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
+python3 execution/pulse_actions.py park extract-forge --reason "<one line>"
 ```
-   receipt: It leaves the open set on the next pulse regen.
+   receipt: Handoff annotated parked; drops out of needs-you.
+3. **Kill it** — Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.
+```
+python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
+```
+   receipt: Ledger line `killed` + handoff archived.
+
+## pick it up anywhere
+**CONTEXT PACK — paste into any session**
+```
+THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
+SLUG: extract-forge
+STATUS: ready · STAGE: outcome
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md
+
+RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
+STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
+
+SHIPPED IN WINDOW:
+  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e
+
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
+```
+
+## by the numbers
+- DELIVERABLES FINALIZED: **1**
+- SESSIONS: **1** (claude · codex)
+- DAYS ACTIVE: **11 d**
+
+## momentum
+
+
+## lifecycle
+
 
 ## how it got here
-- 2026-08-06 · **Finalized · extract-forge** — Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal Scout listening engine (2 new Apify actors, signal_scout.py, 229-engager live test) + Angle Brief Mon/Thu loop + Hype-vs
-- 2026-08-06 · **Finalized · extract** — God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timestamped patterns E1-E9 + era-bound appendix) plus delta memo vs Antigravity harness with 5 ranked adoptable moves. Watch-c
-- 2026-08-06 · **Finalized · extract** — God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus extension of riley-brown + delta memo with 5 ranked adoptable moves; 'god agent' = router rebrand, new organs are organizatio
-- 2026-08-05 · **Finalized · extract-forge** — Kallaway — Hook Mastery (Interrupt Theory) forge extraction: skill + 10 workflows + 7 born-v2 prompts + agent expansion
-- 2026-08-05 · **Finalized · extract-forge** — Scott Norton × Oren John — Brand World-Building mastery extraction (forge): 10 workflows + 10 born-v2 prompts + agent + 2 live lane deployments
-- 2026-08-04 · **Finalized · extract-forge** — Oren John — Slop-Era Creative Strategy mastery extraction (forge expansion, 2 fresh 2026 sources watched with frames)
-- 2026-08-04 · **Finalized · extract-forge** — Benoit Vatere — Full-Funnel Media Systems mastery extraction (forge)
+- 2026-08-29 · **Finalized · extract-forge** — Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, editorial design contract, carousel grammar); AGENT-INTAKE.md
+Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) and output grammar (frame_0106); recency 2026 source; extend-not-rebuild: added to existing v2.0 skill | Factual Grounding: 9 | Verification:
+- 2026-08-18 · **codex session** — Extraction: Video Extract Forge - Build Grounded System
+
+## the record
+- **Extract the AI-brain-installation-for-businesses expert OS from YouTube video nTiMbqFwv4c ** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: ai-brain* family + liam-mley builder (missions.jsonl · done)
+- **Mike Taylor extract-forge: watched-source synthetic-customer-research OS (7 mt-* wf, 3-tier grounding ladder),** [VERIFIED] — WATCHED fidelity, forge-tier skill+agent live, finalize 8.33 PASS by extraction agent (missions.jsonl · done)
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-04-extract-forge.md
@@ -54,11 +122,12 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Most of the finalized extractions carry needs-improvement verdicts rather than keep verdicts, so the thread is complete but not demonstrably excellent. The recorded outcomes are amnesty backfills from an old reset, not real-world results, and the thread has been quiet for a while.
+The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
+
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
 ## Context pack (agent feed)
-- `guides/2026-08-04-extract-forge.md` — asset · GUIDE
 - `.agent/handoffs/2026-08-04-extract-forge.md` — playbook · Resume here
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

@@ -802,6 +802,56 @@ def handle_stop(payload: dict) -> None:
         print(f"[ledger observe] {ld_reason}", file=sys.stderr)
         # fall through — this never blocks (observe-only per Farrice's ask)
 
+    # LIBRARIAN: file the session's work in the permanent catalog — every stop,
+    # both harnesses, zero commands (Farrice's ruling 2026-08-20: "if I don't
+    # run /go these things still need to happen"). Receipt-keyed (produced_paths),
+    # best-effort, never blocks.
+    if ledger.get("produced_paths") and not ledger.get("cataloged"):
+        try:
+            import subprocess
+            title, thread = _derive_title_thread(ledger)
+            subprocess.run(
+                [sys.executable, str(REPO_ROOT / "execution" / "work_catalog.py"),
+                 "add", thread, "--title", title],
+                capture_output=True, text=True, timeout=15, cwd=str(REPO_ROOT))
+            ledger["cataloged"] = True
+            _save(ledger)
+        except Exception:
+            pass  # the nightly merge is the safety net
+
+    # LIBRARIAN: narrate at death — the three lines only this session can write.
+    # Single-fire (narrative_asked), receipt-keyed, resolves the moment a real
+    # handoff_store save lands (that sets session_pinned above). Fires regardless
+    # of ENFORCE: Farrice's explicit 2026-08-20 ruling IS the re-arm decision the
+    # Compass requires ("this should be built in and work on its own"). A session
+    # that ignores it still exits on the next stop — the auto-pin stub below then
+    # carries the honest narrative-missing marker the briefs surface.
+    if (ledger.get("produced_paths") and not ledger.get("session_pinned")
+            and not ledger.get("narrative_asked") and not stop_active):
+        ledger["narrative_asked"] = True
+        _save(ledger)
+        title, thread = _derive_title_thread(ledger)
+        narr_reason = (
+            "LIBRARIAN — one deposit before you close (this is what makes the work "
+            "findable and resumable later; the catalog and mission briefs mine it):\n\n"
+            f"Write a SHORT handoff for thread `{thread}` with three sections —\n"
+            "  ## Purpose        (what this session was actually doing, one or two lines)\n"
+            "  ## Current State  (what moved · what is uncertain · latest proof)\n"
+            "  ## Remaining Priority  (the single next move)\n\n"
+            "Save it in one command (write the file to the temp dir first):\n"
+            f"    python3 execution/handoff_store.py save <file.md> --thread {thread} "
+            f"--slug {thread} --status active --hint \"<one-line resume hint>\"\n\n"
+            "Then stop again — this fires once per session, never loops."
+        )
+        try:
+            with open(OBSERVE_LOG, "a") as f:
+                f.write(json.dumps({"ts": _now(), "session_id": session_id,
+                                    "event": "narrative_asked", "thread": thread}) + "\n")
+        except Exception:
+            pass
+        print(json.dumps({"decision": "block", "reason": narr_reason}))
+        sys.exit(0)
+
     # Session AUTO-PIN backstop — independent of finalize debt. Fires when a durable
     # artifact shipped but no titled pin was recorded (chain_runner.finalize /
     # /end-session / /pin-session all set session_pinned). Rather than just nudging,

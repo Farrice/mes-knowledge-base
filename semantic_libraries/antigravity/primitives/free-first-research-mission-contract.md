@@ -40,6 +40,26 @@ The local Python backplane cannot call an app-only native web tool. It prepares
 the mission and validates returned evidence; the active Codex thread performs
 the native web calls.
 
+#### Known-URL acquisition inside rung 1
+
+After discovery identifies a public URL, the same `/deep-research-os` owner may
+use direct public HTTP for deterministic local capture and the public no-key
+Jina Reader endpoint for text normalization or PDF-to-text recovery. This is an
+acquisition fallback, not a new research command or evidence authority.
+
+- Prefer native web for reading, citation, and community pages.
+- Prefer direct HTTP for ordinary public pages when local capture is useful.
+- Use Jina conditionally for readable text or PDFs; do not treat a transport
+  `200` as success when its wrapper says the target URL returned an error.
+- Do not use credentials, accounts, cookies, CAPTCHA solving, proxy rotation,
+  authenticated scraping, or paid endpoints.
+- If direct and Jina both fail on a community source, retry through native web
+  or record a source gap. Never manufacture quotes from snippets or URL text.
+
+The evaluation harness at `execution/deep_research_acquisition_bakeoff.py` and
+its 30-URL fixture are regression assets only. They do not create another hot
+command, recurring collector, or scraper product.
+
 ### 2. Tavily Search and Extract
 
 Use only the existing Search and Extract legs for bounded gap filling and page
@@ -147,13 +167,15 @@ Rules:
 1. Lock the decision, audience, freshness need, and use-now artifact.
 2. Compile the local mission packet.
 3. Execute native web research in the active Codex thread.
-4. Use bounded Tavily Search/Extract and public RSS only for identified gaps.
-5. Ingest findings through the deterministic validator.
-6. Load relevant local context and skills for interpretation, never for current
+4. For known public URLs, use native web first and direct HTTP or public no-key
+   Jina only as bounded acquisition fallbacks.
+5. Use bounded Tavily Search/Extract and public RSS only for identified gaps.
+6. Ingest findings through the deterministic validator.
+7. Load relevant local context and skills for interpretation, never for current
    factual substitution.
-7. Synthesize the decision brief with citations, contradictions, confidence,
+8. Synthesize the decision brief with citations, contradictions, confidence,
    and explicit unknowns.
-8. Run the research quality gate and write the value receipt.
+9. Run the research quality gate and write the value receipt.
 
 ## Completion Gate
 

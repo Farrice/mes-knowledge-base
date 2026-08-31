@@ -40,8 +40,8 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **What Happened:** open for 9 days with no decision
 - **Root Cause:** detector raised TimeoutExpired
 - **Prevention Rule:** Decide stale_registries or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 5
-- **Last Triggered:** 2026-08-10
+- **Occurrences:** 6
+- **Last Triggered:** 2026-08-29
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required
 ### CONTROL-PROMOTION OVERSCOPE: Optional depth heuristic became artifact-wide authorization
@@ -59,5 +59,5 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 ### [ROTTING]: born_intent_drift
 - **Root Cause:** 1 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: skill:david-perell-writing
 - **Prevention Rule:** Decide born_intent_drift or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 12
+- **Occurrences:** 15
 - **Root Cause:** 13 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: prompt:sean-dollwet-kdp-publishing/book-do

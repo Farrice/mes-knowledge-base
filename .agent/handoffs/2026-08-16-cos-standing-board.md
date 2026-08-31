@@ -1,8 +1,8 @@
 ---
 thread: cos-standing-board
-status: mid-build
-resume_hint: Restore or replace the missing board caster, wire Phase 5, then run a fresh August COS acceptance test
-unfinished: Board casting adapter missing; daily/weekly wiring and human acceptance remain open
+status: ready
+resume_hint: Invoke /cos in Codex and grade the fresh daily sitting keep/change/scrap
+unfinished: Cross-harness runtime parity is restored; fresh Codex human acceptance remains open
 branch: main
 pin: true
 ---
@@ -15,6 +15,9 @@ pin: true
 - Preserved the board charter, board ledger, July proof-of-concept Operator Primer, deterministic primer quality gate, and its regression verifier.
 - Verified current workspace reality at closeout: `cos_primer_gate.py` and `verify_cos_primer_gate.py` remain, while the previously reported `execution/cos_board_cast.py` is no longer present.
 - Kept the main tree untouched by Git operations because it contains extensive unrelated concurrent changes.
+- Restored Claude commit `5ec87ee42`'s production `execution/cos_board_cast.py` and `execution/verify_cos_board_cast.py` into a Codex-owned lane on 2026-08-28.
+- Added the thin Codex `/cos` bridge at `.agents/skills/source-command-cos/SKILL.md`; it delegates to `.agent/workflows/cos.md` and does not duplicate COS behavior.
+- Passed all 22 caster positive/negative controls, all 8 primer golden cases, live-current-brief casting, Codex live-surface audit, and Codex harness check.
 
 ## Decisions
 
@@ -26,7 +29,7 @@ pin: true
 
 ## Remaining Priority
 
-Repair or deliberately replace the missing board-casting adapter, then wire the Standing Board into the canonical daily and weekly COS workflows. Run one fresh daily briefing on current August state and ask Farrice for a direct keep/change/scrap verdict before promoting it.
+Run one fresh daily briefing in Codex on current state and ask Farrice for a direct keep/change/scrap verdict. Runtime parity is proven; felt-standard acceptance is the remaining gate.
 
 ## Essential Context Paths
 
