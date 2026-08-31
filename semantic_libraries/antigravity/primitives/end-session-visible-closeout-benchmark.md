@@ -71,6 +71,15 @@ still dry-run, blocked, invalid, or incomplete.
 | Use-now artifact | The completed and approval-blocked visible templates below |
 | Hardening proof | Positive fixtures, negative controls, static owner checks, existing End-session tests |
 
+## Concurrency Invariant
+
+End-session coordination and lane reconciliation must share one operation lock
+located on integration `main`. The lock is acquired before either closeout writes
+or lane sealing begins and remains held through the operation. A contended
+coordinator exits without writing; a contended reconciler parks the lane. The
+verifier must prove contention fails, release permits retry, and the reconciler's
+lock acquisition appears before its seal step.
+
 ## State Decision
 
 | Receipt and native action state | Visible result |

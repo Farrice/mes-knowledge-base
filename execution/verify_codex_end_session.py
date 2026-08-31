@@ -268,6 +268,33 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
     ]
 
 
+def check_lane_operation_lock(tmp: Path) -> list[str]:
+    repo = tmp / "operation-lock-repo"
+    init_repo(repo, "main")
+    first_fd = codex_close.acquire_lane_operation_lock(repo)
+    try:
+        try:
+            codex_close.acquire_lane_operation_lock(repo)
+        except codex_close.CloseoutError as exc:
+            require("already active" in str(exc), "contended operation lock gave weak error")
+        else:
+            raise AssertionError("second closeout acquired a contended operation lock")
+    finally:
+        codex_close.release_lane_operation_lock(first_fd)
+
+    retry_fd = codex_close.acquire_lane_operation_lock(repo)
+    codex_close.release_lane_operation_lock(retry_fd)
+
+    lane_source = (ROOT / "execution" / "worktree_lane.py").read_text(encoding="utf-8")
+    lock_pos = lane_source.index('operation_lockfile = main / ".agent" / "lane-operation.lock"')
+    seal_pos = lane_source.index("# 1 SEAL")
+    require(lock_pos < seal_pos, "lane operation lock must be acquired before sealing")
+    return [
+        "End-session rejects a contended lane operation and releases its lock for retry",
+        "lane reconciliation takes the shared operation lock before sealing",
+    ]
+
+
 def check_local_push(tmp: Path) -> list[str]:
     tmp.mkdir(parents=True, exist_ok=True)
     remote = tmp / "origin.git"
@@ -357,6 +384,7 @@ def main() -> int:
         tmp = Path(raw)
         receipts.extend(check_handoff_identity(tmp / "identity"))
         receipts.extend(check_manifest_and_policy(tmp / "policy"))
+        receipts.extend(check_lane_operation_lock(tmp / "locking"))
         receipts.extend(check_organization(tmp / "organization"))
         receipts.extend(check_local_push(tmp / "push"))
     print("CODEX END-SESSION VERIFICATION PASS")

@@ -602,6 +602,15 @@ def _park(main, lane, branch, reason, push=True) -> int:
     return 0  # a park is a surfaced outcome, not an error
 
 
+def _release_operation_lock(lock_fd: int) -> None:
+    """Release the lifecycle lock on every pre-merge return path."""
+    try:
+        import fcntl
+        fcntl.flock(lock_fd, fcntl.LOCK_UN)
+    finally:
+        os.close(lock_fd)
+
+
 def cmd_merge(args) -> int:
     if args.no_push:
         # This repo's post-commit and post-merge hooks auto-push. Suppress them
@@ -628,6 +637,20 @@ def cmd_merge(args) -> int:
     if args.dry_run:
         print(f"[dry-run] would merge lane {branch} ({lane}) -> main ({main})")
         return 0
+
+    # Serialize the entire lane lifecycle, including the pre-merge seal. The
+    # old merge-only mutex began after sealing, which allowed /end-session and
+    # the reconciler to race and commit unrelated generated files.
+    operation_lockfile = main / ".agent" / "lane-operation.lock"
+    operation_lockfile.parent.mkdir(exist_ok=True)
+    operation_lock_fd = os.open(operation_lockfile, os.O_CREAT | os.O_RDWR)
+    try:
+        import fcntl
+        fcntl.flock(operation_lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        os.close(operation_lock_fd)
+        return _park(main, lane, branch, "end-session or another lane operation is active",
+                     push=not args.no_push)
 
     # 1 SEAL — commit everything in the lane (single writer by construction)
     rc, out, _ = _git(lane, "status", "--porcelain")
@@ -662,6 +685,7 @@ def cmd_merge(args) -> int:
         print(f"LANE MERGED: {branch} -> main (0 commits — nothing to merge)")
         if not args.no_teardown:
             _teardown_lane(main, lane, branch)
+        _release_operation_lock(operation_lock_fd)
         return 0
 
     # 2 GATE — tracked modifications only: untracked files (telemetry, scratch)
@@ -670,15 +694,19 @@ def cmd_merge(args) -> int:
     rc, out, _ = _git(main, "status", "--porcelain")
     tracked_dirty = [l for l in out.splitlines() if l.strip() and not l.startswith("??")]
     if tracked_dirty:
-        return _park(main, lane, branch,
-                     f"main integration tree dirty ({len(tracked_dirty)} tracked change(s)) — "
-                     f"reconcile main before merging lanes", push=not args.no_push)
+        result = _park(main, lane, branch,
+                       f"main integration tree dirty ({len(tracked_dirty)} tracked change(s)) — "
+                       f"reconcile main before merging lanes", push=not args.no_push)
+        _release_operation_lock(operation_lock_fd)
+        return result
     exclude = _lane_session_ids(main) | set(getattr(args, "exclude_session", None) or [])
     writer = fresh_main_writer(main, exclude_ids=exclude,
                                own_lock_token=getattr(args, "lock_token", None))
     if writer:
-        return _park(main, lane, branch, f"main has a fresh writer: {writer}",
-                     push=not args.no_push)
+        result = _park(main, lane, branch, f"main has a fresh writer: {writer}",
+                       push=not args.no_push)
+        _release_operation_lock(operation_lock_fd)
+        return result
     lockfile = (main / ".agent" / "lane-merge.lock")
     lockfile.parent.mkdir(exist_ok=True)
     lock_fd = os.open(lockfile, os.O_CREAT | os.O_RDWR)
@@ -687,8 +715,10 @@ def cmd_merge(args) -> int:
         fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
     except OSError:
         os.close(lock_fd)
-        return _park(main, lane, branch, "another lane is merging right now",
-                     push=not args.no_push)
+        result = _park(main, lane, branch, "another lane is merging right now",
+                       push=not args.no_push)
+        _release_operation_lock(operation_lock_fd)
+        return result
 
     try:
         # 3 AUDITSET (Law-3 evidence, computed BEFORE the merge)
@@ -795,9 +825,11 @@ def cmd_merge(args) -> int:
         try:
             import fcntl
             fcntl.flock(lock_fd, fcntl.LOCK_UN)
+            fcntl.flock(operation_lock_fd, fcntl.LOCK_UN)
         except Exception:
             pass
         os.close(lock_fd)
+        os.close(operation_lock_fd)
 
 
 def _teardown_lane(main: Path, lane: Path, branch: str):

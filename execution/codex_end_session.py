@@ -81,6 +81,45 @@ def sha256_text(text: str) -> str:
     return hashlib.sha256(normalized(text).encode("utf-8")).hexdigest()
 
 
+def lane_operation_lock_path(project: Path) -> Path:
+    """Return the shared main-repo lock used by closeout and lane sealing."""
+    result = git(project, "rev-parse", "--git-common-dir")
+    if result.returncode != 0 or not result.stdout.strip():
+        return project / ".agent" / "lane-operation.lock"
+    common = Path(result.stdout.strip())
+    if not common.is_absolute():
+        common = (project / common).resolve()
+    return common.parent / ".agent" / "lane-operation.lock"
+
+
+def acquire_lane_operation_lock(project: Path) -> int:
+    """Hold the lane lifecycle lock before closeout can create tracked changes."""
+    import fcntl
+
+    lockfile = lane_operation_lock_path(project)
+    lockfile.parent.mkdir(parents=True, exist_ok=True)
+    lock_fd = os.open(lockfile, os.O_CREAT | os.O_RDWR)
+    try:
+        fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError as exc:
+        os.close(lock_fd)
+        raise CloseoutError(
+            "lane merge or another closeout is already active; retry after it finishes"
+        ) from exc
+    return lock_fd
+
+
+def release_lane_operation_lock(lock_fd: int | None) -> None:
+    if lock_fd is None:
+        return
+    import fcntl
+
+    try:
+        fcntl.flock(lock_fd, fcntl.LOCK_UN)
+    finally:
+        os.close(lock_fd)
+
+
 def run_command(command: list[str], cwd: Path, timeout: int = 180) -> CommandResult:
     completed = subprocess.run(
         command, cwd=str(cwd), text=True, capture_output=True, timeout=timeout,
@@ -842,8 +881,11 @@ def main() -> int:
     run.add_argument("--manifest", required=True)
     run.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+    lock_fd: int | None = None
     try:
         manifest = load_manifest(Path(args.manifest).expanduser())
+        if not args.dry_run:
+            lock_fd = acquire_lane_operation_lock(Path(manifest["project_root"]))
         receipt = coordinate(manifest, args.dry_run)
         print(json.dumps(receipt, indent=2, sort_keys=True))
         return 0 if receipt["valid"] else 1
@@ -853,6 +895,8 @@ def main() -> int:
             "error": str(exc), "ts": now_iso(),
         }, indent=2, sort_keys=True))
         return 1
+    finally:
+        release_lane_operation_lock(lock_fd)
 
 
 if __name__ == "__main__":

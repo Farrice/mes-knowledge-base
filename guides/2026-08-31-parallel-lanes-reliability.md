@@ -20,6 +20,7 @@ status: enriched
 - A clean quiet committed lane may merge; an active, conflicting, probe-failed, or stale-dirty lane parks.
 - Runtime finalization and degradation events stay observable on `main` without changing tracked files.
 - The hourly reconciler never pushes `main`, deletes forgotten work, or forces a conflict resolution.
+- End-session and the reconciler share a pre-seal operation lock, so a scheduled pass cannot commit a closeout halfway through its run.
 - If a merge says “dirty,” inspect tracked changes first; untracked active creative assets are preserved and do not justify cleanup.
 
 ## Command table
