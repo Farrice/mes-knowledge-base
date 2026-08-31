@@ -1,0 +1,797 @@
+{
+  "proof_state": "LOCAL_DEMONSTRATION_ONLY",
+  "fixture": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
+  "cases": 19,
+  "passed": 19,
+  "failed": 0,
+  "all_human_holds_worked": true,
+  "failures": [],
+  "results": [
+    {
+      "case": "normal-01",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N01",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Northstar Studio",
+          "contact": "Avery Stone",
+          "service_requested": "Brand strategy sprint",
+          "budget": "$12,000",
+          "timeline": "Q4 2026",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Northstar Studio: Brand strategy sprint\nClient-stated budget: $12,000\nClient-stated timeline: Q4 2026\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N01",
+          "company": "Northstar Studio",
+          "contact": "Avery Stone",
+          "email": "avery@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "6a11f24b825a81e2"
+      }
+    },
+    {
+      "case": "normal-02",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N02",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Harbor Advisory",
+          "contact": "Jordan Vale",
+          "service_requested": "Operations advisory",
+          "budget": "$18,000",
+          "timeline": "September 2026",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Harbor Advisory: Operations advisory\nClient-stated budget: $18,000\nClient-stated timeline: September 2026\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N02",
+          "company": "Harbor Advisory",
+          "contact": "Jordan Vale",
+          "email": "jordan@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "b492889b5b0a7c25"
+      }
+    },
+    {
+      "case": "normal-03",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N03",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Fieldwork Media",
+          "contact": "Taylor Quinn",
+          "service_requested": "Content program",
+          "budget": "$9,500",
+          "timeline": "Six weeks",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Fieldwork Media: Content program\nClient-stated budget: $9,500\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N03",
+          "company": "Fieldwork Media",
+          "contact": "Taylor Quinn",
+          "email": "taylor@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "6a57da74b73fe8ef"
+      }
+    },
+    {
+      "case": "normal-04",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N04",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Stonebridge Consulting",
+          "contact": "Morgan Reed",
+          "service_requested": "Growth diagnostic",
+          "budget": "$7,500",
+          "timeline": "October 2026",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Stonebridge Consulting: Growth diagnostic\nClient-stated budget: $7,500\nClient-stated timeline: October 2026\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N04",
+          "company": "Stonebridge Consulting",
+          "contact": "Morgan Reed",
+          "email": "morgan@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "b85b64e3937a0127"
+      }
+    },
+    {
+      "case": "normal-05",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N05",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Brightline Creative",
+          "contact": "Casey Park",
+          "service_requested": "Campaign strategy",
+          "budget": "$15,000",
+          "timeline": "Eight weeks",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Brightline Creative: Campaign strategy\nClient-stated budget: $15,000\nClient-stated timeline: Eight weeks\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N05",
+          "company": "Brightline Creative",
+          "contact": "Casey Park",
+          "email": "casey@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "28f0d058fa82a241"
+      }
+    },
+    {
+      "case": "normal-06",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N06",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Signal Path",
+          "contact": "Riley Chen",
+          "service_requested": "CRM optimization",
+          "budget": "$6,000",
+          "timeline": "This quarter",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Signal Path: CRM optimization\nClient-stated budget: $6,000\nClient-stated timeline: This quarter\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N06",
+          "company": "Signal Path",
+          "contact": "Riley Chen",
+          "email": "riley@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "4ada3d561fa7f46b"
+      }
+    },
+    {
+      "case": "normal-07",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N07",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Common Ground",
+          "contact": "Jamie Brooks",
+          "service_requested": "Research engagement",
+          "budget": "$11,000",
+          "timeline": "November 2026",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Common Ground: Research engagement\nClient-stated budget: $11,000\nClient-stated timeline: November 2026\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N07",
+          "company": "Common Ground",
+          "contact": "Jamie Brooks",
+          "email": "jamie@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "0d20d10d91fccac6"
+      }
+    },
+    {
+      "case": "normal-08",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N08",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Axis Partners",
+          "contact": "Drew Ellis",
+          "service_requested": "GTM advisory",
+          "budget": "$20,000",
+          "timeline": "Twelve weeks",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Axis Partners: GTM advisory\nClient-stated budget: $20,000\nClient-stated timeline: Twelve weeks\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N08",
+          "company": "Axis Partners",
+          "contact": "Drew Ellis",
+          "email": "drew@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "55c02a06c5747ae9"
+      }
+    },
+    {
+      "case": "normal-09",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N09",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Quiet Signal",
+          "contact": "Alex Lane",
+          "service_requested": "Messaging system",
+          "budget": "$8,000",
+          "timeline": "October 2026",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Quiet Signal: Messaging system\nClient-stated budget: $8,000\nClient-stated timeline: October 2026\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N09",
+          "company": "Quiet Signal",
+          "contact": "Alex Lane",
+          "email": "alex@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "d005c7e91b84fe0c"
+      }
+    },
+    {
+      "case": "normal-10",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "N10",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Mosaic Works",
+          "contact": "Sam Rowan",
+          "service_requested": "Client experience audit",
+          "budget": "$10,000",
+          "timeline": "Six weeks",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Mosaic Works: Client experience audit\nClient-stated budget: $10,000\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "N10",
+          "company": "Mosaic Works",
+          "contact": "Sam Rowan",
+          "email": "sam@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "c2ae824cd42c4eca"
+      }
+    },
+    {
+      "case": "duplicate-seed",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "DUP1",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Repeat Co",
+          "contact": "Pat Lee",
+          "service_requested": "Automation audit",
+          "budget": "$5,000",
+          "timeline": "Thirty days",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Repeat Co: Automation audit\nClient-stated budget: $5,000\nClient-stated timeline: Thirty days\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "DUP1",
+          "company": "Repeat Co",
+          "contact": "Pat Lee",
+          "email": "pat@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "71358d3d7e30d066"
+      }
+    },
+    {
+      "case": "duplicate-inquiry",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "DUPLICATE_INQUIRY"
+        ]
+      },
+      "result": {
+        "lead_id": "DUP1",
+        "status": "HELD",
+        "qualification": {
+          "company": "Repeat Co",
+          "contact": "Pat Lee",
+          "service_requested": "Automation audit",
+          "budget": "$5,000",
+          "timeline": "Thirty days",
+          "confidence": 1.0,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [],
+        "flags": [
+          "DUPLICATE_INQUIRY"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "DUP1",
+          "company": "Repeat Co",
+          "contact": "Pat Lee",
+          "email": "pat@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "DUPLICATE_INQUIRY"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "53a3467328377707"
+      }
+    },
+    {
+      "case": "missing-information",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "MISSING_REQUIRED_INFORMATION"
+        ]
+      },
+      "result": {
+        "lead_id": "A02",
+        "status": "HELD",
+        "qualification": {
+          "company": "Blank Field Co",
+          "contact": "Robin West",
+          "service_requested": "Proposal system",
+          "budget": "",
+          "timeline": "",
+          "confidence": 0.74,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [
+          "budget",
+          "timeline"
+        ],
+        "flags": [
+          "MISSING_REQUIRED_INFORMATION"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A02",
+          "company": "Blank Field Co",
+          "contact": "Robin West",
+          "email": "robin@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "MISSING_REQUIRED_INFORMATION"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "92b513887bcaa4d0"
+      }
+    },
+    {
+      "case": "conflicting-requirements",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "CONFLICTING_REQUIREMENTS"
+        ]
+      },
+      "result": {
+        "lead_id": "A03",
+        "status": "HELD",
+        "qualification": {
+          "company": "Contradiction Labs",
+          "contact": "Kai North",
+          "service_requested": "Same-day custom platform",
+          "budget": "$1,000",
+          "timeline": "Today",
+          "confidence": 0.82,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [],
+        "flags": [
+          "CONFLICTING_REQUIREMENTS"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A03",
+          "company": "Contradiction Labs",
+          "contact": "Kai North",
+          "email": "kai@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "CONFLICTING_REQUIREMENTS"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "11ea8e82e3d4fefc"
+      }
+    },
+    {
+      "case": "sensitive-information",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "SENSITIVE_OR_REGULATED_INFORMATION"
+        ]
+      },
+      "result": {
+        "lead_id": "A04",
+        "status": "HELD",
+        "qualification": {
+          "company": "Sensitive Co",
+          "contact": "Lee Ford",
+          "service_requested": "Intake workflow",
+          "budget": "$4,000",
+          "timeline": "Four weeks",
+          "confidence": 1.0,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [],
+        "flags": [
+          "SENSITIVE_OR_REGULATED_INFORMATION"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A04",
+          "company": "Sensitive Co",
+          "contact": "Lee Ford",
+          "email": "lee@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "SENSITIVE_OR_REGULATED_INFORMATION"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "4e76f2e20951ec84"
+      }
+    },
+    {
+      "case": "integration-failure",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "INTEGRATION_FAILURE"
+        ]
+      },
+      "result": {
+        "lead_id": "A05",
+        "status": "HELD",
+        "qualification": {
+          "company": "Offline Systems",
+          "contact": "Sky Gray",
+          "service_requested": "CRM workflow",
+          "budget": "$6,000",
+          "timeline": "Six weeks",
+          "confidence": 1.0,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [],
+        "flags": [
+          "INTEGRATION_FAILURE"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A05",
+          "company": "Offline Systems",
+          "contact": "Sky Gray",
+          "email": "sky@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "INTEGRATION_FAILURE"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "ac5861475c81d035"
+      }
+    },
+    {
+      "case": "unsupported-claim",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "UNSUPPORTED_FACTUAL_CLAIM"
+        ]
+      },
+      "result": {
+        "lead_id": "A06",
+        "status": "HELD",
+        "qualification": {
+          "company": "Big Promise Co",
+          "contact": "Devon Ray",
+          "service_requested": "Growth system",
+          "budget": "$9,000",
+          "timeline": "Eight weeks",
+          "confidence": 1.0,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [],
+        "flags": [
+          "UNSUPPORTED_FACTUAL_CLAIM"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A06",
+          "company": "Big Promise Co",
+          "contact": "Devon Ray",
+          "email": "devon@example.test",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "UNSUPPORTED_FACTUAL_CLAIM"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "a64def714b6be08b"
+      }
+    },
+    {
+      "case": "low-confidence",
+      "expected": {
+        "status": "HELD",
+        "flags": [
+          "LOW_CONFIDENCE_QUALIFICATION",
+          "MISSING_REQUIRED_INFORMATION"
+        ]
+      },
+      "result": {
+        "lead_id": "A07",
+        "status": "HELD",
+        "qualification": {
+          "company": "Sparse Brief",
+          "contact": "",
+          "service_requested": "",
+          "budget": "",
+          "timeline": "",
+          "confidence": 0.35,
+          "decision": "HUMAN_REVIEW"
+        },
+        "missing": [
+          "contact",
+          "email",
+          "service",
+          "budget",
+          "timeline"
+        ],
+        "flags": [
+          "MISSING_REQUIRED_INFORMATION",
+          "LOW_CONFIDENCE_QUALIFICATION"
+        ],
+        "proposal_draft": null,
+        "follow_up_task": null,
+        "crm_record": {
+          "lead_id": "A07",
+          "company": "Sparse Brief",
+          "contact": "",
+          "email": "",
+          "stage": "EXCEPTION_REVIEW",
+          "flags": [
+            "MISSING_REQUIRED_INFORMATION",
+            "LOW_CONFIDENCE_QUALIFICATION"
+          ],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "bcfe2b930d37d78a"
+      }
+    },
+    {
+      "case": "send-without-approval",
+      "expected": {
+        "status": "DRAFT_READY",
+        "flags": []
+      },
+      "result": {
+        "lead_id": "A08",
+        "status": "DRAFT_READY",
+        "qualification": {
+          "company": "Approval Test",
+          "contact": "Cameron Bell",
+          "service_requested": "Proposal workflow",
+          "budget": "$7,000",
+          "timeline": "Six weeks",
+          "confidence": 1.0,
+          "decision": "READY_FOR_PROPOSAL_REVIEW"
+        },
+        "missing": [],
+        "flags": [],
+        "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Approval Test: Proposal workflow\nClient-stated budget: $7,000\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
+        "follow_up_task": {
+          "owner": "WORKFLOW_OWNER_PLACEHOLDER",
+          "due": "2026-08-20",
+          "action": "Review qualification and proposal draft; approve, edit, or reject."
+        },
+        "crm_record": {
+          "lead_id": "A08",
+          "company": "Approval Test",
+          "contact": "Cameron Bell",
+          "email": "cameron@example.test",
+          "stage": "PROPOSAL_DRAFTED",
+          "flags": [],
+          "source": "synthetic_demo"
+        },
+        "approval_status": "HOLD_FOR_HUMAN",
+        "external_send_permitted": false,
+        "receipt_hash": "683ce010e8cc61a8"
+      }
+    }
+  ]
+}

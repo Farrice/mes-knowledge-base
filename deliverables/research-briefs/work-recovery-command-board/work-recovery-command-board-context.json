@@ -1,0 +1,35 @@
+{
+  "slug": "work-recovery-command-board",
+  "title": "what matters now",
+  "compiled": "aug 13, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/work-recovery-command-board/work-recovery-command-board-brief.html",
+  "brief_md": "deliverables/research-briefs/work-recovery-command-board/work-recovery-command-board-brief.md",
+  "paths": [
+    {
+      "path": "deliverables/zero-momentum-ai-offer/visible-task-inventory.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/visible-task-inventory.md",
+      "role": "complete visible task snapshot"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/mission-reconciliation.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/mission-reconciliation.md",
+      "role": "conversation and mission reconciliation"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/README.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/README.md",
+      "role": "active decision surface"
+    }
+  ],
+  "urls": []
+}

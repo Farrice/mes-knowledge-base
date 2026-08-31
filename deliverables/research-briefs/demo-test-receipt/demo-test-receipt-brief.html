@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE_PLAIN}} · Research Brief</title>
+<title>the workflow holds when the case gets ugly · Research Brief</title>
 <style>
   /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
      Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
@@ -132,11 +132,6 @@
     background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
   .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
   .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
-  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
-    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
-  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
-  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
-  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
   .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
     white-space:pre-wrap; word-break:break-word }
 
@@ -271,38 +266,78 @@
   }
   @media print{
     .brief-nav{ position:static }
-    .copybtn, .livebtn{ display:none }
+    .copybtn{ display:none }
     section.blk, .decision{ break-inside:avoid-page }
   }
 </style>
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row">{{NAV}}<span class="navtools">{{NAVTOOLS}}</span></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#the-test-verdict">the test verdict</a><a href="#the-inspected-run">the inspected run</a><a href="#the-demonstration-path">the demonstration path</a><a href="#negative-controls">negative controls</a><a href="#inspect-the-receipt">inspect the receipt</a><a href="#the-green-run-is-not-enough">the green run is not enough</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
 
 <div class="wrap">
   <header>
-    <span class="chip">{{CHIP}}</span>
-    <h1 class="display">{{TITLE}}</h1>
-    <p class="dek">{{DEK}}</p>
+    <span class="chip">BUILD REPORT · NEGATIVE CONTROLS</span>
+    <h1 class="display">the workflow holds when the case gets <em>ugly</em></h1>
+    <p class="dek">A deterministic local demonstration of inquiry capture, qualification, proposal drafting, follow-up, CRM output, exception routing, and non-bypassable human approval.</p>
     <div class="trust">
-      <div><span class="k">Window</span><span class="v">{{WINDOW}}</span></div>
-      <div><span class="k">Lens</span><span class="v">{{LENS}}</span></div>
-      <div><span class="k">Sources</span><span class="v">{{SOURCES}}</span></div>
-      <div><span class="k">Compiled</span><span class="v">{{COMPILED}}</span></div>
+      <div><span class="k">Window</span><span class="v">local synthetic run</span></div>
+      <div><span class="k">Lens</span><span class="v">behavior · negative controls · proof boundary</span></div>
+      <div><span class="k">Sources</span><span class="v">19 synthetic cases</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 13, 2026</span></div>
     </div>
   </header>
 
-  {{SECTIONS}}
+  <section class="blk" id="the-test-verdict"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the test verdict</h2></div><span class="kicker" style="margin-bottom:8px">PASS · LOCAL ONLY</span><div class="panel"><p>All 19 fixture cases produced the expected status and required flags. Every case ended with external sending disabled and HOLD_FOR_HUMAN. This proves local workflow behavior, not integration reliability, client adoption, revenue impact, or market validation.</p></div></section><section class="blk" id="the-inspected-run"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the inspected run</h2></div><div class="stats"><div class="stat"><div class="num">19/19<small> cases</small></div><span class="lab">EXPECTED BEHAVIOR</span><div class="note">0 failed</div></div><div class="stat"><div class="num">10<small> cases</small></div><span class="lab">NORMAL</span><div class="note">proposal drafts created</div></div><div class="stat"><div class="num">8<small> controls</small></div><span class="lab">ADVERSARIAL</span><div class="note">all routed safely</div></div><div class="stat"><div class="num">100%<small> held</small></div><span class="lab">HUMAN APPROVAL</span><div class="note">send disabled</div></div></div></section><section class="blk" id="the-demonstration-path"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the demonstration path</h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Inquiry</h3><p>capture once</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Qualification</h3><p>confidence + gaps</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Proposal</h3><p>supplied facts only</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Follow-up</h3><p>owner + due</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>CRM</h3><p>ready record</p></div><span class="arrow">→</span><div class="step"><span class="n">06</span><h3>Hold</h3><p>human required</p></div></div></section><section class="blk" id="negative-controls"><div class="sechead"><span class="secnum">04</span><h2 class="sec">negative controls</h2></div><div class="ev"><span class="mark">✓</span><div><h3>Duplicate inquiry</h3><p>The second use of the same lead ID was held and flagged.</p><div class="meta"><span class="conf verified">VERIFIED</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Missing, conflicting, sensitive, and low-confidence cases</h3><p>Each blocked proposal creation and routed to exception review.</p><div class="meta"><span class="conf verified">VERIFIED</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Integration failure and unsupported claim</h3><p>Both were held with explicit flags.</p><div class="meta"><span class="conf verified">VERIFIED</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Send requested without approval</h3><p>A clean case still returned external_send_permitted=false and HOLD_FOR_HUMAN.</p><div class="meta"><span class="conf verified">VERIFIED</span></div></div></div></section><section class="blk" id="inspect-the-receipt"><div class="sechead"><span class="secnum">05</span><h2 class="sec">inspect the receipt</h2><span class="sectag">THE RAIL</span></div><div class="assetgrid"><div class="asset"><span class="role">MACHINE RECEIPT</span><h3>Test Receipt</h3><p>Every case, expected state, output, and receipt hash.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json">deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json">copy path</button></div></div><div class="asset"><span class="role">REFERENCE BUILD</span><h3>Workflow Source</h3><p>Deterministic rules and human-hold behavior.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py">deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py">copy path</button></div></div><div class="asset"><span class="role">TEST DATA</span><h3>Fixtures</h3><p>Synthetic normal and adversarial cases.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json">deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json">copy path</button></div></div><div class="asset"><span class="role">REGRESSION</span><h3>Tests</h3><p>Fixture inspection, duplicate behavior, send blockade.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py">deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py">copy path</button></div></div></div></section><section class="blk caveats" id="the-green-run-is-not-enough"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>the green run is not <em>enough</em></h2><p>The receipt was inspected for status, required flags, human hold, and external-send blockade. A live pilot must add connector failure tests, buyer acceptance, operator usability, and observed behavior in approved deidentified cases.</p></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Local deterministic test run</td><td>—</td><td>2026-08-13</td><td>workflow behavior and negative controls</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json">deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json</a></td><td>test receipt</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py">deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py</a></td><td>workflow source</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json">deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json</a></td><td>synthetic fixtures</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py">deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py</a></td><td>regression tests</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;demo-test-receipt&quot;,
+  &quot;title&quot;: &quot;the workflow holds when the case gets ugly&quot;,
+  &quot;compiled&quot;: &quot;aug 13, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json&quot;,
+      &quot;role&quot;: &quot;test receipt&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py&quot;,
+      &quot;role&quot;: &quot;workflow source&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json&quot;,
+      &quot;role&quot;: &quot;synthetic fixtures&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py&quot;,
+      &quot;role&quot;: &quot;regression tests&quot;
+    }
+  ],
+  &quot;urls&quot;: []
+}</pre></div></section>
 
   <footer class="brief">
-    <span>{{FOOTER_LEFT}}</span>
-    <span>{{FOOTER_RIGHT}}</span>
+    <span>ANTIGRAVITY RESEARCH</span>
+    <span></span>
   </footer>
 </div>
 
 <div id="toast">copied</div>
-{{PAGEPACK}}
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/research-briefs/demo-test-receipt/demo-test-receipt-context.json\nCOMPILED: aug 13, 2026\n\n# the workflow holds when the case gets ugly\n\n> BUILD REPORT · NEGATIVE CONTROLS · window: local synthetic run · lens: behavior · negative controls · proof boundary · sources: 19 synthetic cases · compiled: aug 13, 2026\n\nA deterministic local demonstration of inquiry capture, qualification, proposal drafting, follow-up, CRM output, exception routing, and non-bypassable human approval.\n\n## the test verdict\n_PASS · LOCAL ONLY_\nAll 19 fixture cases produced the expected status and required flags. Every case ended with external sending disabled and HOLD_FOR_HUMAN. This proves local workflow behavior, not integration reliability, client adoption, revenue impact, or market validation.\n\n## the inspected run\n- EXPECTED BEHAVIOR: **19/19 cases** (0 failed)\n- NORMAL: **10 cases** (proposal drafts created)\n- ADVERSARIAL: **8 controls** (all routed safely)\n- HUMAN APPROVAL: **100% held** (send disabled)\n\n## the demonstration path\nInquiry → Qualification → Proposal → Follow-up → CRM → Hold\n  - Inquiry: capture once\n  - Qualification: confidence + gaps\n  - Proposal: supplied facts only\n  - Follow-up: owner + due\n  - CRM: ready record\n  - Hold: human required\n\n## negative controls\n- **Duplicate inquiry** [VERIFIED] — The second use of the same lead ID was held and flagged. ()\n- **Missing, conflicting, sensitive, and low-confidence cases** [VERIFIED] — Each blocked proposal creation and routed to exception review. ()\n- **Integration failure and unsupported claim** [VERIFIED] — Both were held with explicit flags. ()\n- **Send requested without approval** [VERIFIED] — A clean case still returned external_send_permitted=false and HOLD_FOR_HUMAN. ()\n\n## inspect the receipt\n- **Test Receipt** [MACHINE RECEIPT] `deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json` — Every case, expected state, output, and receipt hash.\n- **Workflow Source** [REFERENCE BUILD] `deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py` — Deterministic rules and human-hold behavior.\n- **Fixtures** [TEST DATA] `deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json` — Synthetic normal and adversarial cases.\n- **Tests** [REGRESSION] `deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py` — Fixture inspection, duplicate behavior, send blockade.\n\n## the green run is not enough\nThe receipt was inspected for status, required flags, human hold, and external-send blockade. A live pilot must add connector failure tests, buyer acceptance, operator usability, and observed behavior in approved deidentified cases.\n\n## Source ledger\n1. Local deterministic test run (retrieved 2026-08-13, VERIFIED; used for: workflow behavior and negative controls)\n\n## Context pack (agent feed)\n- `deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json` — test receipt\n- `deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py` — workflow source\n- `deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json` — synthetic fixtures\n- `deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py` — regression tests\n"}</script>
 <script>
 (function(){
   function toast(msg){
@@ -343,32 +378,6 @@
     });
   });
 
-  /* ── live playbook actions (2026-08-20) ─────────────────────────
-     A play carrying data-action becomes a real write button when the page is
-     served by pulse_serve (same origin → POST /action works). On a static
-     file:// page it degrades to copying the play's CLI — writers-first
-     doctrine, same dual-mode contract as every board. */
-  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var live = location.protocol.indexOf('http') === 0;
-      var host = btn.closest('.play');
-      var pre = host && host.querySelector('pre');
-      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
-      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
-      var args = { slug: btn.dataset.slug };
-      if (btn.dataset.ask){
-        var v = prompt(btn.dataset.ask);
-        if (v === null) return;
-        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
-      }
-      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
-                        body: JSON.stringify({action: btn.dataset.action, args: args})})
-        .then(function(r){ return r.json(); })
-        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
-        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
-    });
-  });
-
   /* ── dual-mode links ─────────────────────────────────────────────
      Every internal link on this page is an absolute file:// URI, because a
      brief must work standalone (opened from Finder, mailed, published). A
@@ -380,7 +389,7 @@
      server's OS opener (the pattern proven in pulse_dashboard.py).
      file:// → untouched. Nothing here runs.                                */
   var LIVE = false;
-  var REPO_ROOT = "{{REPO_ROOT}}";
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair";
   if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
     var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
     var relPath = function(uri){

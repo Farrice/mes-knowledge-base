@@ -55,6 +55,21 @@ PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
 
+
+def _git_commit():
+    """Return the checkout identity once, without making /ping invoke git."""
+    try:
+        return subprocess.run(
+            ["git", "rev-parse", "--short=12", "HEAD"],
+            cwd=ROOT, capture_output=True, text=True, timeout=3, check=True,
+        ).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        return "unknown"
+
+
+ROOT_ID = os.path.realpath(ROOT)
+COMMIT_ID = _git_commit()
+
 # Root serves the Homebase hub (2026-08-20); the Pulse console lives at /pulse.
 HOME_PATHS = {"", "/", "/index.html", "/home", "/homebase"}
 
@@ -281,8 +296,13 @@ class Handler(BaseHTTPRequestHandler):
             self._send(403, "cross-origin", "text/plain; charset=utf-8")
             return
         route = self.path.split("?", 1)[0]
+        if route == "/favicon.ico":
+            self._send(204, b"", "image/x-icon")
+            return
         if route.startswith("/ping"):
             self._send(200, json.dumps({"pulse": True,
+                                        "root": ROOT_ID,
+                                        "commit": COMMIT_ID,
                                         "board_mtime": _mtime(BOARD),
                                         "room_mtime": _mtime(ROOM),
                                         "oracle_mtime": _mtime(ORACLE),
@@ -377,12 +397,13 @@ class Handler(BaseHTTPRequestHandler):
             self._send(500, json.dumps({"ok": False, "error": str(e)[:200]}), "application/json")
 
 
-def already_serving(port):
+def serving_identity(port):
     try:
         with urllib.request.urlopen(f"http://127.0.0.1:{port}/ping", timeout=2) as r:
-            return b"pulse" in r.read()
+            payload = json.loads(r.read().decode("utf-8"))
+            return payload if payload.get("pulse") else None
     except Exception:
-        return False
+        return None
 
 
 def main():
@@ -394,11 +415,18 @@ def main():
     args = ap.parse_args()
 
     url = f"http://127.0.0.1:{args.port}/"
-    if already_serving(args.port):
-        print(f"[pulse_serve] already live → {url}")
+    identity = serving_identity(args.port)
+    if identity:
+        live_root = os.path.realpath(str(identity.get("root") or ""))
+        if live_root != ROOT_ID:
+            print(f"[pulse_serve] port {args.port} belongs to a different checkout: {live_root}",
+                  file=sys.stderr)
+            print(f"[pulse_serve] requested checkout: {ROOT_ID}", file=sys.stderr)
+            return 2
+        print(f"[pulse_serve] already live → {url} · {identity.get('commit', 'unknown')}")
         if args.open:
             subprocess.run(["open", url], check=False)
-        return
+        return 0
 
     server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
 
@@ -436,4 +464,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main() or 0)
