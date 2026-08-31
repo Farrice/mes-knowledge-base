@@ -152,7 +152,7 @@
 | `hilary-gridley` | **Hilary Gridley — Judgment Encoding & Anti-Slop Management OS** | from the ex-whoop team lead behind 'how to be a super manager with ai, judgment encoding & anti-slop management os | 13 | 0 |
 | `how-i-write-os` | **How-I-Write OS — Master Writing Conductor** | cross-cutting writing × composition × reader impact, picks the smallest sufficient stack of forged experts (3-6, never all 10) | 1 | 0 |
 | `internal-comms` | **internal-comms** | a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use, leadership updates | 0 | 0 |
-| `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
+| `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 16 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 38 | 26 |
@@ -298,7 +298,7 @@
 | `oren-norton-world-building` | **Oren × Norton — Brand World-Building** | scott norton (sir kensington's founder, film-mechanics ladder (setting→institutions→props), growth by initiation | 10 | 0 |
 | `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 12 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |
-| `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, brand counterpositioning, vision extension | 3 | 7 |
+| `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, personal-brand worlds, brand counterpositioning | 6 | 7 |
 | `oren-slop-era-creative-strategy` | **Oren — Slop-Era Creative Strategy** | four-pillar premium-brand builds, insight→thesis→validate loop, irl reference edge | 10 | 0 |
 | `oren-taste-development` | **Oren - Taste Development Mastery** | critique vocabulary, deliberate-exposure curricula, use for creative-direction roles | 7 | 11 |
 | `oscar-hoglund-sound-storytelling` | **Oscar Hoglund - Sound Storytelling** | create content that is felt in the body, not just read by the eyes, sound storytelling | 4 | 23 |

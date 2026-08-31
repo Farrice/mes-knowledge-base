@@ -1,2 +1,10 @@
 {'mac': True, 'phone': 'unconfigured'}
 [2026-08-24T16:00:00+00:00] memory-review-nudge: pending=14 oldest=0d notify_rc=0
+Traceback (most recent call last):
+  File "/Users/farricecain/Google Antigravity/execution/memory_review_nudge.py", line 79, in <module>
+    sys.exit(main())
+  File "/Users/farricecain/Google Antigravity/execution/memory_review_nudge.py", line 56, in main
+    count, age = pending()
+  File "/Users/farricecain/Google Antigravity/execution/memory_review_nudge.py", line 37, in pending
+    count, oldest = con.execute(
+sqlite3.OperationalError: unable to open database file

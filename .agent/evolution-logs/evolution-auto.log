@@ -4085,3 +4085,76 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-31T07:00:05.282717",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-31.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.44,
+            "joey-cinema-os": 0.63,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.44,
+            "gemini-api-dev": 0.5,
+            "dave-clark": 1.53,
+            "ghostwriting-voice-engine": 1.5,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.58,
+            "nick-saraev-agentic-workflows": 1.44,
+            "kallaway-social-commerce": 0.56,
+            "kallaway-illusion-of-novelty": 0.92,
+            "extract-mastery": 1.42,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.44,
+            "michael-israetel-hypertrophy": 1.32,
+            "andrew-dun-vibe-consulting": 1.2,
+            "creative-direction": 0.69,
+            "oren-one-person-ai-marketer": 0.71
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": true,
+            "path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+          }
+        }
+      }
+    },
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-31.json",
+        "skills_tracked": 19,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "system-audit"
+        ],
+        "improving_count": 1,
+        "improving_skills": [
+          "sean-dollwet-kdp-publishing"
+        ],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 9.0
+    }
+  ]
+}

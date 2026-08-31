@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-08-30 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-08-31 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -12,6 +12,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-30 | active |
 | `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-08-30 | active* |
 | `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
+| `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `products` | _active/ | **— none —** | 2026-08-26 | active* |
@@ -19,7 +20,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `harness` | _active/ | `_active/harness/INDEX.md` | 2026-08-20 | active* |
 | `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-09 | active* |
 | `video-studio` | _active/ | `_active/video-studio/INDEX.md` | 2026-08-09 | active* |
-| `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-08 | active* |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-08-08 | active* |
 | `wagering` | _active/ | `_active/wagering/INDEX.md` | 2026-08-08 | active* |
 | `_archive` | _active/ | **— none —** | 2026-08-07 | active* |

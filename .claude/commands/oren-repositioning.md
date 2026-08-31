@@ -1,5 +1,5 @@
 ---
-description: "Creative direction of personalities, brand counterpositioning, vision extension, and cultural repositioning at scale"
+description: "Creative direction of personalities, personal-brand worlds, brand counterpositioning, vision extension, and cultural repositioning at scale. Use for 90-day founder/creator direction systems, biweekly source-rich idea rooms, visual/styling world kits, category-code inversion, a..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
