@@ -1,6 +1,6 @@
 # The Angle Map — LinkedIn Featured production pack
 
-State: `PASS FOR DRAFT REVIEW · NOT AUTO-PUBLISH`
+State: `V2 APPROVED · EXTERNAL ACTION HOLD`
 
 ## Placement
 
@@ -10,7 +10,9 @@ State: `PASS FOR DRAFT REVIEW · NOT AUTO-PUBLISH`
 - **Final visual:** `fc-pm1_li-featured-angle-map-evidence_review_v02.png`
 - **Editable source:** `fc-pm1_li-featured-angle-map-evidence_review_v02.svg`
 - **Alt text:** `The Angle Map offer cover explaining the read, map, and decide purchase sequence before another creative round.`
-- **Protected post copy:** Pair with the existing P1 launch post. This build does not overwrite the protected primary.
+- **Companion post:** `LINKEDIN-COMPANION-LAUNCH-POST.md`, a P1-faithful BLEND branch. The protected primary remains unchanged.
+- **Upload sequence:** `LINKEDIN-FEATURED-POSITION-2-UPLOAD-HANDOFF.md`.
+- **Future proof gate:** `PAID-CLIENT-PROOF-CAPTURE-TEMPLATE.md`; Featured position 3 remains empty.
 
 ## Final visible copy
 
@@ -51,10 +53,10 @@ Live market proof does not exist yet, so all scores remain below 9.
 | Anti-slop | 8.9 |
 | Platform fit | 8.8 |
 
-Verdict: `PASS FOR DRAFT REVIEW, NOT AUTO-PUBLISH`.
+Verdict: `APPROVED ASSET · NOT AUTO-PUBLISH`.
 
 The lowest score is proof because the asset states verified offer mechanics but carries no live client result. The next improvement is paid, permissioned proof, not more copy.
 
 ## Publication boundary
 
-Before upload, confirm the real payment or invoice rail and capacity for the promised working session and delivery clock. LinkedIn upload, publishing, profile edits, and outreach still require explicit approval.
+Before upload, confirm the real payment or invoice rail and capacity for the promised working session and delivery clock. LinkedIn upload, publishing, profile edits, and outreach still require explicit approval. Those checks were not performed in this approval pass.
