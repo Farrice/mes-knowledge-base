@@ -1,12 +1,20 @@
 ---
 thread: gigi-concept
 status: active
-resume_hint: Gigi Mironova concept build — research DONE, design floor banked
+resume_hint: Gigi Mironova concept BUILT — 13 boards + share page live; awaiting Farrice's verdict, then her Russian pass
 branch: worktree-jen-fhv-design-fixes
 pin: true
 ---
 
 # Gigi Mironova concept build
+
+> **BUILT 2026-08-31** on branch `worktree-gigi-concept`.
+> Concept: <https://claude.ai/code/artifact/fa7d387e-50ec-456e-9584-a73cd257d69d>
+> Artwork + build scripts: `_active/clients/gigi-mironova/production/american-transaction/`
+> Operator notes (never shown to her): `_active/clients/gigi-mironova/OPERATOR-NOTES.md`
+> Open: Farrice's verdict on the deck · Gigi's pass on the Russian · her portrait for R4 ·
+> Jen's OK to show team packages to teammates.
+> The brief below is the source it was built from and stays as written.
 
 Build a presentable concept that makes **Gigi Mironova** — an agent on Jen Santulan's team
 at Equity Union / My House Sellers — want to hire Farrice for a content package. Warm

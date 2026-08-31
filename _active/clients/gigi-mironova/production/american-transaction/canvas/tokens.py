@@ -24,7 +24,7 @@ ACCENT_LT  = "#E8C4BE"   # the Playfair italic accent on dark grounds   (#C9D4E2
 PAPER      = "#FFFFFF"
 
 # dark-ground equivalents (authored dark from the start — never remapped, per DESIGN.md)
-D_GHOST    = "rgba(255,255,255,0.15)"
+D_GHOST    = "rgba(255,255,255,0.22)"
 D_HAIRLINE = "rgba(255,255,255,0.34)"
 D_MUTED    = "rgba(255,255,255,0.74)"
 
@@ -60,10 +60,11 @@ CSS = f"""
   .duo > img {{ filter:grayscale(1) contrast(1.14) brightness(0.86); }}
   .duo .tint {{ opacity:0.92; }}
   .duo .lift {{ opacity:0.10; }}
-  .bleed > img {{ filter:saturate(0.72) contrast(1.06) brightness(0.94); }}
+  .bleed > img {{ filter:sepia(0.30) hue-rotate(-10deg) saturate(0.88)
+                          contrast(1.06) brightness(0.94); }}
   .bleed .scrim {{ background:linear-gradient(180deg,
         rgba({SCRIM_RGB},0.62) 0%, rgba({SCRIM_RGB},0.48) 26%,
-        rgba({SCRIM_RGB},0.66) 60%, rgba({SCRIM_RGB},0.92) 100%); }}
+        rgba({SCRIM_RGB},0.64) 60%, rgba({SCRIM_RGB},0.86) 100%); }}
 
   /* --- shared furniture --- */
   .pad  {{ position:relative; z-index:1; display:flex; flex-direction:column; height:100%;

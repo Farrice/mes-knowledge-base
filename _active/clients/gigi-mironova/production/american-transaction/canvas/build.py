@@ -27,17 +27,24 @@ SERIES_RU = "АМЕРИКАНСКАЯ СДЕЛКА"
 
 # ---------------------------------------------------------------- primitives
 def embed(name):
-    p = IMG / name
+    p = IMG / (name if name.endswith(".jpg") else name + ".jpg")
     mime = mimetypes.guess_type(p.name)[0] or "image/jpeg"
     return "data:%s;base64,%s" % (mime, base64.b64encode(p.read_bytes()).decode())
 
 
-def photo(name, treatment, pos="50% 50%"):
-    """A layer stack over one cover-fit image. Framing is per slide, inline. Never global."""
+def photo(name, treatment, pos="50% 50%", scale=1.0):
+    """A layer stack over one cover-fit image.
+
+    Framing is per slide and inline — never in the shared stylesheet. Several images in
+    this bank are archival press negatives carrying a black scan border and a handwritten
+    negative number; `scale` crops that off the individual frame that needs it. A global
+    scale would silently crop every other photograph in the deck (DESIGN.md, first pass).
+    """
     layers = '<div class="tint"></div><div class="lift"></div>' if treatment == "duo" \
-        else '<div class="tint" style="opacity:0.42"></div><div class="scrim"></div>'
-    return ('<div class="photo %s"><img alt="" style="object-position:%s;" src="%s">%s</div>'
-            % (treatment, pos, embed(name), layers))
+        else '<div class="tint" style="opacity:0.50"></div><div class="scrim"></div>'
+    tf = "" if scale == 1.0 else " transform:scale(%s);" % scale
+    return ('<div class="photo %s"><img alt="" style="object-position:%s;%s" src="%s">%s</div>'
+            % (treatment, pos, tf, embed(name), layers))
 
 
 def ghost(n, right, top, dark):
@@ -94,14 +101,14 @@ def frame(cls, inner, ru=False):
 
 
 def story(img, treatment, pos, g, head, sub, top_l, top_r, foot_l, foot_r, ru=False,
-          head_size=96, gx=-64, gy=200, extra=""):
+          head_size=96, gx=-64, gy=200, extra="", scale=1.0):
     """Full-bleed photograph. Type carries the data; the photo carries place and moment."""
-    inner = (photo(img, treatment, pos)
-             + ghost(g, gx, gy, True) if g else photo(img, treatment, pos))
+    inner = photo(img, treatment, pos, scale) if img else ""
     if g:
-        inner = photo(img, treatment, pos) + ghost(g, gx, gy, True)
+        inner += ghost(g, gx, gy, True)
     inner += ('<div class="pad">%s'
-              '<div style="display:flex; flex-direction:column; gap:36px;">'
+              '<div style="flex:1; display:flex; flex-direction:column; gap:36px; '
+              'justify-content:flex-end; padding-bottom:34px;">'
               '<div class="h" style="font-size:%dpx; line-height:1.13;">%s</div>%s%s</div>'
               '%s</div>'
               % (rule(top_l, top_r, True), head_size, head,
@@ -115,7 +122,8 @@ def structure(g, head, mid, top_l, top_r, foot_l, foot_r, ru=False, head_size=76
     """White ground. The densest layouts in the deck — the white is the luxury."""
     inner = ghost(g, gx, gy, False) if g else ""
     inner += ('<div class="pad">%s'
-              '<div style="display:flex; flex-direction:column; gap:44px;">'
+              '<div style="flex:1; display:flex; flex-direction:column; gap:44px; '
+              'justify-content:center; padding:18px 0 26px;">'
               '<div class="h" style="font-size:%dpx; line-height:1.14;">%s</div>%s</div>'
               '%s</div>'
               % (rule(top_l, top_r, False), head_size, head, mid,
@@ -144,7 +152,7 @@ def deadline_columns():
             % ("".join(cells), T.MUTED, T.INK))
 
 
-def questions(items, ru=False):
+def questions(items, note=None, ru=False):
     rows = []
     for i, q in enumerate(items, 1):
         rows.append(
@@ -154,7 +162,13 @@ def questions(items, ru=False):
             'min-width:64px;">0%d</div>'
             '<div style="font-size:31px; line-height:1.42; color:%s;">%s</div></div>'
             % (T.HAIRLINE, T.ACCENT, i, T.INK, q))
-    return '<div style="display:flex; flex-direction:column; gap:26px;">%s</div>' % "".join(rows)
+    tail = ""
+    if note:
+        tail = ('<div style="margin-top:8px; background:%s; padding:30px 34px; '
+                'font-size:28px; line-height:1.46; color:%s;">%s</div>'
+                % (T.HAIRLINE, T.INK, note))
+    return ('<div style="display:flex; flex-direction:column; gap:24px;">%s%s</div>'
+            % ("".join(rows), tail))
 
 
 def cta_button(label):
@@ -177,8 +191,8 @@ def reel_foot():
             % (T.D_MUTED, HANDLE, play_icon()))
 
 
-def reel(img, treatment, pos, g, head, top_r, ru=False, series=None, gy=330):
-    inner = photo(img, treatment, pos)
+def reel(img, treatment, pos, g, head, top_r, ru=False, series=None, gy=330, scale=1.0):
+    inner = photo(img, treatment, pos, scale) if img else ""
     if g:
         inner += ghost(g, -70, gy, True)
     inner += ('<div class="pad">%s'
@@ -194,12 +208,15 @@ def profile_board():
     card = ('<div style="border:1px solid %s; padding:44px 46px; display:flex; '
             'flex-direction:column; gap:20px;">'
             '<div class="caps" style="font-size:19px; color:%s;">GIGI MIRONOVA · REALTOR®</div>'
-            '<div class="ru" style="font-size:33px; line-height:1.5; color:%s;">%s</div>'
+            '<div class="ru" style="font-size:37px; line-height:1.52; color:%s;">%s</div>'
             '</div>'
             '<div style="font-size:29px; line-height:1.5; color:%s; max-width:800px;">'
             'one promise, one service, one way in — and the second language moved out of the '
             'fine print and into the <span class="si" style="font-size:34px;">offer.</span></div>'
-            % (T.HAIRLINE, T.MUTED, T.INK, bio, T.MUTED))
+            '<div style="background:%s; padding:30px 34px; font-size:27px; line-height:1.45; '
+            'color:%s;">'
+            'her name leads every graphic. the brokerage sits in the profile name field.</div>'
+            % (T.HAIRLINE, T.MUTED, T.INK, bio, T.MUTED, T.HAIRLINE, T.INK))
     return structure("", 'the bio, rebuilt around<br>the one thing a competitor<br>'
                          'cannot <span class="si">hire.</span>',
                      card, HANDLE, "PROFILE", "INSTAGRAM BIO — 149 CHARACTERS", "01 / 02",
@@ -219,38 +236,52 @@ def highlight_board():
             'text-align:center; line-height:1.2;">%s</span></div></div>' % (T.BAND, size, w))
     grid = ('<div style="display:grid; grid-template-columns:repeat(3,1fr); gap:34px 24px; '
             'justify-items:center;">%s</div>' % "".join(cells))
+    tail = ('<div style="background:%s; padding:30px 34px; font-size:27px; line-height:1.45; '
+            'color:%s;">nine words, nine <span class="si" style="font-size:31px;">entrances</span> — one for each thing '
+            'someone arriving on the profile is actually looking for.</div>' % (T.HAIRLINE, T.INK))
     return structure("", 'nine covers.<br>nine different <span class="si">doors.</span>',
-                     grid, HANDLE, "PROFILE", "HIGHLIGHT COVER SET", "02 / 02", head_size=64)
+                     grid + tail, HANDLE, "PROFILE", "HIGHLIGHT COVER SET", "02 / 02",
+                     head_size=64)
 
 
 BOARDS = [
+    # STORY slides carry photography; STRUCTURE slides stay white and must be the
+    # densest layouts in the deck. Ratio held at 2 structure / 4 story across the
+    # carousel proper, matching the reference build.
+
     ("C1", "C1 · Hook", lambda: story(
-        "los-angeles-street-01", "bleed", "50% 46%", "17",
-        'your offer was accepted.<br>then a clock started<br>that nobody '
+        # golden-hour valley: the strongest frame in the bank, and warm enough that the
+        # oxblood tint reads as the photograph's own light rather than a filter on it
+        "palm-tree-sunset-city-01", "bleed", "50% 54%", "17",
+        'your offer was accepted.<br>a clock started that<br>nobody '
         '<span class="si">explained.</span>',
         "three deadlines run from the day you sign. miss one and the protection you paid "
         "for quietly stops protecting you.",
-        HANDLE, SERIES, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 6")),
+        HANDLE, SERIES, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 6", head_size=88)),
 
     ("C2", "C2 · Day Zero", lambda: story(
-        "contract-signing-pen-01", "duo", "50% 52%", "0",
+        # cropped hard onto the signature itself — the wide frame reads as stock, the
+        # tight one reads as a moment
+        "contract-signing-pen-01", "duo", "42% 64%", "0",
         'day <span class="si">zero</span> is the<br>day you both sign.',
         "every deadline in the contract counts from the next morning — not from the "
         "inspection, not from the day your lender finally calls. from acceptance.",
-        HANDLE, SERIES, "THE AMERICAN TRANSACTION", "2 / 6", gy=240)),
+        HANDLE, SERIES, "THE AMERICAN TRANSACTION", "2 / 6", gy=240, scale=1.55)),
 
     ("C3", "C3 · Three Deadlines", lambda: structure(
         "21", 'three deadlines.<br>three <span class="si">separate</span> clocks.',
         deadline_columns(), HANDLE, SERIES,
-        "SOURCE: C.A.R. RESIDENTIAL PURCHASE AGREEMENT — DEFAULT PERIODS", "3 / 6")),
+        "SOURCE: C.A.R. RESIDENTIAL PURCHASE AGREEMENT — DEFAULT PERIODS", "3 / 6",
+        gy=250)),
 
     ("C4", "C4 · The Deposit", lambda: story(
-        "table-math-01", "bleed", "50% 50%", "3",
+        # archival press negative — scale crops the black scan border off this frame only
+        "table-math-01", "duo", "50% 46%", "3",
         'the deposit is due in<br>three business days.<br>it is not a '
         '<span class="si">fee.</span>',
         "1–3% of the price, wired to a neutral third party — not to the seller, not to "
         "your agent. while a contingency is still live, it comes back to you.",
-        HANDLE, SERIES, "THE AMERICAN TRANSACTION", "4 / 6", gy=230)),
+        HANDLE, SERIES, "THE AMERICAN TRANSACTION", "4 / 6", gy=230, scale=1.16)),
 
     ("C5", "C5 · Three Questions", lambda: structure(
         "", 'three questions before<br>you remove <span class="si">anything.</span>',
@@ -258,7 +289,9 @@ BOARDS = [
             "which contingency am I removing, and what does it stop protecting?",
             "what is the exact calendar date, counted from acceptance?",
             "what happens to my deposit if I walk away after this?",
-        ]), HANDLE, SERIES, "SAVE THIS BEFORE YOUR NEXT OFFER", "5 / 6")),
+        ], note="removing a contingency is a signature, not a formality. it is the moment "
+                "your deposit stops being refundable."),
+        HANDLE, SERIES, "SAVE THIS BEFORE YOUR NEXT OFFER", "5 / 6")),
 
     ("C5RU", "C5 · Three Questions · RU", lambda: structure(
         "", 'три вопроса, прежде<br>чем подписать отказ<br>от <span class="si">условий.</span>',
@@ -266,11 +299,13 @@ BOARDS = [
             "От чего именно защищало меня это условие?",
             "Какая точная дата, если считать со дня подписания?",
             "Что будет с моим депозитом, если я выйду из сделки после этого?",
-        ]), HANDLE, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6",
-        ru=True, head_size=64)),
+        ], note="снятие условия — это подпись, а не формальность. именно с этого момента "
+                "депозит перестаёт быть возвратным."),
+        HANDLE, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6",
+        ru=True, head_size=62)),
 
     ("C6", "C6 · CTA", lambda: story(
-        "front-door-house-02", "bleed", "50% 54%", "",
+        "sunlight-through-window-floor-00", "bleed", "50% 62%", "",
         'you can read<br>the contract. or you<br>can have it '
         '<span class="si">explained.</span>',
         "escrow, contingencies, deposits — the whole American transaction, walked through "
@@ -279,25 +314,29 @@ BOARDS = [
         extra=cta_button("DM «СДЕЛКА» OR ESCROW"))),
 
     ("R1", "Reel 1 Cover", lambda: reel(
-        "los-angeles-street-00", "bleed", "50% 48%", "17",
+        "balcony-plants-apartment-02", "duo", "50% 40%", "17",
         'your offer got<br>accepted. a clock<br><span class="si">started.</span>',
         "REEL · 01")),
 
     ("R2", "Reel 2 Cover", lambda: reel(
-        "contract-signing-pen-02", "bleed", "50% 50%", "3",
+        "front-door-house-02", "duo", "50% 50%", "3",
         'you wired three<br>percent. where<br>did it <span class="si">go?</span>',
-        "REEL · 02")),
+        "REEL · 02", scale=1.14)),
 
     ("R3", "Reel 3 Cover · RU", lambda: reel(
-        "palm-tree-sunset-city-01", "duo", "50% 46%", "21",
+        "palm-tree-sunset-city-00", "duo", "50% 46%", "21",
         'вам одобрили<br>предложение.<br>часы уже <span class="si">идут.</span>',
-        "REEL · 03", ru=True, series=SERIES_RU)),
+        "REEL · 03", ru=True, series=SERIES_RU, scale=1.18)),
 
     ("R4", "Reel 4 Cover · Portrait slot", lambda: reel(
-        "sunlight-through-window-floor-00", "bleed", "50% 56%", "",
+        # no photograph on purpose. the bank has no usable portraiture (DESIGN.md § imagery
+        # — every human frame under CC0 is posed stock), and this is the one line in the
+        # set that is hers. an empty oxblood field is the strongest holder for it, and it
+        # is exactly the shape her own portrait drops into when she sends one.
+        None, None, None, "",
         'I don\'t have anyone<br>to fall back on.<br>so my clients '
         '<span class="si">do.</span>',
-        "REEL · 04")),
+        "REEL · 04 — PORTRAIT SLOT")),
 
     ("P1", "Profile · Bio", profile_board),
     ("P2", "Profile · Highlights", highlight_board),

@@ -161,20 +161,76 @@ and obvious in the grid.
 
 ---
 
+## Registers built on this grammar
+
+| Register | Hue family | Built for | Where |
+|---|---|---|---|
+| Navy (reference) | `#1E3A5F` / `#16304F` | Jen Santulan — First Home Valley | `jen-santulan/production/first-home-valley/canvas-v2/` |
+| Oxblood | `#4A1420` / `#3B0F1A` | Gigi Mironova — The American Transaction | `gigi-mironova/production/american-transaction/canvas/` |
+
+Recommendation 2 below is **built**. A register is a hue-family swap plus its own token
+file (`tokens.py`) — the grammar, the slide taxonomy, the ghost numeral and the two photo
+treatments are shared and must not be re-derived. Two rules learned building the second one:
+
+**Warm the bleed when the register is warm.** `bleed` holds the photograph's own colour at
+`saturate(0.72)`. In a navy register that is invisible, because the bank leans cool and the
+tint agrees with it. Drop the same treatment into a warm register and every cool-cast
+photograph fights the tint — a blue-hour street frame under an oxblood tint reads as though
+it wandered in from the other agent's deck. The oxblood register prepends
+`sepia(0.30) hue-rotate(-10deg)` and lifts the tint to `0.50`, which lands the whole bank
+in one family. Any new register needs the equivalent pass, chosen by eye against its bank.
+
+**Ease the bottom scrim.** The reference gradient ends at `0.92`, which crushes the lower
+third of a darker photograph to featureless mud. `0.86` holds type just as well and keeps
+the image alive. Applied in oxblood; worth backporting.
+
+**Different agents get different photographs, not the same ones recoloured.** The oxblood
+deck shares zero images with the navy one. Same system, same grammar, no visual overlap —
+otherwise the second deck reads as the first one with a filter on it.
+
+## Cyrillic, and any non-Latin lane
+
+**Figtree ships `latin` and `latin-ext` only. It has no Cyrillic subset.** Russian set in it
+falls back to a system sans without erroring, and the register quietly breaks on exactly the
+slide meant to prove the second-language lane works.
+
+**Manrope** carries `cyrillic` and `cyrillic-ext` and is the closest geometric-humanist match
+to Figtree on Google Fonts. **Playfair Display's italic carries Cyrillic too**, so the
+accent-word move — the single thing that makes this system read editorial — survives the
+language switch intact. Verified against the Google Fonts CSS API, 2026-08-30.
+
+Implementation: one `.ru` class swapping only the structural family, applied at the frame.
+Everything else is unchanged. Check the same way before adding any other script.
+
+## The archival-scan trap
+
+A large share of the CC0 bank is archival press and FSA negatives, and many carry a black
+scan border and a handwritten negative number inside the frame. They are often the best
+photographs available and they want the `duo` treatment.
+
+Crop the border with `transform:scale()` **inline on the individual `<img>`** — 1.14–1.18
+is usually enough. Never in the shared stylesheet: the reference deck's one global
+`scale(1.10)`, added to fix exactly this on one slide, silently cropped 10% off every other
+image and reduced two reel covers to a wrist on empty grey.
+
 ## Open recommendations
 
-Not built. Offered when Farrice asked what else could extend or vary this.
+Offered when Farrice asked what else could extend or vary this. Recommendation 2 is now
+built (see *Registers* above); 5 is half-answered.
 
-1. **A light register.** Everything here is navy-dominant. A warm-paper variant — bone
-   ground, ink type, one warm accent — would suit a luxury or Conejo Valley listing lane
+1. **A light register.** Everything here is navy- or oxblood-dominant. A warm-paper variant —
+   bone ground, ink type, one warm accent — would suit a luxury or Conejo Valley listing lane
    without abandoning the grammar.
-2. **Duotone in a second hue.** The system is one navy. Keying the duotone per agent
-   (navy for one, oxblood or forest for another) gives each agent a deck that is
-   recognisably theirs while sharing the structure. Cheapest real differentiation available.
+2. ~~**Duotone in a second hue.**~~ **BUILT** — oxblood, 2026-08-30. See *Registers* above.
 3. **Motion.** Reel covers are static frames of a video. One slow push-in on the bleed photo
    with the type held still would make the covers work as the first frame of the reel.
-4. **A data-slide vocabulary.** A3's 29-vs-40 comparison is the only quantitative layout in
-   the system. Two or three more (a ladder, a share-of-market bar, a payment stack) would
-   let structure slides carry more of the argument.
-5. **The agent's own face.** Every strong realtor account eventually rests on the person.
-   The system currently has no portrait treatment. It needs one.
+4. **A data-slide vocabulary.** A3's 29-vs-40 comparison and the oxblood deck's three-deadline
+   ladder are the only quantitative layouts in the system. Two or three more (a share-of-market
+   bar, a payment stack) would let structure slides carry more of the argument.
+5. **The agent's own face.** Every strong realtor account eventually rests on the person, and
+   the CC0 pool has no usable portraiture — every human frame is posed stock, an engraving, or
+   disembodied hands. The oxblood deck's answer is a **portrait slot**: a photograph-free
+   board in the flat register hue carrying one line, which holds a personal statement better
+   than bad stock does and is the exact shape a real portrait drops into. That is a holding
+   pattern, not a portrait treatment. The treatment still needs building, and it needs a real
+   photograph — always ask the agent for originals first.
