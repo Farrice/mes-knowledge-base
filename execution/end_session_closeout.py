@@ -1026,7 +1026,10 @@ def run(slug: str, degraded: bool, dry_run: bool,
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
-        ("mission-briefs", lambda: step_mission_briefs(ctx, degraded, dry_run)),
+        ("mission-briefs", lambda: (
+            ("SKIP", "Codex closeout does not regenerate broad mission briefs")
+            if codex_owned else step_mission_briefs(ctx, degraded, dry_run)
+        )),
         ("artifact-sweep", lambda: (
             ("SKIP", "Codex organization is manifest-scoped in codex_end_session.py")
             if codex_owned else step_artifact_sweep(ctx, degraded, dry_run)
@@ -1044,7 +1047,10 @@ def run(slug: str, degraded: bool, dry_run: bool,
         ("solution-cards", lambda: step_solution_cards(ctx, degraded, dry_run)),
         # LAST by contract: its final act removes the worktree this process
         # may be running in — nothing can run after it (lanes build 2026-08-06).
-        ("lane-merge", lambda: step_lane_merge(ctx, degraded, dry_run)),
+        ("lane-merge", lambda: (
+            ("SKIP", "Codex coordinator owns branch checkpointing and never merges main")
+            if codex_owned else step_lane_merge(ctx, degraded, dry_run)
+        )),
     ]
 
     counts = {"OK": 0, "SKIP": 0, "FAIL": 0}

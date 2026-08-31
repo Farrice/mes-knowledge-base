@@ -641,7 +641,7 @@ def cmd_merge(args) -> int:
     # Serialize the entire lane lifecycle, including the pre-merge seal. The
     # old merge-only mutex began after sealing, which allowed /end-session and
     # the reconciler to race and commit unrelated generated files.
-    operation_lockfile = main / ".agent" / "lane-operation.lock"
+    operation_lockfile = main / ".git" / "lane-operation.lock"
     operation_lockfile.parent.mkdir(exist_ok=True)
     operation_lock_fd = os.open(operation_lockfile, os.O_CREAT | os.O_RDWR)
     try:

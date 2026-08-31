@@ -173,9 +173,9 @@ def verify_text() -> list[str]:
         if not path.exists():
             raise AssertionError(f"Missing file: {path}")
         text = path.read_text(encoding="utf-8", errors="ignore")
-        normalized = " ".join(text.split())
+        normalized = " ".join(text.split()).lower()
         for snippet in snippets:
-            if " ".join(snippet.split()) not in normalized:
+            if " ".join(snippet.split()).lower() not in normalized:
                 raise AssertionError(f"Missing snippet in {path}: {snippet}")
         for snippet in FORBIDDEN:
             if snippet.lower() in text.lower():

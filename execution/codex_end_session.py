@@ -85,11 +85,11 @@ def lane_operation_lock_path(project: Path) -> Path:
     """Return the shared main-repo lock used by closeout and lane sealing."""
     result = git(project, "rev-parse", "--git-common-dir")
     if result.returncode != 0 or not result.stdout.strip():
-        return project / ".agent" / "lane-operation.lock"
+        return project / ".git" / "lane-operation.lock"
     common = Path(result.stdout.strip())
     if not common.is_absolute():
         common = (project / common).resolve()
-    return common.parent / ".agent" / "lane-operation.lock"
+    return common / "lane-operation.lock"
 
 
 def acquire_lane_operation_lock(project: Path) -> int:

@@ -286,12 +286,18 @@ def check_lane_operation_lock(tmp: Path) -> list[str]:
     codex_close.release_lane_operation_lock(retry_fd)
 
     lane_source = (ROOT / "execution" / "worktree_lane.py").read_text(encoding="utf-8")
-    lock_pos = lane_source.index('operation_lockfile = main / ".agent" / "lane-operation.lock"')
+    lock_pos = lane_source.index('operation_lockfile = main / ".git" / "lane-operation.lock"')
     seal_pos = lane_source.index("# 1 SEAL")
     require(lock_pos < seal_pos, "lane operation lock must be acquired before sealing")
+    spine_source = (ROOT / "execution" / "end_session_closeout.py").read_text(encoding="utf-8")
+    require("Codex closeout does not regenerate broad mission briefs" in spine_source,
+            "Codex closeout must skip broad mission-brief regeneration")
+    require("Codex coordinator owns branch checkpointing and never merges main" in spine_source,
+            "Codex closeout must skip legacy lane auto-merge")
     return [
         "End-session rejects a contended lane operation and releases its lock for retry",
         "lane reconciliation takes the shared operation lock before sealing",
+        "Codex closeout skips broad mission-brief regeneration and legacy lane auto-merge",
     ]
 
 

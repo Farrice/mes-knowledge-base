@@ -80,6 +80,10 @@ coordinator exits without writing; a contended reconciler parks the lane. The
 verifier must prove contention fails, release permits retry, and the reconciler's
 lock acquisition appears before its seal step.
 
+For `codex-owned` Git policy, the legacy closeout spine must also skip broad
+mission-brief regeneration and lane auto-merge. Only the manifest coordinator may
+checkpoint its approved paths and push its current `codex/*` branch.
+
 ## State Decision
 
 | Receipt and native action state | Visible result |

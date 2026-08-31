@@ -235,10 +235,12 @@ and writes an integration packet. It never merges or pushes `main`.
 The legacy `end_session_closeout.py run --slug <slug>` invocation remains
 available for Claude compatibility and retains its legacy commit-gate behavior.
 
-The coordinator and `worktree_lane.py merge` share `.agent/lane-operation.lock`.
+The coordinator and `worktree_lane.py merge` share `.git/lane-operation.lock`.
 The coordinator acquires it before writing closeout state, and lane reconciliation
 acquires it before sealing a lane. If either operation is active, the other parks
 or exits cleanly; it must never seal a partially completed closeout.
+Codex-owned closeout also skips broad mission-brief regeneration and the legacy
+lane auto-merge step; the manifest coordinator alone owns its branch checkpoint.
 
 ---
 
