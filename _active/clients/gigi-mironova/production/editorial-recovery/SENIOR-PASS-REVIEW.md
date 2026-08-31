@@ -13,9 +13,13 @@ The senior pass replaces the recovery fixture as the acceptance anchor. The earl
 - The left clay rule, restrained labels, and Calm Closer file language make the board identifiable without overpowering the property.
 - Supporting copy, address, price, license, and CTA remain legible at thumbnail scale.
 
+## Restraint amendment
+
+Farrice's final correction outranks the two-image senior composition: one board should feature one property image and one highlighted fact. A secondary image is allowed only when it continues a real sequence or proves something the primary image cannot. Otherwise it steals scale from the property and implies a carousel continuation that does not exist. `final-pass.png` is the current acceptance anchor.
+
 ## Regression guard
 
-Future Property Dossier boards must preserve one property-led image argument, one concrete fact, one asymmetric editorial decision, and the modern sans backbone. A repeated photo-over-headline template fails even if its colors and fonts match.
+Future Property Dossier boards must preserve one property-led image argument, one concrete fact, one purposeful editorial decision, and the modern sans backbone. A repeated photo-over-headline template fails even if its colors and fonts match. A second image also fails unless it performs a necessary information job.
 
 ## Replay prompt
 
