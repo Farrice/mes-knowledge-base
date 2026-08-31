@@ -1,12 +1,12 @@
 ---
 name: "source-command-jun-story-engine"
-description: "Mine truthful lived-story material and deploy it to one Jun social format or Shaan's cross-domain story system."
+description: "Mine truthful lived-story material, recover sourced Pursuit into a method or offer hypothesis, expand distinct angles, and deploy through Jun or Shaan."
 ---
 
 # source-command-jun-story-engine
 
-Use this skill when the user invokes `/jun-story-engine`, names `source-command-jun-story-engine`, says their life feels too boring for stories, or supplies lived material that needs story mining before deployment.
+Use this skill when the user invokes `/jun-story-engine`, names `source-command-jun-story-engine`, says their life feels too boring for stories, supplies lived material that needs story mining, wants to recover teachable IP from a repeated Pursuit, or needs several meaning-distinct angles from one moment.
 
 ## Command Template
 
-Read and execute `.agent/workflows/jun-story-engine.md`. Preserve Jun as the social story owner and Shaan as the cross-domain narrative-dosage owner.
+Read and execute `.agent/workflows/jun-story-engine.md`. Preserve Jun as the material and social-story owner, Shaan as the cross-domain narrative-dosage owner, and `/ml-validate-offer` as the commercial validation owner.

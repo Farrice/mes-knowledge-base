@@ -91,11 +91,15 @@ Never let an experience, method, or sample-deliverable story imply market proof.
 Pass the Story Material Packet to:
 
 - `story-content-format-router` for personal-brand/social deployment; or
+- `pursuit-to-offer-miner` when the objective is method recovery, productization, teaching IP, or offer discovery and a sourced Pursuit exists; or
+- `story-angle-expander` when one bounded moment needs meaning-distinct breadth before format selection; or
 - `/shaan-story-deploy` for dosage and cross-domain production.
+
+Record `METHOD READINESS` as `NO_OFFER`, `NEEDS_SOURCE`, or `METHOD_CANDIDATE`. The material miner may identify readiness, but only `pursuit-to-offer-miner` may construct the Method Card.
 
 ## Output Contract
 
-Produce one Story Material Packet with evidence labels, moment type, LIFE domain, Safe/Real/Raw answers, 3P candidate, missing facts, privacy exclusions, commercial proof ceiling when applicable, recommended next owner, and one open risk.
+Produce one Story Material Packet with evidence labels, moment type, LIFE domain, Safe/Real/Raw answers, 3P candidate, method readiness, missing facts, privacy exclusions, commercial proof ceiling when applicable, recommended next owner, and one open risk.
 
 Execution prompt: `../references/prompts-v2/story-material-packet.md` — honor its Output Contract.
 

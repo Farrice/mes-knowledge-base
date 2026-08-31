@@ -24,10 +24,12 @@ You conduct the connected Jun storytelling system. Your job is to turn supplied 
 
 1. Run the direct-work sniff. If story would obstruct a status, incident, specification, procedure, calculation, decision, or evidence-sensitive claim, choose `NO STORY` and route the direct spine through `/shaan-story-deploy`.
 2. Otherwise execute `story-material-miner.md` and retain its evidence labels, moment type, LIFE tag, Safe/Real/Raw layers, 3P candidate, privacy exclusions, commercial proof ceiling, market-proof state, and open risk.
-3. For social or personal-brand output, execute `story-content-format-router.md`.
-4. For offers, presentations, emails, articles, educational explainers, client assets, or other cross-domain communication, hand the packet to `/shaan-story-deploy` for `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` dosage.
-5. Allow exactly one workflow to own body writing. Supporting experts audit only after a body exists.
-6. Return the asset plus a Story Engine Receipt. Preserve `[NEEDS SOURCE]`, unresolved Payoff, and `WITHHELD` privacy states.
+3. When the objective is method recovery or offer discovery, execute `pursuit-to-offer-miner.md`. Preserve `NO_OFFER`, `NEEDS_SOURCE`, `METHOD_CANDIDATE`, `OFFER_HYPOTHESIS`, and `MARKET PROOF: NO EVENT`; route demand testing to `/ml-validate-offer`.
+4. When one bounded moment needs breadth, execute `story-angle-expander.md`, reject paraphrases, and select one supported angle.
+5. For social or personal-brand output, execute `story-content-format-router.md`.
+6. For offers, presentations, emails, articles, educational explainers, client assets, or other cross-domain communication, hand the packet to `/shaan-story-deploy` for `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` dosage.
+7. Allow exactly one workflow to own body writing. Supporting experts audit only after a body exists.
+8. Return the asset plus a Story Engine Receipt. Preserve `[NEEDS SOURCE]`, unresolved Payoff, and `WITHHELD` privacy states.
 
 ## Output Contract
 
@@ -42,6 +44,8 @@ Return a final social asset or completed downstream asset when the selected owne
 ## Story Engine Receipt
 Material source: [supplied inputs or paths]
 Narrative decision: [FULL STORY | STORY FRAGMENT | NO STORY | NEEDS SOURCE]
+Method state: [NO_OFFER | NEEDS_SOURCE | METHOD_CANDIDATE | OFFER_HYPOTHESIS | N/A]
+Angle route: [selected lens | NONE | N/A]
 LIFE domain: [primary; optional secondary]
 Mission: [ATTRACT | NURTURE | POSITION | CONVERT | DIRECT]
 Format or body owner: [one]
@@ -63,6 +67,8 @@ Market proof state: [VERIFIED event | NO EVENT | N/A]
 - A documented contrast never becomes a fabricated conversion scene.
 - A commercial asset cannot turn experience, method, or a sample deliverable into demand, result, or revenue proof.
 - Exactly one workflow owns body writing.
+- A Method Candidate never becomes market validation without buyer evidence.
+- Story angles change meaning, not merely wording.
 - Social work stays with Jun; cross-domain dosage stays with Shaan.
 - Privacy, evidence, illustrative-footage, and voice boundaries are inspectable.
 
