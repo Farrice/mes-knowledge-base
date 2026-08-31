@@ -139,21 +139,21 @@ WORK_PROFILES: dict[str, dict[str, Any]] = {
         ),
     },
     "session_closeout": {
-        "use_route": "end-session",
+        "use_route": "repeatability-spine",
         "harden_route": "system-audit",
-        "expand_route": "source-to-skill-system",
-        "skills": ["end-session", "steering-compass", "system-audit"],
+        "expand_route": "repeatability-spine",
+        "skills": ["repeatability-spine", "system-audit", "health-check"],
         "operator_insight": "A closeout is a launch surface for the next session, not a ceremonial ending.",
         "hidden_gap": "The visible final answer is where old behavior can leak back in even after the helper/runtime was repaired.",
         "capability": "Codex can turn a completed session into a retrieval handoff, smoke test, regression check, and reusable operating asset.",
         "use_instruction": (
-            "produce the fresh-session smoke test and retrieval handoff for this session, preserving the Insightful Momentum fields"
+            "replay this completed closeout from its saved handoff in a cold-start simulation and report any missing context"
         ),
         "harden_instruction": (
-            "compare the visible closeout against the Insightful Momentum contract; identify any old-format leakage and patch the local source if safe"
+            "audit the global End-session mirrors for stale pre-compact wording, produce the exact proposed diff, and stop for explicit approval before any global write"
         ),
         "expand_instruction": (
-            "package the winning closeout behavior into a reusable operator benchmark with examples, failure cases, and verifier expectations"
+            "replay the visible-closeout benchmark against one unrelated approval-blocked scenario and one completed scenario; report any false pass without changing global files"
         ),
     },
     "artifact_followup": {
@@ -475,8 +475,8 @@ def followup_title(name: str, objective: str, work_type: str) -> str:
         },
         "session_closeout": {
             "Use Now": f"Run a fresh-session smoke test for {obj}.",
-            "Harden": f"Compare {obj} against the Insightful Momentum closeout contract.",
-            "Expand": f"Turn {obj} into a reusable operator benchmark and primitive.",
+            "Harden": f"Audit the global End-session mirrors for {obj}.",
+            "Expand": f"Replay {obj} against an unrelated blocked closeout.",
         },
         "steering_persistence": {
             "Use Now": f"Run a normal-answer smoke test for {obj}.",
@@ -971,16 +971,39 @@ def render_markdown(payload: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def render_compact_markdown(payload: dict[str, Any]) -> str:
+    """Render the current compact closeout surface without legacy field labels."""
+    lines = ["## 3 Next Prompts"]
+    for idx, item in enumerate(payload["prompts"], 1):
+        why_now = str(item.get("entails") or item.get("expected_output") or "").strip()
+        prompt = str(item.get("prompt") or "").strip()
+        lines.extend(
+            [
+                f"{idx}. **{item['followup_title']}** — {why_now}",
+                f'   **Prompt:** "{prompt}"',
+            ]
+        )
+    return "\n".join(lines)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Render contextual next prompts.")
     parser.add_argument("--objective", default="", help="Override the inferred session objective.")
     parser.add_argument("--stage", default="closeout", help="Session stage label.")
+    parser.add_argument(
+        "--format",
+        choices=("rich", "compact"),
+        default="rich",
+        help="Markdown presentation shape. JSON output is unaffected.",
+    )
     parser.add_argument("--json", action="store_true", help="Print JSON instead of Markdown.")
     args = parser.parse_args()
 
     payload = build_prompts(objective=args.objective, stage=args.stage)
     if args.json:
         print(json.dumps(payload, indent=2))
+    elif args.format == "compact":
+        print(render_compact_markdown(payload))
     else:
         print(render_markdown(payload))
     return 0

@@ -16,8 +16,11 @@ behavior contract.
 Verification phrases: canonical behavior source; real Codex subagents require explicit authorization; no competing behavior contract.
 
 Preserve the current End-session contract: whole-session closeout, retrieval
-handoff, closeout intelligence capture, `3 Next Prompts`, `Operator Lesson`,
-`Next-time prompt`, `Subagent worth it?`, `Reuse hook`,
+handoff, closeout intelligence capture, a verified completed closeout with
+exactly `3 Next Prompts`, one `Operator move:`, and
+`contextual_next_prompts.py --format compact`. An approval-blocked or partial
+closeout says `Task remains unarchived`, gives one `Approval needed:` sentence,
+and does not render a continuation menu.
 `session_closeout_intelligence.py run --source end-session`,
 `conversation_index.py stats`, exact named handoff save plus
 `handoff_store.py verify <thread> --source <path> --json`, Codex coordination

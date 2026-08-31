@@ -31,10 +31,11 @@ REQUIRED_TEXT = {
         "not `/handoff`",
         "not `/steering-compass`",
         "3 Next Prompts",
-        "Operator Lesson",
-        "Next-time prompt",
-        "Subagent worth it?",
-        "Reuse hook",
+        "Operator move:",
+        "approval-blocked",
+        "--format compact",
+        "Task remains unarchived",
+        "Approval needed:",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
@@ -48,10 +49,11 @@ REQUIRED_TEXT = {
         "whole-session closeout",
         "closeout intelligence capture",
         "3 Next Prompts",
-        "Operator Lesson",
-        "Next-time prompt",
-        "Subagent worth it?",
-        "Reuse hook",
+        "Operator move:",
+        "approval-blocked",
+        "--format compact",
+        "Task remains unarchived",
+        "Approval needed:",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
@@ -66,7 +68,6 @@ REQUIRED_TEXT = {
         "retrieval handoff",
         "closeout intelligence capture",
         "3 Next Prompts",
-        "Operator Lesson",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
@@ -80,20 +81,10 @@ REQUIRED_TEXT = {
         "retrieval handoff",
         "closeout intelligence capture",
         "3 Next Prompts",
-        "Operator Lesson",
-        "Next-time prompt",
-        "Subagent worth it?",
-        "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
-        "Insightful Momentum/frontier standard",
-        "legacy thin prompt shell",
         "contextual_next_prompts.py",
-        "Output/Capability Move",
-        "Operator Insight",
-        "Hidden Gap/Opportunity",
-        "Capability Revealed",
         "real Codex subagents require explicit authorization",
         "no competing behavior contract",
     ],
@@ -106,10 +97,6 @@ REQUIRED_TEXT = {
         "retrieval handoff",
         "closeout intelligence capture",
         "3 Next Prompts",
-        "Operator Lesson",
-        "Next-time prompt",
-        "Subagent worth it?",
-        "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
@@ -194,8 +181,18 @@ def verify_text() -> list[str]:
 
 
 def verify_sync_helper() -> list[str]:
-    run([sys.executable, "execution/sync_operator_core_end_session.py", "--check"])
-    return ["end-session sync helper passes"]
+    run([
+        sys.executable,
+        "execution/sync_operator_core_end_session.py",
+        "--check",
+        "--local-only",
+    ])
+    return ["end-session local sync source passes"]
+
+
+def verify_visible_closeout_benchmark() -> list[str]:
+    run([sys.executable, "execution/verify_end_session_visible_closeout.py"])
+    return ["end-session visible closeout benchmark passes"]
 
 
 def verify_routes() -> list[str]:
@@ -223,6 +220,7 @@ def main() -> int:
     checks = []
     checks.extend(verify_text())
     checks.extend(verify_sync_helper())
+    checks.extend(verify_visible_closeout_benchmark())
     checks.extend(verify_routes())
     print("END-SESSION OPERATOR CORE VERIFICATION PASS")
     for check in checks:

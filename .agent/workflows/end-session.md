@@ -16,7 +16,7 @@ Preserve these invariants:
 
 - `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture.
 - It is not `/handoff` for a focused transfer packet and not `/steering-compass` for standalone next-prompt coaching.
-- Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, `Operator Lesson`, `Next-time prompt`, `Subagent worth it?`, and `Reuse hook`.
+- A verified completed closeout includes session naming metadata, a concise handoff, exactly `3 Next Prompts`, and one `Operator move:` line. An approval-blocked or partial closeout uses the bounded blocker surface below instead of a completion-shaped prompt menu.
 - **Operator-guide library (Farrice 2026-07-13, binding):** every meaningful session files a scannable document in `guides/` — the closeout spine's `session-guide` step detects the tier (operator assets changed → **operator-guide**, otherwise **session-brief**) and writes a deterministic stub either way (coverage never depends on memory). Model enrichment is gated to the **operator-guide** tier ONLY: when the session shipped operator assets (skills/workflows/execution/directives), the model half of `/end-session` MUST enrich that stub (or write the guide outright) per the format contract `guides/FORMAT.md` (exemplar: `docs/ROOT-CORE-OPERATOR-GUIDE.md`, plus the "If you only read 10 lines" block and command table) — set `status: enriched`, update `guides/INDEX.md` (use-case table + chronology, clear the Pending line), and stamp `python3 execution/operator_guide_sync.py record`. For the **session-brief** tier, the deterministic stub (already derived from the handoff by the spine) stands — do not re-compose it. Never fall back to a bare change-list.
 - Closeout intelligence runs via the closeout spine (Step 1.4, `execution/end_session_closeout.py`), which in turn invokes `python3 execution/session_closeout_intelligence.py run --source end-session` as one of its steps — do not call it separately.
 - Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
@@ -37,34 +37,53 @@ via `session_ledger_hook.py`) or when the session was purely conversational
 
 ## Insightful Momentum Closeout Requirement
 
-`/end-session` must not fall back to the old lightweight "Use Now / Harden /
-Expand" prompt shell. The visible final answer is part of the repair surface.
+The visible final answer is part of the closeout state machine. It must not
+claim or visually imply completion before the coordinator receipt proves it.
 
-For meaningful sessions, run the local renderer and preserve its enriched
-fields in the final answer:
+### Verified completed closeout
+
+Only when the actual coordinator receipt has `valid: true`, `dry_run: false`,
+no blockers, and the requested native task action has succeeded, run:
 
 ```bash
-python3 execution/contextual_next_prompts.py --objective "[session closeout objective]"
+python3 execution/contextual_next_prompts.py \
+  --objective "[session closeout objective]" --format compact
 ```
 
-The 3 Next Prompts must show the Insightful Momentum/frontier standard:
+The completed visible closeout uses the current compact contract:
 
-- action title that names the current session object
-- Output/Capability Move
-- Operator Insight
-- Hidden Gap/Opportunity
-- Capability Revealed
-- copy-paste Prompt
-- Expected output or What it entails
-- Quality bar
-- Skip condition when useful
-- Suggested skills/workflows
+- lead with the completed outcome and the durable handoff/receipt evidence
+- show exactly three ranked, session-specific, materially different prompts
+- give each prompt a concrete outcome title, one short why-now sentence, and a
+  copy-ready `Prompt:` line
+- end with one `Operator move:` line when the session teaches a reusable
+  judgment lesson
+- never use the retired `Use Now / Harden / Expand` labels or expose internal
+  fields such as `Output/Capability Move`, `Operator Insight`,
+  `Hidden Gap/Opportunity`, `Capability Revealed`, or tool-menu metadata
+- never route a completed closeout back into `/end-session`
 
-If the renderer output is awkward, improve the objective and rerun it; do not
-hand-author a generic legacy prompt block. Closeout suggestions should help the
-next session start smarter, reveal a capability Farrice may not know to ask for,
-and turn the session into an asset, proof check, benchmark, or next build
-surface.
+If the compact renderer output is awkward, improve the objective and rerun it;
+do not hand-author a generic prompt block.
+
+### Approval-blocked or partial closeout
+
+If the actual run was denied, dry-run only, invalid, partially failed, or still
+needs authority, do not run or surface the three-prompt renderer. Emit only:
+
+```markdown
+Closeout: PENDING APPROVAL
+Coordinator receipt: BLOCKED — [exact blocker]
+Task remains unarchived. Prepared artifacts remain in [exact recoverable path].
+Approval needed: [one copy-ready sentence granting the exact missing authority]
+```
+
+Do not say `Saved + pinned`, `Archived`, or otherwise imply the closeout
+finished. Do not suggest `/end-session` again. Preserve the prepared artifacts
+and stop at the authority boundary.
+
+The reusable examples, known-bad controls, and verifier expectations live in
+`semantic_libraries/antigravity/primitives/end-session-visible-closeout-benchmark.md`.
 
 ### Handoff lanes (decided 2026-06-15 — keep these distinct)
 One handoff *format*, three jobs that don't overlap:
@@ -180,17 +199,18 @@ answer** — skipped stores must stay visible to Farrice, not silently dropped.
 
 ### 1.5 Generate Insightful Momentum Follow-ups
 // turbo
-Run:
+Run this step only after a valid, non-dry-run coordinator receipt and the native
+task action have succeeded:
 
 ```bash
-python3 execution/contextual_next_prompts.py --objective "end-session closeout for [session label]"
+python3 execution/contextual_next_prompts.py \
+  --objective "end-session closeout for [session label]" --format compact
 ```
 
 `contextual_next_prompts.py` is the renderer — surface its output as the
-closeout's 3 Next Prompts; do not re-compose it. If the output is awkward,
-improve the `--objective` and rerun the renderer (never hand-author a
-replacement block). This step exists because the old hand-authored closeout
-shape made the repair invisible to the user.
+completed closeout's 3 Next Prompts; do not re-compose it. If the receipt is
+blocked, partial, invalid, or dry-run only, use the bounded blocker surface and
+skip this step. This keeps lifecycle truth ahead of presentation polish.
 
 ### 2. Update Conversation Index
 // turbo

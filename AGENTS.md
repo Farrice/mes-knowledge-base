@@ -89,9 +89,10 @@ When an exchange SHIPS something, close with Next Moves (Deepen / Adjacent / Act
 conversation, terse asks, and mechanical turns — THE skip list lives in
 `directives/steering-loop.md` §1; this file no longer carries its own variant**
 (the old "every meaningful answer, no skips" rule here contradicted both other
-surfaces and padded conversational turns). Deep closeouts (builds, strategy,
-client work, real next decisions) may use the full Insightful Momentum format;
-`execution/contextual_next_prompts.py --objective "..."` helps when it fits.
+surfaces and padded conversational turns). Verified deep closeouts use the
+compact ranked Insightful Momentum contract; approval-blocked closeouts surface
+only the exact boundary and approval sentence. `execution/contextual_next_prompts.py
+--objective "..." --format compact` renders the completed form.
 A skipped block is fine; a padded block is a failure.
 
 ## Execution Bias Contract

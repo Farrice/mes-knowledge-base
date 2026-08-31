@@ -22,10 +22,11 @@ COMMON_REQUIREMENTS = (
     "retrieval handoff",
     "closeout intelligence capture",
     "3 Next Prompts",
-    "Operator Lesson",
-    "Next-time prompt",
-    "Subagent worth it?",
-    "Reuse hook",
+    "Operator move:",
+    "approval-blocked",
+    "--format compact",
+    "Task remains unarchived",
+    "Approval needed:",
     "session_closeout_intelligence.py run --source end-session",
     "conversation_index.py stats",
     "handoff_store.py verify",
@@ -46,7 +47,11 @@ PATH_REQUIREMENTS = {
         "not `/handoff`",
         "not `/steering-compass`",
         "3 Next Prompts",
-        "Operator Lesson",
+        "Operator move:",
+        "approval-blocked",
+        "--format compact",
+        "Task remains unarchived",
+        "Approval needed:",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
         "handoff_store.py verify",
@@ -72,13 +77,12 @@ PATH_REQUIREMENTS = {
     + (
         CANONICAL_PATH,
         "Project Source Of Truth",
-        "Insightful Momentum/frontier standard",
-        "legacy thin prompt shell",
+        "compact ranked Insightful Momentum contract",
+        "approval-blocked",
         "contextual_next_prompts.py",
-        "Output/Capability Move",
-        "Operator Insight",
-        "Hidden Gap/Opportunity",
-        "Capability Revealed",
+        "--format compact",
+        "Task remains unarchived",
+        "Approval needed:",
     ),
     GLOBAL_WRAPPER: COMMON_REQUIREMENTS
     + (
@@ -111,7 +115,8 @@ contract.
 
 Default behavior: native task naming with `[Domain]: [Specific Object] - [Outcome]`
 -> exact named handoff save and `handoff_store.py verify` -> Codex coordination via
-`codex_end_session.py run --manifest` -> `3 Next Prompts` -> `Operator Lesson`
+`codex_end_session.py run --manifest` -> verified completed closeout -> compact
+`3 Next Prompts` -> `Operator move:`
 -> closeout intelligence via
 `session_closeout_intelligence.py run --source end-session` ->
 `conversation_index.py stats` -> artifact organization checks when relevant.
@@ -119,8 +124,11 @@ Treat `/handoff` as a focused transfer packet and `/steering-compass` as
 standalone next-prompt coaching. Pin unfinished tasks and archive only a verified
 `done` closeout. Automatic Git synchronization is limited to manifest-owned
 paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or
-auto-push `main`. Optional cleanup needs review; never broadly delete or perform
-destructive cleanup without explicit approval.
+auto-push `main`. An approval-blocked or partial closeout says `Task remains
+unarchived`, names the exact boundary under `Approval needed:`, and does not
+render the three-prompt menu. Completed closeouts use
+`contextual_next_prompts.py --format compact`. Optional cleanup needs review;
+never broadly delete or perform destructive cleanup without explicit approval.
 Real Codex subagents require explicit authorization.
 """
 
@@ -148,11 +156,9 @@ Preserve the current End-session contract:
 
 - `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture
 - it is not focused `/handoff` transfer and not standalone `/steering-compass` next-prompt coaching
-- meaningful closeouts include `3 Next Prompts`
-- meaningful closeouts include `Operator Lesson`
-- include `Next-time prompt`
-- include `Subagent worth it?`
-- include `Reuse hook`
+- verified completed closeouts include exactly `3 Next Prompts` and one `Operator move:` line
+- completed prompts use `contextual_next_prompts.py --format compact`
+- an approval-blocked or partial closeout says `Task remains unarchived` and gives one `Approval needed:` sentence instead of a continuation menu
 - use `session_closeout_intelligence.py run --source end-session`
 - use `conversation_index.py stats` before any rebuild
 - save from an exact named source and require `handoff_store.py verify <thread> --source <path> --json`
@@ -166,18 +172,19 @@ Preserve the current End-session contract:
 
 ## Output Contract
 
-Produce a concise session closeout: session name, slug, searchable keywords,
-completed work, remaining priority, essential context paths, hot experts or
-workflows, `3 Next Prompts`, and an `Operator Lesson`. Run or request the
+Produce a concise session closeout whose visible shape matches the actual
+coordinator receipt. A verified completed closeout includes session name, slug,
+durable handoff evidence, exactly `3 Next Prompts`, and an `Operator move:`.
+Run or request the
 project workflow's local closeout intelligence steps when operating inside the
 Antigravity workspace. For native Codex closeout, read the coordinator receipt
 before applying title, pin, or archive task actions.
 
-Meaningful closeouts must preserve the Insightful Momentum/frontier standard,
-not the legacy thin prompt shell. When the workspace renderer exists, run
-`execution/contextual_next_prompts.py` and retain its Output/Capability Move,
-Operator Insight, Hidden Gap/Opportunity, Capability Revealed, prompt, expected
-output, quality bar, skip condition, and suggested workflow fields.
+Completed closeouts use the compact ranked Insightful Momentum contract through
+`execution/contextual_next_prompts.py --format compact`. An approval-blocked or
+partial closeout says `Task remains unarchived`, preserves the recoverable
+artifact path, gives one `Approval needed:` sentence, and stops without a
+three-prompt menu.
 """
 
 GLOBAL_WRAPPER_TEXT = f"""---
@@ -201,8 +208,10 @@ Antigravity harness, also load the canonical project workflow:
 
 This wrapper is intentionally a thin compatibility wrapper. It must preserve the
 current End-session contract: whole-session closeout, retrieval handoff,
-closeout intelligence capture, `3 Next Prompts`, `Operator Lesson`,
-`Next-time prompt`, `Subagent worth it?`, `Reuse hook`,
+closeout intelligence capture, verified completed closeout with exactly
+`3 Next Prompts`, one `Operator move:`, and
+`contextual_next_prompts.py --format compact`; an approval-blocked or partial
+closeout says `Task remains unarchived` and gives one `Approval needed:` sentence;
 `session_closeout_intelligence.py run --source end-session`,
 `conversation_index.py stats`, `handoff_store.py verify`,
 `codex_end_session.py run --manifest`, `[Domain]: [Specific Object] - [Outcome]`,
@@ -220,11 +229,10 @@ This project wrapper follows `.agent/workflows/end-session.md` as the canonical 
 
 - whole-session closeout, retrieval handoff, and closeout intelligence capture
 - clear separation from focused `/handoff` transfer packets and standalone `/steering-compass` next-prompt coaching
-- `3 Next Prompts`
-- `Operator Lesson`
-- `Next-time prompt`
-- `Subagent worth it?`
-- `Reuse hook`
+- verified completed closeout with exactly `3 Next Prompts`
+- one `Operator move:` line when a reusable judgment lesson exists
+- `contextual_next_prompts.py --format compact` for the completed prompt surface
+- approval-blocked or partial closeout says `Task remains unarchived` and gives one `Approval needed:` sentence instead of a continuation menu
 - `session_closeout_intelligence.py run --source end-session`
 - `conversation_index.py stats`
 - exact named handoff save plus `handoff_store.py verify <thread> --source <path> --json`
@@ -246,7 +254,9 @@ Preserve these invariants:
 
 - `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture.
 - It is not `/handoff` for a focused transfer packet and not `/steering-compass` for standalone next-prompt coaching.
-- Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, and an `Operator Lesson`.
+- A verified completed closeout includes session naming metadata, a concise handoff, exactly `3 Next Prompts`, and one `Operator move:` line.
+- An approval-blocked or partial closeout says `Task remains unarchived`, gives one `Approval needed:` sentence, and does not render the continuation menu.
+- Completed prompts use `contextual_next_prompts.py --format compact`.
 - Closeout intelligence runs through `python3 execution/session_closeout_intelligence.py run --source end-session`.
 - Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
 - Codex closeout saves an exact named source, requires `handoff_store.py verify`, and runs `python3 execution/codex_end_session.py run --manifest <json>`.
@@ -333,15 +343,21 @@ def apply_alignment() -> list[str]:
     return changed
 
 
-def check_alignment() -> list[str]:
+def check_alignment(*, include_global: bool = True) -> list[str]:
     failures: list[str] = []
-    for label, path in (
+    surfaces = [
         ("project workflow", PROJECT_WORKFLOW),
         ("local source-command-end-session", LOCAL_WRAPPER),
-        ("global AGENTS", GLOBAL_AGENTS),
-        ("global end-session", GLOBAL_END_SESSION),
-        ("global source-command-end-session", GLOBAL_WRAPPER),
-    ):
+    ]
+    if include_global:
+        surfaces.extend(
+            [
+                ("global AGENTS", GLOBAL_AGENTS),
+                ("global end-session", GLOBAL_END_SESSION),
+                ("global source-command-end-session", GLOBAL_WRAPPER),
+            ]
+        )
+    for label, path in surfaces:
         if not path.exists():
             failures.append(f"{label} missing: {path}")
             continue
@@ -360,6 +376,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Check or align End-session Operator Core wrappers.")
     parser.add_argument("--apply", action="store_true", help="Update global/local End-session surfaces.")
     parser.add_argument("--check", action="store_true", help="Check alignment only.")
+    parser.add_argument(
+        "--local-only",
+        action="store_true",
+        help="Check project-owned surfaces without reading or changing global mirrors.",
+    )
     args = parser.parse_args()
 
     if args.apply:
@@ -367,7 +388,7 @@ def main() -> int:
         print("END-SESSION OPERATOR CORE ALIGNMENT APPLIED")
         print("- changed: " + (", ".join(changed) if changed else "none"))
 
-    failures = check_alignment()
+    failures = check_alignment(include_global=not args.local_only)
     if failures:
         print("END-SESSION OPERATOR CORE ALIGNMENT FAIL")
         for failure in failures:

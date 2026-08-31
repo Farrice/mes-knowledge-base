@@ -43,9 +43,11 @@ Rules:
   CLAUDE.md Step 7 and AGENTS.md now point here instead of carrying their own
   variants; three conflicting lists was contradiction C6.) A skipped block is
   fine; a padded block is a failure.
-- Deep closeouts (builds, strategy, extractions, client work, major decisions)
-  still use the full `/steering-compass` Insightful Momentum format (Use Now /
-  Harden / Expand). This block is the per-exchange floor, not a replacement.
+- Verified deep closeouts (builds, strategy, extractions, client work, major
+  decisions) use the compact ranked Insightful Momentum contract: exactly three
+  session-specific outcomes with a short why-now line and copy-ready prompt.
+  Approval-blocked or partial closeouts show the boundary and one approval
+  sentence instead of a completion-shaped continuation menu.
 
 ## 2. Forge Radar (opportunity-to-build scanner)
 

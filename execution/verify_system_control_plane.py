@@ -125,7 +125,11 @@ END_SESSION_REQUIRED_TEXT = (
     "not `/handoff`",
     "not `/steering-compass`",
     "3 Next Prompts",
-    "Operator Lesson",
+    "Operator move:",
+    "approval-blocked",
+    "--format compact",
+    "Task remains unarchived",
+    "Approval needed:",
     "session_closeout_intelligence.py run --source end-session",
     "conversation_index.py stats",
     "handoff_store.py verify",
@@ -638,7 +642,11 @@ def check_end_session_closeout_contract() -> list[str]:
             "whole-session closeout",
             "closeout intelligence capture",
             "3 Next Prompts",
-            "Operator Lesson",
+            "Operator move:",
+            "approval-blocked",
+            "--format compact",
+            "Task remains unarchived",
+            "Approval needed:",
             "session_closeout_intelligence.py run --source end-session",
             "conversation_index.py stats",
             "handoff_store.py verify",
@@ -652,7 +660,8 @@ def check_end_session_closeout_contract() -> list[str]:
         ),
         "end-session skill text",
     )
-    return ["end-session closeout contract enforced"]
+    run([sys.executable, "execution/verify_end_session_visible_closeout.py"])
+    return ["end-session closeout contract and visible benchmark enforced"]
 
 
 def check_health_check_status_contract() -> list[str]:

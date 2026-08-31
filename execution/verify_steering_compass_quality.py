@@ -187,11 +187,11 @@ def check_session_closeout_shape() -> None:
     if data.get("work_type") != "session_closeout":
         fail(f"end-session closeout expected session_closeout, got {data.get('work_type')}")
     titles = " ".join(item.get("followup_title", "") for item in data.get("prompts", [])).lower()
-    for needle in ("fresh-session smoke test", "insightful momentum", "operator benchmark"):
+    for needle in ("fresh-session smoke test", "global end-session mirrors", "unrelated blocked closeout"):
         if needle not in titles:
             fail(f"end-session followups missing {needle!r}: {titles}")
     routes = [item.get("route") for item in data.get("prompts", [])]
-    if routes != ["end-session", "system-audit", "source-to-skill-system"]:
+    if routes != ["repeatability-spine", "system-audit", "repeatability-spine"]:
         fail(f"end-session followups chose weak routes: {routes}")
     markdown = run(
         [
@@ -199,13 +199,27 @@ def check_session_closeout_shape() -> None:
             "execution/contextual_next_prompts.py",
             "--objective",
             "end-session closeout after global operator steering bridge repair",
+            "--format",
+            "compact",
         ]
     )
     if markdown.returncode != 0:
         fail(f"end-session markdown failed: {markdown.stderr.strip()}")
-    for needle in ("Output/Capability Move", "Operator Insight", "Hidden Gap/Opportunity", "Capability Revealed"):
-        if needle not in markdown.stdout:
-            fail(f"end-session markdown missing {needle!r}")
+    if markdown.stdout.count("**Prompt:**") != 3:
+        fail("compact end-session markdown must contain exactly three Prompt lines")
+    for needle in (
+        "Output/Capability Move",
+        "Operator Insight",
+        "Hidden Gap/Opportunity",
+        "Capability Revealed",
+        "**Use Now**",
+        "**Harden**",
+        "**Expand**",
+    ):
+        if needle in markdown.stdout:
+            fail(f"compact end-session markdown leaks retired label {needle!r}")
+    if "/end-session" in markdown.stdout:
+        fail("compact completed closeout routes back into /end-session")
 
 
 def check_execute_next_unchanged() -> None:
@@ -271,12 +285,10 @@ def check_global_bridge() -> None:
         fail(f"Missing global end-session skill: {GLOBAL_END_SESSION}")
     end_session = GLOBAL_END_SESSION.read_text(encoding="utf-8")
     for needle in (
-        "Insightful Momentum/frontier standard",
+        "Project Source Of Truth",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md",
+        "thin compatibility wrapper",
         "contextual_next_prompts.py",
-        "Output/Capability Move",
-        "Operator Insight",
-        "Hidden Gap/Opportunity",
-        "Capability Revealed",
     ):
         if needle not in end_session:
             fail(f"Global end-session skill missing {needle!r}")

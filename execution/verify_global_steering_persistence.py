@@ -70,7 +70,8 @@ def check_local_agents() -> None:
 
     Global persistence and local visible-shipping policy intentionally differ:
     the workspace skips steering on diagnostic, conversational, corrective, and
-    mechanical turns while retaining rich closeouts for substantial shipments.
+    mechanical turns while retaining compact receipt-gated closeouts for
+    substantial shipments.
     """
     text = read(LOCAL_AGENTS)
     require(
@@ -80,8 +81,10 @@ def check_local_agents() -> None:
             "Per-Exchange Steering",
             "When an exchange SHIPS something",
             "Skip on answers, diagnostics, corrections",
-            "Deep closeouts",
-            "Insightful Momentum format",
+            "Verified deep closeouts",
+            "compact ranked Insightful Momentum contract",
+            "approval-blocked closeouts",
+            "--format compact",
             "contextual_next_prompts.py",
             "A skipped block is fine; a padded block is a failure",
         ],
