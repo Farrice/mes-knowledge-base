@@ -2,7 +2,7 @@
 
 Source: https://www.youtube.com/watch?v=6r82EmpIb7s (40:37, 2026-08-05 — extracted same day; maximally recent)
 Experts: **Scott Norton** (primary methodology carrier — founder Sir Kensington's, sold to Unilever; advisor/investor in Vacation; operating partner at Anthos) × **Oren John** (host; already 10-skill bench in arsenal)
-Watch grade: transcript + 24 targeted frames (visual-context.md) — full-comprehension read, not skim.
+Watch grade: native captions + full 40:37 media + 100 scene-aware frames inspected + 24 representative exhibits retained (`extractions/video-context/6r82EmpIb7s/visual-context.md`) — independently re-verified 2026-08-31.
 
 ## What this source actually is
 
