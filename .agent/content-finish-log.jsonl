@@ -580,3 +580,6 @@
 {"ts": "2026-08-29T13:57:35Z", "label": "decision_room", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-29T13:57:36Z", "label": "claim_memo", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-29T13:57:48Z", "label": "claim_court", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-31T16:48:44Z", "label": "health-performance-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('active \u2026 active \u2026 active') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-31T16:49:10Z", "label": "health-performance-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('active \u2026 active \u2026 active') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-31T16:49:37Z", "label": "health-performance-method-card", "verdict": "CLEAN", "fails": [], "warns": []}
