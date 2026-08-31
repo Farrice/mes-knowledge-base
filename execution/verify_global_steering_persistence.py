@@ -97,15 +97,25 @@ def check_end_session_bridge() -> None:
         "global end-session wrapper",
         text,
         [
-            "Insightful Momentum/frontier standard",
-            "legacy thin prompt shell",
+            "Project Source Of Truth",
+            "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md",
+            "compact ranked Insightful Momentum contract",
             "contextual_next_prompts.py",
-            "Output/Capability Move",
-            "Operator Insight",
-            "Hidden Gap/Opportunity",
-            "Capability Revealed",
+            "--format compact",
+            "approval-blocked",
+            "Task remains unarchived",
+            "Approval needed:",
         ],
     )
+    for retired in (
+        "Output/Capability Move",
+        "Operator Insight",
+        "Hidden Gap/Opportunity",
+        "Capability Revealed",
+        "legacy thin prompt shell",
+    ):
+        if retired in text:
+            fail(f"global end-session wrapper leaks retired field: {retired}")
 
 
 def check_renderer_visible_fields() -> None:

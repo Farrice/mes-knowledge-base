@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Mark this closed and skip the blind pack unless you personally want the tier."
+      "body": "This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Mark this closed and skip the blind pack unless you personally want the tier."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
+      "body": "Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 27d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
     },
     {
       "kind": "decision",
@@ -89,7 +89,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "note": "claude · codex"
         },
         {
-          "value": "11",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -226,7 +226,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nThe judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

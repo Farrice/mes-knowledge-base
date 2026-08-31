@@ -15,19 +15,19 @@
     {
       "path": ".agent/handoffs/2026-07-28-writers-room.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-writers-room.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-07-28-writers-room.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "docs/solutions/2026-07-28-writers-room-pen-protocol.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/docs/solutions/2026-07-28-writers-room-pen-protocol.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/docs/solutions/2026-07-28-writers-room-pen-protocol.md",
       "role": "asset · SOLUTION"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

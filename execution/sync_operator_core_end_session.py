@@ -362,9 +362,9 @@ def check_alignment(*, include_global: bool = True) -> list[str]:
             failures.append(f"{label} missing: {path}")
             continue
         text = read(path)
-        normalized = normalize(text)
+        normalized = normalize(text).lower()
         for snippet in PATH_REQUIREMENTS[path]:
-            if normalize(snippet) not in normalized:
+            if normalize(snippet).lower() not in normalized:
                 failures.append(f"{label} missing: {snippet}")
         for snippet in FORBIDDEN:
             if snippet.lower() in text.lower():

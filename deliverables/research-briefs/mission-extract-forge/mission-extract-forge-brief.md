@@ -10,7 +10,7 @@ This build is finished and verified across every check it set for itself, with n
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Handoff status is ready. Last activity 1d ago.
+Handoff status is ready. Last activity 2d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 27d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -84,8 +84,8 @@ python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
 THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
 SLUG: extract-forge
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-08-04-extract-forge.md
 
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
@@ -99,7 +99,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## momentum
 
@@ -124,7 +124,7 @@ Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) a
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
