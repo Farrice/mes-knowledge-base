@@ -1,6 +1,6 @@
 # BitBranding (Christian Pinyon) — Genius Context
 
-**Source**: Single YouTube tutorial (Represent collection-page rebuild on Horizon, ~10.6K words)
+**Source**: Two BitBranding tutorials — Represent collection-page rebuild on Horizon plus a 2026-08-27 apparel PDP evidence-to-draft rebuild with Claude
 **Domain**: Fashion e-commerce / Shopify theme execution / DTC clothing-brand conversion
 **Roster role**: Fills the zero-coverage Shopify/fashion-DTC slot
 
@@ -69,6 +69,69 @@ Specifically:
 **Deploy when**: Conversion-rate work on collection pages.
 **Success metric**: All 5 components scored and optimized, not just hover or just badges.
 
+### 7. Customer-Evidence-to-PDP Requirements
+**Behavior**: Treats support questions, DMs, reviews, and return reasons as the page's missing requirements rather than as separate customer-service data.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), dossier and customer-question segments.
+**Executable**: Map each repeated uncertainty to its consequence, needed evidence, page response, module, and priority.
+**Deploy when**: A product page is vague, returns are high, or the team is guessing what information buyers need.
+**Success metric**: Every priority module resolves a named customer uncertainty with source-labeled evidence.
+
+### 8. Questions Before Architecture
+**Behavior**: Explicitly instructs the model to ask questions before it builds, then uses the answers to revise the plan.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), visible questions-first prompt around 20:32.
+**Executable**: Ask only questions that change a claim, module order, media need, fit guidance, trust message, or feasibility. Missing truth remains blocking.
+**Deploy when**: Product, policy, customer, or theme context is incomplete.
+**Success metric**: Zero invented specs, policies, media, app handles, or theme objects.
+
+### 9. Objection-Led Module Architecture
+**Behavior**: Orders PDP sections by the uncertainty each one removes, not by generic page-builder convention.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), 11-module objection table around 05:04.
+**Executable**: Start from the apparel default stack, then reorder using question frequency, return reasons, price risk, SKU complexity, and media availability.
+**Deploy when**: Blueprinting or restructuring an apparel PDP.
+**Success metric**: Every module has a named buyer job and an acceptance check.
+
+### 10. Spec-Bound Copy
+**Behavior**: Rejects adjectives that could describe another garment and ties claims to fabric, weight, construction, measurements, care, policy, or verified customer evidence.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), five-copy-fixes segment around 07:10-10:30.
+**Executable**: Write the FAQ before the long description; maintain a claims veto list for unsupported language.
+**Deploy when**: Product copy sounds interchangeable, premium-by-adjective, or fit-anxious.
+**Success metric**: Every product claim resolves to a status-labeled evidence row.
+
+### 11. Blueprint Before Mutation
+**Behavior**: Produces the module order, requirements, dependencies, and missing-facts flags before connecting to the store.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), blueprint and missing-facts frame around 22:39.
+**Executable**: Treat human blueprint approval as a hard phase boundary; no model or workflow may approve its own architecture silently.
+**Deploy when**: AI is being used to change a theme or generate a product template.
+**Success metric**: Implementation begins from an approved, inspectable blueprint rather than a raw prompt.
+
+### 12. Duplicated-Draft Isolation
+**Behavior**: Targets a uniquely named duplicated draft theme and keeps the live theme outside the mutation surface.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), Shopify connector and draft-result sequence around 24:30-25:58.
+**Executable**: Lock store, product/template, draft ID/name, current-state timestamp, and rollback point. Any connector write still requires explicit authorization.
+**Deploy when**: Preparing or executing theme changes.
+**Success metric**: Live theme remains untouched and the exact rollback point is known.
+
+### 13. Rendered-Result Defect Loop
+**Behavior**: Assumes the first mutation is incomplete, inspects the actual page, numbers defects, and repairs the smallest delta.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), eight-item repair prompt around 29:20.
+**Executable**: Review media, variants, fit, CTA hierarchy, app blocks, copy, cart handoff, devices, accessibility basics, and performance. Never trust the upload summary alone.
+**Deploy when**: A tool reports success or a first build looks superficially complete.
+**Success metric**: Each PASS/FAIL state has rendered or functional evidence.
+
+### 14. Current-State Re-Read
+**Behavior**: Re-reads the current draft before every repair so a stale tool context cannot overwrite manual edits or earlier fixes.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), incremental-save warning in the final repair segment.
+**Executable**: Compute the new delta from what exists now, name preserved edits, and roll back if the page regresses.
+**Deploy when**: Iterating after any manual or model-authored theme change.
+**Success metric**: No repair silently removes an intervening edit.
+
+### 15. Implementation Proof Is Not Conversion Proof
+**Behavior**: Separates valid theme output and visual improvement from business outcomes.
+**Source anchor**: BitBranding PDP tutorial (2026-08-27), closing A/B-test and performance warnings.
+**Executable**: Mark conversion, revenue, and return effects `UNTESTED` until an experiment runs; keep publication and traffic changes separately authorized.
+**Deploy when**: Closing a build or making performance claims.
+**Success metric**: No predicted uplift is presented as evidence.
+
 ---
 
 ## Hidden Knowledge
@@ -82,6 +145,12 @@ Specifically:
   - FAILS at: filter logic, recently-viewed sections, anything requiring functional state changes
   - Don't waste prompts on what it can't do.
 - **36 is the Horizon products-per-page max**: Choose between "load more" (paginated) and "auto-load on scroll" — both have UX trade-offs. Better Ruler Chrome extension measures pixel dimensions on reference sites for matching.
+- **Support questions are a page backlog**: Repeated DMs identify the copy, media, sizing, policy, or trust information the current PDP failed to provide.
+- **Return reasons change module order**: A frequent "too short" return reason moves body length and model sizing upward; it should not stay buried in a generic accordion.
+- **App blocks are a human boundary**: A theme connector can generate sections while still being unable to install or place a review widget correctly.
+- **Success summaries hide visual defects**: The PDP source's successful mutation summary coexisted with wrong media and an unresolved option; rendered inspection is a separate proof event.
+- **Schema editability is maintainability**: A team-editable section/block system is more valuable than a visually impressive monolith the operator cannot change later.
+- **Connector behavior is dated evidence**: Availability and permissions shown in the 2026-08-27 source require live re-verification before a real store run.
 
 ---
 
@@ -113,6 +182,11 @@ Specifically:
 | SEO depth | No collection description | Short description only | Top description + truncated read-more + rich-text bottom description with interlinking |
 | Mobile space use | Default theme spacing | Reduced gaps | Edge-to-edge products, no left/right padding |
 | Product card system | One element optimized | 3/5 components addressed | All 5 components scored & optimized as a system |
+| PDP evidence | Generic product brief | Most specs present but status unclear | Customer, return, fit, voice, policy, reference, and theme evidence is status-labeled with gaps visible |
+| Objection architecture | Generic module list | Some modules map to buyer needs | Every module kills a named uncertainty or serves a measurable merchandising job |
+| Mutation safety | Tool told to edit the store | Draft theme named | Exact duplicated draft, permission state, current-state receipt, minimal delta, and rollback are locked |
+| Review proof | Tool success summary | Visual spot-check | Rendered mobile/desktop, variant, CTA, app, cart, accessibility, and performance checks carry evidence |
+| Business proof | Predicts conversion lift | Labels outcomes as estimates | Implementation proof is separate; conversion and return effects remain UNTESTED until experiment receipts exist |
 
 ---
 
@@ -123,6 +197,10 @@ Specifically:
 - **Pull the right theme lever** → Deploy when clients ask "can the theme do X?" — knows where each lever lives
 - **Mobile-first space audit** → Deploy when optimizing collection or product pages — assume mobile is primary
 - **Merchandising fallback** → Deploy when ideal feature unavailable — substitute collection-list carousel showing categories
+- **Question before build** → Deploy when product truth or implementation context is incomplete — surface only decision-changing unknowns
+- **Objection-led blueprint** → Deploy before any PDP implementation — order modules from customer and return evidence
+- **Duplicated-draft state lock** → Deploy before connector use — confirm target, permission, current state, and rollback
+- **Defect-led repair** → Deploy after every mutation — inspect the page, number defects, re-read state, and repair only the delta
 
 ---
 
@@ -136,8 +214,13 @@ Specifically:
 6. **Wall-of-text descriptions** without truncation/read-more — evidenced by the amount of effort he spends chasing the fix: *"I did try to do a couple things with the description to try to do the truncation, the read more read less"* (source: `extractions/BitBranding/transcript.txt`, content-strategy segment).
 7. **Apps for problems the theme already solves** (e.g., paying for product cards when Horizon's are 90% there) — his stated reason for staying in-theme: *"one of the reasons why I love Horizon. It's like they do give you all these little little things that you can manipulate"* (source: `extractions/BitBranding/transcript.txt`, description-spacing segment).
 8. **Custom code as first solution** when a dynamic-source binding does the job — his framing of Represent's own build, which he treats as the standing counter-example to reaching for code first: *"It's not custom code. Almost everything they're doing can be rebuilt on a standard Shopify theme for free"* (source: `extractions/BitBranding/transcript.txt`, opening segment).
+9. **One-shot "make it premium" prompts** without product, customer, return, voice, reference, and implementation evidence — contradicted by the dossier and questions-first sequence at 10:30-22:55 in `extractions/video-context/fwv1l_kdW18/`.
+10. **Inventing specs or policies to complete a design** — the source's workflow flags missing return, review, and product facts before mutation; unknowns remain visible.
+11. **Treating a draft-theme upload as completion** — the first result still has wrong media, option, CTA, copy-density, review, and size-chart defects in the retained frames.
+12. **Repairing from stale state** — later iterations must re-read the current draft so manual changes and prior fixes are not overwritten.
+13. **Calling visual polish a conversion win** — the source explicitly requires testing and warns that the model cannot know whether the page converts.
 
-All eight anchors are verbatim substrings confirmed by direct read of `extractions/BitBranding/transcript.txt` (55,127 bytes, single-line raw transcript, no timestamps embedded) during this repair — see `references/source-ledger.md` for the claim-by-claim table.
+The first eight anchors are verbatim substrings confirmed by direct read of `extractions/BitBranding/transcript.txt`. Items 9-13 are timestamp- and frame-backed syntheses from `extractions/video-context/fwv1l_kdW18/`; they are not presented as direct quotes. See `references/source-ledger.md` for the claim-by-claim boundary.
 
 ---
 

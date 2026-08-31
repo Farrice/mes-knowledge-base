@@ -35,7 +35,7 @@
 | `benjamin-hardy` | **benjamin-hardy** | 10x scaling psychology, frame/floor/focus elimination, future-self identity work, future-self science, identity-based goal psychology, impossible-goal architecture, scaling psychology, self-deception detection, the future-self psychologist |
 | `benoit-vatere` | **benoit-vatere** | cpg retail media, full-funnel media systems / incrementality measurement / channel selection / cpg retail media, full-funnel media systems agent, funnel-stage creative mapping, golden core diagnosis, home-run test discipline, incrementality without infra, lever-based channel selection, spend-map auditing |
 | `bill-browder` | **Bill Browder: High-Stakes Narrative Nonfiction Virtuoso** | high-stakes narrative nonfiction virtuoso |
-| `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
+| `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, pdp evidence architecture, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, state-aware draft mutation, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
 | `brad-bonanno` | **Brad Bonanno** | agent, explainer-video architecture |
