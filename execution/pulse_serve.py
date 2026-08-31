@@ -46,6 +46,11 @@ BOARD = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 ROOM = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
 ORACLE = os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")
 MISSIONS = os.path.join(ROOT, ".agent", "missions", "mission-control.html")
+HOMEBASE = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
+ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
+LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
+BRAIN = os.path.join(ROOT, ".agent", "brain", "brain.html")
+INTEL = os.path.join(ROOT, "_active", "farrice-brand", "intelligence", "index.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
@@ -65,8 +70,8 @@ def _git_commit():
 ROOT_ID = os.path.realpath(ROOT)
 COMMIT_ID = _git_commit()
 
-# Paths that serve the Pulse board. Everything else routes explicitly or 404s.
-PULSE_PATHS = {"", "/", "/index.html", "/pulse"}
+# Root serves the Homebase hub (2026-08-20); the Pulse console lives at /pulse.
+HOME_PATHS = {"", "/", "/index.html", "/home", "/homebase"}
 
 # ROOT-jailing keeps /repo/ inside the repo — but the repo itself holds secrets
 # (.env carries NOTION_API_KEY) and history (.git). "Inside the repo" is not the
@@ -96,10 +101,15 @@ def _repo_path_allowed(rel):
 
 def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
-              "oracle": "oracle_dashboard.py",
-              "missions": "mission_board.py"}.get(which, "pulse_dashboard.py")
+              "oracle": "oracle_dashboard.py", "homebase": "homebase_board.py",
+              "assets": "asset_gallery.py", "library": "catalog_board.py",
+              "missions": "mission_board.py", "brain": "brain_graph.py",
+              "intelligence": "intelligence_layer.py"}.get(
+                  which, "pulse_dashboard.py")
+    # brain rebuilds only when its source fingerprint changed — O(1) when fresh
+    extra = ["--if-stale"] if which == "brain" else []
     try:
-        subprocess.run([PY, os.path.join(ROOT, "execution", script)],
+        subprocess.run([PY, os.path.join(ROOT, "execution", script)] + extra,
                        capture_output=True, text=True, timeout=90)
     except Exception as e:
         print(f"[pulse_serve] WARN regen failed: {e}", file=sys.stderr)
@@ -114,7 +124,51 @@ def _mtime(p):
 
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
            "thread-archive", "open-path", "brief-archive", "brief-unarchive",
-           "oracle-closes", "oracle-gate", "oracle-note"}
+           "oracle-closes", "oracle-gate", "oracle-note", "refresh", "kill",
+           "run_skill"}
+
+
+def _run_skill(args):
+    """Spawn one guarded headless deck run, detached (same pattern as
+    _refresh_async — a claude run takes minutes; the POST must not block).
+    Validation happens twice: here for an immediate UI error, and again inside
+    skill_deck_runner.py which re-reads the curated deck file server-side —
+    the POST payload is treated as untrusted indices, never as text."""
+    card_id = str(args.get("card_id") or "")
+    model = str(args.get("model") or "")
+    effort = str(args.get("effort") or "")
+    try:
+        import skill_deck_runner as sdr
+        card, err = sdr.validate(card_id, model, effort)
+        if err:
+            return {"ok": False, "error": err}
+        lock = subprocess.run([PY, os.path.join(ROOT, "execution", "session_lock.py"),
+                               "check"], capture_output=True, text=True, timeout=10)
+        if lock.returncode != 0:
+            return {"ok": False, "error": "session lock held — another run is live"}
+        subprocess.Popen([PY, os.path.join(ROOT, "execution", "skill_deck_runner.py"),
+                          "run", card_id, "--model", model, "--effort", effort],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                         start_new_session=True)
+        return {"ok": True}
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:200]}
+
+
+def _refresh_async():
+    """Kick the honest CLI (pulse_actions.py refresh) as a detached process.
+    A sweep over 240 sessions takes real seconds; blocking the POST would make
+    the button feel broken — the exact defect this hub exists to end. The CLI
+    regenerates the homebase last, so /ping's mtime flips and the open page
+    reloads itself when the data is actually fresh."""
+    try:
+        subprocess.Popen([PY, os.path.join(ROOT, "execution", "pulse_actions.py"), "refresh"],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                         start_new_session=True)
+        return True
+    except Exception as e:
+        print(f"[pulse_serve] refresh spawn failed: {e}", file=sys.stderr)
+        return False
 
 
 def _brief_lifecycle(action, slug):
@@ -144,6 +198,10 @@ def _open_path(uri):
 def dispatch(action, args):
     if action == "open-path":
         return _open_path(args.get("uri", ""))
+    if action == "refresh":
+        return _refresh_async()
+    if action == "run_skill":
+        return _run_skill(args)
     if action in ("brief-archive", "brief-unarchive"):
         return _brief_lifecycle(action, args.get("slug", ""))
     sys.path.insert(0, os.path.join(ROOT, "execution"))
@@ -154,6 +212,8 @@ def dispatch(action, args):
         return pa.act_park(args.get("slug", ""), args.get("reason", ""))
     if action == "reopen":
         return pa.act_reopen(args.get("slug", ""))
+    if action == "kill":
+        return pa.act_kill(args.get("slug", ""), args.get("reason", ""))
     if action == "outcome":
         return pa.act_outcome(args.get("deliverable", ""), args.get("revenue", 0), args.get("outcome", ""))
     if action == "outcome-dismiss":
@@ -246,7 +306,12 @@ class Handler(BaseHTTPRequestHandler):
                                         "board_mtime": _mtime(BOARD),
                                         "room_mtime": _mtime(ROOM),
                                         "oracle_mtime": _mtime(ORACLE),
-                                        "missions_mtime": _mtime(MISSIONS)}), "application/json")
+                                        "missions_mtime": _mtime(MISSIONS),
+                                        "homebase_mtime": _mtime(HOMEBASE),
+                                        "assets_mtime": _mtime(ASSETS),
+                                        "library_mtime": _mtime(LIBRARY),
+                                        "brain_mtime": _mtime(BRAIN),
+                                        "intel_mtime": _mtime(INTEL)}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -254,16 +319,33 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/room"):
             self._serve_board("room", ROOM, "room")
             return
-        if route.startswith("/missions"):
-            self._serve_board("missions", MISSIONS, "mission control")
-            return
         if route.startswith("/oracle"):
             self._serve_board("oracle", ORACLE, "oracle board")
             return
-        if route in PULSE_PATHS:
-            self._serve_board("pulse", BOARD, "board")
+        if route.startswith("/assets"):
+            self._serve_board("assets", ASSETS, "asset board")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /room · /missions · /oracle · /repo/<path>",
+        if route.startswith("/library"):
+            self._serve_board("library", LIBRARY, "library")
+            return
+        if route.startswith("/brain"):
+            self._serve_board("brain", BRAIN, "second brain")
+            return
+        if route.startswith("/intelligence"):
+            self._serve_board("intelligence", INTEL, "intelligence layer")
+            return
+        if route.startswith(("/pulse", "/missions")):
+            # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
+            # memory and old links land on the Homebase instead of a 404.
+            self.send_response(302)
+            self.send_header("Location", "/")
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+        if route in HOME_PATHS:
+            self._serve_board("homebase", HOMEBASE, "homebase")
+            return
+        self._send(404, f"no route: {route}\n\ntry / · /brain · /intelligence · /room · /library · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):
@@ -308,7 +390,9 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(400, json.dumps({"ok": False, "error": "unknown action"}), "application/json")
                 return
             ok = dispatch(action, payload.get("args") or {})
-            self._send(200, json.dumps({"ok": bool(ok)}), "application/json")
+            # dict results carry their own ok/error (run_skill); bools wrap
+            body = ok if isinstance(ok, dict) else {"ok": bool(ok)}
+            self._send(200, json.dumps(body), "application/json")
         except Exception as e:
             self._send(500, json.dumps({"ok": False, "error": str(e)[:200]}), "application/json")
 
@@ -335,7 +419,8 @@ def main():
     if identity:
         live_root = os.path.realpath(str(identity.get("root") or ""))
         if live_root != ROOT_ID:
-            print(f"[pulse_serve] port {args.port} belongs to a different checkout: {live_root}", file=sys.stderr)
+            print(f"[pulse_serve] port {args.port} belongs to a different checkout: {live_root}",
+                  file=sys.stderr)
             print(f"[pulse_serve] requested checkout: {ROOT_ID}", file=sys.stderr)
             return 2
         print(f"[pulse_serve] already live → {url} · {identity.get('commit', 'unknown')}")
