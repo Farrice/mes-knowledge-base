@@ -243,6 +243,8 @@ Codex-owned closeout also skips broad mission-brief regeneration and the legacy
 lane auto-merge step. It collects self-heal findings through the coordinator's
 non-mutating review path instead of the legacy tracked logger; the manifest
 coordinator alone owns its branch checkpoint.
+Missing optional lane-local Autopilot state is treated as absent evidence, not a
+degradation event, so intelligence capture cannot dirty the lane by observing it.
 
 ---
 

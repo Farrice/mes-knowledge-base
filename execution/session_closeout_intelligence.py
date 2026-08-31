@@ -392,7 +392,12 @@ def collect_routing_candidates(args: argparse.Namespace) -> tuple[list[RoutingCa
         autopilot_path = ROOT / autopilot_path
 
     session_text = read_text(state_path)
-    autopilot_text = read_text(autopilot_path, max_chars=25000)
+    # Autopilot state is optional and commonly absent inside a freshly
+    # provisioned lane. Absence means "no evidence", not degraded execution;
+    # logging it would make a read-only closeout dirty its authoring lane.
+    autopilot_text = (
+        read_text(autopilot_path, max_chars=25000) if autopilot_path.exists() else ""
+    )
     combined = "\n\n".join(part for part in [session_text, autopilot_text] if part)
 
     routing_candidates = []

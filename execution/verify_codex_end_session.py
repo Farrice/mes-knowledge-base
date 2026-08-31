@@ -296,10 +296,16 @@ def check_lane_operation_lock(tmp: Path) -> list[str]:
             "Codex closeout must skip legacy lane auto-merge")
     require("Codex coordinator collects self-heal review without tracked writes" in spine_source,
             "Codex closeout must skip the tracked legacy self-heal step")
+    intelligence_source = (
+        ROOT / "execution" / "session_closeout_intelligence.py"
+    ).read_text(encoding="utf-8")
+    require('if autopilot_path.exists() else ""' in intelligence_source,
+            "optional lane autopilot state must not write a degradation record")
     return [
         "End-session rejects a contended lane operation and releases its lock for retry",
         "lane reconciliation takes the shared operation lock before sealing",
         "Codex closeout skips tracked self-heal, broad mission briefs, and legacy lane auto-merge",
+        "missing optional lane autopilot state remains observationally read-only",
     ]
 
 

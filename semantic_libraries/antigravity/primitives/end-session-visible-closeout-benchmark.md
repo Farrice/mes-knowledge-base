@@ -85,6 +85,8 @@ mission-brief regeneration, tracked self-heal logging, and lane auto-merge. The
 coordinator collects self-heal findings through its non-mutating review path.
 Only the manifest coordinator may checkpoint its approved paths and push its
 current `codex/*` branch.
+Optional lane-local state that is absent, including Autopilot state, is empty
+evidence rather than a degradation write; observation must not dirty the lane.
 
 ## State Decision
 
