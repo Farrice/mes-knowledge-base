@@ -150,6 +150,19 @@ Jun owns upstream story-material mining and personal-brand/social formatting. Sh
 
 ## Hidden Knowledge
 
+### Selling-course expansion — method recovery and angle perception
+
+This additive layer is grounded in `extractions/video-context/6r-HF9K030A/` and indexed in `references/selling-course-ledger.md`.
+
+- A sourced Pursuit can become a `METHOD_CANDIDATE` only when it has repeatable actions, a decision rule or learned correction, and an observable output.
+- The three recovery questions target repeated unnoticed behavior, exact step-by-step advice to a friend with the same Problem, and mistakes corrected before success.
+- Naming a method improves transfer and recall. It does not prove novelty, buyer demand, or results.
+- A commercial Method Card may become an `OFFER_HYPOTHESIS`; `/ml-validate-offer` remains the next owner until buyer behavior exists.
+- One lived moment may support several meaning lenses. Each retained angle needs its own fact-traced 3P. Hook rewrites and paraphrases are not new angles.
+- A supported Payoff may seed the next Problem, creating continuity without inventing a new event.
+
+The state spine is: `NO_OFFER → NEEDS_SOURCE → METHOD_CANDIDATE → OFFER_HYPOTHESIS`. Market validation is deliberately outside this spine.
+
 - **The Pain-First Psychological Anchor**: Humans connect primarily through shared struggle. Starting content by flexing lavish success actively alienates viewers. Starting with specific, visceral pain (anxiety, failure, loneliness) engineers immediate empathy and makes the eventual success/authority earned and championable.
 - **Timestamp Inevitability**: Placing a year or age (e.g., "Age 22") on the first frame unconsciously trains the viewer's brain to anticipate a resolution (e.g., "Age 26"). This creates an open psychological loop that forces retention until the narrative anchor resolves.
 - **The Decoupling of Effort and Value**: The highest perceived value often comes from lowest-effort content. A 10-second B-roll clip that precisely targets a psychographic pain point (e.g., a mom feeling unseen) has higher perceived quality than a 10-hour cinematic edit about nothing.
