@@ -143,10 +143,12 @@ BODY = """
     <h1>Unit 124, ready to <span class="si">post.</span></h1>
     <div class="pricebar">
       <div><span class="num">$2,500</span><span class="caps">a month to rent it</span></div>
-      <div><span class="num">$2,515</span><span class="caps">a month to own it (estimate)</span></div>
+      <div><span class="num">$2,658</span><span class="caps">a month to own it (estimate)</span></div>
     </div>
-    <p>You are the agent on both sides of the same unit, and the real monthly math lands
-       fifteen dollars from the rent. Nobody else in the Valley can post that.</p>
+    <p>You are the agent on both sides of the same unit. The ownership estimate is $158
+       higher in monthly cash, while roughly $224 of month one becomes principal. That
+       makes the first-month housing cost about $66 lower before maintenance,
+       transaction costs, or appreciation.</p>
     <p>Below is the whole package: a six-slide carousel, three reel scripts written to be
        read off your phone, captions with pick-one options, a five-frame story sequence,
        nine highlight covers, and a short don&#8217;t-say list so every line is
@@ -159,10 +161,10 @@ BODY = """
   <div class="lede">
     <span class="caps">Post this today · the carousel</span>
     <h2>Same Door</h2>
-    <p>Slide one gives away the ending on purpose: two monthly numbers, fifteen dollars
-       apart. Everything after it proves the claim: 20% down at 6.66% (Freddie Mac
-       average, Aug 27), taxes estimated at 1.25%, the building&#8217;s recorded $477
-       dues, HO-6 insurance. That is the work most agents leave as homework.</p>
+    <p>Slide one gives away the ending on purpose: cash out and first-month cost are not
+       the same number. Everything after it proves the claim: 20% down at 6.66% (Freddie
+       Mac average, Aug 27), taxes estimated at 1.25%, the listing&#8217;s $620.31 dues,
+       and estimated HO-6 insurance. That is the work most agents leave as homework.</p>
   </div>
   <div class="plates">
     __C1__ __C2__ __C3__ __C4__ __C5__ __C5RU__ __C6__
@@ -170,16 +172,14 @@ BODY = """
   <div class="lede" style="margin-top:44px;">
     <span class="caps">Carousel copy · two options</span>
     <div class="opts">
-      <div class="opt"><b>A</b> · $2,500 to rent it. $2,515 to own it. Same apartment.
+      <div class="opt"><b>A</b> · $2,500 to rent it. About $2,658 to own it. Same apartment.
       I hold the lease and the sale on this one, so I ran both numbers line by line
-      instead of guessing. The figure that closes that gap isn&#8217;t the price, and
-      it isn&#8217;t on the listing. Every line is in the slides. This is an illustration,
+      instead of guessing. The cash payment is about $158 higher, but roughly $224 of
+      month one becomes principal. Every line is in the slides. This is an illustration,
       not a quote; your numbers will differ. Write &#8220;124&#8221; for the full breakdown.</div>
-      <div class="opt"><b>B</b> · Fifteen dollars a month. That&#8217;s the entire difference
-      between renting this apartment and owning it, and I can prove it because both
-      listings are mine. Rent disappears; a payment splits, part gone and part kept.
-      Slide two shows every line. Your lender will price it for you. Ask me for &#8220;124&#8221;
-      for the full breakdown.</div>
+      <div class="opt"><b>B</b> · $158 more going out. About $224 staying with you.
+      That is the part a rent-versus-own headline usually leaves out. Same apartment,
+      both listings mine, every line shown. Ask me for &#8220;124&#8221; for the breakdown.</div>
     </div>
   </div>
 </div></section>
@@ -209,24 +209,26 @@ BODY = """
   </div>
   <div class="script"><span class="caps">Reel 01 · Same Door · ~30s</span>
     <p>&#8220;Renting this apartment: twenty-five hundred a month. Owning the exact same
-    apartment: twenty-five fifteen. Fifteen dollars apart, and I can say that because
-    both listings are mine. So here&#8217;s the honest math. Twenty percent down at
+    apartment: about twenty-six fifty-eight. I can say that because both listings are
+    mine. So here&#8217;s the honest math. Twenty percent down at
     today&#8217;s rate, property taxes, insurance, and the association dues. All of it.
-    Twenty-five fifteen. And about two hundred twenty of that first payment stays
-    yours, which rent never does. Treat it as an estimate; your numbers will differ.
+    About twenty-six fifty-eight. And roughly two hundred twenty-four of that first
+    payment stays yours, which rent never does. Before maintenance and transaction
+    costs, that is about sixty-six dollars less in first-month cost. Treat it as an
+    estimate; your numbers will differ.
     If that gap surprised you, ask me for 124.&#8221;</p>
   </div>
   <div class="opts">
-    <div class="opt"><b>Option A</b> · $2,500 to rent it. $2,515 to own it. Same apartment,
+    <div class="opt"><b>Option A</b> · $2,500 to rent it. About $2,658 to own it. Same apartment,
     both listings mine. Full math in my Same Door carousel, sources included. The total
     is illustrative, not a quote. Write &#8220;124&#8221; for the breakdown.</div>
-    <div class="opt"><b>Option B</b> · Fifteen dollars. The real gap between
-    renting and owning this unit, before equity. Numbers in the carousel. Ask for
+    <div class="opt"><b>Option B</b> · $158 more cash. Roughly $224 becomes principal.
+    The real first-month comparison, before maintenance and transaction costs. Ask for
     &#8220;124&#8221; for the breakdown.</div>
   </div>
-  <div class="script"><span class="caps">Reel 02 · The $477 · ~30s</span>
-    <p>&#8220;Four hundred seventy-seven dollars a month, and it&#8217;s nowhere on the
-    listing. Those are the association dues here. They buy the pool, the gym, the water,
+  <div class="script"><span class="caps">Reel 02 · The $620 · ~30s</span>
+    <p>&#8220;Six hundred twenty dollars and thirty-one cents a month. Those are the
+    association dues shown on this listing. They buy the pool, the gym, the water,
     the trash, the building&#8217;s insurance, so it&#8217;s not a trick. But leave it out
     of your math and the whole comparison falls apart, which is exactly what happens to
     most first-time condo buyers. They find the number after they&#8217;ve already fallen
@@ -239,7 +241,7 @@ BODY = """
   <div class="script"><span class="caps">Reel 03 · по-русски · ~25s (your pass first; I
   wrote it to read like a transaction, you&#8217;re the native speaker)</span>
     <p>&#8220;Снимать эту квартиру — две тысячи пятьсот в месяц. Владеть той же самой —
-    две тысячи пятьсот пятнадцать. Разница пятнадцать долларов. Считаем честно: взнос
+    примерно две тысячи шестьсот пятьдесят восемь. Считаем честно: взнос
     двадцать процентов, сегодняшняя ставка, налоги, страховка, взносы ассоциации.
     И часть платежа остаётся вашей — аренда так не умеет. Это оценка, ваши цифры будут
     другими. Хотите полный расчёт по-русски — напишите мне «124».&#8221;</p>
@@ -262,8 +264,8 @@ BODY = """
       <div><span>2</span>Slide 1 of the carousel (the two prices), no added text</div>
       <div><span>3</span>Slide 2 (the math), with &#8220;estimate; your numbers will
       differ&#8221; typed on top</div>
-      <div><span>4</span>Slide 3 (the $477), caption: &#8220;the number that isn&#8217;t
-      on the listing&#8221;</div>
+      <div><span>4</span>Slide 3 (the $620.31), caption: &#8220;what the fee actually
+      covers&#8221;</div>
       <div><span>5</span>Close-up of you or the building; type: &#8220;full breakdown, in
       English or по-русски. Write &#8216;124&#8217;&#8221;</div>
     </div>
@@ -361,12 +363,12 @@ BODY = """
     <ul class="dont">
       <li>Never describe a neighborhood or building by who lives there. Speaking Russian
       is a service you offer, never a description of an area, in either language.</li>
-      <li>Keep &#8220;estimate, not a quote&#8221; wherever the $2,515 appears. Rate,
-      credit and the unit&#8217;s actual dues all move it.</li>
-      <li>Don&#8217;t say owning is cheaper than renting. Say &#8220;about the same before
-      equity. Run your numbers.&#8221;</li>
-      <li>The $477 is the building&#8217;s recorded figure for a two-bedroom. Say
-      &#8220;recorded for this building,&#8221; never &#8220;unit 124&#8217;s dues.&#8221;</li>
+      <li>Keep &#8220;estimate, not a quote&#8221; wherever the $2,658 appears. Rate,
+      credit, insurance, taxes, and association changes all move it.</li>
+      <li>Don&#8217;t say owning is simply cheaper than renting. Separate cash payment from
+      first-month cost and name what the estimate excludes.</li>
+      <li>The $620.31 is the figure shown on the active unit-124 listing. Confirm it
+      against current association documents before publishing.</li>
       <li>No &#8220;guaranteed,&#8221; no &#8220;always appreciates,&#8221; no
       &#8220;can&#8217;t lose.&#8221;</li>
       <li>If you boost any of it, never target by language or demographics. Housing ads
@@ -379,11 +381,10 @@ BODY = """
   <span class="caps">Two upgrades, when you&#8217;re ready</span>
   <h2>What makes this even <span class="si">sharper</span>.</h2>
   <ul>
-    <li><b>Unit 124&#8217;s own dues figure.</b> Pull the association&#8217;s financials
-    and the math slide gets the exact number instead of the building&#8217;s recorded one.
-    Send it over and I&#8217;ll have the updated slide back same day.</li>
-    <li><b>Your photos of the unit.</b> The moment you send the listing set, slide one
-    carries the actual door instead of the Valley at dusk.</li>
+    <li><b>Confirm the live inputs.</b> The current listing now supplies the $620.31 dues;
+    verify that figure, the rent, and the lender scenario before anything posts.</li>
+    <li><b>Choose the final crop.</b> The full 25-photo MLS set is now integrated, including
+    the actual door marked 124, kitchen, laundry, balcony, parking, pool, and gym.</li>
   </ul>
   <p style="margin-top:26px;">You don&#8217;t hire an agent to open the door. You hire one
      to read what signing it means. That&#8217;s the story this whole kit tells about
@@ -400,7 +401,7 @@ def main():
     for key, stem, cap in [
         ("C1", "01-c1", "1 / 6 — the two prices, already true."),
         ("C2", "02-c2", "2 / 6 — the math, done and labeled. This is the slide that gets saved."),
-        ("C3", "03-c3", "3 / 6 — the $477, and what it actually buys."),
+        ("C3", "03-c3", "3 / 6 — the $620.31, and what it actually buys."),
         ("C4", "04-c4", "4 / 6 — the part rent never does."),
         ("C5", "05-c5-three-documents", "5 / 6 — the checklist."),
         ("C5RU", "06-c5-three-documents-ru",
@@ -435,6 +436,9 @@ def main():
             '&display=swap">\n'
             "<style>%s</style>\n%s" % (CSS, body))
     OUT.write_text(html)
+    for thumb in TMP.iterdir():
+        thumb.unlink()
+    TMP.rmdir()
     print("%s  %.1f MB" % (OUT.name, OUT.stat().st_size / 1e6))
 
 

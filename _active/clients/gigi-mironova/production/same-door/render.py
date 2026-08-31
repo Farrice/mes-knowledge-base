@@ -16,6 +16,10 @@ def slug(t):
 def main():
     cv = json.load(open(HERE / "canvas.json"))
     OUT.mkdir(exist_ok=True)
+    # Output names contain slide titles; clear prior renders so renamed boards cannot
+    # survive as stale duplicates in the review sheet or delivery folder.
+    for old in OUT.glob("*.png"):
+        old.unlink()
     tmp = HERE / ".tmp"
     tmp.mkdir(exist_ok=True)
     # boards reference images by filename (canvas format); mirror them beside the shims

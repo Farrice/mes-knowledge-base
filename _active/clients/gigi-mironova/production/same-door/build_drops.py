@@ -74,7 +74,7 @@ def clock_columns():
 DROPS = [
     # ---- sellers: the $25,000 conversation --------------------------------
     ("D1", "D1 · Net Hook", lambda: B.story(
-        "balcony-plants-apartment-02", "duo", "50% 60%", "25",
+        "unit-124-building", "duo", "50% 52%", "25",
         [B.head('your neighbor sold for<br>asking. they still wrote a<br>$25,000 <span class="si">check.</span>', 68),
          B.body("more than half the Valley homes that sold this spring handed money back "
                 "at the closing table. so the number they told you and the number they "
@@ -120,7 +120,7 @@ DROPS = [
         B.NAME, S_NET, "THREE QUESTIONS FOR ANY AGENT, ME INCLUDED", "4 / 5")),
 
     ("D5", "D5 · Net CTA", lambda: B.story(
-        "sunlight-through-window-floor-00", "bleed", "50% 44%", "",
+        "unit-124-balcony", "bleed", "50% 44%", "",
         [B.head('want the honest number,<br>not the flattering '
                 '<span class="si">one?</span>', 72),
          B.body("send me your address and I'll put the real number on one page. price, "
@@ -131,7 +131,7 @@ DROPS = [
 
     # ---- buyers: the clock ------------------------------------------------
     ("K1", "K1 · Clock Hook", lambda: B.story(
-        "roofline-sky-00", "bleed", "50% 78%", "17",
+        "unit-124-kitchen", "bleed", "50% 52%", "17",
         [B.head('three deadlines started<br>the day you signed. nobody<br>hands you the <span class="si">dates.</span>', 64),
          B.body("they're already running. most first-time buyers find out when one has "
                 "nearly run out. so here they are, all three, in about ninety seconds.", True, 660)],
@@ -175,14 +175,14 @@ DROPS = [
         B.NAME, S_CLOCK, "SAVE THIS FOR YOUR NEXT OFFER", "4 / 5")),
 
     ("K5", "K5 · Clock CTA", lambda: B.story(
-        "palm-tree-sunset-city-00", "duo", "50% 46%", "",
+        "unit-124-door", "duo", "53% 50%", "",
         [B.head('want your deadlines<br>mapped before you '
                 '<span class="si">offer?</span>', 70),
          B.body("message me and I'll map your dates before you write anything, in plain "
                 "English or по-русски. ten minutes now saves the conversation nobody "
                 "wants to have later.", True, 700),
          B.cta_button("DM ME “CLOCK”")],
-        B.NAME, S_CLOCK, B.NAME, "5 / 5", scale=1.18)),
+        B.NAME, S_CLOCK, B.NAME, "5 / 5")),
 ]
 
 

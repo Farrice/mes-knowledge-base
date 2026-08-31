@@ -33,26 +33,26 @@ per-artboard from the toolbar.
 
 ## The design system (for any tool)
 
-- **Type**: Figtree 400–700 (structural, lowercase headlines, numerals 600 tabular) ·
-  Playfair Display italic 500 — ONE accent word per slide, headline scale only ·
-  Manrope for Russian (Figtree has no Cyrillic)
-- **Palette**: ink `#2C4A68` · band `#243D56` · muted `#75879C` · hairline `#E3E9F0` ·
-  ghost `#EDF1F6` · accent `#5E86AC` / `#C3D4E5` on dark · paper `#FDFDFC` · bone `#F2F5F8`
+- **Type**: Figtree 400–800 throughout, with Manrope for Russian. No script or italic
+  accent face; emphasis is a bold sans highlight.
+- **Palette**: ink `#173A54` · band `#244C68` · muted `#566E7E` · mist `#DCE8EE` ·
+  clay `#BD765E` · paper `#F7F3EC` · bone `#ECE7DE`
 - **Grammar**: 1080×1350; 64/72px padding; ruled header + footer; ghost Playfair numeral
   760px bled off the right; photos are `bleed` (color, scrim) or `duo` (navy duotone);
   white slides are the densest; framing per-slide inline, never global
 
 ## Prompt for Claude Design / any refinement session
 
-> Refine these artboards without changing the system: Figtree structural type with one
-> Playfair italic accent word per slide, soft HouseSellers navy (ink #2C4A68, deep
-> #243D56, accent #5E86AC), 1080×1350 with a ruled header/footer and an oversized ghost
+> Refine these artboards without changing the system: Figtree structural type with a
+> readable bold highlight, soft HouseSellers navy (ink #173A54, deep #244C68,
+> clay #BD765E), 1080×1350 with a ruled header/footer and an oversized ghost
 > numeral bleeding off the right edge. Photography stays real (no generated images),
 > treated as navy duotone or scrimmed color bleed. Every number is verified and must not
-> change: $2,500 rent, $319,999 list, $477 recorded dues, $2,515/mo estimate at 6.66%,
+> change without a fresh source: $2,500 rent, $319,999 list, $620.31 listed dues,
+> $2,658/mo estimate at 6.66%,
 > $224 month-one principal, $393,000 building average, 82 days, $1,034,250 SFV median.
-> Keep "estimate, not a quote" wherever $2,515 appears. Keep all fair-housing language
-> exactly: no neighborhood demographics, dues described as "recorded for this building."
+> Keep "estimate, not a quote" wherever $2,658 appears. Keep all fair-housing language
+> exactly: no neighborhood demographics; verify dues against association documents.
 > Russian text is a native-speaker draft; do not rewrite it. Voice: calm, precise, no
 > exclamation marks, lowercase headline register.
 

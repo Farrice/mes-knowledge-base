@@ -8,9 +8,9 @@ flare, soft navy instead of raw brand navy, and the First Home Valley compositio
 photography-led story slides, dense white structure slides, ghost numerals — instead of
 flat type boards.
 
-Imagery: the CC0 bank prepared for this client in v1 (provenance carried in
-../american-transaction/imagery/provenance.jsonl). Photo slides establish mood and place;
-the one photograph that must be HER unit stays an explicit drop-in slot (L1).
+Imagery: unit 124's live MLS photography (SR26183330), recovered from Gigi's own
+Equity Union listing syndication on 2026-08-31. Every story image now proves the
+adjacent claim: the actual 124 door, rooms, amenity, or building detail.
 
     python3 build.py
 """
@@ -127,7 +127,7 @@ def head(text, size=96, lh=1.12):
 # ---------------------------------------------------------------- components
 def price_pair_dark():
     rows = [("$2,500", "A MONTH TO RENT IT", False),
-            ("$2,515", "A MONTH TO OWN IT", True)]
+            ("$2,658", "A MONTH TO OWN IT", True)]
     out = []
     for amount, label, lead in rows:
         out.append(
@@ -176,11 +176,11 @@ def stat_ladder():
 
 def payment_ladder():
     """The payoff, done for the reader. Every figure computed 2026-08-31 and labeled:
-    rate 6.66% (Freddie Mac PMMS 8/27/26), tax est. 1.25% LA County, HOA $477 as
-    recorded for a 2-bd in this building (MLS via Redfin), HO-6 insurance estimated."""
+    rate 6.66% (Freddie Mac PMMS 8/27/26), tax est. 1.25% LA County, exact listed
+    HOA $620.31 for unit 124 (MLS SR26183330), HO-6 insurance estimated."""
     rows = [("$1,645", "loan payment — 20% down, 6.66%"),
             ("$333", "property taxes, est. 1.25%"),
-            ("$477", "association dues*"),
+            ("$620", "association dues — listed $620.31"),
             ("$60", "insurance, est. HO-6")]
     out = []
     for n, label in rows:
@@ -193,9 +193,9 @@ def payment_ladder():
     out.append(
         '<div style="display:flex; align-items:baseline; gap:30px; '
         'border-top:4px solid %s; padding-top:18px;">'
-        '<div class="num" style="font-size:84px; color:%s; min-width:300px;">$2,515</div>'
+        '<div class="num" style="font-size:84px; color:%s; min-width:300px;">$2,658</div>'
         '<div style="font-size:28px; line-height:1.4; color:%s;">a month to own it — '
-        'against $2,500 rent</div></div>' % (T.INK, T.INK, T.MUTED))
+        '$158 above the $2,500 rent</div></div>' % (T.INK, T.INK, T.MUTED))
     return '<div style="display:flex; flex-direction:column; gap:18px; max-width:900px;">%s</div>' % "".join(out)
 
 
@@ -337,13 +337,14 @@ BOARDS = [
     # The mockup boards (photo slot, profile meta) are gone — the kit page carries the
     # real bio text and the nine cover files instead.
     ("C1", "C1 · Same Door", lambda: story(
-        "palm-tree-sunset-city-01", "bleed", "50% 58%", "124",
-        [head('fifteen dollars a month.<br>that&#8217;s the whole '
-              '<span class="si">difference.</span>', 78),
+        "unit-124-door", "bleed", "53% 50%", "124",
+        [head('$158 more in cash.<br>$66 less in first-month '
+              '<span class="si">cost.</span>', 76),
          price_pair_dark(),
          body("same apartment. same parking spot, same pool. I have it listed both ways "
-              "right now, so I'm not guessing at either number. here's how the second "
-              "one gets that low.", True, 640)],
+              "right now, so I'm not guessing at either number. here's where $224 of "
+              "the ownership payment stays with you — before maintenance, transaction "
+              "costs, or appreciation.", True, 640)],
         NAME, ADDR, "SWIPE — EVERY LINE OF IT", "1 / 6", gy=120, gx=-100)),
 
     ("C2", "C2 · The Math", lambda: structure(
@@ -354,16 +355,16 @@ BOARDS = [
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
-          ' · *dues as recorded for a 2-bd in this building; unit 124&#8217;s exact figure is '
-          'in its HOA documents · confirm with your lender</div>' % T.MUTED)],
+          ' · dues shown at the listing&#8217;s $620.31 · confirm all figures and terms with '
+          'the HOA and your lender</div>' % T.MUTED)],
         NAME, SERIES, "BEFORE A DOLLAR OF EQUITY — AND THE PRICE ISN'T WHY", "2 / 6",
         gy=430, foot_size=15)),
 
-    ("C3", "C3 · The 477", lambda: structure(
-        "477",
+    ("C3", "C3 · The 620", lambda: structure(
+        "620",
         [head('the fee that ambushes<br>first-time condo <span class="si">buyers.</span>', 70),
          hoa_covers(),
-         body("there it is. $477 a month, and it's most of why those two numbers land so "
+         body("there it is. $620.31 a month, and it's most of why those two numbers land "
               "close together. it isn't a trick — it's the pool, the gym, the water, "
               "the building's insurance. it's just never in the ad. and once you can "
               "see it, one more thing changes.", False, 800)],
@@ -416,7 +417,7 @@ BOARDS = [
         NAME, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6", ru=True)),
 
     ("C6", "C6 · CTA", lambda: story(
-        "front-door-house-02", "duo", "50% 56%", "",
+        "unit-124-living", "duo", "50% 54%", "",
         [head('sixteen years in litigation<br>support before I ever<br>sold a '
               '<span class="si">house.</span>', 76),
          body("that's the whole job, really. someone reads the boring pages before you "
@@ -426,19 +427,19 @@ BOARDS = [
         NAME, SERIES, NAME, "6 / 6", scale=1.16)),
 
     ("R1", "Reel 1 Cover", lambda: reel(
-        "sunlight-through-window-floor-00", "bleed", "50% 62%", "124",
-        '$2,500 to rent it.<br>$2,515 to own it.<br>same <span class="si">apartment.</span>',
+        "unit-124-open-plan", "bleed", "50% 52%", "124",
+        '$2,500 to rent it.<br>$2,658 to own it.<br>$224 stays <span class="si">yours.</span>',
         "REEL · 01")),
 
     ("R2", "Reel 2 Cover", lambda: reel(
-        "balcony-plants-apartment-02", "duo", "50% 34%", "477",
-        '$477 a month.<br>it&#8217;s not on the<br><span class="si">listing.</span>',
+        "unit-124-pool", "duo", "50% 48%", "620",
+        '$620.31 a month.<br>what does it<br><span class="si">buy?</span>',
         "REEL · 02")),
 
     ("R3", "Reel 3 Cover · RU", lambda: reel(
-        "palm-tree-sunset-city-00", "duo", "50% 46%", "124",
-        '$2,500 в месяц — снимать.<br>$2,515 — владеть.<br>та же <span class="si">квартира.</span>',
-        "REEL · 03", ru=True, series=SERIES_RU, scale=1.18)),
+        "unit-124-balcony", "duo", "50% 46%", "124",
+        '$2,500 — снимать.<br>$2,658 — владеть.<br>$224 остаются <span class="si">вам.</span>',
+        "REEL · 03", ru=True, series=SERIES_RU)),
 
     ("R4", "Reel 4 Cover · Portrait", portrait_board),
 ]
