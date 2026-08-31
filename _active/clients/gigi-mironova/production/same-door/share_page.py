@@ -159,9 +159,10 @@ BODY = """
   <div class="lede">
     <span class="caps">Post this today · the carousel</span>
     <h2>Same Door</h2>
-    <p>The math is computed, sourced and labeled: 20% down at 6.66% (Freddie Mac average,
-       Aug 27), taxes estimated at 1.25%, the building&#8217;s recorded $477 dues, and
-       HO-6 insurance. Slide two does the work most agents leave as homework.</p>
+    <p>Slide one gives away the ending on purpose: two monthly numbers, fifteen dollars
+       apart. Everything after it proves the claim: 20% down at 6.66% (Freddie Mac
+       average, Aug 27), taxes estimated at 1.25%, the building&#8217;s recorded $477
+       dues, HO-6 insurance. That is the work most agents leave as homework.</p>
   </div>
   <div class="plates">
     __C1__ __C2__ __C3__ __C4__ __C5__ __C5RU__ __C6__
@@ -169,15 +170,16 @@ BODY = """
   <div class="lede" style="margin-top:44px;">
     <span class="caps">Caption · pick one</span>
     <div class="opts">
-      <div class="opt"><b>A</b> · Everyone compares the rent to the price. Wrong comparison.
-      I hold the lease and the sale on the same Reseda unit, so I ran the honest monthly
-      math on both, line by line. The gap is fifteen dollars, and the number that decides
-      it isn&#8217;t on the listing. Slides have everything. Estimate, not a quote; your
-      numbers will differ. DM me &#8220;124&#8221; for the complete breakdown.</div>
-      <div class="opt"><b>B</b> · Rent disappears. A payment splits: part gone, part kept.
-      On this unit the honest gap between the two is fifteen dollars a month, and I can
-      say that because I hold both listings. Slide two shows every line. Estimate, not a
-      quote. Message me &#8220;124&#8221; and I&#8217;ll send the full breakdown.</div>
+      <div class="opt"><b>A</b> · $2,500 to rent it. $2,515 to own it. Same apartment.
+      I hold the lease and the sale on this one, so I ran both numbers line by line
+      instead of guessing. The figure that closes that gap isn&#8217;t the price, and
+      it isn&#8217;t on the listing. Every line is in the slides. Estimate, not a quote;
+      your numbers will differ. DM me &#8220;124&#8221; for the full breakdown.</div>
+      <div class="opt"><b>B</b> · Fifteen dollars a month. That&#8217;s the entire difference
+      between renting this apartment and owning it, and I can prove it because both
+      listings are mine. Rent disappears; a payment splits, part gone and part kept.
+      Slide two shows every line. Estimate, not a quote. Message me &#8220;124&#8221;
+      for the full breakdown.</div>
     </div>
   </div>
 </div></section>
@@ -193,25 +195,26 @@ BODY = """
     <div class="pair">__R1__ __R2__</div>
   </div>
   <div class="script"><span class="caps">Reel 01 · Same Door · ~30s</span>
-    <p>&#8220;I&#8217;m the agent on both listings for the same unit at 19350 Sherman Way.
-    To rent it: twenty-five hundred a month. To buy it: just under three twenty. Everyone
-    assumes owning costs far more, so I ran the honest numbers. Down payment, today&#8217;s
-    rate, taxes, insurance, the dues. Everything. Fifteen dollars. That&#8217;s the gap,
-    before a single dollar of equity. Treat it as an estimate; your numbers will differ.
-    But if that gap surprised you, message me 124 and I&#8217;ll send the whole
-    breakdown.&#8221;</p>
+    <p>&#8220;Renting this apartment: twenty-five hundred a month. Owning the exact same
+    apartment: twenty-five fifteen. Fifteen dollars apart, and I can say that because
+    both listings are mine. So here&#8217;s the honest math. Twenty percent down at
+    today&#8217;s rate, property taxes, insurance, and the association dues. All of it.
+    Twenty-five fifteen. And about two hundred twenty of that first payment stays
+    yours, which rent never does. Treat it as an estimate; your numbers will differ.
+    If that gap surprised you, message me 124.&#8221;</p>
   </div>
   <div class="opts">
-    <div class="opt"><b>Caption A</b> · The full math is in my Same Door carousel, sources
-    and assumptions included. Estimate, not a quote. DM &#8220;124&#8221; for the breakdown.</div>
+    <div class="opt"><b>Caption A</b> · $2,500 to rent it. $2,515 to own it. Same apartment,
+    both listings mine. Full math in my Same Door carousel, sources included. Estimate,
+    not a quote. DM &#8220;124&#8221; for the breakdown.</div>
     <div class="opt"><b>Caption B</b> · Fifteen dollars. That&#8217;s the real gap between
     renting and owning this unit, before equity. Numbers in the carousel. Send me
     &#8220;124&#8221; for the breakdown.</div>
   </div>
   <div class="script"><span class="caps">Reel 02 · The $477 · ~30s</span>
-    <p>&#8220;The association dues are the most expensive number most condo buyers never
-    check, and they are not on the listing. Here, the recorded figure is four
-    seventy-seven a month. Pool, spa, gym, water, trash, the building&#8217;s insurance. Skip it, and your
+    <p>&#8220;Four hundred seventy-seven dollars a month, and it&#8217;s nowhere on the
+    listing. That&#8217;s the association dues on this building. It&#8217;s the number most condo
+    buyers never check until they already love the place. Pool, spa, gym, water, trash, the building&#8217;s insurance. Skip it, and your
     monthly math is fiction. I read documents for a living for sixteen years before I got
     my license, so this is the part I never skip. Shopping for any condo, mine included:
     ask for the financials before you write. Message me 124 and I&#8217;ll send the exact
@@ -222,11 +225,11 @@ BODY = """
   </div>
   <div class="script"><span class="caps">Reel 03 · по-русски · ~25s (your pass first; I
   wrote it to read like a transaction, you&#8217;re the native speaker)</span>
-    <p>&#8220;Одна и та же квартира на Шерман Уэй. Снять — две тысячи пятьсот в месяц.
-    Купить — чуть меньше трёхсот двадцати тысяч. Посчитаем честно: взнос двадцать
-    процентов, сегодняшняя ставка, налоги, страховка и взносы ассоциации — выходит около
-    двух тысяч пятисот в месяц. Почти как аренда. Разница в том, что часть платежа
-    остаётся вашей. Хотите полный расчёт по-русски — напишите мне «124».&#8221;</p>
+    <p>&#8220;Снимать эту квартиру — две тысячи пятьсот в месяц. Владеть той же самой —
+    две тысячи пятьсот пятнадцать. Разница пятнадцать долларов. Считаем честно: взнос
+    двадцать процентов, сегодняшняя ставка, налоги, страховка, взносы ассоциации.
+    И часть платежа остаётся вашей — аренда так не умеет. Это оценка, ваши цифры будут
+    другими. Хотите полный расчёт по-русски — напишите мне «124».&#8221;</p>
   </div>
   <div class="script"><span class="caps">Reel 04 · the portrait cover</span>
     <p>This one is for a talking-head reel about how you work: the sixteen years, the

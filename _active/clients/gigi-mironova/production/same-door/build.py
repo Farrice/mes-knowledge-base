@@ -126,7 +126,7 @@ def head(text, size=96, lh=1.12):
 # ---------------------------------------------------------------- components
 def price_pair_dark():
     rows = [("$2,500", "A MONTH TO RENT IT", False),
-            ("$319,999", "TO OWN IT", True)]
+            ("$2,515", "A MONTH TO OWN IT", True)]
     out = []
     for amount, label, lead in rows:
         out.append(
@@ -269,8 +269,8 @@ def portrait_board():
         '<div style="position:absolute; inset:0; border:1px solid rgba(255,255,255,0.3);"></div>'
         '</div>'
         '<div class="h" style="font-size:64px; line-height:1.18; padding-bottom:6px;">'
-        'sixteen years in<br>litigation support.<br>now the fine print<br>works for '
-        '<span class="si">you.</span></div></div>' % (img, T.BAND))
+        'I read fine print<br>for sixteen years.<br>then I got my '
+        '<span class="si">license.</span></div></div>' % (img, T.BAND))
     inner = ghost("16", -70, 640, True)
     inner += ('<div class="pad">%s%s%s</div>'
               % (rule(SERIES, "REEL · 04", True), block, foot(NAME, "PORTRAIT", True)))
@@ -337,15 +337,17 @@ BOARDS = [
     # real bio text and the nine cover files instead.
     ("C1", "C1 · Same Door", lambda: story(
         "palm-tree-sunset-city-01", "bleed", "50% 58%", "124",
-        [head('the renter and the owner<br>live behind the same <span class="si">door.</span>', 76),
+        [head('fifteen dollars a month.<br>that&#8217;s the whole '
+              '<span class="si">difference.</span>', 78),
          price_pair_dark(),
-         body("same one-bedroom in Reseda. same parking spots, same pool. I'm the "
-              "agent on both listings — so this isn't a what-if. swipe.", True, 640)],
-        NAME, ADDR, "SWIPE — THE MATH NOBODY RUNS", "1 / 6", gy=120, gx=-100)),
+         body("same one-bedroom in Reseda. renting it, or owning it at $319,999. "
+              "I'm the agent on both listings, so this isn't a what-if. swipe for "
+              "every line of the math.", True, 640)],
+        NAME, ADDR, "SWIPE — EVERY LINE OF IT", "1 / 6", gy=120, gx=-100)),
 
     ("C2", "C2 · The Math", lambda: structure(
         "15",
-        [head('fifteen dollars. that&#8217;s<br>the whole <span class="si">difference.</span>', 68),
+        [head('here is every dollar.<br>nothing <span class="si">rounded.</span>', 74),
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
@@ -420,17 +422,17 @@ BOARDS = [
 
     ("R1", "Reel 1 Cover", lambda: reel(
         "sunlight-through-window-floor-00", "bleed", "50% 62%", "124",
-        '$2,500 to rent it.<br>$319,999 to own it.<br>same <span class="si">door.</span>',
+        '$2,500 to rent it.<br>$2,515 to own it.<br>same <span class="si">apartment.</span>',
         "REEL · 01")),
 
     ("R2", "Reel 2 Cover", lambda: reel(
         "balcony-plants-apartment-02", "duo", "50% 34%", "477",
-        'the fee nobody<br>mentions until<br>it&#8217;s <span class="si">yours.</span>',
+        '$477 a month.<br>it&#8217;s not on the<br><span class="si">listing.</span>',
         "REEL · 02")),
 
     ("R3", "Reel 3 Cover · RU", lambda: reel(
         "palm-tree-sunset-city-00", "duo", "50% 46%", "124",
-        '$2,500 — снять.<br>$319,999 — купить.<br>одна и та же <span class="si">дверь.</span>',
+        '$2,500 в месяц — снимать.<br>$2,515 — владеть.<br>та же <span class="si">квартира.</span>',
         "REEL · 03", ru=True, series=SERIES_RU, scale=1.18)),
 
     ("R4", "Reel 4 Cover · Portrait", portrait_board),

@@ -75,11 +75,10 @@ DROPS = [
     # ---- sellers: the $25,000 conversation --------------------------------
     ("D1", "D1 · Net Hook", lambda: B.story(
         "balcony-plants-apartment-02", "duo", "50% 60%", "25",
-        [B.head('your neighbor got their<br>price. and wrote a '
-                '<span class="si">check.</span>', 72),
+        [B.head('your neighbor sold for<br>asking. they still wrote a<br>$25,000 <span class="si">check.</span>', 68),
          B.body("more than half the Valley homes that sold this spring handed money "
-                "back at closing — about $25,000 on average. the sale price never "
-                "shows it. swipe.", True, 660)],
+                "back at the closing table. it never shows up in the price everyone "
+                "quotes. swipe.", True, 660)],
         B.NAME, S_NET, "SWIPE — WHERE THE NEGOTIATION WENT", "1 / 5")),
 
     ("D2", "D2 · Two Numbers", lambda: B.structure(
@@ -133,11 +132,9 @@ DROPS = [
     # ---- buyers: the clock ------------------------------------------------
     ("K1", "K1 · Clock Hook", lambda: B.story(
         "roofline-sky-00", "bleed", "50% 78%", "17",
-        [B.head('your offer got accepted.<br>now don&#8217;t lose the '
-                '<span class="si">house.</span>', 72),
-         B.body("three timers started the moment you both signed. most first-time "
-                "buyers hear about them when one has nearly run out. ninety seconds, "
-                "so that's never you.", True, 660)],
+        [B.head('three deadlines started<br>the day you signed. nobody<br>hands you the <span class="si">dates.</span>', 64),
+         B.body("they are already running. most first-time buyers find out when one "
+                "is nearly gone. ninety seconds here, so that's never you.", True, 660)],
         B.NAME, S_CLOCK, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 5")),
 
     ("K2", "K2 · Three Clocks", lambda: B.structure(
