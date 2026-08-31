@@ -2,10 +2,10 @@
 
 This package completes the requested client gift without sending or publishing anything.
 
-The client sequence contains the approved remodel-date anchor, an in-unit-laundry feature board, a private-showing invitation and a House Sellers navy close. Each property board uses one current photograph, one verified listing detail and one direct response action. All four boards are rendered at 2160 by 2700 pixels.
+The client sequence is now a public-facing four-slide Instagram carousel: remodel date, in-unit laundry, bedroom-to-private-balcony access and a buyer-facing Gigi contact slide. Slides 1–3 use actual Unit 124 photography. Slide 4 uses Gigi's supplied portrait and one action: DM "124." All four boards are rendered at 2160 by 2700 pixels.
 
 The cream identity overview remains available as an internal strategy artifact. It is excluded from the clean delivery folder because it explains the system rather than closing the gift for Gigi.
 
-Three ready-to-post captions accompany the boards. A concise delivery note introduces the gift without pressure. The final navy board and separate follow-up invitation offer a one-property pilot with photo selection, four to six assets, captions, a posting sequence and one revision round.
+One carousel caption and slide-specific alt text accompany the boards. The `post-ready` folder contains only the four ordered images, caption and alt text. A separate delivery note introduces the gift without pressure.
 
-Current MLS-fed sources support the address, active price, configuration, remodel timing, included laundry and showing language. The earlier mortgage comparison is excluded because its financing assumptions were not documented. The customer-facing copy, including the new close, passes the anti-slop classifier with a zero score. The listing copy passes fair-housing review. Gigi's personal voice remains a human calibration point before publication.
+Current MLS-fed sources support the address, for-sale status, $319,999 price, configuration, remodel timing, included laundry and showing language. The earlier mortgage comparison is excluded because its financing assumptions were not documented. The carousel caption and final-slide copy pass the anti-slop classifier with a zero score and the fair-housing lint. Nothing has been published or sent.

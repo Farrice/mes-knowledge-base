@@ -1,69 +1,65 @@
-# Gift-package QA receipt
+# Post-ready carousel QA receipt
 
 ## Source gate
 
-Gate A: anchor=Gigi Mironova and Unit 124 · artifacts=user listing screenshot, current MLS-fed listing, current listing photography, accepted visual anchor · stakes=client-facing gift and paid-pilot conversation · mechanism=one property image plus one verified detail plus one action
-
-Final-close Gate A: anchor=Gigi Mironova and House Sellers · artifacts=approved three-board set, navy and clay palette, delivery note and Listing Launch invitation · stakes=the last slide must create a clear next step without pressure · mechanism=the close gives Gigi ownership of the gift, then names one specific pilot action
+Gate A: anchor=Gigi Mironova and Unit 124 · artifacts=current four-board package, 25-image listing contact sheet, Gigi headshot, House Sellers logo and MLS-fed listing facts · stakes=a public carousel could misstate an active listing or send buyers to the wrong action · mechanism=three concrete property reasons earn the swipe, then Gigi's contact slide turns interest into a DM or private-showing request
 
 ## Claims
 
-- Current price, address, configuration, listing agents and status checked against current MLS-fed pages.
+- Current $319,999 price, address, one-bedroom and one-bathroom configuration, 619-square-foot size, listing agent and for-sale status checked against the current SR26183330 MLS-fed pages.
 - Remodel date, included appliances, in-unit laundry, private balcony and parking match the current CRMLS description.
 - The earlier mortgage comparison was excluded because its loan assumptions were not documented in the approved source.
-- The invitation says private showing because no upcoming open house was listed when checked.
+- The final slide offers a private showing and does not claim an open-house time.
 
 ## Copy checks
 
-- Captions: CLEAN, AI score 0/10
+- Carousel caption: CLEAN, AI score 0/10
 - Delivery note: CLEAN, AI score 0/10
-- Listing Launch invitation: CLEAN, AI score 0/10
-- Final-slide copy: CLEAN, AI score 0/10 after review labels were removed from the exact-copy scan
+- Final-slide copy: CLEAN, AI score 0/10
 - Judgment scan: clean; no generic luxury language, fake urgency, hashtag wall, transferable abstraction or unsupported statistic
-- Fair-housing lint: PASS on all three customer-facing files
+- Fair-housing lint: PASS on the exact carousel caption and final-slide copy
 
 ## Copy Gate
 
 | Dimension | Score | Note |
 |---|---:|---|
-| Hook | 8 | Concrete property detail opens each caption |
+| Hook | 8 | The dated December 2023 remodel opens the sequence |
 | Punch | 8 | Short, specific and restrained |
 | Voice | 7 | Fits the proposed identity; Gigi has not personally calibrated it |
 | Tension | 7 | Useful contrast without manufactured urgency |
-| Buyer language | 8 | Names practical ownership and showing concerns |
+| Buyer language | 8 | Remodel timing, included laundry and private balcony are concrete buyer details |
 | Named anchor | 8 | Unit 124, address, price and date are explicit |
 | Enemy or belief | 7 | Counters vague remodel claims and photo-only judgment |
 | Proof | 8 | MLS facts and actual listing photography |
 | CTA | 8 | One low-friction message keyword |
 | Anti-slop | 8 | Deterministic and judgment scans clean |
-| Platform fit | 8 | Instagram-length captions with readable fact blocks |
+| Platform fit | 8 | Four-slide Instagram sequence, one caption and slide-specific alt text |
 
 Verdict: PASS FOR DRAFT REVIEW, NOT AUTO-PUBLISH.
 
 ## Final-slide correction
 
-- The cream identity overview is retained as an internal strategy artifact and excluded from the delivery folder.
-- White and House Sellers navy close variants were rendered for comparison.
-- The navy close is the selected delivery version because it creates a clear visual ending and carries the existing House Sellers palette most directly.
-- Internal color-direction labels are absent from the client file.
-- The client sequence now ends with one contextual invitation: reply "NEXT LISTING" to discuss a one-listing pilot.
+- The creator-to-client Listing Launch pitch was removed from the carousel.
+- The final navy slide now speaks from Gigi to the buyer: "Interested in Unit 124?"
+- One action is dominant: DM "124" for the complete listing or a private showing.
+- Gigi's supplied portrait, DRE number and Instagram handle make the close specific and usable.
 
 ### Final-close Copy Gate
 
 | Dimension | Score | Note |
 |---|---:|---|
-| Hook | 8 | Unit 124 immediately connects the close to the gift |
-| Punch | 8 | One headline, one offer and one response phrase |
+| Hook | 8 | Unit 124 is named in the primary question |
+| Punch | 8 | One headline, one fact row and one response phrase |
 | Voice | 7 | Restrained and personal; Gigi has not calibrated it directly |
-| Tension | 7 | The next listing is the live opportunity without fake urgency |
-| Buyer language | 8 | Names the exact pilot scope in plain language |
-| Named anchor | 9 | Gigi, House Sellers and Unit 124 are explicit |
-| Proof | 8 | The preceding three finished assets demonstrate the offer |
+| Tension | 7 | Buyer interest moves directly to listing details without fake urgency |
+| Buyer language | 8 | Price, configuration and private-showing language are explicit |
+| Named anchor | 9 | Gigi, Unit 124 and the property address are explicit |
+| Proof | 8 | The preceding slides use actual Unit 124 photography and verified details |
 | CTA | 9 | One memorable reply phrase |
 | Anti-slop | 9 | Exact-copy deterministic scan is CLEAN at 0/10 |
 | Platform fit | 8 | Clear at mobile size and visually conclusive in sequence |
 
-Final-close verdict: PASS FOR DRAFT REVIEW, NOT AUTO-SEND.
+Final-close verdict: PASS FOR DRAFT REVIEW, NOT AUTO-PUBLISH.
 
 ## Repository closeout
 
