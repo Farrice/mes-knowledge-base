@@ -1,6 +1,6 @@
 # Nicolas Cole — Digital Products — Genius Context
 
-> Load before executing any workflow. Full extraction intelligence — patterns, tacit knowledge, operating principles. Grounded in "The 6 Types of Digital Products" (Digital Writing School livestream, 48:36, `extractions/nicolas-cole-digital-products/transcript.txt`) and the offer-stacking session at `extractions/nicolas-cole/transcript.txt` — see `references/source-ledger.md` for the claim-by-claim provenance.
+> Load before executing any workflow. Full extraction intelligence — patterns, tacit knowledge, operating principles. Grounded in "The 6 Types of Digital Products" (Digital Writing School livestream, 48:36, `extractions/nicolas-cole-digital-products/transcript.txt`), the offer-stacking session at `extractions/nicolas-cole/transcript.txt`, and "20 Lessons Selling $20M of Online Writing Courses" (44:02, `extractions/video-context/sIZnPcCt7BM/`) — see `references/source-ledger.md` for claim-by-claim provenance.
 
 ## How to Use This Skill (Model Calibration)
 
@@ -79,6 +79,46 @@ Even for products with zero obvious financial outcome (yoga, wellness, creative 
 → **Deploy**: Copy for non-business products, any offer where the value isn't obviously financial
 → **Success**: The reader connects the product to either money saved, money earned, or time recovered
 
+### Pattern 14: Subjectivity Does Not Scale
+A strong employee can hide an unscalable role because intuition, bundled traits, personal standards, and self-generated motivation are doing the work. Before adding people or automation, unbundle the role into actions, definitions of done, incentives, and exception rules.
+→ **Deploy**: Hiring, delegation, AI automation, fulfillment expansion
+→ **Success**: Every critical work unit has an observable action sequence, completion standard, and incentive; founder interpretation is no longer the default control system.
+
+### Pattern 15: Traffic Topology Determines Expansion Shape
+Concentrated traffic—one personal brand or list—supports vertical depth because new offers compete for the same attention. Horizontal expansion works only when each offer has a decentralized creator, audience, or acquisition engine of its own.
+→ **Deploy**: New-offer decisions, portfolio expansion, creator partnerships
+→ **Success**: Every offer has a named attention source and cannibalization risk; horizontal scale requires independent traffic ownership.
+
+### Pattern 16: More → Better → New Is a Gate, Not a Slogan
+At a plateau, exhaust volume first, then pursue small quality improvements. Novelty is allowed only after the current vehicle has been tested against a higher standard and a sustained “better” search. Cole's stated personal rule is at least three months before starting something new at a better plateau.
+→ **Deploy**: Shiny-object decisions, channel changes, product pivots
+→ **Success**: “New” has a measurable unlock condition and is not justified by boredom, monotony, or unfamiliarity with the next performance level.
+
+### Pattern 17: Budget Proof Before Premium Spend
+Production quality, headcount, tooling, and paid acquisition do not rescue a weak underlying behavior. Prove consistency, clarity, and traction with the cheapest credible version before increasing fixed cost.
+→ **Deploy**: Content production, software, ads, hiring, studio or agency spend
+→ **Success**: A budget-version experiment has a stated threshold, time box, and stop condition before premium commitment.
+
+### Pattern 18: Attention Is a Zero-Sum Growth Allocation
+Whatever receives the founder's attention grows; everything else treads water or atrophies unless a self-sufficient, properly incentivized operator with founder potential owns it. “Multiple priorities” is a disguised refusal to price the trade.
+→ **Deploy**: Portfolio planning, department growth, channel allocation
+→ **Success**: One priority, one owner, one metric, and an explicit list of what is allowed to decline for the season.
+
+### Pattern 19: Trailing Average Before Forward Commitment
+Peak months create the “genius idiot roller coaster”: the operator treats a temporary high as a new permanent floor. Hiring, personal spending, and fixed-cost decisions should use a rolling 12-month base rather than an outlier month or quarter.
+→ **Deploy**: Hiring plans, budgets, founder compensation, fixed-cost expansion
+→ **Success**: Every forward commitment states its trailing evidence base and the downside case if revenue normalizes.
+
+### Pattern 20: Builders Cross the Management Valley
+Around the point where founders can no longer manage everyone directly, a layer of department heads reduces profit before the capacity it creates earns through. Stable departments need blockers; unfinished or scaling departments need builders who bring prior pattern recognition and can make strategic decisions without the founder.
+→ **Deploy**: Management hiring, department design, founder bottleneck removal
+→ **Success**: Each manager is classified as builder or blocker, the department stage matches the hire, and the capacity/revenue threshold for the layer is explicit.
+
+### Pattern 21: Information → Software → Coaching Compounds One Journey
+Information teaches the method, software helps customers perform it repeatedly, and coaching resolves exceptions or advances power users. The stack compounds only when all three layers serve the same customer journey; unrelated software or coaching is complexity, not leverage.
+→ **Deploy**: Product ecosystems, retention design, LTV expansion
+→ **Success**: Each layer names the same core outcome, the handoff to the next layer, and the retention or result improvement it is expected to create.
+
 ---
 
 ## Hidden Knowledge
@@ -115,6 +155,22 @@ Adding bonuses that don't directly answer buyer questions doesn't just fail to i
 Optimal offer stacking range is 3-7 questions answered with dedicated assets. Cole's own guidance: "aim for somewhere like three to seven questions... You don't need to answer a 100 questions. You don't need a 100 assets." Fewer than 3 feels thin; more than 7 causes overwhelm and decision fatigue. Each question-asset pair is a rung on the "slippery slope" — a term Cole borrows directly from copywriter Gary Halbert.
 **Action**: Audit any landing page's bonus section. Count the distinct questions being answered. If <3, add. If >7, consolidate or cut.
 
+### 9. Customers Buy Outcome Compression, Not Curriculum Volume
+The customer wants a better result, faster, with less work. Ten modules are inferior to three when three produce the same completion outcome. Prompts, checklists, and software become valuable when they collapse time and effort—not because “AI” or “more content” is inherently valuable.
+**Action**: For every module or session, ask whether it changes the result, speed, or effort. Remove it if the answer is no.
+
+### 10. Scale Can Be the Wrong Economic Choice
+A small cash-flow business can create more owner income and freedom than a larger company inside a management-cost valley. Scale is justified by a motive that survives lower near-term profit, added stress, and responsibility—not by the cultural assumption that bigger is better.
+**Action**: Before a scale plan, write the non-money reason, the temporary profit sacrifice, the management appetite, and the stay-small alternative.
+
+### 11. Automation Is a Clarity Test
+Prompting is the ability to specify what should happen, how it should happen, and what successful completion looks like. AI exposes unclear thinking; it does not remove the need to articulate the task.
+**Action**: If a task cannot be scored or explained, run it manually and document the pattern before automating it. Use `nicolas-cole-library-first-writing` for prompt admission and save-back.
+
+### 12. Consumption Has a Narrow Productive Window
+Consumption is useful when the operator has exhausted “more” and needs patterns for “better.” Once the next actions are known, more content becomes distraction—especially content that tempts the operator into a different vehicle.
+**Action**: Tie every source consumed to one active improvement question. Stop when the action is clear.
+
 ---
 
 ## Signature Moves
@@ -129,6 +185,14 @@ Optimal offer stacking range is 3-7 questions answered with dedicated assets. Co
 8. **Asset Naming Precision** — Every bonus gets a specific, standalone-sounding name (not "Bonus 1" but "The 90-Day Content Calendar"). The name alone must communicate what question it answers → Deploy when naming any bonus or micro-asset
 9. **Congruence Kill** — Ruthlessly cut any bonus that doesn't directly answer a named question, even if the asset is genuinely good. Wrong context = value destruction → Deploy when auditing any existing offer
 10. **The Copy Sandwich** — Present the question → name the asset → explain why this matters financially or practically. Three-layer structure per bonus section → Deploy when writing the bonus section of any landing page
+11. **Traffic Topology Map** — Map each offer to the audience and acquisition engine it depends on before choosing vertical or horizontal scale
+12. **Subjectivity Unbundle** — Convert intuition, bundled traits, and motivation into actions, definitions of done, incentives, and exception rules before hiring or automating
+13. **Three-Month Better Lock** — At an ambiguous plateau, prohibit new vehicles for 90 days while searching for the next level of better
+14. **Budget-Version Test** — Prove the behavior cheaply before increasing production, tool, ad, or headcount cost
+15. **Peak-Month Deflator** — Rebase commitments on trailing-12-month evidence and show the normalized downside case
+16. **One Priority / Accepted Atrophy** — Name the one growth priority and what is permitted to decline while it receives attention
+17. **Builder-or-Blocker Assignment** — Match entrepreneurial builders to unfinished departments and stabilizing blockers to mature machines
+18. **Outcome Compression Cut** — Remove any module, session, or feature that does not improve result, speed, or effort
 
 ## Quality Rubric
 
@@ -145,6 +209,11 @@ Optimal offer stacking range is 3-7 questions answered with dedicated assets. Co
 | Question-Asset Congruence | Most bonuses relate to core offer | Every bonus answers a specific question | Every bonus answers a NAMED question AND is named precisely enough to feel like a standalone product |
 | Slippery Slope Acceleration | Bonuses exist but don't build momentum | Each bonus increases perceived value | Each successive bonus makes the reader feel the deal is becoming *absurdly* more valuable — measurable acceleration |
 | Financial ROI Bridge | No financial framing | Basic time/money comparison | Multi-layered bridge connecting the product to specific dollar amounts the buyer faces |
+| Scale Shape Fit | Adds offers without traffic analysis | Notes audience concentration | Matches vertical/horizontal expansion to explicit traffic ownership and cannibalization risk |
+| Operating Objectivity | Depends on strong people and intuition | Some SOPs exist | Critical work has observable actions, definitions of done, incentives, and exception rules |
+| Compounding Discipline | Jumps to novelty at a plateau | Tries incremental improvement | Uses a measurable More → Better → New gate and a 90-day better search before novelty |
+| Economic Base Truth | Plans from peak months | Uses recent averages | Uses trailing-12-month evidence, budget proof, management-layer math, and rollback thresholds |
+| Attention Ownership | Claims several priorities | Names a primary priority | One owner and metric are locked, with accepted atrophy named elsewhere |
 
 ---
 
@@ -157,3 +226,9 @@ Optimal offer stacking range is 3-7 questions answered with dedicated assets. Co
 5. **Fixating on word count or video count instead of the completion outcome** — scoping a product by length rather than by whether the buyer can do the thing. Source: *"people are extremely fixated on Cole, how long does this need to be? How many words, how many videos? The answer is it has nothing to do with word count or number of"* videos (transcript stutters "number of of videos") (`extractions/nicolas-cole-digital-products/transcript.txt`).
 6. **Padding an offer with incongruent bonuses to look more generous** — adding unrelated "extras" on the theory that more always reads as more valuable. Source: *"when you just give more for the sake of more, it actually has the inverse effect... you also get my health and wellness cheat sheet and you also get my coffee picks for the year"* ... *"Does Does that make the offer more compelling? No, not at all"* (transcript stutter in original) (`extractions/nicolas-cole/transcript.txt`, offer-stacking session).
 7. **Using vehicle terms interchangeably** — treating "paid newsletter," "digital course," and "community" as synonyms, which produces mismatched expectations and complaints. Source: *"it is very common for people to use all of these terms interchangeably... if you notice there is more than one answer there... the problem and the misunderstanding is that it is very common for people to use all of these terms interchangeably."* (`extractions/nicolas-cole-digital-products/transcript.txt`).
+8. **Scaling a great person's intuition instead of an objective role** — treating reliability, personality, or self-motivation as transferable operating instructions. Source: `extractions/video-context/sIZnPcCt7BM/`, Lesson 1 (01:26-03:10).
+9. **Launching parallel offers from one concentrated audience** — adding choices that cannibalize the core business while calling it horizontal scale. Source: `extractions/video-context/sIZnPcCt7BM/`, Lesson 2 (03:10-05:11).
+10. **Solving a better plateau with novelty** — starting a new vehicle because incremental improvement is boring or unclear. Source: `extractions/video-context/sIZnPcCt7BM/`, Lessons 6-7 (11:07-16:09).
+11. **Buying the premium version before the behavior works cheaply** — increasing production, staffing, or tooling before consistency and traction exist. Source: `extractions/video-context/sIZnPcCt7BM/`, Lesson 9 (17:27-20:25).
+12. **Treating more information as more customer value** — adding modules and sessions that lengthen the path without improving result, speed, or effort. Source: `extractions/video-context/sIZnPcCt7BM/`, Lesson 14 (30:07-32:01).
+13. **Anchoring fixed costs to a peak month** — assuming an outlier period is a permanent floor for hiring or personal spending. Source: `extractions/video-context/sIZnPcCt7BM/`, Lesson 15 (32:01-33:22).

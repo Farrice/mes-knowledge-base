@@ -1,7 +1,7 @@
 # Nicolas Cole — Digital Products — Source Ledger
 
 Claim-by-claim provenance for `genius.md` and `references/genius-patterns.md` /
-`references/hidden-knowledge.md`. Two primary sources:
+`references/hidden-knowledge.md`. Three primary sources:
 
 - **DP** = `extractions/nicolas-cole-digital-products/transcript.txt` + its
   `extraction-report.md` — "The 6 Types of Digital Products" (Nicolas Cole,
@@ -11,6 +11,10 @@ Claim-by-claim provenance for `genius.md` and `references/genius-patterns.md` /
 - **GEN** = `extractions/nicolas-cole/transcript.txt` — a separate Cole
   session on offer stacking (Gary Halbert's "slippery slope," question-to-
   asset mapping, congruence). No embedded timestamps either.
+- **20M** = `extractions/video-context/sIZnPcCt7BM/` — "20 Lessons Selling
+  $20M of Online Writing Courses" (44:02). Native captions, 1,306 timestamped
+  segments, 8,840 clean words, and 99 manually reviewed sampled frames. Business
+  results are speaker-reported and not independently audited.
 
 Labels: **VERIFIED** = quote/claim confirmed verbatim in the cited file.
 **LIKELY** = the underlying concept is confirmed in the source but the
@@ -56,6 +60,28 @@ citation anywhere in the skill.
 | 6 | The Inverse Effect | VERIFIED | GEN — "when you just give more for the sake of more, it actually has the inverse effect." |
 | 7 | Education-as-Sales | VERIFIED | GEN — "sales has has very little to do with quote unquote sales. Sales has everything to do with education." |
 | 8 | The 3-7 Question Sweet Spot | VERIFIED | GEN — "aim for somewhere like three to seven questions... You don't need to answer a 100 questions. You don't need a 100 assets." |
+
+## Genius Patterns 14-21 (20M source)
+
+| # | Pattern | Status | Anchor |
+|---|---------|--------|--------|
+| 14 | Subjectivity Does Not Scale | VERIFIED | 20M 01:26-03:10 — intuitive execution, bundled traits, personal motivation, and the need to unbundle role, incentives, and reward system. |
+| 15 | Traffic Topology Determines Expansion Shape | VERIFIED | 20M 03:10-05:11 — concentrated personal-brand/list traffic supports vertical scale; decentralized personal brands and audiences can support horizontal offers. |
+| 16 | More → Better → New Is a Gate | VERIFIED | 20M 11:07-17:27 — effort before incremental improvement before novelty; at a better plateau, Cole states a three-month rule before starting something new. |
+| 17 | Budget Proof Before Premium Spend | VERIFIED | 20M 17:27-20:25 — $50K/month production example, high-performing Loom counterexample, and recommendation to publish 100 Loom videos before premium production. |
+| 18 | Attention Is a Zero-Sum Growth Allocation | VERIFIED | 20M 27:42-30:07 — one priority receives attention and growth; less-attended offers, channels, and departments atrophy without independent operators. |
+| 19 | Trailing Average Before Forward Commitment | VERIFIED | 20M 32:01-33:22 — do not anchor hiring, business, or personal finance decisions to peak months; use a rolling 12-month average. |
+| 20 | Builders Cross the Management Valley | VERIFIED | 20M 24:50-27:42 — roughly 15 employees, management-layer cost, blockers vs. builders, and founder bottleneck risk. The threshold is source-reported, not a universal law. |
+| 21 | Information → Software → Coaching | VERIFIED | 20M 35:33-37:45 — Ship 30/TypeShare/Captain's Table and PGA/Ghostspace/Lift Off examples show a congruent info-software-coaching stack. |
+
+## Hidden Knowledge 9-12 (20M source)
+
+| # | Item | Status | Anchor |
+|---|------|--------|--------|
+| 9 | Customers Buy Outcome Compression | VERIFIED | 20M 30:07-32:01 — customers want better results, faster, with less work; remove modules/sessions or replace them with checklists and prompts where the outcome survives. |
+| 10 | Scale Can Be the Wrong Economic Choice | VERIFIED | 20M 33:22-35:33 — scale can reduce near-term profit and increase stress; a small cash-flow business may be the right choice when money is the only motive. |
+| 11 | Automation Is a Clarity Test | VERIFIED | 20M 20:25-22:04 — prompting means articulating what, how, and successful completion; “you can't automate what you can't articulate.” |
+| 12 | Consumption Has a Narrow Productive Window | VERIFIED | 20M 39:47-41:30 — consumption helps search for “better,” but becomes distraction once the actions are known or it encourages novelty. |
 
 ## Anti-Patterns (genius.md, new section — 7 items)
 

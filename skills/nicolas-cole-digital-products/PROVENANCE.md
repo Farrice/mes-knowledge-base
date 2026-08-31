@@ -10,6 +10,11 @@ rewrite, entity-floor fixes, and the new Anti-Patterns section).
 Source files:
 - **DP** = `extractions/nicolas-cole-digital-products/transcript.txt` (39,852 chars, single continuous line, no timestamps) + `extractions/nicolas-cole-digital-products/extraction-report.md`
 - **GEN** = `extractions/nicolas-cole/transcript.txt` (18,152 chars, single continuous line, no timestamps) — separate Cole session on offer stacking
+- **20M** = `extractions/video-context/sIZnPcCt7BM/` — native-caption and reviewed-frame package for "20 Lessons Selling $20M of Online Writing Courses" (44:02; 1,306 caption segments; 8,840 clean transcript words; 99 reviewed sampled frames). Revenue and operating claims remain attributed to Nicolas Cole.
+
+## 2026-08-31 expansion
+
+The `education-business-scaling-decision` workflow and Patterns 14-21 / Hidden Knowledge 9-12 are grounded in **20M**. Exact timestamp ranges and evidence labels live in `references/source-ledger.md`. This expansion adds operating-readiness and scale-shape decisions to the existing digital-products owner; it does not create a second Nicolas Cole skill or promote a new hot command.
 
 | Anchor (as it appears in genius.md) | Source | Verified |
 |---|---|---|

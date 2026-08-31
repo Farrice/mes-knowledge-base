@@ -1,0 +1,10 @@
+{
+  "title": "Behavior Proof - Education-Business Scaling Decision",
+  "artifactType": "behavior-proof",
+  "domain": "System",
+  "sourceId": "sIZnPcCt7BM",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "proofStatus": "deterministic applied scenario; live business outcomes untested"
+}

@@ -1,15 +1,15 @@
 ---
 name: "Nicolas Cole — Digital Product Creation Strategy"
-description: "Nicolas Cole's digital product strategy — vehicle selection (ebook vs course vs cohort vs community vs coaching), price-context sequencing, multi-tier ecosystem roadmaps. Use when choosing or pricing a digital product, or building a product ladder. Do NOT use for live launches (use Jeff Walker), VSL copy (use Luke Iha), or LinkedIn content (use Lara Acosta)."
-version: "2.1"
+description: "Nicolas Cole's digital product and education-business strategy — vehicle selection, pricing, product ladders, traffic-topology scaling, operational readiness, and scale-or-stay-small decisions. Use when choosing, pricing, stacking, or scaling an education product business. Do NOT use for live launches (use Jeff Walker), VSL copy (use Luke Iha), or LinkedIn content (use Lara Acosta)."
+version: "2.2"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Nicolas Cole — Digital Product Creation Strategy
 
-Nicolas Cole has generated millions in digital product revenue across every vehicle type — ebooks, paid newsletters, cohort-based courses (Ship 30 for 30: $3M+), communities (Digital Writing School), and high-ticket coaching (PGA). This skill encodes his product progression framework: the rules for choosing the right vehicle, pricing it correctly, and sequencing products so each one unlocks the next.
-**Core Insight**: Digital products are a game of **context** and **vehicle selection** — the sam
+Nicolas Cole has generated millions in digital product revenue across every vehicle type — ebooks, paid newsletters, cohort-based courses (Ship 30 for 30: $3M+), communities (Digital Writing School), and high-ticket coaching (PGA). This skill encodes his product progression framework: the rules for choosing the right vehicle, pricing it correctly, sequencing products so each one unlocks the next, and deciding whether the underlying education business has earned the right to scale.
+**Core Insight**: Digital products are a game of **context**, **vehicle selection**, and **operating readiness** — the same expertise can compound across formats, but multiplying a subjective or attention-starved business multiplies the problem.
 
 ## Available Workflows
 
@@ -18,6 +18,7 @@ Nicolas Cole has generated millions in digital product revenue across every vehi
 | digital | [Digital Product Launch Specification](workflows/digital-product-launch-specification.md) | A comprehensive product blueprint including vehicle classification, content scope, pricing strategy, and expectation audit. | You have a raw product idea and need to define its structure, scope, and price point before building. |
 | multi | [Multi-Tier Product Ecosystem Roadmap](workflows/multi-tier-ecosystem-roadmap.md) | A long-term strategic roadmap that sequences product releases and maps core IP across multiple price contexts. | You want to build a full product empire or maximize the revenue of existing content by moving up the value ladder. |
 | stack | [Offer Stacking & Landing Page Optimizer](workflows/offer-stacking-optimizer.md) | A fully stacked offer blueprint with question-asset mapping, congruence-audited bonuses, unbundled price anchoring, and landing page copy structure. | You have a product and need to make the offer irresistible — optimizing bonuses, landing page structure, and perceived value. |
+| scale | [Education Business Scaling Decision](workflows/education-business-scaling-decision.md) | A scale/stay-small verdict, traffic-topology decision, operational readiness audit, and 90-day compounding plan. | You are considering new offers, paid acquisition, hiring, software, coaching, or horizontal expansion and need to know whether the business has earned the right to scale. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -27,9 +28,10 @@ Nicolas Cole has generated millions in digital product revenue across every vehi
 
 ## Execution Prompts (structure-pure v2)
 
-6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+7 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Nicolas Cole — Context Repackaging Engine** — `skills/nicolas-cole-digital-products/references/prompts-v2/context-repackaging-engine.md`
+- **Education Business Scaling Decision: [Business]** — `skills/nicolas-cole-digital-products/references/prompts-v2/education-business-scaling-decision.md`
 - **Nicolas Cole — Expectation Audit** — `skills/nicolas-cole-digital-products/references/prompts-v2/expectation-audit.md`
 - **Nicolas Cole — Pricing Psychology Optimizer** — `skills/nicolas-cole-digital-products/references/prompts-v2/pricing-psychology-optimizer.md`
 - **Nicolas Cole — Product Progression Planner** — `skills/nicolas-cole-digital-products/references/prompts-v2/product-progression-planner.md`
