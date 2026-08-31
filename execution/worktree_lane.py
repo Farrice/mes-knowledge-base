@@ -36,7 +36,6 @@ from pathlib import Path
 
 FILE_ROOT = Path(__file__).resolve().parent.parent
 LOCK_TTL_MIN = 45          # mirrors session_lock.py heartbeat TTL
-FRESH_TRANSCRIPT_MIN = 10  # mirrors concurrent_session_alarm.py window
 
 # Provisioned into every lane as symlinks -> main (single source of truth).
 SHARED_LINKS = [
@@ -148,11 +147,6 @@ def save_registry(main: Path, reg: dict):
 
 
 # ── main-writer detection ───────────────────────────────────────────
-def _flatten(p: Path) -> str:
-    # Claude Code project-dir flattening: EVERY non-alphanumeric char -> "-"
-    return re.sub(r"[^A-Za-z0-9]", "-", str(p))
-
-
 def _lane_session_ids(main: Path) -> set:
     """Sessions registered to lanes are lane writers, not main writers — even
     though a session that auto-laned mid-session keeps its transcript in the
@@ -169,9 +163,16 @@ def _lane_session_ids(main: Path) -> set:
 
 
 def fresh_main_writer(main: Path, exclude_ids=None, own_lock_token=None) -> "str | None":
-    exclude_ids = exclude_ids if exclude_ids is not None else _lane_session_ids(main)
+    """Return actual evidence of a live main writer.
+
+    Fresh transcripts are deliberately not write evidence. Since main became
+    integration-only, read-only sessions correctly remain there, and background
+    artifact-monitor events keep their transcripts fresh. A main writer must
+    hold the session lock; tracked changes and the merge mutex are checked
+    separately by ``cmd_merge``.
+    """
     own_lock_token = own_lock_token or os.environ.get("SESSION_LOCK_TOKEN")
-    # (a) session lock heartbeat (our own lock doesn't make us a foreign writer)
+    # Session lock heartbeat (our own lock doesn't make us a foreign writer).
     lock = main / ".agent" / "session.lock"
     if lock.exists():
         try:
@@ -182,16 +183,6 @@ def fresh_main_writer(main: Path, exclude_ids=None, own_lock_token=None) -> "str
                 return f"session lock '{data.get('mission', '?')}' (heartbeat {age_min:.0f}m ago)"
         except Exception:
             pass
-    # (b) fresh transcript in main's projects dir
-    proj = Path.home() / ".claude" / "projects" / _flatten(main)
-    if proj.is_dir():
-        now = time.time()
-        for t in proj.glob("*.jsonl"):
-            if t.stem in exclude_ids:
-                continue
-            age_min = (now - t.stat().st_mtime) / 60
-            if age_min < FRESH_TRANSCRIPT_MIN:
-                return f"fresh session transcript {t.stem[:8]}… ({age_min:.0f}m ago)"
     return None
 
 

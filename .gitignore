@@ -84,6 +84,8 @@ Thumbs.db
 # rewritten on cadence and never source-of-truth for repository history.
 .agent/health/lane-reconciler.json
 .agent/lane-reconciler.log
+.agent/health/collector.log
+.agent/weekly-cards.log
 
 # Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
 # holds verbatim copies of .agent/session-state.md, which is deliberately
