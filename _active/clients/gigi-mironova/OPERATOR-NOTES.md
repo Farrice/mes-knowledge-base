@@ -212,3 +212,55 @@ every fact and the Same Door concept, and rebuilds the skin on the floor grammar
 - Ratio 4 photo story / 3 white structure across the carousel.
 
 Same artifact URL. v2'''s flat-type register survives only in git history.
+
+---
+
+# v4 — the finished kit (2026-08-31, same session)
+
+His verdict on v3: *"still surface level, a 5 out of 10… make it into a real gift that
+has value."* Diagnosis he confirmed by saying "execute on that brief": a concept deck is
+a mockup wearing a gift costume; the gift is the finished, post-ready kit. Spec:
+`../BUILD-BRIEF.md`. Deck cut to 11 boards; the page IS the delivery now.
+
+## New verified facts (all sourced 2026-08-31)
+
+| Fact | Status |
+|---|---|
+| HOA $477/mo, recorded on unit 204 (2-bd) in this building, covers pool/spa/gym/insurance/grounds/trash/water | VERIFIED — MLS record via Redfin (browser; WebFetch 403s) |
+| 30-yr fixed avg 6.66% | VERIFIED — Freddie Mac PMMS, 2026-08-27 |
+| Payment math: 20% down → P&I $1,645 + tax est $333 (1.25%) + HOA $477 + ins est $60 = **$2,515/mo**; month-one principal **$224** | COMPUTED — labeled "estimate, not a quote" on the slide and in every caption |
+| 10% down variant: $2,721/mo | COMPUTED — not on any slide, in reserve |
+| Yelp: **2 reviews** (not the "25" an aggregator claimed). Grace C. 2025 (condo-lease landlord): "no-nonsense… clear plan, honest feedback… calm confidence". B C. 2023 buyer: "great communicator, negotiator and closer" | VERIFIED — read in browser |
+| Year built 1990 (Shoreline MLS detail agrees with homes.com; hellocondo's 1991 loses) | LIKELY |
+
+## Honesty rails built into the kit
+
+- $477 is ALWAYS "recorded for this building" — never claimed as unit 124's dues. The
+  don't-say list makes Gigi keep that distinction.
+- "Owning is cheaper" is banned in the kit's own don't-say list; the frame is "about the
+  same, before equity."
+- The Russian reel script is flagged to her as a draft for her native pass, in the page.
+- The 16-years line corrected everywhere to "litigation support" (was "reading documents
+  for 16 years" — overreach).
+- The prose classifier's residual flags are judged, not ignored: 4 remaining em-dashes are
+  Russian тире (grammatically required); 'DM/124' repetition is the CTA format.
+
+## Voice basis
+
+Her register = calm, precise, no hype: EU bio (her words), IG bio, and the two Yelp
+reviews' client language ("no sugarcoating, clear plan, honest feedback"). Scripts written
+to that; no exclamation marks anywhere in the kit.
+
+## What she was asked for (inside the kit, gently)
+
+Unit 124's actual dues figure (upgrades the math slide same-day) · her listing photo set
+(replaces C1's Valley-at-dusk) · a portrait she likes (R4) · her native pass on the
+Russian. Free, with the founding-rate trade named at the close: screenshot + one line.
+
+## Open before send
+
+- Confirm her live Instagram handle (two candidates on record) — the SEND text goes to
+  her phone, not to a handle, so this blocks nothing but must be resolved before SHE
+  posts anything with an @ on it.
+- Farrice's own read of the kit page top to bottom.
+- Jen's OK to name "the same kit I build for Jen's listings" — the close says it.

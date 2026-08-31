@@ -14,7 +14,7 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "C2 \u00b7 Four Numbers"
+      "title": "C2 \u00b7 The Math"
     },
     {
       "file": "C3.dc.html",
@@ -22,7 +22,7 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "C3 \u00b7 The HOA"
+      "title": "C3 \u00b7 The 477"
     },
     {
       "file": "C4.dc.html",
@@ -30,7 +30,7 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "C4 \u00b7 The Building"
+      "title": "C4 \u00b7 Equity"
     },
     {
       "file": "C5.dc.html",
@@ -87,30 +87,6 @@
       "w": 1080,
       "h": 1350,
       "title": "Reel 4 Cover \u00b7 Portrait"
-    },
-    {
-      "file": "L1.dc.html",
-      "x": 4800,
-      "y": 1520,
-      "w": 1080,
-      "h": 1350,
-      "title": "Listing Photography Slot"
-    },
-    {
-      "file": "P1.dc.html",
-      "x": 6000,
-      "y": 1520,
-      "w": 1080,
-      "h": 1350,
-      "title": "Profile \u00b7 Bio"
-    },
-    {
-      "file": "P2.dc.html",
-      "x": 7200,
-      "y": 1520,
-      "w": 1080,
-      "h": 1350,
-      "title": "Profile \u00b7 Highlights"
     }
   ],
   "launch": {

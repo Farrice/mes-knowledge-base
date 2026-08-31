@@ -168,6 +168,43 @@ def stat_ladder():
     return '<div style="display:flex; flex-direction:column; gap:24px;">%s</div>' % "".join(out)
 
 
+def payment_ladder():
+    """The payoff, done for the reader. Every figure computed 2026-08-31 and labeled:
+    rate 6.66% (Freddie Mac PMMS 8/27/26), tax est. 1.25% LA County, HOA $477 as
+    recorded for a 2-bd in this building (MLS via Redfin), HO-6 insurance estimated."""
+    rows = [("$1,645", "loan payment — 20% down, 6.66%"),
+            ("$333", "property taxes, est. 1.25%"),
+            ("$477", "association dues*"),
+            ("$60", "insurance, est. HO-6")]
+    out = []
+    for n, label in rows:
+        out.append(
+            '<div style="display:flex; align-items:baseline; gap:30px; '
+            'border-top:1px solid %s; padding-top:16px;">'
+            '<div class="num" style="font-size:64px; color:%s; min-width:300px;">%s</div>'
+            '<div style="font-size:27px; line-height:1.4; color:%s;">%s</div></div>'
+            % (T.D_HAIRLINE, "rgba(255,255,255,0.92)", n, T.D_MUTED, label))
+    out.append(
+        '<div style="display:flex; align-items:baseline; gap:30px; '
+        'border-top:3px solid %s; padding-top:18px;">'
+        '<div class="num" style="font-size:84px; color:#FFFFFF; min-width:300px;">$2,515</div>'
+        '<div style="font-size:28px; line-height:1.4; color:%s;">a month to own it — '
+        'against $2,500 rent</div></div>' % (T.ACCENT_LT, T.D_MUTED))
+    return '<div style="display:flex; flex-direction:column; gap:18px; max-width:900px;">%s</div>' % "".join(out)
+
+
+def hoa_covers():
+    items = ["POOL + SPA", "GYM + SAUNA", "WATER", "TRASH",
+             "BUILDING INSURANCE", "GROUNDS"]
+    cells = []
+    for w in items:
+        cells.append('<div style="border:1px solid %s; padding:18px 26px;">'
+                     '<span class="caps" style="font-size:19px; color:%s;">%s</span></div>'
+                     % (T.HAIRLINE, T.INK, w))
+    return ('<div style="display:flex; flex-wrap:wrap; gap:16px; max-width:880px;">%s</div>'
+            % "".join(cells))
+
+
 def docs(items, note):
     rows = []
     for i, (title, sub) in enumerate(items, 1):
@@ -227,8 +264,8 @@ def portrait_board():
         '<div style="position:absolute; inset:0; border:1px solid rgba(255,255,255,0.3);"></div>'
         '</div>'
         '<div class="h" style="font-size:64px; line-height:1.18; padding-bottom:6px;">'
-        'sixteen years<br>reading documents<br>before I ever<br>sold a '
-        '<span class="si">house.</span></div></div>' % (img, T.BAND))
+        'sixteen years in<br>litigation support.<br>now the fine print<br>works for '
+        '<span class="si">you.</span></div></div>' % (img, T.BAND))
     inner = ghost("16", -70, 640, True)
     inner += ('<div class="pad">%s%s%s</div>'
               % (rule(SERIES, "REEL · 04", True), block, foot(NAME, "PORTRAIT", True)))
@@ -290,39 +327,44 @@ def highlight_board():
 
 
 BOARDS = [
-    # 4 photo story / 3 white structure across the carousel — the floor's rhythm
+    # 11 boards: 7-slide carousel (4 photo story / 3 white structure) + 4 reel covers.
+    # The mockup boards (photo slot, profile meta) are gone — the kit page carries the
+    # real bio text and the nine cover files instead.
     ("C1", "C1 · Same Door", lambda: story(
         "palm-tree-sunset-city-01", "bleed", "50% 58%", "124",
         [head('one unit. listed<br>both ways, <span class="si">right now.</span>', 84),
          price_pair_dark()],
-        NAME, ADDR, "SWIPE — THE NUMBER THAT DECIDES IT", "1 / 6", gy=120, gx=-100)),
+        NAME, ADDR, "SWIPE — THE REAL MONTHLY MATH", "1 / 6", gy=120, gx=-100)),
 
-    ("C2", "C2 · Four Numbers", lambda: structure(
-        "04",
-        [head('four numbers decide whether<br>owning costs less than '
-              '<span class="si">renting.</span>', 64),
-         four_numbers(),
-         body("three of them you can look up tonight. the fourth is not on the listing, "
-              "and it is the one that moves the answer.", False, 780)],
-        NAME, SERIES, "NOBODY QUOTES YOU THE FOURTH", "2 / 6", gy=470)),
+    ("C2", "C2 · The Math", lambda: story(
+        "contract-signing-pen-01", "duo", "42% 64%", "",
+        [head('what owning unit 124<br><span class="si">actually</span> costs.', 72),
+         payment_ladder(),
+         ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
+          'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
+          ' · *dues as recorded for a 2-bd in this building; unit 124&#8217;s exact figure is '
+          'in its HOA documents · confirm with your lender</div>' % T.D_MUTED)],
+        NAME, SERIES, "FIFTEEN DOLLARS APART, BEFORE EQUITY", "2 / 6", scale=1.55)),
 
-    ("C3", "C3 · The HOA", lambda: story(
-        "table-math-01", "duo", "50% 40%", "04",
-        [head('the number that decides it<br>is not the <span class="si">price.</span>', 78),
-         body("monthly dues move your payment more than half a point on the rate does — "
-              "and they live in the association's financials, next to the reserve balance "
-              "and any assessment the board has already voted through.", True, 720)],
-        NAME, SERIES, "ASK BEFORE YOU OFFER, NOT AFTER", "3 / 6", gy=240, scale=1.16)),
-
-    ("C4", "C4 · The Building", lambda: structure(
-        "82",
-        [head('what this building<br>actually <span class="si">does.</span>', 78),
-         stat_ladder(),
-         body("a one-bedroom here lists at $319,999 in a valley whose median is over a "
-              "million. that gap is the entire pitch — and at eighty-two days, the buyer "
-              "has time to read.", False, 800)],
-        NAME, ADDR, "BUILDING 12-MO ACTIVITY · SFV APRIL 2026 CLOSED SALES", "4 / 6",
+    ("C3", "C3 · The 477", lambda: structure(
+        "477",
+        [head('the number nobody<br>quotes you: <span class="si">$477.</span>', 76),
+         hoa_covers(),
+         body("the dues cover the pool, spa, gym, water, trash and the building's "
+              "insurance — but they sit in the HOA documents, not on the listing. "
+              "they move your payment more than half a point on the rate does.", False, 800)],
+        NAME, SERIES, "SOURCE: MLS RECORD, THIS BUILDING · AUG 2026", "3 / 6",
         gy=430, foot_size=16)),
+
+    ("C4", "C4 · Equity", lambda: structure(
+        "224",
+        [head('and <span class="si">$224</span> of that first<br>payment stays yours.', 72),
+         stat_ladder(),
+         body("that is the part rent never does. the building averages $393,000 a sale "
+              "in a valley whose median is over a million — and at 82 days on market, "
+              "there is time to read everything before you write.", False, 800)],
+        NAME, ADDR, "PRINCIPAL, MONTH ONE · BUILDING 12-MO · SFV APRIL 2026", "4 / 6",
+        gy=430, foot_size=15)),
 
     ("C5", "C5 · Three Documents", lambda: structure(
         "",
@@ -351,15 +393,13 @@ BOARDS = [
         NAME, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6", ru=True)),
 
     ("C6", "C6 · CTA", lambda: story(
-        # archival FSA negative — duo (never bleed), scale crops the scan border and the
-        # handwritten negative number off this frame only
         "front-door-house-02", "duo", "50% 56%", "",
-        [head('I read documents for<br>sixteen years before I<br>ever sold a '
+        [head('sixteen years in litigation<br>support before I ever<br>sold a '
               '<span class="si">house.</span>', 76),
-         body("residential, leasing and investment at Equity Union. if you want the "
-              "association's financials on unit 124 pulled and actually read before you "
-              "decide anything — that is the job.", True, 700),
-         cta_button("DM «ДОКУМЕНТЫ» OR PAPERS")],
+         body("residential, leasing and investment at Equity Union. sixteen years of reading "
+              "the fine print, now on your side of the table. the full breakdown of this "
+              "unit — one message away.", True, 700),
+         cta_button("DM ME “124”")],
         NAME, SERIES, NAME, "6 / 6", scale=1.16)),
 
     ("R1", "Reel 1 Cover", lambda: reel(
@@ -368,8 +408,8 @@ BOARDS = [
         "REEL · 01")),
 
     ("R2", "Reel 2 Cover", lambda: reel(
-        "balcony-plants-apartment-02", "duo", "50% 34%", "04",
-        'the number that<br>decides it is not<br>the <span class="si">price.</span>',
+        "balcony-plants-apartment-02", "duo", "50% 34%", "477",
+        'the number nobody<br>quotes you:<br><span class="si">$477 a month.</span>',
         "REEL · 02")),
 
     ("R3", "Reel 3 Cover · RU", lambda: reel(
@@ -378,9 +418,6 @@ BOARDS = [
         "REEL · 03", ru=True, series=SERIES_RU, scale=1.18)),
 
     ("R4", "Reel 4 Cover · Portrait", portrait_board),
-    ("L1", "Listing Photography Slot", listing_slot),
-    ("P1", "Profile · Bio", profile_board),
-    ("P2", "Profile · Highlights", highlight_board),
 ]
 
 
