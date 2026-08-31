@@ -10,12 +10,108 @@
   "category": "mission",
   "priority": 1,
   "sections": [
-    {"kind":"summary","heading":"the recovery verdict","kicker":"LOCKED","body":"The active owner is the Lead-to-Proposal commercialization sprint. The Automation Control Center remains protected. Overlapping AI, LinkedIn, Angle Map, GTM, and offer-development tasks become searchable history, not competing active fronts. Imported ChatGPT and ambiguous tasks remain unchanged."},
-    {"kind":"stats","heading":"the visible queue","items":[{"value":"82","unit":"tasks","label":"VISIBLE SNAPSHOT","note":"32 pinned + 50 recent"},{"value":"9","unit":"imports","label":"CHATGPT PRESERVED","note":"no lifecycle changes"},{"value":"2","unit":"owners","label":"KEEP PINNED","note":"recovery + automation control"}]},
-    {"kind":"decision","heading":"the lifecycle *decisions*","kicker":"NOW / PARK / PRESERVE","dek":"Every promoted item needs a source, decision, proof state, artifact, next action, and lifecycle recommendation.","items":[{"action":"Keep one commercialization owner","why":"Revenue: Zero-Momentum AI Offer holds the offer, research, demo, distribution, and proof state."},{"action":"Protect operational infrastructure","why":"Automation Control Center remains pinned and must pass its guard before any lifecycle action."},{"action":"Park overlaps without destroying history","why":"Unpinning reduces the active queue while preserving every task for retrieval."}]},
-    {"kind":"assets","heading":"recovery artifacts","tag":"OPEN THESE","items":[{"title":"Visible task inventory","role":"SOURCE INVENTORY","path":"deliverables/zero-momentum-ai-offer/visible-task-inventory.md","note":"All 82 visible tasks with a label, proof/decision state, next action, and lifecycle recommendation."},{"title":"Launch control","role":"DECISION SURFACE","path":"deliverables/zero-momentum-ai-offer/README.md","note":"LOCKED, PARKED, NEXT ACTION, and proof boundaries."},{"title":"Mission reconciliation","role":"12 LIVE MISSIONS","path":"deliverables/zero-momentum-ai-offer/mission-reconciliation.md","note":"Reconciles the sidebar, 106-conversation index, and 12 live mission threads."}]},
-    {"kind":"caveats","heading":"what stayed *untouched*","body":"Imported ChatGPT tasks, unrelated work, ambiguous tasks, and historical artifacts were not archived or rewritten. Sidebar actions require automation-ownership checks. The inventory is a snapshot of what the app returned, not an exhaustive export of every historical conversation."}
+    {
+      "kind": "summary",
+      "heading": "the recovery verdict",
+      "kicker": "LOCKED",
+      "body": "The active owner is the Lead-to-Proposal commercialization sprint. The Automation Control Center remains protected. Overlapping AI, LinkedIn, Angle Map, GTM, and offer-development tasks become searchable history, not competing active fronts. Imported ChatGPT and ambiguous tasks remain unchanged."
+    },
+    {
+      "kind": "stats",
+      "heading": "the visible queue",
+      "items": [
+        {
+          "value": "82",
+          "unit": "tasks",
+          "label": "VISIBLE SNAPSHOT",
+          "note": "32 pinned + 50 recent"
+        },
+        {
+          "value": "9",
+          "unit": "imports",
+          "label": "CHATGPT PRESERVED",
+          "note": "no lifecycle changes"
+        },
+        {
+          "value": "2",
+          "unit": "owners",
+          "label": "KEEP PINNED",
+          "note": "recovery + automation control"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the lifecycle *decisions*",
+      "kicker": "NOW / PARK / PRESERVE",
+      "dek": "Every promoted item needs a source, decision, proof state, artifact, next action, and lifecycle recommendation.",
+      "items": [
+        {
+          "action": "Keep one commercialization owner",
+          "why": "Revenue: Zero-Momentum AI Offer holds the offer, research, demo, distribution, and proof state."
+        },
+        {
+          "action": "Protect operational infrastructure",
+          "why": "Automation Control Center remains pinned and must pass its guard before any lifecycle action."
+        },
+        {
+          "action": "Park overlaps without destroying history",
+          "why": "Unpinning reduces the active queue while preserving every task for retrieval."
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "recovery artifacts",
+      "tag": "OPEN THESE",
+      "items": [
+        {
+          "title": "Visible task inventory",
+          "role": "SOURCE INVENTORY",
+          "path": "deliverables/zero-momentum-ai-offer/visible-task-inventory.md",
+          "note": "All 82 visible tasks with a label, proof/decision state, next action, and lifecycle recommendation."
+        },
+        {
+          "title": "Launch control",
+          "role": "DECISION SURFACE",
+          "path": "deliverables/zero-momentum-ai-offer/README.md",
+          "note": "LOCKED, PARKED, NEXT ACTION, and proof boundaries."
+        },
+        {
+          "title": "Mission reconciliation",
+          "role": "12 LIVE MISSIONS",
+          "path": "deliverables/zero-momentum-ai-offer/mission-reconciliation.md",
+          "note": "Reconciles the sidebar, 106-conversation index, and 12 live mission threads."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what stayed *untouched*",
+      "body": "Imported ChatGPT tasks, unrelated work, ambiguous tasks, and historical artifacts were not archived or rewritten. Sidebar actions require automation-ownership checks. The inventory is a snapshot of what the app returned, not an exhaustive export of every historical conversation."
+    }
   ],
-  "ledger": [{"source":"Codex sidebar API snapshot","retrieved":"2026-08-13","used_for":"visible task recovery inventory","confidence":"VERIFIED"}],
-  "context": [{"path":"deliverables/zero-momentum-ai-offer/visible-task-inventory.md","role":"complete visible task snapshot"},{"path":"deliverables/zero-momentum-ai-offer/mission-reconciliation.md","role":"conversation and mission reconciliation"},{"path":"deliverables/zero-momentum-ai-offer/README.md","role":"active decision surface"}]
+  "ledger": [
+    {
+      "source": "Codex sidebar API snapshot",
+      "retrieved": "2026-08-13",
+      "used_for": "visible task recovery inventory",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "context": [
+    {
+      "path": "deliverables/zero-momentum-ai-offer/visible-task-inventory.md",
+      "role": "complete visible task snapshot"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/mission-reconciliation.md",
+      "role": "conversation and mission reconciliation"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/README.md",
+      "role": "active decision surface"
+    }
+  ],
+  "status": "archived"
 }

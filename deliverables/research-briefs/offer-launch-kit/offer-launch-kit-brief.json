@@ -10,13 +10,154 @@
   "category": "mission",
   "priority": 1,
   "sections": [
-    {"kind":"summary","heading":"the offer","kicker":"LOCKED","body":"I help small agencies and consultancies stop warm leads from stalling between inquiry and proposal. In five business days, I map the handoff, build the working follow-up and proposal workflow in the tools they already use, and prove it before the final payment is due."},
-    {"kind":"stats","heading":"the commercial shape","items":[{"value":"$1,500","unit":"pilot","label":"ONE PRICE","note":"$750 start + $750 after demo"},{"value":"5","unit":"days","label":"DELIVERY","note":"one workflow"},{"value":"2","unit":"max","label":"INTEGRATIONS","note":"scope control"},{"value":"3","unit":"pilots","label":"CAPACITY","note":"not invented scarcity"}]},
-    {"kind":"flow","heading":"the buyer-visible outcome","steps":[{"title":"Capture","note":"one record"},{"title":"Qualify","note":"summary + gaps"},{"title":"Draft","note":"approved facts"},{"title":"Follow up","note":"owner + date"},{"title":"Approve","note":"human hold"}]},
-    {"kind":"decision","heading":"the launch *rules*","items":[{"action":"Ask for a Workflow Loss Review","why":"The CTA starts with one real stalled handoff, not a generic AI consultation."},{"action":"Keep the proof disclosure visible","why":"The build is ready; the exact offer remains untested until payment."},{"action":"Change one variable at a time","why":"No responses suggests a list/channel issue before it proves the offer is wrong."}]},
-    {"kind":"assets","heading":"ready assets","tag":"SHIP AFTER APPROVAL","items":[{"title":"Offer Canon","role":"LOCKED PROMISE","path":"deliverables/zero-momentum-ai-offer/offer-canon.md","note":"Price, scope, acceptance test, exclusions, kill gates."},{"title":"Landing Page","role":"LOCAL WEB PAGE","path":"deliverables/zero-momentum-ai-offer/landing-page.html","note":"Clear buyer, price, risk reversal, FAQ, and placeholder CTA."},{"title":"LinkedIn Launch Kit","role":"14-DAY CONTENT","path":"deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md","note":"10 posts, pinned post, profile copy, three demo scripts."},{"title":"Distribution Kit","role":"5-DAY SALES","path":"deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md","note":"Worksheets, messages, follow-ups, Loom, call and proposal checklists."},{"title":"Public Candidates","role":"RESEARCH LIST","path":"deliverables/zero-momentum-ai-offer/public-prospect-candidates.md","note":"30 fit candidates; pain not inferred."}]},
-    {"kind":"caveats","heading":"what is *not live*","body":"No page is deployed. No profile has been edited. No message or post has been sent. No booking or payment link exists. Warm names and relationship context remain private inputs."}
+    {
+      "kind": "summary",
+      "heading": "the offer",
+      "kicker": "LOCKED",
+      "body": "I help small agencies and consultancies stop warm leads from stalling between inquiry and proposal. In five business days, I map the handoff, build the working follow-up and proposal workflow in the tools they already use, and prove it before the final payment is due."
+    },
+    {
+      "kind": "stats",
+      "heading": "the commercial shape",
+      "items": [
+        {
+          "value": "$1,500",
+          "unit": "pilot",
+          "label": "ONE PRICE",
+          "note": "$750 start + $750 after demo"
+        },
+        {
+          "value": "5",
+          "unit": "days",
+          "label": "DELIVERY",
+          "note": "one workflow"
+        },
+        {
+          "value": "2",
+          "unit": "max",
+          "label": "INTEGRATIONS",
+          "note": "scope control"
+        },
+        {
+          "value": "3",
+          "unit": "pilots",
+          "label": "CAPACITY",
+          "note": "not invented scarcity"
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "the buyer-visible outcome",
+      "steps": [
+        {
+          "title": "Capture",
+          "note": "one record"
+        },
+        {
+          "title": "Qualify",
+          "note": "summary + gaps"
+        },
+        {
+          "title": "Draft",
+          "note": "approved facts"
+        },
+        {
+          "title": "Follow up",
+          "note": "owner + date"
+        },
+        {
+          "title": "Approve",
+          "note": "human hold"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the launch *rules*",
+      "items": [
+        {
+          "action": "Ask for a Workflow Loss Review",
+          "why": "The CTA starts with one real stalled handoff, not a generic AI consultation."
+        },
+        {
+          "action": "Keep the proof disclosure visible",
+          "why": "The build is ready; the exact offer remains untested until payment."
+        },
+        {
+          "action": "Change one variable at a time",
+          "why": "No responses suggests a list/channel issue before it proves the offer is wrong."
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "ready assets",
+      "tag": "SHIP AFTER APPROVAL",
+      "items": [
+        {
+          "title": "Offer Canon",
+          "role": "LOCKED PROMISE",
+          "path": "deliverables/zero-momentum-ai-offer/offer-canon.md",
+          "note": "Price, scope, acceptance test, exclusions, kill gates."
+        },
+        {
+          "title": "Landing Page",
+          "role": "LOCAL WEB PAGE",
+          "path": "deliverables/zero-momentum-ai-offer/landing-page.html",
+          "note": "Clear buyer, price, risk reversal, FAQ, and placeholder CTA."
+        },
+        {
+          "title": "LinkedIn Launch Kit",
+          "role": "14-DAY CONTENT",
+          "path": "deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md",
+          "note": "10 posts, pinned post, profile copy, three demo scripts."
+        },
+        {
+          "title": "Distribution Kit",
+          "role": "5-DAY SALES",
+          "path": "deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md",
+          "note": "Worksheets, messages, follow-ups, Loom, call and proposal checklists."
+        },
+        {
+          "title": "Public Candidates",
+          "role": "RESEARCH LIST",
+          "path": "deliverables/zero-momentum-ai-offer/public-prospect-candidates.md",
+          "note": "30 fit candidates; pain not inferred."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what is *not live*",
+      "body": "No page is deployed. No profile has been edited. No message or post has been sent. No booking or payment link exists. Warm names and relationship context remain private inputs."
+    }
   ],
-  "ledger": [{"source":"Offer canon","retrieved":"2026-08-13","used_for":"commercial promise and boundaries","confidence":"VERIFIED"}],
-  "context": [{"path":"deliverables/zero-momentum-ai-offer/offer-canon.md","role":"offer source of truth"},{"path":"deliverables/zero-momentum-ai-offer/landing-page.html","role":"local sales page"},{"path":"deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md","role":"content package"},{"path":"deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md","role":"sales activation package"}]
+  "ledger": [
+    {
+      "source": "Offer canon",
+      "retrieved": "2026-08-13",
+      "used_for": "commercial promise and boundaries",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "context": [
+    {
+      "path": "deliverables/zero-momentum-ai-offer/offer-canon.md",
+      "role": "offer source of truth"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/landing-page.html",
+      "role": "local sales page"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md",
+      "role": "content package"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md",
+      "role": "sales activation package"
+    }
+  ],
+  "status": "archived"
 }
