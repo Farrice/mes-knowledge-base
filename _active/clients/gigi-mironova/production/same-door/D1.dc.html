@@ -41,6 +41,14 @@
         rgba(13,26,41,0.60) 0%, rgba(13,26,41,0.46) 26%,
         rgba(13,26,41,0.62) 60%, rgba(13,26,41,0.86) 100%); }
 
+  /* the text column's calm ground — photo texture never sits under type */
+  .panel { position:absolute; inset:0; background:linear-gradient(90deg,
+        rgba(13,26,41,0.78) 0%, rgba(13,26,41,0.62) 46%,
+        rgba(13,26,41,0.18) 78%, rgba(13,26,41,0.05) 100%); }
+  .duo .panel { background:linear-gradient(90deg,
+        rgba(13,26,41,0.66) 0%, rgba(13,26,41,0.5) 46%,
+        rgba(13,26,41,0.12) 78%, rgba(13,26,41,0.0) 100%); }
+
   .pad  { position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
           box-sizing:border-box; padding:64px 72px; justify-content:space-between; }
   .rule { display:flex; justify-content:space-between; align-items:baseline;
@@ -51,7 +59,7 @@
 </style>
 </helmet>
 <div class="frame dark">
-<div class="photo duo"><img alt="" style="object-position:50% 60%;" src="balcony-plants-apartment-02.jpg"><div class="tint"></div><div class="lift"></div></div><div class="ghost" style="right:-64px; top:210px; color:rgba(255,255,255,0.16);">25</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:21px; opacity:0.75;">THE $25,000 CONVERSATION</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="h" style="font-size:72px; line-height:1.12;">valley sellers got their<br>price. it cost them <span class="si">$25,000.</span></div><div style="font-size:33px; line-height:1.47; color:rgba(255,255,255,0.78); max-width:660px; border-left:2px solid rgba(255,255,255,0.34); padding-left:28px;">april's closed sales read 99.6% of list — and more than half of them quietly wrote a check on the way out. swipe.</div></div><div class="foot"><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78);">SWIPE — WHERE THE NEGOTIATION WENT</div><div class="si" style="font-size:30px; opacity:0.85;">1 / 5</div></div></div>
+<div class="photo duo"><img alt="" style="object-position:50% 60%;" src="balcony-plants-apartment-02.jpg"><div class="tint"></div><div class="lift"></div><div class="panel"></div></div><div class="ghost" style="right:-64px; top:210px; color:rgba(255,255,255,0.16);">25</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:21px; opacity:0.75;">THE $25,000 CONVERSATION</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="h" style="font-size:72px; line-height:1.12;">valley sellers got their<br>price. it cost them <span class="si">$25,000.</span></div><div style="font-size:33px; line-height:1.47; color:rgba(255,255,255,0.78); max-width:660px; border-left:2px solid rgba(255,255,255,0.34); padding-left:28px;">april's closed sales read 99.6% of list — and more than half of them quietly wrote a check on the way out. swipe.</div></div><div class="foot"><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78);">SWIPE — WHERE THE NEGOTIATION WENT</div><div class="si" style="font-size:30px; opacity:0.85;">1 / 5</div></div></div>
 </div>
 </x-dc>
 </body>

@@ -41,6 +41,14 @@
         rgba(13,26,41,0.60) 0%, rgba(13,26,41,0.46) 26%,
         rgba(13,26,41,0.62) 60%, rgba(13,26,41,0.86) 100%); }
 
+  /* the text column's calm ground — photo texture never sits under type */
+  .panel { position:absolute; inset:0; background:linear-gradient(90deg,
+        rgba(13,26,41,0.78) 0%, rgba(13,26,41,0.62) 46%,
+        rgba(13,26,41,0.18) 78%, rgba(13,26,41,0.05) 100%); }
+  .duo .panel { background:linear-gradient(90deg,
+        rgba(13,26,41,0.66) 0%, rgba(13,26,41,0.5) 46%,
+        rgba(13,26,41,0.12) 78%, rgba(13,26,41,0.0) 100%); }
+
   .pad  { position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
           box-sizing:border-box; padding:64px 72px; justify-content:space-between; }
   .rule { display:flex; justify-content:space-between; align-items:baseline;
@@ -51,7 +59,7 @@
 </style>
 </helmet>
 <div class="frame dark">
-<div class="photo bleed"><img alt="" style="object-position:50% 58%;" src="palm-tree-sunset-city-01.jpg"><div class="tint" style="opacity:0.44"></div><div class="scrim"></div></div><div class="ghost" style="right:-100px; top:120px; color:rgba(255,255,255,0.16);">124</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:21px; opacity:0.75;">19350 SHERMAN WAY · RESEDA</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="h" style="font-size:84px; line-height:1.12;">one unit. two listings.<br>both of them <span class="si">mine.</span></div><div style="display:flex; flex-direction:column; gap:30px; max-width:720px;"><div style="border-top:3px solid rgba(255,255,255,0.34); padding-top:18px;"><div class="num" style="font-size:124px; color:rgba(255,255,255,0.85);">$2,500</div><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78); margin-top:14px;">A MONTH TO RENT IT</div></div><div style="border-top:3px solid #C3D4E5; padding-top:18px;"><div class="num" style="font-size:124px; color:#FFFFFF;">$319,999</div><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78); margin-top:14px;">TO OWN IT</div></div></div><div style="font-size:33px; line-height:1.47; color:rgba(255,255,255,0.78); max-width:640px; border-left:2px solid rgba(255,255,255,0.34); padding-left:28px;">unit 124 — one bedroom, 619 square feet, two parking spots. I hold the lease and the sale, so for once the comparison is honest.</div></div><div class="foot"><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78);">SWIPE — THE MATH NOBODY RUNS</div><div class="si" style="font-size:30px; opacity:0.85;">1 / 6</div></div></div>
+<div class="photo bleed"><img alt="" style="object-position:50% 58%;" src="palm-tree-sunset-city-01.jpg"><div class="tint" style="opacity:0.44"></div><div class="scrim"></div><div class="panel"></div></div><div class="ghost" style="right:-100px; top:120px; color:rgba(255,255,255,0.16);">124</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:21px; opacity:0.75;">19350 SHERMAN WAY · RESEDA</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="h" style="font-size:84px; line-height:1.12;">one unit. two listings.<br>both of them <span class="si">mine.</span></div><div style="display:flex; flex-direction:column; gap:30px; max-width:720px;"><div style="border-top:3px solid rgba(255,255,255,0.34); padding-top:18px;"><div class="num" style="font-size:124px; color:rgba(255,255,255,0.85);">$2,500</div><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78); margin-top:14px;">A MONTH TO RENT IT</div></div><div style="border-top:3px solid #C3D4E5; padding-top:18px;"><div class="num" style="font-size:124px; color:#FFFFFF;">$319,999</div><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78); margin-top:14px;">TO OWN IT</div></div></div><div style="font-size:33px; line-height:1.47; color:rgba(255,255,255,0.78); max-width:640px; border-left:2px solid rgba(255,255,255,0.34); padding-left:28px;">unit 124 — one bedroom, 619 square feet, two parking spots. I hold the lease and the sale, so for once the comparison is honest.</div></div><div class="foot"><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78);">SWIPE — THE MATH NOBODY RUNS</div><div class="si" style="font-size:30px; opacity:0.85;">1 / 6</div></div></div>
 </div>
 </x-dc>
 </body>

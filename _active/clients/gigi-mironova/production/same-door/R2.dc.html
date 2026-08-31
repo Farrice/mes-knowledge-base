@@ -41,6 +41,14 @@
         rgba(13,26,41,0.60) 0%, rgba(13,26,41,0.46) 26%,
         rgba(13,26,41,0.62) 60%, rgba(13,26,41,0.86) 100%); }
 
+  /* the text column's calm ground — photo texture never sits under type */
+  .panel { position:absolute; inset:0; background:linear-gradient(90deg,
+        rgba(13,26,41,0.78) 0%, rgba(13,26,41,0.62) 46%,
+        rgba(13,26,41,0.18) 78%, rgba(13,26,41,0.05) 100%); }
+  .duo .panel { background:linear-gradient(90deg,
+        rgba(13,26,41,0.66) 0%, rgba(13,26,41,0.5) 46%,
+        rgba(13,26,41,0.12) 78%, rgba(13,26,41,0.0) 100%); }
+
   .pad  { position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
           box-sizing:border-box; padding:64px 72px; justify-content:space-between; }
   .rule { display:flex; justify-content:space-between; align-items:baseline;
@@ -51,7 +59,7 @@
 </style>
 </helmet>
 <div class="frame dark">
-<div class="photo duo"><img alt="" style="object-position:50% 34%;" src="balcony-plants-apartment-02.jpg"><div class="tint"></div><div class="lift"></div></div><div class="ghost" style="right:-70px; top:330px; color:rgba(255,255,255,0.16);">477</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">SAME DOOR</div><div class="caps" style="font-size:21px; opacity:0.75;">REEL · 02</div></div><div class="h" style="font-size:94px; line-height:1.14; max-width:930px;">the number nobody<br>quotes you:<br><span class="si">$477 a month.</span></div><div style="display:flex; justify-content:space-between; align-items:center;"><div class="caps" style="font-size:21px; color:rgba(255,255,255,0.78);">GIGI MIRONOVA · DRE 02025393</div><svg width="64" height="64" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="#FFFFFF" stroke-width="2.5"/><path d="M26 21 L45 32 L26 43 Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" fill="none"/></svg></div></div>
+<div class="photo duo"><img alt="" style="object-position:50% 34%;" src="balcony-plants-apartment-02.jpg"><div class="tint"></div><div class="lift"></div><div class="panel"></div></div><div class="ghost" style="right:-70px; top:330px; color:rgba(255,255,255,0.16);">477</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">SAME DOOR</div><div class="caps" style="font-size:21px; opacity:0.75;">REEL · 02</div></div><div class="h" style="font-size:94px; line-height:1.14; max-width:930px;">the number nobody<br>quotes you:<br><span class="si">$477 a month.</span></div><div style="display:flex; justify-content:space-between; align-items:center;"><div class="caps" style="font-size:21px; color:rgba(255,255,255,0.78);">GIGI MIRONOVA · DRE 02025393</div><svg width="64" height="64" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="#FFFFFF" stroke-width="2.5"/><path d="M26 21 L45 32 L26 43 Z" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" fill="none"/></svg></div></div>
 </div>
 </x-dc>
 </body>

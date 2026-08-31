@@ -76,6 +76,14 @@ CSS = f"""
         rgba({SCRIM_RGB},0.60) 0%, rgba({SCRIM_RGB},0.46) 26%,
         rgba({SCRIM_RGB},0.62) 60%, rgba({SCRIM_RGB},0.86) 100%); }}
 
+  /* the text column's calm ground — photo texture never sits under type */
+  .panel {{ position:absolute; inset:0; background:linear-gradient(90deg,
+        rgba({SCRIM_RGB},0.78) 0%, rgba({SCRIM_RGB},0.62) 46%,
+        rgba({SCRIM_RGB},0.18) 78%, rgba({SCRIM_RGB},0.05) 100%); }}
+  .duo .panel {{ background:linear-gradient(90deg,
+        rgba({SCRIM_RGB},0.66) 0%, rgba({SCRIM_RGB},0.5) 46%,
+        rgba({SCRIM_RGB},0.12) 78%, rgba({SCRIM_RGB},0.0) 100%); }}
+
   .pad  {{ position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
           box-sizing:border-box; padding:64px 72px; justify-content:space-between; }}
   .rule {{ display:flex; justify-content:space-between; align-items:baseline;

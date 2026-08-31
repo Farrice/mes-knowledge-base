@@ -129,12 +129,12 @@ DROPS = [
 
     # ---- buyers: the clock ------------------------------------------------
     ("K1", "K1 · Clock Hook", lambda: B.story(
-        "contract-signing-pen-01", "duo", "58% 30%", "17",
+        "roofline-sky-00", "bleed", "50% 78%", "17",
         [B.head('your offer was accepted.<br>three clocks just '
                 '<span class="si">started.</span>', 72),
          B.body("and the protection you paid for expires on a schedule almost nobody "
                 "explains. swipe — it takes ninety seconds.", True, 660)],
-        B.NAME, S_CLOCK, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 5", scale=1.4)),
+        B.NAME, S_CLOCK, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 5")),
 
     ("K2", "K2 · Three Clocks", lambda: B.structure(
         "21",

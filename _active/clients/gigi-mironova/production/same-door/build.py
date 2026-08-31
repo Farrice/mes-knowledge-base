@@ -38,8 +38,10 @@ def embed(p):
 def photo(name, treatment, pos="50% 50%", scale=1.0):
     """Layer stack over one cover-fit image. Framing inline per slide — never global
     (the reference deck's one global scale silently cropped every other image)."""
-    layers = ('<div class="tint"></div><div class="lift"></div>' if treatment == "duo"
-              else '<div class="tint" style="opacity:0.44"></div><div class="scrim"></div>')
+    layers = ('<div class="tint"></div><div class="lift"></div><div class="panel"></div>'
+              if treatment == "duo" else
+              '<div class="tint" style="opacity:0.44"></div><div class="scrim"></div>'
+              '<div class="panel"></div>')
     tf = "" if scale == 1.0 else " transform:scale(%s);" % scale
     return ('<div class="photo %s"><img alt="" style="object-position:%s;%s" src="%s.jpg">%s</div>'
             % (treatment, pos, tf, name, layers))
@@ -186,13 +188,13 @@ def payment_ladder():
             'border-top:1px solid %s; padding-top:16px;">'
             '<div class="num" style="font-size:64px; color:%s; min-width:300px;">%s</div>'
             '<div style="font-size:27px; line-height:1.4; color:%s;">%s</div></div>'
-            % (T.D_HAIRLINE, "rgba(255,255,255,0.92)", n, T.D_MUTED, label))
+            % (T.HAIRLINE, T.INK, n, T.MUTED, label))
     out.append(
         '<div style="display:flex; align-items:baseline; gap:30px; '
-        'border-top:3px solid %s; padding-top:18px;">'
-        '<div class="num" style="font-size:84px; color:#FFFFFF; min-width:300px;">$2,515</div>'
+        'border-top:4px solid %s; padding-top:18px;">'
+        '<div class="num" style="font-size:84px; color:%s; min-width:300px;">$2,515</div>'
         '<div style="font-size:28px; line-height:1.4; color:%s;">a month to own it — '
-        'against $2,500 rent</div></div>' % (T.ACCENT_LT, T.D_MUTED))
+        'against $2,500 rent</div></div>' % (T.INK, T.INK, T.MUTED))
     return '<div style="display:flex; flex-direction:column; gap:18px; max-width:900px;">%s</div>' % "".join(out)
 
 
@@ -341,15 +343,16 @@ BOARDS = [
               "lease and the sale, so for once the comparison is honest.", True, 640)],
         NAME, ADDR, "SWIPE — THE MATH NOBODY RUNS", "1 / 6", gy=120, gx=-100)),
 
-    ("C2", "C2 · The Math", lambda: story(
-        "contract-signing-pen-01", "duo", "42% 64%", "",
+    ("C2", "C2 · The Math", lambda: structure(
+        "15",
         [head('own it for fifteen dollars<br>more than you rent <span class="si">it.</span>', 66),
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
           ' · *dues as recorded for a 2-bd in this building; unit 124&#8217;s exact figure is '
-          'in its HOA documents · confirm with your lender</div>' % T.D_MUTED)],
-        NAME, SERIES, "BEFORE A DOLLAR OF EQUITY — AND THE PRICE ISN'T WHY", "2 / 6", scale=1.55)),
+          'in its HOA documents · confirm with your lender</div>' % T.MUTED)],
+        NAME, SERIES, "BEFORE A DOLLAR OF EQUITY — AND THE PRICE ISN'T WHY", "2 / 6",
+        gy=430, foot_size=15)),
 
     ("C3", "C3 · The 477", lambda: structure(
         "477",
