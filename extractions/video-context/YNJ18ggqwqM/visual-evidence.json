@@ -1,0 +1,8 @@
+[
+  {"type":"observed_visual","timestamp":"00:00:55.600","frame":"frames/cue_0000.jpg","text":"The five-secret overview appears under Magnetic, Interesting, and Unforgettable."},
+  {"type":"observed_visual","timestamp":"00:03:14.080","frame":"frames/cue_0001.jpg","text":"The first item is legible as Create the Gap while the remaining sequence stays partially concealed."},
+  {"type":"observed_visual","timestamp":"00:06:44.000","frame":"frames/cue_0002.jpg","text":"The overview reveals Make the Gap Matter as the second item."},
+  {"type":"observed_visual","timestamp":"00:08:41.880","frame":"frames/cue_0003.jpg","text":"The segment is presenter-led; the precise mechanism is carried by speech."},
+  {"type":"observed_visual","timestamp":"00:11:41.240","frame":"frames/cue_0004.jpg","text":"The overview visibly labels item four as Don't Be Summarizable while item five remains partially obscured."},
+  {"type":"observed_visual","timestamp":"00:14:07.000","frame":"frames/cue_0005.jpg","text":"The closing test is presenter-led with no additional quantitative evidence on screen."}
+]

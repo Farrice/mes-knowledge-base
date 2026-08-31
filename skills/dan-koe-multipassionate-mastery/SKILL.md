@@ -1,9 +1,9 @@
 ---
 name: "Dan Koe - Multipassionate Mastery"
-description: "Dan Koe's one-person business system for operators who refuse to niche down. Personal monopoly framing, infinite content engine, philosophical authority, creator commerce. Use when the user IS the niche and needs to monetize multi-interest expression. Do NOT use for traditional niche-down strategy (use Justin Welsh), B2B service businesses, or single-vertical brand work."
-version: "2.0"
+description: "Dan Koe's one-person business system for operators who refuse to niche down. Includes a source-backed multi-interest diagnostic that distinguishes exploration, synthesis, avoidance, talent stacking, pattern hunting, and proven polymathy before personal-monopoly or content expansion. Use when the user IS the niche, has too many active interests, or needs to work broadly but execute narrowly. Do NOT use for traditional niche-down strategy (use Justin Welsh), B2B service businesses, or single-vertical brand work."
+version: "2.1"
 format: "completion-engine"
-workflows: 6
+workflows: 7
 ---
 
 # Dan Koe - Multipassionate Mastery
@@ -26,6 +26,7 @@ Dan Koe's complete system for multipassionate individuals who refuse to niche do
 | creator | [Creator Commerce & Community](workflows/creator-commerce-community.md) | Monetized Community & Product Ecosystem | You are ready to turn your audience into a sustainable business through productization, high-conversion bridges, and community flywheels. |
 | ecosystem | [Content Ecosystem MCU](workflows/content-ecosystem-mcu.md) | Newsletter-First Content Ecosystem & Distribution System | You want the "small-scale Marvel cinematic universe" model: newsletter as the sales funnel, theme weeks, write-once repurposing cascade, and the daily back-catalog distribution ritual. |
 | learning | [Learning Experience Productizer](workflows/learning-experience-productizer.md) | AI-Native Education Product Blueprint (Post-Info-Product Vessel) | Your market is saturated with courses/coaching and you want the 2026 evolved vessel: knowledge base + Learn/Practice/Create AI coach + micro-SaaS wrapper built on your specific knowledge. |
+| focus | [Breadth-to-Leverage System](workflows/breadth-to-leverage-system.md) | Breadth-to-Leverage Decision Brief | You have too many active interests, repeatedly build frameworks before deployment, or need one reversible focus decision without permanently narrowing your identity. Invoke with `/breadth-to-leverage`. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -35,7 +36,7 @@ Dan Koe's complete system for multipassionate individuals who refuse to niche do
 
 ## Execution Prompts (structure-pure v2)
 
-26 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+27 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **DAN KOE - CONTENT-TO-COMMERCE BRIDGE BUILDER** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_10_content_to_commerce_bridge_builder.md`
 - **DAN KOE - MAGNETIC VOICE ARCHITECT** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_11_magnetic_voice_architect.md`
@@ -57,6 +58,7 @@ Dan Koe's complete system for multipassionate individuals who refuse to niche do
 - **DAN KOE - PERMISSION-BASED CONVERSION ENGINE** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_7_permission_based_conversion_engine.md`
 - **DAN KOE - CROSS-POLLINATION INSIGHT GENERATOR** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_8_cross_pollination_insight_generator.md`
 - **DAN KOE - CONTRARIAN ANGLE IDENTIFIER** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_9_contrarian_angle_identifier.md`
+- **Breadth-to-Leverage Decision Brief** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/breadth-to-leverage-decision-brief.md`
 - **DAN KOE - SOVEREIGNTY VESSEL ARCHITECT** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_1_sovereignty_vessel_architect.md`
 - **DAN KOE - PAST-SELF AVATAR GENERATOR** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_2_past_self_avatar_generator.md`
 - **DAN KOE - IDEA MUSEUM ARCHITECT** — `skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_4_idea_museum_architect.md`
