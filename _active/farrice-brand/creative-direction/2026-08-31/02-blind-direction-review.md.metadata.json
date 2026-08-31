@@ -1,0 +1,7 @@
+{
+  "artifact_type": "blind_creative_direction_review",
+  "status": "awaiting_human_taste_decision",
+  "created": "2026-08-31",
+  "directions": ["A", "B", "C"],
+  "publication_permission": false
+}
