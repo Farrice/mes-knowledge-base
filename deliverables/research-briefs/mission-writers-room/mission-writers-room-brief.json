@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Handoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-27-writers-room.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+      "body": "Handoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-27-writers-room.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "playbook",
@@ -69,7 +69,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2\nSLUG: writers-room\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-07-28-writers-room.md\n\nRESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2\nSLUG: writers-room\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-writers-room.md\n\nRESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -149,7 +149,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

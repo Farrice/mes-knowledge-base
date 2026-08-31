@@ -379,50 +379,36 @@
      resolve in-tab; anything the browser can't usefully display goes to the
      server's OS opener (the pattern proven in pulse_dashboard.py).
      file:// → untouched. Nothing here runs.                                */
-  var LIVE = false;
+  var LIVE = location.protocol.indexOf('http') === 0;
   var REPO_ROOT = "";
-  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
+  if (LIVE && REPO_ROOT){
     var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
-    var relPath = function(uri){
+    var toRepo = function(uri){
       if (!uri || uri.indexOf(PREFIX) !== 0) return null;
-      return uri.slice(PREFIX.length);
+      return '/repo/' + uri.slice(PREFIX.length);
     };
-    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
-      .then(function(r){ return r.ok ? r.json() : null; })
-      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
-      .catch(function(){ LIVE = false; return false; });
-    var browserRoute = function(uri){
-      var rel = relPath(uri);
-      if (!rel) return null;
-      return (LIVE ? '/repo/' : '/') + rel;
-    };
-    HANDSHAKE.then(function(){
-      // Images must be same-origin or they render as broken glyphs. Generic
-      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
-      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
-        var r = browserRoute(img.getAttribute('src'));
-        if (r) img.setAttribute('src', r);
-      });
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
     });
     // In-browser types navigate; the rest hand off to the OS.
     var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
     document.querySelectorAll('a[href^="file:"]').forEach(function(a){
       a.addEventListener('click', function(ev){
         var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
         ev.preventDefault();
-        HANDSHAKE.then(function(){
-          var repo = browserRoute(href);
-          if (repo && INLINE.test(repo.split('?')[0])){
-            window.location = repo;
-            return;
-          }
-          if (!LIVE){ window.location = href; return; }
-          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
-                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
-            .then(function(r){ return r.json(); })
-            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
-            .catch(function(){ toast('open failed'); });
-        });
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
       });
     });
   }

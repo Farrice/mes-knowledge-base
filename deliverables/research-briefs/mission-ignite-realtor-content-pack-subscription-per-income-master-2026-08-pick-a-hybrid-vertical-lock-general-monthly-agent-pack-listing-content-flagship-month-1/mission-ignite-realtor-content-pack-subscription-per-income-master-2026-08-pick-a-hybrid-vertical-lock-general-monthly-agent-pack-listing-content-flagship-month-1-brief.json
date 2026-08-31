@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 files written.\n\n Last activity 3d ago."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 files written.\n\n Last activity 2d ago."
     },
     {
       "kind": "decision",
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 \nSLUG: ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1\nSTATUS: — · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.md\n\nOPEN MISSION: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1  (serves: revenue-5k-incumbency)\n\nFILES TOUCHED (9):\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/02-reel-scripts.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/03-captions.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/04-emails.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/05-faceless-video-scripts.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/06-FLAGSHIP-listing-launch-system.md\n  - _active/products/realtor-content-pack/05-outreach/01-contact-list.csv\n  - _active/products/realtor-content-pack/05-outreach/02-list-notes.md\n  - _active/products/realtor-content-pack/05-outreach/03-outreach-scripts.md\n  - _active/products/realtor-content-pack/OFFER.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 \nSLUG: ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1\nSTATUS: — · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.md\n\nOPEN MISSION: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1  (serves: revenue-5k-incumbency)\n\nFILES TOUCHED (9):\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/02-reel-scripts.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/03-captions.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/04-emails.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/05-faceless-video-scripts.md\n  - _active/products/realtor-content-pack/04-deliverables/month-01-pack/06-FLAGSHIP-listing-launch-system.md\n  - _active/products/realtor-content-pack/05-outreach/01-contact-list.csv\n  - _active/products/realtor-content-pack/05-outreach/02-list-notes.md\n  - _active/products/realtor-content-pack/05-outreach/03-outreach-scripts.md\n  - _active/products/realtor-content-pack/OFFER.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -104,7 +104,7 @@
           "note": "claude"
         },
         {
-          "value": "6",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -304,7 +304,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

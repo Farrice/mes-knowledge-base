@@ -15,19 +15,19 @@
     {
       "path": ".agent/handoffs/2026-08-24-execution.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-08-24-execution.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "guides/2026-08-21-handoff-execution.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/guides/2026-08-21-handoff-execution.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-21-handoff-execution.md",
       "role": "asset · GUIDE"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

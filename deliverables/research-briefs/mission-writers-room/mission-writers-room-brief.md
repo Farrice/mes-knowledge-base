@@ -15,7 +15,7 @@ Next: Resume the `writers-room` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (writers-room)._
 
 ## the state, as the last session left it
-Handoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill writers-room --reason "<one line>"
 THREAD: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2
 SLUG: writers-room
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-07-28-writers-room.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-writers-room.md
 
 RESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2
 
@@ -74,7 +74,7 @@ RESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first archi
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

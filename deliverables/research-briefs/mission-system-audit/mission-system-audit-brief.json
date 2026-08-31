@@ -135,5 +135,5 @@
       "body": "The thread's own resume line describes client listing work rather than a system audit, so the label and the contents have drifted apart — treat the title with suspicion. The one honest outcome on record is a not-absorbed verdict, which means the work exists but changed nothing.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "archived"
+  "status": "active"
 }

@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.
 
-Handoff status is ready. Last activity 6d ago.
+Handoff status is ready. Last activity 5d ago.
 
 Next: Resume the `02-book-blueprint` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (02-book-blueprint)._
 
 ## the state, as the last session left it
-Handoff written 7d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 6d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill 02-book-blueprint --reason "<one line>"
 THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 SLUG: 02-book-blueprint
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-08-24-02-book-blueprint.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-02-book-blueprint.md
 
 RESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 
@@ -63,7 +63,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **6 d**
 
 ## momentum
 
@@ -86,7 +86,7 @@ Amazon sample and live prices inspected; KDP policies and older-adult exercise s
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

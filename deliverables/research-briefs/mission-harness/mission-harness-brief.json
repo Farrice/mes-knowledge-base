@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.\n\nHandoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.\n\nHandoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Harness — Cockpit\nSLUG: harness\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/deliverables/research-briefs/mission-harness/mission-harness-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallel-lanes-reliability-closeout/.agent/handoffs/2026-08-20-harness.md\n\nRESUME HERE: Harness — Cockpit\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Harness — Cockpit\nSLUG: harness\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md\n\nRESUME HERE: Harness — Cockpit\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -182,7 +182,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.\n\nThe judged analysis above is 10 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }
