@@ -46,6 +46,7 @@ if str(REPO_ROOT / "execution") not in sys.path:
 
 from control_intent import classify_control_intent  # noqa: E402
 from control_intent import strip_explicit_invocation_artifacts  # noqa: E402
+from command_aliases import resolve_explicit_command_alias  # noqa: E402
 
 REPEATABILITY_CONTROL_TERMS = (
     "copied over everything",
@@ -259,6 +260,28 @@ def _emit_control_override(route: str, reason: str, prompt: str = "") -> None:
         except Exception:
             pass
     block = "\n".join(lines)
+    print(
+        json.dumps(
+            {
+                "hookSpecificOutput": {
+                    "hookEventName": "UserPromptSubmit",
+                    "additionalContext": block,
+                }
+            }
+        )
+    )
+    sys.exit(0)
+
+
+def _emit_explicit_command_alias(alias: str, route: str) -> None:
+    """Inject the canonical execution surface for a leading command alias."""
+
+    block = (
+        f"EXPLICIT COMMAND ALIAS: /{alias} resolves to /{route}. "
+        f"Load `.agents/skills/source-command-{route}/SKILL.md` and "
+        f"`.agent/workflows/{route}.md`; treat remaining text as command arguments. "
+        "Do not replace this explicit operator choice with fuzzy routing unless the target is missing."
+    )
     print(
         json.dumps(
             {
@@ -637,6 +660,13 @@ def main():
 
     # --- skip conditions (quiet on trivial) ---
     low = prompt.lower()
+
+    explicit_alias = resolve_explicit_command_alias(
+        prompt,
+        {path.stem for path in (REPO_ROOT / ".agent" / "workflows").glob("*.md")},
+    )
+    if explicit_alias:
+        _emit_explicit_command_alias(*explicit_alias)
 
     # 0. Background-task notifications / system turns are not user prompts —
     #    classifying them produced noise overrides (2026-07-13: task-notification
