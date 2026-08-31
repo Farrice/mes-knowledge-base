@@ -1,12 +1,12 @@
 GIGI MIRONOVA — UNIT 124 GIFT
 
-Start with identity-overview.png, then view the three listing boards in numbered order.
+View the four boards in numbered order. The final board gives Gigi one clear next step.
 
 Included:
-1. identity-overview.png
-2. 01-remodel-date.png
-3. 02-in-unit-laundry.png
-4. 03-private-showing.png
+1. 01-remodel-date.png
+2. 02-in-unit-laundry.png
+3. 03-private-showing.png
+4. 04-next-listing.png
 5. CAPTIONS.txt
 6. MESSAGE-TO-GIGI.txt
 7. SOFT-OFFER-FOLLOW-UP.txt

@@ -4,6 +4,8 @@
 
 Gate A: anchor=Gigi Mironova and Unit 124 · artifacts=user listing screenshot, current MLS-fed listing, current listing photography, accepted visual anchor · stakes=client-facing gift and paid-pilot conversation · mechanism=one property image plus one verified detail plus one action
 
+Final-close Gate A: anchor=Gigi Mironova and House Sellers · artifacts=approved three-board set, navy and clay palette, delivery note and Listing Launch invitation · stakes=the last slide must create a clear next step without pressure · mechanism=the close gives Gigi ownership of the gift, then names one specific pilot action
+
 ## Claims
 
 - Current price, address, configuration, listing agents and status checked against current MLS-fed pages.
@@ -16,6 +18,7 @@ Gate A: anchor=Gigi Mironova and Unit 124 · artifacts=user listing screenshot, 
 - Captions: CLEAN, AI score 0/10
 - Delivery note: CLEAN, AI score 0/10
 - Listing Launch invitation: CLEAN, AI score 0/10
+- Final-slide copy: CLEAN, AI score 0/10 after review labels were removed from the exact-copy scan
 - Judgment scan: clean; no generic luxury language, fake urgency, hashtag wall, transferable abstraction or unsupported statistic
 - Fair-housing lint: PASS on all three customer-facing files
 
@@ -36,6 +39,31 @@ Gate A: anchor=Gigi Mironova and Unit 124 · artifacts=user listing screenshot, 
 | Platform fit | 8 | Instagram-length captions with readable fact blocks |
 
 Verdict: PASS FOR DRAFT REVIEW, NOT AUTO-PUBLISH.
+
+## Final-slide correction
+
+- The cream identity overview is retained as an internal strategy artifact and excluded from the delivery folder.
+- White and House Sellers navy close variants were rendered for comparison.
+- The navy close is the selected delivery version because it creates a clear visual ending and carries the existing House Sellers palette most directly.
+- Internal color-direction labels are absent from the client file.
+- The client sequence now ends with one contextual invitation: reply "NEXT LISTING" to discuss a one-listing pilot.
+
+### Final-close Copy Gate
+
+| Dimension | Score | Note |
+|---|---:|---|
+| Hook | 8 | Unit 124 immediately connects the close to the gift |
+| Punch | 8 | One headline, one offer and one response phrase |
+| Voice | 7 | Restrained and personal; Gigi has not calibrated it directly |
+| Tension | 7 | The next listing is the live opportunity without fake urgency |
+| Buyer language | 8 | Names the exact pilot scope in plain language |
+| Named anchor | 9 | Gigi, House Sellers and Unit 124 are explicit |
+| Proof | 8 | The preceding three finished assets demonstrate the offer |
+| CTA | 9 | One memorable reply phrase |
+| Anti-slop | 9 | Exact-copy deterministic scan is CLEAN at 0/10 |
+| Platform fit | 8 | Clear at mobile size and visually conclusive in sequence |
+
+Final-close verdict: PASS FOR DRAFT REVIEW, NOT AUTO-SEND.
 
 ## Repository closeout
 
