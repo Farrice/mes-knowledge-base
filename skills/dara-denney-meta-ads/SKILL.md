@@ -1,12 +1,12 @@
 ---
 name: dara-denney-meta-ads
-description: DTC creative strategy — the full stack. Tier 0 Creative Strategy OS — the research→strategy layer BEFORE format selection: 7-station reputation analysis, customer review mining + golden nuggets, evidence-ranked Persona & Desire Segmentation (the moat), three-gap ecosystem audits, mission docs, quarterly→monthly creative roadmaps, plus the strategist business model (own-the-outcome packaging, spec-work client acquisition). Video — 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering, founder ads, and format × messaging × persona test plans. Static — the 3-layer static system, 7 static format archetypes with frame-grounded exemplars, AI static production, and a productized static-ad sprint. Engine for performance creative built on Dara Denney's agency methodology.
-version: "4.0"
+description: DTC creative strategy — the full stack. Universal front door, research OS, evidence-ranked personas, three-gap audits, big-idea mining, evidence-to-ecosystem expansion, mission docs, roadmaps, strategist packaging, dated format intelligence, integrated production briefs, and an append-only outcome ledger. Video — archetype selection, David & Goliath, yapper, objection, hooks, founder ads, and format × messaging × persona tests. Static — the 3-layer system, 7 static archetypes, AI production, and a productized sprint.
+version: "4.4"
 format: completion-engine
-workflows: 26
+workflows: 31
 expert: dara-denney
 domain: dtc-meta-ads
-tiers: "Creative Strategy OS (18–26) + Video (01–07) + Static 3-Layer engine (08–11) + Static formats (12–14) + Static production & orchestration (15–17) = 26"
+tiers: "Universal front door (00) + Creative Strategy OS (18–26) + Format Intelligence and Learning (27–30) + Video (01–07) + Static 3-Layer engine (08–11) + Static formats (12–14) + Static production & orchestration (15–17) = 31"
 ---
 
 # Dara Denney — Creative Strategy (Research OS + Meta Ads Production)
@@ -14,7 +14,7 @@ tiers: "Creative Strategy OS (18–26) + Video (01–07) + Static 3-Layer engine
 > "In 2026, formats alone are not enough." — D.D.
 > "Real strategy lies in the layer before format selection." — D.D.
 
-A completion engine for DTC creative strategy — **research OS, video, and static**. Built from Dara Denney's annual format review, her static-ad masterclass, and her creative-strategy research SOP videos ("Elite Creative Strategy in One Sitting" + "I Hired 100+ Creative Strategists", both watched 2026-07-25). Two governing principles: **real strategy lives in the layer before format selection** (personas · pillar angles · platform trends — gaps vs the live account), and **format × messaging are independent test axes**.
+A completion engine for DTC creative strategy — **research OS, evidence-to-ecosystem decisions, video, and static**. Built from Dara Denney's annual format review, static-ad masterclass, creative-strategy research SOP videos, and the 2026-08-26 big-idea/evidence video. Three governing principles: **real strategy lives in the layer before format selection**; **format × messaging are independent test axes**; and **a validated big idea should move through the cheapest discriminating test before it expands into a multi-format creative ecosystem**.
 
 ## Expert Context
 
@@ -24,6 +24,7 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 
 ## When to Use This Skill
 
+- Entering any Dara task through one router that selects and executes the correct research, strategy, format, production, testing, learning, or strategist-business component (`/dara-denney`)
 - Running the full research→strategy package for any brand — reputation analysis → review mining → persona deck → gap audit → mission doc → roadmap (`/dara-research-sop`, the one-sitting elite build)
 - Building an evidence-ranked persona & desire segmentation deck — the moat deliverable, also sellable standalone (`/dara-persona-intel`)
 - Auditing a live ad account for persona / awareness / diversity gaps, incl. public pre-pitch recon (`/dara-gap-analysis`)
@@ -31,6 +32,10 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 - Building any DTC Meta ads creative strategy from scratch — video or static
 - Diagnosing why current ads are underperforming (likely a format-messaging mismatch, not a creative quality issue)
 - Selecting formats for a new campaign — funnel position × audience age × ops maturity × budget × brand stage
+- Building a source-grounded creative portfolio across ads, organic content, sales enablement, or creative strategy—one scale hypothesis, one trust/education play, one supporting play, explicit rejects, and a proof plan (`/dara-denney-creative-format-intelligence`)
+- Turning any selected format into one integrated content, copy, visual, claim, production, and test packet (`/dara-format-concept-production-brief`)
+- Recording spend, hook-rate evidence, conversion receipts, fatigue, category/persona context, and explicit promotion/demotion decisions (`/dara-format-outcome-ledger`)
+- Mining first-party winners or organic proxy patterns, separating portable ideas from surface formats, ranking evidence, choosing the fastest useful test, identifying persona gaps, and expanding proven ideas into creative ecosystems (`/dara-big-idea-ecosystem`)
 - Constructing high-leverage video formats: David & Goliath, yapper, objection-handling, founder ads
 - Building a static from a brand + persona: 3-layer system → one of 7 formats → 8 copy mechanics → 1-second comprehension gate → AI production
 - Productizing a paid static-ad sprint (5–10 concepts, research-grounded, delivery package)
@@ -38,6 +43,12 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 - Swapping a proven winner between static and video without re-researching
 
 ## Workflow Map
+
+### Universal Front Door
+
+| # | Workflow | When to run | Output |
+|---|---|---|---|
+| 00 | [`/dara-denney`](workflows/00-universal-front-door.md) | **Default entry point** for any Dara request | One route receipt plus immediate execution of the exact selected Dara workflow; no full-OS preload |
 
 ### Tier 0 — Creative Strategy OS (the layer before formats)
 
@@ -64,6 +75,15 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 | 05 | [`/dara-test-plan`](workflows/05-test-plan.md) | $5K+ test budget, 3+ weeks runway | 30-day format × messaging × persona matrix with hypothesis-per-cell, prioritized cells, rotation/promotion logic |
 | 06 | [`/dara-winning-hooks`](workflows/06-winning-hooks.md) | Building the hook layer for any ad round; ads plateauing on product-first openers | Hook suite across tested-winner families, each specified on all 4 hook layers (text/sound/visual/vibe) + per-layer test grid |
 | 07 | [`/dara-founder-ad`](workflows/07-founder-ad.md) | Brand has an accessible founder with a real origin story; founder content untested or stale | Format pick from six-play menu + 7-beat script (with Mad-Lib version) + interview plan for camera-shy founders + phone-first production spec |
+
+### Creative Format Intelligence — Source Priors, Evidence, and Cross-Domain Deployment
+
+| # | Workflow | When to run | Output |
+|---|---|---|---|
+| 27 | [`/dara-denney-creative-format-intelligence`](workflows/27-creative-format-intelligence.md) | Choosing a creative portfolio, translating ad mechanics into native content/strategy, or deciding what not to produce | Source-linked portfolio: scale anchor + trust/education + supporting cast + bounded challenger, holds/rejects, mechanism transfer, production handoffs, and learning plan |
+| 28 | [`/dara-format-concept-production-brief`](workflows/28-format-concept-production-brief.md) | A format is selected and needs a complete concept and production packet | One integrated brief: decision lock, content strategy, copy system, visual direction, claims/proof, production plan, ledger registration, and Composition Ledger |
+| 29 | [`/dara-format-outcome-ledger`](workflows/29-format-outcome-ledger.md) | A test produced a dated observation or a promotion/demotion decision | Verified append-only outcome event or scoreboard preserving spend, hook definition, conversion evidence, fatigue, category, persona, and accountable decision |
+| 30 | [`/dara-big-idea-ecosystem`](workflows/30-big-idea-ecosystem.md) | Deciding which idea has earned the next format, using organic proxy research when data is thin, or expanding a proven message into a creative ecosystem | Source-linked big-idea cards, pattern/persona-gap map, evidence ranking, cheapest discriminating tests, ecosystem map, production and ledger handoffs |
 
 ### Tier 1 — Static 3-Layer Engine
 
@@ -92,6 +112,12 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 
 ## Recommended Workflow Sequence
 
+### Universal Path
+1. Start with `/dara-denney`; it names the purchased job and evidence state, selects one component, and executes it.
+2. Use `/dara-big-idea-ecosystem` after research/performance review when the unresolved decision is which idea deserves the next vessel.
+3. Use `/dara-denney-creative-format-intelligence` when the unresolved decision is the portfolio of vessels and jobs.
+4. Use `/dara-format-concept-production-brief` after the idea and format are locked; record outcomes with `/dara-format-outcome-ledger`.
+
 ### Strategy-First Path (the elite build — start here for any new brand)
 1. `/dara-research-sop` (18) orchestrates: reputation analysis (19) → review mining (20) → persona deck (21) → gap audit (22) → mission doc (23) → roadmap (24).
 2. Roadmap rows then execute through the production tiers below (01-17), with `/dara-test-plan` (05) as the monthly matrix layer.
@@ -99,11 +125,11 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 4. **Notion delivery**: the package deploys into the "Creative Strategy OS" Notion template (see References) for client-facing delivery.
 
 ### Video-First Path
-1. **First time on a brand**: Run `/dara-format-selection` → 2-3 format recommendations.
-2. **For each recommended format**: Run the construction workflow (`/dara-david-goliath`, `/dara-yapper-script`, `/dara-objection-engine`, or `/dara-founder-ad`).
+1. **First time on a brand**: Run `/dara-denney-creative-format-intelligence` when the job spans a portfolio or multiple channels; run `/dara-format-selection` for a focused Meta video round.
+2. **For each recommended format**: Run `/dara-format-concept-production-brief`; it loads the matching Dara construction workflow and bounded content, copy, visual, and claim owners.
 3. **Hook layer for the round**: Run `/dara-winning-hooks` — 4-layer hook specs across tested-winner families.
 4. **Before deploying spend**: Run `/dara-test-plan` to architect the matrix.
-5. **After 30 days**: Re-run `/dara-format-selection` with new performance data; cycle.
+5. **After each read**: Record observations and explicit decisions with `/dara-format-outcome-ledger`; after 30 days, re-run `/dara-format-selection` with the verified scoreboard.
 
 ### Recommended Static Sequence
 1. **Pick the vessel**: `/dara-static-format` (09) — rank 2-3 of the 7 archetypes × production level for one goal + persona + awareness.
@@ -206,6 +232,9 @@ Six plays: problem-solution VSL, objection handler, product demo, educational, s
 4. Creative budget?
 5. Brand maturity (6/7/8/9 figure)?
 
+### Latest Seven-Gate Format Intelligence
+For the dated 2026-08-13 51-type source prior, run: **job → evidence → access → funnel → friction → category/claims → durability**. A high source tier never bypasses eligibility, rights, substantiation, or production economics. Full matrix: `references/creative-format-intelligence.md`.
+
 ### 5 Signature Moves (Video)
 - Test-it-Anyway Override (taste vs. signal)
 - Enemy-First Variation (David & Goliath testing)
@@ -244,6 +273,11 @@ Six plays: problem-solution VSL, objection handler, product demo, educational, s
 - **Deterministic tooling**: `execution/review_miner.py` ($0 review-CSV pre-pass: product ranking, nugget candidates, corpus stats)
 - Strategy-layer sources: "How I Build an Elite Creative Strategy for a Brand in One Sitting" (yt `yRgPbqywUJ8`, watched w/ frames 2026-07-25) + "I Hired 100+ Creative Strategists" (yt `gqnp-IdEEI8`); extraction: [`extractions/dara-denney/extraction-report-creative-strategy.md`](../../extractions/dara-denney/extraction-report-creative-strategy.md) · frames: [`extractions/dara-denney/visual-context-creative-strategy.md`](../../extractions/dara-denney/visual-context-creative-strategy.md)
 - **Static ad exemplars (frame-grounded source of truth)**: [`references/static-ad-exemplars.md`](references/static-ad-exemplars.md) — every headline verbatim from the watched masterclass
+- **Creative Format Intelligence (2026-08-13 prior)**: [`references/creative-format-intelligence.md`](references/creative-format-intelligence.md) — 48 visible tier-board groups / 51 named types, seven-gate selection, portfolio rule, cross-domain mechanism transfer, and production handoffs
+- **Format Outcome Ledger**: [`references/format-outcome-ledger.md`](references/format-outcome-ledger.md) — append-only observation/decision schema, evidence ladder, fatigue states, CLI commands, and promotion discipline
+- **Big-Idea Evidence and Creative Ecosystem Intelligence**: [`references/big-idea-evidence-ecosystem.md`](references/big-idea-evidence-ecosystem.md) — account-first and organic-proxy branches, eight-rung source heuristic, cheapest discriminating tests, persona-gap triangulation, and ecosystem expansion
+- Latest source package: [`extractions/dara-denney/meta-ad-creative-format-intelligence-2026/`](../../extractions/dara-denney/meta-ad-creative-format-intelligence-2026/) — native captions, tier-board frame, claim ledger, uncertainty report, and behavior proof
+- Big-idea/evidence source package: [`extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/`](../../extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/) — native captions, timestamped transcript, targeted frame receipts, source ledger, MES extraction, system contract, and behavior proof
 - Static source: Dara Denney, "How I Make AI Static Ads (in minutes)" — YouTube `5C5VhqW9HCc` (25:15, 2026-06-25), watched frame-by-frame
 - Genius patterns + hidden knowledge + rubric: [`genius.md`](genius.md)
 - Video source extraction: [`extractions/dara-denney/extraction-report.md`](../../extractions/dara-denney/extraction-report.md)
@@ -254,7 +288,7 @@ Six plays: problem-solution VSL, objection handler, product demo, educational, s
 
 ## Execution Prompts (structure-pure v2)
 
-25 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+29 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Dara Denney — Video Format Selection Brief** — `skills/dara-denney-meta-ads/references/prompts-v2/01-format-selection-brief.md`
 - **Dara Denney — David & Goliath Ad Concept** — `skills/dara-denney-meta-ads/references/prompts-v2/02-david-goliath-concept.md`
@@ -281,5 +315,9 @@ Six plays: problem-solution VSL, objection handler, product demo, educational, s
 - **Dara Denney — Creative Roadmap Pack (Quarterly → Monthly → Testing Sheet)** — `skills/dara-denney-meta-ads/references/prompts-v2/24-creative-roadmap-pack.md`
 - **Dara Denney — Creative Strategy Offer Menu (Own-the-Outcome Packaging)** — `skills/dara-denney-meta-ads/references/prompts-v2/25-strategist-offer-menu.md`
 - **Dara Denney — Spec-Work Teardown Pack (The 75%-Response Flywheel)** — `skills/dara-denney-meta-ads/references/prompts-v2/26-spec-teardown-pack.md`
+- **Dara Denney — Creative Format Intelligence Brief** — `skills/dara-denney-meta-ads/references/prompts-v2/27-creative-format-intelligence-brief.md`
+- **Dara Denney — Integrated Format Concept and Production Brief** — `skills/dara-denney-meta-ads/references/prompts-v2/28-format-concept-production-brief.md`
+- **Dara Denney — Format Outcome Ledger Readout** — `skills/dara-denney-meta-ads/references/prompts-v2/29-format-outcome-ledger.md`
+- **Dara Denney — Evidence-to-Creative-Ecosystem Brief** — `skills/dara-denney-meta-ads/references/prompts-v2/30-big-idea-ecosystem-brief.md`
 
 <!-- END:execution-prompts -->

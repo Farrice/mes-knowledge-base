@@ -1,0 +1,13 @@
+{
+  "artifact_type": "research_synthesis",
+  "title": "Dara Denney Evidence to Creative Ecosystem Extraction",
+  "source_id": "p4yXXdnCgWg",
+  "source_date": "2026-08-26",
+  "evidence": [
+    "source/transcript.vtt",
+    "source/transcript-timestamped.txt",
+    "video-context-ledger.md",
+    "source-ledger.md"
+  ],
+  "status": "source-grounded; performance untested"
+}

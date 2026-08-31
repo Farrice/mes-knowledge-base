@@ -13,6 +13,7 @@ Read `genius.md` — Creative Strategy OS layer:
 - **Pattern 17**: every roadmap row traces to a gap
 - **Pattern 16**: Winner × Persona Replication rows are the cheapest tests on the sheet
 - Existing `/dara-test-plan` (05) — the 30-day matrix slots INSIDE this roadmap as the monthly execution layer
+- `references/creative-format-intelligence.md` — separate dated source priors from live evidence and balance scale anchors with trust/education and supporting-cast jobs
 
 ## Input Required
 
@@ -23,12 +24,12 @@ Read `genius.md` — Creative Strategy OS layer:
 ## Execution
 
 1. **Quarterly plan** — per quarter: the 1-2 big swings (new persona push, new platform trend adoption, partnership-ad pipeline build, creator-program diversification), anchored to the business calendar (launch windows, seasonal personas — "attack certain personas in this time of year").
-2. **Monthly roadmap** — sequence the gap-closing concept directions into months: which gap, which persona, which pillar angle, which format, expected learning. Balance: every month carries ≥1 TOF/ecosystem play alongside BOF winners (the awareness-gap discipline), and ≥1 low-cost replication row when winners exist.
+2. **Monthly roadmap** — sequence the gap-closing concept directions into months: which gap, which persona, which pillar angle, which format, expected learning. Balance: every month carries ≥1 TOF/ecosystem play alongside BOF winners, ≥1 low-cost replication row when winners exist, and no more than one bounded C/D challenger unless live evidence changes the source prior.
 3. **Creative Testing Roadmap sheet** — the exact artifact from her Oats Overnight build. Columns:
    | Test # | Concept Name | Nº Variations (3-6) | Winning Element (Hook / Angle / Format / Storyline) | Creative Type (UGC / Video / Image / Carousels) |
    Concept names carry their research trace in the name where possible ("DEAR DIY'ers…" ← DIY objection; "FULLNESS CHASER STATICS" ← satiety gap). 8-12 rows per month is the working density.
 4. **Winning-element hypothesis discipline** — each row names WHICH element it's testing (a row that tests everything learns nothing).
-5. **Wire the loop** — Day-30 readout feeds next month's roadmap; quarterly review re-tags arbitrage stages and re-ranks personas.
+5. **Wire the loop** — Before the Day-30 readout feeds next month's roadmap, run `python3 execution/dara_format_outcome_ledger.py scoreboard --group-by format-category-persona`. Use explicit decision events, not hook rate alone, to promote, demote, hold, or retire formats. Quarterly review re-tags arbitrage stages and re-ranks personas while preserving category/persona boundaries.
 
 ## Output Schema
 

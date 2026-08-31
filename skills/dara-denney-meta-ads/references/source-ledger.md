@@ -10,6 +10,20 @@ Claim-by-claim source audit for `skills/dara-denney-meta-ads/`. VERIFIED = quote
 | MES extraction report (distilled from transcript) | `extractions/dara-denney/extraction-report.md` | 20,481 bytes | VERIFIED — cross-checked against transcript.txt, quotes match verbatim |
 | Static-ads-masterclass extraction vision | `extractions/dara-denney/static-ads-masterclass/VISION.md` | 5,293 bytes | VERIFIED as a planning doc, read in full — its own sourcing claim ("watched, frames + grounded transcript, 5,412 words") is LIKELY, not independently re-checkable (no raw transcript file for this video exists in the repo) |
 | Static ad exemplars (frame-grounded) | `skills/dara-denney-meta-ads/references/static-ad-exemplars.md` | 8,681 bytes | VERIFIED — read in full; carries its own self-correction note (a prior draft's invented headlines/stats were caught and purged) |
+| Raw captions + visual receipts, "The Easiest Way To Make Winning Meta Ads (in 2026)" | `extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/` | 15:37; 407 clean segments; 6 targeted frames | VERIFIED — native captions preserved, full local frame watch completed, source/self-report boundaries recorded |
+
+## Video: Big-Idea Evidence to Creative Ecosystem (`p4yXXdnCgWg`, 2026-08-26)
+
+- **VERIFIED** — three prerequisites: big-idea compression, pattern recognition, and prioritization.
+- **VERIFIED** — simplest-eligible-validation rule: use a static, internal creator, or founder to test an idea before higher-lift production when the vessel can answer the same uncertainty.
+- **VERIFIED** — account-first branch: extract big ideas from the strongest available first-party cohort and transplant proven messaging into new native formats.
+- **VERIFIED** — the makeup example separates a surface `get ready with me` treatment from the portable `five-minute routine` idea.
+- **VERIFIED** — creative ecosystem expansion repeats the big idea/proof across formats and creators with a cohesive journey.
+- **VERIFIED** — thin-data branch: mine recurring phrases, visuals, settings, and creator types from organic content; smaller-account breakouts can strengthen the research signal.
+- **VERIFIED** — persona triangulation compares reviewers/comments, intended recent-ad audiences, and organic opportunity personas to identify gaps.
+- **VERIFIED** — the eight-rung evidence ladder and quick-data priority appear on screen; preserved at `winning-meta-ads-p4yXXdnCgWg/source/frame-14m50s-evidence-ladder.jpg` and `frame-14m58s-quick-data.jpg`.
+- **SELF-REPORTED ONLY** — the makeup example's $2M spend and large-account thresholds are method context, not independently audited proof or universal requirements.
+- **NOT PROMOTED** — the video's unsourced exposure-frequency statement and named AI tool are not system doctrine.
 
 ## Claim-by-claim
 

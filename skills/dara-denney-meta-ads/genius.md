@@ -1,12 +1,12 @@
 # Dara Denney — Genius Patterns, Hidden Knowledge, and Quality Standards
 
-> Source: Annual format review video (Q1 2026), 2,888 words. 20,000+ ads produced career; thousands of creatives × multiple brands tested in Q1 2026 alone.
+> Sources: annual format review video (Q1 2026), 2,888 words; plus "I Ranked 51 Meta Ad Creative Types" (published 2026-08-13), native captions + final tier board preserved at `extractions/dara-denney/meta-ad-creative-format-intelligence-2026/`. The latest tiers are expert priors, not independently verified account-export results.
 
 ## Core Identity
 
 DTC creative strategist. Agency lead. Treats Meta ad format trends as an annual arbitrage discipline. Separates format from messaging as two independent test axes. Bets against her own taste when pattern signal contradicts it. Operates at the script-distribution-architecture level, not single-creator level.
 
-**Her test**: After running an ad concept, can you say with confidence (a) which format archetype it deploys, (b) which messaging strategy pairs with it, and (c) where it falls on the 2026 arbitrage curve? If no — concept is incomplete.
+**Her test**: After running an ad concept, can you say with confidence (a) which job the vessel owns, (b) which format archetype it deploys, (c) which messaging and persona axes pair with it, (d) which access/rights/claims constraints apply, and (e) what evidence could promote or kill it? If no — concept is incomplete.
 
 ---
 
@@ -15,7 +15,7 @@ DTC creative strategist. Agency lead. Treats Meta ad format trends as an annual 
 These patterns are intuition primitives, not a checklist. Absorb the format×messaging split, the objection-to-format matching, the enemy-first variation move, the 1-second comprehension gate — then build an original concept. If the output mechanically stamps visible headers like "Format Archetype: X / Messaging Pairing: Y / Arbitrage Stage: Z" onto a finished ad concept, you have failed the test. The recognition test: would Dara Denney recognize this as an ad concept a strategist built after testing thousands of cross-brand creatives — or as someone reciting her taxonomy back at her? If it's the second, rebuild.
 
 Specifically:
-- Do NOT enumerate which format archetype, copy mechanic, or awareness level you applied as a labeled section in the finished deliverable — that's your working scaffolding, not her output. (The 17 workflow files carry their own Output Schemas; honor those contracts, don't layer narrated meta-commentary on top of them.)
+- Do NOT enumerate which format archetype, copy mechanic, or awareness level you applied as a labeled section in the finished deliverable — that's your working scaffolding, not her output. (The workflow files carry their own Output Schemas; honor those contracts, don't layer narrated meta-commentary on top of them.)
 - Do NOT announce "Layer 1 — Strategy," "Layer 2 — Design," "Layer 3 — Copy" as visible headers in a finished static spec or ad script. That's internal sequencing logic — execute the layering, never narrate it on the page.
 - Her texture is agency-veteran and conversational, not academic: specific numbers ("50% hook rate," "$1,090 → $632"), named credit ("Shout out to our creative strategist Nika"), and public admission of a lost bet ("I bet against this and was proved wrong"). Write in that register — a debrief after a Q1 review, not a marketing-consultant voice-over. Distinguish this from generic "creative strategist" vocabulary: she never says "leverage synergies" or "best-in-class creative" — she names the enemy, the exact hook family, the exact platform mechanic (Meta Creator Marketplace hook-rate filter, not "vet your creators carefully").
 - Polish-is-the-tell is a Hard Veto, not a stylistic note, on her lo-fi/authenticity plays: "the exact craft that signaled premium in 2023 now signals ad" (Apothékary anti-exemplar). If a static or UGC script reads too clean for its production level, send it back — do not soften this into a suggestion.
@@ -89,7 +89,7 @@ Notes The Woobles distributing same script to multiple creator personas. Thinks 
 
 ---
 
-## The 8 Format Archetypes (2026)
+## The 8 Format Archetypes (Earlier 2026 Annual Review Layer)
 
 | # | Format | Best For | Operational Complexity |
 |---|---|---|---|
@@ -118,6 +118,21 @@ Notes The Woobles distributing same script to multiple creator personas. Thinks 
 3. **Operational maturity?** Can release script control → yapper, partnership ads. Can't → David & Goliath, AI slop, listical.
 4. **Creative budget?** Low → TikTok love letter, TikTok short, listical. Mid → AI slop. High → David & Goliath with animations.
 5. **Brand maturity?** 6-7 figure → focus on format selection + messaging. 8-9 figure → unlock partnership ads pipeline.
+
+### Creative Format Intelligence Extension — 2026-08-13
+
+The later tier-list source broadens the operating surface from eight headline video archetypes to **48 visible board groups / 51 named types**. The durable intelligence is not "S is good, F is bad." It is the decision logic behind Dara's ranking:
+
+1. **Scale anchor versus supporting cast** — Founder, partnership, and VSL can own scale; many B-tier formats are valuable because they fill education, comparison, proof, or mid-funnel jobs.
+2. **The operational-friction tax** — Creator sourcing, script looseness, feed setup, asset count, studio cost, and employee workload can demote an otherwise attractive vessel.
+3. **The rights-and-permissions tax** — Press, duet/stitch, celebrity, partnership, authority, and testimonial formats can fail before creative quality matters.
+4. **Persona access is part of the format** — Partnership ads start from the creator's audience; authority ads transfer trust; founder ads transfer lived motive. Casting is not decoration.
+5. **Durability beats the first pocket** — AI animation and AI avatars can hit a new audience or even become a temporary top performer while remaining unstable long-term priors.
+6. **Funnel job changes the verdict** — Before/after, progression, us-vs-them, objection handling, and comment reply are often valuable mid/lower-funnel formats even when they are not net-new scale drivers.
+7. **Sale periods create temporary promotions** — Grid, founder letter, ugly/handwriting, and warehouse assets become more eligible when inventory, urgency, and event energy are the job.
+8. **Reject by default is a production decision** — F-tier means "do not spend the time without the named exception," not "this can never work."
+
+**Action**: Run the seven gates—job, evidence, access, funnel, friction, category/claims, durability—then build a portfolio with different jobs. Full board, source timestamps, exceptions, and cross-domain transfer rules: `references/creative-format-intelligence.md`.
 
 ---
 
@@ -454,5 +469,58 @@ These are not scored — they are pass/fail gates. If any is true, the ad goes b
 ### Fidelity Flags
 
 Her stats (10 yrs, 20K+ ads, 75% response rate, salary bands) are HER claims — label LIKELY in client-facing work. "Runith" spelling UNCONFIRMED (Motion's ad-comment analytics feature) — don't name externally. Storyblocks segment was sponsored; the persona-replication method stands tool-agnostic.
+
+---
+
+## Evidence to Creative Ecosystem — Source Extension (2026-08-26)
+
+> Source: “The Easiest Way To Make Winning Meta Ads (in 2026),” YouTube `p4yXXdnCgWg`, 15:37. Native captions, full local frame watch, six targeted visual receipts, and claim-state ledger preserved at `extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/`.
+
+### Pattern 23: Big-Idea Compression Before Format Work
+
+**Execute:** Apply Dara Denney's 2026 big-idea distinction: label the visible treatment and the portable idea separately. The portable idea is one sentence containing persona, tension, promised shift, and proof/mechanism; it cannot name the format. In her Laura Geller example, “get ready with me” is the treatment while “look put together in five minutes” is the idea worth transplanting.
+**Success Metric:** A second strategist can propose two materially different native formats that preserve the same idea and proof boundary.
+
+### Pattern 24: Evidence-Ranked Idea Selection
+
+**Execute:** Assign each idea the highest defensible rung from Dara Denney's eight-rung 2026 source ladder: pressure-tested iterations; new formats for proven messaging; partnership expression for proven performance/message; new hooks from proven personas; researched new personas; competitor performance; competitor longevity; competitor imitation. Preserve the receipt and label human intuition as `JUDGMENT`.
+**Success Metric:** Every roadmap priority has one rung, one receipt, one confidence limit, and no competitor or organic signal is called a winner.
+
+### Pattern 25: Cheapest Discriminating Test
+
+**Execute:** Use Dara Denney's source rule at 04:40: state the uncertainty, then choose the least expensive eligible vessel that can answer it without changing the idea, proof, claim, or rights requirement. Use simple statics, internal creators, or founder content before high-lift creator systems or animation when they preserve the test.
+**Success Metric:** Every high-lift concept has a cheaper precursor or an explicit reason a precursor cannot discriminate the idea.
+
+### Pattern 26: Creative Ecosystem Expansion
+
+**Execute:** Apply Dara Denney's Creative Ecosystem rule from 08:30–10:24: once an idea earns outcome evidence, repeat its idea/proof spine across native formats, creators, and journey jobs. Change hook, sequence, layout, setting, casting, and platform behavior; do not produce cosmetic variants or unrelated novelty volume.
+**Success Metric:** Each ecosystem expression has a distinct learning or journey job, and the idea remains traceable across all assets.
+
+### Pattern 27: Organic Proxy Tuple
+
+**Execute:** In Dara Denney's TikTok/Reels branch, capture recurring phrases, visuals, settings, and creator types across organic content. Prefer cross-account recurrence and smaller-account breakouts; label the result `ORGANIC PROXY`, not paid proof.
+**Success Metric:** Every promoted organic pattern appears across multiple receipts or remains a bounded exploration cell.
+
+### Pattern 28: Three-Cohort Persona Gap
+
+**Execute:** Use Dara Denney's three-cohort comparison from 12:38–14:10: keep review/comment-derived buyers, intended audiences in recent ads, and organic opportunity personas separate. The gap between these cohorts becomes test territory; it does not become a synthetic avatar without evidence.
+**Success Metric:** Every new persona cell names its cohort, receipts, gap rationale, and cheapest first test.
+
+### Hidden Knowledge
+
+- The asset is not the reusable learning unit; the portable idea is.
+- Cheap validation is only useful when it preserves the uncertainty being tested.
+- Creative diversity should vary execution while strategic repetition compounds the same eligible idea.
+- Organic virality partially de-biases ideation but never closes the paid-performance proof gap.
+- Judgment becomes more trustworthy when recorded as judgment rather than hidden inside a fake score.
+
+### Hard Boundaries
+
+1. Do not call a surface format the big idea.
+2. Do not blend first-party, organic, competitor, and judgment evidence.
+3. Do not fund high-lift production when a cheaper vessel can answer the same uncertainty, unless access/claims/rights make the precursor invalid.
+4. Do not call an ecosystem a batch of cosmetic variants.
+5. Do not merge observed buyers, current targets, and opportunity personas into one unsupported avatar.
+6. Do not promote an idea from hook rate, organic virality, competitor use, or intuition alone.
 
 ---
