@@ -1,0 +1,1127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jen — Seven-Minute Demonstration</title>
+  <style>
+    :root {
+      --paper: #f7f4ee;
+      --white: #ffffff;
+      --navy: #16304f;
+      --ink: #1e3a5f;
+      --steel: #4c7ca8;
+      --pale: #c9d4e2;
+      --mist: #e8edf2;
+      --gold: #cda85e;
+      --charcoal: #20242a;
+      --muted: #667080;
+      --good: #376d58;
+      --shadow: 0 24px 70px rgba(22, 48, 79, 0.15);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: #0d1a2a;
+      color: var(--charcoal);
+      font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    button, a { font: inherit; }
+
+    .deck {
+      position: fixed;
+      inset: 0 0 76px;
+      display: grid;
+      place-items: center;
+      padding: 22px;
+      background:
+        radial-gradient(circle at 12% 16%, rgba(76, 124, 168, 0.26), transparent 30%),
+        radial-gradient(circle at 88% 84%, rgba(201, 212, 226, 0.18), transparent 28%),
+        #0d1a2a;
+    }
+
+    .slide {
+      display: none;
+      width: min(1380px, calc((100vh - 122px) * 16 / 9), calc(100vw - 44px));
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+      background: var(--paper);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      isolation: isolate;
+    }
+
+    .slide.active { display: grid; }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border: 1px solid rgba(255,255,255,0.45);
+      border-radius: inherit;
+      z-index: 5;
+    }
+
+    .stage {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      gap: 0;
+      height: 100%;
+    }
+
+    body.present-mode .stage { grid-template-columns: 1fr; }
+    body.present-mode .speaker { display: none; }
+    body.present-mode .operator-only { display: none !important; }
+
+    .canvas {
+      min-width: 0;
+      position: relative;
+      padding: clamp(28px, 3.2vw, 56px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .canvas.dark {
+      color: var(--white);
+      background:
+        radial-gradient(circle at 84% 20%, rgba(76,124,168,0.56), transparent 34%),
+        linear-gradient(135deg, #10243c 0%, var(--navy) 58%, #203f62 100%);
+    }
+
+    .canvas.blue {
+      color: var(--white);
+      background: linear-gradient(140deg, #365f87, var(--ink));
+    }
+
+    .canvas.clean { background: var(--paper); }
+    .canvas.white { background: var(--white); }
+
+    .speaker {
+      padding: 30px 26px;
+      color: #e9f0f6;
+      background: #111d2c;
+      border-left: 1px solid rgba(255,255,255,0.1);
+      overflow: auto;
+    }
+
+    .speaker h3 {
+      margin: 0 0 18px;
+      color: #9fc4e3;
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .speaker p {
+      margin: 0 0 16px;
+      font-size: clamp(13px, 1vw, 16px);
+      line-height: 1.55;
+    }
+
+    .speaker .say {
+      padding-left: 15px;
+      border-left: 2px solid var(--gold);
+      color: white;
+    }
+
+    .speaker .note {
+      color: #a9b6c4;
+      font-size: 13px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--steel);
+      font-size: clamp(10px, 0.8vw, 13px);
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .dark .eyebrow, .blue .eyebrow { color: #bbd4e8; }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    h1, h2, h3, p { text-wrap: balance; }
+
+    h1 {
+      max-width: 920px;
+      margin: 0;
+      font-size: clamp(40px, 5.1vw, 82px);
+      line-height: 0.98;
+      letter-spacing: -0.045em;
+      font-weight: 650;
+    }
+
+    h2 {
+      max-width: 900px;
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(34px, 4vw, 66px);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      font-weight: 650;
+    }
+
+    .dark h2, .blue h2 { color: var(--white); }
+
+    .serif {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .lead {
+      max-width: 750px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 1.55vw, 27px);
+      line-height: 1.4;
+    }
+
+    .dark .lead, .blue .lead { color: #d4e1ec; }
+
+    .topline, .footline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brandmark {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .local-badge, .sample-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,255,255,0.28);
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .local-badge::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #72c8a0;
+      box-shadow: 0 0 0 4px rgba(114,200,160,0.12);
+    }
+
+    .sample-badge {
+      color: var(--ink);
+      border-color: var(--pale);
+      background: rgba(255,255,255,0.78);
+    }
+
+    .cue {
+      color: inherit;
+      opacity: 0.68;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .intro-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: clamp(26px, 4vw, 70px);
+      align-items: center;
+      flex: 1;
+    }
+
+    .intro-mosaic {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      transform: rotate(2deg);
+    }
+
+    .intro-mosaic img, .tile-grid img, .reel-grid img, .magnet-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 13px;
+      cursor: zoom-in;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.19);
+      transition: transform 160ms ease;
+    }
+
+    .intro-mosaic img:hover, .tile-grid img:hover, .reel-grid img:hover, .magnet-image:hover {
+      transform: translateY(-3px);
+    }
+
+    .intro-mosaic img:nth-child(2) { transform: translateY(22px); }
+    .intro-mosaic img:nth-child(3) { transform: translateY(-8px); }
+
+    .tile-grid {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: clamp(8px, 1vw, 16px);
+      align-items: center;
+      margin-top: 28px;
+    }
+
+    .tile-grid img { aspect-ratio: 4 / 5; box-shadow: 0 12px 28px rgba(22,48,79,0.14); }
+    .tile-grid img:nth-child(even) { transform: translateY(16px); }
+    .tile-grid img:nth-child(even):hover { transform: translateY(12px); }
+
+    .flow-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.12fr) minmax(270px, 0.88fr);
+      gap: clamp(30px, 4vw, 68px);
+      align-items: center;
+      flex: 1;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      align-items: center;
+      margin-top: 34px;
+    }
+
+    .flow-step {
+      position: relative;
+      min-height: 128px;
+      display: grid;
+      align-content: center;
+      padding: 18px;
+      color: var(--navy);
+      background: var(--white);
+      border: 1px solid var(--pale);
+      border-radius: 15px;
+      box-shadow: 0 10px 24px rgba(22,48,79,0.08);
+    }
+
+    .flow-step + .flow-step { margin-left: 18px; }
+    .flow-step + .flow-step::before {
+      content: "→";
+      position: absolute;
+      left: -24px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--steel);
+      font-size: 23px;
+      font-weight: 700;
+    }
+
+    .flow-step small {
+      color: var(--steel);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .flow-step strong {
+      display: block;
+      margin-top: 6px;
+      font-size: clamp(15px, 1.4vw, 23px);
+      line-height: 1.15;
+    }
+
+    .reel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 13px;
+    }
+
+    .reel-grid img { aspect-ratio: 9 / 16; max-height: 235px; }
+
+    .truth-chip {
+      display: inline-flex;
+      margin-top: 20px;
+      padding: 10px 14px;
+      color: var(--good);
+      background: #eaf4ef;
+      border: 1px solid #c6dfd2;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .math-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
+      gap: clamp(34px, 5vw, 80px);
+      align-items: center;
+      flex: 1;
+    }
+
+    .magnet-wrap { position: relative; }
+    .magnet-image { aspect-ratio: 4 / 5; max-height: 520px; object-position: center top; }
+
+    .questions {
+      display: grid;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .question {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 15px;
+      align-items: center;
+      padding: 15px 18px;
+      color: var(--navy);
+      background: rgba(255,255,255,0.85);
+      border: 1px solid rgba(201,212,226,0.9);
+      border-radius: 13px;
+    }
+
+    .question span {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      color: white;
+      background: var(--steel);
+      border-radius: 50%;
+      font-weight: 750;
+    }
+
+    .question strong { font-size: clamp(14px, 1.25vw, 21px); }
+
+    .reveal {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+      gap: clamp(30px, 5vw, 76px);
+      align-items: center;
+    }
+
+    .stack-card {
+      position: relative;
+      min-height: 380px;
+      padding: clamp(30px, 3vw, 48px);
+      color: var(--navy);
+      background: white;
+      border: 1px solid rgba(255,255,255,0.68);
+      border-radius: 20px;
+      box-shadow: 0 24px 65px rgba(0,0,0,0.22);
+      transform: rotate(1.5deg);
+    }
+
+    .stack-card::before, .stack-card::after {
+      content: "";
+      position: absolute;
+      inset: 13px -12px -13px 12px;
+      z-index: -1;
+      background: #d8e2eb;
+      border-radius: inherit;
+      transform: rotate(-3deg);
+    }
+
+    .stack-card::after {
+      inset: 27px -23px -24px 23px;
+      background: #9bb4ca;
+      transform: rotate(3deg);
+      z-index: -2;
+    }
+
+    .stack-card h3 {
+      margin: 30px 0 16px;
+      font-size: clamp(31px, 3vw, 49px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .stack-card p { color: var(--muted); font-size: 18px; line-height: 1.45; }
+
+    .kit-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+      gap: clamp(34px, 5vw, 80px);
+      align-items: center;
+      flex: 1;
+    }
+
+    .kit-title {
+      display: inline-block;
+      padding-bottom: 8px;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    .deliverables {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 13px;
+    }
+
+    .deliverable {
+      min-height: 125px;
+      padding: 19px;
+      color: var(--navy);
+      background: rgba(255,255,255,0.96);
+      border: 1px solid var(--pale);
+      border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(22,48,79,0.07);
+    }
+
+    .deliverable.wide { grid-column: 1 / -1; min-height: 100px; }
+
+    .deliverable .num {
+      color: var(--steel);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+    }
+
+    .deliverable strong {
+      display: block;
+      margin: 7px 0 5px;
+      font-size: clamp(16px, 1.45vw, 23px);
+    }
+
+    .deliverable p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.35; }
+
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 22px;
+      padding: 11px 15px;
+      color: white;
+      background: var(--navy);
+      border-radius: 9px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .offer-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(300px, 1.05fr);
+      gap: clamp(36px, 5vw, 80px);
+      align-items: center;
+      flex: 1;
+    }
+
+    .price-card {
+      padding: clamp(30px, 4vw, 58px);
+      color: var(--navy);
+      background: var(--white);
+      border-radius: 20px;
+      box-shadow: 0 25px 70px rgba(0,0,0,0.22);
+    }
+
+    .price-card .spots {
+      color: var(--steel);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .price {
+      margin: 12px 0 8px;
+      font-size: clamp(58px, 6vw, 96px);
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+      font-weight: 700;
+    }
+
+    .standard { color: var(--muted); font-size: 14px; }
+
+    .price-points {
+      display: grid;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .price-point {
+      display: flex;
+      gap: 11px;
+      align-items: center;
+      font-weight: 650;
+    }
+
+    .price-point::before {
+      content: "✓";
+      display: grid;
+      width: 25px;
+      height: 25px;
+      place-items: center;
+      color: white;
+      background: var(--good);
+      border-radius: 50%;
+      font-size: 13px;
+    }
+
+    .permission {
+      margin-top: 25px;
+      padding: 15px 17px;
+      color: #d8e6f1;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 12px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .asks-layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+      gap: clamp(36px, 5vw, 82px);
+      align-items: center;
+    }
+
+    .ask-list { display: grid; gap: 14px; }
+
+    .ask {
+      display: grid;
+      grid-template-columns: 55px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 19px 22px;
+      color: var(--navy);
+      background: white;
+      border: 1px solid var(--pale);
+      border-radius: 15px;
+      box-shadow: 0 12px 28px rgba(22,48,79,0.08);
+    }
+
+    .ask .ask-num {
+      display: grid;
+      width: 50px;
+      height: 50px;
+      place-items: center;
+      color: white;
+      background: var(--navy);
+      border-radius: 50%;
+      font-weight: 800;
+    }
+
+    .ask strong { display: block; font-size: clamp(15px, 1.45vw, 23px); line-height: 1.15; }
+    .ask small { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+
+    .close-line {
+      margin-top: 26px;
+      color: var(--steel);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(19px, 1.8vw, 29px);
+      font-style: italic;
+    }
+
+    .controls {
+      position: fixed;
+      inset: auto 0 0;
+      height: 76px;
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto minmax(220px, 1fr);
+      align-items: center;
+      gap: 18px;
+      padding: 0 24px;
+      color: #dce7f0;
+      background: #111d2c;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      z-index: 20;
+    }
+
+    .control-group { display: flex; align-items: center; gap: 8px; }
+    .control-group:last-child { justify-content: flex-end; }
+
+    .control-btn {
+      min-width: 39px;
+      height: 39px;
+      padding: 0 13px;
+      color: #edf4fa;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 9px;
+      cursor: pointer;
+    }
+
+    .control-btn:hover { background: rgba(255,255,255,0.13); }
+    .control-btn.primary { color: #10243c; background: #dbe7f0; border-color: #dbe7f0; font-weight: 750; }
+
+    .timer {
+      min-width: 74px;
+      color: white;
+      font-variant-numeric: tabular-nums;
+      font-size: 18px;
+      font-weight: 750;
+      text-align: center;
+    }
+
+    .progress {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      padding: 0;
+      border: 0;
+      border-radius: 999px;
+      background: #4a596a;
+      cursor: pointer;
+      transition: width 160ms ease, background 160ms ease;
+    }
+
+    .dot.active { width: 28px; background: #c5d7e6; }
+
+    .slide-count { color: #91a1b2; font-size: 12px; font-weight: 700; }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      place-items: center;
+      padding: 40px;
+      background: rgba(3, 10, 18, 0.92);
+      cursor: zoom-out;
+    }
+
+    .lightbox.open { display: grid; }
+    .lightbox img { max-width: 92vw; max-height: 90vh; border-radius: 14px; box-shadow: 0 30px 90px rgba(0,0,0,0.5); }
+
+    @media (max-width: 1050px) {
+      .stage { grid-template-columns: minmax(0, 1fr) 255px; }
+      .speaker { padding: 22px 18px; }
+      .canvas { padding: 28px; }
+      .tile-grid { gap: 8px; }
+      .flow-step { padding: 12px; min-height: 105px; }
+      .deliverable { min-height: 105px; padding: 14px; }
+    }
+
+    @media (max-width: 760px) {
+      .deck { inset-bottom: 64px; padding: 8px; overflow: auto; place-items: start center; }
+      .slide { width: 100%; min-height: calc(100vh - 82px); aspect-ratio: auto; border-radius: 13px; }
+      .stage { grid-template-columns: 1fr; }
+      .speaker { display: none; }
+      .canvas { min-height: calc(100vh - 82px); padding: 24px 20px; }
+      .intro-layout, .flow-layout, .math-layout, .reveal, .kit-layout, .offer-layout, .asks-layout { grid-template-columns: 1fr; }
+      .intro-mosaic, .reel-grid, .stack-card, .magnet-wrap { display: none; }
+      .tile-grid { grid-template-columns: repeat(3, 1fr); }
+      .flow { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .flow-step + .flow-step { margin-left: 0; }
+      .flow-step + .flow-step::before { display: none; }
+      .deliverables { grid-template-columns: 1fr; }
+      .deliverable.wide { grid-column: auto; }
+      .controls { height: 64px; grid-template-columns: 1fr auto 1fr; padding: 0 10px; gap: 5px; }
+      .control-btn { padding: 0 9px; }
+      .hide-mobile { display: none; }
+      .progress { gap: 5px; }
+    }
+  </style>
+</head>
+<body class="operator-mode">
+  <main class="deck" id="deck" aria-live="polite">
+    <section class="slide active" data-seconds="35" data-cue="00:00–00:35">
+      <div class="stage">
+        <div class="canvas dark">
+          <div class="topline">
+            <div class="brandmark">First Home Valley × Listing Launch</div>
+            <div class="local-badge">Private rehearsal · local only</div>
+          </div>
+          <div class="intro-layout">
+            <div>
+              <div class="eyebrow">A seven-minute working demonstration</div>
+              <h1>I built two <span class="serif">connected</span> things.</h1>
+              <p class="lead">One is for Jen’s business. The other is a small, testable service for agents—but only with her permission.</p>
+            </div>
+            <div class="intro-mosaic" aria-label="First Home Valley visual preview">
+              <img src="../../../jen-santulan/production/first-home-valley/png/01-a1-hook.png" alt="First Home Valley hook carousel tile">
+              <img src="../../../jen-santulan/production/first-home-valley/png/07-reel-1-cover.png" alt="First Home Valley reel cover">
+              <img src="../../../jen-santulan/production/first-home-valley/png/05-a5-three-questions.png" alt="First Home Valley three questions tile">
+              <img src="../../../jen-santulan/production/first-home-valley/png/12-magnet-promo.png" alt="First Home Valley buyer guide promotion">
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 1 · Set the frame</span><span class="cue">35 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“I built two connected things. The first is for your business. The second is a small offer I could test with agents you trust, but I’m not moving that part without your okay.”</p>
+          <p class="note">Do not explain the process. Let the visuals create curiosity.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="60" data-cue="00:35–01:35">
+      <div class="stage">
+        <div class="canvas clean">
+          <div>
+            <div class="eyebrow">First Home Valley</div>
+            <h2>Not random posting. A <span class="serif">buyer-education system.</span></h2>
+            <p class="lead">A recognizable series that helps Valley renters and first-time buyers understand what is actually possible.</p>
+          </div>
+          <div class="tile-grid">
+            <img src="../../../jen-santulan/production/first-home-valley/png/01-a1-hook.png" alt="Carousel hook tile">
+            <img src="../../../jen-santulan/production/first-home-valley/png/02-a2-old-map.png" alt="Old map carousel tile">
+            <img src="../../../jen-santulan/production/first-home-valley/png/03-a3-29to40.png" alt="Age 29 to 40 carousel tile">
+            <img src="../../../jen-santulan/production/first-home-valley/png/04-a4-21pct.png" alt="Twenty-one percent carousel tile">
+            <img src="../../../jen-santulan/production/first-home-valley/png/05-a5-three-questions.png" alt="Three questions carousel tile">
+            <img src="../../../jen-santulan/production/first-home-valley/png/06-a6-cta.png" alt="Call to action carousel tile">
+          </div>
+          <div class="footline"><span class="cue">Beat 2 · Show Jen her business</span><span class="cue">60 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“First Home Valley is the buyer-education system I built for you. It isn’t a pile of posts. It is a recognizable series that teaches the real questions people need answered before they ever feel ready to call an agent.”</p>
+          <p class="note">Pause. Ask only: “Which one makes you want to keep reading?” Save the full voice question for the close.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="50" data-cue="01:35–02:25">
+      <div class="stage">
+        <div class="canvas white">
+          <div class="flow-layout">
+            <div>
+              <div class="eyebrow">The conversion path</div>
+              <h2>The goal is not views. It is a <span class="serif">useful next conversation.</span></h2>
+              <div class="flow" aria-label="Content to conversation flow">
+                <div class="flow-step"><small>01</small><strong>See a useful idea</strong></div>
+                <div class="flow-step"><small>02</small><strong>Comment or DM</strong></div>
+                <div class="flow-step"><small>03</small><strong>Get real numbers</strong></div>
+                <div class="flow-step"><small>04</small><strong>Choose a next step</strong></div>
+              </div>
+              <div class="truth-chip">Proof boundary: this is the designed path—not a claimed closing result.</div>
+            </div>
+            <div class="reel-grid" aria-label="Reel cover samples">
+              <img src="../../../jen-santulan/production/first-home-valley/png/07-reel-1-cover.png" alt="First reel cover">
+              <img src="../../../jen-santulan/production/first-home-valley/png/09-reel-3-cover.png" alt="Third reel cover">
+              <img src="../../../jen-santulan/production/first-home-valley/png/10-reel-4-cover.png" alt="Fourth reel cover">
+              <img src="../../../jen-santulan/production/first-home-valley/png/11-reel-5-cover.png" alt="Fifth reel cover">
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 3 · Make the business logic visible</span><span class="cue">50 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“The part I care about is not the view count. Each piece has a next step into a real conversation. That is what we can measure. I’m not saying this has caused closings yet; I’m showing you the path we can test.”</p>
+          <p class="note">This sentence protects trust. Do not soften or omit it.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="45" data-cue="02:25–03:10">
+      <div class="stage">
+        <div class="canvas clean">
+          <div class="math-layout">
+            <div class="magnet-wrap">
+              <img class="magnet-image" src="../../../jen-santulan/production/first-home-valley/png/12-magnet-promo.png" alt="First Home Valley buyer guide promotion">
+            </div>
+            <div>
+              <div class="eyebrow">The useful hook</div>
+              <h2>“You may be closer than you think” only works when the <span class="serif">math follows.</span></h2>
+              <div class="questions">
+                <div class="question"><span>1</span><strong>What payment can I comfortably carry?</strong></div>
+                <div class="question"><span>2</span><strong>What cash would I actually need?</strong></div>
+                <div class="question"><span>3</span><strong>Which Valley homes fit those numbers?</strong></div>
+              </div>
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 4 · Show the honest mechanism</span><span class="cue">45 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“The hook isn’t that people are behind or that buying is easy. It’s that they may be closer than they think once someone shows them the actual payment, cash, and home options.”</p>
+          <p class="note">Keep Jen positioned as the guide who makes the numbers understandable.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="50" data-cue="03:10–04:00">
+      <div class="stage">
+        <div class="canvas blue">
+          <div class="topline">
+            <div class="brandmark">The repeatable layer</div>
+            <div class="sample-badge">Fictional property sample</div>
+          </div>
+          <div class="reveal">
+            <div>
+              <div class="eyebrow">What sits behind the content</div>
+              <h2>Then I pulled back and packaged the <span class="serif">engine.</span></h2>
+              <p class="lead">For another agent, the same thinking becomes one forwardable listing-content kit—without pretending every agent needs a full content agency.</p>
+            </div>
+            <div class="stack-card">
+              <span class="sample-badge">1234 Hazeltine Ave · Sample only</span>
+              <h3>Listing Launch Kit</h3>
+              <p>A phone-first shoot plan plus ready-to-record scripts, captions, stories, and a fair-housing language pass.</p>
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 5 · Reveal the productized service</span><span class="cue">50 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“Then I pulled back and looked at what was making this repeatable. For another agent, it becomes one forwardable kit built around a single listing. This example is fictional—the system is real.”</p>
+          <p class="note">Do not call this an agency. It is one bounded service with one clear output.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="65" data-cue="04:00–05:05">
+      <div class="stage">
+        <div class="canvas clean">
+          <div class="kit-layout">
+            <div>
+              <div class="eyebrow">The deliverable</div>
+              <h2 class="kit-title">One listing. One shoot. One usable content pack.</h2>
+              <p class="lead">The agent gets directions they can execute on a phone—not another strategy document that creates more work.</p>
+              <a class="link-button" href="../../demo-kit/sample-kit.html" target="_blank" rel="noopener">Open the full fictional sample ↗</a>
+            </div>
+            <div class="deliverables">
+              <div class="deliverable"><span class="num">01</span><strong>10-shot walkthrough</strong><p>A phone-only sequence designed for roughly 40 minutes on site.</p></div>
+              <div class="deliverable"><span class="num">02</span><strong>3 teleprompter reels</strong><p>Ready-to-record scripts with property-specific hooks.</p></div>
+              <div class="deliverable"><span class="num">03</span><strong>Captions + carousel</strong><p>Post-ready copy that makes the facts easier to understand.</p></div>
+              <div class="deliverable"><span class="num">04</span><strong>Stories + DM path</strong><p>A five-frame sequence and a simple keyword response.</p></div>
+              <div class="deliverable wide"><span class="num">05</span><strong>Fair-housing language pass</strong><p>Property-first phrasing, factual details, and a practical “don’t say” check before the agent records.</p></div>
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 6 · Make the service tangible</span><span class="cue">65 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“For another agent, this becomes one kit: the shoot sheet, three reel scripts, the captions and carousel, a story and DM sequence, plus a fair-housing language pass. They can film it with a phone instead of figuring out the whole campaign from scratch.”</p>
+          <p class="note">If Jen wants detail, open the full sample. Otherwise keep moving.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="50" data-cue="05:05–05:55">
+      <div class="stage">
+        <div class="canvas dark">
+          <div class="offer-layout">
+            <div>
+              <div class="eyebrow">A bounded founding test</div>
+              <h2>Small enough to learn. Real enough to test <span class="serif">payment behavior.</span></h2>
+              <p class="lead">No subscription. No retainer. No claim that this already produces deals.</p>
+              <div class="permission">I am not asking Jen to sell this. I am asking whether I may privately show the fictional sample to three agents she trusts.</div>
+            </div>
+            <div class="price-card">
+              <div class="spots">Three founding kits</div>
+              <div class="price">$200</div>
+              <div class="standard">Founding test · standard price hypothesis: $450</div>
+              <div class="price-points">
+                <div class="price-point">One listing per kit</div>
+                <div class="price-point">48-hour delivery target</div>
+                <div class="price-point">No ongoing commitment</div>
+              </div>
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 7 · State the test honestly</span><span class="cue">50 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“I’m not asking you to sell this. I want to offer three founding kits at $200, learn from real use, and keep your name out of it unless you approve. If the work is useful and agents pay, then I’ll know there is something worth refining.”</p>
+          <p class="note">The $600 target is three sales, not a projected result. Do not introduce the $450 standard unless she asks about the longer-term model.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="slide" data-seconds="65" data-cue="05:55–07:00">
+      <div class="stage">
+        <div class="canvas white">
+          <div class="asks-layout">
+            <div>
+              <div class="eyebrow">Three greenlights</div>
+              <h2>I need your <span class="serif">honest reaction</span> before anything moves.</h2>
+              <p class="close-line">That’s it. No outreach happens today.</p>
+            </div>
+            <div class="ask-list">
+              <div class="ask"><span class="ask-num">1</span><div><strong>Which First Home Valley piece would you post first?</strong><small>And what line does not sound like you?</small></div></div>
+              <div class="ask"><span class="ask-num">2</span><div><strong>Is this worth a small live pilot for your business?</strong><small>A real channel test, measured by conversations—not vanity metrics.</small></div></div>
+              <div class="ask"><span class="ask-num">3</span><div><strong>May I show the fictional Listing Launch sample to three agents you trust?</strong><small>No use of your name, endorsement, or contacts without permission.</small></div></div>
+            </div>
+          </div>
+          <div class="footline"><span class="cue">Beat 8 · Stop and listen</span><span class="cue">65 seconds</span></div>
+        </div>
+        <aside class="speaker">
+          <h3>Say this</h3>
+          <p class="say">“That’s it. I want your honest reaction before anything moves. Which piece would you actually post first, and what line doesn’t sound like you? Is this worth a small live First Home Valley pilot? And is it okay for me to privately show the fictional Listing Launch sample to three agents you trust?”</p>
+          <p class="note">Stop talking. Capture her exact words. A “not yet” is useful evidence; do not negotiate against it in the room.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <nav class="controls" aria-label="Presentation controls">
+    <div class="control-group">
+      <button class="control-btn" id="prev" type="button" aria-label="Previous slide">←</button>
+      <button class="control-btn" id="next" type="button" aria-label="Next slide">→</button>
+      <span class="slide-count" id="slideCount">1 / 8</span>
+      <span class="slide-count hide-mobile" id="cueLabel">00:00–00:35</span>
+    </div>
+    <div class="progress" id="progress" aria-label="Slide progress"></div>
+    <div class="control-group">
+      <button class="control-btn primary" id="timerToggle" type="button">Start</button>
+      <span class="timer" id="timer">07:00</span>
+      <button class="control-btn hide-mobile" id="timerReset" type="button">Reset</button>
+      <button class="control-btn hide-mobile" id="notesToggle" type="button">Present</button>
+      <button class="control-btn hide-mobile" id="fullscreen" type="button">Full</button>
+    </div>
+  </nav>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded visual">
+    <img id="lightboxImage" src="" alt="Expanded presentation visual">
+  </div>
+
+  <script>
+    (() => {
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      const progress = document.getElementById('progress');
+      const slideCount = document.getElementById('slideCount');
+      const cueLabel = document.getElementById('cueLabel');
+      const timerEl = document.getElementById('timer');
+      const timerToggle = document.getElementById('timerToggle');
+      const notesToggle = document.getElementById('notesToggle');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImage = document.getElementById('lightboxImage');
+      const totalSeconds = slides.reduce((sum, slide) => sum + Number(slide.dataset.seconds || 0), 0);
+      const params = new URLSearchParams(window.location.search);
+      const requestedSlide = Number(params.get('slide') || 1) - 1;
+      const initialSlide = Number.isFinite(requestedSlide)
+        ? Math.min(Math.max(requestedSlide, 0), slides.length - 1)
+        : 0;
+      if (params.get('mode') === 'present') {
+        document.body.classList.add('present-mode');
+        document.body.classList.remove('operator-mode');
+        notesToggle.textContent = 'Notes';
+      }
+      let index = initialSlide;
+      let elapsed = 0;
+      let running = false;
+      let intervalId = null;
+
+      const formatTime = (value) => {
+        const safe = Math.max(0, value);
+        const minutes = Math.floor(safe / 60);
+        const seconds = safe % 60;
+        return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      };
+
+      const dots = slides.map((_, dotIndex) => {
+        const dot = document.createElement('button');
+        dot.className = 'dot';
+        dot.type = 'button';
+        dot.setAttribute('aria-label', `Go to slide ${dotIndex + 1}`);
+        dot.addEventListener('click', () => showSlide(dotIndex));
+        progress.appendChild(dot);
+        return dot;
+      });
+
+      const showSlide = (nextIndex) => {
+        index = (nextIndex + slides.length) % slides.length;
+        slides.forEach((slide, slideIndex) => slide.classList.toggle('active', slideIndex === index));
+        dots.forEach((dot, dotIndex) => dot.classList.toggle('active', dotIndex === index));
+        slideCount.textContent = `${index + 1} / ${slides.length}`;
+        cueLabel.textContent = slides[index].dataset.cue;
+      };
+
+      const updateTimer = () => {
+        timerEl.textContent = formatTime(totalSeconds - elapsed);
+        timerEl.style.color = elapsed >= totalSeconds ? '#efadad' : '#ffffff';
+      };
+
+      const stopTimer = () => {
+        running = false;
+        window.clearInterval(intervalId);
+        intervalId = null;
+        timerToggle.textContent = elapsed >= totalSeconds ? 'Done' : 'Start';
+      };
+
+      const toggleTimer = () => {
+        if (running) {
+          stopTimer();
+          return;
+        }
+        if (elapsed >= totalSeconds) elapsed = 0;
+        running = true;
+        timerToggle.textContent = 'Pause';
+        intervalId = window.setInterval(() => {
+          elapsed += 1;
+          updateTimer();
+          if (elapsed >= totalSeconds) stopTimer();
+        }, 1000);
+      };
+
+      const resetTimer = () => {
+        stopTimer();
+        elapsed = 0;
+        updateTimer();
+      };
+
+      const toggleNotes = () => {
+        const presenting = document.body.classList.toggle('present-mode');
+        document.body.classList.toggle('operator-mode', !presenting);
+        notesToggle.textContent = presenting ? 'Notes' : 'Present';
+      };
+
+      document.getElementById('prev').addEventListener('click', () => showSlide(index - 1));
+      document.getElementById('next').addEventListener('click', () => showSlide(index + 1));
+      timerToggle.addEventListener('click', toggleTimer);
+      document.getElementById('timerReset').addEventListener('click', resetTimer);
+      notesToggle.addEventListener('click', toggleNotes);
+      document.getElementById('fullscreen').addEventListener('click', () => {
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+        else document.exitFullscreen();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowRight') showSlide(index + 1);
+        if (event.key === 'ArrowLeft') showSlide(index - 1);
+        if (event.key.toLowerCase() === 'n') toggleNotes();
+        if (event.key.toLowerCase() === 'f') document.getElementById('fullscreen').click();
+        if (event.code === 'Space') {
+          event.preventDefault();
+          toggleTimer();
+        }
+        if (event.key === 'Escape' && lightbox.classList.contains('open')) lightbox.classList.remove('open');
+      });
+
+      document.querySelectorAll('.canvas img').forEach((image) => {
+        image.addEventListener('click', () => {
+          lightboxImage.src = image.src;
+          lightboxImage.alt = image.alt;
+          lightbox.classList.add('open');
+        });
+      });
+
+      lightbox.addEventListener('click', () => lightbox.classList.remove('open'));
+      showSlide(initialSlide);
+      updateTimer();
+    })();
+  </script>
+</body>
+</html>

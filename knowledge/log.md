@@ -830,3 +830,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-30 23:51]` **finalize** | Connected Jun skill-system expansion: source package, mastery extraction, pursuit method branch, ang | general | extract-mastery — composite:7.77 status:Keep
 - `[2026-08-31 12:10]` **finalize** | Recovered and reconciled Jen offer, demo, proof, and revenue context into a verified visual brief wi | content | jen-santulan — composite:6.67 status:Needs Improvement
 - `[2026-08-31 12:13]` **finalize** | Recovered all local Jen offer and demonstration context, preserved the visual work, compared Claude  | content | jen-santulan — composite:8.33 status:Keep
+- `[2026-08-31 13:02]` **finalize** | Built a seven-minute local Jen demonstration using the existing First Home Valley visuals and fictio | content | jen-santulan-listing-content — composite:8.67 status:Keep

@@ -1,0 +1,20 @@
+{
+  "title": "Jen Seven-Minute Demonstration",
+  "artifact_type": "interactive_local_presentation",
+  "status": "draft",
+  "audience": "Jen Santulan",
+  "runtime_seconds": 420,
+  "delivery_boundary": "local preparation only; no outreach, publishing, sharing, payment collection, or connector writes",
+  "proof_boundary": "demonstrates a designed content-to-conversation path; does not claim closing or revenue outcomes",
+  "source_assets": [
+    "_active/clients/jen-santulan/production/first-home-valley/png/",
+    "_active/clients/jen-team-pilot/demo-kit/sample-kit.html",
+    "_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md"
+  ],
+  "controls": {
+    "left_right": "previous and next slide",
+    "space": "start or pause seven-minute timer",
+    "n": "toggle operator notes",
+    "f": "toggle fullscreen"
+  }
+}
