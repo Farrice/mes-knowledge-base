@@ -294,10 +294,12 @@ def check_lane_operation_lock(tmp: Path) -> list[str]:
             "Codex closeout must skip broad mission-brief regeneration")
     require("Codex coordinator owns branch checkpointing and never merges main" in spine_source,
             "Codex closeout must skip legacy lane auto-merge")
+    require("Codex coordinator collects self-heal review without tracked writes" in spine_source,
+            "Codex closeout must skip the tracked legacy self-heal step")
     return [
         "End-session rejects a contended lane operation and releases its lock for retry",
         "lane reconciliation takes the shared operation lock before sealing",
-        "Codex closeout skips broad mission-brief regeneration and legacy lane auto-merge",
+        "Codex closeout skips tracked self-heal, broad mission briefs, and legacy lane auto-merge",
     ]
 
 

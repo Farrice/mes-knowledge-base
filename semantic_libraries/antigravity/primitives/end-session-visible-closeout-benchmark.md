@@ -81,8 +81,10 @@ verifier must prove contention fails, release permits retry, and the reconciler'
 lock acquisition appears before its seal step.
 
 For `codex-owned` Git policy, the legacy closeout spine must also skip broad
-mission-brief regeneration and lane auto-merge. Only the manifest coordinator may
-checkpoint its approved paths and push its current `codex/*` branch.
+mission-brief regeneration, tracked self-heal logging, and lane auto-merge. The
+coordinator collects self-heal findings through its non-mutating review path.
+Only the manifest coordinator may checkpoint its approved paths and push its
+current `codex/*` branch.
 
 ## State Decision
 

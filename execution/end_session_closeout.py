@@ -1017,7 +1017,10 @@ def run(slug: str, degraded: bool, dry_run: bool,
     steps = [
         # self-heal runs BEFORE commit-gate so its repairs land in the session's
         # own commit rather than a second one (see step_self_heal docstring).
-        ("self-heal", lambda: step_self_heal(ctx, degraded, dry_run, not codex_owned)),
+        ("self-heal", lambda: (
+            ("SKIP", "Codex coordinator collects self-heal review without tracked writes")
+            if codex_owned else step_self_heal(ctx, degraded, dry_run, True)
+        )),
         ("commit-gate", lambda: step_commit_gate(ctx, degraded, dry_run, git_policy)),
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),

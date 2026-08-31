@@ -240,7 +240,9 @@ The coordinator acquires it before writing closeout state, and lane reconciliati
 acquires it before sealing a lane. If either operation is active, the other parks
 or exits cleanly; it must never seal a partially completed closeout.
 Codex-owned closeout also skips broad mission-brief regeneration and the legacy
-lane auto-merge step; the manifest coordinator alone owns its branch checkpoint.
+lane auto-merge step. It collects self-heal findings through the coordinator's
+non-mutating review path instead of the legacy tracked logger; the manifest
+coordinator alone owns its branch checkpoint.
 
 ---
 
