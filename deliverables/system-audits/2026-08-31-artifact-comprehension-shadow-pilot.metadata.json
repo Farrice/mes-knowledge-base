@@ -1,0 +1,9 @@
+{
+  "title": "Artifact Comprehension v0.2 — Shadow Pilot Receipt",
+  "artifact_type": "system-audit",
+  "status": "STRUCTURAL PASS / HUMAN GATE PENDING",
+  "date": "2026-08-31",
+  "branch": "codex/burnout-safe-output-shadow-v01",
+  "authority": "workspace-only artifact SHADOW",
+  "promotion_allowed": false
+}

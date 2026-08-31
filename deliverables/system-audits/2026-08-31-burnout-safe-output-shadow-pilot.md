@@ -1,5 +1,11 @@
 # Burnout-Safe Output v0.1 — Shadow Pilot Receipt
 
+> **SUPERSEDED / BEHAVIOR REFINEMENT REQUIRED (2026-08-31).** Farrice's
+> review produced three pilot preferences and two ties, but the qualitative
+> verdict rejected the total presentation as overengineered. The receipt below
+> is frozen pre-review evidence, not current authority. Use the artifact-only
+> v0.2 receipt instead.
+
 ## Command Card
 
 | Label | Readout |

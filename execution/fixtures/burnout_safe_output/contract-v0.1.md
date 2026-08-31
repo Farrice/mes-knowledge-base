@@ -1,6 +1,15 @@
 # Burnout-Safe Output Contract v0.1
 
-Status: `PILOT / SHADOW`
+Status: `BEHAVIOR REFINEMENT REQUIRED / SUPERSEDED FOR ACTIVE TESTING`
+
+Human verdict (2026-08-31): the five blind comparisons produced three pilot
+preferences and two ties, but the overall presentation felt overengineered and
+less natural than the existing global Clear Depth and Three Contextual Next
+Prompts behavior. That qualitative veto controls. This contract is retained as
+historical regression evidence only; it is not active authority.
+
+Current candidate:
+`execution/fixtures/burnout_safe_output/artifact-comprehension-contract-v0.2.md`
 
 Owner: `/system-audit`
 
@@ -11,6 +20,9 @@ Support: Clear Depth, `/repeatability-spine`, and `/steering-compass`
 Reduce the effort required to understand, trust, retrieve, and act on Codex
 work without reducing the reasoning, proof, initiative, or recommendation
 quality underneath it.
+
+This objective was too broad. v0.2 narrows the unmet job to adaptive
+presentation inside substantial documents and artifacts.
 
 This is a presentation companion to existing owners. It is not a new router,
 command, hook, task manager, dashboard, scoring system, or replacement for the

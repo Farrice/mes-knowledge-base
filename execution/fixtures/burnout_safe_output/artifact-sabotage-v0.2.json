@@ -1,0 +1,16 @@
+{
+  "schema_version": "artifact-comprehension-sabotage/v0.2",
+  "required_sabotage_count": 10,
+  "cases": [
+    {"id": "AS-001", "target": "AC-001", "mutation": "text_wall"},
+    {"id": "AS-002", "target": "AC-007", "mutation": "force_matrix_on_nuance"},
+    {"id": "AS-003", "target": "AC-004", "mutation": "decorative_chart_without_metrics"},
+    {"id": "AS-004", "target": "AC-008", "mutation": "force_visual_brief_on_tiny"},
+    {"id": "AS-005", "target": "AC-001", "mutation": "duplicate_representation_job"},
+    {"id": "AS-006", "target": "AC-004", "mutation": "drop_material_caveat"},
+    {"id": "AS-007", "target": "AC-004", "mutation": "imply_unsupported_certainty"},
+    {"id": "AS-008", "target": "BOUNDARY", "mutation": "invent_new_renderer"},
+    {"id": "AS-009", "target": "BOUNDARY", "mutation": "change_global_closeout"},
+    {"id": "AS-010", "target": "BOUNDARY", "mutation": "create_new_task"}
+  ]
+}

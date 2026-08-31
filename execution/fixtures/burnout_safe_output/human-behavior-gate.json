@@ -1,6 +1,14 @@
 {
   "schema_version": "burnout-safe-output-human-gate/v0.1",
   "purpose": "Blind human review of the compact presentation without inferring behavior success from structural tests.",
+  "revision_required": true,
+  "revision_reason": "The pilot won three comparisons and tied two, but the total presentation felt overengineered compared with the existing global Clear Depth and Three Contextual Next Prompts behavior. Narrow the pilot to artifact comprehension only.",
+  "preserve": [
+    "Global Clear Depth conversational output",
+    "Global Three Contextual Next Prompts",
+    "Full backend reasoning depth and initiative"
+  ],
+  "change": "Adapt the presentation inside substantial documents and artifacts to their information shape.",
   "required_example_count": 5,
   "examples": [
     {
@@ -16,8 +24,8 @@
         "top_rank_correct": null,
         "equal_recommendation_depth": null,
         "depth_preserved": null,
-        "preferred_variant": null,
-        "notes": null
+        "preferred_variant": "Y",
+        "notes": "Preferred Y. Overall pilot still requires refinement because the combined system feels overengineered."
       }
     },
     {
@@ -33,8 +41,8 @@
         "top_rank_correct": null,
         "equal_recommendation_depth": null,
         "depth_preserved": null,
-        "preferred_variant": null,
-        "notes": null
+        "preferred_variant": "TIE",
+        "notes": "Tie. Existing global output behavior should remain untouched."
       }
     },
     {
@@ -50,8 +58,8 @@
         "top_rank_correct": null,
         "equal_recommendation_depth": null,
         "depth_preserved": null,
-        "preferred_variant": null,
-        "notes": null
+        "preferred_variant": "Y",
+        "notes": "Preferred Y. Preserve the authority-conflict clarity without adopting the full presentation system."
       }
     },
     {
@@ -67,8 +75,8 @@
         "top_rank_correct": null,
         "equal_recommendation_depth": null,
         "depth_preserved": null,
-        "preferred_variant": null,
-        "notes": null
+        "preferred_variant": "X",
+        "notes": "Preferred X. The broader pilot treatment did not feel natural enough."
       }
     },
     {
@@ -84,8 +92,8 @@
         "top_rank_correct": null,
         "equal_recommendation_depth": null,
         "depth_preserved": null,
-        "preferred_variant": null,
-        "notes": null
+        "preferred_variant": "TIE",
+        "notes": "Tie. Do not reimplement or constrain the successful global three-prompt closeout."
       }
     }
   ]

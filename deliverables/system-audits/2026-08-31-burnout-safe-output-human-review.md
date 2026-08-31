@@ -1,6 +1,11 @@
 # Burnout-Safe Output v0.1 — Human Behavior Gate
 
-Status: **HUMAN GATE PENDING**
+Status: **SUPERSEDED / BEHAVIOR REFINEMENT REQUIRED**
+
+> Review completed: HBG-001 `Y`, HBG-002 `TIE`, HBG-003 `Y`, HBG-004 `X`,
+> HBG-005 `TIE`. Despite three pilot preferences and two ties, Farrice rejected
+> the overall shape as overengineered. This artifact is retained as historical
+> evidence only. Use the artifact-only v0.2 review surface instead.
 
 Review the variants without inspecting the implementation files first. For each example, choose `X`, `Y`, or `TIE`, then answer the five yes/no questions in the rating sheet.
 

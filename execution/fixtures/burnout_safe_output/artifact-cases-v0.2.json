@@ -1,0 +1,168 @@
+{
+  "schema_version": "artifact-comprehension/v0.2",
+  "required_fixture_count": 8,
+  "frozen_boundaries": {
+    "alters_global_clear_depth": false,
+    "alters_global_closeout": false,
+    "alters_ordinary_replies": false,
+    "creates_new_task": false,
+    "new_system_components": []
+  },
+  "cases": [
+    {
+      "id": "AC-001",
+      "artifact_type": "strategy memo",
+      "information_shape": "decision",
+      "decision_job": "Choose one owner while preserving the material tradeoffs.",
+      "activate": true,
+      "surface": "native_artifact",
+      "selected_representations": ["summary", "decision", "matrix"],
+      "representation_jobs": {
+        "summary": "State the verdict and why it matters.",
+        "decision": "Name the owner and immediate action.",
+        "matrix": "Compare the three routes on the same decision fields."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "mixed",
+      "certainty_claim": false,
+      "why_selection": "The decision is fast to grasp only when the verdict, owner, and repeated tradeoffs are separated.",
+      "detail_preservation": "The matrix retains the proof caveat and the prose below preserves the reasoning behind the recommendation.",
+      "example": "# Offer Direction\n\n## Verdict\nKeep one proof-led offer as the owner. Test message angles inside it rather than opening another offer lane.\n\n| Route | Revenue proximity | Proof risk | Decision |\n|---|---:|---:|---|\n| One owner, bounded angles | High | Low | Choose |\n| Three simultaneous offers | Low | High | Park |\n| More preparation | Low | Medium | Stop |\n\n## Next action\nRun one buyer-facing test. The demand assumption remains untested."
+    },
+    {
+      "id": "AC-002",
+      "artifact_type": "options brief",
+      "information_shape": "comparison",
+      "decision_job": "See material differences across candidates without rereading separate prose blocks.",
+      "activate": true,
+      "surface": "markdown",
+      "selected_representations": ["summary", "matrix"],
+      "representation_jobs": {
+        "summary": "Explain the comparison criterion and current constraint.",
+        "matrix": "Align repeated fields so differences are visible at a glance."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "verified",
+      "certainty_claim": true,
+      "why_selection": "A two-column comparison removes repeated sentences while keeping each option's buyer, deliverable, risk, and proof gate visible.",
+      "detail_preservation": "Source notes remain directly beneath the matrix so the compact comparison can be inspected rather than merely trusted.",
+      "example": "# Two Delivery Paths\n\nBoth paths are feasible; only one matches the current approval boundary.\n\n| Field | Native artifact | Client PDF |\n|---|---|---|\n| Best use | Internal iteration | Final external delivery |\n| Current permission | Yes | No |\n| Next move | Continue | Park |\n\n## Source notes\nThe user approved workspace-local artifacts and did not request an export."
+    },
+    {
+      "id": "AC-003",
+      "artifact_type": "recovery brief",
+      "information_shape": "chronology",
+      "decision_job": "Understand what changed, what superseded what, and where recovery should resume.",
+      "activate": true,
+      "surface": "native_artifact",
+      "selected_representations": ["summary", "timeline"],
+      "representation_jobs": {
+        "summary": "Name the current authority and recovery point.",
+        "timeline": "Show the sequence of decisions and supersessions."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "verified",
+      "certainty_claim": true,
+      "why_selection": "Sequence is the source of truth here, so a short timeline prevents an older artifact from silently becoming current.",
+      "detail_preservation": "Each timeline entry links back to its dated artifact and retains the reason the prior version was superseded.",
+      "example": "# Recovery Point\n\nThe August 31 contract is current. Resume from its artifact-only boundary.\n\n## Timeline\n1. August 29 — broad output system proposed.\n2. August 30 — conversational pilot built.\n3. August 31 — human verdict rejected the broad shape.\n4. August 31 — artifact-only v0.2 became the active candidate."
+    },
+    {
+      "id": "AC-004",
+      "artifact_type": "research brief",
+      "information_shape": "evidence",
+      "decision_job": "Connect each claim to its support, confidence, caveat, and practical implication.",
+      "activate": true,
+      "surface": "visual_brief",
+      "selected_representations": ["summary", "evidence", "caveats"],
+      "representation_jobs": {
+        "summary": "State what the evidence changes now.",
+        "evidence": "Keep claims, sources, confidence, and implications linked.",
+        "caveats": "Expose the weakest assumption next to the conclusion it limits."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "mixed",
+      "certainty_claim": false,
+      "why_selection": "Evidence rows shorten rereading while a dedicated caveat block prevents the compact surface from overstating what is known.",
+      "detail_preservation": "Full citations and source excerpts remain in the evidence layer, with the untested buyer-response assumption clearly preserved.",
+      "example": "# Demand Evidence\n\n## What changes\nCategory interest is supported; willingness to pay for this exact offer remains untested.\n\n| Claim | Support | Confidence | Implication |\n|---|---|---|---|\n| Buyers discuss the problem | Interview set | Verified | Continue |\n| They will buy this package | No payment event | Untested | Run a paid test |\n\n## Caveat\nAttention is not purchase behavior."
+    },
+    {
+      "id": "AC-005",
+      "artifact_type": "performance report",
+      "information_shape": "metrics",
+      "decision_job": "See movement and the one metric that changes the operating decision.",
+      "activate": true,
+      "surface": "visual_brief",
+      "selected_representations": ["stats", "bars", "caveats"],
+      "representation_jobs": {
+        "stats": "Show the exact outcome counts.",
+        "bars": "Make the relative funnel drop-off visible.",
+        "caveats": "Separate measured outcomes from missing evidence."
+      },
+      "has_comparable_metrics": true,
+      "evidence_support": "verified",
+      "certainty_claim": true,
+      "why_selection": "The values are genuinely comparable, and the bar view exposes the funnel break faster than a paragraph of percentages.",
+      "detail_preservation": "Exact counts stay visible beside the chart and absent collection data is labeled NO EVENT rather than estimated.",
+      "example": "# Weekly Revenue Signal\n\nSent **20** · Replies **4** · Calls **1** · Sold **0** · Collected **$0**\n\nSent      ████████████████████ 20\nReplies   ████ 4\nCalls     █ 1\nSold      0\n\n## Caveat\nThis shows activity and response, not validated revenue."
+    },
+    {
+      "id": "AC-006",
+      "artifact_type": "implementation plan",
+      "information_shape": "implementation",
+      "decision_job": "Execute the right sequence without losing dependencies or the stop boundary.",
+      "activate": true,
+      "surface": "native_artifact",
+      "selected_representations": ["summary", "playbook", "flow"],
+      "representation_jobs": {
+        "summary": "Name the end state and current stop boundary.",
+        "playbook": "Turn the work into inspectable completion steps.",
+        "flow": "Show the dependency that prevents premature promotion."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "verified",
+      "certainty_claim": true,
+      "why_selection": "The work is sequential and approval-gated, so a compact playbook plus dependency flow prevents skipped proof and accidental activation.",
+      "detail_preservation": "Each step retains its verifier and rollback note, while implementation details remain available under the corresponding step.",
+      "example": "# Shadow Pilot Plan\n\nEnd state: workspace proof, stopped before promotion.\n\n## Playbook\n1. Freeze the successful global behavior.\n2. Build artifact-only fixtures.\n3. Run negative controls.\n4. Collect human artifact ratings.\n\n## Flow\nFixtures → sabotage proof → human gate → explicit promotion decision\n\nStop before merge, hooks, or global activation."
+    },
+    {
+      "id": "AC-007",
+      "artifact_type": "positioning narrative",
+      "information_shape": "nuance",
+      "decision_job": "Preserve the argument's texture and qualifications without forcing false symmetry.",
+      "activate": true,
+      "surface": "markdown",
+      "selected_representations": ["prose", "caveats"],
+      "representation_jobs": {
+        "prose": "Carry the argument, voice, and causal logic.",
+        "caveats": "Keep the limiting condition visible without flattening the narrative."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "mixed",
+      "certainty_claim": false,
+      "why_selection": "The distinctions depend on sequence and tone, so prose communicates more accurately than a matrix or decorative diagram.",
+      "detail_preservation": "The limiting condition stays adjacent to the argument and the original evidence remains linked below the narrative.",
+      "example": "# Positioning Note\n\nThe opportunity is not to sound more technical. It is to make the buyer feel that the hard judgment has already been done without pretending uncertainty has disappeared. That requires clean language, visible proof boundaries, and enough texture to feel human.\n\n## Caveat\nThis is a positioning hypothesis until buyers respond."
+    },
+    {
+      "id": "AC-008",
+      "artifact_type": "short decision note",
+      "information_shape": "tiny",
+      "decision_job": "Record one decision without creating an artifact ceremony.",
+      "activate": false,
+      "surface": "markdown",
+      "selected_representations": ["prose"],
+      "representation_jobs": {
+        "prose": "State the decision and boundary in two sentences."
+      },
+      "has_comparable_metrics": false,
+      "evidence_support": "verified",
+      "certainty_claim": true,
+      "why_selection": "The information is already simple, so any table, diagram, or visual brief would increase rather than reduce cognitive load.",
+      "detail_preservation": "The short note includes the governing boundary and needs no additional representation or hidden detail layer.",
+      "example": "Keep the existing global closeout unchanged. The pilot applies only to substantial artifacts and remains workspace-local."
+    }
+  ]
+}

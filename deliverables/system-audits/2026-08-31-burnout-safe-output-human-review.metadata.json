@@ -1,8 +1,12 @@
 {
   "title": "Burnout-Safe Output v0.1 — Human Behavior Gate",
   "artifact_type": "human-review",
-  "status": "HUMAN GATE PENDING",
+  "status": "SUPERSEDED / BEHAVIOR REFINEMENT REQUIRED",
   "date": "2026-08-31",
   "source": "execution/fixtures/burnout_safe_output/human-behavior-gate.json",
-  "blind_comparisons": 5
+  "blind_comparisons": 5,
+  "pilot_preferences": 3,
+  "ties": 2,
+  "control_preferences": 0,
+  "superseded_by": "2026-08-31-artifact-comprehension-human-review.md"
 }
