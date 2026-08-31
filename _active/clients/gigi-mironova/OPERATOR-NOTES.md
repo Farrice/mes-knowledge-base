@@ -194,3 +194,21 @@ the team brand and out-execute it rather than importing an outside palette.
 
 Bodoni Moda has no Cyrillic, so Playfair italic takes the accent word on Russian slides
 only — same substitution pattern as v1, different faces.
+
+## v3 verdict pass (2026-08-31, same session)
+
+Farrice on v2: Bodoni italic at display scale unreadable; raw brand navy harsh; flat
+type-only composition below the First Home Valley floor; no visual enrichment. v3 keeps
+every fact and the Same Door concept, and rebuilds the skin on the floor grammar:
+
+- Numerals in Figtree 600 tabular — the Bodoni-numeral experiment is dead; Playfair
+  italic survives ONLY as the single accent word at headline scale (the floor'''s move).
+- Soft navy register derived from the brand, not raw: ink #2C4A68, band #243D56, paper
+  #FDFDFC. Logged in same-door/tokens.py.
+- Photography back in: palm-01 bleed (C1), table-math duo (C3), front-door duo w/ 1.16
+  crop (C6 — archival border trap again, caught in render), sunlight-window (R1),
+  balcony building (R2), archival palms (R3). Provenance rides with the v1 bank.
+- Her headshot now sits under the duo treatment on R4 — same grammar as every photo.
+- Ratio 4 photo story / 3 white structure across the carousel.
+
+Same artifact URL. v2'''s flat-type register survives only in git history.
