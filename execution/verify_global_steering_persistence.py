@@ -41,21 +41,26 @@ def run(args: list[str]) -> subprocess.CompletedProcess[str]:
 
 
 def check_global_agents() -> None:
+    """Verify the compact current global steering and execution contract.
+
+    Detailed closeout fields are renderer/end-session responsibilities.  The
+    global surface owns invocation policy and must not duplicate that schema.
+    """
     text = read(GLOBAL_AGENTS)
     require(
         "global AGENTS",
         text,
         [
-            "Persistent Per-Exchange Steering",
-            "not command-only behavior",
-            "At the end of every meaningful exchange",
-            "Do not omit this just because the user did not invoke a command",
-            "Insightful Momentum/frontier standard",
-            "Output/Capability Move",
-            "Operator Insight",
-            "Hidden Gap/Opportunity",
-            "Capability Revealed",
-            "Suggested skills/workflows",
+            "Three Contextual Next Prompts",
+            "After a meaningful response with a real next decision",
+            "exactly three",
+            "ranked, session-specific",
+            "If the best next action is safe, local, and already authorized, execute it",
+            "Compact Operator Lesson",
+            "Operator move:",
+            "Global Execution Bias Contract",
+            "Patch + Verify",
+            "system-audit",
         ],
     )
 

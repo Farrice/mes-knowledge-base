@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import json
+import importlib.util
+import shutil
 import sqlite3
 import subprocess
 import sys
@@ -115,16 +117,23 @@ def main() -> int:
         remaining = ci.synthesize(ledger_path=ledger)["candidates"]
         check(not any(event_ids[0] in row.get("event_ids", []) for row in remaining), "contradicted evidence cannot promote", failures)
 
+    if importlib.util.find_spec("pytest") is not None:
+        pytest_command = [sys.executable, "-m", "pytest"]
+    else:
+        pytest_executable = shutil.which("pytest")
+        pytest_command = [pytest_executable] if pytest_executable else []
+    check(bool(pytest_command), "pytest runner available", failures)
     tests = subprocess.run(
-        [sys.executable, "-m", "pytest", "tests/test_creative_intelligence.py", "tests/test_review_miner_trigger_events.py", "-q"],
+        [*pytest_command, "tests/test_creative_intelligence.py", "tests/test_review_miner_trigger_events.py", "-q"],
         cwd=ROOT,
         text=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         check=False,
-    )
-    print(tests.stdout.strip())
-    check(tests.returncode == 0, "focused test suite", failures)
+    ) if pytest_command else None
+    if tests is not None:
+        print(tests.stdout.strip())
+        check(tests.returncode == 0, "focused test suite", failures)
 
     print(f"\nVERDICT: {'PASS' if not failures else 'FAIL'} ({len(failures)} failure(s))")
     return 1 if failures else 0

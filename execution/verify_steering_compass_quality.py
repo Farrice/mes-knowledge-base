@@ -252,12 +252,18 @@ def check_global_bridge() -> None:
     if not GLOBAL_AGENTS.exists():
         fail(f"Missing global AGENTS: {GLOBAL_AGENTS}")
     text = GLOBAL_AGENTS.read_text(encoding="utf-8")
+    # The global bridge intentionally carries the compact current contract.
+    # Rich renderer fields remain verified below in the end-session skill and
+    # contextual_next_prompts.py; requiring them here fossilizes old headings.
     for needle in (
-        "Insightful Momentum",
-        "Operator Insight",
-        "Hidden Gap/Opportunity",
-        "Capability Revealed",
-        "do not compress the closeout into the legacy lightweight prompt shell",
+        "Three Contextual Next Prompts",
+        "exactly three",
+        "ranked, session-specific",
+        "If the best next action is safe, local, and already authorized, execute it",
+        "Compact Operator Lesson",
+        "Operator move:",
+        "Global Execution Bias Contract",
+        "Patch + Verify",
     ):
         if needle not in text:
             fail(f"Global AGENTS missing {needle!r}")

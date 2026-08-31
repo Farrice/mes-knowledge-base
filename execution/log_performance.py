@@ -110,6 +110,11 @@ def log_output(
     status: str = 'Keep',
     notes: str = '',
     experiment_tag: str = '',
+    lane: str = '',
+    source_artifact: str = '',
+    registration_source: str = '',
+    auto_confidence: Optional[float] = None,
+    review_state: str = '',
 ) -> dict:
     """Log a performance entry to the Performance Log database."""
     api = NotionAPI()
@@ -149,6 +154,9 @@ def log_output(
         'expert_standard': expert_standard,
         'adversarial_resilience': adversarial_resilience,
         'status': status, 'notes': notes, 'experiment_tag': experiment_tag,
+        'lane': lane, 'source_artifact': source_artifact,
+        'registration_source': registration_source,
+        'auto_confidence': auto_confidence, 'review_state': review_state,
     }
     try:
         page = api.create_page(PERFORMANCE_DB_ID, props)
