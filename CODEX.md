@@ -46,6 +46,27 @@ Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. U
 - Closeout steering uses `execution/contextual_next_prompts.py` and the `/steering-compass` contract to produce 3 Next Prompts: Use Now, Harden, and Expand. Each prompt should explain when to use it, why it is recommended, the copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows.
 - Focused transfer handoffs use `/handoff`; whole-session closeouts use `/end-session`. `/handoff` may create a disposable OS-temp handoff for another session, branch, tool, or agent, while `/end-session` captures session intelligence and continuity evidence.
 
+## Burnout-Safe Output Pilot (SHADOW v0.1)
+
+This branch evaluates a workspace-only presentation layer. Its source is
+`execution/fixtures/burnout_safe_output/contract-v0.1.md`. It extends Clear
+Depth and the Steering Compass; it does not replace their reasoning, routing,
+or recommendation metadata.
+
+- Use the fixed-label Command Card only after a material decision, state or
+  artifact change, context warning, or substantive closeout. Omit empty rows.
+- Keep `PROOF` visible whenever the card appears. Never infer an authority when
+  the proof state is `CONFLICT`.
+- Rank three substantive recommendations by the live context: protect the
+  outcome, close the consequential gap, then compound without derailing. The
+  visible titles name actual outcomes; all three retain equal reasoning depth.
+- Continue the existing task for one coherent outcome. AMBER creates an
+  in-task checkpoint, not a new task. RED preserves state and recommends a
+  split but never creates one without approval.
+- Treat this as `PILOT / SHADOW`. Structural checks are not behavior proof.
+  Promotion, merge, global activation, hook changes, and production-renderer
+  changes require separate approval.
+
 ## Deterministic Hook Layer (verified live-fire 2026-07-13, Codex CLI 0.144.3)
 
 `.codex/hooks.json` → `.codex/tools/codex_hook_runner.py` fires PHYSICALLY in this workspace — these gates are real on Codex, not advisory:
