@@ -340,14 +340,16 @@ BOARDS = [
         [head('fifteen dollars a month.<br>that&#8217;s the whole '
               '<span class="si">difference.</span>', 78),
          price_pair_dark(),
-         body("same one-bedroom in Reseda. renting it, or owning it at $319,999. "
-              "I'm the agent on both listings, so this isn't a what-if. swipe for "
-              "every line of the math.", True, 640)],
+         body("same apartment. same parking spot, same pool. I have it listed both ways "
+              "right now, so I'm not guessing at either number. here's how the second "
+              "one gets that low.", True, 640)],
         NAME, ADDR, "SWIPE — EVERY LINE OF IT", "1 / 6", gy=120, gx=-100)),
 
     ("C2", "C2 · The Math", lambda: structure(
         "15",
         [head('here is every dollar.<br>nothing <span class="si">rounded.</span>', 74),
+         body("twenty percent down at today's rate. taxes. insurance. and the one "
+              "line almost nobody sees coming.", False, 760),
          payment_ladder(),
          ('<div style="font-size:22px; line-height:1.5; color:%s; max-width:900px;">'
           'estimate, not a quote — 6.66%%: Freddie Mac avg 8/27/26 · tax est. 1.25%%'
@@ -360,10 +362,10 @@ BOARDS = [
         "477",
         [head('the fee that ambushes<br>first-time condo <span class="si">buyers.</span>', 70),
          hoa_covers(),
-         body("you tour the place. you love it. you've done the math on the price — "
-              "and then a fee you've never heard of shows up after you're already "
-              "attached. dues: $477 a month here. this is what they buy. nobody puts "
-              "it in the ad.", False, 800)],
+         body("there it is. $477 a month, and it's most of why those two numbers land so "
+              "close together. it isn't a trick — it's the pool, the gym, the water, "
+              "the building's insurance. it's just never in the ad. and once you can "
+              "see it, one more thing changes.", False, 800)],
         NAME, SERIES, "MOST BUYERS MEET THIS NUMBER AFTER THEY OFFER", "3 / 6",
         gy=430, foot_size=16)),
 
@@ -371,9 +373,10 @@ BOARDS = [
         "224",
         [head('rent leaves. <span class="si">$224</span> of<br>this payment stays.', 72),
          stat_ladder(),
-         body("every rent check is gone the day you send it. this payment keeps $224 "
-              "the first month — your money, parked in your own walls — and the kept "
-              "share grows every month after.", False, 800)],
+         body("every rent check is gone the day you send it. this one keeps $224 in the "
+              "first month, and a little more every month after. that's the piece that "
+              "changes the whole comparison — as long as the building itself is solid. "
+              "which you're allowed to check.", False, 800)],
         NAME, ADDR, "PRINCIPAL, MONTH ONE · BUILDING 12-MO · SFV APRIL 2026", "4 / 6",
         gy=430, foot_size=15)),
 
@@ -389,8 +392,9 @@ BOARDS = [
                 "seller."),
                ("the meeting notes",
                 "boards vote on new fees months before they land on your statement.")],
-              "you're allowed to read all three before you sign anything. most people "
-              "never find that out.")],
+              "all three, before you sign anything. most people never find that out. "
+              "I found out the slow way — I read documents like these for sixteen years "
+              "before I ever sold a house.")],
         NAME, SERIES, "THREE PAGES THAT PROTECT YOUR SAVINGS", "5 / 6")),
 
     ("C5RU", "C5 · Three Documents · RU", lambda: structure(
@@ -405,18 +409,18 @@ BOARDS = [
                ("протоколы собраний",
                 "новые взносы утверждают за месяцы до того, как они придут вам в "
                 "квитанции.")],
-              "вы имеете право прочитать все три документа до подписи. большинство об "
-              "этом просто не знает.")],
+              "все три — до подписи. большинство об этом просто не знает. я узнала об "
+              "этом медленным путём: шестнадцать лет читала такие документы ещё до того, "
+              "как продала первый дом.")],
         NAME, SERIES_RU, "ТОТ ЖЕ ВОПРОС, ДРУГОЙ ЯЗЫК", "5 / 6", ru=True)),
 
     ("C6", "C6 · CTA", lambda: story(
         "front-door-house-02", "duo", "50% 56%", "",
         [head('sixteen years in litigation<br>support before I ever<br>sold a '
               '<span class="si">house.</span>', 76),
-         body("before real estate, my job was reading legal documents. all day, for "
-              "sixteen years. now I do it for people making the biggest purchase of "
-              "their life. want the real numbers on this unit, in plain English or "
-              "по-русски? one message.", True, 700),
+         body("that's the whole job, really. someone reads the boring pages before you "
+              "sign them, and the numbers stop being a surprise. want the real ones on "
+              "this unit — in plain English or по-русски? one message.", True, 700),
          cta_button("DM ME “124”")],
         NAME, SERIES, NAME, "6 / 6", scale=1.16)),
 

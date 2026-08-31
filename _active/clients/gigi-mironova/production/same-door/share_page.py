@@ -188,8 +188,10 @@ BODY = """
   <div class="lede">
     <span class="caps">Film these · three reels</span>
     <h2>Scripts you can read off the phone</h2>
-    <p>Written to your register: clear plan, honest numbers, no sugarcoating. Each is
-       one continuous take, about thirty seconds. The cover is the first frame.</p>
+    <p>Each one is a single take, about thirty seconds, written the way you actually
+       talk: clear plan, honest numbers, no sugarcoating. They open on the surprise and
+       then earn it, so nobody has to wait through a setup. The cover is your first
+       frame.</p>
   </div>
   <div class="plates">
     <div class="pair">__R1__ __R2__</div>
@@ -213,12 +215,12 @@ BODY = """
   </div>
   <div class="script"><span class="caps">Reel 02 · The $477 · ~30s</span>
     <p>&#8220;Four hundred seventy-seven dollars a month, and it&#8217;s nowhere on the
-    listing. That&#8217;s the association dues on this building. It&#8217;s the number most condo
-    buyers never check until they already love the place. Pool, spa, gym, water, trash, the building&#8217;s insurance. Skip it, and your
-    monthly math is fiction. I read documents for a living for sixteen years before I got
-    my license, so this is the part I never skip. Shopping for any condo, mine included:
-    ask for the financials before you write. Message me 124 and I&#8217;ll send the exact
-    list to ask for.&#8221;</p>
+    listing. That&#8217;s the association dues here. It buys the pool, the gym, the water,
+    the trash, the building&#8217;s insurance, so it&#8217;s not a trick. But leave it out
+    of your math and the whole comparison falls apart, which is exactly what happens to
+    most first-time condo buyers. They find the number after they&#8217;ve already fallen
+    in love. So whatever you&#8217;re looking at, mine included, ask for the financials
+    before you write the offer. Message me 124 and I&#8217;ll send you the list.&#8221;</p>
   </div>
   <div class="plates" style="margin-top:34px;">
     <div class="pair">__R3__ __R4__</div>
@@ -261,9 +263,10 @@ BODY = """
   <div class="lede">
     <span class="caps">Post this week · two more carousels</span>
     <h2>Beyond the listing</h2>
-    <p>Two evergreen pieces so the feed builds your authority even when there is no
-       inventory to talk about. Sellers first, buyers second, each with its own keyword,
-       so every save can turn into a conversation.</p>
+    <p>Two pieces that keep working when there&#8217;s no inventory to post. Each one
+       walks a single argument from the first slide to the last, so nobody drops out
+       halfway. Sellers first, buyers second, each with its own keyword, so a save can
+       become a conversation.</p>
   </div>
 
   <div class="plates">
@@ -272,11 +275,13 @@ BODY = """
   <div class="lede" style="margin-top:40px;">
     <span class="caps">Caption · pick one · keyword NET</span>
     <div class="opts">
-      <div class="opt"><b>A</b> · Valley sellers got 99.6% of list in April. More than
-      half of them also credited a median $25,000 back at closing. The negotiation moved
-      somewhere the sale price your neighbor quotes will never show. Thinking about
-      selling? Ask for the net sheet before you ask for the list price. DM &#8220;NET&#8221;
-      and I&#8217;ll run yours. (SFV April 2026 closed sales, MLS compilation.)</div>
+      <div class="opt"><b>A</b> · Your neighbor sold for asking. They probably still wrote
+      a check. More than half of Valley sellers this spring handed money back at the
+      closing table, around $25,000 on average, and none of that shows up in the price
+      they tell you at the mailbox. So if you&#8217;re thinking about selling, ask what
+      you&#8217;d keep before you ask what you&#8217;d list for. DM &#8220;NET&#8221;
+      and I&#8217;ll put your number on one page. (SFV April 2026 closed sales, MLS
+      compilation.)</div>
       <div class="opt"><b>B</b> · The list price is a headline. The net sheet is the
       story. In April, over half of Valley sales carried a median $25,000 concession that
       no headline mentioned. Message me &#8220;NET&#8221; for yours, no listing agreement
@@ -290,11 +295,11 @@ BODY = """
   <div class="lede" style="margin-top:40px;">
     <span class="caps">Caption · pick one · keyword CLOCK</span>
     <div class="opts">
-      <div class="opt"><b>A</b> · Your offer got accepted. Three clocks just started:
-      17 days, 17 days, 21 days, all counted in calendar days, weekends included. Miss a
-      removal date and a protection you negotiated stops protecting you. Save this for
-      your next offer, and DM &#8220;CLOCK&#8221; if you want your deadline calendar
-      built before you write.</div>
+      <div class="opt"><b>A</b> · The day your offer gets accepted, three deadlines start
+      running and nobody hands you the dates. Seventeen days, seventeen days,
+      twenty-one. Calendar days, so weekends count against you. None of it is scary once
+      someone shows it to you, which takes about ten minutes. Save this for your next
+      offer, and DM &#8220;CLOCK&#8221; if you want yours mapped before you write.</div>
       <div class="opt"><b>B</b> · The C.A.R. contract gives you three protections, and
       every one of them expires on a schedule. Slide two is the schedule. DM
       &#8220;CLOCK&#8221; and I&#8217;ll date every deadline for your exact timeline,
@@ -304,13 +309,14 @@ BODY = """
 
   <div class="script"><span class="caps">Film today · talking head, one take, no
   b-roll · keyword DOCS</span>
-    <p>&#8220;Sixteen years in litigation support. Research, analysis, negotiation.
-    Reading the documents nobody else wanted to read. Then I got my real estate license
-    and noticed something. The tour is the easy part. The part that protects you, or
-    doesn&#8217;t, lives in the paperwork: HOA financials, disclosures, board minutes,
-    contingency deadlines. I never skip that part, because I did it for sixteen years
-    before I ever showed a home. If you want an agent who reads what you&#8217;re
-    signing, in English or in Russian, message me the word DOCS.&#8221;</p>
+    <p>&#8220;For sixteen years my job was reading the documents nobody else wanted to
+    read. Litigation support. Research, analysis, the fine print. Then I got my real
+    estate license, and the first thing I noticed was that everyone spends the whole
+    time on the tour. But the tour isn&#8217;t what protects you. The paperwork is. The
+    HOA financials, the disclosures, the board minutes, the deadlines. So that&#8217;s
+    the part I never rush, because I already spent sixteen years there. If you want
+    someone who actually reads what you&#8217;re signing, in English or in Russian,
+    message me the word DOCS.&#8221;</p>
   </div>
 </div></section>
 

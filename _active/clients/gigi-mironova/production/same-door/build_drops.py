@@ -66,9 +66,9 @@ def clock_columns():
             % (T.INK if lead else T.HAIRLINE, T.INK if lead else T.MUTED, num,
                T.MUTED, label, T.MUTED))
     return ('<div style="display:flex; gap:24px;">%s</div>' % "".join(cells)) + B.body(
-        "all three are C.A.R. defaults, and all three are negotiable. they count in "
-        "calendar days — saturdays and sundays sit inside the number, not on top of it.",
-        False, 800)
+        "these are the standard defaults, and yes, they're negotiable. they also count "
+        "in calendar days, weekends included. which matters more than it sounds, "
+        "because of when they start.", False, 800)
 
 
 DROPS = [
@@ -76,18 +76,19 @@ DROPS = [
     ("D1", "D1 · Net Hook", lambda: B.story(
         "balcony-plants-apartment-02", "duo", "50% 60%", "25",
         [B.head('your neighbor sold for<br>asking. they still wrote a<br>$25,000 <span class="si">check.</span>', 68),
-         B.body("more than half the Valley homes that sold this spring handed money "
-                "back at the closing table. it never shows up in the price everyone "
-                "quotes. swipe.", True, 660)],
+         B.body("more than half the Valley homes that sold this spring handed money back "
+                "at the closing table. so the number they told you and the number they "
+                "kept aren't the same number.", True, 660)],
         B.NAME, S_NET, "SWIPE — WHERE THE NEGOTIATION WENT", "1 / 5")),
 
     ("D2", "D2 · Two Numbers", lambda: B.structure(
         "52",
         [B.head('the sale price is public.<br>the check is <span class="si">private.</span>', 70),
          two_stat(),
-         B.body("money handed back at closing — for repairs, for the buyer's costs, to "
-                "buy down their rate — never shows up on Zillow. so the street looks "
-                "stronger than your own sale might feel. the quiet median: $25,000.", False, 800)],
+         B.body("repairs, the buyer's closing costs, a lower rate for them. all of it comes "
+                "off your side, and none of it shows up on Zillow. that's why the street "
+                "can look stronger than your own sale feels. and the price isn't the only "
+                "number that hides.", False, 800)],
         B.NAME, S_NET, "SFV APRIL 2026 · 556 CLOSED SALES, MLS COMPILATION", "2 / 5",
         gy=430, foot_size=15)),
 
@@ -96,9 +97,9 @@ DROPS = [
         [B.head('"her place sold in a week.<br>why is mine still '
                 '<span class="si">sitting?"</span>', 62),
          days_pair(),
-         B.body("same street, same month, wildly different endings. the difference is "
-                "rarely luck — it's pricing, prep, and the story the listing tells, all "
-                "decided before the sign ever goes up.", False, 800)],
+         B.body("same street, same month, completely different endings. that's rarely luck. "
+                "it's pricing, prep, and how the listing is told — decided before the "
+                "sign goes up. and all of it lands on one number nobody leads with.", False, 800)],
         B.NAME, S_NET, "SAME SOURCE — THE SPLIT INSIDE THE AVERAGE", "3 / 5",
         gy=430, foot_size=16)),
 
@@ -114,18 +115,17 @@ DROPS = [
                  ("after everything, what hits my account?",
                   "price minus give-backs, fees, and payoff. the number nobody leads "
                   "with.")],
-                "I put all three on one page — a net sheet — free, before you decide "
-                "anything at all.")],
+                "I put all three on one page before you decide anything. it's called a net "
+                "sheet, it's free, and it's the first thing I'd want if it were my house.")],
         B.NAME, S_NET, "THREE QUESTIONS FOR ANY AGENT, ME INCLUDED", "4 / 5")),
 
     ("D5", "D5 · Net CTA", lambda: B.story(
         "sunlight-through-window-floor-00", "bleed", "50% 44%", "",
         [B.head('want the honest number,<br>not the flattering '
                 '<span class="si">one?</span>', 72),
-         B.body("send me your address. I'll show you what would actually land in "
-                "your account — price, likely give-backs, fees, all of it, one page. "
-                "no listing agreement. I spent sixteen years reading fine print; I'd "
-                "rather you know.", True, 700),
+         B.body("send me your address and I'll put the real number on one page. price, "
+                "likely give-backs, fees, what actually lands. no listing agreement, no "
+                "pressure. I'd rather you know early than find out at the table.", True, 700),
          B.cta_button("DM ME “NET”")],
         B.NAME, S_NET, B.NAME, "5 / 5")),
 
@@ -133,8 +133,8 @@ DROPS = [
     ("K1", "K1 · Clock Hook", lambda: B.story(
         "roofline-sky-00", "bleed", "50% 78%", "17",
         [B.head('three deadlines started<br>the day you signed. nobody<br>hands you the <span class="si">dates.</span>', 64),
-         B.body("they are already running. most first-time buyers find out when one "
-                "is nearly gone. ninety seconds here, so that's never you.", True, 660)],
+         B.body("they're already running. most first-time buyers find out when one has "
+                "nearly run out. so here they are, all three, in about ninety seconds.", True, 660)],
         B.NAME, S_CLOCK, "SWIPE — THE PART NOBODY EXPLAINS", "1 / 5")),
 
     ("K2", "K2 · Three Clocks", lambda: B.structure(
@@ -156,8 +156,8 @@ DROPS = [
                  ("your deposit moves in the first 3 days",
                   "1–3% of the price, wired to a neutral account while everything else "
                   "is still sinking in.")],
-                "none of this is scary once you can see it. it's only dangerous when "
-                "nobody shows you the clock.")],
+                "none of this is scary once somebody shows it to you. it's only dangerous "
+                "in the dark. so here's what the buyers who stay calm actually do.")],
         B.NAME, S_CLOCK, "HOW THE COUNTING ACTUALLY WORKS", "3 / 5")),
 
     ("K4", "K4 · The Move", lambda: B.structure(
@@ -170,17 +170,17 @@ DROPS = [
                  ("never let a deadline pass quietly",
                   "giving up a protection is a signature you choose, not a date that "
                   "slips by.")],
-                "I build this calendar for my buyers the day the offer is drafted — "
-                "while heads are still clear.")],
+                "I build this calendar for my buyers the day we draft the offer, while "
+                "everyone's head is still clear. it takes about ten minutes.")],
         B.NAME, S_CLOCK, "SAVE THIS FOR YOUR NEXT OFFER", "4 / 5")),
 
     ("K5", "K5 · Clock CTA", lambda: B.story(
         "palm-tree-sunset-city-00", "duo", "50% 46%", "",
         [B.head('want your deadlines<br>mapped before you '
                 '<span class="si">offer?</span>', 70),
-         B.body("message me and I'll build the clock for your exact timeline — in "
-                "plain English or по-русски. I read fine print for sixteen years "
-                "before I ever held a license. now it works for you.", True, 700),
+         B.body("message me and I'll map your dates before you write anything, in plain "
+                "English or по-русски. ten minutes now saves the conversation nobody "
+                "wants to have later.", True, 700),
          B.cta_button("DM ME “CLOCK”")],
         B.NAME, S_CLOCK, B.NAME, "5 / 5", scale=1.18)),
 ]
