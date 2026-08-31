@@ -1,0 +1,629 @@
+{
+  "schema_version": "burnout-safe-output/v0.1",
+  "pilot_name": "Burnout-Safe Output",
+  "required_fixture_count": 18,
+  "allowed_proof_states": [
+    "VERIFIED",
+    "LIKELY",
+    "UNCONFIRMED",
+    "UNTESTED",
+    "NO EVENT",
+    "CONFLICT"
+  ],
+  "cases": [
+    {
+      "id": "BSO-001",
+      "category": "tiny-answer",
+      "prompt": "Did the file save?",
+      "material_event": false,
+      "real_next_decision": false,
+      "body": "Yes. The file saved successfully.",
+      "card": null,
+      "recommendations": []
+    },
+    {
+      "id": "BSO-002",
+      "category": "correction",
+      "prompt": "Correction: the approved option was C, not B.",
+      "material_event": false,
+      "real_next_decision": false,
+      "body": "Corrected: C is the approved option. I will use C from here forward.",
+      "card": null,
+      "recommendations": []
+    },
+    {
+      "id": "BSO-003",
+      "category": "mechanical-confirmation",
+      "prompt": "Use the same filename.",
+      "material_event": false,
+      "real_next_decision": false,
+      "body": "Understood. I will keep the existing filename.",
+      "card": null,
+      "recommendations": []
+    },
+    {
+      "id": "BSO-004",
+      "category": "major-decision",
+      "prompt": "Approve the workspace-only shadow pilot architecture.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The pilot should prove behavior in isolation before it earns any wider authority.",
+      "card": {
+        "verdict": "Use a branch-local instruction shadow plus deterministic behavior tests.",
+        "state": {"tag": "READY", "text": "The architecture is bounded and ready to build."},
+        "why_it_matters": "It tests real behavior without creating a second control plane.",
+        "proof": {"state": "VERIFIED", "text": "The current lane is isolated and the prior pilot remains unmerged."},
+        "what_changed": "The pilot will use one workspace authority pointer and no hook.",
+        "use_this": "The v0.1 shadow contract in this branch.",
+        "context_health": {"level": "GREEN", "text": "The objective and boundaries remain coherent."},
+        "next_action": {"owner": "CODEX", "text": "Build the fixtures and verifier, then stop at human review."}
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Prove the isolated behavior before promotion",
+          "priority": "Protect outcome",
+          "why_now": "The main risk is mistaking file presence for behavior change.",
+          "operator_insight": "A shadow system earns authority from observed use, not from a clean implementation receipt.",
+          "hidden_gap": "The earlier Clear Depth pilot passed structure while its human behavior gate remained unresolved.",
+          "capability": "Run deterministic fixtures and live human-rated examples in one isolated lane.",
+          "prompt": "Run the complete shadow-pilot verification and show every structural, sabotage, and human-gate result without promoting it.",
+          "expected_output": "A computed pilot status with exact failures, preserved controls, and the next bounded repair.",
+          "quality_bar": "No false green, no global claim, and no behavior pass inferred from files.",
+          "skip_if": "Skip only if the pilot is intentionally being abandoned."
+        },
+        {
+          "title": "Resolve the one behavior gap that changes usability",
+          "priority": "Close consequential gap",
+          "why_now": "Structural success is insufficient until the compact surface feels easier to use.",
+          "operator_insight": "The highest-value refinement is the one that reduces decoding without deleting decision-changing nuance.",
+          "hidden_gap": "Automated checks cannot judge whether the first thirty seconds feel clear, tiring, or shallow.",
+          "capability": "Use a five-example taste test with explicit readability and recommendation-quality questions.",
+          "prompt": "Present the five human behavior examples blind, capture my ratings, and repair only the lowest failing criterion.",
+          "expected_output": "A behavior verdict tied to my ratings and a narrow revision target if anything fails.",
+          "quality_bar": "All five examples are actionable quickly and preserve depth on demand.",
+          "skip_if": "Skip if I have already rated the current exact examples."
+        },
+        {
+          "title": "Turn the winning presentation into a reusable local default",
+          "priority": "Compound without derailing",
+          "why_now": "Only a proven pilot should become a reusable workspace behavior.",
+          "operator_insight": "Compounding comes after protection and proof; otherwise the system scales an untested preference.",
+          "hidden_gap": "A successful branch still needs a promotion boundary, cold-start proof, and rollback receipt.",
+          "capability": "Prepare a workspace-only promotion packet without merging or touching global Codex.",
+          "prompt": "After behavior passes, prepare the workspace promotion diff, cold-start smoke test, and rollback command for approval.",
+          "expected_output": "A promotion packet showing exact touched files, behavior evidence, and reversible activation steps.",
+          "quality_bar": "Promotion remains separately approved and introduces no new router, hook, or task surface.",
+          "skip_if": "Skip while any behavior example or frozen control is failing."
+        }
+      ]
+    },
+    {
+      "id": "BSO-005",
+      "category": "artifact-delivery",
+      "prompt": "Deliver the approved client brief and identify the current version.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The client brief is ready for review, and its authority is unambiguous.",
+      "card": {
+        "verdict": "The client brief is ready for the final claim review.",
+        "state": {"tag": "READY", "text": "The artifact is complete except for approval-sensitive claims."},
+        "why_it_matters": "A reviewer can act without searching through historical drafts.",
+        "proof": {"state": "VERIFIED", "text": "The current file rebuilt cleanly and the superseded draft is labeled."},
+        "what_changed": "The proof notes and current-authority label were added.",
+        "use_this": "Client Brief v3 — Current Review Copy.",
+        "context_health": {"level": "GREEN", "text": "One artifact and one review decision remain active."},
+        "next_action": {"owner": "FARRICE", "text": "Approve or revise the two highlighted claims."},
+        "need_from_you": "Your claim-risk judgment on the highlighted language."
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Clear the two claim-risk decisions",
+          "priority": "Protect outcome",
+          "why_now": "Those claims are the only remaining release risk.",
+          "operator_insight": "A finished-looking artifact is not releasable when the highest-consequence language still lacks owner judgment.",
+          "hidden_gap": "Clean formatting can disguise unresolved evidence and permission boundaries.",
+          "capability": "Run a bounded claim review that separates verified support from owner-approved positioning.",
+          "prompt": "Review the two highlighted claims, show the evidence boundary for each, and give me approve, soften, or remove choices.",
+          "expected_output": "A two-row claim decision table with support, risk, and recommended wording.",
+          "quality_bar": "No stronger claim than the evidence supports and no silent owner decision.",
+          "skip_if": "Skip if both claims have already received explicit approval."
+        },
+        {
+          "title": "Produce the final client review copy",
+          "priority": "Close consequential gap",
+          "why_now": "The client needs one clean artifact after the claim decisions land.",
+          "operator_insight": "Authority becomes usable when the final decision is absorbed into one clearly named review surface.",
+          "hidden_gap": "Leaving approved changes in comments creates another competing version.",
+          "capability": "Apply the approved decisions and verify current-versus-superseded artifact labeling.",
+          "prompt": "Apply my claim decisions to Client Brief v3, verify the current-authority label, and return only the review-ready artifact plus receipt.",
+          "expected_output": "One current client brief and a concise verification receipt.",
+          "quality_bar": "No unresolved comments, no duplicate current copy, and no historical draft presented as active.",
+          "skip_if": "Skip until the claim decisions are complete."
+        },
+        {
+          "title": "Extract a reusable claim-review pattern",
+          "priority": "Compound without derailing",
+          "why_now": "The same evidence boundary is likely to recur in future client work.",
+          "operator_insight": "A reusable pattern should preserve judgment points, not automate consequential claims.",
+          "hidden_gap": "Without a small reuse hook, future briefs will repeat the same authority and claim-risk work.",
+          "capability": "Capture the successful review sequence as a narrow template and regression fixture.",
+          "prompt": "After release approval, extract the claim-review sequence into a reusable workspace template with one positive and one negative fixture.",
+          "expected_output": "A compact template, two fixtures, and a named human approval checkpoint.",
+          "quality_bar": "The template accelerates review without making claim decisions automatically.",
+          "skip_if": "Skip if this claim pattern is unique and unlikely to recur."
+        }
+      ]
+    },
+    {
+      "id": "BSO-006",
+      "category": "system-audit",
+      "prompt": "Audit the shadow pilot without touching global Codex.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The workspace behavior is testable; global drift remains outside this repair.",
+      "card": {
+        "verdict": "Continue the local pilot and freeze the unrelated global verifier failure.",
+        "state": {"tag": "IN PROGRESS", "text": "Workspace implementation is active; global parity is a recorded baseline issue."},
+        "why_it_matters": "The pilot can prove its own behavior without silently expanding scope.",
+        "proof": {"state": "VERIFIED", "text": "Workspace authority passes while the global end-session bridge fails its pre-existing language check."},
+        "what_changed": "The global failure was classified as baseline evidence, not a pilot defect.",
+        "use_this": "The workspace-specific pilot checker and branch diff.",
+        "context_health": {"level": "GREEN", "text": "The local objective remains isolated and reviewable."},
+        "next_action": {"owner": "CODEX", "text": "Finish the local fixture and sabotage suite."}
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Preserve the baseline failure boundary",
+          "priority": "Protect outcome",
+          "why_now": "An unrelated red verifier can contaminate the pilot verdict if it is not frozen.",
+          "operator_insight": "No-regression means comparing against the starting state, not demanding that an isolated pilot repair every inherited defect.",
+          "hidden_gap": "A broad verifier can fail for global surfaces that this branch is forbidden to edit.",
+          "capability": "Record baseline failures and separately prove workspace-local checks.",
+          "prompt": "Keep the global steering failure as a named baseline exception and verify that the pilot changes no global or hook surface.",
+          "expected_output": "A before-and-after verifier table with inherited failures clearly separated from pilot results.",
+          "quality_bar": "No inherited failure is reported as fixed, introduced, or ignored without evidence.",
+          "skip_if": "Skip only if the global verifier becomes green independently before final verification."
+        },
+        {
+          "title": "Complete the behavior-specific regression suite",
+          "priority": "Close consequential gap",
+          "why_now": "The local pilot still needs rejection-path proof.",
+          "operator_insight": "A response contract is trustworthy only when plausible bypasses fail for the right reason.",
+          "hidden_gap": "Positive fixtures alone cannot detect empty rows, shallow recommendations, or authority guessing.",
+          "capability": "Run paired positive and negative controls against the same validation functions.",
+          "prompt": "Complete all 24 sabotage mutations and show that each is rejected by the intended rule.",
+          "expected_output": "A named list of caught bypasses with zero unexpected passes.",
+          "quality_bar": "Every sabotage case fails deterministically and no safe fixture becomes blocked.",
+          "skip_if": "Skip if the sabotage suite already passes from a clean run."
+        },
+        {
+          "title": "Prepare a cold-start workspace smoke test",
+          "priority": "Compound without derailing",
+          "why_now": "A future session must reproduce the behavior without this conversation.",
+          "operator_insight": "Cold-start replay is the difference between a durable local default and hidden chat context.",
+          "hidden_gap": "Current-session compliance may come from remembered discussion rather than the workspace pointer.",
+          "capability": "Create a fresh-session prompt and expected response markers without opening a new task automatically.",
+          "prompt": "Prepare a cold-start smoke prompt and expected markers for a future workspace task, but do not create the task.",
+          "expected_output": "One copy-ready smoke prompt, expected labels, and explicit pass or fail conditions.",
+          "quality_bar": "The prompt relies only on workspace authority and does not leak this task's hidden context.",
+          "skip_if": "Skip until the current structural and human gates are complete."
+        }
+      ]
+    },
+    {
+      "id": "BSO-007",
+      "category": "proof-unconfirmed",
+      "prompt": "Is the new offer definitely the current offer?",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The available evidence is not strong enough to name a current offer.",
+      "card": {
+        "verdict": "Do not treat the new offer as current yet.",
+        "state": {"tag": "BLOCKED", "text": "Authority cannot be confirmed from the available files."},
+        "why_it_matters": "Choosing now could revive a stale offer.",
+        "proof": {"state": "UNCONFIRMED", "text": "No explicit current-authority marker was found."},
+        "context_health": {"level": "GREEN", "text": "The question is clear; only authority evidence is missing."},
+        "next_action": {"owner": "FARRICE", "text": "Identify the approved offer or authorize an authority audit."},
+        "need_from_you": "The last offer decision you consider binding."
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-008",
+      "category": "no-event",
+      "prompt": "Did outreach produce replies or sales?",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "No verified outreach event or commercial response is present.",
+      "card": {
+        "verdict": "Do not count preparation as traction.",
+        "state": {"tag": "IN PROGRESS", "text": "The offer is prepared but commercial validation has not occurred."},
+        "why_it_matters": "The next decision should be based on buyer behavior, not asset completion.",
+        "proof": {"state": "NO EVENT", "text": "No sent, reply, call, sold, or collected evidence is recorded."},
+        "context_health": {"level": "GREEN", "text": "The commercial objective remains coherent."},
+        "next_action": {"owner": "FARRICE", "text": "Approve outreach when ready; Codex will not send without permission."}
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-009",
+      "category": "authority-conflict",
+      "prompt": "Which LinkedIn offer file should we use?",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The workspace contains competing authority signals, so selecting a file would be a guess.",
+      "card": {
+        "verdict": "Pause selection until the authority conflict is resolved.",
+        "state": {"tag": "BLOCKED", "text": "Multiple files currently claim the same authority slot."},
+        "why_it_matters": "Using the wrong file could revive a superseded offer.",
+        "proof": {"state": "CONFLICT", "text": "The front-door audit reports competing versions and multiple current claims."},
+        "what_changed": "The conflict is now explicit instead of silently resolved by recency.",
+        "context_health": {"level": "RED", "text": "Preserve current files, pause selection, and use a separate authority decision before continuing."},
+        "next_action": {"owner": "FARRICE", "text": "Choose the binding offer decision after Codex presents the conflict set."},
+        "need_from_you": "Your authority decision after reviewing the competing candidates."
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Resolve the current-offer authority conflict",
+          "priority": "Protect outcome",
+          "why_now": "Every downstream artifact depends on selecting the correct offer.",
+          "operator_insight": "Recency is not authority when several files claim to be current.",
+          "hidden_gap": "The workspace needs a decision lineage, not another inferred winner.",
+          "capability": "Build a concise conflict set with dates, claims, and supersession evidence.",
+          "prompt": "Show me only the competing offer candidates, their authority claims, and the decision needed to select the binding one.",
+          "expected_output": "A small authority comparison with no automatic winner.",
+          "quality_bar": "Every candidate is source-linked and no file is promoted without my decision.",
+          "skip_if": "Skip if an explicit binding authority record is found."
+        },
+        {
+          "title": "Repair the selected artifact lineage",
+          "priority": "Close consequential gap",
+          "why_now": "The approved choice must become unambiguous for future sessions.",
+          "operator_insight": "A decision is durable only when the winning artifact and displaced versions both carry the change.",
+          "hidden_gap": "Promoting one file without labeling the others leaves the same conflict available to the next task.",
+          "capability": "Apply current and superseded markers with a preservation-first authority receipt.",
+          "prompt": "After I choose, mark the selected offer current, label displaced versions superseded, and verify the front door no longer conflicts.",
+          "expected_output": "One current offer, explicitly superseded records, and a clean authority audit.",
+          "quality_bar": "No deletion, no lost history, and exactly one current authority claim.",
+          "skip_if": "Skip until I select the binding offer."
+        },
+        {
+          "title": "Add the conflict pattern to artifact regression tests",
+          "priority": "Compound without derailing",
+          "why_now": "This authority failure is likely to recur across offers and client assets.",
+          "operator_insight": "The reusable lesson is detecting competing claims, not enforcing one naming convention everywhere.",
+          "hidden_gap": "Without a negative control, future cleanup can recreate the conflict while still looking organized.",
+          "capability": "Turn the real conflict into a deterministic authority fixture.",
+          "prompt": "After resolution, add this competing-authority pattern as a negative fixture and prove the checker rejects silent selection.",
+          "expected_output": "A regression fixture that fails whenever conflict is hidden or guessed through.",
+          "quality_bar": "The fixture catches authority ambiguity without blocking legitimate dated history.",
+          "skip_if": "Skip if the conflict is proven unique and cannot recur."
+        }
+      ]
+    },
+    {
+      "id": "BSO-010",
+      "category": "routine-refinement",
+      "prompt": "Tighten the approved brief without changing its strategy.",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The refinement preserves the approved strategy and can become the current copy automatically.",
+      "card": {
+        "verdict": "Promote the tightened copy as the current brief.",
+        "state": {"tag": "COMPLETE", "text": "The routine refinement is finished and authority remains clear."},
+        "why_it_matters": "Future work can use the improved copy without another approval ceremony.",
+        "proof": {"state": "VERIFIED", "text": "The strategy, audience, claims, and deliverable scope are unchanged."},
+        "what_changed": "Sentence clarity and repetition improved; strategy did not change.",
+        "use_this": "The tightened current brief.",
+        "context_health": {"level": "GREEN", "text": "The same coherent outcome remains active."},
+        "next_action": {"owner": "CODEX", "text": "Use the tightened brief for subsequent work."}
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-011",
+      "category": "strategic-candidate",
+      "prompt": "Replace the approved buyer with a broader market.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "This changes strategy, so the broader market remains a candidate rather than silently becoming current.",
+      "card": {
+        "verdict": "Keep the approved buyer current and hold the broader market as a candidate.",
+        "state": {"tag": "PENDING APPROVAL", "text": "The strategic alternative is prepared but not promoted."},
+        "why_it_matters": "Silent promotion would alter the offer, proof requirements, and acquisition path.",
+        "proof": {"state": "UNTESTED", "text": "The broader market has not passed demand or delivery-fit validation."},
+        "what_changed": "A strategic candidate now exists alongside the approved buyer.",
+        "use_this": "The approved funded health and performance buyer remains current.",
+        "context_health": {"level": "AMBER", "text": "Keep the alternative as an in-task checkpoint because it could dilute the current commercial test."},
+        "next_action": {"owner": "FARRICE", "text": "Choose whether to test, park, or reject the broader-market candidate."},
+        "need_from_you": "Your strategic decision on whether the candidate deserves a bounded test."
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Protect the approved buyer test",
+          "priority": "Protect outcome",
+          "why_now": "The current revenue signal becomes unreadable if the buyer changes mid-test.",
+          "operator_insight": "A broader market can feel expansive while actually destroying the comparability of the active offer test.",
+          "hidden_gap": "The candidate has no evidence that its larger audience improves purchase behavior.",
+          "capability": "Preserve the current test and isolate the alternative as a bounded hypothesis.",
+          "prompt": "Keep the approved buyer current and write the broader market as a separate hypothesis with a clear non-interference boundary.",
+          "expected_output": "One protected current buyer and one explicitly unapproved candidate hypothesis.",
+          "quality_bar": "No current asset or outreach plan changes before a deliberate decision.",
+          "skip_if": "Skip if I explicitly replace the current buyer now."
+        },
+        {
+          "title": "Design the smallest market-comparison test",
+          "priority": "Close consequential gap",
+          "why_now": "The strategic choice needs buyer evidence rather than preference alone.",
+          "operator_insight": "The useful comparison is payment behavior under matched conditions, not category size or enthusiasm.",
+          "hidden_gap": "The candidate lacks a matched promise, delivery scope, and response threshold.",
+          "capability": "Build a bounded A/B demand-test packet without launching it.",
+          "prompt": "Design a matched buyer test for the approved niche and broader candidate, including promise, channel, threshold, and stop rule; do not publish or send.",
+          "expected_output": "A two-cell demand test with comparable inputs and precommitted decision thresholds.",
+          "quality_bar": "The test can distinguish buyer response without changing the active offer prematurely.",
+          "skip_if": "Skip if I do not want to spend attention testing the broader market."
+        },
+        {
+          "title": "Map the broader market as a later expansion lane",
+          "priority": "Compound without derailing",
+          "why_now": "The idea may still be valuable after the current offer earns proof.",
+          "operator_insight": "Parking an expansion with a retrieval hook preserves upside without stealing focus.",
+          "hidden_gap": "Unstructured parking makes the idea either disappear or repeatedly interrupt current work.",
+          "capability": "Create one deduplicated candidate record tied to a future trigger.",
+          "prompt": "Park the broader-market candidate with its rationale, evidence gap, and the exact trigger that should resurface it after the current test.",
+          "expected_output": "One retrievable candidate record with a future activation condition.",
+          "quality_bar": "The candidate remains visible without creating a new active task or competing current artifact.",
+          "skip_if": "Skip if I reject the candidate outright."
+        }
+      ]
+    },
+    {
+      "id": "BSO-012",
+      "category": "superseded-artifact",
+      "prompt": "Use the old AI-boom offer because it has more detail.",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The detailed file is historical and explicitly superseded, so it must not regain authority silently.",
+      "card": {
+        "verdict": "Do not use the superseded offer as the current source.",
+        "state": {"tag": "READY", "text": "A current source exists and the historical file remains available for reference."},
+        "why_it_matters": "More detail does not outweigh an explicit supersession decision.",
+        "proof": {"state": "VERIFIED", "text": "The historical file points to the current original and elevated versions."},
+        "use_this": "The explicitly named current offer version.",
+        "context_health": {"level": "GREEN", "text": "Authority is clear after honoring the supersession marker."},
+        "next_action": {"owner": "CODEX", "text": "Use historical detail only as reference and preserve current strategy."}
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-013",
+      "category": "context-green",
+      "prompt": "Continue refining the same approved deliverable.",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The work remains inside one objective and one authority chain.",
+      "card": {
+        "verdict": "Continue in the existing task.",
+        "state": {"tag": "IN PROGRESS", "text": "The approved deliverable is advancing without context drift."},
+        "why_it_matters": "Staying in one task preserves decision lineage and reduces retrieval work.",
+        "proof": {"state": "VERIFIED", "text": "No competing objective, source conflict, or authority change is present."},
+        "use_this": "The current task and approved deliverable.",
+        "context_health": {"level": "GREEN", "text": "Continue without a checkpoint or split."},
+        "next_action": {"owner": "CODEX", "text": "Complete the next approved refinement here."}
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-014",
+      "category": "context-amber",
+      "prompt": "While revising this offer, let's also redesign the whole content system.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The content-system tangent is related but beginning to dilute the offer revision.",
+      "card": {
+        "verdict": "Checkpoint the tangent and finish the offer revision in this task.",
+        "state": {"tag": "IN PROGRESS", "text": "The primary outcome remains viable with a bounded checkpoint."},
+        "why_it_matters": "Capturing the idea preserves it without forcing another session or losing the current decision chain.",
+        "proof": {"state": "LIKELY", "text": "The new request expands scope beyond the active deliverable but does not yet conflict with source truth."},
+        "what_changed": "The content-system idea was recorded as an in-task checkpoint.",
+        "use_this": "The current offer-revision task remains primary.",
+        "context_health": {"level": "AMBER", "text": "Scope dilution is emerging; no interruption or new task is needed yet."},
+        "next_action": {"owner": "CODEX", "text": "Finish the offer revision, then resurface the checkpoint."}
+      },
+      "expected_rank": ["Protect outcome", "Close consequential gap", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Finish the active offer decision first",
+          "priority": "Protect outcome",
+          "why_now": "The offer revision is closest to a decision and most vulnerable to dilution.",
+          "operator_insight": "A tangent becomes expensive when it interrupts the decision chain, not merely when it is a different topic.",
+          "hidden_gap": "The offer still needs its final proof and buyer-fit decision before expansion is useful.",
+          "capability": "Keep the current task hot while storing one compact checkpoint for the adjacent idea.",
+          "prompt": "Finish the current offer revision using the approved buyer and proof boundaries; keep the content-system idea as one checkpoint only.",
+          "expected_output": "A finished offer decision plus a preserved one-paragraph tangent checkpoint.",
+          "quality_bar": "No new task, no competing artifact, and no lost content-system idea.",
+          "skip_if": "Skip if I explicitly make the content system the new primary objective."
+        },
+        {
+          "title": "Close the remaining offer-proof gap",
+          "priority": "Close consequential gap",
+          "why_now": "The active offer becomes usable when its proof boundary is explicit.",
+          "operator_insight": "Finishing one decision creates a better foundation for the adjacent system than carrying two half-decisions.",
+          "hidden_gap": "The current draft still mixes evidence-backed claims with positioning assumptions.",
+          "capability": "Run a bounded proof audit on only the current offer.",
+          "prompt": "Audit the current offer for its single highest-consequence proof gap and repair only that gap before closeout.",
+          "expected_output": "One prioritized proof repair and a clear current-offer verdict.",
+          "quality_bar": "The repair changes the decision or claim boundary without broadening scope.",
+          "skip_if": "Skip if the proof boundary is already verified."
+        },
+        {
+          "title": "Convert the checkpoint into a later system brief",
+          "priority": "Compound without derailing",
+          "why_now": "The tangent may deserve its own coherent container after the offer closes.",
+          "operator_insight": "A good split happens at an objective boundary, not at every interesting thought.",
+          "hidden_gap": "The adjacent idea currently lacks an outcome, owner, and activation trigger.",
+          "capability": "Prepare a fresh-task packet without creating the task.",
+          "prompt": "After the offer closes, turn the content-system checkpoint into a concise fresh-task brief with objective, source truth, and first action; do not create it yet.",
+          "expected_output": "A retrievable task packet ready for explicit approval.",
+          "quality_bar": "The packet is self-contained and does not duplicate the current offer task.",
+          "skip_if": "Skip if the checkpoint no longer matters after the offer decision."
+        }
+      ]
+    },
+    {
+      "id": "BSO-015",
+      "category": "context-red",
+      "prompt": "Replace the client offer with a new product and overwrite the current files.",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The objective changed and continuing would risk overwriting the approved client offer.",
+      "card": {
+        "verdict": "Preserve the current offer and pause the replacement.",
+        "state": {"tag": "BLOCKED", "text": "The new product is a materially different objective."},
+        "why_it_matters": "Overwriting now would destroy authority and decision lineage.",
+        "proof": {"state": "CONFLICT", "text": "The proposed product changes the buyer, deliverable, and source-of-truth slot."},
+        "what_changed": "The replacement request was classified as a separate objective.",
+        "context_health": {"level": "RED", "text": "Preserve state, pause, and recommend a split."},
+        "next_action": {"owner": "FARRICE", "text": "Approve a separate task or explicitly replace the current objective."},
+        "need_from_you": "Your decision between preserving the client offer and replacing it deliberately."
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-016",
+      "category": "existing-task-first",
+      "prompt": "Save this insight without creating another session.",
+      "material_event": true,
+      "real_next_decision": false,
+      "body": "The insight belongs to the current outcome and can stay inside this task.",
+      "card": {
+        "verdict": "Capture an in-task checkpoint; do not create a new task.",
+        "state": {"tag": "IN PROGRESS", "text": "Continuity is preserved inside the existing task."},
+        "why_it_matters": "The idea remains retrievable without adding sidebar or file sprawl.",
+        "proof": {"state": "VERIFIED", "text": "The insight supports the same objective and requires no isolated execution lane."},
+        "what_changed": "A compact checkpoint was added to the current decision chain.",
+        "use_this": "The existing task remains the retrieval home.",
+        "context_health": {"level": "GREEN", "text": "One coherent outcome remains active."},
+        "next_action": {"owner": "CODEX", "text": "Continue the current work and resurface the checkpoint when relevant."}
+      },
+      "recommendations": []
+    },
+    {
+      "id": "BSO-017",
+      "category": "rank-close-gap-first",
+      "prompt": "The draft is safe but has never been tested with a real buyer.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "There is no immediate preservation risk; the highest-leverage move is closing the missing buyer-evidence gap.",
+      "card": {
+        "verdict": "Validate the offer before expanding the system around it.",
+        "state": {"tag": "READY", "text": "The draft is coherent and safe for a bounded test."},
+        "why_it_matters": "Buyer response can change the offer decision; more infrastructure cannot.",
+        "proof": {"state": "UNTESTED", "text": "No buyer reply, deposit, sale, or payment event exists."},
+        "use_this": "The current bounded offer test draft.",
+        "context_health": {"level": "GREEN", "text": "The objective is clear and ready for validation planning."},
+        "next_action": {"owner": "FARRICE", "text": "Approve external testing before Codex sends or publishes anything."}
+      },
+      "expected_rank": ["Close consequential gap", "Protect outcome", "Compound without derailing"],
+      "recommendations": [
+        {
+          "title": "Design the smallest buyer-response test",
+          "priority": "Close consequential gap",
+          "why_now": "Real buyer behavior is the missing evidence most likely to change the decision.",
+          "operator_insight": "Preparation becomes valuable only when it creates a clean path to replies, deposits, or payments.",
+          "hidden_gap": "The offer has no precommitted response threshold or matched outreach sample.",
+          "capability": "Build a bounded demand-test packet while respecting the external-action approval boundary.",
+          "prompt": "Prepare a ten-prospect buyer-response test with message, qualification rule, success threshold, and stop condition; do not send it.",
+          "expected_output": "A ready-to-approve test packet tied to replies, calls, sold, and collected evidence.",
+          "quality_bar": "The test can falsify the offer without requiring a campaign or new system.",
+          "skip_if": "Skip if a comparable real buyer test already exists."
+        },
+        {
+          "title": "Freeze the offer variables during validation",
+          "priority": "Protect outcome",
+          "why_now": "Changing the buyer, promise, and channel together would make the test unreadable.",
+          "operator_insight": "A small test is only informative when the offer variables remain stable long enough to interpret behavior.",
+          "hidden_gap": "The current draft lacks a named preservation lock for the validation window.",
+          "capability": "Create a test-period lock covering buyer, promise, deliverable, price hypothesis, and proof boundary.",
+          "prompt": "Create a one-page validation lock for the current offer so only evidence-backed changes occur during the buyer test.",
+          "expected_output": "A compact lock naming fixed variables, allowed changes, and the review date.",
+          "quality_bar": "The test remains interpretable without blocking legitimate factual corrections.",
+          "skip_if": "Skip if the validation variables are already explicitly frozen."
+        },
+        {
+          "title": "Prepare the reusable acquisition system later",
+          "priority": "Compound without derailing",
+          "why_now": "A repeatable system becomes worthwhile only after the offer shows a signal.",
+          "operator_insight": "Automation should scale a working commercial motion, not conceal the absence of one.",
+          "hidden_gap": "There is no proof yet that this message and buyer deserve a reusable pipeline.",
+          "capability": "Define a conditional system brief that activates only after the test threshold is met.",
+          "prompt": "Draft a conditional acquisition-system brief that activates only if the buyer test reaches its precommitted threshold.",
+          "expected_output": "A parked system brief with trigger, components, and explicit no-build condition.",
+          "quality_bar": "No automation work starts before a real commercial signal.",
+          "skip_if": "Skip if the offer test fails or the motion will remain intentionally manual."
+        }
+      ]
+    },
+    {
+      "id": "BSO-018",
+      "category": "rank-compound-first",
+      "prompt": "The workflow has passed repeated use and no material gap remains.",
+      "material_event": true,
+      "real_next_decision": true,
+      "body": "The outcome is protected and proven, so the highest-leverage move is now careful reuse.",
+      "card": {
+        "verdict": "Package the proven workflow as a reusable workspace asset.",
+        "state": {"tag": "COMPLETE", "text": "The current workflow passed repeated use and regression checks."},
+        "why_it_matters": "Reuse can now save time without scaling an untested behavior.",
+        "proof": {"state": "VERIFIED", "text": "Three independent runs passed with no material regression or owner confusion."},
+        "use_this": "The verified workflow and its current regression set.",
+        "context_health": {"level": "GREEN", "text": "The original outcome is complete and stable."},
+        "next_action": {"owner": "CODEX", "text": "Prepare the smallest reusable package for approval."}
+      },
+      "expected_rank": ["Compound without derailing", "Protect outcome", "Close consequential gap"],
+      "recommendations": [
+        {
+          "title": "Package the proven workflow for cold-start reuse",
+          "priority": "Compound without derailing",
+          "why_now": "The behavior has enough proof to justify a reusable local surface.",
+          "operator_insight": "The right time to package is after repeated success reveals the stable core and allowed variation.",
+          "hidden_gap": "The workflow still depends on the current session knowing its source paths and review boundary.",
+          "capability": "Create a thin reuse packet with exact inputs, outputs, proof, and a cold-start prompt.",
+          "prompt": "Package the verified workflow into the smallest workspace-local reusable asset with source paths, allowed variation, verifier, and cold-start prompt.",
+          "expected_output": "A compact reusable packet and a successful cold-start replay check.",
+          "quality_bar": "No duplicate router, no mega-skill, and no dependence on hidden chat context.",
+          "skip_if": "Skip if the workflow will not recur."
+        },
+        {
+          "title": "Preserve the regression boundary during packaging",
+          "priority": "Protect outcome",
+          "why_now": "Packaging can accidentally flatten the specialist judgment that made the workflow work.",
+          "operator_insight": "A reusable default should encode the shared foundation while leaving the last-mile craft decision with its owner.",
+          "hidden_gap": "The current proof does not yet test whether a compressed packet preserves exception handling.",
+          "capability": "Run the existing positive and negative cases against the packaged form.",
+          "prompt": "Replay the strongest positive case and the hardest negative case against the packaged workflow, then report any lost judgment boundary.",
+          "expected_output": "A no-regression comparison between the proven workflow and its reusable package.",
+          "quality_bar": "The package preserves specialist depth, recovery steps, and approval boundaries.",
+          "skip_if": "Skip only if the package is byte-for-byte identical to the proven source."
+        },
+        {
+          "title": "Close the remaining retrieval gap",
+          "priority": "Close consequential gap",
+          "why_now": "A reusable asset still fails if future sessions cannot find the correct current version.",
+          "operator_insight": "Retrieval is part of capability: authority and naming must survive beyond the build session.",
+          "hidden_gap": "The package lacks a semantic retrieval title and explicit current-authority marker.",
+          "capability": "Add one retrieval label and authority record without creating another dashboard.",
+          "prompt": "Give the packaged workflow a semantic retrieval title, current-authority marker, and one exact start prompt; do not create a new task.",
+          "expected_output": "A findable current asset with one unambiguous entry point.",
+          "quality_bar": "Future sessions can locate and use it without browsing historical versions.",
+          "skip_if": "Skip if the existing retrieval home already resolves uniquely."
+        }
+      ]
+    }
+  ]
+}
