@@ -112,3 +112,85 @@ a series name or a tagline.
 The deck is the pitch. Send the concept first with no ask attached, let her react, and let
 her raise money before Farrice does. The offer only reads as generous if it arrives after
 she already wants the thing.
+
+---
+
+# v2 — "Same Door" (2026-08-31)
+
+Supersedes the oxblood escrow concept. That one stays live at
+<https://claude.ai/code/artifact/fa7d387e-50ec-456e-9584-a73cd257d69d> for comparison;
+v2 is <https://claude.ai/code/artifact/595f01a0-e79c-47ee-9148-19442b475c14>.
+
+## Two premises died on contact with research
+
+1. **"Two of her listings are on disk."** They are not hers. 6853 Willis is *Jen's*
+   co-listing with Marty Azoulay; Gigi reposted it as team inventory. 1654 Moonseed also
+   sits under `jen-listings/`. Neither has a single photograph in the repo — only briefs
+   and shoot sheets. The one photo set that does exist (5200 Armida, 57 CRMLS-watermarked
+   frames) is also Jen's, and is a third property again.
+2. **Her book is not million-dollar SFV single-family.** Her actual active listings, from
+   her own brokerage page: **all three are the same Reseda building.** Unit 124 at
+   $319,999 (1bd/1ba, 619 sqft, MLS SR26183330), unit 124 again at $2,500/mo, and unit 208
+   at $2,400/mo. The seller-concession spine from the demand brief would have marketed a
+   business she does not have.
+
+## What replaced them
+
+**She is the listing agent on the same unit twice — for rent at $2,500 and for sale at
+$319,999.** That is the concept. It is hers exclusively, it is true today, and no
+competitor can post it.
+
+**And the differentiator was in her own bio all along:** *"a distinguished 16-year tenure
+in the litigation support business… research, analysis, and negotiation… navigating
+complex legal landscapes and mitigating risks."* Her words, published by Equity Union.
+For a **condo** purchase — the most document-heavy transaction in residential real estate
+— that is an uncontested credential. Gary Rapoport does not have it. It is also earned
+rather than asserted, which the v1 Russian positioning never was.
+
+Russian is now one translated pillar (C5RU, R3). Correct demotion.
+
+## Facts on the slides
+
+VERIFIED: unit 124 at $319,999 / 619 sqft / 2 parking / listing agent Gulnara Mironova;
+unit 124 at $2,500/mo and unit 208 at $2,400/mo (her Equity Union agent page); her
+DRE 02025393; the 16-year litigation-support bio (her own published words); building
+comps currently $309,000–$399,999.
+
+LIKELY, labelled on the artwork: building 12-month average sale $393,000 and average 82
+days on market (hellocondo aggregation); SFV median $1,034,250 (one agent's compilation of
+April 2026 closed sales).
+
+**NOT asserted anywhere, deliberately: the HOA dollar figure.** It could not be verified —
+every listing portal 403s or omits it, and the one published figure ($2/sqft/month) is
+implausible for Reseda. **So the carousel makes the missing number the story instead of
+guessing it**, which is both honest and stronger: it is the exact question that generates
+the DM, and answering it is her literal professional skill. Get the real figure from her
+before any version claims owning costs less than renting. **The rent-vs-own math is on no
+slide and must not be added without it.**
+
+Also UNCONFIRMED and therefore avoided: year built (1990 vs 1991 across sources), unit
+count (132 vs 83), storey count (1 vs 4), and **her Instagram handle** — two accounts
+surfaced (@gigimironova_realestate from the first session, @gigi__mironova from search).
+The boards carry her name and DRE instead. Confirm the handle before anything ships.
+
+## Imagery — the honest position
+
+There is still no photograph of her listing. Portals are bot-blocked, and MLS photos are
+not ours to publish in an artifact regardless. So the deck is **type-led and data-led on
+purpose**: her real numbers at scale, her real face, the brokerage's own type system, and
+one explicit drop-in slot (L1) for the unit photography she already holds rights to as the
+listing agent. That is a better answer than a CC0 palm tree, not a smaller one.
+
+**Her headshot is real** — pulled from her own Equity Union profile at 512×512. Because it
+is only 512px it is used at 430px inside a treated block rather than full-bleed. Ask her
+for the original resolution.
+
+## Design
+
+Equity Union's actual brand, sampled not guessed: navy #174579 / #0F2D4F, steel #687994,
+HouseSellers lockup #0C4071, Jost (their own declared Futura fallback, and it carries
+Cyrillic) with Bodoni Moda as the display serif. Farrice's call, 2026-08-31: build inside
+the team brand and out-execute it rather than importing an outside palette.
+
+Bodoni Moda has no Cyrillic, so Playfair italic takes the accent word on Russian slides
+only — same substitution pattern as v1, different faces.

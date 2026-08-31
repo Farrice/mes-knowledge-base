@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,400;1,6..96,500&family=Playfair+Display:ital,wght@1,400;1,500&display=swap">
+  <style>
+  body { margin:0; }
+  .frame { width:1080px; height:1350px; position:relative; overflow:hidden;
+           font-family:'Jost','Futura','Avenir Next',sans-serif; box-sizing:border-box; }
+  .light { background:#FFFFFF; color:#174579; }
+  .dark  { background:#0F2D4F;  color:#FFFFFF; }
+
+  /* the accent word. Bodoni is the brokerage serif; Russian slides fall to Playfair,
+     which is the closest high-contrast face that actually ships cyrillic. */
+  .si    { font-family:'Bodoni Moda',Didot,Georgia,serif; font-style:italic;
+           font-weight:500; }
+  .ru .si { font-family:'Playfair Display',Georgia,serif; }
+  .light .si { color:#4A6E96; }
+  .dark .si  { color:#AFC5DC; }
+
+  .caps  { font-weight:500; letter-spacing:0.26em; text-transform:uppercase; }
+  .h     { font-weight:600; letter-spacing:-0.015em; }
+  .num   { font-family:'Bodoni Moda',Didot,Georgia,serif; font-weight:500;
+           font-variant-numeric:tabular-nums; line-height:0.92; }
+
+  .photo { position:absolute; inset:0; z-index:0; overflow:hidden; }
+  .photo > img { width:100%; height:100%; object-fit:cover; display:block; }
+  .tint  { position:absolute; inset:0; background:#0F2D4F; mix-blend-mode:multiply; }
+  .lift  { position:absolute; inset:0; background:#C9D9EC; mix-blend-mode:screen; }
+  .duo > img { filter:grayscale(1) contrast(1.12) brightness(0.9); }
+  .duo .tint { opacity:0.88; }
+  .duo .lift { opacity:0.12; }
+
+  .pad   { position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
+           box-sizing:border-box; padding:64px 72px; justify-content:space-between; }
+  .rule  { display:flex; justify-content:space-between; align-items:baseline;
+           padding-bottom:22px; }
+  .foot  { display:flex; justify-content:space-between; align-items:baseline; }
+  .ghost { position:absolute; font-family:'Bodoni Moda',Didot,Georgia,serif;
+           font-weight:500; font-size:700px; line-height:0.8; z-index:0; }
+</style>
+</helmet>
+<div class="frame dark ru">
+<div class="ghost" style="right:-58px; top:300px; color:rgba(255,255,255,0.20);">124</div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.32);"><div class="caps" style="font-size:20px;">ОДНА И ТА ЖЕ ДВЕРЬ</div><div class="caps" style="font-size:20px; opacity:0.72;">REEL · 03</div></div><div style="flex:1; display:flex; flex-direction:column; gap:46px; justify-content:center; padding:20px 0 26px;"><div class="h" style="font-size:72px; line-height:1.13;">$2,500 — снять.<br>$319,999 — купить.<br>одна и та же <span class="si">дверь.</span></div></div><div class="foot"><div class="caps" style="font-size:19px; color:rgba(255,255,255,0.76);">GIGI MIRONOVA · DRE 02025393</div><div class="si" style="font-size:29px; opacity:0.85;">▶</div></div></div>
+</div>
+</x-dc>
+</body>
+</html>
