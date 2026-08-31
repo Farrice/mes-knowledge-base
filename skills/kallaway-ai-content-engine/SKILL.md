@@ -3,6 +3,7 @@ name: kallaway-ai-content-engine
 description: Accelerates content production 3-5x using Kallaway's Transactional-Creative Split — automate transactional work (research, outlier mining, hook clustering, scripting structure, analytics) while preserving creative work (unique take, perspective choice, voice, emotional calibration) for humans. Governing metric is Research-to-Reaction Ratio (target 80% AI research / 20% human reaction). Use when scaling content output without losing authenticity, when content production feels like grunt work, when AI is producing technically-correct-but-flavorless content, or when the user mentions "scale content with AI", "AI content engine", "use AI without sounding AI". Trigger proactively when the user describes manual research bottlenecking creative output OR when AI-generated drafts are losing the "sauce" — the Transactional-Creative Split diagnoses both failure modes.
 expert: Kallaway
 domain: AI-Augmented Content Production Infrastructure
+workflows: 5
 ---
 
 # Kallaway AI-Enabled Content Engine — SKILL.md
@@ -34,7 +35,7 @@ All workflows in this domain automate the transactional while protecting the cre
 
 Required boundary fields: `evidence_class`, `data_maturity_state`, `cohort_role`, `engagement_rate`, `signal_hygiene`, and `rejection_reasons`. `PUBLIC_PROXY` can discover candidates; it cannot prove demand, conversion, or revenue.
 
-## Workflows (4)
+## Workflows (5)
 
 ### Tier 1 — Foundation
 | Workflow | Slash Command | What It Does |
@@ -51,6 +52,7 @@ Required boundary fields: `evidence_class`, `data_maturity_state`, `cohort_role`
 | Workflow | Slash Command | What It Does |
 |----------|--------------|-------------|
 | `ai-content-operations` | `/ai-content-ops` | AI workflows integrated into team/pod content operations at scale |
+| `trend-hook-radar` | `/kallaway-trend-hook-engine` | Compliant signal intake, outlier scoring, hook-pattern clustering, and creative-reaction handoff |
 
 ## Stacking Chains
 This domain is designed to power every other Kallaway skill:

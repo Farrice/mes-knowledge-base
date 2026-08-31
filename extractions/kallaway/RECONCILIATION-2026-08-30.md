@@ -54,9 +54,9 @@ The producer assigns `PUBLIC_PROXY` and leaves cohort role `UNCLASSIFIED`. It co
 Run from repository root:
 
 ```bash
+.venv/bin/python3 execution/verify_kallaway_skill_system.py
 .venv/bin/python3 extractions/kallaway/validation/verify_outlier_radar.py
 .venv/bin/python3 extractions/kallaway/validation/verify_lead_magnet_bakes.py
-python3 execution/skill_contract_test.py skills/growth-blueprint-os
 python3 execution/export_format_guard.py extractions/kallaway/RECONCILIATION-2026-08-30.md
 ```
 
@@ -66,6 +66,7 @@ The historical live receipt is preserved under `extractions/kallaway/validation/
 
 | Check | Result |
 |---|---|
+| Connected source → skills → commands → proof completion verifier | PASS |
 | Python syntax for retained execution and verifier files | PASS |
 | Signal-pack v2 contract, maturity states, 2% hygiene, and sabotage rejection | PASS — 14/14 |
 | Lead-magnet full, exclusion/backfill, degraded, and enriched fixture bakes | PASS — 43/43 |
@@ -78,3 +79,13 @@ The historical live receipt is preserved under `extractions/kallaway/validation/
 The Jay Sun negative control is present in the pre-merge `HEAD` indexes and absent from this merge's changed-path set.
 
 The final main reconciliation preserved both later authority-density work and the parked signal-pack v2/Growth Blueprint build. Their overlap was resolved at the Content OS routing seam: authority density owns qualified-authority judgment; signal-pack v2 owns evidence maturity and proxy hygiene; Growth Blueprint owns client strategy artifacts.
+
+## Function-Complete Surface
+
+- **Source truth:** transcript, timestamped ledger, 23 inspected frames, uncertainty limits, mastery extraction, and skill-system contract.
+- **Research engine:** 5 workflows and 5 born-v2 prompts in `kallaway-ai-content-engine`.
+- **Content conductor:** 2 orchestration workflows and 10 born-v2 prompts in `kallaway-content-operating-system`.
+- **Client strategy product:** 10 callable workflows in `growth-blueprint-os`, including intake and enrichment operations, plus 6 born-v2 prompts for the six judgment-heavy client deliverables.
+- **Runtime seam:** signal-pack v2 carries evidence class, cohort role, maturity state, engagement hygiene, and rejection reasons from collection into topic judgment and downstream artifacts.
+- **Proof:** cold-start behavior comparison, false-positive rejection, format-only transfer, proxy-inflation negative control, authority-density sabotage tests, and full/degraded/enriched lead-magnet fixtures.
+- **Invocation:** literal `/ai-topic-mining` resolves to `/ai-topic-mining-engine`; incidental mentions retain normal semantic routing.

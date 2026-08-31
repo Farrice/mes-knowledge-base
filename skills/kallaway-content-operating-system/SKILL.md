@@ -3,7 +3,7 @@ name: "Kallaway Content Operating System"
 description: "Orchestrates the full Kallaway content stack from source-backed strategy into topic, format, substance, hook, script, edit, obsession, word craft, and monetization."
 version: "1.0"
 format: "skill-system"
-workflows: 1
+workflows: 2
 routing: long-tail
 ---
 

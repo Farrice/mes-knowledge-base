@@ -8,6 +8,7 @@ The source was integrated as an additive control layer inside the existing Kalla
 
 | Check | Result | Receipt |
 |---|---|---|
+| Connected completion | PASS | `execution/verify_kallaway_skill_system.py` checks source, contracts, 17 workflows, 21 prompts, command bridges, signal-pack v2, literal routing, cold-start behavior, and sabotage suites. |
 | Source package | PASS | 1,203 transcript segments, 17,664 cleaned words, 11 spoken ledger rows, 23 visually inspected frames. |
 | Skill-system contract | PASS | `execution/verify_skill_system_contract.py` returned PASS. |
 | Source grounding | PASS | Strict grounding checks passed for `analysis.md` and `proof/cold-start-output.md`. |
@@ -22,12 +23,13 @@ The source was integrated as an additive control layer inside the existing Kalla
 
 - **PASS**: Prompt-library search resolves the updated `AI Topic Mining Report` as the top exact-match surface.
 - **PASS**: Natural workflow candidates place `ai-topic-mining-engine` first for a Kallaway outlier/cohort request.
-- **PARTIAL**: The governor's final choice can still prefer `ai-creative-reaction-sprint` when the query contains “creative reaction,” and a health-performance phrasing can prefer a broader content engine even when `/ai-topic-mining` is written literally. No routing mutation was made because this build's owner was the existing Kallaway skill system, not the global routing control plane.
+- **PASS**: Literal `/ai-topic-mining` resolves deterministically to `/ai-topic-mining-engine` across the command menu and workflow router.
+- **PRESERVED**: Incidental mentions and broader requests still use semantic routing; the alias does not hijack unrelated content-engine work.
 
 ## Known Validator Limitations
 
 - The archived behavior-changing verifier computes its root as `execution/`, so it reports active root-level files as missing and also requires historical Sam Parr artifacts. It fails before evaluating this package.
-- The generic legacy skill validator expects `references/genius-patterns.md`; `kallaway-ai-content-engine` predates that layout and uses canonical `genius.md`. Registration passes, but that validator reports the pre-existing layout as critical.
+- The generic legacy skill validator expects `references/genius-patterns.md` and ignores `references/prompts-v2/`; the Kallaway completion verifier checks the current canonical `genius.md` + prompts-v2 layout directly.
 - The prose classifier flags extraction reports with repeated pattern tables and proof matrices. These are internal evidence artifacts, not publishable voice content; grounding and factual boundaries are the applicable gates.
 
 ## Evidence Boundary
