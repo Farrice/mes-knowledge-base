@@ -9,7 +9,7 @@ portrait='data:image/jpeg;base64,'+base64.b64encode(photo).decode()
 
 html=f'''<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="{T.FONTS}">
 <style>{T.CSS}</style><div class="frame light">
-<div class="door-mark"></div><div class="pad">
+<div class="pad">
   <div class="rule" style="border-bottom:1px solid {T.HAIRLINE}">
     <div class="caps" style="font-size:20px">GIGI MIRONOVA · VISUAL CHARACTER</div>
     <div class="caps" style="font-size:20px;color:{T.MUTED}">THE CALM CLOSER</div>
@@ -32,7 +32,7 @@ html=f'''<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="{T.FO
   </div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
     <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:{T.ACCENT}">VOICE</div><div class="h" style="font-size:34px;line-height:1.16;margin-top:16px">plain English.<br>exact numbers.<br>no performance.</div></div>
-    <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:{T.ACCENT}">SIGNATURES</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:{T.MUTED}">door arches<br>evidence cards<br>document tabs<br>one clay marker</div></div>
+    <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:{T.ACCENT}">SIGNATURES</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:{T.MUTED}">evidence cards<br>document tabs<br>receipt rules<br>one clay marker</div></div>
     <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:{T.ACCENT}">NEVER</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:{T.MUTED}">script type<br>generic luxury<br>decorative stock<br>unverified math</div></div>
   </div>
   <div class="foot"><div class="caps" style="font-size:18px;color:{T.MUTED}">HOUSESELLERS BLUE · HUMAN WARMTH · DOCUMENT-LITERATE</div><div class="caps" style="font-size:18px;color:{T.MUTED}">V4</div></div>

@@ -5,8 +5,8 @@
 Facts unchanged from v2 (all trace to ../../DEMAND-BRIEF.md and OPERATOR-NOTES.md § v2).
 Rebuilt after Farrice's 2026-08-31 verdict: readable Figtree numerals instead of Bodoni
 flare, soft navy instead of raw brand navy, and the First Home Valley composition —
-photography-led story slides, dense white structure slides, ghost numerals — instead of
-flat type boards.
+photography-led story slides and dense white structure slides instead of flat type boards.
+The final restraint pass removes ornamental arches and ghost numerals entirely.
 
 Imagery: unit 124's live MLS photography (SR26183330), recovered from Gigi's own
 Equity Union listing syndication on 2026-08-31. Every story image now proves the
@@ -38,18 +38,13 @@ def embed(p):
 def photo(name, treatment, pos="50% 50%", scale=1.0):
     """Layer stack over one cover-fit image. Framing inline per slide — never global
     (the reference deck's one global scale silently cropped every other image)."""
-    layers = ('<div class="tint"></div><div class="lift"></div><div class="panel"></div>'
+    layers = ('<div class="tint"></div><div class="scrim"></div>'
               if treatment == "duo" else
               '<div class="tint" style="opacity:0.44"></div><div class="scrim"></div>'
-              '<div class="panel"></div>')
+              )
     tf = "" if scale == 1.0 else " transform:scale(%s);" % scale
     return ('<div class="photo %s"><img alt="" style="object-position:%s;%s" src="%s.jpg">%s</div>'
             % (treatment, pos, tf, name, layers))
-
-
-def ghost(n, right, top, dark):
-    return ('<div class="ghost" style="right:%spx; top:%spx; color:%s;">%s</div>'
-            % (right, top, T.D_GHOST if dark else T.GHOST, n))
 
 
 def rule(left, right, dark):
@@ -98,9 +93,7 @@ def frame(cls, inner, ru=False):
 def story(img_name, treatment, pos, g, mid, top_l, top_r, foot_l, foot_r,
           ru=False, gy=210, gx=-64, scale=1.0):
     """Full-bleed photograph; type carries the data, photo carries place and moment."""
-    inner = photo(img_name, treatment, pos, scale) + '<div class="door-mark"></div>'
-    if g:
-        inner += ghost(g, gx, gy, True)
+    inner = photo(img_name, treatment, pos, scale)
     inner += ('<div class="pad">%s'
               '<div style="display:flex; flex-direction:column; gap:36px;">%s</div>'
               '%s</div>' % (rule(top_l, top_r, True), "".join(mid),
@@ -110,8 +103,7 @@ def story(img_name, treatment, pos, g, mid, top_l, top_r, foot_l, foot_r,
 
 def structure(g, mid, top_l, top_r, foot_l, foot_r, ru=False, gy=170, foot_size=18):
     """White ground; the densest layouts in the deck — the white is the luxury."""
-    inner = '<div class="door-mark"></div>'
-    inner += ghost(g, -64, gy, False) if g else ""
+    inner = ""
     inner += ('<div class="pad">%s'
               '<div style="display:flex; flex-direction:column; gap:42px;">%s</div>'
               '%s</div>' % (rule(top_l, top_r, False), "".join(mid),
@@ -244,8 +236,6 @@ def play_icon():
 def reel(img_name, treatment, pos, g, headline, top_r, ru=False, series=None,
          gy=330, scale=1.0):
     inner = photo(img_name, treatment, pos, scale)
-    if g:
-        inner += ghost(g, -70, gy, True)
     inner += ('<div class="pad">%s'
               '<div class="h" style="font-size:94px; line-height:1.14; max-width:930px;">%s</div>'
               '<div style="display:flex; justify-content:space-between; align-items:center;">'
@@ -272,8 +262,7 @@ def portrait_board():
         '<div class="h" style="font-size:64px; line-height:1.18; padding-bottom:6px;">'
         'I read fine print<br>for sixteen years.<br>then I got my '
         '<span class="si">license.</span></div></div>' % (img, T.BAND))
-    inner = ghost("16", -70, 640, True)
-    inner += ('<div class="pad">%s%s%s</div>'
+    inner = ('<div class="pad">%s%s%s</div>'
               % (rule(SERIES, "REEL · 04", True), block, foot(NAME, "PORTRAIT", True)))
     return frame("dark", inner)
 
@@ -366,7 +355,7 @@ BOARDS = [
          hoa_covers(),
          body("there it is. $620.31 a month, and it's most of why those two numbers land "
               "close together. it isn't a trick — it's the pool, the gym, the water, "
-              "the building's insurance. it's just never in the ad. and once you can "
+              "the building's insurance. it's easy to miss in the monthly math. once you can "
               "see it, one more thing changes.", False, 800)],
         NAME, SERIES, "MOST BUYERS MEET THIS NUMBER AFTER THEY OFFER", "3 / 6",
         gy=430, foot_size=16)),

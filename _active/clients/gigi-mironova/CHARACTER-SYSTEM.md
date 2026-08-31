@@ -15,7 +15,8 @@ Every visual move must help someone understand a consequential choice.
 - Warm architectural paper carries explanation; softened twilight blue carries emotion.
 - HouseSellers blue is the recognition anchor, not the whole canvas.
 - Clay marks the one human or consequential detail on a board. It never carries body copy.
-- Door arches, evidence cards, document tabs, and receipt-like rules repeat across assets.
+- Evidence cards, document tabs, receipt-like rules, and one clay marker repeat across assets.
+- Background ornament is deliberately absent: no arches, ghost numerals, or decorative geometry.
 - Figtree/Manrope carries everything. No script, handwriting, italic, or decorative serif.
 - Large numbers are proof objects. Supporting copy lives beside or beneath them, never over them.
 - Photography supplies place or person. It is never present merely to make a slide look expensive.

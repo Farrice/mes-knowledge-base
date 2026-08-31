@@ -9,21 +9,20 @@
 .caps{font-weight:700;letter-spacing:.18em;text-transform:uppercase} .h{font-weight:700;letter-spacing:-.04em;text-wrap:balance}
 .num{font-weight:800;letter-spacing:-.055em;font-variant-numeric:tabular-nums;line-height:.92}
 .photo{position:absolute;inset:0;z-index:0;overflow:hidden} .photo>img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center}
-.tint,.lift,.scrim,.panel{position:absolute;inset:0} .tint{background:#244C68;mix-blend-mode:multiply} .lift{background:#DCE8EE;mix-blend-mode:screen}
-.duo>img{filter:grayscale(1) contrast(1.05) brightness(.96)} .duo .tint{opacity:.78} .duo .lift{opacity:.16}
-.bleed>img{filter:saturate(.58) contrast(1.02) brightness(1.02) sepia(.08)}
-.bleed .scrim{background:linear-gradient(180deg,rgba(18,39,55,.38) 0%,rgba(18,39,55,.20) 30%,rgba(18,39,55,.54) 66%,rgba(18,39,55,.88) 100%)}
-.panel{background:linear-gradient(90deg,rgba(18,39,55,.78) 0%,rgba(18,39,55,.58) 48%,rgba(18,39,55,.08) 100%)}
+.tint,.lift,.scrim{position:absolute;inset:0} .tint{background:#244C68;mix-blend-mode:multiply}
+.duo>img{filter:grayscale(1) contrast(1.03) brightness(1.02)} .duo .tint{opacity:.70}
+.duo .scrim{background:linear-gradient(180deg,rgba(18,39,55,.12) 0%,rgba(18,39,55,.28) 58%,rgba(18,39,55,.72) 100%)}
+.bleed>img{filter:saturate(.68) contrast(1.01) brightness(1.04) sepia(.05)}
+.bleed .tint{opacity:.28!important}
+.bleed .scrim{background:linear-gradient(180deg,rgba(18,39,55,.24) 0%,rgba(18,39,55,.12) 34%,rgba(18,39,55,.42) 68%,rgba(18,39,55,.82) 100%)}
 .pad{position:relative;z-index:3;display:flex;flex-direction:column;height:100%;padding:58px 64px 54px;justify-content:space-between}
 .rule{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:18px} .foot{display:flex;justify-content:space-between;align-items:center}
-.ghost{position:absolute;font-weight:800;font-size:700px;line-height:.8;z-index:0;letter-spacing:-.08em}
-.door-mark{position:absolute;right:-72px;bottom:-110px;width:510px;height:850px;border:42px solid currentColor;border-bottom:0;border-radius:255px 255px 0 0;opacity:.085;z-index:1}
-.evidence{background:rgba(255,253,248,.92);border:1px solid #D7E2E8;border-radius:28px;box-shadow:0 22px 70px rgba(23,58,84,.09)}
-.dark .evidence{background:rgba(255,253,248,.11);border-color:rgba(255,253,248,0.28);box-shadow:0 22px 70px rgba(7,22,34,.20)}
+.evidence{background:rgba(255,253,248,.94);border:1px solid #D7E2E8;border-radius:24px;box-shadow:0 18px 52px rgba(23,58,84,.065)}
+.dark .evidence{background:rgba(18,39,55,.48);border-color:rgba(255,253,248,0.28);box-shadow:0 18px 48px rgba(7,22,34,.16)}
 .tag{display:inline-flex;align-items:center;padding:13px 18px;border-radius:999px;background:#DCE8EE;color:#173A54;font-size:17px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 .dark .tag{background:rgba(255,253,248,.14);color:#FFFDF8} .dot{width:10px;height:10px;border-radius:50%;background:#BD765E;display:inline-block}
 </style><div class="frame light">
-<div class="door-mark"></div><div class="pad">
+<div class="pad">
   <div class="rule" style="border-bottom:1px solid #D7E2E8">
     <div class="caps" style="font-size:20px">GIGI MIRONOVA · VISUAL CHARACTER</div>
     <div class="caps" style="font-size:20px;color:#566E7E">THE CALM CLOSER</div>
@@ -46,7 +45,7 @@
   </div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
     <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:#BD765E">VOICE</div><div class="h" style="font-size:34px;line-height:1.16;margin-top:16px">plain English.<br>exact numbers.<br>no performance.</div></div>
-    <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:#BD765E">SIGNATURES</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:#566E7E">door arches<br>evidence cards<br>document tabs<br>one clay marker</div></div>
+    <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:#BD765E">SIGNATURES</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:#566E7E">evidence cards<br>document tabs<br>receipt rules<br>one clay marker</div></div>
     <div class="evidence" style="padding:26px"><div class="caps" style="font-size:17px;color:#BD765E">NEVER</div><div style="font-size:25px;line-height:1.5;margin-top:16px;color:#566E7E">script type<br>generic luxury<br>decorative stock<br>unverified math</div></div>
   </div>
   <div class="foot"><div class="caps" style="font-size:18px;color:#566E7E">HOUSESELLERS BLUE · HUMAN WARMTH · DOCUMENT-LITERATE</div><div class="caps" style="font-size:18px;color:#566E7E">V4</div></div>

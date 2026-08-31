@@ -37,16 +37,17 @@ per-artboard from the toolbar.
   accent face; emphasis is a bold sans highlight.
 - **Palette**: ink `#173A54` · band `#244C68` · muted `#566E7E` · mist `#DCE8EE` ·
   clay `#BD765E` · paper `#F7F3EC` · bone `#ECE7DE`
-- **Grammar**: 1080×1350; 64/72px padding; ruled header + footer; ghost Playfair numeral
-  760px bled off the right; photos are `bleed` (color, scrim) or `duo` (navy duotone);
-  white slides are the densest; framing per-slide inline, never global
+- **Grammar**: 1080×1350; 64/72px padding; ruled header + footer; no background ornaments,
+  arch shapes, or ghost numerals. Numbers appear only when they carry information.
+  Photos are `bleed` (restrained color wash) or `duo` (navy duotone); white slides are
+  the densest; framing remains per-slide inline, never global.
 
 ## Prompt for Claude Design / any refinement session
 
 > Refine these artboards without changing the system: Figtree structural type with a
 > readable bold highlight, soft HouseSellers navy (ink #173A54, deep #244C68,
-> clay #BD765E), 1080×1350 with a ruled header/footer and an oversized ghost
-> numeral bleeding off the right edge. Photography stays real (no generated images),
+> clay #BD765E), 1080×1350 with a ruled header/footer and no decorative background
+> geometry. Numbers appear only when they communicate data. Photography stays real,
 > treated as navy duotone or scrimmed color bleed. Every number is verified and must not
 > change without a fresh source: $2,500 rent, $319,999 list, $620.31 listed dues,
 > $2,658/mo estimate at 6.66%,
