@@ -3,7 +3,7 @@ name: "Growth Blueprint OS"
 description: "Premium content-strategy system: receipted positioning, whitespace mapping, revenue-wired bullseye, live top-50 topic scan, format mechanism matrix, and a sellable flagship Content Growth Blueprint — every claim receipted, every bucket wired to offer economics, every artifact durable and client-grade."
 version: "1.0"
 format: "flagship-skill"
-workflows: 8
+workflows: 10
 routing: core
 ---
 
@@ -50,7 +50,14 @@ The repeatable unit:
 | `gb-refresh` | `/gb-refresh` | Staleness + drift report, refresh order, refreshed pack | Any state file may be stale, or positioning changed and downstream must be checked |
 | `gb-orchestrate` | `/gb-orchestrate` | Routing — reads the state folder, invokes the right workflow | User asks "what's next," arrives mid-engagement, or seems lost between steps |
 
-Slash commands are declarative here — **registration (sync_registries, `.agent/workflows/` wrappers) is a later, separate step.** Until then, invoke by reading the workflow file directly.
+### Delivery and evidence operations
+
+| Workflow | Slash Command | Produces | Use When |
+|---|---|---|---|
+| `gb-intake` | `/gb-intake` | Reader-pure personalized mini-report, PDF, Drive link, and reviewed Gmail draft | A completed intake pack must become the promised free mini; external send remains human-owned |
+| `gb-enrich` | `/gb-enrich` | Validated enrichment block merged into the existing signal pack | A current pack needs sourced topic demand, buyer language, or a 30-day market pulse; paid calls remain approval-gated |
+
+All ten workflows have live `.agent/workflows/` command bridges. The six Tier-1 judgment deliverables carry born-v2 prompts; `gb-intake` and `gb-enrich` are operational workflows with deterministic script contracts and explicit human/external-action gates.
 
 ### Recommended Chains
 
