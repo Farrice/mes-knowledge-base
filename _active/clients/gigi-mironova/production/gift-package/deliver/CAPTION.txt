@@ -4,6 +4,6 @@ Inside: 619 square feet, one bedroom and one bathroom. The condo was fully remod
 
 For the complete listing or a private showing, DM me “124.”
 
-Gigi Mironova  
-DRE 02025393 · Equity Union  
+Gigi Mironova
+DRE 02025393 · Equity Union
 818.826.9998
