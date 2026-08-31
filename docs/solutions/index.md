@@ -2,6 +2,8 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-31 · youtube-personal-brand-creative-direction-existing-owner-expansion · A practitioner video described personal-brand creative direction across content, operations, aesthetics, collaboration, and distribution, but those mechanics needed to extend the existing Oren owner without becoming a duplicate mega-skill or a transcript-only summary.
+- 2026-08-30 · youtube-screen-share-to-existing-skill-expansion · A screen-share YouTube source needed to become a connected skill-system expansion without duplicating an existing expert, trusting transcript-only evidence, or crossing external-write boundaries.
 - 2026-08-29 · mybpm-horizon-premium-relaunch · Build a credible premium Shopify relaunch without live store write access while separating verified product proof from sample-gated merchandising
 - 2026-08-28 · cross-harness-contract-runtime-parity · A shared workflow contract was present in both Claude and Codex, but its executable dependency remained on an unmerged Claude branch and the bare Codex command lacked a hot bridge.
 - 2026-08-24 · connected-story-owner-boundary · A new storytelling source overlapped existing Jun and Shaan capabilities and risked creating a duplicate mega-skill or forcing story into every output.
@@ -97,4 +99,3 @@ One line per card: date · name · problem_signature.
 - 2026-07-07 · Transcript-Only Extraction Produces Generic, Unusable Output · an expert extraction built from transcripts alone is mechanically correct but generic and low-grip (5/10) — it captures WHAT the expert does, not HOW; no real voice, no verbatim exemplars, no specificity; user says "I couldn't use any of this to see results"
 - 2026-07-07 · Zero-Survivor Phantom Deliverable in Fan-Out Pipelines · fan-out workflow where all workers at a stage die still reports complete and returns a deliverable path that was never written
 - 2026-07-06 · expert-composition-standard · a task pulls in many experts, skills, workflows, or gates and the output comes back patched together, overconfident, or still generic — expert soup, too many agents, a hammer instead of a scalpel, not interwoven
-- 2026-08-30 · youtube-screen-share-to-existing-skill-expansion · A screen-share YouTube source needed to become a connected skill-system expansion without duplicating an existing expert, trusting transcript-only evidence, or crossing external-write boundaries.
