@@ -187,18 +187,22 @@ DROPS = [
 
 
 def main():
+    import character_board
+    character_board  # importing renders character-board.html
     cv = json.load(open(HERE / "canvas.json"))
-    kept = [a for a in cv["artboards"] if not a["file"].split(".")[0] in
-            {k for k, _, _ in DROPS}]
+    replace = {k for k, _, _ in DROPS} | {"character-board"}
+    kept = [a for a in cv["artboards"] if a["file"].split(".")[0] not in replace]
     y0 = 1520 * 2  # third row: drops sit under the kit boards
     for i, (key, title, fn) in enumerate(DROPS):
         name = "%s.dc.html" % key
         (HERE / name).write_text(fn())
         kept.append({"file": name, "x": (i % 5) * 1200, "y": y0 + (i // 5) * 1520,
                      "w": 1080, "h": 1350, "title": title})
+    kept.append({"file": "character-board.html", "x": 0, "y": y0 + 3040,
+                 "w": 1080, "h": 1350, "title": "Character · The Calm Closer"})
     cv["artboards"] = kept
     json.dump(cv, open(HERE / "canvas.json", "w"), indent=2)
-    print("%d drop artboards appended -> canvas.json (%d total)"
+    print("%d drops + character board appended -> canvas.json (%d total)"
           % (len(DROPS), len(kept)))
 
 

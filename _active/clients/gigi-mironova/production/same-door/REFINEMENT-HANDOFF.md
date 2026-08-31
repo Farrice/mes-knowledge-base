@@ -1,5 +1,9 @@
 # Same Door — refinement handoff
 
+> **SUPERSEDED BY V4 / THE CALM CLOSER.** The Playfair/italic and soft-navy notes below
+> document the prior pass only. Current authority: `CHARACTER-SYSTEM.md`, `tokens.py`,
+> and `png/22-character-the-calm-closer.png`.
+
 Everything needed to refine and enrich the kit by hand, in one place.
 
 ## The two live surfaces

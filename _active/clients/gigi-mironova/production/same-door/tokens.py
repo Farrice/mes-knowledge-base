@@ -1,94 +1,36 @@
 #!/usr/bin/env python3
-"""
-"Same Door" — soft-navy register, v3.
+"""Same Door v4 — The Calm Closer visual character."""
 
-v2 verdict (Farrice, 2026-08-31): Bodoni italic at display scale is unreadable flare;
-the raw brand navy is harsh; flat type-only slides sit below the First Home Valley floor;
-no visual enrichment. All four fixed here.
+INK="#173A54"; BAND="#244C68"; BRAND="#0C4071"; MUTED="#566E7E"
+HAIRLINE="#D7E2E8"; GHOST="#E7EEF1"; ACCENT="#BD765E"; ACCENT_LT="#F0C7B8"
+PAPER="#F7F3EC"; BONE="#ECE7DE"; MIST="#DCE8EE"; WHITE="#FFFDF8"
+D_GHOST="rgba(255,253,248,0.12)"; D_HAIRLINE="rgba(255,253,248,0.28)"
+D_MUTED="rgba(255,253,248,0.78)"; SCRIM_RGB="18,39,55"
 
-The grammar reverts to the PROVEN floor (_shared/realtor-editorial-system/DESIGN.md):
-Figtree structural type, lowercase headlines, ONE Playfair italic accent word at headline
-scale only — never at numeral scale — photography with duo/bleed treatments, the ghost
-numeral, dense white structure slides. The hue family stays HouseSellers navy, softened:
-ink desaturated and lifted, warm-white paper, generous air.
+FONTS=("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800"
+       "&family=Manrope:wght@400;500;600;700;800&display=swap")
 
-Numerals are Figtree 600 with tabular figures — readable at any size, which is where the
-Bodoni experiment died.
-
-Cyrillic: Figtree has no cyrillic subset; Manrope (closest geometric match, ships
-cyrillic) carries structural type on Russian slides, Playfair italic carries the accent —
-same solution the oxblood register proved. Verified against Google Fonts CSS API.
-"""
-
-# --- soft navy family (derived from HouseSellers #0C4071 / EU #174579, softened) ----
-INK        = "#2C4A68"   # softened navy — headings + body on white
-BAND       = "#243D56"   # deep ground for photo slides (tint layer base)
-MUTED      = "#75879C"   # secondary copy on white
-HAIRLINE   = "#E3E9F0"   # rules, dividers, left-borders
-GHOST      = "#EDF1F6"   # oversized background numeral on white
-ACCENT     = "#5E86AC"   # Playfair italic accent on light grounds
-ACCENT_LT  = "#C3D4E5"   # accent on dark grounds
-PAPER      = "#FDFDFC"   # warm-white, not clinical white
-BONE       = "#F2F5F8"   # tint panel on white slides
-
-D_GHOST    = "rgba(255,255,255,0.16)"
-D_HAIRLINE = "rgba(255,255,255,0.34)"
-D_MUTED    = "rgba(255,255,255,0.78)"
-
-SCRIM_RGB  = "13,26,41"  # near-black in the navy family
-
-FONTS = ("https://fonts.googleapis.com/css2?"
-         "family=Figtree:wght@400;500;600;700"
-         "&family=Manrope:wght@400;500;600;700"
-         "&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500"
-         "&display=swap")
-
-CSS = f"""
-  body {{ margin:0; }}
-  .frame {{ width:1080px; height:1350px; position:relative; overflow:hidden;
-           font-family:'Figtree','Avenir Next',sans-serif; box-sizing:border-box; }}
-  .ru {{ font-family:'Manrope','Figtree','Avenir Next',sans-serif; }}
-  .light {{ background:{PAPER}; color:{INK}; }}
-  .dark  {{ background:{BAND};  color:#FFFFFF; }}
-
-  /* ONE italic accent word per slide, headline scale only — never numerals */
-  .si {{ font-family:'Playfair Display',Georgia,serif; font-style:italic; font-weight:500; }}
-  .light .si {{ color:{ACCENT}; }}
-  .dark .si  {{ color:{ACCENT_LT}; }}
-
-  .caps {{ font-weight:600; letter-spacing:0.24em; text-transform:uppercase; }}
-  .h    {{ font-weight:600; letter-spacing:-0.02em; }}
-  .num  {{ font-weight:600; letter-spacing:-0.02em; font-variant-numeric:tabular-nums;
-          line-height:1; }}
-
-  /* --- photography layer (framing per slide, inline on the img — never global) --- */
-  .photo {{ position:absolute; inset:0; z-index:0; overflow:hidden; }}
-  .photo > img {{ width:100%; height:100%; object-fit:cover; display:block;
-                 transform-origin:center; }}
-  .tint  {{ position:absolute; inset:0; background:{BAND}; mix-blend-mode:multiply; }}
-  .lift  {{ position:absolute; inset:0; background:#C9D7E8; mix-blend-mode:screen; }}
-  .scrim {{ position:absolute; inset:0; }}
-  .duo > img {{ filter:grayscale(1) contrast(1.14) brightness(0.86); }}
-  .duo .tint {{ opacity:0.92; }}
-  .duo .lift {{ opacity:0.10; }}
-  .bleed > img {{ filter:saturate(0.72) contrast(1.06) brightness(0.94); }}
-  .bleed .scrim {{ background:linear-gradient(180deg,
-        rgba({SCRIM_RGB},0.60) 0%, rgba({SCRIM_RGB},0.46) 26%,
-        rgba({SCRIM_RGB},0.62) 60%, rgba({SCRIM_RGB},0.86) 100%); }}
-
-  /* the text column's calm ground — photo texture never sits under type */
-  .panel {{ position:absolute; inset:0; background:linear-gradient(90deg,
-        rgba({SCRIM_RGB},0.78) 0%, rgba({SCRIM_RGB},0.62) 46%,
-        rgba({SCRIM_RGB},0.18) 78%, rgba({SCRIM_RGB},0.05) 100%); }}
-  .duo .panel {{ background:linear-gradient(90deg,
-        rgba({SCRIM_RGB},0.66) 0%, rgba({SCRIM_RGB},0.5) 46%,
-        rgba({SCRIM_RGB},0.12) 78%, rgba({SCRIM_RGB},0.0) 100%); }}
-
-  .pad  {{ position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
-          box-sizing:border-box; padding:64px 72px; justify-content:space-between; }}
-  .rule {{ display:flex; justify-content:space-between; align-items:baseline;
-          padding-bottom:22px; }}
-  .foot {{ display:flex; justify-content:space-between; align-items:baseline; }}
-  .ghost {{ position:absolute; font-family:'Playfair Display',Georgia,serif;
-           font-weight:500; font-size:760px; line-height:0.8; z-index:0; }}
+CSS=f"""
+*{{box-sizing:border-box}} body{{margin:0}}
+.frame{{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:'Figtree','Avenir Next',sans-serif;color:{INK}}}
+.ru{{font-family:'Manrope','Figtree',sans-serif}} .light{{background:{PAPER}}} .dark{{background:{BAND};color:{WHITE}}}
+/* Former script hook is now a readable highlight. Character comes from composition. */
+.si{{font-family:inherit;font-style:normal;font-weight:800;letter-spacing:-.035em;color:inherit;box-shadow:inset 0 -.22em 0 {MIST}}}
+.dark .si{{color:{WHITE};box-shadow:inset 0 -.22em 0 rgba(240,199,184,.44)}} .ru .si{{letter-spacing:-.02em}}
+.caps{{font-weight:700;letter-spacing:.18em;text-transform:uppercase}} .h{{font-weight:700;letter-spacing:-.04em;text-wrap:balance}}
+.num{{font-weight:800;letter-spacing:-.055em;font-variant-numeric:tabular-nums;line-height:.92}}
+.photo{{position:absolute;inset:0;z-index:0;overflow:hidden}} .photo>img{{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center}}
+.tint,.lift,.scrim,.panel{{position:absolute;inset:0}} .tint{{background:{BAND};mix-blend-mode:multiply}} .lift{{background:{MIST};mix-blend-mode:screen}}
+.duo>img{{filter:grayscale(1) contrast(1.05) brightness(.96)}} .duo .tint{{opacity:.78}} .duo .lift{{opacity:.16}}
+.bleed>img{{filter:saturate(.58) contrast(1.02) brightness(1.02) sepia(.08)}}
+.bleed .scrim{{background:linear-gradient(180deg,rgba({SCRIM_RGB},.38) 0%,rgba({SCRIM_RGB},.20) 30%,rgba({SCRIM_RGB},.54) 66%,rgba({SCRIM_RGB},.88) 100%)}}
+.panel{{background:linear-gradient(90deg,rgba({SCRIM_RGB},.78) 0%,rgba({SCRIM_RGB},.58) 48%,rgba({SCRIM_RGB},.08) 100%)}}
+.pad{{position:relative;z-index:3;display:flex;flex-direction:column;height:100%;padding:58px 64px 54px;justify-content:space-between}}
+.rule{{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:18px}} .foot{{display:flex;justify-content:space-between;align-items:center}}
+.ghost{{position:absolute;font-weight:800;font-size:700px;line-height:.8;z-index:0;letter-spacing:-.08em}}
+.door-mark{{position:absolute;right:-72px;bottom:-110px;width:510px;height:850px;border:42px solid currentColor;border-bottom:0;border-radius:255px 255px 0 0;opacity:.085;z-index:1}}
+.evidence{{background:rgba(255,253,248,.92);border:1px solid {HAIRLINE};border-radius:28px;box-shadow:0 22px 70px rgba(23,58,84,.09)}}
+.dark .evidence{{background:rgba(255,253,248,.11);border-color:{D_HAIRLINE};box-shadow:0 22px 70px rgba(7,22,34,.20)}}
+.tag{{display:inline-flex;align-items:center;padding:13px 18px;border-radius:999px;background:{MIST};color:{INK};font-size:17px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}}
+.dark .tag{{background:rgba(255,253,248,.14);color:{WHITE}}} .dot{{width:10px;height:10px;border-radius:50%;background:{ACCENT};display:inline-block}}
 """

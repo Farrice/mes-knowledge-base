@@ -35,8 +35,8 @@ def plate(stem, caption=None):
 
 CSS = """
 :root{
-  --paper:#FDFDFC; --ink:#2C4A68; --band:#243D56; --muted:#75879C;
-  --hair:#E3E9F0; --accent:#5E86AC; --plate:#F2F5F8; --onband:#ECF1F6;
+  --paper:#F7F3EC; --ink:#173A54; --band:#244C68; --muted:#566E7E;
+  --hair:#D7E2E8; --accent:#BD765E; --plate:#ECE7DE; --onband:#FFFDF8;
   --bandmuted:rgba(234,240,247,0.74); --bandhair:rgba(234,240,247,0.26);
 }
 @media (prefers-color-scheme: dark){
@@ -58,8 +58,8 @@ body{
   font-family:'Figtree','Avenir Next',system-ui,sans-serif;
   font-size:18px; line-height:1.62; -webkit-font-smoothing:antialiased;
 }
-.si{font-family:'Playfair Display',Georgia,serif; font-style:italic; font-weight:500;
-    color:var(--accent);}
+.si{font-family:inherit; font-style:normal; font-weight:800; color:inherit;
+    box-shadow:inset 0 -.22em 0 #DCE8EE;}
 .wrap{max-width:940px; margin:0 auto; padding:0 28px;}
 .caps{font-weight:500; letter-spacing:0.24em; text-transform:uppercase; font-size:12px;}
 .num{font-weight:600; letter-spacing:-0.02em;
@@ -72,7 +72,7 @@ body{
             align-items:baseline; gap:20px; flex-wrap:wrap;}
 .open h1{font-size:clamp(36px,6vw,66px); line-height:1.11; letter-spacing:-0.02em;
          font-weight:600; margin:0 0 36px; text-wrap:balance; max-width:17ch;}
-.open h1 .si{color:#C3D4E5;}
+.open h1 .si,.close h2 .si{color:var(--onband);box-shadow:inset 0 -.22em 0 rgba(240,199,184,.44);}
 .open p{color:var(--bandmuted); font-size:19px; max-width:62ch; margin:0 0 18px;}
 .open p:last-child{margin-bottom:0;}
 .pricebar{display:flex; gap:56px; flex-wrap:wrap; margin:44px 0 8px;}
@@ -168,20 +168,31 @@ BODY = """
     __C1__ __C2__ __C3__ __C4__ __C5__ __C5RU__ __C6__
   </div>
   <div class="lede" style="margin-top:44px;">
-    <span class="caps">Caption · pick one</span>
+    <span class="caps">Carousel copy · two options</span>
     <div class="opts">
       <div class="opt"><b>A</b> · $2,500 to rent it. $2,515 to own it. Same apartment.
       I hold the lease and the sale on this one, so I ran both numbers line by line
       instead of guessing. The figure that closes that gap isn&#8217;t the price, and
-      it isn&#8217;t on the listing. Every line is in the slides. Estimate, not a quote;
-      your numbers will differ. DM me &#8220;124&#8221; for the full breakdown.</div>
+      it isn&#8217;t on the listing. Every line is in the slides. This is an illustration,
+      not a quote; your numbers will differ. Write &#8220;124&#8221; for the full breakdown.</div>
       <div class="opt"><b>B</b> · Fifteen dollars a month. That&#8217;s the entire difference
       between renting this apartment and owning it, and I can prove it because both
       listings are mine. Rent disappears; a payment splits, part gone and part kept.
-      Slide two shows every line. Estimate, not a quote. Message me &#8220;124&#8221;
+      Slide two shows every line. Your lender will price it for you. Ask me for &#8220;124&#8221;
       for the full breakdown.</div>
     </div>
   </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="lede">
+    <span class="caps">The visual character</span>
+    <h2>The Calm Closer</h2>
+    <p>Clear enough to trust. Warm enough to call. The system keeps HouseSellers blue,
+       then softens the surrounding world with warm paper, mist, evidence cards and one
+       clay marker. No script type, generic luxury language or decorative photography.</p>
+  </div>
+  <div class="plates">__CHARACTER__</div>
 </div></section>
 
 <section><div class="wrap">
@@ -203,19 +214,19 @@ BODY = """
     today&#8217;s rate, property taxes, insurance, and the association dues. All of it.
     Twenty-five fifteen. And about two hundred twenty of that first payment stays
     yours, which rent never does. Treat it as an estimate; your numbers will differ.
-    If that gap surprised you, message me 124.&#8221;</p>
+    If that gap surprised you, ask me for 124.&#8221;</p>
   </div>
   <div class="opts">
-    <div class="opt"><b>Caption A</b> · $2,500 to rent it. $2,515 to own it. Same apartment,
-    both listings mine. Full math in my Same Door carousel, sources included. Estimate,
-    not a quote. DM &#8220;124&#8221; for the breakdown.</div>
-    <div class="opt"><b>Caption B</b> · Fifteen dollars. That&#8217;s the real gap between
-    renting and owning this unit, before equity. Numbers in the carousel. Send me
+    <div class="opt"><b>Option A</b> · $2,500 to rent it. $2,515 to own it. Same apartment,
+    both listings mine. Full math in my Same Door carousel, sources included. The total
+    is illustrative, not a quote. Write &#8220;124&#8221; for the breakdown.</div>
+    <div class="opt"><b>Option B</b> · Fifteen dollars. The real gap between
+    renting and owning this unit, before equity. Numbers in the carousel. Ask for
     &#8220;124&#8221; for the breakdown.</div>
   </div>
   <div class="script"><span class="caps">Reel 02 · The $477 · ~30s</span>
     <p>&#8220;Four hundred seventy-seven dollars a month, and it&#8217;s nowhere on the
-    listing. That&#8217;s the association dues here. It buys the pool, the gym, the water,
+    listing. Those are the association dues here. They buy the pool, the gym, the water,
     the trash, the building&#8217;s insurance, so it&#8217;s not a trick. But leave it out
     of your math and the whole comparison falls apart, which is exactly what happens to
     most first-time condo buyers. They find the number after they&#8217;ve already fallen
@@ -253,8 +264,8 @@ BODY = """
       differ&#8221; typed on top</div>
       <div><span>4</span>Slide 3 (the $477), caption: &#8220;the number that isn&#8217;t
       on the listing&#8221;</div>
-      <div><span>5</span>Close-up of you or the building; text: &#8220;full breakdown, in
-      English or по-русски. DM &#8216;124&#8217;&#8221;</div>
+      <div><span>5</span>Close-up of you or the building; type: &#8220;full breakdown, in
+      English or по-русски. Write &#8216;124&#8217;&#8221;</div>
     </div>
   </div>
 </div></section>
@@ -273,18 +284,18 @@ BODY = """
     __D1__ __D2__ __D3__ __D4__ __D5__
   </div>
   <div class="lede" style="margin-top:40px;">
-    <span class="caps">Caption · pick one · keyword NET</span>
+    <span class="caps">Seller copy · keyword NET</span>
     <div class="opts">
       <div class="opt"><b>A</b> · Your neighbor sold for asking. They probably still wrote
       a check. More than half of Valley sellers this spring handed money back at the
       closing table, around $25,000 on average, and none of that shows up in the price
       they tell you at the mailbox. So if you&#8217;re thinking about selling, ask what
-      you&#8217;d keep before you ask what you&#8217;d list for. DM &#8220;NET&#8221;
+      you&#8217;d keep before you ask what you&#8217;d list for. Write &#8220;NET&#8221;
       and I&#8217;ll put your number on one page. (SFV April 2026 closed sales, MLS
       compilation.)</div>
       <div class="opt"><b>B</b> · The list price is a headline. The net sheet is the
       story. In April, over half of Valley sales carried a median $25,000 concession that
-      no headline mentioned. Message me &#8220;NET&#8221; for yours, no listing agreement
+      no headline mentioned. Ask me for &#8220;NET&#8221;, no listing agreement
       attached.</div>
     </div>
   </div>
@@ -293,15 +304,15 @@ BODY = """
     __K1__ __K2__ __K3__ __K4__ __K5__
   </div>
   <div class="lede" style="margin-top:40px;">
-    <span class="caps">Caption · pick one · keyword CLOCK</span>
+    <span class="caps">Buyer copy · keyword CLOCK</span>
     <div class="opts">
       <div class="opt"><b>A</b> · The day your offer gets accepted, three deadlines start
       running and nobody hands you the dates. Seventeen days, seventeen days,
       twenty-one. Calendar days, so weekends count against you. None of it is scary once
       someone shows it to you, which takes about ten minutes. Save this for your next
-      offer, and DM &#8220;CLOCK&#8221; if you want yours mapped before you write.</div>
+      offer, and write &#8220;CLOCK&#8221; if you want yours mapped before you write.</div>
       <div class="opt"><b>B</b> · The C.A.R. contract gives you three protections, and
-      every one of them expires on a schedule. Slide two is the schedule. DM
+      every one of them expires on a schedule. Slide two is the schedule. Write
       &#8220;CLOCK&#8221; and I&#8217;ll date every deadline for your exact timeline,
       in English or по-русски.</div>
     </div>
@@ -314,9 +325,9 @@ BODY = """
     estate license, and the first thing I noticed was that everyone spends the whole
     time on the tour. But the tour isn&#8217;t what protects you. The paperwork is. The
     HOA financials, the disclosures, the board minutes, the deadlines. So that&#8217;s
-    the part I never rush, because I already spent sixteen years there. If you want
+    the part I never rush; I already spent sixteen years there. If you want
     someone who actually reads what you&#8217;re signing, in English or in Russian,
-    message me the word DOCS.&#8221;</p>
+    write the word DOCS.&#8221;</p>
   </div>
 </div></section>
 
@@ -378,8 +389,8 @@ BODY = """
      to read what signing it means. That&#8217;s the story this whole kit tells about
      you. This one&#8217;s on me. It&#8217;s the same kit I build for Jen&#8217;s listings. If it works, all I&#8217;d ask is a screenshot of the results
      and one sentence of feedback. And if you want the next listing to arrive like this automatically (shoot sheet,
-     scripts, captions, compliance pass, done in 48 hours), that&#8217;s the thing I do.
-     Text me.</p>
+     scripts, captions, compliance pass, done in 48 hours), I build that too.
+     Call me.</p>
 </div></div>
 """
 
@@ -401,6 +412,7 @@ def main():
         ("D4", "15-d4", None), ("D5", "16-d5", None),
         ("K1", "17-k1", None), ("K2", "18-k2", None), ("K3", "19-k3", None),
         ("K4", "20-k4", None), ("K5", "21-k5", None),
+        ("CHARACTER", "22-character", "The reusable visual character behind every asset."),
     ]:
         body = body.replace("__%s__" % key, plate(stem, cap))
 
@@ -419,8 +431,7 @@ def main():
 
     html = ("<title>Same Door</title>\n"
             '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
-            "family=Figtree:wght@400;500;600;700"
-            "&family=Playfair+Display:ital,wght@1,400;1,500"
+            "family=Figtree:wght@400;500;600;700;800"
             '&display=swap">\n'
             "<style>%s</style>\n%s" % (CSS, body))
     OUT.write_text(html)

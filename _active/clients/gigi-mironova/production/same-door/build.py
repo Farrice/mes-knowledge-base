@@ -62,15 +62,15 @@ def rule(left, right, dark):
 def foot(left, right, dark, size=20):
     return ('<div class="foot">'
             '<div class="caps" style="font-size:%dpx; color:%s;">%s</div>'
-            '<div class="si" style="font-size:30px; opacity:0.85;">%s</div></div>'
+            '<div class="caps" style="font-size:17px; opacity:0.78;">%s</div></div>'
             % (size, T.D_MUTED if dark else T.MUTED, left, right))
 
 
 def body(text, dark, width=680):
-    return ('<div style="font-size:33px; line-height:1.47; color:%s; max-width:%dpx; '
-            'border-left:2px solid %s; padding-left:28px;">%s</div>'
+    return ('<div class="evidence" style="font-size:31px; line-height:1.47; color:%s; '
+            'max-width:%dpx; padding:28px 30px;">%s</div>'
             % (T.D_MUTED if dark else T.MUTED, width,
-               T.D_HAIRLINE if dark else T.HAIRLINE, text))
+               text))
 
 
 def frame(cls, inner, ru=False):
@@ -98,7 +98,7 @@ def frame(cls, inner, ru=False):
 def story(img_name, treatment, pos, g, mid, top_l, top_r, foot_l, foot_r,
           ru=False, gy=210, gx=-64, scale=1.0):
     """Full-bleed photograph; type carries the data, photo carries place and moment."""
-    inner = photo(img_name, treatment, pos, scale)
+    inner = photo(img_name, treatment, pos, scale) + '<div class="door-mark"></div>'
     if g:
         inner += ghost(g, gx, gy, True)
     inner += ('<div class="pad">%s'
@@ -110,7 +110,8 @@ def story(img_name, treatment, pos, g, mid, top_l, top_r, foot_l, foot_r,
 
 def structure(g, mid, top_l, top_r, foot_l, foot_r, ru=False, gy=170, foot_size=18):
     """White ground; the densest layouts in the deck — the white is the luxury."""
-    inner = ghost(g, -64, gy, False) if g else ""
+    inner = '<div class="door-mark"></div>'
+    inner += ghost(g, -64, gy, False) if g else ""
     inner += ('<div class="pad">%s'
               '<div style="display:flex; flex-direction:column; gap:42px;">%s</div>'
               '%s</div>' % (rule(top_l, top_r, False), "".join(mid),
@@ -130,11 +131,12 @@ def price_pair_dark():
     out = []
     for amount, label, lead in rows:
         out.append(
-            '<div style="border-top:3px solid %s; padding-top:18px;">'
-            '<div class="num" style="font-size:124px; color:%s;">%s</div>'
-            '<div class="caps" style="font-size:20px; color:%s; margin-top:14px;">%s</div>'
-            '</div>' % (T.ACCENT_LT if lead else T.D_HAIRLINE,
-                        "#FFFFFF" if lead else "rgba(255,255,255,0.85)",
+            '<div class="evidence" style="padding:24px 28px; display:grid; '
+            'grid-template-columns:1fr auto; align-items:end; gap:18px;">'
+            '<div class="num" style="font-size:112px; color:%s;">%s</div>'
+            '<div class="caps" style="font-size:17px; color:%s; padding-bottom:10px; '
+            'text-align:right; max-width:180px; line-height:1.5;">%s</div>'
+            '</div>' % ("#FFFFFF" if lead else "rgba(255,255,255,0.88)",
                         amount, T.D_MUTED, label))
     return ('<div style="display:flex; flex-direction:column; gap:30px; '
             'max-width:720px;">%s</div>' % "".join(out))
@@ -147,12 +149,11 @@ def four_numbers():
     for i, (n, label, where) in enumerate(cells):
         lead = i == 3
         out.append(
-            '<div style="flex:1; border-top:6px solid %s; padding-top:24px;">'
+            '<div class="evidence" style="flex:1; padding:24px 20px; min-height:250px;">'
             '<div class="num" style="font-size:84px; color:%s;">%s</div>'
             '<div class="caps" style="font-size:18px; color:%s; margin-top:18px;">%s</div>'
-            '<div class="si" style="font-size:27px; color:%s; margin-top:10px;">%s</div>'
-            '</div>' % (T.INK if lead else T.HAIRLINE,
-                        T.INK if lead else T.MUTED, n,
+            '<div style="font-size:24px; color:%s; margin-top:10px; font-weight:700;">%s</div>'
+            '</div>' % (T.INK if lead else T.MUTED, n,
                         T.INK if lead else T.MUTED, label, T.MUTED, where))
     return '<div style="display:flex; gap:22px;">%s</div>' % "".join(out)
 
@@ -214,13 +215,13 @@ def docs(items, note):
     rows = []
     for i, (title, sub) in enumerate(items, 1):
         rows.append(
-            '<div style="display:flex; gap:28px; align-items:flex-start; '
-            'border-top:1px solid %s; padding-top:22px;">'
-            '<div class="si" style="font-size:48px; line-height:1; color:%s; '
+            '<div class="evidence" style="display:flex; gap:28px; align-items:flex-start; '
+            'padding:24px 26px;">'
+            '<div class="num" style="font-size:42px; line-height:1; color:%s; '
             'min-width:64px;">0%d</div><div>'
             '<div style="font-size:34px; line-height:1.32; color:%s; font-weight:600;">%s</div>'
             '<div style="font-size:28px; line-height:1.42; color:%s; margin-top:10px;">%s</div>'
-            '</div></div>' % (T.HAIRLINE, T.ACCENT, i, T.INK, title, T.MUTED, sub))
+            '</div></div>' % (T.ACCENT, i, T.INK, title, T.MUTED, sub))
     tail = ('<div style="background:%s; padding:30px 34px; font-size:28px; '
             'line-height:1.46; color:%s;">%s</div>' % (T.BONE, T.INK, note))
     return ('<div style="display:flex; flex-direction:column; gap:24px;">%s%s</div>'

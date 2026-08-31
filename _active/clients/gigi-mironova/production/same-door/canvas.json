@@ -1,7 +1,7 @@
 {
   "artboards": [
     {
-      "file": "Main.dc.html",
+      "file": "C1.dc.html",
       "x": 0,
       "y": 0,
       "w": 1080,
@@ -167,6 +167,14 @@
       "w": 1080,
       "h": 1350,
       "title": "K5 \u00b7 Clock CTA"
+    },
+    {
+      "file": "character-board.html",
+      "x": 0,
+      "y": 6080,
+      "w": 1080,
+      "h": 1350,
+      "title": "Character \u00b7 The Calm Closer"
     }
   ],
   "launch": {
