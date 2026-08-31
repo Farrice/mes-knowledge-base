@@ -87,6 +87,86 @@
       "w": 1080,
       "h": 1350,
       "title": "Reel 4 Cover \u00b7 Portrait"
+    },
+    {
+      "file": "D1.dc.html",
+      "x": 0,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D1 \u00b7 Net Hook"
+    },
+    {
+      "file": "D2.dc.html",
+      "x": 1200,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D2 \u00b7 Two Numbers"
+    },
+    {
+      "file": "D3.dc.html",
+      "x": 2400,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D3 \u00b7 Two Markets"
+    },
+    {
+      "file": "D4.dc.html",
+      "x": 3600,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D4 \u00b7 The Question"
+    },
+    {
+      "file": "D5.dc.html",
+      "x": 4800,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D5 \u00b7 Net CTA"
+    },
+    {
+      "file": "K1.dc.html",
+      "x": 0,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K1 \u00b7 Clock Hook"
+    },
+    {
+      "file": "K2.dc.html",
+      "x": 1200,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K2 \u00b7 Three Clocks"
+    },
+    {
+      "file": "K3.dc.html",
+      "x": 2400,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K3 \u00b7 Day Zero"
+    },
+    {
+      "file": "K4.dc.html",
+      "x": 3600,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K4 \u00b7 The Move"
+    },
+    {
+      "file": "K5.dc.html",
+      "x": 4800,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K5 \u00b7 Clock CTA"
     }
   ],
   "launch": {

@@ -256,6 +256,63 @@ BODY = """
 
 <section><div class="wrap">
   <div class="lede">
+    <span class="caps">Post this week · two more carousels</span>
+    <h2>Beyond the listing</h2>
+    <p>Two evergreen pieces so the feed builds your authority even when there is no
+       inventory to talk about. Sellers first, buyers second, each with its own keyword,
+       so every save can turn into a conversation.</p>
+  </div>
+
+  <div class="plates">
+    __D1__ __D2__ __D3__ __D4__ __D5__
+  </div>
+  <div class="lede" style="margin-top:40px;">
+    <span class="caps">Caption · pick one · keyword NET</span>
+    <div class="opts">
+      <div class="opt"><b>A</b> · Valley sellers got 99.6% of list in April. More than
+      half of them also credited a median $25,000 back at closing. The negotiation moved
+      somewhere the sale price your neighbor quotes will never show. Thinking about
+      selling? Ask for the net sheet before you ask for the list price. DM &#8220;NET&#8221;
+      and I&#8217;ll run yours. (SFV April 2026 closed sales, MLS compilation.)</div>
+      <div class="opt"><b>B</b> · The list price is a headline. The net sheet is the
+      story. In April, over half of Valley sales carried a median $25,000 concession that
+      no headline mentioned. Message me &#8220;NET&#8221; for yours, no listing agreement
+      attached.</div>
+    </div>
+  </div>
+
+  <div class="plates" style="margin-top:44px;">
+    __K1__ __K2__ __K3__ __K4__ __K5__
+  </div>
+  <div class="lede" style="margin-top:40px;">
+    <span class="caps">Caption · pick one · keyword CLOCK</span>
+    <div class="opts">
+      <div class="opt"><b>A</b> · Your offer got accepted. Three clocks just started:
+      17 days, 17 days, 21 days, all counted in calendar days, weekends included. Miss a
+      removal date and a protection you negotiated stops protecting you. Save this for
+      your next offer, and DM &#8220;CLOCK&#8221; if you want your deadline calendar
+      built before you write.</div>
+      <div class="opt"><b>B</b> · The C.A.R. contract gives you three protections, and
+      every one of them expires on a schedule. Slide two is the schedule. DM
+      &#8220;CLOCK&#8221; and I&#8217;ll date every deadline for your exact timeline,
+      in English or по-русски.</div>
+    </div>
+  </div>
+
+  <div class="script"><span class="caps">Film today · talking head, one take, no
+  b-roll · keyword DOCS</span>
+    <p>&#8220;Sixteen years in litigation support. Research, analysis, negotiation.
+    Reading the documents nobody else wanted to read. Then I got my real estate license
+    and noticed something. The tour is the easy part. The part that protects you, or
+    doesn&#8217;t, lives in the paperwork: HOA financials, disclosures, board minutes,
+    contingency deadlines. I never skip that part, because I did it for sixteen years
+    before I ever showed a home. If you want an agent who reads what you&#8217;re
+    signing, in English or in Russian, message me the word DOCS.&#8221;</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="lede">
     <span class="caps">Profile · bio and covers</span>
     <h2>The bio, one line stronger</h2>
     <div class="opts">
@@ -331,6 +388,10 @@ def main():
         ("C6", "07-c6", "6 / 6 — the close. One keyword: 124."),
         ("R1", "08-reel-1", None), ("R2", "09-reel-2", None),
         ("R3", "10-reel-3", None), ("R4", "11-reel-4", None),
+        ("D1", "12-d1", None), ("D2", "13-d2", None), ("D3", "14-d3", None),
+        ("D4", "15-d4", None), ("D5", "16-d5", None),
+        ("K1", "17-k1", None), ("K2", "18-k2", None), ("K3", "19-k3", None),
+        ("K4", "20-k4", None), ("K5", "21-k5", None),
     ]:
         body = body.replace("__%s__" % key, plate(stem, cap))
 

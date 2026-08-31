@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+  <style>
+  body { margin:0; }
+  .frame { width:1080px; height:1350px; position:relative; overflow:hidden;
+           font-family:'Figtree','Avenir Next',sans-serif; box-sizing:border-box; }
+  .ru { font-family:'Manrope','Figtree','Avenir Next',sans-serif; }
+  .light { background:#FDFDFC; color:#2C4A68; }
+  .dark  { background:#243D56;  color:#FFFFFF; }
+
+  /* ONE italic accent word per slide, headline scale only — never numerals */
+  .si { font-family:'Playfair Display',Georgia,serif; font-style:italic; font-weight:500; }
+  .light .si { color:#5E86AC; }
+  .dark .si  { color:#C3D4E5; }
+
+  .caps { font-weight:600; letter-spacing:0.24em; text-transform:uppercase; }
+  .h    { font-weight:600; letter-spacing:-0.02em; }
+  .num  { font-weight:600; letter-spacing:-0.02em; font-variant-numeric:tabular-nums;
+          line-height:1; }
+
+  /* --- photography layer (framing per slide, inline on the img — never global) --- */
+  .photo { position:absolute; inset:0; z-index:0; overflow:hidden; }
+  .photo > img { width:100%; height:100%; object-fit:cover; display:block;
+                 transform-origin:center; }
+  .tint  { position:absolute; inset:0; background:#243D56; mix-blend-mode:multiply; }
+  .lift  { position:absolute; inset:0; background:#C9D7E8; mix-blend-mode:screen; }
+  .scrim { position:absolute; inset:0; }
+  .duo > img { filter:grayscale(1) contrast(1.14) brightness(0.86); }
+  .duo .tint { opacity:0.92; }
+  .duo .lift { opacity:0.10; }
+  .bleed > img { filter:saturate(0.72) contrast(1.06) brightness(0.94); }
+  .bleed .scrim { background:linear-gradient(180deg,
+        rgba(13,26,41,0.60) 0%, rgba(13,26,41,0.46) 26%,
+        rgba(13,26,41,0.62) 60%, rgba(13,26,41,0.86) 100%); }
+
+  .pad  { position:relative; z-index:1; display:flex; flex-direction:column; height:100%;
+          box-sizing:border-box; padding:64px 72px; justify-content:space-between; }
+  .rule { display:flex; justify-content:space-between; align-items:baseline;
+          padding-bottom:22px; }
+  .foot { display:flex; justify-content:space-between; align-items:baseline; }
+  .ghost { position:absolute; font-family:'Playfair Display',Georgia,serif;
+           font-weight:500; font-size:760px; line-height:0.8; z-index:0; }
+</style>
+</helmet>
+<div class="frame dark">
+<div class="photo bleed"><img alt="" style="object-position:50% 44%;" src="sunlight-through-window-floor-00.jpg"><div class="tint" style="opacity:0.44"></div><div class="scrim"></div></div><div class="pad"><div class="rule" style="border-bottom:1px solid rgba(255,255,255,0.34);"><div class="caps" style="font-size:21px;">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:21px; opacity:0.75;">THE $25,000 CONVERSATION</div></div><div style="display:flex; flex-direction:column; gap:36px;"><div class="h" style="font-size:72px; line-height:1.12;">want the honest number,<br>not the flattering <span class="si">one?</span></div><div style="font-size:33px; line-height:1.47; color:rgba(255,255,255,0.78); max-width:700px; border-left:2px solid rgba(255,255,255,0.34); padding-left:28px;">send me your address and I'll run a net sheet — price, likely concessions, fees, what actually lands. no listing agreement, no pressure. sixteen years of reading fine print says I'd rather you know.</div><div style="display:inline-flex; align-self:flex-start; background:#FFFFFF; padding:26px 44px; margin-top:6px;"><span class="caps" style="font-size:23px; color:#243D56;">DM ME “NET”</span></div></div><div class="foot"><div class="caps" style="font-size:20px; color:rgba(255,255,255,0.78);">GIGI MIRONOVA · DRE 02025393</div><div class="si" style="font-size:30px; opacity:0.85;">5 / 5</div></div></div>
+</div>
+</x-dc>
+</body>
+</html>

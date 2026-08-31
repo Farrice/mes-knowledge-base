@@ -18,6 +18,11 @@ def main():
     OUT.mkdir(exist_ok=True)
     tmp = HERE / ".tmp"
     tmp.mkdir(exist_ok=True)
+    # boards reference images by filename (canvas format); mirror them beside the shims
+    assets = HERE / "canvas-assets"
+    if assets.is_dir():
+        for img in assets.glob("*.jpg"):
+            shutil.copy2(img, tmp / img.name)
     for i, a in enumerate(cv["artboards"], 1):
         html = (HERE / a["file"]).read_text()
         html = html.replace('<script src="./support.js"></script>', "")
