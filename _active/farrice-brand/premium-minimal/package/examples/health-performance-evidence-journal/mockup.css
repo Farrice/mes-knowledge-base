@@ -280,6 +280,22 @@ a {
   padding-top: var(--fc-space-2);
 }
 
+.review-card--featured {
+  grid-column: 1 / -1;
+}
+
+.review-card__image {
+  background: var(--fc-paper);
+  border-bottom: var(--fc-rule-hairline) solid var(--fc-line);
+  overflow: hidden;
+}
+
+.review-card__image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 .review-card__frame {
   aspect-ratio: 16 / 10;
   background: var(--fc-paper);
@@ -294,6 +310,14 @@ a {
   transform: scale(.5);
   transform-origin: top left;
   width: 200%;
+}
+
+.review-card__frame img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
 }
 
 .review-card h2 {
@@ -350,6 +374,10 @@ a {
   .decision-section .fc-proof-boundary,
   .review-grid {
     grid-template-columns: 1fr;
+  }
+
+  .review-card--featured {
+    grid-column: auto;
   }
 
   .evidence-entry + .evidence-entry,
