@@ -142,3 +142,41 @@ Every one of these is a seller story, which matters: her team is literally calle
   every CC0 frame in the bank, and they are hers, which is the whole point.
 - **Not measured:** her per-post engagement, her actual farm-area concentration, and whether
   the concession pattern holds in her specific price bands.
+
+---
+
+## 5. Her actual listing carousel (added 2026-08-31, from her live post)
+
+Farrice supplied a screenshot of her published 8-slide carousel for unit 124. Instagram
+blocks post media without login, so the originals still have to come from her — but the
+slides confirmed a set of facts nothing else on record had.
+
+**New VERIFIED facts (her own published marketing):**
+fully remodeled December 2023 · appliances purchased Dec 2023, all included · in-unit
+washer & dryer purchased Dec 2023 · 2-car parking · building insurance in place ·
+**balcony inspection & repairs completed** · private balcony with bedroom access ·
+$319,999 · Gigi@myhousesellers.com · 818.826.9998
+
+**Her existing visual language:** bold condensed uppercase headlines in charcoal-navy, a
+**warm orange/tan italic script accent**, white photo-dominant cards, numbered badges,
+and a sign-off slide with check bullets plus a script signature logo. Note the accent
+fork — hers is warm, the Same Door register is cool blue. Worth a deliberate test.
+
+### The SB 326 finding — biggest unused angle on record
+
+California **SB 326** required condo HOAs of three or more units to complete
+exterior-elevated-element (balcony) inspections by **1 January 2025**. That deadline is
+more than a year past. Where the work was deferred, special assessments of
+**$40,000–$60,000 per unit** are common, and in 2026 lenders are rejecting mortgages on
+condos whose HOA holds no valid Balcony Safety Certificate. VERIFIED across multiple 2026
+sources (Rimkus, Bay Legal, Bay Cities Construction, DrBalcony).
+
+Her listing states the balcony inspection and repairs are **complete** — the strongest
+de-risking fact in the entire listing, currently sitting as bullet six on her final
+slide. It reframes the whole condo-buyer story: the ambush is not the monthly dues, it is
+the assessment, and this building already handled it.
+
+**Careful:** "inspection and repairs completed" is her claim about her own listing. Do
+not assert that the HOA holds a current Balcony Safety Certificate — that is unverified,
+and it is exactly the document a sixteen-year litigation-support professional would ask
+to see.
