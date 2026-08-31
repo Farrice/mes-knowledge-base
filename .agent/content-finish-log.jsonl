@@ -583,3 +583,8 @@
 {"ts": "2026-08-31T16:48:44Z", "label": "health-performance-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('active \u2026 active \u2026 active') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-08-31T16:49:10Z", "label": "health-performance-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('active \u2026 active \u2026 active') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-08-31T16:49:37Z", "label": "health-performance-method-card", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-31T19:58:24Z", "label": "corrected-health-creative-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('can \u2026 can \u2026 can') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-31T19:58:53Z", "label": "corrected-health-creative-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('a \u2026 a \u2026 a') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-31T19:59:40Z", "label": "corrected-health-creative-method-card", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-31T20:00:59Z", "label": "corrected-health-creative-method-card", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-31T20:01:30Z", "label": "corrected-health-creative-method-card", "verdict": "CLEAN", "fails": [], "warns": []}
