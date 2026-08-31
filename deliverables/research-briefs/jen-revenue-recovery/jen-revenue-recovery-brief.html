@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>from finished proof to the first $600 · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-work-is-built-the-commercial-story-is-fragmented">the work is built; the commercial story is fragmented</a><a href="#what-exists-right-now">what exists right now</a><a href="#what-you-were-building-for-jen">what you were building for Jen</a><a href="#claude-design-and-codex-are-good-at-different-parts">Claude Design and Codex are good at different parts</a><a href="#what-the-recovered-files-actually-prove">what the recovered files actually prove</a><a href="#which-lane-deserves-attention">which lane deserves attention</a><a href="#run-one-two-part-demonstration">run one two-part demonstration</a><a href="#the-shortest-honest-path-to-a-receipt">the shortest honest path to a receipt</a><a href="#the-next-24-hours">the next 24 hours</a><a href="#the-words-to-use">the words to use</a><a href="#the-recovered-demonstration-rail">the recovered demonstration rail</a><a href="#what-this-plan-does-not-claim">what this plan does not claim</a><a href="#source-decisions-worth-preserving">source decisions worth preserving</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/homebase/homebase.html" data-route="/">🏠 homebase ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/brain/brain.html" data-route="/brain">🧠 brain ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/catalog/library.html" data-route="/library">🏛 library ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/deliverables/research-briefs/index.html" data-route="/room">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/assets/assets-board.html" data-route="/assets">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/oracle/oracle-dashboard.html" data-route="/oracle">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/mdview/index.html" data-route="/repo/.agent/mdview/index.html">📄 docs ↗</a></span><script data-surface-nav-live="1">if(location.protocol.indexOf('http')===0){document.querySelectorAll('.homenav a[data-route]').forEach(function(a){a.href=a.dataset.route;});}</script><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">JEN · REVENUE RECOVERY</span>
+    <h1 class="display">from finished proof to the first <em>$600</em></h1>
+    <p class="dek">The Jen work is not missing. It is over-separated. This brief reconnects the strongest visual demonstration, the deliverable that is ready now, the offer that can be sold honestly, and the proof events that still have to happen.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">March-August 2026</span></div>
+      <div><span class="k">Lens</span><span class="v">revenue · client service · design · proof</span></div>
+      <div><span class="k">Sources</span><span class="v">4 offer lanes + 2 client systems + proof ledger</span></div>
+      <div><span class="k">Compiled</span><span class="v">August 31, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-work-is-built-the-commercial-story-is-fragmented"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the work is built; the commercial story is <em>fragmented</em></h2></div><span class="kicker" style="margin-bottom:8px">VERDICT</span><div class="panel"><p>Claude Design produced a strong presentation surface: First Home Valley is coherent, visually polished, and backed by a real content and lead-engine build. Codex should not redraw it. Codex&#x27;s advantage is recovering the scattered decisions, keeping the proof labels honest, and turning the assets into a sequence that can produce a buyer event.</p><p>The immediate offer is the Listing Launch Kit, not the unfinished four-module Revenue Desk. The smallest truthful target is three founding kits at $200 each: $600 collected, three live delivery cycles, and a proof bank that can justify the $450 standard price. Jen&#x27;s First Home Valley system remains the service-to-her and demonstration layer; her team becomes the warm validation channel only after she gives permission.</p></div></section><section class="blk" id="what-exists-right-now"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what exists <em>right now</em></h2></div><div class="stats"><div class="stat"><div class="num">4<small> listing packages</small></div><span class="lab">EXISTING PROOF OBJECTS</span><div class="note">Willis, Armida, Moonseed, and Bothwell</div></div><div class="stat"><div class="num">12<small> visual assets</small></div><span class="lab">FIRST HOME VALLEY</span><div class="note">carousel, reel covers, and lead-magnet promo</div></div><div class="stat"><div class="num">$200<small> per founding kit</small></div><span class="lab">READY-TO-SELL WEDGE</span><div class="note">three sales produce the $600 target</div></div><div class="stat"><div class="num">0<small> market events</small></div><span class="lab">CURRENT PROOF LEDGER</span><div class="note">no permission, pitch, payment, use, or result has been recorded</div></div></div></section><section class="blk" id="what-you-were-building-for-jen"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what you were building for <em>Jen</em></h2></div><div class="timeline"><div class="tl-item done"><span class="date">March-July</span><h3>Jen&#x27;s listing-content engine</h3><p>A client-specific system for SFV listings: voice rules, verified property facts, shoot sheets, teleprompter scripts, captions, story sequences, DM keywords, and fair-housing checks. Willis, Armida, Moonseed, and Bothwell became the working examples.</p></div><div class="tl-item done"><span class="date">August 24-25</span><h3>Productization fork</h3><p>The work branched into a low-ticket content subscription, a $950 Listing Launch Install, and a $750 four-module Revenue Desk. Red-team work killed the agency-first and generic-template logic. The Revenue Desk remained incomplete because Local Authority was partial and Lead Reactivation had not been built or tested.</p></div><div class="tl-item done"><span class="date">August 29</span><h3>Jen-Team Pilot</h3><p>The broad product collapsed into a ready wedge: one active listing becomes a 48-hour Listing Launch Kit. Three founding spots at $200, a fictional sample, agent intake, pitch-day messages, visual carousels, and a proof ledger were completed.</p></div><div class="tl-item done"><span class="date">August 30</span><h3>First Home Valley</h3><p>A separate service-to-Jen demonstration was completed: 12 designed assets, a buyer-objection demo, teleprompter flow, DM machine, math-sheet magnet, sourced flagship script, and launch plan. It is waiting on Jen&#x27;s first-post pick, voice verdict, and channel greenlight.</p></div><div class="tl-item"><span class="date">Now</span><h3>Reconnect service, offer, and proof</h3><p>First Home Valley earns the conversation with Jen. Her permission unlocks the three-agent Kit test. Paid use of the Kit earns the right to revisit the larger Revenue Desk.</p></div></div></section><section class="blk" id="claude-design-and-codex-are-good-at-different-parts"><div class="sechead"><span class="secnum">04</span><h2 class="sec">Claude Design and Codex are good at <em>different parts</em></h2></div><div class="matrix-axes">↑ operating spine · presentation surface →</div><div class="matrix"><div class="quad"><span class="qlab">CODEX · STRONG FIT</span><ul><li>Recovery and synthesis<small>Finds the offer canon, handoffs, proof ledgers, stale branches, and contradictory price paths in the local workspace</small></li><li>Execution control<small>Keeps external sends gated, proof states separate, files inspectable, and delivery tied to receipts</small></li></ul></div><div class="quad"><span class="qlab">CLAUDE DESIGN · STRONG FIT</span><ul><li>Visual canvas work<small>The completed First Home Valley and Jen carousel canvases show stronger direct visual authoring and iteration</small></li><li>Live presentation feel<small>Interactive artifacts make the show-and-react conversation with Jen easier than a document alone</small></li></ul></div><div class="quad"><span class="qlab">HYBRID · USE NOW</span><ul><li>Keep the visual assets<small>Present the existing Claude-designed work; do not redraw approved visual systems</small></li><li>Run the business from Codex<small>Use this brief, the local offer canon, the proof ledger, and the delivery system as the operating layer</small></li></ul></div><div class="quad"><span class="qlab">AVOID</span><ul><li>Tool-versus-tool rebuild<small>Recreating finished visuals just to compare environments delays the only evidence that matters next: permission and payment</small></li></ul></div></div></section><section class="blk" id="what-the-recovered-files-actually-prove"><div class="sechead"><span class="secnum">05</span><h2 class="sec">what the recovered files actually <em>prove</em></h2><span class="sectag">EVIDENCE BOUNDARIES</span></div><div class="ev"><span class="mark">✓</span><div><h3>The Listing Launch Kit is deliverable now.</h3><p>The offer, intake, fictional sample, repeatable six-step delivery process, compliance pass, pitch messages, and proof ledger already exist. The operating estimate is about two hours per kit with no paid API requirement.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">_active/clients/jen-team-pilot/OFFER-BRIEF.md</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The First Home Valley demo is a strong visual proof object for Jen.</h3><p>The local build contains 12 rendered assets, an interactive four-part demo plan, a sourced flagship script, a lead magnet, a DM sequence, and a post-demo greenlight track. The design review sheet is present and visually coherent.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">_active/clients/jen-santulan/production/first-home-valley/</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The $750 Realtor AI Revenue Desk is not ready to promise as complete.</h3><p>Its own capability audit marks Agent Brain and Listing Launch as ready, Local Authority as partial, and Lead Reactivation as a gap requiring a reusable build and test.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>No revenue or closing lift has been demonstrated yet.</h3><p>The proof ledger contains headers but no event rows. Existing assets demonstrate craft and readiness, not paid demand, qualified conversations, listings won, or closings caused.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The system can help create more qualified conversations, but closings remain an outcome hypothesis.</h3><p>The kit includes DM-keyword capture and listing-specific follow-up, while First Home Valley includes a buyer-objection and lead-nurture path. Actual qualified conversations and closings require distribution, use, follow-up, and logged outcomes.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><span class="srcref">local deliverables; no buyer event yet</span></div></div></div></section><section class="blk" id="which-lane-deserves-attention"><div class="sechead"><span class="secnum">06</span><h2 class="sec">which lane deserves attention</h2></div><div class="matrix-axes">↑ nearer to cash · more build required →</div><div class="matrix"><div class="quad"><span class="qlab">NEAR CASH · READY</span><ul><li>Listing Launch Kit<small>$200 founding; three warm sales = $600; all core delivery assets exist</small></li></ul></div><div class="quad"><span class="qlab">NEAR CASH · NEEDS BUILD</span><ul><li>Realtor AI Revenue Desk<small>$750 hypothesis; one partial and one missing module make it a demand-test proposal, not a finished install</small></li></ul></div><div class="quad"><span class="qlab">SERVICE TO JEN · READY</span><ul><li>First Home Valley<small>best visual demonstration and lead-engine concept; waiting on Jen&#x27;s reaction and greenlights</small></li></ul></div><div class="quad"><span class="qlab">PARKED UNTIL PROOF</span><ul><li>$49 subscription / $950 install<small>broader commitments and price arguments create more burden before the first buyer receipt</small></li></ul></div></div></section><section class="decision" id="run-one-two-part-demonstration"><span class="kicker">THE COMMERCIAL PATH</span><h2>run one <em>two-part</em> demonstration</h2><p class="dek">Jen should see both the thing that serves her and the small offer that can serve agents she trusts. Do not ask the demo to sell four offers.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Show Jen First Home Valley as the service-to-her.</h3><p>This keeps the emotional center correct: you are helping her build a buyer-education and conversation engine, not using her as a lead list. Capture her first-post pick, voice verdict, and channel greenlight.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Ask for permission to show one listing package to three agents.</h3><p>Permission is the first missing proof event. Her yes unlocks the warm channel without implying endorsement, results, or an obligation to sell for you.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Offer three founding Listing Launch Kits at $200 each.</h3><p>The deliverable exists, the scope is bounded, and three sales equal $600. Keep payment, delivery, use, conversations, repeat purchase, and referrals as separate receipts.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Earn the right to sell the $750 install later.</h3><p>After one or more agents pay and use the flagship, the missing Lead Reactivation module can be built from real inputs. Until then, the Revenue Desk stays a parked expansion—not the front-door offer.</p></div></div></div></section><section class="blk" id="the-shortest-honest-path-to-a-receipt"><div class="sechead"><span class="secnum">08</span><h2 class="sec">the shortest honest path to a receipt</h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Jen demo</h3><p>Show First Home Valley; collect three greenlights</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Permission</h3><p>Get an explicit yes to show her package to teammates</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Three warm asks</h3><p>Send one personalized message per agent after approval</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Three payments</h3><p>$200 each; log collected cash, not verbal interest</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>48-hour delivery</h3><p>One verified listing package per buyer</p></div><span class="arrow">→</span><div class="step"><span class="n">06</span><h3>Use + outcome capture</h3><p>Record posting, DMs, qualified conversations, repeat/referral</p></div></div><div class="bars-caption">Every arrow requires a real event; readiness cannot substitute for it.</div></section><section class="blk" id="the-next-24-hours"><div class="sechead"><span class="secnum">09</span><h2 class="sec">the next 24 hours</h2><span class="sectag">RUN THIS</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Prepare the room</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Open the First Home Valley review sheet and the sample Listing Launch Kit side by side so the demonstration moves from her business to the agent offer in under seven minutes.</p><pre>Open the First Home Valley demo, the visual review sheet, and the sample kit before Jen sits down.</pre><div class="touches"><span>_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md</span><span>_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md</span></div><div class="receipt"><b>receipt</b>Both proof objects open locally; no private client detail is visible in the sample.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Capture the permission event</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Separate permission to show internal examples from permission to use Jen&#x27;s name or results publicly.</p><pre>Record Jen&#x27;s answer in the proof ledger and save the permission receipt in proof/00-permissions/.</pre><div class="touches"><span>_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv</span><span>_active/clients/jen-team-pilot/proof/00-permissions/</span></div><div class="receipt"><b>receipt</b>A dated permission record names internal, named, and public-use boundaries separately.</div></div></div><div class="play"><div class="head"><span class="n">03</span><h3>Release only the first three asks</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Test the ready SKU before investing in the unfinished install.</p><pre>After Jen approves, personalize the three existing DMs. Farrice sends them manually.</pre><div class="touches"><span>_active/clients/jen-team-pilot/PITCH-DAY.md</span><span>_active/clients/jen-team-pilot/SENT-LOG.md</span></div><div class="receipt"><b>receipt</b>Three dated sends; replies, payments, and collected revenue reported separately.</div></div></div></section><section class="blk" id="the-words-to-use"><div class="sechead"><span class="secnum">10</span><h2 class="sec">the words to use</h2><span class="sectag">APPROVAL-READY</span></div><div class="deploy"><div class="bar"><span class="k">Jen show-and-ask</span><button class="copybtn" type="button">copy</button></div><pre>I built two connected things I want to show you. First is First Home Valley—the buyer-education and follow-up system for your business. Second is a smaller listing-launch package I could make for a few agents you trust. I want your honest reaction to the first, and your permission before I show any of your listing work to anyone. If you like the agent package, would you be comfortable with me offering three founding spots to people on the team?</pre></div><div class="deploy"><div class="bar"><span class="k">Agent with a live listing</span><button class="copybtn" type="button">copy</button></div><pre>Hey [name]—Jen said it was okay for me to show you the listing-launch system I built around her content. I turn one active listing into the shoot plan, three ready-to-read reels, captions, stories, a DM keyword flow, and a fair-housing check. I am opening three founding kits at $200 before the standard price becomes $450. Want to see the sample?</pre></div><div class="deploy"><div class="bar"><span class="k">No-active-listing fallback</span><button class="copybtn" type="button">copy</button></div><pre>No active listing is fine. The same founding spot can become an Agent Engine Starter: a profile fix plus ten ready-to-film scripts in your voice and a two-week plan. Same $200 founding rate. Want to see what the output looks like?</pre></div></section><section class="blk" id="the-recovered-demonstration-rail"><div class="sechead"><span class="secnum">11</span><h2 class="sec">the recovered demonstration rail</h2><span class="sectag">DO NOT REBUILD</span></div><div class="assetgrid"><div class="asset"><span class="role">SERVICE TO JEN</span><h3>First Home Valley visual system</h3><img src="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png" alt="First Home Valley visual system" loading="lazy"><p>Twelve designed assets, interactive demo plan, lead magnet, and launch path.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/README.md">_active/clients/jen-santulan/production/first-home-valley/README.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/README.md">copy path</button></div></div><div class="asset"><span class="role">AGENT SALES PROOF</span><h3>Listing Launch Kit sample</h3><p>Fictional property, truthful sample labeling, full deliverable shape.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md">_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md">copy path</button></div></div><div class="asset"><span class="role">OFFER CANON</span><h3>Jen-Team Pilot offer brief</h3><p>$200 founding rate, $450 standard, six-step delivery, risks, and kill criteria.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/OFFER-BRIEF.md">_active/clients/jen-team-pilot/OFFER-BRIEF.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/OFFER-BRIEF.md">copy path</button></div></div><div class="asset"><span class="role">REVENUE TRUTH</span><h3>Proof ledger</h3><p>Currently empty. This is the correct place for permission, payment, use, and outcome receipts.</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv">_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv">copy path</button></div></div></div></section><section class="blk caveats" id="what-this-plan-does-not-claim"><span class="kicker" style="margin-bottom:10px">PROOF BOUNDARIES</span><h2>what this plan does <em>not</em> claim</h2><p>The Listing Launch Kit has not been sold yet. First Home Valley has not produced a qualified lead or closing yet. A post, view, DM, fit call, deposit, full payment, referral, listing appointment, signed client, and closing are different events and must remain separate.</p><p>The $600 target requires three $200 payments, not three expressions of interest. The copy above is prepared only; no message has been sent and no permission has been inferred. Jen&#x27;s service and her network introduction should remain relationally separate: help her first, then ask.</p></section><section class="blk" id="source-decisions-worth-preserving"><div class="sechead"><span class="secnum">13</span><h2 class="sec">source decisions worth preserving</h2><span class="sectag">LINEAGE</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md"><span class="k">HANDOFF</span><span class="t">First Home Valley demo handoff</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-29-jen-team-pilot.md"><span class="k">HANDOFF</span><span class="t">Jen-Team Pilot handoff</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md"><span class="k">SOLUTION</span><span class="t">Listing Launch Install red-team verdict</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md"><span class="k">OFFER</span><span class="t">Realtor AI Revenue Desk founding pilot</span></a></div></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">14</span><h2 class="sec">source ledger</h2><span class="sectag">stack: local Claude Code handoffs · Jen client canon · realtor offer ledger · Codex reconciliation</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Jen-Team Pilot Offer Brief</td><td><a href="_active/clients/jen-team-pilot/OFFER-BRIEF.md" target="_blank" rel="noopener">_active/clients/jen-team-pilot/OFFER-BRIEF.md</a></td><td>2026-08-31</td><td>ready offer, price, delivery time, pitch, kill criteria</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>First Home Valley project status</td><td><a href="_active/clients/jen-santulan/production/first-home-valley/README.md" target="_blank" rel="noopener">_active/clients/jen-santulan/production/first-home-valley/README.md</a></td><td>2026-08-31</td><td>visual/demo inventory and Jen greenlight gates</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Realtor AI Revenue Desk proposal</td><td><a href="_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md" target="_blank" rel="noopener">_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md</a></td><td>2026-08-31</td><td>capability gaps and parked $750 expansion</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Listing Launch Kit proof ledger</td><td><a href="_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv" target="_blank" rel="noopener">_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv</a></td><td>2026-08-31</td><td>current no-event state</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">15</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-listings/CLAUDE.md">_active/clients/jen-listings/CLAUDE.md</a></td><td>Jen brand, audience, and voice authority</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/SKILL.md">skills/jen-santulan-listing-content/SKILL.md</a></td><td>listing-content production owner</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/genius.md">skills/jen-santulan-listing-content/genius.md</a></td><td>Jen content craft and voice</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/PITCH-DAY.md">_active/clients/jen-team-pilot/PITCH-DAY.md</a></td><td>existing approved pitch sequence</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md">_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md</a></td><td>agent-facing sample proof object</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png">_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png</a></td><td>visual review proof</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md">_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md</a></td><td>playbook · Prepare the room</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv">_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv</a></td><td>playbook · Capture the permission event</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/00-permissions">_active/clients/jen-team-pilot/proof/00-permissions</a></td><td>playbook · Capture the permission event</td></tr><tr><td>10</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/SENT-LOG.md">_active/clients/jen-team-pilot/SENT-LOG.md</a></td><td>playbook · Release only the first three asks</td></tr><tr><td>11</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/README.md">_active/clients/jen-santulan/production/first-home-valley/README.md</a></td><td>asset · SERVICE TO JEN</td></tr><tr><td>12</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/OFFER-BRIEF.md">_active/clients/jen-team-pilot/OFFER-BRIEF.md</a></td><td>asset · OFFER CANON</td></tr><tr><td>13</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md">.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md</a></td><td>related · HANDOFF</td></tr><tr><td>14</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-29-jen-team-pilot.md">.agent/handoffs/2026-08-29-jen-team-pilot.md</a></td><td>related · HANDOFF</td></tr><tr><td>15</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md">docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md</a></td><td>related · SOLUTION</td></tr><tr><td>16</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md">_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md</a></td><td>related · OFFER</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;jen-revenue-recovery&quot;,
+  &quot;title&quot;: &quot;from finished proof to the first $600&quot;,
+  &quot;compiled&quot;: &quot;August 31, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/CLAUDE.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-listings/CLAUDE.md&quot;,
+      &quot;role&quot;: &quot;Jen brand, audience, and voice authority&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/jen-santulan-listing-content/SKILL.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/SKILL.md&quot;,
+      &quot;role&quot;: &quot;listing-content production owner&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/jen-santulan-listing-content/genius.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/genius.md&quot;,
+      &quot;role&quot;: &quot;Jen content craft and voice&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/PITCH-DAY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/PITCH-DAY.md&quot;,
+      &quot;role&quot;: &quot;existing approved pitch sequence&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md&quot;,
+      &quot;role&quot;: &quot;agent-facing sample proof object&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png&quot;,
+      &quot;role&quot;: &quot;visual review proof&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md&quot;,
+      &quot;role&quot;: &quot;playbook · Prepare the room&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv&quot;,
+      &quot;role&quot;: &quot;playbook · Capture the permission event&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/proof/00-permissions&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/00-permissions&quot;,
+      &quot;role&quot;: &quot;playbook · Capture the permission event&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/SENT-LOG.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/SENT-LOG.md&quot;,
+      &quot;role&quot;: &quot;playbook · Release only the first three asks&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-santulan/production/first-home-valley/README.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/README.md&quot;,
+      &quot;role&quot;: &quot;asset · SERVICE TO JEN&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/OFFER-BRIEF.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/OFFER-BRIEF.md&quot;,
+      &quot;role&quot;: &quot;asset · OFFER CANON&quot;
+    },
+    {
+      &quot;path&quot;: &quot;.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md&quot;,
+      &quot;role&quot;: &quot;related · HANDOFF&quot;
+    },
+    {
+      &quot;path&quot;: &quot;.agent/handoffs/2026-08-29-jen-team-pilot.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-29-jen-team-pilot.md&quot;,
+      &quot;role&quot;: &quot;related · HANDOFF&quot;
+    },
+    {
+      &quot;path&quot;: &quot;docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md&quot;,
+      &quot;role&quot;: &quot;related · SOLUTION&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md&quot;,
+      &quot;role&quot;: &quot;related · OFFER&quot;
+    }
+  ],
+  &quot;urls&quot;: []
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY · INTERNAL OPERATOR BRIEF</span>
+    <span>FARRICE + JEN</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-context.json\nCOMPILED: August 31, 2026\n\n# from finished proof to the first $600\n\n> JEN · REVENUE RECOVERY · window: March-August 2026 · lens: revenue · client service · design · proof · sources: 4 offer lanes + 2 client systems + proof ledger · compiled: August 31, 2026\n\nThe Jen work is not missing. It is over-separated. This brief reconnects the strongest visual demonstration, the deliverable that is ready now, the offer that can be sold honestly, and the proof events that still have to happen.\n\n## the work is built; the commercial story is fragmented\n_VERDICT_\nClaude Design produced a strong presentation surface: First Home Valley is coherent, visually polished, and backed by a real content and lead-engine build. Codex should not redraw it. Codex's advantage is recovering the scattered decisions, keeping the proof labels honest, and turning the assets into a sequence that can produce a buyer event.\n\nThe immediate offer is the Listing Launch Kit, not the unfinished four-module Revenue Desk. The smallest truthful target is three founding kits at $200 each: $600 collected, three live delivery cycles, and a proof bank that can justify the $450 standard price. Jen's First Home Valley system remains the service-to-her and demonstration layer; her team becomes the warm validation channel only after she gives permission.\n\n## what exists right now\n- EXISTING PROOF OBJECTS: **4 listing packages** (Willis, Armida, Moonseed, and Bothwell)\n- FIRST HOME VALLEY: **12 visual assets** (carousel, reel covers, and lead-magnet promo)\n- READY-TO-SELL WEDGE: **$200 per founding kit** (three sales produce the $600 target)\n- CURRENT PROOF LEDGER: **0 market events** (no permission, pitch, payment, use, or result has been recorded)\n\n## what you were building for Jen\n- March-July · **Jen's listing-content engine** — A client-specific system for SFV listings: voice rules, verified property facts, shoot sheets, teleprompter scripts, captions, story sequences, DM keywords, and fair-housing checks. Willis, Armida, Moonseed, and Bothwell became the working examples.\n- August 24-25 · **Productization fork** — The work branched into a low-ticket content subscription, a $950 Listing Launch Install, and a $750 four-module Revenue Desk. Red-team work killed the agency-first and generic-template logic. The Revenue Desk remained incomplete because Local Authority was partial and Lead Reactivation had not been built or tested.\n- August 29 · **Jen-Team Pilot** — The broad product collapsed into a ready wedge: one active listing becomes a 48-hour Listing Launch Kit. Three founding spots at $200, a fictional sample, agent intake, pitch-day messages, visual carousels, and a proof ledger were completed.\n- August 30 · **First Home Valley** — A separate service-to-Jen demonstration was completed: 12 designed assets, a buyer-objection demo, teleprompter flow, DM machine, math-sheet magnet, sourced flagship script, and launch plan. It is waiting on Jen's first-post pick, voice verdict, and channel greenlight.\n- Now · **Reconnect service, offer, and proof** — First Home Valley earns the conversation with Jen. Her permission unlocks the three-agent Kit test. Paid use of the Kit earns the right to revisit the larger Revenue Desk.\n\n## Claude Design and Codex are good at different parts\n- **CODEX · STRONG FIT**: Recovery and synthesis (Finds the offer canon, handoffs, proof ledgers, stale branches, and contradictory price paths in the local workspace), Execution control (Keeps external sends gated, proof states separate, files inspectable, and delivery tied to receipts)\n- **CLAUDE DESIGN · STRONG FIT**: Visual canvas work (The completed First Home Valley and Jen carousel canvases show stronger direct visual authoring and iteration), Live presentation feel (Interactive artifacts make the show-and-react conversation with Jen easier than a document alone)\n- **HYBRID · USE NOW**: Keep the visual assets (Present the existing Claude-designed work; do not redraw approved visual systems), Run the business from Codex (Use this brief, the local offer canon, the proof ledger, and the delivery system as the operating layer)\n- **AVOID**: Tool-versus-tool rebuild (Recreating finished visuals just to compare environments delays the only evidence that matters next: permission and payment)\n\n## what the recovered files actually prove\n- **The Listing Launch Kit is deliverable now.** [VERIFIED] — The offer, intake, fictional sample, repeatable six-step delivery process, compliance pass, pitch messages, and proof ledger already exist. The operating estimate is about two hours per kit with no paid API requirement. (_active/clients/jen-team-pilot/OFFER-BRIEF.md)\n- **The First Home Valley demo is a strong visual proof object for Jen.** [VERIFIED] — The local build contains 12 rendered assets, an interactive four-part demo plan, a sourced flagship script, a lead magnet, a DM sequence, and a post-demo greenlight track. The design review sheet is present and visually coherent. (_active/clients/jen-santulan/production/first-home-valley/)\n- **The $750 Realtor AI Revenue Desk is not ready to promise as complete.** [VERIFIED] — Its own capability audit marks Agent Brain and Listing Launch as ready, Local Authority as partial, and Lead Reactivation as a gap requiring a reusable build and test. (_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md)\n- **No revenue or closing lift has been demonstrated yet.** [VERIFIED] — The proof ledger contains headers but no event rows. Existing assets demonstrate craft and readiness, not paid demand, qualified conversations, listings won, or closings caused. (_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv)\n- **The system can help create more qualified conversations, but closings remain an outcome hypothesis.** [UNCONFIRMED] — The kit includes DM-keyword capture and listing-specific follow-up, while First Home Valley includes a buyer-objection and lead-nurture path. Actual qualified conversations and closings require distribution, use, follow-up, and logged outcomes. (local deliverables; no buyer event yet)\n\n## which lane deserves attention\n- **NEAR CASH · READY**: Listing Launch Kit ($200 founding; three warm sales = $600; all core delivery assets exist)\n- **NEAR CASH · NEEDS BUILD**: Realtor AI Revenue Desk ($750 hypothesis; one partial and one missing module make it a demand-test proposal, not a finished install)\n- **SERVICE TO JEN · READY**: First Home Valley (best visual demonstration and lead-engine concept; waiting on Jen's reaction and greenlights)\n- **PARKED UNTIL PROOF**: $49 subscription / $950 install (broader commitments and price arguments create more burden before the first buyer receipt)\n\n## run one two-part demonstration\nJen should see both the thing that serves her and the small offer that can serve agents she trusts. Do not ask the demo to sell four offers.\n1. **Show Jen First Home Valley as the service-to-her.** — This keeps the emotional center correct: you are helping her build a buyer-education and conversation engine, not using her as a lead list. Capture her first-post pick, voice verdict, and channel greenlight.\n2. **Ask for permission to show one listing package to three agents.** — Permission is the first missing proof event. Her yes unlocks the warm channel without implying endorsement, results, or an obligation to sell for you.\n3. **Offer three founding Listing Launch Kits at $200 each.** — The deliverable exists, the scope is bounded, and three sales equal $600. Keep payment, delivery, use, conversations, repeat purchase, and referrals as separate receipts.\n4. **Earn the right to sell the $750 install later.** — After one or more agents pay and use the flagship, the missing Lead Reactivation module can be built from real inputs. Until then, the Revenue Desk stays a parked expansion—not the front-door offer.\n\n## the shortest honest path to a receipt\nJen demo → Permission → Three warm asks → Three payments → 48-hour delivery → Use + outcome capture\n  - Jen demo: Show First Home Valley; collect three greenlights\n  - Permission: Get an explicit yes to show her package to teammates\n  - Three warm asks: Send one personalized message per agent after approval\n  - Three payments: $200 each; log collected cash, not verbal interest\n  - 48-hour delivery: One verified listing package per buyer\n  - Use + outcome capture: Record posting, DMs, qualified conversations, repeat/referral\n\n## the next 24 hours\n1. **Prepare the room** — Open the First Home Valley review sheet and the sample Listing Launch Kit side by side so the demonstration moves from her business to the agent offer in under seven minutes.\n```\nOpen the First Home Valley demo, the visual review sheet, and the sample kit before Jen sits down.\n```\n   touches: _active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md · _active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md\n   receipt: Both proof objects open locally; no private client detail is visible in the sample.\n2. **Capture the permission event** — Separate permission to show internal examples from permission to use Jen's name or results publicly.\n```\nRecord Jen's answer in the proof ledger and save the permission receipt in proof/00-permissions/.\n```\n   touches: _active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv · _active/clients/jen-team-pilot/proof/00-permissions/\n   receipt: A dated permission record names internal, named, and public-use boundaries separately.\n3. **Release only the first three asks** — Test the ready SKU before investing in the unfinished install.\n```\nAfter Jen approves, personalize the three existing DMs. Farrice sends them manually.\n```\n   touches: _active/clients/jen-team-pilot/PITCH-DAY.md · _active/clients/jen-team-pilot/SENT-LOG.md\n   receipt: Three dated sends; replies, payments, and collected revenue reported separately.\n\n## the words to use\n**Jen show-and-ask**\n```\nI built two connected things I want to show you. First is First Home Valley—the buyer-education and follow-up system for your business. Second is a smaller listing-launch package I could make for a few agents you trust. I want your honest reaction to the first, and your permission before I show any of your listing work to anyone. If you like the agent package, would you be comfortable with me offering three founding spots to people on the team?\n```\n**Agent with a live listing**\n```\nHey [name]—Jen said it was okay for me to show you the listing-launch system I built around her content. I turn one active listing into the shoot plan, three ready-to-read reels, captions, stories, a DM keyword flow, and a fair-housing check. I am opening three founding kits at $200 before the standard price becomes $450. Want to see the sample?\n```\n**No-active-listing fallback**\n```\nNo active listing is fine. The same founding spot can become an Agent Engine Starter: a profile fix plus ten ready-to-film scripts in your voice and a two-week plan. Same $200 founding rate. Want to see what the output looks like?\n```\n\n## the recovered demonstration rail\n- **First Home Valley visual system** [SERVICE TO JEN] `_active/clients/jen-santulan/production/first-home-valley/README.md` — Twelve designed assets, interactive demo plan, lead magnet, and launch path.\n- **Listing Launch Kit sample** [AGENT SALES PROOF] `_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md` — Fictional property, truthful sample labeling, full deliverable shape.\n- **Jen-Team Pilot offer brief** [OFFER CANON] `_active/clients/jen-team-pilot/OFFER-BRIEF.md` — $200 founding rate, $450 standard, six-step delivery, risks, and kill criteria.\n- **Proof ledger** [REVENUE TRUTH] `_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv` — Currently empty. This is the correct place for permission, payment, use, and outcome receipts.\n\n## what this plan does not claim\n_PROOF BOUNDARIES_\nThe Listing Launch Kit has not been sold yet. First Home Valley has not produced a qualified lead or closing yet. A post, view, DM, fit call, deposit, full payment, referral, listing appointment, signed client, and closing are different events and must remain separate.\n\nThe $600 target requires three $200 payments, not three expressions of interest. The copy above is prepared only; no message has been sent and no permission has been inferred. Jen's service and her network introduction should remain relationally separate: help her first, then ask.\n\n## source decisions worth preserving\n- [HANDOFF] First Home Valley demo handoff — .agent/handoffs/2026-08-30-clients-jen-first-home-valley.md\n- [HANDOFF] Jen-Team Pilot handoff — .agent/handoffs/2026-08-29-jen-team-pilot.md\n- [SOLUTION] Listing Launch Install red-team verdict — docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md\n- [OFFER] Realtor AI Revenue Desk founding pilot — _active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md\n\n## Source ledger\n1. Jen-Team Pilot Offer Brief — _active/clients/jen-team-pilot/OFFER-BRIEF.md (retrieved 2026-08-31, VERIFIED; used for: ready offer, price, delivery time, pitch, kill criteria)\n2. First Home Valley project status — _active/clients/jen-santulan/production/first-home-valley/README.md (retrieved 2026-08-31, VERIFIED; used for: visual/demo inventory and Jen greenlight gates)\n3. Realtor AI Revenue Desk proposal — _active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md (retrieved 2026-08-31, VERIFIED; used for: capability gaps and parked $750 expansion)\n4. Listing Launch Kit proof ledger — _active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv (retrieved 2026-08-31, VERIFIED; used for: current no-event state)\n\n## Context pack (agent feed)\n- `_active/clients/jen-listings/CLAUDE.md` — Jen brand, audience, and voice authority\n- `skills/jen-santulan-listing-content/SKILL.md` — listing-content production owner\n- `skills/jen-santulan-listing-content/genius.md` — Jen content craft and voice\n- `_active/clients/jen-team-pilot/PITCH-DAY.md` — existing approved pitch sequence\n- `_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md` — agent-facing sample proof object\n- `_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png` — visual review proof\n- `_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md` — playbook · Prepare the room\n- `_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv` — playbook · Capture the permission event\n- `_active/clients/jen-team-pilot/proof/00-permissions` — playbook · Capture the permission event\n- `_active/clients/jen-team-pilot/SENT-LOG.md` — playbook · Release only the first three asks\n- `_active/clients/jen-santulan/production/first-home-valley/README.md` — asset · SERVICE TO JEN\n- `_active/clients/jen-team-pilot/OFFER-BRIEF.md` — asset · OFFER CANON\n- `.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md` — related · HANDOFF\n- `.agent/handoffs/2026-08-29-jen-team-pilot.md` — related · HANDOFF\n- `docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md` — related · SOLUTION\n- `_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md` — related · OFFER\n\n_stack: local Claude Code handoffs · Jen client canon · realtor offer ledger · Codex reconciliation_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = false;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery";
+  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var relPath = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return uri.slice(PREFIX.length);
+    };
+    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
+      .catch(function(){ LIVE = false; return false; });
+    var browserRoute = function(uri){
+      var rel = relPath(uri);
+      if (!rel) return null;
+      return (LIVE ? '/repo/' : '/') + rel;
+    };
+    HANDSHAKE.then(function(){
+      // Images must be same-origin or they render as broken glyphs. Generic
+      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
+      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+        var r = browserRoute(img.getAttribute('src'));
+        if (r) img.setAttribute('src', r);
+      });
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        ev.preventDefault();
+        HANDSHAKE.then(function(){
+          var repo = browserRoute(href);
+          if (repo && INLINE.test(repo.split('?')[0])){
+            window.location = repo;
+            return;
+          }
+          if (!LIVE){ window.location = href; return; }
+          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
+            .then(function(r){ return r.json(); })
+            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+            .catch(function(){ toast('open failed'); });
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

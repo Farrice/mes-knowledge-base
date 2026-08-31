@@ -1,0 +1,113 @@
+{
+  "slug": "jen-revenue-recovery",
+  "title": "from finished proof to the first $600",
+  "compiled": "August 31, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.html",
+  "brief_md": "deliverables/research-briefs/jen-revenue-recovery/jen-revenue-recovery-brief.md",
+  "paths": [
+    {
+      "path": "_active/clients/jen-listings/CLAUDE.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-listings/CLAUDE.md",
+      "role": "Jen brand, audience, and voice authority"
+    },
+    {
+      "path": "skills/jen-santulan-listing-content/SKILL.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/SKILL.md",
+      "role": "listing-content production owner"
+    },
+    {
+      "path": "skills/jen-santulan-listing-content/genius.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/skills/jen-santulan-listing-content/genius.md",
+      "role": "Jen content craft and voice"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/PITCH-DAY.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/PITCH-DAY.md",
+      "role": "existing approved pitch sequence"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/demo-kit/SAMPLE-KIT.md",
+      "role": "agent-facing sample proof object"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/canvas-v2/review/sheet.png",
+      "role": "visual review proof"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/DEMO-RUN.md",
+      "role": "playbook · Prepare the room"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/PROOF-LEDGER.csv",
+      "role": "playbook · Capture the permission event"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/proof/00-permissions",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/proof/00-permissions",
+      "role": "playbook · Capture the permission event"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/SENT-LOG.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/SENT-LOG.md",
+      "role": "playbook · Release only the first three asks"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/README.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-santulan/production/first-home-valley/README.md",
+      "role": "asset · SERVICE TO JEN"
+    },
+    {
+      "path": "_active/clients/jen-team-pilot/OFFER-BRIEF.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/clients/jen-team-pilot/OFFER-BRIEF.md",
+      "role": "asset · OFFER CANON"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-30-clients-jen-first-home-valley.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-30-clients-jen-first-home-valley.md",
+      "role": "related · HANDOFF"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-29-jen-team-pilot.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/.agent/handoffs/2026-08-29-jen-team-pilot.md",
+      "role": "related · HANDOFF"
+    },
+    {
+      "path": "docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/docs/solutions/2026-08-24-listing-launch-install-redteam-verdict.md",
+      "role": "related · SOLUTION"
+    },
+    {
+      "path": "_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-revenue-recovery/_active/products/realtor-content-pack/OFFER-V2-REVENUE-DESK.md",
+      "role": "related · OFFER"
+    }
+  ],
+  "urls": []
+}
