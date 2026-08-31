@@ -1,0 +1,14 @@
+{
+  "artifact_type": "client_delivery_room",
+  "title": "First Home Valley — Jen Santulan",
+  "audience": "Jen Santulan",
+  "status": "client-ready-local-draft",
+  "verified_through": "2026-08-30",
+  "primary_file": "index.html",
+  "supporting_files": [
+    "math-sheet.html",
+    "CONTENT-KIT.md",
+    "START-HERE.md"
+  ],
+  "external_actions": "none"
+}

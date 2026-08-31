@@ -93,10 +93,96 @@ EXTRA_CSS = """
   .bleed .tint { background:#16304F; opacity:0.42; }
 """
 
+# Client-ready typography and brand repairs. These run after the v1 source is
+# loaded and before photography is injected, so the rendered PNGs and editable
+# v2 artboards share the same safe-area rules.
+GLOBAL_REPLACEMENTS = [
+    ("font-family:'Figtree','Avenir Next',sans-serif",
+     "font-family:'Avenir Next','Helvetica Neue',sans-serif"),
+    ("font-family:'Playfair Display',Georgia,serif",
+     "font-family:Georgia,'Times New Roman',serif"),
+    ("padding:64px 72px", "padding:76px 84px"),
+]
+
+SLIDE_REPLACEMENTS = {
+    "Main": [
+        ("font-size:104px; line-height:1.08", "font-size:98px; line-height:1.06"),
+    ],
+    "A3": [
+        ('font-size:18px; color:#5A6B80;">SOURCE:',
+         'font-size:20px; color:#5A6B80;">SOURCE:'),
+    ],
+    "A4": [
+        ("font-size:88px; line-height:1.12", "font-size:82px; line-height:1.1"),
+        ("font-size:18px; color:rgba(247,245,242,0.6);",
+         "font-size:20px; color:rgba(247,245,242,0.68);"),
+    ],
+    "A5": [
+        ("font-size:72px; line-height:1.12", "font-size:68px; line-height:1.08"),
+        ("gap:28px; padding:28px 0", "gap:22px; padding:22px 0"),
+        ("font-size:44px; color:#5A6B80; min-width:80px",
+         "font-size:42px; color:#5A6B80; min-width:72px"),
+        ("font-size:38px; font-weight:600; line-height:1.2",
+         "font-size:36px; font-weight:600; line-height:1.18"),
+        ("font-size:25px; line-height:1.45", "font-size:29px; line-height:1.38"),
+        ('font-size:18px; color:#5A6B80;">TWO OR THREE',
+         'font-size:19px; color:#5A6B80;">TWO OR THREE'),
+    ],
+    "A6": [
+        ("font-size:92px; line-height:1.1", "font-size:86px; line-height:1.08"),
+    ],
+    "M1": [
+        ("font-size:84px; line-height:1.12", "font-size:78px; line-height:1.08"),
+        ('font-size:17px; color:#5A6B80;">NUMBERS VERIFIED',
+         'font-size:19px; color:#5A6B80;">NUMBERS VERIFIED'),
+    ],
+}
+
+
+def apply_client_ready_repairs(name, html):
+    """Stabilize font metrics, safe areas, dense copy, and provisional marks."""
+    # The PNG handoff must not depend on a network font arriving before capture.
+    html = re.sub(r'<link rel="stylesheet" href="https://fonts.googleapis.com/[^>]+>',
+                  "", html)
+    for old, new in GLOBAL_REPLACEMENTS:
+        html = html.replace(old, new)
+    for old, new in SLIDE_REPLACEMENTS.get(name, []):
+        html = html.replace(old, new)
+
+    if name in {"R1", "R2", "R3", "R4", "R5"}:
+        html = html.replace(
+            "font-size:96px; line-height:1.14; font-weight:600; "
+            "letter-spacing:-0.02em; max-width:920px",
+            "font-size:90px; line-height:1.1; font-weight:600; "
+            "letter-spacing:-0.025em; max-width:880px",
+        )
+
+    if name == "R5":
+        html = html.replace(
+            "she told me she’d rent<br><span class=\"si\">forever.</span> last week<br>i handed her keys.",
+            "think you’ll rent<br><span class=\"si\">forever?</span> run the<br>numbers first.",
+        )
+
+    # The House Sellers SVG was a provisional recreation. A client-ready social
+    # asset should not imply an unofficial mark is approved. Use Jen's verified
+    # identity until her official logo file is supplied.
+    if name in {"A6", "M1"}:
+        identity = ('<div class="caps" style="font-size:19px; letter-spacing:0.16em; '
+                    'white-space:nowrap;">@_JIING · JEN SANTULAN</div>')
+        html = re.sub(r'<svg width="(?:190|210)".*?</svg>', identity, html,
+                      count=1, flags=re.S)
+        if name == "A6":
+            duplicate = (identity + '<div class="caps" style="font-size:17px; '
+                         'color:rgba(247,245,242,0.6);">JEN SANTULAN · SFV &amp; LA</div>')
+            single = ('<div class="caps" style="font-size:19px; letter-spacing:0.16em; '
+                      'white-space:nowrap;">@_JIING · JEN SANTULAN · SFV + LA</div>')
+            html = html.replace(duplicate, single)
+    return html
+
 # light-mode inline colours -> their dark-frame equivalents
 DARKEN = [
     (r"color:#1E3A5F",  "color:#FFFFFF"),
-    (r"#E7EDF4",        "rgba(255,255,255,0.15)"),   # ghost numeral
+    (r"#E7EDF4",        "rgba(255,255,255,0.09)"),   # ghost numeral
     (r"#DCE2EA",        "rgba(255,255,255,0.34)"),   # hairlines / rules
     (r"#5A6B80",        "rgba(255,255,255,0.74)"),   # muted body
     (r'stroke="#1E3A5F"', 'stroke="#FFFFFF"'),
@@ -131,6 +217,8 @@ def main():
         src = V1 / ("%s.dc.html" % name)
         html = src.read_text()
 
+        html = apply_client_ready_repairs(name, html)
+
         # 1. extend the stylesheet
         html = html.replace("</style>", EXTRA_CSS + "</style>", 1)
 
@@ -153,6 +241,10 @@ def main():
                                 spec.get("pos", "50% 50%"))
                     + html[m.end():])
 
+        # Generated sources are reviewed and committed alongside their PNGs.
+        # Normalize line endings here so a harmless blank in the v1 template
+        # does not create trailing-whitespace failures on every artboard.
+        html = "\n".join(line.rstrip() for line in html.splitlines()) + "\n"
         out = HERE / ("%s.dc.html" % name)
         out.write_text(html)
         kb = out.stat().st_size // 1024

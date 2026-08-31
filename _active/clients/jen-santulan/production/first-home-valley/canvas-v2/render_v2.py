@@ -3,7 +3,10 @@
 import glob, json, os, pathlib, shutil, subprocess
 
 HERE = pathlib.Path(__file__).parent
-OUT = HERE / "png"
+# The root png/ directory is the canonical phone/client handoff. Earlier runs
+# rendered into canvas-v2/png and then relied on a manual copy, which allowed the
+# source and delivered graphics to drift.
+OUT = HERE.parent / "png"
 CHROME = sorted(glob.glob(os.path.expanduser(
     "~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/chrome-headless-shell")))[-1]
 

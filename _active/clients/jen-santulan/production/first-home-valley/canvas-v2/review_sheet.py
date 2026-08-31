@@ -4,7 +4,7 @@ so composition and cropping can be judged across the deck in one look."""
 import base64, glob, os, pathlib, subprocess, sys
 
 HERE = pathlib.Path(__file__).parent
-SRC = HERE / "png"
+SRC = HERE.parent / "png"
 OUT = HERE / "review"
 CHROME = sorted(glob.glob(os.path.expanduser(
     "~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/chrome-headless-shell")))[-1]

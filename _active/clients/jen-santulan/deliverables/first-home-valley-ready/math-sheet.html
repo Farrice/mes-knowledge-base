@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Honest SFV First-Home Math Sheet | Jen Santulan</title>
+  <style>
+    :root{--navy:#16304f;--blue:#4c7ca8;--mist:#c9d4e2;--line:#dce2ea;--paper:#f7f5f2;--ink:#142236;--muted:#5a6b80}
+    *{box-sizing:border-box}
+    html{background:#dfe5eb}
+    body{margin:0;color:var(--ink);font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;line-height:1.45}
+    button{font:inherit}
+    .toolbar{position:sticky;top:0;z-index:5;display:flex;justify-content:center;padding:12px;background:rgba(22,48,79,.94);backdrop-filter:blur(8px)}
+    .toolbar button{border:1px solid rgba(255,255,255,.4);border-radius:999px;background:#fff;color:var(--navy);padding:10px 18px;font-weight:700;cursor:pointer}
+    .sheet{width:min(960px,calc(100% - 32px));margin:28px auto;background:#fff;box-shadow:0 16px 60px rgba(20,34,54,.18)}
+    header{position:relative;overflow:hidden;padding:56px 64px 46px;background:var(--navy);color:#fff}
+    header:after{content:"01";position:absolute;right:34px;bottom:-54px;color:rgba(255,255,255,.06);font:700 210px/1 Georgia,serif}
+    .eyebrow,.label{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+    header .eyebrow{color:var(--mist)}
+    h1{position:relative;z-index:1;max-width:650px;margin:18px 0 12px;font-size:54px;line-height:1.02;letter-spacing:-.04em}
+    h1 em{font-family:Georgia,"Times New Roman",serif;font-weight:400;color:#b9d0e5}
+    header p{position:relative;z-index:1;max-width:620px;margin:0;color:#e7edf4;font-size:17px}
+    main{padding:46px 64px 58px}
+    section{padding:32px 0;border-bottom:1px solid var(--line)}
+    section:last-child{border-bottom:0}
+    .section-head{display:grid;grid-template-columns:48px 1fr;gap:18px;align-items:start;margin-bottom:20px}
+    .num{font:italic 32px/1 Georgia,serif;color:var(--blue)}
+    h2{margin:0 0 4px;font-size:27px;line-height:1.1;letter-spacing:-.02em;color:var(--navy)}
+    .sub{margin:0;color:var(--muted)}
+    table{width:100%;border-collapse:collapse;font-size:15px}
+    th{text-align:left;background:#eef2f6;color:var(--navy);font-size:11px;letter-spacing:.11em;text-transform:uppercase}
+    th,td{padding:13px 14px;border:1px solid var(--line);vertical-align:top}
+    td strong{color:var(--navy)}
+    .truth{margin-top:16px;padding:17px 20px;border-left:4px solid var(--blue);background:var(--paper);font-size:16px}
+    .big-number{display:flex;align-items:baseline;gap:14px;margin:8px 0 14px}
+    .big-number strong{font:700 52px/1 Georgia,serif;color:var(--navy)}
+    .programs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .program{padding:16px;border:1px solid var(--line);border-radius:8px}
+    .program h3{margin:0 0 6px;color:var(--navy);font-size:16px}
+    .status{display:inline-block;margin-bottom:8px;padding:4px 8px;border-radius:999px;background:#e8eff5;color:var(--navy);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .status.closed{background:#eee;color:#646b74}
+    .program p{margin:0;color:var(--muted);font-size:14px}
+    .questions{display:grid;gap:12px;counter-reset:q}
+    .question{counter-increment:q;display:grid;grid-template-columns:42px 1fr;gap:14px;padding:15px 0;border-top:1px solid var(--line)}
+    .question:before{content:"0" counter(q);font:italic 20px Georgia,serif;color:var(--blue)}
+    .question strong{display:block;margin-bottom:3px;color:var(--navy)}
+    .cta{margin-top:28px;padding:28px;background:var(--navy);color:#fff}
+    .cta h2{color:#fff}
+    .cta p{margin:8px 0 0;color:#dbe5ef}
+    footer{padding:22px 64px 34px;color:var(--muted);font-size:11px}
+    footer strong{color:var(--navy)}
+    @media(max-width:700px){header,main,footer{padding-left:26px;padding-right:26px}h1{font-size:39px}.programs{grid-template-columns:1fr}.sheet{width:100%;margin:0;box-shadow:none}.toolbar{position:relative}table{font-size:12px}th,td{padding:9px}.section-head{grid-template-columns:34px 1fr}}
+    @media print{@page{size:letter;margin:.35in}html,body{background:#fff}.toolbar{display:none}.sheet{width:100%;margin:0;box-shadow:none}header{padding:28px 38px 24px}h1{font-size:40px}main{padding:18px 38px 24px}section{padding:15px 0}.section-head{margin-bottom:10px}h2{font-size:20px}.program{padding:10px}.program p,table{font-size:11px}.truth{padding:10px 14px;font-size:12px}.question{padding:8px 0}.cta{padding:18px}footer{padding:12px 38px 18px}header:after{font-size:150px}}
+  </style>
+</head>
+<body>
+  <div class="toolbar"><button type="button" onclick="window.print()">Print or save as PDF</button></div>
+  <article class="sheet">
+    <header>
+      <div class="eyebrow">First Home Valley · Buyer File</div>
+      <h1>The honest SFV first-home <em>math sheet</em></h1>
+      <p>One page of the numbers that matter: the monthly comparison, household-income benchmark, assistance status, and three readiness questions.</p>
+    </header>
+    <main>
+      <section>
+        <div class="section-head"><div class="num">01</div><div><h2>Rent versus buy, side by side</h2><p class="sub">An honest comparison without promising that buying is cheaper.</p></div></div>
+        <table aria-label="Rent versus buy monthly comparison">
+          <thead><tr><th>Each month</th><th>Renting a 2BR</th><th>Buying an entry SFV condo</th></tr></thead>
+          <tbody>
+            <tr><td>Estimated payment</td><td><strong>About $3,164</strong></td><td><strong>$3,970–$4,270</strong> with 20% down<br><strong>$4,980–$5,280</strong> with 3.5% down</td></tr>
+            <tr><td>What changes</td><td>Rent may rise at renewal</td><td>Principal and interest are fixed on a fixed-rate loan; taxes, insurance, and HOA can change</td></tr>
+            <tr><td>What you build</td><td>Housing for the lease term</td><td>Potential equity as principal is repaid and value changes</td></tr>
+          </tbody>
+        </table>
+        <div class="truth"><strong>The honest premium:</strong> roughly $800–$1,100 more each month with 20% down, or $1,800–$2,100 more on the low-down-payment example. Payment comfort, reserves, timeline, and the specific property decide whether that works.</div>
+      </section>
+
+      <section>
+        <div class="section-head"><div class="num">02</div><div><h2>The income benchmark</h2><p class="sub">Income and access often matter more than the headline down payment.</p></div></div>
+        <div class="big-number"><strong>≈ $147K</strong><span>household-income benchmark for the July 2026 entry-condo loan scenario</span></div>
+        <p>This is a planning benchmark, not a prequalification. Actual qualification depends on debts, credit, rate, loan type, HOA, insurance, taxes, reserves, and lender guidelines.</p>
+      </section>
+
+      <section>
+        <div class="section-head"><div class="num">03</div><div><h2>Assistance and program status</h2><p class="sub">A program only helps when it is open and you fit its current rules.</p></div></div>
+        <div class="programs">
+          <div class="program"><span class="status">Open*</span><h3>CalHFA MyHome</h3><p>Up to 3.5% for eligible FHA borrowers or 3% for eligible conventional borrowers. LA County income cap: $214,000 as of June 30, 2026.</p></div>
+          <div class="program"><span class="status">Open*</span><h3>CalPLUS + ZIP</h3><p>Closing-cost support that may be paired with MyHome for eligible borrowers.</p></div>
+          <div class="program"><span class="status">Limited*</span><h3>LA City LIPA / MIPA</h3><p>City of Los Angeles only, with strict location and income limits. The July benchmark household may exceed one or both limits.</p></div>
+          <div class="program"><span class="status closed">Closed*</span><h3>Dream For All</h3><p>The 2026 registration window closed March 16. No next round had been announced at verification time.</p></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head"><div class="num">04</div><div><h2>Three questions that decide readiness</h2><p class="sub">Questions you can calculate instead of relying on whether you feel ready.</p></div></div>
+        <div class="questions">
+          <div class="question"><div><strong>Is combined household income near the benchmark, or is there a realistic path there?</strong>Include any qualified co-buyer and verify debts, credit, and lender rules.</div></div>
+          <div class="question"><div><strong>Can you reach roughly $20K–$25K in cash-to-close while keeping reserves?</strong>Count eligible gifts or assistance only after the lender confirms the rules.</div></div>
+          <div class="question"><div><strong>Would you stay in the home for about five years?</strong>A longer horizon gives the upfront costs and monthly premium more time to make sense.</div></div>
+        </div>
+        <div class="truth"><strong>Two or three “yes” or “almost” answers?</strong> That does not mean “buy now.” It means the next useful step is a verified scenario using your income, debts, cash, and target property.</div>
+      </section>
+
+      <div class="cta">
+        <div class="label">Your next useful number</div>
+        <h2>Run the scenario before you rule yourself in or out.</h2>
+        <p>Send Jen <strong>“MATH”</strong> with your approximate household income, current rent, and the kind of home you are considering.</p>
+      </div>
+    </main>
+    <footer>
+      <p><strong>Jen Santulan · @_jiing · San Fernando Valley + Los Angeles</strong></p>
+      <p>*Figures and program status verified August 30, 2026. Recheck at time of use. Examples assume a $580,000 entry condo, 6.66% 30-year fixed benchmark, 1.25% property tax, estimated HOA and insurance, and estimated mortgage insurance on the low-down-payment path. Sources include SRAR July 2026, Freddie Mac week ending August 28, 2026, RentHop May 2026, CalHFA, LAHD, NAR 2025, and U.S. News spring 2026. Educational information only; not lending, legal, tax, or financial advice. Equal Housing Opportunity.</p>
+    </footer>
+  </article>
+</body>
+</html>
