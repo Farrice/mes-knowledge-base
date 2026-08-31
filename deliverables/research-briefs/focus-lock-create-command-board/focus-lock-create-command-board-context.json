@@ -1,0 +1,62 @@
+{
+  "slug": "focus-lock-create-command-board",
+  "title": "one visual home for the next move",
+  "compiled": "aug 31, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/focus-lock-create-command-board/focus-lock-create-command-board-brief.html",
+  "brief_md": "deliverables/research-briefs/focus-lock-create-command-board/focus-lock-create-command-board-brief.md",
+  "paths": [
+    {
+      "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/BREADTH-TO-LEVERAGE-DECISION-BRIEF.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/BREADTH-TO-LEVERAGE-DECISION-BRIEF.md",
+      "role": "Focus Lock decision"
+    },
+    {
+      "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md",
+      "role": "three-lens review"
+    },
+    {
+      "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md",
+      "role": "outreach draft and scoreboard"
+    },
+    {
+      "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/buyer-proof-tracker.csv",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/buyer-proof-tracker.csv",
+      "role": "commercial event tracker"
+    },
+    {
+      "path": "deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief-client.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief-client.html",
+      "role": "asset · VISUAL"
+    },
+    {
+      "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/CREATE-WELLNESS-CLAIM-TO-ANSWER-DIAGNOSTIC.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/multipassionate-focus-system/_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/CREATE-WELLNESS-CLAIM-TO-ANSWER-DIAGNOSTIC.md",
+      "role": "asset · PROOF"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://trycreate.co/products/creatine-monohydrate-gummies?variant=54066907545972",
+      "label": "Create Wellness product page"
+    },
+    {
+      "url": "https://createwellness.zendesk.com/hc/en-us/articles/47268461661076-How-many-servings-can-I-take-per-day",
+      "label": "Create support article"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "create-wellness-claim-to-answer",
+  "chip": "CREATE WELLNESS · PUBLIC-SURFACE REVIEW",
+  "title": "one answer. one larger *proof gap*.",
+  "dek": "A one-SKU review of how Create's public dose guidance, benefit language, and NSF quality signal fit together.",
+  "window": "public pages reviewed august 31, 2026",
+  "lens": "brand · growth · claim substantiation",
+  "sources": "13 public sources · 0 internal files",
+  "compiled": "aug 31, 2026",
+  "footer_left": "FARRICE CAIN · CREATIVE STRATEGY",
+  "footer_right": "LOCAL DRAFT · NOT SENT",
+  "category": "client: Create Wellness",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the finding in *30 seconds*",
+      "kicker": "CLAIM-TO-ANSWER GAP",
+      "body": "Create's public materials carry strong product-quality signals. One support answer viewed for this review says stacking the gummies and electrolyte product gives more than 5mg of creatine, while the product pages use grams. That is likely a unit typo.\n\nThe higher-value issue is consistency: dose, expected benefits, and certification scope need to point to the right evidence every time a customer, retailer, creator, or search system asks the question."
+    },
+    {
+      "kind": "stats",
+      "heading": "the public sample",
+      "items": [
+        {"value": "$20M", "unit": "Series B", "label": "GROWTH CAPITAL", "note": "company-announced; independently reported"},
+        {"value": "4.5g", "unit": "per 3 gummies", "label": "PUBLISHED DOSE", "note": "Watermelon product page"},
+        {"value": "5mg", "unit": "support answer", "label": "LIKELY UNIT ERROR", "note": "verify before correction"},
+        {"value": "0", "unit": "internal files", "label": "EVIDENCE PACKS REVIEWED", "note": "public-source screen only"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what is supported and what needs review",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "Three Watermelon gummies provide 4.5 g of creatine monohydrate.",
+          "evidence": "The current product page publishes the serving amount; NSF's database lists the Watermelon product with a three-gummy serving.",
+          "source_url": "https://trycreate.co/products/creatine-monohydrate-gummies?variant=54066907545972",
+          "source_label": "Create product page",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The support article's 5mg language is likely a unit error.",
+          "evidence": "The text is public and verified. The intended unit and total stacked dose require Create's internal confirmation before correction.",
+          "source_url": "https://createwellness.zendesk.com/hc/en-us/articles/47268461661076-How-many-servings-can-I-take-per-day",
+          "source_label": "Create support center",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "NSF Certified for Sport is strong quality proof for the listed product.",
+          "evidence": "NSF describes checks for label contents, contaminants, prohibited substances, and manufacturing controls. The certification scope does not establish benefit efficacy.",
+          "source_url": "https://www.nsfsport.com/our-mark.php",
+          "source_label": "NSF program scope",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Sharper focus and a 2-to-3-week benefit window need an exact evidence match.",
+          "evidence": "Those phrases appear publicly. No product-specific substantiation file was available in this review, so the correct decision is Reviewer required, not unsupported.",
+          "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+          "source_label": "FTC health-products guidance",
+          "confidence": "UNCONFIRMED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the smallest useful *repair*",
+      "kicker": "ONE SKU · ONE OWNER · ONE PASS",
+      "dek": "Begin with the Watermelon gummies. Keep the work small enough to verify and useful enough to improve the next creative push.",
+      "items": [
+        {"action": "Correct the answer layer", "why": "Confirm the intended stacked dose, unit, products, and serving assumptions before changing the support article."},
+        {"action": "Map four phrases to proof", "why": "Review sharper focus, clean energy, benefits in 2-3 weeks, and cognitive performance against the exact product, dose, delivery form, and population."},
+        {"action": "Separate quality proof from benefit proof", "why": "Use NSF certification for the quality questions it answers. Give benefit language its own evidence trail and review owner."},
+        {"action": "Build three approved-proof creative routes", "why": "Once the evidence ceiling is known, turn the strongest approved facts into campaign ideas without widening the claims."}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "the boundary stays *visible*",
+      "kicker": "PUBLIC-SOURCE SCREEN",
+      "body": "This review did not inspect Create's internal studies, legal review, conversion data, ad-account history, or customer-support volume. It does not find noncompliance or measure commercial harm.\n\nClaim labels: Supported by supplied material · Soften · Reviewer required · Out of scope. Final language belongs with Create's qualified reviewer."
+    }
+  ],
+  "ledger": [],
+  "context": []
+}

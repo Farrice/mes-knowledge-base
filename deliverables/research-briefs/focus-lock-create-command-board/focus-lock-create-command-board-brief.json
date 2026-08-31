@@ -1,0 +1,122 @@
+{
+  "slug": "focus-lock-create-command-board",
+  "chip": "FOCUS LOCK · CREATE WELLNESS",
+  "title": "one visual home for the *next move*",
+  "dek": "The decision, buyer proof, adversarial review, outreach draft, and source trail without reopening the strategy.",
+  "window": "30-day focus period",
+  "lens": "focus · proof · buyer movement",
+  "sources": "1 brand · 13 public sources",
+  "compiled": "aug 31, 2026",
+  "footer_left": "ANTIGRAVITY · OPERATOR BOARD",
+  "footer_right": "PRIVATE · LOCAL ONLY",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the focus lock",
+      "kicker": "LOCKED FOR 30 DAYS",
+      "body": "Farrice is the creative strategist who finds the gap between a funded performance brand's strongest proof and the claims, answers, and campaign ideas that proof can safely carry.\n\nArena: funded U.S. supplement and performance brands. Hub skill: turn public evidence, buyer tension, and claim limits into a campaign-ready review."
+    },
+    {
+      "kind": "stats",
+      "heading": "commercial truth",
+      "items": [
+        {"value": "1", "unit": "brand", "label": "ACTIVE ARENA", "note": "Create Wellness"},
+        {"value": "1", "unit": "buyer brief", "label": "COMPLETED LOCALLY", "note": "client-grade visual"},
+        {"value": "0", "unit": "qualified replies", "label": "BUYER INTEREST", "note": "no exposure yet"},
+        {"value": "$0", "unit": "collected", "label": "BUYER PROOF", "note": "pre-market state"}
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "where this stands",
+      "note": "Attention and buyer proof remain separate.",
+      "stages": [
+        {"label": "focus lock", "state": "done"},
+        {"label": "public review", "state": "done"},
+        {"label": "buyer page", "state": "done"},
+        {"label": "taste check", "state": "current", "note": "Farrice approval"},
+        {"label": "permission ask", "state": "todo"},
+        {"label": "qualified reply", "state": "todo"},
+        {"label": "sold", "state": "todo"},
+        {"label": "collected", "state": "todo"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what all three reviewers agreed on",
+      "tag": "FOUNDER · GROWTH · REGULATORY",
+      "rows": [
+        {"claim": "The typo cannot be the whole story.", "evidence": "The buyer page now moves immediately from the likely unit error to the proof-system consequence.", "confidence": "VERIFIED"},
+        {"claim": "Unknown internal evidence must stay unknown.", "evidence": "The buyer page says zero internal files were reviewed and uses Reviewer required instead of unsupported.", "confidence": "VERIFIED"},
+        {"claim": "The first action must stay bounded.", "evidence": "The recommendation is one SKU, four recurring phrases, one review owner, and three approved-proof creative routes.", "confidence": "VERIFIED"},
+        {"claim": "Commercial impact is still untested.", "evidence": "No claim is made about lost sales, confusion, ad rejection, legal exposure, or conversion lift.", "confidence": "VERIFIED"}
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "how the page earns attention without borrowing proof",
+      "caption": "Joanna Wiebe's sequence, applied after the Focus Lock",
+      "steps": [
+        {"title": "gap", "note": "$20M education push beside a 5mg answer"},
+        {"title": "meaning", "note": "one product truth across every answer surface"},
+        {"title": "open loop", "note": "the typo is easy; certification scope is the real work"},
+        {"title": "depth", "note": "growth, claims, retrieval, and creative judgment"},
+        {"title": "enemy", "note": "quality proof should not be made to carry efficacy"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the next action",
+      "kicker": "ONE APPROVAL GATE",
+      "dek": "Review the buyer page. If it passes your taste check, authorize the permission message. Nothing sends automatically.",
+      "items": [
+        {"action": "Approve or mark the buyer page", "why": "This is the only remaining taste decision before market exposure."},
+        {"action": "Choose one relevant Create contact", "why": "Founder, head of brand, or growth lead. The role matters more than volume."},
+        {"action": "Ask permission before attaching the brief", "why": "A yes earns the send. Silence remains NO EVENT, not rejection proof."}
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "permission-first message",
+      "tag": "COPY WHEN APPROVED",
+      "blocks": [
+        {
+          "label": "Create permission ask",
+          "text": "Hi [First name] — I was reviewing Create's public product education and found one answer-layer mismatch worth fixing. A support article says 5mg where the product pages use grams.\n\nThe more useful finding is how the NSF quality signal sits beside benefit language like ‘sharper focus,’ which needs its own evidence trail. I turned the public-source review into a one-page visual brief and left your internal evidence assumptions blank.\n\nWould it be useful if I sent it over?"
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "choose your depth",
+      "tag": "ONE TRUTH · FOUR VIEWS",
+      "items": [
+        {"title": "30-second buyer page", "role": "VISUAL", "path": "deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief-client.html", "note": "Client-grade visual, local and unsent"},
+        {"title": "Three-lens adversarial review", "role": "SCORECARD", "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md", "note": "Founder, growth, and regulatory convergence"},
+        {"title": "Permission-first exposure pack", "role": "ACTION", "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md", "note": "Message, send rule, and scoreboard"},
+        {"title": "Full claim-to-answer review", "role": "PROOF", "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/CREATE-WELLNESS-CLAIM-TO-ANSWER-DIAGNOSTIC.md", "note": "Long-form reasoning and citations"},
+        {"title": "Buyer-proof tracker", "role": "TRACKER", "path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/buyer-proof-tracker.csv", "note": "Sent, reply, call, sold, collected"}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what counts and what does not",
+      "kicker": "PROOF BOUNDARY",
+      "body": "Views, likes, saves, profile visits, and impressions are attention. A reply from a relevant owner is buyer interest. A call is problem evidence. A paid scope, deposit, or pilot is buyer proof. Collected cash is the strongest commercial proof.\n\nCurrent state: no message sent · no qualified reply · no call · no sale · $0 collected."
+    }
+  ],
+  "ledger": [
+    {"source": "90-day focus decision brief", "url": "", "retrieved": "2026-08-31", "used_for": "Focus Lock and commercial proof state", "confidence": "VERIFIED"},
+    {"source": "Create public-source review", "url": "", "retrieved": "2026-08-31", "used_for": "claim and evidence boundary", "confidence": "VERIFIED"},
+    {"source": "Create Wellness product page", "url": "https://trycreate.co/products/creatine-monohydrate-gummies?variant=54066907545972", "retrieved": "2026-08-31", "used_for": "dose and benefit language", "confidence": "VERIFIED"},
+    {"source": "Create support article", "url": "https://createwellness.zendesk.com/hc/en-us/articles/47268461661076-How-many-servings-can-I-take-per-day", "retrieved": "2026-08-31", "used_for": "5mg answer", "confidence": "VERIFIED"}
+  ],
+  "context": [
+    {"path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/BREADTH-TO-LEVERAGE-DECISION-BRIEF.md", "role": "Focus Lock decision"},
+    {"path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md", "role": "three-lens review"},
+    {"path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md", "role": "outreach draft and scoreboard"},
+    {"path": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/buyer-proof-tracker.csv", "role": "commercial event tracker"}
+  ]
+}

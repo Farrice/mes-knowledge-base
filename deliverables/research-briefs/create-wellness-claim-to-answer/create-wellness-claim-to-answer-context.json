@@ -1,0 +1,33 @@
+{
+  "slug": "create-wellness-claim-to-answer",
+  "title": "one answer. one larger proof gap.",
+  "compiled": "aug 31, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief.html",
+  "brief_md": "deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://trycreate.co/products/creatine-monohydrate-gummies?variant=54066907545972",
+      "label": "Create product page"
+    },
+    {
+      "url": "https://createwellness.zendesk.com/hc/en-us/articles/47268461661076-How-many-servings-can-I-take-per-day",
+      "label": "Create support center"
+    },
+    {
+      "url": "https://www.nsfsport.com/our-mark.php",
+      "label": "NSF program scope"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "label": "FTC health-products guidance"
+    }
+  ]
+}
