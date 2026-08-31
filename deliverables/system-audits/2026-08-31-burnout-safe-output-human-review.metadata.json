@@ -1,0 +1,8 @@
+{
+  "title": "Burnout-Safe Output v0.1 — Human Behavior Gate",
+  "artifact_type": "human-review",
+  "status": "HUMAN GATE PENDING",
+  "date": "2026-08-31",
+  "source": "execution/fixtures/burnout_safe_output/human-behavior-gate.json",
+  "blind_comparisons": 5
+}
