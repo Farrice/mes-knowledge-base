@@ -1,0 +1,3177 @@
+[
+  {
+    "start": 1.95,
+    "end": 3.59,
+    "text": "I turned Claude Code into a superhuman creative strategist, and now it works"
+  },
+  {
+    "start": 3.59,
+    "end": 6.15,
+    "text": "creative strategist, and now it works for me 24/7 analyzing my ad account,"
+  },
+  {
+    "start": 6.15,
+    "end": 7.95,
+    "text": "for me 24/7 analyzing my ad account, finding me new ad inspiration, and even"
+  },
+  {
+    "start": 7.95,
+    "end": 9.91,
+    "text": "finding me new ad inspiration, and even creating me ads all without me lifting a"
+  },
+  {
+    "start": 9.91,
+    "end": 11.51,
+    "text": "creating me ads all without me lifting a finger. On top of that, I built a"
+  },
+  {
+    "start": 11.51,
+    "end": 13.31,
+    "text": "finger. On top of that, I built a living, self-improving brain that gets"
+  },
+  {
+    "start": 13.31,
+    "end": 15.55,
+    "text": "living, self-improving brain that gets smarter every time me or my team uses"
+  },
+  {
+    "start": 15.55,
+    "end": 16.79,
+    "text": "smarter every time me or my team uses it. And today, I'm going to teach you"
+  },
+  {
+    "start": 16.79,
+    "end": 18.67,
+    "text": "it. And today, I'm going to teach you exactly how to do that, even if you've"
+  },
+  {
+    "start": 18.67,
+    "end": 20.55,
+    "text": "exactly how to do that, even if you've never used Claude Code before. I truly"
+  },
+  {
+    "start": 20.55,
+    "end": 21.91,
+    "text": "never used Claude Code before. I truly do believe that the generative coding"
+  },
+  {
+    "start": 21.91,
+    "end": 23.83,
+    "text": "do believe that the generative coding tools like Claude Code and Codex are the"
+  },
+  {
+    "start": 23.83,
+    "end": 25.19,
+    "text": "tools like Claude Code and Codex are the biggest opportunity for creative"
+  },
+  {
+    "start": 25.19,
+    "end": 27.43,
+    "text": "biggest opportunity for creative strategists today to multiply themselves"
+  },
+  {
+    "start": 27.43,
+    "end": 28.83,
+    "text": "strategists today to multiply themselves and make themselves incredibly more"
+  },
+  {
+    "start": 28.83,
+    "end": 30.71,
+    "text": "and make themselves incredibly more productive with AI. So, today I'm going"
+  },
+  {
+    "start": 30.71,
+    "end": 32.07,
+    "text": "productive with AI. So, today I'm going to walk you through what they actually"
+  },
+  {
+    "start": 32.07,
+    "end": 33.87,
+    "text": "to walk you through what they actually are, how to install the right tools to"
+  },
+  {
+    "start": 33.87,
+    "end": 34.79,
+    "text": "are, how to install the right tools to make sure everything's set up the"
+  },
+  {
+    "start": 34.79,
+    "end": 36.55,
+    "text": "make sure everything's set up the correct way, and then some use cases of"
+  },
+  {
+    "start": 36.55,
+    "end": 38.39,
+    "text": "correct way, and then some use cases of exactly how I use Claude Code to make"
+  },
+  {
+    "start": 38.39,
+    "end": 40.55,
+    "text": "exactly how I use Claude Code to make myself the 10X marketer and make more"
+  },
+  {
+    "start": 40.55,
+    "end": 41.95,
+    "text": "myself the 10X marketer and make more and better ads. So, let's start by"
+  },
+  {
+    "start": 41.95,
+    "end": 44.07,
+    "text": "and better ads. So, let's start by talking about what Claude Code actually"
+  },
+  {
+    "start": 44.07,
+    "end": 47.35,
+    "text": "talking about what Claude Code actually is. See, when you use the regular chat,"
+  },
+  {
+    "start": 47.35,
+    "end": 50.35,
+    "text": "is. See, when you use the regular chat, you are just beholden to the memory of"
+  },
+  {
+    "start": 50.35,
+    "end": 52.71,
+    "text": "you are just beholden to the memory of Claude Chat or ChatGPT chat uh"
+  },
+  {
+    "start": 52.71,
+    "end": 54.51,
+    "text": "Claude Chat or ChatGPT chat uh remembering everything that you say. The"
+  },
+  {
+    "start": 54.51,
+    "end": 55.87,
+    "text": "remembering everything that you say. The cool thing about using Claude Code or"
+  },
+  {
+    "start": 55.87,
+    "end": 58.47,
+    "text": "cool thing about using Claude Code or Codex is that the memory or context is"
+  },
+  {
+    "start": 58.47,
+    "end": 60.91,
+    "text": "Codex is that the memory or context is actually baked into your local machine"
+  },
+  {
+    "start": 60.91,
+    "end": 62.63,
+    "text": "actually baked into your local machine like this, which means it's much better"
+  },
+  {
+    "start": 62.63,
+    "end": 64.63,
+    "text": "like this, which means it's much better at retaining information, and then you"
+  },
+  {
+    "start": 64.63,
+    "end": 67.31,
+    "text": "at retaining information, and then you can compound this knowledge uh a lot"
+  },
+  {
+    "start": 67.31,
+    "end": 68.91,
+    "text": "can compound this knowledge uh a lot easier than you can in the chat, which"
+  },
+  {
+    "start": 68.91,
+    "end": 71.87,
+    "text": "easier than you can in the chat, which means it does by nature get smarter uh"
+  },
+  {
+    "start": 71.87,
+    "end": 73.87,
+    "text": "means it does by nature get smarter uh every time that you use it. So, instead"
+  },
+  {
+    "start": 73.87,
+    "end": 75.83,
+    "text": "every time that you use it. So, instead of having a chat in Claude AI, you're"
+  },
+  {
+    "start": 75.83,
+    "end": 78.39,
+    "text": "of having a chat in Claude AI, you're actually chatting inside of a folder"
+  },
+  {
+    "start": 78.39,
+    "end": 80.23,
+    "text": "actually chatting inside of a folder that has all of the context about that"
+  },
+  {
+    "start": 80.23,
+    "end": 82.11,
+    "text": "that has all of the context about that specific project. And you can do all the"
+  },
+  {
+    "start": 82.11,
+    "end": 83.47,
+    "text": "specific project. And you can do all the same things in here that you can do in"
+  },
+  {
+    "start": 83.47,
+    "end": 84.67,
+    "text": "same things in here that you can do in the normal Claude Chat. You can have"
+  },
+  {
+    "start": 84.67,
+    "end": 87.03,
+    "text": "the normal Claude Chat. You can have MCPs in here that generate visuals or do"
+  },
+  {
+    "start": 87.03,
+    "end": 88.79,
+    "text": "MCPs in here that generate visuals or do reports or make artifacts. All things"
+  },
+  {
+    "start": 88.79,
+    "end": 90.39,
+    "text": "reports or make artifacts. All things you can do inside of Claude Chat, you"
+  },
+  {
+    "start": 90.39,
+    "end": 91.87,
+    "text": "you can do inside of Claude Chat, you can do inside of Claude Code. And"
+  },
+  {
+    "start": 91.87,
+    "end": 93.55,
+    "text": "can do inside of Claude Code. And because of the fact that it compounds"
+  },
+  {
+    "start": 93.55,
+    "end": 95.43,
+    "text": "because of the fact that it compounds over time as the more you use it, once"
+  },
+  {
+    "start": 95.43,
+    "end": 96.43,
+    "text": "over time as the more you use it, once you start using this stuff, there"
+  },
+  {
+    "start": 96.43,
+    "end": 98.39,
+    "text": "you start using this stuff, there actually is no reason to ever go back to"
+  },
+  {
+    "start": 98.39,
+    "end": 99.75,
+    "text": "actually is no reason to ever go back to the normal Claude Chat because Claude"
+  },
+  {
+    "start": 99.75,
+    "end": 101.75,
+    "text": "the normal Claude Chat because Claude Code beats it in in every way possible."
+  },
+  {
+    "start": 101.75,
+    "end": 103.19,
+    "text": "Code beats it in in every way possible. Sometimes I use Code Work, but like the"
+  },
+  {
+    "start": 103.19,
+    "end": 105.55,
+    "text": "Sometimes I use Code Work, but like the vast majority of my chats now uh are"
+  },
+  {
+    "start": 105.55,
+    "end": 108.03,
+    "text": "vast majority of my chats now uh are inside of Claude Code. It can be a bit"
+  },
+  {
+    "start": 108.03,
+    "end": 109.83,
+    "text": "inside of Claude Code. It can be a bit intimidating uh when you first get"
+  },
+  {
+    "start": 109.83,
+    "end": 111.07,
+    "text": "intimidating uh when you first get started, but honestly, once you"
+  },
+  {
+    "start": 111.07,
+    "end": 113.39,
+    "text": "started, but honestly, once you understand the file structure um"
+  },
+  {
+    "start": 113.39,
+    "end": 114.99,
+    "text": "understand the file structure um and you start having conversations here,"
+  },
+  {
+    "start": 114.99,
+    "end": 116.27,
+    "text": "and you start having conversations here, you will pick it up. It becomes second"
+  },
+  {
+    "start": 116.27,
+    "end": 118.71,
+    "text": "you will pick it up. It becomes second nature, and I I assume that you'll have"
+  },
+  {
+    "start": 118.71,
+    "end": 119.87,
+    "text": "nature, and I I assume that you'll have the same"
+  },
+  {
+    "start": 119.87,
+    "end": 121.99,
+    "text": "the same uh kind of epiphany and and not ever go"
+  },
+  {
+    "start": 121.99,
+    "end": 123.91,
+    "text": "uh kind of epiphany and and not ever go back to the regular Claude chat. It's"
+  },
+  {
+    "start": 123.91,
+    "end": 126.03,
+    "text": "back to the regular Claude chat. It's like Claude really is like Claude on"
+  },
+  {
+    "start": 126.03,
+    "end": 127.27,
+    "text": "like Claude really is like Claude on steroids."
+  },
+  {
+    "start": 127.27,
+    "end": 129.67,
+    "text": "steroids. It is is Claude code. Anyway, let's talk"
+  },
+  {
+    "start": 129.67,
+    "end": 132.51,
+    "text": "It is is Claude code. Anyway, let's talk about the tools that you need to make"
+  },
+  {
+    "start": 132.51,
+    "end": 134.15,
+    "text": "about the tools that you need to make this all possible. So, what we're going"
+  },
+  {
+    "start": 134.15,
+    "end": 135.79,
+    "text": "this all possible. So, what we're going to do is going to go to"
+  },
+  {
+    "start": 135.79,
+    "end": 138.15,
+    "text": "to do is going to go to customize and then connectors. And what"
+  },
+  {
+    "start": 138.15,
+    "end": 139.71,
+    "text": "customize and then connectors. And what I want you to do is spend some time"
+  },
+  {
+    "start": 139.71,
+    "end": 142.19,
+    "text": "I want you to do is spend some time thinking about all of the tools that you"
+  },
+  {
+    "start": 142.19,
+    "end": 144.23,
+    "text": "thinking about all of the tools that you use in your ad creative workflow"
+  },
+  {
+    "start": 144.23,
+    "end": 146.19,
+    "text": "use in your ad creative workflow currently or just in your"
+  },
+  {
+    "start": 146.19,
+    "end": 148.83,
+    "text": "currently or just in your in your whole tech stack and add as many"
+  },
+  {
+    "start": 148.83,
+    "end": 150.75,
+    "text": "in your whole tech stack and add as many of them to Claude as connectors as"
+  },
+  {
+    "start": 150.75,
+    "end": 153.35,
+    "text": "of them to Claude as connectors as possible. The reason for this is because"
+  },
+  {
+    "start": 153.35,
+    "end": 154.95,
+    "text": "possible. The reason for this is because Claude code is incredibly powerful on"
+  },
+  {
+    "start": 154.95,
+    "end": 157.19,
+    "text": "Claude code is incredibly powerful on its own. When you pull in all of these"
+  },
+  {
+    "start": 157.19,
+    "end": 159.23,
+    "text": "its own. When you pull in all of these other tools and have it work inside of"
+  },
+  {
+    "start": 159.23,
+    "end": 161.87,
+    "text": "other tools and have it work inside of Slack, inside of Notion, inside of"
+  },
+  {
+    "start": 161.87,
+    "end": 165.07,
+    "text": "Slack, inside of Notion, inside of your email, that is when it gets really"
+  },
+  {
+    "start": 165.07,
+    "end": 166.79,
+    "text": "your email, that is when it gets really really powerful. So, you want to go and"
+  },
+  {
+    "start": 166.79,
+    "end": 168.27,
+    "text": "really powerful. So, you want to go and connect all of these as soon as"
+  },
+  {
+    "start": 168.27,
+    "end": 170.51,
+    "text": "connect all of these as soon as possible. I have"
+  },
+  {
+    "start": 170.51,
+    "end": 171.15,
+    "text": "possible. I have um"
+  },
+  {
+    "start": 171.15,
+    "end": 172.43,
+    "text": "um Google Calendar so I can see all my"
+  },
+  {
+    "start": 172.43,
+    "end": 175.19,
+    "text": "Google Calendar so I can see all my meeting notes, Gmail obviously. The"
+  },
+  {
+    "start": 175.19,
+    "end": 178.51,
+    "text": "meeting notes, Gmail obviously. The Hixfeld MCP is really useful because um"
+  },
+  {
+    "start": 178.51,
+    "end": 180.07,
+    "text": "Hixfeld MCP is really useful because um that means we can yeah, make statics and"
+  },
+  {
+    "start": 180.07,
+    "end": 181.95,
+    "text": "that means we can yeah, make statics and videos with it. Notion because we do all"
+  },
+  {
+    "start": 181.95,
+    "end": 184.11,
+    "text": "videos with it. Notion because we do all of our briefing inside of Notion. Slack"
+  },
+  {
+    "start": 184.11,
+    "end": 185.71,
+    "text": "of our briefing inside of Notion. Slack because I want it to ingest all of the"
+  },
+  {
+    "start": 185.71,
+    "end": 189.23,
+    "text": "because I want it to ingest all of the context from Slack. Um and that is most"
+  },
+  {
+    "start": 189.23,
+    "end": 191.67,
+    "text": "context from Slack. Um and that is most of them that we'll want to have. Gamma"
+  },
+  {
+    "start": 191.67,
+    "end": 193.27,
+    "text": "of them that we'll want to have. Gamma because we do a lot of our reporting"
+  },
+  {
+    "start": 193.27,
+    "end": 195.31,
+    "text": "because we do a lot of our reporting through this. So, that's also useful as"
+  },
+  {
+    "start": 195.31,
+    "end": 197.11,
+    "text": "through this. So, that's also useful as well. And what you will need for today's"
+  },
+  {
+    "start": 197.11,
+    "end": 199.31,
+    "text": "well. And what you will need for today's video is the Parker MCP. That's how"
+  },
+  {
+    "start": 199.31,
+    "end": 200.11,
+    "text": "video is the Parker MCP. That's how we're going to pull in all of the"
+  },
+  {
+    "start": 200.11,
+    "end": 202.23,
+    "text": "we're going to pull in all of the information from the ad account and"
+  },
+  {
+    "start": 202.23,
+    "end": 204.51,
+    "text": "information from the ad account and other ad libraries, AI tags, etc. That's"
+  },
+  {
+    "start": 204.51,
+    "end": 207.35,
+    "text": "other ad libraries, AI tags, etc. That's going to make this a lot lot easier to"
+  },
+  {
+    "start": 207.35,
+    "end": 209.15,
+    "text": "going to make this a lot lot easier to do. You will need a Parker account for"
+  },
+  {
+    "start": 209.15,
+    "end": 211.03,
+    "text": "do. You will need a Parker account for that. If you want to give this a try for"
+  },
+  {
+    "start": 211.03,
+    "end": 212.79,
+    "text": "that. If you want to give this a try for free, I'm going to leave a a link in the"
+  },
+  {
+    "start": 212.79,
+    "end": 214.23,
+    "text": "free, I'm going to leave a a link in the description below to get a free month of"
+  },
+  {
+    "start": 214.23,
+    "end": 216.35,
+    "text": "description below to get a free month of Parker and try this. All you're going to"
+  },
+  {
+    "start": 216.35,
+    "end": 218.43,
+    "text": "Parker and try this. All you're going to want to do is grab this link here that"
+  },
+  {
+    "start": 218.43,
+    "end": 220.31,
+    "text": "want to do is grab this link here that I'll put in the description. Again, go"
+  },
+  {
+    "start": 220.31,
+    "end": 222.35,
+    "text": "I'll put in the description. Again, go to customize"
+  },
+  {
+    "start": 222.35,
+    "end": 224.79,
+    "text": "to customize and connectors."
+  },
+  {
+    "start": 224.79,
+    "end": 227.83,
+    "text": "and connectors. Go to add a custom connector."
+  },
+  {
+    "start": 227.83,
+    "end": 231.71,
+    "text": "Go to add a custom connector. And then just call it Parker."
+  },
+  {
+    "start": 231.71,
+    "end": 234.07,
+    "text": "And then just call it Parker. And then you're going to in the"
+  },
+  {
+    "start": 234.07,
+    "end": 235.75,
+    "text": "And then you're going to in the URL and click add and you'll have the"
+  },
+  {
+    "start": 235.75,
+    "end": 237.31,
+    "text": "URL and click add and you'll have the blog MCP inside of here. It's going to"
+  },
+  {
+    "start": 237.31,
+    "end": 238.51,
+    "text": "blog MCP inside of here. It's going to pull all of your ad account data into"
+  },
+  {
+    "start": 238.51,
+    "end": 239.87,
+    "text": "pull all of your ad account data into here. It's going to pull uh data about"
+  },
+  {
+    "start": 239.87,
+    "end": 241.51,
+    "text": "here. It's going to pull uh data about competitors, pull in all your ad tags,"
+  },
+  {
+    "start": 241.51,
+    "end": 243.15,
+    "text": "competitors, pull in all your ad tags, etc. It's a lot that comes with that"
+  },
+  {
+    "start": 243.15,
+    "end": 244.55,
+    "text": "etc. It's a lot that comes with that that's going to make this process a lot"
+  },
+  {
+    "start": 244.55,
+    "end": 245.75,
+    "text": "that's going to make this process a lot more powerful. The next thing we're"
+  },
+  {
+    "start": 245.75,
+    "end": 247.23,
+    "text": "more powerful. The next thing we're going to want to do is pull in the"
+  },
+  {
+    "start": 247.23,
+    "end": 249.43,
+    "text": "going to want to do is pull in the Parker brain. Now, this is the part that"
+  },
+  {
+    "start": 249.43,
+    "end": 251.91,
+    "text": "Parker brain. Now, this is the part that makes it self-improving. Pulls in all"
+  },
+  {
+    "start": 251.91,
+    "end": 253.19,
+    "text": "makes it self-improving. Pulls in all the information from your Slack, from"
+  },
+  {
+    "start": 253.19,
+    "end": 255.15,
+    "text": "the information from your Slack, from your Notion, or wherever you do work,"
+  },
+  {
+    "start": 255.15,
+    "end": 257.39,
+    "text": "your Notion, or wherever you do work, and actually updates the context in your"
+  },
+  {
+    "start": 257.39,
+    "end": 259.55,
+    "text": "and actually updates the context in your sleep. What we're going to want to do is"
+  },
+  {
+    "start": 259.55,
+    "end": 260.91,
+    "text": "sleep. What we're going to want to do is go to this link, which I will link in"
+  },
+  {
+    "start": 260.91,
+    "end": 263.11,
+    "text": "go to this link, which I will link in the description. Copy the link. Bring it"
+  },
+  {
+    "start": 263.11,
+    "end": 265.03,
+    "text": "the description. Copy the link. Bring it back inside of our Claude code here, and"
+  },
+  {
+    "start": 265.03,
+    "end": 266.79,
+    "text": "back inside of our Claude code here, and we're just going to say I in a folder"
+  },
+  {
+    "start": 266.79,
+    "end": 268.15,
+    "text": "we're just going to say I in a folder that you can create, you know, I've just"
+  },
+  {
+    "start": 268.15,
+    "end": 269.75,
+    "text": "that you can create, you know, I've just got a general Claude code folder"
+  },
+  {
+    "start": 269.75,
+    "end": 272.99,
+    "text": "got a general Claude code folder created. You can just say, you know,"
+  },
+  {
+    "start": 272.99,
+    "end": 276.55,
+    "text": "created. You can just say, you know, I want you to clone this brain"
+  },
+  {
+    "start": 276.55,
+    "end": 279.95,
+    "text": "I want you to clone this brain for my brand"
+  },
+  {
+    "start": 279.95,
+    "end": 281.39,
+    "text": "for my brand X."
+  },
+  {
+    "start": 281.39,
+    "end": 283.67,
+    "text": "X. Follow the instructions exactly as is."
+  },
+  {
+    "start": 283.67,
+    "end": 284.43,
+    "text": "Follow the instructions exactly as is. And you're just going to paste in the"
+  },
+  {
+    "start": 284.43,
+    "end": 285.63,
+    "text": "And you're just going to paste in the link. And then you're just going to hit"
+  },
+  {
+    "start": 285.63,
+    "end": 289.11,
+    "text": "link. And then you're just going to hit enter. You can do this on Fable 5. It's"
+  },
+  {
+    "start": 289.11,
+    "end": 291.11,
+    "text": "enter. You can do this on Fable 5. It's going to uh cost you a few hundred bucks"
+  },
+  {
+    "start": 291.11,
+    "end": 292.43,
+    "text": "going to uh cost you a few hundred bucks if you do that. Because what's basically"
+  },
+  {
+    "start": 292.43,
+    "end": 293.95,
+    "text": "if you do that. Because what's basically going to happen now is it is going to"
+  },
+  {
+    "start": 293.95,
+    "end": 296.91,
+    "text": "going to happen now is it is going to run a ton of reports and audits and"
+  },
+  {
+    "start": 296.91,
+    "end": 300.59,
+    "text": "run a ton of reports and audits and generate a lot of context on your brand"
+  },
+  {
+    "start": 300.59,
+    "end": 303.11,
+    "text": "generate a lot of context on your brand that saves to your folder that you're"
+  },
+  {
+    "start": 303.11,
+    "end": 304.95,
+    "text": "that saves to your folder that you're going to work inside of. And the initial"
+  },
+  {
+    "start": 304.95,
+    "end": 307.03,
+    "text": "going to work inside of. And the initial creation of this is a lot of work, and"
+  },
+  {
+    "start": 307.03,
+    "end": 308.27,
+    "text": "creation of this is a lot of work, and it will take a few hours to go and do"
+  },
+  {
+    "start": 308.27,
+    "end": 310.19,
+    "text": "it will take a few hours to go and do this. Uh so I would recommend putting on"
+  },
+  {
+    "start": 310.19,
+    "end": 311.91,
+    "text": "this. Uh so I would recommend putting on auto mode uh so you don't have to keep"
+  },
+  {
+    "start": 311.91,
+    "end": 313.71,
+    "text": "auto mode uh so you don't have to keep accepting um"
+  },
+  {
+    "start": 313.71,
+    "end": 315.95,
+    "text": "accepting um your permissions and edits. Um but yeah,"
+  },
+  {
+    "start": 315.95,
+    "end": 317.99,
+    "text": "your permissions and edits. Um but yeah, just know it will take a bit of time uh"
+  },
+  {
+    "start": 317.99,
+    "end": 321.43,
+    "text": "just know it will take a bit of time uh whether you use Fable or Opus. Um"
+  },
+  {
+    "start": 321.43,
+    "end": 322.55,
+    "text": "whether you use Fable or Opus. Um if you want to save money, then I would"
+  },
+  {
+    "start": 322.55,
+    "end": 325.15,
+    "text": "if you want to save money, then I would do it on Opus. If you want to uh you"
+  },
+  {
+    "start": 325.15,
+    "end": 326.71,
+    "text": "do it on Opus. If you want to uh you just make the absolute best brain"
+  },
+  {
+    "start": 326.71,
+    "end": 328.79,
+    "text": "just make the absolute best brain possible, then I would do it on Fable."
+  },
+  {
+    "start": 328.79,
+    "end": 330.15,
+    "text": "possible, then I would do it on Fable. But just know it will take a few hours"
+  },
+  {
+    "start": 330.15,
+    "end": 331.79,
+    "text": "But just know it will take a few hours to generate, and the Fable one will cost"
+  },
+  {
+    "start": 331.79,
+    "end": 333.23,
+    "text": "to generate, and the Fable one will cost you a few hundred bucks. I would also"
+  },
+  {
+    "start": 333.23,
+    "end": 334.83,
+    "text": "you a few hundred bucks. I would also strongly recommend having a Max plan"
+  },
+  {
+    "start": 334.83,
+    "end": 336.79,
+    "text": "strongly recommend having a Max plan just to generate this. If you have a Max"
+  },
+  {
+    "start": 336.79,
+    "end": 338.59,
+    "text": "just to generate this. If you have a Max 5X plan on Claude, you will likely run"
+  },
+  {
+    "start": 338.59,
+    "end": 340.87,
+    "text": "5X plan on Claude, you will likely run into 5-hour token limits once or twice."
+  },
+  {
+    "start": 340.87,
+    "end": 343.11,
+    "text": "into 5-hour token limits once or twice. If you have the 20X plan, you're good to"
+  },
+  {
+    "start": 343.11,
+    "end": 344.43,
+    "text": "If you have the 20X plan, you're good to go. Uh and you should be able to"
+  },
+  {
+    "start": 344.43,
+    "end": 347.19,
+    "text": "go. Uh and you should be able to generate these with uh no issues. But"
+  },
+  {
+    "start": 347.19,
+    "end": 348.87,
+    "text": "generate these with uh no issues. But that is going to be by far the most"
+  },
+  {
+    "start": 348.87,
+    "end": 350.23,
+    "text": "that is going to be by far the most token heavy thing that we do here. I"
+  },
+  {
+    "start": 350.23,
+    "end": 351.67,
+    "text": "token heavy thing that we do here. I mean, the reason that it it takes so"
+  },
+  {
+    "start": 351.67,
+    "end": 353.35,
+    "text": "mean, the reason that it it takes so many tokens is because it's learning and"
+  },
+  {
+    "start": 353.35,
+    "end": 355.31,
+    "text": "many tokens is because it's learning and going so deep on your brand to generate"
+  },
+  {
+    "start": 355.31,
+    "end": 356.55,
+    "text": "going so deep on your brand to generate context that is going to make the"
+  },
+  {
+    "start": 356.55,
+    "end": 358.27,
+    "text": "context that is going to make the outputs way smarter, which is why this"
+  },
+  {
+    "start": 358.27,
+    "end": 359.47,
+    "text": "outputs way smarter, which is why this stuff is important. But, as soon as you"
+  },
+  {
+    "start": 359.47,
+    "end": 361.35,
+    "text": "stuff is important. But, as soon as you generate the initial,"
+  },
+  {
+    "start": 361.35,
+    "end": 363.35,
+    "text": "generate the initial, you know, batch of context, then, you"
+  },
+  {
+    "start": 363.35,
+    "end": 364.87,
+    "text": "you know, batch of context, then, you know, you can downgrade"
+  },
+  {
+    "start": 364.87,
+    "end": 366.35,
+    "text": "know, you can downgrade because you won't you need to be on a"
+  },
+  {
+    "start": 366.35,
+    "end": 367.71,
+    "text": "because you won't you need to be on a 20X plan. So, what's going to happen"
+  },
+  {
+    "start": 367.71,
+    "end": 368.67,
+    "text": "20X plan. So, what's going to happen after you've done that is just going to"
+  },
+  {
+    "start": 368.67,
+    "end": 370.59,
+    "text": "after you've done that is just going to ask you a few simple questions in a"
+  },
+  {
+    "start": 370.59,
+    "end": 372.71,
+    "text": "ask you a few simple questions in a pop-up here. If I go to an actual brand"
+  },
+  {
+    "start": 372.71,
+    "end": 375.95,
+    "text": "pop-up here. If I go to an actual brand setup that I did yesterday, uh you know,"
+  },
+  {
+    "start": 375.95,
+    "end": 376.99,
+    "text": "setup that I did yesterday, uh you know, it's just going to ask, you know, what's"
+  },
+  {
+    "start": 376.99,
+    "end": 379.71,
+    "text": "it's just going to ask, you know, what's your main objective, North Star metrics,"
+  },
+  {
+    "start": 379.71,
+    "end": 381.95,
+    "text": "your main objective, North Star metrics, just just to learn about your"
+  },
+  {
+    "start": 381.95,
+    "end": 385.03,
+    "text": "just just to learn about your uh you know, your setup. And then, uh"
+  },
+  {
+    "start": 385.03,
+    "end": 385.95,
+    "text": "uh you know, your setup. And then, uh it's going to go and generate this. And"
+  },
+  {
+    "start": 385.95,
+    "end": 387.11,
+    "text": "it's going to go and generate this. And like I said, it'll take a few hours, but"
+  },
+  {
+    "start": 387.11,
+    "end": 389.43,
+    "text": "like I said, it'll take a few hours, but once it's done, you are ready to get"
+  },
+  {
+    "start": 389.43,
+    "end": 390.95,
+    "text": "once it's done, you are ready to get started in making some of these really"
+  },
+  {
+    "start": 390.95,
+    "end": 392.35,
+    "text": "started in making some of these really incredible workflows. So, the only thing"
+  },
+  {
+    "start": 392.35,
+    "end": 394.51,
+    "text": "incredible workflows. So, the only thing you're going to want to do is just open"
+  },
+  {
+    "start": 394.51,
+    "end": 398.99,
+    "text": "you're going to want to do is just open up a new chat and then go to uh"
+  },
+  {
+    "start": 398.99,
+    "end": 400.47,
+    "text": "up a new chat and then go to uh load up the brain. So, the one that I"
+  },
+  {
+    "start": 400.47,
+    "end": 404.23,
+    "text": "load up the brain. So, the one that I just generated there was my Oberpop"
+  },
+  {
+    "start": 404.23,
+    "end": 406.87,
+    "text": "just generated there was my Oberpop client brain. Just going to open that,"
+  },
+  {
+    "start": 406.87,
+    "end": 408.15,
+    "text": "client brain. Just going to open that, trust the workspace, and now we're"
+  },
+  {
+    "start": 408.15,
+    "end": 410.71,
+    "text": "trust the workspace, and now we're working inside of this Oberpop brain."
+  },
+  {
+    "start": 410.71,
+    "end": 412.71,
+    "text": "working inside of this Oberpop brain. I'm just going to do the command"
+  },
+  {
+    "start": 412.71,
+    "end": 414.83,
+    "text": "I'm just going to do the command get started. And that's going to walk me"
+  },
+  {
+    "start": 414.83,
+    "end": 416.75,
+    "text": "get started. And that's going to walk me through again a little onboarding here"
+  },
+  {
+    "start": 416.75,
+    "end": 417.87,
+    "text": "through again a little onboarding here that's going to make sure that all of my"
+  },
+  {
+    "start": 417.87,
+    "end": 419.63,
+    "text": "that's going to make sure that all of my routines are set up. We'll get on to"
+  },
+  {
+    "start": 419.63,
+    "end": 421.75,
+    "text": "routines are set up. We'll get on to what they are in a moment. Uh and"
+  },
+  {
+    "start": 421.75,
+    "end": 423.83,
+    "text": "what they are in a moment. Uh and everything is in the right place. And"
+  },
+  {
+    "start": 423.83,
+    "end": 425.19,
+    "text": "everything is in the right place. And you train the brain on exactly what it"
+  },
+  {
+    "start": 425.19,
+    "end": 426.71,
+    "text": "you train the brain on exactly what it needs to know. And then we can start"
+  },
+  {
+    "start": 426.71,
+    "end": 428.83,
+    "text": "needs to know. And then we can start getting into the fun stuff. So, let's"
+  },
+  {
+    "start": 428.83,
+    "end": 430.51,
+    "text": "getting into the fun stuff. So, let's actually see in action. What could we do"
+  },
+  {
+    "start": 430.51,
+    "end": 432.95,
+    "text": "actually see in action. What could we do here? So, I could say, for example, uh I"
+  },
+  {
+    "start": 432.95,
+    "end": 437.47,
+    "text": "here? So, I could say, for example, uh I want you to look through my client"
+  },
+  {
+    "start": 437.47,
+    "end": 439.47,
+    "text": "want you to look through my client channel"
+  },
+  {
+    "start": 439.47,
+    "end": 445.47,
+    "text": "channel at create Oberpop and uh ingest all of"
+  },
+  {
+    "start": 445.47,
+    "end": 449.83,
+    "text": "at create Oberpop and uh ingest all of the feedback the client has ever given"
+  },
+  {
+    "start": 449.83,
+    "end": 453.95,
+    "text": "the feedback the client has ever given and include this uh in your context"
+  },
+  {
+    "start": 453.95,
+    "end": 456.83,
+    "text": "and include this uh in your context going forward."
+  },
+  {
+    "start": 456.83,
+    "end": 458.95,
+    "text": "going forward. Now, because we have set up Slack as a"
+  },
+  {
+    "start": 458.95,
+    "end": 460.39,
+    "text": "Now, because we have set up Slack as a connector, it's going to look through"
+  },
+  {
+    "start": 460.39,
+    "end": 462.51,
+    "text": "connector, it's going to look through the entire channel's history, and any"
+  },
+  {
+    "start": 462.51,
+    "end": 464.39,
+    "text": "the entire channel's history, and any feedback the client has ever given is"
+  },
+  {
+    "start": 464.39,
+    "end": 466.35,
+    "text": "feedback the client has ever given is going to bake it into the context here"
+  },
+  {
+    "start": 466.35,
+    "end": 467.99,
+    "text": "going to bake it into the context here and going forward anytime that the"
+  },
+  {
+    "start": 467.99,
+    "end": 469.83,
+    "text": "and going forward anytime that the client gives feedback inside of Slack,"
+  },
+  {
+    "start": 469.83,
+    "end": 471.23,
+    "text": "client gives feedback inside of Slack, we know that that is going to flow"
+  },
+  {
+    "start": 471.23,
+    "end": 474.59,
+    "text": "we know that that is going to flow through to our client brain and every"
+  },
+  {
+    "start": 474.59,
+    "end": 476.19,
+    "text": "through to our client brain and every time I query inside of Claude code, it"
+  },
+  {
+    "start": 476.19,
+    "end": 478.03,
+    "text": "time I query inside of Claude code, it will already have that context. I'm just"
+  },
+  {
+    "start": 478.03,
+    "end": 480.23,
+    "text": "will already have that context. I'm just going to click always allow and allow it"
+  },
+  {
+    "start": 480.23,
+    "end": 481.67,
+    "text": "going to click always allow and allow it to run this again. I would recommend"
+  },
+  {
+    "start": 481.67,
+    "end": 484.35,
+    "text": "to run this again. I would recommend putting on auto mode um"
+  },
+  {
+    "start": 484.35,
+    "end": 486.15,
+    "text": "putting on auto mode um so you don't have to keep accepting"
+  },
+  {
+    "start": 486.15,
+    "end": 487.43,
+    "text": "so you don't have to keep accepting permissions. And this is why it's"
+  },
+  {
+    "start": 487.43,
+    "end": 489.27,
+    "text": "permissions. And this is why it's important to connect as many tools as"
+  },
+  {
+    "start": 489.27,
+    "end": 491.27,
+    "text": "important to connect as many tools as you use with the MCPs into Claude"
+  },
+  {
+    "start": 491.27,
+    "end": 492.87,
+    "text": "you use with the MCPs into Claude because then it can ingest all of this"
+  },
+  {
+    "start": 492.87,
+    "end": 494.79,
+    "text": "because then it can ingest all of this context and it can start outputting. You"
+  },
+  {
+    "start": 494.79,
+    "end": 496.19,
+    "text": "context and it can start outputting. You can get to start sending messages inside"
+  },
+  {
+    "start": 496.19,
+    "end": 498.23,
+    "text": "can get to start sending messages inside of Slack. You can get it to uh start"
+  },
+  {
+    "start": 498.23,
+    "end": 500.31,
+    "text": "of Slack. You can get it to uh start adding things to Notion. For example, I"
+  },
+  {
+    "start": 500.31,
+    "end": 501.43,
+    "text": "adding things to Notion. For example, I was in a Claude chat the other day where"
+  },
+  {
+    "start": 501.43,
+    "end": 503.23,
+    "text": "was in a Claude chat the other day where I was asking it to come up with ad ideas"
+  },
+  {
+    "start": 503.23,
+    "end": 506.35,
+    "text": "I was asking it to come up with ad ideas every week and then input them into my"
+  },
+  {
+    "start": 506.35,
+    "end": 507.83,
+    "text": "every week and then input them into my idea library inside of Notion. This is"
+  },
+  {
+    "start": 507.83,
+    "end": 509.55,
+    "text": "idea library inside of Notion. This is literally the exact idea library that we"
+  },
+  {
+    "start": 509.55,
+    "end": 513.67,
+    "text": "literally the exact idea library that we use and uh Claude via the Parker MCP was"
+  },
+  {
+    "start": 513.67,
+    "end": 515.27,
+    "text": "use and uh Claude via the Parker MCP was coming up with ad ideas and adding them"
+  },
+  {
+    "start": 515.27,
+    "end": 518.43,
+    "text": "coming up with ad ideas and adding them into here completely automatically uh"
+  },
+  {
+    "start": 518.43,
+    "end": 519.87,
+    "text": "into here completely automatically uh and then adding links to, you know,"
+  },
+  {
+    "start": 519.87,
+    "end": 521.83,
+    "text": "and then adding links to, you know, TikToks it was finding or comments that"
+  },
+  {
+    "start": 521.83,
+    "end": 523.19,
+    "text": "TikToks it was finding or comments that it was um"
+  },
+  {
+    "start": 523.19,
+    "end": 524.75,
+    "text": "it was um referencing from my ads. And this all"
+  },
+  {
+    "start": 524.75,
+    "end": 527.51,
+    "text": "referencing from my ads. And this all comes because I've got my uh Parker set"
+  },
+  {
+    "start": 527.51,
+    "end": 529.83,
+    "text": "comes because I've got my uh Parker set up in the back end to know all of these"
+  },
+  {
+    "start": 529.83,
+    "end": 532.11,
+    "text": "up in the back end to know all of these things. So, I have uh the customer"
+  },
+  {
+    "start": 532.11,
+    "end": 532.95,
+    "text": "things. So, I have uh the customer reviews uploaded here. I have"
+  },
+  {
+    "start": 532.95,
+    "end": 535.27,
+    "text": "reviews uploaded here. I have post-purchase surveys, my ad comments uh"
+  },
+  {
+    "start": 535.27,
+    "end": 537.23,
+    "text": "post-purchase surveys, my ad comments uh flowing automatically inside of here. It"
+  },
+  {
+    "start": 537.23,
+    "end": 538.95,
+    "text": "flowing automatically inside of here. It scrolls TikTok for me and finds TikTok"
+  },
+  {
+    "start": 538.95,
+    "end": 540.43,
+    "text": "scrolls TikTok for me and finds TikTok inspiration. Ad library, I've got"
+  },
+  {
+    "start": 540.43,
+    "end": 541.63,
+    "text": "inspiration. Ad library, I've got competitors that I follow so it knows"
+  },
+  {
+    "start": 541.63,
+    "end": 544.03,
+    "text": "competitors that I follow so it knows what my competitors are. So, all of the"
+  },
+  {
+    "start": 544.03,
+    "end": 546.07,
+    "text": "what my competitors are. So, all of the context that you want it to know, I just"
+  },
+  {
+    "start": 546.07,
+    "end": 547.31,
+    "text": "context that you want it to know, I just basically look at the the web app here"
+  },
+  {
+    "start": 547.31,
+    "end": 549.15,
+    "text": "basically look at the the web app here as a as a control room and again, if you"
+  },
+  {
+    "start": 549.15,
+    "end": 550.75,
+    "text": "as a as a control room and again, if you want to try this, there's a there's a uh"
+  },
+  {
+    "start": 550.75,
+    "end": 552.55,
+    "text": "want to try this, there's a there's a uh link to a free month in the uh in the"
+  },
+  {
+    "start": 552.55,
+    "end": 556.31,
+    "text": "link to a free month in the uh in the description down below. Um and then all"
+  },
+  {
+    "start": 556.31,
+    "end": 558.35,
+    "text": "description down below. Um and then all of this information flows through the"
+  },
+  {
+    "start": 558.35,
+    "end": 560.51,
+    "text": "of this information flows through the MCP into Claude so I can get it to do"
+  },
+  {
+    "start": 560.51,
+    "end": 562.71,
+    "text": "MCP into Claude so I can get it to do these workflows where it says, you know,"
+  },
+  {
+    "start": 562.71,
+    "end": 565.15,
+    "text": "these workflows where it says, you know, look at my competitors and everything"
+  },
+  {
+    "start": 565.15,
+    "end": 567.99,
+    "text": "look at my competitors and everything they've launched in the last 30 days and"
+  },
+  {
+    "start": 567.99,
+    "end": 569.95,
+    "text": "they've launched in the last 30 days and you know, look at what ad formats"
+  },
+  {
+    "start": 569.95,
+    "end": 572.27,
+    "text": "you know, look at what ad formats they've run, find their top ads by"
+  },
+  {
+    "start": 572.27,
+    "end": 574.91,
+    "text": "they've run, find their top ads by impressions and then go and remake them"
+  },
+  {
+    "start": 574.91,
+    "end": 577.19,
+    "text": "impressions and then go and remake them for us using the Higgsfield MCP. Like"
+  },
+  {
+    "start": 577.19,
+    "end": 579.31,
+    "text": "for us using the Higgsfield MCP. Like those are the flows that become possible"
+  },
+  {
+    "start": 579.31,
+    "end": 581.07,
+    "text": "those are the flows that become possible when you have this Parker MCP that's"
+  },
+  {
+    "start": 581.07,
+    "end": 583.47,
+    "text": "when you have this Parker MCP that's pulling in all of the data about your ad"
+  },
+  {
+    "start": 583.47,
+    "end": 585.27,
+    "text": "pulling in all of the data about your ad account, your"
+  },
+  {
+    "start": 585.27,
+    "end": 585.91,
+    "text": "account, your um"
+  },
+  {
+    "start": 585.91,
+    "end": 588.55,
+    "text": "um your competitors, uh and then connecting"
+  },
+  {
+    "start": 588.55,
+    "end": 590.27,
+    "text": "your competitors, uh and then connecting that to the Parker brain that has all of"
+  },
+  {
+    "start": 590.27,
+    "end": 592.55,
+    "text": "that to the Parker brain that has all of this context that self-improves uh over"
+  },
+  {
+    "start": 592.55,
+    "end": 593.99,
+    "text": "this context that self-improves uh over time. And then actually connects it to"
+  },
+  {
+    "start": 593.99,
+    "end": 595.39,
+    "text": "time. And then actually connects it to the tools that you use on a day-to-day"
+  },
+  {
+    "start": 595.39,
+    "end": 598.11,
+    "text": "the tools that you use on a day-to-day basis. So, it comes to you rather than"
+  },
+  {
+    "start": 598.11,
+    "end": 599.63,
+    "text": "basis. So, it comes to you rather than just, you know, you chatting inside of"
+  },
+  {
+    "start": 599.63,
+    "end": 601.27,
+    "text": "just, you know, you chatting inside of Claude all the time. Now, going back to"
+  },
+  {
+    "start": 601.27,
+    "end": 603.47,
+    "text": "Claude all the time. Now, going back to this chat where it's ingesting uh the"
+  },
+  {
+    "start": 603.47,
+    "end": 604.91,
+    "text": "this chat where it's ingesting uh the Slack context, you can see it says, \"I"
+  },
+  {
+    "start": 604.91,
+    "end": 606.91,
+    "text": "Slack context, you can see it says, \"I read the full ad creative overpop"
+  },
+  {
+    "start": 606.91,
+    "end": 609.63,
+    "text": "read the full ad creative overpop history from beginning of June 2023 to"
+  },
+  {
+    "start": 609.63,
+    "end": 610.71,
+    "text": "history from beginning of June 2023 to today.\""
+  },
+  {
+    "start": 610.71,
+    "end": 612.51,
+    "text": "today.\" Uh and it is now writing into its"
+  },
+  {
+    "start": 612.51,
+    "end": 614.47,
+    "text": "Uh and it is now writing into its context. So, it's gone into Slack,"
+  },
+  {
+    "start": 614.47,
+    "end": 616.55,
+    "text": "context. So, it's gone into Slack, ingested all of the messages from the"
+  },
+  {
+    "start": 616.55,
+    "end": 619.31,
+    "text": "ingested all of the messages from the last 3 years, and now it is writing that"
+  },
+  {
+    "start": 619.31,
+    "end": 623.19,
+    "text": "last 3 years, and now it is writing that into the folder so that all future"
+  },
+  {
+    "start": 623.19,
+    "end": 625.03,
+    "text": "into the folder so that all future queries that you do already has context"
+  },
+  {
+    "start": 625.03,
+    "end": 626.63,
+    "text": "queries that you do already has context of not only the brain, the ad account,"
+  },
+  {
+    "start": 626.63,
+    "end": 628.31,
+    "text": "of not only the brain, the ad account, everything inside of Parker, but also"
+  },
+  {
+    "start": 628.31,
+    "end": 629.75,
+    "text": "everything inside of Parker, but also every message ever in Slack. You can do"
+  },
+  {
+    "start": 629.75,
+    "end": 631.43,
+    "text": "every message ever in Slack. You can do this for Notion as well. Every concept"
+  },
+  {
+    "start": 631.43,
+    "end": 633.19,
+    "text": "this for Notion as well. Every concept you ever produce, you can do this for,"
+  },
+  {
+    "start": 633.19,
+    "end": 634.43,
+    "text": "you ever produce, you can do this for, you know, Google Calendar, for every"
+  },
+  {
+    "start": 634.43,
+    "end": 635.75,
+    "text": "you know, Google Calendar, for every meeting that you have with the client,"
+  },
+  {
+    "start": 635.75,
+    "end": 637.71,
+    "text": "meeting that you have with the client, for every internal brainstorm you've"
+  },
+  {
+    "start": 637.71,
+    "end": 639.43,
+    "text": "for every internal brainstorm you've ever done. Like, all of this context"
+  },
+  {
+    "start": 639.43,
+    "end": 642.55,
+    "text": "ever done. Like, all of this context should be going into your client brain"
+  },
+  {
+    "start": 642.55,
+    "end": 644.35,
+    "text": "should be going into your client brain so that it gets smarter every day. And"
+  },
+  {
+    "start": 644.35,
+    "end": 645.35,
+    "text": "so that it gets smarter every day. And this is where it becomes really"
+  },
+  {
+    "start": 645.35,
+    "end": 646.63,
+    "text": "this is where it becomes really interesting because, you know, this is"
+  },
+  {
+    "start": 646.63,
+    "end": 647.87,
+    "text": "interesting because, you know, this is already accounted for if you have the"
+  },
+  {
+    "start": 647.87,
+    "end": 650.03,
+    "text": "already accounted for if you have the Parker MCP. We do this automatically for"
+  },
+  {
+    "start": 650.03,
+    "end": 651.51,
+    "text": "Parker MCP. We do this automatically for you. We set up these routines for you."
+  },
+  {
+    "start": 651.51,
+    "end": 653.63,
+    "text": "you. We set up these routines for you. But you can start setting up routines"
+  },
+  {
+    "start": 653.63,
+    "end": 656.03,
+    "text": "But you can start setting up routines that do this on a schedule. Uh so, I go"
+  },
+  {
+    "start": 656.03,
+    "end": 659.07,
+    "text": "that do this on a schedule. Uh so, I go into my routines here, I can see, you"
+  },
+  {
+    "start": 659.07,
+    "end": 661.07,
+    "text": "into my routines here, I can see, you know, every day uh we've got overpop,"
+  },
+  {
+    "start": 661.07,
+    "end": 662.47,
+    "text": "know, every day uh we've got overpop, you know, update in the brain, or like"
+  },
+  {
+    "start": 662.47,
+    "end": 663.95,
+    "text": "you know, update in the brain, or like refreshing the context, or generating"
+  },
+  {
+    "start": 663.95,
+    "end": 666.11,
+    "text": "refreshing the context, or generating new ideas for me. So, all of this stuff"
+  },
+  {
+    "start": 666.11,
+    "end": 668.99,
+    "text": "new ideas for me. So, all of this stuff is automatically being updated. Uh so,"
+  },
+  {
+    "start": 668.99,
+    "end": 670.35,
+    "text": "is automatically being updated. Uh so, it's getting smarter and smarter over"
+  },
+  {
+    "start": 670.35,
+    "end": 673.03,
+    "text": "it's getting smarter and smarter over time. Then, when you create any"
+  },
+  {
+    "start": 673.03,
+    "end": 675.91,
+    "text": "time. Then, when you create any workflows inside of here, for example,"
+  },
+  {
+    "start": 675.91,
+    "end": 677.35,
+    "text": "workflows inside of here, for example, I was creating a workflow here where I"
+  },
+  {
+    "start": 677.35,
+    "end": 679.19,
+    "text": "I was creating a workflow here where I said, \"Look at my external brands' top"
+  },
+  {
+    "start": 679.19,
+    "end": 681.35,
+    "text": "said, \"Look at my external brands' top static ads by impressions.\" Again, that"
+  },
+  {
+    "start": 681.35,
+    "end": 683.67,
+    "text": "static ads by impressions.\" Again, that is from uh"
+  },
+  {
+    "start": 683.67,
+    "end": 686.15,
+    "text": "is from uh Parker. So, look at my external brands,"
+  },
+  {
+    "start": 686.15,
+    "end": 689.07,
+    "text": "Parker. So, look at my external brands, look at their top ads by impressions. Uh"
+  },
+  {
+    "start": 689.07,
+    "end": 691.51,
+    "text": "look at their top ads by impressions. Uh top static ads by impressions, and uh"
+  },
+  {
+    "start": 691.51,
+    "end": 693.11,
+    "text": "top static ads by impressions, and uh find ones that it makes sense for us to"
+  },
+  {
+    "start": 693.11,
+    "end": 695.67,
+    "text": "find ones that it makes sense for us to recreate, draft the copy to recreate"
+  },
+  {
+    "start": 695.67,
+    "end": 697.07,
+    "text": "recreate, draft the copy to recreate them. We would then do through the"
+  },
+  {
+    "start": 697.07,
+    "end": 699.95,
+    "text": "them. We would then do through the Higgsfield MCP. It went and generated"
+  },
+  {
+    "start": 699.95,
+    "end": 702.95,
+    "text": "Higgsfield MCP. It went and generated these uh statistics, and you know, I"
+  },
+  {
+    "start": 702.95,
+    "end": 704.79,
+    "text": "these uh statistics, and you know, I think the Higgsfield MCP is playing up"
+  },
+  {
+    "start": 704.79,
+    "end": 705.95,
+    "text": "think the Higgsfield MCP is playing up here. It sometimes seems to be a little"
+  },
+  {
+    "start": 705.95,
+    "end": 708.15,
+    "text": "here. It sometimes seems to be a little bit inconsistent with like showing on on"
+  },
+  {
+    "start": 708.15,
+    "end": 710.11,
+    "text": "bit inconsistent with like showing on on old chats. Uh but just to give you an"
+  },
+  {
+    "start": 710.11,
+    "end": 712.23,
+    "text": "old chats. Uh but just to give you an idea,"
+  },
+  {
+    "start": 712.23,
+    "end": 714.63,
+    "text": "idea, I had it deliver them to me in Slack,"
+  },
+  {
+    "start": 714.63,
+    "end": 717.15,
+    "text": "I had it deliver them to me in Slack, and uh I was pretty"
+  },
+  {
+    "start": 717.15,
+    "end": 720.07,
+    "text": "and uh I was pretty impressed by how well these came out. I"
+  },
+  {
+    "start": 720.07,
+    "end": 721.67,
+    "text": "impressed by how well these came out. I mean, these a lot of these I would say"
+  },
+  {
+    "start": 721.67,
+    "end": 722.75,
+    "text": "mean, these a lot of these I would say I'd"
+  },
+  {
+    "start": 722.75,
+    "end": 724.31,
+    "text": "I'd genuinely good to go inside the ad"
+  },
+  {
+    "start": 724.31,
+    "end": 725.75,
+    "text": "genuinely good to go inside the ad account. I mean, we could do a little"
+  },
+  {
+    "start": 725.75,
+    "end": 727.43,
+    "text": "account. I mean, we could do a little bit of work on the copy,"
+  },
+  {
+    "start": 727.43,
+    "end": 728.31,
+    "text": "bit of work on the copy, uh uh"
+  },
+  {
+    "start": 728.31,
+    "end": 729.99,
+    "text": "uh uh because I literally didn't do any work"
+  },
+  {
+    "start": 729.99,
+    "end": 730.95,
+    "text": "because I literally didn't do any work on the copy for this. I was just I was"
+  },
+  {
+    "start": 730.95,
+    "end": 732.39,
+    "text": "on the copy for this. I was just I was just testing this the other day."
+  },
+  {
+    "start": 732.39,
+    "end": 734.55,
+    "text": "just testing this the other day. Um but you can get"
+  },
+  {
+    "start": 734.55,
+    "end": 737.39,
+    "text": "Um but you can get ads delivered into your Slack, or"
+  },
+  {
+    "start": 737.39,
+    "end": 740.23,
+    "text": "ads delivered into your Slack, or wherever you operate, on a Monday"
+  },
+  {
+    "start": 740.23,
+    "end": 742.47,
+    "text": "wherever you operate, on a Monday morning, uh just by setting up a"
+  },
+  {
+    "start": 742.47,
+    "end": 744.11,
+    "text": "morning, uh just by setting up a workflow like this, and then saying,"
+  },
+  {
+    "start": 744.11,
+    "end": 747.91,
+    "text": "workflow like this, and then saying, \"Okay, now turn this into a uh routine"
+  },
+  {
+    "start": 747.91,
+    "end": 749.55,
+    "text": "\"Okay, now turn this into a uh routine that runs every morning and pings me"
+  },
+  {
+    "start": 749.55,
+    "end": 751.27,
+    "text": "that runs every morning and pings me inside of my internal Slack channel.\""
+  },
+  {
+    "start": 751.27,
+    "end": 752.83,
+    "text": "inside of my internal Slack channel.\" And again, these, because it's connected"
+  },
+  {
+    "start": 752.83,
+    "end": 755.67,
+    "text": "And again, these, because it's connected to the Parker MCP, are real"
+  },
+  {
+    "start": 755.67,
+    "end": 758.87,
+    "text": "to the Parker MCP, are real comments or reviews that uh"
+  },
+  {
+    "start": 758.87,
+    "end": 760.95,
+    "text": "comments or reviews that uh our customers have have said."
+  },
+  {
+    "start": 760.95,
+    "end": 762.43,
+    "text": "our customers have have said. Um so it's not like fabricating this."
+  },
+  {
+    "start": 762.43,
+    "end": 763.75,
+    "text": "Um so it's not like fabricating this. It's not getting them from It's not just"
+  },
+  {
+    "start": 763.75,
+    "end": 766.75,
+    "text": "It's not getting them from It's not just making them up itself. I ask go and find"
+  },
+  {
+    "start": 766.75,
+    "end": 768.27,
+    "text": "making them up itself. I ask go and find uh real customer reviews or real ad"
+  },
+  {
+    "start": 768.27,
+    "end": 769.91,
+    "text": "uh real customer reviews or real ad comments or real post-purchase surveys,"
+  },
+  {
+    "start": 769.91,
+    "end": 773.03,
+    "text": "comments or real post-purchase surveys, and then infuse them into ads that have"
+  },
+  {
+    "start": 773.03,
+    "end": 776.19,
+    "text": "and then infuse them into ads that have performed for external brands,"
+  },
+  {
+    "start": 776.19,
+    "end": 777.59,
+    "text": "performed for external brands, and"
+  },
+  {
+    "start": 777.59,
+    "end": 778.31,
+    "text": "and um"
+  },
+  {
+    "start": 778.31,
+    "end": 779.75,
+    "text": "um and remake them for us. Then deliver"
+  },
+  {
+    "start": 779.75,
+    "end": 781.39,
+    "text": "and remake them for us. Then deliver that to me every Monday morning. You"
+  },
+  {
+    "start": 781.39,
+    "end": 783.87,
+    "text": "that to me every Monday morning. You could have it make 25 ads for you and"
+  },
+  {
+    "start": 783.87,
+    "end": 784.99,
+    "text": "could have it make 25 ads for you and send it straight into your Slack every"
+  },
+  {
+    "start": 784.99,
+    "end": 787.03,
+    "text": "send it straight into your Slack every Monday morning using the Higgsfield MCP,"
+  },
+  {
+    "start": 787.03,
+    "end": 788.15,
+    "text": "Monday morning using the Higgsfield MCP, which again is another one that you want"
+  },
+  {
+    "start": 788.15,
+    "end": 789.67,
+    "text": "which again is another one that you want to set set up here inside of your"
+  },
+  {
+    "start": 789.67,
+    "end": 790.91,
+    "text": "to set set up here inside of your Claude. And that's when this just"
+  },
+  {
+    "start": 790.91,
+    "end": 792.75,
+    "text": "Claude. And that's when this just becomes so incredibly powerful when you"
+  },
+  {
+    "start": 792.75,
+    "end": 794.03,
+    "text": "becomes so incredibly powerful when you think about all the different tools you"
+  },
+  {
+    "start": 794.03,
+    "end": 795.51,
+    "text": "think about all the different tools you have, and then just start connecting"
+  },
+  {
+    "start": 795.51,
+    "end": 797.63,
+    "text": "have, and then just start connecting them together, and having it proactively"
+  },
+  {
+    "start": 797.63,
+    "end": 800.83,
+    "text": "them together, and having it proactively deliver them to you uh on a schedule"
+  },
+  {
+    "start": 800.83,
+    "end": 802.23,
+    "text": "deliver them to you uh on a schedule inside of the place that you already"
+  },
+  {
+    "start": 802.23,
+    "end": 804.55,
+    "text": "inside of the place that you already work. You know, uh I mean, spoke about a"
+  },
+  {
+    "start": 804.55,
+    "end": 807.35,
+    "text": "work. You know, uh I mean, spoke about a gamma earlier. Uh another report that I"
+  },
+  {
+    "start": 807.35,
+    "end": 809.51,
+    "text": "gamma earlier. Uh another report that I uh another thing that I did was I said,"
+  },
+  {
+    "start": 809.51,
+    "end": 812.07,
+    "text": "uh another thing that I did was I said, \"Build my monthly creative port report.\""
+  },
+  {
+    "start": 812.07,
+    "end": 813.47,
+    "text": "\"Build my monthly creative port report.\" Again, this is like a super simple"
+  },
+  {
+    "start": 813.47,
+    "end": 814.47,
+    "text": "Again, this is like a super simple prompt. You can probably make something"
+  },
+  {
+    "start": 814.47,
+    "end": 815.91,
+    "text": "prompt. You can probably make something way, way better than this."
+  },
+  {
+    "start": 815.91,
+    "end": 817.39,
+    "text": "way, way better than this. Um I just want a performance story of"
+  },
+  {
+    "start": 817.39,
+    "end": 819.07,
+    "text": "Um I just want a performance story of the time. Tell me what's working, what's"
+  },
+  {
+    "start": 819.07,
+    "end": 821.95,
+    "text": "the time. Tell me what's working, what's not working, and uh and then ground it"
+  },
+  {
+    "start": 821.95,
+    "end": 824.59,
+    "text": "not working, and uh and then ground it in customer evidence. And I made it make"
+  },
+  {
+    "start": 824.59,
+    "end": 827.03,
+    "text": "in customer evidence. And I made it make that inside of Gamma."
+  },
+  {
+    "start": 827.03,
+    "end": 828.59,
+    "text": "that inside of Gamma. And here's what it did. So, it's"
+  },
+  {
+    "start": 828.59,
+    "end": 830.15,
+    "text": "And here's what it did. So, it's literally put together this whole report"
+  },
+  {
+    "start": 830.15,
+    "end": 832.11,
+    "text": "literally put together this whole report with everything that I need. Uh you"
+  },
+  {
+    "start": 832.11,
+    "end": 834.11,
+    "text": "with everything that I need. Uh you know, we at Create do retros every"
+  },
+  {
+    "start": 834.11,
+    "end": 836.03,
+    "text": "know, we at Create do retros every month. We have to produce a report just"
+  },
+  {
+    "start": 836.03,
+    "end": 837.19,
+    "text": "month. We have to produce a report just like this"
+  },
+  {
+    "start": 837.19,
+    "end": 838.35,
+    "text": "like this uh and then send it to the team"
+  },
+  {
+    "start": 838.35,
+    "end": 839.79,
+    "text": "uh and then send it to the team internally, then send it to the client."
+  },
+  {
+    "start": 839.79,
+    "end": 841.75,
+    "text": "internally, then send it to the client. This has been done in one prompt with no"
+  },
+  {
+    "start": 841.75,
+    "end": 843.47,
+    "text": "This has been done in one prompt with no optimization. I could say, you know, go"
+  },
+  {
+    "start": 843.47,
+    "end": 844.43,
+    "text": "optimization. I could say, you know, go and"
+  },
+  {
+    "start": 844.43,
+    "end": 846.63,
+    "text": "and uh you know, index more on competitors,"
+  },
+  {
+    "start": 846.63,
+    "end": 848.03,
+    "text": "uh you know, index more on competitors, or go and do more organic research."
+  },
+  {
+    "start": 848.03,
+    "end": 849.71,
+    "text": "or go and do more organic research. Because you are tapped into everything"
+  },
+  {
+    "start": 849.71,
+    "end": 851.59,
+    "text": "Because you are tapped into everything through the Parker MCP, you can get to"
+  },
+  {
+    "start": 851.59,
+    "end": 852.75,
+    "text": "through the Parker MCP, you can get to report on performance. You can get to"
+  },
+  {
+    "start": 852.75,
+    "end": 854.83,
+    "text": "report on performance. You can get to report on competitors. You can get it to"
+  },
+  {
+    "start": 854.83,
+    "end": 856.67,
+    "text": "report on competitors. You can get it to look at, you know, our customer voice"
+  },
+  {
+    "start": 856.67,
+    "end": 859.35,
+    "text": "look at, you know, our customer voice and compare it against uh the ad account"
+  },
+  {
+    "start": 859.35,
+    "end": 860.39,
+    "text": "and compare it against uh the ad account and see what opportunities we're"
+  },
+  {
+    "start": 860.39,
+    "end": 861.83,
+    "text": "and see what opportunities we're missing. You can get it to look at the"
+  },
+  {
+    "start": 861.83,
+    "end": 863.15,
+    "text": "missing. You can get it to look at the organic feed. You can get it to look at"
+  },
+  {
+    "start": 863.15,
+    "end": 864.99,
+    "text": "organic feed. You can get it to look at ad comments. For example, it says here,"
+  },
+  {
+    "start": 864.99,
+    "end": 866.35,
+    "text": "ad comments. For example, it says here, uh the most liked comment in the last 60"
+  },
+  {
+    "start": 866.35,
+    "end": 868.99,
+    "text": "uh the most liked comment in the last 60 days is uh he's like my 16 and a half"
+  },
+  {
+    "start": 868.99,
+    "end": 870.43,
+    "text": "days is uh he's like my 16 and a half year old newborn. It's talking about"
+  },
+  {
+    "start": 870.43,
+    "end": 871.95,
+    "text": "year old newborn. It's talking about dogs here cuz this is a dog brand."
+  },
+  {
+    "start": 871.95,
+    "end": 873.67,
+    "text": "dogs here cuz this is a dog brand. That's a really"
+  },
+  {
+    "start": 873.67,
+    "end": 876.63,
+    "text": "That's a really uh really nice piece of copy uh and an"
+  },
+  {
+    "start": 876.63,
+    "end": 877.79,
+    "text": "uh really nice piece of copy uh and an angle that we actually haven't tested"
+  },
+  {
+    "start": 877.79,
+    "end": 879.03,
+    "text": "angle that we actually haven't tested yet, which is flagged inside of the ad"
+  },
+  {
+    "start": 879.03,
+    "end": 881.15,
+    "text": "yet, which is flagged inside of the ad account. And it got 46 likes as well as"
+  },
+  {
+    "start": 881.15,
+    "end": 883.07,
+    "text": "account. And it got 46 likes as well as a comment um most liked comment in the"
+  },
+  {
+    "start": 883.07,
+    "end": 885.55,
+    "text": "a comment um most liked comment in the last 60 days. So, that is a a good"
+  },
+  {
+    "start": 885.55,
+    "end": 886.55,
+    "text": "last 60 days. So, that is a a good signal that we might want to start"
+  },
+  {
+    "start": 886.55,
+    "end": 888.47,
+    "text": "signal that we might want to start making ads around senior dogs. And all"
+  },
+  {
+    "start": 888.47,
+    "end": 889.55,
+    "text": "making ads around senior dogs. And all of this stuff is just put together in"
+  },
+  {
+    "start": 889.55,
+    "end": 890.87,
+    "text": "of this stuff is just put together in this one report that we've made through"
+  },
+  {
+    "start": 890.87,
+    "end": 894.67,
+    "text": "this one report that we've made through one prompt, um which is pretty insane."
+  },
+  {
+    "start": 894.67,
+    "end": 896.11,
+    "text": "one prompt, um which is pretty insane. Again, here it's gone on the organic"
+  },
+  {
+    "start": 896.11,
+    "end": 898.15,
+    "text": "Again, here it's gone on the organic feed and found content that we might"
+  },
+  {
+    "start": 898.15,
+    "end": 900.51,
+    "text": "feed and found content that we might want to recreate. It's looked at our"
+  },
+  {
+    "start": 900.51,
+    "end": 902.83,
+    "text": "want to recreate. It's looked at our other brands inside of Parker and and"
+  },
+  {
+    "start": 902.83,
+    "end": 904.39,
+    "text": "other brands inside of Parker and and looked at what they're testing right now"
+  },
+  {
+    "start": 904.39,
+    "end": 905.95,
+    "text": "looked at what they're testing right now and and and given us suggestions. There"
+  },
+  {
+    "start": 905.95,
+    "end": 909.55,
+    "text": "and and and given us suggestions. There are so many things that you could go and"
+  },
+  {
+    "start": 909.55,
+    "end": 912.11,
+    "text": "are so many things that you could go and uh build off the back of this. The world"
+  },
+  {
+    "start": 912.11,
+    "end": 913.67,
+    "text": "uh build off the back of this. The world really is your oyster when you get into"
+  },
+  {
+    "start": 913.67,
+    "end": 915.79,
+    "text": "really is your oyster when you get into cloud code and you get into producing"
+  },
+  {
+    "start": 915.79,
+    "end": 917.35,
+    "text": "cloud code and you get into producing things like this. Here's another report"
+  },
+  {
+    "start": 917.35,
+    "end": 919.55,
+    "text": "things like this. Here's another report that I made in Google Slides. Another"
+  },
+  {
+    "start": 919.55,
+    "end": 922.55,
+    "text": "that I made in Google Slides. Another one that looked at competitive vars and"
+  },
+  {
+    "start": 922.55,
+    "end": 924.11,
+    "text": "one that looked at competitive vars and uh compared us to the gap analysis and"
+  },
+  {
+    "start": 924.11,
+    "end": 925.91,
+    "text": "uh compared us to the gap analysis and then used that to come up with ad ideas"
+  },
+  {
+    "start": 925.91,
+    "end": 928.67,
+    "text": "then used that to come up with ad ideas based on our voice of customer. Imagine"
+  },
+  {
+    "start": 928.67,
+    "end": 932.07,
+    "text": "based on our voice of customer. Imagine having a V1 of your monthly report that"
+  },
+  {
+    "start": 932.07,
+    "end": 933.91,
+    "text": "having a V1 of your monthly report that you send to, you know, your performance"
+  },
+  {
+    "start": 933.91,
+    "end": 935.71,
+    "text": "you send to, you know, your performance team, your strategy team, your client,"
+  },
+  {
+    "start": 935.71,
+    "end": 937.27,
+    "text": "team, your strategy team, your client, whatever it is, delivered to you inside"
+  },
+  {
+    "start": 937.27,
+    "end": 938.91,
+    "text": "whatever it is, delivered to you inside of Slack every single month saying,"
+  },
+  {
+    "start": 938.91,
+    "end": 940.71,
+    "text": "of Slack every single month saying, \"Here's the V1 of the report. Approve it"
+  },
+  {
+    "start": 940.71,
+    "end": 942.03,
+    "text": "\"Here's the V1 of the report. Approve it and I'll send it off to the relevant"
+  },
+  {
+    "start": 942.03,
+    "end": 944.39,
+    "text": "and I'll send it off to the relevant stakeholders or go and edit inside of"
+  },
+  {
+    "start": 944.39,
+    "end": 945.91,
+    "text": "stakeholders or go and edit inside of Gamma or give me feedback and I'll know"
+  },
+  {
+    "start": 945.91,
+    "end": 946.99,
+    "text": "Gamma or give me feedback and I'll know for next time.\" And that's the cool"
+  },
+  {
+    "start": 946.99,
+    "end": 949.19,
+    "text": "for next time.\" And that's the cool thing here is that you can literally, if"
+  },
+  {
+    "start": 949.19,
+    "end": 950.83,
+    "text": "thing here is that you can literally, if I didn't like this for whatever reason,"
+  },
+  {
+    "start": 950.83,
+    "end": 952.67,
+    "text": "I didn't like this for whatever reason, I could go into Claude code and I can"
+  },
+  {
+    "start": 952.67,
+    "end": 954.91,
+    "text": "I could go into Claude code and I can say, \"When you're doing reporting, you"
+  },
+  {
+    "start": 954.91,
+    "end": 957.87,
+    "text": "say, \"When you're doing reporting, you seem to over-index on, you know, ROAS or"
+  },
+  {
+    "start": 957.87,
+    "end": 959.87,
+    "text": "seem to over-index on, you know, ROAS or CPA. I care more about the ads that get"
+  },
+  {
+    "start": 959.87,
+    "end": 961.67,
+    "text": "CPA. I care more about the ads that get the most spend inside the ad account."
+  },
+  {
+    "start": 961.67,
+    "end": 963.35,
+    "text": "the most spend inside the ad account. From now on, I want you to remember it"
+  },
+  {
+    "start": 963.35,
+    "end": 965.07,
+    "text": "From now on, I want you to remember it this and in all future reports that you"
+  },
+  {
+    "start": 965.07,
+    "end": 967.59,
+    "text": "this and in all future reports that you do, always prioritize that metric.\" And"
+  },
+  {
+    "start": 967.59,
+    "end": 968.71,
+    "text": "do, always prioritize that metric.\" And then the brain will take that feedback"
+  },
+  {
+    "start": 968.71,
+    "end": 971.35,
+    "text": "then the brain will take that feedback on board, write it into its system, and"
+  },
+  {
+    "start": 971.35,
+    "end": 973.11,
+    "text": "on board, write it into its system, and then know for next time that that's how"
+  },
+  {
+    "start": 973.11,
+    "end": 975.51,
+    "text": "then know for next time that that's how you do reporting. If we go back to the"
+  },
+  {
+    "start": 975.51,
+    "end": 978.71,
+    "text": "you do reporting. If we go back to the original query that we had about uh"
+  },
+  {
+    "start": 978.71,
+    "end": 980.99,
+    "text": "original query that we had about uh getting the Slack that's updated, you'll"
+  },
+  {
+    "start": 980.99,
+    "end": 983.35,
+    "text": "getting the Slack that's updated, you'll see that it's now completed that. It has"
+  },
+  {
+    "start": 983.35,
+    "end": 985.75,
+    "text": "see that it's now completed that. It has wrote it into the folder. If I go into"
+  },
+  {
+    "start": 985.75,
+    "end": 987.39,
+    "text": "wrote it into the folder. If I go into the folder, this is the output folder"
+  },
+  {
+    "start": 987.39,
+    "end": 990.19,
+    "text": "the folder, this is the output folder that we made. Uh I can see that if I go"
+  },
+  {
+    "start": 990.19,
+    "end": 992.27,
+    "text": "that we made. Uh I can see that if I go into running notes as it said here, we"
+  },
+  {
+    "start": 992.27,
+    "end": 994.19,
+    "text": "into running notes as it said here, we can see it's got a client feedback"
+  },
+  {
+    "start": 994.19,
+    "end": 995.95,
+    "text": "can see it's got a client feedback document. It has created this document."
+  },
+  {
+    "start": 995.95,
+    "end": 997.87,
+    "text": "document. It has created this document. I did not create this document. It has"
+  },
+  {
+    "start": 997.87,
+    "end": 999.67,
+    "text": "I did not create this document. It has taken in my query and created the client"
+  },
+  {
+    "start": 999.67,
+    "end": 1001.07,
+    "text": "taken in my query and created the client feedback document. It's going to update"
+  },
+  {
+    "start": 1001.07,
+    "end": 1002.63,
+    "text": "feedback document. It's going to update that as more context comes in from"
+  },
+  {
+    "start": 1002.63,
+    "end": 1004.79,
+    "text": "that as more context comes in from Slack, comes in from Google Calendar,"
+  },
+  {
+    "start": 1004.79,
+    "end": 1006.19,
+    "text": "Slack, comes in from Google Calendar, comes in from email, or wherever you"
+  },
+  {
+    "start": 1006.19,
+    "end": 1008.99,
+    "text": "comes in from email, or wherever you want to connect, and this system gets"
+  },
+  {
+    "start": 1008.99,
+    "end": 1011.43,
+    "text": "want to connect, and this system gets smarter. Uh this folder gets smarter and"
+  },
+  {
+    "start": 1011.43,
+    "end": 1014.27,
+    "text": "smarter. Uh this folder gets smarter and therefore your Claude gets smarter uh"
+  },
+  {
+    "start": 1014.27,
+    "end": 1016.27,
+    "text": "therefore your Claude gets smarter uh the more that you use it. I do just want"
+  },
+  {
+    "start": 1016.27,
+    "end": 1017.75,
+    "text": "the more that you use it. I do just want to highlight the effectiveness of the"
+  },
+  {
+    "start": 1017.75,
+    "end": 1019.51,
+    "text": "to highlight the effectiveness of the static ads workflow again. This has been"
+  },
+  {
+    "start": 1019.51,
+    "end": 1021.47,
+    "text": "static ads workflow again. This has been one of my favorite use cases of the"
+  },
+  {
+    "start": 1021.47,
+    "end": 1023.55,
+    "text": "one of my favorite use cases of the Parker MCP and the Parker brain so far"
+  },
+  {
+    "start": 1023.55,
+    "end": 1025.51,
+    "text": "Parker MCP and the Parker brain so far and Claude code in general. Uh because"
+  },
+  {
+    "start": 1025.51,
+    "end": 1027.27,
+    "text": "and Claude code in general. Uh because here I said, you know, \"Search my"
+  },
+  {
+    "start": 1027.27,
+    "end": 1028.35,
+    "text": "here I said, you know, \"Search my customer reviews and Facebook ad"
+  },
+  {
+    "start": 1028.35,
+    "end": 1030.07,
+    "text": "customer reviews and Facebook ad comments. Find the most emotionally"
+  },
+  {
+    "start": 1030.07,
+    "end": 1031.99,
+    "text": "comments. Find the most emotionally loaded phrases that our that our"
+  },
+  {
+    "start": 1031.99,
+    "end": 1033.55,
+    "text": "loaded phrases that our that our customers are telling us."
+  },
+  {
+    "start": 1033.55,
+    "end": 1035.19,
+    "text": "customers are telling us. Uh cluster them into distinct angles."
+  },
+  {
+    "start": 1035.19,
+    "end": 1036.91,
+    "text": "Uh cluster them into distinct angles. Look at the Facebook ads data, and then"
+  },
+  {
+    "start": 1036.91,
+    "end": 1038.91,
+    "text": "Look at the Facebook ads data, and then basically use these to create some"
+  },
+  {
+    "start": 1038.91,
+    "end": 1040.79,
+    "text": "basically use these to create some statics for us, and then using the"
+  },
+  {
+    "start": 1040.79,
+    "end": 1043.19,
+    "text": "statics for us, and then using the Hixfeld MCP, it generated these, which"
+  },
+  {
+    "start": 1043.19,
+    "end": 1045.11,
+    "text": "Hixfeld MCP, it generated these, which again, I have not, you know, done a pass"
+  },
+  {
+    "start": 1045.11,
+    "end": 1047.11,
+    "text": "again, I have not, you know, done a pass on the copy here, but this is, you know,"
+  },
+  {
+    "start": 1047.11,
+    "end": 1048.35,
+    "text": "on the copy here, but this is, you know, this is the phrase that we saw from the"
+  },
+  {
+    "start": 1048.35,
+    "end": 1050.31,
+    "text": "this is the phrase that we saw from the report, so it knows, you know, where our"
+  },
+  {
+    "start": 1050.31,
+    "end": 1051.99,
+    "text": "report, so it knows, you know, where our white space is, where we haven't tested"
+  },
+  {
+    "start": 1051.99,
+    "end": 1053.43,
+    "text": "white space is, where we haven't tested inside the ad account yet, what personas"
+  },
+  {
+    "start": 1053.43,
+    "end": 1055.11,
+    "text": "inside the ad account yet, what personas we have not here, and I can tell you,"
+  },
+  {
+    "start": 1055.11,
+    "end": 1056.91,
+    "text": "we have not here, and I can tell you, because we do the ads for this account,"
+  },
+  {
+    "start": 1056.91,
+    "end": 1058.95,
+    "text": "because we do the ads for this account, we have not really hit the senior dog"
+  },
+  {
+    "start": 1058.95,
+    "end": 1061.23,
+    "text": "we have not really hit the senior dog angle that hard yet."
+  },
+  {
+    "start": 1061.23,
+    "end": 1063.87,
+    "text": "angle that hard yet. Kind of That is a That is a ready to go"
+  },
+  {
+    "start": 1063.87,
+    "end": 1065.31,
+    "text": "Kind of That is a That is a ready to go static that I would launch inside that"
+  },
+  {
+    "start": 1065.31,
+    "end": 1067.71,
+    "text": "static that I would launch inside that account. That's very good. And this is a"
+  },
+  {
+    "start": 1067.71,
+    "end": 1070.59,
+    "text": "account. That's very good. And this is a real customer comment or review that"
+  },
+  {
+    "start": 1070.59,
+    "end": 1072.11,
+    "text": "real customer comment or review that they have said, so we can use that and"
+  },
+  {
+    "start": 1072.11,
+    "end": 1075.83,
+    "text": "they have said, so we can use that and put it into the account. Um"
+  },
+  {
+    "start": 1075.83,
+    "end": 1077.47,
+    "text": "put it into the account. Um So, just just setting up this workflow"
+  },
+  {
+    "start": 1077.47,
+    "end": 1078.47,
+    "text": "So, just just setting up this workflow and getting these delivered into your"
+  },
+  {
+    "start": 1078.47,
+    "end": 1080.31,
+    "text": "and getting these delivered into your Slack every Monday is just such a lock,"
+  },
+  {
+    "start": 1080.31,
+    "end": 1081.55,
+    "text": "Slack every Monday is just such a lock, and you can put out so many more"
+  },
+  {
+    "start": 1081.55,
+    "end": 1082.87,
+    "text": "and you can put out so many more statics. You can do it for video as"
+  },
+  {
+    "start": 1082.87,
+    "end": 1083.95,
+    "text": "statics. You can do it for video as well, but you need a little bit more"
+  },
+  {
+    "start": 1083.95,
+    "end": 1086.27,
+    "text": "well, but you need a little bit more human in the loop for that, I found. Um"
+  },
+  {
+    "start": 1086.27,
+    "end": 1088.19,
+    "text": "human in the loop for that, I found. Um but statics it just such like statics"
+  },
+  {
+    "start": 1088.19,
+    "end": 1090.31,
+    "text": "but statics it just such like statics and reporting it it's so so good for"
+  },
+  {
+    "start": 1090.31,
+    "end": 1091.91,
+    "text": "and reporting it it's so so good for this, and getting it to populate your"
+  },
+  {
+    "start": 1091.91,
+    "end": 1093.47,
+    "text": "this, and getting it to populate your ideas bank, like we showed it in in"
+  },
+  {
+    "start": 1093.47,
+    "end": 1095.07,
+    "text": "ideas bank, like we showed it in in Notion, whether you have your awesome or"
+  },
+  {
+    "start": 1095.07,
+    "end": 1096.83,
+    "text": "Notion, whether you have your awesome or else, you can do that, too. The amount"
+  },
+  {
+    "start": 1096.83,
+    "end": 1097.99,
+    "text": "else, you can do that, too. The amount of The amount of workflows you can just"
+  },
+  {
+    "start": 1097.99,
+    "end": 1099.59,
+    "text": "of The amount of workflows you can just set up off the back of this are, you"
+  },
+  {
+    "start": 1099.59,
+    "end": 1101.31,
+    "text": "set up off the back of this are, you know, absolutely insane. And again,"
+  },
+  {
+    "start": 1101.31,
+    "end": 1102.43,
+    "text": "know, absolutely insane. And again, anything you want to turn into a"
+  },
+  {
+    "start": 1102.43,
+    "end": 1103.99,
+    "text": "anything you want to turn into a schedule, you can just say, \"Turn this"
+  },
+  {
+    "start": 1103.99,
+    "end": 1106.43,
+    "text": "schedule, you can just say, \"Turn this into a routine.\""
+  },
+  {
+    "start": 1106.43,
+    "end": 1109.47,
+    "text": "into a routine.\" I can't spell, and send this to me on"
+  },
+  {
+    "start": 1109.47,
+    "end": 1110.75,
+    "text": "I can't spell, and send this to me on Slack"
+  },
+  {
+    "start": 1110.75,
+    "end": 1113.51,
+    "text": "Slack every Monday. Or you can just go and set"
+  },
+  {
+    "start": 1113.51,
+    "end": 1115.67,
+    "text": "every Monday. Or you can just go and set up the routine in the routine section,"
+  },
+  {
+    "start": 1115.67,
+    "end": 1118.03,
+    "text": "up the routine in the routine section, and you can have it here. But, you know,"
+  },
+  {
+    "start": 1118.03,
+    "end": 1120.23,
+    "text": "and you can have it here. But, you know, if you use the Parker Brain, then we're"
+  },
+  {
+    "start": 1120.23,
+    "end": 1121.43,
+    "text": "if you use the Parker Brain, then we're going to set up a a bunch of these"
+  },
+  {
+    "start": 1121.43,
+    "end": 1122.35,
+    "text": "going to set up a a bunch of these routines for you, so it will"
+  },
+  {
+    "start": 1122.35,
+    "end": 1123.95,
+    "text": "routines for you, so it will self-update, it will dream, it will"
+  },
+  {
+    "start": 1123.95,
+    "end": 1125.11,
+    "text": "self-update, it will dream, it will refresh the context, it will come up"
+  },
+  {
+    "start": 1125.11,
+    "end": 1127.51,
+    "text": "refresh the context, it will come up with ad ideas for you every single week."
+  },
+  {
+    "start": 1127.51,
+    "end": 1129.43,
+    "text": "with ad ideas for you every single week. Uh create research loops. Loops and"
+  },
+  {
+    "start": 1129.43,
+    "end": 1130.71,
+    "text": "Uh create research loops. Loops and judges is a whole another video I can"
+  },
+  {
+    "start": 1130.71,
+    "end": 1132.43,
+    "text": "judges is a whole another video I can get into as well. There is so so much"
+  },
+  {
+    "start": 1132.43,
+    "end": 1133.59,
+    "text": "get into as well. There is so so much that you can get into here. And as a"
+  },
+  {
+    "start": 1133.59,
+    "end": 1135.39,
+    "text": "that you can get into here. And as a reminder, the outputs will be as good as"
+  },
+  {
+    "start": 1135.39,
+    "end": 1137.07,
+    "text": "reminder, the outputs will be as good as you have your Parker set up on the back"
+  },
+  {
+    "start": 1137.07,
+    "end": 1138.07,
+    "text": "you have your Parker set up on the back end, so make sure you're following"
+  },
+  {
+    "start": 1138.07,
+    "end": 1139.75,
+    "text": "end, so make sure you're following brands inside of here that tagged as,"
+  },
+  {
+    "start": 1139.75,
+    "end": 1141.31,
+    "text": "brands inside of here that tagged as, you know, affinity brands, which are,"
+  },
+  {
+    "start": 1141.31,
+    "end": 1143.19,
+    "text": "you know, affinity brands, which are, you know, brands that are, you know,"
+  },
+  {
+    "start": 1143.19,
+    "end": 1144.39,
+    "text": "you know, brands that are, you know, selling to the same audience, but not"
+  },
+  {
+    "start": 1144.39,
+    "end": 1146.63,
+    "text": "selling to the same audience, but not the same product, competitors, inspo"
+  },
+  {
+    "start": 1146.63,
+    "end": 1148.43,
+    "text": "the same product, competitors, inspo brands. Make sure you have those set up."
+  },
+  {
+    "start": 1148.43,
+    "end": 1150.35,
+    "text": "brands. Make sure you have those set up. You've got AI tagging on every single"
+  },
+  {
+    "start": 1150.35,
+    "end": 1152.31,
+    "text": "You've got AI tagging on every single one of the ads, even your competitors'"
+  },
+  {
+    "start": 1152.31,
+    "end": 1153.67,
+    "text": "one of the ads, even your competitors' ads, so you can ask, you know, look at"
+  },
+  {
+    "start": 1153.67,
+    "end": 1155.35,
+    "text": "ads, so you can ask, you know, look at Caraway's ads and give me a breakdown by"
+  },
+  {
+    "start": 1155.35,
+    "end": 1158.35,
+    "text": "Caraway's ads and give me a breakdown by ad format. Every ad in our database is"
+  },
+  {
+    "start": 1158.35,
+    "end": 1159.87,
+    "text": "ad format. Every ad in our database is ranked by impressions, so you can kind"
+  },
+  {
+    "start": 1159.87,
+    "end": 1161.31,
+    "text": "ranked by impressions, so you can kind of see what's performing for other"
+  },
+  {
+    "start": 1161.31,
+    "end": 1163.59,
+    "text": "of see what's performing for other brands. Uh you can say, you know, look"
+  },
+  {
+    "start": 1163.59,
+    "end": 1165.95,
+    "text": "brands. Uh you can say, you know, look at the Caraway's top ads by impressions"
+  },
+  {
+    "start": 1165.95,
+    "end": 1168.23,
+    "text": "at the Caraway's top ads by impressions and try and find some common themes in,"
+  },
+  {
+    "start": 1168.23,
+    "end": 1170.23,
+    "text": "and try and find some common themes in, you know, the emotions or desires or ad"
+  },
+  {
+    "start": 1170.23,
+    "end": 1173.23,
+    "text": "you know, the emotions or desires or ad formats or just in general. Um you got"
+  },
+  {
+    "start": 1173.23,
+    "end": 1174.67,
+    "text": "formats or just in general. Um you got the same thing in the performance tab."
+  },
+  {
+    "start": 1174.67,
+    "end": 1175.87,
+    "text": "the same thing in the performance tab. You can say look at my swipe file, look"
+  },
+  {
+    "start": 1175.87,
+    "end": 1178.07,
+    "text": "You can say look at my swipe file, look at my ideas. Uh basically anything that"
+  },
+  {
+    "start": 1178.07,
+    "end": 1180.39,
+    "text": "at my ideas. Uh basically anything that you can query inside of Parker, uh you"
+  },
+  {
+    "start": 1180.39,
+    "end": 1182.71,
+    "text": "you can query inside of Parker, uh you can query inside of the Claude MCP. Now,"
+  },
+  {
+    "start": 1182.71,
+    "end": 1184.27,
+    "text": "can query inside of the Claude MCP. Now, Reddit you do not have access to yet. We"
+  },
+  {
+    "start": 1184.27,
+    "end": 1186.07,
+    "text": "Reddit you do not have access to yet. We are working on that. It's close, so I'm"
+  },
+  {
+    "start": 1186.07,
+    "end": 1187.83,
+    "text": "are working on that. It's close, so I'm very excited to to release that to you"
+  },
+  {
+    "start": 1187.83,
+    "end": 1189.31,
+    "text": "very excited to to release that to you guys, but everything else inside of the"
+  },
+  {
+    "start": 1189.31,
+    "end": 1191.51,
+    "text": "guys, but everything else inside of the app um you can you can query inside of"
+  },
+  {
+    "start": 1191.51,
+    "end": 1194.35,
+    "text": "app um you can you can query inside of the MCP um and get it to turn into ads"
+  },
+  {
+    "start": 1194.35,
+    "end": 1196.47,
+    "text": "the MCP um and get it to turn into ads for your brand."
+  },
+  {
+    "start": 1196.47,
+    "end": 1198.63,
+    "text": "for your brand. So, if you want to give this whole"
+  },
+  {
+    "start": 1198.63,
+    "end": 1200.27,
+    "text": "So, if you want to give this whole workflow a try, I'm going to give you a"
+  },
+  {
+    "start": 1200.27,
+    "end": 1202.79,
+    "text": "workflow a try, I'm going to give you a link to get a free month of Parker to"
+  },
+  {
+    "start": 1202.79,
+    "end": 1204.31,
+    "text": "link to get a free month of Parker to try completely free. All you would need"
+  },
+  {
+    "start": 1204.31,
+    "end": 1206.71,
+    "text": "try completely free. All you would need to do is generate the brain inside of"
+  },
+  {
+    "start": 1206.71,
+    "end": 1208.35,
+    "text": "to do is generate the brain inside of your Claude code. So, click the link in"
+  },
+  {
+    "start": 1208.35,
+    "end": 1209.59,
+    "text": "your Claude code. So, click the link in the description below. You can get a"
+  },
+  {
+    "start": 1209.59,
+    "end": 1211.51,
+    "text": "the description below. You can get a free month of Parker. Try this"
+  },
+  {
+    "start": 1211.51,
+    "end": 1214.07,
+    "text": "free month of Parker. Try this completely risk-free and uh"
+  },
+  {
+    "start": 1214.07,
+    "end": 1215.59,
+    "text": "completely risk-free and uh really just step into this new world."
+  },
+  {
+    "start": 1215.59,
+    "end": 1216.99,
+    "text": "really just step into this new world. I'm so excited for you guys because"
+  },
+  {
+    "start": 1216.99,
+    "end": 1219.07,
+    "text": "I'm so excited for you guys because genuinely, once you start using Claude"
+  },
+  {
+    "start": 1219.07,
+    "end": 1221.39,
+    "text": "genuinely, once you start using Claude code or Codex, there is no reason to go"
+  },
+  {
+    "start": 1221.39,
+    "end": 1222.75,
+    "text": "code or Codex, there is no reason to go back to regular chat. There is no reason"
+  },
+  {
+    "start": 1222.75,
+    "end": 1225.91,
+    "text": "back to regular chat. There is no reason to ever have a chat in Claude AI again"
+  },
+  {
+    "start": 1225.91,
+    "end": 1228.87,
+    "text": "to ever have a chat in Claude AI again once you've got these brains set up for"
+  },
+  {
+    "start": 1228.87,
+    "end": 1231.03,
+    "text": "once you've got these brains set up for uh your brand and I'm so excited for to"
+  },
+  {
+    "start": 1231.03,
+    "end": 1232.51,
+    "text": "uh your brand and I'm so excited for to see the use cases that you come out with"
+  },
+  {
+    "start": 1232.51,
+    "end": 1233.59,
+    "text": "see the use cases that you come out with cuz I'm sure there's a bunch of other"
+  },
+  {
+    "start": 1233.59,
+    "end": 1235.19,
+    "text": "cuz I'm sure there's a bunch of other things that I've even, you know, thought"
+  },
+  {
+    "start": 1235.19,
+    "end": 1236.47,
+    "text": "things that I've even, you know, thought of that you guys can do with this with"
+  },
+  {
+    "start": 1236.47,
+    "end": 1237.31,
+    "text": "of that you guys can do with this with all the different tools you're going to"
+  },
+  {
+    "start": 1237.31,
+    "end": 1239.47,
+    "text": "all the different tools you're going to connect. Anyway, if you like this video,"
+  },
+  {
+    "start": 1239.47,
+    "end": 1241.55,
+    "text": "connect. Anyway, if you like this video, hit subscribe, comment what you want to"
+  },
+  {
+    "start": 1241.55,
+    "end": 1243.71,
+    "text": "hit subscribe, comment what you want to see more of, and um I will see you in"
+  },
+  {
+    "start": 1243.71,
+    "end": 1246.16,
+    "text": "see more of, and um I will see you in the next one."
+  }
+]
