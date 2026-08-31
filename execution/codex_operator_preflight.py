@@ -20,6 +20,7 @@ if str(ROOT / "execution") not in sys.path:
     sys.path.insert(0, str(ROOT / "execution"))
 
 from co_creative_launchpad import build_launchpad  # noqa: E402
+from command_aliases import resolve_explicit_command_alias  # noqa: E402
 from control_intent import classify_control_intent  # noqa: E402
 from workflow_router import CONTROL_ROUTE_KEYWORDS, search_workflows  # noqa: E402
 
@@ -292,7 +293,25 @@ def control_hits(intent: str) -> list[tuple[int, str, str]]:
 def route_candidates(intent: str, top_n: int = 5) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
     seen: set[str] = set()
+    explicit_alias = resolve_explicit_command_alias(
+        intent,
+        {path.stem for path in (ROOT / ".agent" / "workflows").glob("*.md")},
+    )
+    if explicit_alias:
+        alias, route = explicit_alias
+        candidates.append(
+            {
+                "route": route,
+                "score": 100000,
+                "source": "explicit-command-alias",
+                "matched": f"/{alias}",
+                "description": f"Explicit command alias /{alias} resolves to /{route}.",
+            }
+        )
+        seen.add(route)
     for score, route, phrase in control_hits(intent):
+        if route in seen:
+            continue
         candidates.append(
             {
                 "route": route,
@@ -442,13 +461,29 @@ def classify_lane(intent: str, route: str) -> str:
     return "general"
 
 
-def manual_gates(route: str, risks: list[str]) -> list[dict[str, str]]:
-    gates = [
+def manual_gates(
+    route: str,
+    risks: list[str],
+    explicit_alias: tuple[str, str] | None = None,
+) -> list[dict[str, str]]:
+    route_gate = (
         {
+            "gate": "Explicit command alias",
+            "status": "resolved",
+            "check": (
+                f"/{explicit_alias[0]} resolves to /{explicit_alias[1]}; "
+                "verify with python3 execution/verify_autopilot_routing.py"
+            ),
+        }
+        if explicit_alias
+        else {
             "gate": "Routing binding",
             "status": "required",
             "check": f"python3 execution/routing_enforcer.py check --request \"<raw intent>\" --workflow {route} --no-log",
-        },
+        }
+    )
+    gates = [
+        route_gate,
         {
             "gate": "Codex hook reality",
             "status": "required",
@@ -482,7 +517,16 @@ def manual_gates(route: str, risks: list[str]) -> list[dict[str, str]]:
     return gates
 
 
-def verification_plan(route: str) -> list[str]:
+def verification_plan(
+    route: str,
+    explicit_alias: tuple[str, str] | None = None,
+) -> list[str]:
+    if explicit_alias:
+        return [
+            f"Leading /{explicit_alias[0]} should resolve to /{explicit_alias[1]} in workflow_router and command_menu.",
+            f"The prompt hook should inject /{explicit_alias[1]} while incidental mentions of /{explicit_alias[0]} remain ordinary routing text.",
+            "python3 execution/verify_autopilot_routing.py should pass the alias fixtures and broader routing matrix.",
+        ]
     plan = [
         f"python3 execution/workflow_router.py search \"<raw intent>\" should rank /{route} first.",
         f"python3 execution/routing_enforcer.py check --request \"<raw intent>\" --workflow {route} --no-log should return valid true when a binding applies.",
@@ -498,7 +542,13 @@ def safe_local_execution_default(route: str, lane: str, risks: list[str]) -> boo
     return not risks and route in EXECUTION_BIAS_ROUTES and lane == "system-failure"
 
 
-def local_next_action(intent: str, route: str, decision: dict[str, Any], approved_subagents: bool) -> dict[str, Any]:
+def local_next_action(
+    intent: str,
+    route: str,
+    decision: dict[str, Any],
+    approved_subagents: bool,
+    explicit_alias: tuple[str, str] | None = None,
+) -> dict[str, Any]:
     if decision["status"] == "Blocked":
         return {
             "mode": "approval_required",
@@ -519,6 +569,20 @@ def local_next_action(intent: str, route: str, decision: dict[str, Any], approve
             "verifier_command": f"python3 execution/routing_enforcer.py check --request \"{intent}\" --workflow {route} --no-log",
             "receipt_required": False,
             "subagent_policy": "Read-only diagnostic subagents only when Farrice explicitly authorizes them for this run.",
+            "stop_conditions": STOP_CONDITIONS,
+        }
+    if explicit_alias:
+        return {
+            "mode": "execute_explicit_command",
+            "owner": route,
+            "action": (
+                f"Load `.agents/skills/source-command-{route}/SKILL.md` and `.agent/workflows/{route}.md`, "
+                "pass through any remaining command arguments, and follow that workflow's own input and approval contract."
+            ),
+            "first_command": f"python3 execution/workflow_router.py search \"{intent}\"",
+            "verifier_command": "python3 execution/verify_autopilot_routing.py",
+            "receipt_required": False,
+            "subagent_policy": "No real Codex subagents without explicit authorization.",
             "stop_conditions": STOP_CONDITIONS,
         }
     return {
@@ -562,6 +626,10 @@ def build_preflight(intent: str) -> dict[str, Any]:
     candidates = route_candidates(intent)
     chosen = candidates[0]["route"] if candidates else "autopilot"
     clarity = clarity_score(intent)
+    explicit_alias = resolve_explicit_command_alias(
+        intent,
+        {path.stem for path in (ROOT / ".agent" / "workflows").glob("*.md")},
+    )
     approved_subagents = subagent_approval_packet_present(intent)
     risks = risk_reasons(intent)
     lane = classify_lane(intent, chosen)
@@ -570,8 +638,15 @@ def build_preflight(intent: str) -> dict[str, Any]:
         route=chosen,
         lane=lane,
         risk_reasons=risks,
-        clarity_score=clarity * 20,
+        clarity_score=max(clarity * 20, 80) if explicit_alias else clarity * 20,
     )
+    if explicit_alias:
+        launchpad["questions_that_change_execution"] = []
+        launchpad["pause_or_run"] = {
+            "decision": "run_explicit_command",
+            "reason": f"The operator explicitly selected /{explicit_alias[0]}, resolved as /{explicit_alias[1]}.",
+            "requires_pause": False,
+        }
     pause = launchpad["pause_or_run"]
     safe_default = safe_local_execution_default(chosen, lane, risks)
     if risks:
@@ -579,6 +654,12 @@ def build_preflight(intent: str) -> dict[str, Any]:
             "status": "Blocked",
             "reason": "Risk boundary requires approval before execution: " + ", ".join(risks),
             "can_execute_now": False,
+        }
+    elif explicit_alias:
+        decision = {
+            "status": "Run Locally",
+            "reason": f"Explicit command alias /{explicit_alias[0]} locks the route to /{explicit_alias[1]}.",
+            "can_execute_now": True,
         }
     elif safe_default:
         decision = {
@@ -606,6 +687,11 @@ def build_preflight(intent: str) -> dict[str, Any]:
             "clarity_score": clarity,
             "lane": lane,
             "risk_reasons": risks,
+            "explicit_route_lock": (
+                {"alias": f"/{explicit_alias[0]}", "route": f"/{explicit_alias[1]}"}
+                if explicit_alias
+                else None
+            ),
         },
         "co_creative_launchpad": launchpad,
         "route_candidates": candidates,
@@ -619,9 +705,9 @@ def build_preflight(intent: str) -> dict[str, Any]:
             ),
         },
         "execution_decision": decision,
-        "manual_gate_checklist": manual_gates(chosen, risks),
-        "verification_plan": verification_plan(chosen),
-        "local_next_action": local_next_action(intent, chosen, decision, approved_subagents),
+        "manual_gate_checklist": manual_gates(chosen, risks, explicit_alias),
+        "verification_plan": verification_plan(chosen, explicit_alias),
+        "local_next_action": local_next_action(intent, chosen, decision, approved_subagents, explicit_alias),
         "closeout_prompt": closeout_prompt(intent, chosen, decision),
         "run_prompt": closeout_prompt(intent, chosen, decision),
         "orchestration_receipt": {

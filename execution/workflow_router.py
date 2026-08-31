@@ -20,6 +20,7 @@ from pathlib import Path
 from collections import defaultdict
 
 from control_intent import classify_control_intent
+from command_aliases import resolve_explicit_command_alias
 
 # Wave 1 (Harness Apex, 2026-07-07): BINDINGS consulted upstream — a mandatory
 # binding hit pins its workflow(s) to rank #1 before any fuzzy scoring runs.
@@ -659,6 +660,8 @@ def build_index():
 def search_workflows(query, top_n=10):
     """Search workflows by keyword matching against name + description."""
     index = build_index()
+    indexed_names = {wf["name"] for wf in index}
+    explicit_alias = resolve_explicit_command_alias(query, indexed_names)
     # Wave 1 (Harness Apex, 2026-07-07): stopwords and <3-char tokens no
     # longer participate in substring scoring. Before this, the connective
     # "but" in a query substring-matched the workflow literally named
@@ -739,7 +742,11 @@ def search_workflows(query, top_n=10):
         }
         wf_to_score = [
             wf for wf in index
-            if wf["name"] in CONTROL_PLANE_ROUTES or wf["name"] in binding_rank
+            if (
+                wf["name"] in CONTROL_PLANE_ROUTES
+                or wf["name"] in binding_rank
+                or (explicit_alias and wf["name"] == explicit_alias[1])
+            )
         ]
     else:
         wf_to_score = index
@@ -747,6 +754,9 @@ def search_workflows(query, top_n=10):
     for wf in wf_to_score:
         searchable = f"{wf['name']} {wf['description']} {wf['full_name']}".lower()
         score = 0
+        if explicit_alias and wf["name"] == explicit_alias[1]:
+            score += 100000
+            wf = dict(wf, explicit_alias=explicit_alias[0])
         if wf["name"] in binding_rank:
             boost, signal = binding_rank[wf["name"]]
             score += boost
@@ -804,7 +814,6 @@ def search_workflows(query, top_n=10):
 
     # A bound PRIMARY workflow with no .agent/workflows/ file still surfaces
     # (as a stub) so a binding hit is never silently dropped by index gaps.
-    indexed_names = {wf["name"] for wf in index}
     for hit in binding_hits:
         primary = hit["workflow"]
         if primary not in indexed_names:

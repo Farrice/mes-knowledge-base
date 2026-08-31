@@ -21,6 +21,8 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Iterable, Optional
 
+from command_aliases import resolve_explicit_command_alias
+
 from routing_governor import (
     ai_employee_os_route_bonus,
     end_session_route_bonus,
@@ -1323,7 +1325,12 @@ def normalize_terms(query: str) -> list[str]:
 
 
 def search(workflows: Iterable[Workflow], query: str, limit: int) -> list[tuple[int, Workflow]]:
+    workflows = list(workflows)
     phrase = query.lower().strip()
+    explicit_alias = resolve_explicit_command_alias(
+        query,
+        {workflow.name for workflow in workflows},
+    )
     flags = intent_flags(phrase)
     binding_hits = match_bindings(query)
     control_plane_active = any(
@@ -1404,7 +1411,12 @@ def search(workflows: Iterable[Workflow], query: str, limit: int) -> list[tuple[
                 )
 
     scored = [
-        (score_workflow(workflow, query) + binding_boost.get(workflow.name, 0), workflow)
+        (
+            score_workflow(workflow, query)
+            + binding_boost.get(workflow.name, 0)
+            + (100_000 if explicit_alias and workflow.name == explicit_alias[1] else 0),
+            workflow,
+        )
         for workflow in workflows
     ]
     matches = [(score, workflow) for score, workflow in scored if score > 0]
