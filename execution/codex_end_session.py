@@ -598,19 +598,28 @@ def commit_and_push(manifest: dict[str, Any], allowed_paths: list[str],
                     verifier_receipts: list[dict[str, Any]]) -> dict[str, Any]:
     project = Path(manifest["project_root"])
     branch = git(project, "branch", "--show-current").stdout.strip()
-    receipt: dict[str, Any] = {"status": "held", "branch": branch, "paths": allowed_paths}
+    receipt: dict[str, Any] = {"status": "held", "branch": branch, "paths": []}
     if any(not row["valid"] for row in verifier_receipts):
         receipt["blockers"] = ["one or more required verifiers failed"]
         return receipt
-    if not allowed_paths:
-        receipt.update({"status": "clean", "commit": git(project, "rev-parse", "HEAD").stdout.strip()})
+    status_paths = set(parse_status(project))
+    stage_paths = sorted(set(allowed_paths) & status_paths)
+    receipt["paths"] = stage_paths
+    if not stage_paths:
+        commit_sha = git(project, "rev-parse", "HEAD").stdout.strip()
+        remote = git(project, "ls-remote", "origin", f"refs/heads/{branch}", timeout=120)
+        remote_sha = remote.stdout.split()[0] if remote.returncode == 0 and remote.stdout.split() else ""
+        receipt.update({"status": "clean", "commit": commit_sha, "remote_sha": remote_sha})
+        if remote_sha != commit_sha:
+            receipt["status"] = "push-unverified"
+            receipt["blockers"] = ["clean local branch does not match its remote SHA"]
         return receipt
-    staged = run_command(["git", "-C", str(project), "add", "--", *allowed_paths], project)
+    staged = run_command(["git", "-C", str(project), "add", "--", *stage_paths], project)
     if staged.returncode != 0:
         receipt["blockers"] = [f"git add failed: {staged.stderr.strip()}"]
         return receipt
     staged_names = git(project, "diff", "--cached", "--name-only").stdout.splitlines()
-    unexpected = sorted(set(staged_names) - set(allowed_paths))
+    unexpected = sorted(set(staged_names) - set(stage_paths))
     if unexpected:
         git(project, "restore", "--staged", "--", *staged_names)
         receipt["blockers"] = ["unexpected staged paths: " + ", ".join(unexpected)]

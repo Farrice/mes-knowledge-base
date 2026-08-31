@@ -245,6 +245,9 @@ non-mutating review path instead of the legacy tracked logger; the manifest
 coordinator alone owns its branch checkpoint.
 Missing optional lane-local Autopilot state is treated as absent evidence, not a
 degradation event, so intelligence capture cannot dirty the lane by observing it.
+The Git checkpoint stages only changed approved paths. Unchanged ignored state may
+remain in the manifest for ownership policy, but it is never passed to `git add`;
+a clean retry still verifies that the remote branch SHA matches local `HEAD`.
 
 ---
 

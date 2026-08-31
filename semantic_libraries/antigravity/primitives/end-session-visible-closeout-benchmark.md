@@ -87,6 +87,9 @@ Only the manifest coordinator may checkpoint its approved paths and push its
 current `codex/*` branch.
 Optional lane-local state that is absent, including Autopilot state, is empty
 evidence rather than a degradation write; observation must not dirty the lane.
+The final checkpoint stages the intersection of changed paths and approved paths,
+not every manifest entry. A clean retry is complete only when its remote branch
+SHA equals local `HEAD`.
 
 ## State Decision
 

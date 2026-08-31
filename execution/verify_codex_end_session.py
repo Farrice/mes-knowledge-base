@@ -319,25 +319,37 @@ def check_local_push(tmp: Path) -> list[str]:
     run(["git", "config", "user.email", "codex-test@example.invalid"], base)
     run(["git", "switch", "-c", "main"], base)
     (base / "README.md").write_text("base\n", encoding="utf-8")
-    run(["git", "add", "README.md"], base)
+    (base / ".gitignore").write_text("runtime.json\n", encoding="utf-8")
+    run(["git", "add", "README.md", ".gitignore"], base)
     run(["git", "commit", "-m", "base"], base)
     run(["git", "push", "-u", "origin", "main"], base)
     linked = tmp / "push-linked"
     run(["git", "worktree", "add", "-b", "codex/push-fixture", str(linked), "main"], base)
     (linked / "feature.txt").write_text("safe fixture\n", encoding="utf-8")
+    (linked / "runtime.json").write_text("{}\n", encoding="utf-8")
     manifest = {
         "slug": "push-fixture", "project_root": str(linked),
         "commit_message": "test: codex end-session push fixture",
     }
     receipt = codex_close.commit_and_push(
-        manifest, ["feature.txt"],
+        manifest, ["feature.txt", "runtime.json"],
         [{"valid": True, "command": ["fixture"], "summary": "PASS"}],
     )
     require(receipt["status"] == "pushed", f"local remote push failed: {receipt}")
     require(receipt["commit"] == receipt["remote_sha"], "remote SHA must match local commit")
+    require(receipt["paths"] == ["feature.txt"], "ignored unchanged manifest path must not be staged")
+    clean = codex_close.commit_and_push(
+        manifest, ["feature.txt", "runtime.json"],
+        [{"valid": True, "command": ["fixture"], "summary": "PASS"}],
+    )
+    require(clean["status"] == "clean" and clean["commit"] == clean["remote_sha"],
+            f"clean retry must verify the remote SHA: {clean}")
     main_sha = run(["git", "rev-parse", "main"], base)
     require(main_sha != receipt["commit"], "Codex branch push must not move main")
-    return ["owned-path commit pushes codex branch and verifies remote SHA without moving main"]
+    return [
+        "changed owned paths push and verify remote SHA without moving main",
+        "ignored unchanged manifest paths are skipped and clean retries verify remote SHA",
+    ]
 
 
 def check_organization(tmp: Path) -> list[str]:
