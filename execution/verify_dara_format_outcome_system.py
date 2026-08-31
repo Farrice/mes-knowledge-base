@@ -133,7 +133,7 @@ def main() -> int:
     results.append(
         check(
             "skill registration",
-            all(token in skill for token in ('version: "4.3"', "workflows: 29", "/dara-format-concept-production-brief", "/dara-format-outcome-ledger")),
+            all(token in skill for token in ('version: "4.4"', "workflows: 31", "/dara-format-concept-production-brief", "/dara-format-outcome-ledger")),
             "version, workflow count, and both companion routes are registered",
         )
     )

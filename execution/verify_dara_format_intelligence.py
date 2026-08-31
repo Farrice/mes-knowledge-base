@@ -83,7 +83,7 @@ def main() -> int:
 
     skill = read(SKILL / "SKILL.md")
     agent = read(ROOT / "agents/dara-denney/AGENT.md")
-    results.append(check("skill registration", all(token in skill for token in ('version: "4.3"', "workflows: 29", "/dara-denney-creative-format-intelligence", "/dara-format-concept-production-brief", "/dara-format-outcome-ledger", "creative-format-intelligence.md")), "expanded version, count, and all format-intelligence routes wired"))
+    results.append(check("skill registration", all(token in skill for token in ('version: "4.4"', "workflows: 31", "/dara-denney-creative-format-intelligence", "/dara-format-concept-production-brief", "/dara-format-outcome-ledger", "creative-format-intelligence.md")), "expanded version, count, and all format-intelligence routes wired"))
     results.append(check("agent registration", "meta-ad-creative-format-intelligence-2026" in agent, "latest source package is visible to the expert"))
 
     wrapper_text = [read(REQUIRED[name]) for name in ("Codex menu wrapper", "Claude menu wrapper", "source-command wrapper")]
