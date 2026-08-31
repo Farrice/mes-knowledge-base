@@ -1,0 +1,20 @@
+{
+  "assets": {
+    "01-remodel-date": {
+      "width": 1080,
+      "height": 1350
+    },
+    "02-in-unit-laundry": {
+      "width": 1080,
+      "height": 1350
+    },
+    "03-private-showing": {
+      "width": 1080,
+      "height": 1350
+    },
+    "identity-overview": {
+      "width": 1080,
+      "height": 1350
+    }
+  }
+}
