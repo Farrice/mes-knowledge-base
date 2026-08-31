@@ -91,6 +91,12 @@ Thumbs.db
 .agent/creative-strategy-learning-events.jsonl
 .agent/dara-format-outcomes.jsonl
 
+# Deterministic scheduled outputs. The runners consume these local files
+# directly; they are runtime queue/report state, not repository source truth.
+.agent/mission-queue/pending/card-harness-evals-*.md
+.agent/mission-queue/pending/card-verdict-to-diff-*.md
+.agent/recurring-reports/*-session-closeout-intelligence.md
+
 # Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
 # holds verbatim copies of .agent/session-state.md, which is deliberately
 # never committed (privacy) — must never leak via `git add .`.

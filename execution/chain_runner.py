@@ -131,6 +131,17 @@ def _record_main_runtime_event(kind: str, payload: Dict[str, Any]) -> None:
         handle.write(json.dumps(event, sort_keys=True) + "\n")
 
 
+def _append_runtime_safe_event(path: Path, kind: str, payload: Dict[str, Any]) -> str:
+    """Keep finalize observability local on integration main, tracked in lanes."""
+    if _on_integration_main():
+        _record_main_runtime_event(kind, payload)
+        return "runtime"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(payload) + "\n")
+    return "tracked"
+
+
 def _classify_domain_from_skill(skill_name: str) -> str:
     """Infer knowledge domain from a skill directory name."""
     skill_lower = skill_name.lower()
@@ -344,10 +355,10 @@ def _auto_log_sub_agent_miss(
 
     if is_miss:
         log_path = Path(__file__).parent.parent / "evolution_store" / "sub_agent_misses.jsonl"
-        log_path.parent.mkdir(parents=True, exist_ok=True)
         try:
-            with open(log_path, "a") as f:
-                f.write(json.dumps(record) + "\n")
+            record["destination"] = _append_runtime_safe_event(
+                log_path, "sub_agent_miss", record
+            )
             record["logged"] = True
         except Exception as e:
             record["logged"] = False
@@ -757,16 +768,14 @@ def check_blind_pass_latch(
         # (evolution_store/learning_latch_overrides.jsonl).
         try:
             _ov_path = Path(__file__).resolve().parent.parent / "evolution_store" / "blind_pass_overrides.jsonl"
-            _ov_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(_ov_path, "a") as _of:
-                _of.write(json.dumps({
-                    "ts": datetime.now().isoformat(),
-                    "event": "blind_pass_latch_override",
-                    "output": output_description[:120],
-                    "skill": skill, "expert": expert, "workflow": workflow,
-                    "override_reason": _reason or None,
-                    "trial_enforced": bool(_trial),
-                }) + "\n")
+            _append_runtime_safe_event(_ov_path, "blind_pass_latch_override", {
+                "ts": datetime.now().isoformat(),
+                "event": "blind_pass_latch_override",
+                "output": output_description[:120],
+                "skill": skill, "expert": expert, "workflow": workflow,
+                "override_reason": _reason or None,
+                "trial_enforced": bool(_trial),
+            })
         except Exception:
             pass
         return {"status": "OVERRIDDEN", "detail": "no recorded verdict; --skip-blind-pass logged"}, None
@@ -1125,15 +1134,13 @@ def finalize(
         elif skip_learning:
             try:
                 _overrides_path = Path(__file__).resolve().parent.parent / "evolution_store" / "learning_latch_overrides.jsonl"
-                _overrides_path.parent.mkdir(parents=True, exist_ok=True)
-                with open(_overrides_path, "a") as _of:
-                    _of.write(json.dumps({
-                        "ts": datetime.now().isoformat(),
-                        "event": "learning_latch_override",
-                        "output": output_description[:120],
-                        "skill": skill, "workflow": workflow,
-                        "learning_debt": _learning_debt,
-                    }) + "\n")
+                _append_runtime_safe_event(_overrides_path, "learning_latch_override", {
+                    "ts": datetime.now().isoformat(),
+                    "event": "learning_latch_override",
+                    "output": output_description[:120],
+                    "skill": skill, "workflow": workflow,
+                    "learning_debt": _learning_debt,
+                })
             except Exception:
                 pass
         else:
@@ -1179,9 +1186,7 @@ def finalize(
         }
         try:
             _misses_path = Path(__file__).resolve().parent.parent / "evolution_store" / "verification_misses.jsonl"
-            _misses_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(_misses_path, "a") as _mf:
-                _mf.write(json.dumps(miss) + "\n")
+            _append_runtime_safe_event(_misses_path, "verification_miss", miss)
         except Exception:
             pass
         result["verification_check"] = {
@@ -2405,12 +2410,11 @@ def main():
             result["verdict_advisory"] = adv
             try:
                 _vlog = Path(__file__).resolve().parent.parent / "evolution_store" / "verdict_advisory.jsonl"
-                with open(_vlog, "a") as _vf:
-                    _vf.write(json.dumps({
-                        "ts": datetime.now().isoformat(), "output": args.output[:120],
-                        "skill": args.skill, "verdict": args.verdict,
-                        "precedent": args.precedent, **adv,
-                    }) + "\n")
+                _append_runtime_safe_event(_vlog, "verdict_advisory", {
+                    "ts": datetime.now().isoformat(), "output": args.output[:120],
+                    "skill": args.skill, "verdict": args.verdict,
+                    "precedent": args.precedent, **adv,
+                })
             except Exception:
                 pass
             print(f"\n  Verdict (R1 advisory): {args.verdict or '—'} | precedent {args.precedent or '—'} → {adv.get('status')}"
