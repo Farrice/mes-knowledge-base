@@ -18,4 +18,3 @@
 - Preserve the mechanics that change behavior: local-signal intake, agent-fit filtering, sustainable production, original POV, lightweight real-estate memory, human conversation, and separated metrics.
 - Refuse to encode “go viral,” daily cadence, or specific performance claims as guarantees.
 - Treat reach as a leading indicator only. Demand, conversion, and revenue remain `UNTESTED` until first-party events exist.
-

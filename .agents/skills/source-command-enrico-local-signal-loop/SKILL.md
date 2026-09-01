@@ -8,4 +8,3 @@ description: "Turn local sources and lived observations into original Realtor co
 Use this skill when the user explicitly invokes `/enrico-local-signal-loop` or asks for the connected Realtor local-signal workflow.
 
 Read and execute `.agent/workflows/enrico-local-signal-loop.md`.
-

@@ -3,4 +3,3 @@ description: Turn local sources and lived observations into original Realtor con
 ---
 
 Read and execute `.agent/workflows/enrico-local-signal-loop.md`.
-
