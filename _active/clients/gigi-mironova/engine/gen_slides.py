@@ -57,7 +57,7 @@ def rule(series, dark=False):
 def foot(n, total, dark=False, note=None):
     c = T.D_MUTED if dark else T.MUTED
     left = f'<div class="caps" style="font-size:16px;color:{c}">{T.LOCKUP}</div>'
-    mid = f'<div style="font-size:16px;color:{c};letter-spacing:.04em;max-width:560px;text-align:center">{esc(note)}</div>' if note else '<div></div>'
+    mid = f'<div style="font-size:14px;line-height:1.3;color:{c};letter-spacing:.03em;max-width:440px;text-align:center;padding:0 24px">{esc(note)}</div>' if note else '<div></div>'
     right = f'<div class="caps" style="font-size:18px;color:{c}">{n} / {total}</div>'
     return f'<div class="foot">{left}{mid}{right}</div>'
 

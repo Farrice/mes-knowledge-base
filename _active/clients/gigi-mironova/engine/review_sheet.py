@@ -16,7 +16,7 @@ W = 216  # thumb width (1080/5)
 rows = ""
 maxcols = max(len(c["slides"]) for c in spec["carousels"])
 for car in spec["carousels"]:
-    cells = "".join(f'<div><img src="file://{(BATCH / car["slug"] / f"{i:02d}.png").resolve()}" style="width:{W}px;display:block"></div>'
+    cells = "".join(f'<div><img src="{os.path.relpath((BATCH / car["slug"] / f"{i:02d}.png").resolve(), OUT.resolve())}" style="width:{W}px;display:block"></div>'
                     for i in range(1, len(car["slides"]) + 1))
     rows += (f'<div style="margin-bottom:22px"><div style="font:600 13px Helvetica;margin:0 0 6px;color:#333">{car["slug"]} — {car["title"]}</div>'
              f'<div style="display:flex;gap:8px">{cells}</div></div>')
@@ -26,5 +26,5 @@ html = f'<html><body style="margin:0;padding:20px;background:#e9e6df;width:{page
 h = 20 + sum(int(W * 1.25) + 22 + 20 for _ in spec["carousels"]) + 40
 subprocess.run([CHROME, "--headless", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
                 f"--window-size={page_w},{h}", "--virtual-time-budget=6000",
-                f"--screenshot={OUT / 'sheet.png'}", f"file://{OUT / 'sheet.html'}"], check=True, capture_output=True)
+                f"--screenshot={(OUT / 'sheet.png').resolve()}", (OUT / 'sheet.html').resolve().as_uri()], check=True, capture_output=True)
 print("review/sheet.png", (OUT / "sheet.png").stat().st_size // 1024, "KB")

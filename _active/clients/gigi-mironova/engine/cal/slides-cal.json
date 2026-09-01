@@ -1,0 +1,43 @@
+{
+  "system": "Calm Closer on the shared editorial floor · warm paper + band navy + one clay mark · Figtree (Manrope for RU) · square corners, no shadows, no ghost numerals, no script type · her name in the masthead, brokerage in the footer",
+  "carousels": [
+    {
+      "slug": "c01-read-before-you-tour", "video": 1, "title": "Read this before you tour", "series": "PROPERTY FILE 124", "keyword": "124",
+      "reader": "The renter in the Valley paying $2,300 to $2,800 who has been told condos are a trap and expects the agent to hide the HOA.",
+      "slides": [
+        {"kind": "hook", "img": "../assets/listing-124/unit-124-door.jpg", "treat": "bleed", "eyebrow": "PROPERTY FILE 124", "headline": "The kitchen photos can wait.[[br]]Read the two lines first.", "size": 84, "dek": "I am the listing agent on Unit 124 in Reseda. Two lines on this sheet decide whether the tour is worth your Saturday."},
+        {"kind": "stat", "eyebrow": "LINE ONE", "num": "$620", "unit": "/mo", "label": "The dues. On slide two on purpose, not on the last page.", "body": "This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.", "source": "19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing"},
+        {"kind": "list", "eyebrow": "WHAT THE $620 BUYS", "headline": "Read it as a bill, not a perk list.", "size": 60, "rows": [["Water, sewer, trash", "Three bills you never get separately."], ["The building's insurance policy", "Covers the structure. The inside of your unit is your own policy, and that one is not in this number."], ["Landscaping, pest control, pool service", "Contracted work on the grounds and the water."], ["An on-site property manager", "A person on the property whose job is the building."]], "source": "Inclusions in the listing's own wording · MLS SR26183330"},
+        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-balcony.jpg", "eyebrow": "LINE TWO", "headline": "Building insurance is in place, and balcony inspection and repairs have been completed.", "body": "That is the listing's sentence about this unit, in writing. It is not a certificate for the building, and I will not call it one.", "source": "MLS SR26183330 listing text"},
+        {"kind": "dark", "eyebrow": "HOW A LISTING USUALLY REACHES YOU", "headline": "Photos first. Dues on the last page. Reports never mentioned.", "body": "You are not bad at this. The order was chosen for you. Ask any agent for the dues and what they include, in writing, before you book a tour."},
+        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-kitchen.jpg", "eyebrow": "NOW THE KITCHEN", "headline": "Remodeled December 2023. About $2,535 a month to own.", "body": "1 bed, 1 bath, 619 sq ft. In-unit laundry, washer and dryer included. Private balcony, 2-car parking, gated, built 1990.", "source": "Estimate, not a quote: $299,999, 20% down, 6.66% (Freddie Mac survey 8/27/2026), taxes at 1.25%, the dues on this listing, and an HO-6 policy. Specs and remodel: MLS SR26183330."},
+        {"kind": "cta", "headline": "Want both lines marked on the sheet?", "body": "I will send the dues, what they cover, the report line, and the payment estimate. In English or по-русски.", "keyword": "124", "ask": "For the marked sheet, or a private showing."}
+      ]
+    },
+    {
+      "slug": "c02-five-pages", "video": 3, "title": "The five pages in the HOA packet", "series": "THE CONDO FILE", "keyword": "HOA",
+      "reader": "The buyer whose offer was just accepted, holding two hundred pages and a few days.",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/paper-sheet-01.jpg", "treat": "duo", "eyebrow": "THE CONDO FILE", "headline": "They sent two hundred pages.[[br]]Five of them cost money.", "size": 82, "dek": "A buyer's own words, the week after the offer was accepted. You do not read all of it. You read it in order."},
+        {"kind": "list", "eyebrow": "OPEN THIS ONE FIRST", "headline": "The reserve study, before anything else.", "rows": [["The percent funded", "What the building has saved against what it will have to replace. Thin savings turn into a bill with your name on it."], ["What it is saving for", "Roofs, plumbing, balconies, elevators. Dates and dollars, not intentions."]]},
+        {"kind": "list", "eyebrow": "THEN THE MINUTES", "headline": "Twelve months of board minutes.", "rows": [["Why twelve months", "A repair is argued about for a year before anyone is billed for it."], ["What you are hunting", "One word. It is on slide five, and it is the cheapest word in the packet."]]},
+        {"kind": "list", "eyebrow": "THEN THE THREE THAT KILL LOANS", "headline": "Insurance, delinquencies, litigation.", "size": 58, "rows": [["The master insurance declaration", "Read the per-unit deductible. That number lands on owners, not on the association."], ["The delinquency figure", "How many owners are behind on dues. Too many and the building stops qualifying, for every buyer in it, not only you."], ["Pending litigation", "If the association is in a lawsuit your lender will find out. Better that you find out first."]]},
+        {"kind": "dark", "eyebrow": "THE WORD", "headline": "[[hl:Discussed]].", "body": "Search the minutes for it. An assessment is discussed for months before it is billed, and no summary anyone hands you will contain it."},
+        {"kind": "quote", "img": "../assets/place/sunlight-through-window-floor-00.jpg", "headline": "Sixteen years in litigation support before I sold a single home.", "body": "Research, analysis, negotiation. Reading a file against a clock is the job I already had.", "source": "Gigi Mironova, Equity Union · DRE 02025393"},
+        {"kind": "cta", "headline": "Send me your packet.", "body": "I will read it with you and mark the five pages. Or write HOA for the one-page checklist, in English or по-русски.", "keyword": "HOA", "ask": "For the checklist, or send the packet."}
+      ]
+    },
+    {
+      "slug": "c06-sell-with-tenant", "video": 11, "title": "Can I sell my condo with the tenant in it?", "series": "THE SELLER FILE", "keyword": "NET",
+      "reader": "The small landlord who thinks the tenant is the problem and is afraid of losing months of income.",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/apartment-building-dusk-01.jpg", "treat": "bleed", "eyebrow": "THE SELLER FILE", "headline": "You do not have to empty it first.", "size": 86, "dek": "Emptying it costs you months of rent. Selling it occupied costs you half the offers. There is a third answer and it starts in your lease."},
+        {"kind": "two", "eyebrow": "TWO BUYER POOLS", "headline": "Your lease decides who is allowed to want it.", "numsize": 80, "left": {"label": "AN INVESTOR IS BUYING", "value": "The rent", "body": "It already arrives. The lease is the asset, not the obstacle."}, "right": {"label": "AN OWNER-OCCUPIER IS BUYING", "value": "The keys", "body": "On closing day. A fixed term takes them out of your pool."}, "body": "Neither buyer is wrong. Pricing for the wrong one is what costs you."},
+        {"kind": "list", "eyebrow": "WHAT I READ BEFORE THE PRICE", "headline": "Three lines in your lease.", "rows": [["The end date", "Fixed term or month to month. That single date is the whole timeline."], ["The rent against the market", "Under market is a discount an investor prices in. Over market is a question they will ask."], ["The deposit", "It transfers with the unit or it goes back. Either way it lands on the closing statement."]]},
+        {"kind": "dark", "eyebrow": "THE NOTICE RULE", "headline": "Written notice first. Then showings on 24 hours' notice.", "body": "You give your tenant written notice that the property is for sale. For 120 days after that notice, showings can be arranged on 24 hours' notice, and that notice can be by phone.", "source": "California Civil Code 1954 · your lease and your attorney govern"},
+        {"kind": "list", "eyebrow": "THE PART THAT DECIDES THE SALE", "headline": "Your tenant has rights and a calendar.", "rows": [["Tell them early", "A tenant who knows the plan hands you a unit that shows well."], ["Put it in writing", "The notice is a legal document and a courtesy in the same envelope."], ["Keep the appointments", "Showings cancelled twice are showings that stop getting booked."]]},
+        {"kind": "cta", "headline": "Want your number run both ways?", "body": "Pull the lease this week and find the end date. Send it with the rent and I will run one page, occupied and vacant.", "keyword": "NET", "ask": "For your number, both ways, in English or по-русски."}
+      ]
+    }
+  ]
+}

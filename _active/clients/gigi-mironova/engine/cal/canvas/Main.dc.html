@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <style>
+*{box-sizing:border-box} body{margin:0}
+.frame{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:'Figtree','Avenir Next',sans-serif;color:#173A54;background:#F7F3EC}
+.ru{font-family:'Manrope','Figtree',sans-serif}
+.dark{background:#244C68;color:#FFFDF8}
+.hl{font-weight:800;letter-spacing:-.035em;box-shadow:inset 0 -.22em 0 #DCE8EE}
+.dark .hl{box-shadow:inset 0 -.22em 0 rgba(240,199,184,.44)}
+.caps{font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.h{font-weight:700;letter-spacing:-.04em;text-wrap:balance;line-height:1.04}
+.num{font-weight:800;letter-spacing:-.055em;font-variant-numeric:tabular-nums;line-height:.92}
+.photo{position:absolute;inset:0;z-index:0;overflow:hidden}
+.photo>img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center}
+.tint,.lift,.scrim{position:absolute;inset:0}
+.tint{background:#244C68;mix-blend-mode:multiply}
+.duo>img{filter:grayscale(1) contrast(1.03) brightness(1.02)} .duo .tint{opacity:.70}
+.duo .scrim{background:linear-gradient(180deg,rgba(18,39,55,.12) 0%,rgba(18,39,55,.28) 58%,rgba(18,39,55,.74) 100%)}
+.bleed>img{filter:saturate(.68) contrast(1.01) brightness(1.04) sepia(.05)}
+.bleed .tint{opacity:.28}
+.bleed .scrim{background:linear-gradient(180deg,rgba(18,39,55,.26) 0%,rgba(18,39,55,.14) 34%,rgba(18,39,55,.46) 68%,rgba(18,39,55,.84) 100%)}
+.pad{position:relative;z-index:3;display:flex;flex-direction:column;height:100%;padding:60px 66px 56px;justify-content:space-between}
+.rule{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:18px;border-bottom:1px solid #D7E2E8}
+.dark .rule{border-bottom-color:rgba(255,253,248,0.28)}
+.foot{display:flex;justify-content:space-between;align-items:center;font-size:17px}
+.card{background:#FFFDF8;border:1px solid #D7E2E8}
+.dark .card{background:rgba(18,39,55,.48);border-color:rgba(255,253,248,0.28)}
+.tag{display:inline-flex;align-items:center;gap:12px;padding:12px 16px;background:#DCE8EE;color:#173A54;font-size:17px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.dark .tag{background:rgba(255,253,248,.14);color:#FFFDF8}
+.dot{width:10px;height:10px;background:#BD765E;display:inline-block}
+.mark{width:14px;height:14px;background:#BD765E;display:inline-block;flex:none;margin-top:14px}
+</style>
+</helmet>
+<div class="frame dark"><div class="photo bleed"><img src="../assets/listing-124/unit-124-door.jpg" style="object-position:center;transform:scale(1.0)"><div class="tint"></div><div class="scrim"></div></div><div class="pad"><div class="rule"><div class="caps" style="font-size:20px">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:18px;color:rgba(255,253,248,0.78)">PROPERTY FILE 124</div></div><div style="margin-top:auto;padding-bottom:44px"><div class="tag"><span class="dot"></span>PROPERTY FILE 124</div><div class="h" style="font-size:84px;margin-top:34px;max-width:920px">The kitchen photos can wait.<br>Read the two lines first.</div><div style="font-size:34px;line-height:1.4;color:rgba(255,253,248,0.78);max-width:760px;margin-top:26px">I am the listing agent on Unit 124 in Reseda. Two lines on this sheet decide whether the tour is worth your Saturday.</div></div><div class="foot"><div class="caps" style="font-size:16px;color:rgba(255,253,248,0.78)">HOUSE SELLERS · EQUITY UNION</div><div></div><div class="caps" style="font-size:18px;color:rgba(255,253,248,0.78)">1 / 7</div></div></div></div>
+</x-dc>
+</body>
+</html>
