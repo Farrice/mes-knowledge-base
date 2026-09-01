@@ -3,7 +3,7 @@ name: "Oren — The One-Person AI Marketing Machine"
 description: "Oren's AI-execution layer for the solo/lean marketer — how ONE operator WITH TASTE runs a full marketing team's output by using AI as a strategically-framed copy/research/ops multiplier (never paste-and-pray), inside an exact hour-by-hour weekly operating system that front-loads word-of-mouth, a monthly MESSAGES cycle, and an answer-engine INFO-RELEASE fan-out so leverage compounds without producing slop. Use when a solo/lean operator must produce team-velocity marketing this week, when building a persistent brand-voice LLM Project, running the weekly time-block OS, engineering virality before paid spend, or auditing AI output for midbaseline slop. The ACTIVATION layer for the other six Oren skills. Do NOT use for general AI-as-thinking-partner work (use dan-koe-ai-leverage); for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows); for from-scratch LinkedIn personal-brand posts (use lara-acosta — this skill explicitly FORBIDS AI-drafting personal-brand voice)."
 version: "1.0"
 format: "completion-engine"
-workflows: 12
+workflows: 13
 tier: system
 ---
 
@@ -33,6 +33,7 @@ The AI-execution layer beneath Oren's six strategy skills. Oren runs all marketi
 | 10 | [The AI Influencer-Ops Back Office](workflows/10-ai-influencer-ops-back-office.md) | Practitioner | A populated influencer op (AI outreach/contracts/tracker) + creator-sourcing routing | The Influencer day; scaling creator/UGC volume without a hire; systematizing the relationship layer |
 | 11 | [The Claude-Operator Legend Builder](workflows/11-claude-operator-legend-builder.md) | Stacking | A positioning pitch ("the Claude operator") + organizational armor against AI-restructuring narratives, with receipts | Pitching the lean-operator model; pre-loading a counter before an AI-job-loss talk; productizing the system |
 | 12 | [The Six-Skill Activation Chain](workflows/12-six-skill-activation-chain.md) | Stacking | A mission package sequencing all 6 Oren strategy skills into this AI-execution layer | Full-service engagements where strategy AND execution ship together; activating a brand with Oren strategy but no AI layer |
+| 13 | [Marketing Specialist Workbench](workflows/13-marketing-specialist-workbench.md) | Stacking | One routed, evidence-bounded artifact across seven recurring marketing jobs | A lean operator needs the right marketing specialist and output contract without remembering the full roster |
 
 ## The Skill at a Glance
 
@@ -57,7 +58,7 @@ The **activation layer** for Oren's strategy skills: `oren-brand-archetypes` (fr
 
 ## Execution Prompts (structure-pure v2)
 
-12 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **AI Deployment Matrix — [BRAND NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/anti-slop-classifier.md`
 - **Brand-Voice Project Configuration — [BRAND NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/brand-voice-machine.md`
@@ -65,6 +66,7 @@ The **activation layer** for Oren's strategy skills: `oren-brand-archetypes` (fr
 - **Framework Injection Kit — [BRAND NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/framework-injection-kit.md`
 - **Influencer-Ops Back Office Kit — [BRAND NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/influencer-ops-back-office.md`
 - **Info-Release Package — [MESSAGE] — [BRAND NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/info-release-aeo.md`
+- **Marketing Specialist Workbench — [JOB]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/marketing-specialist-workbench.md`
 - **This Month's Messages List — [BRAND NAME] — [DATE]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/monthly-messages-cycle.md`
 - **In-House Performance Block Runbook — [BUSINESS NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/performance-block-runbook.md`
 - **Completion-Moment Referral Engine — [BUSINESS NAME]** — `skills/oren-one-person-ai-marketer/references/prompts-v2/referral-engine.md`

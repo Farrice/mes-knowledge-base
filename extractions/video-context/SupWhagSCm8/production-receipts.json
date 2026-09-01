@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "status": "PENDING_REAL_USE",
+  "required": 3,
+  "current": 0,
+  "constraints": {
+    "distinct_modes": true,
+    "creative_route_required": true,
+    "analytical_route_required": true,
+    "factual_or_claim_regression_allowed": false,
+    "explicit_promotion_approval_required": true
+  },
+  "receipt_schema": {
+    "id": "string",
+    "date": "YYYY-MM-DD",
+    "mode": "ads|competitor|calendar|email|seo|voice|diagnostics",
+    "real_job": "string",
+    "source_packet": "path or approved inputs",
+    "selected_owner": "string",
+    "finished_artifact": "path or artifact id",
+    "observed_decision_change": "string",
+    "factual_or_claim_result": "PASS|FAIL|PARTIAL",
+    "creative_range_result": "PRESERVED|CONSTRAINED|NOT_APPLICABLE",
+    "verdict": "PROMOTE|TEST|REJECT",
+    "reviewer": "string"
+  },
+  "receipts": []
+}
