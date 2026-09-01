@@ -1,0 +1,39 @@
+{
+  "run_id": "performance-evidence-journal-cold-start",
+  "title": "Health Performance — original three visual directions",
+  "directions": [
+    {
+      "id": "A",
+      "name": "Performance Evidence Journal",
+      "thesis": "A commissioned decision object crossed with a scientific field journal.",
+      "primary_reference": {
+        "title": "Alpine Bio",
+        "uuid": "94031909-a1c1-4c30-9326-91cb64cd9806",
+        "source_url": "https://alpbio.com",
+        "preview_url": "https://images.refero.design/styles/alpbio.com/94031909-a1c1-4c30-9326-91cb64cd9806/preview_0.jpg"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Peak State Cinema",
+      "thesis": "Performance at the threshold, presented like a sports film.",
+      "primary_reference": {
+        "title": "21 TSI",
+        "uuid": "cf881978-5253-4ead-9dc3-8b84828c36fe",
+        "source_url": "https://21tsi.com",
+        "preview_url": "https://images.refero.design/styles/21tsi.com/cf881978-5253-4ead-9dc3-8b84828c36fe/preview_0.jpg"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Private Performance House",
+      "thesis": "A private health practice interpreted through material luxury.",
+      "primary_reference": {
+        "title": "Oura",
+        "uuid": "8f1f0540-574f-435f-86a6-aba9a4a1bca0",
+        "source_url": "https://ouraring.com",
+        "preview_url": "https://images.refero.design/styles/ouraring.com/8f1f0540-574f-435f-86a6-aba9a4a1bca0/preview_0.jpg"
+      }
+    }
+  ]
+}

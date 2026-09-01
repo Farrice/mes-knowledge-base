@@ -326,6 +326,7 @@
 | `ray-amjad-agentic-ladder` | **Ray Amjad — Agentic Coding Ladder** | trust = artifacts, never claims, agentic coding ladder | 9 | 0 |
 | `re-compliance-pack` | **re-compliance-pack** | real estate compliance (fair housing, transaction management, disclosure) | 1 | 0 |
 | `react-components` | **react:components** | converts stitch designs into modular vite and react components using system-l... | 0 | 0 |
+| `reference-led-creative-system` | **reference-led-creative-system** | one reference lock, production assets, and a regression-safe replay path | 0 | 0 |
 | `reid-hoffman-ai-strategy` | **reid-hoffman-ai-strategy** | single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance | 3 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
 | `riley-brown-marketing-automation` | **riley-brown-marketing-automation** | composable skills wrapped around scraper apis, examples-over-instructions (retrieve verified exemplars, don't prompt harder) | 12 | 0 |

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reference-Led Creative Direction Manifest",
+  "type": "object",
+  "required": ["directions"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "title": {"type": "string"},
+    "directions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "primary_reference"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "thesis": {"type": "string"},
+          "preview_path": {"type": "string"},
+          "primary_reference": {
+            "type": "object",
+            "required": ["title"],
+            "properties": {
+              "title": {"type": "string"},
+              "uuid": {"type": "string"},
+              "source_url": {"type": "string"},
+              "preview_url": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}
