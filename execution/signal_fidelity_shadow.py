@@ -28,6 +28,7 @@ CORE_FIELDS = (
     "source_path",
 )
 VALID_SURFACES = {"artifact", "playback"}
+VALID_MATCH_POLICIES = {"literal", "manual"}
 
 
 class PacketError(ValueError):
@@ -67,6 +68,9 @@ def validate_packet(packet: Any) -> dict[str, Any]:
     approved = packet.get("owner_approved_changes", [])
     if not isinstance(approved, list) or any(not isinstance(item, str) for item in approved):
         raise PacketError("owner_approved_changes must be a list of ids or field names")
+    selected = packet.get("selected_for_review", True)
+    if not isinstance(selected, bool):
+        raise PacketError("selected_for_review must be a boolean when supplied")
     return packet
 
 
@@ -113,6 +117,22 @@ def coalesce_approved_changes(records: list[dict[str, str]]) -> list[dict[str, s
 def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
     packet = validate_packet(packet)
     contract = packet["signal_contract"]
+    if packet.get("selected_for_review", True) is False:
+        return {
+            "mode": MODE,
+            "decision": "NOT_RUN",
+            "enforcement": False,
+            "can_block": False,
+            "human_owner": contract.get("human_owner", ""),
+            "distortion_hypotheses": [],
+            "preserved": [],
+            "approved_changes": [],
+            "manual_checks": [],
+            "uncertainty": [
+                "Packet was explicitly marked outside the selected SHADOW review; no fidelity judgment was attempted."
+            ],
+            "human_review": [],
+        }
     artifact_text = packet.get("artifact_text", "")
     playback_text = packet.get("playback_text", "")
     approved = set(packet.get("owner_approved_changes", []))
@@ -120,6 +140,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
     issues: list[dict[str, str]] = []
     preserved: list[dict[str, str]] = []
     approved_changes: list[dict[str, str]] = []
+    manual_checks: list[dict[str, str]] = []
     uncertainties = [
         "Marker coverage is not semantic equivalence.",
         "Playback accuracy does not prove truth, taste, trust, adoption, or commercial value.",
@@ -166,6 +187,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
         markers = item.get("markers", [])
         required_in = item.get("required_in", ["artifact", "playback"])
         kind = str(item.get("kind") or "detail")
+        match_policy = str(item.get("match_policy") or "literal")
         if not isinstance(markers, list) or not markers or any(not isinstance(marker, str) for marker in markers):
             issues.append(
                 issue(
@@ -184,6 +206,24 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
                     item_id,
                     "required_in must contain only artifact or playback.",
                 )
+            )
+            continue
+        if match_policy not in VALID_MATCH_POLICIES:
+            issues.append(
+                issue(
+                    "source_distortion",
+                    "match_policy_invalid",
+                    item_id,
+                    "match_policy must be literal or manual.",
+                )
+            )
+            continue
+        if match_policy == "manual":
+            manual_checks.append(
+                {
+                    "field": item_id,
+                    "reason": "Meaning may be expressed through metaphor, ambiguity, voice, or deliberate reframing; exact marker absence was not scored as distortion.",
+                }
             )
             continue
 
@@ -248,7 +288,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
     preserved = unique_records(preserved)
     approved_changes = coalesce_approved_changes(approved_changes)
 
-    if issues or approved_changes:
+    if issues or approved_changes or manual_checks:
         decision = "REVIEW"
     elif not playback_text.strip():
         decision = "INSUFFICIENT_EVIDENCE"
@@ -260,6 +300,8 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
         review_questions.append("Which reported gaps are materially different from what the human owner intended?")
     if approved_changes:
         review_questions.append("Do the recorded adaptations preserve a newly approved promise, limit, and proof state?")
+    if manual_checks:
+        review_questions.append("Does the human owner recognize the intended meaning in the manually reviewed creative language?")
     if not playback_text.strip():
         review_questions.append("What does an unfamiliar recipient say this is for, why it matters, and where its limit is?")
 
@@ -272,6 +314,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
         "distortion_hypotheses": issues,
         "preserved": preserved,
         "approved_changes": approved_changes,
+        "manual_checks": manual_checks,
         "uncertainty": uncertainties,
         "human_review": review_questions,
     }
@@ -293,6 +336,10 @@ def render_plain(report: dict[str, Any]) -> str:
     if report.get("approved_changes"):
         lines.append("Owner-approved adaptations:")
         for item in report["approved_changes"]:
+            lines.append(f"- {item['field']}: {item['reason']}")
+    if report.get("manual_checks"):
+        lines.append("Manual meaning checks:")
+        for item in report["manual_checks"]:
             lines.append(f"- {item['field']}: {item['reason']}")
     lines.append("Uncertainty:")
     lines.extend(f"- {item}" for item in report.get("uncertainty", []))

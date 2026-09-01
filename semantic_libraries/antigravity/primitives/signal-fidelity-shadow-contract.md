@@ -46,6 +46,10 @@ The current prototype has no automatic activation. A human or existing owner may
 
 Skip tiny, mechanical, private, obvious, or single-step work. Never ask extra questions merely to populate this contract.
 
+When a local packet was considered and explicitly rejected as ineligible, it may
+set `selected_for_review: false`. The evaluator returns `NOT_RUN` without warnings
+or review questions. This is a burden-control receipt, not another required field.
+
 ## Optional Signal Contract
 
 The compact human-owned object is:
@@ -60,7 +64,7 @@ The compact human-owned object is:
 | `proof_state` | Current evidence state such as `VERIFIED`, `LIKELY`, `UNCONFIRMED`, `UNTESTED`, or `NO EVENT`. |
 | `human_owner` | The person allowed to approve a deliberate change. |
 | `source_path` | The exact evidence or intent source when available. |
-| `must_survive` | A small list of named meanings plus observable markers and the surfaces where each should remain detectable. |
+| `must_survive` | A small list of named meanings plus observable markers, the surfaces where each should remain detectable, and an optional `match_policy`. Use `literal` for locked terms, limits, proof labels, and exact claims; use `manual` for metaphor, ambiguity, voice, and meaning that should not be reduced to phrase matching. |
 
 A useful checksum is:
 
@@ -81,6 +85,10 @@ Evidence may include a missing recipient, intended change, source of conviction,
 Question: did the next contributor receive the task while losing why it matters, the personally owned detail, the decision boundary, or the open risk?
 
 Evidence may include must-survive markers present in the contract but absent from the transformed artifact. A marker miss is a review cue, not semantic certainty.
+
+Do not exact-match metaphor, productive ambiguity, voice texture, or deliberate
+reframing. Mark those items `manual`; the evaluator may preserve a human review
+cue but may not call the phrasing difference distortion.
 
 ### Machine Distortion
 

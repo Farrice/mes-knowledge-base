@@ -143,12 +143,29 @@ def main() -> int:
     if not any(item["field"] == "consultant-frame" for item in adaptation["approved_changes"]):
         failures.append("owner-approved adaptation was not preserved in the report")
 
+    metaphor = evaluate(load_fixture("metaphor-manual.json"))
+    if metaphor["decision"] != "REVIEW" or metaphor["distortion_hypotheses"]:
+        failures.append("manual metaphor fixture should request review without alleging distortion")
+    if not any(item["field"] == "trust-compass" for item in metaphor["manual_checks"]):
+        failures.append("manual metaphor fixture did not preserve the human meaning check")
+
+    ambiguous = evaluate(load_fixture("ambiguous-manual.json"))
+    if ambiguous["decision"] != "REVIEW" or ambiguous["distortion_hypotheses"]:
+        failures.append("ambiguous language fixture should request review without alleging distortion")
+
+    sparse = evaluate(load_fixture("sparse-brief-not-selected.json"))
+    if sparse["decision"] != "NOT_RUN" or sparse["distortion_hypotheses"] or sparse["human_review"]:
+        failures.append("explicitly unselected sparse brief should produce no warning or question burden")
+
     for report_name, report in (
         ("preserved", preserved),
         ("source", source),
         ("handoff", handoff),
         ("machine", machine),
         ("adaptation", adaptation),
+        ("metaphor", metaphor),
+        ("ambiguous", ambiguous),
+        ("sparse", sparse),
     ):
         if report.get("enforcement") is not False or report.get("can_block") is not False:
             failures.append(f"{report_name} report claims enforcement or blocking authority")
@@ -177,6 +194,8 @@ def main() -> int:
     print("- positive control: preserved signal returns CLEAR")
     print("- negative controls: source, handoff, machine, proof-state, and playback gaps detected")
     print("- restraint control: owner-approved adaptation remains REVIEW and is not called distortion")
+    print("- creative restraint: metaphor and ambiguity route to manual review without distortion claims")
+    print("- burden restraint: explicitly unselected sparse work returns NOT_RUN with no questions")
     print("- enforcement: none; valid packets exit 0")
     print("- hot surfaces: none")
     return 0
