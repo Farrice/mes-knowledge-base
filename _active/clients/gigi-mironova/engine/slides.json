@@ -1,0 +1,19 @@
+{
+  "carousels": [
+    {
+      "slug": "smoke",
+      "title": "design smoke test — every kind once",
+      "series": "PROPERTY FILE 124",
+      "slides": [
+        {"kind": "hook", "img": "../assets/listing-124/unit-124-door.jpg", "treat": "bleed", "eyebrow": "SAME DOOR", "headline": "$2,500 to rent it.[[br]]$2,515 to own it.", "dek": "Same door. Both listings are mine, so I ran both numbers line by line."},
+        {"kind": "stat", "eyebrow": "THE NUMBER THAT IS NOT ON THE LISTING", "num": "$477", "unit": "/mo", "label": "Association dues, recorded for this building.", "body": "Pool, spa, gym, water, trash, the building's insurance. Leave it out and the whole comparison falls apart.", "source": "MLS record, unit 204, 2-bd · retrieved 2026-08-31"},
+        {"kind": "list", "eyebrow": "READ THESE BEFORE YOU FALL IN LOVE", "headline": "Three pieces of paper that protect your savings.", "rows": [["The reserve study", "The building's savings account for roofs, plumbing, balconies."], ["The last 12 months of minutes", "Leaks, insurance trouble, and an assessment being discussed before it is billed."], ["The master insurance", "Replacement cost, and a per-unit deductible your lender will accept."]], "source": "Ask the listing agent for all three. On this one, that is me."},
+        {"kind": "two", "eyebrow": "ESTIMATE, NOT A QUOTE", "headline": "Rent disappears. A payment splits.", "left": {"label": "RENT · MONTH ONE", "value": "$2,500", "body": "Gone."}, "right": {"label": "OWN · MONTH ONE", "value": "$2,515", "body": "About $224 of it stays yours as principal."}, "body": "20% down at 6.66%, taxes estimated at 1.25%, the building's recorded dues, HO-6 insurance. Your lender prices yours.", "source": "Freddie Mac PMMS 2026-08-27 · illustration only"},
+        {"kind": "dark", "eyebrow": "THE HONEST FRAME", "headline": "About the same, [[hl:before equity]]. Run your numbers.", "body": "Nobody should tell you owning is cheaper. I will show you the line items and let you decide."},
+        {"kind": "quote", "img": "../assets/place/table-math-01.jpg", "headline": "Sixteen years in litigation support before I ever sold a house.", "body": "The tour is the easy part. The deal is in the documents."},
+        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-kitchen.jpg", "eyebrow": "REMODELED DECEMBER 2023", "headline": "Appliances, washer and dryer bought that month. Included.", "source": "CRMLS SR26183330"},
+        {"kind": "cta", "headline": "Want the full breakdown?", "body": "In English or по-русски. Estimate, sources included.", "keyword": "124", "ask": "For the line-by-line math or a private showing."}
+      ]
+    }
+  ]
+}
