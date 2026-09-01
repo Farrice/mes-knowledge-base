@@ -1,0 +1,17 @@
+{
+  "title": "Farrice Cain Brand Direction Pilot",
+  "artifact_type": "brand_direction_decision_book",
+  "owner": "Farrice Cain",
+  "status": "internal_review",
+  "primary_direction": "Commissioned Decision Object",
+  "proving_surface": "LinkedIn banner, portrait, headline, and first Featured card",
+  "public_deployment_authorized": false,
+  "revision_reduction": "UNTESTED",
+  "verification": {
+    "connected_skill_system": "PASS_16_OF_16",
+    "desktop_visual_review": "PASS",
+    "mobile_visual_review": "PASS",
+    "html_asset_references": "PASS_7_OF_7",
+    "quality_gate": "PASS_8_33"
+  }
+}

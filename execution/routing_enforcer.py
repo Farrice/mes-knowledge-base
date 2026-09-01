@@ -594,6 +594,44 @@ BINDINGS = [
         ),
     },
     {
+        "id": "brand_direction_decision_spine",
+        "signal_phrases": [
+            "client ready mood board from discovery evidence",
+            "client-ready mood board from discovery evidence",
+            "moodboard from discovery evidence",
+            "mood board from discovery evidence",
+            "moodboard-from-discovery",
+            "brand direction from discovery evidence",
+            "brand direction decision spine",
+            "brand vibe foundation",
+            "three client directions",
+            "internal exploration board",
+        ],
+        "negative_signals": [
+            "music video",
+            "ad campaign",
+            "event moodboard",
+            "event mood board",
+            "product shoot",
+            "fashion shoot",
+            "interior design",
+            "wedding",
+        ],
+        "mandatory_workflow": "andrew-lane-design-systems",
+        "forbidden_workflows": [],
+        "reason": (
+            "Discovery-backed brand-direction requests need Andrew Lane's existing "
+            "decision spine: evidence-backed design challenges, internal exploration, "
+            "three client-ready directions, and a proving-surface test. Generic mood-board "
+            "routes remain available for campaign, shoot, event, and non-brand boards."
+        ),
+        "override_flag": None,
+        "override_warning": (
+            "If the request is a complete six-layer brand system, /build-bos remains the "
+            "owner. If it is a campaign or production moodboard, use /mood-board."
+        ),
+    },
+    {
         "id": "supercomputer_mission",
         "signal_phrases": [
             "build me a brand for",
