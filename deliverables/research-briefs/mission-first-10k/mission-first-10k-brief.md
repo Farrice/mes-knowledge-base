@@ -1,12 +1,12 @@
 # Madison paid-engagement iMessage reply grounded in the…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 30, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 1, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
 
 Handoff status is active. Last activity 1d ago.
 
@@ -15,7 +15,7 @@ Next: Resume the `first-10k` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (first-10k)._
 
 ## the state, as the last session left it
-Handoff written 1d ago — treat its plan as current.
+Handoff written 3d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -56,18 +56,21 @@ RESUME HERE: Madison paid-engagement iMessage reply grounded in the full direct 
 SHIPPED IN WINDOW:
   - 2026-08-29 · Madison paid-engagement iMessage reply grounded in the full direct thread
   - 2026-08-29 · Madison paid-engagement iMessage reply grounded in the full direct thread
+  - 2026-08-31 · Produced System: Conflict-lane reconciliation and stale-lane recovery audit
 
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **1 d**
+- DELIVERABLES FINALIZED: **3**
+- DAYS ACTIVE: **3 d**
 
 ## lifecycle
 
 
 ## how it got here
+- 2026-08-31 · **Finalized · 10** — Produced System: Conflict-lane reconciliation and stale-lane recovery audit
+- Quality: 8.0/10 (Keep) - IMPROVEMENT: Score 8.0 is 1.2 above baseline 6.8. Consider propagating improvement.
 - 2026-08-29 · **Finalized · first-10k** — Madison paid-engagement iMessage reply grounded in the full direct thread
 Warm friend register with explicit fixed-fee pilot, investor-readiness relevance, and permission-based case study | platform: codex | Verification: PASS — full 501-message thread reviewed; prose CLEAN 0/10; finish gate C
 - 2026-08-29 · **Finalized · first-10k** — Madison paid-engagement iMessage reply grounded in the full direct thread
@@ -81,7 +84,7 @@ Retried intent-alignment receipt after the initial score mapping understated a f
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

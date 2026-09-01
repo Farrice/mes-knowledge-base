@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-31T06:15:04",
-  "date": "2026-08-31",
+  "ts": "2026-09-01T06:15:05",
+  "date": "2026-09-01",
   "deep": false,
   "context_injection": {
     "claude_md_bytes": 19326,
@@ -22,21 +22,21 @@
     "solution_cards": 100
   },
   "tmp": {
-    "bytes": 12021680524,
-    "files": 200002
+    "bytes": 13806720816,
+    "files": 200001
   },
   "ledgers": {
-    "observe_log_bytes": 4967581,
-    "steering_observe_bytes": 69667,
-    "missions_bytes": 124617,
+    "observe_log_bytes": 4977129,
+    "steering_observe_bytes": 70295,
+    "missions_bytes": 127764,
     "content_finish_bytes": 127695
   },
   "verification_misses_total": 7,
   "mcp_calls_30d": 40,
   "mcp_paid_calls_30d": 37,
-  "steering_misses_7d": 104,
+  "steering_misses_7d": 96,
   "session_ledger": {
-    "events": 1372,
+    "events": 1384,
     "debted_sessions": 179,
     "noise_factor": 7.7,
     "zero_spawn_sessions": 123,
@@ -46,18 +46,18 @@
     ]
   },
   "git": {
-    "remote_branches": 61,
+    "remote_branches": 72,
     "stashes": 5,
-    "dirty_files": 62
+    "dirty_files": 89
   },
-  "active_stale_files_60d": 2782,
+  "active_stale_files_60d": 2785,
   "hooks_config": {
     "hash": "8e5f9a19a3927019",
     "baseline_hash": "8e5f9a19a3927019",
     "drifted": false,
     "evidence_age_days": {
-      "session_ledger": 0.1,
-      "steering_loop": 0.1
+      "session_ledger": 0.6,
+      "steering_loop": 0.0
     }
   },
   "pending_review": {
@@ -77,8 +77,8 @@
     "PRODUCTION_CORE.md": 3892,
     "FARRICE-MASTER-CONTEXT.md": 30914,
     "child_claude_md": {
-      "count": 271,
-      "bytes": 2850837
+      "count": 451,
+      "bytes": 4752817
     },
     "agent_md": {
       "count": 240,
@@ -89,14 +89,14 @@
   "launchd": {
     "com.antigravity.angle-map-listening": {
       "weekly": false,
-      "log_age_days": 3.8,
+      "log_age_days": 4.8,
       "last_exit": 1,
       "log_path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log"
     },
     "com.antigravity.citation-integrity": {
       "weekly": true,
-      "log_age_days": 1.0,
-      "last_exit": 1,
+      "log_age_days": 2.0,
+      "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/citation-integrity.log"
     },
     "com.antigravity.cos-notify": {
@@ -119,7 +119,7 @@
     },
     "com.antigravity.distill-weekly": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 2.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/distill-weekly.log"
     },
@@ -131,25 +131,25 @@
     },
     "com.antigravity.evolution-auto": {
       "weekly": false,
-      "log_age_days": 1.0,
+      "log_age_days": 0.3,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/evolution-logs/evolution-auto.log"
     },
     "com.antigravity.harvest-memory-daily": {
       "weekly": false,
-      "log_age_days": 0.9,
+      "log_age_days": 0.3,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/harvest-memory-daily.log"
     },
     "com.antigravity.health-metrics": {
       "weekly": false,
-      "log_age_days": 0.7,
-      "last_exit": 1,
+      "log_age_days": 1.0,
+      "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/collector.log"
     },
     "com.antigravity.knowledge-compiler-weekly": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 2.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/knowledge-compiler-weekly.log"
     },
@@ -173,7 +173,7 @@
     },
     "com.antigravity.memory-review-nudge": {
       "weekly": true,
-      "log_age_days": 6.9,
+      "log_age_days": 0.9,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/memory-review-nudge.log"
     },
@@ -191,19 +191,19 @@
     },
     "com.antigravity.mission-runner": {
       "weekly": false,
-      "log_age_days": 0.1,
+      "log_age_days": 0.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/mission-queue/launchd-stdout.log"
     },
     "com.antigravity.outcome-chase": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 0.3,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/outcome-chase.log"
     },
     "com.antigravity.pulse-serve": {
       "weekly": false,
-      "log_age_days": 0.9,
+      "log_age_days": 0.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/pulse/serve.log"
     },
@@ -215,43 +215,41 @@
     },
     "com.antigravity.shelf-report": {
       "weekly": true,
-      "log_age_days": 1.0,
+      "log_age_days": 2.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/catalog/shelf-report.log"
     },
     "com.antigravity.skills-sync": {
       "weekly": true,
-      "log_age_days": 1.2,
+      "log_age_days": 2.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/.agents/skill-sync-stdout.log"
     },
     "com.antigravity.verify-fleet": {
       "weekly": true,
-      "log_age_days": 1.0,
+      "log_age_days": 2.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
     },
     "com.antigravity.weekly-harness-cards": {
       "weekly": true,
-      "log_age_days": 0.4,
+      "log_age_days": 1.4,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/weekly-cards.log"
     }
   },
   "verify_fleet": {
     "ts": "2026-08-30T05:36:29.336727",
-    "age_days": 1.0,
+    "age_days": 2.0,
     "failing": 21,
     "total": 97
   },
   "flags": [
     "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log",
-    "routine com.antigravity.citation-integrity: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log",
-    "routine com.antigravity.health-metrics: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/collector.log",
-    ".tmp at 12,022MB / 200,002 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
-    "61 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
-    "_active/ holds 2782 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
-    "launchd com.antigravity.angle-map-listening: log silent 4d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
+    ".tmp at 13,807MB / 200,001 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
+    "72 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
+    "_active/ holds 2785 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
+    "launchd com.antigravity.angle-map-listening: log silent 5d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
     "verifier fleet: 21/97 failing (run 2026-08-30) \u2014 each is a contract the system claims to hold; triage in weekly closeout",
     "session context injection grew 27% in ~1mo (54KB \u2192 68KB) \u2014 every session pays this; trim or justify",
     "skills grew +42 in ~1mo with growth unchecked \u2014 pair new builds with archive passes or the routing surface dilutes"

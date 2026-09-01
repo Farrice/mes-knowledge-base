@@ -135,5 +135,5 @@
       "body": "Approval here is the client signing off on scripts, not performance. Nothing in the records says the reels were shot, posted, or measured, and the thread has been quiet since closeout — read 'ready' as ready-to-send, not as in-market.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "active"
+  "status": "archived"
 }

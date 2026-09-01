@@ -128,5 +128,6 @@
       "kicker": "READ THE EDGES",
       "body": "Everything recorded here is build evidence. The playbook and template exist and passed their own verification checks, but no record shows either used on a live production day — shipped is not the same as adopted.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }

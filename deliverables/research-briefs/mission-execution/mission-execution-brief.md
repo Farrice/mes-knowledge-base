@@ -1,6 +1,6 @@
 # Handoff — System Health Audit + Repair (2026-08-24)
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 30, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
 
 One good thing is buried in here. Dig it out and shut the lid.
 
@@ -10,7 +10,7 @@ This thread is a graveyard of superseded offer research plus one surviving asset
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is active. Last activity 3d ago.
+Handoff status is active. Last activity 5d ago.
 
 Next: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen.
 
@@ -21,7 +21,7 @@ What moved: verdict = builds GREEN (Second Brain, Homebase, hooks, budgets all r
 Uncertain: Notion L3 mirror fails nightly (ConnectionError) though API answers 200 directly — needs supervised re-run; Style Vault exists ONLY on unmerged worktree-style-vault branch, not main; jen/mybpm social-pulse Apify actors return 0 items.
 Latest proof: audit output /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/73378698-b9b8-4f42-90c6-11712482419c/tasks/w3v56gcad.output (run wf_8e685a4a-b35).
 
-Handoff written 6d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -69,7 +69,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **3 d**
+- DAYS ACTIVE: **5 d**
 
 ## momentum
 
@@ -97,7 +97,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 _READ THE EDGES_
 No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
