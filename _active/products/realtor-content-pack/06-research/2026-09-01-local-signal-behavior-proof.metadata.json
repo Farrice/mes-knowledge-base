@@ -1,0 +1,13 @@
+{
+  "artifact_type": "behavior_proof",
+  "title": "Realtor Local Signal System Behavior Proof",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "source_package": "extractions/video-context/eDGyKfiXsyQ",
+  "profiles": 3,
+  "content_cards": 9,
+  "negative_controls": 8,
+  "market_performance": "NO EVENT"
+}
+
