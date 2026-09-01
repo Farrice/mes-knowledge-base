@@ -142,14 +142,21 @@ the task-owned paths eligible for Git staging. Then run:
 python3 execution/codex_end_session.py run --manifest "<manifest.json>"
 ```
 
+Add `"rename_requested": true` only when Farrice explicitly asked to change
+the existing native sidebar title. Omit it for ordinary closeout.
+
 The JSON receipt is the decision surface. The Python coordinator owns exact
 handoff save/verify, conservative organization, the shared closeout spine,
 verifiers, manifest-scoped Git, remote-SHA proof, and the pointer-only global
 registry under `~/.codex/end-session/`. Project-local handoffs remain canonical.
 
-Codex app actions stay native and occur only after reading the receipt:
+Codex app actions stay native and occur only after reading the receipt. The
+initial semantic sidebar title is stable identity; the closeout title remains
+retrieval metadata unless Farrice explicitly requested a native rename:
 
-1. Call `set_thread_title` with `task_actions.title` for every meaningful task.
+1. Call `set_thread_title` with `task_actions.title` only when
+   `task_actions.rename` is true. Do not rename merely because the objective,
+   artifact, handoff, status, or closeout wording changed.
 2. If `task_actions.pin` is true, call `set_thread_pinned` so `active`, `blocked`, `ready`, and `mid-build` work stays visible.
 3. Call `set_thread_archived` only when `task_actions.archive` is true. A partial or failed closeout remains unarchived.
 

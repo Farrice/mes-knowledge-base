@@ -174,6 +174,8 @@ def load_manifest(path: Path) -> dict[str, Any]:
         raise CloseoutError("artifact_moves must be a list when provided")
     if not isinstance(data.get("review_items", []), list):
         raise CloseoutError("review_items must be a list when provided")
+    if not isinstance(data.get("rename_requested", False), bool):
+        raise CloseoutError("rename_requested must be a boolean when provided")
     project = Path(data["project_root"]).expanduser().resolve()
     if not project.exists():
         raise CloseoutError(f"project_root not found: {project}")
@@ -710,10 +712,15 @@ def write_global_receipts(manifest: dict[str, Any], handoff: dict[str, Any],
             "index": str(index)}
 
 
-def task_actions_for(status: str, title: str, closeout_valid: bool, dry_run: bool) -> dict[str, Any]:
+def task_actions_for(status: str, title: str, closeout_valid: bool, dry_run: bool,
+                     rename_requested: bool = False) -> dict[str, Any]:
     return {
-        "rename": True,
+        "rename": rename_requested,
         "title": title,
+        "rename_reason": (
+            "explicit title change requested" if rename_requested
+            else "preserve the task's initial semantic sidebar title"
+        ),
         "pin": status in PIN_STATUSES,
         "archive": status == "done" and closeout_valid and not dry_run,
         "reason": ("archive only after verified done closeout" if status == "done"
@@ -802,6 +809,7 @@ def coordinate(manifest: dict[str, Any], dry_run: bool) -> dict[str, Any]:
         git_receipt.get("status") in {"pushed", "clean", "not-applicable", "dry-run"}
     task_actions = task_actions_for(
         manifest["status"], manifest["title"], closeout_valid, dry_run,
+        manifest.get("rename_requested", False),
     )
     review_items: list[Any] = []
     review_items.extend({"type": "manifest-review", "detail": item}
