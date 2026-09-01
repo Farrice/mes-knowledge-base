@@ -594,6 +594,75 @@ BINDINGS = [
         ),
     },
     {
+        # Narrow visual-foundation binding. The creative brief router previously
+        # ranked generic briefs above the existing /mood-board front door even
+        # when the user explicitly asked for moodboards from discovery. Keep
+        # adjacent full-brand, tokenization, production, and style-library jobs
+        # with their existing owners through the negative controls below.
+        "id": "mood_board_orchestrator",
+        "signal_phrases": [
+            "mood board from discovery",
+            "moodboard from discovery",
+            "discovery notes into a mood board",
+            "discovery notes into a moodboard",
+            "discovery into a mood board",
+            "discovery into a moodboard",
+            "discovery session to make three mood boards",
+            "discovery session to make three moodboards",
+            "mood board from this brief",
+            "moodboard from this brief",
+            "build a high-taste mood board",
+            "build a high taste mood board",
+            "create a high-taste mood board",
+            "create a high taste mood board",
+            "build a mood board",
+            "build a moodboard",
+            "create a mood board",
+            "create a moodboard",
+            "three reference-locked moodboards",
+            "three reference locked moodboards",
+            "three materially different visual territories",
+            "blind taste choice",
+            "visual directions and a mood board",
+            "visual directions and a moodboard",
+            "visual directions from discovery",
+            "visual direction board from",
+            "make three mood boards for the client",
+            "make three moodboards for the client",
+            "moodboard for a campaign",
+            "mood board for a campaign",
+        ],
+        "negative_signals": [
+            "moodboard sweep",
+            "mood board sweep",
+            "existing moodboard library",
+            "existing mood board library",
+            "style handle",
+            "weight sweep",
+            "null run",
+            "approved moodboard into",
+            "approved mood board into",
+            "build a complete brand system",
+            "brand operating system",
+        ],
+        "mandatory_workflow": "mood-board",
+        "forbidden_workflows": [
+            "creative-brief-gen",
+            "design-brief",
+            "brief",
+            "moodboard-conversation-system",
+            "andrew-lane-design-systems",
+        ],
+        "reason": (
+            "Moodboard-from-discovery and explicit three-territory visual-"
+            "foundation requests require /mood-board, the connected conductor "
+            "for reference acquisition, actual visual boards, blind taste "
+            "selection, comparative proving surfaces, and selected-direction "
+            "handoff. Generic creative briefs and component workflows cover "
+            "only fragments of that outcome."
+        ),
+    },
+    {
         "id": "supercomputer_mission",
         "signal_phrases": [
             "build me a brand for",

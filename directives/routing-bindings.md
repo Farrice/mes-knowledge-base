@@ -31,6 +31,7 @@ If the task matches a domain below, the bound workflow is almost always the righ
 | Login-gated source verification | Playwright per `directives/browser-automation-safety.md` | WebFetch (returns login wall) |
 | Video source material (23 video-aware workflows) | `python3 execution/fetch-video-context.py` per `directives/video-vision-protocol.md` | Transcript-only ingestion (visual hooks = 30-50% of meaning) |
 | Brand Operating System / "BOS" / 6-layer brand build | `/build-bos` (7-phase via `skills/brand-operating-system/`) | Single-component skills alone |
+| Moodboard from discovery or a creative brief · three materially different visual territories · blind taste choice (`mood_board_orchestrator`) | `/mood-board` — reference acquisition → three actual visual boards → one comparative proving surface → blind `Choose / Keep / Kill` → selected-direction handoff | Generic `/creative-brief-gen`, `/design-brief`, the component-only `/moodboard-conversation-system`, or Andrew Lane decision documentation as the front door. Existing style-library characterization stays `/moodboard-sweep`; full BOS stays `/build-bos`. |
 | Multi-deliverable marketing/creative mission | `/supercomputer` (anchor-memory + cost gate) | Single-skill execution alone. Triggers: `directives/supercomputer-mode.md` |
 | Gate-suppressed orchestration ("autopilot", "no gates", "just execute") | `/autopilot` — 3 gates only: G1 (intent <=2), G2 (cost >$5), G3 (prose FLAGGED at Expert Standard >=7) | `/supercomputer`, `/jcc-deploy` etc. |
 | Context engineering / "engineer the conditions" / "make the behavior automatic" | `/ce-design` (Context Engineering OS in `skills/chase-hughes-context-engineering/`) | Single-tactic copy/LinkedIn workflow alone. Ethics gate: `execution/context_ethics_gate.py` |
@@ -101,6 +102,7 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `cold_start_converting_copy` | /copy-engine | 9 |
 | `offer_redteam_gate` | /offer-redteam | 14 |
 | `brand_operating_system` | /build-bos | 11 |
+| `mood_board_orchestrator` | /mood-board | 30 |
 | `supercomputer_mission` | /supercomputer | 20 |
 | `autopilot_orchestration` | /autopilot | 8 |
 | `vertical_bootstrap` | /verticalize | 20 |
@@ -121,6 +123,6 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `content_production_live_grounding` | /create / zeitgeist / briefs | 12 |
 | `deliverable_visual_delivery` | /briefs / briefing-room | 15 |
 | `social_listening_free_first` | /deep-research-os | 13 |
-| `unified_research` | /deep-research-os | 10 |
+| `unified_research` | /deep-research-os | 13 |
 | `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |
 | `jen_listing_package` | /listing-package | 11 |
