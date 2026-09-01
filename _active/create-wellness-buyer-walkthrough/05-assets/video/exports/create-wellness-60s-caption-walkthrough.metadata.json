@@ -1,0 +1,18 @@
+{
+  "artifact_type": "local_video_walkthrough",
+  "title": "Create Wellness: 60-second proof walkthrough",
+  "duration_seconds": 60,
+  "resolution": "1920x1080",
+  "codec": "h264",
+  "audio": "open_for_farrice_voice_recording",
+  "synthetic_voice_used": false,
+  "captions": "burned_into_visual_and_sidecar_srt",
+  "claim_states_preserved": [
+    "VERIFIED",
+    "LIKELY",
+    "UNCONFIRMED",
+    "NO EVENT"
+  ],
+  "publication_state": "local_only_not_published",
+  "external_action": "none"
+}

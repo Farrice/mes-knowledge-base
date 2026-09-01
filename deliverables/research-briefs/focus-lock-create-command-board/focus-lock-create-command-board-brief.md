@@ -36,20 +36,21 @@ gap → meaning → open loop → depth → enemy
 ## the next action
 Review the buyer page. If it passes your taste check, authorize the permission message. Nothing sends automatically.
 1. **Approve or mark the buyer page** — This is the only remaining taste decision before market exposure.
-2. **Choose one relevant Create contact** — Founder, head of brand, or growth lead. The role matters more than volume.
+2. **Review the Beckley Mason draft** — Create's SVP, Head of Marketing is the closest public role-fit for product education, brand language, creative proof, and growth surfaces.
 3. **Ask permission before attaching the brief** — A yes earns the send. Silence remains NO EVENT, not rejection proof.
 
 ## permission-first message
-**Create permission ask**
+**Beckley Mason · SVP, Head of Marketing**
 ```
-Hi [First name] — I was reviewing Create's public product education and found one answer-layer mismatch worth fixing. A support article says 5mg where the product pages use grams.
+Hi Beckley, I did a small public-source review of how Create connects dose, benefit language, and NSF quality proof.
 
-The more useful finding is how the NSF quality signal sits beside benefit language like ‘sharper focus,’ which needs its own evidence trail. I turned the public-source review into a one-page visual brief and left your internal evidence assumptions blank.
+One support answer appears to say 5mg where the Watermelon page uses grams. The bigger issue is whether each claim points to the right evidence.
 
-Would it be useful if I sent it over?
+I left anything internal marked unknown. If the one-page map would be useful, reply ‘send it’ and I'll pass it over. No pitch attached.
 ```
 
 ## choose your depth
+- **60-second caption walkthrough** [VIDEO] `_active/create-wellness-buyer-walkthrough/05-assets/video/exports/create-wellness-60s-caption-walkthrough.mp4` — Local visual cut; Farrice voice track still open
 - **30-second buyer page** [VISUAL] `deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief-client.html` — Client-grade visual, local and unsent
 - **Three-lens adversarial review** [SCORECARD] `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md` — Founder, growth, and regulatory convergence
 - **Permission-first exposure pack** [ACTION] `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md` — Message, send rule, and scoreboard
@@ -73,6 +74,7 @@ Current state: no message sent · no qualified reply · no call · no sale · $0
 - `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/ADVERSARIAL-BUYER-REVIEW.md` — three-lens review
 - `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/PERMISSION-FIRST-EXPOSURE-PACK.md` — outreach draft and scoreboard
 - `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/buyer-proof-tracker.csv` — commercial event tracker
+- `_active/create-wellness-buyer-walkthrough/05-assets/video/exports/create-wellness-60s-caption-walkthrough.mp4` — asset · VIDEO
 - `deliverables/research-briefs/create-wellness-claim-to-answer/create-wellness-claim-to-answer-brief-client.html` — asset · VISUAL
 - `_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/CREATE-WELLNESS-CLAIM-TO-ANSWER-DIAGNOSTIC.md` — asset · PROOF
 - https://trycreate.co/products/creatine-monohydrate-gummies?variant=54066907545972 — Create Wellness product page

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Wellness — 60-second proof walkthrough</title>
+  <style>
+    :root {
+      --ink: #101010;
+      --paper: #FAFAF8;
+      --steel: #3D5A94;
+      --line: #D8D8D3;
+      --muted: #555553;
+      --soft: #F3F3F0;
+      --display: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
+      --body: "Helvetica Neue", Helvetica, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: var(--paper); color: var(--ink); }
+    body { font-family: var(--body); }
+    .film { position: relative; width: 100vw; height: 100vh; isolation: isolate; }
+    .grain { position: absolute; inset: 0; z-index: 20; pointer-events: none; opacity: .035; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.92' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E"); }
+    .topline { position: absolute; top: 46px; left: 60px; right: 60px; z-index: 25; display: flex; justify-content: space-between; align-items: center; font-size: 14px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+    .eyebrow { color: var(--steel); }
+    .clock { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .progress { position: absolute; z-index: 30; left: 60px; right: 60px; bottom: 42px; height: 4px; background: var(--line); }
+    .progress > span { display: block; height: 100%; width: 0; background: var(--steel); }
+    .scene { position: absolute; inset: 0; padding: 120px 110px 100px; opacity: 0; transform: translateY(26px); pointer-events: none; }
+    .scene.active { opacity: 1; transform: translateY(0); transition: opacity .46s ease, transform .6s cubic-bezier(.2,.8,.2,1); }
+    .scene.exiting { opacity: 0; transform: translateY(-18px); transition: opacity .28s ease, transform .28s ease; }
+    h1, h2, p { margin: 0; }
+    .kicker { font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin-bottom: 26px; }
+    .headline { font-family: var(--display); font-size: clamp(80px, 8vw, 154px); line-height: .88; font-weight: 500; letter-spacing: -.055em; max-width: 1500px; }
+    .headline em { color: var(--steel); font-weight: 400; }
+    .sub { margin-top: 36px; max-width: 1040px; font-size: 30px; line-height: 1.35; color: var(--muted); }
+    .claim-row { display: grid; grid-template-columns: 1fr 1fr; gap: 42px; margin-top: 72px; align-items: end; }
+    .claim { border-top: 4px solid var(--ink); padding-top: 20px; min-height: 240px; }
+    .claim.risk { border-color: var(--steel); transform: translateY(38px); }
+    .claim .number { font-family: var(--display); font-size: 138px; line-height: .85; letter-spacing: -.06em; }
+    .claim .source { margin-top: 18px; font-size: 22px; color: var(--muted); }
+    .label { display: inline-flex; border: 1px solid currentColor; padding: 7px 10px 6px; margin-top: 26px; font-size: 13px; line-height: 1; letter-spacing: .16em; font-weight: 700; }
+    .verified { color: var(--ink); }
+    .likely { color: var(--steel); }
+    .unconfirmed { color: var(--steel); background: rgba(61,90,148,.08); }
+    .proof-line { position: absolute; left: 110px; right: 110px; top: 51%; height: 2px; background: var(--line); }
+    .proof-line::before { content: ""; position: absolute; left: 0; top: -5px; width: 12px; height: 12px; border-radius: 50%; background: var(--ink); }
+    .proof-line::after { content: ""; position: absolute; left: 0; top: -1px; height: 2px; width: 0; background: var(--steel); animation: widen 8.6s linear forwards; }
+    @keyframes widen { to { width: 100%; } }
+    .line-notes { display: flex; justify-content: space-between; margin-top: 44vh; font-size: 22px; color: var(--muted); }
+    .scope-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 90px; align-items: center; height: 76%; }
+    .scope-box { border: 2px solid var(--ink); padding: 46px; position: relative; }
+    .scope-box::after { content: "CERTIFICATION SCOPE"; position: absolute; top: -13px; left: 28px; background: var(--paper); padding: 0 12px; color: var(--steel); letter-spacing: .15em; font-size: 13px; font-weight: 700; }
+    .scope-list { display: grid; grid-template-columns: 1fr 1fr; gap: 30px 38px; font-size: 28px; line-height: 1.2; }
+    .outside { border-left: 3px solid var(--steel); padding-left: 34px; }
+    .outside .phrase { font-family: var(--display); font-size: 60px; line-height: 1; margin: 20px 0; }
+    .evidence-stage { display: grid; grid-template-columns: 1fr 90px 1fr; gap: 36px; align-items: center; height: 70%; }
+    .phrase-stack { display: grid; gap: 18px; }
+    .phrase-card { padding: 24px 28px; background: var(--soft); border-left: 4px solid var(--steel); font-family: var(--display); font-size: 42px; }
+    .arrow { font-size: 72px; color: var(--line); text-align: center; }
+    .empty-slot { height: 310px; border: 2px dashed var(--steel); padding: 34px; display: flex; flex-direction: column; justify-content: space-between; }
+    .empty-slot strong { font-size: 28px; }
+    .empty-slot p { font-size: 22px; line-height: 1.35; color: var(--muted); }
+    .repair { margin-top: 72px; display: grid; grid-template-columns: repeat(4,1fr); gap: 34px; }
+    .step { position: relative; min-height: 260px; border-top: 4px solid var(--ink); padding: 30px 8px 0; }
+    .step-num { display: block; color: var(--steel); font-family: var(--display); font-size: 34px; margin-bottom: 52px; }
+    .step h3 { margin: 0; max-width: 310px; font-size: 23px; line-height: 1.18; font-weight: 600; }
+    .final-lock { display: grid; grid-template-columns: 1fr 360px; gap: 80px; align-items: end; height: 76%; }
+    .final-meta { border-left: 2px solid var(--line); padding-left: 34px; display: grid; gap: 28px; font-size: 17px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
+    .final-meta strong { display: block; margin-top: 8px; font-size: 27px; letter-spacing: 0; text-transform: none; color: var(--ink); }
+    .caption { position: absolute; left: 110px; right: 110px; bottom: 78px; z-index: 25; font-size: 24px; line-height: 1.25; color: var(--ink); opacity: .93; }
+    .caption span { background: var(--paper); padding: 4px 8px 5px 0; }
+    .freeze .progress > span { width: var(--freeze-progress); }
+    .freeze .clock { display: none; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="film" aria-label="Create Wellness proof walkthrough">
+    <div class="topline"><span class="eyebrow">Create Wellness · public-source review</span><span class="clock">00:00 / 01:00</span></div>
+
+    <section class="scene active" data-start="0" data-end="5">
+      <p class="kicker">13 public sources · one answer</p>
+      <h1 class="headline">a small error.<br><em>a larger proof gap.</em></h1>
+      <p class="sub">Dose, quality, and benefit language should lead to the same product truth.</p>
+      <p class="caption"><span>Create's public pages carry a small error and a larger proof gap.</span></p>
+    </section>
+
+    <section class="scene" data-start="5" data-end="13">
+      <p class="kicker">the public text</p>
+      <div class="claim-row">
+        <div class="claim"><div class="number">4.5 g</div><div class="source">per three Watermelon gummies</div><span class="label verified">VERIFIED</span></div>
+        <div class="claim risk"><div class="number">5 mg</div><div class="source">in one stacking support answer</div><span class="label likely">LIKELY UNIT ERROR</span></div>
+      </div>
+      <p class="caption"><span>The product page uses grams. One support answer uses milligrams.</span></p>
+    </section>
+
+    <section class="scene" data-start="13" data-end="22">
+      <p class="kicker">the useful question starts behind the typo</p>
+      <h2 class="headline">what can each<br><em>proof signal</em> carry?</h2>
+      <div class="proof-line"></div>
+      <div class="line-notes"><span>dose correction</span><span>quality proof</span><span>benefit support</span></div>
+      <p class="caption"><span>The typo is the easy fix. The claim system is the useful work.</span></p>
+    </section>
+
+    <section class="scene" data-start="22" data-end="33">
+      <div class="scope-grid">
+        <div>
+          <p class="kicker">what the NSF signal supports</p>
+          <div class="scope-box"><div class="scope-list"><span>label contents</span><span>contaminant screening</span><span>prohibited substances</span><span>manufacturing controls</span></div></div>
+          <span class="label verified">VERIFIED SCOPE</span>
+        </div>
+        <aside class="outside"><p class="kicker">outside that proof</p><div class="phrase">“sharper focus”</div><div class="phrase">“2–3 weeks”</div><span class="label unconfirmed">SEPARATE REVIEW</span></aside>
+      </div>
+      <p class="caption"><span>Quality certification is strong proof. It does not establish product efficacy.</span></p>
+    </section>
+
+    <section class="scene" data-start="33" data-end="42">
+      <p class="kicker">the evidence boundary stays visible</p>
+      <div class="evidence-stage">
+        <div class="phrase-stack"><div class="phrase-card">“clean energy”</div><div class="phrase-card">“sharper focus”</div><div class="phrase-card">benefits in 2–3 weeks</div></div>
+        <div class="arrow">→</div>
+        <div class="empty-slot"><strong>Exact-product evidence package</strong><p>Not found in the reviewed public materials. Internal support may exist.</p><span class="label unconfirmed">UNCONFIRMED</span></div>
+      </div>
+      <p class="caption"><span>Public wording is verified. Product-specific substantiation was not available for this review.</span></p>
+    </section>
+
+    <section class="scene" data-start="42" data-end="51">
+      <p class="kicker">the bounded repair</p>
+      <h2 class="headline">fix the answer.<br><em>strengthen the system.</em></h2>
+      <div class="repair"><div class="step"><span class="step-num">01</span><h3>Correct the serving answer</h3></div><div class="step"><span class="step-num">02</span><h3>Map each phrase to evidence</h3></div><div class="step"><span class="step-num">03</span><h3>Separate quality from benefit proof</h3></div><div class="step"><span class="step-num">04</span><h3>Build from approved proof</h3></div></div>
+      <p class="caption"><span>Four moves turn one correction into a claim-to-answer system.</span></p>
+    </section>
+
+    <section class="scene" data-start="51" data-end="60">
+      <div class="final-lock">
+        <div><p class="kicker">ready for permission-based review</p><h2 class="headline">one SKU.<br><em>one product truth.</em></h2></div>
+        <div class="final-meta"><div>scope<strong>public sources only</strong></div><div>finding<strong>no compliance conclusion</strong></div><div>exposure<strong>NO EVENT</strong></div></div>
+      </div>
+      <p class="caption"><span>The brief is ready. Nothing has been sent.</span></p>
+    </section>
+
+    <div class="progress"><span></span></div>
+    <div class="grain"></div>
+  </main>
+  <script>
+    const total = 60;
+    const params = new URLSearchParams(location.search);
+    const frozen = params.has('scene') ? Number(params.get('scene')) : null;
+    const scenes = [...document.querySelectorAll('.scene')];
+    const progress = document.querySelector('.progress > span');
+    const clock = document.querySelector('.clock');
+    let active = 0;
+    let started = performance.now();
+
+    function setScene(index) {
+      if (index === active && scenes[index].classList.contains('active')) return;
+      scenes.forEach((scene, i) => {
+        scene.classList.toggle('active', i === index);
+        scene.classList.toggle('exiting', i === active && i !== index);
+      });
+      active = index;
+    }
+
+    function tick(now) {
+      const elapsed = Math.min((now - started) / 1000, total);
+      const index = Math.max(0, scenes.findIndex(scene => elapsed >= Number(scene.dataset.start) && elapsed < Number(scene.dataset.end)));
+      setScene(index < 0 ? scenes.length - 1 : index);
+      progress.style.width = `${(elapsed / total) * 100}%`;
+      clock.textContent = `00:${String(Math.floor(elapsed)).padStart(2,'0')} / 01:00`;
+      if (elapsed < total) requestAnimationFrame(tick);
+    }
+
+    if (Number.isInteger(frozen) && frozen >= 0 && frozen < scenes.length) {
+      document.body.classList.add('freeze');
+      active = frozen;
+      scenes.forEach((scene, i) => scene.classList.toggle('active', i === frozen));
+      const midpoint = (Number(scenes[frozen].dataset.start) + Number(scenes[frozen].dataset.end)) / 2;
+      document.documentElement.style.setProperty('--freeze-progress', `${(midpoint / total) * 100}%`);
+    } else {
+      requestAnimationFrame(tick);
+    }
+  </script>
+</body>
+</html>

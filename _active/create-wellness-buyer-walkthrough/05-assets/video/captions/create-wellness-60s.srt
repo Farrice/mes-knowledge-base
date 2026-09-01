@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:05,000
+Create's public pages carry a small error and a larger proof gap.
+
+2
+00:00:05,000 --> 00:00:13,000
+The product page uses grams. One support answer uses milligrams.
+
+3
+00:00:13,000 --> 00:00:22,000
+The typo is the easy fix. The claim system is the useful work.
+
+4
+00:00:22,000 --> 00:00:33,000
+Quality certification is strong proof. It does not establish product efficacy.
+
+5
+00:00:33,000 --> 00:00:42,000
+Public wording is verified. Product-specific substantiation was not available for this review.
+
+6
+00:00:42,000 --> 00:00:51,000
+Four moves turn one correction into a claim-to-answer system.
+
+7
+00:00:51,000 --> 00:01:00,000
+The brief is ready. Nothing has been sent.

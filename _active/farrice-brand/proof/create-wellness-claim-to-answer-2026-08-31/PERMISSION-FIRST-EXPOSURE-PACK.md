@@ -1,16 +1,28 @@
 # Permission-first exposure pack
 
-**Status:** Local draft. No message sent.  
-**Target role:** Create Wellness founder, head of brand, or growth lead.  
+**Status:** Local draft. No message sent.
+**Selected contact:** Beckley Mason, SVP, Head of Marketing at Create Wellness.
+**Contact route:** LinkedIn direct message. No email address inferred or invented.
 **Goal:** Earn permission to send the one-page brief. Do not pitch the full service in the first contact.
+
+## Why Beckley
+
+Create's company page recently identified Beckley as SVP, Marketing and credited her with overseeing rapid revenue growth. Her own public announcement describes the role as SVP, Head of Marketing. The review touches product education, brand language, creative proof, and growth surfaces, making her a closer functional owner than a generic founder-first approach.
+
+This is role-fit evidence, not evidence that she wants the review.
 
 ## Message
 
-Hi [First name] — I was reviewing Create’s public product education and found one answer-layer mismatch worth fixing. A support article says `5mg` where the product pages use grams.
+Hi Beckley, I did a small public-source review of how Create connects dose, benefit language, and NSF quality proof.
 
-The more useful finding is how the NSF quality signal sits beside benefit language like “sharper focus,” which needs its own evidence trail. I turned the public-source review into a one-page visual brief and left your internal evidence assumptions blank.
+One support answer appears to say `5mg` where the Watermelon page uses grams. The bigger issue is whether each claim points to the right evidence.
 
-Would it be useful if I sent it over?
+I left anything internal marked unknown. If the one-page map would be useful, reply `send it` and I'll pass it over. No pitch attached.
+
+## Public role receipts
+
+- [Create Wellness company page](https://www.linkedin.com/company/trycreate): a recent company update names Beckley as SVP, Marketing and describes her role in the current marketing team.
+- [Beckley Mason's public role announcement](https://www.linkedin.com/posts/beckley-mason-67b4363_digital-community-builder-create-wellness-activity-7414774375020711936-okK5): identifies her as SVP, Head of Marketing at Create Wellness.
 
 ## Send rule
 
@@ -29,5 +41,4 @@ Send the brief only after a clear yes. A view, like, or profile visit is attenti
 
 ## Next action
 
-Await Farrice’s approval of the visual brief and message. No contact has been selected or messaged.
-
+Await Farrice's taste approval. Beckley has been selected but not contacted. No message has been sent.

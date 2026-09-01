@@ -1,0 +1,21 @@
+{
+  "v": 1,
+  "project": "create-wellness-buyer-walkthrough",
+  "mode": "zero-camera",
+  "duration_seconds": 60,
+  "formats": [
+    "yt-169"
+  ],
+  "style_merge": [
+    "skills/video-studio/style/video-style-default.md",
+    "_active/farrice-brand/voice/video-style.md",
+    "_active/create-wellness-buyer-walkthrough/05-assets/video/style-overrides.md"
+  ],
+  "narration": {
+    "state": "record-ready",
+    "synthetic_voice": false,
+    "reason": "Farrice voice only; no cloning or TTS."
+  },
+  "current_render": "exports/create-wellness-60s-caption-walkthrough.mp4",
+  "source_brief": "_active/farrice-brand/proof/create-wellness-claim-to-answer-2026-08-31/CREATE-WELLNESS-CLAIM-TO-ANSWER-DIAGNOSTIC.md"
+}
