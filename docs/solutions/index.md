@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-31 · health-performance-paid-pilot-readiness · A current paid health-marketing offer was package-ready but not client-delivery-ready because no named brand had supplied account evidence, approved claims, or human owners
 - 2026-08-31 · youtube-personal-brand-creative-direction-existing-owner-expansion · A practitioner video described personal-brand creative direction across content, operations, aesthetics, collaboration, and distribution, but those mechanics needed to extend the existing Oren owner without becoming a duplicate mega-skill or a transcript-only summary.
 - 2026-08-30 · youtube-screen-share-to-existing-skill-expansion · A screen-share YouTube source needed to become a connected skill-system expansion without duplicating an existing expert, trusting transcript-only evidence, or crossing external-write boundaries.
 - 2026-08-29 · mybpm-horizon-premium-relaunch · Build a credible premium Shopify relaunch without live store write access while separating verified product proof from sample-gated merchandising

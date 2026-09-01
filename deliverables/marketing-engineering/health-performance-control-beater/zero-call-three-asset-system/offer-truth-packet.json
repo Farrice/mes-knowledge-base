@@ -1,0 +1,107 @@
+{
+  "schema_version": "jw-three-asset-offer-truth/v1",
+  "purchase_type": "considered",
+  "buyer": "Founder, Head of Growth, or lean marketing lead at an already-selling U.S. supplement, performance-nutrition, or recovery brand",
+  "painful_job": "Turn one current control, approved product truth, and account evidence into six materially different claim-aware creative concepts and a legible learning event",
+  "failed_game": "Treating creative volume and surface variants as distinct strategic tests",
+  "new_belief": "More creative output does not produce better account learning when every asset is a variation of the same untested idea",
+  "vehicle": [
+    "fit and control intake",
+    "account and product evidence read",
+    "frozen materially-different hypothesis map",
+    "claim boundary",
+    "five static concepts and one video concept",
+    "client-owned review and launch",
+    "results-return correction memo"
+  ],
+  "offer": {
+    "name": "The Control-Beater",
+    "price": 500,
+    "currency": "USD",
+    "terms": "prepaid",
+    "timing": "72 hours after cleared payment and complete accepted inputs",
+    "deliverables": [
+      "fit and input screen",
+      "frozen hypothesis map",
+      "five static concepts",
+      "one video concept",
+      "claim-boundary sheet",
+      "launch and readout template",
+      "bounded policy-rejection fix or replacement"
+    ]
+  },
+  "proof": {
+    "real": [
+      "coaching since 2008 and 1,000+ people coached",
+      "five years of vitamin-shop buyer-side experience",
+      "prepared category teardowns and creative concepts",
+      "$250 accepted and used paid brand/creative engagement",
+      "locally verified Control-Beater operating contract"
+    ],
+    "gaps": [
+      "no supplement-brand performance case study",
+      "no payment, launch, or outcome event for this offer",
+      "founding price economics untested"
+    ],
+    "prohibited": [
+      "will beat your control",
+      "pre-cleared or legally approved",
+      "guaranteed platform acceptance",
+      "guaranteed CTR, CPA, ROAS, revenue, conversion, or health outcome"
+    ]
+  },
+  "fit": {
+    "right_fit": [
+      "already selling",
+      "usable Meta control",
+      "approved product sources",
+      "qualified reviewer",
+      "launch owner",
+      "results-return owner"
+    ],
+    "wrong_fit": [
+      "pre-revenue",
+      "no control",
+      "hidden account evidence",
+      "guaranteed outcome required",
+      "product Farrice would not defend"
+    ]
+  },
+  "required_inputs": [
+    "priority SKU",
+    "current control",
+    "winner and loser or baseline evidence",
+    "approved product and claim sources",
+    "qualified claims reviewer",
+    "creative approval owner",
+    "launch owner",
+    "results-return owner"
+  ],
+  "claim_constraints": "Farrice may screen, question, narrow, and rewrite; the client owns substantiation and qualified final review",
+  "capacity": {
+    "delivery_owner": "Farrice Cain",
+    "review_owner": "client-qualified reviewer",
+    "launch_owner": "client media owner",
+    "results_owner": "named client owner"
+  },
+  "payment": {
+    "route_state": "PENDING",
+    "cleared_event": "$500 cleared"
+  },
+  "acquisition": {
+    "source": "prepared private trigger-based outreach and future public belief-shift content",
+    "state": "NOT_SENT"
+  },
+  "awareness": {
+    "entry": "problem-aware",
+    "sequence": ["model", "machine", "invite", "fit", "payment"]
+  },
+  "requires_current_control": true,
+  "requires_account_evidence": true,
+  "current_control": null,
+  "account_evidence": null,
+  "requires_pre_sale_call": false,
+  "guaranteed_outcome": false,
+  "unsafe_or_unsupported_claim": false,
+  "false_scarcity": false
+}
