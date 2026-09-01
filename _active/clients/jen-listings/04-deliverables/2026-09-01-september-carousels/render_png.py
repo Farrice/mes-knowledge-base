@@ -12,7 +12,9 @@ ORDER = [("Main", "c1-01")] + [(f"C1S{i}", f"c1-0{i}") for i in range(2, 8)] \
     + [(f"C2S{i}", f"c2-0{i}") for i in range(1, 8)] \
     + [(f"C3S{i}", f"c3-0{i}") for i in range(1, 8)] \
     + [(f"D{d}{i}", f"dir-{d.lower()}-0{i}") for d in "AB" for i in range(1, 5)] \
-    + [(f"DD{i}", f"dir-d-0{i}") for i in range(1, 8)]
+    + [(f"DD{i}", f"dir-d-0{i}") for i in range(1, 8)] \
+    + [("P0", "present-00-cover"), ("P1", "present-01-agenda"), ("R1", "present-reel-1"), ("R2", "present-reel-2"),
+       ("R3", "present-reel-3"), ("P2", "present-02-filming"), ("P3", "present-03-rulebook"), ("P4", "present-04-photos")]
 
 def main():
     OUT.mkdir(exist_ok=True)

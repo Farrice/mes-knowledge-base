@@ -308,31 +308,52 @@ order = [
     ("the insurance quote comes before the offer", ["C3S1", "C3S2", "C3S3", "C3S4", "C3S5", "C3S6", "C3S7"]),
 ]
 artboards = []
+X = 1180  # column pitch
+
+# ---- page 1: start here (the walkthrough) ----
+artboards += [
+    {"file": "P0.dc.html", "title": "start here", "x": 0, "y": 0, "w": 1080, "h": 1350, "page": "page-1"},
+    {"file": "P1.dc.html", "title": "how to read this", "x": X, "y": 0, "w": 1080, "h": 2000, "print": "flow", "page": "page-1"},
+    {"file": "P2.dc.html", "title": "filming notes", "x": 2 * X, "y": 0, "w": 1080, "h": 2000, "print": "flow", "page": "page-1"},
+    {"file": "R1.dc.html", "title": "reel 1 · the condo has to qualify too", "x": 0, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
+    {"file": "R2.dc.html", "title": "reel 2 · van nuys is getting a train", "x": X, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
+    {"file": "R3.dc.html", "title": "reel 3 · the insurance quote", "x": 2 * X, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
+]
+
+# ---- page 2: the look (valley native) ----
+for col, name in enumerate(["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]):
+    artboards.append({"file": f"{name}.dc.html", "title": f"valley native · slide {col + 1}", "x": col * X, "y": 0, "w": 1080, "h": 1350, "page": "page-2"})
+artboards += [
+    {"file": "P3.dc.html", "title": "the rulebook", "x": 0, "y": 1560, "w": 1080, "h": 4200, "print": "flow", "page": "page-2"},
+    {"file": "P4.dc.html", "title": "the photo bank", "x": X, "y": 1560, "w": 1080, "h": 2500, "print": "flow", "page": "page-2"},
+]
+
+# ---- page 3: the three sets, copy approved ----
 for row, (title, names) in enumerate(order):
     for col, name in enumerate(names):
-        artboards.append({"file": f"{name}.dc.html", "title": f"{row + 1}.{col + 1} {title}", "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350})
+        artboards.append({"file": f"{name}.dc.html", "title": f"{row + 1}.{col + 1} {title}", "x": col * X, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-3"})
 
-DIRECTIONS = [
-    ("D · valley native", ["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]),
-    ("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]),
-    ("B · field notes", ["DB1", "DB2", "DB3", "DB4"]),
-]
-for row, (title, names) in enumerate(DIRECTIONS):
+# ---- page 4: earlier sketches ----
+for row, (title, names) in enumerate([("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]), ("B · field notes", ["DB1", "DB2", "DB3", "DB4"])]):
     for col, name in enumerate(names):
-        label = f"slide {col + 1}" if len(names) == 7 else ["cover", "slide 3", "slide 4", "close"][col]
-        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}",
-                          "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-2"})
+        label = ["cover", "slide 3", "slide 4", "close"][col]
+        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}", "x": col * X, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-4"})
 
 canvas = {
-    "pages": [{"id": "page-1", "name": "September sets"}, {"id": "page-2", "name": "Directions"}],
+    "pages": [
+        {"id": "page-1", "name": "1 · start here"},
+        {"id": "page-2", "name": "2 · the look: valley native"},
+        {"id": "page-3", "name": "3 · the three carousels"},
+        {"id": "page-4", "name": "4 · earlier sketches"},
+    ],
     "artboards": artboards,
     "annotations": [
-        {"id": "sept-note", "x": 0, "y": -300, "w": 1000, "page": "page-1", "text": "SEPTEMBER 2026 · three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."},
-        {"id": "dir-note", "x": 0, "y": -330, "w": 1000, "page": "page-2", "text": "DIRECTIONS on the condo set. same copy, different skins. photos are real and cleared (CC0 / public domain) plus jen's own public grid shots as placeholders.\nrow 1 · D valley native (full 7 slides): field-notes composition in her own navy line-icon language, real valley places, jen in frame. the recommended system. rulebook: VALLEY-NATIVE-RULEBOOK.md\nrow 2 · A photo editorial (4 slides): current system + full-bleed place photography.\nrow 3 · B field notes (4 slides): the paper/tape/pencil sketch that D translates on-brand.\ndirection C (orange) was removed: jen hates orange."},
-        {"id": "dir-a", "x": 4740, "y": 1560, "w": 380, "page": "page-2", "text": "A · photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."},
-        {"id": "dir-b", "x": 4740, "y": 3120, "w": 380, "page": "page-2", "text": "B · field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. D keeps the composition and drops the skin."},
+        {"id": "p1-note", "x": 0, "y": -260, "w": 1100, "page": "page-1", "text": "jen: start with the cover, then 'how to read this'. the three reel cards below are the scripts, word for word. pick the one you'd say first. the condo one is the top pick.\npages are in the menu at the top. click any slide to see it big. export gives you a PNG of any slide."},
+        {"id": "p2-note", "x": 0, "y": -260, "w": 1100, "page": "page-2", "text": "the look: valley native. your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead is the signature: it stays in the same spot on every slide, forever. the zip changes when the neighborhood does.\nbelow: the rulebook (seven rules, so every future set matches) and the photo bank (every photo is real and cleared; the three of you are placeholders until you send originals)."},
+        {"id": "p3-note", "x": 0, "y": -260, "w": 1100, "page": "page-3", "text": "all three carousels in the current look. the words are final and every number is sourced on the last slide.\nrow 1: the condo has to qualify too. row 2: van nuys is getting a train (the opinion in that one is a draft of yours; change it to what you'd actually say). row 3: the insurance quote comes before the offer.\nonce you pick the look, all three get rebuilt in it."},
+        {"id": "p4-note", "x": 0, "y": -260, "w": 1100, "page": "page-4", "text": "two earlier sketches on the condo set, kept so you can see what was left behind.\nA: the current look with big photos. B: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps B's layout ideas in your own look."},
     ],
-    "launch": {"view": "canvas", "page": "page-2"},
+    "launch": {"view": "canvas", "page": "page-1"},
 }
 (OUT / "canvas.json").write_text(json.dumps(canvas, indent=2))
 print("wrote", len(slides), "artboards + canvas.json")
