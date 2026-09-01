@@ -33,13 +33,17 @@ Jen's BRAIN.md gets this from intake Q8 in her own words. Gigi's is reconstructe
 ## 3. The live listing — the pipeline's anchor (VERIFIED 2026-08-31 against MLS-fed pages; recheck the day anything posts)
 
 **19350 Sherman Way #124, Reseda, CA 91335** · MLS SR26183330 · listed by Gulnara Mironova and Marty Azoulay, Equity Union
-- For sale **$319,999** · 1 bd / 1 ba · 619 sqft · 2 parking spaces · private balcony
-- Fully remodeled December 2023; 2023 appliances; washer and dryer purchased Dec 2023, included; in-unit laundry
-- Also listed **for lease at $2,500/mo**; unit **#208 for lease at $2,400/mo** (her Equity Union agent page)
-- Her own carousel claims "balcony inspection & repairs completed" — her claim about her listing. Do NOT extend it to "the HOA holds a current SB 326 certificate."
-- HOA: **$477/mo recorded on unit 204 (a 2-bd) in this building**, covering pool/spa/gym/insurance/grounds/trash/water. Always "recorded for this building", never "Unit 124's dues" until she supplies the unit's figure.
-- Building: year built 1990 (LIKELY); unit count and storey count contradict across sources (UNCONFIRMED; never state).
-- Rent-vs-own math computed 2026-08-31 at 20% down, 6.66% (Freddie Mac PMMS 2026-08-27), 1.25% tax est, $477 HOA, ~$60 ins: **$2,515/mo estimate**, month-one principal ~$224. Ships only with "estimate, not a quote" and "recorded for this building" beside it. Recheck the rate before any script that says it.
+
+> **Ledger correction 2026-09-01 (Stage 2 caught it, Playwright confirmed on the live Redfin page):** the prior lanes built on **$319,999 and a $477 building-recorded HOA**. The live listing today shows **FOR SALE $299,999** and **HOA dues $620/mo**, 11 days on Redfin. Every number below supersedes the lanes. Recheck the day anything posts.
+
+- For sale **$299,999** (VERIFIED live 2026-09-01) · 1 bd / 1 ba · 619 sqft · $485/sqft · 2-car parking · private balcony · gated community · year built 1990
+- **HOA dues $620/mo** (VERIFIED, on the listing). Listing says HOA includes water, sewer, trash, building insurance, pest control, pool service, landscaping, on-site property manager. Amenities: pool, spa, sauna, fitness center, EV charging.
+- Fully remodeled December 2023 (kitchen, bath, flooring, finishes); 2023 appliances; washer and dryer included; in-unit laundry
+- Listing text: "Building insurance is in place, and balcony inspection and repairs have been completed." Her claim about her listing. Do NOT extend it to "the HOA holds a current SB 326 certificate" or to any other unit.
+- Also listed **for lease at $2,500/mo** ("Listed for Rent" appears on the Redfin page; her EU agent page showed it 2026-08-31); unit **#208 for lease at $2,400/mo** (EU page 2026-08-31; recheck)
+- A sibling unit (#328, $314,999) carries "VA approved" in its MLS copy. UNCONFIRMED against the official VA list; never say it.
+- Unit count and storey count contradict across sources (UNCONFIRMED; never state).
+- **Rent-vs-own estimate, recomputed 2026-09-01:** $299,999, 20% down ($60,000), 6.66% (Freddie Mac PMMS 2026-08-27), P&I $1,542 + tax est 1.25% $312 + HOA $620 + HO-6 est $60 = **$2,535/mo**; month-one principal ~$210. Rent on the same unit: $2,500. **Gap: $35/mo before equity.** 10% down variant: $2,728/mo. Ships only with "estimate, not a quote" beside it. Redfin's own estimate on the page reads $2,574/mo, which is the same order.
 - Listing photography: 25 MLS frames retrieved 2026-08-31; seven mapped for production in `engine/assets/listing-124/`. She is the listing agent; confirm publishing rights with her before public distribution (they are hers to grant, not ours).
 
 ## 4. Typical questions — in client voice (LIKELY; drawn from the demand pass and her review language, not from her intake Q9/Q10)
