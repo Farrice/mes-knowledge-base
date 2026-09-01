@@ -1,0 +1,184 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "1.1 the condo has to qualify too",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S2.dc.html",
+      "title": "1.2 the condo has to qualify too",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S3.dc.html",
+      "title": "1.3 the condo has to qualify too",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S4.dc.html",
+      "title": "1.4 the condo has to qualify too",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S5.dc.html",
+      "title": "1.5 the condo has to qualify too",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S6.dc.html",
+      "title": "1.6 the condo has to qualify too",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C1S7.dc.html",
+      "title": "1.7 the condo has to qualify too",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S1.dc.html",
+      "title": "2.1 van nuys is getting a train",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S2.dc.html",
+      "title": "2.2 van nuys is getting a train",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S3.dc.html",
+      "title": "2.3 van nuys is getting a train",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S4.dc.html",
+      "title": "2.4 van nuys is getting a train",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S5.dc.html",
+      "title": "2.5 van nuys is getting a train",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S6.dc.html",
+      "title": "2.6 van nuys is getting a train",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C2S7.dc.html",
+      "title": "2.7 van nuys is getting a train",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S1.dc.html",
+      "title": "3.1 the insurance quote comes before the offer",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S2.dc.html",
+      "title": "3.2 the insurance quote comes before the offer",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S3.dc.html",
+      "title": "3.3 the insurance quote comes before the offer",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S4.dc.html",
+      "title": "3.4 the insurance quote comes before the offer",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S5.dc.html",
+      "title": "3.5 the insurance quote comes before the offer",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S6.dc.html",
+      "title": "3.6 the insurance quote comes before the offer",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "C3S7.dc.html",
+      "title": "3.7 the insurance quote comes before the offer",
+      "x": 7080,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    }
+  ],
+  "annotations": [
+    {
+      "id": "sept-note",
+      "x": 0,
+      "y": -300,
+      "w": 1000,
+      "text": "SEPTEMBER 2026 \u00b7 three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
