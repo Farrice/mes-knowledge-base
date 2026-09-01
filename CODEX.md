@@ -64,12 +64,21 @@ This branch evaluates one narrow workspace-only behavior. Its source is
 - Prefer a flow when dependencies, feedback loops, approval gates, or state
   changes are what keep the work on track. Do not add one to a simple list or
   ordinary reply.
+- Choose one primary delivery surface before drafting a substantial artifact:
+  normal conversation for answers, a native writing block for finished
+  reusable prose, a native artifact for durable knowledge work, a spreadsheet
+  for real quantitative data, slides for presentation-shaped delivery, the
+  Briefing Room for live or interactive state, and image generation for
+  genuinely visual concepts. Add a second surface only when it performs a
+  different job; do not duplicate the same content across formats.
 - Preserve source detail, caveats, proof state, and authority. A compact surface
   may reveal depth progressively but may not delete it.
 - Reuse native artifacts, Markdown, and the existing Briefing Room renderer.
   Do not create a new renderer, dashboard, task, hook, skill, or global rule.
 - Treat this as `PILOT / SHADOW`. Promotion, merge, global activation, hook
   changes, and production-renderer changes require separate approval.
+- Human behavior gate passed on 2026-09-01. The tested artifact rule remains
+  SHADOW and workspace-local until a separate promotion decision.
 
 ## Deterministic Hook Layer (verified live-fire 2026-07-13, Codex CLI 0.144.3)
 

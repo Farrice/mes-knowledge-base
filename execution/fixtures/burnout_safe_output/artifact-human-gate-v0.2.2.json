@@ -10,7 +10,7 @@
       "pilot_case_id": "AC-006",
       "pilot_position": "Y",
       "control_response": "# Pilot Path\n\n**Goal:** Make substantial artifacts easier to absorb without touching the output system that already works.\n\n1. Lock the global behavior.\n2. Test artifact formats.\n3. Try to break them.\n4. Get human ratings.\n\n**Only then:** Decide whether to promote.\n\n**Stop:** No merge, hooks, or global activation.",
-      "ratings": {"preferred_variant": null, "notes": null}
+      "ratings": {"preferred_variant": "Y", "notes": "Approved: this is the right direction."}
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Morning Review — Artifact Comprehension v0.2.2
 
+Status: **APPROVED DIRECTION / BEHAVIOR PASS**
+
 ## Read This First
 
 You did enough last night. Two artifact patterns are already accepted. There is
@@ -37,7 +39,7 @@ force flows into ordinary replies, nuanced prose, or simple lists.
 
 ## Morning Decision
 
-- `A — This is the right direction.`
+- `A — This is the right direction.` **SELECTED 2026-09-01**
 - `B — It still needs work: [one sentence].`
 
 That is the whole review. No other ratings are needed.
@@ -46,6 +48,6 @@ That is the whole review. No other ratings are needed.
 
 - 8/8 artifact-shape fixtures pass.
 - 13/13 failure cases are caught.
-- AHG-001 and AHG-002R are accepted and frozen.
+- AHG-001, AHG-002R, and AHG-003F are accepted and frozen.
 - The branch remains workspace-only and unmerged.
 - Clear Depth, closeouts, hooks, and global Codex are unchanged.

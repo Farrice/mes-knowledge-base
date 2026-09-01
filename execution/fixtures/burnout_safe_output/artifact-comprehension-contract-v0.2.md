@@ -1,6 +1,6 @@
 # Artifact Comprehension Contract v0.2
 
-Status: `PILOT / SHADOW / MORNING HUMAN GATE PENDING`
+Status: `PILOT / SHADOW / BEHAVIOR PASS`
 
 Owner: `/system-audit`
 
@@ -71,6 +71,30 @@ Prefer the existing surfaces in this order:
 
 HTML is not the default. Plain prose is not a failure.
 
+### Intelligent Surface Selection
+
+Choose one primary surface before drafting. The user's consumption job—not the
+availability of a feature—chooses the surface.
+
+| Consumption job | Primary surface | Use when |
+|---|---|---|
+| Answer, explanation, or dialogue | Conversation | the work is immediate and not a reusable deliverable |
+| Finished reusable prose | Native writing block | the user will edit, copy, send, post, or reuse the text |
+| Durable strategy, research, audit, or playbook | Native Codex artifact | the work needs retrieval, structure, and progressive depth |
+| Real quantitative analysis | Spreadsheet plus earned chart | rows, formulas, comparisons, or trends carry the meaning |
+| Presentation-shaped story | Slides | sequence, audience delivery, and visual pacing are part of the job |
+| Live state or interactive control | Briefing Room or browser surface | controls, changing status, or multiple linked views matter |
+| Genuinely visual concept | Generated image or visual asset | composition, form, mood, or spatial understanding is the content |
+
+A writing block is not a decorative box. Use it for finished reusable writing,
+not explanations, plans, code, or ordinary conversation. A second surface is
+allowed only when it performs a distinct job; never duplicate the same artifact
+across Markdown, a writing block, slides, and a dashboard merely for variety.
+
+Surface selection remains SHADOW. It may guide workspace output, but it does
+not authorize external publishing, global changes, new tasks, paid tools, or
+unrequested export formats.
+
 ## Depth And Proof
 
 - Put the decision-bearing surface first.
@@ -98,7 +122,8 @@ The pilot must not alter:
 Round one preferred all three pilot structures: AHG-001 `Y`, AHG-002 `X`, and
 AHG-003 `Y`. Round two accepted the denser AHG-002R `Y`. Neither AHG-003R
 variant passed; its useful ingredient was the flow, not either surrounding
-list. The final gate tests one decision-bearing implementation flow.
+list. The final decision-bearing implementation flow passed as AHG-003F `Y`
+on 2026-09-01.
 
 The targeted gate passes only when each revised artifact is:
 
@@ -116,6 +141,9 @@ evidence.
 Missing ratings produce `HUMAN GATE PENDING`. Any explicit “this feels more
 systemized than useful” verdict produces `BEHAVIOR REFINEMENT REQUIRED`, even
 if the preference count is positive.
+
+Final result: `BEHAVIOR PASS`. This proves the workspace-local artifact
+behavior only; it does not authorize promotion, merge, hooks, or global changes.
 
 ## Promotion And Rollback
 

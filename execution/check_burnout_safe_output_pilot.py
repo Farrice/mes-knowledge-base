@@ -19,6 +19,8 @@ V01_HUMAN = FIXTURE_DIR / "human-behavior-gate.json"
 V02_CONTRACT = FIXTURE_DIR / "artifact-comprehension-contract-v0.2.md"
 V02_CASES = FIXTURE_DIR / "artifact-cases-v0.2.json"
 V02_SABOTAGE = FIXTURE_DIR / "artifact-sabotage-v0.2.json"
+SURFACE_CASES = FIXTURE_DIR / "surface-selection-cases-v0.2.json"
+SURFACE_SABOTAGE = FIXTURE_DIR / "surface-selection-sabotage-v0.2.json"
 V02_HUMAN_HISTORY = FIXTURE_DIR / "artifact-human-gate-v0.2.json"
 V021_HUMAN_HISTORY = FIXTURE_DIR / "artifact-human-gate-v0.2.1.json"
 V02_HUMAN = FIXTURE_DIR / "artifact-human-gate-v0.2.2.json"
@@ -34,6 +36,16 @@ EXPECTED_SHAPES = {
     "implementation", "nuance", "tiny",
 }
 HUMAN_RATING_FIELDS = ("preferred_variant", "notes")
+EXPECTED_SURFACES = {
+    "immediate_answer": "conversation",
+    "finished_reusable_prose": "writing_block",
+    "durable_knowledge": "native_artifact",
+    "dependent_execution": "native_artifact",
+    "quantitative_data": "spreadsheet",
+    "presentation_story": "slides",
+    "live_interactive_state": "briefing_room",
+    "visual_concept": "generated_visual",
+}
 FORBIDDEN_CHANGED_PATHS = {
     "AGENTS.md", "CLAUDE.md", ".codex/hooks.json",
     "directives/constitution/shared-blocks.md",
@@ -81,9 +93,11 @@ def validate_contracts() -> list[str]:
     ):
         require(phrase.lower() in v01_normalized.lower(), f"v0.1 history label missing: {phrase}")
     for phrase in (
-        "PILOT / SHADOW / MORNING HUMAN GATE PENDING",
+        "PILOT / SHADOW / BEHAVIOR PASS",
         "does not govern ordinary conversation or closeouts",
         "smallest sufficient representation wins", "Plain prose is not a failure",
+        "Intelligent Surface Selection", "A writing block is not a decorative box",
+        "Surface selection remains SHADOW",
         "Three Contextual Next Prompts", "No merge, global activation, hook change",
     ):
         require(phrase.lower() in v02_normalized.lower(), f"v0.2 contract missing: {phrase}")
@@ -295,6 +309,51 @@ def validate_corpus(corpus: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[
     return cases, corpus["frozen_boundaries"]
 
 
+def validate_surface_case(case: dict[str, Any]) -> None:
+    case_id = nonempty(case.get("id"), "surface case id")
+    shape = nonempty(case.get("content_shape"), f"{case_id} content shape")
+    for field in ("user_job", "primary_surface", "supporting_representation", "why", "avoid"):
+        nonempty(case.get(field), f"{case_id} {field}")
+    require(shape in EXPECTED_SURFACES, f"{case_id} has unknown content shape: {shape}")
+    require(
+        isinstance(case.get("primary_surface"), str),
+        f"{case_id} must choose exactly one primary surface",
+    )
+    require(
+        case["primary_surface"] == EXPECTED_SURFACES[shape],
+        f"{case_id} chose {case['primary_surface']} for {shape}",
+    )
+    require(words(case["why"]) >= 10, f"{case_id} surface rationale is too shallow")
+    require(words(case["avoid"]) >= 8, f"{case_id} lacks a useful overuse boundary")
+    lowered = f"{case['why']} {case['avoid']}".lower()
+    if shape == "finished_reusable_prose":
+        for phrase in ("explanations", "plans", "code"):
+            require(phrase in lowered, f"{case_id} writing-block boundary misses {phrase}")
+    elif shape == "dependent_execution":
+        for phrase in ("branch", "loop", "gate", "state change"):
+            require(phrase in lowered, f"{case_id} flow boundary misses {phrase}")
+    elif shape == "quantitative_data":
+        require("real" in lowered, f"{case_id} spreadsheet lacks a real-data boundary")
+    elif shape == "presentation_story":
+        require("internal memo" in lowered, f"{case_id} slides lack an overuse boundary")
+    elif shape == "live_interactive_state":
+        require("static" in lowered, f"{case_id} live surface lacks a static-document boundary")
+    elif shape == "visual_concept":
+        require("decorative" in lowered, f"{case_id} visual generation lacks a decoration boundary")
+
+
+def validate_surface_corpus(corpus: dict[str, Any]) -> list[dict[str, Any]]:
+    require(corpus.get("schema_version") == "artifact-surface-selection/v0.2", "surface corpus schema drift")
+    cases = corpus.get("cases") or []
+    require(corpus.get("required_case_count") == 8, "surface corpus must remain eight cases")
+    require(len(cases) == 8, f"expected 8 surface cases, found {len(cases)}")
+    require(len({case.get("id") for case in cases}) == 8, "surface case IDs are duplicated")
+    require({case.get("content_shape") for case in cases} == set(EXPECTED_SURFACES), "surface coverage drift")
+    for case in cases:
+        validate_surface_case(case)
+    return cases
+
+
 def validate_human_gate(human: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]) -> str:
     require("status" not in human, "v0.2 human status must be computed")
     examples = human.get("examples") or []
@@ -400,6 +459,46 @@ def run_sabotage(
     return caught
 
 
+def mutate_surface_case(case: dict[str, Any], mutation: str) -> dict[str, Any]:
+    if mutation == "box_ordinary_reply":
+        case["primary_surface"] = "writing_block"
+    elif mutation == "dashboard_static_document":
+        case["primary_surface"] = "briefing_room"
+    elif mutation == "spreadsheet_without_data":
+        case["primary_surface"] = "spreadsheet"
+    elif mutation == "slides_for_internal_plan":
+        case["primary_surface"] = "slides"
+    elif mutation == "image_replaces_reasoning":
+        case["primary_surface"] = "generated_visual"
+    elif mutation == "multiple_primary_surfaces":
+        case["primary_surface"] = ["writing_block", "native_artifact"]
+    else:
+        raise CheckFailure(f"unknown surface mutation: {mutation}")
+    return case
+
+
+def run_surface_sabotage(
+    sabotage: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]
+) -> list[str]:
+    items = sabotage.get("cases") or []
+    require(sabotage.get("required_sabotage_count") == 6, "surface sabotage count must remain six")
+    require(len(items) == 6, f"expected 6 surface sabotage cases, found {len(items)}")
+    require(len({item.get("id") for item in items}) == 6, "surface sabotage IDs are duplicated")
+    caught: list[str] = []
+    for item in items:
+        target = str(item.get("target") or "")
+        require(target in cases_by_id, f"surface sabotage target missing: {target}")
+        try:
+            validate_surface_case(
+                mutate_surface_case(copy.deepcopy(cases_by_id[target]), str(item.get("mutation")))
+            )
+        except (CheckFailure, KeyError, TypeError, ValueError):
+            caught.append(str(item.get("id")))
+        else:
+            raise CheckFailure(f"surface sabotage escaped: {item.get('id')} {item.get('mutation')}")
+    return caught
+
+
 def human_review_markdown(human: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]) -> str:
     lines = [
         "# Artifact Comprehension v0.2.2 — Morning Human Gate", "",
@@ -442,6 +541,9 @@ def main() -> int:
         human = load_json(V02_HUMAN)
         behavior_status = validate_human_gate(human, cases_by_id)
         caught = run_sabotage(load_json(V02_SABOTAGE), cases_by_id, boundary)
+        surface_cases = validate_surface_corpus(load_json(SURFACE_CASES))
+        surface_by_id = {case["id"]: case for case in surface_cases}
+        surface_caught = run_surface_sabotage(load_json(SURFACE_SABOTAGE), surface_by_id)
     except Exception as exc:  # noqa: BLE001 - one concise verifier surface.
         print("ARTIFACT COMPREHENSION SHADOW PILOT")
         print("STRUCTURAL FAIL")
@@ -457,9 +559,11 @@ def main() -> int:
         "v0.2.2_behavior_status": behavior_status,
         "fixtures": len(cases),
         "sabotage_caught": len(caught),
+        "surface_cases": len(surface_cases),
+        "surface_sabotage_caught": len(surface_caught),
         "frozen_global_behavior": True,
         "changed_paths": changed,
-        "promotion_status": "BLOCKED pending human gate and explicit approval",
+        "promotion_status": "BLOCKED pending separate explicit promotion approval",
     }
     if args.json:
         print(json.dumps(result, indent=2))
@@ -473,6 +577,7 @@ def main() -> int:
         print(f"- checks: {', '.join(contract_checks)}")
         print(f"- artifact fixtures: {len(cases)}/8")
         print(f"- sabotage: {len(caught)}/13 caught")
+        print(f"- surface selection: {len(surface_cases)}/8; sabotage: {len(surface_caught)}/6 caught")
         print(f"- changed paths: {len(changed)}; forbidden surfaces: 0")
         print("- CLEAR DEPTH / 3 NEXT PROMPTS / MERGE / GLOBAL / HOOKS UNCHANGED")
     if args.human_review:
