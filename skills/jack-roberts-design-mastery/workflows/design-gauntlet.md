@@ -70,6 +70,8 @@ Preserve screenshots under the task's existing evidence or proof directory. Do n
 
 Apply `directives/blind-bar-protocol.md`. Compare the draft and primary bar side by side. If filenames, history, or authorship would bias the judgment, use neutral labels A/B. Evaluate only traits the reference actually demonstrates: composition and eye path; typography hierarchy and rhythm; color, contrast, and material treatment; visual identity and specificity; responsive behavior and interaction polish.
 
+When the largest visible gap is compositional, run `/satori-composition-brief` as a bounded diagnosis of leverage, internal rhythm/eye path, grid commitment, movement, friction, and transfer. The primary reference remains the taste bar and Jack Roberts remains the repair owner; the Satori packet explains the composition change to make, not a new aesthetic to impose. For exact-pixel or non-layout repairs, record `Composition: SKIPPED — [reason]` and continue.
+
 For every finding, record the visible evidence and viewport/state. Critical findings are explicit: broken hierarchy, illegible text, brand violation, missing content, interaction failure, or a dominant AI-default pattern that contradicts the reference.
 
 Commit to one verdict before proposing edits:

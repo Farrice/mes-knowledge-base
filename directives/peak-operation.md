@@ -26,7 +26,7 @@ Every strong outcome today followed the same five-beat shape. Reproduce the shap
 | Substack | `/parallax` — never writers-room |
 | Refine an existing draft | `writers-room` (Layer 0 = today's zeitgeist brief / `/create` Stage 2 signals first) |
 | Health-brand client work (Path A) | Load `/claim-safe` alongside the content engine; the finalize claim-risk scan fires automatically as backstop |
-| Image/design | `/fantastic-studio` (never hand a bare prompt to a generator), `/satori-design-think` decides |
+| Image/design | `/satori-design-think` decides the concept → `/satori-composition-brief` compiles the layout grammar → `/fantastic-studio` executes (never hand a bare prompt to a generator) |
 | Deep research | `execution/research.py` (receipt-carrying), Gemini→Perplexity→floor |
 | System repair | `/system-audit`; control-plane complaints route here before expert matching |
 

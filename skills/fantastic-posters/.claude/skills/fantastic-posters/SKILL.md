@@ -39,7 +39,7 @@ Run **`/fantastic-studio`** (`workflows/00-studio.md`) to orchestrate the full p
 
 **Multi-model** (the router picks): `python3 execution/creative_router.py route --task "<direction>"`. Posters/typographic → `fal-poster` (this skill). Photoreal + people → `higgsfield-soul`. Cheap iteration → `higgsfield-nano`. Motion → `fal-kling` / `higgsfield-cinema` / `seedance-720p`.
 
-**Handoff from the design brain**: `/satori-design-think` produces a full Production Brief (hidden truth, LIFT hierarchy, color hex tokens, feeling, memory hook, anti-slop). `/fantastic-art-direct` ingests it directly — Satori is the brain, this skill is the hands.
+**Handoff from the design brain**: `/satori-design-think` produces the concept and strategic Production Brief; `/satori-composition-brief` locks leverage, internal rhythm/eye path, grid, movement, friction, and transfer adaptations for layout-bearing work. `/fantastic-art-direct` ingests both directly — Satori is the brain, this skill is the hands. Standalone non-layout imagery and locked template replications may use the companion's explicit skip path.
 
 ## Video Generation (Mode-Aware Budget Required)
 

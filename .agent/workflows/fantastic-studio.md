@@ -16,7 +16,7 @@ Execute: skills/fantastic-posters/workflows/00-studio.md
 ## Usage
 
 ```
-/fantastic-studio [brief, asset path, or a /satori-design-think Production Brief]
+/fantastic-studio [brief, asset path, or a /satori-design-think Production Brief + /satori-composition-brief]
 ```
 
 ## When to Use
@@ -32,7 +32,7 @@ seedance-1080p is hard-blocked.
 ## Related Workflows
 
 Studio stages: `/fantastic-studio` · `/fantastic-reference-ground` · `/fantastic-art-direct` · `/fantastic-divergence` · `/fantastic-model-route` · `/fantastic-prompt-compile` · `/fantastic-generate-run` · `/fantastic-critique-refine` · `/fantastic-format-pack`
-Composes the design brain: `/satori-design-think` · `/satori-concept` · `/satori-color` · `/satori-lift-audit` · `/satori-anti-ai-slop`
+Composes the design brain: `/satori-design-think` · `/satori-composition-brief` · `/satori-concept` · `/satori-color` · `/satori-lift-audit` · `/satori-anti-ai-slop`. Layout-bearing jobs inherit the composition brief before prompt compilation; standalone non-layout images and locked template replications may record an explicit skip.
 Dispatcher: `execution/creative_router.py` · Full spec: skills/fantastic-posters/workflows/00-studio.md
 
 **Execution prompts**: before producing the deliverable, check `skills/fantastic-posters/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

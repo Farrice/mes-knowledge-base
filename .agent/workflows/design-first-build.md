@@ -10,31 +10,33 @@ description: Build any visual asset
 
 1. **Gather references.** Ask the user for 2-3 websites, brands, or images that represent the vibe they want. If they don't have any, deploy `@oren` (taste development) or `@alex-copper` (creative strategy) to generate a mood direction.
 
-2. **Generate visual mockups.** Use the `generate_image` tool to create 2-3 UI mockup options for key sections (hero, cards, footer). These are NOT wireframes — they should look like finished designs with real colors, typography, and layout.
+2. **Compile the composition intelligence brief.** Run `/satori-composition-brief` after the communication problem and concept are clear. Lock the leverage point, eye path/internal rhythm, grid and one-break budget, movement/temporal beats, friction budget, and cross-format adaptations before asking a generator to improvise a layout. Skip only when the task matches the companion's explicit non-layout or locked-hierarchy cases.
 
-3. **Present options to the user.** Show the mockups and ask: "Which direction feels right? What would you change?" Iterate until they approve a direction.
+3. **Generate visual mockups.** Use the `generate_image` tool to create 2-3 UI mockup options for key sections (hero, cards, footer), constrained by the composition brief. These are NOT wireframes — they should look like finished designs with real colors, typography, and layout.
+
+4. **Present options to the user.** Show the mockups and ask: "Which direction feels right? What would you change?" Iterate until they approve a direction.
 
 > [!IMPORTANT]
 > **DO NOT write any HTML or CSS until the user explicitly approves a visual direction.** This is the single most important rule.
 
 ## Phase 2: Design System Build
 
-4. Once visual direction is approved, build the CSS design system FIRST:
+5. Once visual direction is approved, build the CSS design system FIRST:
    - Color palette (extract exact hex values from approved mockup)
    - Typography (font pairings, sizes, weights)
    - Spacing scale
    - Component patterns (cards, buttons, sections)
 
-5. Build a single "design system preview" HTML page that shows all tokens and components. Screenshot it and get user confirmation before proceeding.
+6. Build a single "design system preview" HTML page that shows all tokens and components. Screenshot it and get user confirmation before proceeding.
 
 ## Phase 3: Page Assembly
 
-6. Build pages section-by-section. After each major section:
+7. Build pages section-by-section. After each major section:
    - Take a browser screenshot
    - Compare against the approved mockup
    - Fix any drift before moving to the next section
 
-7. Full-page preview for final approval.
+8. Full-page preview for final approval.
 
 ## Skills to Deploy
 
@@ -43,6 +45,7 @@ description: Build any visual asset
 | Direction | `@oren` / `oren-taste-development` | CEV critique on reference sites, taste calibration |
 | Direction | `@alex-copper` / `alex-copper-creative-strategy` | Visual identity, brand positioning |
 | Direction | `@kittl` / `kittl-graphic-design` | Design system generation, asset creation |
+| Composition | `satori-graphics /satori-composition-brief` | Leverage, eye path, grid, temporal rhythm, friction, transfer constraints |
 | Build | `frontend-design` | Frontend patterns and component architecture |
 | QA | `@oren` / `oren-taste-development` | CEV critique on each built section |
 

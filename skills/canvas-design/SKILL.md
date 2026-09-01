@@ -10,6 +10,8 @@ Complete this in two steps:
 1. Design Philosophy Creation (.md file)
 2. Express by creating it on a canvas (.pdf file or .png file)
 
+For any canvas with several arranged elements or a required format family, run or inherit `/satori-composition-brief` between the philosophy and the visual expression. Use its leverage point, internal rhythm/eye path, grid or spatial skeleton, movement, friction, and transfer adaptations as composition constraints—not as a surface style. A single-subject artwork without a meaningful layout problem may record a valid skip.
+
 First, undertake this task:
 
 ## DESIGN PHILOSOPHY CREATION
