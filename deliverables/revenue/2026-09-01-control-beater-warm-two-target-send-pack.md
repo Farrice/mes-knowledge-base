@@ -29,17 +29,23 @@
 
 #### Full LinkedIn DM
 
-> Yasir, “morning, noon or night, at the gym, at your desk or on the go” made me smile.
+> Yasir, your “morning, noon or night” line made me smile.
 >
-> That is a strong product sentence and about five different ad tests hiding in one paragraph. I spent 18 years training the people buying products in this category, so I tend to notice where useful variety can turn into creative blur.
+> That’s a strong product line. It’s also about five different ad tests hiding in one paragraph.
 >
-> I built a $500 prepaid pilot for that: five static concepts and one video concept, each tied to one clear hypothesis, delivered in 72 hours after I have the current control and approved product sources.
+> I spent 18 years training the people buying products in this category. You start to notice this stuff pretty fast.
 >
-> If Lumen has one Meta control you want a fresh round against, I’ll send the five-question fit screen. No pitch call needed.
+> That’s why I built a $500 prepaid pilot for this kind of problem. Five static concepts and one video concept. Each tests one clear hypothesis.
+>
+> Turnaround is 72 hours once I have complete inputs, including the current control and approved product sources.
+>
+> If Lumen has one Meta control you want a fresh round against, I can send over the five-question fit screen.
+>
+> No pitch call needed.
 
 #### If LinkedIn only permits a connection note
 
-> Yasir, your “morning, noon or night” line made me smile. Strong product sentence, and about five ad tests hiding in one paragraph. I spent 18 years training supplement buyers and built a $500 control-beater pilot for that. Open to the five-question fit screen?
+> Yasir, “morning, noon or night” made me smile. Strong product line. Also about five ad tests hiding in one paragraph. I spent 18 years training supplement buyers and built a $500 Control-Beater for this kind of problem. If Lumen has a Meta control, I can send the five-question fit screen.
 
 ### 2. Kieran Mathew, CEO of Equip Foods
 
@@ -52,17 +58,25 @@
 
 #### Full LinkedIn DM
 
-> Kieran, building grass-fed beef into a third protein category is a sharp bet.
+> Kieran, making grass-fed beef the third protein category is a real bet.
 >
-> The Whole Foods launch gives it a harder job: win over someone who had no intention of shopping for beef protein five minutes earlier. Honestly, that is a much better creative problem than making another chocolate whey ad look new.
+> The Whole Foods launch makes the creative job harder. You have to win over someone who had no plans to buy beef protein five minutes earlier.
 >
-> I spent 18 years training the people buying products in this category. I built a $500 prepaid pilot for this kind of question: five static concepts and one video concept, each tied to one clear hypothesis, delivered in 72 hours after I have the current control and approved product sources.
+> Honestly, that’s a much better problem than trying to make another chocolate whey ad look new.
 >
-> If Equip has one Meta control you want an outside round against, I’ll send the five-question fit screen. No pitch call needed.
+> I spent 18 years training the people buying products in this category. You start to notice this stuff pretty fast.
+>
+> That’s why I built a $500 prepaid pilot for this kind of problem. Five static concepts and one video concept. Each tests one clear hypothesis.
+>
+> Turnaround is 72 hours once I have complete inputs, including the current control and approved product sources.
+>
+> If Equip has one Meta control you want an outside round against, I can send over the five-question fit screen.
+>
+> No pitch call needed.
 
 #### If LinkedIn only permits a connection note
 
-> Kieran, Whole Foods is asking Prime Protein to create a third protein category, not just beat another whey ad. I spent 18 years training supplement buyers and built a $500 control-beater pilot for that kind of test. Open to the five-question fit screen?
+> Kieran, making grass-fed beef the third protein category is a real bet. Whole Foods makes that creative job harder. I spent 18 years training supplement buyers and built a $500 Control-Beater for it. If Equip has a Meta control, I can send the five-question fit screen.
 
 ## Why these do not read like cold pitches
 
