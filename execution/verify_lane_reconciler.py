@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import tempfile
 import time
+import sys
 from pathlib import Path
 from unittest.mock import patch
 
@@ -82,6 +83,24 @@ def main() -> int:
         check(result["results"][0]["action"] == "merged",
               "quiet conflict-free lane delegates to audited merge")
         check("--no-push" in calls[0], "unattended reconciliation never pushes remote state")
+
+    parsed_push_modes: list[bool] = []
+
+    def capture_merge_args(args) -> int:
+        parsed_push_modes.append(args.no_push)
+        return 0
+
+    with patch.object(wtl, "cmd_merge", side_effect=capture_merge_args), \
+         patch.object(sys, "argv", ["worktree_lane.py", "merge", "--dry-run"]):
+        wtl.main()
+    with patch.object(wtl, "cmd_merge", side_effect=capture_merge_args), \
+         patch.object(sys, "argv", ["worktree_lane.py", "merge", "--push", "--dry-run"]):
+        wtl.main()
+    with patch.object(wtl, "cmd_merge", side_effect=capture_merge_args), \
+         patch.object(sys, "argv", ["worktree_lane.py", "merge", "--no-push", "--dry-run"]):
+        wtl.main()
+    check(parsed_push_modes == [True, False, True],
+          "manual merge is local-only by default and remote push requires --push")
 
     with patch.object(lr, "lanes", return_value=lane()), \
          patch.object(lr, "load_registry", return_value={}), \
