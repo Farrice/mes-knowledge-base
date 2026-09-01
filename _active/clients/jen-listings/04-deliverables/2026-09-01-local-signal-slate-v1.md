@@ -129,7 +129,7 @@ other hooks:
 ### carousel · 7 slides · warm editorial look
 
 1. **the insurance quote comes before the offer now.** · *what october 15 changes* · masthead: @_jiing · first-time buyer file
-2. **oct 15, 2026** · the california FAIR plan rises **29.1%** on average. weighted to wildfire. · oversized numeral · small print: california dept of insurance
+2. **oct 15, 2026** · the california FAIR plan rises **29.1%** on average. weighted to wildfire exposure. some homes see far more than the average. some see less. · oversized numeral · small print: california dept of insurance
 3. **01 who it hits.** · hillside, canyon, foothill. sherman oaks hills, woodland hills, chatsworth, the sylmar fringe. · hairline list
 4. *(navy slide)* **02 who it mostly doesn't.** · the valley floor. most homes still get a regular carrier. get the real quote anyway... it's part of the payment.
 5. **03 the date detail.** · a policy effective before oct 15 is generally written at today's rate for its term. on or after: new rate from day one. · two-panel: before / after

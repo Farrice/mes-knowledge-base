@@ -182,7 +182,7 @@ slides["C1S5"] = page(f'''{eyebrow("03 · THE MASTER INSURANCE")}
 
 slides["C1S6"] = page(f'''{eyebrow("04 · WHO'S BEHIND ON DUES")}
 {bignum("15", "%")}
-{headline("of units 60+ days late and the whole building is non-warrantable.", size=56)}
+{headline("or more of units 60+ days late and the whole building is non-warrantable.", size=56)}
 {body("every owner's loan. not just yours.")}''',
     6, "DELINQUENCY THRESHOLD")
 
