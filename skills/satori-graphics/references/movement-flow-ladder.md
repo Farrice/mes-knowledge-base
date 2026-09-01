@@ -102,7 +102,7 @@ Movement is not one thing. It is a 6-level hierarchy. Pick the level that fits t
 
 ---
 
-### Level 6 — Temporal Flow (Beats — Impact / Linger / Release)
+### Level 6 — Temporal Flow (Four Beats — Punch / Slow / Pull / Release)
 
 **Mechanism**: Controlling the rhythm of how long the eye lingers, when it accelerates, when it pauses
 **When to use**:
@@ -160,7 +160,7 @@ You can use multiple levels in one design — but make one *primary*.
 | LIFT dimension | Movement level alignment |
 |---|---|
 | **Leverage point** | Movement starts here — Level 1's "where the arrow points," Level 6's "punch" |
-| **Eye choreography** | Movement is the *operative discipline* — choose the level for the brief |
+| **Internal rhythm** | Eye choreography is the *operative mechanism* — choose the movement level for the brief |
 | **Friction & flow** | Friction zones live at Level 5 disruptions; flow zones at Levels 2-3 |
 | **Transferability** | Higher levels (5-6) often degrade at thumbnail; test at small sizes |
 

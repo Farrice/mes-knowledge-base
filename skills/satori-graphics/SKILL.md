@@ -1,9 +1,9 @@
 ---
 name: "Satori Graphics: Design-Thinking + Composition + Color Engine"
-description: "The design-thinking brain: originates concepts and color systems, then engineers composition, layout, logo, and design psychology. Starts from the communication problem and the audience's perception — not the layout. v2 adds the generative layer (concept engine, strategic color, end-to-end production pipeline); v3 adds the layout & contrast layer (three-flow spine, 9-form contrast stack, directional hierarchy, front-end flow bridge)."
-version: "3.0"
+description: "The design-thinking brain: originates concepts and color systems, then engineers composition, layout, logo, and design psychology. Starts from the communication problem and the audience's perception — not the layout. v2 adds the generative layer; v3 adds the layout and contrast layer; v3.1 adds a source-grounded composition conductor and shared design inheritance contract."
+version: "3.1"
 format: "completion-engine"
-workflows: 26
+workflows: 27
 tier: "mastery"
 ---
 
@@ -11,7 +11,7 @@ tier: "mastery"
 
 > **Design is decision-making before it is expression.** Every Satori framework forces decisions before output — communication-problem forces purpose, hidden-truth forces concept, one-sentence brief forces clarity, 5-layer color forces strategy, LIFT forces hierarchy, flip-test forces structural honesty.
 >
-> Source: Satori Graphics YouTube masterclass series — v1 (~10,652 words, 4 videos: psychology mindsets, composition + layout, logo, professional principles) + v2 (2026-07-04, ~7,800 words, 5 videos: high-level design thinking, color full-guide, creative-concept techniques, high-vs-low-level mindsets, design business) + v3 (2026-07-21, ~4,900 words, 1 layout-course video — the first source actually WATCHED: 127 frames read, 17 exemplar frames archived in `extractions/satori-graphics/expansion-2026-07-21/frames/`).
+> Source: Satori Graphics YouTube masterclass series — v1 (~10,652 words, 4 videos: psychology mindsets, composition + layout, logo, professional principles) + v2 (2026-07-04, ~7,800 words, 5 videos: high-level design thinking, color full-guide, creative-concept techniques, high-vs-low-level mindsets, design business) + v3 (2026-07-21, ~4,900 words, 1 layout-course video watched with 127 frames and 17 archived exemplars) + v3.1 (2026-08-31, exact source `PKfZ1gnVJ44` re-watched end-to-end with transcript, 83 reviewed frames, and 16 archived composition exemplars).
 
 **Core Capabilities:**
 - **Originate concepts** via the 7-technique creative engine — hidden-truth, one-big-idea, audience-language, literal, what-if, tiny-detail, emotion-over-info *(v2)*
@@ -23,7 +23,8 @@ tier: "mastery"
 - **Stack contrast deliberately** — 9 forms × 3 tiers, double-whammy zones, count-the-contrasts audit *(v3)*
 - **Wire paths of importance** — gaze lines, angled shapes, light/shadow directional hierarchy *(v3)*
 - **Bridge to front-end** — page-level beat maps (punch/linger/release), behavioral contrast, DESIGN.md-ready notes *(v3)*
-- Audit any layout against the LIFT system (Leverage / Eye / Friction / Transferability)
+- **Compile a production-ready composition brief** — leverage, eye path, grid, temporal rhythm, friction budget, and cross-format adaptation *(v3.1)*
+- Audit any layout against the LIFT system (Leverage / Internal Rhythm / Friction & Flow / Transferability)
 - Engineer movement at the right level (1-6 from directional cues to temporal flow)
 - Select grids from an 11-type taxonomy with explicit breakage rules
 - Develop logo concepts from verbs (not nouns) with locked visual primitives
@@ -92,6 +93,7 @@ tier: "mastery"
 | 24 | [Gaze Path](workflows/24-gaze-path.md) | Per-leg directional wiring (gaze/shapes/light) + refused salience defaults | Arrow-free flow; imagery selection by pointing direction |
 | 25 | [Expectation Flip](workflows/25-expectation-flip.md) | One norm-inversion (psychology/emotion/concept) with service gate | Memorability briefs; category conventions = invisibility |
 | 26 | [**Frontend Flow** ⭐](workflows/26-frontend-flow.md) | Page beat map (punch/linger/release) + behavioral contrast + DESIGN.md notes | Any web surface, pre-build; fixing generic AI front-end |
+| 27 | [**Composition Intelligence Brief** ⭐](workflows/27-composition-intelligence-brief.md) | Pre-production leverage/path/grid/rhythm/friction/transfer packet | Any taste-bearing layout before styling, generation, mockups, or code |
 
 ---
 
@@ -99,6 +101,7 @@ tier: "mastery"
 
 | Want this | Run | Then run |
 |---|---|---|
+| **Any taste-bearing layout before production** | `/satori-composition-brief` | Native executor: Kittl / generation / frontend build; first visible artifact returns to human taste review |
 | **Any full design, concept → output** | `/satori-design-think` | Hand off to `/fantastic-posters` / `/art-direct` / `/product-build` (cost-gated generation) |
 | **Any layout from scratch (v3 spine)** | `/satori-three-flow` → `/satori-gaze-path` → `/satori-contrast-stack` | `/satori-grid-select` for cells; `/satori-perception-gap` to verify |
 | **Non-generic front-end / landing page** | `/satori-frontend-flow` | `frontend-design` skill or `/product-build` executes; `/satori-contrast-audit` re-audits the build |
@@ -157,7 +160,7 @@ See [genius.md](genius.md) for full context. GP-13 to GP-17 are the v2 generativ
 | GP-03 | Memory Encoding (Resolve-Something) | Whisper a question, don't deliver an answer |
 | GP-04 | Movement Ladder (6 levels) | Pick the right level for the brief; default to L2-3 |
 | GP-05 | Grid Taxonomy (11+ types) | Pick by purpose, not default; budget 1 break per layout |
-| GP-06 | LIFT System | Leverage / Eye / Friction / Transferability — sequenced disciplines |
+| GP-06 | LIFT System | Leverage / Internal Rhythm / Friction & Flow / Transferability — sequenced disciplines |
 | GP-07 | Verb-Not-Noun (Logo) | Start from what the brand *does*, not what it *is* |
 | GP-08 | One-Sentence Brief | Reduce the entire brief to one declarative sentence |
 | GP-09 | Visual Primitive Lock-In | Lock the line type / geometry before designing |
@@ -188,13 +191,14 @@ A Satori-grade design earns ≥8/10 on each of 10 core criteria; **generative wo
 | [references/movement-flow-ladder.md](references/movement-flow-ladder.md) | 6 levels, when-to-use guidance, stacking rules + **(v3)** watched visual exemplars |
 | [references/source-quotes.md](references/source-quotes.md) | Verbatim Satori source material for grounding (v1 + v2 + v3) |
 | [references/cross-domain-transfer-map.md](references/cross-domain-transfer-map.md) | How Satori frameworks transfer to copywriting, sequences, naming, voice, editing |
+| [Layout & Composition Intelligence Contract](../../semantic_libraries/antigravity/primitives/layout-composition-intelligence-contract.md) | Shared SHADOW activation, skip, ownership, and promotion boundaries |
 
 ---
 
 ## Quick Reference
 
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
-- **Start a real design here**: `/satori-design-think` (full pipeline) or `/satori-concept` (ideation) — v2 generative front doors
+- **Start a real design here**: `/satori-design-think` for the concept, then `/satori-composition-brief` before layout-bearing production
 - **Decision Reference**: [references/lift-system-decision-criteria.md](references/lift-system-decision-criteria.md) — LIFT scoring + edge cases
 - **Source-of-truth**: `extractions/satori-graphics/extraction-report.md` (v1) + `extractions/satori-graphics/expansion-2026-07-04/` (v2 transcripts)
 
@@ -214,15 +218,17 @@ A Satori-grade design earns ≥8/10 on each of 10 core criteria; **generative wo
    - Friction & flow = tension/release (standard editorial vocabulary)
    - Transferability = scalability / system design (Vignelli)
    Satori's contribution is the LIFT acronym, the sequenced four-step audit, the 1-10 anchored scoring rubric per dimension, and the veto rule (any dimension ≤4 caps composite at C). Workflows attribute LIFT as Satori's audit pattern over canonical disciplines — not as discovered theory.
+5. **Exact composition source (v3.1)**: `PKfZ1gnVJ44` is archived at `extractions/satori-graphics/expansion-2026-08-31-layout-composition-intelligence/` with transcript, evidence ledger, uncertainty report, and 16 inspected frames. Speaker estimates such as “99% of designers” remain source claims. Golden-ratio brand examples are optional heuristics, not independently verified provenance or mandatory rules.
 
 <!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py — do not hand-edit; re-run to refresh) -->
 
 ## Execution Prompts (structure-pure v2)
 
-22 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+23 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Anti-AI-Slop Spec — [layout name]** — `skills/satori-graphics/references/prompts-v2/anti-ai-slop-plan.md`
 - **Comms Brief — [design name]** — `skills/satori-graphics/references/prompts-v2/comms-brief-intake.md`
+- **Satori Graphics — Composition Intelligence Brief** — `skills/satori-graphics/references/prompts-v2/composition-intelligence-brief.md`
 - **Concept Directions — [project name]** — `skills/satori-graphics/references/prompts-v2/concept-engine-directions.md`
 - **Contrast Audit — [design name]** — `skills/satori-graphics/references/prompts-v2/contrast-audit-report.md`
 - **Contrast Stack — [design name]** — `skills/satori-graphics/references/prompts-v2/contrast-stack-spec.md`

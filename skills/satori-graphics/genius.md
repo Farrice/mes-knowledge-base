@@ -95,7 +95,7 @@ Movement is not one thing. It is a 6-level hierarchy. Pick the level that fits t
 | 3 | **Multiple flows** | Main route + micro-routes | Rich content, longer dwell, exploration |
 | 4 | **Implied motion** | Repetition, scaling, blur, gradient | Static feels alive without animation |
 | 5 | **Flow disruption** | Strategic rotated/blocking element | Slow viewer at key message, add tension |
-| 6 | **Temporal flow** | Beats — impact / linger / release | Master-tier; rhythm like music |
+| 6 | **Temporal flow** | Beats — punch / slow / pull / release | Master-tier; rhythm like music |
 
 > *"99% of designers don't consider this temporal flow of time."*
 
@@ -123,14 +123,14 @@ Grids are domain-specific. Pick by purpose, not default. Establish the grid → 
 
 ---
 
-### GP-06 — LIFT System (Leverage / Eye / Friction / Transferability)
+### GP-06 — LIFT System (Leverage / Internal Rhythm / Friction & Flow / Transferability)
 Satori's acronym and sequenced audit pattern over four canonical composition disciplines. Each component is foundational design theory (focal-point dominance, eye-flow choreography, tension/release, scalability — taught in Müller-Brockmann, Lupton, Tschichold, Vignelli). Satori's contribution is the LIFT acronym, the sequenced four-step audit, and the 1-10 anchored scoring rubric per dimension.
 
 **L — Leverage Point**
 The single most important element, dominated via scale / contrast / positioning / isolation. A stranger should name it in <2 seconds.
 
-**I — Eye Choreography (Internal Rhythm)**
-The journey from leverage point through supporting elements is choreographed, not accidental. Predictable spacing builds trust; deliberate disruption re-engages attention.
+**I — Internal Rhythm (executed through eye choreography)**
+The journey from leverage point through supporting elements is choreographed, not accidental. Predictable spacing builds trust; deliberate disruption re-engages attention. Internal Rhythm is the source-original LIFT dimension; eye choreography is the operating mechanism.
 
 **F — Friction & Flow**
 *Good friction* (tight leading on a quote, blur reinforcing theme, a rotated block) serves emphasis. *Bad friction* (too many fonts, competing focal points) is noise. Smooth-reading zones release tension.

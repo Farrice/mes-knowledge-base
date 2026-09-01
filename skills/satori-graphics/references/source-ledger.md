@@ -14,6 +14,7 @@
 | S6 | `extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt` — v2 Video 4 (creative concept engine) | 9,059 bytes | VERIFIED (read in full) |
 | S7 | `extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt` — v2 Video 5 (perception gap) | 9,564 bytes | VERIFIED (read in full) |
 | S8 | `skills/satori-graphics/references/source-quotes.md` — pre-existing curated verbatim quote file (v1 + v2), already shipped with the skill | 17,106 bytes | VERIFIED (all quotes cross-checked against S2–S7 where a raw transcript exists; see gap note below) |
+| S9 | `extractions/satori-graphics/expansion-2026-08-31-layout-composition-intelligence/` — exact video `PKfZ1gnVJ44`, full caption transcript, 83 reviewed frames, 16 archived exemplars, timestamped evidence ledger | source package | VERIFIED (watched and ledgered 2026-08-31) |
 
 ## Claim → Source Map (repair-added anchors only)
 
@@ -43,7 +44,7 @@ Every anchor added in this repair pass traces to S8 (`source-quotes.md`) at mini
 
 ## Known Gap (honest disclosure, not new to this repair)
 
-The v1 series is billed as "4 videos, 10,652 words" (extraction-report.md, S1), but only **one** raw per-video transcript survives under `extractions/satori-graphics/` — `transcript.txt`, which is Video 4 (1,853 words, confirmed by word count match). Raw transcripts for v1 Videos 1–3 (psychology mindsets, composition + layout, logo design guide) are **not present** as separate files; their content survives only as paraphrase + embedded verbatim quotes inside S1 (`extraction-report.md`) and the pre-existing curated file S8 (`source-quotes.md`).
+The v1 series is billed as "4 videos, 10,652 words" (extraction-report.md, S1). S9 now restores raw transcript and visual context for the exact composition/layout source `PKfZ1gnVJ44`. Raw per-video transcripts for the other v1 psychology/logo sources still do not survive as separate files; their content remains paraphrase + embedded verbatim quotes inside S1 and S8.
 
 Quotes used in this repair that trace ONLY to S1/S8 (no raw-transcript confirmation available) — labeled **LIKELY** rather than VERIFIED:
 - "The meaning should come way, way before the aesthetic in your process... throwing confetti at a layout" (Video 2)

@@ -1,0 +1,836 @@
+[00:02] Welcome to the only guide you need on composition and layout as a graphic
+[00:03] composition and layout as a graphic designer this year. And you are going to
+[00:05] designer this year. And you are going to learn a lot today with this video,
+[00:07] learn a lot today with this video, probably more than you expect. And that
+[00:09] probably more than you expect. And that starts with something about the
+[00:10] starts with something about the different levels of movement and flow on
+[00:12] different levels of movement and flow on a design. Let's get it.
+[00:15] a design. Let's get it. In the realm of graphic design
+[00:16] In the realm of graphic design principles, the very first and most
+[00:19] principles, the very first and most fundamental level of movement and flow
+[00:21] fundamental level of movement and flow is simply directing visual guidance.
+[00:24] is simply directing visual guidance. But let's take a look. In our starting
+[00:26] But let's take a look. In our starting poster today, we have a bold headline in
+[00:29] poster today, we have a bold headline in the top left. And this is the natural
+[00:31] the top left. And this is the natural place for the eye to start in the
+[00:33] place for the eye to start in the left-to-right reading cultures.
+[00:35] left-to-right reading cultures. But below that, a large geometric arrow
+[00:38] But below that, a large geometric arrow points diagonally down to a secondary
+[00:41] points diagonally down to a secondary block in the bottom right, the CTA.
+[00:44] block in the bottom right, the CTA. Here, your brain obviously doesn't need
+[00:46] Here, your brain obviously doesn't need instructions. It sees the bold element,
+[00:48] instructions. It sees the bold element, and then it just follows the arrow
+[00:50] and then it just follows the arrow instinctively.
+[00:51] instinctively. It doesn't have to be something as
+[00:53] It doesn't have to be something as stupidly obvious as an arrow, though.
+[00:55] stupidly obvious as an arrow, though. Just something that acts as a bridge or
+[00:57] Just something that acts as a bridge or a path, as such.
+[00:59] a path, as such. This is the most obvious and literal
+[01:01] This is the most obvious and literal form of movement in graphic design. But
+[01:04] form of movement in graphic design. But why does it work?
+[01:05] why does it work? Well, it works because the human eye
+[01:07] Well, it works because the human eye instinctively follows directional cues.
+[01:09] instinctively follows directional cues. You'll see it in everything from
+[01:11] You'll see it in everything from wayfinding signage in airports to sports
+[01:13] wayfinding signage in airports to sports adverts where the athlete's gaze, or
+[01:16] adverts where the athlete's gaze, or maybe a part of their body, points
+[01:18] maybe a part of their body, points towards the logo or a specific part of
+[01:20] towards the logo or a specific part of the design.
+[01:22] the design. At this level, movement is about raw and
+[01:24] At this level, movement is about raw and obvious clarity.
+[01:26] obvious clarity. You're telling the eye exactly where to
+[01:28] You're telling the eye exactly where to go, simple and, of course,
+[01:31] go, simple and, of course, straightforward.
+[01:32] straightforward. But we are going to steadily move into
+[01:34] But we are going to steadily move into more advanced teachings in this video
+[01:36] more advanced teachings in this video with each different level.
+[01:39] with each different level. So, once you've mastered simple basic
+[01:41] So, once you've mastered simple basic direction, the next step is to use
+[01:43] direction, the next step is to use hierarchy to create a natural flow
+[01:46] hierarchy to create a natural flow without relying on arrows or obvious
+[01:48] without relying on arrows or obvious lines. And it's easier to achieve than
+[01:50] lines. And it's easier to achieve than you might think.
+[01:52] you might think. So, on our poster, I'm adding a
+[01:54] So, on our poster, I'm adding a medium-size subheading and a smaller
+[01:57] medium-size subheading and a smaller detail at the bottom of it. And the
+[01:59] detail at the bottom of it. And the arrow has been completely banished as
+[02:01] arrow has been completely banished as you can see.
+[02:02] you can see. Now, instead of jumping straight from
+[02:05] Now, instead of jumping straight from the headline to the CTA at the bottom
+[02:07] the headline to the CTA at the bottom right, your eye actually stops in the
+[02:09] right, your eye actually stops in the middle before continuing.
+[02:12] middle before continuing. This happens because of visual weight.
+[02:14] This happens because of visual weight. Larger, bolder elements are seen first,
+[02:17] Larger, bolder elements are seen first, then medium elements, and then the
+[02:19] then medium elements, and then the smaller ones.
+[02:21] smaller ones. It's like a gravitational pull where
+[02:23] It's like a gravitational pull where size and contrast dictate order on a
+[02:25] size and contrast dictate order on a graphic design.
+[02:27] graphic design. But the question you might have is, why?
+[02:30] But the question you might have is, why? Why is this needed or why is this even a
+[02:32] Why is this needed or why is this even a thing?
+[02:33] thing? Well, the benefit of hierarchy driven
+[02:35] Well, the benefit of hierarchy driven flow is that it feels effortless.
+[02:38] flow is that it feels effortless. You don't have to draw an arrow because
+[02:40] You don't have to draw an arrow because the composition itself creates an
+[02:42] the composition itself creates an invisible one.
+[02:44] invisible one. Think of editorial layouts in magazines
+[02:47] Think of editorial layouts in magazines or minimal poster designs where there's
+[02:48] or minimal poster designs where there's no decoration at all. Yet, your eye, on
+[02:52] no decoration at all. Yet, your eye, on a good design, still travels in a
+[02:53] a good design, still travels in a deliberate sequence top down.
+[02:56] deliberate sequence top down. This is where movement becomes more
+[02:58] This is where movement becomes more sophisticated.
+[03:00] sophisticated. The viewer doesn't feel directed on a
+[03:02] The viewer doesn't feel directed on a conscious level, but they're still being
+[03:04] conscious level, but they're still being guided. Being guided by you, the
+[03:07] guided. Being guided by you, the designer.
+[03:09] designer. And this is only stage two in today's
+[03:11] And this is only stage two in today's video.
+[03:12] video. So, at stage three, we're adding a touch
+[03:15] So, at stage three, we're adding a touch of complexity.
+[03:17] of complexity. Movement doesn't have to be one single
+[03:19] Movement doesn't have to be one single journey from point A to point B.
+[03:22] journey from point A to point B. You can have multiple flows running at
+[03:24] You can have multiple flows running at once on a single design. A main route
+[03:27] once on a single design. A main route and then smaller micro routes.
+[03:31] and then smaller micro routes. So, zooming into our central section,
+[03:33] So, zooming into our central section, I'm adding smaller type blocks and
+[03:34] I'm adding smaller type blocks and elements that pull the eye into a kind
+[03:37] elements that pull the eye into a kind of short loop before reconnecting to the
+[03:39] of short loop before reconnecting to the main path.
+[03:41] main path. This creates a kind of exploration
+[03:43] This creates a kind of exploration moment. The viewer takes a side road,
+[03:45] moment. The viewer takes a side road, processes extra detail, and then returns
+[03:48] processes extra detail, and then returns to the main path.
+[03:50] to the main path. It's kind of like fractals in nature
+[03:52] It's kind of like fractals in nature where we have smaller movement and flows
+[03:54] where we have smaller movement and flows within a main movement and flow.
+[03:57] within a main movement and flow. The advantage here is time on a design.
+[03:59] The advantage here is time on a design. By giving people more than one visual
+[04:01] By giving people more than one visual path, you keep them looking for longer.
+[04:05] path, you keep them looking for longer. But of course, this will depend on your
+[04:06] But of course, this will depend on your brief and what content you've been given
+[04:08] brief and what content you've been given to work with. This is just a clear
+[04:10] to work with. This is just a clear example for you guys today.
+[04:12] example for you guys today. But the trick is to balance the strength
+[04:14] But the trick is to balance the strength of the secondary flows so they don't
+[04:16] of the secondary flows so they don't overpower the main one. But it can go
+[04:18] overpower the main one. But it can go totally and drastically wrong.
+[04:21] totally and drastically wrong. Some designers might use too many
+[04:23] Some designers might use too many competing paths and the design might end
+[04:25] competing paths and the design might end up feeling chaotic.
+[04:27] up feeling chaotic. But done correctly, layered paths give
+[04:29] But done correctly, layered paths give your work a richness and a depth that
+[04:31] your work a richness and a depth that actually rewards multiple different
+[04:33] actually rewards multiple different viewings. Now, we get into the
+[04:35] viewings. Now, we get into the psychological side of movement. Implied
+[04:38] psychological side of movement. Implied motion is when a still design makes the
+[04:40] motion is when a still design makes the viewer feel like something is actually
+[04:42] viewer feel like something is actually moving in some way. And it happens all
+[04:44] moving in some way. And it happens all the time and it's not difficult to do
+[04:45] the time and it's not difficult to do either. This can be achieved with
+[04:47] either. This can be achieved with repetition, progressive scaling,
+[04:50] repetition, progressive scaling, blurring, or even directional patterns.
+[04:53] blurring, or even directional patterns. So, imagine our poster's background
+[04:54] So, imagine our poster's background gaining a faint directional pattern that
+[04:56] gaining a faint directional pattern that tapers off at one edge. Your brain reads
+[04:59] tapers off at one edge. Your brain reads this as acceleration.
+[05:02] this as acceleration. It could even be something as simple as
+[05:04] It could even be something as simple as a gradient from top to bottom with a
+[05:06] a gradient from top to bottom with a texture added.
+[05:08] texture added. Or think about photography in editorial
+[05:10] Or think about photography in editorial design. A dancer's frozen leap. Fabric
+[05:13] design. A dancer's frozen leap. Fabric caught mid-swing. Or water splashing
+[05:16] caught mid-swing. Or water splashing around a product shot.
+[05:18] around a product shot. Even in brutalist design, you can
+[05:20] Even in brutalist design, you can actually create implied motion with
+[05:22] actually create implied motion with repeated geometric forms. Ones that get
+[05:25] repeated geometric forms. Ones that get tighter or looser across a composition.
+[05:28] tighter or looser across a composition. The key here is suggestion. You're not
+[05:30] The key here is suggestion. You're not physically moving anything, but you're
+[05:33] physically moving anything, but you're making the viewer's eye behave as if it
+[05:35] making the viewer's eye behave as if it is.
+[05:36] is. This is particularly powerful in static
+[05:38] This is particularly powerful in static media because it makes the design feel
+[05:40] media because it makes the design feel more alive without actually using any
+[05:42] more alive without actually using any animation.
+[05:45] animation. So far, movement and flow has been about
+[05:47] So far, movement and flow has been about actually dictating the journey.
+[05:50] actually dictating the journey. But sometimes in graphic design, we need
+[05:51] But sometimes in graphic design, we need to kind of disrupt that journey.
+[05:55] to kind of disrupt that journey. Now, I'm adding a bold rotated black
+[05:57] Now, I'm adding a bold rotated black square with a red motif right across our
+[05:59] square with a red motif right across our main flow path.
+[06:01] main flow path. At first, it might look like it's a
+[06:03] At first, it might look like it's a mistake, you know, something blocking
+[06:05] mistake, you know, something blocking the way here.
+[06:06] the way here. But that is the point.
+[06:08] But that is the point. Your eye hits it, it pauses, and then it
+[06:11] Your eye hits it, it pauses, and then it has to find its way around it somehow.
+[06:14] has to find its way around it somehow. That pause actually forces
+[06:16] That pause actually forces re-engagement.
+[06:18] re-engagement. Notice how the square is rotated at 45°,
+[06:21] Notice how the square is rotated at 45°, and that makes it look even more
+[06:23] and that makes it look even more disjointing compared to the rest of the
+[06:25] disjointing compared to the rest of the layout.
+[06:26] layout. And that's not a mistake or fluke, it's
+[06:28] And that's not a mistake or fluke, it's done intentionally on purpose to add
+[06:30] done intentionally on purpose to add even more disruption.
+[06:32] even more disruption. Flow disruption works because the brain
+[06:34] Flow disruption works because the brain doesn't like unresolved paths.
+[06:36] doesn't like unresolved paths. If something interrupts a journey, we
+[06:39] If something interrupts a journey, we instinctively try to work it out.
+[06:41] instinctively try to work it out. Now, you can use this to slow the viewer
+[06:43] Now, you can use this to slow the viewer down at key messages or key points, or
+[06:46] down at key messages or key points, or to make the design feel more dynamic and
+[06:48] to make the design feel more dynamic and less predictable.
+[06:50] less predictable. It is a high-level move that requires
+[06:51] It is a high-level move that requires intention, not done randomly.
+[06:54] intention, not done randomly. So, if you do it deliberately, it can
+[06:56] So, if you do it deliberately, it can become a tension point that makes the
+[06:58] become a tension point that makes the design more memorable or even allude to
+[07:00] design more memorable or even allude to a specific point.
+[07:03] a specific point. So, at the ultimate stage, movement
+[07:05] So, at the ultimate stage, movement isn't just about where the eye goes,
+[07:07] isn't just about where the eye goes, it's about when the eye goes there and
+[07:09] it's about when the eye goes there and how long for.
+[07:11] how long for. This is called temporal flow,
+[07:13] This is called temporal flow, controlling the rhythm of how long the
+[07:16] controlling the rhythm of how long the eye lingers, when it accelerates, and
+[07:19] eye lingers, when it accelerates, and when it pauses.
+[07:20] when it pauses. It is kind of like conducting music but
+[07:22] It is kind of like conducting music but with visuals.
+[07:25] with visuals. So, perfect examples would be in luxury
+[07:28] So, perfect examples would be in luxury fashion advertising.
+[07:29] fashion advertising. Think of notorious magazine spreads. You
+[07:32] Think of notorious magazine spreads. You have a full bleed image of a model with
+[07:34] have a full bleed image of a model with a sharp gaze. That's a fast hit.
+[07:37] a sharp gaze. That's a fast hit. Followed by the layered details like
+[07:39] Followed by the layered details like jewelry, fabric texture, or copy set in
+[07:42] jewelry, fabric texture, or copy set in fine serif fonts.
+[07:44] fine serif fonts. This is where the eye may slow down and
+[07:46] This is where the eye may slow down and scan a bit.
+[07:48] scan a bit. Then a stark white space at the bottom
+[07:51] Then a stark white space at the bottom where the logo sits alone. That's the
+[07:53] where the logo sits alone. That's the pulse.
+[07:55] pulse. So, that sequence forces the viewer
+[07:57] So, that sequence forces the viewer through different beats. Impact, linger,
+[07:59] through different beats. Impact, linger, release.
+[08:01] release. Or take Apple's product pages. The
+[08:03] Or take Apple's product pages. The opening hero image hits you hard and
+[08:05] opening hero image hits you hard and fast.
+[08:07] fast. Then you slow down on the technical
+[08:09] Then you slow down on the technical details in clean blocks. That's the slow
+[08:12] details in clean blocks. That's the slow part, of course. And that's before
+[08:13] part, of course. And that's before resting on a vast open white space
+[08:16] resting on a vast open white space surrounding a single product. That is
+[08:18] surrounding a single product. That is the pulse. And that rhythm creates a
+[08:20] the pulse. And that rhythm creates a subconscious sense of time within a
+[08:22] subconscious sense of time within a static design.
+[08:24] static design. A viewer doesn't just look at things
+[08:26] A viewer doesn't just look at things here. They experience it like beats of
+[08:28] here. They experience it like beats of music, like I said earlier. Punch, slow,
+[08:31] music, like I said earlier. Punch, slow, pulse, release.
+[08:33] pulse, release. The mastery here is kind of like a
+[08:35] The mastery here is kind of like a time-based journey on a design. That's
+[08:38] time-based journey on a design. That's when you've truly mastered flow. But the
+[08:41] when you've truly mastered flow. But the really, really key thing here is that
+[08:43] really, really key thing here is that something like, I don't know, 99% of
+[08:45] something like, I don't know, 99% of designers don't consider this temporal
+[08:47] designers don't consider this temporal flow of time.
+[08:49] flow of time. But if you start to consider it on your
+[08:50] But if you start to consider it on your designs, be it a poster, marketing
+[08:53] designs, be it a poster, marketing brochure, website, whatever it is,
+[08:55] brochure, website, whatever it is, you'll begin to create better
+[08:57] you'll begin to create better experiences for your audience.
+[09:09] Grids go way back 1,500 years in ancient manuscripts, and then they found their
+[09:11] manuscripts, and then they found their way into the printing presses for
+[09:12] way into the printing presses for newspapers.
+[09:13] newspapers. But I know you don't want to learn about
+[09:15] But I know you don't want to learn about history. You're here to learn about why
+[09:16] history. You're here to learn about why grids are useful to you as a graphic
+[09:18] grids are useful to you as a graphic designer. So, let's get right into
+[09:20] designer. So, let's get right into today's video.
+[09:22] today's video. So, the first useful reason behind the
+[09:24] So, the first useful reason behind the use of grids is that it will not only
+[09:26] use of grids is that it will not only help you with your visual hierarchy, but
+[09:28] help you with your visual hierarchy, but it can totally determine your visual
+[09:30] it can totally determine your visual hierarchy.
+[09:35] Now, you might have a grid with, say, six columns running down the page. If
+[09:38] six columns running down the page. If you want an important aspect of your
+[09:39] you want an important aspect of your design to have dominance,
+[09:42] design to have dominance, you can stretch it over more than just
+[09:43] you can stretch it over more than just one column, which will help create a
+[09:45] one column, which will help create a visual hierarchy.
+[09:48] visual hierarchy. Now, as seen here on this webpage for
+[09:50] Now, as seen here on this webpage for Mixd, we can suggest there are three
+[09:52] Mixd, we can suggest there are three columns running down the design.
+[09:54] columns running down the design. The text on the bottom left is within
+[09:56] The text on the bottom left is within one grid column, yet the text on the top
+[09:59] one grid column, yet the text on the top right covers two grid columns.
+[10:02] right covers two grid columns. Yes, it does seem simple, but that is
+[10:04] Yes, it does seem simple, but that is the beauty of it. Grids make hierarchy
+[10:07] the beauty of it. Grids make hierarchy really simple. Now, I personally would
+[10:09] really simple. Now, I personally would split this design into six columns, so
+[10:11] split this design into six columns, so you can really generate detailed design
+[10:13] you can really generate detailed design assets.
+[10:17] The next somewhat hidden reason why grids are so useful as a graphic
+[10:19] grids are so useful as a graphic designer is that they can cause some
+[10:20] designer is that they can cause some great impact by totally neglecting the
+[10:23] great impact by totally neglecting the grid.
+[10:25] grid. Okay, not totally, but for this tip, do
+[10:28] Okay, not totally, but for this tip, do make sure parts of your design adhere to
+[10:30] make sure parts of your design adhere to the grids.
+[10:32] the grids. So, maybe a few boxes of typography and
+[10:34] So, maybe a few boxes of typography and some imagery that are falling in line
+[10:35] some imagery that are falling in line with the grid columns and rows, but then
+[10:38] with the grid columns and rows, but then have a design element that totally
+[10:39] have a design element that totally breaks the rule.
+[10:41] breaks the rule. This will create some contrast and
+[10:43] This will create some contrast and visual impact, which is always good for
+[10:45] visual impact, which is always good for grabbing the attention of your viewer.
+[10:49] grabbing the attention of your viewer. This example here has four columns on
+[10:51] This example here has four columns on the grids, and then elements that
+[10:53] the grids, and then elements that totally disrespect it are added in,
+[10:55] totally disrespect it are added in, which creates some contrast and
+[10:57] which creates some contrast and intrigue.
+[10:59] intrigue. This is how you both use grids and go
+[11:02] This is how you both use grids and go against them in the same design at the
+[11:04] against them in the same design at the same time.
+[11:09] Now, the third point when using grids that you might not be aware of is that
+[11:10] that you might not be aware of is that the grids are insanely versatile.
+[11:14] the grids are insanely versatile. They don't just need to be kept for a
+[11:15] They don't just need to be kept for a layout design for such things like
+[11:17] layout design for such things like magazines or newspapers. Oh, no, no, no.
+[11:20] magazines or newspapers. Oh, no, no, no. They can also be used for pretty much
+[11:22] They can also be used for pretty much everything from logo designing, website
+[11:25] everything from logo designing, website creation, font design, posters, and just
+[11:28] creation, font design, posters, and just everything else you can likely think of.
+[11:31] everything else you can likely think of. Grids are easy to set up, and they can
+[11:33] Grids are easy to set up, and they can be used on almost anything that you want
+[11:35] be used on almost anything that you want to design.
+[11:37] to design. Understanding its versatility does help
+[11:39] Understanding its versatility does help any design from the get-go.
+[11:42] any design from the get-go. Now I've spoken about micro and macro
+[11:44] Now I've spoken about micro and macro white space on this channel before about
+[11:46] white space on this channel before about how it's so important to take note of.
+[11:49] how it's so important to take note of. But grids actually help you create that
+[11:51] But grids actually help you create that white space on your designs effectively.
+[11:54] white space on your designs effectively. Simply just thinking about which rows
+[11:56] Simply just thinking about which rows and columns of your design will have
+[11:58] and columns of your design will have empty spaces can be a great way to make
+[12:01] empty spaces can be a great way to make that white space.
+[12:03] that white space. Also, if you have say for example three
+[12:05] Also, if you have say for example three columns and four rows, it might be wise
+[12:08] columns and four rows, it might be wise to split each column into six columns
+[12:10] to split each column into six columns and each row into six rows. So you will
+[12:12] and each row into six rows. So you will have a lot more detail to work with
+[12:14] have a lot more detail to work with within that micro white space.
+[12:17] within that micro white space. And remember, micro white space is that
+[12:19] And remember, micro white space is that smaller space between lines of text and
+[12:21] smaller space between lines of text and closely packed together design elements.
+[12:25] closely packed together design elements. Tip number five is that the viewer's eye
+[12:28] Tip number five is that the viewer's eye can be helped along your design by the
+[12:30] can be helped along your design by the use of grids.
+[12:32] use of grids. Subconsciously speaking, audiences of
+[12:34] Subconsciously speaking, audiences of your designs would typically would not
+[12:36] your designs would typically would not like lines of text to be too long or too
+[12:39] like lines of text to be too long or too short because it makes the information
+[12:41] short because it makes the information harder to digest.
+[12:43] harder to digest. Having grid systems in place can help
+[12:45] Having grid systems in place can help with this issue, but that's not the only
+[12:47] with this issue, but that's not the only instance where grids can help with the
+[12:49] instance where grids can help with the viewer's eye.
+[12:51] viewer's eye. If you have a layout that's really busy
+[12:53] If you have a layout that's really busy and heavy with lots of text or design
+[12:56] and heavy with lots of text or design elements,
+[12:57] elements, using grids can make the viewing
+[12:58] using grids can make the viewing experience a whole lot easier simply by
+[13:01] experience a whole lot easier simply by arranging everything neatly and in an
+[13:03] arranging everything neatly and in an orderly fashion.
+[13:05] orderly fashion. This helps the viewer when seeing your
+[13:07] This helps the viewer when seeing your work as they're not swallowed into utter
+[13:09] work as they're not swallowed into utter chaos essentially.
+[13:20] Baseline grids are used to align all body text, headlines, and captions
+[13:23] body text, headlines, and captions across multiple columns. And this
+[13:25] across multiple columns. And this ensures a clean, consistent spacing, and
+[13:28] ensures a clean, consistent spacing, and improves readability throughout the
+[13:30] improves readability throughout the article or your graphic design. Or
+[13:32] article or your graphic design. Or that's the intention, anyway. Now,
+[13:33] that's the intention, anyway. Now, consider using different type sizes that
+[13:35] consider using different type sizes that still align with the baseline grid. For
+[13:38] still align with the baseline grid. For instance, use a multiple of your base
+[13:40] instance, use a multiple of your base letting. So, like 28 points for
+[13:42] letting. So, like 28 points for headlines if your body text is 14
+[13:44] headlines if your body text is 14 points.
+[13:45] points. This creates a harmonious relationship
+[13:47] This creates a harmonious relationship between the text elements without losing
+[13:49] between the text elements without losing that crisp alignment that we're looking
+[13:50] that crisp alignment that we're looking for.
+[13:52] for. A column grid is a versatile layout tool
+[13:55] A column grid is a versatile layout tool commonly used in magazines and
+[13:57] commonly used in magazines and newspapers and multi-content websites.
+[14:00] newspapers and multi-content websites. This grid divides the page into four
+[14:02] This grid divides the page into four equal vertical sections, giving
+[14:04] equal vertical sections, giving designers flexibility to organize
+[14:06] designers flexibility to organize content whilst maintaining a balance and
+[14:08] content whilst maintaining a balance and structure.
+[14:09] structure. To create even more visual interest, try
+[14:12] To create even more visual interest, try overlapping elements like images or text
+[14:15] overlapping elements like images or text across multiple different columns.
+[14:17] across multiple different columns. For example, a featured image can span
+[14:19] For example, a featured image can span across three columns while the
+[14:21] across three columns while the accompanying text could just flow into
+[14:22] accompanying text could just flow into one.
+[14:24] one. With the modular grid, each product,
+[14:27] With the modular grid, each product, image, or graphic gets its own module.
+[14:29] image, or graphic gets its own module. This can be an image, a title,
+[14:30] This can be an image, a title, description, price, whatever. And this
+[14:32] description, price, whatever. And this ensures consistency across multiple
+[14:35] ensures consistency across multiple pages while allowing the designer
+[14:37] pages while allowing the designer flexibility to showcase different types
+[14:39] flexibility to showcase different types of content.
+[14:40] of content. That's often used in websites, and this
+[14:43] That's often used in websites, and this grid layout keeps the layout looking
+[14:44] grid layout keeps the layout looking clean and easy to navigate.
+[14:47] clean and easy to navigate. But try this. Vary the module size based
+[14:50] But try this. Vary the module size based on product categories of importance.
+[14:53] on product categories of importance. So, for example, maybe highlight
+[14:55] So, for example, maybe highlight bestsellers or new arrivals by giving
+[14:57] bestsellers or new arrivals by giving them more space in the grid.
+[14:59] them more space in the grid. Or even spanning two modules
+[15:00] Or even spanning two modules horizontally. This trick not only makes
+[15:03] horizontally. This trick not only makes certain products stand out, but also
+[15:05] certain products stand out, but also creates visual interest, breaking the
+[15:07] creates visual interest, breaking the monotony while still keeping things
+[15:09] monotony while still keeping things organized, which is important.
+[15:12] organized, which is important. The manuscript grid is pretty
+[15:14] The manuscript grid is pretty straightforward. It doesn't need much
+[15:16] straightforward. It doesn't need much explaining. It's just a single column
+[15:18] explaining. It's just a single column grid used to organize the flow of the
+[15:20] grid used to organize the flow of the text in a book. And it uses margins for
+[15:23] text in a book. And it uses margins for notes or images, ensuring the content is
+[15:25] notes or images, ensuring the content is easy to read without any distractions.
+[15:28] easy to read without any distractions. Can hierarchy utilize grids?
+[15:30] Can hierarchy utilize grids? Yep, it sure can. In fact, there's even
+[15:32] Yep, it sure can. In fact, there's even a grid based around hierarchy. And you
+[15:35] a grid based around hierarchy. And you can use this grid to place large images
+[15:37] can use this grid to place large images or important text in blocks, such as
+[15:39] or important text in blocks, such as headline or call to actions. While
+[15:41] headline or call to actions. While secondary information like navigation or
+[15:43] secondary information like navigation or footer links is placed less prominently.
+[15:47] footer links is placed less prominently. Now, you can start by setting up a grid
+[15:49] Now, you can start by setting up a grid with different size and shape modules,
+[15:51] with different size and shape modules, and then add the content thereafter.
+[15:53] and then add the content thereafter. But moving on from that, try creating
+[15:55] But moving on from that, try creating contrast between your primary and
+[15:57] contrast between your primary and secondary elements using color and size.
+[16:00] secondary elements using color and size. For instance, make your headline bright
+[16:02] For instance, make your headline bright and bold, but keep the subheadings or
+[16:04] and bold, but keep the subheadings or navigation links in a muted tone or
+[16:06] navigation links in a muted tone or smaller font.
+[16:08] smaller font. In logos like the Twitter bird or Apple
+[16:10] In logos like the Twitter bird or Apple logo, the golden ratio plays a subtle
+[16:13] logo, the golden ratio plays a subtle yet powerful role in making them look
+[16:15] yet powerful role in making them look balanced and visually appealing.
+[16:17] balanced and visually appealing. This ratio, roughly 1:1.618,
+[16:21] This ratio, roughly 1:1.618, is all about creating perfect
+[16:22] is all about creating perfect proportions.
+[16:24] proportions. And when applied to the logo design or
+[16:26] And when applied to the logo design or any design for that matter, it helps the
+[16:27] any design for that matter, it helps the shapes and curves feel just right to our
+[16:30] shapes and curves feel just right to our eyes. Or so says the theory. You don't
+[16:33] eyes. Or so says the theory. You don't have to stick rigidly to the golden
+[16:35] have to stick rigidly to the golden ratio.
+[16:36] ratio. Try using it as a starting point to
+[16:38] Try using it as a starting point to guide your proportions, then tweak and
+[16:40] guide your proportions, then tweak and adjust it based on what feels right for
+[16:42] adjust it based on what feels right for the specific project.
+[16:44] the specific project. You don't want to pigeonhole yourself
+[16:45] You don't want to pigeonhole yourself into a corner with this one.
+[16:49] into a corner with this one. Using an asymmetric grid is a great way
+[16:51] Using an asymmetric grid is a great way to give your design a dynamic,
+[16:53] to give your design a dynamic, eye-catching look while still keeping
+[16:54] eye-catching look while still keeping things organized. Now, asymmetric grids
+[16:57] things organized. Now, asymmetric grids tend to break away from a balanced and
+[17:00] tend to break away from a balanced and symmetrical system, so they're not
+[17:03] symmetrical system, so they're not really that rigid that generic. By
+[17:05] really that rigid that generic. By letting the hero image or headline take
+[17:07] letting the hero image or headline take up more space, you're naturally drawing
+[17:09] up more space, you're naturally drawing the viewer's attention to what's most
+[17:10] the viewer's attention to what's most important on your design. And at the
+[17:12] important on your design. And at the same time, the smaller columns for text
+[17:15] same time, the smaller columns for text or extra images provide a secondary flow
+[17:17] or extra images provide a secondary flow of importance and information without
+[17:19] of importance and information without overwhelming the design.
+[17:21] overwhelming the design. As a bonus tip, try some layering by
+[17:24] As a bonus tip, try some layering by letting your text overlap with images
+[17:26] letting your text overlap with images slightly or use subtle diagonal lines to
+[17:29] slightly or use subtle diagonal lines to further break up space.
+[17:32] further break up space. This creates a sense of depth and motion
+[17:34] This creates a sense of depth and motion making the design feel more alive and
+[17:36] making the design feel more alive and less static.
+[17:42] A square grid is like the backbone of a visually pleasing gallery. It's all
+[17:45] visually pleasing gallery. It's all about that clean uniform vibe that just
+[17:47] about that clean uniform vibe that just feels right.
+[17:48] feels right. So imagine scrolling through an
+[17:50] So imagine scrolling through an Instagram profile or website where every
+[17:52] Instagram profile or website where every image or post lines up perfectly in neat
+[17:54] image or post lines up perfectly in neat little squares.
+[17:56] little squares. It's not just satisfying to look at, it
+[17:58] It's not just satisfying to look at, it also makes the content super easy to
+[18:00] also makes the content super easy to navigate. And to make your square grid
+[18:02] navigate. And to make your square grid even more engaging, consider adding a
+[18:04] even more engaging, consider adding a pop of color or a subtle pattern as the
+[18:06] pop of color or a subtle pattern as the background for certain squares.
+[18:09] background for certain squares. This way you can create visual interest
+[18:11] This way you can create visual interest without disrupting the overall grid
+[18:13] without disrupting the overall grid structure.
+[18:15] structure. The rule of thirds grid is like your
+[18:17] The rule of thirds grid is like your secret weapon for creating stunning
+[18:19] secret weapon for creating stunning visuals.
+[18:20] visuals. It's super simple, you just divide your
+[18:22] It's super simple, you just divide your design into nine equal parts with two
+[18:24] design into nine equal parts with two horizontal and two vertical lines and
+[18:27] horizontal and two vertical lines and this forms the grid. This method helps
+[18:29] this forms the grid. This method helps you position key elements in a way that
+[18:31] you position key elements in a way that feels natural and engaging.
+[18:33] feels natural and engaging. While the rule of thirds is great for
+[18:34] While the rule of thirds is great for initial placement, you can experiment
+[18:37] initial placement, you can experiment with breaking it up a bit for dramatic
+[18:38] with breaking it up a bit for dramatic effect. Maybe place your main subject
+[18:41] effect. Maybe place your main subject slightly off the grid to create tension
+[18:43] slightly off the grid to create tension or surprise.
+[18:48] Combining a column grid for your product listings with a modular grid for the
+[18:50] listings with a modular grid for the product details is like having the best
+[18:52] product details is like having the best of both worlds and it's called a
+[18:53] of both worlds and it's called a compound grid.
+[18:56] compound grid. It's all about making your layout
+[18:57] It's all about making your layout flexible while keeping everything
+[18:59] flexible while keeping everything looking super clean and organized. But
+[19:01] looking super clean and organized. But crucially, don't forget to keep some
+[19:03] crucially, don't forget to keep some breathing space. Just because you're
+[19:05] breathing space. Just because you're combining grids doesn't mean you should
+[19:06] combining grids doesn't mean you should cram everything up together and this
+[19:08] cram everything up together and this goes with pretty much every grid. Use
+[19:11] goes with pretty much every grid. Use white space strategically to separate
+[19:12] white space strategically to separate different elements.
+[19:14] different elements. Using an isometric grid is a fantastic
+[19:17] Using an isometric grid is a fantastic way to add a cool 3D vibe to your
+[19:18] way to add a cool 3D vibe to your illustrations or designs. Perfect for
+[19:20] illustrations or designs. Perfect for making buildings or data structures
+[19:22] making buildings or data structures looking really cool in infographics.
+[19:25] looking really cool in infographics. It's all about that depth and dimension
+[19:26] It's all about that depth and dimension which can make your design stand out
+[19:28] which can make your design stand out while keeping things clear and
+[19:30] while keeping things clear and organized.
+[19:32] organized. Don't shy away from colors and shadows.
+[19:35] Don't shy away from colors and shadows. Adding different shades can enhance the
+[19:36] Adding different shades can enhance the 3D effect and help define the shapes.
+[19:39] 3D effect and help define the shapes. Use lighter colors on top and darker
+[19:41] Use lighter colors on top and darker ones underneath to give a sense of
+[19:43] ones underneath to give a sense of volume and realism.
+[19:46] volume and realism. Using a circular grid for a logo
+[19:48] Using a circular grid for a logo sometimes can be a game-changer,
+[19:50] sometimes can be a game-changer, especially when you're working with
+[19:51] especially when you're working with round organic shapes.
+[19:53] round organic shapes. It's all about symmetry, balance, and
+[19:55] It's all about symmetry, balance, and making sure everything just feels right.
+[19:58] making sure everything just feels right. But a circular grid doesn't just help
+[20:00] But a circular grid doesn't just help with positioning. It also gives you a
+[20:02] with positioning. It also gives you a chance to create interesting shapes in
+[20:04] chance to create interesting shapes in the spaces between your elements.
+[20:07] the spaces between your elements. And then we have the triangular grid
+[20:09] And then we have the triangular grid system. Say on a modern product box, use
+[20:13] system. Say on a modern product box, use a triangular grid to create geometric
+[20:14] a triangular grid to create geometric patterns or just position elements like
+[20:17] patterns or just position elements like a logo and product details at specific
+[20:19] a logo and product details at specific points of interest. And this will give
+[20:21] points of interest. And this will give the packaging a unique, dynamic look.
+[20:24] the packaging a unique, dynamic look. Now, you can combine the triangular grid
+[20:26] Now, you can combine the triangular grid with some bright colors or textures to
+[20:28] with some bright colors or textures to really bring your design to life. For
+[20:30] really bring your design to life. For instance, use a subtle gradient that
+[20:32] instance, use a subtle gradient that flows along the angles of the triangles
+[20:35] flows along the angles of the triangles or incorporate metallic foil accents at
+[20:37] or incorporate metallic foil accents at those key points where your elements
+[20:39] those key points where your elements meet.
+[20:48] Okay, let's break down how leverage points actually shows up on real designs
+[20:51] points actually shows up on real designs and more importantly, how you can start
+[20:53] and more importantly, how you can start building them into your work.
+[20:56] building them into your work. So, take the Nike campaign here. This
+[20:58] So, take the Nike campaign here. This design has a clear leverage point, that
+[21:01] design has a clear leverage point, that is the model.
+[21:02] is the model. That's what grabs your attention at
+[21:03] That's what grabs your attention at first.
+[21:05] first. Why? Well, because the designer used
+[21:07] Why? Well, because the designer used contrast, bright neon outlines, a misty
+[21:10] contrast, bright neon outlines, a misty background. And there's also scale at
+[21:13] background. And there's also scale at play here. The figure dominates the
+[21:15] play here. The figure dominates the composition. And then there's the
+[21:17] composition. And then there's the isolation.
+[21:19] isolation. Nothing else in this layout competes.
+[21:21] Nothing else in this layout competes. That is apart from the neon green logo,
+[21:23] That is apart from the neon green logo, which acts as the leverage point of the
+[21:26] which acts as the leverage point of the smaller proximity group in the lower
+[21:27] smaller proximity group in the lower left.
+[21:29] left. This design knows exactly what it wants
+[21:31] This design knows exactly what it wants you to see first, and it makes sure
+[21:32] you to see first, and it makes sure nothing else gets in the way. That's
+[21:35] nothing else gets in the way. That's leverage. That is control.
+[21:37] leverage. That is control. Now, compare that to this poster. It's
+[21:40] Now, compare that to this poster. It's more complex, but it still uses leverage
+[21:42] more complex, but it still uses leverage really well.
+[21:44] really well. The artist's face is the focal points,
+[21:47] The artist's face is the focal points, and it's not just because it's centered.
+[21:49] and it's not just because it's centered. It's the largest element in frame. And
+[21:51] It's the largest element in frame. And that's surrounded by softer floral
+[21:53] that's surrounded by softer floral shapes that actually help draw your eye
+[21:55] shapes that actually help draw your eye into it.
+[21:56] into it. The rest of the elements, the text, the
+[21:58] The rest of the elements, the text, the overlays, the graphic details, they all
+[22:00] overlays, the graphic details, they all sit back and support the main point.
+[22:03] sit back and support the main point. Even though there's more going on,
+[22:04] Even though there's more going on, visually speaking, the hierarchy is
+[22:06] visually speaking, the hierarchy is still clear.
+[22:08] still clear. And that's what a good leverage point
+[22:09] And that's what a good leverage point does. It leads the viewer, even on busy
+[22:12] does. It leads the viewer, even on busy designs. And of course, a design can
+[22:14] designs. And of course, a design can have multiple different leverage points
+[22:16] have multiple different leverage points depending on the brief.
+[22:18] depending on the brief. Start by asking, what is the single most
+[22:20] Start by asking, what is the single most important thing on your layout? That's
+[22:22] important thing on your layout? That's your leverage point.
+[22:24] your leverage point. Now, use design tools like scale,
+[22:27] Now, use design tools like scale, contrast, positioning, or isolation to
+[22:29] contrast, positioning, or isolation to make sure it dominates the design.
+[22:32] make sure it dominates the design. Push back anything that competes with
+[22:33] Push back anything that competes with it. Use supporting elements to guide the
+[22:36] it. Use supporting elements to guide the eye towards it, not away from it. Now
+[22:39] eye towards it, not away from it. Now that you've established a clear leverage
+[22:40] that you've established a clear leverage point or points, the next step is
+[22:42] point or points, the next step is internal rhythm. And that's the I in the
+[22:45] internal rhythm. And that's the I in the lift system. This is how you guide the
+[22:48] lift system. This is how you guide the eye through the layout from this first
+[22:50] eye through the layout from this first point.
+[22:51] point. The bold title here acts as a strong
+[22:54] The bold title here acts as a strong visual anchor, immediately grabbing
+[22:56] visual anchor, immediately grabbing attention.
+[22:57] attention. And from there, the eye is pulled
+[22:59] And from there, the eye is pulled downwards towards the 3D object, and
+[23:01] downwards towards the 3D object, and then across to the right-hand side where
+[23:04] then across to the right-hand side where secondary information and the call to
+[23:05] secondary information and the call to action lives.
+[23:08] action lives. This path isn't accidental. It's
+[23:10] This path isn't accidental. It's actually choreographed.
+[23:12] actually choreographed. The designer controls the eye's journey
+[23:14] The designer controls the eye's journey using consistent spacing, predictable
+[23:16] using consistent spacing, predictable alignment, and deliberate contrast.
+[23:19] alignment, and deliberate contrast. This is what we call eye choreography.
+[23:21] This is what we call eye choreography. It's a visual path built to guide, not
+[23:24] It's a visual path built to guide, not to confuse.
+[23:26] to confuse. And look closely how the elements are
+[23:28] And look closely how the elements are grouped. We have navigation links that
+[23:30] grouped. We have navigation links that are evenly spaced and aligned. The
+[23:32] are evenly spaced and aligned. The supporting stats and feature list are
+[23:35] supporting stats and feature list are tight and structured. While the 3D
+[23:37] tight and structured. While the 3D object sits centrally, breaking symmetry
+[23:40] object sits centrally, breaking symmetry in a controlled way to create energy.
+[23:43] in a controlled way to create energy. This balance between consistency and
+[23:45] This balance between consistency and surprise keeps a viewer engaged.
+[23:48] surprise keeps a viewer engaged. Predictable spacing builds trust. When
+[23:50] Predictable spacing builds trust. When margins and gutters are consistent, this
+[23:53] margins and gutters are consistent, this actually relaxes your brain, and it
+[23:55] actually relaxes your brain, and it starts to absorb the message more
+[23:57] starts to absorb the message more easily.
+[23:58] easily. But a well-placed disruption, like the
+[24:00] But a well-placed disruption, like the glowing call to action or dynamic 3D
+[24:02] glowing call to action or dynamic 3D visual, actually re-engages attention.
+[24:06] visual, actually re-engages attention. This rhythm, predictable with purposeful
+[24:08] This rhythm, predictable with purposeful shifts, is what makes complex design
+[24:10] shifts, is what makes complex design feel effortless to navigate.
+[24:13] feel effortless to navigate. And to apply this in your own work,
+[24:15] And to apply this in your own work, start by asking, "How does the eye move
+[24:18] start by asking, "How does the eye move across my layout?
+[24:20] across my layout? Are there going to be jumps, or is it
+[24:21] Are there going to be jumps, or is it going to be smooth transitions?
+[24:23] going to be smooth transitions? Are related elements visually grouped?
+[24:26] Are related elements visually grouped? And is your spacing consistent
+[24:27] And is your spacing consistent throughout?
+[24:29] throughout? Use spacing and positioning to control
+[24:31] Use spacing and positioning to control the speed of engagement. Fast rhythm for
+[24:34] the speed of engagement. Fast rhythm for skimmable, simple content, and slower
+[24:36] skimmable, simple content, and slower rhythm for more deliberate flow to
+[24:39] rhythm for more deliberate flow to dense, complex layouts, often with lots
+[24:41] dense, complex layouts, often with lots of information.
+[24:43] of information. The goal is to make the journey feel
+[24:44] The goal is to make the journey feel natural, each step leading logically to
+[24:47] natural, each step leading logically to the next.
+[24:50] the next. The third part of the system is friction
+[24:52] The third part of the system is friction and flow.
+[24:53] and flow. This is where a lot of designs can break
+[24:55] This is where a lot of designs can break down because friction is often
+[24:57] down because friction is often misunderstood.
+[24:59] misunderstood. Friction in graphic design is tight
+[25:01] Friction in graphic design is tight spaces, jarring objects, uncomfortable
+[25:03] spaces, jarring objects, uncomfortable typefaces, and is often seen as a
+[25:05] typefaces, and is often seen as a negative thing by designers. But
+[25:07] negative thing by designers. But strategic friction is actually smart
+[25:09] strategic friction is actually smart when you do it properly.
+[25:11] when you do it properly. So in this design, the friction is seen
+[25:13] So in this design, the friction is seen as the very tight spacing between the
+[25:15] as the very tight spacing between the lines of text, the letting. It's the
+[25:17] lines of text, the letting. It's the blurred out faces. It's the scribble
+[25:20] blurred out faces. It's the scribble across the face even.
+[25:22] across the face even. And we actually even have half of a word
+[25:25] And we actually even have half of a word missing at the bottom here.
+[25:27] missing at the bottom here. But this friction on this design is
+[25:29] But this friction on this design is entirely intentional, and it's not
+[25:32] entirely intentional, and it's not acting alone.
+[25:34] acting alone. But the flow is preserved by clearly
+[25:37] But the flow is preserved by clearly defined zones, smooth reading sections
+[25:40] defined zones, smooth reading sections like the mission statement below, versus
+[25:42] like the mission statement below, versus more intense friction zones at the top
+[25:44] more intense friction zones at the top that demand attention.
+[25:47] that demand attention. That's the difference between good
+[25:48] That's the difference between good friction and bad friction.
+[25:50] friction and bad friction. Good friction grabs the eye, and bad
+[25:52] Good friction grabs the eye, and bad friction loses the message and causes
+[25:55] friction loses the message and causes unwanted discomfort.
+[25:57] unwanted discomfort. And to apply this onto your own designs,
+[25:59] And to apply this onto your own designs, review your layouts and ask, "Is this
+[26:02] review your layouts and ask, "Is this element adding clarity or just visual
+[26:04] element adding clarity or just visual noise?
+[26:06] noise? Are there too many fonts, too many color
+[26:07] Are there too many fonts, too many color choices, or multiple focal points
+[26:09] choices, or multiple focal points competing all at once?
+[26:15] Tighten spacing where it matters, but don't overload. And remove any
+[26:17] don't overload. And remove any decoration that isn't really doing a
+[26:19] decoration that isn't really doing a job.
+[26:20] job. Friction is like seasoning. Just enough
+[26:23] Friction is like seasoning. Just enough adds some flavor and some depth, and too
+[26:25] adds some flavor and some depth, and too much will ruin the whole thing.
+[26:27] much will ruin the whole thing. The best designs use friction and flow
+[26:29] The best designs use friction and flow together, one for emphasis and the other
+[26:32] together, one for emphasis and the other for ease.
+[26:34] for ease. A great design doesn't just look good
+[26:35] A great design doesn't just look good once. It works across every format,
+[26:38] once. It works across every format, every size, every platform.
+[26:40] every size, every platform. If your design only works in one perfect
+[26:43] If your design only works in one perfect setting, an ideal setting, then it's not
+[26:45] setting, an ideal setting, then it's not a solution, it is a problem.
+[26:48] a solution, it is a problem. This exhibit visual identity does a
+[26:50] This exhibit visual identity does a great job of maintaining consistency and
+[26:52] great job of maintaining consistency and energy across multiple different
+[26:54] energy across multiple different formats.
+[26:55] formats. Whether it's a large-scale hero poster
+[26:57] Whether it's a large-scale hero poster or a smaller social post, the key
+[27:00] or a smaller social post, the key elements remain intact.
+[27:02] elements remain intact. The bold contrast, the warped
+[27:04] The bold contrast, the warped typography, the surreal portraits, and
+[27:07] typography, the surreal portraits, and the recurring iconography and color
+[27:09] the recurring iconography and color scheme.
+[27:10] scheme. Even when reduced in size, the hierarchy
+[27:12] Even when reduced in size, the hierarchy still holds true, and the central idea,
+[27:15] still holds true, and the central idea, the strange, compelling mood of the
+[27:17] the strange, compelling mood of the exhibit, still translates. And that's a
+[27:19] exhibit, still translates. And that's a sign of a scalable system.
+[27:21] sign of a scalable system. The layout flexes, but the identity
+[27:23] The layout flexes, but the identity still stays strong.
+[27:26] still stays strong. And to apply this, or to think about
+[27:28] And to apply this, or to think about this on your designs, test your designs
+[27:30] this on your designs, test your designs actively.
+[27:32] actively. Shrink them down. Can you still read the
+[27:34] Shrink them down. Can you still read the type properly?
+[27:35] type properly? Can you still recognize the visual
+[27:36] Can you still recognize the visual identity?
+[27:38] identity? Try placing them on a dark and a light
+[27:40] Try placing them on a dark and a light background.
+[27:41] background. Do they hold up still then?
+[27:43] Do they hold up still then? Move them across formats.
+[27:46] Move them across formats. Do you think this design will work on
+[27:47] Do you think this design will work on mobile screens, a print flyer, a motion
+[27:49] mobile screens, a print flyer, a motion graphic even?
+[27:51] graphic even? Great designs scale like great brand
+[27:54] Great designs scale like great brand voices, clear, flexible, and instantly
+[27:56] voices, clear, flexible, and instantly recognizable in any context.
+[27:59] recognizable in any context. And transferability isn't about making a
+[28:01] And transferability isn't about making a layout that just looks cool. It's about
+[28:03] layout that just looks cool. It's about creating a design that lives everywhere
+[28:06] creating a design that lives everywhere the brand has to, and it still speaks
+[28:08] the brand has to, and it still speaks the same language thereafter.
+[28:11] the same language thereafter. Let's wrap up this system by looking at
+[28:12] Let's wrap up this system by looking at how this layout design brings the entire
+[28:15] how this layout design brings the entire Lyft system to life.
+[28:17] Lyft system to life. So, the moment the design loads, your
+[28:19] So, the moment the design loads, your eyes go straight to the bold orange band
+[28:22] eyes go straight to the bold orange band in the center of the design. And that's
+[28:24] in the center of the design. And that's not by chance, it's deliberate. It's a
+[28:26] not by chance, it's deliberate. It's a leverage point.
+[28:27] leverage point. The use of a strong color contrast, the
+[28:29] The use of a strong color contrast, the central alignment, and subtle motion
+[28:31] central alignment, and subtle motion creates a focal point that leads the
+[28:33] creates a focal point that leads the entire composition.
+[28:35] entire composition. It's literally saying start here without
+[28:37] It's literally saying start here without needing to shout.
+[28:39] needing to shout. And yes, that subtle amount of motion
+[28:40] And yes, that subtle amount of motion graphics does elevate this leverage
+[28:42] graphics does elevate this leverage point quite a lot.
+[28:45] point quite a lot. Now, follow the eye movement. After you
+[28:47] Now, follow the eye movement. After you lock onto the center, you're pulled
+[28:49] lock onto the center, you're pulled gently outwards by the spacing and
+[28:51] gently outwards by the spacing and symmetry. The supporting type, the small
+[28:54] symmetry. The supporting type, the small animated elements, they're not just
+[28:56] animated elements, they're not just placed, they are paced, and they are
+[28:58] placed, they are paced, and they are intentional. You'll find repetition in
+[29:01] intentional. You'll find repetition in margin size, even rhythm between motion
+[29:03] margin size, even rhythm between motion and stillness. This layout breathes in
+[29:06] and stillness. This layout breathes in steady tempo.
+[29:07] steady tempo. That's internal rhythm, building trust
+[29:10] That's internal rhythm, building trust by creating visual predictability. That
+[29:12] by creating visual predictability. That is while keeping the flow engaging.
+[29:15] is while keeping the flow engaging. But here's where it gets smart. The band
+[29:18] But here's where it gets smart. The band graphics ever so slightly are overlapped
+[29:20] graphics ever so slightly are overlapped by some typography.
+[29:22] by some typography. And also, if you look at the text in the
+[29:23] And also, if you look at the text in the top right, it's laid out in a very
+[29:25] top right, it's laid out in a very non-uniform way.
+[29:27] non-uniform way. This is your friction, but where is the
+[29:29] This is your friction, but where is the flow?
+[29:31] flow? Well, there's intensity in the center,
+[29:33] Well, there's intensity in the center, but the outer space gives your eye time
+[29:35] but the outer space gives your eye time to breathe. That's the balance right
+[29:37] to breathe. That's the balance right there. It's the friction to wake up the
+[29:39] there. It's the friction to wake up the viewer, and then the flow to guide them
+[29:41] viewer, and then the flow to guide them through. And you do need both to
+[29:43] through. And you do need both to different degrees on a design depending
+[29:45] different degrees on a design depending on the brief. Too much tension creates
+[29:47] on the brief. Too much tension creates chaos, and too much smoothness creates
+[29:49] chaos, and too much smoothness creates boredom. And this layout knows when to
+[29:51] boredom. And this layout knows when to push and when to let go.
+[29:54] push and when to let go. And so, the last part, transferability.
+[29:57] And so, the last part, transferability. If we shrink this design down to
+[29:58] If we shrink this design down to thumbnail size, the orange band will
+[30:00] thumbnail size, the orange band will still hold. The identity, the hierarchy,
+[30:03] still hold. The identity, the hierarchy, the balance, it all survives.
+[30:05] the balance, it all survives. Whether this runs on a mobile ad,
+[30:07] Whether this runs on a mobile ad, Instagram story, or full-width hero
+[30:10] Instagram story, or full-width hero banner, the core message stays intact.
+[30:13] banner, the core message stays intact. But importantly, the concept of the
+[30:15] But importantly, the concept of the design is so strong that the visual
+[30:17] design is so strong that the visual language can be taken to different
+[30:18] language can be taken to different platforms, rearranged, even made more
+[30:21] platforms, rearranged, even made more minimal, and you'll still recognize it
+[30:23] minimal, and you'll still recognize it as being linked to this design.
+[30:25] as being linked to this design. This is how the Lyft system considers
+[30:27] This is how the Lyft system considers slightly more advanced areas of layout
+[30:29] slightly more advanced areas of layout design, and why you should be
+[30:31] design, and why you should be considering it on your next project.
+[30:34] considering it on your next project. And if you want to keep your educational
+[30:35] And if you want to keep your educational journey moving forward, then just click
+[30:37] journey moving forward, then just click that video on screen to learn more
+[30:39] that video on screen to learn more skills as a graphic designer. And until
+[30:41] skills as a graphic designer. And until next time, guys. Design your future
+[30:43] next time, guys. Design your future today.
+[30:44] today. Peace.
