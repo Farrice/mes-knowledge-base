@@ -1,0 +1,45 @@
+{
+  "schema_version": "signal-fidelity-production-receipt-results/v1",
+  "status": "PASS_LOCAL_REAL_ARTIFACT_RECEIPTS",
+  "verdict": "CONTINUE_REPAIRED_SHADOW_DO_NOT_MERGE",
+  "source_artifacts_unchanged": 3,
+  "source_artifacts_total": 3,
+  "generated_questions": 0,
+  "false_blocks": 0,
+  "proof_upgrades": 0,
+  "artifact_mutations": 0,
+  "composition_authority_events": 0,
+  "cases": {
+    "strategy": {
+      "native_recoverability": "5/6",
+      "signal_recoverability": "6/6",
+      "recoverability_delta": "+1/6",
+      "normalized_visible_word_delta": 9,
+      "result": "BOUNDED_GAIN"
+    },
+    "handoff": {
+      "human_recoverability": "6/6",
+      "ai_agent_recoverability": "6/6",
+      "ai_agent_normalized_word_delta": 25,
+      "result": "RECIPIENT_SPLIT_CONFIRMED"
+    },
+    "public_content": {
+      "recoverability": "6/6",
+      "visible_word_delta": 0,
+      "source_hash_unchanged": true,
+      "result": "OWNER_ONLY_AUDIT_CONFIRMED"
+    }
+  },
+  "proof_state": {
+    "deterministic_recoverability": "VERIFIED",
+    "recipient_mode_behavior": "VERIFIED",
+    "independent_human_comprehension": "NO EVENT",
+    "field_comprehension_gain": "UNTESTED",
+    "trust_effect": "UNTESTED",
+    "commercial_effect": "NO EVENT"
+  },
+  "merge_gate": {
+    "status": "NOT_CLEARED",
+    "reason": "The three artifacts are independent, but the builder is not an independent unfamiliar human recipient."
+  }
+}

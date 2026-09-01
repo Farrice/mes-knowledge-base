@@ -1,0 +1,38 @@
+{
+  "schema_version": "signal-fidelity-production-receipts/v1",
+  "status": "PRECOMMITTED",
+  "conclusion_ceiling": "LOCAL_REAL_ARTIFACT_RECEIPTS",
+  "merge_authorized": false,
+  "promotion_authorized": false,
+  "enforcement_authorized": false,
+  "external_action_authorized": false,
+  "independent_human_recipient": false,
+  "cases": [
+    {
+      "id": "strategy",
+      "source_path": "_active/linkedin/05-lead-gen/demo-proof-strategy.md",
+      "source_sha256": "85e105fba8c955d82bf790c049f0a936ab688e6c59eed0b243f68a3bfb397cbc",
+      "proof_state": "NO EVENT",
+      "recipient_mode": "strategy",
+      "native_output": "strategy-native.md",
+      "signal_output": "strategy-signal.md"
+    },
+    {
+      "id": "handoff",
+      "source_path": ".agent/handoffs/2026-08-29-offer-packaging.md",
+      "source_sha256": "3e75cab691a78610dfd4e9a4f2089652f5edc94cc9d7d2741c7982f4bfe9bffc",
+      "proof_state": "UNTESTED",
+      "human_output": "handoff-human.md",
+      "ai_output": "handoff-ai-agent.md"
+    },
+    {
+      "id": "public_content",
+      "source_path": "_active/linkedin/04-deliverables/content-os/hiya-aeo-teardown/linkedin-post.md",
+      "source_sha256": "2e1ec0c0993d0b74dbaf031525607beb6b8f7741cd790fe06b1320d01e555538",
+      "proof_state": "SOURCE_LABELED",
+      "recipient_mode": "public_content",
+      "visible_output": "SOURCE_UNCHANGED",
+      "audit_packet": "public-content-audit.json"
+    }
+  ]
+}
