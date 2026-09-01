@@ -1,0 +1,9 @@
+{
+  "artifact_type": "interactive_launch_economics_calculator",
+  "status": "decision_support_only",
+  "audience": "MyBPM owner and production collaborators",
+  "created": "2026-09-01",
+  "source_file": "mybpm-paid-drop-calculator.html",
+  "assumption_note": "Tapstitch blank prices and Shopify processing rates were verified on 2026-09-01. Retail price, decoration, packaging, reserve, fixed costs, and conversion rates remain editable planning assumptions until replaced with checkout and supplier truth.",
+  "action_boundary": "No order, storefront change, publishing action, or spend is performed by this artifact."
+}
