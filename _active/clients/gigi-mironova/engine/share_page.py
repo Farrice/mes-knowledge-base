@@ -133,7 +133,7 @@ code{font-family:var(--mono);font-size:.86em;background:var(--panel);padding:1px
 .thumb:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .scroll{overflow-x:auto;margin:14px 0 22px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}td{font-variant-numeric:tabular-nums}
 .gift{background:var(--panel);border:1px solid var(--line);padding:34px 38px;max-width:820px}
-.gift h2{font-size:26px;margin-top:0}.gift h3{font-size:20px}.gift blockquote{background:var(--ground)}
+.gift > hr:first-child{display:none}.gift h2{font-size:26px;margin-top:0}.gift h3{font-size:20px}.gift blockquote{background:var(--ground)}
 .files{font-family:var(--mono);font-size:13px;line-height:1.7;color:var(--soft)}.files b{color:var(--ink);font-weight:500}
 dialog{border:0;padding:0;background:transparent;max-width:min(92vw,720px)}dialog::backdrop{background:rgba(10,10,10,.82)}
 dialog img{width:100%;display:block;border:1px solid var(--line)}dialog button{position:fixed;top:14px;right:16px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;background:var(--panel);color:var(--ink);border:1px solid var(--line);padding:8px 12px;cursor:pointer}
