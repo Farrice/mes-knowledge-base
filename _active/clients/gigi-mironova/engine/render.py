@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Render canvas/*.dc.html to 1080x1350 PNGs in CAROUSEL-BATCH/<slug>/NN.png (1x, phone-ready)."""
-import glob, json, os, pathlib, shutil, subprocess
+import glob, json, os, pathlib, shutil, subprocess, sys
 
 HERE = pathlib.Path(__file__).parent
-CANVAS = HERE / "canvas"
-OUT = HERE / "CAROUSEL-BATCH"
+# Optional args: spec path, canvas dir, output dir
+SPEC = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "slides.json"
+CANVAS = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else HERE / "canvas"
+OUT = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else HERE / "CAROUSEL-BATCH"
 CHROME = sorted(glob.glob(os.path.expanduser(
     "~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/chrome-headless-shell")))[-1]
 
 
 def main():
-    spec = json.load(open(HERE / "slides.json"))
+    spec = json.load(open(SPEC))
     tmp = HERE / ".render_tmp"
     if tmp.exists():
         shutil.rmtree(tmp)

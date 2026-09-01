@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """One contact sheet of every rendered slide, one carousel per row — look at the grid, not the source."""
-import glob, json, os, pathlib, subprocess
+import glob, json, os, pathlib, subprocess, sys
 
 HERE = pathlib.Path(__file__).parent
-BATCH = HERE / "CAROUSEL-BATCH"
-OUT = HERE / "review"
-OUT.mkdir(exist_ok=True)
+# Optional args: spec path, batch dir, review dir
+SPEC = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "slides.json"
+BATCH = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else HERE / "CAROUSEL-BATCH"
+OUT = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else HERE / "review"
+OUT.mkdir(parents=True, exist_ok=True)
 CHROME = sorted(glob.glob(os.path.expanduser(
     "~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/chrome-headless-shell")))[-1]
 
-spec = json.load(open(HERE / "slides.json"))
+spec = json.load(open(SPEC))
 W = 216  # thumb width (1080/5)
 rows = ""
 maxcols = max(len(c["slides"]) for c in spec["carousels"])
 for car in spec["carousels"]:
-    cells = "".join(f'<div><img src="../CAROUSEL-BATCH/{car["slug"]}/{i:02d}.png" style="width:{W}px;display:block"></div>'
+    cells = "".join(f'<div><img src="file://{(BATCH / car["slug"] / f"{i:02d}.png").resolve()}" style="width:{W}px;display:block"></div>'
                     for i in range(1, len(car["slides"]) + 1))
     rows += (f'<div style="margin-bottom:22px"><div style="font:600 13px Helvetica;margin:0 0 6px;color:#333">{car["slug"]} — {car["title"]}</div>'
              f'<div style="display:flex;gap:8px">{cells}</div></div>')

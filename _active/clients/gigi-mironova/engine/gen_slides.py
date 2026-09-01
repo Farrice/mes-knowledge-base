@@ -8,12 +8,15 @@ Run: python3 gen_slides.py && python3 render.py && python3 review_sheet.py
 import html as H
 import json
 import pathlib
+import sys
 
 import tokens as T
 
 HERE = pathlib.Path(__file__).parent
-OUT = HERE / "canvas"
-OUT.mkdir(exist_ok=True)
+# Optional args: spec path, output dir (defaults: slides.json, canvas/)
+SPEC = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "slides.json"
+OUT = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else HERE / "canvas"
+OUT.mkdir(parents=True, exist_ok=True)
 
 HEAD = """<!doctype html>
 <html>
@@ -182,7 +185,7 @@ KINDS = {"hook": k_hook, "stat": k_stat, "list": k_list, "two": k_two, "dark": k
 
 
 def main():
-    spec = json.load(open(HERE / "slides.json"))
+    spec = json.load(open(SPEC))
     artboards, count = [], 0
     for row, car in enumerate(spec["carousels"]):
         total = len(car["slides"])
