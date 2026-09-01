@@ -1,0 +1,4421 @@
+[
+  {
+    "start": "00:00:14.270",
+    "end": "00:00:16.070",
+    "start_seconds": 14.27,
+    "end_seconds": 16.07,
+    "text": "&gt;&gt; How is the conference for all of you so far?",
+    "source_text": "&gt;&gt; How is the conference for all of you so far?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:16.070",
+    "end": "00:00:18.270",
+    "start_seconds": 16.07,
+    "end_seconds": 18.27,
+    "text": "far? Great. Awesome.",
+    "source_text": "far? Great. Awesome.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:18.270",
+    "end": "00:00:22.390",
+    "start_seconds": 18.27,
+    "end_seconds": 22.39,
+    "text": "Great. Awesome. Um well, I think this was the best most",
+    "source_text": "Great. Awesome. Um well, I think this was the best most",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:22.390",
+    "end": "00:00:25.550",
+    "start_seconds": 22.39,
+    "end_seconds": 25.55,
+    "text": "Um well, I think this was the best most productive year for so many of us.",
+    "source_text": "Um well, I think this was the best most productive year for so many of us.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:25.550",
+    "end": "00:00:28.630",
+    "start_seconds": 25.55,
+    "end_seconds": 28.63,
+    "text": "productive year for so many of us. I'm Lena. A few days ago, I solved a",
+    "source_text": "productive year for so many of us. I'm Lena. A few days ago, I solved a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:28.630",
+    "end": "00:00:31.470",
+    "start_seconds": 28.63,
+    "end_seconds": 31.47,
+    "text": "I'm Lena. A few days ago, I solved a production incident on a trail near a",
+    "source_text": "I'm Lena. A few days ago, I solved a production incident on a trail near a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:31.470",
+    "end": "00:00:32.950",
+    "start_seconds": 31.47,
+    "end_seconds": 32.95,
+    "text": "production incident on a trail near a waterfall.",
+    "source_text": "production incident on a trail near a waterfall.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:32.950",
+    "end": "00:00:34.670",
+    "start_seconds": 32.95,
+    "end_seconds": 34.67,
+    "text": "waterfall. My friend ran",
+    "source_text": "waterfall. My friend ran",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:34.670",
+    "end": "00:00:37.950",
+    "start_seconds": 34.67,
+    "end_seconds": 37.95,
+    "text": "My friend ran 18 agents while riding his bike.",
+    "source_text": "My friend ran 18 agents while riding his bike.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:37.950",
+    "end": "00:00:40.790",
+    "start_seconds": 37.95,
+    "end_seconds": 40.79,
+    "text": "18 agents while riding his bike. We're literally drowning in abundance.",
+    "source_text": "18 agents while riding his bike. We're literally drowning in abundance.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:40.790",
+    "end": "00:00:44.230",
+    "start_seconds": 40.79,
+    "end_seconds": 44.23,
+    "text": "We're literally drowning in abundance. We have more output, more speed, more",
+    "source_text": "We're literally drowning in abundance. We have more output, more speed, more",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:44.230",
+    "end": "00:00:47.350",
+    "start_seconds": 44.23,
+    "end_seconds": 47.35,
+    "text": "We have more output, more speed, more leverage than any of us have ever had.",
+    "source_text": "We have more output, more speed, more leverage than any of us have ever had.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:47.350",
+    "end": "00:00:50.550",
+    "start_seconds": 47.35,
+    "end_seconds": 50.55,
+    "text": "leverage than any of us have ever had. So, why do we have this feeling like the",
+    "source_text": "leverage than any of us have ever had. So, why do we have this feeling like the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:50.550",
+    "end": "00:00:54.510",
+    "start_seconds": 50.55,
+    "end_seconds": 54.51,
+    "text": "So, why do we have this feeling like the ground underneath is moving too fast?",
+    "source_text": "So, why do we have this feeling like the ground underneath is moving too fast?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:54.510",
+    "end": "00:00:55.990",
+    "start_seconds": 54.51,
+    "end_seconds": 55.99,
+    "text": "ground underneath is moving too fast? One of the engineers that I met at this",
+    "source_text": "ground underneath is moving too fast? One of the engineers that I met at this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:55.990",
+    "end": "00:00:57.510",
+    "start_seconds": 55.99,
+    "end_seconds": 57.51,
+    "text": "One of the engineers that I met at this conference",
+    "source_text": "One of the engineers that I met at this conference",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:57.510",
+    "end": "00:01:00.350",
+    "start_seconds": 57.51,
+    "end_seconds": 60.35,
+    "text": "conference said yesterday that it feels like",
+    "source_text": "conference said yesterday that it feels like",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:00.350",
+    "end": "00:01:02.590",
+    "start_seconds": 60.35,
+    "end_seconds": 62.59,
+    "text": "said yesterday that it feels like the opportunity cost for not working",
+    "source_text": "said yesterday that it feels like the opportunity cost for not working",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:02.590",
+    "end": "00:01:05.350",
+    "start_seconds": 62.59,
+    "end_seconds": 65.35,
+    "text": "the opportunity cost for not working 9:00 a.m. to 9:00 p.m. 6 days a week is",
+    "source_text": "the opportunity cost for not working 9:00 a.m. to 9:00 p.m. 6 days a week is",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:05.350",
+    "end": "00:01:07.590",
+    "start_seconds": 65.35,
+    "end_seconds": 67.59,
+    "text": "9:00 a.m. to 9:00 p.m. 6 days a week is too high right now.",
+    "source_text": "9:00 a.m. to 9:00 p.m. 6 days a week is too high right now.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:07.590",
+    "end": "00:01:09.670",
+    "start_seconds": 67.59,
+    "end_seconds": 69.67,
+    "text": "too high right now. So, we're all token maxing. We're all",
+    "source_text": "too high right now. So, we're all token maxing. We're all",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:09.670",
+    "end": "00:01:12.390",
+    "start_seconds": 69.67,
+    "end_seconds": 72.39,
+    "text": "So, we're all token maxing. We're all working all the time.",
+    "source_text": "So, we're all token maxing. We're all working all the time.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:12.390",
+    "end": "00:01:14.390",
+    "start_seconds": 72.39,
+    "end_seconds": 74.39,
+    "text": "working all the time. But the same abundance that made you",
+    "source_text": "working all the time. But the same abundance that made you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:14.390",
+    "end": "00:01:17.910",
+    "start_seconds": 74.39,
+    "end_seconds": 77.91,
+    "text": "But the same abundance that made you fast, it also made everyone else fast.",
+    "source_text": "But the same abundance that made you fast, it also made everyone else fast.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:17.910",
+    "end": "00:01:21.550",
+    "start_seconds": 77.91,
+    "end_seconds": 81.55,
+    "text": "fast, it also made everyone else fast. So, now everyone can build everything.",
+    "source_text": "fast, it also made everyone else fast. So, now everyone can build everything.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:21.550",
+    "end": "00:01:23.430",
+    "start_seconds": 81.55,
+    "end_seconds": 83.43,
+    "text": "So, now everyone can build everything. Your competitor can build your feature",
+    "source_text": "So, now everyone can build everything. Your competitor can build your feature",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:23.430",
+    "end": "00:01:25.510",
+    "start_seconds": 83.43,
+    "end_seconds": 85.51,
+    "text": "Your competitor can build your feature this afternoon, too.",
+    "source_text": "Your competitor can build your feature this afternoon, too.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:25.510",
+    "end": "00:01:27.950",
+    "start_seconds": 85.51,
+    "end_seconds": 87.95,
+    "text": "this afternoon, too. So, the cost of the average just went to",
+    "source_text": "this afternoon, too. So, the cost of the average just went to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:27.950",
+    "end": "00:01:31.030",
+    "start_seconds": 87.95,
+    "end_seconds": 91.03,
+    "text": "So, the cost of the average just went to zero and so did its value.",
+    "source_text": "So, the cost of the average just went to zero and so did its value.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:31.030",
+    "end": "00:01:33.110",
+    "start_seconds": 91.03,
+    "end_seconds": 93.11,
+    "text": "zero and so did its value. A year ago, the superpower, as we were",
+    "source_text": "zero and so did its value. A year ago, the superpower, as we were",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:33.110",
+    "end": "00:01:37.350",
+    "start_seconds": 93.11,
+    "end_seconds": 97.35,
+    "text": "A year ago, the superpower, as we were told, was to be good at using AI.",
+    "source_text": "A year ago, the superpower, as we were told, was to be good at using AI.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:37.350",
+    "end": "00:01:39.870",
+    "start_seconds": 97.35,
+    "end_seconds": 99.87,
+    "text": "told, was to be good at using AI. But models got so good",
+    "source_text": "told, was to be good at using AI. But models got so good",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:39.870",
+    "end": "00:01:42.910",
+    "start_seconds": 99.87,
+    "end_seconds": 102.91,
+    "text": "But models got so good and they got so easy and everybody now",
+    "source_text": "But models got so good and they got so easy and everybody now",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:42.910",
+    "end": "00:01:45.710",
+    "start_seconds": 102.91,
+    "end_seconds": 105.71,
+    "text": "and they got so easy and everybody now is a lot more skilled at using AI and",
+    "source_text": "and they got so easy and everybody now is a lot more skilled at using AI and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:45.710",
+    "end": "00:01:48.190",
+    "start_seconds": 105.71,
+    "end_seconds": 108.19,
+    "text": "is a lot more skilled at using AI and everybody's pointing AI at the same",
+    "source_text": "is a lot more skilled at using AI and everybody's pointing AI at the same",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:48.190",
+    "end": "00:01:49.510",
+    "start_seconds": 108.19,
+    "end_seconds": 109.51,
+    "text": "everybody's pointing AI at the same goals.",
+    "source_text": "everybody's pointing AI at the same goals.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:49.510",
+    "end": "00:01:52.390",
+    "start_seconds": 109.51,
+    "end_seconds": 112.39,
+    "text": "goals. Cuz AI gives everyone the same answer",
+    "source_text": "goals. Cuz AI gives everyone the same answer",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:52.390",
+    "end": "00:01:54.150",
+    "start_seconds": 112.39,
+    "end_seconds": 114.15,
+    "text": "Cuz AI gives everyone the same answer because everybody is asking the same",
+    "source_text": "Cuz AI gives everyone the same answer because everybody is asking the same",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:54.150",
+    "end": "00:01:55.350",
+    "start_seconds": 114.15,
+    "end_seconds": 115.35,
+    "text": "because everybody is asking the same question.",
+    "source_text": "because everybody is asking the same question.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:55.350",
+    "end": "00:01:57.950",
+    "start_seconds": 115.35,
+    "end_seconds": 117.95,
+    "text": "question. It It on data and data is a record of",
+    "source_text": "question. It It on data and data is a record of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:57.950",
+    "end": "00:02:00.190",
+    "start_seconds": 117.95,
+    "end_seconds": 120.19,
+    "text": "It It on data and data is a record of what has already happened.",
+    "source_text": "It It on data and data is a record of what has already happened.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:00.190",
+    "end": "00:02:03.230",
+    "start_seconds": 120.19,
+    "end_seconds": 123.23,
+    "text": "what has already happened. So, when you point AI at tasks like,",
+    "source_text": "what has already happened. So, when you point AI at tasks like,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:03.230",
+    "end": "00:02:05.030",
+    "start_seconds": 123.23,
+    "end_seconds": 125.03,
+    "text": "So, when you point AI at tasks like, \"Tell me what users want. Make more",
+    "source_text": "So, when you point AI at tasks like, \"Tell me what users want. Make more",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:05.030",
+    "end": "00:02:07.470",
+    "start_seconds": 125.03,
+    "end_seconds": 127.47,
+    "text": "\"Tell me what users want. Make more money. What should we build? Make this",
+    "source_text": "\"Tell me what users want. Make more money. What should we build? Make this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:07.470",
+    "end": "00:02:08.630",
+    "start_seconds": 127.47,
+    "end_seconds": 128.63,
+    "text": "money. What should we build? Make this viral.\"",
+    "source_text": "money. What should we build? Make this viral.\"",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:08.630",
+    "end": "00:02:11.430",
+    "start_seconds": 128.63,
+    "end_seconds": 131.43,
+    "text": "viral.\" It answers from the common knowledge.",
+    "source_text": "viral.\" It answers from the common knowledge.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:11.430",
+    "end": "00:02:13.710",
+    "start_seconds": 131.43,
+    "end_seconds": 133.71,
+    "text": "It answers from the common knowledge. Very competent, very confident, but also",
+    "source_text": "It answers from the common knowledge. Very competent, very confident, but also",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:13.710",
+    "end": "00:02:15.510",
+    "start_seconds": 133.71,
+    "end_seconds": 135.51,
+    "text": "Very competent, very confident, but also very identical to what it tells your",
+    "source_text": "Very competent, very confident, but also very identical to what it tells your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:15.510",
+    "end": "00:02:17.470",
+    "start_seconds": 135.51,
+    "end_seconds": 137.47,
+    "text": "very identical to what it tells your competitor.",
+    "source_text": "very identical to what it tells your competitor.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:17.470",
+    "end": "00:02:19.470",
+    "start_seconds": 137.47,
+    "end_seconds": 139.47,
+    "text": "competitor. To see something that data doesn't show",
+    "source_text": "competitor. To see something that data doesn't show",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:19.470",
+    "end": "00:02:21.590",
+    "start_seconds": 139.47,
+    "end_seconds": 141.59,
+    "text": "To see something that data doesn't show yet, we need to have a vision, a point",
+    "source_text": "To see something that data doesn't show yet, we need to have a vision, a point",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:21.590",
+    "end": "00:02:24.670",
+    "start_seconds": 141.59,
+    "end_seconds": 144.67,
+    "text": "yet, we need to have a vision, a point of view, a read on where it's going, and",
+    "source_text": "yet, we need to have a vision, a point of view, a read on where it's going, and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:24.670",
+    "end": "00:02:27.030",
+    "start_seconds": 144.67,
+    "end_seconds": 147.03,
+    "text": "of view, a read on where it's going, and then use all that automation to execute",
+    "source_text": "of view, a read on where it's going, and then use all that automation to execute",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:27.030",
+    "end": "00:02:28.590",
+    "start_seconds": 147.03,
+    "end_seconds": 148.59,
+    "text": "then use all that automation to execute it.",
+    "source_text": "then use all that automation to execute it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:28.590",
+    "end": "00:02:31.110",
+    "start_seconds": 148.59,
+    "end_seconds": 151.11,
+    "text": "it. AI is a really smart convergence",
+    "source_text": "it. AI is a really smart convergence",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:31.110",
+    "end": "00:02:32.310",
+    "start_seconds": 151.11,
+    "end_seconds": 152.31,
+    "text": "AI is a really smart convergence machine.",
+    "source_text": "AI is a really smart convergence machine.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:32.310",
+    "end": "00:02:34.470",
+    "start_seconds": 152.31,
+    "end_seconds": 154.47,
+    "text": "machine. So, if you leave it alone, it makes",
+    "source_text": "machine. So, if you leave it alone, it makes",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:34.470",
+    "end": "00:02:37.550",
+    "start_seconds": 154.47,
+    "end_seconds": 157.55,
+    "text": "So, if you leave it alone, it makes everything the same.",
+    "source_text": "So, if you leave it alone, it makes everything the same.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:37.550",
+    "end": "00:02:39.190",
+    "start_seconds": 157.55,
+    "end_seconds": 159.19,
+    "text": "everything the same. There is one decision, though, that AI",
+    "source_text": "everything the same. There is one decision, though, that AI",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:39.190",
+    "end": "00:02:41.670",
+    "start_seconds": 159.19,
+    "end_seconds": 161.67,
+    "text": "There is one decision, though, that AI can't and shouldn't make for you. It is",
+    "source_text": "There is one decision, though, that AI can't and shouldn't make for you. It is",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:41.670",
+    "end": "00:02:44.910",
+    "start_seconds": 161.67,
+    "end_seconds": 164.91,
+    "text": "can't and shouldn't make for you. It is to decide what to point at.",
+    "source_text": "can't and shouldn't make for you. It is to decide what to point at.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:44.910",
+    "end": "00:02:46.990",
+    "start_seconds": 164.91,
+    "end_seconds": 166.99,
+    "text": "to decide what to point at. So, the job, the new job for everyone of",
+    "source_text": "to decide what to point at. So, the job, the new job for everyone of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:46.990",
+    "end": "00:02:50.030",
+    "start_seconds": 166.99,
+    "end_seconds": 170.03,
+    "text": "So, the job, the new job for everyone of us is deciding what it makes, being the",
+    "source_text": "So, the job, the new job for everyone of us is deciding what it makes, being the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:50.030",
+    "end": "00:02:52.230",
+    "start_seconds": 170.03,
+    "end_seconds": 172.23,
+    "text": "us is deciding what it makes, being the reason the right people choose your",
+    "source_text": "us is deciding what it makes, being the reason the right people choose your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:52.230",
+    "end": "00:02:55.910",
+    "start_seconds": 172.23,
+    "end_seconds": 175.91,
+    "text": "reason the right people choose your version over the identical-looking rest.",
+    "source_text": "reason the right people choose your version over the identical-looking rest.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:55.910",
+    "end": "00:02:57.990",
+    "start_seconds": 175.91,
+    "end_seconds": 177.99,
+    "text": "version over the identical-looking rest. But also, I'm sure many of you uh walked",
+    "source_text": "version over the identical-looking rest. But also, I'm sure many of you uh walked",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:57.990",
+    "end": "00:03:00.310",
+    "start_seconds": 177.99,
+    "end_seconds": 180.31,
+    "text": "But also, I'm sure many of you uh walked around the Expo Hall at this conference,",
+    "source_text": "But also, I'm sure many of you uh walked around the Expo Hall at this conference,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:00.310",
+    "end": "00:03:02.590",
+    "start_seconds": 180.31,
+    "end_seconds": 182.59,
+    "text": "around the Expo Hall at this conference, and there are so many amazing products,",
+    "source_text": "around the Expo Hall at this conference, and there are so many amazing products,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:02.590",
+    "end": "00:03:04.670",
+    "start_seconds": 182.59,
+    "end_seconds": 184.67,
+    "text": "and there are so many amazing products, so many tools and vendors.",
+    "source_text": "and there are so many amazing products, so many tools and vendors.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:04.670",
+    "end": "00:03:07.030",
+    "start_seconds": 184.67,
+    "end_seconds": 187.03,
+    "text": "so many tools and vendors. They're all solving important problems.",
+    "source_text": "so many tools and vendors. They're all solving important problems.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:07.030",
+    "end": "00:03:11.510",
+    "start_seconds": 187.03,
+    "end_seconds": 191.51,
+    "text": "They're all solving important problems. But what Why do they all sound the same?",
+    "source_text": "They're all solving important problems. But what Why do they all sound the same?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:11.510",
+    "end": "00:03:14.150",
+    "start_seconds": 191.51,
+    "end_seconds": 194.15,
+    "text": "But what Why do they all sound the same? So, when anyone can build anything, what",
+    "source_text": "But what Why do they all sound the same? So, when anyone can build anything, what",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:14.150",
+    "end": "00:03:16.190",
+    "start_seconds": 194.15,
+    "end_seconds": 196.19,
+    "text": "So, when anyone can build anything, what makes me different? What makes you",
+    "source_text": "So, when anyone can build anything, what makes me different? What makes you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:16.190",
+    "end": "00:03:18.430",
+    "start_seconds": 196.19,
+    "end_seconds": 198.43,
+    "text": "makes me different? What makes you different? Why should anyone pick your",
+    "source_text": "makes me different? What makes you different? Why should anyone pick your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:18.430",
+    "end": "00:03:21.750",
+    "start_seconds": 198.43,
+    "end_seconds": 201.75,
+    "text": "different? Why should anyone pick your version, your product? Um I call this",
+    "source_text": "different? Why should anyone pick your version, your product? Um I call this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:21.750",
+    "end": "00:03:24.270",
+    "start_seconds": 201.75,
+    "end_seconds": 204.27,
+    "text": "version, your product? Um I call this work uh signal layer.",
+    "source_text": "version, your product? Um I call this work uh signal layer.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:24.270",
+    "end": "00:03:26.590",
+    "start_seconds": 204.27,
+    "end_seconds": 206.59,
+    "text": "work uh signal layer. And there are two There's two halves to",
+    "source_text": "work uh signal layer. And there are two There's two halves to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:26.590",
+    "end": "00:03:29.350",
+    "start_seconds": 206.59,
+    "end_seconds": 209.35,
+    "text": "And there are two There's two halves to solving it, to getting this right. So,",
+    "source_text": "And there are two There's two halves to solving it, to getting this right. So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:29.350",
+    "end": "00:03:31.590",
+    "start_seconds": 209.35,
+    "end_seconds": 211.59,
+    "text": "solving it, to getting this right. So, that's how we will walk through it.",
+    "source_text": "solving it, to getting this right. So, that's how we will walk through it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:31.590",
+    "end": "00:03:34.670",
+    "start_seconds": 211.59,
+    "end_seconds": 214.67,
+    "text": "that's how we will walk through it. The first half is knowing your signal,",
+    "source_text": "that's how we will walk through it. The first half is knowing your signal,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:34.670",
+    "end": "00:03:37.110",
+    "start_seconds": 214.67,
+    "end_seconds": 217.11,
+    "text": "The first half is knowing your signal, being able to define it very clearly.",
+    "source_text": "The first half is knowing your signal, being able to define it very clearly.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:37.110",
+    "end": "00:03:39.350",
+    "start_seconds": 217.11,
+    "end_seconds": 219.35,
+    "text": "being able to define it very clearly. What you're building and why it's yours",
+    "source_text": "being able to define it very clearly. What you're building and why it's yours",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:39.350",
+    "end": "00:03:41.390",
+    "start_seconds": 219.35,
+    "end_seconds": 221.39,
+    "text": "What you're building and why it's yours and not the average. So, that's the",
+    "source_text": "What you're building and why it's yours and not the average. So, that's the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:41.390",
+    "end": "00:03:43.670",
+    "start_seconds": 221.39,
+    "end_seconds": 223.67,
+    "text": "and not the average. So, that's the build side, the code, the product, the",
+    "source_text": "and not the average. So, that's the build side, the code, the product, the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:43.670",
+    "end": "00:03:45.310",
+    "start_seconds": 223.67,
+    "end_seconds": 225.31,
+    "text": "build side, the code, the product, the road map.",
+    "source_text": "build side, the code, the product, the road map.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:45.310",
+    "end": "00:03:47.750",
+    "start_seconds": 225.31,
+    "end_seconds": 227.75,
+    "text": "road map. And the second half is emitting that",
+    "source_text": "road map. And the second half is emitting that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:47.750",
+    "end": "00:03:50.630",
+    "start_seconds": 227.75,
+    "end_seconds": 230.63,
+    "text": "And the second half is emitting that signal without distortion. So, making",
+    "source_text": "And the second half is emitting that signal without distortion. So, making",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:50.630",
+    "end": "00:03:53.950",
+    "start_seconds": 230.63,
+    "end_seconds": 233.95,
+    "text": "signal without distortion. So, making sure that your customers um making sure",
+    "source_text": "signal without distortion. So, making sure that your customers um making sure",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:53.950",
+    "end": "00:03:55.870",
+    "start_seconds": 233.95,
+    "end_seconds": 235.87,
+    "text": "sure that your customers um making sure what your customers come to believe",
+    "source_text": "sure that your customers um making sure what your customers come to believe",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:55.870",
+    "end": "00:03:58.190",
+    "start_seconds": 235.87,
+    "end_seconds": 238.19,
+    "text": "what your customers come to believe about you actually matches what you",
+    "source_text": "what your customers come to believe about you actually matches what you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:58.190",
+    "end": "00:04:00.430",
+    "start_seconds": 238.19,
+    "end_seconds": 240.43,
+    "text": "about you actually matches what you believe and what you've built.",
+    "source_text": "about you actually matches what you believe and what you've built.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:00.430",
+    "end": "00:04:02.710",
+    "start_seconds": 240.43,
+    "end_seconds": 242.71,
+    "text": "believe and what you've built. That's the ship side the content and go",
+    "source_text": "believe and what you've built. That's the ship side the content and go",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:02.710",
+    "end": "00:04:05.390",
+    "start_seconds": 242.71,
+    "end_seconds": 245.39,
+    "text": "That's the ship side the content and go to market engineering.",
+    "source_text": "That's the ship side the content and go to market engineering.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:05.390",
+    "end": "00:04:07.550",
+    "start_seconds": 245.39,
+    "end_seconds": 247.55,
+    "text": "to market engineering. And I've had an unusual vantage point in",
+    "source_text": "to market engineering. And I've had an unusual vantage point in",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:07.550",
+    "end": "00:04:09.270",
+    "start_seconds": 247.55,
+    "end_seconds": 249.27,
+    "text": "And I've had an unusual vantage point in this. I've built products as an",
+    "source_text": "And I've had an unusual vantage point in this. I've built products as an",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:09.270",
+    "end": "00:04:12.390",
+    "start_seconds": 249.27,
+    "end_seconds": 252.39,
+    "text": "this. I've built products as an engineer. I created my own as a founder.",
+    "source_text": "this. I've built products as an engineer. I created my own as a founder.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:12.390",
+    "end": "00:04:14.430",
+    "start_seconds": 252.39,
+    "end_seconds": 254.43,
+    "text": "engineer. I created my own as a founder. I brought other people's products to",
+    "source_text": "engineer. I created my own as a founder. I brought other people's products to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:14.430",
+    "end": "00:04:17.310",
+    "start_seconds": 254.43,
+    "end_seconds": 257.31,
+    "text": "I brought other people's products to market. So three very different jobs",
+    "source_text": "I brought other people's products to market. So three very different jobs",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:17.310",
+    "end": "00:04:20.830",
+    "start_seconds": 257.31,
+    "end_seconds": 260.83,
+    "text": "market. So three very different jobs with one identical challenge. The signal",
+    "source_text": "market. So three very different jobs with one identical challenge. The signal",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:20.830",
+    "end": "00:04:23.670",
+    "start_seconds": 260.83,
+    "end_seconds": 263.67,
+    "text": "with one identical challenge. The signal doesn't always survive. So let's start",
+    "source_text": "with one identical challenge. The signal doesn't always survive. So let's start",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:23.670",
+    "end": "00:04:25.830",
+    "start_seconds": 263.67,
+    "end_seconds": 265.83,
+    "text": "doesn't always survive. So let's start with the build side.",
+    "source_text": "doesn't always survive. So let's start with the build side.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:25.830",
+    "end": "00:04:28.190",
+    "start_seconds": 265.83,
+    "end_seconds": 268.19,
+    "text": "with the build side. So what do we even work on? Everything",
+    "source_text": "with the build side. So what do we even work on? Everything",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:28.190",
+    "end": "00:04:30.950",
+    "start_seconds": 268.19,
+    "end_seconds": 270.95,
+    "text": "So what do we even work on? Everything is implementable.",
+    "source_text": "So what do we even work on? Everything is implementable.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:30.950",
+    "end": "00:04:33.790",
+    "start_seconds": 270.95,
+    "end_seconds": 273.79,
+    "text": "is implementable. Two years ago the best autonomous coding",
+    "source_text": "is implementable. Two years ago the best autonomous coding",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:33.790",
+    "end": "00:04:36.150",
+    "start_seconds": 273.79,
+    "end_seconds": 276.15,
+    "text": "Two years ago the best autonomous coding agents you know solved on the fraction",
+    "source_text": "Two years ago the best autonomous coding agents you know solved on the fraction",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:36.150",
+    "end": "00:04:38.590",
+    "start_seconds": 276.15,
+    "end_seconds": 278.59,
+    "text": "agents you know solved on the fraction of the tasks on the standard software",
+    "source_text": "agents you know solved on the fraction of the tasks on the standard software",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:38.590",
+    "end": "00:04:39.870",
+    "start_seconds": 278.59,
+    "end_seconds": 279.87,
+    "text": "of the tasks on the standard software benchmark",
+    "source_text": "of the tasks on the standard software benchmark",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:39.870",
+    "end": "00:04:41.910",
+    "start_seconds": 279.87,
+    "end_seconds": 281.91,
+    "text": "benchmark and now the best agents are in the high",
+    "source_text": "benchmark and now the best agents are in the high",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:41.910",
+    "end": "00:04:43.830",
+    "start_seconds": 281.91,
+    "end_seconds": 283.83,
+    "text": "and now the best agents are in the high eighties. So we nearly tripled the",
+    "source_text": "and now the best agents are in the high eighties. So we nearly tripled the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:43.830",
+    "end": "00:04:45.310",
+    "start_seconds": 283.83,
+    "end_seconds": 285.31,
+    "text": "eighties. So we nearly tripled the amount of",
+    "source_text": "eighties. So we nearly tripled the amount of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:45.310",
+    "end": "00:04:48.230",
+    "start_seconds": 285.31,
+    "end_seconds": 288.23,
+    "text": "amount of writing and shipping barely moved a",
+    "source_text": "amount of writing and shipping barely moved a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:48.230",
+    "end": "00:04:49.510",
+    "start_seconds": 288.23,
+    "end_seconds": 289.51,
+    "text": "writing and shipping barely moved a third.",
+    "source_text": "writing and shipping barely moved a third.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:49.510",
+    "end": "00:04:51.470",
+    "start_seconds": 289.51,
+    "end_seconds": 291.47,
+    "text": "third. The benchmark was measuring the part of",
+    "source_text": "third. The benchmark was measuring the part of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:51.470",
+    "end": "00:04:53.190",
+    "start_seconds": 291.47,
+    "end_seconds": 293.19,
+    "text": "The benchmark was measuring the part of software engineering",
+    "source_text": "The benchmark was measuring the part of software engineering",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:53.190",
+    "end": "00:04:55.750",
+    "start_seconds": 293.19,
+    "end_seconds": 295.75,
+    "text": "software engineering that has a greater",
+    "source_text": "software engineering that has a greater",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:55.750",
+    "end": "00:04:57.710",
+    "start_seconds": 295.75,
+    "end_seconds": 297.71,
+    "text": "that has a greater and shipping is where all the ungraded",
+    "source_text": "that has a greater and shipping is where all the ungraded",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:57.710",
+    "end": "00:05:01.390",
+    "start_seconds": 297.71,
+    "end_seconds": 301.39,
+    "text": "and shipping is where all the ungraded parts come back in. So",
+    "source_text": "and shipping is where all the ungraded parts come back in. So",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:01.390",
+    "end": "00:05:03.910",
+    "start_seconds": 301.39,
+    "end_seconds": 303.91,
+    "text": "parts come back in. So here is the rule underneath it. Anything",
+    "source_text": "parts come back in. So here is the rule underneath it. Anything",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:03.910",
+    "end": "00:05:05.990",
+    "start_seconds": 303.91,
+    "end_seconds": 305.99,
+    "text": "here is the rule underneath it. Anything that you can measure you can train",
+    "source_text": "here is the rule underneath it. Anything that you can measure you can train",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:05.990",
+    "end": "00:05:09.310",
+    "start_seconds": 305.99,
+    "end_seconds": 309.31,
+    "text": "that you can measure you can train against as Sarah Guo puts it.",
+    "source_text": "that you can measure you can train against as Sarah Guo puts it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:09.310",
+    "end": "00:05:12.030",
+    "start_seconds": 309.31,
+    "end_seconds": 312.03,
+    "text": "against as Sarah Guo puts it. A compiler is a free grader. A test",
+    "source_text": "against as Sarah Guo puts it. A compiler is a free grader. A test",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:12.030",
+    "end": "00:05:14.070",
+    "start_seconds": 312.03,
+    "end_seconds": 314.07,
+    "text": "A compiler is a free grader. A test suite is a free grader.",
+    "source_text": "A compiler is a free grader. A test suite is a free grader.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:14.070",
+    "end": "00:05:17.030",
+    "start_seconds": 314.07,
+    "end_seconds": 317.03,
+    "text": "suite is a free grader. And the instant a task can grade itself",
+    "source_text": "suite is a free grader. And the instant a task can grade itself",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:17.030",
+    "end": "00:05:20.510",
+    "start_seconds": 317.03,
+    "end_seconds": 320.51,
+    "text": "And the instant a task can grade itself you can grind a model against you know",
+    "source_text": "And the instant a task can grade itself you can grind a model against you know",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:20.510",
+    "end": "00:05:23.910",
+    "start_seconds": 320.51,
+    "end_seconds": 323.91,
+    "text": "you can grind a model against you know that grade until it wins. Automation",
+    "source_text": "you can grind a model against you know that grade until it wins. Automation",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:23.910",
+    "end": "00:05:26.150",
+    "start_seconds": 323.91,
+    "end_seconds": 326.15,
+    "text": "that grade until it wins. Automation of code was first because it's the most",
+    "source_text": "that grade until it wins. Automation of code was first because it's the most",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:26.150",
+    "end": "00:05:28.870",
+    "start_seconds": 326.15,
+    "end_seconds": 328.87,
+    "text": "of code was first because it's the most checkable thing that we have.",
+    "source_text": "of code was first because it's the most checkable thing that we have.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:28.870",
+    "end": "00:05:31.510",
+    "start_seconds": 328.87,
+    "end_seconds": 331.51,
+    "text": "checkable thing that we have. So implementation is converging for free",
+    "source_text": "checkable thing that we have. So implementation is converging for free",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:31.510",
+    "end": "00:05:33.870",
+    "start_seconds": 331.51,
+    "end_seconds": 333.87,
+    "text": "So implementation is converging for free for everyone at the same time",
+    "source_text": "So implementation is converging for free for everyone at the same time",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:33.870",
+    "end": "00:05:35.670",
+    "start_seconds": 333.87,
+    "end_seconds": 335.67,
+    "text": "for everyone at the same time and the most buildable thing and the",
+    "source_text": "for everyone at the same time and the most buildable thing and the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:35.670",
+    "end": "00:05:38.070",
+    "start_seconds": 335.67,
+    "end_seconds": 338.07,
+    "text": "and the most buildable thing and the most valuable thing are almost never the",
+    "source_text": "and the most buildable thing and the most valuable thing are almost never the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:38.070",
+    "end": "00:05:40.390",
+    "start_seconds": 338.07,
+    "end_seconds": 340.39,
+    "text": "most valuable thing are almost never the same thing.",
+    "source_text": "most valuable thing are almost never the same thing.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:40.390",
+    "end": "00:05:42.110",
+    "start_seconds": 340.39,
+    "end_seconds": 342.11,
+    "text": "same thing. So the model will build whatever you",
+    "source_text": "same thing. So the model will build whatever you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:42.110",
+    "end": "00:05:44.550",
+    "start_seconds": 342.11,
+    "end_seconds": 344.55,
+    "text": "So the model will build whatever you point it at but it will tell you nothing",
+    "source_text": "So the model will build whatever you point it at but it will tell you nothing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:44.550",
+    "end": "00:05:47.350",
+    "start_seconds": 344.55,
+    "end_seconds": 347.35,
+    "text": "point it at but it will tell you nothing about where to point. Anything visible",
+    "source_text": "point it at but it will tell you nothing about where to point. Anything visible",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:47.350",
+    "end": "00:05:50.110",
+    "start_seconds": 347.35,
+    "end_seconds": 350.11,
+    "text": "about where to point. Anything visible is replicatable.",
+    "source_text": "about where to point. Anything visible is replicatable.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:50.110",
+    "end": "00:05:51.550",
+    "start_seconds": 350.11,
+    "end_seconds": 351.55,
+    "text": "is replicatable. So now, some people when they hear",
+    "source_text": "is replicatable. So now, some people when they hear",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:51.550",
+    "end": "00:05:54.670",
+    "start_seconds": 351.55,
+    "end_seconds": 354.67,
+    "text": "So now, some people when they hear everything is implementable, they panic.",
+    "source_text": "So now, some people when they hear everything is implementable, they panic.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:54.670",
+    "end": "00:05:56.910",
+    "start_seconds": 354.67,
+    "end_seconds": 356.91,
+    "text": "everything is implementable, they panic. Um but we can flip the question.",
+    "source_text": "everything is implementable, they panic. Um but we can flip the question.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:56.910",
+    "end": "00:05:59.870",
+    "start_seconds": 356.91,
+    "end_seconds": 359.87,
+    "text": "Um but we can flip the question. The pointing is actually the job. It has",
+    "source_text": "Um but we can flip the question. The pointing is actually the job. It has",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:59.870",
+    "end": "00:06:02.430",
+    "start_seconds": 359.87,
+    "end_seconds": 362.43,
+    "text": "The pointing is actually the job. It has always been the job. We just had so much",
+    "source_text": "The pointing is actually the job. It has always been the job. We just had so much",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:02.430",
+    "end": "00:06:05.470",
+    "start_seconds": 362.43,
+    "end_seconds": 365.47,
+    "text": "always been the job. We just had so much implementation work in the way",
+    "source_text": "always been the job. We just had so much implementation work in the way",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:05.470",
+    "end": "00:06:08.350",
+    "start_seconds": 365.47,
+    "end_seconds": 368.35,
+    "text": "implementation work in the way um that we never had to get good at it.",
+    "source_text": "implementation work in the way um that we never had to get good at it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:08.350",
+    "end": "00:06:09.950",
+    "start_seconds": 368.35,
+    "end_seconds": 369.95,
+    "text": "um that we never had to get good at it. So, how do you decide where to point",
+    "source_text": "um that we never had to get good at it. So, how do you decide where to point",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:09.950",
+    "end": "00:06:11.390",
+    "start_seconds": 369.95,
+    "end_seconds": 371.39,
+    "text": "So, how do you decide where to point that?",
+    "source_text": "So, how do you decide where to point that?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:11.390",
+    "end": "00:06:14.830",
+    "start_seconds": 371.39,
+    "end_seconds": 374.83,
+    "text": "that? Paul Graham shared some wisdom on this.",
+    "source_text": "that? Paul Graham shared some wisdom on this.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:14.830",
+    "end": "00:06:16.150",
+    "start_seconds": 374.83,
+    "end_seconds": 376.15,
+    "text": "Paul Graham shared some wisdom on this. Where you find something that people",
+    "source_text": "Paul Graham shared some wisdom on this. Where you find something that people",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:16.150",
+    "end": "00:06:18.670",
+    "start_seconds": 376.15,
+    "end_seconds": 378.67,
+    "text": "Where you find something that people genuinely want is by feeling the need",
+    "source_text": "Where you find something that people genuinely want is by feeling the need",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:18.670",
+    "end": "00:06:20.710",
+    "start_seconds": 378.67,
+    "end_seconds": 380.71,
+    "text": "genuinely want is by feeling the need yourself.",
+    "source_text": "genuinely want is by feeling the need yourself.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:20.710",
+    "end": "00:06:22.190",
+    "start_seconds": 380.71,
+    "end_seconds": 382.19,
+    "text": "yourself. Build something you and your friends",
+    "source_text": "yourself. Build something you and your friends",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:22.190",
+    "end": "00:06:24.310",
+    "start_seconds": 382.19,
+    "end_seconds": 384.31,
+    "text": "Build something you and your friends need because the market hasn't formed",
+    "source_text": "Build something you and your friends need because the market hasn't formed",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:24.310",
+    "end": "00:06:27.230",
+    "start_seconds": 384.31,
+    "end_seconds": 387.23,
+    "text": "need because the market hasn't formed yet, surveys can't see it, and your own",
+    "source_text": "need because the market hasn't formed yet, surveys can't see it, and your own",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:27.230",
+    "end": "00:06:29.670",
+    "start_seconds": 387.23,
+    "end_seconds": 389.67,
+    "text": "yet, surveys can't see it, and your own need is the only signal that isn't a",
+    "source_text": "yet, surveys can't see it, and your own need is the only signal that isn't a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:29.670",
+    "end": "00:06:31.470",
+    "start_seconds": 389.67,
+    "end_seconds": 391.47,
+    "text": "need is the only signal that isn't a crap signal.",
+    "source_text": "need is the only signal that isn't a crap signal.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:31.470",
+    "end": "00:06:34.350",
+    "start_seconds": 391.47,
+    "end_seconds": 394.35,
+    "text": "crap signal. And the best ideas may sound genuinely",
+    "source_text": "crap signal. And the best ideas may sound genuinely",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:34.350",
+    "end": "00:06:37.350",
+    "start_seconds": 394.35,
+    "end_seconds": 397.35,
+    "text": "And the best ideas may sound genuinely lame at first, like a guy uh strapped",
+    "source_text": "And the best ideas may sound genuinely lame at first, like a guy uh strapped",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:37.350",
+    "end": "00:06:39.790",
+    "start_seconds": 397.35,
+    "end_seconds": 399.79,
+    "text": "lame at first, like a guy uh strapped with a with a camera on his head live",
+    "source_text": "lame at first, like a guy uh strapped with a with a camera on his head live",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:39.790",
+    "end": "00:06:41.990",
+    "start_seconds": 399.79,
+    "end_seconds": 401.99,
+    "text": "with a with a camera on his head live streaming his his life. That sounds",
+    "source_text": "with a with a camera on his head live streaming his his life. That sounds",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:41.990",
+    "end": "00:06:44.590",
+    "start_seconds": 401.99,
+    "end_seconds": 404.59,
+    "text": "streaming his his life. That sounds really ridiculous, but it became Twitch.",
+    "source_text": "streaming his his life. That sounds really ridiculous, but it became Twitch.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:44.590",
+    "end": "00:06:46.990",
+    "start_seconds": 404.59,
+    "end_seconds": 406.99,
+    "text": "really ridiculous, but it became Twitch. Um and the convergence machine doesn't",
+    "source_text": "really ridiculous, but it became Twitch. Um and the convergence machine doesn't",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:46.990",
+    "end": "00:06:49.390",
+    "start_seconds": 406.99,
+    "end_seconds": 409.39,
+    "text": "Um and the convergence machine doesn't really, you know, propose proactively",
+    "source_text": "Um and the convergence machine doesn't really, you know, propose proactively",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:49.390",
+    "end": "00:06:50.430",
+    "start_seconds": 409.39,
+    "end_seconds": 410.43,
+    "text": "really, you know, propose proactively these",
+    "source_text": "really, you know, propose proactively these",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:50.430",
+    "end": "00:06:52.230",
+    "start_seconds": 410.43,
+    "end_seconds": 412.23,
+    "text": "these uh weird, specific, genuinely",
+    "source_text": "these uh weird, specific, genuinely",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:52.230",
+    "end": "00:06:54.030",
+    "start_seconds": 412.23,
+    "end_seconds": 414.03,
+    "text": "uh weird, specific, genuinely embarrassing ideas.",
+    "source_text": "uh weird, specific, genuinely embarrassing ideas.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:54.030",
+    "end": "00:06:56.550",
+    "start_seconds": 414.03,
+    "end_seconds": 416.55,
+    "text": "embarrassing ideas. But even with the Twitch example,",
+    "source_text": "embarrassing ideas. But even with the Twitch example,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:56.550",
+    "end": "00:06:59.710",
+    "start_seconds": 416.55,
+    "end_seconds": 419.71,
+    "text": "But even with the Twitch example, it worked, but there were a thousand",
+    "source_text": "But even with the Twitch example, it worked, but there were a thousand",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:59.710",
+    "end": "00:07:01.830",
+    "start_seconds": 419.71,
+    "end_seconds": 421.83,
+    "text": "it worked, but there were a thousand other similar startups I start startup",
+    "source_text": "it worked, but there were a thousand other similar startups I start startup",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:01.830",
+    "end": "00:07:03.910",
+    "start_seconds": 421.83,
+    "end_seconds": 423.91,
+    "text": "other similar startups I start startup ideas that didn't.",
+    "source_text": "other similar startups I start startup ideas that didn't.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:03.910",
+    "end": "00:07:05.910",
+    "start_seconds": 423.91,
+    "end_seconds": 425.91,
+    "text": "ideas that didn't. So, the weird specific signal is",
+    "source_text": "ideas that didn't. So, the weird specific signal is",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:05.910",
+    "end": "00:07:10.070",
+    "start_seconds": 425.91,
+    "end_seconds": 430.07,
+    "text": "So, the weird specific signal is necessary, but it is not sufficient.",
+    "source_text": "So, the weird specific signal is necessary, but it is not sufficient.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:10.070",
+    "end": "00:07:12.910",
+    "start_seconds": 430.07,
+    "end_seconds": 432.91,
+    "text": "necessary, but it is not sufficient. It's also really tempting to say that",
+    "source_text": "necessary, but it is not sufficient. It's also really tempting to say that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:12.910",
+    "end": "00:07:15.150",
+    "start_seconds": 432.91,
+    "end_seconds": 435.15,
+    "text": "It's also really tempting to say that we just need to have good judgment and",
+    "source_text": "It's also really tempting to say that we just need to have good judgment and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:15.150",
+    "end": "00:07:19.150",
+    "start_seconds": 435.15,
+    "end_seconds": 439.15,
+    "text": "we just need to have good judgment and good taste and call it safe. But taste",
+    "source_text": "we just need to have good judgment and good taste and call it safe. But taste",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:19.150",
+    "end": "00:07:20.990",
+    "start_seconds": 439.15,
+    "end_seconds": 440.99,
+    "text": "good taste and call it safe. But taste is really just preference under",
+    "source_text": "good taste and call it safe. But taste is really just preference under",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:20.990",
+    "end": "00:07:23.630",
+    "start_seconds": 440.99,
+    "end_seconds": 443.63,
+    "text": "is really just preference under feedback, and preference under feedback",
+    "source_text": "is really just preference under feedback, and preference under feedback",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:23.630",
+    "end": "00:07:26.470",
+    "start_seconds": 443.63,
+    "end_seconds": 446.47,
+    "text": "feedback, and preference under feedback is exactly what these systems can learn.",
+    "source_text": "feedback, and preference under feedback is exactly what these systems can learn.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:26.470",
+    "end": "00:07:27.910",
+    "start_seconds": 446.47,
+    "end_seconds": 447.91,
+    "text": "is exactly what these systems can learn. Anything you can demonstrate enough",
+    "source_text": "is exactly what these systems can learn. Anything you can demonstrate enough",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:27.910",
+    "end": "00:07:29.190",
+    "start_seconds": 447.91,
+    "end_seconds": 449.19,
+    "text": "Anything you can demonstrate enough times",
+    "source_text": "Anything you can demonstrate enough times",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:29.190",
+    "end": "00:07:31.510",
+    "start_seconds": 449.19,
+    "end_seconds": 451.51,
+    "text": "times uh with a better or worse signal",
+    "source_text": "times uh with a better or worse signal",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:31.510",
+    "end": "00:07:33.950",
+    "start_seconds": 451.51,
+    "end_seconds": 453.95,
+    "text": "uh with a better or worse signal attached, the machine can eventually",
+    "source_text": "uh with a better or worse signal attached, the machine can eventually",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:33.950",
+    "end": "00:07:36.950",
+    "start_seconds": 453.95,
+    "end_seconds": 456.95,
+    "text": "attached, the machine can eventually imitate. So, broad good taste is not",
+    "source_text": "attached, the machine can eventually imitate. So, broad good taste is not",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:36.950",
+    "end": "00:07:39.550",
+    "start_seconds": 456.95,
+    "end_seconds": 459.55,
+    "text": "imitate. So, broad good taste is not really a differentiator.",
+    "source_text": "imitate. So, broad good taste is not really a differentiator.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:39.550",
+    "end": "00:07:41.830",
+    "start_seconds": 459.55,
+    "end_seconds": 461.83,
+    "text": "really a differentiator. What actually resists",
+    "source_text": "really a differentiator. What actually resists",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:41.830",
+    "end": "00:07:43.990",
+    "start_seconds": 461.83,
+    "end_seconds": 463.99,
+    "text": "What actually resists training is more narrow and more",
+    "source_text": "What actually resists training is more narrow and more",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:43.990",
+    "end": "00:07:46.510",
+    "start_seconds": 463.99,
+    "end_seconds": 466.51,
+    "text": "training is more narrow and more durable. So, two things.",
+    "source_text": "training is more narrow and more durable. So, two things.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:46.510",
+    "end": "00:07:48.910",
+    "start_seconds": 466.51,
+    "end_seconds": 468.91,
+    "text": "durable. So, two things. Taste and judgement about what hasn't",
+    "source_text": "durable. So, two things. Taste and judgement about what hasn't",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:48.910",
+    "end": "00:07:50.470",
+    "start_seconds": 468.91,
+    "end_seconds": 470.47,
+    "text": "Taste and judgement about what hasn't happened yet.",
+    "source_text": "Taste and judgement about what hasn't happened yet.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:50.470",
+    "end": "00:07:51.870",
+    "start_seconds": 470.47,
+    "end_seconds": 471.87,
+    "text": "happened yet. Because there's no data for an event",
+    "source_text": "happened yet. Because there's no data for an event",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:51.870",
+    "end": "00:07:54.150",
+    "start_seconds": 471.87,
+    "end_seconds": 474.15,
+    "text": "Because there's no data for an event that hasn't occurred. And then taste and",
+    "source_text": "Because there's no data for an event that hasn't occurred. And then taste and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:54.150",
+    "end": "00:07:56.350",
+    "start_seconds": 474.15,
+    "end_seconds": 476.35,
+    "text": "that hasn't occurred. And then taste and judgement embedded in a relationship",
+    "source_text": "that hasn't occurred. And then taste and judgement embedded in a relationship",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:56.350",
+    "end": "00:07:58.430",
+    "start_seconds": 476.35,
+    "end_seconds": 478.43,
+    "text": "judgement embedded in a relationship that the model can't observe.",
+    "source_text": "judgement embedded in a relationship that the model can't observe.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:58.430",
+    "end": "00:08:00.830",
+    "start_seconds": 478.43,
+    "end_seconds": 480.83,
+    "text": "that the model can't observe. What this customer in this situation",
+    "source_text": "that the model can't observe. What this customer in this situation",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:00.830",
+    "end": "00:08:03.230",
+    "start_seconds": 480.83,
+    "end_seconds": 483.23,
+    "text": "What this customer in this situation with this history that you share",
+    "source_text": "What this customer in this situation with this history that you share",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:03.230",
+    "end": "00:08:05.670",
+    "start_seconds": 483.23,
+    "end_seconds": 485.67,
+    "text": "with this history that you share actually needs.",
+    "source_text": "with this history that you share actually needs.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:05.670",
+    "end": "00:08:07.630",
+    "start_seconds": 485.67,
+    "end_seconds": 487.63,
+    "text": "actually needs. The model has read everything ever",
+    "source_text": "actually needs. The model has read everything ever",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:07.630",
+    "end": "00:08:09.830",
+    "start_seconds": 487.63,
+    "end_seconds": 489.83,
+    "text": "The model has read everything ever written about your customer, but it has",
+    "source_text": "The model has read everything ever written about your customer, but it has",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:09.830",
+    "end": "00:08:12.310",
+    "start_seconds": 489.83,
+    "end_seconds": 492.31,
+    "text": "written about your customer, but it has never actually met them.",
+    "source_text": "written about your customer, but it has never actually met them.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:12.310",
+    "end": "00:08:14.670",
+    "start_seconds": 492.31,
+    "end_seconds": 494.67,
+    "text": "never actually met them. So, if broad judgement is not safe, and",
+    "source_text": "never actually met them. So, if broad judgement is not safe, and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:14.670",
+    "end": "00:08:17.350",
+    "start_seconds": 494.67,
+    "end_seconds": 497.35,
+    "text": "So, if broad judgement is not safe, and the AI just handed everyone the ability",
+    "source_text": "So, if broad judgement is not safe, and the AI just handed everyone the ability",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:17.350",
+    "end": "00:08:19.830",
+    "start_seconds": 497.35,
+    "end_seconds": 499.83,
+    "text": "the AI just handed everyone the ability to build anything, what's left to be",
+    "source_text": "the AI just handed everyone the ability to build anything, what's left to be",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:19.830",
+    "end": "00:08:21.750",
+    "start_seconds": 499.83,
+    "end_seconds": 501.75,
+    "text": "to build anything, what's left to be good at?",
+    "source_text": "to build anything, what's left to be good at?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:21.750",
+    "end": "00:08:24.190",
+    "start_seconds": 501.75,
+    "end_seconds": 504.19,
+    "text": "good at? Richard Hamming uh spent his career",
+    "source_text": "good at? Richard Hamming uh spent his career",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:24.190",
+    "end": "00:08:27.190",
+    "start_seconds": 504.19,
+    "end_seconds": 507.19,
+    "text": "Richard Hamming uh spent his career studying why some scientists did great",
+    "source_text": "Richard Hamming uh spent his career studying why some scientists did great",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:27.190",
+    "end": "00:08:30.230",
+    "start_seconds": 507.19,
+    "end_seconds": 510.23,
+    "text": "studying why some scientists did great work and others who were just as smart",
+    "source_text": "studying why some scientists did great work and others who were just as smart",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:30.230",
+    "end": "00:08:32.190",
+    "start_seconds": 510.23,
+    "end_seconds": 512.19,
+    "text": "work and others who were just as smart didn't.",
+    "source_text": "work and others who were just as smart didn't.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:32.190",
+    "end": "00:08:34.510",
+    "start_seconds": 512.19,
+    "end_seconds": 514.51,
+    "text": "didn't. He found that the great ones worked on",
+    "source_text": "didn't. He found that the great ones worked on",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:34.510",
+    "end": "00:08:37.510",
+    "start_seconds": 514.51,
+    "end_seconds": 517.51,
+    "text": "He found that the great ones worked on important problems.",
+    "source_text": "He found that the great ones worked on important problems.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:37.510",
+    "end": "00:08:39.390",
+    "start_seconds": 517.51,
+    "end_seconds": 519.39,
+    "text": "important problems. And the problem isn't important because",
+    "source_text": "important problems. And the problem isn't important because",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:39.390",
+    "end": "00:08:42.070",
+    "start_seconds": 519.39,
+    "end_seconds": 522.07,
+    "text": "And the problem isn't important because it just sounds impressive.",
+    "source_text": "And the problem isn't important because it just sounds impressive.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:42.070",
+    "end": "00:08:43.470",
+    "start_seconds": 522.07,
+    "end_seconds": 523.47,
+    "text": "it just sounds impressive. It's important when you have a",
+    "source_text": "it just sounds impressive. It's important when you have a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:43.470",
+    "end": "00:08:45.910",
+    "start_seconds": 523.47,
+    "end_seconds": 525.91,
+    "text": "It's important when you have a reasonable attack on it. For example,",
+    "source_text": "It's important when you have a reasonable attack on it. For example,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:45.910",
+    "end": "00:08:48.190",
+    "start_seconds": 525.91,
+    "end_seconds": 528.19,
+    "text": "reasonable attack on it. For example, time travel is consequential, he would",
+    "source_text": "reasonable attack on it. For example, time travel is consequential, he would",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:48.190",
+    "end": "00:08:50.230",
+    "start_seconds": 528.19,
+    "end_seconds": 530.23,
+    "text": "time travel is consequential, he would say, but it's not important because",
+    "source_text": "time travel is consequential, he would say, but it's not important because",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:50.230",
+    "end": "00:08:52.630",
+    "start_seconds": 530.23,
+    "end_seconds": 532.63,
+    "text": "say, but it's not important because nobody has an attack on it.",
+    "source_text": "say, but it's not important because nobody has an attack on it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:52.630",
+    "end": "00:08:54.710",
+    "start_seconds": 532.63,
+    "end_seconds": 534.71,
+    "text": "nobody has an attack on it. So, Hamming would tell you to keep 10 or",
+    "source_text": "nobody has an attack on it. So, Hamming would tell you to keep 10 or",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:54.710",
+    "end": "00:08:56.590",
+    "start_seconds": 534.71,
+    "end_seconds": 536.59,
+    "text": "So, Hamming would tell you to keep 10 or 20 ideas",
+    "source_text": "So, Hamming would tell you to keep 10 or 20 ideas",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:56.590",
+    "end": "00:08:57.430",
+    "start_seconds": 536.59,
+    "end_seconds": 537.43,
+    "text": "20 ideas um",
+    "source_text": "20 ideas um",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:57.430",
+    "end": "00:08:58.990",
+    "start_seconds": 537.43,
+    "end_seconds": 538.99,
+    "text": "um on important problems in the back of",
+    "source_text": "um on important problems in the back of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:58.990",
+    "end": "00:09:01.190",
+    "start_seconds": 538.99,
+    "end_seconds": 541.19,
+    "text": "on important problems in the back of your mind so that when you finally have",
+    "source_text": "on important problems in the back of your mind so that when you finally have",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:01.190",
+    "end": "00:09:04.110",
+    "start_seconds": 541.19,
+    "end_seconds": 544.11,
+    "text": "your mind so that when you finally have an attack, a new tool, a new angle I",
+    "source_text": "your mind so that when you finally have an attack, a new tool, a new angle I",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:04.110",
+    "end": "00:09:06.230",
+    "start_seconds": 544.11,
+    "end_seconds": 546.23,
+    "text": "an attack, a new tool, a new angle I think that only you noticed, then you go",
+    "source_text": "an attack, a new tool, a new angle I think that only you noticed, then you go",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:06.230",
+    "end": "00:09:08.030",
+    "start_seconds": 546.23,
+    "end_seconds": 548.03,
+    "text": "think that only you noticed, then you go for it.",
+    "source_text": "think that only you noticed, then you go for it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:08.030",
+    "end": "00:09:10.350",
+    "start_seconds": 548.03,
+    "end_seconds": 550.35,
+    "text": "for it. But in Hamming's world, the rarest thing",
+    "source_text": "for it. But in Hamming's world, the rarest thing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:10.350",
+    "end": "00:09:13.230",
+    "start_seconds": 550.35,
+    "end_seconds": 553.23,
+    "text": "But in Hamming's world, the rarest thing was having an attack. And AI just handed",
+    "source_text": "But in Hamming's world, the rarest thing was having an attack. And AI just handed",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:13.230",
+    "end": "00:09:15.950",
+    "start_seconds": 553.23,
+    "end_seconds": 555.95,
+    "text": "was having an attack. And AI just handed everyone an attack on everything.",
+    "source_text": "was having an attack. And AI just handed everyone an attack on everything.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:15.950",
+    "end": "00:09:17.830",
+    "start_seconds": 555.95,
+    "end_seconds": 557.83,
+    "text": "everyone an attack on everything. So, the rarest thing is knowing which",
+    "source_text": "everyone an attack on everything. So, the rarest thing is knowing which",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:17.830",
+    "end": "00:09:20.030",
+    "start_seconds": 557.83,
+    "end_seconds": 560.03,
+    "text": "So, the rarest thing is knowing which problem is actually worth attacking. And",
+    "source_text": "So, the rarest thing is knowing which problem is actually worth attacking. And",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:20.030",
+    "end": "00:09:22.030",
+    "start_seconds": 560.03,
+    "end_seconds": 562.03,
+    "text": "problem is actually worth attacking. And that judgement comes from being a real",
+    "source_text": "problem is actually worth attacking. And that judgement comes from being a real",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:22.030",
+    "end": "00:09:24.910",
+    "start_seconds": 562.03,
+    "end_seconds": 564.91,
+    "text": "that judgement comes from being a real person, close to a real domain, with",
+    "source_text": "that judgement comes from being a real person, close to a real domain, with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:24.910",
+    "end": "00:09:27.630",
+    "start_seconds": 564.91,
+    "end_seconds": 567.63,
+    "text": "person, close to a real domain, with your own battle scars, your weirdly",
+    "source_text": "person, close to a real domain, with your own battle scars, your weirdly",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:27.630",
+    "end": "00:09:29.510",
+    "start_seconds": 567.63,
+    "end_seconds": 569.51,
+    "text": "your own battle scars, your weirdly specific experience, the thing that you",
+    "source_text": "your own battle scars, your weirdly specific experience, the thing that you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:29.510",
+    "end": "00:09:32.310",
+    "start_seconds": 569.51,
+    "end_seconds": 572.31,
+    "text": "specific experience, the thing that you care about more than is reasonable.",
+    "source_text": "specific experience, the thing that you care about more than is reasonable.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:32.310",
+    "end": "00:09:34.310",
+    "start_seconds": 572.31,
+    "end_seconds": 574.31,
+    "text": "care about more than is reasonable. And you don't actually need to be first.",
+    "source_text": "care about more than is reasonable. And you don't actually need to be first.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:34.310",
+    "end": "00:09:35.950",
+    "start_seconds": 574.31,
+    "end_seconds": 575.95,
+    "text": "And you don't actually need to be first. You just need to be genuinely close to a",
+    "source_text": "And you don't actually need to be first. You just need to be genuinely close to a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:35.950",
+    "end": "00:09:38.670",
+    "start_seconds": 575.95,
+    "end_seconds": 578.67,
+    "text": "You just need to be genuinely close to a problem you actually understand where",
+    "source_text": "You just need to be genuinely close to a problem you actually understand where",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:38.670",
+    "end": "00:09:40.670",
+    "start_seconds": 578.67,
+    "end_seconds": 580.67,
+    "text": "problem you actually understand where your insight is in the delta between",
+    "source_text": "problem you actually understand where your insight is in the delta between",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:40.670",
+    "end": "00:09:43.310",
+    "start_seconds": 580.67,
+    "end_seconds": 583.31,
+    "text": "your insight is in the delta between what AI has been trained on and what",
+    "source_text": "your insight is in the delta between what AI has been trained on and what",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:43.310",
+    "end": "00:09:45.190",
+    "start_seconds": 583.31,
+    "end_seconds": 585.19,
+    "text": "what AI has been trained on and what should exist.",
+    "source_text": "what AI has been trained on and what should exist.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:45.190",
+    "end": "00:09:47.590",
+    "start_seconds": 585.19,
+    "end_seconds": 587.59,
+    "text": "should exist. So, let's say you did it. You found that",
+    "source_text": "should exist. So, let's say you did it. You found that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:47.590",
+    "end": "00:09:50.070",
+    "start_seconds": 587.59,
+    "end_seconds": 590.07,
+    "text": "So, let's say you did it. You found that sweet spot problem that",
+    "source_text": "So, let's say you did it. You found that sweet spot problem that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:50.070",
+    "end": "00:09:51.790",
+    "start_seconds": 590.07,
+    "end_seconds": 591.79,
+    "text": "sweet spot problem that the one that you had an honest attack",
+    "source_text": "sweet spot problem that the one that you had an honest attack",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:51.790",
+    "end": "00:09:53.630",
+    "start_seconds": 591.79,
+    "end_seconds": 593.63,
+    "text": "the one that you had an honest attack on, that you built this thing. It's",
+    "source_text": "the one that you had an honest attack on, that you built this thing. It's",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:53.630",
+    "end": "00:09:55.870",
+    "start_seconds": 593.63,
+    "end_seconds": 595.87,
+    "text": "on, that you built this thing. It's genuinely good. It's genuinely yours,",
+    "source_text": "on, that you built this thing. It's genuinely good. It's genuinely yours,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:55.870",
+    "end": "00:09:58.110",
+    "start_seconds": 595.87,
+    "end_seconds": 598.11,
+    "text": "genuinely good. It's genuinely yours, not the average.",
+    "source_text": "genuinely good. It's genuinely yours, not the average.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:58.110",
+    "end": "00:10:01.190",
+    "start_seconds": 598.11,
+    "end_seconds": 601.19,
+    "text": "not the average. You can still lose uh because knowing",
+    "source_text": "not the average. You can still lose uh because knowing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:01.190",
+    "end": "00:10:03.870",
+    "start_seconds": 601.19,
+    "end_seconds": 603.87,
+    "text": "You can still lose uh because knowing your signal is only half the job. The",
+    "source_text": "You can still lose uh because knowing your signal is only half the job. The",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:03.870",
+    "end": "00:10:07.030",
+    "start_seconds": 603.87,
+    "end_seconds": 607.03,
+    "text": "your signal is only half the job. The other half is getting it from your head",
+    "source_text": "your signal is only half the job. The other half is getting it from your head",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:07.030",
+    "end": "00:10:08.550",
+    "start_seconds": 607.03,
+    "end_seconds": 608.55,
+    "text": "other half is getting it from your head into the head of a person that it was",
+    "source_text": "other half is getting it from your head into the head of a person that it was",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:08.550",
+    "end": "00:10:09.870",
+    "start_seconds": 608.55,
+    "end_seconds": 609.87,
+    "text": "into the head of a person that it was meant for.",
+    "source_text": "into the head of a person that it was meant for.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:09.870",
+    "end": "00:10:10.990",
+    "start_seconds": 609.87,
+    "end_seconds": 610.99,
+    "text": "meant for. And it's about reaching the right",
+    "source_text": "meant for. And it's about reaching the right",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:10.990",
+    "end": "00:10:12.190",
+    "start_seconds": 610.99,
+    "end_seconds": 612.19,
+    "text": "And it's about reaching the right people.",
+    "source_text": "And it's about reaching the right people.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:12.190",
+    "end": "00:10:13.910",
+    "start_seconds": 612.19,
+    "end_seconds": 613.91,
+    "text": "people. And what do most of us",
+    "source_text": "people. And what do most of us",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:13.910",
+    "end": "00:10:15.710",
+    "start_seconds": 613.91,
+    "end_seconds": 615.71,
+    "text": "And what do most of us do for that?",
+    "source_text": "And what do most of us do for that?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:15.710",
+    "end": "00:10:18.070",
+    "start_seconds": 615.71,
+    "end_seconds": 618.07,
+    "text": "do for that? We make content. So, let's talk about",
+    "source_text": "do for that? We make content. So, let's talk about",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:18.070",
+    "end": "00:10:20.750",
+    "start_seconds": 618.07,
+    "end_seconds": 620.75,
+    "text": "We make content. So, let's talk about what uh AI convergence machine does to",
+    "source_text": "We make content. So, let's talk about what uh AI convergence machine does to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:20.750",
+    "end": "00:10:23.270",
+    "start_seconds": 620.75,
+    "end_seconds": 623.27,
+    "text": "what uh AI convergence machine does to that.",
+    "source_text": "what uh AI convergence machine does to that.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:24.470",
+    "end": "00:10:27.790",
+    "start_seconds": 624.47,
+    "end_seconds": 627.79,
+    "text": "What happened to the internet in the last 2 years? Open any feed,",
+    "source_text": "What happened to the internet in the last 2 years? Open any feed,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:27.790",
+    "end": "00:10:29.110",
+    "start_seconds": 627.79,
+    "end_seconds": 629.11,
+    "text": "last 2 years? Open any feed, everything has started to sound the",
+    "source_text": "last 2 years? Open any feed, everything has started to sound the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:29.110",
+    "end": "00:10:30.750",
+    "start_seconds": 629.11,
+    "end_seconds": 630.75,
+    "text": "everything has started to sound the same.",
+    "source_text": "everything has started to sound the same.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:30.750",
+    "end": "00:10:32.630",
+    "start_seconds": 630.75,
+    "end_seconds": 632.63,
+    "text": "same. The same LinkedIn posts, the same, you",
+    "source_text": "same. The same LinkedIn posts, the same, you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:32.630",
+    "end": "00:10:34.430",
+    "start_seconds": 632.63,
+    "end_seconds": 634.43,
+    "text": "The same LinkedIn posts, the same, you know, three bullet points and a bold",
+    "source_text": "The same LinkedIn posts, the same, you know, three bullet points and a bold",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:34.430",
+    "end": "00:10:36.390",
+    "start_seconds": 634.43,
+    "end_seconds": 636.39,
+    "text": "know, three bullet points and a bold takeaway, and",
+    "source_text": "know, three bullet points and a bold takeaway, and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:36.390",
+    "end": "00:10:38.950",
+    "start_seconds": 636.39,
+    "end_seconds": 638.95,
+    "text": "takeaway, and the same blog post that uh says nothing",
+    "source_text": "takeaway, and the same blog post that uh says nothing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:38.950",
+    "end": "00:10:42.110",
+    "start_seconds": 638.95,
+    "end_seconds": 642.11,
+    "text": "the same blog post that uh says nothing but actually looks very polished.",
+    "source_text": "the same blog post that uh says nothing but actually looks very polished.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:42.110",
+    "end": "00:10:45.350",
+    "start_seconds": 642.11,
+    "end_seconds": 645.35,
+    "text": "but actually looks very polished. Um your readers can now pattern match AI",
+    "source_text": "but actually looks very polished. Um your readers can now pattern match AI",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:45.350",
+    "end": "00:10:48.070",
+    "start_seconds": 645.35,
+    "end_seconds": 648.07,
+    "text": "Um your readers can now pattern match AI in just half a second. So, if a model",
+    "source_text": "Um your readers can now pattern match AI in just half a second. So, if a model",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:48.070",
+    "end": "00:10:49.990",
+    "start_seconds": 648.07,
+    "end_seconds": 649.99,
+    "text": "in just half a second. So, if a model could have written your post from a",
+    "source_text": "in just half a second. So, if a model could have written your post from a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:49.990",
+    "end": "00:10:52.670",
+    "start_seconds": 649.99,
+    "end_seconds": 652.67,
+    "text": "could have written your post from a one-line prompt, your reader brain just",
+    "source_text": "could have written your post from a one-line prompt, your reader brain just",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:52.670",
+    "end": "00:10:56.790",
+    "start_seconds": 652.67,
+    "end_seconds": 656.79,
+    "text": "one-line prompt, your reader brain just skips it for the same reason.",
+    "source_text": "one-line prompt, your reader brain just skips it for the same reason.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:56.790",
+    "end": "00:10:58.710",
+    "start_seconds": 656.79,
+    "end_seconds": 658.71,
+    "text": "skips it for the same reason. So, AI has really learned the algorithm.",
+    "source_text": "skips it for the same reason. So, AI has really learned the algorithm.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:58.710",
+    "end": "00:11:00.830",
+    "start_seconds": 658.71,
+    "end_seconds": 660.83,
+    "text": "So, AI has really learned the algorithm. It has learned the format that performs.",
+    "source_text": "So, AI has really learned the algorithm. It has learned the format that performs.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:00.830",
+    "end": "00:11:03.270",
+    "start_seconds": 660.83,
+    "end_seconds": 663.27,
+    "text": "It has learned the format that performs. It has learned what gets clicks, and",
+    "source_text": "It has learned the format that performs. It has learned what gets clicks, and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:03.270",
+    "end": "00:11:05.670",
+    "start_seconds": 663.27,
+    "end_seconds": 665.67,
+    "text": "It has learned what gets clicks, and everyone wants to hand the machine a",
+    "source_text": "It has learned what gets clicks, and everyone wants to hand the machine a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:05.670",
+    "end": "00:11:07.150",
+    "start_seconds": 665.67,
+    "end_seconds": 667.15,
+    "text": "everyone wants to hand the machine a paragraph and say, you know, \"Make it",
+    "source_text": "everyone wants to hand the machine a paragraph and say, you know, \"Make it",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:07.150",
+    "end": "00:11:10.590",
+    "start_seconds": 667.15,
+    "end_seconds": 670.59,
+    "text": "paragraph and say, you know, \"Make it viral. Make me rich.\" It fills every gap",
+    "source_text": "paragraph and say, you know, \"Make it viral. Make me rich.\" It fills every gap",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:10.590",
+    "end": "00:11:13.550",
+    "start_seconds": 670.59,
+    "end_seconds": 673.55,
+    "text": "viral. Make me rich.\" It fills every gap that you leave with sameness.",
+    "source_text": "viral. Make me rich.\" It fills every gap that you leave with sameness.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:13.550",
+    "end": "00:11:15.550",
+    "start_seconds": 673.55,
+    "end_seconds": 675.55,
+    "text": "that you leave with sameness. So, what do you put in and what do you",
+    "source_text": "that you leave with sameness. So, what do you put in and what do you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:15.550",
+    "end": "00:11:17.190",
+    "start_seconds": 675.55,
+    "end_seconds": 677.19,
+    "text": "So, what do you put in and what do you let it fill in?",
+    "source_text": "So, what do you put in and what do you let it fill in?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:17.190",
+    "end": "00:11:19.230",
+    "start_seconds": 677.19,
+    "end_seconds": 679.23,
+    "text": "let it fill in? Cuz these there there are two different",
+    "source_text": "let it fill in? Cuz these there there are two different",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:19.230",
+    "end": "00:11:21.750",
+    "start_seconds": 679.23,
+    "end_seconds": 681.75,
+    "text": "Cuz these there there are two different ways to use this thing, and they look",
+    "source_text": "Cuz these there there are two different ways to use this thing, and they look",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:21.750",
+    "end": "00:11:24.510",
+    "start_seconds": 681.75,
+    "end_seconds": 684.51,
+    "text": "ways to use this thing, and they look very identical from the outside. One is",
+    "source_text": "ways to use this thing, and they look very identical from the outside. One is",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:24.510",
+    "end": "00:11:26.390",
+    "start_seconds": 684.51,
+    "end_seconds": 686.39,
+    "text": "very identical from the outside. One is you give it an average prompt, and gives",
+    "source_text": "very identical from the outside. One is you give it an average prompt, and gives",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:26.390",
+    "end": "00:11:28.350",
+    "start_seconds": 686.39,
+    "end_seconds": 688.35,
+    "text": "you give it an average prompt, and gives you the average output.",
+    "source_text": "you give it an average prompt, and gives you the average output.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:28.350",
+    "end": "00:11:30.470",
+    "start_seconds": 688.35,
+    "end_seconds": 690.47,
+    "text": "you the average output. And you ship one more indistinguishable",
+    "source_text": "you the average output. And you ship one more indistinguishable",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:30.470",
+    "end": "00:11:33.070",
+    "start_seconds": 690.47,
+    "end_seconds": 693.07,
+    "text": "And you ship one more indistinguishable drop into an ocean of indistinguishable",
+    "source_text": "And you ship one more indistinguishable drop into an ocean of indistinguishable",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:33.070",
+    "end": "00:11:34.310",
+    "start_seconds": 693.07,
+    "end_seconds": 694.31,
+    "text": "drop into an ocean of indistinguishable drops.",
+    "source_text": "drop into an ocean of indistinguishable drops.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:34.310",
+    "end": "00:11:36.510",
+    "start_seconds": 694.31,
+    "end_seconds": 696.51,
+    "text": "drops. So, you've automated your own",
+    "source_text": "drops. So, you've automated your own",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:36.510",
+    "end": "00:11:38.870",
+    "start_seconds": 696.51,
+    "end_seconds": 698.87,
+    "text": "So, you've automated your own irrelevance very efficiently.",
+    "source_text": "So, you've automated your own irrelevance very efficiently.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:38.870",
+    "end": "00:11:40.910",
+    "start_seconds": 698.87,
+    "end_seconds": 700.91,
+    "text": "irrelevance very efficiently. And two, you can bring in the part that",
+    "source_text": "irrelevance very efficiently. And two, you can bring in the part that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:40.910",
+    "end": "00:11:42.750",
+    "start_seconds": 700.91,
+    "end_seconds": 702.75,
+    "text": "And two, you can bring in the part that it can't have, your specific point of",
+    "source_text": "And two, you can bring in the part that it can't have, your specific point of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:42.750",
+    "end": "00:11:43.910",
+    "start_seconds": 702.75,
+    "end_seconds": 703.91,
+    "text": "it can't have, your specific point of view,",
+    "source_text": "it can't have, your specific point of view,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:43.910",
+    "end": "00:11:45.550",
+    "start_seconds": 703.91,
+    "end_seconds": 705.55,
+    "text": "view, the real story that you were actually in",
+    "source_text": "view, the real story that you were actually in",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:45.550",
+    "end": "00:11:47.630",
+    "start_seconds": 705.55,
+    "end_seconds": 707.63,
+    "text": "the real story that you were actually in the room for, and then let the machine",
+    "source_text": "the real story that you were actually in the room for, and then let the machine",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:47.630",
+    "end": "00:11:49.950",
+    "start_seconds": 707.63,
+    "end_seconds": 709.95,
+    "text": "the room for, and then let the machine do the converging work, the formatting,",
+    "source_text": "the room for, and then let the machine do the converging work, the formatting,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:49.950",
+    "end": "00:11:51.190",
+    "start_seconds": 709.95,
+    "end_seconds": 711.19,
+    "text": "do the converging work, the formatting, the drafting, the algorithm",
+    "source_text": "do the converging work, the formatting, the drafting, the algorithm",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:51.190",
+    "end": "00:11:53.590",
+    "start_seconds": 711.19,
+    "end_seconds": 713.59,
+    "text": "the drafting, the algorithm optimization, the cleanup around the",
+    "source_text": "the drafting, the algorithm optimization, the cleanup around the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:53.590",
+    "end": "00:11:55.030",
+    "start_seconds": 713.59,
+    "end_seconds": 715.03,
+    "text": "optimization, the cleanup around the core that it",
+    "source_text": "optimization, the cleanup around the core that it",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:55.030",
+    "end": "00:11:57.990",
+    "start_seconds": 715.03,
+    "end_seconds": 717.99,
+    "text": "core that it could have never generated.",
+    "source_text": "core that it could have never generated.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:57.990",
+    "end": "00:12:01.510",
+    "start_seconds": 717.99,
+    "end_seconds": 721.51,
+    "text": "could have never generated. The signal distorts on the way out. So,",
+    "source_text": "could have never generated. The signal distorts on the way out. So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:01.510",
+    "end": "00:12:03.750",
+    "start_seconds": 721.51,
+    "end_seconds": 723.75,
+    "text": "The signal distorts on the way out. So, you can have the signal perfectly clear",
+    "source_text": "The signal distorts on the way out. So, you can have the signal perfectly clear",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:03.750",
+    "end": "00:12:06.270",
+    "start_seconds": 723.75,
+    "end_seconds": 726.27,
+    "text": "you can have the signal perfectly clear for you and still watch it fall apart",
+    "source_text": "you can have the signal perfectly clear for you and still watch it fall apart",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:06.270",
+    "end": "00:12:08.430",
+    "start_seconds": 726.27,
+    "end_seconds": 728.43,
+    "text": "for you and still watch it fall apart between your brain and your users'",
+    "source_text": "for you and still watch it fall apart between your brain and your users'",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:08.430",
+    "end": "00:12:10.590",
+    "start_seconds": 728.43,
+    "end_seconds": 730.59,
+    "text": "between your brain and your users' understanding of it.",
+    "source_text": "between your brain and your users' understanding of it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:10.590",
+    "end": "00:12:12.670",
+    "start_seconds": 730.59,
+    "end_seconds": 732.67,
+    "text": "understanding of it. And in my experience, it breaks in three",
+    "source_text": "understanding of it. And in my experience, it breaks in three",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:12.670",
+    "end": "00:12:14.070",
+    "start_seconds": 732.67,
+    "end_seconds": 734.07,
+    "text": "And in my experience, it breaks in three places.",
+    "source_text": "And in my experience, it breaks in three places.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:14.070",
+    "end": "00:12:16.510",
+    "start_seconds": 734.07,
+    "end_seconds": 736.51,
+    "text": "places. And there are fixes for each, but",
+    "source_text": "places. And there are fixes for each, but",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:16.510",
+    "end": "00:12:18.550",
+    "start_seconds": 736.51,
+    "end_seconds": 738.55,
+    "text": "And there are fixes for each, but they're different depending on product,",
+    "source_text": "And there are fixes for each, but they're different depending on product,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:18.550",
+    "end": "00:12:22.030",
+    "start_seconds": 738.55,
+    "end_seconds": 742.03,
+    "text": "they're different depending on product, the type, and the size of the company.",
+    "source_text": "they're different depending on product, the type, and the size of the company.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:22.030",
+    "end": "00:12:24.510",
+    "start_seconds": 742.03,
+    "end_seconds": 744.51,
+    "text": "the type, and the size of the company. One of them is source distortion, which",
+    "source_text": "the type, and the size of the company. One of them is source distortion, which",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:24.510",
+    "end": "00:12:26.910",
+    "start_seconds": 744.51,
+    "end_seconds": 746.91,
+    "text": "One of them is source distortion, which is very common in startups.",
+    "source_text": "One of them is source distortion, which is very common in startups.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:26.910",
+    "end": "00:12:29.150",
+    "start_seconds": 746.91,
+    "end_seconds": 749.15,
+    "text": "is very common in startups. Founders, actually, they usually know",
+    "source_text": "is very common in startups. Founders, actually, they usually know",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:29.150",
+    "end": "00:12:31.230",
+    "start_seconds": 749.15,
+    "end_seconds": 751.23,
+    "text": "Founders, actually, they usually know the signal so well",
+    "source_text": "Founders, actually, they usually know the signal so well",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:31.230",
+    "end": "00:12:33.750",
+    "start_seconds": 751.23,
+    "end_seconds": 753.75,
+    "text": "the signal so well that they always have this accidental",
+    "source_text": "the signal so well that they always have this accidental",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:33.750",
+    "end": "00:12:37.390",
+    "start_seconds": 753.75,
+    "end_seconds": 757.39,
+    "text": "that they always have this accidental gift of compressing it past legibility.",
+    "source_text": "that they always have this accidental gift of compressing it past legibility.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:37.390",
+    "end": "00:12:39.550",
+    "start_seconds": 757.39,
+    "end_seconds": 759.55,
+    "text": "gift of compressing it past legibility. They often assume the context that the",
+    "source_text": "gift of compressing it past legibility. They often assume the context that the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:39.550",
+    "end": "00:12:41.750",
+    "start_seconds": 759.55,
+    "end_seconds": 761.75,
+    "text": "They often assume the context that the audience doesn't have, and the room",
+    "source_text": "They often assume the context that the audience doesn't have, and the room",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:41.750",
+    "end": "00:12:44.310",
+    "start_seconds": 761.75,
+    "end_seconds": 764.31,
+    "text": "audience doesn't have, and the room hears something technically very cool,",
+    "source_text": "audience doesn't have, and the room hears something technically very cool,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:44.310",
+    "end": "00:12:45.270",
+    "start_seconds": 764.31,
+    "end_seconds": 765.27,
+    "text": "hears something technically very cool, but they",
+    "source_text": "hears something technically very cool, but they",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:45.270",
+    "end": "00:12:46.830",
+    "start_seconds": 765.27,
+    "end_seconds": 766.83,
+    "text": "but they doesn't they don't really understand why",
+    "source_text": "but they doesn't they don't really understand why",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:46.830",
+    "end": "00:12:48.230",
+    "start_seconds": 766.83,
+    "end_seconds": 768.23,
+    "text": "doesn't they don't really understand why it matters.",
+    "source_text": "doesn't they don't really understand why it matters.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:48.230",
+    "end": "00:12:51.350",
+    "start_seconds": 768.23,
+    "end_seconds": 771.35,
+    "text": "it matters. I helped this one YC company with uh",
+    "source_text": "it matters. I helped this one YC company with uh",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:51.350",
+    "end": "00:12:53.430",
+    "start_seconds": 771.35,
+    "end_seconds": 773.43,
+    "text": "I helped this one YC company with uh this exact thing recently.",
+    "source_text": "I helped this one YC company with uh this exact thing recently.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:53.430",
+    "end": "00:12:55.630",
+    "start_seconds": 773.43,
+    "end_seconds": 775.63,
+    "text": "this exact thing recently. Absolutely brilliant founders, genuinely",
+    "source_text": "this exact thing recently. Absolutely brilliant founders, genuinely",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:55.630",
+    "end": "00:12:57.990",
+    "start_seconds": 775.63,
+    "end_seconds": 777.99,
+    "text": "Absolutely brilliant founders, genuinely new product, but every pitch that they",
+    "source_text": "Absolutely brilliant founders, genuinely new product, but every pitch that they",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:57.990",
+    "end": "00:13:00.990",
+    "start_seconds": 777.99,
+    "end_seconds": 780.99,
+    "text": "new product, but every pitch that they started um was you know starting with",
+    "source_text": "new product, but every pitch that they started um was you know starting with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:00.990",
+    "end": "00:13:03.190",
+    "start_seconds": 780.99,
+    "end_seconds": 783.19,
+    "text": "started um was you know starting with architecture, with the clever parts,",
+    "source_text": "started um was you know starting with architecture, with the clever parts,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:03.190",
+    "end": "00:13:05.230",
+    "start_seconds": 783.19,
+    "end_seconds": 785.23,
+    "text": "architecture, with the clever parts, with things that they were very proud",
+    "source_text": "architecture, with the clever parts, with things that they were very proud",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:05.230",
+    "end": "00:13:07.630",
+    "start_seconds": 785.23,
+    "end_seconds": 787.63,
+    "text": "with things that they were very proud of. But it really landed as noise",
+    "source_text": "with things that they were very proud of. But it really landed as noise",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:07.630",
+    "end": "00:13:09.510",
+    "start_seconds": 787.63,
+    "end_seconds": 789.51,
+    "text": "of. But it really landed as noise because the customer pain has been",
+    "source_text": "of. But it really landed as noise because the customer pain has been",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:09.510",
+    "end": "00:13:12.470",
+    "start_seconds": 789.51,
+    "end_seconds": 792.47,
+    "text": "because the customer pain has been deleted from the whole story.",
+    "source_text": "because the customer pain has been deleted from the whole story.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:12.470",
+    "end": "00:13:14.630",
+    "start_seconds": 792.47,
+    "end_seconds": 794.63,
+    "text": "deleted from the whole story. So, we rewrote the opening to include",
+    "source_text": "deleted from the whole story. So, we rewrote the opening to include",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:14.630",
+    "end": "00:13:17.070",
+    "start_seconds": 794.63,
+    "end_seconds": 797.07,
+    "text": "So, we rewrote the opening to include the thing that the user hated, and this",
+    "source_text": "So, we rewrote the opening to include the thing that the user hated, and this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:17.070",
+    "end": "00:13:19.510",
+    "start_seconds": 797.07,
+    "end_seconds": 799.51,
+    "text": "the thing that the user hated, and this product actually killed. So, the same",
+    "source_text": "the thing that the user hated, and this product actually killed. So, the same",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:19.510",
+    "end": "00:13:21.830",
+    "start_seconds": 799.51,
+    "end_seconds": 801.83,
+    "text": "product actually killed. So, the same product, the same week, the next",
+    "source_text": "product actually killed. So, the same product, the same week, the next",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:21.830",
+    "end": "00:13:24.750",
+    "start_seconds": 801.83,
+    "end_seconds": 804.75,
+    "text": "product, the same week, the next conversations converted into pilots, and",
+    "source_text": "product, the same week, the next conversations converted into pilots, and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:24.750",
+    "end": "00:13:27.070",
+    "start_seconds": 804.75,
+    "end_seconds": 807.07,
+    "text": "conversations converted into pilots, and then we turned that into repeatable GTM",
+    "source_text": "conversations converted into pilots, and then we turned that into repeatable GTM",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:27.070",
+    "end": "00:13:28.910",
+    "start_seconds": 807.07,
+    "end_seconds": 808.91,
+    "text": "then we turned that into repeatable GTM system.",
+    "source_text": "then we turned that into repeatable GTM system.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:28.910",
+    "end": "00:13:31.750",
+    "start_seconds": 808.91,
+    "end_seconds": 811.75,
+    "text": "system. Organization distortion is another type",
+    "source_text": "system. Organization distortion is another type",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:31.750",
+    "end": "00:13:33.590",
+    "start_seconds": 811.75,
+    "end_seconds": 813.59,
+    "text": "Organization distortion is another type of distortion that almost every big",
+    "source_text": "Organization distortion is another type of distortion that almost every big",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:33.590",
+    "end": "00:13:35.390",
+    "start_seconds": 813.59,
+    "end_seconds": 815.39,
+    "text": "of distortion that almost every big company has.",
+    "source_text": "of distortion that almost every big company has.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:35.390",
+    "end": "00:13:37.790",
+    "start_seconds": 815.39,
+    "end_seconds": 817.79,
+    "text": "company has. As signal travels through layers of",
+    "source_text": "company has. As signal travels through layers of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:37.790",
+    "end": "00:13:39.710",
+    "start_seconds": 817.79,
+    "end_seconds": 819.71,
+    "text": "As signal travels through layers of management, through legal, through",
+    "source_text": "As signal travels through layers of management, through legal, through",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:39.710",
+    "end": "00:13:42.030",
+    "start_seconds": 819.71,
+    "end_seconds": 822.03,
+    "text": "management, through legal, through sales, through every department, at",
+    "source_text": "management, through legal, through sales, through every department, at",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:42.030",
+    "end": "00:13:44.750",
+    "start_seconds": 822.03,
+    "end_seconds": 824.75,
+    "text": "sales, through every department, at every hand handoff, it gets rewound",
+    "source_text": "sales, through every department, at every hand handoff, it gets rewound",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:44.750",
+    "end": "00:13:46.510",
+    "start_seconds": 824.75,
+    "end_seconds": 826.51,
+    "text": "every hand handoff, it gets rewound towards the average.",
+    "source_text": "every hand handoff, it gets rewound towards the average.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:46.510",
+    "end": "00:13:47.790",
+    "start_seconds": 826.51,
+    "end_seconds": 827.79,
+    "text": "towards the average. And this really doesn't come from",
+    "source_text": "towards the average. And this really doesn't come from",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:47.790",
+    "end": "00:13:50.950",
+    "start_seconds": 827.79,
+    "end_seconds": 830.95,
+    "text": "And this really doesn't come from incompetence, it comes from investment.",
+    "source_text": "And this really doesn't come from incompetence, it comes from investment.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:50.950",
+    "end": "00:13:53.470",
+    "start_seconds": 830.95,
+    "end_seconds": 833.47,
+    "text": "incompetence, it comes from investment. So, hand a founder and the person three",
+    "source_text": "incompetence, it comes from investment. So, hand a founder and the person three",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:53.470",
+    "end": "00:13:56.510",
+    "start_seconds": 833.47,
+    "end_seconds": 836.51,
+    "text": "So, hand a founder and the person three layers down the same task and the same",
+    "source_text": "So, hand a founder and the person three layers down the same task and the same",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:56.510",
+    "end": "00:13:59.510",
+    "start_seconds": 836.51,
+    "end_seconds": 839.51,
+    "text": "layers down the same task and the same AI, and you get two different things.",
+    "source_text": "layers down the same task and the same AI, and you get two different things.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:59.510",
+    "end": "00:14:01.270",
+    "start_seconds": 839.51,
+    "end_seconds": 841.27,
+    "text": "AI, and you get two different things. Um the founder really sweats the",
+    "source_text": "AI, and you get two different things. Um the founder really sweats the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:01.270",
+    "end": "00:14:03.310",
+    "start_seconds": 841.27,
+    "end_seconds": 843.31,
+    "text": "Um the founder really sweats the unaverageable details because the",
+    "source_text": "Um the founder really sweats the unaverageable details because the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:03.310",
+    "end": "00:14:05.670",
+    "start_seconds": 843.31,
+    "end_seconds": 845.67,
+    "text": "unaverageable details because the outcome is really theirs and they're",
+    "source_text": "unaverageable details because the outcome is really theirs and they're",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:05.670",
+    "end": "00:14:09.190",
+    "start_seconds": 845.67,
+    "end_seconds": 849.19,
+    "text": "outcome is really theirs and they're personally invested and affected by it.",
+    "source_text": "outcome is really theirs and they're personally invested and affected by it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:09.190",
+    "end": "00:14:11.070",
+    "start_seconds": 849.19,
+    "end_seconds": 851.07,
+    "text": "personally invested and affected by it. And others just ship it to spec, they",
+    "source_text": "personally invested and affected by it. And others just ship it to spec, they",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:11.070",
+    "end": "00:14:14.030",
+    "start_seconds": 851.07,
+    "end_seconds": 854.03,
+    "text": "And others just ship it to spec, they close Jira tickets, they were asked for,",
+    "source_text": "And others just ship it to spec, they close Jira tickets, they were asked for,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:14.030",
+    "end": "00:14:16.270",
+    "start_seconds": 854.03,
+    "end_seconds": 856.27,
+    "text": "close Jira tickets, they were asked for, you know, something like compliance, not",
+    "source_text": "close Jira tickets, they were asked for, you know, something like compliance, not",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:16.270",
+    "end": "00:14:18.350",
+    "start_seconds": 856.27,
+    "end_seconds": 858.35,
+    "text": "you know, something like compliance, not as much conviction.",
+    "source_text": "you know, something like compliance, not as much conviction.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:18.350",
+    "end": "00:14:21.230",
+    "start_seconds": 858.35,
+    "end_seconds": 861.23,
+    "text": "as much conviction. So, a long delegation chain plus",
+    "source_text": "as much conviction. So, a long delegation chain plus",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:21.230",
+    "end": "00:14:23.790",
+    "start_seconds": 861.23,
+    "end_seconds": 863.79,
+    "text": "So, a long delegation chain plus convergence machine is really a factory",
+    "source_text": "So, a long delegation chain plus convergence machine is really a factory",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:23.790",
+    "end": "00:14:26.270",
+    "start_seconds": 863.79,
+    "end_seconds": 866.27,
+    "text": "convergence machine is really a factory for automating the signal out of your",
+    "source_text": "convergence machine is really a factory for automating the signal out of your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:26.270",
+    "end": "00:14:27.950",
+    "start_seconds": 866.27,
+    "end_seconds": 867.95,
+    "text": "for automating the signal out of your own company.",
+    "source_text": "for automating the signal out of your own company.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:27.950",
+    "end": "00:14:30.070",
+    "start_seconds": 867.95,
+    "end_seconds": 870.07,
+    "text": "own company. So, the first instinct usually is to add",
+    "source_text": "own company. So, the first instinct usually is to add",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:30.070",
+    "end": "00:14:33.030",
+    "start_seconds": 870.07,
+    "end_seconds": 873.03,
+    "text": "So, the first instinct usually is to add more process, which adds layers,",
+    "source_text": "So, the first instinct usually is to add more process, which adds layers,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:33.030",
+    "end": "00:14:35.630",
+    "start_seconds": 873.03,
+    "end_seconds": 875.63,
+    "text": "more process, which adds layers, bureaucracy, and slows everything down.",
+    "source_text": "more process, which adds layers, bureaucracy, and slows everything down.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:35.630",
+    "end": "00:14:37.830",
+    "start_seconds": 875.63,
+    "end_seconds": 877.83,
+    "text": "bureaucracy, and slows everything down. And we don't want that. Um",
+    "source_text": "bureaucracy, and slows everything down. And we don't want that. Um",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:37.830",
+    "end": "00:14:39.910",
+    "start_seconds": 877.83,
+    "end_seconds": 879.91,
+    "text": "And we don't want that. Um to fix this, we have to help take the",
+    "source_text": "And we don't want that. Um to fix this, we have to help take the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:39.910",
+    "end": "00:14:41.350",
+    "start_seconds": 879.91,
+    "end_seconds": 881.35,
+    "text": "to fix this, we have to help take the signal back",
+    "source_text": "to fix this, we have to help take the signal back",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:41.350",
+    "end": "00:14:43.150",
+    "start_seconds": 881.35,
+    "end_seconds": 883.15,
+    "text": "signal back and reattach it to the outcome like a",
+    "source_text": "signal back and reattach it to the outcome like a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:43.150",
+    "end": "00:14:46.150",
+    "start_seconds": 883.15,
+    "end_seconds": 886.15,
+    "text": "and reattach it to the outcome like a founder and add the very thin signal",
+    "source_text": "and reattach it to the outcome like a founder and add the very thin signal",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:46.150",
+    "end": "00:14:48.310",
+    "start_seconds": 886.15,
+    "end_seconds": 888.31,
+    "text": "founder and add the very thin signal layer to your go-to-market engineering,",
+    "source_text": "founder and add the very thin signal layer to your go-to-market engineering,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:48.310",
+    "end": "00:14:50.110",
+    "start_seconds": 888.31,
+    "end_seconds": 890.11,
+    "text": "layer to your go-to-market engineering, where its only job is to validate and",
+    "source_text": "layer to your go-to-market engineering, where its only job is to validate and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:50.110",
+    "end": "00:14:53.110",
+    "start_seconds": 890.11,
+    "end_seconds": 893.11,
+    "text": "where its only job is to validate and carry the original intent across the",
+    "source_text": "where its only job is to validate and carry the original intent across the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:53.110",
+    "end": "00:14:55.750",
+    "start_seconds": 893.11,
+    "end_seconds": 895.75,
+    "text": "carry the original intent across the handoffs intact.",
+    "source_text": "carry the original intent across the handoffs intact.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:55.750",
+    "end": "00:14:57.790",
+    "start_seconds": 895.75,
+    "end_seconds": 897.79,
+    "text": "handoffs intact. Machine distortion is another way you",
+    "source_text": "handoffs intact. Machine distortion is another way you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:57.790",
+    "end": "00:15:00.070",
+    "start_seconds": 897.79,
+    "end_seconds": 900.07,
+    "text": "Machine distortion is another way you can lose signal. You write one careful",
+    "source_text": "Machine distortion is another way you can lose signal. You write one careful",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:00.070",
+    "end": "00:15:01.230",
+    "start_seconds": 900.07,
+    "end_seconds": 901.23,
+    "text": "can lose signal. You write one careful launch,",
+    "source_text": "can lose signal. You write one careful launch,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:01.230",
+    "end": "00:15:02.910",
+    "start_seconds": 901.23,
+    "end_seconds": 902.91,
+    "text": "launch, your claim, your evidence, and your",
+    "source_text": "launch, your claim, your evidence, and your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:02.910",
+    "end": "00:15:05.470",
+    "start_seconds": 902.91,
+    "end_seconds": 905.47,
+    "text": "your claim, your evidence, and your scope is very clear, but then of course",
+    "source_text": "your claim, your evidence, and your scope is very clear, but then of course",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:05.470",
+    "end": "00:15:07.550",
+    "start_seconds": 905.47,
+    "end_seconds": 907.55,
+    "text": "scope is very clear, but then of course AI remixes it",
+    "source_text": "scope is very clear, but then of course AI remixes it",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:07.550",
+    "end": "00:15:09.790",
+    "start_seconds": 907.55,
+    "end_seconds": 909.79,
+    "text": "AI remixes it um into a tweet, into a sales deck, into",
+    "source_text": "AI remixes it um into a tweet, into a sales deck, into",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:09.790",
+    "end": "00:15:12.350",
+    "start_seconds": 909.79,
+    "end_seconds": 912.35,
+    "text": "um into a tweet, into a sales deck, into a partner one-pager. For example, you",
+    "source_text": "um into a tweet, into a sales deck, into a partner one-pager. For example, you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:12.350",
+    "end": "00:15:15.070",
+    "start_seconds": 912.35,
+    "end_seconds": 915.07,
+    "text": "a partner one-pager. For example, you might have had this one very narrow eval",
+    "source_text": "a partner one-pager. For example, you might have had this one very narrow eval",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:15.070",
+    "end": "00:15:17.550",
+    "start_seconds": 915.07,
+    "end_seconds": 917.55,
+    "text": "might have had this one very narrow eval that scored 94%",
+    "source_text": "might have had this one very narrow eval that scored 94%",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:17.550",
+    "end": "00:15:19.430",
+    "start_seconds": 917.55,
+    "end_seconds": 919.43,
+    "text": "that scored 94% but it was repeated enough times that",
+    "source_text": "that scored 94% but it was repeated enough times that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:19.430",
+    "end": "00:15:21.590",
+    "start_seconds": 919.43,
+    "end_seconds": 921.59,
+    "text": "but it was repeated enough times that your customers actually heard it as a",
+    "source_text": "but it was repeated enough times that your customers actually heard it as a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:21.590",
+    "end": "00:15:23.830",
+    "start_seconds": 921.59,
+    "end_seconds": 923.83,
+    "text": "your customers actually heard it as a promise.",
+    "source_text": "your customers actually heard it as a promise.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:23.830",
+    "end": "00:15:25.430",
+    "start_seconds": 923.83,
+    "end_seconds": 925.43,
+    "text": "promise. So, we see the same through line. Your",
+    "source_text": "promise. So, we see the same through line. Your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:25.430",
+    "end": "00:15:27.910",
+    "start_seconds": 925.43,
+    "end_seconds": 927.91,
+    "text": "So, we see the same through line. Your signal has to survive the trip",
+    "source_text": "So, we see the same through line. Your signal has to survive the trip",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:27.910",
+    "end": "00:15:30.350",
+    "start_seconds": 927.91,
+    "end_seconds": 930.35,
+    "text": "signal has to survive the trip undistorted.",
+    "source_text": "signal has to survive the trip undistorted.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:30.350",
+    "end": "00:15:33.350",
+    "start_seconds": 930.35,
+    "end_seconds": 933.35,
+    "text": "undistorted. And this is something you can engineer.",
+    "source_text": "undistorted. And this is something you can engineer.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:33.350",
+    "end": "00:15:35.390",
+    "start_seconds": 933.35,
+    "end_seconds": 935.39,
+    "text": "And this is something you can engineer. So, we need a thin signal layer, a small",
+    "source_text": "And this is something you can engineer. So, we need a thin signal layer, a small",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:35.390",
+    "end": "00:15:38.190",
+    "start_seconds": 935.39,
+    "end_seconds": 938.19,
+    "text": "So, we need a thin signal layer, a small deliberate function whose job is to make",
+    "source_text": "So, we need a thin signal layer, a small deliberate function whose job is to make",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:38.190",
+    "end": "00:15:40.750",
+    "start_seconds": 938.19,
+    "end_seconds": 940.75,
+    "text": "deliberate function whose job is to make sure that what your users take away is",
+    "source_text": "deliberate function whose job is to make sure that what your users take away is",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:40.750",
+    "end": "00:15:43.630",
+    "start_seconds": 940.75,
+    "end_seconds": 943.63,
+    "text": "sure that what your users take away is still the specific thing you meant.",
+    "source_text": "sure that what your users take away is still the specific thing you meant.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:43.630",
+    "end": "00:15:45.870",
+    "start_seconds": 943.63,
+    "end_seconds": 945.87,
+    "text": "still the specific thing you meant. Say you're building a monitoring tool.",
+    "source_text": "still the specific thing you meant. Say you're building a monitoring tool.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:45.870",
+    "end": "00:15:48.030",
+    "start_seconds": 945.87,
+    "end_seconds": 948.03,
+    "text": "Say you're building a monitoring tool. There are 12 other tools in this",
+    "source_text": "Say you're building a monitoring tool. There are 12 other tools in this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:48.030",
+    "end": "00:15:50.070",
+    "start_seconds": 948.03,
+    "end_seconds": 950.07,
+    "text": "There are 12 other tools in this category, but yours does something",
+    "source_text": "There are 12 other tools in this category, but yours does something",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:50.070",
+    "end": "00:15:52.670",
+    "start_seconds": 950.07,
+    "end_seconds": 952.67,
+    "text": "category, but yours does something different. It tells you what not to wake",
+    "source_text": "category, but yours does something different. It tells you what not to wake",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:52.670",
+    "end": "00:15:55.550",
+    "start_seconds": 952.67,
+    "end_seconds": 955.55,
+    "text": "different. It tells you what not to wake up for, for example. It stays quiet on",
+    "source_text": "different. It tells you what not to wake up for, for example. It stays quiet on",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:55.550",
+    "end": "00:15:57.710",
+    "start_seconds": 955.55,
+    "end_seconds": 957.71,
+    "text": "up for, for example. It stays quiet on the noise, so when you",
+    "source_text": "up for, for example. It stays quiet on the noise, so when you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:57.710",
+    "end": "00:16:00.870",
+    "start_seconds": 957.71,
+    "end_seconds": 960.87,
+    "text": "the noise, so when you get paged at night, you believe it. So,",
+    "source_text": "the noise, so when you get paged at night, you believe it. So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:00.870",
+    "end": "00:16:03.190",
+    "start_seconds": 960.87,
+    "end_seconds": 963.19,
+    "text": "get paged at night, you believe it. So, that quiet, that trust earned by silence",
+    "source_text": "get paged at night, you believe it. So, that quiet, that trust earned by silence",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:03.190",
+    "end": "00:16:05.190",
+    "start_seconds": 963.19,
+    "end_seconds": 965.19,
+    "text": "that quiet, that trust earned by silence is your signal.",
+    "source_text": "that quiet, that trust earned by silence is your signal.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:05.190",
+    "end": "00:16:07.230",
+    "start_seconds": 965.19,
+    "end_seconds": 967.23,
+    "text": "is your signal. So, first, say it in one sentence with",
+    "source_text": "is your signal. So, first, say it in one sentence with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:07.230",
+    "end": "00:16:10.310",
+    "start_seconds": 967.23,
+    "end_seconds": 970.31,
+    "text": "So, first, say it in one sentence with the limit built in. Definitely don't say",
+    "source_text": "So, first, say it in one sentence with the limit built in. Definitely don't say",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:10.310",
+    "end": "00:16:12.870",
+    "start_seconds": 970.31,
+    "end_seconds": 972.87,
+    "text": "the limit built in. Definitely don't say intelligent AI-native observability",
+    "source_text": "the limit built in. Definitely don't say intelligent AI-native observability",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:12.870",
+    "end": "00:16:14.750",
+    "start_seconds": 972.87,
+    "end_seconds": 974.75,
+    "text": "intelligent AI-native observability platform.",
+    "source_text": "intelligent AI-native observability platform.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:14.750",
+    "end": "00:16:16.790",
+    "start_seconds": 974.75,
+    "end_seconds": 976.79,
+    "text": "platform. Say something like uh stays quiet on",
+    "source_text": "platform. Say something like uh stays quiet on",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:16.790",
+    "end": "00:16:19.350",
+    "start_seconds": 976.79,
+    "end_seconds": 979.35,
+    "text": "Say something like uh stays quiet on anything it can't tie to a real user",
+    "source_text": "Say something like uh stays quiet on anything it can't tie to a real user",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:19.350",
+    "end": "00:16:21.950",
+    "start_seconds": 979.35,
+    "end_seconds": 981.95,
+    "text": "anything it can't tie to a real user impact and shows you everything it",
+    "source_text": "anything it can't tie to a real user impact and shows you everything it",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:21.950",
+    "end": "00:16:24.470",
+    "start_seconds": 981.95,
+    "end_seconds": 984.47,
+    "text": "impact and shows you everything it silenced so you can overrule it. The",
+    "source_text": "impact and shows you everything it silenced so you can overrule it. The",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:24.470",
+    "end": "00:16:26.190",
+    "start_seconds": 984.47,
+    "end_seconds": 986.19,
+    "text": "silenced so you can overrule it. The promise and the scope are welded",
+    "source_text": "silenced so you can overrule it. The promise and the scope are welded",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:26.190",
+    "end": "00:16:28.070",
+    "start_seconds": 986.19,
+    "end_seconds": 988.07,
+    "text": "promise and the scope are welded together here.",
+    "source_text": "promise and the scope are welded together here.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:28.070",
+    "end": "00:16:29.750",
+    "start_seconds": 988.07,
+    "end_seconds": 989.75,
+    "text": "together here. Then make sure that the limit can't be",
+    "source_text": "together here. Then make sure that the limit can't be",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:29.750",
+    "end": "00:16:32.390",
+    "start_seconds": 989.75,
+    "end_seconds": 992.39,
+    "text": "Then make sure that the limit can't be edited out. So, in the product, every",
+    "source_text": "Then make sure that the limit can't be edited out. So, in the product, every",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:32.390",
+    "end": "00:16:34.870",
+    "start_seconds": 992.39,
+    "end_seconds": 994.87,
+    "text": "edited out. So, in the product, every suppressed alert is visible. In the",
+    "source_text": "edited out. So, in the product, every suppressed alert is visible. In the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:34.870",
+    "end": "00:16:39.030",
+    "start_seconds": 994.87,
+    "end_seconds": 999.03,
+    "text": "suppressed alert is visible. In the launch, statements like 90% fewer pages",
+    "source_text": "suppressed alert is visible. In the launch, statements like 90% fewer pages",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:39.030",
+    "end": "00:16:41.390",
+    "start_seconds": 999.03,
+    "end_seconds": 1001.39,
+    "text": "launch, statements like 90% fewer pages uh live next to statements like every",
+    "source_text": "launch, statements like 90% fewer pages uh live next to statements like every",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:41.390",
+    "end": "00:16:43.750",
+    "start_seconds": 1001.39,
+    "end_seconds": 1003.75,
+    "text": "uh live next to statements like every silence is visible and reversible. So,",
+    "source_text": "uh live next to statements like every silence is visible and reversible. So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:43.750",
+    "end": "00:16:46.790",
+    "start_seconds": 1003.75,
+    "end_seconds": 1006.79,
+    "text": "silence is visible and reversible. So, when AI chops your launch into a tweet,",
+    "source_text": "silence is visible and reversible. So, when AI chops your launch into a tweet,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:46.790",
+    "end": "00:16:49.550",
+    "start_seconds": 1006.79,
+    "end_seconds": 1009.55,
+    "text": "when AI chops your launch into a tweet, it can keep the impressive number, but",
+    "source_text": "when AI chops your launch into a tweet, it can keep the impressive number, but",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:49.550",
+    "end": "00:16:51.950",
+    "start_seconds": 1009.55,
+    "end_seconds": 1011.95,
+    "text": "it can keep the impressive number, but also remove the part that",
+    "source_text": "it can keep the impressive number, but also remove the part that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:51.950",
+    "end": "00:16:53.950",
+    "start_seconds": 1011.95,
+    "end_seconds": 1013.95,
+    "text": "also remove the part that keeps the part that uh keeps the product",
+    "source_text": "also remove the part that keeps the part that uh keeps the product",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:53.950",
+    "end": "00:16:55.510",
+    "start_seconds": 1013.95,
+    "end_seconds": 1015.51,
+    "text": "keeps the part that uh keeps the product honest.",
+    "source_text": "keeps the part that uh keeps the product honest.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:55.510",
+    "end": "00:16:57.230",
+    "start_seconds": 1015.51,
+    "end_seconds": 1017.23,
+    "text": "honest. And before you scale it, check what",
+    "source_text": "honest. And before you scale it, check what",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:57.230",
+    "end": "00:17:00.030",
+    "start_seconds": 1017.23,
+    "end_seconds": 1020.03,
+    "text": "And before you scale it, check what people actually heard. So, give a readme",
+    "source_text": "And before you scale it, check what people actually heard. So, give a readme",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:00.030",
+    "end": "00:17:02.430",
+    "start_seconds": 1020.03,
+    "end_seconds": 1022.43,
+    "text": "people actually heard. So, give a readme to an SRE who has never seen your",
+    "source_text": "people actually heard. So, give a readme to an SRE who has never seen your",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:02.430",
+    "end": "00:17:05.470",
+    "start_seconds": 1022.43,
+    "end_seconds": 1025.47,
+    "text": "to an SRE who has never seen your project and ask a person to describe the",
+    "source_text": "to an SRE who has never seen your project and ask a person to describe the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:05.470",
+    "end": "00:17:08.030",
+    "start_seconds": 1025.47,
+    "end_seconds": 1028.03,
+    "text": "project and ask a person to describe the product back to you. The gap between",
+    "source_text": "project and ask a person to describe the product back to you. The gap between",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:08.030",
+    "end": "00:17:10.150",
+    "start_seconds": 1028.03,
+    "end_seconds": 1030.15,
+    "text": "product back to you. The gap between what they say and what you meant is the",
+    "source_text": "product back to you. The gap between what they say and what you meant is the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:10.150",
+    "end": "00:17:12.150",
+    "start_seconds": 1030.15,
+    "end_seconds": 1032.15,
+    "text": "what they say and what you meant is the distortion that you were about to",
+    "source_text": "what they say and what you meant is the distortion that you were about to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:12.150",
+    "end": "00:17:14.030",
+    "start_seconds": 1032.15,
+    "end_seconds": 1034.03,
+    "text": "distortion that you were about to broadcast.",
+    "source_text": "distortion that you were about to broadcast.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:14.030",
+    "end": "00:17:15.350",
+    "start_seconds": 1034.03,
+    "end_seconds": 1035.35,
+    "text": "broadcast. And it's a very lightweight signal",
+    "source_text": "broadcast. And it's a very lightweight signal",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:15.350",
+    "end": "00:17:17.550",
+    "start_seconds": 1035.35,
+    "end_seconds": 1037.55,
+    "text": "And it's a very lightweight signal layer, and a lot of it is buildable, So,",
+    "source_text": "And it's a very lightweight signal layer, and a lot of it is buildable, So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:17.550",
+    "end": "00:17:19.390",
+    "start_seconds": 1037.55,
+    "end_seconds": 1039.39,
+    "text": "layer, and a lot of it is buildable, So, you can automate more of the checking",
+    "source_text": "layer, and a lot of it is buildable, So, you can automate more of the checking",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:19.390",
+    "end": "00:17:21.270",
+    "start_seconds": 1039.39,
+    "end_seconds": 1041.27,
+    "text": "you can automate more of the checking and the catching and the surveying than",
+    "source_text": "you can automate more of the checking and the catching and the surveying than",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:21.270",
+    "end": "00:17:23.470",
+    "start_seconds": 1041.27,
+    "end_seconds": 1043.47,
+    "text": "and the catching and the surveying than most people realize.",
+    "source_text": "and the catching and the surveying than most people realize.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:23.470",
+    "end": "00:17:26.790",
+    "start_seconds": 1043.47,
+    "end_seconds": 1046.79,
+    "text": "most people realize. So, step back and ask what all of this,",
+    "source_text": "most people realize. So, step back and ask what all of this,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:26.790",
+    "end": "00:17:28.230",
+    "start_seconds": 1046.79,
+    "end_seconds": 1048.23,
+    "text": "So, step back and ask what all of this, the building, the shipping, the",
+    "source_text": "So, step back and ask what all of this, the building, the shipping, the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:28.230",
+    "end": "00:17:31.310",
+    "start_seconds": 1048.23,
+    "end_seconds": 1051.31,
+    "text": "the building, the shipping, the undistorted signal, is actually for.",
+    "source_text": "the building, the shipping, the undistorted signal, is actually for.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:31.310",
+    "end": "00:17:34.710",
+    "start_seconds": 1051.31,
+    "end_seconds": 1054.71,
+    "text": "undistorted signal, is actually for. It's for one thing of getting a human or",
+    "source_text": "undistorted signal, is actually for. It's for one thing of getting a human or",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:34.710",
+    "end": "00:17:37.510",
+    "start_seconds": 1054.71,
+    "end_seconds": 1057.51,
+    "text": "It's for one thing of getting a human or increasingly an agent to choose you and",
+    "source_text": "It's for one thing of getting a human or increasingly an agent to choose you and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:37.510",
+    "end": "00:17:40.910",
+    "start_seconds": 1057.51,
+    "end_seconds": 1060.91,
+    "text": "increasingly an agent to choose you and rely on you when they have an infinite",
+    "source_text": "increasingly an agent to choose you and rely on you when they have an infinite",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:40.910",
+    "end": "00:17:42.910",
+    "start_seconds": 1060.91,
+    "end_seconds": 1062.91,
+    "text": "rely on you when they have an infinite identical-looking alternatives. So,",
+    "source_text": "rely on you when they have an infinite identical-looking alternatives. So,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:42.910",
+    "end": "00:17:45.350",
+    "start_seconds": 1062.91,
+    "end_seconds": 1065.35,
+    "text": "identical-looking alternatives. So, that's trust. Trust is the one thing",
+    "source_text": "identical-looking alternatives. So, that's trust. Trust is the one thing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:45.350",
+    "end": "00:17:48.030",
+    "start_seconds": 1065.35,
+    "end_seconds": 1068.03,
+    "text": "that's trust. Trust is the one thing that's left with no greater. There's no",
+    "source_text": "that's trust. Trust is the one thing that's left with no greater. There's no",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:48.030",
+    "end": "00:17:50.670",
+    "start_seconds": 1068.03,
+    "end_seconds": 1070.67,
+    "text": "that's left with no greater. There's no benchmark for it, no reward signal. It",
+    "source_text": "that's left with no greater. There's no benchmark for it, no reward signal. It",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:50.670",
+    "end": "00:17:53.110",
+    "start_seconds": 1070.67,
+    "end_seconds": 1073.11,
+    "text": "benchmark for it, no reward signal. It can't be entirely automated because it's",
+    "source_text": "benchmark for it, no reward signal. It can't be entirely automated because it's",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:53.110",
+    "end": "00:17:56.350",
+    "start_seconds": 1073.11,
+    "end_seconds": 1076.35,
+    "text": "can't be entirely automated because it's granted slowly through relationship with",
+    "source_text": "can't be entirely automated because it's granted slowly through relationship with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:56.350",
+    "end": "00:17:59.630",
+    "start_seconds": 1076.35,
+    "end_seconds": 1079.63,
+    "text": "granted slowly through relationship with consent. For example, doctors who",
+    "source_text": "granted slowly through relationship with consent. For example, doctors who",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:59.630",
+    "end": "00:18:02.030",
+    "start_seconds": 1079.63,
+    "end_seconds": 1082.03,
+    "text": "consent. For example, doctors who open one particular tool every morning,",
+    "source_text": "consent. For example, doctors who open one particular tool every morning,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:02.030",
+    "end": "00:18:03.950",
+    "start_seconds": 1082.03,
+    "end_seconds": 1083.95,
+    "text": "open one particular tool every morning, they didn't have that habit trained into",
+    "source_text": "open one particular tool every morning, they didn't have that habit trained into",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:03.950",
+    "end": "00:18:05.270",
+    "start_seconds": 1083.95,
+    "end_seconds": 1085.27,
+    "text": "they didn't have that habit trained into them.",
+    "source_text": "they didn't have that habit trained into them.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:05.270",
+    "end": "00:18:08.030",
+    "start_seconds": 1085.27,
+    "end_seconds": 1088.03,
+    "text": "them. And what happens if we get this wrong?",
+    "source_text": "them. And what happens if we get this wrong?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:08.030",
+    "end": "00:18:10.230",
+    "start_seconds": 1088.03,
+    "end_seconds": 1090.23,
+    "text": "And what happens if we get this wrong? Getting your signal wrong is actually",
+    "source_text": "And what happens if we get this wrong? Getting your signal wrong is actually",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:10.230",
+    "end": "00:18:12.870",
+    "start_seconds": 1090.23,
+    "end_seconds": 1092.87,
+    "text": "Getting your signal wrong is actually not neutral. It's negative.",
+    "source_text": "Getting your signal wrong is actually not neutral. It's negative.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:12.870",
+    "end": "00:18:15.270",
+    "start_seconds": 1092.87,
+    "end_seconds": 1095.27,
+    "text": "not neutral. It's negative. Producing averageness is not free. You",
+    "source_text": "not neutral. It's negative. Producing averageness is not free. You",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:15.270",
+    "end": "00:18:18.190",
+    "start_seconds": 1095.27,
+    "end_seconds": 1098.19,
+    "text": "Producing averageness is not free. You actually pay for it in tokens, in infra,",
+    "source_text": "Producing averageness is not free. You actually pay for it in tokens, in infra,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:18.190",
+    "end": "00:18:21.030",
+    "start_seconds": 1098.19,
+    "end_seconds": 1101.03,
+    "text": "actually pay for it in tokens, in infra, in the salaried hours of good people,",
+    "source_text": "actually pay for it in tokens, in infra, in the salaried hours of good people,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:21.030",
+    "end": "00:18:23.430",
+    "start_seconds": 1101.03,
+    "end_seconds": 1103.43,
+    "text": "in the salaried hours of good people, you know, with with customers that",
+    "source_text": "in the salaried hours of good people, you know, with with customers that",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:23.430",
+    "end": "00:18:26.190",
+    "start_seconds": 1103.43,
+    "end_seconds": 1106.19,
+    "text": "you know, with with customers that take a look at your product once, decide",
+    "source_text": "you know, with with customers that take a look at your product once, decide",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:26.190",
+    "end": "00:18:28.430",
+    "start_seconds": 1106.19,
+    "end_seconds": 1108.43,
+    "text": "take a look at your product once, decide once, and never come back. So, every",
+    "source_text": "take a look at your product once, decide once, and never come back. So, every",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:28.430",
+    "end": "00:18:31.310",
+    "start_seconds": 1108.43,
+    "end_seconds": 1111.31,
+    "text": "once, and never come back. So, every generic post teaches them that your name",
+    "source_text": "once, and never come back. So, every generic post teaches them that your name",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:31.310",
+    "end": "00:18:33.950",
+    "start_seconds": 1111.31,
+    "end_seconds": 1113.95,
+    "text": "generic post teaches them that your name isn't worth the click. So, you spend",
+    "source_text": "generic post teaches them that your name isn't worth the click. So, you spend",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:33.950",
+    "end": "00:18:35.750",
+    "start_seconds": 1113.95,
+    "end_seconds": 1115.75,
+    "text": "isn't worth the click. So, you spend real money to make yourself harder to",
+    "source_text": "isn't worth the click. So, you spend real money to make yourself harder to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:35.750",
+    "end": "00:18:37.350",
+    "start_seconds": 1115.75,
+    "end_seconds": 1117.35,
+    "text": "real money to make yourself harder to choose.",
+    "source_text": "real money to make yourself harder to choose.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:37.350",
+    "end": "00:18:39.430",
+    "start_seconds": 1117.35,
+    "end_seconds": 1119.43,
+    "text": "choose. So, back to the main question.",
+    "source_text": "choose. So, back to the main question.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:39.430",
+    "end": "00:18:41.790",
+    "start_seconds": 1119.43,
+    "end_seconds": 1121.79,
+    "text": "So, back to the main question. We got faster,",
+    "source_text": "So, back to the main question. We got faster,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:41.790",
+    "end": "00:18:43.350",
+    "start_seconds": 1121.79,
+    "end_seconds": 1123.35,
+    "text": "We got faster, but the speed is not where the value",
+    "source_text": "We got faster, but the speed is not where the value",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:43.350",
+    "end": "00:18:44.510",
+    "start_seconds": 1123.35,
+    "end_seconds": 1124.51,
+    "text": "but the speed is not where the value went.",
+    "source_text": "but the speed is not where the value went.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:44.510",
+    "end": "00:18:46.790",
+    "start_seconds": 1124.51,
+    "end_seconds": 1126.79,
+    "text": "went. Uh the value moved up to deciding what",
+    "source_text": "went. Uh the value moved up to deciding what",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:46.790",
+    "end": "00:18:49.070",
+    "start_seconds": 1126.79,
+    "end_seconds": 1129.07,
+    "text": "Uh the value moved up to deciding what is worth building, what is worth saying,",
+    "source_text": "Uh the value moved up to deciding what is worth building, what is worth saying,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:49.070",
+    "end": "00:18:51.230",
+    "start_seconds": 1129.07,
+    "end_seconds": 1131.23,
+    "text": "is worth building, what is worth saying, what deserves trust. And where does the",
+    "source_text": "is worth building, what is worth saying, what deserves trust. And where does the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:51.230",
+    "end": "00:18:53.070",
+    "start_seconds": 1131.23,
+    "end_seconds": 1133.07,
+    "text": "what deserves trust. And where does the thing that you actually",
+    "source_text": "what deserves trust. And where does the thing that you actually",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:53.070",
+    "end": "00:18:55.910",
+    "start_seconds": 1133.07,
+    "end_seconds": 1135.91,
+    "text": "thing that you actually um that that you meant survives the trip",
+    "source_text": "thing that you actually um that that you meant survives the trip",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:55.910",
+    "end": "00:18:58.110",
+    "start_seconds": 1135.91,
+    "end_seconds": 1138.11,
+    "text": "um that that you meant survives the trip to the people that it was for.",
+    "source_text": "um that that you meant survives the trip to the people that it was for.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:58.110",
+    "end": "00:18:59.750",
+    "start_seconds": 1138.11,
+    "end_seconds": 1139.75,
+    "text": "to the people that it was for. So, you don't need to be first. You need",
+    "source_text": "to the people that it was for. So, you don't need to be first. You need",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:59.750",
+    "end": "00:19:02.590",
+    "start_seconds": 1139.75,
+    "end_seconds": 1142.59,
+    "text": "So, you don't need to be first. You need a real problem and enough conviction to",
+    "source_text": "So, you don't need to be first. You need a real problem and enough conviction to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:02.590",
+    "end": "00:19:05.670",
+    "start_seconds": 1142.59,
+    "end_seconds": 1145.67,
+    "text": "a real problem and enough conviction to carry the signal clearly through to, you",
+    "source_text": "a real problem and enough conviction to carry the signal clearly through to, you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:05.670",
+    "end": "00:19:08.150",
+    "start_seconds": 1145.67,
+    "end_seconds": 1148.15,
+    "text": "carry the signal clearly through to, you know, right people to find it.",
+    "source_text": "carry the signal clearly through to, you know, right people to find it.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:08.150",
+    "end": "00:19:10.270",
+    "start_seconds": 1148.15,
+    "end_seconds": 1150.27,
+    "text": "know, right people to find it. So, when you can build anything, you",
+    "source_text": "know, right people to find it. So, when you can build anything, you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:10.270",
+    "end": "00:19:12.110",
+    "start_seconds": 1150.27,
+    "end_seconds": 1152.11,
+    "text": "So, when you can build anything, you should build trust.",
+    "source_text": "So, when you can build anything, you should build trust.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:12.110",
+    "end": "00:19:14.310",
+    "start_seconds": 1152.11,
+    "end_seconds": 1154.31,
+    "text": "should build trust. Have the strongest conviction, define",
+    "source_text": "should build trust. Have the strongest conviction, define",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:14.310",
+    "end": "00:19:16.430",
+    "start_seconds": 1154.31,
+    "end_seconds": 1156.43,
+    "text": "Have the strongest conviction, define the signal yourself, protect it from",
+    "source_text": "Have the strongest conviction, define the signal yourself, protect it from",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:16.430",
+    "end": "00:19:19.350",
+    "start_seconds": 1156.43,
+    "end_seconds": 1159.35,
+    "text": "the signal yourself, protect it from distortion, and use AI aggressively for",
+    "source_text": "the signal yourself, protect it from distortion, and use AI aggressively for",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:19.350",
+    "end": "00:19:21.150",
+    "start_seconds": 1159.35,
+    "end_seconds": 1161.15,
+    "text": "distortion, and use AI aggressively for everything else.",
+    "source_text": "distortion, and use AI aggressively for everything else.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:21.150",
+    "end": "00:19:22.950",
+    "start_seconds": 1161.15,
+    "end_seconds": 1162.95,
+    "text": "everything else. Thank you. Let's connect and happy to",
+    "source_text": "everything else. Thank you. Let's connect and happy to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:22.950",
+    "end": "00:19:24.790",
+    "start_seconds": 1162.95,
+    "end_seconds": 1164.79,
+    "text": "Thank you. Let's connect and happy to chat with you afterwards.",
+    "source_text": "Thank you. Let's connect and happy to chat with you afterwards.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:24.790",
+    "end": "00:19:26.560",
+    "start_seconds": 1164.79,
+    "end_seconds": 1166.56,
+    "text": "chat with you afterwards. Thank you.",
+    "source_text": "chat with you afterwards. Thank you.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:26.560",
+    "end": "00:19:40.310",
+    "start_seconds": 1166.56,
+    "end_seconds": 1180.31,
+    "text": "Thank you. &gt;&gt; [applause]",
+    "source_text": "Thank you. &gt;&gt; [applause]",
+    "caption_overlap_words": 0
+  }
+]

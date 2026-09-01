@@ -78,6 +78,16 @@ Every skill system must define these fields before it is treated as deployed:
 - **Open risk**: [none or exact limitation]
 ```
 
+## Signal Fidelity Handoff (SHADOW)
+
+When selected source-derived, taste-bearing, public/client, or consequential
+work crosses multiple component boundaries, the Skill System owner may
+optionally pass the compact checksum, promise plus limit, must-survive details,
+proof state, human owner, source path, and open risk from
+`signal-fidelity-shadow-contract.md`. Reuse native handoff fields where they are
+already sufficient. This is advisory context propagation, not a new required
+schema, validator gate, or command surface.
+
 ## Context Policy
 
 - Keep orchestrator instructions compact and explicit.

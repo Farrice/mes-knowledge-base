@@ -69,6 +69,15 @@ Every launchpad pass should produce these fields:
     locally, but a user-owned task is created or opened only after explicit
     approval.
 
+## Signal Fidelity Capture (SHADOW)
+
+For selected material work that will cross several transformations or handoffs,
+the Launchpad owner may optionally reuse its existing center, edges, success,
+constraints, proof, and handoff fields to form the compact checksum described in
+`signal-fidelity-shadow-contract.md`. Do not add a second questionnaire or make
+Signal Contract fields mandatory. This pointer supplies downstream fidelity
+context only; Launchpad retains intent authority and clear work still runs.
+
 ## Pause Rules
 
 Pause for judgment when:

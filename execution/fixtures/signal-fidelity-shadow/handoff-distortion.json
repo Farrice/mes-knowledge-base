@@ -1,0 +1,25 @@
+{
+  "signal_contract": {
+    "recipient": "Future maintainer of the thought-partner system",
+    "intended_change": "Continue adoption testing without rebuilding the system",
+    "source_of_conviction": "The desired outcome is live co-creative behavior, not merely installed files",
+    "promise": "The structural build is complete",
+    "limit": "Behavioral adoption and human preference remain untested",
+    "proof_state": "UNTESTED",
+    "human_owner": "Farrice",
+    "source_path": ".agent/handoffs/2026-08-13-geoff-woods-thought-partner-os.md",
+    "must_survive": [
+      {
+        "id": "adoption-proof-gap",
+        "kind": "detail",
+        "meaning": "Live adoption evidence is still required",
+        "markers": ["adoption remains untested", "live adoption evidence"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "The thought-partner system is built, audited, and complete. No implementation remains.",
+  "artifact_proof_state": "UNTESTED",
+  "playback_text": "The system is complete and ready; no further proof is needed.",
+  "owner_approved_changes": []
+}

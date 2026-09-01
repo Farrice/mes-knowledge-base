@@ -1,0 +1,32 @@
+{
+  "signal_contract": {
+    "recipient": "Health brand operator",
+    "intended_change": "Inspect the first AI visibility and trust gap",
+    "source_of_conviction": "Public diagnosis can demonstrate judgment before client results exist",
+    "promise": "One observable gap and the first asset to build",
+    "limit": "No live cross-engine result is claimed",
+    "proof_state": "UNTESTED",
+    "human_owner": "Farrice",
+    "source_path": "_active/linkedin/06-automation/health-performance-ai-search-week-1/content-packet-v2-polished.md",
+    "must_survive": [
+      {
+        "id": "consultant-frame",
+        "kind": "detail",
+        "meaning": "The original top-funnel and bottom-funnel explanation",
+        "markers": ["top of the funnel", "bottom of the funnel"],
+        "required_in": ["artifact", "playback"]
+      },
+      {
+        "id": "no-live-result-limit",
+        "kind": "limit",
+        "meaning": "No live cross-engine result is claimed",
+        "markers": ["no live cross-engine result"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "The answer-engine test and the human-trust test reveal the first gap. This pass claims no live cross-engine result.",
+  "artifact_proof_state": "UNTESTED",
+  "playback_text": "It compares machine understanding with human trust and makes no live cross-engine result claim.",
+  "owner_approved_changes": ["consultant-frame"]
+}
