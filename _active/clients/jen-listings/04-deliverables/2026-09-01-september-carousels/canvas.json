@@ -1,22 +1,4 @@
 {
-  "pages": [
-    {
-      "id": "page-1",
-      "name": "1 \u00b7 start here"
-    },
-    {
-      "id": "page-2",
-      "name": "2 \u00b7 the look: valley native"
-    },
-    {
-      "id": "page-3",
-      "name": "3 \u00b7 the three carousels"
-    },
-    {
-      "id": "page-4",
-      "name": "4 \u00b7 earlier sketches"
-    }
-  ],
   "artboards": [
     {
       "file": "P0.dc.html",
@@ -24,440 +6,391 @@
       "x": 0,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-1"
-    },
-    {
-      "file": "P1.dc.html",
-      "title": "how to read this",
-      "x": 1180,
-      "y": 0,
-      "w": 1080,
-      "h": 2000,
-      "print": "flow",
-      "page": "page-1"
-    },
-    {
-      "file": "P2.dc.html",
-      "title": "filming notes",
-      "x": 2360,
-      "y": 0,
-      "w": 1080,
-      "h": 2000,
-      "print": "flow",
-      "page": "page-1"
-    },
-    {
-      "file": "R1.dc.html",
-      "title": "reel 1 \u00b7 the condo has to qualify too",
-      "x": 0,
-      "y": 2200,
-      "w": 1080,
-      "h": 3000,
-      "print": "flow",
-      "page": "page-1"
-    },
-    {
-      "file": "R2.dc.html",
-      "title": "reel 2 \u00b7 van nuys is getting a train",
-      "x": 1180,
-      "y": 2200,
-      "w": 1080,
-      "h": 3000,
-      "print": "flow",
-      "page": "page-1"
-    },
-    {
-      "file": "R3.dc.html",
-      "title": "reel 3 \u00b7 the insurance quote",
-      "x": 2360,
-      "y": 2200,
-      "w": 1080,
-      "h": 3000,
-      "print": "flow",
-      "page": "page-1"
+      "h": 1350
     },
     {
       "file": "DD1.dc.html",
       "title": "valley native \u00b7 slide 1",
-      "x": 0,
+      "x": 1180,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD2.dc.html",
       "title": "valley native \u00b7 slide 2",
-      "x": 1180,
+      "x": 2360,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD3.dc.html",
       "title": "valley native \u00b7 slide 3",
-      "x": 2360,
+      "x": 3540,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD4.dc.html",
       "title": "valley native \u00b7 slide 4",
-      "x": 3540,
+      "x": 4720,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD5.dc.html",
       "title": "valley native \u00b7 slide 5",
-      "x": 4720,
+      "x": 5900,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD6.dc.html",
       "title": "valley native \u00b7 slide 6",
-      "x": 5900,
+      "x": 7080,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
     },
     {
       "file": "DD7.dc.html",
       "title": "valley native \u00b7 slide 7",
-      "x": 7080,
+      "x": 8260,
       "y": 0,
       "w": 1080,
-      "h": 1350,
-      "page": "page-2"
+      "h": 1350
+    },
+    {
+      "file": "P1.dc.html",
+      "title": "how to read this",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 2200,
+      "print": "flow"
+    },
+    {
+      "file": "R1.dc.html",
+      "title": "reel 1 \u00b7 the condo has to qualify too",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R2.dc.html",
+      "title": "reel 2 \u00b7 van nuys is getting a train",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R3.dc.html",
+      "title": "reel 3 \u00b7 the insurance quote",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "P2.dc.html",
+      "title": "filming notes + don't say",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 2200,
+      "print": "flow"
     },
     {
       "file": "P3.dc.html",
       "title": "the rulebook",
-      "x": 0,
+      "x": 5900,
       "y": 1560,
       "w": 1080,
-      "h": 4200,
-      "print": "flow",
-      "page": "page-2"
+      "h": 4400,
+      "print": "flow"
     },
     {
       "file": "P4.dc.html",
       "title": "the photo bank",
-      "x": 1180,
+      "x": 7080,
       "y": 1560,
       "w": 1080,
-      "h": 2500,
-      "print": "flow",
-      "page": "page-2"
+      "h": 2600,
+      "print": "flow"
     },
     {
       "file": "Main.dc.html",
-      "title": "1.1 the condo has to qualify too",
+      "title": "a.1 the condo has to qualify too",
       "x": 0,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S2.dc.html",
-      "title": "1.2 the condo has to qualify too",
+      "title": "a.2 the condo has to qualify too",
       "x": 1180,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S3.dc.html",
-      "title": "1.3 the condo has to qualify too",
+      "title": "a.3 the condo has to qualify too",
       "x": 2360,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S4.dc.html",
-      "title": "1.4 the condo has to qualify too",
+      "title": "a.4 the condo has to qualify too",
       "x": 3540,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S5.dc.html",
-      "title": "1.5 the condo has to qualify too",
+      "title": "a.5 the condo has to qualify too",
       "x": 4720,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S6.dc.html",
-      "title": "1.6 the condo has to qualify too",
+      "title": "a.6 the condo has to qualify too",
       "x": 5900,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C1S7.dc.html",
-      "title": "1.7 the condo has to qualify too",
+      "title": "a.7 the condo has to qualify too",
       "x": 7080,
-      "y": 0,
+      "y": 6360,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S1.dc.html",
-      "title": "2.1 van nuys is getting a train",
+      "title": "b.1 van nuys is getting a train",
       "x": 0,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S2.dc.html",
-      "title": "2.2 van nuys is getting a train",
+      "title": "b.2 van nuys is getting a train",
       "x": 1180,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S3.dc.html",
-      "title": "2.3 van nuys is getting a train",
+      "title": "b.3 van nuys is getting a train",
       "x": 2360,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S4.dc.html",
-      "title": "2.4 van nuys is getting a train",
+      "title": "b.4 van nuys is getting a train",
       "x": 3540,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S5.dc.html",
-      "title": "2.5 van nuys is getting a train",
+      "title": "b.5 van nuys is getting a train",
       "x": 4720,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S6.dc.html",
-      "title": "2.6 van nuys is getting a train",
+      "title": "b.6 van nuys is getting a train",
       "x": 5900,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C2S7.dc.html",
-      "title": "2.7 van nuys is getting a train",
+      "title": "b.7 van nuys is getting a train",
       "x": 7080,
-      "y": 1560,
+      "y": 7920,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S1.dc.html",
-      "title": "3.1 the insurance quote comes before the offer",
+      "title": "c.1 the insurance quote comes before the offer",
       "x": 0,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S2.dc.html",
-      "title": "3.2 the insurance quote comes before the offer",
+      "title": "c.2 the insurance quote comes before the offer",
       "x": 1180,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S3.dc.html",
-      "title": "3.3 the insurance quote comes before the offer",
+      "title": "c.3 the insurance quote comes before the offer",
       "x": 2360,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S4.dc.html",
-      "title": "3.4 the insurance quote comes before the offer",
+      "title": "c.4 the insurance quote comes before the offer",
       "x": 3540,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S5.dc.html",
-      "title": "3.5 the insurance quote comes before the offer",
+      "title": "c.5 the insurance quote comes before the offer",
       "x": 4720,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S6.dc.html",
-      "title": "3.6 the insurance quote comes before the offer",
+      "title": "c.6 the insurance quote comes before the offer",
       "x": 5900,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "C3S7.dc.html",
-      "title": "3.7 the insurance quote comes before the offer",
+      "title": "c.7 the insurance quote comes before the offer",
       "x": 7080,
-      "y": 3120,
+      "y": 9480,
       "w": 1080,
-      "h": 1350,
-      "page": "page-3"
+      "h": 1350
     },
     {
       "file": "DA1.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 cover",
       "x": 0,
-      "y": 0,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DA2.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 slide 3",
       "x": 1180,
-      "y": 0,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DA3.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 slide 4",
       "x": 2360,
-      "y": 0,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DA4.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 close",
       "x": 3540,
-      "y": 0,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DB1.dc.html",
       "title": "B \u00b7 field notes \u00b7 cover",
-      "x": 0,
-      "y": 1560,
+      "x": 4920,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DB2.dc.html",
       "title": "B \u00b7 field notes \u00b7 slide 3",
-      "x": 1180,
-      "y": 1560,
+      "x": 6100,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DB3.dc.html",
       "title": "B \u00b7 field notes \u00b7 slide 4",
-      "x": 2360,
-      "y": 1560,
+      "x": 7280,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     },
     {
       "file": "DB4.dc.html",
       "title": "B \u00b7 field notes \u00b7 close",
-      "x": 3540,
-      "y": 1560,
+      "x": 8460,
+      "y": 11340,
       "w": 1080,
-      "h": 1350,
-      "page": "page-4"
+      "h": 1350
     }
   ],
   "annotations": [
     {
-      "id": "p1-note",
+      "id": "row1",
       "x": 0,
       "y": -260,
       "w": 1100,
-      "page": "page-1",
-      "text": "jen: start with the cover, then 'how to read this'. the three reel cards below are the scripts, word for word. pick the one you'd say first. the condo one is the top pick.\npages are in the menu at the top. click any slide to see it big. export gives you a PNG of any slide."
+      "text": "START HERE. left: the cover. then the seven slides of the new look, valley native: your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does."
     },
     {
-      "id": "p2-note",
+      "id": "row2",
       "x": 0,
-      "y": -260,
+      "y": 1300,
       "w": 1100,
-      "page": "page-2",
-      "text": "the look: valley native. your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead is the signature: it stays in the same spot on every slide, forever. the zip changes when the neighborhood does.\nbelow: the rulebook (seven rules, so every future set matches) and the photo bank (every photo is real and cleared; the three of you are placeholders until you send originals)."
+      "text": "THE WORDS. how to read this \u00b7 the three reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
     },
     {
-      "id": "p3-note",
+      "id": "row3",
       "x": 0,
-      "y": -260,
+      "y": 6100,
       "w": 1100,
-      "page": "page-3",
-      "text": "all three carousels in the current look. the words are final and every number is sourced on the last slide.\nrow 1: the condo has to qualify too. row 2: van nuys is getting a train (the opinion in that one is a draft of yours; change it to what you'd actually say). row 3: the insurance quote comes before the offer.\nonce you pick the look, all three get rebuilt in it."
+      "text": "THE THREE CAROUSELS in the current look, one per row. the words are final and every number is sourced on the last slide. once you pick the look, all three get rebuilt in it.\nrow a: the condo has to qualify too (post first). row b: van nuys is getting a train (the opinion is a draft of yours; change it to what you'd say). row c: the insurance quote comes before the offer."
     },
     {
-      "id": "p4-note",
+      "id": "row6",
       "x": 0,
-      "y": -260,
+      "y": 11080,
       "w": 1100,
-      "page": "page-4",
-      "text": "two earlier sketches on the condo set, kept so you can see what was left behind.\nA: the current look with big photos. B: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps B's layout ideas in your own look."
+      "text": "EARLIER SKETCHES on the condo set, kept so you can see what was left behind. left four: the current look with big photos. right four: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps its layout ideas in your own look."
     }
   ],
   "launch": {
-    "view": "canvas",
-    "page": "page-1"
+    "view": "canvas"
   }
 }

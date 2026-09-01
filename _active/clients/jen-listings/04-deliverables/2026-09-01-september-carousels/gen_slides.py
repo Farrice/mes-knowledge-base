@@ -308,52 +308,54 @@ order = [
     ("the insurance quote comes before the offer", ["C3S1", "C3S2", "C3S3", "C3S4", "C3S5", "C3S6", "C3S7"]),
 ]
 artboards = []
+notes = []
 X = 1180  # column pitch
+ROW = 1560  # pitch between rows of 1350-tall slides
 
-# ---- page 1: start here (the walkthrough) ----
-artboards += [
-    {"file": "P0.dc.html", "title": "start here", "x": 0, "y": 0, "w": 1080, "h": 1350, "page": "page-1"},
-    {"file": "P1.dc.html", "title": "how to read this", "x": X, "y": 0, "w": 1080, "h": 2000, "print": "flow", "page": "page-1"},
-    {"file": "P2.dc.html", "title": "filming notes", "x": 2 * X, "y": 0, "w": 1080, "h": 2000, "print": "flow", "page": "page-1"},
-    {"file": "R1.dc.html", "title": "reel 1 · the condo has to qualify too", "x": 0, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
-    {"file": "R2.dc.html", "title": "reel 2 · van nuys is getting a train", "x": X, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
-    {"file": "R3.dc.html", "title": "reel 3 · the insurance quote", "x": 2 * X, "y": 2200, "w": 1080, "h": 3000, "print": "flow", "page": "page-1"},
-]
+def note(nid, y, text, x=0, w=1100):
+    notes.append({"id": nid, "x": x, "y": y, "w": w, "text": text})
 
-# ---- page 2: the look (valley native) ----
+# ---- row 1: cover + the look (valley native), the hero row ----
+y = 0
+note("row1", y - 260, "START HERE. left: the cover. then the seven slides of the new look, valley native: your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does.")
+artboards.append({"file": "P0.dc.html", "title": "start here", "x": 0, "y": y, "w": 1080, "h": 1350})
 for col, name in enumerate(["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]):
-    artboards.append({"file": f"{name}.dc.html", "title": f"valley native · slide {col + 1}", "x": col * X, "y": 0, "w": 1080, "h": 1350, "page": "page-2"})
-artboards += [
-    {"file": "P3.dc.html", "title": "the rulebook", "x": 0, "y": 1560, "w": 1080, "h": 4200, "print": "flow", "page": "page-2"},
-    {"file": "P4.dc.html", "title": "the photo bank", "x": X, "y": 1560, "w": 1080, "h": 2500, "print": "flow", "page": "page-2"},
-]
+    artboards.append({"file": f"{name}.dc.html", "title": f"valley native · slide {col + 1}", "x": (col + 1) * X, "y": y, "w": 1080, "h": 1350})
 
-# ---- page 3: the three sets, copy approved ----
+# ---- row 2: the reading row (tall cards) ----
+y = ROW
+note("row2", y - 260, "THE WORDS. how to read this · the three reel scripts, word for word (hook, script, on-screen text, caption) · filming notes and the don't-say list · the rulebook for the look · the photo bank. click any card to read it big; they scroll.")
+tall = [
+    ("P1", "how to read this", 2200),
+    ("R1", "reel 1 · the condo has to qualify too", 3200),
+    ("R2", "reel 2 · van nuys is getting a train", 3200),
+    ("R3", "reel 3 · the insurance quote", 3200),
+    ("P2", "filming notes + don't say", 2200),
+    ("P3", "the rulebook", 4400),
+    ("P4", "the photo bank", 2600),
+]
+for col, (name, title, h) in enumerate(tall):
+    artboards.append({"file": f"{name}.dc.html", "title": title, "x": col * X, "y": y, "w": 1080, "h": h, "print": "flow"})
+
+# ---- rows 3-5: the three carousels in the current look ----
+y = ROW + 4400 + 400
+note("row3", y - 260, "THE THREE CAROUSELS in the current look, one per row. the words are final and every number is sourced on the last slide. once you pick the look, all three get rebuilt in it.\nrow a: the condo has to qualify too (post first). row b: van nuys is getting a train (the opinion is a draft of yours; change it to what you'd say). row c: the insurance quote comes before the offer.")
 for row, (title, names) in enumerate(order):
     for col, name in enumerate(names):
-        artboards.append({"file": f"{name}.dc.html", "title": f"{row + 1}.{col + 1} {title}", "x": col * X, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-3"})
+        artboards.append({"file": f"{name}.dc.html", "title": f"{['a', 'b', 'c'][row]}.{col + 1} {title}", "x": col * X, "y": y + row * ROW, "w": 1080, "h": 1350})
 
-# ---- page 4: earlier sketches ----
-for row, (title, names) in enumerate([("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]), ("B · field notes", ["DB1", "DB2", "DB3", "DB4"])]):
+# ---- row 6: earlier sketches ----
+y = y + 3 * ROW + 300
+note("row6", y - 260, "EARLIER SKETCHES on the condo set, kept so you can see what was left behind. left four: the current look with big photos. right four: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps its layout ideas in your own look.")
+for grp, (title, names) in enumerate([("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]), ("B · field notes", ["DB1", "DB2", "DB3", "DB4"])]):
     for col, name in enumerate(names):
         label = ["cover", "slide 3", "slide 4", "close"][col]
-        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}", "x": col * X, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-4"})
+        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}", "x": (grp * 4 + col) * X + grp * 200, "y": y, "w": 1080, "h": 1350})
 
 canvas = {
-    "pages": [
-        {"id": "page-1", "name": "1 · start here"},
-        {"id": "page-2", "name": "2 · the look: valley native"},
-        {"id": "page-3", "name": "3 · the three carousels"},
-        {"id": "page-4", "name": "4 · earlier sketches"},
-    ],
     "artboards": artboards,
-    "annotations": [
-        {"id": "p1-note", "x": 0, "y": -260, "w": 1100, "page": "page-1", "text": "jen: start with the cover, then 'how to read this'. the three reel cards below are the scripts, word for word. pick the one you'd say first. the condo one is the top pick.\npages are in the menu at the top. click any slide to see it big. export gives you a PNG of any slide."},
-        {"id": "p2-note", "x": 0, "y": -260, "w": 1100, "page": "page-2", "text": "the look: valley native. your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead is the signature: it stays in the same spot on every slide, forever. the zip changes when the neighborhood does.\nbelow: the rulebook (seven rules, so every future set matches) and the photo bank (every photo is real and cleared; the three of you are placeholders until you send originals)."},
-        {"id": "p3-note", "x": 0, "y": -260, "w": 1100, "page": "page-3", "text": "all three carousels in the current look. the words are final and every number is sourced on the last slide.\nrow 1: the condo has to qualify too. row 2: van nuys is getting a train (the opinion in that one is a draft of yours; change it to what you'd actually say). row 3: the insurance quote comes before the offer.\nonce you pick the look, all three get rebuilt in it."},
-        {"id": "p4-note", "x": 0, "y": -260, "w": 1100, "page": "page-4", "text": "two earlier sketches on the condo set, kept so you can see what was left behind.\nA: the current look with big photos. B: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps B's layout ideas in your own look."},
-    ],
-    "launch": {"view": "canvas", "page": "page-1"},
+    "annotations": notes,
+    "launch": {"view": "canvas"},
 }
 (OUT / "canvas.json").write_text(json.dumps(canvas, indent=2))
 print("wrote", len(slides), "artboards + canvas.json")
