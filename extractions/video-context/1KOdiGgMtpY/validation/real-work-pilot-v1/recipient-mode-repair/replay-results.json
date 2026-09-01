@@ -1,0 +1,59 @@
+{
+  "schema_version": "signal-fidelity-recipient-mode-replay/v1",
+  "status": "PASS",
+  "decision": "INTEGRATE_AS_BOUNDED_SHADOW_PROTOTYPE",
+  "promotion_authorized": false,
+  "merge_authorized": false,
+  "enforcement_authorized": false,
+  "automatic_activation": false,
+  "composition_authority": false,
+  "visible_artifacts_unchanged": 4,
+  "visible_artifacts_total": 4,
+  "generated_user_questions": 0,
+  "false_blocks": 0,
+  "proof_inflation_events": 0,
+  "cases": {
+    "strategy": {
+      "selected_arm_preserved": "treatment",
+      "recipient_mode": "strategy",
+      "delivery": "inline_decision_boundaries",
+      "visible_artifact_sha256": "6175b00b95fe5c0a969781def0e24bd25e8195aa1012618e7692ce71ab07d0cb",
+      "result": "PASS"
+    },
+    "content": {
+      "selected_arm_preserved": "baseline",
+      "recipient_mode": "public_content",
+      "delivery": "owner_only_audit",
+      "visible_artifact_sha256": "05d3e2e6f120c8ecc39251d86b32306f0ae6124fe5d68999f61964e5706aa3b8",
+      "added_visible_words": 0,
+      "result": "PASS"
+    },
+    "handoff_human": {
+      "selected_arm_preserved": "baseline",
+      "recipient_mode": "human",
+      "delivery": "cold_sidecar",
+      "visible_artifact_sha256": "9b5d222c8fd59743e2f653b4725e9029456c0f94ebc6a35f3ef1280be78844b3",
+      "added_visible_words": 0,
+      "result": "PASS"
+    },
+    "handoff_ai_agent": {
+      "selected_arm_preserved": "treatment",
+      "recipient_mode": "ai_agent",
+      "delivery": "inline_execution_capsule",
+      "visible_artifact_sha256": "fb090d91fd3616a7894e0252c2a2315ef737c50d8b802400a822a70d70da7df3",
+      "result": "PASS"
+    }
+  },
+  "negative_controls": {
+    "creative_manual": "PASS_NO_DISTORTION_ALLEGATION_NO_COMPOSITION_AUTHORITY",
+    "sparse_not_selected": "PASS_NOT_RUN_NO_REVIEW_BURDEN"
+  },
+  "proof_state": {
+    "structural_and_frozen_replay": "VERIFIED",
+    "human_blind_recipient_split": "VERIFIED",
+    "production_receipts": "NO EVENT",
+    "field_comprehension_gain": "UNTESTED",
+    "trust_effect": "UNTESTED"
+  },
+  "next_gate": "Three independent production receipts across different task types before any promotion decision."
+}

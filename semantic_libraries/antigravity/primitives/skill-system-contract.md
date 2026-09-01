@@ -87,6 +87,11 @@ proof state, human owner, source path, and open risk from
 `signal-fidelity-shadow-contract.md`. Reuse native handoff fields where they are
 already sufficient. This is advisory context propagation, not a new required
 schema, validator gate, or command surface.
+For an `ai_agent` handoff, the selected compact capsule may travel explicitly.
+For `human` and `public_content`, keep it cold and preserve the native summary
+or content artifact. Selected `strategy` work may expose only the decision
+boundaries likely to disappear in compression. Signal Fidelity never becomes
+the composition owner.
 
 ## Context Policy
 

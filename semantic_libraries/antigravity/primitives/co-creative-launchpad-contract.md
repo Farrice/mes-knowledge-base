@@ -77,6 +77,10 @@ constraints, proof, and handoff fields to form the compact checksum described in
 `signal-fidelity-shadow-contract.md`. Do not add a second questionnaire or make
 Signal Contract fields mandatory. This pointer supplies downstream fidelity
 context only; Launchpad retains intent authority and clear work still runs.
+Name `recipient_mode` only when it materially changes delivery: `strategy` and
+`ai_agent` may receive an explicit receipt, while `human` and `public_content`
+keep the native surface primary. Inferring the mode must not create another
+question.
 
 ## Pause Rules
 

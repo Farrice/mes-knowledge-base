@@ -112,6 +112,24 @@ Give the transformed artifact to an unfamiliar recipient and ask them to describ
 
 Compare that playback with the Signal Contract. The deterministic prototype can check supplied markers; it cannot establish semantic equivalence. A human owner decides whether the gap is material, acceptable, or a useful evolution.
 
+## Recipient-Aware Receipt Mode
+
+The blinded pilot showed a split result: explicit structure helped consequential
+strategy and AI-agent execution, while Farrice preferred native language for
+public content, human handoff, and burden. The optional `recipient_mode` changes
+only the receipt surface; it does not change evaluation authority.
+
+| Mode | Signal Fidelity delivery | Native owner authority |
+|---|---|---|
+| `strategy` | Explicit decision boundaries on a manually selected consequential decision. | Strategy owner chooses the decision and approves any evolution. |
+| `ai_agent` | Explicit execution capsule containing the compact signal and must-survive details. | Handoff owner defines the task and reviews the result. |
+| `human` | Cold sidecar; preserve the native conversational summary. | Human-facing artifact remains native and primary. |
+| `public_content` | Owner-only audit; do not rewrite or lengthen the draft. | Content owner retains composition, voice, metaphor, and taste authority. |
+
+If no mode is supplied, use `human`, the lower-burden default. No mode may add a
+required question, mutate an artifact, acquire composition authority, or make
+Signal Fidelity visible merely to prove it ran.
+
 ## Deliberate Evolution
 
 Fidelity does not mean preserving a weak first articulation forever.
@@ -129,9 +147,15 @@ Fidelity does not mean preserving a weak first articulation forever.
 
 No integration transfers authority to this primitive.
 
+The recipient mode travels only when it changes delivery. Human and public
+content surfaces keep the capsule cold; AI-agent and selected strategy surfaces
+may expose it explicitly. Do not create a second handoff object when an existing
+owner packet already carries the same fields.
+
 ## Context Policy
 
-- **Hot only on a selected run:** checksum, promise plus limit, must-survive items, proof state, human owner, source path, and open risk.
+- **Hot only on a selected `ai_agent` or `strategy` run:** checksum, promise plus limit, must-survive items, proof state, human owner, source path, and open risk.
+- **Cold sidecar on `human` or `public_content`:** the same compact signal may remain inspectable to the owner but does not enter the native artifact.
 - **On demand:** source evidence, approved-change rationale, and detailed playback.
 - **Cold:** transcript, full history, adjacent expert systems, and previous artifacts.
 

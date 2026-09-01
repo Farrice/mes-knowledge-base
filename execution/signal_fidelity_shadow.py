@@ -29,6 +29,7 @@ CORE_FIELDS = (
 )
 VALID_SURFACES = {"artifact", "playback"}
 VALID_MATCH_POLICIES = {"literal", "manual"}
+VALID_RECIPIENT_MODES = {"human", "ai_agent", "public_content", "strategy"}
 
 
 class PacketError(ValueError):
@@ -89,7 +90,64 @@ def validate_packet(packet: Any) -> dict[str, Any]:
     selected = packet.get("selected_for_review", True)
     if not isinstance(selected, bool):
         raise PacketError("selected_for_review must be a boolean when supplied")
+    recipient_mode = packet.get("recipient_mode", "human")
+    if recipient_mode not in VALID_RECIPIENT_MODES:
+        allowed = ", ".join(sorted(VALID_RECIPIENT_MODES))
+        raise PacketError(f"recipient_mode must be one of: {allowed}")
     return packet
+
+
+def recipient_surface_policy(recipient_mode: str) -> dict[str, Any]:
+    """Return advisory presentation policy without acquiring authoring authority."""
+    policies = {
+        "human": {
+            "native_surface": True,
+            "signal_capsule": "cold",
+            "delta_delivery": "cold_sidecar",
+            "visible_output": "native conversational summary",
+        },
+        "public_content": {
+            "native_surface": True,
+            "signal_capsule": "audit_only",
+            "delta_delivery": "owner_only_audit",
+            "visible_output": "native content-owner artifact",
+        },
+        "ai_agent": {
+            "native_surface": False,
+            "signal_capsule": "explicit",
+            "delta_delivery": "inline_execution_capsule",
+            "visible_output": "structured execution handoff",
+        },
+        "strategy": {
+            "native_surface": False,
+            "signal_capsule": "explicit",
+            "delta_delivery": "inline_decision_boundaries",
+            "visible_output": "selected consequential decision receipt",
+        },
+    }
+    return {
+        "recipient_mode": recipient_mode,
+        "composition_authority": False,
+        "can_mutate_artifact": False,
+        **policies[recipient_mode],
+    }
+
+
+def signal_capsule(contract: dict[str, Any], recipient_mode: str) -> dict[str, Any] | None:
+    """Expose compact structure only where the blind result supported it."""
+    if recipient_mode not in {"ai_agent", "strategy"}:
+        return None
+    return {
+        "recipient": contract.get("recipient", ""),
+        "intended_change": contract.get("intended_change", ""),
+        "source_of_conviction": contract.get("source_of_conviction", ""),
+        "promise": contract.get("promise", ""),
+        "limit": contract.get("limit", ""),
+        "proof_state": contract.get("proof_state", ""),
+        "human_owner": contract.get("human_owner", ""),
+        "source_path": contract.get("source_path", ""),
+        "must_survive": contract.get("must_survive", []),
+    }
 
 
 def issue(distortion_class: str, code: str, field: str, evidence: str) -> dict[str, str]:
@@ -135,9 +193,15 @@ def coalesce_approved_changes(records: list[dict[str, str]]) -> list[dict[str, s
 def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
     packet = validate_packet(packet)
     contract = packet["signal_contract"]
+    recipient_mode = packet.get("recipient_mode", "human")
+    surface_policy = recipient_surface_policy(recipient_mode)
     if packet.get("selected_for_review", True) is False:
         return {
             "mode": MODE,
+            "recipient_mode": recipient_mode,
+            "surface_policy": surface_policy,
+            "native_surface_primary": surface_policy["native_surface"],
+            "signal_capsule": None,
             "decision": "NOT_RUN",
             "enforcement": False,
             "can_block": False,
@@ -313,18 +377,22 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
     else:
         decision = "CLEAR"
 
-    review_questions: list[str] = []
+    review_cues: list[str] = []
     if issues:
-        review_questions.append("Which reported gaps are materially different from what the human owner intended?")
+        review_cues.append("Owner decides whether any reported gap is materially different from the intended signal.")
     if approved_changes:
-        review_questions.append("Do the recorded adaptations preserve a newly approved promise, limit, and proof state?")
+        review_cues.append("Owner confirms the adapted promise, limit, and proof state when the change matters.")
     if manual_checks:
-        review_questions.append("Does the human owner recognize the intended meaning in the manually reviewed creative language?")
+        review_cues.append("Content owner retains sole judgment over metaphor, ambiguity, voice, and deliberate reframing.")
     if not playback_text.strip():
-        review_questions.append("What does an unfamiliar recipient say this is for, why it matters, and where its limit is?")
+        review_cues.append("Recipient comprehension remains open until unfamiliar-recipient playback is supplied.")
 
     return {
         "mode": MODE,
+        "recipient_mode": recipient_mode,
+        "surface_policy": surface_policy,
+        "native_surface_primary": surface_policy["native_surface"],
+        "signal_capsule": signal_capsule(contract, recipient_mode),
         "decision": decision,
         "enforcement": False,
         "can_block": False,
@@ -334,7 +402,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
         "approved_changes": approved_changes,
         "manual_checks": manual_checks,
         "uncertainty": uncertainties,
-        "human_review": review_questions,
+        "human_review": review_cues,
     }
 
 
@@ -342,8 +410,21 @@ def render_plain(report: dict[str, Any]) -> str:
     lines = [
         "Signal Fidelity SHADOW",
         f"Decision: {report['decision']} (advisory; cannot block)",
+        f"Recipient mode: {report.get('recipient_mode', 'human')}",
         f"Human owner: {report.get('human_owner') or 'not supplied'}",
     ]
+    policy = report.get("surface_policy", {})
+    if policy:
+        lines.append(f"Delivery: {policy.get('delta_delivery')} -> {policy.get('visible_output')}")
+        lines.append(f"Composition authority: {str(policy.get('composition_authority', False)).lower()}")
+    capsule = report.get("signal_capsule")
+    if capsule:
+        lines.append("Explicit signal capsule:")
+        for field in CORE_FIELDS:
+            lines.append(f"- {field}: {capsule.get(field) or 'not supplied'}")
+        lines.append(f"- must_survive: {len(capsule.get('must_survive', []))} declared item(s)")
+    elif policy.get("signal_capsule") in {"cold", "audit_only"}:
+        lines.append(f"Signal capsule: {policy['signal_capsule']}; native surface remains primary")
     issues = report.get("distortion_hypotheses", [])
     if issues:
         lines.append("Possible distortion:")
