@@ -98,6 +98,46 @@ RESEARCH_STACK = (
     "deep-research",
 )
 
+# Some workflow names contain ordinary words used by unrelated control-plane
+# experiments. A fuzzy hit on one such word is not enough to claim the route.
+# Explicit command aliases, bindings, and governed routes bypass this guard.
+FUZZY_CONTEXT_REQUIREMENTS = {
+    "shadow-market-validation-report": (
+        "shadow market",
+        "market",
+        "validation",
+        "validate",
+        "demand",
+        "launch",
+        "niche",
+        "aftermath",
+        "mvp",
+    ),
+}
+
+
+def fuzzy_context_allows_route(
+    workflow_name: str,
+    normalized_query: str,
+    *,
+    explicitly_selected: bool = False,
+    bound_or_governed: bool = False,
+) -> bool:
+    """Reject ambiguous single-token matches for context-dependent routes."""
+
+    if explicitly_selected or bound_or_governed:
+        return True
+    required_context = FUZZY_CONTEXT_REQUIREMENTS.get(workflow_name)
+    if not required_context:
+        return True
+    return any(
+        re.search(
+            r"\b" + re.escape(term).replace(r"\ ", r"\s+") + r"\b",
+            normalized_query,
+        )
+        for term in required_context
+    )
+
 
 def mission_query(query: str) -> bool:
     """Detect mission-continuity prompts that should beat generic build routes."""
@@ -752,6 +792,17 @@ def search_workflows(query, top_n=10):
         wf_to_score = index
 
     for wf in wf_to_score:
+        if not fuzzy_context_allows_route(
+            wf["name"],
+            normalized_query,
+            explicitly_selected=bool(explicit_alias and wf["name"] == explicit_alias[1]),
+            bound_or_governed=(
+                wf["name"] in binding_rank
+                or wf["name"] in governed_boost
+                or (control_intent["route"] and wf["name"] == control_intent["route"])
+            ),
+        ):
+            continue
         searchable = f"{wf['name']} {wf['description']} {wf['full_name']}".lower()
         score = 0
         if explicit_alias and wf["name"] == explicit_alias[1]:
