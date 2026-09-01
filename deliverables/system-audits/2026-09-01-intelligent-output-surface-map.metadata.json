@@ -1,0 +1,9 @@
+{
+  "title": "Intelligent Output Surface Map",
+  "artifact_type": "system-design",
+  "status": "WORKSPACE SHADOW / STRUCTURAL PASS",
+  "date": "2026-09-01",
+  "source": "execution/fixtures/burnout_safe_output/surface-selection-cases-v0.2.json",
+  "primary_surface": "native Codex artifact",
+  "promotion_allowed": false
+}

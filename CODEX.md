@@ -46,6 +46,40 @@ Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. U
 - Closeout steering uses `execution/contextual_next_prompts.py` and the `/steering-compass` contract to produce 3 Next Prompts: Use Now, Harden, and Expand. Each prompt should explain when to use it, why it is recommended, the copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows.
 - Focused transfer handoffs use `/handoff`; whole-session closeouts use `/end-session`. `/handoff` may create a disposable OS-temp handoff for another session, branch, tool, or agent, while `/end-session` captures session intelligence and continuity evidence.
 
+## Artifact Comprehension Pilot (SHADOW v0.2)
+
+This branch evaluates one narrow workspace-only behavior. Its source is
+`execution/fixtures/burnout_safe_output/artifact-comprehension-contract-v0.2.md`.
+
+- Ordinary replies and closeouts defer entirely to the existing global Clear
+  Depth and Three Contextual Next Prompts contracts. This pilot does not render,
+  rank, expand, or replace them.
+- Activate only for substantial written documents or artifacts whose
+  information shape can be made materially easier to understand, remember, or
+  act on.
+- Select the smallest representation that earns its place: scan-friendly
+  prose, a table, evidence rows, a timeline, a flow, a playbook, or an existing
+  Briefing Room section. Plain prose is valid when a visual would flatten
+  nuance or repeat the same information.
+- Prefer a flow when dependencies, feedback loops, approval gates, or state
+  changes are what keep the work on track. Do not add one to a simple list or
+  ordinary reply.
+- Choose one primary delivery surface before drafting a substantial artifact:
+  normal conversation for answers, a native writing block for finished
+  reusable prose, a native artifact for durable knowledge work, a spreadsheet
+  for real quantitative data, slides for presentation-shaped delivery, the
+  Briefing Room for live or interactive state, and image generation for
+  genuinely visual concepts. Add a second surface only when it performs a
+  different job; do not duplicate the same content across formats.
+- Preserve source detail, caveats, proof state, and authority. A compact surface
+  may reveal depth progressively but may not delete it.
+- Reuse native artifacts, Markdown, and the existing Briefing Room renderer.
+  Do not create a new renderer, dashboard, task, hook, skill, or global rule.
+- Treat this as `PILOT / SHADOW`. Promotion, merge, global activation, hook
+  changes, and production-renderer changes require separate approval.
+- Human behavior gate passed on 2026-09-01. The tested artifact rule remains
+  SHADOW and workspace-local until a separate promotion decision.
+
 ## Deterministic Hook Layer (verified live-fire 2026-07-13, Codex CLI 0.144.3)
 
 `.codex/hooks.json` → `.codex/tools/codex_hook_runner.py` fires PHYSICALLY in this workspace — these gates are real on Codex, not advisory:
