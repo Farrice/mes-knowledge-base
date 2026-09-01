@@ -4,11 +4,14 @@
 from __future__ import annotations
 
 import sys
+import subprocess
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS: list[tuple[str, bool, str]] = []
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 
 def read(relative: str) -> str:
@@ -32,6 +35,18 @@ def evaluate_fixture(text: str) -> list[str]:
     }
     lowered = text.lower()
     return [label for label, marker in required.items() if marker not in lowered]
+
+
+def command_menu(query: str) -> str:
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "execution/command_menu.py"), "show", query],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        timeout=20,
+        check=False,
+    )
+    return result.stdout + result.stderr
 
 
 source_packages = ("xJEYViuQifg", "ZvxpaklnMXI")
@@ -60,6 +75,7 @@ contract_path = "extractions/brand-direction-decision-spine/skill-system-contrac
 proof_path = "extractions/brand-direction-decision-spine/behavior-proof.md"
 mastery_path = "extractions/brand-direction-decision-spine/mastery-extraction.md"
 reconciliation_path = "extractions/brand-direction-decision-spine/reconciliation.md"
+workflow_bridge_path = ".agent/workflows/andrew-lane-design-systems.md"
 
 required_files = (
     reference_path,
@@ -70,6 +86,7 @@ required_files = (
     proof_path,
     mastery_path,
     reconciliation_path,
+    workflow_bridge_path,
 )
 missing_build = [relative for relative in required_files if not (ROOT / relative).is_file()]
 check("connected build files exist", not missing_build, ", ".join(missing_build))
@@ -130,6 +147,60 @@ check("skill-system contract is complete", all(field in contract for field in co
 check(
     "duplicate-system rejection is explicit",
     all(term in read(reconciliation_path) for term in ("No new skill or command", "New mega-skill", "Skipped")),
+)
+
+bridge = read(workflow_bridge_path)
+check(
+    "existing Andrew Lane command has an executable bridge",
+    all(
+        term in bridge
+        for term in (
+            "workflows/01-build-vibe-foundation.md",
+            "brand-direction-decision-spine.md",
+            "UNTESTED",
+        )
+    ),
+)
+
+from execution.routing_enforcer import match_bindings
+
+positive_route_queries = (
+    "client ready mood board from discovery evidence",
+    "audit why moodboard-from-discovery requests miss the brand owner",
+    "turn the discovery into three client directions",
+    "run the Brand Direction Decision Spine",
+)
+positive_routes = [match_bindings(query) for query in positive_route_queries]
+check(
+    "brand-direction language binds to Andrew Lane",
+    all(
+        routes
+        and routes[0]["binding_id"] == "brand_direction_decision_spine"
+        and routes[0]["workflow"] == "andrew-lane-design-systems"
+        for routes in positive_routes
+    ),
+)
+
+menu_output = command_menu("client ready mood board from discovery evidence")
+first_ranked = next((line.strip() for line in menu_output.splitlines() if line.lstrip().startswith("1.")), "")
+check(
+    "command menu ranks Andrew Lane first for the failed query",
+    "/andrew-lane-design-systems" in first_ranked,
+    first_ranked or "no ranked result",
+)
+
+negative_route = match_bindings("build a campaign mood board for a music video")
+check(
+    "negative control leaves production moodboards unclaimed",
+    not any(route["binding_id"] == "brand_direction_decision_spine" for route in negative_route),
+)
+
+bos_route = match_bindings("build a complete six-layer brand operating system")
+check(
+    "full Brand Operating System still routes to build-bos",
+    bool(bos_route)
+    and bos_route[0]["binding_id"] == "brand_operating_system"
+    and bos_route[0]["workflow"] == "build-bos",
 )
 
 mastery = read(mastery_path)
