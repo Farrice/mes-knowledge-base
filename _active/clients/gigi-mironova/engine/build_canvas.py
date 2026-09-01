@@ -22,11 +22,15 @@ pre = {"carousels": [c for c in full["carousels"] if c["slug"] in keep]}
 # 2. Generate both artboard sets.
 subprocess.run([sys.executable, str(HERE / "gen_slides.py"), str(HERE / "cal" / "slides-cal.json"), str(BUILD / "gen-cal")], check=True)
 subprocess.run([sys.executable, str(HERE / "gen_slides.py"), str(BUILD / "slides-pre.json"), str(BUILD / "gen-pre")], check=True)
+DIRS = HERE / "cal" / "slides-directions.json"
+if DIRS.exists():
+    subprocess.run([sys.executable, str(HERE / "gen_slides.py"), str(DIRS), str(BUILD / "gen-dir")], check=True)
 
 STEM = {  # slug -> alnum stem prefix
     "c01-read-before-you-tour": "Gift", "c02-five-pages": "FivePages", "c06-sell-with-tenant": "Tenant",
     "c03-balcony-report": "Balcony", "c04-bill-after-closing": "Bill", "c05-fees-go-down": "Fees",
     "c07-net-sheet": "Net", "c08-who-holds-the-money": "Escrow", "c09-three-clocks": "Clocks", "c10-first-home-ru": "FirstHomeRU",
+    "dir-a-unit-124": "DirA", "dir-b-unit-124": "DirB", "dir-c-unit-124": "DirC",
 }
 images = set()
 artboards, annotations = [], []
@@ -55,6 +59,8 @@ def place(spec, gen_dir, page, y0, label):
 cal = json.load(open(HERE / "cal" / "slides-cal.json"))
 y = place(cal, BUILD / "gen-cal", "page-1", 0, "Calibration take · audited numbers · ready for your verdict")
 place(pre, BUILD / "gen-pre", "page-2", 0, "PRE-AUDIT · do not post · numbers and register being corrected")
+if DIRS.exists():
+    place(json.load(open(DIRS)), BUILD / "gen-dir", "page-3", 0, "Two-zone layout · photo zone carries no type · pick one")
 
 # Main = the gift's first slide (copy, keep the original too so the set stays complete)
 shutil.copy(BUILD / "Gift01.dc.html", BUILD / "Main.dc.html")
@@ -81,12 +87,18 @@ for name in sorted(images):
         if dst.stat().st_size <= 70 * 1024:
             break
 
-canvas = {
-    "pages": [{"id": "page-1", "name": "Unit 124 gift + calibration"}, {"id": "page-2", "name": "Pre-audit sets (do not post)"}],
-    "artboards": artboards, "annotations": annotations,
-    "launch": {"view": "canvas", "page": "page-1"},
-}
+pages = [{"id": "page-1", "name": "Unit 124 gift + calibration"}, {"id": "page-2", "name": "Pre-audit sets (do not post)"}]
+launch_page = "page-1"
+if DIRS.exists():
+    pages.append({"id": "page-3", "name": "Unit 124 layout directions A / B / C"})
+    launch_page = "page-3"
+    annotations.append({"id": "note-top3", "x": 0, "y": -420, "w": 1400, "page": "page-3",
+                        "text": "UNIT 124 · THREE LAYOUT DIRECTIONS · same copy, same photos, same slides 1, 4, 5, 6\nThe rule behind all three: the photograph owns a zone with no type on it; the data owns paper. Nothing overlaps.\nA · Split spread: the room takes the top half untouched; the number and the list sit on paper below. Most breathing room.\nB · Inset column: type on the left, the room as a tall column on the right. The room is present on every slide but cropped to a sliver.\nC · Data-led: a strip of the room across the top, the number owns the page. Loudest numbers, least room.\nPick one and the full set rebuilds in it."})
+canvas = {"pages": pages, "artboards": artboards, "annotations": annotations,
+          "launch": {"view": "canvas", "page": launch_page}}
 (BUILD / "canvas.json").write_text(json.dumps(canvas, indent=2))
-shutil.rmtree(BUILD / "gen-cal"); shutil.rmtree(BUILD / "gen-pre")
+for d in ("gen-cal", "gen-pre", "gen-dir"):
+    if (BUILD / d).exists():
+        shutil.rmtree(BUILD / d)
 print(f"{len(artboards)} artboards, {len(images)} images -> {BUILD}")
 print("images:", " ".join(f"{n} {((BUILD / 'img' / n).stat().st_size // 1024)}KB" for n in sorted(images)))

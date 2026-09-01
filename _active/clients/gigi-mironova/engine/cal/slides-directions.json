@@ -1,0 +1,284 @@
+{
+  "carousels": [
+    {
+      "slug": "dir-a-unit-124",
+      "video": 1,
+      "title": "Direction A · Split spread · photo owns the top half untouched, paper owns the data",
+      "series": "PROPERTY FILE 124",
+      "keyword": "124",
+      "reader": "The renter in the Valley paying $2,300 to $2,800 who has been told condos are a trap and expects the agent to hide the HOA.",
+      "slides": [
+        {
+          "kind": "hook",
+          "img": "../assets/listing-124/unit-124-door.jpg",
+          "treat": "bleed",
+          "eyebrow": "PROPERTY FILE 124",
+          "headline": "The kitchen photos can wait.[[br]]Read the two lines first.",
+          "size": 84,
+          "dek": "I am a listing agent on Unit 124 in Reseda. Two lines on this sheet decide whether the tour is worth your Saturday."
+        },
+        {
+          "kind": "stat",
+          "eyebrow": "LINE ONE",
+          "num": "$620",
+          "unit": "/mo",
+          "label": "The dues. On slide two on purpose, not on the last page.",
+          "body": "This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.",
+          "source": "19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing",
+          "img": "../assets/listing-124/unit-124-living.jpg",
+          "treat": "bleed",
+          "layout": "split"
+        },
+        {
+          "kind": "list",
+          "eyebrow": "WHAT THE $620 BUYS",
+          "headline": "Read it as a bill, not a perk list.",
+          "size": 60,
+          "rows": [
+            [
+              "Water, sewer, trash",
+              "Three bills you never get separately."
+            ],
+            [
+              "The building's insurance policy",
+              "Covers the structure. The inside of your unit is your own policy, and that one is not in this number."
+            ],
+            [
+              "Landscaping, pest control, pool service",
+              "Contracted work on the grounds and the water."
+            ],
+            [
+              "An on-site property manager",
+              "A person on the property whose job is the building."
+            ]
+          ],
+          "source": "Inclusions in the listing's own wording · MLS SR26183330",
+          "img": "../assets/listing-124/unit-124-open-plan.jpg",
+          "treat": "bleed",
+          "layout": "split"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-balcony.jpg",
+          "eyebrow": "LINE TWO",
+          "headline": "Building insurance is in place, and balcony inspection and repairs have been completed.",
+          "body": "That is the listing's sentence about this unit, in writing. It is not a certificate for the building, and I will not call it one.",
+          "source": "MLS SR26183330 listing text"
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "HOW A LISTING USUALLY REACHES YOU",
+          "headline": "Photos first. Dues on the last page. Reports never mentioned.",
+          "body": "You are not bad at this. The order was chosen for you. Ask any agent for the dues and what they include, in writing, before you book a tour.",
+          "img": "../assets/listing-124/unit-124-building.jpg",
+          "treat": "duo"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-kitchen.jpg",
+          "eyebrow": "NOW THE KITCHEN",
+          "headline": "Remodeled December 2023. About $2,535 a month to own.",
+          "body": "1 bed, 1 bath, 619 sq ft. In-unit laundry, washer and dryer included. Private balcony, 2-car parking, gated, built 1990.",
+          "source": "Estimate, not a quote: $299,999, 20% down, 6.66% (Freddie Mac survey 8/27/2026), taxes at 1.25%, the dues on this listing, and an HO-6 policy. Specs and remodel: MLS SR26183330."
+        },
+        {
+          "kind": "cta",
+          "headline": "Want both lines marked on the sheet?",
+          "body": "I will send the dues, what they cover, the report line, and the payment estimate. In English or по-русски.",
+          "keyword": "124",
+          "ask": "For the marked sheet, or a private showing.",
+          "img": "../assets/listing-124/unit-124-pool.jpg",
+          "treat": "bleed",
+          "layout": "split"
+        }
+      ]
+    },
+    {
+      "slug": "dir-b-unit-124",
+      "video": 1,
+      "title": "Direction B · Inset column · type left, the room as a tall column right",
+      "series": "PROPERTY FILE 124",
+      "keyword": "124",
+      "reader": "The renter in the Valley paying $2,300 to $2,800 who has been told condos are a trap and expects the agent to hide the HOA.",
+      "slides": [
+        {
+          "kind": "hook",
+          "img": "../assets/listing-124/unit-124-door.jpg",
+          "treat": "bleed",
+          "eyebrow": "PROPERTY FILE 124",
+          "headline": "The kitchen photos can wait.[[br]]Read the two lines first.",
+          "size": 84,
+          "dek": "I am a listing agent on Unit 124 in Reseda. Two lines on this sheet decide whether the tour is worth your Saturday."
+        },
+        {
+          "kind": "stat",
+          "eyebrow": "LINE ONE",
+          "num": "$620",
+          "unit": "/mo",
+          "label": "The dues. On slide two on purpose, not on the last page.",
+          "body": "This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.",
+          "source": "19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing",
+          "img": "../assets/listing-124/unit-124-living.jpg",
+          "treat": "bleed",
+          "layout": "inset"
+        },
+        {
+          "kind": "list",
+          "eyebrow": "WHAT THE $620 BUYS",
+          "headline": "Read it as a bill, not a perk list.",
+          "size": 60,
+          "rows": [
+            [
+              "Water, sewer, trash",
+              "Three bills you never get separately."
+            ],
+            [
+              "The building's insurance policy",
+              "Covers the structure. The inside of your unit is your own policy, and that one is not in this number."
+            ],
+            [
+              "Landscaping, pest control, pool service",
+              "Contracted work on the grounds and the water."
+            ],
+            [
+              "An on-site property manager",
+              "A person on the property whose job is the building."
+            ]
+          ],
+          "source": "Inclusions in the listing's own wording · MLS SR26183330",
+          "img": "../assets/listing-124/unit-124-open-plan.jpg",
+          "treat": "bleed",
+          "layout": "inset"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-balcony.jpg",
+          "eyebrow": "LINE TWO",
+          "headline": "Building insurance is in place, and balcony inspection and repairs have been completed.",
+          "body": "That is the listing's sentence about this unit, in writing. It is not a certificate for the building, and I will not call it one.",
+          "source": "MLS SR26183330 listing text"
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "HOW A LISTING USUALLY REACHES YOU",
+          "headline": "Photos first. Dues on the last page. Reports never mentioned.",
+          "body": "You are not bad at this. The order was chosen for you. Ask any agent for the dues and what they include, in writing, before you book a tour.",
+          "img": "../assets/listing-124/unit-124-building.jpg",
+          "treat": "duo"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-kitchen.jpg",
+          "eyebrow": "NOW THE KITCHEN",
+          "headline": "Remodeled December 2023. About $2,535 a month to own.",
+          "body": "1 bed, 1 bath, 619 sq ft. In-unit laundry, washer and dryer included. Private balcony, 2-car parking, gated, built 1990.",
+          "source": "Estimate, not a quote: $299,999, 20% down, 6.66% (Freddie Mac survey 8/27/2026), taxes at 1.25%, the dues on this listing, and an HO-6 policy. Specs and remodel: MLS SR26183330."
+        },
+        {
+          "kind": "cta",
+          "headline": "Want both lines marked on the sheet?",
+          "body": "I will send the dues, what they cover, the report line, and the payment estimate. In English or по-русски.",
+          "keyword": "124",
+          "ask": "For the marked sheet, or a private showing.",
+          "img": "../assets/listing-124/unit-124-pool.jpg",
+          "treat": "bleed",
+          "layout": "inset"
+        }
+      ]
+    },
+    {
+      "slug": "dir-c-unit-124",
+      "video": 1,
+      "title": "Direction C · Data-led · a strip of the room on top, the number owns the page",
+      "series": "PROPERTY FILE 124",
+      "keyword": "124",
+      "reader": "The renter in the Valley paying $2,300 to $2,800 who has been told condos are a trap and expects the agent to hide the HOA.",
+      "slides": [
+        {
+          "kind": "hook",
+          "img": "../assets/listing-124/unit-124-door.jpg",
+          "treat": "bleed",
+          "eyebrow": "PROPERTY FILE 124",
+          "headline": "The kitchen photos can wait.[[br]]Read the two lines first.",
+          "size": 84,
+          "dek": "I am a listing agent on Unit 124 in Reseda. Two lines on this sheet decide whether the tour is worth your Saturday."
+        },
+        {
+          "kind": "stat",
+          "eyebrow": "LINE ONE",
+          "num": "$620",
+          "unit": "/mo",
+          "label": "The dues. On slide two on purpose, not on the last page.",
+          "body": "This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.",
+          "source": "19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing",
+          "img": "../assets/listing-124/unit-124-living.jpg",
+          "treat": "bleed",
+          "layout": "strip",
+          "size": 280
+        },
+        {
+          "kind": "list",
+          "eyebrow": "WHAT THE $620 BUYS",
+          "headline": "Read it as a bill, not a perk list.",
+          "size": 60,
+          "rows": [
+            [
+              "Water, sewer, trash",
+              "Three bills you never get separately."
+            ],
+            [
+              "The building's insurance policy",
+              "Covers the structure. The inside of your unit is your own policy, and that one is not in this number."
+            ],
+            [
+              "Landscaping, pest control, pool service",
+              "Contracted work on the grounds and the water."
+            ],
+            [
+              "An on-site property manager",
+              "A person on the property whose job is the building."
+            ]
+          ],
+          "source": "Inclusions in the listing's own wording · MLS SR26183330",
+          "img": "../assets/listing-124/unit-124-open-plan.jpg",
+          "treat": "bleed",
+          "layout": "strip"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-balcony.jpg",
+          "eyebrow": "LINE TWO",
+          "headline": "Building insurance is in place, and balcony inspection and repairs have been completed.",
+          "body": "That is the listing's sentence about this unit, in writing. It is not a certificate for the building, and I will not call it one.",
+          "source": "MLS SR26183330 listing text"
+        },
+        {
+          "kind": "quote",
+          "eyebrow": "HOW A LISTING USUALLY REACHES YOU",
+          "headline": "Photos first. Dues on the last page. Reports never mentioned.",
+          "body": "You are not bad at this. The order was chosen for you. Ask any agent for the dues and what they include, in writing, before you book a tour.",
+          "img": "../assets/listing-124/unit-124-building.jpg",
+          "treat": "duo"
+        },
+        {
+          "kind": "photo-fact",
+          "img": "../assets/listing-124/unit-124-kitchen.jpg",
+          "eyebrow": "NOW THE KITCHEN",
+          "headline": "Remodeled December 2023. About $2,535 a month to own.",
+          "body": "1 bed, 1 bath, 619 sq ft. In-unit laundry, washer and dryer included. Private balcony, 2-car parking, gated, built 1990.",
+          "source": "Estimate, not a quote: $299,999, 20% down, 6.66% (Freddie Mac survey 8/27/2026), taxes at 1.25%, the dues on this listing, and an HO-6 policy. Specs and remodel: MLS SR26183330."
+        },
+        {
+          "kind": "cta",
+          "headline": "Want both lines marked on the sheet?",
+          "body": "I will send the dues, what they cover, the report line, and the payment estimate. In English or по-русски.",
+          "keyword": "124",
+          "ask": "For the marked sheet, or a private showing.",
+          "img": "../assets/listing-124/unit-124-pool.jpg",
+          "treat": "bleed",
+          "layout": "strip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "dir-a-unit-124 \u00b7 1/7",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-02.dc.html",
+      "title": "dir-a-unit-124 \u00b7 2/7",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-03.dc.html",
+      "title": "dir-a-unit-124 \u00b7 3/7",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-04.dc.html",
+      "title": "dir-a-unit-124 \u00b7 4/7",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-05.dc.html",
+      "title": "dir-a-unit-124 \u00b7 5/7",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-06.dc.html",
+      "title": "dir-a-unit-124 \u00b7 6/7",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-a-unit-124-07.dc.html",
+      "title": "dir-a-unit-124 \u00b7 7/7",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-01.dc.html",
+      "title": "dir-b-unit-124 \u00b7 1/7",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-02.dc.html",
+      "title": "dir-b-unit-124 \u00b7 2/7",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-03.dc.html",
+      "title": "dir-b-unit-124 \u00b7 3/7",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-04.dc.html",
+      "title": "dir-b-unit-124 \u00b7 4/7",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-05.dc.html",
+      "title": "dir-b-unit-124 \u00b7 5/7",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-06.dc.html",
+      "title": "dir-b-unit-124 \u00b7 6/7",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-b-unit-124-07.dc.html",
+      "title": "dir-b-unit-124 \u00b7 7/7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-01.dc.html",
+      "title": "dir-c-unit-124 \u00b7 1/7",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-02.dc.html",
+      "title": "dir-c-unit-124 \u00b7 2/7",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-03.dc.html",
+      "title": "dir-c-unit-124 \u00b7 3/7",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-04.dc.html",
+      "title": "dir-c-unit-124 \u00b7 4/7",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-05.dc.html",
+      "title": "dir-c-unit-124 \u00b7 5/7",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-06.dc.html",
+      "title": "dir-c-unit-124 \u00b7 6/7",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "dir-c-unit-124-07.dc.html",
+      "title": "dir-c-unit-124 \u00b7 7/7",
+      "x": 7080,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

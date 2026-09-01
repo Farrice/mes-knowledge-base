@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <style>
+*{box-sizing:border-box} body{margin:0}
+.frame{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:'Figtree','Avenir Next',sans-serif;color:#173A54;background:#F7F3EC}
+.ru{font-family:'Manrope','Figtree',sans-serif}
+.dark{background:#244C68;color:#FFFDF8}
+.hl{font-weight:800;letter-spacing:-.035em;box-shadow:inset 0 -.22em 0 #DCE8EE}
+.dark .hl{box-shadow:inset 0 -.22em 0 rgba(240,199,184,.44)}
+.caps{font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.h{font-weight:700;letter-spacing:-.04em;text-wrap:balance;line-height:1.04}
+.num{font-weight:800;letter-spacing:-.055em;font-variant-numeric:tabular-nums;line-height:.92}
+.photo{position:absolute;inset:0;z-index:0;overflow:hidden}
+.photo>img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center}
+.tint,.lift,.scrim{position:absolute;inset:0}
+.tint{background:#244C68;mix-blend-mode:multiply}
+.duo>img{filter:grayscale(1) contrast(1.03) brightness(1.02)} .duo .tint{opacity:.70}
+.duo .scrim{background:linear-gradient(180deg,rgba(18,39,55,.12) 0%,rgba(18,39,55,.28) 58%,rgba(18,39,55,.74) 100%)}
+.bleed>img{filter:saturate(.68) contrast(1.01) brightness(1.04) sepia(.05)}
+.bleed .tint{opacity:.28}
+.bleed .scrim{background:linear-gradient(180deg,rgba(18,39,55,.26) 0%,rgba(18,39,55,.14) 34%,rgba(18,39,55,.46) 68%,rgba(18,39,55,.84) 100%)}
+.pad{position:relative;z-index:3;display:flex;flex-direction:column;height:100%;padding:60px 66px 56px;justify-content:space-between}
+.rule{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:18px;border-bottom:1px solid #D7E2E8}
+.dark .rule{border-bottom-color:rgba(255,253,248,0.28)}
+.foot{display:flex;justify-content:space-between;align-items:center;font-size:17px}
+.card{background:#FFFDF8;border:1px solid #D7E2E8}
+.dark .card{background:rgba(18,39,55,.48);border-color:rgba(255,253,248,0.28)}
+.tag{display:inline-flex;align-items:center;gap:12px;padding:12px 16px;background:#DCE8EE;color:#173A54;font-size:17px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.dark .tag{background:rgba(255,253,248,.14);color:#FFFDF8}
+.dot{width:10px;height:10px;background:#BD765E;display:inline-block}
+.mark{width:14px;height:14px;background:#BD765E;display:inline-block;flex:none;margin-top:14px}
+</style>
+</helmet>
+<div class="frame"><div class="pad"><div class="rule"><div class="caps" style="font-size:20px">GIGI MIRONOVA · DRE 02025393</div><div class="caps" style="font-size:18px;color:#566E7E">PROPERTY FILE 124</div></div><div style="display:flex;flex-direction:column;gap:0;flex:1;margin:22px -66px 0;min-height:0"><div style="height:600px;width:100%;overflow:hidden;position:relative;"><img src="unit-124-living.jpg" style="width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.0);display:block;filter:saturate(.92) contrast(1.02)"></div><div style="padding:40px 66px 0;flex:1"><div class="caps" style="font-size:18px;color:#BD765E">LINE ONE</div><div class="num" style="font-size:200px;margin-top:16px;display:flex;align-items:baseline">$620<span style="font-size:56px;font-weight:700;letter-spacing:-0.01em;color:#BD765E;margin-left:12px">/mo</span></div><div class="h" style="font-size:46px;margin-top:14px;max-width:880px">The dues. On slide two on purpose, not on the last page.</div><div style="font-size:28px;line-height:1.45;color:#566E7E;margin-top:14px;max-width:820px">This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.</div></div></div><div class="foot"><div class="caps" style="font-size:16px;color:#566E7E">HOUSE SELLERS · EQUITY UNION</div><div style="font-size:14px;line-height:1.3;color:#566E7E;letter-spacing:.03em;max-width:440px;text-align:center;padding:0 24px">19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing</div><div class="caps" style="font-size:18px;color:#566E7E">2 / 7</div></div></div></div>
+</x-dc>
+</body>
+</html>

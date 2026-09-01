@@ -207,6 +207,95 @@ def k_cta(s, n, total):
     return frame(inner, dark=True, ru=s.get("ru"), bg=bg)
 
 
+# ---------- two-zone layouts: photo zone never carries type; paper zone carries the data -------
+
+def zone_img(s, h=None, w=None, extra=""):
+    src, pos, scale = s["img"], s.get("pos", "center"), s.get("scale", 1.0)
+    size = (f"height:{h}px;" if h else "height:100%;") + (f"width:{w}px;flex:none;" if w else "width:100%;")
+    return (f'<div style="{size}overflow:hidden;position:relative;{extra}">'
+            f'<img src="{src}" style="width:100%;height:100%;object-fit:cover;object-position:{pos};transform:scale({scale});display:block;'
+            f'filter:saturate(.92) contrast(1.02)"></div>')
+
+
+def stat_content(s, compact=True):
+    unit = f'<span style="font-size:{56 if compact else 88}px;font-weight:700;letter-spacing:-0.01em;color:{T.ACCENT};margin-left:12px">{esc(s["unit"])}</span>' if s.get("unit") else ""
+    return (f'<div class="caps" style="font-size:18px;color:{T.ACCENT}">{esc(s["eyebrow"])}</div>'
+            f'<div class="num" style="font-size:{s.get("size", 200 if compact else 300)}px;margin-top:16px;display:flex;align-items:baseline">{esc(s["num"])}{unit}</div>'
+            f'<div class="h" style="font-size:{46 if compact else 58}px;margin-top:14px;max-width:880px">{esc(s["label"])}</div>'
+            + (f'<div style="font-size:{28 if compact else 33}px;line-height:1.45;color:{T.MUTED};margin-top:14px;max-width:820px">{esc(s["body"])}</div>' if s.get("body") else ""))
+
+
+def list_content(s, compact=True):
+    rows = ""
+    for i, (t, d) in enumerate(s["rows"], 1):
+        rows += (f'<div style="display:flex;gap:20px;padding:{14 if compact else 22}px 0;border-top:1px solid {T.HAIRLINE}">'
+                 f'<div class="num" style="font-size:{32 if compact else 40}px;color:{T.ACCENT};width:56px;flex:none;line-height:1.1">0{i}</div>'
+                 f'<div><div style="font-size:{31 if compact else 36}px;font-weight:700;letter-spacing:-.02em;line-height:1.15">{esc(t)}</div>'
+                 f'<div style="font-size:{24 if compact else 27}px;line-height:1.4;color:{T.MUTED};margin-top:6px;max-width:820px">{esc(d)}</div></div></div>')
+    return (f'<div class="caps" style="font-size:18px;color:{T.ACCENT}">{esc(s["eyebrow"])}</div>'
+            f'<div class="h" style="font-size:{s.get("size", 48 if compact else 60)}px;margin:12px 0 16px;max-width:880px">{esc(s["headline"])}</div>'
+            f'<div style="border-bottom:1px solid {T.HAIRLINE}">{rows}</div>')
+
+
+def cta_content(s, compact=True):
+    portrait = (f'<div style="width:{180 if compact else 240}px;height:{180 if compact else 240}px;flex:none;border:1px solid {T.HAIRLINE};overflow:hidden">'
+                f'<img src="{s.get("portrait", "../assets/brand/gigi-headshot.jpg")}" style="width:100%;height:100%;object-fit:cover;display:block"></div>')
+    return (f'<div style="display:flex;gap:32px;align-items:flex-start">{portrait}'
+            f'<div><div class="h" style="font-size:{54 if compact else 70}px;max-width:640px">{esc(s["headline"])}</div>'
+            f'<div style="font-size:{26 if compact else 30}px;line-height:1.45;color:{T.MUTED};max-width:620px;margin-top:14px">{esc(s["body"])}</div></div></div>'
+            f'<div style="margin-top:{28 if compact else 40}px;padding:{26 if compact else 36}px 32px;background:{T.WHITE};border:1px solid {T.HAIRLINE}">'
+            f'<div class="caps" style="font-size:16px;color:{T.ACCENT}">{esc(s.get("ask_label", "ONE MESSAGE GETS IT"))}</div>'
+            f'<div style="display:flex;align-items:baseline;gap:16px;margin-top:8px"><span class="num" style="font-size:{88 if compact else 110}px">DM</span>'
+            f'<span class="num" style="font-size:{88 if compact else 110}px;color:{T.ACCENT}">&ldquo;{esc(s["keyword"])}&rdquo;</span></div>'
+            f'<div style="font-size:{26 if compact else 30}px;line-height:1.4;color:{T.MUTED};margin-top:8px">{esc(s["ask"])}</div>'
+            f'<div class="caps" style="font-size:15px;color:{T.MUTED};margin-top:18px">{T.NAME} · {T.DRE} · 818-826-9998 · ENGLISH · РУССКИЙ</div></div>')
+
+
+CONTENT = {"stat": stat_content, "list": list_content, "cta": cta_content}
+
+
+def lay_split(s, n, total):
+    """A · Split spread: photo owns the top half untouched, paper owns the bottom half with the data."""
+    body = CONTENT[s["kind"]](s, compact=True)
+    inner = (rule(s["series"])
+             + f'<div style="display:flex;flex-direction:column;gap:0;flex:1;margin:22px -66px 0;min-height:0">'
+             + zone_img(s, h=s.get("photo_h", 600))
+             + f'<div style="padding:40px 66px 0;flex:1">{body}</div></div>'
+             + foot(n, total, note=s.get("source")))
+    return frame(inner, ru=s.get("ru"))
+
+
+def lay_inset(s, n, total):
+    """B · Inset column: type on the left, the photograph as a tall column on the right, edge to edge."""
+    body = CONTENT[s["kind"]](s, compact=True)
+    inner = (rule(s["series"])
+             + f'<div style="display:flex;gap:44px;flex:1;margin:24px -66px 0 0;min-height:0;align-items:stretch">'
+             f'<div style="flex:1;padding-top:26px;min-width:0">{body}</div>'
+             + zone_img(s, w=s.get("photo_w", 400))
+             + '</div>' + foot(n, total, note=s.get("source")))
+    return frame(inner, ru=s.get("ru"))
+
+
+def lay_strip(s, n, total):
+    """C · Data-led: a letterboxed strip of the room across the top, the number owns the page."""
+    body = CONTENT[s["kind"]](s, compact=False)
+    inner = (rule(s["series"])
+             + f'<div style="display:flex;flex-direction:column;flex:1;margin:22px -66px 0;min-height:0">'
+             + zone_img(s, h=s.get("photo_h", 360))
+             + f'<div style="padding:44px 66px 0;flex:1">{body}</div></div>'
+             + foot(n, total, note=s.get("source")))
+    return frame(inner, ru=s.get("ru"))
+
+
+LAYOUTS = {"split": lay_split, "inset": lay_inset, "strip": lay_strip}
+
+
+def dispatch(s, n, total):
+    if s.get("layout") in LAYOUTS and s["kind"] in CONTENT and s.get("img"):
+        return LAYOUTS[s["layout"]](s, n, total)
+    return KINDS[s["kind"]](s, n, total)
+
+
 KINDS = {"hook": k_hook, "stat": k_stat, "list": k_list, "two": k_two, "dark": k_dark,
          "quote": k_quote, "cta": k_cta, "photo-fact": k_photo_fact}
 
@@ -218,7 +307,7 @@ def main():
         total = len(car["slides"])
         for col, s in enumerate(car["slides"], 1):
             s.setdefault("series", car["series"])
-            body = KINDS[s["kind"]](s, col, total)
+            body = dispatch(s, col, total)
             name = f'{car["slug"]}-{col:02d}'
             (OUT / f"{name}.dc.html").write_text(HEAD.format(fonts=T.FONTS, css=T.CSS, body=body))
             artboards.append({"file": f"{name}.dc.html", "title": f'{car["slug"]} · {col}/{total}',
