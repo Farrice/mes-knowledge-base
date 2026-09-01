@@ -1,10 +1,22 @@
 # Control-Beater: Warm Two-Target Send Pack
 
 **Date:** September 1, 2026  
-**State:** `READY FOR MANUAL SEND · NOTHING SENT`  
+**State:** `LIVE TEST · 2 CONNECTION NOTES SENT · AWAITING EVENT`
 **Owner:** Farrice Cain  
 **Primary metric:** `collected_pilot_revenue_usd`  
 **Manual boundary:** Farrice sends. Codex does not message, connect, follow up, request payment, or start production.
+
+## Live exposure ledger
+
+| Timestamp | Channel | Event | Count |
+|---|---|---|---:|
+| September 1, 2026 at 3:03 PM PDT | LinkedIn connection note | Sent | 2 |
+| September 1, 2026 at 3:03 PM PDT | LinkedIn connection note | Price-visible introduction | 2 |
+| September 1, 2026 at 3:03 PM PDT | LinkedIn full DM | Sent | 0 |
+| September 1, 2026 at 3:03 PM PDT | Exact offer | Exposed | 0 |
+| September 1, 2026 at 3:03 PM PDT | Buyer response | `REPLIED` / `WANTED` / `SOLD` / `COLLECTED` | 0 / 0 / 0 / $0 |
+
+**Classification:** LinkedIn's 200-character constraint allowed the offer name, $500 price, and conditional Meta-control question to survive. It did not allow the exact five-static + one-video scope or 72-hour complete-input terms. These are therefore two real, price-visible introductions—not yet two exact-offer exposures. The exact-offer test begins only when the full job is visible to the buyer.
 
 ## The locked test
 
@@ -43,9 +55,11 @@
 >
 > No pitch call needed.
 
-#### If LinkedIn only permits a connection note
+#### Actual connection note sent
 
-> Yasir, “morning, noon or night” made me smile. Strong product line. Also about five ad tests hiding in one paragraph. I spent 18 years training supplement buyers and built a $500 Control-Beater for this kind of problem. If Lumen has a Meta control, I can send the five-question fit screen.
+**Status:** `SENT · SEPTEMBER 1, 2026 · 3:03 PM PDT · 200-CHARACTER CONSTRAINT`
+
+> Yasir, “morning, noon or night” made me smile. Strong product line—and five ad tests in one paragraph. I built a $500 Control-Beater for this. If Lumen has a Meta control, I can send the five-question fit screen.
 
 ### 2. Kieran Mathew, CEO of Equip Foods
 
@@ -74,9 +88,11 @@
 >
 > No pitch call needed.
 
-#### If LinkedIn only permits a connection note
+#### Actual connection note sent
 
-> Kieran, making grass-fed beef the third protein category is a real bet. Whole Foods makes that creative job harder. I spent 18 years training supplement buyers and built a $500 Control-Beater for it. If Equip has a Meta control, I can send the five-question fit screen.
+**Status:** `SENT · SEPTEMBER 1, 2026 · 3:03 PM PDT · 200-CHARACTER CONSTRAINT`
+
+> Kieran, making grass-fed beef the third protein category is a bold bet. Whole Foods makes it harder. I trained supplement buyers for 18 years and built a $500 Control-Beater. Have a Meta control?
 
 ## Why these do not read like cold pitches
 
@@ -86,11 +102,11 @@ The humor is intentionally light. It comes from recognizing the absurdity inside
 
 ## Manual send instructions
 
-1. Open the recipient’s LinkedIn profile.
-2. Use the full DM if LinkedIn permits a message. Use the connection note only if that is the sole private path.
-3. Send the text unchanged. Do not add a portfolio, deck, calendar link, discount, or performance promise.
-4. Send each target once. Do not follow up until a separate follow-up rule is approved.
-5. Record the result as `NO EVENT`, `REPLIED`, `WANTED`, `DISQUALIFIED`, `SOLD`, or `COLLECTED`.
+1. The first connection note has already been sent to each recipient. Do not withdraw, resend, or send a second initial note.
+2. Await the next observable event: pending, accepted without reply, replied, or declined/expired.
+3. Do not add a portfolio, deck, calendar link, discount, performance promise, or unapproved follow-up.
+4. Paste the exact event or reply back into this thread before any response is drafted or sent.
+5. Record buyer outcomes as `NO EVENT`, `REPLIED`, `WANTED`, `DISQUALIFIED`, `SOLD`, or `COLLECTED`. A connection acceptance by itself is access, not `WANTED`.
 
 ## If either asks for the fit screen
 
@@ -119,4 +135,4 @@ Do not send a payment request until the answers establish fit and Farrice has ap
 
 **LOCKED:** offer, price, scope, qualification inputs, proof language, no-event rule, and payment as the primary outcome.  
 **PARKED:** follow-ups, profile edits, portfolio attachment, free speculative creative, discounting, payment request, and production.  
-**NEXT ACTION:** Farrice reads the two messages, then manually sends them unchanged if they still feel like him.
+**NEXT ACTION:** Await an acceptance or reply. Farrice pastes the exact event here before any next external message. Do not rewrite the offer because of silence.
