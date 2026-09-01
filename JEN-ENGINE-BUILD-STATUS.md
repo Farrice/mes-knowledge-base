@@ -217,7 +217,8 @@ skills/jen-engine/
 - [x] brain-load-distill-template.md ready
 - [x] gate-1-checklist.md ready
 - [x] gate-2-checklist.md ready
-- [x] Committed to worktree
+- [x] NEXT-ACTION-INTAKE-READY.md workflow documented
+- [x] Committed to worktree + merged into main
 - [x] Intake questionnaire sent to Jen (Google Doc v2 live)
 - [ ] Jen returns intake answers (awaiting her input)
 - [ ] Distill answers + Gate 1 approval (blocking further stages)
@@ -257,8 +258,12 @@ skills/jen-engine/
 
 ## Status
 
-**BUILD COMPLETE ✅**
+**BUILD COMPLETE ✅ — MERGED INTO MAIN (commit fea120bec)**
 
-Lane ready to merge into main once Jen's intake answers are received and processed.
+All 7-stage pipeline files + templates + workflows are integrated into main and ready for execution.
 
-**Next milestone:** Jen's intake questionnaire answers → Gate 1 approval → demand research.
+**Awaiting:** Jen's intake questionnaire answers (Google Doc v2 at `16-sygvIU2ZMzDmEvbUisa7OAwDIUmqsBt2jWVTNVMCs`)
+
+**Next step:** When Jen returns answers, follow `skills/jen-engine/NEXT-ACTION-INTAKE-READY.md` to distill answers into VOICE.md + BRAIN.md, get Gate 1 approval, and unlock Stages 2–7.
+
+**Next milestone:** Jen's intake answers → Gate 1 approval → demand research.
