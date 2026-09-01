@@ -1,0 +1,160 @@
+{
+  "slug": "mybpm-abkdco-reference",
+  "title": "ABAKADA to MYBPM",
+  "compiled": "sep 1, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mybpm-abkdco-reference/mybpm-abkdco-reference-brief.html",
+  "brief_md": "deliverables/research-briefs/mybpm-abkdco-reference/mybpm-abkdco-reference-brief.md",
+  "paths": [
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/DESIGN.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/premium-shopify-relaunch/DESIGN.md",
+      "role": "current visual system"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md",
+      "role": "product and sample gate"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md",
+      "role": "campaign world continuity"
+    },
+    {
+      "path": "_active/mybpm/mybpm-merch-os-run-1/06-launch-plan.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/mybpm-merch-os-run-1/06-launch-plan.md",
+      "role": "existing launch system"
+    },
+    {
+      "path": "_active/mybpm/mybpm-merch-os-run-1/07-diagnostics.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/mybpm-merch-os-run-1/07-diagnostics.md",
+      "role": "existing outcome review"
+    },
+    {
+      "path": "mybpm-v2-desktop.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/mybpm-v2-desktop.png",
+      "role": "current local storefront direction reference"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-community-lookbook.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-community-lookbook.jpg",
+      "role": "asset · LOOKBOOK"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-two-look-study.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-two-look-study.jpg",
+      "role": "asset · LOOK STUDY"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-collaboration.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-collaboration.jpg",
+      "role": "asset · DBTK x ABKD"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-capsule-flatlay.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-capsule-flatlay.jpg",
+      "role": "asset · MERCHANDISING"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-sport-jersey.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-sport-jersey.jpg",
+      "role": "asset · PRODUCT"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-distressed-zipup-1.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-distressed-zipup-1.jpg",
+      "role": "asset · PRE-ORDER PRODUCT"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-1.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-1.jpg",
+      "role": "asset · PENSHOPPE x ABAKADA"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-2.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-2.jpg",
+      "role": "asset · PENSHOPPE x ABAKADA"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/05-build-and-launch.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mybpm-abkdco-reference/_active/mybpm/premium-shopify-relaunch/05-build-and-launch.md",
+      "role": "playbook · Days 53–60 · Seven-day paid pre-order"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.galingstudio.com/brands/abakada",
+      "label": "Galing Studio brand profile"
+    },
+    {
+      "url": "https://www.fsugatepost.com/post/the-stitch-shining-a-light-on-filipino-fashion",
+      "label": "The Gatepost · product overview"
+    },
+    {
+      "url": "https://abkdco.com/products/distressed-patch-zip-up-black",
+      "label": "ABAKADA official product page"
+    },
+    {
+      "url": "https://lifestyleasia-onemega.com/style/penshoppe-designer-lab-and-abakada-launch-streetwear-collection/",
+      "label": "Lifestyle Asia · Aug 30, 2026"
+    },
+    {
+      "url": "https://www.complex.com/pop-culture/a/kylie-mar/toyota-grip-anime-series-drops-abakada-merch",
+      "label": "Complex · Toyota GRIP collaboration"
+    },
+    {
+      "url": "https://abkdco.com/collections/restock",
+      "label": "ABAKADA RESTOCK page"
+    },
+    {
+      "url": "https://www.instagram.com/abkdco/",
+      "label": "ABAKADA official Instagram"
+    },
+    {
+      "url": "https://abkdco.com/",
+      "label": "ABAKADA official storefront"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+      "label": "FTC Internet order shipping rule guide"
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders",
+      "label": "Official pre-order documentation"
+    },
+    {
+      "url": "https://dbtkco.com/blogs/news/abakada-co-on-a-mission-to-promote-filipino-culture",
+      "label": "DBTK · ABAKADA collaboration feature"
+    },
+    {
+      "url": "https://www.blncmag.com/post/abakada-preserving-filipino-heritage-in-modern-streetwear-fashion",
+      "label": "BLNC Mag · preserving Filipino heritage"
+    },
+    {
+      "url": "https://www.vibeant.com/promising-filipino-streetwear-brands-that-are-based-internationally/",
+      "label": "VIBEANT · international Filipino streetwear brands"
+    }
+  ]
+}
