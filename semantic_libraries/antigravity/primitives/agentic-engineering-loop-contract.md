@@ -60,6 +60,13 @@ Before mutation-capable work, fill this compact packet or reference an existing 
 | Use-now artifact | The first artifact or behavior that can be used immediately. |
 | Hardening proof | Commands, tests, router checks, or cold-start prompt that prove it works. |
 
+## AI Execution Handoff (SHADOW)
+
+When a consequential task passes to another AI agent, use the six-field capsule
+in `signal-fidelity-minimal-contract.md` only if an execution boundary could be
+lost. Human handoffs stay natural; public artifacts stay unchanged; and no
+capsule is emitted when the native owner already carries the meaning.
+
 ## Dependency Safety Gate
 
 Use this gate before installing or relying on a new package, repo, MCP server, plugin, CLI, or external automation:
@@ -107,4 +114,4 @@ When workflow, router, skill, or system files changed, also run the relevant con
 
 ## Last Updated
 
-2026-08-08
+2026-09-01

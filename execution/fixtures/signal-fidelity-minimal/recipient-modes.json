@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "recipient": "public_reader",
+      "mode": "native_only",
+      "native": "USANA paid $205 million for Hiya, a kids' vitamin brand built on zero sugar.",
+      "presented": "USANA paid $205 million for Hiya, a kids' vitamin brand built on zero sugar.",
+      "signal_fidelity_visible": false
+    },
+    {
+      "recipient": "human_collaborator",
+      "mode": "native_only",
+      "native": "Resume the existing offer package; do not rebuild the brief. Farrice owns any price or kill-criteria change, and the package is prepared, not demand-proven.",
+      "presented": "Resume the existing offer package; do not rebuild the brief. Farrice owns any price or kill-criteria change, and the package is prepared, not demand-proven.",
+      "signal_fidelity_visible": false
+    },
+    {
+      "recipient": "ai_agent",
+      "mode": "explicit_execution_capsule",
+      "signal_fidelity_visible": true,
+      "fields": {
+        "Goal": "Complete the existing offer package without reconstructing or expanding it.",
+        "Must survive": "The fallback offer, positioning line, three pitches, delivery steps, trial, kill criteria, and objection handling.",
+        "Constraints": "Do not rebuild shipped material; external pitching is not approved.",
+        "Proof state": "UNTESTED",
+        "Owner": "Farrice owns price, positioning, and kill-criteria changes.",
+        "Stop when": "Return one completed bounded package and the remaining proof gaps."
+      }
+    },
+    {
+      "recipient": "strategy_owner",
+      "mode": "optional_decision_spine",
+      "signal_fidelity_visible": true,
+      "fields": {
+        "Decision": "Run a seven-day proof sprint for one paid pilot.",
+        "Must not lose": "Three targets, reusable proof assets, and human approval before outreach.",
+        "Proof boundary": "NO EVENT; response and close rates remain assumptions."
+      }
+    }
+  ]
+}
+
