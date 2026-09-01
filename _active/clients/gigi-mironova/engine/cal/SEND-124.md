@@ -11,13 +11,13 @@ I made you one post for Unit 124 and one reel to film there. It is finished, not
 - The reel script below, under forty seconds.
 - A short don't-say list.
 
-**Before it posts I need two things:** confirm $299,999 and $620 still hold on the listing, and say the word on using your listing photos, since they are yours.
+**Before it posts I need two things:** confirm $299,999 and $620 still hold on the listing, and say the word on using your listing photos, since they are yours. The unit is on every slide. If you send me the original photo files, I will swap them in the same day; the MLS copies carry a faint watermark.
 
 ## The reel · at the unit · keyword 124
 
 > Most listings open with the kitchen. This one opens with the bill.
 >
-> I am the listing agent here. Two lines on this sheet matter more than any photo.
+> I am a listing agent here. Two lines on this sheet matter more than any photo.
 >
 > Line one. Dues, six hundred twenty a month. Inside it: water, sewer, trash, pest control, pool service, landscaping, the building's insurance, and an on-site manager. Not inside it: your own policy inside the unit.
 >

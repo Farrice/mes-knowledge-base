@@ -20,7 +20,7 @@ Reader: the renter in the Valley paying $2,300 to $2,800 who has been told condo
 
 Most listings open with the kitchen. This one opens with the bill.
 
-I am the listing agent here. Two lines on this sheet matter more than any photo.
+I am a listing agent here. Two lines on this sheet matter more than any photo.
 
 Line one. Dues, six hundred twenty a month. Inside it: water, sewer, trash, pest control, pool service, landscaping, the building's insurance, and an on-site manager. Not inside it: your own policy inside the unit.
 
@@ -35,7 +35,7 @@ Write 124 and I will send the sheet with both lines marked.
 ### Bullet version
 
 1. Hook: "Most listings open with the kitchen. This one opens with the bill."
-2. Anchor: I am the listing agent here. Two lines matter.
+2. Anchor: I am a listing agent here. Two lines matter.
 3. Line one: $620, and everything inside it. And what is not.
 4. Line two: the completed inspection sentence, in the listing's words.
 5. Move: ask any agent for the dues and inclusions in writing, before the tour.

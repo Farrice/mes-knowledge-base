@@ -85,8 +85,23 @@ def k_hook(s, n, total):
     return frame(inner, dark=True, ru=s.get("ru"), bg=photo(s["img"], s.get("treat", "bleed"), s.get("pos", "center"), s.get("scale", 1.0)))
 
 
+def on_photo(s, n, total, card_html):
+    """Any structure slide carrying an `img`: photo held in colour, content in a white card low in the frame."""
+    inner = (rule(s["series"], True)
+             + f'<div style="margin-top:auto;padding-bottom:30px"><div style="padding:40px 44px;max-width:940px;background:{T.WHITE};color:{T.INK}">{card_html}</div></div>'
+             + foot(n, total, True, note=s.get("source")))
+    return frame(inner, dark=True, ru=s.get("ru"), bg=photo(s["img"], s.get("treat", "bleed"), s.get("pos", "center"), s.get("scale", 1.0)))
+
+
 def k_stat(s, n, total):
     """White. One oversized number as the proof object; label; body. STRUCTURE."""
+    if s.get("img"):
+        unit = f'<span style="font-size:60px;font-weight:700;letter-spacing:-0.01em;color:{T.ACCENT};margin-left:12px">{esc(s["unit"])}</span>' if s.get("unit") else ""
+        card = (f'<div class="caps" style="font-size:17px;color:{T.ACCENT}">{esc(s["eyebrow"])}</div>'
+                f'<div class="num" style="font-size:{s.get("size", 190)}px;margin-top:18px;display:flex;align-items:baseline;color:{T.INK}">{esc(s["num"])}{unit}</div>'
+                f'<div class="h" style="font-size:46px;margin-top:16px;max-width:860px;color:{T.INK}">{esc(s["label"])}</div>'
+                + (f'<div style="font-size:28px;line-height:1.45;color:{T.MUTED};margin-top:16px;max-width:820px">{esc(s["body"])}</div>' if s.get("body") else ""))
+        return on_photo(s, n, total, card)
     unit = f'<span style="font-size:88px;font-weight:700;letter-spacing:-0.01em;color:{T.ACCENT};margin-left:14px">{esc(s["unit"])}</span>' if s.get("unit") else ""
     body = f'<div style="display:flex;gap:26px;margin-top:40px"><div style="width:2px;background:{T.HAIRLINE}"></div><div style="font-size:33px;line-height:1.5;color:{T.MUTED};max-width:760px">{esc(s["body"])}</div></div>' if s.get("body") else ""
     inner = (rule(s["series"])
@@ -99,6 +114,17 @@ def k_stat(s, n, total):
 
 def k_list(s, n, total):
     """White. Numbered evidence rows — the receipt. STRUCTURE."""
+    if s.get("img"):
+        rows = ""
+        for i, (t, d) in enumerate(s["rows"], 1):
+            rows += (f'<div style="display:flex;gap:20px;padding:16px 0;border-top:1px solid {T.HAIRLINE}">'
+                     f'<div class="num" style="font-size:32px;color:{T.ACCENT};width:56px;flex:none;line-height:1.1">0{i}</div>'
+                     f'<div><div style="font-size:31px;font-weight:700;letter-spacing:-.02em;line-height:1.15;color:{T.INK}">{esc(t)}</div>'
+                     f'<div style="font-size:24px;line-height:1.4;color:{T.MUTED};margin-top:6px;max-width:800px">{esc(d)}</div></div></div>')
+        card = (f'<div class="caps" style="font-size:17px;color:{T.ACCENT}">{esc(s["eyebrow"])}</div>'
+                f'<div class="h" style="font-size:{s.get("size", 50)}px;margin:14px 0 18px;max-width:860px;color:{T.INK}">{esc(s["headline"])}</div>'
+                f'<div style="border-bottom:1px solid {T.HAIRLINE}">{rows}</div>')
+        return on_photo(s, n, total, card)
     rows = ""
     for i, (t, d) in enumerate(s["rows"], 1):
         rows += (f'<div style="display:flex;gap:26px;padding:26px 0;border-top:1px solid {T.HAIRLINE}">'
@@ -177,7 +203,8 @@ def k_cta(s, n, total):
              f'<div style="font-size:30px;line-height:1.4;color:{T.MUTED};margin-top:12px">{esc(s["ask"])}</div>'
              f'<div class="caps" style="font-size:16px;color:{T.MUTED};margin-top:26px">{T.NAME} · {T.DRE} · 818-826-9998 · ENGLISH · РУССКИЙ</div></div>'
              + foot(n, total, True))
-    return frame(inner, dark=True, ru=s.get("ru"))
+    bg = photo(s["img"], s.get("treat", "bleed"), s.get("pos", "center"), s.get("scale", 1.0)) if s.get("img") else None
+    return frame(inner, dark=True, ru=s.get("ru"), bg=bg)
 
 
 KINDS = {"hook": k_hook, "stat": k_stat, "list": k_list, "two": k_two, "dark": k_dark,

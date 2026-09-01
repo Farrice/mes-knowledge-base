@@ -1,0 +1,665 @@
+{
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "Unit 124 gift + calibration"
+    },
+    {
+      "id": "page-2",
+      "name": "Pre-audit sets (do not post)"
+    }
+  ],
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "Read this before you tour \u00b7 1/7",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift02.dc.html",
+      "title": "Read this before you tour \u00b7 2/7",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift03.dc.html",
+      "title": "Read this before you tour \u00b7 3/7",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift04.dc.html",
+      "title": "Read this before you tour \u00b7 4/7",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift05.dc.html",
+      "title": "Read this before you tour \u00b7 5/7",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift06.dc.html",
+      "title": "Read this before you tour \u00b7 6/7",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Gift07.dc.html",
+      "title": "Read this before you tour \u00b7 7/7",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages01.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 1/7",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages02.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 2/7",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages03.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 3/7",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages04.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 4/7",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages05.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 5/7",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages06.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 6/7",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "FivePages07.dc.html",
+      "title": "The five pages in the HOA packet \u00b7 7/7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant01.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 1/6",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant02.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 2/6",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant03.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 3/6",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant04.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 4/6",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant05.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 5/6",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Tenant06.dc.html",
+      "title": "Can I sell my condo with the tenant in it? \u00b7 6/6",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-1"
+    },
+    {
+      "file": "Balcony01.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 1/6",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Balcony02.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 2/6",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Balcony03.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 3/6",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Balcony04.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 4/6",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Balcony05.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 5/6",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Balcony06.dc.html",
+      "title": "The balcony report is in your sale file now \u00b7 6/6",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill01.dc.html",
+      "title": "The bill that arrives after closing \u00b7 1/6",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill02.dc.html",
+      "title": "The bill that arrives after closing \u00b7 2/6",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill03.dc.html",
+      "title": "The bill that arrives after closing \u00b7 3/6",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill04.dc.html",
+      "title": "The bill that arrives after closing \u00b7 4/6",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill05.dc.html",
+      "title": "The bill that arrives after closing \u00b7 5/6",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Bill06.dc.html",
+      "title": "The bill that arrives after closing \u00b7 6/6",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Fees01.dc.html",
+      "title": "Do HOA fees ever go down? \u00b7 1/5",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Fees02.dc.html",
+      "title": "Do HOA fees ever go down? \u00b7 2/5",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Fees03.dc.html",
+      "title": "Do HOA fees ever go down? \u00b7 3/5",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Fees04.dc.html",
+      "title": "Do HOA fees ever go down? \u00b7 4/5",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Fees05.dc.html",
+      "title": "Do HOA fees ever go down? \u00b7 5/5",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net01.dc.html",
+      "title": "The number you keep \u00b7 1/6",
+      "x": 0,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net02.dc.html",
+      "title": "The number you keep \u00b7 2/6",
+      "x": 1180,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net03.dc.html",
+      "title": "The number you keep \u00b7 3/6",
+      "x": 2360,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net04.dc.html",
+      "title": "The number you keep \u00b7 4/6",
+      "x": 3540,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net05.dc.html",
+      "title": "The number you keep \u00b7 5/6",
+      "x": 4720,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Net06.dc.html",
+      "title": "The number you keep \u00b7 6/6",
+      "x": 5900,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow01.dc.html",
+      "title": "Who holds the money \u00b7 1/6",
+      "x": 0,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow02.dc.html",
+      "title": "Who holds the money \u00b7 2/6",
+      "x": 1180,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow03.dc.html",
+      "title": "Who holds the money \u00b7 3/6",
+      "x": 2360,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow04.dc.html",
+      "title": "Who holds the money \u00b7 4/6",
+      "x": 3540,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow05.dc.html",
+      "title": "Who holds the money \u00b7 5/6",
+      "x": 4720,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Escrow06.dc.html",
+      "title": "Who holds the money \u00b7 6/6",
+      "x": 5900,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks01.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 1/6",
+      "x": 0,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks02.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 2/6",
+      "x": 1180,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks03.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 3/6",
+      "x": 2360,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks04.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 4/6",
+      "x": 3540,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks05.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 5/6",
+      "x": 4720,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "Clocks06.dc.html",
+      "title": "Three clocks start the day you're accepted \u00b7 6/6",
+      "x": 5900,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU01.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 1/6",
+      "x": 0,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU02.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 2/6",
+      "x": 1180,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU03.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 3/6",
+      "x": 2360,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU04.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 4/6",
+      "x": 3540,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU05.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 5/6",
+      "x": 4720,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "FirstHomeRU06.dc.html",
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass) \u00b7 6/6",
+      "x": 5900,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "note-top",
+      "x": 0,
+      "y": -420,
+      "w": 1400,
+      "page": "page-1",
+      "text": "GIGI MIRONOVA \u00b7 UNIT 124 GIFT + CALIBRATION TAKE \u00b7 2026-09-01\nRow 1 is the gift going out today (seven slides). Rows 2 and 3 are the other two calibration sets on the same register.\nEvery number on these boards is in the claims ledger as VERIFIED or COMPUTED-OK. The old \"same door, two prices\" set is gone: the $2,500 lease listing was removed from the MLS on Aug 17.\nPage 2 holds the seven sets not yet rewritten; they carry pre-audit copy and are marked do-not-post."
+    },
+    {
+      "id": "note-gift",
+      "x": -420,
+      "y": 0,
+      "w": 360,
+      "page": "page-1",
+      "text": "Read this before you tour\nCalibration take \u00b7 audited numbers \u00b7 ready for your verdict\nkeyword 124 \u00b7 pairs with video 1"
+    },
+    {
+      "id": "note-fivepages",
+      "x": -420,
+      "y": 1560,
+      "w": 360,
+      "page": "page-1",
+      "text": "The five pages in the HOA packet\nCalibration take \u00b7 audited numbers \u00b7 ready for your verdict\nkeyword HOA \u00b7 pairs with video 3"
+    },
+    {
+      "id": "note-tenant",
+      "x": -420,
+      "y": 3120,
+      "w": 360,
+      "page": "page-1",
+      "text": "Can I sell my condo with the tenant in it?\nCalibration take \u00b7 audited numbers \u00b7 ready for your verdict\nkeyword NET \u00b7 pairs with video 11"
+    },
+    {
+      "id": "note-balcony",
+      "x": -420,
+      "y": 0,
+      "w": 360,
+      "page": "page-2",
+      "text": "The balcony report is in your sale file now\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword HOA \u00b7 pairs with video 6"
+    },
+    {
+      "id": "note-bill",
+      "x": -420,
+      "y": 1560,
+      "w": 360,
+      "page": "page-2",
+      "text": "The bill that arrives after closing\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword HOA \u00b7 pairs with video 7"
+    },
+    {
+      "id": "note-fees",
+      "x": -420,
+      "y": 3120,
+      "w": 360,
+      "page": "page-2",
+      "text": "Do HOA fees ever go down?\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword HOA \u00b7 pairs with video 8"
+    },
+    {
+      "id": "note-net",
+      "x": -420,
+      "y": 4680,
+      "w": 360,
+      "page": "page-2",
+      "text": "The number you keep\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword NET \u00b7 pairs with video 14"
+    },
+    {
+      "id": "note-escrow",
+      "x": -420,
+      "y": 6240,
+      "w": 360,
+      "page": "page-2",
+      "text": "Who holds the money\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword CLOCK \u00b7 pairs with video 16"
+    },
+    {
+      "id": "note-clocks",
+      "x": -420,
+      "y": 7800,
+      "w": 360,
+      "page": "page-2",
+      "text": "Three clocks start the day you're accepted\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword CLOCK \u00b7 pairs with video 17"
+    },
+    {
+      "id": "note-firsthomeru",
+      "x": -420,
+      "y": 9360,
+      "w": 360,
+      "page": "page-2",
+      "text": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u043e\u043c \u0432 \u0421\u0428\u0410: \u043f\u044f\u0442\u044c \u0448\u0430\u0433\u043e\u0432 (draft for her native pass)\nPRE-AUDIT \u00b7 do not post \u00b7 numbers and register being corrected\nkeyword DOCS \u00b7 pairs with video 19"
+    },
+    {
+      "id": "note-top2",
+      "x": 0,
+      "y": -420,
+      "w": 1400,
+      "page": "page-2",
+      "text": "PRE-AUDIT SETS \u00b7 DO NOT POST\nSeven sets from the first pass. Known corrections pending: loan contingency is 17 days on the current contract (not 21); the $60K assessment story has no season and is a few years old; deposit 1\u20133% is market custom, not a contract default; tenant-notice rule per Civil Code 1954. These get the calibration register once you give the verdict on page 1."
+    }
+  ],
+  "launch": {
+    "view": "canvas",
+    "page": "page-1"
+  }
+}
