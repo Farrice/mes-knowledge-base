@@ -87,3 +87,27 @@ No factual claims requiring verification — workflows are process instructions 
 ### Claim Boundary
 
 Workflow 09 depends on the source's operating mechanics, not on unverified interview anecdotes or biographical numbers. Any external claim from the interview remains **UNCONFIRMED** unless independently sourced.
+
+## 2026-09-01 Digital Cut AI Creative Practice Addition (Workflow 10)
+
+| Source | Location | Status |
+|---|---|---|
+| YouTube metadata | `extractions/video-context/DHTgH34inHY/metadata.json` | **VERIFIED SOURCE METADATA** — 3,729 seconds, complete-video scope, chapter map preserved |
+| Native captions | `extractions/video-context/DHTgH34inHY/transcript.vtt` | **VERIFIED AS SOURCE EVIDENCE** — native English automatic captions; transcription and attribution limits remain |
+| Clean reading transcript | `extractions/video-context/DHTgH34inHY/transcript.txt` | **VERIFIED DERIVATIVE** — 10,969 words reconstructed from rolling captions |
+| Timestamped segments | `extractions/video-context/DHTgH34inHY/transcript_segments.json` | **VERIFIED DERIVATIVE** — exactly 1,574 caption cues |
+| Visual references | `extractions/video-context/DHTgH34inHY/frames/`, `visual-references.md` | **PARTIAL VISUAL VERIFIED** — seven inspected studio-interview frames; no slide/UI/procedure claim admitted |
+| Checksums and source boundary | `manifest.json`, `evidence-ledger.md`, `uncertainty-report.md` in the same package | **VERIFIED LOCAL ARTIFACTS** |
+
+### Gap-Diff Ledger
+
+| Mechanic | Disposition | Reason |
+|---|---|---|
+| SVA, shipping, public role, qualified feedback, reversible experiments, brand promise, AI permission | **RECONFIRMED, NOT DUPLICATED** | Existing Godin philosophy, marketing-mind, and brand owners already encode them |
+| Human projects / AI tasks; system-gap search; proud-artifact threshold; three-rung cheap failure; traction-granted expansion | **ADDED AS PATTERNS 36–40** | Source-backed distinctions that were not composed into one existing practice |
+| Full AI Creative Practice sequence | **ADDED AS WORKFLOW 10** | The existing arsenal lacked one path from human ownership through bounded AI execution to a traction verdict |
+| New agent, skill, primitive, global mirror, self-evolution behavior | **REJECTED** | Existing owner fit is strong and production receipts are zero |
+
+### Claim Boundary
+
+Workflow 10 uses direct operating mechanics at `evidence-ledger.md` rows S01–S17. Historical anecdotes, publication figures, sales figures, and quantitative AI productivity claims remain **VERIFIED AS STATED IN THE INTERVIEW ONLY** and are not promoted into doctrine.
