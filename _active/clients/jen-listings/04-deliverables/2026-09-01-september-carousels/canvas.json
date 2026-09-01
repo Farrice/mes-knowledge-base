@@ -179,10 +179,73 @@
       "h": 1350
     },
     {
+      "file": "DD1.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 1",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD2.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 2",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD3.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 3",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD4.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 4",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD5.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 5",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD6.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 6",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DD7.dc.html",
+      "title": "D \u00b7 valley native \u00b7 slide 7",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
       "file": "DA1.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 cover",
       "x": 0,
-      "y": 0,
+      "y": 1560,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -191,7 +254,7 @@
       "file": "DA2.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 slide 3",
       "x": 1180,
-      "y": 0,
+      "y": 1560,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -200,7 +263,7 @@
       "file": "DA3.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 slide 4",
       "x": 2360,
-      "y": 0,
+      "y": 1560,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -209,7 +272,7 @@
       "file": "DA4.dc.html",
       "title": "A \u00b7 photo editorial \u00b7 close",
       "x": 3540,
-      "y": 0,
+      "y": 1560,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -218,7 +281,7 @@
       "file": "DB1.dc.html",
       "title": "B \u00b7 field notes \u00b7 cover",
       "x": 0,
-      "y": 1560,
+      "y": 3120,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -227,7 +290,7 @@
       "file": "DB2.dc.html",
       "title": "B \u00b7 field notes \u00b7 slide 3",
       "x": 1180,
-      "y": 1560,
+      "y": 3120,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -236,7 +299,7 @@
       "file": "DB3.dc.html",
       "title": "B \u00b7 field notes \u00b7 slide 4",
       "x": 2360,
-      "y": 1560,
+      "y": 3120,
       "w": 1080,
       "h": 1350,
       "page": "page-2"
@@ -244,42 +307,6 @@
     {
       "file": "DB4.dc.html",
       "title": "B \u00b7 field notes \u00b7 close",
-      "x": 3540,
-      "y": 1560,
-      "w": 1080,
-      "h": 1350,
-      "page": "page-2"
-    },
-    {
-      "file": "DC1.dc.html",
-      "title": "C \u00b7 color block \u00b7 cover",
-      "x": 0,
-      "y": 3120,
-      "w": 1080,
-      "h": 1350,
-      "page": "page-2"
-    },
-    {
-      "file": "DC2.dc.html",
-      "title": "C \u00b7 color block \u00b7 slide 3",
-      "x": 1180,
-      "y": 3120,
-      "w": 1080,
-      "h": 1350,
-      "page": "page-2"
-    },
-    {
-      "file": "DC3.dc.html",
-      "title": "C \u00b7 color block \u00b7 slide 4",
-      "x": 2360,
-      "y": 3120,
-      "w": 1080,
-      "h": 1350,
-      "page": "page-2"
-    },
-    {
-      "file": "DC4.dc.html",
-      "title": "C \u00b7 color block \u00b7 close",
       "x": 3540,
       "y": 3120,
       "w": 1080,
@@ -302,12 +329,12 @@
       "y": -330,
       "w": 1000,
       "page": "page-2",
-      "text": "THREE DIRECTIONS on the condo set (cover, slide 3, slide 4, close). same copy, three skins. photos are real and cleared (CC0 / public domain); swap in jen's own shots anywhere.\nA photo editorial: the current system + full-bleed place photography. least change, most trust. tradeoff: still the same cream/navy column at a glance.\nB field notes: paper, tilted prints, tape, handwriting, red pencil. reads like her notes from a showing. tradeoff: the loudest departure from the polished grid; needs discipline to not go cute.\nC color block: one bold colour per series (terracotta here; moss for the rail set, ochre for insurance) + duotone photos + huge numerals. tradeoff: colour must rotate per set or it becomes its own beige."
+      "text": "DIRECTIONS on the condo set. same copy, different skins. photos are real and cleared (CC0 / public domain) plus jen's own public grid shots as placeholders.\nrow 1 \u00b7 D valley native (full 7 slides): field-notes composition in her own navy line-icon language, real valley places, jen in frame. the recommended system. rulebook: VALLEY-NATIVE-RULEBOOK.md\nrow 2 \u00b7 A photo editorial (4 slides): current system + full-bleed place photography.\nrow 3 \u00b7 B field notes (4 slides): the paper/tape/pencil sketch that D translates on-brand.\ndirection C (orange) was removed: jen hates orange."
     },
     {
       "id": "dir-a",
       "x": 4740,
-      "y": 0,
+      "y": 1560,
       "w": 380,
       "page": "page-2",
       "text": "A \u00b7 photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."
@@ -315,18 +342,10 @@
     {
       "id": "dir-b",
       "x": 4740,
-      "y": 1560,
-      "w": 380,
-      "page": "page-2",
-      "text": "B \u00b7 field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. two annotations max per slide."
-    },
-    {
-      "id": "dir-c",
-      "x": 4740,
       "y": 3120,
       "w": 380,
       "page": "page-2",
-      "text": "C \u00b7 color block\nmotivation: each series gets a colour, so three carousels in a row read as three different posts.\nrisk: terracotta is a departure from her navy/cream brand; keep navy as the ink so it still reads as jen."
+      "text": "B \u00b7 field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. D keeps the composition and drops the skin."
     }
   ],
   "launch": {

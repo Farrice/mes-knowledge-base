@@ -313,13 +313,14 @@ for row, (title, names) in enumerate(order):
         artboards.append({"file": f"{name}.dc.html", "title": f"{row + 1}.{col + 1} {title}", "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350})
 
 DIRECTIONS = [
+    ("D · valley native", ["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]),
     ("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]),
     ("B · field notes", ["DB1", "DB2", "DB3", "DB4"]),
-    ("C · color block", ["DC1", "DC2", "DC3", "DC4"]),
 ]
 for row, (title, names) in enumerate(DIRECTIONS):
     for col, name in enumerate(names):
-        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {['cover', 'slide 3', 'slide 4', 'close'][col]}",
+        label = f"slide {col + 1}" if len(names) == 7 else ["cover", "slide 3", "slide 4", "close"][col]
+        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}",
                           "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-2"})
 
 canvas = {
@@ -327,10 +328,9 @@ canvas = {
     "artboards": artboards,
     "annotations": [
         {"id": "sept-note", "x": 0, "y": -300, "w": 1000, "page": "page-1", "text": "SEPTEMBER 2026 · three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."},
-        {"id": "dir-note", "x": 0, "y": -330, "w": 1000, "page": "page-2", "text": "THREE DIRECTIONS on the condo set (cover, slide 3, slide 4, close). same copy, three skins. photos are real and cleared (CC0 / public domain); swap in jen's own shots anywhere.\nA photo editorial: the current system + full-bleed place photography. least change, most trust. tradeoff: still the same cream/navy column at a glance.\nB field notes: paper, tilted prints, tape, handwriting, red pencil. reads like her notes from a showing. tradeoff: the loudest departure from the polished grid; needs discipline to not go cute.\nC color block: one bold colour per series (terracotta here; moss for the rail set, ochre for insurance) + duotone photos + huge numerals. tradeoff: colour must rotate per set or it becomes its own beige."},
-        {"id": "dir-a", "x": 4740, "y": 0, "w": 380, "page": "page-2", "text": "A · photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."},
-        {"id": "dir-b", "x": 4740, "y": 1560, "w": 380, "page": "page-2", "text": "B · field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. two annotations max per slide."},
-        {"id": "dir-c", "x": 4740, "y": 3120, "w": 380, "page": "page-2", "text": "C · color block\nmotivation: each series gets a colour, so three carousels in a row read as three different posts.\nrisk: terracotta is a departure from her navy/cream brand; keep navy as the ink so it still reads as jen."},
+        {"id": "dir-note", "x": 0, "y": -330, "w": 1000, "page": "page-2", "text": "DIRECTIONS on the condo set. same copy, different skins. photos are real and cleared (CC0 / public domain) plus jen's own public grid shots as placeholders.\nrow 1 · D valley native (full 7 slides): field-notes composition in her own navy line-icon language, real valley places, jen in frame. the recommended system. rulebook: VALLEY-NATIVE-RULEBOOK.md\nrow 2 · A photo editorial (4 slides): current system + full-bleed place photography.\nrow 3 · B field notes (4 slides): the paper/tape/pencil sketch that D translates on-brand.\ndirection C (orange) was removed: jen hates orange."},
+        {"id": "dir-a", "x": 4740, "y": 1560, "w": 380, "page": "page-2", "text": "A · photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."},
+        {"id": "dir-b", "x": 4740, "y": 3120, "w": 380, "page": "page-2", "text": "B · field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. D keeps the composition and drops the skin."},
     ],
     "launch": {"view": "canvas", "page": "page-2"},
 }
