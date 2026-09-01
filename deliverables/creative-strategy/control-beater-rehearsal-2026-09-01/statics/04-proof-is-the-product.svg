@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1350" height="1350" viewBox="0 0 1350 1350">
+  <defs><filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#641700" flood-opacity=".32"/></filter></defs>
+  <g transform="translate(135 0)">
+  <rect width="1080" height="1350" fill="#f4511e"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" font-weight="700" fill="#111">SPEC / UNAFFILIATED</text>
+  <text x="72" y="235" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#111">THE POWDER</text>
+  <text x="72" y="325" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#111">ISN'T THE</text>
+  <text x="72" y="415" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#111">DIFFERENCE.</text>
+  <text x="72" y="500" font-family="Georgia, serif" font-size="66" font-style="italic" fill="#fff">The proof around it is.</text>
+  <g filter="url(#shadow)"><image x="230" y="445" width="820" height="820" preserveAspectRatio="xMidYMid meet" xlink:href="../source-assets/product-detail.png"/></g>
+  <rect x="72" y="1060" width="388" height="118" rx="59" fill="#111"/>
+  <text x="266" y="1106" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="2" font-weight="700" fill="#fff">CURRENTLY LISTED</text>
+  <text x="266" y="1143" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#fff">NSF CERTIFIED FOR SPORT®</text>
+  <rect x="0" y="1248" width="1080" height="102" fill="#fff"/>
+  <text x="72" y="1311" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111">SEE THE TESTING STANDARD</text>
+  <text x="990" y="1313" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#111">→</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1350" height="1350" viewBox="0 0 1350 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f3ef"/><stop offset="1" stop-color="#ddd7d0"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000" flood-opacity=".18"/></filter>
+  </defs>
+  <g transform="translate(135 0)">
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <path d="M0 0H1080V390L0 600Z" fill="#111"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" font-weight="700" fill="#fff">SPEC / UNAFFILIATED</text>
+  <text x="72" y="205" font-family="Arial, Helvetica, sans-serif" font-size="75" font-weight="800" fill="#fff">THE STANDARD</text>
+  <text x="72" y="288" font-family="Arial, Helvetica, sans-serif" font-size="75" font-weight="800" fill="#fff">BEHIND THE</text>
+  <text x="72" y="371" font-family="Arial, Helvetica, sans-serif" font-size="75" font-weight="800" fill="#f4511e">SCOOP.</text>
+  <g filter="url(#shadow)"><image x="570" y="400" width="560" height="560" preserveAspectRatio="xMidYMid meet" xlink:href="../source-assets/product-detail.png"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="72" y="720" font-size="25" letter-spacing="2" font-weight="700">01</text><text x="140" y="720" font-size="30" font-weight="700">5g CREATINE MONOHYDRATE</text>
+    <line x1="72" y1="750" x2="545" y2="750" stroke="#b7b1ab" stroke-width="2"/>
+    <text x="72" y="825" font-size="25" letter-spacing="2" font-weight="700">02</text><text x="140" y="825" font-size="30" font-weight="700">OTHER INGREDIENTS: NONE</text>
+    <line x1="72" y1="855" x2="545" y2="855" stroke="#b7b1ab" stroke-width="2"/>
+    <text x="72" y="930" font-size="25" letter-spacing="2" font-weight="700">03</text><text x="140" y="930" font-size="30" font-weight="700">6-STAGE TESTING</text>
+    <line x1="72" y1="960" x2="545" y2="960" stroke="#b7b1ab" stroke-width="2"/>
+  </g>
+  <rect x="72" y="1035" width="936" height="120" rx="14" fill="#f4511e"/>
+  <text x="540" y="1083" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="2" font-weight="700" fill="#111">SIMPLE LABEL. SERIOUS PROCESS.</text>
+  <text x="540" y="1123" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#111">See what stands behind every scoop.</text>
+  <rect x="0" y="1190" width="1080" height="160" fill="#111"/>
+  <text x="72" y="1284" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff">SEE THE TESTING STANDARD</text>
+  <text x="990" y="1287" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#f4511e">→</text>
+  </g>
+</svg>

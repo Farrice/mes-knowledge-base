@@ -19,6 +19,20 @@
   ],
   "queries": [
     {
+      "id": "health-performance-paid-social-creative-delivery",
+      "query": "Current claim-safe Health Performance work: creative strategist for supplement and performance brands who turns buyer language, approved product proof, past-ad learning, and a current incumbent into five static ads plus one production-ready video concept. Recover the method, preserve the 72-hour input gate, and do not route to Proof-to-Market or make Angle Map the offer owner.",
+      "expected_lane": "paid-social-creative",
+      "expected_first": [
+        "alex-copper-performance-creative-production"
+      ],
+      "governor_first": [
+        "alex-copper-performance-creative-production"
+      ],
+      "must_rank_above": {
+        "alex-copper-performance-creative-production": "extraction-governor-agent"
+      }
+    },
+    {
       "id": "broken-things",
       "query": "things are not working",
       "expected_lane": "system-failure",

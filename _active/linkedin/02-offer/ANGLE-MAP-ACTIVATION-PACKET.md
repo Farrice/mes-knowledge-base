@@ -1,8 +1,11 @@
 ---
-status: canonical
+status: conditional-internal-method
+superseded_by: 00-CURRENT-CREATIVE-OFFER.md
 ---
 
 # The Angle Map: Activation Packet
+
+> **NOT THE COMMERCIAL OWNER — 2026-09-01.** Angle selection may be used inside creative strategy, or as a strategy-first re-scope when the message is too unsettled to produce responsible ads. It is not the default public offer, profile identity, or first paid rung.
 
 ## Offer card
 

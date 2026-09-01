@@ -1,5 +1,7 @@
 # LinkedIn Authority Reset + Launch Master
 
+> **SUPERSEDED — 2026-09-01.** Do not paste this version. Use `CONTROL-BEATER-PROFILE-DRAFT.md`; paid-social creative strategy now owns the profile.
+
 **Farrice Cain · July 30, 2026**
 
 This is the one working document. Use Section 1 as the execution order. Use the remaining sections as source blocks.

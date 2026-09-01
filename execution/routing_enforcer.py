@@ -50,6 +50,33 @@ ROUTING_LOG = TRACE_DIR / "routing_decisions.jsonl"
 
 BINDINGS = [
     {
+        "id": "health_performance_paid_social_creative_delivery",
+        "signal_phrases": [
+            "five static ads plus one production-ready video concept",
+            "five statics plus one production-ready video concept",
+            "5 static ads + 1 production-ready video concept",
+            "5 statics + 1 production-ready video concept",
+        ],
+        "negative_signals": [
+            "/jun-story-engine",
+            "source-command-jun-story-engine",
+            "/claim-safe-pre-launch-compliance-gate",
+            "run a claim audit",
+            "audit these claims",
+        ],
+        "mandatory_workflow": "alex-copper-performance-creative-production",
+        "forbidden_workflows": [
+            "extraction-governor-agent",
+            "source-to-skill-system",
+            "jun-story-engine",
+        ],
+        "reason": (
+            "The exact five-static plus production-ready-video delivery shape for "
+            "supplement and performance brands is paid-social creative production. "
+            "Method mining and claim safety remain bounded support, not the owner."
+        ),
+    },
+    {
         "id": "operator_mission_control",
         "signal_phrases": [
             "mission control",

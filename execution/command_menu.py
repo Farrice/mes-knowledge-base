@@ -1373,6 +1373,10 @@ def search(workflows: Iterable[Workflow], query: str, limit: int) -> list[tuple[
         hit.get("binding_id") == "operator_search_content_mastery"
         for hit in binding_hits
     )
+    health_performance_creative_hit = any(
+        hit.get("binding_id") == "health_performance_paid_social_creative_delivery"
+        for hit in binding_hits
+    )
     strong_control_plane_active = any(
         flags[key]
         for key in (
@@ -1402,7 +1406,11 @@ def search(workflows: Iterable[Workflow], query: str, limit: int) -> list[tuple[
         )
     )
     binding_boost: dict[str, int] = {}
-    if not control_plane_active or (search_mastery_hit and not strong_control_plane_active):
+    if (
+        not control_plane_active
+        or health_performance_creative_hit
+        or (search_mastery_hit and not strong_control_plane_active)
+    ):
         for position, hit in enumerate(binding_hits):
             for subposition, workflow_name in enumerate(hit.get("workflows", [])):
                 binding_boost.setdefault(

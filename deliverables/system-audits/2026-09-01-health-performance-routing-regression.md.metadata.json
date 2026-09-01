@@ -1,0 +1,9 @@
+{
+  "artifact_type": "system_audit",
+  "status": "targeted_pass_whole_system_partial",
+  "route_owner": "alex-copper-performance-creative-production",
+  "support_gate": "claim-safe-health-marketing",
+  "method_miner": "jun-story-engine",
+  "golden_query_checks": 86,
+  "external_actions_taken": false
+}

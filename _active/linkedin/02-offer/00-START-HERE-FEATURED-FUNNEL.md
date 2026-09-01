@@ -1,5 +1,7 @@
 # START HERE: Featured Section Funnel for $500 Angle Audits
 
+> **SUPERSEDED — 2026-09-01.** Do not deploy this funnel. Its Angle Audit ownership and booking forecast are no longer current. Use `00-CURRENT-CREATIVE-OFFER.md` and `../03-launch/CONTROL-BEATER-LAUNCH-ASSETS-DRAFT.md`.
+
 **Status**: Complete and ready to deploy  
 **Time to setup**: 30-45 minutes  
 **Expected outcome**: 1-2 audit bookings per week within 30 days

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1350" height="1350" viewBox="0 0 1350 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0ede9"/><stop offset="1" stop-color="#d6d1cb"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity=".22"/></filter>
+  </defs>
+  <g transform="translate(135 0)">
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="18" fill="#f4511e"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" font-weight="700" fill="#111">SPEC / UNAFFILIATED</text>
+  <text x="72" y="214" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="800" fill="#111">CREATINE</text>
+  <text x="72" y="310" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="800" fill="#111">BECAME A</text>
+  <text x="72" y="406" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="800" fill="#111">COMMODITY.</text>
+  <text x="72" y="500" font-family="Georgia, serif" font-size="76" font-style="italic" fill="#f4511e">Testing didn't.</text>
+  <rect x="72" y="565" width="410" height="2" fill="#111"/>
+  <text x="72" y="627" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111">6-STAGE TESTING</text>
+  <text x="72" y="676" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111">NSF CERTIFIED FOR SPORT®</text>
+  <g filter="url(#shadow)"><image x="430" y="650" width="650" height="650" preserveAspectRatio="xMidYMid meet" xlink:href="../source-assets/product-detail.png"/></g>
+  <rect x="0" y="1248" width="1080" height="102" fill="#111"/>
+  <text x="72" y="1311" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff">SEE THE TESTING STANDARD</text>
+  <text x="990" y="1313" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#f4511e">→</text>
+  </g>
+</svg>

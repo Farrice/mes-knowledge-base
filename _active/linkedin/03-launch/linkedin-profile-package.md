@@ -5,6 +5,8 @@ superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
 
 # LinkedIn Profile Package — Proof-to-Market Sprint
 
+> **SUPERSEDED — 2026-09-01.** Do not paste this version. Use `CONTROL-BEATER-PROFILE-DRAFT.md`; paid-social creative strategy now owns the profile.
+
 > Paste-ready files for profile rebuild. Copy each section directly into LinkedIn. Date: 2026-07-18.
 
 ---

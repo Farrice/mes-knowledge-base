@@ -223,6 +223,14 @@ EXTRACTION_GOVERNOR_STACK = (
     "orchestrate",
 )
 
+HEALTH_PERFORMANCE_CREATIVE_STACK = (
+    "alex-copper-performance-creative-production",
+    "alex-copper-static-acquisition-system",
+    "claim-safe-pre-launch-compliance-gate",
+    "claim-safe-claim-substantiation-map",
+    "claim-safe-hooks",
+)
+
 EXTRACTION_GOVERNOR_SIGNALS = (
     "/extraction-governor-agent",
     "source-command-extraction-governor-agent",
@@ -1219,6 +1227,39 @@ class GovernorDecision:
 
 def normalize_query(query: str) -> str:
     return re.sub(r"\s+", " ", query.lower()).strip()
+
+
+def is_health_performance_creative_delivery_intent(query: str) -> bool:
+    """Recognize the exact Control-Beater delivery without stealing explicit support work."""
+    normalized = normalize_query(query)
+    if any(
+        signal in normalized
+        for signal in (
+            "/jun-story-engine",
+            "source-command-jun-story-engine",
+            "/claim-safe-pre-launch-compliance-gate",
+            "run a claim audit",
+            "audit these claims",
+        )
+    ):
+        return False
+    delivery_shape = (
+        (
+            "five static ads" in normalized
+            or "five statics" in normalized
+            or "5 statics" in normalized
+        )
+        and "production-ready video concept" in normalized
+    )
+    category_owner = (
+        ("supplement" in normalized or "performance brand" in normalized)
+        and (
+            "creative strategist" in normalized
+            or "paid-social" in normalized
+            or "paid social" in normalized
+        )
+    )
+    return delivery_shape and category_owner
 
 
 def is_operating_alignment_intent(query: str) -> bool:
@@ -2609,6 +2650,11 @@ def system_failure_route_bonus(route_name: str, query: str = "") -> int:
 def governed_route_names(query: str, raw_routes: Iterable[str]) -> list[str]:
     """Return route names with governor-required routes promoted first."""
     routes = [route for route in raw_routes if route]
+    if is_health_performance_creative_delivery_intent(query):
+        ordered = [route for route in HEALTH_PERFORMANCE_CREATIVE_STACK if route in routes]
+        ordered.extend(route for route in HEALTH_PERFORMANCE_CREATIVE_STACK if route not in ordered)
+        ordered.extend(route for route in routes if route not in ordered)
+        return ordered
     if is_operating_alignment_intent(query):
         ordered = [route for route in OPERATING_ALIGNMENT_STACK if route in routes]
         ordered.extend(route for route in OPERATING_ALIGNMENT_STACK if route not in ordered)
@@ -2849,6 +2895,30 @@ def evaluate(
         ),
         None,
     )
+
+    if is_health_performance_creative_delivery_intent(query):
+        chosen = choose_route(query, combined)
+        allowed = set(HEALTH_PERFORMANCE_CREATIVE_STACK)
+        skipped = tuple(route for route in combined[:8] if route not in allowed)
+        return GovernorDecision(
+            query=query,
+            detected_lane="paid-social-creative",
+            confidence=0.97 if chosen == "alex-copper-performance-creative-production" else 0.86,
+            required_candidates=HEALTH_PERFORMANCE_CREATIVE_STACK,
+            command_menu_winners=menu_routes,
+            workflow_router_winners=workflow_routes,
+            chosen_route=chosen,
+            skipped_routes=skipped,
+            reason=(
+                "The exact Control-Beater output signature is paid-social creative "
+                "production. Alex Copper owns delivery; static acquisition is bounded "
+                "craft support and Claim-Safe Health Marketing is a verification gate."
+            ),
+            feedback_recommendation=(
+                "If method-recovery language displaces paid-social creative production, "
+                "log the regression against alex-copper-performance-creative-production."
+            ),
+        )
 
     if is_operating_alignment_intent(query):
         chosen = choose_route(query, combined)

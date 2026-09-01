@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1350" height="1350" viewBox="0 0 1350 1350">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity=".06"/><stop offset=".55" stop-color="#000" stop-opacity=".55"/><stop offset="1" stop-color="#000" stop-opacity=".96"/></linearGradient>
+    <clipPath id="photo"><rect x="0" y="0" width="1080" height="1248"/></clipPath>
+  </defs>
+  <g transform="translate(135 0)">
+  <rect width="1080" height="1350" fill="#000"/>
+  <g clip-path="url(#photo)"><image x="0" y="0" width="1080" height="1080" preserveAspectRatio="xMidYMid slice" xlink:href="../source-assets/how-to-use.jpg"/><rect x="0" y="0" width="1080" height="1248" fill="url(#fade)"/></g>
+  <rect x="0" y="0" width="1080" height="18" fill="#f4511e"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" font-weight="700" fill="#fff">SPEC / UNAFFILIATED</text>
+  <image x="710" y="505" width="330" height="330" preserveAspectRatio="xMidYMid meet" xlink:href="../source-assets/product-detail.png"/>
+  <rect x="72" y="780" width="92" height="8" fill="#f4511e"/>
+  <text x="72" y="888" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" fill="#fff">ONE SCOOP.</text>
+  <text x="72" y="978" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" fill="#fff">NO FLAVOR</text>
+  <text x="72" y="1068" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" fill="#fff">NEGOTIATION.</text>
+  <text x="72" y="1140" font-family="Georgia, serif" font-size="47" font-style="italic" fill="#f4511e">5g · unflavored · take daily</text>
+  <rect x="0" y="1248" width="1080" height="102" fill="#111"/>
+  <text x="72" y="1311" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff">SEE THE TESTING STANDARD</text>
+  <text x="990" y="1313" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#f4511e">→</text>
+  </g>
+</svg>

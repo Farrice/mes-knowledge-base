@@ -1,9 +1,9 @@
 ---
 status: superseded
-superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+superseded_by: CONTROL-BEATER-PROPOSAL-DRAFT.md
 ---
 
-> **⛔ SUPERSEDED 2026-07-29.** This is a retired LinkedIn ghostwriting proposal. Use the current scope and checkout description in `ANGLE-MAP-ACTIVATION-PACKET.md`.
+> **SUPERSEDED — 2026-09-01.** This is a retired LinkedIn ghostwriting proposal. Use `CONTROL-BEATER-PROPOSAL-DRAFT.md` for the current draft scope. Do not send either document without client-specific review and approval.
 
 # LinkedIn Ghostwriting Proposal Template
 

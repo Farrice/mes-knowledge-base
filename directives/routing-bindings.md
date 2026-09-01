@@ -86,6 +86,7 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 
 | Binding ID | Suggested workflow(s) | Signals |
 |---|---|---|
+| `health_performance_paid_social_creative_delivery` | /alex-copper-performance-creative-production | 4 |
 | `operator_mission_control` | /mission | 6 |
 | `operator_source_to_skill_system` | /source-to-skill-system | 9 |
 | `kdp_book_one_coldstart` | /kdp-engine | 9 |
@@ -121,6 +122,6 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `content_production_live_grounding` | /create / zeitgeist / briefs | 12 |
 | `deliverable_visual_delivery` | /briefs / briefing-room | 15 |
 | `social_listening_free_first` | /deep-research-os | 13 |
-| `unified_research` | /deep-research-os | 10 |
+| `unified_research` | /deep-research-os | 13 |
 | `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |
 | `jen_listing_package` | /listing-package | 11 |

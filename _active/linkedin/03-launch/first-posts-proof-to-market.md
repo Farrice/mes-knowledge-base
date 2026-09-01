@@ -1,5 +1,7 @@
 # First 3 LinkedIn Posts + DM Scripts: Proof-to-Market Go-Live
 
+> **SUPERSEDED — 2026-09-01.** Do not launch this sequence. Use `CONTROL-BEATER-LAUNCH-ASSETS-DRAFT.md`.
+
 > Single author (Farrice, BLEND dial). LinkedIn register: I-story arc, full arc, reader-as-hero / writer-as-guide. Voice per VOICE-CARD.md; platform dials per PLATFORM-NARRATIVE-CARD.md (LinkedIn = HOT). Craft layer: Lara Acosta hook engineering.
 > Grounding guardrail: Farrice has 18 years in human performance (NASM CPT/CES/PES), ZERO supplement-brand case studies. Every scene below is his coaching-era truth or honest category observation. No invented client, no invented dollar outcome, no product-efficacy claim.
 

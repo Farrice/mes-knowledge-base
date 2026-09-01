@@ -1,9 +1,11 @@
 ---
-status: superseded
-superseded_by: PROOF-TO-MARKET-OS.md
+status: current-draft-authority
+current_authority: 00-CURRENT-CREATIVE-OFFER.md
 ---
 
 # 02-offer — index
+
+> **CURRENT AUTHORITY — 2026-09-01:** Start with `00-CURRENT-CREATIVE-OFFER.md`. Farrice's commercial owner is paid-social creative strategy for supplement and performance brands. The first-purchase offer is the Control-Beater: five static ads plus one production-ready video concept. Proof-to-Market and Angle Map files remain historical or conditional internal references; neither owns the business.
 
 > What you sell. Canonical offer brief, the $500 claim-safe audit (TEMPLATE + EXAMPLE), the free lead magnet, the featured-section funnel, service + sales guides.
 >
@@ -14,7 +16,10 @@ superseded_by: PROOF-TO-MARKET-OS.md
 ## Contents
 - `00-START-HERE-FEATURED-FUNNEL.md`
 - `5-posts-sc-coaches-should-steal.md`
-- `CANONICAL-OFFER-BRIEF.md` ← **THE offer (enhanced + red-teamed 2026-07-01)**
+- `00-CURRENT-CREATIVE-OFFER.md` ← **current draft authority**
+- `CONTROL-BEATER-OFFER-CARD-DRAFT.md` ← current offer card
+- `CONTROL-BEATER-PROPOSAL-DRAFT.md` ← current proposal
+- `CANONICAL-OFFER-BRIEF.md` ← superseded historical offer
 - `FEATURED-SECTION-EXACT-COPY.md`
 - `FEATURED-SECTION-LAUNCH-TODAY.md`
 - `FEATURED-SECTION-REFERENCE-CARD.txt`

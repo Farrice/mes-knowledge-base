@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1350" height="1350" viewBox="0 0 1350 1350">
+  <defs>
+    <clipPath id="facts"><rect x="610" y="500" width="400" height="430" rx="18"/></clipPath>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <g transform="translate(135 0)">
+  <rect width="1080" height="1350" fill="#090909"/>
+  <circle cx="930" cy="150" r="260" fill="#f4511e" opacity=".98"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3" font-weight="700" fill="#fff">SPEC / UNAFFILIATED</text>
+  <text x="72" y="236" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="800" fill="#fff">ONE</text>
+  <text x="72" y="335" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="800" fill="#fff">INGREDIENT.</text>
+  <text x="72" y="422" font-family="Georgia, serif" font-size="56" font-style="italic" fill="#f4511e">Nothing to decode.</text>
+  <rect x="72" y="478" width="420" height="2" fill="#6e6e6e"/>
+  <text x="72" y="545" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#fff">CREATINE MONOHYDRATE</text>
+  <text x="72" y="600" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#cfcfcf">5g per scoop</text>
+  <text x="72" y="650" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#cfcfcf">Other ingredients: none</text>
+  <g clip-path="url(#facts)" filter="url(#shadow)"><image x="535" y="425" width="570" height="570" preserveAspectRatio="xMidYMid slice" xlink:href="../source-assets/supplement-facts.png"/></g>
+  <image x="40" y="670" width="620" height="620" preserveAspectRatio="xMidYMid meet" xlink:href="../source-assets/product-detail.png"/>
+  <rect x="0" y="1248" width="1080" height="102" fill="#f4511e"/>
+  <text x="72" y="1311" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111">SEE THE TESTING STANDARD</text>
+  <text x="990" y="1313" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#111">→</text>
+  </g>
+</svg>

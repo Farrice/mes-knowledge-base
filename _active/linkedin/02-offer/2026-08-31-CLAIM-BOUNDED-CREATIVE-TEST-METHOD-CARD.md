@@ -4,7 +4,7 @@
 
 **Method state:** `METHOD_CANDIDATE`  
 **Packaging state:** `OFFER_HYPOTHESIS` as the Control-Beater  
-**Proof ceiling:** `METHOD`  
+**Proof ceiling:** `DELIVERABLE`
 **Market proof:** `NO EVENT`
 
 The current Health Performance process is creative strategy that becomes testable ad creative for supplement and performance brands. It is not an Angle Map business, and Proof-to-Market is not the commercial owner.
@@ -111,13 +111,13 @@ The usability test is operational: the brand's designer, editor, or creator can 
 
 `METHOD` is supported by a complete Paid-Social Creative Test Sprint execution OS and workbook, plus claim-bounded spec production briefs and recording copy that demonstrate the research-to-hypothesis-to-production sequence. The local method defines input gates, evidence hierarchy, concept cards, human/AI ownership, production briefs, a test matrix, and the three-part ship rule.
 
-`DELIVERABLE` is not yet supported for the exact Control-Beater package. The existing creative-strategy artifacts are adjacent spec and portfolio work; they do not prove that a paying supplement or performance brand received five finished statics plus one production-ready video concept inside the 72-hour clock from its own approved inputs.
+`DELIVERABLE` is supported for a bounded spec rehearsal of the exact Control-Beater package. On 2026-09-01, five finished statics, one production-ready video concept, a claim ledger, and a test map were produced for a qualified public supplement brand in 9 minutes 48 seconds after a synthetic/public input packet was frozen. This proves the package can be assembled inside the 72-hour window. It does not prove client-input sufficiency, buyer acceptance, deployment, production handoff quality, policy approval, performance, or payment.
 
 `MARKET` is not supported. Recovered session evidence records no outreach, sale, deployment, deposit, or collected payment for the exact offer. Public market evidence supports paid demand for the creative-strategy function, not Farrice's package, price, turnaround, or results.
 
 ## Missing evidence
 
-1. One complete five-static plus one-video-concept pack produced from a real brand's approved inputs inside the stated clock.
+1. One complete pack produced from a real brand's permissioned inputs and approved claims.
 2. Production feasibility review from the designer, editor, or creator expected to use the pack.
 3. Prepayment from a qualified buyer for the exact package.
 4. Buyer confirmation that the handoff was production-usable without another strategy meeting.
@@ -172,7 +172,7 @@ Expected owner: paid-social creative strategy. Claim-Safe Health Marketing is a 
 
 **Truth checks:** Category demand kept below exact-offer validation; adjacent portfolio deliverables kept below exact-package delivery; ingredient evidence kept below finished-product proof; editorial screening kept below legal approval; the Control-Beater name kept below a performance guarantee.
 
-**Commercial proof ceiling:** `METHOD`.
+**Commercial proof ceiling:** `DELIVERABLE` for public/synthetic rehearsal only.
 
 **Market proof state:** `NO EVENT`.
 

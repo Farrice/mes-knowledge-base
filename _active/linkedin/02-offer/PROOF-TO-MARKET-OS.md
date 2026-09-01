@@ -1,5 +1,6 @@
 ---
-status: canonical
+status: superseded-commercial-owner
+superseded_by: 00-CURRENT-CREATIVE-OFFER.md
 ---
 
 ---
@@ -11,6 +12,8 @@ note: "v2.2 (2026-07-29): The $750 prepaid Angle Map replaces the $250-500 Stres
 ---
 
 # PROOF-TO-MARKET SPRINT — The Offer
+
+> **SUPERSEDED AS COMMERCIAL OWNER — 2026-09-01.** Preserve this as historical strategy material only. Current authority is `00-CURRENT-CREATIVE-OFFER.md`; Proof-to-Market must not own Farrice's profile, first purchase, proposal, or launch motion unless he explicitly reverses the decision.
 
 ## For Whom
 

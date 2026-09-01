@@ -3,10 +3,10 @@
   "status": "corrected_draft_verified_locally",
   "method_state": "METHOD_CANDIDATE",
   "packaging_state": "OFFER_HYPOTHESIS",
-  "proof_ceiling": "METHOD",
+  "proof_ceiling": "DELIVERABLE",
   "market_proof": "NO EVENT",
   "commercial_owner": "paid-social creative strategy",
-  "route_validation": "PARTIAL: expert owner correct; general workflow router regression remains open",
+  "route_validation": "PASS: command menu, workflow router, and routing governor select paid-social creative production",
   "primary_package": "Control-Beater: five static ads plus one production-ready video concept in 72 hours after complete inputs",
   "supersedes": "2026-08-31-PROOF-BOUNDED-ANGLE-SELECTION-METHOD-CARD.md",
   "external_actions_taken": false
