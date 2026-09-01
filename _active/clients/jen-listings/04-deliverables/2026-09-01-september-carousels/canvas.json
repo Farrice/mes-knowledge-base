@@ -294,70 +294,6 @@
       "y": 9480,
       "w": 1080,
       "h": 1350
-    },
-    {
-      "file": "DA1.dc.html",
-      "title": "A \u00b7 photo editorial \u00b7 cover",
-      "x": 0,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DA2.dc.html",
-      "title": "A \u00b7 photo editorial \u00b7 slide 3",
-      "x": 1180,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DA3.dc.html",
-      "title": "A \u00b7 photo editorial \u00b7 slide 4",
-      "x": 2360,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DA4.dc.html",
-      "title": "A \u00b7 photo editorial \u00b7 close",
-      "x": 3540,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DB1.dc.html",
-      "title": "B \u00b7 field notes \u00b7 cover",
-      "x": 4920,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DB2.dc.html",
-      "title": "B \u00b7 field notes \u00b7 slide 3",
-      "x": 6100,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DB3.dc.html",
-      "title": "B \u00b7 field notes \u00b7 slide 4",
-      "x": 7280,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "DB4.dc.html",
-      "title": "B \u00b7 field notes \u00b7 close",
-      "x": 8460,
-      "y": 11340,
-      "w": 1080,
-      "h": 1350
     }
   ],
   "annotations": [
@@ -381,13 +317,6 @@
       "y": 6100,
       "w": 1100,
       "text": "THE THREE CAROUSELS in the current look, one per row. the words are final and every number is sourced on the last slide. once you pick the look, all three get rebuilt in it.\nrow a: the condo has to qualify too (post first). row b: van nuys is getting a train (the opinion is a draft of yours; change it to what you'd say). row c: the insurance quote comes before the offer."
-    },
-    {
-      "id": "row6",
-      "x": 0,
-      "y": 11080,
-      "w": 1100,
-      "text": "EARLIER SKETCHES on the condo set, kept so you can see what was left behind. left four: the current look with big photos. right four: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps its layout ideas in your own look."
     }
   ],
   "launch": {

@@ -344,14 +344,6 @@ for row, (title, names) in enumerate(order):
     for col, name in enumerate(names):
         artboards.append({"file": f"{name}.dc.html", "title": f"{['a', 'b', 'c'][row]}.{col + 1} {title}", "x": col * X, "y": y + row * ROW, "w": 1080, "h": 1350})
 
-# ---- row 6: earlier sketches ----
-y = y + 3 * ROW + 300
-note("row6", y - 260, "EARLIER SKETCHES on the condo set, kept so you can see what was left behind. left four: the current look with big photos. right four: a paper-and-handwriting idea that was the most fun but didn't feel like your grid. valley native keeps its layout ideas in your own look.")
-for grp, (title, names) in enumerate([("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]), ("B · field notes", ["DB1", "DB2", "DB3", "DB4"])]):
-    for col, name in enumerate(names):
-        label = ["cover", "slide 3", "slide 4", "close"][col]
-        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {label}", "x": (grp * 4 + col) * X + grp * 200, "y": y, "w": 1080, "h": 1350})
-
 canvas = {
     "artboards": artboards,
     "annotations": notes,
