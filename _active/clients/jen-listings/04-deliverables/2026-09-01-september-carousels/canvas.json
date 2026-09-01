@@ -1,4 +1,14 @@
 {
+  "pages": [
+    {
+      "id": "page-1",
+      "name": "September sets"
+    },
+    {
+      "id": "page-2",
+      "name": "Directions"
+    }
+  ],
   "artboards": [
     {
       "file": "Main.dc.html",
@@ -167,6 +177,114 @@
       "y": 3120,
       "w": 1080,
       "h": 1350
+    },
+    {
+      "file": "DA1.dc.html",
+      "title": "A \u00b7 photo editorial \u00b7 cover",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DA2.dc.html",
+      "title": "A \u00b7 photo editorial \u00b7 slide 3",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DA3.dc.html",
+      "title": "A \u00b7 photo editorial \u00b7 slide 4",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DA4.dc.html",
+      "title": "A \u00b7 photo editorial \u00b7 close",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DB1.dc.html",
+      "title": "B \u00b7 field notes \u00b7 cover",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DB2.dc.html",
+      "title": "B \u00b7 field notes \u00b7 slide 3",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DB3.dc.html",
+      "title": "B \u00b7 field notes \u00b7 slide 4",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DB4.dc.html",
+      "title": "B \u00b7 field notes \u00b7 close",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DC1.dc.html",
+      "title": "C \u00b7 color block \u00b7 cover",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DC2.dc.html",
+      "title": "C \u00b7 color block \u00b7 slide 3",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DC3.dc.html",
+      "title": "C \u00b7 color block \u00b7 slide 4",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
+    },
+    {
+      "file": "DC4.dc.html",
+      "title": "C \u00b7 color block \u00b7 close",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350,
+      "page": "page-2"
     }
   ],
   "annotations": [
@@ -175,10 +293,44 @@
       "x": 0,
       "y": -300,
       "w": 1000,
+      "page": "page-1",
       "text": "SEPTEMBER 2026 \u00b7 three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."
+    },
+    {
+      "id": "dir-note",
+      "x": 0,
+      "y": -330,
+      "w": 1000,
+      "page": "page-2",
+      "text": "THREE DIRECTIONS on the condo set (cover, slide 3, slide 4, close). same copy, three skins. photos are real and cleared (CC0 / public domain); swap in jen's own shots anywhere.\nA photo editorial: the current system + full-bleed place photography. least change, most trust. tradeoff: still the same cream/navy column at a glance.\nB field notes: paper, tilted prints, tape, handwriting, red pencil. reads like her notes from a showing. tradeoff: the loudest departure from the polished grid; needs discipline to not go cute.\nC color block: one bold colour per series (terracotta here; moss for the rail set, ochre for insurance) + duotone photos + huge numerals. tradeoff: colour must rotate per set or it becomes its own beige."
+    },
+    {
+      "id": "dir-a",
+      "x": 4740,
+      "y": 0,
+      "w": 380,
+      "page": "page-2",
+      "text": "A \u00b7 photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."
+    },
+    {
+      "id": "dir-b",
+      "x": 4740,
+      "y": 1560,
+      "w": 380,
+      "page": "page-2",
+      "text": "B \u00b7 field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. two annotations max per slide."
+    },
+    {
+      "id": "dir-c",
+      "x": 4740,
+      "y": 3120,
+      "w": 380,
+      "page": "page-2",
+      "text": "C \u00b7 color block\nmotivation: each series gets a colour, so three carousels in a row read as three different posts.\nrisk: terracotta is a departure from her navy/cream brand; keep navy as the ink so it still reads as jen."
     }
   ],
   "launch": {
-    "view": "canvas"
+    "view": "canvas",
+    "page": "page-2"
   }
 }

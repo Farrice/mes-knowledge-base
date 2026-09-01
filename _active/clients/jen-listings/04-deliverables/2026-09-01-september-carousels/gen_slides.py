@@ -231,21 +231,21 @@ slides["C2S5"] = page(f'''{eyebrow("03 · THE CONSTRUCTION YEARS ARE REAL")}
 {body("the van nuys G line station is closed for its own rebuild until around the end of 2027.")}''',
     5, "PLAN FOR THE DETOURS")
 
-dots = "".join('<div style="width: 22px; height: 22px; border: 2px solid #1E3A5F; background: #F7F5F2; box-sizing: border-box;"></div>' for _ in range(11))
+STATIONS = [("oxnard st", "G LINE · VAN NUYS"), ("victory", ""), ("vanowen", ""), ("sherman way", ""),
+            ("van nuys / metrolink", "AMTRAK · METROLINK"), ("roscoe", ""), ("nordhoff", ""), ("woodman", ""),
+            ("arleta", ""), ("laurel canyon", ""), ("van nuys / san fernando", "SAN FERNANDO RD")]
+station_rows = "".join(f'''      <div style="display: flex; align-items: center; gap: 28px; height: 60px;">
+        <div style="position: relative; width: 22px; height: 22px; border: 2px solid #1E3A5F; background: {'#1E3A5F' if i in (0, 10) else '#F7F5F2'}; box-sizing: border-box; flex: none;"></div>
+        <span style="{SERIF} font-size: 40px; font-weight: 500; color: #1E3A5F; white-space: nowrap;">{name}</span>
+        <span style="font-size: 20px; letter-spacing: 0.18em; color: #A6A296; padding-left: 8px;">{tag}</span>
+      </div>''' for i, (name, tag) in enumerate(STATIONS))
 slides["C2S6"] = page(f'''{eyebrow("04 · THE CORRIDOR TO ACTUALLY LOOK AT")}
-{headline("van nuys blvd, oxnard to san fernando road.", size=64)}
-    <div style="display: flex; flex-direction: column; gap: 22px; padding: 20px 0;">
-      <div style="position: relative; height: 22px; display: flex; justify-content: space-between; align-items: center;">
-        <div style="position: absolute; left: 0; right: 0; top: 10px; height: 2px; background: #1E3A5F;"></div>
-        <div style="position: relative; display: flex; justify-content: space-between; width: 100%;">{dots}</div>
-      </div>
-      <div style="display: flex; justify-content: space-between;">
-        <span style="font-size: 24px; letter-spacing: 0.18em; color: #A6A296;">G LINE · VAN NUYS</span>
-        <span style="font-size: 24px; letter-spacing: 0.18em; color: #A6A296;">SAN FERNANDO RD</span>
-      </div>
-    </div>
-{body("panorama city and arleta sit on it too.")}''',
-    6, "11 STATIONS · TRAINS EVERY 7-10 MIN AT PEAK")
+{headline("van nuys blvd, oxnard to san fernando road.", size=54)}
+    <div style="position: relative; display: flex; flex-direction: column; padding: 6px 0;">
+      <div style="position: absolute; left: 10px; top: 30px; bottom: 30px; width: 2px; background: #1E3A5F;"></div>
+{station_rows}
+    </div>''',
+    6, "SOURCE: LA METRO PROJECT STATUS REPORT")
 
 slides["C2S7"] = cta(
     f'how long are you<br>{it("planning to stay?", dark=True)}',
@@ -312,12 +312,27 @@ for row, (title, names) in enumerate(order):
     for col, name in enumerate(names):
         artboards.append({"file": f"{name}.dc.html", "title": f"{row + 1}.{col + 1} {title}", "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350})
 
+DIRECTIONS = [
+    ("A · photo editorial", ["DA1", "DA2", "DA3", "DA4"]),
+    ("B · field notes", ["DB1", "DB2", "DB3", "DB4"]),
+    ("C · color block", ["DC1", "DC2", "DC3", "DC4"]),
+]
+for row, (title, names) in enumerate(DIRECTIONS):
+    for col, name in enumerate(names):
+        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {['cover', 'slide 3', 'slide 4', 'close'][col]}",
+                          "x": col * 1180, "y": row * 1560, "w": 1080, "h": 1350, "page": "page-2"})
+
 canvas = {
+    "pages": [{"id": "page-1", "name": "September sets"}, {"id": "page-2", "name": "Directions"}],
     "artboards": artboards,
     "annotations": [
-        {"id": "sept-note", "x": 0, "y": -300, "w": 1000, "text": "SEPTEMBER 2026 · three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."}
+        {"id": "sept-note", "x": 0, "y": -300, "w": 1000, "page": "page-1", "text": "SEPTEMBER 2026 · three @_jiing carousels, one per row. copy is final from the september slate; numbers are sourced on the last slide of each set.\nrow 1: the condo has to qualify too (post first)\nrow 2: van nuys is getting a train (jen's take is a draft of hers)\nrow 3: the insurance quote comes before the offer\nexport each slide as its own PNG (Export in the toolbar), 1080x1350."},
+        {"id": "dir-note", "x": 0, "y": -330, "w": 1000, "page": "page-2", "text": "THREE DIRECTIONS on the condo set (cover, slide 3, slide 4, close). same copy, three skins. photos are real and cleared (CC0 / public domain); swap in jen's own shots anywhere.\nA photo editorial: the current system + full-bleed place photography. least change, most trust. tradeoff: still the same cream/navy column at a glance.\nB field notes: paper, tilted prints, tape, handwriting, red pencil. reads like her notes from a showing. tradeoff: the loudest departure from the polished grid; needs discipline to not go cute.\nC color block: one bold colour per series (terracotta here; moss for the rail set, ochre for insurance) + duotone photos + huge numerals. tradeoff: colour must rotate per set or it becomes its own beige."},
+        {"id": "dir-a", "x": 4740, "y": 0, "w": 380, "page": "page-2", "text": "A · photo editorial\nmotivation: instagram rewards a real place in frame; the system stays hers.\nrisk: reads like a listing account if every cover is a building."},
+        {"id": "dir-b", "x": 4740, "y": 1560, "w": 380, "page": "page-2", "text": "B · field notes\nmotivation: unmistakable in a feed of clean templates; matches 'the friend who happens to sell real estate'.\nrisk: handwriting and tape can tip into scrapbook if overused. two annotations max per slide."},
+        {"id": "dir-c", "x": 4740, "y": 3120, "w": 380, "page": "page-2", "text": "C · color block\nmotivation: each series gets a colour, so three carousels in a row read as three different posts.\nrisk: terracotta is a departure from her navy/cream brand; keep navy as the ink so it still reads as jen."},
     ],
-    "launch": {"view": "canvas"},
+    "launch": {"view": "canvas", "page": "page-2"},
 }
 (OUT / "canvas.json").write_text(json.dumps(canvas, indent=2))
 print("wrote", len(slides), "artboards + canvas.json")

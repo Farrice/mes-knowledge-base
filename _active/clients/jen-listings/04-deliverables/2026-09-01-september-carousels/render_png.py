@@ -10,12 +10,15 @@ CHROME = sorted(glob.glob(os.path.expanduser(
 
 ORDER = [("Main", "c1-01")] + [(f"C1S{i}", f"c1-0{i}") for i in range(2, 8)] \
     + [(f"C2S{i}", f"c2-0{i}") for i in range(1, 8)] \
-    + [(f"C3S{i}", f"c3-0{i}") for i in range(1, 8)]
+    + [(f"C3S{i}", f"c3-0{i}") for i in range(1, 8)] \
+    + [(f"D{d}{i}", f"dir-{d.lower()}-0{i}") for d in "ABC" for i in range(1, 5)]
 
 def main():
     OUT.mkdir(exist_ok=True)
     tmp = HERE / ".render_tmp"
     tmp.mkdir(exist_ok=True)
+    for img in (HERE / "img").glob("*.jpg"):
+        shutil.copy(img, tmp / img.name)
     for stem, name in ORDER:
         html = (HERE / f"{stem}.dc.html").read_text()
         html = html.replace('<script src="./support.js"></script>', "")
