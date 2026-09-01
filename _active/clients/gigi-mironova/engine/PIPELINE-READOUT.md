@@ -43,7 +43,9 @@ The pipeline runs end to end on thin context and produces a complete, lint-clean
 | All 61 slides' copy (`.tmp/gigi-carousel-copy.md`) | PASS, context=package | FLAGGED 10/10 on five signals, all slide grammar: caps eyebrows ("town crier"), numbered rows ("parallel structure"), short labels ("aphoristic endings"), the listing's own HOA inclusion list ("gerund tails"). No em-dashes, no banned vocabulary. Judged, not rewritten. |
 | SCRIPT-PACK-A.md | PASS, context=script | FLAGGED on scaffold artifacts after 45 em-dashes removed; zero exclamation marks, zero banned phrases (executor's receipt) |
 | SCRIPT-PACK-B.md | see executor receipt in `SCRIPT-PACK.md` header | same |
-| SEND-PACKAGE.md | see bottom of this file (run at close) | same |
+| SEND-PACKAGE.md | PASS, context=package (one WARN on "quiet neighborhood", which is inside the don't-say list as a banned phrase); `client_package_lint.py` PASS, 0 findings | FLAGGED 7/10: list structure, "slide"/"carousel" repeated in the story sequence, the sign-off. Judged. |
+
+**Finalize receipt (chain_runner, 2026-09-01):** logged to Notion; generic scorer read the client-facing send text alone and returned intent 4 / expert 5 / adversarial 7, with a grounding flag for "14 factual claims with zero source URLs." The send text carries no URLs on purpose (reader-only, zero operator language); every number in it traces to `DEMAND-REPORT.md` and `../BRAIN.md`, which the scorer did not read. Same disagreement the codex gift-package lane logged on 2026-08-31. Preserved here rather than converted into a false green. Judging page: https://claude.ai/code/artifact/011fa032-4c68-49df-ab79-5131f5d7bc6b
 
 ## What the run cost
 
