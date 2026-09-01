@@ -1,0 +1,9 @@
+{
+  "title": "Morning Review — Artifact Comprehension v0.2.2",
+  "artifact_type": "human-review",
+  "status": "HUMAN GATE PENDING",
+  "date": "2026-09-01",
+  "source": "execution/fixtures/burnout_safe_output/artifact-human-gate-v0.2.2.json",
+  "blind_comparisons": 1,
+  "review_burden": "one decision"
+}

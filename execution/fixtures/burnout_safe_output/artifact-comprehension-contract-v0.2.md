@@ -1,6 +1,6 @@
 # Artifact Comprehension Contract v0.2
 
-Status: `PILOT / SHADOW / TARGETED HUMAN GATE PENDING`
+Status: `PILOT / SHADOW / MORNING HUMAN GATE PENDING`
 
 Owner: `/system-audit`
 
@@ -45,7 +45,7 @@ Otherwise use concise, scan-friendly prose or Markdown.
 | Decision or recommendation | Summary plus decision block/table | choices, tradeoffs, or ownership are genuinely distinct |
 | Comparison | Matrix or table | repeated fields make differences easier to scan |
 | Chronology or staged change | Timeline | order and state changes matter |
-| Dependency or handoff | Flow | one action affects several downstream steps |
+| Dependency, review loop, or handoff | Flow | branches, returns, gates, or downstream effects keep work on track |
 | Evidence and claims | Evidence rows plus caveats | claim, source, confidence, and implication must stay linked |
 | Metrics or trends | Stats, bars, or sparkline | comparable numbers or change over time actually exist |
 | Implementation | Playbook, checklist, or flow | sequence and completion state matter |
@@ -54,6 +54,10 @@ Otherwise use concise, scan-friendly prose or Markdown.
 The smallest sufficient representation wins. A document may combine forms only
 when each form performs a different job. The same conclusion should not be
 duplicated as prose, table, callout, and chart.
+
+For a substantial implementation artifact, test a flow first when the work has
+a dependency, feedback loop, approval gate, or meaningful state change. A flow
+must reveal that logic; a decorative restatement of a simple list fails.
 
 ## Surfaces
 
@@ -92,9 +96,9 @@ The pilot must not alter:
 ## Human Behavior Gate
 
 Round one preferred all three pilot structures: AHG-001 `Y`, AHG-002 `X`, and
-AHG-003 `Y`. AHG-001 is frozen as the good example. AHG-002 and AHG-003 require
-a targeted rerun because their preferred structures did not preserve enough of
-the prose controls' insight.
+AHG-003 `Y`. Round two accepted the denser AHG-002R `Y`. Neither AHG-003R
+variant passed; its useful ingredient was the flow, not either surrounding
+list. The final gate tests one decision-bearing implementation flow.
 
 The targeted gate passes only when each revised artifact is:
 
@@ -115,7 +119,7 @@ if the preference count is positive.
 
 ## Promotion And Rollback
 
-Promotion requires three accepted artifact comparisons, zero frozen-boundary
+Promotion requires all three accepted artifact classes, zero frozen-boundary
 changes, and Farrice's explicit approval. Rollback removes the single CODEX
 pointer or reverts the activation commit. No merge, global activation, hook
 change, task creation, skill creation, or renderer change is authorized.

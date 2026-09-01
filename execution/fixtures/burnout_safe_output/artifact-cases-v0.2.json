@@ -114,18 +114,17 @@
       "decision_job": "Execute the right sequence without losing dependencies or the stop boundary.",
       "activate": true,
       "surface": "native_artifact",
-      "selected_representations": ["summary", "playbook", "flow"],
+      "selected_representations": ["summary", "flow"],
       "representation_jobs": {
         "summary": "Name the end state and current stop boundary.",
-        "playbook": "Turn the work into inspectable completion steps.",
-        "flow": "Show the dependency that prevents premature promotion."
+        "flow": "Show the dependency, review branch, return loop, and approval gate that keep execution on track."
       },
       "has_comparable_metrics": false,
       "evidence_support": "verified",
       "certainty_claim": true,
-      "why_selection": "The work is sequential and approval-gated, so a compact playbook plus dependency flow prevents skipped proof and accidental activation.",
-      "detail_preservation": "Each step retains its verifier and rollback note, while implementation details remain available under the corresponding step.",
-      "example": "# Pilot Path\n\n**Goal:** Make substantial artifacts easier to absorb without touching the output system that already works.\n\n1. Lock the global behavior.\n2. Test artifact formats.\n3. Try to break them.\n4. Get human ratings.\n\n**Only then:** Decide whether to promote.\n\n**Stop:** No merge, hooks, or global activation."
+      "why_selection": "The review loop and approval gate matter more than a checklist, so a decision flow keeps both operator and Codex oriented.",
+      "detail_preservation": "The flow keeps the revision loop and promotion boundary visible while detailed verification remains in the linked pilot receipt.",
+      "example": "# Pilot Path\n\n**Goal:** Make artifacts easier to absorb without touching the output system that already works.\n\n```mermaid\nflowchart LR\n  A[Protect what works] --> B[Test one artifact format]\n  B --> C[Try to break it]\n  C --> D{Human review}\n  D -->|Needs work| B\n  D -->|Works| E[Ask before promotion]\n```\n\n**Stop:** No merge, hooks, or global activation."
     },
     {
       "id": "AC-007",

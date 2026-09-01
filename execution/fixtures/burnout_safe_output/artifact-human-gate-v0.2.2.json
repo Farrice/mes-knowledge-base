@@ -1,0 +1,16 @@
+{
+  "schema_version": "artifact-comprehension-human-gate/v0.2.2",
+  "purpose": "Final low-burden human review of the decision-bearing implementation flow.",
+  "required_example_count": 1,
+  "examples": [
+    {
+      "id": "AHG-003F",
+      "task_type": "implementation",
+      "prompt": "Show how to build and validate the pilot while keeping both operator and Codex on track.",
+      "pilot_case_id": "AC-006",
+      "pilot_position": "Y",
+      "control_response": "# Pilot Path\n\n**Goal:** Make substantial artifacts easier to absorb without touching the output system that already works.\n\n1. Lock the global behavior.\n2. Test artifact formats.\n3. Try to break them.\n4. Get human ratings.\n\n**Only then:** Decide whether to promote.\n\n**Stop:** No merge, hooks, or global activation.",
+      "ratings": {"preferred_variant": null, "notes": null}
+    }
+  ]
+}

@@ -20,7 +20,8 @@ V02_CONTRACT = FIXTURE_DIR / "artifact-comprehension-contract-v0.2.md"
 V02_CASES = FIXTURE_DIR / "artifact-cases-v0.2.json"
 V02_SABOTAGE = FIXTURE_DIR / "artifact-sabotage-v0.2.json"
 V02_HUMAN_HISTORY = FIXTURE_DIR / "artifact-human-gate-v0.2.json"
-V02_HUMAN = FIXTURE_DIR / "artifact-human-gate-v0.2.1.json"
+V021_HUMAN_HISTORY = FIXTURE_DIR / "artifact-human-gate-v0.2.1.json"
+V02_HUMAN = FIXTURE_DIR / "artifact-human-gate-v0.2.2.json"
 CODEX_PATH = ROOT / "CODEX.md"
 
 ALLOWED_SURFACES = {"native_artifact", "markdown", "visual_brief"}
@@ -80,7 +81,7 @@ def validate_contracts() -> list[str]:
     ):
         require(phrase.lower() in v01_normalized.lower(), f"v0.1 history label missing: {phrase}")
     for phrase in (
-        "PILOT / SHADOW / TARGETED HUMAN GATE PENDING",
+        "PILOT / SHADOW / MORNING HUMAN GATE PENDING",
         "does not govern ordinary conversation or closeouts",
         "smallest sufficient representation wins", "Plain prose is not a failure",
         "Three Contextual Next Prompts", "No merge, global activation, hook change",
@@ -170,6 +171,28 @@ def validate_v02_round1(human: dict[str, Any]) -> str:
     return "BEHAVIOR REFINEMENT REQUIRED"
 
 
+def validate_v021_round2(human: dict[str, Any]) -> str:
+    require(human.get("revision_required") is True, "v0.2.1 refinement is not recorded")
+    nonempty(human.get("revision_reason"), "v0.2.1 revision reason")
+    lock = human.get("preservation_lock") or {}
+    require(
+        set(lock) == {"keep", "change", "do_not_disturb", "risk", "gate"},
+        "v0.2.1 lacks a complete Preservation Lock",
+    )
+    for key, value in lock.items():
+        nonempty(value, f"v0.2.1 Preservation Lock {key}")
+    expected = {"AHG-002R": "Y", "AHG-003R": "X"}
+    examples = human.get("examples") or []
+    require(len(examples) == 2, "v0.2.1 must retain two examples")
+    for item in examples:
+        require(
+            (item.get("ratings") or {}).get("preferred_variant") == expected.get(item.get("id")),
+            f"{item.get('id')} v0.2.1 preference drifted",
+        )
+        nonempty((item.get("ratings") or {}).get("notes"), f"{item.get('id')} v0.2.1 note")
+    return "BEHAVIOR REFINEMENT REQUIRED"
+
+
 def validate_boundary(boundary: dict[str, Any]) -> None:
     for key in (
         "alters_global_clear_depth", "alters_global_closeout",
@@ -223,7 +246,10 @@ def validate_case(case: dict[str, Any]) -> None:
         require(case.get("has_comparable_metrics") is True, f"{case_id} metrics are not comparable")
         require(bool({"stats", "bars"}.intersection(selected)), f"{case_id} metrics lack a numeric representation")
     elif shape == "implementation":
-        require("playbook" in selected, f"{case_id} implementation lacks executable sequence")
+        require(
+            bool({"playbook", "flow"}.intersection(selected)),
+            f"{case_id} implementation lacks an executable sequence or decision flow",
+        )
     elif shape == "nuance":
         require("prose" in selected, f"{case_id} nuance loses prose")
         require(
@@ -246,8 +272,11 @@ def validate_case(case: dict[str, Any]) -> None:
             require(phrase not in example, f"AC-004 restores avoidable jargon: {phrase}")
     if case_id == "AC-006":
         example = case["example"].lower()
-        require(words(case["example"]) <= 50, "AC-006 loses value-per-word density")
-        for phrase in ("without touching", "try to break", "only then", "no merge"):
+        require(words(case["example"]) <= 55, "AC-006 loses value-per-word density")
+        for phrase in (
+            "without touching", "flowchart", "try to break", "human review",
+            "needs work", "ask before promotion", "no merge",
+        ):
             require(phrase in example, f"AC-006 loses restored insight: {phrase}")
         for phrase in ("negative controls", "artifact-only fixtures", "human artifact ratings", "promotion decision"):
             require(phrase not in example, f"AC-006 restores system jargon: {phrase}")
@@ -270,13 +299,13 @@ def validate_human_gate(human: dict[str, Any], cases_by_id: dict[str, dict[str, 
     require("status" not in human, "v0.2 human status must be computed")
     examples = human.get("examples") or []
     require(
-        human.get("schema_version") == "artifact-comprehension-human-gate/v0.2.1",
+        human.get("schema_version") == "artifact-comprehension-human-gate/v0.2.2",
         "targeted human gate schema drift",
     )
-    require(human.get("required_example_count") == 2, "targeted human gate must remain two examples")
-    require(len(examples) == 2, f"expected 2 targeted human examples, found {len(examples)}")
+    require(human.get("required_example_count") == 1, "final human gate must remain one example")
+    require(len(examples) == 1, f"expected 1 final human example, found {len(examples)}")
     require(
-        {item.get("task_type") for item in examples} == {"research", "implementation"},
+        {item.get("task_type") for item in examples} == {"implementation"},
         "human task coverage drift",
     )
     pending = failed = False
@@ -329,6 +358,8 @@ def mutate_case(case: dict[str, Any], mutation: str) -> dict[str, Any]:
         case["example"] = "Category interest is supported, but willingness to pay remains untested. Continue with a paid test."
     elif mutation == "restore_system_jargon":
         case["example"] += " Run negative controls on artifact-only fixtures before the promotion decision."
+    elif mutation == "flatten_dependency_flow":
+        case["example"] = "# Pilot Path\n\n1. Protect what works.\n2. Test one format.\n3. Review it.\n4. Ask before promotion.\n\nStop before merge."
     else:
         raise CheckFailure(f"unknown case mutation: {mutation}")
     return case
@@ -350,9 +381,9 @@ def run_sabotage(
     sabotage: dict[str, Any], cases_by_id: dict[str, dict[str, Any]], boundary: dict[str, Any]
 ) -> list[str]:
     items = sabotage.get("cases") or []
-    require(sabotage.get("required_sabotage_count") == 12, "sabotage count must remain twelve")
-    require(len(items) == 12, f"expected 12 sabotage cases, found {len(items)}")
-    require(len({item.get("id") for item in items}) == 12, "sabotage IDs are duplicated")
+    require(sabotage.get("required_sabotage_count") == 13, "sabotage count must remain thirteen")
+    require(len(items) == 13, f"expected 13 sabotage cases, found {len(items)}")
+    require(len({item.get("id") for item in items}) == 13, "sabotage IDs are duplicated")
     caught: list[str] = []
     for item in items:
         try:
@@ -371,7 +402,7 @@ def run_sabotage(
 
 def human_review_markdown(human: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]) -> str:
     lines = [
-        "# Artifact Comprehension v0.2.1 — Targeted Human Gate", "",
+        "# Artifact Comprehension v0.2.2 — Morning Human Gate", "",
         "Status: **HUMAN GATE PENDING**", "",
         "This review tests only substantial artifact presentation. It does not test or alter ordinary replies, closeouts, Clear Depth, or the global three-prompt system.",
         "",
@@ -389,16 +420,15 @@ def human_review_markdown(human: dict[str, Any], cases_by_id: dict[str, dict[str
         "## Rating Sheet", "",
         "| Example | Preferred X/Y/TIE | Why? |",
         "|---|---|---|",
-        "| AHG-002R |  |  |",
-        "| AHG-003R |  |  |", "",
+        "| AHG-003F |  |  |", "",
     ])
     return "\n".join(lines)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--require-behavior", action="store_true", help="Fail until the v0.2.1 targeted human gate passes.")
-    parser.add_argument("--human-review", action="store_true", help="Print the two targeted blind artifact comparisons.")
+    parser.add_argument("--require-behavior", action="store_true", help="Fail until the v0.2.2 morning human gate passes.")
+    parser.add_argument("--human-review", action="store_true", help="Print the one-example morning review.")
     parser.add_argument("--json", action="store_true", help="Print the computed receipt as JSON.")
     args = parser.parse_args()
     try:
@@ -408,6 +438,7 @@ def main() -> int:
         cases, boundary = validate_corpus(load_json(V02_CASES))
         cases_by_id = {case["id"]: case for case in cases}
         round_one_status = validate_v02_round1(load_json(V02_HUMAN_HISTORY))
+        round_two_status = validate_v021_round2(load_json(V021_HUMAN_HISTORY))
         human = load_json(V02_HUMAN)
         behavior_status = validate_human_gate(human, cases_by_id)
         caught = run_sabotage(load_json(V02_SABOTAGE), cases_by_id, boundary)
@@ -422,7 +453,8 @@ def main() -> int:
         "v0.1_status": historical_status,
         "structural_status": "PASS",
         "v0.2_round_one_status": round_one_status,
-        "v0.2.1_behavior_status": behavior_status,
+        "v0.2.1_round_two_status": round_two_status,
+        "v0.2.2_behavior_status": behavior_status,
         "fixtures": len(cases),
         "sabotage_caught": len(caught),
         "frozen_global_behavior": True,
@@ -436,10 +468,11 @@ def main() -> int:
         print("STRUCTURAL PASS")
         print(f"v0.1: {historical_status}")
         print(f"v0.2 round one: {round_one_status}")
-        print(f"v0.2.1 targeted rerun: {behavior_status}")
+        print(f"v0.2.1 round two: {round_two_status}")
+        print(f"v0.2.2 morning review: {behavior_status}")
         print(f"- checks: {', '.join(contract_checks)}")
         print(f"- artifact fixtures: {len(cases)}/8")
-        print(f"- sabotage: {len(caught)}/12 caught")
+        print(f"- sabotage: {len(caught)}/13 caught")
         print(f"- changed paths: {len(changed)}; forbidden surfaces: 0")
         print("- CLEAR DEPTH / 3 NEXT PROMPTS / MERGE / GLOBAL / HOOKS UNCHANGED")
     if args.human_review:

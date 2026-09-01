@@ -1,6 +1,10 @@
 # Artifact Comprehension v0.2.1 — Targeted Human Gate
 
-Status: **HUMAN GATE PENDING**
+Status: **ROUND 2 COMPLETE / BEHAVIOR REFINEMENT REQUIRED**
+
+Ratings: AHG-002R `Y` accepted. AHG-003R: neither passed; `X` was the fallback,
+while Y's flow was the only high-value element. Implementation continues in the
+single-example morning review.
 
 AHG-001 is accepted and unchanged. This rerun tests only whether the two
 revised artifacts preserve more insight without bringing back the text wall.

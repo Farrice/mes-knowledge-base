@@ -1,6 +1,6 @@
 {
   "schema_version": "artifact-comprehension-sabotage/v0.2",
-  "required_sabotage_count": 12,
+  "required_sabotage_count": 13,
   "cases": [
     {"id": "AS-001", "target": "AC-001", "mutation": "text_wall"},
     {"id": "AS-002", "target": "AC-007", "mutation": "force_matrix_on_nuance"},
@@ -13,6 +13,7 @@
     {"id": "AS-009", "target": "BOUNDARY", "mutation": "change_global_closeout"},
     {"id": "AS-010", "target": "BOUNDARY", "mutation": "create_new_task"},
     {"id": "AS-011", "target": "AC-004", "mutation": "drop_restored_insight"},
-    {"id": "AS-012", "target": "AC-006", "mutation": "restore_system_jargon"}
+    {"id": "AS-012", "target": "AC-006", "mutation": "restore_system_jargon"},
+    {"id": "AS-013", "target": "AC-006", "mutation": "flatten_dependency_flow"}
   ]
 }

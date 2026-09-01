@@ -61,6 +61,9 @@ This branch evaluates one narrow workspace-only behavior. Its source is
   prose, a table, evidence rows, a timeline, a flow, a playbook, or an existing
   Briefing Room section. Plain prose is valid when a visual would flatten
   nuance or repeat the same information.
+- Prefer a flow when dependencies, feedback loops, approval gates, or state
+  changes are what keep the work on track. Do not add one to a simple list or
+  ordinary reply.
 - Preserve source detail, caveats, proof state, and authority. A compact surface
   may reveal depth progressively but may not delete it.
 - Reuse native artifacts, Markdown, and the existing Briefing Room renderer.
