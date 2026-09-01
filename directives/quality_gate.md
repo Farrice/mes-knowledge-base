@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-01 (chain_runner finalize for source-command-system-audit) |
-| **Last Activated** | 2026-09-01 (chain_runner finalize for source-command-system-audit) |
-| **Activation Count** | 900 |
+| **Last Activated** | 2026-09-01 (chain_runner finalize for system-audit) |
+| **Last Activated** | 2026-09-01 (chain_runner finalize for system-audit) |
+| **Activation Count** | 902 |
 | **30-Day Review Date** | 2026-10-01 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

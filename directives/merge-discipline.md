@@ -16,6 +16,12 @@ standing SOP those cards proved. The lock is the brake; this discipline is the s
 - Main is reserved for `worktree_lane.py merge`, lane reconciliation, and existing
   lock-aware scheduled maintenance. Ordinary build/forge/fleet/content sessions do not
   claim main and write there; they take a lane.
+- **Physical write ownership**: `execution/hooks/main_write_guard.py` runs before
+  Claude and Codex shell/native-write tools. On main it blocks ordinary file edits,
+  direct Git authoring, and evidenced closeout/index writers; ignored runtime state and
+  read-only inspection remain available. The audited lane merger and reconciler are the
+  only interactive shell mutation owners allowed through this guard. A SessionStart
+  check also names any tracked dirt left by a legacy or scheduled writer.
 - A fresh foreign main lock means integration or scheduled maintenance is active. Lanes
   may continue independently, but merge-back waits until the lock clears.
 - Opt-in locks don't fire — claiming is part of the kickoff ritual in `/go`,
