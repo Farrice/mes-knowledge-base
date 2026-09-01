@@ -1,0 +1,159 @@
+{
+  "slug": "mission-visual-workflow",
+  "chip": "MISSION · THREAD",
+  "title": "Direction 1 Performance Evidence *Journal*",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "sep 1, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Resume the `visual-workflow` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (visual-workflow)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 1d ago — treat its plan as current.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.",
+          "command": "python3 execution/handoff_store.py resume visual-workflow",
+          "touches": [
+            ".agent/handoffs/2026-08-31-visual-workflow.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park visual-workflow --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "visual-workflow",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill visual-workflow --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "visual-workflow",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.\nSLUG: visual-workflow\nSTATUS: active · STAGE: shipped\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-31-visual-workflow.md\n\nRESUME HERE: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.\n\nSHIPPED IN WINDOW:\n  - 2026-08-31 · Three Refero-grounded visual directions for Farrice Cain's premium Health Performance brand, with evidence comparison, reference locks, compatibility analysis a\n  - 2026-08-31 · Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences cont\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "current",
+          "note": "a deliverable was finalized"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-31",
+          "title": "Finalized · visual-workflow",
+          "body": "Three Refero-grounded visual directions for Farrice Cain's premium Health Performance brand, with evidence comparison, reference locks, compatibility analysis against Premium Minimal, and a recommended Health Performance\nResearched 5 style angles, reviewed 30+ previews and 9 full Refero style systems; compared against canonical Premium Minimal foundation and design contract | platform: codex | Verification: PASS | telemetry: sub_agents_s",
+          "done": true
+        },
+        {
+          "date": "2026-08-31",
+          "title": "Finalized · visual-workflow",
+          "body": "Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canva\nFive searches; 30+ previews; nine full Refero systems; canonical Premium Minimal contract compared; user requested three unmistakably different directions and one recommendation | platform: codex | Verification: PASS | A",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-31-visual-workflow.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}
