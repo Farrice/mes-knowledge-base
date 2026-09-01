@@ -114,7 +114,7 @@
 | `donald-miller-storybrand` | **Donald Miller — StoryBrand Mastery** | narrative copy, one-liners, messaging audits | 9 | 0 |
 | `dr-k-consciousness` | **Dr. K Consciousness** | integrates vedantic philosophy and clinical psychology using dr, for lighter action-bias breakthrough use ali-abdaal-action-bias | 11 | 0 |
 | `dr-kriukow-humanization` | **Dr. Kriukow AI Humanization** | humanizes ai-written prose using dr, use when ai-drafted content needs to pass gptzero / originality, for the structural-tells ban list use the writers-room workflow | 2 | 4 |
-| `enrico-incarnati-instagram-realestate` | **Enrico Incarnati — Instagram for Real Estate** | complete instagram content and lead generation system for real estate agents, instagram for real estate | 10 | 0 |
+| `enrico-incarnati-instagram-realestate` | **Enrico Incarnati — Instagram for Real Estate** | complete instagram content and lead generation system for real estate agents, instagram for real estate | 11 | 0 |
 | `eric-roth-screenwriting-mastery` | **Eric Roth Screenwriting Mastery** | oscar-level screenwriting craft from the writer of forrest gump, the insider, munich | 14 | 0 |
 | `eric-roth-writing-mastery` | **Eric Roth Writing Mastery** | cross-domain deployment of oscar-level writing craft for social media, content writing, copywriting | 12 | 0 |
 | `erica-mallet-brand-magnetism` | **Erica Mallet: Brand Magnetism Mastery** | for personal-brand fundamentals use seth-godin-brand, brand magnetism mastery | 5 | 52 |
@@ -162,6 +162,7 @@
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 38 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jay-sun-films-video-craft` | **jay-sun-films-video-craft** | deployable now for shoot sheets and edit direction, interview gaps listed for full harvest, video craft (observed) | 0 | 0 |
+| `jen-engine` | **jen-engine** | real estate content production (la / sfv), wires demand research, video planning | 1 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user drops a listing url or property address for content or is producing inst..., specifically not for generic real-estate marketing — jen's registers are bran... | 4 | 0 |
 | `jen-shortform-carousel-engine` | **jen-shortform-carousel-engine** | demand-first short-form content + branded instagram carousel pipeline for jen... | 0 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 14 | 0 |
