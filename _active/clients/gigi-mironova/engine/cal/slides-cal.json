@@ -27,7 +27,8 @@
           "body": "This is the second bill, and it belongs to whoever owns the unit. You should see it before the kitchen, not after the offer.",
           "source": "19350 Sherman Way #124 · MLS SR26183330 · dues as published on the listing",
           "img": "../assets/listing-124/unit-124-living.jpg",
-          "treat": "bleed"
+          "treat": "bleed",
+          "layout": "split"
         },
         {
           "kind": "list",
@@ -54,7 +55,8 @@
           ],
           "source": "Inclusions in the listing's own wording · MLS SR26183330",
           "img": "../assets/listing-124/unit-124-open-plan.jpg",
-          "treat": "bleed"
+          "treat": "bleed",
+          "layout": "split"
         },
         {
           "kind": "photo-fact",
@@ -87,7 +89,8 @@
           "keyword": "124",
           "ask": "For the marked sheet, or a private showing.",
           "img": "../assets/listing-124/unit-124-pool.jpg",
-          "treat": "bleed"
+          "treat": "bleed",
+          "layout": "split"
         }
       ]
     },
