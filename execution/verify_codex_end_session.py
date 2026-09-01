@@ -258,12 +258,18 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
     ready_actions = codex_close.task_actions_for("ready", manifest["title"], True, False)
     done_actions = codex_close.task_actions_for("done", manifest["title"], True, False)
     failed_done = codex_close.task_actions_for("done", manifest["title"], False, False)
+    requested_rename = codex_close.task_actions_for(
+        "ready", manifest["title"], True, False, rename_requested=True,
+    )
+    require(not ready_actions["rename"], "closeout must preserve the initial sidebar title")
+    require(requested_rename["rename"], "an explicit rename request must remain available")
     require(ready_actions["pin"] and not ready_actions["archive"], "ready task lifecycle incorrect")
     require(done_actions["archive"] and not done_actions["pin"], "verified done task should archive")
     require(not failed_done["archive"], "failed done task must remain unarchived")
     return [
         "manifest identity and dedicated-worktree cold start pass",
         "main, unowned dirt, divergence, and deletion states block Git",
+        "closeout preserves sidebar titles unless a rename is explicitly requested",
         "ready tasks pin; only verified done tasks archive",
     ]
 
