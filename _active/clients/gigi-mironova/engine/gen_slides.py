@@ -84,7 +84,7 @@ def k_hook(s, n, total):
 
 def k_stat(s, n, total):
     """White. One oversized number as the proof object; label; body. STRUCTURE."""
-    unit = f'<span style="font-size:96px;font-weight:700;color:{T.ACCENT};margin-left:10px">{esc(s["unit"])}</span>' if s.get("unit") else ""
+    unit = f'<span style="font-size:88px;font-weight:700;letter-spacing:-0.01em;color:{T.ACCENT};margin-left:14px">{esc(s["unit"])}</span>' if s.get("unit") else ""
     body = f'<div style="display:flex;gap:26px;margin-top:40px"><div style="width:2px;background:{T.HAIRLINE}"></div><div style="font-size:33px;line-height:1.5;color:{T.MUTED};max-width:760px">{esc(s["body"])}</div></div>' if s.get("body") else ""
     inner = (rule(s["series"])
              + f'<div><div class="caps" style="font-size:19px;color:{T.MUTED}">{esc(s["eyebrow"])}</div>'

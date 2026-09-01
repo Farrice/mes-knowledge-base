@@ -1,18 +1,115 @@
 {
+  "system": "Calm Closer on the shared editorial floor · warm paper + band navy + one clay mark · Figtree (Manrope for RU) · square corners, no shadows, no ghost numerals, no script type · her name in the masthead, brokerage in the footer",
   "carousels": [
     {
-      "slug": "smoke",
-      "title": "design smoke test — every kind once",
-      "series": "PROPERTY FILE 124",
+      "slug": "c01-same-door", "video": 1, "title": "Same door, two prices", "series": "PROPERTY FILE 124", "keyword": "124",
       "slides": [
-        {"kind": "hook", "img": "../assets/listing-124/unit-124-door.jpg", "treat": "bleed", "eyebrow": "SAME DOOR", "headline": "$2,500 to rent it.[[br]]$2,515 to own it.", "dek": "Same door. Both listings are mine, so I ran both numbers line by line."},
-        {"kind": "stat", "eyebrow": "THE NUMBER THAT IS NOT ON THE LISTING", "num": "$477", "unit": "/mo", "label": "Association dues, recorded for this building.", "body": "Pool, spa, gym, water, trash, the building's insurance. Leave it out and the whole comparison falls apart.", "source": "MLS record, unit 204, 2-bd · retrieved 2026-08-31"},
-        {"kind": "list", "eyebrow": "READ THESE BEFORE YOU FALL IN LOVE", "headline": "Three pieces of paper that protect your savings.", "rows": [["The reserve study", "The building's savings account for roofs, plumbing, balconies."], ["The last 12 months of minutes", "Leaks, insurance trouble, and an assessment being discussed before it is billed."], ["The master insurance", "Replacement cost, and a per-unit deductible your lender will accept."]], "source": "Ask the listing agent for all three. On this one, that is me."},
-        {"kind": "two", "eyebrow": "ESTIMATE, NOT A QUOTE", "headline": "Rent disappears. A payment splits.", "left": {"label": "RENT · MONTH ONE", "value": "$2,500", "body": "Gone."}, "right": {"label": "OWN · MONTH ONE", "value": "$2,515", "body": "About $224 of it stays yours as principal."}, "body": "20% down at 6.66%, taxes estimated at 1.25%, the building's recorded dues, HO-6 insurance. Your lender prices yours.", "source": "Freddie Mac PMMS 2026-08-27 · illustration only"},
+        {"kind": "hook", "img": "../assets/listing-124/unit-124-door.jpg", "treat": "bleed", "eyebrow": "SAME DOOR", "headline": "$2,500 to rent it.[[br]]$2,535 to own it.", "dek": "Same unit. Both listings are mine, so I ran both numbers line by line."},
+        {"kind": "two", "eyebrow": "ESTIMATE, NOT A QUOTE", "headline": "Rent leaves. A payment splits.", "left": {"label": "RENT · MONTH ONE", "value": "$2,500", "body": "Gone."}, "right": {"label": "OWN · MONTH ONE", "value": "$2,535", "body": "About $210 of it stays yours as principal."}, "body": "20% down at 6.66%, taxes estimated at 1.25%, the dues on this listing, HO-6 insurance. Your lender prices yours.", "source": "Freddie Mac PMMS 2026-08-27 · illustration only"},
+        {"kind": "list", "eyebrow": "EVERY LINE, NOTHING ROUNDED", "headline": "Where $2,535 goes.", "size": 62, "rows": [["$1,542 · principal and interest", "20% down on $299,999 at 6.66%, 30 years."], ["$312 · property tax, estimated", "1.25% of the price, divided by twelve."], ["$620 · association dues", "On the listing. Water, sewer, trash, building insurance, pool, on-site manager."], ["$60 · your own HO-6 policy, estimated", "The building's policy is in the dues. Yours is not."]], "source": "Estimate. Rate, credit and insurance all move it."},
+        {"kind": "stat", "eyebrow": "THE NUMBER MOST BUYERS FIND LATE", "num": "$620", "unit": "/mo", "label": "The dues. Not on the mortgage, always in the math.", "body": "Leave it out and the comparison falls apart. Here it is on the listing, so nobody finds it after they fall in love.", "source": "19350 Sherman Way #124 · MLS SR26183330"},
         {"kind": "dark", "eyebrow": "THE HONEST FRAME", "headline": "About the same, [[hl:before equity]]. Run your numbers.", "body": "Nobody should tell you owning is cheaper. I will show you the line items and let you decide."},
-        {"kind": "quote", "img": "../assets/place/table-math-01.jpg", "headline": "Sixteen years in litigation support before I ever sold a house.", "body": "The tour is the easy part. The deal is in the documents."},
-        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-kitchen.jpg", "eyebrow": "REMODELED DECEMBER 2023", "headline": "Appliances, washer and dryer bought that month. Included.", "source": "CRMLS SR26183330"},
-        {"kind": "cta", "headline": "Want the full breakdown?", "body": "In English or по-русски. Estimate, sources included.", "keyword": "124", "ask": "For the line-by-line math or a private showing."}
+        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-kitchen.jpg", "eyebrow": "REMODELED DECEMBER 2023", "headline": "Kitchen, bath, floors, finishes. Washer and dryer included.", "body": "1 bed · 1 bath · 619 sq ft · 2-car parking · private balcony.", "source": "MLS SR26183330 · listed by Gulnara Mironova, Equity Union"},
+        {"kind": "cta", "headline": "Want the line-by-line?", "body": "In English or по-русски. Estimate, sources included, or a private showing.", "keyword": "124", "ask": "For the full breakdown or a showing."}
+      ]
+    },
+    {
+      "slug": "c02-five-pages", "video": 3, "title": "The five pages in the HOA packet", "series": "THE CONDO FILE", "keyword": "HOA",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/paper-sheet-01.jpg", "treat": "duo", "eyebrow": "THE HOA PACKET", "headline": "They send two hundred pages.[[br]]Five decide it.", "dek": "What I read first, before anyone falls in love."},
+        {"kind": "dark", "eyebrow": "WHY IT MATTERS", "headline": "You get a few days. The bill lasts thirty years.", "body": "The packet arrives after your offer is accepted. Most people skim it. The five pages below are where the money is."},
+        {"kind": "list", "eyebrow": "PAGES 1 AND 2", "headline": "The budget and the reserve study.", "rows": [["The budget", "What the dues pay for, and whether they actually cover it."], ["The reserve study", "The building's savings for roofs, plumbing, balconies. The percentage funded is the number."]]},
+        {"kind": "list", "eyebrow": "PAGES 3 AND 4", "headline": "The minutes and the master insurance.", "rows": [["Twelve months of board minutes", "Leaks, lawsuits, and an assessment being discussed before it is billed."], ["The master insurance declaration", "Replacement cost, and a per-unit deductible your lender will accept."]]},
+        {"kind": "stat", "eyebrow": "PAGE 5", "num": "60", "unit": "days", "label": "How many owners are more than sixty days behind on dues.", "body": "Too many and the whole building stops qualifying for conventional loans. Every owner's loan, not just yours.", "source": "Ask for the delinquency figure in writing."},
+        {"kind": "quote", "img": "../assets/place/sunlight-through-window-floor-00.jpg", "headline": "Sixteen years in litigation support before I ever sold a home.", "body": "Research, analysis, negotiation. The packet is the part I never rush."},
+        {"kind": "cta", "headline": "Want the five-page checklist?", "body": "One page. Bring it to any building, in English or по-русски.", "keyword": "HOA", "ask": "For the checklist, or send me a packet and I'll read it with you."}
+      ]
+    },
+    {
+      "slug": "c03-balcony-report", "video": 6, "title": "The balcony report is in your sale file now", "series": "THE CONDO FILE", "keyword": "HOA",
+      "slides": [
+        {"kind": "hook", "img": "../assets/listing-124/unit-124-balcony.jpg", "treat": "bleed", "eyebrow": "SINCE JANUARY", "headline": "There is a structural report in your condo sale file now.", "size": 84, "dek": "Most sellers have never read it. Most buyers don't know to ask."},
+        {"kind": "stat", "eyebrow": "CALIFORNIA SB 410", "num": "2026", "label": "Condo sellers now hand buyers the most recent balcony inspection report.", "body": "Exterior elevated elements: balconies, walkways, stairs. The inspection law came first. The disclosure law followed.", "source": "SB 410 · chaptered 2025-10-10 · in effect 2026-01-01"},
+        {"kind": "list", "eyebrow": "WHAT A BUYER SEES", "headline": "Three things the report tells you.", "rows": [["What was inspected", "Which balconies and walkways, and when."], ["What it found", "Repairs needed, and how urgent."], ["What was done", "Completed, scheduled, or still being discussed. That last word costs money."]]},
+        {"kind": "dark", "eyebrow": "ON THIS LISTING", "headline": "Inspection and repairs [[hl:completed]].", "body": "That is the version you want to be showing. It is on the listing for Unit 124, in writing.", "source": "MLS SR26183330 listing text"},
+        {"kind": "photo-fact", "img": "../assets/listing-124/unit-124-building.jpg", "eyebrow": "AS A BUYER", "headline": "Ask for the report in week one. Not in week three.", "body": "If the work is still being discussed, the bill may be yours."},
+        {"kind": "cta", "headline": "Buying or selling a condo?", "body": "I'll tell you what your building's report says, in plain English or по-русски.", "keyword": "HOA", "ask": "For the questions to ask, or send me the report."}
+      ]
+    },
+    {
+      "slug": "c04-bill-after-closing", "video": 7, "title": "The bill that arrives after closing", "series": "THE CONDO FILE", "keyword": "HOA",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/apartment-building-dusk-03.jpg", "treat": "duo", "eyebrow": "THE BILL AFTER CLOSING", "headline": "He closed in spring.[[br]]The bill came in summer.", "dek": "A special assessment, and where it showed up months earlier."},
+        {"kind": "stat", "eyebrow": "ONE FORUM POST", "num": "$60K", "label": "Per unit, for exterior repairs, months after a first purchase.", "body": "One buyer's story on a public forum. Not my client. The pattern is the point: the bill was visible before it was billed.", "source": "r/HOA · date unconfirmed · anecdote, not data"},
+        {"kind": "list", "eyebrow": "WHERE IT SHOWS FIRST", "headline": "Two documents, months ahead.", "rows": [["The reserve study", "Percentage funded. Thin reserves are an assessment waiting to happen."], ["The minutes", "An assessment is discussed before it is billed. Discussed is the word to search for."]]},
+        {"kind": "dark", "eyebrow": "THE QUESTION", "headline": "What is being discussed that hasn't been billed yet?", "body": "Ask it in writing. The answer is either a number or a silence, and both tell you something."},
+        {"kind": "two", "eyebrow": "TWO BUILDINGS, SAME DUES", "headline": "Same monthly number. Different futures.", "numsize": 120, "left": {"label": "BUILDING A", "value": "12%", "body": "Reserves funded. Work deferred. A bill is coming."}, "right": {"label": "BUILDING B", "value": "40%", "body": "Reserves funded. Roof done last year."}, "body": "Illustration only. The percentage is in the reserve study."},
+        {"kind": "cta", "headline": "Send me the packet.", "body": "I read reserve studies and minutes for a living before I sold homes. Still do.", "keyword": "HOA", "ask": "And I'll tell you what's being discussed."}
+      ]
+    },
+    {
+      "slug": "c05-fees-go-down", "video": 8, "title": "Do HOA fees ever go down?", "series": "THE CONDO FILE", "keyword": "HOA",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/valley-street-01.jpg", "treat": "duo", "eyebrow": "A FAIR QUESTION", "headline": "Do HOA fees ever go down?", "dek": "Almost never. Here is what actually moves them."},
+        {"kind": "list", "eyebrow": "THE THREE MOVERS", "headline": "What pushes dues up.", "rows": [["Insurance renewals", "The biggest mover in California right now. The building's policy is inside your dues."], ["Reserve catch-up", "Deferred work gets paid eventually, by whoever owns the unit then."], ["Management and utilities", "Water, trash, the on-site manager. Steady, and they climb."]]},
+        {"kind": "dark", "eyebrow": "WHAT GOOD LOOKS LIKE", "headline": "Small, steady increases. [[hl:No surprises]].", "body": "A well-run building raises dues a little every year and never sends a bill you didn't see coming."},
+        {"kind": "stat", "eyebrow": "ON UNIT 124", "num": "$620", "unit": "/mo", "label": "On the listing, with what it covers, in writing.", "body": "Water, sewer, trash, building insurance, pest control, pool service, landscaping, on-site manager.", "source": "MLS SR26183330"},
+        {"kind": "cta", "headline": "Want to know what your dues are buying?", "body": "Send me the budget. I'll mark what's covered and what isn't.", "keyword": "HOA", "ask": "For the budget read, in English or по-русски."}
+      ]
+    },
+    {
+      "slug": "c06-sell-with-tenant", "video": 11, "title": "Can I sell my condo with the tenant in it?", "series": "THE SELLER FILE", "keyword": "NET",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/apartment-building-dusk-01.jpg", "treat": "bleed", "eyebrow": "FOR SMALL LANDLORDS", "headline": "Yes, you can sell with your tenant in it.", "size": 86, "dek": "The question is who you're selling to."},
+        {"kind": "two", "eyebrow": "TWO BUYER POOLS", "headline": "The tenant decides which pool you're in.", "numsize": 80, "left": {"label": "INVESTOR BUYER WANTS", "value": "The tenant", "body": "The rent roll, the lease, the numbers."}, "right": {"label": "OWNER-OCCUPIER WANTS", "value": "The keys", "body": "On closing day, and an empty unit."}, "body": "Neither is wrong. Pricing for the wrong one is."},
+        {"kind": "list", "eyebrow": "BEFORE WE LIST", "headline": "Three things I look at first.", "rows": [["The lease", "Fixed term or month to month. That is the whole timeline."], ["The rent", "Above or below market decides how the investor prices it."], ["The tenant", "A person, with notice rights. How the notice is worded changes the sale."]]},
+        {"kind": "dark", "eyebrow": "THE PROCESS", "headline": "Written notice first. Then notice before every showing.", "body": "Early, in writing, and respectful. It protects the sale as much as the tenant.", "source": "Notice periods per California Apartment Association guidance · confirm for your lease"},
+        {"kind": "stat", "eyebrow": "MY OWN EXAMPLE", "num": "124", "label": "One unit, leased at $2,500 and listed at $299,999. Both are mine.", "body": "I ran it both ways for the owner. That is the plan I'll run for you.", "source": "19350 Sherman Way #124 · MLS SR26183330"},
+        {"kind": "cta", "headline": "Want it run both ways?", "body": "Occupied and vacant, on one page, before you decide anything.", "keyword": "NET", "ask": "For your number, both ways."}
+      ]
+    },
+    {
+      "slug": "c07-net-sheet", "video": 14, "title": "The number you keep", "series": "THE SELLER FILE", "keyword": "NET",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/house-key-lock-00.jpg", "treat": "bleed", "eyebrow": "THE NUMBER YOU KEEP", "headline": "The list price is a headline.[[br]]The net sheet is the story.", "size": 80, "dek": "What you walk away with, line by line."},
+        {"kind": "list", "eyebrow": "WHAT COMES OFF THE TOP", "headline": "Five lines between the price and your check.", "size": 56, "rows": [["Commissions", "Yours and the buyer's side, as negotiated."], ["Escrow, title and transfer taxes", "Fees on both sides of the table. Los Angeles has its own transfer tax."], ["HOA transfer and document fees", "The association charges to change the name on the file."], ["The tenant's deposit", "Transfers with the unit, or back to the tenant."], ["Concessions", "The check many sellers write at closing."]]},
+        {"kind": "stat", "eyebrow": "THE LINE NOBODY QUOTES AT THE MAILBOX", "num": "$25K", "label": "Median seller concession in the Valley this spring, on the sales that had one.", "body": "More than half did. It never shows in the price the neighbor tells you.", "source": "SFV April 2026 closed sales · one broker's MLS compilation · likely, not verified"},
+        {"kind": "dark", "eyebrow": "THE QUESTION", "headline": "Ask what you'd [[hl:keep]] before what you'd list for.", "body": "The list price is negotiable. The net sheet is what you live with."},
+        {"kind": "two", "eyebrow": "ILLUSTRATION ONLY", "headline": "Same price, two nets.", "numsize": 92, "left": {"label": "SOLD AT ASKING, CLEAN", "value": "Net A", "body": "Price, minus the standard lines."}, "right": {"label": "SOLD AT ASKING, WITH A CHECK", "value": "Net B", "body": "Same price. Minus a concession. The headline never changed."}},
+        {"kind": "cta", "headline": "Want your number on one page?", "body": "No listing agreement attached. Just the math.", "keyword": "NET", "ask": "For your net sheet, in English or по-русски."}
+      ]
+    },
+    {
+      "slug": "c08-who-holds-the-money", "video": 16, "title": "Who holds the money", "series": "THE TRANSACTION, EXPLAINED", "keyword": "CLOCK",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/contract-signing-pen-01.jpg", "treat": "duo", "eyebrow": "WHO HOLDS THE MONEY", "headline": "You never hand the seller a dollar.", "dek": "Escrow, explained in one breath."},
+        {"kind": "list", "eyebrow": "THE NEUTRAL THIRD PARTY", "headline": "What escrow actually does.", "rows": [["Holds the money", "Your deposit, then the loan funds. Not the seller's, not the agent's."], ["Holds the documents", "The deed, the disclosures, the signed contract."], ["Releases both at once", "When both sides have performed. Not before."]]},
+        {"kind": "stat", "eyebrow": "YOUR DEPOSIT", "num": "3", "unit": "days", "label": "Business days after acceptance. That is when the deposit is due, by default.", "body": "Typically 1 to 3 percent of the price under the standard California contract. Negotiable, and it goes to escrow, not the seller.", "source": "C.A.R. purchase agreement defaults · verified 2026-08-30"},
+        {"kind": "dark", "eyebrow": "AND IT COMES BACK", "headline": "Cancel inside a contingency, on time, and the deposit [[hl:returns to you]].", "size": 78, "body": "Miss the date and it may not. That is why the dates matter more than the tour."},
+        {"kind": "quote", "img": "../assets/place/balcony-plants-apartment-02.jpg", "ru": true, "headline": "Эскроу: нейтральная сторона держит деньги и документы до конца сделки.", "size": 72, "body": "Escrow, in Russian, on request. Same process, your language."},
+        {"kind": "cta", "headline": "Want the timeline dated for you?", "body": "Every deadline on one page, in English or по-русски.", "keyword": "CLOCK", "ask": "For the dated timeline."}
+      ]
+    },
+    {
+      "slug": "c09-three-clocks", "video": 17, "title": "Three clocks start the day you're accepted", "series": "THE TRANSACTION, EXPLAINED", "keyword": "CLOCK",
+      "slides": [
+        {"kind": "hook", "img": "../assets/place/palm-tree-sunset-city-01.jpg", "treat": "bleed", "eyebrow": "DAY ZERO", "headline": "Seventeen. Seventeen. Twenty-one.", "dek": "Three clocks start the day your offer is accepted. Nobody hands you the dates."},
+        {"kind": "list", "eyebrow": "THE STANDARD CONTRACT'S DEFAULTS", "headline": "Three protections, three deadlines.", "rows": [["Inspection · 17 days", "Your window to inspect and walk away with your deposit."], ["Appraisal · 17 days", "If the bank's value comes in low, this is your exit."], ["Loan · 21 days", "If financing fails, this is the last door out."]], "source": "C.A.R. residential purchase agreement defaults · negotiable"},
+        {"kind": "stat", "eyebrow": "THE PART PEOPLE GET WRONG", "num": "7", "unit": "days", "label": "In a week. Calendar days, so weekends count inside the number.", "body": "A 17-day window that starts on a Friday is not seventeen working days."},
+        {"kind": "dark", "eyebrow": "WHAT I DO ON DAY ZERO", "headline": "I date every deadline before the tour photos are even sorted.", "size": 80, "body": "Then I put them in your phone. The clocks don't care who forgot."},
+        {"kind": "two", "eyebrow": "TWO BUYERS, SAME CONTRACT", "headline": "Same dates. Different outcomes.", "numsize": 84, "left": {"label": "REMEMBERED ON DAY 18", "value": "Late", "body": "The protection expired. The deposit is exposed."}, "right": {"label": "DATED ON DAY 0", "value": "On time", "body": "Removed or cancelled on purpose. Deposit protected."}},
+        {"kind": "cta", "headline": "Writing an offer this fall?", "body": "Send me the accepted date and I'll map every deadline, in English or по-русски.", "keyword": "CLOCK", "ask": "For your dates."}
+      ]
+    },
+    {
+      "slug": "c10-first-home-ru", "video": 19, "title": "Первый дом в США: пять шагов (draft for her native pass)", "series": "ПЕРВЫЙ ДОМ В США", "keyword": "DOCS",
+      "slides": [
+        {"kind": "hook", "ru": true, "img": "../assets/place/valley-street-00.jpg", "treat": "bleed", "eyebrow": "ПО-РУССКИ", "headline": "Первый дом в Америке.[[br]]Пять шагов, по порядку.", "size": 82, "dek": "Без юридического языка. Как это работает на самом деле."},
+        {"kind": "list", "ru": true, "eyebrow": "ШАГИ 1 И 2", "headline": "Одобрение, потом предложение.", "rows": [["1 · Предварительное одобрение", "Банк говорит, сколько готов дать. Без этого продавец не рассматривает предложение."], ["2 · Предложение (offer)", "Цена, условия, сроки. Продавец принимает, отклоняет или торгуется."]]},
+        {"kind": "list", "ru": true, "eyebrow": "ШАГИ 3 И 4", "headline": "Эскроу и сроки.", "rows": [["3 · Эскроу и депозит", "Нейтральная сторона держит деньги и документы. Депозит вносится в первые дни."], ["4 · Проверки по часам", "Осмотр, оценка, кредит. У каждого свой срок, и он считается в календарных днях."]]},
+        {"kind": "stat", "ru": true, "eyebrow": "ШАГ 5", "num": "5", "label": "Закрытие: подписи, перевод денег, ключи.", "body": "Сделка закрывается, когда обе стороны выполнили условия. Не раньше."},
+        {"kind": "dark", "ru": true, "eyebrow": "HOA", "headline": "Ассоциация собственников: [[hl:за что вы платите]].", "size": 76, "body": "Вода, мусор, страховка здания, бассейн, управляющий. Три документа, которые нужно попросить до покупки."},
+        {"kind": "cta", "ru": true, "headline": "Хотите разобрать сделку по шагам?", "body": "По-русски или по-английски. Без давления.", "keyword": "DOCS", "ask": "И я объясню процесс на вашем примере."}
       ]
     }
   ]

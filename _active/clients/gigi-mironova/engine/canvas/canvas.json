@@ -2,65 +2,489 @@
   "artboards": [
     {
       "file": "Main.dc.html",
-      "title": "smoke \u00b7 1/8",
+      "title": "c01-same-door \u00b7 1/7",
       "x": 0,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-02.dc.html",
-      "title": "smoke \u00b7 2/8",
+      "file": "c01-same-door-02.dc.html",
+      "title": "c01-same-door \u00b7 2/7",
       "x": 1180,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-03.dc.html",
-      "title": "smoke \u00b7 3/8",
+      "file": "c01-same-door-03.dc.html",
+      "title": "c01-same-door \u00b7 3/7",
       "x": 2360,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-04.dc.html",
-      "title": "smoke \u00b7 4/8",
+      "file": "c01-same-door-04.dc.html",
+      "title": "c01-same-door \u00b7 4/7",
       "x": 3540,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-05.dc.html",
-      "title": "smoke \u00b7 5/8",
+      "file": "c01-same-door-05.dc.html",
+      "title": "c01-same-door \u00b7 5/7",
       "x": 4720,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-06.dc.html",
-      "title": "smoke \u00b7 6/8",
+      "file": "c01-same-door-06.dc.html",
+      "title": "c01-same-door \u00b7 6/7",
       "x": 5900,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-07.dc.html",
-      "title": "smoke \u00b7 7/8",
+      "file": "c01-same-door-07.dc.html",
+      "title": "c01-same-door \u00b7 7/7",
       "x": 7080,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "smoke-08.dc.html",
-      "title": "smoke \u00b7 8/8",
-      "x": 8260,
-      "y": 0,
+      "file": "c02-five-pages-01.dc.html",
+      "title": "c02-five-pages \u00b7 1/7",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-02.dc.html",
+      "title": "c02-five-pages \u00b7 2/7",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-03.dc.html",
+      "title": "c02-five-pages \u00b7 3/7",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-04.dc.html",
+      "title": "c02-five-pages \u00b7 4/7",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-05.dc.html",
+      "title": "c02-five-pages \u00b7 5/7",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-06.dc.html",
+      "title": "c02-five-pages \u00b7 6/7",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-07.dc.html",
+      "title": "c02-five-pages \u00b7 7/7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-01.dc.html",
+      "title": "c03-balcony-report \u00b7 1/6",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-02.dc.html",
+      "title": "c03-balcony-report \u00b7 2/6",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-03.dc.html",
+      "title": "c03-balcony-report \u00b7 3/6",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-04.dc.html",
+      "title": "c03-balcony-report \u00b7 4/6",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-05.dc.html",
+      "title": "c03-balcony-report \u00b7 5/6",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c03-balcony-report-06.dc.html",
+      "title": "c03-balcony-report \u00b7 6/6",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-01.dc.html",
+      "title": "c04-bill-after-closing \u00b7 1/6",
+      "x": 0,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-02.dc.html",
+      "title": "c04-bill-after-closing \u00b7 2/6",
+      "x": 1180,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-03.dc.html",
+      "title": "c04-bill-after-closing \u00b7 3/6",
+      "x": 2360,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-04.dc.html",
+      "title": "c04-bill-after-closing \u00b7 4/6",
+      "x": 3540,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-05.dc.html",
+      "title": "c04-bill-after-closing \u00b7 5/6",
+      "x": 4720,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c04-bill-after-closing-06.dc.html",
+      "title": "c04-bill-after-closing \u00b7 6/6",
+      "x": 5900,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c05-fees-go-down-01.dc.html",
+      "title": "c05-fees-go-down \u00b7 1/5",
+      "x": 0,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c05-fees-go-down-02.dc.html",
+      "title": "c05-fees-go-down \u00b7 2/5",
+      "x": 1180,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c05-fees-go-down-03.dc.html",
+      "title": "c05-fees-go-down \u00b7 3/5",
+      "x": 2360,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c05-fees-go-down-04.dc.html",
+      "title": "c05-fees-go-down \u00b7 4/5",
+      "x": 3540,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c05-fees-go-down-05.dc.html",
+      "title": "c05-fees-go-down \u00b7 5/5",
+      "x": 4720,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-01.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 1/6",
+      "x": 0,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-02.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 2/6",
+      "x": 1180,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-03.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 3/6",
+      "x": 2360,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-04.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 4/6",
+      "x": 3540,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-05.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 5/6",
+      "x": 4720,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-06.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 6/6",
+      "x": 5900,
+      "y": 7800,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-01.dc.html",
+      "title": "c07-net-sheet \u00b7 1/6",
+      "x": 0,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-02.dc.html",
+      "title": "c07-net-sheet \u00b7 2/6",
+      "x": 1180,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-03.dc.html",
+      "title": "c07-net-sheet \u00b7 3/6",
+      "x": 2360,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-04.dc.html",
+      "title": "c07-net-sheet \u00b7 4/6",
+      "x": 3540,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-05.dc.html",
+      "title": "c07-net-sheet \u00b7 5/6",
+      "x": 4720,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c07-net-sheet-06.dc.html",
+      "title": "c07-net-sheet \u00b7 6/6",
+      "x": 5900,
+      "y": 9360,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-01.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 1/6",
+      "x": 0,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-02.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 2/6",
+      "x": 1180,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-03.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 3/6",
+      "x": 2360,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-04.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 4/6",
+      "x": 3540,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-05.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 5/6",
+      "x": 4720,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c08-who-holds-the-money-06.dc.html",
+      "title": "c08-who-holds-the-money \u00b7 6/6",
+      "x": 5900,
+      "y": 10920,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-01.dc.html",
+      "title": "c09-three-clocks \u00b7 1/6",
+      "x": 0,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-02.dc.html",
+      "title": "c09-three-clocks \u00b7 2/6",
+      "x": 1180,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-03.dc.html",
+      "title": "c09-three-clocks \u00b7 3/6",
+      "x": 2360,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-04.dc.html",
+      "title": "c09-three-clocks \u00b7 4/6",
+      "x": 3540,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-05.dc.html",
+      "title": "c09-three-clocks \u00b7 5/6",
+      "x": 4720,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c09-three-clocks-06.dc.html",
+      "title": "c09-three-clocks \u00b7 6/6",
+      "x": 5900,
+      "y": 12480,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-01.dc.html",
+      "title": "c10-first-home-ru \u00b7 1/6",
+      "x": 0,
+      "y": 14040,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-02.dc.html",
+      "title": "c10-first-home-ru \u00b7 2/6",
+      "x": 1180,
+      "y": 14040,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-03.dc.html",
+      "title": "c10-first-home-ru \u00b7 3/6",
+      "x": 2360,
+      "y": 14040,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-04.dc.html",
+      "title": "c10-first-home-ru \u00b7 4/6",
+      "x": 3540,
+      "y": 14040,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-05.dc.html",
+      "title": "c10-first-home-ru \u00b7 5/6",
+      "x": 4720,
+      "y": 14040,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c10-first-home-ru-06.dc.html",
+      "title": "c10-first-home-ru \u00b7 6/6",
+      "x": 5900,
+      "y": 14040,
       "w": 1080,
       "h": 1350
     }
