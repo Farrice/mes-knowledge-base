@@ -26,10 +26,20 @@ The generated `recognition-sample.md` preserves the recognizable operating shape
 
 **Single repair:** added the claim-safe-brief example: inventory and citation checking may be delegated; brand promise and review signature may not. No other section was rewritten.
 
+## Fresh-Context Blind Verdict
+
+A read-only reviewer with no parent context received three neutral files: the repaired candidate and the two frozen corpus pieces. The reviewer was not given the implementation, prior tier, source labels, or build history.
+
+- Generated-piece identification: candidate correctly identified with **98% confidence**.
+- Blind-pass verdict: **FAIL** under the “indistinguishable from or preferred to the real pieces” rule.
+- Strongest match: ending discipline; the close returns cleanly to the governing idea.
+- Weakest criterion: internalized judgment versus imitation. The polished symmetry, abstract imperatives, and conspicuous claim-safe example made the candidate feel engineered.
+- Implementation change during blind review: **none**; `recognition-sample.md` remained frozen.
+
+The result was recorded as `EVAL-067` in `evolution_store/ground_truth/eval_set_v1.jsonl` and in `extractions/seth-godin-marketing-mind/blind-pass-log.md`.
+
 ## Honest Tier
 
-**B — practitioner-ready, recognition-positive, blind-unverified.**
+**B — practitioner-ready, but detectably generated.**
 
-The corpus gate passed and the model-side recognition comparison is positive after one repair. A true blind verdict is not claimed because the same current context read the reference pieces before judging the sample, and the approved plan prohibits a fresh subagent. A Farrice or fresh-context blind comparison remains the only gap to an A-tier recognition claim.
-
-This limitation does not block local workflow use. It blocks only the stronger claim that the sample was preferred or indistinguishable under blind conditions.
+A-tier is not earned. The fresh blind reviewer failed the indistinguishability bar, and `directives/embodiment-standard.md` reserves A-tier promotion for a Farrice-judged blind pass even when a model reviewer passes.

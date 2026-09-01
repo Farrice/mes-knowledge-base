@@ -1,0 +1,12 @@
+{
+  "title": "Production Receipt 01 — LinkedIn Cash Launch Activation",
+  "artifact_type": "production-receipt",
+  "receipt_number": 1,
+  "task_type": "Revenue activation",
+  "application_mode": "current-project-internal-proof",
+  "publishing": false,
+  "external_actions": false,
+  "traction_state": "NO EVENT",
+  "verdict": "STOP",
+  "promotion_authorized": false
+}

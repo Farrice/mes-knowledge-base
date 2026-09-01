@@ -75,9 +75,19 @@
       "sha256": "4bb3abe42a775fbb9f5fd79c7c3f4b82dfb53bf10b7f55c975cb346a0e833090"
     },
     {
+      "path": "production-receipt-01-linkedin-cash-launch.md",
+      "bytes": 10165,
+      "sha256": "7861f919d508dd9f41e1cb5c028ac96fa4f9e08906d9b9e12353d8a4231fd906"
+    },
+    {
+      "path": "production-receipt-01-linkedin-cash-launch.metadata.json",
+      "bytes": 370,
+      "sha256": "b7d0baabec1348f8c110b5fe688f4d54b2c53895de7edc174d58a424b6027e5b"
+    },
+    {
       "path": "recognition-review.md",
-      "bytes": 1863,
-      "sha256": "92801eef516583c9bf90dbb2e66568dd48647df0504710a093e27473d414e4a5"
+      "bytes": 2513,
+      "sha256": "3985e3dff213fe8208375b0c838c6243c08e68a8551f5ec1fc7a4fd12eef997d"
     },
     {
       "path": "recognition-sample.md",
@@ -121,8 +131,8 @@
     },
     {
       "path": "verification-receipt.md",
-      "bytes": 5174,
-      "sha256": "736a9427ad058f9c296aedfb36d07b153ffba2a4434ce5af8dd03488eb708ae7"
+      "bytes": 6604,
+      "sha256": "27db3059b4d175d19f4ed99fdc9719836b3b3669887ae45fa94a8a0376cd51f9"
     },
     {
       "path": "verification-receipt.metadata.json",

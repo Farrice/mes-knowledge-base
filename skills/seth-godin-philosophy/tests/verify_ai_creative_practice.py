@@ -38,6 +38,7 @@ def main() -> int:
         PACKAGE / "overlap-build-shape.md",
         PACKAGE / "behavior-proof.md",
         PACKAGE / "recognition-review.md",
+        PACKAGE / "production-receipt-01-linkedin-cash-launch.md",
         PACKAGE / "manifest.json",
         SKILL / "workflows/10-ai-creative-practice.md",
         SKILL / "references/prompts-v2/ai-creative-practice-design.md",
@@ -99,6 +100,7 @@ def main() -> int:
     slash_index = (ROOT / "SLASH_COMMANDS.md").read_text()
     skill_index = (ROOT / "SKILL_INDEX.md").read_text()
     proof = (PACKAGE / "behavior-proof.md").read_text()
+    production_receipt = (PACKAGE / "production-receipt-01-linkedin-cash-launch.md").read_text()
     require("workflows: 10" in skill_manifest, "skill workflow count not updated", failures)
     require("ai-creative-practice-design.md" in skill_manifest, "design prompt not wired", failures)
     require("ai-creative-practice-traction-review.md" in skill_manifest, "review prompt not wired", failures)
@@ -112,6 +114,12 @@ def main() -> int:
         "Explicit decision",
     ):
         require(criterion in proof and "PASS" in proof, f"behavior proof missing criterion: {criterion}", failures)
+    for token in (
+        "Project Ownership Lock", "System Gap Map", "Proud Artifact Spec",
+        "Bounded AI Task Packets", "Cheap Failure Ladder", "Traction Contract",
+        "**STOP**", "traction `NO EVENT`", "Publishing: OFF",
+    ):
+        require(token in production_receipt, f"production receipt missing token: {token}", failures)
 
     if failures:
         for failure in failures:
@@ -121,7 +129,8 @@ def main() -> int:
     print("- source: 3729 seconds, 1574 caption cues, 7 inspected frames")
     print("- skill: workflow 10, 2 born-v2 prompts, generated registry presence")
     print("- behavior: ownership, bounded tasks, gap, artifact, 3 experiments, traction, verdict")
-    print("- boundary: skill-local; production traction and blind A-tier remain unproven")
+    print("- production: first current-project receipt exists; external traction remains NO EVENT")
+    print("- recognition: fresh blind FAIL, honest tier B; A-tier remains unearned")
     return 0
 
 

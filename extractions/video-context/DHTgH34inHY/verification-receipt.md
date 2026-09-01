@@ -2,7 +2,7 @@
 
 Date: 2026-09-01  
 Lane: `codex/seth-godin-ai-creative-practice`  
-Deployment verdict: **STOP — implementation complete in lane; merge withheld by unresolved external verifier failures**
+Deployment verdict: **STOP — original blockers cleared; merge withheld by a newly exposed unrelated global steering/end-session mismatch**
 
 ## Source Integrity
 
@@ -58,26 +58,38 @@ Production traction remains `NO EVENT`.
 ## Recognition and Blind Boundary
 
 - Existing two-piece Godin reference corpus: READY.
-- Model recognition review: PASS after one specificity repair.
-- True blind verdict: UNVERIFIED because the current context saw the reference pieces and the approved plan prohibits a fresh subagent.
-- Honest tier: **B — practitioner-ready, blind-unverified**. A-tier is withheld.
+- Fresh-context blind reviewer: COMPLETE against neutralized files; no implementation access or edits.
+- Generated candidate identified correctly with 98% confidence.
+- Blind verdict: **FAIL**; polished symmetry and the claim-safe example remained detectable tells.
+- Honest tier: **B — practitioner-ready, but detectably generated**. A-tier is withheld.
 
 ## Repair Cycles Used
 
 1. **Routing repair:** added a searchable bridge description after the first exact query failed to surface the new command. Retest passed at rank 1.
 2. **Legacy-validator compatibility:** added a thin `references/genius-patterns.md` pointer to canonical `genius.md`. Retest reduced critical failures from 1 to 0 without duplicating doctrine.
 
-The two-cycle limit is exhausted. No further repair was attempted.
+The original two-cycle limit was exhausted. The user subsequently authorized a separate deployment-blocker follow-up; it did not change the Godin workflow or recognition sample.
 
-## Unresolved Stop Conditions
+## Original Stop Conditions — Follow-Up Resolution
 
-| Verifier | Result | Why it remains unresolved |
+| Recorded blocker | Resolution | Evidence |
 |---|---|---|
-| Archived agentic-engineering contract | FAIL after correcting its historical root-path bug | Baseline lacks `extractions/video-context/PzVV4X37ihg/`; `self-evolve.md` lacks the expected agentic-contract pointer. Neither belongs to this extension. |
-| Archived behavior-changing extraction contract | FAIL after correcting its historical root-path bug | Baseline lacks `_active/sam-parr-copywriting-os/06-before-after-proof-lab.md`. Outside this extension. |
-| Global source-to-skill Operator Core parity | FAIL | Current global `AGENTS.md` lacks the verifier’s exact “real Codex subagents require explicit authorization” phrase. Global writes are prohibited by this plan. |
+| Archived agentic-engineering contract | **RETIRED — not a deployment gate** | `.agent/health/pending-review.md` records Farrice-approved retirement on 2026-07-21 because the referenced source package never existed; verifier is under `execution/_archived_verifiers/`. |
+| Archived behavior-changing extraction contract | **RETIRED — not a deployment gate** | `.agent/health/pending-review.md` records Farrice-approved retirement on 2026-07-21 because the Sam proof lab never existed; verifier is under `execution/_archived_verifiers/`. |
+| Global source-to-skill Operator Core parity | **PASS** | Repaired the sync producer’s capitalization mismatch, aligned global `AGENTS.md` through `sync_operator_core_source_to_skill_system.py --apply`, then passed the full source-to-skill Operator Core verifier. |
 
-These are external/baseline failures, not missing fields in the new workflow. The user-approved rule is still literal: unresolved verifier failures stop deployment. Therefore the branch is not merged and no global mirror is created.
+## Newly Exposed Stop Condition
+
+The active Godin-specific suite remains green, including the source package, skill-local verifier, 3,958-prompt audit, grounding checks, harness, live surface, and 14/14 Operator Core snapshot. However, the broader canonical run exposed pre-existing global closeout drift:
+
+- `verify_google_operator_core.py`: FAIL because the global end-session bridge lacks legacy `Insightful Momentum/frontier standard` and related steering phrases.
+- `verify_system_control_plane.py`: FAIL because `sync_global_operator_core.py --check` expects `Next-time prompt`, `Subagent worth it?`, and `Reuse hook` in global `AGENTS.md`.
+
+Those expectations conflict with the current contextual-three-prompts global standard and are unrelated to this skill. They were not rewritten inside a Godin deployment task. Because the user required every gate green before merge, the branch remains unmerged.
+
+## First Production Application
+
+`production-receipt-01-linkedin-cash-launch.md` applies the workflow to the active LinkedIn Cash Launch / Health Performance Angle Map project. Internal proof ran; external traction remains `NO EVENT`. The receipt ends in **STOP** because the live payment rail and outreach approval are human-owned boundaries, and another AI asset would not change the next decision.
 
 ## Files and Boundaries
 
@@ -87,4 +99,3 @@ These are external/baseline failures, not missing fields in the new workflow. Th
 - New command bridge: `.agent/workflows/godin-ai-creative-practice.md`
 - Existing Seth Godin skill, agent, source ledger, and generated registries extended in place
 - No new agent, semantic primitive, dependency, global mirror, external publication, paid action, or self-evolution behavior
-
