@@ -85,7 +85,7 @@
       "certainty_claim": false,
       "why_selection": "Evidence rows shorten rereading while a dedicated caveat block prevents the compact surface from overstating what is known.",
       "detail_preservation": "Full citations and source excerpts remain in the evidence layer, with the untested buyer-response assumption clearly preserved.",
-      "example": "# Demand Evidence\n\n## What changes\nCategory interest is supported; willingness to pay for this exact offer remains untested.\n\n| Claim | Support | Confidence | Implication |\n|---|---|---|---|\n| Buyers discuss the problem | Interview set | Verified | Continue |\n| They will buy this package | No payment event | Untested | Run a paid test |\n\n## Caveat\nAttention is not purchase behavior."
+      "example": "# Demand Signal\n\n**Verdict:** People recognize the problem. We still have no proof they will pay for this offer.\n\n| Signal | What it proves | What it does not prove | Action |\n|---|---|---|---|\n| The problem appears in interviews | The pain is real | This package will sell | Keep testing |\n| No one has paid | Nothing about demand yet | Willingness to pay | Run one paid test |\n\n**Bottom line:** Interest earns another test, not a claim of demand."
     },
     {
       "id": "AC-005",
@@ -125,7 +125,7 @@
       "certainty_claim": true,
       "why_selection": "The work is sequential and approval-gated, so a compact playbook plus dependency flow prevents skipped proof and accidental activation.",
       "detail_preservation": "Each step retains its verifier and rollback note, while implementation details remain available under the corresponding step.",
-      "example": "# Shadow Pilot Plan\n\nEnd state: workspace proof, stopped before promotion.\n\n## Playbook\n1. Freeze the successful global behavior.\n2. Build artifact-only fixtures.\n3. Run negative controls.\n4. Collect human artifact ratings.\n\n## Flow\nFixtures → sabotage proof → human gate → explicit promotion decision\n\nStop before merge, hooks, or global activation."
+      "example": "# Pilot Path\n\n**Goal:** Make substantial artifacts easier to absorb without touching the output system that already works.\n\n1. Lock the global behavior.\n2. Test artifact formats.\n3. Try to break them.\n4. Get human ratings.\n\n**Only then:** Decide whether to promote.\n\n**Stop:** No merge, hooks, or global activation."
     },
     {
       "id": "AC-007",

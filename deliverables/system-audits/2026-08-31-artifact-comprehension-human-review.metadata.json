@@ -1,8 +1,10 @@
 {
   "title": "Artifact Comprehension v0.2 — Human Gate",
   "artifact_type": "human-review",
-  "status": "HUMAN GATE PENDING",
+  "status": "ROUND 1 COMPLETE / BEHAVIOR REFINEMENT REQUIRED",
   "date": "2026-08-31",
   "source": "execution/fixtures/burnout_safe_output/artifact-human-gate-v0.2.json",
-  "blind_comparisons": 3
+  "blind_comparisons": 3,
+  "pilot_preferences": 3,
+  "targeted_rerun": ["AHG-002", "AHG-003"]
 }

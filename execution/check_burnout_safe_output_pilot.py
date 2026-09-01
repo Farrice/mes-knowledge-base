@@ -19,7 +19,8 @@ V01_HUMAN = FIXTURE_DIR / "human-behavior-gate.json"
 V02_CONTRACT = FIXTURE_DIR / "artifact-comprehension-contract-v0.2.md"
 V02_CASES = FIXTURE_DIR / "artifact-cases-v0.2.json"
 V02_SABOTAGE = FIXTURE_DIR / "artifact-sabotage-v0.2.json"
-V02_HUMAN = FIXTURE_DIR / "artifact-human-gate-v0.2.json"
+V02_HUMAN_HISTORY = FIXTURE_DIR / "artifact-human-gate-v0.2.json"
+V02_HUMAN = FIXTURE_DIR / "artifact-human-gate-v0.2.1.json"
 CODEX_PATH = ROOT / "CODEX.md"
 
 ALLOWED_SURFACES = {"native_artifact", "markdown", "visual_brief"}
@@ -31,10 +32,7 @@ EXPECTED_SHAPES = {
     "decision", "comparison", "chronology", "evidence", "metrics",
     "implementation", "nuance", "tiny",
 }
-HUMAN_RATING_FIELDS = (
-    "faster_to_understand", "depth_preserved", "easier_to_act",
-    "representation_earned", "preferred_variant", "notes",
-)
+HUMAN_RATING_FIELDS = ("preferred_variant", "notes")
 FORBIDDEN_CHANGED_PATHS = {
     "AGENTS.md", "CLAUDE.md", ".codex/hooks.json",
     "directives/constitution/shared-blocks.md",
@@ -82,7 +80,7 @@ def validate_contracts() -> list[str]:
     ):
         require(phrase.lower() in v01_normalized.lower(), f"v0.1 history label missing: {phrase}")
     for phrase in (
-        "PILOT / SHADOW / HUMAN GATE PENDING",
+        "PILOT / SHADOW / TARGETED HUMAN GATE PENDING",
         "does not govern ordinary conversation or closeouts",
         "smallest sufficient representation wins", "Plain prose is not a failure",
         "Three Contextual Next Prompts", "No merge, global activation, hook change",
@@ -147,6 +145,28 @@ def validate_v01_human_verdict(human: dict[str, Any]) -> str:
         (pilot_preferences, ties, control_preferences) == (3, 2, 0),
         "v0.1 receipt must remain 3 pilot / 2 tie / 0 control",
     )
+    return "BEHAVIOR REFINEMENT REQUIRED"
+
+
+def validate_v02_round1(human: dict[str, Any]) -> str:
+    require(human.get("revision_required") is True, "v0.2 round-one refinement is not recorded")
+    nonempty(human.get("revision_reason"), "v0.2 round-one revision reason")
+    lock = human.get("preservation_lock") or {}
+    require(
+        set(lock) == {"keep", "change", "do_not_disturb", "risk", "gate"},
+        "v0.2 round one lacks a complete Preservation Lock",
+    )
+    for key, value in lock.items():
+        nonempty(value, f"v0.2 Preservation Lock {key}")
+    expected = {"AHG-001": "Y", "AHG-002": "X", "AHG-003": "Y"}
+    examples = human.get("examples") or []
+    require(len(examples) == 3, "v0.2 round one must retain three examples")
+    for item in examples:
+        require(
+            (item.get("ratings") or {}).get("preferred_variant") == expected.get(item.get("id")),
+            f"{item.get('id')} round-one preference drifted",
+        )
+        nonempty((item.get("ratings") or {}).get("notes"), f"{item.get('id')} round-one note")
     return "BEHAVIOR REFINEMENT REQUIRED"
 
 
@@ -217,6 +237,20 @@ def validate_case(case: dict[str, Any]) -> None:
     if case.get("surface") == "visual_brief":
         require(case.get("activate") is True, f"{case_id} forces a visual brief without activation")
         require(len(selected) >= 2, f"{case_id} visual brief has no material visual job")
+    if case_id == "AC-004":
+        example = case["example"].lower()
+        require(words(case["example"]) <= 75, "AC-004 loses value-per-word density")
+        for phrase in ("no proof", "what it does not prove", "run one paid test", "interest earns another test"):
+            require(phrase in example, f"AC-004 loses restored insight: {phrase}")
+        for phrase in ("category interest", "payment event"):
+            require(phrase not in example, f"AC-004 restores avoidable jargon: {phrase}")
+    if case_id == "AC-006":
+        example = case["example"].lower()
+        require(words(case["example"]) <= 50, "AC-006 loses value-per-word density")
+        for phrase in ("without touching", "try to break", "only then", "no merge"):
+            require(phrase in example, f"AC-006 loses restored insight: {phrase}")
+        for phrase in ("negative controls", "artifact-only fixtures", "human artifact ratings", "promotion decision"):
+            require(phrase not in example, f"AC-006 restores system jargon: {phrase}")
 
 
 def validate_corpus(corpus: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
@@ -235,10 +269,14 @@ def validate_corpus(corpus: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[
 def validate_human_gate(human: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]) -> str:
     require("status" not in human, "v0.2 human status must be computed")
     examples = human.get("examples") or []
-    require(human.get("required_example_count") == 3, "v0.2 human gate must remain three examples")
-    require(len(examples) == 3, f"expected 3 human examples, found {len(examples)}")
     require(
-        {item.get("task_type") for item in examples} == {"strategy", "research", "implementation"},
+        human.get("schema_version") == "artifact-comprehension-human-gate/v0.2.1",
+        "targeted human gate schema drift",
+    )
+    require(human.get("required_example_count") == 2, "targeted human gate must remain two examples")
+    require(len(examples) == 2, f"expected 2 targeted human examples, found {len(examples)}")
+    require(
+        {item.get("task_type") for item in examples} == {"research", "implementation"},
         "human task coverage drift",
     )
     pending = failed = False
@@ -249,11 +287,6 @@ def validate_human_gate(human: dict[str, Any], cases_by_id: dict[str, dict[str, 
         nonempty(item.get("control_response"), f"{item.get('id')} control")
         ratings = item.get("ratings") or {}
         require(tuple(ratings.keys()) == HUMAN_RATING_FIELDS, f"{item.get('id')} rating fields drifted")
-        for field in HUMAN_RATING_FIELDS[:4]:
-            value = ratings.get(field)
-            require(value in {True, False, None}, f"{item.get('id')} {field} is invalid")
-            pending = pending or value is None
-            failed = failed or value is False
         preference = ratings.get("preferred_variant")
         require(preference in {"X", "Y", "TIE", None}, f"{item.get('id')} preference is invalid")
         pending = pending or preference is None
@@ -292,6 +325,10 @@ def mutate_case(case: dict[str, Any], mutation: str) -> dict[str, Any]:
         case["representation_jobs"].pop("caveats")
     elif mutation == "imply_unsupported_certainty":
         case["certainty_claim"] = True
+    elif mutation == "drop_restored_insight":
+        case["example"] = "Category interest is supported, but willingness to pay remains untested. Continue with a paid test."
+    elif mutation == "restore_system_jargon":
+        case["example"] += " Run negative controls on artifact-only fixtures before the promotion decision."
     else:
         raise CheckFailure(f"unknown case mutation: {mutation}")
     return case
@@ -313,9 +350,9 @@ def run_sabotage(
     sabotage: dict[str, Any], cases_by_id: dict[str, dict[str, Any]], boundary: dict[str, Any]
 ) -> list[str]:
     items = sabotage.get("cases") or []
-    require(sabotage.get("required_sabotage_count") == 10, "sabotage count must remain ten")
-    require(len(items) == 10, f"expected 10 sabotage cases, found {len(items)}")
-    require(len({item.get("id") for item in items}) == 10, "sabotage IDs are duplicated")
+    require(sabotage.get("required_sabotage_count") == 12, "sabotage count must remain twelve")
+    require(len(items) == 12, f"expected 12 sabotage cases, found {len(items)}")
+    require(len({item.get("id") for item in items}) == 12, "sabotage IDs are duplicated")
     caught: list[str] = []
     for item in items:
         try:
@@ -334,7 +371,7 @@ def run_sabotage(
 
 def human_review_markdown(human: dict[str, Any], cases_by_id: dict[str, dict[str, Any]]) -> str:
     lines = [
-        "# Artifact Comprehension v0.2 — Human Gate", "",
+        "# Artifact Comprehension v0.2.1 — Targeted Human Gate", "",
         "Status: **HUMAN GATE PENDING**", "",
         "This review tests only substantial artifact presentation. It does not test or alter ordinary replies, closeouts, Clear Depth, or the global three-prompt system.",
         "",
@@ -350,19 +387,18 @@ def human_review_markdown(human: dict[str, Any], cases_by_id: dict[str, dict[str
         ])
     lines.extend([
         "## Rating Sheet", "",
-        "| Example | Preferred X/Y/TIE | Faster to understand? | Depth preserved? | Easier to act? | Representation earned its place? | Why? |",
-        "|---|---|---|---|---|---|---|",
-        "| AHG-001 |  |  |  |  |  |  |",
-        "| AHG-002 |  |  |  |  |  |  |",
-        "| AHG-003 |  |  |  |  |  |  |", "",
+        "| Example | Preferred X/Y/TIE | Why? |",
+        "|---|---|---|",
+        "| AHG-002R |  |  |",
+        "| AHG-003R |  |  |", "",
     ])
     return "\n".join(lines)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--require-behavior", action="store_true", help="Fail until v0.2 human behavior passes.")
-    parser.add_argument("--human-review", action="store_true", help="Print the three blind artifact comparisons.")
+    parser.add_argument("--require-behavior", action="store_true", help="Fail until the v0.2.1 targeted human gate passes.")
+    parser.add_argument("--human-review", action="store_true", help="Print the two targeted blind artifact comparisons.")
     parser.add_argument("--json", action="store_true", help="Print the computed receipt as JSON.")
     args = parser.parse_args()
     try:
@@ -371,6 +407,7 @@ def main() -> int:
         historical_status = validate_v01_human_verdict(load_json(V01_HUMAN))
         cases, boundary = validate_corpus(load_json(V02_CASES))
         cases_by_id = {case["id"]: case for case in cases}
+        round_one_status = validate_v02_round1(load_json(V02_HUMAN_HISTORY))
         human = load_json(V02_HUMAN)
         behavior_status = validate_human_gate(human, cases_by_id)
         caught = run_sabotage(load_json(V02_SABOTAGE), cases_by_id, boundary)
@@ -384,7 +421,8 @@ def main() -> int:
         "scope": "workspace branch; substantial artifacts only",
         "v0.1_status": historical_status,
         "structural_status": "PASS",
-        "v0.2_behavior_status": behavior_status,
+        "v0.2_round_one_status": round_one_status,
+        "v0.2.1_behavior_status": behavior_status,
         "fixtures": len(cases),
         "sabotage_caught": len(caught),
         "frozen_global_behavior": True,
@@ -397,10 +435,11 @@ def main() -> int:
         print("ARTIFACT COMPREHENSION SHADOW PILOT")
         print("STRUCTURAL PASS")
         print(f"v0.1: {historical_status}")
-        print(f"v0.2: {behavior_status}")
+        print(f"v0.2 round one: {round_one_status}")
+        print(f"v0.2.1 targeted rerun: {behavior_status}")
         print(f"- checks: {', '.join(contract_checks)}")
         print(f"- artifact fixtures: {len(cases)}/8")
-        print(f"- sabotage: {len(caught)}/10 caught")
+        print(f"- sabotage: {len(caught)}/12 caught")
         print(f"- changed paths: {len(changed)}; forbidden surfaces: 0")
         print("- CLEAR DEPTH / 3 NEXT PROMPTS / MERGE / GLOBAL / HOOKS UNCHANGED")
     if args.human_review:

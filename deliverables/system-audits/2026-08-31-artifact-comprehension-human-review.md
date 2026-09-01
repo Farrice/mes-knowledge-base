@@ -1,6 +1,10 @@
 # Artifact Comprehension v0.2 — Human Gate
 
-Status: **HUMAN GATE PENDING**
+Status: **ROUND 1 COMPLETE / BEHAVIOR REFINEMENT REQUIRED**
+
+Ratings: AHG-001 `Y`; AHG-002 `X` with Y's insights; AHG-003 `Y` with
+X's insights, less jargon, and higher value per word. AHG-001 is accepted.
+AHG-002 and AHG-003 continue in the targeted v0.2.1 review.
 
 This tests only substantial artifact presentation. It does not test or alter
 ordinary replies, closeouts, Clear Depth, or the global three-prompt system.

@@ -1,6 +1,6 @@
 # Artifact Comprehension Contract v0.2
 
-Status: `PILOT / SHADOW / HUMAN GATE PENDING`
+Status: `PILOT / SHADOW / TARGETED HUMAN GATE PENDING`
 
 Owner: `/system-audit`
 
@@ -91,15 +91,23 @@ The pilot must not alter:
 
 ## Human Behavior Gate
 
-Farrice reviews three artifact comparisons across strategy, research, and
-implementation. The gate passes only when each pilot artifact is:
+Round one preferred all three pilot structures: AHG-001 `Y`, AHG-002 `X`, and
+AHG-003 `Y`. AHG-001 is frozen as the good example. AHG-002 and AHG-003 require
+a targeted rerun because their preferred structures did not preserve enough of
+the prose controls' insight.
+
+The targeted gate passes only when each revised artifact is:
 
 1. faster to understand than the text-wall control;
 2. no shallower or less nuanced;
 3. easier to act from;
 4. free of decorative or redundant representation; and
-5. preferred or tied with a specific note explaining why the representation
+5. preferred or tied with a short note explaining why the representation
    earned its place.
+
+Farrice may answer naturally with `X`, `Y`, or `TIE` plus a short reason. The
+pilot does not require a separate rating grid; the reason is the behavior
+evidence.
 
 Missing ratings produce `HUMAN GATE PENDING`. Any explicit “this feels more
 systemized than useful” verdict produces `BEHAVIOR REFINEMENT REQUIRED`, even

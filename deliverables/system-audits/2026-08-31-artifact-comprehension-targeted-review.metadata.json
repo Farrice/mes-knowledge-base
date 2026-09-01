@@ -1,0 +1,8 @@
+{
+  "title": "Artifact Comprehension v0.2.1 — Targeted Human Gate",
+  "artifact_type": "human-review",
+  "status": "HUMAN GATE PENDING",
+  "date": "2026-08-31",
+  "source": "execution/fixtures/burnout_safe_output/artifact-human-gate-v0.2.1.json",
+  "blind_comparisons": 2
+}

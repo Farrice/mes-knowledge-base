@@ -1,0 +1,25 @@
+{
+  "schema_version": "artifact-comprehension-human-gate/v0.2.1",
+  "purpose": "Targeted blind rerun of the two artifacts that needed stronger insight density.",
+  "required_example_count": 2,
+  "examples": [
+    {
+      "id": "AHG-002R",
+      "task_type": "research",
+      "prompt": "Summarize the demand evidence without overstating buyer validation.",
+      "pilot_case_id": "AC-004",
+      "pilot_position": "Y",
+      "control_response": "# Demand Evidence\n\n## What changes\nCategory interest is supported; willingness to pay for this exact offer remains untested.\n\n| Claim | Support | Confidence | Implication |\n|---|---|---|---|\n| Buyers discuss the problem | Interview set | Verified | Continue |\n| They will buy this package | No payment event | Untested | Run a paid test |\n\n## Caveat\nAttention is not purchase behavior.",
+      "ratings": {"preferred_variant": null, "notes": null}
+    },
+    {
+      "id": "AHG-003R",
+      "task_type": "implementation",
+      "prompt": "Show how to build and validate the pilot while preserving the stop boundary.",
+      "pilot_case_id": "AC-006",
+      "pilot_position": "X",
+      "control_response": "# Shadow Pilot Plan\n\nEnd state: workspace proof, stopped before promotion.\n\n## Playbook\n1. Freeze the successful global behavior.\n2. Build artifact-only fixtures.\n3. Run negative controls.\n4. Collect human artifact ratings.\n\n## Flow\nFixtures → sabotage proof → human gate → explicit promotion decision\n\nStop before merge, hooks, or global activation.",
+      "ratings": {"preferred_variant": null, "notes": null}
+    }
+  ]
+}
