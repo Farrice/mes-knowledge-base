@@ -24,4 +24,3 @@ Build a repeatable, source-grounded ideation and creation loop. Do not optimize 
 ## Review finish line
 
 Stop when the source package passes, the skill and prompt are wired, all three profiles produce three distinct cards, all eight sabotage cases are rejected for the intended reason, and attention/pipeline metrics remain separate.
-

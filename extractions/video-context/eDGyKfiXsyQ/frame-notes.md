@@ -17,4 +17,3 @@
 - The source does not expose complete analytics, audience geography, lead records, appointment records, or closed transactions.
 - Sparse frame review cannot establish that every example used the same production format.
 - No visual claim about causal performance should be promoted from these frames.
-

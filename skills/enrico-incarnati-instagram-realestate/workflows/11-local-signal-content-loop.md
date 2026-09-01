@@ -248,4 +248,3 @@ Stop and surface the exact missing input when:
 Publishing, outreach, DM automation activation, and external writes require separate authorization.
 
 **Execution prompt:** `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/local-signal-content-loop.md`
-

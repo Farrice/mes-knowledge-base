@@ -152,4 +152,3 @@ The system should preserve local weirdness, lived taste, and the agent's actual 
 - A local development, business, event, observation, or saved content pattern needs an original angle.
 - The agent needs ideas that match their personality and production capacity.
 - A content calendar needs a conversation and learning loop rather than more volume.
-

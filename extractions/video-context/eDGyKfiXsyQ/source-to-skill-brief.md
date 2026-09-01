@@ -49,4 +49,3 @@ Turn current local sources, transferable content patterns, and lived observation
 ```
 
 The workflow must stop for missing factual sources or missing voice/conviction inputs rather than manufacturing local claims or opinions.
-
