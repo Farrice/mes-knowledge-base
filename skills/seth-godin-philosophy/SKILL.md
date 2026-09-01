@@ -1,9 +1,9 @@
 ---
 name: "Seth Godin — Strategic Philosophy"
 description: "Complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care"
-version: "1.2"
+version: "1.3"
 format: "completion-engine"
-workflows: 8
+workflows: 9
 ---
 
 # Seth Godin — Strategic Philosophy
@@ -27,6 +27,7 @@ This skill captures Seth Godin's complete philosophy of creative self-leadership
 | 06 | [Four Threads Strategy Compass](workflows/06-four-threads-strategy-compass.md) | Strategy One-Pager — Systems × Time × Games × Empathy diagnostic + becoming statement | Everything on the plan is tactics, "get the word out" appeared, or a market's front door won't open |
 | 07 | [Decision Quality Audit](workflows/07-decision-quality-audit.md) | Decision Quality Scorecard + constraint charter + tomorrow-once time reallocation | Re-litigating a decision by its outcome, facing a big fork, or drowning in yeses |
 | 08 | [Audience Truth Audit](workflows/08-audience-truth-audit.md) | Hidden Decision-Maker Map + Qualified Feedback Loop Design | Something isn't converting despite "obviously" fitting its audience, or public comments/reviews are quietly steering decisions |
+| 09 | [Problem-to-Action Loop](workflows/09-problem-to-action-loop.md) | Problem-to-Action Memo + reversible experiment + owned feedback loop + decision-once habit | A stuck state is tangled across fear, old commitments, false metrics, and incompatible demands, and you need the real problem plus one testable move |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -37,11 +38,12 @@ This skill captures Seth Godin's complete philosophy of creative self-leadership
 
 ## Execution Prompts (structure-pure v2)
 
-8 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+9 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Seth Godin — Audience Truth Audit** — `skills/seth-godin-philosophy/references/prompts-v2/audience-truth-audit.md`
 - **Seth Godin — Decision Quality Audit** — `skills/seth-godin-philosophy/references/prompts-v2/decision-quality-audit.md`
 - **Seth Godin — Four Threads Strategy Compass** — `skills/seth-godin-philosophy/references/prompts-v2/four-threads-strategy-compass.md`
+- **Problem-to-Action Memo — [short problem name]** — `skills/seth-godin-philosophy/references/prompts-v2/problem-to-action-memo.md`
 - **Seth Godin — Remarkability Audit** — `skills/seth-godin-philosophy/references/prompts-v2/remarkability-audit.md`
 - **Seth Godin — Resistance Breakthrough** — `skills/seth-godin-philosophy/references/prompts-v2/resistance-breakthrough.md`
 - **Seth Godin — Ship It Decision** — `skills/seth-godin-philosophy/references/prompts-v2/ship-it-decision.md`

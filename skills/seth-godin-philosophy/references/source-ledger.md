@@ -60,6 +60,30 @@
 | "authenticity is a crock no one wants you to be authentic" (Lewis Howes interview, timestamp 12:32) | **VERIFIED** | Found this session via full-archive content scan (not previously in `extractions/`): `_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/97b5eb7a-ccd4-42d5-b49d-e74bcd79632a.md`, title "Seth Godin: 'Why SPENDING MORE Time & Energy WON'T Make You SUCCESSFUL!' \| Seth Godin & Lewis Howes," created 2025-07-13, transcript timestamp 12:32. This upgrades genius.md's pre-existing Pattern 9 quote ("Authenticity is a crock") from previously-unverifiable to VERIFIED — a genuine Godin quote, just not from the file the extraction report implied. |
 | Pattern 28 "smallest nudge possible that is still scaffolding" (referenced in calibration section) | **LIKELY** | Pre-existing genius.md content, tranche 2 (2026-07-10) — source conversation located by title, not re-verified verbatim this pass (see Patterns 26-29 row above). |
 
-## Workflow Files (01-08)
+## Workflow Files (01-09)
 
 No factual claims requiring verification — workflows are process instructions built on the Patterns/Tacit Knowledge above, not independent claims. The only change made to workflows 01-05 this pass was a heading rename (`## Output Template` → `## Output Contract`) to match the house style already used in workflow 08 — no content, quote, or claim was altered.
+
+## 2026-08-12 BigDeal Interview Addition (Workflow 09)
+
+| Source | Location | Status |
+|---|---|---|
+| YouTube metadata | `extractions/video-context/o8yD6nt71Cs/metadata.json` | **VERIFIED** — public title, channel, duration, upload date, chapter map |
+| Auto-caption source | `extractions/video-context/o8yD6nt71Cs/transcript.vtt` | **VERIFIED AS SOURCE EVIDENCE** — auto-generated captions; transcription errors remain possible |
+| Clean reading transcript | `extractions/video-context/o8yD6nt71Cs/transcript.txt` | **VERIFIED DERIVATIVE** — 12,705 words reconstructed from timestamped JSON captions |
+| Timestamped segments | `extractions/video-context/o8yD6nt71Cs/transcript_segments.json` | **VERIFIED DERIVATIVE** — 1,978 non-empty caption segments |
+| Visual format sample | `extractions/video-context/o8yD6nt71Cs/frames/`, `contact-sheet.jpg`, `frame-notes.md` | **PARTIAL VISUAL VERIFIED** — 13 evenly sampled frames confirm a studio interview; no complete frame crawl/OCR pass |
+| Evidence map and limits | `video-context-ledger.md`, `uncertainty-report.md` in the same package | **VERIFIED LOCAL ARTIFACTS** |
+
+### Gap-Diff Ledger
+
+| Mechanic | Disposition | Reason |
+|---|---|---|
+| Problems vs situations; but-to-and; SVA; invisible-failure test; strategic quitting; qualified feedback; public role | **RECONFIRMED, NOT DUPLICATED** | Already encoded across Patterns 3-5, 9, 13, 22-27 and `seth-godin-marketing-mind` |
+| Decision-once craft; feedback-sponsor audit; four-horsemen protection diagnosis; actual-risk ladder; entanglement truth-to-habit; root-post diagnosis | **ADDED AS PATTERNS 30-35** | Source-backed additions or materially new composition |
+| Full problem-to-action sequence | **ADDED AS WORKFLOW 09** | Existing components lacked one end-to-end intervention from tangled state to experiment, signal, habit, and handoff |
+| New Seth Godin skill | **REJECTED** | Existing `seth-godin-philosophy` is the correct owner; a new skill would duplicate the stack |
+
+### Claim Boundary
+
+Workflow 09 depends on the source's operating mechanics, not on unverified interview anecdotes or biographical numbers. Any external claim from the interview remains **UNCONFIRMED** unless independently sourced.
