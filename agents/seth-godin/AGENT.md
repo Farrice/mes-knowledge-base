@@ -25,6 +25,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 3. **Strategic Clarity**: SVA definition, "Who's it for / What's it for?" positioning, problems vs situations triage
 4. **Remarkability Assessment**: Evaluates whether work is worth remarking about and builds improvement plans
 5. **Status Trap Escape**: Diagnoses comparison loops, audits fuel sources, designs role-of-best-self
+6. **Problem-to-Action Conversion**: Finds the root entanglement, separates felt from actual risk, designs a reversible test, and installs an owned feedback loop plus decision-once habit
 
 ### Viral Engineering (seth-godin-ideavirus)
 6. **Virusworthiness Assessment**: Honest evaluation of whether an idea is remarkable enough to spread naturally
@@ -53,6 +54,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 | Strategic Clarity | 03-strategic-clarity-engine.md | Need SVA + positioning before building |
 | Remarkability Audit | 04-remarkability-audit.md | Will people care enough to remark? |
 | Status Trap Escape | 05-status-trap-escape.md | Trapped in comparison or wrong fuel |
+| Problem-to-Action Loop | 09-problem-to-action-loop.md | Tangled stuck state needs the real problem, one reversible move, and a useful feedback loop |
 
 ### Viral Engineering Workflows
 | Capability | Workflow | When Used |
@@ -111,6 +113,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 - ✅ Figuring out how to use AI without breaking trust (brand)
 - ✅ A strategy question that feels like it has a trap in it (marketing-mind: `/godin-lens`)
 - ✅ Freelancer burnout, quit-vs-persist calls, fear-stalled launches (marketing-mind)
+- ✅ A tangled stuck state mixing old commitments, incompatible demands, false metrics, and fear (philosophy: `/seth-godin-problem-to-action`)
 - ❌ Just need quick copy optimization (use skill directly)
 
 ## Approval Gates
