@@ -47,9 +47,27 @@ def nonempty(value: Any) -> bool:
     return value is not None
 
 
-def marker_present(text: str, markers: list[str]) -> bool:
+def marker_present(text: str, markers: list[str], kind: str = "detail") -> bool:
     haystack = normalized(text)
-    return any(normalized(marker) in haystack for marker in markers if marker.strip())
+    if any(normalized(marker) in haystack for marker in markers if marker.strip()):
+        return True
+    if kind != "limit":
+        return False
+
+    sentences = [sentence.strip() for sentence in re.split(r"[.!?]+", normalized(text))]
+    for marker in markers:
+        core = normalized(marker)
+        core = re.sub(r"^(?:do not|don't|never|no)\s+", "", core)
+        if not core:
+            continue
+        for sentence in sentences:
+            position = sentence.find(core)
+            if position < 0:
+                continue
+            prefix = sentence[max(0, position - 120) : position]
+            if re.search(r"\b(?:no|not|never|cannot|can't|without)\b", prefix):
+                return True
+    return False
 
 
 def validate_packet(packet: Any) -> dict[str, Any]:
@@ -229,7 +247,7 @@ def evaluate(packet: dict[str, Any]) -> dict[str, Any]:
 
         for surface in required_in:
             text = artifact_text if surface == "artifact" else playback_text
-            if marker_present(text, markers):
+            if marker_present(text, markers, kind):
                 preserved.append({"field": item_id, "surface": surface})
                 continue
             approval_key = item_id

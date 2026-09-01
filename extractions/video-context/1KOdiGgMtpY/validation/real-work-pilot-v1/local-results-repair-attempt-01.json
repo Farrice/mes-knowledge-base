@@ -1,0 +1,173 @@
+{
+  "schema_version": "signal-fidelity-local-results/v1",
+  "status": "LOCAL_BUILDER_CONTROLLED",
+  "outcome": "REVISE_SHADOW",
+  "conclusion_ceiling": "ADVANCE_TO_HUMAN_BLIND",
+  "wins": {
+    "treatment": 1,
+    "baseline": 0,
+    "tie": 2
+  },
+  "material_literal_deltas": 3,
+  "proof_inflation_events": 0,
+  "false_blocks": 0,
+  "added_user_questions": 0,
+  "independent_human_blind": "PENDING",
+  "creative_range_judgment": "PENDING_HUMAN",
+  "cases": [
+    {
+      "case": "strategy",
+      "blind_verdict": "treatment",
+      "arms_by_label": {
+        "B": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/strategy-baseline.md",
+          "words": 110,
+          "word_cap": 160,
+          "within_cap": true,
+          "literal_total": 5,
+          "literal_covered": 2,
+          "covered_ids": [
+            "no-build",
+            "payment-truth"
+          ],
+          "missing_ids": [
+            "t1-gate",
+            "two-test-cap",
+            "umbrella-falsifier"
+          ],
+          "manual_checks": [],
+          "proof_inflation": false,
+          "can_block": false
+        },
+        "A": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/strategy-treatment.md",
+          "words": 125,
+          "word_cap": 160,
+          "within_cap": true,
+          "literal_total": 5,
+          "literal_covered": 5,
+          "covered_ids": [
+            "no-build",
+            "payment-truth",
+            "t1-gate",
+            "two-test-cap",
+            "umbrella-falsifier"
+          ],
+          "missing_ids": [],
+          "manual_checks": [],
+          "proof_inflation": false,
+          "can_block": false
+        }
+      },
+      "label_reveal": {
+        "treatment": "A",
+        "baseline": "B"
+      }
+    },
+    {
+      "case": "content",
+      "blind_verdict": "tie",
+      "arms_by_label": {
+        "B": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/content-baseline.md",
+          "words": 154,
+          "word_cap": 170,
+          "within_cap": true,
+          "literal_total": 2,
+          "literal_covered": 2,
+          "covered_ids": [
+            "ag1-hedge",
+            "study-boundary"
+          ],
+          "missing_ids": [],
+          "manual_checks": [
+            "human-scene",
+            "two-funnel-frame",
+            "humanity-line",
+            "two-number-test"
+          ],
+          "proof_inflation": false,
+          "can_block": false
+        },
+        "A": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/content-treatment.md",
+          "words": 163,
+          "word_cap": 170,
+          "within_cap": true,
+          "literal_total": 2,
+          "literal_covered": 2,
+          "covered_ids": [
+            "ag1-hedge",
+            "study-boundary"
+          ],
+          "missing_ids": [],
+          "manual_checks": [
+            "human-scene",
+            "two-funnel-frame",
+            "humanity-line",
+            "two-number-test"
+          ],
+          "proof_inflation": false,
+          "can_block": false
+        }
+      },
+      "label_reveal": {
+        "treatment": "A",
+        "baseline": "B"
+      }
+    },
+    {
+      "case": "handoff",
+      "blind_verdict": "tie",
+      "arms_by_label": {
+        "B": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/handoff-baseline.md",
+          "words": 101,
+          "word_cap": 135,
+          "within_cap": true,
+          "literal_total": 6,
+          "literal_covered": 4,
+          "covered_ids": [
+            "direction-one",
+            "palette-lock",
+            "parallel-ban",
+            "premium-parent"
+          ],
+          "missing_ids": [
+            "owners",
+            "rebrand-risk"
+          ],
+          "manual_checks": [],
+          "proof_inflation": false,
+          "can_block": false
+        },
+        "A": {
+          "path": "extractions/video-context/1KOdiGgMtpY/validation/real-work-pilot-v1/candidates/handoff-treatment.md",
+          "words": 123,
+          "word_cap": 135,
+          "within_cap": true,
+          "literal_total": 6,
+          "literal_covered": 4,
+          "covered_ids": [
+            "direction-one",
+            "owners",
+            "premium-parent",
+            "rebrand-risk"
+          ],
+          "missing_ids": [
+            "palette-lock",
+            "parallel-ban"
+          ],
+          "manual_checks": [],
+          "proof_inflation": false,
+          "can_block": false
+        }
+      },
+      "label_reveal": {
+        "treatment": "A",
+        "baseline": "B"
+      }
+    }
+  ],
+  "failures": []
+}

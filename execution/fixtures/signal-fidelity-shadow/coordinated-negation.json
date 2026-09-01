@@ -1,0 +1,20 @@
+{
+  "signal_contract": {
+    "recipient": "visual operator",
+    "intended_change": "continue the approved visual direction",
+    "source_of_conviction": "the approved parent already carries the right positioning",
+    "promise": "build one bounded vertical mode",
+    "limit": "no new palette and no parallel brand system",
+    "proof_state": "UNTESTED",
+    "human_owner": "Farrice",
+    "source_path": "approved visual handoff",
+    "must_survive": [
+      {"id": "palette-lock", "kind": "limit", "markers": ["no new brand palette"], "required_in": ["artifact"]},
+      {"id": "parallel-ban", "kind": "limit", "markers": ["do not create a parallel brand system"], "required_in": ["artifact"]}
+    ]
+  },
+  "artifact_text": "Do not rebuild the strategy, add a new brand palette, or create a parallel brand system.",
+  "playback_text": "The operator must remain inside the approved parent.",
+  "artifact_proof_state": "UNTESTED",
+  "owner_approved_changes": []
+}

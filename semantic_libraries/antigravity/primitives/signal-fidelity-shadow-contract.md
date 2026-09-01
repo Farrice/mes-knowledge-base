@@ -90,6 +90,10 @@ Do not exact-match metaphor, productive ambiguity, voice texture, or deliberate
 reframing. Mark those items `manual`; the evaluator may preserve a human review
 cue but may not call the phrasing difference distortion.
 
+Literal limit checks may recognize bounded grammatical negation within one
+sentence (for example, “do not add a palette or create a parallel system”). They
+must still reject the same boundary words when stated positively.
+
 ### Machine Distortion
 
 Question: did formatting, summarizing, optimizing, or remixing retain the attractive promise while dropping its limit, changing the proof state, or broadening the scope?

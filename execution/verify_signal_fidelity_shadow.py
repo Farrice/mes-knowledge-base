@@ -157,6 +157,16 @@ def main() -> int:
     if sparse["decision"] != "NOT_RUN" or sparse["distortion_hypotheses"] or sparse["human_review"]:
         failures.append("explicitly unselected sparse brief should produce no warning or question burden")
 
+    coordinated = evaluate(load_fixture("coordinated-negation.json"))
+    if coordinated["decision"] != "CLEAR" or coordinated["distortion_hypotheses"]:
+        failures.append("coordinated negation should preserve both declared limits")
+
+    breached = evaluate(load_fixture("positive-boundary-breach.json"))
+    if not {"palette-lock", "parallel-ban"}.issubset(
+        {item["field"] for item in breached["distortion_hypotheses"]}
+    ):
+        failures.append("positive boundary language was incorrectly treated as a preserved negative limit")
+
     for report_name, report in (
         ("preserved", preserved),
         ("source", source),
@@ -166,6 +176,8 @@ def main() -> int:
         ("metaphor", metaphor),
         ("ambiguous", ambiguous),
         ("sparse", sparse),
+        ("coordinated", coordinated),
+        ("breached", breached),
     ):
         if report.get("enforcement") is not False or report.get("can_block") is not False:
             failures.append(f"{report_name} report claims enforcement or blocking authority")
@@ -196,6 +208,7 @@ def main() -> int:
     print("- restraint control: owner-approved adaptation remains REVIEW and is not called distortion")
     print("- creative restraint: metaphor and ambiguity route to manual review without distortion claims")
     print("- burden restraint: explicitly unselected sparse work returns NOT_RUN with no questions")
+    print("- boundary syntax: coordinated negation is preserved without accepting positive boundary breaches")
     print("- enforcement: none; valid packets exit 0")
     print("- hot surfaces: none")
     return 0
