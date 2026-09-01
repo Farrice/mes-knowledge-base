@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-09-01 | 1350 sources | 3,763,780 words*
+*Generated: 2026-09-01 | 1365 sources | 3,766,735 words*
 
 ---
 
@@ -20,16 +20,16 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 421 | kallaway |
-| copywriting | 254 | jason-fladlien |
-| general | 144 | nick-saraev |
-| screenwriting | 143 | connelly |
-| strategy | 134 | april-dunford |
-| brand | 73 | oren-john |
+| content | 422 | kallaway |
+| copywriting | 260 | jason-fladlien |
+| general | 148 | nick-saraev |
+| screenwriting | 144 | connelly |
+| strategy | 135 | april-dunford |
+| brand | 74 | oren-john |
 | systems | 68 | nick-saraev |
 | research | 51 | jason-fladlien |
 | seo | 49 | nathan-gotch |
-| sales | 13 | dai-media |
+| sales | 14 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

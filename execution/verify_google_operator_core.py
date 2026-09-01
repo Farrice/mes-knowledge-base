@@ -186,7 +186,6 @@ def check_hook_parity() -> list[str]:
                 if command:
                     commands.append(command)
 
-    # 9 = 6 original + 2 orphan hooks + document-placement parity.
     if len(commands) != 9:
         fail(f"Expected 9 hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
@@ -195,10 +194,18 @@ def check_hook_parity() -> list[str]:
         fail("Codex hook bridge is missing dangerous-git protection")
     if not any("artifact-placement" in command for command in commands):
         fail("Codex hook bridge is missing document-placement hygiene")
+    pretool_matchers = [str(group.get("matcher") or "")
+                        for group in data.get("hooks", {}).get("PreToolUse", [])]
+    if not any(all(name in matcher for name in ("Bash", "Write", "Edit", "apply_patch"))
+               for matcher in pretool_matchers):
+        fail("Main-write guard matcher does not cover Bash and native write tools")
+    dangerous_guard = (ROOT / ".codex" / "tools" / "codex_dangerous_git_guard.py").read_text()
+    if "main_write_verdict" not in dangerous_guard:
+        fail("Codex dangerous-git bridge is missing main-write ownership enforcement")
     if any("CLAUDE_PROJECT_DIR" in command for command in commands):
         fail(".codex/hooks.json still directly depends on CLAUDE_PROJECT_DIR")
     receipts.append(
-        "hooks.json uses codex_hook_runner.py for all 9 hooks, including dangerous-git and artifact-placement"
+        "hooks.json keeps 9 trusted commands and extends dangerous-git with main-write ownership"
     )
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
@@ -332,6 +339,12 @@ def check_integration_only_main() -> list[str]:
         )
         if init.returncode != 0:
             fail(f"temporary git init failed: {init.stderr.strip()}")
+        subprocess.run(["git", "-C", str(temp_root), "config", "user.email", "guard@example.test"])
+        subprocess.run(["git", "-C", str(temp_root), "config", "user.name", "Guard Test"])
+        tracked = temp_root / "tracked.md"
+        tracked.write_text("baseline\n", encoding="utf-8")
+        subprocess.run(["git", "-C", str(temp_root), "add", "tracked.md"])
+        subprocess.run(["git", "-C", str(temp_root), "commit", "-qm", "baseline"])
         for source in ("startup", "resume"):
             payload = json.dumps(
                 {
@@ -355,6 +368,18 @@ def check_integration_only_main() -> list[str]:
                     f"{proc.stdout.strip() or '<no output>'}"
                 )
         receipts.append("fresh and resumed main sessions route writers to AUTO-LANE")
+
+        tracked.write_text("dirty\n", encoding="utf-8")
+        payload = json.dumps(
+            {"session_id": "verify-dirty-main", "source": "startup", "cwd": str(temp_root)}
+        )
+        proc = subprocess.run(
+            [sys.executable, str(hook)], cwd=temp_root, text=True,
+            capture_output=True, input=payload,
+        )
+        if "MAIN DIRTY" not in proc.stdout or "tracked.md" not in proc.stdout:
+            fail(f"dirty main was not surfaced with exact paths: {proc.stdout.strip()}")
+        receipts.append("dirty main is surfaced at session start with exact tracked paths")
     return receipts
 
 

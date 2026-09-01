@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Codex PreToolUse guard for destructive git commands.
+"""Codex PreToolUse guard for main-write ownership and destructive Git.
 
-This mirrors the Claude Code dangerous-git hook without depending on
-CLAUDE_PROJECT_DIR or editing the `.claude/` surface.
+This keeps the already-trusted Codex hook command as the stable bridge while
+extending it to all write-class tools. The shared policy stays in
+``execution/hooks/main_write_guard.py``.
 """
 
 from __future__ import annotations
@@ -10,6 +11,12 @@ from __future__ import annotations
 import json
 import re
 import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "execution" / "hooks"))
+from main_write_guard import verdict as main_write_verdict  # noqa: E402
 
 
 # Destructive only. Plain `git push` was in this list until 2026-07-27 and was
@@ -36,6 +43,16 @@ def main() -> int:
         payload = json.loads(raw) if raw.strip() else {}
     except Exception:
         return 0
+
+    allowed, reason = main_write_verdict(payload if isinstance(payload, dict) else {})
+    if not allowed:
+        print(
+            "MAIN WRITE GUARD — BLOCKED: main is integration-only "
+            f"({reason}). Create or enter a worktree lane, make the change there, "
+            "then use the audited lane merge path.",
+            file=sys.stderr,
+        )
+        return 2
 
     if payload.get("tool_name") != "Bash":
         return 0

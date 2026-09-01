@@ -131,6 +131,23 @@ def main():
             f"POWER); clean work auto-merges into main and conflicts park safely.{sibling_note} "
             f"{lock_line}."
         )
+        try:
+            import subprocess
+            dirty = subprocess.run(
+                ["git", "-C", str(main_tree), "status", "--porcelain", "--untracked-files=no"],
+                capture_output=True, text=True, timeout=10,
+            )
+            rows = [line for line in dirty.stdout.splitlines() if line.strip()]
+            if rows:
+                paths = ", ".join(line[3:] for line in rows[:5])
+                extra = f" +{len(rows) - 5} more" if len(rows) > 5 else ""
+                print(
+                    f"⚠ MAIN DIRTY: {len(rows)} tracked change(s) already exist on the "
+                    f"integration tree — {paths}{extra}. Do not add more work here; preserve "
+                    f"and reconcile the existing paths before merging any lane."
+                )
+        except Exception:
+            pass
 
     # Lane siblings are informational — they can't collide with this tree.
     if fresh_lane_sessions and not in_lane:
