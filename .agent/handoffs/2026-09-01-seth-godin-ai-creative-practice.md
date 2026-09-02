@@ -1,24 +1,25 @@
 ---
 thread: seth-godin-ai-creative-practice
-status: ready
-resume_hint: Run the final integration checkpoint and merge the parked branch only if all recorded Godin and current control-plane gates remain green.
-unfinished: Integration is not yet performed; recognition remains B-tier and production traction remains NO EVENT.
-branch: codex/seth-godin-ai-creative-practice
-pin: true
+status: done
+resume_hint: Start a separate production experiment only after explicit approval for payment setup or private outreach.
+unfinished: None for implementation or integration; recognition remains B-tier and production traction remains NO EVENT by design.
+branch: codex/seth-godin-ai-creative-practice-closeout-receipt
+pin: false
 ---
 
-# Extraction: Seth Godin AI Creative Practice - Ready for Integration
+# Extraction: Seth Godin AI Creative Practice - Integrated and Verified
 
 ## Completed
 
 - Extracted the complete 3,729-second Seth Godin video into a source-grounded package with 1,574 caption segments, checksums, timestamped evidence, uncertainty classifications, and seven selected frames.
 - Extended `seth-godin-philosophy` with `/godin-ai-creative-practice`, two v2 execution prompts, generated command/index wiring, routing controls, and baseline-versus-treatment behavior proof.
-- Cleared the three originally documented external prerequisites, ran a genuinely blind recognition test, and generated the first publish-off production receipt. The honest recognition tier is B, and the production decision is STOP until human-owned payment setup and private outreach create real evidence.
-- Re-ran the current Operator Core, control-plane, global sync, Codex authority, end-session, source-to-skill-system, and live-surface gates at closeout; all passed.
+- Cleared the three documented external prerequisites, ran a genuinely blind recognition test, and generated the first publish-off production receipt. The honest recognition tier is B, and the production decision remains STOP until a human-owned experiment creates real evidence.
+- Ran the final integration checkpoint with every recorded Godin and control-plane gate green, then merged `codex/seth-godin-ai-creative-practice` through `worktree_lane.py` into `main` at merge commit `0cccb10be` with post-merge index commit `a72711ef9`.
+- Reconfirmed the full source count, workflow contract, behavior criteria, honest recognition tier, production boundary, and 14/14 Operator Core checks on integrated `main`.
 
 ## Remaining Priority
 
-- Run the final authorized integration checkpoint: confirm the recorded Godin suite and the now-green current control-plane gates still pass, then merge `codex/seth-godin-ai-creative-practice` through `worktree_lane.py`. The closeout did not commit, push, merge, or write global closeout state because the non-dry-run coordinator required separate approval. After integration, the first traction event must come from human-approved payment setup and private outreach; do not generate more assets as a substitute.
+- None for this implementation. A payment-enabled or private-outreach traction experiment is a separate future project requiring explicit approval; it is not unfinished closeout work.
 
 ## Core Context Paths
 
@@ -29,31 +30,31 @@ pin: true
 
 ## Decision Boundaries
 
-- Keep the Godin implementation unchanged during the final integration checkpoint.
-- Do not merge unless the complete canonical suite is green.
+- Keep the implementation skill-local until production evidence supports any broader promotion.
 - Do not publish, send outreach, configure payments, or promote the behavior globally without explicit approval and real traction evidence.
 - Preserve the distinction between source-grounded interview claims and independently verified facts.
 
 ## Do Not Rebuild
 
-- Do not re-extract the video or recreate the skill system; the complete package and two clean commits already exist on the parked branch.
-- Do not reinterpret the blind failure as A-tier or use the locally complete artifact as evidence of market traction.
-- Do not widen the Godin implementation or reinterpret the green control-plane snapshot as approval to promote the behavior globally.
+- Do not re-extract the video, recreate the skill system, or reopen integration work; the complete package is merged and verified on `main`.
+- Do not reinterpret the blind result as A-tier or the locally complete artifact as evidence of market traction.
+- Do not widen the implementation or promote it into global Operator Core behavior without successful production evidence.
 
 ## Suggested Skills
 
-- `source-to-skill-system` for the final connected-system verification and integration checkpoint.
-- `system-audit` only if a control-plane gate regresses before merge.
-- `godin-ai-creative-practice` for the next production review only after a human-owned experiment creates new traction evidence.
+- `godin-ai-creative-practice` for a future human-owned traction experiment.
+- `source-to-skill-system` only if a new approved source materially expands this capability.
+- `system-audit` only if a future control-plane regression affects this route.
 
 ## Next-Time Prompt
 
-Run the final integration checkpoint for `codex/seth-godin-ai-creative-practice`: preserve the Godin implementation, confirm the recorded Godin gates and current control-plane gates remain green, then merge through `worktree_lane.py`; do not publish, promote globally, or create new assets.
+Start a separate production task using `/godin-ai-creative-practice` on one current project, keep publishing off until explicitly approved, require a real payment or reply signal, and preserve the existing B-tier recognition and NO EVENT evidence boundaries.
 
 ## Subagent Worth It?
 
-No for final integration: one owner should rerun the gates and merge the parked branch. Use a fresh-context read-only judge only for a later recognition retest after new evidence warrants it.
+No by default. Use a fresh-context read-only judge only for a later recognition retest after the implementation has materially changed.
 
 ## Reuse Hook
 
-Run `/resume seth-godin-ai-creative-practice`, load the four core paths above, and continue from commit `e354c2c1a` rather than redoing extraction or skill design.
+Use `/resume seth-godin-ai-creative-practice` only for historical context; start a new task for any production experiment rather than reopening this completed integration.
+
