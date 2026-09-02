@@ -1,0 +1,43 @@
+{
+  "out": "04-attract-900k-two-zips",
+  "lockup": true,
+  "out_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14",
+  "beats": [
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/vannuys-blvd-2024.jpg",
+      "line": "$900K in sherman oaks.<br>$900K in van nuys.<br>same week.",
+      "size": 86,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/california-bungalow-00.jpg",
+      "line": "sherman oaks. $899,900.<br>1 bed. 1 bath.<br>a big lot and a plan.",
+      "size": 83,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/front-door-house-00.jpg",
+      "line": "van nuys. $888,000.<br>4 bed. 2 bath.<br>1,576 square feet.",
+      "size": 90,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/suburban-neighborhood-aerial-02.jpg",
+      "line": "neither one is wrong.<br>they&#8217;re two different<br>ten-year plans.",
+      "size": 90,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/jen-porch-vannuys.jpg",
+      "line": "tell me the zip you<br>keep coming back to.<br>i&#8217;ll tell you what it costs.",
+      "size": 68,
+      "hand": "my DMs are open &#8594;",
+      "secs": 5,
+      "zoom": "in"
+    }
+  ]
+}

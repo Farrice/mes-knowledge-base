@@ -74,6 +74,7 @@ slides["PH3"] = f'''<div style="{FRAME} background: #1E2430;">
 {lockup()}
 </div>'''
 
-for name, html in slides.items():
-    (OUT / f"{name}.dc.html").write_text(HEAD_PHOTO.format(body=html))
-print("wrote", ", ".join(slides))
+if __name__ == "__main__":
+    for name, html in slides.items():
+        (OUT / f"{name}.dc.html").write_text(HEAD_PHOTO.format(body=html))
+    print("wrote", ", ".join(slides))

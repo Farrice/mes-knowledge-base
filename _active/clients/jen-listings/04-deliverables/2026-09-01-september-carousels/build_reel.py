@@ -19,7 +19,7 @@ def run(cmd):
     return subprocess.run(cmd, check=True, capture_output=True, text=True)
 
 
-def overlay_html(line, hand, lockup):
+def overlay_html(line, hand, lockup, size=104):
     lk = f'''<div style="position:absolute;left:0;right:0;bottom:120px;display:flex;flex-direction:column;align-items:center;gap:2px;">
       <span style="{HAND} font-size:54px;color:#fff;line-height:1;">Jen Santulan</span>
       <span style="{SANS} font-size:17px;letter-spacing:.34em;color:rgba(255,255,255,.88);">REALTOR&#174; &#183; SAN FERNANDO VALLEY</span></div>''' if lockup else ""
@@ -29,7 +29,7 @@ def overlay_html(line, hand, lockup):
 <style>html,body{{margin:0;width:{W}px;height:{H}px;background:transparent;overflow:hidden}}</style>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,20,30,.18) 0%,rgba(15,20,30,.42) 55%,rgba(15,20,30,.62) 100%);"></div>
 <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;padding:0 90px 160px;">
-  <div style="{SERIF} font-size:104px;line-height:1.04;letter-spacing:-.02em;color:#fff;text-align:center;text-shadow:0 2px 28px rgba(0,0,0,.35);">{line}</div>
+  <div style="{SERIF} font-size:{size}px;line-height:1.04;letter-spacing:-.02em;color:#fff;text-align:center;text-shadow:0 2px 28px rgba(0,0,0,.35);">{line}</div>
   {hd}
 </div>
 {lk}'''
@@ -41,13 +41,13 @@ def main():
     if tmp.exists():
         shutil.rmtree(tmp)
     tmp.mkdir()
-    out_dir = HERE / "video"
+    out_dir = pathlib.Path(spec["out_dir"]) if spec.get("out_dir") else HERE / "video"
     out_dir.mkdir(exist_ok=True)
     parts = []
     for k, b in enumerate(spec["beats"]):
         html = tmp / f"o{k}.html"
         png = tmp / f"o{k}.png"
-        html.write_text(overlay_html(b["line"], b.get("hand", ""), spec.get("lockup", True)))
+        html.write_text(overlay_html(b["line"], b.get("hand", ""), spec.get("lockup", True), b.get("size", 104)))
         run([CHROME, "--headless", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
              "--default-background-color=00000000", f"--window-size={W},{H}", "--virtual-time-budget=2500",
              f"--screenshot={png}", html.as_uri()])

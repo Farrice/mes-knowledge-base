@@ -1,0 +1,36 @@
+{
+  "out": "03-convert-5421-bothwell",
+  "lockup": true,
+  "out_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07",
+  "beats": [
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/sfv-aerial-nara.jpg",
+      "line": "Three Structures.<br>One Lot. Tarzana.",
+      "size": 100,
+      "secs": 4,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/sunlight-through-window-floor-00.jpg",
+      "line": "The Living Room Opens<br>to the Pool<br>on Pocket Doors.",
+      "size": 91,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/california-bungalow-00.jpg",
+      "line": "882 Sq Ft Guest House.<br>Its Own Kitchen.<br>Not a Converted Garage.",
+      "size": 83,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/jen-frontdoor.jpg",
+      "line": "5421 Bothwell Rd.<br>$5,695,000.",
+      "size": 100,
+      "hand": "DM for a private showing &#8594;",
+      "secs": 5,
+      "zoom": "out"
+    }
+  ]
+}
