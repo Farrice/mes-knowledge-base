@@ -13,25 +13,26 @@ The place-magazine surface for @_jiing. A series someone publishes, edition by e
 |---|---|---|
 | ink | #1E3A5F | never on photos; reserved for paper pages if ever |
 | cream | #F7F5F2 | headline base, body on dark |
-| ivory-gradient | #FFF3D6 → #F7F5F2 → #FFFFFF | the vintage-gem headline fill (replaces the template's yellow) |
+| headline-gradient | #C9D4E2 → #EEF2F7 → #FFFFFF, 135° | the vintage-gem headline fill in the template's yellow slot (pale steel to white; ivory retired 2026-09-02, read flat) |
+| accent | #C9D4E2 | doodles, pill stroke, sparkle: the one accent color, in the yellow's role |
 | steel | #4C7CA8 | never on photos; tiny labels on paper only |
 | white | #FFFFFF | body copy, pills, rules |
 | wash | #0F141E | the gradient color over photos |
 
-## 3. Type (three families, never a fourth)
+## 3. Type (three families, never a fourth; Playfair retired 2026-09-02 after Farrice's verdict on the first render)
 | role | face | size | notes |
 |---|---|---|---|
-| headline | Playfair Display 400 / 700, italic for the connector | 150–190px cover, 106px interior statement, 93px grid entry | 1–4 words, two lines max, `fit()` never lets a line wrap; the templates' faces run ~0.31em/char and Playfair ~0.5em, so fitted sizes land at roughly three-quarters of the template's number, and a two-line D1 headline is capped to end above the pill (`headline_size()`) |
-| connector | Playfair Display italic | 40–50% of the headline size | one short word ("this is", "the", "for", "in") bridging two headline clauses |
-| masthead / eyebrow / footer | Jost 500, tracked caps 0.22em | 24–28px | "JEN SANTULAN · THE VALLEY", "TARZANA · EDITION 01", "@_JIING", "01 / 05" |
-| subline / body | Jost 300–400 | 26–40px, line-height 1.4 | 1–3 short lines, never a paragraph |
+| headline | Instrument Serif 400, italic for the connector (the template's tall condensed serif; Playfair read generic) | 150–190px cover, 106px interior statement, 93px grid entry | 1–4 words, two lines max, `fit()` never lets a line wrap; the templates' faces run ~0.31em/char and Playfair ~0.5em, so fitted sizes land at roughly three-quarters of the template's number, and a two-line D1 headline is capped to end above the pill (`headline_size()`) |
+| connector | Instrument Serif italic | 40–50% of the headline size | one short word ("this is", "the", "for", "in") bridging two headline clauses |
+| masthead / eyebrow / footer / pill / label | Instrument Serif caps, tracking −0.01em (the template sets every role in one face; Jost caps survive only in D2/D4/D5 grammars) | 24–28px | "JEN SANTULAN · THE VALLEY", "TARZANA · EDITION 01", "@_JIING", "01 / 05" |
+| subline / body | Instrument Serif 400 on D1 pages (28–30px, lh 1.35); Jost 300 on D2/D4/D5 | 26–40px | 1–3 short lines, never a paragraph |
 | hand | Caveat 500 | 44–56px | the one handwritten line ("my DMs are open →"), never a headline |
 
 ## 4. Wash overlay
-Black-to-transparent linear gradient over every photo: `wash 60% → 43% at half → 0%`, rotated so the dark end sits at the headline's corner. Interior pages that carry a tall headline use the plateau: `60 / 55 / 55 / 42%`. Optional 10% grain rect on every page (Design 5's move) for the vintage editions.
+Black-to-transparent linear gradient over every photo, light enough that the photo carries the frame: cover `wash 60/55/55 → 0% at 71%`; interior/close `55/48/46/34%` (the first render's 60/55/55/42 read murky), rotated so the dark end sits at the headline's corner. Interior pages that carry a tall headline use the plateau: `60 / 55 / 55 / 42%`. Optional 10% grain rect on every page (Design 5's move) for the vintage editions.
 
 ## 5. Accents
-One per frame, cream, hand-drawn SVG (single stroke): an arrow, a smiley, a sparkle, a ring badge. Off-axis by design: 7° on a stripe, −3° on an accent word. Never two accents on one frame.
+One per frame (the cover carries the template's two: smiley + arrow with its long tail), accent #C9D4E2, hand-drawn SVG, 7px stroke: an arrow, a smiley, a sparkle, a ring badge. Off-axis by design: 7° on a stripe, −3° on an accent word. Never two accents on one frame.
 
 ## 6. Page archetypes
 | archetype | from | what it is | Jen's use |

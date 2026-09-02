@@ -549,7 +549,7 @@ def canvas(title="The Valley · Tarzana · Edition 01", filename="tarzana-editio
         "artboards": layout,
         "annotations": [
             {"id": "row-edition", "x": 0, "y": -150, "w": 560, "text": "Tarzana · Edition 01 · five frames on the Local Gem grammar (Design 1, geometry unmoved). Copy: edition-01/CONTENT-PACK.md. Every number labeled there."},
-            {"id": "plates-pending", "x": W + gap, "y": H + 20, "w": 520, "text": "Frames 2 and 4: the dark panels are photo slots. Plates A–E (Laidrey, a Tarzana street, a porch step) generate after your go on the cost gate, ~$1–3 total. Her own photo of Laidrey beats a plate."},
+            {"id": "plates-pending", "x": W + gap, "y": H + 20, "w": 520, "text": "Frames 2 and 4 carry demo placeholders (her Bothwell kitchen and living room, her older listing, two CC0 pool shots). The real plates A–E (Laidrey storefront, a Tarzana street, a porch step) generate after your go on the cost gate, ~$1–3 total. Her own photo of Laidrey beats a plate."},
             {"id": "row-sheet", "x": 0, "y": H + 260 - 150, "w": 560, "text": "System sheet · the same cover in the five other grammars (D2 moment, D3 stack, D4 city guide, D5 urban guide, D6 big initial). Pick one per edition; none ships with Edition 01 unless you swap it in."},
         ],
         "launch": {"view": "canvas"},

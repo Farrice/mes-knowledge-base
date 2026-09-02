@@ -38,6 +38,11 @@ Build Jen (@_jiing) her own Coffee & Contracts: a place-magazine carousel system
 - `CANVA-GRAMMAR.md` now has Design 6 (`DAHUEETAQQs`, the big-initial move). `DESIGN.md` §3/§6/§10/§11 updated.
 - Renders: `out/edition-01/01..05.png` + `S2..S6`. Canvas: `out/edition-01/canvas/tarzana-edition-01.html` → artifact b76c3b1c (contract 0.1.31, save + export on).
 
+## Take 2 (same day, after his verdict "pretty bad")
+What was wrong with take 1, in his words and mine: didn't look like the templates he handed over. Diagnosis against the actual Canva exports (`~/Downloads/Yellow Vintage…/1.png`): the template's identity is ONE tall condensed serif in every role (masthead, headline, pill, body), a light wash that lets a warm photo carry the frame, thick hand-drawn doodles, and a photo in every slot. Take 1 had Playfair fitted small, a murky full-page wash, thin doodles, two dead dark "slot" panels, and Jen tiny in a corner.
+Fixed: Instrument Serif everywhere on D1 pages (Playfair retired); headline gradient pale steel → white in the yellow's slot; accent #C9D4E2 on doodles/pill; wash lightened; pill = hand-drawn ellipse; arrow with the template's long tail; every slot photographed (her interiors as demo placeholders, CC0 pool where honest); cover = Jen large, lower right, on an extended flat wall (`placed()`), type never on her face. Canvas republished to the same artifact.
+Still true: placeholders are named in PHOTO-PLAN and never ship to her grid; plates A–E wait on the cost gate.
+
 ## Next session, in order (updated)
 1. His verdict on the canvas and the ten PNGs (Feedback Triad). Two rejected takes on one frame = back to the input, not a third take.
 2. Plates A–E (Laidrey storefront, espresso bar, cup on table, Tarzana street, porch step): cost gate first (~$1–3), style vault key for Jen, realism lint, craft master loaded per `skills/generate/references/craft-map.md`. Drop into `photos/plates/`, point `frames()` at them, re-render, `python3 editions.py canvas`, republish to the same artifact. Her own photo of Laidrey beats a plate.
