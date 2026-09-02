@@ -356,6 +356,12 @@ for col, (name, title, h) in enumerate(tall):
         entry["print"] = "flow"
     artboards.append(entry)
 
+# ---- row 5: five voice-memo topics (first-time buyers) ----
+y = ROW * 4 + 4600
+note("row5", y - 260, "NEXT MONTH'S MEMOS. five first-time-buyer topics, one question each, sixty seconds in the car. each card shows what her minute turns into: the reel (hook, three beats, her close) and the seven carousel slides. [your words] marks what only she can fill.")
+for col, name in enumerate(["T1", "T2", "T3", "T4", "T5"]):
+    artboards.append({"file": f"{name}.dc.html", "title": f"voice memo topic · {col + 1}", "x": col * X, "y": y, "w": 1080, "h": 1350})
+
 canvas = {
     "artboards": artboards,
     "annotations": notes,

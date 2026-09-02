@@ -375,6 +375,46 @@
       "w": 1080,
       "h": 2600,
       "print": "flow"
+    },
+    {
+      "file": "T1.dc.html",
+      "title": "voice memo topic \u00b7 1",
+      "x": 0,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T2.dc.html",
+      "title": "voice memo topic \u00b7 2",
+      "x": 1180,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T3.dc.html",
+      "title": "voice memo topic \u00b7 3",
+      "x": 2360,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T4.dc.html",
+      "title": "voice memo topic \u00b7 4",
+      "x": 3540,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T5.dc.html",
+      "title": "voice memo topic \u00b7 5",
+      "x": 4720,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
     }
   ],
   "annotations": [
@@ -412,6 +452,13 @@
       "y": 5980,
       "w": 1100,
       "text": "THE WORDS. in your words (from your voice memos) \u00b7 the saved DM reply \u00b7 the four reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
+    },
+    {
+      "id": "row5",
+      "x": 0,
+      "y": 10580,
+      "w": 1100,
+      "text": "NEXT MONTH'S MEMOS. five first-time-buyer topics, one question each, sixty seconds in the car. each card shows what her minute turns into: the reel (hook, three beats, her close) and the seven carousel slides. [your words] marks what only she can fill."
     }
   ],
   "launch": {
