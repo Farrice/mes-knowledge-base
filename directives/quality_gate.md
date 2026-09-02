@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-01 (chain_runner finalize for enrico-incarnati-instagram-realestate) |
-| **Last Activated** | 2026-09-01 (chain_runner finalize for enrico-incarnati-instagram-realestate) |
-| **Activation Count** | 899 |
-| **30-Day Review Date** | 2026-10-01 |
+| **Last Activated** | 2026-09-02 (chain_runner finalize for skills/jen-santulan-listing-content) |
+| **Last Activated** | 2026-09-02 (chain_runner finalize for skills/jen-santulan-listing-content) |
+| **Activation Count** | 901 |
+| **30-Day Review Date** | 2026-10-02 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

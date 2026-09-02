@@ -831,3 +831,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-31 23:37]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:7.0 status:Needs Improvement
 - `[2026-08-31 23:38]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:8.0 status:Keep
 - `[2026-09-01 13:09]` **finalize** | Realtor Local-Signal Content System with source package, connected Enrico workflow, deterministic se | general | enrico-incarnati — composite:8.67 status:Keep
+- `[2026-09-02 08:17]` **finalize** | Jen Engine v2 weeks 1-2: six finished posts in the photo look, captions, saved replies, facts ledger | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-09-02 10:35]` **finalize** | Jen Valley Editions: Tarzana Edition 01 — five Local Gem frames + five other-grammar covers, content | content | jen-santulan-listing-content — composite:6.0 status:Needs Improvement

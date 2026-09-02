@@ -16,21 +16,20 @@ CHROME = sorted(glob.glob(os.path.expanduser(
 
 W, H = 1080, 1350
 GUTTER = 108
-SERIF = "font-family: 'Instrument Serif', 'Playfair Display', Georgia, serif;"
-ACCENT = "#C9D4E2"
+SERIF = "font-family: 'Playfair Display', Georgia, serif;"
 SANS = "font-family: 'Jost', system-ui, sans-serif;"
 HAND = "font-family: 'Caveat', cursive;"
 CREAM, WHITE, WASH = "#F7F5F2", "#FFFFFF", "15,20,30"
-IVORY_GRAD = "linear-gradient(135deg, #C9D4E2 0%, #EEF2F7 40%, #FFFFFF 100%)"
+IVORY_GRAD = "linear-gradient(180deg, #FFF3D6 0%, #F7F5F2 55%, #FFFFFF 100%)"
 
 HEAD = f'''<!doctype html><meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap">
 <style>html,body{{margin:0;background:#111}} .page{{width:{W}px;height:{H}px;position:relative;overflow:hidden;background:#1E2430}}
-.abs{{position:absolute}} .caps{{{SANS}font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:{WHITE}}} .sc{{{SERIF}letter-spacing:-.01em;text-transform:uppercase;color:{WHITE}}}
+.abs{{position:absolute}} .caps{{{SANS}font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:{WHITE}}}
 .grad{{background:{IVORY_GRAD};-webkit-background-clip:text;background-clip:text;color:transparent}}</style>'''
 
 
-def fit(text, size, usable=W - 2 * GUTTER, em=0.42):
+def fit(text, size, usable=W - 2 * GUTTER, em=0.50):
     longest = max(len(_html.unescape(re.sub(r"<[^>]+>", "", seg))) for seg in text.split("<br>"))
     return min(size, int(usable / max(longest, 1) / em))
 
@@ -59,26 +58,23 @@ def footer(left="@_JIING", right=""):
     return f'<div class="abs caps" style="left:{GUTTER}px;bottom:70px;font-size:24px">{left}</div>{r}'
 
 
-def pill(text, left, top, w=290, h=72):
-    return (f'<div class="abs" style="left:{left}px;top:{top}px;width:{w}px;height:{h}px;transform:rotate(-2deg)">'
-            f'<svg class="abs" style="inset:0" width="{w}" height="{h}" viewBox="0 0 {w} {h}" fill="none"><ellipse cx="{w/2}" cy="{h/2}" rx="{w/2-3}" ry="{h/2-3}" stroke="{ACCENT}" stroke-width="2.5"/></svg>'
-            f'<div class="abs sc" style="inset:0;display:flex;align-items:center;justify-content:center;font-size:25px">{text}</div></div>')
+def pill(text, left, top):
+    return (f'<div class="abs" style="left:{left}px;top:{top}px;padding:10px 30px;border:1.5px solid {CREAM};border-radius:60px;'
+            f'{SANS}font-size:24px;letter-spacing:.06em;color:{WHITE}">{text}</div>')
 
 
-def arrow(left, top, rot=0, size=200, tail=0):
-    """Hand-drawn arrow; tail>0 adds the template's long thin line trailing off to the right (the 'frame bar')."""
-    t = f'<path d="M168 40 C 300 30, 600 20, {168+tail} 6" stroke-width="2.5"/>' if tail else ""
-    return (f'<svg class="abs" style="left:{left}px;top:{top}px;transform:rotate({rot}deg);overflow:visible" width="{size}" height="{size*0.4:.0f}" viewBox="0 0 180 72" fill="none" '
-            f'stroke="{ACCENT}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 44 C 60 22, 110 28, 160 38"/><path d="M128 12 L 168 38 L 130 58"/>{t}</svg>')
+def arrow(left, top, rot=0, size=180):
+    return (f'<svg class="abs" style="left:{left}px;top:{top}px;transform:rotate({rot}deg)" width="{size}" height="{size*0.4:.0f}" viewBox="0 0 180 72" fill="none" '
+            f'stroke="{CREAM}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 40 C 60 22, 110 26, 168 36"/><path d="M140 14 L 170 36 L 138 52"/></svg>')
 
 
-def smiley(left, top, size=130):
-    return (f'<svg class="abs" style="left:{left}px;top:{top}px" width="{size}" height="{size*0.6:.0f}" viewBox="0 0 110 66" fill="none" stroke="{ACCENT}" stroke-width="7" stroke-linecap="round">'
-            f'<path d="M14 38 C 40 72, 80 72, 100 34"/><path d="M28 10 L30 20"/><path d="M76 6 L78 16"/></svg>')
+def smiley(left, top, size=110):
+    return (f'<svg class="abs" style="left:{left}px;top:{top}px" width="{size}" height="{size*0.6:.0f}" viewBox="0 0 110 66" fill="none" stroke="{CREAM}" stroke-width="5" stroke-linecap="round">'
+            f'<path d="M14 40 C 40 70, 80 70, 100 36"/><path d="M30 14 L31 20"/><path d="M76 10 L77 16"/></svg>')
 
 
 def sparkle(left, top, size=44):
-    return (f'<svg class="abs" style="left:{left}px;top:{top}px" width="{size}" height="{size}" viewBox="0 0 44 44" fill="{ACCENT}">'
+    return (f'<svg class="abs" style="left:{left}px;top:{top}px" width="{size}" height="{size}" viewBox="0 0 44 44" fill="{CREAM}">'
             f'<path d="M22 0 C 24 14, 30 20, 44 22 C 30 24, 24 30, 22 44 C 20 30, 14 24, 0 22 C 14 20, 20 14, 22 0 Z"/></svg>')
 
 
@@ -222,23 +218,11 @@ def takes():
 PH = HERE / "photos" / "jen"
 
 
-def placed(src, left, top, size, fill="#8d8878"):
-    """Studio portrait on an extended wall: a flat radial fill in the backdrop's own khaki (no blurred copy, no ghost), the sharp square photo at
-    (left, top, size) with its top and left edges feathered into the wall. Lets the head land where the template puts its subject (lower right)."""
-    uri = pathlib.Path(src).resolve().as_uri()
-    mask = "linear-gradient(180deg, transparent 0%, #000 18%, #000 100%), linear-gradient(90deg, transparent 0%, #000 14%, #000 100%)"
-    return (f'<div class="abs" style="inset:0;background:radial-gradient(120% 90% at 68% 22%, #a39d8a 0%, #8d8878 45%, #67635a 100%)"></div>'
-            f'<img src="{uri}" class="abs" style="left:{left}px;top:{top}px;width:{size}px;height:{size}px;object-fit:cover;'
-            f'-webkit-mask-image:{mask};-webkit-mask-composite:source-in;mask-image:{mask};mask-composite:intersect">')
-
-
-def cover_exact(src, eyebrow, line_italic, line_upright, subline, handle="@_jiing", pos="50% 50%", scale=1.0, fill=None, size=166, stripe=True, place=None):
+def cover_exact(src, eyebrow, line_italic, line_upright, subline, handle="@_jiing", pos="50% 50%", scale=1.0, fill=None, size=166, stripe=True):
     """D1 cover, nothing moved: masthead L5.6% T7.2% · headline L5.3% T16.6% W73% (166px, lh .75, italic first clause)
     · subline L5.3% T38.4% W55% (26px) · badge L5.3% T48% · pill L53% T20.4% · stripe T92% rot 7° · wash 4-stop over top 71%."""
-    size = fit(f"{line_italic}<br>{line_upright}", size, usable=int(W * 0.733), em=0.44)
-    if place:
-        img = placed(src, *place)
-    elif fill:  # extend the studio backdrop: a blurred copy of the photo fills the frame, the sharp photo sits small on top, edges feathered
+    size = fit(f"{line_italic}<br>{line_upright}", size, usable=int(W * 0.733))
+    if fill:  # extend the studio backdrop: a blurred copy of the photo fills the frame, the sharp photo sits small on top, edges feathered
         uri = pathlib.Path(src).resolve().as_uri()
         img = (f'<div class="abs" style="inset:0;background:{fill}"></div>'
                f'<img src="{uri}" class="abs" style="left:-60px;top:-60px;width:{W+120}px;height:{H+120}px;object-fit:cover;object-position:{pos};filter:blur(48px) brightness(.92)">'
@@ -248,12 +232,13 @@ def cover_exact(src, eyebrow, line_italic, line_upright, subline, handle="@_jiin
         img = photo(src, pos, scale)
     return f'''<div class="page">{img}
 <div class="abs" style="left:0;top:0;width:{W}px;height:{int(H*0.711)}px;background:linear-gradient(180deg, rgba({WASH},.60) 0%, rgba({WASH},.55) 33%, rgba({WASH},.55) 66%, rgba({WASH},0) 100%)"></div>
-<div class="abs sc" style="left:{int(W*0.056)}px;top:{int(H*0.072)}px;font-size:24px;line-height:1.3">{eyebrow}</div>
-<div class="abs grad" style="left:{int(W*0.053)}px;top:{int(H*0.166)}px;width:{int(W*0.733)}px;{SERIF}font-size:{size}px;line-height:.78;letter-spacing:-.025em"><span style="font-style:italic">{line_italic}</span><br>{line_upright}</div>
-<div class="abs" style="left:{int(W*0.053)}px;top:{int(H*0.384)}px;width:{int(W*0.554)}px;{SERIF}font-size:28px;line-height:1.35;color:{WHITE}">{subline}</div>
-{smiley(int(W*0.053), int(H*0.48), 120)}
+<div class="abs" style="left:{int(W*0.056)}px;top:{int(H*0.072)}px;{SANS}font-weight:400;font-size:24px;line-height:1.4;letter-spacing:-.02em;color:{WHITE}">{eyebrow}</div>
+<div class="abs grad" style="left:{int(W*0.053)}px;top:{int(H*0.166)}px;width:{int(W*0.733)}px;{SERIF}font-size:{size}px;line-height:.8;letter-spacing:-.02em"><span style="font-style:italic">{line_italic}</span><br>{line_upright}</div>
+<div class="abs" style="left:{int(W*0.053)}px;top:{int(H*0.384)}px;width:{int(W*0.554)}px;{SANS}font-weight:300;font-size:26px;line-height:1.4;color:{WHITE}">{subline}</div>
+{sparkle(int(W*0.053), int(H*0.48), 40)}
 {pill(handle, int(W*0.531), int(H*0.204))}
-{arrow(int(W*0.053), int(H*0.905), rot=-6, size=200, tail=700 if stripe else 0)}
+{f'<div class="abs" style="left:{int(W*0.271)}px;top:{int(H*0.919)}px;width:{int(W*0.648)}px;height:3px;background:{CREAM};opacity:.9;transform:rotate(6.94deg)"></div>' if stripe else ''}
+<div class="abs caps" style="left:{int(W*0.053)}px;top:{int(H*0.888)}px;font-size:18px;opacity:.9">the valley &#183; a series</div>
 </div>'''
 
 
@@ -277,15 +262,15 @@ def variations():
 ED = HERE / "edition-01"
 
 
-def headline_size(text, cap, box_px, usable, em=0.46, lh=0.82):
+def headline_size(text, cap, box_px, usable, em=0.58, lh=0.85):
     lines = text.count("<br>") + 1
     return min(fit(text, cap, usable=usable, em=em), int(box_px / (lines * lh)))
 
 
 def wash_d1():
     """D1 interior/close: 4-stop plateau over the whole page, dark end at the top."""
-    return (f'<div class="abs" style="inset:0;background:linear-gradient(180deg, rgba({WASH},.55) 0%, rgba({WASH},.48) 33%, '
-            f'rgba({WASH},.46) 66%, rgba({WASH},.34) 100%)"></div>')
+    return (f'<div class="abs" style="inset:0;background:linear-gradient(180deg, rgba({WASH},.60) 0%, rgba({WASH},.55) 33%, '
+            f'rgba({WASH},.55) 66%, rgba({WASH},.425) 100%)"></div>')
 
 
 def plate_bg(letter, note):
@@ -310,7 +295,7 @@ def fact_panel(left, eyebrow, big, small, top=None, w=None, h=None):
             f'background:rgba({WASH},.55);border:1.5px solid rgba(247,245,242,.6);text-align:center">'
             f'<div class="abs caps" style="left:0;right:0;top:34px;font-size:16px;opacity:.85">{eyebrow}</div>'
             f'<div class="abs grad" style="left:0;right:0;top:66px;{SERIF}font-size:{fit(big, 62, usable=w-40)}px;line-height:1">{big}</div>'
-            f'<div class="abs" style="left:24px;right:24px;top:{h-64}px;{SERIF}font-size:21px;line-height:1.3;color:{WHITE}">{small}</div></div>')
+            f'<div class="abs" style="left:24px;right:24px;top:{h-64}px;{SANS}font-weight:300;font-size:18px;line-height:1.3;color:{WHITE}">{small}</div></div>')
 
 
 def inset(src, left, pos="50% 50%"):
@@ -324,29 +309,29 @@ INSET_L, INSET_R = int(W * 0.083), int(W * 0.516)
 def spot_exact(bg, masthead_text, headline, body, label, panel_l, panel_r, handle="@_jiing"):
     """D1 pages 2-4, nothing moved: masthead center T7.2% · sparkle T12.3% · headline L9.2% T23.8% W78.3% center (166px cap; two lines end above the pill)
     · pill L33.3% T41.6% · body L20.6% T50% W55.4% (26px) · two rounded panels L8.3%/51.6% T66.1% W40% H19.4% · label in the stripe slot T94.1%."""
-    size = headline_size(headline, 176, int(H * (0.416 - 0.238)) - 4, int(W * 0.783))
+    size = headline_size(headline, 166, int(H * (0.416 - 0.238)) - 8, int(W * 0.783))
     return (f'<div class="page">{bg}{wash_d1()}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:24px;line-height:1.3">{masthead_text}</div>'
+            f'<div class="abs" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;{SANS}font-weight:400;font-size:24px;line-height:1.4;letter-spacing:-.02em;color:{WHITE}">{masthead_text}</div>'
             f'{sparkle(int(W*0.467) + 2, int(H*0.123), 36)}'
             f'<div class="abs grad" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.238)}px;text-align:center;{SERIF}font-size:{size}px;line-height:.85;letter-spacing:-.02em">{headline}</div>'
             f'{pill(handle, int(W*0.333) + 40, int(H*0.416))}'
-            f'<div class="abs" style="left:{int(W*0.206)}px;width:{int(W*0.554)}px;top:{int(H*0.50)}px;text-align:center;{SERIF}font-size:28px;line-height:1.35;color:{WHITE}">{body}</div>'
+            f'<div class="abs" style="left:{int(W*0.206)}px;width:{int(W*0.554)}px;top:{int(H*0.50)}px;text-align:center;{SANS}font-weight:300;font-size:26px;line-height:1.4;color:{WHITE}">{body}</div>'
             f'{panel_l}{panel_r}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.941)}px;text-align:center;font-size:19px;opacity:.9">{label}</div>'
+            f'<div class="abs caps" style="left:0;right:0;top:{int(H*0.941)}px;text-align:center;font-size:17px;opacity:.9">{label}</div>'
             f'</div>')
 
 
 def close_exact(bg, masthead_text, headline, close_line, hand_line, handle="@_jiing"):
     """D1 page 5, nothing moved: masthead center T7.2% · headline L9.2% T34.6% W78.3% · pill L33.3% T53.3% · badge slot T86.4% = smiley.
     Two lines the template lacks, set in the empty band between pill and badge: her close (27px, T63%) and the hand line (T74%)."""
-    size = headline_size(headline, 176, int(H * (0.533 - 0.346)) - 4, int(W * 0.783))
+    size = headline_size(headline, 166, int(H * (0.533 - 0.346)) - 8, int(W * 0.783))
     return (f'<div class="page">{bg}{wash_d1()}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:24px;line-height:1.3">{masthead_text}</div>'
+            f'<div class="abs" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;{SANS}font-weight:400;font-size:24px;line-height:1.4;letter-spacing:-.02em;color:{WHITE}">{masthead_text}</div>'
             f'<div class="abs grad" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.346)}px;text-align:center;{SERIF}font-size:{size}px;line-height:.85;letter-spacing:-.02em">{headline}</div>'
             f'{pill(handle, int(W*0.333) + 40, int(H*0.533))}'
-            f'<div class="abs" style="left:{int(W*0.18)}px;width:{int(W*0.64)}px;top:{int(H*0.63)}px;text-align:center;{SERIF}font-size:30px;line-height:1.4;color:{WHITE}">{close_line}</div>'
+            f'<div class="abs" style="left:{int(W*0.18)}px;width:{int(W*0.64)}px;top:{int(H*0.63)}px;text-align:center;{SANS}font-weight:300;font-size:27px;line-height:1.45;color:{WHITE}">{close_line}</div>'
             f'<div class="abs" style="left:0;right:0;top:{int(H*0.74)}px;text-align:center;{HAND}font-size:52px;color:{WHITE}">{hand_line}</div>'
-            f'{arrow(int(W*0.42), int(H*0.90), rot=-8, size=190)}'
+            f'{smiley(int(W*0.451) + 8, int(H*0.864), 100)}'
             f'</div>')
 
 
@@ -396,7 +381,7 @@ def cover_guide_exact(src, eyebrow, headline, body, handle="@_jiing", pos="50% 5
     """D4 page 1: eyebrow L10% T5.8% 50.67px tracked · headline L10% T16.1% W60.9% 186.84px · body L10% T46.8% W42.6% 40px · divider L10% T53.9% W40%
     · handle L10% T87.6% 50.67px · the rotated doodle L75% T80.9% (76.5°) = the arrow, dropped when a person sits in that corner. All type cream."""
     hs = fit(headline, 187, usable=int(W * 0.609), em=0.55)
-    img = placed(src, *fill) if isinstance(fill, tuple) else (extended(src, pos, scale, fill) if fill else photo(src, pos, scale))
+    img = extended(src, pos, scale, fill) if fill else photo(src, pos, scale)
     doodle = "" if fill else arrow(int(W*0.75), int(H*0.809), rot=76.5, size=150)
     return (f'<div class="page">{img}{wash("left")}'
             f'<div class="abs caps" style="left:{int(W*0.10)}px;top:{int(H*0.058)}px;font-size:34px;letter-spacing:.18em;color:{CREAM}">{eyebrow}</div>'
@@ -443,8 +428,6 @@ def cover_initial_exact(src, rows, eyebrow, body, pos="50% 50%", k=0.76):
 
 # ------------------------------------------------------------------ Edition 01 · the frames (copy: edition-01/CONTENT-PACK.md · photos: edition-01/PHOTO-PLAN.md)
 MAST = "The Valley &#183; Tarzana<br>Edition 01"
-POOL = IMG
-COVER_PLACE = (200, 470, 1200)   # sharp portrait: left, top, size px — head lands lower right, wall carries the type
 
 
 def frames():
@@ -452,22 +435,22 @@ def frames():
     return [
         ("Main", "01 · cover", cover_exact(PH / "jen-headshot-studio.jpg", MAST, "$869K", "in Tarzana.",
             "three homes at one number, a 7am coffee on ventura, what sold in august, and the one house that&#8217;s mine.",
-            place=COVER_PLACE, stripe=False)),
-        ("Frame02Laidrey", "02 · place", spot_exact(photo(PH / "listing-04-kitchen.jpg", "50% 100%"),  # PLACEHOLDER for plate A (her Bothwell kitchen)
+            pos="100% 100%", scale=0.55, fill="#8d8878", stripe=False)),
+        ("Frame02Laidrey", "02 · place", spot_exact(plate_bg("A", "laidrey coffee roasters, 18600 ventura blvd, 7am light, empty sidewalk, no people"),
             MAST, "Laidrey,<br>7am.",
             "18600 ventura blvd. doors open at 7 every day. this is where i&#8217;d meet you before we go look at houses.",
             "laidrey coffee roasters &#183; 18600 ventura blvd &#183; 7am&#8211;5pm daily",
-            inset(POOL / "sunlight-through-window-floor-00.jpg", INSET_L, "50% 60%"), inset(PH / "listing-02-living.jpg", INSET_R, "30% 50%"))),  # PLACEHOLDERS for plates B, C
+            plate_inset("B", "espresso bar, no faces", INSET_L), plate_inset("C", "one cup on a table, ventura blvd soft behind", INSET_R))),
         ("Frame03Bothwell", "03 · her listing", spot_exact(photo(PH / "listing-01-exterior.jpg", "50% 100%"),
             MAST, "Three Buildings.<br>One Lot.",
             "new construction in tarzana: a 5,468 sq ft main house, an 882 sq ft guest house with its own kitchen, a pool. $5,695,000. mine. DM for a private showing.",
             "5421 bothwell rd &#183; tarzana &#183; equity union",
             inset(PH / "listing-02-living.jpg", INSET_L, "50% 60%"), inset(PH / "listing-03-pool.jpg", INSET_R, "50% 70%"))),
-        ("Frame04Buys", "04 · what $869K buys", spot_exact(photo(PH / "listing-home-gym-pool.jpg", "50% 100%"),  # PLACEHOLDER for plate D (her older listing)
+        ("Frame04Buys", "04 · what $869K buys", spot_exact(plate_bg("D", "a valley-floor street in tarzana 91335, single-story homes, morning, no people, no house numbers"),
             MAST, "What $869K<br>Buys Here.",
             "3 bed, 1.5 bath, 1,136 sq ft, a 7,296 sq ft lot with room out back for a small second home. on the market now. not mine.",
             "send me your number, buying or selling &#183; i&#8217;ll send the three i&#8217;d go see",
-            inset(POOL / "house-key-lock-00.jpg", INSET_L, "50% 50%"),  # PLACEHOLDER for plate E (CC0 pool)
+            plate_inset("E", "a front porch step, a house key on it, no hands", INSET_L),
             fact_panel(INSET_R, "sold in august", "$840K &#8211; $950K", "four tarzana homes, 36 to 119 days on the market"))),
         ("Frame05Close", "05 · close", close_exact(photo(PH / "listing-03-pool.jpg", "50% 0%"),
             MAST, "Send Me<br>the Street.",
@@ -477,7 +460,7 @@ def frames():
         ("SheetStack", "sheet · D3 stack", cover_stack_exact(PH / "listing-01-exterior.jpg", "Jen Santulan", "buying or selling.<br>the valley.", "Tarzana", "in", "September.",
             "what $869K buys here this month &#8594;", "Jen Santulan", pos="50% 100%")),
         ("SheetGuide", "sheet · D4 city guide", cover_guide_exact(PH / "jen-headshot-studio.jpg", "the valley &#183; edition 01", "$869K in<br>Tarzana.",
-            "three homes at one number. a 7am coffee on ventura.", fill=(300, 560, 1000))),
+            "three homes at one number. a 7am coffee on ventura.", pos="100% 100%", scale=0.55, fill="#8d8878")),
         ("SheetUrban", "sheet · D5 urban guide", cover_urban_exact(PH / "listing-03-pool.jpg", "The Valley &#183; Tarzana", "what $869K buys in", "Tarzana.",
             "three homes at one number, a 7am coffee on ventura, what sold in august, and the one house that&#8217;s mine.",
             "The Valley &#160;/&#160; Edition 01 &#160;/&#160; September", pos="50% 0%")),
