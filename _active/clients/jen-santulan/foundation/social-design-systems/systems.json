@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "canvas": {"width": 1080, "height": 1350, "format": "Instagram portrait 4:5"},
+  "shared_jen_layer": {
+    "identity": "Use @_JIING as a quiet signature, not a dominant logo lockup.",
+    "voice": "Calm, warm, specific, locally observant, and protective without hype.",
+    "content_density": "One idea per slide; 8-18 headline words; no more than 45 supporting words.",
+    "compliance": [
+      "Use only owned or licensed photography with provenance.",
+      "Use the correct listing photography and confirm listing ownership before property-specific claims.",
+      "Keep fair-housing language neutral and avoid steering or demographic proxies.",
+      "Date and source volatile market, lending, insurance, transit, and program facts.",
+      "Never fabricate the Equity Union or House Sellers marks; omit them when the approved files are absent.",
+      "Nothing is auto-published. Jen reviews voice and any factual or client-specific claim."
+    ]
+  },
+  "router": [
+    {"system": "after-hours-guide", "use_for": ["curated local guides", "neighborhood spotlights", "premium listing atmosphere", "restaurant or business features"], "avoid_for": ["dense financial education", "checklists", "urgent alerts"]},
+    {"system": "sunlit-local-notes", "use_for": ["local gems", "weekend routines", "community discoveries", "friendly saveable lists"], "avoid_for": ["luxury listings", "legal or financial explainers"]},
+    {"system": "quiet-home-editorial", "use_for": ["Jen point of view", "client stories with permission", "home and life reflections", "trust-building personal posts"], "avoid_for": ["data-heavy explainers", "rapid listicles"]},
+    {"system": "valley-moments", "use_for": ["day-in-the-life", "commute and routine", "neighborhood moments", "short narrative lessons"], "avoid_for": ["formal listing proof", "long educational copy"]},
+    {"system": "hidden-address-journal", "use_for": ["listing and neighborhood pairings", "hidden-value stories", "premium local editions", "property-detail collages"], "avoid_for": ["casual personal updates", "dense buyer math"]}
+  ],
+  "systems": {
+    "after-hours-guide": {
+      "name": "After Hours Guide",
+      "reference": "Brown and Beige Local Cafe City Guide Carousel Instagram Post",
+      "vibe": "Cinematic, unhurried, cultured, and locally in-the-know. It should feel like a small independent city magazine discovered at a favorite table after dark.",
+      "palette": {
+        "shadow": "#17110D",
+        "espresso": "#542E18",
+        "brown": "#704226",
+        "taupe": "#A99788",
+        "paper": "#F1ECE4",
+        "type": "#FFFFFF"
+      },
+      "typography": {
+        "headline": "Bodoni 72 Oldstyle Book or a high-contrast editorial serif; 92-150 px; tight leading; optional italic word.",
+        "body": "Inter Regular; 26-34 px; short and quiet.",
+        "label": "Inter Medium; 18-24 px; tracked uppercase or concise title case."
+      },
+      "composition": "Full-bleed photograph on every slide. The headline occupies 35-50% of the frame and may cross the image focal area. Small location and series labels sit near opposite top corners. No cards, rounded boxes, or decorative borders. Keep supporting copy to one compact block.",
+      "photo_style": "Warm interior or golden-hour photography, deep blacks, amber wood, selective highlights, lived-in details, and no generic bright real-estate HDR.",
+      "motifs": ["oversized serif lockup", "small location pin", "series masthead", "subtle lower-half shadow veil"],
+      "slide_roles": ["cover", "named-place feature", "reason-to-care feature", "closing recommendation"]
+    },
+    "sunlit-local-notes": {
+      "name": "Sunlit Local Notes",
+      "reference": "Green and Yellow Simple Local Gems Carousel Instagram Post",
+      "vibe": "Curious, friendly, lightly handmade, and genuinely local. It should feel like Jen marked up a neighborhood photo for a friend, not like a tourism board campaign.",
+      "palette": {
+        "forest": "#172018",
+        "moss": "#344131",
+        "sun": "#F0DB6D",
+        "parchment": "#E8E0D4",
+        "rust": "#704530",
+        "chalk": "#FBF8F1"
+      },
+      "typography": {
+        "headline": "Bodoni 72 Book or a soft editorial serif; 88-132 px; sunny yellow.",
+        "body": "Inter Regular; 25-32 px; conversational and compact.",
+        "label": "SignPainter or a restrained hand-drawn script; 24-38 px; used only for annotations."
+      },
+      "composition": "Full-bleed local photography with the headline anchored to one clear zone. Use one or two white hand-drawn marks—circle, arrow, loose star, underline—per slide. Yellow carries both hierarchy and continuity. Avoid formal grids and perfect symmetry.",
+      "photo_style": "Green, textured, street-level, imperfect, and atmospheric. Prefer places with foliage, storefronts, benches, paths, or human-scale details.",
+      "motifs": ["loose white doodles", "yellow editorial headline", "location pin", "handwritten series note"],
+      "slide_roles": ["cover", "local gem", "why Jen notices it", "routine test", "follow or save close"]
+    },
+    "quiet-home-editorial": {
+      "name": "Quiet Home Editorial",
+      "reference": "White and Green Simple Elegant Holiday Instagram Post",
+      "vibe": "Intimate, reflective, mature, and human. It should feel like an editorial portrait essay about the life a home supports—not a motivational quote card.",
+      "palette": {
+        "ink": "#171713",
+        "olive": "#4F5440",
+        "stone": "#DDD4D7",
+        "sand": "#B8A99D",
+        "shadow": "#2C2B25",
+        "type": "#F8F7F2"
+      },
+      "typography": {
+        "headline": "Bodoni 72 Book or an elegant old-style serif; 82-132 px; white; selective weight contrast.",
+        "body": "Bodoni 72 Book or Inter Regular; 24-30 px; narrow measure.",
+        "label": "Inter Medium; 17-22 px; minimal white masthead."
+      },
+      "composition": "One intimate image dominates each slide. Use generous negative space and asymmetric type. A dark lower fade supports legibility; one compact paragraph may sit away from the headline. Keep branding tiny and the person or human detail central.",
+      "photo_style": "Natural light, candid portraiture, quiet domestic moments, soft texture, olive and stone environments, and editorial cropping.",
+      "motifs": ["small corner masthead", "serif headline with mixed weights", "dark lower fade", "quiet closing portrait"],
+      "slide_roles": ["cover reflection", "personal observation", "human detail", "practical reframe", "invitation close"]
+    },
+    "valley-moments": {
+      "name": "Valley Moments",
+      "reference": "Yellow and Black Modern Travel Moments Carousel Instagram Post",
+      "vibe": "Contemporary, energetic, cinematic, and emotionally observant. It should feel like a modern travel journal translated into the small moments that determine whether a neighborhood works.",
+      "palette": {
+        "black": "#0B0B0A",
+        "yellow": "#F7E174",
+        "warm_white": "#FFF8EA",
+        "smoke": "#6A6661",
+        "tobacco": "#A6734C",
+        "rule": "#CFC7B8"
+      },
+      "typography": {
+        "headline": "Inter Bold or ExtraBold; 86-122 px; yellow; tight leading.",
+        "accent": "SignPainter HouseScript or a refined script; 72-118 px; yellow; overlaps one headline word.",
+        "body": "Inter Medium; 26-34 px; white; short lines."
+      },
+      "composition": "Full-bleed cinematic image inside a thin top and bottom rule. Pair one bold sans phrase with one script phrase; never use script for full sentences. Small body notes may occupy two separated zones. Footer always carries handle and slide number.",
+      "photo_style": "Backlit or dusk images, motion, streets, food, windows, and wide environmental frames with a dark cinematic grade.",
+      "motifs": ["sans-plus-script lockup", "spark marks", "thin frame rules", "editorial slide footer"],
+      "slide_roles": ["cover thesis", "moment one", "moment two", "small realization", "closing reframe"]
+    },
+    "hidden-address-journal": {
+      "name": "Hidden Address Journal",
+      "reference": "Yellow Vintage Cafe & Restaurant Local Gem Carousel Instagram Post",
+      "vibe": "Vintage, discerning, urban, and collected. It should feel like an address book kept by someone who notices the building, the block, and the place around the corner.",
+      "palette": {
+        "black": "#0D0D0B",
+        "butter": "#F3DE73",
+        "ivory": "#F8F4E8",
+        "olive": "#35372D",
+        "brown": "#735135",
+        "smoke": "#8A8376"
+      },
+      "typography": {
+        "headline": "Bodoni 72 Book Italic or a condensed high-contrast display serif; 86-126 px; butter or ivory.",
+        "body": "Inter Regular; 24-30 px; ivory; narrow centered measure.",
+        "label": "Bodoni 72 Smallcaps or Inter Medium; 16-21 px; tiny edition masthead."
+      },
+      "composition": "Darkened full-bleed photo with a large editorial serif title. Feature slides may add two or three rectangular inset photos along the lower third, each with a thin ivory edge. One butter hand-drawn arrow or smile adds warmth. Never use rounded cards.",
+      "photo_style": "Moody architecture, shaded interiors, textured plants, patina, storefronts, and property details with soft highlights and deep shadows.",
+      "motifs": ["edition masthead", "butter serif title", "rectangular evidence collage", "hand-drawn arrow or smile"],
+      "slide_roles": ["edition cover", "place or property feature", "detail collage", "neighborhood pairing", "next-edition close"]
+    }
+  }
+}
