@@ -30,7 +30,7 @@ Calm-warm, lowercase, sincere, gently funny. Ellipses over em-dashes; soft landi
 
 `/jen` step 0 reads: `ENGINE-V2.md` · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · this file · `06-system/pulse/latest.md`. Facts ledger: `04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md` (extend it). Funnel and read loop: `06-system/FUNNEL-MATH.md`, `execution/jen_pulse.py`, `/alyssa-stalker-outlier-audit`.
 
-Expert seats for the amplify step (load the file, never freehand): Alyssa hook-reframe · Luke Iha vicious hooks · Sam Parr mechanics · Kallaway content psychology · Georgi · Jen-as-herself last, with veto. Paths in `.agent/workflows/jen.md` step 4.
+Amplify step, Phase 1: ONE pen (Alyssa hook-reframe + Luke Iha hooks, nothing else) and ONE check (Jen-as-herself from the voice profile, the memos, and her ChatGPT extractions). No expert room. Phases and the audit of what survives: `06-system/PHASES.md`.
 
 One-off listing send package (Convert district only): `skills/jen-santulan-listing-content/workflows/listing-package.md`.
 

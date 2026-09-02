@@ -64,20 +64,13 @@ Receipt: `WRITE: 3 posts · bank lines used = <list> · no line used twice`
 
 "Amplified means enhanced and improved with our best copywriters and experts for writing to make her voice more impactful and get people attention and provide value and more."
 
-Six experts critique, one pen integrates (memory `feedback_jen-plain-words-with-punch`). Load the masters, never freehand:
+**Phase 1 shape (Farrice, 2026-09-02, second pass: "expert soup... orchestration poorly executed"): ONE pen, ONE check. No room.**
 
-| Seat | Loads | Looks for |
-|---|---|---|
-| Alyssa Stalker | `skills/alyssa-stalker-agent-content-playbook/workflows/03-hook-reframe.md` | Topic + Who + Lens on the hook; the who-clause; specificity as distribution |
-| Luke Iha | `skills/luke-iha-vicious-hooks/genius.md` | the assumption the hook breaks; the loop it opens; no feature announcements |
-| Sam Parr | `skills/sam-parr-copywriting-mechanics/genius.md` | rhythm, short words, the tangible detail, cut the throat-clearing |
-| Kallaway | `skills/kallaway-content-psychology/genius.md` | the curiosity gap and the payoff; retention beat by beat |
-| Georgi | `skills/stefan-georgi-dopamine-copy/genius.md` | the emotion under the fact; the mechanism named in plain words |
-| Jen-as-herself (last, veto) | `jen-real-voice-profile.md` + `jen-calibration-log.md` | would she say this; lexicon IN/OUT; cringe list; register ladder |
+The pen loads exactly two craft files and nothing else: `skills/alyssa-stalker-agent-content-playbook/workflows/03-hook-reframe.md` (Topic + Who + Lens on the hook) and `skills/luke-iha-vicious-hooks/genius.md` (the assumption the hook breaks; delete the throat-clearing; short words). It makes one sharpening pass per post: the hook names the fear or the wish, the middle holds attention, the close is hers. Never jargon without a six-word gloss. Never "top producer," never credentials, never urgency, never an attack hook.
 
-Each seat writes ≤3 lines per post: what to sharpen, what to cut. One pen integrates. Then the Jen seat reads the integrated post aloud; any line she would not say reverts. Plain words with punch: the hook names the fear or the wish, the middle holds attention, the close is hers. Never jargon without a six-word gloss. Never "top producer," never credentials, never urgency, never an attack hook.
+Then the Jen-as-herself check, from `jen-real-voice-profile.md` + `jen-calibration-log.md` + the ChatGPT extraction outputs (`06-system/jen-chatgpt-outputs/`, when they exist): read each post aloud as her; any line she would not say reverts. That is the whole step. More seats return only if her numbers say the copy is the problem (Phase 2+, `06-system/PHASES.md`).
 
-Receipt: `AMPLIFY: 6 seats · N edits integrated · Jen-seat reverted N lines`
+Receipt: `AMPLIFY: one pen · N lines sharpened · Jen check reverted N lines`
 
 ### 5 · CHECK — mechanical, in this order
 

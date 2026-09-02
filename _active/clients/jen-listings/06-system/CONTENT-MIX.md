@@ -1,5 +1,7 @@
 # CONTENT-MIX — what gets posted, in what share, and how every hook opens (living; update in place)
 
+> **Phase 1 freeze (2026-09-02, second pass).** The shares below are FROZEN until her first monthly read. Phase 1 runs three unlabeled slots a week; only the hook rule (§"The hook rule") and the capture rule apply. See `PHASES.md`.
+
 Farrice, 2026-09-02: "I'm honest from the extractions that we did with real estate experts, saying what type of content works. I want that to be the mix of content for her, so she has a good cadence, and then also just for her branding too and targeting her specific ICP." This file is that mix. It comes from the extractions on disk, not from taste. ENGINE-V2 §4's shares were a first guess; this file replaces them. Her own numbers replace this file after the first monthly read (ENGINE-V2 §8).
 
 ## Who the content is for (his words, translated)
