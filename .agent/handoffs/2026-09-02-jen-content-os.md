@@ -1,21 +1,22 @@
 ---
 thread: jen-content-os
 status: active
-resume_hint: Jen content OS layer (funnel math, Connect district, jen_pulse.py, four Connect posts) composed on jen-engine-v2-weeks; merged order v2 then this lane; render Connect posts with editions.py statement
+resume_hint: Both lanes merged; ENGINE-V2 folded (Connect district, rhythm, vault); week 3 built through the full OS run; finish: rebuild --no-video after video render, send week 3 to Farrice, commit, merge --push
 branch: worktree-broke-agent-2026-playbook-forge
 pin: false
 ---
 
 ## Purpose
-Farrice's /goal: Jen's own Coffee & Contracts, a content operating system (research → calendar → posts → replies → learn loop) aimed at a measured funnel to three closings a month in the Valley. This lane (`worktree-broke-agent-2026-playbook-forge`) added the composing layer on top of the `worktree-jen-engine-v2-weeks` lane, which owns ENGINE-V2.md, Valley Editions, weeks 1–2, and Tarzana Edition 01 (built, on canvas b76c3b1c, awaiting his verdict).
+Jen's content operating system (her own Coffee & Contracts): both lanes merged into main tonight; the amendments were folded into ENGINE-V2; VAULT.md created; then a full end-to-end run of the OS produced week 3 (Sept 21) through the real pipeline: research pull → facts ledger → copy → lint → build → files.
 
 ## Current State
-- Shipped in this lane (commits 3208440ef, 7278c5319, + OS layer): `skills/alyssa-stalker-agent-content-playbook/` (7 workflows, front door `/alyssa-stalker`); `04-deliverables/jen-outlier-audit.md` (her account moves on life-first hooks, flatlines on property-first; zero local content on grid); `06-system/FUNNEL-MATH.md` (≈1 closing per 16 qualified DMs, all rates UNCONFIRMED until hers; ramp to 3/mo in Q1 2027 needs reach + ask + sphere levers); `06-system/2026-09-02-engine-v2-amendments-from-outlier-audit.md` (add Connect district ~20%, monthly rhythm, VAULT.md, C&C parity table, merge order); `execution/jen_pulse.py` (weekly public numbers via chrome-headless-shell dump-dom + og:description; first pulse in `06-system/pulse/`); `04-deliverables/connect-posts-01/COPY.md` (four Connect posts from her voice memos: just breathe · lipstick remodel · everything works out · not my thing; copy + photo plan + reply routing; render pending in v2 lane's `editions.py statement`).
-- Uncertain: funnel rates are placeholders; Connect posts need Jen's thumbs-up on Jen-seat lines and the $80M line; plate for post 04 behind cost gate; Chrome extension never connected (list_connected_browsers empty) so Insights numbers (saves/reach/follows) are still missing.
-- Proof: heartbeat 7/7 on the skill; prose classifier CLEAN on produced copy (report has the numbers); pulse ran live 2026-09-02.
+- Main holds ENGINE-V2 (now four districts incl. Connect; monthly rhythm; operator scoreboard; §14 vault; §15 surface), VAULT.md, FUNNEL-MATH.md, the Alyssa skill + `/alyssa-stalker-*` commands, `execution/jen_pulse.py` + first pulse, the outlier audit, connect-posts-01.
+- Week 3 built in `04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/`: 07 attract reel ($900K Woodland Hills vs Reseda, comps VERIFIED from Redfin 91367/91335 on 2026-09-02), 08 position card (two markets on one Tarzana street: ~2% under in ~55 days vs hot homes ~2% over in ~25; 88 sold Jul vs 77), 09 connect card ("just breathe", her memo-2 words). FACTS.md has the week-3 rows. Fair-housing lint PASS on COPY; classifier CLEAN/WARNING only on the mandated "buying or selling" tails.
+- Uncertain: 08-3 frame was re-pointed to the porch photo (type had landed on her face on the 360px placeholder); needs a re-render after the video build; all photos are placeholders until her shoots land in Drive 01; Jen thumbs-up on the 11pm scene line; Farrice's verdict on Edition 01 (10 PNGs sent) still open.
+- Video build (`python3 build_weeks.py`, all three weeks) was running in the background at handoff time; log at scratchpad `build_weeks_video.log`.
 
 ## Remaining Priority
-Farrice: run `python3 execution/main_drift_absorb.py`, merge `worktree-jen-engine-v2-weeks` first, then `worktree-broke-agent-2026-playbook-forge`; fold the amendments into ENGINE-V2 §4/§8/§10/§11 and create VAULT.md; render the four Connect posts with `editions.py statement` into weeks 3–6 as the Connect slot.
+When the video build finishes: `python3 build_weeks.py --no-video` once more (applies the 08-3 photo swap and two caption edits), view the five week-3 PNGs, send Farrice week 3 (frames + reel + captions), commit in lane `worktree-broke-agent-2026-playbook-forge`, `worktree_lane.py merge --lane worktree-broke-agent-2026-playbook-forge --no-teardown --push`.
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)

@@ -262,6 +262,129 @@ WEEKS = [
             },
         ],
     },
+    {
+        # week 3 (added 2026-09-02, first full run of the OS): attract / position / connect.
+        # Connect is the fourth district (ENGINE-V2 §4); copy from her voice memos, see connect-posts-01/COPY.md.
+        "folder": "week-of-2026-09-21",
+        "message": (
+            "week 3 is in the folder: three posts, tue / thu / sat. same as before... open, post, done.\n"
+            "saturday's is you talking a client off the ledge at 11pm. it's your words from the voice memo. reply here if a line isn't you 🤍"
+        ),
+        "posts": [
+            {
+                "id": "07-attract-900k-woodland-hills-vs-reseda",
+                "kind": "reel",
+                "job": "attract",
+                "day": "tue sept 22 · 7:30am",
+                "beats": [
+                    {"photo": "suburban-neighborhood-aerial-02.jpg", "line": "$900K in woodland hills.<br>$900K in reseda.<br>same week.", "size": 90, "secs": 4.5, "zoom": "in",
+                     "swap": "a drone frame over the valley floor (folder 01) or a wide frame from the drive (02)"},
+                    {"photo": "california-bungalow-00.jpg", "line": "woodland hills. $900,000.<br>3 bed. 2 bath.<br>1,160 square feet.", "size": 88, "secs": 4.5, "zoom": "out",
+                     "swap": "a small hillside exterior from any shoot (folder 01)"},
+                    {"photo": "front-door-house-00.jpg", "line": "reseda. $899,000.<br>4 bed. 3 bath.<br>1,625 square feet.", "size": 88, "secs": 4.5, "zoom": "in",
+                     "swap": "a valley-floor front elevation from a listing shoot"},
+                    {"photo": "valley-street-01.jpg", "line": "465 more square feet<br>and a fourth bedroom...<br>for a thousand dollars less.", "size": 86, "secs": 4.5, "zoom": "out",
+                     "swap": "a residential street from the drive (folder 02)"},
+                    {"photo": "jen-porch-vannuys.jpg", "line": "send me your number<br>and the zip. i&#8217;ll send<br>the two i&#8217;d go see first.", "size": 84, "hand": "my DMs are open &#8594;", "secs": 5, "zoom": "in",
+                     "swap": "her at a front door (folder 03)"},
+                ],
+                "caption": (
+                    "$900K in woodland hills vs. $900K in reseda, same week, both on the market right now (neither one mine):\n"
+                    "\n"
+                    "woodland hills... $900,000. 3 bed, 2 bath, 1,160 sq ft.\n"
+                    "reseda... $899,000. 4 bed, 3 bath, 1,625 sq ft. that's 465 more square feet and a fourth bedroom, for a thousand dollars less.\n"
+                    "\n"
+                    "the difference is the zip. and the zip is a real thing... resale, the commute, the coffee. it's just not the only thing.\n"
+                    "\n"
+                    "three things i'd want to know before you pick:\n"
+                    "how long you're staying (under five years, the extra bedroom wins more often than people think).\n"
+                    "whether you'd ever rent a room or add on (more house now, or more house later).\n"
+                    "what homes like each one actually closed for last month, three streets over (i pull it before we write).\n"
+                    "\n"
+                    "buying or selling, send me your number and the zip you keep coming back to. i'll send you the two i'd go see first this weekend.\n"
+                    "\n"
+                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
+                    "\n"
+                    "prices from the MLS, sept 2, 2026. they move.\n"
+                    "#woodlandhills #reseda #sanfernandovalley #valleyrealestate #SFV"
+                ),
+                "reply": "a zip or a number arrives → saved reply 3. an address → saved reply 1.",
+            },
+            {
+                "id": "08-position-two-markets-one-street",
+                "kind": "card",
+                "job": "position (both sides)",
+                "day": "thu sept 24 · 6:30pm",
+                "slides": [
+                    {"photo": "sfv-aerial-nara.jpg", "pos": "50% 50%", "wash": 0.46,
+                     "swap": "a drone frame over tarzana (folder 01)",
+                     "html": lambda: f'''{serif("two markets<br>on the same<br>tarzana street.", size=88)}
+    {hand("which one is your house? &#8594;", size=48)}'''},
+                    {"photo": "valley-street-01.jpg", "pos": "50% 50%", "wash": 0.50,
+                     "swap": "a residential street from the drive (folder 02)",
+                     "html": lambda: f'''{hand("what the numbers say", size=50)}
+    {serif("the average home:<br>2% under asking,<br>about 55 days.", size=80)}
+    {body("the hot ones: about 2% over asking, pending in about 25 days. same neighborhood, same month. 88 homes sold in july... more than last july, at lower prices.", size=31)}
+    {body("<b style='font-weight: 500;'>the first three weeks decide which market you&#8217;re in.</b>", size=29, width=720)}'''},
+                    {"photo": "jen-porch-vannuys.jpg", "pos": "50% 0%", "wash": 0.46,
+                     "swap": "her, small, with sky above her (folder 03); type must not land on her face",
+                     "html": lambda: f'''{serif("buying: day 60<br>has room.<br>selling: day 25 is the test.", size=80)}
+    {body("send me the street. buying, i&#8217;ll tell you which ones have been sitting and what that&#8217;s worth. selling, i&#8217;ll tell you what has to be true by day 25.", size=31, width=720)}
+    {body("i&#8217;m here for you. that&#8217;s my job.<br>i do this to protect you and your best interest.", size=29, width=720)}
+    {hand("my DMs are open &#8594;", size=50)}'''},
+                ],
+                "caption": (
+                    "there are two markets on the same tarzana street right now.\n"
+                    "\n"
+                    "the average home sells for about 2% under asking after about 55 days. the hot ones go pending in about 25 days at about 2% over asking. same neighborhood, same month... 88 homes sold in july, up from 77 last july, and the median came down 14.5%. more homes moving, at lower prices, and a few that still get a bidding war.\n"
+                    "\n"
+                    "buying: the house that's been sitting since july has room in the price, and the seller knows it. the one that just listed and looks right will not wait for you to sleep on it twice.\n"
+                    "\n"
+                    "selling: the first 25 days decide which market you're in. price, photos, and the first weekend. after that you're negotiating with the calendar.\n"
+                    "\n"
+                    "buying or selling, send me the street. i'll tell you which one you're standing in.\n"
+                    "\n"
+                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
+                    "\n"
+                    "source: redfin tarzana market page, read sept 2, 2026 (july data).\n"
+                    "#tarzana #sanfernandovalley #valleyrealestate #SFV #homevalue"
+                ),
+                "reply": "a street from a buyer → saved reply 3 shape (number + zip). a street from an owner / 'what's mine worth' → saved reply 2.",
+            },
+            {
+                "id": "09-connect-just-breathe",
+                "kind": "card",
+                "job": "connect",
+                "day": "sat sept 26 · 9:00am",
+                "slides": [
+                    {"photo": "palm-tree-sunset-city-02.jpg", "pos": "50% 30%", "wash": 0.48,
+                     "swap": "a valley sky at dusk from the drive (folder 02) or the Bothwell pool sky (01)",
+                     "html": lambda: f'''{serif("just<br>breathe.", size=120)}
+    {body("it&#8217;s 11pm. the rate went up again. you&#8217;re doing the math on your phone in the dark.", size=31, width=720)}
+    {hand("let&#8217;s talk in the morning &#8594;", size=50)}'''},
+                    {"photo": "jen-porch-vannuys.jpg", "pos": "50% 0%", "wash": 0.44,
+                     "swap": "her, small, with sky above her (folder 03)",
+                     "html": lambda: f'''{hand("what i say to every client", size=50)}
+    {serif("take a step back.<br>let&#8217;s sleep on it.", size=84)}
+    {body("in the morning i ask two things. what did your lender actually quote you. and have we looked at a buydown... someone pays a little now so your rate is lower, for good or just the first couple of years.", size=30, width=720)}
+    {body("i&#8217;m here for you. that&#8217;s my job.<br>i do this to protect you and your best interest.", size=29, width=720)}
+    {hand("my DMs are open &#8594;", size=50)}'''},
+                ],
+                "caption": (
+                    "if the numbers are loud at night, i say the same thing to every client: just breathe. take a step back. let's sleep on it and talk in the morning... anything happening right before bed is not the time to decide.\n"
+                    "\n"
+                    "in the morning i ask two things. what did your lender actually quote you. and have we looked at a buydown... someone pays a little now so your rate is lower, for good or just the first couple of years. there's usually a way to structure the loan so it works for the you that exists right now.\n"
+                    "\n"
+                    "if it's late and the numbers are loud, send me the number, buying or selling. we'll look at it in the morning. or just say hi.\n"
+                    "\n"
+                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
+                    "\n"
+                    "#sanfernandovalley #SFV #valleyrealestate #mortgagerates"
+                ),
+                "reply": "a number or a quote → saved reply 3. a feeling ('same', 'ugh, the numbers') → in her words: 'i know. send me the number when you're up. we'll look together.'",
+            },
+        ],
+    },
 ]
 
 SAVED_REPLIES = """saved replies · paste, add their name, send the same evening
@@ -328,7 +451,7 @@ def build_reel(post, out_dir):
 
 
 def main():
-    swap_rows, copy_md = [], ["# jen engine v2 · weeks 1 and 2 · the copy\n",
+    swap_rows, copy_md = [], ["# jen engine v2 · weeks 1 to 3 · the copy\n",
                               "Operator file. Same words as the Drive folders; here so the fair-housing lint and the classifier can read them in one pass.\n"]
     for wk in WEEKS:
         wdir = HERE / wk["folder"]

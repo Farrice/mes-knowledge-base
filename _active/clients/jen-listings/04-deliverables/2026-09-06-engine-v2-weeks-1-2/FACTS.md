@@ -1,6 +1,6 @@
-# facts ledger · weeks 1 and 2 (operator only, never in the Drive folder)
+# facts ledger · weeks 1 to 3 (operator only, never in the Drive folder)
 
-Every number in the six posts, where it came from, and what to re-check on send day. Labels: VERIFIED (read from the source today) · LIKELY · UNCONFIRMED.
+Every number in the nine posts, where it came from, and what to re-check on send day. Labels: VERIFIED (read from the source today) · LIKELY · UNCONFIRMED · HERS (her verbatim) · Jen-seat (drafted near her mouth; needs her thumbs-up).
 
 ## pulled 2026-09-02
 
@@ -19,6 +19,19 @@ Every number in the six posts, where it came from, and what to re-check on send 
 | 06 position | Tarzana median sale price $949,676, Jul 2026, −14.5% YoY, all home types | VERIFIED | Redfin Tarzana page, "real estate trends" | Redfin's Aug 2026 figure lands mid-Sept; refresh the card if it prints before Sat Sept 19 |
 | 06 position | Tarzana inventory ranges $650,000 to $19,999,000 (149 houses) | VERIFIED | Homes.com Tarzana summary via search | fine as a range |
 | 06 position | Sherman Oaks median $1,524,480 Jul 2026, −1.6% YoY | VERIFIED (not used on a frame) | Redfin Sherman Oaks page | banked |
+
+## pulled 2026-09-02 (evening) · week 3
+
+| used in | claim | label | source | re-check |
+|---|---|---|---|---|
+| 07 attract | 21516 Villena, Woodland Hills 91364 · $900,000 · 3 bd / 2 ba · 1,160 sq ft · Active | VERIFIED | Redfin 91367 search, house, $800K–$950K (compact row, no description) | still active Sept 22? confirm bd/ba from MLS |
+| 07 attract | 7959 Bothwell Rd, Reseda 91335 · $899,000 · 4 bd / 3 ba · 1,625 sq ft · Active | VERIFIED | Redfin 91335 search, house, $800K–$950K (compact row) | still active Sept 22? shares a street name with her $5.7M Tarzana listing; address never on a frame (rule), and no "two bothwells" bit unless Jen likes it |
+| 07 attract | 465 sq ft more · $1,000 less | VERIFIED (arithmetic: 1,625 − 1,160; $900,000 − $899,000) | | |
+| 08 position | Tarzana: average home sells ~2% below list, pending ~55 days; hot homes ~2% above list, pending ~25 days; Redfin Compete Score 56 "somewhat competitive" | VERIFIED | Redfin Tarzana market page, "How hot is the Tarzana housing market?", read Sept 2 (page header "as of August") | re-read the week of Sept 21; numbers refresh mid-month |
+| 08 position | 88 homes sold in Tarzana in July 2026, up from 77 in July 2025; median $949,676 (3 months ending Jul), −14.5% YoY; 58 days on market vs 47 | VERIFIED | same page, "Trends" | same |
+| 09 connect | "just breathe. take a step back. let's sleep on it and talk in the morning" · "what did your lender actually quote you" · buydowns, "how we structure the loan" | HERS | `06-system/jen-voice-answers/transcripts.md`, memo 2 | none |
+| 09 connect | "it's 11pm. the rate went up again. you're doing the math on your phone in the dark." | Jen-seat | drafted scene matching the ICP pain script (genius §3) | Jen thumbs-up before Sat Sept 26 |
+| 09 connect | "in the morning i ask two things" | Jen-seat (her two questions, our framing) | memo 2 | Jen thumbs-up |
 
 ## not used, and why
 
