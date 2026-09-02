@@ -596,11 +596,24 @@ BINDINGS = [
     {
         "id": "brand_direction_decision_spine",
         "signal_phrases": [
+            "mood board from discovery",
+            "moodboard from discovery",
             "client ready mood board from discovery evidence",
             "client-ready mood board from discovery evidence",
             "moodboard from discovery evidence",
             "mood board from discovery evidence",
             "moodboard-from-discovery",
+            "discovery notes into a mood board",
+            "discovery notes into a moodboard",
+            "discovery into a mood board",
+            "discovery into a moodboard",
+            "discovery session to make three mood boards",
+            "discovery session to make three moodboards",
+            "visual directions and a mood board",
+            "visual directions and a moodboard",
+            "visual directions from discovery",
+            "make three mood boards for the client",
+            "make three moodboards for the client",
             "brand direction from discovery evidence",
             "brand direction decision spine",
             "brand vibe foundation",
@@ -618,17 +631,86 @@ BINDINGS = [
             "wedding",
         ],
         "mandatory_workflow": "andrew-lane-design-systems",
-        "forbidden_workflows": [],
+        "forbidden_workflows": ["mood-board"],
         "reason": (
-            "Discovery-backed brand-direction requests need Andrew Lane's existing "
-            "decision spine: evidence-backed design challenges, internal exploration, "
-            "three client-ready directions, and a proving-surface test. Generic mood-board "
-            "routes remain available for campaign, shoot, event, and non-brand boards."
+            "Discovery-backed brand-direction requests need Andrew Lane's decision "
+            "spine: evidence-backed design challenges, internal exploration, three "
+            "client-ready directions, and a proving-surface test. It may compose "
+            "/mood-board for actual board construction while retaining the parent "
+            "brand decision and approval ledger."
         ),
         "override_flag": None,
         "override_warning": (
-            "If the request is a complete six-layer brand system, /build-bos remains the "
-            "owner. If it is a campaign or production moodboard, use /mood-board."
+            "If the request is a complete six-layer brand system, /build-bos remains "
+            "the owner. If it is a campaign, shoot, event, product, or non-brand "
+            "moodboard, use /mood-board."
+        ),
+    },
+    {
+        # Standalone visual-board construction. Discovery-backed brand-direction
+        # work is excluded so the parent Andrew Lane decision spine can compose
+        # this workflow without losing ownership of the client decision.
+        "id": "mood_board_orchestrator",
+        "signal_phrases": [
+            "mood board from this brief",
+            "moodboard from this brief",
+            "build a high-taste mood board",
+            "build a high taste mood board",
+            "create a high-taste mood board",
+            "create a high taste mood board",
+            "build a mood board",
+            "build a moodboard",
+            "create a mood board",
+            "create a moodboard",
+            "three reference-locked moodboards",
+            "three reference locked moodboards",
+            "three materially different visual territories",
+            "blind taste choice",
+            "visual direction board from",
+            "moodboard for a campaign",
+            "mood board for a campaign",
+            "campaign moodboard",
+            "campaign mood board",
+            "product shoot moodboard",
+            "product shoot mood board",
+        ],
+        "negative_signals": [
+            "discovery notes",
+            "discovery evidence",
+            "discovery session",
+            "brand direction",
+            "brand vibe foundation",
+            "three client directions",
+            "internal exploration board",
+            "moodboard sweep",
+            "mood board sweep",
+            "existing moodboard library",
+            "existing mood board library",
+            "style handle",
+            "weight sweep",
+            "null run",
+            "approved moodboard into",
+            "approved mood board into",
+            "build a complete brand system",
+            "brand operating system",
+        ],
+        "mandatory_workflow": "mood-board",
+        "forbidden_workflows": [
+            "creative-brief-gen",
+            "design-brief",
+            "brief",
+            "moodboard-conversation-system",
+        ],
+        "reason": (
+            "Standalone moodboard requests need the connected /mood-board conductor "
+            "for reference acquisition, actual visual boards, blind taste selection, "
+            "a comparative proving surface, and selected-direction handoff. Discovery-"
+            "backed brand direction remains with Andrew Lane as the parent conductor."
+        ),
+        "override_flag": None,
+        "override_warning": (
+            "If discovery evidence must become three client-ready brand directions, "
+            "use /andrew-lane-design-systems. Full BOS requests stay /build-bos."
         ),
     },
     {
