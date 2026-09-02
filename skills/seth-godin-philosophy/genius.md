@@ -273,6 +273,30 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 **Execute**: In a complicated knot, search for the one assumption, incentive, or old commitment organizing several visible strands. Ask which single fact, if no longer treated as binding, would make at least two symptoms easier. Test that candidate before optimizing every symptom separately.
 **Success Metric**: The diagnosis names one load-bearing assumption and at least two downstream effects that change when it is removed.
 
+### Patterns from Digital Cut × Seth Godin — AI Creative Practice (2026-09-01)
+
+> Source: complete 62:09 interview at `extractions/video-context/DHTgH34inHY/`. Direct mechanics are timestamp-backed in `evidence-ledger.md`; external anecdotes and numerical claims remain verified as stated in the interview only.
+
+#### Pattern 36: Human Projects, AI Tasks
+**Execute**: Keep the desired change, audience, consequential judgment, protected constraints, quality threshold, release, and recovery with one human outcome owner. Give AI bounded tasks with exact inputs, output shape, acceptance test, reviewer, prohibited actions, and stop condition. If a packet contains the objective itself, it is still a project and must be rewritten.
+**Success Metric**: Every AI assignment can fail or be rejected without surrendering the project decision; one human can explain and defend the result.
+
+#### Pattern 37: System-Gap Creative Search
+**Execute**: When a real system is implicated, step out exactly one level: name who benefits, who is underserved, what friction repeats, and where one small intervention could change the pattern. Choose the gap nearest the smallest viable audience and cheapest to test, then return to artifact design.
+**Success Metric**: One evidence-labeled system gap produces one testable leverage point; systems analysis does not become a substitute for making.
+
+#### Pattern 38: Proud Artifact Threshold
+**Execute**: Permit abundant rough internal exploration, but define one usable artifact with a user, moment of use, promised change, minimum spec, and proof requirement. Only human-selected work that clears the threshold crosses the publishing boundary. The test is not “did AI make this?” but “will I put my name on this because it serves?”
+**Success Metric**: The public artifact is useful to a named audience and owned by a human; raw generation volume never counts as completion.
+
+#### Pattern 39: Three-Rung Cheap Failure Ladder
+**Execute**: Preallocate one failure budget across internal proof, smallest-audience use, and bounded release. Each rung adds only enough cost and exposure to change the next decision. Stop if the test is informationally empty, the cap is breached, or the publishing boundary is not approved.
+**Success Metric**: Exactly three progressively exposed tests carry time, money, visibility, signal, decision, and stop rules inside a shared survivable cap.
+
+#### Pattern 40: Traction-Granted Expansion
+**Execute**: Let qualified audience behavior grant the right to do more. Look for successful use, return, repeat, commitment, payment, adoption, or referral against a precommitted threshold. Treat applause, impressions, model scores, and production volume as diagnostics unless they directly predict the desired change.
+**Success Metric**: Every experiment ends in STOP, ITERATE, SCALE, or KILL; scale occurs only after observed traction meets the threshold.
+
 #### Hidden Knowledge (2026-08-12 additions)
 
 **Insight**: Rejection quality is a stronger learning signal than rejection count. Generic refusal becoming specific, invitational, or redirected shows whether the offer is approaching relevance.

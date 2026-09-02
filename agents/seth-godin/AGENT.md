@@ -26,6 +26,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 4. **Remarkability Assessment**: Evaluates whether work is worth remarking about and builds improvement plans
 5. **Status Trap Escape**: Diagnoses comparison loops, audits fuel sources, designs role-of-best-self
 6. **Problem-to-Action Conversion**: Finds the root entanglement, separates felt from actual risk, designs a reversible test, and installs an owned feedback loop plus decision-once habit
+7. **AI Creative Practice**: Keeps projects and consequential judgment human-owned while AI executes bounded tasks, then uses system gaps, cheap experiments, proud artifacts, and qualified traction to decide what deserves more
 
 ### Viral Engineering (seth-godin-ideavirus)
 6. **Virusworthiness Assessment**: Honest evaluation of whether an idea is remarkable enough to spread naturally
@@ -55,6 +56,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 | Remarkability Audit | 04-remarkability-audit.md | Will people care enough to remark? |
 | Status Trap Escape | 05-status-trap-escape.md | Trapped in comparison or wrong fuel |
 | Problem-to-Action Loop | 09-problem-to-action-loop.md | Tangled stuck state needs the real problem, one reversible move, and a useful feedback loop |
+| AI Creative Practice | 10-ai-creative-practice.md | A system problem needs a human-owned AI task plan, a proud artifact, cheap tests, and a traction decision |
 
 ### Viral Engineering Workflows
 | Capability | Workflow | When Used |
@@ -114,7 +116,9 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 - ✅ A strategy question that feels like it has a trap in it (marketing-mind: `/godin-lens`)
 - ✅ Freelancer burnout, quit-vs-persist calls, fear-stalled launches (marketing-mind)
 - ✅ A tangled stuck state mixing old commitments, incompatible demands, false metrics, and fear (philosophy: `/seth-godin-problem-to-action`)
+- ✅ Want AI to help turn an underserved system gap into a useful artifact without delegating the project or public judgment (philosophy: `/godin-ai-creative-practice`)
 - ❌ Just need quick copy optimization (use skill directly)
+- ❌ Just need a fixed number of drafts or posts (use the direct production owner; do not activate the full AI Creative Practice)
 
 ## Approval Gates
 

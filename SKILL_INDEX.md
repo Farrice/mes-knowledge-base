@@ -374,7 +374,7 @@
 | `seth-godin-brand` | **seth-godin-brand** | brand architecture × trust engineering × marketing operations, covers brand promise architecture, trust engineering | 10 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | complete viral marketing and idea propagation system from seth godin's unleas..., ideavirus mastery | 6 | 26 |
 | `seth-godin-marketing-mind` | **seth-godin-marketing-mind** | strategic marketing reasoning × premise interrogation × business-model diagnosis, extracted from his two-part mel robbins interview (released 2026-07-16), the 4th godin layer | 16 | 0 |
-| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 9 | 0 |
+| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 10 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** | decision-first storytelling deployment for full stories, truthful fragments, and explicit no-story routes | 7 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | turn unqualified linkedin leads into a high-profit digital product backend wh..., audience monetization | 2 | 4 |
 | `sharran-srivatsaa-scaling` | **sharran-srivatsaa-scaling** | business scaling, decision-making, constraint theory | 7 | 0 |
