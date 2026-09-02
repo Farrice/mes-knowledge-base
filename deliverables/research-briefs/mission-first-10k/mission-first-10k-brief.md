@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill first-10k --reason "<one line>"
 THREAD: Madison paid-engagement iMessage reply grounded in the full direct thread
 SLUG: first-10k
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-29-first-10k.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-29-first-10k.md
 
 RESUME HERE: Madison paid-engagement iMessage reply grounded in the full direct thread
 

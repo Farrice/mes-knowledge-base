@@ -50,8 +50,8 @@ python3 execution/pulse_actions.py kill linkedin --reason "<one line>"
 THREAD: Linkedin — Execution Checklist
 SLUG: linkedin
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-08-linkedin.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-08-linkedin.md
 
 RESUME HERE: Linkedin — Execution Checklist
 

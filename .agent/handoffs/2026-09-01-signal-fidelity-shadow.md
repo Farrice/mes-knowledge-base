@@ -3,7 +3,7 @@ thread: signal-fidelity-shadow
 status: done
 resume_hint: Observe one consequential production use only if new evidence is wanted; do not promote the layer by default.
 unfinished: No integration work remains. Long-horizon production impact is NO EVENT and belongs to a future observation task.
-branch: codex/signal-fidelity-closeout
+branch: codex/signal-fidelity-closeout-receipt
 pin: false
 ---
 

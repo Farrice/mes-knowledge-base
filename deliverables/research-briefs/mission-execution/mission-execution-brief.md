@@ -59,8 +59,8 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 THREAD: Handoff — System Health Audit + Repair (2026-08-24)
 SLUG: execution
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-execution/mission-execution-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-execution.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-execution/mission-execution-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-24-execution.md
 
 RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)
 
