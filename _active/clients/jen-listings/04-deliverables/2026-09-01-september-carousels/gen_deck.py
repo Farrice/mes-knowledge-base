@@ -34,7 +34,7 @@ def foot(label, n, dark=False):
     c = DIMD if dark else DIMC
     return f'''  <div style="position: relative; display: flex; justify-content: space-between; align-items: baseline;">
     <span style="font-size: 25px; letter-spacing: 0.22em; color: {c};">{label}</span>
-    <span style="{SERIF} font-style: italic; font-size: 30px; color: {c};">{n}&#8202;/&#8202;7</span>
+    <span style="{SERIF} font-style: italic; font-size: 30px; color: {c};">{n}&#8202;/&#8202;10</span>
   </div>'''
 
 
@@ -107,7 +107,7 @@ slides["S1"] = f'''<div style="{FRAME} background: {CREAM}; display: flex; flex-
       {p("what we built for september, why it looks the way it does, and what it does for your business.", width=640)}
     </div>
   </div>
-{foot("A WALKTHROUGH &#183; ABOUT TEN MINUTES", 1)}
+{foot("A WALKTHROUGH &#183; ABOUT FIFTEEN MINUTES", 1)}
 </div>'''
 
 # S2 · the ethos
@@ -158,8 +158,37 @@ slides["S6"] = board(f'''{h1(f'what we need {it("from you.")}', size=76)}
     ("if a line isn&#8217;t you, say so.", "every script ends on your words. if any of them don&#8217;t sound like you, it&#8217;s gone."),
 ])}''', "THREE PHOTOS, ONE MEMO, ONE NUMBER", 6)
 
-# S7 · the first post
-slides["S7"] = board(f'''{h1(f'the first post is {it("ready.", dark=True)}', dark=True, size=76)}
+# S7 · the lead magnet (evergreen)
+slides["S7"] = board(f'''{h1(f'what they get when they write: {it("the valley file.")}', size=58)}
+{p("content brings strangers to your DMs. this is what you hand them. three one-page guides in this look, your number at the bottom, good for a year. no keyword, no form... you send it because they wrote.", size=27)}
+{rows([
+    ("the four things i read before you write.", "the condo guide. the savings account, the meeting notes, the building&#8217;s insurance, who&#8217;s behind on dues. one page, plain words."),
+    ("the insurance question before the offer.", "the hillside guide. what the october 15 change means, the date detail, what the backup policy actually covers."),
+    ("the 11pm rate note.", "the calm one. just breathe, the three morning questions, what a buydown is in one sentence."),
+    ("pinned to your profile: start here.", "a permanent post that says who you help and hands out the file. the first thing a new visitor sees."),
+])}''', "EVERGREEN &#183; SEND IT, DON&#8217;T GATE IT", 7)
+
+# S8 · the referral loop
+slides["S8"] = board(f'''{h1(f'the people who {it("already love you.", dark=True)}', dark=True, size=68)}
+{p("you show up for everyone and you never ask. that&#8217;s why they love you, and it&#8217;s why the referrals stopped. the fix isn&#8217;t asking harder. it&#8217;s giving them a reason and a moment.", dark=True, size=27)}
+{rows([
+    ("the quarterly valley note.", "one text to every past client and close friend, four times a year. what actually changed in the valley this quarter, in your words, useful whether they&#8217;re moving or not. last line, every time: &#8220;if someone you love is thinking about buying, i&#8217;d love to be the first call.&#8221;"),
+    ("the one-year text.", "a year after every closing: &#8220;one year in the house. how&#8217;s it treating you?&#8221; the easiest conversation you&#8217;ll ever restart."),
+    ("the who-do-you-know moment.", "after every thank-you, one specific ask: &#8220;who&#8217;s the one friend who keeps saying they&#8217;ll never afford LA? send them my way, i&#8217;ve got them.&#8221;"),
+    ("the referral reply.", "when a name comes in, the reply is written: &#8220;thank you for trusting me with them. i&#8217;m here for them the way i was here for you.&#8221;"),
+], dark=True, size=24)}''', "FOUR TEXTS A YEAR, ONE ASK EACH", 8, dark=True)
+
+# S9 · if you say yes: how it runs
+slides["S9"] = board(f'''{h1(f'if you say yes, {it("this is how it runs.")}', size=68)}
+{rows([
+    ("this week.", "three photos, one voice memo on the train, one number for how many you can film. we swap your photos in and post reel 1 and the condo carousel."),
+    ("every week after.", "one voice memo from you, two reels and one carousel from us, in the look. you reply the same evening with the saved replies."),
+    ("every quarter.", "the valley note goes to your list. a new neighborhood gets its own stamp. the file gets a new page."),
+    ("what you never do.", "post daily. chase trends. say &#8220;top producer.&#8221; write a caption from scratch. explain a lender word without a plain one next to it."),
+])}''', "THE RHYTHM, IF YOU WANT IT", 9)
+
+# S10 · the first post
+slides["S10"] = board(f'''{h1(f'the first post is {it("ready.", dark=True)}', dark=True, size=76)}
 {rows([
     ("reel 1: the building has to qualify too.", "&#8220;your credit can be perfect... and the condo still falls through.&#8221; forty seconds, kitchen or car."),
     ("then the condo carousel, the next day.", "seven slides in the valley native look, you on the cover and the close."),
@@ -168,7 +197,7 @@ slides["S7"] = board(f'''{h1(f'the first post is {it("ready.", dark=True)}', dar
     <div style="display: flex; gap: 32px; padding-top: 10px;">
       <div style="width: 1px; background: {RULED}; flex: none;"></div>
       <div style="{SERIF} font-style: italic; font-size: 44px; line-height: 1.3; color: {SOFT};">everything works out exactly the way it&#8217;s supposed to.</div>
-    </div>''', "JEN SANTULAN &#183; SFV &amp; LOS ANGELES", 7, dark=True)
+    </div>''', "JEN SANTULAN &#183; SFV &amp; LOS ANGELES", 10, dark=True)
 
 # DM · the saved reply
 slides["DM"] = board(f'''{h1(f'the saved reply, {it("when an address arrives.")}', size=54)}
@@ -180,7 +209,7 @@ slides["DM"] = board(f'''{h1(f'the saved reply, {it("when an address arrives.")}
     <div style="display: flex; flex-direction: column; gap: 16px; background: {CREAM}; border: 1px solid {HAIR}; padding: 32px 40px;">
       <div style="{SIGN} font-size: 16px; font-weight: 600; letter-spacing: 0.2em; color: {STEEL};">REPLY 2 &#183; THE NEXT DAY, WITH THE NUMBERS</div>
       <div style="font-size: 26px; line-height: 1.5; color: {INK};">okay, i read it. here&#8217;s what i&#8217;d read first, here&#8217;s the one question i&#8217;d ask the listing agent, and here&#8217;s what i&#8217;d do next. are you actually looking this fall, or just keeping an eye on things? either is fine... i just want to point you the right way.</div>
-    </div>''', "SAVED REPLIES &#183; PASTE, PERSONALIZE, SEND", 7)
+    </div>''', "SAVED REPLIES &#183; PASTE, PERSONALIZE, SEND", 10)
 
 for name, html in slides.items():
     (OUT / f"{name}.dc.html").write_text(HEAD.format(body=html))
