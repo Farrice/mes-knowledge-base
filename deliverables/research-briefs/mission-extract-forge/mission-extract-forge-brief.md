@@ -84,8 +84,8 @@ python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
 THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
 SLUG: extract-forge
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-04-extract-forge.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-04-extract-forge.md
 
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.

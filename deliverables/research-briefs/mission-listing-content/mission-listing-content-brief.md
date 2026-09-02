@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill listing-content --reason "<one line>"
 THREAD: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page
 SLUG: listing-content
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-29-listing-content.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-29-listing-content.md
 
 RESUME HERE: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page
 

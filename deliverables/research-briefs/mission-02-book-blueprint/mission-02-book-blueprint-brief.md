@@ -52,8 +52,8 @@ python3 execution/pulse_actions.py kill 02-book-blueprint --reason "<one line>"
 THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 SLUG: 02-book-blueprint
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-02-book-blueprint.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-24-02-book-blueprint.md
 
 RESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 

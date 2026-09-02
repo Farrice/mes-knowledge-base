@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill harness --reason "<one line>"
 THREAD: Harness — Cockpit
 SLUG: harness
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-harness/mission-harness-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-20-harness.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-harness/mission-harness-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-20-harness.md
 
 RESUME HERE: Harness — Cockpit
 

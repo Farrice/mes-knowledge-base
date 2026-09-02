@@ -42,7 +42,7 @@ python3 execution/pulse_actions.py kill recover-jen-santulan-s-established-brand
 THREAD: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity
 SLUG: recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity
 STATUS: — · STAGE: build
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
 
 OPEN MISSION: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity (serves: orphan)
 

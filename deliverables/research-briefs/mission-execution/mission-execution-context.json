@@ -15,19 +15,19 @@
     {
       "path": ".agent/handoffs/2026-08-24-execution.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-execution.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-24-execution.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "guides/2026-08-21-handoff-execution.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/guides/2026-08-21-handoff-execution.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/guides/2026-08-21-handoff-execution.md",
       "role": "asset · GUIDE"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],
