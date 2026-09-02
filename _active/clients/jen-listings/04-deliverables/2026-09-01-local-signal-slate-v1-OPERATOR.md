@@ -108,3 +108,18 @@ address DMs · qualified conversations · game-plan chats booked · signed buyer
 - Concept 2's opinion is a candidate POV. `voice_approved: false` until she says it's hers.
 - Nothing here has published. All performance is NO EVENT. First proof gate: one concept posted (reel + carousel), 7 days of attention data, and any address DMs logged separately.
 - Cost of this run: 8 Perplexity search calls (est. under $0.10, UNCONFIRMED against the tracker); no paid generation.
+
+
+## presentation v2 (2026-09-02) — what moved off-screen and why
+
+Farrice's verdicts: the direct referral ask is too direct and never appears in front of Jen; the framing is empowerment and answering her pushbacks inside the flow, never labelled as objections; show the funnel math with her numbers, never print "2–3 closes"; she fears both pigeonholes (buyer type and subject); people read her as too busy to work with, so every post ends with the door open (address, question, or "hi") and the deck says "people learn you answer" instead of naming the perception.
+
+Six-seat round table (Enrico, Sherrard, Grace Andrews, Jun Yuh, Kallaway, Jen-as-herself) converged on: kill "flywheel" and the mechanism framing; add a glossary board first; add the month grid; add "we count replies, not likes"; add "the slow weeks are part of the plan"; add "who does what"; fold the profile doorway into the file board; cut the referral board.
+
+**Referral touches — operator only, never on screen.** Kept here so the assets exist when she is ready; the deck mentions only "a short note goes to the people who already know you, four times a year."
+- Quarterly valley note (text to past clients and close friends): what changed in the valley this quarter, in her words. Optional last line, her call: "if someone you love is thinking about buying, i'd love to be the first call."
+- One-year text: "one year in the house. how's it treating you?"
+- Referral reply, when a name comes in: "thank you for trusting me with them. i'm here for them the way i was here for you."
+- Removed entirely: the "who's the one friend who keeps saying they'll never afford LA" line. Scripted ask; she doesn't do that.
+
+**Open decision for Farrice:** the masthead on every carousel reads FIRST-TIME BUYER FILE. Grace's seat flagged it as the one on-brand element that pins the pigeonhole. Options: keep (the door people know her by) or rename the series THE VALLEY FILE (matches the lead magnet, covers every buyer type). Board 5 currently argues the "door" position.

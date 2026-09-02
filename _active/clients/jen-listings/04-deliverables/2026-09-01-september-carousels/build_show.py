@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """The presentation for tonight: one full-screen slideshow page (arrow keys, tap, swipe), built from the rendered PNGs.
-Sections: the walkthrough (10 boards) · the first post (condo, 7) · next (rail 7, insurance 7) · her words + the reply.
+Sections: the walkthrough (16 boards) · the first post (condo, 7) · next (rail 7, insurance 7) · her words + the reply.
 Press N for Farrice's one-line notes. Writes show/september-for-jen.html (self-contained)."""
 import base64, json, pathlib
 
@@ -12,20 +12,26 @@ OUT.mkdir(exist_ok=True)
 SECTIONS = [
     ("tonight", [(f"deck-{i:02d}", n) for i, n in enumerate([
         "start with the feeling: she's the friend who happens to sell real estate, from here.",
+        "four words. define them once, then never use another term she doesn't know.",
+        "a post is a billboard, a system is a door. this is the 'not posting for posting's sake' board.",
         "three things she already does, said out loud. read the third one in her words.",
-        "the loop. one voice memo a week is the only new work; everything else is built from it.",
-        "ninety days: series, stamp, her face, the same close. the grid becomes a map of the valley.",
-        "about three hours a week. no daily posting, no trends.",
-        "three photos, one memo, one number. ask for these tonight.",
-        "the valley file: what she hands people who write. evergreen, no gate.",
-        "the referral loop. she doesn't need to ask harder; she needs a moment and a reason, four times a year.",
+        "the month, not the post. point at october: sellers, a $2M listing, a downsizer. the subject and the buyer rotate; her face, the stamp, and the close repeat.",
+        "how one post becomes a conversation. the only new work is the minute she talks.",
+        "we count replies, not likes. a like is nothing; a message is a person.",
+        "the math. do not read numbers; ask for hers. 'you already know your conversation-to-client ratio from referrals.'",
+        "ninety days: a series people collect, the stamp, her face, the same close.",
+        "about three hours a week. when a post does nothing, nothing happens.",
+        "the slow weeks are part of the plan. this is the board that removes the guilt.",
+        "who does what. she has the last word on every word.",
+        "the valley file: what she hands people who write. evergreen, no gate. the pinned 'start here' post is the doorway.",
+        "three photos, one memo, four numbers. ask for these tonight.",
         "if she says yes, this is the rhythm. read 'what you never do' out loud.",
         "the first post is ready. stop here and show the carousel.",
     ], 1)]),
     ("the first post", [(f"dir-d-{i:02d}", "") for i in range(1, 8)]),
     ("next: the train", [(f"rail-{i:02d}", "") for i in range(1, 8)]),
     ("next: the insurance quote", [(f"insurance-{i:02d}", "") for i in range(1, 8)]),
-    ("her words + the reply", [("present-05-your-words", "her lines from the voice memos. if one isn't her, it goes."), ("deck-11-dm-reply", "the saved replies. paste, personalize, send.")]),
+    ("her words + the reply", [("present-05-your-words", "her lines from the voice memos. if one isn't her, it goes."), ("deck-17-dm-reply", "the saved replies. paste, personalize, send.")]),
 ]
 
 slides = []

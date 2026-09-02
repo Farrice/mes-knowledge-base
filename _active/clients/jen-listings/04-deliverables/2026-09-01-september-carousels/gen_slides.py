@@ -317,8 +317,8 @@ def note(nid, y, text, x=0, w=1100):
 
 # ---- row 0: the presentation (seven boards) ----
 y = 0
-note("row0", y - 260, "START HERE: the presentation. ten boards, about fifteen minutes. why this, the flywheel, your grid in 90 days, your week, what we need from you, the valley file, the referral loop, how it runs, the first post. read left to right.")
-for col, name in enumerate(["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10"]):
+note("row0", y - 260, "START HERE: the presentation. sixteen boards, about twenty minutes. four words, posting vs a system, the ethos, the month, how a post becomes a conversation, what counts, the math, 90 days, your week, slow weeks, who does what, the file, what we need, how it runs, the first post. read left to right.")
+for col, name in enumerate([f"S{i}" for i in range(1, 17)]):
     artboards.append({"file": f"{name}.dc.html", "title": f"presentation · {col + 1}", "x": col * X, "y": y, "w": 1080, "h": 1350})
 
 # ---- rows 1-3: the three carousels in the valley native look ----
