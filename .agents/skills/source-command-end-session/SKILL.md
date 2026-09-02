@@ -9,23 +9,29 @@ Use this skill when the user asks to run the migrated source command `end-sessio
 
 ## Operator Core Alignment
 
-This project wrapper follows `.agent/workflows/end-session.md` as the canonical
-behavior source. It must stay a thin compatibility wrapper with no competing
-behavior contract.
+This project wrapper follows `.agent/workflows/end-session.md` as the canonical behavior source. It must stay a thin compatibility wrapper and preserve:
 
-Verification phrases: canonical behavior source; real Codex subagents require explicit authorization; no competing behavior contract.
+- whole-session closeout, retrieval handoff, and closeout intelligence capture
+- clear separation from focused `/handoff` transfer packets and standalone `/steering-compass` next-prompt coaching
+- `3 Next Prompts`
+- `Operator Lesson`
+- `Next-time prompt`
+- `Subagent worth it?`
+- `Reuse hook`
+- `session_closeout_intelligence.py run --source end-session`
+- `conversation_index.py stats`
+- exact named handoff save plus `handoff_store.py verify <thread> --source <path> --json`
+- Codex coordination through `codex_end_session.py run --manifest <json>`
+- `[Domain]: [Specific Object] - [Outcome]`, rename every meaningful task, pin unfinished work, and archive only verified `done`
+- automatic commit and push only in a dedicated `codex/*` worktree
+- Never auto-commit, auto-merge, or auto-push `main`
+- real Codex subagents require explicit authorization
+- no competing behavior contract
+- `close ready` never archives or merges main
+- `close done` requires integration proof and a coordinator archive receipt
+- `bulk closeout audit` is read-only and dispatches nothing
+- Bare `ready` and `done` are status words, never commands
 
-Preserve the current End-session contract: whole-session closeout, retrieval
-handoff, closeout intelligence capture, `3 Next Prompts`, `Operator Lesson`,
-`Next-time prompt`, `Subagent worth it?`, `Reuse hook`,
-`session_closeout_intelligence.py run --source end-session`,
-`conversation_index.py stats`, exact named handoff save plus
-`handoff_store.py verify <thread> --source <path> --json`, Codex coordination
-through `execution/codex_end_session.py run --manifest <json>`,
-`[Domain]: [Specific Object] - [Outcome]`, archive only after a verified
-`done` receipt, automatic commit and push only for manifest-owned paths in a
-dedicated `codex/*` worktree, and Never auto-commit, auto-merge, or auto-push `main`.
-Real Codex subagents require explicit authorization.
 
 ## Command Template
 
