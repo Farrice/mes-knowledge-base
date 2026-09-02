@@ -49,6 +49,14 @@ except ImportError:  # when imported as execution.deep_research_client
 BASE_PATH = Path(__file__).parent.parent
 ENV_PATH = BASE_PATH / ".env"
 USAGE_FILE = BASE_PATH / ".agent" / "gemini-api-usage.json"
+# Prior months are archived here before the live ledger resets (2026-09-02:
+# the reset used to overwrite history; cost-gate-log.jsonl was the only record).
+USAGE_ARCHIVE_DIR = BASE_PATH / ".agent" / "gemini-api-usage-archive"
+# Every validated report body lands here BEFORE the caller sees it. 2026-09-02:
+# a $0.50 run completed, research.py printed only the receipt, and the 48k-char
+# body evaporated until it was re-fetched by interaction id (which then
+# double-logged the spend). The body is the product - it is persisted first.
+REPORT_DIR = BASE_PATH / ".tmp" / "research" / "gemini"
 
 # Defense Layer 3: prepaid ceiling. Anything more is a code bug.
 PREPAID_CEILING_USD = 10.00
@@ -95,7 +103,7 @@ class DeepResearchResult:
 
     __slots__ = (
         "text", "citations", "agent", "query", "interaction_id",
-        "estimated_cost", "duration_seconds", "status",
+        "estimated_cost", "duration_seconds", "status", "report_path",
     )
 
     def __init__(self, **kwargs):
@@ -141,7 +149,7 @@ class DeepResearchClient:
         task_context: str = "",
         query_type: str = "research",
         poll_interval_seconds: int = 10,
-        max_wait_seconds: int = 900,  # 15 min cap — Deep Research Max can run long
+        max_wait_seconds: int = 1800,  # 30 min. Google: most tasks <20 min, hard max 60.
         enable_google_search: bool = True,
         enable_url_context: bool = True,
     ) -> DeepResearchResult:
@@ -248,6 +256,12 @@ class DeepResearchClient:
         if not interaction_id:
             raise RuntimeError(f"No interaction ID in start response: {start_data}")
 
+        # The id is the only handle on money already spent. Persist it NOW so a
+        # timeout, a killed process, or a harness Bash cap cannot lose it.
+        self._log_pending(interaction_id=interaction_id, query=query,
+                          agent=AGENT_IDS[mode], est_cost=est_cost,
+                          task_context=task_context, query_type=query_type)
+
         # ---- Poll for completion ----
         elapsed = 0
         final_data: Dict[str, Any] = {}
@@ -272,9 +286,12 @@ class DeepResearchClient:
                     f"{final_data.get('error', 'unknown error')}"
                 )
         else:
+            # Money is spent; the row stays `pending` so it is recoverable.
             raise TimeoutError(
                 f"Deep Research interaction {interaction_id} did not complete "
-                f"within {max_wait_seconds}s."
+                f"within {max_wait_seconds}s. Spend is likely real; the id is kept "
+                f"under `pending` in {USAGE_FILE.name}. Recover with: "
+                f"python3 execution/research.py gemini-collect --id {interaction_id}"
             )
 
         duration = time.monotonic() - start
@@ -316,19 +333,23 @@ class DeepResearchClient:
                 status="failed",
             )
 
-        self.call_count += 1
-        self.total_cost += est_cost
+        report_path = self._persist_report(interaction_id, query, AGENT_IDS[mode], text, citations)
 
-        # ---- Log usage (only validated content reaches here) ----
-        self._log_usage(
-            query=query,
-            agent=AGENT_IDS[mode],
-            estimated_cost=est_cost,
-            duration_seconds=round(duration, 2),
-            task_context=task_context,
-            query_type=query_type,
-            interaction_id=interaction_id,
-        )
+        # ---- Log usage (only validated content reaches here; once per id) ----
+        if self._already_logged(interaction_id):
+            est_cost = 0.0  # already charged in a prior collect/research - never twice
+        else:
+            self.call_count += 1
+            self.total_cost += est_cost
+            self._log_usage(
+                query=query,
+                agent=AGENT_IDS[mode],
+                estimated_cost=est_cost,
+                duration_seconds=round(duration, 2),
+                task_context=task_context,
+                query_type=query_type,
+                interaction_id=interaction_id,
+            )
 
         return DeepResearchResult(
             text=text.strip(),
@@ -339,6 +360,7 @@ class DeepResearchClient:
             estimated_cost=est_cost,
             duration_seconds=round(duration, 2),
             status="completed",
+            report_path=str(report_path) if report_path else None,
         )
 
     # ----- non-blocking (parallel background) API -----
@@ -425,6 +447,9 @@ class DeepResearchClient:
             raise RuntimeError(f"Deep Research start failed (HTTP {status}).") from e
         if not iid:
             raise RuntimeError("No interaction id in start response.")
+        self._log_pending(interaction_id=iid, query=query, agent=AGENT_IDS[mode],
+                          est_cost=EST_COST_PER_QUERY[mode],
+                          task_context="swarm-parallel-gemini", query_type="research")
         return iid
 
     def collect(self, interaction_id: str, *, query: str = "", mode: str = "standard",
@@ -466,15 +491,22 @@ class DeepResearchClient:
             return DeepResearchResult(text="", citations=citations, agent=AGENT_IDS.get(mode, ""),
                                       query=query, interaction_id=interaction_id,
                                       estimated_cost=0.0, duration_seconds=0.0, status="failed")
-        est_cost = EST_COST_PER_QUERY.get(mode, 0.5)
-        self.call_count += 1
-        self.total_cost += est_cost
-        self._log_usage(query=query, agent=AGENT_IDS[mode], estimated_cost=est_cost,
-                        duration_seconds=0.0, task_context=task_context,
-                        query_type="research", interaction_id=interaction_id)
+        report_path = self._persist_report(interaction_id, query, AGENT_IDS[mode], text, citations)
+        if self._already_logged(interaction_id):
+            # Recovery re-fetch of an already-charged run (the 2026-09-02 double
+            # count). Return the body; log nothing; cost 0 on THIS call.
+            est_cost = 0.0
+        else:
+            est_cost = EST_COST_PER_QUERY.get(mode, 0.5)
+            self.call_count += 1
+            self.total_cost += est_cost
+            self._log_usage(query=query, agent=AGENT_IDS[mode], estimated_cost=est_cost,
+                            duration_seconds=0.0, task_context=task_context,
+                            query_type="research", interaction_id=interaction_id)
         return DeepResearchResult(text=text.strip(), citations=citations, agent=AGENT_IDS[mode],
                                   query=query, interaction_id=interaction_id,
-                                  estimated_cost=est_cost, duration_seconds=0.0, status="completed")
+                                  estimated_cost=est_cost, duration_seconds=0.0, status="completed",
+                                  report_path=str(report_path) if report_path else None)
 
     # ----- budget tracking -----
 
@@ -487,7 +519,9 @@ class DeepResearchClient:
             return PREPAID_CEILING_USD
 
         spent = usage.get("usage", {}).get("estimated_cost_usd", 0)
-        return PREPAID_CEILING_USD - spent
+        # In-flight interactions are money already committed.
+        pending = sum(float(p.get("est_cost", 0) or 0) for p in usage.get("pending", []))
+        return PREPAID_CEILING_USD - spent - pending
 
     def usage_summary(self) -> Dict[str, Any]:
         """Session + month-to-date stats."""
@@ -507,6 +541,97 @@ class DeepResearchClient:
         except (json.JSONDecodeError, OSError):
             return {}
 
+    def _fresh_month(self, current_month: str) -> dict:
+        return {
+            "prepaid_ceiling_usd": PREPAID_CEILING_USD,
+            "current_month": current_month,
+            "usage": {"total_queries": 0, "estimated_cost_usd": 0.0, "queries": []},
+            "pending": [],
+            "alerts": {"warn_at_percent": 80, "block_at_percent": 95},
+            "loop_detection": {
+                "current_task_query_count": 0,
+                "current_task_name": "",
+                "last_query_timestamp": "",
+            },
+            "notes": (
+                "Defense-in-depth tracker. Ultra subscription should cover most "
+                "calls at $0. This tracks estimated spend against the $10 prepaid "
+                "ceiling as a last-resort check. See directives/google-api-usage-policy.md."
+            ),
+        }
+
+    def _current_month_usage(self) -> dict:
+        """Read the ledger; on month rollover ARCHIVE the old month first, then
+        reset - carrying any in-flight `pending` rows forward so they stay
+        recoverable. Previously the reset silently discarded the prior month."""
+        usage = self._read_usage()
+        current_month = datetime.now().strftime("%Y-%m")
+        if usage.get("current_month") == current_month:
+            usage.setdefault("pending", [])
+            return usage
+        if usage.get("current_month"):
+            try:
+                USAGE_ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+                (USAGE_ARCHIVE_DIR / f"{usage['current_month']}.json").write_text(
+                    json.dumps(usage, indent=4))
+            except OSError:
+                pass  # archive is best-effort; never block the ledger write
+        fresh = self._fresh_month(current_month)
+        fresh["pending"] = list(usage.get("pending", []))
+        return fresh
+
+    def _write_usage(self, usage: dict) -> None:
+        USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        USAGE_FILE.write_text(json.dumps(usage, indent=4))
+
+    def _already_logged(self, interaction_id: str) -> bool:
+        """True if this interaction already has a charged row on disk."""
+        if not interaction_id:
+            return False
+        usage = self._read_usage()
+        return any(q.get("interaction_id") == interaction_id
+                   for q in usage.get("usage", {}).get("queries", []))
+
+    @staticmethod
+    def _drop_pending(usage: dict, interaction_id: str) -> None:
+        usage["pending"] = [p for p in usage.get("pending", [])
+                            if p.get("interaction_id") != interaction_id]
+
+    def _log_pending(self, *, interaction_id: str, query: str, agent: str,
+                     est_cost: float, task_context: str, query_type: str) -> None:
+        """Record an in-flight interaction the moment it has an id. This row is
+        the recovery handle if the process dies or the poll times out."""
+        usage = self._current_month_usage()
+        self._drop_pending(usage, interaction_id)
+        usage["pending"].append({
+            "interaction_id": interaction_id,
+            "started_at": datetime.now(timezone.utc).isoformat(),
+            "type": query_type,
+            "agent": agent,
+            "description": query[:200],
+            "task_context": task_context,
+            "est_cost": est_cost,
+            "recover": f"python3 execution/research.py gemini-collect --id {interaction_id}",
+        })
+        self._write_usage(usage)
+
+    def _persist_report(self, interaction_id: str, query: str, agent: str,
+                        text: str, citations: List[str]) -> Optional[Path]:
+        """Write the validated body to disk before any caller can drop it."""
+        try:
+            REPORT_DIR.mkdir(parents=True, exist_ok=True)
+            path = REPORT_DIR / f"{interaction_id}.md"
+            cites = "\n".join(f"{i}. {c}" for i, c in enumerate(citations or [], 1))
+            path.write_text(
+                f"# Gemini Deep Research report\n\n"
+                f"- interaction_id: {interaction_id}\n- agent: {agent}\n"
+                f"- saved: {datetime.now(timezone.utc).isoformat()}\n"
+                f"- query: {query}\n\n---\n\n{text.strip()}\n\n"
+                f"## Citations ({len(citations or [])})\n\n{cites}\n")
+            return path
+        except OSError:
+            return None
+
     def _log_usage(
         self,
         *,
@@ -518,31 +643,9 @@ class DeepResearchClient:
         query_type: str,
         interaction_id: str,
     ):
-        """Append a query record to the usage file."""
-        usage = self._read_usage()
-        current_month = datetime.now().strftime("%Y-%m")
-
-        if usage.get("current_month") != current_month:
-            usage = {
-                "prepaid_ceiling_usd": PREPAID_CEILING_USD,
-                "current_month": current_month,
-                "usage": {
-                    "total_queries": 0,
-                    "estimated_cost_usd": 0.0,
-                    "queries": [],
-                },
-                "alerts": {"warn_at_percent": 80, "block_at_percent": 95},
-                "loop_detection": {
-                    "current_task_query_count": 0,
-                    "current_task_name": "",
-                    "last_query_timestamp": "",
-                },
-                "notes": (
-                    "Defense-in-depth tracker. Ultra subscription should cover most "
-                    "calls at $0. This tracks estimated spend against the $10 prepaid "
-                    "ceiling as a last-resort check. See directives/google-api-usage-policy.md."
-                ),
-            }
+        """Append a query record to the usage file (once per interaction id)."""
+        usage = self._current_month_usage()
+        self._drop_pending(usage, interaction_id)
 
         usage_data = usage.setdefault(
             "usage",
@@ -572,9 +675,7 @@ class DeepResearchClient:
             loop["current_task_name"] = task_context
             loop["current_task_query_count"] = 1
         loop["last_query_timestamp"] = now
-
-        USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
-        USAGE_FILE.write_text(json.dumps(usage, indent=4))
+        self._write_usage(usage)
 
     def _log_failure(
         self,
@@ -594,7 +695,8 @@ class DeepResearchClient:
         visible (so 'did Gemini actually deliver?' is answerable) but must never
         touch estimated_cost_usd, the queries array, or loop_detection counts.
         """
-        usage = self._read_usage()
+        usage = self._current_month_usage()
+        self._drop_pending(usage, interaction_id)
         failures = usage.setdefault("failures", [])
         failures.append({
             "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -607,8 +709,7 @@ class DeepResearchClient:
             "interaction_id": interaction_id,
             "estimated_cost": 0.0,  # explicit: failures never cost
         })
-        USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
-        USAGE_FILE.write_text(json.dumps(usage, indent=4))
+        self._write_usage(usage)
 
 
 # ---------------------------------------------------------------------------
@@ -661,7 +762,9 @@ def _cli():
         print(f"❌ {e}")
         return 1
 
-    print(f"✅ Completed in {result.duration_seconds:.1f}s\n")
+    print(f"✅ Completed in {result.duration_seconds:.1f}s")
+    if result.report_path:
+        print(f"   Report body saved: {result.report_path}\n")
     print(result.text)
     if result.citations:
         print("\n## Citations\n")

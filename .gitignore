@@ -225,3 +225,4 @@ _active/video-studio/hyperframes-studio/
 .agent/handoffs/LATEST.md
 .agent/forge-state.json
 .agent/run-receipts/
+.agent/gemini-api-usage-archive/

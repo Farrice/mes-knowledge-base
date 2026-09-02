@@ -55,6 +55,10 @@ except ImportError:  # imported as execution.research
     from execution.deep_research_engine import ResearchEngine
 
 GROUND_TMP = ROOT / ".tmp" / "copy-engine"
+# Every research body is written here by the CLI before anything is printed.
+# 2026-09-02: a paid Gemini run printed only the receipt; the report was lost
+# until re-fetched by id. The receipt is the summary - the body is the product.
+REPORT_DIR = ROOT / ".tmp" / "research"
 GE = EngineKind  # shorthand
 AO = AttemptOutcome
 RS = ResearchStatus
@@ -148,7 +152,7 @@ def _try_gemini(query: str, depth: str, task_context: str
         # Keep the real reason in the receipt — an opaque "RuntimeError" hid a
         # depleted-prepay-credits 429 for days (found 2026-07-13).
         return None, EngineAttempt(GE.GEMINI_DEEP, AO.FAILED,
-                                   detail=f"{type(e).__name__}: {str(e)[:110]}",
+                                   detail=f"{type(e).__name__}: {str(e)[:320]}",
                                    duration_seconds=round(time.monotonic() - t0, 1))
     dur = round(time.monotonic() - t0, 1)
     ok, reason = validate_engine_text(dr.text, dr.citations)
@@ -377,6 +381,34 @@ def ground(slug: str, market: str = "", product: str = "", tier: str = "deep",
 
 
 # ---------------------------------------------------------------------------
+# Report persistence - the body is never stdout-only
+# ---------------------------------------------------------------------------
+
+def persist_report(res: ResearchResult, label: str = "") -> Optional[Path]:
+    """Write synthesis + sources + receipt to .tmp/research/<ts>-<slug>.md and
+    return the path. Fires for every engine (Gemini, Perplexity, floor). Never
+    raises - persistence must not be the thing that breaks a paid run."""
+    try:
+        REPORT_DIR.mkdir(parents=True, exist_ok=True)
+        slug = re.sub(r"[^a-z0-9]+", "-", (label or res.query).lower()).strip("-")[:60] or "research"
+        ts = time.strftime("%Y%m%d-%H%M%S")
+        path = REPORT_DIR / f"{ts}-{slug}.md"
+        srcs = "\n".join(f"{i}. {s.url}" for i, s in enumerate(res.sources, 1))
+        body = (res.synthesis or "").strip() or "_(no synthesis body - see findings)_"
+        findings = "\n".join(f"- {f.claim} [{f.source_url}]" for f in res.findings[:200])
+        path.write_text(
+            f"# Research report\n\n- query: {res.query}\n- depth: {res.depth} "
+            f"(achieved {res.depth_achieved})\n- status: {res.status.value}\n"
+            f"- engine: {res.engine_used.value}\n- cost_usd: {res.cost_usd:.2f}\n"
+            f"- saved: {res.timestamp}\n\n---\n\n{body}\n\n"
+            f"## Findings ({len(res.findings)})\n\n{findings}\n\n"
+            f"## Sources ({len(res.sources)})\n\n{srcs}\n\n---\n\n```\n{res.render_receipt()}\n```\n")
+        return path
+    except Exception:
+        return None
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -440,7 +472,8 @@ def _cli() -> int:
                     return "[" + ", ".join(urls) + "]" if urls else m.group(0)
                 text = re.sub(r"\[cite:\s*[\d,\s]+\]", _resolve, text)
             print(json.dumps({"status": r.status, "text": text,
-                              "citations": cites, "cost_usd": r.estimated_cost or 0.0}))
+                              "citations": cites, "cost_usd": r.estimated_cost or 0.0,
+                              "report_path": getattr(r, "report_path", None)}))
         except Exception as e:
             print(json.dumps({"status": "error", "reason": f"{type(e).__name__}"}))
         return 0
@@ -493,15 +526,21 @@ def _cli() -> int:
             f"DEPTH CONTRACT UNMET (depth={req_depth}): DEGRADED is a hard fail at this "
             f"tier — run the agent fan-out + `research.py ingest` before using this result."
         )
+    report_path = persist_report(res, label=getattr(a, "task_context", "") or "")
     if getattr(a, "json", False):
         try:
             payload = json.loads(res.to_json())
         except Exception:
             payload = {"raw": res.to_json()}
         payload["acceptable"] = bool(res.is_usable and not strict_fail)
+        payload["report_path"] = str(report_path) if report_path else None
         print(json.dumps(payload, indent=2))
     else:
         print(res.render_receipt())
+        if report_path:
+            print(f"Report body:   {report_path}")
+        else:
+            print("Report body:   NOT SAVED (persist_report failed) - use --json to capture synthesis")
         if strict_fail:
             print(f"\n⛔ DEPTH CONTRACT UNMET — depth={req_depth} result is DEGRADED. "
                   f"This output is RECON-GRADE, not decision-grade. Exit 2.")

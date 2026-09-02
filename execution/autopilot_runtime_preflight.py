@@ -223,6 +223,7 @@ VERIFIERS_BY_LANE = {
     ),
     "deep-research-os": (
         "python3 execution/verify_deep_research_os.py",
+        "python3 execution/verify_deep_research_ledger.py",
         "python3 execution/verify_free_first_research_mission.py",
         "python3 execution/research_quality_gate.py validate [final_report.md] --strict --source-ledger [source_ledger.md]",
     ),
