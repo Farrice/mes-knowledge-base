@@ -22,7 +22,7 @@ Labels: HERS (verbatim or near-verbatim from her memos/captions) · VERIFIED (pu
 
 if the numbers are loud at night, i say the same thing to every client: just breathe. take a step back. let's sleep on it and talk in the morning... anything happening right before bed is not the time to decide.
 
-in the morning, the question isn't "are rates going up." it's what did your lender actually quote you, and have we looked at a buydown... that's someone paying a little now so your rate is lower, for good or just the first couple of years. there's usually a way to structure the loan so it works for the you that exists right now.
+in the morning i ask two things. what did your lender actually quote you. and have we looked at a buydown... someone pays a little now so your rate is lower, for good or just the first couple of years. there's usually a way to structure the loan so it works for the you that exists right now.
 
 if it's late and the numbers are loud, send me the number, buying or selling. we'll look at it in the morning. or just say hi.
 
