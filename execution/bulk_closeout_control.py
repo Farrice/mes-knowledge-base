@@ -59,9 +59,13 @@ def now_iso() -> str:
 
 
 def run(command: list[str], cwd: Path, timeout: int = 60) -> subprocess.CompletedProcess[str]:
+    # A worktree can be removed after `git worktree list` but before its lane is
+    # inspected. Keep the subprocess launch alive so `git -C <missing-path>`
+    # can return an ordinary non-zero result that the audit classifies.
+    launch_cwd = cwd if cwd.is_dir() else ROOT
     return subprocess.run(
         command,
-        cwd=str(cwd),
+        cwd=str(launch_cwd),
         text=True,
         errors="replace",
         capture_output=True,

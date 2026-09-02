@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import importlib.util
 import subprocess
 import sys
 import tempfile
@@ -32,6 +33,11 @@ def parse(result: subprocess.CompletedProcess[str]) -> dict:
 
 
 def main() -> int:
+    spec = importlib.util.spec_from_file_location("bulk_closeout_control", SCRIPT)
+    require(spec is not None and spec.loader is not None, "could not load audit module")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+
     ready = invoke("interpret", "close ready")
     require(ready.returncode == 0, ready.stderr)
     ready_data = parse(ready)
@@ -60,6 +66,10 @@ def main() -> int:
 
     with tempfile.TemporaryDirectory(prefix="bulk-closeout-verify-") as raw:
         tmp = Path(raw)
+        require(
+            module.dirty_paths(tmp / "removed-worktree") == [],
+            "a worktree removed during audit must not crash inspection",
+        )
         snapshot = {
             "schema_version": "codex-task-snapshot/v1",
             "tasks": [{
