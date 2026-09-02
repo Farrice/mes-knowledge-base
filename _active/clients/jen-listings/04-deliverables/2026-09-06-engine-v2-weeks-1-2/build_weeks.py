@@ -28,10 +28,14 @@ NO_VIDEO = "--no-video" in sys.argv
 
 WEEKS = [
     {
+        # week 1, re-run 2026-09-02 through /jen (LOAD → READ → RESEARCH → WRITE → AMPLIFY → CHECK → RENDER → DELIVER).
+        # Same facts as the first pass (FACTS.md rows 01/03, all VERIFIED 9/2). What changed: every hook opens on her or the
+        # reader's situation (CONTENT-MIX.md hook rule); the slot mix is attract / connect / convert; the voice bank is drawn
+        # once per line this week, never stamped. READ.md and AMPLIFY.md in the week folder carry the receipts.
         "folder": "week-of-2026-09-07",
         "message": (
             "hey babe, week 1 is in the folder: three posts, tue / thu / sat. open, post, done.\n"
-            "if a line isn't you, reply here and it changes before it posts. nothing else to do 🤍"
+            "thursday is your \"just breathe\" line from the voice memo. if a word isn't you, tell me and it changes before it posts 🤍"
         ),
         "posts": [
             {
@@ -39,100 +43,111 @@ WEEKS = [
                 "kind": "reel",
                 "job": "attract",
                 "day": "tue sept 8 · 7:30am",
+                "story": "first frame to stories at 7:35am with the sticker: \"send me your number\"",
+                "collab": "none (other agents' listings; never tag them)",
+                "first_comment": "the three are tarzana, lake balboa, van nuys. send me your number and i'll send the addresses.",
                 "beats": [
-                    {"photo": "valley-street-01.jpg", "line": "what $850K actually<br>buys in the valley<br>this week.", "size": 96, "secs": 4, "zoom": "in",
-                     "swap": "a valley-floor street or a front elevation from any listing shoot (folder 01)"},
-                    {"photo": "california-bungalow-00.jpg", "line": "$869,000. tarzana.<br>3 bed. a 7,296 sq ft lot<br>with room for an ADU.", "size": 92, "secs": 4.5, "zoom": "out",
+                    {"photo": "sunlight-through-window-floor-00.jpg", "line": "you keep saving<br>the finished ones.", "size": 104, "secs": 3.5, "zoom": "in",
+                     "swap": "a white-oak kitchen or a soft modern interior from any listing shoot (folder 01)"},
+                    {"photo": "valley-street-01.jpg", "line": "so. what $850K<br><em>actually</em> buys<br>in the valley this week.", "size": 92, "secs": 4, "zoom": "out",
+                     "swap": "a valley-floor street from the drive (folder 02)"},
+                    {"photo": "california-bungalow-00.jpg", "line": "$869,000. tarzana.<br>3 bed. a 7,296 sq ft lot<br>with room for an ADU.", "size": 92, "secs": 4.5, "zoom": "in",
                      "swap": "an exterior from a listing shoot, single story"},
-                    {"photo": "suburban-neighborhood-aerial-02.jpg", "line": "$850,000. lake balboa.<br>3 bed... a few blocks<br>from the lake.", "size": 92, "secs": 4.5, "zoom": "in",
+                    {"photo": "suburban-neighborhood-aerial-02.jpg", "line": "$850,000. lake balboa.<br>3 bed... a few blocks<br>from the lake.", "size": 92, "secs": 4.5, "zoom": "out",
                      "swap": "a drone frame from any listing shoot"},
-                    {"photo": "front-door-house-00.jpg", "line": "$815,000. van nuys.<br>4 bed... and a pool.", "size": 96, "secs": 4, "zoom": "out",
+                    {"photo": "front-door-house-00.jpg", "line": "$815,000. van nuys.<br>4 bed... and a pool.", "size": 96, "secs": 4, "zoom": "in",
                      "swap": "a backyard or pool frame from a listing shoot"},
-                    {"photo": "jen-porch-vannuys.jpg", "line": "send me your number.<br>i&#8217;ll send you the three<br>i&#8217;d actually go see.", "size": 88, "hand": "my DMs are open &#8594;", "secs": 5, "zoom": "in",
+                    {"photo": "jen-porch-vannuys.jpg", "line": "send me your number.<br>i&#8217;ll send you the three<br>i&#8217;d go see this weekend.", "size": 88, "hand": "i&#8217;ve got you &#127968;", "secs": 5, "zoom": "out",
                      "swap": "her at a front door (folder 03)"},
                 ],
                 "caption": (
-                    "what $850K actually buys in the valley this week. three homes on the market right now (none of them mine):\n"
+                    "if you've got a folder of saved listings you've never toured... same. the finished ones. white oak, soft, modern, the kitchen you screenshot for your person at midnight.\n"
                     "\n"
-                    "tarzana... $869,000. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. room in the back for an ADU, that's a small second home you can build later.\n"
+                    "so. what $850K actually buys in the valley this week. three homes on the market right now, none of them mine:\n"
+                    "\n"
+                    "tarzana... $869,000. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. room in the back for an ADU... a small second home you can build later.\n"
                     "lake balboa... $850,000. 3 bed, 1 bath, 1,126 sq ft, a few blocks from the lake.\n"
                     "van nuys... $815,000. 4 bed, 1.5 bath, 1,390 sq ft, and a pool.\n"
                     "\n"
-                    "none of them are the finished, soft, modern house from the listing photos you keep saving. all three are a real front door at a real number... and the number is the part nobody posts.\n"
+                    "none of them look like the saved folder. all three are a real front door at a real number, and the number is the part nobody posts.\n"
                     "\n"
-                    "send me your number, buying or selling. i'll send you the three i'd actually go see this weekend, and what i'd check first at each one. or just say hi.\n"
-                    "\n"
-                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
+                    "send me your number, buying or selling. i'll send you the three i'd go see this weekend and what i'd check first at each one. i've got you 🏡\n"
                     "\n"
                     "prices from the MLS, sept 2, 2026. they move.\n"
                     "#sanfernandovalley #tarzana #vannuys #lakebalboa #valleyrealestate #SFV"
                 ),
-                "reply": "a number arrives → saved reply 3 (looking / a number). an address arrives → saved reply 1.",
+                "reply": "a number arrives → saved reply 3 (looking / a number). an address arrives → saved reply 1. 'same' → her words: 'send me the number and i'll make the folder real.'",
             },
             {
-                "id": "02-position-not-the-number-that-matters",
+                "id": "02-connect-just-breathe",
                 "kind": "card",
-                "job": "position",
+                "job": "connect",
                 "day": "thu sept 10 · 6:30pm",
+                "story": "slide 1 to stories at 6:35pm with the question sticker: \"what's the number keeping you up?\"",
+                "collab": "none",
+                "first_comment": "this is what i actually say on the phone. the buydown thing is real, ask me.",
+                # three frames, all her own photos (06-system/valley-editions/photos/jen, VERIFIED 5421 Bothwell + her headshot).
+                # Rule from his first-canvas verdict: type never on a face or across her body. Frame 3 is photo only.
                 "slides": [
-                    {"photo": "vannuys-blvd-2024.jpg", "pos": "50% 50%", "wash": 0.46,
-                     "swap": "the boulevard at golden hour, or any wide valley frame (folder 01 or 02)",
-                     "html": lambda: f'''{serif("6.66% this week.<br><em>not the number<br>that matters.</em>", size=88)}
-    {hand("the one i ask for instead &#8594;", size=48)}'''},
-                    {"photo": "sunlight-through-window-floor-00.jpg", "pos": "50% 50%", "wash": 0.52,
-                     "swap": "an interior with light on the floor, from a listing shoot",
-                     "html": lambda: f'''{hand("the question", size=52)}
-    {serif("what rate did<br>your lender<br><em>actually</em> quote you?", size=84)}
-    {body("not the one on the news. yours. the news number is an average of the whole country... your number is your credit, your down payment, your loan.", size=31)}
-    {body("<b style='font-weight: 500;'>those two can sit half a point apart. half a point on $850,000 with 20% down is about $220 a month.</b>", size=29, width=720)}'''},
-                    {"photo": "jen-porch-vannuys.jpg", "pos": "50% 0%", "wash": 0.44,
-                     "swap": "her at a front door (folder 03)",
-                     "html": lambda: f'''{serif("send me your<br>lender&#8217;s quote.", size=88)}
-    {body("and we&#8217;ll look at a buydown together... that&#8217;s someone paying a little now so your rate is lower, for good or just the first couple of years.", size=31, width=720)}
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-03-pool.jpg", "pos": "50% 0%", "wash": 0.46,
+                     "swap": "hers (Bothwell pool at dusk); no swap needed",
+                     "html": lambda: f'''{serif("just<br>breathe.", size=120)}
+    {body("it&#8217;s 11pm. the rate went up again. you&#8217;re doing the math on your phone in the dark.", size=31, width=720)}
+    {hand("let&#8217;s talk in the morning &#8594;", size=50)}'''},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-02-living.jpg", "pos": "50% 35%", "wash": 0.64,
+                     "swap": "hers (Bothwell living room); no swap needed",
+                     "html": lambda: f'''{hand("what i say to every client", size=50)}
+    {serif("take a step back.<br>let&#8217;s sleep on it.", size=84)}
+    {body("in the morning i ask two things. what did your lender actually quote you... and have we looked at a buydown. that&#8217;s someone paying a little now so your rate is lower, for good or just the first couple of years.", size=30, width=720)}
     {body("i&#8217;m here for you. that&#8217;s my job.<br>i do this to protect you and your best interest.", size=29, width=720)}
-    {hand("my DMs are open &#8594;", size=50)}'''},
+    {hand("send me the number when you&#8217;re up &#8594;", size=48)}'''},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/jen-headshot-studio.jpg", "pos": "50% 20%", "wash": 0.12,
+                     "swap": "hers (studio headshot); photo only, her lockup at the foot, no type on her",
+                     "html": lambda: ""},
                 ],
                 "caption": (
-                    "6.66% is this week's 30-year average (freddie mac, aug 27). it's a headline, not your rate.\n"
+                    "if the numbers are loud at night, i say the same thing to every client: just breathe. take a step back. let's sleep on it and talk in the morning. nothing you decide at 11pm with the calculator app open counts as a decision.\n"
                     "\n"
-                    "what i ask for instead: the quote your lender actually gave you... your credit, your down payment, your loan. yours and the headline can sit half a point apart, and half a point on an $850,000 home with 20% down is about $220 a month, every month.\n"
-                    "\n"
-                    "then two questions. have you looked at a buydown... someone pays a little upfront so your rate is lower, either for good or just the first couple of years. and how we structure the loan so it works for you now, not for a version of you who makes more later.\n"
-                    "\n"
-                    "send me your lender's quote, or just the number you're working with. buying or selling, it's the same conversation.\n"
+                    "in the morning i ask two things. what did your lender actually quote you, not the number on the news. and have we looked at a buydown... that's someone paying a little now so your rate is lower, for good or just for the first couple of years. there's usually a way to structure the loan for the you that exists right now, not a version of you who makes more later.\n"
                     "\n"
                     "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
-                    "everything works out exactly the way it's supposed to.\n"
                     "\n"
-                    "#mortgagerates #sanfernandovalley #SFV #valleyrealestate #shermanoaks"
+                    "if it's late and the numbers are loud, send me the number, buying or selling. we'll look at it in the morning. or just say \"same.\"\n"
+                    "\n"
+                    "#sanfernandovalley #SFV #valleyrealestate #mortgagerates"
                 ),
-                "reply": "a quote or a number arrives → saved reply 3. a 'hi' → saved reply 4.",
+                "reply": "a number or a quote → saved reply 3. 'same' or a feeling → her words: 'i know. send me the number when you're up. we'll look together.'",
             },
             {
                 "id": "03-convert-5421-bothwell",
                 "kind": "reel",
                 "job": "convert",
                 "day": "sat sept 12 · 9:00am",
+                "story": "first frame to stories at 9:05am, no sticker; the address card is the story",
+                "collab": "invite @myhousesellers as collaborator (team listing, co-listed with marty azoulay)",
+                "first_comment": "three structures, one lot. private showings this weekend, DM me.",
                 "beats": [
-                    {"photo": "sfv-aerial-nara.jpg", "line": "Three Structures.<br>One Lot. Tarzana.", "size": 100, "secs": 4, "zoom": "in",
+                    {"photo": "sfv-aerial-nara.jpg", "line": "Most New Construction<br>in the Valley<br>Is One Big Box.", "size": 92, "secs": 4, "zoom": "in",
                      "swap": "the Bothwell drone frame over the whole lot (folder 01)"},
-                    {"photo": "sunlight-through-window-floor-00.jpg", "line": "The Living Room Opens<br>to the Pool<br>on Pocket Doors.", "size": 92, "secs": 4.5, "zoom": "out",
+                    {"photo": "california-bungalow-00.jpg", "line": "This Is Three Buildings<br>on One Lot. Tarzana.", "size": 96, "secs": 4, "zoom": "out",
+                     "swap": "the Bothwell exterior, all three structures in frame"},
+                    {"photo": "sunlight-through-window-floor-00.jpg", "line": "The Living Room Opens<br>to the Pool<br>on Pocket Doors.", "size": 92, "secs": 4.5, "zoom": "in",
                      "swap": "Bothwell living room, pocket doors open"},
-                    {"photo": "california-bungalow-00.jpg", "line": "882 Sq Ft Guest House.<br>Its Own Kitchen.<br>Not a Converted Garage.", "size": 84, "secs": 4.5, "zoom": "in",
+                    {"photo": "front-door-house-00.jpg", "line": "882 Sq Ft Guest House.<br>Its Own Kitchen.<br>Not a Converted Garage.", "size": 84, "secs": 4.5, "zoom": "out",
                      "swap": "the Bothwell ADU exterior or its kitchen"},
-                    {"photo": "jen-frontdoor.jpg", "line": "5421 Bothwell Rd.<br>$5,695,000.", "size": 100, "hand": "DM for a private showing &#8594;", "secs": 5, "zoom": "out",
+                    {"photo": "jen-frontdoor.jpg", "line": "5421 Bothwell Rd.<br>$5,695,000.", "size": 100, "hand": "DM for a private showing &#8594;", "secs": 5, "zoom": "in",
                      "swap": "her at the Bothwell front door (folder 01 or 03)"},
                 ],
                 "caption": (
-                    "Most New Construction in the Valley Is One Big Box. This Is Three Buildings on One Lot.\n"
+                    "If You've Toured Six New Builds This Year and They've All Blurred Into One Big Box... This One Won't.\n"
                     "\n"
-                    "5421 bothwell rd, tarzana. a 5,468 sq ft main house, an 882 sq ft guest house with its own kitchen, and a 238 sq ft rec room. 6,588 sq ft in total.\n"
+                    "5421 bothwell rd, tarzana. three buildings on one lot: a 5,468 sq ft main house, an 882 sq ft guest house with its own kitchen, and a 238 sq ft rec room. 6,588 sq ft in total.\n"
                     "\n"
                     "white oak floors and real white oak cabinetry. taj mahal quartzite in the kitchen, thermador and sub-zero. venetian plaster in the office, the theater, and the primary bath. pocket doors from the living room straight out to the pool and a half basketball court. eleven-foot ceilings downstairs.\n"
                     "\n"
                     "$5,695,000. co-listed with marty azoulay, equity union.\n"
                     "\n"
-                    "DM for a private showing.\n"
+                    "private showings this weekend. DM me and we'll set a time.\n"
                     "\n"
                     "#tarzana #newconstruction #sanfernandovalley #luxuryrealestate #losangelesrealestate"
                 ),
@@ -461,10 +476,15 @@ def main():
         (wdir / "MESSAGE-to-jen.txt").write_text(wk["message"] + "\n")
         (wdir / "saved-replies.txt").write_text(SAVED_REPLIES)
         plan, captions = [], []
+        week_start = len(copy_md)
         copy_md.append(f"\n## {wk['folder']}\n\n> message: {wk['message']}\n")
         for p in wk["posts"]:
             print(f"{wk['folder']} / {p['id']}")
-            plan.append(f"{p['day']} · {p['id'].split('-', 1)[1].replace('-', ' ')} · {p['kind']}")
+            plan.append(f"{p['day']} · {p['id'].split('-', 1)[1].replace('-', ' ')} · {p['kind']}"
+                        + (f"\n    story: {p['story']}" if p.get("story") else "")
+                        + (f"\n    collab: {p['collab']}" if p.get("collab") else "")
+                        + (f"\n    first comment: {p['first_comment']}" if p.get("first_comment") else "")
+                        + f"\n    replies: {p['reply']}")
             captions.append(f"=== {p['id']} · {p['day']} ===\n\n{p['caption']}\n")
             copy_md.append(f"\n### {p['id']} · {p['kind']} · {p['job']} · {p['day']}\n")
             if p["kind"] == "card":
@@ -482,6 +502,8 @@ def main():
             copy_md.append(f"\n**caption**\n\n{p['caption']}\n\n*reply routing: {p['reply']}*\n")
         (wdir / "day-plan.txt").write_text("\n".join(plan) + "\n")
         (wdir / "captions.txt").write_text("\n".join(captions))
+        # per-week copy file so /jen step 5 (fair-housing lint, classifier, stamp-lint) can read ONE week at a time
+        (wdir / "COPY.md").write_text(f"# {wk['folder']} · the copy (operator file)\n" + "\n".join(copy_md[week_start:]) + "\n")
     (HERE / "COPY-weeks-1-2.md").write_text("\n".join(copy_md))
     lines = ["# photo swap map\n",
              "Every frame below is a placeholder from the cleared pool. When her shoots land in Drive folder 01 (and her portraits in 03), drop the named shot into `img/` under the placeholder's filename, or point the beat at the new file, and re-run `python3 build_weeks.py`. Nothing else changes.\n",

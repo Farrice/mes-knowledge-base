@@ -4,11 +4,18 @@
 import glob, os, pathlib, shutil, subprocess, sys
 
 LANE = pathlib.Path(__file__).resolve().parents[1]
-V2 = pathlib.Path("/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks")  # edition-01 renders live in out/ (gitignored); re-render with editions.py if this path is gone
 WEEKS = LANE / "_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2"
 POOL = LANE / "_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img"
 HERS = LANE / "_active/clients/jen-listings/06-system/valley-editions/photos/jen"
-ED = V2 / "_active/clients/jen-listings/06-system/valley-editions/out/edition-01"
+# edition-01 renders live in out/ (gitignored). Read from this tree first; fall back to the old
+# jen-engine-v2-weeks worktree only if it still exists (2026-09-02: that lane merged into main).
+# If neither has renders, re-render: python3 06-system/valley-editions/editions.py edition01
+_ED_CANDIDATES = [
+    LANE / "_active/clients/jen-listings/06-system/valley-editions/out/edition-01",
+    pathlib.Path("/Users/farricecain/Google Antigravity/_active/clients/jen-listings/06-system/valley-editions/out/edition-01"),
+    pathlib.Path("/Users/farricecain/Google Antigravity/.claude/worktrees/jen-engine-v2-weeks/_active/clients/jen-listings/06-system/valley-editions/out/edition-01"),
+]
+ED = next((p for p in _ED_CANDIDATES if p.exists()), _ED_CANDIDATES[0])
 OUT = pathlib.Path(sys.argv[1]); OUT.mkdir(parents=True, exist_ok=True)
 FF = shutil.which("ffmpeg") or sorted(glob.glob(os.path.expanduser("~/Library/Caches/ms-playwright/ffmpeg-*/ffmpeg-mac-arm64")))[-1]
 

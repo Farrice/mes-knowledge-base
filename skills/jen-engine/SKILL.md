@@ -4,7 +4,13 @@ description: "End-to-end content orchestration for Jen Santulan's listings — 7
 version: "1.0"
 format: orchestration-engine
 domain: Real estate content production (LA / SFV)
+status: archived
+superseded_by: .agent/workflows/jen.md
+archived_reason: "2026-09-02 reset. Its premise (22-question intake → VOICE.md/BRAIN.md → 20 talking-head videos) was refused by Jen (no memos, no talking reels). VOICE.md and BRAIN.md were never created. The operating model is _active/clients/jen-listings/06-system/ENGINE-V2.md; the only front door is /jen."
 ---
+
+> **ARCHIVED 2026-09-02.** Do not route here. Use `/jen` (`.agent/workflows/jen.md`). Kept as a record of the 7-stage design.
+
 
 # Jen Engine — Content Production Orchestration
 

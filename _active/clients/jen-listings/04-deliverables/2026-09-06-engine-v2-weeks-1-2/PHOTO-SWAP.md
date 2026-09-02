@@ -4,18 +4,20 @@ Every frame below is a placeholder from the cleared pool. When her shoots land i
 
 | week | frame | placeholder now | what replaces it |
 |---|---|---|---|
-| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 1 | `valley-street-01.jpg` | a valley-floor street or a front elevation from any listing shoot (folder 01) |
-| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 2 | `california-bungalow-00.jpg` | an exterior from a listing shoot, single story |
-| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 3 | `suburban-neighborhood-aerial-02.jpg` | a drone frame from any listing shoot |
-| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 4 | `front-door-house-00.jpg` | a backyard or pool frame from a listing shoot |
-| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 5 | `jen-porch-vannuys.jpg` | her at a front door (folder 03) |
-| week-of-2026-09-07 | 02-position-not-the-number-that-matters-1.png | `vannuys-blvd-2024.jpg` | the boulevard at golden hour, or any wide valley frame (folder 01 or 02) |
-| week-of-2026-09-07 | 02-position-not-the-number-that-matters-2.png | `sunlight-through-window-floor-00.jpg` | an interior with light on the floor, from a listing shoot |
-| week-of-2026-09-07 | 02-position-not-the-number-that-matters-3.png | `jen-porch-vannuys.jpg` | her at a front door (folder 03) |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 1 | `sunlight-through-window-floor-00.jpg` | a white-oak kitchen or a soft modern interior from any listing shoot (folder 01) |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 2 | `valley-street-01.jpg` | a valley-floor street from the drive (folder 02) |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 3 | `california-bungalow-00.jpg` | an exterior from a listing shoot, single story |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 4 | `suburban-neighborhood-aerial-02.jpg` | a drone frame from any listing shoot |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 5 | `front-door-house-00.jpg` | a backyard or pool frame from a listing shoot |
+| week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 6 | `jen-porch-vannuys.jpg` | her at a front door (folder 03) |
+| week-of-2026-09-07 | 02-connect-just-breathe-1.png | `../../../06-system/valley-editions/photos/jen/listing-03-pool.jpg` | hers (Bothwell pool at dusk); no swap needed |
+| week-of-2026-09-07 | 02-connect-just-breathe-2.png | `../../../06-system/valley-editions/photos/jen/listing-02-living.jpg` | hers (Bothwell living room); no swap needed |
+| week-of-2026-09-07 | 02-connect-just-breathe-3.png | `../../../06-system/valley-editions/photos/jen/jen-headshot-studio.jpg` | hers (studio headshot); photo only, her lockup at the foot, no type on her |
 | week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 1 | `sfv-aerial-nara.jpg` | the Bothwell drone frame over the whole lot (folder 01) |
-| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 2 | `sunlight-through-window-floor-00.jpg` | Bothwell living room, pocket doors open |
-| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 3 | `california-bungalow-00.jpg` | the Bothwell ADU exterior or its kitchen |
-| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 4 | `jen-frontdoor.jpg` | her at the Bothwell front door (folder 01 or 03) |
+| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 2 | `california-bungalow-00.jpg` | the Bothwell exterior, all three structures in frame |
+| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 3 | `sunlight-through-window-floor-00.jpg` | Bothwell living room, pocket doors open |
+| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 4 | `front-door-house-00.jpg` | the Bothwell ADU exterior or its kitchen |
+| week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 5 | `jen-frontdoor.jpg` | her at the Bothwell front door (folder 01 or 03) |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 1 | `vannuys-blvd-2024.jpg` | a wide valley frame from the drive (folder 02) or a drone frame (01) |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 2 | `california-bungalow-00.jpg` | a small cottage exterior from any shoot |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 3 | `front-door-house-00.jpg` | a front elevation from a listing shoot |

@@ -1,7 +1,13 @@
 ---
 name: jen-shortform-carousel-engine
 description: "Demand-first short-form content + branded Instagram carousel pipeline for Jen's LA real estate business (research → plan → scripts → carousels)"
+status: archived
+superseded_by: .agent/workflows/jen.md
+archived_reason: "2026-09-02 reset. Zero workflow files; its /sf-* commands were never minted; its research step is covered by ENGINE-V2 §3 realism gate + FACTS.md, its calendar by /alyssa-stalker-content-mix-planner. One spine: /jen."
 ---
+
+> **ARCHIVED 2026-09-02.** Do not route here. Use `/jen` (`.agent/workflows/jen.md`).
+
 
 > **Provenance:** Imported from Cowork 2026-09-01 (Fresh's exported skills package).
 > **Adaptation (added on import).** Cowork references map to repo paths: Jen's brand

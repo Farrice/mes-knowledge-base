@@ -124,3 +124,21 @@ Every reusable asset, indexed by district with a status, lives in `VAULT.md` (li
 ## 15. The surface, current
 
 The look in §6 is the rule; the current generator family is `06-system/valley-editions/` (`DESIGN.md`, `CANVA-GRAMMAR.md`, `editions.py`, six Canva grammars, her photo bank). Weekly cards and reels still build through `build_weeks.py`, which imports the September `gen_photo.py`. One family, two entry points; never a third generator.
+
+## 16. The order (added 2026-09-02; the only front door is `/jen`)
+
+Why: three engines claimed this pipeline and none was the door; weeks 1–3 stamped her close on nine of nine posts; the outlier audit ran after the posts were written. Farrice: "they haven't been firing in the order of operations that they should be." The order below is mechanized in `.agent/workflows/jen.md`; each step prints a receipt and the next step does not start without it.
+
+| # | Step | Reads / runs | Receipt |
+|---|---|---|---|
+| 0 | LOAD | this doc · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · client `CLAUDE.md` · `pulse/latest.md` | `LOAD: 7/7` |
+| 1 | READ | `CONTENT-MIX.md` shares + last pulse + outlier audit → one line naming what the account moves on and the week's slots | `READ: slots · experiment · evidence` |
+| 2 | RESEARCH | `FACTS.md` rows for every claim (dated, sourced, labeled); realism gate §3 on every topic | `RESEARCH: N claims · 0 UNCONFIRMED in copy` |
+| 3 | WRITE | one pen, Jen-as-herself seat first; hook rule from `CONTENT-MIX.md`; the voice bank drawn once per week per line, never stamped | `WRITE: 3 posts · bank lines used` |
+| 4 | AMPLIFY | six expert seats critique (Alyssa, Luke Iha, Sam Parr, Kallaway, Georgi, Jen-as-herself with veto), one pen integrates; plain words with punch | `AMPLIFY: edits integrated · lines reverted` |
+| 5 | CHECK | `fair_housing_lint.py` (hard) · `prose_classifier.py` (nudge) · `jen_stamp_lint.py` (hard) | `CHECK: PASS / score / PASS` |
+| 6 | RENDER | `build_weeks.py` → `gen_photo.py`; `editions.py`; never a third generator | `RENDER: N PNG · N reel` |
+| 7 | DELIVER | `jen_os_page_thumbs.py` + `jen_os_page.py` → the Valley OS page; posting checklist (story slide, collab tag, first comment, routing); Feedback Triad | `DELIVER: URL · triad pending` |
+| 8 | LEARN | Monday pulse; 1st-of-month outlier audit, funnel numbers, facts re-check, vault rows, calibration rows | `LEARN: rows appended` |
+
+§4's shares are now set by `CONTENT-MIX.md` (Attract 45 / Connect 25 / Position 15 / Convert 15 while a listing is active) until her own numbers replace them. The hook rule applies to every district: the post opens on her or the reader's situation; the number or the house is beat 2.

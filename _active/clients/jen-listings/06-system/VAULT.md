@@ -20,7 +20,7 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 
 | Asset | Status | Where | Re-check |
 |---|---|---|---|
-| not the number that matters (6.66% headline vs your lender's quote; buydown) | shipped, week of 2026-09-07 | weeks 1–2 | Freddie Mac PMMS each Thursday |
+| not the number that matters (6.66% headline vs your lender's quote; buydown) | copy ready, slot TBD (moved out of week 1 on 2026-09-02 when the week re-ran as attract / connect / convert; copy kept in git history of `build_weeks.py`) | weeks 1–2 record | Freddie Mac PMMS each Thursday; re-hook to open on the reader before it runs |
 | insurance before the offer (FAIR Plan +29.1% Oct 15) | shipped, week of 2026-09-14 | weeks 1–2 | none until Oct 15 |
 | Tarzana median $949,676 Jul 2026, −14.5% YoY · 58 days on market vs 47 last year · 98.1% sale-to-list | banked, VERIFIED | RESEARCH-PACK §2 | Redfin Aug figure mid-Sept |
 | two markets on one street (average ~2% under list in ~55 days; hot homes ~2% over in ~25; 88 sold in July vs 77) | shipped, week of 2026-09-21 | `week-of-2026-09-21/08-position-*` | re-read Redfin the week of Sept 21 |
@@ -34,7 +34,7 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 
 | Asset | Status | Where | Re-check |
 |---|---|---|---|
-| just breathe (two-beat card) | shipped, week of 2026-09-21 (first Connect slot) | `week-of-2026-09-21/09-connect-*`; copy in `connect-posts-01/COPY.md` 01 | Jen-seat lines (the 11pm scene) |
+| just breathe (two-beat card) | shipped, week of 2026-09-07 (moved up on the 2026-09-02 re-run; week 3's slot 09 is the same post and gets a different Connect when week 3 re-runs) | `week-of-2026-09-07/02-connect-*`; copy in `connect-posts-01/COPY.md` 01 | Jen-seat lines (the 11pm scene) |
 | lipstick remodel (single card) | copy ready | same, 02 | "touch three things" is drafted |
 | everything works out (two-beat card, Wilmington $20K credits story) | copy ready | same, 03 | team story: "our clients," never "my" |
 | not my thing ($80M beach house vs a valley view) | copy ready | same, 04 | plate pending; "$80 million" line pending her comfort |
