@@ -33,7 +33,7 @@ GATE = REPO_ROOT / "execution" / "cost_gate.py"
 
 # Commands that ARE the gate / read-only surfaces — never intercept.
 EXCLUDE = re.compile(
-    r"fal_budget_guard\.py|cost_gate\.py|forge_gate\.py|--help|\bstatus\b|reset-daily|reset-session"
+    r"fal_budget_guard\.py|openai_budget_guard\.py|cost_gate\.py|forge_gate\.py|--help|\bstatus\b|reset-daily|reset-session"
 )
 
 # Paid patterns -> (service, arg-parser). Order matters: first match wins.
@@ -93,6 +93,9 @@ PAID_PATTERNS = [
      lambda c: "gemini-deep-research"),
     (re.compile(r"python3?\s+\S*perplexity_client\.py\s.*--research|curl\b[^|;]*sonar-deep-research"),
      lambda c: "perplexity-research"),
+    # OpenAI GPT Image via the Scrapes viz-image-gen script (direct python or `uv run`).
+    # $15/month hard cap — Farrice 2026-09-02. Anchored on the invocation verb like the rest.
+    (re.compile(r"(?:python3?|uv\s+run)\s+\S*generate_image_gpt\.py\b"), lambda c: "openai-image"),
     (re.compile(r"python3?\s+\S*monid_client\.py\b"), lambda c: "monid"),
     # Monid CLI: only `monid run` spends (discover/inspect/balance are free)
     (re.compile(r"(?:^|[;&|(]\s*)monid\s+run\b"), lambda c: "monid"),
@@ -199,6 +202,9 @@ def self_test() -> int:
         "python3 execution/generate_media.py index --file out.png --model gpt-image-2",
         "grep -r 'sonar-deep-research' directives/",
         "git diff execution/fal_video_seedance.py",
+        "head -20 .claude/skills/viz-image-gen/scripts/generate_image_gpt.py",
+        "grep -n quality .claude/skills/viz-image-gen/scripts/generate_image_gpt.py",
+        "python3 execution/openai_budget_guard.py check --quality=high --n=1",
     ]
     must_match = [
         ("python3 execution/fal_video_seedance.py --image a.png --prompt 'x' "
@@ -213,6 +219,10 @@ def self_test() -> int:
         ("python3 execution/generate_media.py run --model recraft-v3 --prompt 'x'",
          "fal-generic"),
         ("skills/fantastic-posters/gen.sh \"brief\" --style=swiss", "fal-poster"),
+        ("uv run .claude/skills/viz-image-gen/scripts/generate_image_gpt.py --prompt 'x' "
+         "--filename o.png --quality high", "openai-image"),
+        ("export OPENAI_API_KEY=x && python3 .claude/skills/viz-image-gen/scripts/generate_image_gpt.py "
+         "--prompt 'x' --filename o.png", "openai-image"),
     ]
 
     def resolve(cmd):
