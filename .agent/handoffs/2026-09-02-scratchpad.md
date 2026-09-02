@@ -1,22 +1,21 @@
 ---
 thread: scratchpad
 status: active
-resume_hint: alyssa-stalker skill forged + committed in lane worktree-broke-agent-2026-playbook-forge; needs main_drift_absorb then lane merge; first use /alyssa-stalker-outlier-audit on Jen
+resume_hint: Jen content OS: this lane adds funnel math, Connect district, jen_pulse.py, four Connect posts on top of jen-engine-v2-weeks (ENGINE-V2, Valley Editions). Merge v2 first, then this lane; render Connect posts with editions.py statement
 branch: worktree-broke-agent-2026-playbook-forge
 pin: false
 ---
 
 ## Purpose
-Watched The Broke Agent × Alyssa Stalker "2026 Social Media Playbook For Real Estate Agents" (YouTube YlgKgl1SKUY, 40 min) and forged it into a deployable skill via /extract-forge + /source-to-skill-system, aimed at Jen's stuck-account and FTHB comfort-content needs.
+Farrice's /goal: Jen's own Coffee & Contracts, a content operating system (research → calendar → posts → replies → learn loop) aimed at a measured funnel to three closings a month in the Valley. This lane (`worktree-broke-agent-2026-playbook-forge`) added the composing layer on top of the `worktree-jen-engine-v2-weeks` lane, which owns ENGINE-V2.md, Valley Editions, weeks 1–2, and Tarzana Edition 01 (built, on canvas b76c3b1c, awaiting his verdict).
 
 ## Current State
-- Shipped in lane `worktree-broke-agent-2026-playbook-forge`, commit 3208440ef: `skills/alyssa-stalker-agent-content-playbook/` (7 workflows, 12 patterns, 7 born-v2 prompts, 4 refs), `agents/alyssa-stalker/AGENT.md`, front door `/alyssa-stalker` + 7 minted `/alyssa-stalker-*` commands, extraction folder with contract, uncertainty report, Jen before/after behavior proof, blind-pass EVAL-068 (FAIL) / EVAL-069 (PASS, self-judged, B-tier). One row added to Jen CLAUDE.md load table.
-- Proof: skill_auditor 7/7, renaissance_audit 0 fail, manifest check clear, prose_classifier on produced copy CLEAN 0/10, finalize 8/7/7 factual 8, Notion logged.
-- Uncertain: transcript-only source (no frames); several names are ASR guesses labeled LIKELY/UNCONFIRMED; "half my clients" line in the Jen carousel needs her confirmation; workflow count 7 vs forge nominal 8-15 (deliberate, fork named in vision.md); Farrice has not judged the blind pass.
-- Lane cannot auto-merge because main is dirty (main-drift-absorb.json).
+- Shipped in this lane (commits 3208440ef, 7278c5319, + OS layer): `skills/alyssa-stalker-agent-content-playbook/` (7 workflows, front door `/alyssa-stalker`); `04-deliverables/jen-outlier-audit.md` (her account moves on life-first hooks, flatlines on property-first; zero local content on grid); `06-system/FUNNEL-MATH.md` (≈1 closing per 16 qualified DMs, all rates UNCONFIRMED until hers; ramp to 3/mo in Q1 2027 needs reach + ask + sphere levers); `06-system/2026-09-02-engine-v2-amendments-from-outlier-audit.md` (add Connect district ~20%, monthly rhythm, VAULT.md, C&C parity table, merge order); `execution/jen_pulse.py` (weekly public numbers via chrome-headless-shell dump-dom + og:description; first pulse in `06-system/pulse/`); `04-deliverables/connect-posts-01/COPY.md` (four Connect posts from her voice memos: just breathe · lipstick remodel · everything works out · not my thing; copy + photo plan + reply routing; render pending in v2 lane's `editions.py statement`).
+- Uncertain: funnel rates are placeholders; Connect posts need Jen's thumbs-up on Jen-seat lines and the $80M line; plate for post 04 behind cost gate; Chrome extension never connected (list_connected_browsers empty) so Insights numbers (saves/reach/follows) are still missing.
+- Proof: heartbeat 7/7 on the skill; prose classifier CLEAN on produced copy (report has the numbers); pulse ran live 2026-09-02.
 
 ## Remaining Priority
-Farrice runs `python3 execution/main_drift_absorb.py` then `python3 execution/worktree_lane.py merge --lane worktree-broke-agent-2026-playbook-forge`; first real use is `/alyssa-stalker-outlier-audit` on Jen's last six months of real metrics.
+Farrice: run `python3 execution/main_drift_absorb.py`, merge `worktree-jen-engine-v2-weeks` first, then `worktree-broke-agent-2026-playbook-forge`; fold the amendments into ENGINE-V2 §4/§8/§10/§11 and create VAULT.md; render the four Connect posts with `editions.py statement` into weeks 3–6 as the Connect slot.
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-09-01-scratchpad.md` — everything it lists as shipped is EXTEND-ONLY.
