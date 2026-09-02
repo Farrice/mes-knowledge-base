@@ -1,7 +1,7 @@
 ---
 thread: jen-valley-editions
 status: active
-resume_hint: Tarzana · Edition 01 is BUILT and on the canvas (https://claude.ai/code/artifact/b76c3b1c-c8ba-409f-a14f-8e9ab1680cf4). Next is his verdict, then plates A–E behind the cost gate, then Jen's Bothwell confirmation. Extend editions.py; never a second generator.
+resume_hint: DIVISION OF LABOR CHANGED (Farrice, 2026-09-02): Claude Design does the visual from the kit in `valley-editions/claude-design-kit/`; this repo supplies the design system, copy, references, photos and prompts. Take 2 of the code render is on the canvas (https://claude.ai/code/artifact/b76c3b1c-c8ba-409f-a14f-8e9ab1680cf4). Next is his verdict, then plates A–E behind the cost gate, then Jen's Bothwell confirmation. Extend editions.py; never a second generator.
 branch: worktree-jen-engine-v2-weeks
 pin: true
 ---
@@ -42,6 +42,10 @@ Build Jen (@_jiing) her own Coffee & Contracts: a place-magazine carousel system
 What was wrong with take 1, in his words and mine: didn't look like the templates he handed over. Diagnosis against the actual Canva exports (`~/Downloads/Yellow Vintage…/1.png`): the template's identity is ONE tall condensed serif in every role (masthead, headline, pill, body), a light wash that lets a warm photo carry the frame, thick hand-drawn doodles, and a photo in every slot. Take 1 had Playfair fitted small, a murky full-page wash, thin doodles, two dead dark "slot" panels, and Jen tiny in a corner.
 Fixed: Instrument Serif everywhere on D1 pages (Playfair retired); headline gradient pale steel → white in the yellow's slot; accent #C9D4E2 on doodles/pill; wash lightened; pill = hand-drawn ellipse; arrow with the template's long tail; every slot photographed (her interiors as demo placeholders, CC0 pool where honest); cover = Jen large, lower right, on an extended flat wall (`placed()`), type never on her face. Canvas republished to the same artifact.
 Still true: placeholders are named in PHOTO-PLAN and never ship to her grid; plates A–E wait on the cost gate.
+
+## The Claude Design kit (Farrice's call, 2026-09-02 evening)
+His read: "I should just be using you to get the design system, or just the actual prompts... go into Claude Design and give it the reference material, and then you give me all the content." So: `claude-design-kit/` = DESIGN.md (Google Labs spec, Instrument Serif + #C9D4E2 accent, D1 geometry in px), COPY-DECK.md (final copy, all five frames + caption + system sheet), GRAMMAR.md (= CANVA-GRAMMAR.md), HANDOFF.md, PROMPTS.md (0 ground → 1 five frames → 2 cover placements → 3 five grammars → 4 panels → 5 export), photos/ (her 12, 1600px), reference/ (template pages = TARGET; canva-native attempt; our take 2 = floor to beat). Zip: `jen-valley-editions-claude-design-kit.zip` (34 MB, gitignored; rebuild by re-running the assembly in this session's transcript or `zip -r` the folder).
+When he brings PNGs back from Claude Design: encode what changed into `editions.py` so future editions inherit it; the generator stays the system of record for geometry and copy, Claude Design is the visual explorer.
 
 ## Next session, in order (updated)
 1. His verdict on the canvas and the ten PNGs (Feedback Triad). Two rejected takes on one frame = back to the input, not a third take.
