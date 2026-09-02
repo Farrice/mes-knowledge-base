@@ -835,3 +835,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-01 16:25]` **finalize** | Implemented integration-only main write ownership guard with Claude and Codex hook parity, exact dir | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-09-01 16:25]` **finalize** | Dirty-main prevention now enforces the user's actual operating need: Farrice can move quickly across | strategy | system-audit — composite:9.0 status:Keep
 - `[2026-09-01 23:05]` **finalize** | Farrice Story Engine Forge audit, personal four-state live proof, and cold-routing repair | general | Jun Yuh — composite:7.0 status:Needs Improvement
+- `[2026-09-02 01:27]` **finalize** | Jun Format Intelligence OS with autonomous Farrice campaign and claim-safe client installation | general | jun-yuh-creator-vision — composite:6.0 status:Needs Improvement
+- `[2026-09-02 01:31]` **finalize** | Farrice Zero-to-Hero proof-first campaign | general | jun-yuh — composite:7.0 status:Needs Improvement

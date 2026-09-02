@@ -6,6 +6,8 @@ Use `/jun-story-engine` when the job is focused: find, structure, expand, downgr
 
 Use `/junyuh-marketing` when the job is the full system: turn expertise and lived material into task-specific content, a campaign, conversion path, masterclass, Story Bank, and measurement plan.
 
+Ask for the Format Intelligence branch when the system should study public winners, build a 7x7 reference board, or choose a structure instead of pulling from a fixed format menu. The system borrows packaging, not another creator's message or identity.
+
 ## Exact Source Formula
 
 Jun's formula is:
@@ -35,6 +37,18 @@ Produce the smallest complete campaign, Story Bank seed, measurement plan, and r
 ```
 
 ## Task-Specific Invocations
+
+### Discover The Concept And Format For Me
+
+```text
+Run `/junyuh-marketing` on my authorized source material. Generate and rank five meaning-distinct concepts. Show the winning Concept Brief before drafting. Then run Format Intelligence: compare at least three structures, produce the winning Format Card, and build the smallest ATTRACT-to-CONVERT campaign. Preserve privacy, claim, offer, and NO EVENT boundaries.
+```
+
+### Build A 7x7 Format Library
+
+```text
+Run the Jun Format Intelligence Lab. Use these public reference creators or collect a bounded set with source links. Separate message from format. Deconstruct hook, visuals/editing, cadence, audio, story arc, CTA, and production load. Show what transfers, what is protected, and which Format Cards fit my sourced concepts. Do not predict reach.
+```
 
 ### Turn Expertise Into Content
 
@@ -75,3 +89,9 @@ Run the Story Performance branch on this deployed asset. Evaluate it by its decl
 ## Proof Boundary
 
 The system is source-grounded and locally verified. It is not yet proof that Jun's formulas will improve Farrice's audience response, leads, sales, or revenue. That requires a real deployment with a baseline, measurement window, and buyer-event evidence.
+
+## Inspectable Proof
+
+- `farrice-autonomous-campaign-proof.md` — five cold concepts, winning brief, Format Card, and four-mission draft.
+- `client-story-marketing-os-install.md` — productized client installation and sparse health-business cold test.
+- `format-intelligence-capability-proof.md` — additional-source, tacit-pattern, negative-control, and composition receipt.

@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {"id":"ready_with_bounded_reference_set","message_locked":true,"concept_source_traced":true,"reference_count":3,"research_authorized":false,"candidate_count":3,"selected_requires_unsupported_proof":false,"direct_work":false,"expected":"FORMAT_READY"},
+    {"id":"missing_references_and_no_research","message_locked":true,"concept_source_traced":true,"reference_count":0,"research_authorized":false,"candidate_count":0,"selected_requires_unsupported_proof":false,"direct_work":false,"expected":"NEEDS_REFERENCE_SET"},
+    {"id":"concept_not_grounded","message_locked":true,"concept_source_traced":false,"reference_count":7,"research_authorized":true,"candidate_count":3,"selected_requires_unsupported_proof":false,"direct_work":false,"expected":"NEEDS_SOURCE"},
+    {"id":"dramatic_format_needs_unproven_transformation","message_locked":true,"concept_source_traced":true,"reference_count":5,"research_authorized":true,"candidate_count":3,"selected_requires_unsupported_proof":true,"direct_work":false,"expected":"NO_FIT"},
+    {"id":"incident_status_bypasses_format","message_locked":false,"concept_source_traced":false,"reference_count":0,"research_authorized":false,"candidate_count":0,"selected_requires_unsupported_proof":false,"direct_work":true,"expected":"NO_FORMAT"}
+  ]
+}
+

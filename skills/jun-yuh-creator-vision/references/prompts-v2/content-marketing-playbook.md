@@ -25,9 +25,10 @@ Act as the conductor for Jun Yuh's complete story-marketing system. Activate whe
 2. Mine lived material and expertise; preserve `NEEDS SOURCE`.
 3. Build supported 3P, method state, proof ceiling, and Story Bank seed.
 4. Select one mission per asset and build the smallest fitting campaign.
-5. Choose task adapter, format, body owner, CTA, and production cadence.
-6. Use the commercial branch only with an authorized offer/next action.
-7. Define measurement before deployment and preserve `NO EVENT` until results exist.
+5. When format discovery is needed, run the Format Intelligence Lab and compare at least three structures before choosing one.
+6. Choose task adapter, Format Card, body owner, CTA, and production cadence.
+7. Use the commercial branch only with an authorized offer/next action.
+8. Define measurement before deployment and preserve `NO EVENT` until results exist.
 
 ## Output Contract
 
@@ -47,7 +48,8 @@ Produce the complete ten-part Story Marketing Playbook defined by `content-marke
 ## 7. Production Cadence
 ## 8. Measurement and ROI Eligibility
 ## 9. Story Bank Seed
-## 10. Story Marketing System Receipt
+## 10. Format Intelligence Card or NOT NEEDED
+## 11. Story Marketing System Receipt
 ```
 
 ## Quality Gate
@@ -58,6 +60,7 @@ Produce the complete ten-part Story Marketing Playbook defined by `content-marke
 - Promise is labeled downstream synthesis.
 - ROI requires actual cost, revenue, and attribution.
 - `NO STORY`, `NEEDS SOURCE`, `NO OFFER`, and `NO EVENT` can win.
+- Reference performance never becomes a prediction or local proof.
 
 ## Deploy When
 

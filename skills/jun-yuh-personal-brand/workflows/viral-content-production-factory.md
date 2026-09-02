@@ -1,120 +1,56 @@
 ---
-name: "Viral Content Engineering & Production"
+name: "Content Production Factory"
 slug: "viral-content-production-factory"
-produces: "High-Conversion Content Production Suite (Scripts, Hooks, & Assets)"
+produces: "Production-ready content suite from a source-traced Concept Brief and Format Card"
 expert: "Jun Yuh"
 ---
 
-# Jun Yuh — Viral Content Engineering & Production
+# Jun Yuh — Content Production Factory
 
 ## Role
-You are the **Content Strategy Architect**, executing with the precision of Jun Yuh—who built an 8M+ follower ecosystem through systematic engineering rather than "creative luck." You deconstruct viral mechanics into molecular components (visual hooks, text pacing, music architecture) to produce deployment-ready content assets that stop the scroll and convert attention into brand equity.
 
-**Before executing**: Internalize the **Genius Patterns**, specifically the **3-1-2-1 Mission Architecture** and the **Picture Book Principle**.
+Produce the selected social asset after concept and format are locked. The filename is retained for compatibility; this workflow does not promise virality.
 
-## Input Required
-- **[CORE TOPIC/TRANSFORMATION]**: The abstract idea or the "Before → After" journey.
-- **[TARGET AVATAR]**: Who are we speaking to? (Demographics + Psychographics).
-- **[CONTENT MISSION]**: Select ONE: Attract (Reach), Nurture (Trust), Position (Authority), or Convert (Sales).
-- **[EXPERIENCE LEVEL]**: <2 years (Journey POV) or 2+ years (Expert POV).
-- **[AVAILABLE ASSETS]**: Current B-roll library or environments you can film in (e.g., home office, gym, city).
+## Required Upstream Inputs
 
-> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+- source-traced Concept Brief;
+- truth-safe 3P or direct-content decision;
+- one mission: `ATTRACT`, `NURTURE`, `POSITION`, or `CONVERT`;
+- winning Format Card from `jun-yuh-creator-vision/workflows/format-intelligence-lab.md` or a source-demonstrated format from `story-content-format-router.md`;
+- destination, assets, capacity, voice, privacy, claim, and publication boundaries.
 
+If the Concept Brief or Format Card is missing, return upstream. Do not invent a hook arsenal from a topic alone.
 
-## Workflow
+## Protocol
 
-### PHASE 1: STRATEGIC ARCHITECTURE & MISSION MAPPING
-*Goal: Align the content with the 3-1-2-1 Mission Architecture (Pattern 2).*
-
-1. **Define the POV**: Based on **[EXPERIENCE LEVEL]**, set the tone. If Journey POV, use "I am learning..." language; if Expert POV, use "I am teaching..." (Pattern 5).
-2. **The Creative Vision**: Define "The What" (Pillars), "The Who" (Avatar), and "The Uniqueness" (Your specific story/skills).
-3. **Mission Assignment**: Calibrate the messaging to the selected **[CONTENT MISSION]**.
-   - *Attract*: Wide-appeal, high emotion.
-   - *Position*: Credibility-heavy, time anchors, specific results.
-
-### PHASE 2: THE HOOK ARSENAL (SCROLL-STOPPING ENGINEERING)
-*Goal: Generate a "combined assault" of visual, text, and audio in the first 3 seconds.*
-
-1. **Engineer 10 Hook Variations**: Apply the following mechanics to the **[CORE TOPIC]**:
-   - **Curiosity Gap**: "There is a specific number in your bank account..."
-   - **Pattern Interrupt**: "Stop [Common Advice]. It's making you worse."
-   - **Identity Filter**: "If you are a [Target Avatar] and you [Pain Point]..."
-   - **Time Anchor (Pattern 12)**: "In 6 years of [Activity], I learned..."
-2. **Visual/Audio Pairing**: For each hook, specify a **Pattern Interrupt visual** (e.g., hand in "stop" gesture, close-up of a specific object) and a **Music Cue** (e.g., heavy bass drop or sudden silence).
-
-### PHASE 3: PRODUCTION BLUEPRINTING (SILENT FILM & CAROUSEL)
-*Goal: Transform hooks into complete narrative structures.*
-
-1. **Silent Film Storytelling (Pattern 3)**: If the topic is a transformation, architect an 8-12 scene blueprint.
-   - **Structure**: Pain (Scenes 1-4) → Pursuit (Scenes 5-7) → Payoff (Scenes 8-10).
-   - **The Picture Book Principle (Pattern 9)**: Max 5-7 words per frame. Ensure text is readable without pausing.
-   - **Music Architecture (Pattern 8)**: Align the "Transformation Moment" with a music crescendo or beat drop.
-2. **Carousel Architecture (Slide-by-Slide)**: If the topic is educational, design for "swipe addiction."
-   - **Cover**: High-contrast, controversial headline.
-   - **Retention**: Use "But here's the thing..." transitions on every slide to force the swipe.
-   - **The Close**: Final slide must be a "Save for later" prompt (Value-based).
-
-### PHASE 4: ASSET COORDINATION & SCENE LIBRARY SYSTEM
-*Goal: Map the blueprints to existing footage or generate a filming shot list.*
-
-1. **Scene Library Mapping**: Cross-reference the blueprints with the **Scene Library System (Pattern 6)**. Identify which clips are already in the "Jun Writing," "Jun Walking," or "Thinking" folders.
-2. **Gap Analysis**: Identify exactly what is missing.
-3. **The Priority Shot List**: Generate a specific list of 10-15 "In-between" moments to film (e.g., opening blinds, closing laptop, walking toward camera) to ensure the library stays fresh.
-
-### PHASE 5: BATCH PRODUCTION PLANNING
-*Goal: Organize execution to prevent burnout.*
-
-1. **Phase-Based Scheduling**:
-   - **Pre-Production (Day 1)**: Scripting and Hook Engineering for 7+ pieces.
-   - **Production (Day 2)**: Batch filming all B-roll and talking heads in one setup.
-   - **Post-Production (Day 3)**: Systematic editing in CapCut (Pattern 1: Deconstruction).
-2. **Trial Reel Derivative Strategy (Pattern 7)**: Plan 3 variations of the best-performing hook to be filmed in the same session.
-
-### PHASE 6: Adversarial Stress-Test *(Cross-Pollinated — Autoresearch Evolution)*
-*Objective: Stress-test every content asset before production. Prevents generic viral copies that blend into the feed.*
-
-1. **The Feed Skeptic**: Review every deliverable wearing three hostile personas:
-   - **The Scroll-Past Judge**: Would this hook actually stop YOUR thumb at 11 PM on a Friday? Not "is it clever" — would it stop a content-saturated viewer who's seen 200 reels today? Flag any hook or visual that feels like "another motivational reel."
-   - **The Proof Auditor**: For each claim or time anchor — ask "Prove it." If the "6 years of experience" or "8M followers" claim isn't backed by visible evidence in the content — the claim weakens trust instead of building it.
-   - **The Creator Swap**: Could another creator in this niche paste their face into this content and have it still work? If yes → the content lacks personal story, proprietary visual language, or unique perspective.
-
-2. **The "Replace My Face" Test**: For every output (hooks, scripts, carousel covers):
-   - Remove the creator's identity entirely
-   - Ask: "Could this be anyone in this niche?"
-   - If yes → the content is generic and MUST be rewritten with specific personal story, unique visual style, or proprietary framework reference
-
-3. **Damaging Admission Audit**: Verify the content includes at least ONE genuine struggle, limitation, or honest "anti-highlight reel" moment. Not performative vulnerability — actual "this is what I got wrong" or "this is what I'm still figuring out." This is the trust signal that separates real creators from content factories.
-
-4. **The Anti-AI Pass**: Review every script, hook, and caption. Flag and rewrite any phrase that:
-   - Uses content-slop markers: "game-changer," "you need to see this," "nobody talks about this," "this changed everything"
-   - Could have been generated by typing "write a viral hook about [topic]" into ChatGPT
-   - Lacks a specific, personal detail that proves someone with this exact background created it
-
-5. **Voice Authenticity Check**: Compare the content language against the creator's natural speaking voice (from raw footage, unscripted moments, or casual posts). Flag any phrase that sounds like "content template language" rather than how this person actually talks.
-
----
+1. Preserve the message, tension, proof object, proof ceiling, and mission from the Concept Brief.
+2. Translate the Format Card into a beat map, shot/slide plan, text, caption, and CTA role.
+3. Make visual and text hooks point to the same supported Problem.
+4. Apply read-aloud cadence; use the fewest words the beat needs, not a universal word cap.
+5. Label visuals as contemporaneous evidence, authorized archive, illustrative footage, planned footage, or missing.
+6. Build the smallest production-ready version before adding derivatives.
+7. Apply creator-swap, claim, privacy, and anti-slop checks.
+8. Hand the draft to one destination craft owner when the platform is outside Jun's native social role.
+9. Define the performance hypothesis and measurement window. Keep `MARKET PROOF: NO EVENT` before deployment.
 
 ## Output Contract
-The user receives a **High-Conversion Content Production Suite** including:
-1. **Mission Brief**: Strategy alignment (3-1-2-1) and POV positioning.
-2. **Hook Arsenal**: 10-15 engineered hooks with visual/audio cues.
-3. **Silent Film Blueprint**: Scene-by-scene breakdown (Visuals + Text + Timings + Music Drop).
-4. **Carousel Script**: 8-10 slide breakdown with design direction.
-5. **Batch Filming Shot List**: Specific instructions for the next filming session to fill library gaps.
-6. **Captions & CTA**: Optimized for the specific Content Mission.
-7. **Adversarial Pass Annotations**: *(NEW)* What was flagged and fixed during Phase 6, with before/after examples.
+
+Return:
+
+1. Mission and Concept Lock
+2. Format Card Trace
+3. Final Script or Carousel Copy
+4. Visual/Shot Plan
+5. Caption and CTA
+6. Production Load and Missing Assets
+7. Truth, Voice, and Anti-Slop Review
+8. Test Plan and `NO EVENT` Receipt
 
 ## Quality Gate
-1. **The Read-Aloud Test**: Is every text overlay readable within 3 seconds? (Pattern 9).
-2. **The Time Anchor Check**: Does the content include a specific time reference to build trust? (Pattern 12).
-3. **Mission Purity**: Does the piece serve ONLY one mission (Attract, Nurture, Position, or Convert)?
-4. **Music-Visual Sync**: Is the transformation payoff perfectly aligned with the music drop? (Pattern 8).
-5. **B-Roll Variety**: Does the blueprint use at least 4 different scene types from the library? (Pattern 6).
-6. **The "Replace My Face" Test** *(NEW)*: Could another creator use this content word-for-word? If YES → lacks proprietary value. Add personal story, named framework, or unique visual style.
-7. **AI Slop Filter** *(NEW)*: Does any hook or caption contain vocabulary kills (game-changer, nobody talks about this, changed everything)? If YES → rewrite with human-specific language.
-8. **Voice Authenticity Check** *(NEW)*: Does the script sound like how this creator naturally speaks, or does it sound like "content template language"?
-9. **Proof Density Check** *(NEW)*: Is every major claim backed by a specific number, visible result, or personal anecdote? Naked claims = rejection.
 
-
-> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+- Could another creator use this word-for-word? If yes, restore source-specific material.
+- Did any wording or visual imply an unsupported result or scene?
+- Does one mission dominate?
+- Can the piece be understood at its intended pace?
+- Is the CTA authorized and evidence-appropriate?
+- Is performance described as a hypothesis rather than a promise?

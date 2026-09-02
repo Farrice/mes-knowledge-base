@@ -17,6 +17,8 @@ This workflow is grounded in both Jun masterclass packages:
 
 - `extractions/video-context/XS-E6rnCr5U/`
 - `extractions/video-context/6r-HF9K030A/`
+- `extractions/video-context/TY9OrhsUsjM/`
+- `extractions/video-context/-f1XbEJ9sTs/`
 
 The source formula is `Problem → Pursuit → Payoff`. A downstream `Promise` may be derived only as a proof-bounded marketing translation; it is not Jun's fourth P.
 
@@ -39,7 +41,8 @@ Creator Vision improves the system but is not a hard blocker. If it is missing, 
 
 1. Separate supplied fact, expert method, source-reported result, inference, and unknown.
 2. Lock the audience Problem and the creator/expert message.
-3. Route direct incident, status, procedure, specification, calculation, or evidence-sensitive work away from story.
+3. Express the message as `WHAT / WHO / WHY-or-UNIQUENESS`, preserving the source variant used.
+4. Route direct incident, status, procedure, specification, calculation, or evidence-sensitive work away from story.
 
 ### Phase 2 — Story and Expertise Inventory
 
@@ -64,7 +67,9 @@ For a multi-asset campaign, execute `story-mission-campaign.md`. Do not make one
 
 ### Phase 4 — Format and Production
 
-Select a source-demonstrated social format through `story-content-format-router.md`: Silent Film, Split-Screen Reel, Advice at Age, Old Me/New Me, Problem Statement Reel, or Split-Screen Carousel. The format must fit the mission, proof, destination, available assets, and production capacity.
+If the user supplies reference pieces, requests winning-format study, asks for the 7x7 practice, or needs the system to discover a format rather than choose from a fixed menu, run `format-intelligence-lab.md` first. It separates message from packaging and returns a source-traced Format Card.
+
+Then select a source-demonstrated social format through `story-content-format-router.md` or use the winning Format Card. The format must fit the mission, proof, destination, available assets, voice, privacy, and production capacity. A high-performing reference is not permission to copy its message or a guarantee of performance.
 
 Use the broader Jun production system only as needed:
 
@@ -112,7 +117,8 @@ Produce:
 7. Production cadence
 8. Measurement and ROI eligibility plan
 9. Story Bank seed
-10. Story Marketing System Receipt
+10. Format Intelligence Card or `NOT NEEDED`
+11. Story Marketing System Receipt
 
 Execution prompt: `../references/prompts-v2/content-marketing-playbook.md` — honor its Output Contract.
 
@@ -126,3 +132,4 @@ Execution prompt: `../references/prompts-v2/content-marketing-playbook.md` — h
 - Is ROI withheld until real cost, revenue, and attribution exist?
 - Can direct work, `NO STORY`, `NEEDS SOURCE`, `NO OFFER`, and `NO EVENT` win?
 - Is the plan executable at the stated capacity?
+- When format study was needed, did the run inspect structure, protect identity/claims, compare alternatives, and preserve `NO EVENT`?

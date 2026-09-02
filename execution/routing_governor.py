@@ -2190,6 +2190,21 @@ def is_health_check_intent(query: str) -> bool:
     normalized = normalize_query(query)
     if not normalized:
         return False
+    # Domain-language guard: a health brand/business/content request is not a
+    # harness health check merely because the same sentence also says system.
+    if any(
+        phrase in normalized
+        for phrase in (
+            "health brand",
+            "health business",
+            "health company",
+            "health product",
+            "health content",
+            "health marketing",
+            "health founder",
+        )
+    ):
+        return False
     if is_system_audit_query(normalized):
         return False
     if is_system_failure_intent(normalized) and "failure examples" not in normalized:

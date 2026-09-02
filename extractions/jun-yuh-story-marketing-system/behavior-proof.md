@@ -4,6 +4,8 @@
 
 This is a local transformation test using previously authorized Farrice source material from the existing Jun live proof. Nothing was published, sent, or presented as audience or revenue evidence. The source mechanics are verified against the two masterclass packages; the resulting content's market performance is `NO EVENT`.
 
+The 2026-09-02 completion adds the missing format-intelligence lane and three inspectable proofs: autonomous Farrice concept discovery, a source-backed Format Card and campaign, and a sparse unrelated health-business installation test. Structural capability now passes; audience and market outcomes remain `NO EVENT`.
+
 ## Input Tested
 
 Farrice's training-business pattern:
