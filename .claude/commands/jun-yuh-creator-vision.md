@@ -1,5 +1,5 @@
 ---
-description: "Methodology for psychographic content alignment, Creator Vision identity architecture, truth-safe lived-story mining, pursuit-to-method recovery, evidence-bound story angles, social story deployment, permutation-based ideation, silent storytelling, and 1-to-7 systemized repurp..."
+description: "Connected Jun Yuh system for Creator Vision, truth-safe lived-story mining, expertise-to-story transformation, Problem/Pursuit/Payoff content, mission campaigns, proof-bounded story selling, masterclasses, story memory, performance learning, silent storytelling, and systemized..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
