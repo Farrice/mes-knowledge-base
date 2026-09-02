@@ -1,0 +1,33 @@
+slug: jen-priced-out
+date: 2026-09-02
+brand: Jen Santulan (@_jiing)
+brand_context: _active/clients/jen-listings/brand_context   # sibling brand context; Farrice's brand_context/ NOT used
+platform: instagram
+format: carousel
+district: Position (a market read, calm register)
+post_objective: lead_gen
+scenario: C (topic → research → post + images)
+audience: SFV renters with the down payment saved who feel priced out of everything listed
+register: calm-warm @_jiing lowercase
+one_job: get them to DM a number, buying or selling
+hook: "you saved the down payment. still renting."   # opens on the reader's situation; the house is beat two
+slides:
+  - {n: 1, archetype: cover_gem, file: 01-cover.png, plate: vannuys-valerio-2024.jpg, headline: "you saved the down payment. / still renting."}
+  - {n: 2, archetype: moment, file: 02-asking.png, plate: suburban-neighborhood-aerial-02.jpg, headline: "Asking."}
+  - {n: 3, archetype: moment, file: 03-closed.png, plate: vannuys-street-scene.jpg, headline: "Closed.", note: "archival B&W → Bothwell exterior (misleading at $5.7M) → orange door (Jen's hard no) → this"}
+  - {n: 4, archetype: moment, file: 04-rent.png, plate: apartment-building-dusk-03.jpg, headline: "Rent."}
+  - {n: 5, archetype: statement, file: 05-not-your-number.png, plate: jen-porch-vannuys.jpg, headline: "not your / number."}
+  - {n: 6, archetype: close, file: 06-close.png, plate: sunlight-through-window-floor-00.jpg, headline: "Send Me / Your Number."}
+visual_reference: brand_context/visual_refs/travel-moments/1-6.png (Canva "Yellow and Black Modern Travel Moments"; Design 2 in valley-editions/CANVA-GRAMMAR.md → moment archetype; yellow slot → ivory-steel gradient per DESIGN.md; no yellow, no orange)
+renderer: 06-system/valley-editions/editions.py (her approved surface; Scrapes template factory NOT run for Jen — see pipeline-log.md)
+claims:
+  - {claim: "tarzana homes closed at 98% of asking in july, after 58 days", label: VERIFIED, source: "Redfin Tarzana housing market (sale-to-list 98.1%, median DOM 58, Jul 2026) — RESEARCH-PACK §2, checked 2026-09-02"}
+  - {claim: "four tarzana houses sold last week of august: $840K, $866K, $917.5K, $950K; 3 bd each", label: VERIFIED, source: "Redfin recently sold — RESEARCH-PACK §4 (18413 Delano $840K 3bd · 19115 Friar $866K 3bd · 6307 Rhea $917.5K 3bd · 6347 Bovey $950K 4bd)"}
+  - {claim: "three to four bedrooms", label: VERIFIED, note: "Delano/Friar/Rhea 3 bd, Bovey 4 bd — copy corrected 2026-09-02 before render"}
+  - {claim: "the tarzana median is $949K", label: VERIFIED, source: "Redfin, $949,676 median sale price, 3 months ending Jul 2026 — RESEARCH-PACK §2"}
+  - {claim: "la median rent $3,800/mo = $45,600/yr", label: LIKELY, source: "Greater LA Realtors, 'Rent Is Stuck. Ownership Is Moving.' 2026-08-06 (single source; Zillow SoCal typical rent $2,800 per OC Register 8/21 is a different geography/measure). Re-verify or soften to 'around $3,800' before post day."}
+  - {claim: "everything you scroll reads $1.2M", label: FRAMING, note: "reader's felt experience, not a statistic; SFV single-family median was $1,150,000 in Jul 2026 (zacsellsca, MLS 516 sales, single source LIKELY)"}
+  - {claim: "four tarzana houses closed between $840K and $950K (cover)", label: VERIFIED, note: "range stated inclusively; corrected before render"}
+fair_housing: no safe/family/schools/demographic language; no other broker's address on any frame; prices and neighborhoods only
+publish: skip (sends stay human; Jen thumbs-up first)
+status: draft-for-review
