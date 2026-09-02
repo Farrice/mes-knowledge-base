@@ -167,7 +167,7 @@ Simon Scrapes' 36-skill **Skill Systems** live in `.claude/skills/<name>/` (Clau
 
 ## Budgets (hook-enforced; policies in `directives/<service>-usage-policy.md`)
 
-Gemini Deep Research ($10 ceiling, PRIMARY) → Perplexity ($30/mo fallback) · NotebookLM (100/mo) · Apify ($29/mo) · Fal ($20 wallet, seedance-1080p HARD-BLOCKED) · Whisper (deferred). Trackers in `.agent/*.json`. Model/SDK notes for LLM-calling scripts: `directives/model-notes.md`.
+Gemini Deep Research ($10 ceiling, PRIMARY) → Perplexity ($30/mo fallback) · NotebookLM (100/mo) · Apify ($29/mo) · Fal ($20 wallet, seedance-1080p HARD-BLOCKED) · OpenAI GPT Image ($15/mo hard cap, `openai_budget_guard.py`) · Whisper (deferred). Trackers in `.agent/*.json`. Model/SDK notes for LLM-calling scripts: `directives/model-notes.md`.
 
 ## CRITICAL
 
