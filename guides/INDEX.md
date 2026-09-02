@@ -9,6 +9,8 @@
 ## By use case
 
 | I want to… | Go to |
+| **Resume the live Control-Beater buyer test without changing the offer** | |
+| Classify an acceptance, reply, decline, or no-event checkpoint and prepare the next manual message | [Control-Beater Buyer Test](2026-09-01-control-beater-buyer-test.md) — preserve the $500 test locks and stop before external send |
 | **Run content strategy / produce sellable strategy reports (Growth Blueprint OS)** | |
 | Run a full strategy engagement on any niche (self or client) | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `/growth-blueprint`, chain `/gb-interview → … → /gb-blueprint` |
 | Get live niche data for $0 before any strategy work | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `outlier_radar.py add-channels` + `refresh` |
@@ -307,6 +309,7 @@
 
 ## Chronology
 
+- **2026-09-01 — [Control-Beater Buyer Test](2026-09-01-control-beater-buyer-test.md)** (session-brief) — converted the revenue bottleneck from preparation into two manually sent, price-visible LinkedIn introductions while preserving the exact $500 pilot locks and truthful counters. Zero exact-offer exposures and zero buyer events remain; the next move is event classification, not an offer rewrite.
 - **2026-08-29 — [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md)** (operator-guide) — A-tier, Farrice-calibrated narrative-craft system from the 2026 Haig–Perell interview: protect the private signal, give feeling a concrete carrier, repair the highest causal layer, and stop before access costs charge. Eleven routes, seven born-v2 prompts, four-piece reference corpus, EVAL-066 human PASS, and a cold-safe verifier; market observation remains `NO EVENT`.
 - **2026-08-28 — [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md)** (operator-guide) — daily Chrome/Firefox/Playwright "quit unexpectedly" pop-ups root-caused to ChatGPT desktop's local Codex automations launching browsers from a windowless background context (`responsibleProc` forensics on `.ips` crash reports); both daily briefs paused dual-store (toml + sqlite), the two-week-failing 10-minute merge heartbeat deleted, and the merge it was starving **landed**: `codex/notion-second-brain-reliability` union-merged into `memory_facade.py` — recall now spans 9 stores including the network-free **notion local mirror** (verifier 11/11 PASS, live smoke hit). Doctrine: a stuck retry automation is an alarm clock, not the work. Open: origin +9 divergence recovery, crash-free-morning confirmation.
 - **2026-08-28 — [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md)** (operator-guide) — Kallaway forge: six source skills extracted and run as the baseline; the retained suite adds the $0 outlier radar, 10 workflows, reader-pure client pipeline, lead magnet, intake funnel, and manual-fire enrichment. Reconciliation now binds it to the Kallaway AI research controls through signal-pack v2 and excludes parked runtime debris.
