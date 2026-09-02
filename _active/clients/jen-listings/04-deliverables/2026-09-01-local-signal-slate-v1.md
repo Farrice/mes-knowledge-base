@@ -41,13 +41,15 @@ other hooks if that one isn't you:
 
 ### carousel · 7 slides · your warm editorial look (cream ground, navy ink, one navy slide)
 
-1. **the condo has to qualify too.** · *what changed on august 3, and what i read before you fall in love* · masthead: @_jiing · first-time buyer file
-2. you're pre-approved. credit's clean. the loan still dies. · since august 3, 2026, lenders run a full review of the building on almost every conventional condo loan. · ghost numeral: 3
-3. **01 the reserve fund** · the building's savings account for roofs, plumbing, balconies. thin reserves are a special assessment waiting to happen. · bar graphic: 10% today → 15% from jan 4, 2027
-4. *(navy slide)* **02 the last 12 months of minutes** · not exciting. very useful. leaks, insurance trouble, and an assessment being "discussed" all show up here... before they're billed.
-5. **03 the master insurance** · the building's policy has to carry replacement cost with a per-unit deductible under $50,000. if it doesn't, conventional financing stops. · numeral: $50K
-6. **04 who's behind on dues** · 15% or more of units 60+ days late and the whole building is non-warrantable. every owner's loan, not just yours. · bar graphic: 15%
-7. touring condos this fall? send me the address before you write. i'll read the package with you. · @_jiing · small print: source fannie mae LL-2026-03, freddie mac bulletin 2026-C, aug 2026
+1. **your credit can be perfect. the condo still falls through.** · *the part nobody tells first-time buyers.* · masthead: @_jiing · first-time buyer file
+2. **the building gets checked too now.** · since august 3, 2026, lenders run a full review of the building on almost every conventional condo loan... its money, not just yours.
+3. **01 the building's savings account** · it pays for roofs and pipes. the floor is 10% of the building's budget today, and 15% for loans dated january 4, 2027 or later. · bar graphic: 10% → 15%
+4. *(navy slide)* **02 the last 12 months of meeting notes** · read the notes. all twelve months. leaks, insurance trouble, and a surprise bill split between owners all get discussed in here months before anyone gets billed.
+5. **03 the building's own insurance** · your unit's share of a claim. it has to cover a full rebuild, and your unit's share of a claim has to stay under $50,000. otherwise conventional financing stops. · numeral: $50K
+6. **04 who's behind on dues** · 15% or more of units 60+ days late and no bank will lend on any unit in it. yours included. · numeral: 15%
+7. **send me the address before you write.** · i'll read the package with you. it takes an afternoon and it costs you nothing. · my DMs are open · small print: source fannie mae LL-2026-03, freddie mac bulletin 2026-C, aug 2026
+
+*glossary, for the caption or an 8th slide:* reserve study → the building's savings plan for roofs, pipes and balconies · special assessment → a surprise bill, split between all the owners · master insurance → the building's own policy, separate from yours · replacement cost → enough coverage to rebuild the whole thing · per-unit deductible → your unit's share of a claim before insurance pays · non-warrantable → no bank will lend on any unit in it
 
 ---
 
