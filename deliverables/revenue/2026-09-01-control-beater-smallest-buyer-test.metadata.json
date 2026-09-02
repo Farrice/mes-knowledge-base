@@ -1,0 +1,12 @@
+{
+  "artifact_type": "strategy",
+  "title": "Control-Beater: Problem-to-Action Memo and Smallest Buyer Test",
+  "date": "2026-09-01",
+  "status": "prepared_not_sent",
+  "owner": "Farrice Cain",
+  "primary_metric": "collected_pilot_revenue_usd",
+  "external_action": "none",
+  "target": "Yasir Hashim at Lumen",
+  "offer": "The Control-Beater",
+  "price_usd": 500
+}
