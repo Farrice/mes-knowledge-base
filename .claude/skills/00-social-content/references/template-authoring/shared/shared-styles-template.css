@@ -1,0 +1,160 @@
+/* _shared/styles.css — pool-level base styles (template)
+ *
+ * The ssc-template-builder copies this file to `{pool}/_shared/styles.css` when it
+ * builds the FIRST template of a pool, then customizes it for the brand:
+ *   - prepend the brand @font-face blocks (the brand's own font files — names vary
+ *     per brand, so they are NOT hardcoded here)
+ *   - keep the inline-emphasis utilities and structural classes below as the base
+ *
+ * Every template links it: <link rel="stylesheet" href="../_shared/styles.css">.
+ * Brand tokens (--brand-accent, --brand-display, etc.) are injected as :root vars
+ * by render_template.py at render time — never hardcode hex/font names here.
+ */
+
+/* ─── Brand @font-face — added per-brand by the builder ──────────────────
+ * PATH RULE: this file lives at brand_context/templates/<pool>/_shared/styles.css.
+ * The font files live at brand_context/visual-identity/fonts/. From _shared/ that is
+ * THREE levels up (_shared -> <pool> -> templates -> brand_context), so the src must be
+ * `../../../visual-identity/fonts/<file>` — NOT `../../` (a 2-level path lands in
+ * templates/ and the fonts silently fail to load, falling back to a system font).
+ * @font-face { font-family: 'Display'; src: url('../../../visual-identity/fonts/<brand-display>.ttf'); font-weight: 900; }
+ * @font-face { font-family: 'Body';    src: url('../../../visual-identity/fonts/<brand-body>.ttf');    font-weight: 400; }
+ */
+
+/* ─── Display zones — pin a SANS fallback tail ──────────────────────────
+ * `var(--font-display)` is brand-driven, but if the brand @font-face fails to
+ * load (or the brand sets no display family) the token must degrade to a NEUTRAL
+ * SANS — never a serif. In the AIOS-190 gate run a serif fallback tail
+ * ("Inter Tight","Fraunces",…,serif) rendered serif on nested-flex display zones.
+ * The `, …, sans-serif` tail below is the safety net; a brand that genuinely
+ * wants a serif display ships it as its own --font-display value, which still wins.
+ * Apply `.display` (or the role classes) to any HTML display/headline zone. */
+.display,
+.headline,
+.kicker,
+.title,
+.subhead,
+[data-role="display"] {
+  font-family: var(--font-display, 'Inter Tight', 'Inter', system-ui, sans-serif);
+}
+
+/* ─── Type craft — shared display/body defaults (SPEC-B) ─────────────────
+ * One change here lifts every template (per-template inline still wins). After
+ * SPEC-C made the brand display font actually load, the remaining flatness was real
+ * craft: display set too loose, body too loose. These are the brand-default floors
+ * from html-craft.md. NOT applied to .kicker (a tracked, POSITIVE-letter-spacing
+ * uppercase label — tightening it would wreck it), only the display headline roles.
+ * Never bump display font-WEIGHT to "fix" limpness — that was the fallback-sans
+ * symptom (fixed in SPEC-C); a black poster display face is already heavy. */
+.display,
+.headline,
+.title,
+[data-role="display"] {
+  line-height: 0.95;       /* poster-tight; was rendering 1.0–1.45 and reading limp */
+  letter-spacing: -0.03em; /* -0.02…-0.035em band; pulls the display together */
+}
+
+.body {
+  line-height: 1.35;       /* readable body leading */
+}
+
+/* ─── Inline emphasis utilities (used inside html-type text slots) ───────
+ * Slots whose value carries inline markup (<mark>, <em>, <strong>, <br>) MUST be
+ * rendered with TRIPLE-brace {{{SLOT}}} in template.html so the renderer passes the
+ * HTML through raw instead of escaping it. These rules style that markup. */
+
+/* SURFACE-AWARE <mark> COLOR.
+ * The default mark color is the brand accent — correct on a light/paper surface.
+ * But on a SOLID-ACCENT surface (e.g. a terracotta CTA) accent-on-accent is invisible,
+ * and on a DARK/warm-scrim surface it is low-contrast. The slide root declares its
+ * surface via `data-surface` ("accent" | "dark" | "light"); the mark color is read
+ * from `--mark-color`, which each surface scope overrides to a legible value using the
+ * brand's existing on-surface tokens. No per-template hand-editing — one shared rule.
+ * A slide with no data-surface (light/paper is the safe default) keeps accent mark. */
+
+/* DO NOT locally override `mark { color }` in a template (e.g.
+ * `.headline-display mark { color: var(--brand-primary) }`) — that discards this
+ * surface-aware coral and the brand's color-hierarchy level never fires; decks ship
+ * with ZERO accent (the SPEC-B r06 miss). Let this shared rule drive the mark color;
+ * target <mark> at the meaning word only. */
+mark {
+  background: transparent;
+  color: var(--mark-color, var(--brand-accent));
+  font-weight: 700; /* the meaning word; 700–900 emphasis, inherits the slot's font */
+}
+
+/* On an accent or dark surface, the accent word would vanish / be low-contrast →
+ * invert to the on-dark/paper readable color so the marked word stays legible. */
+.slide[data-surface="accent"] mark,
+[data-surface="accent"] mark,
+.slide[data-surface="dark"] mark,
+[data-surface="dark"] mark {
+  --mark-color: var(--brand-text-on-dark, var(--brand-bg-light));
+}
+
+/* On an explicit light surface keep the brand accent (this is also the default). */
+.slide[data-surface="light"] mark,
+[data-surface="light"] mark {
+  --mark-color: var(--brand-accent);
+}
+
+em {
+  font-style: italic;
+  font-family: var(--brand-display, inherit);
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ─── Structural classes (shared across every template in the pool) ──────
+ * Templates position text zones with inline `position:absolute` + percentages;
+ * these classes carry only the brand-default visuals, not per-zone geometry. */
+
+.slide {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+}
+
+.zone {
+  position: absolute;
+}
+
+.pill {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.masthead {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+}
+
+.masthead-slot.center { text-align: center; }
+.masthead-slot.right  { text-align: right; }
+
+.dots {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-text-on-light, currentColor);
+  opacity: 0.3;
+}
+
+.dot.is-active {
+  opacity: 1;
+  background: var(--brand-accent);
+}

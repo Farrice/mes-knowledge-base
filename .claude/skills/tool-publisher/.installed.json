@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0",
+  "installed_at": "2026-09-02T21:05:11.191Z",
+  "installer_version": "3.1.0",
+  "files": {
+    "CHANGELOG.md": "sha256:0092bf0905d6b7a3c3d23ccb7086d2ab15cdfc1b72267274b51a72c759a2f4b9",
+    "SKILL.md": "sha256:b43a7d71ef297cccd979aae6a48233bdb9fc927a436d82ff02b75d36271358ff",
+    "config/platforms.md": "sha256:4847bfe9cbf5712b569c4cb5167d5fad20709d2ba05bb64e4f43a1431d2a7f43",
+    "references/zernio-rest-fallback.md": "sha256:fd13d19c303fd7f53dcd78a1f3e2064e37163376f88eb6f68b7ee2197796cf6e",
+    "scripts/list_accounts.py": "sha256:385583490581690b0943232f284a1d6655313bf4d91acb26637e360377c141cf",
+    "scripts/publish_rest.py": "sha256:f4196efc663204e423993013dcd71a4b42f821e0070b080c0c406bafe2bca020",
+    "scripts/slides_to_pdf.py": "sha256:a3db66707ee0eea4b73500684531722820df78b3397198c070c3a292588e5ade",
+    "skill-pack/config/sys-config.md": "sha256:436f994478094021ff4c77a26c4ac0c773ea95f7a61af14468932b609cdf85b0"
+  }
+}
