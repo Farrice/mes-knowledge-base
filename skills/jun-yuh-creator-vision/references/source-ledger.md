@@ -12,6 +12,8 @@ Ground-truth sources for this skill, verified by direct file read (not by infere
 | `extractions/jun-yuh/transcript.txt` | 16,178 bytes | Second, separate raw transcript (live talk/workshop format — includes an audience call-and-response, "I am the niche"); source of the Psychographic Targeting Protocol, Anti-Guru Positioning, Triple-P Multi-Origin, and Permutation Engine material not present in the first extraction |
 | `extractions/video-context/XS-E6rnCr5U/` | 4,083 normalized caption segments; 28,477 clean words | Verified transcript-only source package for *How To Become a Master Storyteller [FREE COURSE]*. Includes provenance ledger, uncertainty report, deep extraction, architecture, and skill-system contract. No frames/OCR were used because the source exceeds the forge visual-duration cap. |
 | `extractions/video-context/6r-HF9K030A/` | 2,000 caption segments plus 12 inspected transcript-cued frames | Verified package for *How To Sell Absolutely Anything Online [FREE COURSE]*. Grounds identification/trust/belief, service/product/coach adapters, Pursuit-to-method recovery, story-led CTA, angle expansion, and Payoff-to-Problem continuity. Jun's commercial results remain source-reported. |
+| `extractions/video-context/TY9OrhsUsjM/` | 540 normalized caption segments | Verified transcript package for *4 Steps On How To Start Your Personal Brand From Scratch In 2026*. Grounds WHAT/WHO/WHY, psychographic targeting, visual + text pain hooks, read-aloud cadence, and the optional five-low plus one-or-two-higher intensity planning ratio. No complete visual review. |
+| `extractions/video-context/-f1XbEJ9sTs/` | 1,561 normalized caption segments | Verified transcript package for *This Blueprint Is The Quickest Path To Your Success (full breakdown)*. Grounds message-versus-format, WHAT/WHO/UNIQUENESS, the six format features, and the 7x7 reference practice. No complete visual review. |
 
 Neither transcript embeds a publish date, episode number, or URL — this is a known gap, not an omission on this pass. No date claim is made anywhere in this skill's anti-pattern anchors; anchors use file + verbatim quote instead.
 
@@ -49,6 +51,12 @@ Neither transcript embeds a publish date, episode number, or URL — this is a k
 | Story-led masterclass section architecture | SYSTEM-SYNTHESIS | `XS-E6rnCr5U`, approximately 01:05:00-02:10:00. The source demonstrates teaching-to-offer sequencing; the reusable run-of-show does not inherit Jun's price, guarantee, urgency, bonuses, or results. |
 | Promise as a fourth Jun P | REJECTED ATTRIBUTION | Neither masterclass establishes `Promise` as Jun's fourth P. `Problem → Pursuit → Payoff` is the source formula; any Promise is labeled downstream system synthesis. |
 | Story content produces ROI | UNTESTED | Source-reported examples do not prove general causality. The system separates attention, recognition, intent, sale, collected revenue, and ROI eligibility. |
+| Message and format are separate operating units | VERIFIED | `-f1XbEJ9sTs`, 00:08:13-00:10:52: format is how content is packaged; message is what is said. |
+| 7x7 reference practice (seven admired creators x seven top-performing pieces) | VERIFIED AS SOURCE METHOD | `-f1XbEJ9sTs`, 00:44:50-00:45:11. Performance transfer to another creator remains UNTESTED. |
+| Format deconstruction uses hook, visuals/editing, cadence, audio, story arc, and CTA | VERIFIED | `-f1XbEJ9sTs`, 00:26:39-00:26:49. |
+| Universal 5-7 word overlay limit | REJECTED AS UNIVERSAL RULE | The reviewed sources support readable cadence and speaking each line aloud before the frame changes (`TY9OrhsUsjM`, 00:13:31-00:13:41), not a universal word cap for every format. |
+| Trial Reel derivatives pass algorithmic detection | UNCONFIRMED / REMOVED | Not established in the four verified Jun source packages used by this system. |
+| WHAT/WHO/WHY and WHAT/WHO/UNIQUENESS are identical labels | REJECTED FLATTENING | `TY9OrhsUsjM` uses WHAT/WHO/WHY; `-f1XbEJ9sTs` uses WHAT/WHO/UNIQUENESS and defines uniqueness as pain, experience, skill. The system preserves both source variants. |
 
 ## Anti-Pattern Anchors (see `genius.md` → Anti-Patterns)
 

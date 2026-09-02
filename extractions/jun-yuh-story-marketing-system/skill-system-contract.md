@@ -10,14 +10,14 @@ The existing Jun Story Engine is a strong truth-and-privacy foundation, but it i
 |---|---|
 | Source evidence | `extractions/video-context/XS-E6rnCr5U/` for *How To Become a Master Storyteller [FREE COURSE]*, 2:20:58, transcript-backed with no complete visual review; `extractions/video-context/6r-HF9K030A/` for *How To Sell Absolutely Anything Online [FREE COURSE]*, 1:04:21, 2,000 caption segments plus 12 inspected frames. |
 | Objective | Turn supplied lived material or expertise into source-grounded stories, task-specific content, campaigns, conversion assets, and measurable commercial hypotheses without pretending story quality proves ROI. |
-| Components | Existing `jun-yuh-creator-vision`, `/jun-story-engine`, Story Material Miner, Format Router, Pursuit-to-Offer Miner, Story Angle Expander, and `/shaan-story-deploy`; expanded `content-marketing-playbook`; new expertise, mission-campaign, conversion, masterclass, story-bank, and performance-loop components; exact v2 prompts; `/junyuh-marketing` bridge; dedicated fixtures and verifier. |
-| Step order | source/fact intake → direct-work/story opportunity sniff → material or expertise mining → supported 3P → optional method/angle branch → mission selection → task adapter → format/body owner → CTA/proof ceiling → measurement plan → story-bank learning. |
+| Components | Existing `jun-yuh-creator-vision`, `/jun-story-engine`, Story Material Miner, Format Router, Pursuit-to-Offer Miner, Story Angle Expander, and `/shaan-story-deploy`; expanded `content-marketing-playbook`; new expertise, mission-campaign, conversion, masterclass, story-bank, performance-loop, and source-backed Format Intelligence components; exact v2 prompts; `/junyuh-marketing` bridge; dedicated fixtures and verifiers. |
+| Step order | source/fact intake → direct-work/story opportunity sniff → message lock → material or expertise mining → supported 3P → optional method/angle branch → concept ranking → mission selection → reference/format intelligence when needed → one task/body owner → CTA/proof ceiling → measurement plan → story/format learning. |
 | Inputs | Objective, audience, supplied lived facts or source path, expertise/method evidence, share boundary, destination, offer or next action when relevant, proof state, capacity, and voice owner. |
-| Outputs | Story Material Packet, Expertise-to-Story Packet, mission-specific campaign, conversion packet or asset, story-led masterclass run-of-show, Story Bank entry, measurement plan, and system receipt. |
+| Outputs | Story Material Packet, Expertise-to-Story Packet, ranked concepts, Concept Brief, 7x7 Reference Board/Format Card when needed, mission-specific campaign, conversion packet or asset, story-led masterclass run-of-show, Story Bank entry, measurement plan, and system receipt. |
 | Handoff summary | Pass only sourced facts, 3P, method state, mission, proof ceiling, destination, selected owner, CTA, metric hypothesis, exclusions, and one open risk. |
 | Composition rule | Jun owns story material, 3P, personal-brand/social body writing, and story-content architecture. Shaan owns cross-domain dosage. The selected offer/copy/email/presentation owner controls its destination. Market validation owns demand. Kallaway may audit only after a draft. |
 | Human checkpoint | Local reversible build is approved. Approval remains required for publishing, outreach, external writes, paid validation, private third-party material, global promotion, or claims of audience/revenue proof. |
-| Validation | Source-coverage audit; existing Story Engine verifier; new system verifier; prompt pointer audit; command/workflow discoverability; negative controls; cold-start behavior proof; local content-quality checks. |
+| Validation | Four transcript-backed Jun source packages; source-coverage audit; Story Engine, full-system, and Format Intelligence verifiers; prompt pointer audit; routing; negative controls; Farrice autonomous proof; sparse unlike-business cold test; local content-quality checks. |
 | Behavior-changing proof | One real Farrice expertise packet must produce distinct ATTRACT, NURTURE, POSITION, and CONVERT assets/packets plus an honest measurement spine; direct-status and unsupported-ROI controls must refuse story or proof inflation. |
 | Result surface | `/junyuh-marketing` is the full content-story deployment front door. `/jun-story-engine` remains the focused lived-material front door. The user guide exposes task-specific invocations. |
 | Context policy | Hot: compact `/junyuh-marketing` conductor and `/jun-story-engine`. On demand: one selected component and exact prompt. Cold: full transcripts, unused formats, downstream experts, launch/pitch details, and performance evidence. |
@@ -35,6 +35,9 @@ The existing Jun Story Engine is a strong truth-and-privacy foundation, but it i
 8. `NO STORY`, `NEEDS SOURCE`, `NO OFFER`, and `NO EVENT` remain valid terminal states.
 9. The story bank stores source paths, meanings, missions, proof state, and results; it never upgrades performance claims from memory.
 10. ROI is recorded only from observed buyer behavior such as qualified replies, calls, deposits, payments, or collected revenue.
+11. Message belongs to the creator; a studied format contributes only transferable structure.
+12. Reference views are evidence about the reference, not a prediction for the new asset.
+13. The 7x7 board is a practice target; a bounded three-to-seven-reference comparison may be enough for one decision.
 
 ## Build Boundary
 

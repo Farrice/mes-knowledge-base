@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-01 (chain_runner finalize for jun-yuh-creator-vision) |
-| **Last Activated** | 2026-09-01 (chain_runner finalize for jun-yuh-creator-vision) |
-| **Activation Count** | 903 |
-| **30-Day Review Date** | 2026-10-01 |
+| **Last Activated** | 2026-09-02 (chain_runner finalize for jun-yuh-creator-vision) |
+| **Last Activated** | 2026-09-02 (chain_runner finalize for jun-yuh-creator-vision) |
+| **Activation Count** | 905 |
+| **30-Day Review Date** | 2026-10-02 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -88,3 +88,24 @@ This post-build pass checks for operational judgment that could disappear when o
 ## Build Decision
 
 Preserve `/jun-story-engine` as the focused truth-safe material engine. Upgrade `/junyuh-marketing` into the connected deployment orchestrator and add small task-specific components. This is a paved path around the current foundation, not a replacement mega-skill.
+
+## Additional Format-Intelligence Sources
+
+| Source mechanic | Evidence | Deployment consequence | Status |
+|---|---|---|---|
+| Message is what the creator says; format is how it is packaged | `-f1XbEJ9sTs` 00:08:13-00:10:52 | Lock Creator Vision and Concept Brief before studying wrappers. | DEPLOYABLE |
+| Creator Vision variant: WHAT / WHO / UNIQUENESS | `-f1XbEJ9sTs` 00:11:27-00:18:46 | Preserve beside WHAT / WHO / WHY rather than erasing the source variation. | DEPLOYABLE |
+| Format features: hook, visuals/editing, cadence, audio, story arc, CTA | `-f1XbEJ9sTs` 00:26:39-00:31:53 | Canonical Format Card fields. | DEPLOYABLE |
+| 7x7 practice: seven creators x seven top pieces | `-f1XbEJ9sTs` 00:44:50-00:45:11 | Build a live reference board and borrow structure only. | DEPLOYABLE |
+| WHAT / WHO / WHY message variant | `TY9OrhsUsjM` 00:01:30-00:04:21 | Use the shorter public lesson's label when that source is active. | DEPLOYABLE |
+| Visual and text hook both expose pain | `TY9OrhsUsjM` 00:11:39-00:11:47 | Reject openings whose visual implies a different story than the text. | DEPLOYABLE |
+| Speak each line aloud before the frame changes | `TY9OrhsUsjM` 00:13:31-00:13:41 | Replace unsupported universal word limits with a timed readability test. | DEPLOYABLE |
+| Five low plus one or two medium/high intensity formats | `TY9OrhsUsjM` 00:14:18-00:15:06 | Optional sustainable planning mix, not a quota. | DEPLOYABLE |
+
+### Source Repairs
+
+- Demoted the old universal `5-7 words per frame` rule to the source-supported read-aloud cadence test.
+- Removed the unsupported claim that trial-reel derivatives pass algorithmic detection.
+- Removed CapCut as a Jun-required production dependency.
+- Reframed “viral production” as a compatibility filename, not an outcome promise.
+- Added `NO FIT`, `NEEDS REFERENCE SET`, `NEEDS SOURCE`, and `NO EVENT` controls.

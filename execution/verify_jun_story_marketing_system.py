@@ -19,6 +19,13 @@ REQUIRED_FILES = [
     "extractions/jun-yuh-story-marketing-system/behavior-proof.md",
     "extractions/jun-yuh-story-marketing-system/USER-GUIDE.md",
     "extractions/jun-yuh-story-marketing-system/fixtures/system-cases.json",
+    "extractions/jun-yuh-story-marketing-system/format-intelligence-capability-proof.md",
+    "extractions/jun-yuh-story-marketing-system/farrice-autonomous-campaign-proof.md",
+    "extractions/jun-yuh-story-marketing-system/farrice-zero-to-hero-campaign.md",
+    "extractions/jun-yuh-story-marketing-system/client-story-marketing-os-install.md",
+    "skills/jun-yuh-creator-vision/workflows/format-intelligence-lab.md",
+    "skills/jun-yuh-creator-vision/references/prompts-v2/format-intelligence-lab.md",
+    "agents/jun-yuh/AGENT.md",
     "skills/jun-yuh-creator-vision/workflows/expertise-to-story-content.md",
     "skills/jun-yuh-creator-vision/workflows/story-mission-campaign.md",
     "skills/jun-yuh-creator-vision/workflows/story-led-conversion-asset.md",
@@ -149,7 +156,7 @@ def main() -> int:
     )
     require_tokens(
         "skills/jun-yuh-creator-vision/SKILL.md",
-        ("workflows: 24", "Expertise-to-Story Content Engine", "Story Performance and ROI Learning Loop"),
+        ("workflows: 25", "Format Intelligence Lab", "Expertise-to-Story Content Engine", "Story Performance and ROI Learning Loop"),
         failures,
     )
     require_tokens(
@@ -177,6 +184,16 @@ def main() -> int:
         ),
         failures,
     )
+    require_tokens(
+        "skills/jun-yuh-creator-vision/workflows/format-intelligence-lab.md",
+        ("7x7", "read-aloud test", "MARKET PROOF: NO EVENT"),
+        failures,
+    )
+    require_tokens(
+        "agents/jun-yuh/AGENT.md",
+        ("Message Before Format", "Borrow Structure, Not Identity", "Format Intelligence and Format Cards"),
+        failures,
+    )
 
     expected_tacit_controls = {
         "material_before_format": "SOURCE-SUPPORTED",
@@ -193,6 +210,7 @@ def main() -> int:
         "turn my expertise into a complete story-led content marketing campaign",
         "use Jun Yuh problem pursuit payoff for attract nurture position and convert content",
         "build a story marketing system from my expertise that can lead into an offer and measure buyer response",
+        "use Jun Yuh 7x7 to study winning formats before making my campaign",
     )
     routing_results: dict[str, str] = {}
     for query in routing_queries:
