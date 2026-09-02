@@ -31,6 +31,10 @@
 | Picture Book Effect | 00:49:51–00:50:45 | VERIFIED-SPOKEN | Text advances story; visuals amplify emotion. Antigravity adds a false-chronology guard. |
 | Problem and Pursuit dominate; Payoff is shorter | 00:52:25–00:53:00 | VERIFIED-SPOKEN | Social-content proportion heuristic, never a universal fixed ratio. |
 | Ground-up pipeline: moment → three whys → 3P → format | 01:02:40–01:04:32 | VERIFIED-SPOKEN | Jun Story Engine paved path. |
+| Jun transitions from the teaching demonstration into the Storytelling Content Challenge as an implementation vehicle | 01:05:00–01:15:40 | VERIFIED-SPOKEN | Source-grounded masterclass architecture; never inherit the source offer's claims or terms. |
+| The challenge is sequenced as toolkit, live teaching, daily practice, community/accountability, and completed content | 01:12:11–01:24:00 | VERIFIED-SPOKEN | An offer may close the execution gap through practice and support; components remain offer-owner facts. |
+| Bonuses and proof examples appear after the method and implementation vehicle are understood | 01:21:06–01:29:45 | VERIFIED-SPOKEN | Sequence proof and additional value after useful teaching; do not copy Jun's bonuses. |
+| Price, risk reversal, social proof, and audience questions are handled after the offer is clear | 01:26:40–02:10:00 | VERIFIED-SPOKEN | Build a bounded objection/risk section; guarantees, scarcity, price, and results require explicit authority. |
 | AI helps find and structure stories; it should not author the lived experience | 01:24:19–01:24:34 | VERIFIED-SPOKEN | Truth and source-ownership invariant. |
 | Sensitive stories can focus on the teller's evolution and omit third-party details | 02:05:47–02:06:40 | VERIFIED-SPOKEN | Privacy and consent boundary. |
 | Topic is a vessel for the person's message | 02:15:05–02:15:40 | VERIFIED-SPOKEN | Creator Vision remains the identity owner. |
@@ -43,3 +47,4 @@
 2. `emotion-matched illustrative footage` is the system's truth label for Jun's Picture Book Effect; the exact label is not Jun's term.
 3. One body owner, evidence-sensitive defaulting, and `[NEEDS SOURCE]` are Antigravity governance.
 4. Source-reported follower, view, client, revenue, conversion, and challenge results are not used as universal proof.
+5. The masterclass run-of-show is a `SYSTEM-SYNTHESIS` of section jobs demonstrated in the source. It is not a claim that Jun named or prescribed a universal webinar formula.

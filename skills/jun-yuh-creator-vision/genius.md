@@ -163,6 +163,21 @@ This additive layer is grounded in `extractions/video-context/6r-HF9K030A/` and 
 
 The state spine is: `NO_OFFER → NEEDS_SOURCE → METHOD_CANDIDATE → OFFER_HYPOTHESIS`. Market validation is deliberately outside this spine.
 
+### Full deployment layer — story as a content-marketing system
+
+The two masterclasses together support a wider operating chain than a single story draft:
+
+`lived problem → pursuit/method → supported payoff → identification → trust → belief → next action → observed behavior`
+
+- **Expertise needs a reason to care.** Information alone may be correct and still fail to attract attention. A sourced Problem makes the expertise selectively relevant; the Pursuit shows how the expert actually thinks and works.
+- **Story missions differ.** ATTRACT creates recognition, NURTURE reveals the Pursuit, POSITION demonstrates judgment, and CONVERT connects the supported method and Payoff to a coherent next action. These are separate asset jobs.
+- **Task adapters preserve truth.** Services, physical products, coaching, founder stories, and education use the same 3P spine but require different evidence. Product efficacy, client results, and student outcomes may never be borrowed from the teller's own Payoff.
+- **A CTA sits behind the story.** The source explicitly demonstrates a call to action following story content. The CTA captures a next step; it does not turn story quality into demand proof.
+- **Promise is downstream synthesis.** Jun's source formula is Problem/Pursuit/Payoff. A Promise may be derived from the desired supported Payoff plus the Pursuit mechanism and its boundaries, but it is not Jun's fourth P and cannot exceed the proof ceiling.
+- **The masterclass is itself a selling demonstration.** Its reusable jobs are lived authority, audience mirroring, useful teaching, examples, a quick win, implementation gap, offer vehicle, proof, objections, and a decision close. Jun's price, guarantee, bonuses, urgency, and claimed results are not reusable defaults.
+- **Story perception compounds through memory.** Store bounded moments, meanings, missions, and results. A supported Payoff may seed the next Problem, but the causal bridge remains a hypothesis until another lived event supports it.
+- **ROI needs commercial evidence.** Attention, recognition, intent, sale, and collected revenue are distinct states. ROI is eligible only when attributable cost and revenue are supplied.
+
 - **The Pain-First Psychological Anchor**: Humans connect primarily through shared struggle. Starting content by flexing lavish success actively alienates viewers. Starting with specific, visceral pain (anxiety, failure, loneliness) engineers immediate empathy and makes the eventual success/authority earned and championable.
 - **Timestamp Inevitability**: Placing a year or age (e.g., "Age 22") on the first frame unconsciously trains the viewer's brain to anticipate a resolution (e.g., "Age 26"). This creates an open psychological loop that forces retention until the narrative anchor resolves.
 - **The Decoupling of Effort and Value**: The highest perceived value often comes from lowest-effort content. A 10-second B-roll clip that precisely targets a psychographic pain point (e.g., a mom feeling unseen) has higher perceived quality than a 10-hour cinematic edit about nothing.
