@@ -1,0 +1,33 @@
+{
+  "_schema": "openai-usage v1",
+  "_doc": "OpenAI GPT Image spend. $15/month hard cap (Farrice 2026-09-02). See execution/openai_budget_guard.py and directives/openai-usage-policy.md.",
+  "limits": {
+    "monthly_block_usd": 15.0,
+    "monthly_warn_usd": 10.0,
+    "per_day_block_usd": 5.0,
+    "per_call_block_usd": 1.0,
+    "per_call_warn_usd": 0.3,
+    "max_calls_per_5min": 6,
+    "max_consecutive_failures": 2
+  },
+  "pricing_estimates_usd": {
+    "low": 0.011,
+    "medium": 0.042,
+    "high": 0.167,
+    "auto": 0.167
+  },
+  "totals": {
+    "cycle_month": "2026-09",
+    "month_spent_usd": 0.0,
+    "month_calls": 0,
+    "today_date": "2026-09-02",
+    "today_spent_usd": 0.0,
+    "today_calls": 0,
+    "lifetime_spent_usd": 0.0
+  },
+  "state": {
+    "recent_call_timestamps": [],
+    "consecutive_failures": 0
+  },
+  "log": []
+}
