@@ -1,10 +1,43 @@
 {
   "candidate_count": 0,
-  "count": 0,
-  "generated_at": "2026-09-02T19:45:52.047306+00:00",
+  "count": 4,
+  "generated_at": "2026-09-02T22:19:14.448503+00:00",
   "generated_by": "execution/generate_codex_indexes.py",
   "index_kind": "codex_subagent_candidates",
-  "items": [],
+  "items": [
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Generates platform-specific content packages (titles, descriptions, hashtags, metadata) for rendered short-form clips and handles publishing via Zernio. Spawned by 00-longform-to-shortform at the final phase (POST). Receives rendered clip paths, target platforms, and publishing mode (skip / draft / auto-post) \u2014 defers platform rules to mkt-short-form-posting and returns a status summary with draft/post URLs.",
+      "name": "l2s-content-packager",
+      "path": ".claude/agents/l2s-content-packager.md",
+      "slug": "l2s-content-packager"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Plans the visual layer for the social content pipeline. Spawned by 00-social-content between Phase 5.0 and Phase 5.5. Owns three things \u2014 (1) Visual Inventory: scan logos/icons/screenshots/user assets available BEFORE the slide plan exists; (2) Slide Planning: arc \u2192 hook \u2192 outline with diversity/visual-floor/icon-anchor/white-space audits enforced; (3) Image Source Resolution: for every slide that needs an image, walk the 7-tier image-source-matrix and resolve to a concrete source before the AI image generator runs. Returns slide_plan + visual_inventory + reasoning. Read-only with respect to the project \u2014 does not write images or final output, only the slide plan object the orchestrator consumes.",
+      "name": "ssc-designer",
+      "path": ".claude/agents/ssc-designer.md",
+      "slug": "ssc-designer"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Generates post images (single or carousel) for the social content pipeline. Spawned by 00-social-content at Phase 7. Receives a slide_plan (narrative outline per slide) and generates each slide's image using the correct render mode \u2014 template, AI, or hybrid. Returns file paths only.",
+      "name": "ssc-image-generator",
+      "path": ".claude/agents/ssc-image-generator.md",
+      "slug": "ssc-image-generator"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Turns ONE reference image into ONE ship-ready template. Spawned by the 00-social-content orchestrator during onboarding (template-building Step O3.6) \u2014 ONE invocation per REF. AI-FIRST: the AI generates by default (composition, text-fit, overlap, font); HTML is the surgical exception. The ref image IS the composition guide \u2014 fed back as --input-image while the prompt states only the delta. Flow: identify the form (tree) \u2192 write rationale.md FIRST (BLOCKING reasoning step, gated by Check A) \u2192 read ONLY that scenario \u2192 invoke its edit mode + craft \u2192 template.html \u2192 preview \u2192 automatic quality gate (incl. Check B treatment-contract) \u2192 return template + rationale. Reads layered references under template-authoring/; the orchestrator + by-eye golden-set are the final QA.",
+      "name": "ssc-template-builder",
+      "path": ".claude/agents/ssc-template-builder.md",
+      "slug": "ssc-template-builder"
+    }
+  ],
   "schema_version": "1.0",
   "source": ".claude/agents",
   "sources": [

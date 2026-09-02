@@ -2253,7 +2253,7 @@
     }
   ],
   "count": 241,
-  "generated_at": "2026-09-02T19:45:52.047223+00:00",
+  "generated_at": "2026-09-02T22:19:14.447537+00:00",
   "generated_by": "execution/generate_codex_indexes.py",
   "index_kind": "agent_route_cards",
   "schema_version": "1.0",

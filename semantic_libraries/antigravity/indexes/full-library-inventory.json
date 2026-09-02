@@ -1,6 +1,6 @@
 {
   "bridge_status_counts": {
-    "hot bridge": 1990,
+    "hot bridge": 1989,
     "source-command only": 853,
     "workflow-only": 1
   },
@@ -5216,19 +5216,19 @@
   ],
   "classification_counts": {
     "archive": 75,
-    "command-grade": 2450,
+    "command-grade": 2449,
     "experimental": 220,
     "internal": 99
   },
   "counts": {
     "agent_profiles": 241,
-    "claude_subagent_specs": 0,
+    "claude_subagent_specs": 4,
     "cold_source_command_wrappers": 0,
-    "hot_source_command_wrappers": 2638,
+    "hot_source_command_wrappers": 2637,
     "legacy_source_commands": 3484,
-    "workflows": 2844
+    "workflows": 2843
   },
-  "generated_at": "2026-09-02T19:45:51.981167+00:00",
+  "generated_at": "2026-09-02T22:19:14.395023+00:00",
   "generated_by": "execution/generate_codex_indexes.py",
   "index_kind": "full_library_inventory",
   "policy": "Keep hot surface small; preserve cold arsenal; classify before promotion or archive.",
@@ -34173,18 +34173,6 @@
       "name": "social-commerce-landscape-audit",
       "path": ".agent/workflows/social-commerce-landscape-audit.md",
       "title": "/social-commerce-landscape-audit \u2014 Kallaway Social Commerce \u2014 Social Commerce Landscape Audit"
-    },
-    {
-      "bridge_status": "hot bridge",
-      "classification": "command-grade",
-      "description": "/social-content-studio \u2014 Turn one grounded idea into a week of on-brand social content or build a lean AI content brain: surplus options, selected review artifacts, format briefs, and an approval manifest without publishing.",
-      "has_cold_codex_skill": false,
-      "has_hot_codex_skill": true,
-      "has_source_command": false,
-      "has_workflow": true,
-      "name": "social-content-studio",
-      "path": ".agent/workflows/social-content-studio.md",
-      "title": "/social-content-studio \u2014 Kieran Social Content Studio"
     },
     {
       "bridge_status": "hot bridge",

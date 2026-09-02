@@ -10,7 +10,7 @@
 - **Depth:** Practitioner
 - **Virtuoso Patterns:** 12 transferable behaviors detected
 - **Extraction Value:** **EXCEPTIONAL** — the source's value is an adoptable execution sequence and its refusal/surplus/first-week mechanics, not proof that its named tools improve commercial outcomes
-- **Evidence:** 4,529 native-caption segments, 32,606 clean transcript words, and 59 reviewed frames
+- **Evidence:** 4,529 native-caption segments, 32,606 clean transcript words, and 59 reviewed frames, of which 16 claim-bearing frames remain in the compact source package
 - **Proof state:** `GROUNDED`; human preference, publishing results, and revenue remain untested
 
 ## Executive Summary
@@ -28,7 +28,7 @@ The course's most reusable insight appears near 02:32–02:40: the system should
 
 - **Source-derived:** the opening human-decision thesis, model hierarchy and tool map, brain preparation, refusal examples, skill-admission caution, surplus inventory, `Focus → Style → Plan → Create → Package`, and the compressed first-week adoption path.
 - **Enhancement:** Antigravity's evidence labels, privacy and claim vetoes, `Person → Tension → Path`, named function ownership, adapter-neutral handoffs, deterministic failure controls, and behavior-changing proof fixtures.
-- **Excluded from proof:** product superiority, current model rankings, audience performance, commercial outcomes, and any visual claim not supported by the reviewed-frame ledger.
+- **Excluded from proof:** product superiority, current model rankings, audience performance, commercial outcomes, and any visual claim not supported by the retained visual evidence notes.
 
 ## Genius Patterns Decoded
 
@@ -198,4 +198,4 @@ Success criteria: four bounded weekly packages; a current Context Lock; one or f
 - **Constraint removal:** replace platform-specific project memory with portable files and explicit handoffs.
 - **Beyond the source:** preserve the source's adoption simplicity while adding Antigravity's evidence ladder, privacy/claim gates, bounded function ownership, and behavior-changing proof.
 
-The extraction reaches `GROUNDED`. The integrated command may reach `RUNNABLE` after structural and cold-start checks. Only a real applied transformation may reach `TRANSFERRED`; human preference, field validity, and market impact require independent evidence.
+The extraction reaches `GROUNDED`. It does not authorize a command or reusable workflow. Promotion requires repeated real use, independent human preference, and operator-time evidence; structural checks alone may establish only that an implementation runs.

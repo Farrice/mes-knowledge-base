@@ -1,6 +1,6 @@
 # Workflow Family Index
 
-Generated: 2026-09-02T19:45:52.011189+00:00
+Generated: 2026-09-02T22:19:14.419632+00:00
 
 | Family | Count | Bridge Status | Classification | Sample Routes |
 |---|---:|---|---|---|
@@ -112,7 +112,6 @@ Generated: 2026-09-02T19:45:52.011189+00:00
 | `edan` | 8 | source-command only: 8 | command-grade: 5, experimental: 3 | `/edan-action-weight`, `/edan-balance-audit`, `/edan-block-map`, `/edan-description-upgrade`, `/edan-narration-pov`, `/edan-opener-builder`, `/edan-practice-loop`, `/edan-source-study` |
 | `extract` | 8 | hot bridge: 7, source-command only: 1 | command-grade: 7, internal: 1 | `/extract-amplify`, `/extract-approach`, `/extract-forge`, `/extract-mastery-design-transcendence-path`, `/extract-mastery-forge-crown-jewel-prompts`, `/extract-principle`, `/extract-vision`, `/extract` |
 | `hook` | 8 | hot bridge: 8 | command-grade: 8 | `/hook-anything`, `/hook-bank`, `/hook-forge`, `/hook-formula-extract`, `/hook-landscape-scan`, `/hook-mastery-training`, `/hook-trust-stack`, `/hook-viciousness-audit` |
-| `social` | 8 | hot bridge: 8 | command-grade: 7, archive: 1 | `/social-commerce-landscape-audit`, `/social-content-studio`, `/social-influence-norm-shift-strategy`, `/social-listen`, `/social-narrative`, `/social-os-optimization`, `/social-permission-campaign`, `/social-to-notion` |
 | `ve` | 8 | hot bridge: 8 | command-grade: 8 | `/ve-audit-offer`, `/ve-client-ui-layer`, `/ve-department-wedge`, `/ve-insight-harvest`, `/ve-kb-first-sequencing`, `/ve-knowledge-work-positioning`, `/ve-portability-pitch`, `/ve-scaling-path` |
 | `viral` | 8 | hot bridge: 8 | command-grade: 8 | `/viral-content-production-factory`, `/viral-engine-deployment`, `/viral-growth-and-commerce`, `/viral-hook-distribution-optimizer`, `/viral-lead-generation-funnel`, `/viral-pattern-extraction`, `/viral-resonance-amplification-engine`, `/viral-social-content-engine` |
 | `ai-carousel` | 7 | hot bridge: 6, source-command only: 1 | command-grade: 7 | `/ai-carousel-article-to-carousel`, `/ai-carousel-carousel-copy-forge`, `/ai-carousel-carousel-design-prompt`, `/ai-carousel-carousel-publish-pack`, `/ai-carousel-carousel-review`, `/ai-carousel-carousel-style-match`, `/ai-carousel-engine` |
@@ -123,6 +122,7 @@ Generated: 2026-09-02T19:45:52.011189+00:00
 | `generate` | 7 | hot bridge: 7 | command-grade: 7 | `/generate-asset`, `/generate-brief`, `/generate-design`, `/generate-handcrafted-carousel`, `/generate-image`, `/generate-video-asset`, `/generate` |
 | `mt` | 7 | hot bridge: 6, source-command only: 1 | command-grade: 6, experimental: 1 | `/mt-concept-headline-triage`, `/mt-distribution-calibration-check`, `/mt-latent-demand-mining`, `/mt-persona-grounding`, `/mt-persona-panel-triage`, `/mt-personalized-message-cascade`, `/mt-synthetic-vs-real-decision` |
 | `narrative` | 7 | hot bridge: 7 | command-grade: 7 | `/narrative-asset-management`, `/narrative-bit-keynote-architect`, `/narrative-diagnostic`, `/narrative-hegemony-positioning-strategy`, `/narrative-script-optimization-audit`, `/narrative-transfer`, `/narrative-warfare` |
+| `social` | 7 | hot bridge: 7 | command-grade: 6, archive: 1 | `/social-commerce-landscape-audit`, `/social-influence-norm-shift-strategy`, `/social-listen`, `/social-narrative`, `/social-os-optimization`, `/social-permission-campaign`, `/social-to-notion` |
 | `youtube` | 7 | hot bridge: 7 | command-grade: 7 | `/youtube-video-context-audit`, `/youtube-video-creative-reference-breakdown`, `/youtube-video-frame-ledger`, `/youtube-video-full-visual-context-ledger`, `/youtube-video-multi-video-comparison`, `/youtube-video-source-to-skill-extract`, `/youtube-video-visual-ocr` |
 | `ai-brain` | 6 | hot bridge: 6 | command-grade: 6 | `/ai-brain-context`, `/ai-brain-deploy`, `/ai-brain-discovery`, `/ai-brain-intelligence`, `/ai-brain-substrate`, `/ai-brain` |
 | `alen` | 6 | hot bridge: 6 | command-grade: 5, internal: 1 | `/alen-sultanic-conversion-retention-system`, `/alen-sultanic-deep-psychology-avatar-mapping`, `/alen-sultanic-high-velocity-asset-engine`, `/alen-sultanic-permission-close-architecture`, `/alen-sultanic-primal-offer-positioning`, `/alen-sultanic-push-to-pull-conversion-audit` |

@@ -1,6 +1,6 @@
 # Agent Route Cards
 
-Generated: 2026-09-02T19:45:52.047223+00:00
+Generated: 2026-09-02T22:19:14.447537+00:00
 
 | Agent | Domain | Skills | Policy |
 |---|---|---|---|

@@ -9,7 +9,7 @@
   "webpage_url": "https://www.youtube.com/watch?v=hoVC2W0p0Zg",
   "capture_method": "native English captions plus local scene-aware frame extraction after bounded web_embedded yt-dlp fallback",
   "transcript_source": "YouTube en-orig auto-captions",
-  "visual_inspection": "59 selected frames reviewed by Codex: 9 from 00:00-12:31 and 50 from 12:31-2:37:12",
+  "visual_inspection": "59 selected frames reviewed by Codex; 16 claim-bearing frames retained after salvage: 4 from 00:00-12:31 and 12 from 12:31-2:37:12",
   "proof_state": "GROUNDED",
   "chapters": [
     {"start": "00:00", "title": "Intro"},

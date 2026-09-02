@@ -1,48 +1,46 @@
 ---
-name: social-content-studio-source-integration
-problem_signature: "Turn a full social-media course into one source-grounded reusable conductor without duplicating existing content owners or crossing publication boundaries."
+name: social-content-studio-failed-promotion-postmortem
+problem_signature: "A source-grounded content command passes structural checks but adds little unique value, crosses its owner's authorship boundary, and produces generic pilot output."
 domain: system
-tags: [source-extraction, skill-system, content-operations, routing, human-gates]
+tags: [source-extraction, failed-promotion, false-green, content-operations, rollback]
 date: 2026-09-02
 status: active
-session: "codex/social-content-studio"
+session: "codex/social-content-studio-salvage"
 ---
 
-## Problem
+## Verdict
 
-A long course mixed durable operating mechanics with time-sensitive product demonstrations. The useful behavior had to become one reusable social-content entry point while Kieran, Farrice's Voice OS, Kallaway, carousel, and video systems retained their existing responsibilities.
+The source extraction earned preservation. The promoted `/social-content-studio` capability did not earn a public surface and was removed after Farrice found no practical value in its pilot.
 
 ## Root Cause
 
-Treating every lesson as a skill would duplicate owners and hide source boundaries. Treating the course as a summary would preserve information without changing live execution. The missing layer was a conductor that compiled context, forced a campaign decision, created surplus, selected a bounded week, and stopped at human and publication gates.
+1. Kieran already owned `/week`, `/launch`, `/transpose`, surplus selection, portable context, and the outline-to-draft firewall.
+2. The new workflow authorized AI-written review drafts even though Kieran's core doctrine leaves prose authorship to the human.
+3. The build promoted a command after one generated pilot despite its own source-derived admission rule requiring repeated use.
+4. The 97-check verifier measured files, required phrases, counts, routing, and a self-authored `IMPROVED` table. Its generic cold start was a static fixture, not an independent execution.
+5. Generated index refreshes and duplicate transcript ledgers inflated the footprint without adding Social Content Studio value.
 
-## Approach That Worked
+## Salvage Decision
 
-1. Built a durable source package with continuous captions, timestamped evidence, a reviewed-frame ledger, uncertainty boundaries, and an MES extraction that labels source mechanics separately from Antigravity enhancements.
-2. Extended Kieran with one born-v2 workflow and prompt, explicit specialist handoffs, deterministic positive and negative fixtures, a portable cold start, and a Farrice pilot that compares pre-change behavior against the new route.
+Keep the compact source package: metadata, continuous transcript, timestamped segments, uncertainty report, mastery extraction, a corrected cold Kieran delta, and only claim-bearing frames. Remove the public command, compatibility wrapper, workflow, execution prompt, contract, pilot, static fixtures, dedicated verifier, duplicate ledgers, redundant transcript format, and non-evidentiary frames.
 
-## Dead Ends
+Preserve Kieran's existing routes and authorship firewall. If the course mechanics ever earn promotion, require two real uses plus blind human preference and operator-time evidence first.
 
-The legacy generic skill validator expected a `genius-patterns.md` file that the existing Kieran skill does not use. The archived behavior-contract verifier resolves its root incorrectly. The broad slash-command generator also carries 2,695 pre-existing missing entries. None was used as a reason to create duplicate files or expand this build into a control-plane repair.
+## Prevention Rule
 
-## Verification
+Structural validation may establish `RUNNABLE`; it cannot establish `USEFUL`, `TRANSFERRED`, or taste. A behavior verifier must exercise the workflow independently and judge outputs against a control. Never let a verifier pass by counting evaluative words written by the artifact under test.
 
-- `execution/verify_social_content_studio.py`: PASS, 97 checks.
-- Video source package: PASS, 4,529 segments, 32,606 words, 4,529 spoken-ledger rows, 59 reviewed frames.
-- Skill System Contract: PASS.
-- Kallaway completion suite: PASS, 22/22.
-- Codex live surface strict audit and generated semantic index: PASS.
-- Born-v2 audit: PASS, 3,978 prompt files.
-- Draft prose gate: authority post CLEAN; carousel and video WARNING only for format-required parallel structure; no FLAGGED draft.
+## Evidence
 
-## Weaker-Model Trap
+- Kieran already exposes `/week`, `/launch`, and `/transpose`.
+- Kieran's core rule says AI hands over the outline and the human writes the prose.
+- The removed verifier accepted a static generic fixture and checked `behavior-proof.md` by counting `IMPROVED` labels.
+- `video-context-ledger.json` was a row-for-row projection of `transcript_segments.json` with less source detail.
+- Farrice's human review rejected the session's practical value; that verdict outranks structural completion.
 
-A weaker run may copy the course's named tool stack, revive the retired Higgsfield factory, call a month of ideas a publishing calendar, or let generic voice generation replace the function owners. It may also confuse transcript statements with visual proof. The verifier blocks those substitutions and keeps every draft at `HUMAN_REVIEW_PENDING`.
+## Verification Standard
 
-## Pointers
+The salvage passes only when `/social-content-studio` no longer resolves as an active workflow or hot skill, Kieran's original routing and firewall remain intact, the retained evidence passes explicit reduced-package checks, unrelated generated registry content survives regeneration, and the repository shows no dangling Social Content Studio runtime references.
 
 - `extractions/video-context/hoVC2W0p0Zg/`
-- `skills/kieran-flanagan-content-intelligence/workflows/social-content-studio.md`
-- `.agent/workflows/social-content-studio.md`
-- `execution/verify_social_content_studio.py`
-- `_active/farrice-brand/content/social-content-studio/PILOT-REVIEW-PACK.md`
+- `skills/kieran-flanagan-content-intelligence/references/social-content-studio-source-delta.md`

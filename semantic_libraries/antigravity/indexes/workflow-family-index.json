@@ -2294,27 +2294,6 @@
         "hot bridge": 8
       },
       "classification_counts": {
-        "archive": 1,
-        "command-grade": 7
-      },
-      "count": 8,
-      "family": "social",
-      "sample_routes": [
-        "social-commerce-landscape-audit",
-        "social-content-studio",
-        "social-influence-norm-shift-strategy",
-        "social-listen",
-        "social-narrative",
-        "social-os-optimization",
-        "social-permission-campaign",
-        "social-to-notion"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 8
-      },
-      "classification_counts": {
         "command-grade": 8
       },
       "count": 8,
@@ -2509,6 +2488,26 @@
         "narrative-script-optimization-audit",
         "narrative-transfer",
         "narrative-warfare"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 7
+      },
+      "classification_counts": {
+        "archive": 1,
+        "command-grade": 6
+      },
+      "count": 7,
+      "family": "social",
+      "sample_routes": [
+        "social-commerce-landscape-audit",
+        "social-influence-norm-shift-strategy",
+        "social-listen",
+        "social-narrative",
+        "social-os-optimization",
+        "social-permission-campaign",
+        "social-to-notion"
       ]
     },
     {
@@ -13455,7 +13454,7 @@
       ]
     }
   ],
-  "generated_at": "2026-09-02T19:45:52.011189+00:00",
+  "generated_at": "2026-09-02T22:19:14.419632+00:00",
   "generated_by": "execution/generate_codex_indexes.py",
   "index_kind": "workflow_family_index",
   "schema_version": "1.0",

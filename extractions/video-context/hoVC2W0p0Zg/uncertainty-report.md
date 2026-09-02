@@ -3,7 +3,7 @@
 ## Verified
 
 - Native English auto-captions were captured and normalized into a continuous transcript with timestamped segments.
-- Fifty-nine scene-aware frames were inspected in chronological order: nine covering the opening 12:31 and fifty covering the remainder of the 2:37:12 course.
+- Fifty-nine scene-aware frames were inspected in chronological order. Sixteen claim-bearing frames remain in the compact package: four covering the opening 12:31 and twelve covering the remainder of the 2:37:12 course.
 - The visual evidence shows the presenter, the course map and model-selection slides, Higgsfield and Claude interfaces, visual-brain source material, example skill files, goal-lock/meta-skill slides, a content-brain diagram, and the first-week plan.
 - The spoken evidence contains the `AI does the work → you make the call → it still sounds like you` thesis, the portable-brain build, the warning against overengineering skills, the surplus-inventory model, and the `Focus → Style → Plan → Create → Package` sequence.
 
@@ -20,5 +20,5 @@
 - Do not claim the course proves that the workflow improves reach, engagement, sales, or revenue.
 - Do not treat Claude Projects, Higgsfield, or any named model as a required implementation dependency.
 - Do not infer visual details from transcript evidence or transcript details from an unreviewed frame.
-- Do not describe the 59-frame sample as frame-perfect review of every interaction.
+- Do not describe the original 59-frame review or the retained 16-frame evidence set as frame-perfect review of every interaction.
 - Do not treat generated content volume as proof of audience demand or publishing success.
