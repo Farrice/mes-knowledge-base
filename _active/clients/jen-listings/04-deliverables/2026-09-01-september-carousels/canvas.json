@@ -1,92 +1,251 @@
 {
   "artboards": [
     {
-      "file": "P0.dc.html",
-      "title": "start here",
+      "file": "S1.dc.html",
+      "title": "presentation \u00b7 1",
       "x": 0,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD1.dc.html",
-      "title": "valley native \u00b7 slide 1",
+      "file": "S2.dc.html",
+      "title": "presentation \u00b7 2",
       "x": 1180,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD2.dc.html",
-      "title": "valley native \u00b7 slide 2",
+      "file": "S3.dc.html",
+      "title": "presentation \u00b7 3",
       "x": 2360,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD3.dc.html",
-      "title": "valley native \u00b7 slide 3",
+      "file": "S4.dc.html",
+      "title": "presentation \u00b7 4",
       "x": 3540,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD4.dc.html",
-      "title": "valley native \u00b7 slide 4",
+      "file": "S5.dc.html",
+      "title": "presentation \u00b7 5",
       "x": 4720,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD5.dc.html",
-      "title": "valley native \u00b7 slide 5",
+      "file": "S6.dc.html",
+      "title": "presentation \u00b7 6",
       "x": 5900,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD6.dc.html",
-      "title": "valley native \u00b7 slide 6",
+      "file": "S7.dc.html",
+      "title": "presentation \u00b7 7",
       "x": 7080,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "DD7.dc.html",
-      "title": "valley native \u00b7 slide 7",
-      "x": 8260,
-      "y": 0,
+      "file": "DD1.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 1",
+      "x": 0,
+      "y": 1560,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "P1.dc.html",
-      "title": "how to read this",
-      "x": 0,
+      "file": "DD2.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 2",
+      "x": 1180,
       "y": 1560,
       "w": 1080,
-      "h": 2200,
-      "print": "flow"
+      "h": 1350
+    },
+    {
+      "file": "DD3.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 3",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD4.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 4",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD5.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 5",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD6.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 6",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD7.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR1.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 1",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR2.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 2",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR3.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 3",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR4.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 4",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR5.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 5",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR6.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 6",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR7.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 7",
+      "x": 7080,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI1.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 1",
+      "x": 0,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI2.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 2",
+      "x": 1180,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI3.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 3",
+      "x": 2360,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI4.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 4",
+      "x": 3540,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI5.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 5",
+      "x": 4720,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI6.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 6",
+      "x": 5900,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI7.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 7",
+      "x": 7080,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
     },
     {
       "file": "P5.dc.html",
       "title": "in your words",
-      "x": 1180,
-      "y": 1560,
+      "x": 0,
+      "y": 6240,
       "w": 1080,
       "h": 3400,
       "print": "flow"
     },
     {
+      "file": "DM.dc.html",
+      "title": "the saved DM reply",
+      "x": 1180,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
       "file": "R1.dc.html",
       "title": "reel 1 \u00b7 the condo has to qualify too",
       "x": 2360,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 3200,
       "print": "flow"
@@ -95,7 +254,7 @@
       "file": "R2.dc.html",
       "title": "reel 2 \u00b7 van nuys is getting a train",
       "x": 3540,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 3200,
       "print": "flow"
@@ -104,7 +263,7 @@
       "file": "R3.dc.html",
       "title": "reel 3 \u00b7 the insurance quote",
       "x": 4720,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 3200,
       "print": "flow"
@@ -113,7 +272,7 @@
       "file": "R4.dc.html",
       "title": "reel 4 \u00b7 just breathe (from your voice memo)",
       "x": 5900,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 3200,
       "print": "flow"
@@ -122,7 +281,7 @@
       "file": "P2.dc.html",
       "title": "filming notes + don't say",
       "x": 7080,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 2200,
       "print": "flow"
@@ -131,7 +290,7 @@
       "file": "P3.dc.html",
       "title": "the rulebook",
       "x": 8260,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 4400,
       "print": "flow"
@@ -140,201 +299,47 @@
       "file": "P4.dc.html",
       "title": "the photo bank",
       "x": 9440,
-      "y": 1560,
+      "y": 6240,
       "w": 1080,
       "h": 2600,
       "print": "flow"
-    },
-    {
-      "file": "Main.dc.html",
-      "title": "a.1 the condo has to qualify too",
-      "x": 0,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S2.dc.html",
-      "title": "a.2 the condo has to qualify too",
-      "x": 1180,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S3.dc.html",
-      "title": "a.3 the condo has to qualify too",
-      "x": 2360,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S4.dc.html",
-      "title": "a.4 the condo has to qualify too",
-      "x": 3540,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S5.dc.html",
-      "title": "a.5 the condo has to qualify too",
-      "x": 4720,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S6.dc.html",
-      "title": "a.6 the condo has to qualify too",
-      "x": 5900,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C1S7.dc.html",
-      "title": "a.7 the condo has to qualify too",
-      "x": 7080,
-      "y": 6360,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S1.dc.html",
-      "title": "b.1 van nuys is getting a train",
-      "x": 0,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S2.dc.html",
-      "title": "b.2 van nuys is getting a train",
-      "x": 1180,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S3.dc.html",
-      "title": "b.3 van nuys is getting a train",
-      "x": 2360,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S4.dc.html",
-      "title": "b.4 van nuys is getting a train",
-      "x": 3540,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S5.dc.html",
-      "title": "b.5 van nuys is getting a train",
-      "x": 4720,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S6.dc.html",
-      "title": "b.6 van nuys is getting a train",
-      "x": 5900,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C2S7.dc.html",
-      "title": "b.7 van nuys is getting a train",
-      "x": 7080,
-      "y": 7920,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S1.dc.html",
-      "title": "c.1 the insurance quote comes before the offer",
-      "x": 0,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S2.dc.html",
-      "title": "c.2 the insurance quote comes before the offer",
-      "x": 1180,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S3.dc.html",
-      "title": "c.3 the insurance quote comes before the offer",
-      "x": 2360,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S4.dc.html",
-      "title": "c.4 the insurance quote comes before the offer",
-      "x": 3540,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S5.dc.html",
-      "title": "c.5 the insurance quote comes before the offer",
-      "x": 4720,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S6.dc.html",
-      "title": "c.6 the insurance quote comes before the offer",
-      "x": 5900,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
-    },
-    {
-      "file": "C3S7.dc.html",
-      "title": "c.7 the insurance quote comes before the offer",
-      "x": 7080,
-      "y": 9480,
-      "w": 1080,
-      "h": 1350
     }
   ],
   "annotations": [
     {
-      "id": "row1",
+      "id": "row0",
       "x": 0,
       "y": -260,
       "w": 1100,
-      "text": "START HERE. left: the cover. then the seven slides of the new look, valley native: your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does."
+      "text": "START HERE: the presentation. seven boards, about ten minutes. why this, the flywheel, what your grid looks like in 90 days, your week, what we need from you, the first post. read left to right."
     },
     {
-      "id": "row2",
+      "id": "set1",
       "x": 0,
       "y": 1300,
       "w": 1100,
-      "text": "THE WORDS. how to read this \u00b7 in your words (from your voice memos) \u00b7 the four reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
+      "text": "THE FIRST POST. the condo carousel, seven slides in the valley native look. your colors, your line drawings, real valley places, you on the cover and the close. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does."
     },
     {
-      "id": "row3",
+      "id": "set2",
       "x": 0,
-      "y": 6100,
+      "y": 2860,
       "w": 1100,
-      "text": "THE THREE CAROUSELS in the current look, one per row. the words are final and every number is sourced on the last slide. once you pick the look, all three get rebuilt in it.\nrow a: the condo has to qualify too (post first). row b: van nuys is getting a train (the opinion is a draft of yours; change it to what you'd say). row c: the insurance quote comes before the offer."
+      "text": "NEXT: the light-rail carousel. same look, same stamp. the opinion inside it is a draft of yours; say it your way on a voice memo and it gets rebuilt around that."
+    },
+    {
+      "id": "set3",
+      "x": 0,
+      "y": 4420,
+      "w": 1100,
+      "text": "THEN: the insurance carousel. the stamp moves to sherman oaks 91403, because that's where the hillside story lives. every number sourced on the last slide."
+    },
+    {
+      "id": "row4",
+      "x": 0,
+      "y": 5980,
+      "w": 1100,
+      "text": "THE WORDS. in your words (from your voice memos) \u00b7 the saved DM reply \u00b7 the four reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
     }
   ],
   "launch": {

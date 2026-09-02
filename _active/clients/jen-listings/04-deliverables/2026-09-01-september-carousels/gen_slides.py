@@ -315,19 +315,33 @@ ROW = 1560  # pitch between rows of 1350-tall slides
 def note(nid, y, text, x=0, w=1100):
     notes.append({"id": nid, "x": x, "y": y, "w": w, "text": text})
 
-# ---- row 1: cover + the look (valley native), the hero row ----
+# ---- row 0: the presentation (seven boards) ----
 y = 0
-note("row1", y - 260, "START HERE. left: the cover. then the seven slides of the new look, valley native: your colors, your line drawings, real valley places, you in the frame. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does.")
-artboards.append({"file": "P0.dc.html", "title": "start here", "x": 0, "y": y, "w": 1080, "h": 1350})
-for col, name in enumerate(["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]):
-    artboards.append({"file": f"{name}.dc.html", "title": f"valley native · slide {col + 1}", "x": (col + 1) * X, "y": y, "w": 1080, "h": 1350})
+note("row0", y - 260, "START HERE: the presentation. seven boards, about ten minutes. why this, the flywheel, what your grid looks like in 90 days, your week, what we need from you, the first post. read left to right.")
+for col, name in enumerate(["S1", "S2", "S3", "S4", "S5", "S6", "S7"]):
+    artboards.append({"file": f"{name}.dc.html", "title": f"presentation · {col + 1}", "x": col * X, "y": y, "w": 1080, "h": 1350})
 
-# ---- row 2: the reading row (tall cards) ----
-y = ROW
-note("row2", y - 260, "THE WORDS. how to read this · in your words (from your voice memos) · the four reel scripts, word for word (hook, script, on-screen text, caption) · filming notes and the don't-say list · the rulebook for the look · the photo bank. click any card to read it big; they scroll.")
+# ---- rows 1-3: the three carousels in the valley native look ----
+sets = [
+    ("the condo has to qualify too · van nuys 91401", ["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"],
+     "THE FIRST POST. the condo carousel, seven slides in the valley native look. your colors, your line drawings, real valley places, you on the cover and the close. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does."),
+    ("the train down van nuys blvd · van nuys 91401", ["DR1", "DR2", "DR3", "DR4", "DR5", "DR6", "DR7"],
+     "NEXT: the light-rail carousel. same look, same stamp. the opinion inside it is a draft of yours; say it your way on a voice memo and it gets rebuilt around that."),
+    ("the insurance quote · sherman oaks 91403", ["DI1", "DI2", "DI3", "DI4", "DI5", "DI6", "DI7"],
+     "THEN: the insurance carousel. the stamp moves to sherman oaks 91403, because that's where the hillside story lives. every number sourced on the last slide."),
+]
+for row, (title, names, txt) in enumerate(sets):
+    y = ROW * (row + 1)
+    note(f"set{row + 1}", y - 260, txt)
+    for col, name in enumerate(names):
+        artboards.append({"file": f"{name}.dc.html", "title": f"{title} · {col + 1}", "x": col * X, "y": y, "w": 1080, "h": 1350})
+
+# ---- row 4: the reading row (tall cards) ----
+y = ROW * 4
+note("row4", y - 260, "THE WORDS. in your words (from your voice memos) · the saved DM reply · the four reel scripts, word for word (hook, script, on-screen text, caption) · filming notes and the don't-say list · the rulebook for the look · the photo bank. click any card to read it big; they scroll.")
 tall = [
-    ("P1", "how to read this", 2200),
     ("P5", "in your words", 3400),
+    ("DM", "the saved DM reply", 1350),
     ("R1", "reel 1 · the condo has to qualify too", 3200),
     ("R2", "reel 2 · van nuys is getting a train", 3200),
     ("R3", "reel 3 · the insurance quote", 3200),
@@ -337,14 +351,10 @@ tall = [
     ("P4", "the photo bank", 2600),
 ]
 for col, (name, title, h) in enumerate(tall):
-    artboards.append({"file": f"{name}.dc.html", "title": title, "x": col * X, "y": y, "w": 1080, "h": h, "print": "flow"})
-
-# ---- rows 3-5: the three carousels in the current look ----
-y = ROW + 4400 + 400
-note("row3", y - 260, "THE THREE CAROUSELS in the current look, one per row. the words are final and every number is sourced on the last slide. once you pick the look, all three get rebuilt in it.\nrow a: the condo has to qualify too (post first). row b: van nuys is getting a train (the opinion is a draft of yours; change it to what you'd say). row c: the insurance quote comes before the offer.")
-for row, (title, names) in enumerate(order):
-    for col, name in enumerate(names):
-        artboards.append({"file": f"{name}.dc.html", "title": f"{['a', 'b', 'c'][row]}.{col + 1} {title}", "x": col * X, "y": y + row * ROW, "w": 1080, "h": 1350})
+    entry = {"file": f"{name}.dc.html", "title": title, "x": col * X, "y": y, "w": 1080, "h": h}
+    if h != 1350:
+        entry["print"] = "flow"
+    artboards.append(entry)
 
 canvas = {
     "artboards": artboards,
