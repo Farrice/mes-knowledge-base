@@ -3,6 +3,7 @@
 One line per card: date · name · problem_signature.
 
 - 2026-09-02 · five-reference-jen-design-systems · turn five visually distinct social reference packs into repeatable Jen design systems without flattening them into one brand template
+- 2026-09-02 · social-content-studio-source-integration · Turn a full social-media course into one source-grounded reusable conductor without duplicating existing content owners or crossing publication boundaries.
 - 2026-09-01 · connected-mood-board-front-door-orchestrator · A mood-board front door exists, but generic brief routes outrank it and its text-only output never composes the reference, taste, visual-production, proving-surface, and downstream capabilities already built.
 - 2026-09-01 · story-engine-personal-proof · A source-forged story engine passed structural checks but its true personal range was obscured by constructed fixtures, one fragment-only commercial proof, and a failed post-extraction style experiment.
 - 2026-08-31 · health-performance-paid-pilot-readiness · A current paid health-marketing offer was package-ready but not client-delivery-ready because no named brand had supplied account evidence, approved claims, or human owners

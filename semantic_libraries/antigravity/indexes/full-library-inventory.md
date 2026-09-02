@@ -1,24 +1,24 @@
 # Codex Full Library Sweep Inventory
 
-Generated: 2026-08-05T00:24:11.591524+00:00
+Generated: 2026-09-02T19:45:51.981167+00:00
 
 ## Counts
 
 | Surface | Count |
 |---|---:|
-| workflows | 2647 |
-| legacy source commands | 3255 |
-| hot source command wrappers | 1042 |
+| workflows | 2844 |
+| legacy source commands | 3484 |
+| hot source command wrappers | 2638 |
 | cold source command wrappers | 0 |
-| agent profiles | 231 |
+| agent profiles | 241 |
 | claude subagent specs | 0 |
 
 ## Bridge Status
 
 | Status | Count |
 |---|---:|
-| hot bridge | 774 |
-| source-command only | 1872 |
+| hot bridge | 1990 |
+| source-command only | 853 |
 | workflow-only | 1 |
 
 ## Workflow-Only Classification
@@ -36,6 +36,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `ai-carousel` -> archive (.claude/commands/ai-carousel.md)
 - `ai-chris` -> archive (.claude/commands/ai-chris.md)
 - `ai-chris-lee` -> archive (.claude/commands/ai-chris-lee.md)
+- `ai-creative` -> archive (.claude/commands/ai-creative.md)
 - `alan-aragon` -> archive (.claude/commands/alan-aragon.md)
 - `alan-aragon-nutrition` -> archive (.claude/commands/alan-aragon-nutrition.md)
 - `alen-sultanic` -> archive (.claude/commands/alen-sultanic.md)
@@ -57,11 +58,14 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `ali-abdaal` -> archive (.claude/commands/ali-abdaal.md)
 - `ali-abdaal-action-bias` -> archive (.claude/commands/ali-abdaal-action-bias.md)
 - `align` -> archive (.agents/skills/source-command-align/SKILL.md)
+- `alyssa-stalker` -> archive (.claude/commands/alyssa-stalker.md)
+- `alyssa-stalker-agent-content-playbook` -> archive (.claude/commands/alyssa-stalker-agent-content-playbook.md)
 - `andreessen-horowitz` -> archive (.claude/commands/andreessen-horowitz.md)
 - `andrew-dun` -> archive (.claude/commands/andrew-dun.md)
 - `andrew-dun-vibe-consulting` -> archive (.claude/commands/andrew-dun-vibe-consulting.md)
 - `andrew-lane` -> archive (.claude/commands/andrew-lane.md)
-- `andrew-lane-design-systems` -> archive (.claude/commands/andrew-lane-design-systems.md)
+- `andrew-sean` -> archive (.claude/commands/andrew-sean.md)
+- `andrew-sean-greer` -> archive (.claude/commands/andrew-sean-greer.md)
 - `andrew-stanton` -> archive (.claude/commands/andrew-stanton.md)
 - `andrew-stanton-audience-engineering` -> archive (.claude/commands/andrew-stanton-audience-engineering.md)
 - `andrew-wilkinson` -> archive (.claude/commands/andrew-wilkinson.md)
@@ -87,6 +91,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `ben-watkins-storytelling` -> archive (.claude/commands/ben-watkins-storytelling.md)
 - `benjamin-hardy` -> archive (.claude/commands/benjamin-hardy.md)
 - `benjamin-hardy-identity` -> archive (.claude/commands/benjamin-hardy-identity.md)
+- `benoit-vatere` -> archive (.claude/commands/benoit-vatere.md)
 - `bilawal-sidhu` -> archive (.claude/commands/bilawal-sidhu.md)
 - `bill-browder` -> archive (.claude/commands/bill-browder.md)
 - `bill-browder-high-stakes-narrative` -> archive (.claude/commands/bill-browder-high-stakes-narrative.md)
@@ -128,6 +133,8 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `claim-safe` -> archive (.claude/commands/claim-safe.md)
 - `coaching-business` -> archive (.claude/commands/coaching-business.md)
 - `coaching-business-os` -> archive (.claude/commands/coaching-business-os.md)
+- `cody-schneider` -> archive (.claude/commands/cody-schneider.md)
+- `cody-schneider-signal-outbound` -> archive (.claude/commands/cody-schneider-signal-outbound.md)
 - `cognitive-engagement` -> archive (.claude/commands/cognitive-engagement.md)
 - `cognitive-engagement-optimizer` -> archive (.claude/commands/cognitive-engagement-optimizer.md)
 - `consumer-posture` -> archive (.claude/commands/consumer-posture.md)
@@ -167,7 +174,6 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `daniel-thrasher` -> archive (.claude/commands/daniel-thrasher.md)
 - `daniel-thrasher-affiliate` -> archive (.claude/commands/daniel-thrasher-affiliate.md)
 - `danny-yeung` -> archive (.claude/commands/danny-yeung.md)
-- `dara-denney` -> archive (.claude/commands/dara-denney.md)
 - `dara-denney-meta-ads` -> archive (.claude/commands/dara-denney-meta-ads.md)
 - `darrel-wilson` -> archive (.claude/commands/darrel-wilson.md)
 - `darrel-wilson-ai-affiliate` -> archive (.claude/commands/darrel-wilson-ai-affiliate.md)
@@ -190,6 +196,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `devil` -> archive (.agents/skills/source-command-devil/SKILL.md)
 - `deya` -> archive (.claude/commands/deya.md)
 - `deya-business` -> archive (.claude/commands/deya-business.md)
+- `dhar-mann-transformational-storytelling` -> archive (.claude/commands/dhar-mann-transformational-storytelling.md)
 - `diandra-escobar` -> archive (.claude/commands/diandra-escobar.md)
 - `diandra-escobar-linkedin-growth` -> archive (.claude/commands/diandra-escobar-linkedin-growth.md)
 - `diandra-escobar-linkedin-mastery` -> archive (.claude/commands/diandra-escobar-linkedin-mastery.md)
@@ -219,6 +226,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `evan-spiegel` -> archive (.claude/commands/evan-spiegel.md)
 - `evan-spiegel-distribution-architecture` -> archive (.claude/commands/evan-spiegel-distribution-architecture.md)
 - `expert-assembly` -> archive (.claude/commands/expert-assembly.md)
+- `expert-practice` -> archive (.claude/commands/expert-practice.md)
 - `extract-mastery` -> archive (.claude/commands/extract-mastery.md)
 - `fantastic-posters` -> archive (.claude/commands/fantastic-posters.md)
 - `fareed-zakaria` -> archive (.claude/commands/fareed-zakaria.md)
@@ -243,11 +251,13 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `gpt-image` -> archive (.claude/commands/gpt-image.md)
 - `grace-andrews` -> archive (.claude/commands/grace-andrews.md)
 - `grace-andrews-media-company` -> archive (.claude/commands/grace-andrews-media-company.md)
+- `grace-leung` -> archive (.claude/commands/grace-leung.md)
 - `grace-liu` -> archive (.claude/commands/grace-liu.md)
 - `greg-hickman` -> archive (.claude/commands/greg-hickman.md)
 - `greg-hickman-service-scaling` -> archive (.claude/commands/greg-hickman-service-scaling.md)
 - `greg-hoffman` -> archive (.claude/commands/greg-hoffman.md)
 - `greg-hoffman-brand-mastery` -> archive (.claude/commands/greg-hoffman-brand-mastery.md)
+- `growth-blueprint` -> archive (.claude/commands/growth-blueprint.md)
 - `growth-ecosystems` -> archive (.claude/commands/growth-ecosystems.md)
 - `harry-dry` -> archive (.claude/commands/harry-dry.md)
 - `harry-dry-copywriting` -> archive (.claude/commands/harry-dry-copywriting.md)
@@ -256,11 +266,13 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `henrik-werdelin-portfolio-entrepreneurship` -> archive (.claude/commands/henrik-werdelin-portfolio-entrepreneurship.md)
 - `henry-shukman` -> archive (.claude/commands/henry-shukman.md)
 - `henry-shukman-contemplative-writing` -> archive (.claude/commands/henry-shukman-contemplative-writing.md)
+- `higgsfield-content` -> archive (.claude/commands/higgsfield-content.md)
 - `higgsfield-creative` -> archive (.claude/commands/higgsfield-creative.md)
 - `hilary-gridley` -> archive (.claude/commands/hilary-gridley.md)
 - `how-i` -> archive (.claude/commands/how-i.md)
 - `internal-comms` -> archive (.claude/commands/internal-comms.md)
 - `jack-roberts` -> archive (.claude/commands/jack-roberts.md)
+- `jake-thornhill` -> archive (.claude/commands/jake-thornhill.md)
 - `james-i` -> archive (.claude/commands/james-i.md)
 - `jasmin-alic` -> archive (.claude/commands/jasmin-alic.md)
 - `jasmin-alic-linkedin-growth` -> archive (.claude/commands/jasmin-alic-linkedin-growth.md)
@@ -268,7 +280,10 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `jason-fladlien-marketing` -> archive (.claude/commands/jason-fladlien-marketing.md)
 - `jay-hiette` -> archive (.claude/commands/jay-hiette.md)
 - `jay-hiette-coaching-positioning` -> archive (.claude/commands/jay-hiette-coaching-positioning.md)
+- `jay-sun` -> archive (.claude/commands/jay-sun.md)
+- `jen-engine` -> archive (.claude/commands/jen-engine.md)
 - `jen-santulan` -> archive (.claude/commands/jen-santulan.md)
+- `jen-shortform` -> archive (.claude/commands/jen-shortform.md)
 - `jenny-hoyos` -> archive (.claude/commands/jenny-hoyos.md)
 - `jenny-hoyos-shorts` -> archive (.claude/commands/jenny-hoyos-shorts.md)
 - `jeremy-haynes` -> archive (.claude/commands/jeremy-haynes.md)
@@ -282,7 +297,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `jiang-xueqin-cognitive-autonomy` -> archive (.claude/commands/jiang-xueqin-cognitive-autonomy.md)
 - `jim-oshaughnessy` -> archive (.claude/commands/jim-oshaughnessy.md)
 - `jim-oshaughnessy-philosopher-financier` -> archive (.claude/commands/jim-oshaughnessy-philosopher-financier.md)
-- `joanna-wiebe` -> archive (.claude/commands/joanna-wiebe.md)
+- `jimmy-conover` -> archive (.claude/commands/jimmy-conover.md)
 - `joanna-wiebe-persuasion-mastery` -> archive (.claude/commands/joanna-wiebe-persuasion-mastery.md)
 - `joanna-wiebe-writing-careers` -> archive (.claude/commands/joanna-wiebe-writing-careers.md)
 - `joey-cinema` -> archive (.claude/commands/joey-cinema.md)
@@ -295,6 +310,8 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `jonathan-courtney-marketing` -> archive (.claude/commands/jonathan-courtney-marketing.md)
 - `jonathan-franzen` -> archive (.claude/commands/jonathan-franzen.md)
 - `jonathan-franzen-storytelling` -> archive (.claude/commands/jonathan-franzen-storytelling.md)
+- `jordan-crawford` -> archive (.claude/commands/jordan-crawford.md)
+- `jordan-crawford-gtm-intelligence` -> archive (.claude/commands/jordan-crawford-gtm-intelligence.md)
 - `joscha-bach` -> archive (.claude/commands/joscha-bach.md)
 - `joscha-bach-consciousness` -> archive (.claude/commands/joscha-bach-consciousness.md)
 - `josh-kaufman` -> archive (.claude/commands/josh-kaufman.md)
@@ -316,11 +333,16 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `kallaway-content-operating-system` -> archive (.claude/commands/kallaway-content-operating-system.md)
 - `kallaway-content-psychology` -> archive (.claude/commands/kallaway-content-psychology.md)
 - `kallaway-content-system` -> archive (.claude/commands/kallaway-content-system.md)
+- `kallaway-hook` -> archive (.claude/commands/kallaway-hook.md)
 - `kallaway-social` -> archive (.claude/commands/kallaway-social.md)
 - `kallaway-word` -> archive (.claude/commands/kallaway-word.md)
+- `kieran-content-domain-arsenal` -> archive (.claude/commands/kieran-content-domain-arsenal.md)
+- `kieran-content-intelligence-system` -> archive (.claude/commands/kieran-content-intelligence-system.md)
 - `kieran-flanagan` -> archive (.claude/commands/kieran-flanagan.md)
+- `kieran-flanagan-agentic-ops` -> archive (.claude/commands/kieran-flanagan-agentic-ops.md)
 - `kieran-flanagan-audience-intelligence` -> archive (.claude/commands/kieran-flanagan-audience-intelligence.md)
 - `kieran-flanagan-content-engine` -> archive (.claude/commands/kieran-flanagan-content-engine.md)
+- `kieran-flanagan-content-intelligence` -> archive (.claude/commands/kieran-flanagan-content-intelligence.md)
 - `kieran-flanagan-content-ops` -> archive (.claude/commands/kieran-flanagan-content-ops.md)
 - `kittl` -> archive (.claude/commands/kittl.md)
 - `kittl-graphic` -> archive (.claude/commands/kittl-graphic.md)
@@ -332,6 +354,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `kobi-brown-educational-virality` -> archive (.claude/commands/kobi-brown-educational-virality.md)
 - `kunal-shah` -> archive (.claude/commands/kunal-shah.md)
 - `kunal-shah-consumer-psychology` -> archive (.claude/commands/kunal-shah-consumer-psychology.md)
+- `kyle-milligan` -> archive (.claude/commands/kyle-milligan.md)
 - `lamott-allen` -> archive (.claude/commands/lamott-allen.md)
 - `lamott-allen-really-real-writing` -> archive (.claude/commands/lamott-allen-really-real-writing.md)
 - `lamott-craft` -> archive (.claude/commands/lamott-craft.md)
@@ -393,6 +416,8 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `mark-manson-values-psychology` -> archive (.claude/commands/mark-manson-values-psychology.md)
 - `market-intelligence` -> archive (.claude/commands/market-intelligence.md)
 - `market_intelligence` -> archive (.claude/commands/market_intelligence.md)
+- `matt-haig` -> archive (.claude/commands/matt-haig.md)
+- `matt-haig-reader-bridge` -> archive (.claude/commands/matt-haig-reader-bridge.md)
 - `matt-mcgarry` -> archive (.claude/commands/matt-mcgarry.md)
 - `matt-mcgarry-newsletters` -> archive (.claude/commands/matt-mcgarry-newsletters.md)
 - `matthew-lakajev` -> archive (.claude/commands/matthew-lakajev.md)
@@ -402,6 +427,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `mcp-builder` -> archive (.claude/commands/mcp-builder.md)
 - `meg-heckman` -> archive (.claude/commands/meg-heckman.md)
 - `meg-heckman-buyer-trigger-os` -> archive (.claude/commands/meg-heckman-buyer-trigger-os.md)
+- `mes-3` -> archive (.claude/commands/mes-3.md)
 - `michael-bernoff` -> archive (.claude/commands/michael-bernoff.md)
 - `michael-bernoff-identity-engineering` -> archive (.claude/commands/michael-bernoff-identity-engineering.md)
 - `michael-connelly` -> archive (.claude/commands/michael-connelly.md)
@@ -435,6 +461,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `nathan-gotch-ai-seo` -> archive (.claude/commands/nathan-gotch-ai-seo.md)
 - `nba-betting` -> archive (.claude/commands/nba-betting.md)
 - `new-media-kingmaker` -> archive (.claude/commands/new-media-kingmaker.md)
+- `nichebend-mastery` -> archive (.claude/commands/nichebend-mastery.md)
 - `nick-saraev` -> archive (.claude/commands/nick-saraev.md)
 - `nick-saraev-agentic-workflows` -> archive (.claude/commands/nick-saraev-agentic-workflows.md)
 - `nick-saraev-bottleneck-thinking` -> archive (.claude/commands/nick-saraev-bottleneck-thinking.md)
@@ -464,9 +491,12 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `oren-dara` -> archive (.claude/commands/oren-dara.md)
 - `oren-identity` -> archive (.claude/commands/oren-identity.md)
 - `oren-luxury` -> archive (.claude/commands/oren-luxury.md)
+- `oren-marketing` -> archive (.claude/commands/oren-marketing.md)
+- `oren-norton` -> archive (.claude/commands/oren-norton.md)
 - `oren-one` -> archive (.claude/commands/oren-one.md)
 - `oren-operational` -> archive (.claude/commands/oren-operational.md)
 - `oren-repositioning` -> archive (.claude/commands/oren-repositioning.md)
+- `oren-slop-era-creative-strategy` -> archive (.claude/commands/oren-slop-era-creative-strategy.md)
 - `oren-taste` -> archive (.claude/commands/oren-taste.md)
 - `oren-taste-development` -> archive (.claude/commands/oren-taste-development.md)
 - `oscar-hoglund` -> archive (.claude/commands/oscar-hoglund.md)
@@ -500,6 +530,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `project-coordinate` -> archive (.agents/skills/source-command-project-coordinate/SKILL.md)
 - `project-onboard` -> archive (.agents/skills/source-command-project-onboard/SKILL.md)
 - `prompt-library` -> archive (.claude/commands/prompt-library.md)
+- `prompt-system` -> archive (.claude/commands/prompt-system.md)
 - `prosperity-coach` -> archive (.claude/commands/prosperity-coach.md)
 - `prosperity-coach-system` -> archive (.claude/commands/prosperity-coach-system.md)
 - `rachel-woods` -> archive (.claude/commands/rachel-woods.md)
@@ -519,6 +550,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `riley-brown-marketing-automation` -> archive (.claude/commands/riley-brown-marketing-automation.md)
 - `robert-greene` -> archive (.claude/commands/robert-greene.md)
 - `robert-greene-power-mastery` -> archive (.claude/commands/robert-greene-power-mastery.md)
+- `robert-mac` -> archive (.claude/commands/robert-mac.md)
 - `robert-mack` -> archive (.claude/commands/robert-mack.md)
 - `robert-mack-comedy-writing` -> archive (.claude/commands/robert-mack-comedy-writing.md)
 - `ron-lynch` -> archive (.claude/commands/ron-lynch.md)
@@ -540,11 +572,14 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `sam-parr` -> archive (.claude/commands/sam-parr.md)
 - `sam-parr-copywriting` -> archive (.claude/commands/sam-parr-copywriting.md)
 - `sam-parr-taste-acquisition` -> archive (.claude/commands/sam-parr-taste-acquisition.md)
+- `sam-vander-wielen` -> archive (.claude/commands/sam-vander-wielen.md)
 - `samuel-thompson` -> archive (.claude/commands/samuel-thompson.md)
 - `samuel-thompson-product-launch` -> archive (.claude/commands/samuel-thompson-product-launch.md)
 - `sarah-levinger` -> archive (.claude/commands/sarah-levinger.md)
 - `sarah-levinger-ad-psychology` -> archive (.claude/commands/sarah-levinger-ad-psychology.md)
 - `satori-graphics` -> archive (.claude/commands/satori-graphics.md)
+- `scott-norton` -> archive (.claude/commands/scott-norton.md)
+- `screenplay-architect-baseline` -> archive (.agents/skills/source-command-screenplay-architect-baseline/SKILL.md)
 - `sean-dollwet` -> archive (.claude/commands/sean-dollwet.md)
 - `sean-dollwet-kdp-publishing` -> archive (.claude/commands/sean-dollwet-kdp-publishing.md)
 - `sean-kochel` -> archive (.claude/commands/sean-kochel.md)
@@ -563,8 +598,6 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `seth-godin-ideavirus` -> archive (.claude/commands/seth-godin-ideavirus.md)
 - `seth-godin-marketing-mind` -> archive (.claude/commands/seth-godin-marketing-mind.md)
 - `seth-godin-philosophy` -> archive (.claude/commands/seth-godin-philosophy.md)
-- `shaan-puri` -> archive (.claude/commands/shaan-puri.md)
-- `shaan-puri-storytelling` -> archive (.claude/commands/shaan-puri-storytelling.md)
 - `shan-hanif` -> archive (.claude/commands/shan-hanif.md)
 - `shan-hanif-audience-monetization` -> archive (.claude/commands/shan-hanif-audience-monetization.md)
 - `sharran-srivatsaa` -> archive (.claude/commands/sharran-srivatsaa.md)
@@ -629,6 +662,7 @@ Generated: 2026-08-05T00:24:11.591524+00:00
 - `tyler-denk` -> archive (.claude/commands/tyler-denk.md)
 - `tyler-denk-audience-monetization` -> archive (.claude/commands/tyler-denk-audience-monetization.md)
 - `velocity-scaling` -> archive (.claude/commands/velocity-scaling.md)
+- `video-studio` -> archive (.claude/commands/video-studio.md)
 - `vince-nijhof` -> archive (.claude/commands/vince-nijhof.md)
 - `vince-nijhof-dtc-operator-system` -> archive (.claude/commands/vince-nijhof-dtc-operator-system.md)
 - `vincent-hu` -> archive (.claude/commands/vincent-hu.md)
