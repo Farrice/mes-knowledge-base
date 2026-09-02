@@ -134,7 +134,7 @@ slides["P0"] = f'''<div style="width: 1080px; height: 1350px; background: {CREAM
   <div style="position: relative; display: flex; flex-direction: column; gap: 40px;">
 {stamp()}
     <div style="font-size: 104px; font-weight: 600; line-height: 1.06; color: {NAVY}; letter-spacing: -0.02em;">september,<br>for <span style="{SERIF} font-style: italic; font-weight: 400;">jen.</span></div>
-    <div style="display: flex; align-items: center; gap: 28px;"><div style="width: 60px; height: 1px; background: {NAVY};"></div><div style="font-size: 34px; line-height: 1.45; color: {GREY}; max-width: 700px;">three reels, three carousels, and a look for your grid that says you're from here.</div></div>
+    <div style="display: flex; align-items: center; gap: 28px;"><div style="width: 60px; height: 1px; background: {NAVY};"></div><div style="font-size: 34px; line-height: 1.45; color: {GREY}; max-width: 700px;">four reels, three carousels, your own words, and a look for your grid that says you're from here.</div></div>
   </div>
   <div style="position: relative; display: flex; justify-content: space-between; align-items: baseline;">
     <span style="font-size: 24px; letter-spacing: 0.22em; color: {DIM};">A WALKTHROUGH · ABOUT 15 MINUTES</span>
@@ -166,15 +166,17 @@ slides["P1"] = flow(agenda)
 slate = SLATE.read_text()
 concepts = re.split(r"\n## (?=\d\. )", slate)[1:]
 titles = []
-for n, block in enumerate(concepts[:3], 1):
+for n, block in enumerate(concepts[:4], 1):
     title_line, _, rest = block.partition("\n")
     title = re.sub(r"^\d\. ", "", title_line).replace("(my top pick)", "").strip()
     titles.append(title)
     subject = re.search(r"\*the subject:\*(.+?)\n", rest)
     reel = rest.split("### reel")[1].split("### carousel")[0] if "### reel" in rest else rest
+    reel = reel.split("\n---")[0]
     reel_head, _, reel_body = reel.partition("\n")
+    tag = "  ·  MY TOP PICK" if n == 1 else ("  ·  BUILT FROM YOUR VOICE MEMO" if n == 4 else "")
     body = f'''
-<div style="{SIGN} font-size: 22px; color: {STEEL};">REEL {n} OF 3{"  ·  MY TOP PICK" if n == 1 else ""}</div>
+<div style="{SIGN} font-size: 22px; color: {STEEL};">REEL {n} OF 4{tag}</div>
 <h1 style="margin: 0; font-size: 72px; font-weight: 600; line-height: 1.08; color: {NAVY}; letter-spacing: -0.015em;">{inline(title)}</h1>
 <div style="display: flex; gap: 26px;"><div style="width: 2px; background: {STEEL}; flex: none;"></div><div style="font-size: 30px; line-height: 1.6; color: {NAVY};">{inline((subject.group(1) if subject else "").strip())}</div></div>
 <div style="{SIGN} font-size: 20px; color: {DIM};">{html.escape(reel_head.strip(" ·").upper())}</div>
@@ -187,6 +189,29 @@ notes = slate.split("## filming notes")[1] if "## filming notes" in slate else "
 slides["P2"] = flow(f'''
 <h1 style="margin: 0; font-size: 66px; font-weight: 600; line-height: 1.1; color: {NAVY}; letter-spacing: -0.015em;">filming notes</h1>
 {md_to_html(notes.replace("## don't say", "## don't say").replace("## ", "## ", 1), base=29)}
+''')
+
+# ---------- P5 in your words ----------
+quotes = [
+    ("your close", "i'm here for you. that's my job. i do this to protect you and your best interest.", "this is the ending of every reel and caption from now on. you already say it. it reads experienced and kind, and it asks for the relationship without asking for the sale."),
+    ("your line", "everything works out exactly the way it's supposed to.", "caption closer. never a headline."),
+    ("your calm", "just breathe. take a step back. let's sleep on it and talk in the morning.", "the opening of any panic topic: rates, buydowns, \"did we overpay.\" reel 4 is built on it."),
+    ("your recap", "we're gonna do this, this, and this, and we'll go from there.", "the shape of the last slide and the last line of every caption."),
+    ("your word", "lipstick remodel.", "your name for a cosmetic flip. it goes in the luxury captions and the first-time buyer ones. nobody else says it."),
+    ("your taste", "i am a sucker for a view of skylines. warm, soft, modern.", "how we choose photos for the look: warm-lit rooms, valley and skyline views, over beach or glass."),
+    ("never, in your words", "\"top producer.\" \"in business for 30 years.\"", "no credentials on camera, ever. the work is the credential."),
+]
+qhtml = "".join(f'''
+  <div style="display: flex; flex-direction: column; gap: 14px; padding: 30px 0; border-top: 1px solid {HAIR};">
+    <div style="{SIGN} font-size: 18px; color: {STEEL};">{html.escape(label.upper())}</div>
+    <div style="{SERIF} font-style: italic; font-size: 40px; line-height: 1.25; color: {NAVY};">{html.escape(q)}</div>
+    <div style="font-size: 26px; line-height: 1.5; color: {GREY};">{html.escape(note)}</div>
+  </div>''' for label, q, note in quotes)
+slides["P5"] = flow(f'''
+<h1 style="margin: 0; font-size: 66px; font-weight: 600; line-height: 1.1; color: {NAVY}; letter-spacing: -0.015em;">in your words</h1>
+<p style="margin: 0; font-size: 30px; line-height: 1.55; color: {GREY};">from the five voice memos you sent. these lines now sit above anything we draft. if one isn't you, say so and it's gone.</p>
+<div style="display: flex; flex-direction: column;">{qhtml}</div>
+<div style="display: flex; gap: 26px;"><div style="width: 2px; background: {STEEL}; flex: none;"></div><div style="font-size: 28px; line-height: 1.6; color: {NAVY};">two things still only you can answer: what you actually think about the van nuys light rail (reel 2), and how many you can film in one sitting.</div></div>
 ''')
 
 # ---------- P3 rulebook ----------

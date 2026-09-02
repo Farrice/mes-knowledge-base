@@ -74,9 +74,18 @@
       "print": "flow"
     },
     {
+      "file": "P5.dc.html",
+      "title": "in your words",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 3400,
+      "print": "flow"
+    },
+    {
       "file": "R1.dc.html",
       "title": "reel 1 \u00b7 the condo has to qualify too",
-      "x": 1180,
+      "x": 2360,
       "y": 1560,
       "w": 1080,
       "h": 3200,
@@ -85,7 +94,7 @@
     {
       "file": "R2.dc.html",
       "title": "reel 2 \u00b7 van nuys is getting a train",
-      "x": 2360,
+      "x": 3540,
       "y": 1560,
       "w": 1080,
       "h": 3200,
@@ -94,7 +103,16 @@
     {
       "file": "R3.dc.html",
       "title": "reel 3 \u00b7 the insurance quote",
-      "x": 3540,
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R4.dc.html",
+      "title": "reel 4 \u00b7 just breathe (from your voice memo)",
+      "x": 5900,
       "y": 1560,
       "w": 1080,
       "h": 3200,
@@ -103,7 +121,7 @@
     {
       "file": "P2.dc.html",
       "title": "filming notes + don't say",
-      "x": 4720,
+      "x": 7080,
       "y": 1560,
       "w": 1080,
       "h": 2200,
@@ -112,7 +130,7 @@
     {
       "file": "P3.dc.html",
       "title": "the rulebook",
-      "x": 5900,
+      "x": 8260,
       "y": 1560,
       "w": 1080,
       "h": 4400,
@@ -121,7 +139,7 @@
     {
       "file": "P4.dc.html",
       "title": "the photo bank",
-      "x": 7080,
+      "x": 9440,
       "y": 1560,
       "w": 1080,
       "h": 2600,
@@ -309,7 +327,7 @@
       "x": 0,
       "y": 1300,
       "w": 1100,
-      "text": "THE WORDS. how to read this \u00b7 the three reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
+      "text": "THE WORDS. how to read this \u00b7 in your words (from your voice memos) \u00b7 the four reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
     },
     {
       "id": "row3",

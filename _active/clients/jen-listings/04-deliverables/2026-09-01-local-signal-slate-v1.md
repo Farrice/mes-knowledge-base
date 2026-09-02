@@ -26,7 +26,7 @@ other hooks if that one isn't you:
 > one of those fails and the deal dies. not because of you.
 > so now i do this part first, before you get attached. i pull the HOA package and the last twelve months of board minutes, and i ask one question... is anything being discussed that hasn't been billed yet.
 > because the unit can be a great price and the building can still be broke. and then the bill is yours.
-> if you're touring condos this fall, send me the address first. i'll read it with you 🏡"
+> if you're touring condos this fall, send me the address first. i'll read it with you. i'm here for you... that's my job 🏡"
 
 **on screen** (in order): the building has to qualify too · aug 3: full review on every condo loan · reserves · insurance · dues · read it before you fall in love
 
@@ -116,7 +116,7 @@ other hooks:
 > on october 15th the california FAIR plan, the insurer of last resort, goes up an average of 29 percent. and it's weighted to wildfire risk... so canyons, hillsides and the foothills can move a lot more than that.
 > if you're shopping a hillside home in sherman oaks or woodland hills and closing anywhere near mid-october, the policy's start date decides which rate you get.
 > and if you're on the valley floor... breathe. most of those homes still get a regular carrier. the quote's a formality, but i still want it in hand on tuesday, not in escrow.
-> the number can move your whole payment. i'd rather you know before you fall in love ✨"
+> the number can move your whole payment. i'd rather you know before you fall in love. i do this to protect you ✨"
 
 **on screen:** insurance quote → before the offer · oct 15: FAIR plan +29% avg · hillside ≠ valley floor · know it tuesday, not in escrow
 
@@ -137,6 +137,30 @@ other hooks:
 5. **03 the date detail.** · a policy effective before oct 15 is generally written at today's rate for its term. on or after: new rate from day one. · two-panel: before / after
 6. **04 what a FAIR policy actually is.** · fire only. you add a wrap (called DIC) for liability, theft and water. together it usually costs well above a standard policy.
 7. writing this fall? send me the address... i'll get the quote in hand before we write. · @_jiing
+
+---
+
+## 4. bonus, in your own words: "just breathe."
+
+*the subject:* you already said this one on a voice memo. a buyer texts you at 11pm panicking about their rate. your first move is "just breathe, let's sleep on it," and your second is the lender questions: the rate, whether they've looked at a buydown, permanent or 3-2-1 temporary, how to structure the loan so it works. that's a reel. the only work is translating "buydown" so a first-timer doesn't feel dumb.
+
+### reel · 40 seconds · talking head, evening, phone in hand
+
+**hook:**
+> "if you're reading about rates at 11pm... just breathe."
+
+**script:**
+> "if you're lying there at 11pm refreshing rates, here's what i tell my clients. just breathe. take a step back. let's sleep on it and talk in the morning... nothing good gets decided right before bed.
+> in the morning, i'm going to ask you three things. what rate did your lender actually quote you. have you looked at a buydown... that's when someone pays a little upfront so your rate is lower, either forever, or just for the first few years while you settle in. and how we structure the loan so it works for you now, not for a version of you that makes more money later.
+> that's a conversation. it's not a 3am spiral. i'm here for you... that's my job. i do this to protect you and your best interest 🤝"
+
+**on screen:** just breathe. · rate? · buydown = pay a little now, lower rate · we structure it for you now · i'm here for you. that's my job.
+
+**caption:**
+> if you're reading about rates at 11pm, please put the phone down. that's not when we decide anything.
+> in the morning, three questions: what rate did your lender actually quote, have you looked at a buydown (someone pays a little upfront so your rate is lower, either permanently or just for the first couple of years), and how we structure the loan so it works for you now.
+> everything works out exactly the way it's supposed to. my DMs are open.
+> #firsttimehomebuyer #SFV #sanfernandovalleyrealtor #losangelesrealestate #mortgagerates
 
 ---
 

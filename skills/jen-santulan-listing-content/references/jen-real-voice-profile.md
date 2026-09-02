@@ -62,3 +62,16 @@ Watched: DYkn2gBPWJq (buyer-misconceptions talking-head), DbEo59HMjuH (POV meme 
 The 6853-Willis STRUCTURE rules still apply (objection named in ≤8 words, physical pattern-interrupt as the spine, qualitative value-stack, marquee feature as bonus) — they are staging mechanics, not voice. What changes is the DELIVERY: her energy is a warm reveal, not a hype reveal. Think "wait till you see this" said quietly to a friend, not shouted to a feed.
 
 **Emoji:** 1 per script max, at the emotional landing (🏡 🤝 ✨ are her three). **Punctuation:** periods and ellipses over exclamation points; one earned "!" per script at most. **Hashtags (hers, observed):** #firsttimehomebuyer #SFV #sanfernandovalleyrealtor #realtorhumor #losangelesrealestate #SimiValleyRealEstate #JustListed #OpenHouse — never #realestatewithjing.
+
+## Her verbatim lines (voice memos, 2026-09-01; outrank drafted voice)
+
+Source: five voice-memo answers to the intake, transcribed locally. Full text: `_active/clients/jen-listings/06-system/jen-voice-answers/transcripts.md`.
+
+- **Her close, in her words:** "i'm here for you. that's my job. i do this to protect you and your best interest." Use this as the CTA register everywhere. It is authoritative, trustworthy, and she already says it.
+- **Her signature line:** "everything works out exactly the way it's supposed to." Caption closer.
+- **Her calm opener for panic topics:** "just breathe. take a step back. let's sleep on it and talk in the morning."
+- **Her recap habit:** "we're gonna do this, this, and this, and we'll go from there." Shape of every slide 7 and caption ending.
+- **Her word for a cosmetic flip:** "lipstick remodel." Use it; never "basic flip."
+- **Her taste:** warm, soft, modern; "i am a sucker for a view of skylines"; the valley or downtown skyline over beach or glass.
+- **OUT, from her mouth:** "top producer"; "in business for 30 years"; any credential on camera.
+- **She speaks lender fluently** (buydowns, permanent vs 3-2-1 temporary, "how we structure the loan"). The copy must translate what she says naturally; she will not self-censor jargon.

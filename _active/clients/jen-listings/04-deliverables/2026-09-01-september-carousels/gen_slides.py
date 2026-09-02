@@ -324,12 +324,14 @@ for col, name in enumerate(["DD1", "DD2", "DD3", "DD4", "DD5", "DD6", "DD7"]):
 
 # ---- row 2: the reading row (tall cards) ----
 y = ROW
-note("row2", y - 260, "THE WORDS. how to read this · the three reel scripts, word for word (hook, script, on-screen text, caption) · filming notes and the don't-say list · the rulebook for the look · the photo bank. click any card to read it big; they scroll.")
+note("row2", y - 260, "THE WORDS. how to read this · in your words (from your voice memos) · the four reel scripts, word for word (hook, script, on-screen text, caption) · filming notes and the don't-say list · the rulebook for the look · the photo bank. click any card to read it big; they scroll.")
 tall = [
     ("P1", "how to read this", 2200),
+    ("P5", "in your words", 3400),
     ("R1", "reel 1 · the condo has to qualify too", 3200),
     ("R2", "reel 2 · van nuys is getting a train", 3200),
     ("R3", "reel 3 · the insurance quote", 3200),
+    ("R4", "reel 4 · just breathe (from your voice memo)", 3200),
     ("P2", "filming notes + don't say", 2200),
     ("P3", "the rulebook", 4400),
     ("P4", "the photo bank", 2600),
