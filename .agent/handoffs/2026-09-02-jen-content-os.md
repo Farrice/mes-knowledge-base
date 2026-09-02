@@ -1,22 +1,23 @@
 ---
 thread: jen-content-os
 status: active
-resume_hint: Both lanes merged; ENGINE-V2 folded (Connect district, rhythm, vault); week 3 built through the full OS run; finish: rebuild --no-video after video render, send week 3 to Farrice, commit, merge --push
+resume_hint: Fresh session: Reference→Replica workflow from Farrice's Canva reference images, archive the line-drawing carousels he names, hook rewrite on all nine posts to 8+/10 via six-seat critique + one pen, regenerate the Valley OS page (execution/jen_os_page.py) to show results as posts
 branch: worktree-broke-agent-2026-playbook-forge
 pin: false
 ---
 
 ## Purpose
-Jen's content operating system (her own Coffee & Contracts): both lanes merged into main tonight; the amendments were folded into ENGINE-V2; VAULT.md created; then a full end-to-end run of the OS produced week 3 (Sept 21) through the real pipeline: research pull → facts ledger → copy → lint → build → files.
+Jen's content OS. This session merged both lanes, folded ENGINE-V2, ran week 3 end to end, and built the one-page readout Farrice rated as the thing that finally let him see the system: https://claude.ai/code/artifact/09e562ac-1bff-4ffe-9e89-a608217c61e3 (regenerate: `python3 execution/jen_os_page_thumbs.py .tmp/valley-os/thumbs && python3 execution/jen_os_page.py .tmp/valley-os/thumbs .tmp/valley-os/the-valley-os.html`, then Artifact publish with that url).
 
 ## Current State
-- Main holds ENGINE-V2 (now four districts incl. Connect; monthly rhythm; operator scoreboard; §14 vault; §15 surface), VAULT.md, FUNNEL-MATH.md, the Alyssa skill + `/alyssa-stalker-*` commands, `execution/jen_pulse.py` + first pulse, the outlier audit, connect-posts-01.
-- Week 3 built in `04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/`: 07 attract reel ($900K Woodland Hills vs Reseda, comps VERIFIED from Redfin 91367/91335 on 2026-09-02), 08 position card (two markets on one Tarzana street: ~2% under in ~55 days vs hot homes ~2% over in ~25; 88 sold Jul vs 77), 09 connect card ("just breathe", her memo-2 words). FACTS.md has the week-3 rows. Fair-housing lint PASS on COPY; classifier CLEAN/WARNING only on the mandated "buying or selling" tails.
-- Uncertain: 08-3 frame was re-pointed to the porch photo (type had landed on her face on the 360px placeholder); needs a re-render after the video build; all photos are placeholders until her shoots land in Drive 01; Jen thumbs-up on the 11pm scene line; Farrice's verdict on Edition 01 (10 PNGs sent) still open.
-- Video build (`python3 build_weeks.py`, all three weeks) was running in the background at handoff time; log at scratchpad `build_weeks_video.log`.
+- Farrice's verdict on the honest read: correct. His diagnosis in his words: the workflow should have been reference images from Canva → replicate the exact setup → replace the text with our copy → Jen adds real photos under the full-bleed overlay. We designed before he chose, twice.
+- Hooks are flat, "4 out of 5," not scroll-stopping. All nine posts need a hook pass at 8+/10.
+- He wants the carousels he keeps seeing referenced scrapped (the Valley Native line-drawing system in `04-deliverables/2026-09-01-september-carousels/` and its slides). Archive, do not delete, until he names the exact folders.
+- Two generator families still exist (build_weeks/gen_photo vs valley-editions/editions.py). He is choosing designs in another session; that choice decides which survives.
+- Open: Drive folder 01 has none of her listing photography; Chrome extension never connected; no thumbs-up from Jen since Sept 2; Edition 01 verdict pending.
 
 ## Remaining Priority
-When the video build finishes: `python3 build_weeks.py --no-video` once more (applies the 08-3 photo swap and two caption edits), view the five week-3 PNGs, send Farrice week 3 (frames + reel + captions), commit in lane `worktree-broke-agent-2026-playbook-forge`, `worktree_lane.py merge --lane worktree-broke-agent-2026-playbook-forge --no-teardown --push`.
+Fresh session, in this order: (1) he drops the Canva reference images and names the folders to archive; (2) Reference → Replica workflow: exact geometry from the reference (Canva design JSON when he has the design id, image measurement otherwise), our copy in the slots, photo slots marked for Jen's real photos with the wash; one frame for his verdict before any batch; (3) hook rewrite on all nine posts: six-seat critique (Kallaway, Harry Dry, Sherrard, Alyssa Stalker hook-reframe, Enrico, Jenny Hoyos) on Sonnet, one pen integrates, hooks name a fear or contradiction in ≤8 words, her close capped at one caption in three; (4) regenerate the OS page so he sees the result as posts, not files.
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
