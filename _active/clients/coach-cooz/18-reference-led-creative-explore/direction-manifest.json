@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../../skills/reference-led-creative-system/references/direction-manifest.schema.json",
+  "run_id": "coach-cooz-website-explore-2026-09-01",
+  "title": "Coach Cooz Website — Refero Direction Choice Pack",
+  "choice_gate": "VISIBLE · UNCHOSEN",
+  "directions": [
+    {
+      "id": "A",
+      "name": "The Iron Practice",
+      "thesis": "Present one-to-one coaching as a precise, long-practiced craft, using metal culture as structural rhythm rather than costume.",
+      "primary_reference": {
+        "title": "Riptype Foundry",
+        "uuid": "86016c71-d8a8-4627-9bc9-ac6371106605",
+        "source_url": "https://www.riptype.xyz/",
+        "preview_url": "https://images.refero.design/styles/www.riptype.xyz/86016c71-d8a8-4627-9bc9-ac6371106605/preview_0.jpg"
+      },
+      "bounded_references": [
+        {
+          "title": "2020 / Album Colors",
+          "uuid": "99be9294-9ab4-4533-8e44-ccc274dc99ab",
+          "borrow": "zero-radius poster framing and oversized condensed display rhythm"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "The Long Set",
+      "thesis": "Make the durable coach-client relationship visible first: clear, human, local, and built for consistency rather than fitness theater.",
+      "primary_reference": {
+        "title": "Strava",
+        "uuid": "94a3b2a6-2f79-4721-a2f5-6c5baaff8db9",
+        "source_url": "https://www.strava.com/",
+        "preview_url": "https://images.refero.design/styles/strava.com/94a3b2a6-2f79-4721-a2f5-6c5baaff8db9/preview_0.jpg"
+      },
+      "bounded_references": [
+        {
+          "title": "amp",
+          "uuid": "d84ea8e8-1507-41fa-99f0-242c4f7e3042",
+          "borrow": "warm, naturally lit fitness photography and restrained neutral section bands"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "One Coach, In Frame",
+      "thesis": "Turn the premium black canvas into a quiet portrait of private coaching, with Acusio—not luxury signaling—as the source of authority.",
+      "primary_reference": {
+        "title": "Sequel",
+        "uuid": "50c47480-9451-420b-a372-eb42eda75e56",
+        "source_url": "https://sequel.co/",
+        "preview_url": "https://images.refero.design/styles/sequel.co/50c47480-9451-420b-a372-eb42eda75e56/preview_0.jpg"
+      },
+      "bounded_references": [
+        {
+          "title": "amp",
+          "uuid": "d84ea8e8-1507-41fa-99f0-242c4f7e3042",
+          "borrow": "warm, balanced light on real human subjects"
+        }
+      ]
+    }
+  ]
+}
