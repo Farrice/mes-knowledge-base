@@ -66,6 +66,8 @@ SERVICES = {
     # est-cost computed from the recipe pricing table. NOTE: fal-seedance-1080p
     # is deliberately ABSENT — unknown service → deny is its hard block.
     "fal-generic":          {"type": "delegate", "guard_mode": "generic"},
+    # ─── OpenAI GPT Image (Scrapes viz-image-gen) — $15/month hard cap, Farrice 2026-09-02 ───
+    "openai-image":         {"type": "delegate-openai", "desc": "OpenAI GPT Image via generate_image_gpt.py"},
 
     # ─── Higgsfield MCP (we track here) ───
     "higgsfield-soul":      {"type": "paid", "est_usd": 0.10, "ceiling_usd": 0.50,
@@ -239,6 +241,8 @@ def _cmd_check_inner(args) -> int:
     # Delegate Fal calls to the existing guard
     if spec["type"] == "delegate":
         return _delegate_to_fal_guard(spec["guard_mode"], args)
+    if spec["type"] == "delegate-openai":
+        return _delegate_to_openai_guard(args)
 
     state = load_state()
     reset_today_if_needed(state)
@@ -292,6 +296,17 @@ def _cmd_check_inner(args) -> int:
 
     print(f"❌ Service spec malformed for '{service}'", file=sys.stderr)
     return 1
+
+
+def _delegate_to_openai_guard(args) -> int:
+    """Pass through to openai_budget_guard.py ($15/month cap). Exit 0 allow, 1 deny."""
+    cmd = ["python3", str(ROOT / "execution" / "openai_budget_guard.py"), "check"]
+    if getattr(args, "quality", None):
+        cmd.append(f"--quality={args.quality}")
+    if getattr(args, "n", None):
+        cmd.append(f"--n={args.n}")
+    result = subprocess.run(cmd, capture_output=False)
+    return result.returncode
 
 
 def _delegate_to_fal_guard(guard_mode: str, args) -> int:

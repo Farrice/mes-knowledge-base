@@ -66,3 +66,9 @@ Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.age
 - **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
 - **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
 <!-- END:shared-agent-skills -->
+
+<!-- BEGIN:shared-scrapes-skill-systems -->
+## Scrapes Skill Systems (vendored 2026-09-02)
+
+Simon Scrapes' 36-skill **Skill Systems** live in `.claude/skills/<name>/` (Claude Code mounts each as `/<name>`; Codex sees them through `.agents/skills/<name>` symlinks). Pipelines: `/00-social-content` · `/00-longform-to-shortform` · `/00-slides` · `/00-youtube-to-ebook`. Foundation: `/mkt-brand-voice` reads `brand_context/` (populated from `FARRICE-MASTER-CONTEXT.md` + `VOICE-CARD.md`, never by interview); `/mkt-visual-identity` is Farrice's run (approval gates). Rules: **never edit inside a Scrapes skill folder** (`.installed.json` hashes gate updates; update with `npx @scrapes/installer`, npm token required) — extend through `brand_context/` and wrappers. `.claude/agents/ssc-*` + `l2s-*` are the product's own workers (standing exception to the no-subagents rule, Farrice 2026-09-02); in Codex, run them inline by reading the agent `.md` as the prompt. **Not wired on purpose:** `tool-publisher`, `tool-zernio-social`, `mkt-short-form-posting` auto-post (sends stay human); `tool-linkedin-scraper` needs Apify (retired). Precedence vs home-built skills: `_active/harness/scrapes-skill-systems/PRECEDENCE-MAP.md`.
+<!-- END:shared-scrapes-skill-systems -->
