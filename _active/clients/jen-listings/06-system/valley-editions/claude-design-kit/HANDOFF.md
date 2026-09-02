@@ -3,7 +3,7 @@
 Claude Design does the visual. This folder is everything it needs: the system (DESIGN.md), the geometry of the six Canva grammars (GRAMMAR.md), the final copy (COPY-DECK.md), her photos (photos/), and three reference sets. Read this page, then paste from PROMPTS.md in order.
 
 ## The references, and what each one is
-- `reference/template-local-gem/1–5.png` — **the target.** The Canva template as exported, page by page. Match its type confidence, wash, doodles and composition; swap its yellow for the pale-blue accent and its stock for her photos.
+- `reference/template-local-gem/1–5.jpg` — **the target.** The Canva template as exported, page by page. Match its type confidence, wash, doodles and composition; swap its yellow for the pale-blue accent and its stock for her photos.
 - `reference/canva-native-attempt/` — the same template filled inside Canva (right fonts, wrong composition, stock placeholders). Useful only to see the real typeface on her words.
 - `reference/our-take-2/` — the current code-rendered attempt (Instrument Serif). Not the target: it is the floor to beat. `01–05` are the edition; `S2–S6` are the five alternate grammars.
 

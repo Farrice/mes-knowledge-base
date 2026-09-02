@@ -92,7 +92,7 @@ components:
 # Valley Editions
 
 ## 1. What this is
-A numbered series Jen publishes about the Valley, one neighborhood per edition, five frames each: cover → a place → her listing → what $X buys → the close. Every frame teaches one thing and asks one thing, in her words. The look is the Canva "Yellow Vintage Cafe & Restaurant Local Gem Carousel" (reference/template-local-gem/1–5.png) with her palette and her photos in place of the template's yellow and stock. That template is the target. Match its confidence, then make it hers.
+A numbered series Jen publishes about the Valley, one neighborhood per edition, five frames each: cover → a place → her listing → what $X buys → the close. Every frame teaches one thing and asks one thing, in her words. The look is the Canva "Yellow Vintage Cafe & Restaurant Local Gem Carousel" (reference/template-local-gem/1–5.jpg) with her palette and her photos in place of the template's yellow and stock. That template is the target. Match its confidence, then make it hers.
 
 ## 2. Palette (hers; nothing warm)
 Navy and steel are her brand; on these frames they live only in the accent tints, never as color blocks. Cream and white carry the type. The one accent, #C9D4E2, does everything the template's yellow did: the headline gradient's dark end, the pill stroke, the doodles, the sparkle. **No yellow. No orange. No terracotta. No navy panels or bands.** Type and accent over photo, that is the whole system.
