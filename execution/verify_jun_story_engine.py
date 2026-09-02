@@ -7,6 +7,8 @@ import json
 import sys
 from pathlib import Path
 
+from workflow_router import search_workflows
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FIXTURES = ROOT / "extractions/video-context/XS-E6rnCr5U/fixtures/story-engine-cases.json"
@@ -49,6 +51,11 @@ REQUIRED_FILES = [
 
 DIRECT_WORK = {"status", "incident", "specification", "procedure", "calculation", "risk", "decision"}
 PROOF_LEVELS = ("EXPERIENCE", "METHOD", "DELIVERABLE", "MARKET")
+ROUTING_QUERIES = (
+    "turn my lived moments into truthful personal stories without inventing psychology",
+    "my life is boring and I do not know what personal story to tell",
+    "make a story material packet from this ordinary lived moment",
+)
 
 
 def decide(case: dict[str, object]) -> str:
@@ -241,6 +248,16 @@ def main() -> int:
     if method_state(absent_market) != "METHOD_CANDIDATE":
         failures.append("negative control failed: absent buyer evidence escaped METHOD_CANDIDATE")
 
+    # Cold-start discoverability: source-derived behavior is not useful if a
+    # natural lived-material request cannot surface the connected front door.
+    for query in ROUTING_QUERIES:
+        ranked = search_workflows(query, top_n=3)
+        top_name = ranked[0][1]["name"] if ranked else "NONE"
+        if top_name != "jun-story-engine":
+            failures.append(
+                f"routing control failed: {query!r} ranked {top_name!r} instead of 'jun-story-engine'"
+            )
+
     if failures:
         print("JUN STORY ENGINE VERIFY: FAIL")
         for failure in failures:
@@ -256,6 +273,7 @@ def main() -> int:
         print(f"- method {case_id}: {decision}")
     for case_id, count in angle_decisions.items():
         print(f"- angle {case_id}: {count}")
+    print("- routing controls: 3/3 natural lived-material queries -> jun-story-engine")
     print("- negative controls: missing Pursuit -> NEEDS_SOURCE; incident -> NO_STORY; no market event -> DELIVERABLE ceiling; missing decision rule -> NEEDS_SOURCE; duplicate angles collapse")
     return 0
 

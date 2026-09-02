@@ -1063,6 +1063,27 @@ BINDINGS = [
         ),
     },
     {
+        # Tight, unambiguous Jun lived-story signals. Keep generic "write a
+        # story" out so destination writers and literary-story routes still
+        # own already-formed material.
+        "id": "jun_lived_story_material",
+        "signal_phrases": [
+            "my life is boring", "story material packet", "safe real raw",
+            "lived-story material", "lived story material",
+            "truthful personal story", "truthful personal stories",
+            "ordinary lived moment", "ordinary lived moments",
+            "founder notes without making up", "without invented psychology",
+        ],
+        "mandatory_workflow": "jun-story-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit lived-material / Safe-Real-Raw / truthful-personal-story "
+            "requests route to the Jun Story Engine, which mines supplied life "
+            "material, lets NO STORY or NEEDS SOURCE win, and preserves Shaan as "
+            "the cross-domain narrative-dosage owner."
+        ),
+    },
+    {
         # Tight, unambiguous Susan Orlean curiosity-driven-literary-journalism
         # signals → telling-subject front door. Specific phrases only — generic
         # "write a story" / "essay" stays out so it defers to writers-room /

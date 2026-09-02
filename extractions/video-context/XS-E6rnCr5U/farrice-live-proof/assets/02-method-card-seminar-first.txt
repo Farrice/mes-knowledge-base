@@ -1,0 +1,22 @@
+Working name: Seminar-first client attraction
+State: METHOD_CANDIDATE
+
+Problem: Direct floor prospecting made strong expertise hard to see and easy to avoid sharing.
+
+Pursuit: Farrice repeatedly used seminars to teach what he knew; people listened and came to him.
+
+Mechanism: Teaching let prospective clients inspect his judgment before deciding whether to approach him.
+
+Repeatable actions:
+1. Choose one problem you can teach from direct experience.
+2. Put that teaching in a room or format people can opt into.
+3. Demonstrate how you think instead of leading with a self-description.
+4. Give interested people a clear way to continue the conversation.
+
+Decision rule: Use this when subject mastery is strong and interruption-based prospecting is the constraint. Do not use it as a reason to avoid direct follow-up or a clear offer.
+
+Observable output: A seminar or teaching artifact plus qualified follow-up conversations.
+
+Proof boundary: Farrice's source supports the seminar behavior and that people came to him. It does not supply attendance, conversion, revenue, repeatability across operators, or current-market demand.
+
+Commercial state: METHOD_CANDIDATE, not an offer and not market validation.

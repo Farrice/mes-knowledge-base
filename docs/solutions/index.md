@@ -3,6 +3,7 @@
 One line per card: date · name · problem_signature.
 
 - 2026-09-01 · connected-mood-board-front-door-orchestrator · A mood-board front door exists, but generic brief routes outrank it and its text-only output never composes the reference, taste, visual-production, proving-surface, and downstream capabilities already built.
+- 2026-09-01 · story-engine-personal-proof · A source-forged story engine passed structural checks but its true personal range was obscured by constructed fixtures, one fragment-only commercial proof, and a failed post-extraction style experiment.
 - 2026-08-31 · health-performance-paid-pilot-readiness · A current paid health-marketing offer was package-ready but not client-delivery-ready because no named brand had supplied account evidence, approved claims, or human owners
 - 2026-08-31 · youtube-personal-brand-creative-direction-existing-owner-expansion · A practitioner video described personal-brand creative direction across content, operations, aesthetics, collaboration, and distribution, but those mechanics needed to extend the existing Oren owner without becoming a duplicate mega-skill or a transcript-only summary.
 - 2026-08-30 · youtube-screen-share-to-existing-skill-expansion · A screen-share YouTube source needed to become a connected skill-system expansion without duplicating an existing expert, trusting transcript-only evidence, or crossing external-write boundaries.

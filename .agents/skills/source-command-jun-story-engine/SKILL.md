@@ -1,6 +1,6 @@
 ---
 name: "source-command-jun-story-engine"
-description: "Mine truthful lived-story material, recover sourced Pursuit into a method or offer hypothesis, expand distinct angles, and deploy through Jun or Shaan."
+description: "Turn personal stories, lived moments, ordinary life, founder notes, or 'my life is boring' material into truthful story options without invented psychology; recover sourced Pursuit into a method, expand distinct angles, and deploy through Jun or Shaan."
 ---
 
 # source-command-jun-story-engine
