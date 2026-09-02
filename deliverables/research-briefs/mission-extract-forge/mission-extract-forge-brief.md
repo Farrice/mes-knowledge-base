@@ -1,6 +1,6 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 30, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
 
 Done and clean. Do not reopen it.
 
@@ -10,7 +10,7 @@ This build is finished and verified across every check it set for itself, with n
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Handoff status is ready. Last activity 1d ago.
+Handoff status is ready. Last activity 3d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 28d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -99,7 +99,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **13 d**
 
 ## momentum
 
@@ -124,7 +124,7 @@ Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) a
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

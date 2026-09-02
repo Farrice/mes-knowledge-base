@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 4 files · 0 assets",
-  "compiled": "aug 30, 2026",
+  "compiled": "sep 1, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 files written, 1 deliverable finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Resume the `listing-content` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (listing-content)._"
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 files written, 1 deliverable finalized.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Resume the `listing-content` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (listing-content)._"
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Handoff written 1d ago — treat its plan as current.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-02-listing-content.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+      "body": "Handoff written 3d ago — mostly current; skim the latest sessions below for drift.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-02-listing-content.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "playbook",
@@ -87,7 +87,7 @@
           "label": "FILES WRITTEN"
         },
         {
-          "value": "1",
+          "value": "3",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -110,10 +110,10 @@
             0,
             0,
             0,
-            0,
-            0,
             3,
             1,
+            0,
+            0,
             0
           ],
           "value": "4",
@@ -216,7 +216,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

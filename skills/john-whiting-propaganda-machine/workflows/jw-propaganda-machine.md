@@ -9,7 +9,7 @@ stacks_with: [luke-iha, jeremy-miner, david-mcraney, lara-acosta, nicolas-cole]
 
 > "I'm basically creating a whole bunch of setters and closers and I'm deploying them as a fucking army, and I have full control over what they say all the time." — John Whiting
 
-The orchestrator. Builds the complete system that lets content close sales with no setters, no closers, no calls. This workflow sequences the sub-tools (`jw-objection-arsenal`, `jw-retargeting-architecture`, `jw-self-selection-filter`, `jw-pattern-interrupt`, `jw-content-cadence-engine`) into one deployable machine.
+The orchestrator. Builds the complete system that lets content close sales with no setters, no closers, no calls. This workflow sequences the sub-tools (`jw-objection-arsenal`, `jw-retargeting-architecture`, `jw-self-selection-filter`, `jw-pattern-interrupt`, `jw-content-cadence-engine`) into one deployable machine. When the requested outcome is a compact three-asset path, Model/Machine/Invite, or a no-pre-sale-call decision sequence, route the close layer through `jw-three-asset-close` instead of inventing a parallel funnel.
 
 ---
 
@@ -53,7 +53,7 @@ Architect the 3-tier retargeting funnel (`jw-retargeting-architecture`):
 Force-feed the 7 hours of content. You control every word.
 
 ### Stage 5 — Close Without Closing
-Wire the pattern interrupt (`jw-pattern-interrupt`): don't chase, don't set, don't hard-close in the DMs. Let the content do the selling; the first real conversation happens *after* payment, when you set the rules of the game. Measure time-to-close, frequency hit rate, and self-close rate.
+Wire the pattern interrupt (`jw-pattern-interrupt`): don't chase, don't set, don't hard-close in the DMs. Let the content do the selling; the first real conversation happens *after* payment, when you set the rules of the game. For a considered-purchase three-asset route, run `jw-three-asset-close`: Model sells the shift, Machine sells the vehicle, Invite qualifies the right buyer, and the async path gates payment and delivery. Measure time-to-close, frequency hit rate, and self-close rate.
 
 ---
 

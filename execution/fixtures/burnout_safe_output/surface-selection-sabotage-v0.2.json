@@ -1,0 +1,12 @@
+{
+  "schema_version": "artifact-surface-selection-sabotage/v0.2",
+  "required_sabotage_count": 6,
+  "cases": [
+    {"id": "SF-001", "target": "SS-001", "mutation": "box_ordinary_reply"},
+    {"id": "SF-002", "target": "SS-003", "mutation": "dashboard_static_document"},
+    {"id": "SF-003", "target": "SS-003", "mutation": "spreadsheet_without_data"},
+    {"id": "SF-004", "target": "SS-004", "mutation": "slides_for_internal_plan"},
+    {"id": "SF-005", "target": "SS-003", "mutation": "image_replaces_reasoning"},
+    {"id": "SF-006", "target": "SS-002", "mutation": "multiple_primary_surfaces"}
+  ]
+}

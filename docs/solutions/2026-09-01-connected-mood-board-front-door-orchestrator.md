@@ -8,6 +8,13 @@ status: active
 session: "Creative: Moodboard System Regression - Preserve Better Standard"
 ---
 
+> **Current-authority addendum (2026-09-01):** the board-construction repair
+> remains valid, but newer main authority assigns discovery-backed brand
+> direction to `/andrew-lane-design-systems`. That parent may compose
+> `/mood-board`; standalone campaign, shoot, event, product, and non-brand boards
+> continue to use `/mood-board`. Statements below that make `/mood-board` the
+> discovery parent are retained as historical implementation context.
+
 ## Problem
 
 `/mood-board` existed as a five-layer written brief, while the useful capabilities were scattered across creative direction, Oren taste development, reference acquisition, visual production, proving surfaces, and downstream design-system owners. Natural requests such as “turn discovery notes into a moodboard” were therefore routed to generic creative briefs or component workflows, and a prose description could pass as a finished moodboard.

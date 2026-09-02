@@ -1,0 +1,146 @@
+[
+  {
+    "id": "TY-001",
+    "start": "00:23",
+    "end": "00:55",
+    "type": "source_self_report_unverified",
+    "text": "Youngs reports roughly $100K per year, 17 calls in one week, then $1.6M consulting revenue after stopping sales calls.",
+    "use_boundary": "Source context only; prohibited as Farrice proof."
+  },
+  {
+    "id": "TY-002",
+    "start": "01:55",
+    "end": "02:03",
+    "type": "observed_spoken",
+    "text": "Names the Model, Machine and Invite.",
+    "use_boundary": "Canonical three-asset sequence."
+  },
+  {
+    "id": "TY-003",
+    "start": "03:38",
+    "end": "05:40",
+    "type": "observed_spoken",
+    "text": "Maps unaware through problem-aware, solution-aware, product-aware and most-aware.",
+    "use_boundary": "Awareness-stage contract."
+  },
+  {
+    "id": "TY-004",
+    "start": "05:45",
+    "end": "06:04",
+    "type": "observed_spoken",
+    "text": "Warns against moving unaware buyers to most-aware in one step.",
+    "use_boundary": "Reject one-asset, offer-first funnels."
+  },
+  {
+    "id": "TY-005",
+    "start": "06:20",
+    "end": "07:15",
+    "type": "observed_spoken",
+    "text": "The buyer's question is why the current approach is failing, not how the seller's offer works.",
+    "use_boundary": "Model opens on the failed game."
+  },
+  {
+    "id": "TY-006",
+    "start": "08:17",
+    "end": "08:24",
+    "type": "hearsay_heuristic",
+    "text": "Attributes a 27-minute Model heuristic to Sabri Suby.",
+    "use_boundary": "Optional duration prior, never a hard rule."
+  },
+  {
+    "id": "TY-007",
+    "start": "08:31",
+    "end": "09:31",
+    "type": "observed_spoken",
+    "text": "Defines Model as problem-aware to solution-aware and says it changes what buyers believe.",
+    "use_boundary": "Model sells the belief shift, not modules or features."
+  },
+  {
+    "id": "TY-008",
+    "start": "10:47",
+    "end": "13:29",
+    "type": "observed_spoken",
+    "text": "Demonstrates old-game and new-game contrast, then states sell the shift.",
+    "use_boundary": "Contrast the current failed model with a more useful model."
+  },
+  {
+    "id": "TY-009",
+    "start": "13:37",
+    "end": "14:43",
+    "type": "source_gap",
+    "text": "Names an 11 P's framework and makes public-performance claims without teaching the components or providing evidence.",
+    "use_boundary": "Do not reconstruct or claim the 11 P's."
+  },
+  {
+    "id": "TY-010",
+    "start": "15:09",
+    "end": "15:57",
+    "type": "observed_spoken",
+    "text": "Defines Machine as a 30 to 60 minute unlisted video and requires Model first.",
+    "use_boundary": "Private inspection asset; sequence required."
+  },
+  {
+    "id": "TY-011",
+    "start": "16:53",
+    "end": "17:01",
+    "type": "observed_spoken",
+    "text": "Model explains why; Machine explains how.",
+    "use_boundary": "Stage separation rule."
+  },
+  {
+    "id": "TY-012",
+    "start": "17:08",
+    "end": "21:27",
+    "type": "observed_spoken",
+    "text": "Uses a considered-purchase and private Rolex inspection-room analogy.",
+    "use_boundary": "Machine should feel like calm inspection, not a pitch ambush."
+  },
+  {
+    "id": "TY-013",
+    "start": "21:37",
+    "end": "22:00",
+    "type": "observed_spoken",
+    "text": "Machine sells the vehicle and repeats the shift before explaining mechanics.",
+    "use_boundary": "Re-anchor rule."
+  },
+  {
+    "id": "TY-014",
+    "start": "22:30",
+    "end": "23:00",
+    "type": "observed_spoken",
+    "text": "Each stage filters closer to the ideal client.",
+    "use_boundary": "Qualification is progressive."
+  },
+  {
+    "id": "TY-015",
+    "start": "23:14",
+    "end": "23:51",
+    "type": "observed_spoken",
+    "text": "Buyers want an invitation; Invite can be a simple page or document explaining how working together operates.",
+    "use_boundary": "One private decision surface."
+  },
+  {
+    "id": "TY-016",
+    "start": "24:00",
+    "end": "24:22",
+    "type": "observed_spoken",
+    "text": "Describes keyword DM to automation to Machine and Invite plus contact capture.",
+    "use_boundary": "Optional later automation; no connector activation here."
+  },
+  {
+    "id": "TY-017",
+    "start": "24:25",
+    "end": "25:10",
+    "type": "observed_spoken",
+    "text": "Invite leads with who the offer is not for and narrows to the operator's actual specialty.",
+    "use_boundary": "Explicit disqualifiers required."
+  },
+  {
+    "id": "TY-018",
+    "start": "25:43",
+    "end": "26:08",
+    "type": "observed_spoken",
+    "text": "Restates Model sells shift, Machine sells vehicle and Invite invites the right person, then repeats the $1.6M claim.",
+    "use_boundary": "Architecture admitted; commercial result remains source self-report and is not Farrice proof."
+  }
+]

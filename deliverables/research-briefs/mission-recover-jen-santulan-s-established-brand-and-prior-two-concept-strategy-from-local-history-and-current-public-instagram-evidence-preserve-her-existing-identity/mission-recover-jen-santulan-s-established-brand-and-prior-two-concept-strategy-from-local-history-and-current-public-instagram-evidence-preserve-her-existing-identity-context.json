@@ -1,0 +1,59 @@
+{
+  "slug": "mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity",
+  "title": "Recover Jen Santulan's established brand and prior…",
+  "compiled": "sep 1, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md",
+  "paths": [
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/README.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/production/first-home-valley/README.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/clients/jen-santulan/START-HERE.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/START-HERE.html",
+      "role": "related · FRONT DOOR"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

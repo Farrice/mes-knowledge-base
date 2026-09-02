@@ -12,7 +12,7 @@ Elite creative direction skill covering the full spectrum from concept to produc
 - Art direction for any visual concept (campaigns, brands, products, content)
 - AI prompt generation for Higgsfield, Kittl, Midjourney, Flux
 - Storyboarding and multi-shot sequence planning
-- Reference-first moodboard orchestration: discovery/brief → three visual territories → blind choice → proving surface → selected-direction handoff
+- Reference-first moodboard orchestration for standalone visual briefs, or as Andrew Lane's bounded board-construction component for discovery-backed brand direction: brief → three visual territories → blind choice → proving surface → selected-direction handoff
 - Streetwear/apparel graphic design with production specs
 - Applying trailer storytelling to any content format
 - Creative review and critique (the Virgil Test)

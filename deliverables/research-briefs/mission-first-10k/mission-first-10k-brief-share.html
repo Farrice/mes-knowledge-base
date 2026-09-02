@@ -287,13 +287,13 @@
     <p class="dek">Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.</p>
     <div class="trust">
       <div><span class="k">Window</span><span class="v">last 14 days</span></div>
-      <div><span class="k">Lens</span><span class="v">codex</span></div>
+      <div><span class="k">Lens</span><span class="v">codex · claude</span></div>
       <div><span class="k">Sources</span><span class="v">0 sessions · 0 files · 0 assets</span></div>
-      <div><span class="k">Compiled</span><span class="v">aug 30, 2026</span></div>
+      <div><span class="k">Compiled</span><span class="v">sep 1, 2026</span></div>
     </div>
   </header>
 
-  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.</p><p>Handoff status is active. Last activity 1d ago.</p><p>Next: Resume the `first-10k` work-stream — see the deliverable above.</p><p>_Auto-pinned by chain_runner.finalize (first-10k)._</p></div></section><section class="blk" id="the-state-as-the-last-session-left-it"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the state, as the last session <em>left</em> it</h2></div><p>Handoff written 1d ago — treat its plan as current.</p><p>Do not rebuild:
+  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.</p><p>Handoff status is active. Last activity 1d ago.</p><p>Next: Resume the `first-10k` work-stream — see the deliverable above.</p><p>_Auto-pinned by chain_runner.finalize (first-10k)._</p></div></section><section class="blk" id="the-state-as-the-last-session-left-it"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the state, as the last session <em>left</em> it</h2></div><p>Handoff written 3d ago — mostly current; skim the latest sessions below for drift.</p><p>Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)</p><p>- Previous handoff on this thread: `.agent/handoffs/2026-07-21-first-10k.md` — everything it lists as shipped is EXTEND-ONLY.</p><p>- Before building anything named above: `/arsenal &lt;task&gt;` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.</p></section><section class="blk" id="resume-park-kill"><div class="sechead"><span class="secnum">03</span><h2 class="sec">resume · park · <em>kill</em></h2><span class="sectag">DECIDE + RUN</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Resume here</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Madison paid-engagement iMessage reply grounded in the full direct thread</p><pre>python3 execution/handoff_store.py resume first-10k</pre><div class="receipt"><b>receipt</b>The stored handoff prints with drift since it was written.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Park it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Shelve deliberately — resumable, muted, never urgent.</p><pre>python3 execution/pulse_actions.py park first-10k --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Handoff annotated parked; drops out of needs-you.</div></div></div><div class="play"><div class="head"><span class="n">03</span><h3>Kill it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.</p><pre>python3 execution/pulse_actions.py kill first-10k --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Ledger line `killed` + handoff archived.</div></div></div></section><section class="blk" id="pick-it-up-anywhere"><div class="sechead"><span class="secnum">04</span><h2 class="sec">pick it up <em>anywhere</em></h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">CONTEXT PACK — paste into any session</span><button class="copybtn" type="button">copy</button></div><pre>THREAD: Madison paid-engagement iMessage reply grounded in the full direct thread
 SLUG: first-10k
 STATUS: active · STAGE: outcome
@@ -305,10 +305,12 @@ RESUME HERE: Madison paid-engagement iMessage reply grounded in the full direct 
 SHIPPED IN WINDOW:
   - 2026-08-29 · Madison paid-engagement iMessage reply grounded in the full direct thread
   - 2026-08-29 · Madison paid-engagement iMessage reply grounded in the full direct thread
+  - 2026-08-31 · Produced System: Conflict-lane reconciliation and stale-lane recovery audit
 
-(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)</pre></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">05</span><h2 class="sec">by the numbers</h2><span class="sectag">LAST 14 DAYS</span></div><div class="stats"><div class="stat"><div class="num">2</div><span class="lab">DELIVERABLES FINALIZED</span></div><div class="stat"><div class="num">1<small> d</small></div><span class="lab">DAYS ACTIVE</span></div></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">06</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="blk" id="how-it-got-here"><div class="sechead"><span class="secnum">07</span><h2 class="sec">how it got <em>here</em></h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-08-29</span><h3>Finalized · first-10k</h3><p>Madison paid-engagement iMessage reply grounded in the full direct thread
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)</pre></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">05</span><h2 class="sec">by the numbers</h2><span class="sectag">LAST 14 DAYS</span></div><div class="stats"><div class="stat"><div class="num">3</div><span class="lab">DELIVERABLES FINALIZED</span></div><div class="stat"><div class="num">3<small> d</small></div><span class="lab">DAYS ACTIVE</span></div></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">06</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="blk" id="how-it-got-here"><div class="sechead"><span class="secnum">07</span><h2 class="sec">how it got <em>here</em></h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-08-31</span><h3>Finalized · 10</h3><p>Produced System: Conflict-lane reconciliation and stale-lane recovery audit
+- Quality: 8.0/10 (Keep) - IMPROVEMENT: Score 8.0 is 1.2 above baseline 6.8. Consider propagating improvement.</p></div><div class="tl-item done"><span class="date">2026-08-29</span><h3>Finalized · first-10k</h3><p>Madison paid-engagement iMessage reply grounded in the full direct thread
 Warm friend register with explicit fixed-fee pilot, investor-readiness relevance, and permission-based case study | platform: codex | Verification: PASS — full 501-message thread reviewed; prose CLEAN 0/10; finish gate C</p></div><div class="tl-item done"><span class="date">2026-08-29</span><h3>Finalized · first-10k</h3><p>Madison paid-engagement iMessage reply grounded in the full direct thread
-Retried intent-alignment receipt after the initial score mapping understated a fully specified 5-of-5 intent. Warm friend register, explicit fixed-fee pilot, bounded scope, investor-readiness relevance, permission-based </p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>The narrative sections above come from this thread&#x27;s own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.</p><p>The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
+Retried intent-alignment receipt after the initial score mapping understated a fully specified 5-of-5 intent. Warm friend register, explicit fixed-fee pilot, bounded scope, investor-readiness relevance, permission-based </p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>The narrative sections above come from this thread&#x27;s own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.</p><p>The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY · MISSION SWEEP</span>
@@ -394,36 +396,50 @@ Retried intent-alignment receipt after the initial score mapping understated a f
      resolve in-tab; anything the browser can't usefully display goes to the
      server's OS opener (the pattern proven in pulse_dashboard.py).
      file:// → untouched. Nothing here runs.                                */
-  var LIVE = location.protocol.indexOf('http') === 0;
+  var LIVE = false;
   var REPO_ROOT = "";
-  if (LIVE && REPO_ROOT){
+  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
     var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
-    var toRepo = function(uri){
+    var relPath = function(uri){
       if (!uri || uri.indexOf(PREFIX) !== 0) return null;
-      return '/repo/' + uri.slice(PREFIX.length);
+      return uri.slice(PREFIX.length);
     };
-    // Images must be same-origin or they render as broken glyphs.
-    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
-      var r = toRepo(img.getAttribute('src'));
-      if (r) img.setAttribute('src', r);
+    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
+      .catch(function(){ LIVE = false; return false; });
+    var browserRoute = function(uri){
+      var rel = relPath(uri);
+      if (!rel) return null;
+      return (LIVE ? '/repo/' : '/') + rel;
+    };
+    HANDSHAKE.then(function(){
+      // Images must be same-origin or they render as broken glyphs. Generic
+      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
+      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+        var r = browserRoute(img.getAttribute('src'));
+        if (r) img.setAttribute('src', r);
+      });
     });
     // In-browser types navigate; the rest hand off to the OS.
     var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
     document.querySelectorAll('a[href^="file:"]').forEach(function(a){
       a.addEventListener('click', function(ev){
         var href = a.getAttribute('href');
-        var repo = toRepo(href);
-        if (repo && INLINE.test(repo.split('?')[0])){
-          ev.preventDefault();
-          window.location = repo;
-          return;
-        }
         ev.preventDefault();
-        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
-                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
-          .then(function(r){ return r.json(); })
-          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
-          .catch(function(){ toast('open failed'); });
+        HANDSHAKE.then(function(){
+          var repo = browserRoute(href);
+          if (repo && INLINE.test(repo.split('?')[0])){
+            window.location = repo;
+            return;
+          }
+          if (!LIVE){ window.location = href; return; }
+          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
+            .then(function(r){ return r.json(); })
+            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+            .catch(function(){ toast('open failed'); });
+        });
       });
     });
   }

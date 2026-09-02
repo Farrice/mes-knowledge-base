@@ -24,6 +24,13 @@ CODEX_NATIVE_TEXT = [
     "Never auto-commit, auto-merge, or auto-push `main`",
 ]
 
+GUARDED_SHORTHAND_TEXT = [
+    "close ready",
+    "close done",
+    "bulk closeout audit",
+    "Bare `ready` and `done`",
+]
+
 REQUIRED_TEXT = {
     PROJECT_WORKFLOW: [
         "canonical source of truth for End-session behavior",
@@ -40,6 +47,7 @@ REQUIRED_TEXT = {
         *CODEX_NATIVE_TEXT,
         "Optional cleanup must be reviewed",
         "Real Codex subagents require explicit authorization",
+        *GUARDED_SHORTHAND_TEXT,
     ],
     LOCAL_WRAPPER: [
         ".agent/workflows/end-session.md",
@@ -57,6 +65,7 @@ REQUIRED_TEXT = {
         *CODEX_NATIVE_TEXT,
         "real Codex subagents require explicit authorization",
         "no competing behavior contract",
+        *GUARDED_SHORTHAND_TEXT,
     ],
     GLOBAL_AGENTS: [
         "Global End-Session Closeout",
@@ -71,6 +80,7 @@ REQUIRED_TEXT = {
         "conversation_index.py stats",
         *CODEX_NATIVE_TEXT,
         "Real Codex subagents require explicit authorization",
+        *GUARDED_SHORTHAND_TEXT,
     ],
     GLOBAL_END_SESSION: [
         "Project Source Of Truth",
@@ -96,6 +106,7 @@ REQUIRED_TEXT = {
         "Capability Revealed",
         "real Codex subagents require explicit authorization",
         "no competing behavior contract",
+        *GUARDED_SHORTHAND_TEXT,
     ],
     GLOBAL_WRAPPER: [
         "compatibility alias",
@@ -115,6 +126,7 @@ REQUIRED_TEXT = {
         *CODEX_NATIVE_TEXT,
         "real Codex subagents require explicit",
         "no competing behavior contract",
+        *GUARDED_SHORTHAND_TEXT,
     ],
 }
 
@@ -133,9 +145,14 @@ ROUTING_CASES = (
     ("wrap this session", "end-session"),
     ("source-command-end-session closeout", "end-session"),
     ("session closeout intelligence", "end-session"),
+    ("close ready", "end-session"),
+    ("close done", "end-session"),
+    ("bulk closeout audit", "end-session"),
     ("prepare a handoff document for a fresh agent to continue this in another conversation", "handoff"),
     ("three next prompts after final answer", "steering-compass"),
 )
+
+NEGATIVE_ROUTING_CASES = ("ready", "done")
 
 
 def run(args: list[str]) -> str:
@@ -216,6 +233,11 @@ def verify_routes() -> list[str]:
             raise AssertionError(f"routing_governor did not choose /{expected} for {query!r}\n{governor}")
 
         results.append(f"route ok: {query} -> /{expected}")
+    for query in NEGATIVE_ROUTING_CASES:
+        governor = run([sys.executable, "execution/routing_governor.py", "evaluate", query])
+        if chosen_route(governor) == "end-session":
+            raise AssertionError(f"bare status word incorrectly triggered /end-session: {query!r}\n{governor}")
+        results.append(f"bare status safe: {query} does not trigger /end-session")
     return results
 
 

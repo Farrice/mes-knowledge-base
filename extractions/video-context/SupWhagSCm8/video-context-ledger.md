@@ -1,0 +1,1302 @@
+# Video Context Ledger — SupWhagSCm8
+
+> Transcript-backed spoken evidence from public YouTube auto-captions. Visual frames and OCR were not collected.
+
+- **00:00:02.510** — Today, I'm going to show you seven ways
+- **00:00:02.520** — marketing specialists are using Claude
+- **00:00:04.840** — every single day. And no, it's not to
+- **00:00:08.040** — write ads. Because here's what most
+- **00:00:10.080** — people think using AI for marketing
+- **00:00:12.160** — looks like. You open up Claude, you type
+- **00:00:14.360** — write me an ad, or write me an email, or
+- **00:00:17.000** — write me a blog post. You copy the
+- **00:00:19.240** — output then, and then you move on. And
+- **00:00:21.480** — that's the common belief. And that's
+- **00:00:23.280** — basically how 90% of marketers use these
+- **00:00:25.760** — tools right now. But here's the problem.
+- **00:00:28.360** — Isolated prompts produce isolated
+- **00:00:30.720** — results. If Claude does not understand
+- **00:00:33.440** — your bigger campaign, your brand voice,
+- **00:00:35.640** — or your actual marketing objective,
+- **00:00:38.520** — well, then you're just getting generic
+- **00:00:40.440** — copy that could have come from pretty
+- **00:00:42.280** — much anyone. The marketers who are
+- **00:00:44.480** — actually getting ahead right now are not
+- **00:00:47.120** — using Claude as a chatbot. They're using
+- **00:00:50.200** — it as a strategist, [music] an analyst,
+- **00:00:52.280** — an editor, and a planning partner that
+- **00:00:55.640** — works alongside them through an entire
+- **00:00:57.960** — campaign, not just for the writing part,
+- **00:01:00.360** — but for the thinking part as well. So,
+- **00:01:02.600** — in this video, I'm going to be walking
+- **00:01:04.239** — you through seven real workflows from
+- **00:01:07.160** — competitor research and SEO planning to
+- **00:01:10.400** — campaign reporting and brand voice
+- **00:01:12.240** — development that you can also steal and
+- **00:01:14.160** — start using today, right now. So, that
+- **00:01:16.320** — by the end, you'll have seven ways to
+- **00:01:18.480** — spend less time on repetitive production
+- **00:01:21.480** — work and more time on strategy testing
+- **00:01:24.080** — and actually growing your results. Now,
+- **00:01:26.240** — if you do want to master AI tools, and
+- **00:01:27.960** — you really do want to learn how to build
+- **00:01:29.520** — profitable [music] SaaS apps, websites,
+- **00:01:31.880** — AI agents, and mobile apps with AI, then
+- **00:01:34.520** — I've created a complete masterclass that
+- **00:01:36.960** — shows you exactly how to do all of this
+- **00:01:38.920** — step by step. Now, my masterclass
+- **00:01:41.480** — normally costs $499 to join, but since
+- **00:01:44.240** — you are watching this video, thank you
+- **00:01:45.720** — for taking the time to do so, you can
+- **00:01:47.440** — enjoy it completely free. Just check out
+- **00:01:49.080** — that link in the description to get free
+- **00:01:51.160** — access to my masterclass, and you too
+- **00:01:53.520** — can start building your own AI-powered
+- **00:01:55.160** — business today. That said, let's go
+- **00:01:57.200** — ahead and get into this. Writing ad
+- **00:01:59.280** — variations is one of the most exhausting
+- **00:02:02.240** — parts of paid media work. Platforms like
+- **00:02:04.840** — Meta, LinkedIn, and TikTok
+- **00:02:06.416** — >> [music]
+- **00:02:06.600** — >> perform better when campaigns have
+- **00:02:08.399** — enough creative variety to test out
+- **00:02:11.280** — different hooks, emotional angles, story
+- **00:02:13.480** — structures, and calls to action. The
+- **00:02:16.120** — problem is that producing dozens of
+- **00:02:19.000** — genuinely different versions takes time,
+- **00:02:21.880** — and so many teams end up just launching
+- **00:02:24.360** — only two or three ads that are mostly
+- **00:02:26.280** — just minor rewrites of each other. So,
+- **00:02:28.760** — that limits what the platform can learn,
+- **00:02:31.040** — increases the chance of ad [music]
+- **00:02:32.800** — fatigue, and can push acquisition costs
+- **00:02:35.640** — even higher. But, Claude can speed up
+- **00:02:38.080** — this process by generating several
+- **00:02:40.440** — distinct [music]
+- **00:02:41.160** — ad concepts from just one detailed
+- **00:02:43.600** — brief. So, I'm going to open up
+- **00:02:45.000** — Claude.ai, start a new chat, and then
+- **00:02:46.920** — enter the prompt that I'm showing you
+- **00:02:48.320** — here on your screen. Now, this one gives
+- **00:02:50.560** — Claude the product, the target audience,
+- **00:02:52.680** — the platform, and the campaign goal. So,
+- **00:02:55.200** — in this example, the product is an
+- **00:02:57.400** — AI-powered [music] time tracking and
+- **00:02:59.800** — productivity workspace for remote
+- **00:03:02.360** — project teams. And our audience here
+- **00:03:04.920** — includes operations managers and agency
+- **00:03:07.640** — directors [music]
+- **00:03:08.760** — dealing with unbilled hours, scope
+- **00:03:11.000** — creep, and team burnout. The campaign
+- **00:03:13.440** — will run on LinkedIn, and the goal is to
+- **00:03:15.640** — drive high-intent free trial sign-ups.
+- **00:03:18.800** — So, the prompt is also asking Claude
+- **00:03:20.600** — here to organize every variation around
+- **00:03:23.600** — a unique headline, a different creative
+- **00:03:26.120** — hook, a specific emotional angle,
+- **00:03:28.292** — [music] a clear call to action, and a
+- **00:03:30.720** — recommended character length and ad
+- **00:03:32.800** — format. So, giving those details here
+- **00:03:35.239** — prevents the response from say becoming
+- **00:03:37.800** — a collection of just generic [music]
+- **00:03:40.120** — word swaps, for example. Claude knows
+- **00:03:42.519** — who it is writing for, what action the
+- **00:03:44.360** — campaign should drive, and how the copy
+- **00:03:46.959** — needs to fit [music] the LinkedIn
+- **00:03:48.680** — platform. So, after submitting the
+- **00:03:50.560** — prompt, Claude produces five clearly
+- **00:03:52.720** — different approaches here. [music] So,
+- **00:03:54.360** — as you can see, the first one is called
+- **00:03:55.720** — the revenue leak, which focuses on
+- **00:03:58.120** — financial laws and the hidden cause of
+- **00:04:00.240** — unbilled hours. It's hook tells the
+- **00:04:02.560** — reader they could be giving away 20% of
+- **00:04:05.000** — their billable time. The second one here
+- **00:04:07.360** — is the burnout signal, [music] and it
+- **00:04:09.440** — moves towards empathy and retention by
+- **00:04:12.480** — warning that a project manager may be
+- **00:04:14.680** — close to quitting. And then the third
+- **00:04:16.762** — [music] is the scope creep trap. It uses
+- **00:04:19.640** — a familiar client requests and then
+- **00:04:21.440** — connects it to a specific financial
+- **00:04:23.200** — laws. [music]
+- **00:04:24.160** — And the fourth here is the skeptics
+- **00:04:26.240** — proof. It relies on social proof and
+- **00:04:29.000** — measurable results for buyers who want
+- **00:04:31.200** — evidence. And the fifth now is the
+- **00:04:33.280** — direct ask. It's much more
+- **00:04:35.000** — straightforward and it focuses on the
+- **00:04:37.160** — convenience of automatic tracking. So,
+- **00:04:39.880** — each variation here also uses a
+- **00:04:41.760** — different emotional trigger. The first
+- **00:04:44.400** — one leans into loss aversion, the second
+- **00:04:46.440** — into concern about team burnout, the
+- **00:04:49.080** — third into frustration over unpaid
+- **00:04:51.919** — client work. And the fourth uses logic
+- **00:04:54.320** — and proof while the last fifth one
+- **00:04:55.960** — removes friction with a direct benefit
+- **00:04:58.040** — first message. So, these calls to action
+- **00:05:00.360** — follow the same pattern here if you've
+- **00:05:01.760** — noticed. The revenue focused version
+- **00:05:04.040** — invites the reader to start a free trial
+- **00:05:06.280** — and to identify leaked hours during the
+- **00:05:08.320** — first week.
+- **00:05:09.163** — >> [music]
+- **00:05:09.240** — >> The burnout version encourages them to
+- **00:05:11.760** — spot those warning signs before losing a
+- **00:05:13.800** — team member. [music] The scope creep
+- **00:05:15.800** — version focuses on catching unpaid work
+- **00:05:18.360** — early while the proof driven asks the
+- **00:05:21.280** — reader to see the numbers for
+- **00:05:23.200** — themselves. [music] And finally, that
+- **00:05:24.760** — final variation keeps the commitment low
+- **00:05:27.520** — by highlighting that no credit card is
+- **00:05:30.000** — required.
+- **00:05:30.778** — >> [music]
+- **00:05:31.120** — >> Claude also recommends here a suitable
+- **00:05:33.280** — placement for each version. So, the
+- **00:05:35.400** — revenue angle fits a document [music]
+- **00:05:37.360** — or a carousel ad showing before and
+- **00:05:39.720** — after timesheets. That burnout angle
+- **00:05:42.200** — works well with video or a dashboard
+- **00:05:44.760** — demonstration.
+- **00:05:45.843** — >> [music]
+- **00:05:46.120** — >> The scope creep concept is suited to a
+- **00:05:48.360** — single image ad, while the proof-driven
+- **00:05:50.680** — version fits a results carousel. [music]
+- **00:05:53.600** — The direct version works best then for
+- **00:05:55.600** — high-intent sponsored messaging or
+- **00:05:57.840** — in-mail retargeting. [music]
+- **00:05:59.560** — So, each of these ads stays around 400
+- **00:06:02.000** — to 450 characters, keeping the copy
+- **00:06:05.480** — concise enough for [music] LinkedIn. So,
+- **00:06:08.040** — our next step then is asking Claude to
+- **00:06:10.080** — explain the strategy behind its own
+- **00:06:12.640** — output. [music]
+- **00:06:13.560** — So, I'm going to enter this follow-up
+- **00:06:15.040** — prompt shown here on your screen, which
+- **00:06:17.040** — asks [music] it to break down the
+- **00:06:19.080** — psychology behind every variation, to
+- **00:06:21.919** — identify the buyer awareness stage each
+- **00:06:24.240** — one targets, and explain the campaign
+- **00:06:26.760** — conditions [music] where it is most
+- **00:06:28.200** — likely to perform well. So, that
+- **00:06:30.400** — follow-up matters here because it turns
+- **00:06:32.440** — the response into more than just a set
+- **00:06:34.880** — of ads to copy and paste. Claude
+- **00:06:37.520** — explains whether a version is aimed at
+- **00:06:40.120** — an unaware, problem-aware, or
+- **00:06:42.200** — solution-aware buyer, and shows how each
+- **00:06:45.080** — angle can be matched to a specific point
+- **00:06:47.760** — in the funnel. The marketer can then
+- **00:06:50.160** — choose creative based on strategy rather
+- **00:06:53.000** — than, say, personal preference.
+- **00:06:54.619** — >> [music]
+- **00:06:54.960** — >> So, a process that might normally take,
+- **00:06:56.640** — say, a copywriter an hour can just be
+- **00:06:58.919** — reduced to just a few minutes. It also
+- **00:07:01.480** — produces more real variation than many
+- **00:07:03.680** — teams could or would create manually,
+- **00:07:06.040** — especially once, you know, fatigue
+- **00:07:08.080** — starts causing every version to just
+- **00:07:09.919** — kind of use the same language.
+- **00:07:11.649** — >> [music]
+- **00:07:11.960** — >> Claude handles the creative pivots
+- **00:07:13.720** — quickly, while keeping every ad tied to
+- **00:07:16.360** — the same product, audience, platform,
+- **00:07:19.040** — and campaign goal. Competitor analysis
+- **00:07:21.880** — can have a major impact on positioning
+- **00:07:24.095** — [music] and messaging, but it is still
+- **00:07:26.520** — one of the most neglected parts of a
+- **00:07:28.480** — marketing workflow. And the reason is
+- **00:07:30.760** — simple.
+- **00:07:31.300** — >> [music]
+- **00:07:31.320** — >> Collecting website copy, reviewing ads,
+- **00:07:34.360** — comparing claims, and then turning all
+- **00:07:36.360** — of that into a useful conclusion, well,
+- **00:07:38.840** — it can take a bunch of hours. And
+- **00:07:40.040** — because of that, many teams just rely on
+- **00:07:42.400** — a sort of surface-level assumptions, and
+- **00:07:44.640** — then they end up creating campaigns that
+- **00:07:46.365** — [music] sound pretty much almost
+- **00:07:47.800** — identical to everyone else in that
+- **00:07:49.720** — market. And they may also miss clear
+- **00:07:52.200** — messaging opportunities that no real
+- **00:07:54.560** — competitor is currently claiming. Claude
+- **00:07:57.500** — [music] can speed up that entire process
+- **00:07:59.720** — by taking raw landing page copy, ad
+- **00:08:02.520** — text, or positioning statements, and
+- **00:08:04.960** — then organizing them into a structured
+- **00:08:07.640** — competitive audit. So, here I'm going to
+- **00:08:09.960** — start up a new chat in Claude, and I'm
+- **00:08:10.960** — going to click inside the message box,
+- **00:08:13.160** — and I'm going to paste the prompt that
+- **00:08:14.480** — I'm showing you here on your screen.
+- **00:08:15.840** — [music] So, for this example, our prompt
+- **00:08:17.960** — here includes raw home page copy from
+- **00:08:20.425** — [music] the three SaaS project
+- **00:08:21.960** — management companies, specifically
+- **00:08:23.840** — Asana, monday.com, and ClickUp. Now,
+- **00:08:26.680** — Asana's [music] copy focuses on clarity,
+- **00:08:28.960** — accountability, cross-functional work,
+- **00:08:31.040** — and knowing who is responsible for each
+- **00:08:33.880** — task. And then monday.com uses much more
+- **00:08:37.120** — ambitious language [music] around speed,
+- **00:08:39.840** — limitless work execution, and really
+- **00:08:42.560** — helping teams outpace their [music]
+- **00:08:44.240** — competitors. And then finally, ClickUp
+- **00:08:46.400** — positions itself as an all-in-one
+- **00:08:48.080** — platform that replaces disconnected
+- **00:08:50.360** — tools by bringing tasks, documents,
+- **00:08:53.000** — chat, workflows, and AI, of course, into
+- **00:08:55.240** — one place. So, here we're asking Claude
+- **00:08:57.600** — to evaluate all three of these
+- **00:08:59.200** — competitors using five specific
+- **00:09:01.080** — sections: [music] their core value
+- **00:09:02.920** — propositions, the audience cues and
+- **00:09:05.280** — language signals in their copy, [music]
+- **00:09:07.560** — the messaging angles and emotional
+- **00:09:10.000** — territory they claim, and the balance
+- **00:09:12.800** — between features and outcomes along with
+- **00:09:15.760** — the market gaps that remain unclaimed.
+- **00:09:19.000** — So, this structure matters here because
+- **00:09:20.960** — it stops the response from just becoming
+- **00:09:23.440** — another basic summary of each home page.
+- **00:09:26.480** — Here, Claude has to compare the brands
+- **00:09:28.800** — across the same strategic categories,
+- **00:09:31.400** — and then identify both the similarities
+- **00:09:33.440** — and the differences, and how they
+- **00:09:35.360** — position themselves. [music] So, after
+- **00:09:37.360** — sending that prompt in Claude, as you
+- **00:09:39.280** — can see, turns the raw copy into a clear
+- **00:09:41.680** — competitive intelligence matrix.
+- **00:09:43.611** — >> [music]
+- **00:09:43.880** — >> It identifies Asana's main value
+- **00:09:46.000** — proposition as clarity and
+- **00:09:47.920** — accountability at scale. The platform
+- **00:09:50.560** — emphasizes coordination, ownership, and
+- **00:09:53.640** — reducing uncertainty around who is doing
+- **00:09:56.120** — what and when it needs to be completed.
+- **00:09:59.320** — And then, monday.com here is positioned
+- **00:10:01.951** — [music] around the middle speed and
+- **00:10:03.680** — execution. Its language presents a
+- **00:10:06.120** — platform almost like a sort of
+- **00:10:08.000** — competitive advantage using phrases
+- **00:10:10.400** — about outpacing others, expanding what
+- **00:10:12.840** — teams can deliver, and removing the
+- **00:10:15.480** — limits placed on work. [music]
+- **00:10:17.840** — ClickUp focuses on consolidation and
+- **00:10:20.800** — completeness. Its main claim is that
+- **00:10:23.640** — businesses can replace several of those
+- **00:10:26.280** — disconnected tools with this their one
+- **00:10:28.440** — platform that brings tasks [music] and
+- **00:10:30.280** — documents and chat and resources and
+- **00:10:32.200** — workflows together. And their value is
+- **00:10:34.640** — framed around reducing tool sprawl, so
+- **00:10:37.560** — to speak, and improving operational
+- **00:10:39.920** — efficiency. [music] Claude also picks up
+- **00:10:41.960** — important signals here about the
+- **00:10:43.880** — audiences that each brand appears
+- **00:10:45.837** — [music] to target. So, for example,
+- **00:10:47.800** — Asana uses formal governance-focused
+- **00:10:50.680** — terms such as cross-functional teams,
+- **00:10:52.760** — programs, and initiatives. So, that kind
+- **00:10:55.200** — of language is likely to appeal to
+- **00:10:57.760** — corporate operations managers and
+- **00:10:59.839** — project management leaders [music]
+- **00:11:01.680** — who really do care more about
+- **00:11:03.120** — coordination and accountability. And
+- **00:11:05.640** — then monday.com uses more punchier, more
+- **00:11:08.120** — aspirational language such as outpaces,
+- **00:11:10.727** — [music]
+- **00:11:11.320** — squashes. And the tone is built for more
+- **00:11:14.360** — performance-driven companies that care
+- **00:11:16.320** — about their growth, their momentum, and
+- **00:11:18.040** — moving faster than everybody else.
+- **00:11:20.520** — ClickUp here uses more technical [music]
+- **00:11:22.560** — and feature-heavy wording. Its
+- **00:11:24.680** — references to, say, disconnected tools,
+- **00:11:27.240** — to complete operations, and platform
+- **00:11:29.640** — consolidation are more likely to appeal
+- **00:11:32.280** — to IT buyers, technical teams, and power
+- **00:11:35.000** — users who are just tired of managing
+- **00:11:37.600** — several different systems. So, one major
+- **00:11:40.360** — pattern Clod identifies here is that all
+- **00:11:42.800** — three companies use broader horizontal
+- **00:11:45.760** — positioning. They speak to almost any
+- **00:11:47.960** — team or business rather than just
+- **00:11:49.760** — clearly naming a specific industry,
+- **00:11:51.800** — company size, or specialized type of
+- **00:11:54.120** — user. So, the emotional territory is
+- **00:11:56.720** — also different for each brand. Asana
+- **00:11:59.040** — claims control [music] and confidence by
+- **00:12:01.360** — reducing the anxiety caused by unclear
+- **00:12:04.200** — responsibilities and poor coordination.
+- **00:12:06.560** — And then monday.com claims ambition and
+- **00:12:08.920** — dominance by selling faster execution
+- **00:12:11.600** — and competitive momentum. Whereas
+- **00:12:13.480** — ClickUp claims relief from chaos by
+- **00:12:16.520** — promising to replace scattered tools and
+- **00:12:19.040** — really simplifying the working
+- **00:12:20.520** — environment. So, these create a clear
+- **00:12:23.200** — territory map. Asana owns clarity and
+- **00:12:25.320** — order, monday.com owns speed and
+- **00:12:27.240** — ambition, ClickUp owns completeness and
+- **00:12:30.240** — relief. All three of these mention AI as
+- **00:12:33.400** — part of their credibility, but their
+- **00:12:35.120** — main emotional hooks remain different.
+- **00:12:38.280** — Clod also compares how much each of
+- **00:12:40.440** — these brands focuses on features versus
+- **00:12:42.760** — outcomes. [music] Here, Asana takes a
+- **00:12:45.000** — balanced approach. It mentions specific
+- **00:12:47.640** — tools such as list, timelines, and
+- **00:12:49.839** — Kanban boards, but quickly connects them
+- **00:12:52.360** — to benefits such as visibility and
+- **00:12:54.720** — accountability. [music]
+- **00:12:56.080** — monday.com is mostly outcome-led. If you
+- **00:12:58.920** — notice, its copy focuses on growth,
+- **00:13:00.839** — execution, working without limits while
+- **00:13:03.200** — naming very few specific product
+- **00:13:05.080** — features. [music]
+- **00:13:06.080** — And then ClickUp is more
+- **00:13:07.120** — feature-forward. Its main differentiator
+- **00:13:09.720** — is the breadth of the platform and its
+- **00:13:12.600** — ability to just replace several tools
+- **00:13:14.560** — with just one product. [music] And the
+- **00:13:16.320** — most useful part of the analysis here is
+- **00:13:18.320** — the market space that Clod finds [music]
+- **00:13:20.720** — between those positions. It identifies
+- **00:13:23.640** — six messaging gaps here that another
+- **00:13:26.080** — brand could potentially claim. Now, the
+- **00:13:28.840** — first is simplicity for small teams
+- **00:13:30.520** — because none of those three competitors
+- **00:13:32.640** — speaks directly [music] to solopreneurs,
+- **00:13:35.040** — smaller companies, or non-technical
+- **00:13:37.160** — users who want a more lightweight
+- **00:13:38.759** — [music]
+- **00:13:39.280** — tool that's easy to learn. And then the
+- **00:13:41.320** — second is cost-efficiency and
+- **00:13:43.480** — transparent pricing. Their messaging
+- **00:13:46.080** — focuses on benefits and performance, but
+- **00:13:48.560** — really none of them clearly positions
+- **00:13:50.480** — itself as the more affordable or
+- **00:13:52.960** — financially transparent option. Now, the
+- **00:13:55.520** — third gap is trust, security, and
+- **00:13:58.080** — governance. None of the brands here
+- **00:14:00.000** — makes data security, enterprise
+- **00:14:02.120** — compliance, or governance a primary part
+- **00:14:05.440** — of [music] its homepage positioning. And
+- **00:14:07.760** — then another opportunity is more
+- **00:14:09.560** — specific AI differentiation. All three
+- **00:14:12.320** — do mention AI, yes, but they mostly use
+- **00:14:14.440** — it as a sort of general feature or a
+- **00:14:16.680** — credibility signal. None of them leads
+- **00:14:19.160** — with a clear explanation of how its AI
+- **00:14:22.280** — works differently or what specific
+- **00:14:24.520** — result it produces. Also, team culture
+- **00:14:27.240** — and well-being are mostly missing. The
+- **00:14:29.920** — competitors focus heavily on output,
+- **00:14:32.120** — productivity, and speed, but none of
+- **00:14:34.760** — them are strongly positioned around
+- **00:14:36.960** — preventing burnout, or improving morale,
+- **00:14:39.640** — or creating healthier ways of working.
+- **00:14:42.560** — And then the final gap here is vertical
+- **00:14:44.800** — specialization, meaning none of these
+- **00:14:47.160** — three brands claims to be designed for a
+- **00:14:49.760** — particular industry, such as say
+- **00:14:51.480** — marketing agencies, healthcare teams, or
+- **00:14:53.880** — legal [music] firms. And that leaves
+- **00:14:55.480** — room for a sort of challenger to build
+- **00:14:58.080** — up a much more specific category
+- **00:15:00.040** — position. So, after reviewing the first
+- **00:15:02.200** — analysis, I'm going to go ahead and
+- **00:15:03.440** — enter the follow-up prompt here that I'm
+- **00:15:05.000** — showing on your screen. And as you read,
+- **00:15:07.200** — it asks Claude to identify the three
+- **00:15:09.160** — most overcrowded messaging tropes in the
+- **00:15:11.640** — category, and then to propose two
+- **00:15:14.240** — defensible positioning angles based on
+- **00:15:16.400** — the gaps that it finds. It also asks for
+- **00:15:19.080** — a sample hero headline and sub-headline
+- **00:15:21.560** — for each proposed direction. So, this
+- **00:15:24.200** — follow-up here turns the research into
+- **00:15:26.640** — something the marketer can actually use
+- **00:15:29.455** — >> [music]
+- **00:15:29.680** — >> because now Claude is no longer just
+- **00:15:31.680** — describing what competitors are saying.
+- **00:15:33.760** — Rather, it's identifying which claims
+- **00:15:36.680** — have become [music] too common, which
+- **00:15:38.720** — ones should be avoided altogether, and
+- **00:15:41.120** — where a brand could build a more
+- **00:15:42.760** — distinct message. And the result here
+- **00:15:45.360** — can be used as a sort of starting point
+- **00:15:47.280** — for home page [music] copy, for campaign
+- **00:15:49.080** — concepts, or a broader positioning
+- **00:15:51.520** — strategy. So, this workflow can also
+- **00:15:53.880** — reduce some of the bias that appears
+- **00:15:55.655** — [music] during manual competitor
+- **00:15:57.240** — research. So, for example, human
+- **00:15:59.120** — analysts may just place too much
+- **00:16:00.680** — importance on the first competitor that
+- **00:16:02.680** — they review or look for evidence that
+- **00:16:05.360** — supports an idea that they already
+- **00:16:07.520** — themselves prefer. [music]
+- **00:16:09.160** — Claude can compare all of these supplied
+- **00:16:10.920** — copies at the same time and evaluate the
+- **00:16:13.360** — same patterns across each brand without
+- **00:16:15.920** — fatigue. So, that makes it easier to see
+- **00:16:18.480** — where the category is overcrowded and
+- **00:16:21.480** — where there is still genuine room to
+- **00:16:23.800** — stand apart. Now, a monthly content
+- **00:16:26.640** — calendar can quickly become one of the
+- **00:16:28.720** — most draining tasks in a marketing role.
+- **00:16:31.560** — It's not just about coming up with
+- **00:16:33.920** — enough [music] ideas. Now, every post
+- **00:16:36.400** — has to fit the platform, support a clear
+- **00:16:39.000** — business goal, maintain the right
+- **00:16:40.839** — publishing frequency, and still give the
+- **00:16:43.720** — audience a reason to pay attention. So,
+- **00:16:45.960** — when that planning is all done manually,
+- **00:16:48.160** — teams often reach the end of the process
+- **00:16:50.920** — with a calendar full of rushed topics
+- **00:16:53.560** — that are technically usable, yeah, but
+- **00:16:56.080** — they don't really build towards anything
+- **00:16:57.760** — meaningful. So, for this example, I'm
+- **00:16:59.800** — using Claude to create the entire month
+- **00:17:02.640** — in one [music] go. So, the full briefing
+- **00:17:04.640** — is here on your screen, but the
+- **00:17:05.760** — important part is how much context it
+- **00:17:08.720** — gives before asking for ideas. And the
+- **00:17:11.360** — brand is a B2B SaaS company that
+- **00:17:13.280** — provides automated compliance monitoring
+- **00:17:16.199** — for health care facilities. And the
+- **00:17:18.480** — audience here includes health care
+- **00:17:20.480** — compliance officers and planning
+- **00:17:22.480** — operations directors,
+- **00:17:24.081** — >> [music]
+- **00:17:24.199** — >> and the goal is to educate them about
+- **00:17:26.680** — upcoming regulatory changes [music]
+- **00:17:29.000** — while also generating software demo
+- **00:17:30.880** — sign-ups. And the plan here covers
+- **00:17:33.200** — LinkedIn and the company blog over 4
+- **00:17:35.872** — [music] weeks. Now, Claude is told to
+- **00:17:37.760** — produce three LinkedIn posts and one
+- **00:17:40.000** — blog article per week, and then organize
+- **00:17:42.440** — everything into a table showing the
+- **00:17:44.600** — week, the platform, the content pillar,
+- **00:17:47.160** — topic or hook, format, and primary call
+- **00:17:49.520** — to action. So, those details give the
+- **00:17:51.560** — response a clear editorial structure
+- **00:17:54.080** — from the start, so the result does not
+- **00:17:56.360** — come back as a loose collection of
+- **00:17:58.280** — unrelated ideas.
+- **00:17:59.452** — >> [music]
+- **00:17:59.840** — >> Now, what Claude builds here is closer
+- **00:18:01.960** — to a campaign rather than just say a
+- **00:18:04.640** — basic [music] posting schedule. Week one
+- **00:18:06.880** — is designed to create urgency around the
+- **00:18:08.880** — upcoming changes. Week two moves into
+- **00:18:11.440** — the practical [music] problems that
+- **00:18:13.160** — those changes could create for health
+- **00:18:15.040** — care teams. Week three introduces proof
+- **00:18:17.880** — and credibility, [music]
+- **00:18:19.160** — and week four puts more emphasis on
+- **00:18:21.720** — direct conversion. Now, the platform
+- **00:18:24.000** — choices are handled differently as well.
+- **00:18:26.440** — LinkedIn is used for shorter content
+- **00:18:29.240** — that can generate reach and interaction,
+- **00:18:31.800** — including swappable carousels [music]
+- **00:18:33.720** — that summarize regulatory updates,
+- **00:18:35.800** — native polls, 30-to-45-second screen
+- **00:18:38.960** — recordings, and relatable text [music]
+- **00:18:40.920** — posts. So, these kinds of formats are
+- **00:18:42.960** — built around how people actually consume
+- **00:18:45.080** — content on the platform, rather than say
+- **00:18:47.800** — treating LinkedIn like a shorter version
+- **00:18:50.160** — of a company blog. And then the blog
+- **00:18:52.880** — carries the deeper material because
+- **00:18:55.200** — Claude recommends long-form articles of
+- **00:18:57.480** — more than just 1,500
+- **00:18:59.720** — words, detailed [music] how-to guides,
+- **00:19:02.520** — checklists, customer case studies, and
+- **00:19:05.080** — gated downloadable resources. And then
+- **00:19:07.840** — each article here becomes the main asset
+- **00:19:10.193** — [music] for that week, while the
+- **00:19:11.480** — LinkedIn posts introduce the topic from
+- **00:19:14.240** — different angles and direct readers back
+- **00:19:16.960** — to the website. There's also a clear
+- **00:19:19.400** — progression in the calls to action cuz
+- **00:19:22.440** — week one keeps the commitment low by
+- **00:19:24.680** — asking people to just follow the page or
+- **00:19:26.800** — leave a comment. And then during weeks
+- **00:19:29.120** — two [music] and three, the audience is
+- **00:19:31.480** — then kind of nudged and encouraged to
+- **00:19:33.720** — read a full guide or watch a complete
+- **00:19:35.840** — walk-through. So that by week four, the
+- **00:19:38.120** — messaging moves towards stronger actions
+- **00:19:40.840** — such as booking a demo, registering for
+- **00:19:43.560** — a live walk-through,
+- **00:19:44.908** — >> [music]
+- **00:19:45.120** — >> or downloading a checklist. So the mix
+- **00:19:47.960** — of content is also controlled across the
+- **00:19:50.480** — full month because around half of the
+- **00:19:52.760** — plan here is educational covering 2027
+- **00:19:57.360** — regulatory updates, HIPAA penalty
+- **00:19:59.840** — statistics, and [music] common
+- **00:20:01.440** — compliance audit traps. And then roughly
+- **00:20:03.680** — 1/4 is then focused on engagement
+- **00:20:06.320** — through polls, myth versus fact
+- **00:20:08.280** — carousels, and discussion-based hooks.
+- **00:20:11.200** — And then the remaining quarter is
+- **00:20:12.760** — promotional using client quote cards,
+- **00:20:15.200** — feature dashboards, case studies, and
+- **00:20:17.600** — live demo webinars to introduce the
+- **00:20:20.400** — product more directly. So that balance
+- **00:20:23.280** — here keeps the calendar from becoming
+- **00:20:25.560** — too sales heavy. [music] The audience
+- **00:20:27.920** — receives useful information first and
+- **00:20:30.480** — then it sees proof in product messaging
+- **00:20:32.920** — at points where it makes sense in the
+- **00:20:35.120** — wider sequence. [music] And then after
+- **00:20:36.880** — the calendar is created, a single idea
+- **00:20:39.320** — can then be developed into finished copy
+- **00:20:42.360** — without rebuilding the context. So the
+- **00:20:44.880** — next instruction shown here on your
+- **00:20:46.920** — screen points Claude to week [music] two
+- **00:20:49.680** — LinkedIn post one, which covers what a
+- **00:20:51.840** — new HIPAA compliance update means for
+- **00:20:54.120** — say a clinic's daily operations. It asks
+- **00:20:57.160** — for a publish-ready LinkedIn post with a
+- **00:20:59.480** — strong hook, of course, short
+- **00:21:01.360** — single-sentence paragraphs, bulleted key
+- **00:21:04.160** — points, and a professional call to
+- **00:21:06.320** — action leading readers to the complete
+- **00:21:08.749** — [music] guide on the company blog. And
+- **00:21:11.680** — because the request is in [music] the
+- **00:21:13.520** — same conversation, well, then Claude
+- **00:21:16.120** — already understands the brand, the
+- **00:21:18.600** — audience, the topic, the monthly
+- **00:21:20.240** — objective, [music]
+- **00:21:21.240** — and the role that post plays in the
+- **00:21:23.920** — calendar. So, all of that makes the
+- **00:21:26.360** — expanded version uh more consistent with
+- **00:21:28.960** — the wider campaign, and it avoids the
+- **00:21:31.680** — disconnected tone that sometimes often
+- **00:21:33.440** — appears when every post is written
+- **00:21:35.520** — separately. So, the format is also
+- **00:21:37.960** — deliberate here. Short paragraphs make
+- **00:21:40.520** — the post easier [music] to scan on
+- **00:21:42.080** — LinkedIn. The key points help simplify
+- **00:21:44.720** — regulatory information, and the final
+- **00:21:47.000** — call to action also supports the medium
+- **00:21:49.600** — friction goal assigned to that stage of
+- **00:21:51.760** — the month. So, the real time saving here
+- **00:21:54.440** — comes from starting with a complete
+- **00:21:56.480** — editorial framework, rather than say
+- **00:21:58.720** — facing a blank page for every [music]
+- **00:22:00.520** — post. The marketer can review, refine,
+- **00:22:03.160** — and adjust the plan based on team
+- **00:22:05.360** — priorities, instead of spending, say,
+- **00:22:07.720** — hours building the month from scratch.
+- **00:22:10.280** — Next, a strong email sequence is one of
+- **00:22:12.920** — the highest return marketing assets that
+- **00:22:15.280** — a business can build because, well, it
+- **00:22:17.200** — guides new leads through a complete
+- **00:22:19.480** — journey, [music]
+- **00:22:20.360** — instead of say relying on a single sales
+- **00:22:22.760** — email. And the problem is that many
+- **00:22:25.160** — nurture sequences are written over
+- **00:22:27.480** — several weeks, sometimes by different
+- **00:22:29.280** — people even, which then makes [music]
+- **00:22:30.680** — the tone just kind of inconsistent and
+- **00:22:32.440** — the pacing uneven. The result here then
+- **00:22:35.320** — is often a series of emails that either
+- **00:22:37.520** — rush into the sale too quickly or just
+- **00:22:39.680** — kind of repeat themselves without really
+- **00:22:41.320** — steadily building trust. [music] A
+- **00:22:43.480** — better approach then is to just generate
+- **00:22:45.960** — the entire sequence in one conversation
+- **00:22:48.480** — so that every email is written with the
+- **00:22:50.480** — same context in mind. So, I'm going to
+- **00:22:52.720** — show you the prompt here on your screen,
+- **00:22:54.205** — [music] and as you can read, we're
+- **00:22:55.480** — telling Claude about the product, how
+- **00:22:57.720** — the subscriber enters the funnel, the
+- **00:22:59.680** — overall objective of the sequence,
+- **00:23:01.410** — [music]
+- **00:23:02.120** — and the brand voice it should maintain
+- **00:23:04.280** — throughout. The example here then
+- **00:23:06.760** — revolves around financial analytics
+- **00:23:09.000** — software [music] built for e-commerce
+- **00:23:11.000** — store owners. New subscribers will enter
+- **00:23:14.080** — the sequence after downloading an
+- **00:23:16.720** — e-commerce profit margin calculator
+- **00:23:19.096** — [music] spreadsheet, and then the goal
+- **00:23:21.160** — is to nurture them over say 10 days
+- **00:23:23.920** — before encouraging them to start a paid
+- **00:23:25.840** — trial. Claude is also instructed to keep
+- **00:23:28.640** — the writing empathetic, to be an expert,
+- **00:23:30.960** — to be direct and transparent, while
+- **00:23:33.480** — generating five emails in the
+- **00:23:35.960** — chronological order they're supposed to
+- **00:23:37.560** — be in. Now, each one here includes
+- **00:23:39.320** — subject line options, preview [music]
+- **00:23:40.880** — text, the email itself, and a clear call
+- **00:23:43.160** — to action. Giving Claude the entire
+- **00:23:45.400** — funnel up front allows it to think
+- **00:23:47.880** — beyond just a single email, [music] for
+- **00:23:49.640** — example. It can build a complete
+- **00:23:51.240** — narrative where every message just
+- **00:23:53.560** — naturally leads into the next one
+- **00:23:55.720** — instead of treating each one as an
+- **00:23:57.640** — isolated task. [music]
+- **00:23:59.160** — And then the sequence starts by
+- **00:24:00.360** — delivering exactly what the subscriber
+- **00:24:02.440** — requested. The first email immediately
+- **00:24:05.000** — provides the profit margin calculator,
+- **00:24:07.200** — but it also reframes the conversation by
+- **00:24:10.040** — explaining the overall profit margin
+- **00:24:12.151** — [music] that it's only part of the
+- **00:24:14.280** — picture. It encourages readers to really
+- **00:24:16.920** — pay attention to SKU level profit leaks,
+- **00:24:19.560** — and finishes up with a simple postscript
+- **00:24:22.120** — asking them to reply with their current
+- **00:24:24.160** — margin. So, that small interaction here
+- **00:24:27.400** — helps create a more personal
+- **00:24:29.240** — relationship, while also supporting
+- **00:24:31.280** — email deliverability. So, the second and
+- **00:24:33.720** — the third emails focus on education
+- **00:24:36.320** — rather than just selling. The second
+- **00:24:38.160** — message compares two e-commerce [music]
+- **00:24:40.120** — founders, for example. And then one
+- **00:24:42.360** — appears successful with a 30% margin,
+- **00:24:45.320** — but [music] still ends up going out of
+- **00:24:46.920** — business, while another, well, they grow
+- **00:24:49.480** — profitability despite operating with a
+- **00:24:52.280** — 12% margin. [music]
+- **00:24:54.080** — So, the comparison between the two here
+- **00:24:56.280** — highlights the differences between
+- **00:24:58.560** — static spreadsheet snapshots and
+- **00:25:00.880** — continuous financial tracking. And then
+- **00:25:03.400** — the third email continues that
+- **00:25:05.520** — educational approach by breaking down
+- **00:25:07.920** — three hidden profit drains that really
+- **00:25:10.320** — many businesses overlook. It covers
+- **00:25:13.200** — payment processing creep, hidden return
+- **00:25:15.560** — labor costs, and advertising losses
+- **00:25:18.320** — hidden behind blended return [music] on
+- **00:25:20.800** — ad spend. So, rather than introducing
+- **00:25:23.240** — product features, these emails now just
+- **00:25:25.840** — teach readers how to think about
+- **00:25:27.720** — profitability, which then builds
+- **00:25:29.840** — credibility before any sales messages
+- **00:25:32.200** — appear. So, the final two emails then
+- **00:25:34.400** — kind of shift towards the product itself
+- **00:25:36.647** — >> [music]
+- **00:25:36.680** — >> without becoming overly aggressive. The
+- **00:25:38.720** — fourth email introduces the software, of
+- **00:25:41.360** — course, through [music] a customer
+- **00:25:42.640** — story, showing how, say, an e-commerce
+- **00:25:45.560** — seller discovered that what they
+- **00:25:47.600** — believed was their best-selling product,
+- **00:25:49.880** — well, was actually their their [music]
+- **00:25:51.720** — least profitable item. So, then the
+- **00:25:54.080** — product becomes part of a real business
+- **00:25:56.680** — problem instead of just being presented
+- **00:25:58.960** — as a list of features as they normally
+- **00:26:00.920** — do. The fifth email delivers the offer
+- **00:26:03.200** — directly. It explains practical benefits
+- **00:26:05.520** — such as the daily SKU profit margin
+- **00:26:07.640** — updates and alert [music] thresholds,
+- **00:26:09.840** — and then removes hesitation by really
+- **00:26:12.120** — emphasizing the trial requires no credit
+- **00:26:14.400** — card and no contract. And because the
+- **00:26:16.600** — entire sequence here was planned
+- **00:26:18.160** — together, the transition from, say,
+- **00:26:20.880** — education to product it feels gradual.
+- **00:26:23.760** — Each email builds on the ideas
+- **00:26:25.360** — introduced earlier, making the overall
+- **00:26:27.120** — funnel read like one connected
+- **00:26:29.360** — conversation instead of five separate
+- **00:26:32.000** — marketing messages. And then, if one
+- **00:26:34.560** — part of the sequence needs, say, a
+- **00:26:36.120** — different approach, there's no need
+- **00:26:38.040** — really to rebuild everything from
+- **00:26:39.800** — scratch. The next instruction shown here
+- **00:26:42.600** — on your screen asks Claude to actually
+- **00:26:44.760** — rewrite the fourth email using a
+- **00:26:46.680** — faster-paced profit leak teardown
+- **00:26:49.120** — instead of the original soft product
+- **00:26:51.318** — [music] introduction. It also tells
+- **00:26:53.360** — Claude to demonstrate how an e-commerce
+- **00:26:55.760** — business use the software to uncover and
+- **00:26:59.360** — fix a 15% profit leak in its advertising
+- **00:27:02.200** — spend while still keeping the same
+- **00:27:04.320** — empathetic brand voice. So that makes it
+- **00:27:06.760** — easy to compare different messaging
+- **00:27:08.520** — styles for an important conversion email
+- **00:27:11.360** — without affecting the rest of the
+- **00:27:13.200** — funnel. Now one version can lean on say
+- **00:27:16.040** — storytelling while another increases
+- **00:27:18.280** — urgency allowing marketers to really
+- **00:27:20.720** — evaluate which approach here is more
+- **00:27:23.000** — likely to resonate before sending the
+- **00:27:25.320** — campaign off. So keeping every email
+- **00:27:27.480** — inside the same Claude conversation also
+- **00:27:30.560** — preserves the [music] full customer
+- **00:27:32.360** — journey. The model will remember what
+- **00:27:35.200** — subscribers learned in the earlier
+- **00:27:37.240** — messages. It will reference those ideas
+- **00:27:40.360** — naturally as the sequence progresses and
+- **00:27:43.360** — then it also introduces the product at
+- **00:27:46.000** — the right moment. So the result then is
+- **00:27:48.120** — a more consistent voice through the
+- **00:27:50.200** — pacing and a nurture sequence that
+- **00:27:52.889** — >> [music]
+- **00:27:53.000** — >> really does feel intentionally connected
+- **00:27:56.000** — from that very first email through the
+- **00:27:57.880** — final offer.
+- **00:27:59.400** — A well-written article usually starts
+- **00:28:01.400** — long before anyone begins writing. The
+- **00:28:04.520** — quality of the final content then often
+- **00:28:06.240** — depends on the SEO brief behind it yet
+- **00:28:08.680** — this is still one of the most
+- **00:28:10.400** — inconsistent documents in many content
+- **00:28:13.360** — marketing teams. Because say when a
+- **00:28:15.720** — writer only receives a target keyword
+- **00:28:18.240** — and a suggested word [music] count then
+- **00:28:19.800** — the result is usually
+- **00:28:21.680** — a generic article that misses the search
+- **00:28:23.600** — intent that might overlook important
+- **00:28:25.680** — subtopics and really does struggle to
+- **00:28:27.960** — compete in search results. So building a
+- **00:28:30.480** — proper brief manually also takes time
+- **00:28:32.720** — here [music] because it requires
+- **00:28:34.400** — researching deep search results
+- **00:28:36.200** — themselves, mapping the headings, and
+- **00:28:37.840** — then identifying the right topics before
+- **00:28:40.560** — the first paragraph is even written.
+- **00:28:42.669** — >> [music]
+- **00:28:42.880** — >> But Claude can handle much of that
+- **00:28:44.640** — planning in a single conversation. So
+- **00:28:46.880** — here's the prompt on your screen that
+- **00:28:48.200** — I'm going to use, and as you can read,
+- **00:28:49.680** — the key idea is that it provides more
+- **00:28:51.560** — than just a keyword. [music]
+- **00:28:53.480** — It also defines the audience, the
+- **00:28:55.600** — business objective, and the exact
+- **00:28:57.440** — structure the brief should follow.
+- **00:28:59.044** — [music]
+- **00:28:59.680** — And as you can see here, the example
+- **00:29:01.640** — targets the keyword enterprise cloud
+- **00:29:04.280** — cost optimization, and it's written for
+- **00:29:07.120** — IT directors and enterprise
+- **00:29:09.360** — infrastructure architects. The article
+- **00:29:12.200** — is intended to rank on the first page of
+- **00:29:14.840** — Google, while also still generating
+- **00:29:17.360** — enterprise [music] consultation
+- **00:29:19.360** — bookings. So, Claude is asked to build a
+- **00:29:22.680** — complete SEO brief that includes the
+- **00:29:25.200** — primary keyword, of course, and related
+- **00:29:27.160** — semantic terms, the search intent, the
+- **00:29:29.520** — recommended content angle, target word
+- **00:29:31.795** — [music] count, heading structure,
+- **00:29:33.400** — internal linking opportunities, and
+- **00:29:35.480** — where calls to action should appear
+- **00:29:37.440** — throughout the article. So, rather than
+- **00:29:40.320** — creating a simple outline only, Claude
+- **00:29:42.960** — produces a complete editorial blueprint
+- **00:29:46.205** — >> [music]
+- **00:29:46.360** — >> that explains the reasoning behind every
+- **00:29:48.800** — recommendation. And it starts by
+- **00:29:50.960** — identifying the problems enterprise
+- **00:29:53.160** — decision-makers are actually trying to
+- **00:29:55.120** — solve, and frames the article around a
+- **00:29:57.800** — FinOps maturity model, instead of say
+- **00:30:00.400** — offering broad, generic advice about
+- **00:30:03.080** — reducing cloud costs. The heading
+- **00:30:05.600** — structure is built to address gaps that
+- **00:30:08.040** — are commonly found in competing
+- **00:30:09.640** — articles. Topics [music] such as, say,
+- **00:30:12.080** — hidden storage costs and container
+- **00:30:14.400** — sprawl are included because, well, they
+- **00:30:16.800** — do strengthen [music] the topical
+- **00:30:18.600** — coverage, while each H2, H3, and H4
+- **00:30:21.600** — section here is designed to answer a
+- **00:30:23.200** — specific part of the searcher's journey,
+- **00:30:25.320** — instead of just simply filling in space.
+- **00:30:26.815** — [music]
+- **00:30:27.800** — The brief also looks beyond those
+- **00:30:29.520** — headings. Claude recommends internal
+- **00:30:31.760** — links that strengthen [music] topical
+- **00:30:33.480** — authority across the site, and places
+- **00:30:35.840** — calls to action where they ought to and
+- **00:30:38.200** — do make the most sense. So, early in the
+- **00:30:40.200** — article here, the reader is encouraged
+- **00:30:41.880** — to download a self-assessment [music]
+- **00:30:44.320** — resource, while the later sections then
+- **00:30:46.640** — down the page transition towards a more
+- **00:30:49.120** — higher intent [music] consultation offer
+- **00:30:51.440** — after presenting a practical 90-day
+- **00:30:53.760** — implementation roadmap. So, every
+- **00:30:56.520** — structural recommendation here supports
+- **00:30:59.000** — either stronger search visibility or
+- **00:31:01.531** — [music] better conversion performance.
+- **00:31:03.880** — And before generating the full brief,
+- **00:31:06.080** — there is still another useful step here.
+- **00:31:08.440** — The follow-up instruction shown right
+- **00:31:10.520** — here on your screen asks Claude to first
+- **00:31:13.160** — analyze the search intent behind the
+- **00:31:15.080** — keyword. So, rather than just jumping
+- **00:31:17.120** — directly into the outline, it evaluates
+- **00:31:19.720** — whether the searcher is looking for,
+- **00:31:21.520** — say, a basic definition, a detailed
+- **00:31:24.040** — implementation guide, or
+- **00:31:25.766** — >> [music]
+- **00:31:25.800** — >> a comparison between different vendors.
+- **00:31:28.040** — It also explains what level of depth and
+- **00:31:31.080** — content format would be needed to
+- **00:31:33.680** — outperform the existing search results.
+- **00:31:36.760** — So, starting with that analysis then
+- **00:31:38.880** — reduces the chances of building an
+- **00:31:40.640** — article around the wrong assumptions,
+- **00:31:42.760** — for example. If the search intent is
+- **00:31:44.880** — misunderstood, even a well-written piece
+- **00:31:47.560** — may just still struggle to rank because
+- **00:31:49.440** — it does not answer the question users
+- **00:31:51.440** — actually have. So, by identifying the
+- **00:31:53.880** — search intent [music] first, Claude can
+- **00:31:56.000** — build an outline that matches both
+- **00:31:58.120** — Google's expectations and the needs of
+- **00:32:00.320** — the target audience. And one of the
+- **00:32:02.320** — biggest advantages of this specific
+- **00:32:04.400** — workflow is well the amount of time it
+- **00:32:06.560** — saves before writing even begins. A
+- **00:32:08.920** — detailed SEO brief often takes what, 1
+- **00:32:11.240** — to 2 hours at least to prepare manually.
+- **00:32:13.560** — Claude can produce an intent-driven
+- **00:32:15.440** — editorial plan in just a few minutes,
+- **00:32:17.880** — giving writers a much stronger
+- **00:32:19.600** — foundation and reducing the amount of
+- **00:32:22.480** — editing and restructuring needed later
+- **00:32:24.760** — in the content [music] creation process.
+- **00:32:27.440** — Now, one of the easiest ways to spot a
+- **00:32:29.480** — growing marketing team is by reading
+- **00:32:31.922** — [music] its content. The website might
+- **00:32:33.960** — sound polished, the emails feel
+- **00:32:35.680** — conversational, and then the social
+- **00:32:37.360** — posts take on an entirely different
+- **00:32:39.280** — personality. So, that kind of
+- **00:32:41.160** — inconsistency rarely happens because
+- **00:32:43.640** — people are poor writers. Rather, more
+- **00:32:46.200** — often, it happens because the brand
+- **00:32:48.840** — voice only exists as unwritten
+- **00:32:51.360** — expectations instead of a documented
+- **00:32:53.920** — system that everyone can follow. So,
+- **00:32:55.920** — instead of trying to describe the voice
+- **00:32:57.640** — from scratch, Claude can build it by
+- **00:33:00.000** — studying content that already performs
+- **00:33:02.280** — well. So, in this example here, the
+- **00:33:04.640** — prompt shown on your screen asks Claude
+- **00:33:07.080** — to analyze three successful pieces of
+- **00:33:09.560** — marketing copy,
+- **00:33:10.567** — >> [music]
+- **00:33:10.760** — >> and then to reverse engineer the
+- **00:33:12.600** — communication style into a structured
+- **00:33:14.920** — brand voice blueprint. Now, the samples
+- **00:33:17.760** — all come from Mailchimp, but represent
+- **00:33:20.400** — different customer touchpoints. [music]
+- **00:33:22.440** — And the first is homepage copy
+- **00:33:24.840** — introducing the platform's value
+- **00:33:26.920** — proposition. And then the second is a
+- **00:33:29.200** — product announcement email about its
+- **00:33:31.080** — AI-powered creative assistant. And
+- **00:33:33.560** — finally, the third is a LinkedIn post
+- **00:33:35.760** — that focuses on automation success
+- **00:33:37.920** — stories for small business owners.
+- **00:33:40.040** — Looking across multiple formats, then,
+- **00:33:42.280** — gives Claude enough material to identify
+- **00:33:45.160** — those patterns that stay consistent
+- **00:33:47.360** — regardless of where the content appears.
+- **00:33:50.200** — So, rather than returning broad advice
+- **00:33:52.440** — like, "Be approachable." or "Sound
+- **00:33:54.520** — professional." Claude organizes its
+- **00:33:57.240** — findings into a more practical [music]
+- **00:33:59.280** — reference guide. It documents the
+- **00:34:01.400** — brand's overall personality, its
+- **00:34:03.400** — preferred sentence [music] rhythm,
+- **00:34:05.000** — vocabulary choices, punctuation style,
+- **00:34:07.640** — and how the voice should adapt across
+- **00:34:10.120** — LinkedIn, email, and advertising. Also,
+- **00:34:12.840** — one of the most valuable sections
+- **00:34:14.758** — [music] explains the brand's personality
+- **00:34:17.360** — in concrete terms because Claude
+- **00:34:19.520** — identifies the communication style as an
+- **00:34:21.840** — empowering guide that positions the
+- **00:34:24.360** — reader as the hero while the brand acts
+- **00:34:26.960** — as a sort of helpful partner.
+- **00:34:28.513** — >> [music]
+- **00:34:28.760** — >> And just as importantly, it establishes
+- **00:34:30.879** — what the brand should avoid, including
+- **00:34:33.120** — corporate jargon, overly formal
+- **00:34:35.320** — language, and fear-based marketing that
+- **00:34:37.960** — relies on pressure instead of
+- **00:34:40.000** — confidence. The blueprint also captures
+- **00:34:43.159** — the writing patterns that make the copy
+- **00:34:45.560** — recognizable. It identifies short
+- **00:34:47.760** — opening hooks,
+- **00:34:48.818** — >> [music]
+- **00:34:49.159** — >> deliberate sentence fragments, active
+- **00:34:51.560** — voice of course, rule of three
+- **00:34:53.159** — structures, and a rhythm that introduces
+- **00:34:56.023** — [music] a familiar challenge before
+- **00:34:58.640** — immediately presenting a practical
+- **00:35:00.760** — solution. So, these are the kinds of
+- **00:35:03.160** — habits that people often notice
+- **00:35:05.320** — subconsciously, but rarely document.
+- **00:35:08.480** — Vocabulary receives the same level of
+- **00:35:10.600** — detail as well. Claude separates words
+- **00:35:13.040** — and phrases a brand consistently uses
+- **00:35:15.480** — from those it deliberately avoids. It
+- **00:35:18.280** — also recognizes that strong claims are
+- **00:35:21.080** — usually supported by a specific
+- **00:35:23.320** — mechanism or proof point instead of
+- **00:35:26.160** — relying on vague promises or [music]
+- **00:35:28.200** — marketing hype. So, then that creates
+- **00:35:30.640** — clear rules that writers can follow
+- **00:35:32.800** — rather than asking them to interpret an
+- **00:35:35.360** — abstract tone. Another useful part of
+- **00:35:37.520** — the blueprint here is how it handles
+- **00:35:39.254** — [music] different marketing channels.
+- **00:35:41.680** — The voice, of course, remains
+- **00:35:43.240** — recognizable across every single
+- **00:35:45.120** — platform, but it's deliberate changes
+- **00:35:47.760** — depending on the audience and the
+- **00:35:49.280** — context. [music]
+- **00:35:50.440** — So, the website adopts a more
+- **00:35:52.440** — authoritative role when explaining
+- **00:35:54.319** — [music] the product, while email reads
+- **00:35:56.120** — like advice from a trusted colleague,
+- **00:35:58.720** — and then social media places greater
+- **00:36:01.040** — emphasis on community, conversation, and
+- **00:36:04.320** — customer [music] proof. The personality
+- **00:36:06.800** — does stay consistent while the
+- **00:36:08.480** — presentation just adjusts [music] to fit
+- **00:36:10.440** — the channel. And once the guide has been
+- **00:36:12.800** — created, it can then be tested
+- **00:36:14.520** — immediately. The follow-up instruction
+- **00:36:16.880** — here, shown on your screen, provides us
+- **00:36:19.360** — with a short corporate-style product
+- **00:36:21.680** — announcement, and it also asks Claude to
+- **00:36:24.560** — rewrite it using the brand voice
+- **00:36:27.040** — blueprint that it has just produced.
+- **00:36:29.035** — [music]
+- **00:36:30.000** — And then the original message just
+- **00:36:31.400** — simply analysis enhanced reporting
+- **00:36:33.440** — features designed to improve user
+- **00:36:36.040** — efficiency while the rewritten version
+- **00:36:38.320** — then applies all of the document to
+- **00:36:40.280** — tone, the structure, and vocabulary
+- **00:36:42.960** — rules. So that validation step is
+- **00:36:45.120** — important because it shows whether the
+- **00:36:47.480** — blueprint works [music] outside the
+- **00:36:49.160** — original examples. Instead of say
+- **00:36:51.640** — remaining a theoretical style guide, it
+- **00:36:54.360** — becomes a practical standard that can
+- **00:36:57.200** — now transform ordinary marketing copy
+- **00:36:59.880** — into something that matches the
+- **00:37:01.240** — established brand identity. So after the
+- **00:37:04.000** — blueprint has been generated, it can
+- **00:37:06.040** — just then be reused in future Claude
+- **00:37:08.480** — conversations by anyone on the team.
+- **00:37:11.320** — Rather than relying on institutional
+- **00:37:13.480** — knowledge or informal guidance,
+- **00:37:15.600** — marketers can now just start every new
+- **00:37:17.600** — project with the same documented voice,
+- **00:37:20.600** — making it much easier to just scale
+- **00:37:23.360** — content production while keeping the
+- **00:37:25.880** — brand consistent across every channel.
+- **00:37:28.600** — Lastly, marketing dashboards can show
+- **00:37:30.840** — hundreds of numbers, but numbers alone
+- **00:37:34.280** — really rarely tell you what decisions to
+- **00:37:36.800** — make next. Looking at spending clicks
+- **00:37:39.640** — and conversions and revenue individually
+- **00:37:42.120** — is easy enough. [music] The difficult
+- **00:37:44.040** — part is understanding how those metrics
+- **00:37:46.000** — just influence one another and then
+- **00:37:48.000** — deciding where the budget will have the
+- **00:37:50.080** — biggest impact. Now under tight
+- **00:37:52.120** — reporting deadlines, that analysis can
+- **00:37:54.320** — often get reduced to just simple
+- **00:37:56.320** — observations instead [music] of
+- **00:37:57.840** — meaningful recommendations.
+- **00:38:00.040** — Claude can help here by bridging that
+- **00:38:02.400** — gap by treating campaign data as a
+- **00:38:05.480** — business decision rather than just a
+- **00:38:07.200** — reporting exercise. All right, so let's
+- **00:38:09.160** — go ahead and use this prompt here on
+- **00:38:10.440** — your screen. And this one includes raw
+- **00:38:12.600** — performance data from three advertising
+- **00:38:15.160** — campaigns running across Meta [music]
+- **00:38:17.160** — Ads, LinkedIn Ads, and Google Search.
+- **00:38:20.160** — Instead of asking Claude say, to
+- **00:38:22.760** — summarize the figures, instead the
+- **00:38:25.600** — instructions specifically requests a
+- **00:38:28.280** — diagnostic analysis that explains what
+- **00:38:30.640** — is driving performance and what actions
+- **00:38:33.160** — should be taken next. The data also
+- **00:38:35.960** — includes each campaign spend,
+- **00:38:37.960** — impressions, clicks, conversions, and
+- **00:38:39.920** — revenue. So that from here, Claude is
+- **00:38:42.200** — then instructed to identify the
+- **00:38:44.320** — strongest efficiency drivers to uncover
+- **00:38:47.480** — areas where budget is being wasted, to
+- **00:38:50.040** — explain [music] the relationship between
+- **00:38:51.640** — key marketing metrics, and to recommend
+- **00:38:54.400** — exactly how the advertising budget
+- **00:38:56.920** — should be reallocated. So that
+- **00:38:59.440** — distinction then is important here
+- **00:39:01.160** — because the response now focuses on
+- **00:39:04.040** — interpretation instead of just
+- **00:39:05.880** — repetition. Rather than listing
+- **00:39:08.000** — performance numbers, Claude then
+- **00:39:09.880** — evaluates how metrics such as, say,
+- **00:39:12.600** — click-through rate, [music] cost per
+- **00:39:14.320** — acquisition, and return on ad spend, how
+- **00:39:17.280** — all of those work together to explain
+- **00:39:19.280** — why each campaign [music] is performing
+- **00:39:21.360** — differently. Now, one of the first
+- **00:39:23.080** — insights is that each advertising
+- **00:39:25.240** — channel succeeds [music] for a different
+- **00:39:27.440** — reason. LinkedIn delivers strong return
+- **00:39:30.360** — on ad spend [music] because of the
+- **00:39:32.760** — higher value generated from each
+- **00:39:34.760** — conversion, not because it acquires
+- **00:39:37.480** — customers at the lowest cost. Google
+- **00:39:40.240** — Search here stands out for acquisition
+- **00:39:42.240** — efficiency, [music] making it well
+- **00:39:44.120** — suited for capturing high-intent
+- **00:39:46.280** — traffic. And then Meta, on the other
+- **00:39:48.240** — hand, shows signs of losing efficiency
+- **00:39:50.840** — after the click, [music]
+- **00:39:52.080** — suggesting that the issue lies further
+- **00:39:54.240** — down the conversion funnel instead of
+- **00:39:56.240** — with ad visibility or engagement. So
+- **00:39:59.200** — instead of just stopping there, Claude
+- **00:40:01.280** — continues and turns those findings into
+- **00:40:03.120** — a practical optimization plan. It
+- **00:40:05.560** — recommends reducing Meta's budget by 30%
+- **00:40:08.462** — [music] or $1,500,
+- **00:40:11.120** — and then redirecting that spend towards
+- **00:40:13.760** — Google Search to more capitalize on its
+- **00:40:16.560** — stronger conversion efficiency. And then
+- **00:40:18.800** — at the same time, it advises keeping
+- **00:40:20.680** — LinkedIn's budget stable while
+- **00:40:22.880** — collecting additional performance data,
+- **00:40:25.200** — recognizing that its stronger revenue
+- **00:40:27.400** — per customer still makes it valuable
+- **00:40:29.440** — within the overall acquisition strategy.
+- **00:40:32.600** — The recommendations here are presented
+- **00:40:34.920** — as [music] a sequence rather than say
+- **00:40:36.800** — isolated suggestions. Budget is shifted
+- **00:40:39.840** — first, funnel issues are addressed next,
+- **00:40:42.760** — and then only after those improvements
+- **00:40:45.000** — are measured does Claude then recommend
+- **00:40:47.680** — increasing investment again. So, that
+- **00:40:50.560** — creates a sort of roadmap instead of a
+- **00:40:52.960** — one-time optimization. Once the initial
+- **00:40:56.040** — analysis is complete, then the
+- **00:40:58.000** — conversation can move directly into
+- **00:41:00.080** — planning. The follow-up instruction
+- **00:41:02.080** — shown here on your screen asks Claude
+- **00:41:04.360** — how an additional $5,000
+- **00:41:07.360** — should be allocated across the weak
+- **00:41:09.880** — campaigns to achieve the lowest overall
+- **00:41:13.000** — cost per acquisition. So, rather than
+- **00:41:15.160** — giving a general recommendation, it
+- **00:41:17.400** — requests an exact dollar allocation
+- **00:41:20.680** — supported, of course, by financial
+- **00:41:22.440** — reasoning. And because Claude already
+- **00:41:24.560** — understands the performance of every
+- **00:41:26.520** — single campaign here, it can just build
+- **00:41:28.960** — on its earlier conclusions instead of
+- **00:41:30.800** — say starting from scratch. The
+- **00:41:32.840** — additional budget is then distributed
+- **00:41:34.880** — according to the efficiency patterns
+- **00:41:36.640** — identified in the first analysis, making
+- **00:41:39.840** — the recommendation immediately usable
+- **00:41:42.240** — for the next month's planning. So, the
+- **00:41:44.520** — biggest takeaway from this workflow is
+- **00:41:47.000** — the difference between reporting and
+- **00:41:49.400** — analysis. A report simply converts
+- **00:41:52.520** — dashboard numbers into sentences.
+- **00:41:54.573** — [music]
+- **00:41:55.200** — A diagnostic analysis, however, explains
+- **00:41:57.880** — why those numbers matter. It identifies
+- **00:42:00.240** — the factors driving that performance,
+- **00:42:02.433** — [music] and it turns raw campaign data
+- **00:42:04.520** — into clear budget decisions that
+- **00:42:06.960** — marketers can actually act on
+- **00:42:08.480** — immediately. So, after working now
+- **00:42:10.840** — through these seven workflows, one
+- **00:42:13.360** — pattern really does become clear. The
+- **00:42:15.800** — marketers getting the strongest results
+- **00:42:17.800** — from Claude are not using it simply to
+- **00:42:20.000** — generate copy.
+- **00:42:21.429** — >> [music]
+- **00:42:21.600** — >> They're using it to think through
+- **00:42:23.960** — marketing problems before execution even
+- **00:42:26.720** — begins. So that difference [music]
+- **00:42:28.520** — changes the quality of everything that
+- **00:42:30.720** — Claude produces. If you treat it like a
+- **00:42:32.840** — writing tool, well then the prompts are
+- **00:42:34.480** — usually going to be short and lack some
+- **00:42:36.520** — context. [music] Something like asking
+- **00:42:38.760** — it to write a social media post about a
+- **00:42:41.160** — new feature. That forces Claude to just
+- **00:42:43.640** — make assumptions about the audience, the
+- **00:42:46.400** — business objective, and the messaging.
+- **00:42:48.840** — And then the result of that is just
+- **00:42:50.560** — often more generic marketing copy that
+- **00:42:52.880** — still needs significant editing before
+- **00:42:55.080** — it's even usable.
+- **00:42:56.144** — >> [music]
+- **00:42:56.440** — >> The stronger approach instead is to give
+- **00:42:58.600** — Claude the same context that you would
+- **00:43:00.840** — provide to a senior strategist on your
+- **00:43:03.200** — team. And that means defining who the
+- **00:43:05.800** — audience is, where they are in the
+- **00:43:08.040** — funnel, what commercial outcome you are
+- **00:43:10.640** — trying to achieve, [music] any channel
+- **00:43:13.360** — specific requirements, and of course the
+- **00:43:15.960** — brand voice it should follow. Instead of
+- **00:43:18.560** — only asking for [music] finished copy,
+- **00:43:20.760** — you can then ask Claude to evaluate
+- **00:43:23.280** — messaging angles to explain the buyer
+- **00:43:25.960** — psychology behind a recommendation, to
+- **00:43:28.240** — diagnose campaign performance, or just
+- **00:43:30.760** — justify why one approach is likely to
+- **00:43:33.040** — outperform another. So then working this
+- **00:43:35.520** — way shifts your role as a marketer
+- **00:43:37.560** — because instead of spending most of your
+- **00:43:39.520** — time producing first drafts, you can now
+- **00:43:42.160** — spend more time reviewing strategy,
+- **00:43:44.360** — refining ideas, and making decisions
+- **00:43:47.235** — >> [music]
+- **00:43:47.480** — >> based on higher quality starting points.
+- **00:43:49.920** — So if you do want to begin using these
+- **00:43:51.840** — workflows immediately, there is no need
+- **00:43:54.600** — to implement all seven at once. I would
+- **00:43:56.320** — not do that. The fastest way to see
+- **00:43:58.240** — results is to start [music] with brand
+- **00:43:59.920** — voice development and writing, and then
+- **00:44:02.000** — AB testing ad copy. Creating a brand
+- **00:44:04.760** — voice blueprint gives every future
+- **00:44:07.120** — Claude conversation a consistent
+- **00:44:09.640** — foundation. And then once your tone,
+- **00:44:12.200** — your vocabulary, your sentence
+- **00:44:13.920** — structure, and channel guidelines have
+- **00:44:16.400** — been documented very well enough, then
+- **00:44:18.360** — every piece of marketing content becomes
+- **00:44:21.440** — just more consistent regardless of who
+- **00:44:24.040** — creates it. And then from there, just
+- **00:44:26.120** — move into ad copy generation and AB
+- **00:44:28.400** — testing. Expanding the number of
+- **00:44:30.800** — creative variations that you can test
+- **00:44:32.840** — across [music] platforms such as Meta,
+- **00:44:34.800** — LinkedIn, and TikTok makes it possible
+- **00:44:37.560** — to improve campaign performance [music]
+- **00:44:39.400** — much faster without spending hours
+- **00:44:42.360** — rewriting the same advertisement [music]
+- **00:44:44.600** — from different angles. So then once
+- **00:44:47.240** — those two workflows become a more
+- **00:44:49.280** — natural part of your process, you can
+- **00:44:51.360** — then gradually expand into the remaining
+- **00:44:53.360** — use cases. [music] So competitor
+- **00:44:55.280** — analysis helps uncover positioning
+- **00:44:57.680** — opportunities before launching
+- **00:44:59.640** — campaigns.
+- **00:45:00.596** — >> [music]
+- **00:45:00.840** — >> Content calendar planning builds
+- **00:45:02.920** — structured editorial schedules and set
+- **00:45:05.720** — of disconnected post ideas. Email
+- **00:45:08.456** — [music] sequence writing creates
+- **00:45:10.120** — complete nurture funnels with consistent
+- **00:45:12.720** — pacing and voice.
+- **00:45:14.360** — >> [music] >> SEO brief generation gives writers
+- **00:45:16.720** — stronger editorial direction before
+- **00:45:19.440** — content production begins. Campaign
+- **00:45:22.240** — performance analysis also then turns
+- **00:45:24.680** — reporting data into
+- **00:45:26.141** — >> [music]
+- **00:45:26.240** — >> practical optimization decisions and
+- **00:45:28.960** — budget recommendations. So no matter
+- **00:45:31.920** — which workflow you decide to use here,
+- **00:45:34.080** — the same principle again applies every
+- **00:45:35.800** — single time. The quality of Claude's
+- **00:45:38.400** — output [music]
+- **00:45:39.280** — depends almost entirely on the quality
+- **00:45:41.840** — of the brief that you provide. The most
+- **00:45:44.400** — effective prompts consistently include
+- **00:45:47.360** — four elements. They clearly define the
+- **00:45:50.120** — target audience. They explain the
+- **00:45:52.320** — business objective. They establish the
+- **00:45:54.440** — desired tone of voice. And they specify
+- **00:45:56.920** — exactly how the final output should be
+- **00:45:59.360** — structured. So then when those four
+- **00:46:01.200** — pieces are then present, Claude just
+- **00:46:03.080** — spends less time filling in missing
+- **00:46:04.786** — [music] context and more time producing
+- **00:46:07.720** — useful marketing work. So, after you
+- **00:46:10.080** — become comfortable with these seven
+- **00:46:12.080** — workflows, the same approach can be
+- **00:46:14.400** — applied to many other marketing
+- **00:46:16.960** — activities. [music]
+- **00:46:18.080** — Claude works equally well for developing
+- **00:46:20.720** — campaign names for
+- **00:46:22.472** — >> [music]
+- **00:46:22.600** — >> structuring landing page copy, preparing
+- **00:46:25.360** — influencer briefs for creative
+- **00:46:27.120** — partnerships, and writing tailored PR
+- **00:46:29.520** — pitches for journalists and industry
+- **00:46:31.720** — publications. The process stays the
+- **00:46:34.600** — same. You provide complete context, you
+- **00:46:37.320** — define the objective, and tell Claude
+- **00:46:39.320** — exactly what kind of output you need.
+- **00:46:41.840** — And if you have not yet built [music] a
+- **00:46:43.800** — consistent workflow with Claude, then
+- **00:46:45.960** — start with just a single task from
+- **00:46:48.040** — today's workflow. It might be writing an
+- **00:46:50.520** — advertisement, planning social content,
+- **00:46:53.160** — or outlining [music] an email campaign.
+- **00:46:55.440** — So, open up Claude.ai, follow the same
+- **00:46:58.280** — briefing structure that we've
+- **00:46:59.600** — demonstrated throughout this guide, and
+- **00:47:01.960** — then complete one high-context [music]
+- **00:47:04.800** — session from start to finish. And as you
+- **00:47:07.360** — discover prompts that really
+- **00:47:08.800** — consistently produce strong results for
+- **00:47:10.920** — you, then save them as reusable
+- **00:47:13.240** — templates. And then, over time, those
+- **00:47:15.720** — templates become documented workflows
+- **00:47:18.520** — that anyone on your team can use, making
+- **00:47:22.240** — it much easier to scale high-quality
+- **00:47:24.060** — [music]
+- **00:47:24.920** — marketing output while still maintaining
+- **00:47:27.680** — consistency across every single project.
+- **00:47:29.937** — [music]
+- **00:47:30.800** — All right, so that's it. Those are the
+- **00:47:32.720** — seven practical ways that marketers are
+- **00:47:35.280** — using Claude for more than just writing
+- **00:47:37.840** — copy. So, start with one workflow from
+- **00:47:40.440** — your current workflow, give Claude the
+- **00:47:42.720** — full context, of course, and then turn
+- **00:47:44.840** — the prompts that work into repeatable
+- **00:47:47.000** — systems that your team can reuse. Now,
+- **00:47:49.760** — let me know in the comments below which
+- **00:47:51.720** — case you are trying out first. I want to
+- **00:47:54.040** — thank you for watching and sticking
+- **00:47:55.200** — around till the end and investing your
+- **00:47:56.480** — time with me today. I'll see you at the
+- **00:47:58.040** — next build.
+- **00:47:58.758** — >> [music]

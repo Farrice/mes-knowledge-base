@@ -54,6 +54,16 @@ Tiny, conversational, corrective, and mechanical turns stay lean. An explicit
 force the compiled packet, but ordinary raw language must trigger the intent
 adapter without magic words.
 
+## Analyst's Truth Standard (ACTIVE ADVISORY)
+
+When a meaningful result would otherwise stop at accurate reporting, apply the
+smallest useful depth move from `analysts-truth-standard.md`: relationship,
+bounded mechanism, decision delta, or falsification test. The native route and
+craft owner remain in charge. Do not apply the companion when the requested job
+is direct retrieval, a factual answer, mechanical work, or pure production, and
+do not expose its internal ladder unless the distinction itself changes the
+decision.
+
 ## One-Click Systems Zoom (SHADOW)
 
 When a meaningful local decision affects several downstream consumers,

@@ -7,11 +7,11 @@ status: enriched
 
 # Mood-Board Orchestrator — What We Built 2026-09-01 and How to Use It
 
-> This session replaced a text-only `/mood-board` brief with a connected creative-direction conductor: reference acquisition, three materially different visual territories, actual boards, one comparative proving surface, blind selection, and winner-only downstream handoff. The workflow lives at `.agent/workflows/mood-board.md`; the acceptance evidence is in `docs/mission-artifacts/mood-board-orchestrator-repair/COLD-START-PROOF.md`; the deterministic regression check is `execution/verify_mood_board_orchestrator.py`.
+> This session replaced a text-only `/mood-board` brief with a connected visual-board conductor: reference acquisition, three materially different visual territories, actual boards, one comparative proving surface, blind selection, and winner-only downstream handoff. After reconciliation with newer main authority, discovery-backed brand direction is parented by `/andrew-lane-design-systems`, which may compose `/mood-board` for board construction. The acceptance gate is both dedicated verifiers.
 
 ## ⚡ If you only read 10 lines
 
-- Start a real run with `/mood-board` and the discovery notes, objective, audience, constraints, and intended proving surface.
+- Start standalone campaign, shoot, event, product, or non-brand board work with `/mood-board`; start discovery-backed brand direction with `/andrew-lane-design-systems`.
 - The front door coordinates existing capabilities; it does not introduce a new moodboard expert or duplicate skill.
 - A finished run contains three actual visual boards, not three paragraphs of adjectives.
 - Each board needs 8–12 references or crops and at least three inspectable references.
@@ -26,7 +26,8 @@ status: enriched
 
 | Command | What it produces | Reach for it when |
 |---|---|---|
-| `/mood-board [discovery context]` | Three reference-locked visual boards, shared proving surface, blind decision, winner handoff | Discovery is complete enough to explore visual direction before production |
+| `/mood-board [visual brief]` | Three reference-locked visual boards, shared proving surface, blind decision, winner handoff | The job is standalone board construction rather than discovery-backed brand direction |
+| `/andrew-lane-design-systems [discovery evidence]` | Three client-ready brand directions, proving-surface decision, and ledger | Discovery evidence must become an approved brand direction |
 | `python3 execution/verify_mood_board_orchestrator.py` | Positive-route, rejection-control, structure, bridge, and ownership proof | The workflow, command wrapper, creative-direction skill, or routing binding changes |
 | `python3 execution/command_menu.py search "turn my discovery notes into three moodboards"` | Ranked command candidates | You suspect natural-language discoverability has drifted |
 | `python3 execution/workflow_router.py route "turn my discovery notes into three moodboards"` | Ranked workflow route with binding evidence | You need to prove the live router selects the front door rather than a component |
@@ -43,13 +44,13 @@ That changes the quality standard. A board is not complete because its language 
 
 ### One owner, bounded specialists
 
-`creative-direction` remains the function owner. Reference tools find evidence; Oren contributes taste and reference-edge judgment; the visual executor constructs boards and the proving surface; downstream owners receive only the winner. This prevents expert soup and preserves the craft seat.
+`creative-direction` remains the function owner for direct `/mood-board` runs. Reference tools find evidence; Oren contributes taste and reference-edge judgment; the visual executor constructs boards and the proving surface; downstream owners receive only the winner.
 
-Andrew Lane is deliberately downstream. His brand-layer and design-system capabilities are useful once a direction has been chosen, but making him the front-door owner would turn exploration into premature documentation. `/moodboard-sweep` also stays separate: it characterizes an existing visual library after production rather than choosing a new direction.
+Andrew Lane is the parent front door for discovery-backed brand direction and may compose `/mood-board` as a bounded board builder. `/moodboard-sweep` stays separate: it characterizes an existing visual library after production rather than choosing a new direction.
 
 ### Route proof needs rejection controls
 
-Natural-language discoverability was the control-plane failure. Generic creative-brief commands outranked `/mood-board` for ordinary requests, while component workflows could appear to solve the whole job. The repair adds a narrow binding for discovery-to-moodboard intent and explicit negative signals for adjacent work.
+Natural-language discoverability was the control-plane failure. The integrated repair now uses two narrow bindings: discovery-backed brand direction routes to Andrew Lane; standalone visual-board construction routes to `/mood-board`; negative signals protect adjacent work.
 
 The verifier therefore tests both sides. Eight positive phrases must reach `/mood-board`; four negative controls must not. A broad match on the word “moodboard” would pass the happy path and still break approved-board production, library sweeps, and full Brand Operating System builds.
 
@@ -110,7 +111,7 @@ No new moodboard was generated during the repair. The example proves orchestrati
 |---|---|---|---|
 | Refero or approved web/reference sources | Acquire concrete visual evidence | The brief lacks strong references | Research is not a delivered direction |
 | Oren taste development | Sharpen reference edge and blind judgment | Territories feel generic or collapse toward one aesthetic | Oren advises taste; `creative-direction` conducts |
-| Andrew Lane brand layers | Document the selected direction as durable decisions | A winner is chosen and needs system logic | Never front-door owner for exploration |
+| Andrew Lane brand direction | Own discovery evidence, three client directions, the proving decision, and durable rules | Brand discovery must become a client-approved direction | May compose `/mood-board`; remains parent owner |
 | `/design-md-synthesize` | Convert the winner into design tokens | The direction is approved | Do not synthesize all three territories |
 | `/moodboard-sweep` | Characterize an existing board library | Production history exists | Not a discovery-to-direction workflow |
 | `/build-bos` | Build the full Brand Operating System | Moodboards are one part of a broader engagement | Do not route every BOS request through `/mood-board` |

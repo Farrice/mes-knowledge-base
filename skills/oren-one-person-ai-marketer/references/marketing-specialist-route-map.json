@@ -1,0 +1,424 @@
+{
+  "version": "1.0",
+  "name": "Marketing Specialist Workbench",
+  "source_package": "extractions/video-context/SupWhagSCm8/",
+  "conductor": {
+    "skill": "oren-one-person-ai-marketer",
+    "role": "route, frame, preserve taste, and integrate; never replace route-owner craft"
+  },
+  "activation": {
+    "explicit_command": "ACTIVE_AFTER_VALIDATION",
+    "natural_language": "SHADOW",
+    "shadow_behavior": "May recommend /marketing-specialist. Must not auto-execute, block, add mandatory questions, or alter global routing.",
+    "promotion_gate": {
+      "real_production_receipts_required": 3,
+      "blind_comparison_required": true,
+      "frozen_safe_controls_must_pass": true,
+      "creative_range_must_be_preserved": true,
+      "explicit_farrice_approval_required": true
+    }
+  },
+  "policy": {
+    "selected_mode_limit": 1,
+    "primary_owner_limit_per_run": 1,
+    "bounded_support_limit_per_run": 1,
+    "bulk_load_forbidden": true,
+    "route_on_purchased_job": true,
+    "new_expert_persona_forbidden": true,
+    "missing_evidence_behavior": "PROVISIONAL_OR_RESEARCH_REQUIRED",
+    "explanation_rule": "Retain only evidence, labeled inference, decision, requested artifact, or test/next action.",
+    "evidence_states": [
+      "VERIFIED",
+      "LIKELY",
+      "UNCONFIRMED",
+      "UNTESTED",
+      "NO EVENT"
+    ]
+  },
+  "shared_input": [
+    "business decision and objective",
+    "target audience and awareness or funnel stage",
+    "channel and format constraints",
+    "voice owner and tone constraints",
+    "available evidence, proof, or performance data",
+    "requested output and next decision"
+  ],
+  "shared_output_spine": [
+    "Business decision and objective",
+    "Audience, funnel stage, channel, voice, and constraints",
+    "Evidence state and proof gaps",
+    "Finished route-native artifact",
+    "Decision-changing rationale, claims or causal limits, and next test"
+  ],
+  "modes": [
+    {
+      "id": "ads",
+      "signals": [
+        "ad variations",
+        "ad concepts",
+        "creative angles",
+        "paid creative",
+        "hooks for ads",
+        "awareness stage",
+        "campaign creative"
+      ],
+      "primary_owner": {
+        "skill": "oren-dara-ad-psychology",
+        "workflow": "skills/oren-dara-ad-psychology/workflows/01-tactic-select.md",
+        "command": "/adpsy-tactic-select"
+      },
+      "bounded_support": {
+        "when": "The user requests an executable test matrix after concept selection.",
+        "skill": "dara-denney-meta-ads",
+        "workflow": "skills/dara-denney-meta-ads/workflows/05-test-plan.md",
+        "command": "/dara-test-plan",
+        "changes": "format x message x persona test cells and hypotheses"
+      },
+      "required_inputs": [
+        "product or offer",
+        "target audience",
+        "platform",
+        "campaign goal",
+        "buyer awareness",
+        "available proof and prohibited claims"
+      ],
+      "output_contract": [
+        "2-3 mechanism-distinct concept routes",
+        "headline or hook seed",
+        "emotional angle and buyer-awareness fit",
+        "CTA and recommended vessel",
+        "proof requirement and failure-mode warning",
+        "optional test-plan handoff"
+      ],
+      "claim_boundary": "Concepts are hypotheses. Do not predict ROAS, CAC, conversion lift, or platform performance without observed evidence.",
+      "outside_owner_handoffs": [
+        {
+          "condition": "ROAS, CAC, attribution, incrementality, or budget diagnosis",
+          "owner": "benoit-vatere",
+          "command": "/golden-core-diagnostic"
+        }
+      ]
+    },
+    {
+      "id": "competitor",
+      "signals": [
+        "competitor messaging",
+        "competitive audit",
+        "landing page comparison",
+        "messaging gaps",
+        "crowded tropes",
+        "positioning whitespace",
+        "competitive alternatives"
+      ],
+      "primary_owner": {
+        "skill": "april-dunford-positioning",
+        "workflow": "skills/april-dunford-positioning/references/prompts-v2/02-competitive-alternative-mapper.md",
+        "command": "/dunford-positioning-diagnostic"
+      },
+      "bounded_support": {
+        "when": "Multiple external sources, customer quotes, or current-market research must stay provenance-locked.",
+        "skill": "jordan-crawford-gtm-intelligence",
+        "workflow": "skills/jordan-crawford-gtm-intelligence/workflows/positioning-offer-copy-handoff.md",
+        "command": null,
+        "changes": "immutable evidence rows, unknowns, preservation lock, and return path"
+      },
+      "required_inputs": [
+        "product and market",
+        "raw competitor copy or approved source URLs",
+        "known non-product alternatives and status quo",
+        "target segment",
+        "current positioning",
+        "available differentiated-value proof"
+      ],
+      "output_contract": [
+        "source inventory",
+        "value-proposition and audience-language matrix",
+        "emotional-territory and feature-outcome matrix",
+        "competitive alternatives and status quo",
+        "crowded-trope verdict",
+        "white-space verdict",
+        "two evidence-bounded positioning directions with hero-copy starting points",
+        "research and proof gaps"
+      ],
+      "claim_boundary": "Unclaimed language is not automatically defensible whitespace. Current competitor facts require supplied or live source evidence; absent evidence produces a research hypothesis.",
+      "outside_owner_handoffs": [
+        {
+          "condition": "Finished positioning must become a copy brief",
+          "owner": "april-dunford-positioning",
+          "command": "/dunford-positioning-to-copy"
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "signals": [
+        "content calendar",
+        "editorial calendar",
+        "monthly content plan",
+        "multi-channel calendar",
+        "four-week campaign",
+        "campaign progression",
+        "content cadence"
+      ],
+      "primary_owner_selector": {
+        "selection_rule": "Select exactly one branch: creator when a named individual and their sustainable content-to-revenue system is the center; brand when a company, product, or content team is the center.",
+        "creator": {
+          "skill": "jun-yuh-creator-vision",
+          "workflow": "skills/jun-yuh-creator-vision/workflows/content-marketing-playbook.md",
+          "command": "/junyuh-marketing"
+        },
+        "brand": {
+          "skill": "oren-content-team-architecture",
+          "workflow": "skills/oren-content-team-architecture/workflows/oren-content-flywheel.md",
+          "command": "/oren-content-flywheel"
+        }
+      },
+      "bounded_support": {
+        "when": "One approved anchor asset must become channel-native derivatives.",
+        "skill": "kieran-flanagan-content-intelligence",
+        "workflow": "skills/kieran-flanagan-content-intelligence/prompts/a8-multi-platform-format-transposer.md",
+        "command": null,
+        "changes": "rebuilds the seed in each platform's native structure"
+      },
+      "required_inputs": [
+        "brand or creator identity",
+        "audience",
+        "campaign objective",
+        "channels and cadence",
+        "content capacity",
+        "pillars or anchor message",
+        "conversion destination"
+      ],
+      "output_contract": [
+        "four-week campaign progression",
+        "week x platform x pillar x hook x format x CTA table",
+        "anchor-to-derivative map",
+        "CTA friction ladder",
+        "capacity and sustainability check",
+        "measurement and review cadence"
+      ],
+      "claim_boundary": "Calendar quality is readiness, not content-market fit. Reach, engagement, leads, and sales remain NO EVENT until publication and observation.",
+      "outside_owner_handoffs": []
+    },
+    {
+      "id": "email",
+      "signals": [
+        "email nurture",
+        "nurture sequence",
+        "welcome sequence",
+        "trial nurture",
+        "lead nurture",
+        "email funnel",
+        "belief journey"
+      ],
+      "primary_owner": {
+        "skill": "craig-clemens-copywriting",
+        "workflow": "skills/craig-clemens-copywriting/workflows/02-build-email-nurture-sequence.md",
+        "command": "/craig-clemens-build-email-nurture-sequence"
+      },
+      "bounded_support": {
+        "when": "The sequence ships in Farrice's or a client's established voice.",
+        "skill": "voice-os-or-client-voice",
+        "workflow": "skills/voice-os/SKILL.md",
+        "command": "/voice-os",
+        "changes": "voice grounding and fidelity gate only"
+      },
+      "required_inputs": [
+        "product or offer",
+        "funnel entry event",
+        "sequence objective",
+        "reader awareness and objections",
+        "available proof",
+        "voice reference",
+        "conversion action"
+      ],
+      "output_contract": [
+        "belief and objection journey",
+        "5-9 complete emails with subject lines",
+        "standalone education or value in every email",
+        "proof placement",
+        "CTA-intensity progression",
+        "test map and send dependencies"
+      ],
+      "claim_boundary": "A completed sequence is not conversion proof. Testimonials, metrics, urgency, and guarantees must be supplied and permission-safe.",
+      "outside_owner_handoffs": [
+        {
+          "condition": "Sending, automation, CRM mutation, or list segmentation",
+          "owner": "approved email operations surface",
+          "command": null
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "signals": [
+        "seo brief",
+        "search brief",
+        "search intent",
+        "keyword outline",
+        "aeo",
+        "geo content",
+        "search content"
+      ],
+      "primary_owner": {
+        "skill": "search-content-mastery-os",
+        "workflow": ".agent/workflows/search-content-mastery.md",
+        "command": "/search-content-mastery"
+      },
+      "bounded_support": null,
+      "required_inputs": [
+        "target query or opportunity",
+        "audience",
+        "business objective",
+        "product or project context",
+        "desired conversion action",
+        "current source or SERP evidence"
+      ],
+      "output_contract": [
+        "native Search Content Mastery project or SearchBrief record",
+        "intent and evidence boundary",
+        "angle and differentiation",
+        "headings and questions",
+        "proof or source requirements",
+        "CTA and measurement plan"
+      ],
+      "claim_boundary": "Do not fabricate current rankings, search volume, SERP composition, or citation behavior. Use supplied or live evidence and retain UNTESTED outcome state.",
+      "outside_owner_handoffs": []
+    },
+    {
+      "id": "voice",
+      "signals": [
+        "brand voice blueprint",
+        "voice guide",
+        "voice document",
+        "sound like me",
+        "voice audit",
+        "tone guide",
+        "voice consistency"
+      ],
+      "primary_owner_selector": {
+        "selection_rule": "Select exactly one branch: Farrice when the work carries Farrice's name; client when another person or brand owns the voice.",
+        "farrice": {
+          "skill": "voice-os",
+          "workflow": "skills/voice-os/SKILL.md",
+          "command": "/voice-os"
+        },
+        "client": {
+          "skill": "sean-mabry-voice-mastery",
+          "workflow": ".agent/workflows/voice-document.md",
+          "command": "/voice-document"
+        }
+      },
+      "bounded_support": {
+        "when": "A generated or transformed sample must be checked against the selected voice reference.",
+        "skill": "sean-mabry-voice-mastery",
+        "workflow": ".agent/workflows/voice-audit.md",
+        "command": "/voice-audit",
+        "changes": "line-level fidelity diagnosis and prescriptive rewrites"
+      },
+      "required_inputs": [
+        "voice owner",
+        "three or more representative approved samples or canonical Voice Card",
+        "primary content formats",
+        "channel contexts",
+        "known do and don't rules",
+        "neutral validation sample"
+      ],
+      "output_contract": [
+        "voice reference or grounding brief",
+        "personality and identity boundary",
+        "rhythm, vocabulary, punctuation, and structure rules",
+        "channel adaptations",
+        "do and don't examples",
+        "neutral-copy transformation and fidelity verdict"
+      ],
+      "claim_boundary": "A few samples may not represent the complete voice. Keep sample provenance and treat inferred rules as provisional until validated by the voice owner.",
+      "outside_owner_handoffs": []
+    },
+    {
+      "id": "diagnostics",
+      "signals": [
+        "campaign diagnostics",
+        "campaign data analysis",
+        "campaign performance",
+        "budget allocation",
+        "budget reallocation",
+        "roas",
+        "roas diagnosis",
+        "cac diagnosis",
+        "spend map",
+        "incrementality",
+        "attribution"
+      ],
+      "primary_owner_selector": {
+        "selection_rule": "Select exactly one branch: golden_core for why platform performance changed; spend_map for full-funnel allocation imbalance; measurement for blended attribution or incrementality design.",
+        "golden_core": {
+          "skill": "benoit-vatere",
+          "workflow": "skills/benoit-vatere/workflows/golden-core-diagnostic.md",
+          "command": "/golden-core-diagnostic"
+        },
+        "spend_map": {
+          "skill": "benoit-vatere",
+          "workflow": "skills/benoit-vatere/workflows/spend-map.md",
+          "command": null
+        },
+        "measurement": {
+          "skill": "benoit-vatere",
+          "workflow": "skills/benoit-vatere/workflows/bv-x-vince-measurement-stack.md",
+          "command": "/bv-x-vince-measurement-stack"
+        }
+      },
+      "bounded_support": null,
+      "required_inputs": [
+        "time-bounded campaign data",
+        "spend, impressions, clicks, conversions, and revenue definitions",
+        "attribution window and channel context",
+        "margin, LTV, or revenue-quality context when available",
+        "known campaign or funnel changes",
+        "decision and risk tolerance"
+      ],
+      "output_contract": [
+        "metric decomposition",
+        "observed performance drivers",
+        "alternative explanations and missing evidence",
+        "causal-confidence statement",
+        "ordered reversible action or allocation proposal",
+        "confirming signal, stop condition, and rollback rule"
+      ],
+      "claim_boundary": "Observed metric relationships are not causal proof or incrementality. When definitions or comparison data are missing, return a provisional diagnosis and the discriminating evidence needed.",
+      "outside_owner_handoffs": []
+    }
+  ],
+  "outside_handoffs": [
+    {
+      "id": "full_vsl_copy",
+      "signals": [
+        "write the full vsl",
+        "full vsl script",
+        "video sales letter"
+      ],
+      "owner": "VSL and conversion-copy specialist",
+      "command": "/vsl-lead"
+    },
+    {
+      "id": "harness_health",
+      "signals": [
+        "harness health",
+        "what is broken",
+        "run health check",
+        "system status"
+      ],
+      "owner": "Health Check",
+      "command": "/health-check"
+    }
+  ],
+  "approval_boundaries": [
+    "publishing or public distribution",
+    "outreach or connector writes",
+    "media spend or paid research",
+    "campaign, CRM, ad-account, or list mutation",
+    "global ~/.codex writes",
+    "hot natural-language routing",
+    "destructive action"
+  ]
+}

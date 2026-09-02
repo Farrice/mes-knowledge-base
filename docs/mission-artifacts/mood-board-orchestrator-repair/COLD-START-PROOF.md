@@ -1,5 +1,9 @@
 # Mood Board Orchestrator Cold-Start Proof
 
+> Historical baseline: this proof predates the Brand Direction Decision Spine
+> added on main. The integrated authority routes discovery-backed brand direction
+> to Andrew Lane and standalone visual-board construction to `/mood-board`.
+
 ## Test Input
 
 > Build a high-taste mood board from this discovery brief, with three materially different visual territories, real references, a blind taste choice, and one proving surface.
@@ -59,3 +63,11 @@ Human taste preference and reduction in revision/approval drift remain
 `UNTESTED`. The first real `/mood-board` run must produce three viewable boards
 and receive a blind `Choose / Keep / Kill / Reason` verdict before this system
 can be called taste-proven.
+
+## Integrated Reconciliation Proof
+
+The current acceptance gate is the union of
+`verify_mood_board_orchestrator.py` and
+`verify_brand_direction_decision_spine.py`: discovery-backed brand queries must
+resolve to Andrew Lane, campaign/product/standalone board queries must resolve to
+`/mood-board`, and both retain the same actual-board and proving-surface contract.

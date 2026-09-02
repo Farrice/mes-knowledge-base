@@ -320,6 +320,39 @@
       }
     },
     {
+      "id": "guarded-close-ready",
+      "query": "close ready",
+      "expected_lane": "end-session-closeout",
+      "expected_first": [
+        "end-session"
+      ],
+      "governor_first": [
+        "end-session"
+      ]
+    },
+    {
+      "id": "guarded-close-done",
+      "query": "close done",
+      "expected_lane": "end-session-closeout",
+      "expected_first": [
+        "end-session"
+      ],
+      "governor_first": [
+        "end-session"
+      ]
+    },
+    {
+      "id": "guarded-bulk-closeout-audit",
+      "query": "bulk closeout audit",
+      "expected_lane": "end-session-closeout",
+      "expected_first": [
+        "end-session"
+      ],
+      "governor_first": [
+        "end-session"
+      ]
+    },
+    {
       "id": "health-check-harness-status",
       "query": "health check harness status",
       "expected_lane": "health-check-status",

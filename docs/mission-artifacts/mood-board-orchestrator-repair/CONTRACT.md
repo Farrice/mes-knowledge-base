@@ -1,5 +1,16 @@
 # Mood Board Orchestrator Repair Contract
 
+## Integration Addendum — 2026-09-01
+
+The original repair correctly restored actual board construction, blind taste
+selection, and proving-surface behavior, but its broad discovery-routing premise
+was superseded by newer main authority. Discovery-backed brand direction now
+routes to `/andrew-lane-design-systems`, which may compose `/mood-board` as a
+bounded visual-board builder. Standalone campaign, shoot, event, product, and
+non-brand moodboards remain owned by `/mood-board`. Both dedicated verifiers
+must pass. The original packet below is retained as historical implementation
+evidence, not current routing authority.
+
 ## Preservation Lock
 
 - **Keep:** `/mood-board` as the existing public front door; `creative-direction` as the function owner; Oren's reference-acquisition and board-conversation methods; Refero's research-first reference lock when available; the five-layer visual grammar; blind `Choose / Keep / Kill`; one proving surface; explicit human taste approval.

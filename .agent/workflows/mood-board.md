@@ -4,10 +4,10 @@ description: "Reference-first high-taste moodboard orchestrator: turns discovery
 
 # /mood-board — Connected Moodboard Orchestrator
 
-Use this front door when a brand, campaign, product, collection, content system,
-event, space, or other creative objective needs a visual foundation before
-production. It owns the whole path from a brief or discovery material to a
-selected, reusable direction.
+Use this front door when a campaign, product, collection, content system, event,
+space, or other creative objective needs a visual foundation before production.
+For discovery-backed brand direction, `/andrew-lane-design-systems` is the
+parent conductor and may compose this workflow for actual board construction.
 
 This workflow prevents the failure where a written strategy comparison, palette
 table, or list of aesthetic adjectives is presented as a moodboard. A moodboard
@@ -15,7 +15,8 @@ must contain visual evidence and make the next set of creative decisions easier.
 
 ## Function Owner And Composition
 
-`creative-direction` is the sole function owner and conductor. Load
+When `/mood-board` is directly invoked, `creative-direction` is the sole
+function owner and conductor. Load
 `skills/creative-direction/SKILL.md`, `skills/creative-direction/genius.md`, and
 `skills/creative-direction/references/prompts-v2/mood-board.md` before producing.
 Load supporting components only at the phase where their judgment changes a
@@ -29,7 +30,7 @@ decision.
 | Proving surface | The smallest appropriate executor for the named surface | Applies each territory to the same real surface. Does not redesign the whole brand. |
 | Durable handoff | `/design-md-synthesize`, `/art-direct`, `/storyboard`, or the fitting production owner | Receives only the selected direction lock. |
 | Post-production characterization | `/moodboard-sweep` | Runs only after reusable style assets exist; it never replaces moodboard creation. |
-| Decision documentation | Andrew Lane design-system methods, when useful | Optional after selection; records decisions and layers but never owns reference research, visual authorship, or taste approval. |
+| Parent brand-direction decision | `/andrew-lane-design-systems`, for discovery-backed brand work | Owns the challenges, three client directions, approval ledger, and proving-surface decision. It may call this workflow as its bounded visual-board builder. |
 
 Do not load all components at once. Pass compact handoffs and exact source paths
 between phases.
@@ -257,15 +258,16 @@ been created and need characterization.
 - The same proving surface tests all three territories.
 - The recommendation stays hidden until the blind vote is recorded.
 - The selected direction makes the next 20-50 assets easier to create.
-- Andrew Lane, DESIGN.md, generation, and production routes remain downstream;
-  none replaces the moodboard function owner.
+- Andrew Lane remains the parent for discovery-backed brand direction;
+  DESIGN.md, generation, and production routes remain downstream of the chosen
+  board. Direct `/mood-board` runs retain one creative-direction owner.
 - Human preference, approval-speed improvement, commercial lift, and market
   performance remain `UNTESTED` until measured.
 
 ## Replay Prompt
 
 ```text
-Run /mood-board on [objective or discovery brief]. Research real references first.
+Run /mood-board on [campaign, shoot, event, product, or visual brief]. Research real references first.
 Build three materially different visual territories as actual boards, apply all
 three to the same proving surface, and present a blind Choose / Keep / Kill vote.
 Do not ship a text-only strategy memo as a moodboard. After my vote, lock one

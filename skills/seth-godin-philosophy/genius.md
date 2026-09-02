@@ -245,6 +245,47 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 
 ---
 
+### Patterns from BigDeal × Seth Godin — *The Knot* interview (2026-08-12)
+
+> Source package: `extractions/video-context/o8yD6nt71Cs/`. The 65:47 interview has a 12,705-word auto-caption transcript, 1,978 timestamped segments, and 13 sampled frames verifying the dominant two-person studio format. External anecdotes and figures remain source claims unless independently verified. The gap-diff refused to duplicate existing problem/situation, but-to-and, SVA, strategic-quitting, qualified-feedback, and role-identity material. The six patterns below are the source's useful additions or compositions.
+
+#### Pattern 30: Decision-Once Craft
+**Execute**: Convert recurring craft from a daily motivation question into one bounded standing decision. Set the cadence, minimum spec, review date, and four-week term once; on execution days decide only what to make, not whether to show up. This extends Pattern 13 from isolated identity action into a durable production posture.
+**Success Metric**: A four-week cadence with no daily go/no-go debate and no more than one missed repetition.
+
+#### Pattern 31: Feedback-Sponsor Audit
+**Execute**: Before optimizing a metric, ask who made it easy to see and who benefits when it rises. Platform likes, comments, views, rankings, and internal dashboards are incentive systems, not neutral truth. Name the real behavior the proxy is supposed to represent and replace it when the sponsor's interest and the intended change diverge.
+**Success Metric**: Every decision-driving metric has a named sponsor, intended behavior, and directly observed replacement signal when the proxy is weak.
+
+#### Pattern 32: Four-Horsemen Protection Diagnosis
+**Execute**: Treat mediocre or stuck behavior as protected by one primary posture: deniability avoids ownership, helplessness avoids agency, contempt avoids care, and fear avoids exposure. Diagnose the protection before prescribing action, then remove only enough protection for the smallest useful move.
+**Success Metric**: One primary posture is named, with one action that makes it unavailable without demanding total personality change.
+
+#### Pattern 33: Actual-Risk Ladder
+**Execute**: Separate felt risk from actual downside. Put on the pessimist hat first to cap financial, social, and time loss; then put on the optimist hat to ask what becomes possible. Design the smallest generous experiment that can change a decision while keeping failure visible to as few people as necessary.
+**Success Metric**: The first experiment carries explicit downside caps, produces one decision-relevant signal, and can be completed without betting the project or identity.
+
+#### Pattern 34: Entanglement Truth-to-Habit
+**Execute**: Name the old decision, status demand, memory, or credit requirement currently being treated as a fact. State the incompatible demand plainly, remove any optional identity/credit condition, and install a four-week replacement habit. Truth exposes the entanglement; repeated behavior builds the new identity.
+**Success Metric**: One hidden requirement is named, one optional condition removed, and one replacement practice sustained for four weeks.
+
+#### Pattern 35: Root-Post Diagnosis
+**Execute**: In a complicated knot, search for the one assumption, incentive, or old commitment organizing several visible strands. Ask which single fact, if no longer treated as binding, would make at least two symptoms easier. Test that candidate before optimizing every symptom separately.
+**Success Metric**: The diagnosis names one load-bearing assumption and at least two downstream effects that change when it is removed.
+
+#### Hidden Knowledge (2026-08-12 additions)
+
+**Insight**: Rejection quality is a stronger learning signal than rejection count. Generic refusal becoming specific, invitational, or redirected shows whether the offer is approaching relevance.
+**Deploy**: Log refusal specificity and revise after repeated reasons; do not celebrate attempt volume without evidence the work changed.
+
+**Insight**: The safest useful experiment is not the smallest possible act. It is the smallest act that can still change a decision.
+**Deploy**: Reject tests that are emotionally easy but informationally empty; require a named next decision before running one.
+
+**Insight**: “Stuck” often describes a system working successfully to protect comfort, status, or deniability.
+**Deploy**: Ask what the current arrangement protects before asking how to force more motivation.
+
+---
+
 ## Anti-Patterns (Sourced)
 
 > Failure modes Godin names explicitly as the wrong move, not inferred. Each anchor is either a verbatim quote checked against `extractions/seth-godin/transcript.txt` (Entrepreneur Studio podcast, Chris Allen interview) or a citation into this file's own dated tranches (2026-07-01 / 2026-07-10), which were spot-checked this repair pass against their named source conversations inside `_archive/claude-export-2026-07-01.tar.gz` (see `references/source-ledger.md` for the full audit trail).

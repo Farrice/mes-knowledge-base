@@ -1,0 +1,29 @@
+{
+  "slug": "mission-visual-workflow",
+  "title": "Direction 1 Performance Evidence Journal",
+  "compiled": "sep 1, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-08-31-visual-workflow.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-31-visual-workflow.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

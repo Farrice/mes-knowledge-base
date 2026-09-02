@@ -1,0 +1,34 @@
+{
+  "schema_version": "artifact-comprehension-human-gate/v0.2.1",
+  "purpose": "Targeted blind rerun of the two artifacts that needed stronger insight density.",
+  "revision_required": true,
+  "revision_reason": "AHG-002R passed. Neither AHG-003R variant passed; the preferred X was plainer, while Y's flow was the only high-value element. Replace the list with a real decision flow and rerun only implementation.",
+  "preservation_lock": {
+    "keep": "AHG-002R Y unchanged; AHG-003R X's plain goal and stop boundary; Y's flow concept.",
+    "change": "Show dependencies, the human-review branch, the return loop, and the approval gate as an actual flow.",
+    "do_not_disturb": "Global Clear Depth, ordinary replies, closeouts, and Three Contextual Next Prompts.",
+    "risk": "A decorative flow repeats a list without improving shared orientation.",
+    "gate": "One low-burden morning review of the implementation flow only."
+  },
+  "required_example_count": 2,
+  "examples": [
+    {
+      "id": "AHG-002R",
+      "task_type": "research",
+      "prompt": "Summarize the demand evidence without overstating buyer validation.",
+      "pilot_case_id": "AC-004",
+      "pilot_position": "Y",
+      "control_response": "# Demand Evidence\n\n## What changes\nCategory interest is supported; willingness to pay for this exact offer remains untested.\n\n| Claim | Support | Confidence | Implication |\n|---|---|---|---|\n| Buyers discuss the problem | Interview set | Verified | Continue |\n| They will buy this package | No payment event | Untested | Run a paid test |\n\n## Caveat\nAttention is not purchase behavior.",
+      "ratings": {"preferred_variant": "Y", "notes": "Accepted. It is faster, more concise, and explains the reasons and logic instead of merely stating research facts."}
+    },
+    {
+      "id": "AHG-003R",
+      "task_type": "implementation",
+      "prompt": "Show how to build and validate the pilot while preserving the stop boundary.",
+      "pilot_case_id": "AC-006",
+      "pilot_position": "X",
+      "control_response": "# Shadow Pilot Plan\n\nEnd state: workspace proof, stopped before promotion.\n\n## Playbook\n1. Freeze the successful global behavior.\n2. Build artifact-only fixtures.\n3. Run negative controls.\n4. Collect human artifact ratings.\n\n## Flow\nFixtures → sabotage proof → human gate → explicit promotion decision\n\nStop before merge, hooks, or global activation.",
+      "ratings": {"preferred_variant": "X", "notes": "Neither variant passed. X is the fallback, but the only high-value element in Y is the flow, which helps both operator and Codex stay oriented and execute better."}
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "video-source-package/v1",
+  "id": "zrpWNzEoaLU",
+  "webpage_url": "https://www.youtube.com/watch?v=zrpWNzEoaLU&t=20s",
+  "video_id": "zrpWNzEoaLU",
+  "title": "3 Sales Assets So Good Prospects Will Close Themselves",
+  "channel": "TomYoungsPodcast",
+  "source_url": "https://www.youtube.com/watch?v=zrpWNzEoaLU&t=20s",
+  "upload_date": "2026-08-25",
+  "duration_seconds": 1588,
+  "caption_source": "YouTube native English auto-captions",
+  "visual_review": {
+    "status": "HUMAN_REVIEWED",
+    "frame_count": 12,
+    "frame_width": 1024
+  },
+  "commercial_claim_policy": "All creator revenue, conversion, workload, audience and performance statements remain SOURCE SELF-REPORT - UNVERIFIED.",
+  "source_gap": "The video names an 11 P's Model framework but does not teach its components."
+}

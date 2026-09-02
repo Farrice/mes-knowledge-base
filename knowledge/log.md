@@ -828,3 +828,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-25 10:01]` **finalize** | Connected Dara Denney creative-format intelligence system with source package, 27th workflow, prompt | general | dara-denney — composite:7.8 status:Keep
 - `[2026-08-30 23:51]` **finalize** | Source-grounded Jun Pursuit-to-Offer and Story Angle expansion with mastery extraction, prompts, rou | general | jun-yuh — composite:7.0 status:Needs Improvement
 - `[2026-08-30 23:51]` **finalize** | Connected Jun skill-system expansion: source package, mastery extraction, pursuit method branch, ang | general | extract-mastery — composite:7.77 status:Keep
+- `[2026-08-31 23:37]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:7.0 status:Needs Improvement
+- `[2026-08-31 23:38]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-09-01 13:09]` **finalize** | Realtor Local-Signal Content System with source package, connected Enrico workflow, deterministic se | general | enrico-incarnati — composite:8.67 status:Keep
+- `[2026-09-01 15:56]` **finalize** | Safe dirty-tree recovery, guarded lane reconciliation, and explicit-push boundary repair | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-09-01 16:25]` **finalize** | Implemented integration-only main write ownership guard with Claude and Codex hook parity, exact dir | strategy | system-audit — composite:7.33 status:Needs Improvement
+- `[2026-09-01 16:25]` **finalize** | Dirty-main prevention now enforces the user's actual operating need: Farrice can move quickly across | strategy | system-audit — composite:9.0 status:Keep

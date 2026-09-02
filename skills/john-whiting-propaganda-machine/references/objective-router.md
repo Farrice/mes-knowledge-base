@@ -37,6 +37,14 @@ Each archetype lists: **jobs**, the **sequence** (which `jw-*` fire, in order), 
 - **Grounding:** real client history if it exists (mine the Saunders); else ICP target + flag pending validation.
 - **Output:** one-sentence offer + sales-page spine + the 3 objections that must die + the price/vehicle call.
 
+### 3A. Three-asset / zero-pre-sale-call close
+- **Jobs:** ATTRACTION + PIPELINE + QUALITY
+- **Signals:** “three sales assets,” “Model Machine Invite,” “zero-call close,” “no pre-sale calls,” “prospects close themselves,” “async qualification and payment.”
+- **Sequence:** Offer Truth Packet → `jw-big-domino` → `jw-three-asset-close` → `jw-self-selection-filter` → `jw-ethics-gate`.
+- **Owner:** `jw-three-asset-close`. Do not route to a generic VSL or offer-page build; the stage sequence and no-call boundary are the job.
+- **Gate:** low-ticket impulse offers route away; missing offer, proof, traffic, or payment truth returns `DISCOVER_FIRST`, `HOLD`, or `REJECT`.
+- **Output:** Model + Machine + Invite + asynchronous Close Path.
+
 ### 4. Launch (time-boxed push for a product/offer/event)
 - **Jobs:** ATTRACTION + PIPELINE + QUALITY
 - **Sequence:** pre-launch `jw-big-domino` + belief-shift → `jw-self-selection-filter` → `jw-objection-arsenal` (pre-handle before cart opens) → launch assets → `jw-retargeting-architecture` (frequency ramp) → `jw-pattern-interrupt` (lean-back close)

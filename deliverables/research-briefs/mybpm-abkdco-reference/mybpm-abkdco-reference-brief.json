@@ -1,0 +1,676 @@
+{
+  "slug": "mybpm-abkdco-reference",
+  "chip": "MYBPM · BRAND REFERENCE + DROP SYSTEM",
+  "title": "ABAKADA to *MYBPM*",
+  "dek": "A source-grounded reference guide to how a small Chicago Filipino streetwear label turned cultural fluency into product depth, community demand, and larger collaborations. It shows how MyBPM can adapt the operating principles without borrowing the identity.",
+  "window": "2018–Sep 1, 2026",
+  "lens": "brand · product · culture · pre-order economics",
+  "sources": "9 web sources · 9 visual references · 5 MyBPM canon files",
+  "compiled": "sep 1, 2026",
+  "footer_left": "MyBPM · Internal creative reference",
+  "footer_right": "Directional · Not for image reuse",
+  "category": "research",
+  "priority": 1,
+  "stack": [
+    "public web research",
+    "official storefront evidence",
+    "MyBPM local canon"
+  ],
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the *verdict*",
+      "kicker": "Study the operating engine, not the clothes",
+      "body": "ABAKADA is a useful benchmark because its growth is legible. It began with a clear cultural premise, built a repeatable symbol vocabulary, expanded into more distinctive garment forms, and used bounded releases and collaborations to widen the world. The visible proof is longevity, repeated sell-through claims, a retail shop, and progressively larger partnerships. Revenue and profit remain unverified.\n\nMyBPM should keep one permanent worldview: Raver as Identity Keeper / Night Society. Genres can act as seasonal lenses inside it. The first drop should stay ethos-led rather than genre-led. That preserves recognition, reaches more of the audience, and creates a clean baseline before house, techno, trance, bass, or drum & bass capsules change the texture.\n\nPrint-on-demand is the low-risk production bridge, not the final design ceiling. Waitlist interest chooses what deserves a paid pre-order. Paid orders fund production. Retained contribution after fulfillment pays for the next sample, custom silhouette, or tech pack."
+    },
+    {
+      "kind": "stats",
+      "heading": "why ABAKADA qualifies as a *benchmark*",
+      "tag": "Visible proof · Financials unverified",
+      "items": [
+        {
+          "value": "2018",
+          "label": "Founded in Chicago",
+          "note": "Arvin Boyon + Calvin Calma"
+        },
+        {
+          "value": "4–6",
+          "unit": "weeks",
+          "label": "Disclosed pre-order window",
+          "note": "official product page"
+        },
+        {
+          "value": "37",
+          "label": "Out-of-stock restock SKUs",
+          "note": "snapshot; not proof of paid sell-through"
+        },
+        {
+          "value": "23",
+          "label": "Pieces in PENSHOPPE collaboration",
+          "note": "announced for Oct 2026"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what is *actually supported*",
+      "tag": "Claim discipline",
+      "rows": [
+        {
+          "claim": "The premise was culturally specific from day one.",
+          "evidence": "ABAKADA was founded in Chicago in 2018 by Arvin Boyon and Calvin Calma. The name comes from the traditional Filipino alphabet; the brand repeatedly uses Baybayin, the Philippine eagle, +63, jeepneys, sampaguita, language, and diaspora experience as design material.",
+          "source_url": "https://www.galingstudio.com/brands/abakada",
+          "source_label": "Galing Studio brand profile",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The brand built a translation system, not a single logo trick.",
+          "evidence": "Across published product and editorial references, cultural codes move through minimal graphics, illustrative tees, lounge sets, sports jerseys, washed fleece, patchwork outerwear, knits, bottoms, and accessories. The source stays stable while the garment language evolves.",
+          "source_url": "https://www.fsugatepost.com/post/the-stitch-shining-a-light-on-filipino-fashion",
+          "source_label": "The Gatepost · product overview",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Pre-order and waitlist mechanics are part of the operating model.",
+          "evidence": "An official product page labels a distressed patch zip-up as PRE-ORDER and discloses a 4–6 week production/fulfillment window after the pre-order closes. An indexed password-gated storefront page asked visitors to join the waitlist while a collection was in production or fulfillment.",
+          "source_url": "https://abkdco.com/products/distressed-patch-zip-up-black",
+          "source_label": "ABAKADA official product page",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The growth path progressed from small-team fulfillment to broader cultural distribution.",
+          "evidence": "Multiple current profiles describe apartment-complex beginnings, collections selling out within hours, and a physical retail shop. Those are credible, repeated secondary claims, but no audited sales or profit data was found.",
+          "source_url": "https://lifestyleasia-onemega.com/style/penshoppe-designer-lab-and-abakada-launch-streetwear-collection/",
+          "source_label": "Lifestyle Asia · Aug 30, 2026",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "Collaborations compound the original story rather than replacing it.",
+          "evidence": "The 2023 DBTK collaboration connected a Chicago diaspora brand with a Philippine streetwear label. The 2024 Toyota/Complex/NTWRK project translated ABAKADA's visual language into anime and race-inspired merchandise. The output included a one-of-one letterman jacket. PENSHOPPE then announced a 23-piece Chicago-to-Manila collection for October 2026.",
+          "source_url": "https://www.complex.com/pop-culture/a/kylie-mar/toyota-grip-anime-series-drops-abakada-merch",
+          "source_label": "Complex · Toyota GRIP collaboration",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Out-of-stock labels are not the same as sales evidence.",
+          "evidence": "The official RESTOCK page showed 37 products as out of stock when indexed. That proves the merchandising state of the page, not why the inventory is unavailable, how many units existed, or whether the drop was profitable.",
+          "source_url": "https://abkdco.com/collections/restock",
+          "source_label": "ABAKADA RESTOCK page",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "the visible *growth arc*",
+      "tag": "Selected milestones · Not a complete company history",
+      "items": [
+        {
+          "date": "2018",
+          "title": "Cultural premise locked",
+          "body": "Founded in Chicago around a name and mission that could keep generating product: the Filipino alphabet as foundation, heritage as active design material.",
+          "done": true
+        },
+        {
+          "date": "2020",
+          "title": "Recognizable capsule vocabulary",
+          "body": "Coverage highlighted minimal graphics, pastel and light shades, Baybayin, Filipino sayings, and named UBE and Forest collections. These were early signs of collection worlds rather than logo-only merch.",
+          "done": true
+        },
+        {
+          "date": "2023",
+          "title": "Diaspora-to-homeland collaboration",
+          "body": "DBTK x ABKD joined Chicago and Philippine streetwear through shared graphics, exclusive colorways, tees, hoodies, shorts, and full-look styling.",
+          "done": true
+        },
+        {
+          "date": "2024",
+          "title": "Brand-world translation",
+          "body": "Toyota GRIP moved ABAKADA into anime, racing graphics, heavyweight hoodies, premium patchwork, embroidery, and an extremely limited letterman jacket.",
+          "done": true
+        },
+        {
+          "date": "2025",
+          "title": "Product depth + pre-order discipline",
+          "body": "The catalog shows outerwear, washed denim, mohair, fleece, knits, pants, accessories, and pre-order products with explicit fulfillment windows.",
+          "done": true
+        },
+        {
+          "date": "2026",
+          "title": "Scaled distribution without abandoning the premise",
+          "body": "PENSHOPPE announced a 23-piece limited collection and an event pre-order before the full October launch. This is current as of Sep 1; the public launch has not happened yet.",
+          "done": false
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "visual reference *spine*",
+      "tag": "Study the decision · Do not reuse the image",
+      "items": [
+        {
+          "title": "Community as the hero",
+          "role": "LOOKBOOK",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-community-lookbook.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-community-lookbook.jpg",
+          "note": "A recurring social unit, domestic props, restrained olive/cream/brown, and five distinct pieces create a world larger than a product grid. For MyBPM, use recognizable people across festival, club, and daily life instead of anonymous rave spectacle."
+        },
+        {
+          "title": "Graphic range inside one capsule",
+          "role": "LOOK STUDY",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-two-look-study.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-two-look-study.jpg",
+          "note": "One look can be illustrative while another is typographic because fit, palette, styling choices, and cultural source keep them related. A MyBPM capsule does not need the same graphic pasted on every blank."
+        },
+        {
+          "title": "Collaboration as a new dialect",
+          "role": "DBTK x ABKD",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-collaboration.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-collaboration.jpg",
+          "note": "The eagle, paisley field, knit vest, shorts, oversized tees, and low-angle sky portrait make a full visual system. A MyBPM collaborator can change the capsule's dialect while Night Society remains the parent world."
+        },
+        {
+          "title": "A capsule reads as a set",
+          "role": "MERCHANDISING",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-capsule-flatlay.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abkd-dbtk-capsule-flatlay.jpg",
+          "note": "Tees, tote, socks, and colorways share a phrase, palette, and graphic family while offering different commitment levels. For MyBPM, a hero garment, accessible tee, and low-risk object beat five equal tees."
+        },
+        {
+          "title": "Silhouette can carry the code",
+          "role": "PRODUCT",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-sport-jersey.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-sport-jersey.jpg",
+          "note": "Raglan blocking, a crest, V-neck structure, side panels, and restrained marks create identity before a large back graphic is needed. As demand grows, MyBPM can shift some identity work from decoration into garment architecture."
+        },
+        {
+          "title": "Shape + application create perceived value",
+          "role": "PRE-ORDER PRODUCT",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-distressed-zipup-1.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-distressed-zipup-1.jpg",
+          "note": "Cropped boxiness, drop shoulder, split lettering, patch application, and a clean product frame make a simple black zip-up feel considered. One MyBPM construction or placement decision should do more work than another layer of effects."
+        },
+        {
+          "title": "The world broadens into full looks",
+          "role": "PENSHOPPE x ABAKADA",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-1.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-1.jpg",
+          "note": "Varsity, cropped jersey, knit-neck top, fleece, baggy denim, skirt, and sweats show how a mature brand becomes wardrobe rather than merch. MyBPM should earn one new silhouette at a time until the customer can build a complete Night Society look."
+        },
+        {
+          "title": "Place gives the garment another layer",
+          "role": "PENSHOPPE x ABAKADA",
+          "path": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-2.jpg",
+          "thumb": "deliverables/research-briefs/mybpm-abkdco-reference/assets/abakada-penshoppe-look-2.jpg",
+          "note": "The Pilipinas jersey is photographed against riveted Chicago steel. The setting holds diaspora and hometown in one frame without adding explanatory copy. MyBPM can use transit, concrete, coat check, and first-light city locations with the same restraint."
+        },
+        {
+          "title": "Current MyBPM foundation",
+          "role": "LOCAL DIRECTION",
+          "path": "mybpm-v2-desktop.png",
+          "thumb": "mybpm-v2-desktop.png",
+          "note": "MyBPM already owns a stronger premise than generic EDM merch: identity after the wristband, the frequency below the floor, and product-proof gates. The gap is not a new story; it is richer cultural code, more varied product roles, and a demand-funded path to silhouette originality."
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "ABAKADA's transferable *engine*",
+      "caption": "The source stays stable. The expression becomes more ambitious as proof and partnerships accumulate.",
+      "steps": [
+        {
+          "title": "Lived source",
+          "note": "Filipino language, memory, symbols, diaspora tension"
+        },
+        {
+          "title": "Recognizable codes",
+          "note": "Baybayin, +63, eagle, phrases, colors"
+        },
+        {
+          "title": "Contemporary form",
+          "note": "tees → knits → jerseys → outerwear → full looks"
+        },
+        {
+          "title": "Bounded release",
+          "note": "waitlist, pre-order, limited capsule, explicit window"
+        },
+        {
+          "title": "Community proof",
+          "note": "wearing, events, sell-through, recurring cast"
+        },
+        {
+          "title": "World expansion",
+          "note": "artists, brands, retailers, broader distribution"
+        }
+      ]
+    },
+    {
+      "kind": "matrix",
+      "heading": "what MyBPM should *take*",
+      "axes": {
+        "x": "more literal",
+        "y": "more transferable"
+      },
+      "quads": [
+        {
+          "label": "Borrow the principle",
+          "items": [
+            {
+              "name": "One inexhaustible source",
+              "note": "Raver identity, ritual, care, memory, transition"
+            },
+            {
+              "name": "Capsule coherence",
+              "note": "one story, several product roles, one release window"
+            },
+            {
+              "name": "Demand-funded ambition",
+              "note": "paid proof funds better forms"
+            }
+          ]
+        },
+        {
+          "label": "Translate for MyBPM",
+          "items": [
+            {
+              "name": "Cultural fluency",
+              "note": "use insider rave rituals without explaining the joke"
+            },
+            {
+              "name": "Genre lenses",
+              "note": "change pacing and silhouette, not parent identity"
+            },
+            {
+              "name": "Community portraits",
+              "note": "same people across event, club, and ordinary life"
+            }
+          ]
+        },
+        {
+          "label": "Do not copy",
+          "items": [
+            {
+              "name": "Filipino symbols",
+              "note": "Baybayin, +63, eagle, jeepney, flag codes belong to their story"
+            },
+            {
+              "name": "Exact layouts or garments",
+              "note": "no split ABKD lettering, duplicated jersey blocks, or traced graphics"
+            },
+            {
+              "name": "Earth-tone palette",
+              "note": "MyBPM's white/black/acid system is already more ownable"
+            }
+          ]
+        },
+        {
+          "label": "Hold until proof",
+          "items": [
+            {
+              "name": "Custom cut-and-sew",
+              "note": "quote, tech pack, sample, MOQ, and paid demand first"
+            },
+            {
+              "name": "Large collection",
+              "note": "three to five pieces until buying patterns exist"
+            },
+            {
+              "name": "Genre sub-brands",
+              "note": "fragment recognition and inventory too early"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the MyBPM brand *architecture*",
+      "kicker": "Lock this before more collections",
+      "dek": "One permanent world; rotating lenses; product ambition earned by paid behavior.",
+      "items": [
+        {
+          "action": "Permanent worldview: Night Society",
+          "why": "The brand serves the person whose rave identity survives outside the event. PLUR beyond the dance floor, afterimage, found family, ritual, endurance, and return are the durable source material."
+        },
+        {
+          "action": "Seasonal capsule lens: ethos first, genre second",
+          "why": "Capsule 001 should prove the broad identity. Later capsules may use house, techno, bass, drum & bass, or trance to alter motion, typography, material, and silhouette without creating separate brands."
+        },
+        {
+          "action": "Product ladder: signal → uniform → silhouette → artifact",
+          "why": "Signal is an accessible tee or object. Uniform is the repeatable heavyweight core. Silhouette is the one new garment form. Artifact is the scarce, higher-craft piece that demonstrates where the brand is going."
+        },
+        {
+          "action": "One cultural code per hero piece",
+          "why": "Use a coat-check number, wristband residue, transit time, water handoff, room stamp, set-time grid, or after-hours phrase as the single anchor. Layering every rave symbol at once becomes costume."
+        },
+        {
+          "action": "Preserve the current visual lock",
+          "why": "MYBPM wordmark, Signal White, Sublevel Ink, Mineral White, one Frequency Acid cue, sharp geometry, near-blank fronts, raster-backed statements, and no generic lasers/equalizers remain the recognition system."
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "how each genre changes the *dial*",
+      "kicker": "Lenses, not new identities",
+      "dek": "The source is always the raver's lived experience. A genre only changes how that source is expressed.",
+      "items": [
+        {
+          "action": "House: exchange + repetition",
+          "why": "Human proximity, shared motion, loops, warm flashes, relaxed knits or sport shapes, rounder typographic rhythm. Keep the direction away from predictable disco-ball imagery."
+        },
+        {
+          "action": "Techno: endurance + architecture",
+          "why": "Functional pockets, modular placements, washed black, reflective micro-detail, narrow technical labeling, hard negative space. Keep these details functional instead of borrowing generic hazard tape."
+        },
+        {
+          "action": "Drum & bass: velocity + information",
+          "why": "Cropped outerwear, panel lines, transit maps, compressed type, asymmetric rhythm, sharp image slicing. Use the information density to organize the composition instead of covering it with random glitch overlays."
+        },
+        {
+          "action": "Trance: release + afterimage",
+          "why": "Translucent layers, edge light, optical trails, softer gradients, lifted proportions, white as atmosphere. Rainbow-neon nostalgia would flatten the idea."
+        },
+        {
+          "action": "Bass: pressure + body memory",
+          "why": "Heavyweight fleece, low-center graphics, dense raster fields, oversized forms, sub-frequency diagrams, tactile decoration. Speaker and waveform icons are too literal."
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "recommended first capsule: *Afterimage Uniform*",
+      "kicker": "Ethos-led baseline",
+      "dek": "A three-piece paid test that can be fulfilled through the existing POD bridge while creating one clear step toward original product.",
+      "items": [
+        {
+          "action": "Hero: heavyweight near-blank tee",
+          "why": "Small exact MYBPM front; one photographic/raster back built around the moment the room ends but the body is still carrying the beat. DTG is the first sample path for tonal detail and transparency."
+        },
+        {
+          "action": "Uniform: heavyweight hoodie or zip-up",
+          "why": "Quiet chest or split-seam mark, one sleeve/hood locator, oversized or drop-shoulder fit. It should feel like the garment someone reaches for after the venue, not event merch."
+        },
+        {
+          "action": "Signal object: cap, compact bag, or earplug case",
+          "why": "A lower-commitment object widens entry without adding another large graphic tee. Choose only what can be sampled and fulfilled reliably now."
+        },
+        {
+          "action": "One experimental direction, shown but not produced",
+          "why": "Reveal a cropped technical shell, paneled jersey, or custom trouser as the future artifact. Let waitlist preference and paid orders decide which tech pack earns funding."
+        },
+        {
+          "action": "Campaign: one identity, three environments",
+          "why": "The same cast and hero looks move through festival/open air, club/nightlife, and daily life/city. Afterimage is connective tissue: coat check, transit, food stop, and blue hour. It is not a separate gritty brand."
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "cash-safe capsule *sequence*",
+      "caption": "Interest chooses the candidate. Payment authorizes production. Fulfillment creates profit. Retained cash earns the next product rung.",
+      "steps": [
+        {
+          "title": "Sample one",
+          "note": "fit, print, wash, photography; no premium claim before proof"
+        },
+        {
+          "title": "Preview the world",
+          "note": "story, hero look, price band, delivery expectation"
+        },
+        {
+          "title": "Build qualified waitlist",
+          "note": "email/SMS + size + preferred piece + price comfort"
+        },
+        {
+          "title": "Open 7-day pre-order",
+          "note": "full payment for proven POD pieces; clear close date"
+        },
+        {
+          "title": "Lock production cash",
+          "note": "COGS, fees, tax, refund/defect reserve are untouchable"
+        },
+        {
+          "title": "Fulfill + report",
+          "note": "weekly status, delay consent/refund process, receipts"
+        },
+        {
+          "title": "Fund the next rung",
+          "note": "retained contribution pays for one sample or tech pack"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "the pre-order *math*",
+      "tag": "Modeled · Replace with live quotes",
+      "body": "Do not define success by gross sales. Per paid order, first reserve landed garment cost, decoration, packaging, transaction fees, subsidized shipping, taxes, and a refund/defect buffer. What remains is contribution; it becomes profit only after the order is fulfilled and all obligations are covered.\n\nMinimum paid units = ceiling((sample + photography + setup + contingency) ÷ contribution per unit). Example only: if fixed launch cost is $600 and true contribution is $24 per paid order, the drop needs 25 paid units to cover those costs. At a modeled 15% waitlist-to-order conversion, that implies roughly 167 qualified waitlist members. The conversion rate is UNTESTED until MyBPM runs its first launch.\n\nFor the current POD bridge, collect full payment only on products whose supplier, sample, price, and delivery basis are known. For a future cut-and-sew experiment, use a refundable deposit or reservation until the factory quote, tech pack, sample, MOQ, and delivery range are real. Never spend the production reserve on content or the next capsule."
+    },
+    {
+      "kind": "playbook",
+      "heading": "the 90-day *run*",
+      "tag": "No inventory bet",
+      "plays": [
+        {
+          "title": "Days 1–14 · Build the capsule card",
+          "intent": "Choose one lived rave ritual, one emotional thesis, one hero graphic, three product roles, and the one unproduced future silhouette.",
+          "command": "CAPSULE 001 / AFTERIMAGE UNIFORM\nSource ritual: the room ends; the signal stays in the body\nHero code: [one specific object, time, phrase, or trace]\nProducts: hero tee / uniform layer / signal object\nFuture artifact: [one custom silhouette]\nNo-go: lasers, equalizers, generic festival slogans, five unrelated graphics",
+          "touches": [
+            "_active/mybpm/premium-shopify-relaunch/DESIGN.md",
+            "_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md"
+          ],
+          "receipt": "One-page capsule card with every item serving a distinct role."
+        },
+        {
+          "title": "Days 15–30 · Sample + proof",
+          "intent": "Order only the single hero sample after the cost is approved; evaluate fit, print, wash, delivery, and usable photography.",
+          "command": "PASS only if: listed fabric/weight is true; measurements are recorded; decoration is centered and durable; one wash creates no unacceptable shrinkage/cracking/twisting; front/back/detail/on-body images are usable.",
+          "touches": [
+            "_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md"
+          ],
+          "receipt": "Sample status is PASS / REVISE / KILL with photographs and actual landed cost."
+        },
+        {
+          "title": "Days 31–52 · Earn the waitlist",
+          "intent": "Release the story in chapters: source ritual, making detail, silhouette reveal, fit evidence, price band, and launch date.",
+          "command": "Collect: email or SMS / size / preferred product / acceptable price band / one sentence on what the piece means. Do not count social likes as qualified demand.",
+          "touches": [
+            "_active/mybpm/mybpm-merch-os-run-1/06-launch-plan.md"
+          ],
+          "receipt": "A deduplicated qualified waitlist with product and size preference, not just follower growth."
+        },
+        {
+          "title": "Days 53–60 · Seven-day paid pre-order",
+          "intent": "Open and close the order visibly. Show the product, sample evidence, price, exact pre-order close, reasonable ship basis, and status-update cadence.",
+          "command": "Pre-order closes: [date/time]\nEstimated ship window: [supplier-supported range]\nYou will receive: order confirmation + weekly production update\nIf the window changes: consent to delay or cancel for a full refund",
+          "touches": [
+            "_active/mybpm/premium-shopify-relaunch/05-build-and-launch.md"
+          ],
+          "receipt": "Paid orders, size curve, contribution reserve, and refund obligations are reconciled before production."
+        },
+        {
+          "title": "Days 61–90 · Fulfill + choose the next rung",
+          "intent": "Treat fulfillment as part of brand world-building; show production truth and decide which product earns development next.",
+          "command": "Review: paid units / gross collected / landed costs / refunds / defects / on-time rate / retained contribution / most-requested future silhouette.",
+          "touches": [
+            "_active/mybpm/mybpm-merch-os-run-1/07-diagnostics.md"
+          ],
+          "receipt": "One fulfillment report and one funded next-product decision; no automatic expansion."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "internal decision *blocks*",
+      "tag": "Copy into the next MyBPM session",
+      "blocks": [
+        {
+          "label": "Capsule generation brief",
+          "text": "Create one MyBPM Night Society capsule from a lived rave ritual, not a genre moodboard. Preserve the MYBPM wordmark, Signal White / Sublevel Ink / Mineral White / one Frequency Acid cue, near-blank fronts, and one strong back statement. Produce exactly three sellable product roles: hero, uniform, and signal object. Add one unproduced future silhouette. Use the selected genre only to change pacing, material, typography, and shape. Reject lasers, equalizers, generic waveform art, festival slogans, and copied streetwear layouts."
+        },
+        {
+          "label": "Go / no-go check",
+          "text": "Do not open paid pre-orders until one sample passes, landed cost and contribution are known, the supplier supports the advertised ship window, product/size preference is collected, and the minimum paid-unit threshold is calculated. Waitlist joins are interest. Paid orders are demand. Retained contribution after fulfillment is profit evidence."
+        },
+        {
+          "label": "Future silhouette gate",
+          "text": "Choose one custom silhouette only when retained contribution can cover the quoted tech pack and at least two sample rounds without touching production reserves, and when paid demand concentrates around a clear product/fit request. Build one new form, not a collection."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this guide *cannot prove*",
+      "kicker": "Keep the edges visible",
+      "body": "ABAKADA's revenue, margins, team size, production contracts, exact launch funnel, customer acquisition cost, waitlist conversion rate, refund rate, and inventory financing are UNCONFIRMED. Secondary reports of fast sellouts and apartment beginnings are credible but not audited. The official out-of-stock page does not prove how many units sold.\n\nThe PENSHOPPE collection is announced for October 2026; as of Sep 1, 2026, the launch and its market outcome are future events. Visual references are used for internal analysis only. Rights remain with ABAKADA, PENSHOPPE, DBTK, the photographers, and their publishers; do not reuse them in MyBPM campaigns.\n\nThe FTC rule requires a reasonable basis for an advertised shipping time. If shipment is delayed, the customer must be offered a choice to consent to the delay or cancel for a prompt refund. Shopify also requires a pre-order app and supports full, partial, or no payment depending on the setup. This guide is operational research, not legal advice."
+    },
+    {
+      "kind": "related",
+      "heading": "source + continuity *rail*",
+      "tag": "Open the original",
+      "links": [
+        {
+          "k": "INSTAGRAM",
+          "title": "ABAKADA official Instagram",
+          "href": "https://www.instagram.com/abkdco/"
+        },
+        {
+          "k": "STORE",
+          "title": "ABAKADA official storefront",
+          "href": "https://abkdco.com/"
+        },
+        {
+          "k": "MYBPM",
+          "title": "Current MyBPM design canon",
+          "path": "_active/mybpm/premium-shopify-relaunch/DESIGN.md"
+        },
+        {
+          "k": "MYBPM",
+          "title": "Drop 001 sample gate",
+          "path": "_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md"
+        },
+        {
+          "k": "MYBPM",
+          "title": "Night Society continuity",
+          "path": "_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md"
+        },
+        {
+          "k": "LEGAL",
+          "title": "FTC Internet order shipping rule guide",
+          "href": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule"
+        },
+        {
+          "k": "SHOPIFY",
+          "title": "Official pre-order documentation",
+          "href": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders"
+        }
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "source": "ABAKADA official storefront",
+      "url": "https://abkdco.com/",
+      "retrieved": "2026-09-01",
+      "used_for": "current password gate; official brand/store reference",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "ABAKADA distressed patch zip-up product page",
+      "url": "https://abkdco.com/products/distressed-patch-zip-up-black",
+      "retrieved": "2026-09-01",
+      "used_for": "pre-order disclosure, 4–6 week window, fit and application details",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "ABAKADA RESTOCK collection",
+      "url": "https://abkdco.com/collections/restock",
+      "retrieved": "2026-09-01",
+      "used_for": "catalog breadth and 37 out-of-stock snapshot",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Galing Studio · Abakada profile",
+      "url": "https://www.galingstudio.com/brands/abakada",
+      "retrieved": "2026-09-01",
+      "used_for": "founders, mission, cultural codes, pre-order pattern, community framing",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "DBTK · ABAKADA collaboration feature",
+      "url": "https://dbtkco.com/blogs/news/abakada-co-on-a-mission-to-promote-filipino-culture",
+      "retrieved": "2026-09-01",
+      "used_for": "2023 collaboration, product range, visual references",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Complex · Toyota GRIP x Abakada",
+      "url": "https://www.complex.com/pop-culture/a/kylie-mar/toyota-grip-anime-series-drops-abakada-merch",
+      "retrieved": "2026-09-01",
+      "used_for": "2024 collaboration, hoodie and one-of-one letterman jacket",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Lifestyle Asia · PENSHOPPE Designer Lab",
+      "url": "https://lifestyleasia-onemega.com/style/penshoppe-designer-lab-and-abakada-launch-streetwear-collection/",
+      "retrieved": "2026-09-01",
+      "used_for": "current 2026 milestone, 23-piece collection, event pre-order, growth claims",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "BLNC Mag · preserving Filipino heritage",
+      "url": "https://www.blncmag.com/post/abakada-preserving-filipino-heritage-in-modern-streetwear-fashion",
+      "retrieved": "2026-09-01",
+      "used_for": "visual references and heritage-to-streetwear framing",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "VIBEANT · international Filipino streetwear brands",
+      "url": "https://www.vibeant.com/promising-filipino-streetwear-brands-that-are-based-internationally/",
+      "retrieved": "2026-09-01",
+      "used_for": "2020-era visual vocabulary, UBE and Forest capsule references",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "FTC · Mail, Internet, or Telephone Order Merchandise Rule guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+      "retrieved": "2026-09-01",
+      "used_for": "shipping representations, delay consent, cancellation and refund boundary",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Shopify Help Center · pre-orders",
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders",
+      "retrieved": "2026-09-01",
+      "used_for": "platform requirements and payment options",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "context": [
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/DESIGN.md",
+      "role": "current visual system"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/03-capsule-selection.md",
+      "role": "product and sample gate"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md",
+      "role": "campaign world continuity"
+    },
+    {
+      "path": "_active/mybpm/mybpm-merch-os-run-1/06-launch-plan.md",
+      "role": "existing launch system"
+    },
+    {
+      "path": "_active/mybpm/mybpm-merch-os-run-1/07-diagnostics.md",
+      "role": "existing outcome review"
+    },
+    {
+      "path": "mybpm-v2-desktop.png",
+      "role": "current local storefront direction reference"
+    }
+  ]
+}

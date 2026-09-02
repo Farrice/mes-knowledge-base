@@ -1,0 +1,220 @@
+{
+  "slug": "mybpm-cultural-translation-system",
+  "title": "from rave artifacts to a wearable culture",
+  "compiled": "September 1, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mybpm-cultural-translation-system/mybpm-cultural-translation-system-brief.html",
+  "brief_md": "deliverables/research-briefs/mybpm-cultural-translation-system/mybpm-cultural-translation-system-brief.md",
+  "paths": [
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/08-moodboard-reset.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/mybpm/premium-shopify-relaunch/08-moodboard-reset.md",
+      "role": "existing Night Society and Afterimage decisions"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/mybpm/premium-shopify-relaunch/10-night-society-continuity-v3.md",
+      "role": "current world and continuity boundaries"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/11-white-premium-materials.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/mybpm/premium-shopify-relaunch/11-white-premium-materials.md",
+      "role": "approved material and palette direction"
+    },
+    {
+      "path": "_active/mybpm/premium-shopify-relaunch/12-typography-wordmark.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/mybpm/premium-shopify-relaunch/12-typography-wordmark.md",
+      "role": "locked MYBPM typography and wordmark"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-abkdco-reference/mybpm-abkdco-reference-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-abkdco-reference/mybpm-abkdco-reference-brief.html",
+      "role": "Session 1 ABAKADA reference system"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/abakada-sport-jersey.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/abakada-sport-jersey.jpg",
+      "role": "asset · METHOD REFERENCE"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/abakada-penshoppe-look-1.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/abakada-penshoppe-look-1.jpg",
+      "role": "asset · PRODUCT RANGE"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/insomniac-house-sherpa.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/insomniac-house-sherpa.jpg",
+      "role": "asset · INCUMBENT"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/boiler-room-club2020.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/boiler-room-club2020.jpg",
+      "role": "asset · CULTURAL AUTHORITY"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/misbhv-polish-poster-look.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/misbhv-polish-poster-look.jpg",
+      "role": "asset · FASHION CEILING"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/chicago-house-poster.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/chicago-house-poster.jpg",
+      "role": "asset · CHICAGO"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/detroit-berlin-030313.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/detroit-berlin-030313.jpg",
+      "role": "asset · DETROIT / BERLIN"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/jungle-mania-1994.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/jungle-mania-1994.jpg",
+      "role": "asset · UK RAVE ARCHIVE"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/goa-trance-1995-flyer.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/goa-trance-1995-flyer.jpg",
+      "role": "asset · GOA / TRANSNATIONAL ARCHIVE"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/big-apple-records.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/big-apple-records.jpg",
+      "role": "asset · CROYDON"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/assets/jamaican-sound-system.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/assets/jamaican-sound-system.jpg",
+      "role": "asset · JAMAICA → UK → GLOBAL BASS CULTURES"
+    },
+    {
+      "path": "deliverables/research-briefs/mybpm-cultural-translation-system/mybpm-paid-drop-calculator.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mybpm-cultural-translation-system/mybpm-paid-drop-calculator.html",
+      "role": "related · CALCULATOR"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.galingstudio.com/brands/abakada",
+      "label": "Galing Studio · ABAKADA profile"
+    },
+    {
+      "url": "https://www.fsugatepost.com/post/the-stitch-shining-a-light-on-filipino-fashion",
+      "label": "The Gatepost · Filipino fashion profile"
+    },
+    {
+      "url": "https://www.blncmag.com/post/abakada-preserving-filipino-heritage-in-modern-streetwear-fashion",
+      "label": "BLNC · heritage in modern streetwear"
+    },
+    {
+      "url": "https://dbtkco.com/blogs/news/abakada-co-on-a-mission-to-promote-filipino-culture",
+      "label": "DBTK · collaboration statement"
+    },
+    {
+      "url": "https://insomniacshop.com/collections/house",
+      "label": "Insomniac Shop · House collection"
+    },
+    {
+      "url": "https://www.ravewonderland.com/pages/about-us",
+      "label": "Rave Wonderland · about"
+    },
+    {
+      "url": "https://boilerroom.tv/article/juliana-huxtable-mowalola-more-collaborate-on-boiler-rooms-first-apparel-collection/",
+      "label": "Boiler Room · CLUB20/20"
+    },
+    {
+      "url": "https://misbhv.com/collections",
+      "label": "Current competitor set · inference"
+    },
+    {
+      "url": "https://www.insomniac.com/magazine/insomniac-launches-new-lifestyle-and-clothing-brand-with-online-shop/",
+      "label": "Insomniac · lifestyle strategy"
+    },
+    {
+      "url": "https://iheartraves.com/pages/about-us",
+      "label": "iHeartRaves · about"
+    },
+    {
+      "url": "https://boilerroom.tv/session/boiler-room-x-sherelle-icon-launch/",
+      "label": "Boiler Room × Sherelle · ICON"
+    },
+    {
+      "url": "https://boilerroom.tv/session/boiler-room-x-eris-drew-move-launch/",
+      "label": "Boiler Room × Eris Drew · MOVE"
+    },
+    {
+      "url": "https://shop.artic.edu/products/290117",
+      "label": "Art Institute of Chicago · House Music"
+    },
+    {
+      "url": "https://www.si.edu/object/do-you-remember-house-chicagos-queer-color-undergrounds-micah-salkind%3Asiris_sil_1160644",
+      "label": "Smithsonian · queer of color house undergrounds"
+    },
+    {
+      "url": "https://visitdetroit.com/inside-the-d/detroit-techno/",
+      "label": "Visit Detroit · Detroit Techno"
+    },
+    {
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/dub-london-shops-sound-systems-legends/",
+      "label": "London Museum · Dub in London"
+    },
+    {
+      "url": "https://dancehallmuseum.org/learn/sound-system-culture/",
+      "label": "Dancehall Museum · Sound System Culture"
+    },
+    {
+      "url": "https://news.croydon.gov.uk/boroughs-rich-musical-culture-celebrated-in-croydons-music-heritage-trail/",
+      "label": "Croydon Council · Music Heritage Trail"
+    },
+    {
+      "url": "https://djmag.com/features/search-sunrise-history-balearic-trance",
+      "label": "DJ Mag · Balearic Trance"
+    },
+    {
+      "url": "https://dj.dancecult.net/index.php/dancecult/article/view/328",
+      "label": "Dancecult · Psyculture"
+    },
+    {
+      "url": "https://www.tapstitch.com/custom/1516831131864113152",
+      "label": "Tapstitch · RT0080"
+    },
+    {
+      "url": "https://www.tapstitch.com/custom/rw0016-essential-heavyweight-hoodie",
+      "label": "Tapstitch · RW0016"
+    },
+    {
+      "url": "https://www.tapstitch.com/help-center/faq/detail/shipping-cost",
+      "label": "Tapstitch · shipping costs"
+    },
+    {
+      "url": "https://www.shopify.com/pricing",
+      "label": "Shopify · pricing"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+      "label": "FTC · Mail, Internet, or Telephone Order Merchandise Rule"
+    }
+  ]
+}

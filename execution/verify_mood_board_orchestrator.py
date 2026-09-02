@@ -26,15 +26,20 @@ ROUTING_DOC = ROOT / "directives" / "routing-bindings.md"
 CONTRACT = ROOT / "docs" / "mission-artifacts" / "mood-board-orchestrator-repair" / "CONTRACT.md"
 
 
-POSITIVE_QUERIES = (
-    "Build a high-taste mood board from this discovery brief, with three materially different visual territories, real references, a blind taste choice, and one proving surface",
-    "Turn these discovery notes into three materially different visual territories and a blind taste choice",
+MOODBOARD_QUERIES = (
+    "Build a high-taste mood board from this creative brief, with three materially different visual territories, real references, a blind taste choice, and one proving surface",
     "Create three reference-locked moodboards and test them on one proving surface",
     "Build a moodboard for a campaign from this brief",
+    "Build a product shoot moodboard with three materially different visual territories",
+    "Create a mood board for this event and present a blind taste choice",
+)
+
+BRAND_DIRECTION_QUERIES = (
     "Can you turn my discovery notes into a moodboard for the brand?",
     "Use the discovery session to make three moodboards for the client",
     "Translate this discovery into visual directions and a moodboard",
     "I need visual directions from discovery before we design anything",
+    "Create a client ready mood board from discovery evidence",
 )
 
 NEGATIVE_QUERIES = (
@@ -94,7 +99,7 @@ contract = read(CONTRACT)
 workflow_flat = re.sub(r"\s+", " ", workflow)
 
 for phrase in (
-    "creative-direction` is the sole function owner",
+    "When `/mood-board` is directly invoked, `creative-direction` is the sole",
     "Phase 1 — Acquire And Ledger References",
     "Phase 2 — Build Three Territory Hypotheses",
     "Phase 3 — Construct Actual Visual Boards",
@@ -118,8 +123,9 @@ for component in (
     require(component in workflow, f"workflow composes or bounds existing component: {component}")
 
 require(
-    "Optional after selection" in workflow and "never owns reference research" in workflow,
-    "Andrew Lane is explicitly downstream rather than moodboard owner",
+    "Andrew Lane remains the parent for discovery-backed brand direction" in workflow
+    and "bounded visual-board builder" in workflow,
+    "ownership boundary preserves Andrew as brand parent and mood-board as bounded builder",
 )
 require("The Connected Moodboard System" in skill, "creative-direction skill exposes the connected system")
 require("three actual visual boards" in prompt, "v2 prompt requires actual visual boards")
@@ -129,6 +135,8 @@ require(".agent/workflows/mood-board.md" in codex_bridge, "Codex bridge remains 
 require(".agent/workflows/mood-board.md" in claude_bridge, "Claude command remains thin")
 require("`mood_board_orchestrator`" in routing_doc, "routing documentation names the moodboard binding")
 require("| `mood_board_orchestrator` | /mood-board |" in routing_doc, "generated routing appendix contains the binding")
+require("`brand_direction_decision_spine`" in routing_doc, "routing documentation names the brand-direction binding")
+require("| `brand_direction_decision_spine` | /andrew-lane-design-systems |" in routing_doc, "generated routing appendix contains the brand-direction binding")
 
 for field in (
     "## Preservation Lock",
@@ -140,7 +148,7 @@ for field in (
 ):
     require(field in contract, f"repair contract contains {field}")
 
-for query in POSITIVE_QUERIES:
+for query in MOODBOARD_QUERIES:
     hits = match_bindings(query)
     require(bool(hits), f"positive query has a binding: {query}")
     require(
@@ -161,6 +169,27 @@ for query in POSITIVE_QUERIES:
     require(valid.get("valid") is True, f"routing enforcer accepts /mood-board: {query}")
     require(wrong.get("valid") is False, f"routing enforcer rejects generic creative brief: {query}")
 
+for query in BRAND_DIRECTION_QUERIES:
+    hits = match_bindings(query)
+    require(bool(hits), f"brand-direction query has a binding: {query}")
+    require(
+        bool(hits) and hits[0].get("workflow") == "andrew-lane-design-systems",
+        f"brand-direction query binds to /andrew-lane-design-systems: {query}",
+    )
+
+    menu = run("execution/command_menu.py", "search", query)
+    require(menu.returncode == 0, f"command menu runs for: {query}")
+    require(first_menu_route(menu.stdout) == "andrew-lane-design-systems", f"command menu ranks Andrew first: {query}")
+
+    router = run("execution/workflow_router.py", "search", query)
+    require(router.returncode == 0, f"workflow router runs for: {query}")
+    require(first_workflow_route(router.stdout) == "andrew-lane-design-systems", f"workflow router ranks Andrew first: {query}")
+
+    valid = check_routing(query, "andrew-lane-design-systems")
+    wrong = check_routing(query, "mood-board")
+    require(valid.get("valid") is True, f"routing enforcer accepts Andrew: {query}")
+    require(wrong.get("valid") is False, f"routing enforcer rejects mood-board as parent: {query}")
+
 for query in NEGATIVE_QUERIES:
     hits = match_bindings(query)
     mood_hits = [hit for hit in hits if hit.get("binding_id") == "mood_board_orchestrator"]
@@ -177,7 +206,8 @@ if failures:
 
 print(
     "PASS — mood-board orchestrator: "
-    f"{len(POSITIVE_QUERIES)} positive routes, "
+    f"{len(MOODBOARD_QUERIES)} standalone moodboard routes, "
+    f"{len(BRAND_DIRECTION_QUERIES)} brand-direction handoffs, "
     f"{len(NEGATIVE_QUERIES)} negative controls, "
     f"{len(notes)} structure/proof assertions"
 )

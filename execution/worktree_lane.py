@@ -15,9 +15,10 @@ Commands:
   bootstrap [--if-needed] [--quiet]     provision a lane (symlinks + state + parity)
   parity                                prove full-power (also: doctor --parity)
   list [--json]                         active + parked lanes
-  merge [--lane BRANCH] [--no-teardown] [--no-push] [--dry-run]
+  merge [--lane BRANCH] [--no-teardown] [--push] [--no-push] [--dry-run]
                                         seal -> gate -> merge -> Law-3 audit ->
-                                        regen -> optional push -> teardown | PARK
+                                        regen -> local by default; explicit push
+                                        -> teardown | PARK
   teardown [--lane BRANCH] [--force]    remove a merged/parked lane
   doctor [--fix] [--parity]             health table; --fix re-links/prunes
 
@@ -951,14 +952,17 @@ def main() -> int:
     m = sub.add_parser("merge", help="seal + merge this lane back to main (auto-merge-when-clean)")
     m.add_argument("--lane", help="branch name (default: the lane you're in)")
     m.add_argument("--no-teardown", action="store_true", dest="no_teardown")
-    m.add_argument("--no-push", action="store_true", dest="no_push",
-                   help="merge locally without pushing the lane or main")
+    push_mode = m.add_mutually_exclusive_group()
+    push_mode.add_argument("--push", action="store_false", dest="no_push",
+                           help="explicitly push the merged main branch to origin")
+    push_mode.add_argument("--no-push", action="store_true", dest="no_push",
+                           help="compatibility alias; local-only is already the default")
     m.add_argument("--dry-run", action="store_true", dest="dry_run")
     m.add_argument("--lock-token", dest="lock_token",
                    help="session_lock token owned by the caller (own lock ≠ foreign writer)")
     m.add_argument("--exclude-session", dest="exclude_session", action="append",
                    help="session id to exclude from fresh-writer detection (repeatable)")
-    m.set_defaults(fn=cmd_merge)
+    m.set_defaults(fn=cmd_merge, no_push=True)
 
     t = sub.add_parser("teardown")
     t.add_argument("--lane")

@@ -2,11 +2,11 @@
   "slug": "mission-system-audit",
   "chip": "MISSION · THREAD",
   "title": "Retry weakest section for intent *alignment*",
-  "dek": "Audited, filed, unread — the finding that matters is that nobody read the findings.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "sep 1, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,62 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The audit deliverables are finalized and a solution card came out of the work, but the recorded outcome says plainly that the findings were never actually read or absorbed. A second outcome closes the thread as a system asset rather than a revenue one.\n\nHandoff status is active. Last activity today.\n\nNext: Read the audit findings and either act on one of them or retire them explicitly."
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is active. Last activity today.\n\nNext: Resume the `system-audit` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (system-audit)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 61d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
+          "command": "python3 execution/handoff_store.py resume system-audit",
+          "touches": [
+            ".agent/handoffs/2026-07-02-system-audit.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park system-audit --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "system-audit",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill system-audit --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "system-audit",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.\nSLUG: system-audit\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-02-system-audit.md\n\nRESUME HERE: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.\n\nSHIPPED IN WINDOW:\n  - 2026-08-28 · Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship\n  - 2026-08-30 · Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, r\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -28,7 +83,12 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "13",
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "codex"
+        },
+        {
+          "value": "4",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -59,54 +119,26 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "assets",
-      "heading": "what this thread *made*",
-      "tag": "COPY THE PATH",
-      "items": [
-        {
-          "title": "2026-07-08-control-intent-classifier-overfires-system-audit.md",
-          "role": "SOLUTION",
-          "path": "docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
-          "command": "python3 execution/handoff_store.py resume system-audit",
-          "touches": [
-            ".agent/handoffs/2026-07-02-system-audit.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-17",
-          "title": "commit eae54a99b",
-          "body": "chore(session): end-session commit gate — 2026-08-17",
+          "date": "2026-09-01",
+          "title": "codex session",
+          "body": "System: Signal Fidelity - Contract and Proof Audit",
           "done": true
         },
         {
-          "date": "2026-08-04",
+          "date": "2026-08-30",
           "title": "Finalized · system-audit",
-          "body": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
+          "body": "Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, real writer evidence, and sabotage verifier\nHourly launchd observed loaded with last exit 0; real local lane merge passed; no remote push; 9/9 sabotage checks PASS | platform: codex | Verification: PASS | telemetry: sub_agents_spawned=0",
           "done": true
         },
         {
-          "date": "2026-08-04",
+          "date": "2026-08-28",
           "title": "Finalized · system-audit",
-          "body": "Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture ",
+          "body": "Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship\nShadow-only dual render preserves full brief authority; isolated handoff returned artifact only; main thread caught and removed two structural tells | platform: codex | Verification: PASS | telemetry: sub_agents_spawned=",
           "done": true
         }
       ]
@@ -132,7 +164,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The thread's own resume line describes client listing work rather than a system audit, so the label and the contents have drifted apart — treat the title with suspicion. The one honest outcome on record is a not-absorbed verdict, which means the work exists but changed nothing.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

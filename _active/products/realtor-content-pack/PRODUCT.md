@@ -31,7 +31,7 @@ Agency tier is the math-maker: one agency = 4-5 practitioner subs.
 ## Directory map
 
 - `03-storefront/` — sales page, Stripe descriptors, setup walkthrough, pricing rationale
-- `04-deliverables/month-01-pack/` — the month-1 product (7 files, guide + 6 content sets)
+- `04-deliverables/month-01-pack/` — the month-1 product (guide + 7 content systems; Listing Launch remains the flagship and Local Signal is the between-listings creation loop)
 - `05-outreach/` — 50-contact list (CSV, source-URL-verified), outreach scripts
 
 ## Open decisions

@@ -56,6 +56,21 @@ PRODUCTIZED_AI_SERVICE_OS_STACK = (
     "publishable-copy-gate",
 )
 
+JW_THREE_ASSET_CLOSE_STACK = (
+    "jw-three-asset-close",
+    "jw-propaganda-machine",
+)
+
+JW_THREE_ASSET_CLOSE_SIGNALS = (
+    "/jw-three-asset-close",
+    "source-command-jw-three-asset-close",
+    "three sales assets",
+    "three-asset close",
+    "three asset close",
+    "model/machine/invite",
+    "model machine invite",
+)
+
 PRODUCTIZED_AI_SERVICE_OS_SIGNALS = (
     "/productized-ai-service-os",
     "productized-ai-service-os",
@@ -607,6 +622,9 @@ END_SESSION_SIGNALS = (
     "session wrap",
     "handoff closeout",
     "handoff close-out",
+    "close ready",
+    "close done",
+    "bulk closeout audit",
 )
 
 END_SESSION_CONTEXT_TERMS = (
@@ -1308,6 +1326,29 @@ def is_productized_ai_service_os_intent(query: str) -> bool:
     has_productized = "productized" in normalized or "subscription" in normalized or "no-call" in normalized or "no call" in normalized
     has_os = "os" in normalized or "operating system" in normalized or "delivery system" in normalized
     return has_service and has_productized and (has_os or "ai" in normalized)
+
+
+def is_jw_three_asset_close_intent(query: str) -> bool:
+    """Return True only for the bounded Model/Machine/Invite close system."""
+    normalized = normalize_query(query)
+    if not normalized:
+        return False
+    if any(signal in normalized for signal in JW_THREE_ASSET_CLOSE_SIGNALS):
+        return True
+    has_triad = all(term in normalized for term in ("model", "machine", "invite"))
+    has_no_call_boundary = any(
+        term in normalized
+        for term in (
+            "no sales call",
+            "no sales calls",
+            "no pre-sale call",
+            "no pre-sale calls",
+            "without sales calls",
+            "zero-call",
+            "zero call",
+        )
+    )
+    return has_triad and has_no_call_boundary
 
 
 def is_ai_employee_os_intent(query: str) -> bool:
@@ -2609,6 +2650,11 @@ def system_failure_route_bonus(route_name: str, query: str = "") -> int:
 def governed_route_names(query: str, raw_routes: Iterable[str]) -> list[str]:
     """Return route names with governor-required routes promoted first."""
     routes = [route for route in raw_routes if route]
+    if is_jw_three_asset_close_intent(query):
+        ordered = [route for route in JW_THREE_ASSET_CLOSE_STACK if route in routes]
+        ordered.extend(route for route in JW_THREE_ASSET_CLOSE_STACK if route not in ordered)
+        ordered.extend(route for route in routes if route not in ordered)
+        return ordered
     if is_operating_alignment_intent(query):
         ordered = [route for route in OPERATING_ALIGNMENT_STACK if route in routes]
         ordered.extend(route for route in OPERATING_ALIGNMENT_STACK if route not in ordered)
@@ -2750,6 +2796,9 @@ def choose_route(query: str, routes: Iterable[str]) -> str:
 
 
 def flagged_routes_for(query: str, routes: Iterable[str]) -> tuple[str, ...]:
+    if is_jw_three_asset_close_intent(query):
+        allowed = set(JW_THREE_ASSET_CLOSE_STACK)
+        return tuple(route for route in routes if route and route not in allowed)
     if is_operating_alignment_intent(query):
         allowed = set(OPERATING_ALIGNMENT_STACK) | {"system-hygiene", "context-audit", "harness-audit"}
         return tuple(route for route in routes if route and route not in allowed)
@@ -2849,6 +2898,30 @@ def evaluate(
         ),
         None,
     )
+
+    if is_jw_three_asset_close_intent(query):
+        chosen = choose_route(query, combined)
+        skipped = flagged_routes_for(query, combined[:8])
+        return GovernorDecision(
+            query=query,
+            detected_lane="jw-three-asset-close",
+            confidence=0.97 if chosen == "jw-three-asset-close" else 0.86,
+            required_candidates=JW_THREE_ASSET_CLOSE_STACK,
+            command_menu_winners=menu_routes,
+            workflow_router_winners=workflow_routes,
+            chosen_route=chosen,
+            skipped_routes=skipped,
+            reason=(
+                "Model/Machine/Invite or three-sales-assets intent detected. "
+                "Keep /jw-three-asset-close under the existing John Whiting "
+                "Propaganda Machine owner and preserve the no-pre-sale-call boundary."
+            ),
+            feedback_recommendation=(
+                "If this bounded intent routes to /create, a generic sales workflow, "
+                "or a call-setting route, preserve it as a jw-three-asset-close "
+                "routing regression."
+            ),
+        )
 
     if is_operating_alignment_intent(query):
         chosen = choose_route(query, combined)
