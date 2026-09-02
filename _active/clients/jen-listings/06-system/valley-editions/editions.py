@@ -524,35 +524,58 @@ def small_jpeg(src, dst, cap_kb=70):
     return dst.stat().st_size // 1024
 
 
+def take_a_boards():
+    """The take-A page: his pick, with his four fixes, as live artboards, plus the original render as an image for reference."""
+    her = IMG / "jen-porch-vannuys.jpg"
+    sub = "what $869K buys here this month, a 7am coffee on ventura, and the one house that&#8217;s mine. buying or selling."
+    mk = lambda **kw: cover_gem_fixed(her, "The Valley &#183; Edition 01<br>Tarzana, September", "this is", "Tarzana.", sub, **kw)
+    orig = OUT / "take-A-cover-gem.png"
+    img_board = (f'<div class="page"><img src="{orig.resolve().as_uri()}" class="abs" style="inset:0;width:{W}px;height:{H}px"></div>')
+    return [
+        ("TakeAOriginal", "take A · as you saw it", img_board),
+        ("TakeA1", "A1 · four fixes (pill top-right, no arrow, text lower)", mk(pos="100% 0%", scale=1.12, face=PLAYFAIR, grad=IVORY, text_top=0.47)),
+        ("TakeA2", "A2 · same, template serif", mk(pos="100% 0%", scale=1.12, face=SERIF, grad=IVORY, text_top=0.47, size=190)),
+        ("TakeA4", "A4 · her in the right third", mk(pos="0% 0%", scale=1.45, face=PLAYFAIR, grad=IVORY, text_top=0.44, size=138, pill_at="under")),
+    ]
+
+
 def canvas(title="The Valley · Tarzana · Edition 01", filename="tarzana-edition-01.html"):
     import json
     CANVAS.mkdir(parents=True, exist_ok=True); (CANVAS / "img").mkdir(exist_ok=True)
     images = {}
     boards = []
-    for stem, t, html in frames():
+    page_of = {}
+    for stem, t, html in take_a_boards() + frames():
+        page_of[stem] = "take-a" if stem.startswith("TakeA") else "edition"
         for uri in set(re.findall(r'src="(file://[^"]+)"', html)):
             src = pathlib.Path(urllib.parse.unquote(uri[len("file://"):]))
-            if src.name not in images:
-                kb = small_jpeg(src, CANVAS / "img" / src.name); images[src.name] = kb
-            html = html.replace(uri, src.name)
+            name = src.stem + ".jpg"
+            if name not in images:
+                kb = small_jpeg(src, CANVAS / "img" / name); images[name] = kb
+            html = html.replace(uri, name)
         doc = (f'<!doctype html>\n<html>\n<head>\n  <meta charset="utf-8">\n  <script src="./support.js"></script>\n</head>\n<body>\n<x-dc>\n<helmet>\n  {FONTS}\n'
                f'  <style>{DC_STYLE}</style>\n</helmet>\n{html}\n</x-dc>\n</body>\n</html>\n')
         (CANVAS / f"{stem}.dc.html").write_text(doc)
         boards.append((stem, t))
     gap = 100
     layout = []
-    for i, (stem, t) in enumerate(boards):
+    ta = [b for b in boards if b[0].startswith("TakeA")]; ed = [b for b in boards if not b[0].startswith("TakeA")]
+    for i, (stem, t) in enumerate(ta):
+        layout.append({"file": f"{stem}.dc.html", "title": t, "x": i * (W + gap), "y": 0, "w": W, "h": H, "page": "take-a"})
+    for i, (stem, t) in enumerate(ed):
         row = 0 if i < 5 else 1
         col = i if i < 5 else i - 5
-        layout.append({"file": f"{stem}.dc.html", "title": t, "x": col * (W + gap), "y": row * (H + 260), "w": W, "h": H})
+        layout.append({"file": f"{stem}.dc.html", "title": t, "x": col * (W + gap), "y": row * (H + 260), "w": W, "h": H, "page": "edition"})
     manifest = {
+        "pages": [{"id": "take-a", "name": "Take A · fixed"}, {"id": "edition", "name": "Edition 01 · take 2 + sheet"}],
         "artboards": layout,
         "annotations": [
-            {"id": "row-edition", "x": 0, "y": -150, "w": 560, "text": "Tarzana · Edition 01 · five frames on the Local Gem grammar (Design 1, geometry unmoved). Copy: edition-01/CONTENT-PACK.md. Every number labeled there."},
-            {"id": "plates-pending", "x": W + gap, "y": H + 20, "w": 520, "text": "Frames 2 and 4 carry demo placeholders (her Bothwell kitchen and living room, her older listing, two CC0 pool shots). The real plates A–E (Laidrey storefront, a Tarzana street, a porch step) generate after your go on the cost gate, ~$1–3 total. Her own photo of Laidrey beats a plate."},
-            {"id": "row-sheet", "x": 0, "y": H + 260 - 150, "w": 560, "text": "System sheet · the same cover in the five other grammars (D2 moment, D3 stack, D4 city guide, D5 urban guide, D6 big initial). Pick one per edition; none ships with Edition 01 unless you swap it in."},
+            {"id": "take-a-note", "x": 0, "y": -170, "w": 640, "page": "take-a", "text": "Take A, the one you liked, with your four fixes. The source photo is a 360×430 grab from her grid, so she sits dead center and the headline lands on her legs in A1/A2; A4 pushes her right at the cost of sharpness. Her original file (or a one-time upscale) fixes both."},
+            {"id": "row-edition", "x": 0, "y": -150, "w": 560, "page": "edition", "text": "Tarzana · Edition 01 · five frames on the Local Gem grammar (Design 1, geometry unmoved). Copy: edition-01/CONTENT-PACK.md. Every number labeled there."},
+            {"id": "plates-pending", "x": W + gap, "y": H + 20, "w": 520, "page": "edition", "text": "Frames 2 and 4 carry demo placeholders (her Bothwell kitchen and living room, her older listing, two CC0 pool shots). The real plates A–E (Laidrey storefront, a Tarzana street, a porch step) generate after your go on the cost gate, ~$1–3 total. Her own photo of Laidrey beats a plate."},
+            {"id": "row-sheet", "x": 0, "y": H + 260 - 150, "w": 560, "page": "edition", "text": "System sheet · the same cover in the five other grammars (D2 moment, D3 stack, D4 city guide, D5 urban guide, D6 big initial). Pick one per edition; none ships with Edition 01 unless you swap it in."},
         ],
-        "launch": {"view": "canvas"},
+        "launch": {"view": "canvas", "page": "take-a"},
     }
     (CANVAS / "canvas.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
     out_html = CANVAS / filename
@@ -569,6 +592,51 @@ def canvas(title="The Valley · Tarzana · Edition 01", filename="tarzana-editio
     print("canvas:", out_html, out_html.stat().st_size // 1024, "KB")
 
 
+
+
+# ------------------------------------------------------------------ Take A, fixed (Farrice's verdict, prior session): her framing off, pill badly placed, arrow goes, text a little lower
+IVORY = "linear-gradient(180deg, #FFF3D6 0%, #F7F5F2 55%, #FFFFFF 100%)"
+PLAYFAIR = "font-family: 'Playfair Display', Georgia, serif;"
+
+
+def cover_gem_fixed(src, eyebrow, connector, headline, subline, handle="@_jiing", pos="50% 12%", scale=1.0, size=170,
+                    face=PLAYFAIR, grad=IVORY, text_top=0.47, pill_at="top-right", arrow_on=False, footer_right="01 / 05"):
+    """Take A (cover_gem) with the four fixes. face: PLAYFAIR (as he saw it) or SERIF (Instrument). grad: IVORY (as he saw it) or IVORY_GRAD (steel).
+    text_top: the headline block's top as a share of height (was 0.41). pill_at: 'top-right' (beside the masthead) or 'under' (below the subline)."""
+    size = fit(headline, size, em=0.5 if face == PLAYFAIR else 0.42)
+    g = f'background:{grad};-webkit-background-clip:text;background-clip:text;color:transparent'
+    pill_html = pill(handle, W - GUTTER - 290, 74) if pill_at == "top-right" else pill(handle, GUTTER, int(H * text_top) + int(size * 1.9) + 60)
+    return f'''<div class="page">{photo(src, pos, scale)}{wash("top", plateau=True, grain=True)}
+{masthead(eyebrow)}
+<div class="abs" style="left:{GUTTER}px;top:{int(H*text_top)}px;width:{W-2*GUTTER}px">
+  <div style="{face}font-style:italic;font-size:{int(size*0.46)}px;line-height:1;color:{CREAM};margin-left:6px">{connector}</div>
+  <div style="{face}font-size:{size}px;line-height:.92;letter-spacing:-.02em;margin-top:-6px;{g}">{headline}</div>
+  <div style="{SANS}font-weight:300;font-size:28px;line-height:1.4;color:{WHITE};max-width:640px;margin-top:30px">{subline}</div>
+</div>
+{pill_html}
+{arrow(GUTTER - 6, H - 215, rot=-8) if arrow_on else ""}
+{footer("the valley &#183; a series", footer_right)}
+</div>'''
+
+
+def take_a_fixed():
+    out = OUT / "take-a-fixed"; out.mkdir(exist_ok=True)
+    her = IMG / "jen-porch-vannuys.jpg"
+    sub = "what $869K buys here this month, a 7am coffee on ventura, and the one house that&#8217;s mine. buying or selling."
+    variants = {
+        # A1 · as he saw it (Playfair, ivory), the four fixes: her shifted right and up, text lower, pill top-right, no arrow
+        "A1-as-seen-fixed": dict(pos="100% 0%", scale=1.12, face=PLAYFAIR, grad=IVORY, text_top=0.47),
+        # A2 · same, in the template's condensed serif
+        "A2-template-serif": dict(pos="100% 0%", scale=1.12, face=SERIF, grad=IVORY, text_top=0.47, size=190),
+        # A3 · her larger, text lowest, pill under the subline
+        "A3-her-larger": dict(pos="100% 0%", scale=1.3, face=PLAYFAIR, grad=IVORY, text_top=0.52, pill_at="under"),
+        # A4 · her in the right third (the only way this 360px frame gives the type a wall)
+        "A4-her-right": dict(pos="0% 0%", scale=1.45, face=PLAYFAIR, grad=IVORY, text_top=0.44, size=138, pill_at="under"),
+    }
+    for name, kw in variants.items():
+        render(cover_gem_fixed(her, "The Valley &#183; Edition 01<br>Tarzana, September", "this is", "Tarzana.", sub, **kw), out / f"{name}.png")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "takes"
-    {"takes": takes, "variations": variations, "edition01": edition01, "sheet": system_sheet, "canvas": canvas}[cmd]()
+    {"takes": takes, "variations": variations, "edition01": edition01, "sheet": system_sheet, "canvas": canvas, "take-a": take_a_fixed}[cmd]()
