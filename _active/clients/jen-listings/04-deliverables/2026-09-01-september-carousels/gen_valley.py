@@ -278,10 +278,10 @@ slides["DD1"] = f'''<div style="{FRAME} background: {CREAM}; display: flex; flex
   </div>
   <div style="position: absolute; left: 372px; top: 506px;">{arrow(190, 86, INK, "transform: rotate(-8deg);")}</div>
   <div style="position: absolute; left: 100px; right: 100px; bottom: 100px; display: flex; flex-direction: column; gap: 44px;">
-    <div style="font-size: 70px; font-weight: 600; line-height: 1.14; color: {INK}; letter-spacing: -0.015em; max-width: 880px;">your credit can be perfect.<br>the condo still {it("falls through.")}</div>
+    <div style="font-size: 70px; font-weight: 600; line-height: 1.14; color: {INK}; letter-spacing: -0.015em; max-width: 880px;">what if the building is the problem...<br>{it("not me?")}</div>
     <div style="display: flex; align-items: center; gap: 32px;">
       <div style="width: 76px; height: 1px; background: {INK}; flex: none;"></div>
-      <div style="font-size: 36px; line-height: 1.5; color: {GREY}; max-width: 620px;">the part nobody tells first-time buyers.</div>
+      <div style="font-size: 36px; line-height: 1.5; color: {GREY}; max-width: 620px;">the question under the 1am scroll.</div>
     </div>
   </div>
 </div>'''
@@ -300,9 +300,9 @@ key_labels = "".join(f'''        <div style="width: 190px; display: flex; flex-d
         </div>''' for num, _, lab in KEY)
 
 slides["DD2"] = shell(f'''{eyebrow("THE PART NOBODY EXPLAINS")}
-    <div style="{SERIF} font-style: italic; font-size: 94px; font-weight: 400; line-height: 1.0; color: {INK};">the building</div>
-    <div style="font-size: 46px; font-weight: 500; line-height: 1.32; color: {INK}; letter-spacing: -0.01em;">gets checked too now.</div>
-{body("since august 3, 2026, lenders run a full review of the building on almost every conventional condo loan... <span style='color: " + INK + "; font-weight: 500;'>its money, not just yours.</span>", width=800, size=32)}
+    <div style="{SERIF} font-style: italic; font-size: 94px; font-weight: 400; line-height: 1.0; color: {INK};">you were pre-approved.</div>
+    <div style="font-size: 46px; font-weight: 500; line-height: 1.32; color: {INK}; letter-spacing: -0.01em;">the building wasn&#8217;t.</div>
+{body("since august 3, 2026, banks check the building&#8217;s books on almost every regular condo loan... <span style='color: " + INK + "; font-weight: 500;'>the ordinary kind, not FHA or VA.</span>", width=800, size=32)}
     <div style="display: flex; flex-direction: column; gap: 0; padding-top: 4px;">
       <div style="display: flex; justify-content: space-between; align-items: flex-end;">
 {key_cols}
@@ -325,11 +325,11 @@ def bar(label, value, width, strong=False):
           <div style="height: 10px; background: #EDE9E2;"><div style="height: 10px; width: {width}%; background: {barc};"></div></div>
         </div>'''
 
-slides["DD3"] = shell(f'''{eyebrow("01 &#183; THE BUILDING&#8217;S SAVINGS ACCOUNT")}
+slides["DD3"] = shell(f'''{eyebrow("01 &#183; THE SAVINGS ACCOUNT")}
     <div style="display: flex; gap: 48px; align-items: flex-start;">
       <div style="flex: 1; display: flex; flex-direction: column; gap: 32px;">
-        <div style="font-size: 66px; font-weight: 600; line-height: 1.16; color: {INK}; letter-spacing: -0.01em;">it pays for roofs and pipes.</div>
-{body("the floor is 10% of the building&#8217;s budget today, and 15% for loans dated january 4, 2027 or later.", width=440, size=32)}
+        <div style="font-size: 60px; font-weight: 600; line-height: 1.16; color: {INK}; letter-spacing: -0.01em;">i open the budget before i look at the balcony.</div>
+{body("i&#8217;m looking for one thing: the savings account. 10% of the building&#8217;s budget today, 15% for loans dated january 4, 2027 or later.", width=440, size=31)}
       </div>
       <div style="flex: none; padding-top: 4px;">{facade("courtyard", 248, 298)}</div>
     </div>
@@ -344,11 +344,11 @@ aerial_print = print_(
     "sfv-aerial-nara.jpg", 270, 203, rot=1.5, dark=True, cap="SAN FERNANDO VALLEY &#183; 1933",
     overlay=f'<div style="position: absolute; left: 62px; top: 88px;">{ring(135, 95, CREAM)}</div>')
 
-slides["DD4"] = shell(f'''{eyebrow("02 &#183; THE LAST 12 MONTHS OF MEETING NOTES", dark=True)}
+slides["DD4"] = shell(f'''{eyebrow("02 &#183; TWELVE MONTHS OF MEETING NOTES", dark=True)}
     <div style="display: flex; gap: 46px; align-items: flex-start;">
       <div style="flex: 1; display: flex; flex-direction: column; gap: 38px;">
-        <div style="font-size: 76px; font-weight: 600; line-height: 1.16; color: {CREAM}; letter-spacing: -0.01em;">read the notes.<br>{it("all twelve months.", dark=True)}</div>
-{body("leaks, insurance trouble, and a surprise bill split between owners all get discussed in here <span style='color: " + CREAM + "; font-weight: 500;'>months before anyone gets billed.</span>", dark=True, width=460, size=34)}
+        <div style="font-size: 66px; font-weight: 600; line-height: 1.16; color: {CREAM}; letter-spacing: -0.01em;">somewhere around page four:<br>{it("&#8220;roof discussed.&#8221;", dark=True)}</div>
+{body("that&#8217;s a surprise bill, split between every owner. it was in the notes <span style='color: " + CREAM + "; font-weight: 500;'>months before it hits your mailbox.</span>", dark=True, width=460, size=33)}
       </div>
       <div style="flex: none; padding-top: 8px;">{aerial_print}</div>
     </div>
@@ -369,8 +369,8 @@ slides["DD5"] = f'''<div style="{FRAME} background: {CREAM}; display: flex; flex
   <div style="position: relative; display: flex; flex-direction: column; gap: 34px; max-width: 520px;">
 {eyebrow("03 &#183; THE BUILDING&#8217;S OWN INSURANCE")}
     <div style="{SERIF} font-size: 176px; font-weight: 500; line-height: 0.98; color: {INK}; letter-spacing: -0.03em;">$50K</div>
-    <div style="font-size: 52px; font-weight: 600; line-height: 1.2; color: {INK}; letter-spacing: -0.01em;">your unit&#8217;s share of a claim</div>
-{body("it has to cover a full rebuild, and your unit&#8217;s share of a claim has to stay under $50,000. otherwise conventional financing stops.", width=468, size=31)}
+    <div style="font-size: 48px; font-weight: 600; line-height: 1.22; color: {INK}; letter-spacing: -0.01em;">if your share of one claim goes over $50,000... the loan stops.</div>
+{body("and the policy has to cover a full rebuild.", width=468, size=32)}
   </div>
 {foot("THE BUILDING&#8217;S POLICY, NOT YOURS", 5)}
 </div>'''
@@ -390,8 +390,8 @@ slides["DD6"] = shell(f'''{eyebrow("04 &#183; WHO&#8217;S BEHIND ON DUES")}
     <div style="display: flex; align-items: baseline; gap: 6px;">
       <span style="{SERIF} font-size: 190px; font-weight: 500; line-height: 0.95; color: {INK}; letter-spacing: -0.03em;">15</span><span style="{SERIF} font-style: italic; font-size: 90px; color: {STEEL};">%</span>
     </div>
-    <div style="font-size: 52px; font-weight: 600; line-height: 1.22; color: {INK}; letter-spacing: -0.01em; max-width: 840px;">or more of units 60+ days late and no bank will lend on any unit in it.</div>
-{body("yours included.", width=740, size=34)}
+    <div style="font-size: 48px; font-weight: 600; line-height: 1.22; color: {INK}; letter-spacing: -0.01em; max-width: 860px;">or more of units 60+ days behind on dues... and no bank lends on the building. yours included.</div>
+{body("you can pay yours perfectly, on time, every month. it doesn&#8217;t change the answer.", width=760, size=31)}
     <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 2px;">
       <div style="display: flex; justify-content: space-between;">{tile_row(0, 10)}</div>
       <div style="display: flex; justify-content: space-between;">{tile_row(10, 20)}</div>
@@ -411,7 +411,7 @@ slides["DD7"] = f'''<div style="{FRAME} background: {INK}; display: flex; flex-d
     <div style="font-size: 80px; font-weight: 600; line-height: 1.16; color: {CREAM}; letter-spacing: -0.01em;">send me the address<br>{it("before you write.", dark=True)}</div>
     <div style="display: flex; gap: 46px; align-items: flex-start;">
       <div style="flex: 1; display: flex; flex-direction: column; gap: 40px;">
-{body("i&#8217;ll read the package with you. it takes an afternoon and it costs you nothing.", dark=True, width=440, size=34)}
+{body("we&#8217;ll read the four documents together and go from there. i&#8217;m here for you... i do this to protect you and your best interest.", dark=True, width=440, size=31)}
         <div style="display: flex; align-items: center; background: {CREAM}; padding: 30px 42px; align-self: flex-start;">
           <span style="{SERIF} font-style: italic; font-size: 46px; font-weight: 500; color: {INK}; white-space: nowrap;">my DMs are open</span>
         </div>

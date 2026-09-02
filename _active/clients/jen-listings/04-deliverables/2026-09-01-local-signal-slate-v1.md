@@ -1,6 +1,6 @@
-# jen: september slate, 3 reels + 3 carousels
+# jen: september slate, 4 reels + 3 carousels
 
-hey babe, three ideas for september. each one is a reel plus a matching carousel on the same subject, so you film once and the carousel does the saving-and-sending work after. pick the one you'd actually say first. 🤍
+hey babe, four ideas for september. the first three are a reel plus a matching carousel on the same subject, so you film once and the carousel does the saving-and-sending work after. the fourth is built from your own voice memo. pick the one you'd actually say first. 🤍
 
 **the rhythm that's working for agents right now:** two reels and one carousel a week. reels 30 to 45 seconds, you on camera, the hook on screen in the first frame, one ask at the end. carousel goes out the day after its reel. film all three reels in one sitting.
 
@@ -8,48 +8,52 @@ hey babe, three ideas for september. each one is a reel plus a matching carousel
 
 ## 1. the building has to qualify too  (my top pick)
 
-*the subject:* since august 3, on almost every conventional condo loan, the lender runs a full review of the building itself. budget, reserves, master insurance, how many owners are behind on dues. one fail and the loan dies no matter how clean the buyer is. and condos are the cheapest door into the valley right now.
+*the subject:* since august 3, on almost every regular condo loan, the bank checks the building itself, not just the buyer. its savings, its own insurance, how many owners are behind on dues. one fail and the loan dies no matter how clean the buyer is. and condos are the cheapest door into the valley right now.
 
 ### reel · 35 to 40 seconds · talking head, kitchen or car
 
-**hook** (first 2 seconds, on screen too):
-> "your credit can be perfect... and the condo still falls through."
+**hook** (first 2 seconds, on screen too): "your credit can be perfect... and the condo still falls through."
 
 other hooks if that one isn't you:
-- "since august 3rd, the lender is checking the building, not just you."
-- "the cheapest way into the valley just got a new catch."
+- "the bank is checking the building now, not just you."
+- "the cheapest door into the valley just got a new catch."
 
 **script:**
-> "you found a condo in van nuys under 500. you're pre-approved, credit's clean, you're ready.
-> and then the lender asks for the HOA's reserve study.
-> since august 3rd, on almost every conventional condo loan, the building has to qualify too... its budget, its reserves, its insurance, how many owners are behind on dues.
+> "you found a condo in van nuys under 500. pre-approved, credit clean, ready.
+> then the lender asks for the building's savings plan.
+> since august 3rd, on almost every regular condo loan... the ordinary kind, not FHA or VA... the building has to qualify too. its savings, its insurance, its unpaid dues.
 > one of those fails and the deal dies. not because of you.
-> so now i do this part first, before you get attached. i pull the HOA package and the last twelve months of board minutes, and i ask one question... is anything being discussed that hasn't been billed yet.
-> because the unit can be a great price and the building can still be broke. and then the bill is yours.
-> if you're touring condos this fall, send me the address first. i'll read it with you. i'm here for you... that's my job 🏡"
+> so i read that first, before you get attached. the paperwork, twelve months of meeting notes, one question... is anything being discussed that nobody's been billed for yet.
+> the unit can be a great price and the building still broke. then the bill is yours.
+> send me the address first. i'm here for you... that's my job. your credit was never the problem 🏡"
 
-**on screen** (in order): the building has to qualify too · aug 3: full review on every condo loan · reserves · insurance · dues · read it before you fall in love
+**on screen:** the building has to qualify too · aug 3: the bank checks the building · savings · insurance · dues · read it before you fall in love
 
 **caption:**
-> i hear "we're pre-approved, we're ready" all the time. for condos, that's now half the story.
-> since august 3, 2026, lenders run a full review of the building on almost every conventional condo loan. the building's reserves, its master insurance, its delinquencies... any one of them can stop your financing, and you'd never know from the listing photos.
-> so before you get attached to a unit, i read three things with you: the reserve study, the last 12 months of board minutes, and the master insurance policy. not exciting... but it's where the surprises live.
-> the unit can be a great price and the building can still be broke. and then the bill is yours.
-> touring condos this fall? my DMs are open... send me the address before you write and we'll read the package together.
-> source: fannie mae lender letter LL-2026-03, effective aug 3, 2026. the reserve floor rises from 10% to 15% for loans dated on or after jan 4, 2027.
+> "we're pre-approved, we're ready." for condos, that's now half the story.
+> since august 3, 2026, banks check the building's books on almost every regular condo loan. any one of those numbers can stop your financing, and none of it is in the listing photos.
+> so before you get attached, we read three things together: the savings plan, twelve months of meeting notes, the building's own insurance policy. that's where the surprises live.
+> source: fannie mae LL-2026-03, effective aug 3, 2026.
+> my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
+> i'm here for you. that's my job. i do this to protect you and your best interest.
+> your credit was never the problem.
 > #firsttimehomebuyer #SFV #sanfernandovalleyrealtor #losangelesrealestate #vannuys
+
+---
 
 ### carousel · 7 slides · your warm editorial look (cream ground, navy ink, one navy slide)
 
-1. **your credit can be perfect. the condo still falls through.** · *the part nobody tells first-time buyers.* · masthead: @_jiing · first-time buyer file
-2. **the building gets checked too now.** · since august 3, 2026, lenders run a full review of the building on almost every conventional condo loan... its money, not just yours.
-3. **01 the building's savings account** · it pays for roofs and pipes. the floor is 10% of the building's budget today, and 15% for loans dated january 4, 2027 or later. · bar graphic: 10% → 15%
-4. *(navy slide)* **02 the last 12 months of meeting notes** · read the notes. all twelve months. leaks, insurance trouble, and a surprise bill split between owners all get discussed in here months before anyone gets billed.
-5. **03 the building's own insurance** · your unit's share of a claim. it has to cover a full rebuild, and your unit's share of a claim has to stay under $50,000. otherwise conventional financing stops. · numeral: $50K
-6. **04 who's behind on dues** · 15% or more of units 60+ days late and no bank will lend on any unit in it. yours included. · numeral: 15%
-7. **send me the address before you write.** · i'll read the package with you. it takes an afternoon and it costs you nothing. · my DMs are open · small print: source fannie mae LL-2026-03, freddie mac bulletin 2026-C, aug 2026
+1. **what if the building is the problem... not me?** · the question under the 1am scroll.
+2. **you were pre-approved. the building wasn't.** · since august 3, 2026, banks check the building's books on almost every regular condo loan... the ordinary kind, not FHA or VA.
+3. **i open the budget before i look at the balcony.** · i'm looking for one thing: the savings account. 10% of the building's budget today, 15% for loans dated january 4, 2027 or later.
+4. *(navy slide)* **somewhere around page four: "roof discussed."** · that's a surprise bill, split between every owner. it was in the notes months before it hits your mailbox.
+5. **if your share of one claim goes over $50,000... the loan stops.** · and the policy has to cover a full rebuild.
+6. **15% or more of units 60+ days behind on dues... and no bank lends on the building. yours included.** · you can pay yours perfectly, on time, every month. it doesn't change the answer. · *small print: fannie mae LL-2026-03 · freddie mac bulletin 2026-C*
+7. **send me the address before you write.** · we'll read the four documents together and go from there. i'm here for you... i do this to protect you and your best interest 🏡 · *button: my DMs are open*
 
-*glossary, for the caption or an 8th slide:* reserve study → the building's savings plan for roofs, pipes and balconies · special assessment → a surprise bill, split between all the owners · master insurance → the building's own policy, separate from yours · replacement cost → enough coverage to rebuild the whole thing · per-unit deductible → your unit's share of a claim before insurance pays · non-warrantable → no bank will lend on any unit in it
+**caption glossary** *(caption only, not an 8th slide)*
+
+**full review** → the bank checks the building, not just you · **conventional loan** → the ordinary kind, not FHA or VA · **reserve study** → the building's savings plan for roofs and pipes · **board minutes** → notes from its monthly meetings · **HOA package** → the paperwork a building hands over · **special assessment** → a surprise bill, split between every owner · **master insurance** → the building's own policy, separate from yours · **replacement cost** → enough to rebuild it · **per-unit deductible** → your share of a claim before insurance pays · **delinquent** → behind on dues · **non-warrantable** → no bank will lend on any unit in it
 
 ---
 
@@ -61,30 +65,32 @@ other hooks if that one isn't you:
 
 ### reel · 40 to 45 seconds · you cut out over your own phone footage of the torn-up median, or walk-and-talk on the boulevard
 
-**hook:**
-> "that torn-up median on van nuys blvd... is a train. it opens in 2031."
+**hook** (first 2 seconds, on screen too): "that torn-up median on van nuys blvd... is a train. it opens in 2031."
 
-other hooks:
-- "everyone asks me if the light rail will raise prices. wrong question."
-- "if you drive van nuys boulevard every day... this is what they're building."
+other hooks if that one isn't you:
+- "if you drive van nuys boulevard... this is what's coming."
 
 **script:**
-> "if you drive van nuys boulevard, you've seen it. the median's torn up from oxnard to san fernando road.
-> that's the east valley light rail. six point seven miles, eleven stations, van nuys to pacoima, trains every seven to ten minutes at peak. metro signed the construction contract in august. it opens december 2031.
-> so everyone asks me the same thing... will it raise prices near the stations. honestly, i'm not going to promise you that. nobody can.
-> what i will say... a train five years out doesn't tell you what to pay today. it tells you how long to plan on staying.
-> if you're a seven-year buyer, the blocks people skip for the traffic right now might deserve a second look.
-> if you're a two-year buyer... you'd be buying five years of construction. that's the honest version 🤝"
+> "if you drive van nuys boulevard, you've seen the median torn up.
+> that's the east valley light rail. eleven stations. van nuys to pacoima. it opens december 2031.
+> metro signed the $2.43 billion contract in august, so it's real... it's just five years out. and that changes a question nobody asks me.
+> will it raise prices near the stations? i'm not promising you that. nobody can.
+> a train five years out doesn't tell you what to pay today. it tells you how long to plan on staying. seven-year buyer, the blocks people skip for the traffic deserve a second look. two-year buyer... you'd be buying five years of construction.
+> tell me how long you're staying. i'm here for you... that's my job. that median is a train, and it opens in 2031 🤝"
 
-**on screen:** this is a train. 2031. · 6.7 mi · 11 stations · van nuys → pacoima · will prices go up? not promising that. · how long are you staying?
+**on screen:** this is a train. 2031. · 6.7 mi · 11 stations · trains every 7-10 min at rush hour · van nuys → pacoima · will prices go up? not promising that · how long are you staying?
 
 **caption:**
-> that construction on van nuys blvd is the east san fernando valley light rail, not a repaving... 6.7 miles, 11 stations, from the G line to san fernando road through van nuys, panorama city, arleta and pacoima. metro awarded the $2.43 billion build contract in august. opening: december 2031.
-> the question i get: will it raise prices near the stations? i won't promise you that. no one can underwrite 2031.
-> the question i'd ask instead: how long are you planning to stay? a train five years out changes the timeline math, not the price math. seven-year buyer, worth a second look at the corridor. two-year buyer, you're buying the construction, not the train.
-> thinking about van nuys or panorama city? tell me how long you're planning to stay and i'll tell you if it changes anything.
-> sources: la metro, la daily news aug 24 2026, commercial observer aug 14 2026.
+> that torn-up median on van nuys blvd is a train... and it doesn't open until december 2031.
+> the east san fernando valley light rail: 6.7 miles, 11 stations, the G line to san fernando road through van nuys, panorama city, arleta and pacoima. trains every 7 to 10 minutes at rush hour. metro awarded the $2.43 billion contract in august.
+> will it raise prices near the stations? i won't promise that. nobody can. the better question: how long are you planning to stay? a train five years out changes the timeline math, not the price math.
+> sources: la metro; la daily news and commercial observer, aug 2026.
+> my DMs are open... tell me how long you're staying. or just send me the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
+> everything works out exactly the way it's supposed to.
+> that median is a train. 2031.
 > #vannuys #panoramacity #SFV #sanfernandovalleyrealtor #firsttimehomebuyer
+
+---
 
 ### carousel · 7 slides · warm editorial look
 
@@ -104,29 +110,34 @@ other hooks:
 
 ### reel · 40 seconds · talking head, or walk-and-talk at a hillside listing
 
-**hook:**
-> "i moved the insurance quote to before the offer... and it's because of october 15th."
+**hook** (first 2 seconds, on screen too): "you can be fully approved... and the insurance quote still moves your payment."
 
-other hooks:
-- "your loan can be approved... and the insurance still blows up the payment."
+other hooks if that one isn't you:
 - "october 15th changes the math on hillside homes."
+- "i moved the insurance quote to before the offer... and it's because of october 15th."
 
 **script:**
-> "i used to get the insurance quote during the inspection window. this fall, i get it before we write the offer.
-> on october 15th the california FAIR plan, the insurer of last resort, goes up an average of 29 percent. and it's weighted to wildfire risk... so canyons, hillsides and the foothills can move a lot more than that.
-> if you're shopping a hillside home in sherman oaks or woodland hills and closing anywhere near mid-october, the policy's start date decides which rate you get.
-> and if you're on the valley floor... breathe. most of those homes still get a regular carrier. the quote's a formality, but i still want it in hand on tuesday, not in escrow.
-> the number can move your whole payment. i'd rather you know before you fall in love. i do this to protect you ✨"
+> "you can be fully approved, and the insurance quote still moves your payment.
+> i used to get that quote after the offer was accepted, when we were already in escrow and the clock was running. now i get it before we write the offer.
+> on october 15th the california FAIR plan goes up 29.1% on average. that's the state's backup fire policy... what you get when no regular company will cover the house. it's weighted to wildfire risk, so canyons and hillsides move a lot more than that.
+> the day your policy starts decides your rate. start before the 15th and you generally keep today's rate for the whole term.
+> valley floor, most of those homes still get a regular company.
+> send me the address. i want the quote on a tuesday, not in escrow. i do this to protect you and your best interest. approved and insured are two different yeses ✨"
 
-**on screen:** insurance quote → before the offer · oct 15: FAIR plan +29% avg · hillside ≠ valley floor · know it tuesday, not in escrow
+**on screen:** the insurance quote comes first now · oct 15: the state's backup fire policy goes up 29.1% · hillsides move more than the valley floor · the day your policy starts locks your rate · a tuesday, not in escrow
 
 **caption:**
-> small change in how i work this fall: the insurance quote comes before the offer, not during the inspection window.
-> on october 15, 2026 the california FAIR plan (the state's insurer of last resort) rises 29.1% on average, weighted to wildfire exposure. hillside, canyon and foothill homes can see far more than the average. a policy that takes effect before october 15 is generally written at today's rate for its term. on or after, you're quoted at the new rate from day one.
-> valley floor? most homes still get a regular carrier. the quote is quick. i just want it in hand before we write, because it's part of your payment and i'd rather you see the real number early.
-> writing an offer this fall? tell me the address... we'll get the quote first.
-> source: california department of insurance, approved rate change effective oct 15, 2026.
+> the insurance quote now comes before the offer, not once we're in escrow with the clock already running.
+> on october 15, 2026 the california FAIR plan rises 29.1% on average. it's the state's backup fire policy, what you get when no regular company will cover the house. the increase is weighted to wildfire risk... hillside and canyon homes can see far more.
+> the day your policy starts decides the rate. start before the 15th and you generally keep today's rate for the whole term.
+> valley floor? most homes still get a regular company.
+> source: california dept of insurance, oct 15, 2026.
+> my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
+> i'm here for you. that's my job. i do this to protect you and your best interest.
+> approved and insured are two different yeses.
 > #SFV #sanfernandovalleyrealtor #losangelesrealestate #shermanoaks #woodlandhills
+
+---
 
 ### carousel · 7 slides · warm editorial look
 
@@ -146,23 +157,30 @@ other hooks:
 
 ### reel · 40 seconds · talking head, evening, phone in hand
 
-**hook:**
-> "if you're reading about rates at 11pm... just breathe."
+**hook** (first 2 seconds, on screen too): "if you're reading about rates at 11pm... just breathe."
+
+other hooks if that one isn't you:
+- "nothing good gets decided right before bed."
+- "three questions i ask in the morning."
 
 **script:**
 > "if you're lying there at 11pm refreshing rates, here's what i tell my clients. just breathe. take a step back. let's sleep on it and talk in the morning... nothing good gets decided right before bed.
-> in the morning, i'm going to ask you three things. what rate did your lender actually quote you. have you looked at a buydown... that's when someone pays a little upfront so your rate is lower, either forever, or just for the first few years while you settle in. and how we structure the loan so it works for you now, not for a version of you that makes more money later.
-> that's a conversation. it's not a 3am spiral. i'm here for you... that's my job. i do this to protect you and your best interest 🤝"
+> then i ask three things.
+> what rate did your lender actually quote you. not the one on the news, yours.
+> have you looked at a buydown. that's someone paying a little upfront so your rate is lower... either for good, or just the first couple of years.
+> and how we structure the loan so it works for you now, not for a version of you who makes more later.
+> we're gonna sleep on it, get your numbers in the morning, and go from there. i'm here for you... that's my job. just breathe 🤝"
 
-**on screen:** just breathe. · rate? · buydown = pay a little now, lower rate · we structure it for you now · i'm here for you. that's my job.
+**on screen:** just breathe. · what rate did your lender actually quote? · buydown = pay a little now, lower rate · built for you now, not future you · i'm here for you. that's my job.
 
 **caption:**
-> if you're reading about rates at 11pm, please put the phone down. that's not when we decide anything.
-> in the morning, three questions: what rate did your lender actually quote, have you looked at a buydown (someone pays a little upfront so your rate is lower, either permanently or just for the first couple of years), and how we structure the loan so it works for you now.
-> everything works out exactly the way it's supposed to. my DMs are open.
+> if you're reading about rates at 11pm, please put the phone down. that's not when we decide anything. just breathe. take a step back. let's sleep on it and talk in the morning.
+> then three questions. what rate did your lender actually quote you, not the one on the news. have you looked at a buydown... someone pays a little upfront so your rate is lower, either for good or just the first couple of years. and how we structure the loan for you now, not for a version of you who makes more later.
+> we're gonna sleep on it, get your numbers in the morning, and go from there.
+> my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
+> everything works out exactly the way it's supposed to.
+> just breathe.
 > #firsttimehomebuyer #SFV #sanfernandovalleyrealtor #losangelesrealestate #mortgagerates
-
----
 
 ## filming notes
 
