@@ -70,7 +70,21 @@ DMs with a street, a number, or a timeline, per month. Shares from local account
 
 Theirs: placeholders, self-serve, generic captions with local nouns swapped in, no reply layer, no realism gate. Ours: finished posts written for her streets with dated facts, her veto inside the loop, her photos, saved replies and the file behind every post, and a monthly read of what came back. Adopt from them: the "5 minutes" effort frame, two style options on the first few posts so she picks, photo-first surface, local shareables with a price signal added.
 
-## 12. Open items
+## 12. What the research added (Gemini Deep Research, 47 sources, 2026-09-02; record in `2026-09-02-deep-research-what-works-valley-agents.md`)
+
+Confirms the seats; adds these. Numbers are Gemini-sourced, mostly labelled "inferred" in the report itself; VERIFY before any number reaches Jen or a post.
+
+- **Named Valley agents already running our formats.** Brian Cooper (Woodland Hills, Winnetka): "What $900K buys in Woodland Hills, 2026" series plus personal storytelling. Dan Hendrix (Van Nuys, Burbank, Tarzana): the downsizer reframing hook, "$999,000 and proof that perfection doesn't need to be massive," captions that voice the viewer's own sentence ("I want to downsize, I don't want upkeep"). Rosalyne Cohen (Sherman Oaks, Woodland Hills): ADU-potential content for $1M buyers who need rental income to make the number work. Dylan Good (Chernov Team): SEO keywords in captions, raw over cinematic. Study their grids before writing month one; steal structure, never words.
+- **Place-led beats buyer-type, per the report:** hyperlocal pages rank higher and produce more leads than generic ones; generic "LA market" posts get punished; a specific city plus price band reads as authority, not a cage. The fear is answered in the data, not just by the seats.
+- **"What $X buys" is the top lead format for this band:** it filters the unqualified before they cost engagement and resets expectations before the DM. Needs real comps weekly (public listing data; VERIFY).
+- **"Send this to a future…" is reach with mixed intent** unless grounded: pair it with three practical lines for a Valley buyer this year, or don't run it.
+- **Neighborhood POV reels (15–30s rapid cuts, local spots, text on screen) earn saves**, which is retargeting: the saver sees her next post. This is the drive-clip format, and why the drive matters.
+- **Ratio top agents use (report's source, one YouTube practitioner):** 40% awareness, 30% trust, 20% local authority, 10% hard conversion. Our 40/40/20 is close; keep convert at 20 only while she has active listings.
+- **Legibility rules for serif-over-photo:** negative space behind the type (sky, wall, out-of-focus foliage), a 10–15% dark overlay or gradient, white serif headline paired with a geometric sans for the details (Playfair with Jost or Montserrat). One idea per frame. This is now the design rule in section 6; her Canva carousel broke it by stacking bullets over a busy room.
+- **Coffee & Contracts, honestly:** $74/mo, 5,000+ members, no auto-posting, generic templates get "near-zero reach" unposted-as-is, members who win customize heavily, post 15+ times a month, and see leads at roughly three months. Members use templates for stories and carousels and original reels as the discovery engine. That's our design already, minus the subscription.
+- **Keyword-comment automation (ManyChat) is how the top accounts capture.** Jen finds keyword CTAs cheesy; we keep the street-or-number ask and the saved replies instead. Revisit only if reply volume outgrows her evenings.
+
+## 13. Open items
 
 - Real comps for "what $X buys" posts: public listing data each week (label VERIFY until pulled).
 - Her listing photography into Drive folder 01 (Farrice).
