@@ -1636,7 +1636,7 @@ PAIRS WITH: Mitch Albom for restraint · Lamott/Allen for rough drafting · Davi
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 76 agent(s) had no invocation card. Stubs below are machine-
+> 77 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1709,6 +1709,16 @@ DOMAIN: Digital products, X/Twitter sales posts, comment/like-to-DM funnels, off
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Cold agent identity for the `alex-suzuki-digital-product-revenue-os` skill system. Not a live Codex subagent; do not spawn unless the user explicitly authori...
 ENTRY PROMPT: agents/alex-suzuki-revenue-architect/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Alyssa Stalker — Agent Content Strategist (2026 Playbook)
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: 1. Hook framing — Topic + Who + Lens on any local or educational post
+ENTRY PROMPT: agents/alyssa-stalker/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

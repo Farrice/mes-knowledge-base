@@ -21,6 +21,7 @@
 | `alex-suzuki-digital-product-revenue-os` | **alex-suzuki-digital-product-revenue-os** | digital products, x posts, comment/like-to-dm funnels | 17 | 0 |
 | `algorithmic-art` | **algorithmic-art** | creating algorithmic art using p5, js with seeded randomness and interactive parameter exploration | 0 | 0 |
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | treat them as such), experiment cycles (ship to learn, not to be right) | 4 | 17 |
+| `alyssa-stalker-agent-content-playbook` | **alyssa-stalker-agent-content-playbook** | real estate agent instagram content strategy, stuck account diagnosis, outlier audit | 7 | 0 |
 | `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | deploy a16z's new media warfare doctrine — ooda loop speed dominance, oral/written culture content architecture, founder go-direct positioning | 4 | 6 |
 | `andrew-dun-vibe-consulting` | **Andrew Dun — Vibe Consulting Mastery** | for solo-operator ai monetization use darrel-wilson-ai-monetization, vibe consulting mastery | 15 | 0 |
 | `andrew-lane-design-systems` | **andrew-lane-design-systems** | andrew lane's mood board method — ai-powered visual brand identity systems, includes his business-vs-branding decision split for founders, design systems & the mood board method | 3 | 0 |

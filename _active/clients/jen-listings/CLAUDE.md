@@ -36,6 +36,7 @@ Specific cues:
 | New listing → social content | `skills/jen-santulan-listing-content/workflows/01-listing-content.md` |
 | Educational content (no specific listing) | `workflows/02-buyer-education-story.md` |
 | SFV neighborhood content | `workflows/03-neighborhood-deep-dive-carousel.md` |
+| Stuck account, broad local hook, or FTHB comfort content | `skills/alyssa-stalker-agent-content-playbook/` (03 hook-reframe, 04 comfort-content-engine) |
 | Voice deep dive | `skills/jen-santulan-listing-content/genius.md` |
 | ICP details | `strategy_briefs/Strategy_Brief_First_Time_Home_Buyers_in_SoCal.md` |
 
