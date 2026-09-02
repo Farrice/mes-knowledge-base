@@ -14,9 +14,13 @@ Use for reference, training, or comparison when output feels off.
 "The pick-one-thing advice is a cage with better lighting."
 *Why it's representative: the image that names the thing; no explanation after it.*
 
-## Scope boundary — offer canon
-"I don't build the ads, run the account, or write your calendar. You've got people for that. I decide what they should be making, and why."
-*Why it's representative: defines the offer by what it refuses; short, spoken, lands on "why".*
+## Headline — LinkedIn profile package v2, ratified 2026-08-28
+"18 years training the people who buy your supplement. Now I write your ads."
+*Why it's representative: lived authority first, the offer second, two short lines, lands on "ads". This replaced the older "I don't build the ads" scope line; the Crossover position now includes creative.*
+
+## Approved public anchor — brand foundation
+"I don't make weak products louder."
+*Why it's representative: quiet defiance in seven words; defines him by what he refuses without a lecture.*
 
 ## Self-definition — moat excavation
 "There is no other half-Black, half-Filipino, emo-kid-turned-personal-trainer-turned-AI-architect who watches anime, plays competitive games, reads Neville Goddard, builds premium EDM streetwear with his wife, and is actively healing a father wound in public. Nobody can copy it because nobody else lived it."
