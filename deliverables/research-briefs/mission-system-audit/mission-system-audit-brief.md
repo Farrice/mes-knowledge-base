@@ -1,12 +1,12 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
+Everything this thread has produced, where it stands, and the next move — assembled from 2 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 2 deliverables finalized.
 
 Handoff status is active. Last activity today.
 
@@ -15,7 +15,7 @@ Next: Resume the `system-audit` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (system-audit)._
 
 ## the state, as the last session left it
-Handoff written 61d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 62d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## resume · park · kill
 1. **Resume here** — Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
@@ -41,8 +41,8 @@ python3 execution/pulse_actions.py kill system-audit --reason "<one line>"
 THREAD: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
 SLUG: system-audit
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-07-02-system-audit.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-02-system-audit.md
 
 RESUME HERE: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
 
@@ -55,13 +55,17 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- SESSIONS: **1** (codex)
-- DAYS ACTIVE: **4 d**
+- SESSIONS: **2** (codex)
+- DAYS ACTIVE: **5 d**
+
+## momentum
+
 
 ## lifecycle
 
 
 ## how it got here
+- 2026-09-02 · **codex session** — System: Jun Content OS - Capability Failure Audit
 - 2026-09-01 · **codex session** — System: Signal Fidelity - Contract and Proof Audit
 - 2026-08-30 · **Finalized · system-audit** — Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, real writer evidence, and sabotage verifier
 Hourly launchd observed loaded with last exit 0; real local lane merge passed; no remote push; 9/9 sabotage checks PASS | platform: codex | Verification: PASS | telemetry: sub_agents_spawned=0

@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "3 sessions · 5 files · 0 assets",
-  "compiled": "sep 1, 2026",
+  "compiled": "sep 2, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity today."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity 1d ago."
     },
     {
       "kind": "decision",
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity\nSLUG: recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity\nSTATUS: — · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md\n\nOPEN MISSION: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity (serves: orphan)\n\nFILES TOUCHED (5):\n  - _active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md\n  - _active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md\n  - _active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md\n  - _active/clients/jen-santulan/production/first-home-valley/README.md\n  - _active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity\nSLUG: recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity\nSTATUS: — · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md\n\nOPEN MISSION: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity (serves: orphan)\n\nFILES TOUCHED (5):\n  - _active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md\n  - _active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md\n  - _active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md\n  - _active/clients/jen-santulan/production/first-home-valley/README.md\n  - _active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -130,10 +130,10 @@
             0,
             0,
             0,
-            0,
-            1
+            1,
+            2
           ],
-          "value": "1",
+          "value": "3",
           "unit": "total",
           "note": "per day"
         },
@@ -151,8 +151,8 @@
             0,
             0,
             0,
-            0,
             5,
+            0,
             0
           ],
           "value": "5",

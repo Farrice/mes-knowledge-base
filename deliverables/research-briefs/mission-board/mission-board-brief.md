@@ -1,6 +1,6 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 315 sessions swept · compiled: sep 1, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 352 sessions swept · compiled: sep 2, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
@@ -14,17 +14,17 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **22**
-- FILES WRITTEN: **49**
+- DELIVERABLES FINALIZED: **24**
+- FILES WRITTEN: **45**
 - ASSETS GENERATED: **2**
-- SESSIONS SWEPT: **315**
+- SESSIONS SWEPT: **352**
 
 ## momentum
 
 
 ## where the work went
-- recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity: 5
 - system audit: 6
+- recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity: 5
 - first 10k: 9
 - visual workflow: 6
 - listing content: 7
@@ -34,9 +34,9 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
+- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
 - [ACTIVE] harness — deliverables/research-briefs/mission-harness/mission-harness-brief.html
 - [BUILD] recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity — deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html
-- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
 - [ACTIVE] first 10k — deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html
 - [ACTIVE] visual workflow — deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html
 - [ACTIVE] listing content — deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html
@@ -48,6 +48,8 @@ _weighted: deliverables ×3 + files + assets_
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
 
 ## also shipped
+- 2026-09-02 · **junyuh-marketing** — Jun Yuh cross-skill composition and highest-leverage build map
+- 2026-09-02 · **content-marketing-playbook** — Jun Yuh cross-skill stack map for Farrice personal and business content, including the missing Format Intelligence Lab, conditional craft adapters, productized 
 - 2026-08-29 · **landing-page** — Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones
 - 2026-08-29 · **offer-packaging** — Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har
 - 2026-08-29 · **website-wireframe-generator** — Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview
@@ -62,14 +64,14 @@ _weighted: deliverables ×3 + files + assets_
 _READ THE EDGES_
 Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.
 
-238 more threads cleared the bar but sit below the 12-card ceiling and were not carded: ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1, offer redteam, writers room, mission, health performance ip library, extract virtuoso mastery, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides.
+243 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer redteam, writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.
 
-304 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+328 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
+- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-harness/mission-harness-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html` — related · BUILD
-- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html` — related · ACTIVE

@@ -1,6 +1,6 @@
 # Recover Jen Santulan's established brand and prior…
 
-> MISSION · CLIENTS · window: last 14 days · lens: codex · sources: 3 sessions · 5 files · 0 assets · compiled: sep 1, 2026
+> MISSION · CLIENTS · window: last 14 days · lens: codex · sources: 3 sessions · 5 files · 0 assets · compiled: sep 2, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 3 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,7 +8,7 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.
 
- Last activity today.
+ Last activity 1d ago.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
@@ -42,7 +42,7 @@ python3 execution/pulse_actions.py kill recover-jen-santulan-s-established-brand
 THREAD: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity
 SLUG: recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity
 STATUS: — · STAGE: build
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
 
 OPEN MISSION: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity (serves: orphan)
 

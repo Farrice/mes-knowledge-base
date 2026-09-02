@@ -1,6 +1,6 @@
 # Linkedin — Execution Checklist
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 3 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Everything is written. The only thing missing is the part where a stranger reads it.
 
@@ -8,7 +8,7 @@ Everything is written. The only thing missing is the part where a stranger reads
 _CURRENT POSITION_
 This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.
 
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 sessions.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.
 
 Handoff status is active. Last activity 11d ago.
 
@@ -17,7 +17,7 @@ Next: Post the strongest already-written launch piece today, unedited, and send 
 ## the state, as the last session left it
 Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.
 
-Handoff written 24d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 25d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -50,8 +50,8 @@ python3 execution/pulse_actions.py kill linkedin --reason "<one line>"
 THREAD: Linkedin — Execution Checklist
 SLUG: linkedin
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-08-linkedin.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-linkedin.md
 
 RESUME HERE: Linkedin — Execution Checklist
 
@@ -59,8 +59,8 @@ RESUME HERE: Linkedin — Execution Checklist
 ```
 
 ## by the numbers
-- SESSIONS: **3** (codex)
-- DAYS ACTIVE: **14 d**
+- SESSIONS: **1** (codex)
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 
@@ -73,7 +73,6 @@ RESUME HERE: Linkedin — Execution Checklist
 
 ## how it got here
 - 2026-08-21 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Built and Verified
-- 2026-08-18 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Caleb Deployment
 
 ## the record
 - **Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)** [VERIFIED] — v2 shipped beside v1; prose-clean body; feedback banked as memory + voice-ratchet FAIL entry (missions.jsonl · done)

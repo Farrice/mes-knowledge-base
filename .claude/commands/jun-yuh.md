@@ -1,5 +1,5 @@
 ---
-description: "jun-yuh — full expert front door: Creator Vision, Truth-Safe Story Marketing, Expertise-to-Story Content, Non-Verbal Storytelling. Skills: jun-yuh-creator-vision, jun-yuh-personal-brand."
+description: "jun-yuh — full expert front door: Creator Vision, Truth-Safe Story Marketing, Format Intelligence, Expertise-to-Story Content, Non-Verbal Storytelling. Skills: jun-yuh-creator-vision, jun-yuh-personal-brand."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 

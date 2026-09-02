@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "315 sessions swept",
-  "compiled": "sep 1, 2026",
+  "sources": "352 sessions swept",
+  "compiled": "sep 2, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,11 +28,11 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "22",
+          "value": "24",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "49",
+          "value": "45",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "315",
+          "value": "352",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -52,7 +52,6 @@
         {
           "label": "sessions",
           "values": [
-            3,
             0,
             0,
             1,
@@ -65,9 +64,10 @@
             0,
             0,
             0,
-            1
+            1,
+            4
           ],
-          "value": "7",
+          "value": "8",
           "note": "per day"
         },
         {
@@ -81,11 +81,11 @@
             0,
             0,
             0,
-            0,
             3,
             1,
             0,
             5,
+            0,
             0
           ],
           "value": "9",
@@ -100,15 +100,15 @@
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
         {
-          "label": "recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity",
-          "values": [
-            5
-          ]
-        },
-        {
           "label": "system audit",
           "values": [
             6
+          ]
+        },
+        {
+          "label": "recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity",
+          "values": [
+            5
           ]
         },
         {
@@ -156,6 +156,11 @@
       "links": [
         {
           "k": "ACTIVE",
+          "title": "system audit",
+          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
+        },
+        {
+          "k": "ACTIVE",
           "title": "harness",
           "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
@@ -163,11 +168,6 @@
           "k": "BUILD",
           "title": "recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity",
           "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -221,6 +221,18 @@
       "heading": "also shipped",
       "tag": "NO LIVE THREAD",
       "items": [
+        {
+          "date": "2026-09-02",
+          "title": "junyuh-marketing",
+          "body": "Jun Yuh cross-skill composition and highest-leverage build map",
+          "done": true
+        },
+        {
+          "date": "2026-09-02",
+          "title": "content-marketing-playbook",
+          "body": "Jun Yuh cross-skill stack map for Farrice personal and business content, including the missing Format Intelligence Lab, conditional craft adapters, productized ",
+          "done": true
+        },
         {
           "date": "2026-08-29",
           "title": "landing-page",
@@ -281,7 +293,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n238 more threads cleared the bar but sit below the 12-card ceiling and were not carded: ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1, offer redteam, writers room, mission, health performance ip library, extract virtuoso mastery, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides.\n\n304 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n243 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer redteam, writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.\n\n328 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

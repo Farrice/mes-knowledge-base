@@ -1,6 +1,6 @@
 # LinkedIn cash-launch mission
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 9d ago.
 
 Next: Resume the `go` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (go)._
 
 ## the state, as the last session left it
-Handoff written 35d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 36d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -26,7 +26,7 @@ Do not rebuild:
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+1. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
@@ -52,8 +52,8 @@ python3 execution/pulse_actions.py kill go --reason "<one line>"
 THREAD: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
 SLUG: go
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-go/mission-go-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-07-28-go.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-go/mission-go-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-go.md
 
 RESUME HERE: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
 
@@ -66,7 +66,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## lifecycle
 

@@ -1,6 +1,6 @@
 # Madison paid-engagement iMessage reply grounded in the…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
 Next: Resume the `first-10k` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (first-10k)._
 
 ## the state, as the last session left it
-Handoff written 3d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill first-10k --reason "<one line>"
 THREAD: Madison paid-engagement iMessage reply grounded in the full direct thread
 SLUG: first-10k
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-29-first-10k.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-first-10k.md
 
 RESUME HERE: Madison paid-engagement iMessage reply grounded in the full direct thread
 
@@ -63,7 +63,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **3 d**
+- DAYS ACTIVE: **4 d**
 
 ## lifecycle
 

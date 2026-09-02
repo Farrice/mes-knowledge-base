@@ -1,6 +1,6 @@
 # Book One 80/20 product, layout, pricing, imagery…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -15,7 +15,7 @@ Next: Resume the `02-book-blueprint` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (02-book-blueprint)._
 
 ## the state, as the last session left it
-Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -52,8 +52,8 @@ python3 execution/pulse_actions.py kill 02-book-blueprint --reason "<one line>"
 THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 SLUG: 02-book-blueprint
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-24-02-book-blueprint.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-02-book-blueprint.md
 
 RESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
 
@@ -67,7 +67,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **9 d**
 
 ## momentum
 

@@ -1,6 +1,6 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Done and clean. Do not reopen it.
 
@@ -8,9 +8,9 @@ Done and clean. Do not reopen it.
 _CURRENT POSITION_
 This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.
 
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 deliverable finalized.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity 4d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 28d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 29d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -84,8 +84,8 @@ python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
 THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
 SLUG: extract-forge
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-04-extract-forge.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md
 
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
@@ -98,11 +98,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
-- SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **14 d**
-
-## momentum
-
+- DAYS ACTIVE: **4 d**
 
 ## lifecycle
 
@@ -110,7 +106,6 @@ SHIPPED IN WINDOW:
 ## how it got here
 - 2026-08-29 · **Finalized · extract-forge** — Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, editorial design contract, carousel grammar); AGENT-INTAKE.md
 Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) and output grammar (frame_0106); recency 2026 source; extend-not-rebuild: added to existing v2.0 skill | Factual Grounding: 9 | Verification:
-- 2026-08-18 · **codex session** — Extraction: Video Extract Forge - Build Grounded System
 
 ## the record
 - **Extract the AI-brain-installation-for-businesses expert OS from YouTube video nTiMbqFwv4c ** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: ai-brain* family + liam-mley builder (missions.jsonl · done)

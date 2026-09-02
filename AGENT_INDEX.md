@@ -121,7 +121,7 @@
 | `josh-kaufman` | **josh-kaufman** | business fundamentals, business fundamentals agent, buyer psychology mapping, five-parts decomposition, idea validation, money-signal validation, rapid skill acquisition, simple-arithmetic finance |
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
-| `jun-yuh` | **jun-yuh** | creator vision, expertise-to-story content, jun yuh, non-verbal storytelling, truth-safe story marketing |
+| `jun-yuh` | **jun-yuh** | creator vision, expertise-to-story content, format intelligence, jun yuh, non-verbal storytelling, truth-safe story marketing |
 | `justin-welsh` | **justin-welsh** | content multiplication systems, iterative niche discovery, owned-audience platform strategy, profile and funnel conversion, solopreneur revenue architecture, solopreneurship / one-person business systems / creator monetization |
 | `kallaway` | **Kallaway** | content psychology, forge extraction 2026-08-05), hook mastery — interrupt theory os (2026 canon, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, content queues, evidence-backed ideation, performance feedback loops, platform adaptation |

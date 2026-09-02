@@ -1,6 +1,6 @@
 # Harness — Cockpit
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 This one is done being useful for now. Building more of it is how the sprint dies.
 
@@ -17,7 +17,7 @@ Next: Leave this parked and touch it only when a specific sprint task hits frict
 ## the state, as the last session left it
 Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.
 
-Handoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill harness --reason "<one line>"
 THREAD: Harness — Cockpit
 SLUG: harness
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-harness/mission-harness-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-20-harness.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md
 
 RESUME HERE: Harness — Cockpit
 
@@ -58,6 +58,9 @@ RESUME HERE: Harness — Cockpit
 
 ## by the numbers
 - SESSIONS: **1** (codex)
+
+## momentum
+
 
 ## lifecycle
 

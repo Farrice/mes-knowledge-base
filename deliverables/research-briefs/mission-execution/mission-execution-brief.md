@@ -1,6 +1,6 @@
 # Handoff — System Health Audit + Repair (2026-08-24)
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 One good thing is buried in here. Dig it out and shut the lid.
 
@@ -21,7 +21,7 @@ What moved: verdict = builds GREEN (Second Brain, Homebase, hooks, budgets all r
 Uncertain: Notion L3 mirror fails nightly (ConnectionError) though API answers 200 directly — needs supervised re-run; Style Vault exists ONLY on unmerged worktree-style-vault branch, not main; jen/mybpm social-pulse Apify actors return 0 items.
 Latest proof: audit output /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/73378698-b9b8-4f42-90c6-11712482419c/tasks/w3v56gcad.output (run wf_8e685a4a-b35).
 
-Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -59,8 +59,8 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 THREAD: Handoff — System Health Audit + Repair (2026-08-24)
 SLUG: execution
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-execution/mission-execution-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-24-execution.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md
 
 RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)
 

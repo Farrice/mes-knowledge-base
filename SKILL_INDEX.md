@@ -185,7 +185,7 @@
 | `josh-kaufman-business-fundamentals` | **josh-kaufman-business-fundamentals** | validate ideas with swiped credit cards before building, and acquire any new skill in 20 focused hours, business as simple arithmetic plus human psychology | 3 | 0 |
 | `josh-sanders-linkedin-growth` | **Josh Sanders: LinkedIn Growth & High-Ticket Education** | for zero-audience linkedin growth use jasmin-alic-linkedin-growth, for general linkedin mastery use lara-acosta-linkedin-mastery, linkedin growth & high-ticket education | 5 | 18 |
 | `joshua-smith-real-estate` | **Joshua Smith: Real Estate Sales Mastery** | kpi-driven conversion optimization, daily schedule architecture, and urgency-niche targeting from an agent who sold 7 | 4 | 12 |
-| `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** | connected jun yuh system for creator vision, truth-safe lived-story mining, expertise-to-story transformation | 24 | 7 |
+| `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** | connected jun yuh system for creator vision, truth-safe lived-story mining, expertise-to-story transformation | 25 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | complete personal brand growth system for content creators from jun yuh's 6-y..., personal brand mastery | 4 | 34 |
 | `justin-welsh-solopreneur` | **justin-welsh-solopreneur** | built from three long-form interviews covering his $8m solopreneur journey, solopreneur operating system | 3 | 0 |
 | `kallaway-addictive-storytelling` | **kallaway-addictive-storytelling** | neurochemical retention engineering (content psychology × audience obsession), governing metric is time-per-hand — gap between dopamine hits, skill.md | 12 | 0 |

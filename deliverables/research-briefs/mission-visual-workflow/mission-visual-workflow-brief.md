@@ -1,6 +1,6 @@
 # Direction 1 Performance Evidence Journal
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: sep 1, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: sep 2, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: shipped — a deliverable was finalized. In the last 14 days: 2 deliverables finalized.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
 Next: Resume the `visual-workflow` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (visual-workflow)._
 
 ## the state, as the last session left it
-Handoff written 1d ago — treat its plan as current.
+Handoff written 2d ago — treat its plan as current.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill visual-workflow --reason "<one line>"
 THREAD: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.
 SLUG: visual-workflow
 STATUS: active · STAGE: shipped
-BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout-receipt/.agent/handoffs/2026-08-31-visual-workflow.md
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-31-visual-workflow.md
 
 RESUME HERE: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.
 
@@ -62,7 +62,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **2 d**
 
 ## lifecycle
 
