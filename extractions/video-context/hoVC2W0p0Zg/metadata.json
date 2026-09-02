@@ -1,0 +1,27 @@
+{
+  "id": "hoVC2W0p0Zg",
+  "title": "Claude For Social Media: The FULL Course (2.5 Hours, Free)",
+  "channel": "Grow with Alex",
+  "uploader": "Grow with Alex",
+  "duration": 9432,
+  "duration_string": "2:37:12",
+  "upload_date": "20260829",
+  "webpage_url": "https://www.youtube.com/watch?v=hoVC2W0p0Zg",
+  "capture_method": "native English captions plus local scene-aware frame extraction after bounded web_embedded yt-dlp fallback",
+  "transcript_source": "YouTube en-orig auto-captions",
+  "visual_inspection": "59 selected frames reviewed by Codex: 9 from 00:00-12:31 and 50 from 12:31-2:37:12",
+  "proof_state": "GROUNDED",
+  "chapters": [
+    {"start": "00:00", "title": "Intro"},
+    {"start": "00:30", "title": "What AI has changed"},
+    {"start": "02:42", "title": "The Map"},
+    {"start": "05:34", "title": "The Models"},
+    {"start": "13:10", "title": "Preparing the Brain"},
+    {"start": "42:21", "title": "Common Mistakes"},
+    {"start": "45:10", "title": "The Build section"},
+    {"start": "1:09:53", "title": "All about skills"},
+    {"start": "1:50:43", "title": "Running the entire system"},
+    {"start": "2:30:56", "title": "The first week plan"},
+    {"start": "2:36:00", "title": "Outro"}
+  ]
+}

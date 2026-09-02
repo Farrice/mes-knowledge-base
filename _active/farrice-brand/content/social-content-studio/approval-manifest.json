@@ -1,0 +1,25 @@
+{
+  "run_id": "farrice-social-content-studio-pilot-v1",
+  "seed": "More creative cannot solve an unmade campaign decision.",
+  "platform": "LinkedIn",
+  "horizon": "one week",
+  "candidate_count": 12,
+  "selected_ids": ["SCS-01", "SCS-02", "SCS-03"],
+  "review_artifacts": [
+    "authority-post.md",
+    "linkedin-carousel.md",
+    "short-video.md"
+  ],
+  "context_approval": "PENDING",
+  "selection_approval": "PENDING",
+  "voice_taste": "HUMAN_REVIEW_PENDING",
+  "visual_approval": "HUMAN_REVIEW_PENDING",
+  "publication": "NO_PERMISSION",
+  "paid_tools": "NO_PERMISSION",
+  "source_package": "GROUNDED",
+  "capability": "TRANSFERRED",
+  "engagement": "NO_EVENT",
+  "demand": "NO_EVENT",
+  "revenue": "NO_EVENT",
+  "next_safe_action": "Farrice marks keep, cut, or rewrite on the three review artifacts."
+}

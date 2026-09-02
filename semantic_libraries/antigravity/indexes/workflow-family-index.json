@@ -2,7 +2,8 @@
   "families": [
     {
       "bridge_status_counts": {
-        "source-command only": 42
+        "hot bridge": 3,
+        "source-command only": 39
       },
       "classification_counts": {
         "command-grade": 31,
@@ -24,13 +25,13 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 27,
-        "source-command only": 9
+        "hot bridge": 37
       },
       "classification_counts": {
-        "command-grade": 36
+        "command-grade": 36,
+        "internal": 1
       },
-      "count": 36,
+      "count": 37,
       "family": "fladlien",
       "sample_routes": [
         "fladlien-audit",
@@ -45,7 +46,52 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 26
+        "hot bridge": 29,
+        "source-command only": 2
+      },
+      "classification_counts": {
+        "command-grade": 30,
+        "experimental": 1
+      },
+      "count": 31,
+      "family": "dara",
+      "sample_routes": [
+        "dara-big-idea-ecosystem",
+        "dara-comparison-callout",
+        "dara-comprehension-audit",
+        "dara-david-goliath",
+        "dara-denney-creative-format-intelligence",
+        "dara-denney-creative-roadmap",
+        "dara-denney-gap-analysis",
+        "dara-denney-mission-doc"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 11,
+        "source-command only": 17
+      },
+      "classification_counts": {
+        "command-grade": 23,
+        "experimental": 5
+      },
+      "count": 28,
+      "family": "sean",
+      "sample_routes": [
+        "sean-adherence-protocol",
+        "sean-armor-diagnose",
+        "sean-armor-iha-proof",
+        "sean-bullet-from-winner",
+        "sean-classical-rhetoric-deploy",
+        "sean-cross-pollinate",
+        "sean-deutsch-wright-residue",
+        "sean-dollwet-book-blueprint"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 6,
+        "source-command only": 20
       },
       "classification_counts": {
         "command-grade": 17,
@@ -66,50 +112,30 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 26
+        "hot bridge": 6,
+        "source-command only": 18
       },
       "classification_counts": {
-        "command-grade": 24,
+        "command-grade": 22,
         "experimental": 2
       },
-      "count": 26,
-      "family": "sean",
+      "count": 24,
+      "family": "story",
       "sample_routes": [
-        "sean-adherence-protocol",
-        "sean-armor-diagnose",
-        "sean-armor-iha-proof",
-        "sean-bullet-from-winner",
-        "sean-classical-rhetoric-deploy",
-        "sean-cross-pollinate",
-        "sean-deutsch-wright-residue",
-        "sean-dollwet-book-blueprint"
+        "story-bank-flywheel",
+        "story-code-content-engine",
+        "story-code-conversational-story",
+        "story-code-conversion-stack",
+        "story-code-diagnostic",
+        "story-code-entrepreneur-message",
+        "story-code-proof-case-study",
+        "story-code-sales-story"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 25
-      },
-      "classification_counts": {
-        "command-grade": 24,
-        "experimental": 1
-      },
-      "count": 25,
-      "family": "dara",
-      "sample_routes": [
-        "dara-comparison-callout",
-        "dara-comprehension-audit",
-        "dara-david-goliath",
-        "dara-denney-creative-roadmap",
-        "dara-denney-gap-analysis",
-        "dara-denney-mission-doc",
-        "dara-denney-persona-intel",
-        "dara-denney-reputation-analysis"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 8,
-        "source-command only": 15
+        "hot bridge": 19,
+        "source-command only": 4
       },
       "classification_counts": {
         "command-grade": 17,
@@ -131,7 +157,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 23
+        "hot bridge": 5,
+        "source-command only": 18
       },
       "classification_counts": {
         "archive": 1,
@@ -154,25 +181,25 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 16,
-        "source-command only": 5
+        "hot bridge": 21,
+        "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 18,
+        "command-grade": 19,
         "experimental": 2,
         "internal": 1
       },
-      "count": 21,
+      "count": 22,
       "family": "design",
       "sample_routes": [
         "design-brief",
         "design-digital-product-offer",
         "design-first-build",
+        "design-gauntlet",
         "design-iteration-loop",
         "design-library-import",
         "design-md-evolve",
-        "design-md-export",
-        "design-md-extract-from-codebase"
+        "design-md-export"
       ]
     },
     {
@@ -220,6 +247,28 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 5,
+        "source-command only": 15
+      },
+      "classification_counts": {
+        "command-grade": 19,
+        "experimental": 1
+      },
+      "count": 20,
+      "family": "jw",
+      "sample_routes": [
+        "jw-big-domino",
+        "jw-comfort-line-breaker",
+        "jw-content-cadence-engine",
+        "jw-data-bottleneck",
+        "jw-engine",
+        "jw-ethics-gate",
+        "jw-lurker-funnel",
+        "jw-objection-arsenal"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "source-command only": 20
       },
       "classification_counts": {
@@ -246,27 +295,6 @@
         "source-command only": 18
       },
       "classification_counts": {
-        "command-grade": 18,
-        "experimental": 1
-      },
-      "count": 19,
-      "family": "jw",
-      "sample_routes": [
-        "jw-big-domino",
-        "jw-comfort-line-breaker",
-        "jw-content-cadence-engine",
-        "jw-data-bottleneck",
-        "jw-engine",
-        "jw-ethics-gate",
-        "jw-lurker-funnel",
-        "jw-objection-arsenal"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 19
-      },
-      "classification_counts": {
         "command-grade": 19
       },
       "count": 19,
@@ -284,7 +312,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 18
+        "hot bridge": 4,
+        "source-command only": 14
       },
       "classification_counts": {
         "command-grade": 18
@@ -326,30 +355,50 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 17
+        "hot bridge": 18
       },
       "classification_counts": {
-        "command-grade": 16,
-        "experimental": 2
+        "command-grade": 17,
+        "experimental": 1
       },
       "count": 18,
-      "family": "story",
+      "family": "mark",
       "sample_routes": [
-        "story-code-content-engine",
-        "story-code-conversational-story",
-        "story-code-conversion-stack",
-        "story-code-diagnostic",
-        "story-code-entrepreneur-message",
-        "story-code-proof-case-study",
-        "story-code-sales-story",
-        "story-code-social-stack"
+        "mark-forsyth-announcer-map",
+        "mark-forsyth-classify-the-job",
+        "mark-forsyth-enchantment-audit",
+        "mark-forsyth-establish-voice",
+        "mark-forsyth-forge-memorable-line",
+        "mark-forsyth-paradox-forge",
+        "mark-forsyth-pull-through-architecture",
+        "mark-forsyth-repetition-forge"
       ]
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 12,
-        "source-command only": 5
+        "hot bridge": 17
+      },
+      "classification_counts": {
+        "command-grade": 16,
+        "internal": 1
+      },
+      "count": 17,
+      "family": "andrew",
+      "sample_routes": [
+        "andrew-dun-advisory-retainer-builder",
+        "andrew-dun-ai-readiness-scorecard",
+        "andrew-dun-change-management-playbook",
+        "andrew-dun-consulting-pipeline-dashboard",
+        "andrew-dun-consulting-to-saas",
+        "andrew-dun-diagnostic-presentation-architect",
+        "andrew-dun-first-client-engine",
+        "andrew-dun-implementation-partnership-blueprint"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 16,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 16,
@@ -366,26 +415,6 @@
         "meg-design-handoff",
         "meg-factory-loop",
         "meg-fan-flywheel"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 16
-      },
-      "classification_counts": {
-        "command-grade": 16
-      },
-      "count": 16,
-      "family": "andrew",
-      "sample_routes": [
-        "andrew-dun-advisory-retainer-builder",
-        "andrew-dun-ai-readiness-scorecard",
-        "andrew-dun-change-management-playbook",
-        "andrew-dun-consulting-pipeline-dashboard",
-        "andrew-dun-consulting-to-saas",
-        "andrew-dun-diagnostic-presentation-architect",
-        "andrew-dun-first-client-engine",
-        "andrew-dun-implementation-partnership-blueprint"
       ]
     },
     {
@@ -412,7 +441,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 16
+        "hot bridge": 16
       },
       "classification_counts": {
         "command-grade": 11,
@@ -456,7 +485,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 15
+        "hot bridge": 2,
+        "source-command only": 13
       },
       "classification_counts": {
         "command-grade": 14,
@@ -477,8 +507,31 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 10,
-        "source-command only": 5
+        "hot bridge": 14,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "archive": 1,
+        "command-grade": 12,
+        "experimental": 1,
+        "internal": 1
+      },
+      "count": 15,
+      "family": "caleb",
+      "sample_routes": [
+        "caleb-4c-intro",
+        "caleb-association-audit",
+        "caleb-brand-audit",
+        "caleb-brand-build",
+        "caleb-brand-journey",
+        "caleb-content-equation",
+        "caleb-content-sprint",
+        "caleb-format-strategy"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 15
       },
       "classification_counts": {
         "command-grade": 10,
@@ -499,7 +552,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 15
+        "hot bridge": 3,
+        "source-command only": 12
       },
       "classification_counts": {
         "archive": 1,
@@ -520,8 +574,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 12,
-        "source-command only": 3
+        "hot bridge": 15
       },
       "classification_counts": {
         "command-grade": 14,
@@ -542,8 +595,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 13,
-        "source-command only": 2
+        "hot bridge": 15
       },
       "classification_counts": {
         "command-grade": 15
@@ -563,7 +615,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 14
+        "hot bridge": 14
       },
       "classification_counts": {
         "command-grade": 11,
@@ -584,7 +636,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 14
+        "hot bridge": 14
       },
       "classification_counts": {
         "command-grade": 13,
@@ -605,8 +657,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 13
+        "hot bridge": 14
       },
       "classification_counts": {
         "command-grade": 14
@@ -626,7 +677,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 14
+        "hot bridge": 13,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 9,
@@ -647,7 +699,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 14
+        "hot bridge": 6,
+        "source-command only": 8
       },
       "classification_counts": {
         "command-grade": 10,
@@ -690,7 +743,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 14
+        "hot bridge": 1,
+        "source-command only": 13
       },
       "classification_counts": {
         "archive": 1,
@@ -733,7 +787,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 12,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 13
@@ -775,7 +830,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 13
       },
       "classification_counts": {
         "archive": 1,
@@ -798,7 +853,29 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 11,
+        "source-command only": 2
+      },
+      "classification_counts": {
+        "command-grade": 12,
+        "experimental": 1
+      },
+      "count": 13,
+      "family": "godin",
+      "sample_routes": [
+        "godin-ai-creative-practice",
+        "godin-ai-permission",
+        "godin-better-not-louder",
+        "godin-brand-promise",
+        "godin-brand-trust-stack",
+        "godin-consistency-protocol",
+        "godin-culture-as-marketing",
+        "godin-false-proxy-purge"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 13
       },
       "classification_counts": {
         "command-grade": 13
@@ -818,7 +895,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 13
       },
       "classification_counts": {
         "command-grade": 12,
@@ -839,7 +916,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 13
       },
       "classification_counts": {
         "command-grade": 13
@@ -859,7 +936,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 13
       },
       "classification_counts": {
         "command-grade": 13
@@ -983,7 +1060,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 13
+        "hot bridge": 1,
+        "source-command only": 12
       },
       "classification_counts": {
         "command-grade": 12,
@@ -1065,7 +1143,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 12
+        "hot bridge": 12
       },
       "classification_counts": {
         "command-grade": 10,
@@ -1127,7 +1205,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 12
+        "hot bridge": 12
       },
       "classification_counts": {
         "archive": 2,
@@ -1149,7 +1227,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 12
+        "hot bridge": 12
       },
       "classification_counts": {
         "command-grade": 12
@@ -1165,27 +1243,6 @@
         "dan-martell-flywheel-designer",
         "dan-martell-market-entry-validation",
         "dan-martell-moat-engineer"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 10,
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 12
-      },
-      "count": 12,
-      "family": "godin",
-      "sample_routes": [
-        "godin-ai-permission",
-        "godin-better-not-louder",
-        "godin-brand-promise",
-        "godin-brand-trust-stack",
-        "godin-consistency-protocol",
-        "godin-culture-as-marketing",
-        "godin-false-proxy-purge",
-        "godin-handshake-dunford"
       ]
     },
     {
@@ -1211,8 +1268,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 11
+        "hot bridge": 12
       },
       "classification_counts": {
         "archive": 1,
@@ -1234,7 +1290,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 12
+        "hot bridge": 12
       },
       "classification_counts": {
         "command-grade": 12
@@ -1402,7 +1458,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 12
+        "hot bridge": 9,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 10,
@@ -1529,7 +1586,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 11
+        "hot bridge": 10,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 11
@@ -1545,6 +1603,47 @@
         "donald-miller-friction-proof-copy-chain",
         "donald-miller-keynote-narrative-architect",
         "donald-miller-sales-funnel-architect"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 11
+      },
+      "classification_counts": {
+        "command-grade": 11
+      },
+      "count": 11,
+      "family": "enrico",
+      "sample_routes": [
+        "enrico-audit",
+        "enrico-curb-appeal",
+        "enrico-expand",
+        "enrico-format",
+        "enrico-leads",
+        "enrico-listing",
+        "enrico-local-signal-loop",
+        "enrico-proximity"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 11
+      },
+      "classification_counts": {
+        "command-grade": 10,
+        "experimental": 1
+      },
+      "count": 11,
+      "family": "haig",
+      "sample_routes": [
+        "haig-authentic-optimism",
+        "haig-child-story-reset",
+        "haig-feeling-carrier",
+        "haig-oblique-truth",
+        "haig-percolation-draft",
+        "haig-reader-access-rewrite",
+        "haig-reader-bridge-proof",
+        "haig-reader-bridge"
       ]
     },
     {
@@ -1571,7 +1670,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 11
+        "hot bridge": 10,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 11
@@ -1591,7 +1691,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 11
+        "hot bridge": 11
       },
       "classification_counts": {
         "command-grade": 11
@@ -1611,8 +1711,27 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 6,
-        "source-command only": 5
+        "hot bridge": 11
+      },
+      "classification_counts": {
+        "command-grade": 11
+      },
+      "count": 11,
+      "family": "sv",
+      "sample_routes": [
+        "sv-book-funnel-bridge",
+        "sv-customer-personality-lock",
+        "sv-launch-system",
+        "sv-launch-teardown",
+        "sv-newsletter-magnet",
+        "sv-order-bump-stack",
+        "sv-replay-engine",
+        "sv-showup-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 11
       },
       "classification_counts": {
         "command-grade": 5,
@@ -1654,7 +1773,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 10
+        "hot bridge": 10
       },
       "classification_counts": {
         "command-grade": 10
@@ -1670,6 +1789,28 @@
         "adpsy-prove-it",
         "adpsy-strategy-sprint",
         "adpsy-taboo-ad"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 8,
+        "source-command only": 2
+      },
+      "classification_counts": {
+        "command-grade": 9,
+        "internal": 1
+      },
+      "count": 10,
+      "family": "brand",
+      "sample_routes": [
+        "brand-aligned-creative-pipeline",
+        "brand-architect-package",
+        "brand-arena",
+        "brand-asset-scrape",
+        "brand-dna-extraction",
+        "brand-identity-emotional-blueprint",
+        "brand-in-a-box",
+        "brand-library"
       ]
     },
     {
@@ -1692,26 +1833,6 @@
         "ce-offer",
         "ce-pcp",
         "ce-read"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 10
-      },
-      "classification_counts": {
-        "command-grade": 10
-      },
-      "count": 10,
-      "family": "enrico",
-      "sample_routes": [
-        "enrico-audit",
-        "enrico-curb-appeal",
-        "enrico-expand",
-        "enrico-format",
-        "enrico-leads",
-        "enrico-listing",
-        "enrico-proximity",
-        "enrico-sprint"
       ]
     },
     {
@@ -1739,6 +1860,28 @@
         "hot bridge": 10
       },
       "classification_counts": {
+        "archive": 2,
+        "command-grade": 7,
+        "experimental": 1
+      },
+      "count": 10,
+      "family": "gb",
+      "sample_routes": [
+        "gb-blueprint",
+        "gb-bullseye",
+        "gb-enrich",
+        "gb-format-find",
+        "gb-intake",
+        "gb-interview",
+        "gb-orchestrate",
+        "gb-refresh"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 10
+      },
+      "classification_counts": {
         "command-grade": 10
       },
       "count": 10,
@@ -1752,6 +1895,26 @@
         "georgi-mechanism",
         "georgi-nostalgia",
         "georgi-paradox"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 10
+      },
+      "classification_counts": {
+        "command-grade": 10
+      },
+      "count": 10,
+      "family": "insight",
+      "sample_routes": [
+        "insight-audit",
+        "insight-bridge",
+        "insight-brief",
+        "insight-elaborate",
+        "insight-engine",
+        "insight-inject",
+        "insight-perception-sprint",
+        "insight-series"
       ]
     },
     {
@@ -1796,8 +1959,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 9
+        "hot bridge": 9,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 10
@@ -1858,7 +2021,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 10
+        "hot bridge": 1,
+        "source-command only": 9
       },
       "classification_counts": {
         "command-grade": 10
@@ -1919,28 +2083,6 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 3,
-        "source-command only": 6
-      },
-      "classification_counts": {
-        "command-grade": 8,
-        "internal": 1
-      },
-      "count": 9,
-      "family": "brand",
-      "sample_routes": [
-        "brand-aligned-creative-pipeline",
-        "brand-architect-package",
-        "brand-arena",
-        "brand-asset-scrape",
-        "brand-dna-extraction",
-        "brand-in-a-box",
-        "brand-library",
-        "brand-resonance-sustainability-audit"
-      ]
-    },
-    {
-      "bridge_status_counts": {
         "source-command only": 9
       },
       "classification_counts": {
@@ -1982,26 +2124,6 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 9
-      },
-      "classification_counts": {
-        "command-grade": 9
-      },
-      "count": 9,
-      "family": "insight",
-      "sample_routes": [
-        "insight-audit",
-        "insight-bridge",
-        "insight-brief",
-        "insight-elaborate",
-        "insight-inject",
-        "insight-perception-sprint",
-        "insight-series",
-        "insight-social"
-      ]
-    },
-    {
-      "bridge_status_counts": {
         "source-command only": 9
       },
       "classification_counts": {
@@ -2022,7 +2144,29 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 9
+        "hot bridge": 5,
+        "source-command only": 4
+      },
+      "classification_counts": {
+        "command-grade": 8,
+        "internal": 1
+      },
+      "count": 9,
+      "family": "offer",
+      "sample_routes": [
+        "offer-cycle-rotation",
+        "offer-cycle",
+        "offer-education-sequence",
+        "offer-packaging-engine",
+        "offer-positioning-north-star",
+        "offer-redteam",
+        "offer-selection-and-premium-pricing",
+        "offer-stack"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 9
       },
       "classification_counts": {
         "command-grade": 9
@@ -2042,8 +2186,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 6
+        "hot bridge": 8
       },
       "classification_counts": {
         "command-grade": 7,
@@ -2064,8 +2207,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 7
+        "hot bridge": 5,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 8
@@ -2106,8 +2249,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 5,
-        "source-command only": 3
+        "hot bridge": 7,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 7,
@@ -2128,29 +2271,48 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 6
+        "hot bridge": 8
       },
       "classification_counts": {
-        "command-grade": 7,
-        "internal": 1
+        "command-grade": 8
       },
       "count": 8,
-      "family": "offer",
+      "family": "hook",
       "sample_routes": [
-        "offer-cycle-rotation",
-        "offer-cycle",
-        "offer-education-sequence",
-        "offer-packaging-engine",
-        "offer-positioning-north-star",
-        "offer-redteam",
-        "offer-selection-and-premium-pricing",
-        "offer-stack"
+        "hook-anything",
+        "hook-bank",
+        "hook-forge",
+        "hook-formula-extract",
+        "hook-landscape-scan",
+        "hook-mastery-training",
+        "hook-trust-stack",
+        "hook-viciousness-audit"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 8
+        "hot bridge": 8
+      },
+      "classification_counts": {
+        "archive": 1,
+        "command-grade": 7
+      },
+      "count": 8,
+      "family": "social",
+      "sample_routes": [
+        "social-commerce-landscape-audit",
+        "social-content-studio",
+        "social-influence-norm-shift-strategy",
+        "social-listen",
+        "social-narrative",
+        "social-os-optimization",
+        "social-permission-campaign",
+        "social-to-notion"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 8
       },
       "classification_counts": {
         "command-grade": 8
@@ -2170,7 +2332,28 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 7
+        "hot bridge": 8
+      },
+      "classification_counts": {
+        "command-grade": 8
+      },
+      "count": 8,
+      "family": "viral",
+      "sample_routes": [
+        "viral-content-production-factory",
+        "viral-engine-deployment",
+        "viral-growth-and-commerce",
+        "viral-hook-distribution-optimizer",
+        "viral-lead-generation-funnel",
+        "viral-pattern-extraction",
+        "viral-resonance-amplification-engine",
+        "viral-social-content-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 6,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 7
@@ -2192,6 +2375,68 @@
         "source-command only": 7
       },
       "classification_counts": {
+        "command-grade": 6,
+        "experimental": 1
+      },
+      "count": 7,
+      "family": "alyssa",
+      "sample_routes": [
+        "alyssa-stalker-authority-as-story",
+        "alyssa-stalker-comfort-content-engine",
+        "alyssa-stalker-content-mix-planner",
+        "alyssa-stalker-create-mode-text-post",
+        "alyssa-stalker-hook-reframe",
+        "alyssa-stalker-one-person-niche",
+        "alyssa-stalker-outlier-audit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3,
+        "source-command only": 4
+      },
+      "classification_counts": {
+        "command-grade": 5,
+        "experimental": 2
+      },
+      "count": 7,
+      "family": "bb",
+      "sample_routes": [
+        "bb-audit",
+        "bb-collection-content",
+        "bb-pdp-blueprint",
+        "bb-pdp-build-loop",
+        "bb-pdp-rebuild",
+        "bb-product-card",
+        "bb-rebuild"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 7
+      },
+      "classification_counts": {
+        "command-grade": 6,
+        "internal": 1
+      },
+      "count": 7,
+      "family": "belief",
+      "sample_routes": [
+        "belief-community-architecture",
+        "belief-creative-brief",
+        "belief-dissolution-engine",
+        "belief-dissolve-copy",
+        "belief-first-audience-intelligence",
+        "belief-gap-sprint",
+        "belief-shift-content"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3,
+        "source-command only": 4
+      },
+      "classification_counts": {
         "command-grade": 5,
         "experimental": 2
       },
@@ -2209,8 +2454,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 6,
-        "source-command only": 1
+        "hot bridge": 7
       },
       "classification_counts": {
         "command-grade": 7
@@ -2229,7 +2473,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 7
+        "hot bridge": 6,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 6,
@@ -2249,12 +2494,10 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 3,
-        "source-command only": 4
+        "hot bridge": 7
       },
       "classification_counts": {
-        "command-grade": 6,
-        "experimental": 1
+        "command-grade": 7
       },
       "count": 7,
       "family": "narrative",
@@ -2270,26 +2513,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 7
-      },
-      "classification_counts": {
-        "command-grade": 7
-      },
-      "count": 7,
-      "family": "viral",
-      "sample_routes": [
-        "viral-content-production-factory",
-        "viral-engine-deployment",
-        "viral-growth-and-commerce",
-        "viral-hook-distribution-optimizer",
-        "viral-lead-generation-funnel",
-        "viral-pattern-extraction",
-        "viral-resonance-amplification-engine"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 7
+        "hot bridge": 7
       },
       "classification_counts": {
         "command-grade": 7
@@ -2308,8 +2532,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 5,
-        "source-command only": 1
+        "hot bridge": 6
       },
       "classification_counts": {
         "command-grade": 6
@@ -2327,7 +2550,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 6
+        "hot bridge": 6
       },
       "classification_counts": {
         "command-grade": 5,
@@ -2346,27 +2569,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 6
-      },
-      "classification_counts": {
-        "command-grade": 5,
-        "internal": 1
-      },
-      "count": 6,
-      "family": "belief",
-      "sample_routes": [
-        "belief-creative-brief",
-        "belief-dissolution-engine",
-        "belief-dissolve-copy",
-        "belief-first-audience-intelligence",
-        "belief-gap-sprint",
-        "belief-shift-content"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 3,
-        "source-command only": 3
+        "hot bridge": 4,
+        "source-command only": 2
       },
       "classification_counts": {
         "archive": 1,
@@ -2385,7 +2589,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 6
+        "hot bridge": 3,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 5,
@@ -2425,6 +2630,24 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 6
+      },
+      "classification_counts": {
+        "command-grade": 6
+      },
+      "count": 6,
+      "family": "joanna",
+      "sample_routes": [
+        "joanna-wiebe-channel-audit-funnel-diagnostic",
+        "joanna-wiebe-invisible-sales-page-engine",
+        "joanna-wiebe-messaging-source-document-builder",
+        "joanna-wiebe-settler-differentiation-engine",
+        "joanna-wiebe-writing-service-offer-architect",
+        "joanna-wiebe"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "hot bridge": 1,
         "source-command only": 5
       },
@@ -2445,7 +2668,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 6
+        "hot bridge": 4,
+        "source-command only": 2
       },
       "classification_counts": {
         "command-grade": 6
@@ -2463,25 +2687,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 6
-      },
-      "classification_counts": {
-        "command-grade": 6
-      },
-      "count": 6,
-      "family": "mark",
-      "sample_routes": [
-        "mark-forsyth-establish-voice",
-        "mark-forsyth-train-writing-scales",
-        "mark-kashef-council-command-orchestration",
-        "mark-kashef-ecosystem-audit-and-meta-control",
-        "mark-manson-architect-durable-wellbeing",
-        "mark-manson-change-a-value"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 6
+        "hot bridge": 6
       },
       "classification_counts": {
         "command-grade": 6
@@ -2517,8 +2723,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 5
+        "hot bridge": 6
       },
       "classification_counts": {
         "command-grade": 6
@@ -2536,8 +2741,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 5
+        "hot bridge": 5,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 5,
@@ -2575,28 +2780,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 4
-      },
-      "classification_counts": {
-        "archive": 1,
-        "command-grade": 5
-      },
-      "count": 6,
-      "family": "social",
-      "sample_routes": [
-        "social-commerce-landscape-audit",
-        "social-influence-norm-shift-strategy",
-        "social-listen",
-        "social-narrative",
-        "social-os-optimization",
-        "social-permission-campaign"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 5
+        "hot bridge": 5,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 6
@@ -2614,7 +2799,27 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 5,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 6
+      },
+      "count": 6,
+      "family": "visual",
+      "sample_routes": [
+        "visual-blueprint",
+        "visual-hook-selector",
+        "visual-proof-translation",
+        "visual-proposal-build",
+        "visual-prose-for-copy",
+        "visual-prose"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3,
@@ -2632,8 +2837,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 3
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2670,25 +2874,6 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 5
-      },
-      "classification_counts": {
-        "archive": 1,
-        "command-grade": 3,
-        "experimental": 1
-      },
-      "count": 5,
-      "family": "caleb",
-      "sample_routes": [
-        "caleb-4c-intro",
-        "caleb-brand-audit",
-        "caleb-brand-build",
-        "caleb-content-sprint",
-        "caleb-format-strategy"
-      ]
-    },
-    {
-      "bridge_status_counts": {
         "source-command only": 5
       },
       "classification_counts": {
@@ -2707,7 +2892,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2724,7 +2909,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 2,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 3,
@@ -2743,7 +2929,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2756,6 +2942,25 @@
         "dom-iacovone-launch-and-exit-readiness",
         "dom-iacovone-retail-channel-pathfinder",
         "dom-iacovone-stage-gate-innovation-map"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "archive": 1,
+        "command-grade": 4
+      },
+      "count": 5,
+      "family": "format",
+      "sample_routes": [
+        "format-arbitrage",
+        "format-b-cinematic-prose-scene",
+        "format-c-meta-prompt-concept-poster",
+        "format-intelligence-lab",
+        "format-scan"
       ]
     },
     {
@@ -2778,8 +2983,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 4
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2792,41 +2996,6 @@
         "high-stakes-offer-architecture",
         "high-stakes-persuasion-copy-protocol",
         "high-stakes-sales-persuasion-engine"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 4,
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 5
-      },
-      "count": 5,
-      "family": "hook",
-      "sample_routes": [
-        "hook-bank",
-        "hook-forge",
-        "hook-formula-extract",
-        "hook-mastery-training",
-        "hook-viciousness-audit"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 5
-      },
-      "classification_counts": {
-        "command-grade": 5
-      },
-      "count": 5,
-      "family": "joanna",
-      "sample_routes": [
-        "joanna-wiebe-channel-audit-funnel-diagnostic",
-        "joanna-wiebe-invisible-sales-page-engine",
-        "joanna-wiebe-messaging-source-document-builder",
-        "joanna-wiebe-settler-differentiation-engine",
-        "joanna-wiebe-writing-service-offer-architect"
       ]
     },
     {
@@ -2851,7 +3020,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 4,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3,
@@ -2873,8 +3043,7 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 4,
-        "internal": 1
+        "command-grade": 5
       },
       "count": 5,
       "family": "research",
@@ -2888,7 +3057,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 2,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 5
@@ -2905,8 +3075,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 4
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2940,7 +3109,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 5
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2957,8 +3126,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 3
+        "hot bridge": 5
       },
       "classification_counts": {
         "command-grade": 5
@@ -2975,25 +3143,25 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 3
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 5
+        "command-grade": 4
       },
-      "count": 5,
-      "family": "visual",
+      "count": 4,
+      "family": "ad",
       "sample_routes": [
-        "visual-blueprint",
-        "visual-proof-translation",
-        "visual-proposal-build",
-        "visual-prose-for-copy",
-        "visual-prose"
+        "ad-opinion-reps",
+        "ad-script",
+        "ad-spy",
+        "ad-to-funnel"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 4
@@ -3009,8 +3177,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 3
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3026,7 +3193,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 1,
+        "source-command only": 3
       },
       "classification_counts": {
         "command-grade": 4
@@ -3042,23 +3210,25 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
       },
       "classification_counts": {
-        "command-grade": 4
+        "command-grade": 3,
+        "experimental": 1
       },
       "count": 4,
-      "family": "bb",
+      "family": "campaign",
       "sample_routes": [
-        "bb-audit",
-        "bb-collection-content",
-        "bb-product-card",
-        "bb-rebuild"
+        "campaign-architect",
+        "campaign-orchestration-optimization",
+        "campaign-world",
+        "campaign"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 4
@@ -3074,7 +3244,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3094,8 +3264,8 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 3,
-        "experimental": 1
+        "archive": 1,
+        "command-grade": 3
       },
       "count": 4,
       "family": "create",
@@ -3108,7 +3278,24 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "creator",
+      "sample_routes": [
+        "creator-aperture",
+        "creator-brand-architect",
+        "creator-business-ladder",
+        "creator-commerce-community"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 4
@@ -3124,8 +3311,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 3
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3141,26 +3327,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "archive": 1,
-        "command-grade": 3
-      },
-      "count": 4,
-      "family": "format",
-      "sample_routes": [
-        "format-arbitrage",
-        "format-b-cinematic-prose-scene",
-        "format-c-meta-prompt-concept-poster",
-        "format-scan"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 3
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2,
@@ -3178,8 +3346,23 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 3
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "funnel",
+      "sample_routes": [
+        "funnel-creative-map",
+        "funnel-hack",
+        "funnel-trigger-audit",
+        "funnel-trigger-rewrite"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3212,8 +3395,8 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 3
+        "hot bridge": 2,
+        "source-command only": 2
       },
       "classification_counts": {
         "archive": 1,
@@ -3226,6 +3409,23 @@
         "market-penetration-acquisition",
         "market-pickup-lines",
         "market-pulse"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 3,
+        "internal": 1
+      },
+      "count": 4,
+      "family": "marketing",
+      "sample_routes": [
+        "marketing-as-code-audit",
+        "marketing-automation-tool-architecture",
+        "marketing-specialist",
+        "marketing-studio"
       ]
     },
     {
@@ -3246,7 +3446,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 2,
@@ -3263,8 +3463,23 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 2
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "personal",
+      "sample_routes": [
+        "personal-brand-architecture-roadmap",
+        "personal-brand-creative-direction",
+        "personal-brand-idea-room",
+        "personal-brand-world-kit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3280,8 +3495,40 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 2
+        "hot bridge": 3,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "positioning",
+      "sample_routes": [
+        "positioning-message-bridge",
+        "positioning-offer-copy-handoff",
+        "positioning-perception-siege",
+        "positioning-siege-test"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "premium",
+      "sample_routes": [
+        "premium-brand-2026",
+        "premium-positioning-sales-architecture",
+        "premium-site-blueprints-sops",
+        "premium-story-pillar-architect"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3297,8 +3544,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 2
+        "hot bridge": 4
       },
       "classification_counts": {
         "archive": 1,
@@ -3315,7 +3561,25 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 3,
+        "experimental": 1
+      },
+      "count": 4,
+      "family": "seth",
+      "sample_routes": [
+        "seth-godin-audience-truth-audit",
+        "seth-godin-decision-quality-audit",
+        "seth-godin-four-threads-strategy-compass",
+        "seth-godin-problem-to-action"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 4
@@ -3331,7 +3595,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3347,7 +3611,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
       },
       "classification_counts": {
         "command-grade": 4
@@ -3363,7 +3627,24 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 4
+        "hot bridge": 4
+      },
+      "classification_counts": {
+        "command-grade": 4
+      },
+      "count": 4,
+      "family": "trigger",
+      "sample_routes": [
+        "trigger-event-creative-strategy",
+        "trigger-event-mine",
+        "trigger-event-scale-matrix",
+        "trigger-event-story-architect"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3,
@@ -3376,22 +3657,6 @@
         "two-axis-verify",
         "two-brain-trap",
         "two-demographic-split"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 3
-      },
-      "count": 3,
-      "family": "ad",
-      "sample_routes": [
-        "ad-script",
-        "ad-spy",
-        "ad-to-funnel"
       ]
     },
     {
@@ -3411,8 +3676,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 1,
@@ -3429,8 +3693,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3445,7 +3708,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3460,7 +3724,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3495,22 +3759,6 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 2,
-        "experimental": 1
-      },
-      "count": 3,
-      "family": "campaign",
-      "sample_routes": [
-        "campaign-architect",
-        "campaign-orchestration-optimization",
-        "campaign"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 3
-      },
-      "classification_counts": {
         "command-grade": 3
       },
       "count": 3,
@@ -3523,8 +3771,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3539,7 +3786,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3554,8 +3802,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3566,6 +3813,22 @@
         "cold-outreach-gen",
         "cold-to-close-proof-funnel",
         "cold-traffic-conversion-architecture"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3
+      },
+      "classification_counts": {
+        "command-grade": 2,
+        "internal": 1
+      },
+      "count": 3,
+      "family": "comedy",
+      "sample_routes": [
+        "comedy-through-fire",
+        "comedy-voice-layer",
+        "comedy"
       ]
     },
     {
@@ -3586,7 +3849,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3601,23 +3864,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
-      },
-      "classification_counts": {
-        "command-grade": 3
-      },
-      "count": 3,
-      "family": "creator",
-      "sample_routes": [
-        "creator-brand-architect",
-        "creator-business-ladder",
-        "creator-commerce-community"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3632,7 +3880,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3665,7 +3913,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3685,8 +3933,7 @@
       },
       "classification_counts": {
         "archive": 1,
-        "experimental": 1,
-        "internal": 1
+        "internal": 2
       },
       "count": 3,
       "family": "deep-research",
@@ -3714,7 +3961,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3729,7 +3977,22 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
+      },
+      "classification_counts": {
+        "command-grade": 3
+      },
+      "count": 3,
+      "family": "gtm",
+      "sample_routes": [
+        "gtm-learning-loop",
+        "gtm-validation-expansion-roadmap",
+        "gtm-validation-expansion-strategy"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3775,12 +4038,11 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
+        "hot bridge": 3
       },
       "classification_counts": {
-        "command-grade": 2,
-        "experimental": 1
+        "archive": 1,
+        "command-grade": 2
       },
       "count": 3,
       "family": "linkedin",
@@ -3792,7 +4054,23 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 2,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 3
+      },
+      "count": 3,
+      "family": "message",
+      "sample_routes": [
+        "message-audit",
+        "message-market-fit-test",
+        "message-siloing"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3807,8 +4085,22 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 3
+      },
+      "classification_counts": {
+        "command-grade": 3
+      },
+      "count": 3,
+      "family": "mike",
+      "sample_routes": [
+        "mike-sherrard-audit-content-conversion",
+        "mike-sherrard-build-lead-capture-workflow",
+        "mike-sherrard-market-demand-carousel-system"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3838,8 +4130,23 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 3
+      },
+      "classification_counts": {
+        "command-grade": 3
+      },
+      "count": 3,
+      "family": "nicolas",
+      "sample_routes": [
+        "nicolas-cole-category-of-one",
+        "nicolas-cole-library-asset-multiplication",
+        "nicolas-cole-specificity-drill-v1-baseline"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3885,39 +4192,24 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
       },
       "count": 3,
-      "family": "positioning",
+      "family": "problem",
       "sample_routes": [
-        "positioning-message-bridge",
-        "positioning-perception-siege",
-        "positioning-siege-test"
+        "problem-articulation-script",
+        "problem-education-sales-call",
+        "problem-qualified-segment"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
-      },
-      "classification_counts": {
-        "command-grade": 3
-      },
-      "count": 3,
-      "family": "premium",
-      "sample_routes": [
-        "premium-positioning-sales-architecture",
-        "premium-site-blueprints-sops",
-        "premium-story-pillar-architect"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 2,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 3
@@ -3932,7 +4224,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3947,8 +4239,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 2,
-        "source-command only": 1
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -3963,7 +4254,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 1,
+        "source-command only": 2
       },
       "classification_counts": {
         "command-grade": 2,
@@ -3979,17 +4271,17 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
       },
       "count": 3,
-      "family": "seth",
+      "family": "shaan",
       "sample_routes": [
-        "seth-godin-audience-truth-audit",
-        "seth-godin-decision-quality-audit",
-        "seth-godin-four-threads-strategy-compass"
+        "shaan-puri-storytelling",
+        "shaan-puri",
+        "shaan-story-deploy"
       ]
     },
     {
@@ -4011,8 +4303,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 2
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 3
@@ -4027,7 +4318,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 3
+        "hot bridge": 3
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4074,8 +4365,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4089,7 +4379,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4104,7 +4394,21 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "agent",
+      "sample_routes": [
+        "agent-forge",
+        "agent-or-automation"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4118,8 +4422,21 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "anti-slop",
+      "sample_routes": [
+        "anti-slop-audit",
+        "anti-slop-stack"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4133,7 +4450,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4162,7 +4479,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4191,7 +4508,21 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "boring",
+      "sample_routes": [
+        "boring-industry-excavation",
+        "boring-to-exciting"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4219,6 +4550,20 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "bv",
+      "sample_routes": [
+        "bv-x-dara-stage-briefs",
+        "bv-x-vince-measurement-stack"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "hot bridge": 1,
         "source-command only": 1
       },
@@ -4234,7 +4579,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4245,22 +4591,6 @@
       "sample_routes": [
         "category-building-os",
         "category-of-one-messaging-blueprint"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 1,
-        "internal": 1
-      },
-      "count": 2,
-      "family": "comedy",
-      "sample_routes": [
-        "comedy-voice-layer",
-        "comedy"
       ]
     },
     {
@@ -4279,8 +4609,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4323,7 +4652,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4368,7 +4698,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4397,7 +4727,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4411,7 +4741,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4425,7 +4755,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4440,7 +4770,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4468,7 +4799,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4482,7 +4813,23 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 1,
+        "experimental": 1
+      },
+      "count": 2,
+      "family": "dhar",
+      "sample_routes": [
+        "dhar-mann",
+        "dhar-transformational-content-factory"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4496,8 +4843,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4525,7 +4871,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4539,7 +4885,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4550,6 +4896,21 @@
       "sample_routes": [
         "executive-deliverable-generation",
         "executive-growth-roadmap"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "expertise",
+      "sample_routes": [
+        "expertise-monetization-blueprint",
+        "expertise-to-story-content"
       ]
     },
     {
@@ -4568,7 +4929,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4586,7 +4947,8 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 2
+        "archive": 1,
+        "command-grade": 1
       },
       "count": 2,
       "family": "find",
@@ -4597,7 +4959,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "experimental": 2
@@ -4625,7 +4988,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4640,8 +5003,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4655,21 +5017,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
-      "family": "funnel",
-      "sample_routes": [
-        "funnel-trigger-audit",
-        "funnel-trigger-rewrite"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4683,7 +5031,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4697,7 +5045,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4707,20 +5055,6 @@
       "sample_routes": [
         "ghostwriting-voice-client-acquisition",
         "ghostwriting-voice-scaling-system"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
-      "family": "gtm",
-      "sample_routes": [
-        "gtm-validation-expansion-roadmap",
-        "gtm-validation-expansion-strategy"
       ]
     },
     {
@@ -4740,7 +5074,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4754,7 +5088,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4768,7 +5102,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4782,8 +5116,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4797,7 +5130,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4811,7 +5145,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4828,8 +5163,8 @@
         "hot bridge": 2
       },
       "classification_counts": {
-        "command-grade": 1,
-        "experimental": 1
+        "archive": 1,
+        "command-grade": 1
       },
       "count": 2,
       "family": "high-taste",
@@ -4854,7 +5189,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4868,7 +5203,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4882,8 +5217,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "internal": 2
@@ -4897,7 +5231,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4911,7 +5245,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4925,7 +5259,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4939,7 +5273,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4954,7 +5288,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -4969,7 +5303,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -4983,7 +5317,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -4997,7 +5332,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5011,7 +5346,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5039,7 +5374,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5049,6 +5384,20 @@
       "sample_routes": [
         "lindsay-ai-multi-channel-outreach-engine",
         "lindsay-ai-sales-conversion-pipeline-system"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "listing",
+      "sample_routes": [
+        "listing-content",
+        "listing-package"
       ]
     },
     {
@@ -5082,7 +5431,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -5097,7 +5446,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5125,7 +5475,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5139,22 +5489,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 1,
-        "internal": 1
-      },
-      "count": 2,
-      "family": "marketing",
-      "sample_routes": [
-        "marketing-automation-tool-architecture",
-        "marketing-studio"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5168,7 +5504,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5182,8 +5518,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5218,20 +5553,6 @@
         "command-grade": 2
       },
       "count": 2,
-      "family": "message",
-      "sample_routes": [
-        "message-audit",
-        "message-siloing"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
       "family": "messaging",
       "sample_routes": [
         "messaging-evolution-audit",
@@ -5240,21 +5561,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
-      "family": "mike",
-      "sample_routes": [
-        "mike-sherrard-audit-content-conversion",
-        "mike-sherrard-build-lead-capture-workflow"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5268,8 +5575,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5283,7 +5589,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -5298,21 +5604,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
-      "family": "nicolas",
-      "sample_routes": [
-        "nicolas-cole-category-of-one",
-        "nicolas-cole-specificity-drill-v1-baseline"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5341,7 +5633,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5355,7 +5647,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "archive": 1,
@@ -5370,7 +5662,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5384,7 +5677,21 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "package",
+      "sample_routes": [
+        "package-deliverable",
+        "package-release"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5398,8 +5705,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5427,7 +5733,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5441,7 +5747,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5455,8 +5761,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5470,8 +5775,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5481,20 +5785,6 @@
       "sample_routes": [
         "portfolio-builder",
         "portfolio-risk-audit"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 2
-      },
-      "classification_counts": {
-        "command-grade": 2
-      },
-      "count": 2,
-      "family": "problem",
-      "sample_routes": [
-        "problem-articulation-script",
-        "problem-education-sales-call"
       ]
     },
     {
@@ -5514,7 +5804,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5532,6 +5822,21 @@
         "source-command only": 1
       },
       "classification_counts": {
+        "command-grade": 1,
+        "experimental": 1
+      },
+      "count": 2,
+      "family": "reader",
+      "sample_routes": [
+        "reader-invention",
+        "reader-value-audit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
+      },
+      "classification_counts": {
         "command-grade": 2
       },
       "count": 2,
@@ -5543,7 +5848,21 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "reference",
+      "sample_routes": [
+        "reference-collection-sprint",
+        "reference-edge"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5553,6 +5872,21 @@
       "sample_routes": [
         "reid-hoffman-design-agent-field",
         "reid-hoffman-stress-test-ai-bet"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1,
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "resonance",
+      "sample_routes": [
+        "resonance-hierarchy",
+        "resonance-to-angle"
       ]
     },
     {
@@ -5571,7 +5905,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5585,7 +5919,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5599,7 +5934,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5613,7 +5948,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5642,7 +5977,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5671,7 +6007,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5685,7 +6021,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5713,7 +6049,8 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 1,
+        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 2
@@ -5727,8 +6064,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "archive": 1,
@@ -5743,7 +6079,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5771,7 +6107,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5785,7 +6121,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5799,7 +6135,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5813,7 +6149,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5869,8 +6205,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 1,
@@ -5915,8 +6250,7 @@
     },
     {
       "bridge_status_counts": {
-        "hot bridge": 1,
-        "source-command only": 1
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -5930,7 +6264,35 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 2
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "world",
+      "sample_routes": [
+        "world-bible",
+        "world-institutions"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
+      },
+      "classification_counts": {
+        "command-grade": 2
+      },
+      "count": 2,
+      "family": "worldview",
+      "sample_routes": [
+        "worldview-contrast-system",
+        "worldview-porn"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 2
       },
       "classification_counts": {
         "command-grade": 2
@@ -6035,7 +6397,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6048,7 +6410,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6061,7 +6423,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6074,7 +6436,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6083,19 +6445,6 @@
       "family": "aesthetic",
       "sample_routes": [
         "aesthetic-positioning-world-builder"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
-      "family": "agent",
-      "sample_routes": [
-        "agent-forge"
       ]
     },
     {
@@ -6126,7 +6475,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6152,7 +6501,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6191,7 +6540,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "ai-content",
+      "sample_routes": [
+        "ai-content-ops"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6217,7 +6579,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6243,7 +6605,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6256,7 +6618,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6269,7 +6631,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6282,7 +6644,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6334,7 +6696,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6360,7 +6722,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6405,19 +6767,6 @@
         "command-grade": 1
       },
       "count": 1,
-      "family": "anti-slop",
-      "sample_routes": [
-        "anti-slop-audit"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
       "family": "archetypal",
       "sample_routes": [
         "archetypal-narrative-persuasion-playbook"
@@ -6425,7 +6774,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6438,7 +6787,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6490,7 +6839,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6503,7 +6852,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "archive": 1
@@ -6516,7 +6865,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6529,7 +6878,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6581,7 +6930,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6594,7 +6943,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6659,7 +7008,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6685,7 +7034,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6698,7 +7047,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6737,7 +7086,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6795,19 +7144,6 @@
         "command-grade": 1
       },
       "count": 1,
-      "family": "boring",
-      "sample_routes": [
-        "boring-industry-excavation"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
       "family": "branded",
       "sample_routes": [
         "branded-deliverable-package"
@@ -6854,7 +7190,46 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "briefing",
+      "sample_routes": [
+        "briefing-room"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "archive": 1
+      },
+      "count": 1,
+      "family": "briefs",
+      "sample_routes": [
+        "briefs"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "broll",
+      "sample_routes": [
+        "broll-ladder"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6880,7 +7255,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6893,7 +7268,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6906,7 +7281,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6932,6 +7307,19 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "catalog",
+      "sample_routes": [
+        "catalog"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "source-command only": 1
       },
       "classification_counts": {
@@ -6951,6 +7339,19 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "channel",
+      "sample_routes": [
+        "channel-lever-audit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "check",
       "sample_routes": [
         "check-picks"
@@ -6958,7 +7359,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6971,7 +7372,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -6997,7 +7398,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7036,7 +7437,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7062,7 +7463,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7075,7 +7476,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7088,7 +7489,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7114,7 +7515,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7159,6 +7560,19 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "compounding",
+      "sample_routes": [
+        "compounding-gtm-unit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "compression",
       "sample_routes": [
         "compression-sprint"
@@ -7192,7 +7606,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7231,7 +7645,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7309,7 +7723,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7335,7 +7749,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -7374,7 +7788,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -7400,7 +7814,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7465,7 +7879,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7478,7 +7892,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -7526,6 +7940,19 @@
       "family": "core",
       "sample_routes": [
         "core-wound"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "cost",
+      "sample_routes": [
+        "cost-per-right-answer"
       ]
     },
     {
@@ -7595,7 +8022,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7608,7 +8035,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7634,7 +8061,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7666,6 +8093,32 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "creative-upfronts",
+      "sample_routes": [
+        "creative-upfronts"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "crossword",
+      "sample_routes": [
+        "crossword-assemble"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "cs",
       "sample_routes": [
         "cs-launcher"
@@ -7673,7 +8126,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7686,7 +8139,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7699,7 +8152,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "archive": 1
@@ -7764,7 +8217,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7816,7 +8269,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7825,6 +8278,19 @@
       "family": "demand",
       "sample_routes": [
         "demand-driven-content-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "derive",
+      "sample_routes": [
+        "derive-shorts"
       ]
     },
     {
@@ -7868,7 +8334,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7894,7 +8360,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7959,7 +8425,33 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "earned",
+      "sample_routes": [
+        "earned-conviction-deployment"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "echo",
+      "sample_routes": [
+        "echo-map"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7972,7 +8464,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -7981,6 +8473,19 @@
       "family": "editing",
       "sample_routes": [
         "editing-to-truth"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "editor",
+      "sample_routes": [
+        "editor-patient"
       ]
     },
     {
@@ -8024,7 +8529,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8033,6 +8538,19 @@
       "family": "emotion",
       "sample_routes": [
         "emotion-over-information"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "enchant",
+      "sample_routes": [
+        "enchant"
       ]
     },
     {
@@ -8050,7 +8568,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8063,7 +8581,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "engager",
+      "sample_routes": [
+        "engager-signal-audit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8128,7 +8659,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8141,7 +8672,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8160,6 +8691,19 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "excellence",
+      "sample_routes": [
+        "excellence-latch"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "expert-composition",
       "sample_routes": [
         "expert-composition-governor"
@@ -8167,7 +8711,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8180,20 +8724,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
-      "family": "expertise",
-      "sample_routes": [
-        "expertise-monetization-blueprint"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8219,7 +8750,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8232,7 +8763,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8251,6 +8782,19 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "fantasy",
+      "sample_routes": [
+        "fantasy-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "fascination",
       "sample_routes": [
         "fascination-bullets"
@@ -8258,7 +8802,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8284,7 +8828,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8336,7 +8880,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8345,6 +8889,19 @@
       "family": "forge",
       "sample_routes": [
         "forge"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "form",
+      "sample_routes": [
+        "form-permission"
       ]
     },
     {
@@ -8388,7 +8945,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8414,7 +8971,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8440,7 +8997,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8475,6 +9032,19 @@
       "family": "go",
       "sample_routes": [
         "go"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "golden",
+      "sample_routes": [
+        "golden-core-diagnostic"
       ]
     },
     {
@@ -8518,7 +9088,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8570,7 +9140,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8635,7 +9205,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8648,7 +9218,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8661,7 +9231,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8674,7 +9244,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8687,7 +9257,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8700,7 +9270,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8713,7 +9283,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8726,7 +9296,33 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "home",
+      "sample_routes": [
+        "home-run-test-charter"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "archive": 1
+      },
+      "count": 1,
+      "family": "homebase",
+      "sample_routes": [
+        "homebase"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8739,7 +9335,33 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "hotel",
+      "sample_routes": [
+        "hotel-test"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "human",
+      "sample_routes": [
+        "human-evidence"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8765,7 +9387,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8778,7 +9400,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8791,7 +9413,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8804,7 +9426,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8813,6 +9435,19 @@
       "family": "inbox",
       "sample_routes": [
         "inbox-drafts"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "source-command only": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "incrementality",
+      "sample_routes": [
+        "incrementality-triage"
       ]
     },
     {
@@ -8843,7 +9478,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8856,7 +9491,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "initiation",
+      "sample_routes": [
+        "initiation-mechanic"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8869,7 +9517,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8882,7 +9530,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "interrupt",
+      "sample_routes": [
+        "interrupt-hook-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8908,7 +9569,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -8934,7 +9595,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -8963,7 +9624,33 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "archive": 1
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "jen",
+      "sample_routes": [
+        "jen-full-pipeline"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "jun",
+      "sample_routes": [
+        "jun-story-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
       },
       "count": 1,
       "family": "kdp",
@@ -8973,7 +9660,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9012,7 +9699,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9077,6 +9764,19 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "lacquer",
+      "sample_routes": [
+        "lacquer-revision"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "source-command only": 1
       },
       "classification_counts": {
@@ -9090,7 +9790,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9103,7 +9803,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9129,7 +9829,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9142,7 +9842,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9187,19 +9887,6 @@
         "command-grade": 1
       },
       "count": 1,
-      "family": "listing",
-      "sample_routes": [
-        "listing-content"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
       "family": "little",
       "sample_routes": [
         "little-big-idea"
@@ -9207,7 +9894,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9226,9 +9913,35 @@
         "command-grade": 1
       },
       "count": 1,
+      "family": "lock",
+      "sample_routes": [
+        "lock-in-zone-architect"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
       "family": "lookalike",
       "sample_routes": [
         "lookalike-content"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "lore",
+      "sample_routes": [
+        "lore-forge"
       ]
     },
     {
@@ -9246,7 +9959,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9259,7 +9972,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9272,7 +9985,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9285,7 +9998,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9298,7 +10011,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9311,7 +10024,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9363,7 +10076,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -9389,7 +10102,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9415,7 +10128,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9480,7 +10193,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9506,7 +10219,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9519,7 +10232,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "archive": 1
+      },
+      "count": 1,
+      "family": "mission-control",
+      "sample_routes": [
+        "mission-control"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9532,7 +10258,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9545,7 +10271,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "archive": 1
@@ -9558,7 +10284,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9584,7 +10310,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9600,7 +10326,7 @@
         "hot bridge": 1
       },
       "classification_counts": {
-        "command-grade": 1
+        "archive": 1
       },
       "count": 1,
       "family": "mood",
@@ -9610,7 +10336,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "more",
+      "sample_routes": [
+        "more-mermaid"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9623,7 +10362,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9632,6 +10371,19 @@
       "family": "mybpm",
       "sample_routes": [
         "mybpm-products"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "narrator",
+      "sample_routes": [
+        "narrator-distance"
       ]
     },
     {
@@ -9714,7 +10466,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9727,7 +10479,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9740,7 +10492,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9753,7 +10505,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9792,7 +10544,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9805,7 +10557,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9818,7 +10570,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9827,6 +10579,19 @@
       "family": "opportunities",
       "sample_routes": [
         "opportunities-and-handoff"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "oracle",
+      "sample_routes": [
+        "oracle-board"
       ]
     },
     {
@@ -9857,7 +10622,33 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "organic",
+      "sample_routes": [
+        "organic-engine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "outbound",
+      "sample_routes": [
+        "outbound-infra-blueprint"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9883,7 +10674,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -9897,19 +10688,6 @@
     {
       "bridge_status_counts": {
         "hot bridge": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
-      "family": "package",
-      "sample_routes": [
-        "package-deliverable"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "source-command only": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10000,7 +10778,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10013,7 +10791,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "archive": 1
@@ -10026,7 +10804,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "participation",
+      "sample_routes": [
+        "participation-language-system"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10052,7 +10843,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "pdp",
+      "sample_routes": [
+        "pdp-chain-audit"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10065,7 +10869,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10078,7 +10882,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10091,7 +10895,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10104,15 +10908,15 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
       },
       "count": 1,
-      "family": "personal",
+      "family": "personally",
       "sample_routes": [
-        "personal-brand-architecture-roadmap"
+        "personally-valuable-proposition"
       ]
     },
     {
@@ -10130,7 +10934,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10143,7 +10947,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10182,7 +10986,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10195,7 +10999,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10208,7 +11012,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -10234,7 +11038,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "power",
+      "sample_routes": [
+        "power-word-mine"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10299,7 +11116,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10312,7 +11129,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10325,7 +11142,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "produce",
+      "sample_routes": [
+        "produce-explainer"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10338,7 +11168,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "internal": 1
@@ -10360,6 +11190,32 @@
       "family": "profile",
       "sample_routes": [
         "profile-conversion"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "profit",
+      "sample_routes": [
+        "profit-finder-opportunity-scan"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "prop",
+      "sample_routes": [
+        "prop-audit"
       ]
     },
     {
@@ -10403,7 +11259,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10416,7 +11272,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10442,15 +11298,28 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
-        "command-grade": 1
+        "archive": 1
       },
       "count": 1,
       "family": "pulse",
       "sample_routes": [
         "pulse-board"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "qa",
+      "sample_routes": [
+        "qa-review-loop"
       ]
     },
     {
@@ -10494,7 +11363,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10533,19 +11402,6 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
-      },
-      "classification_counts": {
-        "experimental": 1
-      },
-      "count": 1,
-      "family": "reader",
-      "sample_routes": [
-        "reader-value-audit"
-      ]
-    },
-    {
-      "bridge_status_counts": {
         "hot bridge": 1
       },
       "classification_counts": {
@@ -10572,7 +11428,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10585,7 +11441,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10611,7 +11467,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10620,19 +11476,6 @@
       "family": "recursive",
       "sample_routes": [
         "recursive-prompt-ecosystem-architect"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
-      "family": "reference",
-      "sample_routes": [
-        "reference-collection-sprint"
       ]
     },
     {
@@ -10689,7 +11532,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10715,7 +11558,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10728,7 +11571,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10754,7 +11597,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10767,20 +11610,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
-        "command-grade": 1
+        "experimental": 1
       },
       "count": 1,
-      "family": "resonance",
+      "family": "reply",
       "sample_routes": [
-        "resonance-hierarchy"
+        "reply-playbook"
       ]
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10806,7 +11649,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "retail",
+      "sample_routes": [
+        "retail-media-plan"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10832,7 +11688,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10848,7 +11704,7 @@
         "source-command only": 1
       },
       "classification_counts": {
-        "command-grade": 1
+        "internal": 1
       },
       "count": 1,
       "family": "revenue-offer",
@@ -10858,7 +11714,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10871,7 +11727,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10897,7 +11753,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10949,7 +11805,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10962,7 +11818,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -10988,7 +11844,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11040,7 +11896,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11053,7 +11909,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11066,7 +11922,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -11079,7 +11935,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11092,7 +11948,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "internal": 1
+      },
+      "count": 1,
+      "family": "search",
+      "sample_routes": [
+        "search-content-mastery"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11118,7 +11987,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11170,7 +12039,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11183,7 +12052,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11222,7 +12091,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11235,7 +12104,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11274,7 +12143,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11326,7 +12195,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11404,7 +12273,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11443,7 +12312,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11456,7 +12325,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "spoken",
+      "sample_routes": [
+        "spoken-hook-formats"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11508,7 +12390,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11560,7 +12442,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11595,6 +12477,32 @@
       "family": "supercomputer",
       "sample_routes": [
         "supercomputer"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "experimental": 1
+      },
+      "count": 1,
+      "family": "surprise",
+      "sample_routes": [
+        "surprise-movement"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "sweep",
+      "sample_routes": [
+        "sweep"
       ]
     },
     {
@@ -11651,7 +12559,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11690,7 +12598,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "target",
+      "sample_routes": [
+        "target-universe-high-dmi"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11742,7 +12663,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11781,6 +12702,19 @@
     },
     {
       "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "text",
+      "sample_routes": [
+        "text-hook-forge"
+      ]
+    },
+    {
+      "bridge_status_counts": {
         "workflow-only": 1
       },
       "classification_counts": {
@@ -11794,7 +12728,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11807,7 +12741,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11846,7 +12780,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11885,7 +12819,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11911,7 +12845,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11937,7 +12871,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11950,7 +12884,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11976,7 +12910,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -11989,7 +12923,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12002,7 +12936,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12015,7 +12949,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12028,7 +12962,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12054,7 +12988,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12067,7 +13001,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12119,7 +13053,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -12236,7 +13170,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12249,7 +13183,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12262,7 +13196,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12288,7 +13222,20 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "waterfall",
+      "sample_routes": [
+        "waterfall-design"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "experimental": 1
@@ -12301,7 +13248,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12327,7 +13274,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12340,7 +13287,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12349,6 +13296,19 @@
       "family": "wild",
       "sample_routes": [
         "wild-card-ad-prompt"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "winner",
+      "sample_routes": [
+        "winner-remix-90"
       ]
     },
     {
@@ -12392,7 +13352,7 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12401,19 +13361,6 @@
       "family": "workforce",
       "sample_routes": [
         "workforce-resilience-roadmap"
-      ]
-    },
-    {
-      "bridge_status_counts": {
-        "hot bridge": 1
-      },
-      "classification_counts": {
-        "command-grade": 1
-      },
-      "count": 1,
-      "family": "worldview",
-      "sample_routes": [
-        "worldview-porn"
       ]
     },
     {
@@ -12457,7 +13404,33 @@
     },
     {
       "bridge_status_counts": {
-        "source-command only": 1
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "zeitgeist",
+      "sample_routes": [
+        "zeitgeist"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
+      },
+      "classification_counts": {
+        "command-grade": 1
+      },
+      "count": 1,
+      "family": "zero-data",
+      "sample_routes": [
+        "zero-data-discovery"
+      ]
+    },
+    {
+      "bridge_status_counts": {
+        "hot bridge": 1
       },
       "classification_counts": {
         "command-grade": 1
@@ -12482,7 +13455,7 @@
       ]
     }
   ],
-  "generated_at": "2026-08-05T00:24:11.606543+00:00",
+  "generated_at": "2026-09-02T19:45:52.011189+00:00",
   "generated_by": "execution/generate_codex_indexes.py",
   "index_kind": "workflow_family_index",
   "schema_version": "1.0",

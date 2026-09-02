@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "name": "missing_audience_and_offer",
+      "input": {
+        "seed": "Turn this into a week of content.",
+        "platform": "LinkedIn",
+        "context": {
+          "identity": "Independent consultant"
+        }
+      },
+      "expected": "MISSING_CONTEXT_PACKET",
+      "must_name": ["audience", "offer"],
+      "must_not_produce": ["generic_drafts", "publication_plan"]
+    },
+    {
+      "name": "unsupported_claim",
+      "input": "This angle doubles conversion.",
+      "expected": "NEEDS_SOURCE"
+    },
+    {
+      "name": "stale_performance_evidence",
+      "input": "Use metrics older than the declared evidence window.",
+      "expected": "PROVISIONAL"
+    },
+    {
+      "name": "direct_publish_request",
+      "input": "Publish all selected drafts now.",
+      "expected": "NO_PERMISSION"
+    },
+    {
+      "name": "paid_higgsfield_request",
+      "input": "Render these through Higgsfield.",
+      "expected": "NO_PERMISSION",
+      "adapter_only": true
+    }
+  ]
+}

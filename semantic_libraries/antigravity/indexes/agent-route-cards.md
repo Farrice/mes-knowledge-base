@@ -1,6 +1,6 @@
 # Agent Route Cards
 
-Generated: 2026-08-05T00:24:11.622773+00:00
+Generated: 2026-09-02T19:45:52.047223+00:00
 
 | Agent | Domain | Skills | Policy |
 |---|---|---|---|
@@ -17,8 +17,10 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `alex-suzuki` |  | None listed | cold expertise card; load full agent only when routed |
 | `alex-suzuki-revenue-architect` | Digital products, X/Twitter sales posts, comment/like-to-DM funnels, offer proof, automation, multi-account scaling, cold-start partner/affiliate, launch systems | `alex-suzuki-digital-product-revenue-os` | cold expertise card; load full agent only when routed |
 | `ali-abdaal` |  | None listed | cold expertise card; load full agent only when routed |
+| `alyssa-stalker` |  | None listed | cold expertise card; load full agent only when routed |
 | `andrew-dun` |  | None listed | cold expertise card; load full agent only when routed |
 | `andrew-lane` | Visual brand identity, AI-powered design systems, branding strategy for founders | None listed | cold expertise card; load full agent only when routed |
+| `andrew-sean-greer` |  | None listed | cold expertise card; load full agent only when routed |
 | `andrew-stanton` |  | None listed | cold expertise card; load full agent only when routed |
 | `andrew-wilkinson` | AI Entrepreneurship, Vibe Coding & Rapid Execution | None listed | cold expertise card; load full agent only when routed |
 | `andy-galpin` | exercise physiology, energy-system training, metabolic optimization, injury rehab | None listed | cold expertise card; load full agent only when routed |
@@ -30,6 +32,7 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `authority-hacker` |  | None listed | cold expertise card; load full agent only when routed |
 | `ben-watkins` |  | None listed | cold expertise card; load full agent only when routed |
 | `benjamin-hardy` | Identity-based goal psychology, future-self science, 10x scaling psychology | None listed | cold expertise card; load full agent only when routed |
+| `benoit-vatere` | full-funnel media systems / incrementality measurement / channel selection / CPG retail media | None listed | cold expertise card; load full agent only when routed |
 | `bill-browder` |  | None listed | cold expertise card; load full agent only when routed |
 | `bitbranding` | Fashion E-Commerce / Shopify Theme Execution / DTC Clothing-Brand Conversion | `bitbranding-fashion-shopify` | cold expertise card; load full agent only when routed |
 | `bond-halbert` | Direct response copywriting and conversion optimization | None listed | cold expertise card; load full agent only when routed |
@@ -44,6 +47,7 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `chris-cimorelli` | Financial Direct Response Copywriting & Promotion Architecture | `chris-cimorelli-copywriting` | cold expertise card; load full agent only when routed |
 | `chris-do` | Design-business education — brand/positioning by reframing, premium & value-based pricing, selling without being salesy, personal brand for creatives and "non-creatives," story-driven differentiation | None listed | cold expertise card; load full agent only when routed |
 | `coaching-business-os` | Business of coaching — offer design, positioning, monetization, client acquisition, transformation delivery | None listed | cold expertise card; load full agent only when routed |
+| `cody-schneider` | Signal-based targeting, marketing agent architecture, outbound system design, organic content engines | None listed | cold expertise card; load full agent only when routed |
 | `cognitive-engagement-optimizer` | Behavioral-Psychology Content Virality — dopamine-loop engineering + cognitive engagement architecture | None listed | cold expertise card; load full agent only when routed |
 | `context-profile-architect` | JSON data-architecture for AI optimization — turning chaotic information into pristine, reusable context profiles that generate expert-grade AI output at 100x leverage | None listed | cold expertise card; load full agent only when routed |
 | `corey-mcclain` |  | None listed | cold expertise card; load full agent only when routed |
@@ -70,6 +74,7 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `david-perell` | Writing craft, idea development, cultural timing, and memorable communication | None listed | cold expertise card; load full agent only when routed |
 | `david-placek` |  | None listed | cold expertise card; load full agent only when routed |
 | `deya` | Business validation, 1-page business planning, freelance/service business operations | None listed | cold expertise card; load full agent only when routed |
+| `dhar-mann` |  | None listed | cold expertise card; load full agent only when routed |
 | `diandra-escobar` | LinkedIn algorithmic growth, audience acquisition, growth content formats, content system architecture, strategic engagement | `diandra-escobar-linkedin-growth` | cold expertise card; load full agent only when routed |
 | `donald-miller` | Culture Turnaround, Strategic Messaging, Identity Transformation, StoryBrand, Business Messaging, Narrative Marketing, Messaging Evolution, Positioning Discipline, Small Business Growth, Operations, Cash Flow | `donald-miller-culture-turnaround`, `donald-miller-storybrand`, `donald-miller-cognitive-load`, `donald-miller-messaging-evolution`, `donald-miller-business-growth` | cold expertise card; load full agent only when routed |
 | `dr-k` |  | None listed | cold expertise card; load full agent only when routed |
@@ -110,11 +115,12 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `jonah-berger` | word-of-mouth science, virality engineering, behavioral change | None listed | cold expertise card; load full agent only when routed |
 | `jonathan-courtney` |  | None listed | cold expertise card; load full agent only when routed |
 | `jonathan-franzen` |  | None listed | cold expertise card; load full agent only when routed |
+| `jordan-crawford` | evidence-first GTM intelligence / customer dossiers / message-market fit / GTM engineering | None listed | cold expertise card; load full agent only when routed |
 | `joscha-bach` |  | None listed | cold expertise card; load full agent only when routed |
 | `josh-kaufman` | Business fundamentals, idea validation, rapid skill acquisition | None listed | cold expertise card; load full agent only when routed |
 | `josh-sanders` |  | None listed | cold expertise card; load full agent only when routed |
 | `joshua-smith` | Real Estate Sales Mastery, KPI-Driven Production, Niche Targeting, Conversion Optimization | None listed | cold expertise card; load full agent only when routed |
-| `jun-yuh` | Creator Vision, Psychographic Growth, Non-Verbal Storytelling | None listed | cold expertise card; load full agent only when routed |
+| `jun-yuh` | Creator Vision, Truth-Safe Story Marketing, Format Intelligence, Expertise-to-Story Content, Non-Verbal Storytelling | None listed | cold expertise card; load full agent only when routed |
 | `justin-welsh` | Solopreneurship / One-Person Business Systems / Creator Monetization | None listed | cold expertise card; load full agent only when routed |
 | `kallaway` |  | None listed | cold expertise card; load full agent only when routed |
 | `kieran-flanagan` | AI Content Teams, Content Engine Architecture, Audience Intelligence, Evidence-Backed Ideation, Content Queues, Content Bundling, Platform Adaptation, Performance Feedback Loops | `kieran-flanagan-audience-intelligence`, `kieran-flanagan-content-engine`, `kieran-flanagan-content-ops` | cold expertise card; load full agent only when routed |
@@ -138,9 +144,10 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `marc-andreessen` | AI economics, technology philosophy, venture capital thesis, future of work, company building | None listed | cold expertise card; load full agent only when routed |
 | `maria-wendt` |  | None listed | cold expertise card; load full agent only when routed |
 | `marisa-murgatroyd` | Experience product design, course architecture, gamified completion systems, zero-audience course launches | None listed | cold expertise card; load full agent only when routed |
-| `mark-forsyth` | Rhetoric, memorable language, etymology, writing craft | None listed | cold expertise card; load full agent only when routed |
+| `mark-forsyth` | Rhetoric, memorable language, enchantment, etymology, writing craft | None listed | cold expertise card; load full agent only when routed |
 | `mark-kashef` |  | None listed | cold expertise card; load full agent only when routed |
 | `mark-manson` | Values psychology, behavior change, durable wellbeing (mindset layer for transformation coaching) | None listed | cold expertise card; load full agent only when routed |
+| `matt-haig` |  | None listed | cold expertise card; load full agent only when routed |
 | `matt-mcgarry` | Newsletter Growth & Email Monetization | None listed | cold expertise card; load full agent only when routed |
 | `matthew-lakajev` | LinkedIn client acquisition, offer viability, organic sales funnels | None listed | cold expertise card; load full agent only when routed |
 | `matthew-volkwyn` | Copywriting critique, full-stack copy positioning, voice engineering | None listed | cold expertise card; load full agent only when routed |
@@ -158,13 +165,14 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `nate-herk` |  | None listed | cold expertise card; load full agent only when routed |
 | `nathan-gotch` | AI SEO and retrieval layer optimization | None listed | cold expertise card; load full agent only when routed |
 | `nick-saraev` |  | None listed | cold expertise card; load full agent only when routed |
-| `nicolas-cole` | Sentence-level writing optimization, Digital product creation strategy, Niche positioning, Ghostwriting client acquisition & Newsletter flywheel architecture | `nicolas-cole-sentence-craft`, `nicolas-cole-digital-products`, `nicolas-cole-niche-positioning`, `nicolas-cole-client-acquisition`, `nicolas-cole-newsletter-flywheel` | cold expertise card; load full agent only when routed |
+| `nicolas-cole` | Sentence craft, library-first format strategy, digital products, niche positioning, client acquisition, and newsletters | `nicolas-cole-sentence-craft`, `nicolas-cole-library-first-writing`, `nicolas-cole-digital-products`, `nicolas-cole-niche-positioning`, `nicolas-cole-client-acquisition` | cold expertise card; load full agent only when routed |
 | `nir-eyal` | Habit design, distraction engineering, behavior-change architecture for coaching offers | None listed | cold expertise card; load full agent only when routed |
 | `noah-hawley` |  | None listed | cold expertise card; load full agent only when routed |
 | `ocean-vuong` |  | None listed | cold expertise card; load full agent only when routed |
 | `omar-eddaoudi` |  | None listed | cold expertise card; load full agent only when routed |
 | `omar-eltakrori` |  | None listed | cold expertise card; load full agent only when routed |
 | `operator-autopilot` | agentic orchestration, intent validation, ambiguity detection, clarity scoring, planning, execution routing, mission control, low-friction operating systems | `source-command-autopilot` | cold expertise card; load full agent only when routed |
+| `oren-slop-era-creative-strategy` | slop-era creative strategy / premium brand building / consumer insight / marketer training | None listed | cold expertise card; load full agent only when routed |
 | `oren-taste-development` |  | None listed | cold expertise card; load full agent only when routed |
 | `oscar-hoglund` | Sound storytelling and emotional umami | None listed | cold expertise card; load full agent only when routed |
 | `packy-mccormick` | Online writing, newsletter deep dives, narrative tech/business essays, writer business models | None listed | cold expertise card; load full agent only when routed |
@@ -194,9 +202,11 @@ Generated: 2026-08-05T00:24:11.622773+00:00
 | `sabrina-ramonov` |  | None listed | cold expertise card; load full agent only when routed |
 | `sam-goddard` |  | None listed | cold expertise card; load full agent only when routed |
 | `sam-parr` | Copywriting (Direct Response + Short-Form) • Taste Acquisition • Identity Architecture • Competitive Moat | `sam-parr-copywriting`, `sam-parr-taste-acquisition` | cold expertise card; load full agent only when routed |
+| `sam-vander-wielen` | live-webinar launch systems and high-ticket course sales | None listed | cold expertise card; load full agent only when routed |
 | `samuel-thompson` | AI Info Products & Rapid Launch Methodology | None listed | cold expertise card; load full agent only when routed |
 | `sarah-levinger` | Psychology-driven video ad creative / micro-movie storytelling | None listed | cold expertise card; load full agent only when routed |
 | `satori-graphics` | graphic design — composition, layout, logo systems, design psychology | None listed | cold expertise card; load full agent only when routed |
+| `scott-norton` |  | None listed | cold expertise card; load full agent only when routed |
 | `sean-dollwet` | Amazon KDP self-publishing / digital product business | None listed | cold expertise card; load full agent only when routed |
 | `sean-kochel` |  | None listed | cold expertise card; load full agent only when routed |
 | `sean-macintyre` | Persuasion Philosophy / Cross-Domain Diagnostic Copywriting | `sean-macintyre-persuasion-philosophy` | cold expertise card; load full agent only when routed |
