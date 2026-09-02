@@ -1,7 +1,7 @@
 ---
 thread: jen-valley-editions
 status: active
-resume_hint: Jen's own Coffee & Contracts. Read this file, then build Tarzana · Edition 01 on a Claude Design canvas from the research pack + photo bank + six-grammar generator. No mission cards, no sign-off ceremony; Farrice already approved the brief below.
+resume_hint: Tarzana · Edition 01 is BUILT and on the canvas (https://claude.ai/code/artifact/b76c3b1c-c8ba-409f-a14f-8e9ab1680cf4). Next is his verdict, then plates A–E behind the cost gate, then Jen's Bothwell confirmation. Extend editions.py; never a second generator.
 branch: worktree-jen-engine-v2-weeks
 pin: true
 ---
@@ -31,7 +31,20 @@ Build Jen (@_jiing) her own Coffee & Contracts: a place-magazine carousel system
 - Voice: `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md` + `jen-calibration-log.md` + `06-system/jen-voice-answers/transcripts.md` (her verbatim close and lines).
 - Canvas mechanics: the `design` skill (Claude Design canvas in an Artifact; `.dc.html` artboards + `canvas.json`, seeded with its helper, images as bare base64 under ~70 KB each, publish with contract 0.1.31). Load it fresh; the September folder's `.dc.html` slides are the prior art for the format.
 
-## Next session, in order
+## Shipped 2026-09-02 (this thread, second session)
+- `edition-01/CONTENT-PACK.md` (five frames + one post caption + the five other-grammar covers; every number labeled; fair-housing lint PASS; classifier CLEAN 1.5/10 on the copy).
+- `edition-01/PHOTO-PLAN.md` (cover = headshot backdrop-extended, Jen small bottom-right; F3 = Bothwell exterior + living/pool panels; F5 = pool sky; F2 and F4 = labeled plate slots A–E).
+- `editions.py` extended: `spot_exact`, `close_exact` (D1 pages 2–5, unmoved), `plate_bg/plate_inset`, `fact_panel`, `headline_size`, the five other covers (`cover_moment_exact`, `cover_stack_exact`, `cover_guide_exact`, `cover_urban_exact`, `cover_initial_exact`), `frames()` feeding both `edition01`/`sheet` renders and `canvas` (seeds + checks the Claude Design page).
+- `CANVA-GRAMMAR.md` now has Design 6 (`DAHUEETAQQs`, the big-initial move). `DESIGN.md` §3/§6/§10/§11 updated.
+- Renders: `out/edition-01/01..05.png` + `S2..S6`. Canvas: `out/edition-01/canvas/tarzana-edition-01.html` → artifact b76c3b1c (contract 0.1.31, save + export on).
+
+## Next session, in order (updated)
+1. His verdict on the canvas and the ten PNGs (Feedback Triad). Two rejected takes on one frame = back to the input, not a third take.
+2. Plates A–E (Laidrey storefront, espresso bar, cup on table, Tarzana street, porch step): cost gate first (~$1–3), style vault key for Jen, realism lint, craft master loaded per `skills/generate/references/craft-map.md`. Drop into `photos/plates/`, point `frames()` at them, re-render, `python3 editions.py canvas`, republish to the same artifact. Her own photo of Laidrey beats a plate.
+3. Jen confirms 5421 Bothwell price/status from her MLS before post day; re-check 6324 Tampa still active (FACTS.md re-check column).
+4. Edition 02 = a new neighborhood: research pack → content pack → photo plan → render → canvas. Same files, same order.
+
+## Prior plan (kept for the record)
 1. Read RESEARCH-PACK.md; write `edition-01/CONTENT-PACK.md`: five frames (cover · place · her listing · what $869K buys · close), each with headline, subline/body, the fact it carries + label, the ask, and the caption; Jen-as-herself seat over every line; fair-housing lint + prose classifier on the file.
 2. Write `edition-01/PHOTO-PLAN.md`: frame → photo (from photos/jen/ or a plate to generate), crop and subject placement per the template geometry, so type never lands on a face.
 3. Render the five frames with `editions.py` on the exact Local Gem geometry, view every PNG, fix, then the five other-grammar covers.

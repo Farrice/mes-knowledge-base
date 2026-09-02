@@ -162,3 +162,41 @@ ring badge + eyebrow "THE LOCAL EDIT" repeated exactly as page 1 header (L36.1/T
 | `YACkoPnfjjY,0` | D5 | subhead accent "A Short Guide to" (page 1 only) | normal | no | Lighter-weight serif, distinct from the bold headline serif — GUESS |
 
 No read-design calls failed or truncated; all pages of all 5 designs returned full structured `design_content`.
+
+---
+
+## DESIGN 6 — DAHUEETAQQs "Brown and Beige Local Cafe City Guide Carousel" (5 pages, 1080×1350) — read 2026-09-02
+Font F1 = `YAFcfq7XuZE,0` (the D1/D4 serif; here the headline body letters, italic connector, "Try this" labels). Font F2 = `YAEz2L9phwY,0` (D2's heavy sans; here ONLY the giant initial letters on the cover). Font F3 = `YAFdJiLU_Ko,0` (body sentence + place name, LS -0.044, lh .98). Font F4 = `YAEblDjyZs8,0` (eyebrow "the city guide", LS -0.071). All text #ffffff. **No gradient/wash element on any page** — the templates' photos are dark enough on their own; a wash is ours to add.
+
+### Page 1 — Cover: the "big initial" move
+Each headline word is split into a giant sans initial (px287.6, end-aligned, lh .81, LS -0.071) and the rest of the word in serif (px211.9, start-aligned) overlapping at the baseline. Two rows:
+| piece | text | px | L px | T px | W px | font |
+|---|---|---|---|---|---|---|
+| row1 initial | "f" | 287.6 | 128.8 | 50.2 | 287 | F2 |
+| row1 rest | "avorite" | 211.9 | 443.8 | 95.5 | 467 | F1 |
+| row2 initial | "l" | 287.6 | 30.3 | 234.8 | 221 | F2 |
+| row2 rest | "ocal" | 211.9 | 279.8 | 280.1 | 320 | F1 |
+| row2 initial 2 | "c" | 287.6 | 545.7 | 234.8 | 218 | F2 |
+| row2 rest 2 | "afe" | 211.9 | 791.3 | 280.1 | 258 | F1 |
+| eyebrow | "the city guide" | 58.9 | 293.2 (center, W493.5) | 717.5 | 493 | F4 |
+| body | "Cozy corners, perfect brews…" | 40 | 130.6 (center, W818.7) | 1155.2 | 819 | F3, lh .98 |
+Background photo imageBox top −283 H1916 (bleeds far past the top). Serif letters in this face run ~0.31em/char (467px for 7 chars at 212px); Playfair runs ~0.5em/char, so the same words fit at ~0.76× the size.
+
+### Pages 2–4 — "Try this" spot pages (identical geometry, content varies)
+| role | text | px | L% | T% | W% | align | font |
+|---|---|---|---|---|---|---|---|
+| brandmark | small recolored icon | — | 10.0 | 8.0 | 4.8 | — | — |
+| place name | "Borcelle Cafe" | 40 semibold | 16.3 | 8.7 | 23.6 | start | F3 |
+| eyebrow | "the city guide" | 45.3 | 52.9 | 8.7 | 37.1 | end | F4 |
+| detail block | "*Try this*: Almond croissant + flat white ⏎ *Price Range*: $5 - $25" (labels italic) | 40.06 | 10.0 | 26.3 | 46.0 | start | F1 |
+| headline | "*The* ⏎ Cozy Classic" (connector italic, same size) | 211.9 | 18.3 (pg2) · 15.5 (pg3) · 4.7 (pg4) | 46.2 (pg2) · 50.0 (pg3, pg4) | 71.7 · 74.5 · 85.3 | end | F1, lh .81 |
+| body | one sentence | 34.7 | 24.0 | 78.8 (pg2) · 81.4 (pg3, pg4) | 66.0 | end | F3, lh .98 |
+
+### Page 5 — Close
+headline "*Follow* ⏎ For More" px211.9 center L16.5 T8.0 W67.1 → question line italic px40 center L24.3 T55.8 W51.4 ("What's your go-to local café? … Tag them below") → eyebrow "the city guide" px45.3 center L31.4 T88.0. Background photo panned (imageBox left −942, W2022). No photos panels.
+
+### What D6 adds to the shared grammar
+- **Big-initial headline**: a word split into a giant sans initial + serif remainder, overlapped at the baseline; the one grammar where two type families share a word.
+- **"Try this / Price Range" detail block**: a two-line italic-label spec block at L10% T26% — the natural slot for "beds / baths / lot" or "sold / days on market" on a real-estate page.
+- **End-aligned headline + end-aligned body in the lower half** (T46–92%) with the identity row (place name + eyebrow) at T8.7%: the mirror of D1's centered stack.
+- Confirms the shared constants: L10% gutter (108px), identity row at T8–9%, body 35–40px, headline ~212px in a condensed serif.
