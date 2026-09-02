@@ -214,5 +214,48 @@ def takes():
            OUT / "take-B-cover-stack.png")
 
 
+# ------------------------------------------------------------------ exact-geometry cover (Design 1, page 1, numbers from CANVA-GRAMMAR.md)
+PH = HERE / "photos" / "jen"
+
+
+def cover_exact(src, eyebrow, line_italic, line_upright, subline, handle="@_jiing", pos="50% 50%", scale=1.0, fill=None, size=166):
+    """D1 cover, nothing moved: masthead L5.6% T7.2% · headline L5.3% T16.6% W73% (166px, lh .75, italic first clause)
+    · subline L5.3% T38.4% W55% (26px) · badge L5.3% T48% · pill L53% T20.4% · stripe T92% rot 7° · wash 4-stop over top 71%."""
+    size = fit(f"{line_italic}<br>{line_upright}", size, usable=int(W * 0.733))
+    if fill:  # extend the studio backdrop: a blurred copy of the photo fills the frame, the sharp photo sits small on top, edges feathered
+        uri = pathlib.Path(src).resolve().as_uri()
+        img = (f'<div class="abs" style="inset:0;background:{fill}"></div>'
+               f'<img src="{uri}" class="abs" style="left:-60px;top:-60px;width:{W+120}px;height:{H+120}px;object-fit:cover;object-position:{pos};filter:blur(48px) brightness(.92)">'
+               f'<img src="{uri}" class="abs" style="left:0;top:0;width:{W}px;height:{H}px;object-fit:contain;object-position:{pos};transform:scale({scale});transform-origin:{pos};'
+               f'-webkit-mask-image:linear-gradient(90deg, transparent 0%, #000 18%, #000 100%), linear-gradient(180deg, transparent 0%, #000 22%, #000 100%);-webkit-mask-composite:source-in;mask-composite:intersect">')
+    else:
+        img = photo(src, pos, scale)
+    return f'''<div class="page">{img}
+<div class="abs" style="left:0;top:0;width:{W}px;height:{int(H*0.711)}px;background:linear-gradient(180deg, rgba({WASH},.60) 0%, rgba({WASH},.55) 33%, rgba({WASH},.55) 66%, rgba({WASH},0) 100%)"></div>
+<div class="abs" style="left:{int(W*0.056)}px;top:{int(H*0.072)}px;{SANS}font-weight:400;font-size:24px;line-height:1.4;letter-spacing:-.02em;color:{WHITE}">{eyebrow}</div>
+<div class="abs grad" style="left:{int(W*0.053)}px;top:{int(H*0.166)}px;width:{int(W*0.733)}px;{SERIF}font-size:{size}px;line-height:.8;letter-spacing:-.02em"><span style="font-style:italic">{line_italic}</span><br>{line_upright}</div>
+<div class="abs" style="left:{int(W*0.053)}px;top:{int(H*0.384)}px;width:{int(W*0.554)}px;{SANS}font-weight:300;font-size:26px;line-height:1.4;color:{WHITE}">{subline}</div>
+{sparkle(int(W*0.053), int(H*0.48), 40)}
+{pill(handle, int(W*0.531), int(H*0.204))}
+<div class="abs" style="left:{int(W*0.271)}px;top:{int(H*0.919)}px;width:{int(W*0.648)}px;height:3px;background:{CREAM};opacity:.9;transform:rotate(6.94deg)"></div>
+<div class="abs caps" style="left:{int(W*0.053)}px;top:{int(H*0.888)}px;font-size:18px;opacity:.9">the valley &#183; a series</div>
+</div>'''
+
+
+def variations():
+    eyebrow = "The Valley &#183; Tarzana<br>Edition 01"
+    sub = "three homes, one price, the coffee line on ventura at 7am, and the street i&#8217;d go see first. buying or selling."
+    # V1 · the kitchen: people small in the lower half, headroom above for the type (closest to the template's own composition)
+    render(cover_exact(PH / "jen-client-kitchen-sold.jpg", eyebrow, "$869K", "in Tarzana.", sub, pos="42% 100%"),
+           OUT / "cover-v1-kitchen.png")
+    # V2 · the studio headshot, background extended, Jen bottom-right and small, where the template puts its subject
+    render(cover_exact(PH / "jen-headshot-studio.jpg", eyebrow, "$869K", "in Tarzana.", sub, pos="100% 100%", scale=0.78, fill="#8d8878"),
+           OUT / "cover-v2-headshot.png")
+    # V3 · the place, no person: the pool through the door, type over the wall
+    render(cover_exact(PH / "listing-home-gym-pool.jpg", eyebrow, "$869K", "in Tarzana.", sub, pos="35% 50%"),
+           OUT / "cover-v3-place.png")
+
+
 if __name__ == "__main__":
-    takes() if (len(sys.argv) < 2 or sys.argv[1] == "takes") else None
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "takes"
+    {"takes": takes, "variations": variations}[cmd]()
