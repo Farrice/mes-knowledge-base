@@ -1,9 +1,9 @@
 # ICP — Supplement / Performance Brand Buyer
 
-*Populated 2026-09-02 from `_active/linkedin/01-research/ICP-BATTLE-CARD.md` (2026-07-28, fresh wins on conflict) and `MARKET-ICP-DOSSIER-2026-06.md`. Sourcing key: [V] verified, [L] likely. Internal-monologue quotes are representative composites, not attributed to a named person.*
+*Populated 2026-09-02 from `_active/linkedin/01-research/ICP-BATTLE-CARD.md` (2026-07-28, fresh wins on conflict), `MARKET-ICP-DOSSIER-2026-06.md`, and the 2026-08 refinements in `04-deliverables/context-os/08-PMF-LINKEDIN-SIGNAL-LANE.md` and `premium-minimal/package/01-BRAND-FOUNDATION.md`. Sourcing key: [V] verified, [L] likely. Internal-monologue quotes are representative composites, not attributed to a named person. Flagged for the interview pass: the dossier's two avatars were written for the June GEO wedge; the buyer shape below is current, the avatar interiors may need a refresh under the creative-strategist route.*
 
 ## Who buys
-Growth-stage DTC supplement / wellness / performance brand, $1M–$50M revenue, founder-led voice or one drowning marketing lead, no senior creative-strategy seat. They have a dated occasion inside 60–90 days: launch, retail push, reformulation, new ingredient, repositioning.
+Established supplement, recovery, functional-nutrition, or performance brand, roughly $1M–$50M revenue, founder-led voice or one drowning marketing lead, no senior creative-strategy seat. Already selling, already running ads (Meta for the Control-Beater), with approved evidence and a team or agency ready to produce. They have a dated occasion inside 60–90 days: launch, retail push, reformulation, new ingredient, repositioning, or a creative cycle where the control is dying.
 
 | Brand size | Who signs | Door |
 |---|---|---|
