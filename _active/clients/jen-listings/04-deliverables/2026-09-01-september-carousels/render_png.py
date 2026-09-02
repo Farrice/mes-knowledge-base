@@ -16,6 +16,7 @@ ORDER = [("Main", "c1-01")] + [(f"C1S{i}", f"c1-0{i}") for i in range(2, 8)] \
     + [(f"DI{i}", f"insurance-0{i}") for i in range(1, 8)] \
     + [(f"S{i}", f"deck-{i:02d}") for i in range(1, 17)] + [("DM", "deck-17-dm-reply")] \
     + [(f"T{i}", f"topic-0{i}") for i in range(1, 6)] \
+    + [(f"PH{i}", f"photo-0{i}") for i in range(1, 4)] \
     + [("P0", "present-00-cover"), ("P1", "present-01-agenda"), ("R1", "present-reel-1"), ("R2", "present-reel-2"),
        ("R3", "present-reel-3"), ("R4", "present-reel-4"), ("P5", "present-05-your-words"),
        ("P2", "present-02-filming"), ("P3", "present-03-rulebook"), ("P4", "present-04-photos")]
