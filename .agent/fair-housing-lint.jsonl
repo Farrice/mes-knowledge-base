@@ -5,3 +5,4 @@
 {"ts": "2026-08-29T16:36:22Z", "file": "/tmp/slide-copy.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-08-29T16:45:36Z", "file": "/tmp/slide-copy-v2.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-09-01T14:10:30Z", "file": "_active/clients/jen-team-pilot/COWORK-CREATIVE-BRIEF.md", "verdict": "FAIL", "findings": [{"rule": "safety-code-words", "severity": "fail", "match": "low-crime", "line_no": 90, "why": "'Safe'/'low crime' is documented code language for racial steering \u2014 HARD ban regardless of intent.", "fix_hint": "Cut it. Point to verifiable location facts (cul-de-sac, gated entry as a feature, HOA) if relevant."}]}
+{"ts": "2026-09-02T17:37:46Z", "file": "_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md", "verdict": "PASS", "findings": []}

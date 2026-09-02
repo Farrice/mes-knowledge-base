@@ -37,6 +37,7 @@ Specific cues:
 | Educational content (no specific listing) | `workflows/02-buyer-education-story.md` |
 | SFV neighborhood content | `workflows/03-neighborhood-deep-dive-carousel.md` |
 | Stuck account, broad local hook, or FTHB comfort content | `skills/alyssa-stalker-agent-content-playbook/` (03 hook-reframe, 04 comfort-content-engine) |
+| Funnel math, monthly read, Connect district amendments | `_active/clients/jen-listings/06-system/FUNNEL-MATH.md` · `06-system/2026-09-02-engine-v2-amendments-from-outlier-audit.md` · weekly `python3 execution/jen_pulse.py` |
 | Voice deep dive | `skills/jen-santulan-listing-content/genius.md` |
 | ICP details | `strategy_briefs/Strategy_Brief_First_Time_Home_Buyers_in_SoCal.md` |
 
