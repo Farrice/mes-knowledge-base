@@ -36,4 +36,4 @@ def build(name, stems):
 build("jen-condo-carousel", [f"DD{i}" for i in range(1, 8)])
 build("jen-rail-carousel", [f"DR{i}" for i in range(1, 8)])
 build("jen-insurance-carousel", [f"DI{i}" for i in range(1, 8)])
-build("jen-september-presentation", [f"S{i}" for i in range(1, 8)] + ["DM"])
+build("jen-september-presentation", [f"S{i}" for i in range(1, 17)] + ["DM"])

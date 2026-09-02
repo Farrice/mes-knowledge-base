@@ -281,6 +281,96 @@
       "subtitle": ""
     },
     {
+      "name": "presentation \u00b7 board 8",
+      "path": "deck/presentation-08.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 9",
+      "path": "deck/presentation-09.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 10",
+      "path": "deck/presentation-10.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 11",
+      "path": "deck/presentation-11.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 12",
+      "path": "deck/presentation-12.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 13",
+      "path": "deck/presentation-13.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 14",
+      "path": "deck/presentation-14.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 15",
+      "path": "deck/presentation-15.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 16",
+      "path": "deck/presentation-16.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
       "name": "the saved DM reply",
       "path": "deck/saved-dm-reply.html",
       "group": "Presentation",

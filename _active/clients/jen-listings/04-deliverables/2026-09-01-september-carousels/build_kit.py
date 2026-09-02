@@ -29,11 +29,11 @@ for key, prefix in (("condo", "dir-d"), ("rail", "rail"), ("insurance", "insuran
         src = HERE / "png" / f"{prefix}-{i:02d}.png"
         if src.exists():
             shutil.copy(src, KIT / "reference" / "carousels" / f"{key}-{i:02d}.png")
-for i in range(1, 11):
+for i in range(1, 17):
     src = HERE / "png" / f"deck-{i:02d}.png"
     if src.exists():
         shutil.copy(src, KIT / "reference" / "presentation" / f"board-{i:02d}.png")
-shutil.copy(HERE / "png" / "deck-11-dm-reply.png", KIT / "reference" / "presentation" / "saved-dm-reply.png")
+shutil.copy(HERE / "png" / "deck-17-dm-reply.png", KIT / "reference" / "presentation" / "saved-dm-reply.png")
 
 # vector pdfs (canva-ready, also fine as claude design attachments)
 for p in (HERE / "canva").glob("*.pdf"):

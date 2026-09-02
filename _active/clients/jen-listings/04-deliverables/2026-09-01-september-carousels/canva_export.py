@@ -42,5 +42,5 @@ build("jen-september-carousels.html",
       [(f"DD{i}", f"condo · {i}") for i in range(1, 8)] + [(f"DR{i}", f"rail · {i}") for i in range(1, 8)] + [(f"DI{i}", f"insurance · {i}") for i in range(1, 8)],
       "Jen · September carousels")
 build("jen-presentation.html",
-      [(f"S{i}", f"presentation · {i}") for i in range(1, 8)] + [("DM", "saved DM reply")],
+      [(f"S{i}", f"presentation · {i}") for i in range(1, 17)] + [("DM", "saved DM reply")],
       "Jen · September presentation")

@@ -48,8 +48,8 @@ SETS = [("condo", "DD", "the condo has to qualify too · van nuys 91401"),
 for key, stem, title in SETS:
     for i in range(1, 8):
         emit(f"templates/{key}-0{i}.html", f"Templates · {key}", f"{title} · slide {i}", body_of(f"{stem}{i}"))
-for i in range(1, 8):
-    emit(f"deck/presentation-0{i}.html", "Presentation", f"presentation · board {i}", body_of(f"S{i}"))
+for i in range(1, 17):
+    emit(f"deck/presentation-{i:02d}.html", "Presentation", f"presentation · board {i}", body_of(f"S{i}"))
 emit("deck/saved-dm-reply.html", "Presentation", "the saved DM reply", body_of("DM"))
 emit("deck/in-your-words.html", "Presentation", "in your words", body_of("P5"), h=3400)
 emit("deck/rulebook.html", "Presentation", "the rulebook", body_of("P3"), h=4400)

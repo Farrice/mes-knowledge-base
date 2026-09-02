@@ -107,7 +107,7 @@ components:
     background: "#F7F5F2"
   masthead:
     left: "@_JIING"
-    right: "FIRST-TIME BUYER FILE"
+    right: "THE VALLEY FILE"
     rule: "#E0DBD2"
   stamp:
     mark: roundel-ridge-over-boulevard

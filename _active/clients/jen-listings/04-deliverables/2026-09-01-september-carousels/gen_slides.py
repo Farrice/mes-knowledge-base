@@ -41,7 +41,7 @@ def mast(dark=False):
     return f'''  <div style="display: flex; flex-direction: column; gap: 26px;">
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <span style="font-size: 28px; font-weight: 500; letter-spacing: 0.24em; color: {ink};">@_JIING</span>
-      <span style="font-size: 25px; letter-spacing: 0.24em; color: {dim};">FIRST-TIME BUYER FILE</span>
+      <span style="font-size: 25px; letter-spacing: 0.24em; color: {dim};">THE VALLEY FILE</span>
     </div>
     <div style="height: 1px; background: {rule};"></div>
   </div>'''
