@@ -56,6 +56,11 @@ from generate_slash_commands import extract_description, family_for  # noqa: E40
 
 INDEX_PATH = ROOT / ".agent" / "arsenal-index.json"
 SKILLS_DIR = ROOT / "skills"
+# Vendored third-party skill systems (Simon Scrapes Skill Systems, installed
+# 2026-09-02 via @scrapes/installer). Claude Code exposes .claude/skills/<name>
+# natively as /<name>; Codex sees them through .agents/skills/<name> symlinks.
+# Indexed here so /arsenal and the router hook surface them next to skills/.
+VENDOR_SKILLS_DIR = ROOT / ".claude" / "skills"
 AGENTS_DIR = ROOT / "agents"
 WF_DIR = ROOT / ".agent" / "workflows"
 CMD_DIR = ROOT / ".claude" / "commands"
@@ -266,6 +271,41 @@ def _skill_entries(cmd_stems, fired) -> List[Dict[str, Any]]:
     return out
 
 
+def _vendor_skill_entries(fired) -> List[Dict[str, Any]]:
+    """Third-party skills under .claude/skills/ (Scrapes Skill Systems etc.).
+
+    Always menu-reachable: Claude Code mounts .claude/skills/<name> as /<name>
+    with no wrapper needed. Symlinks back into .agents/skills are skipped so
+    the Pocock suite never double-indexes.
+    """
+    out: List[Dict[str, Any]] = []
+    if not VENDOR_SKILLS_DIR.is_dir():
+        return out
+    for sm in sorted(VENDOR_SKILLS_DIR.glob("*/SKILL.md")):
+        skill = sm.parent.name
+        if sm.parent.is_symlink():
+            continue
+        head = _read_text(sm)[:600]
+        if re.search(r"^\s*status\s*:\s*archived\b", head, re.I | re.M):
+            continue
+        out.append({
+            "id": f"vendor:{skill}",
+            "kind": "skill",
+            "skill": skill,
+            "path": str(sm.relative_to(ROOT)),
+            "description": _describe(sm),
+            "menu_status": REACHABLE,
+            "front_door": f"/{skill}",
+            "has_prompts_v2": False,
+            "family": "scrapes-skill-systems",
+            "workflow_count": 0,
+            "vendor": "scrapes",
+            "last_fired": fired.get(skill),
+            "mtime": sm.stat().st_mtime,
+        })
+    return out
+
+
 def _agent_entries(cmd_stems, fired) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for am in sorted(AGENTS_DIR.glob("*/AGENT.md")):
@@ -298,6 +338,7 @@ def build_index() -> Dict[str, Any]:
     entries += _command_workflow_entries(cmd_stems, fired)
     entries += _skill_entries(cmd_stems, fired)
     entries += _agent_entries(cmd_stems, fired)
+    entries += _vendor_skill_entries(fired)
     return {"schema_version": SCHEMA_VERSION, "entries": entries}
 
 
@@ -310,6 +351,7 @@ def _sources_fingerprint() -> tuple:
     """
     paths = (list(SKILLS_DIR.glob("*/workflows/*.md")) + list(WF_DIR.glob("*.md"))
              + list(SKILLS_DIR.glob("*/SKILL.md")) + list(AGENTS_DIR.glob("*/AGENT.md"))
+             + list(VENDOR_SKILLS_DIR.glob("*/SKILL.md"))
              + list(CMD_DIR.glob("*.md")))
     newest = 0.0
     for p in paths:

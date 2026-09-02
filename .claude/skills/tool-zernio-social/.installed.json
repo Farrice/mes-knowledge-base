@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "installed_at": "2026-09-02T21:05:08.689Z",
+  "installer_version": "3.1.0",
+  "files": {
+    "CHANGELOG.md": "sha256:4ca5818b82301cb615a98a76ee18a6456546687ed72abdee78f51bd0ac4fea9c",
+    "SKILL.md": "sha256:bb623b16eb39e248f29bd651b506d0cbbaaf285557f38236ba272155f11ee5fc",
+    "references/api-examples.md": "sha256:52f301a4a6678cb863f9cf805405504ecfa9de337b87bbdd0945cf462630e3af",
+    "skill-pack/config/sys-config.md": "sha256:62821aeb1c343b6de6fdfa642ca8da159ad2e792f1b77d293ceca792b91ad1b6"
+  }
+}
