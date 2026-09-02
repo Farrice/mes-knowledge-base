@@ -78,3 +78,4 @@
 {"timestamp": "2026-08-28T19:20:10.948398", "workflow": "extract-forge", "skill": "matt-haig-reader-bridge", "expert": "matt-haig", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-29T08:18:07.750216", "workflow": "extract-forge", "skill": "skills/mike-sherrard-realtor-branding", "expert": "mike-sherrard", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-29T09:34:07.452332", "workflow": "avatar-manifold", "skill": "luke-iha-avatar-machine", "expert": "luke-iha-avatar-machine", "task_type": "Strategy", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-09-02T09:56:38.365067", "workflow": "extract-forge", "skill": "alyssa-stalker-agent-content-playbook", "expert": "alyssa-stalker", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

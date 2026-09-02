@@ -19,6 +19,7 @@
 | `alex-suzuki` | **Alex Suzuki** | comment/like-to-dm funnel, digital product x launch funnel, info product sales post / hook bank, sell ebook with one tweet |
 | `alex-suzuki-revenue-architect` | **alex-suzuki-revenue-architect** | automation, cold-start partner/affiliate, comment/like-to-dm funnels, digital products, launch systems, multi-account scaling, offer proof, x/twitter sales posts |
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
+| `alyssa-stalker` | **Alyssa Stalker** | agent content strategist (2026 playbook) |
 | `andrew-dun` | **Andrew Dun** | agent profile, ai consulting delivery + business process diagnosis + roi quantification |
 | `andrew-lane` | **andrew-lane** | ai-powered brand design systems, ai-powered design systems, branding strategy for founders, business/branding decision separation, layered asset architecture, mood-board-driven direction finding, vibe-first brand foundations, visual brand identity, written brand guidelines engineering |
 | `andrew-sean-greer` | **Andrew Sean Greer** | latent story reality and oddity-preserving revision |
