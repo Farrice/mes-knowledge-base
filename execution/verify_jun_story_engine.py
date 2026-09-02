@@ -189,7 +189,7 @@ def main() -> int:
     )
     require_tokens(
         "skills/jun-yuh-creator-vision/SKILL.md",
-        ("workflows: 18", "Story Material Miner", "Jun Story Engine", "Pursuit-to-Offer Miner", "Story Angle Expander"),
+        ("workflows: 24", "Story Material Miner", "Jun Story Engine", "Pursuit-to-Offer Miner", "Story Angle Expander"),
         failures,
     )
     require_tokens(

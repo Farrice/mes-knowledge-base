@@ -11,6 +11,7 @@ Ground-truth sources for this skill, verified by direct file read (not by infere
 | `extractions/Jun Yuh/validation-output.md` | 2,856 bytes | MES 3.0 validation pass (taste checks) for the above report |
 | `extractions/jun-yuh/transcript.txt` | 16,178 bytes | Second, separate raw transcript (live talk/workshop format — includes an audience call-and-response, "I am the niche"); source of the Psychographic Targeting Protocol, Anti-Guru Positioning, Triple-P Multi-Origin, and Permutation Engine material not present in the first extraction |
 | `extractions/video-context/XS-E6rnCr5U/` | 4,083 normalized caption segments; 28,477 clean words | Verified transcript-only source package for *How To Become a Master Storyteller [FREE COURSE]*. Includes provenance ledger, uncertainty report, deep extraction, architecture, and skill-system contract. No frames/OCR were used because the source exceeds the forge visual-duration cap. |
+| `extractions/video-context/6r-HF9K030A/` | 2,000 caption segments plus 12 inspected transcript-cued frames | Verified package for *How To Sell Absolutely Anything Online [FREE COURSE]*. Grounds identification/trust/belief, service/product/coach adapters, Pursuit-to-method recovery, story-led CTA, angle expansion, and Payoff-to-Problem continuity. Jun's commercial results remain source-reported. |
 
 Neither transcript embeds a publish date, episode number, or URL — this is a known gap, not an omission on this pass. No date claim is made anywhere in this skill's anti-pattern anchors; anchors use file + verbatim quote instead.
 
@@ -42,6 +43,12 @@ Neither transcript embeds a publish date, episode number, or URL — this is a k
 | AI should help find a lived story, not write one from nothing | VERIFIED | Same package, 01:24:19-01:24:34; implemented as interviewer-not-biographer behavior |
 | Privacy boundary: center teller-owned evolution without exposing the triggering event or third party | VERIFIED | Same package, 02:05:47-02:06:40 and 02:17:14-02:18:50 |
 | Six named 3P social-format placements | VERIFIED as Jun's demonstrated format set | Same package, 00:46:10-01:02:20. The formats are optional wrappers; their effectiveness outside the source examples is UNTESTED. |
+| Story-led CTA after the narrative | VERIFIED | `extractions/video-context/6r-HF9K030A/transcript.txt`, 00:15:06-00:15:13; a CTA can follow story content, but conversion remains unproven until observed. |
+| Story creates identification, trust, and belief | VERIFIED | Same package, 00:23:13-00:23:32; implemented as distinct content jobs and measurement hypotheses, not guaranteed effects. |
+| Service, physical-product, coach, founder, and education story adapters | VERIFIED as source example classes | Same package, approximately 00:24:00-00:41:00. Each adapter preserves its own claim and proof boundary. |
+| Story-led masterclass section architecture | SYSTEM-SYNTHESIS | `XS-E6rnCr5U`, approximately 01:05:00-02:10:00. The source demonstrates teaching-to-offer sequencing; the reusable run-of-show does not inherit Jun's price, guarantee, urgency, bonuses, or results. |
+| Promise as a fourth Jun P | REJECTED ATTRIBUTION | Neither masterclass establishes `Promise` as Jun's fourth P. `Problem → Pursuit → Payoff` is the source formula; any Promise is labeled downstream system synthesis. |
+| Story content produces ROI | UNTESTED | Source-reported examples do not prove general causality. The system separates attention, recognition, intent, sale, collected revenue, and ROI eligibility. |
 
 ## Anti-Pattern Anchors (see `genius.md` → Anti-Patterns)
 
