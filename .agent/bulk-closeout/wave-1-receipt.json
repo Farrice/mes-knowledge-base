@@ -1,0 +1,120 @@
+{
+  "schema_version": "bulk-closeout-wave-receipt/v1",
+  "wave": 1,
+  "status": "complete-with-blocked-items",
+  "selected": 8,
+  "results": {
+    "ready": 2,
+    "blocked": 6,
+    "done": 0,
+    "archived": 0
+  },
+  "native_actions": {
+    "renamed": 0,
+    "pinned": 0,
+    "archived": 0,
+    "unpinned": 0
+  },
+  "git_actions": {
+    "main_merges": 0,
+    "main_pushes": 0,
+    "branch_pushes": 0,
+    "deletions": 0,
+    "global_writes_by_child_tasks": 0
+  },
+  "coordination_actions": {
+    "initial_closeout_messages": 8,
+    "timebox_messages": 2,
+    "compact_receipt_requests": 4
+  },
+  "tasks": [
+    {
+      "task_id": "01a05697-7122-7e83-a623-563e08dc5302",
+      "branch": "codex/personal-brand-direction-diagnostic",
+      "status": "ready",
+      "main_relation": "86 behind, 3 ahead",
+      "dirty_count_after_closeout": 0,
+      "handoff": ".agent/handoffs/2026-08-31-personal-brand-creative-direction.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Human A/B/C direction choice, then audited integration",
+      "archive": false
+    },
+    {
+      "task_id": "019fe1b9-2507-7e73-b462-da4f90aee3e3",
+      "branch": "codex/systems-thinking-global-shadow",
+      "status": "ready",
+      "main_relation": "two unique commits; clean conflict simulation",
+      "dirty_count_after_closeout": 1,
+      "handoff": "verified exact named handoff",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Audited integration of the two unique commits",
+      "archive": false
+    },
+    {
+      "task_id": "019ff137-aafc-7502-8a26-65fa7ceb2836",
+      "branch": "claude/vigilant-leakey-5f6293",
+      "status": "blocked",
+      "main_relation": "381 behind, 3 ahead",
+      "dirty_count_after_closeout": 1506,
+      "handoff": "2026-09-01-style-vault.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Resolve ownership of 1506 dirty paths and reconcile three commits",
+      "archive": false
+    },
+    {
+      "task_id": "019ff930-3f9f-7230-9ccf-ae9225e8b4ae",
+      "branch": "codex/zero-momentum-offer",
+      "status": "blocked",
+      "main_relation": "378 behind, 1 ahead",
+      "dirty_count_after_closeout": 4,
+      "handoff": "2026-09-01-first-client-engine.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Decide whether the offer remains live before integration",
+      "archive": false
+    },
+    {
+      "task_id": "01a04c53-2a74-7363-ae72-c1e4f58908af",
+      "branch": "codex/linkedin-800k-os",
+      "status": "blocked",
+      "main_relation": "234 behind, 5 ahead",
+      "dirty_count_after_closeout": 14,
+      "handoff": ".agent/handoffs/2026-09-01-linkedin-800k-os.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Human taste review and clean reconciliation",
+      "archive": false
+    },
+    {
+      "task_id": "01a05857-6b35-7342-be20-6b3053a8184f",
+      "branch": "codex/joanna-brand-voice-moat",
+      "status": "blocked",
+      "main_relation": "86 behind, 7 ahead",
+      "dirty_count_after_closeout": 1,
+      "handoff": ".agent/handoffs/2026-09-01-joanna-brand-voice-moat.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Resolve shared-file overlaps and rerun four verifiers",
+      "archive": false
+    },
+    {
+      "task_id": "01a0599b-a3d8-7101-a6df-418dcac5dc1a",
+      "branch": "codex/marketing-engineering-service-recovery",
+      "status": "blocked",
+      "main_relation": "85 behind, 3 ahead",
+      "dirty_count_after_closeout": 9,
+      "handoff": ".agent/handoffs/2026-09-01-marketing-engineering-service-recovery.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Reconcile generated-index conflicts and dirty finalizer effects",
+      "archive": false
+    },
+    {
+      "task_id": "01a05900-82e9-7942-9f2e-127f6ce5fd44",
+      "branch": "codex/nicolas-cole-20m-course-lessons",
+      "status": "blocked",
+      "main_relation": "0 behind, 4 ahead",
+      "dirty_count_after_closeout": 1,
+      "handoff": ".agent/handoffs/2026-09-01-nicolas-cole-20m-course-lessons.md",
+      "handoff_verify": "PASS 8/8",
+      "remaining": "Explicit decision on branch publication or guarded integration",
+      "archive": false
+    }
+  ]
+}

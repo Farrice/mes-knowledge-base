@@ -35,6 +35,24 @@ operator. It stays silent when the spine already ran this session (detected
 via `session_ledger_hook.py`) or when the session was purely conversational
 (no artifacts produced).
 
+## Guarded Global Shorthand
+
+These exact phrases are deterministic lifecycle requests in Codex wherever the
+global End-session skill is available. They are thin entry points into this
+workflow, not a second closeout system:
+
+| Phrase | Meaning | Hard boundary |
+|---|---|---|
+| `close ready` | Run the canonical closeout and request `ready` status. | Never archive, merge main, or treat readiness as integration. |
+| `close done` | Run the canonical closeout and test whether `done` is proven. | Archive only when the coordinator receipt sets `task_actions.archive` true; otherwise fail closed to `ready`, `blocked`, or `mid-build`. |
+| `bulk closeout audit` | Build the task-to-lane evidence map. | Read-only: no messages, commits, merges, pushes, archives, unpins, deletions, or global writes. |
+
+Bare `ready` and `done` remain ordinary status words, never commands. A bulk
+audit may prepare an eight-task wave, but dispatch is a separate explicit
+action. Use `python3 execution/bulk_closeout_control.py interpret "<phrase>"`
+for the deterministic intent packet and
+`python3 execution/bulk_closeout_control.py audit ...` for the local Git map.
+
 ## Insightful Momentum Closeout Requirement
 
 `/end-session` must not fall back to the old lightweight "Use Now / Harden /

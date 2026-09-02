@@ -622,6 +622,9 @@ END_SESSION_SIGNALS = (
     "session wrap",
     "handoff closeout",
     "handoff close-out",
+    "close ready",
+    "close done",
+    "bulk closeout audit",
 )
 
 END_SESSION_CONTEXT_TERMS = (

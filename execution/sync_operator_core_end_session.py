@@ -37,6 +37,10 @@ COMMON_REQUIREMENTS = (
     "real Codex subagents require explicit authorization",
     "thin compatibility wrapper",
     "no competing behavior contract",
+    "close ready",
+    "close done",
+    "bulk closeout audit",
+    "Bare `ready` and `done`",
 )
 
 PATH_REQUIREMENTS = {
@@ -57,6 +61,10 @@ PATH_REQUIREMENTS = {
         "Never auto-commit, auto-merge, or auto-push `main`",
         "Optional cleanup must be reviewed",
         "Real Codex subagents require explicit authorization",
+        "close ready",
+        "close done",
+        "bulk closeout audit",
+        "Bare `ready` and `done`",
     ),
     LOCAL_WRAPPER: COMMON_REQUIREMENTS
     + (
@@ -102,7 +110,7 @@ GLOBAL_AGENTS_BLOCK = f"""## Global End-Session Closeout
 
 Use the global `end-session` skill at `/Users/farricecain/.codex/skills/end-session/SKILL.md`
 when the user invokes `/end-session`, `source-command-end-session`, `end session`,
-`wrap this session`, `session closeout`, or asks to finish the current thread
+`wrap this session`, `session closeout`, `close ready`, `close done`, or asks to finish the current thread
 with whole-session closeout, retrieval handoff, and closeout intelligence capture.
 
 The canonical Antigravity End-session workflow is `{CANONICAL_PATH}`. Global
@@ -115,6 +123,8 @@ Default behavior: native task naming with `[Domain]: [Specific Object] - [Outcom
 -> closeout intelligence via
 `session_closeout_intelligence.py run --source end-session` ->
 `conversation_index.py stats` -> artifact organization checks when relevant.
+Meaningful closeouts also retain `Next-time prompt`, `Subagent worth it?`, and
+`Reuse hook` so the next task can restart from an explicit continuation surface.
 Treat `/handoff` as a focused transfer packet and `/steering-compass` as
 standalone next-prompt coaching. Pin unfinished tasks and archive only a verified
 `done` closeout. Automatic Git synchronization is limited to manifest-owned
@@ -122,11 +132,17 @@ paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or
 auto-push `main`. Optional cleanup needs review; never broadly delete or perform
 destructive cleanup without explicit approval.
 Real Codex subagents require explicit authorization.
+
+Guarded shorthand is global but thin: `close ready` requests a verified `ready`
+closeout and never archives; `close done` requests proof and archives only when
+the coordinator receipt sets `task_actions.archive` true; `bulk closeout audit`
+is read-only and dispatches nothing. Bare `ready` and `done` are status words,
+never commands. Google Antigravity remains the behavior source of truth.
 """
 
 GLOBAL_END_SESSION_TEXT = f"""---
 name: end-session
-description: Global thin compatibility wrapper for Antigravity End-session closeout; delegates to the canonical project workflow.
+description: Global thin compatibility wrapper for Antigravity End-session closeout. Triggers on /end-session, end session, close ready, close done, and bulk closeout audit; delegates safety behavior to the canonical project workflow.
 ---
 
 # End-session
@@ -138,7 +154,8 @@ The canonical End-session behavior source is:
 `{CANONICAL_PATH}`
 
 This global skill is a thin compatibility wrapper. It keeps `/end-session`,
-`end session`, and closeout language discoverable anywhere in Codex, but it must
+`end session`, `close ready`, `close done`, `bulk closeout audit`, and closeout
+language discoverable anywhere in Codex, but it must
 not maintain a competing behavior contract. When the Antigravity project
 workflow is available or relevant, read and follow that workflow first.
 
@@ -163,6 +180,16 @@ Preserve the current End-session contract:
 - optional cleanup needs review and no publish, push, broad deletion, or destructive cleanup without explicit approval
 - real Codex subagents require explicit authorization
 - this global skill stays a thin compatibility wrapper with no competing behavior contract
+
+## Guarded Global Shorthand
+
+- `close ready` runs the canonical closeout with requested status `ready`; it never archives or merges main.
+- `close done` is a verification request, not a declaration. Archive only when the coordinator receipt sets `task_actions.archive` true; otherwise fail closed to `ready`, `blocked`, or `mid-build`.
+- `bulk closeout audit` builds the task-to-lane map read-only and dispatches nothing.
+- Bare `ready` and `done` remain ordinary status words, never commands.
+
+When the project helper is available, use
+`python3 execution/bulk_closeout_control.py interpret "<phrase>"` before acting.
 
 ## Output Contract
 
@@ -210,6 +237,10 @@ archive only after verified `done`, automatic Git only in a dedicated `codex/*`
 worktree, Never auto-commit, auto-merge, or auto-push `main`, real Codex subagents require explicit
 authorization, and no competing behavior contract.
 
+Preserve the guarded shorthand: `close ready` never archives; `close done`
+requires coordinator and integration proof; `bulk closeout audit` is read-only;
+Bare `ready` and `done` are never commands.
+
 Route focused transfer packets to `/handoff` and standalone next-prompt coaching
 to `/steering-compass`; keep whole-session closeout on `/end-session`.
 """
@@ -234,6 +265,10 @@ This project wrapper follows `.agent/workflows/end-session.md` as the canonical 
 - Never auto-commit, auto-merge, or auto-push `main`
 - real Codex subagents require explicit authorization
 - no competing behavior contract
+- `close ready` never archives or merges main
+- `close done` requires integration proof and a coordinator archive receipt
+- `bulk closeout audit` is read-only and dispatches nothing
+- Bare `ready` and `done` are status words, never commands
 """
 
 WORKFLOW_ALIGNMENT_BLOCK = """## Operator Core Alignment
@@ -254,6 +289,9 @@ Preserve these invariants:
 - Automatic Git synchronization is limited to manifest-owned paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or auto-push `main`.
 - Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
 - Real Codex subagents require explicit authorization.
+- `close ready` never archives or merges main; `close done` requires integration
+  proof and a coordinator archive receipt; `bulk closeout audit` is read-only;
+  Bare `ready` and `done` are status words, never commands.
 """
 
 
@@ -286,6 +324,14 @@ def align_workflow(text: str) -> str:
 
 
 def align_local_wrapper(text: str) -> str:
+    if "## Operator Core Alignment" in text:
+        return re.sub(
+            r"## Operator Core Alignment\n.*?(?=\n## Command Template)",
+            LOCAL_ALIGNMENT_BLOCK.rstrip() + "\n\n",
+            text,
+            count=1,
+            flags=re.DOTALL,
+        )
     return ensure_block(text, LOCAL_ALIGNMENT_BLOCK, "## Command Template")
 
 
