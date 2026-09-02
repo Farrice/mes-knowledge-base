@@ -1,5 +1,7 @@
 # Amendments to ENGINE-V2 from the outlier audit and the Alyssa Stalker extraction (record, 2026-09-02)
 
+> **FOLDED 2026-09-02 (same evening), after both lanes merged into main.** ENGINE-V2 §4 (four jobs), §5 (format test), §8 (monthly rhythm), §10 (operator column), §11 (parity pointer), §13–15 (open items, vault, surface) now carry this content; `VAULT.md` exists. This file stays as the record of why.
+
 Operator only. `ENGINE-V2.md` is the living operating doc and lives in lane `worktree-jen-engine-v2-weeks`; this lane (`worktree-broke-agent-2026-playbook-forge`) cannot edit it. Fold these in when that lane merges. Each amendment names the section, the evidence, and the exact text to add. Nothing here changes the deal, the look, the realism gate, or the reply layer.
 
 ## Merge order

@@ -28,3 +28,13 @@ Every frame below is a placeholder from the cleared pool. When her shoots land i
 | week-of-2026-09-14 | 06-position-tarzana-median-sellers-1.png | `sfv-aerial-nara.jpg` | a drone frame over tarzana or the valley floor (folder 01) |
 | week-of-2026-09-14 | 06-position-tarzana-median-sellers-2.png | `valley-street-01.jpg` | a residential street from the drive (folder 02) |
 | week-of-2026-09-14 | 06-position-tarzana-median-sellers-3.png | `jen-frontdoor.jpg` | her at a front door (folder 03) |
+| week-of-2026-09-21 | 07-attract-900k-woodland-hills-vs-reseda.mp4 · beat 1 | `suburban-neighborhood-aerial-02.jpg` | a drone frame over the valley floor (folder 01) or a wide frame from the drive (02) |
+| week-of-2026-09-21 | 07-attract-900k-woodland-hills-vs-reseda.mp4 · beat 2 | `california-bungalow-00.jpg` | a small hillside exterior from any shoot (folder 01) |
+| week-of-2026-09-21 | 07-attract-900k-woodland-hills-vs-reseda.mp4 · beat 3 | `front-door-house-00.jpg` | a valley-floor front elevation from a listing shoot |
+| week-of-2026-09-21 | 07-attract-900k-woodland-hills-vs-reseda.mp4 · beat 4 | `valley-street-01.jpg` | a residential street from the drive (folder 02) |
+| week-of-2026-09-21 | 07-attract-900k-woodland-hills-vs-reseda.mp4 · beat 5 | `jen-porch-vannuys.jpg` | her at a front door (folder 03) |
+| week-of-2026-09-21 | 08-position-two-markets-one-street-1.png | `sfv-aerial-nara.jpg` | a drone frame over tarzana (folder 01) |
+| week-of-2026-09-21 | 08-position-two-markets-one-street-2.png | `valley-street-01.jpg` | a residential street from the drive (folder 02) |
+| week-of-2026-09-21 | 08-position-two-markets-one-street-3.png | `jen-porch-vannuys.jpg` | her, small, with sky above her (folder 03); type must not land on her face |
+| week-of-2026-09-21 | 09-connect-just-breathe-1.png | `palm-tree-sunset-city-02.jpg` | a valley sky at dusk from the drive (folder 02) or the Bothwell pool sky (01) |
+| week-of-2026-09-21 | 09-connect-just-breathe-2.png | `jen-porch-vannuys.jpg` | her, small, with sky above her (folder 03) |
