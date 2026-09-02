@@ -84,8 +84,8 @@ python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
 THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
 SLUG: extract-forge
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-04-extract-forge.md
 
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
@@ -99,7 +99,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **13 d**
+- DAYS ACTIVE: **14 d**
 
 ## momentum
 
@@ -124,7 +124,7 @@ Watch-to-embody honored: frames read incl. verbatim design prompt (frame_0083) a
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

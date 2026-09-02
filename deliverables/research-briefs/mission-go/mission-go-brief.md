@@ -52,8 +52,8 @@ python3 execution/pulse_actions.py kill go --reason "<one line>"
 THREAD: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
 SLUG: go
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-go/mission-go-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-go.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-go/mission-go-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-07-28-go.md
 
 RESUME HERE: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
 
@@ -85,7 +85,7 @@ Four /go missions in one arc, all verdict-good or pending; every check sabotage-
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

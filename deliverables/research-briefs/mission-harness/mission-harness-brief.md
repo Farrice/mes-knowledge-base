@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill harness --reason "<one line>"
 THREAD: Harness — Cockpit
 SLUG: harness
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-harness/mission-harness-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-20-harness.md
 
 RESUME HERE: Harness — Cockpit
 
@@ -58,7 +58,6 @@ RESUME HERE: Harness — Cockpit
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **-1 d**
 
 ## lifecycle
 
@@ -84,7 +83,7 @@ RESUME HERE: Harness — Cockpit
 _READ THE EDGES_
 The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

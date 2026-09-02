@@ -89,7 +89,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\nSHIPPED IN WINDOW:\n  - 2026-08-29 · Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-demand-carousel-system in mike-sherrard skill (demand research, e\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "note": "claude · codex"
         },
         {
-          "value": "13",
+          "value": "14",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -226,7 +226,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

@@ -9,6 +9,9 @@
 ## By use case
 
 | I want to… | Go to |
+| **Preserve operator intent across strategy, handoffs, and AI execution** | |
+| Keep a consequential premise intact without adding visible process everywhere | [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md) — recipient-specific, optional, non-blocking |
+| Verify that public content stays native and AI handoffs retain their boundaries | [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md) — `verify_signal_fidelity_minimal.py` |
 | **Build and choose a high-taste moodboard direction** | |
 | Turn a campaign, shoot, event, product, or other visual brief into three actual boards and a blind decision | [Mood-Board Orchestrator](2026-09-01-mood-board-orchestrator-repair.md) — `/mood-board` |
 | Turn brand discovery into three client-ready directions with proving-surface evidence | [Andrew Lane Design Systems](../.agent/workflows/andrew-lane-design-systems.md) — `/andrew-lane-design-systems` |
@@ -313,6 +316,7 @@
 
 ## Chronology
 
+- **2026-09-01 — [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md)** (operator-guide) — source-grounded co-creation insight reduced to a silent recipient-specific companion: public content remains native, human handoffs remain natural, AI agents receive a bounded execution capsule, and consequential strategy may receive a three-line decision spine. Integrated and verifier-backed; promotion and long-horizon impact remain parked / `NO EVENT`.
 - **2026-09-01 — [Mood-Board Orchestrator](2026-09-01-mood-board-orchestrator-repair.md)** (operator-guide) — repaired `/mood-board` into a reference-first conductor for three actual visual boards, one proving surface, blind choice, and winner-only downstream handoff; 8 positive routes, 4 rejection controls, and 101 assertions pass; human taste and revision-drift proof remain open.
 - **2026-09-01 — [Control-Beater Buyer Test](2026-09-01-control-beater-buyer-test.md)** (session-brief) — converted the revenue bottleneck from preparation into two manually sent, price-visible LinkedIn introductions while preserving the exact $500 pilot locks and truthful counters. Zero exact-offer exposures and zero buyer events remain; the next move is event classification, not an offer rewrite.
 - **2026-08-29 — [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md)** (operator-guide) — A-tier, Farrice-calibrated narrative-craft system from the 2026 Haig–Perell interview: protect the private signal, give feeling a concrete carrier, repair the highest causal layer, and stop before access costs charge. Eleven routes, seven born-v2 prompts, four-piece reference corpus, EVAL-066 human PASS, and a cold-safe verifier; market observation remains `NO EVENT`.

@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill proof-to-market --reason "<one line>"
 THREAD: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
 SLUG: proof-to-market
 STATUS: ready · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-18-proof-to-market.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-07-18-proof-to-market.md
 
 RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
 
@@ -75,7 +75,7 @@ RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (
 _READ THE EDGES_
 The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

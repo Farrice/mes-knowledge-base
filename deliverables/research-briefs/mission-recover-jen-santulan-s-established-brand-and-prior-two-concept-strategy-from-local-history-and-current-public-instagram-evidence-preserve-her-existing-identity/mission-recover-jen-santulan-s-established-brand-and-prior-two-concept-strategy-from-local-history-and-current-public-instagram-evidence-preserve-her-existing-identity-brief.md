@@ -42,7 +42,7 @@ python3 execution/pulse_actions.py kill recover-jen-santulan-s-established-brand
 THREAD: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity
 SLUG: recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity
 STATUS: — · STAGE: build
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md
 
 OPEN MISSION: Recover Jen Santulan's established brand and prior two-concept strategy from local history and current public Instagram evidence. Preserve her existing identity (serves: orphan)
 
@@ -59,6 +59,7 @@ FILES TOUCHED (5):
 ## by the numbers
 - FILES WRITTEN: **5**
 - SESSIONS: **3** (codex)
+- DAYS ACTIVE: **1 d**
 
 ## momentum
 
@@ -86,7 +87,7 @@ FILES TOUCHED (5):
 _READ THE EDGES_
 No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

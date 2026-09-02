@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\nSLUG: proof-to-market\nSTATUS: ready · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-18-proof-to-market.md\n\nRESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\nSLUG: proof-to-market\nSTATUS: ready · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-07-18-proof-to-market.md\n\nRESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -177,7 +177,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"
