@@ -1,0 +1,504 @@
+{
+  "assets": [
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 1",
+      "path": "templates/condo-01.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 2",
+      "path": "templates/condo-02.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 3",
+      "path": "templates/condo-03.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 4",
+      "path": "templates/condo-04.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 5",
+      "path": "templates/condo-05.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 6",
+      "path": "templates/condo-06.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 slide 7",
+      "path": "templates/condo-07.html",
+      "group": "Templates \u00b7 condo",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 1",
+      "path": "templates/rail-01.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 2",
+      "path": "templates/rail-02.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 3",
+      "path": "templates/rail-03.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 4",
+      "path": "templates/rail-04.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 5",
+      "path": "templates/rail-05.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 6",
+      "path": "templates/rail-06.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 slide 7",
+      "path": "templates/rail-07.html",
+      "group": "Templates \u00b7 rail",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 1",
+      "path": "templates/insurance-01.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 2",
+      "path": "templates/insurance-02.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 3",
+      "path": "templates/insurance-03.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 4",
+      "path": "templates/insurance-04.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 5",
+      "path": "templates/insurance-05.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 6",
+      "path": "templates/insurance-06.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 slide 7",
+      "path": "templates/insurance-07.html",
+      "group": "Templates \u00b7 insurance",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 1",
+      "path": "deck/presentation-01.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 2",
+      "path": "deck/presentation-02.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 3",
+      "path": "deck/presentation-03.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 4",
+      "path": "deck/presentation-04.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 5",
+      "path": "deck/presentation-05.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 6",
+      "path": "deck/presentation-06.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 7",
+      "path": "deck/presentation-07.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 8",
+      "path": "deck/presentation-08.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 9",
+      "path": "deck/presentation-09.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 10",
+      "path": "deck/presentation-10.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 11",
+      "path": "deck/presentation-11.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 12",
+      "path": "deck/presentation-12.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 13",
+      "path": "deck/presentation-13.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 14",
+      "path": "deck/presentation-14.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 15",
+      "path": "deck/presentation-15.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "presentation \u00b7 board 16",
+      "path": "deck/presentation-16.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the saved DM reply",
+      "path": "deck/saved-dm-reply.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 1350
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "in your words",
+      "path": "deck/in-your-words.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 3400
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the rulebook",
+      "path": "deck/rulebook.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 4400
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the photo bank",
+      "path": "deck/photo-bank.html",
+      "group": "Presentation",
+      "viewport": {
+        "width": 1080,
+        "height": 2600
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "masthead + stamp",
+      "path": "components/masthead-stamp.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 520
+      },
+      "subtitle": "cream and navy variants \u00b7 stamp rotates per neighborhood"
+    },
+    {
+      "name": "stamp \u00b7 neighborhoods",
+      "path": "components/stamp-variants.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 420
+      },
+      "subtitle": "line 1 rotates, line 2 never"
+    },
+    {
+      "name": "the four valley buildings",
+      "path": "components/facades.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 520
+      },
+      "subtitle": "stroke-only, 100\u00d7120 grid \u00b7 hatched = marked"
+    },
+    {
+      "name": "keyed-map glyphs",
+      "path": "components/glyphs.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 420
+      },
+      "subtitle": "one weight, navy, no fills"
+    },
+    {
+      "name": "map \u00b7 arrow \u00b7 ring \u00b7 pages \u00b7 mark",
+      "path": "components/line-art.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 480
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "the print",
+      "path": "components/print.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 560
+      },
+      "subtitle": "3px navy border, 14px mat, 1.5\u00b0 tilt, sign caption"
+    },
+    {
+      "name": "bars + panels",
+      "path": "components/bars-panels.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 620
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "markers \u00b7 eyebrow \u00b7 body",
+      "path": "components/markers-eyebrow-body.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 420
+      },
+      "subtitle": ""
+    },
+    {
+      "name": "footer",
+      "path": "components/footer.html",
+      "group": "Components",
+      "viewport": {
+        "width": 1080,
+        "height": 300
+      },
+      "subtitle": ""
+    }
+  ]
+}

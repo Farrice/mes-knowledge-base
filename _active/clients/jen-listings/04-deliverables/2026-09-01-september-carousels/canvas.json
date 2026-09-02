@@ -1,0 +1,467 @@
+{
+  "artboards": [
+    {
+      "file": "S1.dc.html",
+      "title": "presentation \u00b7 1",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S2.dc.html",
+      "title": "presentation \u00b7 2",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S3.dc.html",
+      "title": "presentation \u00b7 3",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S4.dc.html",
+      "title": "presentation \u00b7 4",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S5.dc.html",
+      "title": "presentation \u00b7 5",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S6.dc.html",
+      "title": "presentation \u00b7 6",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S7.dc.html",
+      "title": "presentation \u00b7 7",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S8.dc.html",
+      "title": "presentation \u00b7 8",
+      "x": 8260,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S9.dc.html",
+      "title": "presentation \u00b7 9",
+      "x": 9440,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S10.dc.html",
+      "title": "presentation \u00b7 10",
+      "x": 10620,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S11.dc.html",
+      "title": "presentation \u00b7 11",
+      "x": 11800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S12.dc.html",
+      "title": "presentation \u00b7 12",
+      "x": 12980,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S13.dc.html",
+      "title": "presentation \u00b7 13",
+      "x": 14160,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S14.dc.html",
+      "title": "presentation \u00b7 14",
+      "x": 15340,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S15.dc.html",
+      "title": "presentation \u00b7 15",
+      "x": 16520,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "S16.dc.html",
+      "title": "presentation \u00b7 16",
+      "x": 17700,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD1.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 1",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD2.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 2",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD3.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 3",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD4.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 4",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD5.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 5",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD6.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 6",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DD7.dc.html",
+      "title": "the condo has to qualify too \u00b7 van nuys 91401 \u00b7 7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR1.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 1",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR2.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 2",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR3.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 3",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR4.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 4",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR5.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 5",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR6.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 6",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DR7.dc.html",
+      "title": "the train down van nuys blvd \u00b7 van nuys 91401 \u00b7 7",
+      "x": 7080,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI1.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 1",
+      "x": 0,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI2.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 2",
+      "x": 1180,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI3.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 3",
+      "x": 2360,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI4.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 4",
+      "x": 3540,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI5.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 5",
+      "x": 4720,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI6.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 6",
+      "x": 5900,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "DI7.dc.html",
+      "title": "the insurance quote \u00b7 sherman oaks 91403 \u00b7 7",
+      "x": 7080,
+      "y": 4680,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "P5.dc.html",
+      "title": "in your words",
+      "x": 0,
+      "y": 6240,
+      "w": 1080,
+      "h": 3400,
+      "print": "flow"
+    },
+    {
+      "file": "DM.dc.html",
+      "title": "the saved DM reply",
+      "x": 1180,
+      "y": 6240,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "R1.dc.html",
+      "title": "reel 1 \u00b7 the condo has to qualify too",
+      "x": 2360,
+      "y": 6240,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R2.dc.html",
+      "title": "reel 2 \u00b7 van nuys is getting a train",
+      "x": 3540,
+      "y": 6240,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R3.dc.html",
+      "title": "reel 3 \u00b7 the insurance quote",
+      "x": 4720,
+      "y": 6240,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "R4.dc.html",
+      "title": "reel 4 \u00b7 just breathe (from your voice memo)",
+      "x": 5900,
+      "y": 6240,
+      "w": 1080,
+      "h": 3200,
+      "print": "flow"
+    },
+    {
+      "file": "P2.dc.html",
+      "title": "filming notes + don't say",
+      "x": 7080,
+      "y": 6240,
+      "w": 1080,
+      "h": 2200,
+      "print": "flow"
+    },
+    {
+      "file": "P3.dc.html",
+      "title": "the rulebook",
+      "x": 8260,
+      "y": 6240,
+      "w": 1080,
+      "h": 4400,
+      "print": "flow"
+    },
+    {
+      "file": "P4.dc.html",
+      "title": "the photo bank",
+      "x": 9440,
+      "y": 6240,
+      "w": 1080,
+      "h": 2600,
+      "print": "flow"
+    },
+    {
+      "file": "T1.dc.html",
+      "title": "voice memo topic \u00b7 1",
+      "x": 0,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T2.dc.html",
+      "title": "voice memo topic \u00b7 2",
+      "x": 1180,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T3.dc.html",
+      "title": "voice memo topic \u00b7 3",
+      "x": 2360,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T4.dc.html",
+      "title": "voice memo topic \u00b7 4",
+      "x": 3540,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "T5.dc.html",
+      "title": "voice memo topic \u00b7 5",
+      "x": 4720,
+      "y": 10840,
+      "w": 1080,
+      "h": 1350
+    }
+  ],
+  "annotations": [
+    {
+      "id": "row0",
+      "x": 0,
+      "y": -260,
+      "w": 1100,
+      "text": "START HERE: the presentation. sixteen boards, about twenty minutes. four words, posting vs a system, the ethos, the month, how a post becomes a conversation, what counts, the math, 90 days, your week, slow weeks, who does what, the file, what we need, how it runs, the first post. read left to right."
+    },
+    {
+      "id": "set1",
+      "x": 0,
+      "y": 1300,
+      "w": 1100,
+      "text": "THE FIRST POST. the condo carousel, seven slides in the valley native look. your colors, your line drawings, real valley places, you on the cover and the close. the stamp under the masthead stays in the same spot on every slide, forever; the zip changes when the neighborhood does."
+    },
+    {
+      "id": "set2",
+      "x": 0,
+      "y": 2860,
+      "w": 1100,
+      "text": "NEXT: the light-rail carousel. same look, same stamp. the opinion inside it is a draft of yours; say it your way on a voice memo and it gets rebuilt around that."
+    },
+    {
+      "id": "set3",
+      "x": 0,
+      "y": 4420,
+      "w": 1100,
+      "text": "THEN: the insurance carousel. the stamp moves to sherman oaks 91403, because that's where the hillside story lives. every number sourced on the last slide."
+    },
+    {
+      "id": "row4",
+      "x": 0,
+      "y": 5980,
+      "w": 1100,
+      "text": "THE WORDS. in your words (from your voice memos) \u00b7 the saved DM reply \u00b7 the four reel scripts, word for word (hook, script, on-screen text, caption) \u00b7 filming notes and the don't-say list \u00b7 the rulebook for the look \u00b7 the photo bank. click any card to read it big; they scroll."
+    },
+    {
+      "id": "row5",
+      "x": 0,
+      "y": 10580,
+      "w": 1100,
+      "text": "NEXT MONTH'S MEMOS. five first-time-buyer topics, one question each, sixty seconds in the car. each card shows what her minute turns into: the reel (hook, three beats, her close) and the seven carousel slides. [your words] marks what only she can fill."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

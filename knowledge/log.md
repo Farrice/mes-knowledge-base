@@ -837,3 +837,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-01 23:05]` **finalize** | Farrice Story Engine Forge audit, personal four-state live proof, and cold-routing repair | general | Jun Yuh — composite:7.0 status:Needs Improvement
 - `[2026-09-02 01:27]` **finalize** | Jun Format Intelligence OS with autonomous Farrice campaign and claim-safe client installation | general | jun-yuh-creator-vision — composite:6.0 status:Needs Improvement
 - `[2026-09-02 01:31]` **finalize** | Farrice Zero-to-Hero proof-first campaign | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-09-02 08:17]` **finalize** | Jen Engine v2 weeks 1-2: six finished posts in the photo look, captions, saved replies, facts ledger | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-09-02 10:35]` **finalize** | Jen Valley Editions: Tarzana Edition 01 — five Local Gem frames + five other-grammar covers, content | content | jen-santulan-listing-content — composite:6.0 status:Needs Improvement
