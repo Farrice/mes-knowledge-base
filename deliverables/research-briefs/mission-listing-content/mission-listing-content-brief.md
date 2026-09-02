@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 files written, 1 deliverable finalized.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 3d ago.
 
 Next: Resume the `listing-content` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (listing-content)._
 
 ## the state, as the last session left it
-Handoff written 1d ago — treat its plan as current.
+Handoff written 3d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill listing-content --reason "<one line>"
 THREAD: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page
 SLUG: listing-content
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-listing-content.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/.agent/handoffs/2026-08-29-listing-content.md
 
 RESUME HERE: Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carousel, 5-frame stories w/ KEYS keyword, fair-housing don't-say list; md + agent-facing sample page
 
@@ -68,7 +68,7 @@ FILES TOUCHED (4):
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - FILES WRITTEN: **4**
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **3 d**
 
 ## momentum
 
@@ -95,7 +95,7 @@ Voice DNA honored: hooks name objection ≤8 words, numbers over adjectives, no 
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

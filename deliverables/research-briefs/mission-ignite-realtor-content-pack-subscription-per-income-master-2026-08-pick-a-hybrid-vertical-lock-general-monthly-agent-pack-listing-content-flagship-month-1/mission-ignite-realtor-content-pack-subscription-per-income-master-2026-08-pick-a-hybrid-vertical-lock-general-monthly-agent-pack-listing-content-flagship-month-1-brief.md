@@ -8,7 +8,7 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 files written.
 
- Last activity 2d ago.
+ Last activity 5d ago.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
@@ -42,7 +42,7 @@ python3 execution/pulse_actions.py kill ignite-realtor-content-pack-subscription
 THREAD: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1 
 SLUG: ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1
 STATUS: — · STAGE: build
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.md
 
 OPEN MISSION: ignite realtor content-pack subscription per income-master-2026-08 Pick A: hybrid vertical lock (general monthly agent pack, listing-content flagship), month-1  (serves: revenue-5k-incumbency)
 
@@ -63,7 +63,7 @@ FILES TOUCHED (9):
 ## by the numbers
 - FILES WRITTEN: **9**
 - SESSIONS: **5** (claude)
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **8 d**
 
 ## momentum
 
@@ -97,7 +97,7 @@ FILES TOUCHED (9):
 _READ THE EDGES_
 No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

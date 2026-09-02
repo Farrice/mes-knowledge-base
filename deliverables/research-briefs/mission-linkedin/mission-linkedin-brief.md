@@ -10,21 +10,21 @@ This thread is the sprint's engine and it has quietly stopped producing new mout
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 5 sessions.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 11d ago.
 
 Next: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else.
 
 ## the state, as the last session left it
 Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.
 
-Handoff written 22d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 24d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
 1. **Ship the existing posts on a fixed daily cadence for one week, no new writing** — Recommended. The writing debt is already paid; the only untested variable is whether the market answers. Costs nothing but the discomfort of publishing work you have already judged good.
 2. **Run one more sharpening pass on the profile and featured section before publishing** — Buys a slightly better first impression for anyone who clicks through, but spends another day on the shopfront and keeps the real question — does anyone respond — unanswered.
 3. **Park public posting and go direct-message only to named brands** — Faster path to a conversation and less exposure, but abandons the compounding surface that makes the later direct messages land warm.
-4. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+4. **Decide: resume, park, or kill** — No recorded activity in 11 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Linkedin — Execution Checklist
@@ -50,8 +50,8 @@ python3 execution/pulse_actions.py kill linkedin --reason "<one line>"
 THREAD: Linkedin — Execution Checklist
 SLUG: linkedin
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-linkedin.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/.agent/handoffs/2026-08-08-linkedin.md
 
 RESUME HERE: Linkedin — Execution Checklist
 
@@ -60,7 +60,7 @@ RESUME HERE: Linkedin — Execution Checklist
 
 ## by the numbers
 - SESSIONS: **5** (codex)
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **15 d**
 
 ## momentum
 
@@ -95,7 +95,7 @@ RESUME HERE: Linkedin — Execution Checklist
 _READ THE EDGES_
 The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.
 
-The judged analysis above is 9 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -2,15 +2,15 @@
 
 ## Why this run matters
 
-Farrice explicitly liked the name, style, branding, hero, decision page, and subsequent LinkedIn asset. This makes the run a valid human taste anchor, not market proof.
+Farrice explicitly liked the name, style, branding, hero, and decision page. This makes the run a valid human taste anchor, not market proof. The later LinkedIn production branch is intentionally outside the preserved core.
 
 ## Good example
 
 - Reference lock: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/REFERENCE-LOCK.md`
 - Hero: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/health-performance-hero.png`
 - Decision page: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/angle-map-decision-page.png`
-- Featured V2: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/fc-pm1_li-featured-angle-map-evidence_review_v02.png`
 - QA: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/QA-RECEIPT.md`
+- Preservation lock: `_active/farrice-brand/premium-minimal/package/examples/health-performance-evidence-journal/PRESERVATION-AND-REUSE-LOCK.md`
 - Commits: `91f826b80`, `1877f91e7`, `6d96d700f`
 
 ## Failed example
@@ -37,7 +37,6 @@ Primary preview provenance:
 8. Create the reference lock before building.
 9. Build one master-brand hero and one Angle Map decision page.
 10. Validate visually and mechanically.
-11. Apply the direction to a production asset and run a copy-only founder critique.
 
 ## Why the output worked
 
@@ -48,7 +47,7 @@ Primary preview provenance:
 - Premium Minimal stayed the identity owner, so the vertical felt new without becoming a second brand.
 - The journal feeling came from information behavior, not biotech decoration.
 - The build tested two surfaces before system expansion.
-- The Featured revision changed copy only, preserving the visual control.
+- The preserved core stops at the hero and decision page; later channel production is not required to reproduce the creative-system result.
 
 ## Delta
 
@@ -67,6 +66,7 @@ Primary preview provenance:
 - The process may repeat; the journal aesthetic may not repeat by default.
 - One existing identity owner must be named before references are translated.
 - One or two surfaces must prove the lock before expansion.
+- Channel adaptations and unrelated project tests do not become part of the golden run by proximity.
 
 ## Replay prompt
 
