@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-02T15:35:57.453343+00:00",
-  "dry_run": true,
+  "ts": "2026-09-02T15:54:12.745840+00:00",
+  "dry_run": false,
   "tracked_dirty": 90,
   "generated_index": 5,
   "state_receipt": 85,
@@ -33,6 +33,6 @@
     "evolution_store/traces/skill_evolution_candidates_2026-09-02.md"
   ],
   "main_ahead_of_origin_before": 70,
-  "committed": null,
-  "pushed": false
+  "committed": "7a1f085e4",
+  "pushed": true
 }
