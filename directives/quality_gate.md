@@ -111,7 +111,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 |-------|-------|
 | **Last Activated** | 2026-09-02 (chain_runner finalize for alyssa-stalker-agent-content-playbook) |
 | **Last Activated** | 2026-09-02 (chain_runner finalize for alyssa-stalker-agent-content-playbook) |
-| **Activation Count** | 906 |
+| **Activation Count** | 907 |
 | **30-Day Review Date** | 2026-10-02 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
