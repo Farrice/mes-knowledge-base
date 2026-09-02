@@ -60,7 +60,18 @@ The bridge: Scrapes skills read `brand_context/`. We populated it from our canon
 | viz-hyperframes | HTML/GSAP → MP4 motion graphics | `video-studio` HyperFrames stage | **TEST FIRST** | Same engine; theirs ships a composition library. Likely flip. |
 | viz-image-gen | 6-element framework, GPT Image / Gemini | `banana-pro-director`, `gpt-image-2-director`, craft-map masters | **TEST FIRST (craft gate binding)** | Our masters are the craft floor. Their framework can wrap execution. Cost gate applies. GPT Image needs OPENAI_API_KEY (not on file); Gemini path works today. |
 
-## Blind bars to run (one input each, Farrice taps the winner)
+## Craft-room routing (Farrice, 2026-09-02: "blend, don't ignore Luke and the other copywriters")
+
+The Scrapes pipelines own the **machinery**: scenario detection, research gathering, slide arc, visual planning, rendering, humanizer pass. At the copy seams they hand off to **our pens**, never to their own generic prompt:
+
+| Seam in the Scrapes pipeline | What it wants | Who actually writes it |
+|---|---|---|
+| Phase 5.3a hook (`carousel-first-slide-copywriting.md`) | a formula (value inversion, numeric absurdity, common-sense betrayal, threatened identity) + a mechanism (curiosity gap, expectation inversion, world collision) | **Alyssa Stalker hook-reframe** (Topic + Who + Lens) for placement, **Luke Iha vicious-hooks** (consequence first, open loop, Germanic words, stakes) for grip; the Scrapes formulas are the shape check. For Farrice's own brand: VOICE-CARD dial + Luke Iha; Georgi/Cole only when the piece is long-form. |
+| Phase 5.0 caption / body | voice-profile.md | the brand's voice canon (Jen: her verbatim lines + ENGINE-V2; Farrice: VOICE-CARD + register atlas) |
+| Phase 5.5 / 6 humanizer | `tool-humanizer` | `prose_classifier.py` is the gate; humanizer may run first, never instead |
+| Phase 5.0.5 visual planning | `ssc-designer` | ssc-designer when the brand has a template pool; the brand's own renderer (Jen: `valley-editions/editions.py`) when it does not |
+
+Rule: one integrator writes, one check vetoes (the brand-as-itself seat). Never six seats on one hook (his 2026-09-02 correction: "expert soup"). Evidence from the first client run: v1 hook written from the Scrapes formulas alone scored 6/10 by Farrice; v2 with Alyssa + Luke integrated is the take to judge.
 
 1. **Carousel:** one supplement teardown → `/00-social-content` scenario A vs the current Jen/LinkedIn carousel path. Judge: hook slide, visual floor, voice.
 2. **De-slop:** one flagged draft → `/tool-humanizer deep` vs a hand pass against the ban bank, both then run through `prose_classifier.py check`. Judge: score delta and whether his voice survived.
