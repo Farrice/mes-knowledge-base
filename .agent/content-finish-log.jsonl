@@ -582,3 +582,8 @@
 {"ts": "2026-08-29T13:57:48Z", "label": "claim_court", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-09-01T07:00:36Z", "label": "_active/farrice-brand/brand-direction-pilot/BRAND-DIRECTION-DECISION-BOOK.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('direction \u2026 direction \u2026 direction') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-09-01T07:00:52Z", "label": "_active/farrice-brand/brand-direction-pilot/BRAND-DIRECTION-DECISION-BOOK.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-09-02T05:55:17Z", "label": "Farrice full story", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('i \u2026 i \u2026 i') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-09-02T05:55:18Z", "label": "Farrice documented fragment", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-02T05:56:00Z", "label": "Farrice full story repaired", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-02T05:57:16Z", "label": "Farrice full story final", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-02T05:57:16Z", "label": "Farrice documented fragment final", "verdict": "CLEAN", "fails": [], "warns": []}

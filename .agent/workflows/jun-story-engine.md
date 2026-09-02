@@ -1,5 +1,5 @@
 ---
-description: "Mine truthful story material, recover a sourced Pursuit into a proof-bounded method or offer hypothesis, expand one moment into distinct angles, and route through one Jun or Shaan-owned output path."
+description: "Turn personal stories, lived moments, ordinary life, founder notes, or 'my life is boring' material into truthful story options without invented psychology; recover a sourced Pursuit into a proof-bounded method or offer hypothesis, expand distinct angles, and route through one Jun or Shaan-owned output path."
 ---
 
 # /jun-story-engine — Lived Material to Deployable Story

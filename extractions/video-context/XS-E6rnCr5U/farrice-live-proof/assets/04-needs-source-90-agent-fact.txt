@@ -1,0 +1,9 @@
+Input: “I built a 90+ agent AI orchestration system solo, in naptimes.”
+
+Decision: NEEDS SOURCE
+
+This is an impressive fact, but it is not yet a story. It supplies a result and a constraint. It does not supply one bounded Problem, the specific Pursuit, or the Turn.
+
+The one question that unlocks the next pass:
+
+What was the first moment the system did something you could not have done alone, and what exactly did you build or change to make that happen?
