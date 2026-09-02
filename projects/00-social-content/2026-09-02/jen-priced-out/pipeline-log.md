@@ -25,3 +25,10 @@ Run of the Scrapes `00-social-content` procedure for a CLIENT brand (Jen Santula
 - Re-verify LA median rent ($3,800, single source) or soften to "around $3,800".
 - Fix cover footer count in `editions.py` (01 / 06).
 - Jen thumbs-up on frames 1–6 and caption.
+
+## v2 — craft-room pass (2026-09-02, after Farrice: "6/10, more tension and punch")
+Loaded: Scrapes `carousel-first-slide-copywriting.md` (5 formulas, 3 mechanisms, period-in-the-middle, broken numbers) · `skills/alyssa-stalker-agent-content-playbook/workflows/03-hook-reframe.md` (Topic + Who + Lens) · `skills/luke-iha-vicious-hooks/genius.md` (8 principles) · her outlier audit (personal-lens hooks 2.1× property hooks). One integrator, Jen-as-herself check. Georgi not loaded (her reset rule = Alyssa + Luke only).
+Cover A (who-clause, her outlier shape): "you saved the down payment. / then stopped looking." + open loop "the price nobody screenshots". Cover B (expectation inversion, cover_stack): "priced out of / the wrong number." Interior: consequence first, broken numbers ($917,500), period-in-the-middle, empowerment beat on the rent frame. Statement: "wrong / number." Classifier 3.5/10. Renders in `v2/`.
+
+## Next: the Scrapes carousel EXECUTION engine (Farrice, 2026-09-02: "the biggest leverage")
+This run used Jen's own renderer. The next run builds her template pool from the six refs through the real Scrapes path: mkt-visual-identity Import (tokens from `valley-editions/DESIGN.md`, refs classified as inspiration) → ssc-template-builder ×6 (yellow slot → ivory-steel gradient) → Template Studio approval (Farrice) → 00-social-content → ssc-designer → ssc-image-generator → Content Studio. Needs one sitting with his approvals.
