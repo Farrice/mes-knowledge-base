@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill visual-workflow --reason "<one line>"
 THREAD: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.
 SLUG: visual-workflow
 STATUS: active · STAGE: shipped
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-31-visual-workflow.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-31-visual-workflow.md
 
 RESUME HERE: Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.
 
@@ -81,7 +81,7 @@ Five searches; 30+ previews; nine full Refero systems; canonical Premium Minimal
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

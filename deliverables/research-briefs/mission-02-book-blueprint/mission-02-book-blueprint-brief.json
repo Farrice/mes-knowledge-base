@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is ready. Last activity 7d ago.\n\nNext: Resume the `02-book-blueprint` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (02-book-blueprint)._"
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is ready. Last activity 8d ago.\n\nNext: Resume the `02-book-blueprint` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (02-book-blueprint)._"
     },
     {
       "kind": "prose",
@@ -31,7 +31,7 @@
       "items": [
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 7 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 8 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -81,7 +81,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\nSLUG: 02-book-blueprint\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-02-book-blueprint.md\n\nRESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\nSHIPPED IN WINDOW:\n  - 2026-08-24 · Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan\n  - 2026-08-24 · Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\nSLUG: 02-book-blueprint\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-02-book-blueprint.md\n\nRESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\nSHIPPED IN WINDOW:\n  - 2026-08-24 · Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan\n  - 2026-08-24 · Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -205,7 +205,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

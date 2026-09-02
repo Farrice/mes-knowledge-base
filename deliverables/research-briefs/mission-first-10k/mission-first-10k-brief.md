@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill first-10k --reason "<one line>"
 THREAD: Madison paid-engagement iMessage reply grounded in the full direct thread
 SLUG: first-10k
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-first-10k.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-29-first-10k.md
 
 RESUME HERE: Madison paid-engagement iMessage reply grounded in the full direct thread
 
@@ -84,7 +84,7 @@ Retried intent-alignment receipt after the initial score mapping understated a f
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

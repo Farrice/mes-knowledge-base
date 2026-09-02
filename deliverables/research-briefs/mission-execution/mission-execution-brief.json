@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread is a graveyard of superseded offer research plus one surviving asset — the premium arc with its four rungs from door through retainer — and that survivor is the only reason to open it again.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen."
+      "body": "This thread is a graveyard of superseded offer research plus one surviving asset — the premium arc with its four rungs from door through retainer — and that survivor is the only reason to open it again.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen."
     },
     {
       "kind": "prose",
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Handoff — System Health Audit + Repair (2026-08-24)\nSLUG: execution\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md\n\nRESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Handoff — System Health Audit + Repair (2026-08-24)\nSLUG: execution\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-execution/mission-execution-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-execution.md\n\nRESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -100,7 +100,7 @@
           "note": "codex"
         },
         {
-          "value": "5",
+          "value": "6",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -236,7 +236,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.\n\nThe judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

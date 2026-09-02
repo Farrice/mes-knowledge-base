@@ -10,7 +10,7 @@ This thread is a graveyard of superseded offer research plus one surviving asset
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is active. Last activity 5d ago.
+Handoff status is active. Last activity 6d ago.
 
 Next: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen.
 
@@ -59,8 +59,8 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 THREAD: Handoff — System Health Audit + Repair (2026-08-24)
 SLUG: execution
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md
+BRIEF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/deliverables/research-briefs/mission-execution/mission-execution-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/signal-fidelity-closeout/.agent/handoffs/2026-08-24-execution.md
 
 RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)
 
@@ -69,7 +69,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **6 d**
 
 ## momentum
 
@@ -97,7 +97,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 _READ THE EDGES_
 No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
 
-The judged analysis above is 11 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
