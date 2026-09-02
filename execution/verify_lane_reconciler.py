@@ -104,6 +104,25 @@ def main() -> int:
         check(writer is not None and "session lock" in writer,
               "fresh foreign main write-lock still blocks integration")
 
+    # probe mirrors the merge tool's auto-resolution (2026-09-02) — both directions
+    br = "codex/x"
+    rd = (f"CONFLICT (rename/delete): .agent/recurring-reports/2026-08-24T1-x.md renamed to "
+          f".agent/recurring-reports/archive/2026-08-24T1-x.md in main, but deleted in {br}.")
+    check(lr.merge_resolves(rd, ".agent/recurring-reports/2026-08-24T1-x.md", br),
+          "probe: lane-deleted / main-renamed receipt is not a conflict (merge keeps ours)")
+    check(not lr.merge_resolves(rd.replace(f"deleted in {br}", "deleted in main"),
+                                ".agent/recurring-reports/2026-08-24T1-x.md", br),
+          "probe: main-deleted / lane-modified stays a conflict (never guess the lane's intent)")
+    check(lr.merge_resolves("CONFLICT (content): Merge conflict in SLASH_COMMANDS.md",
+                            "SLASH_COMMANDS.md", br),
+          "probe: generated index conflict is regenerated, not parked")
+    check(lr.merge_resolves("CONFLICT (content): Merge conflict in docs/solutions/index.md",
+                            "docs/solutions/index.md", br),
+          "probe: union-doc conflict is line-unioned, not parked")
+    check(not lr.merge_resolves("CONFLICT (content): Merge conflict in execution/routing_governor.py",
+                                "execution/routing_governor.py", br),
+          "probe: real source-code collision still parks")
+
     print("PASS: lane reconciler safety suite")
     return 0
 

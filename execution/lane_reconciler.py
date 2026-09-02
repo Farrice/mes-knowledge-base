@@ -52,6 +52,33 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 LANE_TOOL = REPO / "execution" / "worktree_lane.py"
+sys.path.insert(0, str(REPO / "execution"))
+import worktree_lane as _wl  # noqa: E402  — the merge tool's own resolution rules
+
+
+def merge_resolves(line: str, path: str, branch: str) -> bool:
+    """True when `worktree_lane.py merge` auto-resolves this probe conflict, so
+    parking on it would be a false alarm. Mirrors cmd_merge's rules exactly:
+
+      * generated artifacts          -> keep ours + regenerate
+      * union docs / .jsonl ledgers  -> line-union, nothing lost
+      * rename/delete or modify/delete where the LANE deleted (main renamed or
+        modified)                    -> keep ours; the lane dropped a per-tree
+                                        receipt main archived (2026-09-02: six
+                                        lanes parked on one archived closeout
+                                        report this way)
+
+    Anything else is a real collision and stays parked. (2026-09-02: the probe
+    counted every CONFLICT line raw; 9 lanes sat 'conflicted' that the merge
+    tool would have landed.)"""
+    if _wl._is_generated(path) or path in _wl.UNION_DOCS or path.endswith(".jsonl"):
+        return True
+    if ("(rename/delete)" in line or "(modify/delete)" in line) and \
+            re.search(r"deleted in " + re.escape(branch) + r"\b", line):
+        return True
+    return False
+
+
 RECEIPT = REPO / ".agent" / "health" / "lane-reconciler.json"
 TIMEOUT = 180
 DEFAULT_QUIET_MINUTES = 30
@@ -123,9 +150,14 @@ def merge_probe(branch: str) -> tuple[list[str], str]:
         )
     blob = (p.stdout or "") + (p.stderr or "")
     conflicts: set[str] = set()
+    resolvable_seen = False  # merge-tree exits 1 on ANY conflict, even ones cmd_merge auto-resolves
     for line in blob.splitlines():
         if "Merge conflict in " in line:
-            conflicts.add(line.split("Merge conflict in ", 1)[1].strip())
+            path = line.split("Merge conflict in ", 1)[1].strip()
+            if merge_resolves(line, path, branch):
+                resolvable_seen = True
+            else:
+                conflicts.add(path)
             continue
         if not line.startswith("CONFLICT "):
             continue
@@ -134,9 +166,13 @@ def merge_probe(branch: str) -> tuple[list[str], str]:
             line,
         )
         if match:
-            conflicts.add(match.group(1).strip())
+            path = match.group(1).strip()
+            if merge_resolves(line, path, branch):
+                resolvable_seen = True
+            else:
+                conflicts.add(path)
 
-    if p.returncode and not conflicts:
+    if p.returncode and not conflicts and not resolvable_seen:
         detail = next((line.strip() for line in reversed(blob.splitlines()) if line.strip()), "")
         return [], detail or f"merge-tree failed with exit {p.returncode}"
     return sorted(conflicts), ""
