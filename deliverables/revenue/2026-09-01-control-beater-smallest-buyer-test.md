@@ -1,9 +1,13 @@
 # Control-Beater: Problem-to-Action Memo and Smallest Buyer Test
 
-**Date:** September 1, 2026  
-**State:** `PREPARED · NOT SENT`  
-**Owner:** Farrice Cain  
-**Primary metric:** `collected_pilot_revenue_usd`  
+**Date:** September 1, 2026
+
+**State:** `PREPARED · NOT SENT`
+
+**Owner:** Farrice Cain
+
+**Primary metric:** `collected_pilot_revenue_usd`
+
 **Approval boundary:** No outreach, follow-up, payment request, publishing, or client production is authorized by this memo.
 
 ## Verdict
@@ -48,8 +52,10 @@ The cost is small and real. The founder may ignore it, decline, or expose a trus
 
 ## Selected buyer
 
-**Yasir Hashim, co-founder of Lumen**  
-**Trigger:** Lumen’s current nationwide Sprouts launch and sparkling-protein line  
+**Yasir Hashim, co-founder of Lumen**
+
+**Trigger:** Lumen’s current nationwide Sprouts launch and sparkling-protein line
+
 **Why this target:** founder access, an already-selling performance product, a live retail-expansion event, and a clear priority product family make a private fit question timely.
 
 Verified sources:

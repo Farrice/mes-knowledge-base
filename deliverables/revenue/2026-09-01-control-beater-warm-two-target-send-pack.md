@@ -1,9 +1,13 @@
 # Control-Beater: Warm Two-Target Send Pack
 
-**Date:** September 1, 2026  
+**Date:** September 1, 2026
+
 **State:** `LIVE TEST · 2 CONNECTION NOTES SENT · AWAITING EVENT`
-**Owner:** Farrice Cain  
-**Primary metric:** `collected_pilot_revenue_usd`  
+
+**Owner:** Farrice Cain
+
+**Primary metric:** `collected_pilot_revenue_usd`
+
 **Manual boundary:** Farrice sends. Codex does not message, connect, follow up, request payment, or start production.
 
 ## Live exposure ledger
@@ -33,8 +37,10 @@
 
 ### 1. Yasir Hashim, co-founder of Lumen
 
-**Profile:** [Yasir Hashim on LinkedIn](https://www.linkedin.com/in/yasir-hashim-31a41713a)  
-**Product:** [Lumen Sparkling Protein](https://morelumen.com/sparkling-protein)  
+**Profile:** [Yasir Hashim on LinkedIn](https://www.linkedin.com/in/yasir-hashim-31a41713a)
+
+**Product:** [Lumen Sparkling Protein](https://morelumen.com/sparkling-protein)
+
 **Current trigger:** [Nationwide Sprouts launch](https://www.bevnet.com/pr/2026/07/07/lumen-launches-nationwide-at-sprouts-debuting-exclusive-cocolada-flavor-of-its-awardwinning-sparkling-protein-drinks)
 
 **Proof state:** `VERIFIED` founder, product, Sprouts launch, current expansion language, and public profile. `UNVERIFIED` current Meta activity and existence of a usable control. This is a conditional fit message, not a claim that Lumen has one.
@@ -63,9 +69,12 @@
 
 ### 2. Kieran Mathew, CEO of Equip Foods
 
-**Profile:** [Kieran Mathew on LinkedIn](https://www.linkedin.com/in/kieranmathew)  
-**Company:** [Equip Foods](https://www.equipfoods.com/)  
-**Current trigger:** [Kieran’s nationwide Sprouts launch post](https://www.linkedin.com/posts/kieranmathew_today-were-proud-to-be-launching-nationwide-activity-7462166535462305792-lt89) and the new nationwide Whole Foods launch visible on his current profile activity  
+**Profile:** [Kieran Mathew on LinkedIn](https://www.linkedin.com/in/kieranmathew)
+
+**Company:** [Equip Foods](https://www.equipfoods.com/)
+
+**Current trigger:** [Kieran’s nationwide Sprouts launch post](https://www.linkedin.com/posts/kieranmathew_today-were-proud-to-be-launching-nationwide-activity-7462166535462305792-lt89) and the new nationwide Whole Foods launch visible on his current profile activity
+
 **Paid-social evidence:** [Equip’s current Meta creative library](https://motionapp.com/library/equip)
 
 **Proof state:** `VERIFIED` CEO, active public profile, current national retail expansion, and current Meta advertising. Motion’s public library reports 15 active Meta ads. `UNVERIFIED` which ad is Equip’s internal control, its performance, and whether Kieran personally owns the creative decision. The message asks for the control and implies none of those facts.
@@ -133,6 +142,8 @@ Do not send a payment request until the answers establish fit and Farrice has ap
 
 ## Decision surface
 
-**LOCKED:** offer, price, scope, qualification inputs, proof language, no-event rule, and payment as the primary outcome.  
-**PARKED:** follow-ups, profile edits, portfolio attachment, free speculative creative, discounting, payment request, and production.  
+**LOCKED:** offer, price, scope, qualification inputs, proof language, no-event rule, and payment as the primary outcome.
+
+**PARKED:** follow-ups, profile edits, portfolio attachment, free speculative creative, discounting, payment request, and production.
+
 **NEXT ACTION:** Await an acceptance or reply. Farrice pastes the exact event here before any next external message. Do not rewrite the offer because of silence.
