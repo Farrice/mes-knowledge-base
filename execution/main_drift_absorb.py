@@ -74,7 +74,7 @@ def classify(path: str) -> str:
 
 
 def adoptable(path: str) -> bool:
-    if path.endswith("/"):
+    if path.endswith("/") or path == str(RECEIPT_REL):
         return False
     return path.startswith(ADOPT_UNTRACKED_PREFIXES) and path.endswith(ADOPT_UNTRACKED_SUFFIXES)
 
@@ -156,6 +156,13 @@ def main() -> int:
         print("\nDRY RUN — would commit the above as chore(main): absorb scheduled-maintenance drift")
         _write_receipt(main_root, receipt)
         return 0
+
+    # The receipt is operational state (gitignored, like lane-reconciler.json). If an
+    # earlier run adopted it into tracking, drop it from the index in this commit —
+    # otherwise the receipt written after every run re-dirties main (2026-09-02).
+    rc, tracked_receipt, _ = _git(main_root, "ls-files", "--error-unmatch", "--", str(RECEIPT_REL))
+    if rc == 0 and tracked_receipt:
+        _git(main_root, "rm", "--cached", "-q", "--", str(RECEIPT_REL))
 
     # Stage: tracked modifications/deletions (-u touches only tracked paths) + adopted untracked.
     rc, _, err = _git(main_root, "add", "-u", "--", ".")

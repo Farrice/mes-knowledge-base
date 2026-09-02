@@ -226,3 +226,4 @@ _active/video-studio/hyperframes-studio/
 .agent/forge-state.json
 .agent/run-receipts/
 .agent/gemini-api-usage-archive/
+.agent/health/main-drift-absorb.json
