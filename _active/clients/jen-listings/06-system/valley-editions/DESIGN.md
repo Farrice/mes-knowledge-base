@@ -13,16 +13,16 @@ The place-magazine surface for @_jiing. A series someone publishes, edition by e
 |---|---|---|
 | ink | #1E3A5F | never on photos; reserved for paper pages if ever |
 | cream | #F7F5F2 | headline base, body on dark |
-| headline-gradient | #C9D4E2 → #EEF2F7 → #FFFFFF, 135° | the vintage-gem headline fill in the template's yellow slot (pale steel to white; ivory retired 2026-09-02, read flat) |
+| headline-gradient | ivory #FFF3D6 → #F7F5F2 → #FFFFFF (take-a, default) · pale steel #C9D4E2 → #FFFFFF (template look) | the vintage-gem headline fill in the template's yellow slot |
 | accent | #C9D4E2 | doodles, pill stroke, sparkle: the one accent color, in the yellow's role |
 | steel | #4C7CA8 | never on photos; tiny labels on paper only |
 | white | #FFFFFF | body copy, pills, rules |
 | wash | #0F141E | the gradient color over photos |
 
-## 3. Type (three families, never a fourth; Playfair retired 2026-09-02 after Farrice's verdict on the first render)
+## 3. Type (three families, never a fourth). VERDICT 2026-09-02, later the same day: Farrice picked take A ("I like these two": A1, A4). The look is Playfair + ivory-gradient headline + Jost body, `LOOK = "take-a"` in editions.py. Instrument Serif stays as `LOOK = "template"`, not the default.
 | role | face | size | notes |
 |---|---|---|---|
-| headline | Instrument Serif 400, italic for the connector (the template's tall condensed serif; Playfair read generic) | 150–190px cover, 106px interior statement, 93px grid entry | 1–4 words, two lines max, `fit()` never lets a line wrap; the templates' faces run ~0.31em/char and Playfair ~0.5em, so fitted sizes land at roughly three-quarters of the template's number, and a two-line D1 headline is capped to end above the pill (`headline_size()`) |
+| headline | Playfair Display 400 (take-a, default) · Instrument Serif 400 (template look) · italic for the connector | 150–190px cover, 106px interior statement, 93px grid entry | 1–4 words, two lines max, `fit()` never lets a line wrap; the templates' faces run ~0.31em/char and Playfair ~0.5em, so fitted sizes land at roughly three-quarters of the template's number, and a two-line D1 headline is capped to end above the pill (`headline_size()`) |
 | connector | Instrument Serif italic | 40–50% of the headline size | one short word ("this is", "the", "for", "in") bridging two headline clauses |
 | masthead / eyebrow / footer / pill / label | Instrument Serif caps, tracking −0.01em (the template sets every role in one face; Jost caps survive only in D2/D4/D5 grammars) | 24–28px | "JEN SANTULAN · THE VALLEY", "TARZANA · EDITION 01", "@_JIING", "01 / 05" |
 | subline / body | Instrument Serif 400 on D1 pages (28–30px, lh 1.35); Jost 300 on D2/D4/D5 | 26–40px | 1–3 short lines, never a paragraph |

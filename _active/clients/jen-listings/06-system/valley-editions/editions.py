@@ -310,7 +310,7 @@ def fact_panel(left, eyebrow, big, small, top=None, w=None, h=None):
             f'background:rgba({WASH},.55);border:1.5px solid rgba(247,245,242,.6);text-align:center">'
             f'<div class="abs caps" style="left:0;right:0;top:34px;font-size:16px;opacity:.85">{eyebrow}</div>'
             f'<div class="abs grad" style="left:0;right:0;top:66px;{SERIF}font-size:{fit(big, 62, usable=w-40)}px;line-height:1">{big}</div>'
-            f'<div class="abs" style="left:24px;right:24px;top:{h-64}px;{SERIF}font-size:21px;line-height:1.3;color:{WHITE}">{small}</div></div>')
+            f'<div class="abs" style="left:24px;right:24px;top:{h-64}px;{look()["panel_small"]};line-height:1.3;color:{WHITE}">{small}</div></div>')
 
 
 def inset(src, left, pos="50% 50%"):
@@ -324,27 +324,31 @@ INSET_L, INSET_R = int(W * 0.083), int(W * 0.516)
 def spot_exact(bg, masthead_text, headline, body, label, panel_l, panel_r, handle="@_jiing"):
     """D1 pages 2-4, nothing moved: masthead center T7.2% · sparkle T12.3% · headline L9.2% T23.8% W78.3% center (166px cap; two lines end above the pill)
     · pill L33.3% T41.6% · body L20.6% T50% W55.4% (26px) · two rounded panels L8.3%/51.6% T66.1% W40% H19.4% · label in the stripe slot T94.1%."""
-    size = headline_size(headline, 176, int(H * (0.416 - 0.238)) - 4, int(W * 0.783))
+    L = look()
+    size = headline_size(headline, 176, int(H * (0.416 - 0.238)) - 4, int(W * 0.783), em=L["em"])
+    g = f'background:{L["grad"]};-webkit-background-clip:text;background-clip:text;color:transparent'
     return (f'<div class="page">{bg}{wash_d1()}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:24px;line-height:1.3">{masthead_text}</div>'
+            f'<div {L["mast"]}>{masthead_text}</div>'
             f'{sparkle(int(W*0.467) + 2, int(H*0.123), 36)}'
-            f'<div class="abs grad" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.238)}px;text-align:center;{SERIF}font-size:{size}px;line-height:.85;letter-spacing:-.02em">{headline}</div>'
+            f'<div class="abs" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.238)}px;text-align:center;{L["face"]}font-size:{size}px;line-height:.85;letter-spacing:-.02em;{g}">{headline}</div>'
             f'{pill(handle, int(W*0.333) + 40, int(H*0.416))}'
-            f'<div class="abs" style="left:{int(W*0.206)}px;width:{int(W*0.554)}px;top:{int(H*0.50)}px;text-align:center;{SERIF}font-size:28px;line-height:1.35;color:{WHITE}">{body}</div>'
+            f'<div class="abs" style="left:{int(W*0.206)}px;width:{int(W*0.554)}px;top:{int(H*0.50)}px;text-align:center;{L["body"]};color:{WHITE}">{body}</div>'
             f'{panel_l}{panel_r}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.941)}px;text-align:center;font-size:19px;opacity:.9">{label}</div>'
+            f'<div class="abs {L["label"]}" style="left:0;right:0;top:{int(H*0.941)}px;text-align:center;font-size:{L["label_size"]}px;opacity:.9">{label}</div>'
             f'</div>')
 
 
 def close_exact(bg, masthead_text, headline, close_line, hand_line, handle="@_jiing"):
     """D1 page 5, nothing moved: masthead center T7.2% · headline L9.2% T34.6% W78.3% · pill L33.3% T53.3% · badge slot T86.4% = smiley.
     Two lines the template lacks, set in the empty band between pill and badge: her close (27px, T63%) and the hand line (T74%)."""
-    size = headline_size(headline, 176, int(H * (0.533 - 0.346)) - 4, int(W * 0.783))
+    L = look()
+    size = headline_size(headline, 176, int(H * (0.533 - 0.346)) - 4, int(W * 0.783), em=L["em"])
+    g = f'background:{L["grad"]};-webkit-background-clip:text;background-clip:text;color:transparent'
     return (f'<div class="page">{bg}{wash_d1()}'
-            f'<div class="abs sc" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:24px;line-height:1.3">{masthead_text}</div>'
-            f'<div class="abs grad" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.346)}px;text-align:center;{SERIF}font-size:{size}px;line-height:.85;letter-spacing:-.02em">{headline}</div>'
+            f'<div {L["mast"]}>{masthead_text}</div>'
+            f'<div class="abs" style="left:{int(W*0.092)}px;width:{int(W*0.783)}px;top:{int(H*0.346)}px;text-align:center;{L["face"]}font-size:{size}px;line-height:.85;letter-spacing:-.02em;{g}">{headline}</div>'
             f'{pill(handle, int(W*0.333) + 40, int(H*0.533))}'
-            f'<div class="abs" style="left:{int(W*0.18)}px;width:{int(W*0.64)}px;top:{int(H*0.63)}px;text-align:center;{SERIF}font-size:30px;line-height:1.4;color:{WHITE}">{close_line}</div>'
+            f'<div class="abs" style="left:{int(W*0.18)}px;width:{int(W*0.64)}px;top:{int(H*0.63)}px;text-align:center;{L["body"]};font-size:29px;color:{WHITE}">{close_line}</div>'
             f'<div class="abs" style="left:0;right:0;top:{int(H*0.74)}px;text-align:center;{HAND}font-size:52px;color:{WHITE}">{hand_line}</div>'
             f'{arrow(int(W*0.42), int(H*0.90), rot=-8, size=190)}'
             f'</div>')
@@ -443,6 +447,17 @@ def cover_initial_exact(src, rows, eyebrow, body, pos="50% 50%", k=0.76):
 
 # ------------------------------------------------------------------ Edition 01 · the frames (copy: edition-01/CONTENT-PACK.md · photos: edition-01/PHOTO-PLAN.md)
 MAST = "The Valley &#183; Tarzana<br>Edition 01"
+LOOK = "take-a"   # Farrice 2026-09-02: "I like these two" (A1, A4) — Playfair + ivory gradient + Jost body; "template" = Instrument Serif everywhere
+
+
+def look():
+    if LOOK == "take-a":
+        return dict(face="font-family: 'Playfair Display', Georgia, serif;", em=0.5, grad="linear-gradient(180deg, #FFF3D6 0%, #F7F5F2 55%, #FFFFFF 100%)",
+                    mast=f'class="abs caps" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:22px;line-height:1.5"',
+                    body=f"{SANS}font-weight:300;font-size:28px;line-height:1.4", label="caps", label_size=17, panel_small=f"{SANS}font-weight:300;font-size:18px")
+    return dict(face=SERIF, em=0.46, grad=IVORY_GRAD,
+                mast=f'class="abs sc" style="left:0;right:0;top:{int(H*0.072)}px;text-align:center;font-size:24px;line-height:1.3"',
+                body=f"{SERIF}font-size:28px;line-height:1.35", label="sc", label_size=19, panel_small=f"{SERIF}font-size:21px")
 POOL = IMG
 COVER_PLACE = (200, 470, 1200)   # sharp portrait: left, top, size px — head lands lower right, wall carries the type
 
@@ -450,9 +465,9 @@ COVER_PLACE = (200, 470, 1200)   # sharp portrait: left, top, size px — head l
 def frames():
     """(stem, title, html) for the five Edition 01 frames, then the five other-grammar covers (the system sheet)."""
     return [
-        ("Main", "01 · cover", cover_exact(PH / "jen-headshot-studio.jpg", MAST, "$869K", "in Tarzana.",
-            "three homes at one number, a 7am coffee on ventura, what sold in august, and the one house that&#8217;s mine.",
-            place=COVER_PLACE, stripe=False)),
+        ("Main", "01 · cover", cover_gem_fixed(IMG / "jen-porch-vannuys.jpg", "The Valley &#183; Edition 01<br>Tarzana, September", "this is", "Tarzana.",
+            "what $869K buys here this month, a 7am coffee on ventura, and the one house that&#8217;s mine. buying or selling.",
+            pos="0% 0%", scale=1.45, face=PLAYFAIR, grad=IVORY, text_top=0.44, size=138, pill_at="under")),
         ("Frame02Laidrey", "02 · place", spot_exact(photo(PH / "listing-04-kitchen.jpg", "50% 100%"),  # PLACEHOLDER for plate A (her Bothwell kitchen)
             MAST, "Laidrey,<br>7am.",
             "18600 ventura blvd. doors open at 7 every day. this is where i&#8217;d meet you before we go look at houses.",
