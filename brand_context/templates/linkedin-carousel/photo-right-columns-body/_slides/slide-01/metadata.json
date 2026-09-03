@@ -1,0 +1,26 @@
+{
+  "slide_id": "slide-01",
+  "template_id": null,
+  "template_pool": null,
+  "source_template_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/templates/linkedin-carousel/photo-right-columns-body",
+  "data": {
+    "SERIES_TITLE": "Creative Teardown",
+    "DATE": "03 Sep, 2026",
+    "PHOTO_MAIN": "_ai_bg/photo_main.png",
+    "HEADLINE": "the<br>claim",
+    "BODY": "Seventy-five vitamins, minerals and whole-food sourced ingredients. One scoop. Foundational nutrition. Three phrases have carried the brand for a decade, and the creative team keeps re-lighting them.",
+    "ITEM_1_TITLE": "Ingredient truth",
+    "ITEM_1_TEXT": "What the formula can honestly carry, and what it cannot.",
+    "ITEM_2_TITLE": "Buyer tension",
+    "ITEM_2_TEXT": "The fear the buyer holds before they read the label.",
+    "ITEM_3_TITLE": "Proof boundary",
+    "ITEM_3_TEXT": "Where the evidence stops and the adjective begins.",
+    "FOOTER_NAME": "Farrice Cain",
+    "FOOTER_LINK": "parallaxletter.substack.com",
+    "FOOTER_TOPIC": "Supplement + performance brands",
+    "FOOTER_CTA": "DM ANGLE",
+    "MASTHEAD_LEFT": "FARRICE CAIN",
+    "MASTHEAD_CENTER": "",
+    "MASTHEAD_RIGHT": "CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS"
+  }
+}

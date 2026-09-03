@@ -149,7 +149,10 @@ def _pool_ready_count(pool_dir: Path) -> tuple[int, int]:
     if isinstance(entries, dict):
         entries = list(entries.values())
     entries = entries or []
-    ready = sum(1 for e in entries if isinstance(e, dict) and str(e.get("status", "")).lower() == "ready")
+    # Their pipeline walks both states: `ready` (builder's gate passed) and
+    # `approved` (Farrice clicked Approve in the Template Studio, or said so).
+    ready = sum(1 for e in entries if isinstance(e, dict)
+                and str(e.get("status", "")).lower() in ("ready", "approved"))
     return ready, len(entries)
 
 

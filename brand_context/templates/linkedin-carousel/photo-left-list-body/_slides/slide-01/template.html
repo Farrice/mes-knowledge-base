@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--
+  photo-left-list-body — NO [ai-image-zone] block. See rationale.md §③/§④: the evidence-crop
+  (PHOTO_MAIN_PATH) is never AI-generated — moves.md #8 "Evidence crop" states explicitly
+  "AI-generated imagery is not evidence and never fills this zone." Production use: the operator
+  uploads a real screenshot of the page under teardown. This build's demo asset
+  (_ai_bg/photo_main.png) is a deterministic, zero-AI-call wireframe placeholder.
+-->
+<link rel="stylesheet" href="../_shared/styles.css">
+<style>
+  .ptb-masthead-label { font-family: var(--brand-body); font-weight: 700; font-size: 2.2cqw;
+    color: var(--brand-text-on-light); letter-spacing: 0; line-height: 1.2; }
+  .ptb-masthead-right { display: flex; align-items: baseline; gap: 0.6cqw; }
+  .ptb-arrow { font-family: var(--brand-body); font-weight: 400; font-size: 2.2cqw;
+    color: var(--brand-text-on-light); }
+  .ptb-list-label { font-family: var(--brand-body); font-weight: 700; font-size: 3.6cqw;
+    color: var(--brand-text-on-light); line-height: 1.1; margin: 0 0 0.9cqw 0; }
+  .ptb-list-body { font-family: var(--brand-body); font-weight: 400; font-size: 3.4cqw;
+    color: var(--brand-secondary); line-height: 1.4; margin: 0; }
+  .ptb-footer-item { font-family: var(--brand-body); font-size: 2.0cqw; line-height: 1.2; }
+</style>
+</head>
+<body>
+  <div class="slide" data-surface="light">
+    <!-- BACKGROUND — flat brand canvas fill (Q1/Q3 read: solid, no texture, no gradient) -->
+    <div class="bg" style="position:absolute; inset:0; background: var(--brand-bg-light);"></div>
+
+    <!-- MASTHEAD row — full-width, "Creative Teardown" (left) / date + arrow (right).
+         Read literally from THIS ref (title-case + bold, not the pool's tracked-uppercase
+         caption + page-index convention) — see rationale.md §④. NOTE: this row deliberately
+         does NOT use the reserved MASTHEAD_LEFT/CENTER/RIGHT slot names — those are hard-wired
+         by render_template.py (apply_masthead_tokens) to ALWAYS read tokens.json >
+         chrome.masthead.labels, unconditionally overriding any per-template sample. This ref's
+         top-left label is a content-pillar KICKER (per-post, per rationale.md §④), not the
+         brand's fixed masthead identity, so it is authored as its own slot (KICKER). -->
+    <div class="masthead" style="left:7.78%; top:5.0%; width:84.44%; height:3.6%; font-size:2.2cqw;">
+      <span class="masthead-slot left ptb-masthead-label" data-slot="KICKER">{{KICKER}}</span>
+      <span class="masthead-slot right ptb-masthead-right">
+        <span class="ptb-masthead-label" data-slot="DATE_LABEL">{{DATE_LABEL}}</span>
+        <span class="ptb-arrow" aria-hidden="true">→</span>
+      </span>
+    </div>
+
+    <!-- EVIDENCE-CROP zone (left column) — the contained-rectangle image block (Form A).
+         Bleeds to the canvas left edge; hairline material-edge on top/right/bottom (moves.md #8:
+         "no drop shadow, no frame chrome, no faux-lab styling"). PHOTO_MAIN_PATH is a real
+         per-post uploaded screenshot in production; the demo asset is a non-AI wireframe. -->
+    <div class="zone photo-zone" data-slot="PHOTO_MAIN" data-zone="photo"
+         style="left:0%; top:8%; width:54%; height:84%;
+                background: var(--brand-line);
+                border-top: 1px solid var(--brand-line);
+                border-right: 1px solid var(--brand-line);
+                border-bottom: 1px solid var(--brand-line);
+                overflow:hidden;">
+      <img src="{{PHOTO_MAIN_PATH}}" alt="Evidence — the page under teardown"
+           style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;">
+    </div>
+
+    <!-- RIGHT COLUMN — ONE flow container (html-craft.md §1/§3.7 rule 1): headline, subhead, and
+         the three list items are all per-post-variable-length text, so they are grouped into a
+         single flex column (not five independently absolute-positioned boxes) — the column's
+         gap distributes the vertical rhythm and guarantees no block ever overlaps the next one,
+         regardless of how long any one post's copy runs. The column itself is positioned to the
+         measured right-column bbox (left/top/width, height auto up to the footer). -->
+    <div class="zone" style="left:59%; top:14.5%; width:33.2%; height:auto;
+                display:flex; flex-direction:column; gap:3.6cqw;">
+      <!-- HEADLINE -->
+      <div class="headline" data-slot="HEADLINE"
+           style="font-size:9.8cqw; font-weight:700; color: var(--brand-text-on-light);">{{{HEADLINE}}}</div>
+
+      <!-- SUBHEAD -->
+      <div data-slot="SUBHEAD"
+           style="font-family: var(--brand-body); font-size:3.4cqw; font-weight:400;
+                  line-height:1.3; color: var(--brand-secondary);">{{{SUBHEAD}}}</div>
+
+      <!-- THREE-ITEM LIST cluster — tighter internal rhythm than the outer column gap -->
+      <div style="display:flex; flex-direction:column; gap:3.8cqw; margin-top:2.2cqw;">
+        <div data-slot="LIST_1" style="display:flex; flex-direction:column;">
+          <p class="ptb-list-label" data-slot="LIST_1_LABEL">{{LIST_1_LABEL}}</p>
+          <p class="ptb-list-body" data-slot="LIST_1_BODY">{{{LIST_1_BODY}}}</p>
+        </div>
+        <div data-slot="LIST_2" style="display:flex; flex-direction:column;">
+          <p class="ptb-list-label" data-slot="LIST_2_LABEL">{{LIST_2_LABEL}}</p>
+          <p class="ptb-list-body" data-slot="LIST_2_BODY">{{{LIST_2_BODY}}}</p>
+        </div>
+        <div data-slot="LIST_3" style="display:flex; flex-direction:column;">
+          <p class="ptb-list-label" data-slot="LIST_3_LABEL">{{LIST_3_LABEL}}</p>
+          <p class="ptb-list-body" data-slot="LIST_3_BODY">{{{LIST_3_BODY}}}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER row — full width. NOTE: NOT the shared `.masthead` space-between flex (that
+         distributes ONE shared leftover-space pool across all gaps — with four long text
+         items the leftover was too small, so items sat pixel-adjacent with no real gap,
+         visually correct but unmeasurable for the overflow gate). Explicit `gap` between the
+         first three items + `margin-left:auto` pushing the CTA to the far right gives every
+         item a real, predictable, non-zero gap on both sides. -->
+    <div data-slot="FOOTER"
+         style="position:absolute; left:7.78%; top:93%; width:84.44%; height:4%;
+                display:flex; align-items:baseline; gap:2.6cqw;">
+      <span class="ptb-footer-item" data-slot="FOOTER_NAME"
+            style="font-weight:700; color: var(--brand-text-on-light); white-space:nowrap;">{{FOOTER_NAME}}</span>
+      <span class="ptb-footer-item" data-slot="FOOTER_URL"
+            style="font-weight:400; color: var(--brand-secondary); white-space:nowrap;">{{FOOTER_URL}}</span>
+      <span class="ptb-footer-item" data-slot="FOOTER_DESCRIPTOR"
+            style="font-weight:400; color: var(--brand-secondary); white-space:nowrap;">{{FOOTER_DESCRIPTOR}}</span>
+      <span class="ptb-footer-item" data-slot="FOOTER_CTA"
+            style="font-weight:700; color: var(--brand-text-on-light); white-space:nowrap; margin-left:auto;">{{FOOTER_CTA}}</span>
+    </div>
+  </div>
+</body>
+</html>

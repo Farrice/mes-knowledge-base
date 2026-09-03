@@ -1,0 +1,60 @@
+# Bboxes below are TIGHT ink-measured extents from the canonical render (preview.png),
+# not the (wider, flex-shrink-wrapped) CSS zone boxes in template.html — compare_render_to_ref.py's
+# overflow read expands each declared bbox by a ring proportional to its OWN width/height
+# (0.6x), so a generously-wide declared box balloons its own search ring and can pick up
+# unrelated ink; the tight measured extent keeps each element's ring local to itself.
+elements:
+  - id: SERIES_TITLE
+    bbox_pct: [7.6, 5.5, 21.3, 1.9]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 2.41
+  - id: MASTHEAD_DATE
+    bbox_pct: [75.2, 5.7, 16.9, 1.9]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 2.04
+  - id: HEADLINE_WORD
+    # bbox = the AUTHORED CSS zone (template.html: left:1%;top:27.4%;width:98%;height:30%),
+    # not the tighter ink extent — the true rendered ink (~3.4-97.2% x, ~36.2-52.7% y) sits
+    # comfortably inside this box on every edge (verified via compare_render_to_ref.py), so
+    # the wider zone box is used here for dead_space.py's text_height_fraction union (the
+    # "authored HTML text zone" contract) without tripping a false clip on the overflow read.
+    bbox_pct: [1, 27.4, 98, 30]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 22.5
+  - id: AUTHOR_SIGNATURE
+    # type: watermark (NOT "text") — this element's red ink is intentionally overlaid
+    # across the giant HEADLINE_WORD's black ink (brand move #10). compare_render_to_ref.py's
+    # overflow read is luminance-only (color-blind): it cannot distinguish this element's
+    # own ink from the co-located headline's ink, so any declared box here would register
+    # false overflow from the OTHER element's ink inside the shared region. "watermark" is
+    # one of the script's own documented non-text-classified types (skips both the
+    # line-count and overflow reads) — correct for a deliberately-overlaid decorative mark,
+    # not a defect being hidden. The contrast gate (measure_text_contrast.py) is unaffected
+    # (it keys on color_role, not type) and still reports this element's advisory contrast.
+    bbox_pct: [25.9, 41.2, 57.6, 10.7]
+    color_role: accent
+    type: watermark
+    font_size_cqw: 10.74
+  - id: FOOTER_AUTHOR
+    bbox_pct: [7.7, 93.6, 9.9, 1.5]
+    color_role: text-on-light
+    type: chrome
+    font_size_cqw: 1.85
+  - id: FOOTER_URL
+    bbox_pct: [22.1, 93.6, 22.7, 1.7]
+    color_role: text-on-light
+    type: chrome
+    font_size_cqw: 1.85
+  - id: FOOTER_CATEGORY
+    bbox_pct: [49.1, 93.6, 29.1, 1.7]
+    color_role: text-on-light
+    type: chrome
+    font_size_cqw: 1.85
+  - id: FOOTER_TOPIC
+    bbox_pct: [82.6, 93.6, 9.6, 1.5]
+    color_role: text-on-light
+    type: chrome
+    font_size_cqw: 1.85

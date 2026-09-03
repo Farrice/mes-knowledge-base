@@ -1,0 +1,21 @@
+{
+  "slide_id": "slide-01",
+  "template_id": null,
+  "template_pool": null,
+  "source_template_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/templates/linkedin-carousel/word-photo-band-body",
+  "data": {
+    "PHOTO_MAIN_PATH": "assets/photo-sample-evidence.png",
+    "HEADER_TITLE": "Creative Teardown",
+    "HEADER_DATE": "03 Sep, 2026 <span class=\\",
+    "HEADLINE": "what they run",
+    "SUBTITLE": "Eighty-seven percent of the active ads are dynamic variants of one modular frame. Ten percent are creator testimonials. Three percent are statics. Every one repeats the same claim in a new costume.",
+    "SOURCE_LABEL": "Source · Meta Ad Library, \"AG1\", active ads, 03 Sep 2026",
+    "FOOTER_NAME": "Farrice Cain",
+    "FOOTER_SITE": "parallaxletter.substack.com",
+    "FOOTER_DESC": "Supplement + performance brands",
+    "FOOTER_CTA": "DM ANGLE",
+    "MASTHEAD_LEFT": "FARRICE CAIN",
+    "MASTHEAD_CENTER": "",
+    "MASTHEAD_RIGHT": "CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS"
+  }
+}

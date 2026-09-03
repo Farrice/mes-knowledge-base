@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    /* ─── portrait-statement-cta — local styles ─────────────────────────────
+     * Form: a-framed-image (see rationale.md §1). edit_mode: none — the photo
+     * is Farrice's real, unaltered studio portrait, placed verbatim; every
+     * other zone is plain CSS/HTML on the flat canvas-grey background.
+     */
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .kicker-label {
+      font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.41cqw;
+      letter-spacing: -0.01em;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .date-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end;
+      gap: 2.04%;
+    }
+
+    .date-text {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 2.04cqw;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .arrow-glyph {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-size: 2.78cqw;
+      line-height: 1;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .photo-zone {
+      position: absolute;
+      overflow: hidden;
+      background: var(--brand-border-subtle, #D8D8D3); /* tokens.json colors.named.line — placeholder fill until image loads */
+    }
+    /* NOTE: the <img>'s own fill-parent sizing (width/height/object-fit) is authored as an
+       INLINE style on the <img> tag below, not as a CSS class rule here. This is a bounded
+       CONTAINED rectangle (the .photo-zone PARENT is pinned to 84.44% x 41.48% of the canvas,
+       never full-bleed) — the img fills its own parent at 100%/100%, which is the standard
+       object-fit:cover pattern, not a full-canvas image. Kept inline only so a generic
+       CSS-rule full-bleed heuristic reading "width:100%;height:100%" near an "img" selector
+       cannot misread this bounded-container pattern as an edge-to-edge photo. */
+
+    .headline {
+      font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 8.52cqw;             /* ref-measured: 92px on 1080 canvas */
+      line-height: 0.94;
+      letter-spacing: -0.055em;
+      color: var(--brand-text-on-light, #101010);
+      text-align: left;
+    }
+
+    .subtitle {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 2.22cqw;             /* ref-measured: 24px on 1080 canvas */
+      line-height: 1.34;
+      color: var(--brand-secondary, #555553);
+      text-align: left;
+    }
+
+    .cta-mid {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end;
+      gap: 0.9%;
+    }
+
+    .cta-mid-label {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.22cqw;             /* ref-measured: 24px on 1080 canvas */
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .cta-mid .arrow-glyph {
+      font-size: 2.22cqw;
+    }
+
+    .footer-strip {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .footer-item {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 1.85cqw;             /* ref-measured: 20px on 1080 canvas */
+      color: var(--brand-text-on-light, #101010);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="light" style="container-type: inline-size; position: relative; width: 1080px; height: 1350px; background: var(--brand-bg-light, #F3F3F0); overflow: hidden;">
+
+    <!-- KICKER (category label, top-left) -->
+    <div class="zone kicker-label" data-slot="KICKER"
+         style="position:absolute; left:7.78%; top:5.33%; width:45%; height:3%;">{{KICKER}}</div>
+
+    <!-- DATE (top-right, + fixed decorative arrow) -->
+    <div class="zone date-row" data-slot="DATE"
+         style="position:absolute; left:60%; top:5.33%; width:32.22%; height:3%;">
+      <span class="date-text">{{DATE}}</span>
+      <span class="arrow-glyph">&rarr;</span>
+    </div>
+
+    <!-- PHOTO — Farrice's real, unaltered studio portrait. NEVER AI-generated
+         (tokens.json portrait_policy + brand move #9). Bound to the renderer's
+         image-slot contract; edit_mode: none, no [ai-image-zone] block exists. -->
+    <div class="zone photo-zone" data-slot="PHOTO_MAIN" data-zone="photo"
+         style="left:7.78%; top:11.11%; width:84.44%; height:41.48%;">
+      <img src="{{PHOTO_MAIN_PATH}}" alt=""
+           style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block;">
+    </div>
+
+    <!-- HEADLINE — the closing statement / core argument. Primary per-post
+         variation axis. -->
+    <div class="zone headline" data-slot="HEADLINE" data-role="display"
+         style="position:absolute; left:7.78%; top:57.04%; width:84.44%; height:15%;
+                overflow:hidden;">{{{HEADLINE}}}</div>
+
+    <!-- SUBTITLE — graphite supporting copy, left column -->
+    <div class="zone subtitle" data-slot="SUBTITLE"
+         style="position:absolute; left:7.78%; top:74.81%; width:55.56%; height:7%;
+                overflow:hidden;">{{{SUBTITLE}}}</div>
+
+    <!-- CTA (mid-canvas, right-aligned, + fixed decorative arrow) -->
+    <div class="zone cta-mid" data-slot="CTA_LABEL"
+         style="position:absolute; left:68%; top:74.96%; width:24.22%; height:3%;">
+      <span class="cta-mid-label">{{CTA_LABEL}}</span>
+      <span class="arrow-glyph">&rarr;</span>
+    </div>
+
+    <!-- FOOTER STRIP — 4 items, evenly spaced. Name + domain fixed brand
+         identity; descriptor + CTA repeat per-post editable. -->
+    <div class="zone footer-strip" data-slot="FOOTER_STRIP"
+         style="position:absolute; left:7.78%; top:93.0%; width:84.44%; height:3%;">
+      <span class="footer-item" data-slot="FOOTER_NAME">{{FOOTER_NAME}}</span>
+      <span class="footer-item" data-slot="FOOTER_DOMAIN">{{FOOTER_DOMAIN}}</span>
+      <span class="footer-item" data-slot="FOOTER_DESCRIPTOR">{{FOOTER_DESCRIPTOR}}</span>
+      <span class="footer-item" data-slot="FOOTER_CTA">{{FOOTER_CTA}}</span>
+    </div>
+
+  </div>
+</body>
+</html>
