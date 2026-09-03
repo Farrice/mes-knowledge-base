@@ -58,26 +58,36 @@ Use the existing 10 Connects on the AI Council application. Build the same healt
 
 Evidence labels in square brackets belong to this dossier and are not part of the proposal text. The live form omits them.
 
-[MODELED] AI Council needs more than a recap of whatever dominated AI news last week. The useful issue is the one that finds a production-level tension builders will care about, develops an informed take, and cuts the launch-day hype.
+[MODELED] The line that caught me was “casual and witty.” Good call. Engineers, researchers, and product leaders can spot generic AI copy before paragraph two.
 
-Your emphasis on real architectures, tradeoffs, and production failures is a close fit for how I work. I build a voice profile before drafting and use AI to widen research, while I keep source selection and final prose human.
+I’d make each issue worth opening: find the few stories that matter, explain what changed without flattening the technical detail, and add a point of view people might forward.
 
-For a pilot issue, I would propose one lead story, four to six curated links with original commentary, three subject lines, preview text, and one revision. One current angle I would explore is the bottleneck moving from compute to reliable RL environments: what teams are building, where evaluation breaks, and which claims still look better on stage than in production.
+A sample hook:
+
+Your agent nailed the demo. Production would like a word.
+
+The interesting story isn’t another agent launch. It’s the gap between a clean demo and a system people can trust when tools fail, context drifts, and nobody is watching.
+
+For a pilot, I’d deliver one lead story, 4–6 curated links with original commentary, three subject lines, preview text, and one revision. I’d study past AI Council material first so it sounds like your community, not “AI newsletter voice.”
 
 [MODELED]
-My profile includes executive ghostwriting and brand-voice samples, plus Google's AI Professional Certificate. My rate is $50/hour; I would cap a defined pilot at $250.
+I’ve highlighted executive ghostwriting and brand-voice samples on this proposal. My profile also includes Google’s AI Professional Certificate.
 
-I am new to Mailchimp, so I will not claim platform expertise. I can learn your existing template and complete a formatting check before we lock a recurring workflow.
+My rate is $50/hour, capped at $250 for the first issue.
+
+I’m new to Mailchimp. I can learn your template and prove the workflow with a formatting check before the first send.
+
+If the voice isn’t right, don’t keep me for issue two.
 
 Farrice
 
 ### Screening answer: Mailchimp
 
-Beginner, 1 out of 5. I have not used Mailchimp in a client workflow yet. I learn software quickly and can work carefully inside an existing template and checklist, but I do not want to represent platform experience I have not earned. For the pilot, I would complete a brief formatting check before we agree to a recurring workflow.
+Beginner — 1/5. I haven’t used Mailchimp in a client workflow, so I won’t dress that up. I’m comfortable learning new software and working inside an existing template. Before the first send, I’d complete a formatting check so you can see that I can handle the workflow correctly.
 
 ### Screening answer: feedback and edits
 
-Google Docs comments for line-level edits, plus one short summary note for structural changes. I respond with a clean revision and, when useful, a brief explanation of any editorial choice I recommend keeping.
+Google Docs comments for line edits, with one short note for bigger structural feedback. I’ll return a clean revision. If I think a suggested change weakens the voice or meaning, I’ll explain why instead of quietly ignoring it.
 
 ### Attachments
 
