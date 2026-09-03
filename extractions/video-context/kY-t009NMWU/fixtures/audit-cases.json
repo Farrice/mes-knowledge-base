@@ -1,0 +1,57 @@
+[
+  {
+    "case": "Greta",
+    "offer_clarity": "vague",
+    "compliance_risk": false,
+    "profile_state": "high_friction",
+    "trust_state": "unknown",
+    "monetization_state": "fragmented",
+    "metrics": {"views": 2300, "non_follower_pct": 80, "profile_visits": 1128, "follows": 420, "dms": 0},
+    "expected": "OFFER"
+  },
+  {
+    "case": "Kiara",
+    "offer_clarity": "contradicted",
+    "compliance_risk": false,
+    "profile_state": "vague",
+    "trust_state": "voiceless",
+    "monetization_state": "undercapturing",
+    "metrics": {"views": 513000, "collected_revenue_upper_bound": 1000},
+    "expected": "OFFER"
+  },
+  {
+    "case": "Byron",
+    "offer_clarity": "clear",
+    "compliance_risk": true,
+    "profile_state": "vague",
+    "trust_state": "proof_light",
+    "monetization_state": "fragmented",
+    "metrics": {"views": 92},
+    "expected": "COMPLIANCE"
+  },
+  {
+    "case": "German finance",
+    "offer_clarity": "clear",
+    "compliance_risk": false,
+    "profile_state": "clear",
+    "trust_state": "present",
+    "monetization_state": "undercapturing",
+    "metrics": {"followers": 120000, "reported_revenue": 15000, "entry_price_eur": 29},
+    "expected": "MONETIZATION"
+  },
+  {
+    "case": "Missing evidence negative control",
+    "metrics": {"views": 100},
+    "expected": "UNVERIFIED"
+  },
+  {
+    "case": "Repair-order trust control",
+    "offer_clarity": "clear",
+    "compliance_risk": false,
+    "profile_state": "clear",
+    "trust_state": "voiceless",
+    "monetization_state": "undercapturing",
+    "metrics": {"views": 500000},
+    "expected": "TRUST"
+  }
+]

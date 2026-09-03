@@ -151,6 +151,7 @@
 | `harry-dry-copywriting` | **Harry Dry Copywriting** | for full campaign architecture use bond-halbert-copywriting, for dopamine craft use stefan-georgi-dopamine-copy, for big-idea methodology use chris-cimorelli-copywriting | 5 | 14 |
 | `henrik-werdelin-portfolio-entrepreneurship` | **henrik-werdelin-portfolio-entrepreneurship** | donkeycorn business design ($1m sustainable ventures, not unicorn-or-nothing), relationship-capital moats (depth/density/durability) | 3 | 0 |
 | `henry-shukman-contemplative-writing` | **Henry Shukman — Contemplative & Poetic Writing** | contemplative, poetic, and personal-essay mastery from the poet | 13 | 0 |
+| `heydominik-instagram-growth-os` | **heydominik-instagram-growth-os** | instagram growth, offer design, trust content | 11 | 0 |
 | `higgsfield-content-factory` | **higgsfield-content-factory** |  | 0 | 0 |
 | `higgsfield-creative-studio` | **higgsfield-creative-studio** | orchestrates gpt image 2 | 2 | 0 |
 | `hilary-gridley` | **Hilary Gridley — Judgment Encoding & Anti-Slop Management OS** | from the ex-whoop team lead behind 'how to be a super manager with ai, judgment encoding & anti-slop management os | 13 | 0 |
