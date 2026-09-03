@@ -30,6 +30,7 @@
 - 2026-09-02 · all · optional second pass; `claim_audit.py check --strict` is the veto · verdict: standing
 
 ## viz-image-gen
+- 2026-09-03 · farrice · render_template.py autosize · the fit test requires the text's SINGLE-LINE width ≤ box, so a headline that wraps naturally is shrunk toward its floor (72→37px seen). Pass headlines with explicit `<br>` per line; `--no-autosize` exists for our own renders · verdict: standing
 - 2026-09-02 · all · every AI slide prompt passes the craft-map master (nano-banana / gpt-image-2 director) before generation; `openai_budget_guard.py check` before every GPT Image call; $15/mo cap · verdict: standing
 
 ## mkt-content-repurposing

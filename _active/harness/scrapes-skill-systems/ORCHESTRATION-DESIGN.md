@@ -103,7 +103,8 @@ Blind bars still open (Farrice taps): #1 carousel (one supplement teardown, `/so
 1. **Wrapper drift.** Our doors reference their phases by name. A Scrapes update that renames a phase or changes the designer's input contract silently changes a seam. Mitigation: the doors name phases, never copy them; after `npx @scrapes/installer` update, rerun `arsenal_index.py build --rebuild` and read `CHANGELOG.md` of `00-social-content` before the next run. **INFERRED** low frequency (their changelog shows monthly-ish).
 2. **Designer rewrites our headline.** Mitigated by the post-return diff + one corrective dispatch; confirmed or refuted by blind bar #1.
 3. **Template pool cost.** `ssc-template-builder` is AI-first (GPT Image). His pool: 4–6 refs × est. $0.10–0.30 = under $2, guard-checked, his approval in Template Studio. Jen's pool waits on her six inputs.
-4. **Brand registry sprawl.** New client → one BRAND.yaml or the lock refuses. That is the intended failure: a refusal, not a wrong brand.
+4. **Their gates encode a generic taste** (VERIFIED 2026-09-03 on his pool). `ssc-template-builder`'s Check D demands display cap-height ≥ 8.0cqw; the brand's h1 is 72px (6.67cqw). Builders inflated headlines 40–60% and pushed everything down the canvas to dodge a ring-probe false positive. Farrice's Studio read: "typography, spacing, hierarchy done poorly." Standing fix: a post-build **craft pass** in the pool (ours) back to the ref geometry, canonical re-render, decisions in `REVIEW-NOTES.md`. Second gate: `render_template.py`'s autosize requires the SINGLE-LINE width to fit, so any headline that wraps naturally shrinks toward its floor (72→37px observed). Rule: headline values carry `<br>` line breaks; written into `/social-carousel` Step 2.
+5. **Brand registry sprawl.** New client → one BRAND.yaml or the lock refuses. That is the intended failure: a refusal, not a wrong brand.
 
 ## 8. Files this design owns
 
