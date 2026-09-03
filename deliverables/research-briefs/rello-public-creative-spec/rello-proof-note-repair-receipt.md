@@ -62,5 +62,16 @@ Do not ship unless a founder can state what was observed, what it means, and wha
 - **Claims checked:** PASS. Public observations remain sourced; the routine premise remains a test hypothesis.
 - **AI-tell pass:** CLEAN, 0/10 classifier score on the authored copy.
 - **Production-readiness pass:** CLEAN. The visual, control, challenger, and interpretation branches are explicit.
-- **Open risk:** Farrice's taste verdict and live founder response are still untested.
+- **Open risk:** Live founder response and market performance are still untested.
 - **Verdict:** PASS FOR DRAFT REVIEW, NOT AUTO-SEND.
+
+## Human taste verdict
+
+- **Date:** September 3, 2026
+- **Status:** HUMAN APPROVED
+- **Verdict:** “This is a lot better.” The brief is approved as the current quality specimen.
+- **What remains unproven:** Founder response, paid conversion, and live creative performance.
+
+## Parked enhancement
+
+Revisit the delivery layer later. Possible additions include video, motion, a first-three-second storyboard, or another visual demonstration that makes the strategy feel like a finished client deliverable. This is intentionally parked; no video or production work is authorized or underway.
