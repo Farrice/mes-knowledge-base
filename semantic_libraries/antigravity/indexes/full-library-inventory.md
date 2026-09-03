@@ -1,23 +1,23 @@
 # Codex Full Library Sweep Inventory
 
-Generated: 2026-09-02T19:45:51.981167+00:00
+Generated: 2026-09-02T22:19:14.395023+00:00
 
 ## Counts
 
 | Surface | Count |
 |---|---:|
-| workflows | 2844 |
+| workflows | 2843 |
 | legacy source commands | 3484 |
-| hot source command wrappers | 2638 |
+| hot source command wrappers | 2637 |
 | cold source command wrappers | 0 |
 | agent profiles | 241 |
-| claude subagent specs | 0 |
+| claude subagent specs | 4 |
 
 ## Bridge Status
 
 | Status | Count |
 |---|---:|
-| hot bridge | 1990 |
+| hot bridge | 1989 |
 | source-command only | 853 |
 | workflow-only | 1 |
 
