@@ -20,8 +20,8 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **What Happened:** open for 7 days with no decision
 - **Root Cause:** 9 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append bu
 - **Prevention Rule:** Decide stale_slash_commands or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 34
-- **Last Triggered:** 2026-08-31
+- **Occurrences:** 36
+- **Last Triggered:** 2026-09-02
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required
 
@@ -59,5 +59,5 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 ### [ROTTING]: born_intent_drift
 - **Root Cause:** 1 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: skill:david-perell-writing
 - **Prevention Rule:** Decide born_intent_drift or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 16
+- **Occurrences:** 17
 - **Root Cause:** 13 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: prompt:sean-dollwet-kdp-publishing/book-do

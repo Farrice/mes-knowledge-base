@@ -1,0 +1,113 @@
+{
+  "slug": "fixture-bravo-mobility-growth-blueprint",
+  "chip": "Fixture run · no spend",
+  "title": "the *four-minute* mobility authority plan",
+  "dek": "A bounded content strategy for an 11-year physical therapist helping time-poor desk workers move consistently. It uses six frozen synthetic signals and does not invent the founder's clinical point of view.",
+  "window": "frozen snapshot · aug 27, 2026",
+  "lens": "buyer · evidence · authority · offer",
+  "sources": "6 synthetic YouTube rows + supplied client intake",
+  "compiled": "aug 31, 2026",
+  "footer_left": "FARRICE CAIN",
+  "footer_right": "prepared for fixture bravo mobility",
+  "run_cost_usd": 0,
+  "stack": ["frozen fixture", "human-owned judgment"],
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the call",
+      "kicker": "Verdict",
+      "body": "Own minimum-effective mobility for desk workers: short routines that survive real work and family life. The evidence supports one opening. A four-minute mobility result ran at 6.4 times its synthetic channel baseline. The authority layer comes from the founder's supplied 11 years of practice, but the clinical lesson itself remains hers to articulate."
+    },
+    {
+      "kind": "stats",
+      "heading": "what this run can honestly support",
+      "items": [
+        {"value": "6", "unit": "videos", "label": "Frozen synthetic sample", "note": "forty-four rows were not invented"},
+        {"value": "1", "unit": "direct topic", "label": "Mobility-matched signal", "note": "the four-minute replacement"},
+        {"value": "6.4", "unit": "x baseline", "label": "Strongest direct receipt", "note": "attention only, not revenue"},
+        {"value": "$0", "unit": "spent", "label": "No-spend run", "note": "no live enrichment or publishing"}
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "who this is for",
+      "body": "A 38-year-old product manager with two children, a standing desk they rarely use, and a back that feels fine until it suddenly does not. They have saved stretching videos before. The videos did not survive the week. They do not need more exercises; they need a small, credible routine they can keep.\n\nThe founder's supplied edge is unusually concrete: 11 years as a physical therapist and direct experience with roughly 1,000 desk-worker backs. That is authority material, not permission for the system to invent a clinical conclusion."
+    },
+    {
+      "kind": "evidence",
+      "heading": "the opening, with receipts",
+      "tag": "Evidence",
+      "rows": [
+        {
+          "claim": "A minimum-effective mobility promise earned the only direct topic qualification",
+          "evidence": "The four-minute warm-up video produced 1,210,043 synthetic views, 6.4 times its channel baseline, with 5.1% engagement.",
+          "source_url": "https://www.youtube.com/watch?v=fixC00002",
+          "source_label": "synthetic fixture video fixC00002",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "A proof-led practitioner format is worth transferring, not copying",
+          "evidence": "The receipt-confession video ran at 9.0 times baseline, but its topic targeted coaches. Only the format transfers to the founder's real clinical experience.",
+          "source_url": "https://www.youtube.com/watch?v=fixA00001",
+          "source_label": "synthetic fixture video fixA00001",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The lane is promising, not proven",
+          "evidence": "The sample contains one direct mobility winner and no owned conversion evidence. Three real founder-led batches are the first useful demand test.",
+          "source_url": "",
+          "source_label": "bounded strategic inference",
+          "confidence": "LIKELY"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the starting trio",
+      "kicker": "Starting test",
+      "dek": "Two narrow buyer lanes and one practitioner-authority lane, adapted to three founder-shot pieces per week.",
+      "items": [
+        {"action": "The Four-Minute Desk Reset", "why": "The only direct topic signal. The founder must choose the movements, exclusions, and safety language."},
+        {"action": "Fine Until It Isn't", "why": "Uses the buyer's exact intake language to turn latent worry into a qualified question; performance remains untested."},
+        {"action": "The Desk-Back Clinic", "why": "Transfers the proven receipt-confession format to a real observation from 11 years of practice; the observation itself stays human-owned."}
+      ]
+    },
+    {
+      "kind": "matrix",
+      "heading": "what the system may and may not do",
+      "axes": {"x": "automation →", "y": "↑ judgment risk"},
+      "quads": [
+        {"label": "Automate", "items": [{"name": "evidence sorting", "note": "ranking, cohort fit, and exclusions"}]},
+        {"label": "Assist", "items": [{"name": "reaction questions", "note": "prompt the founder without supplying the opinion"}]},
+        {"label": "Human owns", "items": [{"name": "clinical judgment", "note": "exercise choice, contraindications, and claims"}]},
+        {"label": "Human approves", "items": [{"name": "story and voice", "note": "permission, language, and publication"}]}
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "the 90-day pilot",
+      "items": [
+        {"date": "Weeks 1–3", "title": "Run the starting trio", "body": "Three founder-shot pieces per week. Observe; do not judge a piece inside 24 hours."},
+        {"date": "End of week 3", "title": "Make the first keep-or-revise call", "body": "Use qualified replies, saves, page visits, inquiries, and sales. Raw reach alone does not decide."},
+        {"date": "Weeks 4–6", "title": "Repeat the best pair", "body": "Change either the topic or the format, never both at once."},
+        {"date": "Day 45", "title": "Replace the frozen snapshot", "body": "Run a real 10–30 channel scan and see whether the four-minute opening repeats."},
+        {"date": "Weeks 7–12", "title": "Build repetitions around what survived", "body": "Add volume only after the signal holds across three batches."}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this proves and what it doesn't",
+      "kicker": "Limits",
+      "body": "This proves the content system can turn a thin, frozen input into a usable and honest client strategy without filling gaps with confident fiction. It does not prove current demand, clinical efficacy, conversion lift, cohort sales, or revenue. The synthetic video links are validation receipts, not live market evidence. Before production, the founder must supply the clinical observation, exercise selection, contraindications, permission-safe story, voice, and final approval."
+    }
+  ],
+  "ledger": [
+    {"source": "Fixture Bravo intake", "url": "", "retrieved": "2026-08-31", "used_for": "buyer, offer, stated credibility, exact language", "confidence": "VERIFIED"},
+    {"source": "Synthetic fitness-coach fixture", "url": "https://www.youtube.com/watch?v=fixC00002", "retrieved": "2026-08-31", "used_for": "direct mobility topic signal", "confidence": "VERIFIED"},
+    {"source": "Synthetic receipt-confession fixture", "url": "https://www.youtube.com/watch?v=fixA00001", "retrieved": "2026-08-31", "used_for": "format-transfer decision", "confidence": "VERIFIED"}
+  ],
+  "context": [
+    {"path": "growth-lab/fixture-bravo-mobility/growth-blueprint.md", "role": "state source"},
+    {"path": "growth-lab/fixture-bravo-mobility/ai-topic-mining-report.md", "role": "research handoff"}
+  ]
+}
