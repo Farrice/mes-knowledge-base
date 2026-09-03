@@ -227,5 +227,5 @@
       "body": "The prose gate score recorded here is severe and the pack does not say whether it was ever addressed. The run also happened alongside a concurrent session that renamed a directory mid-flight, so the location and completeness of these files should be confirmed before sending anything.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "active"
+  "status": "archived"
 }

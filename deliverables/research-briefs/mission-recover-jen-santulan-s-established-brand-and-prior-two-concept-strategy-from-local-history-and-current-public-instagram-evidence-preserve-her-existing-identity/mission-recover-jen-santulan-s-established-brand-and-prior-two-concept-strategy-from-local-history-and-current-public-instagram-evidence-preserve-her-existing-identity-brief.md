@@ -1,6 +1,6 @@
 # Recover Jen Santulan's established brand and prior…
 
-> MISSION · CLIENTS · window: last 14 days · lens: codex · sources: 3 sessions · 5 files · 0 assets · compiled: sep 2, 2026
+> MISSION · CLIENTS · window: last 14 days · lens: codex · sources: 3 sessions · 5 files · 0 assets · compiled: sep 3, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 3 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,7 +8,7 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.
 
- Last activity 1d ago.
+ Last activity 2d ago.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
@@ -59,7 +59,7 @@ FILES TOUCHED (5):
 ## by the numbers
 - FILES WRITTEN: **5**
 - SESSIONS: **3** (codex)
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **2 d**
 
 ## momentum
 
@@ -68,8 +68,8 @@ FILES TOUCHED (5):
 
 
 ## what this thread made
+- **README.md** [FILE] `_active/clients/jen-santulan/production/first-home-valley/README.md` — sep 2, 2026
 - **DEMO-FEEDBACK-CARD.txt** [FILE] `_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt` — aug 30, 2026
-- **README.md** [FILE] `_active/clients/jen-santulan/production/first-home-valley/README.md` — aug 30, 2026
 - **GO-NO-GO-CHECKLIST.md** [FILE] `_active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md` — aug 30, 2026
 - **FILMING-PREP-CHECKLIST.md** [FILE] `_active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md` — aug 30, 2026
 - **POST-DEMO-ITERATION.md** [FILE] `_active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md` — aug 30, 2026
@@ -87,13 +87,13 @@ FILES TOUCHED (5):
 _READ THE EDGES_
 No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.
 
-The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
 ## Context pack (agent feed)
-- `_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt` — asset · FILE
 - `_active/clients/jen-santulan/production/first-home-valley/README.md` — asset · FILE
+- `_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt` — asset · FILE
 - `_active/clients/jen-santulan/production/first-home-valley/GO-NO-GO-CHECKLIST.md` — asset · FILE
 - `_active/clients/jen-santulan/production/first-home-valley/FILMING-PREP-CHECKLIST.md` — asset · FILE
 - `_active/clients/jen-santulan/production/first-home-valley/POST-DEMO-ITERATION.md` — asset · FILE

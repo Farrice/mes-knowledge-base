@@ -1,6 +1,6 @@
 # Demo Listing Launch Kit on fictional SFV listing
 
-> MISSION · FARRICE BRAND · window: last 14 days · lens: claude · sources: 0 sessions · 4 files · 0 assets · compiled: sep 2, 2026
+> MISSION · FARRICE BRAND · window: last 14 days · lens: claude · sources: 0 sessions · 4 files · 0 assets · compiled: sep 3, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 files written, 1 deliverable finalized.
 
-Handoff status is active. Last activity 4d ago.
+Handoff status is active. Last activity 5d ago.
 
 Next: Resume the `listing-content` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (listing-content)._
 
 ## the state, as the last session left it
-Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 5d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -68,7 +68,7 @@ FILES TOUCHED (4):
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - FILES WRITTEN: **4**
-- DAYS ACTIVE: **4 d**
+- DAYS ACTIVE: **5 d**
 
 ## momentum
 
@@ -95,7 +95,7 @@ Voice DNA honored: hooks name objection ≤8 words, numbers over adjectives, no 
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
