@@ -68,31 +68,34 @@
          zero once the ring can no longer reach it). Starting the zone at 29% (with a correspondingly
          empty band from ~11% to 29%) is the fix, not a composition choice — see rationale.md and the
          ladder note in instructions.md. -->
+    <!-- CRAFT PASS 2026-09-03 (Farrice: "tighten typography, spacing, hierarchy"): headline returned to
+         the brand's h1 (72px = 6.67cqw, the ref's own size), natural 2-3 line wrap, ref vertical rhythm
+         restored (subtitle 51%, heavy rule 85%, caption 90%). See ../REVIEW-NOTES.md. -->
     <div class="zone display" data-slot="HEADLINE" data-role="display"
-         style="left:7.78%; top:29%; width:84.44%; height:31%;
-                font-size:11.8cqw; font-weight:700; color:var(--brand-text-on-light, #101010);
-                line-height:1.05; letter-spacing:-0.03em; text-align:left;
+         style="left:7.78%; top:29.5%; width:84.44%; height:18%;
+                font-size:6.67cqw; font-weight:700; color:var(--brand-text-on-light, #101010);
+                line-height:1.05; letter-spacing:-0.025em; text-align:left;
                 overflow:hidden;">{{{HEADLINE}}}</div>
 
     <!-- SUBTITLE — subtitle scale, two lines, graphite. Positioned with a large gap below HEADLINE for
          the same ring-false-positive reason noted above (HEADLINE's own ring reaches down to ~78% given
          its height, so SUBTITLE must start clear of that). -->
     <div class="zone" data-slot="SUBTITLE"
-         style="left:7.78%; top:79%; width:62%; height:7%;
+         style="left:7.78%; top:51%; width:62%; height:7.5%;
                 font-family: var(--font-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
                 font-size:3.33cqw; font-weight:400; color:var(--brand-secondary, #555553);
                 line-height:1.3; letter-spacing:-0.01em; text-align:left;
                 overflow:hidden;">{{{SUBTITLE}}}</div>
 
     <!-- Bottom structural rule (decision-line move, heavier weight) -->
-    <div class="rule heavy" style="left:7.78%; top:91%; width:84.44%; height:2px;"></div>
+    <div class="rule heavy" style="left:7.78%; top:85.2%; width:84.44%; height:2px;"></div>
 
     <!-- FOOTER CAPTION — kicker/theme label. NOTE: at top:92.3%/height:2.2% this sits slightly below
          tokens.json's declared safe_area.bottom (108px/8% -> content should stay above 92%) — a small,
          known compromise (bottom edge ~94.5%) forced by the SUBTITLE/rule ring-clearance chain above.
          Flagged here for by-eye review; see rationale.md and instructions.md "Fixed elements". -->
     <div class="zone kicker-label" data-slot="CAPTION_FOOTER"
-         style="left:7.78%; top:92.3%; width:84.44%; height:2.2%;
+         style="left:7.78%; top:90.3%; width:84.44%; height:2.2%;
                 font-size:2.04cqw; line-height:1.0; text-align:left;">{{CAPTION_FOOTER}}</div>
 
   </div>

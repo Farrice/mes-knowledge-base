@@ -39,7 +39,8 @@
     .headline {
       font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
       font-weight: 700;
-      font-size: 9.6cqw;              /* type_scale.display 104px @ 1080 canvas ≈ 9.63cqw */
+      font-size: 6.67cqw;             /* CRAFT PASS 2026-09-03: brand h1 72px (the ref's size); was 9.6cqw — see ../REVIEW-NOTES.md */
+      line-height: 1.25;
       line-height: 1.0;
       letter-spacing: -0.025em;
       color: var(--brand-text-on-dark, #FAFAF8);
@@ -127,7 +128,7 @@
     .recommendation-name {
       font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
       font-weight: 700;
-      font-size: 3.6cqw;
+      font-size: 2.6cqw;              /* CRAFT PASS 2026-09-03: ref "DM ANGLE" ≈ 28px; was 3.6cqw */
       letter-spacing: -0.01em;
       color: var(--brand-text-on-dark, #FAFAF8);
     }
@@ -152,12 +153,12 @@
          width-bound autosize more legal room without the rendered TEXT ever gluing to the
          true edge; only the box's invisible bound moves, not the visible margin. -->
     <div class="zone display headline" data-slot="HEADLINE"
-         style="left:8%; top:25%; width:90%; height:30%;
+         style="left:8%; top:26%; width:84%; height:26%;
                 display:flex; align-items:flex-start;
-                text-align:left; white-space:nowrap;">{{{HEADLINE}}}</div>
+                text-align:left;">{{{HEADLINE}}}</div>
 
     <!-- THREE-ROUTE GRAMMAR (brand move #4) -->
-    <div class="zone route-zone" data-slot="ROUTE_GRAMMAR" style="left:8%; top:61%; width:84%; height:12%;">
+    <div class="zone route-zone" data-slot="ROUTE_GRAMMAR" style="left:8%; top:63%; width:84%; height:12%;">
       <div class="route-row quiet">
         <div class="route-stroke"><span class="route-dot"></span></div>
         <span class="route-label" data-slot="ROUTE_01_LABEL">{{ROUTE_01_LABEL}}</span>
@@ -174,10 +175,10 @@
 
     <!-- FOOTER: functional caption + resolved recommendation name -->
     <div class="zone footer-caption" data-slot="FOOTER_CAPTION"
-         style="left:8%; top:85%; width:84%; height:3%;">{{FOOTER_CAPTION}}</div>
+         style="left:8%; top:86.9%; width:84%; height:3%;">{{FOOTER_CAPTION}}</div>
 
     <div class="zone recommendation-name" data-slot="RECOMMENDATION_NAME"
-         style="left:8%; top:89%; width:60%; height:5%;">{{{RECOMMENDATION_NAME}}}</div>
+         style="left:8%; top:91.6%; width:60%; height:4%;">{{{RECOMMENDATION_NAME}}}</div>
 
   </div>
 </body>

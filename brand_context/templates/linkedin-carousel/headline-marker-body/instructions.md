@@ -108,7 +108,7 @@ content bands). No `ref_input`, no per-post image variables — nothing in this 
     natural wrap (no manual `<br>` in the sample — the display scale needed to clear the 8cqw display-height
     floor wraps a full-sentence headline to more, shorter lines than the ref's exact 3-line break; supports
     `<br>` if a future value wants a deliberate break)
-  - sample: "The format changed. The campaign argument did not."
+  - sample: "The format changed.<br>The campaign argument<br>did not."
   - user_editable: true
   - max_chars: ~70 (auto-shrinks toward the 8cqw floor if longer)
 
@@ -146,3 +146,6 @@ content bands). No `ref_input`, no per-post image variables — nothing in this 
   Fixed structure; only its labels are slots.
 - Flat `var(--brand-bg-light)` background — not slot-editable, no AI generation.
 - `data-surface="light"` on the slide root.
+
+## Craft pass 2026-09-03 (Farrice)
+Headline returned to the brand h1 (72px = 6.67cqw, the ref size), ref vertical rhythm restored, re-rendered via render_template.py (no AI). Sizes/bboxes above and in _measurements.yaml describe the ORIGINAL build. Headline values must carry explicit <br> line breaks: the renderer autosize shrinks any natural wrap. Decisions: ../REVIEW-NOTES.md
