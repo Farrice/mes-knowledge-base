@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "sep 2, 2026",
+  "compiled": "sep 3, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.\n\nHandoff written 46d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.\n\nHandoff written 47d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -177,7 +177,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"
