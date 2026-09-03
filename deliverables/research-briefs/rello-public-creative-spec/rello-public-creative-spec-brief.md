@@ -1,46 +1,46 @@
-# Rello: make consistency the lead
+# Rello has a Tuesday problem
 
 > Founder proof object · public-source only · window: Public sources checked September 3, 2026 · lens: Protein bar · creatine routine · active Meta creative · sources: Rello site + Meta Ad Library + NSF · compiled: September 3, 2026
 
-The one-page founder-facing version of the full Rello Creative Test Autopsy. It credits the current work, names one visible gap, and shows two test directions.
+The product story is already strong. The sharper acquisition angle may be the moment a good supplement routine meets an ordinary, messy morning.
 
-## the message gap
-_Qualified public-source target_
-Rello's current ads give the buyer a real product difference: 20g protein plus 1.2g creatine, backed by clean-label language and lo-fi creator delivery. Four active ads found September 3 repeat the same primary text and near-identical creator treatment.
+## my strategic read
+_The routine may be the real competitor_
+Rello's visible ads explain what the bar contains: protein, creatine, fiber, and clean ingredients. The brand's own origin story reveals a more human problem: nutrition should not feel like a second job. Those are two different stories. One informs. The other recognizes the buyer with a half-used tub, a late morning, and another promise to be more consistent tomorrow.
 
-That does not prove fatigue or underperformance. It does reveal a clean next question: can the brand acquire more attention by leading with the routine problem its own origin story already names?
+My read: Rello may gain more from removing self-blame than from adding another benefit. Let the buyer solve the routine instead of questioning their discipline. That is a public-source hypothesis, not an account diagnosis; it earns a controlled test against the current product-led message.
 
-## source receipts
+## why the read is defensible
 - **Rello is actively running paid social.** [VERIFIED] — Four active Meta ads were observed with start dates between August 12 and August 18, 2026. They repeat the same primary product copy. (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered)
 - **The product and offer are live.** [VERIFIED] — Chocolate Crunch is listed at $53.99 for 12 bars with 20g protein, 1.2g creatine, and 9g fiber per bar. (https://relloco.com/products/chocolate-protein-bar?variant=47322736722107)
 - **Reduced routine friction is owned brand language.** [VERIFIED] — Rello says nutrition should not feel like a second job and contrasts its format with powders, scoops, and separate products. (https://relloco.com/pages/about-us)
 
-## two concepts to separate
-1. **A · One less supplement ritual** — Lead with the creatine-aware buyer who keeps forgetting a separate scoop. Show the bar entering a bag while the tub stays on the counter. The product facts become proof after the routine tension.
-2. **B · The protein bar with a performance layer** — Lead with the solution-aware protein-bar buyer comparing labels. Make 20g protein plus 1.2g creatine the entire first-screen difference. Hold the broader benefit stack for the landing page.
+## two territories worth testing
+1. **A · The tub you meant to finish** — Open on the private evidence of inconsistency: the half-used tub still sitting where Monday left it. The emotional release is permission to fix the format instead of blaming discipline. Rello enters only after that recognition lands.
+2. **B · Make the snack earn its place** — Target the practical optimizer who resents carrying a bag full of single-job products. Make the bar prove its value through two visible jobs: 20g protein and 1.2g creatine. The wider benefit stack stays off the first screen.
 
-## six example hooks
-**Concept A · consistency**
+## six sample openings
+**Concept A · private recognition**
 ```
-A1  If the hardest part of creatine is remembering the scoop, put it in the snack you already carry.
+A1  Your half-used creatine tub may have a format problem.
 
-A2  My protein bar started replacing one more tub on the counter.
+A2  The best supplement routine is the one that survives a late Tuesday.
 
-A3  20 grams of protein. 1.2 grams of creatine. No shaker bottle.
+A3  You remembered the gym bag. The creatine is still on the counter.
 ```
-**Concept B · product difference**
+**Concept B · useful ambition**
 ```
-B1  Most protein bars stop at protein. This one adds 1.2 grams of creatine.
+B1  If a snack takes up room in your gym bag, make it earn the space.
 
-B2  The label is short. The job list is not.
+B2  This bar brought 20 grams of protein. It also brought creatine.
 
-B3  A performance bar for people who are done managing a supplement stack.
+B3  A protein bar for people who hate carrying the rest of the routine.
 ```
 
-## visible unknowns
-UNCONFIRMED: spend, sales, winning-ad status, CPA, ROAS, audience mix, customer objections, creator rights, margin, inventory depth, and approved claims.
+## where public evidence stops
+UNCONFIRMED: spend, sales, winning-ad status, CPA, ROAS, audience mix, customer objections, creator rights, margin, inventory depth, and approved claims. Active does not mean winning. Repeated copy does not prove fatigue. A discipline-first interpretation is a credible alternative and should remain alive until the test reads. Brand review must also resolve the product page's 1g versus 1.2g FAQ wording.
 
-The public evidence supports a test recommendation, not a diagnosis. Active does not mean winning. Repeated copy does not prove fatigue. Brand review must resolve the product page's 1g versus 1.2g FAQ wording before copy is finalized.
+I would retire this angle if customer language shows no meaningful consistency problem, or if the current product-led control clearly wins under matched conditions. What this page proves: public evidence can become a falsifiable creative point of view. Paid work begins with account-level diagnosis, customer-language mining, complete scripts and briefs, claim clearance, a controlled test matrix, and the post-test read.
 
 ## Source ledger
 1. Meta Ad Library — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered (retrieved 2026-09-03, VERIFIED; used for: Active-ad inventory)

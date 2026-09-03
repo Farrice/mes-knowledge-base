@@ -1,8 +1,8 @@
 {
   "slug": "lumen-public-creative-spec",
   "chip": "Founder proof object · public-source only",
-  "title": "Lumen: make refreshing protein mean one *moment*",
-  "dek": "A one-page creative strategy specimen for Yasir Hashim. It preserves Lumen's category difference while forcing each paid-social test to earn one acquisition occasion.",
+  "title": "Lumen can own the hour when a shake feels *too heavy*",
+  "dek": "Clear protein is a product difference. The more human acquisition story may be the awkward hour when the buyer wants nutrition without drinking another meal.",
   "window": "Public sources checked September 3, 2026",
   "lens": "Sparkling protein · recovery beverage · occasion strategy",
   "sources": "Lumen product pages + nationwide Sprouts release",
@@ -14,13 +14,13 @@
   "sections": [
     {
       "kind": "summary",
-      "heading": "the message *gap*",
-      "kicker": "Anytime is not a test cell",
-      "body": "Lumen's category contrast is already legible: protein without the heaviness, chalkiness, or milky texture of a traditional shake. The public story expands that advantage into morning, desk, gym, recovery, and on-the-go use. Those occasions involve different frictions and should not share one acquisition test.\n\nThe first two concepts below keep the same product truth but give the media buyer a clean choice between category displacement and a specific afternoon occasion."
+      "heading": "my strategic *read*",
+      "kicker": "The category difference needs a human moment",
+      "body": "Lumen's category contrast is already clear: protein without the heaviness, chalkiness, or milky texture of a traditional shake. The public story then expands that advantage into morning, desk, gym, recovery, and on-the-go use. Clear protein describes the product; it does not yet tell the buyer when the difference matters most.\n\nMy read: Lumen can own the appetite mismatch between desk and training. At that hour, a shake can feel like another meal while plain sparkling water feels nutritionally thin. The product becomes relief from choosing between the two. Category displacement may still be the stronger acquisition frame, so the first test should put that broad sensory idea against the narrower afternoon occasion."
     },
     {
       "kind": "evidence",
-      "heading": "source *receipts*",
+      "heading": "why the read is *defensible*",
       "rows": [
         {"claim": "Lumen's owned product difference is light, clear protein.", "evidence": "The sparkling-protein page contrasts Lumen with heavy, milky, high-calorie protein drinks and frames the line as light refreshment for daily performance.", "source_url": "https://morelumen.com/sparkling-protein", "source_label": "Lumen category page", "confidence": "VERIFIED"},
         {"claim": "Cocolada lists 16g clear protein and a rice-plus-collagen blend.", "evidence": "The product page presents the drink as light, crisp, dairy-free, and designed to support rehydration, rebuilding, and recovery.", "source_url": "https://drinklumen.myshopify.com/products/cocolada", "source_label": "Lumen Cocolada page", "confidence": "VERIFIED"},
@@ -29,24 +29,24 @@
     },
     {
       "kind": "decision",
-      "heading": "two concepts to *separate*",
+      "heading": "two territories worth *testing*",
       "items": [
-        {"action": "A · Protein without the shake", "why": "Target active buyers who understand protein but dislike thick drinks. Build the creative around the sensory contrast: clear pour, carbonation, cold can, no shaker. The 16g protein fact is proof, not the opening scene."},
-        {"action": "B · The 3 p.m. protein reset", "why": "Target desk-to-training buyers whose afternoon snack is light but nutritionally thin. Make one occasion concrete: cold can from the office fridge before the evening workout. Do not add breakfast, commute, and post-workout to the same ad."}
+        {"action": "A · No bracing for the first sip", "why": "Target protein-shake rejectors through a feeling they already know: expecting thick, chalky, meal-like texture. Open on the clear pour and carbonation. Let 16g protein arrive as the surprise after the drink already looks refreshing."},
+        {"action": "B · The awkward hour between desk and training", "why": "Make 3:17 p.m. the scene. The buyer wants something cold and light but still has an evening workout ahead. One office-fridge moment gives the product a job that morning, commute, and post-workout language only blur."}
       ]
     },
     {
       "kind": "deploy",
-      "heading": "six example *hooks*",
+      "heading": "six sample *openings*",
       "blocks": [
-        {"label": "Concept A · category displacement", "text": "A1  Protein does not have to drink like a meal.\n\nA2  Clear, cold, sparkling, and carrying 16 grams of protein.\n\nA3  For the days when you want the protein but not another shake."},
-        {"label": "Concept B · afternoon occasion", "text": "B1  The 3 p.m. drink that still makes sense before a 6 p.m. workout.\n\nB2  Your afternoon protein can come out of the fridge, not a shaker bottle.\n\nB3  A cold protein drink for the gap between desk and training."}
+        {"label": "Concept A · sensory relief", "text": "A1  Protein should not make you brace for the first sip.\n\nA2  You wanted 16 grams of protein. You got a cold sparkling drink.\n\nA3  For the days when drinking lunch sounds worse than skipping the shake."},
+        {"label": "Concept B · the awkward hour", "text": "B1  At 3 p.m., a shake feels like a meal. A seltzer feels like a shrug.\n\nB2  The awkward hour between desk and training finally has a drink.\n\nB3  The 3:17 choice before a 6 p.m. workout."}
       ]
     },
     {
       "kind": "caveats",
-      "heading": "visible *unknowns*",
-      "body": "UNCONFIRMED: active Meta spend, winning SKU, retail velocity, repeat purchase, taste objections, primary acquisition occasion, creator capacity, landing-page conversion, and approved recovery language.\n\nCLAIM HOLD: use the exact current nutrition panel and brand-approved substantiation before asserting absorption, superior recovery, rehydration, or comparative calorie advantages. The concepts are test directions, not proof of demand."
+      "heading": "where public evidence *stops*",
+      "body": "UNCONFIRMED: active Meta spend, winning SKU, retail velocity, repeat purchase, taste objections, primary acquisition occasion, creator capacity, landing-page conversion, and approved recovery language. The afternoon frame may be too narrow; category displacement remains the live alternative.\n\nI would retire the 3:17 idea if customer language does not reveal an afternoon appetite mismatch, or if the broader sensory concept wins a matched conversion test. Claim hold: use the exact current nutrition panel and brand-approved substantiation before asserting absorption, superior recovery, rehydration, or comparative calorie advantages. Paid work begins with account diagnosis, customer language, complete scripts and briefs, claim clearance, the test matrix, and result interpretation."
     }
   ],
   "ledger": [

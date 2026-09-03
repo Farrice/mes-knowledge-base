@@ -1,8 +1,8 @@
 {
   "slug": "melting-forest-public-creative-spec",
   "chip": "Founder proof object · public-source only",
-  "title": "Glow Up: make the all-in-one drink say one *thing*",
-  "dek": "A one-page creative strategy specimen for Sean McDonald. Two tests separate the format advantage from the beauty-and-wellness occasion.",
+  "title": "Glow Up can turn an ingredient stack into an *afternoon ritual*",
+  "dek": "The formula has plenty to say. The buyer still needs one human reason to reach for the can today.",
   "window": "Public sources checked September 3, 2026",
   "lens": "Sparkling collagen protein · functional beverage · paid-social message architecture",
   "sources": "Melting Forest product page + Sprouts launch release",
@@ -14,13 +14,13 @@
   "sections": [
     {
       "kind": "summary",
-      "heading": "the message *gap*",
+      "heading": "my strategic *read*",
       "kicker": "All-in-one can become all-at-once",
-      "body": "Glow Up has multiple credible product stories: protein without a shake, collagen, prebiotic fiber, mushrooms, magnesium, beauty botanicals, low sugar, culinary flavors, and sparkling refreshment. That breadth makes the formula interesting but weakens the first second of an ad.\n\nThe cleanest split is between a category-displacement test for protein-shake rejectors and a specific beauty-wellness occasion. In both, the unused ingredients become supporting proof rather than additional promises."
+      "body": "Glow Up has many legitimate product stories: collagen protein, prebiotic fiber, mushrooms, magnesium, beauty botanicals, low sugar, culinary flavors, and sparkling refreshment. That breadth makes the formula interesting and the first second of an ad indecisive. Buyers do not experience an ingredient inventory; they experience one reason to open the fridge.\n\nMy read: Glow Up can make a dense formula feel emotionally light. One route rejects the punishment texture of traditional protein. The other turns a pull tab into a small afternoon beauty ritual. A formula-led audience may still want the ingredient stack first, so the test should preserve that as the live alternative rather than treating this interpretation as settled."
     },
     {
       "kind": "evidence",
-      "heading": "source *receipts*",
+      "heading": "why the read is *defensible*",
       "rows": [
         {"claim": "The current product has a concrete sensory contrast.", "evidence": "The Apple Ginger page describes a clear sparkling drink with 15g collagen protein, 5g prebiotic fiber, and zero added sugar, positioned against thick or chalky shakes.", "source_url": "https://meltingforest.com/products/glow-up-sparkling-collagen-protein-apple-ginger", "source_label": "Glow Up product page", "confidence": "VERIFIED"},
         {"claim": "Glow Up has a current national retail trigger.", "evidence": "The July 7 release says four flavors launched at Sprouts nationwide through the Selective Forager set.", "source_url": "https://www.bevnet.com/pr/2026/07/07/melting-forest-launches-glow-up-functional-protein-drink-exclusively-at-sprouts-farmers-market", "source_label": "BevNET launch release", "confidence": "VERIFIED"},
@@ -29,25 +29,25 @@
     },
     {
       "kind": "decision",
-      "heading": "two concepts to *separate*",
+      "heading": "two territories worth *testing*",
       "items": [
-        {"action": "A · Protein without the shake", "why": "Target buyers who want protein but reject heaviness, chalk, or another creamy bottle. Open on the clear pour and carbonation. Use 15g collagen protein as the proof after the sensory contrast lands."},
-        {"action": "B · The afternoon beauty ritual", "why": "Target an ingestible-beauty buyer at one specific occasion: the cold can between lunch and evening. Open on the cold can in a real afternoon moment. Collagen and vitamin C can support the story only within approved claim language."}
+        {"action": "A · Protein without the penance", "why": "Target buyers who associate protein with thick, beige, dutiful drinks. Make the clear pour and carbonation feel like escape before 15g collagen protein arrives as proof. The enemy is the ritual that feels good-for-you and tastes like work."},
+        {"action": "B · The pull-tab beauty ritual", "why": "Target one ordinary afternoon moment rather than promising an outcome. A cold Apple Ginger can between calls makes the ritual pleasurable and easy to picture. Collagen and vitamin C stay supporting facts inside approved language."}
       ]
     },
     {
       "kind": "deploy",
-      "heading": "six example *hooks*",
+      "heading": "six sample *openings*",
       "blocks": [
-        {"label": "Concept A · protein format", "text": "A1  Fifteen grams of collagen protein without another thick shake.\n\nA2  Watch what happens when a protein drink pours clear and sparkling.\n\nA3  For people who want the protein and refuse the chalk."},
-        {"label": "Concept B · beauty occasion", "text": "B1  A cold-can beauty ritual built for the afternoon.\n\nB2  Your afternoon ritual can taste like apple and ginger, not supplement powder.\n\nB3  One sparkling can. One beauty-and-wellness occasion. No ingredient lecture."
+        {"label": "Concept A · sensory rebellion", "text": "A1  If your protein drink feels like penance, you are going to skip it.\n\nA2  Fifteen grams of collagen protein. Zero beige sludge.\n\nA3  It pours like sparkling water. The label has other plans."},
+        {"label": "Concept B · afternoon ritual", "text": "B1  The afternoon beauty ritual that comes with a pull tab.\n\nB2  Skincare lives in the bathroom. This ritual lives in the office fridge.\n\nB3  Apple, ginger, and bubbles: a better reason to open the fridge at 3:14."
         }
       ]
     },
     {
       "kind": "caveats",
-      "heading": "visible *unknowns*",
-      "body": "UNCONFIRMED: active paid-social inventory, winning flavor, retail velocity, repeat rate, primary buyer, creator access, landing-page conversion, and which beauty, gut, calm, or protein claims have final approval.\n\nCLAIM HOLD: the product page contains several body-outcome statements. Use only language supported by the brand's current substantiation file and reviewer. Do not imply treatment, guaranteed cosmetic change, stress reduction, or superior absorption."
+      "heading": "where public evidence *stops*",
+      "body": "UNCONFIRMED: active paid-social inventory, winning flavor, retail velocity, repeat rate, primary buyer, creator access, landing-page conversion, and which beauty, gut, calm, or protein claims have final approval. A formula-first buyer may outperform either experiential concept; only account and customer evidence can decide.\n\nI would retire the ritual frame if customer language values formula density more than sensory experience, or if an ingredient-led control wins the matched test. Claim hold: use only language supported by the brand's current substantiation file and reviewer. Avoid guaranteed cosmetic change, stress reduction, superior absorption, or disease language. Paid work begins with account diagnosis, customer language, complete scripts and briefs, claim clearance, the test matrix, and result interpretation."
     }
   ],
   "ledger": [
