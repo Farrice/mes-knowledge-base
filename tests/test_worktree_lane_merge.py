@@ -48,8 +48,9 @@ def repo(tmp_path, monkeypatch):
     git(main, "config", "user.name", "t")
     (main / "doc.md").write_text("line 1\nline 2\n")
     (main / "other.md").write_text("o\n")
-    (main / ".gitignore").write_text(".agent/lanes.json\n.agent/lane-merge.lock\n.claude/worktrees/\n")
     (main / ".agent").mkdir()
+    (main / ".agent" / "first.jsonl").write_text("{}\n")  # sorts FIRST; an unstaged edit here has a leading-space status
+    (main / ".gitignore").write_text(".agent/lanes.json\n.agent/lane-merge.lock\n.claude/worktrees/\n")
     _commit_all(main, "init")
     origin = tmp_path / "origin.git"
     git(tmp_path, "init", "-q", "--bare", str(origin))
@@ -197,6 +198,7 @@ def test_preserve_moves_tracked_work_off_main_loss_free(repo, monkeypatch):
     git(repo.main, "add", "deliverable.md")
     (repo.main / "doc.md").write_text("edited on main\n")
     git(repo.main, "rm", "-q", "other.md")
+    (repo.main / ".agent" / "first.jsonl").write_text('{}\n{"a":1}\n')  # " M .agent/first.jsonl" is the FIRST porcelain line
     (repo.main / "scratch.txt").write_text("untracked\n")
     monkeypatch.chdir(repo.main)
     monkeypatch.setattr(wl, "main_root", lambda cwd=None: repo.main)
@@ -210,6 +212,7 @@ def test_preserve_moves_tracked_work_off_main_loss_free(repo, monkeypatch):
     lane = Path(reg[branch]["path"])
     assert (lane / "deliverable.md").read_text() == "human work\n"
     assert (lane / "doc.md").read_text() == "edited on main\n"
+    assert (lane / ".agent" / "first.jsonl").read_text().endswith('{"a":1}\n'), "leading-space first status line mis-parsed"
     assert not (lane / "other.md").exists()
     show = git(lane, "show", "--stat", "--name-only", "HEAD").stdout
     for rel in ("deliverable.md", "doc.md", "other.md"):

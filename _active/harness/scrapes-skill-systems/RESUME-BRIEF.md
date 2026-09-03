@@ -1,33 +1,29 @@
 # Scrapes Skill Systems — Resume Brief (LIVING; update in place)
 
-*Last updated 2026-09-02 (end of the integration session). Paste the "Kickoff prompt" at the bottom into a fresh session to start hot.*
+*Last updated 2026-09-02 late session (lane `worktree-scrapes-routing`, Farrice asleep, full permission granted for reconcile + land). Paste the "Kickoff prompt" at the bottom into a fresh session to start hot.*
 
 ## Where we are, in one breath
-Scrapes' 36 skills and 4 workers are vendored and on main. Farrice's brand context is built from canon. The OpenAI GPT Image path is keyed and capped at $15/month. Jen has a sibling brand context and one carousel through the system (cover A chosen, v2 copy awaiting his verdict, a Claude Design canvas live). The routing layer does NOT yet know the Scrapes skills exist, and Jen's real Scrapes execution run (template factory → designer → image generator) has not happened because her six brand inputs are not in yet.
+The 36 Scrapes skills and 4 workers are vendored, on main, and — as of tonight — **reachable from intent**: six bindings open six front doors (`/social-carousel`, `/social-post`, `/social-repurpose`, `/deck-build`, `/video-to-shorts`, `/video-to-ebook`), every door opens with a **BRAND LOCK** (`execution/scrapes_brand.py`; farrice / jen / andrea registered; ambiguity asks, never guesses), our pens own the copy seams (Scrapes runs Scenario A), and every run writes to the loops (`context/learnings.md` is live, finalize, asset manifest, handoffs). Design + seam map: `ORCHESTRATION-DESIGN.md`. Jen's canvas thread is **parked** (his call, 2026-09-02); nothing further on her run until her six inputs land.
 
-## Before the next real run (do in this order)
-1. **Land the lane.** On main: `git merge --abort`, then `python3 execution/worktree_lane.py merge --lane codex/scrapes-trial`. Six commits ride in it (budget guard, Jen brand context + intake pack, both Jen runs, canvas source, precedence-map routing rule).
-2. **Wire the router (≈20 min, one lane).** Add bindings so intent reaches the Scrapes front doors AND our pens:
-   - `directives/routing-bindings.md` + `execution/routing_enforcer.py BINDINGS`: "carousel / social post / repurpose / slides / video to shorts / youtube to ebook" → the matching Scrapes skill, with the craft-room seats named (Alyssa + Luke for Jen; VOICE-CARD + Luke for Farrice).
-   - A thin front-door workflow `.agent/workflows/social-carousel.md` that runs 00-social-content's phases and hands the copy seams to our pens (the table in PRECEDENCE-MAP.md "Craft-room routing"). The per-prompt router scores `.agent/workflows/*.md` stems, so a workflow is what makes it fireable; Scrapes skills alone are invisible to it.
-   - `execution/skill_router_hook.py`: teach it to read `vendor:` entries from the arsenal index so `/00-*`, `/mkt-*`, `/viz-*` show up as routing suggestions.
-3. **Jen's six inputs.** Forward `_active/clients/jen-listings/brand_context/INTAKE-PROMPT-PACK.md` (from "hey jen" down). Nothing in step 4 is honest without them.
-4. **The real run for Jen (the blind bar, one sitting with Farrice's approvals):** mkt-visual-identity Import (tokens from `valley-editions/DESIGN.md`, refs classified inspiration) → ssc-template-builder ×6 → Template Studio approve → 00-social-content on the same "still renting" topic → ssc-designer → ssc-image-generator → Content Studio. Judge it against the v2 canvas. Cost: templates $0; any AI slide is pre-flighted by the guard and stated before it runs.
-5. **Farrice's own first run:** `/mkt-visual-identity` is done (Premium Minimal imported, brand book v1). Next is the template pool from `premium-minimal/package/templates/*.svg`, then `/00-social-content` on one supplement teardown, judged against the current LinkedIn carousel path.
-
-## Verdicts still open (his)
-- v2 copy (cover A): 9 or not? Which frame is short?
-- Precedence map: any FLIP / KEEP he disagrees with.
-- Sprint as door three: alive or dead (positioning.md keeps it as door three).
-- Journal lane `codex/health-performance-evidence-journal`: 40 conflicts in generated research-brief HTML; needs its own sitting.
+## What he still has to tap (his verdicts, in order)
+1. **Template pool for his brand** — `scrapes_brand.py check farrice --pool linkedin-carousel` says `render path: blocked` (no pool). Build: drop 4–6 refs from `_active/farrice-brand/premium-minimal/package/templates/carousel/*.png` into `brand_context/visual_refs/`, run `00-social-content` onboarding Phase 5 (one `ssc-template-builder` per ref; GPT Image est. $0.17/image, month $0.00/$15.00), approve in Template Studio. Until then a carousel for his brand stops at the check with a plain reason.
+2. **Blind bar #1** — one supplement teardown through `/social-carousel` vs the current LinkedIn carousel path. Judge: hook slide, visual floor, voice.
+3. **Precedence map** — any FLIP / KEEP he disagrees with (`PRECEDENCE-MAP.md`).
+4. **Jen v2 copy (cover A)** — 9 or not, which frame is short (thread `jen-canvas`, parked).
+5. **Gigi** — register her `BRAND.yaml` when lane `worktree-gigi-engine-run` lands (her root is not on main yet).
 
 ## Do NOT rebuild
-Brand context (both), the arsenal index patch, the constitution block, the budget guard, the precedence map, the canvas artboards (`projects/00-social-content/2026-09-02/jen-priced-out/v2/canvas/`), the intake pack. Extend, never regenerate.
+Brand context (all three), the six front doors, `scrapes_brand.py`, the bindings, the budget guard, the precedence map, the constitution block, the canvas artboards, the intake pack. Extend, never regenerate. Never edit inside `.claude/skills/*`.
+
+## Harness state that matters
+- `worktree_lane.py merge` now verifies its abort (main can no longer be left mid-merge by the tool); `worktree_lane.py preserve` moves stranded human work off main into its own lane; `main_write_guard.py --self-test` pins the cwd rules (21 cases). Tests: `tests/test_worktree_lane_merge.py`, `tests/test_scrapes_routing.py`.
+- `.agent/openai-usage.json` is TRACKED and is written by `openai_budget_guard.py status/check` — it should join `SPEND_LINKS` in `worktree_lane.py` (untrack on main first) so lanes never churn it. Not done tonight; one-line follow-up.
+- `tool-zernio-social/SKILL.md` frontmatter does not parse (unquoted colons); it is DO-NOT-USE anyway, so it is the one vendor skill the router does not index.
 
 ## Files
-`_active/harness/scrapes-skill-systems/{PRECEDENCE-MAP,INTEGRATION,RESUME-BRIEF}.md` · `brand_context/` (Farrice) · `_active/clients/jen-listings/brand_context/` (Jen) · `directives/openai-usage-policy.md` · `.agent/handoffs/2026-09-02-jen-canvas.md` · canvas https://claude.ai/code/artifact/084b1bd6-f6b0-4a4a-b1dd-9ddb6d611fb1
+`_active/harness/scrapes-skill-systems/{ORCHESTRATION-DESIGN,PRECEDENCE-MAP,INTEGRATION,RESUME-BRIEF}.md` · `execution/scrapes_brand.py` · `.agent/workflows/{social-carousel,social-post,social-repurpose,deck-build,video-to-shorts,video-to-ebook}.md` · `context/learnings.md` · `brand_context/` + `_active/farrice-brand/brand_context/BRAND.yaml` (Farrice) · `_active/clients/jen-listings/brand_context/` (Jen) · `_active/clients/andrea-dj/brand_context/BRAND.yaml` (stub) · `directives/openai-usage-policy.md` · canvas https://claude.ai/code/artifact/084b1bd6-f6b0-4a4a-b1dd-9ddb6d611fb1 (parked)
 
 ## Kickoff prompt (paste into the new session)
 ```
-Resume thread jen-canvas. Read _active/harness/scrapes-skill-systems/RESUME-BRIEF.md first, then PRECEDENCE-MAP.md and .agent/handoffs/2026-09-02-jen-canvas.md. Step 2 of the brief first: wire the router so the Scrapes skills are fireable and hand their copy seams to our pens (Alyssa + Luke for Jen, VOICE-CARD + Luke for me). Then, if Jen's six inputs are in, run step 4 end to end with me approving in the Studios; if not, run step 5 on my brand. State cost before any AI image call. No Chain ceremony until something ships.
+Resume thread scrapes-integration. Read _active/harness/scrapes-skill-systems/RESUME-BRIEF.md, then ORCHESTRATION-DESIGN.md §3–4. First: build my linkedin-carousel template pool (refs from premium-minimal/package/templates/carousel, ssc-template-builder per ref, state cost before each GPT Image call, I approve in Template Studio). Then run /social-carousel on one supplement teardown for my brand as blind bar #1 against the current LinkedIn carousel path. BRAND LOCK on every step. No Chain ceremony until something ships.
 ```

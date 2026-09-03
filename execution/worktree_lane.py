@@ -890,7 +890,12 @@ def _status_paths(porcelain: str) -> "tuple[list[str], list[str]]":
         if line.startswith("??"):
             untracked.append(line[3:])
             continue
-        rest = line[3:]
+        # `_git` strips stdout, so the FIRST line may have lost its leading
+        # status space (" M path" -> "M path"). Split on the first run of
+        # whitespace after the status token instead of slicing at column 3
+        # (evidenced 2026-09-02: ".agent/x" became "agent/x").
+        parts = line.split(None, 1)
+        rest = parts[1] if len(parts) == 2 else line[3:]
         if " -> " in rest:
             a, b = rest.split(" -> ", 1)
             tracked.extend([a, b])
@@ -956,7 +961,16 @@ def cmd_preserve(args) -> int:
             shutil.copy2(src, dst)
         elif dst.exists():
             dst.unlink()
-    _git(lane, "add", "-A", "-f", "--", *tracked)
+    # Whole-tree add: the fresh lane differs from HEAD in exactly the copied
+    # paths, and a pathspec form would abort the ENTIRE add when one path no
+    # longer exists on either side (renames/deletes) — evidenced 2026-09-02.
+    rc, out, err = _git(lane, "add", "-A")
+    if rc != 0:
+        print(f"ERROR: preserve add failed: {(err or out)[:300]} — main untouched; "
+              f"removing the half-built lane", file=sys.stderr)
+        _git(main, "worktree", "remove", "--force", str(lane))
+        _git(main, "update-ref", "-d", f"refs/heads/{branch}")
+        return 1
     # Mechanical commit: repo hooks (auto-push, closeout) stay out of it — our
     # own --push handles the remote, and a hook failing in a fresh worktree
     # must never look like "nothing to preserve".
