@@ -1,6 +1,6 @@
 # Book One 80/20 product, layout, pricing, imagery…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 2, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: sep 3, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.
 
-Handoff status is ready. Last activity 8d ago.
+Handoff status is ready. Last activity 9d ago.
 
 Next: Resume the `02-book-blueprint` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (02-book-blueprint)._
 
 ## the state, as the last session left it
-Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -26,7 +26,7 @@ Do not rebuild:
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+1. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan
@@ -67,7 +67,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **9 d**
+- DAYS ACTIVE: **10 d**
 
 ## momentum
 
@@ -90,7 +90,7 @@ Amazon sample and live prices inspected; KDP policies and older-adult exercise s
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

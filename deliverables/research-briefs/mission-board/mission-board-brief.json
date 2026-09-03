@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "352 sessions swept",
-  "compiled": "sep 2, 2026",
+  "sources": "362 sessions swept",
+  "compiled": "sep 3, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,11 +28,11 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "24",
+          "value": "23",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "45",
+          "value": "78",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "352",
+          "value": "362",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,7 +53,6 @@
           "label": "sessions",
           "values": [
             0,
-            0,
             1,
             0,
             0,
@@ -65,9 +64,10 @@
             0,
             0,
             1,
-            4
+            4,
+            1
           ],
-          "value": "8",
+          "value": "9",
           "note": "per day"
         },
         {
@@ -80,13 +80,13 @@
             0,
             0,
             0,
-            0,
             3,
             1,
             0,
-            5,
+            4,
             0,
-            0
+            0,
+            1
           ],
           "value": "9",
           "note": "per day"
@@ -142,9 +142,9 @@
           ]
         },
         {
-          "label": "go",
+          "label": "offer redteam",
           "values": [
-            6
+            3
           ]
         }
       ]
@@ -156,13 +156,13 @@
       "links": [
         {
           "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
+          "title": "harness",
+          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "harness",
-          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
+          "title": "system audit",
+          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
         },
         {
           "k": "BUILD",
@@ -201,8 +201,8 @@
         },
         {
           "k": "ACTIVE",
-          "title": "go",
-          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
+          "title": "offer redteam",
+          "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -277,8 +277,8 @@
         },
         {
           "date": "2026-08-24",
-          "title": "offer-redteam",
-          "body": "Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card writt",
+          "title": "go",
+          "body": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthroug",
           "done": true
         },
         {
@@ -293,7 +293,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n243 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer redteam, writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.\n\n328 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n252 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, go, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.\n\n334 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

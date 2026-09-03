@@ -1,6 +1,6 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 352 sessions swept · compiled: sep 2, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 362 sessions swept · compiled: sep 3, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
@@ -14,10 +14,10 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **24**
-- FILES WRITTEN: **45**
+- DELIVERABLES FINALIZED: **23**
+- FILES WRITTEN: **78**
 - ASSETS GENERATED: **2**
-- SESSIONS SWEPT: **352**
+- SESSIONS SWEPT: **362**
 
 ## momentum
 
@@ -30,12 +30,12 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 - listing content: 7
 - extract forge: 3
 - 02 book blueprint: 6
-- go: 6
+- offer redteam: 3
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
-- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
 - [ACTIVE] harness — deliverables/research-briefs/mission-harness/mission-harness-brief.html
+- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
 - [BUILD] recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity — deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html
 - [ACTIVE] first 10k — deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html
 - [ACTIVE] visual workflow — deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html
@@ -43,7 +43,7 @@ _weighted: deliverables ×3 + files + assets_
 - [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
 - [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
 - [READY] 02 book blueprint — deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html
-- [ACTIVE] go — deliverables/research-briefs/mission-go/mission-go-brief.html
+- [ACTIVE] offer redteam — deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html
 - [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
 
@@ -57,20 +57,20 @@ _weighted: deliverables ×3 + files + assets_
 - 2026-08-29 · **watch-and-extract** — Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda
 - 2026-08-26 · **deep-research-os** — KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint
 - 2026-08-25 · **extract-virtuoso-mastery** — Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capab
-- 2026-08-24 · **offer-redteam** — Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged verdict MODIFY with 7-point modification, solution card writt
+- 2026-08-24 · **go** — Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthroug
 - 2026-08-21 · **homebase-cockpit** — Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck 
 
 ## what this board isn't
 _READ THE EDGES_
 Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.
 
-243 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer redteam, writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.
+252 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, go, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.
 
-328 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+334 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
-- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-harness/mission-harness-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html` — related · BUILD
 - `deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html` — related · ACTIVE
@@ -78,6 +78,6 @@ Several threads carry stub handoffs with no state recorded, so what is genuinely
 - `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
 - `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html` — related · READY
-- `deliverables/research-briefs/mission-go/mission-go-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html` — related · READY

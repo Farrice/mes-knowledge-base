@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "3 sessions · 5 files · 0 assets",
-  "compiled": "sep 2, 2026",
+  "compiled": "sep 3, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity 1d ago."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity 2d ago."
     },
     {
       "kind": "decision",
@@ -104,7 +104,7 @@
           "note": "codex"
         },
         {
-          "value": "1",
+          "value": "2",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -129,9 +129,9 @@
             0,
             0,
             0,
-            0,
             1,
-            2
+            2,
+            0
           ],
           "value": "3",
           "unit": "total",
@@ -150,10 +150,10 @@
             0,
             0,
             0,
+            4,
             0,
-            5,
             0,
-            0
+            1
           ],
           "value": "5",
           "unit": "files",
@@ -191,15 +191,15 @@
       "tag": "COPY THE PATH",
       "items": [
         {
-          "title": "DEMO-FEEDBACK-CARD.txt",
-          "role": "FILE",
-          "path": "_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt",
-          "note": "aug 30, 2026"
-        },
-        {
           "title": "README.md",
           "role": "FILE",
           "path": "_active/clients/jen-santulan/production/first-home-valley/README.md",
+          "note": "sep 2, 2026"
+        },
+        {
+          "title": "DEMO-FEEDBACK-CARD.txt",
+          "role": "FILE",
+          "path": "_active/clients/jen-santulan/production/first-home-valley/DEMO-FEEDBACK-CARD.txt",
           "note": "aug 30, 2026"
         },
         {
@@ -268,7 +268,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 12 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }
