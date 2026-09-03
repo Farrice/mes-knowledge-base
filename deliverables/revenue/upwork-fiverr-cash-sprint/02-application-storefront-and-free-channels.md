@@ -14,7 +14,26 @@
 - Skills were left unchanged because Upwork's autocomplete did not provide a reliable safe selection path.
 - [VERIFIED] AI Council proposal form completed at **$50/hour** with both screening answers. Upwork displays **$42.50/hour estimated after its 15% fee** and **10 Connects required**.
 - [VERIFIED] Added the existing **Brand Voice Compass** and **Executive LinkedIn Ghostwriting Samples** as proposal profile highlights.
+- [VERIFIED] Added **Google Prompting Essentials V1** as the third proposal profile highlight. Upwork did not offer the newly added manual certifications in the highlight picker.
 - No scheduled rate increase, boost bid, attachment, submission, purchase, or message was added.
+
+### Google certifications added to the profile
+
+[VERIFIED]
+
+Each entry uses **Google** as the provider, the issue date printed on the Coursera certificate, the certificate ID, and its public verification URL.
+
+| Certification | Issue date | Certificate ID |
+|---|---|---|
+| Google AI Professional Certificate | [VERIFIED] August 30, 2026 | V123GSZED4RP |
+| AI for App Building | [VERIFIED] August 30, 2026 | I3A7YWTNSR6S |
+| AI for Data Analysis | [VERIFIED] August 29, 2026 | GP0PQGUL9PLW |
+| AI for Content Creation | [VERIFIED] August 29, 2026 | 6ST5RLAXTR6T |
+| AI for Writing and Communicating | [VERIFIED] August 29, 2026 | AVHCY8P3F2D3 |
+| AI for Research and Insights | [VERIFIED] August 29, 2026 | 4TG43KVM9WRC |
+| AI for Brainstorming and Planning | [VERIFIED] August 25, 2026 | QMXBLX48VMV6 |
+
+The existing **Google Prompting Essentials V1** entry was preserved rather than duplicated.
 
 ## Decision
 
