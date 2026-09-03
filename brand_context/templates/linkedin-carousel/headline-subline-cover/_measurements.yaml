@@ -1,0 +1,26 @@
+elements:
+  - id: MASTHEAD_LEFT
+    bbox_pct: [7.78, 6.8, 45, 3.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04
+  - id: FIELD_INDEX
+    bbox_pct: [55, 6.8, 37.22, 3.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04
+  - id: HEADLINE
+    bbox_pct: [7.78, 29, 84.44, 31]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 11.8
+  - id: SUBTITLE
+    bbox_pct: [7.78, 79, 62, 7]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 3.33
+  - id: CAPTION_FOOTER
+    bbox_pct: [7.78, 92.3, 84.44, 2.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04

@@ -17,6 +17,7 @@
 - 2026-09-02 · all · brand lock · every run resolves the brand through `execution/scrapes_brand.py` first and echoes the BRAND LOCK line into pipeline-log.md; ambiguity asks, never guesses · verdict: ratified by Farrice
 
 ## 00-social-content
+- 2026-09-03 · farrice · template pool linkedin-carousel · 4 refs (Premium Minimal frames) → 4 templates, all `solid-css` pure HTML, $0 GPT Image. Builders fought Check D's absolute 8.0cqw display floor (the brand's restrained h1 is ~6.7cqw): headlines scaled up 40–60% vs refs; `compare_render_to_ref.py` ring probe throws false OVERFLOW on tight typographic layouts; Check B keyword heuristic trips on negated prose ("no AI image"). Keep: pure-HTML route for typographic brands. Change: expect the display-floor escalation and judge it by eye in the Studio · verdict: pending Farrice (Template Studio)
 - 2026-09-02 · jen · still-renting v1 · hook written from the Scrapes first-slide formulas alone read 6/10; v2 with Alyssa placement + Luke grip is the take to judge. Formulas = shape check, not the pen · verdict: v2 pending Farrice
 
 ## str-trending-research

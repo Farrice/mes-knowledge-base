@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+</head>
+<body>
+  <div class="slide" data-surface="light">
+    <!-- BACKGROUND — pure CSS solid fill, no AI generation (rationale.md: form solid-css, edit_mode none) -->
+    <div class="bg" style="position:absolute; inset:0; background: var(--brand-bg-light);"></div>
+
+    <!-- MASTHEAD — 3-slot flex pattern (never float), left = brand identity, center = empty, right = field index -->
+    <div class="masthead" data-slot="MASTHEAD"
+         style="left:7.8%; top:7.1%; width:84.4%; height:3%;">
+      <span class="masthead-slot left" data-slot="MASTHEAD_LEFT"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2cqw; font-weight:700; text-transform:uppercase; letter-spacing:0.16em;
+                   color: var(--brand-secondary);">{{MASTHEAD_LEFT}}</span>
+      <span class="masthead-slot center"></span>
+      <span class="masthead-slot right" data-slot="FIELD_INDEX"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2cqw; font-weight:700; text-transform:uppercase; letter-spacing:0.16em;
+                   color: var(--brand-secondary);">{{FIELD_INDEX}}</span>
+    </div>
+
+    <!-- HAIRLINE RULE 1 — brand decision-line move (moves.md #3), structural, not a slot -->
+    <div class="rule"
+         style="position:absolute; left:7.8%; top:11%; width:84.4%; height:0;
+                border-top:1px solid var(--brand-text-on-light); opacity:0.15;"></div>
+
+    <!-- KICKER 1 — introduces the escalation headline -->
+    <div class="zone kicker" data-slot="KICKER_1"
+         style="position:absolute; left:7.8%; top:18%; width:84.4%; height:3%;
+                font-size:2cqw; font-weight:700; text-transform:uppercase; letter-spacing:0.16em;
+                color: var(--brand-secondary);">{{KICKER_1}}</div>
+
+    <!-- HEADLINE — the dominant idea: 2-4 line escalating display stack, bold ink, brand's only display face -->
+    <div class="zone headline" data-slot="HEADLINE"
+         style="position:absolute; left:7.8%; top:25%; width:84.4%; max-height:42%; overflow:hidden;
+                font-size:11.3cqw; font-weight:700; line-height:1.05; letter-spacing:-0.025em;
+                color: var(--brand-text-on-light); text-align:left;">{{{HEADLINE}}}</div>
+
+    <!-- HAIRLINE RULE 2 — separates the headline cluster from the closing statement cluster -->
+    <div class="rule"
+         style="position:absolute; left:7.8%; top:69%; width:84.4%; height:0;
+                border-top:1px solid var(--brand-text-on-light); opacity:0.15;"></div>
+
+    <!-- KICKER 2 — introduces the closing statement -->
+    <div class="zone kicker" data-slot="KICKER_2"
+         style="position:absolute; left:7.8%; top:73.5%; width:84.4%; height:3%;
+                font-size:2cqw; font-weight:700; text-transform:uppercase; letter-spacing:0.16em;
+                color: var(--brand-secondary);">{{KICKER_2}}</div>
+
+    <!-- STATEMENT — the closing line: regular weight, graphite, deliberate contrast to the bold headline -->
+    <div class="zone statement" data-slot="STATEMENT"
+         style="position:absolute; left:7.8%; top:78%; width:84.4%; height:6%; overflow:hidden;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:3.3cqw; font-weight:400; line-height:1.3; letter-spacing:-0.01em;
+                color: var(--brand-secondary); text-align:left;">{{{STATEMENT}}}</div>
+  </div>
+</body>
+</html>

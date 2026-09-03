@@ -1,0 +1,61 @@
+{
+  "pool": "linkedin-carousel",
+  "brand": "farrice",
+  "built": "2026-09-03",
+  "source_refs": "brand_context/visual_refs/ref-0{1,2,3,4}-premium-minimal-carousel.png (Premium Minimal carousel frames 01-04)",
+  "shared": "_shared/styles.css",
+  "templates": [
+    {
+      "id": "headline-subline-cover",
+      "file": "headline-subline-cover/template.html",
+      "role": "cover",
+      "status": "ready",
+      "tone": ["light"],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": ["HEADLINE", "SUBTITLE"],
+      "optional": ["MASTHEAD_LEFT", "FIELD_INDEX", "CAPTION_FOOTER"],
+      "fits": ["hook statement + one-line reframe", "thesis cover", "contrarian claim with a quiet subline"],
+      "summary": "Paper-light cover: masthead + NN/NN counter, 2-3 line bold headline, graphite subtitle, hairline, tracked footer caption. Pure HTML/CSS, no AI zone."
+    },
+    {
+      "id": "kicker-stack-body",
+      "file": "kicker-stack-body/template.html",
+      "role": "body",
+      "status": "ready",
+      "tone": ["light"],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": ["HEADLINE"],
+      "optional": ["MASTHEAD_LEFT", "FIELD_INDEX", "KICKER_1", "KICKER_2", "STATEMENT"],
+      "fits": ["escalating 3-line list", "what-they-ask-for vs what-stayed-the-same", "symptom stack before the diagnosis"],
+      "summary": "Paper-light body: kicker label, 3-line bold headline stack, hairline, second kicker + graphite statement. Pure HTML/CSS."
+    },
+    {
+      "id": "headline-marker-body",
+      "file": "headline-marker-body/template.html",
+      "role": "body",
+      "status": "ready",
+      "tone": ["light"],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": ["HEADLINE"],
+      "optional": ["MASTHEAD_LEFT", "MASTHEAD_CENTER", "PAGE_INDEX", "ROUTE_1_LABEL", "ROUTE_2_LABEL", "ROUTE_3_LABEL", "FOOTER_CAPTION"],
+      "fits": ["one insight + three-route marker with one LEAD", "diagnosis slide", "comparison where one option is recommended"],
+      "summary": "Paper-light body: 2-3 line bold headline, three-route marker diagram (one heavy LEAD row), tracked footer caption. Pure HTML/CSS."
+    },
+    {
+      "id": "statement-close-cta",
+      "file": "statement-close-cta/template.html",
+      "role": "cta",
+      "status": "ready",
+      "tone": ["dark"],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": ["HEADLINE"],
+      "optional": ["MASTHEAD_LEFT", "PAGE_INDEX", "ROUTE_01_LABEL", "ROUTE_02_LABEL", "ROUTE_03_LABEL", "FOOTER_CAPTION", "RECOMMENDATION_NAME"],
+      "fits": ["closing recommendation", "the one dark interruption per sequence", "final CTA with a named lead route"],
+      "summary": "Ink-dark close: 3-line paper headline, three-route marker with LEAD, footer caption + bold recommendation name. The brand's single dark frame per carousel. Pure HTML/CSS."
+    }
+  ]
+}

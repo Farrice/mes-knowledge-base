@@ -1,0 +1,31 @@
+elements:
+  - id: MASTHEAD_LEFT
+    bbox_pct: [7.8, 7.1, 40, 3]
+    color_role: text_muted
+    type: label
+    font_size_cqw: 2.0
+  - id: FIELD_INDEX
+    bbox_pct: [55, 7.1, 37.2, 3]
+    color_role: text_muted
+    type: label
+    font_size_cqw: 2.0
+  - id: KICKER_1
+    bbox_pct: [7.8, 18, 84.4, 3]
+    color_role: text_muted
+    type: label
+    font_size_cqw: 2.0
+  - id: HEADLINE
+    bbox_pct: [7.8, 25, 84.4, 29]
+    color_role: text_on_light
+    type: display
+    font_size_cqw: 11.3
+  - id: KICKER_2
+    bbox_pct: [7.8, 73.5, 84.4, 3]
+    color_role: text_muted
+    type: label
+    font_size_cqw: 2.0
+  - id: STATEMENT
+    bbox_pct: [7.8, 78, 84.4, 6]
+    color_role: text_muted
+    type: subtitle
+    font_size_cqw: 3.3

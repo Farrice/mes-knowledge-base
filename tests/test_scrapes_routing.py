@@ -24,7 +24,15 @@ import routing_enforcer as renf  # noqa: E402
 import scrapes_brand as sb  # noqa: E402
 
 SCRAPES_DOORS = {"social-carousel", "social-post", "social-repurpose",
-                 "deck-build", "video-to-shorts", "video-to-ebook"}
+                 "deck-build", "video-to-shorts", "video-to-ebook", "scrapes"}
+
+
+def test_umbrella_door_routes_and_ignores_web_scraping():
+    assert "scrapes" in doors("set up my templates for my brand")
+    assert "scrapes" in doors("run this through scrapes: a supplement teardown")
+    assert "scrapes" not in doors("scrape linkedin posts from this profile")
+    assert (ROOT / ".agent" / "workflows" / "scrapes.md").exists()
+    assert (ROOT / "_active" / "harness" / "scrapes-skill-systems" / "USER-GUIDE.md").exists()
 
 
 def doors(prompt):
