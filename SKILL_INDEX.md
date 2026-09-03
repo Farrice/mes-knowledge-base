@@ -115,7 +115,7 @@
 | `donald-miller-storybrand` | **Donald Miller — StoryBrand Mastery** | narrative copy, one-liners, messaging audits | 9 | 0 |
 | `dr-k-consciousness` | **Dr. K Consciousness** | integrates vedantic philosophy and clinical psychology using dr, for lighter action-bias breakthrough use ali-abdaal-action-bias | 11 | 0 |
 | `dr-kriukow-humanization` | **Dr. Kriukow AI Humanization** | humanizes ai-written prose using dr, use when ai-drafted content needs to pass gptzero / originality, for the structural-tells ban list use the writers-room workflow | 2 | 4 |
-| `enrico-incarnati-instagram-realestate` | **Enrico Incarnati — Instagram for Real Estate** | complete instagram content and lead generation system for real estate agents, instagram for real estate | 11 | 0 |
+| `enrico-incarnati-instagram-realestate` | **Enrico Incarnati — Instagram for Real Estate** | complete instagram content and lead generation system for real estate agents, instagram for real estate | 12 | 0 |
 | `eric-roth-screenwriting-mastery` | **Eric Roth Screenwriting Mastery** | oscar-level screenwriting craft from the writer of forrest gump, the insider, munich | 14 | 0 |
 | `eric-roth-writing-mastery` | **Eric Roth Writing Mastery** | cross-domain deployment of oscar-level writing craft for social media, content writing, copywriting | 12 | 0 |
 | `erica-mallet-brand-magnetism` | **Erica Mallet: Brand Magnetism Mastery** | for personal-brand fundamentals use seth-godin-brand, brand magnetism mastery | 5 | 52 |

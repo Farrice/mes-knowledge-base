@@ -8,11 +8,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-03 | active |
 | `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-03 | active* |
+| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-03 | active* |
+| `00-social-content` | projects/ | **— none —** | 2026-09-03 | active* |
+| `str-trending-research` | projects/ | **— none —** | 2026-09-03 | active* |
 | `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-02 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-02 | active |
-| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-02 | active* |
-| `00-social-content` | projects/ | **— none —** | 2026-09-02 | active* |
 | `products` | _active/ | **— none —** | 2026-09-01 | active* |
 | `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
 | `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |
@@ -34,7 +35,7 @@ _none_
 
 _none_
 
-**17 projects** — 17 active, 0 parked, 0 done.
+**18 projects** — 18 active, 0 parked, 0 done.
 
 ## Needs judgment
 
@@ -45,4 +46,5 @@ Contradictions only — not a list of unstamped projects.
 - **dual_taxonomy** — `_active/linkedin`: 05-* collision: 05-assets + 05-lead-gen
 - **missing_index** — `_active/products`: no INDEX.md — project has no entry point
 - **missing_index** — `projects/00-social-content`: no INDEX.md — project has no entry point
+- **missing_index** — `projects/str-trending-research`: no INDEX.md — project has no entry point
 
