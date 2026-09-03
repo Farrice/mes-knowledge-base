@@ -78,7 +78,7 @@
       --signature-accent: #FF2D2D;     /* tokens.json colors.signature_accent */
       position: absolute;
       left: 25.93%;                    /* ref: 280px */
-      top: 41.19%;                     /* ref: 556px */
+      top: 60%;                        /* Farrice 2026-09-03: UNDER the giant word (ref had 556px, layered) */
       font-family: "Snell Roundhand", "Zapfino", cursive;
       font-weight: 700;
       font-size: 10.74cqw;             /* ref: 116px */
@@ -86,7 +86,7 @@
       color: var(--signature-accent);
       white-space: nowrap;
       transform: rotate(-7deg);
-      z-index: 5;                      /* above the giant word it overlays */
+      z-index: 5;
     }
 
     .footer-strip {
@@ -130,7 +130,7 @@
     <div class="zone display giant-word" data-slot="HEADLINE_WORD"
          style="left:1%; top:27.4%; width:98%; height:30%;">{{{HEADLINE_WORD}}}</div>
 
-    <!-- SCRIPT SIGNATURE (brand move #10) — overlaid diagonally across the giant word.
+    <!-- SCRIPT SIGNATURE (brand move #10) — set diagonally UNDER the giant word (his 2026-09-03 call: no layering).
          Fixed brand content (tokens.json author.name), positioned left/top only —
          shrink-to-fit width, exactly as the source composition authored it. -->
     <div class="author-signature" data-slot="AUTHOR_SIGNATURE">Farrice Cain</div>

@@ -23,3 +23,6 @@ His read on the frames (approved with notes): "compositional layout and hierarch
 
 ## How to leave notes next time (verified 2026-09-03 with a test pin)
 Template Studio → top bar → **Comment** pill (toggles comment mode; a toast confirms) → click the slide where the note belongs → a small composer opens → type → press the composer's **Comment** button (Return does NOT submit) → top bar **Save**. The pin lands in `<template>/comments.json` (per template, not at the pool root). Say "read my Studio comments" and every `comments.json` under this pool gets pulled into the next pass. Four pins on four templates is a full review.
+
+## 2026-09-03 · signature placement (Farrice)
+"I don't like the layering of it. It's a little distracting." The red script signature now sits UNDER the giant word on `signature-cover` (top 57%) and `signature-close-cta` (top 60%). The approved frames in `visual_refs/editorial/` still show the layered version; the pool templates are the truth from here. Last template change before the next session.

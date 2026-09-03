@@ -64,3 +64,6 @@ Clamp notes are cosmetic autosize warnings (`needs-user-decision` tag from the r
 
 ## Orchestrator correction (2026-09-03)
 Re-rendered slides [2, 6] with the same renderer command after shortening labels to one line and single-lining the band headline. Copy meaning unchanged; take file and slide_plan.yaml updated to match. Cost $0.
+
+## Signature placement (Farrice 2026-09-03)
+Slides 1 and 7 re-rendered: script signature moved UNDER the giant word (no layering). $0.

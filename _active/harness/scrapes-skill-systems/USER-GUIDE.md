@@ -7,6 +7,15 @@ Type `/scrapes` and paste what you have. A topic. A URL. A draft. A video link. 
 
 You can also just say it in plain words in any session ("make Jen a carousel about still renting"). The router suggests the door with a `[SCRAPES engine]` tag; you tap or type it.
 
+## Run it again (the way blind bar 01 was made)
+1. **Say the brand and the subject in one line.** `/social-carousel farrice: teardown of <brand>, LinkedIn` or `/social-carousel jen: <topic>, Instagram`. The brand word is the lock; if you leave it out the system asks, it never guesses.
+2. **Name the fight.** Named brand or anonymized composite, and the angle you want argued. Default for your brand is the named brand with the fight picked; composite only when a client's privacy needs it.
+3. **Wait for the ledger, not the slides.** Step 1 researches with receipts and captures real screenshots; Step 2.5 writes `VERIFICATION.md` in the run folder (every claim, tag, source, crop). Read that once and sign off on accuracy. Nothing ships that is not on it.
+4. **Copy comes to you as a take file** (caption + seven-slide script). Give word-level edits there. Copy is locked before any machinery runs.
+5. **Slides render at $0** on your approved pool; you get a contact sheet and, when there is more than one take, a blind judging surface (1/2/3 with your frames as the bar). Tap the verdict; it goes into the ratchet in your words.
+6. **Ship by hand.** Sends stay human. Open the run folder under `projects/00-social-content/<date>/<slug>/`, or the Content Studio link the run prints, and post.
+Full recipe with the dead ends: `docs/solutions/2026-09-03-teardown-carousel-copy-lock-evidence-crops.md`.
+
 ## Who is it for? (the brand lock)
 Only the Scrapes doors care. Extractions, research, Parallax, Jen listings, harness work: nothing changes, no setting, no default to worry about.
 
