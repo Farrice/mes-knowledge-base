@@ -1,0 +1,16 @@
+{
+  "ts": "2026-09-02T17:44:06.438860+00:00",
+  "dry_run": false,
+  "tracked_dirty": 1,
+  "generated_index": 0,
+  "state_receipt": 1,
+  "unclassified": [],
+  "adopted_untracked": [],
+  "left_untracked": [
+    ".agent/gemini-api-usage-archive/",
+    "evolution_store/traces/skill_evolution_candidates_2026-09-02.md"
+  ],
+  "main_ahead_of_origin_before": 0,
+  "committed": "bf3cb6f3f",
+  "pushed": true
+}
