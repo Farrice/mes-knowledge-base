@@ -47,3 +47,4 @@ Edit anything inside `.claude/skills/` (hash-gated; updates would strand you). U
 
 ## Deeper
 `ORCHESTRATION-DESIGN.md` (how it is wired, what is verified vs inferred) · `PRECEDENCE-MAP.md` (which side wins per skill, blind bars pending your taps) · `INTEGRATION.md` (install, keys, update procedure) · `RESUME-BRIEF.md` (state + kickoff prompt).
+- **The proven carousel run, start to finish** (blind bar 01, his verdict "11 out of 10... this needs to be the floor"): `docs/solutions/2026-09-03-teardown-carousel-copy-lock-evidence-crops.md`. Same order every time; the door `/social-carousel` carries it under "Proven run shape".
