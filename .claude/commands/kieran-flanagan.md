@@ -12,7 +12,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | kieran-flanagan-agentic-ops | `skills/kieran-flanagan-agentic-ops/SKILL.md` | (none) | (none) |
 | kieran-flanagan-audience-intelligence | `skills/kieran-flanagan-audience-intelligence/SKILL.md` | `skills/kieran-flanagan-audience-intelligence/genius.md` | `skills/kieran-flanagan-audience-intelligence/workflows/01-content-audience-profile.md` |
 | kieran-flanagan-content-engine | `skills/kieran-flanagan-content-engine/SKILL.md` | `skills/kieran-flanagan-content-engine/genius.md` | `skills/kieran-flanagan-content-engine/workflows/01-talking-points.md` |
-| kieran-flanagan-content-intelligence | `skills/kieran-flanagan-content-intelligence/SKILL.md` | (none) | `skills/kieran-flanagan-content-intelligence/workflows/social-content-studio.md` |
+| kieran-flanagan-content-intelligence | `skills/kieran-flanagan-content-intelligence/SKILL.md` | (none) | (none) |
 | kieran-flanagan-content-ops | `skills/kieran-flanagan-content-ops/SKILL.md` | `skills/kieran-flanagan-content-ops/genius.md` | `skills/kieran-flanagan-content-ops/workflows/01-content-orchestrate.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
