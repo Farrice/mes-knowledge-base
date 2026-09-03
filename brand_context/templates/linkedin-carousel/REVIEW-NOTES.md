@@ -26,3 +26,6 @@ Template Studio → top bar → **Comment** pill (toggles comment mode; a toast 
 
 ## 2026-09-03 · signature placement (Farrice)
 "I don't like the layering of it. It's a little distracting." The red script signature now sits UNDER the giant word on `signature-cover` (top 57%) and `signature-close-cta` (top 60%). The approved frames in `visual_refs/editorial/` still show the layered version; the pool templates are the truth from here. Last template change before the next session.
+
+## 2026-09-03 · pool approved (Farrice)
+11 templates approved in manifest.json (4 typographic + 7 editorial). `portrait-statement-cta` RETIRED: "I don't like that box crop image of me there... really low-quality graphic design and taste." The text close covers the slot; a real portrait treatment can come later. Studio critique logged in context/learnings.md (no true 4:5 preview, comment box).
