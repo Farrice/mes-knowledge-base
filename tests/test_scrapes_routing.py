@@ -190,6 +190,10 @@ def test_check_ready_with_tokens_pool_and_voice(brands, tmp_path):
     (pool / "manifest.json").write_text(json.dumps({"templates": [{"id": "cover", "status": "ready"}]}))
     rep = sb.check(b, b["cli"], "linkedin-carousel")
     assert rep["ready"] is True and rep["render_path"] == "scrapes-template-pool"
+    # Farrice's Approve flips ready -> approved; the pool must still count as usable
+    (pool / "manifest.json").write_text(json.dumps({"templates": [{"id": "cover", "status": "approved"}]}))
+    rep = sb.check(b, b["cli"], "linkedin-carousel")
+    assert rep["ready"] is True and rep["render_path"] == "scrapes-template-pool"
 
 
 def test_check_uses_brand_renderer_when_pool_missing(brands, tmp_path):
