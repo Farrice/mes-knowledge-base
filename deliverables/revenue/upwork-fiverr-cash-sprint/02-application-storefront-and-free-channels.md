@@ -1,6 +1,6 @@
 # AI Council application, storefront kit, and free-channel map
 
-**Status:** Submission-ready copy and storefront fields. Nothing has been submitted, published, purchased, uploaded, or messaged.
+**Status:** AI Council proposal submitted and verified September 3, 2026. Upwork Project Catalog and Fiverr storefront fields are complete but unpublished. The free direct-acquisition lane is ready; no outreach has been sent.
 
 ## Live Upwork preparation completed
 
@@ -12,10 +12,11 @@
 - Employment entry corrected from the reversed display to **AI Content Strategist & Executive Ghostwriter | Independent**.
 - Employment description replaced with credible scope language; the unsupported “proprietary” and “110+ frameworks” claims were removed.
 - Skills were left unchanged because Upwork's autocomplete did not provide a reliable safe selection path.
-- [VERIFIED] AI Council proposal form completed at **$50/hour** with both screening answers. Upwork displays **$42.50/hour estimated after its 15% fee** and **10 Connects required**.
+- [VERIFIED] AI Council proposal submitted at **$50/hour** with both screening answers. Upwork displayed **$42.50/hour estimated after its 15% fee** and used **10 Connects**.
 - [VERIFIED] Added the existing **Brand Voice Compass** and **Executive LinkedIn Ghostwriting Samples** as proposal profile highlights.
-- [VERIFIED] Added **Google Prompting Essentials V1** as the third proposal profile highlight. Upwork did not offer the newly added manual certifications in the highlight picker.
-- No scheduled rate increase, boost bid, attachment, submission, purchase, or message was added.
+- [VERIFIED] Added **Google AI Professional Certificate** as the third proposal profile highlight.
+- [VERIFIED] Attached the tailored one-page AI Council newsletter sample, selected **Never** for scheduled rate increases, and submitted with no boost.
+- [VERIFIED] Upwork recorded the application as **Submitted proposal (1)** with proposal ID `2095649150078959617`, initiated September 3, 2026.
 
 ### Google certifications added to the profile
 
@@ -38,7 +39,7 @@ The existing **Google Prompting Essentials V1** entry was preserved rather than 
 ## Decision
 
 [MODELED]
-Use the existing 10 Connects on the AI Council application. Build the same health-carousel offer on Upwork Project Catalog and Fiverr once the premium carousel images arrive. Do not buy Contra Pro or additional marketplace credits during this test.
+The AI Council application used the existing 10 Connects. Build the same health-carousel offer on Upwork Project Catalog and Fiverr once the premium carousel images arrive. Do not buy Contra Pro or additional marketplace credits during this test. Use trigger-based direct outreach as the primary free acquisition lane.
 
 ## AI Council application
 
@@ -69,7 +70,7 @@ Your eval harness just joined the threat model.
 That’s the work I’d bring each month: one sharp lead item, 4–6 links with original commentary, three subject lines, preview text, and one revision. Current enough to feel plugged in; grounded enough that an engineer won’t roll their eyes.
 
 [MODELED]
-I’ve highlighted executive ghostwriting and brand-voice samples, plus Google Prompting Essentials.
+I’ve highlighted executive ghostwriting and brand-voice samples, plus Google’s AI Professional Certificate.
 
 My rate is $50/hour, capped at $250 for the first issue.
 
@@ -95,20 +96,19 @@ The live proposal includes these proof assets:
 1. [VERIFIED] **Farrice-Cain-AI-Council-Newsletter-Sample.pdf** — a one-page, source-grounded spec issue built from current OpenAI, Anthropic, Google, and AI Council material. It contains no contact details and is clearly labeled as an unofficial sample.
 2. [VERIFIED] **Executive LinkedIn Ghostwriting Samples** — profile highlight showing voice adaptation and expert-audience writing.
 3. [VERIFIED] **Brand Voice Compass** — profile highlight showing the method behind voice consistency.
-4. [VERIFIED] **Google Prompting Essentials V1** — certificate profile highlight.
+4. [VERIFIED] **Google AI Professional Certificate** — certificate profile highlight.
 
 Do not attach the health carousel to this application. It is strong proof for the storefront and health role, but it does not answer this newsletter buyer's immediate risk.
 
-### Submission checklist
+### Submission receipt
 
-- Rate field: **50.00**
-- No scheduled rate increase
-- Cover letter pasted as above, without the bracketed evidence labels
-- Both screening answers pasted exactly as above
-- Tailored one-page newsletter PDF attached
-- No files containing contact information
-- Confirm the form still shows **10 Connects required** before submitting
-- Stop at the final submit control for Farrice's approval
+- [VERIFIED] Proposal ID: `2095649150078959617`
+- [VERIFIED] Initiated: September 3, 2026
+- [VERIFIED] Rate: **$50/hour**
+- [VERIFIED] Scheduled rate increase: **Never**
+- [VERIFIED] Boost: **0 Connects**
+- [VERIFIED] Tailored one-page newsletter PDF attached with no contact information
+- [VERIFIED] Upwork proposals page displayed **Submitted proposal (1)** for the AI Council job
 
 ## Upwork Project Catalog listing
 
@@ -137,6 +137,7 @@ If the current selector uses different labels, choose the path whose main type i
 | Field | Starter | Standard | Advanced |
 |---|---|---|---|
 | Name | One research-backed carousel | Two-carousel content pair | Three-carousel campaign set |
+| Short description | One 6–8-slide carousel with caption, CTA, sources, and Canva file | Two coordinated 6–10-slide carousels for one campaign | Three coordinated carousels plus five additional campaign angles |
 | [MODELED] Price | $200 | $400 | $650 |
 | [MODELED] Delivery | 4 days | 6 days | 8 days |
 | Slides | 6–8 | Two sets of 6–10 | Three sets of 6–10 |
@@ -238,6 +239,7 @@ Remove contact information, watermarks, platform logos, and any third-party logo
 | Field | Basic | Standard | Premium |
 |---|---|---|---|
 | Name | Health carousel | Content pair | Campaign set |
+| Short description | One 6–8-slide carousel with caption, CTA, sources, and Canva file | Two coordinated 6–10-slide carousels for one campaign | Three coordinated carousels plus five additional campaign angles |
 | [MODELED] Price | $250 | $500 | $815 |
 | [MODELED] Approximate earnings before tax at 80% | $200 | $400 | $652 |
 | [MODELED] Delivery | 4 days | 6 days | 8 days |
@@ -306,7 +308,7 @@ Speed estimates below are planning ranges, not promises. Buyer quality reflects 
 
 | Rank | Channel | Cost to enter | Buyer quality | Competition | Modeled path to payment | Verdict |
 |---:|---|---|---|---|---|---|
-| 1 | Trigger-based direct email | [MODELED] $0 | High when a real launch, reformulation, claims change, or content gap is visible | Low and hidden | 2–10 days | Build ten named targets after the carousel arrives |
+| 1 | Trigger-based direct email | [MODELED] $0 | High when a real launch, reformulation, claims change, or content gap is visible | Low and hidden | 2–10 days | Five researched messages and five secondary targets are ready in `03-free-acquisition-lane.md` |
 | 2 | Upwork Project Catalog | No Connects per listing purchase | Medium-high purchase intent | High | 3–30 days | Publish the health-carousel project and share its URL |
 | 3 | Wellfound contract roles | Free application flow | High for funded AI and startup buyers | Medium-high | 2–6 weeks | Apply selectively where direct hiring contacts and contract language are visible |
 | 4 | Contra profile and Services | Free profile and limited job access | Medium-high creative and startup buyers | Medium | 1–6 weeks | Create the same health-carousel Service; do not buy Pro yet |
@@ -337,7 +339,7 @@ These were live or recently refreshed during the September 3, 2026 research pass
 
 **MODELED:** Prices, response timing, and channel ranking are strategic hypotheses.
 
-**NO EVENT:** No proposal, listing, application, email, sale, or payment has occurred. The only external changes were the authorized Upwork profile edits described above; the proposal remains unsent.
+**EVENT:** The AI Council proposal was submitted September 3, 2026. No storefront listing or direct email has been published or sent. No reply, interview, sale, or payment has occurred.
 
 ## Sources
 
