@@ -15,7 +15,7 @@
   "verification": {
     "claim_audit": "pass",
     "export_format_guard": "pass",
-    "proposal_copy": "clean",
+    "proposal_copy": "pass; only warning is the Farrice signature line",
     "upwork_project_summary": "clean",
     "fiverr_gig_description": "clean"
   },

@@ -65,7 +65,7 @@ Your emphasis on real architectures, tradeoffs, and production failures is a clo
 For a pilot issue, I would propose one lead story, four to six curated links with original commentary, three subject lines, preview text, and one revision. One current angle I would explore is the bottleneck moving from compute to reliable RL environments: what teams are building, where evaluation breaks, and which claims still look better on stage than in production.
 
 [MODELED]
-My profile includes executive ghostwriting and brand-voice samples. My rate is $50/hour; I would cap a defined pilot at $250.
+My profile includes executive ghostwriting and brand-voice samples, plus Google's AI Professional Certificate. My rate is $50/hour; I would cap a defined pilot at $250.
 
 I am new to Mailchimp, so I will not claim platform expertise. I can learn your existing template and complete a formatting check before we lock a recurring workflow.
 
