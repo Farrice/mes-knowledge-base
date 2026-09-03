@@ -1,0 +1,14 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "01 · Cover", "x": 0, "y": 0, "w": 1080, "h": 1350 },
+    { "file": "Asking.dc.html", "title": "02 · Asking", "x": 1180, "y": 0, "w": 1080, "h": 1350 },
+    { "file": "Closed.dc.html", "title": "03 · Closed", "x": 2360, "y": 0, "w": 1080, "h": 1350 },
+    { "file": "Rent.dc.html", "title": "04 · Rent", "x": 0, "y": 1500, "w": 1080, "h": 1350 },
+    { "file": "WrongNumber.dc.html", "title": "05 · Wrong number", "x": 1180, "y": 1500, "w": 1080, "h": 1350 },
+    { "file": "Close.dc.html", "title": "06 · Close", "x": 2360, "y": 1500, "w": 1080, "h": 1350 }
+  ],
+  "annotations": [
+    { "id": "grammar", "x": 0, "y": -220, "w": 720, "text": "Reference grammar: Canva 'Yellow and Black Modern Travel Moments' (Design 2 in valley-editions/CANVA-GRAMMAR.md). Measured: rules at 2.4/8.6/91.3/97.5%, masthead 26.67px caps, headline 147.73px, accent word 191.71px rotated -3.05°, body 37.33px at the 10% gutter.\nTranslation to Jen: yellow slot → ivory-steel gradient, script → Instrument Serif italic, Playfair headline, Jost body, pale-steel #C9D4E2 doodles. No yellow, no orange." }
+  ],
+  "launch": { "view": "canvas" }
+}
