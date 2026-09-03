@@ -235,6 +235,17 @@ Track two separate ledgers:
 - **Output:** separated learning receipt
 - **Open risk:** `NO EVENT` or thin sample remains visibly thin
 
+## Quality Gate
+
+- Does every factual local claim have a traceable source and evidence label?
+- Is the intended person locally specific without protected-class steering?
+- Is the point of view supported by the Agent Fit Card rather than invented?
+- Is transferred material limited to its allowed scope and original in wording?
+- Does the format fit the agent's actual voice, comfort, and weekly capacity?
+- Does every CTA have a named human response owner?
+- Are attention and pipeline evidence recorded separately?
+- Does thin or absent first-party data remain `UNTESTED` or `NO EVENT`?
+
 ## Stop conditions
 
 Stop and surface the exact missing input when:
