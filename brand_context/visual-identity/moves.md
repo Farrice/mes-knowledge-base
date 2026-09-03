@@ -145,3 +145,17 @@ keywords: [portrait, headshot, authority, human]
 - Type sizes never go below the floor in `references/output-formats.md` (display ≥90px, h1 ≥68px, body ≥28px for LinkedIn carousel).
 - Whitespace stays between 33% and 65% of the canvas (this brand's floor is the higher one).
 - Every slide has at least two z-index levels; masthead plus field index count as the second layer on pure-typographic slides.
+
+## 10. Script signature (editorial style, added 2026-09-03)
+
+<!--meta
+name: script-signature
+image_bearing: false
+keywords: [signature, script, cover, close, author]
+-->
+
+**What it is:** the author signature "Farrice Cain" in a script face (placeholder: Mrs Saint Delafield until his real handwriting lands in `visual-identity/logos/signature.svg`), overlaid across the giant lowercase display word on the cover and the close frame only. Colour: `colors.signature_accent` (#FF2D2D), the single unlocked accent.
+
+**Why:** the one human, hand-made mark on an otherwise edited system; it says a person is accountable for the teardown. Implements principle 10 (human signal) and principle 9 (one bold move) without a second dark frame.
+
+**When it breaks:** anywhere but cover/close; any size that competes with the display word; any other element in red.
