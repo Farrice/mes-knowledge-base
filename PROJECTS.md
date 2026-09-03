@@ -8,16 +8,17 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-01 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-01 | active |
-| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-01 | active* |
+| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-02 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-02 | active |
+| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-02 | active* |
+| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-02 | active* |
+| `00-social-content` | projects/ | **— none —** | 2026-09-02 | active* |
 | `products` | _active/ | **— none —** | 2026-09-01 | active* |
 | `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
 | `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `bowling-anime-trailer` | _active/ | `_active/bowling-anime-trailer/INDEX.md` | 2026-08-24 | active* |
-| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-08-20 | active* |
 | `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-09 | active* |
 | `video-studio` | _active/ | `_active/video-studio/INDEX.md` | 2026-08-09 | active* |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-08-08 | active* |
@@ -33,7 +34,7 @@ _none_
 
 _none_
 
-**16 projects** — 16 active, 0 parked, 0 done.
+**17 projects** — 17 active, 0 parked, 0 done.
 
 ## Needs judgment
 
@@ -43,4 +44,5 @@ Contradictions only — not a list of unstamped projects.
 - **dual_taxonomy** — `_active/linkedin`: 06-* collision: 06-automation + 06-system
 - **dual_taxonomy** — `_active/linkedin`: 05-* collision: 05-assets + 05-lead-gen
 - **missing_index** — `_active/products`: no INDEX.md — project has no entry point
+- **missing_index** — `projects/00-social-content`: no INDEX.md — project has no entry point
 

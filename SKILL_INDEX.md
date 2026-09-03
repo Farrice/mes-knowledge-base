@@ -204,7 +204,7 @@
 | `kieran-flanagan-agentic-ops` | **kieran-flanagan-agentic-ops** | agentic operations architecture | 0 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | content-reactive audience profiling, platform-specific style cards, creator style analysis | 5 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | multi-source content creation, evidence-backed signal ideation, enrichment | 9 | 0 |
-| `kieran-flanagan-content-intelligence` | **kieran-flanagan-content-intelligence** | content intelligence system | 0 | 0 |
+| `kieran-flanagan-content-intelligence` | **kieran-flanagan-content-intelligence** | content intelligence system | 1 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content orchestration, human-curated queue state, performance feedback loops | 4 | 0 |
 | `kittl-graphic-design` | **Kittl Graphic Design** | typography design, font psychology, visual composition | 4 | 23 |
 | `kj-rainey-copywriting` | **kj-rainey-copywriting** | the pain-of-inaction formula, and the 5-step value chain that took him from $1, 600/month to $500k+/year | 3 | 0 |
