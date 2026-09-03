@@ -60,6 +60,10 @@ The bridge: Scrapes skills read `brand_context/`. We populated it from our canon
 | viz-hyperframes | HTML/GSAP → MP4 motion graphics | `video-studio` HyperFrames stage | **TEST FIRST** | Same engine; theirs ships a composition library. Likely flip. |
 | viz-image-gen | 6-element framework, GPT Image / Gemini | `banana-pro-director`, `gpt-image-2-director`, craft-map masters | **TEST FIRST (craft gate binding)** | Our masters are the craft floor. Their framework can wrap execution. Cost gate applies. GPT Image needs OPENAI_API_KEY (not on file); Gemini path works today. |
 
+## How the skills are reached now (2026-09-02, lane `worktree-scrapes-routing`)
+
+The router indexes the 36 vendored skills and six bindings open six front doors — `/social-carousel`, `/social-post`, `/social-repurpose`, `/deck-build`, `/video-to-shorts`, `/video-to-ebook` — each opening with a **BRAND LOCK** (`execution/scrapes_brand.py`: the brand is named or taken from the client lane; ambiguity asks, never guesses) and handing the copy seams below to our pens before the Scrapes machinery runs (Scenario A). Full design, seam map, compounding loops, multi-brand convention: `ORCHESTRATION-DESIGN.md`.
+
 ## Craft-room routing (Farrice, 2026-09-02: "blend, don't ignore Luke and the other copywriters")
 
 The Scrapes pipelines own the **machinery**: scenario detection, research gathering, slide arc, visual planning, rendering, humanizer pass. At the copy seams they hand off to **our pens**, never to their own generic prompt:

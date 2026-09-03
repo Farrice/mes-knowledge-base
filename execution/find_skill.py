@@ -36,7 +36,19 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = REPO_ROOT / "skills"
+# Vendored third-party skills (Scrapes Skill Systems, 2026-09-02). Claude Code
+# mounts each as /<name>; indexing them here is what lets the per-prompt router
+# suggest them from intent instead of only on an explicit slash. Symlinks are
+# skipped (the .agents/skills mirror would double-index).
+VENDOR_SKILLS_DIR = REPO_ROOT / ".claude" / "skills"
 INDEX_PATH = REPO_ROOT / ".agent" / "skill-index.json"
+
+
+def _skill_md_paths() -> list[Path]:
+    paths = list(SKILLS_DIR.glob("*/SKILL.md"))
+    if VENDOR_SKILLS_DIR.is_dir():
+        paths += [p for p in VENDOR_SKILLS_DIR.glob("*/SKILL.md") if not p.parent.is_symlink()]
+    return sorted(paths)
 
 STOPWORDS = {
     "a","an","the","and","or","but","if","then","of","on","in","to","for","with",
@@ -224,9 +236,11 @@ def parse_skill(path: Path) -> dict | None:
 
 def build_index() -> list[dict]:
     skills = []
-    for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
+    for skill_md in _skill_md_paths():
         parsed = parse_skill(skill_md)
         if parsed and parsed.get("status") != "archived":
+            if skill_md.is_relative_to(VENDOR_SKILLS_DIR):
+                parsed["vendor"] = "scrapes"
             skills.append(parsed)
     return skills
 
@@ -431,7 +445,7 @@ def load_or_build_index(force: bool = False) -> list[dict]:
             cached = None
         if cached:
             cached_by_dir = {s["directory"]: s for s in cached}
-            current_paths = list(SKILLS_DIR.glob("*/SKILL.md"))
+            current_paths = _skill_md_paths()
             current_dirs = {p.parent.name for p in current_paths}
             if set(cached_by_dir) == current_dirs:
                 stale = False

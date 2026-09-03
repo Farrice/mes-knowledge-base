@@ -1375,6 +1375,114 @@ BINDINGS = [
             "spa and a wrong bath count that reached shipped copy)."
         ),
     },
+    # ── Scrapes Skill Systems front doors (2026-09-02) ──────────────────
+    # Machinery = the vendored Scrapes pipelines (.claude/skills/00-*); copy
+    # seams = our pens (PRECEDENCE-MAP.md "Craft-room routing"). Every door
+    # opens with a BRAND LOCK: the brand is named (farrice|jen|andrea|…) or
+    # taken from the client lane; ambiguity asks, never guesses (Farrice,
+    # 2026-09-02: "nothing auto-routes to the wrong client").
+    {
+        "id": "scrapes_social_carousel",
+        "signal_phrases": [
+            "carousel", "carousel about", "make a carousel", "linkedin carousel",
+            "instagram carousel", "carousel post", "slides for a post",
+            "swipe post", "carousel for jen", "carousel for andrea",
+        ],
+        "mandatory_workflow": "social-carousel",
+        "forbidden_workflows": ["ai-carousel-engine", "generate-handcrafted-carousel"],
+        "negative_signals": ["parallax", "substack", "newsletter edition"],
+        "reason": (
+            "Carousels run through /social-carousel: BRAND LOCK first, research "
+            "with receipts (research.py) into the Scrapes cache, then OUR pens write "
+            "the caption + slide script (client: Alyssa hook-reframe + Luke Iha "
+            "vicious-hooks; Farrice: VOICE-CARD dial + Luke Iha; one integrator, one "
+            "veto), claim_audit + prose_classifier gate it, and 00-social-content "
+            "Scenario A does the machinery (designer, template pool, images, "
+            "studios). Cost stated before any AI slide."
+        ),
+    },
+    {
+        "id": "scrapes_social_post",
+        "signal_phrases": [
+            "post with an image", "post and image", "image for this post",
+            "instagram post", "single image post", "social post for jen",
+            "social post for andrea", "generate post", "run social content",
+        ],
+        "mandatory_workflow": "social-post",
+        "forbidden_workflows": [],
+        "negative_signals": ["linkedin post from scratch", "write a linkedin post", "ghostwrite"],
+        "reason": (
+            "Image-bearing social posts run through /social-post (BRAND LOCK, our "
+            "pens for the copy, Scrapes Scenario A for inference + visual). Plain "
+            "LinkedIn text posts for Farrice stay on /ghostwrite."
+        ),
+    },
+    {
+        "id": "scrapes_social_repurpose",
+        "signal_phrases": [
+            "repurpose this", "repurpose for", "atomize this", "turn this into social posts",
+            "version for threads", "version for instagram", "thread from this",
+            "reformat for", "content calendar from this",
+        ],
+        "mandatory_workflow": "social-repurpose",
+        "forbidden_workflows": [],
+        "negative_signals": [],
+        "reason": (
+            "Repurposing runs through /social-repurpose: BRAND LOCK, Scrapes "
+            "mkt-content-repurposing does the platform mechanics, then our ICP-"
+            "verbatim + voice check per platform and the classifier gate. TEST FIRST "
+            "vs /atomize (blind bar #3) — both stay available."
+        ),
+    },
+    {
+        "id": "scrapes_deck_build",
+        "signal_phrases": [
+            "slide deck", "make a deck", "build a deck", "create a presentation",
+            "presentation about", "slides for", "pitch deck slides", "html deck",
+        ],
+        "mandatory_workflow": "deck-build",
+        "forbidden_workflows": ["presentation-build"],
+        "negative_signals": ["research brief", "readout", "briefing room", "ink + steel"],
+        "reason": (
+            "Decks render through /deck-build (Scrapes 00-slides + viz-frontend-"
+            "slides on the brand's tokens.json) after BRAND LOCK and a claim_audit "
+            "veto on the outline. Readouts and research briefs stay on the Ink + "
+            "Steel Blue readout OS (/briefs)."
+        ),
+    },
+    {
+        "id": "scrapes_video_to_shorts",
+        "signal_phrases": [
+            "youtube to shorts", "long to short", "long-form to short", "make shorts from",
+            "clips from this video", "cut this into clips", "extract clips", "reframe to 9:16",
+            "shorts from this video",
+        ],
+        "mandatory_workflow": "video-to-shorts",
+        "forbidden_workflows": [],
+        "negative_signals": [],
+        "reason": (
+            "Long-form to shorts runs through /video-to-shorts (Scrapes "
+            "00-longform-to-shortform: WhisperX, 5-category clip scoring, face-aware "
+            "reframe, caption burn). Publish step OFF — sends stay human; his VO "
+            "only, no TTS."
+        ),
+    },
+    {
+        "id": "scrapes_video_to_ebook",
+        "signal_phrases": [
+            "youtube to ebook", "video into an ebook", "video to pdf", "ebook from this video",
+            "youtube to article", "article from this video", "transcript to article",
+            "magazine-style article from",
+        ],
+        "mandatory_workflow": "video-to-ebook",
+        "forbidden_workflows": [],
+        "negative_signals": [],
+        "reason": (
+            "Video to long-form runs through /video-to-ebook (Scrapes 00-youtube-"
+            "to-ebook). Their tool-fact-checker runs, then OUR claim_audit --strict "
+            "is the veto and prose_classifier the gate before the PDF."
+        ),
+    },
 ]
 
 

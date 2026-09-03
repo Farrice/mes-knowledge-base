@@ -19,6 +19,9 @@ Commands:
                                         seal -> gate -> merge -> Law-3 audit ->
                                         regen -> local by default; explicit push
                                         -> teardown | PARK
+  preserve [--slug S] [--dry-run] [--push]
+                                        move human work stranded on main into
+                                        its own lane; main becomes clean
   teardown [--lane BRANCH] [--force]    remove a merged/parked lane
   doctor [--fix] [--parity]             health table; --fix re-links/prunes
 
@@ -596,11 +599,45 @@ def _park(main, lane, branch, reason, push=True) -> int:
     entry = reg.get(branch, {})
     entry.update({"path": str(lane), "status": "parked", "reason": reason,
                   "parked_at": datetime.now().isoformat(timespec="seconds")})
+    entry.pop("merge_in_flight", None)
     reg[branch] = entry
     save_registry(main, reg)
     print(f"LANE PARKED: {branch} — {reason}. Resolve later: "
           f"python3 execution/worktree_lane.py merge --lane {branch}")
     return 0  # a park is a surfaced outcome, not an error
+
+
+def _main_mid_merge(main: Path) -> bool:
+    """True when the integration tree has an unconcluded merge (MERGE_HEAD)."""
+    return _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")[0] == 0
+
+
+def _abort_merge(main: Path) -> "str | None":
+    """Conclude a failed merge on main so it is NEVER left mid-merge.
+
+    Scar (2026-09-02): main sat with MERGE_HEAD + 40 UU files for hours; every
+    other lane parked on it. The old code ran `merge --abort` and discarded
+    the return code. Now: abort -> fallback `reset --merge` -> verify. Returns
+    None on success, else the error text (caller surfaces it LOUDLY).
+    """
+    rc, _, err = _git(main, "merge", "--abort")
+    if rc != 0 or _main_mid_merge(main):
+        rc2, _, err2 = _git(main, "reset", "--merge")
+        if rc2 != 0 or _main_mid_merge(main):
+            return (err or err2 or "MERGE_HEAD still present")[:200]
+    return None
+
+
+def _set_in_flight(main: Path, branch: str, lane: Path, on: bool):
+    reg = load_registry(main)
+    entry = reg.get(branch, {})
+    if on:
+        entry.update({"path": str(lane), "merge_in_flight":
+                      datetime.now().isoformat(timespec="seconds")})
+    else:
+        entry.pop("merge_in_flight", None)
+    reg[branch] = entry
+    save_registry(main, reg)
 
 
 def cmd_merge(args) -> int:
@@ -699,82 +736,109 @@ def cmd_merge(args) -> int:
         rc, changed_raw, _ = _git(main, "diff", "--name-only", base, branch)
         gen_touched = [f for f in changed_raw.splitlines() if _is_generated(f)]
 
-        # 4 MERGE
-        rc, out, err = _git(main, "merge", "--no-ff", "--no-edit", branch, timeout=300)
-        if rc != 0:
-            rc2, merging, _ = _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")
-            if rc2 != 0:  # merge never started (e.g. untracked-overwrite refusal)
-                return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}",
+        # 3b PRE-FLIGHT — never stack a merge on a merge. A foreign actor's
+        # unconcluded merge (MERGE_HEAD present) is theirs to abort; our own
+        # stale one (registry marker merge_in_flight) we conclude ourselves.
+        if _main_mid_merge(main):
+            reg_entry = load_registry(main).get(branch, {})
+            if reg_entry.get("merge_in_flight"):
+                _abort_merge(main)
+            if _main_mid_merge(main):
+                return _park(main, lane, branch,
+                             "main already mid-merge (foreign actor) — run "
+                             "`git merge --abort` on main, then retry",
                              push=not args.no_push)
-            rc2, u_raw, _ = _git(main, "diff", "--name-only", "--diff-filter=U")
-            unresolved = []
-            for u in u_raw.splitlines():
-                if not u:
-                    continue
-                rc_ign, _, _ = _git(main, "check-ignore", "-q", "--", u)
-                rc_del, del_out, _ = _git(main, "ls-files", "-u", "--", u)
-                stages = {p.split()[2] for p in del_out.splitlines() if len(p.split()) >= 3}
-                if rc_ign == 0:
-                    # Tracked leftover that main's .gitignore now covers: drop
-                    # from index, file survives on disk (rule 4c, conflict form).
-                    _git(main, "rm", "-q", "--cached", "--", u)
-                elif "3" not in stages and "2" in stages:
-                    # modify/delete, theirs deleted ours modified: keep ours —
-                    # never let a lane's deletion erase main's evolved copy.
-                    _git(main, "add", "--", u)
-                elif _is_generated(u):
-                    _git(main, "checkout", "--ours", "--", u)
-                    _git(main, "add", "--", u)
-                    if u not in gen_touched:
-                        gen_touched.append(u)
-                elif u.endswith(".jsonl") or u in UNION_DOCS:
-                    rcA, ours, _ = _git(main, "show", f":2:{u}")
-                    rcB, theirs, _ = _git(main, "show", f":3:{u}")
-                    if rcA == 0 and rcB == 0:
-                        seen = set(ours.splitlines())
-                        merged = ours.splitlines() + \
-                            [l for l in theirs.splitlines() if l not in seen]
-                        (main / u).write_text("\n".join(merged) + "\n")
+        _set_in_flight(main, branch, lane, True)
+        try:
+            # 4 MERGE
+            rc, out, err = _git(main, "merge", "--no-ff", "--no-edit", branch, timeout=300)
+            if rc != 0:
+                rc2, merging, _ = _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")
+                if rc2 != 0:  # merge never started (e.g. untracked-overwrite refusal)
+                    return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}",
+                                 push=not args.no_push)
+                rc2, u_raw, _ = _git(main, "diff", "--name-only", "--diff-filter=U")
+                unresolved = []
+                for u in u_raw.splitlines():
+                    if not u:
+                        continue
+                    rc_ign, _, _ = _git(main, "check-ignore", "-q", "--", u)
+                    rc_del, del_out, _ = _git(main, "ls-files", "-u", "--", u)
+                    stages = {p.split()[2] for p in del_out.splitlines() if len(p.split()) >= 3}
+                    if rc_ign == 0:
+                        # Tracked leftover that main's .gitignore now covers: drop
+                        # from index, file survives on disk (rule 4c, conflict form).
+                        _git(main, "rm", "-q", "--cached", "--", u)
+                    elif "3" not in stages and "2" in stages:
+                        # modify/delete, theirs deleted ours modified: keep ours —
+                        # never let a lane's deletion erase main's evolved copy.
+                        _git(main, "add", "--", u)
+                    elif _is_generated(u):
+                        _git(main, "checkout", "--ours", "--", u)
+                        _git(main, "add", "--", u)
+                        if u not in gen_touched:
+                            gen_touched.append(u)
+                    elif u.endswith(".jsonl") or u in UNION_DOCS:
+                        rcA, ours, _ = _git(main, "show", f":2:{u}")
+                        rcB, theirs, _ = _git(main, "show", f":3:{u}")
+                        if rcA == 0 and rcB == 0:
+                            seen = set(ours.splitlines())
+                            merged = ours.splitlines() + \
+                                [l for l in theirs.splitlines() if l not in seen]
+                            (main / u).write_text("\n".join(merged) + "\n")
+                            _git(main, "add", "--", u)
+                        else:
+                            unresolved.append(u)
+                    elif _theirs_is_stale(main, u) or _theirs_only_stamps(main, u):
+                        # Branch side provably holds no information main lacks
+                        # (stale snapshot of main history, or stamp-only churn).
+                        _git(main, "checkout", "--ours", "--", u)
                         _git(main, "add", "--", u)
                     else:
                         unresolved.append(u)
-                elif _theirs_is_stale(main, u) or _theirs_only_stamps(main, u):
-                    # Branch side provably holds no information main lacks
-                    # (stale snapshot of main history, or stamp-only churn).
-                    _git(main, "checkout", "--ours", "--", u)
-                    _git(main, "add", "--", u)
-                else:
-                    unresolved.append(u)
-            if unresolved:
-                _git(main, "merge", "--abort")
+                if unresolved:
+                    abort_err = _abort_merge(main)
+                    suffix = (f" — WARNING: main left mid-merge, abort failed: {abort_err}"
+                              if abort_err else "")
+                    if abort_err:
+                        print(f"MAIN MID-MERGE — ABORT FAILED: {abort_err}", file=sys.stderr)
+                    return _park(main, lane, branch,
+                                 f"conflict in {', '.join(unresolved[:3])}"
+                                 + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else "")
+                                 + suffix,
+                                 push=not args.no_push)
+                _git(main, "commit", "--no-edit")
+
+            # 5 LAW-3 AUDIT — every branch-added file must exist on merged main
+            dropped = [f for f in added
+                       if _git(main, "cat-file", "-e", f"HEAD:{f}")[0] != 0]
+            if dropped:
+                _git(main, "reset", "--merge", "ORIG_HEAD")
                 return _park(main, lane, branch,
-                             f"conflict in {', '.join(unresolved[:3])}"
-                             + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else ""),
+                             f"Law-3 audit failed: merge dropped {dropped[0]}"
+                             + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""),
                              push=not args.no_push)
-            _git(main, "commit", "--no-edit")
 
-        # 5 LAW-3 AUDIT — every branch-added file must exist on merged main
-        dropped = [f for f in added
-                   if _git(main, "cat-file", "-e", f"HEAD:{f}")[0] != 0]
-        if dropped:
-            _git(main, "reset", "--merge", "ORIG_HEAD")
+            # 6 REGEN — generated artifacts are rebuilt, never hand-merged
+            if gen_touched:
+                py = main / ".venv" / "bin" / "python3"
+                py = str(py) if py.exists() else sys.executable
+                for g, gargs in GENERATORS:
+                    subprocess.run([py, str(main / "execution" / g), *gargs],
+                                   capture_output=True, timeout=600, cwd=str(main))
+                rc, out, _ = _git(main, "status", "--porcelain")
+                if out.strip():
+                    _git(main, "add", "--", *sorted(GENERATED_FILES), ".claude/commands")
+                    _git(main, "commit", "-m",
+                         "chore(lane): regenerate indexes post-merge")
+
+        except Exception as e:  # any crash inside the merge body
+            abort_err = _abort_merge(main)
+            note = f" — WARNING: main left mid-merge, abort failed: {abort_err}" if abort_err else ""
             return _park(main, lane, branch,
-                         f"Law-3 audit failed: merge dropped {dropped[0]}"
-                         + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""),
+                         f"merge crashed: {type(e).__name__}: {str(e)[:120]}{note}",
                          push=not args.no_push)
-
-        # 6 REGEN — generated artifacts are rebuilt, never hand-merged
-        if gen_touched:
-            py = main / ".venv" / "bin" / "python3"
-            py = str(py) if py.exists() else sys.executable
-            for g, gargs in GENERATORS:
-                subprocess.run([py, str(main / "execution" / g), *gargs],
-                               capture_output=True, timeout=600, cwd=str(main))
-            rc, out, _ = _git(main, "status", "--porcelain")
-            if out.strip():
-                _git(main, "add", "--", *sorted(GENERATED_FILES), ".claude/commands")
-                _git(main, "commit", "-m",
-                     "chore(lane): regenerate indexes post-merge")
+        _set_in_flight(main, branch, lane, False)
 
         # 7 PUSH (optional: local reconciliation does not imply remote export)
         if args.no_push:
@@ -814,6 +878,135 @@ def _teardown_lane(main: Path, lane: Path, branch: str):
     reg = load_registry(main)
     reg.pop(branch, None)
     save_registry(main, reg)
+
+
+def _status_paths(porcelain: str) -> "tuple[list[str], list[str]]":
+    """(tracked dirty paths, untracked paths) from `status --porcelain`.
+    Renames ("R  old -> new") contribute both sides."""
+    tracked, untracked = [], []
+    for line in porcelain.splitlines():
+        if not line.strip():
+            continue
+        if line.startswith("??"):
+            untracked.append(line[3:])
+            continue
+        rest = line[3:]
+        if " -> " in rest:
+            a, b = rest.split(" -> ", 1)
+            tracked.extend([a, b])
+        else:
+            tracked.append(rest)
+    return sorted(set(tracked)), sorted(set(untracked))
+
+
+def cmd_preserve(args) -> int:
+    """Move human work stranded on main into its own lane, leaving main clean.
+
+    The missing counterpart to main_drift_absorb (which sweeps MACHINE drift
+    and correctly ABORTS on human-authored paths). Scar (2026-09-02): 134
+    staged deliverable files sat on main; every lane parked on "main dirty";
+    no audited command could move them, so nothing merged for hours.
+
+    Loss-proof by construction (Law 3): the preserve lane's commit is written
+    and verified to contain every dirty tracked path BEFORE main is touched.
+    Untracked files are never moved — listed only. The new lane is registered
+    like any other, so the normal `merge` brings the work back as a real commit.
+    """
+    main = main_root(Path.cwd())
+    if _main_mid_merge(main):
+        print("ERROR: main is mid-merge (MERGE_HEAD). Conclude or abort that merge first.",
+              file=sys.stderr)
+        return 1
+    rc, out, _ = _git(main, "status", "--porcelain")
+    tracked, untracked = _status_paths(out)
+    if not tracked:
+        print("MAIN CLEAN: no tracked changes to preserve"
+              + (f" ({len(untracked)} untracked left alone)" if untracked else ""))
+        return 0
+    writer = fresh_main_writer(main, own_lock_token=getattr(args, "lock_token", None))
+    if writer:
+        print(f"REFUSED: main has a fresh writer: {writer}", file=sys.stderr)
+        return 1
+    slug = re.sub(r"[^a-z0-9-]+", "-", (args.slug or "main-dirty").lower()).strip("-")
+    stamp = datetime.now().strftime("%Y%m%d")
+    branch = f"worktree-main-dirty-preserve-{stamp}-{slug}"
+    lane = main / ".claude" / "worktrees" / f"main-dirty-preserve-{stamp}-{slug}"
+    if branch in active_lanes(main) or lane.exists():
+        print(f"ERROR: {branch} already exists — pass a different --slug", file=sys.stderr)
+        return 1
+    print(f"PRESERVE: {len(tracked)} tracked path(s) on main -> lane {branch}")
+    if untracked:
+        print(f"  ({len(untracked)} untracked path(s) stay where they are)")
+    if args.dry_run:
+        for p_ in tracked[:20]:
+            print("   ", p_)
+        if len(tracked) > 20:
+            print(f"    … +{len(tracked)-20} more")
+        return 0
+
+    # 1 LANE at main's HEAD, then copy the working-tree state of every dirty path
+    rc, _, err = _git(main, "worktree", "add", str(lane), "-b", branch, "HEAD", timeout=120)
+    if rc != 0:
+        print(f"ERROR: worktree add failed: {err[:200]}", file=sys.stderr)
+        return 1
+    for rel in tracked:
+        src, dst = main / rel, lane / rel
+        if src.exists():
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+        elif dst.exists():
+            dst.unlink()
+    _git(lane, "add", "-A", "-f", "--", *tracked)
+    # Mechanical commit: repo hooks (auto-push, closeout) stay out of it — our
+    # own --push handles the remote, and a hook failing in a fresh worktree
+    # must never look like "nothing to preserve".
+    rc, out, err = _git(lane, "-c", "core.hooksPath=/dev/null", "commit", "-q", "-m",
+                        f"chore(preserve): human work stranded on main ({len(tracked)} paths)")
+    if rc != 0:
+        print(f"ERROR: preserve commit failed: {(err or out)[:300]} — main untouched; "
+              f"removing the half-built lane", file=sys.stderr)
+        _git(main, "worktree", "remove", "--force", str(lane))
+        _git(main, "update-ref", "-d", f"refs/heads/{branch}")
+        return 1
+
+    # 2 LAW-3 — every surviving path must be in the preserve commit before main moves
+    missing = [rel for rel in tracked
+               if (main / rel).exists()
+               and _git(lane, "cat-file", "-e", f"HEAD:{rel}")[0] != 0]
+    if missing:
+        print(f"ERROR: preserve commit lacks {missing[0]} (+{len(missing)-1} more) — "
+              f"main untouched; lane {branch} kept for inspection", file=sys.stderr)
+        return 1
+
+    # 3 RESTORE main to HEAD for exactly those paths (index + tree)
+    _git(main, "reset", "-q", "--", *tracked)
+    in_head = set(_git(main, "ls-tree", "-r", "--name-only", "HEAD", "--", *tracked)[1].splitlines())
+    for rel in tracked:
+        if rel in in_head:
+            _git(main, "checkout", "-q", "HEAD", "--", rel)
+        else:
+            p_ = main / rel
+            if p_.exists():
+                p_.unlink()
+    rc, out, _ = _git(main, "status", "--porcelain")
+    still, _ = _status_paths(out)
+    if still:
+        print(f"WARNING: main still shows {len(still)} tracked change(s) after restore: "
+              f"{', '.join(still[:3])}", file=sys.stderr)
+
+    # 4 REGISTER + optional push
+    reg = load_registry(main)
+    reg[branch] = {"path": str(lane), "status": "active", "harness": "preserve",
+                   "created": datetime.now().isoformat(timespec="seconds"),
+                   "reason": f"preserved {len(tracked)} human-authored path(s) from main"}
+    save_registry(main, reg)
+    push_note = ""
+    if getattr(args, "push", False):
+        rc, _, err = _git(lane, "push", "-u", "origin", branch, timeout=120)
+        push_note = " (pushed)" if rc == 0 else f" (push failed: {err[:80]})"
+    print(f"PRESERVED: {len(tracked)} path(s) -> {branch}{push_note}. Land them with: "
+          f"python3 execution/worktree_lane.py merge --lane {branch}")
+    return 0
 
 
 def cmd_teardown(args) -> int:
@@ -963,6 +1156,14 @@ def main() -> int:
     m.add_argument("--exclude-session", dest="exclude_session", action="append",
                    help="session id to exclude from fresh-writer detection (repeatable)")
     m.set_defaults(fn=cmd_merge, no_push=True)
+
+    pv = sub.add_parser("preserve",
+                        help="move human work stranded on main into its own lane (main becomes clean)")
+    pv.add_argument("--slug", help="lane suffix (default: main-dirty)")
+    pv.add_argument("--dry-run", action="store_true", dest="dry_run")
+    pv.add_argument("--push", action="store_true", help="push the preserve branch to origin")
+    pv.add_argument("--lock-token", dest="lock_token")
+    pv.set_defaults(fn=cmd_preserve)
 
     t = sub.add_parser("teardown")
     t.add_argument("--lane")
