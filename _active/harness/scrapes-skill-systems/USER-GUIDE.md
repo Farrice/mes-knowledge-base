@@ -7,13 +7,13 @@ Type `/scrapes` and paste what you have. A topic. A URL. A draft. A video link. 
 
 You can also just say it in plain words in any session ("make Jen a carousel about still renting"). The router suggests the door with a `[SCRAPES engine]` tag; you tap or type it.
 
-## Run it again (the way blind bar 01 was made)
-1. **Say the brand and the subject in one line.** `/social-carousel farrice: teardown of <brand>, LinkedIn` or `/social-carousel jen: <topic>, Instagram`. The brand word is the lock; if you leave it out the system asks, it never guesses.
-2. **Name the fight.** Named brand or anonymized composite, and the angle you want argued. Default for your brand is the named brand with the fight picked; composite only when a client's privacy needs it.
-3. **Wait for the ledger, not the slides.** Step 1 researches with receipts and captures real screenshots; Step 2.5 writes `VERIFICATION.md` in the run folder (every claim, tag, source, crop). Read that once and sign off on accuracy. Nothing ships that is not on it.
-4. **Copy comes to you as a take file** (caption + seven-slide script). Give word-level edits there. Copy is locked before any machinery runs.
-5. **Slides render at $0** on your approved pool; you get a contact sheet and, when there is more than one take, a blind judging surface (1/2/3 with your frames as the bar). Tap the verdict; it goes into the ratchet in your words.
-6. **Ship by hand.** Sends stay human. Open the run folder under `projects/00-social-content/<date>/<slug>/`, or the Content Studio link the run prints, and post.
+## Run it again (the way blind bar 01 was made, plus the review beat it skipped)
+1. **Bring a concept, not a package.** One line with the brand and the idea: `/social-carousel farrice: teardown of <brand>, LinkedIn`. Drop in anything you already have: reference carousels you like, product or context images, a brand to name or spare. You never have to arrive with the angle, the research, or the copy. The brand word is the lock; leave it out and the system asks.
+2. **Concept Room (your first tap).** The run comes back with ONE short page: the research that matters (tagged, with real screenshots already captured), three angle candidates with the fight each one picks, two or three hooks for the recommended angle, the photo plan, and the named-vs-composite call. You tap, edit, or redirect. Nothing is written until you do.
+3. **Read the ledger, not the slides.** `VERIFICATION.md` in the run folder lists every claim, its tag, its source, and the crop it rides on. One read, sign off on accuracy. Nothing off the ledger ships.
+4. **Edit the take file.** Caption plus seven-slide script comes to you as text. Word-level edits happen there. Copy locks before any machinery runs.
+5. **Slides render at $0** on your approved pool. You get a contact sheet, and a blind judging surface whenever there is more than one take. Tap the verdict in your words; it goes into the ratchet.
+6. **Post by hand.** Sends stay human. The run folder is under `projects/00-social-content/<date>/<slug>/`.
 Full recipe with the dead ends: `docs/solutions/2026-09-03-teardown-carousel-copy-lock-evidence-crops.md`.
 
 ## Who is it for? (the brand lock)
