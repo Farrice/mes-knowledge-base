@@ -14,5 +14,5 @@ Craft pass (in-pool CSS only, canonical re-render via `render_template.py`, no A
 
 Open: the Scrapes builder gate will re-flag these templates if a builder is ever re-spawned on them (Check D floor). That gate is theirs; we never edit inside `.claude/skills/`. Content-time rendering does not re-run it.
 
-## How to leave notes next time
-Template Studio → top bar → **Comment** pill (toggles comment mode) → click the slide where the note belongs → type. Pins land in `comments.json` next to this file; say "read my Studio comments" and they get pulled into the next pass.
+## How to leave notes next time (verified 2026-09-03 with a test pin)
+Template Studio → top bar → **Comment** pill (toggles comment mode; a toast confirms) → click the slide where the note belongs → a small composer opens → type → press the composer's **Comment** button (Return does NOT submit) → top bar **Save**. The pin lands in `<template>/comments.json` (per template, not at the pool root). Say "read my Studio comments" and every `comments.json` under this pool gets pulled into the next pass. Four pins on four templates is a full review.

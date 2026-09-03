@@ -24,6 +24,9 @@ Their machinery runs the parts we could not build: scenario detection, slide pla
 ## Before your first carousel: the template pool (once per brand)
 Their carousel pipeline refuses to run without an approved template pool. Setup is `/scrapes set up my templates for my brand`. It reads 4–6 reference frames from `brand_context/visual_refs/` (yours are staged), builds one template per ref with GPT Image (≈ $0.17 per image, month cap $15), then opens the Template Studio in your browser. You compare ref vs render, edit, click Approve. Approved templates render carousels at $0 from then on. Jen's pool waits on her six inputs; until then her visuals go through her own renderer.
 
+## Leaving notes in a Studio (verified)
+Top bar → **Comment** pill (toggle) → click the slide → type in the small composer → press its **Comment** button (Return does not submit) → **Save**. Notes land in `comments.json` next to that template or slide. Say "read my Studio comments" and they drive the next pass. Or just tell me in chat, as you did; both work.
+
 ## Approvals that stay yours
 Template Studio (templates), Content Studio (the finished slides), the outline in a deck, the human-review step in an ebook, every paid call above the guard's line, and every send. Nothing posts. Ever.
 
