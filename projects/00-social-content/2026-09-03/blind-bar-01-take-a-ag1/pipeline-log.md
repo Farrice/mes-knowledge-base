@@ -65,3 +65,6 @@ No AI providers available this run (`available_providers = []`). All 7 slides re
 
 ## Orchestrator correction (2026-09-03)
 Re-rendered slides [6] with the same renderer command after shortening labels to one line. Copy meaning unchanged; take file and slide_plan.yaml updated to match. Cost $0.
+
+## Signature placement (Farrice 2026-09-03)
+Slides 1 and 7 re-rendered: script signature moved UNDER the giant word (no layering). $0.
