@@ -1,0 +1,26 @@
+{
+  "slide_id": "slide-01",
+  "template_id": null,
+  "template_pool": null,
+  "source_template_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/templates/linkedin-carousel/photo-left-list-body",
+  "data": {
+    "PHOTO_MAIN_PATH": "_ai_bg/photo_main.png",
+    "KICKER": "Creative Teardown",
+    "DATE_LABEL": "03 Sep, 2026",
+    "HEADLINE": "three angles",
+    "SUBHEAD": "The same product can argue three different things. Only one of them is worth funding first.",
+    "LIST_1_LABEL": "Ingredient",
+    "LIST_1_BODY": "Seventy-five things in one scoop. The claim they already own and everyone else copies.",
+    "LIST_2_LABEL": "Outcome",
+    "LIST_2_BODY": "What a person feels by week three. Honest, specific, and almost never in the ads.",
+    "LIST_3_LABEL": "Ritual",
+    "LIST_3_BODY": "The morning glass. The format is the argument, and nobody has led with it.",
+    "FOOTER_NAME": "Farrice Cain",
+    "FOOTER_URL": "parallaxletter.substack.com",
+    "FOOTER_DESCRIPTOR": "Supplement + performance brands",
+    "FOOTER_CTA": "DM ANGLE",
+    "MASTHEAD_LEFT": "FARRICE CAIN",
+    "MASTHEAD_CENTER": "",
+    "MASTHEAD_RIGHT": "CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS"
+  }
+}

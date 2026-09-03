@@ -1,0 +1,52 @@
+# Bboxes of the authored HTML text zones in template.html — for the gate scripts only.
+# Derived from the source composition (compositions/editorial/frames/01-cover-signature.html /
+# _editorial.css) which rendered this ref pixel-for-pixel, plus a direct pixel measurement of
+# assets/ref-canonical.png for cross-check (see rationale.md §① / §②).
+elements:
+  - id: category_label
+    bbox_pct: [7.78, 5.33, 35, 3.0]
+    color_role: text-on-light
+    type: label
+    font_size_cqw: 2.41
+
+  - id: date_label
+    bbox_pct: [70, 5.33, 17, 3.0]
+    color_role: text-on-light
+    type: label
+    font_size_cqw: 2.04
+
+  - id: headline_word
+    bbox_pct: [0, 33.7, 100, 15.5]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 22.04
+
+  - id: signature
+    bbox_pct: [22.5, 40.37, 57.18, 10.3]
+    color_role: accent
+    type: script
+    font_size_cqw: 10.74
+
+  - id: footer_author
+    bbox_pct: [7.78, 93.5, 10, 2.2]
+    color_role: text-on-light
+    type: footer
+    font_size_cqw: 1.85
+
+  - id: footer_url
+    bbox_pct: [22.0, 93.5, 23, 2.2]
+    color_role: text-on-light
+    type: footer
+    font_size_cqw: 1.85
+
+  - id: footer_niche
+    bbox_pct: [49, 93.5, 30, 2.2]
+    color_role: text-on-light
+    type: footer
+    font_size_cqw: 1.85
+
+  - id: footer_cta
+    bbox_pct: [82.5, 93.5, 10.5, 2.2]
+    color_role: text-on-light
+    type: footer
+    font_size_cqw: 1.85

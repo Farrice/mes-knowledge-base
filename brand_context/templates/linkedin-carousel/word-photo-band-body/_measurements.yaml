@@ -1,0 +1,67 @@
+# _measurements.yaml — word-photo-band-body
+# bboxes of the authored HTML text/photo zones (canvas 1080x1350). Read from the authored
+# template.html — not a placement guess. Feeds the gate scripts only (contrast, dead-space,
+# display-height, buried-headline, overflow/clip).
+
+canvas: { width: 1080, height: 1350 }
+
+elements:
+  - id: HEADER_TITLE
+    bbox_pct: [7.78, 5.33, 40.0, 3.0]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 2.41
+
+  - id: HEADER_DATE
+    bbox_pct: [55.0, 5.33, 37.22, 3.0]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 2.04
+
+  - id: HEADLINE
+    bbox_pct: [7.78, 11.85, 84.44, 14.81]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 13.33
+
+  - id: SUBTITLE
+    bbox_pct: [7.78, 25.19, 70.37, 11.0]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 2.41
+
+  - id: PHOTO_MAIN
+    bbox_pct: [7.78, 38.52, 84.44, 44.44]
+    color_role: n/a
+    type: image
+    font_size_cqw: null
+
+  - id: SOURCE_LABEL
+    bbox_pct: [7.78, 84.89, 84.44, 2.5]
+    color_role: text-muted
+    type: caption
+    font_size_cqw: 1.85
+
+  - id: FOOTER_NAME
+    bbox_pct: [7.78, 93.48, 20.0, 1.8]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 1.85
+
+  - id: FOOTER_SITE
+    bbox_pct: [30.0, 93.48, 26.0, 1.8]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 1.85
+
+  - id: FOOTER_DESC
+    bbox_pct: [56.0, 93.48, 26.0, 1.8]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 1.85
+
+  - id: FOOTER_CTA
+    bbox_pct: [82.0, 93.48, 10.22, 1.8]
+    color_role: text-on-light
+    type: text
+    font_size_cqw: 1.85

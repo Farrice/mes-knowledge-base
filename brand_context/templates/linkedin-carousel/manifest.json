@@ -10,52 +10,374 @@
       "file": "headline-subline-cover/template.html",
       "role": "cover",
       "status": "approved",
-      "tone": ["light"],
+      "tone": [
+        "light"
+      ],
       "image_zone": "none",
       "render_mode": "TEMPLATE",
-      "needs": ["HEADLINE", "SUBTITLE"],
-      "optional": ["MASTHEAD_LEFT", "FIELD_INDEX", "CAPTION_FOOTER"],
-      "fits": ["hook statement + one-line reframe", "thesis cover", "contrarian claim with a quiet subline"],
-      "summary": "Paper-light cover: masthead + NN/NN counter, 2-3 line bold headline, graphite subtitle, hairline, tracked footer caption. Pure HTML/CSS, no AI zone."
+      "needs": [
+        "HEADLINE",
+        "SUBTITLE"
+      ],
+      "optional": [
+        "MASTHEAD_LEFT",
+        "FIELD_INDEX",
+        "CAPTION_FOOTER"
+      ],
+      "fits": [
+        "hook statement + one-line reframe",
+        "thesis cover",
+        "contrarian claim with a quiet subline"
+      ],
+      "summary": "Paper-light cover: masthead + NN/NN counter, 2-3 line bold headline, graphite subtitle, hairline, tracked footer caption. Pure HTML/CSS, no AI zone.",
+      "style": "typographic"
     },
     {
       "id": "kicker-stack-body",
       "file": "kicker-stack-body/template.html",
       "role": "body",
       "status": "approved",
-      "tone": ["light"],
+      "tone": [
+        "light"
+      ],
       "image_zone": "none",
       "render_mode": "TEMPLATE",
-      "needs": ["HEADLINE"],
-      "optional": ["MASTHEAD_LEFT", "FIELD_INDEX", "KICKER_1", "KICKER_2", "STATEMENT"],
-      "fits": ["escalating 3-line list", "what-they-ask-for vs what-stayed-the-same", "symptom stack before the diagnosis"],
-      "summary": "Paper-light body: kicker label, 3-line bold headline stack, hairline, second kicker + graphite statement. Pure HTML/CSS."
+      "needs": [
+        "HEADLINE"
+      ],
+      "optional": [
+        "MASTHEAD_LEFT",
+        "FIELD_INDEX",
+        "KICKER_1",
+        "KICKER_2",
+        "STATEMENT"
+      ],
+      "fits": [
+        "escalating 3-line list",
+        "what-they-ask-for vs what-stayed-the-same",
+        "symptom stack before the diagnosis"
+      ],
+      "summary": "Paper-light body: kicker label, 3-line bold headline stack, hairline, second kicker + graphite statement. Pure HTML/CSS.",
+      "style": "typographic"
     },
     {
       "id": "headline-marker-body",
       "file": "headline-marker-body/template.html",
       "role": "body",
       "status": "approved",
-      "tone": ["light"],
+      "tone": [
+        "light"
+      ],
       "image_zone": "none",
       "render_mode": "TEMPLATE",
-      "needs": ["HEADLINE"],
-      "optional": ["MASTHEAD_LEFT", "MASTHEAD_CENTER", "PAGE_INDEX", "ROUTE_1_LABEL", "ROUTE_2_LABEL", "ROUTE_3_LABEL", "FOOTER_CAPTION"],
-      "fits": ["one insight + three-route marker with one LEAD", "diagnosis slide", "comparison where one option is recommended"],
-      "summary": "Paper-light body: 2-3 line bold headline, three-route marker diagram (one heavy LEAD row), tracked footer caption. Pure HTML/CSS."
+      "needs": [
+        "HEADLINE"
+      ],
+      "optional": [
+        "MASTHEAD_LEFT",
+        "MASTHEAD_CENTER",
+        "PAGE_INDEX",
+        "ROUTE_1_LABEL",
+        "ROUTE_2_LABEL",
+        "ROUTE_3_LABEL",
+        "FOOTER_CAPTION"
+      ],
+      "fits": [
+        "one insight + three-route marker with one LEAD",
+        "diagnosis slide",
+        "comparison where one option is recommended"
+      ],
+      "summary": "Paper-light body: 2-3 line bold headline, three-route marker diagram (one heavy LEAD row), tracked footer caption. Pure HTML/CSS.",
+      "style": "typographic"
     },
     {
       "id": "statement-close-cta",
       "file": "statement-close-cta/template.html",
       "role": "cta",
       "status": "approved",
-      "tone": ["dark"],
+      "tone": [
+        "dark"
+      ],
       "image_zone": "none",
       "render_mode": "TEMPLATE",
-      "needs": ["HEADLINE"],
-      "optional": ["MASTHEAD_LEFT", "PAGE_INDEX", "ROUTE_01_LABEL", "ROUTE_02_LABEL", "ROUTE_03_LABEL", "FOOTER_CAPTION", "RECOMMENDATION_NAME"],
-      "fits": ["closing recommendation", "the one dark interruption per sequence", "final CTA with a named lead route"],
-      "summary": "Ink-dark close: 3-line paper headline, three-route marker with LEAD, footer caption + bold recommendation name. The brand's single dark frame per carousel. Pure HTML/CSS."
+      "needs": [
+        "HEADLINE"
+      ],
+      "optional": [
+        "MASTHEAD_LEFT",
+        "PAGE_INDEX",
+        "ROUTE_01_LABEL",
+        "ROUTE_02_LABEL",
+        "ROUTE_03_LABEL",
+        "FOOTER_CAPTION",
+        "RECOMMENDATION_NAME"
+      ],
+      "fits": [
+        "closing recommendation",
+        "the one dark interruption per sequence",
+        "final CTA with a named lead route"
+      ],
+      "summary": "Ink-dark close: 3-line paper headline, three-route marker with LEAD, footer caption + bold recommendation name. The brand's single dark frame per carousel. Pure HTML/CSS.",
+      "style": "typographic"
+    },
+    {
+      "id": "signature-cover",
+      "role": "cover",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": [
+        "HEADLINE_WORD"
+      ],
+      "optional": [
+        "CATEGORY",
+        "DATE",
+        "SIGNATURE",
+        "AUTHOR_NAME",
+        "SITE_URL",
+        "NICHE_LABEL",
+        "CTA_LABEL"
+      ],
+      "fits": [
+        "teardown cover: one giant lowercase word",
+        "series opener",
+        "named-brand teardown title"
+      ],
+      "summary": "Editorial cover: header title + date/arrow, giant lowercase display word margin to margin, red script signature overlaid, four-item footer strip. Pure HTML.",
+      "file": "signature-cover/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "word-photo-band-body",
+      "role": "body",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "HEADLINE",
+        "SUBTITLE",
+        "PHOTO_MAIN_PATH"
+      ],
+      "optional": [
+        "HEADER_TITLE",
+        "HEADER_DATE",
+        "SOURCE_LABEL",
+        "FOOTER_NAME",
+        "FOOTER_SITE",
+        "FOOTER_DESC",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "what they run: ad-library or feed capture under a short verdict",
+        "section opener with one wide evidence band"
+      ],
+      "summary": "Giant lowercase headline, short body, full-width real evidence band (ad grid, feed, page) with a source label. Photo zone is a REAL capture, never AI.",
+      "file": "word-photo-band-body/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "photo-right-columns-body",
+      "role": "body",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "HEADLINE",
+        "BODY",
+        "PHOTO_MAIN"
+      ],
+      "optional": [
+        "SERIES_TITLE",
+        "DATE",
+        "ITEM_1_TITLE",
+        "ITEM_1_TEXT",
+        "ITEM_2_TITLE",
+        "ITEM_2_TEXT",
+        "ITEM_3_TITLE",
+        "ITEM_3_TEXT",
+        "FOOTER_NAME",
+        "FOOTER_LINK",
+        "FOOTER_TOPIC",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "the claim: product page or hero shot beside a 2-line word, three-column breakdown below",
+        "diagnosis with three named fields"
+      ],
+      "summary": "Tall real product/page crop right, two-line lowercase headline lower-left, body paragraph, hairline, three titled columns. Photo zone is a REAL capture.",
+      "file": "photo-right-columns-body/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "photo-left-list-body",
+      "role": "body",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "HEADLINE",
+        "PHOTO_MAIN_PATH"
+      ],
+      "optional": [
+        "KICKER",
+        "DATE_LABEL",
+        "SUBHEAD",
+        "LIST_1_LABEL",
+        "LIST_1_BODY",
+        "LIST_2_LABEL",
+        "LIST_2_BODY",
+        "LIST_3_LABEL",
+        "LIST_3_BODY",
+        "FOOTER_NAME",
+        "FOOTER_URL",
+        "FOOTER_DESCRIPTOR",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "three angles / three options with a tall evidence column left",
+        "list slide with one bleed-left photo"
+      ],
+      "summary": "Bleed-left tall real image, headline + subhead + three labelled list items right. Photo zone is a REAL capture.",
+      "file": "photo-left-list-body/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "two-photo-list-body",
+      "role": "body",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "HEADLINE",
+        "PHOTO_MAIN_PATH",
+        "PHOTO_SECOND_PATH"
+      ],
+      "optional": [
+        "TITLE",
+        "DATE",
+        "BODY",
+        "ITEM_1_LABEL",
+        "ITEM_1_BODY",
+        "ITEM_2_LABEL",
+        "ITEM_2_BODY",
+        "ITEM_3_LABEL",
+        "ITEM_3_BODY",
+        "FOOTER_NAME",
+        "FOOTER_URL",
+        "FOOTER_DESCRIPTOR",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "what changed: timeline of formats with two evidence crops",
+        "before/after with a dated list"
+      ],
+      "summary": "Headline + body + three dated items left, two stacked real crops right. Photo zones are REAL captures.",
+      "file": "two-photo-list-body/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "evidence-crop-body",
+      "role": "body",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "VERDICT_WORD",
+        "ANALYSIS_BODY",
+        "PHOTO_MAIN"
+      ],
+      "optional": [
+        "SERIES_TITLE",
+        "POST_DATE",
+        "EVIDENCE_LABEL",
+        "FOOTER_NAME",
+        "FOOTER_HANDLE",
+        "FOOTER_NICHE",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "the miss: one source crop on paper inside hairlines, verdict word, analysis",
+        "move #8 evidence crop"
+      ],
+      "summary": "Wide evidence crop on paper between hairlines with a source label, verdict word, analysis paragraph. Photo zone is a REAL capture, never AI (move #8).",
+      "file": "evidence-crop-body/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "portrait-statement-cta",
+      "role": "cta",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "contained",
+      "render_mode": "HYBRID_REAL",
+      "needs": [
+        "HEADLINE",
+        "PHOTO_MAIN_PATH"
+      ],
+      "optional": [
+        "KICKER",
+        "DATE",
+        "SUBTITLE",
+        "CTA_LABEL",
+        "FOOTER_NAME",
+        "FOOTER_DOMAIN",
+        "FOOTER_DESCRIPTOR",
+        "FOOTER_CTA"
+      ],
+      "fits": [
+        "closing statement with Farrice's real portrait (move #9)",
+        "authority close before the signature frame"
+      ],
+      "summary": "Wide real portrait, two-line lowercase statement, subtitle, right-aligned CTA label. Portrait is real, never AI (move #9).",
+      "file": "portrait-statement-cta/template.html",
+      "status": "ready",
+      "style": "editorial"
+    },
+    {
+      "id": "signature-close-cta",
+      "role": "cta",
+      "tone": [
+        "light"
+      ],
+      "image_zone": "none",
+      "render_mode": "TEMPLATE",
+      "needs": [
+        "HEADLINE_WORD"
+      ],
+      "optional": [
+        "SERIES_TITLE",
+        "MASTHEAD_DATE",
+        "FOOTER_TOPIC"
+      ],
+      "fits": [
+        "final frame: giant lowercase CTA word with the signature",
+        "dm angle close"
+      ],
+      "summary": "Giant lowercase closing word margin to margin with the red script signature, footer strip. Pure HTML.",
+      "file": "signature-close-cta/template.html",
+      "status": "ready",
+      "style": "editorial"
     }
-  ]
+  ],
+  "styles_file": "styles.json",
+  "updated": "2026-09-03"
 }

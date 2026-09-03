@@ -1,0 +1,21 @@
+{
+  "slide_id": "slide-01",
+  "template_id": null,
+  "template_pool": null,
+  "source_template_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/templates/linkedin-carousel/portrait-statement-cta",
+  "data": {
+    "KICKER": "Creative Teardown",
+    "DATE": "03 Sep, 2026",
+    "PHOTO_MAIN_PATH": "assets/photo-main.jpg",
+    "HEADLINE": "choose the argument<br>before you multiply it.",
+    "SUBTITLE": "Three campaign angles, one lead recommendation, before the next creative round. That is the whole job.",
+    "CTA_LABEL": "DM ANGLE",
+    "FOOTER_NAME": "Farrice Cain",
+    "FOOTER_DOMAIN": "parallaxletter.substack.com",
+    "FOOTER_DESCRIPTOR": "Supplement + performance brands",
+    "FOOTER_CTA": "DM ANGLE",
+    "MASTHEAD_LEFT": "FARRICE CAIN",
+    "MASTHEAD_CENTER": "",
+    "MASTHEAD_RIGHT": "CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS"
+  }
+}

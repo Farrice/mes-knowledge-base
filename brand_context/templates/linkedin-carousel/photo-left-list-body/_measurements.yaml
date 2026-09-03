@@ -1,0 +1,94 @@
+source: authored-html-zones (bboxes re-measured from the rendered preview.png ink extents)
+canvas: [1080, 1350]
+elements:
+  - id: KICKER
+    bbox_pct: [7.78, 4.7, 25.0, 3.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.2
+
+  - id: DATE_LABEL
+    bbox_pct: [72.0, 4.7, 20.22, 3.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.2
+
+  - id: PHOTO_MAIN
+    bbox_pct: [0, 8.0, 54.0, 84.0]
+    color_role: mixed
+    type: photo
+    font_size_cqw: null
+    notes: "the evidence-crop image block (contained-rectangle, bleed-left) — never AI-generated, see rationale.md §③"
+
+  - id: HEADLINE
+    bbox_pct: [59.0, 15.5, 33.2, 15.8]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 9.8
+
+  - id: SUBHEAD
+    bbox_pct: [59.0, 27.5, 33.2, 6.6]
+    color_role: secondary
+    type: subtitle
+    font_size_cqw: 3.4
+
+  - id: LIST_1_LABEL
+    bbox_pct: [59.0, 38.8, 33.2, 2.5]
+    color_role: text-on-light
+    type: label
+    font_size_cqw: 3.6
+
+  - id: LIST_1_BODY
+    bbox_pct: [59.0, 40.7, 33.2, 8.7]
+    color_role: secondary
+    type: body
+    font_size_cqw: 3.4
+
+  - id: LIST_2_LABEL
+    bbox_pct: [59.0, 52.5, 33.2, 2.8]
+    color_role: text-on-light
+    type: label
+    font_size_cqw: 3.6
+
+  - id: LIST_2_BODY
+    bbox_pct: [59.0, 56.3, 33.2, 6.6]
+    color_role: secondary
+    type: body
+    font_size_cqw: 3.4
+
+  - id: LIST_3_LABEL
+    bbox_pct: [59.0, 66.3, 33.2, 2.8]
+    color_role: text-on-light
+    type: label
+    font_size_cqw: 3.6
+
+  - id: LIST_3_BODY
+    bbox_pct: [59.0, 70.1, 33.2, 6.7]
+    color_role: secondary
+    type: body
+    font_size_cqw: 3.4
+
+  - id: FOOTER_NAME
+    bbox_pct: [7.8, 92.6, 13.2, 3.0]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.0
+
+  - id: FOOTER_URL
+    bbox_pct: [21.8, 92.6, 26.2, 3.0]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 2.0
+
+  - id: FOOTER_DESCRIPTOR
+    bbox_pct: [48.8, 92.6, 33.2, 3.0]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 2.0
+
+  - id: FOOTER_CTA
+    bbox_pct: [82.8, 92.6, 12.5, 3.0]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.0
+    notes: "margin-left:auto pushes this to the flex row's right edge; ink measured to ~94.3%, slightly past the declared FOOTER container's own 92.22% right edge — accepted (a 2% cosmetic overrun, not a text/canvas clip)"

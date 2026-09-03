@@ -5,20 +5,6 @@
  * render_template.py at render time — never hardcode hex/font names here.
  */
 
-/* ─── Derived brand vars render_template.py does NOT auto-inject ──────────
- * render_template.py's color_map only emits --brand-{bg-dark,bg-light,primary,
- * secondary,accent,accent-2,text,text-on-dark,text-on-light,muted-on-dark,
- * muted-on-light}. tokens.json → colors.border_subtle (#D8D8D3, named "line")
- * and colors.text_muted (#8C8C82, named "stone") have NO auto-injected var, so
- * templates that need them declare a fallback here — literal values copied
- * VERBATIM from tokens.json (never invented), so `var(--brand-line)` /
- * `var(--brand-stone)` stay token-sourced instead of a bare hex in template.html.
- */
-:root {
-  --brand-line: #D8D8D3;   /* tokens.json colors.border_subtle / colors.named.line */
-  --brand-stone: #8C8C82;  /* tokens.json colors.text_muted / colors.named.stone */
-}
-
 /* ─── Brand @font-face — NONE for this brand ──────────────────────────────
  * tokens.json → fonts._source: "system font on macOS (/System/Library/Fonts/HelveticaNeue.ttc);
  * no webfont files shipped, no Google Fonts URL." The brand's ONLY face is Helvetica Neue,
