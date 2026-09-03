@@ -1,0 +1,57 @@
+{
+  "slug": "melting-forest-public-creative-spec",
+  "chip": "Founder proof object · public-source only",
+  "title": "Glow Up: make the all-in-one drink say one *thing*",
+  "dek": "A one-page creative strategy specimen for Sean McDonald. Two tests separate the format advantage from the beauty-and-wellness occasion.",
+  "window": "Public sources checked September 3, 2026",
+  "lens": "Sparkling collagen protein · functional beverage · paid-social message architecture",
+  "sources": "Melting Forest product page + Sprouts launch release",
+  "compiled": "September 3, 2026",
+  "footer_left": "FARRICE CAIN · PUBLIC SPEC WORK",
+  "footer_right": "MELTING FOREST · NOT CLIENT WORK",
+  "category": "client: prospect specimen",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the message *gap*",
+      "kicker": "All-in-one can become all-at-once",
+      "body": "Glow Up has multiple credible product stories: protein without a shake, collagen, prebiotic fiber, mushrooms, magnesium, beauty botanicals, low sugar, culinary flavors, and sparkling refreshment. That breadth makes the formula interesting but weakens the first second of an ad.\n\nThe cleanest split is between a category-displacement test for protein-shake rejectors and a specific beauty-wellness occasion. In both, the unused ingredients become supporting proof rather than additional promises."
+    },
+    {
+      "kind": "evidence",
+      "heading": "source *receipts*",
+      "rows": [
+        {"claim": "The current product has a concrete sensory contrast.", "evidence": "The Apple Ginger page describes a clear sparkling drink with 15g collagen protein, 5g prebiotic fiber, and zero added sugar, positioned against thick or chalky shakes.", "source_url": "https://meltingforest.com/products/glow-up-sparkling-collagen-protein-apple-ginger", "source_label": "Glow Up product page", "confidence": "VERIFIED"},
+        {"claim": "Glow Up has a current national retail trigger.", "evidence": "The July 7 release says four flavors launched at Sprouts nationwide through the Selective Forager set.", "source_url": "https://www.bevnet.com/pr/2026/07/07/melting-forest-launches-glow-up-functional-protein-drink-exclusively-at-sprouts-farmers-market", "source_label": "BevNET launch release", "confidence": "VERIFIED"},
+        {"claim": "One primary acquisition promise is the likely next creative discipline.", "evidence": "This is an inference from the number of functions and ingredients presented on the product and launch pages. No sales or ad-account data was available.", "source_url": "https://meltingforest.com/products/glow-up-sparkling-collagen-protein-apple-ginger", "source_label": "Public-message synthesis", "confidence": "LIKELY"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "two concepts to *separate*",
+      "items": [
+        {"action": "A · Protein without the shake", "why": "Target buyers who want protein but reject heaviness, chalk, or another creamy bottle. Open on the clear pour and carbonation. Use 15g collagen protein as the proof after the sensory contrast lands."},
+        {"action": "B · The afternoon beauty ritual", "why": "Target an ingestible-beauty buyer at one specific occasion: the cold can between lunch and evening. Open on the cold can in a real afternoon moment. Collagen and vitamin C can support the story only within approved claim language."}
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "six example *hooks*",
+      "blocks": [
+        {"label": "Concept A · protein format", "text": "A1  Fifteen grams of collagen protein without another thick shake.\n\nA2  Watch what happens when a protein drink pours clear and sparkling.\n\nA3  For people who want the protein and refuse the chalk."},
+        {"label": "Concept B · beauty occasion", "text": "B1  A cold-can beauty ritual built for the afternoon.\n\nB2  Your afternoon ritual can taste like apple and ginger, not supplement powder.\n\nB3  One sparkling can. One beauty-and-wellness occasion. No ingredient lecture."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "visible *unknowns*",
+      "body": "UNCONFIRMED: active paid-social inventory, winning flavor, retail velocity, repeat rate, primary buyer, creator access, landing-page conversion, and which beauty, gut, calm, or protein claims have final approval.\n\nCLAIM HOLD: the product page contains several body-outcome statements. Use only language supported by the brand's current substantiation file and reviewer. Do not imply treatment, guaranteed cosmetic change, stress reduction, or superior absorption."
+    }
+  ],
+  "ledger": [
+    {"source": "Glow Up Apple Ginger product page", "url": "https://meltingforest.com/products/glow-up-sparkling-collagen-protein-apple-ginger", "retrieved": "2026-09-03", "used_for": "Formula, format, flavor, current positioning", "confidence": "VERIFIED"},
+    {"source": "Glow Up Sprouts launch release", "url": "https://www.bevnet.com/pr/2026/07/07/melting-forest-launches-glow-up-functional-protein-drink-exclusively-at-sprouts-farmers-market", "retrieved": "2026-09-03", "used_for": "Founder quote, launch, retail footprint", "confidence": "VERIFIED"}
+  ]
+}
