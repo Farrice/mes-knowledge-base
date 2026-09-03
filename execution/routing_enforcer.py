@@ -1382,6 +1382,23 @@ BINDINGS = [
     # taken from the client lane; ambiguity asks, never guesses (Farrice,
     # 2026-09-02: "nothing auto-routes to the wrong client").
     {
+        "id": "scrapes_umbrella",
+        "signal_phrases": [
+            "scrapes", "scrapes skill", "scrapes pipeline", "run it through scrapes",
+            "set up my templates", "template pool", "onboard my brand",
+        ],
+        "mandatory_workflow": "scrapes",
+        "forbidden_workflows": [],
+        "negative_signals": ["web scrape", "scrape linkedin", "scraper"],
+        "reason": (
+            "/scrapes is the one door for every Scrapes Skill System: raw text in, "
+            "job classified, BRAND LOCK, the right pipeline out (carousel, post, "
+            "repurpose, deck, shorts, ebook, template pool, visual identity, brand "
+            "voice, or a single tool). User's guide: _active/harness/scrapes-skill-"
+            "systems/USER-GUIDE.md."
+        ),
+    },
+    {
         "id": "scrapes_social_carousel",
         "signal_phrases": [
             "carousel", "carousel about", "make a carousel", "linkedin carousel",

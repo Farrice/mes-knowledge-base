@@ -376,7 +376,9 @@ def measure_overflow(preview_gray: np.ndarray, bbox_pct: list,
         clip_edges.append(("bottom", bottom_of))
 
     # A canvas bleed is ink within the safe margin of any canvas edge.
-    canvas_bleed = (ink_left < CANVAS_SAFE_MARGIN_PCT
+    # bool(...) wrap: the operands are numpy scalars, so the bare `or` chain can yield an
+    # np.bool_ instead of a native bool, which json.dumps() rejects downstream.
+    canvas_bleed = bool(ink_left < CANVAS_SAFE_MARGIN_PCT
                     or ink_right > 100.0 - CANVAS_SAFE_MARGIN_PCT
                     or ink_top < CANVAS_SAFE_MARGIN_PCT
                     or ink_bottom > 100.0 - CANVAS_SAFE_MARGIN_PCT)

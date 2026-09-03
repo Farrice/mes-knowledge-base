@@ -1,0 +1,129 @@
+/* _shared/styles.css — pool-level base styles for linkedin-carousel (Farrice Cain / Premium Minimal)
+ *
+ * Every template in this pool links it: <link rel="stylesheet" href="../_shared/styles.css">.
+ * Brand tokens (--brand-accent, --brand-display, etc.) are injected as :root vars by
+ * render_template.py at render time — never hardcode hex/font names here.
+ */
+
+/* ─── Brand @font-face — NONE for this brand ──────────────────────────────
+ * tokens.json → fonts._source: "system font on macOS (/System/Library/Fonts/HelveticaNeue.ttc);
+ * no webfont files shipped, no Google Fonts URL." The brand's ONLY face is Helvetica Neue,
+ * declared directly by --font-display / --font-body in the :root vars render_template.py
+ * injects (family "Helvetica Neue", fallback "Helvetica, Arial, sans-serif"). No @font-face
+ * block is needed or correct here — do not invent a webfont file that doesn't exist.
+ */
+
+/* ─── Display zones — pin a SANS fallback tail ──────────────────────────
+ * `var(--font-display)` is brand-driven, but if it fails to resolve the token must degrade
+ * to a NEUTRAL SANS — never a serif (tokens.json prohibits serif type outright for this
+ * brand). Apply `.display` (or the role classes) to any HTML display/headline zone. */
+.display,
+.headline,
+.kicker,
+.title,
+.subhead,
+[data-role="display"] {
+  font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+}
+
+/* ─── Type craft — shared display/body defaults (SPEC-B) ─────────────────
+ * NOT applied to .kicker (a tracked, POSITIVE-letter-spacing uppercase label — tightening
+ * it would wreck it), only the display headline roles. Never bump display font-WEIGHT to
+ * "fix" limpness — Helvetica Neue 700 is already the brand's heaviest declared weight. */
+.display,
+.headline,
+.title,
+[data-role="display"] {
+  line-height: 1.0;         /* brand type_scale.display.line_height */
+  letter-spacing: -0.025em; /* brand type_scale.display.letter_spacing (LOCKED field) */
+}
+
+.body {
+  line-height: 1.4;         /* brand type_scale.body.line_height */
+}
+
+/* ─── Inline emphasis utilities (used inside html-type text slots) ───────
+ * Slots whose value carries inline markup (<mark>, <em>, <strong>, <br>) MUST be rendered
+ * with TRIPLE-brace {{{SLOT}}} in template.html so the renderer passes the HTML through raw
+ * instead of escaping it. These rules style that markup.
+ *
+ * NOTE for this brand: tokens.json declares "There is no accent hue... Never introduce a
+ * colored accent." The only bold move is the dark-recommendation inversion (ink field /
+ * paper text). <mark> therefore never introduces a color — it inherits ink/paper via the
+ * same surface-aware mechanism other brands use for a hue, just resolved to ink<->paper. */
+mark {
+  background: transparent;
+  color: var(--mark-color, var(--brand-accent));
+  font-weight: 700;
+}
+
+.slide[data-surface="accent"] mark,
+[data-surface="accent"] mark,
+.slide[data-surface="dark"] mark,
+[data-surface="dark"] mark {
+  --mark-color: var(--brand-text-on-dark, var(--brand-bg-light));
+}
+
+.slide[data-surface="light"] mark,
+[data-surface="light"] mark {
+  --mark-color: var(--brand-accent);
+}
+
+em {
+  font-style: italic;
+  font-family: var(--brand-display, inherit);
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ─── Structural classes (shared across every template in the pool) ────── */
+
+.slide {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+}
+
+.zone {
+  position: absolute;
+}
+
+.pill {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.masthead {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.masthead-slot.center { text-align: center; }
+.masthead-slot.right  { text-align: right; }
+
+.dots {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-text-on-light, currentColor);
+  opacity: 0.3;
+}
+
+.dot.is-active {
+  opacity: 1;
+  background: var(--brand-accent);
+}

@@ -312,7 +312,7 @@ def _match_bindings_safe(prompt: str) -> list[dict]:
 # Front doors whose machinery is the vendored Scrapes Skill Systems. Tagged so
 # Farrice sees which engine a suggestion would fire (2026-09-02).
 SCRAPES_FRONT_DOORS = {
-    "social-carousel", "social-post", "social-repurpose",
+    "scrapes", "social-carousel", "social-post", "social-repurpose",
     "deck-build", "video-to-shorts", "video-to-ebook",
 }
 

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    /* ─── statement-close-cta — local styles ────────────────────────────────
+     * Form: solid-css (see rationale.md §1). No AI generation, no image zone.
+     * Whole canvas = the brand's single "dark recommendation" move (ink field,
+     * paper text) — this IS the closing/CTA frame of a route-comparison sequence.
+     */
+
+    /* Reset the UA default body margin (8px) — without it the browser's default
+       margin leaves a stray white strip along the top+left edges of the screenshot,
+       outside the .slide canvas (a real render defect, not a design element). */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .masthead-label {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.0cqw;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--brand-muted-on-dark, #8C8C82); /* tokens.json colors.named.stone */
+    }
+
+    .decision-line {
+      position: absolute;
+      left: 8%;
+      top: 9.6%;
+      width: 84%;
+      height: 1px;
+      background: var(--brand-border-subtle, #D8D8D3); /* tokens.json colors.named.line */
+    }
+
+    .headline {
+      font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 9.6cqw;              /* type_scale.display 104px @ 1080 canvas ≈ 9.63cqw */
+      line-height: 1.0;
+      letter-spacing: -0.025em;
+      color: var(--brand-text-on-dark, #FAFAF8);
+    }
+
+    /* ── Three-route grammar (brand move #4) ──────────────────────────────
+     * Each row = a flex line: [end-marker] [stroke] [label]. The quiet rows
+     * (01 / 03) are thin + hollow-dot + graphite label; the recommended row
+     * (02 LEAD) is heavy + solid-dot + bold paper label. Fixed structural
+     * geometry (row height, stroke thickness ratio) is shared CSS below;
+     * the LABEL text + which row is "recommended" are the editable slots.
+     */
+    .route-zone {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .route-row {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .route-row .route-label {
+      position: absolute;
+      right: 0;
+      bottom: 0.6cqw;
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-size: 2.0cqw;
+      letter-spacing: 0.05em;
+    }
+
+    .route-row.quiet .route-stroke {
+      width: 100%;
+      height: 1px;
+      background: var(--brand-border-subtle, #D8D8D3);
+    }
+    .route-row.quiet .route-label {
+      font-weight: 400;
+      color: var(--brand-muted-on-dark, #8C8C82);
+    }
+    .route-row.quiet .route-dot {
+      position: absolute;
+      right: -0.1cqw;
+      top: -0.75cqw;
+      width: 1.5cqw;
+      height: 1.5cqw;
+      border-radius: 50%;
+      border: 1px solid var(--brand-border-subtle, #D8D8D3);
+      background: transparent;
+    }
+
+    .route-row.recommended .route-stroke {
+      width: 100%;
+      height: 3px;
+      background: var(--brand-text-on-dark, #FAFAF8);
+    }
+    .route-row.recommended .route-label {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--brand-text-on-dark, #FAFAF8);
+      bottom: 0.9cqw;
+    }
+    .route-row.recommended .route-dot {
+      position: absolute;
+      right: -0.35cqw;
+      top: -1cqw;
+      width: 2.2cqw;
+      height: 2.2cqw;
+      border-radius: 50%;
+      background: var(--brand-text-on-dark, #FAFAF8);
+    }
+
+    .footer-caption {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.0cqw;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--brand-muted-on-dark, #8C8C82);
+    }
+
+    .recommendation-name {
+      font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 3.6cqw;
+      letter-spacing: -0.01em;
+      color: var(--brand-text-on-dark, #FAFAF8);
+    }
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="dark" style="container-type: inline-size; background: var(--brand-bg-dark, #101010);">
+
+    <!-- MASTHEAD -->
+    <div class="masthead" data-slot="MASTHEAD" style="left:8%; top:5.4%; width:84%;">
+      <span class="masthead-slot left masthead-label" data-slot="MASTHEAD_LEFT">{{MASTHEAD_LEFT}}</span>
+      <span class="masthead-slot center masthead-label" data-slot="MASTHEAD_CENTER"></span>
+      <span class="masthead-slot right masthead-label" data-slot="PAGE_INDEX">{{PAGE_INDEX}}</span>
+    </div>
+
+    <!-- DECISION LINE (brand move #3) -->
+    <div class="decision-line" data-slot="DECISION_LINE"></div>
+
+    <!-- HEADLINE (the closing statement). Left anchor matches masthead/footer at 8% (ref-read).
+         Width extends to 90% (right margin ~2%) — the ref's own longest line ("Choose the
+         argument") never reaches past ~86% of canvas width, so the wider box gives the
+         width-bound autosize more legal room without the rendered TEXT ever gluing to the
+         true edge; only the box's invisible bound moves, not the visible margin. -->
+    <div class="zone display headline" data-slot="HEADLINE"
+         style="left:8%; top:25%; width:90%; height:30%;
+                display:flex; align-items:flex-start;
+                text-align:left; white-space:nowrap;">{{{HEADLINE}}}</div>
+
+    <!-- THREE-ROUTE GRAMMAR (brand move #4) -->
+    <div class="zone route-zone" data-slot="ROUTE_GRAMMAR" style="left:8%; top:61%; width:84%; height:12%;">
+      <div class="route-row quiet">
+        <div class="route-stroke"><span class="route-dot"></span></div>
+        <span class="route-label" data-slot="ROUTE_01_LABEL">{{ROUTE_01_LABEL}}</span>
+      </div>
+      <div class="route-row recommended">
+        <div class="route-stroke"><span class="route-dot"></span></div>
+        <span class="route-label" data-slot="ROUTE_02_LABEL">{{ROUTE_02_LABEL}}</span>
+      </div>
+      <div class="route-row quiet">
+        <div class="route-stroke"><span class="route-dot"></span></div>
+        <span class="route-label" data-slot="ROUTE_03_LABEL">{{ROUTE_03_LABEL}}</span>
+      </div>
+    </div>
+
+    <!-- FOOTER: functional caption + resolved recommendation name -->
+    <div class="zone footer-caption" data-slot="FOOTER_CAPTION"
+         style="left:8%; top:85%; width:84%; height:3%;">{{FOOTER_CAPTION}}</div>
+
+    <div class="zone recommendation-name" data-slot="RECOMMENDATION_NAME"
+         style="left:8%; top:89%; width:60%; height:5%;">{{{RECOMMENDATION_NAME}}}</div>
+
+  </div>
+</body>
+</html>

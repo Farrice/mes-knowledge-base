@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    .caption-label {
+      font-family: var(--brand-body, var(--brand-display));
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      white-space: nowrap;
+    }
+    .route-row {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 1.1cqw;
+    }
+    .route-label {
+      font-size: 1.7cqw;
+    }
+    .route-label--lead {
+      color: var(--brand-text-on-light);
+      opacity: 1;
+    }
+    .route-label--tonal {
+      color: var(--brand-secondary);
+      opacity: 0.18;
+    }
+    .route-track {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .route-line {
+      width: 100%;
+    }
+    .route-line--lead {
+      height: 6px;
+      background: var(--brand-text-on-light);
+      opacity: 1;
+    }
+    .route-line--tonal {
+      height: 1.5px;
+      background: var(--brand-secondary);
+      opacity: 0.18;
+    }
+    .route-dot {
+      position: absolute;
+      right: -1px;
+      top: 50%;
+      transform: translate(50%, -50%);
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+    .route-dot--lead {
+      width: 13px;
+      height: 13px;
+      background: var(--brand-text-on-light);
+      opacity: 1;
+    }
+    .route-dot--tonal {
+      width: 9px;
+      height: 9px;
+      background: transparent;
+      border: 1.5px solid var(--brand-secondary);
+      opacity: 0.35;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="light">
+    <!-- BACKGROUND — solid CSS fill, no AI generation (form: solid-css) -->
+    <div class="bg" style="position:absolute; inset:0; background: var(--brand-bg-light);"></div>
+
+    <!-- MASTHEAD -->
+    <div class="masthead"
+         style="left:7.78%; top:5.0%; width:84.44%; height:3%;">
+      <span class="masthead-slot left caption-label" data-slot="MASTHEAD_LEFT"
+            style="font-size:2.04cqw; color: var(--brand-text-on-light);">{{MASTHEAD_LEFT}}</span>
+      <span class="masthead-slot center caption-label" data-slot="MASTHEAD_CENTER"
+            style="font-size:2.04cqw; color: var(--brand-text-on-light);">{{MASTHEAD_CENTER}}</span>
+      <span class="masthead-slot right caption-label" data-slot="PAGE_INDEX"
+            style="font-size:2.04cqw; color: var(--brand-secondary);">{{PAGE_INDEX}}</span>
+    </div>
+
+    <!-- DIVIDER HAIRLINE -->
+    <div class="zone"
+         style="left:7.78%; top:9.4%; width:84.44%; height:1px;
+                background: var(--brand-secondary); opacity:0.18;"></div>
+
+    <!-- HEADLINE — dominant bold statement. line-height/letter-spacing come from the shared
+         .display class (brand type_scale.display, LOCKED letter-spacing field). No manual <br>
+         breaks in the sample — natural wrap, so a long per-post value re-flows instead of
+         overflowing width at display scale (Check D floor: measured ink-height >= 8cqw). -->
+    <div class="zone display" data-slot="HEADLINE"
+         style="left:7.78%; top:21%; width:92%;
+                font-weight: 700;
+                font-size: 9.8cqw;
+                color: var(--brand-text-on-light);
+                text-align: left;">{{{HEADLINE}}}</div>
+
+    <!-- ROUTE / TRACK MARKER — 3-row diagram, one bold LEAD row (fixed structure), labels are slots -->
+    <div class="zone"
+         style="left:7.78%; top:60%; width:84.7%; height:13%;
+                display:flex; flex-direction:column; justify-content:space-between;">
+
+      <div class="route-row">
+        <span class="caption-label route-label route-label--tonal" data-slot="ROUTE_1_LABEL">{{ROUTE_1_LABEL}}</span>
+        <div class="route-track">
+          <div class="route-line route-line--tonal"></div>
+          <div class="route-dot route-dot--tonal"></div>
+        </div>
+      </div>
+
+      <div class="route-row">
+        <span class="caption-label route-label route-label--lead" data-slot="ROUTE_2_LABEL">{{ROUTE_2_LABEL}}</span>
+        <div class="route-track">
+          <div class="route-line route-line--lead"></div>
+          <div class="route-dot route-dot--lead"></div>
+        </div>
+      </div>
+
+      <div class="route-row">
+        <span class="caption-label route-label route-label--tonal" data-slot="ROUTE_3_LABEL">{{ROUTE_3_LABEL}}</span>
+        <div class="route-track">
+          <div class="route-line route-line--tonal"></div>
+          <div class="route-dot route-dot--tonal"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER CAPTION -->
+    <div class="zone caption-label" data-slot="FOOTER_CAPTION"
+         style="left:7.78%; top:88.7%; width:60%;
+                font-size:1.9cqw;
+                color: var(--brand-secondary);
+                text-align: left;">{{FOOTER_CAPTION}}</div>
+  </div>
+</body>
+</html>
