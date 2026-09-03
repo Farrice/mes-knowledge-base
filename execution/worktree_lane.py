@@ -607,6 +607,32 @@ def _park(main, lane, branch, reason, push=True) -> int:
     return 0  # a park is a surfaced outcome, not an error
 
 
+def _clear_stale_index_lock(main: Path, min_age_s: int = 30) -> bool:
+    """Remove a STALE `.git/index.lock` on main: zero bytes, older than
+    min_age_s, and no live git process. A crashed/raced git leaves this file
+    and every later git call on main fails with "index.lock: File exists";
+    the 2026-09-02 mid-merge scar and the 2026-09-03 half-restored preserve
+    both traced to one. Live locks (fresh or with a git process) are respected."""
+    rc, gd, _ = _git(main, "rev-parse", "--path-format=absolute", "--git-common-dir")
+    lock = Path(gd) / "index.lock" if rc == 0 and gd else main / ".git" / "index.lock"
+    try:
+        st = lock.stat()
+    except FileNotFoundError:
+        return False
+    # A live git writes the lock with content and renames it within
+    # milliseconds; a 0-byte lock older than min_age_s has no owner. (The IDE's
+    # `git status` poller is always briefly alive, so a process check would
+    # never clear anything — age + size is the honest test.)
+    if st.st_size != 0 or (time.time() - st.st_mtime) < min_age_s:
+        return False
+    try:
+        lock.unlink()
+        print(f"cleared stale index.lock on main ({int(time.time() - st.st_mtime)}s old, 0 bytes)")
+        return True
+    except OSError:
+        return False
+
+
 def _main_mid_merge(main: Path) -> bool:
     """True when the integration tree has an unconcluded merge (MERGE_HEAD)."""
     return _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")[0] == 0
@@ -707,6 +733,7 @@ def cmd_merge(args) -> int:
             _teardown_lane(main, lane, branch)
         return 0
 
+    _clear_stale_index_lock(main)
     # 2 GATE — tracked modifications only: untracked files (telemetry, scratch)
     # can't be swept into a merge commit; a path collision with a branch file
     # surfaces as "merge refused" below and parks anyway.
@@ -923,6 +950,7 @@ def cmd_preserve(args) -> int:
     like any other, so the normal `merge` brings the work back as a real commit.
     """
     main = main_root(Path.cwd())
+    _clear_stale_index_lock(main)
     if _main_mid_merge(main):
         print("ERROR: main is mid-merge (MERGE_HEAD). Conclude or abort that merge first.",
               file=sys.stderr)
@@ -997,21 +1025,40 @@ def cmd_preserve(args) -> int:
               f"main untouched; lane {branch} kept for inspection", file=sys.stderr)
         return 1
 
-    # 3 RESTORE main to HEAD for exactly those paths (index + tree)
-    _git(main, "reset", "-q", "--", *tracked)
-    in_head = set(_git(main, "ls-tree", "-r", "--name-only", "HEAD", "--", *tracked)[1].splitlines())
+    # 3 RESTORE main to HEAD for exactly those paths (index + tree). Main is a
+    # busy tree (other sessions, launchd jobs, the pulse server) so index.lock
+    # contention is normal: every git call here checks rc and retries on a
+    # lock; the restore is one batched checkout, not N chances to lose a race
+    # (evidenced 2026-09-03: 57 of 73 restores silently failed).
+    def _git_retry(*args, tries=6):
+        for i in range(tries):
+            rc_, out_, err_ = _git(main, *args)
+            if rc_ == 0 or "index.lock" not in (err_ or ""):
+                return rc_, out_, err_
+            time.sleep(0.5 * (i + 1))
+        return rc_, out_, err_
+
+    rc, _, err = _git_retry("reset", "-q", "--", *tracked)
+    if rc != 0:
+        print(f"WARNING: reset failed: {err[:160]}", file=sys.stderr)
+    in_head = [rel for rel in tracked
+               if rel in set(_git(main, "ls-tree", "-r", "--name-only", "HEAD", "--", *tracked)[1].splitlines())]
+    if in_head:
+        rc, _, err = _git_retry("checkout", "-q", "HEAD", "--", *in_head)
+        if rc != 0:
+            print(f"WARNING: checkout failed: {err[:160]}", file=sys.stderr)
     for rel in tracked:
-        if rel in in_head:
-            _git(main, "checkout", "-q", "HEAD", "--", rel)
-        else:
+        if rel not in in_head:
             p_ = main / rel
             if p_.exists():
                 p_.unlink()
     rc, out, _ = _git(main, "status", "--porcelain")
     still, _ = _status_paths(out)
+    still = [s for s in still if s in set(tracked)]
     if still:
-        print(f"WARNING: main still shows {len(still)} tracked change(s) after restore: "
-              f"{', '.join(still[:3])}", file=sys.stderr)
+        print(f"WARNING: main still shows {len(still)} of the preserved path(s) dirty after restore: "
+              f"{', '.join(still[:3])} — a live writer is regenerating them or the index was locked; "
+              f"the preserve lane holds the snapshot, nothing is lost", file=sys.stderr)
 
     # 4 REGISTER + optional push
     reg = load_registry(main)
