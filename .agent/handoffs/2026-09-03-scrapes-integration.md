@@ -1,36 +1,31 @@
 ---
 thread: scrapes-integration
 status: ready
-resume_hint: Blind bar 01 built at $0; his taps: approve 8 templates (:59172), verdict on JUDGING-SURFACE.html 1/2/3, named vs composite, handwriting signature
+resume_hint: Blind bar 01 verdict captured (A = floor, B close, C safe 9); recipe card + door steps 2.5/4.5 written; next build waits for his go: composition pass, slot-ratio crops, VERIFICATION.md generator
 branch: worktree-scrapes-routing
 pin: false
 ---
 
-# Handoff · scrapes-integration · 2026-09-03 · status: draft (his taps pending)
+# Handoff · scrapes-integration · 2026-09-03 · status: ready (verdict captured, next build waits for his go)
 
-## Shipped this sitting ($0 in images, $0.50 research)
-- Blind bar 01: three 7-slide supplement-teardown carousels on the editorial pool, Farrice's brand.
-  - A · AG1 named · our pens → Scrapes ssc-designer → ssc-image-generator (Scenario A) → `projects/00-social-content/2026-09-03/blind-bar-01-take-a-ag1/`
-  - B · AG1 named · our pens → direct `render_template.py` → `.../blind-bar-01-take-b-ag1/`
-  - C · unnamed greens composite · Scrapes path → `.../blind-bar-01-take-c-greens/`
-  - Copy + ledger: `_active/farrice-brand/content/blind-bar-01/` (takes A/B/C, claims ledger, JUDGING-SURFACE.html, JUDGING-KEY.json)
-  - Research brief in their cache: `projects/str-trending-research/2026-09-03/farrice--ag1-greens-creative-strategy.md`
-- Machine floor: claim_audit --strict PASS ×3, prose_classifier CLEAN ×3 (captions). Evidence = real captures (Meta Ad Library AG1 page ~410 active ads, Huel page, classaction.org Hoke v. AG1).
-- Learnings written: `context/learnings.md` (00-social-content, viz-image-gen); `social-carousel.md` door carries the `--data` file rule + slot ergonomics.
+## Verdict (Farrice, 2026-09-03)
+- Take A (AG1 named, fight picked, Scrapes path): "10 out of 10, or even 11 out of 10... this needs to be the floor." Critique: some elements busy / not proportional, hierarchy a little weird, some screenshots cut off where it mattered.
+- Take B (AG1 named, symptom→decision, direct render): "really hard to go between 1 and 3, I would close both"; best screenshot handling, second-strongest composition.
+- Take C (anonymized composite): "9 out of 10... safe... in the middle content gets killed and buried"; strongest cleanliness; keep for client-privacy moments, never the floor.
+- Cross-cutting: capture the process before touching anything; he wants an operator-only verification hub per run.
 
-## His taps, in order
-1. Template Studio :59172 — Approve the 8 editorial templates (status ready → approved).
-2. JUDGING-SURFACE.html — verdict on 1/2/3 (which clears the bar, which is the exemplar, one change each). Key in JUDGING-KEY.json.
-3. Named brand (AG1) vs anonymized composite for publishing. Sends stay human.
-4. Real handwriting signature → `brand_context/visual-identity/logos/`, replacing Snell Roundhand.
+## Captured (this sitting)
+- Recipe card: `docs/solutions/2026-09-03-teardown-carousel-copy-lock-evidence-crops.md` (auto-resurfaces via router / memory facade / resume).
+- Door: `.agent/workflows/social-carousel.md` §Proven run shape + Step 2.5 (VERIFICATION.md per run) + Step 4.5 (composition pass against the frames).
+- Taste: `_active/farrice-brand/voice/calibration-log.md` (3 PASS rows + 1 RULE), `voice_ratchet.py add` ×3 (64 pending since last compile → `/voice-compile` due).
+- Memory: `feedback_blind-bar-01-verdicts-fight-picking-is-the-floor.md`; `context/learnings.md` §00-social-content.
 
-## Named gap (blind bar, 1 round)
-Composition/typography sit next to his frames without a seam. Photo zones carry evidence screenshots, not product photography: AG1's site is bot-blocked, stock and AI were refused. His call whether receipts-as-photos is the editorial move or a floor defect.
+## Next build (his go first)
+1. Composition/proportion + hierarchy pass on the 8 editorial templates (his notes: crowding, proportion, one hierarchy per slide).
+2. Pre-crop evidence to each slot's aspect ratio so nothing important is cut off; renderer uses object-fit cover.
+3. `VERIFICATION.md` generator per run (claims, tags, sources, crop thumbnails), wired as Step 2.5.
+4. His word-level edits on take A's caption; ship A (and B) by hand. Sends stay human.
+5. Approve the 8 templates in Template Studio (:59172) so `check farrice` reads approved.
 
-## Harness notes
-- chain_runner finalize flagged a routing "violation": the word "Scrapes" in the description trips `scrapes_umbrella` even when the chosen door is `social-carousel`. Nudge only; the umbrella signal is too broad for notes text.
-- ssc-designer HTML-escapes `<br>` in its YAML; unescape before render. Its story-framework audit is style-noise for the editorial pool.
-
-## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
-- Previous handoff on this thread: `.agent/handoffs/2026-09-02-scrapes-integration.md` — everything it lists as shipped is EXTEND-ONLY.
-- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
+## Do NOT rebuild
+The pool, the door, the evidence crops, the ledger, the takes. Extend in place.
