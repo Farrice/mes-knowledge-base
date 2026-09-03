@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "platform_pool": "linkedin-carousel",
+  "styles": [
+    {
+      "name": "editorial",
+      "label": "Editorial (teardowns)",
+      "description": "Grey canvas, giant lowercase display words, red script signature on cover and close, real product / ad / source crops in every photo zone, functional header and footer strip. Farrice's default for teardowns and any post that carries evidence.",
+      "cover_preview": "styles/editorial.png",
+      "template_ids": [
+        "signature-cover",
+        "word-photo-band-body",
+        "photo-right-columns-body",
+        "photo-left-list-body",
+        "two-photo-list-body",
+        "evidence-crop-body",
+        "portrait-statement-cta",
+        "signature-close-cta"
+      ]
+    },
+    {
+      "name": "typographic",
+      "label": "Typographic (Premium Minimal)",
+      "description": "Pure type on canvas: masthead, field index, bold statement, three-route marker, one dark close. For posts with no evidence to show.",
+      "cover_preview": "styles/typographic.png",
+      "template_ids": [
+        "headline-subline-cover",
+        "kicker-stack-body",
+        "headline-marker-body",
+        "statement-close-cta"
+      ]
+    }
+  ]
+}
