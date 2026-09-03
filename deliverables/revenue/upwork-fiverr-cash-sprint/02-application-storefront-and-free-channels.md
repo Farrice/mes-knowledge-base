@@ -69,7 +69,7 @@ Your eval harness just joined the threat model.
 That’s the work I’d bring each month: one sharp lead item, 4–6 links with original commentary, three subject lines, preview text, and one revision. Current enough to feel plugged in; grounded enough that an engineer won’t roll their eyes.
 
 [MODELED]
-I’ve highlighted executive ghostwriting and brand-voice samples on this proposal. My profile also includes Google’s AI Professional Certificate.
+I’ve highlighted executive ghostwriting and brand-voice samples, plus Google Prompting Essentials.
 
 My rate is $50/hour, capped at $250 for the first issue.
 
