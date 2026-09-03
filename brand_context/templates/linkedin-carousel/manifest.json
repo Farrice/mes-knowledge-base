@@ -30,7 +30,9 @@
         "contrarian claim with a quiet subline"
       ],
       "summary": "Paper-light cover: masthead + NN/NN counter, 2-3 line bold headline, graphite subtitle, hairline, tracked footer caption. Pure HTML/CSS, no AI zone.",
-      "style": "typographic"
+      "style": "typographic",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "kicker-stack-body",
@@ -58,7 +60,9 @@
         "symptom stack before the diagnosis"
       ],
       "summary": "Paper-light body: kicker label, 3-line bold headline stack, hairline, second kicker + graphite statement. Pure HTML/CSS.",
-      "style": "typographic"
+      "style": "typographic",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "headline-marker-body",
@@ -88,7 +92,9 @@
         "comparison where one option is recommended"
       ],
       "summary": "Paper-light body: 2-3 line bold headline, three-route marker diagram (one heavy LEAD row), tracked footer caption. Pure HTML/CSS.",
-      "style": "typographic"
+      "style": "typographic",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "statement-close-cta",
@@ -118,7 +124,9 @@
         "final CTA with a named lead route"
       ],
       "summary": "Ink-dark close: 3-line paper headline, three-route marker with LEAD, footer caption + bold recommendation name. The brand's single dark frame per carousel. Pure HTML/CSS.",
-      "style": "typographic"
+      "style": "typographic",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "signature-cover",
@@ -147,8 +155,10 @@
       ],
       "summary": "Editorial cover: header title + date/arrow, giant lowercase display word margin to margin, red script signature overlaid, four-item footer strip. Pure HTML.",
       "file": "signature-cover/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "word-photo-band-body",
@@ -178,8 +188,10 @@
       ],
       "summary": "Giant lowercase headline, short body, full-width real evidence band (ad grid, feed, page) with a source label. Photo zone is a REAL capture, never AI.",
       "file": "word-photo-band-body/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "photo-right-columns-body",
@@ -214,8 +226,10 @@
       ],
       "summary": "Tall real product/page crop right, two-line lowercase headline lower-left, body paragraph, hairline, three titled columns. Photo zone is a REAL capture.",
       "file": "photo-right-columns-body/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "photo-left-list-body",
@@ -250,8 +264,10 @@
       ],
       "summary": "Bleed-left tall real image, headline + subhead + three labelled list items right. Photo zone is a REAL capture.",
       "file": "photo-left-list-body/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "two-photo-list-body",
@@ -287,8 +303,10 @@
       ],
       "summary": "Headline + body + three dated items left, two stacked real crops right. Photo zones are REAL captures.",
       "file": "two-photo-list-body/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "evidence-crop-body",
@@ -318,8 +336,10 @@
       ],
       "summary": "Wide evidence crop on paper between hairlines with a source label, verdict word, analysis paragraph. Photo zone is a REAL capture, never AI (move #8).",
       "file": "evidence-crop-body/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     },
     {
       "id": "portrait-statement-cta",
@@ -349,8 +369,9 @@
       ],
       "summary": "Wide real portrait, two-line lowercase statement, subtitle, right-aligned CTA label. Portrait is real, never AI (move #9).",
       "file": "portrait-statement-cta/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "retired",
+      "style": "editorial",
+      "retired_reason": "Farrice 2026-09-03: boxed portrait crop is low-quality graphic design; text close (statement-close-cta / signature-close-cta) stands in. Revisit with a real portrait treatment later."
     },
     {
       "id": "signature-close-cta",
@@ -374,8 +395,10 @@
       ],
       "summary": "Giant lowercase closing word margin to margin with the red script signature, footer strip. Pure HTML.",
       "file": "signature-close-cta/template.html",
-      "status": "ready",
-      "style": "editorial"
+      "status": "approved",
+      "style": "editorial",
+      "approved_by": "Farrice",
+      "approved_on": "2026-09-03"
     }
   ],
   "styles_file": "styles.json",
