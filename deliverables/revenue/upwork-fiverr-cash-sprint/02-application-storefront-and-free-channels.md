@@ -344,7 +344,7 @@ These were live or recently refreshed during the September 3, 2026 research pass
 - [AI Council Upwork job](https://www.upwork.com/jobs/Copywriter-for-monthly-email-newsletters-for-builders_~022095280083743030147/)
 - [AI Council homepage and audience description](https://www.aicouncil.com/)
 - [AI Council: The Agent Attack Surface](https://www.aicouncil.com/talks/the-agent-attack-surface-why-ai-is-breaking-software-security-as-we-know-it)
-- [OpenAI: The Hugging Face incident and the road ahead](https://openai.com/index/the-hugging-face-incident-and-the-road-ahead/)
+- [OpenAI: The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/)
 - [Anthropic: Improving our alignment and security practices](https://www.anthropic.com/news/improving-alignment-security-efforts)
 - [OpenAI: Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)
 - [Google: Gemini multi-agent teams in Antigravity](https://blog.google/innovation-and-ai/technology/developers-tools/antigravity-teamwork-multi-agent/)
