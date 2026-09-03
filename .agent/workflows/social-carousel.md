@@ -22,6 +22,17 @@ State the scale in one line before starting: one carousel, N slides (3–7), one
 2. Write the brief in the Scrapes shape (`.claude/skills/str-trending-research/references/brief-template.md`) to `projects/str-trending-research/<YYYY-MM-DD>/<brand>--<slug>.md`. The brand prefix is mandatory: two brands never share a brief.
 3. For a client, add a claims ledger to the brief: every number, street, product, or date with its source line.
 
+## Step 1.5 — CONCEPT ROOM (his review beat; Farrice 2026-09-03: "I just come in with the references and the images, we do the concept, then you run the flow")
+Entry contract: a concept in his words is enough. Optional and welcome: reference carousels or posts he likes (paths or screenshots into `brand_context/visual_refs/<run-slug>/`), product or context images he already has (into the run folder `inputs/`), a brand to name or spare. He never has to arrive with the angle, the research, or the copy.
+What the run brings back before any copy is written, as ONE short artifact (`CONCEPT.md` in the run folder, ≤1 page):
+1. Research findings that matter, tagged VERIFIED / LIKELY / UNCONFIRMED, with the evidence captures already taken (this is the Scrapes "trending research" beat, ours with receipts).
+2. Three angle candidates, each one line: the argument, the fight it picks, the evidence it stands on. Mark the recommended one and say why in one sentence.
+3. Two or three hook candidates for the recommended angle (Luke Iha pass; the Scrapes first-slide formulas as shape check).
+4. The photo plan: which real captures or his images go in which slots; where a capture is still missing.
+5. Named brand vs composite, with the default stated (his brand: named, fight picked).
+He taps, edits, or redirects here. Tappable forks, one decision each. Copy is written only after this beat; when he is not present, leave the run at `CONCEPT.md` with status draft and say so, never guess past it. Two rejected concepts = stop and go back to his input (spiral brake).
+Their draft and humanizer phases stay OFF: our pens write from the tapped concept (Step 2), and `prose_classifier` is the de-slop gate.
+
 ## Step 2 — CRAFT ROOM (one integrator writes, one veto)
 1. Hook pen per BRAND.yaml `pens.hook`: client → `.agent/workflows/alyssa-stalker-hook-reframe.md` (Topic + Who + Lens placement) then `/vicious-hook` (Luke Iha: consequence first, open loop, Germanic words, stakes). Farrice → VOICE-CARD dial + `/vicious-hook`. The Scrapes first-slide formulas (`.claude/skills/00-social-content/references/carousel-first-slide-copywriting.md`) are the SHAPE CHECK on the final hook, never the pen.
 2. Integrator per `pens.integrator` writes ONE take: the caption (narrative → facts → door → attribution for Jen; VOICE-CARD register for Farrice) and a slide script — for each slide `SLIDE n | role | headline (≤8 words) | body (≤40 words) | image concept`. Cover hook = the chosen hook, verbatim. **Headlines carry their line breaks as `<br>`** (one thought per line, as the brand's frames do): the Scrapes renderer's autosize shrinks any headline that must wrap on its own, so a broken headline keeps the brand's 72px while an unbroken one collapses to 37px (evidenced 2026-09-03).
