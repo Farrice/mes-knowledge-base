@@ -309,6 +309,14 @@ def _match_bindings_safe(prompt: str) -> list[dict]:
         return []
 
 
+# Front doors whose machinery is the vendored Scrapes Skill Systems. Tagged so
+# Farrice sees which engine a suggestion would fire (2026-09-02).
+SCRAPES_FRONT_DOORS = {
+    "social-carousel", "social-post", "social-repurpose",
+    "deck-build", "video-to-shorts", "video-to-ebook",
+}
+
+
 def _binding_lines(binding_hits: list[dict]) -> list[str]:
     lines = []
     seen: set[str] = set()
@@ -320,8 +328,9 @@ def _binding_lines(binding_hits: list[dict]) -> list[str]:
         reason = (hit.get("reason") or "").replace("\n", " ").strip()
         if len(reason) > 110:
             reason = reason[:107].rstrip() + "..."
+        engine = " [SCRAPES engine]" if wf in SCRAPES_FRONT_DOORS else ""
         lines.append(
-            f"  ★ /{wf}  [binding, signal: '{hit.get('signal', '')}'] — {reason}"
+            f"  ★ /{wf}{engine}  [binding, signal: '{hit.get('signal', '')}'] — {reason}"
         )
     return lines
 
@@ -801,6 +810,8 @@ def main():
         if len(desc) > 130:
             desc = desc[:127].rstrip() + "..."
         tag = " [CORE]" if slug in core_ids else ""
+        if s.get("vendor") == "scrapes":
+            tag += " [SCRAPES]"
         lines.append(f"  • /{slug}  (score {sc:.1f}){tag} — {desc}")
 
     # Solution Recorder + sovereign-memory recall — surfaced after routing

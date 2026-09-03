@@ -1,0 +1,34 @@
+# BRAND.yaml — Andrea / Resonance (client brand). STUB: registers the brand so
+# the BRAND LOCK can name it and refuse to guess; voice-profile.md, tokens.json
+# and a template pool are not built yet (scrapes_brand.py check andrea → NOT READY).
+brand: andrea
+display: Andrea (Resonance)
+kind: client
+status: stub
+aliases: [andrea, andrea dj, resonance, andrea-dj]
+client_root: _active/clients/andrea-dj
+
+brand_context: _active/clients/andrea-dj/brand_context
+output_base: _active/clients/andrea-dj/04-deliverables/social-content
+research_cache: projects/str-trending-research          # slug prefix "andrea--"
+template_pools:
+  instagram-carousel: _active/clients/andrea-dj/brand_context/templates/instagram-carousel
+renderer_fallback: null
+
+voice:
+  dial: "OFF"
+  canon:
+    - _active/clients/andrea-dj/CLAUDE.md
+    - _active/clients/andrea-dj/brand-operating-system
+pens:
+  hook: luke-iha-vicious-hooks
+  integrator: andrea-voice-integrator
+  veto: andrea-as-herself
+research: execution/research.py
+never:
+  - Farrice's voice anywhere in her copy
+  - unverified claims about venues, dates, or people
+notes: |
+  To activate: /mkt-brand-voice Import from _active/clients/andrea-dj/brand-operating-system into this folder,
+  then /mkt-visual-identity Import (tokens.json), then a template pool via ssc-template-builder.
+  POC pivot context: memory project_andrea-resonance-poc-pivot.

@@ -1,0 +1,40 @@
+# BRAND.yaml — Jen Santulan (client brand). Read by execution/scrapes_brand.py.
+# CLIENT brand: Farrice's voice card is OFF here. Only no-fabrication, the slop
+# ban, and the fair-housing floor carry over. Every path stays under her root.
+brand: jen
+display: Jen Santulan (@_jiing)
+kind: client
+aliases: [jen, jen santulan, jiing, _jiing, jen listings, jen-listings, valley agent, sfv realtor]
+client_root: _active/clients/jen-listings
+
+brand_context: _active/clients/jen-listings/brand_context
+output_base: _active/clients/jen-listings/04-deliverables/social-content   # never the shared projects/ tree (2026-09-02 run landed there by accident; kept as a record)
+research_cache: projects/str-trending-research                             # shared cache; slug prefix "jen--" so a topic never collides with another brand's brief
+template_pools:
+  linkedin-carousel: _active/clients/jen-listings/brand_context/templates/linkedin-carousel
+  instagram-carousel: _active/clients/jen-listings/brand_context/templates/instagram-carousel
+renderer_fallback: _active/clients/jen-listings/06-system/valley-editions/editions.py   # her renderer until her template pool is approved (six inputs pending — INTAKE-PROMPT-PACK.md)
+
+voice:
+  dial: "OFF"                                   # client voice; VOICE-CARD does not apply
+  canon:
+    - _active/clients/jen-listings/brand_context/voice-profile.md
+    - _active/clients/jen-listings/06-system/ENGINE-V2.md
+    - _active/clients/jen-listings/CLAUDE.md          # register ladder: $2M+ Quiet Flex Elite Advisor; FTHB calm-warm lowercase
+  verbatim_lines_outrank_drafts: true            # her 2026-09-01 memos (memory: jen-verbatim-voice-lines)
+pens:
+  hook: alyssa-stalker-hook-reframe + luke-iha-vicious-hooks   # Alyssa places (Topic + Who + Lens), Luke grips (consequence, open loop, Germanic words)
+  integrator: jen-voice-integrator               # ONE pen writes caption + slide script from voice-profile + ENGINE-V2; experts critique, never stamp
+  veto: jen-as-herself                           # the brand-as-itself seat; machine floor = jen_stamp_lint.py + fair-housing lint + claim_audit --strict
+research: execution/research.py                 # real streets, real numbers, receipts; claims ledger before any figure ships
+never:
+  - "orange or yellow anywhere (House Sellers palette; visual_refs/travel-moments are INSPIRATION ONLY)"
+  - "keyword CTAs (comment HOME), attack hooks, manufactured urgency"
+  - "the phrases 'your first home' and 'top producer'; credentials on camera"
+  - "naming the machine to her (she gives thumbs-up and reply DMs; we do everything)"
+  - "fair-housing violations — lint runs as code, always"
+notes: |
+  Register ladder is hers (verdict 2026-08-05). One big line per frame, three short body lines, never a paragraph.
+  Her real Scrapes run (mkt-visual-identity Import from valley-editions/DESIGN.md → ssc-template-builder ×6 →
+  Template Studio approval → 00-social-content) waits on her six inputs. Until then renderer_fallback carries visuals.
+  Thread: jen-canvas (parked 2026-09-02).

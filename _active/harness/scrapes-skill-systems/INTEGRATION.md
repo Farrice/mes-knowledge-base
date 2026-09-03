@@ -16,6 +16,13 @@
 | Codex | Skill auto-loads from `.agents/skills/<name>/SKILL.md`; or say "use the 00-social-content skill" | Codex has no Claude subagents. Where a SKILL.md says "dispatch ssc-designer", read `.claude/agents/ssc-designer.md` and run it inline as the prompt. Verify discovery once: `codex exec "list the skills you can see whose names start with 00-"`. |
 | `/arsenal` and the router hook | indexed as `vendor:<name>`, family `scrapes-skill-systems`, always menu-reachable | `execution/arsenal_index.py` patch, 2026-09-02. |
 
+## Routing and brands (2026-09-02)
+- **Router:** `execution/find_skill.py` indexes `.claude/skills/*/SKILL.md` too (records carry `vendor: scrapes`; the per-prompt hook tags them `[SCRAPES]`). Six `routing_enforcer.BINDINGS` rows (`scrapes_*`) suggest the six front doors; table rows in `directives/routing-bindings.md`.
+- **Front doors:** `.agent/workflows/{social-carousel,social-post,social-repurpose,deck-build,video-to-shorts,video-to-ebook}.md` (hand-written thin wrappers; the minter cannot own vendor skills). Shims in `.claude/commands/` are minter-owned.
+- **BRAND LOCK:** `python3 execution/scrapes_brand.py resolve|check|list`. One `BRAND.yaml` per brand under `<brand-root>/brand_context/`. Registered: farrice (root `brand_context/`), jen, andrea (stub). New client = one BRAND.yaml, or the doors refuse.
+- **Self-improvement hook is live:** `context/learnings.md` at the repo root (their declared `{decoupled_base}/context/learnings.md`).
+- **Tests:** `tests/test_scrapes_routing.py` (routing both directions + brand lock + isolation). Design: `ORCHESTRATION-DESIGN.md`.
+
 ## Rules
 1. **Never edit inside `.claude/skills/<scrapes-skill>/`.** `.installed.json` hashes every file; the updater protects edits by refusing to overwrite them, which strands you on an old version. Extend through `brand_context/`, wrappers in `.agent/workflows/`, or `context/learnings.md` (their own self-improvement hook).
 2. **`sys-config.md` paths are absolute to the main checkout** (rewritten from the lane path on install day). If the repo moves, rerun the installer or sed the four path lines.

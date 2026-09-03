@@ -26,9 +26,18 @@ TARGET_KEYS = ("file_path", "notebook_path", "path")
 # Law-3 audit, and local-only default.
 INTEGRATION_COMMANDS = (
     re.compile(r"\bworktree_lane\.py\s+merge\b"),
+    re.compile(r"\bworktree_lane\.py\s+preserve\b"),
     re.compile(r"\blane_reconciler\.py\b"),
+    re.compile(r"\bmain_drift_absorb\.py\b"),
     re.compile(r"\bgit\s+worktree\s+(?:add|list|prune|remove)\b"),
 )
+
+# A Bash command may retarget itself: `cd <path> && git commit` or
+# `git -C <path> commit`. The guard judges the EFFECTIVE tree, not the
+# session's home. Scar (2026-09-02): a main-homed session was blocked on
+# every `cd <lane> && git ...`, while `git -C <main> ...` from a lane passed.
+LEADING_CD = re.compile(r"^\s*cd\s+(\"[^\"]+\"|'[^']+'|\S+)\s*(?:&&|;)")
+GIT_DASH_C = re.compile(r"\bgit\s+-C\s+(\"[^\"]+\"|'[^']+'|\S+)")
 
 # High-confidence direct Git mutations. Read-only Git commands remain usable.
 GIT_MUTATIONS = re.compile(
@@ -113,9 +122,24 @@ def bash_mutation(command: str) -> str | None:
     return None
 
 
+def _effective_cwd(payload: dict, home: Path) -> Path:
+    """The tree a Bash command actually acts on: a leading `cd <path> &&` or a
+    `git -C <path>` retargets it; otherwise the session home."""
+    if str(payload.get("tool_name") or "") != "Bash":
+        return home
+    command = str((payload.get("tool_input") or {}).get("command") or "")
+    m = LEADING_CD.match(command) or GIT_DASH_C.search(command)
+    if not m:
+        return home
+    raw = os.path.expandvars(os.path.expanduser(m.group(1).strip("\"'")))
+    path = Path(raw)
+    return (path if path.is_absolute() else home / path).resolve(strict=False)
+
+
 def verdict(payload: dict) -> tuple[bool, str]:
-    cwd = Path(payload.get("cwd") or os.environ.get("CODEX_PROJECT_DIR")
-               or os.environ.get("CLAUDE_PROJECT_DIR") or os.getcwd()).resolve()
+    home = Path(payload.get("cwd") or os.environ.get("CODEX_PROJECT_DIR")
+                or os.environ.get("CLAUDE_PROJECT_DIR") or os.getcwd()).resolve()
+    cwd = _effective_cwd(payload, home)
     root, is_main = _repo_context(cwd)
     if root is None or not is_main:
         return True, "outside main or already in a lane"
@@ -155,5 +179,82 @@ def main() -> int:
     return 2
 
 
+def self_test() -> int:
+    """Golden corpus (pattern: cost_gate_hook.py --self-test). Builds a throwaway
+    repo with one worktree lane so `is_main` is decided by real git, then pins
+    both directions: what a main-homed session may do (read, integration
+    commands, work in a lane via `cd`), and what it may not (author on main),
+    plus the lane-homed session reaching back into main via `git -C`.
+    Run after ANY edit to the patterns or the cwd resolution."""
+    import shutil
+    import tempfile
+
+    tmp = Path(tempfile.mkdtemp(prefix="mwg-selftest-"))
+    try:
+        main = tmp / "main"
+        lane = tmp / "lane"
+        main.mkdir()
+        subprocess.run(["git", "init", "-q", "-b", "main", str(main)], check=True)
+        subprocess.run(["git", "-C", str(main), "config", "user.email", "t@t"], check=True)
+        subprocess.run(["git", "-C", str(main), "config", "user.name", "t"], check=True)
+        (main / "README.md").write_text("x\n")
+        (main / ".gitignore").write_text(".tmp/\n")
+        subprocess.run(["git", "-C", str(main), "add", "-A"], check=True)
+        subprocess.run(["git", "-C", str(main), "commit", "-q", "-m", "init"], check=True)
+        subprocess.run(["git", "-C", str(main), "worktree", "add", "-q", str(lane), "-b", "lane"],
+                       check=True)
+
+        def bash(cwd, cmd):
+            return {"tool_name": "Bash", "cwd": str(cwd), "tool_input": {"command": cmd}}
+
+        def write(cwd, target):
+            return {"tool_name": "Write", "cwd": str(cwd), "tool_input": {"file_path": str(target)}}
+
+        cases = [
+            # (payload, expect_allowed, label)
+            (bash(main, "git commit -m x"), False, "author on main"),
+            (bash(main, "git add -A && git commit -m x"), False, "author on main (compound)"),
+            (bash(main, "git status --porcelain"), True, "read-only git on main"),
+            (bash(main, "git log --oneline -3"), True, "read-only git on main"),
+            (bash(main, f"cd {lane} && git commit -m x"), True, "main session works in lane via cd"),
+            (bash(main, f'cd "{lane}" && git add -A && git commit -m x'), True, "quoted cd into lane"),
+            (bash(main, f"cd {lane}; git commit -m x"), True, "cd ; into lane"),
+            (bash(lane, "git commit -m x"), True, "lane authoring"),
+            (bash(lane, f"git -C {main} commit -m x"), False, "lane reaching into main via -C"),
+            (bash(lane, f'git -C "{main}" checkout -- README.md'), False, "lane mutating main tree"),
+            (bash(lane, f"git -C {main} status"), True, "lane reading main"),
+            (bash(main, "python3 execution/worktree_lane.py merge --lane x --push"), True,
+             "integration command"),
+            (bash(main, "python3 execution/worktree_lane.py preserve --slug y"), True,
+             "preserve is an integration command"),
+            (bash(main, "python3 execution/main_drift_absorb.py --push"), True, "absorb"),
+            (bash(main, "python3 execution/lane_reconciler.py"), True, "reconciler"),
+            (bash(main, "python3 execution/chain_runner.py finalize 'x' --intent 5"), False,
+             "known tracked-tree writer on main"),
+            (bash(main, "git worktree add .claude/worktrees/z -b z"), True, "worktree add allowed"),
+            (write(main, main / "README.md"), False, "native write on main"),
+            (write(main, main / ".tmp" / "scratch.md"), True, "ignored path on main"),
+            (write(main, lane / "README.md"), True, "main session writing into lane"),
+            (write(lane, lane / "README.md"), True, "lane native write"),
+        ]
+        failures = []
+        for payload, want, label in cases:
+            got, reason = verdict(payload)
+            if got != want:
+                failures.append(f"{'ALLOWED' if got else 'BLOCKED'} but expected "
+                                f"{'allow' if want else 'block'}: {label} ({reason})")
+        if failures:
+            print("SELF-TEST FAIL")
+            for f in failures:
+                print(" ", f)
+            return 1
+        print(f"self-test: OK ({len(cases)} cases)")
+        return 0
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 if __name__ == "__main__":
+    if "--self-test" in sys.argv:
+        raise SystemExit(self_test())
     raise SystemExit(main())
