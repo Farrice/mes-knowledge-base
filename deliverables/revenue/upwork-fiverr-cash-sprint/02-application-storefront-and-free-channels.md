@@ -58,26 +58,24 @@ Use the existing 10 Connects on the AI Council application. Build the same healt
 
 Evidence labels in square brackets belong to this dossier and are not part of the proposal text. The live form omits them.
 
-[MODELED] The line that caught me was “casual and witty.” Good call. Engineers, researchers, and product leaders can spot generic AI copy before paragraph two.
+[MODELED] The line that caught me was “casual and witty.” Good call. AI Council’s audience is too technical for generic AI enthusiasm and too busy for a white paper in their inbox.
 
-I’d make each issue worth opening: find the few stories that matter, explain what changed without flattening the technical detail, and add a point of view people might forward.
+I spent time with your 2026 talk archive, attendee recaps, and Pete’s recent posts. The pattern is clear: your people want the implementation detail, the failure mode, and the point of view. They’re already sold on AI. They’re trying to make it work.
 
-A sample hook:
+So I wrote the attached one-page spec issue instead of asking you to imagine the fit. Its lead connects this week’s OpenAI and Anthropic security reports to your own Agent Attack Surface talk:
 
-Your agent nailed the demo. Production would like a word.
+Your eval harness just joined the threat model.
 
-The interesting story isn’t another agent launch. It’s the gap between a clean demo and a system people can trust when tools fail, context drifts, and nobody is watching.
-
-For a pilot, I’d deliver one lead story, 4–6 curated links with original commentary, three subject lines, preview text, and one revision. I’d study past AI Council material first so it sounds like your community, not “AI newsletter voice.”
+That’s the work I’d bring each month: one sharp lead item, 4–6 links with original commentary, three subject lines, preview text, and one revision. Current enough to feel plugged in; grounded enough that an engineer won’t roll their eyes.
 
 [MODELED]
 I’ve highlighted executive ghostwriting and brand-voice samples on this proposal. My profile also includes Google’s AI Professional Certificate.
 
 My rate is $50/hour, capped at $250 for the first issue.
 
-I’m new to Mailchimp. I can learn your template and prove the workflow with a formatting check before the first send.
+I haven’t used Mailchimp yet, and I won’t bluff it. I can learn your template and prove the formatting workflow during the pilot.
 
-If the voice isn’t right, don’t keep me for issue two.
+If the attached sample sounds like AI Council, let’s build issue one.
 
 Farrice
 
@@ -92,10 +90,12 @@ Google Docs comments for line edits, with one short note for bigger structural f
 ### Attachments
 
 [VERIFIED]
-Attach these from the existing Upwork portfolio if the form permits portfolio selection:
+The live proposal includes these proof assets:
 
-1. [VERIFIED] **Executive LinkedIn Ghostwriting Samples** — shows voice adaptation and expert-audience writing.
-2. [VERIFIED] **Brand Voice Compass** — shows the method behind voice consistency.
+1. [VERIFIED] **Farrice-Cain-AI-Council-Newsletter-Sample.pdf** — a one-page, source-grounded spec issue built from current OpenAI, Anthropic, Google, and AI Council material. It contains no contact details and is clearly labeled as an unofficial sample.
+2. [VERIFIED] **Executive LinkedIn Ghostwriting Samples** — profile highlight showing voice adaptation and expert-audience writing.
+3. [VERIFIED] **Brand Voice Compass** — profile highlight showing the method behind voice consistency.
+4. [VERIFIED] **Google Prompting Essentials V1** — certificate profile highlight.
 
 Do not attach the health carousel to this application. It is strong proof for the storefront and health role, but it does not answer this newsletter buyer's immediate risk.
 
@@ -105,6 +105,7 @@ Do not attach the health carousel to this application. It is strong proof for th
 - No scheduled rate increase
 - Cover letter pasted as above, without the bracketed evidence labels
 - Both screening answers pasted exactly as above
+- Tailored one-page newsletter PDF attached
 - No files containing contact information
 - Confirm the form still shows **10 Connects required** before submitting
 - Stop at the final submit control for Farrice's approval
@@ -341,6 +342,13 @@ These were live or recently refreshed during the September 3, 2026 research pass
 ## Sources
 
 - [AI Council Upwork job](https://www.upwork.com/jobs/Copywriter-for-monthly-email-newsletters-for-builders_~022095280083743030147/)
+- [AI Council homepage and audience description](https://www.aicouncil.com/)
+- [AI Council: The Agent Attack Surface](https://www.aicouncil.com/talks/the-agent-attack-surface-why-ai-is-breaking-software-security-as-we-know-it)
+- [OpenAI: The Hugging Face incident and the road ahead](https://openai.com/index/the-hugging-face-incident-and-the-road-ahead/)
+- [Anthropic: Improving our alignment and security practices](https://www.anthropic.com/news/improving-alignment-security-efforts)
+- [OpenAI: Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)
+- [Google: Gemini multi-agent teams in Antigravity](https://blog.google/innovation-and-ai/technology/developers-tools/antigravity-teamwork-multi-agent/)
+- [Attendee recap: Five Things I Noticed at AI Council 2026](https://parminder.ai/blogs/ai-council-2026/)
 - [Upwork Project Catalog creation guide](https://support.upwork.com/hc/en-us/articles/360057397533-How-to-create-a-project-in-Project-Catalog)
 - [Upwork Project Catalog image guide](https://support.upwork.com/hc/en-us/articles/1500011309082-How-to-add-images-and-video-to-your-Project-Catalog-project)
 - [Upwork PDF sample guide](https://support.upwork.com/hc/en-us/articles/4406143264531-How-to-choose-PDF-work-samples-for-your-project)
