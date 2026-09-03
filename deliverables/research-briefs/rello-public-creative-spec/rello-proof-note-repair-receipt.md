@@ -74,4 +74,4 @@ Do not ship unless a founder can state what was observed, what it means, and wha
 
 ## Parked enhancement
 
-Revisit the delivery layer later. Possible additions include video, motion, a first-three-second storyboard, or another visual demonstration that makes the strategy feel like a finished client deliverable. This is intentionally parked; no video or production work is authorized or underway.
+Video and motion remain parked. Farrice subsequently approved one bounded exception: a single first-three-second storyboard for “Open on the scoop. Pack the bar.” It is a concept visualization, not final brand creative or evidence of performance.
