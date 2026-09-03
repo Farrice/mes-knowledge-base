@@ -636,6 +636,11 @@ def _set_in_flight(main: Path, branch: str, lane: Path, on: bool):
                       datetime.now().isoformat(timespec="seconds")})
     else:
         entry.pop("merge_in_flight", None)
+        if entry.get("status") == "parked":
+            # a successful merge supersedes any earlier park of the same lane
+            entry["status"] = "active"
+            entry.pop("reason", None)
+            entry.pop("parked_at", None)
     reg[branch] = entry
     save_registry(main, reg)
 
