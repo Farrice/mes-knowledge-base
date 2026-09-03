@@ -172,3 +172,6 @@ ref_input: n/a — no `[ai-image-zone]` block; the entire slide is CSS/HTML per 
   differently (e.g. lettered A/B/C).
 - Allow the recommended-route row's ordinal position (top/middle/bottom of the 3) to vary if the lead
   angle isn't always the middle option.
+
+## Craft pass 2026-09-03 (Farrice)
+Headline returned to the brand h1 (72px = 6.67cqw, the ref size), ref vertical rhythm restored, re-rendered via render_template.py (no AI). Sizes/bboxes above and in _measurements.yaml describe the ORIGINAL build. Headline values must carry explicit <br> line breaks: the renderer autosize shrinks any natural wrap. Decisions: ../REVIEW-NOTES.md

@@ -134,7 +134,7 @@ generation_route: none — solid-css scenario, no `[ai-image-zone]` block. The b
     largest `type_scale.display` token (104px/9.63cqw)**, and positioned unusually low on the canvas — see
     the `elements.headline` note above and `rationale.md`; this is a Check-D-driven ladder escalation +
     its ring-false-positive knock-on fix, not a re-read of the ref.
-  - sample: "Another creative<br>round is easy<br>to approve."
+  - sample: "Another creative round<br>is easy to approve."
   - max_chars: ~12-16 per `<br>`-separated segment at this font-size (the autosize net will shrink toward
     its floor if a segment is longer — keep segments short and let the composition read as a stacked
     poster line rather than prose-wrapped paragraphs)
@@ -202,3 +202,6 @@ clean or WARN-only) — they are by-eye judgment calls surfaced for the human re
 - Allow the masthead descriptor slot (tokens `chrome.masthead.labels[2]`) to appear as a third, smaller
   line if a future variant wants the full three-slot masthead instead of the compact label+index row this ref shows.
 - Offer mode label swap (`THE ANGLE MAP` / author `FARRICE CAIN`) per `tokens.json → chrome.masthead.offer_mode_labels`.
+
+## Craft pass 2026-09-03 (Farrice)
+Headline returned to the brand h1 (72px = 6.67cqw, the ref size), ref vertical rhythm restored, re-rendered via render_template.py (no AI). Sizes/bboxes above and in _measurements.yaml describe the ORIGINAL build. Headline values must carry explicit <br> line breaks: the renderer autosize shrinks any natural wrap. Decisions: ../REVIEW-NOTES.md

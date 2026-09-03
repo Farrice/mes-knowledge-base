@@ -164,3 +164,6 @@ No `[ai-image-zone]` block — `edit_mode: none` per `rationale.md` §③. The b
 - Allow the headline stack to run 2 or 4 lines instead of the sampled 3 (the slot already supports `<br>`
   freely; the auto-shrink fit mechanic handles the extra/fewer lines).
 - Allow `STATEMENT` to carry an `<mark>` accent word for a body variant that wants one emphasized term.
+
+## Craft pass 2026-09-03 (Farrice)
+Headline returned to the brand h1 (72px = 6.67cqw, the ref size), ref vertical rhythm restored, re-rendered via render_template.py (no AI). Sizes/bboxes above and in _measurements.yaml describe the ORIGINAL build. Headline values must carry explicit <br> line breaks: the renderer autosize shrinks any natural wrap. Decisions: ../REVIEW-NOTES.md
