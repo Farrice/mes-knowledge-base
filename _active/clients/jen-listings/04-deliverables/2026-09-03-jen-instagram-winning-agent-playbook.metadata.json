@@ -1,0 +1,20 @@
+{
+  "artifact_type": "strategy_playbook",
+  "client": "Jen Santulan",
+  "created_at": "2026-09-03",
+  "status": "ready_for_operator_review",
+  "scope": "Instagram consumer lead-generation strategy for SFV and Greater LA",
+  "evidence": {
+    "jen_private_insights": true,
+    "jen_public_posts": 96,
+    "coffee_contracts_public_posts": 96,
+    "local_agent_public_posts": 132,
+    "benchmark_comments": 120,
+    "local_benchmark_accounts": 12,
+    "national_benchmark_accounts": 8
+  },
+  "proof_boundary": "All proposed franchises are UNTESTED until Jen's attributable DM-to-client data validates them.",
+  "external_actions": "none",
+  "paid_provider": "Monid/TikHub",
+  "excluded_provider": "Apify"
+}
