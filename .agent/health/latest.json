@@ -1,54 +1,54 @@
 {
-  "ts": "2026-09-03T06:15:05",
-  "date": "2026-09-03",
+  "ts": "2026-09-04T06:15:05",
+  "date": "2026-09-04",
   "deep": false,
   "context_injection": {
     "claude_md_bytes": 22109,
-    "memory_md_bytes": 18607,
-    "memory_md_entries": 129,
+    "memory_md_bytes": 18909,
+    "memory_md_entries": 130,
     "master_context_bytes": 30914,
-    "total_bytes": 71630,
-    "memory_dir_files": 221,
-    "memory_dir_bytes": 660427
+    "total_bytes": 71932,
+    "memory_dir_files": 222,
+    "memory_dir_bytes": 664888
   },
   "assets": {
-    "skills": 423,
-    "workflows": 2850,
+    "skills": 424,
+    "workflows": 2862,
     "agents": 242,
     "directives": 96,
-    "execution_scripts": 436,
-    "verify_scripts": 117,
+    "execution_scripts": 442,
+    "verify_scripts": 120,
     "hooks": 18,
-    "solution_cards": 106
+    "solution_cards": 109
   },
   "tmp": {
-    "bytes": 13137982797,
-    "files": 200003
+    "bytes": 15470893303,
+    "files": 200033
   },
   "ledgers": {
-    "observe_log_bytes": 5030324,
-    "steering_observe_bytes": 80080,
-    "missions_bytes": 130041,
+    "observe_log_bytes": 5031503,
+    "steering_observe_bytes": 81815,
+    "missions_bytes": 132175,
     "content_finish_bytes": 129424
   },
   "verification_misses_total": 7,
   "mcp_calls_30d": 58,
   "mcp_paid_calls_30d": 56,
-  "steering_misses_7d": 158,
+  "steering_misses_7d": 130,
   "session_ledger": {
-    "events": 1433,
-    "debted_sessions": 187,
+    "events": 1441,
+    "debted_sessions": 188,
     "noise_factor": 7.7,
-    "zero_spawn_sessions": 126,
+    "zero_spawn_sessions": 131,
     "latest_week": [
       "2026-W36",
-      11
+      12
     ]
   },
   "git": {
-    "remote_branches": 97,
-    "stashes": 6,
-    "dirty_files": 16
+    "remote_branches": 100,
+    "stashes": 8,
+    "dirty_files": 90
   },
   "active_stale_files_60d": 2787,
   "hooks_config": {
@@ -56,8 +56,8 @@
     "baseline_hash": "8e5f9a19a3927019",
     "drifted": true,
     "evidence_age_days": {
-      "session_ledger": 0.0,
-      "steering_loop": 0.0
+      "session_ledger": 0.6,
+      "steering_loop": 0.6
     }
   },
   "pending_review": {
@@ -70,15 +70,15 @@
     "CODEX.md": 28050,
     "AGENTS.md": 23567,
     "GEMINI.md": 14730,
-    "SLASH_COMMANDS.md": 206425,
-    "SKILL_INDEX.md": 77911,
+    "SLASH_COMMANDS.md": 206717,
+    "SKILL_INDEX.md": 78042,
     "AGENT_INDEX.md": 50513,
     "DOMAIN_REGISTRY.md": 50821,
     "PRODUCTION_CORE.md": 3892,
     "FARRICE-MASTER-CONTEXT.md": 30914,
     "child_claude_md": {
-      "count": 532,
-      "bytes": 5627572
+      "count": 550,
+      "bytes": 5824106
     },
     "agent_md": {
       "count": 241,
@@ -89,13 +89,13 @@
   "launchd": {
     "com.antigravity.angle-map-listening": {
       "weekly": false,
-      "log_age_days": 6.8,
+      "log_age_days": 7.8,
       "last_exit": 1,
       "log_path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log"
     },
     "com.antigravity.citation-integrity": {
       "weekly": true,
-      "log_age_days": 4.0,
+      "log_age_days": 5.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/citation-integrity.log"
     },
@@ -119,7 +119,7 @@
     },
     "com.antigravity.distill-weekly": {
       "weekly": true,
-      "log_age_days": 4.1,
+      "log_age_days": 5.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/distill-weekly.log"
     },
@@ -149,7 +149,7 @@
     },
     "com.antigravity.knowledge-compiler-weekly": {
       "weekly": true,
-      "log_age_days": 4.1,
+      "log_age_days": 5.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/knowledge-compiler-weekly.log"
     },
@@ -173,7 +173,7 @@
     },
     "com.antigravity.memory-review-nudge": {
       "weekly": true,
-      "log_age_days": 2.9,
+      "log_age_days": 3.9,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/memory-review-nudge.log"
     },
@@ -191,13 +191,13 @@
     },
     "com.antigravity.mission-runner": {
       "weekly": false,
-      "log_age_days": 0.1,
+      "log_age_days": 0.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/mission-queue/launchd-stdout.log"
     },
     "com.antigravity.outcome-chase": {
       "weekly": true,
-      "log_age_days": 2.3,
+      "log_age_days": 3.3,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/outcome-chase.log"
     },
@@ -215,46 +215,46 @@
     },
     "com.antigravity.shelf-report": {
       "weekly": true,
-      "log_age_days": 4.0,
+      "log_age_days": 5.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/catalog/shelf-report.log"
     },
     "com.antigravity.skills-sync": {
       "weekly": true,
-      "log_age_days": 4.2,
+      "log_age_days": 5.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/.agents/skill-sync-stdout.log"
     },
     "com.antigravity.verify-fleet": {
       "weekly": true,
-      "log_age_days": 4.0,
+      "log_age_days": 5.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
     },
     "com.antigravity.weekly-harness-cards": {
       "weekly": true,
-      "log_age_days": 3.4,
+      "log_age_days": 4.4,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/weekly-cards.log"
     }
   },
   "verify_fleet": {
     "ts": "2026-08-30T05:36:29.336727",
-    "age_days": 4.0,
+    "age_days": 5.0,
     "failing": 21,
     "total": 97
   },
   "flags": [
     "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log",
-    ".tmp at 13,138MB / 200,003 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
+    ".tmp at 15,471MB / 200,033 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
     "observe-log.jsonl at 5.0MB \u2014 rotation due (gzip to .agent/sessions/archive/); keeps ledger greppable, archives history",
-    "97 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
+    "100 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
     "hook config drifted vs blessed baseline \u2014 diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately",
     "_active/ holds 2787 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
     "CLAUDE.md at 22KB (injected every session) \u2014 compress per claude-md-optimization playbook; rules preserved, tokens back",
-    "launchd com.antigravity.angle-map-listening: log silent 7d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
+    "launchd com.antigravity.angle-map-listening: log silent 8d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
     "verifier fleet: 21/97 failing (run 2026-08-30) \u2014 each is a contract the system claims to hold; triage in weekly closeout",
-    "session context injection grew 33% in ~1mo (54KB \u2192 72KB) \u2014 every session pays this; trim or justify",
-    "skills grew +59 in ~1mo with growth unchecked \u2014 pair new builds with archive passes or the routing surface dilutes"
+    "session context injection grew 34% in ~1mo (54KB \u2192 72KB) \u2014 every session pays this; trim or justify",
+    "skills grew +60 in ~1mo with growth unchecked \u2014 pair new builds with archive passes or the routing surface dilutes"
   ]
 }

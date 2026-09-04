@@ -1,7 +1,7 @@
 {
   "slug": "mission-harness",
   "title": "Harness — Cockpit",
-  "compiled": "sep 3, 2026",
+  "compiled": "sep 4, 2026",
   "generated_by": "execution/render_brief.py",
   "path_policy": {
     "canonical_field": "path",
@@ -19,10 +19,16 @@
       "role": "playbook · Resume here"
     },
     {
-      "path": "guides/2026-08-20-harness-opus5-diagnosis.md",
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-20-harness-opus5-diagnosis.md",
-      "role": "asset · GUIDE"
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+      "role": "asset · DOC"
+    },
+    {
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html",
+      "role": "asset · DOC"
     },
     {
       "path": "docs/solutions/2026-08-28-cross-harness-contract-runtime-parity.md",

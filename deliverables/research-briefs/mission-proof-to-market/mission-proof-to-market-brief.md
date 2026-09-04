@@ -1,6 +1,6 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 3, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 4, 2026
 
 You have a fully loaded offer and an empty outbox.
 
@@ -17,7 +17,7 @@ Next: Send the contact kit to five named supplement or performance brands today,
 ## the state, as the last session left it
 Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.
 
-Handoff written 47d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 48d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -75,7 +75,7 @@ RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (
 _READ THE EDGES_
 The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.
 
-The judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 14 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
