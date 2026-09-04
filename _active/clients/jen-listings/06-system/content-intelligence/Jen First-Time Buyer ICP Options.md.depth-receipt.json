@@ -4,17 +4,17 @@
   "overall_score": 90,
   "depth": "deep",
   "metrics": {
-    "total_urls": 22,
-    "unique_domains": 11,
+    "total_urls": 27,
+    "unique_domains": 13,
     "detected_depth": "deep",
     "min_sources_expected": 15,
     "modeled_flags": 0,
     "claim_sourcing_rate": "100% (5/5)",
     "hedge_ratio": "0.0 per 1000 words",
     "min_domains_expected": 6,
-    "unique_source_urls": 22
+    "unique_source_urls": 27
   },
   "critical_issues": [],
-  "validated_at": "2026-09-03T21:54:43",
+  "validated_at": "2026-09-04T09:39:58",
   "gate": "research_quality_gate.py"
 }
