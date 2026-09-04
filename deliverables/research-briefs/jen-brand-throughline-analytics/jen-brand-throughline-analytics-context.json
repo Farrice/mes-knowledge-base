@@ -1,0 +1,41 @@
+{
+  "slug": "jen-brand-throughline-analytics",
+  "title": "the true throughline",
+  "compiled": "sep 3, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.html",
+  "brief_md": "deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.md",
+  "paths": [
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md",
+      "role": "primary analytics audit"
+    },
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md",
+      "role": "current playbook preserved for revision"
+    },
+    {
+      "path": "_active/clients/jen-listings/brand_context/voice-profile.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/brand_context/voice-profile.md",
+      "role": "client voice and service promise"
+    },
+    {
+      "path": "_active/clients/jen-listings/brand_context/icp.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/brand_context/icp.md",
+      "role": "buyer and seller context"
+    }
+  ],
+  "urls": []
+}
