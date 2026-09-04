@@ -2,7 +2,9 @@
 
 **First Home Valley decision brief | September 4, 2026**
 
-Status: proposed for approval. No posts, lead magnets, messages, automation, or publishing have been produced from this brief.
+Status: direction approved; evidence review complete; diagnostic build not started. No posts, lead magnets, messages, automation, or publishing have been produced from this brief.
+
+Evidence review: [6-3-2 Conversion Evidence Brief](briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md)
 
 ## What 6-3-2 means
 
@@ -42,15 +44,20 @@ flowchart LR
     F --> I[One Instagram trigger]
     H --> I
     I --> J[Useful diagnostic delivered]
-    J --> K{Buyer names blocker}
-    K --> L[#6 Joint decision] & M[#3 Solo support] & N[#2 Income preparation]
-    L --> O[Five questions]
+    J --> K{Primary blocker<br/>+ optional secondary}
+    K --> L[#6 Joint decision] & M[#3 Solo support] & N[#2 Income preparation] & X[Not sure]
+    L --> O[Route-specific result]
     M --> O
     N --> O
-    O --> P[Jen replies]
-    P --> Q{Readiness}
+    X --> O
+    O --> P{Wants Jen's help?}
+    P -->|Yes| W[Representation + consent check]
+    P -->|Not now| S[Relevant nurture]
+    W --> Y[Jen replies]
+    Y --> Q{Service state}
     Q --> R[Clarity consultation]
-    Q --> S[Relevant nurture]
+    Q --> S
+    Q --> Z[Route out]
     R --> T[Client attribution]
     S --> U[Future conversation]
     T --> V[Content learning]
@@ -59,7 +66,7 @@ flowchart LR
 
 ## The diagnostic
 
-The common section should take about three minutes. It asks where the buyer needs to remain, when they may purchase, what stage they are in, which decision is blocking progress, and what their eventual home must leave room for in everyday life.
+The common section should take about three minutes. It routes by the decision blocking progress today, not by a fixed identity. A buyer chooses one primary blocker, may add one secondary blocker, and may choose “not sure.” The common taps capture an SFV area or commute anchor, timeline, and current stage. One optional sentence asks what feels hardest now.
 
 It gives a useful result before asking for contact details. The buyer then receives a short route-specific output.
 
@@ -83,13 +90,16 @@ This route organizes income type, document history, lender questions, and prepar
 
 ## The Instagram handoff
 
-Use one memorable trigger during the first test. After the buyer requests the asset, delivery happens immediately. The next reply asks which of the three situations sounds closest. Five lightweight questions then give Jen enough context to respond like a person rather than a bot.
+Use one memorable trigger during the first test. After the buyer requests the asset, delivery happens immediately. The diagnostic uses no more than five structured taps and one optional open response.
 
-1. Are they buying alone, with another buyer, or still deciding?
-2. What SFV area or commute anchors the search?
-3. Is the timeline 0–3, 3–6, 6–12, or more than 12 months?
-4. Which stage fits: exploration, preparation, pre-approval, tours, or active offers?
-5. What is the main blocker in their own words?
+1. Primary blocker: coordinating with another buyer, buying on my own, organizing nonstandard income, or not sure.
+2. Optional secondary blocker, including “none.”
+3. SFV area or commute anchor.
+4. Timeline: 0–3, 3–6, 6–12, or more than 12 months.
+5. Stage: exploration, preparation, pre-approval, tours, or active offers.
+6. Optional: “What feels hardest right now?”
+
+The route-specific result arrives before any qualification or consultation ask. If the buyer requests Jen's help, the handoff then checks whether they are already working under a buyer-representation agreement and whether follow-up is welcome. The diagnostic answers are not asked again in DM.
 
 Instagram should not collect exact income, credit scores, protected-class information, bank records, tax returns, Social Security numbers, or similar documents.
 
@@ -125,7 +135,7 @@ The record for each person is:
 
 Reach shows whether relevant local people saw the work. Fit appears when someone recognizes their own situation. Trust appears when they disclose a real constraint or ask a consequential question. Commercial action begins with a completed diagnostic, qualified exchange, or consultation. Signed representation and closing remain separate revenue evidence.
 
-A qualified conversation requires five things: a chosen path, an SFV location or commute anchor, a plausible timeline, a real blocker, and interest in a next step. A credible 6–12-month buyer belongs in nurture even when they are not ready for a meeting today.
+A qualified active conversation requires an SFV-compatible location or commute anchor, a consequential blocker, a plausible 0–12-month path, interest in Jen's help, and no conflicting representation. A credible longer-term buyer with a real Valley decision belongs in nurture. Another agent, no relevant market connection, a peer inquiry, spam, or a request for financial or legal conclusions routes out. These are service states, not financial or demographic scores.
 
 ## Test
 
@@ -161,8 +171,8 @@ The main Jen content-system conductor integrates these passes. Expert count does
 
 ## Decision status
 
-Ready for approval: First Home Valley umbrella; ICP priority 6, 3, 2; one diagnostic with three paths; value before qualification; human review before booking; separate measures for reach, fit, trust, commercial action, and revenue.
+Locked: First Home Valley umbrella; ICP priority 6, 3, 2; one diagnostic with three paths; value before qualification; human review before booking; separate measures for reach, fit, trust, commercial action, and revenue.
 
-Still open: final asset name, Instagram trigger, delivery platform, automation vendor, page design, content calendar, scripts, and visuals.
+Still open: final asset name, Instagram trigger, delivery platform, page design, content calendar, scripts, and visuals. Automation stays parked until the manual path produces enough repeated volume to justify it.
 
-After approval, audit Jen's current booking link, CRM, link-in-bio, saved replies, and lender handoff. Then specify the diagnostic and CTA map before writing posts.
+The conversion audit is now complete. Booking, CRM, installed saved replies, legacy automation, and the current lender protocol remain unverified; the public Linktree and buyer utilities are verified but do not form a tracked conversation path. Before writing posts, reconcile the older ENGINE-V2/BRAND.yaml positioning, confirm the three proof gaps with Jen, and prototype the revised diagnostic privately.
