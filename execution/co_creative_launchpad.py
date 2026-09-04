@@ -181,6 +181,8 @@ RISK_TERMS = (
     "paid api",
     "paid tool",
     "paid tools",
+    "paid research",
+    "paid provider",
     "quota-heavy",
     "quota heavy",
     "buy credits",
@@ -188,6 +190,12 @@ RISK_TERMS = (
     "spend $",
     "spend money",
     "connector write",
+    "gemini deep research",
+    "tavily",
+    "apify",
+    "contact buyers",
+    "interview buyers",
+    "buyer interview",
 )
 
 TASTE_TERMS = (
@@ -216,6 +224,173 @@ TINY_MECHANICAL_TERMS = (
     "fix this typo",
     "correct this typo",
     "rename this file",
+)
+
+# Adaptive sensemaking vocabulary is intentionally shape-based and advisory.
+# It selects a useful inquiry posture; it does not create a new permission or
+# evidence gate. More specific signals are evaluated before broad ones.
+CREATIVE_EXPLORATION_TERMS = (
+    "brainstorm",
+    "ideate",
+    "explore ideas",
+    "explore concepts",
+    "creative exploration",
+    "fictional",
+    "fiction",
+    "story concept",
+    "visual concept",
+    "speculative",
+    "imagine",
+    "moodboard",
+    "rough prototype",
+    "sketch a prototype",
+)
+
+PRODUCTION_REQUEST_TERMS = (
+    "production-ready",
+    "production ready",
+    "final asset",
+    "final version",
+    "ship this",
+    "ready to publish",
+    "complete the asset",
+    "implement this plan",
+    "approved plan",
+)
+
+EXPLICIT_BUILD_DIRECTION_TERMS = (
+    "just build",
+    "build it now",
+    "go straight to the asset",
+    "proceed with the build",
+    "do not research",
+    "don't research",
+)
+
+STABLE_ANALYSIS_TERMS = (
+    "explain",
+    "analyze",
+    "analyse",
+    "compare",
+    "evaluate",
+    "technical question",
+    "conceptual question",
+    "canonical documentation",
+    "primary literature",
+    "original thinker",
+)
+
+CURRENT_WORLD_TERMS = (
+    "current",
+    "currently",
+    "latest",
+    "today",
+    "right now",
+    "time-sensitive",
+    "time sensitive",
+    "recent",
+    "market landscape",
+    "competitor landscape",
+    "current price",
+    "current pricing",
+    "current law",
+    "current regulation",
+)
+
+CURRENT_DECISION_CONTEXT_TERMS = (
+    "decision",
+    "decide",
+    "choose",
+    "recommend",
+    "whether",
+    "claim",
+    "market",
+    "competitor",
+    "price",
+    "pricing",
+    "law",
+    "regulation",
+    "policy",
+    "schedule",
+    "standard",
+    "specification",
+    "software version",
+    "risk",
+)
+
+BUYER_BEHAVIOR_TERMS = (
+    "buyer pain",
+    "buyer problem",
+    "buyer problems",
+    "customer pain",
+    "customer problem",
+    "market demand",
+    "willingness to pay",
+    "will pay",
+    "anyone wants",
+    "does anyone want",
+    "validate demand",
+    "market validation",
+    "problem interview",
+    "buyer interview",
+    "interview buyers",
+    "observed action",
+    "payment behavior",
+)
+
+WEAK_EVIDENCE_TERMS = (
+    "weak sources",
+    "sources are weak",
+    "weak and outdated",
+    "weak evidence",
+    "evidence is weak",
+    "conflicting sources",
+    "sources conflict",
+    "conflicting evidence",
+    "evidence conflicts",
+    "outdated sources",
+    "outdated evidence",
+    "insufficient evidence",
+    "shallow articles",
+    "public articles alone",
+)
+
+PAID_OR_PERMISSIONED_INQUIRY_TERMS = (
+    "paid research",
+    "paid provider",
+    "paid api",
+    "quota-heavy",
+    "quota heavy",
+    "gemini deep research",
+    "tavily",
+    "apify",
+    "contact buyers",
+    "interview buyers",
+    "buyer interview",
+    "external interview",
+)
+
+ITERATION_REFRAME_TERMS = (
+    "two substantive passes",
+    "two passes without convergence",
+    "we are not converging",
+    "this is not converging",
+    "third similar revision",
+    "third materially similar revision",
+    "we keep going back and forth",
+    "rejected twice",
+    "two rejected",
+)
+
+TASTE_CONTINUE_TERMS = (
+    "direction is correct",
+    "direction is right",
+    "right direction",
+    "remaining gap is taste",
+    "remaining gap is craft",
+    "taste only",
+    "craft only",
+    "keep the direction",
 )
 
 DISTINCT_BRANCH_TERMS = (
@@ -329,6 +504,234 @@ def has_any(query: str, terms: Iterable[str]) -> bool:
 
 def word_count(query: str) -> int:
     return len(re.findall(r"[a-z0-9][a-z0-9-]*", query.lower()))
+
+
+def _escalation_brief(*, buyer_uncertainty: bool, weak_evidence: bool) -> dict[str, Any]:
+    """Describe the smallest permissioned evidence route without launching it."""
+
+    if buyer_uncertainty:
+        return {
+            "missing_evidence": "Behavioral evidence from qualified buyers; public articles are context, not validation.",
+            "proposed_route": "Prepare a small safe-to-fail buyer or market probe; use /ash-problem-validation if interviews are approved.",
+            "expected_cost_or_quota": "Unknown until the channel/provider is selected; no paid or quota-heavy use is authorized.",
+            "permissions_required": "Explicit approval before interviews, outreach, external market interaction, or paid/quota-heavy research.",
+            "deliverable": "Behavioral evidence table with observed action, disconfirming signals, and a bounded conclusion.",
+            "decision_unlocked": "Whether the problem is important enough for the proposed buyer to act or pay now.",
+        }
+    return {
+        "missing_evidence": (
+            "Decision-grade primary evidence that resolves the weak, conflicting, or outdated claims."
+            if weak_evidence
+            else "Evidence unavailable through the authorized local or free-primary path."
+        ),
+        "proposed_route": "Prepare a source-quality and contradiction brief through /deep-research-os before any paid escalation.",
+        "expected_cost_or_quota": "$0 direct spend for native public-source research; any paid or quota-heavy provider requires a fresh quote.",
+        "permissions_required": "Explicit approval before paid/quota-heavy research or any external interview or outreach.",
+        "deliverable": "Primary-source evidence map, counterevidence, confidence labels, and remaining unknowns.",
+        "decision_unlocked": "Whether the consequential claim is strong enough to support the decision rather than a labeled hypothesis.",
+    }
+
+
+def build_inquiry_decision(
+    query: str,
+    *,
+    route: str = "",
+    lane: str = "",
+) -> dict[str, Any]:
+    """Select adaptive inquiry and build depth without adding an enforcement gate."""
+
+    q = normalize(query)
+    tiny_mechanical = has_any(q, TINY_MECHANICAL_TERMS) and word_count(q) <= 18
+    taste_continue = has_any(q, TASTE_CONTINUE_TERMS)
+    iteration_reframe = has_any(q, ITERATION_REFRAME_TERMS)
+    buyer_uncertainty = has_any(q, BUYER_BEHAVIOR_TERMS)
+    weak_evidence = has_any(q, WEAK_EVIDENCE_TERMS)
+    paid_or_permissioned = has_any(q, PAID_OR_PERMISSIONED_INQUIRY_TERMS)
+    current_world = has_any(q, CURRENT_WORLD_TERMS) and has_any(
+        q,
+        CURRENT_DECISION_CONTEXT_TERMS,
+    )
+    creative_exploration = has_any(q, CREATIVE_EXPLORATION_TERMS)
+    stable_analysis = has_any(q, STABLE_ANALYSIS_TERMS)
+    production_request = has_any(q, PRODUCTION_REQUEST_TERMS)
+    explicit_build_direction = has_any(q, EXPLICIT_BUILD_DIRECTION_TERMS)
+
+    decision: dict[str, Any]
+    if tiny_mechanical:
+        decision = {
+            "mode": "execute",
+            "build_purpose": "production",
+            "research_path": "skip",
+            "source_floor": "Supplied text or file plus ordinary correctness checks.",
+            "reason": "This is a tiny mechanical change; inquiry ceremony would add no decision value.",
+            "next_action": "Perform the edit directly and verify the changed surface.",
+            "visible": False,
+        }
+    elif taste_continue:
+        decision = {
+            "mode": "create",
+            "build_purpose": "production",
+            "research_path": "skip",
+            "source_floor": "Accepted direction and the user's live taste judgment.",
+            "reason": "The direction is confirmed; the remaining uncertainty is taste or craft, not truth.",
+            "next_action": "Preserve accepted elements and continue the craft refinement.",
+            "visible": True,
+            "iteration_posture": "taste-continue",
+        }
+    elif iteration_reframe:
+        decision = {
+            "mode": "analyze",
+            "build_purpose": "decision",
+            "research_path": "local",
+            "source_floor": "Visible conversation history and explicitly accepted elements; never an invented revision count.",
+            "reason": "Two visible substantive passes have not converged, so another similar revision would compound the wrong uncertainty.",
+            "next_action": "Preserve accepted elements, diagnose truth versus intent, scope, mechanism, or taste, then change the approach.",
+            "visible": True,
+            "iteration_posture": "reframe",
+        }
+    elif explicit_build_direction:
+        decision = {
+            "mode": "execute",
+            "build_purpose": "production",
+            "research_path": "skip",
+            "source_floor": "The supplied brief plus claim-local truth checks; explicit direction cannot waive hard boundaries.",
+            "reason": "Farrice explicitly chose building over advisory depth for this pass.",
+            "next_action": "Build now at the requested fidelity and label any untested real-world assumptions.",
+            "visible": True,
+            "iteration_posture": "continue",
+        }
+    elif production_request and creative_exploration:
+        decision = {
+            "mode": "execute",
+            "build_purpose": "production",
+            "research_path": "skip",
+            "source_floor": "The supplied creative brief; fictional or speculative elements remain labeled rather than researched as fact.",
+            "reason": "The creative direction is explicitly production-bound, so exploration can move directly into the asset.",
+            "next_action": "Build the production asset now and apply the existing craft and quality checks.",
+            "visible": False,
+            "iteration_posture": "continue",
+        }
+    elif creative_exploration:
+        decision = {
+            "mode": "create",
+            "build_purpose": "exploration",
+            "research_path": "skip",
+            "source_floor": "No evidence floor; label fictional, speculative, or untested material and use sources only as inspiration.",
+            "reason": "The purpose is to expand the creative possibility space, not prove a real-world claim.",
+            "next_action": "Create the requested concept or prototype without evidence questions.",
+            "visible": False,
+            "iteration_posture": "continue",
+        }
+    elif buyer_uncertainty:
+        decision = {
+            "mode": "probe",
+            "build_purpose": "decision",
+            "research_path": "escalate" if paid_or_permissioned or weak_evidence else "free-primary",
+            "source_floor": "Behavioral evidence from qualified buyers; public articles may frame the probe but cannot validate demand.",
+            "reason": "Human action and complex-market response cannot be researched into certainty.",
+            "next_action": "Build the smallest safe-to-fail demand test and keep any conclusion labeled until behavior is observed.",
+            "visible": True,
+            "iteration_posture": "continue",
+        }
+        if paid_or_permissioned or weak_evidence:
+            decision["escalation"] = _escalation_brief(
+                buyer_uncertainty=True,
+                weak_evidence=weak_evidence,
+            )
+    elif weak_evidence:
+        decision = {
+            "mode": "analyze",
+            "build_purpose": "decision",
+            "research_path": "escalate",
+            "source_floor": "Primary or canonical evidence fit to the claim, with counterevidence where consequential.",
+            "reason": "Weak, conflicting, or outdated evidence cannot support certainty.",
+            "next_action": "Continue only with a labeled hypothesis or learning prototype and prepare the evidence escalation brief.",
+            "visible": True,
+            "iteration_posture": "continue",
+            "escalation": _escalation_brief(
+                buyer_uncertainty=False,
+                weak_evidence=True,
+            ),
+        }
+    elif paid_or_permissioned:
+        decision = {
+            "mode": "analyze",
+            "build_purpose": "decision",
+            "research_path": "escalate",
+            "source_floor": "Evidence fit to the question before selecting a paid or permissioned collection route.",
+            "reason": "The proposed inquiry crosses a cost, quota, or external-participation boundary.",
+            "next_action": "Prepare the route, cost or quota, permissions, deliverable, and decision value; stop before launch.",
+            "visible": True,
+            "iteration_posture": "continue",
+            "escalation": _escalation_brief(
+                buyer_uncertainty=False,
+                weak_evidence=False,
+            ),
+        }
+    elif current_world:
+        decision = {
+            "mode": "analyze",
+            "build_purpose": "decision",
+            "research_path": "free-primary",
+            "source_floor": "Recent official or primary sources plus counterevidence where the decision is consequential.",
+            "reason": "The claim can drift and fresh evidence could change the decision.",
+            "next_action": "Research the decision-changing claim, label confidence, and keep unresolved disagreement visible.",
+            "visible": True,
+            "iteration_posture": "continue",
+        }
+    elif stable_analysis:
+        decision = {
+            "mode": "analyze",
+            "build_purpose": "decision",
+            "research_path": "local",
+            "source_floor": "Original thinkers, primary literature, or canonical documentation appropriate to the question.",
+            "reason": "This is a knowable conceptual or technical question where authoritative analysis can change the answer.",
+            "next_action": "Use the best authoritative local sources first and escalate to free primary sources only if the decision remains open.",
+            "visible": True,
+            "iteration_posture": "continue",
+        }
+    elif production_request:
+        decision = {
+            "mode": "execute",
+            "build_purpose": "production",
+            "research_path": "local",
+            "source_floor": "The supplied brief and claim-local proof required by the asset.",
+            "reason": "The goal and production standard are explicit enough to build now.",
+            "next_action": "Build the production asset and apply existing quality, claim, privacy, permission, and cost boundaries locally.",
+            "visible": False,
+            "iteration_posture": "continue",
+        }
+    else:
+        decision = {
+            "mode": "execute",
+            "build_purpose": "production",
+            "research_path": "skip",
+            "source_floor": "The supplied context plus claim-local verification when factual claims are introduced.",
+            "reason": "No decision-changing research or uncertainty probe is warranted.",
+            "next_action": "Proceed at the requested depth and verify the resulting work locally.",
+            "visible": False,
+            "iteration_posture": "continue",
+        }
+
+    # The route is context, not authority: an explicit creative or production
+    # request can still proceed even when the owner can perform research.
+    decision["route_context"] = {"route": route, "lane": lane}
+    return decision
+
+
+def render_inquiry_signal(decision: dict[str, Any]) -> str:
+    """Return the single allowed material-fork line, or stay quiet."""
+
+    if not decision.get("visible"):
+        return ""
+    labels = {
+        "create": "Create",
+        "analyze": "Analyze",
+        "probe": "Probe",
+        "execute": "Execute",
+    }
+    label = labels.get(str(decision.get("mode")), str(decision.get("mode")).title())
+    return f"Mode: {label} — {decision['reason']}"
 
 
 def capability_stewardship_decision(
@@ -784,7 +1187,9 @@ def build_launchpad(
     risk_reasons: Iterable[str] = (),
     clarity_score: int | None = None,
 ) -> dict[str, Any]:
+    risk_reasons = tuple(risk_reasons)
     classified = classify_control_intent(query)
+    inquiry = build_inquiry_decision(query, route=route, lane=lane)
     missing = missing_inputs(query, route)
     if classified["route"] == "system-audit" and route in {"", "system-audit"}:
         missing = []
@@ -796,6 +1201,18 @@ def build_launchpad(
         risk_reasons=risk_reasons,
         clarity_score=clarity_score,
     )
+    if (
+        inquiry["mode"] == "create"
+        and inquiry["build_purpose"] == "exploration"
+        and not risk_reasons
+        and not has_any(normalize(query), RISK_TERMS)
+    ):
+        questions = []
+        pause = {
+            "decision": "run_creative_exploration",
+            "reason": "Creative exploration is clear enough to begin; label speculation and do not add evidence ceremony.",
+            "requires_pause": False,
+        }
     bias = route_bias(query, route, lane)
     center = infer_center(query, route, lane)
     success = infer_success_standard(query, route)
@@ -807,7 +1224,7 @@ def build_launchpad(
         risk_reasons=risk_reasons,
     )
     return {
-        "schema_version": "co-creative-launchpad/v2",
+        "schema_version": "co-creative-launchpad/v3",
         "predicted_need": infer_predicted_need(query, route, lane),
         "center": center,
         "edges": constraints,
@@ -817,6 +1234,7 @@ def build_launchpad(
         "questions_that_change_execution": questions,
         "route_bias": bias,
         "pause_or_run": pause,
+        "inquiry_decision": inquiry,
         **stewardship,
         "handoff": {
             "summary": f"Optimize for: {center}",
@@ -828,6 +1246,7 @@ def build_launchpad(
                 else "No special source boundary detected."
             ),
             "questions": questions,
+            "inquiry_decision": inquiry,
         },
     }
 
@@ -847,6 +1266,9 @@ def render_launchpad(packet: dict[str, Any]) -> str:
         f"- **Pause or run**: {pause['decision']} - {pause['reason']}",
         f"- **Handoff**: {packet['handoff']['summary']}",
     ]
+    inquiry_signal = render_inquiry_signal(packet["inquiry_decision"])
+    if inquiry_signal:
+        lines.append(f"- **{inquiry_signal}**")
     capability = packet.get("capability_move", {})
     if capability.get("visible"):
         container = packet.get("container_decision", {})

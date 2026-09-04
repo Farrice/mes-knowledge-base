@@ -258,7 +258,20 @@ RISK_SIGNALS = {
         "google docs",
         "notion write",
     ),
-    "paid/budget": ("paid tool", "spend", "buy", "purchase", "apify", "budget", "charge"),
+    "paid/budget": (
+        "paid tool",
+        "paid research",
+        "paid provider",
+        "spend",
+        "buy",
+        "purchase",
+        "apify",
+        "tavily",
+        "gemini deep research",
+        "budget",
+        "charge",
+    ),
+    "permissioned inquiry": ("contact buyers", "interview buyers", "buyer interview", "external interview"),
     "global/external-workspace": ("~/.codex", "global", "google antigravity", "back-port", "backport"),
     "destructive": ("delete", "remove all", "wipe", "destructive", "reset", "archive everything"),
 }
@@ -742,6 +755,7 @@ def build_orchestration_receipt(
     expert_lenses = [str(item) for item in stack.get("stack", []) if str(item).strip()]
     container = dict(launchpad.get("container_decision") or {})
     capability = dict(launchpad.get("capability_move") or {})
+    inquiry = dict(launchpad.get("inquiry_decision") or {})
     return {
         "objective": query,
         "meta_intent": meta_intent,
@@ -763,6 +777,10 @@ def build_orchestration_receipt(
             "None for safe, reversible workspace-local work.",
         ),
         "auto_task_creation": False,
+        "inquiry_mode": inquiry.get("mode", "execute"),
+        "build_purpose": inquiry.get("build_purpose", "production"),
+        "research_path": inquiry.get("research_path", "skip"),
+        "iteration_posture": inquiry.get("iteration_posture", "continue"),
         "verifier_results": {
             "status": "planned",
             "planned": verifiers,
@@ -1227,6 +1245,11 @@ def render_preflight(data: dict[str, Any]) -> str:
         f"- **Route bias**: /{launchpad['route_bias']['primary']}; {launchpad['route_bias']['reason']}",
         f"- **Pause or run**: {launchpad['pause_or_run']['decision']} - {launchpad['pause_or_run']['reason']}",
         f"- **Handoff**: {launchpad['handoff']['summary']}",
+    ]
+    inquiry_signal = co_creative_launchpad.render_inquiry_signal(launchpad["inquiry_decision"])
+    if inquiry_signal:
+        lines.append(f"- **{inquiry_signal}**")
+    lines.extend([
         "",
         "## Raw Intent Bridge",
         f"- **Status**: {raw_bridge.get('status', 'skipped')}",
@@ -1281,7 +1304,7 @@ def render_preflight(data: dict[str, Any]) -> str:
         "- **Refresh command**: python3 execution/capability_graph.py --json",
         "",
         "## Execution Plan",
-    ]
+    ])
 
     for index, step in enumerate(data["execution_plan"], 1):
         lines.append(f"- **Step {index}**: {step}")
@@ -1305,6 +1328,10 @@ def render_preflight(data: dict[str, Any]) -> str:
             f"- **Why now**: {orchestration_receipt['why_now']}",
             f"- **Approval boundary**: {orchestration_receipt['approval_boundary']}",
             f"- **Automatic task creation**: {orchestration_receipt['auto_task_creation']}",
+            f"- **Inquiry mode**: {orchestration_receipt['inquiry_mode']}",
+            f"- **Build purpose**: {orchestration_receipt['build_purpose']}",
+            f"- **Research path**: {orchestration_receipt['research_path']}",
+            f"- **Iteration posture**: {orchestration_receipt['iteration_posture']}",
             f"- **Verifier results**: {orchestration_receipt['verifier_results']['status']}; planned={fmt_list(orchestration_receipt['verifier_results']['planned'])}",
             f"- **Feedback hook**: {orchestration_receipt['feedback_hook']}",
             "",
