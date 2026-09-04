@@ -294,7 +294,7 @@
 | `nicolas-cole-edan-writing-mechanics` | **Nicolas Cole EDAN Writing Mechanics** | writing mechanics, narrative composition, paragraph architecture | 8 | 0 |
 | `nicolas-cole-library-first-writing` | **nicolas-cole-library-first-writing** | build an owned content library by selecting the right next writing format, moving through cole's compression-to-reuse skill ladder, and saving proof and reusable material back | 2 | 0 |
 | `nicolas-cole-newsletter-flywheel` | **Nicolas Cole Newsletter Flywheel** | newsletter strategy, substack architecture, content flywheel design | 17 | 0 |
-| `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning, specificity drilling, category creation | 3 | 0 |
+| `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche discovery, specialization, content creation | 11 | 1 |
 | `nicolas-cole-nonfiction-value-architecture` | **Nicolas Cole Nonfiction Value Architecture** | nonfiction writing strategy, reader value architecture, newsletter outlines | 8 | 0 |
 | `nicolas-cole-sales-education-messaging` | **Nicolas Cole Sales Education Messaging** | sales education, buyer belief, messaging | 8 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** | economic compression, vocabulary calibration, and rhythm engineering for maximum clarity and impact | 5 | 14 |
