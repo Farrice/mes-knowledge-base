@@ -96,7 +96,6 @@ PAID_PATTERNS = [
     # OpenAI GPT Image via the Scrapes viz-image-gen script (direct python or `uv run`).
     # $15/month hard cap — Farrice 2026-09-02. Anchored on the invocation verb like the rest.
     (re.compile(r"(?:python3?|uv\s+run)\s+\S*generate_image_gpt\.py\b"), lambda c: "openai-image"),
-    (re.compile(r"python3?\s+\S*monid_client\.py\b"), lambda c: "monid"),
     # Monid CLI: only `monid run` spends (discover/inspect/balance are free)
     (re.compile(r"(?:^|[;&|(]\s*)monid\s+run\b"), lambda c: "monid"),
 ]
@@ -200,6 +199,10 @@ def self_test() -> int:
         "python3 execution/generate_media.py models",
         "python3 execution/generate_media.py quote --model recraft-v3 --prompt 'x'",
         "python3 execution/generate_media.py index --file out.png --model gpt-image-2",
+        "python3 execution/monid_client.py quote --task 'ICP scan'",
+        "python3 execution/monid_client.py budget-status",
+        "monid discover linkedin",
+        "monid inspect linkedin-profile-scraper",
         "grep -r 'sonar-deep-research' directives/",
         "git diff execution/fal_video_seedance.py",
         "head -20 .claude/skills/viz-image-gen/scripts/generate_image_gpt.py",
@@ -218,6 +221,7 @@ def self_test() -> int:
         ("python3 execution/generate_image.py \"prompt\" --aspect 1:1", "fal-poster"),
         ("python3 execution/generate_media.py run --model recraft-v3 --prompt 'x'",
          "fal-generic"),
+        ("monid run linkedin-profile-scraper --input profile.json", "monid"),
         ("skills/fantastic-posters/gen.sh \"brief\" --style=swiss", "fal-poster"),
         ("uv run .claude/skills/viz-image-gen/scripts/generate_image_gpt.py --prompt 'x' "
          "--filename o.png --quality high", "openai-image"),
