@@ -1,0 +1,19 @@
+{
+  "file": "_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md",
+  "overall_pass": true,
+  "overall_score": 100,
+  "depth": "standard",
+  "metrics": {
+    "total_urls": 9,
+    "unique_domains": 5,
+    "detected_depth": "standard",
+    "min_sources_expected": 8,
+    "modeled_flags": 0,
+    "hedge_ratio": "0.7 per 1000 words",
+    "min_domains_expected": 4,
+    "unique_source_urls": 9
+  },
+  "critical_issues": [],
+  "validated_at": "2026-09-04T10:39:37",
+  "gate": "research_quality_gate.py"
+}

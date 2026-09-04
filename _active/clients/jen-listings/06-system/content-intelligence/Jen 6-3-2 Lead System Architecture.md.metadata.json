@@ -1,0 +1,12 @@
+{
+  "artifact_type": "strategy_brief",
+  "title": "Jen 6-3-2 Lead System Architecture",
+  "client": "Jen Santulan",
+  "project": "First Home Valley",
+  "status": "proposed_for_approval",
+  "created_at": "2026-09-04",
+  "source_icps": [6, 3, 2],
+  "content_production_started": false,
+  "external_actions_taken": false,
+  "paid_tools_used": false
+}
