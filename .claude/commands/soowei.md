@@ -1,5 +1,5 @@
 ---
-description: "soowei — full expert front door: Consulting Business Scale + Founder Workflow + Leverage Architecture. Skills: soowei-consulting-leverage."
+description: "soowei — full expert front door: Consulting Business Scale + Founder Workflow + Leverage Architecture + Organic Content Acquisition. Skills: soowei-consulting-leverage."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 

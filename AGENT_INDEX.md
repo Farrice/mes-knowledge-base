@@ -220,7 +220,7 @@
 | `simon-better-creating` | **Simon (Better Creating)** | agent configuration |
 | `sinem-gunel` | **sinem-gunel** | 4-layer revenue architecture, bestseller badge system, business infrastructure reframe, collaboration physics, creator monetization, notes discovery engine, publication conversion architecture, substack business architecture |
 | `sky-tan` | **sky-tan** | content-to-client conversion, counter-positioning, format discovery, founder/b2b personal brand, short-form video format engineering, testing, testing & scaling, the conversion gate, the strategy spine |
-| `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
+| `soowei` | **soowei** | buyer-evidence content systems, consulting business scale + founder workflow + leverage architecture + organic content acquisition, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, organic content-to-call composition, trust-sequence architecture, workflow architecture |
 | `steven-kotler` | **steven-kotler** | challenge-skills calibration, creativity science (coaching transformation layer), flow states, flow triggering, flow-blocker diagnosis, motivation engineering, neurochemical and readiness design, peak performance |
 | `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
 | `steven-young` | **steven-young** | consciousness engineering, dream revelation, hermetic philosophy, identity reprogramming, judgment dissolution and emotional access, oblique achievement, oblique intention engineering, seven-law diagnosis |
