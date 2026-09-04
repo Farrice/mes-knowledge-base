@@ -1,0 +1,41 @@
+diff --git a/Users/farricecain/.codex/AGENTS.md b/Users/farricecain/.codex/AGENTS.md
+--- a/Users/farricecain/.codex/AGENTS.md
++++ b/Users/farricecain/.codex/AGENTS.md
+@@ -132,6 +132,20 @@ work with a real decision:
+ - When a real decision exists, close with `LOCKED`, `PARKED`, and `NEXT ACTION`,
+   or an equally clear decision surface.
+ 
++### Adaptive Sensemaking And Build Depth
++
++For meaningful work, use the Google Antigravity
++`co-creative-launchpad/v3` inquiry decision as the workspace source of truth:
++create freely, analyze knowable consequential questions with authoritative
++sources, probe buyer or complex-system uncertainty with a small safe-to-fail
++test, and execute clear production requests. Research only when it can change
++the decision. Buyer-problem claims require behavioral evidence; articles alone
++cannot validate demand. Weak evidence produces a labeled hypothesis plus an
++escalation brief, never false certainty. Paid providers, interviews, outreach,
++publishing, connectors, and other external actions still require explicit
++approval. Keep the behavior advisory and emit one `Mode: ...` line only at a
++material fork.
++
+ Tiny, conversational, corrective, and mechanical turns stay lean. The
+ raw-intent-bridge is optional: use it explicitly when Farrice wants to inspect
+ or force the compiled packet, but apply the intent adapter automatically when he
+diff --git a/Users/farricecain/.codex/skills/autopilot/SKILL.md b/Users/farricecain/.codex/skills/autopilot/SKILL.md
+--- a/Users/farricecain/.codex/skills/autopilot/SKILL.md
++++ b/Users/farricecain/.codex/skills/autopilot/SKILL.md
+@@ -69,5 +69,13 @@ invocation for inspecting or forcing the compiled packet. Use one senior pushback at a real fork. Evidence
+ changes the recommendation; separate proof states, reconcile support
+ inputs into one verdict, and scale the workflow depth down for tiny or
+ mechanical work.
++
++Use the launchpad v3 inquiry decision from the canonical contract. Create and
++taste-led exploration may proceed without evidence ceremony. Analyze stable or
++current claims only when authoritative evidence can change the decision. Probe
++buyer behavior and complex-system uncertainty instead of presenting articles as
++validation. Execute clear production requests under existing claim, cost,
++privacy, permission, and external-action boundaries. Paid research and buyer
++contact stop at an escalation brief until explicitly approved.
+ 
+ ## Execution Bias Bridge

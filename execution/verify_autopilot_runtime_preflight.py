@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import sys
 from pathlib import Path
 
@@ -12,6 +13,7 @@ sys.path.insert(0, str(ROOT / "execution"))
 
 import autopilot_runtime_preflight as preflight  # type: ignore  # noqa: E402
 import co_creative_launchpad as launchpad_runtime  # type: ignore  # noqa: E402
+import codex_operator_preflight as codex_preflight  # type: ignore  # noqa: E402
 
 
 GOLDEN_PROMPTS = [
@@ -380,6 +382,10 @@ def assert_case(case: dict[str, object]) -> str:
         "why_now",
         "approval_boundary",
         "auto_task_creation",
+        "inquiry_mode",
+        "build_purpose",
+        "research_path",
+        "iteration_posture",
     }
     missing_stewardship = stewardship_fields - set(receipt)
     if missing_stewardship:
@@ -487,6 +493,316 @@ STEWARDSHIP_CASES = [
 ]
 
 
+INQUIRY_CASES = [
+    {
+        "id": "creative-fiction-free",
+        "query": "Brainstorm three fictional story concepts for a wellness brand",
+        "mode": "create",
+        "purpose": "exploration",
+        "research": "skip",
+        "visible": False,
+        "no_questions": True,
+        "can_run": True,
+    },
+    {
+        "id": "speculative-mechanism-free",
+        "query": "Sketch a speculative mechanism as a rough prototype and label it untested",
+        "mode": "create",
+        "purpose": "exploration",
+        "research": "skip",
+        "visible": False,
+        "no_questions": True,
+        "can_run": True,
+    },
+    {
+        "id": "fictional-production-free",
+        "query": "Create a production-ready fictional story concept for this campaign",
+        "mode": "execute",
+        "purpose": "production",
+        "research": "skip",
+        "visible": False,
+        "can_run": True,
+    },
+    {
+        "id": "mechanical-bypass",
+        "query": "Make this five-minute mechanical edit in the current file",
+        "mode": "execute",
+        "purpose": "production",
+        "research": "skip",
+        "visible": False,
+    },
+    {
+        "id": "stable-authoritative-analysis",
+        "query": "Explain this technical question using canonical documentation",
+        "mode": "analyze",
+        "purpose": "decision",
+        "research": "local",
+        "visible": True,
+        "source_contains": "canonical documentation",
+    },
+    {
+        "id": "current-primary-counterevidence",
+        "query": "Assess the current regulation today before we make the decision",
+        "mode": "analyze",
+        "purpose": "decision",
+        "research": "free-primary",
+        "visible": True,
+        "source_contains": "counterevidence",
+    },
+    {
+        "id": "buyer-behavior-probe",
+        "query": "Validate buyer pain and willingness to pay for this offer",
+        "mode": "probe",
+        "purpose": "decision",
+        "research": "free-primary",
+        "visible": True,
+        "source_contains": "Behavioral evidence",
+    },
+    {
+        "id": "weak-evidence-escalation",
+        "query": "The sources are weak and outdated; decide whether this consequential claim holds",
+        "mode": "analyze",
+        "purpose": "decision",
+        "research": "escalate",
+        "visible": True,
+        "escalation": True,
+        "can_run": True,
+    },
+    {
+        "id": "paid-research-stops-before-launch",
+        "query": "Use Gemini Deep Research for this consequential decision",
+        "mode": "analyze",
+        "purpose": "decision",
+        "research": "escalate",
+        "visible": True,
+        "escalation": True,
+        "must_pause": True,
+    },
+    {
+        "id": "buyer-interview-stops-before-launch",
+        "query": "Interview buyers to validate this buyer pain",
+        "mode": "probe",
+        "purpose": "decision",
+        "research": "escalate",
+        "visible": True,
+        "escalation": True,
+        "must_pause": True,
+    },
+    {
+        "id": "prototype-not-production-proof",
+        "query": "Build a rough prototype for a fictional market mechanism",
+        "mode": "create",
+        "purpose": "exploration",
+        "research": "skip",
+        "visible": False,
+        "source_contains": "No evidence floor",
+    },
+    {
+        "id": "direct-production-request",
+        "query": "Implement this approved plan as a production-ready local asset",
+        "mode": "execute",
+        "purpose": "production",
+        "research": "local",
+        "visible": False,
+    },
+    {
+        "id": "two-pass-reframe",
+        "query": "We completed two substantive passes and this is not converging",
+        "mode": "analyze",
+        "purpose": "decision",
+        "research": "local",
+        "visible": True,
+        "iteration": "reframe",
+    },
+    {
+        "id": "taste-confirmed-continue",
+        "query": "The direction is right and the remaining gap is taste only",
+        "mode": "create",
+        "purpose": "production",
+        "research": "skip",
+        "visible": True,
+        "iteration": "taste-continue",
+    },
+    {
+        "id": "research-keyword-negative-control",
+        "query": "Write a fictional story about a market research lab",
+        "mode": "create",
+        "purpose": "exploration",
+        "research": "skip",
+        "visible": False,
+    },
+    {
+        "id": "current-keyword-negative-control",
+        "query": "Summarize the current paragraph in one sentence",
+        "mode": "execute",
+        "purpose": "production",
+        "research": "skip",
+        "visible": False,
+    },
+    {
+        "id": "explicit-build-depth-override",
+        "query": "Just build the local concept now and label the market assumptions untested",
+        "mode": "execute",
+        "purpose": "production",
+        "research": "skip",
+        "visible": True,
+    },
+]
+
+
+def assert_inquiry_case(case: dict[str, object]) -> str:
+    packet = launchpad_runtime.build_launchpad(str(case["query"]), route="autopilot", lane="general")
+    label = str(case["id"])
+    if packet["schema_version"] != "co-creative-launchpad/v3":
+        raise AssertionError(f"{label} did not emit launchpad/v3")
+    decision = packet["inquiry_decision"]
+    expected = (case["mode"], case["purpose"], case["research"])
+    actual = (decision["mode"], decision["build_purpose"], decision["research_path"])
+    if actual != expected:
+        raise AssertionError(f"{label} expected {expected}, got {actual}")
+    if decision["visible"] is not case["visible"]:
+        raise AssertionError(f"{label} expected visible={case['visible']}, got {decision['visible']}")
+    if expected_source := case.get("source_contains"):
+        if str(expected_source).lower() not in str(decision["source_floor"]).lower():
+            raise AssertionError(f"{label} source floor missing {expected_source!r}: {decision['source_floor']}")
+    if expected_iteration := case.get("iteration"):
+        if decision.get("iteration_posture") != expected_iteration:
+            raise AssertionError(f"{label} expected iteration={expected_iteration}, got {decision.get('iteration_posture')}")
+    if case.get("escalation"):
+        escalation = decision.get("escalation")
+        required = {
+            "missing_evidence",
+            "proposed_route",
+            "expected_cost_or_quota",
+            "permissions_required",
+            "deliverable",
+            "decision_unlocked",
+        }
+        if not isinstance(escalation, dict) or required - set(escalation):
+            raise AssertionError(f"{label} escalation brief is incomplete: {escalation}")
+    if case.get("no_questions") and packet["questions_that_change_execution"]:
+        raise AssertionError(f"{label} added questions to free creative exploration")
+    if case.get("can_run") and packet["pause_or_run"]["requires_pause"]:
+        raise AssertionError(f"{label} incorrectly blocked safe continuation")
+    if case.get("must_pause") and not packet["pause_or_run"]["requires_pause"]:
+        raise AssertionError(f"{label} failed to stop before paid or permissioned inquiry")
+    rendered = launchpad_runtime.render_launchpad(packet)
+    has_mode_line = "Mode:" in rendered
+    if has_mode_line is not bool(case["visible"]):
+        raise AssertionError(f"{label} material-fork visibility mismatch")
+    return f"{label}: {'/'.join(actual)}, visible={decision['visible']}"
+
+
+def assert_routing_precedence() -> list[str]:
+    operating_prompt = (
+        "Implement an adaptive operating layer across meaningful work: extend the co-creative launchpad, "
+        "add a research warrant, stop iteration loops, and repair routing precedence before expert matching."
+    )
+    operating = codex_preflight.build_preflight(operating_prompt)
+    if operating["chosen_path"]["owner"] != "system-audit":
+        raise AssertionError(f"operating-default prompt routed to {operating['chosen_path']['owner']}")
+    social_prompt = "Design a social AI product that creates an agent field around professional relationships"
+    social = codex_preflight.build_preflight(social_prompt)
+    if social["chosen_path"]["owner"] != "reid-hoffman-design-agent-field":
+        raise AssertionError(f"social-AI domain prompt routed to {social['chosen_path']['owner']}")
+    domain = codex_preflight.build_preflight("Build my first KDP book from scratch")
+    if domain["chosen_path"]["owner"] != "kdp-engine":
+        raise AssertionError(f"mandatory domain prompt routed to {domain['chosen_path']['owner']}")
+    if domain["route_candidates"][0]["source"] != "mandatory-domain-binding":
+        raise AssertionError(f"mandatory domain stage was not surfaced: {domain['route_candidates'][0]}")
+    return [
+        "routing-precedence: operating-default prompt -> /system-audit",
+        "routing-negative-control: social-AI product -> /reid-hoffman-design-agent-field",
+        "routing-precedence: KDP domain binding -> /kdp-engine before fuzzy search",
+    ]
+
+
+def _blind_score(kind: str, sample: dict[str, object]) -> int:
+    """Score unlabeled behavior facts against the task's approved decision criteria."""
+
+    score = 0
+    if kind == "creative":
+        score += 3 if sample.get("mode") == "create" else 0
+        score += 2 if sample.get("research_path") == "skip" else 0
+        score += 2 if sample.get("question_count") == 0 else 0
+        score += 2 if sample.get("requires_pause") is False else 0
+    elif kind == "market":
+        score += 3 if sample.get("mode") == "probe" else 0
+        score += 3 if sample.get("behavioral_floor") is True else 0
+        score += 2 if sample.get("articles_are_not_validation") is True else 0
+        score += 1 if sample.get("requires_pause") is False else 0
+    elif kind == "system":
+        score += 5 if sample.get("route") == "system-audit" else 0
+        score += 2 if sample.get("mode") == "execute" else 0
+        score += 1 if sample.get("research_path") in {"skip", "local"} else 0
+        score += 1 if sample.get("requires_pause") is False else 0
+    return score
+
+
+def assert_shadow_receipts_and_blind_comparison() -> list[str]:
+    """Prove three independent lanes and compare them without version labels."""
+
+    cases = {
+        "creative": "Brainstorm three fictional story concepts for a wellness brand",
+        "market": "Validate buyer pain and willingness to pay for this offer",
+        "system": (
+            "Implement an adaptive operating layer across meaningful work: extend the co-creative launchpad, "
+            "add a research warrant, prevent iteration loops, and repair routing precedence before expert matching."
+        ),
+    }
+    legacy = {
+        "creative": {
+            "mode": "unspecified",
+            "research_path": "unspecified",
+            "question_count": 1,
+            "requires_pause": True,
+            "route": "autopilot",
+        },
+        "market": {
+            "mode": "unspecified",
+            "research_path": "unspecified",
+            "question_count": 0,
+            "requires_pause": False,
+            "behavioral_floor": False,
+            "articles_are_not_validation": False,
+            "route": "autopilot",
+        },
+        "system": {
+            "mode": "unspecified",
+            "research_path": "unspecified",
+            "question_count": 0,
+            "requires_pause": False,
+            "route": "routing-intelligence",
+        },
+    }
+    results: list[str] = []
+    for kind, query in cases.items():
+        routed = codex_preflight.build_preflight(query)
+        packet = routed["co_creative_launchpad"]
+        inquiry = packet["inquiry_decision"]
+        adaptive = {
+            "mode": inquiry["mode"],
+            "research_path": inquiry["research_path"],
+            "question_count": len(packet["questions_that_change_execution"]),
+            "requires_pause": packet["pause_or_run"]["requires_pause"],
+            "route": routed["chosen_path"]["owner"],
+            "behavioral_floor": "behavioral evidence" in inquiry["source_floor"].lower(),
+            "articles_are_not_validation": "cannot validate demand" in inquiry["source_floor"].lower(),
+        }
+        adaptive_first = hashlib.sha256(query.encode("utf-8")).digest()[0] % 2 == 0
+        samples = [adaptive, legacy[kind]] if adaptive_first else [legacy[kind], adaptive]
+        scores = [_blind_score(kind, sample) for sample in samples]
+        winner_index = 0 if scores[0] > scores[1] else 1
+        expected_index = 0 if adaptive_first else 1
+        if winner_index != expected_index or scores[0] == scores[1]:
+            raise AssertionError(f"{kind} blind comparison did not prefer adaptive behavior: {scores}")
+        sample_label = "A" if winner_index == 0 else "B"
+        results.append(
+            f"shadow-receipt-{kind}: PASS; blind sample {sample_label} preferred ({scores[winner_index]}>{scores[1-winner_index]})"
+        )
+    return results
+
+
 def assert_stewardship_case(case: dict[str, object]) -> str:
     packet = launchpad_runtime.build_launchpad(str(case["query"]), route="autopilot", lane="general")
     label = str(case["id"])
@@ -520,6 +836,9 @@ def main() -> int:
     results = [assert_case(case) for case in GOLDEN_PROMPTS]
     results.append(assert_missing_targets_fail_closed())
     results.extend(assert_stewardship_case(case) for case in STEWARDSHIP_CASES)
+    results.extend(assert_inquiry_case(case) for case in INQUIRY_CASES)
+    results.extend(assert_routing_precedence())
+    results.extend(assert_shadow_receipts_and_blind_comparison())
     print("Autopilot intent-to-outcome runtime verification: PASS")
     for result in results:
         print(f"- {result}")

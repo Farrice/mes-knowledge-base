@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-09-03 · adaptive-sensemaking-build-depth · Evidence pressure and production depth were being conflated, causing premature builds, unnecessary questions, and false certainty
 - 2026-09-02 · five-reference-jen-design-systems · turn five visually distinct social reference packs into repeatable Jen design systems without flattening them into one brand template
 - 2026-09-02 · social-content-studio-failed-promotion-postmortem · A source-grounded content command passes structural checks but adds little unique value, crosses its owner's authorship boundary, and produces generic pilot output.
 - 2026-09-01 · connected-mood-board-front-door-orchestrator · A mood-board front door exists, but generic brief routes outrank it and its text-only output never composes the reference, taste, visual-production, proving-surface, and downstream capabilities already built.

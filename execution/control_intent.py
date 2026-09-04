@@ -249,6 +249,45 @@ REPEATABILITY_TERMS = (
     "golden sample",
 )
 
+# High-confidence operating-default intent must be classified before generic
+# expert matching. These compounds describe how Codex should decide and work
+# across tasks; they are not ordinary uses of words such as "system" or
+# "default" inside a content deliverable.
+OPERATING_ALIGNMENT_CONTEXT_TERMS = (
+    "adaptive operating layer",
+    "operating default",
+    "operating defaults",
+    "how we work together",
+    "across meaningful work",
+    "co-creative launchpad",
+    "build depth",
+    "build-depth",
+    "research warrant",
+    "iteration policy",
+    "iteration loops",
+    "control-plane intent",
+    "routing precedence",
+    "before blindly suggesting",
+    "before blindly building",
+    "evidence into a universal gate",
+    "preserve creative range",
+    "safe-task false blocks",
+)
+
+OPERATING_ALIGNMENT_CHANGE_TERMS = (
+    "implement",
+    "extend",
+    "upgrade",
+    "repair",
+    "change",
+    "make this a default",
+    "create a step",
+    "create a safeguard",
+    "enforce",
+    "apply these rules",
+    "route to",
+)
+
 
 def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.lower()).strip()
@@ -411,6 +450,21 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     action_hits = _word_hits(q, SYSTEM_ACTION_TERMS)
     content_context = bool(_word_hits(q, CONTENT_DOMAIN_TERMS))
     repeatability_hits = _hits(q, REPEATABILITY_TERMS)
+    operating_alignment_hits = _hits(q, OPERATING_ALIGNMENT_CONTEXT_TERMS)
+    operating_alignment_change_hits = _hits(q, OPERATING_ALIGNMENT_CHANGE_TERMS)
+    direct_content_artifact = bool(
+        re.search(
+            r"\b(write|draft|create|design|rewrite|produce)\b[^.!?]{0,80}"
+            r"\b(post|email|copy|headline|reel|script|newsletter|article|carousel|landing page)\b",
+            q,
+        )
+    )
+    operating_alignment_match = (
+        len(set(operating_alignment_hits)) >= 2
+        and bool(operating_alignment_change_hits)
+        and not direct_content_artifact
+        and not explicit_workflow_invoke
+    )
     # A repair/status review needs actual control-surface evidence. Without
     # this guard, ordinary capability requests such as "apply the overlay,
     # show what changed, do not promote" look like failed system repairs.
@@ -421,6 +475,15 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         and not content_context
         and (bool(anchor_hits or surface_hits) or bare_failed_repair_complaint)
     )
+
+    if operating_alignment_match:
+        return {
+            "route": "system-audit",
+            "lane": "system-failure",
+            "reason": "Cross-task operating-default design belongs to /system-audit before domain or expert matching.",
+            "evidence": (operating_alignment_hits + operating_alignment_change_hits)[:8],
+            "confidence": 97,
+        }
 
     embedded_system_repair_plan = bool(
         repeatability_hits

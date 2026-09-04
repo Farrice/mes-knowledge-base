@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT / "execution") not in sys.path:
     sys.path.insert(0, str(ROOT / "execution"))
 
-from co_creative_launchpad import build_launchpad  # noqa: E402
+from co_creative_launchpad import build_launchpad, render_inquiry_signal  # noqa: E402
 from command_aliases import resolve_explicit_command_alias  # noqa: E402
 from control_intent import classify_control_intent  # noqa: E402
 from workflow_router import CONTROL_ROUTE_KEYWORDS, search_workflows  # noqa: E402
@@ -45,6 +45,8 @@ RISK_TERMS = {
     "global scope": ["~/.codex", "global codex", "codex antigravity", "/users/farricecain/codex antigravity"],
     "paid or quota-heavy tool": [
         "paid api",
+        "paid research",
+        "paid provider",
         "paid tool",
         "paid tools",
         "quota-heavy",
@@ -59,7 +61,10 @@ RISK_TERMS = {
         "deep research api",
         "gemini deep research",
         "perplexity research",
+        "tavily",
+        "apify",
     ],
+    "permissioned inquiry": ["contact buyers", "interview buyers", "buyer interview", "external interview"],
     "real subagents": ["spawn subagent", "real subagent", "parallel agents", "delegate to agents"],
 }
 
@@ -81,6 +86,7 @@ STOP_CONDITIONS = [
     "destructive cleanup or broad delete/archive/reset",
     "global ~/.codex or Codex Antigravity mutation",
     "paid or quota-heavy tool use without cost-gate approval",
+    "buyer interview or external market interaction without explicit permission",
     "real subagent edits or further subagent spawning without explicit authorization",
 ]
 
@@ -327,12 +333,13 @@ def route_candidates(intent: str, top_n: int = 5) -> list[dict[str, Any]]:
         route = wf["name"]
         if route in seen:
             continue
+        binding_signal = str(wf.get("binding_signal") or "")
         candidates.append(
             {
                 "route": route,
                 "score": score,
-                "source": "workflow-router",
-                "matched": "",
+                "source": "mandatory-domain-binding" if binding_signal else "workflow-router",
+                "matched": binding_signal,
                 "description": wf["description"],
             }
         )
@@ -723,6 +730,10 @@ def build_preflight(intent: str) -> dict[str, Any]:
             "why_now": launchpad["why_now"],
             "approval_boundary": launchpad["approval_boundary"],
             "auto_task_creation": False,
+            "inquiry_mode": launchpad["inquiry_decision"]["mode"],
+            "build_purpose": launchpad["inquiry_decision"]["build_purpose"],
+            "research_path": launchpad["inquiry_decision"]["research_path"],
+            "iteration_posture": launchpad["inquiry_decision"].get("iteration_posture", "continue"),
         },
     }
     return payload
@@ -745,6 +756,9 @@ def render_plain(payload: dict[str, Any]) -> str:
         f"- What good looks like: {payload['co_creative_launchpad']['success_standard']}",
         f"- Questions that change execution: {', '.join(payload['co_creative_launchpad']['questions_that_change_execution']) or 'none'}",
     ]
+    inquiry_signal = render_inquiry_signal(payload["co_creative_launchpad"]["inquiry_decision"])
+    if inquiry_signal:
+        lines.append(f"- {inquiry_signal}")
     capability = payload["co_creative_launchpad"]["capability_move"]
     if capability.get("visible"):
         container = payload["co_creative_launchpad"]["container_decision"]

@@ -21,6 +21,26 @@ and the next action.
    ledger.
 8. The closeout ends with one next action, not a menu of possible systems.
 
+## Adaptive Sensemaking Companion (Local Advisory Default)
+
+Every meaningful launchpad packet carries one advisory `inquiry_decision`:
+`create`, `analyze`, `probe`, or `execute`. It also names whether the build is
+for exploration, decision, or production and whether research should be
+skipped, remain local, use free primary sources, or stop at an escalation
+brief. This is context-dependent decision support, not a new command, score,
+questionnaire, proof tier, or blocking runtime.
+
+The operating principle is: create freely, research selectively, probe human
+and complex-system uncertainty cheaply, and match production depth to purpose.
+Existing hard boundaries stay action- or claim-local. An exploratory prototype
+must not be described as production readiness or market proof, but lack of
+market proof must not prevent a labeled creative prototype from being made.
+
+After two visible substantive revisions without convergence, preserve accepted
+elements and reframe the gap before revising again. A confirmed taste-only gap
+continues normally. When reliable conversation state is unavailable, do not
+infer a revision count.
+
 ## Adaptive Judgment Floor
 
 This is persistent Codex behavior for meaningful raw, strategic, research,
@@ -107,6 +127,12 @@ conversational, diagnostic, corrective, or mechanical turns remain unpadded.
 
 ## Meta-Intent Routing
 
+Routing precedence is: explicit route lock, control/meta-intent owner,
+mandatory domain binding, then general workflow search. Cross-task requests to
+change how Codex researches, builds, iterates, or chooses depth belong to
+`/system-audit`; ordinary product and content prompts remain eligible for their
+native domain owners.
+
 | Meta intent | Owner | Support gates |
 |---|---|---|
 | operating-alignment | `/system-audit` | `/autopilot`, `/virtuoso`, `/expert-composition-governor`, `/routing-intelligence`, `/health-check`, `/repeatability-spine`, `/self-evolve` |
@@ -136,6 +162,10 @@ Every meaningful operating-alignment run should expose:
 - capability_move
 - why_now
 - approval_boundary
+- inquiry_mode
+- build_purpose
+- research_path
+- iteration_posture
 - verifier_results
 - feedback_hook
 

@@ -109,6 +109,22 @@ GOLDEN: list[tuple[str, str]] = [
     ),
     ("The hook repair is still broken; explain why nothing changed", "system-audit"),
     ("Repair Autopilot so it never routes to missing or obsolete runtimes.", "system-audit"),
+    (
+        "Implement an adaptive operating layer across meaningful work: extend the co-creative launchpad, "
+        "add a research warrant, stop iteration loops, and repair routing precedence before expert matching.",
+        "system-audit",
+    ),
+    (
+        "Create a safeguard for how we work together so we ask systems questions before blindly suggesting "
+        "and building full assets, preserve creative range, and stop iteration loops.",
+        "system-audit",
+    ),
+    # Domain-owner preservation: social-AI product architecture is not a
+    # control-plane request merely because it contains "AI", "agent", or "design".
+    (
+        "Design a social AI product that creates an agent field around professional relationships",
+        "",
+    ),
     # ---- MUST fire: repeatability lane ----
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
     # ---- Must NOT fire: explicit workflow invocation + deliverable mission ----

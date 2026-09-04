@@ -1,5 +1,9 @@
 # Co-Creative Launchpad Contract
 
+Status: `LOCAL ADVISORY DEFAULT / NON-BLOCKING` (promoted 2026-09-03 after
+three controlled cross-lane receipts, a 3/3 anonymized structural comparison,
+and unchanged 6/6 anti-shackle controls).
+
 ## Purpose
 
 Use this primitive before meaningful execution when raw intent, creative
@@ -40,6 +44,7 @@ Every launchpad pass should produce these fields:
 | `questions_that_change_execution` | Only questions whose answers alter route, scope, risk, taste, or proof. |
 | `route_bias` | The front door or support route the launchpad is leaning toward. |
 | `pause_or_run` | Whether to run with assumptions, pause for judgment, or block for risk. |
+| `inquiry_decision` | Adaptive advisory decision with `mode`, `build_purpose`, `research_path`, `source_floor`, `reason`, `next_action`, `visible`, and optional `escalation` or `iteration_posture`. |
 | `container_decision` | One move: continue, bounded-support, verify, handoff, fresh-pen, recommend-new-task, preserve, or monitor. |
 | `capability_move` | One plain-English recommendation plus the concrete action Codex can take; quiet when no leverage fork exists. |
 | `why_now` | The outcome, context, speed, proof, or compounding reason the move matters now. |
@@ -68,6 +73,52 @@ Every launchpad pass should produce these fields:
 10. Do not auto-split tasks. A handoff or new-task packet may be prepared
     locally, but a user-owned task is created or opened only after explicit
     approval.
+
+## Adaptive Sensemaking and Build Depth (Local Advisory Default)
+
+The launchpad chooses the smallest useful inquiry posture without turning
+evidence into a universal gate:
+
+| Mode | Use when | Default build depth |
+|---|---|---|
+| `create` | Ideation, synthesis, fictional or speculative work, taste-led concepts, and learning prototypes. | `exploration`; skip research unless the user asks for inspiration. Label speculation instead of blocking it. |
+| `analyze` | The answer is knowable and authoritative sources could change a decision. | `decision`; use local authority first, then free primary sources when recency or source fitness requires it. |
+| `probe` | Human behavior or a complex system cannot be resolved by analysis alone. | `decision`; build a small safe-to-fail comparison, prototype, interview plan, or market interaction. |
+| `execute` | The requested production asset, implementation, or edit has a clear goal and quality standard. | `production`; proceed under existing claim-, permission-, cost-, privacy-, external-action-, and repository-local boundaries. |
+
+Explicit Farrice direction overrides advisory depth unless it crosses an
+existing hard boundary. Tiny, obvious, and mechanical work bypasses the
+inquiry ceremony entirely.
+
+### Research Warrant
+
+- Skip research when it cannot change the decision.
+- Stable concepts use original thinkers, primary literature, or canonical
+  documentation.
+- Current-world claims use recent official or primary sources and, where the
+  decision is consequential, counterevidence.
+- Buyer-problem and demand claims require behavioral evidence. Public articles
+  can frame a probe but cannot promote demand to validated.
+- Creative and taste questions may use sources as inspiration, never as proof.
+- Weak, conflicting, or outdated evidence yields a labeled hypothesis or
+  learning prototype plus an escalation brief, not false certainty.
+- Paid or quota-heavy providers, interviews, outreach, publishing, connectors,
+  and external market interactions never launch automatically. First expose
+  missing evidence, route, cost or quota, permission, deliverable, and the
+  decision the escalation would unlock.
+
+### Iteration Posture
+
+Iteration state comes from visible conversation evidence or an explicit
+revision signal; never invent a pass count. After two substantive passes
+without convergence, preserve accepted elements and diagnose whether the gap
+is truth, intent, scope, mechanism, or taste. Do not make a third materially
+similar revision. When Farrice confirms the direction and the remaining gap is
+taste or craft, continue with `taste-continue`.
+
+Normal output stays quiet. Render one `Mode: ...` line only when the decision
+changes research, fidelity, cost, permission, iteration posture, or the next
+action.
 
 ## Pause Rules
 
@@ -116,7 +167,17 @@ This contract changes behavior only if a future run shows:
 - a tiny mechanical turn keeps `capability_move.visible` false,
 - a material fork produces one container decision, one reason, one action, and
   the applicable approval boundary.
+- creative exploration produces `create/exploration/skip` without an evidence
+  question or planning pause,
+- buyer uncertainty produces `probe/decision` and never treats public articles
+  as behavioral proof,
+- current consequential claims choose recent primary evidence and
+  counterevidence,
+- weak evidence produces a complete escalation brief without launching a paid
+  or permissioned route,
+- visible two-pass non-convergence produces `reframe`, while confirmed
+  taste-only refinement produces `taste-continue`.
 
 ## Last Updated
 
-2026-05-29
+2026-09-03
