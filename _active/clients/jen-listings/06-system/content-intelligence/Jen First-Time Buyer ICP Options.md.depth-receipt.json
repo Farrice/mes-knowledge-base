@@ -1,0 +1,20 @@
+{
+  "file": "_active/clients/jen-listings/06-system/content-intelligence/Jen First-Time Buyer ICP Options.md",
+  "overall_pass": true,
+  "overall_score": 90,
+  "depth": "deep",
+  "metrics": {
+    "total_urls": 22,
+    "unique_domains": 11,
+    "detected_depth": "deep",
+    "min_sources_expected": 15,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "100% (5/5)",
+    "hedge_ratio": "0.0 per 1000 words",
+    "min_domains_expected": 6,
+    "unique_source_urls": 22
+  },
+  "critical_issues": [],
+  "validated_at": "2026-09-03T21:50:38",
+  "gate": "research_quality_gate.py"
+}
