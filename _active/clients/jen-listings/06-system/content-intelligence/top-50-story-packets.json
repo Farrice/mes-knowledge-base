@@ -1,0 +1,4137 @@
+[
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3649149840022995324",
+    "story_id": "JEN-STORY-3649149840022995324",
+    "source_map": [
+      "JEN-SRC-3649149840022995324"
+    ],
+    "bounded_moment": "Navigating a competitive market and tight inventory wasn’t easy, but we stayed patient, strategic, and ready—and when this beauty hit the market, we acted fast and smart. we secured the home at almost $100K below list price and the keys to what will now be their dream home. 🔑🏠\n\nHelping buyers 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "Navigating a competitive market and tight inventory wasn’t easy, but we stayed patient, strategic, and ready—and when this beauty hit the market, we acted fast and smart.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 389,
+          "end": 559,
+          "text": "Navigating a competitive market and tight inventory wasn’t easy, but we stayed patient, strategic, and ready—and when this beauty hit the market, we acted fast and smart.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3649149840022995324"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [
+        {
+          "verb": "PROTECTED",
+          "action_summary": "we secured the home at almost $100K below list price and the keys to what will now be their dream home. 🔑🏠\n\nHelping buyers",
+          "client_burden_removed": null,
+          "observed_result": "🏡🎉 JUST SOLD!",
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 586,
+              "end": 708,
+              "text": "we secured the home at almost $100K below list price and the keys to what will now be their dream home. 🔑🏠\n\nHelping buyers",
+              "rule_id": "SERVICE_PROTECTED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-3649149840022995324"
+          ]
+        }
+      ],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "PROTECTED"
+      ],
+      "source_refs": [
+        "JEN-SRC-3649149840022995324"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3649149840022995324"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Navigating a competitive market and tight inventory wasn’t easy, but we stayed patient, strategic, and ready—and when this beauty hit the market, we acted fast and smart.",
+        "we secured the home at almost $100K below list price and the keys to what will now be their dream home. 🔑🏠\n\nHelping buyers",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "NEGOTIATION_DETAIL"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3491992339055886166",
+    "story_id": "JEN-STORY-3491992339055886166",
+    "source_map": [
+      "JEN-SRC-3491992339055886166"
+    ],
+    "bounded_moment": "She didn’t want to sell it just yet so we helped her find a tenant to lease it out for a year. We helped our client buy this unit as her first home early in 2022. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "She didn’t want to sell it just yet so we helped her find a tenant to lease it out for a year.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 197,
+          "end": 292,
+          "text": "She didn’t want to sell it just yet so we helped her find a tenant to lease it out for a year.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3491992339055886166"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3491992339055886166"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 294,
+          "end": 435,
+          "text": "Once they moved out, she decided to sell so they could use the equity to purchase their forever home, with all the room for the whole family.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3491992339055886166"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "She didn’t want to sell it just yet so we helped her find a tenant to lease it out for a year.",
+        "We helped our client buy this unit as her first home early in 2022.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3450723122457326635",
+    "story_id": "JEN-STORY-3450723122457326635",
+    "source_map": [
+      "JEN-SRC-3450723122457326635"
+    ],
+    "bounded_moment": "I talked to Danielle and Walter about the home buying process last year, but we didn’t get started on anything until they found out they were expecting baby #2 this year. We quickly got a home in escrow, but we found a lot of problems during the inspection so it fell through. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "I talked to Danielle and Walter about the home buying process last year, but we didn’t get started on anything until they found out they were expecting baby #2 this year.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 18,
+          "end": 188,
+          "text": "I talked to Danielle and Walter about the home buying process last year, but we didn’t get started on anything until they found out they were expecting baby #2 this year.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 321,
+          "end": 454,
+          "text": "As the due date seemed to creep up, they considered pausing the search and renting for a bit in case we didn’t find anything in time.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3450723122457326635"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3450723122457326635"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 188,
+          "end": 294,
+          "text": "We quickly got a home in escrow, but we found a lot of problems during the inspection so it fell through.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3450723122457326635"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "I talked to Danielle and Walter about the home buying process last year, but we didn’t get started on anything until they found out they were expecting baby #2 this year.",
+        "We quickly got a home in escrow, but we found a lot of problems during the inspection so it fell through.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "MINOR"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2040901388431859550",
+    "story_id": "JEN-STORY-2040901388431859550",
+    "source_map": [
+      "JEN-SRC-2040901388431859550"
+    ],
+    "bounded_moment": "Just sold our beloved Zen hideaway for more than list price with multiple offers. Although the seller is sad to let her Koi fish go, I’m sure we found amazing buyers who will love and appreciate the home as much as her.",
+    "problem": {
+      "text": "Just sold our beloved Zen hideaway for more than list price with multiple offers.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 81,
+          "text": "Just sold our beloved Zen hideaway for more than list price with multiple offers.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2040901388431859550"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2040901388431859550"
+      ]
+    },
+    "payoff": {
+      "text": "Just sold our beloved Zen hideaway for more than list price with multiple offers.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 81,
+          "text": "Just sold our beloved Zen hideaway for more than list price with multiple offers.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2040901388431859550"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Just sold our beloved Zen hideaway for more than list price with multiple offers.",
+        "Although the seller is sad to let her Koi fish go, I’m sure we found amazing buyers who will love and appreciate the home as much as her.",
+        "Just sold our beloved Zen hideaway for more than list price with multiple offers."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3078868405738949423",
+    "story_id": "JEN-STORY-3078868405738949423",
+    "source_map": [
+      "JEN-SRC-3078868405738949423"
+    ],
+    "bounded_moment": "Our client had some extra money that they wanted to invest, but didn’t know where, or how. we reviewed the HOA docs for our clients, we saw that they were already the owner-to-tenant ratio, and the HOA didn’t even know! Our client 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "Our client had some extra money that they wanted to invest, but didn’t know where, or how.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 18,
+          "end": 108,
+          "text": "Our client had some extra money that they wanted to invest, but didn’t know where, or how.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 261,
+          "end": 399,
+          "text": "But when we reviewed the HOA docs for our clients, we saw that they were already the owner-to-tenant ratio, and the HOA didn’t even know!",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3078868405738949423"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [
+        {
+          "verb": "PROTECTED",
+          "action_summary": "we reviewed the HOA docs for our clients, we saw that they were already the owner-to-tenant ratio, and the HOA didn’t even know! Our client",
+          "client_burden_removed": null,
+          "observed_result": "🏡🎉 JUST SOLD!",
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 271,
+              "end": 410,
+              "text": "we reviewed the HOA docs for our clients, we saw that they were already the owner-to-tenant ratio, and the HOA didn’t even know! Our client",
+              "rule_id": "SERVICE_PROTECTED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-3078868405738949423"
+          ]
+        }
+      ],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "PROTECTED"
+      ],
+      "source_refs": [
+        "JEN-SRC-3078868405738949423"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 203,
+          "end": 261,
+          "text": "We actually got an offer accepted on a different property.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3078868405738949423"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Our client had some extra money that they wanted to invest, but didn’t know where, or how.",
+        "we reviewed the HOA docs for our clients, we saw that they were already the owner-to-tenant ratio, and the HOA didn’t even know! Our client",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2847796387484832355",
+    "story_id": "JEN-STORY-2847796387484832355",
+    "source_map": [
+      "JEN-SRC-2847796387484832355"
+    ],
+    "bounded_moment": "With time ticking, we felt like they just couldn’t find the perfect home. I negotiated a longer escrow with a contingency Well here we are!",
+    "problem": {
+      "text": "With time ticking, we felt like they just couldn’t find the perfect home.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 286,
+          "end": 360,
+          "text": "With time ticking, we felt like they just couldn’t find the perfect home.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 360,
+          "end": 466,
+          "text": "They even rushed into one escrow… but after finding foundation issues, I did not let them buy that place.",
+          "rule_id": "PROBLEM_LIFE_TRANSITION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2847796387484832355"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [
+        {
+          "verb": "PROTECTED",
+          "action_summary": "I negotiated a longer escrow with a contingency",
+          "client_burden_removed": null,
+          "observed_result": "Well here we are!",
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 188,
+              "end": 235,
+              "text": "I negotiated a longer escrow with a contingency",
+              "rule_id": "SERVICE_PROTECTED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-2847796387484832355"
+          ]
+        }
+      ],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "PROTECTED"
+      ],
+      "source_refs": [
+        "JEN-SRC-2847796387484832355"
+      ]
+    },
+    "payoff": {
+      "text": "Well here we are!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 170,
+          "end": 187,
+          "text": "Well here we are!",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2847796387484832355"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "With time ticking, we felt like they just couldn’t find the perfect home.",
+        "I negotiated a longer escrow with a contingency",
+        "Well here we are!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "READY",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3839037178341317959",
+    "story_id": "JEN-STORY-3839037178341317959",
+    "source_map": [
+      "JEN-SRC-3839037178341317959"
+    ],
+    "bounded_moment": "Yes, multiple offers are happening again in today’s real estate market. We found a property they loved, a remodeled home with an ADU for under $1M, which is pretty hard to find in the Valley right now.",
+    "problem": {
+      "text": "Yes, multiple offers are happening again in today’s real estate market.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 331,
+          "end": 403,
+          "text": "Yes, multiple offers are happening again in today’s real estate market.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 792,
+          "end": 917,
+          "text": "Helping clients step into homeownership the smart way, without unnecessary risk, and with full confidence in their decision.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3839037178341317959"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3839037178341317959"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Yes, multiple offers are happening again in today’s real estate market.",
+        "We found a property they loved, a remodeled home with an ADU for under $1M, which is pretty hard to find in the Valley right now."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3641862223476773966",
+    "story_id": "JEN-STORY-3641862223476773966",
+    "source_map": [
+      "JEN-SRC-3641862223476773966"
+    ],
+    "bounded_moment": ") for them, but I negotiated over $115k off the original list price of the home, made sure the premium appliance package was included in the price, and also got them an additional $30k in lender credits towards closing costs, to which they ultimately used to buy down their interest rate. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3641862223476773966"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3641862223476773966"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        ") for them, but I negotiated over $115k off the original list price of the home, made sure the premium appliance package was included in the price, and also got them an additional $30k in lender credits towards closing costs, to which they ultimately used to buy down their interest rate.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "NEGOTIATION_DETAIL"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3617244710093778186",
+    "story_id": "JEN-STORY-3617244710093778186",
+    "source_map": [
+      "JEN-SRC-3617244710093778186"
+    ],
+    "bounded_moment": "), but with strategic pricing and targeted marketing, we found that perfect buyer who fell in love with all the same special details my clients adored when they first purchased. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3617244710093778186"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3617244710093778186"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "), but with strategic pricing and targeted marketing, we found that perfect buyer who fell in love with all the same special details my clients adored when they first purchased.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3510924456154042979",
+    "story_id": "JEN-STORY-3510924456154042979",
+    "source_map": [
+      "JEN-SRC-3510924456154042979"
+    ],
+    "bounded_moment": "He was referred to us and after viewing 5 homes we found him a house he loved and we closed it in 12 days, right in time for the Thanksgiving holiday. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3510924456154042979"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3510924456154042979"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "He was referred to us and after viewing 5 homes we found him a house he loved and we closed it in 12 days, right in time for the Thanksgiving holiday.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3225364273742393774",
+    "story_id": "JEN-STORY-3225364273742393774",
+    "source_map": [
+      "JEN-SRC-3225364273742393774"
+    ],
+    "bounded_moment": "I helped Gina and NJ sell their townhome a couple years ago to cash out on their equity. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3225364273742393774"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3225364273742393774"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "I helped Gina and NJ sell their townhome a couple years ago to cash out on their equity.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2886175364837876028",
+    "story_id": "JEN-STORY-2886175364837876028",
+    "source_map": [
+      "JEN-SRC-2886175364837876028"
+    ],
+    "bounded_moment": "Situated in a highly desirable pocket of Woodland Hills, our seller got multiple offers and over $150K more than she asked for. We made sure to price strategically, and maximize marketing to ensure shortest amount of marketing time and maximum profits.",
+    "problem": {
+      "text": "Situated in a highly desirable pocket of Woodland Hills, our seller got multiple offers and over $150K more than she asked for.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 127,
+          "text": "Situated in a highly desirable pocket of Woodland Hills, our seller got multiple offers and over $150K more than she asked for.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2886175364837876028"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2886175364837876028"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Situated in a highly desirable pocket of Woodland Hills, our seller got multiple offers and over $150K more than she asked for.",
+        "We made sure to price strategically, and maximize marketing to ensure shortest amount of marketing time and maximum profits."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2607586411602168802",
+    "story_id": "JEN-STORY-2607586411602168802",
+    "source_map": [
+      "JEN-SRC-2607586411602168802"
+    ],
+    "bounded_moment": "What they didn’t know was HOW MUCH equity was in there! We helped them sell it with multiple offers and for more than asking.",
+    "problem": {
+      "text": "What they didn’t know was HOW MUCH equity was in there!",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 188,
+          "end": 243,
+          "text": "What they didn’t know was HOW MUCH equity was in there!",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 243,
+          "end": 313,
+          "text": "We helped them sell it with multiple offers and for more than asking.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2607586411602168802"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2607586411602168802"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "What they didn’t know was HOW MUCH equity was in there!",
+        "We helped them sell it with multiple offers and for more than asking."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3264521951593121951",
+    "story_id": "JEN-STORY-3264521951593121951",
+    "source_map": [
+      "JEN-SRC-3264521951593121951"
+    ],
+    "bounded_moment": "I negotiated it down to. So my clients not only got the home for an amazing price, but they also got a generous seller credit 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [
+        {
+          "verb": "PROTECTED",
+          "action_summary": "I negotiated it down to. So my clients not only got the home for an amazing price, but they also got a generous seller credit",
+          "client_burden_removed": null,
+          "observed_result": "🏡🎉 JUST SOLD!",
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 257,
+              "end": 382,
+              "text": "I negotiated it down to. So my clients not only got the home for an amazing price, but they also got a generous seller credit",
+              "rule_id": "SERVICE_PROTECTED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-3264521951593121951"
+          ]
+        }
+      ],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "PROTECTED"
+      ],
+      "source_refs": [
+        "JEN-SRC-3264521951593121951"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3264521951593121951"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "I negotiated it down to. So my clients not only got the home for an amazing price, but they also got a generous seller credit",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3123695950229347652",
+    "story_id": "JEN-STORY-3123695950229347652",
+    "source_map": [
+      "JEN-SRC-3123695950229347652"
+    ],
+    "bounded_moment": "We submitted several offers that just didn’t work out. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "We submitted several offers that just didn’t work out.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 119,
+          "end": 174,
+          "text": "We submitted several offers that just didn’t work out.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3123695950229347652"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3123695950229347652"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3123695950229347652"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We submitted several offers that just didn’t work out.",
+        "We submitted several offers that just didn’t work out.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "MINOR"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2973712782253167736",
+    "story_id": "JEN-STORY-2973712782253167736",
+    "source_map": [
+      "JEN-SRC-2973712782253167736"
+    ],
+    "bounded_moment": "and guess what, today i just closed on a home i didn’t think i could ever buy on my own. in the few days before i wrote my offer, i asked my dad for a sign.",
+    "problem": {
+      "text": "and guess what, today i just closed on a home i didn’t think i could ever buy on my own.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 490,
+          "end": 579,
+          "text": "and guess what, today i just closed on a home i didn’t think i could ever buy on my own.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 581,
+          "end": 613,
+          "text": "but i didn’t really do it alone.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2973712782253167736"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2973712782253167736"
+      ]
+    },
+    "payoff": {
+      "text": "and guess what, today i just closed on a home i didn’t think i could ever buy on my own.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 490,
+          "end": 579,
+          "text": "and guess what, today i just closed on a home i didn’t think i could ever buy on my own.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2973712782253167736"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "and guess what, today i just closed on a home i didn’t think i could ever buy on my own.",
+        "in the few days before i wrote my offer, i asked my dad for a sign.",
+        "and guess what, today i just closed on a home i didn’t think i could ever buy on my own."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "READY",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2579425415830282046",
+    "story_id": "JEN-STORY-2579425415830282046",
+    "source_map": [
+      "JEN-SRC-2579425415830282046"
+    ],
+    "bounded_moment": "Our buyers didn’t want to put their first condo on the market without finding a home first. we negotiated the same on the sale of their condo. Win-win for everyone. Now our buyers",
+    "problem": {
+      "text": "Our buyers didn’t want to put their first condo on the market without finding a home first.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 91,
+          "text": "Our buyers didn’t want to put their first condo on the market without finding a home first.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2579425415830282046"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [
+        {
+          "verb": "PROTECTED",
+          "action_summary": "we negotiated the same on the sale of their condo. Win-win for everyone. Now our buyers",
+          "client_burden_removed": null,
+          "observed_result": null,
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 574,
+              "end": 661,
+              "text": "we negotiated the same on the sale of their condo. Win-win for everyone. Now our buyers",
+              "rule_id": "SERVICE_PROTECTED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-2579425415830282046"
+          ]
+        }
+      ],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "PROTECTED"
+      ],
+      "source_refs": [
+        "JEN-SRC-2579425415830282046"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Our buyers didn’t want to put their first condo on the market without finding a home first.",
+        "we negotiated the same on the sale of their condo. Win-win for everyone. Now our buyers"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "TESTIMONIAL_OR_CLIENT_QUOTE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3557337562697451549",
+    "story_id": "JEN-STORY-3557337562697451549",
+    "source_map": [
+      "JEN-SRC-3557337562697451549"
+    ],
+    "bounded_moment": "Then, just as we were nearing the finish line, the unexpected happened: the bank rejected the loan. In the end, we found the right solution, got the financing approved, and successfully closed escrow. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "Then, just as we were nearing the finish line, the unexpected happened: the bank rejected the loan.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 372,
+          "end": 472,
+          "text": "Then, just as we were nearing the finish line, the unexpected happened: the bank rejected the loan.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 474,
+          "end": 667,
+          "text": "This could have been a deal-breaker, but instead, it became an opportunity to dig deeper, think outside the box, and ensure our buyer’s dream of owning their Big Bear property didn’t slip away.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3557337562697451549"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3557337562697451549"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 931,
+          "end": 1032,
+          "text": "In the end, we found the right solution, got the financing approved, and successfully closed escrow.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3557337562697451549"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Then, just as we were nearing the finish line, the unexpected happened: the bank rejected the loan.",
+        "In the end, we found the right solution, got the financing approved, and successfully closed escrow.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3459308543220392407",
+    "story_id": "JEN-STORY-3459308543220392407",
+    "source_map": [
+      "JEN-SRC-3459308543220392407"
+    ],
+    "bounded_moment": "Worried they might not find something in time, they contacted us to help them with their next move. We made an offer and got accepted right away. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "Worried they might not find something in time, they contacted us to help them with their next move.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 161,
+          "end": 261,
+          "text": "Worried they might not find something in time, they contacted us to help them with their next move.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3459308543220392407"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3459308543220392407"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3459308543220392407"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Worried they might not find something in time, they contacted us to help them with their next move.",
+        "We made an offer and got accepted right away.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3159274087117597422",
+    "story_id": "JEN-STORY-3159274087117597422",
+    "source_map": [
+      "JEN-SRC-3159274087117597422"
+    ],
+    "bounded_moment": "Let us take the stress out of the process and help you find the perfect home. A repeat client of ours was looking to upgrade from her first property we helped her purchase last year. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "Let us take the stress out of the process and help you find the perfect home.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 762,
+          "end": 840,
+          "text": "Let us take the stress out of the process and help you find the perfect home.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3159274087117597422"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3159274087117597422"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3159274087117597422"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Let us take the stress out of the process and help you find the perfect home.",
+        "A repeat client of ours was looking to upgrade from her first property we helped her purchase last year.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3154295316392202838",
+    "story_id": "JEN-STORY-3154295316392202838",
+    "source_map": [
+      "JEN-SRC-3154295316392202838"
+    ],
+    "bounded_moment": "We contacted the listing agent and counteroffers had already gone out, so we made sure to submit a clean and strong offer that the seller couldn’t refuse. After telling us what they were looking for, we showed them 2 homes, and one was a clear winner. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "We contacted the listing agent and counteroffers had already gone out, so we made sure to submit a clean and strong offer that the seller couldn’t refuse.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 259,
+          "end": 414,
+          "text": "We contacted the listing agent and counteroffers had already gone out, so we made sure to submit a clean and strong offer that the seller couldn’t refuse.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 414,
+          "end": 490,
+          "text": "We closed in 3 weeks and couldn’t be more excited for these new homeowners!",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3154295316392202838"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3154295316392202838"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3154295316392202838"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We contacted the listing agent and counteroffers had already gone out, so we made sure to submit a clean and strong offer that the seller couldn’t refuse.",
+        "After telling us what they were looking for, we showed them 2 homes, and one was a clear winner.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3119459046023926337",
+    "story_id": "JEN-STORY-3119459046023926337",
+    "source_map": [
+      "JEN-SRC-3119459046023926337"
+    ],
+    "bounded_moment": "We contacted the agent and turns out there were no more showings and multiple offers. We made sure to structure it competitively to get our offer accepted and closed in 18 days. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "We contacted the agent and turns out there were no more showings and multiple offers.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 268,
+          "end": 354,
+          "text": "We contacted the agent and turns out there were no more showings and multiple offers.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3119459046023926337"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3119459046023926337"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 452,
+          "end": 544,
+          "text": "We made sure to structure it competitively to get our offer accepted and closed in 18 days.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3119459046023926337"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We contacted the agent and turns out there were no more showings and multiple offers.",
+        "We made sure to structure it competitively to get our offer accepted and closed in 18 days.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3054102915068471323",
+    "story_id": "JEN-STORY-3054102915068471323",
+    "source_map": [
+      "JEN-SRC-3054102915068471323"
+    ],
+    "bounded_moment": "It was stressful and scary, but a friend of theirs referred them to us and we helped them sell this home just in time, a few weeks before the foreclosure sale date! 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "It was stressful and scary, but a friend of theirs referred them to us and we helped them sell this home just in time, a few weeks before the foreclosure sale date!",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 291,
+          "end": 455,
+          "text": "It was stressful and scary, but a friend of theirs referred them to us and we helped them sell this home just in time, a few weeks before the foreclosure sale date!",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3054102915068471323"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3054102915068471323"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3054102915068471323"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "It was stressful and scary, but a friend of theirs referred them to us and we helped them sell this home just in time, a few weeks before the foreclosure sale date!",
+        "It was stressful and scary, but a friend of theirs referred them to us and we helped them sell this home just in time, a few weeks before the foreclosure sale date!",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3049963502470880178",
+    "story_id": "JEN-STORY-3049963502470880178",
+    "source_map": [
+      "JEN-SRC-3049963502470880178"
+    ],
+    "bounded_moment": "The whole family is over the moon and I couldn’t be more happier for them. I helped my buyers sell their condo in order to purchase this beautiful new home. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "The whole family is over the moon and I couldn’t be more happier for them.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 539,
+          "end": 614,
+          "text": "The whole family is over the moon and I couldn’t be more happier for them.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3049963502470880178"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3049963502470880178"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3049963502470880178"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "The whole family is over the moon and I couldn’t be more happier for them.",
+        "I helped my buyers sell their condo in order to purchase this beautiful new home.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "READY",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3047820308051420146",
+    "story_id": "JEN-STORY-3047820308051420146",
+    "source_map": [
+      "JEN-SRC-3047820308051420146"
+    ],
+    "bounded_moment": "The market was shifting, and shifting fast, and running into the holidays didn’t help either. I helped my seller purchase this home a few years ago as her first home. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": "The market was shifting, and shifting fast, and running into the holidays didn’t help either.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 269,
+          "end": 362,
+          "text": "The market was shifting, and shifting fast, and running into the holidays didn’t help either.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3047820308051420146"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3047820308051420146"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 483,
+          "end": 587,
+          "text": "We just closed on their new, bigger and better home and I am so excited for this next chapter for them!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3047820308051420146"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "The market was shifting, and shifting fast, and running into the holidays didn’t help either.",
+        "I helped my seller purchase this home a few years ago as her first home.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "MINOR"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3013057175735917028",
+    "story_id": "JEN-STORY-3013057175735917028",
+    "source_map": [
+      "JEN-SRC-3013057175735917028"
+    ],
+    "bounded_moment": "Despite the uncertainty of the current real estate market, our team can help you bring ownership of your dream home into reality. After talking to us, we helped them realize they were more ready than they thought. 🎉🏡 JUST SOLD!",
+    "problem": {
+      "text": "Despite the uncertainty of the current real estate market, our team can help you bring ownership of your dream home into reality.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 487,
+          "end": 617,
+          "text": "Despite the uncertainty of the current real estate market, our team can help you bring ownership of your dream home into reality.",
+          "rule_id": "PROBLEM_LIFE_TRANSITION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3013057175735917028"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3013057175735917028"
+      ]
+    },
+    "payoff": {
+      "text": "🎉🏡 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🎉🏡 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3013057175735917028"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Despite the uncertainty of the current real estate market, our team can help you bring ownership of your dream home into reality.",
+        "After talking to us, we helped them realize they were more ready than they thought.",
+        "🎉🏡 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2557600871964650450",
+    "story_id": "JEN-STORY-2557600871964650450",
+    "source_map": [
+      "JEN-SRC-2557600871964650450"
+    ],
+    "bounded_moment": "Not only did we get multiple offers for our sellers, but we made sure to find a solid buyer to ensure a concurrent close. We listed this property at the beginning of the week and it was in escrow before the weekend.",
+    "problem": {
+      "text": "Not only did we get multiple offers for our sellers, but we made sure to find a solid buyer to ensure a concurrent close.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 93,
+          "end": 215,
+          "text": "Not only did we get multiple offers for our sellers, but we made sure to find a solid buyer to ensure a concurrent close.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2557600871964650450"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2557600871964650450"
+      ]
+    },
+    "payoff": {
+      "text": "We listed this property at the beginning of the week and it was in escrow before the weekend.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 93,
+          "text": "We listed this property at the beginning of the week and it was in escrow before the weekend.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2557600871964650450"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Not only did we get multiple offers for our sellers, but we made sure to find a solid buyer to ensure a concurrent close.",
+        "Not only did we get multiple offers for our sellers, but we made sure to find a solid buyer to ensure a concurrent close.",
+        "We listed this property at the beginning of the week and it was in escrow before the weekend."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3629566288541297269",
+    "story_id": "JEN-STORY-3629566288541297269",
+    "source_map": [
+      "JEN-SRC-3629566288541297269"
+    ],
+    "bounded_moment": "We handled all the screening, paperwork, and made the whole process seamless for him so there was no loss in cash flow. We helped our client rent out this beautiful Woodland Hills property last year.",
+    "problem": {
+      "text": "We handled all the screening, paperwork, and made the whole process seamless for him so there was no loss in cash flow.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 517,
+          "end": 636,
+          "text": "We handled all the screening, paperwork, and made the whole process seamless for him so there was no loss in cash flow.",
+          "rule_id": "PROBLEM_LIFE_TRANSITION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3629566288541297269"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3629566288541297269"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We handled all the screening, paperwork, and made the whole process seamless for him so there was no loss in cash flow.",
+        "We helped our client rent out this beautiful Woodland Hills property last year."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2987597630923770525",
+    "story_id": "JEN-STORY-2987597630923770525",
+    "source_map": [
+      "JEN-SRC-2987597630923770525"
+    ],
+    "bounded_moment": "after showing me, i asked if he could send it to me and he said “but i don’t have your number” so i just gave it to him and thought nothing of it. and here we are now, on the other side of the country, married, and still dancing our way through this adventure called life together.",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2987597630923770525"
+      ]
+    },
+    "payoff": {
+      "text": "and here we are now, on the other side of the country, married, and still dancing our way through this adventure called life together.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 326,
+          "end": 460,
+          "text": "and here we are now, on the other side of the country, married, and still dancing our way through this adventure called life together.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2987597630923770525"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "after showing me, i asked if he could send it to me and he said “but i don’t have your number” so i just gave it to him and thought nothing of it.",
+        "and here we are now, on the other side of the country, married, and still dancing our way through this adventure called life together."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "TESTIMONIAL_OR_CLIENT_QUOTE"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2568725752072426704",
+    "story_id": "JEN-STORY-2568725752072426704",
+    "source_map": [
+      "JEN-SRC-2568725752072426704"
+    ],
+    "bounded_moment": "i didn’t tell too many people, but in march 2019 my dad got a quintuple bypass. swipe right for a collage gift my mom dug up on the garage that i made for my dad many moons ago lol",
+    "problem": {
+      "text": "i didn’t tell too many people, but in march 2019 my dad got a quintuple bypass.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 79,
+          "text": "i didn’t tell too many people, but in march 2019 my dad got a quintuple bypass.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 111,
+          "end": 175,
+          "text": "i didn’t even know a quintuple bypass even existed before that.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2568725752072426704"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2568725752072426704"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "i didn’t tell too many people, but in march 2019 my dad got a quintuple bypass.",
+        "swipe right for a collage gift my mom dug up on the garage that i made for my dad many moons ago lol"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "MINOR"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2534545795608059459",
+    "story_id": "JEN-STORY-2534545795608059459",
+    "source_map": [
+      "JEN-SRC-2534545795608059459"
+    ],
+    "bounded_moment": "just a couple months ago i learned that my last name, santulan, means “the balance” in hindi 🤯.",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2534545795608059459"
+      ]
+    },
+    "payoff": {
+      "text": "just a couple months ago i learned that my last name, santulan, means “the balance” in hindi 🤯.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 261,
+          "end": 356,
+          "text": "just a couple months ago i learned that my last name, santulan, means “the balance” in hindi 🤯.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2534545795608059459"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "just a couple months ago i learned that my last name, santulan, means “the balance” in hindi 🤯.",
+        "just a couple months ago i learned that my last name, santulan, means “the balance” in hindi 🤯."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3951404566314523771",
+    "story_id": "JEN-STORY-3951404566314523771",
+    "source_map": [
+      "JEN-SRC-3951404566314523771"
+    ],
+    "bounded_moment": "Not long after, we found a home they truly loved. To top it all off, we successfully closed escrow in just 15 days, making for a smooth and efficient transaction from start to finish.",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3951404566314523771"
+      ]
+    },
+    "payoff": {
+      "text": "To top it all off, we successfully closed escrow in just 15 days, making for a smooth and efficient transaction from start to finish.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 530,
+          "end": 663,
+          "text": "To top it all off, we successfully closed escrow in just 15 days, making for a smooth and efficient transaction from start to finish.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3951404566314523771"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Not long after, we found a home they truly loved.",
+        "To top it all off, we successfully closed escrow in just 15 days, making for a smooth and efficient transaction from start to finish."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "NEGOTIATION_DETAIL"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3876079201422233542",
+    "story_id": "JEN-STORY-3876079201422233542",
+    "source_map": [
+      "JEN-SRC-3876079201422233542"
+    ],
+    "bounded_moment": "Together, we planned the perfect timing and launched the listing right after the New Year to maximize exposure. The result?",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3876079201422233542"
+      ]
+    },
+    "payoff": {
+      "text": "The result?",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 305,
+          "end": 316,
+          "text": "The result?",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3876079201422233542"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Together, we planned the perfect timing and launched the listing right after the New Year to maximize exposure.",
+        "The result?"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3723873639940151333",
+    "story_id": "JEN-STORY-3723873639940151333",
+    "source_map": [
+      "JEN-SRC-3723873639940151333"
+    ],
+    "bounded_moment": "it wasn’t always easy. this was our very first international trip with a toddler, and i learned a lot.",
+    "problem": {
+      "text": "it wasn’t always easy.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 358,
+          "end": 381,
+          "text": "it wasn’t always easy.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3723873639940151333"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3723873639940151333"
+      ]
+    },
+    "payoff": {
+      "text": "this was our very first international trip with a toddler, and i learned a lot.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 279,
+          "end": 358,
+          "text": "this was our very first international trip with a toddler, and i learned a lot.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 620,
+          "end": 752,
+          "text": "he adjusted, he discovered, he laughed, and in the process, i learned to let go of my usual type-A plans and just be in the moment.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3723873639940151333"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "it wasn’t always easy.",
+        "this was our very first international trip with a toddler, and i learned a lot.",
+        "this was our very first international trip with a toddler, and i learned a lot."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "MINOR"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3565113204894460337",
+    "story_id": "JEN-STORY-3565113204894460337",
+    "source_map": [
+      "JEN-SRC-3565113204894460337"
+    ],
+    "bounded_moment": "Our client always believed homeownership was out of reach, thinking they wouldn’t qualify or didn’t have enough savings. Together, we found the perfect property, navigated escrow seamlessly, and secured favorable terms.",
+    "problem": {
+      "text": "Our client always believed homeownership was out of reach, thinking they wouldn’t qualify or didn’t have enough savings.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 37,
+          "end": 158,
+          "text": "Our client always believed homeownership was out of reach, thinking they wouldn’t qualify or didn’t have enough savings.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3565113204894460337"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3565113204894460337"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "Our client always believed homeownership was out of reach, thinking they wouldn’t qualify or didn’t have enough savings.",
+        "Together, we found the perfect property, navigated escrow seamlessly, and secured favorable terms."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3489708732649198334",
+    "story_id": "JEN-STORY-3489708732649198334",
+    "source_map": [
+      "JEN-SRC-3489708732649198334"
+    ],
+    "bounded_moment": "We found buyers who also just got married and ready to start their family, and also found our clients their forever home. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3489708732649198334"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3489708732649198334"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We found buyers who also just got married and ready to start their family, and also found our clients their forever home.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3469526674203337730",
+    "story_id": "JEN-STORY-3469526674203337730",
+    "source_map": [
+      "JEN-SRC-3469526674203337730"
+    ],
+    "bounded_moment": "And after viewing a few homes, we found the perfect one for him, and also negotiated it for $20k less than asking. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3469526674203337730"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3469526674203337730"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "And after viewing a few homes, we found the perfect one for him, and also negotiated it for $20k less than asking.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "NEGOTIATION_DETAIL"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3435330131071955291",
+    "story_id": "JEN-STORY-3435330131071955291",
+    "source_map": [
+      "JEN-SRC-3435330131071955291"
+    ],
+    "bounded_moment": "One of their friends, who we helped purchase last year, suggested they get in touch with our team to help them in their house hunt. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3435330131071955291"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3435330131071955291"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "One of their friends, who we helped purchase last year, suggested they get in touch with our team to help them in their house hunt.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3424612767368980571",
+    "story_id": "JEN-STORY-3424612767368980571",
+    "source_map": [
+      "JEN-SRC-3424612767368980571"
+    ],
+    "bounded_moment": "We showed them several properties over the next week and they fell in love with one. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3424612767368980571"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3424612767368980571"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We showed them several properties over the next week and they fell in love with one.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3395690948774867769",
+    "story_id": "JEN-STORY-3395690948774867769",
+    "source_map": [
+      "JEN-SRC-3395690948774867769"
+    ],
+    "bounded_moment": "However, after a couple weeks of house hunting, we found the one and we were able to negotiate a seller credit for him to BUY DOWN his rate. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3395690948774867769"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3395690948774867769"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "However, after a couple weeks of house hunting, we found the one and we were able to negotiate a seller credit for him to BUY DOWN his rate.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3309444192713236511",
+    "story_id": "JEN-STORY-3309444192713236511",
+    "source_map": [
+      "JEN-SRC-3309444192713236511"
+    ],
+    "bounded_moment": "After having multiple offers, our efforts won out and our client got the house they wanted. After a long search, we found the perfect investment property for our client, close to their primary residence.",
+    "problem": {
+      "text": "After having multiple offers, our efforts won out and our client got the house they wanted.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 169,
+          "end": 261,
+          "text": "After having multiple offers, our efforts won out and our client got the house they wanted.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3309444192713236511"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3309444192713236511"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "After having multiple offers, our efforts won out and our client got the house they wanted.",
+        "After a long search, we found the perfect investment property for our client, close to their primary residence."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-3220131489500837632",
+    "story_id": "JEN-STORY-3220131489500837632",
+    "source_map": [
+      "JEN-SRC-3220131489500837632"
+    ],
+    "bounded_moment": "We helped our seller purchase this property off market. 🏡🎉 JUST SOLD!",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-3220131489500837632"
+      ]
+    },
+    "payoff": {
+      "text": "🏡🎉 JUST SOLD!",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 13,
+          "text": "🏡🎉 JUST SOLD!",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-3220131489500837632"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "We helped our seller purchase this property off market.",
+        "🏡🎉 JUST SOLD!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2723830198585166529",
+    "story_id": "JEN-STORY-2723830198585166529",
+    "source_map": [
+      "JEN-SRC-2723830198585166529"
+    ],
+    "bounded_moment": "However we received multiple offers in the first 2 weeks. We made sure to screen them all to make sure to find a solid buyer and successfully close!",
+    "problem": {
+      "text": "However we received multiple offers in the first 2 weeks.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 598,
+          "end": 655,
+          "text": "However we received multiple offers in the first 2 weeks.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2723830198585166529"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2723830198585166529"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "However we received multiple offers in the first 2 weeks.",
+        "We made sure to screen them all to make sure to find a solid buyer and successfully close!"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2702681455695149287",
+    "story_id": "JEN-STORY-2702681455695149287",
+    "source_map": [
+      "JEN-SRC-2702681455695149287"
+    ],
+    "bounded_moment": "For a second, we started looking in areas they knew they didn’t want, just to secure something fast. In just a few weeks, we found them the perfect home, and in the neighborhood they wanted all along.",
+    "problem": {
+      "text": "For a second, we started looking in areas they knew they didn’t want, just to secure something fast.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 223,
+          "end": 324,
+          "text": "For a second, we started looking in areas they knew they didn’t want, just to secure something fast.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        },
+        {
+          "start": 425,
+          "end": 541,
+          "text": "I even negotiated almost $20k in repairs to be done by the seller, so  my clients didn’t need to take care of them.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2702681455695149287"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2702681455695149287"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "For a second, we started looking in areas they knew they didn’t want, just to secure something fast.",
+        "In just a few weeks, we found them the perfect home, and in the neighborhood they wanted all along."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "NEGOTIATION_DETAIL",
+        "MINOR"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2676499163989810265",
+    "story_id": "JEN-STORY-2676499163989810265",
+    "source_map": [
+      "JEN-SRC-2676499163989810265"
+    ],
+    "bounded_moment": "we missed some of my family who couldn’t make it, and it was a heavy and emotional few days. this past week, i learned that lola had Dutch grandparents.",
+    "problem": {
+      "text": "we missed some of my family who couldn’t make it, and it was a heavy and emotional few days.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 348,
+          "end": 440,
+          "text": "we missed some of my family who couldn’t make it, and it was a heavy and emotional few days.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2676499163989810265"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2676499163989810265"
+      ]
+    },
+    "payoff": {
+      "text": "this past week, i learned that lola had Dutch grandparents.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 59,
+          "text": "this past week, i learned that lola had Dutch grandparents.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2676499163989810265"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "we missed some of my family who couldn’t make it, and it was a heavy and emotional few days.",
+        "this past week, i learned that lola had Dutch grandparents.",
+        "this past week, i learned that lola had Dutch grandparents."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "READY",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2641886750689262500",
+    "story_id": "JEN-STORY-2641886750689262500",
+    "source_map": [
+      "JEN-SRC-2641886750689262500"
+    ],
+    "bounded_moment": "I helped them navigate through multiple offers and get them the perfect home to settle in.",
+    "problem": {
+      "text": "I helped them navigate through multiple offers and get them the perfect home to settle in.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 166,
+          "end": 256,
+          "text": "I helped them navigate through multiple offers and get them the perfect home to settle in.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2641886750689262500"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2641886750689262500"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "I helped them navigate through multiple offers and get them the perfect home to settle in.",
+        "I helped them navigate through multiple offers and get them the perfect home to settle in."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "DEIDENTIFIED",
+      "sensitivity_flags": [],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_SOURCE",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2615667200008993586",
+    "story_id": "JEN-STORY-2615667200008993586",
+    "source_map": [
+      "JEN-SRC-2615667200008993586"
+    ],
+    "bounded_moment": "I know it got a little worrisome for a second when there just wasn’t enough 5 bed homes on the market, but thanks, [handle removed] and Louis, for trusting me on this journey. But I made sure to negotiate a bit of a free rent back for them to give us time to find their forever home.",
+    "problem": {
+      "text": "I know it got a little worrisome for a second when there just wasn’t enough 5 bed homes on the market, but thanks, [handle removed] and Louis, for trusting me on this journey.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 600,
+          "end": 771,
+          "text": "I know it got a little worrisome for a second when there just wasn’t enough 5 bed homes on the market, but thanks, [handle removed] and Louis, for trusting me on this journey.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2615667200008993586"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2615667200008993586"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "I know it got a little worrisome for a second when there just wasn’t enough 5 bed homes on the market, but thanks, [handle removed] and Louis, for trusting me on this journey.",
+        "But I made sure to negotiate a bit of a free rent back for them to give us time to find their forever home."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "MINOR"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2417046636632203914",
+    "story_id": "JEN-STORY-2417046636632203914",
+    "source_map": [
+      "JEN-SRC-2417046636632203914"
+    ],
+    "bounded_moment": "After losing out on several homes, these buyers got discouraged and felt their previous agent just wasn’t fighting for them. we managed to beat out several offers on this one to get them the home",
+    "problem": {
+      "text": "After losing out on several homes, these buyers got discouraged and felt their previous agent just wasn’t fighting for them.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 0,
+          "end": 124,
+          "text": "After losing out on several homes, these buyers got discouraged and felt their previous agent just wasn’t fighting for them.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2417046636632203914"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [
+        {
+          "verb": "HANDLED",
+          "action_summary": "we managed to beat out several offers on this one to get them the home",
+          "client_burden_removed": null,
+          "observed_result": null,
+          "causal_claim_state": "NO_CAUSAL_CLAIM",
+          "evidence": [
+            {
+              "start": 239,
+              "end": 309,
+              "text": "we managed to beat out several offers on this one to get them the home",
+              "rule_id": "SERVICE_HANDLED_V2",
+              "evidence_state": "SOURCE_REPORTED"
+            }
+          ],
+          "source_refs": [
+            "JEN-SRC-2417046636632203914"
+          ]
+        }
+      ],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [
+        "HANDLED"
+      ],
+      "source_refs": [
+        "JEN-SRC-2417046636632203914"
+      ]
+    },
+    "payoff": {
+      "text": null,
+      "payoff_type": "UNRESOLVED",
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": [],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "After losing out on several homes, these buyers got discouraged and felt their previous agent just wasn’t fighting for them.",
+        "we managed to beat out several offers on this one to get them the home"
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "payoff"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "What changed that you can verify?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2230201475471008493",
+    "story_id": "JEN-STORY-2230201475471008493",
+    "source_map": [
+      "JEN-SRC-2230201475471008493"
+    ],
+    "bounded_moment": "But when I got a call today and heard the news, I didn’t want to believe it. Today I cried a different kind of tears as I learned that my favorite athlete of all time is gone.",
+    "problem": {
+      "text": "But when I got a call today and heard the news, I didn’t want to believe it.",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 223,
+          "end": 300,
+          "text": "But when I got a call today and heard the news, I didn’t want to believe it.",
+          "rule_id": "PROBLEM_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2230201475471008493"
+      ]
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2230201475471008493"
+      ]
+    },
+    "payoff": {
+      "text": "Today I cried a different kind of tears as I learned that my favorite athlete of all time is gone.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 356,
+          "end": 455,
+          "text": "Today I cried a different kind of tears as I learned that my favorite athlete of all time is gone.",
+          "rule_id": "PAYOFF_OBSERVED",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2230201475471008493"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "But when I got a call today and heard the news, I didn’t want to believe it.",
+        "Today I cried a different kind of tears as I learned that my favorite athlete of all time is gone.",
+        "Today I cried a different kind of tears as I learned that my favorite athlete of all time is gone."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": []
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "TESTIMONIAL_OR_CLIENT_QUOTE"
+      ],
+      "redactions_applied": [],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  },
+  {
+    "schema_version": "1.0",
+    "packet_id": "JEN-PACKET-2167939036134572665",
+    "story_id": "JEN-STORY-2167939036134572665",
+    "source_map": [
+      "JEN-SRC-2167939036134572665"
+    ],
+    "bounded_moment": "This property sat on the market for over 200+ day’s with another agent before we found it. Our Silverlake diamond in the rough just sold in a little over [address removed] home to buyers who are so excited to make it their home.",
+    "problem": {
+      "text": null,
+      "state": "NEEDS_SOURCE",
+      "evidence": [],
+      "source_refs": []
+    },
+    "pursuit": {
+      "what_jen_noticed": [],
+      "what_jen_handled": [],
+      "what_jen_translated": [],
+      "what_jen_protected": [],
+      "what_jen_prevented": [],
+      "what_jen_removed_from_client_plate": [],
+      "action_sequence": [],
+      "source_refs": [
+        "JEN-SRC-2167939036134572665"
+      ]
+    },
+    "payoff": {
+      "text": "Our Silverlake diamond in the rough just sold in a little over [address removed] home to buyers who are so excited to make it their home.",
+      "payoff_type": "OBSERVED_OUTCOME",
+      "state": "SOURCE_SUPPORTED",
+      "evidence": [
+        {
+          "start": 90,
+          "end": 237,
+          "text": "Our Silverlake diamond in the rough just sold in a little over [address removed] home to buyers who are so excited to make it their home.",
+          "rule_id": "PAYOFF_TRANSACTION",
+          "evidence_state": "SOURCE_REPORTED"
+        }
+      ],
+      "source_refs": [
+        "JEN-SRC-2167939036134572665"
+      ],
+      "emotional_payoff": null,
+      "unresolved_truth": "Jen confirmation required for any client feeling or causal outcome."
+    },
+    "truth_boundary": {
+      "safe_to_say": [
+        "This property sat on the market for over 200+ day’s with another agent before we found it.",
+        "Our Silverlake diamond in the rough just sold in a little over [address removed] home to buyers who are so excited to make it their home."
+      ],
+      "must_qualify": [],
+      "do_not_say": [
+        "client emotion",
+        "causal outcome",
+        "guaranteed result"
+      ],
+      "missing_facts": [
+        "problem"
+      ]
+    },
+    "privacy": {
+      "state": "NEEDS_JEN_APPROVAL",
+      "sensitivity_flags": [
+        "CLIENT_HANDLE",
+        "EXACT_ADDRESS"
+      ],
+      "redactions_applied": [
+        "CLIENT_HANDLE",
+        "EXACT_ADDRESS"
+      ],
+      "approval_reference": null
+    },
+    "continuity_opportunities": [],
+    "recommended_retrieval_question": "May we use the client-specific details in this story?",
+    "packet_state": "NEEDS_PRIVACY_REVIEW",
+    "build_state": "FINAL_CANDIDATE"
+  }
+]

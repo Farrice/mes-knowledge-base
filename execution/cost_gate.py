@@ -35,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -100,7 +101,8 @@ SERVICES = {
     # Multi-provider research router (1500+ tools, 13+ providers). Actual cost varies
     # by query complexity; Eddy's full report was $0.03. Conservative $0.10 estimate
     # for per-call gating; measured costs typically $0.001–$0.10 depending on provider.
-    "monid":                {"type": "paid", "est_usd": 0.10, "ceiling_usd": 5.00,
+    "monid":                {"type": "paid", "est_usd": 0.50, "ceiling_usd": 3.00,
+                             "auto_approve_threshold_usd": 0.50,
                              "desc": "Monid AI multi-provider research query"},
 }
 
@@ -248,13 +250,28 @@ def _cmd_check_inner(args) -> int:
     reset_today_if_needed(state)
 
     if spec["type"] == "paid":
-        est = spec["est_usd"]
+        est = args.est_cost if args.est_cost is not None else spec["est_usd"]
         ceiling = spec["ceiling_usd"]
+        threshold = spec.get("auto_approve_threshold_usd", AUTO_APPROVE_THRESHOLD_USD)
+
+        if not math.isfinite(est) or est < 0:
+            _print_denied(service, est, "estimate must be a finite non-negative number")
+            return 1
 
         # Hard ceiling check
         if est > ceiling:
             _print_denied(service, est, f"estimate ${est:.3f} exceeds per-call ceiling ${ceiling:.2f}")
             return 1
+
+        if service == "monid":
+            try:
+                from monid_client import evaluate_quote
+            except ImportError:
+                from execution.monid_client import evaluate_quote
+            monid_quote = evaluate_quote(est)
+            if monid_quote["exit_code"] == 1:
+                _print_denied(service, est, monid_quote["reason"])
+                return 1
 
         # Daily cap
         projected_day = state["today_spent_usd"] + est
@@ -264,13 +281,13 @@ def _cmd_check_inner(args) -> int:
             return 1
 
         # Auto-approve threshold
-        if est <= AUTO_APPROVE_THRESHOLD_USD:
+        if est <= threshold:
             _print_approved(service, est, state, auto=True)
             save_state(state)
             return 0
 
         # Above threshold: needs user approval
-        _print_needs_approval(service, est, state)
+        _print_needs_approval(service, est, state, threshold)
         save_state(state)
         return 2
 
@@ -341,12 +358,12 @@ def _print_approved(service: str, est: float, state: dict, auto: bool, quota_not
     print(f"\nAfter call: python3 execution/cost_gate.py log --service={service} --status=success [--actual-cost=N]")
 
 
-def _print_needs_approval(service: str, est: float, state: dict) -> None:
+def _print_needs_approval(service: str, est: float, state: dict, threshold: float) -> None:
     print("=" * 60)
     print(f"COST GATE: ⏸  USER APPROVAL NEEDED  ({service}, est=${est:.4f})")
     print("=" * 60)
     print(f"  Estimated cost: ${est:.4f}")
-    print(f"  Auto-approve threshold: ${AUTO_APPROVE_THRESHOLD_USD:.2f}")
+    print(f"  Auto-approve threshold: ${threshold:.2f}")
     print(f"  Today spent so far: ${state['today_spent_usd']:.2f} / ${DAILY_HARD_CAP_USD:.2f}")
     print(f"  Session spent so far: ${state['session_spent_usd']:.2f}")
     if state['session_spent_usd'] > SESSION_SOFT_CAP_USD:
@@ -546,7 +563,7 @@ def main() -> int:
     pc.add_argument("--duration", type=int)
     pc.add_argument("--audio", choices=["off", "on", "voice_control"])
     pc.add_argument("--est-cost", type=float, default=None, dest="est_cost",
-                    help="For fal-generic: estimated cost from the model recipe pricing table")
+                    help="Estimated USD cost when known; required for an exact Monid quote")
 
     pl = sub.add_parser("log", help="Post-flight: record actual spend")
     pl.add_argument("--service", required=True)
