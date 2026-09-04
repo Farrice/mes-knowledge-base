@@ -77,4 +77,4 @@ Only the later stages advance commercial proof. The archive supplies source mate
 
 **NEXT ACTION:** review 20 client-move examples and the top privacy queue, then promote only the evidence that survives into the first 12-asset publishing pack.
 
-Build state: `FINAL_CANDIDATE` · Acceptance: `PASS` · Generated: `2026-09-04T04:21:27Z`
+Build state: `FINAL_CANDIDATE` · Acceptance: `PASS` · Generated: `2026-09-04T04:23:31Z`

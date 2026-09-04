@@ -1820,7 +1820,7 @@ class JenArchive:
             f"Build state: `{receipt.get('build_state')}` · Acceptance: `{receipt.get('acceptance_state')}` · Generated: `{receipt.get('generated_at')}`",
             "",
         ])
-        report_path = self.curated_root / "Jen Content Intelligence Bank — Checkpoint Report.md"
+        report_path = self.curated_root / "Jen Content Intelligence Bank - Checkpoint Report.md"
         atomic_write_bytes(report_path, ("\n".join(lines)).encode())
         atomic_write_json(
             report_path.with_suffix(report_path.suffix + ".metadata.json"),
