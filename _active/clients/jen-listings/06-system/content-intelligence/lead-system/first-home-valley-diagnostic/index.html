@@ -154,13 +154,14 @@
           <button data-value="no">no</button><button data-value="yes">yes</button><button data-value="not_sure">i’m not sure</button><button data-value="prefer_not">i’d rather not answer</button>
         </div>
         <div id="consent-block" class="hidden">
-          <p><strong>Is it okay for Jen to follow up personally about this answer?</strong></p>
+          <p><strong>In a live conversation, would you want Jen to follow up about this answer?</strong></p><p class="fine">This is a private preview. Choosing below does not send Jen a request.</p>
           <div class="options" id="consent-options"><button data-value="yes">yes, a personal reply would help</button><button data-value="resource">one relevant resource only</button><button data-value="no">not now</button></div>
         </div>
       </div>
       <div id="final-state" class="hidden">
         <span class="state" id="state-label"></span>
         <p id="state-copy"></p>
+        <p><strong>Preview only. Nothing was sent to Jen.</strong> This choice does not request a reply or book a call. If you want help, start a separate message to Jen and share only the question you want to discuss. Keep personal financial details and documents out of Instagram.</p>
         <p class="fine" id="review-note"></p>
         <button class="secondary-button" id="restart">start over</button>
       </div>
@@ -198,7 +199,7 @@
       document.querySelector("#result-next").textContent = evaluation.result.next;
       const secondaryNote = document.querySelector("#secondary-note");
       if (evaluation.secondary !== "none") {
-        secondaryNote.textContent = `You also flagged: ${SECONDARY_LABELS[evaluation.secondary]}. Jen should see both pieces if you ask for help.`;
+        secondaryNote.textContent = `You also flagged: ${SECONDARY_LABELS[evaluation.secondary]}. If you later message Jen, you can choose to mention both pieces. Nothing is sent from this page.`;
         secondaryNote.classList.remove("hidden");
       }
     }
@@ -208,7 +209,7 @@
       document.querySelector("#help-choice").classList.add("hidden");
       document.querySelector("#handoff").classList.add("hidden");
       document.querySelector("#final-state").classList.remove("hidden");
-      const labels = { active_conversation: "personal reply", nurture: "keep this for later", route_out: "use the right relationship" };
+      const labels = { active_conversation: "preview: personal reply", nurture: "preview: keep this for later", route_out: "preview: use the right relationship" };
       document.querySelector("#state-label").textContent = labels[evaluation.serviceState];
       document.querySelector("#state-copy").textContent = evaluation.serviceReason;
       const reviews = {

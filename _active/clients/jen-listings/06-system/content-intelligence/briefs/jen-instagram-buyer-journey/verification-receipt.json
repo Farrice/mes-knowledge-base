@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-04",
+  "status": "REVIEW_READY_WITH_EXPLICIT_VALIDATION_LIMITS",
+  "scope": "Research, visual map, scripts, test specification, user-authorized client-local keyword-rule correction",
+  "commercial_proof": "NO_EVENT",
+  "human_tests": "NOT_RUN",
+  "live_pilot": "NOT_RUN",
+  "account_verification": "UNCONFIRMED",
+  "external_actions": [],
+  "paid_spend_usd": 0,
+  "subagents": 0,
+  "artifact_checks": {
+    "visual_map": "PASS: image inspected; legible layout",
+    "fair_housing_lint": "PASS on buyer-facing text",
+    "copy_classifier": "WARNING 2/10: quoted Thanks in measurement definition matched micdrop detector; actual isolated message/CTA blockquotes CLEAN 0/10",
+    "whole_pack_classifier": "FLAGGED 10/10: operational headings, parallel sections, quoted score definitions and punctuation. Separate actual buyer-copy inspection used; no claim whole document passed.",
+    "research_quality_gate": "FAIL 40/100; 15 URLs and 11 domains; zero critical issues. Dated platform sources and prescriptive/behavioral statements flagged. Older evidence dates and account uncertainty explicitly labeled; flags retained rather than reported green.",
+    "manual_grounding_review": "15 source uses checked; platform claims separated from behavior hypotheses; no numerical vendor conversion claims imported; no current account or traction claim.",
+    "export_guard": "PASS: Markdown with sidecar metadata and requested PNG map",
+    "git_diff_check": "PASS"
+  },
+  "tabletop_review": [
+    {
+      "scenario": "Keyword request",
+      "expected": "Deliver promised resource once; no qualification gate",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Natural DM resource request",
+      "expected": "Same resource and hours as keyword arm",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Requests delivery blocked",
+      "expected": "Honest public fallback; do not claim sent",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Poll vote or follow only",
+      "expected": "No unsolicited DM or contact record",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Buyer supplies context already",
+      "expected": "Answer it; skip repeated intake",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Specific property/showing request",
+      "expected": "Bypass diagnostic; broker procedure",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Represented or unsure buyer",
+      "expected": "General information; no service solicitation",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Sensitive data sent",
+      "expected": "Do not repeat/store; secure professional process",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Mixed blockers",
+      "expected": "No demographic inference; allow overlap",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Declines further contact",
+      "expected": "Stop; no auto-nurture",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Chooses check voluntarily",
+      "expected": "Self-service plus explicit no-transmission explanation",
+      "result": "PASS_DESIGN_REVIEW"
+    },
+    {
+      "scenario": "Wants prototype to send summary",
+      "expected": "Summary-copy feature absent in baseline; change spec supplied",
+      "result": "REQUIRES_IMPLEMENTATION"
+    },
+    {
+      "scenario": "Insufficient sample or unequal delivery",
+      "expected": "Inconclusive; no causal or efficacy winner",
+      "result": "PASS_DESIGN_REVIEW"
+    }
+  ],
+  "tabletop_limit": "Analytical review of written rules, not a runtime simulation, human-comprehension test, or conversion result.",
+  "baseline_diagnostic": "Unmodified; earlier 12/12 automated pass referenced as historical receipt, not rerun in this task.",
+  "applied_client_files": [
+    "06-system/ENGINE-V2.md",
+    "brand_context/BRAND.yaml",
+    "brand_context/voice-profile.md"
+  ],
+  "unapplied_changes": "Six-part brief contains diagnostic/architecture change specification; no prototype, Instagram, Linktree, saved reply, CRM, scheduler or automation changed.",
+  "lane_status": "Existing isolated Codex worktree used. Bootstrap encountered restricted main registry write; no registry escalation or integration attempted.",
+  "hashes": {
+    "instagram-buyer-journey.metadata.json": "776c45c2c4becdd73cbbe938397443d87bba41014ebdf416e941f4c2ee0469ec",
+    "native-scripts-and-manual-test.md": "d9d7b7a9edb96196abc5fc81e59f04cbd3740354bd45d2a7909fce3fa799ddee",
+    "journey-map.png": "0f08022a19b19e701c27b6c67ee0e621879c193aef4a808d743f2c4b7356b4f9",
+    "instagram-buyer-journey.md.depth-receipt.json": "ac1edf973e32249dc8af80c3d96c1fe42b449a5e6e408fa665c5e803a8c07927",
+    "source-ledger.json": "94516e14fac8208d41fd09ac4d56e74bd883c74f80039a0d47013c4740ddaab4",
+    "native-scripts-and-manual-test.metadata.json": "33ad18c24775b571e435effc60f349e0458155bb93242af2be5f27cb9eabffe2",
+    "instagram-buyer-journey.md": "465e92cae6edb7fb70c0980913309cebb1159a3891eb6089fc913e61b4d1e5e2"
+  },
+  "finalize": {
+    "completed": true,
+    "notion": "SKIPPED",
+    "quality_summary": "8.33 self-assessed composite; not empirical conversion proof",
+    "research_gate_still": "FAIL; not overruled by finalize summary",
+    "retained_logs": [
+      "knowledge/log.md",
+      ".agent/fair-housing-lint.jsonl"
+    ],
+    "generated_metadata": "Finalize-generated directive counters and compiled inventory restored to their clean start state; no harness changes retained."
+  },
+  "integration_scope_note": "Original task receipt. Subsequent integrated changes are verified separately in lead-system/integration-receipt.json. Original hashes and evaluations describe the source task snapshot."
+}

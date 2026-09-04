@@ -1,5 +1,7 @@
 # the 6-3-2 system, stress-tested
 
+**Historical audit snapshot:** this evidence brief predates the completed prototype and canon reconciliation. Its build-readiness and stale-canon findings describe that earlier state. Current implementation and native-first decisions are in [Integration](../../lead-system/INTEGRATION.md). Original source observations remain preserved below.
+
 > JEN · CONVERSION EVIDENCE · window: live profile + archived evidence · lens: conversion · diagnostic · proof · sources: Instagram, Linktree, buyer tools, 2,779 archived captions, system files · compiled: sep 4, 2026
 
 [VERIFIED] A live, read-only audit of Jen's Instagram-to-conversation path, a twelve-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.

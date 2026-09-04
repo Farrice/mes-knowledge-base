@@ -93,7 +93,7 @@ The monthly rhythm (added 2026-09-02; this is what Coffee & Contracts sells as "
 
 Recognition and nurture posts may end with a save, share, follow, or no ask. Proof posts may use a light invitation. Conversion posts open one clear door.
 
-The buyer door is the **First Home Valley Decision Diagnostic**, not a generic Valley file. It gives value before qualification, routes by primary blocker plus an optional secondary blocker, and offers Jen's help only after the buyer receives a useful result. The first 20–30 completed conversations stay manual. No calendar link or automated lead score appears before Jen reviews the situation.
+The buyer can request a named resource with a keyword or ask a natural question in Instagram. Jen fulfills the request and uses the current blocker plus one optional secondary blocker to shape her response. The **First Home Valley Decision Diagnostic** is optional self-guided help, not mandatory intake. Use existing context and ask only the next useful question. The first pilot remains manual, with capacity and reply hours confirmed by Jen before launch. No automatic calendar routing or lead scoring. Current decisions and observation tables: `content-intelligence/lead-system/INTEGRATION.md`.
 
 The existing saved replies remain reusable for general arrivals: an address, a "what's mine worth," a "we're looking this fall," or a "hi." A separate First Home Valley reply reflects the buyer's stated blocker, gives one next action, asks one consequential question, and offers a conversation only with permission.
 
@@ -117,11 +117,11 @@ Confirms the seats; adds these. Numbers are Gemini-sourced, mostly labelled "inf
 - **Place and buyer decisions perform different jobs:** specific Valley places and prices earn discovery and local authority. First Home Valley decision content turns that attention into self-identification and a useful next step. Neither replaces the other.
 - **"What $X buys" is the top lead format for this band:** it filters the unqualified before they cost engagement and resets expectations before the DM. Needs real comps weekly (public listing data; VERIFY).
 - **"Send this to a future…" is reach with mixed intent** unless grounded: pair it with three practical lines for a Valley buyer this year, or don't run it.
-- **Neighborhood POV reels (15–30s rapid cuts, local spots, text on screen) earn saves**, which is retargeting: the saver sees her next post. This is the drive-clip format, and why the drive matters.
+- **Neighborhood POV reels (15–30s rapid cuts, local spots, text on screen) may earn saves.** A save may inform ranking; it does not guarantee repeat exposure or constitute automatic retargeting. This is the drive-clip format, and why the drive matters.
 - **Ratio top agents use (report's source, one YouTube practitioner):** 40% awareness, 30% trust, 20% local authority, 10% hard conversion. Our 40/40/20 is close; keep convert at 20 only while she has active listings.
 - **Legibility rules for serif-over-photo:** negative space behind the type (sky, wall, out-of-focus foliage), a 10–15% dark overlay or gradient, white serif headline paired with a geometric sans for the details (Playfair with Jost or Montserrat). One idea per frame. This is now the design rule in section 6; her Canva carousel broke it by stacking bullets over a busy room.
 - **Coffee & Contracts, honestly:** $74/mo, 5,000+ members, no auto-posting, generic templates get "near-zero reach" unposted-as-is, members who win customize heavily, post 15+ times a month, and see leads at roughly three months. Members use templates for stories and carousels and original reels as the discovery engine. That's our design already, minus the subscription.
-- **Keyword-comment automation (ManyChat) is how the top accounts capture.** Jen finds keyword CTAs cheesy; we keep the street-or-number ask and the saved replies instead. Revisit only if reply volume outgrows her evenings.
+- **Keyword resource requests are eligible for testing (Farrice correction, 2026-09-04).** Compare comment HOME with a natural DM invitation using the same useful resource, fulfillment standard and buyer-outcome measures. Familiarity alone is no reason to reject a formula. Manual request fulfillment does not require automation; any automation or publishing still needs approval. See `content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md`.
 
 ## 13. Open items
 
@@ -130,7 +130,7 @@ Confirms the seats; adds these. Numbers are Gemini-sourced, mostly labelled "inf
 - Account access for scheduling and numbers (later). Until then the Monday pulse reads public numbers only (views, likes, comments); saves, reach, and follows need her Insights.
 - Confirm the current CRM owner, booking path, saved-reply installation, lender handoff, and any legacy automation before changing the public lead path.
 - Confirm three proof gaps with Jen: whether the #6 case used two qualifying incomes, whether the #3 buyer purchased alone and what Jen personally handled, and one actual self-employed or mixed-income buyer case for #2.
-- Privately test the First Home Valley diagnostic across twelve scripted journeys before any Linktree change.
+- The private diagnostic passes twelve scripted journeys. Five-person comprehension testing remains untested; no Linktree change is approved.
 - Deep-research findings to fold in: `2026-09-02-deep-research-what-works-valley-agents.md`.
 - Farrice's verdict on Tarzana · Edition 01 (canvas b76c3b1c), then plates A–E behind the cost gate.
 - Render the four Connect posts (`04-deliverables/connect-posts-01/COPY.md`) into weeks 3–6 as the Connect slot; Jen's thumbs-up on the Jen-seat lines and the "$80 million" line.

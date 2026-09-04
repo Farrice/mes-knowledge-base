@@ -2,7 +2,7 @@
 
 **First Home Valley decision brief | September 4, 2026**
 
-Status: direction approved; evidence review complete; private diagnostic prototype built. No posts, messages, automation, public links, or publishing have been produced from this brief.
+Status: locked brand and blocker routing; native-first activation selected for private preparation on September 4, 2026. Four editorial carousel drafts exist; no public posts, messages, automation or live link changes have occurred. Integration decisions: [pilot readiness](lead-system/INTEGRATION.md).
 
 Evidence review: [6-3-2 Conversion Evidence Brief](briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md)
 
@@ -14,7 +14,7 @@ I am reading 6-3-2 as Jen's selected ICPs in priority order.
 2. **#3 Solo Fresh-Start Buyer:** the trust lane.
 3. **#2 Creative-Income Buyer:** the differentiated authority test.
 
-First Home Valley stays as the public umbrella. The Valley Tradeoff Buyer remains useful as subject matter: condo versus house, payment versus life, condition versus cash, and location versus commute. It does not need to become a fourth ICP.
+Jen stays as the public SFV/Los Angeles umbrella. First Home Valley is the buyer-education and decision-support lane; Listing Launch is the property-proof lane. The Valley Tradeoff Buyer remains useful as subject matter: condo versus house, payment versus life, condition versus cash, and location versus commute. It does not need to become a fourth ICP.
 
 The three selected buyers share one thought:
 
@@ -22,13 +22,13 @@ The three selected buyers share one thought:
 
 ## Verdict
 
-Build one conversion system with three paths. The first asset should be a short **First Home Valley Decision Diagnostic**. A generic buyer guide would duplicate material that already exists in the [CFPB home-loan toolkit](https://www.consumerfinance.gov/owning-a-home/explore/home-loan-toolkit/) and [CalHFA buyer pathway](https://www.calhfa.ca.gov/homebuyer/index.htm). Jen's useful difference is interpretation: she finds the decision holding someone back and helps coordinate the next step.
+Build one conversion system with three paths. Use native resource requests and natural buyer questions as the entry. The existing **First Home Valley Decision Diagnostic** remains an optional self-guided aid. A generic buyer guide would duplicate material that already exists in the [CFPB home-loan toolkit](https://www.consumerfinance.gov/owning-a-home/explore/home-loan-toolkit/) and [CalHFA buyer pathway](https://www.calhfa.ca.gov/homebuyer/index.htm). Jen's useful difference is interpretation: she finds the decision holding someone back and helps coordinate the next step.
 
 ## Pushback before production
 
 1. Three separate brands or funnels would split Jen's identity and the learning data.
 2. A large PDF may earn downloads without revealing who wants help. The asset needs to produce a small decision and a reason to reply.
-3. Sending every responder to a calendar would create weak appointments. Jen should give value, ask five useful questions, and respond personally before offering a consultation.
+3. Sending every responder to a calendar would create weak appointments. Jen should give value, use context already shared, and ask only the next useful question before offering a consultation with permission.
 4. A conversion CTA on every post would make ordinary warmth feel engineered. Recognition, nurture, proof, and conversion posts need different endings.
 5. Early automation would freeze guesses into the system. The first 20–30 completed conversations should teach us what buyers actually say.
 
@@ -41,12 +41,12 @@ flowchart LR
     C --> G[Return later]
     D --> G
     E --> H[Light invitation]
-    F --> I[One Instagram trigger]
+    F --> I[Named resource request or natural DM]
     H --> I
-    I --> J[Useful diagnostic delivered]
-    J --> K{Primary blocker<br/>+ optional secondary}
+    I --> J[Promised resource or useful answer]
+    J --> K{Current blocker<br/>+ optional secondary when known}
     K --> L[#6 Joint decision] & M[#3 Solo support] & N[#2 Income preparation] & X[Not sure]
-    L --> O[Route-specific result]
+    L --> O[Useful next step; check optional]
     M --> O
     N --> O
     X --> O
@@ -66,7 +66,7 @@ flowchart LR
 
 ## The diagnostic
 
-The common section should take about three minutes. It routes by the decision blocking progress today, not by a fixed identity. A buyer chooses one primary blocker, may add one secondary blocker, and may choose “not sure.” The common taps capture an SFV area or commute anchor, timeline, and current stage. One optional sentence asks what feels hardest now.
+The private check has five short choices. Actual completion time remains unmeasured with people. It routes by the decision blocking progress today, not by a fixed identity. A buyer chooses one primary blocker, may add one secondary blocker, and may choose “not sure.” The common taps capture an SFV area or commute anchor, timeline, and current stage. One optional sentence asks what feels hardest now.
 
 It gives a useful result before asking for contact details. The buyer then receives a short route-specific output.
 
@@ -90,7 +90,7 @@ This route organizes income type, document history, lender questions, and prepar
 
 ## The Instagram handoff
 
-Use one memorable trigger during the first test. After the buyer requests the asset, delivery happens immediately. The diagnostic uses no more than five structured taps and one optional open response.
+Compare a keyword request for a named resource with a natural DM request for the same resource. Deliver manually within a window Jen first agrees to; do not promise instant delivery. Natural questions remain welcome. The optional diagnostic contains five structured choices and one optional open response; this list is not a mandatory DM intake sequence.
 
 1. Primary blocker: coordinating with another buyer, buying on my own, organizing nonstandard income, or not sure.
 2. Optional secondary blocker, including “none.”
@@ -99,7 +99,7 @@ Use one memorable trigger during the first test. After the buyer requests the as
 5. Stage: exploration, preparation, pre-approval, tours, or active offers.
 6. Optional: “What feels hardest right now?”
 
-The route-specific result arrives before any qualification or consultation ask. If the buyer requests Jen's help, the handoff then checks whether they are already working under a buyer-representation agreement and whether follow-up is welcome. The diagnostic answers are not asked again in DM.
+The route-specific result arrives before any qualification or consultation ask. If the buyer requests Jen's help, the handoff then checks whether they are already working under a buyer-representation agreement and whether follow-up is welcome. Use what the buyer has already chosen to share. The private prototype transmits nothing; do not imply Jen can see its answers. A voluntary return with context remains necessary.
 
 Instagram should not collect exact income, credit scores, protected-class information, bank records, tax returns, Social Security numbers, or similar documents.
 
@@ -117,9 +117,9 @@ Jun may use only documented facts. Every story candidate keeps its source-post I
 
 ## Minimum viable build
 
-1. Create one diagnostic with three short outputs.
-2. Add one Instagram trigger and saved delivery reply.
-3. Prepare the five-question conversation sequence.
+1. Preserve the existing diagnostic and its route results as optional private help.
+2. Use the native comparison note and manual delivery reply from the lead-path task.
+3. Ask one useful missing question at a time; do not replay a fixed intake sequence.
 4. Give Jen a simple review and routing protocol.
 5. Write one consultation invitation for active buyers.
 6. Keep one low-pressure nurture path for future buyers.
@@ -131,15 +131,15 @@ Defer the funnel site, video sales letter, paid ads, automated scoring, separate
 
 The record for each person is:
 
-`Post > trigger > asset delivered > diagnostic completed > qualified conversation > consultation > signed client > closing`
+`Known source > request > delivery attempt / acknowledged receipt > useful exchange > active conversation > consultation booked / held > signed client > closing > collected revenue`
 
-Reach shows whether relevant local people saw the work. Fit appears when someone recognizes their own situation. Trust appears when they disclose a real constraint or ask a consequential question. Commercial action begins with a completed diagnostic, qualified exchange, or consultation. Signed representation and closing remain separate revenue evidence.
+Reach shows whether relevant local people saw the work. Fit appears when someone recognizes their own situation. Trust appears when they disclose a real constraint or ask a consequential question. Diagnostic completion is self-service use. A resource request is a request, and a useful exchange is service evidence. Consultations, signed representation, closing and collected revenue require their own dated records. None can be inferred from an earlier stage.
 
 A qualified active conversation requires an SFV-compatible location or commute anchor, a consequential blocker, a plausible 0–12-month path, interest in Jen's help, and no conflicting representation. A credible longer-term buyer with a real Valley decision belongs in nurture. Another agent, no relevant market connection, a peer inquiry, spam, or a request for financial or legal conclusions routes out. These are service states, not financial or demographic scores.
 
 ## Test
 
-Run four fair posts per ICP, 12 in total, under comparable conditions. Use the same diagnostic, delivery method, and tracking fields.
+First run the five-person comprehension gate and, after approval, a small matched native-entry pilot. The mixed four-carousel editorial wave is not that comparison. Later, when the handoff is usable and capacity is confirmed, run four fair posts per ICP, 12 in total, under comparable conditions. Use the same diagnostic, delivery method, and tracking fields.
 
 For #6, look for consultations. For #3, look for trust and recognition of Jen's service. For #2, look for evidence that the differentiated authority lane attracts real local buyers rather than peers.
 
@@ -171,11 +171,11 @@ The main Jen content-system conductor integrates these passes. Expert count does
 
 ## Decision status
 
-Locked: First Home Valley umbrella; ICP priority 6, 3, 2; one diagnostic with three paths; value before qualification; human review before booking; separate measures for reach, fit, trust, commercial action, and revenue.
+Locked: Jen public umbrella; First Home Valley education; Listing Launch proof; ICP priority 6, 3, 2; current-blocker routing with one optional secondary; native value first; optional diagnostic; human review before booking; separate attention, service, consultation and revenue records.
 
-Still open: final asset name, Instagram trigger, delivery platform, page design, content calendar, scripts, and visuals. Automation stays parked until the manual path produces enough repeated volume to justify it.
+Selected for private preparation: keyword-resource and natural-DM entry, the same comparison note delivered in Instagram, and carousel 1 for first visual review. Still open: Jen's voice/taste verdict, reply capacity, human comprehension, final rendered images and public approval. Automation stays parked until the manual path produces enough repeated volume to justify it.
 
-The conversion audit is now complete. Booking, CRM, installed saved replies, legacy automation, and the current lender protocol remain unverified; the public Linktree and buyer utilities are verified but do not form a tracked conversation path. Before writing posts, reconcile the older ENGINE-V2/BRAND.yaml positioning, confirm the three proof gaps with Jen, and prototype the revised diagnostic privately.
+The conversion audit is now complete. Booking, CRM, installed saved replies, legacy automation, and the current lender protocol remain unverified; the public Linktree and buyer utilities are verified but do not form a tracked conversation path. Canon reconciliation and private prototyping are complete. General education drafts can proceed while case-specific proof remains open. Confirm Jen's facts before releasing the affected stories.
 
 ## Implementation artifacts
 
@@ -184,4 +184,4 @@ The conversion audit is now complete. Booking, CRM, installed saved replies, leg
 - [First Home Valley Diagnostic — Private Prototype](lead-system/First%20Home%20Valley%20Diagnostic%20-%20Private%20Prototype.md)
 - [Open the working browser prototype](lead-system/first-home-valley-diagnostic/index.html)
 
-The next gate is human evidence, not more content: collect Jen's three voice notes, watch five people complete the private diagnostic without explanation, and resolve any wording confusion before a public pilot.
+Next: review the selected carousel visually, collect the existing three proof voice notes, and run the five-person no-explanation test after recruitment approval. Those human results remain untested; they do not block unrelated draft preparation.

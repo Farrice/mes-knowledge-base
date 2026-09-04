@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-04",
+  "baseline": "1ddbe228b",
+  "posts": [
+    {
+      "post": 1,
+      "slide_count": 6,
+      "fair_housing_exit": 0,
+      "fair_housing_output": "\u2705 FAIR HOUSING LINT \u2014 PASS \u00b7 context=package \u00b7 _active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-public-copy.txt\n   no steering language \u00b7 no protected-class targeting \u00b7 no context leaks",
+      "prose_verdict": "CLEAN",
+      "prose_ai_score": 0,
+      "human_copy_gate": {
+        "hook": 7,
+        "punch": 7,
+        "voice": 7,
+        "tension": 7,
+        "buyer_language": 7,
+        "named_anchor": 7,
+        "belief": 7,
+        "proof": 7,
+        "cta": 7,
+        "anti_slop": 7,
+        "platform_fit": 7
+      },
+      "copy_gate_note": "Editorial judgment only, no live performance proof; post 3 archive approval remains pending."
+    },
+    {
+      "post": 2,
+      "slide_count": 6,
+      "fair_housing_exit": 0,
+      "fair_housing_output": "\u2705 FAIR HOUSING LINT \u2014 PASS \u00b7 context=package \u00b7 _active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-public-copy.txt\n   no steering language \u00b7 no protected-class targeting \u00b7 no context leaks",
+      "prose_verdict": "CLEAN",
+      "prose_ai_score": 0,
+      "human_copy_gate": {
+        "hook": 7,
+        "punch": 7,
+        "voice": 7,
+        "tension": 7,
+        "buyer_language": 7,
+        "named_anchor": 7,
+        "belief": 7,
+        "proof": 7,
+        "cta": 7,
+        "anti_slop": 7,
+        "platform_fit": 7
+      },
+      "copy_gate_note": "Editorial judgment only, no live performance proof; post 3 archive approval remains pending."
+    },
+    {
+      "post": 3,
+      "slide_count": 6,
+      "fair_housing_exit": 0,
+      "fair_housing_output": "\u2705 FAIR HOUSING LINT \u2014 PASS \u00b7 context=package \u00b7 _active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-public-copy.txt\n   no steering language \u00b7 no protected-class targeting \u00b7 no context leaks",
+      "prose_verdict": "CLEAN",
+      "prose_ai_score": 0,
+      "human_copy_gate": {
+        "hook": 7,
+        "punch": 7,
+        "voice": 7,
+        "tension": 7,
+        "buyer_language": 7,
+        "named_anchor": 7,
+        "belief": 7,
+        "proof": 7,
+        "cta": 7,
+        "anti_slop": 7,
+        "platform_fit": 7
+      },
+      "copy_gate_note": "Editorial judgment only, no live performance proof; post 3 archive approval remains pending."
+    },
+    {
+      "post": 4,
+      "slide_count": 6,
+      "fair_housing_exit": 0,
+      "fair_housing_output": "\u2705 FAIR HOUSING LINT \u2014 PASS \u00b7 context=package \u00b7 _active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-public-copy.txt\n   no steering language \u00b7 no protected-class targeting \u00b7 no context leaks",
+      "prose_verdict": "CLEAN",
+      "prose_ai_score": 0,
+      "human_copy_gate": {
+        "hook": 7,
+        "punch": 7,
+        "voice": 7,
+        "tension": 7,
+        "buyer_language": 7,
+        "named_anchor": 7,
+        "belief": 7,
+        "proof": 7,
+        "cta": 7,
+        "anti_slop": 7,
+        "platform_fit": 7
+      },
+      "copy_gate_note": "Editorial judgment only, no live performance proof; post 3 archive approval remains pending."
+    }
+  ],
+  "judgment_scan": "No fabricated buyer quotes, outcomes, deadlines or demographic targeting. Post 1 and 4 share a commute mechanism intentionally; separate in publishing order.",
+  "review_document_classifier": "FLAGGED from tables and operator labels; all four public copy files CLEAN",
+  "visual_export": "NOT_RENDERED",
+  "publication": "NO_EVENT",
+  "spend_usd": 0,
+  "release": "PASS FOR DRAFT REVIEW, NOT AUTO-PUBLISH",
+  "finalize": {
+    "composite": 7.0,
+    "status": "MARGINAL / Needs Improvement",
+    "reason": "Editorial self-assessment; no visual render or human voice verdict",
+    "route_warning": "Explicit user-selected Kallaway owner used for editorial packages; generic carousel route warning retained, not claimed repaired",
+    "external_sync": "Helper unexpectedly attempted Notion create; network failed; no external write succeeded"
+  },
+  "integration_scope_note": "Original task receipt. Subsequent integrated changes are verified separately in lead-system/integration-receipt.json. Original hashes and evaluations describe the source task snapshot."
+}
