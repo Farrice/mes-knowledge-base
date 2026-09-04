@@ -2,7 +2,7 @@
 
 **First Home Valley decision brief | September 4, 2026**
 
-Status: direction approved; evidence review complete; diagnostic build not started. No posts, lead magnets, messages, automation, or publishing have been produced from this brief.
+Status: direction approved; evidence review complete; private diagnostic prototype built. No posts, messages, automation, public links, or publishing have been produced from this brief.
 
 Evidence review: [6-3-2 Conversion Evidence Brief](briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md)
 
@@ -176,3 +176,12 @@ Locked: First Home Valley umbrella; ICP priority 6, 3, 2; one diagnostic with th
 Still open: final asset name, Instagram trigger, delivery platform, page design, content calendar, scripts, and visuals. Automation stays parked until the manual path produces enough repeated volume to justify it.
 
 The conversion audit is now complete. Booking, CRM, installed saved replies, legacy automation, and the current lender protocol remain unverified; the public Linktree and buyer utilities are verified but do not form a tracked conversation path. Before writing posts, reconcile the older ENGINE-V2/BRAND.yaml positioning, confirm the three proof gaps with Jen, and prototype the revised diagnostic privately.
+
+## Implementation artifacts
+
+- [Canon reconciliation](../ENGINE-V2.md) with the matching route precedence in [BRAND.yaml](../../brand_context/BRAND.yaml)
+- [Jen 6-3-2 Proof Voice Notes](lead-system/Jen%206-3-2%20Proof%20Voice%20Notes.md)
+- [First Home Valley Diagnostic — Private Prototype](lead-system/First%20Home%20Valley%20Diagnostic%20-%20Private%20Prototype.md)
+- [Open the working browser prototype](lead-system/first-home-valley-diagnostic/index.html)
+
+The next gate is human evidence, not more content: collect Jen's three voice notes, watch five people complete the private diagnostic without explanation, and resolve any wording confusion before a public pilot.

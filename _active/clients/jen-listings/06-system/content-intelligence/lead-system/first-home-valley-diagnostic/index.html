@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First Home Valley · Private Next-Step Check</title>
+  <style>
+    :root {
+      --navy: #12243a;
+      --steel: #5f7893;
+      --mist: #e9eef2;
+      --paper: #fbf8f1;
+      --ink: #17202a;
+      --white: #ffffff;
+      --success: #315f54;
+      --border: rgba(18, 36, 58, 0.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 80% 8%, rgba(95,120,147,.16), transparent 27rem),
+        var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .shell { width: min(760px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 60px; }
+    .eyebrow { color: var(--steel); font-size: .74rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h1, h2 { color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.04; }
+    h1 { margin: 12px 0 14px; font-size: clamp(2.3rem, 8vw, 4.6rem); letter-spacing: -.04em; }
+    h2 { margin: 8px 0 12px; font-size: clamp(1.8rem, 5vw, 2.7rem); letter-spacing: -.025em; }
+    p { line-height: 1.62; }
+    .lede { max-width: 38rem; color: #455463; font-size: 1.05rem; }
+    .card { margin-top: 26px; padding: clamp(22px, 5vw, 38px); background: rgba(255,255,255,.84); border: 1px solid var(--border); border-radius: 24px; box-shadow: 0 24px 70px rgba(18,36,58,.08); }
+    .notice { padding: 16px 18px; border-left: 3px solid var(--steel); background: var(--mist); color: #35485a; border-radius: 4px 14px 14px 4px; font-size: .94rem; }
+    .progress { display: flex; gap: 6px; margin-bottom: 28px; }
+    .progress i { display: block; width: 100%; height: 5px; border-radius: 20px; background: #dce3e9; }
+    .progress i.on { background: var(--steel); }
+    .question { display: none; }
+    .question.active { display: block; animation: rise .25s ease both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+    .step { color: var(--steel); font-size: .82rem; font-weight: 750; }
+    .options { display: grid; gap: 10px; margin: 24px 0; }
+    button, .option {
+      width: 100%; border: 1px solid var(--border); border-radius: 14px; padding: 15px 17px;
+      background: var(--white); color: var(--navy); text-align: left; font: inherit; font-weight: 700; cursor: pointer;
+      transition: border-color .15s ease, transform .15s ease, background .15s ease;
+    }
+    button:hover, button:focus-visible, .option:hover { border-color: var(--steel); transform: translateY(-1px); outline: none; }
+    button.selected, .option.selected { background: var(--navy); color: var(--white); border-color: var(--navy); }
+    button:disabled { cursor: not-allowed; opacity: .45; transform: none; }
+    .primary { display: inline-flex; width: auto; background: var(--navy); color: var(--white); padding: 14px 22px; justify-content: center; }
+    .secondary-button { display: inline-flex; width: auto; margin-left: 8px; background: transparent; }
+    label { display: block; margin-top: 20px; color: var(--navy); font-weight: 750; }
+    textarea {
+      width: 100%; min-height: 94px; margin-top: 9px; padding: 14px; resize: vertical;
+      border: 1px solid var(--border); border-radius: 12px; background: var(--white); color: var(--ink); font: inherit;
+    }
+    .result-box { padding: 22px; background: var(--mist); border-radius: 18px; }
+    .result-box strong { color: var(--navy); }
+    .next { margin-top: 12px; color: var(--success); font-weight: 750; }
+    .state { display: inline-block; margin: 18px 0 4px; padding: 7px 10px; background: var(--navy); color: white; border-radius: 999px; font-size: .75rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+    .fine { color: #69747e; font-size: .82rem; }
+    .hidden { display: none !important; }
+    .footer { margin-top: 24px; color: #7a858e; font-size: .78rem; text-align: center; }
+    @media (max-width: 520px) { .secondary-button { margin: 8px 0 0; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="eyebrow">First Home Valley · private next-step check</div>
+    <h1>what’s making the next step feel unclear?</h1>
+    <p class="lede">Buying your first place can feel harder when your life doesn’t fit the standard checklist. Pick what feels most true today. You’re not locking yourself into a label, and you’ll get a useful next step before I ask whether you want a reply.</p>
+
+    <section class="card" id="intro">
+      <div class="notice"><strong>Keep personal numbers private.</strong> Do not enter exact income, credit scores, debts, tax returns, bank records, Social Security numbers, or another buyer’s private financial information.</div>
+      <p>Your answers stay in this browser and disappear when the page refreshes. Nothing is sent anywhere in this private test.</p>
+      <button class="primary" id="start">start the decision check</button>
+    </section>
+
+    <section class="card hidden" id="form-card">
+      <div class="progress" aria-label="Progress"><i></i><i></i><i></i><i></i><i></i></div>
+
+      <div class="question" data-step="1" data-field="primary">
+        <div class="step">1 of 5</div><h2>which part feels closest today?</h2>
+        <div class="options">
+          <button data-value="coordination">getting aligned with another person involved in the purchase</button>
+          <button data-value="solo">making the decision on my own</button>
+          <button data-value="creative">organizing freelance, self-employed, commission, or mixed income</button>
+          <button data-value="unsure">i’m not sure yet, or more than one feels true</button>
+        </div>
+      </div>
+
+      <div class="question" data-step="2" data-field="secondary">
+        <div class="step">2 of 5</div><h2>is there a second issue in the mix?</h2>
+        <div class="options">
+          <button data-value="none">no, the first answer covers it</button>
+          <button data-value="coordination">coordinating with another buyer</button>
+          <button data-value="solo">making the decision mostly on my own</button>
+          <button data-value="creative">organizing nontraditional income</button>
+          <button data-value="tradeoff">choosing between payment, property, area, or commute</button>
+          <button data-value="unsure">i’m still not sure</button>
+        </div>
+      </div>
+
+      <div class="question" data-step="3" data-field="region">
+        <div class="step">3 of 5</div><h2>where does the search need to work?</h2>
+        <div class="options">
+          <button data-value="west">west valley</button><button data-value="central">central valley</button>
+          <button data-value="east">east valley or Burbank area</button><button data-value="north">north valley</button>
+          <button data-value="nearby">Santa Clarita, Simi Valley, or nearby</button>
+          <button data-value="commute">a regular commute or weekly destination matters most</button>
+          <button data-value="flexible">anywhere in the Valley if the tradeoffs work</button>
+          <button data-value="another_la">another greater LA area</button><button data-value="outside">outside these areas</button>
+          <button data-value="unsure">not sure yet</button>
+        </div>
+      </div>
+
+      <div class="question" data-step="4" data-field="timeline">
+        <div class="step">4 of 5</div><h2>when could a purchase realistically happen?</h2>
+        <div class="options">
+          <button data-value="0_3">within 3 months</button><button data-value="3_6">3–6 months</button>
+          <button data-value="6_12">6–12 months</button><button data-value="12_plus">more than 12 months</button>
+          <button data-value="not_sure">not sure yet</button>
+        </div>
+      </div>
+
+      <div class="question" data-step="5" data-field="stage">
+        <div class="step">5 of 5</div><h2>what have you already done?</h2>
+        <div class="options">
+          <button data-value="exploring">mostly exploring</button><button data-value="preparing">organizing the plan</button>
+          <button data-value="preapproved">pre-approved with a lender</button><button data-value="touring">touring homes</button>
+          <button data-value="offers">writing or considering offers</button><button data-value="paused">paused or not sure</button>
+        </div>
+        <label for="note">optional: what feels hardest right now?</label>
+        <textarea id="note" maxlength="280" placeholder="Keep it general. No exact financial numbers or private documents."></textarea>
+        <button class="primary" id="show-result" disabled>show my next step</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="result-card">
+      <div class="eyebrow">your first useful decision</div>
+      <h2 id="result-title"></h2>
+      <div class="result-box"><p id="result-copy"></p><p class="next" id="result-next"></p><p class="fine hidden" id="secondary-note"></p></div>
+      <div id="help-choice">
+        <p><strong>Would you like Jen to help you think through the next step?</strong></p>
+        <button class="primary" data-help="yes">yes, a personal reply would help</button>
+        <button class="secondary-button" data-help="no">not right now</button>
+      </div>
+      <div id="handoff" class="hidden">
+        <p><strong>Before I offer personal real-estate help, are you currently working under a written buyer-representation agreement with another agent?</strong></p>
+        <div class="options" id="representation-options">
+          <button data-value="no">no</button><button data-value="yes">yes</button><button data-value="not_sure">i’m not sure</button><button data-value="prefer_not">i’d rather not answer</button>
+        </div>
+        <div id="consent-block" class="hidden">
+          <p><strong>Is it okay for Jen to follow up personally about this answer?</strong></p>
+          <div class="options" id="consent-options"><button data-value="yes">yes, a personal reply would help</button><button data-value="resource">one relevant resource only</button><button data-value="no">not now</button></div>
+        </div>
+      </div>
+      <div id="final-state" class="hidden">
+        <span class="state" id="state-label"></span>
+        <p id="state-copy"></p>
+        <p class="fine" id="review-note"></p>
+        <button class="secondary-button" id="restart">start over</button>
+      </div>
+    </section>
+    <div class="footer">Private decision prototype · no answers are saved or transmitted</div>
+  </main>
+
+  <script type="module">
+    import { evaluateDiagnostic, SECONDARY_LABELS } from "./decision-logic.js";
+
+    const answers = { primary: null, secondary: "none", region: null, timeline: null, stage: null, note: "", wantsHelp: null, representation: null, consent: null };
+    const intro = document.querySelector("#intro");
+    const formCard = document.querySelector("#form-card");
+    const resultCard = document.querySelector("#result-card");
+    const questions = [...document.querySelectorAll(".question")];
+    const bars = [...document.querySelectorAll(".progress i")];
+
+    function showStep(step) {
+      questions.forEach(q => q.classList.toggle("active", Number(q.dataset.step) === step));
+      bars.forEach((bar, index) => bar.classList.toggle("on", index < step));
+      if (step === 2) {
+        document.querySelectorAll('[data-step="2"] button[data-value]').forEach(button => {
+          button.classList.toggle("hidden", button.dataset.value === answers.primary);
+        });
+      }
+    }
+
+    function showResult() {
+      answers.note = document.querySelector("#note").value.trim();
+      const evaluation = evaluateDiagnostic(answers);
+      formCard.classList.add("hidden");
+      resultCard.classList.remove("hidden");
+      document.querySelector("#result-title").textContent = evaluation.result.label;
+      document.querySelector("#result-copy").textContent = evaluation.result.result;
+      document.querySelector("#result-next").textContent = evaluation.result.next;
+      const secondaryNote = document.querySelector("#secondary-note");
+      if (evaluation.secondary !== "none") {
+        secondaryNote.textContent = `You also flagged: ${SECONDARY_LABELS[evaluation.secondary]}. Jen should see both pieces if you ask for help.`;
+        secondaryNote.classList.remove("hidden");
+      }
+    }
+
+    function finish() {
+      const evaluation = evaluateDiagnostic(answers);
+      document.querySelector("#help-choice").classList.add("hidden");
+      document.querySelector("#handoff").classList.add("hidden");
+      document.querySelector("#final-state").classList.remove("hidden");
+      const labels = { active_conversation: "personal reply", nurture: "keep this for later", route_out: "use the right relationship" };
+      document.querySelector("#state-label").textContent = labels[evaluation.serviceState];
+      document.querySelector("#state-copy").textContent = evaluation.serviceReason;
+      const reviews = {
+        sensitive_data: "Please do not send exact income, credit scores, tax returns, bank records, identification numbers, or documents here. A qualified lender or adviser should collect sensitive information through a secure process.",
+        objective_criteria_redirect: "A neighborhood question needs an objective-criteria response using the buyer's priorities and neutral public sources.",
+        lender_boundary: "A financing question needs a qualified lender; Jen can help prepare the question, not decide eligibility.",
+        legal_or_title_boundary: "A title or legal question needs the proper attorney or title professional."
+      };
+      document.querySelector("#review-note").textContent = evaluation.manualFlags.map(flag => reviews[flag]).join(" ");
+    }
+
+    document.querySelector("#start").addEventListener("click", () => {
+      intro.classList.add("hidden"); formCard.classList.remove("hidden"); showStep(1);
+    });
+
+    questions.forEach(question => {
+      question.querySelectorAll("button[data-value]").forEach(button => {
+        button.addEventListener("click", () => {
+          const field = question.dataset.field;
+          if (field === "secondary" && button.dataset.value === answers.primary) return;
+          answers[field] = button.dataset.value;
+          if (Number(question.dataset.step) < 5) showStep(Number(question.dataset.step) + 1);
+          else {
+            question.querySelectorAll("button[data-value]").forEach(choice => choice.classList.remove("selected"));
+            button.classList.add("selected");
+            document.querySelector("#show-result").disabled = false;
+          }
+        });
+      });
+    });
+
+    document.querySelector("#show-result").addEventListener("click", showResult);
+
+    document.querySelectorAll("[data-help]").forEach(button => button.addEventListener("click", () => {
+      answers.wantsHelp = button.dataset.help;
+      if (answers.wantsHelp === "no") { answers.consent = "no"; finish(); return; }
+      document.querySelector("#help-choice").classList.add("hidden");
+      document.querySelector("#handoff").classList.remove("hidden");
+    }));
+
+    document.querySelectorAll("#representation-options button").forEach(button => button.addEventListener("click", () => {
+      answers.representation = button.dataset.value;
+      if (answers.representation === "yes") { answers.consent = "no"; finish(); return; }
+      document.querySelector("#representation-options").classList.add("hidden");
+      document.querySelector("#consent-block").classList.remove("hidden");
+    }));
+
+    document.querySelectorAll("#consent-options button").forEach(button => button.addEventListener("click", () => {
+      answers.consent = button.dataset.value; finish();
+    }));
+
+    document.querySelector("#restart").addEventListener("click", () => window.location.reload());
+  </script>
+</body>
+</html>

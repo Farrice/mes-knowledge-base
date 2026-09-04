@@ -58,7 +58,25 @@
       "path": "_active/clients/jen-listings/brand_context/BRAND.yaml",
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/brand_context/BRAND.yaml",
-      "role": "downstream brand routing requiring reconciliation"
+      "role": "reconciled downstream brand routing"
+    },
+    {
+      "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md",
+      "role": "voice-note proof retrieval packet"
+    },
+    {
+      "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md",
+      "role": "prototype operating and test specification"
+    },
+    {
+      "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html",
+      "role": "working private diagnostic"
     },
     {
       "path": "_active/clients/jen-listings/06-system/FUNNEL-MATH.md",

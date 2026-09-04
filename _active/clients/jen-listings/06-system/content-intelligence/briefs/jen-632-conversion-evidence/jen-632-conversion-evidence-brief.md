@@ -2,7 +2,7 @@
 
 > JEN · CONVERSION EVIDENCE · window: live profile + archived evidence · lens: conversion · diagnostic · proof · sources: Instagram, Linktree, buyer tools, 2,779 archived captions, system files · compiled: sep 4, 2026
 
-[VERIFIED] A live, read-only audit of Jen's Instagram-to-conversation path, a nine-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.
+[VERIFIED] A live, read-only audit of Jen's Instagram-to-conversation path, a twelve-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.
 
 ## the verdict
 _AUDIT COMPLETE_
@@ -14,7 +14,7 @@ The archive also does not support three equally strong 6-3-2 client stories: #6 
 
 ## what the audit found
 - END-TO-END CONVERSION PATHS: **0 verified** (No post-to-qualified-conversation-to-CRM chain is evidenced.)
-- DIAGNOSTIC STRESS TESTS: **9 journeys** (Three tests for each selected ICP, including overlap and non-fit.)
+- DIAGNOSTIC STRESS TESTS: **12 journeys** (Selected ICPs, overlaps, nurture, representation, geography, privacy, fair housing, and professional scope.)
 - #6 / #3 / #2: **1 / 1 / 0 client proofs** (Both available stories are provisional; #2 has no client case.)
 - THIS PHASE: **$0.00 spent** ([VERIFIED] No paid scrape or API call was used.)
 
@@ -40,7 +40,7 @@ Instagram → Linktree → Utilities → Context loss → Unattributed outcome
 - **OPERATING · DISTRACTING**: Linktree sprawl ([VERIFIED] Nine destinations dilute the buyer's next move.), MyBPM store first ([VERIFIED] Personal expression is on-brand, but it occupies the highest-intent link position.)
 
 ## the diagnostic passes conditionally
-_NINE BUYER JOURNEYS_
+_TWELVE BUYER JOURNEYS_
 Clean examples passed: two W-2 buyers aligning payment and commutes; a solo buyer needing decision support; and a mixed W-2/1099 buyer organizing a lender-ready question.
 
 Overlap examples exposed the flaw: siblings co-buying with variable income and a newly self-employed buyer purchasing with a W-2 partner both belong to #6 and #2. A single-choice identity branch loses material context.
@@ -75,12 +75,12 @@ Capture exact facts and permissions; do not draft around unknowns.
 ```
    touches: _active/clients/jen-listings/06-system/content-intelligence/story-bank.json
    receipt: Each selected story has a source ID, Jen-action facts, privacy state, and proof ceiling.
-3. **Prototype the manual diagnostic** — Build the five-tap flow, three micro-results, one unsure path, representation check, consent question, and Jen reply protocol.
+3. **Review the private diagnostic prototype** — The five-step interaction, four micro-results, representation check, consent choices, and Jen reply protocol are now built locally.
 ```
-Run privately through 12 scripted journeys before any public link change.
+Watch five people complete it without explanation before any public link change.
 ```
-   touches: _active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md
-   receipt: No duplicate intake, no false identity box, no sensitive-data request, and every route gives value before asking for a call.
+   touches: _active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html · _active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md
+   receipt: The deterministic test passes 12/12; human comprehension and commercial conversion remain untested.
 4. **Pilot 20–30 real conversations** — Use a manual path so buyer language and Jen's workload decide what deserves automation.
 ```
 Track source post, primary/secondary route, readiness state, consultation, correction, and later business outcome.
@@ -106,6 +106,9 @@ Commercial status is UNTESTED. Likes, views, comments, taps, polished tools, and
 - [ARCHITECTURE] Jen 6-3-2 Lead System Architecture — _active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md
 - [STORY BANK] Jen Story Bank — _active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv
 - [PROOF] Service Proof Library — _active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md
+- [INTERVIEW] Jen 6-3-2 Proof Voice Notes — _active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md
+- [PROTOTYPE] First Home Valley Diagnostic — Private Prototype — _active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md
+- [INTERACTIVE] Open the working diagnostic — _active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html
 - [PLAYBOOK] Winning Agent Playbook — _active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md
 - [DRE] Buyer representation advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html
 - [DRE] AI in California real estate advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html
@@ -130,7 +133,10 @@ Commercial status is UNTESTED. Likes, views, comments, taps, polished tools, and
 - `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md` — prior lead-path evidence
 - `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md` — conversion and content-system precedent
 - `_active/clients/jen-listings/06-system/ENGINE-V2.md` — current operating canon requiring reconciliation
-- `_active/clients/jen-listings/brand_context/BRAND.yaml` — downstream brand routing requiring reconciliation
+- `_active/clients/jen-listings/brand_context/BRAND.yaml` — reconciled downstream brand routing
+- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md` — voice-note proof retrieval packet
+- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md` — prototype operating and test specification
+- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html` — working private diagnostic
 - `_active/clients/jen-listings/06-system/FUNNEL-MATH.md` — playbook · Pilot 20–30 real conversations
 - https://www.instagram.com/_jiing/ — live signed-in profile · sep 4
 - https://linktr.ee/_jiing — live Linktree · 9 links
