@@ -119,6 +119,16 @@ GOLDEN: list[tuple[str, str]] = [
         "and building full assets, preserve creative range, and stop iteration loops.",
         "system-audit",
     ),
+    (
+        "Apply the prepared global mirror after rechecking both file hashes, verify the global behavior, "
+        "and stop if either target has drifted.",
+        "system-audit",
+    ),
+    # ``global mirror`` remains ordinary creative language without explicit
+    # rollout evidence. Neither word is a universal control-plane trigger.
+    ("Write a fictional story about a global mirror that reflects everyone's dreams.", ""),
+    ("Create an art installation called Global Mirror from fractured glass.", ""),
+    ("Design a global campaign around a mirror as the central visual metaphor.", ""),
     # Domain-owner preservation: social-AI product architecture is not a
     # control-plane request merely because it contains "AI", "agent", or "design".
     (

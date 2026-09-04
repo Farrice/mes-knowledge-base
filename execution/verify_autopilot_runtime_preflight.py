@@ -701,6 +701,22 @@ def assert_routing_precedence() -> list[str]:
     operating = codex_preflight.build_preflight(operating_prompt)
     if operating["chosen_path"]["owner"] != "system-audit":
         raise AssertionError(f"operating-default prompt routed to {operating['chosen_path']['owner']}")
+    mirror_prompt = (
+        "Apply the prepared global mirror after rechecking both file hashes, verify the global behavior, "
+        "and stop if either target has drifted."
+    )
+    mirror = codex_preflight.build_preflight(mirror_prompt)
+    if mirror["chosen_path"]["owner"] != "system-audit":
+        raise AssertionError(f"administrative global mirror routed to {mirror['chosen_path']['owner']}")
+    creative_mirror_prompts = (
+        "Write a fictional story about a global mirror that reflects everyone's dreams.",
+        "Create an art installation called Global Mirror from fractured glass.",
+        "Design a global campaign around a mirror as the central visual metaphor.",
+    )
+    for prompt in creative_mirror_prompts:
+        creative = codex_preflight.build_preflight(prompt)
+        if creative["chosen_path"]["owner"] == "system-audit":
+            raise AssertionError(f"creative mirror prompt was stolen by system-audit: {prompt}")
     social_prompt = "Design a social AI product that creates an agent field around professional relationships"
     social = codex_preflight.build_preflight(social_prompt)
     if social["chosen_path"]["owner"] != "reid-hoffman-design-agent-field":
@@ -712,6 +728,8 @@ def assert_routing_precedence() -> list[str]:
         raise AssertionError(f"mandatory domain stage was not surfaced: {domain['route_candidates'][0]}")
     return [
         "routing-precedence: operating-default prompt -> /system-audit",
+        "routing-precedence: administrative global mirror -> /system-audit",
+        "routing-negative-control: creative mirror prompts remain domain-eligible",
         "routing-negative-control: social-AI product -> /reid-hoffman-design-agent-field",
         "routing-precedence: KDP domain binding -> /kdp-engine before fuzzy search",
     ]
