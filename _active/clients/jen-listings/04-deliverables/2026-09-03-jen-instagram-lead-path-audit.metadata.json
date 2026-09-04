@@ -5,6 +5,15 @@
   "created_at": "2026-09-03",
   "status": "complete",
   "evidence_window": "2026-05-28 through 2026-09-03",
-  "verification": "private Instagram Insights plus public content sample",
-  "safety": "read-only Instagram inspection"
+  "verification": "private Instagram Insights plus Monid TikHub and TinyFish enrichment",
+  "safety": "read-only Instagram inspection; Apify excluded",
+  "enrichment": {
+    "instagram_posts": 192,
+    "instagram_comment_samples": 10,
+    "consumer_discussions": 10,
+    "live_web_query_sets": 6,
+    "paid_cost_usd": 0.081,
+    "providers": ["TikHub via Monid", "TinyFish via Monid"],
+    "excluded_provider": "Apify"
+  }
 }
