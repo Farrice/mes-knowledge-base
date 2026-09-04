@@ -1,15 +1,18 @@
 # SooWei A-Tier Blind Judgment Sheet
 
-Status: **SUPERSEDED BY RANDOMIZED REVIEW SURFACE**
+Reviewer: Farrice  
+Date:  
+Generation receipt clean: **YES**  
 
-Open [`review/judgment-sheet.md`](review/judgment-sheet.md). Do not open `.sealed-mapping.json` before recording both pair judgments and the final verdict.
-
-The rubric below is retained as the pre-assembly template only.
+Do not open `../.sealed-mapping.json` until both judgments and the final PASS/FAIL are written. Read each pair in full before scoring.
 
 ## Pair 1 — Content Operation
 
+- [Open Sample A](pair-1-sample-a.md)
+- [Open Sample B](pair-1-sample-b.md)
+
 Preferred: A / B / TIE  
-Identified as real SooWei: A / B / UNSURE  
+Identified as real SooWei: A / B / UNSURE
 
 | Criterion | A | B | What gave it away? |
 |---|---:|---:|---|
@@ -21,8 +24,11 @@ Identified as real SooWei: A / B / UNSURE
 
 ## Pair 2 — Trust and Proof
 
+- [Open Sample A](pair-2-sample-a.md)
+- [Open Sample B](pair-2-sample-b.md)
+
 Preferred: A / B / TIE  
-Identified as real SooWei: A / B / UNSURE  
+Identified as real SooWei: A / B / UNSURE
 
 | Criterion | A | B | What gave it away? |
 |---|---:|---:|---|
@@ -42,12 +48,8 @@ One repair, if needed:
 
 ## Promotion Decision
 
-- **A-tier PASS:** generated work is indistinguishable or preferred, generation receipt is clean, and Farrice explicitly approves.
-- **FAIL → one retry:** name the weakest tell, patch only that criterion, regenerate once from fresh context.
+- **A-tier PASS:** generated work is indistinguishable or preferred, the generation receipt is clean, and Farrice explicitly approves.
+- **FAIL → one retry:** name the weakest tell, patch only that criterion, and regenerate once from fresh context.
 - **B-tier hold:** if the retry still fails, preserve the gap and do not promote.
 
-Recording command after—not before—Farrice's decision:
-
-```text
-python3 execution/blind_pass.py record --expert soowei-consulting-leverage --verdict PASS|FAIL --notes "[Farrice judgment and tell]" --generated "[candidate path]" --reference "[matching reference path]"
-```
+Do not record or reveal the mapping until Farrice submits the completed judgment.

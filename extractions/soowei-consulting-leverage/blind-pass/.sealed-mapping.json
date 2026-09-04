@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-04T18:36:32.448293+00:00",
+  "normalization": [
+    "removed provenance headers and generation receipts",
+    "removed reference timestamps and acquisition-only transcript label",
+    "removed generated speaker-name prefixes",
+    "collapsed whitespace and wrapped all samples to 110 columns",
+    "preserved substantive wording and order"
+  ],
+  "pairs": [
+    {
+      "pair_id": "pair-1-content-operation",
+      "samples": {
+        "A": {
+          "kind": "generated",
+          "normalized_sha256": "9e485ecabb5d52b50f5acfa47dc4572bcbcbc612d5effe3ae53652229ef3ae2c",
+          "review_path": "extractions/soowei-consulting-leverage/blind-pass/review/pair-1-sample-a.md",
+          "source_path": "extractions/soowei-consulting-leverage/blind-pass/generated/specimen-1-content-team-transcript.md",
+          "word_count": 2221
+        },
+        "B": {
+          "kind": "real",
+          "normalized_sha256": "a5b8f5d63a7757a5a2c3707afdef59c084bcd2a9ab519cadbe15d7403a004aea",
+          "review_path": "extractions/soowei-consulting-leverage/blind-pass/review/pair-1-sample-b.md",
+          "source_path": "extractions/soowei-consulting-leverage/reference-corpus/2026-08-31-in-house-content-team.md",
+          "word_count": 2467
+        }
+      }
+    },
+    {
+      "pair_id": "pair-2-trust-proof",
+      "samples": {
+        "A": {
+          "kind": "real",
+          "normalized_sha256": "477faeb0a090e0089112a05ab951a4338216b528db56436d3543bd82dc996bd5",
+          "review_path": "extractions/soowei-consulting-leverage/blind-pass/review/pair-2-sample-a.md",
+          "source_path": "extractions/soowei-consulting-leverage/reference-corpus/2026-08-12-lie-detector.md",
+          "word_count": 2501
+        },
+        "B": {
+          "kind": "generated",
+          "normalized_sha256": "c02a8d3f0eaebe732fd8402282aaebc3c070e7d352dff8e4188e46e88f666f7e",
+          "review_path": "extractions/soowei-consulting-leverage/blind-pass/review/pair-2-sample-b.md",
+          "source_path": "extractions/soowei-consulting-leverage/blind-pass/generated/specimen-2-trust-interview-transcript.md",
+          "word_count": 2541
+        }
+      }
+    }
+  ],
+  "schema_version": 1,
+  "warning": "SEALED: do not open before Farrice records the blind verdict."
+}

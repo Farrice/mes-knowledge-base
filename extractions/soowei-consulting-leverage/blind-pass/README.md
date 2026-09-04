@@ -1,30 +1,34 @@
 # SooWei A-Tier Blind Pass
 
-Status: **PREPARED — fresh generation and human judgment pending**
+Status: **READY FOR HUMAN JUDGMENT — verdict pending**
 
 ## State
 
 - Reference corpus: READY, 2/2.
 - Generator packet: SEALED.
-- Generated candidates: NOT RUN.
-- Side-by-side comparison: NOT RUN.
+- Contracted workflow candidates: COMPLETE, 2/2.
+- Matched-form spoken specimens: COMPLETE, 2/2.
+- Clean-room access audit: PASS.
+- Randomized side-by-side comparison: READY, 2/2.
 - Farrice verdict: NOT RECORDED.
 - Integration: HELD.
 
 ## Files
 
-- `generator-packet.md` — the only task brief a fresh generator receives.
+- `generator-packet.md` — the sealed workflow-artifact brief a fresh generator receives.
+- `matched-form-addendum.md` — the sealed format-matching correction, run in the same clean room with no new reads.
 - `source-integrity-audit.md` — provenance, completeness, hashes, and contamination receipt.
-- `judgment-sheet.md` — the comparison rubric and verdict surface.
-- `generated/` — destination for two fresh-context candidates.
+- `generated/` — two workflow artifacts plus two matched-form transcript specimens.
+- `review/judgment-sheet.md` — the live A-tier comparison surface.
+- `review/assembly-receipt.md` — normalization, randomization, and public hashes without identity disclosure.
+- `.sealed-mapping.json` — randomized identity key; do not open before Farrice records the verdict.
 
 ## Required Sequence
 
-1. Run the generator packet in a fresh task or explicitly authorized clean-room worker.
-2. Confirm the generation receipt lists only the allowed files.
-3. Place the two outputs under `generated/`.
-4. Assemble each output beside its matching real piece without identifying which is real.
-5. Farrice judges recognizability, decision fidelity, texture, and preference.
-6. Only after Farrice says PASS, record the verdict with both generated and reference paths.
+1. Open `review/judgment-sheet.md`; do not open `.sealed-mapping.json`.
+2. Read both samples in Pair 1 and score them.
+3. Read both samples in Pair 2 and score them.
+4. Record preferred sample, real-SooWei guess, weakest tell, and PASS/FAIL.
+5. Only after Farrice submits the judgment, reveal the mapping and record the verdict.
 
-Do not run `blind_pass.py record` from a corpus-ready result alone.
+Do not run `blind_pass.py record` or reveal the mapping from a corpus-ready result alone.

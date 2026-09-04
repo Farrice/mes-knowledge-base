@@ -141,8 +141,20 @@ def main() -> int:
         BLIND_ROOT / "reference-corpus" / "README.md",
         BLIND_ROOT / "blind-pass" / "README.md",
         BLIND_ROOT / "blind-pass" / "generator-packet.md",
+        BLIND_ROOT / "blind-pass" / "matched-form-addendum.md",
         BLIND_ROOT / "blind-pass" / "source-integrity-audit.md",
         BLIND_ROOT / "blind-pass" / "judgment-sheet.md",
+        BLIND_ROOT / "blind-pass" / "generated" / "candidate-1-content-operation.md",
+        BLIND_ROOT / "blind-pass" / "generated" / "candidate-2-trust-proof.md",
+        BLIND_ROOT / "blind-pass" / "generated" / "specimen-1-content-team-transcript.md",
+        BLIND_ROOT / "blind-pass" / "generated" / "specimen-2-trust-interview-transcript.md",
+        BLIND_ROOT / "blind-pass" / "review" / "judgment-sheet.md",
+        BLIND_ROOT / "blind-pass" / "review" / "assembly-receipt.md",
+        BLIND_ROOT / "blind-pass" / "review" / "pair-1-sample-a.md",
+        BLIND_ROOT / "blind-pass" / "review" / "pair-1-sample-b.md",
+        BLIND_ROOT / "blind-pass" / "review" / "pair-2-sample-a.md",
+        BLIND_ROOT / "blind-pass" / "review" / "pair-2-sample-b.md",
+        BLIND_ROOT / "blind-pass" / ".sealed-mapping.json",
     ):
         if not required.exists() or required.stat().st_size == 0:
             failures.append(f"missing or empty {required.relative_to(ROOT)}")
@@ -165,6 +177,55 @@ def main() -> int:
         for boundary in ("## Forbidden Reads", "reference-corpus/", "self-assessment: omitted", "external actions: NONE"):
             if boundary not in packet:
                 failures.append(f"generator packet missing clean-room boundary: {boundary}")
+
+    generated_dir = BLIND_ROOT / "blind-pass" / "generated"
+    for filename in (
+        "candidate-1-content-operation.md",
+        "candidate-2-trust-proof.md",
+        "specimen-1-content-team-transcript.md",
+        "specimen-2-trust-interview-transcript.md",
+    ):
+        path = generated_dir / filename
+        if path.exists():
+            body = read(path)
+            for boundary in ("Forbidden reads: NONE", "External actions: NONE"):
+                if boundary not in body:
+                    failures.append(f"{filename} missing clean-room receipt: {boundary}")
+
+    review_dir = BLIND_ROOT / "blind-pass" / "review"
+    public_leak_markers = (
+        "Source URL:", "Published:", "Creator:", "Acquisition:", "Blind status:",
+        "Generation Receipt", "Authorized reads:", "Forbidden reads:",
+        "INTERVIEWER:", "CONSULTANT:",
+    )
+    for filename in (
+        "pair-1-sample-a.md", "pair-1-sample-b.md",
+        "pair-2-sample-a.md", "pair-2-sample-b.md",
+    ):
+        path = review_dir / filename
+        if path.exists():
+            body = read(path)
+            if any(marker in body for marker in public_leak_markers):
+                failures.append(f"blind review identity or generation marker leaked in {filename}")
+            if len(body.split()) < 2000:
+                failures.append(f"blind review sample too short for A-tier comparison: {filename}")
+
+    sealed_mapping = BLIND_ROOT / "blind-pass" / ".sealed-mapping.json"
+    if sealed_mapping.exists():
+        try:
+            mapping = json.loads(read(sealed_mapping))
+            pairs = mapping.get("pairs", [])
+            if len(pairs) != 2:
+                failures.append("sealed mapping must contain exactly two pairs")
+            for pair in pairs:
+                samples = pair.get("samples", {})
+                if set(samples) != {"A", "B"}:
+                    failures.append("each sealed pair must contain neutral labels A and B")
+                    continue
+                if {samples["A"].get("kind"), samples["B"].get("kind")} != {"real", "generated"}:
+                    failures.append("each sealed pair must contain one real and one generated specimen")
+        except json.JSONDecodeError as exc:
+            failures.append(f"sealed mapping JSON invalid: {exc}")
 
     controls_path = PACKAGE / "behavior-proof" / "negative-controls.json"
     if controls_path.exists():
@@ -238,7 +299,7 @@ def main() -> int:
     notes.append("2 source packages pass")
     notes.append("behavior comparison and natural-language route pass")
     notes.append("cold-start execution receipt present")
-    notes.append("A-tier blind corpus ready 2/2; clean-room generation and human verdict remain pending")
+    notes.append("A-tier blind review ready 2/2; clean-room access and sealed randomization pass; human verdict pending")
     print("SooWei organic content system: PASS")
     for note in notes:
         print(f"- {note}")
