@@ -17,7 +17,7 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 
 1. **Sentence Craft** — The atomic level of writing. Cole treats each sentence as an engineered unit with specific mechanical properties that can be optimized for maximum clarity and impact.
 2. **Digital Product Strategy** — A systematic framework for creating, pricing, and sequencing digital products. Cole's "Vehicle Framework" classifies all digital products into 6 types and provides a progression ladder from low-ticket to high-ticket, with empirically validated pricing psychology.
-3. **Niche Positioning** — A Socratic drilling process that runs from broad industry → category → niche → micro-niche → Named Person. Cole's thesis: every positioning problem is a specificity problem. You don't have a niche until you can name a real human being who IS your ideal client.
+3. **Niche Discovery and Positioning** — An evidence-led system with distinct creator and service paths: publish 30 pieces in 30 days to discover relative creator signal; choose a repeatable service before an industry on a service cold start; then package the decision as a niche brief, tip of spear, constellation, and content plan. Specificity and Named Person work are optional sharpening tools, not universal entry gates.
 4. **Client Acquisition** — A battle-tested methodology for landing premium ghostwriting clients ($3K+/month) from zero credentials. Built from scaling Digital Press to 300+ enterprise clients and millions in revenue—starting from an 8K-follower Quora profile and an air mattress from Target.
 5. **Newsletter Flywheel** — Architecture for designing, launching, and monetizing newsletters using Cole's "Book That Never Ends" + Tangible Faucet methodology. Reduces all newsletter success to two binary rules and produces infinite content flywheels, business model architectures, and productizable service packages.
 6. **Library-First Writing** — A progression from rhetorical compression to atomic practice, visual sequencing, long-form reuse, and prompt assets. Selects the next fitting format and saves proof, language, and results back to an owned content library.
@@ -49,11 +49,13 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 6. **Sales Conversation Design**: Education-first sales methodology with NDA Deflection and Guinea Pig Close scripts
 
 ### Niche Positioning (`nicolas-cole-niche-positioning`)
-1. **Specificity Drilling**: Runs the "Who Specifically" ladder from broad industry to Named Person
-2. **Category Creation**: Names the intersection of lived experience + skill + specific client into a Category of One
-3. **Bias Inversion**: Converts blocking beliefs about an industry into ICP signal — what you don't want to serve points directly at who you do
-4. **Named Person Test**: Validates positioning by finding one real human who IS the ideal client (not a persona)
-5. **Moat Identification**: Surfaces lived experience as unfair competitive advantage that no competitor can replicate
+1. **Evidence-State Routing**: Chooses creator discovery, service specialization, evidence research, or pivot diagnosis
+2. **30-in-30 Discovery**: Creates behavioral signal and advances relative winners through audience/problem/outcome variations
+3. **Service × Industry Specialization**: Selects the repeatable service first, then adds an evidence-backed vertical and information advantage
+4. **Niche Briefing**: Packages audience, problem, outcome, vehicle, evidence, risks, tests, and reversal conditions
+5. **Constellation Design**: Leads with one legible tip of spear while bounding adjacent topics, audiences, services, and experiments
+6. **Commit-or-Pivot Diagnosis**: Separates niche failure from content, funnel, sales, delivery, or capacity gaps
+7. **Positioning Sharpening**: Uses specificity, Named Person, and Category of One only when they improve an already selected route
 
 ### Writing (Sentence Craft)
 1. **Terminal Word Power**: Restructures sentences so the most impactful word lands last
@@ -150,6 +152,11 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 - ✅ Designing product roadmaps and progressions
 - ✅ Repackaging existing content into new revenue streams
 - ✅ Positioning block / "I don't know which niche to pick"
+- ✅ Designing a niche brief for an operator or client
+- ✅ Planning a 30-pieces-in-30-days discovery sprint
+- ✅ Choosing a service before an industry on a cold start
+- ✅ Mapping a content or service niche constellation
+- ✅ Diagnosing whether to commit, refine, retest, or pivot
 - ✅ Industry selection when lived experience exists
 - ✅ "Who specifically" drilling — narrowing broad industry to Named Person
 - ✅ Bias about an industry the user has lived experience in
