@@ -74,7 +74,15 @@ connector, or subagent was used.
 
 ## Global Mirror
 
-PARKED. The workspace implementation is the source of truth. An exact global
-mirror diff is prepared at `global-mirror-proposal.patch`; its dry-run applies
-cleanly against the captured global-file hashes. Separate approval is required
-before any `~/.codex` write.
+APPLIED on 2026-09-03 after both captured global-file hashes matched exactly.
+The unchanged `global-mirror-proposal.patch` modified only
+`/Users/farricecain/.codex/AGENTS.md` and
+`/Users/farricecain/.codex/skills/autopilot/SKILL.md`. Static inspection,
+outside-workspace material-fork smoke tests, Google Operator Core verification,
+and the Autopilot adaptive runtime suite passed.
+
+The broader global bridge verifier is PARTIAL because its separate configured
+Codex mutation worktree predates current hub HEAD and contains an untracked
+runtime path. That maintenance debt was not changed under the approved
+two-file mirror scope and does not invalidate the global instruction mirror or
+canonical read-only preflight path.
