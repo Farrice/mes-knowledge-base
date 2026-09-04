@@ -288,6 +288,54 @@ OPERATING_ALIGNMENT_CHANGE_TERMS = (
     "route to",
 )
 
+# ``global mirror`` is ambiguous: it may describe an administrative Codex
+# rollout or a literal creative concept. Require both the compound and explicit
+# rollout evidence, then exclude creative/deliverable context. This keeps the
+# control-plane fix narrow instead of making either word a magic keyword.
+GLOBAL_MIRROR_RE = re.compile(r"\bglobal(?:-|\s+)mirror\b")
+GLOBAL_MIRROR_ADMIN_TERMS = (
+    "prepared",
+    "file hash",
+    "file hashes",
+    "checksum",
+    "checksums",
+    "patch",
+    "target drift",
+    "target has drifted",
+    "targets have drifted",
+    "global behavior",
+    "global bridge",
+    "outside google antigravity",
+    "codex lane",
+    "write root",
+    ".codex",
+)
+GLOBAL_MIRROR_ADMIN_ACTIONS = (
+    "apply",
+    "verify",
+    "recheck",
+    "repair",
+    "restore",
+    "align",
+    "deploy",
+)
+GLOBAL_MIRROR_CREATIVE_TERMS = (
+    "art",
+    "installation",
+    "story",
+    "fictional",
+    "novel",
+    "poem",
+    "film",
+    "visual",
+    "metaphor",
+    "campaign",
+    "post",
+    "copy",
+    "sculpture",
+    "photograph",
+)
+
 
 def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.lower()).strip()
@@ -465,6 +513,20 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         and not direct_content_artifact
         and not explicit_workflow_invoke
     )
+    global_mirror_admin_hits = _hits(q, GLOBAL_MIRROR_ADMIN_TERMS)
+    global_mirror_admin_actions = _word_hits(q, GLOBAL_MIRROR_ADMIN_ACTIONS)
+    global_mirror_creative_context = bool(
+        _word_hits(q, GLOBAL_MIRROR_CREATIVE_TERMS)
+    )
+    administrative_global_mirror = bool(
+        GLOBAL_MIRROR_RE.search(q)
+        and global_mirror_admin_hits
+        and global_mirror_admin_actions
+        and not content_context
+        and not direct_content_artifact
+        and not global_mirror_creative_context
+        and not explicit_workflow_invoke
+    )
     # A repair/status review needs actual control-surface evidence. Without
     # this guard, ordinary capability requests such as "apply the overlay,
     # show what changed, do not promote" look like failed system repairs.
@@ -475,6 +537,19 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         and not content_context
         and (bool(anchor_hits or surface_hits) or bare_failed_repair_complaint)
     )
+
+    if administrative_global_mirror:
+        return {
+            "route": "system-audit",
+            "lane": "system-failure",
+            "reason": "Administrative global-mirror rollout belongs to /system-audit before creative expert matching.",
+            "evidence": (
+                ["global mirror"]
+                + global_mirror_admin_hits
+                + global_mirror_admin_actions
+            )[:8],
+            "confidence": 98,
+        }
 
     if operating_alignment_match:
         return {
