@@ -100,7 +100,7 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 + Explain what Jen checks before a buyer falls in love.
 - Tell a real story in which the chosen home was not the prettiest listing.
 
-**Lead path:** “DM **TRADEOFF** for Jen's Condo-vs-House Decision Map.”
+**Lead path:** “If you are weighing a condo against a house in the Valley, send me the two options. I will share the comparison map I use.”
 
 ### 2. Creative-Income Buyer: best differentiated hypothesis
 
@@ -121,7 +121,7 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 
 **Boundary:** Jen explains the journey and coordinates experts. A qualified lender makes underwriting conclusions; a CPA or tax professional handles tax advice.
 
-**Lead path:** “DM **CREATIVE** for the irregular-income preparation checklist.”
+**Lead path:** “Tell me whether your income is W-2, self-employed, or mixed, and I will send you the preparation checklist.”
 
 ### 3. Solo Fresh-Start Buyer: strongest emotional brand fit
 
@@ -140,7 +140,7 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 * How to build a personal advisory circle before shopping.
 + A truthful story about slowing down rather than being pushed.
 
-**Lead path:** “DM **HANDLED** for the solo-buyer support map.”
+**Lead path:** “If you are carrying this decision on your own, ask me for the support map I use with buyers.”
 
 ### 4. Family-Capital Buyer: high trust, higher complexity
 
@@ -161,7 +161,7 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 
 **Boundary:** Ownership, estate, tax, and enforceability questions go to the appropriate attorney, CPA, and lender.
 
-**Lead path:** “DM **FAMILY** for the family-funded purchase question list.”
+**Lead path:** “If family money may be part of the purchase, ask me for the question list to review before anyone transfers funds.”
 
 ### 5. Payment-Shocked Long-Term Renter: broadest reach, weakest moat
 
@@ -180,7 +180,7 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 - Explain what would need to change before buying becomes wise.
 * Use assistance programs as conditional tools, not urgency hooks. [Dream For All](https://www.calhfa.ca.gov/dream/index.htm) availability changes and must be checked before publication. Los Angeles County's [Greenline program](https://dcba.lacounty.gov/greenline/) currently describes a grant of up to $35,000 for eligible buyers, with education, contribution, occupancy, and other requirements.
 
-**Lead path:** “DM **READY** for a no-pressure readiness snapshot.”
+**Lead path:** “If your rent makes buying hard to justify, send me the numbers you are comparing and I will share the readiness snapshot.”
 
 ## Kallaway content architecture
 
@@ -216,7 +216,7 @@ When the human decision is stronger than the property, the house is beat two.
 
 ```mermaid
 flowchart LR
-    A[Specific decision post] --> B[One matching DM keyword]
+    A[Specific decision post] --> B[Natural invitation tied to that decision]
     B --> C[One-page diagnostic]
     C --> D[Saved reply with three qualifying questions]
     D --> E[Short clarity consultation]
@@ -238,11 +238,11 @@ This is a demand test, not a rebrand.
 
 |Lane | Posts | Primary signal |
 |---|---:|---|
-|Valley Tradeoff | 4 | TRADEOFF DMs and decision-map requests |
-|Payment-Shocked Renter | 2 | READY DMs from buyers with a location and timeline |
-|Creative-Income | 2 | CREATIVE DMs with a concrete documentation question |
-|Solo Fresh-Start | 1 | HANDLED DM or consultation request |
-|Family-Capital | 1 | FAMILY DM with a gift/co-buying question |
+|Valley Tradeoff | 4 | Decision-map requests with two real options |
+|Payment-Shocked Renter | 2 | Readiness requests with a location and timeline |
+|Creative-Income | 2 | Concrete irregular-income preparation questions |
+|Solo Fresh-Start | 1 | Support-map or consultation requests |
+|Family-Capital | 1 | Gift or co-buying questions |
 
 For every post, record reach, saves, profile actions, attributable DMs, qualified conversations, consultations, signed clients, closings, and collected revenue. Likes, views, and saves remain attention. A segment advances only when buyers identify themselves and take a consequential next step.
 

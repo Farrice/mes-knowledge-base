@@ -15,6 +15,6 @@
     "unique_source_urls": 22
   },
   "critical_issues": [],
-  "validated_at": "2026-09-03T21:50:38",
+  "validated_at": "2026-09-03T21:54:43",
   "gate": "research_quality_gate.py"
 }
