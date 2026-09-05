@@ -1,0 +1,21 @@
+{
+  "file": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md",
+  "overall_pass": false,
+  "overall_score": 40,
+  "depth": "standard",
+  "metrics": {
+    "total_urls": 15,
+    "unique_domains": 11,
+    "detected_depth": "standard",
+    "min_sources_expected": 8,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "100% (1/1)",
+    "naked_claims": 13,
+    "hedge_ratio": "0.0 per 1000 words",
+    "min_domains_expected": 4,
+    "unique_source_urls": 15
+  },
+  "critical_issues": [],
+  "validated_at": "2026-09-04T16:24:44",
+  "gate": "research_quality_gate.py"
+}

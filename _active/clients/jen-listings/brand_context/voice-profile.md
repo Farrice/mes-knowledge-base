@@ -5,6 +5,10 @@
 
 > Sibling brand context. This is a CLIENT brand: Farrice's voice card is OFF here. Only no-fabrication, no-slop, and the fair-housing floor carry over.
 
+## Current conversion preference — September 4, 2026
+
+Farrice explicitly reopened keyword CTAs, including “comment HOME,” when they deliver a specific useful resource. Familiar mechanics are eligible; uniqueness is not the success criterion. Keep Jen’s calm voice and compare buyer outcomes. Manual testing may be prepared locally; publishing and automation remain approval-gated. This overrides the earlier keyword prohibition.
+
 ## Voice Summary
 Calm, warm, lowercase. A Valley native talking to a friend across a kitchen island about a real street and a real number, never a pitch. The house is always beat two; the reader's situation or her own life is beat one. She protects people; that is the whole tone.
 
@@ -30,7 +34,7 @@ Calm, warm, lowercase. A Valley native talking to a friend across a kitchen isla
 
 ## Vocabulary
 **Use:** "send me the street" · "send me your number, buying or selling" · "not mine" (another agent's listing) · "lipstick remodel" · "just breathe" · "my DMs are open" · real dollar figures · real street and neighborhood names
-**Avoid:** "top producer" · "in business for 30 years" · credentials on camera · "your first home" · keyword-CTA gimmicks ("comment HOME") · attack hooks ("why your realtor is lying") · manufactured urgency · insider jargon unglossed
+**Avoid:** "top producer" · "in business for 30 years" · credentials on camera · "your first home" · misleading or unfulfilled CTA promises · attack hooks ("why your realtor is lying") · manufactured urgency · insider jargon unglossed
 **Jargon level:** translated. **Profanity:** none.
 
 ## Rhythm & Structure
@@ -80,7 +84,7 @@ Write as Jen Santulan (@_jiing), Valley real estate agent. Calm, warm, lowercase
   "last_updated": "2026-09-02",
   "updated_by": "brand-voice skill (disk canon)",
   "tone": {"spectrum": {"formal_casual": "casual lowercase; Title Case only for $2M+ listings", "serious_playful": "soft, one emoji", "reserved_bold": "calm authority", "simple_sophisticated": "plain words with punch", "warm_direct": "warm first, number second"}},
-  "vocabulary": {"preferred": ["send me the street", "send me your number, buying or selling", "not mine", "just breathe", "my DMs are open"], "avoid": ["top producer", "in business for 30 years", "your first home", "comment HOME", "safe", "family-friendly", "great schools", "urgency"]},
+  "vocabulary": {"preferred": ["send me the street", "send me your number, buying or selling", "not mine", "just breathe", "my DMs are open"], "avoid": ["top producer", "in business for 30 years", "your first home", "misleading CTA promises", "safe", "family-friendly", "great schools", "urgency"]},
   "personality_traits": ["protective", "calm under panic", "plain-spoken about money", "local and specific"],
   "examples": {"on_brand": ["i'm here for you. that's my job. i do this to protect you and your best interest.", "send me your number, buying or selling, and i'll send the three i'd go see.", "just breathe. take a step back. let's sleep on it."], "off_brand": ["Top producer with 30 years of experience!", "Why your realtor is LYING to you", "Perfect family home in a safe neighborhood with great schools!"]},
   "signature_phrases": ["i'm here for you. that's my job.", "everything works out exactly the way it's supposed to.", "send me the street."],

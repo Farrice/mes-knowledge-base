@@ -1,6 +1,6 @@
 # Jen First-Time Buyer ICP Source Ledger
 
-**Retrieved:** September 3, 2026  
+**Retrieved:** September 3, 2026 | Dual-income addendum retrieved September 4, 2026
 **Mode:** Free-first, read-only web research plus local archive analysis  
 **Spend:** $0  
 **Coverage:** Official market and program sources; public Reddit discussions from SFV, Los Angeles, and first-time-buyer communities. TikTok and dependable YouTube-comment coverage were unavailable.
@@ -22,6 +22,10 @@
 | [Fannie Mae gift funds](https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts) | Donor and documentation requirements | Family-capital friction |
 | [California DOI residential insurance](https://www.insurance.ca.gov/01-consumers/105-type/5-residential/) | Shopping coverage; FAIR Plan limitations | Ownership-cost risk |
 | [California DRE AI advisory](https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html) | Verification, confidentiality, advertising, and fair-housing duties | Professional boundary |
+| [CFPB joint mortgage guidance](https://www.consumerfinance.gov/ask-cfpb/can-two-unmarried-people-apply-jointly-for-a-mortgage-or-a-home-equity-loan-en-357/) | Joint applicants, financial disclosure, and shared-cost planning | Two-income coordination |
+| [CFPB buying with someone else](https://www.consumerfinance.gov/archive/blog/making-move-homeownership-your-own-or-someone-else/) | Co-borrower responsibility and joint planning questions | Two-income coordination |
+| [Fannie Mae debt-to-income ratios](https://guide-selling.fanniemae.com/sel/b3-6-02/debt-income-ratios) | Combined borrower obligations and qualifying income | Joint underwriting context |
+| [California Civil Rights housing guidance](https://calcivilrights.ca.gov/housing/) | Marital status as a protected housing characteristic | Public-targeting boundary |
 
 ## Public social-listening sources
 
@@ -43,6 +47,9 @@ Public posts and comments reveal language and questions. They do not estimate po
 | [Choosing a realtor](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1pt28yz/tips_on_how_to_pick_or_choose_realtor/) | Trust and selection criteria |
 | [Realtor pressure](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1s7kswi/realtors_attitude/) | Fear of being rushed or dismissed |
 | [Post-divorce LA purchase timing](https://www.reddit.com/r/AskLosAngeles/comments/1oqkt9q/la_real_estate_wait_to_buy_bc_impending_doom_or/) | Fresh-start timing and uncertainty |
+| [Partners preparing their credit](https://www.reddit.com/r/FirstTimeHomeBuyers/comments/1rsvvfz/my_partner_and_i_are_planning_to_buy_a_home_in_a/) | Credit, DTI, debt, and financial-disclosure questions |
+| [Two incomes, three housing choices](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1t40yw1/stuck_between_3_choices_advice_appreciated/) | Commute, career, payment, and property-condition tradeoffs |
+| [Buying jointly with different profiles](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1u2di6k/buying_for_the_first_time_with_a_partner_and_im/) | Different income, credit, ownership, and agent-selection questions |
 
 ## Jen archive sources
 
@@ -66,4 +73,3 @@ The archive contains 2,779 accessible posts. Aggregate topics were identified wi
 - Reddit is used as public voice-of-customer evidence, not a representative sample.
 - Likes, views, comments, and saves are attention signals, not commercial proof.
 - Program availability, rates, and requirements are time-sensitive and must be rechecked before publication.
-

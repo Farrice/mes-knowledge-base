@@ -1,0 +1,258 @@
+{
+  "slug": "jen-632-conversion-evidence",
+  "chip": "JEN · CONVERSION EVIDENCE",
+  "title": "the 6-3-2 system, *stress-tested*",
+  "dek": "[VERIFIED] A live, read-only audit of Jen's Instagram-to-conversation path, a twelve-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.",
+  "window": "live profile + archived evidence",
+  "lens": "conversion · diagnostic · proof",
+  "sources": "Instagram, Linktree, buyer tools, 2,779 archived captions, system files",
+  "compiled": "sep 4, 2026",
+  "footer_left": "JEN CONTENT INTELLIGENCE",
+  "footer_right": "OPERATOR ONLY",
+  "category": "client: jen",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the *verdict*",
+      "kicker": "AUDIT COMPLETE",
+      "body": "Jen has useful buyer content, a live Linktree, search and calculator utilities, and locally drafted reply and measurement logic. She does not yet have a verified end-to-end conversion system that carries a buyer from a post into a qualified, attributable conversation.\n\nThe 6-3-2 diagnostic is strategically sound but not build-ready in its original form. The three ICPs overlap, so routing must be based on today's blocker, not a forced identity choice.\n\nThe archive also does not support three equally strong 6-3-2 client stories: #6 is a strong provisional proof, #3 is a provisional fit needing confirmation, and #2 has empathy evidence but no client transaction proof."
+    },
+    {
+      "kind": "stats",
+      "heading": "what the audit *found*",
+      "items": [
+        {"value": "0", "unit": "verified", "label": "END-TO-END CONVERSION PATHS", "note": "No post-to-qualified-conversation-to-CRM chain is evidenced."},
+        {"value": "12", "unit": "journeys", "label": "DIAGNOSTIC STRESS TESTS", "note": "Selected ICPs, overlaps, nurture, representation, geography, privacy, fair housing, and professional scope."},
+        {"value": "1 / 1 / 0", "unit": "client proofs", "label": "#6 / #3 / #2", "note": "Both available stories are provisional; #2 has no client case."},
+        {"value": "$0.00", "unit": "spent", "label": "THIS PHASE", "note": "[VERIFIED] No paid scrape or API call was used."}
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "the current path has a *handoff gap*",
+      "caption": "Useful destinations exist, but buyer context is not preserved through to a human conversation.",
+      "steps": [
+        {"title": "Instagram", "note": "Calm buyer posts and open-DM invitations."},
+        {"title": "Linktree", "note": "Nine mixed destinations; the unrelated store is first."},
+        {"title": "Utilities", "note": "MLS search and three generic calculators."},
+        {"title": "Context loss", "note": "No visible route-specific result, consultation handoff, or source continuity."},
+        {"title": "Unattributed outcome", "note": "Booking, CRM, nurture, lender protocol, and closed-loop reporting remain absent or unverified."}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "current conversion-stack *audit*",
+      "tag": "LIVE + LOCAL EVIDENCE",
+      "rows": [
+        {
+          "claim": "The live profile opens a conversation but does not name a concrete next object.",
+          "evidence": "The bio promises seamless, stress-free buying and selling. A pinned first-time-buyer Reel says Jen's DMs are open; another recent buyer Reel invites a message for real numbers and honest answers. Neither identifies a diagnostic, result, saved resource, or consultation path.",
+          "source_url": "https://www.instagram.com/_jiing/",
+          "source_label": "live signed-in profile · sep 4",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The Linktree is a mixed menu, not a 6-3-2 buyer journey.",
+          "evidence": "The first button is an unrelated music/ecommerce store. Buyer tools appear below it alongside a podcast, blog, team site, and playlist. There is no First Home Valley diagnostic, consultation link, or visible 6-3-2 route. The most recent internal Insights audit recorded 12 external-link taps from 1,589 profile visits, or 0.76%; that shows movement, not qualified-buyer conversion.",
+          "source_url": "https://linktr.ee/_jiing",
+          "source_label": "live Linktree · 9 links",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The MLS and calculator links are utilities, not a verified qualification layer.",
+          "evidence": "The MLS page offers property-search app access. The affordability and mortgage calculators request scenario inputs and display assumptions, but expose no visible route-specific question, contact capture, or continuity into Jen's conversation. Any downstream CRM linkage remains unconfirmed because no forms were submitted.",
+          "source_url": "https://mls-client.com/40136BD6",
+          "source_label": "live read-only path check",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Existing local files contain reply and attribution designs, not operating proof.",
+          "evidence": "Four saved replies exist locally; installation and use are unconfirmed. The lead-path audit defines qualified DM, consultation, signed-client, and closing stages, but current outcomes are unattributed. Funnel rates remain placeholders.",
+          "source_label": "ENGINE-V2 · lead-path audit · FUNNEL-MATH",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The live positioning and current system canon disagree.",
+          "evidence": "The approved direction uses First Home Valley with ICPs 6, 3, and 2. BRAND.yaml still points to ENGINE-V2 as canon; ENGINE-V2 says the niche is the place, not the person, and BRAND.yaml bans the phrase 'your first home.' Downstream production could silently revert unless this authority order is reconciled.",
+          "source_label": "BRAND.yaml · ENGINE-V2 · 6-3-2 architecture",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "matrix",
+      "heading": "what exists versus what *operates*",
+      "axes": {"x": "operating proof →", "y": "↑ buyer value"},
+      "quads": [
+        {
+          "label": "HIGH VALUE · LOW PROOF",
+          "items": [
+            {"name": "Saved replies", "note": "[VERIFIED] Written locally; installation and use unverified."},
+            {"name": "6-3-2 diagnostic", "note": "[VERIFIED] Strong concept; requires blocker routing before build."},
+            {"name": "Lender coordination", "note": "[VERIFIED] Archive proves past introductions; no current protocol."}
+          ]
+        },
+        {
+          "label": "HIGH VALUE · OPERATING",
+          "items": [
+            {"name": "Buyer utilities", "note": "[VERIFIED] MLS search and calculators work as self-serve tools, but not as a conversion chain."}
+          ]
+        },
+        {
+          "label": "LOW VALUE · LOW PROOF",
+          "items": [
+            {"name": "Nurture", "note": "[VERIFIED] A branch is described; cadence, messages, owner, and channel are not built."},
+            {"name": "CRM attribution", "note": "[VERIFIED] Fields exist on paper; no populated lead object is evidenced."},
+            {"name": "Booking", "note": "[VERIFIED] No public scheduler found and no internal booking receipt located."}
+          ]
+        },
+        {
+          "label": "OPERATING · DISTRACTING",
+          "items": [
+            {"name": "Linktree sprawl", "note": "[VERIFIED] Nine destinations dilute the buyer's next move."},
+            {"name": "MyBPM store first", "note": "[VERIFIED] Personal expression is on-brand, but it occupies the highest-intent link position."}
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "summary",
+      "heading": "the diagnostic passes *conditionally*",
+      "kicker": "TWELVE BUYER JOURNEYS",
+      "body": "Clean examples passed: two W-2 buyers aligning payment and commutes; a solo buyer needing decision support; and a mixed W-2/1099 buyer organizing a lender-ready question.\n\nOverlap examples exposed the flaw: siblings co-buying with variable income and a newly self-employed buyer purchasing with a W-2 partner both belong to #6 and #2. A single-choice identity branch loses material context.\n\nNon-fit examples needed the revised safeguards: a low-intent 18+ month browser, a represented out-of-area buyer seeking an underwriting answer, and a buyer asking for subjective neighborhood-safety guidance need nurture, route-out, or an objective-criteria redirect—not a consultation push."
+    },
+    {
+      "kind": "decision",
+      "heading": "the revised *diagnostic contract*",
+      "kicker": "BUILD THIS NEXT — NOT THE FULL ASSET YET",
+      "dek": "Preserve 6-3-2 as the strategy while making the buyer experience accurate, useful, and low-burden.",
+      "items": [
+        {"action": "Route by blocker, not identity", "why": "Use four opening choices: coordinating with another buyer; buying on my own; organizing nonstandard income; or not sure."},
+        {"action": "Allow one optional secondary tag", "why": "A #6-primary, #2-secondary buyer receives the coordination result while Jen sees the income-documentation context."},
+        {"action": "Use five structured taps and one optional sentence", "why": "Primary blocker, optional secondary blocker, SFV/commute anchor, timeline, and stage; then 'What feels hardest right now?' Do not repeat these questions in DM."},
+        {"action": "Deliver value before qualification", "why": "Each route names one next decision. After delivery, ask whether the buyer wants Jen's help."},
+        {"action": "Check representation and consent after the result", "why": "Before offering services, ask whether the buyer is already working under a buyer-representation agreement and whether follow-up is welcome."},
+        {"action": "Use three service states", "why": "Active conversation, nurture fit, and route out. These are service-routing states, not demographic or financial scores."},
+        {"action": "Keep financial and legal detail out of Instagram", "why": "No exact income, credit score, tax returns, bank records, Social Security numbers, another buyer's private details, eligibility predictions, or legal conclusions."}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the strongest 6-3-2 *proof*",
+      "tag": "SOURCE-BOUNDED",
+      "rows": [
+        {
+          "claim": "#6 — two first-time buyers moved from rate fear to an accepted first offer below list.",
+          "evidence": "Media 2923821348360719921. The buyers saved for a year, worried about 5–6% rates, and Jen connected them with a lender, helped ease the concern, found a home within weeks, and participated in an offer accepted below list. This proves co-buyer readiness and Jen's coordination, not dual income, two borrowers, or relationship disagreement.",
+          "source_url": "https://www.instagram.com/p/CiTgAZ3vo4x/",
+          "source_label": "JEN-STORY-2923821348360719921",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "#3 — a singular first-time buyer was guided through a frightening pandemic purchase.",
+          "evidence": "Media 2322295603977088389. The caption says the team helped her from beginning to end and describes a smooth, successful close. It does not prove that she bought alone, what Jen personally handled, or SFV relevance; the source indicates Palmdale. Jen must confirm those facts before this becomes a Solo Decision Support story.",
+          "source_url": "https://www.instagram.com/p/CA6c4w6gW2F/",
+          "source_label": "JEN-SRC-2322295603977088389",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "#2 — Jen has lived empathy, but no archived creative-income buyer case.",
+          "evidence": "Media 2381170337418068334 documents Jen's family-business background, non-9-to-5 life, operating without steady income, and simultaneous real-estate and clothing work. Across 2,779 captions, the proof pass found no self-employed, freelance, 1099, variable-income, or mortgage-documentation client case. This supports empathy only—not underwriting expertise or a client outcome.",
+          "source_url": "https://www.instagram.com/p/CELnc5PgEFu/",
+          "source_label": "JEN-SRC-2381170337418068334",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "the smallest honest *next build*",
+      "tag": "SEQUENCE",
+      "plays": [
+        {
+          "title": "Reconcile the authority order",
+          "intent": "[VERIFIED] Make First Home Valley + 6-3-2 the explicit current strategy without erasing Jen's broader Valley identity or Listing Launch property proof.",
+          "command": "Decision patch only; no content production yet.",
+          "touches": ["_active/clients/jen-listings/brand_context/BRAND.yaml", "_active/clients/jen-listings/06-system/ENGINE-V2.md"],
+          "receipt": "No live production route can interpret first-time-buyer framing as forbidden."
+        },
+        {
+          "title": "Close the three proof gaps with Jen",
+          "intent": "Ask three short memory questions: whether the #6 case used two incomes, whether the #3 client bought alone and what Jen carried, and which real transaction best represents a self-employed or mixed-income buyer.",
+          "command": "Capture exact facts and permissions; do not draft around unknowns.",
+          "touches": ["_active/clients/jen-listings/06-system/content-intelligence/story-bank.json"],
+          "receipt": "Each selected story has a source ID, Jen-action facts, privacy state, and proof ceiling."
+        },
+        {
+          "title": "Review the private diagnostic prototype",
+          "intent": "The five-step interaction, four micro-results, representation check, consent choices, and Jen reply protocol are now built locally.",
+          "command": "Watch five people complete it without explanation before any public link change.",
+          "touches": ["_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html", "_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md"],
+          "receipt": "The deterministic test passes 12/12; human comprehension and commercial conversion remain untested."
+        },
+        {
+          "title": "Pilot 20–30 real conversations",
+          "intent": "Use a manual path so buyer language and Jen's workload decide what deserves automation.",
+          "command": "Track source post, primary/secondary route, readiness state, consultation, correction, and later business outcome.",
+          "touches": ["_active/clients/jen-listings/06-system/FUNNEL-MATH.md"],
+          "receipt": "A populated attribution record exists; attention and commercial evidence remain separate."
+        }
+      ]
+    },
+    {
+      "kind": "summary",
+      "heading": "one system, bounded *expert roles*",
+      "kicker": "COMPOSITION LEDGER",
+      "body": "Mike Sherrard owns the attention-to-conversation path; his decision change is one manual path instead of a collection of tools. Kallaway owns content jobs and buyer-quality attention; his decision change is blocker-based routing with primary and secondary tags. Jun Yuh owns sourced story packets; his decision change is to withhold unsupported #2 client proof and cap #6 and #3 claims. Alyssa Stalker checks the Instagram-native handoff and lead quality; her decision change is value before qualification and a human reply before booking. Jen remains the voice, privacy, and relationship authority.\n\nThe main Jen conductor reconciles these contributions. No additional expert rewrites every asset, and no name counts as proof unless it changed a decision recorded here."
+    },
+    {
+      "kind": "caveats",
+      "heading": "what remains *unconfirmed*",
+      "kicker": "TRUTH + PRIVACY BOUNDARY",
+      "body": "The audit did not open Jen's DMs, submit any calculator, inspect private CRM data, alter Instagram, change Linktree, or publish anything. Saved replies, legacy automations, booking software, CRM ownership, current lender roster, and actual content-sourced consultations remain unconfirmed. Comments and Highlights were excluded at Farrice's direction. The live profile reports 2,780 posts; the proof scan covered 2,779 archived captions, so one live post or caption state is outside this proof pass.\n\nCalifornia DRE guidance supports a human-reviewed, privacy-conscious flow and requires buyer-broker agreements as soon as practicable and no later than an offer; Jen and her broker should approve the final operational wording. Fair-housing redirects must use objective, buyer-defined property and commute criteria rather than subjective claims about neighborhood safety or demographics.\n\nCommercial status is UNTESTED. Likes, views, comments, taps, polished tools, and archived transaction stories do not establish attributable leads or closings.",
+      "cta": {"label": "RETURN TO THE 6-3-2 ARCHITECTURE", "href": "../../Jen%206-3-2%20Lead%20System%20Architecture.md"}
+    },
+    {
+      "kind": "related",
+      "heading": "the connected *source rail*",
+      "tag": "KEEP CONTEXT TOGETHER",
+      "links": [
+        {"k": "ARCHITECTURE", "title": "Jen 6-3-2 Lead System Architecture", "path": "_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md"},
+        {"k": "STORY BANK", "title": "Jen Story Bank", "path": "_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv"},
+        {"k": "PROOF", "title": "Service Proof Library", "path": "_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md"},
+        {"k": "INTERVIEW", "title": "Jen 6-3-2 Proof Voice Notes", "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md"},
+        {"k": "PROTOTYPE", "title": "First Home Valley Diagnostic — Private Prototype", "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md"},
+        {"k": "INTERACTIVE", "title": "Open the working diagnostic", "path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html"},
+        {"k": "PLAYBOOK", "title": "Winning Agent Playbook", "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md"},
+        {"k": "DRE", "title": "Buyer representation advisory", "href": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html"},
+        {"k": "DRE", "title": "AI in California real estate advisory", "href": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html"},
+        {"k": "CRD", "title": "California fair-housing protections", "href": "https://calcivilrights.ca.gov/housing/"}
+      ]
+    }
+  ],
+  "ledger": [
+    {"source": "Jen Instagram profile", "url": "https://www.instagram.com/_jiing/", "retrieved": "2026-09-04", "used_for": "live bio, link, pinned and recent buyer CTA audit", "confidence": "VERIFIED"},
+    {"source": "Jen Linktree", "url": "https://linktr.ee/_jiing", "retrieved": "2026-09-04", "used_for": "live destination and button-order audit", "confidence": "VERIFIED"},
+    {"source": "MLS Client landing page", "url": "https://mls-client.com/40136BD6", "retrieved": "2026-09-04", "used_for": "buyer utility path audit", "confidence": "VERIFIED"},
+    {"source": "California DRE buyer representation advisory", "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html", "retrieved": "2026-09-04", "used_for": "representation handoff boundary", "confidence": "VERIFIED"},
+    {"source": "California DRE AI advisory", "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html", "retrieved": "2026-09-04", "used_for": "human oversight, privacy, scope, and truthful communications", "confidence": "VERIFIED"},
+    {"source": "California Civil Rights Department housing guidance", "url": "https://calcivilrights.ca.gov/housing/", "retrieved": "2026-09-04", "used_for": "fair-housing audience and neighborhood-question safeguards", "confidence": "VERIFIED"},
+    {"source": "Jen source archive", "url": "https://www.instagram.com/p/CiTgAZ3vo4x/", "retrieved": "2026-09-04", "used_for": "#6 strongest provisional proof", "confidence": "LIKELY"},
+    {"source": "Jen source archive", "url": "https://www.instagram.com/p/CA6c4w6gW2F/", "retrieved": "2026-09-04", "used_for": "#3 strongest provisional proof", "confidence": "LIKELY"},
+    {"source": "Jen source archive", "url": "https://www.instagram.com/p/CELnc5PgEFu/", "retrieved": "2026-09-04", "used_for": "#2 empathy source and proof gap", "confidence": "VERIFIED"}
+  ],
+  "context": [
+    {"path": "_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md", "role": "approved strategy architecture"},
+    {"path": "_active/clients/jen-listings/06-system/content-intelligence/story-bank.json", "role": "source-traced story bank"},
+    {"path": "_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv", "role": "curated story index"},
+    {"path": "_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md", "role": "service proof index"},
+    {"path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md", "role": "prior lead-path evidence"},
+    {"path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md", "role": "conversion and content-system precedent"},
+    {"path": "_active/clients/jen-listings/06-system/ENGINE-V2.md", "role": "current operating canon requiring reconciliation"},
+    {"path": "_active/clients/jen-listings/brand_context/BRAND.yaml", "role": "reconciled downstream brand routing"}
+    ,{"path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md", "role": "voice-note proof retrieval packet"}
+    ,{"path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md", "role": "prototype operating and test specification"}
+    ,{"path": "_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html", "role": "working private diagnostic"}
+  ]
+}

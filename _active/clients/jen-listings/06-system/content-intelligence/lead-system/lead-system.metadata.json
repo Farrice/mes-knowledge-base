@@ -1,0 +1,19 @@
+{
+  "artifact_type": "private_lead_diagnostic_package",
+  "title": "First Home Valley 6-3-2 Next-Step Check",
+  "client": "Jen Santulan",
+  "status": "pass_for_private_review_not_auto_publish",
+  "created_at": "2026-09-04",
+  "public_brand": "Jen Santulan",
+  "education_lane": "First Home Valley",
+  "property_proof_lane": "Listing Launch",
+  "decision_routes": [
+    "two-income coordination",
+    "solo decision support",
+    "creative-income preparation",
+    "unsure"
+  ],
+  "saves_or_transmits_answers": false,
+  "external_actions_taken": false,
+  "paid_tools_used": false
+}

@@ -1,28 +1,29 @@
 # Jen First-Time Buyer ICP Options
 
-**Decision brief | San Fernando Valley | September 3, 2026**
+**Decision brief | San Fernando Valley | September 3, 2026 | Updated September 4, 2026**
 
-> **Verdict:** Keep **First Home Valley** as the broad education umbrella. Make the **Valley Tradeoff Buyer** Jen's first content beachhead: the first-time buyer deciding between a condo or townhome and an older, smaller, or farther-out house. Use **Creative-Income Buyers** and **Solo Fresh-Start Buyers** as recurring recognition lanes, not separate brands.
+> **Verdict:** Keep **First Home Valley** as the broad education umbrella. Make the **Valley Tradeoff Buyer** Jen's first content beachhead: the first-time buyer deciding between a condo or townhome and an older, smaller, or farther-out house. Use **Creative-Income Buyers** and **Solo Fresh-Start Buyers** as recurring recognition lanes. Add the **Two-Income Coordination Buyer** as a preferred-client lane, not a separate brand.
 
-This is a content-market decision, not a claim that one segment is the largest population. No public source reports exact psychographic segment sizes for San Fernando Valley first-time buyers. The rankings below combine current official market constraints, directional public social listening, and Jen's archived Instagram evidence.
+This is a content-market decision, not a claim that one segment is the largest population. No public source reports exact psychographic segment sizes for San Fernando Valley first-time buyers. The options below combine current official market constraints, directional public social listening, and Jen's archived Instagram evidence.
 
 ## The thread line
 
 First-time buyers are not mainly asking, “How do I buy a home?” They are asking:
 
-> **Which compromise will I regret least,and who will make sure I do not miss the expensive thing?**
+> **Which compromise will I regret least, and who will make sure I do not miss the expensive thing?**
 
 That question fits Jen better than a dramatic niche or a generic first-time-buyer classroom. Her value is not urgency. It is calm judgment, local context, and making the whole move feel handled.
 
 ```mermaid
 flowchart TD
     A[All SFV first-time buyers<br/>TAM and education umbrella] --> B{What decision is making them stall?}
-    B --> C[Condo or house?<br/>Valley Tradeoff Buyer]; B --> D[Keep renting or buy?<br/>Payment-Shocked Renter]; B --> E[Will my income qualify?<br/>Creative-Income Buyer]; B --> F[Can I carry this alone?<br/>Solo Fresh-Start Buyer]; B --> G[How do we use family help safely?<br/>Family-Capital Buyer]
+    B --> C[Condo or house?<br/>Valley Tradeoff Buyer]; B --> D[Keep renting or buy?<br/>Payment-Shocked Renter]; B --> E[Will my income qualify?<br/>Creative-Income Buyer]; B --> F[Can I carry this alone?<br/>Solo Fresh-Start Buyer]; B --> G[How do we use family help safely?<br/>Family-Capital Buyer]; B --> L[How do two incomes become one plan?<br/>Two-Income Coordination Buyer]
     C --> H[Primary beachhead]
     E --> I[Differentiated recognition lane]
     F --> I
     D --> J[Broad-reach nurture lane]
     G --> K[High-trust specialist lane]
+    L --> M[Preferred-client lane]
 ```
 
 ## Why this market feels so hard
@@ -52,6 +53,8 @@ Across the wider listening set, the recurring language was:
 |“What will the lender actually count?” | Translate the preparation path; refer underwriting conclusions to a lender. |
 |“I do not have anyone to bail me out.” | Show how Jen reduces decision load without promising risk-free ownership. |
 |“How do we protect the family gift?” | Explain the question set and bring in lender, attorney, or tax professionals. |
+|“Will one credit profile cancel out the other income?” | Explain what to organize, then route qualification questions to a lender. |
+|“We qualify for more than either of us wants to spend.” | Separate maximum approval from the payment and life both people can support. |
 
 The listening also shows an agent-selection problem. Buyers describe wanting someone patient, locally knowledgeable, able to notice cost and condition issues, and unwilling to pressure them into a property or an immediate agreement. That is unusually close to Jen's actual service promise. See the [SFV discussion](https://www.reddit.com/r/SFV/comments/1tq96p1/looking_for_home_buying_advice_and_a_realtor_in/), [agent-selection discussion](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1pt28yz/tips_on_how_to_pick_or_choose_realtor/), and [buyer report of agent pressure](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1s7kswi/realtors_attitude/).
 
@@ -70,19 +73,20 @@ More important than the aggregate is the proof shape already present:
 
 The content lesson is not “post more financing tips.” Recent program, financing, and condo posts were weaker attention performers than Jen's personal and life-transition material. The human decision tension should be **beat one**; the property, program, or explanation should usually be **beat two**.
 
-## The five micro-ICP options
+## The six micro-ICP options
 
 Scores are strategic judgment on a five-point scale, not population estimates.
 
-|Rank | Micro-ICP | Purchase proximity | Jen proof fit | Differentiation | Content range | Role in the system |
+|Option | Micro-ICP | Purchase proximity | Jen proof fit | Differentiation | Content range | Role in the system |
 |---:|---|---:|---:|---:|---:|---|
 |1 | **Valley Tradeoff Buyer** | 5 | 5 | 4 | 5 | Primary beachhead |
 |2 | **Creative-Income Buyer** | 4 | 3 | 5 | 4 | Differentiated hypothesis |
 |3 | **Solo Fresh-Start Buyer** | 4 | 5 | 4 | 4 | Emotional recognition lane |
 |4 | **Family-Capital Buyer** | 4 | 3 | 4 | 4 | High-trust specialist lane |
 |5 | **Payment-Shocked Long-Term Renter** | 3 | 4 | 2 | 5 | Broad-reach nurture lane |
+|6 | **Two-Income Coordination Buyer** | 5 | 3 | 3 | 5 | Preferred-client lane |
 
-### 1. Valley Tradeoff Buyer , recommended beachhead
+### 1. Valley Tradeoff Buyer: recommended beachhead
 
 **Situation:** They can buy something in or near the Valley, but not every version of the life they imagined. They are choosing among a condo or townhome, an older or smaller house, a property needing work, or a farther commute.
 
@@ -182,9 +186,33 @@ Scores are strategic judgment on a five-point scale, not population estimates.
 
 **Lead path:** “If your rent makes buying hard to justify, send me the numbers you are comparing and I will share the readiness snapshot.”
 
+### 6. Two-Income Coordination Buyer: preferred-client lane
+
+**Situation:** Two working people are buying their first home together. The combined income may improve their options, but they are also trying to reconcile two credit profiles, two debt loads, two commutes, two career paths, and two definitions of a comfortable payment. This lane can include spouses, unmarried partners, relatives, or friends buying together. The public-facing content should describe the coordination problem rather than target people by marital status.
+
+**The private question:** “Can we make one decision that still feels responsible to both of us?”
+
+**What gets in the way:** Different credit scores, uneven savings contributions, student or consumer debt, variable income, different risk tolerance, unequal commute burden, and disagreement between the lender's maximum approval and the household's comfortable ceiling. CFPB advises joint applicants to discuss income, credit scores, debt obligations, cost contributions, and how ongoing payments will be shared before buying. [CFPB joint-mortgage guidance](https://www.consumerfinance.gov/ask-cfpb/can-two-unmarried-people-apply-jointly-for-a-mortgage-or-a-home-equity-loan-en-357/) Fannie Mae's DTI guidance uses the monthly obligations and qualifying income of all borrowers included in the loan analysis. [Fannie Mae debt-to-income guidance](https://guide-selling.fanniemae.com/sel/b3-6-02/debt-income-ratios)
+
+Public discussions show the recurring confusion clearly: buyers ask whether one person's credit or debt will weaken the benefit of the second income, whether both people should be on the mortgage, and how much house to choose when only one commute or career is location-bound. These questions are directional social-listening evidence, not lending guidance. [First-time-buyer credit discussion](https://www.reddit.com/r/FirstTimeHomeBuyers/comments/1rsvvfz/my_partner_and_i_are_planning_to_buy_a_home_in_a/) [Two-income choice discussion](https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1t40yw1/stuck_between_3_choices_advice_appreciated/)
+
+**Why Jen can own it:** Jen's strongest role is not deciding which person is right. It is creating a calm decision process, translating what each option changes, coordinating the lender and other professionals, and keeping both buyers oriented when the transaction becomes noisy.
+
+**Content jobs:**
+
++ “We qualified for this number. Here is the lower number that protected the life we wanted.”
+- “Two commutes, one home search: what we mapped before opening listings.”
+* “One buyer loved the house. The other noticed the monthly risk. Both were right.”
++ The five conversations to finish before making a joint offer.
+- What Jen puts in writing when two buyers remember a decision differently.
+
+**Boundary:** Jen can facilitate the decision and transaction. A lender determines whose income, debt, and credit are used; an attorney advises on ownership agreements and title; a tax professional handles tax consequences. California housing protections include marital status, so marketing should welcome buyers in any lawful household structure rather than imply that one relationship type is preferred. [California Civil Rights Department](https://calcivilrights.ca.gov/housing/)
+
+**Lead path:** “If the two of you keep circling the same home decision, send me the two things you disagree about. I will share the joint-decision worksheet I use.”
+
 ## Kallaway content architecture
 
-Do not create five content brands. Use one clear umbrella and route each post through one buyer decision.
+Do not create six content brands. Use one clear umbrella and route each post through one buyer decision.
 
 ### Positioning line
 
@@ -239,10 +267,11 @@ This is a demand test, not a rebrand.
 |Lane | Posts | Primary signal |
 |---|---:|---|
 |Valley Tradeoff | 4 | Decision-map requests with two real options |
-|Payment-Shocked Renter | 2 | Readiness requests with a location and timeline |
-|Creative-Income | 2 | Concrete irregular-income preparation questions |
+|Payment-Shocked Renter | 1 | Readiness requests with a location and timeline |
+|Creative-Income | 1 | Concrete irregular-income preparation questions |
 |Solo Fresh-Start | 1 | Support-map or consultation requests |
 |Family-Capital | 1 | Gift or co-buying questions |
+|Two-Income Coordination | 2 | Joint-decision worksheets and consultations involving both buyers |
 
 For every post, record reach, saves, profile actions, attributable DMs, qualified conversations, consultations, signed clients, closings, and collected revenue. Likes, views, and saves remain attention. A segment advances only when buyers identify themselves and take a consequential next step.
 
@@ -253,6 +282,7 @@ For every post, record reach, saves, profile actions, attributable DMs, qualifie
 * **Move Payment-Shocked Renters to nurture** if most inquiries remain below feasible buying power or have no plausible twelve-month readiness path.
 + **Keep Solo Fresh-Start educational** if Jen lacks privacy-cleared source stories.
 - **Reframe geography** if actual hand-raisers consistently need a wider search area than SFV.
+* **Promote Two-Income Coordination** if the two test posts produce at least two attributable qualified conversations and one consultation involving both buyers.
 
 These are precommitted testing thresholds, not claims about expected conversion.
 
@@ -278,12 +308,13 @@ These are precommitted testing thresholds, not claims about expected conversion.
 * The Valley Tradeoff Buyer is the strongest first content beachhead because current local language, Jen's proof, and her protective brand overlap there.
 + Payment-Shocked Renters offer broad reach but weaker differentiation.
 - Creative-Income Buyers could become a defensible local moat if Jen has enough authentic cases and lender support.
+* Two-Income Coordination Buyers fit Jen's handled-for-you service promise, but the lane still needs Jen-specific proof and attributable demand.
 
 **UNTESTED**
 
-* How the five segments compare on qualified DMs, consultations, signed clients, and revenue for Jen.
+* How the six segments compare on qualified DMs, consultations, signed clients, and revenue for Jen.
 + Exact psychographic segment size within the San Fernando Valley.
-- Whether the proposed keywords and diagnostic convert.
+- Whether the proposed invitations and diagnostic tools convert.
 
 **NO EVENT**
 
@@ -293,7 +324,7 @@ These are precommitted testing thresholds, not claims about expected conversion.
 
 **Do this:** Lead with Valley tradeoffs, let Jen's human judgment open the story, and use one decision tool to convert attention into identifiable conversations.
 
-**Do not do:** Turn all first-time buyers into one generic avatar; create five separate brands; lead with down-payment-program trivia; or target protected identities as the niche.
+**Do not do:** Turn all first-time buyers into one generic avatar; create six separate brands; lead with down-payment-program trivia; or target protected identities as the niche.
 
 **We are wrong if:** Jen's actual hand-raisers show a different repeated situation, her archive cannot support the recommended stories truthfully, or thirty days of attributable behavior show another lane clearly producing stronger buyer action.
 

@@ -1,14 +1,25 @@
-# Jen Engine v2 — "done for her," built to get DMs from Valley buyers and sellers
+# Jen Engine v2 — one Valley brand, three connected jobs
 
-Living doc. Replaces the September plan's operating model. Copy rules, fair-housing floor, her verbatim lines, and the saved replies carry over unchanged. Operator-only; nothing here is shown to Jen as a system.
+Living doc. Replaces the September plan's operating model. Copy rules, fair-housing floor, her verbatim lines, and the saved replies carry over unchanged. Operator-only; nothing here is shown to Jen as a system. The current buyer-conversion authority is `content-intelligence/Jen 6-3-2 Lead System Architecture.md`; this file governs the weekly content engine around it.
 
-## 1. Identity (the niche is the place, not the person)
+## 1. Identity architecture
 
-**"Your Valley agent. $800K and up, buying or selling."** (her seat's line; use it on the profile in her lowercase register.)
+Jen is the public umbrella: a calm, protective San Fernando Valley and Los Angeles agent for buyers and sellers. This is not a new persona or a buyer-only rebrand.
 
-Why this holds, six seats agreeing: the place does the belonging, the price does the sorting. A seller readying a $900K listing and a first-timer at $800K read the same post as theirs. Nothing on the grid is organized by buyer type or by transaction. "Buy or sell" is a detail inside a post, never a pillar.
+Under that umbrella, two named programs do different work.
 
-Guardrail (her own pushback): an $800K floor with no ceiling still reads first-timer-ish. Captions and asks stay neutral: "talk numbers," "send me the street," never "your first home."
+- **First Home Valley** owns first-home education, decision support, and the path into a real buyer conversation.
+- **Listing Launch** owns property and transaction proof. It shows how Jen notices, coordinates, protects, and handles the move.
+
+Inside First Home Valley, 6-3-2 is the current internal buyer strategy:
+
+1. **#6 Two-Income Coordination:** commercial lane.
+2. **#3 Solo Decision Support:** trust lane. “Solo Fresh-Start” may remain an internal research label, never a public assumption about why someone is buying alone.
+3. **#2 Creative-Income Preparation:** differentiated authority test.
+
+These are decision routes, not demographic boxes. Public content routes by the blocker someone names today and may carry a primary and secondary route. Place still earns local discovery; the buyer's unresolved decision creates the conversation. Price bands belong in specific posts when verified, not as a permanent identity gate.
+
+Guardrail: do not organize the whole grid by buyer type or make every post first-time-buyer content. Attract and Position can serve the wider Valley market. First Home Valley is the education lane, not Jen's entire identity.
 
 ## 2. The deal (what she does, what we do)
 
@@ -80,13 +91,17 @@ The monthly rhythm (added 2026-09-02; this is what Coffee & Contracts sells as "
 
 ## 9. The reply layer (the part Coffee & Contracts doesn't have)
 
-Every post ends with the door open: a street, a number, a question, or "hi." Saved replies cover the four arrivals: an address, a "what's mine worth," a "we're looking this fall," a "hi." The valley file (three one-pagers) rebuilt in the photo look is what she sends to anyone who writes. Pinned post: who she helps and the file.
+Recognition and nurture posts may end with a save, share, follow, or no ask. Proof posts may use a light invitation. Conversion posts open one clear door.
+
+The buyer can request a named resource with a keyword or ask a natural question in Instagram. Jen fulfills the request and uses the current blocker plus one optional secondary blocker to shape her response. The **First Home Valley Decision Diagnostic** is optional self-guided help, not mandatory intake. Use existing context and ask only the next useful question. The first pilot remains manual, with capacity and reply hours confirmed by Jen before launch. No automatic calendar routing or lead scoring. Current decisions and observation tables: `content-intelligence/lead-system/INTEGRATION.md`.
+
+The existing saved replies remain reusable for general arrivals: an address, a "what's mine worth," a "we're looking this fall," or a "hi." A separate First Home Valley reply reflects the buyer's stated blocker, gives one next action, asks one consequential question, and offers a conversation only with permission.
 
 ## 10. Scoreboard she'll believe
 
 DMs with a street, a number, or a timeline, per month. Shares from local accounts as the leading indicator. Nothing else reported to her.
 
-Our column (operator only, `FUNNEL-MATH.md`): DMs per 1,000 views, consults, signed, closed. Hers tells her it's working; ours tells us which stage to fix. First-guess compound: about one closing per 16 qualified DMs, every rate UNCONFIRMED until hers replaces it.
+Our column (operator only, `FUNNEL-MATH.md`): DMs per 1,000 views, diagnostic starts and completions, active conversations, nurture fits, route-outs, consults, signed, and closed. A qualified active conversation requires an SFV-compatible location or commute anchor, a consequential blocker, a plausible 0–12-month path, interest in Jen's help, and no conflicting representation. No financial or demographic score decides service. Hers tells her it is working; ours tells us which stage to fix. Any modeled rate remains UNCONFIRMED until her first-party data replaces it.
 
 ## 11. Better than Coffee & Contracts, specifically
 
@@ -99,20 +114,23 @@ Feature-by-feature parity (match / beat / skip): `2026-09-02-engine-v2-amendment
 Confirms the seats; adds these. Numbers are Gemini-sourced, mostly labelled "inferred" in the report itself; VERIFY before any number reaches Jen or a post.
 
 - **Named Valley agents already running our formats.** Brian Cooper (Woodland Hills, Winnetka): "What $900K buys in Woodland Hills, 2026" series plus personal storytelling. Dan Hendrix (Van Nuys, Burbank, Tarzana): the downsizer reframing hook, "$999,000 and proof that perfection doesn't need to be massive," captions that voice the viewer's own sentence ("I want to downsize, I don't want upkeep"). Rosalyne Cohen (Sherman Oaks, Woodland Hills): ADU-potential content for $1M buyers who need rental income to make the number work. Dylan Good (Chernov Team): SEO keywords in captions, raw over cinematic. Study their grids before writing month one; steal structure, never words.
-- **Place-led beats buyer-type, per the report:** hyperlocal pages rank higher and produce more leads than generic ones; generic "LA market" posts get punished; a specific city plus price band reads as authority, not a cage. The fear is answered in the data, not just by the seats.
+- **Place and buyer decisions perform different jobs:** specific Valley places and prices earn discovery and local authority. First Home Valley decision content turns that attention into self-identification and a useful next step. Neither replaces the other.
 - **"What $X buys" is the top lead format for this band:** it filters the unqualified before they cost engagement and resets expectations before the DM. Needs real comps weekly (public listing data; VERIFY).
 - **"Send this to a future…" is reach with mixed intent** unless grounded: pair it with three practical lines for a Valley buyer this year, or don't run it.
-- **Neighborhood POV reels (15–30s rapid cuts, local spots, text on screen) earn saves**, which is retargeting: the saver sees her next post. This is the drive-clip format, and why the drive matters.
+- **Neighborhood POV reels (15–30s rapid cuts, local spots, text on screen) may earn saves.** A save may inform ranking; it does not guarantee repeat exposure or constitute automatic retargeting. This is the drive-clip format, and why the drive matters.
 - **Ratio top agents use (report's source, one YouTube practitioner):** 40% awareness, 30% trust, 20% local authority, 10% hard conversion. Our 40/40/20 is close; keep convert at 20 only while she has active listings.
 - **Legibility rules for serif-over-photo:** negative space behind the type (sky, wall, out-of-focus foliage), a 10–15% dark overlay or gradient, white serif headline paired with a geometric sans for the details (Playfair with Jost or Montserrat). One idea per frame. This is now the design rule in section 6; her Canva carousel broke it by stacking bullets over a busy room.
 - **Coffee & Contracts, honestly:** $74/mo, 5,000+ members, no auto-posting, generic templates get "near-zero reach" unposted-as-is, members who win customize heavily, post 15+ times a month, and see leads at roughly three months. Members use templates for stories and carousels and original reels as the discovery engine. That's our design already, minus the subscription.
-- **Keyword-comment automation (ManyChat) is how the top accounts capture.** Jen finds keyword CTAs cheesy; we keep the street-or-number ask and the saved replies instead. Revisit only if reply volume outgrows her evenings.
+- **Keyword resource requests are eligible for testing (Farrice correction, 2026-09-04).** Compare comment HOME with a natural DM invitation using the same useful resource, fulfillment standard and buyer-outcome measures. Familiarity alone is no reason to reject a formula. Manual request fulfillment does not require automation; any automation or publishing still needs approval. See `content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md`.
 
 ## 13. Open items
 
 - Real comps for "what $X buys" posts: public listing data each week (label VERIFY until pulled).
 - Her listing photography into Drive folder 01 (Farrice).
 - Account access for scheduling and numbers (later). Until then the Monday pulse reads public numbers only (views, likes, comments); saves, reach, and follows need her Insights.
+- Confirm the current CRM owner, booking path, saved-reply installation, lender handoff, and any legacy automation before changing the public lead path.
+- Confirm three proof gaps with Jen: whether the #6 case used two qualifying incomes, whether the #3 buyer purchased alone and what Jen personally handled, and one actual self-employed or mixed-income buyer case for #2.
+- The private diagnostic passes twelve scripted journeys. Five-person comprehension testing remains untested; no Linktree change is approved.
 - Deep-research findings to fold in: `2026-09-02-deep-research-what-works-valley-agents.md`.
 - Farrice's verdict on Tarzana · Edition 01 (canvas b76c3b1c), then plates A–E behind the cost gate.
 - Render the four Connect posts (`04-deliverables/connect-posts-01/COPY.md`) into weeks 3–6 as the Connect slot; Jen's thumbs-up on the Jen-seat lines and the "$80 million" line.
