@@ -205,9 +205,10 @@ before applying title, pin, or archive task actions.
 
 Meaningful closeouts must preserve the Insightful Momentum/frontier standard,
 not the legacy thin prompt shell. When the workspace renderer exists, run
-`execution/contextual_next_prompts.py` and retain its Recommended task title, Output/Capability Move,
-Operator Insight, Hidden Gap/Opportunity, Capability Revealed, prompt, expected
-outcome, quality bar, skip condition, and suggested workflow fields.
+`execution/contextual_next_prompts.py` and retain its Recommended task title.
+It must show Output/Capability Move, Operator Insight, Hidden Gap/Opportunity,
+Capability Revealed, Prompt, Expected outcome, Quality bar, and Skip
+condition, and suggested workflow fields.
 """
 
 GLOBAL_WRAPPER_TEXT = f"""---
