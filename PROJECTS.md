@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-09-03 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-09-04 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -8,12 +8,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-03 | active* |
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-03 | active |
 | `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-03 | active* |
 | `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-03 | active* |
 | `00-social-content` | projects/ | **— none —** | 2026-09-03 | active* |
 | `str-trending-research` | projects/ | **— none —** | 2026-09-03 | active* |
-| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-02 | active* |
 | `products` | _active/ | **— none —** | 2026-09-01 | active* |
 | `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
 | `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |

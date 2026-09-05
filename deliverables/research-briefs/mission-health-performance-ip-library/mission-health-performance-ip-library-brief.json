@@ -212,5 +212,6 @@
       "kicker": "READ THE EDGES",
       "body": "The pack is a stub: no sessions, no deliverables, no handoff content, no idle count. Nothing here confirms whether any material exists on disk. Treat every statement about this thread as a read of the label, not of the contents.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }

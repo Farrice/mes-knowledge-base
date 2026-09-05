@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "2 sessions · 0 files · 0 assets",
-  "compiled": "sep 3, 2026",
+  "compiled": "sep 4, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 2 deliverables finalized.\n\nHandoff status is active. Last activity today.\n\nNext: Resume the `system-audit` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (system-audit)._"
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 2 deliverables finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Resume the `system-audit` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (system-audit)._"
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Handoff written 63d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Handoff written 64d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "playbook",
@@ -88,7 +88,7 @@
           "note": "codex"
         },
         {
-          "value": "6",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -113,9 +113,9 @@
             0,
             0,
             0,
-            0,
             1,
-            1
+            1,
+            0
           ],
           "value": "2",
           "unit": "total",
@@ -199,7 +199,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 13 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 14 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

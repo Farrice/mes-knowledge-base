@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "362 sessions swept",
-  "compiled": "sep 3, 2026",
+  "sources": "384 sessions swept",
+  "compiled": "sep 4, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,7 +28,7 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "23",
+          "value": "22",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -36,11 +36,11 @@
           "label": "FILES WRITTEN"
         },
         {
-          "value": "2",
+          "value": "272",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "362",
+          "value": "384",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -52,7 +52,6 @@
         {
           "label": "sessions",
           "values": [
-            0,
             1,
             0,
             0,
@@ -65,9 +64,10 @@
             0,
             1,
             4,
+            1,
             1
           ],
-          "value": "9",
+          "value": "10",
           "note": "per day"
         },
         {
@@ -80,15 +80,36 @@
             0,
             0,
             0,
-            3,
-            1,
+            0,
             0,
             4,
             0,
             0,
-            1
+            1,
+            0
           ],
-          "value": "9",
+          "value": "5",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11
+          ],
+          "value": "11",
           "note": "per day"
         }
       ],
@@ -99,6 +120,18 @@
       "heading": "where the work *went*",
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
+        {
+          "label": "harness",
+          "values": [
+            2
+          ]
+        },
+        {
+          "label": "linkedin",
+          "values": [
+            9
+          ]
+        },
         {
           "label": "system audit",
           "values": [
@@ -121,12 +154,6 @@
           "label": "visual workflow",
           "values": [
             6
-          ]
-        },
-        {
-          "label": "listing content",
-          "values": [
-            7
           ]
         },
         {
@@ -161,6 +188,11 @@
         },
         {
           "k": "ACTIVE",
+          "title": "linkedin",
+          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
+        },
+        {
+          "k": "ACTIVE",
           "title": "system audit",
           "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
         },
@@ -178,11 +210,6 @@
           "k": "ACTIVE",
           "title": "visual workflow",
           "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "listing content",
-          "path": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html"
         },
         {
           "k": "READY",
@@ -205,14 +232,14 @@
           "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "linkedin",
-          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
-        },
-        {
           "k": "READY",
           "title": "proof to market",
           "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
         }
       ]
     },
@@ -237,6 +264,12 @@
           "date": "2026-08-29",
           "title": "landing-page",
           "body": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones",
+          "done": true
+        },
+        {
+          "date": "2026-08-29",
+          "title": "listing-content",
+          "body": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carouse",
           "done": true
         },
         {
@@ -280,12 +313,6 @@
           "title": "go",
           "body": "Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthroug",
           "done": true
-        },
-        {
-          "date": "2026-08-21",
-          "title": "homebase-cockpit",
-          "body": "Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck ",
-          "done": true
         }
       ]
     },
@@ -293,7 +320,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n252 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, mission, extract virtuoso mastery, health performance ip library, landing page, offer packaging, deep research, go, angle map listening engine v4 1, deliverables, guides, teardown 1 fresh.\n\n334 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n261 more threads cleared the bar but sit below the 12-card ceiling and were not carded: mission, listing content, video studio edit bay, extract virtuoso mastery, landing page, offer packaging, deep research, go, create, angle map listening engine v4 1, deliverables, guides.\n\n368 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"
