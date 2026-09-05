@@ -67,13 +67,14 @@ python3 execution/contextual_next_prompts.py --objective "[session closeout obje
 
 The 3 Next Prompts must show the Insightful Momentum/frontier standard:
 
+- visible Recommended task title using `[Domain]: [Specific Object] - [Outcome]`
 - action title that names the current session object
 - Output/Capability Move
 - Operator Insight
 - Hidden Gap/Opportunity
 - Capability Revealed
 - copy-paste Prompt
-- Expected output or What it entails
+- explicitly labeled Expected outcome naming the artifact, decision, proof event, or changed state
 - Quality bar
 - Skip condition when useful
 - Suggested skills/workflows

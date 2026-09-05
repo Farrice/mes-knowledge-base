@@ -9,10 +9,13 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from contextual_next_prompts import closeout_surface_issues
+
 
 ROOT = Path(__file__).resolve().parent.parent
 GLOBAL_AGENTS = Path("/Users/farricecain/.codex/AGENTS.md")
 GLOBAL_END_SESSION = Path("/Users/farricecain/.codex/skills/end-session/SKILL.md")
+REGRESSION_FIXTURE = ROOT / "execution/fixtures/closeout_intelligence/visible-surface-regression.json"
 
 ACTIVE_REFERENCES = [
     "semantic_libraries/antigravity/primitives/high-floor-operator-os.md",
@@ -72,6 +75,9 @@ def check_prompt_payload(objective: str, expected_work_type: str) -> None:
     data = payload(objective)
     if data.get("work_type") != expected_work_type:
         fail(f"{objective!r} expected work_type {expected_work_type}, got {data.get('work_type')}")
+    task_title = str(data.get("recommended_task_title", ""))
+    if not task_title or ": " not in task_title or " - " not in task_title:
+        fail(f"{objective!r} missing retrieval-shaped recommended_task_title")
     prompts = data.get("prompts", [])
     if [item.get("name") for item in prompts] != ["Use Now", "Harden", "Expand"]:
         fail(f"{objective!r} did not preserve Use Now/Harden/Expand")
@@ -107,16 +113,42 @@ def check_markdown_fields() -> None:
     text = proc.stdout
     for needle in (
         "## 3 Next Prompts",
+        "Recommended task title",
         "Suggested follow-ups",
         "What it entails",
         "Output/Capability Move",
         "Operator Insight",
         "Hidden Gap/Opportunity",
         "Capability Revealed",
+        "Expected outcome",
+        "Quality bar",
+        "Skip if",
         "Suggested skills/workflows",
     ):
         if needle not in text:
             fail(f"Markdown output missing {needle!r}")
+    issues = closeout_surface_issues(text)
+    if issues:
+        fail("Markdown output violates visible contract: " + "; ".join(issues))
+
+
+def check_visible_surface_regression_fixture() -> None:
+    if not REGRESSION_FIXTURE.exists():
+        fail(f"Missing closeout regression fixture: {REGRESSION_FIXTURE}")
+    fixture = json.loads(REGRESSION_FIXTURE.read_text(encoding="utf-8"))
+    positive_issues = closeout_surface_issues(str(fixture.get("positive_control", "")))
+    if positive_issues:
+        fail("positive closeout control failed: " + "; ".join(positive_issues))
+    negative_issues = closeout_surface_issues(str(fixture.get("negative_control", "")))
+    expected_fragments = (
+        "missing visible Recommended task title",
+        "Expected outcome",
+        "Quality bar",
+    )
+    rendered_issues = " | ".join(negative_issues)
+    missing = [fragment for fragment in expected_fragments if fragment not in rendered_issues]
+    if missing:
+        fail("negative closeout control did not fail for: " + ", ".join(missing))
 
 
 def check_artifact_followup_shape() -> None:
@@ -252,13 +284,16 @@ def check_global_bridge() -> None:
     if not GLOBAL_AGENTS.exists():
         fail(f"Missing global AGENTS: {GLOBAL_AGENTS}")
     text = GLOBAL_AGENTS.read_text(encoding="utf-8")
-    # The global bridge intentionally carries the compact current contract.
-    # Rich renderer fields remain verified below in the end-session skill and
-    # contextual_next_prompts.py; requiring them here fossilizes old headings.
+    # Fresh tasks only preserve the visible behavior when the global invocation
+    # policy names the non-negotiable fields; the local renderer owns the detail.
     for needle in (
         "Three Contextual Next Prompts",
         "exactly three",
         "ranked, session-specific",
+        "Recommended task title",
+        "Expected outcome",
+        "Quality bar",
+        "materially different",
         "If the best next action is safe, local, and already authorized, execute it",
         "Compact Operator Lesson",
         "Operator move:",
@@ -277,6 +312,9 @@ def check_global_bridge() -> None:
         "Operator Insight",
         "Hidden Gap/Opportunity",
         "Capability Revealed",
+        "Recommended task title",
+        "Expected outcome",
+        "Quality bar",
     ):
         if needle not in end_session:
             fail(f"Global end-session skill missing {needle!r}")
@@ -294,6 +332,7 @@ def main() -> int:
         check_frontier_payload_fields,
         check_session_closeout_shape,
         check_markdown_fields,
+        check_visible_surface_regression_fixture,
         check_execute_next_unchanged,
         check_router_probe,
         check_global_bridge,

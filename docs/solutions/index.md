@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-09-05 · closeout-intelligence-visible-surface-regression · Closeout prompts regressed to thin generic continuations because the global invocation contract no longer required the visible retrieval title, expected outcomes, or quality bars, while the rich renderer remained optional.
 - 2026-09-03 · adaptive-sensemaking-build-depth · Evidence pressure and production depth were being conflated, causing premature builds, unnecessary questions, and false certainty
 - 2026-09-03 · jen-content-intelligence-archive · Build a budget-capped, resumable Instagram archive that separates private evidence from curated story intelligence and survives provider gaps.
 - 2026-09-03 · teardown-carousel-copy-lock-evidence-crops · a high-taste social carousel (brand teardown, authority piece) has to come out production-usable and repeatable, not slop; earlier attempts at the same pipeline produced flat copy, AI-looking visuals, or both

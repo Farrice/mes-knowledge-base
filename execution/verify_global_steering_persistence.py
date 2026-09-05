@@ -41,11 +41,7 @@ def run(args: list[str]) -> subprocess.CompletedProcess[str]:
 
 
 def check_global_agents() -> None:
-    """Verify the compact current global steering and execution contract.
-
-    Detailed closeout fields are renderer/end-session responsibilities.  The
-    global surface owns invocation policy and must not duplicate that schema.
-    """
+    """Verify that fresh tasks receive the visible closeout contract."""
     text = read(GLOBAL_AGENTS)
     require(
         "global AGENTS",
@@ -55,6 +51,10 @@ def check_global_agents() -> None:
             "After a meaningful response with a real next decision",
             "exactly three",
             "ranked, session-specific",
+            "Recommended task title",
+            "Expected outcome",
+            "Quality bar",
+            "materially different",
             "If the best next action is safe, local, and already authorized, execute it",
             "Compact Operator Lesson",
             "Operator move:",
@@ -81,7 +81,10 @@ def check_local_agents() -> None:
             "When an exchange SHIPS something",
             "Skip on answers, diagnostics, corrections",
             "Deep closeouts",
-            "Insightful Momentum format",
+            "Insightful Momentum intelligence",
+            "visible recommended task title",
+            "expected artifact/decision/proof event",
+            "inspectable quality bar",
             "contextual_next_prompts.py",
             "A skipped block is fine; a padded block is a failure",
         ],
@@ -101,6 +104,9 @@ def check_end_session_bridge() -> None:
             "Operator Insight",
             "Hidden Gap/Opportunity",
             "Capability Revealed",
+            "Recommended task title",
+            "Expected outcome",
+            "Quality bar",
         ],
     )
 
@@ -121,11 +127,15 @@ def check_renderer_visible_fields() -> None:
         proc.stdout,
         [
             "## 3 Next Prompts",
+            "Recommended task title",
             "Suggested follow-ups",
             "Output/Capability Move",
             "Operator Insight",
             "Hidden Gap/Opportunity",
             "Capability Revealed",
+            "Expected outcome",
+            "Quality bar",
+            "Skip if",
             "Suggested skills/workflows",
             "normal-answer smoke test",
             "global and workspace instruction surfaces",

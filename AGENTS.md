@@ -108,13 +108,16 @@ Canonical detail and proof live in
 Anything shipping in Farrice's own voice (posts, editions, Notes, emails, DMs, bios): read `_active/farrice-brand/voice/VOICE-CARD.md` and apply the dial mode (default BLEND — "better version of me," never blanket mimicry) BEFORE the content workflow runs. The 2026-07-13 golden-brief A/B showed Codex output loses his texture exactly when this load is skipped.
 
 ## Per-Exchange Steering (unified with Claude Code — amnesty 2026-07-29, contradiction C6)
-When an exchange SHIPS something, close with Next Moves (Deepen / Adjacent / Act)
-+ a 1-line Operator Lesson. **Skip on answers, diagnostics, corrections,
+When an exchange SHIPS something, close with a visible recommended task title,
+exactly three ranked Next Moves, and a 1-line Operator Lesson. Each move must
+name a specific outcome, explain why it is the right continuation, include a
+copy-ready prompt, state the expected artifact/decision/proof event, and give
+one inspectable quality bar. **Skip on answers, diagnostics, corrections,
 conversation, terse asks, and mechanical turns — THE skip list lives in
 `directives/steering-loop.md` §1; this file no longer carries its own variant**
 (the old "every meaningful answer, no skips" rule here contradicted both other
 surfaces and padded conversational turns). Deep closeouts (builds, strategy,
-client work, real next decisions) may use the full Insightful Momentum format;
+client work, real next decisions) must use the full Insightful Momentum intelligence;
 `execution/contextual_next_prompts.py --objective "..."` helps when it fits.
 A skipped block is fine; a padded block is a failure.
 
