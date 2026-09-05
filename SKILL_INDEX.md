@@ -385,7 +385,7 @@
 | `skill-creator` | **skill-creator** | guide for creating effective skills | 1 | 0 |
 | `sky-tan-format-engine` | **Sky Tan - Format Engine** | core thesis: formats get views, expertise gets sales, format engine | 12 | 0 |
 | `slack-gif-creator` | **slack-gif-creator** | knowledge and utilities for creating animated gifs optimized for slack, provides constraints, validation tools, and animation concepts | 0 | 0 |
-| `soowei-consulting-leverage` | **SooWei Goh — Consulting Leverage Mastery** | complete founder workflow and leverage system for scaling consulting business..., consulting leverage mastery | 4 | 14 |
+| `soowei-consulting-leverage` | **SooWei Goh — Consulting Leverage Mastery** | complete founder workflow and leverage system for scaling consulting business..., consulting leverage mastery | 12 | 14 |
 | `stefan-georgi-dopamine-copy` | **stefan-georgi-dopamine-copy** | direct-response copywriting × neurochemical pharmacology, $700m+ in tracked sales behind the methodology, dopamine copywriting architecture | 12 | 0 |
 | `steven-kotler-flow-performance` | **steven-kotler-flow-performance** | repeatable flow for clients via neurobiology, not motivation platitudes, covers the 22 triggers | 3 | 0 |
 | `steven-pressfield-narrative-mastery` | **Steven Pressfield — Narrative Mastery** | diagnose and defeat the resistance, not formula, physics | 15 | 0 |

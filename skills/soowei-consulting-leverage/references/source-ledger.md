@@ -70,3 +70,18 @@ transcript material). Not used for quotes.
 
 No claim in this ledger is labeled based on absence-without-search — every UNCONFIRMED
 or LIKELY label above followed a full read of the five recovered transcript files.
+
+## 2026-09-04 organic content acquisition expansion
+
+Two additional primary sources were supplied by Farrice and preserved under
+`extractions/soowei-goh-organic-content-acquisition-2026/sources/`:
+
+| ID | Published title | Evidence package | Integrity |
+|---|---|---|---|
+| `Y388trCakrs` | “my exact $3M content strategy to sign $50k+ clients” | raw VTT, continuous transcript, 908 timestamped segments, metadata, 7 decision-relevant frames, spoken/visual ledger | VTT SHA-256 `9348cf689f42e29a746e7d8e45e2e0467670455bf7accea10a90dfc272af7e4c` |
+| `PRqSCE8uZns` | “i made over $7M by posting on instagram… here’s what actually works in 2026” | raw VTT, continuous transcript, 1,090 timestamped segments, metadata, 6 decision-relevant frames, spoken/visual ledger | VTT SHA-256 `45d9936df6a622ceb4fdcb29454a6563bc6d3f6637bac8ea09132294de47feaf` |
+
+New Patterns 17–26 and the eight organic-content workflows are grounded through
+`references/organic-content-acquisition-source-map.md`. Revenue, conversion share,
+client value, and performance claims remain **SELF-REPORTED**. The system mechanics
+are **VERIFIED FROM SOURCE**; their transfer to Farrice's business is **UNTESTED**.
