@@ -348,13 +348,22 @@ def check_organization(tmp: Path) -> list[str]:
     require(not codex_close.is_closeout_generated(
         "execution/unrelated_generated.py", "organization-fixture"
     ), "unrelated generated path must not be recognized as closeout-owned")
+    require(codex_close.is_closeout_generated(
+        ".agent/health/degradations.jsonl", "organization-fixture"
+    ), "closeout degradation receipts should remain stageable")
     self_heal = (ROOT / "execution" / "self_heal.py").read_text(encoding="utf-8")
     require('"--no-cache" not in sys.argv' in self_heal,
             "Codex self-heal review requires a non-mutating report mode")
     commands = codex_close.default_verifiers(ROOT)
     require(any("--section" in row and "end-session" in row for row in commands),
             "Codex Git gate must use the scoped End-session control-plane verifier")
-    return ["explicit owned artifact moves apply; uncertain files queue for review"]
+    spine_source = (ROOT / "execution" / "end_session_closeout.py").read_text(encoding="utf-8")
+    require("Codex closeout does not regenerate broad mission briefs" in spine_source,
+            "Codex-owned closeout must not regenerate unrelated mission briefs")
+    return [
+        "explicit owned artifact moves apply; uncertain files queue for review",
+        "Codex-owned closeout skips broad mission-brief regeneration",
+    ]
 
 
 def main() -> int:

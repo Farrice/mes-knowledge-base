@@ -407,6 +407,7 @@
 
 
 ## Pending enrichment
+- [2026-09-05 — Content: Farrice Niche Brief - Evidence-Led Direction](2026-09-05-farrice-nicolas-cole-niche-brief.md) — verified first application of the Nicolas Cole niche system; the golden brief is preserved and client productization is parked
 - [2026-09-03 — Handoff · studio-preview-wrapper · 2026-09-03 · status: ready (for a fresh executor session)](2026-09-03-handoff-studio-preview-wrapper-2026-09-03-status-ready-for-a.md) — operator-guide stub, needs enrichment
 - [2026-09-02 — 2026-09-02-jen-canvas](2026-09-02-2026-09-02-jen-canvas.md) — operator-guide stub, needs enrichment
 - [2026-09-01 — Handoff — cowork-skills-port + jen-content-os map](2026-09-01-handoff-cowork-skills-port-jen-content-os-map.md) — operator-guide stub, needs enrichment
