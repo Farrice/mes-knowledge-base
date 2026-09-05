@@ -87,6 +87,9 @@ PATH_REQUIREMENTS = {
         "Operator Insight",
         "Hidden Gap/Opportunity",
         "Capability Revealed",
+        "Recommended task title",
+        "Expected outcome",
+        "Quality bar",
     ),
     GLOBAL_WRAPPER: COMMON_REQUIREMENTS
     + (
@@ -193,7 +196,7 @@ When the project helper is available, use
 
 ## Output Contract
 
-Produce a concise session closeout: session name, slug, searchable keywords,
+Produce a concise session closeout: visible `Recommended task title`, session name, slug, searchable keywords,
 completed work, remaining priority, essential context paths, hot experts or
 workflows, `3 Next Prompts`, and an `Operator Lesson`. Run or request the
 project workflow's local closeout intelligence steps when operating inside the
@@ -202,9 +205,9 @@ before applying title, pin, or archive task actions.
 
 Meaningful closeouts must preserve the Insightful Momentum/frontier standard,
 not the legacy thin prompt shell. When the workspace renderer exists, run
-`execution/contextual_next_prompts.py` and retain its Output/Capability Move,
+`execution/contextual_next_prompts.py` and retain its Recommended task title, Output/Capability Move,
 Operator Insight, Hidden Gap/Opportunity, Capability Revealed, prompt, expected
-output, quality bar, skip condition, and suggested workflow fields.
+outcome, quality bar, skip condition, and suggested workflow fields.
 """
 
 GLOBAL_WRAPPER_TEXT = f"""---

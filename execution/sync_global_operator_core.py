@@ -31,6 +31,10 @@ PATH_REQUIREMENTS = {
     + (
         ANTIGRAVITY_WORKFLOW,
         "compatibility/front-door wrapper",
+        "Recommended task title",
+        "Expected outcome",
+        "Quality bar",
+        "materially different",
     ),
     GLOBAL_AUTOPILOT: COMMON_REQUIREMENTS
     + (
@@ -93,6 +97,62 @@ Codex subagents require explicit authorization.
 """
 
 
+GLOBAL_NEXT_PROMPTS_BLOCK = """## Three Contextual Next Prompts
+
+After a meaningful response with a real next decision, give exactly three
+ranked, session-specific recommendations. Keep them compact. Tiny answers and
+turns with no useful continuation may omit them.
+
+The recommendations must help finish the current job, close a consequential
+gap, or elevate the result toward a more remarkable outcome. They are not
+engagement bait and must be materially different leverage moves, never three
+paraphrases of "continue."
+
+Quality contract:
+
+- Preserve the session's actual intent, evidence, constraints, and unfinished
+  work. Generic advice that could follow any chat fails.
+- Rank the best next move first. The other two should offer materially
+  different leverage, such as stronger proof, a better artifact, creative
+  elevation, productization, automation, or a wider opportunity.
+- Surface a visible `Recommended task title` using
+  `[Domain]: [Specific Object] - [Outcome]`; setting the native title alone is
+  not a substitute for showing the retrieval label to Farrice.
+- Every move names a concrete outcome, explains why it is recommended, includes
+  a copy-ready prompt, states an explicit `Expected outcome`, and gives one
+  inspectable `Quality bar`.
+- An expected outcome must name the artifact, decision, proof event, or changed
+  state that will exist. "More clarity" or "improved output" alone fails.
+- Reveal useful capabilities naturally, but do not dump tools, agents, skills,
+  or workflows unless they change the decision.
+- If the best next action is safe, local, and already authorized, execute it
+  instead of using a recommendation to hand the work back.
+- State an approval boundary only when one genuinely exists.
+- `Use Now`, `Harden`, and `Expand` may guide coverage internally, but visible
+  titles must name the actual outcomes rather than repeat canned labels.
+
+Preferred visible shape:
+
+```markdown
+**Recommended task title:** [Domain]: [Specific Object] - [Outcome]
+
+## 3 Next Prompts
+1. **[Specific outcome]** — [why this is the best next move now]
+   **Prompt:** "[copy-ready continuation]"
+   **Expected outcome:** [artifact, decision, proof event, or changed state]
+   **Quality bar:** [one inspectable acceptance criterion]
+2. **[Different leverage move]** — [gap closed or capability gained]
+   **Prompt:** "[copy-ready continuation]"
+   **Expected outcome:** [artifact, decision, proof event, or changed state]
+   **Quality bar:** [one inspectable acceptance criterion]
+3. **[Creative or strategic elevation]** — [larger outcome made possible]
+   **Prompt:** "[copy-ready continuation]"
+   **Expected outcome:** [artifact, decision, proof event, or changed state]
+   **Quality bar:** [one inspectable acceptance criterion]
+```
+"""
+
+
 def read(path: Path) -> str:
     if not path.exists():
         raise AssertionError(f"Missing required file: {path}")
@@ -109,6 +169,13 @@ def ensure_block(text: str, block: str, anchor: str) -> str:
 
 
 def align_global_agents(text: str) -> str:
+    section_pattern = re.compile(
+        r"## Three Contextual Next Prompts\n.*?(?=\n## Compact Operator Lesson)",
+        flags=re.DOTALL,
+    )
+    text, replacements = section_pattern.subn(GLOBAL_NEXT_PROMPTS_BLOCK.rstrip() + "\n", text, count=1)
+    if replacements != 1:
+        raise AssertionError("global AGENTS alignment could not replace Three Contextual Next Prompts")
     canonical_line = f"The canonical Antigravity Autopilot workflow is `{ANTIGRAVITY_WORKFLOW}`."
     if canonical_line not in text:
         text = text.replace(

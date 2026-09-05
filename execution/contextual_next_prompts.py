@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import re
 from typing import Any
 
 
@@ -279,6 +280,9 @@ def infer_work_type(objective: str, route: str, objective_provided: bool = False
             "always-on steering",
             "normal answer",
             "every meaningful final answer",
+            "closeout intelligence",
+            "retrieval title",
+            "expected outcome",
         )
     ):
         return "steering_persistence"
@@ -814,7 +818,59 @@ def expected_output_for(work_type: str, name: str) -> str:
     return outputs.get(work_type, outputs["generic"]).get(name, outputs["generic"][name])
 
 
-def build_prompts(objective: str = "", stage: str = "closeout") -> dict[str, Any]:
+def recommended_task_title(objective: str, work_type: str) -> str:
+    """Return visible retrieval metadata for the next task or continuation."""
+    fixed = {
+        "steering_persistence": "System: Closeout Intelligence - Restore High-Value Next Prompts",
+        "session_closeout": "Ops: Session Closeout - Preserve Continuity and Momentum",
+        "system_operator": "System: Operator Behavior - Repair and Verify the Active Surface",
+        "source_capability": "Extraction: Source Capability - Build a Reusable System",
+        "content_creative": "Content: Creative Direction - Produce the Next Strong Asset",
+        "revenue_client": "Revenue: Client Opportunity - Build the Next Proof Asset",
+        "generic": "Ops: Current Objective - Advance the Highest-Leverage Next Move",
+    }
+    if work_type != "artifact_followup":
+        return fixed.get(work_type, fixed["generic"])
+
+    lowered = objective.lower()
+    artifact_names = (
+        ("portfolio", "Portfolio"),
+        ("playbook", "Playbook"),
+        ("dashboard", "Dashboard"),
+        ("website", "Website"),
+        ("prototype", "Prototype"),
+        ("brief", "Brief"),
+        ("deck", "Deck"),
+        ("presentation", "Presentation"),
+        ("prompt", "Prompt System"),
+    )
+    object_name = next((label for needle, label in artifact_names if needle in lowered), "Session Artifact")
+    return f"Creative: {object_name} - Build the Highest-Leverage Next Asset"
+
+
+def closeout_surface_issues(markdown: str) -> list[str]:
+    """Validate the visible contract, including the negative-control failure mode."""
+    issues: list[str] = []
+    title_match = re.search(r"^\*\*Recommended task title:\*\*\s+(.+)$", markdown, flags=re.MULTILINE)
+    if not title_match:
+        issues.append("missing visible Recommended task title")
+    elif not re.match(r"^[^:]+:\s+.+\s+-\s+.+$", title_match.group(1).strip()):
+        issues.append("recommended task title does not follow [Domain]: [Specific Object] - [Outcome]")
+
+    prompt_titles = re.findall(r"^\d+\. \*\*(.+?)\*\*$", markdown, flags=re.MULTILINE)
+    if len(prompt_titles) != 3:
+        issues.append(f"expected exactly 3 titled next prompts, found {len(prompt_titles)}")
+    if len(set(prompt_titles)) != len(prompt_titles):
+        issues.append("next-prompt titles are not distinct")
+
+    for label in ("Prompt", "Expected outcome", "Quality bar"):
+        count = len(re.findall(rf"\*\*{re.escape(label)}:\*\*", markdown))
+        if count != 3:
+            issues.append(f"expected {label} on all 3 prompts, found {count}")
+    return issues
+
+
+def build_prompts(objective: str = "", stage: str = "closeout", task_title: str = "") -> dict[str, Any]:
     state = state_context(objective)
     obj = state["objective"]
     route = state["route"]
@@ -898,6 +954,7 @@ def build_prompts(objective: str = "", stage: str = "closeout") -> dict[str, Any
         "stage": stage,
         "objective": obj,
         "work_type": work_type,
+        "recommended_task_title": task_title.strip() or recommended_task_title(obj, work_type),
         "context_paths": context_paths,
         "prompts": prompts,
     }
@@ -952,19 +1009,28 @@ def render_markdown(payload: dict[str, Any]) -> str:
         ]
         return "\n".join(lines)
 
-    lines = ["## 3 Next Prompts", "", "Suggested follow-ups:"]
+    lines = [
+        f"**Recommended task title:** {payload['recommended_task_title']}",
+        "",
+        "## 3 Next Prompts",
+        "",
+        "Suggested follow-ups:",
+    ]
     for idx, item in enumerate(payload["prompts"], 1):
         lines.extend(
             [
                 f"{idx}. **{item['followup_title']}**",
                 f"   - **Path:** {item['name']}",
+                f"   - **Why now:** {item['why']}",
                 f"   - **What it entails:** {item['entails']}",
                 f"   - **Output/Capability Move:** {item['suggestion_family']} - {item['frontier_pattern']}",
                 f"   - **Operator Insight:** {item['operator_insight']}",
                 f"   - **Hidden Gap/Opportunity:** {item['hidden_gap_opportunity']}",
                 f"   - **Capability Revealed:** {item['capability_revealed']}",
                 f"   - **Prompt:** `{item['prompt']}`",
+                f"   - **Expected outcome:** {item['expected_output']}",
                 f"   - **Quality bar:** {item['quality_bar']}",
+                f"   - **Skip if:** {item['skip_if']}",
                 f"   - **Suggested skills/workflows:** {', '.join('/' + skill.lstrip('/') for skill in item['suggested_skills'])}",
             ]
         )
@@ -974,11 +1040,12 @@ def render_markdown(payload: dict[str, Any]) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Render contextual next prompts.")
     parser.add_argument("--objective", default="", help="Override the inferred session objective.")
+    parser.add_argument("--task-title", default="", help="Override the visible recommended task title.")
     parser.add_argument("--stage", default="closeout", help="Session stage label.")
     parser.add_argument("--json", action="store_true", help="Print JSON instead of Markdown.")
     args = parser.parse_args()
 
-    payload = build_prompts(objective=args.objective, stage=args.stage)
+    payload = build_prompts(objective=args.objective, stage=args.stage, task_title=args.task_title)
     if args.json:
         print(json.dumps(payload, indent=2))
     else:

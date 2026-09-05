@@ -13,13 +13,24 @@ never blocks). Toggle off: `touch .agent/steering-loop.off` or `STEERING_LOOP_OF
 
 ## 1. The Next Moves block (every substantive exchange)
 
-Close every substantive reply with exactly this shape:
+Close every substantive reply with exactly this compact shape:
 
 ```
+**Recommended task title:** [Domain]: [Specific Object] - [Outcome]
+
 **Next Moves**
-1. Deepen — <copy-paste prompt that goes further on what was just delivered>
-2. Adjacent — <copy-paste prompt for the opportunity this unlocked that wasn't the ask>
-3. Act — <copy-paste prompt for the next concrete step toward an active goal — name the goal>
+1. **<specific outcome title>** — <why this is the best next move now>
+   **Prompt:** "<copy-paste continuation>"
+   **Expected outcome:** <the artifact, decision, proof event, or changed state that will exist>
+   **Quality bar:** <one inspectable acceptance criterion>
+2. **<materially different leverage move>** — <gap closed or capability gained>
+   **Prompt:** "<copy-paste continuation>"
+   **Expected outcome:** <the artifact, decision, proof event, or changed state that will exist>
+   **Quality bar:** <one inspectable acceptance criterion>
+3. **<higher-ceiling move>** — <larger outcome made possible>
+   **Prompt:** "<copy-paste continuation>"
+   **Expected outcome:** <the artifact, decision, proof event, or changed state that will exist>
+   **Quality bar:** <one inspectable acceptance criterion>
 
 Operator Lesson: <one line teaching the move behind the work, or the harness
 capability Farrice didn't know he had for exactly this situation>
@@ -37,6 +48,15 @@ Rules:
   hook's rotating "Harness tip" is the floor; genuine contextual matches beat it.
 - Frontier bar (from `/steering-compass`): preserve thread context, bridge real
   information gaps, no engagement-bait options that don't earn their slot.
+- The recommended task title is visible retrieval metadata, not merely an
+  internal rename. It must follow `[Domain]: [Specific Object] - [Outcome]`.
+- Each expected outcome names what will exist or change. "More clarity,"
+  "improved output," and other benefits without an artifact, decision, proof
+  event, or changed state fail.
+- The three moves must be materially different in leverage, not three versions
+  of "continue." If any prompt could follow an unrelated session unchanged,
+  rewrite it with this session's object, evidence, constraint, and unfinished
+  edge.
 - **Skip** for: answers, diagnostics, corrections, conversation, terse asks,
   pure system commands, mid-mission mechanical turns ("continue", "yes"), or
   when Farrice asks for quiet. (Amnesty 2026-07-29: this is THE skip list —
@@ -44,8 +64,11 @@ Rules:
   variants; three conflicting lists was contradiction C6.) A skipped block is
   fine; a padded block is a failure.
 - Deep closeouts (builds, strategy, extractions, client work, major decisions)
-  still use the full `/steering-compass` Insightful Momentum format (Use Now /
-  Harden / Expand). This block is the per-exchange floor, not a replacement.
+  **must** use the full `/steering-compass` Insightful Momentum intelligence,
+  while preserving the visible task title, Prompt, Expected outcome, and
+  Quality bar fields above. The three moves may map internally to Use Now /
+  Harden / Expand, but their visible titles must name the actual outcomes.
+  This compact block is the per-exchange floor, not a replacement.
 
 ## 2. Forge Radar (opportunity-to-build scanner)
 
