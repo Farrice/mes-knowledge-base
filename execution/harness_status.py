@@ -100,6 +100,36 @@ def latest_report_path() -> str:
     return str(reports[-1].relative_to(ROOT)) if reports else ""
 
 
+def current_state_findings(
+    intent: dict[str, Any], cohesion: dict[str, Any], mission: dict[str, Any]
+) -> tuple[list[str], list[str]]:
+    """Separate recorded state from state that is still current enough to act on."""
+    working: list[str] = []
+    stale: list[str] = []
+
+    intent_age = age_label(str(intent.get("updated_at", "")))
+    cohesion_age = age_label(str(cohesion.get("updated_at", "")))
+    if intent_age.startswith("fresh"):
+        working.append("intent memory is fresh")
+    else:
+        stale.append(f"intent memory is {intent_age}")
+    if cohesion_age.startswith("fresh"):
+        working.append("cohesion state is fresh")
+    else:
+        stale.append(f"cohesion state is {cohesion_age}")
+
+    mission_slug = str(mission.get("slug", "")).strip()
+    mission_status = str(mission.get("status", "")).strip().lower()
+    completed_states = {"complete", "completed", "done", "closed", "archived"}
+    if not mission_slug:
+        stale.append("no active mission recorded")
+    elif mission_status in completed_states:
+        stale.append(f"recorded mission is {mission_status}, not active: {mission_slug}")
+    else:
+        working.append(f"active mission recorded: {mission_slug}")
+    return working, stale
+
+
 def build_status() -> dict[str, Any]:
     intent = read_json(AGENT / "intent-memory" / "current.json")
     cohesion = read_json(AGENT / "system-cohesion-state.json")
@@ -126,10 +156,10 @@ def build_status() -> dict[str, Any]:
         working.append("intent memory and cohesion state agree")
     else:
         broken.append("intent memory and cohesion state do not agree")
-    if mission.get("slug"):
-        working.append(f"active mission recorded: {mission.get('slug')}")
-    else:
-        stale.append("no active mission recorded")
+    state_working, state_stale = current_state_findings(intent, cohesion, mission)
+    working.extend(state_working)
+    stale.extend(state_stale)
+    current_state_stale = bool(state_stale)
     if weekly.get("last_generated_at") and "stale" in age_label(str(weekly.get("last_generated_at"))):
         stale.append("weekly platter timestamp is stale")
     if all(item["pass"] for item in probes.values()):
@@ -137,9 +167,11 @@ def build_status() -> dict[str, Any]:
     else:
         broken.append("one or more routing probes failed")
 
-    next_move = cohesion.get("next_move", {}).get("action") or intent.get("next_move", {}).get("action") or ""
+    next_move = ""
+    if not current_state_stale:
+        next_move = cohesion.get("next_move", {}).get("action") or intent.get("next_move", {}).get("action") or ""
     if not next_move:
-        next_move = "Run /autopilot with raw context; use /system-audit for control-plane repairs."
+        next_move = "Run /autopilot with the current objective; use /system-audit for control-plane repairs."
 
     return {
         "summary": {

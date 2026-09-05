@@ -10,9 +10,13 @@ This is the pilot implementation of `semantic_libraries/antigravity/primitives/s
 
 `extractions/video-context/FD53kEpLh9c/`
 
-Agentic engineering source harvests are also grounded in:
+The earlier agentic-engineering harvest referenced:
 
 `extractions/video-context/PzVV4X37ihg/`
+
+That package is `UNAVAILABLE` on canonical main. The operating contract remains
+adopted, but source-backed revalidation is parked until the package is recovered
+or re-extracted. Do not claim the missing package was inspected.
 
 Entrepreneurial operator excellence example corpus:
 
@@ -55,9 +59,9 @@ Preserve these invariants:
 10. `extractions/video-context/FD53kEpLh9c/analysis.md` when running the pilot video
 11. `extractions/video-context/FD53kEpLh9c/video-context-ledger.md` for timestamped evidence
 12. `extractions/video-context/FD53kEpLh9c/uncertainty-report.md`
-13. `extractions/video-context/PzVV4X37ihg/analysis.md` when running the agentic engineering harvest
-14. `extractions/video-context/PzVV4X37ihg/video-context-ledger.md` for timestamped spoken evidence
-15. `extractions/video-context/PzVV4X37ihg/uncertainty-report.md` for the transcript-only evidence limit
+13. `extractions/video-context/PzVV4X37ihg/analysis.md` only if the package is restored; otherwise mark source proof `UNAVAILABLE`
+14. `extractions/video-context/PzVV4X37ihg/video-context-ledger.md` only after restoration
+15. `extractions/video-context/PzVV4X37ihg/uncertainty-report.md` only after restoration
 16. `extractions/video-context/ogTLWGBc3cE/analysis.md` when running the Nate B. Jones co-creative launchpad harvest
 17. `extractions/video-context/ogTLWGBc3cE/video-context-ledger.md` for timestamped spoken evidence and source limits
 
@@ -141,15 +145,15 @@ and launch behavior without expanding the live skill surface.
 
 | Field | Harvest Value |
 |---|---|
-| Source evidence | `extractions/video-context/PzVV4X37ihg/video-context-ledger.md`; transcript-backed package with frame/OCR evidence unavailable |
+| Source evidence | `UNAVAILABLE` on canonical main; the prior `PzVV4X37ihg` package must be recovered or re-extracted before source-proof claims |
 | Objective | Teach Codex Antigravity to run agentic engineering loops instead of vague vibe-coding loops |
-| Components | `/source-to-skill-system`, `/expert-composition-governor`, `/self-evolve`, `/system-audit`, `agentic-engineering-loop-contract.md`, `verify_agentic_engineering_loop_contract.py` |
+| Components | `/source-to-skill-system`, `/expert-composition-governor`, `/self-evolve`, `/system-audit`, `agentic-engineering-loop-contract.md`, live Operator Core and lane-safety verifiers |
 | Step order | source capture -> principle harvest -> existing-route fit -> companion OS contract -> workflow patch -> verifier -> router/cold-start proof |
 | Inputs | source URL or package path; user goal; router output; source evidence; approval boundary |
 | Outputs | semantic primitive, workflow integration, dependency safety rule, verifier output, cold-start prompt |
 | Handoff summary | Pass exact source paths and the Agentic Engineering Packet, not full transcript dumps |
 | Human checkpoint | Required before installing risky dependencies, broad routing changes, global edits, or external actions |
-| Validation | `verify_agentic_engineering_loop_contract.py`, router checks for agentic engineering/context engineering/small PR/package safety, and relevant control-plane verifiers |
+| Validation | `verify_google_operator_core.py`, `verify_main_write_guard.py`, `verify_lane_reconciler.py`, router checks for agentic engineering/context engineering/small PR/package safety, and relevant control-plane verifiers |
 | Behavior-changing proof | Cold-start run showing input, selected route, produced output, validation, and handoff |
 | Result surface | concise conversation closeout plus local primitive/workflow/verifier files |
 | Context policy | keep the contract hot through workflow references; load transcript/source package only on demand |

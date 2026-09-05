@@ -373,9 +373,10 @@ After system, router, workflow, skill, or bridge changes, run the smallest relev
 ```bash
 python3 execution/verify_artifact_router.py
 python3 execution/verify_codex_authority.py
-python3 execution/verify_agentic_engineering_loop_contract.py
+python3 execution/verify_main_write_guard.py
+python3 execution/verify_lane_reconciler.py
 python3 execution/verify_skill_system_contract.py
-python3 execution/verify_goal_loop_maintenance_contract.py
+python3 execution/verify_skill_evolution_candidates.py
 python3 execution/verify_mission_activation_contract.py
 python3 execution/verify_expert_composition_standard.py
 python3 execution/verify_repeatability_spine.py
