@@ -848,3 +848,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-04 06:45]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:7.0 status:Needs Improvement
 - `[2026-09-04 06:46]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:8.0 status:Keep
 - `[2026-09-04 16:34]` **finalize** | Jen 6-3-2 integration: reviewed two completed tasks, selected native-first pilot and first carousel, | content | jen-santulan — composite:8.33 status:Keep
+- `[2026-09-06 16:22]` **finalize** | Dan Koe LinkedIn source extension plus free video fallback and process audit | general | dan-koe — composite:7.0 status:Needs Improvement
