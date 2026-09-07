@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-07",
+  "status": "PARTIAL",
+  "global_changes": {
+    "applied": true,
+    "learning_enabled": false,
+    "jarvis_startup_enabled": false,
+    "jarvis_plugin_enabled": true,
+    "other_parsed_settings_preserved": true,
+    "config_sha256_before": "a1c6fd581323d1004c7d575229ed2a8e9aa7b679190113bee43ad550b774f91d",
+    "config_sha256_after": "23d5944266e03b1d5dc27719765b1dfb1a20a2ca285bcaec39febd80a382029f",
+    "activation_evidence": "evidence/startup-activation.json"
+  },
+  "local_repair": {
+    "tests_passed": 14,
+    "operator_core": "PASS",
+    "behavioral_evals": {
+      "PASS": 2,
+      "NOT_RUN": 4
+    },
+    "integration": "PENDING"
+  },
+  "jen": {
+    "editorial_verdict": "FAIL",
+    "new_post": "NO_NEW_POST",
+    "specimen_preserved": true,
+    "production_task": "01a07ddd-9356-7f61-a9b7-44c110be73ec",
+    "full_workspace_parity": "UNVERIFIED"
+  },
+  "subagents": 0,
+  "limits": [
+    "Existing current-task injections remain in loaded context.",
+    "Receipt validation cannot prove semantic quality.",
+    "Jen craft repeatability remains unproved."
+  ],
+  "previous_audit_receipt": "INITIAL-AUDIT-RECEIPT.json"
+}

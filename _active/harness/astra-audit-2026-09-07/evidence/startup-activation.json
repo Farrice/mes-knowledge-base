@@ -1,0 +1,41 @@
+{
+  "fresh_task_id": "01a07ddd-9356-7f61-a9b7-44c110be73ec",
+  "title": "Client: Jen B-Roll Post - Approved Voice Continuation",
+  "source": "/Users/farricecain/.codex/sessions/2026/09/07/rollout-2026-09-07T14-54-28-01a07ddd-9356-7f61-a9b7-44c110be73ec.jsonl",
+  "observed_developer_messages": [
+    {
+      "line": 3,
+      "characters": 50612,
+      "sha256": "51246f3728d6d0acf5a25653a6f9e62bf869d07c6a834c213b4d7553d8653a7f",
+      "learning_injection": false,
+      "jarvis_injection": false
+    },
+    {
+      "line": 4,
+      "characters": 2429,
+      "sha256": "47091490938505958b0c22ff42db6fd79b272a2af6923166f4c2cc53c4fe0df4",
+      "learning_injection": false,
+      "jarvis_injection": false
+    },
+    {
+      "line": 5,
+      "characters": 271,
+      "sha256": "6ded806e3cdbb35599ecaf8742574bc5274908472b1729090010c404c2151e8e",
+      "learning_injection": false,
+      "jarvis_injection": false
+    }
+  ],
+  "contexts": [
+    {
+      "cwd": "/Users/farricecain/.codex/worktrees/ed61/Google Antigravity",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  ],
+  "learning_present": false,
+  "jarvis_present": false,
+  "learning_plugin_enabled": false,
+  "jarvis_hook_enabled": false,
+  "jarvis_plugin_enabled": true,
+  "limit": "Observed serialized startup developer payloads of a real fresh project task; does not prove every remaining hook fires."
+}

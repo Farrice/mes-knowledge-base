@@ -1,0 +1,19 @@
+test_all_six_cases_required_once (test_harness_eval_evidence.EvalEvidenceTests.test_all_six_cases_required_once) ... ok
+test_instruction_source_cannot_be_model_evidence (test_harness_eval_evidence.EvalEvidenceTests.test_instruction_source_cannot_be_model_evidence) ... ok
+test_long_form_and_bullets_cannot_pass (test_harness_eval_evidence.EvalEvidenceTests.test_long_form_and_bullets_cannot_pass) ... ok
+test_mutated_or_missing_output_is_rejected (test_harness_eval_evidence.EvalEvidenceTests.test_mutated_or_missing_output_is_rejected) ... ok
+test_old_instruction_presence_pass_is_rejected (test_harness_eval_evidence.EvalEvidenceTests.test_old_instruction_presence_pass_is_rejected) ... ok
+test_router_needs_execution_trace_as_well_as_answer (test_harness_eval_evidence.EvalEvidenceTests.test_router_needs_execution_trace_as_well_as_answer) ... ok
+test_script_output_cannot_stand_in_for_model_behavior (test_harness_eval_evidence.EvalEvidenceTests.test_script_output_cannot_stand_in_for_model_behavior) ... ok
+test_short_actual_response_is_accepted (test_harness_eval_evidence.EvalEvidenceTests.test_short_actual_response_is_accepted) ... ok
+test_unrun_cases_are_valid_but_not_passes (test_harness_eval_evidence.EvalEvidenceTests.test_unrun_cases_are_valid_but_not_passes) ... ok
+test_legacy_error_zero_does_not_reintroduce_false_block (test_system_health_evidence.HealthEvidenceTests.test_legacy_error_zero_does_not_reintroduce_false_block) ... ok
+test_malformed_response_is_not_zero (test_system_health_evidence.HealthEvidenceTests.test_malformed_response_is_not_zero) ... ok
+test_network_error_is_unknown_in_data_and_report (test_system_health_evidence.HealthEvidenceTests.test_network_error_is_unknown_in_data_and_report) ... ok
+test_readiness_thresholds_remain_measured (test_system_health_evidence.HealthEvidenceTests.test_readiness_thresholds_remain_measured) ... ok
+test_successful_empty_response_remains_zero (test_system_health_evidence.HealthEvidenceTests.test_successful_empty_response_remains_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.030s
+
+OK
