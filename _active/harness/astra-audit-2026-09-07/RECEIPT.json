@@ -18,7 +18,10 @@
       "PASS": 2,
       "NOT_RUN": 4
     },
-    "integration": "PENDING"
+    "integration": "PARKED",
+    "canonical_runtime_updated": false,
+    "implementation_commit": "5644e3fc158ca5c03e5c1585a4aca3d8a84138b9",
+    "reason": "Shared main has 122 unrelated tracked changes; normal lane integration refused. No remote push."
   },
   "jen": {
     "editorial_verdict": "FAIL",

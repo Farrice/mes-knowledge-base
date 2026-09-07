@@ -20,7 +20,7 @@ The latest complete candidate fails the approved craft comparison. The new produ
 
 ## Integration
 
-PENDING: changes are in the isolated `codex/astra-harness-audit-20260907` lane. The normal lane merge will be attempted with no remote push. Shared main changes will not be overwritten.
+**PARKED, NOT DEPLOYED TO CANONICAL MAIN.** The verified implementation is committed as `5644e3fc158ca5c03e5c1585a4aca3d8a84138b9` in `codex/astra-harness-audit-20260907`. The normal lane merge found 122 unrelated tracked changes in shared main and parked safely. No remote push or forced merge occurred. The global configuration changes above are already active; the local reporting changes become active only after safe lane integration. This is a repository integration limit, not a failed code test. The audit lane remains available for inspection.
 
 ## Remaining boundaries
 
