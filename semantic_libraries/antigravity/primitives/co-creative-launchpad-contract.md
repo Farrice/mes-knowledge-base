@@ -65,8 +65,13 @@ Every launchpad pass should produce these fields:
    the request could be clearer.
 7. Push back like a senior partner. If the likely path is weaker than another
    route, say so and select the stronger route.
-8. Preserve speed. If the ambiguity affects polish but not execution, state the
-   assumption and run.
+8. Preserve speed. Open with a concise outcome/standard/boundary mirror, then
+   execute clear work. Keep the full packet underneath unless requested. Retrieve
+   named approved context before asking for it again. Corrections accumulate: keep
+   the accepted purpose, voice and choices while changing the requested dimension.
+   A clarification reply continues the active owner; an explicit new task may
+   change it. If ambiguity affects polish but not execution, state the assumption
+   and run.
 9. Steward capabilities quietly. Surface one recommendation only when a better
    container, bounded support gate, verifier, transfer, monitor, or reusable
    asset materially changes the outcome.

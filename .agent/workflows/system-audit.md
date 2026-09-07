@@ -96,10 +96,11 @@ python3 execution/verify_autopilot_routing.py
 Run the control-plane guard:
 
 ```bash
-python3 execution/verify_system_control_plane.py
+python3 execution/verify_control_intent.py
+python3 execution/verify_google_operator_core.py
 ```
 
-If it fails, treat the failure as higher priority than generic command-count or duplicate-skill findings. The guard must catch:
+These current canonical checks own the routing matrix. Do not reintroduce a deferred fork-era verifier as a mandatory step below. If a current check fails, treat the failure as higher priority than generic command-count or duplicate-skill findings. The guard must catch:
 
 - broken-system phrases routing to specialist workflows
 - repeatability phrases routing to literal keyword workflows instead of `/repeatability-spine`

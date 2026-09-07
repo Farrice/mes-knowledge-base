@@ -101,6 +101,10 @@ def main() -> int:
     except json.JSONDecodeError:
         payload = {}
     repo_root = _active_repo_root(payload if isinstance(payload, dict) else {})
+    sys.path.insert(0, str(repo_root / "execution"))
+    from tool_event import normalize_event
+    if isinstance(payload, dict):
+        hook_input = json.dumps(normalize_event(payload))
     script_rel, fixed_args = TARGETS[target_name]
     script_path = repo_root / script_rel
     if not script_path.exists():

@@ -301,6 +301,56 @@ def cmd_bootstrap(args) -> int:
 
 
 # ── parity (the full-power guarantee) ───────────────────────────────
+def episodic_parity(lane: Path, main: Path) -> list[str]:
+    """Prove a canonical indexed exchange is visible through the lane's scope.
+
+    Reading SQLite directly avoids embeddings, providers and private text in
+    receipts. Load each checkout's actual facade, so an old lane cannot inherit
+    a PASS from the current helper's implementation.
+    """
+    probe = '''
+import importlib.util, json, sqlite3, sys
+from contextlib import closing
+from pathlib import Path
+def facade(root, name):
+    spec = importlib.util.spec_from_file_location(name, Path(root) / 'execution/memory_facade.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+def scope(m):
+    keys = m.EPISODIC_PROJECTS or []
+    return (' AND project IN (' + ','.join('?' for _ in keys) + ')' if keys else ''), keys
+try:
+    main, lane = facade(sys.argv[1], 'parity_main'), facade(sys.argv[2], 'parity_lane')
+    notes = []
+    if main.EPISODIC_DB.exists():
+        with closing(sqlite3.connect(f'file:{main.EPISODIC_DB}?mode=ro', uri=True, timeout=5)) as con:
+            con.execute('PRAGMA query_only=ON')
+            sql, keys = scope(main)
+            row = con.execute('SELECT id FROM exchanges WHERE 1=1' + sql + ' LIMIT 1', keys).fetchone()
+        if row:
+            with closing(sqlite3.connect(f'file:{lane.EPISODIC_DB}?mode=ro', uri=True, timeout=5)) as con:
+                con.execute('PRAGMA query_only=ON')
+                sql, keys = scope(lane)
+                found = con.execute('SELECT 1 FROM exchanges WHERE id=?' + sql, [row[0], *keys]).fetchone()
+            if not found:
+                notes.append('episodic history is indexed on main but excluded by lane memory scope')
+    print(json.dumps(notes))
+except Exception as exc:
+    print(json.dumps(['episodic parity unavailable: ' + str(exc)[:160]]))
+'''
+    try:
+        result = subprocess.run(
+            [sys.executable, "-B", "-c", probe, str(main), str(lane)],
+            capture_output=True, text=True, timeout=20,
+        )
+        if result.returncode:
+            return ["episodic parity probe failed: " + result.stderr[-160:]]
+        return json.loads(result.stdout)
+    except (OSError, subprocess.SubprocessError, ValueError) as exc:
+        return [f"episodic parity unavailable: {str(exc)[:160]}"]
+
+
 def run_parity(lane: Path, main: Path, record=False):
     """Prove the lane has main-identical functionality. Returns (ok, [deficiencies]).
     Nudge, never block: informational even when degraded."""
@@ -452,6 +502,8 @@ def run_parity(lane: Path, main: Path, record=False):
                     d.append("sovereign.db opens but is empty")
             except Exception as e:
                 d.append(f"sovereign.db read failed: {e}")
+
+    d.extend(episodic_parity(lane, main))
 
     # 5. in-repo surface counts (catches a stale branch base)
     for rel, label in ((".claude/commands", "slash commands"),

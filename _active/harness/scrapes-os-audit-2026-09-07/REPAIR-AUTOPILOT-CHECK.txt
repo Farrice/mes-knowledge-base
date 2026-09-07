@@ -1,0 +1,62 @@
+Autopilot intent-to-outcome runtime verification: PASS
+- current-market-research-free-first: route=/deep-research-os, lane=deep-research-os, status=Running now
+- missing-runtime-repair-owned-by-system-audit: route=/system-audit, lane=system-failure, status=Running now
+- safe-local-run: route=/autopilot, lane=general, status=Running now
+- plan-mode-pauses: route=/autopilot, lane=general, status=Plan only
+- menu-mode-orchestrate: route=/orchestrate, lane=menu-backend, status=Plan only
+- publish-risk-blocks: route=/autopilot, lane=general, status=Blocked by risk
+- plugin-packaging: route=/plugin-readiness-audit, lane=plugin-packaging, status=Running now
+- control-plane-audit: route=/system-audit, lane=system-failure, status=Running now
+- operating-alignment: route=/system-audit, lane=system-failure, status=Running now
+- capability-stewardship-lifecycle: route=/system-audit, lane=system-failure, status=Running now
+- capability-awareness-natural-language: route=/system-audit, lane=system-failure, status=Running now
+- genuine-current-session-closeout: route=/end-session, lane=end-session-closeout, status=Needs judgment
+- delegate-dry-run: route=/autopilot, lane=delegate, status=Running now
+- front-door-choice: route=/autopilot, lane=front-door-choice, status=Running now
+- raw-intent-bridge: route=/autopilot, lane=front-door-choice, status=Running now
+- repeatability: route=/repeatability-spine, lane=repeatability, status=Running now
+- system-broken: route=/autopilot, lane=system-failure, status=Running now
+- launchpad-vague-raw-intent: route=/autopilot, lane=front-door-choice, status=Needs judgment
+- launchpad-clear-execution: route=/autopilot, lane=front-door-choice, status=Running now
+- launchpad-source-system: route=/source-to-skill-system, lane=skill-system, status=Running now
+- launchpad-taste-pause: route=/autopilot, lane=general, status=Needs judgment
+- dynamic-workflow-escalation: route=/autopilot, lane=general, status=Running now
+- operator-cockpit-engineering-debt: route=/system-audit, lane=system-failure, status=Needs judgment
+- operator-cockpit-ambiguous-intent: route=/system-audit, lane=system-failure, status=Needs judgment
+- operator-cockpit-claude-intent: route=/system-audit, lane=system-failure, status=Needs judgment
+- operator-cockpit-retrieval-failure: route=/system-audit, lane=system-failure, status=Needs judgment
+- negative-control: nonexistent route and verifier cannot inherit Running now
+- tiny-mechanical-quiet: move=continue, visible=False
+- distinct-branch-handoff: move=handoff, visible=True
+- durable-branch-new-task-recommendation: move=recommend-new-task, visible=True
+- taste-fatigue-fresh-pen: move=fresh-pen, visible=True
+- bounded-expert-composition: move=bounded-support, visible=True
+- safe-local-verifier: move=verify, visible=True
+- external-publish-send-boundary: move=continue, visible=True
+- repeatable-process-preservation: move=preserve, visible=True
+- circling-verification-checkpoint: move=verify, visible=True
+- creative-fiction-free: create/exploration/skip, visible=False
+- speculative-mechanism-free: create/exploration/skip, visible=False
+- fictional-production-free: execute/production/skip, visible=False
+- mechanical-bypass: execute/production/skip, visible=False
+- stable-authoritative-analysis: analyze/decision/local, visible=True
+- current-primary-counterevidence: analyze/decision/free-primary, visible=True
+- buyer-behavior-probe: probe/decision/free-primary, visible=True
+- weak-evidence-escalation: analyze/decision/escalate, visible=True
+- paid-research-stops-before-launch: analyze/decision/escalate, visible=True
+- buyer-interview-stops-before-launch: probe/decision/escalate, visible=True
+- prototype-not-production-proof: create/exploration/skip, visible=False
+- direct-production-request: execute/production/local, visible=False
+- two-pass-reframe: analyze/decision/local, visible=True
+- taste-confirmed-continue: create/production/skip, visible=True
+- research-keyword-negative-control: create/exploration/skip, visible=False
+- current-keyword-negative-control: execute/production/skip, visible=False
+- explicit-build-depth-override: execute/production/skip, visible=True
+- routing-precedence: operating-default prompt -> /system-audit
+- routing-precedence: administrative global mirror -> /system-audit
+- routing-negative-control: creative mirror prompts remain domain-eligible
+- routing-negative-control: social-AI product -> /reid-hoffman-design-agent-field
+- routing-precedence: KDP domain binding -> /kdp-engine before fuzzy search
+- shadow-receipt-creative: PASS; blind sample B preferred (9>0)
+- shadow-receipt-market: PASS; blind sample A preferred (8>1)
+- shadow-receipt-system: PASS; blind sample A preferred (9>1)

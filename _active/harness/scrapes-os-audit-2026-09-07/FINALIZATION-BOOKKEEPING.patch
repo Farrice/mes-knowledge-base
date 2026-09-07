@@ -1,0 +1,60 @@
+diff --git a/directives/feedback-ratchet.md b/directives/feedback-ratchet.md
+index 0e9267770..b63449f7d 100644
+--- a/directives/feedback-ratchet.md
++++ b/directives/feedback-ratchet.md
+@@ -141,9 +141,9 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on
+ 
+ | Field | Value |
+ |-------|-------|
+-| **Last Activated** | 2026-09-03 (chain_runner finalize for vendor:00-social-content) |
+-| **Last Activated** | 2026-09-03 (chain_runner finalize for vendor:00-social-content) |
+-| **Activation Count** | 923 |
++| **Last Activated** | 2026-09-07 (chain_runner finalize for source-command-system-audit) |
++| **Last Activated** | 2026-09-07 (chain_runner finalize for source-command-system-audit) |
++| **Activation Count** | 924 |
+ 
+ **Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.
+ **Phase 3**: PAUSED — concrete unlock in `.agent/evolution-paused.json`: eval set ≥15 human-calibrated entries + one Phase 2 cycle on a calibrated candidate. (The 2026-03-30 cross-pollination was a one-off predating the rubric pause.)
+diff --git a/directives/quality_gate.md b/directives/quality_gate.md
+index 7b8845d1c..8afe7d485 100644
+--- a/directives/quality_gate.md
++++ b/directives/quality_gate.md
+@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
+ 
+ | Field | Value |
+ |-------|-------|
+-| **Last Activated** | 2026-09-03 (chain_runner finalize for vendor:00-social-content) |
+-| **Last Activated** | 2026-09-03 (chain_runner finalize for vendor:00-social-content) |
+-| **Activation Count** | 911 |
+-| **30-Day Review Date** | 2026-10-03 |
++| **Last Activated** | 2026-09-07 (chain_runner finalize for source-command-system-audit) |
++| **Last Activated** | 2026-09-07 (chain_runner finalize for source-command-system-audit) |
++| **Activation Count** | 912 |
++| **30-Day Review Date** | 2026-10-07 |
+ 
+ *Created: 2026-02-17 | Compressed: 2026-04-13*
+diff --git a/directives/session-state-protocol.md b/directives/session-state-protocol.md
+index 5a08a8813..174ec8765 100644
+--- a/directives/session-state-protocol.md
++++ b/directives/session-state-protocol.md
+@@ -68,8 +68,8 @@ Paraphrasing flow ("We discussed X, then Y") loses specifics. Instead: "Decided:
+ 
+ | Field | Value |
+ |-------|-------|
+-| **Last Activated** | 2026-09-03 (chain_runner session checkpoint) |
+-| **Activation Count** | 910 |
+-| **30-Day Review Date** | 2026-10-03 |
++| **Last Activated** | 2026-09-07 (chain_runner session checkpoint) |
++| **Activation Count** | 911 |
++| **30-Day Review Date** | 2026-10-07 |
+ 
+ *Created: 2026-02-27 | Compressed: 2026-04-13*
+diff --git a/knowledge/log.md b/knowledge/log.md
+index bad8e0496..c6df34192 100644
+--- a/knowledge/log.md
++++ b/knowledge/log.md
+@@ -848,3 +848,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
+ - `[2026-09-04 06:45]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:7.0 status:Needs Improvement
+ - `[2026-09-04 06:46]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:8.0 status:Keep
+ - `[2026-09-04 16:34]` **finalize** | Jen 6-3-2 integration: reviewed two completed tasks, selected native-first pilot and first carousel, | content | jen-santulan — composite:8.33 status:Keep
++- `[2026-09-07 15:12]` **finalize** | System audit: Scrapes versus Antigravity architecture, verified Codex adapter defects and bounded re | strategy | system-audit — composite:7.0 status:Needs Improvement

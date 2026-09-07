@@ -22,6 +22,10 @@ from antigravity_global_access import classify_global_access_intent
 # fire alone; weak surface terms only count in aggregate and never against a
 # content-domain prompt.
 STRONG_ANCHOR_TERMS = (
+    "execution records",
+    "session memory",
+    "agentic os",
+    "antigravity workspace",
     "codex",
     "claude code",
     "claude parity",
@@ -219,6 +223,7 @@ DELIVERABLE_VERBS = (
 )
 
 SYSTEM_ACTION_TERMS = (
+    "restore",
     "audit",
     "check",
     "repair",
@@ -507,6 +512,10 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
             q,
         )
     )
+    if direct_content_artifact:
+        anchor_hits = [h for h in anchor_hits if h not in {
+            "execution records", "session memory", "agentic os", "antigravity workspace"
+        }]
     operating_alignment_match = (
         len(set(operating_alignment_hits)) >= 2
         and bool(operating_alignment_change_hits)

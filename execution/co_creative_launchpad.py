@@ -13,6 +13,7 @@ import json
 import re
 from typing import Any, Iterable
 
+from action_intent import has_requested_terms
 from control_intent import classify_control_intent
 
 
@@ -761,7 +762,7 @@ def capability_stewardship_decision(
     lifecycle_build = has_any(q, CAPABILITY_LIFECYCLE_TERMS) and (
         "persistent" in q or "default" in q or "session" in q or "magic words" in q
     )
-    external_action = bool(risks) or has_any(q, RISK_TERMS)
+    external_action = bool(risks) or has_requested_terms(q, RISK_TERMS)
 
     if tiny_mechanical:
         return {
@@ -926,7 +927,7 @@ def infer_center(query: str, route: str = "", lane: str = "") -> str:
     q = normalize(query)
     classified = classify_control_intent(query)
     if classified["route"] == "system-audit":
-        return "A control-plane front door where routing, hooks, and defaults are classified by intent shape instead of brittle magic phrases."
+        return query.strip()  # Preserve this repair's actual outcome; do not substitute a generic OS ambition.
     if route == "repeatability-spine":
         return "A replayable preservation lock that compares the prior good run against the current degraded run before changing the system."
     if has_any(q, OPERATOR_COCKPIT_TERMS):
@@ -961,7 +962,7 @@ def infer_edges(query: str, risk_reasons: Iterable[str] = (), route: str = "") -
         edges.append("Extend the existing control plane instead of adding a competing front door.")
     if has_any(q, TASTE_TERMS):
         edges.append("Turn taste language into acceptance criteria before drafting or building.")
-    if has_any(q, RISK_TERMS) or list(risk_reasons):
+    if has_requested_terms(q, RISK_TERMS) or list(risk_reasons):
         edges.append("Stop before external, paid, destructive, global, public, connector-write, or real-subagent action.")
     if not edges:
         edges.append("State assumptions and keep the first action local, reversible, and verifiable.")
@@ -1096,7 +1097,7 @@ def route_bias(query: str, route: str = "", lane: str = "") -> dict[str, Any]:
         primary = "repeatability-spine"
         support = ["system-audit", "routing-intelligence"]
         reason = "Prior-session or golden-run quality drift belongs to /repeatability-spine before control-plane repair."
-    elif has_any(q, OPERATOR_COCKPIT_TERMS):
+    elif route == "system-audit" or has_any(q, OPERATOR_COCKPIT_TERMS):
         primary = "system-audit"
         support = ["autopilot", "health-check", "routing-intelligence", "expert-composition-governor", "self-evolve", "artifact-router"]
         reason = "Operator-cockpit and control-plane repair belongs to /system-audit with bounded support gates."
@@ -1130,7 +1131,7 @@ def pause_or_run(
 ) -> dict[str, Any]:
     q = normalize(query)
     risks = list(risk_reasons)
-    if risks or has_any(q, RISK_TERMS):
+    if risks or has_requested_terms(q, RISK_TERMS):
         return {
             "decision": "block_for_risk",
             "reason": "Risk-gated action detected before local execution.",
@@ -1205,7 +1206,7 @@ def build_launchpad(
         inquiry["mode"] == "create"
         and inquiry["build_purpose"] == "exploration"
         and not risk_reasons
-        and not has_any(normalize(query), RISK_TERMS)
+        and not has_requested_terms(query, RISK_TERMS)
     ):
         questions = []
         pause = {
