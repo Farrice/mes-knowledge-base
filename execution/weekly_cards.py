@@ -8,7 +8,7 @@ up under its existing T1-only gates. Cost to run: $0 at mint; two T1 cards/week
 of Claude plan usage at execution.
 
 Card 1 — HARNESS EVALS (move #2): run evolution_store/harness_evals/eval_set_v1.md,
-grade PASS/FAIL, report-only scorecard. "Unit tests for the agent" (Rauch 39:57).
+grade observed runs PASS/FAIL/NOT_RUN/BLOCKED, report-only scorecard.
 
 Card 2 — VERDICT-TO-DIFF (move #3): aggregate the week's low-composite finalize
 rows + fresh feedback memories + failure-registry entries into PROPOSED skill-file
@@ -103,7 +103,10 @@ def mint_evals():
         "## Constraints",
         "- DRAFTS AND FILES ONLY. Nothing transmitted, posted, or purchased.",
         "- E4 runs against a TEMP copy only — never touch the real queue's cards.",
-        "- Grade honestly; a 6/6 with thin evidence is worth less than a 4/6 with receipts.",
+        "- PASS/FAIL requires an actual run and linked response or tool-output evidence; source instructions are not proof.",
+        "- Mark unexecuted cases NOT_RUN or BLOCKED with a reason; do not launch unapproved models, tasks or subagents.",
+        "- Save the JSON evidence sidecar and run execution/verify_harness_eval_evidence.py against it.",
+        "- Report PASS/FAIL/NOT_RUN/BLOCKED counts separately; no notifications or other external writes.",
     ])
 
 
