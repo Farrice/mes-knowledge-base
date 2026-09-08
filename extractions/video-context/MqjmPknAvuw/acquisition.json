@@ -1,0 +1,36 @@
+{
+  "source": "https://www.youtube.com/watch?v=MqjmPknAvuw",
+  "origin_url": null,
+  "started_at": "2026-09-06T23:10:44Z",
+  "paid_api_calls": 0,
+  "new_dependencies": 0,
+  "stages": [
+    {
+      "captions_exit": 0
+    },
+    {
+      "download_exit": 0
+    }
+  ],
+  "review_status": "NOT_REVIEWED",
+  "status": "CAPTURED_REVIEW_REQUIRED",
+  "duration_seconds": 1881.474,
+  "media_path": "raw/video.mp4",
+  "media_sha256": "8177a2cbaa66a21418d68e398c558d5751c07bfb3dd8e17f632c63f75f5f1ae9",
+  "transcript_source": "native_captions",
+  "transcript_coverage": {
+    "status": "captured_needs_accuracy_review",
+    "timeline_fraction": 0.9945,
+    "first_seconds": 1.829,
+    "last_seconds": 1881.474,
+    "gaps_over_30s": []
+  },
+  "frames_extracted": 40,
+  "frames_reviewed": 0,
+  "limits": [
+    "ASR/captions can contain errors; timeline coverage is not accuracy.",
+    "Sparse frames can miss brief visuals; inspect cue frames before visual claims.",
+    "Public source availability is not guaranteed; no access-control bypass."
+  ],
+  "preserved_from": "/private/tmp/dan-koe-free-tool-live"
+}

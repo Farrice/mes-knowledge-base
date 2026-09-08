@@ -1,0 +1,15 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=MqjmPknAvuw
+[youtube] MqjmPknAvuw: Downloading webpage
+[youtube] MqjmPknAvuw: Downloading web embedded client config
+[youtube] MqjmPknAvuw: Downloading player f572e43c-main
+[youtube] MqjmPknAvuw: Downloading web embedded player API JSON
+[youtube] [jsc:deno] Solving JS challenges using deno
+[info] MqjmPknAvuw: Downloading 1 format(s): 398+251-20
+[info] Writing video metadata as JSON to: /private/tmp/dan-koe-free-tool-live/raw/video.info.json
+[download] Destination: /private/tmp/dan-koe-free-tool-live/raw/video.f398.mp4
+[download] Download completed
+[download] Destination: /private/tmp/dan-koe-free-tool-live/raw/video.f251-20.webm
+[download] Download completed
+[Merger] Merging formats into "/private/tmp/dan-koe-free-tool-live/raw/video.mp4"
+Deleting original file /private/tmp/dan-koe-free-tool-live/raw/video.f251-20.webm (pass -k to keep)
+Deleting original file /private/tmp/dan-koe-free-tool-live/raw/video.f398.mp4 (pass -k to keep)

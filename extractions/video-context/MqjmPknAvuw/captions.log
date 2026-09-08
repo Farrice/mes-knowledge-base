@@ -1,0 +1,14 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=MqjmPknAvuw
+[youtube] MqjmPknAvuw: Downloading webpage
+[youtube] MqjmPknAvuw: Downloading web embedded client config
+[youtube] MqjmPknAvuw: Downloading player f572e43c-main
+[youtube] MqjmPknAvuw: Downloading web embedded player API JSON
+[youtube] [jsc:deno] Solving JS challenges using deno
+[info] MqjmPknAvuw: Downloading subtitles: en-orig, en
+[info] MqjmPknAvuw: Downloading 1 format(s): 399+251-20
+[info] Writing video subtitles to: /private/tmp/dan-koe-free-tool-live/raw/video.en-orig.vtt
+[download] Destination: /private/tmp/dan-koe-free-tool-live/raw/video.en-orig.vtt
+[download] Download completed
+[info] Writing video subtitles to: /private/tmp/dan-koe-free-tool-live/raw/video.en.vtt
+[download] Destination: /private/tmp/dan-koe-free-tool-live/raw/video.en.vtt
+[download] Download completed
