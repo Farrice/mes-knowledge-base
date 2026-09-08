@@ -504,6 +504,7 @@ def is_closeout_generated(path: str, slug: str) -> bool:
         ".agent/sessions/notion-session-memory-outbox.jsonl",
         ".agent/sessions/notion-session-memory-events.jsonl",
         ".agent/sessions/closeout-intelligence-guard.jsonl",
+        ".agent/health/degradations.jsonl",
         ".agent/routing-feedback-inbox.jsonl",
         ".agent/performance-log.jsonl",
         ".agent/performance-log-inbox.jsonl",
