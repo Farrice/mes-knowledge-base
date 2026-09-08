@@ -14,6 +14,9 @@ LOCAL_WRAPPER = ROOT / ".agents" / "skills" / "source-command-system-audit" / "S
 GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SYSTEM_AUDIT = Path.home() / ".codex" / "skills" / "system-audit" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-system-audit" / "SKILL.md"
+AGENTIC_CONTRACT = ROOT / "semantic_libraries" / "antigravity" / "primitives" / "agentic-engineering-loop-contract.md"
+GOAL_LOOP_CONTRACT = ROOT / "semantic_libraries" / "antigravity" / "primitives" / "goal-loop-maintenance-contract.md"
+SOURCE_TO_SKILL = ROOT / ".agent" / "workflows" / "source-to-skill-system.md"
 
 REQUIRED_TEXT = {
     PROJECT_WORKFLOW: [
@@ -111,6 +114,19 @@ ROUTING_CASES = (
     ("routing intelligence dashboard", "routing-intelligence", "routing-intelligence-analytics"),
 )
 
+STALE_LIVE_VERIFIER_COMMANDS = (
+    "python3 execution/verify_agentic_engineering_loop_contract.py",
+    "python3 execution/verify_goal_loop_maintenance_contract.py",
+)
+
+ACTIVE_PROOF_SURFACES = (
+    ROOT / "CODEX.md",
+    PROJECT_WORKFLOW,
+    AGENTIC_CONTRACT,
+    GOAL_LOOP_CONTRACT,
+    SOURCE_TO_SKILL,
+)
+
 
 def run(args: list[str]) -> str:
     completed = subprocess.run(
@@ -180,6 +196,55 @@ def verify_sync_helper() -> list[str]:
     return ["system-audit sync helper passes"]
 
 
+def stale_live_verifier_commands(content: str) -> list[str]:
+    return [command for command in STALE_LIVE_VERIFIER_COMMANDS if command in content]
+
+
+def verify_live_proof_paths() -> list[str]:
+    archived = ROOT / "execution" / "_archived_verifiers"
+    if not archived.is_dir():
+        raise AssertionError("Missing approved archived-verifier directory")
+    for path in ACTIVE_PROOF_SURFACES:
+        if not path.exists():
+            raise AssertionError(f"Missing proof surface: {path}")
+        content = path.read_text(encoding="utf-8", errors="ignore")
+        stale = stale_live_verifier_commands(content)
+        if stale:
+            raise AssertionError(f"Stale live verifier command in {path}: {stale[0]}")
+    for command in STALE_LIVE_VERIFIER_COMMANDS:
+        if stale_live_verifier_commands(f"Run next:\n{command}\n") != [command]:
+            raise AssertionError(f"Negative control failed to catch stale command: {command}")
+    return [
+        "active proof surfaces do not advertise intentionally archived verifiers",
+        "negative controls catch both retired live command paths",
+    ]
+
+
+def verify_validator_truthfulness() -> list[str]:
+    valid = subprocess.run(
+        [sys.executable, "execution/validate_skill.py", "source-command-system-audit"],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+    )
+    if valid.returncode != 0 or "critical" not in valid.stdout or "0 critical" not in valid.stdout:
+        raise AssertionError(f"Valid Codex wrapper did not validate cleanly:\n{valid.stdout}")
+
+    invalid = subprocess.run(
+        [sys.executable, "execution/validate_skill.py", "source-command-definitely-missing"],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+    )
+    if invalid.returncode == 0 or "critical" not in invalid.stdout:
+        raise AssertionError("Validator false-green negative control did not fail")
+    return ["skill validator returns nonzero for critical wrapper failures"]
+
+
 def verify_routes() -> list[str]:
     results = []
     for query, expected, expected_lane in ROUTING_CASES:
@@ -206,6 +271,8 @@ def main() -> int:
     results = []
     results.extend(verify_text())
     results.extend(verify_sync_helper())
+    results.extend(verify_live_proof_paths())
+    results.extend(verify_validator_truthfulness())
     results.extend(verify_routes())
     print("SYSTEM-AUDIT OPERATOR CORE VERIFICATION PASS")
     for result in results:

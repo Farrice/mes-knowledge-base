@@ -86,10 +86,14 @@ python3 execution/verify_operator_core_status.py
 python3 execution/verify_intent_memory_contract.py
 python3 execution/verify_system_cohesion_spine.py
 python3 execution/verify_automation_cohesion_standard.py
-python3 execution/verify_agentic_engineering_loop_contract.py
 python3 execution/verify_system_control_plane.py
 python3 execution/verify_autopilot_routing.py
 ```
+
+The former source-grounded Agentic Engineering verifier is intentionally
+archived under `execution/_archived_verifiers/` because its source package
+never landed on canonical main. Do not advertise its old live command or count
+the archived script as current proof.
 
 ## Step 2: Golden Routing Matrix
 
@@ -204,7 +208,9 @@ Apply workspace-local fixes first. After any fix, rerun:
 
 ```bash
 python3 execution/verify_system_control_plane.py
-python3 execution/verify_agentic_engineering_loop_contract.py
+python3 execution/verify_main_write_guard.py
+python3 execution/verify_lane_reconciler.py
+python3 execution/verify_repeatability_spine.py
 python3 execution/verify_autopilot_runtime_preflight.py
 python3 execution/verify_autopilot_routing.py
 python3 execution/verify_operator_lesson.py

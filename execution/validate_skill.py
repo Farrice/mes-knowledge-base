@@ -13,6 +13,11 @@ Checks:
     3. Agent directory exists with AGENT.md and memory/context.md
     4. Registered in AGENT_INDEX.md and SKILL_INDEX.md
     5. Registered in GEMINI.md (skill table and prompt reference)
+    6. source-command-* inputs use the real .agents/skills wrapper shape and
+       point to an existing canonical workflow
+
+Exit status is nonzero when any critical issue is found. Warnings remain
+advisory and return success.
 """
 
 import os
@@ -25,9 +30,12 @@ from typing import Dict, List, Tuple
 
 BASE_PATH = Path(__file__).parent.parent
 SKILLS_PATH = BASE_PATH / "skills"
+CODEX_SKILLS_PATH = BASE_PATH / ".agents" / "skills"
 AGENTS_PATH = BASE_PATH / "agents"
+WORKFLOWS_PATH = BASE_PATH / ".agent" / "workflows"
 AGENT_INDEX = BASE_PATH / "AGENT_INDEX.md"
 SKILL_INDEX = BASE_PATH / "SKILL_INDEX.md"
+SLASH_COMMANDS = BASE_PATH / "SLASH_COMMANDS.md"
 GEMINI_MD = BASE_PATH / "GEMINI.md"
 
 
@@ -144,10 +152,76 @@ def check_registry(skill_name: str) -> List[Dict]:
     return issues
 
 
-def validate_skill(skill_name: str) -> None:
+def check_source_command_skill(skill_name: str) -> List[Dict]:
+    """Validate a thin Codex command wrapper against its real filesystem shape."""
+    issues = []
+    wrapper_dir = CODEX_SKILLS_PATH / skill_name
+    wrapper = wrapper_dir / "SKILL.md"
+    command = skill_name.removeprefix("source-command-")
+    workflow = WORKFLOWS_PATH / f"{command}.md"
+
+    if not wrapper_dir.is_dir():
+        return [{
+            "severity": "🔴",
+            "check": "Codex wrapper directory",
+            "detail": f".agents/skills/{skill_name}/ does not exist",
+        }]
+    issues.append({"severity": "✅", "check": "Codex wrapper directory", "detail": "Present"})
+
+    if not wrapper.is_file():
+        issues.append({"severity": "🔴", "check": "SKILL.md", "detail": f"Missing: {wrapper.relative_to(BASE_PATH)}"})
+        return issues
+
+    content = wrapper.read_text(encoding="utf-8", errors="ignore")
+    issues.append({"severity": "✅", "check": "SKILL.md", "detail": "Present"})
+    if not re.search(rf'^name:\s*["\']?{re.escape(skill_name)}["\']?\s*$', content, re.MULTILINE):
+        issues.append({"severity": "🔴", "check": "Wrapper name", "detail": f"Frontmatter name must be {skill_name}"})
+    else:
+        issues.append({"severity": "✅", "check": "Wrapper name", "detail": "Matches directory"})
+
+    if not workflow.is_file():
+        issues.append({"severity": "🔴", "check": "Canonical workflow", "detail": f"Missing: {workflow.relative_to(BASE_PATH)}"})
+    elif f".agent/workflows/{command}.md" not in content:
+        issues.append({"severity": "🔴", "check": "Canonical workflow", "detail": "Wrapper does not point to its workflow"})
+    else:
+        issues.append({"severity": "✅", "check": "Canonical workflow", "detail": str(workflow.relative_to(BASE_PATH))})
+
+    slash_text = SLASH_COMMANDS.read_text(encoding="utf-8", errors="ignore") if SLASH_COMMANDS.exists() else ""
+    if f"`/{command}`" not in slash_text:
+        issues.append({"severity": "🟡", "check": "SLASH_COMMANDS.md", "detail": f"/{command} is not listed"})
+    else:
+        issues.append({"severity": "✅", "check": "SLASH_COMMANDS.md", "detail": "Registered"})
+    return issues
+
+
+def _summary(all_issues: List[Dict]) -> Dict[str, int]:
+    return {
+        "critical": len([i for i in all_issues if i['severity'] == '🔴']),
+        "warnings": len([i for i in all_issues if i['severity'] == '🟡']),
+        "passed": len([i for i in all_issues if i['severity'] == '✅']),
+    }
+
+
+def validate_skill(skill_name: str) -> Dict[str, int]:
     """Run all validation checks on a skill."""
     print(f"\n🔍 Validating: {skill_name}")
     print("=" * 60)
+
+    if skill_name.startswith("source-command-"):
+        print("\n📁 Codex Command Wrapper:")
+        all_issues = check_source_command_skill(skill_name)
+        for issue in all_issues:
+            print(f"  {issue['severity']} {issue['check']}: {issue['detail']}")
+        counts = _summary(all_issues)
+        print("\n" + "=" * 60)
+        print(f"📊 Results: {counts['passed']} passed, {counts['warnings']} warnings, {counts['critical']} critical")
+        if counts["critical"]:
+            print("❌ Skill has critical issues that need fixing")
+        elif counts["warnings"]:
+            print("⚠️  Skill works but has minor gaps")
+        else:
+            print("✅ Skill is fully valid!")
+        return counts
 
     all_issues = []
     
@@ -181,9 +255,10 @@ def validate_skill(skill_name: str) -> None:
     
     # Summary
     print("\n" + "=" * 60)
-    critical = len([i for i in all_issues if i['severity'] == '🔴'])
-    warnings = len([i for i in all_issues if i['severity'] == '🟡'])
-    passed = len([i for i in all_issues if i['severity'] == '✅'])
+    counts = _summary(all_issues)
+    critical = counts["critical"]
+    warnings = counts["warnings"]
+    passed = counts["passed"]
     
     print(f"📊 Results: {passed} passed, {warnings} warnings, {critical} critical")
     
@@ -193,6 +268,7 @@ def validate_skill(skill_name: str) -> None:
         print("⚠️  Skill works but has minor gaps")
     else:
         print("❌ Skill has critical issues that need fixing")
+    return counts
 
 
 def list_all_skills() -> List[str]:
@@ -205,7 +281,7 @@ def list_all_skills() -> List[str]:
     ])
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="Validate skill completeness")
     parser.add_argument("skill_name", nargs="?", help="Name of the skill to validate")
     parser.add_argument("--all", action="store_true", help="Validate all skills")
@@ -218,6 +294,7 @@ def main():
         print(f"\n🔍 Validating all {len(skills)} skills...\n")
         
         results = {}
+        any_critical = False
         for skill in skills:
             if args.summary:
                 # Quick check
@@ -229,8 +306,10 @@ def main():
                 warnings = len([i for i in all_issues if i['severity'] == '🟡'])
                 status = "✅" if critical == 0 and warnings == 0 else ("⚠️ " if critical == 0 else "❌")
                 results[skill] = {"status": status, "prompts": count, "critical": critical, "warnings": warnings}
+                any_critical = any_critical or critical > 0
             else:
-                validate_skill(skill)
+                counts = validate_skill(skill)
+                any_critical = any_critical or counts["critical"] > 0
                 print()
         
         if args.summary:
@@ -245,13 +324,16 @@ def main():
                 if not issue_str:
                     issue_str = "—"
                 print(f"{skill:<45} {info['status']:<6} {info['prompts']:<8} {issue_str}")
+        return 1 if any_critical else 0
     
     elif args.skill_name:
-        validate_skill(args.skill_name)
+        counts = validate_skill(args.skill_name)
+        return 1 if counts["critical"] else 0
     
     else:
         parser.print_help()
+        return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

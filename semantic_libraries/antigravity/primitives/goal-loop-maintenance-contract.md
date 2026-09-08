@@ -13,6 +13,10 @@ This contract is adapted from Mark Kashef's self-improving OS source package:
 - Local PDF: `/Users/farricecain/Downloads/Mark Kashef-goal_cookbook.pdf`
 - Local prompt zip: `/Users/farricecain/Downloads/Mark Kashef-Raw Text Prompts.zip`
 
+The canonical repository source package and its dedicated verifier never
+landed. Treat this as adopted operating policy, not current source-proof, and
+do not advertise the archived verifier as a live check.
+
 ## When To Use
 
 - `/self-evolve`, `/skill-anneal`, or `/skill-evolution` would change a skill,
@@ -122,7 +126,6 @@ failure mode, or the verdict is incomplete.
 Goal-loop changes should be verified with:
 
 ```bash
-python3 execution/verify_goal_loop_maintenance_contract.py
 python3 execution/verify_skill_evolution_candidates.py
 python3 execution/verify_skill_evolution_local_first.py
 python3 execution/verify_system_control_plane.py

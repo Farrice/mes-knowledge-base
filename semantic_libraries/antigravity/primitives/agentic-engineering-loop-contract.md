@@ -6,11 +6,17 @@ Use this primitive when a source, workflow, skill, or harness repair should make
 
 Agentic engineering means the operator keeps ownership of the thinking while the harness does bounded execution: thin context, exact source truth, small work packets, review loops with finish lines, dependency safety, and a bias toward usable output.
 
-This contract is grounded in the transcript-backed source package:
+This contract was derived from a transcript-backed source package:
 
 - YouTube: `https://www.youtube.com/watch?v=PzVV4X37ihg`
-- Local evidence: `extractions/video-context/PzVV4X37ihg/`
+- Local evidence: `UNAVAILABLE` on canonical main; the earlier package at
+  `extractions/video-context/PzVV4X37ihg/` never landed.
 - Evidence limit: transcript-backed spoken evidence only; frame extraction and OCR were skipped.
+
+The contract remains adopted operating policy, but it is not current source
+proof. Do not claim the source was reverified unless that package is recovered
+or re-extracted. The old source-grounded verifier remains intentionally
+archived under `execution/_archived_verifiers/`.
 
 ## When To Use
 
@@ -107,7 +113,10 @@ If any field is missing, return a queue-only diagnosis or a missing-field packet
 Run:
 
 ```bash
-python3 execution/verify_agentic_engineering_loop_contract.py
+python3 execution/verify_google_operator_core.py
+python3 execution/verify_main_write_guard.py
+python3 execution/verify_lane_reconciler.py
+python3 execution/verify_repeatability_spine.py
 ```
 
 When workflow, router, skill, or system files changed, also run the relevant control-plane checks from `CODEX.md`.
