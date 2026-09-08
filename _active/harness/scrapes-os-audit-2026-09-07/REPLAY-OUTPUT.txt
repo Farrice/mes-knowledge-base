@@ -1,0 +1,185 @@
+{
+  "memory": {
+    "override_set": false,
+    "canonical": {
+      "project_keys": [
+        "-Users-farricecain-Google-Antigravity"
+      ],
+      "rows": 25061,
+      "matches": 5,
+      "degraded": null,
+      "ids": [
+        "fa972ec1eb2238f892b4814034cd7e8a",
+        "1dd478de1ba2ff30292b90a1f02059ff",
+        "3d4b6bebccfc166edb175347736f096f",
+        "6a6fb33f2e9f42ed55e82ab5e77196b7",
+        "794ff3b26ad6646ad119e32b6b6a7d87"
+      ]
+    },
+    "lane": {
+      "project_keys": [
+        "-Users-farricecain-Google-Antigravity-.tmp-codex-worktrees-scrapes-os-audit-20260907"
+      ],
+      "rows": 0,
+      "matches": 0,
+      "degraded": null,
+      "ids": []
+    },
+    "filter_only_control": {
+      "matches": 5,
+      "ids": [
+        "fa972ec1eb2238f892b4814034cd7e8a",
+        "1dd478de1ba2ff30292b90a1f02059ff",
+        "3d4b6bebccfc166edb175347736f096f",
+        "6a6fb33f2e9f42ed55e82ab5e77196b7",
+        "794ff3b26ad6646ad119e32b6b6a7d87"
+      ]
+    }
+  },
+  "readiness": {
+    "broken_fallback": {
+      "brand": "client",
+      "lock": "BRAND LOCK: client (client, ?) \u2014 brand_context=/private/tmp/scrapes-os-audit-ousq9svl/client/brand_context output_base=/private/tmp/scrapes-os-audit-ousq9svl/unregistered-other-client/out pens=?+? veto=? voice_dial=OFF",
+      "checks": [
+        {
+          "check": "brand_context dir",
+          "ok": true,
+          "detail": "/private/tmp/scrapes-os-audit-ousq9svl/client/brand_context"
+        },
+        {
+          "check": "voice-profile.md",
+          "ok": true,
+          "detail": "voice canon for tool-humanizer deep / caption seam"
+        },
+        {
+          "check": "tokens.json",
+          "ok": true,
+          "detail": "Phase 1 hard gate of 00-social-content (mkt-visual-identity Import)"
+        },
+        {
+          "check": "template pool carousel",
+          "ok": true,
+          "detail": "0/0 ready at /private/tmp/scrapes-os-audit-ousq9svl/client/brand_context/templates/carousel \u2014 fallback renderer: /private/tmp/scrapes-os-audit-ousq9svl/missing-renderer.py"
+        },
+        {
+          "check": "cross-brand isolation",
+          "ok": true,
+          "detail": "no declared path resolves under another brand"
+        }
+      ],
+      "ready": true,
+      "render_path": "brand-renderer"
+    },
+    "ghost_template": {
+      "brand": "client",
+      "lock": "BRAND LOCK: client (client, ?) \u2014 brand_context=/private/tmp/scrapes-os-audit-ousq9svl/client/brand_context output_base=/private/tmp/scrapes-os-audit-ousq9svl/unregistered-other-client/out pens=?+? veto=? voice_dial=OFF",
+      "checks": [
+        {
+          "check": "brand_context dir",
+          "ok": true,
+          "detail": "/private/tmp/scrapes-os-audit-ousq9svl/client/brand_context"
+        },
+        {
+          "check": "voice-profile.md",
+          "ok": true,
+          "detail": "voice canon for tool-humanizer deep / caption seam"
+        },
+        {
+          "check": "tokens.json",
+          "ok": true,
+          "detail": "Phase 1 hard gate of 00-social-content (mkt-visual-identity Import)"
+        },
+        {
+          "check": "template pool carousel",
+          "ok": true,
+          "detail": "1/1 ready at /private/tmp/scrapes-os-audit-ousq9svl/client/brand_context/templates/carousel"
+        },
+        {
+          "check": "cross-brand isolation",
+          "ok": true,
+          "detail": "no declared path resolves under another brand"
+        }
+      ],
+      "ready": true,
+      "render_path": "scrapes-template-pool"
+    }
+  },
+  "ledger": {
+    "full-shell-read": {
+      "changed": true,
+      "full_load": [],
+      "debts": [
+        {
+          "type": "skill_grepped",
+          "name": "test-expert",
+          "ts": "2026-09-07T15:11:37.845242"
+        }
+      ],
+      "produced": false,
+      "pending_routing": {
+        "routing_id": "test",
+        "suggested_dirs": [
+          "test-expert"
+        ]
+      },
+      "failure_streak": 0
+    },
+    "native-read": {
+      "changed": true,
+      "full_load": [
+        "test-expert"
+      ],
+      "debts": [
+        {
+          "type": "skill_loaded",
+          "name": "test-expert",
+          "ts": "2026-09-07T15:11:37.845980"
+        }
+      ],
+      "produced": false,
+      "pending_routing": null,
+      "failure_streak": 0
+    },
+    "native-patch": {
+      "changed": false,
+      "full_load": [],
+      "debts": [],
+      "produced": false,
+      "pending_routing": {
+        "routing_id": "test",
+        "suggested_dirs": [
+          "test-expert"
+        ]
+      },
+      "failure_streak": 0
+    },
+    "native-write": {
+      "changed": true,
+      "full_load": [],
+      "debts": [],
+      "produced": true,
+      "pending_routing": {
+        "routing_id": "test",
+        "suggested_dirs": [
+          "test-expert"
+        ]
+      },
+      "failure_streak": 0
+    },
+    "failed-shell": {
+      "changed": false,
+      "full_load": [],
+      "debts": [],
+      "produced": false,
+      "pending_routing": {
+        "routing_id": "test",
+        "suggested_dirs": [
+          "test-expert"
+        ]
+      },
+      "failure_streak": 0
+    }
+  }
+}
+
+STDERR:

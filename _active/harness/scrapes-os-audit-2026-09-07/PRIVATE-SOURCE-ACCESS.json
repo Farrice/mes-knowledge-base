@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/simonc602/agentic-os",
+  "source_obtained": false,
+  "scrapes_classroom_access": "verified by read-only auditor",
+  "normal_github_access": "unavailable",
+  "installer_saved_github_credential_available": false,
+  "credential_values_disclosed": false,
+  "installer_run": false,
+  "private_os_runtime_executed": false,
+  "next_requirement": "Accessible local source checkout/ZIP or authorized repository access"
+}

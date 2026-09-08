@@ -1,0 +1,163 @@
+{
+  "schema": "scrapes-antigravity-audit-evidence/v1",
+  "date": "2026-09-07",
+  "task_id": "01a07ddf-489f-7a21-a3f5-5f2b88e0da09",
+  "source_revision": "417a12136",
+  "source_revision_note": "New lane base; main also had unrelated uncommitted state. Registry/telemetry snapshots below were read from main.",
+  "status": "PARTIAL",
+  "accessible_audit_complete": true,
+  "vendor_private_source_audit_complete": false,
+  "vendor_runtime_tested": false,
+  "behavioral_repairs_applied": false,
+  "write_scope": "Audit artifacts and local audit bookkeeping only",
+  "subagents": {
+    "authorized": 2,
+    "mode": "read-only",
+    "root_owns_integration": true
+  },
+  "current_config": {
+    "model": "gpt-6-astra",
+    "reasoning": "ultra",
+    "learning_output_style": false,
+    "jarvis_plugin": true,
+    "jarvis_startup_hook": false,
+    "changed_by_this_task": false,
+    "behavior_improvement_tested": false
+  },
+  "baseline_checks": [
+    [
+      "verify_google_operator_core.py",
+      "PASS",
+      "Fixtures/configuration, not general runtime behavior"
+    ],
+    [
+      "verify_codex_authority.py",
+      "PASS",
+      "Peer authority"
+    ],
+    [
+      "verify_autopilot_runtime_preflight.py",
+      "PASS",
+      "Routing and preflight fixtures"
+    ],
+    [
+      "verify_skill_system_contract.py",
+      "PASS",
+      "Contracts"
+    ],
+    [
+      "verify_subagent_approval_language.py",
+      "PASS",
+      "Policy language"
+    ],
+    [
+      "platform_compiler.py lint --json",
+      "PASS",
+      "failures array empty"
+    ]
+  ],
+  "independent_probes": [
+    {
+      "id": "memory-lane-identity",
+      "result": "DEFECT_REPRODUCED",
+      "canonical_rows": 25061,
+      "canonical_query_matches": 5,
+      "lane_rows": 0,
+      "lane_query_matches": 0,
+      "lane_degraded": null,
+      "filter_only_control_matches": 5,
+      "identical_ids": true,
+      "query": "Scrapes",
+      "source": "execution/memory_facade.py:73",
+      "proof": "Read-only DB/query and in-memory filter control; no store changed"
+    },
+    {
+      "id": "native-event-ledger",
+      "result": "DEFECT_REPRODUCED_IN_FIXTURES",
+      "full_shell_read": "skill_grepped; pending routing remains",
+      "native_read": "full load; routing reconciled",
+      "native_patch": "no artifact record",
+      "native_write": "artifact recorded",
+      "explicit_exit_7_empty_output": "failure streak remains zero",
+      "scope": "Handler fixtures; live desktop parity still needs canary"
+    },
+    {
+      "id": "readiness-invalid-inputs",
+      "result": "DEFECT_REPRODUCED_IN_FIXTURES",
+      "missing_fallback_ready": true,
+      "empty_tokens_voice_ready": true,
+      "ghost_template_ready": true,
+      "unregistered_foreign_output_accepted": true,
+      "actual_cross_brand_leak_observed": false
+    },
+    {
+      "id": "structured-answer-routing",
+      "result": "OBSERVED_IRRELEVANT_SUGGESTION",
+      "answer": "All of the above",
+      "active_task": "system-audit",
+      "suggested": "april-dunford-positioning",
+      "actual_task_owner_changed": false
+    },
+    {
+      "id": "installer-detection",
+      "result": "DEFECT_REPRODUCED",
+      "version": "1.3.0",
+      "detected_antigravity_as_os": true,
+      "installed_version": null,
+      "available": null,
+      "outdated": false,
+      "install_or_update_executed": false
+    }
+  ],
+  "telemetry_snapshot": {
+    "routing_records": 232,
+    "feedback_records": 4,
+    "feedback_human": 0,
+    "feedback_automatic": 4,
+    "note": "Point-in-time snapshot, not a reliability percentage"
+  },
+  "registry_snapshot": {
+    "farrice_linkedin": "11/12 reported ready, subject to readiness validation gaps",
+    "jen": "both pools not ready; tokens missing in registered path",
+    "andrea": "voice/tokens/pool missing"
+  },
+  "source_access": {
+    "github_connector": "404 for repository and AGENTS.md",
+    "git_machine_login": "No ambient authentication; prompts disabled",
+    "official_documentation": "Accessible",
+    "local_installer": "1.3.0 inspected",
+    "no_credentials_requested": true
+  },
+  "limitations": [
+    "No head-to-head OS generation experiment",
+    "No quantitative capacity-loss estimate",
+    "No claim that all model failures have one cause",
+    "No OS install or hosted runtime test",
+    "No new creative quality verdict"
+  ],
+  "preservation": [
+    "Existing expertise and source library",
+    "Approved specimens",
+    "Brand context",
+    "Spending and action boundaries",
+    "Worktree isolation",
+    "Already-changed global settings"
+  ],
+  "next": "Repair existing adapter defects in an isolated lane; obtain vendor source before declaring a complete OS winner.",
+  "saved_probe_replay": {
+    "exit_code": 0,
+    "stdout": "REPLAY-OUTPUT.txt",
+    "stderr_empty": true,
+    "same_failure_findings_confirmed": true
+  },
+  "administrative_finalization": {
+    "status": "Needs Improvement / marginal self-score",
+    "score": 7,
+    "independent_behavioral_proof": false,
+    "receipt": "FINALIZATION.txt",
+    "external_logging": false,
+    "sovereign_memory_autostore": false,
+    "note": "Does not replace the six baseline results or independent defect probes; vendor runtime remains untested.",
+    "tracked_bookkeeping": "Saved as FINALIZATION-BOOKKEEPING.patch; only this task's four automatic tracked-file changes restored to pre-finalize state. Local runtime receipt retained."
+  }
+}

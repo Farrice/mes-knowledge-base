@@ -46,6 +46,8 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
+from contextlib import closing
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -70,13 +72,55 @@ EPISODIC_DB = Path(os.environ.get(
     "ANTIGRAVITY_EPISODIC_DB",
     str(Path.home() / ".config" / "superpowers" / "conversation-index" / "db.sqlite"),
 ))
-_episodic_env = os.environ.get("ANTIGRAVITY_EPISODIC_PROJECTS", "").strip()
-if _episodic_env.lower() == "all":
-    EPISODIC_PROJECTS: Optional[List[str]] = None
-elif _episodic_env:
-    EPISODIC_PROJECTS = [p.strip() for p in _episodic_env.split(",") if p.strip()]
-else:
-    EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
+def episodic_projects(root: Optional[Path] = None, override: Optional[str] = None) -> Optional[List[str]]:
+    """Keep repository history shared across lanes without searching other projects."""
+    value = (os.environ.get("ANTIGRAVITY_EPISODIC_PROJECTS", "")
+             if override is None else override).strip()
+    if value.lower() == "all":
+        return None
+    if value:
+        explicit = list(dict.fromkeys(p.strip() for p in value.split(",") if p.strip()))
+        if explicit:
+            return explicit  # Empty separators fall back to repository scope, never all.
+    root = (root or ROOT).resolve()
+    roots = [root]
+    try:
+        # Git lists the primary checkout first, including for a linked worktree.
+        # Do not infer identity from an arbitrary parent directory or search all
+        # projects when Git is unavailable.
+        proc = subprocess.run(
+            ["git", "-C", str(root), "worktree", "list", "--porcelain"],
+            capture_output=True, text=True, timeout=5,
+        )
+        first = proc.stdout.splitlines()[0] if proc.returncode == 0 and proc.stdout else ""
+        if first.startswith("worktree "):
+            roots.insert(0, Path(first.removeprefix("worktree ")).resolve())
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return list(dict.fromkeys(
+        "-" + str(p).strip("/").replace("/", "-").replace(" ", "-") for p in roots
+    ))
+
+
+EPISODIC_PROJECTS: Optional[List[str]] = episodic_projects()
+
+
+def episodic_scope_status() -> Dict[str, Any]:
+    """Read-only coverage canary; an unindexed scope is not successful recall."""
+    if not EPISODIC_DB.exists():
+        return {"indexed_exchanges": None, "degraded": f"episodic db missing: {EPISODIC_DB}"}
+    try:
+        with closing(sqlite3.connect(f"file:{EPISODIC_DB}?mode=ro", uri=True, timeout=5)) as con:
+            con.execute("PRAGMA query_only=ON")
+            where = ""
+            params = EPISODIC_PROJECTS or []
+            if params:
+                where = " WHERE project IN (" + ",".join("?" for _ in params) + ")"
+            count = con.execute("SELECT COUNT(*) FROM exchanges" + where, params).fetchone()[0]
+        return {"indexed_exchanges": count,
+                "degraded": None if count else "episodic: no indexed exchanges for the configured project scope"}
+    except (OSError, sqlite3.Error) as exc:
+        return {"indexed_exchanges": None, "degraded": f"episodic: {str(exc)[:120]}"}
 
 ALL_SOURCES = ("sovereign", "notion", "automem", "wiki", "agents", "episodic", "solutions", "prompts", "catalog")
 
@@ -399,8 +443,9 @@ def _query_agents(query: str, top_k: int) -> Dict[str, Any]:
 # ──────────────────────────────────────────────────────────────────
 def _query_episodic(query: str, top_k: int) -> Dict[str, Any]:
     try:
-        if not EPISODIC_DB.exists():
-            return {"results": [], "degraded": f"episodic db missing: {EPISODIC_DB}"}
+        coverage = episodic_scope_status()
+        if coverage["degraded"]:
+            return {"results": [], "degraded": coverage["degraded"]}
         q_tokens = _tokens(query)
         if not q_tokens:
             return {"results": [], "degraded": None}

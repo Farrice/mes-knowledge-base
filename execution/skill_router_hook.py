@@ -659,6 +659,10 @@ def main():
         sys.exit(0)  # malformed input -> do nothing
 
     prompt = (payload.get("prompt") or "").strip()
+    # A clarification answer belongs to the active task. Suppress its old
+    # question text, but retain any new instruction outside the reply envelope.
+    reply = re.compile(r"<send_user_message_question_reply>.*?</send_user_message_question_reply>", re.S)
+    prompt = reply.sub("", prompt).strip()
     if not prompt:
         sys.exit(0)
 

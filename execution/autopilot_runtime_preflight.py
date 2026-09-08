@@ -32,6 +32,7 @@ import routing_audit  # type: ignore  # noqa: E402
 import routing_governor  # type: ignore  # noqa: E402
 import tool_router  # type: ignore  # noqa: E402
 import workflow_router  # type: ignore  # noqa: E402
+from action_intent import has_requested_terms
 from outcome_recipes import classify_outcome  # type: ignore  # noqa: E402
 
 
@@ -400,9 +401,9 @@ def risk_reasons(query: str, mode: str) -> list[str]:
     lowered = query.lower()
     reasons: list[str] = []
     for label, signals in RISK_SIGNALS.items():
-        if any(signal in lowered for signal in signals):
+        if has_requested_terms(lowered, signals):
             reasons.append(label)
-    if any(signal in lowered for signal in SUBAGENT_SIGNALS) and mode != "delegate":
+    if has_requested_terms(lowered, SUBAGENT_SIGNALS) and mode != "delegate":
         reasons.append("real subagents require explicit delegation")
     return reasons
 

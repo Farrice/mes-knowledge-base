@@ -1,0 +1,496 @@
+{
+  "status": "inspection-only; no preservation or main restore performed",
+  "main": "/Users/farricecain/Google Antigravity",
+  "tracked_changes": 122,
+  "paths": [
+    {
+      "path": ".agent/catalog/library.html",
+      "sha256": "0de7dae157a28a56498952ba153ad2a4d2b2562cd9ebb43932ee38e6304bd2b9"
+    },
+    {
+      "path": ".agent/catalog/shelf-report.log",
+      "sha256": "d48544c74bc9ce2ee169a550db85856f244d8033ee0eb5e40bf1643326685af9"
+    },
+    {
+      "path": ".agent/citation-integrity.log",
+      "sha256": "58f02426f633f873c796edbe91aa76f69ed397ef82bfb8d679861867e809a1e5"
+    },
+    {
+      "path": ".agent/evolution-logs/evolution-auto.log",
+      "sha256": "82deed1946a4b9831d23249c854afa51a6cb88ee19e6e73b55ba842bba92fa7c"
+    },
+    {
+      "path": ".agent/health/daily-audit.json",
+      "sha256": "2e482b4748166baf7167e2faff63d7e37da8f4850a1feb3326425cd0b7af39d4"
+    },
+    {
+      "path": ".agent/health/daily-audit.log",
+      "sha256": "ac59981bfd29d9e487a69f55f92ac0f4fca14b44b074f4ff10ea26c095146563"
+    },
+    {
+      "path": ".agent/health/fleet-report.md",
+      "sha256": "f8b306a885130acc795483f4bf4758570d60e467e3f8ebfb0f6d82bbcfd79513"
+    },
+    {
+      "path": ".agent/health/fleet.json",
+      "sha256": "d73b40d4173521794457d04b2f86371e39cd4082b52cce0cacd8fc7021bc2d07"
+    },
+    {
+      "path": ".agent/health/fleet.log",
+      "sha256": "c67bf440674ae174c241d4f5637abc4a75ada3e5cfa323f26902bd6ed563eb27"
+    },
+    {
+      "path": ".agent/health/session-sweep.json",
+      "sha256": "cee75486f384032f2c8151a2d27620476bf313eae853842a403db43e972802cf"
+    },
+    {
+      "path": ".agent/health/silent-degradation.json",
+      "sha256": "2bcb794b7d426b15d0215eb7a66673585fa3a62d1b62bf6d68902e85898ebaf3"
+    },
+    {
+      "path": ".agent/health/skills-sync.json",
+      "sha256": "3607a0f4ea41c405aa554b6a4f4f86171098123ec96bddcc5e5b443c43b4e2ef"
+    },
+    {
+      "path": ".agent/health/verify-fleet.json",
+      "sha256": "73ec487dbbc9566150fd4e7a1fc67a884427d49509d0baa5192eff9aa890c48f"
+    },
+    {
+      "path": ".agent/health/wiring-index.json",
+      "sha256": "cf3a763277b14f06d016fc2342152b4a0c903ac67ae610d5dd4e3c62373d7eef"
+    },
+    {
+      "path": ".agent/homebase/homebase.html",
+      "sha256": "3817ca7f8ecad69fc93289e90b7e4f4a0ec444f26fcaec0519b8d255993ab0b3"
+    },
+    {
+      "path": ".agent/logs/cos-notify.log",
+      "sha256": "b19d1b20917e430c929af21ece6c144123cc39180ad00bfb3ecd043b3f073575"
+    },
+    {
+      "path": ".agent/logs/memory-review-nudge.log",
+      "sha256": "ccd9c3f3ece2252cfeeb046a72bb01088fe75a3cffb6fa7b82b6ce10b35ba078"
+    },
+    {
+      "path": ".agent/mission-queue/launchd-stdout.log",
+      "sha256": "b6cd7e1e4031f2bfbde38e7ba4a67ee0866b8c7b23a4b9a298faeb69c7554b81"
+    },
+    {
+      "path": ".agent/router-report-card.md",
+      "sha256": "4de4138901a9b31bf2d941fd4f5a1f1d59da92c2b20dd697be180b737afde1c5"
+    },
+    {
+      "path": ".agent/skill-weights.json",
+      "sha256": "ada702f311b0f46d8aeb1e804eded64a1cf7601ac7444e52a5c4a720492fb71d"
+    },
+    {
+      "path": ".agent/sweep/latest.json",
+      "sha256": "40e1fdee5c21952818665b7b65438dd730e44163aa13383918e3381658b69b9d"
+    },
+    {
+      "path": ".agent/sweep/session-sweep.log",
+      "sha256": "11d2f658322663544c70b92dfbd85d93bb50ffd29dd21b4dd5b5441c1e13a5b6"
+    },
+    {
+      "path": "PROJECTS.md",
+      "sha256": "4b15261c7b294675424889a4c500ae4e0fbb7fe0548d497b3cf158b08026ab32"
+    },
+    {
+      "path": "_active/farrice-brand/intelligence/index.html",
+      "sha256": "5ce1c002a7c6512995071e0aa139def65739246d5eb424c01c63ae3296b7a152"
+    },
+    {
+      "path": "_active/knowledge/health-performance-ip-library/06-system/listening-run.log",
+      "sha256": "a162f19c83d9847cdd8bb81d6cb5ba9745001a3b24907b12756ec22e64a0d8c4"
+    },
+    {
+      "path": "_system/organization/ORG_INDEX.md",
+      "sha256": "f3bba6c233a4efb85bb2dcf995812bdc9bfb18bfec7d6d059b86b40547544f58"
+    },
+    {
+      "path": "_system/organization/aliases.json",
+      "sha256": "b7fe74c2976d8098d1bb3b6391d42581362c56e32c2d9aab2c6a2e9112f7ac88"
+    },
+    {
+      "path": "_system/organization/manifest.json",
+      "sha256": "0e2d89b32a8839e9cd06831a7d17aa41b2996186c03c27e7576ca53691fbe090"
+    },
+    {
+      "path": "_system/organization/routes.json",
+      "sha256": "4ec7d2b7d2a26789b527757075f76a14b0e812d49e17b90818278b4a46995d5b"
+    },
+    {
+      "path": "deliverables/research-briefs/angle-brief-2026-08-06/angle-brief-2026-08-06-brief.json",
+      "sha256": "2dc7f6a923fb55f8fc900e7a538cff8002fd51009cc6b7e9a5b129a5462ded03"
+    },
+    {
+      "path": "deliverables/research-briefs/index.html",
+      "sha256": "a0eea8599aa42d4ee5c6d7a5693a3c8a3402c46822bb5fd97eafc6fd4c643e2f"
+    },
+    {
+      "path": "deliverables/research-briefs/library-shelf-report/library-shelf-report-brief.html",
+      "sha256": "f14a0bb6a9739c6581fd2329a624551cb0ec393cac109bd4b5b9ccc1223096c9"
+    },
+    {
+      "path": "deliverables/research-briefs/library-shelf-report/library-shelf-report-brief.json",
+      "sha256": "069062ff11a7c7cc5dca68972fe93bed901566994adb76ed0c42b79f6bda64c9"
+    },
+    {
+      "path": "deliverables/research-briefs/library-shelf-report/library-shelf-report-brief.md",
+      "sha256": "62a7adffcb13f98f64c8a40d663e165b4914dac976c2d791229cdb19dfb3e955"
+    },
+    {
+      "path": "deliverables/research-briefs/library-shelf-report/library-shelf-report-context.json",
+      "sha256": "9b548e5440935f63eb64a866bbda1d79e5d46b2ecee297f4da2e27eecb3c39e6"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief-share.html",
+      "sha256": "fb384e20682852f940a877ec54f61008c419cd4fc96959410cca7ad58e9d6b70"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.html",
+      "sha256": "3dfe880e114e36b6987e55d9a9fade12210a5ea334f999c2a8186f2cab8a4a83"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.json",
+      "sha256": "51f4300413e9b3204761dcb96cef564c78708b2c76660ef927078486faecd6fe"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md",
+      "sha256": "5d5e0c25eff13ce7be19e77fb08e0ea476bde865ddf6da1a157090f5125f6a2a"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-context.json",
+      "sha256": "4cfd4b690a8054a745e0b83032b57ad86c20f4bf985c4a953d1c9bf493011d2a"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief-share.html",
+      "sha256": "de60669aafa85a348147a74f31ef0c55cb1e57002a6a85dfe77d93b952876ac1"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "sha256": "a360608558b5058ac4145f23f0119ddb448d5bc9ef10569ea4edb44b30728cec"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.json",
+      "sha256": "153b3ad8b21cf72549a62614d41c9cadbb530097bbe9837d9fccb9cdef42d9b5"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.md",
+      "sha256": "22fd6c5d0b8185bb2f010020610a511c35972b35b90cdce85a02e964b900ec49"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-context.json",
+      "sha256": "f6a0666e75adf930c6acbc2e1dd834e55ea4e6e850029c622fac5da86c775c62"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-codex-end-session-control-plane/mission-codex-end-session-control-plane-brief.json",
+      "sha256": "452920eb39f2f49fae2e9b43e954ab4dc8ad46930659b78d558141d74746e0a3"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
+      "sha256": "01f0523ef7a444d747a77912b58dd12a6798848f54b3ab0db7a14061458e4f57"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "sha256": "2bb1965d582d16a17de13b3a511288806211fb14468b38cc12207f1d23e27f63"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.json",
+      "sha256": "26a9809754eac987bbb19cd62c7eb262f27dd6a411d3592b1ef51a9f0b8e962c"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
+      "sha256": "4c09abb03f41019fb7911db32f0eeeac54b141158035a73bc3e126d109be4034"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-context.json",
+      "sha256": "6684144c77475caddfbdcb41a170822fec509ed384bd99ed2dcf69e63156e27d"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
+      "sha256": "c2b2c1724adad3856b9f5510ca1dc7e0c36e7dbd85b394845731cdbb5e6beeb2"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
+      "sha256": "b90b0d86294f6aafea5a4a25c8966708cc203fe80ee71b9210b2c7a76744547a"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.json",
+      "sha256": "ec98266ea015de1d4e382840a2eb7ad3fbf29426b60ff99d5b0fdd8f4ec91767"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md",
+      "sha256": "1de650a694d43a37697b7d3fe45e0b89b90b894c9cdc2640e01136d6cd979199"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-context.json",
+      "sha256": "918da3fab5d8f00e1b561b8aef47c285ed5d46f85d288597441ecb84fc6846d3"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief-share.html",
+      "sha256": "1c0de8aa2388a75c5ecce598c1de2515d768cdb73eb8c96cd543150092d82a64"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html",
+      "sha256": "468983faa3e9d388fd5183fb6a51804b0b78e9ef02fc02a7ad7f80aab0c805db"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.json",
+      "sha256": "1120cd100eeea789eed13ceb1705f03e9d5a0fdb3e9ff3fba1e9954238624528"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.md",
+      "sha256": "765d7b3fc4c6a4ad4a34ba19e2bb932dc51c142663de13b7bd78e7628645bed6"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-context.json",
+      "sha256": "1a34c1067ff95b791845741e25d3b872196ca0dbf18278d64e9c0229935b310b"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-brief-share.html",
+      "sha256": "7fd8b40c65e16762f6dda9da85c3aabad8cedb7c9200aef62915abbc2d425cf2"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
+      "sha256": "1ed981e89cb0c343a08c37dc31ce1f439ca04e18a9225f6a8d82e4464ea779ef"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.json",
+      "sha256": "7c801bf867483cba5d4407d1a1be0c776a43bd1a88578892283fdc980dd65ffc"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.md",
+      "sha256": "76d6c9541d68d1e6611f41194cf4fe00003a21bb6f027a272313b7b83a18c3a2"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-context.json",
+      "sha256": "e7a533f0da2b137f14b6d19f976e4be2518a859a12a24a22e33dd1259587ef4d"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief-share.html",
+      "sha256": "5f1ccfbb2c9bcb8ed9149017e27b3c7c9e2543298c23405ed5183848bad5d9d7"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
+      "sha256": "2c8ccc8c8769b19519da6dbb8525d6a336ad6bdbc9be23be6b0ebd3a35352297"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.json",
+      "sha256": "7ae3572d4d37da17557d96d59ad19cf8a806f7bb80e7cd33c4e7eb4de08f8cc6"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md",
+      "sha256": "9a8682ac27a94969a026577643bf6f19561183420593562e8a7d7ed47d03bc24"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-context.json",
+      "sha256": "811aca028cbbfbd3ca26d7d587f14134e0f1bc59f16596f5e04ddcdc7ada06ad"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief-share.html",
+      "sha256": "646c1790936f02ffc431d131b31319b95da71330e2d2569843695422b0b181cb"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
+      "sha256": "2c94fddb77f72c8ca2be486584981eaa66ec0559fcfc9d94b4613a73466c60d1"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.json",
+      "sha256": "75413aede3042d7651ddfe0f44a0816fdeb10ff3273ad80281960bb1624d7276"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.md",
+      "sha256": "96c9c17e5d7e6a0c1142049bc08f009ae33546379c98926fe092537ab1516410"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-context.json",
+      "sha256": "c781a0d1025e4d852def90c5dfc1a398c202cf0d28e97e2a82a101c6e0478583"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief-share.html",
+      "sha256": "400d659b6c1d6bfa8ba0d75f28507f3e4806ea0575ee7a8bf7cd906ae87c8dac"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.html",
+      "sha256": "86226f36582fb906e2c947a289fee280393f7960f0343f9ab2184c0fa8b1e936"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.json",
+      "sha256": "9232e35580029e480f9de84b9bdf7cc32aaf34a9362922e5b1dc6c3dd814f63d"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-brief.md",
+      "sha256": "f9be8a99840558c41a4f3ca27588a5fee7e9403ecb5eda472c53e4f8e4b3c441"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-offer-redteam/mission-offer-redteam-context.json",
+      "sha256": "989c8769df488c9d2f549bf2a543c3ef8ba325f747c6cf952c781dd6d2507cb2"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
+      "sha256": "5c732923cbd544a3f078ba36d45ad4c91887631bce2e41ad2b1d8cc38b7b1a19"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
+      "sha256": "46f71f1ac277a01a06cf5658df5e91cb76539e2d1b6dace9914a9f9880a93372"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.json",
+      "sha256": "8a1709fe8d10c8780380d17dee1b8919b166952554df705253deb9a4c006dcb2"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md",
+      "sha256": "7c41631a36524f177f4f79143b928ff9080765c079c42f487626a77f9d6908b8"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-context.json",
+      "sha256": "b2b425be1cadc40695aa985ea2a96ae1e61b1108693fa2592831cd4f607cedf8"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief-share.html",
+      "sha256": "a610b118adcdf745243053d6cfde1b3b313e42eca7cebfcc706bdf40e6139be8"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html",
+      "sha256": "e2d8dbe1215dd6912a114d93570ad3ff688a9bcbb566a1b8d78d217814601483"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.json",
+      "sha256": "905bf69e16c039e5b93c5c2f53117b5be652d781b4560252ff4cb762de56f618"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.md",
+      "sha256": "de285e874a9d5aee6b611b7d7477353d4bf97a448762f51ba8a6779c1ed594ad"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-context.json",
+      "sha256": "9ad2d52dc7233f6f68812a956676fd15e6de63f41b7178dbb5ec50b64d18d9f1"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief-share.html",
+      "sha256": "8f2266aa72c5fdb6351fe5cb3247267639f4fb92ff228b0cfc79db21b79ba1e7"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html",
+      "sha256": "750da1983525645e63483fb93423ca4340840032dd62e6cce00073ffc87f05da"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.json",
+      "sha256": "bd7f60072034ceda897f3ceec7f4158d74369e7b97a16bd6151f0a8dd2af9117"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md",
+      "sha256": "8b0e056447173e2f42595fbc4b9b0c1986e54ba180b712515123ae144453efd0"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-context.json",
+      "sha256": "963a47d27185bb340847c032a8675b35e5274b904b9187dedc178e0505e324a4"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.json",
+      "sha256": "a33b58d4329009d112addcb09a484a643b47711a459f5ea2f2f9555768518bec"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief-share.html",
+      "sha256": "e290866e6011a26d7352b1913fab38efec5f0a7b04d16800eba1572f1b27bfcf"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "sha256": "38d741066041405274aba2de5ad34fc92c8386ea3199d7bd029f6a2b95cad802"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.json",
+      "sha256": "fd569b4db2bf298fffdc1390f5f46602503c1339fa0d7c5556b7aec449679d4e"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.md",
+      "sha256": "75f4bc62b415de3164314f1e29a0792f31211d2e3047c0418456da1e856676ad"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-context.json",
+      "sha256": "440f8b5914d2457b1979d7dd9f189e68c57711eac7bac78dc5c015b75115116a"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief-share.html",
+      "sha256": "0ccf22c1e2941a8833bc67057b1e9c7e4dac2e3c9804aaaf830f3f631d29e3eb"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html",
+      "sha256": "195215977bee6ab29b9aec708b906d8388891c8dff63c3f80fb82fabd86e8c7b"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.json",
+      "sha256": "d15cdce9d0e81f74d245172cf46550d8502928e7a3cdd68ca56d9723f0146e27"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.md",
+      "sha256": "6865a4938baef3f5298294593c85237f2317b6541880485368d071d318f62402"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-context.json",
+      "sha256": "7987bdd27455c7e4c66694e7c2d62ce37f86c98aedb3e10ebd82b800966415fc"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief-share.html",
+      "sha256": "9d4bdba7b821107d47f6ae17b597005def5bba6cd720a79675e1c8720e312c13"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
+      "sha256": "ef99974d3de5cedc8c67f0abb5f35f548932bed446beedbd7a7dedee67faba0a"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.json",
+      "sha256": "1344425cabedabd4acf80d25d978b4d7e3f705903cd63d6e0d3a1b2ecaf2b128"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.md",
+      "sha256": "e89208b7aea66b06c12ae18830508eeea15b312e31982af759d719ea57c003f1"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-context.json",
+      "sha256": "815918b1c24f609c65f334d28fbbf98e9a600b1e1fbf3f34ed2f03626cf85a78"
+    },
+    {
+      "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.json",
+      "sha256": "fbd6bc033e5c94be8e7a77d705b6c601cdf94bb44c0164433ba71e9fdb7acad9"
+    },
+    {
+      "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.json",
+      "sha256": "5ed02480d996527188137d01685b25766b9caadeefaf35dbfd7e480756eef183"
+    },
+    {
+      "path": "guides/INDEX.md",
+      "sha256": "75c4cfe4c2f42c3e5fe5cfc7df5380e42d6d473de0e2bfd4e06737721c910a67"
+    },
+    {
+      "path": "knowledge/compiled/briefing.md",
+      "sha256": "e8869aba2ca9fe357dc5979bd55d841ca2fcfcb8f8fccbc7d4e147cf7e1b1ff5"
+    },
+    {
+      "path": "knowledge/compiled/lint-report.md",
+      "sha256": "8319e3b459b31400b684bd6ce9826f629d5f38d01b2ed749087a8b8734827ecd"
+    },
+    {
+      "path": "knowledge/compiled/manifest.json",
+      "sha256": "692231bcd767fb4f56cbc5fa3376b2084ccb254d711cc2e7f846eee3d853920f"
+    },
+    {
+      "path": "knowledge/compiled/overlap-report.md",
+      "sha256": "201ebeb152d38d456a8fa2262fa533e93ed598ba823a332cf9f714eacf82510e"
+    },
+    {
+      "path": "knowledge/compiled/stale-report.md",
+      "sha256": "e0487e95e0ed147b1fc18eb2d29b6213a3dd54e4f33600bc30baafbb8cc86f71"
+    },
+    {
+      "path": "knowledge/index.md",
+      "sha256": "f533402da0e1e64afe44360c9ae86f9a6678d581a789c8eb824b7747cabcd4c5"
+    },
+    {
+      "path": "knowledge/log.md",
+      "sha256": "864eee8dfe0a716d7cb98e2978cb4cf53ce13ef94b4635ecb25d70e385909cd9"
+    }
+  ],
+  "proposed_operation": "Existing worktree_lane preserve, content verification, then local-only lane integration; keep untracked files in place."
+}
