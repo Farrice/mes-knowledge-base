@@ -45,3 +45,11 @@ Every number in the nine posts, where it came from, and what to re-check on send
 - No "first home," no "first-time buyer," no buyer-type hashtag. "Buying or selling" appears in every ask (ENGINE-V2 §1 guardrail).
 - Fair-housing floor: `python3 execution/fair_housing_lint.py COPY-weeks-1-2.md` before every Drive drop.
 - Photos are placeholders until folder 01 has her shoots; `PHOTO-SWAP.md` is the map. Nothing goes to Drive folder 04 on placeholders.
+
+## 2026-09-09 · week 1 re-slot
+
+- "you're buying an $800K house" (00-broll-one-more-question, on screen): HERS / approved specimen (Farrice 2026-09-07, jen-asking-again.md); the band is the niche statement in ENGINE-V2 §1, not a comp. No re-check.
+- Photos in 00-broll: her Bothwell living room + kitchen (`06-system/valley-editions/photos/jen/provenance.json`) — hers, not placeholders; the Drive-04 placeholder gate is satisfied for this post and for 02-connect.
+- 01-attract comps are dated sept 2 → HOLD; re-pull the three listings the day it posts (they move).
+- 03-convert Bothwell → HOLD until Jen confirms it is hers to post (co-listed with Marty Azoulay).
+

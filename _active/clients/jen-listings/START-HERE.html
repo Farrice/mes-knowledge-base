@@ -132,6 +132,11 @@
     background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
   .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
   .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
   .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
     white-space:pre-wrap; word-break:break-word }
 
@@ -201,6 +206,37 @@
   .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
   .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
 
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
   /* matrix — 2x2 */
   .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
   .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
@@ -230,17 +266,19 @@
     .assetgrid{ grid-template-columns:1fr }
     .flow{ flex-direction:column }
     .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
   }
   @media print{
     .brief-nav{ position:static }
-    .copybtn{ display:none }
+    .copybtn, .livebtn{ display:none }
     section.blk, .decision{ break-inside:avoid-page }
   }
 </style>
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#live-now">Live now</a><a href="#health">Health</a><a href="#elsewhere-in-this-arena">Elsewhere in this arena</a><a href="#context-pack">context pack</a><span class="navtools"></span></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#live-now">Live now</a><a href="#health">Health</a><a href="#recent-records">Recent records</a><a href="#drift">Drift</a><a href="#elsewhere-in-this-arena">Elsewhere in this arena</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/homebase/homebase.html" data-route="/">🏠 homebase ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/brain/brain.html" data-route="/brain">🧠 brain ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/catalog/library.html" data-route="/library">🏛 library ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/deliverables/research-briefs/index.html" data-route="/room">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/assets/assets-board.html" data-route="/assets">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/oracle/oracle-dashboard.html" data-route="/oracle">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/.agent/mdview/index.html" data-route="/repo/.agent/mdview/index.html">📄 docs ↗</a></span><script data-surface-nav-live="1">if(location.protocol.indexOf('http')===0){document.querySelectorAll('.homenav a[data-route]').forEach(function(a){a.href=a.dataset.route;});}</script><span class="navtools"></span></div></nav>
 
 <div class="wrap">
   <header>
@@ -248,159 +286,355 @@
     <h1 class="display">Jen Listings</h1>
     <p class="dek">Undated filename = living and current. A filename leading with a date is a record — a receipt of one session, never the truth to build on.</p>
     <div class="trust">
-      <div><span class="k">Window</span><span class="v">15 living</span></div>
+      <div><span class="k">Window</span><span class="v">67 living</span></div>
       <div><span class="k">Lens</span><span class="v">clients</span></div>
-      <div><span class="k">Sources</span><span class="v">15 docs</span></div>
-      <div><span class="k">Compiled</span><span class="v">2026-08-07 17:18 UTC</span></div>
+      <div><span class="k">Sources</span><span class="v">73 docs</span></div>
+      <div><span class="k">Compiled</span><span class="v">2026-09-02 20:03 UTC</span></div>
     </div>
   </header>
 
-  <section class="blk" id="live-now"><div class="sechead"><span class="secnum">01</span><h2 class="sec">Live now</h2><span class="sectag">THE LIVING SET</span></div><div class="assetgrid"><div class="asset"><span class="role">04-deliverables</span><h3>hotel-test-luxury-lane-2026-08-05.md</h3><p>touched 2026-08-05</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md">_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md">copy path</button></div></div><div class="asset"><span class="role">5200-armida-woodland-hills</span><h3>5200-armida-SHOOT-SHEET.md</h3><p>touched 2026-08-05</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md">_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md">copy path</button></div></div><div class="asset"><span class="role">6853-willis-van-nuys</span><h3>SEND-TO-JEN-text.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md">_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>6853-willis-weekend-content-brief.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md">_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md">copy path</button></div></div><div class="asset"><span class="role">1654-moonseed-simi-valley</span><h3>1654-moonseed-SHOOT-SHEET.md</h3><p>touched 2026-07-25</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md">_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>6853-willis-teleprompter-pack.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md">_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>6853-willis-jen-clean-recording-pack.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md">_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>6853-willis-persuasive-reels-v2.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md">_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md">copy path</button></div></div><div class="asset"><span class="role">6853-willis-van-nuys</span><h3>6853-willis-SHOOT-SHEET.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md">_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md">copy path</button></div></div><div class="asset"><span class="role">6853-willis-van-nuys</span><h3>proof-claims-ledger.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md">_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md">copy path</button></div></div><div class="asset"><span class="role">6853-willis-van-nuys</span><h3>6853-willis-briefing.md</h3><p>touched 2026-07-07</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md">_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>sfv-fthb-lead-copy.md</h3><p>touched 2026-06-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md">_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>proof-claims-ledger.md</h3><p>touched 2026-06-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md">_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>sky-format-jen-reacts.md</h3><p>touched 2026-05-31</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md">_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md">copy path</button></div></div><div class="asset"><span class="role">5421-bothwell-tarzana</span><h3>listing-package.md</h3><p>touched 2026-05-09</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md">_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md">copy path</button></div></div></div></section><section class="blk" id="health"><div class="sechead"><span class="secnum">02</span><h2 class="sec">Health</h2><span class="sectag">DERIVED</span></div><div class="stats"><div class="stat"><div class="num">15</div><span class="lab">living docs</span></div><div class="stat"><div class="num">0</div><span class="lab">records</span></div><div class="stat"><div class="num">0</div><span class="lab">archived</span></div><div class="stat"><div class="num">6</div><span class="lab">broken links</span><div class="note">0 is the target</div></div><div class="stat"><div class="num">2</div><span class="lab">media files</span></div></div></section><section class="blk" id="elsewhere-in-this-arena"><div class="sechead"><span class="secnum">03</span><h2 class="sec">Elsewhere in this arena</h2><span class="sectag">CONNECTED</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/andrea-dj/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">andrea-dj</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/chris-restaurants/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">chris-restaurants</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/coach-cooz/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">coach-cooz</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/dwa-affiliate-battle-test/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">dwa-affiliate-battle-test</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">dwa-threads-engine-2026-07-05</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/javier-human-values/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">javier-human-values</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-santulan/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">jen-santulan</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-dancewear-brand/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-dancewear-brand</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-katie-fitness/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-katie-fitness</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-swing-nerd-shirts-v1</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/kens-fasting/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">kens-fasting</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/re-compliance/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">re-compliance</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/trendscale-trial/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">trendscale-trial</span></a></div></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">04</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md">_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md">_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md</a></td><td>asset · 5200-armida-woodland-hills</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md">_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md</a></td><td>asset · 6853-willis-van-nuys</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md">_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md">_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md</a></td><td>asset · 1654-moonseed-simi-valley</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md">_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md">_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md">_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md">_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md</a></td><td>asset · 6853-willis-van-nuys</td></tr><tr><td>10</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md">_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md</a></td><td>asset · 6853-willis-van-nuys</td></tr><tr><td>11</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md">_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md</a></td><td>asset · 6853-willis-van-nuys</td></tr><tr><td>12</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md">_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md</a></td><td>asset · deliverables</td></tr><tr><td>13</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md">_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md</a></td><td>asset · deliverables</td></tr><tr><td>14</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md">_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>15</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md">_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md</a></td><td>asset · 5421-bothwell-tarzana</td></tr><tr><td>16</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/andrea-dj/START-HERE.html">_active/clients/andrea-dj/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>17</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/chris-restaurants/START-HERE.html">_active/clients/chris-restaurants/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>18</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/coach-cooz/START-HERE.html">_active/clients/coach-cooz/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>19</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/dwa-affiliate-battle-test/START-HERE.html">_active/clients/dwa-affiliate-battle-test/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>20</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html">_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>21</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/javier-human-values/START-HERE.html">_active/clients/javier-human-values/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>22</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-santulan/START-HERE.html">_active/clients/jen-santulan/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>23</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-dancewear-brand/START-HERE.html">_active/clients/josh-dancewear-brand/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>24</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-katie-fitness/START-HERE.html">_active/clients/josh-katie-fitness/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>25</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html">_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>26</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/kens-fasting/START-HERE.html">_active/clients/kens-fasting/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>27</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/re-compliance/START-HERE.html">_active/clients/re-compliance/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>28</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/trendscale-trial/START-HERE.html">_active/clients/trendscale-trial/START-HERE.html</a></td><td>related · INITIATIVE</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  <section class="blk" id="live-now"><div class="sechead"><span class="secnum">01</span><h2 class="sec">Live now</h2><span class="sectag">THE LIVING SET</span></div><div class="assetgrid"><div class="asset"><span class="role">04-deliverables</span><h3>COPY.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>COPY.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>COPY.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>READ.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>AMPLIFY.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>CONTENT-MIX.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/CONTENT-MIX.md">_active/clients/jen-listings/06-system/CONTENT-MIX.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/CONTENT-MIX.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>ENGINE-V2.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/ENGINE-V2.md">_active/clients/jen-listings/06-system/ENGINE-V2.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/ENGINE-V2.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>VAULT.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/VAULT.md">_active/clients/jen-listings/06-system/VAULT.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/VAULT.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>COPY-weeks-1-2.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>FACTS.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>PHOTO-SWAP.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>captions.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>saved-replies.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>day-plan.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>MESSAGE-to-jen.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>list.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>FUNNEL-MATH.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/FUNNEL-MATH.md">_active/clients/jen-listings/06-system/FUNNEL-MATH.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/FUNNEL-MATH.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>jen-outlier-audit.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md">_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>COPY.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md">_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>latest.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/pulse/latest.md">_active/clients/jen-listings/06-system/pulse/latest.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/pulse/latest.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>DESIGN.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>DESIGN.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>RULEBOOK.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>COPY-DECK.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>DESIGN.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>PROMPTS.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>HANDOFF.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>RULEBOOK.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>CANVA-GRAMMAR.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md">_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>DESIGN.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/DESIGN.md">_active/clients/jen-listings/06-system/valley-editions/DESIGN.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/DESIGN.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>PHOTO-PLAN.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>CONTENT-PACK.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md">copy path</button></div></div><div class="asset"><span class="role">06-system</span><h3>RESEARCH-PACK.md</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>captions.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>saved-replies.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>day-plan.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>MESSAGE-to-jen.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>captions.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>saved-replies.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt">copy path</button></div></div><div class="asset"><span class="role">04-deliverables</span><h3>day-plan.txt</h3><p>touched 2026-09-02</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt">copy path</button></div></div></div></section><section class="blk" id="health"><div class="sechead"><span class="secnum">02</span><h2 class="sec">Health</h2><span class="sectag">DERIVED</span></div><div class="stats"><div class="stat"><div class="num">67</div><span class="lab">living docs</span></div><div class="stat"><div class="num">6</div><span class="lab">records</span></div><div class="stat"><div class="num">0</div><span class="lab">archived</span></div><div class="stat"><div class="num">158</div><span class="lab">broken links</span><div class="note">0 is the target</div></div><div class="stat"><div class="num">406</div><span class="lab">media files</span></div></div></section><section class="blk" id="recent-records"><div class="sechead"><span class="secnum">03</span><h2 class="sec">Recent records</h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-09-02</span><h3>2026-09-02-engine-v2-amendments-from-outlier-audit.md</h3><p>06-system</p></div><div class="tl-item done"><span class="date">2026-09-02</span><h3>2026-09-02-deep-research-what-works-valley-agents.md</h3><p>06-system</p></div><div class="tl-item done"><span class="date">2026-09-02</span><h3>2026-09-02-reset-after-jen-said-no.md</h3><p>06-system</p></div><div class="tl-item done"><span class="date">2026-09-02</span><h3>2026-08-26-coffee-and-contracts-open-house-notes.md</h3><p>06-system</p></div><div class="tl-item done"><span class="date">2026-09-01</span><h3>2026-09-01-local-signal-slate-v1.md</h3><p>04-deliverables</p></div><div class="tl-item done"><span class="date">2026-09-01</span><h3>2026-09-01-local-signal-slate-v1-OPERATOR.md</h3><p>04-deliverables</p></div></div></section><section class="blk caveats" id="drift"><span class="kicker" style="margin-bottom:10px">WORTH TEN MINUTES</span><h2>Drift</h2><p>**04-deliverables/captions** — 3 undated files claim this slot: 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt (2026-09-02)</p><p>**04-deliverables/copy** — 4 undated files claim this slot: 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md (2026-09-02), 04-deliverables/connect-posts-01/COPY.md (2026-09-02)</p><p>**04-deliverables/copy-deck** — 2 undated files claim this slot: 04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/kit-docs/COPY-DECK.md (2026-09-02)</p><p>**04-deliverables/day-plan** — 3 undated files claim this slot: 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt (2026-09-02)</p><p>**04-deliverables/design** — 3 undated files claim this slot: 04-deliverables/2026-09-01-september-carousels/DESIGN.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md (2026-09-02)</p><p>**04-deliverables/handoff** — 2 undated files claim this slot: 04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/kit-docs/HANDOFF.md (2026-09-02)</p><p>**04-deliverables/message-to-jen** — 3 undated files claim this slot: 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/MESSAGE-to-jen.txt (2026-09-02)</p><p>**04-deliverables/prompts** — 2 undated files claim this slot: 04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/kit-docs/PROMPTS.md (2026-09-02)</p><p>**04-deliverables/rulebook** — 2 undated files claim this slot: 04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md (2026-09-02), 04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md (2026-09-02)</p><p>**04-deliverables/saved-replies** — 3 undated files claim this slot: 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt (2026-09-02), 04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt (2026-09-02)</p></section><section class="blk" id="elsewhere-in-this-arena"><div class="sechead"><span class="secnum">05</span><h2 class="sec">Elsewhere in this arena</h2><span class="sectag">CONNECTED</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/_shared/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">_shared</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/andrea-dj/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">andrea-dj</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/chris-restaurants/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">chris-restaurants</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/coach-cooz/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">coach-cooz</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-affiliate-battle-test/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">dwa-affiliate-battle-test</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">dwa-threads-engine-2026-07-05</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/javier-human-values/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">javier-human-values</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-santulan/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">jen-santulan</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-team-pilot/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">jen-team-pilot</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-dancewear-brand/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-dancewear-brand</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-katie-fitness/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-katie-fitness</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">josh-swing-nerd-shirts-v1</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/kens-fasting/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">kens-fasting</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/re-compliance/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">re-compliance</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/trendscale-trial/START-HERE.html"><span class="k">INITIATIVE</span><span class="t">trendscale-trial</span></a></div></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">06</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/CONTENT-MIX.md">_active/clients/jen-listings/06-system/CONTENT-MIX.md</a></td><td>asset · 06-system</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/ENGINE-V2.md">_active/clients/jen-listings/06-system/ENGINE-V2.md</a></td><td>asset · 06-system</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/VAULT.md">_active/clients/jen-listings/06-system/VAULT.md</a></td><td>asset · 06-system</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>10</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>11</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>12</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>13</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>14</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>15</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>16</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>17</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/FUNNEL-MATH.md">_active/clients/jen-listings/06-system/FUNNEL-MATH.md</a></td><td>asset · 06-system</td></tr><tr><td>18</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md">_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>19</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md">_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>20</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/pulse/latest.md">_active/clients/jen-listings/06-system/pulse/latest.md</a></td><td>asset · 06-system</td></tr><tr><td>21</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>22</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>23</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>24</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>25</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>26</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>27</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>28</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md">_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md</a></td><td>asset · 04-deliverables</td></tr><tr><td>29</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md">_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md</a></td><td>asset · 06-system</td></tr><tr><td>30</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/DESIGN.md">_active/clients/jen-listings/06-system/valley-editions/DESIGN.md</a></td><td>asset · 06-system</td></tr><tr><td>31</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md</a></td><td>asset · 06-system</td></tr><tr><td>32</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md</a></td><td>asset · 06-system</td></tr><tr><td>33</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md">_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md</a></td><td>asset · 06-system</td></tr><tr><td>34</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>35</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>36</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>37</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>38</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>39</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>40</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt">_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt</a></td><td>asset · 04-deliverables</td></tr><tr><td>41</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/_shared/START-HERE.html">_active/clients/_shared/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>42</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/andrea-dj/START-HERE.html">_active/clients/andrea-dj/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>43</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/chris-restaurants/START-HERE.html">_active/clients/chris-restaurants/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>44</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/coach-cooz/START-HERE.html">_active/clients/coach-cooz/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>45</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-affiliate-battle-test/START-HERE.html">_active/clients/dwa-affiliate-battle-test/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>46</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html">_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>47</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/javier-human-values/START-HERE.html">_active/clients/javier-human-values/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>48</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-santulan/START-HERE.html">_active/clients/jen-santulan/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>49</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-team-pilot/START-HERE.html">_active/clients/jen-team-pilot/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>50</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-dancewear-brand/START-HERE.html">_active/clients/josh-dancewear-brand/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>51</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-katie-fitness/START-HERE.html">_active/clients/josh-katie-fitness/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>52</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html">_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>53</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/kens-fasting/START-HERE.html">_active/clients/kens-fasting/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>54</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/re-compliance/START-HERE.html">_active/clients/re-compliance/START-HERE.html</a></td><td>related · INITIATIVE</td></tr><tr><td>55</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/trendscale-trial/START-HERE.html">_active/clients/trendscale-trial/START-HERE.html</a></td><td>related · INITIATIVE</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
   &quot;slug&quot;: &quot;jen-listings&quot;,
   &quot;title&quot;: &quot;Jen Listings&quot;,
-  &quot;compiled&quot;: &quot;2026-08-07 17:18 UTC&quot;,
+  &quot;compiled&quot;: &quot;2026-09-02 20:03 UTC&quot;,
   &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
   &quot;brief_html&quot;: &quot;deliverables/research-briefs/jen-listings/jen-listings-brief.html&quot;,
   &quot;brief_md&quot;: &quot;deliverables/research-briefs/jen-listings/jen-listings-brief.md&quot;,
   &quot;paths&quot;: [
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/COPY.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/5200-armida-woodland-hills/5200-armida-SHOOT-SHEET.md&quot;,
-      &quot;role&quot;: &quot;asset · 5200-armida-woodland-hills&quot;
-    },
-    {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/SEND-TO-JEN-text.md&quot;,
-      &quot;role&quot;: &quot;asset · 6853-willis-van-nuys&quot;
-    },
-    {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/COPY.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md&quot;,
-      &quot;role&quot;: &quot;asset · 1654-moonseed-simi-valley&quot;
-    },
-    {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/READ.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/AMPLIFY.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md&quot;,
-      &quot;role&quot;: &quot;asset · 6853-willis-van-nuys&quot;
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/CONTENT-MIX.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/CONTENT-MIX.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md&quot;,
-      &quot;role&quot;: &quot;asset · 6853-willis-van-nuys&quot;
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/ENGINE-V2.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/ENGINE-V2.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md&quot;,
-      &quot;role&quot;: &quot;asset · 6853-willis-van-nuys&quot;
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/VAULT.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/VAULT.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/sfv-fthb-lead-copy.md&quot;,
-      &quot;role&quot;: &quot;asset · deliverables&quot;
-    },
-    {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/proof-claims-ledger.md&quot;,
-      &quot;role&quot;: &quot;asset · deliverables&quot;
-    },
-    {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md&quot;,
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/COPY-weeks-1-2.md&quot;,
       &quot;role&quot;: &quot;asset · 04-deliverables&quot;
     },
     {
-      &quot;path&quot;: &quot;_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/5421-bothwell-tarzana/listing-package.md&quot;,
-      &quot;role&quot;: &quot;asset · 5421-bothwell-tarzana&quot;
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/PHOTO-SWAP.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/captions.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/saved-replies.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/day-plan.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21/MESSAGE-to-jen.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/list.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/FUNNEL-MATH.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/FUNNEL-MATH.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/jen-outlier-audit.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/connect-posts-01/COPY.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/pulse/latest.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/pulse/latest.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/DESIGN.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/DESIGN.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/ds/RULEBOOK.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/COPY-DECK.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/DESIGN.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/PROMPTS.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/HANDOFF.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/claude-design-kit/RULEBOOK.md&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/CANVA-GRAMMAR.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/valley-editions/DESIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/DESIGN.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/PHOTO-PLAN.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/CONTENT-PACK.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/06-system/valley-editions/edition-01/RESEARCH-PACK.md&quot;,
+      &quot;role&quot;: &quot;asset · 06-system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/captions.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/saved-replies.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/day-plan.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/MESSAGE-to-jen.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/captions.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/saved-replies.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/day-plan.txt&quot;,
+      &quot;role&quot;: &quot;asset · 04-deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/_shared/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/_shared/START-HERE.html&quot;,
+      &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/andrea-dj/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/andrea-dj/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/andrea-dj/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/chris-restaurants/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/chris-restaurants/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/chris-restaurants/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/coach-cooz/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/coach-cooz/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/coach-cooz/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/dwa-affiliate-battle-test/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/dwa-affiliate-battle-test/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-affiliate-battle-test/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/javier-human-values/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/javier-human-values/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/javier-human-values/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/jen-santulan/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-santulan/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-santulan/START-HERE.html&quot;,
+      &quot;role&quot;: &quot;related · INITIATIVE&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-team-pilot/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/jen-team-pilot/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/josh-dancewear-brand/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/josh-dancewear-brand/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-dancewear-brand/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/josh-katie-fitness/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/josh-katie-fitness/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-katie-fitness/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/josh-swing-nerd-shirts-v1/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/kens-fasting/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/kens-fasting/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/kens-fasting/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/re-compliance/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/re-compliance/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/re-compliance/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     },
     {
       &quot;path&quot;: &quot;_active/clients/trendscale-trial/START-HERE.html&quot;,
-      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/trendscale-trial/START-HERE.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine/_active/clients/trendscale-trial/START-HERE.html&quot;,
       &quot;role&quot;: &quot;related · INITIATIVE&quot;
     }
   ],
@@ -454,6 +688,90 @@
       if(pre) copyText(pre.textContent, btn);
     });
   });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = false;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.claude/worktrees/jen-reset-one-spine";
+  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var relPath = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return uri.slice(PREFIX.length);
+    };
+    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
+      .catch(function(){ LIVE = false; return false; });
+    var browserRoute = function(uri){
+      var rel = relPath(uri);
+      if (!rel) return null;
+      return (LIVE ? '/repo/' : '/') + rel;
+    };
+    HANDSHAKE.then(function(){
+      // Images must be same-origin or they render as broken glyphs. Generic
+      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
+      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+        var r = browserRoute(img.getAttribute('src'));
+        if (r) img.setAttribute('src', r);
+      });
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        ev.preventDefault();
+        HANDSHAKE.then(function(){
+          var repo = browserRoute(href);
+          if (repo && INLINE.test(repo.split('?')[0])){
+            window.location = repo;
+            return;
+          }
+          if (!LIVE){ window.location = href; return; }
+          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
+            .then(function(r){ return r.json(); })
+            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+            .catch(function(){ toast('open failed'); });
+        });
+      });
+    });
+  }
 })();
 </script>
 </body>

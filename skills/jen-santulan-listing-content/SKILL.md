@@ -8,9 +8,14 @@ when_to_use: User drops a listing URL or property address for content OR is prod
 version: "3.0"
 format: completion-engine
 workflows: 4
-expert: Jennifer Santulan (@realestatewithjing)
+expert: Jennifer Santulan (@_jiing)
 domain: Real estate social media (LA / San Fernando Valley specialist)
+routing: long-tail
+scope_note: "2026-09-02 reset: Convert district only (her own listings, /listing-package). Never the front door for Jen content; that is /jen (.agent/workflows/jen.md), which loads references/jen-real-voice-profile.md + jen-calibration-log.md as the voice source. The 'warm-enthusiastic, emoji-rich' voice below is the March floor; the July scrape and Sept voice memos (calm-warm lowercase) win on conflict."
 ---
+
+> **SCOPE (2026-09-02):** Convert district only. Front door for everything Jen is `/jen`. Voice source of truth is `references/jen-real-voice-profile.md`, not the paragraph below.
+
 
 # Jen Santulan Listing Content Engine
 

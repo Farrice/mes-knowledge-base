@@ -121,13 +121,25 @@ client work, real next decisions) must use the full Insightful Momentum intellig
 `execution/contextual_next_prompts.py --objective "..."` helps when it fits.
 A skipped block is fine; a padded block is a failure.
 
-## Execution Bias Contract
-When intent is clear enough and no risk boundary is detected, Codex defaults to **Patch + Verify** for safe workspace-local work. Do the next local action first, keep commentary to blockers or decision gates, then report what changed and what passed.
+## Execution Bias Contract (rewritten 2026-09-09 for gpt-6-astra; card: `directives/model-dialects/gpt-6-astra.md`)
+Astra's base prompt dropped two rules Sol carried (skill-on-match = must; the answer/diagnose/build table). This section restores them. Route every ask before acting:
 
-- Do not hand Farrice another prompt when the next step is a safe local inspection, patch, verifier run, or receipt.
-- Ask only when the answer changes execution, taste, scope, external action, destructive action, paid/quota use, global `~/.codex`, Codex Antigravity writes, or real subagent behavior.
-- For system, routing, hook, operator-core, or "explaining instead of executing" complaints, route to `/system-audit` and run `python3 execution/codex_operator_preflight.py "<raw intent>" --plain` as the manual hook-equivalent gate.
-- Subagents default to read-only diagnostics/validation. The main thread owns file edits and integration unless Farrice explicitly authorizes edit-owning workers with disjoint write scopes.
+| Ask shape | Route | Done means |
+|---|---|---|
+| a question | ANSWER | the answer, then the next safe step done yourself |
+| "why did this fail / what's wrong" | DIAGNOSE | cause + evidence; **if the same ask also says fix/do/help/can you, it is BUILD** |
+| change, build, fix, produce, "help me…", "can you…" | BUILD | the artifact changed in THIS turn; end with its path + receipt lines |
+
+- Infer intent and scope from the instructions and prior context; bias toward action and carry the intended task to completion. Before asking a clarifying question, complete the work already authorized from context and needed to make the proposed action concrete and reviewable.
+- **Receipts, never claims.** No "done" without the write/patch/verifier receipt in the same turn. A turn that ends at a plan says `PLAN ONLY, NOTHING CHANGED`.
+- **Skill on match = must load** (this repo's rule; it overrides the base prompt's "use judgement"). Name the SKILL.md you loaded in one line before producing. `/jen`, `/go`, `/system-audit` and the routing bindings are that rule made concrete.
+- **Artifact before brief.** For content: one complete piece by one pen, then Farrice's verdict. Briefs ≤ 1 page. No A/B unless asked. Two rejected takes on one piece = back to the source input, never a third take.
+- **Continuity.** Corrections refine the accumulated objective; they never replace it. The approved specimen and prior decisions ride into every continuation verbatim.
+- **Do it yourself first.** Uploads, folders, renders, merges, session hand-offs: attempt with the tools; hand a step to Farrice only when a tool cannot do it, naming the blocker. Never route him to another session or a paid third-party tool as the first answer.
+- **His rules outrank your judgement.** Never suppress, disable, or work around a global steering rule, hook, or instruction file. If a rule blocks, quote it and ask.
+- Ask only when the answer changes execution, taste, scope, external action, destructive action, paid/quota use, global `~/.codex`, or real subagent behavior. Subagents default to read-only diagnostics; the main thread owns edits and integration.
+- Seating: Codex's active model executes directly. Claude seating rules (Fable/Opus/Sonnet ladder) do not apply here.
+- "Explaining instead of executing" complaints route to `/system-audit` (`python3 execution/codex_operator_preflight.py "<raw intent>" --plain`).
 
 ## Tool remaps (system docs use Claude Code names)
 - `search_web` / `WebSearch` → Codex web search

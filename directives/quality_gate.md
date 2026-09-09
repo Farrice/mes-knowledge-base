@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-08 (chain_runner finalize for dan-koe-multipassionate-mastery) |
-| **Last Activated** | 2026-09-08 (chain_runner finalize for dan-koe-multipassionate-mastery) |
-| **Activation Count** | 914 |
-| **30-Day Review Date** | 2026-10-08 |
+| **Last Activated** | 2026-09-09 (chain_runner finalize for jen-santulan-listing-content) |
+| **Last Activated** | 2026-09-09 (chain_runner finalize for jen-santulan-listing-content) |
+| **Activation Count** | 915 |
+| **30-Day Review Date** | 2026-10-09 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

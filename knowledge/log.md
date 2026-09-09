@@ -853,3 +853,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-08 18:22]` **finalize** | Outcome ownership hook implementation and controlled delivery verification; main integration pending | strategy | system-audit — composite:6.67 status:Needs Improvement
 - `[2026-09-08 21:23]` **finalize** | Opt-in expert production recovered and verified; first Jen solo versus team B-roll pair ready for hu | content | system-audit — composite:7.0 status:Needs Improvement
 - `[2026-09-08 21:10]` **finalize** | Revised the rejected AI revenue post around a concrete rejection-example diagnostic | general | dan-koe — composite:7.0 status:Needs Improvement
+- `[2026-09-02 13:06]` **finalize** | Jen content-system reset: diagnostic brief + one spine (/jen nine steps), CONTENT-MIX from extractio | content | alyssa-stalker-agent-content-playbook — composite:6.33 status:Needs Improvement
+- `[2026-09-09 11:50]` **finalize** | Codex/Astra regression diagnosis + fix (gpt-6-astra card, Execution Bias Contract restore, steering  | content | alyssa-stalker — composite:6.33 status:Needs Improvement

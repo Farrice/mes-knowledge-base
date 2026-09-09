@@ -42,6 +42,16 @@
             "timeout": 5
           }
         ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" superseded-read",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "UserPromptSubmit": [
@@ -61,6 +71,11 @@
             "type": "command",
             "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" guard-stranded",
             "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" steering-loop prompt",
+            "timeout": 10
           }
         ]
       }
@@ -72,6 +87,32 @@
             "type": "command",
             "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger stop",
             "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" steering-loop stop",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" lane-bootstrap",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-alarm",
+            "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-brief",
+            "timeout": 20
           }
         ]
       }
