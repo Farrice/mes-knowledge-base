@@ -1,0 +1,13 @@
+{
+  "artifact_type": "sales-system",
+  "title": "Control-Beater Zero-Call Three-Asset System",
+  "status": "prepared_no_event",
+  "audience": "private operator use",
+  "commercial_state": {
+    "sent": 0,
+    "replies": 0,
+    "sold": 0,
+    "collected_usd": 0
+  },
+  "external_actions_authorized": []
+}

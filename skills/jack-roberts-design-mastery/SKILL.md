@@ -1,9 +1,9 @@
 ---
 name: "Jack Roberts: Design Mastery"
 description: "Code-first design system that codifies visual excellence into reusable DESIGN.md files, enabling one-command production of websites, presentations, brand assets, and visual systems at world-class quality."
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 15
+workflows: 16
 ---
 
 # Jack Roberts: Design Mastery
@@ -25,6 +25,7 @@ workflows: 15
 | anti-slop | [Anti-Slop Audit](workflows/anti-slop-audit.md) | Scored diagnostic with specific anti-slop prescriptions | Evaluating any AI-generated design for generic patterns and AI tells |
 | reference | [Reference Collection Sprint](workflows/reference-collection-sprint.md) | Curated reference library with extracted design patterns | Gathering inspiration and establishing excellence benchmarks for a design project |
 | iterate | [Design Iteration Loop](workflows/design-iteration-loop.md) | Refined design output matching the user's standard of excellence | You have a first draft that needs structured micro-polishing to reach production quality |
+| gauntlet | [Design Gauntlet](workflows/design-gauntlet.md) | Screenshot-evidenced before/after design with a bounded repair log and surviving-risk report | A taste-bearing visual draft must improve against a named reference without regressing its system |
 | enshrine | [Design Skill Enshrine](workflows/design-skill-enshrine.md) | Reusable SKILL.md file that reproduces the design at one-command quality | You've perfected a design workflow and want to make it permanently reproducible |
 | multi | [Multi-Format Deploy](workflows/multi-format-deploy.md) | Same design system expressed across multiple formats (web, slides, graphics) | Deploying one brand's visual language across all your design touchpoints |
 | library | [Design Library Import](workflows/design-library-import.md) | Customized DESIGN.md forked from awesome-design-md (55+ brands, 56k+ stars) | You want a proven starting point instead of building from scratch |
@@ -52,6 +53,9 @@ workflows: 15
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Source Transcript**: `extractions/jack-roberts/transcript.txt`
 - **Design Library**: `skills/design-md/` — Stitch-format DESIGN.md generator
+- **Local Reference Library**: `knowledge/design-libraries/INDEX.md` — curated DESIGN.md systems, searchable with `python3 execution/design_md_brand_lookup.py search "[query]"`
+- **Asset Command Center**: `.agent/assets/manifest.jsonl` + `execution/asset_gallery.py` — searchable prior prompts, styles, and visual assets; reuse before regenerating
+- **Blind Bar**: `directives/blind-bar-protocol.md` — reference-anchored, capped comparison protocol used by `/design-gauntlet`
 - **awesome-design-md**: `github.com/xb1g/awesome-design-md` — 55+ pre-built brand DESIGN.md files (56k+ stars)
 - **Complementary Skills**: `canvas-design` (art objects), `kittl-graphic-design` (typography), `sean-kochel-design-first-build` (landing pages)
 
@@ -59,12 +63,13 @@ workflows: 15
 
 ## Execution Prompts (structure-pure v2)
 
-13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+14 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Jack Roberts — Anti-Slop Audit** — `skills/jack-roberts-design-mastery/references/prompts-v2/anti-slop-audit.md`
 - **Jack Roberts — Brand-in-a-Box Package** — `skills/jack-roberts-design-mastery/references/prompts-v2/brand-in-a-box-package.md`
 - **Jack Roberts — Branded Deliverable Package** — `skills/jack-roberts-design-mastery/references/prompts-v2/branded-deliverable-package.md`
 - **Content Brand Design System: [Name]** — `skills/jack-roberts-design-mastery/references/prompts-v2/content-brand-forge.md`
+- **Design Gauntlet Result — [artifact]** — `skills/jack-roberts-design-mastery/references/prompts-v2/design-gauntlet.md`
 - **Jack Roberts — Design Iteration Loop** — `skills/jack-roberts-design-mastery/references/prompts-v2/design-iteration-loop.md`
 - **Design System: [Project/Brand Name]** — `skills/jack-roberts-design-mastery/references/prompts-v2/design-md-construction.md`
 - **Jack Roberts — Design Philosophy Document** — `skills/jack-roberts-design-mastery/references/prompts-v2/design-philosophy-document.md`

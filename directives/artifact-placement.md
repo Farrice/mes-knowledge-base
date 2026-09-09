@@ -31,6 +31,14 @@ place. The front door reports any record newer than its bucket's living doc as
 *unabsorbed* — that is the standing detector for the trap above. Absorption is
 judgment and is never automated.
 
+**A new file must earn its existence.** Purpose, audience, approval state, or
+evidence changed materially: create a date-led milestone record, then absorb
+the decision into the living document. Editing passes, cleanup, formatting, and
+minor wording: update the living document in place. Git and Google Docs already
+hold revision history; do not create `v2`, `v3`, `final`, or `latest` as a
+substitute. Google Doc exporters keep one ignored source-to-Doc-ID registry and
+update that Doc unless `--new-milestone` is explicitly chosen.
+
 ## The Shape
 
 ```
@@ -95,6 +103,8 @@ applies at whatever level files actually accumulate.
    (PostToolUse/Write, wired in `.claude/settings.json`): a file written loose at a
    project root triggers an in-session correction with the exact fix. Fix it then,
    while context is hot.
+   The same hook is wired through `.codex/hooks.json`, so Claude and Codex apply
+   the living-slot rule consistently.
 2. **Session-close sweep** — `execution/end_session_closeout.py` runs
    `project_filer.py sweep`: unambiguous strays get auto-filed with a receipt;
    ambiguous ones are listed for judgment. Never blocks closeout.

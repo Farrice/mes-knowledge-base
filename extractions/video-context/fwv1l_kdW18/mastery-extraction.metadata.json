@@ -1,0 +1,17 @@
+{
+  "title": "BitBranding PDP Rebuild Mastery Extraction",
+  "artifact_type": "source_grounded_mastery_extraction",
+  "source_url": "https://www.youtube.com/watch?v=fwv1l_kdW18",
+  "source_creator": "Christian Pinyon / BitBranding",
+  "source_date": "2026-08-27",
+  "created_at": "2026-08-30",
+  "primary_skill": "extract-mastery",
+  "system_owner": "bitbranding-fashion-shopify",
+  "evidence": {
+    "caption_segments": 1100,
+    "clean_transcript_words": 16042,
+    "reviewed_frames": 10
+  },
+  "proof_state": "deterministic_checks_passed_human_blind_review_pending",
+  "external_writes": "none"
+}

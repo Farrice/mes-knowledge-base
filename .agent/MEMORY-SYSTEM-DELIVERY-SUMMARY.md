@@ -23,7 +23,20 @@ You requested a proper second brain to capture sessions, prevent context bloat, 
 - **Why This**: Raw conversations never auto-promote; humans control what becomes "always-loaded" memory
 
 ### Layer 3: Notion Second Brain (Browsable)
-- **What**: 84 Knowledge Entries + 12 Experts + 12 Sources + 12 Skills
+
+> **2026-08-11 reliability correction:** The integration and all five Simon
+> Library databases remain live. Before this repair, automatic session-closeout
+> delivery had never been wired. The Session Memory database contained three setup and
+> verification rows, not the full session history. The nightly mirror had also
+> continued targeting only the older operational database set. The reliability
+> repair makes Notion a first-class, network-free `memory_facade` source through
+> the local mirror and expands the nightly registry to the five Simon databases.
+> Session Memory delivery is now privacy-gated and operational: `/end-session`
+> queues an allow-listed local summary, an explicit approve/reject event controls
+> eligibility, and the nightly mirror syncs approved rows idempotently. It is not
+> a complete historical session archive; raw transcripts and unapproved summaries
+> remain local.
+- **What**: 84 Knowledge Entries + 12 Experts + 12 Sources + 13 Skills
 - **Engine**: Notion Simon Intellectual Library (integration-owned classic DBs)
 - **Access**: Open Notion hub to see library; query via `/library-*` skills
 - **Seeding**: Fully populated from your A-tier genius.md files
@@ -32,7 +45,7 @@ You requested a proper second brain to capture sessions, prevent context bloat, 
 
 ### Front Door: Unified Retrieval
 - **What**: `memory_facade.py` — single query across all stores
-- **Stores**: sovereign + automem + wiki + agents + episodic (5-store router)
+- **Stores**: sovereign + Notion mirror + automem + wiki + agents + episodic + solutions + prompts (8-source router)
 - **Usage**: `python3 execution/memory_facade.py "<intent>" --top 10`
 - **Why This**: No more "which store do I check?" — ask once, get everything
 
@@ -56,12 +69,11 @@ python3 execution/memory_facade.py "what I worked on last month" --top 10
 # Returns: past session snippets across all stores, scored by relevance
 ```
 
-### Log a Session to Notion
+### Review and Sync a Session to Notion
 ```bash
-python3 execution/notion_api.py session-memory "Session Title" \
-  --decisions "What we decided" \
-  --pickup "What's next"
-# Pushes a row to Notion (allow-listed fields only)
+python3 execution/notion_session_memory.py status
+python3 execution/notion_session_memory.py approve <key-prefix>
+# The nightly mirror syncs approved rows and writes durable receipts.
 ```
 
 ### Run the Distillation Loop (Weekly)
@@ -142,14 +154,14 @@ The original Simon Scrapes video pointed at a *category* of system (auto-capture
 4. **Seeding** the knowledge layer (84 entries from your A-tier experts)
 5. **Consolidating** the 7-system sprawl down to clean 3-layer architecture
 
-Result: **One query, five stores, zero bloat.**
+Result: **One query, eight sources, zero network dependency for recall.**
 
 ---
 
 ## ⚡ Next Steps (Optional/Human Gate)
 
 1. **Deploy advisors** (optional): Run Notion AI Prompts 2-4 from `_active/knowledge/notion-intellectual-library/` to create grounded advisors
-2. **Wire handoff** (optional Phase 4): Have `/handoff` also push Session Memory rows
+2. **Review Session Memory queue**: approve only safe summaries with `python3 execution/notion_session_memory.py status`, then `approve <key-prefix>`; nightly sync handles delivery and receipts
 3. **Automate weekly** (optional): cron job or launchd task for episodic_ingest + distill loop
 
 None of these block the system from working right now. All three layers are live.
@@ -159,7 +171,7 @@ None of these block the system from working right now. All three layers are live
 ## 🏁 The Delivered Promise
 
 ✅ Context bloat eliminated (query facade instead of pre-loading)
-✅ Notion logs now active (84 entries + session memory queryable)
+✅ Notion Library live and queryable; approval-gated session-closeout delivery active
 ✅ Previous context captured mechanically (no manual logging)
 ✅ Second brain ready (Notion dashboard ready to browse)
 ✅ Clean 3-layer stack (no 8th memory file created)

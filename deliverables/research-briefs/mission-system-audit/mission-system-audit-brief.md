@@ -1,45 +1,80 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 0 assets · compiled: sep 9, 2026
 
-Real system repair landed here, but the thread's own label points at somebody else's work.
+Everything this thread has produced, where it stands, and the next move — assembled from 6 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 6 sessions, 2 deliverables finalized.
 
-Handoff status is active. Last activity 5d ago.
+Handoff status is active. Last activity 1d ago.
 
-Next: Confirm the disarmed gates have stayed disarmed, then close this thread.
+Next: Resume the `system-audit` work-stream — see the deliverable above.
 
-## by the numbers
-- DELIVERABLES FINALIZED: **9**
-- DAYS ACTIVE: **13 d**
+_Auto-pinned by chain_runner.finalize (system-audit)._
 
-## lifecycle
+## the state, as the last session left it
+Handoff written 69d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
-
-## what this thread made
-- **2026-07-08-control-intent-classifier-overfires-system-audit.md** [SOLUTION] `docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md`
-
-## pick it back up
+## resume · park · kill
 1. **Resume here** — Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
 ```
 python3 execution/handoff_store.py resume system-audit
 ```
    touches: .agent/handoffs/2026-07-02-system-audit.md
    receipt: The stored handoff prints with drift since it was written.
+2. **Park it** — Shelve deliberately — resumable, muted, never urgent.
+```
+python3 execution/pulse_actions.py park system-audit --reason "<one line>"
+```
+   receipt: Handoff annotated parked; drops out of needs-you.
+3. **Kill it** — Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.
+```
+python3 execution/pulse_actions.py kill system-audit --reason "<one line>"
+```
+   receipt: Ledger line `killed` + handoff archived.
+
+## pick it up anywhere
+**CONTEXT PACK — paste into any session**
+```
+THREAD: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
+SLUG: system-audit
+STATUS: active · STAGE: outcome
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-02-system-audit.md
+
+RESUME HERE: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
+
+SHIPPED IN WINDOW:
+  - 2026-08-28 · Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship
+  - 2026-08-30 · Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, r
+
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
+```
+
+## by the numbers
+- DELIVERABLES FINALIZED: **2**
+- SESSIONS: **6** (codex)
+- DAYS ACTIVE: **12 d**
+
+## momentum
+
+
+## lifecycle
+
 
 ## how it got here
-- 2026-08-04 · **Finalized · system-audit** — Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair
-- 2026-08-04 · **Finalized · system-audit** — Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture 
-- 2026-07-28 · **Finalized · system-audit** — Model-Dialect Adaptation Layer: bound injector (dialect-card-keyed, exemplar-calibrated) + 5 dead-channel detectors in self_heal + full-asset wiring ratchet; 3 verifier suites, 12 sabotage controls; merged two concurrent
-- 2026-07-28 · **Finalized · system-audit** — Unhobble mission: vetted the '80% deleted' video against Anthropic primary source (claim-vet table, six-shifts solution card), applied CLAUDE.md diet 3672→1601w with council-mandated scar restoration, fixed GEMINI.md sta
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine: audited the enforcement layer, disarmed the live routing prompt-blocker and the 3-gate scheduled escalation ladder, converted chain_runner quality latches to nudges
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine v2: silent earned-8 score cap waived under COMPASS_MODE so the visible nudge is the only consequence
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine v3: anti-cluster cap no longer treats an unrun prose check as dirty prose
-- 2026-07-27 · **Finalized · system-audit** — REGRESSION TEST - factual veto probe, ignore this row
-- 2026-07-27 · **Finalized · system-audit** — Compass sweep round 2: softened 27 cage-language lines across 20 directives, audited the Codex hook surface, fixed the Codex git guard blocking all pushes
+- 2026-09-07 · **codex session** — System: Scrapes vs Antigravity OS - Astra Reliability Audit
+- 2026-09-07 · **codex session** — System: Astra Harness - Capability and Operating Audit
+- 2026-09-06 · **codex session** — System: Antigravity Harness - Evidence and Unhobbling Audit
+- 2026-09-04 · **codex session** — Client: Jen 6-3-2 System - Audit & Proof
+- 2026-09-02 · **codex session** — System: Jun Content OS - Capability Failure Audit
+- 2026-09-01 · **codex session** — System: Signal Fidelity - Contract and Proof Audit
+- 2026-08-30 · **Finalized · system-audit** — Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, real writer evidence, and sabotage verifier
+Hourly launchd observed loaded with last exit 0; real local lane merge passed; no remote push; 9/9 sabotage checks PASS | platform: codex | Verification: PASS | telemetry: sub_agents_spawned=0
+- 2026-08-28 · **Finalized · system-audit** — Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship
+Shadow-only dual render preserves full brief authority; isolated handoff returned artifact only; main thread caught and removed two structural tells | platform: codex | Verification: PASS | telemetry: sub_agents_spawned=
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-07-02-system-audit.md
@@ -47,11 +82,12 @@ python3 execution/handoff_store.py resume system-audit
 
 ## what this isn't
 _READ THE EDGES_
-The resume line attached to this thread describes client listing work, not system work — its handoff and its deliverables disagree about what this thread even is, so read the header with suspicion. Its ledger also includes a regression-test row that was never real output, which inflates the tally.
+The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
+
+The judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
 ## Context pack (agent feed)
-- `docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md` — asset · SOLUTION
 - `.agent/handoffs/2026-07-02-system-audit.md` — playbook · Resume here
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

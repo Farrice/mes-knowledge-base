@@ -1,7 +1,7 @@
 # Wiki Lint Report
-*Generated: 2026-08-09 | 56 issues found*
+*Generated: 2026-08-30 | 70 issues found*
 
-**Errors**: 24 | **Warnings**: 20 | **Info**: 12
+**Errors**: 24 | **Warnings**: 34 | **Info**: 12
 
 ---
 
@@ -32,12 +32,14 @@
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REDLINING.md](REDLINING.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [OOXML.md](OOXML.md) points to nonexistent file
 
-## WARNING (20)
+## WARNING (34)
 
+- **[orphan]** `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md` — Not referenced by any other file (39 days old, 3,063 words)
 - **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-01-decision-reasons.md` — Only 29 words — stub or incomplete
 - **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-02-phone-attention.md` — Only 30 words — stub or incomplete
 - **[stub]** `extractions/david-perell-writing/reference-corpus/2020-04-11-good-writing-editing.md` — Only 24 words — stub or incomplete
 - **[stub]** `extractions/luke-iha-avatar-machine/PROVENANCE.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/matt-haig-reader-bridge/reference-corpus/02-interview-feeling-contagion.md` — Only 49 words — stub or incomplete
 - **[stub]** `extractions/meg-heckman/video-context-7MNa2YTPGs4/ocr-notes.md` — Only 20 words — stub or incomplete
 - **[stub]** `extractions/persuasion-story-code/source/coverage-report.md` — Only 25 words — stub or incomplete
 - **[stub]** `extractions/ron-lynch/source-metadata.md` — Only 36 words — stub or incomplete
@@ -46,29 +48,41 @@
 - **[stub]** `extractions/video-context/3iR3kHxCwfo/ocr-notes.md` — Only 20 words — stub or incomplete
 - **[stub]** `extractions/video-context/4HqO0h13MX4/frame-notes.md` — Only 11 words — stub or incomplete
 - **[stub]** `extractions/video-context/4HqO0h13MX4/ocr-notes.md` — Only 17 words — stub or incomplete
+- **[stub]** `extractions/video-context/8U0BDpRnPFU/frame-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/8U0BDpRnPFU/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/AaSyn9YSNYQ/visual-ledger.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/video-context/B90eANIJ2XI/frame-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/B90eANIJ2XI/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/FD53kEpLh9c/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/FD53kEpLh9c/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/Fh_54G6p_cs/visual-ledger.md` — Only 47 words — stub or incomplete
 - **[stub]** `extractions/video-context/GlTA4wXSACE/ocr-notes.md` — Only 41 words — stub or incomplete
+- **[stub]** `extractions/video-context/H_TvNSNbRiU/frame-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/H_TvNSNbRiU/ocr-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/Tnv9PuMo84E/ocr-notes.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/video-context/XS-E6rnCr5U/ocr-notes.md` — Only 11 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/a7VjpIqq8Xk/ocr-notes.md` — Only 20 words — stub or incomplete
+- **[stub]** `extractions/video-context/nGZbkwKboVU/frame-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/nGZbkwKboVU/ocr-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/ooGeFK70d5U/frame-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/ooGeFK70d5U/ocr-notes.md` — Only 18 words — stub or incomplete
 
 ## INFO (12)
 
-- **[contradiction_zone]** `domain:seo` — 17 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:seo` — 18 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:strategy` — 26 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:content` — 28 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:copywriting` — 22 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:general` — 28 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:screenwriting` — 21 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:research` — 24 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:screenwriting` — 23 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:research` — 23 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:systems` — 22 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:brand` — 24 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:sales` — 10 files contain strong assertions — review for consistency
-- **[very_stale]** `multiple` — 357 files are >90 days old — candidates for archive
-- **[missing_frontmatter]** `multiple` — 975/1078 files lack YAML frontmatter — limits metadata queries
+- **[contradiction_zone]** `domain:sales` — 11 files contain strong assertions — review for consistency
+- **[very_stale]** `multiple` — 372 files are >90 days old — candidates for archive
+- **[missing_frontmatter]** `multiple` — 1097/1205 files lack YAML frontmatter — limits metadata queries
 
 ---
 

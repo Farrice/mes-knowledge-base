@@ -1,0 +1,76 @@
+# Candidate Workflow: Micro-Fame Authority Density
+
+Status: judgment candidate, not live runtime.
+
+## Stage 1 — Authority objective
+
+1. Name the category in which unaided recall matters.
+2. Define the high-value viewer or buyer.
+3. List observable evidence under four separate headings: reach, fit, trust, commercial action.
+4. State what cannot currently be measured.
+
+**Stop condition:** if category or audience is missing, request only that decision.
+
+## Stage 2 — Seven-axis scan
+
+Use topic, substance depth, stories/scenarios, avatar specificity, delivery style, storytelling format, and visual format as backstage search lenses.
+
+1. Describe the category's default promise and execution.
+2. Search the lenses for capability-backed differences.
+3. Surface the one controlling contrast most likely to change buyer choice or recall.
+4. Run a blind distinction test against three nearby alternatives.
+5. Add one supporting contrast only if the first test fails.
+6. Stop when the distinction is clear and park the unused lenses.
+
+A completed or scored seven-axis grid is a failure unless the user explicitly asks for research notes.
+
+## Stage 3 — Transpositioning
+
+1. Select one adjacent and one distant category.
+2. Extract one working mechanism from each.
+3. Strip source-specific aesthetics and language.
+4. Adapt the mechanism to the target audience’s stakes.
+5. record the preservation boundary so inspiration does not become imitation.
+
+## Stage 4 — 3-2-1 portfolio
+
+- **Broad bucket:** category-relevant, larger reach potential, qualified acquisition job.
+- **Narrow bucket A:** high-value pain or desired outcome, authority/trust job.
+- **Narrow bucket B:** a different high-value pain or desired outcome, authority/trust job.
+- **Chaos agent:** one controlled experiment with a written hypothesis.
+
+Produce two posts per core bucket plus one chaos post per week. If the operator cannot sustain seven posts, preserve the ratio and complete four reps per core bucket over a longer declared window.
+
+## Stage 5 — Precommit the review
+
+For each bucket, define:
+
+- intended job;
+- primary and secondary measures;
+- minimum evidence window;
+- what counts as keep, modify, kill, or inconclusive;
+- queued replacement candidate.
+
+Do this before seeing the results.
+
+## Stage 6 — Two-week decision
+
+After at least four fair executions per core bucket:
+
+1. compare the median to its job-specific threshold;
+2. inspect qualitative signals and confounders;
+3. decide `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE`; four reps are the floor, not a forced verdict;
+4. promote the strongest candidate if a bucket is killed;
+5. record what changes in the next batch.
+
+## Stage 7 — Learning transfer
+
+Update the durable decision log with:
+
+- positioning attribute that helped or hurt;
+- topic and audience job;
+- hook, format, story, and visual treatment;
+- outcome by reach, fit, trust, and commercial action;
+- next test and reason.
+
+The workflow is complete only when the next batch changes because of the evidence.

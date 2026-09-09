@@ -1,0 +1,11 @@
+{
+  "artifact_type": "research_evidence_matrix",
+  "title": "Free-First Research Acquisition Bakeoff",
+  "date": "2026-08-28",
+  "owner": "/deep-research-os",
+  "fixture_urls": 30,
+  "paid_calls": 0,
+  "accounts_created": 0,
+  "new_dependencies": 0,
+  "status": "verified_with_native_reference_sample"
+}

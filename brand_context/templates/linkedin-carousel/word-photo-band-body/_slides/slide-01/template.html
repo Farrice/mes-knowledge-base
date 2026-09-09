@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+</head>
+<body>
+  <div class="slide" data-surface="light">
+    <!-- BACKGROUND — pure CSS solid fill, no AI generation (rationale.md: form a-framed-image, edit_mode none) -->
+    <div class="bg" style="position:absolute; inset:0; background: var(--brand-bg-light);"></div>
+
+    <!-- HEADER ROW — editorial-style document header (series title left, date + arrow right).
+         NOT the standard tokens.json chrome.masthead (see rationale.md §4) — flex, never float. -->
+    <div class="header-row"
+         style="position:absolute; left:7.78%; top:5.33%; width:84.44%; height:3%;
+                display:flex; justify-content:space-between; align-items:baseline;">
+      <span class="header-slot" data-slot="HEADER_TITLE"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2.41cqw; font-weight:700; letter-spacing:-0.01em;
+                   color: var(--brand-text-on-light);">{{HEADER_TITLE}}</span>
+      <span class="header-slot" data-slot="HEADER_DATE"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2.04cqw; font-weight:400; display:flex; align-items:center; gap:2cqw;
+                   color: var(--brand-text-on-light);">{{{HEADER_DATE}}}</span>
+    </div>
+
+    <!-- HEADLINE — giant lowercase editorial display word/phrase, the slide's one dominant idea.
+         Sits directly on the flat canvas fill, nothing behind it — HTML-isolable (rationale.md §2). -->
+    <div class="zone headline" data-slot="HEADLINE"
+         style="position:absolute; left:7.78%; top:11.85%; width:84.44%; height:14.81%; overflow:hidden;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:13.33cqw; font-weight:700; line-height:0.92; letter-spacing:-0.055em;
+                color: var(--brand-text-on-light); text-align:left;">{{{HEADLINE}}}</div>
+
+    <!-- SUBTITLE — supporting paragraph in a narrower reading column (70.37%, not full safe-width). -->
+    <div class="zone body" data-slot="SUBTITLE"
+         style="position:absolute; left:7.78%; top:25.19%; width:70.37%; height:11%; overflow:hidden;
+                font-family: var(--font-body, var(--font-display), 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:2.41cqw; font-weight:400; line-height:1.34;
+                color: var(--brand-text-on-light); text-align:left;">{{{SUBTITLE}}}</div>
+
+    <!-- PHOTO BAND — the ONE real, non-generated evidence capture (moves.md move #8 "Evidence crop").
+         Contained rectangle, flat edge, no radius, no shadow. Binds {{PHOTO_MAIN_PATH}} — never a
+         hardcoded asset path — so a real per-post capture always overrides the demo sample. -->
+    <div class="photo-zone" data-zone="photo"
+         style="position:absolute; left:7.78%; top:38.52%; width:84.44%; height:44.44%;
+                overflow:hidden; background:#D8D8D3;"> <!-- #D8D8D3 = tokens.json colors.border_subtle (locked token), loading-state fill -->
+      <img data-slot="PHOTO_MAIN" src="{{PHOTO_MAIN_PATH}}" alt=""
+           style="width:100%; height:100%; object-fit:cover; object-position:0 0; display:block;">
+    </div>
+
+    <!-- SOURCE LABEL — caption-scale citation line under the photo band. -->
+    <div class="zone caption" data-slot="SOURCE_LABEL"
+         style="position:absolute; left:7.78%; top:84.89%; width:84.44%; height:2.5%; overflow:hidden;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:1.85cqw; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
+                color:#8C8C82;">{{{SOURCE_LABEL}}}</div> <!-- #8C8C82 = tokens.json colors.text_muted / named.stone (locked token); no CSS var emitted yet — see rationale.md §4 -->
+
+    <!-- FOOTER STRIP — this style's masthead-equivalent identity strip, relocated to the footer per the
+         approved editorial grammar (rationale.md §4). Flex row, never float. -->
+    <div class="footer-row"
+         style="position:absolute; left:7.78%; top:93.48%; width:84.44%; height:1.8%;
+                display:flex; justify-content:space-between; align-items:baseline;">
+      <span class="footer-slot" data-slot="FOOTER_NAME"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:1.85cqw; font-weight:400; color: var(--brand-text-on-light);">{{FOOTER_NAME}}</span>
+      <span class="footer-slot" data-slot="FOOTER_SITE"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:1.85cqw; font-weight:400; color: var(--brand-text-on-light);">{{FOOTER_SITE}}</span>
+      <span class="footer-slot" data-slot="FOOTER_DESC"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:1.85cqw; font-weight:400; color: var(--brand-text-on-light);">{{FOOTER_DESC}}</span>
+      <span class="footer-slot" data-slot="FOOTER_CTA"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:1.85cqw; font-weight:700; color: var(--brand-text-on-light);">{{FOOTER_CTA}}</span>
+    </div>
+  </div>
+</body>
+</html>

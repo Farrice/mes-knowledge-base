@@ -1,0 +1,100 @@
+[
+  {
+    "type": "observed_spoken",
+    "start": "00:01:30",
+    "end": "00:03:10",
+    "claim": "Moodboards function as decision and communication tools, not decorative inspiration collages.",
+    "status": "VERIFIED_SOURCE_STATED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:02:05",
+    "end": "00:05:35",
+    "claim": "Internal boards may hold categorized research across imagery, graphics, materials, and effects.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:05:35",
+    "end": "00:07:20",
+    "claim": "Client-facing boards should be distilled so a small number of references communicate a coherent direction.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:08:50",
+    "end": "00:11:40",
+    "claim": "References should be interrogated for the specific transferable element rather than copied as whole surfaces.",
+    "status": "VERIFIED_SOURCE_STATED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:11:40",
+    "end": "00:14:20",
+    "claim": "Reference capture compounds when it is organized into reusable libraries and relationships.",
+    "status": "VERIFIED_SOURCE_STATED"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:02:21",
+    "end": "00:02:21",
+    "claim": "Confirms internal exploration uses category clusters rather than one undifferentiated collage.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:02:31",
+    "end": "00:02:31",
+    "claim": "Shows one board region answering a specific photography and imagery question.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:04:36",
+    "end": "00:04:36",
+    "claim": "Shows typography and graphics treated as a separate decision lane.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:04:45",
+    "end": "00:04:45",
+    "claim": "Shows tactile material cues separated from imagery and type.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:04:53",
+    "end": "00:04:53",
+    "claim": "Shows effects as a distinct execution variable rather than a vague mood adjective.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:06:18",
+    "end": "00:06:18",
+    "claim": "Confirms the presentation board is materially sparser than the internal research board.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:12:00",
+    "end": "00:12:00",
+    "claim": "Shows ongoing reference capture is organized by future decision use, not one giant inspiration feed.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:12:36",
+    "end": "00:12:36",
+    "claim": "Shows broad collection precedes later project-specific filtering.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:13:12",
+    "end": "00:13:12",
+    "claim": "Shows relationships between references can be made explicit before execution.",
+    "status": "VERIFIED_VISUAL"
+  }
+]

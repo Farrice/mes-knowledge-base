@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,">
+<title>Format Matrix · farrice-parallax</title>
+<style>
+  :root{--canvas:#f4f2ee;--paper:#fdfcfa;--ink:#16181d;--graphite:#5a5f68;--stone:#a8a49c;--line:#ddd8cf;--accent:#3d5a80;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--canvas);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.5;padding:44px 20px}
+  .wrap{max-width:1060px;margin:0 auto}
+  .chip{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite)}
+  h1{font-size:29px;font-weight:500;margin:10px 0 6px}
+  .stand{color:var(--graphite);max-width:72ch}
+  .tap{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:16px 0 8px}
+  .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 22px}
+  @media(max-width:860px){.strip{grid-template-columns:1fr}}
+  .pick{background:var(--paper);border:1px solid var(--ink);padding:14px 16px;cursor:pointer}
+  .pick .k{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite)}
+  .pick h3{font-size:15px;font-weight:500;margin:3px 0 4px}
+  .pick p{font-size:12.5px;color:var(--graphite)}
+  .pick.bet{border-style:dashed}
+  .matbox{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;min-width:760px;background:var(--paper);border:1px solid var(--line)}
+  th{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--graphite);font-weight:500;padding:10px;border-bottom:1px solid var(--ink);text-align:left}
+  th.rowh{width:220px}
+  td{border:1px solid var(--line);padding:10px;vertical-align:top;font-size:12.5px;cursor:pointer}
+  td .badge{font-size:14px;font-weight:500}
+  td .n{font-size:10.5px;color:var(--stone);letter-spacing:.06em;display:block}
+  td.dim{background:#efede8;color:var(--stone);cursor:default}
+  td.open{background:var(--paper);border:1px dashed var(--graphite)}
+  td.open .badge{color:var(--accent)}
+  td.sel{outline:2px solid var(--ink);outline-offset:-2px}
+  .rowlabel{font-size:12.5px}
+  .rowlabel small{display:block;font-size:10.5px;color:var(--stone)}
+  .panel{background:var(--paper);border:1px solid var(--ink);padding:18px 20px;margin-top:18px}
+  .panel h3{font-size:15px;font-weight:500;margin-bottom:2px}
+  .panel .sub{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);margin-bottom:8px}
+  .row{margin-top:10px;padding-top:8px;border-top:1px solid var(--line)}
+  .row b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--graphite);display:block;margin-bottom:2px}
+  .row p{font-size:13.5px}
+  .row a{color:var(--accent)}
+  .legend{font-size:11.5px;color:var(--graphite);margin-top:10px;border:1px dashed var(--graphite);padding:10px 12px}
+  .legend b{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+  .exportrow{margin-top:30px;padding-top:14px;border-top:1px solid var(--line);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  .exportrow a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="chip">Growth Blueprint · Format Matrix · evidence current as of Aug 27, 2026</div>
+  <h1>Structures × layouts: what is proven, what is open</h1>
+  <p class="stand">A format is a storytelling structure (how the spoken words are organized) crossed with a visual layout (how it is shot). Solid cells are measured pairs with specimens; dashed cells are open — a bet, never evidence. Two cells (S3-L1, S4-L1) are proposals invented for this channel: nobody runs them, which is exactly why they are on the board.</p>
+  <div class="tap">Try these 3 first — tap a card for its mechanism, or tap any matrix cell</div>
+  <div class="strip" id="strip"></div>
+  <div class="matbox"><table id="mat"></table></div>
+  <div class="legend"><b>Read the numbers as pool evidence, not causal proof:</b> every in-cell multiple bundles channel effect, topic effect, and guest effect (Sabri's 14.1× rides a 504K channel; foundr's 15.9× rides a half-billion-dollar guest; the 64.2× ceiling is one channel's 19-year franchise). The mechanism card, not the multiple, is what transfers. Outlier = N× that channel's own normal views-per-day.</div>
+  <div class="panel" id="panel"></div>
+  <div class="exportrow">
+    <span>Produced Aug 27, 2026 · evidence current as of Aug 27, 2026 · coverage: YouTube measured; TikTok/IG not measured; LinkedIn formats out of scope</span>
+    <span><a href="format-playbook-client.html">Client brief</a> · <a href="javascript:window.print()">PDF</a></span>
+  </div>
+</div>
+<script>
+const S=[
+ {id:"S1",n:"The Compression Promise",one:"a time-boxed teaching promise with audacious specific numbers",ex:"“Give me four minutes and you'll know the six claims your supplement brand can legally make.”"},
+ {id:"S2",n:"The Shift Analysis",one:"an event decoded into what-this-means-for-you",ex:"“Last week the FTC sent 14 warning letters to supplement brands. One sentence in letter #6 should change your next launch.”"},
+ {id:"S3",n:"The Witness",one:"an outcome cold-open, then the scar that built it",ex:"“You exited for half a billion dollars… When that happened, all this hustle, blood, sweat, tears.”"},
+ {id:"S4",n:"The Template Reveal",one:"the exact artifact behind a result, walked through",ex:"“This is the claim-safety sheet we run before any supplement ad ships. Three columns. The middle one saves accounts.”"},
+ {id:"S5",n:"The Roundtable",one:"named operators disagreeing usefully",ex:"“Your CMO says ROAS is up. Haus's data says half never happened. Which do you believe on budget day?”"}
+];
+const L=[
+ {id:"L1",n:"Talking head + receipts",cost:"LOW: phone, naptime, spoken-first"},
+ {id:"L2",n:"Screen-share",cost:"LOW-MED"},
+ {id:"L3",n:"Roundtable (as guest)",cost:"ZERO as guest, HIGH as host"}
+];
+const CELLS={
+ "S1L1":{s:"proven",badge:"14.1×",n:"5 rows · median 10.8×",spec:["Give Me 27 Minutes… (Sabri)","https://www.youtube.com/watch?v=HsjuAvqs3zU","201K · 14.1× · 2026-07-31"],note:"The pool's most reliable education vehicle. Confound: 504K channel effect."},
+ "S1L2":{s:"thin",badge:"5.1×",n:"1 row",spec:["13-hour marketing course (Chappell)","https://www.youtube.com/watch?v=8AAIf5PWJik","63K · 5.1× · 2026-01-28"],note:"Thin evidence; screen-share dilutes the promise-debt eye contact."},
+ "S1L3":{s:"dim",note:"Not a fit: compression is a solo skeleton."},
+ "S2L1":{s:"proven",badge:"64.2×",n:"3 rows",spec:["Amazon Just Lost Control (mywifequitherjob)","https://www.youtube.com/watch?v=CpIZPIbU0cU","1.4M · 64.2× · 2026-04-28"],note:"The ceiling is a person-effect: 19-year franchise. Expect the skeleton, not the ceiling."},
+ "S2L2":{s:"proven",badge:"21.8×",n:"2 rows",spec:["Claude Changed Facebook Ads (Chappell)","https://www.youtube.com/watch?v=ReYEYoLsppk","41K · 21.8× · 2026-08-09"],note:"The current mechanism-wave vehicle."},
+ "S2L3":{s:"open",badge:"OPEN",note:"Nobody news-jacks inside a roundtable in this pool."},
+ "S3L1":{s:"open",badge:"OPEN · invented row",note:"Self-witness monologue: nobody in-pool runs it. This is the one whitespace bet in the picks, with a written fallback (pitch the story to roundtables instead)."},
+ "S3L2":{s:"dim",note:"Story dies on a screen-share."},
+ "S3L3":{s:"proven",badge:"15.9×",n:"7 rows · median 5.7×",spec:["Quad Lock exit (foundr)","https://www.youtube.com/watch?v=CERZXt6lpxk","39K · 15.9× · 2026-07-30"],note:"Confound: celebrity-guest effect. As GUEST this costs him zero production."},
+ "S4L1":{s:"open",badge:"OPEN · invented row",note:"Paper-prop counter consult: the claim ladder held on camera, trainer-clipboard energy. Proposal, not evidence."},
+ "S4L2":{s:"proven",badge:"19.9×",n:"2 rows",spec:["Product-page blueprint (Supliful)","https://www.youtube.com/watch?v=8eHZqKtnymY","12K · 19.9× · 2025-01-10"],note:"Confound: vendor-audience intent (aspirants hunting shortcuts)."},
+ "S4L3":{s:"dim",note:"Not a fit."},
+ "S5L1":{s:"dim",note:"n/a — roundtable needs the table."},
+ "S5L2":{s:"dim",note:"n/a"},
+ "S5L3":{s:"proven",badge:"14.2×",n:"7 rows · median 6.4×",spec:["Scale Your CPG Brand (CTC)","https://www.youtube.com/watch?v=6psqtXu4u88","9.9K · 14.2× · 2026-08-13"],note:"For him: guest, don't host. An MO guest slot is a Ring-2 move."}
+};
+const PICKS=[
+ {t:"Pick 1 · The Claim Ladder",cell:"S1L1",k:"S1 × L1 · proven pair",p:"Compression promise on claim-science payloads. 60–90 min per rep: voice memo first (his words are the script), one session, two cuts.",bet:false,
+  mech:{m:"Promise-debt + ranked-completion pull: the stated number makes the viewer hold you to it; numbered steps open loops the brain wants closed.",f:"Promise bigger than payload reads as betrayal; punishes thin substance hardest.",tr:"Survives because his payloads are enumerable (claims, proof tiers, rejection reasons). Breaks on vibes topics.",c:"Sabri's 14.1× bundles a 504K channel; read as pool evidence."}},
+ {t:"Pick 2 · The Regulatory News-Jack",cell:"S2L1",k:"S2 × L1 · proven pair, his beat",p:"FTC/FDA warning letters + platform health-policy updates, 24–48h turnaround. Monday 20-min sweep; event number → what changed → for you → the move.",bet:false,
+  mech:{m:"Chaos vigilance + insider decoding: fear of being blindsided holds through the for-you translation.",f:"News without translation is commodity content.",tr:"The regulatory beat is unclaimed in the measured pool; breaks if it drifts to general marketing news.",c:"The 64.2× ceiling is one channel's franchise; expect the skeleton, not the ceiling."}},
+ {t:"Pick 3 · The Counter Consult",cell:"S3L1",k:"S3/S4 hybrid × L1 · THE bet, labeled",p:"Self-witness monologue with the printed claim ladder as prop. One counter story per video, ending on the buyer's protection. Fallback written: guest the story to roundtables.",bet:true,
+  mech:{m:"Possibility witness: borrowed belief from a body that lived it; the scar makes it credible.",f:"No stakes = résumé recitation.",tr:"He is his own interviewee (2018→2026 conversion, counter years). Breaks as guest-dependent interviewing: no booking pipeline yet.",c:"foundr's 15.9× bundles celebrity guests. The mechanism transfers; the guest list does not."}}
+];
+const strip=document.getElementById('strip'),mat=document.getElementById('mat'),panel=document.getElementById('panel');
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function rowD(l,t){const r=el('div','row');r.appendChild(el('b',null,l));r.appendChild(el('p',null,t));return r}
+function showCell(key,fromPick){
+ [...mat.querySelectorAll('td')].forEach(td=>td.classList.toggle('sel',td.dataset.k===key));
+ const c=CELLS[key];panel.replaceChildren();
+ const s=S.find(x=>key.startsWith(x.id)),l=L.find(x=>key.endsWith(x.id));
+ panel.appendChild(el('h3',null,s.n+' × '+l.n));
+ panel.appendChild(el('div','sub',(c.s==='proven'?'measured pair':'')+(c.s==='thin'?'thin evidence':'')+(c.s==='open'?'open cell: a bet, never evidence':'')+(c.s==='dim'?'not enough data / not a fit':'')));
+ panel.appendChild(rowD('Structure, four-part named',s.n+': '+s.one+'. 12-second example: '+s.ex));
+ panel.appendChild(rowD('Layout cost for THIS operator',l.cost));
+ if(c.spec){const r=el('div','row');r.appendChild(el('b',null,'Specimen'));const p=el('p');const a=el('a',null,c.spec[0]);a.href=c.spec[1];a.target='_blank';a.rel='noopener';p.appendChild(a);p.appendChild(document.createTextNode(' · '+c.spec[2]));r.appendChild(p);panel.appendChild(r);}
+ panel.appendChild(rowD('Read',c.note));
+ const pk=PICKS.find(p=>p.cell===key);
+ if(pk){panel.appendChild(rowD('Mechanism (retention)',pk.mech.m));panel.appendChild(rowD('Failure mode',pk.mech.f));panel.appendChild(rowD('Transfer conditions',pk.mech.tr));panel.appendChild(rowD('Confound note',pk.mech.c));}
+}
+PICKS.forEach(p=>{
+ const d=el('div','pick'+(p.bet?' bet':''));
+ d.appendChild(el('div','k',p.k));d.appendChild(el('h3',null,p.t));d.appendChild(el('p',null,p.p));
+ d.addEventListener('click',()=>showCell(p.cell,true));strip.appendChild(d);
+});
+const hr=el('tr');hr.appendChild(el('th','rowh','structure ↓ · layout →'));
+L.forEach(l=>{const th=el('th');th.appendChild(document.createTextNode(l.n));const s=el('small',null,' · '+l.cost);s.style.textTransform='none';s.style.letterSpacing='0';th.appendChild(s);hr.appendChild(th)});
+mat.appendChild(hr);
+S.forEach(s=>{
+ const tr=el('tr');
+ const th=el('th','rowh');const rl=el('div','rowlabel',s.id+' · '+s.n);const sm=el('small',null,s.one);rl.appendChild(sm);th.appendChild(rl);tr.appendChild(th);
+ L.forEach(l=>{
+  const key=s.id+l.id,c=CELLS[key];
+  const td=el('td');td.dataset.k=key;
+  if(c.s==='dim'){td.className='dim';td.textContent='·';}
+  else{
+   if(c.s==='open')td.className='open';
+   td.appendChild(el('div','badge',c.badge||''));
+   if(c.n)td.appendChild(el('span','n',c.n));
+   td.addEventListener('click',()=>showCell(key));
+  }
+  tr.appendChild(td);
+ });
+ mat.appendChild(tr);
+});
+showCell('S1L1');
+</script>
+</body>
+</html>

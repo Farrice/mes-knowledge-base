@@ -2,11 +2,11 @@
 """
 Worktree Lane OS — lifecycle helper for parallel sessions (2026-08-06).
 
-One writer per tree; lanes are automatic. The first session keeps the main
-tree; every additional session (Claude Code or Codex) works in its own git
-worktree "lane" with FULL harness power (hooks, .env, MCP, memory, spend
-trackers — main-identical, proven by `parity`), then auto-merges back to main
-when clean. Conflicts PARK the branch and surface one line — never silent loss.
+Main is integration-only; every write-capable Claude Code or Codex session
+works in its own git worktree "lane" with FULL harness power (hooks, .env, MCP,
+memory, spend trackers — main-identical, proven by `parity`), then auto-merges
+back to clean main. Read-only inspection may stay on main. Conflicts PARK the
+branch and surface one line — never silent loss.
 
 STDLIB-ONLY by design: Codex lanes and the pre-bootstrap window have no venv,
 so this must run under bare python3.
@@ -15,9 +15,13 @@ Commands:
   bootstrap [--if-needed] [--quiet]     provision a lane (symlinks + state + parity)
   parity                                prove full-power (also: doctor --parity)
   list [--json]                         active + parked lanes
-  merge [--lane BRANCH] [--no-teardown] [--dry-run]
+  merge [--lane BRANCH] [--no-teardown] [--push] [--no-push] [--dry-run]
                                         seal -> gate -> merge -> Law-3 audit ->
-                                        regen -> push -> teardown | PARK
+                                        regen -> local by default; explicit push
+                                        -> teardown | PARK
+  preserve [--slug S] [--dry-run] [--push]
+                                        move human work stranded on main into
+                                        its own lane; main becomes clean
   teardown [--lane BRANCH] [--force]    remove a merged/parked lane
   doctor [--fix] [--parity]             health table; --fix re-links/prunes
 
@@ -27,6 +31,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -35,13 +40,18 @@ from pathlib import Path
 
 FILE_ROOT = Path(__file__).resolve().parent.parent
 LOCK_TTL_MIN = 45          # mirrors session_lock.py heartbeat TTL
-FRESH_TRANSCRIPT_MIN = 10  # mirrors concurrent_session_alarm.py window
 
 # Provisioned into every lane as symlinks -> main (single source of truth).
 SHARED_LINKS = [
     ".venv", ".env", ".mcp.json",
     ".claude/settings.local.json",
     ".memory",
+    ".agent/cos",
+]
+# Workspace-local context starts main-identical but must remain isolated after
+# bootstrap. Copy it once instead of symlinking it back to the main workspace.
+SNAPSHOT_DIRS = [
+    ".agent/intent-memory",
 ]
 # Spend/budget state: shared so a lane can never zero-reset or double-spend.
 # Only symlinked once untracked on main (Phase 3 migration); tracked -> SKIP.
@@ -141,11 +151,6 @@ def save_registry(main: Path, reg: dict):
 
 
 # ── main-writer detection ───────────────────────────────────────────
-def _flatten(p: Path) -> str:
-    # Claude Code project-dir flattening: EVERY non-alphanumeric char -> "-"
-    return re.sub(r"[^A-Za-z0-9]", "-", str(p))
-
-
 def _lane_session_ids(main: Path) -> set:
     """Sessions registered to lanes are lane writers, not main writers — even
     though a session that auto-laned mid-session keeps its transcript in the
@@ -162,9 +167,16 @@ def _lane_session_ids(main: Path) -> set:
 
 
 def fresh_main_writer(main: Path, exclude_ids=None, own_lock_token=None) -> "str | None":
-    exclude_ids = exclude_ids if exclude_ids is not None else _lane_session_ids(main)
+    """Return actual evidence of a live main writer.
+
+    Fresh transcripts are deliberately not write evidence. Since main became
+    integration-only, read-only sessions correctly remain there, and background
+    artifact-monitor events keep their transcripts fresh. A main writer must
+    hold the session lock; tracked changes and the merge mutex are checked
+    separately by ``cmd_merge``.
+    """
     own_lock_token = own_lock_token or os.environ.get("SESSION_LOCK_TOKEN")
-    # (a) session lock heartbeat (our own lock doesn't make us a foreign writer)
+    # Session lock heartbeat (our own lock doesn't make us a foreign writer).
     lock = main / ".agent" / "session.lock"
     if lock.exists():
         try:
@@ -175,16 +187,6 @@ def fresh_main_writer(main: Path, exclude_ids=None, own_lock_token=None) -> "str
                 return f"session lock '{data.get('mission', '?')}' (heartbeat {age_min:.0f}m ago)"
         except Exception:
             pass
-    # (b) fresh transcript in main's projects dir
-    proj = Path.home() / ".claude" / "projects" / _flatten(main)
-    if proj.is_dir():
-        now = time.time()
-        for t in proj.glob("*.jsonl"):
-            if t.stem in exclude_ids:
-                continue
-            age_min = (now - t.stat().st_mtime) / 60
-            if age_min < FRESH_TRANSCRIPT_MIN:
-                return f"fresh session transcript {t.stem[:8]}… ({age_min:.0f}m ago)"
     return None
 
 
@@ -245,6 +247,14 @@ def cmd_bootstrap(args) -> int:
         if res.startswith("skip"):
             skipped.append(f"{rel} ({res})")
 
+    snapshots = 0
+    for rel in SNAPSHOT_DIRS:
+        src, dst = main / rel, lane / rel
+        if src.is_dir() and not os.path.lexists(dst):
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copytree(src, dst)
+            snapshots += 1
+
     # Fresh per-lane state (isolation is correct here)
     agent = lane / ".agent"
     agent.mkdir(exist_ok=True)
@@ -275,6 +285,7 @@ def cmd_bootstrap(args) -> int:
     if ok:
         print(f"LANE READY: {branch} at {lane} — FULL POWER "
               f"({counts['linked'] + counts['present']} links, "
+              f"{snapshots} context snapshots, "
               f"{counts['skip-tracked']} awaiting Phase-3 migration)"
               + ("" if not args.quiet else ""))
     else:
@@ -290,6 +301,56 @@ def cmd_bootstrap(args) -> int:
 
 
 # ── parity (the full-power guarantee) ───────────────────────────────
+def episodic_parity(lane: Path, main: Path) -> list[str]:
+    """Prove a canonical indexed exchange is visible through the lane's scope.
+
+    Reading SQLite directly avoids embeddings, providers and private text in
+    receipts. Load each checkout's actual facade, so an old lane cannot inherit
+    a PASS from the current helper's implementation.
+    """
+    probe = '''
+import importlib.util, json, sqlite3, sys
+from contextlib import closing
+from pathlib import Path
+def facade(root, name):
+    spec = importlib.util.spec_from_file_location(name, Path(root) / 'execution/memory_facade.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+def scope(m):
+    keys = m.EPISODIC_PROJECTS or []
+    return (' AND project IN (' + ','.join('?' for _ in keys) + ')' if keys else ''), keys
+try:
+    main, lane = facade(sys.argv[1], 'parity_main'), facade(sys.argv[2], 'parity_lane')
+    notes = []
+    if main.EPISODIC_DB.exists():
+        with closing(sqlite3.connect(f'file:{main.EPISODIC_DB}?mode=ro', uri=True, timeout=5)) as con:
+            con.execute('PRAGMA query_only=ON')
+            sql, keys = scope(main)
+            row = con.execute('SELECT id FROM exchanges WHERE 1=1' + sql + ' LIMIT 1', keys).fetchone()
+        if row:
+            with closing(sqlite3.connect(f'file:{lane.EPISODIC_DB}?mode=ro', uri=True, timeout=5)) as con:
+                con.execute('PRAGMA query_only=ON')
+                sql, keys = scope(lane)
+                found = con.execute('SELECT 1 FROM exchanges WHERE id=?' + sql, [row[0], *keys]).fetchone()
+            if not found:
+                notes.append('episodic history is indexed on main but excluded by lane memory scope')
+    print(json.dumps(notes))
+except Exception as exc:
+    print(json.dumps(['episodic parity unavailable: ' + str(exc)[:160]]))
+'''
+    try:
+        result = subprocess.run(
+            [sys.executable, "-B", "-c", probe, str(main), str(lane)],
+            capture_output=True, text=True, timeout=20,
+        )
+        if result.returncode:
+            return ["episodic parity probe failed: " + result.stderr[-160:]]
+        return json.loads(result.stdout)
+    except (OSError, subprocess.SubprocessError, ValueError) as exc:
+        return [f"episodic parity unavailable: {str(exc)[:160]}"]
+
+
 def run_parity(lane: Path, main: Path, record=False):
     """Prove the lane has main-identical functionality. Returns (ok, [deficiencies]).
     Nudge, never block: informational even when degraded."""
@@ -338,6 +399,57 @@ def run_parity(lane: Path, main: Path, record=False):
     except Exception as e:
         d.append(f"settings.json unreadable: {e}")
 
+    # Codex has a separate hook surface. A lane is not full-power merely
+    # because Claude hooks parse; prove the Codex config, runner, and desktop
+    # trust state resolve through the canonical main hook file.
+    codex_hooks = lane / ".codex" / "hooks.json"
+    try:
+        codex_conf = json.loads(codex_hooks.read_text())
+        codex_commands = [
+            str(hook.get("command") or "")
+            for groups in codex_conf.get("hooks", {}).values()
+            for group in groups
+            for hook in group.get("hooks", [])
+            if hook.get("command")
+        ]
+        if len(codex_commands) != 9:
+            d.append(f"Codex hooks.json expected 9 commands, found {len(codex_commands)}")
+        if not codex_commands or not all("codex_hook_runner.py" in command for command in codex_commands):
+            d.append("Codex hook commands do not all use codex_hook_runner.py")
+        for command in codex_commands:
+            match = re.search(r'"([^"]*codex_hook_runner\.py)"', command)
+            if match and not Path(match.group(1)).exists():
+                d.append(f"Codex hook runner missing: {match.group(1)}")
+                break
+        desktop_config = Path.home() / ".codex" / "config.toml"
+        config_text = desktop_config.read_text() if desktop_config.exists() else ""
+        trusted_hooks = main / ".codex" / "hooks.json"
+        required_states = (
+            "pre_tool_use:0:0",
+            "pre_tool_use:0:2",
+            "post_tool_use:0:0",
+            "user_prompt_submit:0:0",
+            "user_prompt_submit:0:1",
+            "user_prompt_submit:0:2",
+            "stop:0:0",
+        )
+        missing_states = []
+        for suffix in required_states:
+            header = f'[hooks.state."{trusted_hooks}:{suffix}"]'
+            marker = config_text.find(header)
+            if marker == -1:
+                missing_states.append(suffix)
+                continue
+            next_header = config_text.find("\n[", marker + 1)
+            block = config_text[marker:] if next_header == -1 else config_text[marker:next_header]
+            block_lower = block.lower()
+            if "trusted_hash" not in block_lower or "enabled = false" in block_lower:
+                missing_states.append(suffix)
+        if missing_states:
+            d.append(f"Codex desktop hook trust missing/explicitly-disabled states: {', '.join(missing_states[:3])}")
+    except Exception as e:
+        d.append(f"Codex hooks.json unreadable: {e}")
+
     # deps reachable under lane python (the venv symlink test that matters)
     r = subprocess.run([str(lane_py), "-c", "import dotenv, requests"],
                        capture_output=True, timeout=20)
@@ -365,6 +477,16 @@ def run_parity(lane: Path, main: Path, record=False):
         if (main / rel).exists() and (not p.exists()):
             d.append(f"{rel} absent (symlink broken or never linked)")
 
+    if (main / ".agent" / "cos" / "goals.json").exists() and not (
+        lane / ".agent" / "cos" / "goals.json"
+    ).exists():
+        d.append(".agent/cos/goals.json absent — current goals and mission context are unavailable")
+
+    if (main / ".agent" / "intent-memory" / "current.json").exists() and not (
+        lane / ".agent" / "intent-memory" / "current.json"
+    ).exists():
+        d.append(".agent/intent-memory/current.json absent — active intent context is unavailable")
+
     # 4. memory reachable (read-only canary against sovereign.db)
     db = lane / ".memory" / "sovereign.db"
     if (main / ".memory" / "sovereign.db").exists():
@@ -380,6 +502,8 @@ def run_parity(lane: Path, main: Path, record=False):
                     d.append("sovereign.db opens but is empty")
             except Exception as e:
                 d.append(f"sovereign.db read failed: {e}")
+
+    d.extend(episodic_parity(lane, main))
 
     # 5. in-repo surface counts (catches a stale branch base)
     for rel, label in ((".claude/commands", "slash commands"),
@@ -520,12 +644,14 @@ def _theirs_is_stale(main: Path, path: str, depth: int = 60) -> bool:
     return False
 
 
-def _park(main, lane, branch, reason) -> int:
-    _git(lane, "push", "-u", "origin", branch, timeout=90)  # best effort
+def _park(main, lane, branch, reason, push=True) -> int:
+    if push:
+        _git(lane, "push", "-u", "origin", branch, timeout=90)  # best effort
     reg = load_registry(main)
     entry = reg.get(branch, {})
     entry.update({"path": str(lane), "status": "parked", "reason": reason,
                   "parked_at": datetime.now().isoformat(timespec="seconds")})
+    entry.pop("merge_in_flight", None)
     reg[branch] = entry
     save_registry(main, reg)
     print(f"LANE PARKED: {branch} — {reason}. Resolve later: "
@@ -533,7 +659,77 @@ def _park(main, lane, branch, reason) -> int:
     return 0  # a park is a surfaced outcome, not an error
 
 
+def _clear_stale_index_lock(main: Path, min_age_s: int = 30) -> bool:
+    """Remove a STALE `.git/index.lock` on main: zero bytes, older than
+    min_age_s, and no live git process. A crashed/raced git leaves this file
+    and every later git call on main fails with "index.lock: File exists";
+    the 2026-09-02 mid-merge scar and the 2026-09-03 half-restored preserve
+    both traced to one. Live locks (fresh or with a git process) are respected."""
+    rc, gd, _ = _git(main, "rev-parse", "--path-format=absolute", "--git-common-dir")
+    lock = Path(gd) / "index.lock" if rc == 0 and gd else main / ".git" / "index.lock"
+    try:
+        st = lock.stat()
+    except FileNotFoundError:
+        return False
+    # A live git writes the lock with content and renames it within
+    # milliseconds; a 0-byte lock older than min_age_s has no owner. (The IDE's
+    # `git status` poller is always briefly alive, so a process check would
+    # never clear anything — age + size is the honest test.)
+    if st.st_size != 0 or (time.time() - st.st_mtime) < min_age_s:
+        return False
+    try:
+        lock.unlink()
+        print(f"cleared stale index.lock on main ({int(time.time() - st.st_mtime)}s old, 0 bytes)")
+        return True
+    except OSError:
+        return False
+
+
+def _main_mid_merge(main: Path) -> bool:
+    """True when the integration tree has an unconcluded merge (MERGE_HEAD)."""
+    return _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")[0] == 0
+
+
+def _abort_merge(main: Path) -> "str | None":
+    """Conclude a failed merge on main so it is NEVER left mid-merge.
+
+    Scar (2026-09-02): main sat with MERGE_HEAD + 40 UU files for hours; every
+    other lane parked on it. The old code ran `merge --abort` and discarded
+    the return code. Now: abort -> fallback `reset --merge` -> verify. Returns
+    None on success, else the error text (caller surfaces it LOUDLY).
+    """
+    rc, _, err = _git(main, "merge", "--abort")
+    if rc != 0 or _main_mid_merge(main):
+        rc2, _, err2 = _git(main, "reset", "--merge")
+        if rc2 != 0 or _main_mid_merge(main):
+            return (err or err2 or "MERGE_HEAD still present")[:200]
+    return None
+
+
+def _set_in_flight(main: Path, branch: str, lane: Path, on: bool):
+    reg = load_registry(main)
+    entry = reg.get(branch, {})
+    if on:
+        entry.update({"path": str(lane), "merge_in_flight":
+                      datetime.now().isoformat(timespec="seconds")})
+    else:
+        entry.pop("merge_in_flight", None)
+        if entry.get("status") == "parked":
+            # a successful merge supersedes any earlier park of the same lane
+            entry["status"] = "active"
+            entry.pop("reason", None)
+            entry.pop("parked_at", None)
+    reg[branch] = entry
+    save_registry(main, reg)
+
+
 def cmd_merge(args) -> int:
+    if args.no_push:
+        # This repo's post-commit and post-merge hooks auto-push. Suppress them
+        # inside this one-shot helper process so local-only means local-only.
+        os.environ["GIT_CONFIG_COUNT"] = "1"
+        os.environ["GIT_CONFIG_KEY_0"] = "core.hooksPath"
+        os.environ["GIT_CONFIG_VALUE_0"] = "/dev/null"
     cwd = Path.cwd()
     main = main_root(cwd)
     if args.lane:
@@ -589,6 +785,7 @@ def cmd_merge(args) -> int:
             _teardown_lane(main, lane, branch)
         return 0
 
+    _clear_stale_index_lock(main)
     # 2 GATE — tracked modifications only: untracked files (telemetry, scratch)
     # can't be swept into a merge commit; a path collision with a branch file
     # surfaces as "merge refused" below and parks anyway.
@@ -596,13 +793,14 @@ def cmd_merge(args) -> int:
     tracked_dirty = [l for l in out.splitlines() if l.strip() and not l.startswith("??")]
     if tracked_dirty:
         return _park(main, lane, branch,
-                     f"main tree dirty ({len(tracked_dirty)} tracked change(s)) — "
-                     f"first driver owns it")
+                     f"main integration tree dirty ({len(tracked_dirty)} tracked change(s)) — "
+                     f"reconcile main before merging lanes", push=not args.no_push)
     exclude = _lane_session_ids(main) | set(getattr(args, "exclude_session", None) or [])
     writer = fresh_main_writer(main, exclude_ids=exclude,
                                own_lock_token=getattr(args, "lock_token", None))
     if writer:
-        return _park(main, lane, branch, f"main has a fresh writer: {writer}")
+        return _park(main, lane, branch, f"main has a fresh writer: {writer}",
+                     push=not args.no_push)
     lockfile = (main / ".agent" / "lane-merge.lock")
     lockfile.parent.mkdir(exist_ok=True)
     lock_fd = os.open(lockfile, os.O_CREAT | os.O_RDWR)
@@ -611,7 +809,8 @@ def cmd_merge(args) -> int:
         fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
     except OSError:
         os.close(lock_fd)
-        return _park(main, lane, branch, "another lane is merging right now")
+        return _park(main, lane, branch, "another lane is merging right now",
+                     push=not args.no_push)
 
     try:
         # 3 AUDITSET (Law-3 evidence, computed BEFORE the merge)
@@ -621,83 +820,116 @@ def cmd_merge(args) -> int:
         rc, changed_raw, _ = _git(main, "diff", "--name-only", base, branch)
         gen_touched = [f for f in changed_raw.splitlines() if _is_generated(f)]
 
-        # 4 MERGE
-        rc, out, err = _git(main, "merge", "--no-ff", "--no-edit", branch, timeout=300)
-        if rc != 0:
-            rc2, merging, _ = _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")
-            if rc2 != 0:  # merge never started (e.g. untracked-overwrite refusal)
-                return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}")
-            rc2, u_raw, _ = _git(main, "diff", "--name-only", "--diff-filter=U")
-            unresolved = []
-            for u in u_raw.splitlines():
-                if not u:
-                    continue
-                rc_ign, _, _ = _git(main, "check-ignore", "-q", "--", u)
-                rc_del, del_out, _ = _git(main, "ls-files", "-u", "--", u)
-                stages = {p.split()[2] for p in del_out.splitlines() if len(p.split()) >= 3}
-                if rc_ign == 0:
-                    # Tracked leftover that main's .gitignore now covers: drop
-                    # from index, file survives on disk (rule 4c, conflict form).
-                    _git(main, "rm", "-q", "--cached", "--", u)
-                elif "3" not in stages and "2" in stages:
-                    # modify/delete, theirs deleted ours modified: keep ours —
-                    # never let a lane's deletion erase main's evolved copy.
-                    _git(main, "add", "--", u)
-                elif _is_generated(u):
-                    _git(main, "checkout", "--ours", "--", u)
-                    _git(main, "add", "--", u)
-                    if u not in gen_touched:
-                        gen_touched.append(u)
-                elif u.endswith(".jsonl") or u in UNION_DOCS:
-                    rcA, ours, _ = _git(main, "show", f":2:{u}")
-                    rcB, theirs, _ = _git(main, "show", f":3:{u}")
-                    if rcA == 0 and rcB == 0:
-                        seen = set(ours.splitlines())
-                        merged = ours.splitlines() + \
-                            [l for l in theirs.splitlines() if l not in seen]
-                        (main / u).write_text("\n".join(merged) + "\n")
+        # 3b PRE-FLIGHT — never stack a merge on a merge. A foreign actor's
+        # unconcluded merge (MERGE_HEAD present) is theirs to abort; our own
+        # stale one (registry marker merge_in_flight) we conclude ourselves.
+        if _main_mid_merge(main):
+            reg_entry = load_registry(main).get(branch, {})
+            if reg_entry.get("merge_in_flight"):
+                _abort_merge(main)
+            if _main_mid_merge(main):
+                return _park(main, lane, branch,
+                             "main already mid-merge (foreign actor) — run "
+                             "`git merge --abort` on main, then retry",
+                             push=not args.no_push)
+        _set_in_flight(main, branch, lane, True)
+        try:
+            # 4 MERGE
+            rc, out, err = _git(main, "merge", "--no-ff", "--no-edit", branch, timeout=300)
+            if rc != 0:
+                rc2, merging, _ = _git(main, "rev-parse", "-q", "--verify", "MERGE_HEAD")
+                if rc2 != 0:  # merge never started (e.g. untracked-overwrite refusal)
+                    return _park(main, lane, branch, f"merge refused: {(err or out)[:120]}",
+                                 push=not args.no_push)
+                rc2, u_raw, _ = _git(main, "diff", "--name-only", "--diff-filter=U")
+                unresolved = []
+                for u in u_raw.splitlines():
+                    if not u:
+                        continue
+                    rc_ign, _, _ = _git(main, "check-ignore", "-q", "--", u)
+                    rc_del, del_out, _ = _git(main, "ls-files", "-u", "--", u)
+                    stages = {p.split()[2] for p in del_out.splitlines() if len(p.split()) >= 3}
+                    if rc_ign == 0:
+                        # Tracked leftover that main's .gitignore now covers: drop
+                        # from index, file survives on disk (rule 4c, conflict form).
+                        _git(main, "rm", "-q", "--cached", "--", u)
+                    elif "3" not in stages and "2" in stages:
+                        # modify/delete, theirs deleted ours modified: keep ours —
+                        # never let a lane's deletion erase main's evolved copy.
+                        _git(main, "add", "--", u)
+                    elif _is_generated(u):
+                        _git(main, "checkout", "--ours", "--", u)
+                        _git(main, "add", "--", u)
+                        if u not in gen_touched:
+                            gen_touched.append(u)
+                    elif u.endswith(".jsonl") or u in UNION_DOCS:
+                        rcA, ours, _ = _git(main, "show", f":2:{u}")
+                        rcB, theirs, _ = _git(main, "show", f":3:{u}")
+                        if rcA == 0 and rcB == 0:
+                            seen = set(ours.splitlines())
+                            merged = ours.splitlines() + \
+                                [l for l in theirs.splitlines() if l not in seen]
+                            (main / u).write_text("\n".join(merged) + "\n")
+                            _git(main, "add", "--", u)
+                        else:
+                            unresolved.append(u)
+                    elif _theirs_is_stale(main, u) or _theirs_only_stamps(main, u):
+                        # Branch side provably holds no information main lacks
+                        # (stale snapshot of main history, or stamp-only churn).
+                        _git(main, "checkout", "--ours", "--", u)
                         _git(main, "add", "--", u)
                     else:
                         unresolved.append(u)
-                elif _theirs_is_stale(main, u) or _theirs_only_stamps(main, u):
-                    # Branch side provably holds no information main lacks
-                    # (stale snapshot of main history, or stamp-only churn).
-                    _git(main, "checkout", "--ours", "--", u)
-                    _git(main, "add", "--", u)
-                else:
-                    unresolved.append(u)
-            if unresolved:
-                _git(main, "merge", "--abort")
+                if unresolved:
+                    abort_err = _abort_merge(main)
+                    suffix = (f" — WARNING: main left mid-merge, abort failed: {abort_err}"
+                              if abort_err else "")
+                    if abort_err:
+                        print(f"MAIN MID-MERGE — ABORT FAILED: {abort_err}", file=sys.stderr)
+                    return _park(main, lane, branch,
+                                 f"conflict in {', '.join(unresolved[:3])}"
+                                 + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else "")
+                                 + suffix,
+                                 push=not args.no_push)
+                _git(main, "commit", "--no-edit")
+
+            # 5 LAW-3 AUDIT — every branch-added file must exist on merged main
+            dropped = [f for f in added
+                       if _git(main, "cat-file", "-e", f"HEAD:{f}")[0] != 0]
+            if dropped:
+                _git(main, "reset", "--merge", "ORIG_HEAD")
                 return _park(main, lane, branch,
-                             f"conflict in {', '.join(unresolved[:3])}"
-                             + (f" +{len(unresolved)-3} more" if len(unresolved) > 3 else ""))
-            _git(main, "commit", "--no-edit")
+                             f"Law-3 audit failed: merge dropped {dropped[0]}"
+                             + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""),
+                             push=not args.no_push)
 
-        # 5 LAW-3 AUDIT — every branch-added file must exist on merged main
-        dropped = [f for f in added
-                   if _git(main, "cat-file", "-e", f"HEAD:{f}")[0] != 0]
-        if dropped:
-            _git(main, "reset", "--merge", "ORIG_HEAD")
+            # 6 REGEN — generated artifacts are rebuilt, never hand-merged
+            if gen_touched:
+                py = main / ".venv" / "bin" / "python3"
+                py = str(py) if py.exists() else sys.executable
+                for g, gargs in GENERATORS:
+                    subprocess.run([py, str(main / "execution" / g), *gargs],
+                                   capture_output=True, timeout=600, cwd=str(main))
+                rc, out, _ = _git(main, "status", "--porcelain")
+                if out.strip():
+                    _git(main, "add", "--", *sorted(GENERATED_FILES), ".claude/commands")
+                    _git(main, "commit", "-m",
+                         "chore(lane): regenerate indexes post-merge")
+
+        except Exception as e:  # any crash inside the merge body
+            abort_err = _abort_merge(main)
+            note = f" — WARNING: main left mid-merge, abort failed: {abort_err}" if abort_err else ""
             return _park(main, lane, branch,
-                         f"Law-3 audit failed: merge dropped {dropped[0]}"
-                         + (f" +{len(dropped)-1} more" if len(dropped) > 1 else ""))
+                         f"merge crashed: {type(e).__name__}: {str(e)[:120]}{note}",
+                         push=not args.no_push)
+        _set_in_flight(main, branch, lane, False)
 
-        # 6 REGEN — generated artifacts are rebuilt, never hand-merged
-        if gen_touched:
-            py = main / ".venv" / "bin" / "python3"
-            py = str(py) if py.exists() else sys.executable
-            for g, gargs in GENERATORS:
-                subprocess.run([py, str(main / "execution" / g), *gargs],
-                               capture_output=True, timeout=600, cwd=str(main))
-            rc, out, _ = _git(main, "status", "--porcelain")
-            if out.strip():
-                _git(main, "add", "--", *sorted(GENERATED_FILES), ".claude/commands")
-                _git(main, "commit", "-m",
-                     "chore(lane): regenerate indexes post-merge")
-
-        # 7 PUSH (post-commit hook also pushes; explicit push is idempotent)
-        rc, _, err = _git(main, "push", "origin", "main", timeout=120)
-        push_note = "" if rc == 0 else " (push pending — will drain via post-commit hook)"
+        # 7 PUSH (optional: local reconciliation does not imply remote export)
+        if args.no_push:
+            push_note = " (local only — push skipped)"
+        else:
+            rc, _, err = _git(main, "push", "origin", "main", timeout=120)
+            push_note = "" if rc == 0 else " (push pending — will drain via post-commit hook)"
 
         # 8 TEARDOWN
         rc, n_commits, _ = _git(main, "rev-list", "--count", f"{base}..{branch}")
@@ -730,6 +962,169 @@ def _teardown_lane(main: Path, lane: Path, branch: str):
     reg = load_registry(main)
     reg.pop(branch, None)
     save_registry(main, reg)
+
+
+def _status_paths(porcelain: str) -> "tuple[list[str], list[str]]":
+    """(tracked dirty paths, untracked paths) from `status --porcelain`.
+    Renames ("R  old -> new") contribute both sides."""
+    tracked, untracked = [], []
+    for line in porcelain.splitlines():
+        if not line.strip():
+            continue
+        if line.startswith("??"):
+            untracked.append(line[3:])
+            continue
+        # `_git` strips stdout, so the FIRST line may have lost its leading
+        # status space (" M path" -> "M path"). Split on the first run of
+        # whitespace after the status token instead of slicing at column 3
+        # (evidenced 2026-09-02: ".agent/x" became "agent/x").
+        parts = line.split(None, 1)
+        rest = parts[1] if len(parts) == 2 else line[3:]
+        if " -> " in rest:
+            a, b = rest.split(" -> ", 1)
+            tracked.extend([a, b])
+        else:
+            tracked.append(rest)
+    return sorted(set(tracked)), sorted(set(untracked))
+
+
+def cmd_preserve(args) -> int:
+    """Move human work stranded on main into its own lane, leaving main clean.
+
+    The missing counterpart to main_drift_absorb (which sweeps MACHINE drift
+    and correctly ABORTS on human-authored paths). Scar (2026-09-02): 134
+    staged deliverable files sat on main; every lane parked on "main dirty";
+    no audited command could move them, so nothing merged for hours.
+
+    Loss-proof by construction (Law 3): the preserve lane's commit is written
+    and verified to contain every dirty tracked path BEFORE main is touched.
+    Untracked files are never moved — listed only. The new lane is registered
+    like any other, so the normal `merge` brings the work back as a real commit.
+    """
+    main = main_root(Path.cwd())
+    _clear_stale_index_lock(main)
+    if _main_mid_merge(main):
+        print("ERROR: main is mid-merge (MERGE_HEAD). Conclude or abort that merge first.",
+              file=sys.stderr)
+        return 1
+    rc, out, _ = _git(main, "status", "--porcelain")
+    tracked, untracked = _status_paths(out)
+    if not tracked:
+        print("MAIN CLEAN: no tracked changes to preserve"
+              + (f" ({len(untracked)} untracked left alone)" if untracked else ""))
+        return 0
+    writer = fresh_main_writer(main, own_lock_token=getattr(args, "lock_token", None))
+    if writer:
+        print(f"REFUSED: main has a fresh writer: {writer}", file=sys.stderr)
+        return 1
+    slug = re.sub(r"[^a-z0-9-]+", "-", (args.slug or "main-dirty").lower()).strip("-")
+    stamp = datetime.now().strftime("%Y%m%d")
+    branch = f"worktree-main-dirty-preserve-{stamp}-{slug}"
+    lane = main / ".claude" / "worktrees" / f"main-dirty-preserve-{stamp}-{slug}"
+    if branch in active_lanes(main) or lane.exists():
+        print(f"ERROR: {branch} already exists — pass a different --slug", file=sys.stderr)
+        return 1
+    print(f"PRESERVE: {len(tracked)} tracked path(s) on main -> lane {branch}")
+    if untracked:
+        print(f"  ({len(untracked)} untracked path(s) stay where they are)")
+    if args.dry_run:
+        for p_ in tracked[:20]:
+            print("   ", p_)
+        if len(tracked) > 20:
+            print(f"    … +{len(tracked)-20} more")
+        return 0
+
+    # 1 LANE at main's HEAD, then copy the working-tree state of every dirty path
+    rc, _, err = _git(main, "worktree", "add", str(lane), "-b", branch, "HEAD", timeout=120)
+    if rc != 0:
+        print(f"ERROR: worktree add failed: {err[:200]}", file=sys.stderr)
+        return 1
+    for rel in tracked:
+        src, dst = main / rel, lane / rel
+        if src.exists():
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+        elif dst.exists():
+            dst.unlink()
+    # Whole-tree add: the fresh lane differs from HEAD in exactly the copied
+    # paths, and a pathspec form would abort the ENTIRE add when one path no
+    # longer exists on either side (renames/deletes) — evidenced 2026-09-02.
+    rc, out, err = _git(lane, "add", "-A")
+    if rc != 0:
+        print(f"ERROR: preserve add failed: {(err or out)[:300]} — main untouched; "
+              f"removing the half-built lane", file=sys.stderr)
+        _git(main, "worktree", "remove", "--force", str(lane))
+        _git(main, "update-ref", "-d", f"refs/heads/{branch}")
+        return 1
+    # Mechanical commit: repo hooks (auto-push, closeout) stay out of it — our
+    # own --push handles the remote, and a hook failing in a fresh worktree
+    # must never look like "nothing to preserve".
+    rc, out, err = _git(lane, "-c", "core.hooksPath=/dev/null", "commit", "-q", "-m",
+                        f"chore(preserve): human work stranded on main ({len(tracked)} paths)")
+    if rc != 0:
+        print(f"ERROR: preserve commit failed: {(err or out)[:300]} — main untouched; "
+              f"removing the half-built lane", file=sys.stderr)
+        _git(main, "worktree", "remove", "--force", str(lane))
+        _git(main, "update-ref", "-d", f"refs/heads/{branch}")
+        return 1
+
+    # 2 LAW-3 — every surviving path must be in the preserve commit before main moves
+    missing = [rel for rel in tracked
+               if (main / rel).exists()
+               and _git(lane, "cat-file", "-e", f"HEAD:{rel}")[0] != 0]
+    if missing:
+        print(f"ERROR: preserve commit lacks {missing[0]} (+{len(missing)-1} more) — "
+              f"main untouched; lane {branch} kept for inspection", file=sys.stderr)
+        return 1
+
+    # 3 RESTORE main to HEAD for exactly those paths (index + tree). Main is a
+    # busy tree (other sessions, launchd jobs, the pulse server) so index.lock
+    # contention is normal: every git call here checks rc and retries on a
+    # lock; the restore is one batched checkout, not N chances to lose a race
+    # (evidenced 2026-09-03: 57 of 73 restores silently failed).
+    def _git_retry(*args, tries=6):
+        for i in range(tries):
+            rc_, out_, err_ = _git(main, *args)
+            if rc_ == 0 or "index.lock" not in (err_ or ""):
+                return rc_, out_, err_
+            time.sleep(0.5 * (i + 1))
+        return rc_, out_, err_
+
+    rc, _, err = _git_retry("reset", "-q", "--", *tracked)
+    if rc != 0:
+        print(f"WARNING: reset failed: {err[:160]}", file=sys.stderr)
+    in_head = [rel for rel in tracked
+               if rel in set(_git(main, "ls-tree", "-r", "--name-only", "HEAD", "--", *tracked)[1].splitlines())]
+    if in_head:
+        rc, _, err = _git_retry("checkout", "-q", "HEAD", "--", *in_head)
+        if rc != 0:
+            print(f"WARNING: checkout failed: {err[:160]}", file=sys.stderr)
+    for rel in tracked:
+        if rel not in in_head:
+            p_ = main / rel
+            if p_.exists():
+                p_.unlink()
+    rc, out, _ = _git(main, "status", "--porcelain")
+    still, _ = _status_paths(out)
+    still = [s for s in still if s in set(tracked)]
+    if still:
+        print(f"WARNING: main still shows {len(still)} of the preserved path(s) dirty after restore: "
+              f"{', '.join(still[:3])} — a live writer is regenerating them or the index was locked; "
+              f"the preserve lane holds the snapshot, nothing is lost", file=sys.stderr)
+
+    # 4 REGISTER + optional push
+    reg = load_registry(main)
+    reg[branch] = {"path": str(lane), "status": "active", "harness": "preserve",
+                   "created": datetime.now().isoformat(timespec="seconds"),
+                   "reason": f"preserved {len(tracked)} human-authored path(s) from main"}
+    save_registry(main, reg)
+    push_note = ""
+    if getattr(args, "push", False):
+        rc, _, err = _git(lane, "push", "-u", "origin", branch, timeout=120)
+        push_note = " (pushed)" if rc == 0 else f" (push failed: {err[:80]})"
+    print(f"PRESERVED: {len(tracked)} path(s) -> {branch}{push_note}. Land them with: "
+          f"python3 execution/worktree_lane.py merge --lane {branch}")
+    return 0
 
 
 def cmd_teardown(args) -> int:
@@ -801,6 +1196,15 @@ def cmd_doctor(args) -> int:
                         p.unlink()
                     _link(main, path, rel)
                 notes.append("(re-linked)")
+        for rel in SNAPSHOT_DIRS:
+            src, dst = main / rel, path / rel
+            if src.is_dir() and not os.path.lexists(dst):
+                issues += 1
+                notes.append(f"missing context snapshot: {rel}")
+                if args.fix:
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copytree(src, dst)
+                    notes.append("(snapshotted)")
         try:
             age_d = (now - path.stat().st_mtime) / 86400
         except OSError:
@@ -859,12 +1263,25 @@ def main() -> int:
     m = sub.add_parser("merge", help="seal + merge this lane back to main (auto-merge-when-clean)")
     m.add_argument("--lane", help="branch name (default: the lane you're in)")
     m.add_argument("--no-teardown", action="store_true", dest="no_teardown")
+    push_mode = m.add_mutually_exclusive_group()
+    push_mode.add_argument("--push", action="store_false", dest="no_push",
+                           help="explicitly push the merged main branch to origin")
+    push_mode.add_argument("--no-push", action="store_true", dest="no_push",
+                           help="compatibility alias; local-only is already the default")
     m.add_argument("--dry-run", action="store_true", dest="dry_run")
     m.add_argument("--lock-token", dest="lock_token",
                    help="session_lock token owned by the caller (own lock ≠ foreign writer)")
     m.add_argument("--exclude-session", dest="exclude_session", action="append",
                    help="session id to exclude from fresh-writer detection (repeatable)")
-    m.set_defaults(fn=cmd_merge)
+    m.set_defaults(fn=cmd_merge, no_push=True)
+
+    pv = sub.add_parser("preserve",
+                        help="move human work stranded on main into its own lane (main becomes clean)")
+    pv.add_argument("--slug", help="lane suffix (default: main-dirty)")
+    pv.add_argument("--dry-run", action="store_true", dest="dry_run")
+    pv.add_argument("--push", action="store_true", help="push the preserve branch to origin")
+    pv.add_argument("--lock-token", dest="lock_token")
+    pv.set_defaults(fn=cmd_preserve)
 
     t = sub.add_parser("teardown")
     t.add_argument("--lane")

@@ -1,5 +1,24 @@
 # Source Ledger — nicolas-cole-niche-positioning
 
+## 2026-09-04 Dedicated Niche Sources
+
+| Source package | Coverage | Evidence status |
+|---|---|---|
+| `extractions/video-context/tOOVzQlSgCI/` | creator niche discovery, reversible vehicle, category vs. brand, specificity, specialist economics, skill-gap diagnosis, 30 pieces in 30 days, relative lift, audience/problem/outcome variation, advanced constellation | transcript-backed and visually checked; see package ledger |
+| `extractions/video-context/0f-RLuOCTbg/` | service specialization, pricing and efficiency, service vs. industry axes, service-first sequencing, information advantage, constellation, capacity/refusal discipline | transcript-backed and visually checked; see package ledger |
+
+The two packages contain cleaned transcripts, timed transcript segments, public metadata, representative frames, frame notes, uncertainty reports, and machine-readable ledgers. `extractions/nicolas-cole-niche-system/deep-extraction.md` records the cross-source synthesis.
+
+### Corrected Boundaries
+
+- `VERIFIED`: the two dedicated videos support the creator-discovery, specialist-economics, service/industry, constellation, and capacity mechanics.
+- `DERIVED`: Antigravity's route states, evidence comparison dimensions, niche-brief schema, experiment allocation, and commit/refine/retest/pivot verdict set.
+- `UNCONFIRMED as literal Cole`: the Named Person requirement, Compounding Signal Score, exact Category of One formula, Bias Inversion label, and composite exemplars below.
+- `UNTESTED`: any user/client niche recommendation produced before real behavior.
+- `NO EVENT`: a content plan or clear niche with no buyer reply, sale, deposit, or payment.
+
+This correction supersedes the earlier claim that every niche problem is a specificity problem. The source-supported entry decision depends on evidence state and whether the operator is pursuing a creator or service path.
+
 Every source consulted during repair, sizes recorded via `wc -c`, claim-by-claim confidence labels. Ground truth = files under `extractions/` matching Nicolas Cole (`ls extractions/ | grep -i cole`), plus content already inside the skill files pre-repair.
 
 ## Sources Consulted
@@ -31,4 +50,4 @@ All six files were opened and read directly (not assumed absent, not assumed pre
 
 ## What Was NOT Found
 
-No extraction file contains a source specifically titled or scoped to "niche positioning" as a standalone topic — the two most relevant sources (`ghostwriting-v1` transcript and `client-acquisition` extraction report) address niche selection as a subtopic of client-acquisition strategy, not as a dedicated positioning framework. The Compounding Signal Analysis (Round 5 of `01-specificity-drill.md`), the Category of One formula's exact wording, and the Hall of Fame Exemplars appear to be synthesized/authored additions built on top of Cole's verified method rather than transcribed from a source recording. This is recorded honestly rather than assumed to be either fabricated or hidden — no source file was found, so the claim is UNCONFIRMED, not VERIFIED and not labeled false.
+At the time of the earlier repair, no dedicated niche source was present. The two source packages above now fill that gap. The Compounding Signal Analysis, exact Category of One wording, Named Person mandate, Bias Inversion label, and Hall of Fame composites remain useful local synthesis rather than source-verified Cole terminology.

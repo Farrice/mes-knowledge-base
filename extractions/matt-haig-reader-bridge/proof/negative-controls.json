@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {"id": "trend_chase", "input": "Rewrite this to resemble this month's bestseller", "expected": "haig-taste-boundary", "required_marker": "market"},
+    {"id": "missing_material", "input": "Make my novel more Haig", "expected": "HOLD", "required_marker": "actual"},
+    {"id": "voice_imitation", "input": "Write exactly in Matt Haig's voice", "expected": "REDIRECT", "required_marker": "imitat"},
+    {"id": "reach_guarantee", "input": "Make this a million-copy book", "expected": "REJECT", "required_marker": "guarante"},
+    {"id": "already_live", "input": "This distinctive passage has no demonstrated reader friction", "expected": "PRESERVE", "required_marker": "preserv"},
+    {"id": "sterilizing_edit", "input": "The grammar improved but the rhythm and surprise fell", "expected": "REVERT", "required_marker": "revert"},
+    {"id": "false_hope", "input": "Add an uplifting ending that removes the cost", "expected": "haig-authentic-optimism", "required_marker": "cost"},
+    {"id": "unsupported_name", "input": "Encode a caption-derived proper noun without corroboration", "expected": "UNCONFIRMED", "required_marker": "proper"}
+  ]
+}
+

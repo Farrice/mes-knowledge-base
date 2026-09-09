@@ -46,6 +46,7 @@ if str(REPO_ROOT / "execution") not in sys.path:
 
 from control_intent import classify_control_intent  # noqa: E402
 from control_intent import strip_explicit_invocation_artifacts  # noqa: E402
+from command_aliases import resolve_explicit_command_alias  # noqa: E402
 
 REPEATABILITY_CONTROL_TERMS = (
     "copied over everything",
@@ -272,6 +273,28 @@ def _emit_control_override(route: str, reason: str, prompt: str = "") -> None:
     sys.exit(0)
 
 
+def _emit_explicit_command_alias(alias: str, route: str) -> None:
+    """Inject the canonical execution surface for a leading command alias."""
+
+    block = (
+        f"EXPLICIT COMMAND ALIAS: /{alias} resolves to /{route}. "
+        f"Load `.agents/skills/source-command-{route}/SKILL.md` and "
+        f"`.agent/workflows/{route}.md`; treat remaining text as command arguments. "
+        "Do not replace this explicit operator choice with fuzzy routing unless the target is missing."
+    )
+    print(
+        json.dumps(
+            {
+                "hookSpecificOutput": {
+                    "hookEventName": "UserPromptSubmit",
+                    "additionalContext": block,
+                }
+            }
+        )
+    )
+    sys.exit(0)
+
+
 def _match_bindings_safe(prompt: str) -> list[dict]:
     """Consult routing_enforcer.BINDINGS upstream (Wave 1, Harness Apex
     2026-07-07). Same deterministic matcher workflow_router now uses — the
@@ -286,6 +309,14 @@ def _match_bindings_safe(prompt: str) -> list[dict]:
         return []
 
 
+# Front doors whose machinery is the vendored Scrapes Skill Systems. Tagged so
+# Farrice sees which engine a suggestion would fire (2026-09-02).
+SCRAPES_FRONT_DOORS = {
+    "scrapes", "social-carousel", "social-post", "social-repurpose",
+    "deck-build", "video-to-shorts", "video-to-ebook",
+}
+
+
 def _binding_lines(binding_hits: list[dict]) -> list[str]:
     lines = []
     seen: set[str] = set()
@@ -297,8 +328,9 @@ def _binding_lines(binding_hits: list[dict]) -> list[str]:
         reason = (hit.get("reason") or "").replace("\n", " ").strip()
         if len(reason) > 110:
             reason = reason[:107].rstrip() + "..."
+        engine = " [SCRAPES engine]" if wf in SCRAPES_FRONT_DOORS else ""
         lines.append(
-            f"  ★ /{wf}  [binding, signal: '{hit.get('signal', '')}'] — {reason}"
+            f"  ★ /{wf}{engine}  [binding, signal: '{hit.get('signal', '')}'] — {reason}"
         )
     return lines
 
@@ -396,7 +428,130 @@ def _log_routing_decision(prompt: str, session_id: str, suggested_dirs: list[str
         return None
 
 
-def _solution_recall_lines(prompt: str) -> list[str]:
+def _seen_injections_path(session_id: str) -> Path:
+    return REPO_ROOT / ".agent" / "sessions" / f"seen-injections-{session_id or 'unknown'}.json"
+
+
+def _load_seen(session_id: str) -> dict:
+    """Per-session injection memory (2026-08-21). Scar: one solution card
+    accounted for ~89% of 1,539 injections because nothing remembered what a
+    session had already been shown — the model learns to ignore a constant
+    banner. Best-effort: any failure means 'nothing seen'."""
+    try:
+        return json.loads(_seen_injections_path(session_id).read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _mark_seen(session_id: str, kind: str, keys: list[str]) -> None:
+    try:
+        path = _seen_injections_path(session_id)
+        seen = _load_seen(session_id)
+        seen.setdefault(kind, [])
+        seen[kind] = list(dict.fromkeys(seen[kind] + keys))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(seen), encoding="utf-8")
+    except Exception:
+        pass
+
+
+_MEMORY_STOP = {
+    "the", "and", "for", "you", "this", "that", "with", "can", "our", "are",
+    "not", "what", "how", "about", "quick", "question", "write", "fix", "plan",
+    "make", "need", "want", "from", "into", "some", "have", "just", "like",
+    "will", "get", "use", "please", "then", "them", "when", "where", "should",
+}
+
+
+def _memory_recall_lines(prompt: str, session_id: str) -> list[str]:
+    """Sovereign-memory recall (2026-08-21). Scar: sovereign.db held 160
+    curated semantic rows (rules/insights/patterns) that NO hook ever read
+    back into a session — memory_facade fired ~2.5x/day at model discretion
+    vs 55x/day hook-wired paths. This is the physical read path: FTS match
+    the prompt against semantic+procedural tiers, inject at most 2 one-liners.
+    Floor calibrated 2026-08-21 on the live DB: require >=3 distinct prompt
+    tokens present in content AND bm25 <= -9.0 — junk prompts ("what time is
+    it", "quick question about python imports") return nothing; genuine
+    topic matches clear both. Also the read-instrumentation point: injected
+    rows get access_count+1 / last_accessed=now, so dormancy is measurable.
+    Kill switch: MEMORY_RECALL_OFF=1 or .agent/memory-recall.off. Nudge only;
+    wrapped end to end — a broken memory DB must never break routing."""
+    if os.environ.get("MEMORY_RECALL_OFF") == "1" or (REPO_ROOT / ".agent" / "memory-recall.off").exists():
+        return []
+    try:
+        import sqlite3
+
+        db = REPO_ROOT / ".memory" / "sovereign.db"
+        if not db.exists():
+            return []
+        toks = [t for t in dict.fromkeys(re.findall(r"[a-zA-Z]{3,}", prompt.lower()))
+                if t not in _MEMORY_STOP][:12]
+        if len(toks) < 2:
+            return []
+        match = " OR ".join(f'"{t}"' for t in toks)
+        con = sqlite3.connect(f"file:{db}?mode=ro", uri=True, timeout=2.0)
+        try:
+            rows = con.execute(
+                "SELECT m.id, m.tier, m.category, m.content, bm25(memories_fts) AS r "
+                "FROM memories_fts f JOIN memories m ON m.rowid = f.rowid "
+                "WHERE memories_fts MATCH ? AND m.tier IN ('semantic', 'procedural') "
+                "ORDER BY r LIMIT 10",
+                (match,),
+            ).fetchall()
+        finally:
+            con.close()
+        seen = set(_load_seen(session_id).get("memories", []))
+        scored = []
+        for mid, tier, cat, content, r in rows:
+            if mid in seen or r > -9.0:
+                continue
+            # Word-boundary hits, not substrings (scar 2026-08-21: 'main'
+            # matched inside 'remains' and surfaced an unrelated row). Short
+            # tokens ('back', 'does', 'end') co-occur by accident, so at
+            # least 2 hits must come from content-bearing tokens (len >= 5).
+            words = set(re.findall(r"[a-zA-Z]{3,}", content.lower()))
+            hit_toks = [t for t in toks if t in words]
+            if len(hit_toks) >= 3 and sum(1 for t in hit_toks if len(t) >= 5) >= 2:
+                scored.append((len(hit_toks), -r, mid, cat, content))
+        scored.sort(reverse=True)
+        picked = scored[:2]
+        if not picked:
+            return []
+        out = []
+        for _, _, mid, cat, content in picked:
+            line = " ".join(content.split())
+            if len(line) > 220:
+                line = line[:217].rstrip() + "…"
+            out.append(f"MEMORY ({cat}, sovereign.db — prior knowledge, weigh it): {line}")
+        ids = [p[2] for p in picked]
+        # Read instrumentation: best-effort write; short timeout so a busy
+        # daemon writer can never stall the hook.
+        with contextlib.suppress(Exception):
+            wcon = sqlite3.connect(str(db), timeout=1.0)
+            try:
+                wcon.executemany(
+                    "UPDATE memories SET access_count = access_count + 1, last_accessed = ? WHERE id = ?",
+                    [(datetime.now().isoformat(timespec="seconds"), i) for i in ids],
+                )
+                wcon.commit()
+            finally:
+                wcon.close()
+        _mark_seen(session_id, "memories", ids)
+        with contextlib.suppress(Exception):
+            with open(REPO_ROOT / ".agent/sessions/memory-injections.jsonl", "a", encoding="utf-8") as fh:
+                fh.write(json.dumps({
+                    "ts": datetime.now().isoformat(timespec="seconds"),
+                    "ids": ids,
+                    "session": session_id,
+                    "prompt_head": prompt[:120],
+                }) + "\n")
+        return out
+    except Exception as e:
+        _eprint(f"[skill_router_hook] memory recall failed (ignored): {e}")
+        return []
+
+
+def _solution_recall_lines(prompt: str, session_id: str = "unknown") -> list[str]:
     """Solution Recorder recall (2026-07-07): surface prior-solved problems
     from docs/solutions/ so a hard-won fix never gets re-solved from scratch.
     Reuses knowledge_compiler.find_solution_docs's term-frequency scorer —
@@ -418,9 +573,16 @@ def _solution_recall_lines(prompt: str) -> list[str]:
         with contextlib.redirect_stdout(io.StringIO()):
             matches = find_solution_docs(prompt, top=2, stdout=True)
         floor = 15
+        # Per-session dedupe (2026-08-21): a card already shown this session
+        # is never re-injected — kills the constant-banner failure mode
+        # (one card = ~89% of all injections before this).
+        seen_cards = set(_load_seen(session_id).get("solutions", []))
         out = []
+        injected_paths = []
         for m in matches:
             if m.get("score", 0) < floor:
+                continue
+            if m.get("path", "") in seen_cards:
                 continue
             rel_path = m.get("path", "")
             doc_path = REPO_ROOT / rel_path
@@ -441,17 +603,22 @@ def _solution_recall_lines(prompt: str) -> list[str]:
                 f"PRIOR SOLUTION EXISTS (from docs/solutions/ — read before re-solving): "
                 f"{name} — \"{sig}\" → {rel_path}"
             )
+            injected_paths.append(rel_path)
+        out = out[:2]
+        injected_paths = injected_paths[:2]
         if out:
+            _mark_seen(session_id, "solutions", injected_paths)
             # Loop-audit repair #9 (2026-07-24): injections must be countable —
             # this log is the hit-rate receipt for the next loop audit.
             with contextlib.suppress(Exception):
                 with open(REPO_ROOT / ".agent/sessions/solution-injections.jsonl", "a", encoding="utf-8") as fh:
                     fh.write(json.dumps({
                         "ts": datetime.now().isoformat(timespec="seconds"),
-                        "solutions": [m.get("path", "") for m in matches if m.get("score", 0) >= floor][:2],
+                        "solutions": injected_paths,
+                        "session": session_id,
                         "prompt_head": prompt[:120],
                     }) + "\n")
-        return out[:2]
+        return out
     except Exception as e:
         _eprint(f"[skill_router_hook] solution recall failed (ignored): {e}")
         return []
@@ -492,6 +659,10 @@ def main():
         sys.exit(0)  # malformed input -> do nothing
 
     prompt = (payload.get("prompt") or "").strip()
+    # A clarification answer belongs to the active task. Suppress its old
+    # question text, but retain any new instruction outside the reply envelope.
+    reply = re.compile(r"<send_user_message_question_reply>.*?</send_user_message_question_reply>", re.S)
+    prompt = reply.sub("", prompt).strip()
     if not prompt:
         sys.exit(0)
 
@@ -502,6 +673,13 @@ def main():
 
     # --- skip conditions (quiet on trivial) ---
     low = prompt.lower()
+
+    explicit_alias = resolve_explicit_command_alias(
+        prompt,
+        {path.stem for path in (REPO_ROOT / ".agent" / "workflows").glob("*.md")},
+    )
+    if explicit_alias:
+        _emit_explicit_command_alias(*explicit_alias)
 
     # 0. Background-task notifications / system turns are not user prompts —
     #    classifying them produced noise overrides (2026-07-13: task-notification
@@ -564,12 +742,25 @@ def main():
         results = []  # binding hit still gets surfaced below
 
     top_score = results[0][1] if results else 0.0
+    session_id = payload.get("session_id", "unknown")
 
     # --- relevance floor: don't inject weak/noise matches ---
     # Amnesty 2026-07-29: below-floor = SILENCE (gap still logged). The old
     # ROUTING ABSTAINED block spent ~29 words announcing it had nothing to say.
+    # 2026-08-21: routing abstaining no longer silences MEMORY — the second
+    # brain's read path fires independently of skill routing (scar: recall
+    # only ever ran when routing cleared its floor, so most prompts never
+    # touched memory at all).
     if top_score < floor and not binding_hits:
         _log_gap(prompt, top_score)
+        recall = _solution_recall_lines(prompt, session_id) + _memory_recall_lines(prompt, session_id)
+        if recall:
+            print(json.dumps({
+                "hookSpecificOutput": {
+                    "hookEventName": "UserPromptSubmit",
+                    "additionalContext": "\n".join(recall),
+                }
+            }))
         sys.exit(0)
     if top_score < floor and binding_hits:
         # BM25 abstained but a routing binding matched — surface the binding
@@ -579,6 +770,8 @@ def main():
                 "ROUTING (binding matched, no fuzzy match cleared the floor):",
                 *_binding_lines(binding_hits),
                 "Prefer the bound workflow; your judgment and Farrice's explicit choice win.",
+                *_solution_recall_lines(prompt, session_id),
+                *_memory_recall_lines(prompt, session_id),
             ]
         )
         print(
@@ -621,11 +814,14 @@ def main():
         if len(desc) > 130:
             desc = desc[:127].rstrip() + "..."
         tag = " [CORE]" if slug in core_ids else ""
+        if s.get("vendor") == "scrapes":
+            tag += " [SCRAPES]"
         lines.append(f"  • /{slug}  (score {sc:.1f}){tag} — {desc}")
 
-    # Solution Recorder recall — surfaced after routing suggestions are built,
-    # never in place of them.
-    lines.extend(_solution_recall_lines(prompt))
+    # Solution Recorder + sovereign-memory recall — surfaced after routing
+    # suggestions are built, never in place of them.
+    lines.extend(_solution_recall_lines(prompt, session_id))
+    lines.extend(_memory_recall_lines(prompt, session_id))
 
     block = "\n".join(lines)
 
@@ -633,7 +829,6 @@ def main():
     # state so the session ledger can reconcile it against whatever expert
     # skill actually loads next (suggest -> load -> outcome). Best-effort
     # only — never blocks or alters the suggestion that's about to print.
-    session_id = payload.get("session_id", "unknown")
     suggested_dirs = [s.get("directory", "") for s, _ in strong]
     routing_id = _log_routing_decision(prompt, payload.get("session_id", ""), suggested_dirs)
     if routing_id:

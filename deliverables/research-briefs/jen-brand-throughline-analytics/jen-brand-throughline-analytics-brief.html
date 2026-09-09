@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the true throughline · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-correction">the correction</a><a href="#what-the-numbers-say">what the numbers say</a><a href="#how-one-personality-becomes-a-lead-path">how one personality becomes a lead path</a><a href="#the-thread-line-in-the-evidence">the thread line in the evidence</a><a href="#what-earns-attention">what earns attention</a><a href="#proof-exists-the-handoff-does-not">proof exists; the handoff does not</a><a href="#the-content-portfolio">the content portfolio</a><a href="#three-angles-one-brand">three angles — one brand</a><a href="#five-recurring-proof-moments">five recurring proof moments</a><a href="#what-to-stop-doing">what to stop doing</a><a href="#what-this-still-cannot-prove">what this still cannot prove</a><a href="#source-trail">source trail</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/homebase/homebase.html" data-route="/">🏠 homebase ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/brain/brain.html" data-route="/brain">🧠 brain ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/catalog/library.html" data-route="/library">🏛 library ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html" data-route="/room">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html" data-route="/assets">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/oracle/oracle-dashboard.html" data-route="/oracle">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/mdview/index.html" data-route="/repo/.agent/mdview/index.html">📄 docs ↗</a></span><script data-surface-nav-live="1">if(location.protocol.indexOf('http')===0){document.querySelectorAll('.homenav a[data-route]').forEach(function(a){a.href=a.dataset.route;});}</script><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">JEN SANTULAN · BRAND ANALYTICS</span>
+    <h1 class="display">the true <em>throughline</em></h1>
+    <p class="dek">The data does not support inventing another niche. It supports one experience promise: Jen makes people feel informed, protected, and taken care of because the whole move feels handled.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">90-day private Insights + 96-post public corpus</span></div>
+      <div><span class="k">Lens</span><span class="v">attention · trust · intent · experience</span></div>
+      <div><span class="k">Sources</span><span class="v">324 posts · 120 comments · private Insights</span></div>
+      <div><span class="k">Compiled</span><span class="v">sep 3, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-correction"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the <em>correction</em></h2></div><span class="kicker" style="margin-bottom:8px">ONE PERSON, NOT FIVE NICHES</span><div class="panel"><p>Jen should not perform a crime-scene character, a market-pundit character, or a collection of clever franchises. Her differentiation is the experience of being represented by her: she notices what matters, explains it plainly, protects the decision, coordinates the next step, and lowers the emotional load.</p><p>The creative formats can change. The promise cannot.</p></div></section><section class="blk" id="what-the-numbers-say"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what the numbers <em>say</em></h2><span class="sectag">DESCRIPTIVE, NOT CAUSAL</span></div><div class="stats"><div class="stat"><div class="num">197,425</div><span class="lab">90D VIEWS</span><div class="note">attention already exists</div></div><div class="stat"><div class="num">0.80%</div><span class="lab">VIEW → PROFILE</span><div class="note">1,589 profile visits</div></div><div class="stat"><div class="num">0.006%</div><span class="lab">VIEW → LINK</span><div class="note">12 link taps</div></div><div class="stat"><div class="num">2.1×</div><span class="lab">LIFE-FIRST LIFT</span><div class="note">median likes vs property-first</div></div><div class="stat"><div class="num">1 / 96</div><span class="lab">EXPLICIT COMMENT CTA</span><div class="note">the handoff is nearly absent</div></div><div class="stat"><div class="num">5.45×</div><span class="lab">FEED SHARE EFFICIENCY</span><div class="note">interaction share ÷ view share</div></div></div></section><section class="blk" id="how-one-personality-becomes-a-lead-path"><div class="sechead"><span class="secnum">03</span><h2 class="sec">how one personality becomes a <em>lead path</em></h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Her life opens the door</h3><p>Personal and feeling-first content earns recognition and reach.</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Plain clarity earns trust</h3><p>She translates the street, number, choice, and tradeoff without performing expertise.</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Visible care proves the experience</h3><p>Show what she anticipated, protected, coordinated, or removed from the client&#x27;s plate.</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Stories let people raise a hand</h3><p>Questions and replies turn private concern into permission for a conversation.</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>DM makes the promise real</h3><p>Send the street, the number, or what changed; Jen takes the next step from there.</p></div></div><div class="bars-caption">Each surface has one job. The problem was asking every post to do all five.</div></section><section class="blk" id="the-thread-line-in-the-evidence"><div class="sechead"><span class="secnum">04</span><h2 class="sec">the thread line in the <em>evidence</em></h2><span class="sectag">OBSERVATION → DECISION</span></div><div class="ev"><span class="mark">✓</span><div><h3>Attention is not the primary problem</h3><p>Jen generated 197,425 views and reached 38,275 viewers in the 90-day private Insights window. The account is being seen.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">Jen Instagram Insights · 90 days</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Jen&#x27;s human lens is the strongest discovery asset</h3><p>The audited personal/life-first set produced a 161-like median versus 78 for property-first posts, a 2.1× gap. Every bottom-quartile post in the accessible outlier window used the property as beat one.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">Jen outlier audit · accessible post sample</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>She does not lack proof; she lacks packaging</h3><p>Proof or result language appeared in 25 of Jen&#x27;s 96 public captions (26.0%), versus 19 of 96 for Coffee &amp; Contracts (19.8%). Jen has material to work with, but it is not consistently framed as the experience of being her client.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">96 vs 96 caption corpus</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The lead handoff is the clearest gap</h3><p>Only 1 of Jen&#x27;s 96 captions used an explicit comment CTA. Across the private 90-day window, 1,589 profile visits produced 12 link taps. Content often ends before the viewer is given a natural next step.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">96-post corpus + private Insights</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Feed posts deserve a bigger job</h3><p>Feed posts generated only 3.1% of views but 16.9% of interactions. That is a 5.45 interaction-share efficiency index, directionally suggesting the feed is an underused depth and proof surface.</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">Jen Instagram Insights · format shares</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Local and cultural content creates better conversation than keyword capture alone</h3><p>In the 120-comment benchmark sample, local history, neighborhood, architecture, and balanced-market posts produced 60%–100% substantive-comment rates in their sampled sets. The keyword-guide post produced 0 substantive comments and 11 of 15 keyword-only comments.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">Local benchmark comment sample · n=120</span></div></div></div></section><section class="blk" id="what-earns-attention"><div class="sechead"><span class="secnum">05</span><h2 class="sec">what earns <em>attention</em></h2><span class="sectag">MEDIAN LIKES · AUDITED SAMPLE</span></div><div class="bars-card"><div class="hbar-row"><div class="hbar-label">personal / life-first<span class="hnote">161 median likes</span></div><div class="hbar-track"><i style="width:100%"></i></div><div class="hbar-val">161</div></div><div class="hbar-row"><div class="hbar-label">property-first<span class="hnote">78 median likes</span></div><div class="hbar-track"><i style="width:48%"></i></div><div class="hbar-val">78</div></div></div><div class="bars-caption">Jen&#x27;s life and emotional lens should open more posts; the home becomes beat two.</div></section><section class="blk" id="proof-exists-the-handoff-does-not"><div class="sechead"><span class="secnum">06</span><h2 class="sec">proof exists; the <em>handoff</em> does not</h2><span class="sectag">SHARE OF 96 PUBLIC CAPTIONS</span></div><div class="bars-card"><div class="hbar-row"><div class="hbar-label">Jen · proof / result language<span class="hnote">25 of 96 captions</span></div><div class="hbar-track"><i style="width:45%"></i></div><div class="hbar-val">26.0</div></div><div class="hbar-row"><div class="hbar-label">Coffee &amp; Contracts · proof / result language<span class="hnote">19 of 96 captions</span></div><div class="hbar-track"><i style="width:35%"></i></div><div class="hbar-val">19.8</div></div><div class="hbar-row"><div class="hbar-label">Jen · explicit comment CTA<span class="hnote">1 of 96 captions</span></div><div class="hbar-track"><i style="width:2%"></i></div><div class="hbar-val">1.0</div></div><div class="hbar-row"><div class="hbar-label">Coffee &amp; Contracts · explicit comment CTA<span class="hnote">55 of 96 captions</span></div><div class="hbar-track"><i style="width:100%"></i></div><div class="hbar-val">57.3</div></div></div><div class="bars-caption">Coffee &amp; Contracts&#x27; visible advantage is not more proof. It is repeated conversion architecture.</div></section><section class="blk" id="the-content-portfolio"><div class="sechead"><span class="secnum">07</span><h2 class="sec">the content <em>portfolio</em></h2></div><div class="matrix-axes">↑ more attention / connection · more buyer / seller intent →</div><div class="matrix"><div class="quad"><span class="qlab">Lead with this</span><ul><li>Life-first, real estate second<small>A real Jen moment opens the post; her judgment gives it utility.</small></li><li>Local life with a decision inside it<small>A street, routine, or Valley observation that helps someone choose.</small></li></ul></div><div class="quad"><span class="qlab">Deepen trust here</span><ul><li>Client-experience proof<small>What Jen handled, anticipated, translated, or protected.</small></li><li>Clear next-step posts<small>What happens now, what can wait, and what she will do.</small></li></ul></div><div class="quad"><span class="qlab">Use with a bridge</span><ul><li>Pure personal or culture<small>Excellent recognition; add a business bridge only when it is honest.</small></li><li>Local discovery<small>Creates conversation, then Stories or DM carries the lead path.</small></li></ul></div><div class="quad"><span class="qlab">Reduce or reframe</span><ul><li>Property-first tours<small>Low differentiation unless tied to a real person&#x27;s decision.</small></li><li>Agent humor and keyword theater<small>Can inflate reaction without proving buyer or seller intent.</small></li></ul></div></div></section><section class="decision" id="three-angles-one-brand"><span class="kicker">RECOMMENDATION</span><h2>three angles — one <em>brand</em></h2><p class="dek">These should stack instead of competing. The promise is emotional, the proof is operational, and the CTA is concrete.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>1. Brand promise — The whole move feels handled</h3><p>Best match for Jen&#x27;s actual service: warm, anticipatory, protective, and low-friction. It is broad enough for buyers and sellers, but must be proven through specific client moments so it does not become generic luxury language.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>2. Content proof — You&#x27;ll always know what happens next</h3><p>Turns informing and empowering into a repeatable editorial standard. Every useful post should reduce uncertainty, clarify a choice, or show how Jen lowers the load.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>3. Lead invitation — Send me the street or the number</h3><p>Makes the next action feel like Jen: specific, calm, and useful. It can serve buyers now, while seller variants use &#x27;send me what changed&#x27; or &#x27;send me the move you&#x27;re trying to make.&#x27;</p></div></div></div></section><section class="blk" id="five-recurring-proof-moments"><div class="sechead"><span class="secnum">09</span><h2 class="sec">five recurring proof <em>moments</em></h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Before you have to ask</h3><p>The thing Jen anticipates or handles early.</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Here is what happens next</h3><p>A calm, plain-language sequence for a real decision.</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Why I told them to pause</h3><p>Protective judgment without fear, diagnosis, or pressure.</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>The part they did not have to carry</h3><p>The coordination and emotional load Jen removed.</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>A real street, a real number</h3><p>Local authority made concrete and useful.</p></div></div><div class="bars-caption">Internal story jobs, not public-facing franchise names.</div></section><section class="decision" id="what-to-stop-doing"><span class="kicker">KILL / PARK</span><h2>what to <em>stop</em> doing</h2><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Kill the crime-scene angle</h3><p>It is anxiety-heavy, costume-like, and asks Jen to play a personality she does not have. It also invites professional and brand risk.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Park public franchise names</h3><p>The system may use repeatable structures internally, but the audience should experience one Jen—not a menu of branded concepts.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Stop treating reach as lead proof</h3><p>Views and comments are attention signals. A qualified DM, property review, consultation, or client conversation is the lead-path event.</p></div></div></div></section><section class="blk caveats" id="what-this-still-cannot-prove"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this still cannot <em>prove</em></h2><p>The 30-day Insights window sits inside the 90-day window. It is a recent snapshot, not an independent before-and-after cohort.</p><p>The feed efficiency number is interaction share divided by view share, not a conventional per-post engagement rate. It is directional.</p><p>Post-level saves, shares, qualified DMs, appointments, signed clients, and closed revenue are incomplete. No content angle is yet proven to generate clients.</p><p>The promise should be &#x27;the move feels handled,&#x27; not a literal guarantee that Jen personally performs every specialist&#x27;s work.</p><p>Local content must remain compliant with fair-housing rules and avoid ranking neighborhoods for protected classes.</p></section><section class="blk" id="source-trail"><div class="sechead"><span class="secnum">12</span><h2 class="sec">source trail</h2><span class="sectag">OPEN THE EVIDENCE</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md"><span class="k">AUDIT</span><span class="t">Instagram lead-path audit</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md"><span class="k">CURRENT PLAYBOOK</span><span class="t">Winning-agent playbook — preserved pending correction</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/brand_context/voice-profile.md"><span class="k">VOICE</span><span class="t">Jen voice profile</span></a><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/brand_context/icp.md"><span class="k">ICP</span><span class="t">Jen buyer and seller context</span></a></div></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">13</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md">_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md</a></td><td>primary analytics audit</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md">_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md</a></td><td>current playbook preserved for revision</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/brand_context/voice-profile.md">_active/clients/jen-listings/brand_context/voice-profile.md</a></td><td>client voice and service promise</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/clients/jen-listings/brand_context/icp.md">_active/clients/jen-listings/brand_context/icp.md</a></td><td>buyer and seller context</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;jen-brand-throughline-analytics&quot;,
+  &quot;title&quot;: &quot;the true throughline&quot;,
+  &quot;compiled&quot;: &quot;sep 3, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md&quot;,
+      &quot;role&quot;: &quot;primary analytics audit&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md&quot;,
+      &quot;role&quot;: &quot;current playbook preserved for revision&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/brand_context/voice-profile.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/brand_context/voice-profile.md&quot;,
+      &quot;role&quot;: &quot;client voice and service promise&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/brand_context/icp.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/clients/jen-listings/brand_context/icp.md&quot;,
+      &quot;role&quot;: &quot;buyer and seller context&quot;
+    }
+  ],
+  &quot;urls&quot;: []
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>JEN SANTULAN · INTERNAL STRATEGY</span>
+    <span>DECISION BRIEF</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jen-brand-throughline-analytics/jen-brand-throughline-analytics-context.json\nCOMPILED: sep 3, 2026\n\n# the true throughline\n\n> JEN SANTULAN · BRAND ANALYTICS · window: 90-day private Insights + 96-post public corpus · lens: attention · trust · intent · experience · sources: 324 posts · 120 comments · private Insights · compiled: sep 3, 2026\n\nThe data does not support inventing another niche. It supports one experience promise: Jen makes people feel informed, protected, and taken care of because the whole move feels handled.\n\n## the correction\n_ONE PERSON, NOT FIVE NICHES_\nJen should not perform a crime-scene character, a market-pundit character, or a collection of clever franchises. Her differentiation is the experience of being represented by her: she notices what matters, explains it plainly, protects the decision, coordinates the next step, and lowers the emotional load.\n\nThe creative formats can change. The promise cannot.\n\n## what the numbers say\n- 90D VIEWS: **197,425** (attention already exists)\n- VIEW → PROFILE: **0.80%** (1,589 profile visits)\n- VIEW → LINK: **0.006%** (12 link taps)\n- LIFE-FIRST LIFT: **2.1×** (median likes vs property-first)\n- EXPLICIT COMMENT CTA: **1 / 96** (the handoff is nearly absent)\n- FEED SHARE EFFICIENCY: **5.45×** (interaction share ÷ view share)\n\n## how one personality becomes a lead path\nHer life opens the door → Plain clarity earns trust → Visible care proves the experience → Stories let people raise a hand → DM makes the promise real\n  - Her life opens the door: Personal and feeling-first content earns recognition and reach.\n  - Plain clarity earns trust: She translates the street, number, choice, and tradeoff without performing expertise.\n  - Visible care proves the experience: Show what she anticipated, protected, coordinated, or removed from the client's plate.\n  - Stories let people raise a hand: Questions and replies turn private concern into permission for a conversation.\n  - DM makes the promise real: Send the street, the number, or what changed; Jen takes the next step from there.\n\n## the thread line in the evidence\n- **Attention is not the primary problem** [VERIFIED] — Jen generated 197,425 views and reached 38,275 viewers in the 90-day private Insights window. The account is being seen. (Jen Instagram Insights · 90 days)\n- **Jen's human lens is the strongest discovery asset** [VERIFIED] — The audited personal/life-first set produced a 161-like median versus 78 for property-first posts, a 2.1× gap. Every bottom-quartile post in the accessible outlier window used the property as beat one. (Jen outlier audit · accessible post sample)\n- **She does not lack proof; she lacks packaging** [VERIFIED] — Proof or result language appeared in 25 of Jen's 96 public captions (26.0%), versus 19 of 96 for Coffee & Contracts (19.8%). Jen has material to work with, but it is not consistently framed as the experience of being her client. (96 vs 96 caption corpus)\n- **The lead handoff is the clearest gap** [VERIFIED] — Only 1 of Jen's 96 captions used an explicit comment CTA. Across the private 90-day window, 1,589 profile visits produced 12 link taps. Content often ends before the viewer is given a natural next step. (96-post corpus + private Insights)\n- **Feed posts deserve a bigger job** [LIKELY] — Feed posts generated only 3.1% of views but 16.9% of interactions. That is a 5.45 interaction-share efficiency index, directionally suggesting the feed is an underused depth and proof surface. (Jen Instagram Insights · format shares)\n- **Local and cultural content creates better conversation than keyword capture alone** [VERIFIED] — In the 120-comment benchmark sample, local history, neighborhood, architecture, and balanced-market posts produced 60%–100% substantive-comment rates in their sampled sets. The keyword-guide post produced 0 substantive comments and 11 of 15 keyword-only comments. (Local benchmark comment sample · n=120)\n\n## what earns attention\n- personal / life-first: 161 (161 median likes)\n- property-first: 78 (78 median likes)\n_Jen's life and emotional lens should open more posts; the home becomes beat two._\n\n## proof exists; the handoff does not\n- Jen · proof / result language: 26.0 (25 of 96 captions)\n- Coffee & Contracts · proof / result language: 19.8 (19 of 96 captions)\n- Jen · explicit comment CTA: 1.0 (1 of 96 captions)\n- Coffee & Contracts · explicit comment CTA: 57.3 (55 of 96 captions)\n_Coffee & Contracts' visible advantage is not more proof. It is repeated conversion architecture._\n\n## the content portfolio\n- **Lead with this**: Life-first, real estate second (A real Jen moment opens the post; her judgment gives it utility.), Local life with a decision inside it (A street, routine, or Valley observation that helps someone choose.)\n- **Deepen trust here**: Client-experience proof (What Jen handled, anticipated, translated, or protected.), Clear next-step posts (What happens now, what can wait, and what she will do.)\n- **Use with a bridge**: Pure personal or culture (Excellent recognition; add a business bridge only when it is honest.), Local discovery (Creates conversation, then Stories or DM carries the lead path.)\n- **Reduce or reframe**: Property-first tours (Low differentiation unless tied to a real person's decision.), Agent humor and keyword theater (Can inflate reaction without proving buyer or seller intent.)\n\n## three angles — one brand\nThese should stack instead of competing. The promise is emotional, the proof is operational, and the CTA is concrete.\n1. **1. Brand promise — The whole move feels handled** — Best match for Jen's actual service: warm, anticipatory, protective, and low-friction. It is broad enough for buyers and sellers, but must be proven through specific client moments so it does not become generic luxury language.\n2. **2. Content proof — You'll always know what happens next** — Turns informing and empowering into a repeatable editorial standard. Every useful post should reduce uncertainty, clarify a choice, or show how Jen lowers the load.\n3. **3. Lead invitation — Send me the street or the number** — Makes the next action feel like Jen: specific, calm, and useful. It can serve buyers now, while seller variants use 'send me what changed' or 'send me the move you're trying to make.'\n\n## five recurring proof moments\nBefore you have to ask → Here is what happens next → Why I told them to pause → The part they did not have to carry → A real street, a real number\n  - Before you have to ask: The thing Jen anticipates or handles early.\n  - Here is what happens next: A calm, plain-language sequence for a real decision.\n  - Why I told them to pause: Protective judgment without fear, diagnosis, or pressure.\n  - The part they did not have to carry: The coordination and emotional load Jen removed.\n  - A real street, a real number: Local authority made concrete and useful.\n\n## what to stop doing\n1. **Kill the crime-scene angle** — It is anxiety-heavy, costume-like, and asks Jen to play a personality she does not have. It also invites professional and brand risk.\n2. **Park public franchise names** — The system may use repeatable structures internally, but the audience should experience one Jen—not a menu of branded concepts.\n3. **Stop treating reach as lead proof** — Views and comments are attention signals. A qualified DM, property review, consultation, or client conversation is the lead-path event.\n\n## what this still cannot prove\nThe 30-day Insights window sits inside the 90-day window. It is a recent snapshot, not an independent before-and-after cohort.\n\nThe feed efficiency number is interaction share divided by view share, not a conventional per-post engagement rate. It is directional.\n\nPost-level saves, shares, qualified DMs, appointments, signed clients, and closed revenue are incomplete. No content angle is yet proven to generate clients.\n\nThe promise should be 'the move feels handled,' not a literal guarantee that Jen personally performs every specialist's work.\n\nLocal content must remain compliant with fair-housing rules and avoid ranking neighborhoods for protected classes.\n\n## source trail\n- [AUDIT] Instagram lead-path audit — _active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md\n- [CURRENT PLAYBOOK] Winning-agent playbook — preserved pending correction — _active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md\n- [VOICE] Jen voice profile — _active/clients/jen-listings/brand_context/voice-profile.md\n- [ICP] Jen buyer and seller context — _active/clients/jen-listings/brand_context/icp.md\n\n## Context pack (agent feed)\n- `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md` — primary analytics audit\n- `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md` — current playbook preserved for revision\n- `_active/clients/jen-listings/brand_context/voice-profile.md` — client voice and service promise\n- `_active/clients/jen-listings/brand_context/icp.md` — buyer and seller context\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = false;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var relPath = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return uri.slice(PREFIX.length);
+    };
+    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
+      .catch(function(){ LIVE = false; return false; });
+    var browserRoute = function(uri){
+      var rel = relPath(uri);
+      if (!rel) return null;
+      return (LIVE ? '/repo/' : '/') + rel;
+    };
+    HANDSHAKE.then(function(){
+      // Images must be same-origin or they render as broken glyphs. Generic
+      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
+      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+        var r = browserRoute(img.getAttribute('src'));
+        if (r) img.setAttribute('src', r);
+      });
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        ev.preventDefault();
+        HANDSHAKE.then(function(){
+          var repo = browserRoute(href);
+          if (repo && INLINE.test(repo.split('?')[0])){
+            window.location = repo;
+            return;
+          }
+          if (!LIVE){ window.location = href; return; }
+          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
+            .then(function(r){ return r.json(); })
+            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+            .catch(function(){ toast('open failed'); });
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

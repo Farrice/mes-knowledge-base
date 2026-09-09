@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "REPLACE_ME",
+  "status": "draft",
+  "source_root": "REPLACE_ME",
+  "drive_staging_destination": "00_Staging/REPLACE_ME",
+  "final_destination": "REPLACE_ME",
+  "classification": "business_archive",
+  "privacy_review": "not_required_or_pending",
+  "inventory": {
+    "file_count": 0,
+    "logical_bytes": 0,
+    "allocated_bytes": 0,
+    "sha256_manifest": "REPLACE_ME"
+  },
+  "transfer": {
+    "google_account_confirmed": false,
+    "stream_files_mode_confirmed": false,
+    "upload_started_at": null,
+    "sync_idle_no_error": false,
+    "web_presence_verified": false,
+    "web_file_count": 0,
+    "web_logical_bytes": 0
+  },
+  "sample_verification": [],
+  "local_source": {
+    "move_to_trash_approval": "pending",
+    "moved_to_trash_at": null,
+    "empty_trash_approval": "not_requested",
+    "eviction_state": "not_started",
+    "allocated_bytes_after": null,
+    "reclaimed_bytes": 0
+  },
+  "stop_reason": null
+}

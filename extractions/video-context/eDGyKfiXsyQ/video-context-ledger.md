@@ -1,0 +1,1649 @@
+# Video Context Ledger
+
+Observed spoken evidence from public captions.
+
+- **00:00:01.470 — OBSERVED / SPOKEN:** And I hate to sound like a hater, cuz
+- **00:00:01.480 — OBSERVED / SPOKEN:** I'm not. I hope everybody eventually
+- **00:00:03.120 — OBSERVED / SPOKEN:** finds their stride in what works for
+- **00:00:04.560 — OBSERVED / SPOKEN:** them.
+- **00:00:05.800 — OBSERVED / SPOKEN:** But it's all the same.
+- **00:00:06.800 — OBSERVED / SPOKEN:** Every real estate agent is posting the
+- **00:00:08.680 — OBSERVED / SPOKEN:** exact same content. The same market
+- **00:00:11.240 — OBSERVED / SPOKEN:** updates, the same just listed, the same
+- **00:00:14.040 — OBSERVED / SPOKEN:** old boring tips that nobody watches.
+- **00:00:16.040 — OBSERVED / SPOKEN:** I saw a video that a good friend of mine
+- **00:00:18.360 — OBSERVED / SPOKEN:** who's a realtor did, and I got angry.
+- **00:00:20.800 — OBSERVED / SPOKEN:** Matt Thornburg was sick of it, too. So,
+- **00:00:23.200 — OBSERVED / SPOKEN:** he stopped. He found the single easiest
+- **00:00:26.600 — OBSERVED / SPOKEN:** type of content to create that almost
+- **00:00:28.960 — OBSERVED / SPOKEN:** nobody is doing.
+- **00:00:30.120 — OBSERVED / SPOKEN:** It's It's very simple to make, man. All
+- **00:00:33.040 — OBSERVED / SPOKEN:** my business comes from open houses and
+- **00:00:34.960 — OBSERVED / SPOKEN:** social media. And And that's it.
+- **00:00:36.720 — OBSERVED / SPOKEN:** Within his first month, clients started
+- **00:00:39.320 — OBSERVED / SPOKEN:** coming directly to him, and his posts
+- **00:00:41.400 — OBSERVED / SPOKEN:** were going viral.
+- **00:00:42.600 — OBSERVED / SPOKEN:** I remember getting my first lead from
+- **00:00:43.920 — OBSERVED / SPOKEN:** social media and just being like, "Oh,
+- **00:00:46.320 — OBSERVED / SPOKEN:** this is like this easy?"
+- **00:00:47.800 — OBSERVED / SPOKEN:** And it's I think it's at 60,000 views
+- **00:00:49.440 — OBSERVED / SPOKEN:** now.
+- **00:00:49.760 — OBSERVED / SPOKEN:** Now, it happens every single week that
+- **00:00:52.040 — OBSERVED / SPOKEN:** clients are coming to him. And in this
+- **00:00:53.840 — OBSERVED / SPOKEN:** interview, he breaks down the exact
+- **00:00:56.400 — OBSERVED / SPOKEN:** format
+- **00:00:57.080 — OBSERVED / SPOKEN:** For anybody that wants to make content
+- **00:00:58.360 — OBSERVED / SPOKEN:** out there, make content in the morning.
+- **00:01:00.120 — OBSERVED / SPOKEN:** Make an Instagram folder and call it R
+- **00:01:02.600 — OBSERVED / SPOKEN:** and D.
+- **00:01:03.560 — OBSERVED / SPOKEN:** And why it works precisely because
+- **00:01:06.560 — OBSERVED / SPOKEN:** everybody else is ignoring it. All
+- **00:01:08.360 — OBSERVED / SPOKEN:** right, Matt. So, I'm excited because
+- **00:01:10.280 — OBSERVED / SPOKEN:** this is a a very special day near and
+- **00:01:13.080 — OBSERVED / SPOKEN:** dear to my heart, a day that I've been
+- **00:01:14.880 — OBSERVED / SPOKEN:** waiting ages for, which is the fact that
+- **00:01:18.000 — OBSERVED / SPOKEN:** you are crushing content. So, you've
+- **00:01:22.240 — OBSERVED / SPOKEN:** been on the channel before, and we
+- **00:01:23.960 — OBSERVED / SPOKEN:** talked all things open houses and what
+- **00:01:27.240 — OBSERVED / SPOKEN:** you've been able to do. And I'll link
+- **00:01:28.960 — OBSERVED / SPOKEN:** that episode below because you are doing
+- **00:01:31.840 — OBSERVED / SPOKEN:** six figures a year from open houses in a
+- **00:01:34.360 — OBSERVED / SPOKEN:** way that I think many agents have not
+- **00:01:36.720 — OBSERVED / SPOKEN:** considered, and it works incredible.
+- **00:01:38.720 — OBSERVED / SPOKEN:** But, we're going to dive into all things
+- **00:01:41.000 — OBSERVED / SPOKEN:** content. So, before we start diving in,
+- **00:01:43.440 — OBSERVED / SPOKEN:** give some context as to, you know, who
+- **00:01:46.360 — OBSERVED / SPOKEN:** you are, where you're from, but also
+- **00:01:48.560 — OBSERVED / SPOKEN:** what led you to this journey as somebody
+- **00:01:50.880 — OBSERVED / SPOKEN:** that is such a master at scripting,
+- **00:01:54.320 — OBSERVED / SPOKEN:** prospecting, open the traditional way to
+- **00:01:58.160 — OBSERVED / SPOKEN:** the point where you are now seeing
+- **00:02:00.200 — OBSERVED / SPOKEN:** unbelievable results from content.
+- **00:02:04.720 — OBSERVED / SPOKEN:** Yeah, that's a good question.
+- **00:02:07.080 — OBSERVED / SPOKEN:** Um
+- **00:02:07.720 — OBSERVED / SPOKEN:** I'm a rebel. I I don't like rules. I
+- **00:02:10.520 — OBSERVED / SPOKEN:** don't like structure. It's why I can't
+- **00:02:12.360 — OBSERVED / SPOKEN:** work for anybody else.
+- **00:02:14.200 — OBSERVED / SPOKEN:** Um
+- **00:02:15.880 — OBSERVED / SPOKEN:** and I I tend to go against the grain. I
+- **00:02:18.000 — OBSERVED / SPOKEN:** tend to like if everybody's doing
+- **00:02:19.520 — OBSERVED / SPOKEN:** something one way, I'm like, nah, I want
+- **00:02:21.720 — OBSERVED / SPOKEN:** to do it this way.
+- **00:02:23.040 — OBSERVED / SPOKEN:** Um
+- **00:02:24.440 — OBSERVED / SPOKEN:** I had a baby to almost 2 years ago now.
+- **00:02:28.720 — OBSERVED / SPOKEN:** Um and
+- **00:02:31.760 — OBSERVED / SPOKEN:** I wanted to focus on different aspects
+- **00:02:34.080 — OBSERVED / SPOKEN:** of the business. I saw the priority
+- **00:02:36.280 — OBSERVED / SPOKEN:** shift. I've always been a hustler. I've
+- **00:02:37.800 — OBSERVED / SPOKEN:** always just like work, work, work as
+- **00:02:40.080 — OBSERVED / SPOKEN:** much as I need to to make it happen. And
+- **00:02:41.840 — OBSERVED / SPOKEN:** my wife had always been a very awesome
+- **00:02:44.200 — OBSERVED / SPOKEN:** supporter and partner of that. That
+- **00:02:46.240 — OBSERVED / SPOKEN:** dynamic changed when we brought a little
+- **00:02:47.920 — OBSERVED / SPOKEN:** one into the picture. It was like, hey,
+- **00:02:50.080 — OBSERVED / SPOKEN:** we need more time from dad. And I and I
+- **00:02:52.520 — OBSERVED / SPOKEN:** wanted to be there more. My mentality
+- **00:02:54.400 — OBSERVED / SPOKEN:** shifted. I didn't want to work, you
+- **00:02:56.760 — OBSERVED / SPOKEN:** know, 10-hour days, 12-hour days,
+- **00:02:58.959 — OBSERVED / SPOKEN:** whatever. I wanted to be able to be
+- **00:03:00.440 — OBSERVED / SPOKEN:** like, hey, let me bang out the most
+- **00:03:02.560 — OBSERVED / SPOKEN:** important needle moving work and then
+- **00:03:04.320 — OBSERVED / SPOKEN:** spend the rest of the time with my
+- **00:03:05.400 — OBSERVED / SPOKEN:** family, right? Like the priority shifted
+- **00:03:07.600 — OBSERVED / SPOKEN:** for myself.
+- **00:03:09.080 — OBSERVED / SPOKEN:** And about 2 months ago,
+- **00:03:12.920 — OBSERVED / SPOKEN:** I saw a video that a good friend of mine
+- **00:03:15.239 — OBSERVED / SPOKEN:** who's a realtor did and I got angry. I
+- **00:03:18.320 — OBSERVED / SPOKEN:** was like, I
+- **00:03:19.800 — OBSERVED / SPOKEN:** you know, I was just like,
+- **00:03:21.680 — OBSERVED / SPOKEN:** this it's the same it's the same thing.
+- **00:03:23.680 — OBSERVED / SPOKEN:** It's literally was my response. I'm
+- **00:03:25.080 — OBSERVED / SPOKEN:** like, it's the same your video, their
+- **00:03:27.120 — OBSERVED / SPOKEN:** video, my video, every realtor is making
+- **00:03:29.160 — OBSERVED / SPOKEN:** the same content. And I'm tired of
+- **00:03:32.120 — OBSERVED / SPOKEN:** making it. It It infuriated me when I
+- **00:03:34.160 — OBSERVED / SPOKEN:** went to go make my next real estate
+- **00:03:36.080 — OBSERVED / SPOKEN:** video. I was like,
+- **00:03:37.760 — OBSERVED / SPOKEN:** I don't like it. I'm not enjoying this
+- **00:03:39.440 — OBSERVED / SPOKEN:** walk-through, putting the suit on.
+- **00:03:41.519 — OBSERVED / SPOKEN:** That's not who I am anymore. I used to
+- **00:03:42.959 — OBSERVED / SPOKEN:** wear suits like every single day. Now
+- **00:03:44.920 — OBSERVED / SPOKEN:** I'm in a V-neck every day.
+- **00:03:47.080 — OBSERVED / SPOKEN:** Um
+- **00:03:47.640 — OBSERVED / SPOKEN:** and it just felt inauthentic. And I just
+- **00:03:51.120 — OBSERVED / SPOKEN:** did just broke. I'm like, I'm done. I'm
+- **00:03:53.240 — OBSERVED / SPOKEN:** not doing it that way anymore. I'm going
+- **00:03:55.200 — OBSERVED / SPOKEN:** to do what I want to do. I love my city.
+- **00:03:57.560 — OBSERVED / SPOKEN:** I love this city. I've been to every
+- **00:03:59.920 — OBSERVED / SPOKEN:** single state in the United States. I've
+- **00:04:02.360 — OBSERVED / SPOKEN:** been to most major cities in the United
+- **00:04:04.440 — OBSERVED / SPOKEN:** States, and there's a lot of cool ones,
+- **00:04:05.920 — OBSERVED / SPOKEN:** man. I love New Orleans. I love Chicago.
+- **00:04:08.200 — OBSERVED / SPOKEN:** There's some really cool places around,
+- **00:04:10.560 — OBSERVED / SPOKEN:** but there's no place, I firmly believe
+- **00:04:12.800 — OBSERVED / SPOKEN:** in my heart, there's no place in the
+- **00:04:14.200 — OBSERVED / SPOKEN:** world like San Diego. And I absolutely
+- **00:04:17.519 — OBSERVED / SPOKEN:** love this city, and I was just like, you
+- **00:04:19.000 — OBSERVED / SPOKEN:** know what? I'm just going to start
+- **00:04:20.799 — OBSERVED / SPOKEN:** making content about my city because I
+- **00:04:22.400 — OBSERVED / SPOKEN:** love it and I'm passionate about it. And
+- **00:04:25.360 — OBSERVED / SPOKEN:** I also know that what I've been doing,
+- **00:04:28.200 — OBSERVED / SPOKEN:** what building this business with open
+- **00:04:29.720 — OBSERVED / SPOKEN:** houses, and open houses are phenomenal.
+- **00:04:31.520 — OBSERVED / SPOKEN:** They're a great lead generation source.
+- **00:04:33.600 — OBSERVED / SPOKEN:** If you go back to that video, you'll
+- **00:04:35.120 — OBSERVED / SPOKEN:** you'll know I say to people that are out
+- **00:04:38.280 — OBSERVED / SPOKEN:** there that are like, "Oh, open houses
+- **00:04:39.600 — OBSERVED / SPOKEN:** don't work." It's like, "Well, you're
+- **00:04:40.320 — OBSERVED / SPOKEN:** not doing enough of them." If you really
+- **00:04:42.240 — OBSERVED / SPOKEN:** want When I wanted to make them my
+- **00:04:43.919 — OBSERVED / SPOKEN:** business, I did four or five a week. Now
+- **00:04:46.320 — OBSERVED / SPOKEN:** that I have a daughter and I have
+- **00:04:47.760 — OBSERVED / SPOKEN:** different priorities, I'm 40 now, I
+- **00:04:49.760 — OBSERVED / SPOKEN:** don't want to do four or five open
+- **00:04:51.320 — OBSERVED / SPOKEN:** houses a week. I don't I do two or three
+- **00:04:53.960 — OBSERVED / SPOKEN:** a week now, and even that I'm like, I
+- **00:04:55.919 — OBSERVED / SPOKEN:** don't want to do that. I've been doing
+- **00:04:57.120 — OBSERVED / SPOKEN:** it for 10 years. I don't I don't want to
+- **00:04:59.480 — OBSERVED / SPOKEN:** work every weekend. I want to take my
+- **00:05:01.040 — OBSERVED / SPOKEN:** girl to the zoo or the beach or I want
+- **00:05:03.560 — OBSERVED / SPOKEN:** to spend family time on the weekend. So,
+- **00:05:06.600 — OBSERVED / SPOKEN:** I had to think about like, how can I
+- **00:05:08.440 — OBSERVED / SPOKEN:** shift? How can I bring my personality,
+- **00:05:11.200 — OBSERVED / SPOKEN:** which I think is a very big thing in
+- **00:05:12.720 — OBSERVED / SPOKEN:** this business, with my ability to
+- **00:05:14.800 — OBSERVED / SPOKEN:** communicate and present it in a
+- **00:05:16.440 — OBSERVED / SPOKEN:** different way, something I'm actually
+- **00:05:18.160 — OBSERVED / SPOKEN:** passionate about. And just create, you
+- **00:05:20.840 — OBSERVED / SPOKEN:** know, that neon sign behind me that says
+- **00:05:23.000 — OBSERVED / SPOKEN:** connection for a big reason. I I believe
+- **00:05:26.160 — OBSERVED / SPOKEN:** in connection above all else, and I'm
+- **00:05:27.800 — OBSERVED / SPOKEN:** like, so how can I create connection in
+- **00:05:29.919 — OBSERVED / SPOKEN:** a different way outside of an open
+- **00:05:31.440 — OBSERVED / SPOKEN:** house, outside of something I'm tied to
+- **00:05:34.200 — OBSERVED / SPOKEN:** physically, where I can do this
+- **00:05:35.680 — OBSERVED / SPOKEN:** anywhere? So, if I want to go to, you
+- **00:05:38.400 — OBSERVED / SPOKEN:** know, we've got River House. If I want
+- **00:05:39.720 — OBSERVED / SPOKEN:** to go out to the river and work for I
+- **00:05:41.320 — OBSERVED / SPOKEN:** can still work for the weekend and take
+- **00:05:42.560 — OBSERVED / SPOKEN:** the boat out, like
+- **00:05:44.640 — OBSERVED / SPOKEN:** And it just kind of clicked. I was like,
+- **00:05:47.160 — OBSERVED / SPOKEN:** I need to just start making content
+- **00:05:48.600 — OBSERVED / SPOKEN:** about my city, about being passionate
+- **00:05:50.560 — OBSERVED / SPOKEN:** about it. My personality is going to
+- **00:05:52.520 — OBSERVED / SPOKEN:** show through. It's different than pretty
+- **00:05:54.760 — OBSERVED / SPOKEN:** much, you know, I've only seen like two
+- **00:05:57.080 — OBSERVED / SPOKEN:** or three other realtors that do this.
+- **00:05:59.200 — OBSERVED / SPOKEN:** Um, and at least in my city, I've only
+- **00:06:01.760 — OBSERVED / SPOKEN:** seen two or three that do it. Um, and
+- **00:06:04.240 — OBSERVED / SPOKEN:** it's worked out. The last couple of
+- **00:06:05.760 — OBSERVED / SPOKEN:** months have been fun.
+- **00:06:07.459 — OBSERVED / SPOKEN:** [laughter]
+- **00:06:08.800 — OBSERVED / SPOKEN:** Yeah, man. It's it's crazy because
+- **00:06:11.400 — OBSERVED / SPOKEN:** that's one of the traps that I find a
+- **00:06:12.880 — OBSERVED / SPOKEN:** lot of agents fall victim to is like
+- **00:06:15.120 — OBSERVED / SPOKEN:** they struggle so much with consistency
+- **00:06:17.080 — OBSERVED / SPOKEN:** because they're trying to do something
+- **00:06:18.680 — OBSERVED / SPOKEN:** that they genuinely don't enjoy doing.
+- **00:06:21.440 — OBSERVED / SPOKEN:** And it's exhausting. Like and
+- **00:06:25.144 — OBSERVED / SPOKEN:** [clears throat]
+- **00:06:25.240 — OBSERVED / SPOKEN:** I can speak from experience cuz I think
+- **00:06:26.760 — OBSERVED / SPOKEN:** you and I both went through this where
+- **00:06:29.040 — OBSERVED / SPOKEN:** you know, for years I my first couple of
+- **00:06:31.080 — OBSERVED / SPOKEN:** years of YouTube videos, I number one
+- **00:06:33.520 — OBSERVED / SPOKEN:** was trying to be like a YouTube
+- **00:06:35.280 — OBSERVED / SPOKEN:** personality and and I changed who I was
+- **00:06:38.520 — OBSERVED / SPOKEN:** because I thought you had to be this way
+- **00:06:40.919 — OBSERVED / SPOKEN:** on this platform. And so every time I
+- **00:06:43.480 — OBSERVED / SPOKEN:** got to I went to record,
+- **00:06:46.240 — OBSERVED / SPOKEN:** it just didn't feel authentic. It didn't
+- **00:06:48.200 — OBSERVED / SPOKEN:** feel genuine. And I wasn't proud of it.
+- **00:06:51.000 — OBSERVED / SPOKEN:** And I but I just thought like you got to
+- **00:06:53.280 — OBSERVED / SPOKEN:** do it anyway, so just like suck it up
+- **00:06:55.280 — OBSERVED / SPOKEN:** and get it done.
+- **00:06:56.584 — OBSERVED / SPOKEN:** [snorts]
+- **00:06:56.600 — OBSERVED / SPOKEN:** And the year that I changed and started
+- **00:06:58.720 — OBSERVED / SPOKEN:** being authentically myself and doing it
+- **00:07:00.440 — OBSERVED / SPOKEN:** my way, my business blew up. And I had
+- **00:07:03.880 — OBSERVED / SPOKEN:** way more fun. It didn't feel like a job.
+- **00:07:06.120 — OBSERVED / SPOKEN:** It felt like a passion project. And and
+- **00:07:09.080 — OBSERVED / SPOKEN:** everybody started to connect with it.
+- **00:07:11.080 — OBSERVED / SPOKEN:** And that's where I think
+- **00:07:13.320 — OBSERVED / SPOKEN:** we're we're in this unique industry
+- **00:07:15.880 — OBSERVED / SPOKEN:** where so many people are just trying to
+- **00:07:17.840 — OBSERVED / SPOKEN:** model
+- **00:07:19.080 — OBSERVED / SPOKEN:** others in different markets instead of
+- **00:07:21.520 — OBSERVED / SPOKEN:** looking within and saying like, who
+- **00:07:23.760 — OBSERVED / SPOKEN:** genuinely am I? Like any person that
+- **00:07:26.760 — OBSERVED / SPOKEN:** I've ever seen, you know, there's
+- **00:07:28.200 — OBSERVED / SPOKEN:** Shawnee in our group and and she's like
+- **00:07:30.520 — OBSERVED / SPOKEN:** an Atlanta woman, big energy, big
+- **00:07:33.760 — OBSERVED / SPOKEN:** personality, and she lets that shine
+- **00:07:36.760 — OBSERVED / SPOKEN:** through and crushes. Or there's so many
+- **00:07:39.880 — OBSERVED / SPOKEN:** different examples of people that I've
+- **00:07:41.840 — OBSERVED / SPOKEN:** seen who are just unapologetically
+- **00:07:44.680 — OBSERVED / SPOKEN:** themselves
+- **00:07:46.000 — OBSERVED / SPOKEN:** and that drives massive business with
+- **00:07:48.560 — OBSERVED / SPOKEN:** the people that actually connect with
+- **00:07:50.320 — OBSERVED / SPOKEN:** them. And that's the that's the best
+- **00:07:52.160 — OBSERVED / SPOKEN:** part is like
+- **00:07:54.040 — OBSERVED / SPOKEN:** if you're putting out content that's not
+- **00:07:55.480 — OBSERVED / SPOKEN:** you
+- **00:07:56.480 — OBSERVED / SPOKEN:** you will attract clients that don't
+- **00:07:58.960 — OBSERVED / SPOKEN:** actually connect with you. And then you
+- **00:08:01.160 — OBSERVED / SPOKEN:** start dealing with nightmare clients.
+- **00:08:02.800 — OBSERVED / SPOKEN:** It's a lose-lose. You hate it, the
+- **00:08:05.320 — OBSERVED / SPOKEN:** people hate it, your business struggles.
+- **00:08:07.960 — OBSERVED / SPOKEN:** And so let's start to kind of unpack
+- **00:08:10.880 — OBSERVED / SPOKEN:** what that content is because I love
+- **00:08:13.000 — OBSERVED / SPOKEN:** watching all of your videos and I
+- **00:08:14.320 — OBSERVED / SPOKEN:** genuinely watch them start to finish and
+- **00:08:16.560 — OBSERVED / SPOKEN:** I don't give two shits about San Diego.
+- **00:08:19.200 — OBSERVED / SPOKEN:** And so but but I'm like it's so
+- **00:08:21.400 — OBSERVED / SPOKEN:** interesting. I'm like if I was ever to
+- **00:08:23.200 — OBSERVED / SPOKEN:** go there, which I have been and loved it
+- **00:08:25.040 — OBSERVED / SPOKEN:** to be honest. It was best fish tacos
+- **00:08:26.919 — OBSERVED / SPOKEN:** I've ever had in my life. Um
+- **00:08:29.760 — OBSERVED / SPOKEN:** but what are you creating? Like let's
+- **00:08:31.800 — OBSERVED / SPOKEN:** walk through this process of maybe what
+- **00:08:34.440 — OBSERVED / SPOKEN:** were you creating before? What are you
+- **00:08:36.800 — OBSERVED / SPOKEN:** really leaning into now?
+- **00:08:39.440 — OBSERVED / SPOKEN:** Yeah, good question. So before I
+- **00:08:41.520 — OBSERVED / SPOKEN:** obviously I do a lot of open houses, so
+- **00:08:43.120 — OBSERVED / SPOKEN:** I'm in a lot of different properties.
+- **00:08:44.960 — OBSERVED / SPOKEN:** Before I was doing a lot of like
+- **00:08:46.640 — OBSERVED / SPOKEN:** property tours where like you know, and
+- **00:08:49.320 — OBSERVED / SPOKEN:** the full setup like very professionally
+- **00:08:51.080 — OBSERVED / SPOKEN:** dressed, setting the tripod up, having
+- **00:08:53.520 — OBSERVED / SPOKEN:** the the gimbal that follows you and the
+- **00:08:56.720 — OBSERVED / SPOKEN:** you know, and
+- **00:08:58.920 — OBSERVED / SPOKEN:** trying to be super professional and and
+- **00:09:01.440 — OBSERVED / SPOKEN:** it's funny because
+- **00:09:03.520 — OBSERVED / SPOKEN:** I can speak well and I know how to
+- **00:09:05.120 — OBSERVED / SPOKEN:** connect with people and everything, but
+- **00:09:06.680 — OBSERVED / SPOKEN:** I'm and you can hear from my vocal
+- **00:09:08.680 — OBSERVED / SPOKEN:** inflections and tonality like I'm from
+- **00:09:10.600 — OBSERVED / SPOKEN:** the hood. Like I'm not I I'm a hard
+- **00:09:13.920 — OBSERVED / SPOKEN:** worker. I am a professional, but I'm not
+- **00:09:15.720 — OBSERVED / SPOKEN:** like that buttoned up
+- **00:09:17.360 — OBSERVED / SPOKEN:** like you know, let's talk about our
+- **00:09:18.920 — OBSERVED / SPOKEN:** 401ks over a golf like morning. Like
+- **00:09:21.640 — OBSERVED / SPOKEN:** nah, that's not me, man. And and so
+- **00:09:24.320 — OBSERVED / SPOKEN:** that's the type of content I was making.
+- **00:09:25.760 — OBSERVED / SPOKEN:** I was making a lot of property
+- **00:09:27.040 — OBSERVED / SPOKEN:** walk-throughs. Um
+- **00:09:29.000 — OBSERVED / SPOKEN:** I used to do years ago I used to do this
+- **00:09:30.760 — OBSERVED / SPOKEN:** thing called a minute with Matt that
+- **00:09:32.120 — OBSERVED / SPOKEN:** actually like very the very beginning of
+- **00:09:34.640 — OBSERVED / SPOKEN:** I think video the video era in the
+- **00:09:36.839 — OBSERVED / SPOKEN:** social media like started to get some
+- **00:09:38.840 — OBSERVED / SPOKEN:** traction, but that content wouldn't work
+- **00:09:40.960 — OBSERVED / SPOKEN:** nowadays. It had B-roll and stuff in it.
+- **00:09:42.920 — OBSERVED / SPOKEN:** And I you know, I was making content
+- **00:09:45.800 — OBSERVED / SPOKEN:** for lack of a better word, I was making
+- **00:09:47.440 — OBSERVED / SPOKEN:** content that everybody else makes. That
+- **00:09:49.760 — OBSERVED / SPOKEN:** all other realtors. If you look at any
+- **00:09:51.480 — OBSERVED / SPOKEN:** realtors Instagram or social media or
+- **00:09:54.200 — OBSERVED / SPOKEN:** YouTube, whatever, TikTok.
+- **00:09:57.120 — OBSERVED / SPOKEN:** And I hate to sound like a hater cuz I'm
+- **00:09:58.720 — OBSERVED / SPOKEN:** not. I hope everybody eventually finds
+- **00:10:00.560 — OBSERVED / SPOKEN:** their stride and what works for them.
+- **00:10:02.920 — OBSERVED / SPOKEN:** But it's all the same, man. It's all the
+- **00:10:05.000 — OBSERVED / SPOKEN:** same. It's all you know, you're standing
+- **00:10:06.920 — OBSERVED / SPOKEN:** in front of a property and the freaking
+- **00:10:08.560 — OBSERVED / SPOKEN:** giant text comes in and it's like behind
+- **00:10:10.800 — OBSERVED / SPOKEN:** you and it's like I've seen nine of
+- **00:10:13.080 — OBSERVED / SPOKEN:** these videos today, man. Like it's very
+- **00:10:15.920 — OBSERVED / SPOKEN:** rarely are they shot in a way that is
+- **00:10:18.080 — OBSERVED / SPOKEN:** actually impressive. Very rarely are the
+- **00:10:21.080 — OBSERVED / SPOKEN:** people letting their personality show
+- **00:10:22.760 — OBSERVED / SPOKEN:** through. You know, they're speaking, I
+- **00:10:25.160 — OBSERVED / SPOKEN:** think, in a way that they think they're
+- **00:10:27.440 — OBSERVED / SPOKEN:** supposed to be perceived as
+- **00:10:28.840 — OBSERVED / SPOKEN:** professionals.
+- **00:10:30.280 — OBSERVED / SPOKEN:** Um
+- **00:10:31.720 — OBSERVED / SPOKEN:** and I just didn't like it. That's the
+- **00:10:33.320 — OBSERVED / SPOKEN:** content I was making. It's funny if you
+- **00:10:34.720 — OBSERVED / SPOKEN:** go back and you if you go back in my
+- **00:10:36.760 — OBSERVED / SPOKEN:** Instagram, you can actually see where
+- **00:10:38.440 — OBSERVED / SPOKEN:** the shift was. It's a very clear like
+- **00:10:40.680 — OBSERVED / SPOKEN:** you can scroll down and see, oh, this is
+- **00:10:42.360 — OBSERVED / SPOKEN:** when it changed. And literally like two
+- **00:10:44.560 — OBSERVED / SPOKEN:** videos before I was, you know, we've
+- **00:10:46.280 — OBSERVED / SPOKEN:** been studying, we're in this amazing
+- **00:10:47.920 — OBSERVED / SPOKEN:** group, we have all these supporters.
+- **00:10:49.760 — OBSERVED / SPOKEN:** I've been studying like different ways
+- **00:10:51.760 — OBSERVED / SPOKEN:** to make videos, visual hooks, auditory
+- **00:10:53.800 — OBSERVED / SPOKEN:** hooks, etc. And there's a couple of
+- **00:10:55.880 — OBSERVED / SPOKEN:** videos where I'm doing like property
+- **00:10:57.600 — OBSERVED / SPOKEN:** walk-throughs and in the very beginning
+- **00:10:59.360 — OBSERVED / SPOKEN:** shot, I'm like upside down. I'm like
+- **00:11:01.760 — OBSERVED / SPOKEN:** laying on a bed or I'm laying on the
+- **00:11:03.320 — OBSERVED / SPOKEN:** ground and I'm upside down and I'm like,
+- **00:11:04.839 — OBSERVED / SPOKEN:** oh yeah, it's going to make people stop
+- **00:11:06.120 — OBSERVED / SPOKEN:** cuz I'm upside down. Why is this guy
+- **00:11:07.560 — OBSERVED / SPOKEN:** upside down? It's terrible. It's so
+- **00:11:09.760 — OBSERVED / SPOKEN:** terrible. It's so bad. I laugh at it
+- **00:11:12.200 — OBSERVED / SPOKEN:** now.
+- **00:11:13.200 — OBSERVED / SPOKEN:** Um and it just wasn't authentic and just
+- **00:11:15.360 — OBSERVED / SPOKEN:** wasn't connecting. And
+- **00:11:17.839 — OBSERVED / SPOKEN:** I I met somebody, actually. This is very
+- **00:11:20.920 — OBSERVED / SPOKEN:** funny. I got invited to a networking
+- **00:11:22.839 — OBSERVED / SPOKEN:** event,
+- **00:11:23.827 — OBSERVED / SPOKEN:** [snorts]
+- **00:11:24.080 — OBSERVED / SPOKEN:** a really high-end networking event here
+- **00:11:25.960 — OBSERVED / SPOKEN:** in San Diego with super top producers.
+- **00:11:28.480 — OBSERVED / SPOKEN:** Like everybody in the room is is, you
+- **00:11:30.560 — OBSERVED / SPOKEN:** know, I think 10 million in productivity
+- **00:11:33.080 — OBSERVED / SPOKEN:** minimum uh uh annually and uh
+- **00:11:36.480 — OBSERVED / SPOKEN:** the people that we're speaking are are
+- **00:11:39.360 — OBSERVED / SPOKEN:** way excess of that, you know, you're
+- **00:11:41.080 — OBSERVED / SPOKEN:** talking people that are doing 100
+- **00:11:42.880 — OBSERVED / SPOKEN:** million in productivity a year. And I
+- **00:11:45.320 — OBSERVED / SPOKEN:** met somebody that does what I'm doing
+- **00:11:47.920 — OBSERVED / SPOKEN:** now in in here in San Diego. Very cool
+- **00:11:50.640 — OBSERVED / SPOKEN:** dude, very chill, very open-minded, very
+- **00:11:53.520 — OBSERVED / SPOKEN:** non-gatekeeping, very like sat down and
+- **00:11:55.600 — OBSERVED / SPOKEN:** had a great like 10-minute talk with me.
+- **00:11:58.160 — OBSERVED / SPOKEN:** And it wasn't super it wasn't like, you
+- **00:12:00.520 — OBSERVED / SPOKEN:** know, we didn't have an hour and a half
+- **00:12:01.760 — OBSERVED / SPOKEN:** lunch and discuss every single thing,
+- **00:12:03.560 — OBSERVED / SPOKEN:** but the 10-minute chat we had really
+- **00:12:05.920 — OBSERVED / SPOKEN:** opened my eyes to like
+- **00:12:08.280 — OBSERVED / SPOKEN:** his process and why he makes content the
+- **00:12:10.520 — OBSERVED / SPOKEN:** way he does and he makes content very
+- **00:12:11.960 — OBSERVED / SPOKEN:** similar to what I make. It's focused on
+- **00:12:14.440 — OBSERVED / SPOKEN:** North County, San Diego, not I focus
+- **00:12:16.760 — OBSERVED / SPOKEN:** more on the city center, that's where I
+- **00:12:18.040 — OBSERVED / SPOKEN:** live and I and where I like to, you
+- **00:12:20.240 — OBSERVED / SPOKEN:** know, live and operate and do business,
+- **00:12:21.840 — OBSERVED / SPOKEN:** so I focus more here. Um but it just
+- **00:12:24.440 — OBSERVED / SPOKEN:** opened my eyes to like a different way
+- **00:12:26.920 — OBSERVED / SPOKEN:** of looking at content creation and
+- **00:12:29.320 — OBSERVED / SPOKEN:** everything and um
+- **00:12:31.680 — OBSERVED / SPOKEN:** and he literally told me he goes, "Bro,
+- **00:12:33.440 — OBSERVED / SPOKEN:** like you have a great personality. Steal
+- **00:12:35.760 — OBSERVED / SPOKEN:** what I'm doing and just do it your way."
+- **00:12:37.720 — OBSERVED / SPOKEN:** And I I fully support that because I
+- **00:12:40.360 — OBSERVED / SPOKEN:** tell other people the same thing. When
+- **00:12:42.400 — OBSERVED / SPOKEN:** people are like, "Oh, I love what you're
+- **00:12:43.680 — OBSERVED / SPOKEN:** doing." I'm like, "Bro, steal it. Steal
+- **00:12:45.360 — OBSERVED / SPOKEN:** it and put yours Don't do it one word
+- **00:12:47.160 — OBSERVED / SPOKEN:** for word, one for one. Take the idea and
+- **00:12:49.839 — OBSERVED / SPOKEN:** make it your own. You know what I mean?
+- **00:12:51.400 — OBSERVED / SPOKEN:** Like like we're not reinventing anything
+- **00:12:53.720 — OBSERVED / SPOKEN:** here, you know?" Um
+- **00:12:56.280 — OBSERVED / SPOKEN:** and and it just clicked with me, man,
+- **00:12:58.200 — OBSERVED / SPOKEN:** and I made I made the first video that
+- **00:13:00.760 — OBSERVED / SPOKEN:** was like this new style. I talked about
+- **00:13:03.560 — OBSERVED / SPOKEN:** seven major development projects that
+- **00:13:05.360 — OBSERVED / SPOKEN:** were going on around San Diego and I
+- **00:13:07.839 — OBSERVED / SPOKEN:** think
+- **00:13:09.320 — OBSERVED / SPOKEN:** it has 30 or 40,000 views now. Um and
+- **00:13:13.920 — OBSERVED / SPOKEN:** then I just I just kept going. I was
+- **00:13:15.320 — OBSERVED / SPOKEN:** like, "Every day I'm just going to make
+- **00:13:16.440 — OBSERVED / SPOKEN:** a video and talk about what I love about
+- **00:13:19.839 — OBSERVED / SPOKEN:** this city, either what I love about this
+- **00:13:21.640 — OBSERVED / SPOKEN:** and and and here's like the the kicker.
+- **00:13:23.920 — OBSERVED / SPOKEN:** It's all different. It's not exactly the
+- **00:13:26.280 — OBSERVED / SPOKEN:** same every single time cuz like I'll
+- **00:13:28.560 — OBSERVED / SPOKEN:** talk about San Diego history. I'll talk
+- **00:13:30.440 — OBSERVED / SPOKEN:** about San Diego news. The video that I
+- **00:13:32.280 — OBSERVED / SPOKEN:** made today is about another San Diego
+- **00:13:33.880 — OBSERVED / SPOKEN:** development project. I'll talk about San
+- **00:13:36.320 — OBSERVED / SPOKEN:** Diego
+- **00:13:37.960 — OBSERVED / SPOKEN:** um
+- **00:13:38.720 — OBSERVED / SPOKEN:** events, you know, like I do a Friday
+- **00:13:40.560 — OBSERVED / SPOKEN:** post that just talks about here's what's
+- **00:13:42.160 — OBSERVED / SPOKEN:** happening for the weekend. Like if you
+- **00:13:43.600 — OBSERVED / SPOKEN:** don't have plans, here's what you can go
+- **00:13:45.320 — OBSERVED / SPOKEN:** do, you know? I love this city.
+- **00:13:48.584 — OBSERVED / SPOKEN:** [clears throat]
+- **00:13:48.760 — OBSERVED / SPOKEN:** We this city it's so nuts when you think
+- **00:13:51.240 — OBSERVED / SPOKEN:** about it. This city has the number one
+- **00:13:53.520 — OBSERVED / SPOKEN:** sports pub in the United States, had is
+- **00:13:56.760 — OBSERVED / SPOKEN:** the number one place to watch the sunset
+- **00:13:59.600 — OBSERVED / SPOKEN:** in the United States. It's the most
+- **00:14:01.480 — OBSERVED / SPOKEN:** relaxing city on Earth. We have the
+- **00:14:04.440 — OBSERVED / SPOKEN:** number two best weather on Earth. Like
+- **00:14:07.680 — OBSERVED / SPOKEN:** there's so much about this city that's
+- **00:14:09.400 — OBSERVED / SPOKEN:** amazing. And people always talk trash,
+- **00:14:11.160 — OBSERVED / SPOKEN:** oh it's so expensive, it's so expensive.
+- **00:14:13.200 — OBSERVED / SPOKEN:** It's like yeah, but you get what you pay
+- **00:14:14.840 — OBSERVED / SPOKEN:** for. A Camry is a great car, but there's
+- **00:14:17.840 — OBSERVED / SPOKEN:** a reason it's 45 grand and a Bentley's
+- **00:14:19.720 — OBSERVED / SPOKEN:** 200.
+- **00:14:20.760 — OBSERVED / SPOKEN:** Yeah.
+- **00:14:21.040 — OBSERVED / SPOKEN:** San Diego's the Bentley, man. And it's
+- **00:14:22.840 — OBSERVED / SPOKEN:** real easy for me to get passionate and
+- **00:14:24.840 — OBSERVED / SPOKEN:** talk talk about that Bentley.
+- **00:14:26.400 — OBSERVED / SPOKEN:** Mhm. Yeah, man. And And I think that's
+- **00:14:29.200 — OBSERVED / SPOKEN:** what I love about it is like you can see
+- **00:14:31.320 — OBSERVED / SPOKEN:** the passion come through. And like when
+- **00:14:32.960 — OBSERVED / SPOKEN:** you're passionate, that connects with
+- **00:14:34.680 — OBSERVED / SPOKEN:** people emotionally. Like that's
+- **00:14:37.320 — OBSERVED / SPOKEN:** the At the end of the day with content,
+- **00:14:38.960 — OBSERVED / SPOKEN:** the entire goal is to get people to
+- **00:14:40.520 — OBSERVED / SPOKEN:** know, like, and trust you and be able to
+- **00:14:42.040 — OBSERVED / SPOKEN:** genuinely connect with you on the
+- **00:14:43.760 — OBSERVED / SPOKEN:** emotional level. Not surface level, not
+- **00:14:45.720 — OBSERVED / SPOKEN:** transactional, but at the emotional
+- **00:14:47.720 — OBSERVED / SPOKEN:** level. And anybody that I look up to,
+- **00:14:51.160 — OBSERVED / SPOKEN:** anybody that I follow on content, and
+- **00:14:53.360 — OBSERVED / SPOKEN:** anybody that's listening, you can
+- **00:14:55.400 — OBSERVED / SPOKEN:** resonate and connect with this as well.
+- **00:14:57.520 — OBSERVED / SPOKEN:** Anybody that you enjoy consuming content
+- **00:14:59.560 — OBSERVED / SPOKEN:** from, you can tell that they are
+- **00:15:02.440 — OBSERVED / SPOKEN:** passionate about what they're sharing,
+- **00:15:04.080 — OBSERVED / SPOKEN:** whether it's in a creative space,
+- **00:15:06.200 — OBSERVED / SPOKEN:** whether it's in an educational space,
+- **00:15:08.600 — OBSERVED / SPOKEN:** whether it's home cooking tips, like
+- **00:15:11.760 — OBSERVED / SPOKEN:** whoever you connect with, there's an
+- **00:15:13.120 — OBSERVED / SPOKEN:** emotional attachment there because you
+- **00:15:15.360 — OBSERVED / SPOKEN:** could tell they love it. And you love
+- **00:15:18.040 — OBSERVED / SPOKEN:** it. And that connection is established.
+- **00:15:20.320 — OBSERVED / SPOKEN:** But, you know, with that being said,
+- **00:15:23.040 — OBSERVED / SPOKEN:** maybe give some insight on
+- **00:15:25.560 — OBSERVED / SPOKEN:** what this type of content is. And then
+- **00:15:28.280 — OBSERVED / SPOKEN:** I've got a couple questions about the
+- **00:15:30.160 — OBSERVED / SPOKEN:** the workflow side because
+- **00:15:32.120 — OBSERVED / SPOKEN:** Yeah.
+- **00:15:32.720 — OBSERVED / SPOKEN:** you know, the the average agent that I
+- **00:15:34.600 — OBSERVED / SPOKEN:** see that is talking about their city,
+- **00:15:37.800 — OBSERVED / SPOKEN:** they're doing it in
+- **00:15:39.680 — OBSERVED / SPOKEN:** the same way everybody else is, which is
+- **00:15:41.680 — OBSERVED / SPOKEN:** they've got their, you know, they're
+- **00:15:43.360 — OBSERVED / SPOKEN:** usually like either walking down a
+- **00:15:45.120 — OBSERVED / SPOKEN:** street with somebody filming them
+- **00:15:47.320 — OBSERVED / SPOKEN:** talking about something that a chat GPT
+- **00:15:49.480 — OBSERVED / SPOKEN:** told them to talk about or they are just
+- **00:15:52.040 — OBSERVED / SPOKEN:** sitting in a little office and with not
+- **00:15:54.680 — OBSERVED / SPOKEN:** much excitement. Like, what does your
+- **00:15:57.000 — OBSERVED / SPOKEN:** content look like? Quick pause. If
+- **00:15:59.160 — OBSERVED / SPOKEN:** you're watching this feeling stuck,
+- **00:16:01.040 — OBSERVED / SPOKEN:** overwhelmed by all the noise, tired of
+- **00:16:03.280 — OBSERVED / SPOKEN:** chasing leads, unsure of how to close
+- **00:16:06.000 — OBSERVED / SPOKEN:** consistent deals every month with
+- **00:16:08.200 — OBSERVED / SPOKEN:** clients coming directly to you for free,
+- **00:16:10.520 — OBSERVED / SPOKEN:** I want you to know something. That's
+- **00:16:12.360 — OBSERVED / SPOKEN:** exactly where the agent you're listening
+- **00:16:14.080 — OBSERVED / SPOKEN:** to right now was before we started
+- **00:16:16.000 — OBSERVED / SPOKEN:** working together. And if you want the
+- **00:16:17.320 — OBSERVED / SPOKEN:** same support, the same system, and
+- **00:16:19.640 — OBSERVED / SPOKEN:** access to all of my social media and AI
+- **00:16:22.040 — OBSERVED / SPOKEN:** training, daily live mastermind calls,
+- **00:16:24.680 — OBSERVED / SPOKEN:** and direct mentorship, completely free,
+- **00:16:27.960 — OBSERVED / SPOKEN:** no extra split, and no extra cost, click
+- **00:16:30.720 — OBSERVED / SPOKEN:** the link in the description to book a
+- **00:16:32.160 — OBSERVED / SPOKEN:** call. We'll talk about partnering
+- **00:16:33.800 — OBSERVED / SPOKEN:** together so that you could be the next
+- **00:16:35.560 — OBSERVED / SPOKEN:** success story that we're telling on my
+- **00:16:37.920 — OBSERVED / SPOKEN:** YouTube channel. Now, let's get back
+- **00:16:39.880 — OBSERVED / SPOKEN:** into the interview.
+- **00:16:40.680 — OBSERVED / SPOKEN:** Yeah, good question. It's talking head
+- **00:16:42.280 — OBSERVED / SPOKEN:** content. Um and to be clear, it was like
+- **00:16:45.200 — OBSERVED / SPOKEN:** a natural evolution. So, I'm at my desk
+- **00:16:48.040 — OBSERVED / SPOKEN:** now. I have a 120-year-old Victorian. Um
+- **00:16:52.280 — OBSERVED / SPOKEN:** sometimes there's quirks with it like,
+- **00:16:54.720 — OBSERVED / SPOKEN:** you know, it's old electrical and
+- **00:16:56.839 — OBSERVED / SPOKEN:** you know, I'll get glitches in my camera
+- **00:16:58.320 — OBSERVED / SPOKEN:** or other weird things just like that. I
+- **00:17:00.040 — OBSERVED / SPOKEN:** don't know if you saw that.
+- **00:17:01.156 — OBSERVED / SPOKEN:** [laughter]
+- **00:17:01.440 — OBSERVED / SPOKEN:** Um uh because this house is 120 years
+- **00:17:04.000 — OBSERVED / SPOKEN:** old, but I'm in my I'm in my my office
+- **00:17:06.600 — OBSERVED / SPOKEN:** right now. And my phone sits right here
+- **00:17:10.079 — OBSERVED / SPOKEN:** on a stand that points right at me.
+- **00:17:13.160 — OBSERVED / SPOKEN:** And for
+- **00:17:15.040 — OBSERVED / SPOKEN:** I don't know, two or three years now, uh
+- **00:17:16.920 — OBSERVED / SPOKEN:** when I really started dialing in my CRM,
+- **00:17:18.800 — OBSERVED / SPOKEN:** which is actually when I joined the Wolf
+- **00:17:20.240 — OBSERVED / SPOKEN:** Pack. I was never a CRM guy before that.
+- **00:17:22.720 — OBSERVED / SPOKEN:** I would make videos on my phone to send
+- **00:17:24.760 — OBSERVED / SPOKEN:** to clients. If I call and they don't
+- **00:17:26.680 — OBSERVED / SPOKEN:** answer, I don't send a text, I send a
+- **00:17:28.360 — OBSERVED / SPOKEN:** video every single time. If I call and
+- **00:17:30.120 — OBSERVED / SPOKEN:** they don't answer. And it sits almost at
+- **00:17:32.840 — OBSERVED / SPOKEN:** the same exact angle that I make my
+- **00:17:34.400 — OBSERVED / SPOKEN:** talking head videos at. And so, the it
+- **00:17:37.440 — OBSERVED / SPOKEN:** just clicked. I'm like, I'm already
+- **00:17:38.760 — OBSERVED / SPOKEN:** talking to my phone. I might as well
+- **00:17:40.600 — OBSERVED / SPOKEN:** just talk to my phone and instead of
+- **00:17:42.200 — OBSERVED / SPOKEN:** talking to one person, talk to
+- **00:17:44.160 — OBSERVED / SPOKEN:** everybody, right? So, it's talking head
+- **00:17:47.840 — OBSERVED / SPOKEN:** content, right?
+- **00:17:49.480 — OBSERVED / SPOKEN:** Um
+- **00:17:50.160 — OBSERVED / SPOKEN:** it's it's very simple to make, man. I go
+- **00:17:53.760 — OBSERVED / SPOKEN:** through like um
+- **00:17:55.960 — OBSERVED / SPOKEN:** With the green screen app, right?
+- **00:17:58.120 — OBSERVED / SPOKEN:** Yeah, I dude, I use CapCut. I use
+- **00:18:00.440 — OBSERVED / SPOKEN:** CapCut. Um I edit right in CapCut. It
+- **00:18:03.200 — OBSERVED / SPOKEN:** I'm able to um
+- **00:18:05.120 — OBSERVED / SPOKEN:** uh you know, remove the background and
+- **00:18:07.160 — OBSERVED / SPOKEN:** just put what I want behind it. Um and I
+- **00:18:10.720 — OBSERVED / SPOKEN:** it's funny um even the other people in
+- **00:18:13.960 — OBSERVED / SPOKEN:** this city that make this content, the
+- **00:18:15.680 — OBSERVED / SPOKEN:** similar content to mine,
+- **00:18:17.720 — OBSERVED / SPOKEN:** I've had people reference them and and
+- **00:18:21.200 — OBSERVED / SPOKEN:** and mention them to me and say that they
+- **00:18:23.440 — OBSERVED / SPOKEN:** enjoy my content better.
+- **00:18:26.520 — OBSERVED / SPOKEN:** And I think it's because I allow my
+- **00:18:28.880 — OBSERVED / SPOKEN:** personality to shine through. Like I'm
+- **00:18:31.560 — OBSERVED / SPOKEN:** I'm loud. I'm a loud person. I accept
+- **00:18:34.280 — OBSERVED / SPOKEN:** it. I'm comfortable with who I am. If
+- **00:18:35.920 — OBSERVED / SPOKEN:** you don't like loud noises, we're
+- **00:18:37.120 — OBSERVED / SPOKEN:** probably not going to be friends. Like I
+- **00:18:40.600 — OBSERVED / SPOKEN:** accept it.
+- **00:18:42.360 — OBSERVED / SPOKEN:** A lot of these people that are making
+- **00:18:43.720 — OBSERVED / SPOKEN:** content about these cities and they're
+- **00:18:45.360 — OBSERVED / SPOKEN:** talking about things, they're very
+- **00:18:46.600 — OBSERVED / SPOKEN:** monotone. There's not a lot of emotion.
+- **00:18:49.120 — OBSERVED / SPOKEN:** There's not a lot of of expression. I'm
+- **00:18:52.200 — OBSERVED / SPOKEN:** the opposite. I'm talking to my phone,
+- **00:18:54.240 — OBSERVED / SPOKEN:** but I'm
+- **00:18:55.560 — OBSERVED / SPOKEN:** in my mind, I'm talking to friends,
+- **00:18:57.920 — OBSERVED / SPOKEN:** right? Like I literally put myself in
+- **00:18:59.640 — OBSERVED / SPOKEN:** the mindset, I'm like, I'm talking to my
+- **00:19:01.360 — OBSERVED / SPOKEN:** friends right now. And like it's just so
+- **00:19:04.800 — OBSERVED / SPOKEN:** easy to be so animated and so passionate
+- **00:19:07.960 — OBSERVED / SPOKEN:** and expressive, but it's just talking
+- **00:19:10.400 — OBSERVED / SPOKEN:** head content, man. I literally like
+- **00:19:12.760 — OBSERVED / SPOKEN:** every day when I'm I make a video every
+- **00:19:14.720 — OBSERVED / SPOKEN:** day. Every day and sometimes I make two
+- **00:19:17.080 — OBSERVED / SPOKEN:** a day. Every day I'll I'll pull First I
+- **00:19:19.760 — OBSERVED / SPOKEN:** go to I go just go Google San Diego news
+- **00:19:22.160 — OBSERVED / SPOKEN:** and I just look for interesting stuff
+- **00:19:23.840 — OBSERVED / SPOKEN:** that has happened. I like to focus on
+- **00:19:25.960 — OBSERVED / SPOKEN:** positivity more than negativity, which
+- **00:19:27.920 — OBSERVED / SPOKEN:** is difficult because everybody focuses
+- **00:19:30.440 — OBSERVED / SPOKEN:** on negativity, so there's a lot more
+- **00:19:31.880 — OBSERVED / SPOKEN:** negative news. Um but some of my best
+- **00:19:35.120 — OBSERVED / SPOKEN:** videos like uh there's a a Native
+- **00:19:38.560 — OBSERVED / SPOKEN:** American woman from San Diego who's got
+- **00:19:41.200 — OBSERVED / SPOKEN:** this beauty brand that's uh based off uh
+- **00:19:43.920 — OBSERVED / SPOKEN:** Native American knowledge with um acorn
+- **00:19:46.160 — OBSERVED / SPOKEN:** oil and stuff like that. Who by the way
+- **00:19:47.880 — OBSERVED / SPOKEN:** is amazing. We're developing a
+- **00:19:49.160 — OBSERVED / SPOKEN:** relationship now. We're going to see
+- **00:19:50.320 — OBSERVED / SPOKEN:** what we can do together. She's amazing.
+- **00:19:52.280 — OBSERVED / SPOKEN:** Like she
+- **00:19:54.320 — OBSERVED / SPOKEN:** I open San Diego news and one of like I
+- **00:19:56.800 — OBSERVED / SPOKEN:** had to scroll down and I this article
+- **00:19:58.720 — OBSERVED / SPOKEN:** was not being blasted on the front page
+- **00:20:00.400 — OBSERVED / SPOKEN:** or nothing, but she made the Times 100
+- **00:20:02.800 — OBSERVED / SPOKEN:** list of like most influential beauty
+- **00:20:04.760 — OBSERVED / SPOKEN:** products or something. And she got
+- **00:20:07.000 — OBSERVED / SPOKEN:** picked up to like so I forget the
+- **00:20:09.560 — OBSERVED / SPOKEN:** number, but like a a large number of
+- **00:20:12.160 — OBSERVED / SPOKEN:** Ritz-Carlton spas. And I'm just like
+- **00:20:15.160 — OBSERVED / SPOKEN:** that's freaking cool, man. Like that is
+- **00:20:18.200 — OBSERVED / SPOKEN:** a really cool positive thing to talk
+- **00:20:20.600 — OBSERVED / SPOKEN:** about. And so I made a video out about
+- **00:20:22.360 — OBSERVED / SPOKEN:** it and it's I think it has 60,000 views
+- **00:20:24.080 — OBSERVED / SPOKEN:** now. You know, like I just like
+- **00:20:26.040 — OBSERVED / SPOKEN:** supporting cool positive fun stuff and
+- **00:20:28.720 — OBSERVED / SPOKEN:** when it when it connects with this city,
+- **00:20:30.680 — OBSERVED / SPOKEN:** it's very easy to do because I love this
+- **00:20:32.960 — OBSERVED / SPOKEN:** city.
+- **00:20:34.240 — OBSERVED / SPOKEN:** 100%.
+- **00:20:35.120 — OBSERVED / SPOKEN:** Funny enough, actually, sorry, I'm going
+- **00:20:36.600 — OBSERVED / SPOKEN:** to talk over you. I have this tagline
+- **00:20:39.040 — OBSERVED / SPOKEN:** saying I love this freaking city.
+- **00:20:41.280 — OBSERVED / SPOKEN:** Yeah. And it just naturally came like I
+- **00:20:43.120 — OBSERVED / SPOKEN:** didn't plan that branding with ChatGPT
+- **00:20:46.200 — OBSERVED / SPOKEN:** and Googling. I didn't plan that. I just
+- **00:20:48.480 — OBSERVED / SPOKEN:** said it in a video and then I was like
+- **00:20:50.840 — OBSERVED / SPOKEN:** oh, that's it. Like I love this freaking
+- **00:20:52.480 — OBSERVED / SPOKEN:** city. That's it. Like I'm just going to
+- **00:20:54.760 — OBSERVED / SPOKEN:** end every video like that. Sorry. I
+- **00:20:56.880 — OBSERVED / SPOKEN:** talked over you.
+- **00:20:58.400 — OBSERVED / SPOKEN:** No, it's it's so cool, man. Like and I
+- **00:21:00.200 — OBSERVED / SPOKEN:** think like there's that age-old like
+- **00:21:03.040 — OBSERVED / SPOKEN:** it's it's so cliché, but like
+- **00:21:06.000 — OBSERVED / SPOKEN:** anybody in the OG days of content like
+- **00:21:08.520 — OBSERVED / SPOKEN:** the narrative was like you want to be
+- **00:21:10.040 — OBSERVED / SPOKEN:** the mayor of your town. Like you just
+- **00:21:11.560 — OBSERVED / SPOKEN:** want to be somebody that's a local
+- **00:21:13.880 — OBSERVED / SPOKEN:** resource that talks about your market
+- **00:21:15.760 — OBSERVED / SPOKEN:** because
+- **00:21:16.680 — OBSERVED / SPOKEN:** what I find is that the the average
+- **00:21:19.480 — OBSERVED / SPOKEN:** agent is so
+- **00:21:21.440 — OBSERVED / SPOKEN:** consumed by lead generation that their
+- **00:21:25.240 — OBSERVED / SPOKEN:** entire thought process every single time
+- **00:21:27.960 — OBSERVED / SPOKEN:** they put out a piece of content is can
+- **00:21:30.320 — OBSERVED / SPOKEN:** this generate leads without realizing
+- **00:21:33.280 — OBSERVED / SPOKEN:** that the name of the game is not leads,
+- **00:21:35.080 — OBSERVED / SPOKEN:** it's attention.
+- **00:21:36.400 — OBSERVED / SPOKEN:** And if you get enough attention, the
+- **00:21:38.200 — OBSERVED / SPOKEN:** leads follow. The leading indicator of
+- **00:21:41.360 — OBSERVED / SPOKEN:** leads is attention. It's mass top of
+- **00:21:44.200 — OBSERVED / SPOKEN:** funnel people to get to know you even
+- **00:21:46.480 — OBSERVED / SPOKEN:** exist. But if you don't have people that
+- **00:21:49.440 — OBSERVED / SPOKEN:** know you exist, when you put out a lead
+- **00:21:51.800 — OBSERVED / SPOKEN:** generation focused video like how to buy
+- **00:21:53.600 — OBSERVED / SPOKEN:** a house, how to sell a house, nobody's
+- **00:21:55.520 — OBSERVED / SPOKEN:** listening. Nobody cares, right? And so
+- **00:21:57.800 — OBSERVED / SPOKEN:** that's where I think you've done so well
+- **00:21:59.960 — OBSERVED / SPOKEN:** at being able to say, I just want people
+- **00:22:01.520 — OBSERVED / SPOKEN:** to know who I am. I'm already passionate
+- **00:22:03.360 — OBSERVED / SPOKEN:** about this. I'm going to share it. And
+- **00:22:05.480 — OBSERVED / SPOKEN:** the best lesson that I hope people take
+- **00:22:07.440 — OBSERVED / SPOKEN:** away from this
+- **00:22:09.920 — OBSERVED / SPOKEN:** is what you said about just talking to a
+- **00:22:11.400 — OBSERVED / SPOKEN:** friend.
+- **00:22:12.400 — OBSERVED / SPOKEN:** Because the content that connects the
+- **00:22:14.760 — OBSERVED / SPOKEN:** best is when
+- **00:22:17.400 — OBSERVED / SPOKEN:** like people have to realize that even
+- **00:22:19.840 — OBSERVED / SPOKEN:** though you're sharing a video with
+- **00:22:21.200 — OBSERVED / SPOKEN:** thousands of people,
+- **00:22:22.920 — OBSERVED / SPOKEN:** there is one individual on the other
+- **00:22:25.080 — OBSERVED / SPOKEN:** side of that screen that's listening.
+- **00:22:26.760 — OBSERVED / SPOKEN:** You have to speak to them. And usually
+- **00:22:29.960 — OBSERVED / SPOKEN:** it's your ideal target avatar, somebody
+- **00:22:32.320 — OBSERVED / SPOKEN:** that would enjoy working with you. And
+- **00:22:35.000 — OBSERVED / SPOKEN:** so oftentimes people are creating
+- **00:22:37.360 — OBSERVED / SPOKEN:** content thinking that it's for the
+- **00:22:39.120 — OBSERVED / SPOKEN:** masses, but in reality it's for one
+- **00:22:41.080 — OBSERVED / SPOKEN:** person.
+- **00:22:42.120 — OBSERVED / SPOKEN:** And that's where I always like to use
+- **00:22:44.120 — OBSERVED / SPOKEN:** the analogy
+- **00:22:45.800 — OBSERVED / SPOKEN:** that like if you look at anybody that
+- **00:22:47.320 — OBSERVED / SPOKEN:** you really connect with, maybe it's Tony
+- **00:22:49.040 — OBSERVED / SPOKEN:** Robbins or maybe it's Gary V or anybody
+- **00:22:51.640 — OBSERVED / SPOKEN:** that you look up to and you listen to,
+- **00:22:53.640 — OBSERVED / SPOKEN:** you always feel like they're speaking
+- **00:22:55.280 — OBSERVED / SPOKEN:** directly to you.
+- **00:22:57.000 — OBSERVED / SPOKEN:** Even though they're speaking to millions
+- **00:22:58.760 — OBSERVED / SPOKEN:** of people. Why? Because you're their
+- **00:23:00.840 — OBSERVED / SPOKEN:** target avatar. So, when they're
+- **00:23:02.680 — OBSERVED / SPOKEN:** recording that video,
+- **00:23:04.840 — OBSERVED / SPOKEN:** they feel like they're speaking to you,
+- **00:23:07.840 — OBSERVED / SPOKEN:** not this huge audience. And that's what
+- **00:23:09.680 — OBSERVED / SPOKEN:** I love that you've done about this to
+- **00:23:11.760 — OBSERVED / SPOKEN:** allow that personality to come through,
+- **00:23:13.760 — OBSERVED / SPOKEN:** because that's one of the things I think
+- **00:23:15.400 — OBSERVED / SPOKEN:** people struggle with the most. And so,
+- **00:23:19.600 — OBSERVED / SPOKEN:** with that being said,
+- **00:23:21.680 — OBSERVED / SPOKEN:** it one of the things that I love aside
+- **00:23:23.640 — OBSERVED / SPOKEN:** from the fact that you're
+- **00:23:25.480 — OBSERVED / SPOKEN:** super genuine in your content,
+- **00:23:27.920 — OBSERVED / SPOKEN:** is your consistency. Which is what so
+- **00:23:31.000 — OBSERVED / SPOKEN:** many people struggle with is the finally
+- **00:23:33.880 — OBSERVED / SPOKEN:** find a format that works for them,
+- **00:23:36.240 — OBSERVED / SPOKEN:** but it's
+- **00:23:37.920 — OBSERVED / SPOKEN:** it they have no workflow to the point
+- **00:23:40.080 — OBSERVED / SPOKEN:** where it's an exhaustive effort to
+- **00:23:42.120 — OBSERVED / SPOKEN:** record. So, maybe take us through a
+- **00:23:44.400 — OBSERVED / SPOKEN:** week. You could you kind of mentioned
+- **00:23:46.120 — OBSERVED / SPOKEN:** CapCut, but like from start to finish,
+- **00:23:48.480 — OBSERVED / SPOKEN:** what would a week look like in terms of
+- **00:23:51.240 — OBSERVED / SPOKEN:** recording, editing, finding the video
+- **00:23:53.280 — OBSERVED / SPOKEN:** topics, to then staying consistent?
+- **00:23:56.840 — OBSERVED / SPOKEN:** Yeah, uh very good question. Consistency
+- **00:23:59.160 — OBSERVED / SPOKEN:** is like the hobgoblin of of achievement,
+- **00:24:01.960 — OBSERVED / SPOKEN:** right? Like, [laughter]
+- **00:24:03.160 — OBSERVED / SPOKEN:** it's so funny cuz even myself I've
+- **00:24:05.200 — OBSERVED / SPOKEN:** struggled with consistency so much in
+- **00:24:06.880 — OBSERVED / SPOKEN:** the past. And I have
+- **00:24:08.920 — OBSERVED / SPOKEN:** I have mental health issues. Like, I
+- **00:24:10.320 — OBSERVED / SPOKEN:** have wild ADHD. Like, insanely like, to
+- **00:24:14.000 — OBSERVED / SPOKEN:** the point where the the doctors are
+- **00:24:16.320 — OBSERVED / SPOKEN:** literally like, "This is like up there."
+- **00:24:18.720 — OBSERVED / SPOKEN:** Like, it's intense. Um
+- **00:24:21.400 — OBSERVED / SPOKEN:** uh and so, like, I struggle with
+- **00:24:24.040 — OBSERVED / SPOKEN:** consistency probably even more than
+- **00:24:25.920 — OBSERVED / SPOKEN:** other people.
+- **00:24:27.240 — OBSERVED / SPOKEN:** Um I found as far as consistency goes,
+- **00:24:30.760 — OBSERVED / SPOKEN:** keeping everything super simple is very
+- **00:24:32.680 — OBSERVED / SPOKEN:** important.
+- **00:24:33.960 — OBSERVED / SPOKEN:** You also have to find what works for
+- **00:24:36.640 — OBSERVED / SPOKEN:** you, right? There's all different types
+- **00:24:38.280 — OBSERVED / SPOKEN:** of like time management strategies and
+- **00:24:41.160 — OBSERVED / SPOKEN:** productivity strategies. And like, I
+- **00:24:44.400 — OBSERVED / SPOKEN:** used to try to batch content, record
+- **00:24:46.800 — OBSERVED / SPOKEN:** like four or five videos at once, and
+- **00:24:48.360 — OBSERVED / SPOKEN:** then edit them. And to be honest, that
+- **00:24:49.680 — OBSERVED / SPOKEN:** just doesn't work for me. It it works
+- **00:24:51.920 — OBSERVED / SPOKEN:** for some people, great for them. It I I
+- **00:24:54.360 — OBSERVED / SPOKEN:** think I just have too intense of ADHD,
+- **00:24:56.200 — OBSERVED / SPOKEN:** and I get distracted, and I have too
+- **00:24:58.040 — OBSERVED / SPOKEN:** much going on where I'm just like, I
+- **00:24:59.440 — OBSERVED / SPOKEN:** don't remember which video and blah blah
+- **00:25:01.280 — OBSERVED / SPOKEN:** blah, whatever, and I don't have a giant
+- **00:25:02.800 — OBSERVED / SPOKEN:** team behind me yet to keep me focused.
+- **00:25:05.040 — OBSERVED / SPOKEN:** So,
+- **00:25:06.000 — OBSERVED / SPOKEN:** for me, I literally make a a new video
+- **00:25:08.280 — OBSERVED / SPOKEN:** every day, and I start the process every
+- **00:25:10.080 — OBSERVED / SPOKEN:** single day. So, like, I dumbed it down.
+- **00:25:13.760 — OBSERVED / SPOKEN:** I dumbed it down. All of my business
+- **00:25:15.480 — OBSERVED / SPOKEN:** comes from two avenues. Well, I get some
+- **00:25:18.440 — OBSERVED / SPOKEN:** from my sphere and referrals, but really
+- **00:25:20.600 — OBSERVED / SPOKEN:** all of my business comes from open
+- **00:25:22.080 — OBSERVED / SPOKEN:** houses and social media, and and that's
+- **00:25:24.160 — OBSERVED / SPOKEN:** it. And so, in my mind, I'm like, those
+- **00:25:27.080 — OBSERVED / SPOKEN:** are the only two things that you need to
+- **00:25:28.880 — OBSERVED / SPOKEN:** focus on, nothing else. I think a lot of
+- **00:25:31.160 — OBSERVED / SPOKEN:** agents, when it comes to consistency, a
+- **00:25:32.800 — OBSERVED / SPOKEN:** lot of agents allow themselves to be
+- **00:25:34.360 — OBSERVED / SPOKEN:** distracted by too many things. I need to
+- **00:25:36.520 — OBSERVED / SPOKEN:** be on every single call, I need to be on
+- **00:25:38.040 — OBSERVED / SPOKEN:** every single training, I need to door
+- **00:25:39.480 — OBSERVED / SPOKEN:** knock and do open houses and cold call
+- **00:25:41.760 — OBSERVED / SPOKEN:** and make content. So, no, man.
+- **00:25:44.240 — OBSERVED / SPOKEN:** Keep it real simple. Keep it real
+- **00:25:45.760 — OBSERVED / SPOKEN:** simple. My day is literally organized in
+- **00:25:49.640 — OBSERVED / SPOKEN:** two pieces and two pieces only.
+- **00:25:52.280 — OBSERVED / SPOKEN:** I have the mornings where I create
+- **00:25:53.640 — OBSERVED / SPOKEN:** content and the afternoons where I
+- **00:25:55.080 — OBSERVED / SPOKEN:** connect with people. That's it. That's
+- **00:25:57.680 — OBSERVED / SPOKEN:** it, man. So, I wake up at 5:30 in the
+- **00:26:00.080 — OBSERVED / SPOKEN:** morning, uh which is not quite as early
+- **00:26:02.280 — OBSERVED / SPOKEN:** as you wake up, I know, but I
+- **00:26:04.812 — OBSERVED / SPOKEN:** [laughter]
+- **00:26:05.120 — OBSERVED / SPOKEN:** I don't know and to be honest, I don't
+- **00:26:06.720 — OBSERVED / SPOKEN:** know if I want to push it more than
+- **00:26:07.880 — OBSERVED / SPOKEN:** 5:30. But, I wake up at 5:30, I take
+- **00:26:10.720 — OBSERVED / SPOKEN:** care of myself first, because if I don't
+- **00:26:12.360 — OBSERVED / SPOKEN:** take care of myself, I can't show up for
+- **00:26:13.920 — OBSERVED / SPOKEN:** everybody else. So, I read, I don't
+- **00:26:16.160 — OBSERVED / SPOKEN:** touch my phone for the first half an
+- **00:26:17.760 — OBSERVED / SPOKEN:** hour to an hour that I'm awake. I read,
+- **00:26:20.280 — OBSERVED / SPOKEN:** I drink coffee, I drink water, hydrate
+- **00:26:22.360 — OBSERVED / SPOKEN:** first, I start with an uh apple cider
+- **00:26:24.160 — OBSERVED / SPOKEN:** vinegar and and lemon uh water,
+- **00:26:26.760 — OBSERVED / SPOKEN:** um and then drink coffee, feed my mind,
+- **00:26:28.960 — OBSERVED / SPOKEN:** make sure I work out, go into my day
+- **00:26:31.520 — OBSERVED / SPOKEN:** physically fit, mentally fit, taking
+- **00:26:33.360 — OBSERVED / SPOKEN:** care of myself, meditate before I go
+- **00:26:35.040 — OBSERVED / SPOKEN:** into my day with affirmations.
+- **00:26:37.160 — OBSERVED / SPOKEN:** And then, content is super simple, man.
+- **00:26:39.600 — OBSERVED / SPOKEN:** Uh number one, I check the news first. I
+- **00:26:42.840 — OBSERVED / SPOKEN:** I literally Google important or
+- **00:26:44.640 — OBSERVED / SPOKEN:** impactful San Diego news. I just Google
+- **00:26:46.560 — OBSERVED / SPOKEN:** it. I don't use AI, anything. I go to
+- **00:26:49.080 — OBSERVED / SPOKEN:** different news sites. I look for
+- **00:26:50.800 — OBSERVED / SPOKEN:** anything that is positive first. I
+- **00:26:53.520 — OBSERVED / SPOKEN:** really want to support really cool
+- **00:26:55.400 — OBSERVED / SPOKEN:** positivity first. Um and then
+- **00:26:59.400 — OBSERVED / SPOKEN:** if I can't find anything that's
+- **00:27:00.800 — OBSERVED / SPOKEN:** important and positive first, then I'll
+- **00:27:02.800 — OBSERVED / SPOKEN:** look for just like city news, new
+- **00:27:04.520 — OBSERVED / SPOKEN:** developments. Developments are always
+- **00:27:06.560 — OBSERVED / SPOKEN:** like a a good one to make a video about,
+- **00:27:08.280 — OBSERVED / SPOKEN:** developments, restaurant openings, bar
+- **00:27:10.040 — OBSERVED / SPOKEN:** openings, anything that's like that I
+- **00:27:12.600 — OBSERVED / SPOKEN:** would be interested in because then I
+- **00:27:14.640 — OBSERVED / SPOKEN:** know that's going to connect with people
+- **00:27:16.120 — OBSERVED / SPOKEN:** that I'm going to connect with, right?
+- **00:27:18.280 — OBSERVED / SPOKEN:** And then from there, it's very simple,
+- **00:27:20.560 — OBSERVED / SPOKEN:** man. I have um I use AI. Uh actually,
+- **00:27:23.960 — OBSERVED / SPOKEN:** I'll add another tidbit.
+- **00:27:25.720 — OBSERVED / SPOKEN:** I also have an Instagram folder that I
+- **00:27:28.760 — OBSERVED / SPOKEN:** highly recommend anybody that's out
+- **00:27:30.320 — OBSERVED / SPOKEN:** there that's making content. Make an
+- **00:27:32.320 — OBSERVED / SPOKEN:** Instagram folder and call it R and D.
+- **00:27:36.040 — OBSERVED / SPOKEN:** And R and D doesn't stand for research
+- **00:27:39.160 — OBSERVED / SPOKEN:** and development. It stands for rip off
+- **00:27:40.800 — OBSERVED / SPOKEN:** and duplicate, okay?
+- **00:27:43.280 — OBSERVED / SPOKEN:** Don't reinvent the wheel. It's already
+- **00:27:45.000 — OBSERVED / SPOKEN:** done. Like and keep in mind like I said
+- **00:27:47.160 — OBSERVED / SPOKEN:** before, don't do it one for one. Don't
+- **00:27:49.200 — OBSERVED / SPOKEN:** be a jerk and like recreate word for
+- **00:27:51.560 — OBSERVED / SPOKEN:** word the video that somebody else did.
+- **00:27:53.160 — OBSERVED / SPOKEN:** Don't do that. But if somebody else made
+- **00:27:55.040 — OBSERVED / SPOKEN:** a cool video about a cool topic, you can
+- **00:27:57.160 — OBSERVED / SPOKEN:** recreate that video in your authentic
+- **00:27:59.360 — OBSERVED / SPOKEN:** way in your own voice, and that's okay,
+- **00:28:01.560 — OBSERVED / SPOKEN:** man, because the thing is
+- **00:28:03.640 — OBSERVED / SPOKEN:** there's so many people, and there's
+- **00:28:05.600 — OBSERVED / SPOKEN:** people that that person connected with
+- **00:28:07.360 — OBSERVED / SPOKEN:** because the way they said it is going to
+- **00:28:08.880 — OBSERVED / SPOKEN:** connect with them, and then the way you
+- **00:28:10.360 — OBSERVED / SPOKEN:** say it is going to connect with other
+- **00:28:11.680 — OBSERVED / SPOKEN:** people. You're going to find your tribe.
+- **00:28:14.200 — OBSERVED / SPOKEN:** So, I will check the news, and then if I
+- **00:28:16.080 — OBSERVED / SPOKEN:** can't find anything in the news, I'll go
+- **00:28:17.440 — OBSERVED / SPOKEN:** to my R and D folder. When I'm engaging
+- **00:28:19.360 — OBSERVED / SPOKEN:** in social media, and I see something
+- **00:28:21.160 — OBSERVED / SPOKEN:** that's cool or there might be an like a
+- **00:28:23.040 — OBSERVED / SPOKEN:** topic there, I save it to that folder.
+- **00:28:25.200 — OBSERVED / SPOKEN:** And then that's where I go back to for
+- **00:28:26.760 — OBSERVED / SPOKEN:** my ideas. Um I also have like I have a
+- **00:28:29.440 — OBSERVED / SPOKEN:** running note on my iPhone. Like if I'm
+- **00:28:31.600 — OBSERVED / SPOKEN:** just out in the in the world and I see
+- **00:28:33.360 — OBSERVED / SPOKEN:** something like, you know, when I'm
+- **00:28:34.880 — OBSERVED / SPOKEN:** walking or
+- **00:28:36.040 — OBSERVED / SPOKEN:** out doing appointments, I'll be like,
+- **00:28:37.360 — OBSERVED / SPOKEN:** "Oh, that's that's a video topic,
+- **00:28:38.720 — OBSERVED / SPOKEN:** right?" So, like I have those three
+- **00:28:40.000 — OBSERVED / SPOKEN:** avenues that I'll get my ideas from.
+- **00:28:42.280 — OBSERVED / SPOKEN:** Um
+- **00:28:43.520 — OBSERVED / SPOKEN:** and then it's very simple. I have a AI
+- **00:28:46.680 — OBSERVED / SPOKEN:** create everything for me, man. I uh I
+- **00:28:49.320 — OBSERVED / SPOKEN:** have very dialed in prompts about how I
+- **00:28:52.520 — OBSERVED / SPOKEN:** want the script, how I want the the
+- **00:28:55.360 — OBSERVED / SPOKEN:** descriptions and captions and
+- **00:28:56.680 — OBSERVED / SPOKEN:** everything. Um I have my own
+- **00:28:58.920 — OBSERVED / SPOKEN:** communication style already dialed in
+- **00:29:01.080 — OBSERVED / SPOKEN:** thanks to you. Your program helped me to
+- **00:29:03.520 — OBSERVED / SPOKEN:** develop my entire like literally I have
+- **00:29:05.720 — OBSERVED / SPOKEN:** a document just called my ad copy and
+- **00:29:08.800 — OBSERVED / SPOKEN:** communication marketing communication
+- **00:29:11.040 — OBSERVED / SPOKEN:** style. I have another document that's my
+- **00:29:13.240 — OBSERVED / SPOKEN:** target avatar so that I know who I'm
+- **00:29:15.200 — OBSERVED / SPOKEN:** targeting.
+- **00:29:16.520 — OBSERVED / SPOKEN:** And then I have my brand guide, my
+- **00:29:17.720 — OBSERVED / SPOKEN:** entire brand guide and so I attach all
+- **00:29:19.760 — OBSERVED / SPOKEN:** three of these to every single document
+- **00:29:21.800 — OBSERVED / SPOKEN:** so that the content is being created in
+- **00:29:23.680 — OBSERVED / SPOKEN:** my authentic voice
+- **00:29:25.520 — OBSERVED / SPOKEN:** and being targeted at the right people
+- **00:29:27.920 — OBSERVED / SPOKEN:** that I'm going to connect with, right?
+- **00:29:30.080 — OBSERVED / SPOKEN:** Here's a kicker, a little ninja pro tip
+- **00:29:33.200 — OBSERVED / SPOKEN:** that I think a lot of people aren't
+- **00:29:34.480 — OBSERVED / SPOKEN:** doing.
+- **00:29:35.600 — OBSERVED / SPOKEN:** I don't use that script word for word. I
+- **00:29:38.560 — OBSERVED / SPOKEN:** modify that script in my own voice. I'll
+- **00:29:40.880 — OBSERVED / SPOKEN:** take that script, I'll read through it a
+- **00:29:42.600 — OBSERVED / SPOKEN:** couple times and then I retype and
+- **00:29:44.840 — OBSERVED / SPOKEN:** rewrite and fix things
+- **00:29:46.840 — OBSERVED / SPOKEN:** to make it sound even more like myself
+- **00:29:48.640 — OBSERVED / SPOKEN:** cuz AI is not going to be perfect and
+- **00:29:51.000 — OBSERVED / SPOKEN:** also
+- **00:29:52.320 — OBSERVED / SPOKEN:** that's where the personality comes in.
+- **00:29:53.840 — OBSERVED / SPOKEN:** Like yeah, you can use AI as a tool to
+- **00:29:55.440 — OBSERVED / SPOKEN:** like get you 90% of the way, 80% of the
+- **00:29:57.440 — OBSERVED / SPOKEN:** way, but you got to dial it in yourself
+- **00:29:59.880 — OBSERVED / SPOKEN:** because that's where the authenticity is
+- **00:30:01.760 — OBSERVED / SPOKEN:** going to come through. In that video
+- **00:30:03.760 — OBSERVED / SPOKEN:** about Ruth Ann is the woman behind
+- **00:30:06.320 — OBSERVED / SPOKEN:** Native Beauty is the brand that Native
+- **00:30:08.160 — OBSERVED / SPOKEN:** American brand.
+- **00:30:10.080 — OBSERVED / SPOKEN:** She bought a building in the Gaslamp
+- **00:30:11.600 — OBSERVED / SPOKEN:** here in San Diego. She's the first
+- **00:30:13.040 — OBSERVED / SPOKEN:** Native American to ever buy a building
+- **00:30:15.520 — OBSERVED / SPOKEN:** in in the Gaslamp in San Diego. And in
+- **00:30:18.480 — OBSERVED / SPOKEN:** part of the video I say she bought the
+- **00:30:20.080 — OBSERVED / SPOKEN:** building, y'all. She's killing it. Like
+- **00:30:22.480 — OBSERVED / SPOKEN:** and that was just like off the cuff.
+- **00:30:24.320 — OBSERVED / SPOKEN:** Like I just I just go off script and
+- **00:30:26.400 — OBSERVED / SPOKEN:** just riff and let my build my
+- **00:30:28.240 — OBSERVED / SPOKEN:** personality come through.
+- **00:30:29.880 — OBSERVED / SPOKEN:** But so I use AI, I dial in everything, I
+- **00:30:32.840 — OBSERVED / SPOKEN:** then
+- **00:30:34.080 — OBSERVED / SPOKEN:** refine it per like manually refine it
+- **00:30:36.960 — OBSERVED / SPOKEN:** myself.
+- **00:30:38.240 — OBSERVED / SPOKEN:** And then I record right here at my desk
+- **00:30:40.760 — OBSERVED / SPOKEN:** I on my phone. I have an iPhone 16 Pro
+- **00:30:43.400 — OBSERVED / SPOKEN:** Max. I don't use a fancy camera. I do
+- **00:30:45.760 — OBSERVED / SPOKEN:** have The funny part is I have fancy
+- **00:30:47.680 — OBSERVED / SPOKEN:** cameras, but I use my phone.
+- **00:30:49.086 — OBSERVED / SPOKEN:** [laughter]
+- **00:30:49.680 — OBSERVED / SPOKEN:** It's so easy. Um and yes, I have lights
+- **00:30:52.680 — OBSERVED / SPOKEN:** and stuff like that to make sure that
+- **00:30:53.920 — OBSERVED / SPOKEN:** I'm lighted well, but in reality, you
+- **00:30:56.360 — OBSERVED / SPOKEN:** just need a phone and an idea. That's
+- **00:30:58.560 — OBSERVED / SPOKEN:** That's it. It's all you need. I record
+- **00:31:01.320 — OBSERVED / SPOKEN:** on my phone. I edit in CapCut. I edit
+- **00:31:04.160 — OBSERVED / SPOKEN:** myself. I know you're going to hate me
+- **00:31:06.000 — OBSERVED / SPOKEN:** for saying that. I'm not at the point
+- **00:31:08.560 — OBSERVED / SPOKEN:** yet, I think, where I'm ready to give up
+- **00:31:11.240 — OBSERVED / SPOKEN:** control of the editing to an editor, and
+- **00:31:13.040 — OBSERVED / SPOKEN:** I know that's another leverage uh
+- **00:31:15.840 — OBSERVED / SPOKEN:** like a leverage roadblock or something
+- **00:31:17.520 — OBSERVED / SPOKEN:** that I'm going to hit
+- **00:31:19.000 — OBSERVED / SPOKEN:** probably pretty soon.
+- **00:31:20.640 — OBSERVED / SPOKEN:** Uh but also turnaround to me is very
+- **00:31:22.480 — OBSERVED / SPOKEN:** important. First of all, the reality is
+- **00:31:24.840 — OBSERVED / SPOKEN:** like
+- **00:31:25.920 — OBSERVED / SPOKEN:** finding an idea, making the video, and
+- **00:31:28.280 — OBSERVED / SPOKEN:** getting it posted, when it's a
+- **00:31:30.160 — OBSERVED / SPOKEN:** short-form talking head video,
+- **00:31:33.160 — OBSERVED / SPOKEN:** I might not even eventually even need an
+- **00:31:34.840 — OBSERVED / SPOKEN:** editor for that. Because in reality,
+- **00:31:36.640 — OBSERVED / SPOKEN:** from the from having no idea to being
+- **00:31:39.240 — OBSERVED / SPOKEN:** posted,
+- **00:31:40.880 — OBSERVED / SPOKEN:** an hour to an hour and a half tops.
+- **00:31:43.320 — OBSERVED / SPOKEN:** Tops. Absolutely tops. Right? Like it's
+- **00:31:47.160 — OBSERVED / SPOKEN:** so easy because the editing is so
+- **00:31:48.960 — OBSERVED / SPOKEN:** minimal.
+- **00:31:50.240 — OBSERVED / SPOKEN:** And
+- **00:31:51.960 — OBSERVED / SPOKEN:** and you're just you're not doing a lot
+- **00:31:53.600 — OBSERVED / SPOKEN:** of crazy tricks. You want your authentic
+- **00:31:55.760 — OBSERVED / SPOKEN:** authentic authentic voice and
+- **00:31:57.320 — OBSERVED / SPOKEN:** personality to show through. So
+- **00:31:59.160 — OBSERVED / SPOKEN:** literally, refine everything, record it,
+- **00:32:01.360 — OBSERVED / SPOKEN:** throw it into CapCut,
+- **00:32:03.400 — OBSERVED / SPOKEN:** throw some overlays, you know, whatever
+- **00:32:04.880 — OBSERVED / SPOKEN:** I'm talking about, I want it to pop up
+- **00:32:06.720 — OBSERVED / SPOKEN:** behind me, throw some overlays,
+- **00:32:08.600 — OBSERVED / SPOKEN:** duplicate the layer with myself, remove
+- **00:32:10.560 — OBSERVED / SPOKEN:** the background, it's done. That's it.
+- **00:32:13.040 — OBSERVED / SPOKEN:** Post it. And then the other side of that
+- **00:32:15.880 — OBSERVED / SPOKEN:** is like
+- **00:32:17.400 — OBSERVED / SPOKEN:** something I didn't realize, I think,
+- **00:32:18.840 — OBSERVED / SPOKEN:** when my social media started to take off
+- **00:32:20.520 — OBSERVED / SPOKEN:** is how much time you have to spend
+- **00:32:21.800 — OBSERVED / SPOKEN:** engaging. Yeah.
+- **00:32:23.880 — OBSERVED / SPOKEN:** Because that's where the magic actually
+- **00:32:25.720 — OBSERVED / SPOKEN:** happens. You're sitting there connecting
+- **00:32:27.080 — OBSERVED / SPOKEN:** with people, making comments, responding
+- **00:32:28.680 — OBSERVED / SPOKEN:** to messages. And that's something that I
+- **00:32:30.640 — OBSERVED / SPOKEN:** still struggle with. Like I've got
+- **00:32:33.480 — OBSERVED / SPOKEN:** I'll I'll you know, dude, I'll do I'll
+- **00:32:35.920 — OBSERVED / SPOKEN:** have a video that'll do 3,000, 4,000,
+- **00:32:38.080 — OBSERVED / SPOKEN:** 5,000 views and next thing you know I
+- **00:32:41.040 — OBSERVED / SPOKEN:** have 100 new followers and all these
+- **00:32:43.200 — OBSERVED / SPOKEN:** messages and all these comments and it's
+- **00:32:44.800 — OBSERVED / SPOKEN:** like, all right, I got to spend 2 hours
+- **00:32:47.040 — OBSERVED / SPOKEN:** just sitting here just responding to
+- **00:32:48.480 — OBSERVED / SPOKEN:** content, but that leads perfectly into
+- **00:32:51.000 — OBSERVED / SPOKEN:** my afternoon block. I create the
+- **00:32:52.720 — OBSERVED / SPOKEN:** content, post it in the morning, go have
+- **00:32:55.360 — OBSERVED / SPOKEN:** my lunch, recharge a little bit over
+- **00:32:57.280 — OBSERVED / SPOKEN:** lunch, and then in my afternoon block,
+- **00:32:59.360 — OBSERVED / SPOKEN:** I'm connecting with people, I'm sending
+- **00:33:01.240 — OBSERVED / SPOKEN:** messages, I'm responding to DMs, I'm
+- **00:33:03.680 — OBSERVED / SPOKEN:** setting appointments, and literally all
+- **00:33:06.000 — OBSERVED / SPOKEN:** my afternoon is for is for connecting
+- **00:33:08.120 — OBSERVED / SPOKEN:** with people, usually DMs, my CRM, I
+- **00:33:11.000 — OBSERVED / SPOKEN:** check check my CRM daily and see what I
+- **00:33:13.200 — OBSERVED / SPOKEN:** need to follow up with, and then going
+- **00:33:16.000 — OBSERVED / SPOKEN:** on appointments, you know,
+- **00:33:17.880 — OBSERVED / SPOKEN:** meeting people out in the world and
+- **00:33:19.160 — OBSERVED / SPOKEN:** that's it. And that's the simplicity
+- **00:33:22.200 — OBSERVED / SPOKEN:** that it takes to be consistent.
+- **00:33:24.560 — OBSERVED / SPOKEN:** I look at it I need to do I really need
+- **00:33:26.840 — OBSERVED / SPOKEN:** to do three things. I need to create
+- **00:33:28.120 — OBSERVED / SPOKEN:** content, connect with people, and go on
+- **00:33:29.600 — OBSERVED / SPOKEN:** appointments, and that's it.
+- **00:33:31.680 — OBSERVED / SPOKEN:** That's it, man.
+- **00:33:32.240 — OBSERVED / SPOKEN:** 100%.
+- **00:33:33.040 — OBSERVED / SPOKEN:** So, if you dial if you really dial in
+- **00:33:35.720 — OBSERVED / SPOKEN:** what you're focused on and don't allow
+- **00:33:37.080 — OBSERVED / SPOKEN:** yourself to be distracted, it's funny,
+- **00:33:38.960 — OBSERVED / SPOKEN:** I'll get texts or calls from other
+- **00:33:40.760 — OBSERVED / SPOKEN:** Wolfpack agents so they're like, hey
+- **00:33:41.920 — OBSERVED / SPOKEN:** buddy, why weren't you on this call? And
+- **00:33:43.240 — OBSERVED / SPOKEN:** I'm like, cuz that call didn't have
+- **00:33:44.760 — OBSERVED / SPOKEN:** anything to do with my business. Or I'll
+- **00:33:47.560 — OBSERVED / SPOKEN:** log onto a call and I'll be on it for 5
+- **00:33:49.280 — OBSERVED / SPOKEN:** minutes and I'll realize, oh, this
+- **00:33:50.680 — OBSERVED / SPOKEN:** doesn't have anything to do with my
+- **00:33:51.640 — OBSERVED / SPOKEN:** business, I'm going to log off. People
+- **00:33:53.760 — OBSERVED / SPOKEN:** allow themselves to be distracted,
+- **00:33:56.000 — OBSERVED / SPOKEN:** especially newer agents. They've shiny
+- **00:33:58.080 — OBSERVED / SPOKEN:** object syndrome, right? They're like,
+- **00:33:59.920 — OBSERVED / SPOKEN:** you know, you see an agent on a call
+- **00:34:01.480 — OBSERVED / SPOKEN:** who's doing 100 deals a year from cold
+- **00:34:04.640 — OBSERVED / SPOKEN:** calling, and then you all of a sudden
+- **00:34:06.760 — OBSERVED / SPOKEN:** want to cold call when it's nothing
+- **00:34:08.080 — OBSERVED / SPOKEN:** you've ever wanted to do before in your
+- **00:34:09.480 — OBSERVED / SPOKEN:** life and you're like, why why? Stop
+- **00:34:11.520 — OBSERVED / SPOKEN:** getting distracted, man. Like, focus on
+- **00:34:14.520 — OBSERVED / SPOKEN:** what you want to focus on, dial it into
+- **00:34:16.720 — OBSERVED / SPOKEN:** the nines, and keep it simple. That's
+- **00:34:18.520 — OBSERVED / SPOKEN:** it, man. Make content, like for anybody
+- **00:34:21.159 — OBSERVED / SPOKEN:** that wants to make content out there,
+- **00:34:22.919 — OBSERVED / SPOKEN:** structure your day like I do. Make
+- **00:34:24.600 — OBSERVED / SPOKEN:** content in the morning because it's the
+- **00:34:26.840 — OBSERVED / SPOKEN:** it's con like you want the thing that
+- **00:34:29.480 — OBSERVED / SPOKEN:** you're going to have the most mental
+- **00:34:30.600 — OBSERVED / SPOKEN:** resistance to to be the first thing you
+- **00:34:32.480 — OBSERVED / SPOKEN:** got to do, right? Like so make the
+- **00:34:34.760 — OBSERVED / SPOKEN:** content in the morning and then in the
+- **00:34:36.679 — OBSERVED / SPOKEN:** afternoon, this is going to sound bad
+- **00:34:38.600 — OBSERVED / SPOKEN:** maybe, but in the afternoon it's so easy
+- **00:34:40.600 — OBSERVED / SPOKEN:** to just sit on your phone and respond to
+- **00:34:42.320 — OBSERVED / SPOKEN:** comments. That is not hard at all.
+- **00:34:45.879 — OBSERVED / SPOKEN:** And that's all I do, man. Sit on the
+- **00:34:47.480 — OBSERVED / SPOKEN:** phone, respond to comments, follow, you
+- **00:34:49.240 — OBSERVED / SPOKEN:** know, check my CRM, see who's in there
+- **00:34:51.280 — OBSERVED / SPOKEN:** with notes and who I need to follow up
+- **00:34:52.720 — OBSERVED / SPOKEN:** and set appointments and then go show
+- **00:34:55.159 — OBSERVED / SPOKEN:** properties.
+- **00:34:56.879 — OBSERVED / SPOKEN:** That's so cool and and I think like, you
+- **00:34:58.960 — OBSERVED / SPOKEN:** know, it's so powerful even just talking
+- **00:35:01.120 — OBSERVED / SPOKEN:** about your your process for ideation.
+- **00:35:04.360 — OBSERVED / SPOKEN:** When you really boil it down, there are
+- **00:35:06.640 — OBSERVED / SPOKEN:** multi-billion-dollar companies whose
+- **00:35:08.960 — OBSERVED / SPOKEN:** entire job is to create the news for
+- **00:35:12.640 — OBSERVED / SPOKEN:** that day.
+- **00:35:14.280 — OBSERVED / SPOKEN:** And they've done the work for you. Like
+- **00:35:16.400 — OBSERVED / SPOKEN:** it's not like we need to come up with
+- **00:35:17.760 — OBSERVED / SPOKEN:** this innovative strategy of how to talk
+- **00:35:20.000 — OBSERVED / SPOKEN:** about something nobody else has ever
+- **00:35:21.160 — OBSERVED / SPOKEN:** talked about before. We are literally
+- **00:35:23.160 — OBSERVED / SPOKEN:** just looking at what other people have
+- **00:35:25.480 — OBSERVED / SPOKEN:** done all the hard work to find and then
+- **00:35:27.960 — OBSERVED / SPOKEN:** putting our own authentic take on it.
+- **00:35:30.080 — OBSERVED / SPOKEN:** Like it's just that simple and and I
+- **00:35:32.400 — OBSERVED / SPOKEN:** like that you also talked about
+- **00:35:33.520 — OBSERVED / SPOKEN:** engagement because
+- **00:35:36.240 — OBSERVED / SPOKEN:** I think a lot of people have this
+- **00:35:37.480 — OBSERVED / SPOKEN:** tendency to feel like social media
+- **00:35:40.120 — OBSERVED / SPOKEN:** happens to magically be this one-way
+- **00:35:42.040 — OBSERVED / SPOKEN:** street where you're looking for all this
+- **00:35:44.880 — OBSERVED / SPOKEN:** engagement, but you're not giving any.
+- **00:35:47.320 — OBSERVED / SPOKEN:** And that doesn't work, right? If
+- **00:35:48.640 — OBSERVED / SPOKEN:** somebody's talking to you in person,
+- **00:35:50.680 — OBSERVED / SPOKEN:** you're not just going to sit there and
+- **00:35:51.840 — OBSERVED / SPOKEN:** not say anything back. You're going to
+- **00:35:53.240 — OBSERVED / SPOKEN:** communicate. Like that is communication
+- **00:35:55.440 — OBSERVED / SPOKEN:** in its simplest form and that's how real
+- **00:35:57.840 — OBSERVED / SPOKEN:** estate is is being able to boil it down
+- **00:35:59.960 — OBSERVED / SPOKEN:** to real conversations and like you said,
+- **00:36:03.080 — OBSERVED / SPOKEN:** you know, being able to
+- **00:36:05.200 — OBSERVED / SPOKEN:** I always think an agent should do some
+- **00:36:06.680 — OBSERVED / SPOKEN:** form of lead generation for 3 hours a
+- **00:36:08.520 — OBSERVED / SPOKEN:** day. Well,
+- **00:36:10.280 — OBSERVED / SPOKEN:** the alternative of cold calling for 3
+- **00:36:12.480 — OBSERVED / SPOKEN:** hours versus an hour to post a video and
+- **00:36:15.040 — OBSERVED / SPOKEN:** 2 hours to, you know, sit in a comfy
+- **00:36:17.000 — OBSERVED / SPOKEN:** couch and engage, I'll choose that any
+- **00:36:19.200 — OBSERVED / SPOKEN:** day. And the fact that it's not that
+- **00:36:22.120 — OBSERVED / SPOKEN:** difficult says a lot. So I love that,
+- **00:36:25.200 — OBSERVED / SPOKEN:** dude. And and so, you know, I've I've
+- **00:36:27.480 — OBSERVED / SPOKEN:** seen you get a [ __ ] ton of comments and
+- **00:36:30.160 — OBSERVED / SPOKEN:** and that kind of leads to
+- **00:36:33.320 — OBSERVED / SPOKEN:** How do you find people are engaging with
+- **00:36:36.840 — OBSERVED / SPOKEN:** you to the point where they become a
+- **00:36:39.200 — OBSERVED / SPOKEN:** real estate focused conversation?
+- **00:36:41.200 — OBSERVED / SPOKEN:** Because sometimes what I see is people
+- **00:36:43.680 — OBSERVED / SPOKEN:** start to put out content, they'll get a
+- **00:36:45.160 — OBSERVED / SPOKEN:** little bit of engagement, but they can't
+- **00:36:47.480 — OBSERVED / SPOKEN:** quite get it to the point where it's
+- **00:36:49.240 — OBSERVED / SPOKEN:** like, "Okay, how do I If I'm just
+- **00:36:51.480 — OBSERVED / SPOKEN:** talking about my city, how do I weave in
+- **00:36:55.040 — OBSERVED / SPOKEN:** the fact that I'm a real estate agent?
+- **00:36:56.720 — OBSERVED / SPOKEN:** Or how do I get them to the point of
+- **00:36:58.560 — OBSERVED / SPOKEN:** becoming a client? What's that journey
+- **00:37:00.640 — OBSERVED / SPOKEN:** look like or has it looked like for
+- **00:37:02.120 — OBSERVED / SPOKEN:** you?"
+- **00:37:03.280 — OBSERVED / SPOKEN:** Yeah, uh very good question, right?
+- **00:37:05.400 — OBSERVED / SPOKEN:** Because I think there's not an obvious
+- **00:37:07.600 — OBSERVED / SPOKEN:** bridge there, right? Especially like
+- **00:37:11.040 — OBSERVED / SPOKEN:** if I'm talking about like, you know,
+- **00:37:13.280 — OBSERVED / SPOKEN:** some random piece of history about San
+- **00:37:15.520 — OBSERVED / SPOKEN:** Diego. Like I made a a video the other
+- **00:37:17.240 — OBSERVED / SPOKEN:** day about the first mission, which is
+- **00:37:19.480 — OBSERVED / SPOKEN:** how San Diego got its name and
+- **00:37:21.000 — OBSERVED / SPOKEN:** everything. Like how does that translate
+- **00:37:23.240 — OBSERVED / SPOKEN:** like,
+- **00:37:24.400 — OBSERVED / SPOKEN:** you know, this this priest 200 and
+- **00:37:27.120 — OBSERVED / SPOKEN:** something whatever years ago. How does
+- **00:37:28.560 — OBSERVED / SPOKEN:** that translate to a real estate
+- **00:37:30.080 — OBSERVED / SPOKEN:** conversation now?
+- **00:37:32.120 — OBSERVED / SPOKEN:** First and foremost, I like to just put
+- **00:37:34.040 — OBSERVED / SPOKEN:** small, really small CTAs in my in my
+- **00:37:37.240 — OBSERVED / SPOKEN:** videos. And I have to be very conscious
+- **00:37:39.880 — OBSERVED / SPOKEN:** about it. I don't want it to be super
+- **00:37:42.080 — OBSERVED / SPOKEN:** salesy or pitchy. I just put things in
+- **00:37:44.960 — OBSERVED / SPOKEN:** there like, "Hey, if you, you know, if
+- **00:37:46.600 — OBSERVED / SPOKEN:** you love this city as much as I do and
+- **00:37:48.000 — OBSERVED / SPOKEN:** want to make it home, there's a link in
+- **00:37:49.360 — OBSERVED / SPOKEN:** my bio, you know?" Stuff like that,
+- **00:37:51.360 — OBSERVED / SPOKEN:** where it's literally like as simple and
+- **00:37:54.040 — OBSERVED / SPOKEN:** and chill of a sentence as
+- **00:37:56.040 — OBSERVED / SPOKEN:** as uh possible.
+- **00:37:57.720 — OBSERVED / SPOKEN:** Um but then you also have to look for
+- **00:37:59.800 — OBSERVED / SPOKEN:** other opportunities, right? And that's
+- **00:38:02.920 — OBSERVED / SPOKEN:** I think having, you know, we God, we've
+- **00:38:05.800 — OBSERVED / SPOKEN:** talked about this on one of our
+- **00:38:07.120 — OBSERVED / SPOKEN:** mastermind calls and not we personally,
+- **00:38:08.760 — OBSERVED / SPOKEN:** I mean we as a the Wolfpack group. Um
+- **00:38:12.080 — OBSERVED / SPOKEN:** looking for the opportunities, right?
+- **00:38:14.120 — OBSERVED / SPOKEN:** Like when you're training your brain to
+- **00:38:16.800 — OBSERVED / SPOKEN:** look for sales opportunities as a new
+- **00:38:18.720 — OBSERVED / SPOKEN:** agent, you have to realize that
+- **00:38:20.520 — OBSERVED / SPOKEN:** opportunities can come from anywhere.
+- **00:38:22.400 — OBSERVED / SPOKEN:** Like you have, you know they can come
+- **00:38:24.000 — OBSERVED / SPOKEN:** from standing in line at the grocery
+- **00:38:25.240 — OBSERVED / SPOKEN:** store, sitting at a bar. It doesn't just
+- **00:38:27.280 — OBSERVED / SPOKEN:** have to be an open house. Like you have
+- **00:38:29.400 — OBSERVED / SPOKEN:** to look for these opportunities. So
+- **00:38:32.880 — OBSERVED / SPOKEN:** I do the same thing in in comments and
+- **00:38:35.440 — OBSERVED / SPOKEN:** and messages and stuff like that. First
+- **00:38:37.640 — OBSERVED / SPOKEN:** I do use ManyChat. I use automation to
+- **00:38:41.240 — OBSERVED / SPOKEN:** make sure that anytime I have a new
+- **00:38:42.800 — OBSERVED / SPOKEN:** follower they get a message from me.
+- **00:38:44.880 — OBSERVED / SPOKEN:** It's not a salesy message man. It's it's
+- **00:38:47.320 — OBSERVED / SPOKEN:** a super short either or. It just says
+- **00:38:50.000 — OBSERVED / SPOKEN:** something like
+- **00:38:51.560 — OBSERVED / SPOKEN:** hey thanks for following along are you
+- **00:38:53.040 — OBSERVED / SPOKEN:** just here for the content or are you
+- **00:38:55.000 — OBSERVED / SPOKEN:** thinking about buying or selling in San
+- **00:38:56.360 — OBSERVED / SPOKEN:** Diego?
+- **00:38:57.680 — OBSERVED / SPOKEN:** Like that's it man. And I don't use any
+- **00:39:00.200 — OBSERVED / SPOKEN:** flows after that. Every single message
+- **00:39:02.640 — OBSERVED / SPOKEN:** that comes after that I manually respond
+- **00:39:04.920 — OBSERVED / SPOKEN:** to. So
+- **00:39:06.880 — OBSERVED / SPOKEN:** when that message goes out it's funny
+- **00:39:08.800 — OBSERVED / SPOKEN:** 98%
+- **00:39:10.360 — OBSERVED / SPOKEN:** 99% of the responses are like oh I'm
+- **00:39:12.520 — OBSERVED / SPOKEN:** just here for the content. So I thank
+- **00:39:14.680 — OBSERVED / SPOKEN:** them. Hey man thanks I'm glad you
+- **00:39:16.200 — OBSERVED / SPOKEN:** enjoyed the content. I hope it helps you
+- **00:39:17.920 — OBSERVED / SPOKEN:** enjoy our city a little bit more. Can
+- **00:39:19.920 — OBSERVED / SPOKEN:** you do me a favor? If you hear of
+- **00:39:21.960 — OBSERVED / SPOKEN:** anybody who's thinking about buying or
+- **00:39:23.440 — OBSERVED / SPOKEN:** selling who you think would like my vibe
+- **00:39:26.200 — OBSERVED / SPOKEN:** please send them my way.
+- **00:39:28.040 — OBSERVED / SPOKEN:** Psychologically people are afraid to ask
+- **00:39:30.360 — OBSERVED / SPOKEN:** for for favors. But in reality if you
+- **00:39:32.520 — OBSERVED / SPOKEN:** study communication asking somebody for
+- **00:39:34.880 — OBSERVED / SPOKEN:** a favor instead of doing a favor for
+- **00:39:36.840 — OBSERVED / SPOKEN:** somebody or instead of offering help
+- **00:39:38.800 — OBSERVED / SPOKEN:** asking somebody for a favor actually
+- **00:39:40.840 — OBSERVED / SPOKEN:** really connects them with you. Like you
+- **00:39:43.160 — OBSERVED / SPOKEN:** create a bond and a rapport. So I'm
+- **00:39:45.360 — OBSERVED / SPOKEN:** creating connection by asking for this
+- **00:39:47.320 — OBSERVED / SPOKEN:** favor and then I'm just being authentic
+- **00:39:49.720 — OBSERVED / SPOKEN:** man. And wherever those messages go I
+- **00:39:51.680 — OBSERVED / SPOKEN:** don't act salesy in it. I've had super
+- **00:39:54.920 — OBSERVED / SPOKEN:** long conversations with strangers in my
+- **00:39:56.760 — OBSERVED / SPOKEN:** DMs about the most random stuff.
+- **00:39:59.680 — OBSERVED / SPOKEN:** Literally was talking to somebody
+- **00:40:01.120 — OBSERVED / SPOKEN:** yesterday about downtown Chula Vista and
+- **00:40:04.280 — OBSERVED / SPOKEN:** like these old places that used to exist
+- **00:40:06.440 — OBSERVED / SPOKEN:** and aren't there and then made me think
+- **00:40:07.880 — OBSERVED / SPOKEN:** about a memory from when I was in high
+- **00:40:09.680 — OBSERVED / SPOKEN:** school and there you know you just I
+- **00:40:12.920 — OBSERVED / SPOKEN:** just bring authenticity to it but also
+- **00:40:15.240 — OBSERVED / SPOKEN:** ask right? Like I you have to ask for
+- **00:40:18.320 — OBSERVED / SPOKEN:** the business, you know?
+- **00:40:20.120 — OBSERVED / SPOKEN:** Um you know, hey, you know, are you are
+- **00:40:22.240 — OBSERVED / SPOKEN:** you you know, if people will put oh, I
+- **00:40:23.600 — OBSERVED / SPOKEN:** have a house already. Okay, how long you
+- **00:40:25.840 — OBSERVED / SPOKEN:** been there? Is that you know, is that is
+- **00:40:27.720 — OBSERVED / SPOKEN:** that your forever home in your dream
+- **00:40:29.640 — OBSERVED / SPOKEN:** neighborhood?
+- **00:40:30.920 — OBSERVED / SPOKEN:** Like let's talk about that, you know? So
+- **00:40:33.920 — OBSERVED / SPOKEN:** I I think it's just having authentic
+- **00:40:35.920 — OBSERVED / SPOKEN:** genuine conversations with people,
+- **00:40:37.960 — OBSERVED / SPOKEN:** reminding people that this is what you
+- **00:40:39.680 — OBSERVED / SPOKEN:** do, right? Like we we can't be
+- **00:40:41.560 — OBSERVED / SPOKEN:** undercover agents. Like even if I'm
+- **00:40:43.440 — OBSERVED / SPOKEN:** making a video that's about San Diego, I
+- **00:40:45.440 — OBSERVED / SPOKEN:** still put that small reminder in there
+- **00:40:46.920 — OBSERVED / SPOKEN:** that I'm an agent. And then engaging
+- **00:40:49.400 — OBSERVED / SPOKEN:** with people and asking for the
+- **00:40:50.960 — OBSERVED / SPOKEN:** opportunities, right? I I got my first
+- **00:40:54.480 — OBSERVED / SPOKEN:** lead. I remember getting my first lead
+- **00:40:56.240 — OBSERVED / SPOKEN:** from social media that actually turned
+- **00:40:58.320 — OBSERVED / SPOKEN:** into a contract, right?
+- **00:41:01.200 — OBSERVED / SPOKEN:** And just being like
+- **00:41:02.720 — OBSERVED / SPOKEN:** oh, this is like this easy? Like
+- **00:41:05.448 — OBSERVED / SPOKEN:** [laughter]
+- **00:41:05.560 — OBSERVED / SPOKEN:** this like this was just a natural
+- **00:41:07.000 — OBSERVED / SPOKEN:** conversation on social media. Like and
+- **00:41:10.120 — OBSERVED / SPOKEN:** it just turned into a contract. I'm
+- **00:41:11.560 — OBSERVED / SPOKEN:** like, okay, how do I replicate that?
+- **00:41:13.640 — OBSERVED / SPOKEN:** Just have natural conversations with
+- **00:41:15.280 — OBSERVED / SPOKEN:** people. Don't be salesy. People can
+- **00:41:17.320 — OBSERVED / SPOKEN:** smell it a mile away. Don't be super
+- **00:41:19.120 — OBSERVED / SPOKEN:** pitchy. Don't talk about yourself. Ask
+- **00:41:21.520 — OBSERVED / SPOKEN:** questions and just engage.
+- **00:41:24.280 — OBSERVED / SPOKEN:** And that's it, you know, look for where
+- **00:41:25.840 — OBSERVED / SPOKEN:** you can provide value. I I've got a a
+- **00:41:28.960 — OBSERVED / SPOKEN:** new agent. Actually, I posted in school.
+- **00:41:31.360 — OBSERVED / SPOKEN:** Uh I don't know if you saw my post from
+- **00:41:32.760 — OBSERVED / SPOKEN:** yesterday in school. Somebody had asked
+- **00:41:34.680 — OBSERVED / SPOKEN:** yesterday on on our call about a
+- **00:41:37.680 — OBSERVED / SPOKEN:** unresponsive leads. And I have a very
+- **00:41:40.880 — OBSERVED / SPOKEN:** authentic way that I approach
+- **00:41:42.320 — OBSERVED / SPOKEN:** unresponsive leads, right? Um
+- **00:41:44.960 — OBSERVED / SPOKEN:** And the lead that I did it with
+- **00:41:47.000 — OBSERVED / SPOKEN:** yesterday literally was like a lead from
+- **00:41:50.200 — OBSERVED / SPOKEN:** Instagram that had sat down with
+- **00:41:51.760 — OBSERVED / SPOKEN:** multiple realtors and did not want to
+- **00:41:54.800 — OBSERVED / SPOKEN:** sit down with me. When I asked for the
+- **00:41:57.040 — OBSERVED / SPOKEN:** appointment the first time, they were
+- **00:41:58.520 — OBSERVED / SPOKEN:** like, you know, hey, is there any
+- **00:42:00.440 — OBSERVED / SPOKEN:** pre-qualification that we can do
+- **00:42:02.200 — OBSERVED / SPOKEN:** beforehand? Like I'm in sales also. I
+- **00:42:04.600 — OBSERVED / SPOKEN:** understand discovery calls are like
+- **00:42:06.160 — OBSERVED / SPOKEN:** important, but also like I've been he
+- **00:42:08.480 — OBSERVED / SPOKEN:** literally said these words. He's like,
+- **00:42:09.760 — OBSERVED / SPOKEN:** I've been on so many first dates with
+- **00:42:11.400 — OBSERVED / SPOKEN:** realtors lately. He goes, "I've just I
+- **00:42:13.240 — OBSERVED / SPOKEN:** just don't really want to meet another
+- **00:42:14.480 — OBSERVED / SPOKEN:** one." And I sent a video message back
+- **00:42:16.720 — OBSERVED / SPOKEN:** and I just said like explained my
+- **00:42:18.200 — OBSERVED / SPOKEN:** approach. I was like, "Hey man, I can
+- **00:42:19.480 — OBSERVED / SPOKEN:** send you a buyer's guide. I can send you
+- **00:42:21.840 — OBSERVED / SPOKEN:** client testimonials and reviews. I go,
+- **00:42:24.120 — OBSERVED / SPOKEN:** but here's the thing. This is how I
+- **00:42:25.480 — OBSERVED / SPOKEN:** operate. This is where my mindset is.
+- **00:42:28.320 — OBSERVED / SPOKEN:** And if that work if that sounds good to
+- **00:42:29.920 — OBSERVED / SPOKEN:** you, we should grab coffee. If it
+- **00:42:31.280 — OBSERVED / SPOKEN:** doesn't sound good to you, we're
+- **00:42:32.320 — OBSERVED / SPOKEN:** probably not going to be a good fit. So,
+- **00:42:34.440 — OBSERVED / SPOKEN:** you can tell me to screw off, right?
+- **00:42:36.280 — OBSERVED / SPOKEN:** That authenticity like literally
+- **00:42:38.680 — OBSERVED / SPOKEN:** bringing that approach to it landed me
+- **00:42:41.400 — OBSERVED / SPOKEN:** the appointment. He goes, "You know
+- **00:42:42.120 — OBSERVED / SPOKEN:** what? I respect it. Let's get coffee."
+- **00:42:44.920 — OBSERVED / SPOKEN:** Now we're showing properties this
+- **00:42:46.080 — OBSERVED / SPOKEN:** weekend.
+- **00:42:47.629 — OBSERVED / SPOKEN:** [laughter]
+- **00:42:48.160 — OBSERVED / SPOKEN:** It's It's just you just be authentic and
+- **00:42:50.600 — OBSERVED / SPOKEN:** connect with people and look for ways
+- **00:42:53.720 — OBSERVED / SPOKEN:** to be of value to people, you know?
+- **00:42:56.880 — OBSERVED / SPOKEN:** Like don't don't ask for anything like
+- **00:43:00.480 — OBSERVED / SPOKEN:** don't ask for a commitment without
+- **00:43:02.000 — OBSERVED / SPOKEN:** offering something, you know? Like even
+- **00:43:04.280 — OBSERVED / SPOKEN:** those people that I'm asking the favor
+- **00:43:05.720 — OBSERVED / SPOKEN:** to send people that need to move my way,
+- **00:43:08.040 — OBSERVED / SPOKEN:** I'm offering the content and the
+- **00:43:09.480 — OBSERVED / SPOKEN:** knowledge about the city first. I'm
+- **00:43:10.800 — OBSERVED / SPOKEN:** like, "Hey, here's this really cool
+- **00:43:12.320 — OBSERVED / SPOKEN:** thing that I do. I hope you enjoy it. I
+- **00:43:14.080 — OBSERVED / SPOKEN:** hope it helps you enjoy the city a
+- **00:43:15.400 — OBSERVED / SPOKEN:** little more.
+- **00:43:17.120 — OBSERVED / SPOKEN:** Now will you do me this favor?
+- **00:43:19.200 — OBSERVED / SPOKEN:** You know?
+- **00:43:21.120 — OBSERVED / SPOKEN:** So cool, dude. And And I think, you
+- **00:43:23.120 — OBSERVED / SPOKEN:** know, that kind of leads to one of the
+- **00:43:24.680 — OBSERVED / SPOKEN:** things that I was genuinely curious
+- **00:43:26.160 — OBSERVED / SPOKEN:** about because you've got such a really
+- **00:43:28.760 — OBSERVED / SPOKEN:** you've got such an extensive history in
+- **00:43:31.640 — OBSERVED / SPOKEN:** terms of the skills that you've stacked
+- **00:43:34.280 — OBSERVED / SPOKEN:** over the course of being in this
+- **00:43:35.400 — OBSERVED / SPOKEN:** industry that I'm really curious to get
+- **00:43:38.520 — OBSERVED / SPOKEN:** your insider or what your opinion is on
+- **00:43:41.320 — OBSERVED / SPOKEN:** how communication
+- **00:43:43.280 — OBSERVED / SPOKEN:** has helped with your content because you
+- **00:43:45.720 — OBSERVED / SPOKEN:** are, you know, we've got another video
+- **00:43:47.440 — OBSERVED / SPOKEN:** coming about this, but you are a master
+- **00:43:50.080 — OBSERVED / SPOKEN:** communicator. You're incredible at
+- **00:43:52.880 — OBSERVED / SPOKEN:** understanding the human language and
+- **00:43:54.640 — OBSERVED / SPOKEN:** being able to be persuasive in a
+- **00:43:56.800 — OBSERVED / SPOKEN:** value-driven way and and being able to
+- **00:43:59.240 — OBSERVED / SPOKEN:** genuinely connect with people, not
+- **00:44:01.280 — OBSERVED / SPOKEN:** taking these like super salesy rigid
+- **00:44:03.320 — OBSERVED / SPOKEN:** scripts, but how do you find your
+- **00:44:06.760 — OBSERVED / SPOKEN:** experience with traditional real estate
+- **00:44:09.920 — OBSERVED / SPOKEN:** has kind of helped you in this new era
+- **00:44:13.680 — OBSERVED / SPOKEN:** of what you're doing on the modern side.
+- **00:44:16.680 — OBSERVED / SPOKEN:** Yeah, that's a very good question
+- **00:44:18.160 — OBSERVED / SPOKEN:** because
+- **00:44:19.560 — OBSERVED / SPOKEN:** uh
+- **00:44:20.240 — OBSERVED / SPOKEN:** I think a lot of times people think that
+- **00:44:22.720 — OBSERVED / SPOKEN:** DMs and social media like that the
+- **00:44:25.760 — OBSERVED / SPOKEN:** normal rules don't apply, but they do
+- **00:44:27.640 — OBSERVED / SPOKEN:** translate. They don't apply one-for-one,
+- **00:44:29.840 — OBSERVED / SPOKEN:** but they do translate. And before I go
+- **00:44:32.200 — OBSERVED / SPOKEN:** into that, let me say thank you first so
+- **00:44:34.600 — OBSERVED / SPOKEN:** much. Those are very words. And what you
+- **00:44:37.440 — OBSERVED / SPOKEN:** say about my ability to communicate, I
+- **00:44:39.400 — OBSERVED / SPOKEN:** want people out there to know it's not
+- **00:44:41.520 — OBSERVED / SPOKEN:** like God-given ingrained. I had to work
+- **00:44:44.400 — OBSERVED / SPOKEN:** really hard at it. I'm from the hood.
+- **00:44:46.760 — OBSERVED / SPOKEN:** Like I grew up very poor in a very
+- **00:44:49.600 — OBSERVED / SPOKEN:** you know,
+- **00:44:50.960 — OBSERVED / SPOKEN:** hard-headed environment. When I got into
+- **00:44:53.520 — OBSERVED / SPOKEN:** this business, I did not communicate the
+- **00:44:55.280 — OBSERVED / SPOKEN:** way that I communicate [laughter] now.
+- **00:44:57.680 — OBSERVED / SPOKEN:** And it was if you would have heard me 10
+- **00:44:59.760 — OBSERVED / SPOKEN:** years ago, it you would have been like
+- **00:45:02.561 — OBSERVED / SPOKEN:** [laughter]
+- **00:45:02.720 — OBSERVED / SPOKEN:** uh it was a lot of work, man. It was a
+- **00:45:04.640 — OBSERVED / SPOKEN:** lot of work to develop the skills. I
+- **00:45:06.440 — OBSERVED / SPOKEN:** knew that I had the ability to
+- **00:45:08.560 — OBSERVED / SPOKEN:** communicate with people kind of
+- **00:45:09.720 — OBSERVED / SPOKEN:** inherently. I'm personable and I will
+- **00:45:11.280 — OBSERVED / SPOKEN:** talk to people, but I didn't have
+- **00:45:15.400 — OBSERVED / SPOKEN:** I didn't have like a like
+- **00:45:18.840 — OBSERVED / SPOKEN:** The way I look at at scripting and
+- **00:45:20.880 — OBSERVED / SPOKEN:** frameworks and I like to call them
+- **00:45:22.160 — OBSERVED / SPOKEN:** frameworks instead of scripting cuz I
+- **00:45:23.680 — OBSERVED / SPOKEN:** think scripting
+- **00:45:25.280 — OBSERVED / SPOKEN:** like it's a very old-school thing that a
+- **00:45:26.880 — OBSERVED / SPOKEN:** lot of people don't understand really
+- **00:45:29.160 — OBSERVED / SPOKEN:** and doesn't work in today's day and age.
+- **00:45:31.200 — OBSERVED / SPOKEN:** I look at all these different language
+- **00:45:32.720 — OBSERVED / SPOKEN:** tools and communication tools as just
+- **00:45:34.560 — OBSERVED / SPOKEN:** tools in a tool belt. And the more that
+- **00:45:36.680 — OBSERVED / SPOKEN:** I have, the more equipped I am to have a
+- **00:45:40.240 — OBSERVED / SPOKEN:** productive conversation with somebody.
+- **00:45:42.560 — OBSERVED / SPOKEN:** Every time I talk to an agent about
+- **00:45:45.040 — OBSERVED / SPOKEN:** communication, I say, "Look,
+- **00:45:46.960 — OBSERVED / SPOKEN:** your job communicating with people is to
+- **00:45:49.560 — OBSERVED / SPOKEN:** is to be efficient with your time,
+- **00:45:51.200 — OBSERVED / SPOKEN:** especially if you're in an open house
+- **00:45:52.400 — OBSERVED / SPOKEN:** with 30 visitors. Like dude, how are you
+- **00:45:54.520 — OBSERVED / SPOKEN:** going to know who you should focus on
+- **00:45:56.440 — OBSERVED / SPOKEN:** and who you shouldn't focus on? And
+- **00:45:58.040 — OBSERVED / SPOKEN:** don't get me wrong, I love the the nosy
+- **00:46:00.720 — OBSERVED / SPOKEN:** neighbor who's lived in the neighborhood
+- **00:46:02.240 — OBSERVED / SPOKEN:** for 40 years and knows everything, those
+- **00:46:04.240 — OBSERVED / SPOKEN:** conversations are great, but there's no
+- **00:46:06.640 — OBSERVED / SPOKEN:** need that you can serve there.
+- **00:46:09.360 — OBSERVED / SPOKEN:** That's the bottom line. There's not a
+- **00:46:10.800 — OBSERVED / SPOKEN:** need you can serve, and our job is to
+- **00:46:12.960 — OBSERVED / SPOKEN:** have conversations to look for needs we
+- **00:46:15.600 — OBSERVED / SPOKEN:** can serve. Our job is not to sell people
+- **00:46:17.360 — OBSERVED / SPOKEN:** things they don't need or want. Our job
+- **00:46:19.640 — OBSERVED / SPOKEN:** is to look for needs we can serve,
+- **00:46:21.200 — OBSERVED / SPOKEN:** uncover needs in people that we can
+- **00:46:23.000 — OBSERVED / SPOKEN:** serve, and then be valuable to them
+- **00:46:25.040 — OBSERVED / SPOKEN:** accomplishing what they're trying to
+- **00:46:26.560 — OBSERVED / SPOKEN:** accomplish. That's it, right?
+- **00:46:28.720 — OBSERVED / SPOKEN:** The problem is so many times people lack
+- **00:46:31.480 — OBSERVED / SPOKEN:** the skill set to communicate that. You
+- **00:46:33.720 — OBSERVED / SPOKEN:** might know what you want to say or know,
+- **00:46:35.720 — OBSERVED / SPOKEN:** you know, what how you feel, but you
+- **00:46:37.240 — OBSERVED / SPOKEN:** don't know how to put it into words
+- **00:46:39.520 — OBSERVED / SPOKEN:** effectively, right? So, I spent many,
+- **00:46:42.960 — OBSERVED / SPOKEN:** many, many, many years in literally in a
+- **00:46:45.840 — OBSERVED / SPOKEN:** in a communication
+- **00:46:47.640 — OBSERVED / SPOKEN:** class
+- **00:46:48.800 — OBSERVED / SPOKEN:** Monday through Friday, 7:00 a.m. to 8:00
+- **00:46:51.200 — OBSERVED / SPOKEN:** I think it was 7:00 doesn't matter. It's
+- **00:46:52.600 — OBSERVED / SPOKEN:** an hour every single morning. So, it was
+- **00:46:54.840 — OBSERVED / SPOKEN:** a lot of years focusing on this.
+- **00:46:58.080 — OBSERVED / SPOKEN:** That translates into social media
+- **00:47:01.440 — OBSERVED / SPOKEN:** because psychologically the basis of
+- **00:47:03.920 — OBSERVED / SPOKEN:** communication is still the same.
+- **00:47:05.880 — OBSERVED / SPOKEN:** Mhm.
+- **00:47:06.320 — OBSERVED / SPOKEN:** Like, whether it's a DM or video or
+- **00:47:09.240 — OBSERVED / SPOKEN:** face-to-face conversation or phone call,
+- **00:47:11.560 — OBSERVED / SPOKEN:** psychologically the basis of
+- **00:47:13.000 — OBSERVED / SPOKEN:** communication is still the same. My
+- **00:47:15.600 — OBSERVED / SPOKEN:** like, we'll take my script for
+- **00:47:18.280 — OBSERVED / SPOKEN:** uh um reestablishing a connection with a
+- **00:47:21.080 — OBSERVED / SPOKEN:** a an unresponsive lead. It's simple,
+- **00:47:23.160 — OBSERVED / SPOKEN:** man. Hey Mike, it's Matt. I haven't
+- **00:47:25.520 — OBSERVED / SPOKEN:** heard from you in a little bit. I just
+- **00:47:26.760 — OBSERVED / SPOKEN:** want to make sure that I didn't
+- **00:47:28.080 — OBSERVED / SPOKEN:** accidentally offend you or drop the ball
+- **00:47:29.800 — OBSERVED / SPOKEN:** with you in any way.
+- **00:47:31.200 — OBSERVED / SPOKEN:** Super simple, right? That works over a
+- **00:47:33.680 — OBSERVED / SPOKEN:** phone call, over a video message, over a
+- **00:47:35.840 — OBSERVED / SPOKEN:** DM. It works it's the same thing. It
+- **00:47:38.000 — OBSERVED / SPOKEN:** works very, very well. And it works
+- **00:47:40.720 — OBSERVED / SPOKEN:** because I'm not pointing a finger at
+- **00:47:42.400 — OBSERVED / SPOKEN:** them. I'm not blaming them. I'm putting
+- **00:47:44.920 — OBSERVED / SPOKEN:** the finger on me, actually, allowing
+- **00:47:47.280 — OBSERVED / SPOKEN:** them a guilt-free excuse or way out to
+- **00:47:50.280 — OBSERVED / SPOKEN:** acknowledge like, "Hey, man, I'm sorry.
+- **00:47:52.000 — OBSERVED / SPOKEN:** It's not you. Life's been hectic." We
+- **00:47:54.080 — OBSERVED / SPOKEN:** all know life's hectic. Like, it's an
+- **00:47:55.640 — OBSERVED / SPOKEN:** easy thing, right? So,
+- **00:47:58.560 — OBSERVED / SPOKEN:** the communication that I've developed
+- **00:48:01.000 — OBSERVED / SPOKEN:** and worked on and built in face-to-face
+- **00:48:03.640 — OBSERVED / SPOKEN:** conversations and phone conversations, I
+- **00:48:05.440 — OBSERVED / SPOKEN:** did a lot of cold calling for a long
+- **00:48:06.880 — OBSERVED / SPOKEN:** time. I don't do very much anymore, but
+- **00:48:09.440 — OBSERVED / SPOKEN:** the basis of the communication, the
+- **00:48:12.160 — OBSERVED / SPOKEN:** rules of the communication are still the
+- **00:48:14.400 — OBSERVED / SPOKEN:** same. They still transfer.
+- **00:48:16.400 — OBSERVED / SPOKEN:** 100%.
+- **00:48:17.240 — OBSERVED / SPOKEN:** I love that, man. And and so,
+- **00:48:20.080 — OBSERVED / SPOKEN:** you know, as we kind of pull this
+- **00:48:21.240 — OBSERVED / SPOKEN:** together, that's what, you know, I
+- **00:48:22.600 — OBSERVED / SPOKEN:** admire about you is that you, you know,
+- **00:48:24.720 — OBSERVED / SPOKEN:** I always say that the most expensive
+- **00:48:26.160 — OBSERVED / SPOKEN:** thing you can own is a closed mind. And
+- **00:48:29.160 — OBSERVED / SPOKEN:** it's it's incredible to see that you've
+- **00:48:31.680 — OBSERVED / SPOKEN:** been able to not only excel after years
+- **00:48:35.680 — OBSERVED / SPOKEN:** of relentless hard work with one side of
+- **00:48:38.000 — OBSERVED / SPOKEN:** business, but you're not getting in your
+- **00:48:41.400 — OBSERVED / SPOKEN:** own way to the point where you're
+- **00:48:42.600 — OBSERVED / SPOKEN:** saying, that's the only way I'm going to
+- **00:48:44.440 — OBSERVED / SPOKEN:** keep doing it. You're open-minded to be
+- **00:48:46.320 — OBSERVED / SPOKEN:** able to say, "Hey, maybe this skill set
+- **00:48:48.240 — OBSERVED / SPOKEN:** can translate over here and and let's
+- **00:48:49.920 — OBSERVED / SPOKEN:** give it a shot." it doesn't work out,
+- **00:48:51.520 — OBSERVED / SPOKEN:** cool, but the work works if you do the
+- **00:48:53.240 — OBSERVED / SPOKEN:** work. And you've done the work, and now
+- **00:48:55.680 — OBSERVED / SPOKEN:** you've been able to see that you've got
+- **00:48:56.920 — OBSERVED / SPOKEN:** these two consistent, predictable
+- **00:49:00.000 — OBSERVED / SPOKEN:** pillars of content that the best part
+- **00:49:02.880 — OBSERVED / SPOKEN:** is, don't only work for just you, they
+- **00:49:05.240 — OBSERVED / SPOKEN:** work for anybody who's willing to do
+- **00:49:07.440 — OBSERVED / SPOKEN:** them. And so, with that being said, I'd
+- **00:49:09.360 — OBSERVED / SPOKEN:** love for you to kind of touch on
+- **00:49:11.600 — OBSERVED / SPOKEN:** into the fact that you and I are
+- **00:49:12.640 — OBSERVED / SPOKEN:** partners. And if people are struggling
+- **00:49:14.640 — OBSERVED / SPOKEN:** in their business, and they want to just
+- **00:49:16.600 — OBSERVED / SPOKEN:** go to a crystal clear, proven roadmap of
+- **00:49:19.400 — OBSERVED / SPOKEN:** exactly what to do to take their
+- **00:49:21.320 — OBSERVED / SPOKEN:** business to the next level, they could
+- **00:49:23.280 — OBSERVED / SPOKEN:** partner with you and myself and who
+- **00:49:25.200 — OBSERVED / SPOKEN:** enable to get our help for that. So,
+- **00:49:27.480 — OBSERVED / SPOKEN:** ultimately, what does it look like when
+- **00:49:29.360 — OBSERVED / SPOKEN:** somebody partners with you? Because I
+- **00:49:30.880 — OBSERVED / SPOKEN:** know you've got a huge heart, you
+- **00:49:32.280 — OBSERVED / SPOKEN:** genuinely care, and we just touched on
+- **00:49:34.880 — OBSERVED / SPOKEN:** the tip of the iceberg for the
+- **00:49:36.800 — OBSERVED / SPOKEN:** strategies that you actually have access
+- **00:49:38.800 — OBSERVED / SPOKEN:** to in your toolkit.
+- **00:49:40.960 — OBSERVED / SPOKEN:** Yeah, very very important to talk about
+- **00:49:44.240 — OBSERVED / SPOKEN:** mindset, I think first, right? One of
+- **00:49:46.000 — OBSERVED / SPOKEN:** the things that drew me to the Wolfpack
+- **00:49:49.240 — OBSERVED / SPOKEN:** in general is not not specifically
+- **00:49:51.840 — OBSERVED / SPOKEN:** people. And now that I'm in, there are
+- **00:49:53.680 — OBSERVED / SPOKEN:** people that I've gravitated more you
+- **00:49:55.480 — OBSERVED / SPOKEN:** know, you and I work very closely
+- **00:49:56.800 — OBSERVED / SPOKEN:** together now. I'm very very happy for
+- **00:49:58.360 — OBSERVED / SPOKEN:** that. But
+- **00:50:00.720 — OBSERVED / SPOKEN:** you know, you see in the traditional
+- **00:50:02.520 — OBSERVED / SPOKEN:** model of real estate a lot of times very
+- **00:50:04.920 — OBSERVED / SPOKEN:** old-minded thinking, very close-minded
+- **00:50:06.880 — OBSERVED / SPOKEN:** thinking, very gatekeeping thinking.
+- **00:50:11.080 — OBSERVED / SPOKEN:** We are not about that here. We are not
+- **00:50:13.320 — OBSERVED / SPOKEN:** about gatekeeping. We are not about
+- **00:50:14.960 — OBSERVED / SPOKEN:** close-mindedness or oh, I'm not I'm not
+- **00:50:16.960 — OBSERVED / SPOKEN:** going to share the secret sauce with
+- **00:50:18.280 — OBSERVED / SPOKEN:** you.
+- **00:50:19.280 — OBSERVED / SPOKEN:** I'll share the secret sauce with
+- **00:50:20.320 — OBSERVED / SPOKEN:** everybody because you know what? When
+- **00:50:22.240 — OBSERVED / SPOKEN:** you put your spin on it, it's now your
+- **00:50:24.000 — OBSERVED / SPOKEN:** secret sauce and it's completely
+- **00:50:25.240 — OBSERVED / SPOKEN:** different than my secret sauce. And
+- **00:50:27.040 — OBSERVED / SPOKEN:** we're going to have a different vibe in
+- **00:50:28.360 — OBSERVED / SPOKEN:** a tribe. And somebody's going to connect
+- **00:50:30.120 — OBSERVED / SPOKEN:** with you more than me because you said
+- **00:50:32.360 — OBSERVED / SPOKEN:** the thing a little bit different. You
+- **00:50:33.800 — OBSERVED / SPOKEN:** said it in your way. So,
+- **00:50:36.600 — OBSERVED / SPOKEN:** I love first of all that we have all of
+- **00:50:38.800 — OBSERVED / SPOKEN:** these Value Stacks, myself, you, all
+- **00:50:40.600 — OBSERVED / SPOKEN:** these other people in our organization
+- **00:50:42.560 — OBSERVED / SPOKEN:** that offer so many different things.
+- **00:50:44.160 — OBSERVED / SPOKEN:** Michael yesterday on on the YouTube like
+- **00:50:46.920 — OBSERVED / SPOKEN:** he dropped so much knowledge on YouTube
+- **00:50:49.400 — OBSERVED / SPOKEN:** like masterclass level stuff that people
+- **00:50:52.160 — OBSERVED / SPOKEN:** would pay thousands of dollars to know.
+- **00:50:54.560 — OBSERVED / SPOKEN:** And he's just like, "Hey man,
+- **00:50:56.440 — OBSERVED / SPOKEN:** it's all free here. Just go do this."
+- **00:50:58.400 — OBSERVED / SPOKEN:** is paying the thousands of dollars to
+- **00:51:00.160 — OBSERVED / SPOKEN:** learn that. That's the craziest part.
+- **00:51:01.880 — OBSERVED / SPOKEN:** He's in all this high-level coaching and
+- **00:51:04.320 — OBSERVED / SPOKEN:** gives it all the way for free.
+- **00:51:06.000 — OBSERVED / SPOKEN:** 100 and that says so much about the
+- **00:51:08.480 — OBSERVED / SPOKEN:** mindset of our group. That's like and I
+- **00:51:10.960 — OBSERVED / SPOKEN:** know I'm rambling, but I got to focus on
+- **00:51:12.600 — OBSERVED / SPOKEN:** that.
+- **00:51:13.480 — OBSERVED / SPOKEN:** When you are around the right-minded
+- **00:51:15.840 — OBSERVED / SPOKEN:** people, everything becomes so much
+- **00:51:17.720 — OBSERVED / SPOKEN:** easier for you. And you know what I
+- **00:51:19.240 — OBSERVED / SPOKEN:** found was at a traditional brokerage, I
+- **00:51:21.640 — OBSERVED / SPOKEN:** hit a a ceiling of productivity and I
+- **00:51:23.600 — OBSERVED / SPOKEN:** was like, "I need to go further." There
+- **00:51:25.440 — OBSERVED / SPOKEN:** was nobody that was willing to like
+- **00:51:27.120 — OBSERVED / SPOKEN:** share or or or brainstorm together or
+- **00:51:29.680 — OBSERVED / SPOKEN:** mastermind or you know, say, "Hey, this
+- **00:51:31.840 — OBSERVED / SPOKEN:** is what's working." This is why I've
+- **00:51:33.240 — OBSERVED / SPOKEN:** loved the Wolf Pack so much. Uh
+- **00:51:35.800 — OBSERVED / SPOKEN:** partnering with me and partnering with
+- **00:51:37.280 — OBSERVED / SPOKEN:** you is simple, man. Find me on
+- **00:51:39.160 — OBSERVED / SPOKEN:** Instagram. My Instagram is my name, Matt
+- **00:51:41.000 — OBSERVED / SPOKEN:** Thornburg. You can find my phone number
+- **00:51:42.920 — OBSERVED / SPOKEN:** and just give me a call. My my
+- **00:51:46.880 — OBSERVED / SPOKEN:** communication is always open. I love
+- **00:51:49.000 — OBSERVED / SPOKEN:** helping other people.
+- **00:51:50.760 — OBSERVED / SPOKEN:** It's funny,
+- **00:51:51.880 — OBSERVED / SPOKEN:** you know, I don't want to be in
+- **00:51:53.000 — OBSERVED / SPOKEN:** production in the next couple of years.
+- **00:51:54.480 — OBSERVED / SPOKEN:** Not because I'm tired of doing
+- **00:51:55.760 — OBSERVED / SPOKEN:** production, but because I actually love
+- **00:51:57.920 — OBSERVED / SPOKEN:** like when I'm helping people communicate
+- **00:51:59.840 — OBSERVED / SPOKEN:** better and have better language
+- **00:52:01.840 — OBSERVED / SPOKEN:** uh uh skills and have better
+- **00:52:03.280 — OBSERVED / SPOKEN:** conversations,
+- **00:52:04.960 — OBSERVED / SPOKEN:** I get so much more fulfillment about out
+- **00:52:07.520 — OBSERVED / SPOKEN:** of that nowadays. I love that when I get
+- **00:52:09.720 — OBSERVED / SPOKEN:** somebody who comes back to me, they're
+- **00:52:10.720 — OBSERVED / SPOKEN:** like, "Dude, I crushed this appointment
+- **00:52:12.840 — OBSERVED / SPOKEN:** today and I I did what you said to do
+- **00:52:15.000 — OBSERVED / SPOKEN:** and like the conversation was so much
+- **00:52:16.880 — OBSERVED / SPOKEN:** easier." Like I love that, right? So, if
+- **00:52:19.360 — OBSERVED / SPOKEN:** you have questions about social media,
+- **00:52:21.280 — OBSERVED / SPOKEN:** about about how to communicate better,
+- **00:52:23.800 — OBSERVED / SPOKEN:** just find me and reach out, man. Let's
+- **00:52:25.200 — OBSERVED / SPOKEN:** have a casual conversation about where
+- **00:52:27.080 — OBSERVED / SPOKEN:** your business is at, where you're
+- **00:52:28.800 — OBSERVED / SPOKEN:** feeling that you're not supported,
+- **00:52:30.200 — OBSERVED / SPOKEN:** right? This is what I think is very
+- **00:52:31.440 — OBSERVED / SPOKEN:** important. You know, I think agents will
+- **00:52:33.880 — OBSERVED / SPOKEN:** choose brokerages for the wrong reasons.
+- **00:52:36.400 — OBSERVED / SPOKEN:** I think you should choose a brokerage,
+- **00:52:37.720 — OBSERVED / SPOKEN:** the real reason you should choose a
+- **00:52:38.960 — OBSERVED / SPOKEN:** brokerage, number one is
+- **00:52:41.880 — OBSERVED / SPOKEN:** like are you getting the support and the
+- **00:52:44.240 — OBSERVED / SPOKEN:** tools and the systems to do what you
+- **00:52:46.360 — OBSERVED / SPOKEN:** want to do? Not to do what everybody
+- **00:52:48.320 — OBSERVED / SPOKEN:** else tells you you should do, but to do
+- **00:52:49.960 — OBSERVED / SPOKEN:** what you want to do, right?
+- **00:52:52.320 — OBSERVED / SPOKEN:** Look for a company that gives you those
+- **00:52:54.440 — OBSERVED / SPOKEN:** three things that also has the culture
+- **00:52:56.840 — OBSERVED / SPOKEN:** and the mindset that is right. That's
+- **00:52:59.440 — OBSERVED / SPOKEN:** it. That's And and
+- **00:53:01.800 — OBSERVED / SPOKEN:** I got I'm going to sound so douchey
+- **00:53:03.200 — OBSERVED / SPOKEN:** here. I don't think for for an agent
+- **00:53:05.400 — OBSERVED / SPOKEN:** that wants to be successful in this day
+- **00:53:07.040 — OBSERVED / SPOKEN:** and age, in our technology-driven
+- **00:53:09.360 — OBSERVED / SPOKEN:** business, in our social media-driven
+- **00:53:10.960 — OBSERVED / SPOKEN:** business, and in our AI-driven business,
+- **00:53:14.760 — OBSERVED / SPOKEN:** I get recruitment phone calls multiple
+- **00:53:16.800 — OBSERVED / SPOKEN:** times a week. I haven't seen another
+- **00:53:19.080 — OBSERVED / SPOKEN:** company or organization
+- **00:53:22.480 — OBSERVED / SPOKEN:** that provides what we provide. And I I
+- **00:53:25.120 — OBSERVED / SPOKEN:** hate to say that like I sound like I'm
+- **00:53:26.640 — OBSERVED / SPOKEN:** recruiting. I don't want to recruit, to
+- **00:53:28.280 — OBSERVED / SPOKEN:** be honest. I want to attract. If you're
+- **00:53:30.600 — OBSERVED / SPOKEN:** not happy, not feeling supported, you're
+- **00:53:32.280 — OBSERVED / SPOKEN:** not thinking that you get your
+- **00:53:33.440 — OBSERVED / SPOKEN:** frustrated You shouldn't be frustrated
+- **00:53:35.280 — OBSERVED / SPOKEN:** in this business. This business is easy
+- **00:53:37.880 — OBSERVED / SPOKEN:** when you have the right support. If
+- **00:53:39.480 — OBSERVED / SPOKEN:** you're frustrated, you're not getting
+- **00:53:41.320 — OBSERVED / SPOKEN:** the right support, mentorship, or
+- **00:53:42.800 — OBSERVED / SPOKEN:** guidance. That's it.
+- **00:53:44.960 — OBSERVED / SPOKEN:** This business is easy.
+- **00:53:47.280 — OBSERVED / SPOKEN:** Right?
+- **00:53:48.520 — OBSERVED / SPOKEN:** 100% dude.
+- **00:53:49.320 — OBSERVED / SPOKEN:** guess I should rephrase that. It's not
+- **00:53:50.760 — OBSERVED / SPOKEN:** easy, it's simple.
+- **00:53:52.280 — OBSERVED / SPOKEN:** Yeah.
+- **00:53:52.480 — OBSERVED / SPOKEN:** It's hard, but it's simple, right? It is
+- **00:53:54.960 — OBSERVED / SPOKEN:** you does require the hard work. Um so
+- **00:53:57.920 — OBSERVED / SPOKEN:** yeah man, uh specifically, I know we
+- **00:53:59.640 — OBSERVED / SPOKEN:** alluded to my communication stuff, we're
+- **00:54:01.280 — OBSERVED / SPOKEN:** going to talk about that later, but I
+- **00:54:03.120 — OBSERVED / SPOKEN:** have a landing page
+- **00:54:04.800 — OBSERVED / SPOKEN:** thornburghomegroup.com/loree
+- **00:54:10.150 — OBSERVED / SPOKEN:** language of real estate.
+- **00:54:10.160 — OBSERVED / SPOKEN:** You can go there and literally get the
+- **00:54:11.640 — OBSERVED / SPOKEN:** call info. You can go to my Instagram
+- **00:54:13.560 — OBSERVED / SPOKEN:** and connect with me. Go to my Instagram
+- **00:54:15.600 — OBSERVED / SPOKEN:** and steal my video ideas. If you're in
+- **00:54:17.280 — OBSERVED / SPOKEN:** Chicago, look at the videos I'm making
+- **00:54:19.520 — OBSERVED / SPOKEN:** and make them about Chicago.
+- **00:54:21.480 — OBSERVED / SPOKEN:** Yeah.
+- **00:54:21.880 — OBSERVED / SPOKEN:** Dude.
+- **00:54:23.120 — OBSERVED / SPOKEN:** We we share our knowledge here because
+- **00:54:24.960 — OBSERVED / SPOKEN:** we want other people to succeed. I
+- **00:54:26.920 — OBSERVED / SPOKEN:** firmly believe that we go further
+- **00:54:29.080 — OBSERVED / SPOKEN:** together.
+- **00:54:30.360 — OBSERVED / SPOKEN:** We all go further together. You don't
+- **00:54:32.080 — OBSERVED / SPOKEN:** know what you don't know until somebody
+- **00:54:34.000 — OBSERVED / SPOKEN:** else enlightens you to it. And that's
+- **00:54:35.840 — OBSERVED / SPOKEN:** what we do at the Wolfpack. We enlighten
+- **00:54:37.880 — OBSERVED / SPOKEN:** each other. We open each other's minds
+- **00:54:39.520 — OBSERVED / SPOKEN:** and perspectives. We show each other how
+- **00:54:41.800 — OBSERVED / SPOKEN:** things can be done and then we support
+- **00:54:43.240 — OBSERVED / SPOKEN:** each other to go do it.
+- **00:54:45.040 — OBSERVED / SPOKEN:** Like you said, Mike's paying thousands
+- **00:54:46.680 — OBSERVED / SPOKEN:** of dollars for his YouTube coaching and
+- **00:54:49.640 — OBSERVED / SPOKEN:** he's giving it away for free. You know,
+- **00:54:52.000 — OBSERVED / SPOKEN:** I do I do this call every Tuesday
+- **00:54:54.160 — OBSERVED / SPOKEN:** morning. I don't get paid for that call.
+- **00:54:57.480 — OBSERVED / SPOKEN:** I don't I I don't get anything out of
+- **00:55:00.040 — OBSERVED / SPOKEN:** that call except for fulfillment of
+- **00:55:01.520 — OBSERVED / SPOKEN:** sharing my knowledge with other people
+- **00:55:03.040 — OBSERVED / SPOKEN:** and then them telling me, "Dude, I
+- **00:55:04.600 — OBSERVED / SPOKEN:** crushed this conversation because of
+- **00:55:06.120 — OBSERVED / SPOKEN:** what you taught me about how to
+- **00:55:07.360 — OBSERVED / SPOKEN:** communicate."
+- **00:55:09.320 — OBSERVED / SPOKEN:** Like
+- **00:55:09.760 — OBSERVED / SPOKEN:** 100%
+- **00:55:10.640 — OBSERVED / SPOKEN:** I want other people to succeed.
+- **00:55:14.040 — OBSERVED / SPOKEN:** It's amazing. And and that's what I love
+- **00:55:15.840 — OBSERVED / SPOKEN:** about it is no dude, like it's it's
+- **00:55:18.400 — OBSERVED / SPOKEN:** incredible to see that you, you know,
+- **00:55:20.520 — OBSERVED / SPOKEN:** you have such a big heart and and people
+- **00:55:22.440 — OBSERVED / SPOKEN:** have that conscious choice. And like you
+- **00:55:24.080 — OBSERVED / SPOKEN:** say, like struggling is a choice. Like
+- **00:55:26.600 — OBSERVED / SPOKEN:** we've helped so many people in that
+- **00:55:28.560 — OBSERVED / SPOKEN:** situation radically transform their
+- **00:55:30.600 — OBSERVED / SPOKEN:** business by just giving them clarity,
+- **00:55:32.640 — OBSERVED / SPOKEN:** confidence of exactly what to do. And
+- **00:55:35.520 — OBSERVED / SPOKEN:** you know, the coolest part is cuz nobody
+- **00:55:38.000 — OBSERVED / SPOKEN:** really knows, but some of the stuff I'm
+- **00:55:39.480 — OBSERVED / SPOKEN:** working on for our new training is going
+- **00:55:41.960 — OBSERVED / SPOKEN:** to be on a completely different
+- **00:55:43.480 — OBSERVED / SPOKEN:** capacity. And again, that's just because
+- **00:55:45.360 — OBSERVED / SPOKEN:** we always want to stay one step ahead of
+- **00:55:47.160 — OBSERVED / SPOKEN:** the curve. And so, guys, with that being
+- **00:55:49.120 — OBSERVED / SPOKEN:** said, per usual, all of Matt's content
+- **00:55:52.480 — OBSERVED / SPOKEN:** and his calendar is linked below. And
+- **00:55:55.040 — OBSERVED / SPOKEN:** have the conversation. Explore if it's
+- **00:55:57.080 — OBSERVED / SPOKEN:** good fit. If it is, great. If it's not,
+- **00:55:59.720 — OBSERVED / SPOKEN:** totally okay. But at least have that
+- **00:56:01.960 — OBSERVED / SPOKEN:** dialogue to explore is there a better
+- **00:56:04.360 — OBSERVED / SPOKEN:** way that you could be building your
+- **00:56:05.480 — OBSERVED / SPOKEN:** business and having a heck of a lot more
+- **00:56:07.640 — OBSERVED / SPOKEN:** fun while doing it. So, with that being
+- **00:56:09.840 — OBSERVED / SPOKEN:** said, Matt, make sure you guys check out
+- **00:56:12.400 — OBSERVED / SPOKEN:** the next video we're going to do
+- **00:56:13.520 — OBSERVED / SPOKEN:** together on communication because that
+- **00:56:16.200 — OBSERVED / SPOKEN:** will transform everything that you do.
+- **00:56:18.760 — OBSERVED / SPOKEN:** But dude, thank you so much again for
+- **00:56:20.280 — OBSERVED / SPOKEN:** just sharing everything and being such
+- **00:56:21.920 — OBSERVED / SPOKEN:** an open book as always.
+- **00:56:24.200 — OBSERVED / SPOKEN:** Always, man. You're very welcome. I love
+- **00:56:25.920 — OBSERVED / SPOKEN:** our conversations. I love the value it
+- **00:56:27.760 — OBSERVED / SPOKEN:** brings to people. And like you said, my
+- **00:56:30.600 — OBSERVED / SPOKEN:** calendar link is in the description. If
+- **00:56:32.880 — OBSERVED / SPOKEN:** you're not feeling fulfilled or you're
+- **00:56:35.280 — OBSERVED / SPOKEN:** feeling frustrated in this business,
+- **00:56:37.440 — OBSERVED / SPOKEN:** dude, grab a half an hour time on my
+- **00:56:38.920 — OBSERVED / SPOKEN:** calendar. We'll have a very casual, no
+- **00:56:41.080 — OBSERVED / SPOKEN:** pressure chat. At the end of it, you're
+- **00:56:43.040 — OBSERVED / SPOKEN:** going to walk away with more
+- **00:56:44.240 — OBSERVED / SPOKEN:** information, which is never a bad thing,
+- **00:56:46.600 — OBSERVED / SPOKEN:** and you're either going to find out
+- **00:56:48.240 — OBSERVED / SPOKEN:** there's a better path and maybe, you
+- **00:56:50.360 — OBSERVED / SPOKEN:** know, we can start building a plan for
+- **00:56:51.880 — OBSERVED / SPOKEN:** you to get where you want to be,
+- **00:56:53.800 — OBSERVED / SPOKEN:** or you're going to leave with some more
+- **00:56:54.760 — OBSERVED / SPOKEN:** free, helpful information. Neither one
+- **00:56:56.760 — OBSERVED / SPOKEN:** of those things is going to hurt, man.
+- **00:56:58.680 — OBSERVED / SPOKEN:** Grab a time to chat.
+- **00:57:00.480 — OBSERVED / SPOKEN:** There you go. Guys, with that being
+- **00:57:02.160 — OBSERVED / SPOKEN:** said, make sure you like, comment,
+- **00:57:03.520 — OBSERVED / SPOKEN:** subscribe so you don't miss another one,
+- **00:57:05.480 — OBSERVED / SPOKEN:** and we'll see you in the next video.

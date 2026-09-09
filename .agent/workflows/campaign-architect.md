@@ -25,6 +25,10 @@ Ask the user for:
 
 If the user has already provided context, proceed directly.
 
+### PHASE 2.5: BUYER-DECISION ARCHITECTURE SNIFF (COLD SHADOW)
+
+Using only the grounded brand, offer, audience, campaign trigger, proof, terms, and current marketing already available, ask whether one eligible **Fit, Choice, or Congruence** decision would materially change the campaign architecture or measurement plan. If yes, cold-load `semantic_libraries/antigravity/primitives/buyer-psychology-decision-intelligence-overlay.md`, select one primary decision, and return the smallest source-bounded change here before execution. `/campaign-architect` remains the campaign owner. Do not infer buyer motives, add a question or gate merely to activate the layer, alter offer terms owned by `/revenue-offer-agent`, or activate the five development-only `CANDIDATE` cards.
+
 ### PHASE 3: EXECUTE THE WORKFLOW
 
 Follow the Campaign Architecture Engine workflow exactly:

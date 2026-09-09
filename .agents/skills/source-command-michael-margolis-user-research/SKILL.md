@@ -1,0 +1,16 @@
+---
+name: "source-command-michael-margolis-user-research"
+description: "Michael Margolis's (UX Research Partner, GV) bullseye customer research system — find the comically-narrow subset of your market most likely to adopt, then validate with 5 interviews, 3 comparison prototypes, in 1 day"
+---
+
+# source-command-michael-margolis-user-research
+
+Use this skill when the user asks to run the migrated source command `michael-margolis-user-research`.
+
+## Command Template
+
+<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load and embody the skill at `skills/michael-margolis-user-research/SKILL.md`. Also load `skills/michael-margolis-user-research/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+
+This skill has runnable processes. Its flagship workflow is `skills/michael-margolis-user-research/workflows/01-define-bullseye-customer.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.

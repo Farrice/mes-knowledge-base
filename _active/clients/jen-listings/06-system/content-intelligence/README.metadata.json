@@ -1,0 +1,7 @@
+{
+  "artifact_type": "system_readme",
+  "client": "Jen",
+  "status": "implementation",
+  "privacy": "curated_redacted",
+  "source_of_truth": "execution/jen_content_archive.py"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Buyer Psychology Decision Intelligence Layer - Architecture and Build Contract",
+  "artifactType": "system-architecture",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "SHADOW",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false
+}

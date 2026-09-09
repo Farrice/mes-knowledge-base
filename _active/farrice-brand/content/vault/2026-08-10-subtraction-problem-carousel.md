@@ -15,9 +15,9 @@ Teardown carousel per `05-CONTENT-STRATEGY`: hook → symptom with verbatim → 
 
 ---
 
-## SLIDE 1 — Hook
+## SLIDE 1: Hook
 
-**THE SUBTRACTION PROBLEM**
+**The subtraction problem**
 
 Your buyer is not choosing between you and a competitor.
 He is choosing what to remove.
@@ -28,7 +28,7 @@ He is choosing what to remove.
 
 ---
 
-## SLIDE 2 — The symptom, in his words
+## SLIDE 2: The symptom, in his words
 
 > "I thought that taking a mix of creatine, ashwagandha, magnesium, and omega-3 would give me more energy every day, but it's making me feel tired."
 
@@ -38,7 +38,7 @@ r/Biohackers · August 6, 2026
 
 ---
 
-## SLIDE 3 — The room's correction
+## SLIDE 3: The room's correction
 
 > "Nothing you mentioned is supposed to make you feel energized anyways, outside of placebo."
 
@@ -52,17 +52,17 @@ Same thread. Replies.
 
 ---
 
-## SLIDE 4 — It is not one thread
+## SLIDE 4: It is not one thread
 
 > "That is the exact trap I hit: more inputs does not equal more recovery, and the stack itself becomes a stressor."
 
-r/Biohackers · August 7, 2026 — replying to a 34-year-old, six years in, clean bloodwork, sleep score in the 80s, HRV sliding.
+r/Biohackers · August 7, 2026: replying to a 34-year-old, six years in, clean bloodwork, sleep score in the 80s, HRV sliding.
 
 *Visual: quote card with a small descending sparkline in the corner.*
 
 ---
 
-## SLIDE 5 — What your format actually competes with
+## SLIDE 5: What your format actually competes with
 
 > "I'm getting so sick of opening 4-5 different bottles on my counter every day, choking down massive capsules, and trying to remember if I took what in the morning or before bed."
 
@@ -76,7 +76,7 @@ r/Biohackers · August 3, 2026
 
 ---
 
-## SLIDE 6 — The read, step 1: the claim layer
+## SLIDE 6: The read, step 1: the claim layer
 
 Open your own product page and your last twelve ads.
 
@@ -90,7 +90,7 @@ For most brands in this category the number is zero.
 
 ---
 
-## SLIDE 7 — The read, step 2: the arithmetic nobody owns
+## SLIDE 7: The read, step 2: the arithmetic nobody owns
 
 Each claim was substantiated on its own. Correctly.
 
@@ -104,7 +104,7 @@ NIH Office of Dietary Supplements, on side-effect risk: most likely "if you take
 
 ---
 
-## SLIDE 8 — The read, step 3: the countertop
+## SLIDE 8: The read, step 3: the countertop
 
 Bottles. Capsule size. Timing. Memory.
 
@@ -116,7 +116,7 @@ The friction that kills the reorder is logistics, and your creative brief has no
 
 ---
 
-## SLIDE 9 — Both sides are solving it. Only one is being sold to.
+## SLIDE 9: Both sides are solving it. Only one is being sold to.
 
 **The industry's answer:** consolidate ingredients into fewer objects. Nourished launched three stacked creatine gummies for energy, mind and strength, 3g monohydrate each, 3D printed and personalised (July 2026).
 
@@ -128,7 +128,7 @@ Two 3D printers, same problem, opposite ends. Nobody is competing for the second
 
 ---
 
-## SLIDE 10 — The fix direction
+## SLIDE 10: The fix direction
 
 Three lines your next brief does not have:
 
@@ -144,7 +144,7 @@ A brand willing to name what comes out is the brand that survives the reset.
 
 ---
 
-## SLIDE 11 — CTA
+## SLIDE 11: CTA
 
 **Save this before your next creative round.**
 
@@ -165,10 +165,13 @@ $750 prepaid. Inside 48 hours.
 - **Save reason:** slides 6-10 are a runnable method; a strategist can execute the count on their own brand within the hour.
 - **Buyer next thought:** *"Nobody on my team can name what our product replaces."*
 - **Proof moment:** slide 7, two government-sourced sentences carrying the unowned-sum claim.
-- **Turn:** slide 9 — industry and buyer solving opposite halves of one problem.
+- **Turn:** slide 9: industry and buyer solving opposite halves of one problem.
 - **Residue line:** "A brand willing to name what comes out is the brand that survives the reset."
-- **Story-seat gates:** Kallaway — slide 1 scroll-stop (a removal frame is a pattern break in a category that only adds), slide 6 is the save trigger. Cole — entry 1 of *The Unowned Sum*. Lara — 11 slides inside the 8-12 band, quote cards carry dwell, slide 6's instruction earns the save. Hoyos/Puri — beat order withholds the diagnosis until slide 7.
-- **Better-off test (outer ring):** passes — the three-line brief test is usable by anyone.
-- **Buyer recognition (inner ring):** passes — slide 6 delivers a private humiliation as arithmetic, blaming no one.
-- **Claim safety:** community mechanism claims on slide 3 are presented strictly as quoted replies, never asserted. No dosing, timing or personalised guidance. Nourished is credited, never criticised.
+- **Story-seat gates:** Kallaway cleared slide 1 for scroll-stop and slide 6 for saves.
+- Cole threads this as entry 1 of *The Unowned Sum*.
+- Lara read: 11 slides fits the 8-12 band, quote cards hold dwell, and slide 6 earns the save.
+- Hoyos/Puri read: the order holds the diagnosis until slide 7.
+- **Better-off test (outer ring):** passes: the three-line brief test is usable by anyone.
+- **Buyer recognition (inner ring):** passes: slide 6 delivers a private humiliation as arithmetic and blames no one.
+- **Claim safety:** community mechanism claims on slide 3 are presented strictly as quoted replies, never asserted. No dose, time, or personal guidance. Nourished is credited, never criticised.
 - **Source receipts:** [08-06 thread](https://www.reddit.com/r/Biohackers/comments/1vh7rou/taking_a_biohacker_stack_of_creatine_ashwagandha/) · [08-07 thread](https://www.reddit.com/r/Biohackers/comments/1vi1518/anyone_else_think_the_longevity_stack_itself_is/) · [08-03 thread](https://www.reddit.com/r/Biohackers/comments/1vefmoh/anyone_else_completely_over_swallowing_a_handful/) · [NIH ODS](https://ods.od.nih.gov/factsheets/WYNTK-Consumer/) · [Nourished Creatine+](https://www.nutraingredients.com/Article/2026/07/10/nourisheds-creatine-range-targets-muscle-and-mind/)

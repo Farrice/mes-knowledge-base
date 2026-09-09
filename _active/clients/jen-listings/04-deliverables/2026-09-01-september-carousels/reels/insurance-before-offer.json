@@ -1,0 +1,9 @@
+{
+  "out": "insurance-before-offer",
+  "lockup": true,
+  "beats": [
+    {"photo": "img/vannuys-blvd-2024.jpg", "line": "fully approved...<br>and the insurance quote<br>still moves your payment.", "hand": "", "secs": 4.5, "zoom": "in"},
+    {"photo": "img/california-bungalow-00.jpg", "line": "in the hills, i get<br>the quote <em>before</em><br>we write the offer.", "hand": "", "secs": 4.5, "zoom": "out"},
+    {"photo": "img/jen-porch-vannuys.jpg", "line": "send me the street.<br>i&#8217;ll tell you what<br>i&#8217;d check first.", "hand": "my DMs are open &#8594;", "secs": 4.5, "zoom": "in"}
+  ]
+}

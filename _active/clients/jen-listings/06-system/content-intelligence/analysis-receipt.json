@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "classifier_version": "2.0-evidence-spans",
+  "build_state": "FINAL_CANDIDATE",
+  "input_posts": 2779,
+  "classified_auto_accept": 147,
+  "classified_human_review": 817,
+  "unclassified": 1815,
+  "eligible_selected": 200,
+  "deep_packet_eligible": 54,
+  "deep_packets_written": 50,
+  "selection_by_stratum": {
+    "truth_value": 120,
+    "truth_value_overflow": 66,
+    "cohort_outlier": 14
+  },
+  "pillar_states": {
+    "EMERGING": 5,
+    "REVIEW_REQUIRED": 1
+  },
+  "required_archive_phases": {
+    "inventory": true,
+    "comments": true,
+    "highlights": true,
+    "media": true
+  },
+  "acceptance": {
+    "story_count_200": true,
+    "deep_packet_count_50": true,
+    "stable_source_ids": true,
+    "no_private_paths_in_curated_stories": true,
+    "archive_phases_terminal": true
+  },
+  "acceptance_state": "PASS",
+  "generated_at": "2026-09-04T04:23:31Z"
+}

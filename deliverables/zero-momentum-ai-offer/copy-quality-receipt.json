@@ -1,0 +1,200 @@
+{
+  "verdict": "PASS",
+  "method": "Each outward-facing copy unit classified separately; worksheets and Markdown table scaffolding excluded.",
+  "units": 17,
+  "flagged": {},
+  "results": {
+    "profile_about": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 145,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.7
+    },
+    "pinned_post": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 164,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.68
+    },
+    "post_Day 1: The invisible queue": {
+      "verdict": "CLEAN",
+      "ai_score": 1.5,
+      "word_count": 90,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "parallel_structure_overuse",
+          "severity": 1.5,
+          "detail": "3 parallel blocks found"
+        }
+      ],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.57
+    },
+    "post_Day 2: Remove AI from the headline": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 75,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.31
+    },
+    "post_Day 3: A proposal is late before it is late": {
+      "verdict": "WARNING",
+      "ai_score": 2.0,
+      "word_count": 82,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "rhythm_uniformity",
+          "severity": 2.0,
+          "detail": "CV=0.27 \u2014 sentences are suspiciously similar length"
+        }
+      ],
+      "recommendation": "Review these before finalizing: Vary sentence length \u2014 mix short punches with longer builds",
+      "rhythm_cv": 0.27
+    },
+    "post_Day 4: The human hold": {
+      "verdict": "WARNING",
+      "ai_score": 2.0,
+      "word_count": 83,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "internal_anaphora",
+          "severity": 2.0,
+          "count": 1,
+          "examples": [
+            "'even' x3"
+          ]
+        }
+      ],
+      "recommendation": "Review these before finalizing: ",
+      "rhythm_cv": 0.42
+    },
+    "post_Day 5: What $199 does not buy": {
+      "verdict": "WARNING",
+      "ai_score": 2.0,
+      "word_count": 89,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "parallel_structure_overuse",
+          "severity": 2.0,
+          "detail": "4 parallel blocks found"
+        }
+      ],
+      "recommendation": "Review these before finalizing: ",
+      "rhythm_cv": 0.76
+    },
+    "post_Day 6: A receipt, not a reveal": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 77,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.47
+    },
+    "post_Day 7: Follow-up is an operating decision": {
+      "verdict": "CLEAN",
+      "ai_score": 1.5,
+      "word_count": 57,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "parallel_structure_overuse",
+          "severity": 1.5,
+          "detail": "3 parallel blocks found"
+        }
+      ],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.66
+    },
+    "post_Day 8: The wrong first question": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 54,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.5
+    },
+    "post_Day 9: What the pilot does not promise": {
+      "verdict": "WARNING",
+      "ai_score": 2.0,
+      "word_count": 53,
+      "signal_count": 1,
+      "signals": [
+        {
+          "type": "rhythm_uniformity",
+          "severity": 2.0,
+          "detail": "CV=0.16 \u2014 sentences are suspiciously similar length"
+        }
+      ],
+      "recommendation": "Review these before finalizing: Vary sentence length \u2014 mix short punches with longer builds",
+      "rhythm_cv": 0.16
+    },
+    "post_Day 10: The market test": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 83,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.57
+    },
+    "message_Warm": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 100,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.51
+    },
+    "message_Referral": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 65,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.5
+    },
+    "message_Cold, trigger-specific": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 101,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.53
+    },
+    "message_Follow-up 1": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 51,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.5
+    },
+    "message_Follow-up 2": {
+      "verdict": "CLEAN",
+      "ai_score": 0,
+      "word_count": 47,
+      "signal_count": 0,
+      "signals": [],
+      "recommendation": "Prose passes the AI-detection check. Expert Standard scoring is uncapped.",
+      "rhythm_cv": 0.5
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ---
 workflow: 01-specificity-drill
 skill: nicolas-cole-niche-positioning
+menu_exempt: true
 deliverable: Named Person profile + raw positioning material + Compounding Signal Score
 evolved: 2026-04-09
 evolution: "Added Compounding Signal Analysis (Round 5) — stress-tests niche durability before commitment"

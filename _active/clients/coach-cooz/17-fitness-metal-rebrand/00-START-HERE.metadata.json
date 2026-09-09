@@ -1,0 +1,20 @@
+{
+  "artifact_type": "client_strategy_and_copy",
+  "title": "Acusio Bivona website reset",
+  "client": "Coach Cooz / Acusio Bivona",
+  "status": "draft_for_review",
+  "created": "2026-08-29",
+  "source": "direct iMessage thread, voice memos, current website, local proof inventory",
+  "primary_artifacts": [
+    "00-START-HERE.md",
+    "HOMEPAGE-COPY.md",
+    "RECOMMENDED-HOMEPAGE-FINAL.md",
+    "SQUARESPACE-BUILD-SPEC.md",
+    "CLAIM-AUDIT.md",
+    "CONVERSATION-AND-VOICE-READOUT.md",
+    "VERIFICATION-REPORT.md",
+    "PREVIEW.html",
+    "PREVIEW-DESKTOP.png",
+    "PREVIEW-MOBILE.png"
+  ]
+}

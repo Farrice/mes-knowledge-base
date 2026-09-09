@@ -1,0 +1,18 @@
+{
+  "key": "19-watch-kolor-normal",
+  "url": "https://www.instagram.com/reel/DcAA_1rM1vx/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_39e4d161-590e-43db-bfaa-37704f51ab23\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_39e4d161-590e-43db-bfaa-37704f51ab23\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_39e4d161-590e-43db-bfaa-37704f51ab23",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_39e4d161-590e-43db-bfaa-37704f51ab23\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

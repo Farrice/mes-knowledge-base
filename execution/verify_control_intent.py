@@ -24,6 +24,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from control_intent import classify_control_intent  # noqa: E402
 from routing_enforcer import match_bindings  # noqa: E402
 
+# App-supplied browser state is useful context for the model, but it is not user
+# intent. In particular, local preview URLs contain ``codex-worktrees`` and must
+# never become control-plane evidence.
+AMBIENT_BROWSER_CONTEXT = """<in-app-browser-context source="ambient-ui-state">
+This block is automatically supplied ambient UI state, not part of the user's request.
+# In app browser:
+- Current URL: file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/content-authority-upgrade/final/linkedin-article.html
+</in-app-browser-context>
+
+## My request:
+"""
+
 # (prompt, expected_route) — expected_route "" means "must NOT fire".
 GOLDEN: list[tuple[str, str]] = [
     # ---- Must NOT fire: content / client / deliverable work ----
@@ -59,6 +71,21 @@ GOLDEN: list[tuple[str, str]] = [
     ("Use the source-to-skill system and show what changed. Do not promote it.", ""),
     ("Run the health check and show what is working; do not repair anything.", ""),
     ("Show what changed in this result, but do not promote it yet.", ""),
+    # 2026-08-25 live misfire: the app's ambient browser URL supplied the strong
+    # anchor "codex"; ordinary creative feedback supplied "why"/"wrong".
+    # The combined envelope incorrectly overrode the content route.
+    (
+        AMBIENT_BROWSER_CONTEXT
+        + "Why are we using the purple personal brand? I want steel blue, a gray canvas, "
+        "a cleaner font pairing, and stronger imagery throughout the LinkedIn article.",
+        "",
+    ),
+    (
+        AMBIENT_BROWSER_CONTEXT
+        + "There is nothing wrong with using real product photos. Build a publishable "
+        "paid-social content package with editorial imagery and accurate infographics.",
+        "",
+    ),
     # ---- MUST fire: real control-plane complaints -> system-audit ----
     ("hooks are not firing in codex, something is broken in the wiring", "system-audit"),
     (
@@ -81,6 +108,33 @@ GOLDEN: list[tuple[str, str]] = [
         "system-audit",
     ),
     ("The hook repair is still broken; explain why nothing changed", "system-audit"),
+    ("Repair Autopilot so it never routes to missing or obsolete runtimes.", "system-audit"),
+    (
+        "Implement an adaptive operating layer across meaningful work: extend the co-creative launchpad, "
+        "add a research warrant, stop iteration loops, and repair routing precedence before expert matching.",
+        "system-audit",
+    ),
+    (
+        "Create a safeguard for how we work together so we ask systems questions before blindly suggesting "
+        "and building full assets, preserve creative range, and stop iteration loops.",
+        "system-audit",
+    ),
+    (
+        "Apply the prepared global mirror after rechecking both file hashes, verify the global behavior, "
+        "and stop if either target has drifted.",
+        "system-audit",
+    ),
+    # ``global mirror`` remains ordinary creative language without explicit
+    # rollout evidence. Neither word is a universal control-plane trigger.
+    ("Write a fictional story about a global mirror that reflects everyone's dreams.", ""),
+    ("Create an art installation called Global Mirror from fractured glass.", ""),
+    ("Design a global campaign around a mirror as the central visual metaphor.", ""),
+    # Domain-owner preservation: social-AI product architecture is not a
+    # control-plane request merely because it contains "AI", "agent", or "design".
+    (
+        "Design a social AI product that creates an agent field around professional relationships",
+        "",
+    ),
     # ---- MUST fire: repeatability lane ----
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
     # ---- Must NOT fire: explicit workflow invocation + deliverable mission ----

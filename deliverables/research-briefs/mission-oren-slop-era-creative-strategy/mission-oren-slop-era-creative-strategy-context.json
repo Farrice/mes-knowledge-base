@@ -1,0 +1,71 @@
+{
+  "slug": "mission-oren-slop-era-creative-strategy",
+  "title": "Oren Slop Era Creative Strategy — Blind Pass Sample",
+  "compiled": "aug 12, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.md",
+  "paths": [
+    {
+      "path": "skills/oren-slop-era-creative-strategy/SKILL.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/skills/oren-slop-era-creative-strategy/SKILL.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "extractions/oren-slop-era-creative-strategy/blind-pass-sample.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/oren-slop-era-creative-strategy/blind-pass-sample.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/oren-slop-era-creative-strategy/genius.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/skills/oren-slop-era-creative-strategy/genius.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/oren-slop-era-creative-strategy/references/source-ledger.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/skills/oren-slop-era-creative-strategy/references/source-ledger.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/standard-of-excellence-doc.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/skills/oren-slop-era-creative-strategy/references/prompts-v2/standard-of-excellence-doc.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/creator-upfronts-slate.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/skills/oren-slop-era-creative-strategy/references/prompts-v2/creator-upfronts-slate.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-04-oren-slop-era-creative-strategy.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-oren-slop-era-creative-strategy.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "role": "related · THREAD"
+    }
+  ],
+  "urls": []
+}

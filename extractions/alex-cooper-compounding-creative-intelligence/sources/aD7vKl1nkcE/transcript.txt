@@ -1,0 +1,635 @@
+[00:01] I turned Claude Code into a superhuman creative strategist, and now it works
+[00:03] creative strategist, and now it works for me 24/7 analyzing my ad account,
+[00:06] for me 24/7 analyzing my ad account, finding me new ad inspiration, and even
+[00:07] finding me new ad inspiration, and even creating me ads all without me lifting a
+[00:09] creating me ads all without me lifting a finger. On top of that, I built a
+[00:11] finger. On top of that, I built a living, self-improving brain that gets
+[00:13] living, self-improving brain that gets smarter every time me or my team uses
+[00:15] smarter every time me or my team uses it. And today, I'm going to teach you
+[00:16] it. And today, I'm going to teach you exactly how to do that, even if you've
+[00:18] exactly how to do that, even if you've never used Claude Code before. I truly
+[00:20] never used Claude Code before. I truly do believe that the generative coding
+[00:21] do believe that the generative coding tools like Claude Code and Codex are the
+[00:23] tools like Claude Code and Codex are the biggest opportunity for creative
+[00:25] biggest opportunity for creative strategists today to multiply themselves
+[00:27] strategists today to multiply themselves and make themselves incredibly more
+[00:28] and make themselves incredibly more productive with AI. So, today I'm going
+[00:30] productive with AI. So, today I'm going to walk you through what they actually
+[00:32] to walk you through what they actually are, how to install the right tools to
+[00:33] are, how to install the right tools to make sure everything's set up the
+[00:34] make sure everything's set up the correct way, and then some use cases of
+[00:36] correct way, and then some use cases of exactly how I use Claude Code to make
+[00:38] exactly how I use Claude Code to make myself the 10X marketer and make more
+[00:40] myself the 10X marketer and make more and better ads. So, let's start by
+[00:41] and better ads. So, let's start by talking about what Claude Code actually
+[00:44] talking about what Claude Code actually is. See, when you use the regular chat,
+[00:47] is. See, when you use the regular chat, you are just beholden to the memory of
+[00:50] you are just beholden to the memory of Claude Chat or ChatGPT chat uh
+[00:52] Claude Chat or ChatGPT chat uh remembering everything that you say. The
+[00:54] remembering everything that you say. The cool thing about using Claude Code or
+[00:55] cool thing about using Claude Code or Codex is that the memory or context is
+[00:58] Codex is that the memory or context is actually baked into your local machine
+[01:00] actually baked into your local machine like this, which means it's much better
+[01:02] like this, which means it's much better at retaining information, and then you
+[01:04] at retaining information, and then you can compound this knowledge uh a lot
+[01:07] can compound this knowledge uh a lot easier than you can in the chat, which
+[01:08] easier than you can in the chat, which means it does by nature get smarter uh
+[01:11] means it does by nature get smarter uh every time that you use it. So, instead
+[01:13] every time that you use it. So, instead of having a chat in Claude AI, you're
+[01:15] of having a chat in Claude AI, you're actually chatting inside of a folder
+[01:18] actually chatting inside of a folder that has all of the context about that
+[01:20] that has all of the context about that specific project. And you can do all the
+[01:22] specific project. And you can do all the same things in here that you can do in
+[01:23] same things in here that you can do in the normal Claude Chat. You can have
+[01:24] the normal Claude Chat. You can have MCPs in here that generate visuals or do
+[01:27] MCPs in here that generate visuals or do reports or make artifacts. All things
+[01:28] reports or make artifacts. All things you can do inside of Claude Chat, you
+[01:30] you can do inside of Claude Chat, you can do inside of Claude Code. And
+[01:31] can do inside of Claude Code. And because of the fact that it compounds
+[01:33] because of the fact that it compounds over time as the more you use it, once
+[01:35] over time as the more you use it, once you start using this stuff, there
+[01:36] you start using this stuff, there actually is no reason to ever go back to
+[01:38] actually is no reason to ever go back to the normal Claude Chat because Claude
+[01:39] the normal Claude Chat because Claude Code beats it in in every way possible.
+[01:41] Code beats it in in every way possible. Sometimes I use Code Work, but like the
+[01:43] Sometimes I use Code Work, but like the vast majority of my chats now uh are
+[01:45] vast majority of my chats now uh are inside of Claude Code. It can be a bit
+[01:48] inside of Claude Code. It can be a bit intimidating uh when you first get
+[01:49] intimidating uh when you first get started, but honestly, once you
+[01:51] started, but honestly, once you understand the file structure um
+[01:53] understand the file structure um and you start having conversations here,
+[01:54] and you start having conversations here, you will pick it up. It becomes second
+[01:56] you will pick it up. It becomes second nature, and I I assume that you'll have
+[01:58] nature, and I I assume that you'll have the same
+[01:59] the same uh kind of epiphany and and not ever go
+[02:01] uh kind of epiphany and and not ever go back to the regular Claude chat. It's
+[02:03] back to the regular Claude chat. It's like Claude really is like Claude on
+[02:06] like Claude really is like Claude on steroids.
+[02:07] steroids. It is is Claude code. Anyway, let's talk
+[02:09] It is is Claude code. Anyway, let's talk about the tools that you need to make
+[02:12] about the tools that you need to make this all possible. So, what we're going
+[02:14] this all possible. So, what we're going to do is going to go to
+[02:15] to do is going to go to customize and then connectors. And what
+[02:18] customize and then connectors. And what I want you to do is spend some time
+[02:19] I want you to do is spend some time thinking about all of the tools that you
+[02:22] thinking about all of the tools that you use in your ad creative workflow
+[02:24] use in your ad creative workflow currently or just in your
+[02:26] currently or just in your in your whole tech stack and add as many
+[02:28] in your whole tech stack and add as many of them to Claude as connectors as
+[02:30] of them to Claude as connectors as possible. The reason for this is because
+[02:33] possible. The reason for this is because Claude code is incredibly powerful on
+[02:34] Claude code is incredibly powerful on its own. When you pull in all of these
+[02:37] its own. When you pull in all of these other tools and have it work inside of
+[02:39] other tools and have it work inside of Slack, inside of Notion, inside of
+[02:41] Slack, inside of Notion, inside of your email, that is when it gets really
+[02:45] your email, that is when it gets really really powerful. So, you want to go and
+[02:46] really powerful. So, you want to go and connect all of these as soon as
+[02:48] connect all of these as soon as possible. I have
+[02:50] possible. I have um
+[02:51] um Google Calendar so I can see all my
+[02:52] Google Calendar so I can see all my meeting notes, Gmail obviously. The
+[02:55] meeting notes, Gmail obviously. The Hixfeld MCP is really useful because um
+[02:58] Hixfeld MCP is really useful because um that means we can yeah, make statics and
+[03:00] that means we can yeah, make statics and videos with it. Notion because we do all
+[03:01] videos with it. Notion because we do all of our briefing inside of Notion. Slack
+[03:04] of our briefing inside of Notion. Slack because I want it to ingest all of the
+[03:05] because I want it to ingest all of the context from Slack. Um and that is most
+[03:09] context from Slack. Um and that is most of them that we'll want to have. Gamma
+[03:11] of them that we'll want to have. Gamma because we do a lot of our reporting
+[03:13] because we do a lot of our reporting through this. So, that's also useful as
+[03:15] through this. So, that's also useful as well. And what you will need for today's
+[03:17] well. And what you will need for today's video is the Parker MCP. That's how
+[03:19] video is the Parker MCP. That's how we're going to pull in all of the
+[03:20] we're going to pull in all of the information from the ad account and
+[03:22] information from the ad account and other ad libraries, AI tags, etc. That's
+[03:24] other ad libraries, AI tags, etc. That's going to make this a lot lot easier to
+[03:27] going to make this a lot lot easier to do. You will need a Parker account for
+[03:29] do. You will need a Parker account for that. If you want to give this a try for
+[03:31] that. If you want to give this a try for free, I'm going to leave a a link in the
+[03:32] free, I'm going to leave a a link in the description below to get a free month of
+[03:34] description below to get a free month of Parker and try this. All you're going to
+[03:36] Parker and try this. All you're going to want to do is grab this link here that
+[03:38] want to do is grab this link here that I'll put in the description. Again, go
+[03:40] I'll put in the description. Again, go to customize
+[03:42] to customize and connectors.
+[03:44] and connectors. Go to add a custom connector.
+[03:47] Go to add a custom connector. And then just call it Parker.
+[03:51] And then just call it Parker. And then you're going to in the
+[03:54] And then you're going to in the URL and click add and you'll have the
+[03:55] URL and click add and you'll have the blog MCP inside of here. It's going to
+[03:57] blog MCP inside of here. It's going to pull all of your ad account data into
+[03:58] pull all of your ad account data into here. It's going to pull uh data about
+[03:59] here. It's going to pull uh data about competitors, pull in all your ad tags,
+[04:01] competitors, pull in all your ad tags, etc. It's a lot that comes with that
+[04:03] etc. It's a lot that comes with that that's going to make this process a lot
+[04:04] that's going to make this process a lot more powerful. The next thing we're
+[04:05] more powerful. The next thing we're going to want to do is pull in the
+[04:07] going to want to do is pull in the Parker brain. Now, this is the part that
+[04:09] Parker brain. Now, this is the part that makes it self-improving. Pulls in all
+[04:11] makes it self-improving. Pulls in all the information from your Slack, from
+[04:13] the information from your Slack, from your Notion, or wherever you do work,
+[04:15] your Notion, or wherever you do work, and actually updates the context in your
+[04:17] and actually updates the context in your sleep. What we're going to want to do is
+[04:19] sleep. What we're going to want to do is go to this link, which I will link in
+[04:20] go to this link, which I will link in the description. Copy the link. Bring it
+[04:23] the description. Copy the link. Bring it back inside of our Claude code here, and
+[04:25] back inside of our Claude code here, and we're just going to say I in a folder
+[04:26] we're just going to say I in a folder that you can create, you know, I've just
+[04:28] that you can create, you know, I've just got a general Claude code folder
+[04:29] got a general Claude code folder created. You can just say, you know,
+[04:32] created. You can just say, you know, I want you to clone this brain
+[04:36] I want you to clone this brain for my brand
+[04:39] for my brand X.
+[04:41] X. Follow the instructions exactly as is.
+[04:43] Follow the instructions exactly as is. And you're just going to paste in the
+[04:44] And you're just going to paste in the link. And then you're just going to hit
+[04:45] link. And then you're just going to hit enter. You can do this on Fable 5. It's
+[04:49] enter. You can do this on Fable 5. It's going to uh cost you a few hundred bucks
+[04:51] going to uh cost you a few hundred bucks if you do that. Because what's basically
+[04:52] if you do that. Because what's basically going to happen now is it is going to
+[04:53] going to happen now is it is going to run a ton of reports and audits and
+[04:56] run a ton of reports and audits and generate a lot of context on your brand
+[05:00] generate a lot of context on your brand that saves to your folder that you're
+[05:03] that saves to your folder that you're going to work inside of. And the initial
+[05:04] going to work inside of. And the initial creation of this is a lot of work, and
+[05:07] creation of this is a lot of work, and it will take a few hours to go and do
+[05:08] it will take a few hours to go and do this. Uh so I would recommend putting on
+[05:10] this. Uh so I would recommend putting on auto mode uh so you don't have to keep
+[05:11] auto mode uh so you don't have to keep accepting um
+[05:13] accepting um your permissions and edits. Um but yeah,
+[05:15] your permissions and edits. Um but yeah, just know it will take a bit of time uh
+[05:17] just know it will take a bit of time uh whether you use Fable or Opus. Um
+[05:21] whether you use Fable or Opus. Um if you want to save money, then I would
+[05:22] if you want to save money, then I would do it on Opus. If you want to uh you
+[05:25] do it on Opus. If you want to uh you just make the absolute best brain
+[05:26] just make the absolute best brain possible, then I would do it on Fable.
+[05:28] possible, then I would do it on Fable. But just know it will take a few hours
+[05:30] But just know it will take a few hours to generate, and the Fable one will cost
+[05:31] to generate, and the Fable one will cost you a few hundred bucks. I would also
+[05:33] you a few hundred bucks. I would also strongly recommend having a Max plan
+[05:34] strongly recommend having a Max plan just to generate this. If you have a Max
+[05:36] just to generate this. If you have a Max 5X plan on Claude, you will likely run
+[05:38] 5X plan on Claude, you will likely run into 5-hour token limits once or twice.
+[05:40] into 5-hour token limits once or twice. If you have the 20X plan, you're good to
+[05:43] If you have the 20X plan, you're good to go. Uh and you should be able to
+[05:44] go. Uh and you should be able to generate these with uh no issues. But
+[05:47] generate these with uh no issues. But that is going to be by far the most
+[05:48] that is going to be by far the most token heavy thing that we do here. I
+[05:50] token heavy thing that we do here. I mean, the reason that it it takes so
+[05:51] mean, the reason that it it takes so many tokens is because it's learning and
+[05:53] many tokens is because it's learning and going so deep on your brand to generate
+[05:55] going so deep on your brand to generate context that is going to make the
+[05:56] context that is going to make the outputs way smarter, which is why this
+[05:58] outputs way smarter, which is why this stuff is important. But, as soon as you
+[05:59] stuff is important. But, as soon as you generate the initial,
+[06:01] generate the initial, you know, batch of context, then, you
+[06:03] you know, batch of context, then, you know, you can downgrade
+[06:04] know, you can downgrade because you won't you need to be on a
+[06:06] because you won't you need to be on a 20X plan. So, what's going to happen
+[06:07] 20X plan. So, what's going to happen after you've done that is just going to
+[06:08] after you've done that is just going to ask you a few simple questions in a
+[06:10] ask you a few simple questions in a pop-up here. If I go to an actual brand
+[06:12] pop-up here. If I go to an actual brand setup that I did yesterday, uh you know,
+[06:15] setup that I did yesterday, uh you know, it's just going to ask, you know, what's
+[06:16] it's just going to ask, you know, what's your main objective, North Star metrics,
+[06:19] your main objective, North Star metrics, just just to learn about your
+[06:21] just just to learn about your uh you know, your setup. And then, uh
+[06:25] uh you know, your setup. And then, uh it's going to go and generate this. And
+[06:25] it's going to go and generate this. And like I said, it'll take a few hours, but
+[06:27] like I said, it'll take a few hours, but once it's done, you are ready to get
+[06:29] once it's done, you are ready to get started in making some of these really
+[06:30] started in making some of these really incredible workflows. So, the only thing
+[06:32] incredible workflows. So, the only thing you're going to want to do is just open
+[06:34] you're going to want to do is just open up a new chat and then go to uh
+[06:38] up a new chat and then go to uh load up the brain. So, the one that I
+[06:40] load up the brain. So, the one that I just generated there was my Oberpop
+[06:44] just generated there was my Oberpop client brain. Just going to open that,
+[06:46] client brain. Just going to open that, trust the workspace, and now we're
+[06:48] trust the workspace, and now we're working inside of this Oberpop brain.
+[06:50] working inside of this Oberpop brain. I'm just going to do the command
+[06:52] I'm just going to do the command get started. And that's going to walk me
+[06:54] get started. And that's going to walk me through again a little onboarding here
+[06:56] through again a little onboarding here that's going to make sure that all of my
+[06:57] that's going to make sure that all of my routines are set up. We'll get on to
+[06:59] routines are set up. We'll get on to what they are in a moment. Uh and
+[07:01] what they are in a moment. Uh and everything is in the right place. And
+[07:03] everything is in the right place. And you train the brain on exactly what it
+[07:05] you train the brain on exactly what it needs to know. And then we can start
+[07:06] needs to know. And then we can start getting into the fun stuff. So, let's
+[07:08] getting into the fun stuff. So, let's actually see in action. What could we do
+[07:10] actually see in action. What could we do here? So, I could say, for example, uh I
+[07:12] here? So, I could say, for example, uh I want you to look through my client
+[07:17] want you to look through my client channel
+[07:19] channel at create Oberpop and uh ingest all of
+[07:25] at create Oberpop and uh ingest all of the feedback the client has ever given
+[07:29] the feedback the client has ever given and include this uh in your context
+[07:33] and include this uh in your context going forward.
+[07:36] going forward. Now, because we have set up Slack as a
+[07:38] Now, because we have set up Slack as a connector, it's going to look through
+[07:40] connector, it's going to look through the entire channel's history, and any
+[07:42] the entire channel's history, and any feedback the client has ever given is
+[07:44] feedback the client has ever given is going to bake it into the context here
+[07:46] going to bake it into the context here and going forward anytime that the
+[07:47] and going forward anytime that the client gives feedback inside of Slack,
+[07:49] client gives feedback inside of Slack, we know that that is going to flow
+[07:51] we know that that is going to flow through to our client brain and every
+[07:54] through to our client brain and every time I query inside of Claude code, it
+[07:56] time I query inside of Claude code, it will already have that context. I'm just
+[07:58] will already have that context. I'm just going to click always allow and allow it
+[08:00] going to click always allow and allow it to run this again. I would recommend
+[08:01] to run this again. I would recommend putting on auto mode um
+[08:04] putting on auto mode um so you don't have to keep accepting
+[08:06] so you don't have to keep accepting permissions. And this is why it's
+[08:07] permissions. And this is why it's important to connect as many tools as
+[08:09] important to connect as many tools as you use with the MCPs into Claude
+[08:11] you use with the MCPs into Claude because then it can ingest all of this
+[08:12] because then it can ingest all of this context and it can start outputting. You
+[08:14] context and it can start outputting. You can get to start sending messages inside
+[08:16] can get to start sending messages inside of Slack. You can get it to uh start
+[08:18] of Slack. You can get it to uh start adding things to Notion. For example, I
+[08:20] adding things to Notion. For example, I was in a Claude chat the other day where
+[08:21] was in a Claude chat the other day where I was asking it to come up with ad ideas
+[08:23] I was asking it to come up with ad ideas every week and then input them into my
+[08:26] every week and then input them into my idea library inside of Notion. This is
+[08:27] idea library inside of Notion. This is literally the exact idea library that we
+[08:29] literally the exact idea library that we use and uh Claude via the Parker MCP was
+[08:33] use and uh Claude via the Parker MCP was coming up with ad ideas and adding them
+[08:35] coming up with ad ideas and adding them into here completely automatically uh
+[08:38] into here completely automatically uh and then adding links to, you know,
+[08:39] and then adding links to, you know, TikToks it was finding or comments that
+[08:41] TikToks it was finding or comments that it was um
+[08:43] it was um referencing from my ads. And this all
+[08:44] referencing from my ads. And this all comes because I've got my uh Parker set
+[08:47] comes because I've got my uh Parker set up in the back end to know all of these
+[08:49] up in the back end to know all of these things. So, I have uh the customer
+[08:52] things. So, I have uh the customer reviews uploaded here. I have
+[08:52] reviews uploaded here. I have post-purchase surveys, my ad comments uh
+[08:55] post-purchase surveys, my ad comments uh flowing automatically inside of here. It
+[08:57] flowing automatically inside of here. It scrolls TikTok for me and finds TikTok
+[08:58] scrolls TikTok for me and finds TikTok inspiration. Ad library, I've got
+[09:00] inspiration. Ad library, I've got competitors that I follow so it knows
+[09:01] competitors that I follow so it knows what my competitors are. So, all of the
+[09:04] what my competitors are. So, all of the context that you want it to know, I just
+[09:06] context that you want it to know, I just basically look at the the web app here
+[09:07] basically look at the the web app here as a as a control room and again, if you
+[09:09] as a as a control room and again, if you want to try this, there's a there's a uh
+[09:10] want to try this, there's a there's a uh link to a free month in the uh in the
+[09:12] link to a free month in the uh in the description down below. Um and then all
+[09:16] description down below. Um and then all of this information flows through the
+[09:18] of this information flows through the MCP into Claude so I can get it to do
+[09:20] MCP into Claude so I can get it to do these workflows where it says, you know,
+[09:22] these workflows where it says, you know, look at my competitors and everything
+[09:25] look at my competitors and everything they've launched in the last 30 days and
+[09:27] they've launched in the last 30 days and you know, look at what ad formats
+[09:29] you know, look at what ad formats they've run, find their top ads by
+[09:32] they've run, find their top ads by impressions and then go and remake them
+[09:34] impressions and then go and remake them for us using the Higgsfield MCP. Like
+[09:37] for us using the Higgsfield MCP. Like those are the flows that become possible
+[09:39] those are the flows that become possible when you have this Parker MCP that's
+[09:41] when you have this Parker MCP that's pulling in all of the data about your ad
+[09:43] pulling in all of the data about your ad account, your
+[09:45] account, your um
+[09:45] um your competitors, uh and then connecting
+[09:48] your competitors, uh and then connecting that to the Parker brain that has all of
+[09:50] that to the Parker brain that has all of this context that self-improves uh over
+[09:52] this context that self-improves uh over time. And then actually connects it to
+[09:53] time. And then actually connects it to the tools that you use on a day-to-day
+[09:55] the tools that you use on a day-to-day basis. So, it comes to you rather than
+[09:58] basis. So, it comes to you rather than just, you know, you chatting inside of
+[09:59] just, you know, you chatting inside of Claude all the time. Now, going back to
+[10:01] Claude all the time. Now, going back to this chat where it's ingesting uh the
+[10:03] this chat where it's ingesting uh the Slack context, you can see it says, "I
+[10:04] Slack context, you can see it says, "I read the full ad creative overpop
+[10:06] read the full ad creative overpop history from beginning of June 2023 to
+[10:09] history from beginning of June 2023 to today."
+[10:10] today." Uh and it is now writing into its
+[10:12] Uh and it is now writing into its context. So, it's gone into Slack,
+[10:14] context. So, it's gone into Slack, ingested all of the messages from the
+[10:16] ingested all of the messages from the last 3 years, and now it is writing that
+[10:19] last 3 years, and now it is writing that into the folder so that all future
+[10:23] into the folder so that all future queries that you do already has context
+[10:25] queries that you do already has context of not only the brain, the ad account,
+[10:26] of not only the brain, the ad account, everything inside of Parker, but also
+[10:28] everything inside of Parker, but also every message ever in Slack. You can do
+[10:29] every message ever in Slack. You can do this for Notion as well. Every concept
+[10:31] this for Notion as well. Every concept you ever produce, you can do this for,
+[10:33] you ever produce, you can do this for, you know, Google Calendar, for every
+[10:34] you know, Google Calendar, for every meeting that you have with the client,
+[10:35] meeting that you have with the client, for every internal brainstorm you've
+[10:37] for every internal brainstorm you've ever done. Like, all of this context
+[10:39] ever done. Like, all of this context should be going into your client brain
+[10:42] should be going into your client brain so that it gets smarter every day. And
+[10:44] so that it gets smarter every day. And this is where it becomes really
+[10:45] this is where it becomes really interesting because, you know, this is
+[10:46] interesting because, you know, this is already accounted for if you have the
+[10:47] already accounted for if you have the Parker MCP. We do this automatically for
+[10:50] Parker MCP. We do this automatically for you. We set up these routines for you.
+[10:51] you. We set up these routines for you. But you can start setting up routines
+[10:53] But you can start setting up routines that do this on a schedule. Uh so, I go
+[10:56] that do this on a schedule. Uh so, I go into my routines here, I can see, you
+[10:59] into my routines here, I can see, you know, every day uh we've got overpop,
+[11:01] know, every day uh we've got overpop, you know, update in the brain, or like
+[11:02] you know, update in the brain, or like refreshing the context, or generating
+[11:03] refreshing the context, or generating new ideas for me. So, all of this stuff
+[11:06] new ideas for me. So, all of this stuff is automatically being updated. Uh so,
+[11:08] is automatically being updated. Uh so, it's getting smarter and smarter over
+[11:10] it's getting smarter and smarter over time. Then, when you create any
+[11:13] time. Then, when you create any workflows inside of here, for example,
+[11:15] workflows inside of here, for example, I was creating a workflow here where I
+[11:17] I was creating a workflow here where I said, "Look at my external brands' top
+[11:19] said, "Look at my external brands' top static ads by impressions." Again, that
+[11:21] static ads by impressions." Again, that is from uh
+[11:23] is from uh Parker. So, look at my external brands,
+[11:26] Parker. So, look at my external brands, look at their top ads by impressions. Uh
+[11:29] look at their top ads by impressions. Uh top static ads by impressions, and uh
+[11:31] top static ads by impressions, and uh find ones that it makes sense for us to
+[11:33] find ones that it makes sense for us to recreate, draft the copy to recreate
+[11:35] recreate, draft the copy to recreate them. We would then do through the
+[11:37] them. We would then do through the Higgsfield MCP. It went and generated
+[11:39] Higgsfield MCP. It went and generated these uh statistics, and you know, I
+[11:42] these uh statistics, and you know, I think the Higgsfield MCP is playing up
+[11:44] think the Higgsfield MCP is playing up here. It sometimes seems to be a little
+[11:45] here. It sometimes seems to be a little bit inconsistent with like showing on on
+[11:48] bit inconsistent with like showing on on old chats. Uh but just to give you an
+[11:50] old chats. Uh but just to give you an idea,
+[11:52] idea, I had it deliver them to me in Slack,
+[11:54] I had it deliver them to me in Slack, and uh I was pretty
+[11:57] and uh I was pretty impressed by how well these came out. I
+[12:00] impressed by how well these came out. I mean, these a lot of these I would say
+[12:01] mean, these a lot of these I would say I'd
+[12:02] I'd genuinely good to go inside the ad
+[12:04] genuinely good to go inside the ad account. I mean, we could do a little
+[12:05] account. I mean, we could do a little bit of work on the copy,
+[12:07] bit of work on the copy, uh uh
+[12:08] uh uh because I literally didn't do any work
+[12:09] because I literally didn't do any work on the copy for this. I was just I was
+[12:10] on the copy for this. I was just I was just testing this the other day.
+[12:12] just testing this the other day. Um but you can get
+[12:14] Um but you can get ads delivered into your Slack, or
+[12:17] ads delivered into your Slack, or wherever you operate, on a Monday
+[12:20] wherever you operate, on a Monday morning, uh just by setting up a
+[12:22] morning, uh just by setting up a workflow like this, and then saying,
+[12:24] workflow like this, and then saying, "Okay, now turn this into a uh routine
+[12:27] "Okay, now turn this into a uh routine that runs every morning and pings me
+[12:29] that runs every morning and pings me inside of my internal Slack channel."
+[12:31] inside of my internal Slack channel." And again, these, because it's connected
+[12:32] And again, these, because it's connected to the Parker MCP, are real
+[12:35] to the Parker MCP, are real comments or reviews that uh
+[12:38] comments or reviews that uh our customers have have said.
+[12:40] our customers have have said. Um so it's not like fabricating this.
+[12:42] Um so it's not like fabricating this. It's not getting them from It's not just
+[12:43] It's not getting them from It's not just making them up itself. I ask go and find
+[12:46] making them up itself. I ask go and find uh real customer reviews or real ad
+[12:48] uh real customer reviews or real ad comments or real post-purchase surveys,
+[12:49] comments or real post-purchase surveys, and then infuse them into ads that have
+[12:53] and then infuse them into ads that have performed for external brands,
+[12:56] performed for external brands, and
+[12:57] and um
+[12:58] um and remake them for us. Then deliver
+[12:59] and remake them for us. Then deliver that to me every Monday morning. You
+[13:01] that to me every Monday morning. You could have it make 25 ads for you and
+[13:03] could have it make 25 ads for you and send it straight into your Slack every
+[13:04] send it straight into your Slack every Monday morning using the Higgsfield MCP,
+[13:07] Monday morning using the Higgsfield MCP, which again is another one that you want
+[13:08] which again is another one that you want to set set up here inside of your
+[13:09] to set set up here inside of your Claude. And that's when this just
+[13:10] Claude. And that's when this just becomes so incredibly powerful when you
+[13:12] becomes so incredibly powerful when you think about all the different tools you
+[13:14] think about all the different tools you have, and then just start connecting
+[13:15] have, and then just start connecting them together, and having it proactively
+[13:17] them together, and having it proactively deliver them to you uh on a schedule
+[13:20] deliver them to you uh on a schedule inside of the place that you already
+[13:22] inside of the place that you already work. You know, uh I mean, spoke about a
+[13:24] work. You know, uh I mean, spoke about a gamma earlier. Uh another report that I
+[13:27] gamma earlier. Uh another report that I uh another thing that I did was I said,
+[13:29] uh another thing that I did was I said, "Build my monthly creative port report."
+[13:32] "Build my monthly creative port report." Again, this is like a super simple
+[13:33] Again, this is like a super simple prompt. You can probably make something
+[13:34] prompt. You can probably make something way, way better than this.
+[13:35] way, way better than this. Um I just want a performance story of
+[13:37] Um I just want a performance story of the time. Tell me what's working, what's
+[13:39] the time. Tell me what's working, what's not working, and uh and then ground it
+[13:41] not working, and uh and then ground it in customer evidence. And I made it make
+[13:44] in customer evidence. And I made it make that inside of Gamma.
+[13:47] that inside of Gamma. And here's what it did. So, it's
+[13:48] And here's what it did. So, it's literally put together this whole report
+[13:50] literally put together this whole report with everything that I need. Uh you
+[13:52] with everything that I need. Uh you know, we at Create do retros every
+[13:54] know, we at Create do retros every month. We have to produce a report just
+[13:56] month. We have to produce a report just like this
+[13:57] like this uh and then send it to the team
+[13:58] uh and then send it to the team internally, then send it to the client.
+[13:59] internally, then send it to the client. This has been done in one prompt with no
+[14:01] This has been done in one prompt with no optimization. I could say, you know, go
+[14:03] optimization. I could say, you know, go and
+[14:04] and uh you know, index more on competitors,
+[14:06] uh you know, index more on competitors, or go and do more organic research.
+[14:08] or go and do more organic research. Because you are tapped into everything
+[14:09] Because you are tapped into everything through the Parker MCP, you can get to
+[14:11] through the Parker MCP, you can get to report on performance. You can get to
+[14:12] report on performance. You can get to report on competitors. You can get it to
+[14:14] report on competitors. You can get it to look at, you know, our customer voice
+[14:16] look at, you know, our customer voice and compare it against uh the ad account
+[14:19] and compare it against uh the ad account and see what opportunities we're
+[14:20] and see what opportunities we're missing. You can get it to look at the
+[14:21] missing. You can get it to look at the organic feed. You can get it to look at
+[14:23] organic feed. You can get it to look at ad comments. For example, it says here,
+[14:24] ad comments. For example, it says here, uh the most liked comment in the last 60
+[14:26] uh the most liked comment in the last 60 days is uh he's like my 16 and a half
+[14:28] days is uh he's like my 16 and a half year old newborn. It's talking about
+[14:30] year old newborn. It's talking about dogs here cuz this is a dog brand.
+[14:31] dogs here cuz this is a dog brand. That's a really
+[14:33] That's a really uh really nice piece of copy uh and an
+[14:36] uh really nice piece of copy uh and an angle that we actually haven't tested
+[14:37] angle that we actually haven't tested yet, which is flagged inside of the ad
+[14:39] yet, which is flagged inside of the ad account. And it got 46 likes as well as
+[14:41] account. And it got 46 likes as well as a comment um most liked comment in the
+[14:43] a comment um most liked comment in the last 60 days. So, that is a a good
+[14:45] last 60 days. So, that is a a good signal that we might want to start
+[14:46] signal that we might want to start making ads around senior dogs. And all
+[14:48] making ads around senior dogs. And all of this stuff is just put together in
+[14:49] of this stuff is just put together in this one report that we've made through
+[14:50] this one report that we've made through one prompt, um which is pretty insane.
+[14:54] one prompt, um which is pretty insane. Again, here it's gone on the organic
+[14:56] Again, here it's gone on the organic feed and found content that we might
+[14:58] feed and found content that we might want to recreate. It's looked at our
+[15:00] want to recreate. It's looked at our other brands inside of Parker and and
+[15:02] other brands inside of Parker and and looked at what they're testing right now
+[15:04] looked at what they're testing right now and and and given us suggestions. There
+[15:05] and and and given us suggestions. There are so many things that you could go and
+[15:09] are so many things that you could go and uh build off the back of this. The world
+[15:12] uh build off the back of this. The world really is your oyster when you get into
+[15:13] really is your oyster when you get into cloud code and you get into producing
+[15:15] cloud code and you get into producing things like this. Here's another report
+[15:17] things like this. Here's another report that I made in Google Slides. Another
+[15:19] that I made in Google Slides. Another one that looked at competitive vars and
+[15:22] one that looked at competitive vars and uh compared us to the gap analysis and
+[15:24] uh compared us to the gap analysis and then used that to come up with ad ideas
+[15:25] then used that to come up with ad ideas based on our voice of customer. Imagine
+[15:28] based on our voice of customer. Imagine having a V1 of your monthly report that
+[15:32] having a V1 of your monthly report that you send to, you know, your performance
+[15:33] you send to, you know, your performance team, your strategy team, your client,
+[15:35] team, your strategy team, your client, whatever it is, delivered to you inside
+[15:37] whatever it is, delivered to you inside of Slack every single month saying,
+[15:38] of Slack every single month saying, "Here's the V1 of the report. Approve it
+[15:40] "Here's the V1 of the report. Approve it and I'll send it off to the relevant
+[15:42] and I'll send it off to the relevant stakeholders or go and edit inside of
+[15:44] stakeholders or go and edit inside of Gamma or give me feedback and I'll know
+[15:45] Gamma or give me feedback and I'll know for next time." And that's the cool
+[15:46] for next time." And that's the cool thing here is that you can literally, if
+[15:49] thing here is that you can literally, if I didn't like this for whatever reason,
+[15:50] I didn't like this for whatever reason, I could go into Claude code and I can
+[15:52] I could go into Claude code and I can say, "When you're doing reporting, you
+[15:54] say, "When you're doing reporting, you seem to over-index on, you know, ROAS or
+[15:57] seem to over-index on, you know, ROAS or CPA. I care more about the ads that get
+[15:59] CPA. I care more about the ads that get the most spend inside the ad account.
+[16:01] the most spend inside the ad account. From now on, I want you to remember it
+[16:03] From now on, I want you to remember it this and in all future reports that you
+[16:05] this and in all future reports that you do, always prioritize that metric." And
+[16:07] do, always prioritize that metric." And then the brain will take that feedback
+[16:08] then the brain will take that feedback on board, write it into its system, and
+[16:11] on board, write it into its system, and then know for next time that that's how
+[16:13] then know for next time that that's how you do reporting. If we go back to the
+[16:15] you do reporting. If we go back to the original query that we had about uh
+[16:18] original query that we had about uh getting the Slack that's updated, you'll
+[16:20] getting the Slack that's updated, you'll see that it's now completed that. It has
+[16:23] see that it's now completed that. It has wrote it into the folder. If I go into
+[16:25] wrote it into the folder. If I go into the folder, this is the output folder
+[16:27] the folder, this is the output folder that we made. Uh I can see that if I go
+[16:30] that we made. Uh I can see that if I go into running notes as it said here, we
+[16:32] into running notes as it said here, we can see it's got a client feedback
+[16:34] can see it's got a client feedback document. It has created this document.
+[16:35] document. It has created this document. I did not create this document. It has
+[16:37] I did not create this document. It has taken in my query and created the client
+[16:39] taken in my query and created the client feedback document. It's going to update
+[16:41] feedback document. It's going to update that as more context comes in from
+[16:42] that as more context comes in from Slack, comes in from Google Calendar,
+[16:44] Slack, comes in from Google Calendar, comes in from email, or wherever you
+[16:46] comes in from email, or wherever you want to connect, and this system gets
+[16:48] want to connect, and this system gets smarter. Uh this folder gets smarter and
+[16:51] smarter. Uh this folder gets smarter and therefore your Claude gets smarter uh
+[16:54] therefore your Claude gets smarter uh the more that you use it. I do just want
+[16:56] the more that you use it. I do just want to highlight the effectiveness of the
+[16:57] to highlight the effectiveness of the static ads workflow again. This has been
+[16:59] static ads workflow again. This has been one of my favorite use cases of the
+[17:01] one of my favorite use cases of the Parker MCP and the Parker brain so far
+[17:03] Parker MCP and the Parker brain so far and Claude code in general. Uh because
+[17:05] and Claude code in general. Uh because here I said, you know, "Search my
+[17:07] here I said, you know, "Search my customer reviews and Facebook ad
+[17:08] customer reviews and Facebook ad comments. Find the most emotionally
+[17:10] comments. Find the most emotionally loaded phrases that our that our
+[17:11] loaded phrases that our that our customers are telling us.
+[17:13] customers are telling us. Uh cluster them into distinct angles.
+[17:15] Uh cluster them into distinct angles. Look at the Facebook ads data, and then
+[17:16] Look at the Facebook ads data, and then basically use these to create some
+[17:18] basically use these to create some statics for us, and then using the
+[17:20] statics for us, and then using the Hixfeld MCP, it generated these, which
+[17:23] Hixfeld MCP, it generated these, which again, I have not, you know, done a pass
+[17:25] again, I have not, you know, done a pass on the copy here, but this is, you know,
+[17:27] on the copy here, but this is, you know, this is the phrase that we saw from the
+[17:28] this is the phrase that we saw from the report, so it knows, you know, where our
+[17:30] report, so it knows, you know, where our white space is, where we haven't tested
+[17:31] white space is, where we haven't tested inside the ad account yet, what personas
+[17:33] inside the ad account yet, what personas we have not here, and I can tell you,
+[17:35] we have not here, and I can tell you, because we do the ads for this account,
+[17:36] because we do the ads for this account, we have not really hit the senior dog
+[17:38] we have not really hit the senior dog angle that hard yet.
+[17:41] angle that hard yet. Kind of That is a That is a ready to go
+[17:43] Kind of That is a That is a ready to go static that I would launch inside that
+[17:45] static that I would launch inside that account. That's very good. And this is a
+[17:47] account. That's very good. And this is a real customer comment or review that
+[17:50] real customer comment or review that they have said, so we can use that and
+[17:52] they have said, so we can use that and put it into the account. Um
+[17:55] put it into the account. Um So, just just setting up this workflow
+[17:57] So, just just setting up this workflow and getting these delivered into your
+[17:58] and getting these delivered into your Slack every Monday is just such a lock,
+[18:00] Slack every Monday is just such a lock, and you can put out so many more
+[18:01] and you can put out so many more statics. You can do it for video as
+[18:02] statics. You can do it for video as well, but you need a little bit more
+[18:03] well, but you need a little bit more human in the loop for that, I found. Um
+[18:06] human in the loop for that, I found. Um but statics it just such like statics
+[18:08] but statics it just such like statics and reporting it it's so so good for
+[18:10] and reporting it it's so so good for this, and getting it to populate your
+[18:11] this, and getting it to populate your ideas bank, like we showed it in in
+[18:13] ideas bank, like we showed it in in Notion, whether you have your awesome or
+[18:15] Notion, whether you have your awesome or else, you can do that, too. The amount
+[18:16] else, you can do that, too. The amount of The amount of workflows you can just
+[18:17] of The amount of workflows you can just set up off the back of this are, you
+[18:19] set up off the back of this are, you know, absolutely insane. And again,
+[18:21] know, absolutely insane. And again, anything you want to turn into a
+[18:22] anything you want to turn into a schedule, you can just say, "Turn this
+[18:23] schedule, you can just say, "Turn this into a routine."
+[18:26] into a routine." I can't spell, and send this to me on
+[18:29] I can't spell, and send this to me on Slack
+[18:30] Slack every Monday. Or you can just go and set
+[18:33] every Monday. Or you can just go and set up the routine in the routine section,
+[18:35] up the routine in the routine section, and you can have it here. But, you know,
+[18:38] and you can have it here. But, you know, if you use the Parker Brain, then we're
+[18:40] if you use the Parker Brain, then we're going to set up a a bunch of these
+[18:41] going to set up a a bunch of these routines for you, so it will
+[18:42] routines for you, so it will self-update, it will dream, it will
+[18:43] self-update, it will dream, it will refresh the context, it will come up
+[18:45] refresh the context, it will come up with ad ideas for you every single week.
+[18:47] with ad ideas for you every single week. Uh create research loops. Loops and
+[18:49] Uh create research loops. Loops and judges is a whole another video I can
+[18:50] judges is a whole another video I can get into as well. There is so so much
+[18:52] get into as well. There is so so much that you can get into here. And as a
+[18:53] that you can get into here. And as a reminder, the outputs will be as good as
+[18:55] reminder, the outputs will be as good as you have your Parker set up on the back
+[18:57] you have your Parker set up on the back end, so make sure you're following
+[18:58] end, so make sure you're following brands inside of here that tagged as,
+[18:59] brands inside of here that tagged as, you know, affinity brands, which are,
+[19:01] you know, affinity brands, which are, you know, brands that are, you know,
+[19:03] you know, brands that are, you know, selling to the same audience, but not
+[19:04] selling to the same audience, but not the same product, competitors, inspo
+[19:06] the same product, competitors, inspo brands. Make sure you have those set up.
+[19:08] brands. Make sure you have those set up. You've got AI tagging on every single
+[19:10] You've got AI tagging on every single one of the ads, even your competitors'
+[19:12] one of the ads, even your competitors' ads, so you can ask, you know, look at
+[19:13] ads, so you can ask, you know, look at Caraway's ads and give me a breakdown by
+[19:15] Caraway's ads and give me a breakdown by ad format. Every ad in our database is
+[19:18] ad format. Every ad in our database is ranked by impressions, so you can kind
+[19:19] ranked by impressions, so you can kind of see what's performing for other
+[19:21] of see what's performing for other brands. Uh you can say, you know, look
+[19:23] brands. Uh you can say, you know, look at the Caraway's top ads by impressions
+[19:25] at the Caraway's top ads by impressions and try and find some common themes in,
+[19:28] and try and find some common themes in, you know, the emotions or desires or ad
+[19:30] you know, the emotions or desires or ad formats or just in general. Um you got
+[19:33] formats or just in general. Um you got the same thing in the performance tab.
+[19:34] the same thing in the performance tab. You can say look at my swipe file, look
+[19:35] You can say look at my swipe file, look at my ideas. Uh basically anything that
+[19:38] at my ideas. Uh basically anything that you can query inside of Parker, uh you
+[19:40] you can query inside of Parker, uh you can query inside of the Claude MCP. Now,
+[19:42] can query inside of the Claude MCP. Now, Reddit you do not have access to yet. We
+[19:44] Reddit you do not have access to yet. We are working on that. It's close, so I'm
+[19:46] are working on that. It's close, so I'm very excited to to release that to you
+[19:47] very excited to to release that to you guys, but everything else inside of the
+[19:49] guys, but everything else inside of the app um you can you can query inside of
+[19:51] app um you can you can query inside of the MCP um and get it to turn into ads
+[19:54] the MCP um and get it to turn into ads for your brand.
+[19:56] for your brand. So, if you want to give this whole
+[19:58] So, if you want to give this whole workflow a try, I'm going to give you a
+[20:00] workflow a try, I'm going to give you a link to get a free month of Parker to
+[20:02] link to get a free month of Parker to try completely free. All you would need
+[20:04] try completely free. All you would need to do is generate the brain inside of
+[20:06] to do is generate the brain inside of your Claude code. So, click the link in
+[20:08] your Claude code. So, click the link in the description below. You can get a
+[20:09] the description below. You can get a free month of Parker. Try this
+[20:11] free month of Parker. Try this completely risk-free and uh
+[20:14] completely risk-free and uh really just step into this new world.
+[20:15] really just step into this new world. I'm so excited for you guys because
+[20:16] I'm so excited for you guys because genuinely, once you start using Claude
+[20:19] genuinely, once you start using Claude code or Codex, there is no reason to go
+[20:21] code or Codex, there is no reason to go back to regular chat. There is no reason
+[20:22] back to regular chat. There is no reason to ever have a chat in Claude AI again
+[20:25] to ever have a chat in Claude AI again once you've got these brains set up for
+[20:28] once you've got these brains set up for uh your brand and I'm so excited for to
+[20:31] uh your brand and I'm so excited for to see the use cases that you come out with
+[20:32] see the use cases that you come out with cuz I'm sure there's a bunch of other
+[20:33] cuz I'm sure there's a bunch of other things that I've even, you know, thought
+[20:35] things that I've even, you know, thought of that you guys can do with this with
+[20:36] of that you guys can do with this with all the different tools you're going to
+[20:37] all the different tools you're going to connect. Anyway, if you like this video,
+[20:39] connect. Anyway, if you like this video, hit subscribe, comment what you want to
+[20:41] hit subscribe, comment what you want to see more of, and um I will see you in
+[20:43] see more of, and um I will see you in the next one.

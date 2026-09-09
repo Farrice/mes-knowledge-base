@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "mission_status": "blocked_until_live_volume_has_150_gib_available",
+  "research_mode": "deep-research-os--free-first--max",
+  "research_cost_ceiling_usd": 0.0,
+  "current_research_cost_usd": 0.0,
+  "market_event_state": "UNTESTED / NO EVENT",
+  "evidence_rule": "Local documents may shape these hypotheses but cannot verify current demand, pricing, buyer language, or commercial triggers.",
+  "buyer_pools": [
+    "experts_and_consultants",
+    "health_and_dtc_brands"
+  ],
+  "hypotheses": [
+    {
+      "id": "angle-map-proof-to-market",
+      "offer": "Angle Map / Proof-to-Market creative strategy",
+      "candidate_buyers": ["health_and_dtc_brands", "experts_and_consultants"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Prove an urgent recurring need for decision-grade creative intelligence, a cold-legible demonstration, and willingness to pay for the decision rather than raw research.",
+      "market_event_state": "NO EVENT",
+      "disposition": "OPEN"
+    },
+    {
+      "id": "executive-signal-authority-sprint",
+      "offer": "Executive Signal / Authority Sprint",
+      "candidate_buyers": ["experts_and_consultants"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Prove that an authority-positioning sprint creates a measurable commercial outcome beyond generic profile rewriting or ghostwriting.",
+      "market_event_state": "NO EVENT",
+      "disposition": "OPEN"
+    },
+    {
+      "id": "one-workflow-lead-to-proposal",
+      "offer": "One-Workflow / Lead-to-Proposal AI consulting pilot",
+      "candidate_buyers": ["experts_and_consultants"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Prove a painful manual workflow, buyer access, an auditable before-and-after demonstration, bounded delivery, and a short path to collected cash.",
+      "market_event_state": "NO EVENT",
+      "disposition": "OPEN"
+    },
+    {
+      "id": "ai-brain-custom-knowledge-system",
+      "offer": "AI Brain / Custom Knowledge System",
+      "candidate_buyers": ["experts_and_consultants", "health_and_dtc_brands"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Prove that the buyer experiences a costly context-reuse failure and will pay for implementation rather than treating the system as optional knowledge management.",
+      "market_event_state": "NO EVENT",
+      "disposition": "OPEN"
+    },
+    {
+      "id": "hybrid-ai-creative-strategy",
+      "offer": "Hybrid AI creative-strategy offer",
+      "candidate_buyers": ["health_and_dtc_brands", "experts_and_consultants"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Prove the hybrid earns a sharper promise than either AI implementation or creative strategy alone and does not create an over-broad delivery burden.",
+      "market_event_state": "NO EVENT",
+      "disposition": "OPEN"
+    },
+    {
+      "id": "generic-ai-consulting-control",
+      "offer": "Generic AI consulting",
+      "candidate_buyers": ["experts_and_consultants", "health_and_dtc_brands"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Negative control for vague positioning, high trust burden, and weak cold legibility.",
+      "market_event_state": "NO EVENT",
+      "disposition": "NEGATIVE_CONTROL"
+    },
+    {
+      "id": "commodity-ghostwriting-control",
+      "offer": "Commodity ghostwriting",
+      "candidate_buyers": ["experts_and_consultants"],
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "Negative control for crowded supply, proof burden, platform dependence, and commoditized pricing.",
+      "market_event_state": "NO EVENT",
+      "disposition": "NEGATIVE_CONTROL"
+    }
+  ],
+  "decision": {
+    "primary_offer": null,
+    "primary_buyer": null,
+    "trigger": null,
+    "promise": null,
+    "price_hypothesis_usd": null,
+    "acceptance_test": null,
+    "make_right": null,
+    "locked": ["Research must be current, free-first, and REAL rather than DEGRADED."],
+    "parked": ["All offer selection until the 150 GiB storage gate passes."],
+    "next_action": "Run max-depth Free-First research after the live storage gate passes."
+  },
+  "scoreboard": {
+    "qualified_exposures": 0,
+    "conversations": 0,
+    "paid_starts": 0,
+    "collected_cash_usd": 0,
+    "kill_gate": "Twenty qualified conversations with zero paid starts parks the selected offer and activates the runner-up."
+  }
+}

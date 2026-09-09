@@ -1,0 +1,18 @@
+{
+  "key": "neighborhood",
+  "url": "https://www.instagram.com/reel/DZqhDCfhc75/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_e5c2f7a2-9e2f-44b7-8915-4d5e715d425a\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_e5c2f7a2-9e2f-44b7-8915-4d5e715d425a\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_e5c2f7a2-9e2f-44b7-8915-4d5e715d425a",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_e5c2f7a2-9e2f-44b7-8915-4d5e715d425a\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "angle-map-director-shadow-receipt-v1",
+  "date": "2026-08-28",
+  "status": "PASS_WITH_EDITORIAL_INTERVENTION",
+  "mode": "SHADOW",
+  "cycle": 1,
+  "required_cycles": 3,
+  "promotion_ready": false,
+  "research_refresh": false,
+  "external_actions": {
+    "published": false,
+    "outreach": false,
+    "contacted_anyone": false,
+    "paid_research_calls": false
+  },
+  "comparison": {
+    "authoritative_full_brief": {
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-listening-brief.md",
+      "words": 5601,
+      "level_2_sections": 14
+    },
+    "director_brief": {
+      "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-28-angle-map-director-brief.md",
+      "words": 1059,
+      "level_2_sections": 5,
+      "answer_words": 117,
+      "word_reduction_percent": 81.1,
+      "authoritative": false
+    }
+  },
+  "handoff_test": {
+    "method": "isolated read-only Codex session",
+    "session_id": "01a04aa7-ed1a-7811-aeec-ad8324bc476e",
+    "input_scope": "Production handoff only",
+    "opened_full_brief": false,
+    "used_outside_knowledge": false,
+    "artifact": "_active/farrice-brand/content/vault/2026-08-28-stack-moved-inside-scoop-post.md",
+    "artifact_body_words": 334,
+    "first_draft_result": "STRUCTURE_PASS_EDITORIAL_FAIL",
+    "first_draft_failures": [
+      "not-X-but-Y reveal pattern",
+      "triple-beat anaphora"
+    ],
+    "integration_action": "Main thread removed the two structural tells without changing the argument or evidence.",
+    "final_result": "PASS"
+  },
+  "verification": {
+    "prompt_and_fixture_guard": "PASS",
+    "director_daily_fixture": "PASS",
+    "director_friday_fixture": "PASS",
+    "old_full_brief_negative_fixture": "REJECTED_AS_EXPECTED",
+    "deleted_proof_sabotage": "REJECTED_AS_EXPECTED",
+    "hidden_process_sabotage": "REJECTED_AS_EXPECTED",
+    "duplicate_lead_sabotage": "REJECTED_AS_EXPECTED",
+    "forced_format_volume_sabotage": "REJECTED_AS_EXPECTED",
+    "director_grounding": "PASS",
+    "director_prose": "CLEAN_1.5_OF_10",
+    "flagship_content_finish_gate": "CLEAN",
+    "flagship_prose": "CLEAN_0_OF_10",
+    "export_format_guard": "PASS"
+  },
+  "decision": {
+    "locked": "Keep the Director Brief in SHADOW while the full brief remains authoritative.",
+    "proved": "The handoff produced a complete flagship draft without reopening the research brief.",
+    "not_proved": "One cycle does not justify promotion; two more independent daily runs remain.",
+    "next_gate": "Repeat the same comparison on two future research states, then ask Farrice for a comprehension and usefulness verdict."
+  }
+}

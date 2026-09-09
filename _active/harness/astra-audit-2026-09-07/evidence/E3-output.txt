@@ -1,0 +1,18 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    FLAGGED
+  AI Score:   5.5/10
+  Words:      100
+  Signals:    3
+  Rhythm CV:  0.26 (uniform)
+
+  DETECTED PATTERNS:
+    [1.5] empty_openers — In today's fast-paced world, here's the thing: have you ever
+    [2.0] rhythm_uniformity — CV=0.26 — sentences are suspiciously similar length
+    [2.0] manufactured_reveal_leadin — here's the thing
+
+  This prose reads AI-generated. Expert Standard capped at 6. Rewrite with: shorter sentences, active voice, specific details over abstractions, and the expert's actual vocabulary (not AI vocabulary).
+============================================================
+

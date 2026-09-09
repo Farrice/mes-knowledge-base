@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Supplement-Founder Bullseye — Farrice Cain</title>
+<style>
+  :root{--navy:#0F172A;--panel:#1E293B;--line:#334155;--text:#F1F5F9;--dim:#94A3B8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 50px;max-width:700px;margin:0 auto}
+  h1{font-size:1.4rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;line-height:1.5;margin-bottom:14px}
+  #stage{position:relative;max-width:460px;margin:0 auto}
+  svg{width:100%;height:auto;display:block}
+  .ring{cursor:pointer;opacity:0;transition:opacity .5s}
+  .ring.lit{opacity:1}
+  .ring:hover circle{filter:brightness(1.2)}
+  .ring.active circle{stroke:#F8FAFC;stroke-width:3}
+  .rlabel{fill:#F1F5F9;font-weight:700;pointer-events:none}
+  .rnum{fill:#E2E8F0;font-size:11px;font-weight:800;pointer-events:none}
+  .phase{ text-align:center;font-size:.95rem;font-weight:700;letter-spacing:2px;color:#FCD34D;min-height:1.4em;margin:8px 0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:12px;display:none;font-size:.87rem;line-height:1.6}
+  .card.open{display:block}
+  .card h3{font-size:1rem;margin-bottom:4px}
+  .card .k{color:var(--dim);font-size:.72rem;text-transform:uppercase;letter-spacing:.7px;font-weight:700;margin-top:8px}
+  .legend{margin-top:16px;font-size:.8rem;line-height:1.7;color:#CBD5E1}
+  .legend b{color:#F1F5F9}
+  .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+  .bars{margin-top:20px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .bars h3{font-size:.85rem;margin-bottom:10px;color:#CBD5E1}
+  .brow{display:grid;grid-template-columns:52px 1fr 1fr;gap:8px;align-items:center;margin-bottom:7px;font-size:.72rem}
+  .btrack{height:10px;background:#26334A;border-radius:5px;overflow:hidden}
+  .btrack i{display:block;height:100%;border-radius:5px}
+  .bhead{display:grid;grid-template-columns:52px 1fr 1fr;gap:8px;font-size:.68rem;color:var(--dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+  .hint{color:var(--dim);font-size:.75rem;text-align:center;margin-top:6px}
+  @keyframes pulse{0%{r:6}50%{r:11}100%{r:6}}
+  @keyframes ripple{0%{opacity:.7;transform:scale(.4)}100%{opacity:0;transform:scale(1.15)}}
+  .rippleC{transform-origin:230px 230px;animation:ripple 1.6s ease-out forwards}
+  .dart{opacity:0;transition:opacity .4s, transform .5s cubic-bezier(.2,1.4,.4,1)}
+  .dart.in{opacity:1}
+</style>
+</head>
+<body>
+  <h1>The Supplement-Founder Bullseye</h1>
+  <div class="sub">Your exact ideal viewer sits in the center. Every ring outward relaxes exactly one constraint. You speak <em>to</em> Ring 1 in every video, aim your content at Rings 2–4, and the algorithm expands your reach for you. <b>Define. Hit. Expand.</b></div>
+  <div class="phase" id="phase">DEFINE</div>
+  <div id="stage"><svg id="sv" viewBox="0 0 460 460" aria-label="5-ring audience bullseye"></svg></div>
+  <div class="hint">Tap any ring for its detail card</div>
+  <div class="card" id="card"></div>
+  <div class="legend" id="legend"></div>
+  <div class="bars">
+    <h3>The core tradeoff, ring by ring</h3>
+    <div class="bhead"><span></span><span>Audience size (grows outward)</span><span>Conversion power (shrinks outward)</span></div>
+    <div id="barrows"></div>
+  </div>
+
+<script>
+// Static, file-authored data only.
+function setHTML(el, html){ el.replaceChildren(document.createRange().createContextualFragment(html)); }
+
+const RINGS = [
+ {n:1, short:'Founder, launch <90d', color:'#EF4444', r:52,
+  aud:'Supplement / performance-brand founder-formulator, under $15M revenue, with a launch, retail push, or reformulation dated inside the next 60–90 days, who can\'t settle what the campaign should say.',
+  relaxed:'— (this is the center: "Founder Marcus")', size:'1x', conv:'Highest — can buy the $750 Angle Map this week', comp:'Near-empty', sizePct:6, convPct:100},
+ {n:2, short:'Supplement founders & brand leads', color:'#F97316', r:96,
+  aud:'Founders and brand leads at supplement / performance-nutrition brands — any timeline.',
+  relaxed:'The launch clock', size:'~5–10x', conv:'High — right buyer, not yet urgent', comp:'Low (KeyGrow is the one named incumbent)', sizePct:16, convPct:78},
+ {n:3, short:'DTC health & wellness operators', color:'#F59E0B', r:140,
+  aud:'DTC health & wellness brand operators — skincare, recovery gear, fitness products, adjacent categories.',
+  relaxed:'The supplement category', size:'~25–50x', conv:'Moderate — adjacent problems, translatable proof', comp:'Moderate (wellness-broad strategists live here)', sizePct:38, convPct:48},
+ {n:4, short:'DTC / e-commerce founders & marketers', color:'#38BDF8', r:184,
+  aud:'DTC / e-commerce founders and marketing leads in any category.',
+  relaxed:'The health domain', size:'~100–500x', conv:'Low — right conversation, weaker category match', comp:'High', sizePct:68, convPct:20},
+ {n:5, short:'Business owners & marketers', color:'#1E3A5F', r:226,
+  aud:'Business owners and marketers in general — the broadest credible category.',
+  relaxed:'The commerce model', size:'~1000x+', conv:'Near-zero', comp:'Saturated', sizePct:100, convPct:5}
+];
+const CX=230, CY=230;
+const svg=document.getElementById('sv');
+// draw outer→inner so inner rings sit on top
+[...RINGS].reverse().forEach(rg=>{
+  const g=document.createElementNS('http://www.w3.org/2000/svg','g');
+  g.setAttribute('class','ring'); g.setAttribute('id','ring-'+rg.n);
+  const c=document.createElementNS('http://www.w3.org/2000/svg','circle');
+  c.setAttribute('cx',CX);c.setAttribute('cy',CY);c.setAttribute('r',rg.r);
+  c.setAttribute('fill',rg.color);c.setAttribute('stroke','#0F172A');c.setAttribute('stroke-width','2');
+  g.appendChild(c);
+  const t=document.createElementNS('http://www.w3.org/2000/svg','text');
+  t.setAttribute('x',CX);t.setAttribute('y',CY-rg.r+16);t.setAttribute('text-anchor','middle');
+  t.setAttribute('class','rnum');t.textContent=rg.n===1?'':('RING '+rg.n);
+  g.appendChild(t);
+  g.addEventListener('click',()=>openCard(rg.n));
+  svg.appendChild(g);
+});
+// center marker
+const ct=document.createElementNS('http://www.w3.org/2000/svg','text');
+ct.setAttribute('x',CX);ct.setAttribute('y',CY-4);ct.setAttribute('text-anchor','middle');ct.setAttribute('font-size','20');ct.textContent='🎯';
+svg.appendChild(ct);
+const ct2=document.createElementNS('http://www.w3.org/2000/svg','text');
+ct2.setAttribute('x',CX);ct2.setAttribute('y',CY+16);ct2.setAttribute('text-anchor','middle');ct2.setAttribute('class','rlabel');ct2.setAttribute('font-size','10');ct2.textContent='RING 1';
+svg.appendChild(ct2);
+
+// darts for the HIT phase (land on rings 2–4)
+const dartSpots=[[2,45],[3,160],[4,255],[2,300],[3,20]];
+dartSpots.forEach(([ringN,deg],i)=>{
+  const rg=RINGS.find(r=>r.n===ringN);
+  const rad=(deg-90)*Math.PI/180, rr=rg.r-20;
+  const x=CX+rr*Math.cos(rad), y=CY+rr*Math.sin(rad);
+  const d=document.createElementNS('http://www.w3.org/2000/svg','text');
+  d.setAttribute('x',x);d.setAttribute('y',y);d.setAttribute('text-anchor','middle');
+  d.setAttribute('class','dart');d.setAttribute('id','dart-'+i);d.setAttribute('font-size','15');
+  d.textContent='📍'; svg.appendChild(d);
+});
+
+// ANIMATION: Define → Hit → Expand
+const phase=document.getElementById('phase');
+function lit(n){document.getElementById('ring-'+n).classList.add('lit');}
+// Define: center pulses in
+setTimeout(()=>{phase.textContent='DEFINE — lock the center';lit(1);},200);
+// Hit: darts land on rings 2–4 (rings appear as darts hit)
+setTimeout(()=>{phase.textContent='HIT — aim at rings 2–4';[2,3,4].forEach((n,i)=>setTimeout(()=>lit(n), i*350));},1200);
+dartSpots.forEach((s,i)=>setTimeout(()=>document.getElementById('dart-'+i).classList.add('in'), 1500+i*280));
+// Expand: outer ring illuminates with a radiating pulse
+setTimeout(()=>{
+  phase.textContent='EXPAND — the algorithm carries you outward';
+  lit(5);
+  const rip=document.createElementNS('http://www.w3.org/2000/svg','circle');
+  rip.setAttribute('cx',CX);rip.setAttribute('cy',CY);rip.setAttribute('r',226);
+  rip.setAttribute('fill','none');rip.setAttribute('stroke','#38BDF8');rip.setAttribute('stroke-width','3');
+  rip.setAttribute('class','rippleC');svg.appendChild(rip);
+  setTimeout(()=>phase.textContent='DEFINE · HIT · EXPAND',2000);
+},3400);
+
+function openCard(n){
+  document.querySelectorAll('.ring').forEach(r=>r.classList.remove('active'));
+  document.getElementById('ring-'+n).classList.add('active');
+  const rg=RINGS.find(r=>r.n===n);
+  setHTML(document.getElementById('card'), `
+    <h3><span class="sw" style="background:${rg.color}"></span>Ring ${rg.n} — ${rg.short}</h3>
+    <div class="k">Audience</div>${rg.aud}
+    <div class="k">Constraint relaxed vs. the ring inside</div>${rg.relaxed}
+    <div class="k">Relative size</div>${rg.size} <span style="color:var(--dim)">(directional estimate, not a measurement)</span>
+    <div class="k">Conversion proximity</div>${rg.conv}
+    <div class="k">Competition density</div>${rg.comp}`);
+  document.getElementById('card').classList.add('open');
+}
+
+setHTML(document.getElementById('legend'),
+  RINGS.map(r=>`<div><span class="sw" style="background:${r.color}"></span><b>Ring ${r.n}:</b> ${r.aud}</div>`).join(''));
+
+setHTML(document.getElementById('barrows'),
+  RINGS.map(r=>`<div class="brow"><span style="color:${r.color};font-weight:700">Ring ${r.n}</span>
+    <span class="btrack"><i style="width:${r.sizePct}%;background:#38BDF8"></i></span>
+    <span class="btrack"><i style="width:${r.convPct}%;background:#EF4444"></i></span></div>`).join(''));
+</script>
+</body>
+</html>

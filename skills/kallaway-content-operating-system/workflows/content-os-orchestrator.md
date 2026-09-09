@@ -33,6 +33,7 @@ Ask only if the missing information changes the execution path. Otherwise state 
 
 | User Need | Primary Source Evidence | Component Chain |
 |---|---|---|
+| Build qualified category authority or diagnose audience dilution | `1ilMGCxJBQY`, plus the relevant buyer/psychology package | `micro-fame-authority-density -> kallaway-content-psychology -> /kcs-topic-format -> /kcs-performance-loop -> kallaway-social-commerce` |
 | Build an audience of buyers | `oRYfJ_yxz6M`, `7pCEsr-0KIw` | `kallaway-content-psychology -> /kcs-topic-format -> /kcs-substance -> /obsession-level-architect -> kallaway-social-commerce` |
 | Run the content production system | `B9l9TRhu5Vw`, `1q__Vs2JqbI` | `/ai-topic-mining -> /kcs-topic-format -> /kcs-substance -> /kcs-hook-triad -> /kcs-script-profile -> /kcs-edit-path -> /kcs-performance-loop` |
 | Adapt to social media in 2026 | `ImzoNTrgvFg`, `bqzd0h0gmU0` | `kallaway-content-psychology -> kallaway-social-commerce -> /kcs-10x-batch` |
@@ -40,14 +41,18 @@ Ask only if the missing information changes the execution path. Otherwise state 
 | Build hooks that cannot be skipped | `onQoYdxWXdA` | `/kcs-hook-triad -> /word-opener -> /word-grip -> /addiction-loop-architect` |
 | Upgrade storytelling and retention | `SDHKQbKC7gA` | `/addiction-loop-architect -> /loop-chain-scripting -> /word-rhythm -> /word-grip` |
 | Create content faster with AI | `1q__Vs2JqbI`, `B9l9TRhu5Vw` | `/ai-topic-mining -> /ai-hook-extractor -> /ai-creative-sprint -> /kcs-one-rep` |
+| Build data-enabled creativity without proxy drift | `GmIn1W9V8Rs` | `/ai-topic-mining -> /ai-creative-sprint -> /kcs-one-rep -> /kcs-performance-loop` |
+| Deliver a sellable client content strategy | `GmIn1W9V8Rs` + `extractions/kallaway/` | `outlier-radar signal pack -> kallaway-ai-content-engine research controls -> /gb-orchestrate -> selected production components` |
 
 ## Execution Protocol
 
 1. Select the lane and evidence packages.
 2. Load no more than three source analyses unless the user asks for a full evidence synthesis.
 3. Produce a compact source evidence summary.
-4. Run the component chain in order.
-5. After each component, write a handoff:
+4. When the authority lane is selected, load `workflows/micro-fame-authority-density.md`. Treat the seven positioning axes as search lenses, surface only the decisive contrast, and treat four reps as the minimum evidence floor.
+5. For research or AI-production lanes, declare the data-maturity state (`COLD_START`, `HYBRID`, or `OWNED_LEARNING`), highest available metric class, and topic-vs-format cohort boundary.
+6. Run the component chain in order.
+7. After each component, write a handoff:
 
 ```markdown
 ## Skill System Handoff: [Component] -> [Next Component]
@@ -59,14 +64,18 @@ Ask only if the missing information changes the execution path. Otherwise state 
 - **Open risk**: [none or exact limitation]
 ```
 
-6. Produce the first artifact:
+8. Produce the first artifact:
+   - authority-density diagnostic
+   - positioning contrast brief
+   - 3-2-1 authority batch plan
+   - four-rep authority review
    - content strategy blueprint
    - one-rep production brief
    - hook and story package
    - 10-video batch plan
    - content system audit
    - content-to-revenue map
-7. Close with validation, next command, and reuse hook.
+9. Close with validation, next command, and reuse hook.
 
 ## Output Schema
 
@@ -82,7 +91,7 @@ components:
   component_handoffs:
     description: "One Skill System Handoff block per component run, in order: source evidence, component used, output produced, next input, validation, open risk"
   first_artifact:
-    description: "Exactly one of: content strategy blueprint, one-rep production brief, hook and story package, 10-video batch plan, content system audit, content-to-revenue map — matching the matched prompts-v2 file's own Output Contract when one exists"
+    description: "Exactly one of: authority-density diagnostic, positioning contrast brief, 3-2-1 authority batch plan, four-rep authority review, content strategy blueprint, one-rep production brief, hook and story package, 10-video batch plan, content system audit, content-to-revenue map — matching the matched prompts-v2 file's own Output Contract when one exists"
   next_use_route:
     description: "The next command or chain to run, plus the reuse hook for a repeat request"
 ```
@@ -96,6 +105,12 @@ Before final output, confirm:
 - The output is not a generic content plan.
 - The artifact can be used immediately without asking the user to choose another workflow.
 - Buyer quality, batch learning, and monetization are considered when relevant.
+- Authority-lane outputs keep reach, fit, trust, and commercial action separate.
+- Positioning outputs surface the smallest decisive contrast rather than a completed axis checklist.
+- Four-rep reviews treat four fair executions as a floor and preserve `INCONCLUSIVE` when evidence conflicts.
+- Public views are never reported as proof of demand, conversion, or revenue.
+- Competitor research is intentionally reduced once 10-20 owned pieces provide usable first-party evidence.
+- AI collection and drafting never substitute for the creator's thesis, substance, or final creative judgment.
 
 ## Failure Modes
 

@@ -1,12 +1,12 @@
 {
   "slug": "mission-video-studio-edit-bay",
-  "chip": "MISSION · SKILLS",
+  "chip": "MISSION · THREAD",
   "title": "Edit Bay Video *Studio*",
-  "dek": "The bay is built and clean; nobody has shot anything in it.",
+  "dek": "- Next session should do: Run Pilot P1 — a Parallax essay → VOX-style explainer end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 ",
   "window": "last 14 days",
   "lens": "claude",
-  "sources": "1 sessions · 6 files · 46 assets",
-  "compiled": "aug 9, 2026",
+  "sources": "0 sessions · 0 files · 40 assets",
+  "compiled": "sep 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,78 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.\n\nHandoff status is ready. Last activity today.\n\nNext: Run a pilot end to end and record exactly what VO Farrice needs to speak."
+      "body": "- Next session should do: Run Pilot P1 — a Parallax essay → VOX-style explainer end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 graphics through the taste gate, source free B-roll, mix, caption, export 3 formats, run the QA loop, deliver a publish-ready package for him to post.\n\n- Not in scope: Rebuilding any part of the studio (it is verified live). Voice cloning or TTS narration (banned by his ruling). Higgsfield anything (retired). Auto-publishing (he posts).\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 40 assets generated.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "- Objective: Give Farrice a conversational in-house video studio so production time stops being his content bottleneck — VOX explainers, shorts, LinkedIn video at credible quality from a laptop.\n\n- What is already done:\n\n  - Source video watched with 54 frames + full MES 3.0 extraction filed; folded into the existing brad-bonanno corpus (no duplicate expert minted).\n\n  - Execution layer built and verified live: `execution/transcribe_local.py` (WhisperX local, word-level), `execution/edit_bay.py` (probe · cutlist-apply · overlay · captions-burn · audio-mix · transcode · qa-probe), `execution/video_qa.py` (seam-targeted inspect · fixlist-validate · apply-log), `execution/broll_source.py` (Pexels/Pixabay + owned-first search).\n\n  - Skill layer built: `skills/video-studio/` — SKILL.md, 6 workflows, REVIEW.md picky-editor contract, cutlist/fixlist schemas, caption-style presets, global + brand style files, graphics-taste canon.\n\n  - E2E proof at $0: 90s of real footage → transcript (310 timed words) → 6-shot cutlist → 1920×1080 render → burned captions → vertical + LinkedIn exports → qa-probe caught a genuine −17 LUFS defect → audio-mix → all six checks pass.\n\n  - Higgsfield fully retired across `creative_router.py` (people → `fal-people`, cinema → seedance-720p, virality → manual-review), craft-map, `skills/generate/SKILL.md`, and the routing memory.\n\n  - Memories written: `project_video-studio-edit-bay.md` + MEMORY.md row; `feedback_visual-tool-routing.md` updated for the retirement.\n\n  - Commits on main: `7d43c4fb6` (build) · `ea01feaa3` (close-out) · `c8f605811` (taste layer) — pushed.\n\n- What is uncertain or stale:\n\n  - HyperFrames is cloned but NOT wired (`_active/video-studio/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.\n\n  - Stock B-roll is untested — `broll_source.py` has never made a live API call (no keys yet).\n\n  - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.\n\n[…trimmed — full text in the handoff]\n\nHandoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.\n\nRisk notes:\n- Concurrent sessions: two sibling sessions edited files in this tree during the build and committed mid-work (golden rule violated). Check `git status` and the session lock before writing; a sibling also pushed between commits.\n\n- ffmpeg trap: Homebrew's ffmpeg on this Mac lacks libass — it cannot burn captions or draw text. The full static build at `tools/bin/ffmpeg` is preferred automatically by the scripts; never hardcode `/opt/homebrew/bin/ffmpeg` for filter work.\n\n- WhisperX SSL: the wrapper wires certifi itself now; if alignment-model downloads still fail, that's the cause to check first.\n\n[…trimmed — full text in the handoff]"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Finish what's open",
+          "why": "P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record",
+          "command": "python3 execution/handoff_store.py resume video-studio-edit-bay",
+          "touches": [
+            ".agent/handoffs/2026-08-06-video-studio-edit-bay.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park video-studio-edit-bay --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "video-studio-edit-bay",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill video-studio-edit-bay --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "video-studio-edit-bay",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "EXACT NEXT PROMPT — from the handoff",
+          "text": "Run Pilot P1 through the Edit Bay: pick a Parallax essay and turn it into a VOX-style\nexplainer (VO-only mode — I'll record the voiceover myself). Start with\nskills/video-studio/workflows/script-annotation.md so the script is beat-mapped and\nannotated before anything else, then tell me exactly what to record. Load the\ngraphics-taste named stack before you build any comp. I want the publish-ready\npackage at the end: 16:9 + vertical + LinkedIn, titles, description, thumbnail."
+        },
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)\nSLUG: video-studio-edit-bay\nSTATUS: ready · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-06-video-studio-edit-bay.md\n\nRESUME HERE: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record\nSTILL OPEN: P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,20 +95,11 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "6",
-          "label": "FILES WRITTEN"
-        },
-        {
-          "value": "46",
+          "value": "40",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "1",
-          "label": "SESSIONS",
-          "note": "claude"
-        },
-        {
-          "value": "2",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -49,50 +111,6 @@
       "caption": "daily, last 14 days — each series scaled to itself",
       "series": [
         {
-          "label": "sessions",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0
-          ],
-          "value": "1",
-          "unit": "total",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            6,
-            0,
-            0
-          ],
-          "value": "6",
-          "unit": "files",
-          "note": "per day"
-        },
-        {
           "label": "assets",
           "values": [
             0,
@@ -103,14 +121,14 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            6,
             40,
+            0,
+            0,
+            0,
+            0,
             0
           ],
-          "value": "46",
+          "value": "40",
           "unit": "made",
           "note": "per day"
         }
@@ -141,18 +159,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Finish what's open",
-          "why": "Until a pilot runs end to end, the unwired and untested pieces are unknowns rather than known-good — the shakedown never exercised them."
-        }
-      ]
-    },
-    {
       "kind": "assets",
       "heading": "what this thread *made*",
       "tag": "COPY THE PATH",
@@ -162,139 +168,27 @@
           "role": "IMAGE",
           "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
           "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
-          "note": "aug 7, 2026"
+          "note": "sep 3, 2026"
         },
         {
           "title": "insp_010.jpg",
           "role": "IMAGE",
           "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
           "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
-          "note": "aug 7, 2026"
+          "note": "sep 3, 2026"
         },
         {
           "title": "insp_004.jpg",
           "role": "IMAGE",
           "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
           "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
-          "note": "aug 7, 2026"
+          "note": "sep 3, 2026"
         },
         {
-          "title": "v02.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "v01-captioned-linkedin.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-linkedin.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "v01-captioned-vert-916.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-vert-916.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "v01-captioned.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "v01.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "test-clip.mp4",
-          "role": "VIDEO",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/footage/test-clip.mp4",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "+37 more in 4 folders",
+          "title": "+37 more in 1 folder",
           "role": "MORE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames",
           "note": "open the folder — sampled here, not truncated silently"
-        },
-        {
-          "title": "SKILL.md",
-          "role": "FILE",
-          "path": "skills/video-studio/SKILL.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "REVIEW.md",
-          "role": "FILE",
-          "path": "skills/video-studio/REVIEW.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "produce-explainer.md",
-          "role": "FILE",
-          "path": "skills/video-studio/workflows/produce-explainer.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "graphics-taste.md",
-          "role": "FILE",
-          "path": "skills/video-studio/style/graphics-taste.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "package-release.md",
-          "role": "FILE",
-          "path": "skills/video-studio/workflows/package-release.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "derive-shorts.md",
-          "role": "FILE",
-          "path": "skills/video-studio/workflows/derive-shorts.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "2026-08-06-video-studio-edit-bay.md",
-          "role": "GUIDE",
-          "path": "guides/2026-08-06-video-studio-edit-bay.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record",
-          "command": "python3 execution/handoff_store.py resume video-studio-edit-bay",
-          "touches": [
-            ".agent/handoffs/2026-08-06-video-studio-edit-bay.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
-      "kind": "timeline",
-      "heading": "how it got *here*",
-      "tag": "HISTORY, NOT TRUTH",
-      "items": [
-        {
-          "date": "2026-08-08",
-          "title": "commit 321746e2a",
-          "body": "fix(fleet): honest budgets + retire dead tier artifacts + self-owned fixtures",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "claude session · 17 msgs",
-          "body": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
-          "done": true
         }
       ]
     },
@@ -319,7 +213,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several integrations are cloned or keyed but untested, and the vertical reframe is acknowledged as naive. Nothing here has gone through a finished, delivered video.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

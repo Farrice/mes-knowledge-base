@@ -1,0 +1,5 @@
+{
+  "schema_version": "sales-psychology-development-blind-mapping/v1",
+  "promotionEligible": false,
+  "treatment_positions": {"D1":"A","D2":"B","D3":"A","D4":"B","D5":"A","D6":"B"}
+}

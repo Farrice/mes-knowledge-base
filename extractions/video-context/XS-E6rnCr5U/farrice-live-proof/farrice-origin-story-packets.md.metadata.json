@@ -1,0 +1,18 @@
+{
+  "title": "Farrice Origin Stories — Three Jun Material Packets",
+  "artifact_type": "story_material_packet_set",
+  "status": "packet_review_only_no_draft",
+  "created": "2026-09-01",
+  "source_owner": "Jun Yuh Story Material Miner",
+  "packet_count": 3,
+  "narrative_states": {
+    "full_story_candidate": 0,
+    "story_fragment_candidate": 3,
+    "no_story_candidate": 0,
+    "needs_source": 0
+  },
+  "packets_with_missing_facts": 3,
+  "writing_authorized": false,
+  "publishing_authorized": false,
+  "market_proof_state": "NO EVENT"
+}

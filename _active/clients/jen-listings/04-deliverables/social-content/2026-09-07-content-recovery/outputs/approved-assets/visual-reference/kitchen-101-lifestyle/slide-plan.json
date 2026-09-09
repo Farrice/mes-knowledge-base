@@ -1,0 +1,107 @@
+{
+  "scenario": "A",
+  "brand": "jen",
+  "status": "draft_for_visual_review",
+  "render_path": "brand-renderer",
+  "template_pool_status": "not_ready",
+  "visual_inventory": [
+    [
+      "101.jpg",
+      "kitchen.jpg",
+      "street2.jpg"
+    ],
+    [
+      "street.jpg"
+    ],
+    [
+      "101.jpg"
+    ],
+    [
+      "coffee.jpg"
+    ],
+    [
+      "street2.jpg"
+    ],
+    [
+      "kitchen.jpg"
+    ]
+  ],
+  "slide_plan": [
+    {
+      "n": 1,
+      "role": "hook",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Three photo strips: 101 sign, desirable kitchen, daily road; editorial title spans middle strip.",
+      "image_source": [
+        "101.jpg",
+        "kitchen.jpg",
+        "street2.jpg"
+      ],
+      "visual_weight": "anchor"
+    },
+    {
+      "n": 2,
+      "role": "context",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Full bleed real Van Nuys street; left aligned headline, low secondary copy.",
+      "image_source": [
+        "street.jpg"
+      ],
+      "visual_weight": "anchor"
+    },
+    {
+      "n": 3,
+      "role": "tension",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Keep actual 101 marker visible between quote and response.",
+      "image_source": [
+        "101.jpg"
+      ],
+      "visual_weight": "anchor"
+    },
+    {
+      "n": 4,
+      "role": "action",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Home coffee machine detail, text in quiet wall area.",
+      "image_source": [
+        "coffee.jpg"
+      ],
+      "visual_weight": "anchor"
+    },
+    {
+      "n": 5,
+      "role": "decision",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Return to the street at a different viewpoint; centered decision question.",
+      "image_source": [
+        "street2.jpg"
+      ],
+      "visual_weight": "anchor"
+    },
+    {
+      "n": 6,
+      "role": "share",
+      "render_mode": "HYBRID_REAL",
+      "template_id": null,
+      "local_layout": "Return to the kitchen for the share prompt.",
+      "image_source": [
+        "kitchen.jpg"
+      ],
+      "visual_weight": "anchor"
+    }
+  ],
+  "designer_audit": {
+    "visual_floor": "6/6 photographic slides; minimum 4",
+    "icon_anchor": "No decorative icons counted; road shield is part of photograph",
+    "white_space": "Scene remains visible on each frame; no empty text cards",
+    "diversity": "Three-strip cover; full photo left; sign-centered quote; coffee detail; centered street; kitchen close",
+    "overrides": "Preserve accepted conversational copy and user photo-led references over vendor six-word universal headline cap, 900-weight headline and image-free closing defaults. All-real photo mode is intentional, not a quota mix.",
+    "integration": "Real sources resolved before layout. Crops preserve road sign. No AI image generator needed. Inline designer execution; zero real subagents."
+  }
+}

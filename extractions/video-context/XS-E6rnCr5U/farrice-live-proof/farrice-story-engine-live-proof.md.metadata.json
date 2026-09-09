@@ -1,0 +1,16 @@
+{
+  "title": "Farrice Story Engine — Forge Audit and Live Proof",
+  "artifact_type": "audit_and_content_proof",
+  "status": "draft_ready_for_farrice_taste_review",
+  "created": "2026-09-01",
+  "source_owner": "Jun Yuh Story Engine",
+  "voice_mode": "Farrice BLEND",
+  "personal_test_states": [
+    "FULL STORY",
+    "METHOD_CANDIDATE",
+    "STORY FRAGMENT",
+    "NEEDS SOURCE"
+  ],
+  "publishing_authorized": false,
+  "market_proof_state": "UNTESTED"
+}

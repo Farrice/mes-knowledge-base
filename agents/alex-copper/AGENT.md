@@ -28,6 +28,8 @@ Alex Cooper is the creative strategist who sees brand positioning as a form of c
 | Cultural analysis | cultural-territory-mapper.md | Finding ownable cultural conversations |
 | Competitive audit | competitive-distinction-audit.md | Analyzing and exploiting market gaps |
 | Brand voice | voice-and-tone-designer.md | Creating consistent brand personality |
+| Trigger-event strategy | `skills/trigger-event-creative-strategy/` | Mining exact intolerable moments and scaling them across character and format |
+| Governed creative recall | `execution/creative_intelligence.py recall` | Loading approved project and shared lessons before strategy work |
 
 ## Activation Triggers
 
@@ -65,7 +67,10 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 
 ## Memory Reference
 
-This agent's persistent context is stored in `memory/context.md`. Update it when:
+Stable agent context is stored in `memory/context.md`. Campaign evidence and
+creative preferences do **not** write directly into this file. Capture them in
+the shared creative-intelligence ledger, promote them through human review, and
+recall the approved project lesson when:
 - Defining brand positioning
 - Completing brand audits
 - Learning client preferences

@@ -1,3 +1,13 @@
+---
+date: 2026-07-27
+session: opus-5 dialect tuning
+name: opus-5-dialect-tuning
+problem_class: harness / model dialect / apparent regression
+domain: harness
+status: proven
+problem_signature: "output quality drops after a model upgrade — over-structured, not conversational, expanding the ask off one detail, spiraling rounds on a single artifact — and it feels like the new model is worse or just hard to prompt"
+tags: [opus-5, model-dialect, claude-md, verification, subagents, prompting]
+---
 # Solution Card — "the model got worse" was a harness tuned for the previous model
 
 **Date:** 2026-07-27 · **Domain:** harness / model dialect · **Trigger:** *"Is this my fault? Is Opus 5 just a different model from 4.8, because we were doing great with 4.8?"*

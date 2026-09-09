@@ -163,3 +163,300 @@ released
 === 2026-08-09 05:55:45 listening run end rc=0 ===
 === 2026-08-10 05:30:02 listening run start ===
 claimed: 3a1094a97918  (heartbeat every wave: session_lock.py heartbeat 3a1094a97918)
+Run complete. Everything shipped and verified.
+
+## The pick — "the portfolio pruner"
+
+**Your buyer's live decision is subtraction, and every ad in the category still argues for addition.**
+
+Four r/Biohackers threads inside one week share a *mechanism* rather than a topic — in each one the buyer's next action is removal and his diagnostic is elimination. The load-bearing verbatim:
+
+> "I thought that taking a mix of creatine, ashwagandha, magnesium, and omega-3 would give me more energy every day, but it's making me feel tired."
+> → answered by: *"Nothing you mentioned is supposed to make you feel energized anyways, outside of placebo."*
+
+Four defensible claims devalued in one thread. Anchored safe on NIH ODS: the FDA doesn't assess effectiveness pre-market and nobody reviews the buyer's combination — so **each claim is substantiated alone and no party owns the sum.** That's the whole angle, and it costs zero claim risk.
+
+The non-obvious one: Nourished sells 3D-printed gummy stacks to consolidate *ingredients*; a buyer printed his own pill dispensers to consolidate *decisions*. Two 3D printers, same problem, opposite ends — and nobody is competing for the second job.
+
+**Why it's genuinely fresh:** the proof/testing lane was the spine of both 08-08 and 08-09, so it took the −2 and got marked SATURATED. 11 of 12 candidate signals were non-GLP-1. I also named the honest adjacency rather than hiding it — the 08-01 "rate my stack" insight covered the *entry* decision; this is the *exit* decision.
+
+**What the system actually gained:** doc 07's portfolio-pruner delta is the first new **unit of evaluation** this engine has logged. Nine prior deltas all assume product-versus-expectation. This is portfolio-versus-capacity, which means a brand can lose the reorder with *no judgement made about its product at all* — removal by triage is invisible to attribution.
+
+## Two things worth your attention
+
+**1. The gate caught me, and it was right.** My first flagship draft shipped an "It's not X. It's Y." reveal — the exact pattern I'd flagged to myself mid-draft and then reintroduced — plus a 15-word hook over the 14-word mobile cutoff. Both fixed, brief and vault copies re-verified byte-identical. Worth knowing the classifier scores the vault *file* at 3.4/8.0 because it reads frontmatter and slide headers as prose; the honest test is body copy only, which came back 0/10 and 1.5/10.
+
+**2. ⚠ Apify needs a decision from you.** The tracker was under-reporting **3.32×**. That actor bills compute, not results, and timed-out runs bill while recording $0.00. Real numbers: **$0.797 today** (I stopped Apify there, slightly over the $0.75 guidance, and finished on the $0 floor), and **$8.44 of $29** five days into the cycle — tracker claimed $2.55.
+
+I fixed the *measurement* (reads the billed figure from Apify now, `cost_source` provenance, 17 off-ledger runs logged, tracker reconciled — $20.56 left, still green). I did **not** touch the spend policy. At ~$1.69/day the plan blows before the cycle closes; the options are roughly $0.68/day for the remaining 25 days, a bigger plan, or fewer actor calls per run. That's yours.
+
+I also repaired the client defect that caused this: `cmd_reddit` sent `skipCommunity` and `skipUserPosts` both true, which the actor rejects outright for bare-subreddit URLs — so **every `--subreddit` listening call had been silently returning zero rows**. Verified the fix offline across four URL shapes with the rejection condition asserted false in every case, and confirmed the old config triggers it. Live wire confirmation is deliberately deferred to tomorrow's run rather than spending more budget to prove it — logic verified, wire path not, and I'd rather say that than imply both.
+
+## Delivered
+
+Brief (70KB, all 11 sections) · flagship post + **FINISHED 11-slide carousel** filed READY to the vault with INDEX rows · 3 insight rows + 4 promises receipts (JSONL validated line-by-line, 222/34, one self-caught omega-3 typo corrected) · deltas appended to docs 07 and 03 · exec cut rewritten · [Drive Doc](https://docs.google.com/document/d/1DUQshggh4mufn6d6FAgkwtC4DMNUk3Ve0pd1LEd_pI4/edit) mirrored and verified by round-trip, exactly one doc, nothing else touched · committed `b996fda5f` · lock released.
+
+**Cost:** $0.797 Apify (metered, standing approval) + $0 for everything else — WebSearch/WebFetch/gws all free tier or plan usage.
+
+Two smaller flags in the brief's risk list: the golden sample named in `AUTOMATION_PROMPT.md` doesn't exist at that path (I calibrated off the vault's approved corpus and said so), and `05-CONTENT-STRATEGY.md` still specifies the retired "DM PROOF" CTA — flagged, not edited, since canon isn't the engine's to change.
+ERROR: lock not held by this token
+=== 2026-08-10 06:11:54 listening run end rc=0 ===
+=== 2026-08-11 05:30:00 listening run start ===
+claimed: 93c27e47d2bf  (heartbeat every wave: session_lock.py heartbeat 93c27e47d2bf)
+Run complete. Today was **Tuesday: ICP movement** deep focus, rotating format = 45-60s video script.
+
+## The pick
+**The subscription rate is the market grading the promise your ad made, on a deadline your ad implied.**
+
+The lane fused two live threads nobody had connected. Founder side, in the open: a collagen brand at $3,000 spent, ~35 customers, CPA $80+ against a $40 AOV, **one** subscription against a model needing ~30%. Six commenters gave substantive advice on platform, funnel, offer structure, margin. Zero asked what the ad promised or by when. Buyer side, same window: *"I would have subscribed if I had gotten the results that they promised. It was supposed to take a few weeks to begin seeing results."*
+
+That conditional is the whole argument — a customer publishing the exact terms under which she'd still be paying.
+
+## What that bought you
+The ICP map has flagged "founder-side language remains [INFERENCE] — no founder verbatim owned yet" on **four separate deltas**. That gap closed today. Trigger 1 (LTV:CAC) now has founder verbatim *and* a named lever.
+
+## Artifacts
+- Brief (53KB) → `daily/2026-08-11-angle-map-listening-brief.md`, exec cut overwritten
+- Vault: flagship post + finished video script, both `READY`, four tags, INDEX rows
+- Ledgers: 2 insights (224), 4 promises receipts (38) — JSONL validated line by line
+- Deltas appended: **03** (trigger sharpening, with honest adjacency to 08-03 and 08-07b) · **07** ("the disappointed subscriber")
+- Drive: one Doc, [correct folder](https://docs.google.com/document/d/157mExAZbxui5FCECxA-QtsrLmAUYRRlyI-YUKR535QE/edit), verified parent — `export_to_drive.py` deliberately unused (bulk exporter, would have violated one-brief-one-doc)
+
+## Gates — including what failed
+**Content Finish Gate caught a real defect.** The video script had an `"It's not X. It's Y."` negation-reveal (voice card §5 ban #2). The same move sat in the flagship post in a form the gate missed. Both rewritten by deleting the negation half, in vault *and* brief. Re-run clean; prose_classifier 0/10.
+
+**Grounding Guard: WARN, not clean.** "69 factual claims, 20 source URLs." Cause is dense reuse of a small verified set — the same eight numbers recur across sections and each recurrence counts fresh. I improved it genuinely mid-run (13→20 URLs, linking firm alerts I'd cited by name only) but it stays WARN and I'm not calling it a pass.
+
+**Golden sample not loaded** — high-taste lane is `PARTIAL`, calibrated off 08-10 shipped assets instead.
+
+## Honest flags
+- Founder-thread post dates aren't in the Apify payload. Never claimed a date for them.
+- Vitacost's own page 403'd → discontinuation graded `LIKELY`, not VERIFIED.
+- Spend: $0.4108 Apify (4 calls), inside the $0.75/day guidance; month at $9.02/$29.
+- No publishing, outreach, or contact of any kind. The DM angle is a draft in the brief, explicitly marked unsent.
+
+One housekeeping item: the session lock flagged at startup was **my own launcher's**, holder PID 47710 already dead — verified before any write, released at close, `check` now returns clear.
+ERROR: lock not held by this token
+=== 2026-08-11 05:52:52 listening run end rc=0 ===
+=== 2026-08-12 05:31:12 listening run start ===
+claimed: 4a1772709c8d  (heartbeat every wave: session_lock.py heartbeat 4a1772709c8d)
+API Error: Unable to connect to API (ENOTFOUND)
+released
+=== 2026-08-12 06:05:37 listening run end rc=1 ===
+=== 2026-08-16 08:34:31 listening run start ===
+claimed: ec89f63d3911  (heartbeat every wave: session_lock.py heartbeat ec89f63d3911)
+
+## 2026-08-16 (Sunday · Education Chapter) — run summary
+
+**Angle:** the second price. Entering club/mass retail publishes a cheaper price for the identical product, and the subscriber finds it first. Evidence is entirely brand-owned and checkable: Ritual's Costco page ($48.99/60 days, "our lowest cost per day available anywhere it's sold", "the exact same formula sold on Ritual.com") against its product page ("Regular price $39.00"/30 days). About 59% more for the loyal customer, ~$174/year before club membership.
+
+## Artifacts
+- Brief → `daily/2026-08-16-angle-map-listening-brief.md`, exec cut overwritten (it was still showing 08-13)
+- Vault: flagship post + education long-form, both `READY`, four tags, INDEX rows
+- Ledgers: 3 insights (233), 3 promises receipts (46) — JSONL validated line by line, full-file reparse
+- Deltas appended: **07** (the re-priced loyalist) · **03** (the second price nobody wrote a sentence for)
+- Drive: one Doc in the correct folder, parent verified in the create response — https://docs.google.com/document/d/1kCobgG5gorjqPGDNjXAcARK5KJSG3YmSboXp-RB7LI8/edit
+- Deep focus: Retail & Distribution Chapter 1 (new curriculum lane; 08-02 ran claims/regulation, 08-09 ran formulation/manufacturing)
+
+## Gates — including what failed
+**Content Finish Gate FAILED first and caught three real defects**: a triple-beat anaphora run in each asset, and an `"It's not X. It's Y."` reveal in the long-form. A separate pass against `_active/farrice-brand/CLAUDE.md` (per-project voice rules, which the gate does not check) caught three more: a banned "Here is the part nobody..." framing, a twin-sentence aphoristic ending, and three negation-reveal constructions. All rewritten, brief copies re-synced. Re-run: WARN on line length only. prose_classifier CLEAN 0/10 on both.
+
+**Grounding Guard: WARN on the brief, not a pass.** 92 claims / 12 URLs. Improved genuinely mid-run (8→12 URLs by linking the market-domain candidates to the threads they were scored from) and still WARN. Structural cause: the mandated output shape restates the same verified numbers across seven sections.
+
+## Honest flags
+- Golden sample not re-read — high-taste lane `PARTIAL`.
+- Every channel-mix statistic surfaced in the scan was CUT, not hedged: two vendor blogs returned mutually contradictory splits in the same search and neither cited anything.
+- Flagship names a real brand. Pillar-1 protocol applies: send to Ritual before publishing. Unnamed variant supplied in the hook stack. Flagged as the run's open risk.
+- Zero health, dosing or efficacy content anywhere. The prenatal product is discussed only as a priced object in two channels.
+- Spend: $0.6722 Apify (4 calls), inside the $0.75/day guidance; month at $10.01/$29 (35%).
+- No publishing, outreach, or contact of any kind. The DM angle is a draft in the brief, explicitly marked unsent.
+
+## Two findings that need Farrice, not another note
+1. **The 08-15 run recorded work it did not do** — it cites ledger counts (243/43) that never existed on disk (both files last written 08-13), filed no vault assets, left `LATEST-EXEC-CUT.md` at 08-13, and cites a "Farrice standing instruction (2026-08-14)" disabling Drive that appears nowhere else in the repo. Nothing altered retroactively; recorded so it is visible rather than inherited.
+2. **The Apify Reddit actor's query filter has been broken for at least four days** and every run re-notes it. Bare `--subreddit` returns the community object; unscoped queries return the global new feed; inside `--scope-query-to-subreddit` the query is ignored. Worth one fix in `execution/apify_client.py` rather than a fifth degradation note.
+Scheduled run, Sunday branch — education chapter + education long-form finished. Done, all 24 acceptance checks pass.
+
+## The angle: the second price
+
+A DTC brand's proof lives on a website. A shelf has a front panel and four seconds. The day you land the retail account you don't add a channel — you publish a **second, cheaper price for the identical product**, and the customer most likely to find it is the one who believed you first.
+
+The evidence is entirely brand-owned and checkable in ten minutes, which is what made it win:
+
+| | |
+|---|---|
+| Ritual at Costco | $48.99 / 60 days = **82¢ a day** — their words: *"our lowest cost per day available anywhere it's sold,"* *"the exact same formula sold on Ritual.com"* |
+| Ritual subscription | *"Regular price $39.00"* / 30 days = **$1.30 a day** |
+| The subscriber pays | **~59% more, ~$174/year** |
+
+Nothing went wrong — club economics force that math on every brand entering the door. The gap is that **no page anywhere tells the subscriber what she's still buying.** That's a message decision, and it's exactly the Angle Map ("retail push" is already a named live occasion in the canon).
+
+Counter-case in the same month: Applied Nutrition licensed Sour Patch Kids and Swedish Fish from Mondelēz into ~2,200 Walmart and ~1,300 GNC doors — skipping the compression problem by borrowing belief instead of building it. Two brands, opposite answers, one unwritten question.
+
+**Shipped:** brief · flagship post + education long-form (Retail & Distribution Ch.1, a new curriculum lane) vaulted READY · 3 insight rows, 3 promises receipts · deltas to 07 (the re-priced loyalist) and 03 (the second price nobody wrote a sentence for) · exec cut · [Drive Doc](https://docs.google.com/document/d/1kCobgG5gorjqPGDNjXAcARK5KJSG3YmSboXp-RB7LI8/edit) in the right folder. Apify $0.67 of $0.75; month 35%. No outreach, no publishing.
+
+**Gates caught real defects, not nothing.** Content Finish Gate FAILED first — anaphora runs in both assets plus an "It's not X. It's Y." reveal. Your per-project voice rules (which the gate doesn't check) caught three more: a banned "Here is the part nobody…" framing, a twin-sentence aphoristic ending, three negation-reveals. All rewritten, prose_classifier 0/10 both. Grounding guard is **WARN on the brief** (92 claims / 12 URLs) — I improved it 8→12 URLs mid-run and it's still WARN, so I'm not calling it a pass. Every channel-mix statistic got cut rather than hedged: two vendor blogs contradicted each other in the same search.
+
+## Two things that need you, not another note
+
+1. **The 08-15 run recorded work it didn't do.** It cites ledger counts (243/43) that never existed on disk — both files were last written 08-13. No vault assets. `LATEST-EXEC-CUT.md` was still on 08-13 when I opened it. And its "Drive DISABLED per Farrice standing instruction (2026-08-14)" cites an instruction that appears nowhere else in the repo. I changed nothing retroactively and followed the prompt file on Drive. If you *did* give that instruction verbally, it belongs in AUTOMATION_PROMPT.md, not in a brief — tell me and I'll put it there.
+2. **The Apify Reddit query filter has been broken four days running** and each run re-notes it. Bare `--subreddit` returns the community object; unscoped queries return the global new feed (today: skincare, luggage, cloud gaming against a supplement query). One fix in `apify_client.py` beats a fifth degradation note.
+
+**One risk on today's flagship:** it names Ritual and shows their loyalists paying 59% more. It's sourced entirely to their own two pages and credits them hard, but Pillar-1 protocol isn't optional here — send it before publishing. An unnamed variant is in the hook stack if you'd rather run it structurally.
+released
+=== 2026-08-16 10:10:25 listening run end rc=0 ===
+=== 2026-08-24 05:34:19 listening run start ===
+claimed: 9cf8dc737694  (heartbeat every wave: session_lock.py heartbeat 9cf8dc737694)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-24 05:52:08 listening run end rc=1 ===
+=== 2026-08-25 05:30:05 listening run start ===
+claimed: bfd9f23543ff  (heartbeat every wave: session_lock.py heartbeat bfd9f23543ff)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-25 05:30:19 listening run end rc=1 ===
+=== 2026-08-26 05:30:04 listening run start ===
+claimed: a328fa57396e  (heartbeat every wave: session_lock.py heartbeat a328fa57396e)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-26 05:30:16 listening run end rc=1 ===
+=== 2026-08-27 05:30:00 listening run start ===
+claimed: 99bffe80f75f  (heartbeat every wave: session_lock.py heartbeat 99bffe80f75f)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-27 05:30:10 listening run end rc=1 ===
+=== 2026-08-27 09:37:27 listening run start ===
+claimed: f988a07cc8ac  (heartbeat every wave: session_lock.py heartbeat f988a07cc8ac)
+Handoff saved to `.agent/handoffs/2026-08-27-knowledge.md` (thread `knowledge`, status active).
+
+Resume hint: *Angle Map 2026-08-27 shipped (dose-as-weakest-claim); next: fix the dead launchd job `com.antigravity.angle-map-listening`.*
+
+The single next move I flagged: the scheduler. Every other defect from this run is survivable — a dead cadence is not, because the engine's whole value is compounding day over day, and it just lost eleven days of market movement.
+released
+=== 2026-08-27 10:21:45 listening run end rc=0 ===
+=== 2026-08-27 10:32:32 listening run start ===
+claimed: d58aa1c1aec1  (heartbeat every wave: session_lock.py heartbeat d58aa1c1aec1)
+=== 2026-08-27 10:32:42 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 10s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-27 10:32:52 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 20s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+Execution error=== 2026-08-27 10:33:07 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-27 10:33:14 listening run start ===
+claimed: cb1a215cbedb  (heartbeat every wave: session_lock.py heartbeat cb1a215cbedb)
+Today's run was already done — I verified it instead of re-running it. The brief was produced at 10:20 this morning and committed as `8511588d8`, about fifteen minutes before this session started. Re-running would have duplicated five ledger rows, overwritten a PASS brief with a weaker second draft, and created a second Google Doc, which breaks the prompt's own "one brief in, one Doc out, per day" boundary.
+
+What I checked directly rather than taking the brief's word for it:
+
+- Brief saved, 457 lines, at `_active/knowledge/health-performance-ip-library/daily/2026-08-27-angle-map-listening-brief.md`
+- Exec cut rewritten, 6 lines, Thursday deep focus (category/creator/offer patterns)
+- 3 insight rows and 2 promises rows dated today; both ledgers validate clean at 236 and 48 rows
+- 3 finished vault assets filed with `status: READY` and all four tags, plus 3 matching INDEX rows
+- Living-doc deltas appended to both 07-AUDIENCE and 03-ICP-TRUTH-MAP
+- Google Drive mirror — **independently verified**, not just claimed. Doc `1nHR1pfTWyED4ry5705omVcK1pa10EOK6C1FSH1dgzMk`, correct title, parent folder `11pHojFQgW9...` confirmed, native Google Doc, not trashed. I checked this specifically because the 07:45 launchd run logged an OAuth failure, so the claim was worth doubting. It holds.
+
+No publishing, no outreach, no contact of any kind occurred, and I wrote nothing.
+
+The one thing genuinely open is the thing the brief flagged on itself: today's buyer quotes grade `LIKELY`, not `VERIFIED`. Apify was retired this morning at 09:05, and WebFetch is blocked from reddit.com in this harness, so the quotes came back engine-recovered rather than directly read. Opening the two Reddit URLs in the brief's §1.5 takes about thirty seconds and upgrades them to `VERIFIED`.
+
+★ Insight ─────────────────────────────────────
+Retiring Apify quietly removed the only tool that could read Reddit directly, but the engine's acceptance checks still require verbatim buyer language with a URL. The prompt file at line 106 still reads "Apify first." The engine didn't break — it degraded honestly and said so — but it now structurally cannot hit `VERIFIED` on its own core receipt without a human opening a browser.
+─────────────────────────────────────────────────
+
+That's a real fork worth your call, since the promises-not-kept receipt is the offer's home turf:
+
+**A. Patch the ladder, accept `LIKELY`.** Edit AUTOMATION_PROMPT.md so rung 1 is `research.py`, and write the thirty-second human URL check into the daily flow as a standing step. Cheapest, keeps the engine running, but every receipt carries a caveat until you personally clear it.
+
+**B. Find Apify's replacement for the Reddit seat.** Something that actually fetches thread text so quotes land `VERIFIED` unattended. Costs a build session and probably a small subscription, right after you just cancelled one.
+
+I'd take A now and only go to B if the `LIKELY` grades start showing up in content you actually want to publish — a caveat you clear yourself in thirty seconds is not worth a new vendor.
+
+Separately, COS wants you: it's been 5 days since your last check-in (`/cos`, 90 seconds), and the board session is 25 days overdue (`/cos weekly`, ~15 min).
+ERROR: lock not held by this token
+=== 2026-08-27 10:35:25 listening run end rc=0 ===
+=== 2026-08-28 07:19:39 listening run start ===
+BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)
+=== 2026-08-29 05:30:05 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: b158f974d5a8  (heartbeat every wave: session_lock.py heartbeat b158f974d5a8)
+Not logged in · Please run /login
+released
+=== 2026-08-29 05:30:08 listening run end rc=1 ===
+=== 2026-08-30 05:30:01 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 3986c72ffd09  (heartbeat every wave: session_lock.py heartbeat 3986c72ffd09)
+Not logged in · Please run /login
+released
+=== 2026-08-30 05:30:05 listening run end rc=1 ===
+=== 2026-08-31 05:30:02 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 049fe751ed45  (heartbeat every wave: session_lock.py heartbeat 049fe751ed45)
+Not logged in · Please run /login
+released
+=== 2026-08-31 05:30:05 listening run end rc=1 ===
+=== 2026-09-01 05:30:04 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 06716358cbfd  (heartbeat every wave: session_lock.py heartbeat 06716358cbfd)
+Not logged in · Please run /login
+released
+=== 2026-09-01 05:30:06 listening run end rc=1 ===
+=== 2026-09-02 05:30:05 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: d441ff105b31  (heartbeat every wave: session_lock.py heartbeat d441ff105b31)
+Not logged in · Please run /login
+released
+=== 2026-09-02 05:30:08 listening run end rc=1 ===
+=== 2026-09-03 05:30:04 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 295e21230b8b  (heartbeat every wave: session_lock.py heartbeat 295e21230b8b)
+Not logged in · Please run /login
+released
+=== 2026-09-03 05:30:07 listening run end rc=1 ===
+=== 2026-09-04 05:30:02 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 09e4ad58ae62  (heartbeat every wave: session_lock.py heartbeat 09e4ad58ae62)
+Not logged in · Please run /login
+released
+=== 2026-09-04 05:30:05 listening run end rc=1 ===
+=== 2026-09-08 05:30:06 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 6173b14b43c4  (heartbeat every wave: session_lock.py heartbeat 6173b14b43c4)
+Not logged in · Please run /login
+released
+=== 2026-09-08 05:30:10 listening run end rc=1 ===
+=== 2026-09-09 05:30:05 listening run start ===
+PASS: prompt and Director Brief negative controls rejected all sabotages.
+PASS: Angle Map prompt has market and social-listening guardrails.
+Prompt: /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md
+market_count=43; glp1_count=12
+claimed: 6d5c6a4dad0b  (heartbeat every wave: session_lock.py heartbeat 6d5c6a4dad0b)
+Not logged in · Please run /login
+released
+=== 2026-09-09 05:30:08 listening run end rc=1 ===

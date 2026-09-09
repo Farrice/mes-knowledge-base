@@ -22,6 +22,10 @@ from antigravity_global_access import classify_global_access_intent
 # fire alone; weak surface terms only count in aggregate and never against a
 # content-domain prompt.
 STRONG_ANCHOR_TERMS = (
+    "execution records",
+    "session memory",
+    "agentic os",
+    "antigravity workspace",
     "codex",
     "claude code",
     "claude parity",
@@ -66,6 +70,7 @@ HOOK_SYSTEM_RE = re.compile(
 )
 
 SYSTEM_SURFACE_TERMS = (
+    "autopilot",
     "hook",
     "hooks",
     "route",
@@ -158,6 +163,9 @@ SYSTEM_PROBLEM_TERMS = (
     "why",
     "random",
     "irrelevant",
+    "obsolete",
+    "nonexistent",
+    "missing",
     "off target",
     "unusable",
     "unusable to do anything",
@@ -215,6 +223,7 @@ DELIVERABLE_VERBS = (
 )
 
 SYSTEM_ACTION_TERMS = (
+    "restore",
     "audit",
     "check",
     "repair",
@@ -245,9 +254,113 @@ REPEATABILITY_TERMS = (
     "golden sample",
 )
 
+# High-confidence operating-default intent must be classified before generic
+# expert matching. These compounds describe how Codex should decide and work
+# across tasks; they are not ordinary uses of words such as "system" or
+# "default" inside a content deliverable.
+OPERATING_ALIGNMENT_CONTEXT_TERMS = (
+    "adaptive operating layer",
+    "operating default",
+    "operating defaults",
+    "how we work together",
+    "across meaningful work",
+    "co-creative launchpad",
+    "build depth",
+    "build-depth",
+    "research warrant",
+    "iteration policy",
+    "iteration loops",
+    "control-plane intent",
+    "routing precedence",
+    "before blindly suggesting",
+    "before blindly building",
+    "evidence into a universal gate",
+    "preserve creative range",
+    "safe-task false blocks",
+)
+
+OPERATING_ALIGNMENT_CHANGE_TERMS = (
+    "implement",
+    "extend",
+    "upgrade",
+    "repair",
+    "change",
+    "make this a default",
+    "create a step",
+    "create a safeguard",
+    "enforce",
+    "apply these rules",
+    "route to",
+)
+
+# ``global mirror`` is ambiguous: it may describe an administrative Codex
+# rollout or a literal creative concept. Require both the compound and explicit
+# rollout evidence, then exclude creative/deliverable context. This keeps the
+# control-plane fix narrow instead of making either word a magic keyword.
+GLOBAL_MIRROR_RE = re.compile(r"\bglobal(?:-|\s+)mirror\b")
+GLOBAL_MIRROR_ADMIN_TERMS = (
+    "prepared",
+    "file hash",
+    "file hashes",
+    "checksum",
+    "checksums",
+    "patch",
+    "target drift",
+    "target has drifted",
+    "targets have drifted",
+    "global behavior",
+    "global bridge",
+    "outside google antigravity",
+    "codex lane",
+    "write root",
+    ".codex",
+)
+GLOBAL_MIRROR_ADMIN_ACTIONS = (
+    "apply",
+    "verify",
+    "recheck",
+    "repair",
+    "restore",
+    "align",
+    "deploy",
+)
+GLOBAL_MIRROR_CREATIVE_TERMS = (
+    "art",
+    "installation",
+    "story",
+    "fictional",
+    "novel",
+    "poem",
+    "film",
+    "visual",
+    "metaphor",
+    "campaign",
+    "post",
+    "copy",
+    "sculpture",
+    "photograph",
+)
+
 
 def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.lower()).strip()
+
+
+def strip_ambient_context_artifacts(value: str) -> str:
+    """Remove app-supplied browser state before classifying user intent.
+
+    Codex desktop prepends a reserved ``<in-app-browser-context>`` block whose
+    local preview URL can contain control words such as ``codex-worktrees``.
+    That metadata is explicitly not part of the user's request, so allowing it
+    into term matching creates false /system-audit overrides on normal feedback.
+    """
+
+    return re.sub(
+        r"<in-app-browser-context\b[^>]*>.*?</in-app-browser-context>",
+        " ",
+        value,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
 
 
 def strip_explicit_invocation_artifacts(value: str) -> str:
@@ -354,7 +467,9 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     evidence should route to /system-audit and suppress expert suggestions.
     """
 
-    q = normalize(strip_explicit_invocation_artifacts(prompt))
+    q = normalize(
+        strip_explicit_invocation_artifacts(strip_ambient_context_artifacts(prompt))
+    )
     global_access = classify_global_access_intent(q)
     if global_access["matched"]:
         return {
@@ -388,6 +503,39 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     action_hits = _word_hits(q, SYSTEM_ACTION_TERMS)
     content_context = bool(_word_hits(q, CONTENT_DOMAIN_TERMS))
     repeatability_hits = _hits(q, REPEATABILITY_TERMS)
+    operating_alignment_hits = _hits(q, OPERATING_ALIGNMENT_CONTEXT_TERMS)
+    operating_alignment_change_hits = _hits(q, OPERATING_ALIGNMENT_CHANGE_TERMS)
+    direct_content_artifact = bool(
+        re.search(
+            r"\b(write|draft|create|design|rewrite|produce)\b[^.!?]{0,80}"
+            r"\b(post|email|copy|headline|reel|script|newsletter|article|carousel|landing page)\b",
+            q,
+        )
+    )
+    if direct_content_artifact:
+        anchor_hits = [h for h in anchor_hits if h not in {
+            "execution records", "session memory", "agentic os", "antigravity workspace"
+        }]
+    operating_alignment_match = (
+        len(set(operating_alignment_hits)) >= 2
+        and bool(operating_alignment_change_hits)
+        and not direct_content_artifact
+        and not explicit_workflow_invoke
+    )
+    global_mirror_admin_hits = _hits(q, GLOBAL_MIRROR_ADMIN_TERMS)
+    global_mirror_admin_actions = _word_hits(q, GLOBAL_MIRROR_ADMIN_ACTIONS)
+    global_mirror_creative_context = bool(
+        _word_hits(q, GLOBAL_MIRROR_CREATIVE_TERMS)
+    )
+    administrative_global_mirror = bool(
+        GLOBAL_MIRROR_RE.search(q)
+        and global_mirror_admin_hits
+        and global_mirror_admin_actions
+        and not content_context
+        and not direct_content_artifact
+        and not global_mirror_creative_context
+        and not explicit_workflow_invoke
+    )
     # A repair/status review needs actual control-surface evidence. Without
     # this guard, ordinary capability requests such as "apply the overlay,
     # show what changed, do not promote" look like failed system repairs.
@@ -398,6 +546,28 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         and not content_context
         and (bool(anchor_hits or surface_hits) or bare_failed_repair_complaint)
     )
+
+    if administrative_global_mirror:
+        return {
+            "route": "system-audit",
+            "lane": "system-failure",
+            "reason": "Administrative global-mirror rollout belongs to /system-audit before creative expert matching.",
+            "evidence": (
+                ["global mirror"]
+                + global_mirror_admin_hits
+                + global_mirror_admin_actions
+            )[:8],
+            "confidence": 98,
+        }
+
+    if operating_alignment_match:
+        return {
+            "route": "system-audit",
+            "lane": "system-failure",
+            "reason": "Cross-task operating-default design belongs to /system-audit before domain or expert matching.",
+            "evidence": (operating_alignment_hits + operating_alignment_change_hits)[:8],
+            "confidence": 97,
+        }
 
     embedded_system_repair_plan = bool(
         repeatability_hits

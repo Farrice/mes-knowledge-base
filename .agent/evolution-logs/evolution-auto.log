@@ -3036,3 +3036,1533 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-10T07:00:02.321561",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-10.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.11,
+            "joey-cinema-os": 0.96,
+            "ben-watkins-storytelling": 1.12,
+            "banana-pro-director": 1.11,
+            "gemini-api-dev": 0.8,
+            "dave-clark": 1.2,
+            "ghostwriting-voice-engine": 1.17,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.74,
+            "nick-saraev-agentic-workflows": 1.11,
+            "kallaway-social-commerce": 0.89,
+            "kallaway-illusion-of-novelty": 1.61,
+            "extract-mastery": 1.04,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.11,
+            "youtube-video-context-analysis": 0.74,
+            "creative-direction": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 2,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 25.4
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 36.4
+    },
+    {
+      "monthly": {
+        "cycle": "monthly",
+        "gap_analysis": {
+          "summary": {
+            "total_performance_entries": 100,
+            "total_skills": 400,
+            "used_skills": 54,
+            "dead_skills": 360,
+            "gap_log_entries": 3,
+            "analysis_date": "2026-08-10"
+          },
+          "low_performing_skills": [],
+          "dead_skills_count": 360,
+          "dead_skills_sample": [
+            "adam-enfroy-affiliate-marketing",
+            "adam-sandler-second-brain-gtm",
+            "ai-carousel-content-engine",
+            "ai-chris-lee-zero-testimonial-sales",
+            "alan-aragon-nutrition",
+            "alen-sultanic-copywriting",
+            "alex-content-science",
+            "alex-copper-creative-strategy",
+            "alex-hormozi-business",
+            "alex-m-smith-natural-strategy",
+            "alex-myatt-creative-engine",
+            "alex-suzuki-digital-product-revenue-os",
+            "algorithmic-art",
+            "ali-abdaal-action-bias",
+            "andreessen-horowitz-new-media",
+            "andrew-dun-vibe-consulting",
+            "andrew-lane-design-systems",
+            "andrew-stanton-audience-engineering",
+            "andrew-wilkinson-ai-entrepreneurship",
+            "andy-galpin-training-intelligence"
+          ],
+          "weak_task_types": [],
+          "recurring_gaps": [],
+          "task_type_coverage": {
+            "Research": {
+              "count": 10,
+              "skills_used": [
+                "dara-denney-meta-ads",
+                "deep-research-os",
+                "listening-engine-v4.1",
+                "luke-iha-avatar-machine",
+                "mark-kashef-wargame-os",
+                "nba-betting-edge"
+              ],
+              "avg_quality": 7.9
+            },
+            "Content": {
+              "count": 14,
+              "skills_used": [
+                "fresh-voice-system",
+                "health-performance-listening",
+                "jen-santulan-listing-content",
+                "john-whiting-propaganda-machine",
+                "josh-sanders-linkedin-growth",
+                "lara-acosta-linkedin-mastery",
+                "luke-iha-avatar-machine",
+                "voice-os",
+                "ward-farnsworth-rhetorical-mastery"
+              ],
+              "avg_quality": 7.5
+            },
+            "System": {
+              "count": 36,
+              "skills_used": [
+                "chief-of-staff-os",
+                "deep-research-os",
+                "design-md",
+                "directives",
+                "execution",
+                "extract-mastery",
+                "forge-os",
+                "generate",
+                "harness",
+                "jason-fladlien-marketing",
+                "kallaway-illusion-of-novelty",
+                "linkedin-launch",
+                "mark-kashef-wargame-os",
+                "mike-taylor-synthetic-research",
+                "none",
+                "ray-amjad-agentic-ladder",
+                "self-heal",
+                "video-studio",
+                "wayfinder"
+              ],
+              "avg_quality": 8.1
+            },
+            "Strategy": {
+              "count": 9,
+              "skills_used": [
+                "briar-cochran-content-science",
+                "chief-of-staff-os",
+                "donald-miller-storybrand",
+                "expert-assembly-os",
+                "jeremy-haynes-cold-offer",
+                "leadership-cli",
+                "linkedin-launch/02-offer",
+                "nicolas-cole-niche-positioning",
+                "offer-redteam"
+              ],
+              "avg_quality": 8.3
+            },
+            "Extraction": {
+              "count": 21,
+              "skills_used": [
+                "benoit-vatere",
+                "briar-cochran-content-science",
+                "cody-schneider-signal-outbound",
+                "dara-denney-meta-ads",
+                "extract-mastery",
+                "hilary-gridley",
+                "jason-fladlien-marketing",
+                "kallaway-hook-mastery",
+                "matthew-lakajev-linkedin",
+                "meg-heckman-buyer-trigger-os",
+                "oren-norton-world-building",
+                "oren-slop-era-creative-strategy",
+                "paolo-trivellato-lead-magnet-engine",
+                "ray-amjad-agentic-ladder",
+                "riley-brown-marketing-automation",
+                "satori-graphics"
+              ],
+              "avg_quality": 7.9
+            },
+            "Analysis": {
+              "count": 4,
+              "skills_used": [
+                "_active/farrice-brand/voice",
+                "extract-mastery",
+                "geoff-woods-ai-thought-partner"
+              ],
+              "avg_quality": 7.6
+            },
+            "Client Work": {
+              "count": 5,
+              "skills_used": [
+                "jen-santulan-listing-content",
+                "luke-iha-client-mastery",
+                "voice-os"
+              ],
+              "avg_quality": 7.3
+            },
+            "Creative": {
+              "count": 1,
+              "skills_used": [
+                "eugene-teo-training"
+              ],
+              "avg_quality": 8.0
+            }
+          },
+          "recommendations": [
+            {
+              "priority": "LOW",
+              "type": "DEAD_SKILLS",
+              "action": "360 skills have never been used. Consider auditing for relevance or archiving unused skills."
+            }
+          ]
+        },
+        "status": "ok",
+        "phase2_card": {
+          "status": "skipped",
+          "reason": "card-phase2-2026-07-24.md completed <21d ago"
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 5.48
+    }
+  ]
+}
+{
+  "run_at": "2026-08-11T07:00:05.438458",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-11.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.14,
+            "joey-cinema-os": 0.93,
+            "ben-watkins-storytelling": 1.0,
+            "banana-pro-director": 1.14,
+            "gemini-api-dev": 0.77,
+            "dave-clark": 1.23,
+            "ghostwriting-voice-engine": 1.2,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.81,
+            "nick-saraev-agentic-workflows": 1.14,
+            "kallaway-social-commerce": 0.86,
+            "kallaway-illusion-of-novelty": 1.54,
+            "extract-mastery": 1.07,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.14
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 49.4
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 4.48
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 29.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-12T07:09:57.215715",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-12.md",
+        "traces_24h": 15,
+        "routing_decisions_24h": 15,
+        "queued_phase2": 3,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 3,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.17,
+            "joey-cinema-os": 0.9,
+            "ben-watkins-storytelling": 0.9,
+            "banana-pro-director": 1.17,
+            "gemini-api-dev": 0.74,
+            "dave-clark": 1.26,
+            "ghostwriting-voice-engine": 1.23,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.88,
+            "nick-saraev-agentic-workflows": 1.17,
+            "kallaway-social-commerce": 0.83,
+            "kallaway-illusion-of-novelty": 1.47,
+            "extract-mastery": 1.1,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.17,
+            "michael-israetel-hypertrophy": 1.05,
+            "creative-direction": 0.96,
+            "curious-refuge": 1.05,
+            "jordan-crawford-gtm-intelligence": 1.05,
+            "andrew-dun-vibe-consulting": 0.79,
+            "alan-aragon-nutrition": 0.95
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 6,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 73.5
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 3.48
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 27.99
+    }
+  ]
+}
+{
+  "run_at": "2026-08-16T10:00:04.575924",
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-16.json",
+        "skills_tracked": 10,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "creative-direction"
+        ],
+        "improving_count": 0,
+        "improving_skills": [],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-15T10:04:00.186368",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 23.87
+    }
+  ]
+}
+{
+  "run_at": "2026-08-17T07:59:19.348364",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-17.md",
+        "traces_24h": 2,
+        "routing_decisions_24h": 2,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.2,
+            "joey-cinema-os": 0.87,
+            "ben-watkins-storytelling": 0.82,
+            "banana-pro-director": 1.2,
+            "gemini-api-dev": 0.71,
+            "dave-clark": 1.29,
+            "ghostwriting-voice-engine": 1.26,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.95,
+            "nick-saraev-agentic-workflows": 1.2,
+            "kallaway-social-commerce": 0.8,
+            "kallaway-illusion-of-novelty": 1.4,
+            "extract-mastery": 1.13,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.2,
+            "michael-israetel-hypertrophy": 1.08,
+            "andrew-dun-vibe-consulting": 0.86,
+            "creative-direction": 0.93,
+            "oren-one-person-ai-marketer": 0.95,
+            "story-compass": 0.65,
+            "oren-identity-brand-os": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 2,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 22.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 45.9
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 6.08
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 22.96
+    }
+  ]
+}
+{
+  "run_at": "2026-08-18T07:00:05.883148",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-17T07:59:30.741794",
+      "reason": "not_due_yet",
+      "days_remaining": 0.04
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 5.12
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 22.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-19T04:08:13.512165",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-19.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.23,
+            "joey-cinema-os": 0.84,
+            "ben-watkins-storytelling": 0.74,
+            "banana-pro-director": 1.23,
+            "gemini-api-dev": 0.68,
+            "dave-clark": 1.32,
+            "ghostwriting-voice-engine": 1.29,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.02,
+            "nick-saraev-agentic-workflows": 1.23,
+            "kallaway-social-commerce": 0.77,
+            "kallaway-illusion-of-novelty": 1.33,
+            "extract-mastery": 1.16,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.23,
+            "michael-israetel-hypertrophy": 1.11,
+            "andrew-dun-vibe-consulting": 0.93,
+            "creative-direction": 0.9,
+            "oren-one-person-ai-marketer": 0.92,
+            "andrew-sean-greer-novel-craft": 1.05
+          },
+          "candidates_appended": 2,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 69.1
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 44.1
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 4.24
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 21.12
+    }
+  ]
+}
+{
+  "run_at": "2026-08-20T04:00:02.036962",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-19T04:08:13.986307",
+      "reason": "not_due_yet",
+      "days_remaining": 0.01
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 3.25
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 20.13
+    }
+  ]
+}
+{
+  "run_at": "2026-08-21T04:00:00.102200",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-21.md",
+        "traces_24h": 1,
+        "routing_decisions_24h": 1,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.26,
+            "joey-cinema-os": 0.81,
+            "ben-watkins-storytelling": 0.66,
+            "banana-pro-director": 1.26,
+            "gemini-api-dev": 0.65,
+            "dave-clark": 1.35,
+            "ghostwriting-voice-engine": 1.32,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.05,
+            "nick-saraev-agentic-workflows": 1.26,
+            "kallaway-social-commerce": 0.74,
+            "kallaway-illusion-of-novelty": 1.26,
+            "extract-mastery": 1.19,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.26,
+            "michael-israetel-hypertrophy": 1.14,
+            "andrew-dun-vibe-consulting": 1.0,
+            "creative-direction": 0.87,
+            "oren-one-person-ai-marketer": 0.89
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 117.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 47.9
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 2.25
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 19.13
+    }
+  ]
+}
+{
+  "run_at": "2026-08-23T07:59:20.946084",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-23.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.29,
+            "joey-cinema-os": 0.78,
+            "ben-watkins-storytelling": 0.58,
+            "banana-pro-director": 1.29,
+            "gemini-api-dev": 0.62,
+            "dave-clark": 1.38,
+            "ghostwriting-voice-engine": 1.35,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.08,
+            "nick-saraev-agentic-workflows": 1.29,
+            "kallaway-social-commerce": 0.71,
+            "kallaway-illusion-of-novelty": 1.19,
+            "extract-mastery": 1.22,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.29,
+            "michael-israetel-hypertrophy": 1.17,
+            "andrew-dun-vibe-consulting": 1.05,
+            "creative-direction": 0.84,
+            "oren-one-person-ai-marketer": 0.86
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": true,
+            "path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 0.08
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 16.96
+    }
+  ]
+}
+{
+  "run_at": "2026-08-23T08:14:08.591229",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-23T07:59:23.079642",
+      "reason": "already_ran_today",
+      "days_remaining": 0.99
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 0.07
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 16.95
+    }
+  ]
+}
+{
+  "run_at": "2026-08-24T07:00:00.321131",
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-24.json",
+        "skills_tracked": 4,
+        "degrading_count": 0,
+        "degrading_skills": [],
+        "improving_count": 0,
+        "improving_skills": [],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-23T07:59:23.079642",
+      "reason": "not_due_yet",
+      "days_remaining": 0.04
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 16.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-25T07:00:01.284370",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-24T21:55:41.627711",
+      "reason": "not_due_yet",
+      "days_remaining": 0.62
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 6.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 15.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-26T07:00:00.965466",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-26.md",
+        "traces_24h": 5,
+        "routing_decisions_24h": 5,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.35,
+            "joey-cinema-os": 0.72,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.35,
+            "gemini-api-dev": 0.56,
+            "dave-clark": 1.44,
+            "ghostwriting-voice-engine": 1.41,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.29,
+            "nick-saraev-agentic-workflows": 1.35,
+            "kallaway-social-commerce": 0.65,
+            "kallaway-illusion-of-novelty": 1.05,
+            "extract-mastery": 1.28,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.35,
+            "michael-israetel-hypertrophy": 1.23,
+            "andrew-dun-vibe-consulting": 1.11,
+            "creative-direction": 0.78,
+            "oren-one-person-ai-marketer": 0.8,
+            "lara-acosta-linkedin-growth": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 48.0
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 14.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-27T07:00:00.154811",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-26T07:00:01.601332",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 4.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 13.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-28T07:19:42.638269",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-28.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.38,
+            "joey-cinema-os": 0.69,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.38,
+            "gemini-api-dev": 0.53,
+            "dave-clark": 1.47,
+            "ghostwriting-voice-engine": 1.44,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.37,
+            "nick-saraev-agentic-workflows": 1.38,
+            "kallaway-social-commerce": 0.62,
+            "kallaway-illusion-of-novelty": 0.98,
+            "extract-mastery": 1.36,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.38,
+            "michael-israetel-hypertrophy": 1.26,
+            "andrew-dun-vibe-consulting": 1.14,
+            "creative-direction": 0.75,
+            "oren-one-person-ai-marketer": 0.77
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 96.3
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.3
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 2.99
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 11.99
+    }
+  ]
+}
+{
+  "run_at": "2026-08-29T07:00:03.142010",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-28T07:19:44.524911",
+      "reason": "not_due_yet",
+      "days_remaining": 0.01
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 2.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 11.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-30T02:14:52.513081",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-30.md",
+        "traces_24h": 11,
+        "routing_decisions_24h": 11,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.41,
+            "joey-cinema-os": 0.66,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.41,
+            "gemini-api-dev": 0.5,
+            "dave-clark": 1.5,
+            "ghostwriting-voice-engine": 1.47,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.45,
+            "nick-saraev-agentic-workflows": 1.41,
+            "kallaway-social-commerce": 0.59,
+            "kallaway-illusion-of-novelty": 0.95,
+            "extract-mastery": 1.39,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.41,
+            "michael-israetel-hypertrophy": 1.29,
+            "andrew-dun-vibe-consulting": 1.17,
+            "creative-direction": 0.72,
+            "oren-one-person-ai-marketer": 0.74,
+            "donald-miller-storybrand": 1.1,
+            "stefan-georgi-dopamine-copy": 1.01,
+            "luke-iha-avatar-machine": 1.05
+          },
+          "candidates_appended": 2,
+          "quality_finalizes_counted": 4,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 139.3
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 42.9
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 1.2
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 10.2
+    }
+  ]
+}
+{
+  "run_at": "2026-08-30T07:00:05.773626",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-30T02:15:26.409901",
+      "reason": "already_ran_today",
+      "days_remaining": 0.8
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-24T07:00:00.399992",
+      "reason": "not_due_yet",
+      "days_remaining": 1.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 10.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-31T07:00:05.282717",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-31.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.44,
+            "joey-cinema-os": 0.63,
+            "ben-watkins-storytelling": 0.5,
+            "banana-pro-director": 1.44,
+            "gemini-api-dev": 0.5,
+            "dave-clark": 1.53,
+            "ghostwriting-voice-engine": 1.5,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.58,
+            "nick-saraev-agentic-workflows": 1.44,
+            "kallaway-social-commerce": 0.56,
+            "kallaway-illusion-of-novelty": 0.92,
+            "extract-mastery": 1.42,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.44,
+            "michael-israetel-hypertrophy": 1.32,
+            "andrew-dun-vibe-consulting": 1.2,
+            "creative-direction": 0.69,
+            "oren-one-person-ai-marketer": 0.71
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": true,
+            "path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+          }
+        }
+      }
+    },
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-31.json",
+        "skills_tracked": 19,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "system-audit"
+        ],
+        "improving_count": 1,
+        "improving_skills": [
+          "sean-dollwet-kdp-publishing"
+        ],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 9.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-31T23:06:14.989441",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-31T07:00:05.878742",
+      "reason": "already_ran_today",
+      "days_remaining": 0.33
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-31T07:00:05.890437",
+      "reason": "not_due_yet",
+      "days_remaining": 6.33
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 8.33
+    }
+  ]
+}
+{
+  "run_at": "2026-09-01T07:00:05.404066",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-31T07:00:05.878742",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-31T07:00:05.890437",
+      "reason": "not_due_yet",
+      "days_remaining": 6.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 8.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-02T07:00:05.408261",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-09-02.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "jen-santulan-listing-content": 1.61,
+            "enrico-incarnati-instagram-realestate": 1.05,
+            "design-md": 0.88,
+            "jun-yuh-creator-vision": 0.9
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 2,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 48.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-31T07:00:05.890437",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 7.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-03T07:00:05.247842",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-09-02T07:00:05.801028",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-31T07:00:05.890437",
+      "reason": "not_due_yet",
+      "days_remaining": 4.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 6.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-04T07:00:05.626993",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-09-04.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "jen-santulan-listing-content": 1.54,
+            "enrico-incarnati-instagram-realestate": 1.08,
+            "design-md": 0.85,
+            "grace-andrews-media-company": 1.05,
+            "kallaway-hook-mastery": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 96.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-31T07:00:05.890437",
+      "reason": "not_due_yet",
+      "days_remaining": 3.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-08T07:00:05.336591",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-09-07T07:00:06.578554",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-09-07T07:00:06.594006",
+      "reason": "not_due_yet",
+      "days_remaining": 6.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 1.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-09T07:00:05.272617",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-09-09.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "jen-santulan-listing-content": 1.47,
+            "enrico-incarnati-instagram-realestate": 1.11,
+            "design-md": 0.82,
+            "grace-andrews-media-company": 1.08,
+            "kallaway-hook-mastery": 1.08
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 36.1
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    },
+    {
+      "monthly": {
+        "cycle": "monthly",
+        "gap_analysis": {
+          "summary": {
+            "total_performance_entries": 100,
+            "total_skills": 424,
+            "used_skills": 51,
+            "dead_skills": 398,
+            "gap_log_entries": 4,
+            "analysis_date": "2026-09-09"
+          },
+          "low_performing_skills": [],
+          "dead_skills_count": 398,
+          "dead_skills_sample": [
+            "adam-enfroy-affiliate-marketing",
+            "adam-sandler-second-brain-gtm",
+            "ai-carousel-content-engine",
+            "ai-chris-lee-zero-testimonial-sales",
+            "ai-creative-studio",
+            "alen-sultanic-copywriting",
+            "alex-content-science",
+            "alex-copper-creative-strategy",
+            "alex-hormozi-business",
+            "alex-m-smith-natural-strategy",
+            "alex-myatt-creative-engine",
+            "alex-suzuki-digital-product-revenue-os",
+            "algorithmic-art",
+            "ali-abdaal-action-bias",
+            "andreessen-horowitz-new-media",
+            "andrew-dun-vibe-consulting",
+            "andrew-lane-design-systems",
+            "andrew-sean-greer-novel-craft",
+            "andrew-stanton-audience-engineering",
+            "andrew-wilkinson-ai-entrepreneurship"
+          ],
+          "weak_task_types": [],
+          "recurring_gaps": [],
+          "task_type_coverage": {
+            "Content": {
+              "count": 13,
+              "skills_used": [
+                "_active/farrice-brand/premium-minimal",
+                "fresh-voice-system",
+                "health-performance-listening",
+                "jen-engine",
+                "john-whiting-propaganda-machine",
+                "josh-sanders-linkedin-growth",
+                "maria-wendt-digital-products",
+                "skills/jen-santulan-listing-content",
+                "vendor:00-social-content",
+                "voice-os"
+              ],
+              "avg_quality": 6.9
+            },
+            "System": {
+              "count": 26,
+              "skills_used": [
+                "alyssa-stalker-agent-content-playbook",
+                "chief-of-staff-os",
+                "deep-research-os",
+                "design-md",
+                "directives",
+                "execution",
+                "extract-mastery",
+                "generate",
+                "homebase",
+                "linkedin-launch",
+                "none",
+                "scrapes-skill-systems",
+                "skills/alyssa-stalker-agent-content-playbook",
+                "system-audit",
+                "video-studio"
+              ],
+              "avg_quality": 7.5
+            },
+            "Client Work": {
+              "count": 19,
+              "skills_used": [
+                "_shared/realtor-editorial-system",
+                "alan-aragon-nutrition",
+                "jen-engine",
+                "jen-santulan-listing-content",
+                "michael-israetel-hypertrophy",
+                "skills/enrico-incarnati-instagram-realestate",
+                "skills/jen-santulan-listing-content",
+                "strength-conditioning"
+              ],
+              "avg_quality": 7.2
+            },
+            "Analysis": {
+              "count": 5,
+              "skills_used": [
+                "_active/farrice-brand/voice",
+                "alyssa-stalker-agent-content-playbook",
+                "extract-mastery",
+                "system-audit"
+              ],
+              "avg_quality": 7.0
+            },
+            "Extraction": {
+              "count": 14,
+              "skills_used": [
+                "alyssa-stalker-agent-content-playbook",
+                "benoit-vatere",
+                "cody-schneider-signal-outbound",
+                "daniel-priestley-oversubscribed",
+                "extract-mastery",
+                "growth-blueprint-os",
+                "kallaway-hook-mastery",
+                "oren-norton-world-building",
+                "oren-slop-era-creative-strategy",
+                "sean-vosler",
+                "skills/jay-sun-films-video-craft",
+                "skills/mike-sherrard-realtor-branding"
+              ],
+              "avg_quality": 7.0
+            },
+            "Strategy": {
+              "count": 13,
+              "skills_used": [
+                "daniel-priestley-oversubscribed",
+                "donald-miller-storybrand",
+                "enrico-incarnati-instagram-realestate",
+                "maria-wendt-digital-products",
+                "mark-kashef-wargame-os",
+                "offer-redteam",
+                "skills/enrico-incarnati-instagram-realestate"
+              ],
+              "avg_quality": 7.9
+            },
+            "Creative": {
+              "count": 1,
+              "skills_used": [
+                "skills/creative-direction"
+              ],
+              "avg_quality": 6.7
+            },
+            "Research": {
+              "count": 9,
+              "skills_used": [
+                "deep-research-os",
+                "listening-engine-v4.1",
+                "nba-betting-edge",
+                "sean-vosler",
+                "skills/maria-wendt",
+                "style-vault"
+              ],
+              "avg_quality": 7.3
+            }
+          },
+          "recommendations": [
+            {
+              "priority": "LOW",
+              "type": "DEAD_SKILLS",
+              "action": "398 skills have never been used. Consider auditing for relevance or archiving unused skills."
+            }
+          ]
+        },
+        "status": "ok",
+        "phase2_card": {
+          "status": "emitted",
+          "card": "card-phase2-2026-09-09.md",
+          "skill": "jen-santulan-listing-content",
+          "tier": "T2",
+          "queued_count": 2
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-09-07T07:00:06.594006",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    }
+  ]
+}

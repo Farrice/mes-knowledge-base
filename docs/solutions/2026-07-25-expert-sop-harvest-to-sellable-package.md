@@ -2,6 +2,7 @@
 date: 2026-07-25
 session: dara-creative-strategy-harvest
 problem_class: extraction / productization / client-deliverable-systems
+problem_signature: "an expert's client-deliverable SOP exists only as documents shown on screen in their videos — transcript-only extraction returns patterns instead of the replicable system (templates, client package, business model), and the obvious route demands their paid course and tool stack"
 tags: [extract-forge, watch, frame-grounding, notion-template, persona-intelligence, dara-denney, sop-harvest, spec-work]
 ---
 

@@ -1,0 +1,45 @@
+{% liquid
+  assign focus_product = section.settings.focus_product
+  assign editorial_image = section.settings.image
+
+  if editorial_image == blank and focus_product != blank
+    assign editorial_image = focus_product.images[4] | default: focus_product.featured_image
+  endif
+%}
+
+<section class="mybpm-editorial-split" aria-labelledby="MybpmStory-{{ section.id }}">
+  <div class="mybpm-editorial-split__image">
+    {% if editorial_image != blank %}
+      {{ editorial_image
+        | image_url: width: 1800
+        | image_tag:
+          widths: '700, 1000, 1400, 1800',
+          sizes: '(max-width: 749px) 100vw, 50vw',
+          loading: 'lazy',
+          alt: section.settings.image_alt
+      }}
+    {% endif %}
+  </div>
+  <div class="mybpm-editorial-split__copy">
+    <p class="mybpm-kicker">{{ section.settings.kicker | escape }}</p>
+    <blockquote id="MybpmStory-{{ section.id }}">{{ section.settings.quote | escape }}</blockquote>
+    <div class="mybpm-editorial-split__body">{{ section.settings.copy }}</div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MyBPM editorial story",
+  "tag": "section",
+  "disabled_on": { "groups": ["header", "footer"] },
+  "settings": [
+    { "type": "product", "id": "focus_product", "label": "Fallback product" },
+    { "type": "image_picker", "id": "image", "label": "Editorial image" },
+    { "type": "text", "id": "image_alt", "label": "Image alt text", "default": "MyBPM Sublevel heavyweight tee worn in a city setting" },
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "THE SUBLEVEL" },
+    { "type": "text", "id": "quote", "label": "Quote", "default": "YOU DON'T LEAVE THE CULTURE AT THE EXIT." },
+    { "type": "richtext", "id": "copy", "label": "Copy", "default": "<p>The first premium drop starts with one garment that already clears the bar: 330 gsm cotton, a relaxed silhouette, and photography that shows how it lives beyond the venue. Every next piece has to earn its place beside it.</p>" }
+  ],
+  "presets": [{ "name": "MyBPM editorial story" }]
+}
+{% endschema %}

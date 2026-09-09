@@ -6,7 +6,7 @@ skills:
   - source-command-research-intelligence-agent
 source: "Antigravity operator suite, curated expert library, workflows, routers, feedback ratchet, and verification protocols"
 credentials: "Persistent function operator for research, intelligence, market analysis, competitive intelligence, factual verification, source ledgers"
-last_updated: 2026-05-06
+last_updated: 2026-08-16
 ---
 
 # Research Intelligence Agent
@@ -41,18 +41,24 @@ Prefer one strong route or stack over broad expert soup. Use real Codex subagent
 ## Current/Deep Research Routing Rule
 
 When the objective depends on recent, current, up-to-date, factual, market,
-competitor, client, revenue, strategy, or system-critical claims, do not choose a
-single shallow research path. Package a swarm/deep-research stack and make the
-approval boundary explicit:
+competitor, client, revenue, strategy, or system-critical claims, local harness
+context cannot establish what is true now. Route to
+`/deep-research-os --free-first` and run the Free-First Research Mission
+sequentially in the active Codex thread:
 
-- **Breadth scan**: `/research-swarm` for market, audience, and internal-system coverage.
-- **Custom live angles**: `/parallel-research --angles` when the user names dimensions such as competitors, pricing, buyer psychology, or category trends.
-- **Deep single-question truth**: `/deep-research-gemini` first, with `/deep-research` as fallback.
-- **Verification**: `/ground-truth-agent` plus `python3 execution/research_quality_gate.py` for claim labeling, source ledger review, recency checks, and contradiction scan.
+- **Live discovery**: use Codex native web search and opened full pages first.
+- **Bounded gap filling**: use Tavily Search/Extract only at basic depth, only
+  after the zero-dollar account boundary is confirmed, and never Tavily Research.
+- **Dated signals**: pull public RSS/Atom on demand; do not create a schedule.
+- **Local intelligence**: use relevant skills and local context to sharpen the
+  questions and interpretation, never as current-world evidence.
+- **Verification**: apply `/ground-truth`, `/adversarial-review`, and
+  `python3 execution/research_quality_gate.py` for source, recency,
+  contradiction, and claim-label checks.
 
-For Autopilot handoffs, recommend the stack and provide the exact approval
-prompt. Do not launch subagents, paid tools, external research, or verification
-runs until Farrice explicitly approves execution after the checkpoint.
+Native read-only web research can execute without an extra approval checkpoint.
+Do not launch Apify, paid accelerators, schedules, background workers, or real
+subagents in Free-First mode.
 
 ## Seed Workflows
 
@@ -60,16 +66,16 @@ These are seed candidates, not a closed menu. Confirm the final path through rou
 
 | Workflow | Use |
 |----------|-----|
-| `/deep-research` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
-| `/deep-research-gemini` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
+| `/deep-research-os` | Canonical owner for current external research; use `--free-first` by default in Codex |
+| `/deep-research` | Thin compatibility entry point into the Free-First owner |
 | `/research-landscape` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
 | `/research-sprint` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
-| `/research-swarm` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
-| `/parallel-research` | Seed candidate for parallel research angles; confirm by router lookup |
 | `/competitor-intel` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
 | `/icp-deep-dive` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
 | `/generate-brief` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
 | `/grounding-pass` | Seed candidate for Research Intelligence Agent; confirm by router lookup |
+| `/ground-truth` | Deterministic factual calibration and claim labeling |
+| `/adversarial-review` | Counterevidence and weak-logic review |
 
 ## Stacking Candidates
 
@@ -101,13 +107,19 @@ When this agent recommends or executes a path, expose the compact trace below un
 - Local reads of `AGENT_INDEX.md`, `SKILL_INDEX.md`, `GEMINI.md`, relevant workflows, and state files.
 - Local routing tools: `execution/command_menu.py`, `execution/workflow_router.py`, `execution/expert_router.py`, `execution/context_retriever.py`, `execution/tool_router.py`.
 - Knowledge reads: `execution/knowledge_compiler.py stats`, `execution/knowledge_compiler.py briefing`, and existing compiled reports.
+- Codex native web search and opened public pages for read-only current research.
+- On-demand public RSS/Atom reads that create no schedule or monitor.
 
-### Budget or Tool Gated
-- Gemini, Perplexity, NotebookLM, Apify, Higgsfield/Fal, browser automation, external research, and other paid or quota-bound tools.
-- Run the relevant budget/preflight check before recommending or using these tools.
+### Zero-Dollar Boundary Required
+- Tavily Search/Extract only, pinned to basic depth and bounded by the
+  Free-First contract. Fail closed until the account cannot create a dollar
+  charge; never use Tavily Research from this mode.
 
 ### Human Approval Required
-- Publishing, outreach, external writes, client/contact actions, paid API-heavy runs, destructive edits, broad rewrites, or changes outside `/Users/farricecain/Google Antigravity`.
+- Publishing, outreach, external writes, client/contact actions, paid or
+  quota-heavy accelerators, authenticated/private scraping, browser automation,
+  destructive edits, broad rewrites, schedules, real subagents, or changes
+  outside `/Users/farricecain/Google Antigravity`.
 
 ## Special Policy
 

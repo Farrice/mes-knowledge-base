@@ -41,3 +41,19 @@ Revenue path, offer fit, and social commerce role should shape content strategy 
 ## Pattern 10: Source Evidence Gates System Claims
 
 Transcript, visual, OCR, and uncertainty rows stay separate. If a source cannot support a claim, the claim does not enter the OS layer.
+
+## Pattern 11: Authority Density Beats Audience Size
+
+Reach, audience fit, trust behavior, and commercial action are different evidence lanes. A larger audience is not an authority win when the right people do not rely on or act on the creator's judgment.
+
+## Pattern 12: Positioning Is A Contrast Diagnosis
+
+Topic, depth, stories, avatar, delivery, storytelling format, and visual format are search lenses, not boxes to score. Find the controlling contrast, add one supporting contrast only if the blind distinction test still fails, then stop.
+
+## Pattern 13: Broad And Narrow Content Have Different Jobs
+
+One broad bucket recruits qualified category attention. Two narrow buckets deepen authority and commercial relevance. Do not use virality to grade content whose job is buyer trust.
+
+## Pattern 14: Four Reps Are The Evidence Floor
+
+Four fair executions per core bucket are the minimum before an ordinary performance verdict. After the floor, use `KEEP`, `MODIFY`, `KILL`, or `INCONCLUSIVE`; do not turn a minimum into an automatic kill timer.

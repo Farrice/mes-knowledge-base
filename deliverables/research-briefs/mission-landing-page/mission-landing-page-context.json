@@ -1,0 +1,35 @@
+{
+  "slug": "mission-landing-page",
+  "title": "Listing Launch Kit landing page",
+  "compiled": "sep 9, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-landing-page/mission-landing-page-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-landing-page/mission-landing-page-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-08-29-landing-page.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-29-landing-page.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "guides/2026-08-29-listing-launch-kit-landing-page-premium-minimal-brand-4-real.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-29-listing-launch-kit-landing-page-premium-minimal-brand-4-real.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

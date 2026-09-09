@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "verifier": "execution/verify_heydominik_instagram_growth_os.py",
+  "checks": 42,
+  "cases": [
+    {"name": "Greta", "expected": "OFFER", "actual": "OFFER", "revenue_state": "NO_EVENT"},
+    {"name": "Kiara", "expected": "OFFER", "actual": "OFFER", "revenue_state": "NO_EVENT"},
+    {"name": "Byron", "expected": "COMPLIANCE", "actual": "COMPLIANCE", "shadowban_claim": false},
+    {"name": "German finance", "expected": "MONETIZATION", "actual": "MONETIZATION", "revenue_state": "NO_EVENT"},
+    {"name": "Missing evidence negative control", "expected": "UNVERIFIED", "actual": "UNVERIFIED"},
+    {"name": "Repair-order trust control", "expected": "TRUST", "actual": "TRUST", "monetization_deferred": true}
+  ],
+  "route_query": "audit my Instagram offer trust profile attraction funnel",
+  "route_result": "/instagram-growth-os ranked first",
+  "live_growth_outcome": "UNTESTED_NO_EVENT"
+}

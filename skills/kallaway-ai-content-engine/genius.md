@@ -2,6 +2,7 @@
 
 > **Source**: Patterns 1-6 verified against primary source: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, uploader "Kallaway," published 2026-04-29 (https://www.youtube.com/watch?v=ImzoNTrgvFg) — transcript archived at `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` (107,458 bytes, 17,043 words; metadata confirming title/uploader/date/URL at `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json`). The original citation below it replaces — "Three Biggest Social Media Shifts" (YouTube, 2026) — is not a separate video title; it is Kallaway's own in-video description of this same video's structure ("I'm going to walk through the three biggest social media shifts happening right now," transcript @ 00:00:54). Neither `extractions/kallaway/` nor `extractions/kallaway-content-system/` contain this material — those directories cover a different Kallaway topic (the "illusion of novelty" storytelling framework and an "internet money machine" funnel breakdown; confirmed by direct read, not assumed absent).
 > **Pattern 7 caveat**: Pattern 7 ("AI Trust Goldilocks Window") cites "claude.ai export tranche 2, 2026-07-10." That file could not be located anywhere under `extractions/`, `_active/`, or `_archive/` for this repair pass — searched by keyword (`goldilocks`, `grandfather`, `trust equation`, `AI-skeptic`) and by directory listing. Pattern 7 is retained but labeled **UNCONFIRMED** — see `references/source-ledger.md` for the full search record. Do not cite Pattern 7 as a verified Kallaway claim in client-facing work until the original export is recovered.
+> **Patterns 8-12 source**: Kallaway, *"Kallaway's EXACT System For Going Viral (Over and Over),"* interview by Jay Clouse, YouTube ID `GmIn1W9V8Rs`; source package at `extractions/video-context/GmIn1W9V8Rs/`. Spoken claims are timestamp-grounded; interface mechanics are corroborated by 23 sampled frames. Treat commercial effects described by the speaker as **SOURCE-STATED**, not independently measured outcomes.
 > **Domain**: Content Psychology → AI-Augmented Production Infrastructure
 > **Tier**: Deep Extraction (Forge — Expansion)
 > **Provenance**: Claim-by-claim verification status lives in `references/source-ledger.md`. Read it before citing any number, name, or timestamp from this file in client-facing work.
@@ -73,7 +74,7 @@ No other expert in the Antigravity roster covers the **toolchain layer** — the
 3. **Deep analyze** — Transcript, topic, seed, hook format, storytelling format, visual format, stats
 4. **Export to structured data** — CSV with all analysis fields
 5. **Feed into Claude** — Upload the full dataset
-6. **Request topic bucketing** — Categories ranked by total views, then individual topics as one-liners within each category
+6. **Request topic bucketing** — Categories ranked by the highest available evidence class: private outcomes first, owned proxies second, public views third; competitor datasets will usually be public-proxy only
 7. **React creatively** — Take one topic at a time, watch the original, think about YOUR take
 
 **The Key Insight**: "In a niche, certain topics always outperform other topics. That's not me saying that. That's just the data showing it." Topics like hooks, psychology, and storytelling outperform ideation, strategy, and editing in the social media marketing niche.
@@ -193,6 +194,56 @@ AI Research → AI Analysis → AI Clustering → HUMAN REACTION → AI Drafting
 
 ---
 
+### Pattern 8: The Metric-Class Ladder
+
+**What He Does**: Refuses to treat every visible number as the same kind of evidence. He prioritizes email conversions or qualified leads, then relevant followers gained, then views. Competitor views remain useful only because stronger competitor outcomes are private.
+
+**Executable Behavior**: Label every signal as `PRIVATE_OUTCOME`, `OWNED_PROXY`, or `PUBLIC_PROXY`. Rank with the highest available class and state what cannot be inferred. Never turn views into a demand or revenue claim.
+
+**Source Anchor**: `GmIn1W9V8Rs` @ 07:35-08:23.
+
+---
+
+### Pattern 9: Cohort Before Outlier
+
+**What He Does**: Separates topic evidence from format evidence. Topic research stays within the niche and a comparable creator-size cohort; massive or cross-niche creators may teach formats, hooks, or editing, but their topics and raw reach are confounded.
+
+**Executable Behavior**: Assign each source `TOPIC_COHORT`, `FORMAT_ONLY`, or `EXCLUDE`. Use a rolling prior-three-month window, require a 5x outlier threshold, and reject candidates below 2% engagement when engagement is available.
+
+**Source Anchor**: `GmIn1W9V8Rs` @ 15:32-21:28 and 29:55-30:05.
+
+---
+
+### Pattern 10: The Ownership Transition
+
+**What He Does**: Uses competitors to solve cold start, then moves the learning loop onto the creator's own channel after roughly 10-20 posts. Owned data is more relevant because it captures the creator's trust zone, audience, offer, and delivery.
+
+**Executable Behavior**: Declare one state: `COLD_START` (fewer than 10 owned posts), `HYBRID` (10-19), or `OWNED_LEARNING` (20+). Shift weighting toward owned outcomes as the state matures; do not keep competitor research permanently dominant.
+
+**Source Anchor**: `GmIn1W9V8Rs` @ 25:01 and 32:35.
+
+---
+
+### Pattern 11: Thresholded Automation, Human Promotion
+
+**What He Does**: Automates collection only after defining signal-hygiene thresholds. A demonstrated rule uses a 5x minimum outlier score and greater-than-2% engagement. The machine builds the queue; a human still decides what deserves creative investment.
+
+**Executable Behavior**: Put numerical filters at intake, preserve rejection reasons, and route surviving candidates to a reaction question—not a generated opinion.
+
+**Source Anchor**: `GmIn1W9V8Rs` @ 20:53 and 29:55-30:05; sampled interface frames @ 21:19 and 29:55.
+
+---
+
+### Pattern 12: The Per-Stage Creative Dial
+
+**What He Does**: Changes the AI/human ratio by stage. Topic buckets can be almost entirely data-guided; substance, thesis, and creative reaction stay human. AI may produce a strong first draft, but it does not supply the reason the creator cares.
+
+**Executable Behavior**: Set an explicit control owner for each stage: data leads discovery and clustering; human leads thesis, substance, voice, and final creative judgment. Visual comprehension is a potential moat only when its added production cost improves downstream conversion.
+
+**Source Anchor**: `GmIn1W9V8Rs` @ 33:48-37:17.
+
+---
+
 ## Hidden Knowledge
 
 ### 1. The Creativity Paradox
@@ -265,3 +316,6 @@ Kallaway names these directly, on camera, as the failure modes he is actively ar
 | **Input Curation** | AI suggests sources | Mix of AI suggestions and personal curation | Hand-curated source list filtered by taste and updated quarterly |
 | **Output Specificity** | General topic suggestions | Ranked topic categories | Individual one-liner idea seeds with source links and performance data |
 | **Creative Confidence** | Creates content hoping it works | Creates content knowing the topic is validated | Creates content knowing the topic, format, and hook type are all validated — full creative freedom within a validated frame |
+| **Metric Fidelity** | Ranks by views | Distinguishes views from owned outcomes | Uses the highest available evidence class and names what lower-class proxies cannot prove |
+| **Learning Maturity** | Repeats competitor research forever | Mixes competitor and owned data | Deliberately transitions from cold-start proxies to first-party outcome learning |
+| **Cohort Control** | Compares all creators together | Filters obvious scale mismatches | Separates topic cohorts from transferable format cohorts and preserves rejection reasons |

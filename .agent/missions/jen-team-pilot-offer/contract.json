@@ -1,0 +1,27 @@
+{
+  "slug": "jen-team-pilot-offer",
+  "intent": "Package the Jen listing-content system into a repeatable $200 intro offer for 3 agents on her team; deliver creative brief + delivery process; $300-600 in 30 days; proof-of-concept that pulls Jen on board",
+  "serves": "revenue-5k-incumbency",
+  "clarity": 4,
+  "lane": "general",
+  "felt_standard": "full tilt; fastest route to $300-600; know EXACTLY what I'm offering; repeatable offer and service",
+  "route": {
+    "chosen": "solo conductor (offer packaging), engines consulted",
+    "candidates": ["mike-sherrard-build-lead-capture-workflow (40)", "mike-sherrard-audit-content-conversion (37)"]
+  },
+  "stack": {
+    "lead": "enrico-incarnati (team deployment, agent IG systems)",
+    "supports": ["mike-sherrard (four mistakes, HVC, no-asset-no-leads)", "jen-santulan-listing-content (proven deliverable shapes)", "monk-ai offer-design (pricing/ascension)", "re-compliance-pack (fair housing)"],
+    "tier": 2
+  },
+  "pattern": "solo",
+  "expected_spawns": 0,
+  "tier": "T1",
+  "cost": "$0",
+  "gates": ["prose_classifier", "finalize"],
+  "deliverable_paths": [
+    "_active/clients/jen-team-pilot/OFFER-BRIEF.md",
+    ".agent/missions/jen-team-pilot-offer/portable.md"
+  ],
+  "campaign_note": "LinkedIn Cash Launch open; Farrice explicitly chose this as the 30-day trial lane"
+}

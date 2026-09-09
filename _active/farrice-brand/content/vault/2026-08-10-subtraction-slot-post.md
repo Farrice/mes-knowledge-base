@@ -35,11 +35,11 @@ I watched a lot of people put a bottle back. Nobody ever put back the one they a
 - **Reader save reason:** the three-line brief test in the second-to-last paragraph is a reference artifact a growth lead can paste into a real brief template.
 - **Buyer next thought:** *"I don't know what our product replaces."*
 - **CTA:** none in body. First comment: *"If you want the three lines for your own brief, they're in the comment below."* One CTA discipline held; DM ANGLE lives on the carousel.
-- **Visual direction:** overhead counter-height photo — four unlabelled amber bottles, a four-compartment pillbox, a phone face-up showing a descending line chart. No faces, no logos.
+- **Visual direction:** overhead counter-height photo: four unlabelled amber bottles, a four-compartment pillbox, a phone face-up showing a descending line chart. No faces, no logos.
 - **Proof moment:** the verbatim reply plus the FDA-does-not-review-the-combination line.
 - **Turn:** from "we need a stronger reason to buy" to "we need to name what comes out."
 - **Residue line:** "Nobody ever put back the one they actually understood."
-- **Better-off test (outer ring):** passes — a non-buyer leaves with a diagnostic and permission to prune.
-- **Buyer recognition (inner ring):** passes — the villain is the unmade decision, never the team.
+- **Better-off test (outer ring):** passes: a non-buyer leaves with a decision routine and permission to prune.
+- **Buyer recognition (inner ring):** passes: the villain is the unmade decision, never the team.
 - **Claim safety:** no dosing, timing, diagnosis or personalised guidance. Community mechanism claims are not repeated in this post. The only asserted factual claim is the FDA pre-market effectiveness point (NIH ODS, VERIFIED).
 - **Source receipts:** [r/Biohackers 08-07](https://www.reddit.com/r/Biohackers/comments/1vi1518/anyone_else_think_the_longevity_stack_itself_is/) · [NIH ODS](https://ods.od.nih.gov/factsheets/WYNTK-Consumer/)

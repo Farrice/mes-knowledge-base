@@ -1,0 +1,15 @@
+# Commercialization Closeout
+
+The active offer is the Lead-to-Proposal Proof Sprint. It serves owners and operations leads at 5–25-person agencies and consultancies that already receive inquiries but still rebuild qualification, proposals, and follow-up by hand.
+
+The founding pilot costs $1,500. The client pays $750 to begin and $750 after the agreed demonstration passes. The work lasts five business days and covers one team, one workflow, up to two integrations, and one existing proposal template. Every external message and proposal remains under human approval. If the agreed workflow does not pass its acceptance test by the deadline, the client keeps the diagnosis and owes no final balance. There is no revenue guarantee.
+
+Current market evidence supports the category. Public buyer requests repeatedly ask for qualification, CRM integration, proposal workflows, follow-up, onboarding, and operating assessments. RSM reports that professional-services firms struggle with internal expertise and choosing a useful AI case. The OECD reports that gen-AI use among SMEs remains concentrated outside core work. Those findings support a small implementation offer, not a claim that Farrice's package already sells. Sources: [RSM](https://rsmus.com/content/dam/rsm/insights/industries/financial-services/infographic-2025-rsm-ai-survey-bps-insights.pdf), [OECD](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-by-small-and-medium-sized-enterprises_9c48eae6/426399c1-en.pdf), and a direct [HubSpot–PandaDoc buyer request](https://www.upwork.com/freelance-jobs/apply/HubSpot-PandaDoc-Integration-Specialist-Deals-Signup-Forms-Automation_~022011679559233586005/).
+
+The local demonstration ran 19 synthetic cases. All 19 produced the expected status and required flags. Duplicate, missing, conflicting, sensitive, failed-integration, unsupported-claim, and low-confidence cases were held for review. A clean case that requested sending still returned external sending disabled. This proves the local behavior and the human hold. It does not prove a live integration, client adoption, revenue, or demand.
+
+The market test is now simple. Farrice chooses 20 warm contacts and verifies 30 public candidates before any outreach. One cleared $750 deposit validates the offer. Qualified calls without a deposit justify changing only the dominant objection. Weak response from an otherwise clear list points to the channel before it points to the offer. Twenty qualified conversations with zero deposits parks the services offer and activates the supplement adapter.
+
+The supplement offer remains prepared but inactive. Its evidence-to-message workflow has real hiring demand, yet FDA and FTC requirements add substantiation and approval burden. The old Angle Map stays preserved as supporting IP inside that adapter rather than competing with the active offer.
+
+No page, post, profile edit, message, payment link, or client integration went live during this sprint. The next external action requires Farrice's approval, final booking details, and the first private contact choices.

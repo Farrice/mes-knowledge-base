@@ -1,0 +1,38 @@
+{
+  "source": "/private/tmp/dan-koe-local-test.mp4",
+  "origin_url": null,
+  "started_at": "2026-09-06T23:16:56Z",
+  "paid_api_calls": 0,
+  "new_dependencies": 0,
+  "stages": [
+    {
+      "local_transcription_exit": 0
+    }
+  ],
+  "review_status": "NOT_REVIEWED",
+  "status": "CAPTURED_REVIEW_REQUIRED",
+  "duration_seconds": 20.02,
+  "media_path": "/private/tmp/dan-koe-local-test.mp4",
+  "media_sha256": "59bd32c21b952b70d3a88f581b16ae4a5036e178cfea825da1683beed00d9c54",
+  "transcript_source": "local_whisper_cpp",
+  "model_path": "/Users/farricecain/.cache/whisper-cpp/ggml-base.en.bin",
+  "model_sha256": "a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002",
+  "audio_processed_range": [
+    0,
+    20.02
+  ],
+  "transcript_coverage": {
+    "status": "captured_needs_accuracy_review",
+    "timeline_fraction": 0.997,
+    "first_seconds": 0,
+    "last_seconds": 19.96,
+    "gaps_over_30s": []
+  },
+  "frames_extracted": 3,
+  "frames_reviewed": 0,
+  "limits": [
+    "ASR/captions can contain errors; timeline coverage is not accuracy.",
+    "Sparse frames can miss brief visuals; inspect cue frames before visual claims.",
+    "Public source availability is not guaranteed; no access-control bypass."
+  ]
+}

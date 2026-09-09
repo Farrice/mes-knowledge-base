@@ -1,0 +1,121 @@
+{
+  "expertise_cases": [
+    {
+      "id": "repeatable_service_method",
+      "work_type": "service",
+      "problem": "Strong expertise stayed hidden in interruption-based prospecting.",
+      "pursuit": "The operator replaced floor prospecting with opt-in seminars.",
+      "steps": 4,
+      "decision_rules": 1,
+      "output": "Teaching artifact and follow-up conversations",
+      "proof_ceiling": "EXPERIENCE",
+      "expected": "EXPERTISE_STORY_READY"
+    },
+    {
+      "id": "generic_advice",
+      "work_type": "education",
+      "problem": "People need better content.",
+      "pursuit": "Be consistent.",
+      "steps": 1,
+      "decision_rules": 0,
+      "output": "",
+      "proof_ceiling": "NONE",
+      "expected": "NEEDS_SOURCE"
+    },
+    {
+      "id": "incident_status",
+      "work_type": "incident",
+      "problem": "The service is down.",
+      "pursuit": "Rollback is in progress.",
+      "steps": 2,
+      "decision_rules": 1,
+      "output": "Restored service",
+      "proof_ceiling": "DELIVERABLE",
+      "expected": "NO_STORY"
+    },
+    {
+      "id": "unsupported_product_efficacy",
+      "work_type": "physical_product",
+      "problem": "The founder could not find a product that fit her preference.",
+      "pursuit": "She tested three formulations.",
+      "steps": 3,
+      "decision_rules": 1,
+      "output": "Prototype",
+      "proof_ceiling": "DELIVERABLE",
+      "claims_customer_result": true,
+      "expected": "CLAIM_BOUNDARY"
+    },
+    {
+      "id": "cold_realtor_client_missing_pursuit",
+      "work_type": "service",
+      "problem": "A verified content pattern is not compounding into a distinctive client-facing brand.",
+      "pursuit": "",
+      "steps": 0,
+      "decision_rules": 0,
+      "output": "",
+      "proof_ceiling": "OBSERVATION",
+      "source_path": "_active/clients/_shared/realtor-editorial-system/GIGI-KICKOFF.md",
+      "expected": "NEEDS_SOURCE"
+    }
+  ],
+  "performance_cases": [
+    {
+      "id": "not_deployed",
+      "deployed": false,
+      "qualified_replies": 0,
+      "calls": 0,
+      "payments": 0,
+      "collected": 0,
+      "expected": "NO_EVENT",
+      "roi_eligible": false
+    },
+    {
+      "id": "views_only",
+      "deployed": true,
+      "views": 12000,
+      "qualified_replies": 0,
+      "calls": 0,
+      "payments": 0,
+      "collected": 0,
+      "expected": "ATTENTION_SIGNAL",
+      "roi_eligible": false
+    },
+    {
+      "id": "qualified_intent",
+      "deployed": true,
+      "views": 2500,
+      "qualified_replies": 3,
+      "calls": 1,
+      "payments": 0,
+      "collected": 0,
+      "expected": "INTENT_SIGNAL",
+      "roi_eligible": false
+    },
+    {
+      "id": "collected_with_attribution",
+      "deployed": true,
+      "views": 1800,
+      "qualified_replies": 2,
+      "calls": 1,
+      "payments": 1,
+      "collected": 1200,
+      "cost": 200,
+      "attribution": true,
+      "expected": "COLLECTED",
+      "roi_eligible": true
+    }
+  ],
+  "mission_negative_controls": {
+    "required_missions": ["ATTRACT", "NURTURE", "POSITION", "CONVERT"],
+    "duplicate_angles_must_collapse": true,
+    "one_primary_mission_per_asset": true
+  },
+  "tacit_sequence_controls": {
+    "material_before_format": "SOURCE-SUPPORTED",
+    "pursuit_before_payoff_compression": "SOURCE-SUPPORTED",
+    "identification_trust_belief_before_cta": "SOURCE-SUPPORTED",
+    "mission_before_asset": "SOURCE-SUPPORTED",
+    "promise_as_fourth_jun_p": "REJECTED ATTRIBUTION",
+    "story_causes_roi": "UNTESTED"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpJobId": "job_eae75225-006a-4406-b90c-4f3b0888118c",
+  "toolName": "vidiq_watch_shortform_content",
+  "status": "failed",
+  "result": null,
+  "refunded": true,
+  "message": "RocketAPI reports media DaeISNIvf3s not found (status_code=400) Your credits were refunded."
+}

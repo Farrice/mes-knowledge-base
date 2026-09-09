@@ -65,3 +65,7 @@ Execution prompt: references/prompts-v2/point-architecture-engine.md — honor i
 - [ ] Confrontational points use indirect-then-direct setup vectors, never direct alone
 - [ ] Removing any point breaks the chain to the close (reverse-build test)
 - [ ] At least one major commitment tie-down; tie-downs are speakable lines, not stage directions
+
+## Optional source-backed delivery pass
+
+When the draft's reception or medium translation is the unresolved gap, run `skills/jason-fladlien-marketing/workflows/delivery-influence.md` once in the matching mode. It preserves this workflow's purpose and approved claims. Read `references/delivery-influence.md`; do not copy live crowd-response techniques into text.

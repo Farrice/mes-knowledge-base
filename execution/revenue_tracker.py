@@ -158,6 +158,26 @@ def log_outcome(
     data["total_revenue"] = sum(o.get("revenue", 0) for o in data["outcomes"])
     _save_outcomes(data)
 
+    # Close the matching creative evidence loop automatically. Revenue/outcome
+    # logging lacks a baseline and experiment design, so this is deliberately a
+    # DESCRIPTIVE_SIGNAL and can never qualify as doctrine by itself.
+    try:
+        try:
+            from creative_intelligence import attach_outcome_by_deliverable
+        except ImportError:
+            from execution.creative_intelligence import attach_outcome_by_deliverable
+        entry["creative_intelligence"] = attach_outcome_by_deliverable(
+            deliverable=deliverable,
+            revenue=revenue,
+            outcome=outcome,
+            outcome_type=outcome_type,
+            expert=expert,
+            skill=skill,
+        )
+    except Exception as e:
+        entry["creative_intelligence"] = {"skipped": True, "error": str(e)}
+    _save_outcomes(data)
+
     # Tag Notion page if provided
     if notion_page_id:
         try:

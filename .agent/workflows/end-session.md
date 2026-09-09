@@ -36,6 +36,24 @@ operator. It stays silent when the spine already ran this session (detected
 via `session_ledger_hook.py`) or when the session was purely conversational
 (no artifacts produced).
 
+## Guarded Global Shorthand
+
+These exact phrases are deterministic lifecycle requests in Codex wherever the
+global End-session skill is available. They are thin entry points into this
+workflow, not a second closeout system:
+
+| Phrase | Meaning | Hard boundary |
+|---|---|---|
+| `close ready` | Run the canonical closeout and request `ready` status. | Never archive, merge main, or treat readiness as integration. |
+| `close done` | Run the canonical closeout and test whether `done` is proven. | Archive only when the coordinator receipt sets `task_actions.archive` true; otherwise fail closed to `ready`, `blocked`, or `mid-build`. |
+| `bulk closeout audit` | Build the task-to-lane evidence map. | Read-only: no messages, commits, merges, pushes, archives, unpins, deletions, or global writes. |
+
+Bare `ready` and `done` remain ordinary status words, never commands. A bulk
+audit may prepare an eight-task wave, but dispatch is a separate explicit
+action. Use `python3 execution/bulk_closeout_control.py interpret "<phrase>"`
+for the deterministic intent packet and
+`python3 execution/bulk_closeout_control.py audit ...` for the local Git map.
+
 ## Insightful Momentum Closeout Requirement
 
 `/end-session` must not fall back to the old lightweight "Use Now / Harden /
@@ -50,13 +68,14 @@ python3 execution/contextual_next_prompts.py --objective "[session closeout obje
 
 The 3 Next Prompts must show the Insightful Momentum/frontier standard:
 
+- visible Recommended task title using `[Domain]: [Specific Object] - [Outcome]`
 - action title that names the current session object
 - Output/Capability Move
 - Operator Insight
 - Hidden Gap/Opportunity
 - Capability Revealed
 - copy-paste Prompt
-- Expected output or What it entails
+- explicitly labeled Expected outcome naming the artifact, decision, proof event, or changed state
 - Quality bar
 - Skip condition when useful
 - Suggested skills/workflows
@@ -145,6 +164,9 @@ are `git_sync: "commit-local"`, `lane_disposition: "auto"`, and
 python3 execution/codex_end_session.py run --manifest "<manifest.json>"
 ```
 
+Add `"rename_requested": true` only when Farrice explicitly asked to change
+the existing native sidebar title. Omit it for ordinary closeout.
+
 The JSON receipt is the decision surface. The Python coordinator owns exact
 handoff save/verify, conservative organization, the shared closeout spine,
 verifiers, manifest-scoped Git, lane disposition, and the optional pointer-only
@@ -152,9 +174,13 @@ global registry under `~/.codex/end-session/`. Project-local handoffs remain
 canonical. Set `git_sync: "commit-and-push"` or `global_receipts: true` only
 after Farrice explicitly approves that push or global write for the run.
 
-Codex app actions stay native and occur only after reading the receipt:
+Codex app actions stay native and occur only after reading the receipt. The
+initial semantic sidebar title is stable identity; the closeout title remains
+retrieval metadata unless Farrice explicitly requested a native rename:
 
-1. Call `set_thread_title` with `task_actions.title` for every meaningful task.
+1. Call `set_thread_title` with `task_actions.title` only when
+   `task_actions.rename` is true. Do not rename merely because the objective,
+   artifact, handoff, status, or closeout wording changed.
 2. If `task_actions.pin` is true, call `set_thread_pinned` so `active`, `blocked`, `ready`, and `mid-build` work stays visible.
 3. Call `set_thread_archived` only when `task_actions.archive` is true. A partial or failed closeout remains unarchived.
 

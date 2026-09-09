@@ -1,0 +1,11 @@
+{
+  "title": "Jason Fladlien Buyer Psychology Layer - Amplification Report",
+  "artifactType": "amplification-report",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "SHADOW",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false
+}

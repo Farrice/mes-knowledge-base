@@ -1,0 +1,27 @@
+# Video Context Ledger — ZvxpaklnMXI
+
+- **00:03:03 — observed_spoken — VERIFIED:** The rebrand uses Double Diamond divergence and convergence across Discover, Define, Develop, and Deliver.
+- **00:04:27 — observed_spoken — VERIFIED:** Discovery combines goals, customer research, user profiles, journeys, values, personality, and positioning.
+- **00:09:00 — observed_spoken — VERIFIED:** Research is synthesized into explicit design challenges before design exploration begins.
+- **00:11:53 — observed_spoken — VERIFIED:** Develop begins with multiple stylescapes that coordinate the full visual direction before refinement.
+- **00:13:53 — observed_spoken — VERIFIED:** Website, typography, color, photography, messaging, and product direction are refined in context.
+- **00:17:59 — observed_spoken — VERIFIED:** Deliver converts the chosen direction into guidelines and applies it across web, packaging, studio, content, and product surfaces.
+- **00:03:04 — observed_visual — VERIFIED_VISUAL:** Confirms divergence and convergence are explicit at both problem and solution stages.
+- **00:04:48 — observed_visual — VERIFIED_VISUAL:** Shows discovery is collaborative and grounded in people close to customers and products.
+- **00:06:27 — observed_visual — VERIFIED_VISUAL:** Shows research is converted into structured user and perception artifacts.
+- **00:07:34 — observed_visual — VERIFIED_VISUAL:** Shows verbal identity is derived during definition, not appended after visual design.
+- **00:09:33 — observed_visual — VERIFIED_VISUAL:** Shows discovery outputs become explicit design challenges before solution exploration.
+- **00:12:25 — observed_visual — VERIFIED_VISUAL:** Shows a stylescape as a coordinated direction candidate rather than isolated component choices.
+- **00:12:52 — observed_visual — VERIFIED_VISUAL:** Confirms direction choice is made at a whole-system level before component refinement.
+- **00:13:22 — observed_visual — VERIFIED_VISUAL:** Shows the selected direction being tested against a real touchpoint.
+- **00:14:46 — observed_visual — VERIFIED_VISUAL:** Shows typography is selected in context, not as a detached font specimen.
+- **00:15:17 — observed_visual — VERIFIED_VISUAL:** Shows color decisions are validated in application rather than swatches alone.
+- **00:15:56 — observed_visual — VERIFIED_VISUAL:** Shows image direction is articulated as a range of visual behaviors.
+- **00:18:52 — observed_visual — VERIFIED_VISUAL:** Shows the chosen direction has been converted into a reusable system document.
+- **00:19:15 — observed_visual — VERIFIED_VISUAL:** Shows system rules include both tokens and an explanation of intended use.
+- **00:19:38 — observed_visual — VERIFIED_VISUAL:** Shows identity consistency across photographic and editorial components.
+- **00:20:02 — observed_visual — VERIFIED_VISUAL:** Shows the brand is validated beyond a style guide through channel applications.
+- **00:20:12 — observed_visual — VERIFIED_VISUAL:** Shows the same direction survives physical-space application.
+- **00:20:32 — observed_visual — VERIFIED_VISUAL:** Shows delivery as an integrated system review rather than a logo reveal.
+- **00:21:33 — observed_visual — VERIFIED_VISUAL:** Shows the identity driving a live digital product surface.
+- **00:22:06 — observed_visual — VERIFIED_VISUAL:** Shows the brand system changing the ongoing production environment.

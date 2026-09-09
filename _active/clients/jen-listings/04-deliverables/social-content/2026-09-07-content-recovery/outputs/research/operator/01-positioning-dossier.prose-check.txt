@@ -1,0 +1,18 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    FLAGGED
+  AI Score:   6.5/10
+  Words:      1498
+  Signals:    3
+  Rhythm CV:  1.41 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 11 parallel blocks found
+    [1.5] aphoristic_endings — [voice](</Users/farricecain/.codex/workt, [language](</Users/farricecain/.codex/wo, [Document 2](</Users/farricecain/.codex/
+    [3.0] structural_emoji — lways a catch 😂, ## Pain → useful content → ser
+
+  This prose reads AI-generated. Expert Standard capped at 6. Rewrite with: shorter sentences, active voice, specific details over abstractions, and the expert's actual vocabulary (not AI vocabulary).
+============================================================
+

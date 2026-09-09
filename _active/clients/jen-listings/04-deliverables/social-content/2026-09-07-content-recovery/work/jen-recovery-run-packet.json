@@ -1,0 +1,202 @@
+{
+  "schema_version": "raw-intent-run-packet/v1",
+  "raw_intent": "God, I don't know what's going on right now! I feel like we had it, and now we just lost it. Earlier, you explained to me the exact methodology that you used to get to the result that I loved and the packaging of it, and now we're so far away from it. I don't really understand what's happening right now! Well, you showed me a flow system that worked, and it produced the standard I wanted. Even when I review these references, these aren't even close! I don't understand it. It feels so explanatory! It's not even conversational. It doesn't have the same cadence. It doesn't even have the same articulation that makes it feel authentic and like someone having a conversation with you that these references have. Can we get back to what worked? I don't know what's happening! I need us to go back to the trace of where we actually had the winning format and complete post that I gave you the nod on. I don't know why we're breaking all the rules of what worked, and you said that you locked it in, and now we're just scattered and all over the place!\n\nI need us to do an audit. I think you're getting too lost in all my refinements and edits and requests, and not tackling this from the point of view that was winning previously. Please go all the way back. Let's roll it back, if we even need to, to when I gave you the first. Go ahead and acknowledge that you captured exactly what I wanted, and give me that post back again so that I can read that exact post and we can study it and see exactly how we got there.\n\nWith this format, before we try to expand everything to all these different formats and create the studio, I feel like we're completely lost. We need to figure out what happened here, trace it back, and start from there, because every iteration we've done now has gotten worse, in my opinion. I need you to help me figure this out and get back to what worked, and then build from there instead of where we're currently at.",
+  "mode": "auto",
+  "predicted_need": "Route the request through /autopilot with enough intent clarity to act safely.",
+  "center": "The /autopilot outcome, with proof and handoff included.",
+  "success_standard": "/autopilot produces the requested artifact or action and verifies it.",
+  "constraints": [
+    "Extend the existing control plane instead of adding a competing front door."
+  ],
+  "missing_inputs": [
+    "audience"
+  ],
+  "questions_that_change_execution": [],
+  "container_decision": {
+    "move": "continue",
+    "destination": "current-task",
+    "reason": "The current owner and context remain clean."
+  },
+  "capability_move": {
+    "visible": false,
+    "recommendation": "Continue here.",
+    "action": "Execute the scoped local work without interrupting the operator."
+  },
+  "why_now": "No material leverage fork is present.",
+  "approval_boundary": "None for safe, reversible workspace-local work.",
+  "auto_task_creation": false,
+  "chosen_route": "autopilot",
+  "route_owner": "Operator Autopilot",
+  "support_gates": [
+    "orchestrate",
+    "routing-intelligence",
+    "knowledge-librarian",
+    "health-check",
+    "self-evolve",
+    "friction-ledger",
+    "routing-governor",
+    "capability-graph",
+    "run-receipt"
+  ],
+  "composition_slots": [
+    {
+      "slot": "Spine",
+      "asset": "Operator Autopilot",
+      "job": "Own the final outcome through /autopilot.",
+      "evidence": "primary_route=/autopilot"
+    },
+    {
+      "slot": "Differentiator",
+      "asset": "enrico-incarnati + joshua-smith",
+      "job": "Add the non-obvious compound advantage only if it changes the output.",
+      "evidence": "execution/expert_router.py COMPOUNDS"
+    },
+    {
+      "slot": "Mechanism",
+      "asset": "/routing-intelligence",
+      "job": "Operationalize the route through the strongest support gate.",
+      "evidence": "/routing-intelligence, /health-check, /self-evolve, /friction-ledger, /routing-governor, /capability-graph, /run-receipt"
+    },
+    {
+      "slot": "Craft",
+      "asset": "owner integration pass",
+      "job": "Make the final output read or behave as one system, not stitched parts.",
+      "evidence": "Expert Composition Contract: one owner, bounded specialists, integration pass"
+    },
+    {
+      "slot": "Risk Gate",
+      "asset": "/routing-intelligence",
+      "job": "Catch broken trust, weak claims, overclaiming, or regression before closeout.",
+      "evidence": "python3 execution/verify_system_control_plane.py, python3 execution/verify_autopilot_runtime_preflight.py, python3 execution/codex_harness_check.py"
+    }
+  ],
+  "context_plan": {
+    "hot": [
+      "execution/raw_intent_run_packet.py",
+      "semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md",
+      "execution/co_creative_launchpad.py",
+      "execution/virtuoso_orchestration.py",
+      ".agent/workflows/autopilot.md"
+    ],
+    "on_demand": [
+      ".agent/workflows/source-to-skill-system.md",
+      ".agents/skills/source-command-virtuoso/SKILL.md",
+      "execution/routing_governor.py",
+      "execution/workflow_router.py",
+      "execution/plugin_readiness_audit.py"
+    ],
+    "cold": [
+      "full migrated command library",
+      "plugin marketplace files",
+      "global ~/.codex mirrors"
+    ],
+    "skip": [
+      "external writes",
+      "plugin marketplace edits",
+      "global ~/.codex writes during normal packet runs",
+      "real Codex subagents",
+      "destructive cleanup"
+    ],
+    "mode": "auto",
+    "handoff": "Use /autopilot with the packet fields; load only the support gate needed for the next step."
+  },
+  "execution_decision": {
+    "status": "Running now",
+    "first_action": "Running safe workspace-local execution now after this trace.",
+    "approval_needed": "No extra approval needed for safe local work; pause if a risk gate appears mid-run.",
+    "risk_reasons": [],
+    "safe_to_run": true
+  },
+  "first_safe_action": "/autopilot compile this raw intent into a run packet, then execute the first safe local action: God, I don't know what's going on right now! I feel like we had it, and now we just lost it. Earlier, you explained to me the exact methodology that you used to get to the result that I loved and the packaging of it, and now we're so far away from it. I don't really understand what's happening right now! Well, you showed me a flow system that worked, and it produced the standard I wanted. Even when I review these references, these aren't even close! I don't understand it. It feels so explanatory! It's not even conversational. It doesn't have the same cadence. It doesn't even have the same articulation that makes it feel authentic and like someone having a conversation with you that these references have. Can we get back to what worked? I don't know what's happening! I need us to go back to the trace of where we actually had the winning format and complete post that I gave you the nod on. I don't know why we're breaking all the rules of what worked, and you said that you locked it in, and now we're just scattered and all over the place!\n\nI need us to do an audit. I think you're getting too lost in all my refinements and edits and requests, and not tackling this from the point of view that was winning previously. Please go all the way back. Let's roll it back, if we even need to, to when I gave you the first. Go ahead and acknowledge that you captured exactly what I wanted, and give me that post back again so that I can read that exact post and we can study it and see exactly how we got there.\n\nWith this format, before we try to expand everything to all these different formats and create the studio, I feel like we're completely lost. We need to figure out what happened here, trace it back, and start from there, because every iteration we've done now has gotten worse, in my opinion. I need you to help me figure this out and get back to what worked, and then build from there instead of where we're currently at.",
+  "verification_plan": [
+    "python3 execution/verify_raw_intent_global_skill.py",
+    "python3 execution/verify_raw_intent_bridge_command.py",
+    "python3 execution/verify_raw_intent_run_packet.py",
+    "python3 execution/routing_governor.py evaluate \"raw intent virtuoso bridge autopilot\"",
+    "python3 execution/verify_autopilot_runtime_preflight.py",
+    "python3 execution/verify_virtuoso_orchestration.py",
+    "python3 execution/verify_google_operator_core.py",
+    "python3 execution/verify_system_control_plane.py",
+    "python3 execution/codex_harness_check.py",
+    "python3 execution/plugin_readiness_audit.py --stdout autopilot mission orchestrate"
+  ],
+  "operator_run_prompt": "/autopilot compile this raw intent into a run packet, then execute the first safe local action: God, I don't know what's going on right now! I feel like we had it, and now we just lost it. Earlier, you explained to me the exact methodology that you used to get to the result that I loved and the packaging of it, and now we're so far away from it. I don't really understand what's happening right now! Well, you showed me a flow system that worked, and it produced the standard I wanted. Even when I review these references, these aren't even close! I don't understand it. It feels so explanatory! It's not even conversational. It doesn't have the same cadence. It doesn't even have the same articulation that makes it feel authentic and like someone having a conversation with you that these references have. Can we get back to what worked? I don't know what's happening! I need us to go back to the trace of where we actually had the winning format and complete post that I gave you the nod on. I don't know why we're breaking all the rules of what worked, and you said that you locked it in, and now we're just scattered and all over the place!\n\nI need us to do an audit. I think you're getting too lost in all my refinements and edits and requests, and not tackling this from the point of view that was winning previously. Please go all the way back. Let's roll it back, if we even need to, to when I gave you the first. Go ahead and acknowledge that you captured exactly what I wanted, and give me that post back again so that I can read that exact post and we can study it and see exactly how we got there.\n\nWith this format, before we try to expand everything to all these different formats and create the studio, I feel like we're completely lost. We need to figure out what happened here, trace it back, and start from there, because every iteration we've done now has gotten worse, in my opinion. I need you to help me figure this out and get back to what worked, and then build from there instead of where we're currently at.",
+  "mission_card": {
+    "serves": "bowling-first-place-august",
+    "note": "target match: first, place",
+    "tier": "T1 auto"
+  },
+  "plugin_packaging_verdict": {
+    "status": "deferred",
+    "target": "antigravity-operator-core",
+    "reason": "Package only after local cold-start proof passes for revenue, creative, system, and regression fixtures.",
+    "next_check": "python3 execution/plugin_readiness_audit.py --stdout autopilot mission orchestrate",
+    "v1_boundary": "No plugin marketplace edits, no new plugin, and no unapproved global ~/.codex writes."
+  },
+  "global_access_trace": {
+    "matched": false,
+    "route": "",
+    "lane": "",
+    "stage": "",
+    "support_gates": [],
+    "reason": "",
+    "evidence": [],
+    "confidence": 0
+  },
+  "virtuoso_trace": {
+    "primary_route": "autopilot",
+    "owner": "Operator Autopilot",
+    "meta_intent": "autopilot",
+    "support_gates": [
+      "routing-intelligence",
+      "health-check",
+      "self-evolve",
+      "friction-ledger",
+      "routing-governor",
+      "capability-graph",
+      "run-receipt"
+    ],
+    "recommended_stack": {
+      "query": "God, I don't know what's going on right now! I feel like we had it, and now we just lost it. Earlier, you explained to me the exact methodology that you used to get to the result that I loved and the packaging of it, and now we're so far away from it. I don't really understand what's happening right now! Well, you showed me a flow system that worked, and it produced the standard I wanted. Even when I review these references, these aren't even close! I don't understand it. It feels so explanatory! It's not even conversational. It doesn't have the same cadence. It doesn't even have the same articulation that makes it feel authentic and like someone having a conversation with you that these references have. Can we get back to what worked? I don't know what's happening! I need us to go back to the trace of where we actually had the winning format and complete post that I gave you the nod on. I don't know why we're breaking all the rules of what worked, and you said that you locked it in, and now we're just scattered and all over the place!\n\nI need us to do an audit. I think you're getting too lost in all my refinements and edits and requests, and not tackling this from the point of view that was winning previously. Please go all the way back. Let's roll it back, if we even need to, to when I gave you the first. Go ahead and acknowledge that you captured exactly what I wanted, and give me that post back again so that I can read that exact post and we can study it and see exactly how we got there.\n\nWith this format, before we try to expand everything to all these different formats and create the studio, I feel like we're completely lost. We need to figure out what happened here, trace it back, and start from there, because every iteration we've done now has gotten worse, in my opinion. I need you to help me figure this out and get back to what worked, and then build from there instead of where we're currently at.",
+      "recommended_stack": "enrico-incarnati + joshua-smith",
+      "recommendation": "enrico-incarnati + joshua-smith",
+      "stack": [
+        "enrico-incarnati",
+        "joshua-smith"
+      ],
+      "compound_effect": "Full-stack real estate — Instagram brand + production KPIs",
+      "effect": "Full-stack real estate — Instagram brand + production KPIs",
+      "evidence_source": "execution/expert_router.py COMPOUNDS",
+      "trigger_match": "agent brand and production",
+      "confidence": "medium",
+      "skip_reason": "",
+      "policy": "Stack is surfaced as support evidence only; primary routing still decides the workflow."
+    },
+    "execution_decision": {
+      "status": "Running now",
+      "first_action": "Running safe workspace-local execution now after this trace.",
+      "approval_needed": "No extra approval needed for safe local work; pause if a risk gate appears mid-run.",
+      "risk_reasons": [],
+      "safe_to_run": true
+    }
+  },
+  "current_workspace_execution": {
+    "center": "Recover exact approved Jen post and trace actual production before any new writing.",
+    "primary_failure_class": "creative revision degradation",
+    "owner": "system-audit with bounded repeatability-spine recovery",
+    "first_safe_action": "Read original session and compare approved caption byte-for-byte.",
+    "constraints": [
+      "Current workspace only",
+      "Do not rewrite approved copy",
+      "No new drafts or source substitution",
+      "No restored deleted workflows",
+      "No agents, paid tools, publishing or global writes"
+    ],
+    "verification": [
+      "Original response and user approval located",
+      "Caption exact match",
+      "Current continuation points to approved original and recovered source packet"
+    ],
+    "compiler_invocation": "Canonical build_packet function; CLI mission logger not called."
+  }
+}

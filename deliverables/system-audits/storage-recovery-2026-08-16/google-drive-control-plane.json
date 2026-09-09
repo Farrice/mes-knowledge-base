@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "verified_at_utc": "2026-08-17T04:12:00Z",
+  "account": {
+    "name": "Farrice Cain",
+    "email": "farrice.cain@gmail.com",
+    "profile_id": "109886848530866607761",
+    "connector_authenticated": true,
+    "reported_capacity_tb": 30,
+    "quota_verified_by_api": false
+  },
+  "desktop_client": {
+    "installed": false,
+    "required_mode": "stream_files",
+    "installer_source": "https://dl.google.com/drive-file-stream/GoogleDrive.dmg",
+    "dmg_sha256": "8a356cc4d041127ac7fd4dde64fcb1181659e46df281a2bd82e6ee24d35db7e0",
+    "package_signer": "Developer ID Installer: Google LLC (EQHXZ8M8AV)",
+    "apple_notarization": "trusted",
+    "gatekeeper": "accepted",
+    "installation_blocker": "Administrator password and interactive account setup are required; unattended installation was not attempted beyond a noninteractive authorization check.",
+    "temporary_installer_removed": true
+  },
+  "folders": {
+    "00_Staging": {"id": "1XaGGfNcBjw_un8qXeumhnj1CeSZA9oFN", "url": "https://drive.google.com/drive/folders/1XaGGfNcBjw_un8qXeumhnj1CeSZA9oFN"},
+    "01_Business_Projects": {"id": "1R-Wns76b23fcsphsYG6rz3RGOe-v2AT3", "url": "https://drive.google.com/drive/folders/1R-Wns76b23fcsphsYG6rz3RGOe-v2AT3"},
+    "02_Design_Assets": {"id": "1Fm59IkYg6TnFFk4Zw7-RfMg5pobwlbq4", "url": "https://drive.google.com/drive/folders/1Fm59IkYg6TnFFk4Zw7-RfMg5pobwlbq4"},
+    "02_Design_Assets/Original_Packs": {"id": "17MW5L6GUI6qb2EgQcH4QBB0F12I-oo49", "url": "https://drive.google.com/drive/folders/17MW5L6GUI6qb2EgQcH4QBB0F12I-oo49"},
+    "02_Design_Assets/Extracted_Libraries": {"id": "1qIV4kyQEIiIrV7S0q2xHRLO_31WSNgGz", "url": "https://drive.google.com/drive/folders/1qIV4kyQEIiIrV7S0q2xHRLO_31WSNgGz"},
+    "03_Media_Source": {"id": "1diIhSFbzIL73bmgt-KxL4C0cp-wisIS3", "url": "https://drive.google.com/drive/folders/1diIhSFbzIL73bmgt-KxL4C0cp-wisIS3"},
+    "04_Learning_Library": {"id": "1sehrm2SfjRoHC8L3hzkduUoyNVdyOJPn", "url": "https://drive.google.com/drive/folders/1sehrm2SfjRoHC8L3hzkduUoyNVdyOJPn"},
+    "05_Client_Archive_Restricted": {"id": "1zQ8edTkdEQupgTRRwWtGHpIFtaoRmn-k", "url": "https://drive.google.com/drive/folders/1zQ8edTkdEQupgTRRwWtGHpIFtaoRmn-k"},
+    "90_Quarantine": {"id": "1mNn1HMDW6bdGUa8L9lMtg1Rrl_z2W2Ws", "url": "https://drive.google.com/drive/folders/1mNn1HMDW6bdGUa8L9lMtg1Rrl_z2W2Ws"},
+    "90_Quarantine/2026-08-17": {"id": "1Nq9Zk_boNEybiZYLsnwQPHALOPChrq6k", "url": "https://drive.google.com/drive/folders/1Nq9Zk_boNEybiZYLsnwQPHALOPChrq6k"},
+    "99_Manifests": {"id": "1M6BCsAUSqUovLgWA1Tg5F95-r6zzRNXU", "url": "https://drive.google.com/drive/folders/1M6BCsAUSqUovLgWA1Tg5F95-r6zzRNXU"},
+    "99_Manifests/Storage-Recovery-2026-08-17": {"id": "1_DoXG62IKxkiuxe6vZCpwqMgEXFqT8H9", "url": "https://drive.google.com/drive/folders/1_DoXG62IKxkiuxe6vZCpwqMgEXFqT8H9"},
+    "00_Staging/Storage-Recovery-2026-08-17": {"id": "17vAreo4IXEx0Nmg3dHTbcEsdR6bLmASd", "url": "https://drive.google.com/drive/folders/17vAreo4IXEx0Nmg3dHTbcEsdR6bLmASd"}
+  },
+  "large_migration_gate": {
+    "status": "blocked",
+    "reason": "The Data volume remains below the plan's 15 GiB stop floor, and the exact duplicate Trash move was rejected pending the user's explicit Batch 001 approval phrase.",
+    "local_sources_deleted": 0
+  }
+}

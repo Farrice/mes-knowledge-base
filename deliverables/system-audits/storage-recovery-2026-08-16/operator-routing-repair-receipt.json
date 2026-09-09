@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "verified_at_utc": "2026-08-17T04:32:13Z",
+  "owner": "system-audit",
+  "status": "pass",
+  "mission_prompt": "Implement the preservation-first Mac recovery plan: verify exact duplicates, migrate cold archives to streamed Google Drive until at least 150 GiB is free, then run free-first offer research; no unapproved deletion or publishing",
+  "failures_repaired": [
+    {
+      "failure": "The compound storage-recovery mission fell through to fuzzy matching and selected roi-driven-offer-engineering.",
+      "root_cause": "No deterministic preservation-first storage predicate existed; naive substring scoring treated drive inside roi-driven and offer as decisive.",
+      "repair": "Added a narrow compound preservation-first storage-recovery predicate with System Audit precedence before the downstream research lane."
+    },
+    {
+      "failure": "The phrase no unapproved deletion or publishing was treated as a request to publish and blocked safe local work.",
+      "root_cause": "Risk detection used raw substrings and had no deny-clause or word-boundary handling.",
+      "repair": "Added boundary-safe publish and deletion action families, explicit deny-scope handling, reset words, and mixed-clause regression controls."
+    }
+  ],
+  "behavior_receipt": {
+    "preservation_first_storage_recovery": "system-audit",
+    "google_drive_offer_negative_control": "roi-driven-offer-engineering",
+    "free_first_offer_research": "deep-research-os",
+    "storage_deny_clause_risks": [],
+    "safe_local_storage_preflight": true
+  },
+  "verification": [
+    {
+      "suite": "verify_google_operator_core.py",
+      "result": "PASS"
+    },
+    {
+      "suite": "verify_free_first_research_mission.py",
+      "result": "PASS"
+    },
+    {
+      "suite": "verify_autopilot_runtime_preflight.py",
+      "result": "PASS"
+    },
+    {
+      "suite": "verify_codex_claude_parity.py",
+      "result": "PASS"
+    }
+  ],
+  "mission_mutated": false,
+  "paid_tools_used": false,
+  "research_subagents_used": false
+}

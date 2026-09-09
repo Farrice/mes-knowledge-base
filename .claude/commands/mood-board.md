@@ -1,5 +1,5 @@
 ---
-description: "Mood Board Construction"
+description: "Reference-first moodboard orchestrator: brief to three visual territories, proving surface, blind taste choice, and selected-direction handoff"
 ---
 
-Read and execute the workflow at `.agent/workflows/mood-board.md` — Mood Board Construction
+Read and execute the connected orchestrator at `.agent/workflows/mood-board.md`.

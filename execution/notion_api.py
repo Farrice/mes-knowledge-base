@@ -24,6 +24,7 @@ import argparse
 import requests
 from pathlib import Path
 from typing import Any, Optional
+from urllib.parse import urlencode
 from dotenv import load_dotenv
 
 # Load .env — jarvis-bot first (has Notion keys), then root as fallback
@@ -45,6 +46,9 @@ DB_IDS = {
     'content':        os.getenv('NOTION_DB_CONTENT', ''),
     'captures':       os.getenv('NOTION_DB_CAPTURES', ''),
     'personal':       os.getenv('NOTION_DB_PERSONAL', ''),
+    # Shared Riley Brown / Social Intelligence content bank.  Video evidence
+    # packets from /watch upsert here rather than creating a second database.
+    'social_intel':   os.getenv('NOTION_DB_SOCIAL_INTEL', ''),
     # Session Memory — the human-facing second-brain log (Simon Intellectual
     # Library, Phase 3). Created via Notion AI Prompt 1; set its id in .env.
     'session_memory': os.getenv('NOTION_DB_SESSION_MEMORY', ''),
@@ -71,8 +75,14 @@ class NotionAPI:
 
     def _request(self, method: str, path: str, body: Optional[dict] = None) -> dict:
         url = f'{BASE_URL}{path}'
-        res = requests.request(method, url, headers=self.headers, json=body)
-        data = res.json()
+        try:
+            res = requests.request(method, url, headers=self.headers, json=body, timeout=20)
+        except requests.RequestException as exc:
+            raise NotionAPIError(0, 'network_unavailable', f'Notion network unavailable: {exc}') from exc
+        try:
+            data = res.json()
+        except ValueError as exc:
+            raise NotionAPIError(res.status_code, 'invalid_response', 'Notion returned a non-JSON response') from exc
         if not res.ok:
             raise NotionAPIError(res.status_code, data.get('code', 'unknown'), data.get('message', f'HTTP {res.status_code}'))
         return data
@@ -103,6 +113,12 @@ class NotionAPI:
 
     def update_page(self, page_id: str, properties: dict) -> dict:
         return self._request('PATCH', f'/pages/{page_id}', {'properties': properties})
+
+    def list_block_children(self, block_id: str, start_cursor: Optional[str] = None, page_size: int = 100) -> dict:
+        params: dict[str, Any] = {'page_size': page_size}
+        if start_cursor:
+            params['start_cursor'] = start_cursor
+        return self._request('GET', f'/blocks/{block_id}/children?{urlencode(params)}')
 
     # ─── Search ──────────────────────────────
 
@@ -456,6 +472,28 @@ class NotionAPI:
         }
         result = self.create_page(db_id, props)
         return result['url']
+
+    def find_session_memory(self, title: str, date_str: str,
+                            key_decisions: str = '', pickup_prompt: str = '') -> str:
+        """Return an exact existing Session Memory URL, or an empty string.
+
+        Used by the local outbox before create so a network retry does not
+        duplicate a row whose first response was lost after Notion committed it.
+        """
+        db_id = DB_IDS.get('session_memory', '')
+        if not db_id:
+            return ''
+        filters: list[dict[str, Any]] = [
+            {'property': 'Title', 'title': {'equals': title}},
+            {'property': 'Date', 'date': {'equals': date_str}},
+        ]
+        if key_decisions:
+            filters.append({'property': 'Key Decisions', 'rich_text': {'equals': key_decisions[:1900]}})
+        if pickup_prompt:
+            filters.append({'property': 'Pickup Prompt', 'rich_text': {'equals': pickup_prompt[:1900]}})
+        result = self.query_database(db_id, filter={'and': filters}, page_size=1)
+        rows = result.get('results', [])
+        return rows[0].get('url', '') if rows else ''
 
 
 # ─── Knowledge Vault body helpers (module-level; also used by

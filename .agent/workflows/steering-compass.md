@@ -15,7 +15,7 @@ Use this when the user asks what they are missing, what to do next, how to steer
 5. Read `semantic_libraries/antigravity/references/frontier-followup-patterns.md`.
 6. Use `execution/contextual_next_prompts.py` for deterministic closeout or execute-next rendering when a local helper is appropriate.
 7. Return kickoff, midpoint, closeout, ad hoc steering, or Operator Lesson guidance depending on the current session stage.
-8. For Standard/Deep closeouts, return **3 Next Prompts** using the Insightful Momentum standard: Use Now, Harden, and Expand. Each prompt must include when to use it, Operator Insight, Hidden Gap/Opportunity, Capability Revealed, a copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows.
+8. For Standard/Deep closeouts, return a visible **Recommended task title** using `[Domain]: [Specific Object] - [Outcome]`, then **3 Next Prompts** using the Insightful Momentum standard: Use Now, Harden, and Expand. Each prompt must include when to use it, Operator Insight, Hidden Gap/Opportunity, Capability Revealed, a copy-paste prompt, an explicitly labeled expected outcome, quality bar, skip condition, and suggested skills/workflows.
 
 ## Rule
 

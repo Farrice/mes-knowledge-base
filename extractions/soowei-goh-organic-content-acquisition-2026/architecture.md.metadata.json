@@ -1,0 +1,12 @@
+{
+  "artifactType": "skill-system-architecture",
+  "title": "SooWei Organic Content Acquisition — Architecture",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "status": "checkpoint-2-approved",
+  "createdAt": "2026-09-04",
+  "owner": "soowei-consulting-leverage",
+  "newWorkflowCount": 8,
+  "totalWorkflowCount": 12
+}

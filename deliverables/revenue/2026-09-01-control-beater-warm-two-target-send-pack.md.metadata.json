@@ -1,0 +1,13 @@
+{
+  "artifact_type": "revenue buyer-test send pack",
+  "title": "Control-Beater: Warm Two-Target Send Pack",
+  "date": "2026-09-01",
+  "state": "ready_for_manual_send_nothing_sent",
+  "owner": "Farrice Cain",
+  "external_action": false,
+  "targets": [
+    "Yasir Hashim, Lumen",
+    "Kieran Mathew, Equip Foods"
+  ],
+  "primary_metric": "collected_pilot_revenue_usd"
+}

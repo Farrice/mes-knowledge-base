@@ -1,0 +1,12 @@
+{
+  "title": "Buyer Psychology Decision Intelligence Overlay - Implementation Receipt",
+  "artifactType": "implementation-receipt",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "SHADOW",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false,
+  "verificationStatus": "pass-with-one-explained-fixture-warning"
+}

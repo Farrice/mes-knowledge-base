@@ -42,7 +42,11 @@ JUDGE_MODEL = "lite"  # gemini-3.1-flash-lite-preview per gemini_client MODEL_TI
 DEFAULT_DAYS = 7
 DEFAULT_MIN_CLUSTER = 3
 DEFAULT_JUDGE_THRESHOLD = 7.0
-DEFAULT_COSINE_THRESHOLD = 0.72  # tighter than retrieval (we want true clusters)
+DEFAULT_COSINE_THRESHOLD = 0.45  # CENTERED-cosine scale (2026-08-21): vectors are
+# mean-centered before clustering, which drops the median pairwise sim from
+# ~0.80 (raw, anisotropic) to ~-0.03; 0.45 ≈ p99 of the centered distribution,
+# so only genuinely topical pairs cluster. The old raw-scale 0.72 sat BELOW
+# the raw p10 and collapsed everything into one cluster.
 
 
 # ─────────────────────────────────────────────────────────
@@ -89,10 +93,23 @@ def load_recent_episodic(days: int, include_export: bool = False) -> List[Dict]:
 
 def cluster_by_cosine(rows: List[Dict], threshold: float = DEFAULT_COSINE_THRESHOLD,
                      min_cluster: int = DEFAULT_MIN_CLUSTER) -> List[List[Dict]]:
-    """Greedy connected-components clustering by cosine similarity.
+    """Mean-centered centroid (leader) clustering by cosine similarity.
 
-    Not a great clustering algo, but fine at this scale (~50-200 rows/week).
-    Returns clusters with >= min_cluster members.
+    Rebuilt 2026-08-21 — two compounding failures in the original:
+    (1) single-linkage connected-components CHAINS (A~B, B~C merges A with C);
+    (2) raw Gemini embeddings are anisotropic — measured on the live corpus,
+    the MEDIAN pairwise cosine was 0.801 (p10 = 0.764), so the 0.72 threshold
+    matched virtually every pair and 348 rows collapsed into ONE cluster →
+    one generic rule per weekly run, the reason the semantic tier crawled
+    even when the cron was green.
+
+    Fix: subtract the corpus mean from every vector first. Centering spreads
+    the band (measured after: median −0.035, p95 0.304, p99 0.458), so only
+    genuinely related pairs stay high. Then leader clustering against running
+    cluster CENTROIDS (no chaining — membership is judged against the
+    cluster's mean, never its nearest edge). `threshold` is on the CENTERED
+    cosine scale (see DEFAULT_COSINE_THRESHOLD). Returns clusters with
+    >= min_cluster members, largest first.
     """
     if not rows:
         return []
@@ -104,34 +121,35 @@ def cluster_by_cosine(rows: List[Dict], threshold: float = DEFAULT_COSINE_THRESH
             parsed.append((r, vec))
         except (json.JSONDecodeError, TypeError):
             continue
+    if not parsed:
+        return []
 
+    dim = len(parsed[0][1])
     n = len(parsed)
-    parent = list(range(n))
+    mean = [sum(v[d] for _, v in parsed) / n for d in range(dim)]
+    centered: List[Tuple[Dict, List[float]]] = [
+        (row, [v[d] - mean[d] for d in range(dim)]) for row, v in parsed
+    ]
 
-    def find(i: int) -> int:
-        while parent[i] != i:
-            parent[i] = parent[parent[i]]
-            i = parent[i]
-        return i
+    # clusters: list of [member_rows, member_vecs, centroid]
+    clusters: List[List] = []
+    for row, vec in centered:
+        best_i, best_sim = -1, -1.0
+        for ci, (_, _, centroid) in enumerate(clusters):
+            sim = cosine(vec, centroid)
+            if sim > best_sim:
+                best_i, best_sim = ci, sim
+        if best_i >= 0 and best_sim >= threshold:
+            members, vecs, _ = clusters[best_i]
+            members.append(row)
+            vecs.append(vec)
+            clusters[best_i][2] = [sum(v[d] for v in vecs) / len(vecs) for d in range(dim)]
+        else:
+            clusters.append([[row], [vec], list(vec)])
 
-    def union(a: int, b: int):
-        ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[ra] = rb
-
-    for i in range(n):
-        for j in range(i + 1, n):
-            if cosine(parsed[i][1], parsed[j][1]) >= threshold:
-                union(i, j)
-
-    groups: Dict[int, List[Dict]] = {}
-    for i, (row, _) in enumerate(parsed):
-        root = find(i)
-        groups.setdefault(root, []).append(row)
-
-    clusters = [g for g in groups.values() if len(g) >= min_cluster]
-    clusters.sort(key=len, reverse=True)
-    return clusters
+    out = [members for members, _, _ in clusters if len(members) >= min_cluster]
+    out.sort(key=len, reverse=True)
+    return out
 
 
 # ─────────────────────────────────────────────────────────

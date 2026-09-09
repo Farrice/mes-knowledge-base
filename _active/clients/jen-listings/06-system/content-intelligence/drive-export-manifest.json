@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "private_archive_folder_name": "Jen · Content Intelligence Archive — PRIVATE",
+  "shared_curated_folder_name": "00 · content bank — curated",
+  "files": [
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv",
+      "sha256": "f5d18471e373a17139b31b48a1e5e790346aec617b6c93e09e4193ff42d6d483",
+      "target_type": "google_sheet",
+      "privacy": "curated_redacted"
+    },
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md",
+      "sha256": "52803ce2794fddaebf0efef34416664455868156b551d7a8ded58a08e8c651f2",
+      "target_type": "google_doc",
+      "privacy": "curated_redacted"
+    },
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/Audience Questions + Language Bank.csv",
+      "sha256": "803fb4e55234d324ca36d21817ff56be99ccff29bdda179be801d846b5386381",
+      "target_type": "google_sheet",
+      "privacy": "curated_redacted"
+    },
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/Content Pillars + Format Map.md",
+      "sha256": "295aa40ab15df7f2aae799d5adf0de411d39f38f86f8d052792f4fc6a4a21b4a",
+      "target_type": "google_doc",
+      "privacy": "curated_redacted"
+    },
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/top-50-story-packets.json",
+      "sha256": "78df563a231cdd656556bb8b5160738613195d72fc3e7fdc05d8c86b074e54b2",
+      "target_type": "private_curated_file",
+      "privacy": "curated_redacted"
+    },
+    {
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-intelligence-recovery/_active/clients/jen-listings/06-system/content-intelligence/privacy-review-queue.json",
+      "sha256": "225693058b9c6f8374296ccd7144b7f95c679824a94cb8c721f83b8f113868a9",
+      "target_type": "private_curated_file",
+      "privacy": "curated_redacted"
+    }
+  ],
+  "drive_receipts": {
+    "private_archive_folder_id": "1Bx5eVp8AOCq6eTaW9nbMyCzrMaYErNIc",
+    "private_archive_url": "https://drive.google.com/drive/folders/1Bx5eVp8AOCq6eTaW9nbMyCzrMaYErNIc",
+    "curated_folder_id": "16n35G9_-FRRr46fUEj98LHoFjv6NvT9J",
+    "curated_folder_url": "https://drive.google.com/drive/folders/16n35G9_-FRRr46fUEj98LHoFjv6NvT9J",
+    "recorded_at": "2026-09-04T03:29:25Z"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "demo-test-receipt",
+  "chip": "BUILD REPORT · NEGATIVE CONTROLS",
+  "title": "the workflow holds when the case gets *ugly*",
+  "dek": "A deterministic local demonstration of inquiry capture, qualification, proposal drafting, follow-up, CRM output, exception routing, and non-bypassable human approval.",
+  "window": "local synthetic run",
+  "lens": "behavior · negative controls · proof boundary",
+  "sources": "19 synthetic cases",
+  "compiled": "aug 13, 2026",
+  "category": "build report",
+  "priority": 1,
+  "sections": [
+    {"kind":"summary","heading":"the test verdict","kicker":"PASS · LOCAL ONLY","body":"All 19 fixture cases produced the expected status and required flags. Every case ended with external sending disabled and HOLD_FOR_HUMAN. This proves local workflow behavior, not integration reliability, client adoption, revenue impact, or market validation."},
+    {"kind":"stats","heading":"the inspected run","items":[{"value":"19/19","unit":"cases","label":"EXPECTED BEHAVIOR","note":"0 failed"},{"value":"10","unit":"cases","label":"NORMAL","note":"proposal drafts created"},{"value":"8","unit":"controls","label":"ADVERSARIAL","note":"all routed safely"},{"value":"100%","unit":"held","label":"HUMAN APPROVAL","note":"send disabled"}]},
+    {"kind":"flow","heading":"the demonstration path","steps":[{"title":"Inquiry","note":"capture once"},{"title":"Qualification","note":"confidence + gaps"},{"title":"Proposal","note":"supplied facts only"},{"title":"Follow-up","note":"owner + due"},{"title":"CRM","note":"ready record"},{"title":"Hold","note":"human required"}]},
+    {"kind":"evidence","heading":"negative controls","rows":[{"claim":"Duplicate inquiry","evidence":"The second use of the same lead ID was held and flagged.","confidence":"VERIFIED"},{"claim":"Missing, conflicting, sensitive, and low-confidence cases","evidence":"Each blocked proposal creation and routed to exception review.","confidence":"VERIFIED"},{"claim":"Integration failure and unsupported claim","evidence":"Both were held with explicit flags.","confidence":"VERIFIED"},{"claim":"Send requested without approval","evidence":"A clean case still returned external_send_permitted=false and HOLD_FOR_HUMAN.","confidence":"VERIFIED"}]},
+    {"kind":"assets","heading":"inspect the receipt","items":[{"title":"Test Receipt","role":"MACHINE RECEIPT","path":"deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json","note":"Every case, expected state, output, and receipt hash."},{"title":"Workflow Source","role":"REFERENCE BUILD","path":"deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py","note":"Deterministic rules and human-hold behavior."},{"title":"Fixtures","role":"TEST DATA","path":"deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json","note":"Synthetic normal and adversarial cases."},{"title":"Tests","role":"REGRESSION","path":"deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py","note":"Fixture inspection, duplicate behavior, send blockade."}]},
+    {"kind":"caveats","heading":"the green run is not *enough*","body":"The receipt was inspected for status, required flags, human hold, and external-send blockade. A live pilot must add connector failure tests, buyer acceptance, operator usability, and observed behavior in approved deidentified cases."}
+  ],
+  "ledger": [{"source":"Local deterministic test run","retrieved":"2026-08-13","used_for":"workflow behavior and negative controls","confidence":"VERIFIED"}],
+  "context": [{"path":"deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json","role":"test receipt"},{"path":"deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py","role":"workflow source"},{"path":"deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json","role":"synthetic fixtures"},{"path":"deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py","role":"regression tests"}]
+}

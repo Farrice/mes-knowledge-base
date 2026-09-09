@@ -1,0 +1,219 @@
+{
+  "date": "2026-09-04",
+  "branch": "codex/jen-632-integration",
+  "baseline": "c01f30781",
+  "status": "PRIVATE_INTEGRATION_VERIFIED_WITH_OPEN_HUMAN_AND_VISUAL_GATES",
+  "imported_sources": [
+    {
+      "source_task": "01a06eb2-99f9-75c1-a529-c43161571969",
+      "source_cwd": "/Users/farricecain/.codex/worktrees/17e9/Google Antigravity",
+      "source_state": "completed task; uncommitted editorial outputs",
+      "files": [
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-caption.txt",
+          "sha256": "abbf43cbe4fd156ba63dd558b983d13a6d97291c7ba01fdbdab4b784cc87140e"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-package.md",
+          "sha256": "5dedb731cfd06e0b4a9e00e700f5874521ee422ad67f19fcaa4320e01bebc373"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-public-copy.txt",
+          "sha256": "6494371d09856c44cc119789a04cc0637f6b36dcf4a135ec13f74cceeadd5f11"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-caption.txt",
+          "sha256": "f114bd2a37b9b2bd28c60848b486bf07731e4f61e8b86870dce9fb726549d2b0"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-package.md",
+          "sha256": "89c43f36609a9d95b8ca8b9c5f0c0af17c37e6c68d3d9f3254840ac7f84087b8"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-public-copy.txt",
+          "sha256": "f356f88efeb592d0be1bc3a3ab175ba1b8503af8295b9c184e5b45351d05aaba"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-caption.txt",
+          "sha256": "783e17e3647f755b1ac60367688045c03f05e2c4a54df010d4c48ef688f25295"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-package.md",
+          "sha256": "c6f74ac4909ab23e503867e60c6a6b1d2893f02231c618f603f901232eabbc85"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-public-copy.txt",
+          "sha256": "5fa6f04d94e7d649485c024d99d0beaaac8f79f9e60ed14cf1eac27841f735be"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-caption.txt",
+          "sha256": "0120a2e05dbead6906bf780e5dcc40622b16e60f696cda0f97cb0a948266a312"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-package.md",
+          "sha256": "7278cba2cc275c95e568ef251f5d66f9b62566812578a2faa1b31da7cd978782"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-public-copy.txt",
+          "sha256": "085abe692bbaa4739fd0a52da69a700704b6e1ede147db5e1a90a15a20abd4c9"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/PUBLIC-COPY.txt",
+          "sha256": "45004ba76ee3ac593855932ebb895543821d9d409c1869657e8e2a210f47a2b5"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/QA.json",
+          "sha256": "2c56c8bdd9964dbde27918cc322a4440d513258bee4dc5db21bec974a9504290"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/REVIEW.md",
+          "sha256": "28a098e52919f9c79c12551bc094a459bb2203c4459a3d5b1a8a2523c317f758"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/REVIEW.metadata.json",
+          "sha256": "d52d5ae8c692e99586d82e26468727e1d5684dba7fa3edb156343ef5d1481d4c"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/measurement.csv",
+          "sha256": "8f15ac460a0d2a4727dd13a38307735b05d083f185c918a11de01bf7eb2e877a"
+        },
+        {
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/packages.json",
+          "sha256": "7c279a3dbb94a6966125e6b1e70b6853fcd197fdf42e9bf95f03a4b5ea60317f"
+        }
+      ]
+    },
+    {
+      "source_task": "01a06eb2-999b-7d32-b01f-e986110c1a95",
+      "source_cwd": "/Users/farricecain/.codex/worktrees/9398/Google Antigravity",
+      "source_state": "completed task; reviewed final files",
+      "files": [
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md",
+          "sha256": "465e92cae6edb7fb70c0980913309cebb1159a3891eb6089fc913e61b4d1e5e2"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md.depth-receipt.json",
+          "sha256": "ac1edf973e32249dc8af80c3d96c1fe42b449a5e6e408fa665c5e803a8c07927"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.metadata.json",
+          "sha256": "776c45c2c4becdd73cbbe938397443d87bba41014ebdf416e941f4c2ee0469ec"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/journey-map.png",
+          "sha256": "0f08022a19b19e701c27b6c67ee0e621879c193aef4a808d743f2c4b7356b4f9"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/native-scripts-and-manual-test.md",
+          "sha256": "d9d7b7a9edb96196abc5fc81e59f04cbd3740354bd45d2a7909fce3fa799ddee"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/native-scripts-and-manual-test.metadata.json",
+          "sha256": "33ad18c24775b571e435effc60f349e0458155bb93242af2be5f27cb9eabffe2"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/source-ledger.json",
+          "sha256": "94516e14fac8208d41fd09ac4d56e74bd883c74f80039a0d47013c4740ddaab4"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/verification-receipt.json",
+          "sha256": "625d647c1c2fed05be179c4948d8779bf05f83fb2740fdc36da39e8270e20bd8"
+        },
+        {
+          "path": "_active/clients/jen-listings/brand_context/BRAND.yaml",
+          "sha256": "5c795b1703c1e2e7751b95f16859c65856b527b5a344ccdc5701a41ca0bd1c9c"
+        },
+        {
+          "path": "_active/clients/jen-listings/brand_context/voice-profile.md",
+          "sha256": "2b7bd1a178b40c99efc3a8138097d40bc586907e39a7616a294cae423d2c7112"
+        },
+        {
+          "path": "_active/clients/jen-listings/06-system/ENGINE-V2.md",
+          "sha256": "641e6afaeda5b15698f2aeaf429c1582186e878dce49f54a6d3dac82491b66b1"
+        }
+      ]
+    }
+  ],
+  "decisions": {
+    "activation": "native resource request and natural DM; check optional",
+    "first_carousel": "1 - you love the house. try the drive home.",
+    "metric_correction": "Exclude original promised resource from further-next-step acceptance"
+  },
+  "changes": [
+    "Integrated 29 source-task files at their original client-relative paths",
+    "Updated existing architecture and engine handoff; no rebuilt diagnostic or funnel",
+    "Applied source-task keyword-rule correction in brand and voice",
+    "Marked pre-prototype conversion audit as historical",
+    "Polished carousel 1 slide 3 and carousel 4 cover across mirrors",
+    "Added explicit no-transmission message and preview labels",
+    "Created empty manual conversation and human-observation tables"
+  ],
+  "checks": {
+    "diagnostic_routes": "PASS 12/12 rerun",
+    "phone_browser": "PASS synthetic primary coordination + secondary income, central Valley, 3-6 months, preparing; value before representation/consent; final no-transmission text visible at 390x844",
+    "scope_of_browser_check": "one synthetic end-to-end flow; not five-person comprehension or commercial proof",
+    "public_prose": "4/4 CLEAN, 0/10",
+    "public_fair_housing": "4/4 PASS",
+    "slide_mirrors": "24/24 MATCH",
+    "json_parse": "PASS",
+    "event_rows": 0,
+    "written_export_guard": "PASS",
+    "git_diff_check": "PASS after normalizing imported/new CSV line endings; staged check verified before commit"
+  },
+  "validation_limits": {
+    "human_comprehension": "NOT_RUN",
+    "jen_proof_notes": "NOT_SUPPLIED",
+    "visual_exports": "NOT_RENDERED",
+    "account_controls": "UNCONFIRMED",
+    "reply_capacity": "UNCONFIRMED",
+    "source_lead_research_gate": "FAIL 40/100 retained; recommendation is a test hypothesis, no performance claim",
+    "integration_document_prose": "WARNING 2/10 from operational parallel structure; reviewed and retained for comparison clarity",
+    "finalize": "8.33 self-assessed, not empirical proof; generic carousel routing warning retained because task is integration, not new carousel production; missing anchor nudge retained"
+  },
+  "preserved_baselines": [
+    "lead-system/verification-receipt.json remains the original prototype receipt",
+    "first-wave/QA.json and buyer-journey/verification-receipt.json marked source-task snapshots; their scores/hashes do not certify current edits"
+  ],
+  "commercial_proof": "NO_EVENT",
+  "external_actions": [],
+  "paid_spend_usd": 0,
+  "main_merged": false,
+  "subagents_spawned": 0,
+  "current_hashes": {
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-caption.txt": "abbf43cbe4fd156ba63dd558b983d13a6d97291c7ba01fdbdab4b784cc87140e",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-package.md": "da93fbef13615eae961fc3874475770e7b4b3f84106fb7713d19ed5664d63697",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/01-public-copy.txt": "f1018efb61c4679c0b8d5ac415b7c0089b6f860384955e4aa7159f62b5a717e2",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-caption.txt": "f114bd2a37b9b2bd28c60848b486bf07731e4f61e8b86870dce9fb726549d2b0",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-package.md": "89c43f36609a9d95b8ca8b9c5f0c0af17c37e6c68d3d9f3254840ac7f84087b8",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/02-public-copy.txt": "f356f88efeb592d0be1bc3a3ab175ba1b8503af8295b9c184e5b45351d05aaba",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-caption.txt": "783e17e3647f755b1ac60367688045c03f05e2c4a54df010d4c48ef688f25295",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-package.md": "c6f74ac4909ab23e503867e60c6a6b1d2893f02231c618f603f901232eabbc85",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-public-copy.txt": "5fa6f04d94e7d649485c024d99d0beaaac8f79f9e60ed14cf1eac27841f735be",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-caption.txt": "0120a2e05dbead6906bf780e5dcc40622b16e60f696cda0f97cb0a948266a312",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-package.md": "aba0932089fa12bba93aee2a8962d645d73f58e64dedbb54f74a07eee6d1ef78",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-public-copy.txt": "a0f23996db646bfa0652ed2a9b0276b5847ca670f52575ca9426e2029cff328b",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/PUBLIC-COPY.txt": "b1816807aa30f01b5d0620a8f4f7aa1ab553c887ab9342ad1a781aa56f4b9563",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/QA.json": "839abbfbcdc83664792b4616aae4aeeb16a5d8129098778e72792ddf74587811",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/REVIEW.md": "ed53501f0940c2e68cf30d9c61ee3926850d331b32e7e557e668ec83e7325c15",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/REVIEW.metadata.json": "d52d5ae8c692e99586d82e26468727e1d5684dba7fa3edb156343ef5d1481d4c",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/measurement.csv": "b72f3dc0a866ba88256c12cf52cc376f5d80c2e023f25fe3b02efc74b967a26a",
+    "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/packages.json": "ff1f6b1281b879661848f9c214364de3d41ad4b24633b2631570bed555dae957",
+    "_active/clients/jen-listings/06-system/ENGINE-V2.md": "5680fab61de1eb81f1406932f3d10593c7e1b89cacbfb8dc5b9a31452e065a31",
+    "_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md": "bf3ee36bc7c53eb0d15ca00a23ca3d63f6c3b3dc84e5cb8d2dafb9d4c55382ef",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md": "90f4c855d916353b9506e052b57a295102c812be95357e224a1af40caa22942e",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.md.depth-receipt.json": "ac1edf973e32249dc8af80c3d96c1fe42b449a5e6e408fa665c5e803a8c07927",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/instagram-buyer-journey.metadata.json": "776c45c2c4becdd73cbbe938397443d87bba41014ebdf416e941f4c2ee0469ec",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/journey-map.png": "0f08022a19b19e701c27b6c67ee0e621879c193aef4a808d743f2c4b7356b4f9",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/native-scripts-and-manual-test.md": "d9d7b7a9edb96196abc5fc81e59f04cbd3740354bd45d2a7909fce3fa799ddee",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/native-scripts-and-manual-test.metadata.json": "33ad18c24775b571e435effc60f349e0458155bb93242af2be5f27cb9eabffe2",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/source-ledger.json": "94516e14fac8208d41fd09ac4d56e74bd883c74f80039a0d47013c4740ddaab4",
+    "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-instagram-buyer-journey/verification-receipt.json": "b3ce6c4908af8bb28485ed427c6389b34f32198acb8187d97ff5284f404b48cb",
+    "_active/clients/jen-listings/06-system/content-intelligence/lead-system/INTEGRATION.md": "a2366d3aea2b4433ff4669421e8b4323edfd3588df3a69395448771942d77a5b",
+    "_active/clients/jen-listings/06-system/content-intelligence/lead-system/comprehension-results.csv": "7aa4f9048d33f15b4a0cab9fa01b3dcc9cac89beb7fbd9a76c1e9b6a255e740d",
+    "_active/clients/jen-listings/06-system/content-intelligence/lead-system/conversation-events.csv": "5668105d2cbc502282824a058d9964516e7b886479467fbb68dab88ca169140e",
+    "_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html": "7fb936d2ca74deb1964b44271b8cdf80b7770fe8f35310845cff6ec9fd27ae6e",
+    "_active/clients/jen-listings/brand_context/BRAND.yaml": "5c795b1703c1e2e7751b95f16859c65856b527b5a344ccdc5701a41ca0bd1c9c",
+    "_active/clients/jen-listings/brand_context/voice-profile.md": "2b7bd1a178b40c99efc3a8138097d40bc586907e39a7616a294cae423d2c7112"
+  }
+}

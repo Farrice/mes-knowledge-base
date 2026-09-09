@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-08-17T03:53:35Z",
+  "volume": {
+    "mount": "/System/Volumes/Data",
+    "filesystem": "/dev/disk3s5",
+    "size_kib": 971350180,
+    "used_kib": 933446192,
+    "available_kib": 12122820,
+    "available_gib": 11.56,
+    "capacity_percent": 99
+  },
+  "downloads": {
+    "path": "/Users/farricecain/Downloads",
+    "physical_kib": 418323672,
+    "physical_gib": 398.94,
+    "file_count": 33167
+  },
+  "design_assets": {
+    "path": "/Users/farricecain/Downloads/02_Design_Assets",
+    "physical_kib": 359327608,
+    "physical_gib": 342.68
+  },
+  "icloud": {
+    "root": "/Users/farricecain/Library/Mobile Documents/com~apple~CloudDocs",
+    "optimize_storage": true,
+    "dataless_placeholders_excluded": true
+  },
+  "google_drive": {
+    "application_present": false,
+    "cloud_storage_mount_present": false,
+    "required_mode": "stream_files"
+  },
+  "git": {
+    "repository": "/Users/farricecain/Google Antigravity",
+    "branch": "main",
+    "head": "dab0bd85a3fc9d6164fe713fd3ecd421397eea2e",
+    "dirty_path_entries": 132,
+    "registered_worktrees": 25,
+    "session_lock": "clear",
+    "preservation_rule": "Do not modify, stage, discard, or absorb pre-existing changes."
+  },
+  "mutation_receipt": {
+    "files_moved": 0,
+    "files_deleted": 0,
+    "files_evicted": 0,
+    "cloud_uploads_started": 0
+  }
+}

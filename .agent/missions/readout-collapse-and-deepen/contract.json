@@ -1,0 +1,21 @@
+{
+ "slug": "readout-collapse-and-deepen",
+ "intent": "Two-surface collapse + deep mission pages + kill verb + park-rank fix",
+ "serves": "orphan",
+ "route": "extend-readout-os",
+ "pattern": "solo+jam",
+ "tier": "T2",
+ "expected_spawns": 1,
+ "deliverable_paths": [
+  "execution/mission_brief.py",
+  "execution/homebase_board.py",
+  "execution/pulse_actions.py",
+  "deliverables/research-briefs/mission-*"
+ ],
+ "gates": [
+  "verification-spine-sabotage",
+  "design-taste-existing-kinds-only"
+ ],
+ "cost": "$0",
+ "felt_standard": "instant summary\u2026 quickly simulate and pick up where we left off, or park it, kill it, or resume it"
+}

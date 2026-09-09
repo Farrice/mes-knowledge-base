@@ -18,6 +18,7 @@ Mike Sherrard is a real estate personal-branding strategist who applies Alex Hor
 | 01 | [position-niche-brand](workflows/01-position-niche-brand.md) | Niche selection + brand positioning package (four-criteria niche validation, avatar pain/search map, platform presence plan, partnership bouquet) |
 | 02 | [audit-content-conversion](workflows/02-audit-content-conversion.md) | Four-mistakes content audit + rewritten content plan (client-facing topics, story-context rewrites, HVC restructure, profile identity fix) |
 | 03 | [build-lead-capture-workflow](workflows/03-build-lead-capture-workflow.md) | End-to-end Instagram + YouTube conversion workflow (lead magnets, keyword DM automation, description architecture, CTA map) |
+| 04 | [market-demand-carousel-system](workflows/04-market-demand-carousel-system.md) | Demand-research → branded carousel set pipeline (buyer/seller/relocation search mining, "questions nobody's answering," editorial design contract, hook→numbered→keyword-CTA carousel grammar) — extracted from his Claude Design video, 2026 |
 
 ## Quick Reference
 

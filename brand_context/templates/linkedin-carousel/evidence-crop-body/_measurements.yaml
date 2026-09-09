@@ -1,0 +1,51 @@
+elements:
+  - id: SERIES_TITLE
+    bbox_pct: [7.8, 5.3, 30, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 2.41
+  - id: POST_DATE
+    bbox_pct: [74, 5.3, 18.4, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 2.04
+  - id: PHOTO_MAIN
+    bbox_pct: [7.8, 11.19, 84.4, 41.48]
+    color_role: n/a
+    type: photo
+    font_size_cqw: null
+  - id: EVIDENCE_LABEL
+    bbox_pct: [7.8, 53.2, 84.4, 2.7]
+    color_role: secondary
+    type: text
+    font_size_cqw: 1.85
+  - id: VERDICT_WORD
+    bbox_pct: [7.8, 60.4, 46, 6.9]
+    color_role: text_on_light
+    type: display
+    font_size_cqw: 10.37
+  - id: ANALYSIS_BODY
+    bbox_pct: [7.8, 71.11, 70.4, 15]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 2.41
+  - id: FOOTER_NAME
+    bbox_pct: [7.8, 93, 11, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 1.85
+  - id: FOOTER_HANDLE
+    bbox_pct: [22.2, 93, 24, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 1.85
+  - id: FOOTER_NICHE
+    bbox_pct: [49.3, 93, 30, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 1.85
+  - id: FOOTER_CTA
+    bbox_pct: [82.6, 93, 9.6, 3]
+    color_role: text_on_light
+    type: text
+    font_size_cqw: 1.85

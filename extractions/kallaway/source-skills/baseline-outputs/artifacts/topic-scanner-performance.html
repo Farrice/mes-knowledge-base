@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Topic Scan — Farrice Cain</title>
+<style>
+  :root{--navy:#0F172A;--panel:#1E293B;--line:#334155;--text:#F1F5F9;--dim:#94A3B8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 50px;max-width:720px;margin:0 auto}
+  h1{font-size:1.4rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;line-height:1.5;margin-bottom:12px}
+  .warnbar{background:#7C2D12;border:1px solid #C2410C;border-radius:10px;padding:10px 14px;font-size:.8rem;line-height:1.5;margin-bottom:16px}
+  .warnbar b{color:#FDBA74}
+  .tabs{display:flex;gap:8px;margin-bottom:14px}
+  .tabs button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:99px;padding:6px 14px;font-size:.8rem;cursor:pointer}
+  .tabs button.on{background:#334155;border-color:#64748B}
+  .view{display:none}.view.on{display:block}
+  h2{font-size:1rem;margin:14px 0 8px}
+  .brow{margin-bottom:10px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer}
+  .brow .top{display:flex;align-items:center;gap:8px;font-size:.85rem;flex-wrap:wrap}
+  .brow .name{font-weight:700;flex:1 1 180px}
+  .crown{color:#FCD34D}
+  .track{flex:1 1 160px;height:12px;background:#26334A;border-radius:6px;position:relative;overflow:hidden}
+  .track .nd{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:.58rem;color:#64748B;letter-spacing:1px;font-weight:700}
+  .ringb{font-size:.62rem;font-weight:800;padding:2px 7px;border-radius:99px;background:#0F172A}
+  .detail{display:none;margin-top:8px;font-size:.76rem;color:var(--dim);line-height:1.5;border-top:1px solid #26334A;padding-top:8px}
+  .brow.open .detail{display:block}
+  .empty{border:1px dashed var(--line);border-radius:10px;padding:14px;font-size:.8rem;color:var(--dim);line-height:1.5}
+  #bstage{max-width:430px;margin:0 auto}
+  svg{width:100%;height:auto;display:block}
+  .note{color:var(--dim);font-size:.75rem;line-height:1.5;margin-top:10px}
+</style>
+</head>
+<body>
+  <h1>Topic Scan — Performance View</h1>
+  <div class="sub">Two views: which topic buckets are winning in your niche (bars), and where they sit on your bullseye (placement). The 3 chosen buckets wear the crown 👑.</div>
+  <div class="warnbar"><b>UNVALIDATED BY PERFORMANCE DATA — SCAN NOT RUN.</b> The Sandcastles MCP isn't connected and no video list was supplied, so 0 of 50 videos were pulled and analyzed. Every bar below is an empty track: the buckets shown are <b>hypotheses from your positioning and bullseye work</b>, not clusters from niche data. Outlier score (how much a video over-performs its channel's normal) is the metric these bars are waiting for.</div>
+  <div class="tabs">
+    <button id="t0" class="on" onclick="show(0)">📊 Performance graph</button>
+    <button id="t1" onclick="show(1)">🎯 Bullseye placement</button>
+  </div>
+
+  <div class="view on" id="v0">
+    <h2>Topic buckets <span style="color:var(--dim);font-weight:400;font-size:.75rem">(tap a row to expand its examples)</span></h2>
+    <div id="topicRows"></div>
+    <h2>Format buckets</h2>
+    <div class="empty">— none derivable — Format clustering needs analyzed video payloads (script skeletons come from the analysis, not the titles). 0 videos analyzed. The format-finder's fallback: paste 10–15 favorite niche videos and it will classify them, labeled accordingly.</div>
+  </div>
+
+  <div class="view" id="v1">
+    <div id="bstage">
+      <svg viewBox="0 0 430 430" aria-label="bucket placement on the bullseye">
+        <circle cx="215" cy="215" r="205" fill="#1E3A5F" stroke="#0F172A" stroke-width="2"/>
+        <circle cx="215" cy="215" r="163" fill="#38BDF8" opacity="0.85" stroke="#0F172A" stroke-width="2"/>
+        <circle cx="215" cy="215" r="121" fill="#F59E0B" opacity="0.9" stroke="#0F172A" stroke-width="2"/>
+        <circle cx="215" cy="215" r="79" fill="#F97316" opacity="0.95" stroke="#0F172A" stroke-width="2"/>
+        <circle cx="215" cy="215" r="40" fill="#EF4444"/>
+        <text x="215" y="212" text-anchor="middle" fill="#FEF2F2" font-size="9" font-weight="800">🎯 RING 1</text>
+        <text x="215" y="224" text-anchor="middle" fill="#FEE2E2" font-size="6.5">Founder Marcus — speak to, never theme on</text>
+        <text x="215" y="26" text-anchor="middle" fill="#94A3B8" font-size="8">RING 5 — too broad: any bucket seen here is a "don't make this" flag</text>
+        <!-- hypothesis bucket placements -->
+        <g>
+          <rect x="118" y="140" width="118" height="16" rx="8" fill="#0F172A" stroke="#EF4444"/>
+          <text x="177" y="151" text-anchor="middle" fill="#FCA5A5" font-size="8" font-weight="700">👑 Claim Autopsies · R2</text>
+          <rect x="238" y="168" width="126" height="16" rx="8" fill="#0F172A" stroke="#F59E0B"/>
+          <text x="301" y="179" text-anchor="middle" fill="#FCD34D" font-size="8" font-weight="700">👑 Behind the Counter · R3</text>
+          <rect x="96" y="298" width="168" height="16" rx="8" fill="#0F172A" stroke="#38BDF8"/>
+          <text x="180" y="309" text-anchor="middle" fill="#7DD3FC" font-size="8" font-weight="700">👑 AI Killed the Average Brand · R4</text>
+          <rect x="250" y="120" width="96" height="14" rx="7" fill="#0F172A" stroke="#475569"/>
+          <text x="298" y="130" text-anchor="middle" fill="#94A3B8" font-size="7">What To Prove · R2</text>
+          <rect x="70" y="200" width="110" height="14" rx="7" fill="#0F172A" stroke="#475569"/>
+          <text x="125" y="210" text-anchor="middle" fill="#94A3B8" font-size="7">Launch-Clock Decisions · R2</text>
+          <rect x="250" y="238" width="100" height="14" rx="7" fill="#0F172A" stroke="#475569"/>
+          <text x="300" y="248" text-anchor="middle" fill="#94A3B8" font-size="7">The AI Shortlist · R3</text>
+          <rect x="270" y="330" width="104" height="14" rx="7" fill="#0F172A" stroke="#475569"/>
+          <text x="322" y="340" text-anchor="middle" fill="#94A3B8" font-size="7">Ads Die Faster Now · R4</text>
+          <rect x="60" y="345" width="122" height="14" rx="7" fill="#0F172A" stroke="#475569"/>
+          <text x="121" y="355" text-anchor="middle" fill="#94A3B8" font-size="7">The Honest-Claim Problem · R4</text>
+        </g>
+      </svg>
+    </div>
+    <div class="note"><b>Read this as a plan, not a result.</b> Placement shows where each hypothesis bucket AIMS on your bullseye (crowned = your chosen 3; grey = bench). A real scan would place the niche's actual winning topic and format buckets here — including any that land in Ring 5, which is exactly the content NOT to copy no matter how well it performs. Format buckets: none derivable (0 videos analyzed).</div>
+  </div>
+
+<script>
+// Static, file-authored data only.
+function setHTML(el, html){ el.replaceChildren(document.createRange().createContextualFragment(html)); }
+const BUCKETS=[
+ {n:'Claim Autopsies',ring:'R2',crown:true,ex:'Hypothesis examples: "The anatomy of a warning-letter claim" · "Rewriting a banned claim so it\'s legal AND stronger". Rationale: whitespace gap #1, substance moat. Performance: NO DATA.'},
+ {n:'Behind the Counter',ring:'R3',crown:true,ex:'Hypothesis examples: "Three years as the last person before purchase" · "What magazine-era ads taught me about your customer". Rationale: uncopyable proof lane. Performance: NO DATA.'},
+ {n:'AI Killed the Average Brand',ring:'R4',crown:true,ex:'Hypothesis examples: "AI didn\'t flatten your voice; it revealed you never had one" · "Consumer trust in AI content: 60% → 26%". Rationale: the reach engine. Performance: NO DATA.'},
+ {n:'What To Prove',ring:'R2',crown:false,ex:'Bench. Performance: NO DATA.'},
+ {n:'Launch-Clock Decisions',ring:'R2',crown:false,ex:'Bench. Performance: NO DATA.'},
+ {n:'The AI Shortlist',ring:'R3',crown:false,ex:'Bench. Performance: NO DATA.'},
+ {n:'Ads Die Faster Now',ring:'R4',crown:false,ex:'Bench. Performance: NO DATA.'},
+ {n:'The Honest-Claim Problem',ring:'R4',crown:false,ex:'Bench. Performance: NO DATA.'},
+ {n:'Say It In One Sentence',ring:'R4',crown:false,ex:'Bench. Performance: NO DATA.'}
+];
+const RC={R2:'#F97316',R3:'#F59E0B',R4:'#38BDF8'};
+setHTML(document.getElementById('topicRows'), BUCKETS.map((b,i)=>`
+  <div class="brow" onclick="this.classList.toggle('open')">
+    <div class="top">
+      <span class="name">${b.crown?'<span class="crown">👑</span> ':''}${b.n}</span>
+      <span class="ringb" style="color:${RC[b.ring]};border:1px solid ${RC[b.ring]}">${b.ring}</span>
+      <span class="track"><span class="nd">NO DATA — median outlier unknown</span></span>
+      <span class="track"><span class="nd">NO DATA — volume unknown</span></span>
+    </div>
+    <div class="detail">${b.ex} No linked example videos exist — the scan pulled 0 of 50.</div>
+  </div>`).join(''));
+function show(i){
+  document.getElementById('v0').classList.toggle('on',i===0);
+  document.getElementById('v1').classList.toggle('on',i===1);
+  document.getElementById('t0').classList.toggle('on',i===0);
+  document.getElementById('t1').classList.toggle('on',i===1);
+}
+</script>
+</body>
+</html>

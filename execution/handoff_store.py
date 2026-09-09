@@ -57,7 +57,10 @@ LATEST = STORE / "LATEST.md"
 RESERVED = {"index.md", "LATEST.md"}
 NAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-STATUSES = {"active", "blocked", "ready", "mid-build", "done"}
+# "parked" (2026-08-20): deliberately shelved by Farrice — resumable, never
+# urgent. Distinct from "blocked" (waiting on something, ranks MOST urgent);
+# park used to overload blocked and parked threads topped the needs-you list.
+STATUSES = {"active", "blocked", "ready", "mid-build", "done", "parked"}
 STALE_DAYS = 21
 SUMMARY_CAP = 400
 FM_KEYS = ("thread", "status", "resume_hint", "unfinished", "branch", "pin")

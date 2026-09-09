@@ -9,7 +9,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_WORKFLOW = ROOT / ".agent" / "workflows" / "autopilot.md"
-PROJECT_WORKFLOW_TEXT = str(PROJECT_WORKFLOW)
+PROJECT_WORKFLOW_TEXT = "/Users/farricecain/Google Antigravity/.agent/workflows/autopilot.md"
 GLOBAL_AUTOPILOT = Path("/Users/farricecain/.codex/skills/autopilot/SKILL.md")
 GLOBAL_WRAPPER = Path("/Users/farricecain/.codex/skills/source-command-autopilot/SKILL.md")
 

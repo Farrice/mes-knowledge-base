@@ -14,6 +14,8 @@ This is the active Codex-native operating specification for `/Users/farricecain/
 
 Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. Use them only when a workflow needs historical detail that is not yet represented in Codex-native files.
 
+Codex uses the capabilities of its active model and available tools. Claude-specific model seating and tool names in older orchestration references are platform examples, not limits on Astra's reasoning, writing or implementation. One accountable owner may do the work directly; use approved read-only support when it changes the result.
+
 ## Codex Control Plane
 
 - Front doors (2026-07-06): `/go "<messy thought>"` is the anti-bottleneck
@@ -37,14 +39,48 @@ Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. U
 - `/self-evolve` and `/skill-anneal` improve existing workflows or skills from failure evidence instead of adding bloat.
 - Self-improvement and maintenance runs use `semantic_libraries/antigravity/primitives/goal-loop-maintenance-contract.md`: target, criteria, permitted side effect, proof artifact, measurable stop, turn cap, evaluator, wake-up check, human checkpoint, and rollback/archive rule must be explicit before mutation.
 - Agentic engineering runs use `semantic_libraries/antigravity/primitives/agentic-engineering-loop-contract.md`: human-owned objective, thin context, exact source truth, small reviewable chunks, review-until-stop proof, dependency safety, structure cleanup, and use-now artifacts must be explicit when the task changes agent harness behavior, package/tool adoption, review loops, or source-to-system practice.
-- Intent-to-outcome runs use `semantic_libraries/antigravity/primitives/co-creative-launchpad-contract.md`, `execution/co_creative_launchpad.py`, `execution/autopilot_runtime_preflight.py`, `execution/outcome_recipes.py`, `execution/capability_graph.py`, `execution/friction_ledger.py`, and `execution/run_receipt.py`: predicted need, center, edges, execution-changing questions, one best route, support gates, execution decision, safe-local policy, verifier plan, friction capture, and run receipt must be visible for meaningful Autopilot work.
+- Intent-to-outcome runs use `semantic_libraries/antigravity/primitives/co-creative-launchpad-contract.md`, `execution/co_creative_launchpad.py`, `execution/autopilot_runtime_preflight.py`, `execution/outcome_recipes.py`, `execution/capability_graph.py`, `execution/friction_ledger.py`, and `execution/run_receipt.py`: keep predicted need, center, edges, route, support, execution decision, verifier plan and friction capture in the working packet. Open with a concise intent mirror: outcome, quality standard and material boundary. Show a question or tradeoff only when it changes execution; expose the full packet on request. A clear request or continuation proceeds after the mirror without asking for approval again.
 - Operating-alignment runs use `semantic_libraries/antigravity/primitives/operating-alignment-contract.md`: raw intent -> Launchpad -> meta-intent classification -> one owner -> bounded expert composition -> proof -> feedback capture -> one next action. System-level orchestration, global/workspace alignment, automations, subagent, full-arsenal, or output-consistency requests are `/system-audit` owned unless a narrower route has explicit evidence.
-- V2 cockpit starts use an Intent Confidence Packet for non-trivial work: goal, audience, success criteria, non-trivial reason, confidence, unresolved questions, chosen route, support gates, arsenal policy, proof plan, retrieval home, and pause/run decision. If the packet has unanswered execution-changing questions, Codex may do read-only discovery but must pause before meaningful mutation or delivery.
+- V2 cockpit starts keep a working Intent Confidence Packet for non-trivial work: goal, audience, success criteria, non-trivial reason, confidence, unresolved questions, chosen route, support gates, arsenal policy, proof plan, retrieval home, and pause/run decision. Retrieve named approved work and prior corrections before declaring context missing. Preserve established purpose, voice and approved choices through revisions; change only the requested dimension. If a genuinely missing answer changes the artifact or action, ask one focused question and continue independent discovery. A generic checklist gap is not a reason to pause clear work.
 - Magic-preservation checks use `semantic_libraries/antigravity/primitives/magic-preservation-regression-set.md` for Josh, Coach Cooz, and source extraction wins. Strong prior work is regression evidence, not nostalgia; preserve the success criteria before broadening the system.
 - Read-only status runs use `execution/harness_status.py` for the compact trust surface, `execution/operator_core_fast_proof.py` for daily fast proof, and `execution/savant_control_room.py` for the higher-level cockpit: current intent, cohesion state, mission status, latest receipt, friction ledger, end-session health, routing probes, protocol counts, stale anchors, capability graph summary, packaging readiness, and the next move must be visible without writing files.
 - Operator Cockpit V2 extends the status cockpit into a pre-action cockpit. It may capture local friction entries automatically for operator struggle, retrieval failure, stale proof, misroutes, or unanswered confidence-packet questions. This capture is local-only and does not authorize global writes, external writes, broad cleanup, publishing, Mission mutation, or real Codex subagents.
-- Closeout steering uses `execution/contextual_next_prompts.py` and the `/steering-compass` contract to produce 3 Next Prompts: Use Now, Harden, and Expand. Each prompt should explain when to use it, why it is recommended, the copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows.
+- Closeout steering uses `execution/contextual_next_prompts.py` and the `/steering-compass` contract to produce a visible recommended task title plus 3 Next Prompts: Use Now, Harden, and Expand. Each prompt must explain when to use it, why it is recommended, the copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows. Deep closeouts fail the visible-surface contract when the task title or any prompt's expected outcome is absent.
 - Focused transfer handoffs use `/handoff`; whole-session closeouts use `/end-session`. `/handoff` may create a disposable OS-temp handoff for another session, branch, tool, or agent, while `/end-session` captures session intelligence and continuity evidence.
+
+## Artifact Comprehension Pilot (SHADOW v0.2)
+
+This branch evaluates one narrow workspace-only behavior. Its source is
+`execution/fixtures/burnout_safe_output/artifact-comprehension-contract-v0.2.md`.
+
+- Ordinary replies and closeouts defer entirely to the existing global Clear
+  Depth and Three Contextual Next Prompts contracts. This pilot does not render,
+  rank, expand, or replace them.
+- Activate only for substantial written documents or artifacts whose
+  information shape can be made materially easier to understand, remember, or
+  act on.
+- Select the smallest representation that earns its place: scan-friendly
+  prose, a table, evidence rows, a timeline, a flow, a playbook, or an existing
+  Briefing Room section. Plain prose is valid when a visual would flatten
+  nuance or repeat the same information.
+- Prefer a flow when dependencies, feedback loops, approval gates, or state
+  changes are what keep the work on track. Do not add one to a simple list or
+  ordinary reply.
+- Choose one primary delivery surface before drafting a substantial artifact:
+  normal conversation for answers, a native writing block for finished
+  reusable prose, a native artifact for durable knowledge work, a spreadsheet
+  for real quantitative data, slides for presentation-shaped delivery, the
+  Briefing Room for live or interactive state, and image generation for
+  genuinely visual concepts. Add a second surface only when it performs a
+  different job; do not duplicate the same content across formats.
+- Preserve source detail, caveats, proof state, and authority. A compact surface
+  may reveal depth progressively but may not delete it.
+- Reuse native artifacts, Markdown, and the existing Briefing Room renderer.
+  Do not create a new renderer, dashboard, task, hook, skill, or global rule.
+- Treat this as `PILOT / SHADOW`. Promotion, merge, global activation, hook
+  changes, and production-renderer changes require separate approval.
+- Human behavior gate passed on 2026-09-01. The tested artifact rule remains
+  SHADOW and workspace-local until a separate promotion decision.
 
 ## Deterministic Hook Layer (verified live-fire 2026-07-13, Codex CLI 0.144.3)
 
@@ -339,9 +375,10 @@ After system, router, workflow, skill, or bridge changes, run the smallest relev
 ```bash
 python3 execution/verify_artifact_router.py
 python3 execution/verify_codex_authority.py
-python3 execution/verify_agentic_engineering_loop_contract.py
+python3 execution/verify_main_write_guard.py
+python3 execution/verify_lane_reconciler.py
 python3 execution/verify_skill_system_contract.py
-python3 execution/verify_goal_loop_maintenance_contract.py
+python3 execution/verify_skill_evolution_candidates.py
 python3 execution/verify_mission_activation_contract.py
 python3 execution/verify_expert_composition_standard.py
 python3 execution/verify_repeatability_spine.py

@@ -1,6 +1,12 @@
 ---
 description: Open the LIVE Antigravity Pulse operator console (on-demand localhost server — click-to-complete missions, log outcomes, resume/archive threads) or republish the static snapshot as an artifact
+status: superseded
+superseded_by: homebase
 ---
+> **RETIRED AS A SURFACE (2026-08-20, two-surfaces collapse).** The Homebase at
+> http://127.0.0.1:8765/ absorbed this board's cards and actions; /pulse now
+> redirects there. The generator survives as a library/CLI. Spec: .agent/workflows/homebase.md
+
 
 # /pulse-board — Operator Console (live)
 

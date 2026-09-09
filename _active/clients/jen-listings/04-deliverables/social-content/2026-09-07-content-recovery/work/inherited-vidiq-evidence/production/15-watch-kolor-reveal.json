@@ -1,0 +1,18 @@
+{
+  "key": "15-watch-kolor-reveal",
+  "url": "https://www.instagram.com/reel/DcH2LZSMbCu/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_dd918cd4-a156-41e3-87b8-2a1f1af909e0\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_dd918cd4-a156-41e3-87b8-2a1f1af909e0\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_dd918cd4-a156-41e3-87b8-2a1f1af909e0",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_dd918cd4-a156-41e3-87b8-2a1f1af909e0\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

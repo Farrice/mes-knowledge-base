@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    /* ─── signature-close-cta — local styles ───────────────────────────────
+     * Form: solid-css (see rationale.md §1). No AI generation, no image zone.
+     * The brand's editorial-style "thanks / sign-off" close frame: a flat canvas
+     * fill, a giant lowercase display word, the red script signature (brand move
+     * #10, moves.md) overlaid diagonally across it, and a small header + footer
+     * chrome strip. Geometry ported 1:1 from the source composition file that
+     * generated this ref: compositions/editorial/frames/08-thanks-signature.html.
+     */
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .masthead-label {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.41cqw;              /* ref: 26px */
+      letter-spacing: -0.01em;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .masthead-date-row {
+      display: flex;
+      align-items: center;
+      gap: 2.04cqw;                    /* ref: 22px */
+      justify-content: flex-end;
+    }
+
+    .masthead-date {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 2.04cqw;              /* ref: 22px */
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    .masthead-arrow {
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-size: 2.78cqw;              /* ref: 30px */
+      line-height: 1;
+      color: var(--brand-text-on-light, #101010);
+    }
+
+    /* Giant closing word — overrides the shared .display line-height/letter-spacing
+       on purpose (this ref's own giant-word rhythm is tighter than the brand's
+       standard display token). Local <style> loads after ../_shared/styles.css,
+       so equal-specificity rules here win the cascade. */
+    .giant-word {
+      font-family: var(--brand-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 22.5cqw;              /* ref: 250px (23.15cqw); trimmed ~2.8% so the rendered ink
+                                           clears compare_render_to_ref.py's 1.5% canvas-safe-margin
+                                           (the ref's own edge-to-edge fit measured 0.065% past it) —
+                                           still ~19.5-20cqw measured cap-height, comfortably above
+                                           Check D's 8cqw floor and inside its -15%-of-ref tolerance */
+      letter-spacing: -0.065em;
+      line-height: 0.86;
+      color: var(--brand-text-on-light, #101010);
+      text-align: center;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Script signature (brand move #10, moves.md). The ONE unlocked accent colour
+       — tokens.json colors.signature_accent, no injected --brand-* var covers it,
+       so it is declared here as a local custom property sourced from that token.
+       Font is the documented placeholder (Snell Roundhand / Zapfino, system) until
+       the real handwriting SVG lands in visual-identity/logos/signature.svg. */
+    .author-signature {
+      --signature-accent: #FF2D2D;     /* tokens.json colors.signature_accent */
+      position: absolute;
+      left: 25.93%;                    /* ref: 280px */
+      top: 41.19%;                     /* ref: 556px */
+      font-family: "Snell Roundhand", "Zapfino", cursive;
+      font-weight: 700;
+      font-size: 10.74cqw;             /* ref: 116px */
+      letter-spacing: -0.01em;
+      color: var(--signature-accent);
+      white-space: nowrap;
+      transform: rotate(-7deg);
+      z-index: 5;                      /* above the giant word it overlays */
+    }
+
+    .footer-strip {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--brand-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 1.85cqw;              /* ref: 20px */
+      color: var(--brand-text-on-light, #101010);
+    }
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="light" style="container-type: inline-size; background: var(--brand-bg-light, #F3F3F0);">
+
+    <!-- HEADER: per-post series title (left) + per-post date + fixed arrow (right).
+         Slot is named SERIES_TITLE, not MASTHEAD_LEFT — render_template.py's
+         apply_masthead_tokens() force-overrides an exact "MASTHEAD_LEFT" slot with
+         tokens.json chrome.masthead.labels[0] unconditionally (by design, for the
+         brand's other templates). This editorial-style header is a per-post series
+         title, not the brand's locked identity masthead, so it must avoid that name. -->
+    <div class="masthead" data-slot="MASTHEAD" style="left:7.78%; top:5.33%; width:84.44%;">
+      <span class="masthead-slot left masthead-label" data-slot="SERIES_TITLE">{{SERIES_TITLE}}</span>
+      <span class="masthead-slot right masthead-date-row">
+        <span class="masthead-date" data-slot="MASTHEAD_DATE">{{MASTHEAD_DATE}}</span>
+        <span class="masthead-arrow" aria-hidden="true">&rarr;</span>
+      </span>
+    </div>
+
+    <!-- GIANT CLOSING WORD (the per-post recap/decision word). Zone height grown to
+         30% (from the ref-measured 15.93%) around the SAME vertical center (42.4% —
+         465px+215px/2 of 1350) — the flex align-items:center/justify-content:center
+         on .giant-word keeps the rendered glyph position visually identical to the
+         ref; the taller box is a dead-space-gate-driven adjustment (dead_space.py
+         floor: text_height_fraction >= 0.25), not a re-read of the ref's composition.
+         left/width inset by 1% each side (was left:0/width:100%, matching the ref's
+         own "the bleed is the word touching both margins" edge-to-edge intent) — the
+         ref's true edge-to-edge fit lands the ink a hair inside compare_render_to_ref.py's
+         1.5% canvas-safe-margin floor; this is the smallest inset that clears it. -->
+    <div class="zone display giant-word" data-slot="HEADLINE_WORD"
+         style="left:1%; top:27.4%; width:98%; height:30%;">{{{HEADLINE_WORD}}}</div>
+
+    <!-- SCRIPT SIGNATURE (brand move #10) — overlaid diagonally across the giant word.
+         Fixed brand content (tokens.json author.name), positioned left/top only —
+         shrink-to-fit width, exactly as the source composition authored it. -->
+    <div class="author-signature" data-slot="AUTHOR_SIGNATURE">Farrice Cain</div>
+
+    <!-- FOOTER STRIP: author · url · category · resolved topic tag -->
+    <div class="footer-strip" data-slot="FOOTER" style="left:7.78%; bottom:4.74%; width:84.44%;">
+      <span data-slot="FOOTER_AUTHOR">Farrice Cain</span>
+      <span data-slot="FOOTER_URL">parallaxletter.substack.com</span>
+      <span data-slot="FOOTER_CATEGORY">Supplement + performance brands</span>
+      <span data-slot="FOOTER_TOPIC">{{FOOTER_TOPIC}}</span>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surpass Verdict — Kallaway baseline vs Growth Blueprint</title>
+<style>
+  :root { --canvas:#f6f5f2; --paper:#fffffe; --ink:#141412; --graphite:#4a4a46; --line:#dedcd6; --stone:#8c8c82; }
+  * { margin:0; box-sizing:border-box; }
+  body { background:var(--canvas); color:var(--ink); font:15px/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif; padding:48px 24px 96px; }
+  main { max-width:880px; margin:0 auto; }
+  h1 { font-size:34px; font-weight:700; letter-spacing:-0.025em; margin-bottom:6px; }
+  .sub { color:var(--graphite); margin-bottom:8px; }
+  .rules { font-size:13px; color:var(--stone); border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:10px 0; margin:20px 0 36px; }
+  section.pair { background:var(--paper); border:1px solid var(--line); padding:28px; margin-bottom:22px; }
+  h2 { font-size:19px; font-weight:700; letter-spacing:-0.01em; }
+  .bar { font-size:13px; color:var(--graphite); margin:10px 0 16px; }
+  .bar b { font-weight:500; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:16px; }
+  @media (max-width:640px) { .cols { grid-template-columns:1fr; } }
+  .col { border:1px solid var(--line); padding:14px; }
+  .col h3 { font-size:11px; text-transform:uppercase; letter-spacing:.16em; color:var(--stone); margin-bottom:10px; font-weight:500; }
+  .col a { display:block; color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line); padding:7px 2px; font-size:14px; }
+  .col a:hover { background:var(--canvas); }
+  .col .none { color:var(--stone); font-size:13px; padding:7px 2px; }
+  .verdict { display:flex; gap:8px; flex-wrap:wrap; }
+  .verdict button { font:inherit; font-size:13px; padding:9px 14px; border:1px solid var(--ink); background:var(--paper); cursor:pointer; }
+  .verdict button.sel { background:var(--ink); color:var(--paper); }
+  textarea { width:100%; margin-top:10px; border:1px solid var(--line); padding:9px; font:inherit; font-size:13px; min-height:44px; background:var(--canvas); }
+  .footer { position:sticky; bottom:0; background:var(--ink); color:var(--paper); padding:14px 20px; display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:34px; }
+  .footer button { font:inherit; font-size:14px; font-weight:500; padding:10px 18px; background:var(--paper); color:var(--ink); border:0; cursor:pointer; }
+  .count { font-size:13px; }
+</style></head><body><main>
+<h1>The Surpass Verdict</h1>
+<p class="sub">Same frozen inputs on both sides. Left: Kallaway's skills run verbatim (free tier, honest fallbacks). Right: Growth Blueprint OS on live data. Open both, judge the pair, tap a verdict.</p>
+<p class="rules">Rule set: an artifact that doesn't clearly beat its baseline gets one fix pass against your notes, then ships with the gap named. Verdicts save locally; tap <b>Copy verdicts</b> at the end and paste the block into the session — it becomes the recorded blind-pass.</p>
+
+<div id="pairs"></div>
+
+<div class="footer">
+  <span class="count" id="count">0 of 7 judged</span>
+  <button id="copy">Copy verdicts</button>
+</div>
+</main>
+<script>
+"use strict";
+var B = "../../extractions/kallaway/source-skills/baseline-outputs/";
+var O = "exports/";
+var PAIRS = [
+ { id:"positioning", name:"1 · Positioning", bar:"His own doc calls itself a hypothesis from self-knowledge. Ours claims 10+ real buyers quoted with sources. Which would you hand a client?",
+   base:[["Positioning Doc (markdown — his native output)", B+"growth-system/positioning.md"]],
+   ours:[["Positioning Dossier — interactive", O+"positioning-dossier.html"],["Client render", O+"positioning-dossier-client.html"]] },
+ { id:"whitespace", name:"2 · Whitespace + Wheel", bar:"Click any competitor score on both sides. His opens nothing without a $39/mo plan. Ours should open receipts every time.",
+   base:[["Positioning Wheel", B+"artifacts/unique-positioning-builder-positioning-wheel.html"],["Whitespace Map (markdown)", B+"growth-system/whitespace-map.md"]],
+   ours:[["Positioning Wheel", O+"positioning-wheel.html"],["Client render", O+"whitespace-map-client.html"]] },
+ { id:"bullseye", name:"3 · Bullseye + 3-2-1 Mix", bar:"Ask both: which bucket makes money, and how would you know by batch 3? His tracker is blank. Ours answers in dollars (modeled, labeled).",
+   base:[["Bullseye", B+"artifacts/bullseye-builder-bullseye.html"],["3-2-1 Mix", B+"artifacts/bullseye-builder-321-mix.html"],["Sourcing Map", B+"artifacts/bullseye-builder-sourcing-map.html"]],
+   ours:[["Bullseye", O+"bullseye.html"],["3-2-1 Mix (live bench swap)", O+"bullseye-321-mix.html"],["Sourcing Map", O+"bullseye-sourcing-map.html"],["Client render", O+"bullseye-client.html"]] },
+ { id:"topics", name:"4 · Topic Scan + Top-50", bar:"His free-tier table rendered zero rows. Ours claims 50 receipted rows from live data. Count them.",
+   base:[["Performance view (no data)", B+"artifacts/topic-scanner-performance.html"],["Top-50 (markdown, empty)", B+"growth-system/top-50.md"]],
+   ours:[["Topic Scan — interactive", O+"topic-scan.html"],["Top-50 client table", O+"top-50-client.html"],["Client render", O+"topic-scan-client.html"]] },
+ { id:"formats", name:"5 · Format Matrix", bar:"His matrix: every cell says no data. Ours: populated cells with specimen links and a mechanism card per format — why it works, when it transfers.",
+   base:[["Format Matrix (empty cells)", B+"artifacts/format-finder-matrix.html"]],
+   ours:[["Format Matrix", O+"format-matrix.html"],["Client render", O+"format-playbook-client.html"]] },
+ { id:"blueprint", name:"6 · Content Growth Blueprint", bar:"No contender: his system has no sellable output. Judge ours on absolute grounds — would you charge for this document today?",
+   base:[],
+   ours:[["The flagship — client render", O+"growth-blueprint-client.html"],["PDF", O+"pdf/growth-blueprint-client.pdf"]] },
+ { id:"leadmagnet", name:"7 · Lead Magnet (step-down)", bar:"Absolute judgment: does the free tier feel premium and honestly incomplete — worth a real email, clearly worth upgrading?",
+   base:[],
+   ours:[["Interactive mini-report", O+"lead-magnet.html"]] }
+];
+var VERDICTS = ["OURS CLEARLY WINS","TOO CLOSE","BASELINE WINS"];
+var state = {};
+try { state = JSON.parse(localStorage.getItem("surpass-verdicts")||"{}") || {}; } catch(e) { state = {}; }
+
+function el(tag, cls, text) {
+  var e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text) e.textContent = text;
+  return e;
+}
+function linkCol(items, label) {
+  var col = el("div","col");
+  col.appendChild(el("h3", null, label));
+  if (!items.length) { col.appendChild(el("div","none","— no equivalent exists in his system —")); return col; }
+  items.forEach(function(it){
+    var a = el("a", null, it[0]);
+    a.href = it[1]; a.target = "_blank"; a.rel = "noopener";
+    col.appendChild(a);
+  });
+  return col;
+}
+var wrap = document.getElementById("pairs");
+PAIRS.forEach(function(p){
+  var s = el("section","pair");
+  s.appendChild(el("h2", null, p.name));
+  var bar = el("div","bar"); bar.appendChild(el("b", null, "What to look for: "));
+  bar.appendChild(document.createTextNode(p.bar)); s.appendChild(bar);
+  var cols = el("div","cols");
+  cols.appendChild(linkCol(p.base,"Kallaway baseline"));
+  cols.appendChild(linkCol(p.ours,"Growth Blueprint"));
+  s.appendChild(cols);
+  var vd = el("div","verdict");
+  VERDICTS.forEach(function(v){
+    var b = el("button", null, v);
+    b.setAttribute("data-p", p.id); b.setAttribute("data-v", v);
+    vd.appendChild(b);
+  });
+  s.appendChild(vd);
+  var ta = document.createElement("textarea");
+  ta.setAttribute("data-notes", p.id);
+  ta.placeholder = "Notes — what won it, what to fix (optional but gold)";
+  s.appendChild(ta);
+  wrap.appendChild(s);
+});
+function save() { try { localStorage.setItem("surpass-verdicts", JSON.stringify(state)); } catch(e) {} paint(); }
+function paint() {
+  document.querySelectorAll(".verdict button").forEach(function(b){
+    var st = state[b.getAttribute("data-p")] || {};
+    b.classList.toggle("sel", st.v === b.getAttribute("data-v"));
+  });
+  document.querySelectorAll("textarea[data-notes]").forEach(function(t){
+    var st = state[t.getAttribute("data-notes")] || {};
+    if (st.n && !t.value) t.value = st.n;
+  });
+  var n = PAIRS.filter(function(p){ return (state[p.id]||{}).v; }).length;
+  document.getElementById("count").textContent = n + " of " + PAIRS.length + " judged";
+}
+document.addEventListener("click", function(e){
+  var b = e.target.closest ? e.target.closest(".verdict button") : null; if (!b) return;
+  var id = b.getAttribute("data-p");
+  state[id] = state[id] || {}; state[id].v = b.getAttribute("data-v"); save();
+});
+document.addEventListener("input", function(e){
+  var t = e.target.closest ? e.target.closest("textarea[data-notes]") : null; if (!t) return;
+  var id = t.getAttribute("data-notes");
+  state[id] = state[id] || {}; state[id].n = t.value; save();
+});
+document.getElementById("copy").addEventListener("click", function(){
+  var out = ["SURPASS VERDICTS — " + new Date().toISOString().slice(0,10)];
+  PAIRS.forEach(function(p){
+    var s = state[p.id]||{};
+    out.push(p.name + ": " + (s.v||"UNJUDGED") + (s.n ? " — " + s.n : ""));
+  });
+  var txt = out.join("\n");
+  var done = function(){ document.getElementById("copy").textContent = "Copied — paste it to me"; };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(done, function(){ window.prompt("Copy this:", txt); });
+  } else { window.prompt("Copy this:", txt); }
+});
+paint();
+</script></body></html>

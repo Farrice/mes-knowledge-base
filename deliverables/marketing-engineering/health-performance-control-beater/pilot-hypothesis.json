@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "status": "DISCOVER_FIRST",
+  "mode": "local_draft_only",
+  "company": "Farrice Cain — health/performance creative strategy",
+  "offer": "The Control-Beater",
+  "buyer": "Founder, Head of Growth, or lean marketing lead at a funded or revenue-backed, already-selling U.S. supplement, performance-nutrition, or recovery brand with active Meta creative and no senior creative-strategy seat",
+  "wedge": "creative_testing",
+  "painful_job": "Turn one current control, approved product truth, and buyer/account evidence into six materially different claim-aware creative executions and a legible learning event",
+  "primary_metric": {
+    "name": "collected_pilot_revenue_usd",
+    "target": 500,
+    "currency": "USD",
+    "event": "cleared_payment",
+    "activity_metrics_rejected": [
+      "drafts_created",
+      "likes",
+      "impressions",
+      "positive_replies",
+      "calls_held",
+      "verbal_acceptance"
+    ]
+  },
+  "price": {
+    "amount": 500,
+    "currency": "USD",
+    "terms": "prepaid",
+    "proof_state": "UNTESTED_FOUNDING_PRICE"
+  },
+  "duration": {
+    "build_hours_after_complete_inputs": 72,
+    "observation_days_after_launch": 14
+  },
+  "deliverables": [
+    "fit and input screen",
+    "frozen creative hypothesis map",
+    "five static ad concepts",
+    "one video concept",
+    "claim-boundary sheet",
+    "launch and results-return template",
+    "bounded policy-rejection fix or replacement"
+  ],
+  "approved_source_set": {
+    "name": "Health/Performance Creative Evidence Pack v1",
+    "sources": [
+      {
+        "name": "Control-Beater preservation lock",
+        "path": "deliverables/linkedin-os/farrice-cain-first-10/profile-v3-creative-strategist-blend.md",
+        "commit": "2a99eb327",
+        "state": "APPROVED"
+      },
+      {
+        "name": "ICP Battle Card",
+        "path": "_active/linkedin/01-research/ICP-BATTLE-CARD.md",
+        "state": "APPROVED"
+      },
+      {
+        "name": "ICP Truth Map",
+        "path": "_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
+        "state": "APPROVED"
+      },
+      {
+        "name": "Proof Library",
+        "path": "_active/linkedin/04-deliverables/context-os/06-PROOF-LIBRARY.md",
+        "state": "APPROVED"
+      },
+      {
+        "name": "Local teardown and concept artifacts",
+        "path": "_active/linkedin/04-deliverables/supplement-angle-concepts-and-dm-kit.md",
+        "state": "APPROVED_FOR_CAPABILITY_PROOF_ONLY"
+      }
+    ]
+  },
+  "build_entry_gate": [
+    "named client brand",
+    "one priority SKU",
+    "current control creative",
+    "recent winner/loser or account evidence",
+    "approved product and claim sources",
+    "qualified claims reviewer",
+    "launch owner",
+    "results-return commitment",
+    "cleared payment"
+  ],
+  "claim_boundary": {
+    "allowed": [
+      "exact deliverables",
+      "$500 prepaid price",
+      "72-hour delivery after complete inputs",
+      "screening against current published FTC/FDA guidance and available platform rules",
+      "bounded policy-rejection fix or replacement"
+    ],
+    "prohibited_without_new_evidence": [
+      "pre-cleared",
+      "legally approved",
+      "compliance certification",
+      "guaranteed platform acceptance",
+      "will beat the control",
+      "CTR, CPA, ROAS, revenue, conversion, or health-outcome improvement"
+    ],
+    "final_approval_owner": "client-qualified reviewer",
+    "launch_owner": "client media owner"
+  },
+  "demand_test": {
+    "authorized": false,
+    "minimum_qualified_exposures_after_approval": 10,
+    "first_evidence_event": "one $500 cleared payment",
+    "kill_gate": "20 qualified fit conversations with the exact $500 prepaid offer presented and zero purchases"
+  },
+  "external_actions": [],
+  "deliberate_exclusions": [
+    "outreach",
+    "publishing",
+    "payment request",
+    "client data access",
+    "creative production",
+    "platform upload",
+    "ad launch",
+    "performance guarantee",
+    "software build",
+    "second wedge"
+  ]
+}

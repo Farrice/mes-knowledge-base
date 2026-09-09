@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-07",
+  "scope": "New, isolated Jen research documents in side conversation",
+  "artifacts": [
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/01-positioning-dossier.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/02-audience-bullseye.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/03-positioning-opportunity-map.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/04-ai-topic-mining-report.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/05-hook-and-messaging-library.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/06-format-playbook.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/07-creative-brief-bank.md",
+    "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/08-content-blueprint.md"
+  ],
+  "workflows": {
+    "gb-interview": "Synthesized existing voice, context and buyer evidence; no new interview claimed",
+    "gb-whitespace": "Specimen-based opportunity map; account-wide scoring unconfirmed",
+    "gb-bullseye": "Five rings, three-bucket mix, bench, service links and learning criteria",
+    "ai-topic-mining-engine": "20 core seeds plus 3 current-context candidates; 50-reference triage library",
+    "ai-hook-pattern-extractor": "10 openings and 6 interpreted families with limits",
+    "gb-format-find": "Structure/layout matrix and 3 production recipes",
+    "ai-creative-reaction-sprint": "7 prepared research briefs; Jen reaction and energy input pending, not fabricated",
+    "ai-content-operations": "Roles, handoff and learning cycle in blueprint",
+    "trend-hook-radar": "Executed existing script on 68 baselined rows; raw confidence demoted to field-completeness",
+    "gb-blueprint": "Assembled written blueprint with 90-day sequence"
+  },
+  "adaptations": [
+    "Five AI engine workflows plus growth strategy workflows organized into eight requested reader artifacts; no claim of eight native mining commands",
+    "No HTML/PDF skill exports: native-readable written artifact preference honored",
+    "No fake TAM, lead value, trend velocity, paid-status check or causal proof",
+    "No bulk generated hook quota: research and production briefs requested",
+    "No shared chain finalizer or learning-log writes: isolated side-conversation artifact scope",
+    "Raw radar generated writing is machine output for inspection only; user-facing library supplies editorial judgment"
+  ],
+  "cost": {
+    "vidiq_credits": 0,
+    "new_paid_calls": 0
+  },
+  "source_counts": {
+    "social_records": 239,
+    "original_language_records": 158,
+    "current_context_sources": 11,
+    "current_excerpt_records": 6,
+    "topic_seeds": 23,
+    "reference_queue": 50
+  },
+  "verification": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/content-strategy/2026-09-07-kallaway-research-foundation/operator/verification.json",
+  "structural_status": "PASS",
+  "artifact_sha256": {
+    "01-positioning-dossier.md": "650f81f7c545e62da4a9e6236c0fc5c6f977fb6b63bb15cbd1140488e18d770d",
+    "02-audience-bullseye.md": "2b40554af53d6b403c431e98bd33db0a2930b47d6337e2a0e4b9e29ef308aca2",
+    "03-positioning-opportunity-map.md": "749d98ef6acbca8f1c17ec3962012e76d256e364e4856f9ec8449026794aa1ea",
+    "04-ai-topic-mining-report.md": "69958ab271fe6cd75dd2ffd7ea6f3101776cb4edc59e96655b3b32c132949230",
+    "05-hook-and-messaging-library.md": "2b1b46e5ac098d8d65e40160222988e322fafb4b9e82fbafe30296cca0cd2920",
+    "06-format-playbook.md": "5f8a57cb672035397727222bb45df87f1216fb6c6969fb8f1f958ec2492b7460",
+    "07-creative-brief-bank.md": "dea5bbd8d1e9f3eaf5deab31737be2456a94bd55a31db722b75a78ff1703d077",
+    "08-content-blueprint.md": "50a257c10ad74c72b8127d2a982e86c3d510304b330cc99a3d975576072606cf"
+  }
+}

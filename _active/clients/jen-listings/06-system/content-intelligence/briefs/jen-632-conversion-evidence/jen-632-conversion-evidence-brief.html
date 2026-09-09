@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the 6-3-2 system, stress-tested · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-verdict">the verdict</a><a href="#what-the-audit-found">what the audit found</a><a href="#the-current-path-has-a-handoff-gap">the current path has a handoff gap</a><a href="#current-conversion-stack-audit">current conversion-stack audit</a><a href="#what-exists-versus-what-operates">what exists versus what operates</a><a href="#the-diagnostic-passes-conditionally">the diagnostic passes conditionally</a><a href="#the-revised-diagnostic-contract">the revised diagnostic contract</a><a href="#the-strongest-6-3-2-proof">the strongest 6-3-2 proof</a><a href="#the-smallest-honest-next-build">the smallest honest next build</a><a href="#one-system-bounded-expert-roles">one system, bounded expert roles</a><a href="#what-remains-unconfirmed">what remains unconfirmed</a><a href="#the-connected-source-rail">the connected source rail</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/homebase/homebase.html" data-route="/">🏠 homebase ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/brain/brain.html" data-route="/brain">🧠 brain ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/catalog/library.html" data-route="/library">🏛 library ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/deliverables/research-briefs/index.html" data-route="/room">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/assets/assets-board.html" data-route="/assets">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/oracle/oracle-dashboard.html" data-route="/oracle">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/.agent/mdview/index.html" data-route="/repo/.agent/mdview/index.html">📄 docs ↗</a></span><script data-surface-nav-live="1">if(location.protocol.indexOf('http')===0){document.querySelectorAll('.homenav a[data-route]').forEach(function(a){a.href=a.dataset.route;});}</script><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">JEN · CONVERSION EVIDENCE</span>
+    <h1 class="display">the 6-3-2 system, <em>stress-tested</em></h1>
+    <p class="dek">[VERIFIED] A live, read-only audit of Jen&#x27;s Instagram-to-conversation path, a twelve-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">live profile + archived evidence</span></div>
+      <div><span class="k">Lens</span><span class="v">conversion · diagnostic · proof</span></div>
+      <div><span class="k">Sources</span><span class="v">Instagram, Linktree, buyer tools, 2,779 archived captions, system files</span></div>
+      <div><span class="k">Compiled</span><span class="v">sep 4, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-verdict"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the <em>verdict</em></h2></div><span class="kicker" style="margin-bottom:8px">AUDIT COMPLETE</span><div class="panel"><p>Jen has useful buyer content, a live Linktree, search and calculator utilities, and locally drafted reply and measurement logic. She does not yet have a verified end-to-end conversion system that carries a buyer from a post into a qualified, attributable conversation.</p><p>The 6-3-2 diagnostic is strategically sound but not build-ready in its original form. The three ICPs overlap, so routing must be based on today&#x27;s blocker, not a forced identity choice.</p><p>The archive also does not support three equally strong 6-3-2 client stories: #6 is a strong provisional proof, #3 is a provisional fit needing confirmation, and #2 has empathy evidence but no client transaction proof.</p></div></section><section class="blk" id="what-the-audit-found"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what the audit <em>found</em></h2></div><div class="stats"><div class="stat"><div class="num">0<small> verified</small></div><span class="lab">END-TO-END CONVERSION PATHS</span><div class="note">No post-to-qualified-conversation-to-CRM chain is evidenced.</div></div><div class="stat"><div class="num">12<small> journeys</small></div><span class="lab">DIAGNOSTIC STRESS TESTS</span><div class="note">Selected ICPs, overlaps, nurture, representation, geography, privacy, fair housing, and professional scope.</div></div><div class="stat"><div class="num">1 / 1 / 0<small> client proofs</small></div><span class="lab">#6 / #3 / #2</span><div class="note">Both available stories are provisional; #2 has no client case.</div></div><div class="stat"><div class="num">$0.00<small> spent</small></div><span class="lab">THIS PHASE</span><div class="note">[VERIFIED] No paid scrape or API call was used.</div></div></div></section><section class="blk" id="the-current-path-has-a-handoff-gap"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the current path has a <em>handoff gap</em></h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Instagram</h3><p>Calm buyer posts and open-DM invitations.</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Linktree</h3><p>Nine mixed destinations; the unrelated store is first.</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Utilities</h3><p>MLS search and three generic calculators.</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Context loss</h3><p>No visible route-specific result, consultation handoff, or source continuity.</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>Unattributed outcome</h3><p>Booking, CRM, nurture, lender protocol, and closed-loop reporting remain absent or unverified.</p></div></div><div class="bars-caption">Useful destinations exist, but buyer context is not preserved through to a human conversation.</div></section><section class="blk" id="current-conversion-stack-audit"><div class="sechead"><span class="secnum">04</span><h2 class="sec">current conversion-stack <em>audit</em></h2><span class="sectag">LIVE + LOCAL EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>The live profile opens a conversation but does not name a concrete next object.</h3><p>The bio promises seamless, stress-free buying and selling. A pinned first-time-buyer Reel says Jen&#x27;s DMs are open; another recent buyer Reel invites a message for real numbers and honest answers. Neither identifies a diagnostic, result, saved resource, or consultation path.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.instagram.com/_jiing/" target="_blank" rel="noopener">live signed-in profile · sep 4 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The Linktree is a mixed menu, not a 6-3-2 buyer journey.</h3><p>The first button is an unrelated music/ecommerce store. Buyer tools appear below it alongside a podcast, blog, team site, and playlist. There is no First Home Valley diagnostic, consultation link, or visible 6-3-2 route. The most recent internal Insights audit recorded 12 external-link taps from 1,589 profile visits, or 0.76%; that shows movement, not qualified-buyer conversion.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://linktr.ee/_jiing" target="_blank" rel="noopener">live Linktree · 9 links ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The MLS and calculator links are utilities, not a verified qualification layer.</h3><p>The MLS page offers property-search app access. The affordability and mortgage calculators request scenario inputs and display assumptions, but expose no visible route-specific question, contact capture, or continuity into Jen&#x27;s conversation. Any downstream CRM linkage remains unconfirmed because no forms were submitted.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://mls-client.com/40136BD6" target="_blank" rel="noopener">live read-only path check ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Existing local files contain reply and attribution designs, not operating proof.</h3><p>Four saved replies exist locally; installation and use are unconfirmed. The lead-path audit defines qualified DM, consultation, signed-client, and closing stages, but current outcomes are unattributed. Funnel rates remain placeholders.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">ENGINE-V2 · lead-path audit · FUNNEL-MATH</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The live positioning and current system canon disagree.</h3><p>The approved direction uses First Home Valley with ICPs 6, 3, and 2. BRAND.yaml still points to ENGINE-V2 as canon; ENGINE-V2 says the niche is the place, not the person, and BRAND.yaml bans the phrase &#x27;your first home.&#x27; Downstream production could silently revert unless this authority order is reconciled.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">BRAND.yaml · ENGINE-V2 · 6-3-2 architecture</span></div></div></div></section><section class="blk" id="what-exists-versus-what-operates"><div class="sechead"><span class="secnum">05</span><h2 class="sec">what exists versus what <em>operates</em></h2></div><div class="matrix-axes">↑ buyer value · operating proof →</div><div class="matrix"><div class="quad"><span class="qlab">HIGH VALUE · LOW PROOF</span><ul><li>Saved replies<small>[VERIFIED] Written locally; installation and use unverified.</small></li><li>6-3-2 diagnostic<small>[VERIFIED] Strong concept; requires blocker routing before build.</small></li><li>Lender coordination<small>[VERIFIED] Archive proves past introductions; no current protocol.</small></li></ul></div><div class="quad"><span class="qlab">HIGH VALUE · OPERATING</span><ul><li>Buyer utilities<small>[VERIFIED] MLS search and calculators work as self-serve tools, but not as a conversion chain.</small></li></ul></div><div class="quad"><span class="qlab">LOW VALUE · LOW PROOF</span><ul><li>Nurture<small>[VERIFIED] A branch is described; cadence, messages, owner, and channel are not built.</small></li><li>CRM attribution<small>[VERIFIED] Fields exist on paper; no populated lead object is evidenced.</small></li><li>Booking<small>[VERIFIED] No public scheduler found and no internal booking receipt located.</small></li></ul></div><div class="quad"><span class="qlab">OPERATING · DISTRACTING</span><ul><li>Linktree sprawl<small>[VERIFIED] Nine destinations dilute the buyer&#x27;s next move.</small></li><li>MyBPM store first<small>[VERIFIED] Personal expression is on-brand, but it occupies the highest-intent link position.</small></li></ul></div></div></section><section class="blk" id="the-diagnostic-passes-conditionally"><div class="sechead"><span class="secnum">06</span><h2 class="sec">the diagnostic passes <em>conditionally</em></h2></div><span class="kicker" style="margin-bottom:8px">TWELVE BUYER JOURNEYS</span><div class="panel"><p>Clean examples passed: two W-2 buyers aligning payment and commutes; a solo buyer needing decision support; and a mixed W-2/1099 buyer organizing a lender-ready question.</p><p>Overlap examples exposed the flaw: siblings co-buying with variable income and a newly self-employed buyer purchasing with a W-2 partner both belong to #6 and #2. A single-choice identity branch loses material context.</p><p>Non-fit examples needed the revised safeguards: a low-intent 18+ month browser, a represented out-of-area buyer seeking an underwriting answer, and a buyer asking for subjective neighborhood-safety guidance need nurture, route-out, or an objective-criteria redirect—not a consultation push.</p></div></section><section class="decision" id="the-revised-diagnostic-contract"><span class="kicker">BUILD THIS NEXT — NOT THE FULL ASSET YET</span><h2>the revised <em>diagnostic contract</em></h2><p class="dek">Preserve 6-3-2 as the strategy while making the buyer experience accurate, useful, and low-burden.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Route by blocker, not identity</h3><p>Use four opening choices: coordinating with another buyer; buying on my own; organizing nonstandard income; or not sure.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Allow one optional secondary tag</h3><p>A #6-primary, #2-secondary buyer receives the coordination result while Jen sees the income-documentation context.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Use five structured taps and one optional sentence</h3><p>Primary blocker, optional secondary blocker, SFV/commute anchor, timeline, and stage; then &#x27;What feels hardest right now?&#x27; Do not repeat these questions in DM.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Deliver value before qualification</h3><p>Each route names one next decision. After delivery, ask whether the buyer wants Jen&#x27;s help.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>Check representation and consent after the result</h3><p>Before offering services, ask whether the buyer is already working under a buyer-representation agreement and whether follow-up is welcome.</p></div></div><div class="dec-item"><span class="n">06</span><div><h3>Use three service states</h3><p>Active conversation, nurture fit, and route out. These are service-routing states, not demographic or financial scores.</p></div></div><div class="dec-item"><span class="n">07</span><div><h3>Keep financial and legal detail out of Instagram</h3><p>No exact income, credit score, tax returns, bank records, Social Security numbers, another buyer&#x27;s private details, eligibility predictions, or legal conclusions.</p></div></div></div></section><section class="blk" id="the-strongest-6-3-2-proof"><div class="sechead"><span class="secnum">08</span><h2 class="sec">the strongest 6-3-2 <em>proof</em></h2><span class="sectag">SOURCE-BOUNDED</span></div><div class="ev"><span class="mark">✓</span><div><h3>#6 — two first-time buyers moved from rate fear to an accepted first offer below list.</h3><p>Media 2923821348360719921. The buyers saved for a year, worried about 5–6% rates, and Jen connected them with a lender, helped ease the concern, found a home within weeks, and participated in an offer accepted below list. This proves co-buyer readiness and Jen&#x27;s coordination, not dual income, two borrowers, or relationship disagreement.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.instagram.com/p/CiTgAZ3vo4x/" target="_blank" rel="noopener">JEN-STORY-2923821348360719921 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>#3 — a singular first-time buyer was guided through a frightening pandemic purchase.</h3><p>Media 2322295603977088389. The caption says the team helped her from beginning to end and describes a smooth, successful close. It does not prove that she bought alone, what Jen personally handled, or SFV relevance; the source indicates Palmdale. Jen must confirm those facts before this becomes a Solo Decision Support story.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.instagram.com/p/CA6c4w6gW2F/" target="_blank" rel="noopener">JEN-SRC-2322295603977088389 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>#2 — Jen has lived empathy, but no archived creative-income buyer case.</h3><p>Media 2381170337418068334 documents Jen&#x27;s family-business background, non-9-to-5 life, operating without steady income, and simultaneous real-estate and clothing work. Across 2,779 captions, the proof pass found no self-employed, freelance, 1099, variable-income, or mortgage-documentation client case. This supports empathy only—not underwriting expertise or a client outcome.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.instagram.com/p/CELnc5PgEFu/" target="_blank" rel="noopener">JEN-SRC-2381170337418068334 ↗</a></div></div></div></section><section class="blk" id="the-smallest-honest-next-build"><div class="sechead"><span class="secnum">09</span><h2 class="sec">the smallest honest <em>next build</em></h2><span class="sectag">SEQUENCE</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Reconcile the authority order</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">[VERIFIED] Make First Home Valley + 6-3-2 the explicit current strategy without erasing Jen&#x27;s broader Valley identity or Listing Launch property proof.</p><pre>Decision patch only; no content production yet.</pre><div class="touches"><span>_active/clients/jen-listings/brand_context/BRAND.yaml</span><span>_active/clients/jen-listings/06-system/ENGINE-V2.md</span></div><div class="receipt"><b>receipt</b>No live production route can interpret first-time-buyer framing as forbidden.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Close the three proof gaps with Jen</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Ask three short memory questions: whether the #6 case used two incomes, whether the #3 client bought alone and what Jen carried, and which real transaction best represents a self-employed or mixed-income buyer.</p><pre>Capture exact facts and permissions; do not draft around unknowns.</pre><div class="touches"><span>_active/clients/jen-listings/06-system/content-intelligence/story-bank.json</span></div><div class="receipt"><b>receipt</b>Each selected story has a source ID, Jen-action facts, privacy state, and proof ceiling.</div></div></div><div class="play"><div class="head"><span class="n">03</span><h3>Review the private diagnostic prototype</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">The five-step interaction, four micro-results, representation check, consent choices, and Jen reply protocol are now built locally.</p><pre>Watch five people complete it without explanation before any public link change.</pre><div class="touches"><span>_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html</span><span>_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md</span></div><div class="receipt"><b>receipt</b>The deterministic test passes 12/12; human comprehension and commercial conversion remain untested.</div></div></div><div class="play"><div class="head"><span class="n">04</span><h3>Pilot 20–30 real conversations</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Use a manual path so buyer language and Jen&#x27;s workload decide what deserves automation.</p><pre>Track source post, primary/secondary route, readiness state, consultation, correction, and later business outcome.</pre><div class="touches"><span>_active/clients/jen-listings/06-system/FUNNEL-MATH.md</span></div><div class="receipt"><b>receipt</b>A populated attribution record exists; attention and commercial evidence remain separate.</div></div></div></section><section class="blk" id="one-system-bounded-expert-roles"><div class="sechead"><span class="secnum">10</span><h2 class="sec">one system, bounded <em>expert roles</em></h2></div><span class="kicker" style="margin-bottom:8px">COMPOSITION LEDGER</span><div class="panel"><p>Mike Sherrard owns the attention-to-conversation path; his decision change is one manual path instead of a collection of tools. Kallaway owns content jobs and buyer-quality attention; his decision change is blocker-based routing with primary and secondary tags. Jun Yuh owns sourced story packets; his decision change is to withhold unsupported #2 client proof and cap #6 and #3 claims. Alyssa Stalker checks the Instagram-native handoff and lead quality; her decision change is value before qualification and a human reply before booking. Jen remains the voice, privacy, and relationship authority.</p><p>The main Jen conductor reconciles these contributions. No additional expert rewrites every asset, and no name counts as proof unless it changed a decision recorded here.</p></div></section><section class="blk caveats" id="what-remains-unconfirmed"><span class="kicker" style="margin-bottom:10px">TRUTH + PRIVACY BOUNDARY</span><h2>what remains <em>unconfirmed</em></h2><p>The audit did not open Jen&#x27;s DMs, submit any calculator, inspect private CRM data, alter Instagram, change Linktree, or publish anything. Saved replies, legacy automations, booking software, CRM ownership, current lender roster, and actual content-sourced consultations remain unconfirmed. Comments and Highlights were excluded at Farrice&#x27;s direction. The live profile reports 2,780 posts; the proof scan covered 2,779 archived captions, so one live post or caption state is outside this proof pass.</p><p>California DRE guidance supports a human-reviewed, privacy-conscious flow and requires buyer-broker agreements as soon as practicable and no later than an offer; Jen and her broker should approve the final operational wording. Fair-housing redirects must use objective, buyer-defined property and commute criteria rather than subjective claims about neighborhood safety or demographics.</p><p>Commercial status is UNTESTED. Likes, views, comments, taps, polished tools, and archived transaction stories do not establish attributable leads or closings.</p><a class="cta" href="../../Jen%206-3-2%20Lead%20System%20Architecture.md">RETURN TO THE 6-3-2 ARCHITECTURE</a></section><section class="blk" id="the-connected-source-rail"><div class="sechead"><span class="secnum">12</span><h2 class="sec">the connected <em>source rail</em></h2><span class="sectag">KEEP CONTEXT TOGETHER</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen%206-3-2%20Lead%20System%20Architecture.md"><span class="k">ARCHITECTURE</span><span class="t">Jen 6-3-2 Lead System Architecture</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen%20Story%20Bank.csv"><span class="k">STORY BANK</span><span class="t">Jen Story Bank</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Service%20Proof%20Library.md"><span class="k">PROOF</span><span class="t">Service Proof Library</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen%206-3-2%20Proof%20Voice%20Notes.md"><span class="k">INTERVIEW</span><span class="t">Jen 6-3-2 Proof Voice Notes</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/First%20Home%20Valley%20Diagnostic%20-%20Private%20Prototype.md"><span class="k">PROTOTYPE</span><span class="t">First Home Valley Diagnostic — Private Prototype</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html"><span class="k">INTERACTIVE</span><span class="t">Open the working diagnostic</span></a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md"><span class="k">PLAYBOOK</span><span class="t">Winning Agent Playbook</span></a><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html" target="_blank" rel="noopener"><span class="k">DRE</span><span class="t">Buyer representation advisory</span></a><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html" target="_blank" rel="noopener"><span class="k">DRE</span><span class="t">AI in California real estate advisory</span></a><a href="https://calcivilrights.ca.gov/housing/" target="_blank" rel="noopener"><span class="k">CRD</span><span class="t">California fair-housing protections</span></a></div></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">13</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Jen Instagram profile</td><td><a href="https://www.instagram.com/_jiing/" target="_blank" rel="noopener">https://www.instagram.com/_jiing/</a></td><td>2026-09-04</td><td>live bio, link, pinned and recent buyer CTA audit</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Jen Linktree</td><td><a href="https://linktr.ee/_jiing" target="_blank" rel="noopener">https://linktr.ee/_jiing</a></td><td>2026-09-04</td><td>live destination and button-order audit</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>MLS Client landing page</td><td><a href="https://mls-client.com/40136BD6" target="_blank" rel="noopener">https://mls-client.com/40136BD6</a></td><td>2026-09-04</td><td>buyer utility path audit</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>California DRE buyer representation advisory</td><td><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html" target="_blank" rel="noopener">https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html</a></td><td>2026-09-04</td><td>representation handoff boundary</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>California DRE AI advisory</td><td><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html" target="_blank" rel="noopener">https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html</a></td><td>2026-09-04</td><td>human oversight, privacy, scope, and truthful communications</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>California Civil Rights Department housing guidance</td><td><a href="https://calcivilrights.ca.gov/housing/" target="_blank" rel="noopener">https://calcivilrights.ca.gov/housing/</a></td><td>2026-09-04</td><td>fair-housing audience and neighborhood-question safeguards</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>07</td><td>Jen source archive</td><td><a href="https://www.instagram.com/p/CiTgAZ3vo4x/" target="_blank" rel="noopener">https://www.instagram.com/p/CiTgAZ3vo4x/</a></td><td>2026-09-04</td><td>#6 strongest provisional proof</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>08</td><td>Jen source archive</td><td><a href="https://www.instagram.com/p/CA6c4w6gW2F/" target="_blank" rel="noopener">https://www.instagram.com/p/CA6c4w6gW2F/</a></td><td>2026-09-04</td><td>#3 strongest provisional proof</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>09</td><td>Jen source archive</td><td><a href="https://www.instagram.com/p/CELnc5PgEFu/" target="_blank" rel="noopener">https://www.instagram.com/p/CELnc5PgEFu/</a></td><td>2026-09-04</td><td>#2 empathy source and proof gap</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">14</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen%206-3-2%20Lead%20System%20Architecture.md">_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md</a></td><td>approved strategy architecture</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/story-bank.json">_active/clients/jen-listings/06-system/content-intelligence/story-bank.json</a></td><td>source-traced story bank</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen%20Story%20Bank.csv">_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv</a></td><td>curated story index</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Service%20Proof%20Library.md">_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md</a></td><td>service proof index</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md">_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md</a></td><td>prior lead-path evidence</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md">_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md</a></td><td>conversion and content-system precedent</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/ENGINE-V2.md">_active/clients/jen-listings/06-system/ENGINE-V2.md</a></td><td>current operating canon requiring reconciliation</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/brand_context/BRAND.yaml">_active/clients/jen-listings/brand_context/BRAND.yaml</a></td><td>reconciled downstream brand routing</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen%206-3-2%20Proof%20Voice%20Notes.md">_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md</a></td><td>voice-note proof retrieval packet</td></tr><tr><td>10</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/First%20Home%20Valley%20Diagnostic%20-%20Private%20Prototype.md">_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md</a></td><td>prototype operating and test specification</td></tr><tr><td>11</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html">_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html</a></td><td>working private diagnostic</td></tr><tr><td>12</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/FUNNEL-MATH.md">_active/clients/jen-listings/06-system/FUNNEL-MATH.md</a></td><td>playbook · Pilot 20–30 real conversations</td></tr><tr><td>13</td><td><a href="https://www.instagram.com/_jiing/" target="_blank" rel="noopener">https://www.instagram.com/_jiing/</a></td><td>live signed-in profile · sep 4</td></tr><tr><td>14</td><td><a href="https://linktr.ee/_jiing" target="_blank" rel="noopener">https://linktr.ee/_jiing</a></td><td>live Linktree · 9 links</td></tr><tr><td>15</td><td><a href="https://mls-client.com/40136BD6" target="_blank" rel="noopener">https://mls-client.com/40136BD6</a></td><td>live read-only path check</td></tr><tr><td>16</td><td><a href="https://www.instagram.com/p/CiTgAZ3vo4x/" target="_blank" rel="noopener">https://www.instagram.com/p/CiTgAZ3vo4x/</a></td><td>JEN-STORY-2923821348360719921</td></tr><tr><td>17</td><td><a href="https://www.instagram.com/p/CA6c4w6gW2F/" target="_blank" rel="noopener">https://www.instagram.com/p/CA6c4w6gW2F/</a></td><td>JEN-SRC-2322295603977088389</td></tr><tr><td>18</td><td><a href="https://www.instagram.com/p/CELnc5PgEFu/" target="_blank" rel="noopener">https://www.instagram.com/p/CELnc5PgEFu/</a></td><td>JEN-SRC-2381170337418068334</td></tr><tr><td>19</td><td><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html" target="_blank" rel="noopener">https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html</a></td><td>Buyer representation advisory</td></tr><tr><td>20</td><td><a href="https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html" target="_blank" rel="noopener">https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html</a></td><td>AI in California real estate advisory</td></tr><tr><td>21</td><td><a href="https://calcivilrights.ca.gov/housing/" target="_blank" rel="noopener">https://calcivilrights.ca.gov/housing/</a></td><td>California fair-housing protections</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;jen-632-conversion-evidence&quot;,
+  &quot;title&quot;: &quot;the 6-3-2 system, stress-tested&quot;,
+  &quot;compiled&quot;: &quot;sep 4, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md&quot;,
+      &quot;role&quot;: &quot;approved strategy architecture&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/story-bank.json&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/story-bank.json&quot;,
+      &quot;role&quot;: &quot;source-traced story bank&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv&quot;,
+      &quot;role&quot;: &quot;curated story index&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md&quot;,
+      &quot;role&quot;: &quot;service proof index&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md&quot;,
+      &quot;role&quot;: &quot;prior lead-path evidence&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md&quot;,
+      &quot;role&quot;: &quot;conversion and content-system precedent&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/ENGINE-V2.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/ENGINE-V2.md&quot;,
+      &quot;role&quot;: &quot;current operating canon requiring reconciliation&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/brand_context/BRAND.yaml&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/brand_context/BRAND.yaml&quot;,
+      &quot;role&quot;: &quot;reconciled downstream brand routing&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md&quot;,
+      &quot;role&quot;: &quot;voice-note proof retrieval packet&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md&quot;,
+      &quot;role&quot;: &quot;prototype operating and test specification&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html&quot;,
+      &quot;role&quot;: &quot;working private diagnostic&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/clients/jen-listings/06-system/FUNNEL-MATH.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp/_active/clients/jen-listings/06-system/FUNNEL-MATH.md&quot;,
+      &quot;role&quot;: &quot;playbook · Pilot 20–30 real conversations&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.instagram.com/_jiing/&quot;,
+      &quot;label&quot;: &quot;live signed-in profile · sep 4&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://linktr.ee/_jiing&quot;,
+      &quot;label&quot;: &quot;live Linktree · 9 links&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://mls-client.com/40136BD6&quot;,
+      &quot;label&quot;: &quot;live read-only path check&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.instagram.com/p/CiTgAZ3vo4x/&quot;,
+      &quot;label&quot;: &quot;JEN-STORY-2923821348360719921&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.instagram.com/p/CA6c4w6gW2F/&quot;,
+      &quot;label&quot;: &quot;JEN-SRC-2322295603977088389&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.instagram.com/p/CELnc5PgEFu/&quot;,
+      &quot;label&quot;: &quot;JEN-SRC-2381170337418068334&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html&quot;,
+      &quot;label&quot;: &quot;Buyer representation advisory&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html&quot;,
+      &quot;label&quot;: &quot;AI in California real estate advisory&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://calcivilrights.ca.gov/housing/&quot;,
+      &quot;label&quot;: &quot;California fair-housing protections&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>JEN CONTENT INTELLIGENCE</span>
+    <span>OPERATOR ONLY</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "_active/clients/jen-listings/06-system/content-intelligence/briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md", "brief": "SOURCE: _active/clients/jen-listings/06-system/content-intelligence/briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md  (research brief · Antigravity)\nHTML: _active/clients/jen-listings/06-system/content-intelligence/briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-brief.html\nCONTEXT PACK: _active/clients/jen-listings/06-system/content-intelligence/briefs/jen-632-conversion-evidence/jen-632-conversion-evidence-context.json\nCOMPILED: sep 4, 2026\n\n# the 6-3-2 system, stress-tested\n\n> JEN · CONVERSION EVIDENCE · window: live profile + archived evidence · lens: conversion · diagnostic · proof · sources: Instagram, Linktree, buyer tools, 2,779 archived captions, system files · compiled: sep 4, 2026\n\n[VERIFIED] A live, read-only audit of Jen's Instagram-to-conversation path, a twelve-journey diagnostic stress test, and the strongest source-bounded proof currently available for ICPs 6, 3, and 2.\n\n## the verdict\n_AUDIT COMPLETE_\nJen has useful buyer content, a live Linktree, search and calculator utilities, and locally drafted reply and measurement logic. She does not yet have a verified end-to-end conversion system that carries a buyer from a post into a qualified, attributable conversation.\n\nThe 6-3-2 diagnostic is strategically sound but not build-ready in its original form. The three ICPs overlap, so routing must be based on today's blocker, not a forced identity choice.\n\nThe archive also does not support three equally strong 6-3-2 client stories: #6 is a strong provisional proof, #3 is a provisional fit needing confirmation, and #2 has empathy evidence but no client transaction proof.\n\n## what the audit found\n- END-TO-END CONVERSION PATHS: **0 verified** (No post-to-qualified-conversation-to-CRM chain is evidenced.)\n- DIAGNOSTIC STRESS TESTS: **12 journeys** (Selected ICPs, overlaps, nurture, representation, geography, privacy, fair housing, and professional scope.)\n- #6 / #3 / #2: **1 / 1 / 0 client proofs** (Both available stories are provisional; #2 has no client case.)\n- THIS PHASE: **$0.00 spent** ([VERIFIED] No paid scrape or API call was used.)\n\n## the current path has a handoff gap\nInstagram → Linktree → Utilities → Context loss → Unattributed outcome\n  - Instagram: Calm buyer posts and open-DM invitations.\n  - Linktree: Nine mixed destinations; the unrelated store is first.\n  - Utilities: MLS search and three generic calculators.\n  - Context loss: No visible route-specific result, consultation handoff, or source continuity.\n  - Unattributed outcome: Booking, CRM, nurture, lender protocol, and closed-loop reporting remain absent or unverified.\n\n## current conversion-stack audit\n- **The live profile opens a conversation but does not name a concrete next object.** [VERIFIED] — The bio promises seamless, stress-free buying and selling. A pinned first-time-buyer Reel says Jen's DMs are open; another recent buyer Reel invites a message for real numbers and honest answers. Neither identifies a diagnostic, result, saved resource, or consultation path. (https://www.instagram.com/_jiing/)\n- **The Linktree is a mixed menu, not a 6-3-2 buyer journey.** [VERIFIED] — The first button is an unrelated music/ecommerce store. Buyer tools appear below it alongside a podcast, blog, team site, and playlist. There is no First Home Valley diagnostic, consultation link, or visible 6-3-2 route. The most recent internal Insights audit recorded 12 external-link taps from 1,589 profile visits, or 0.76%; that shows movement, not qualified-buyer conversion. (https://linktr.ee/_jiing)\n- **The MLS and calculator links are utilities, not a verified qualification layer.** [VERIFIED] — The MLS page offers property-search app access. The affordability and mortgage calculators request scenario inputs and display assumptions, but expose no visible route-specific question, contact capture, or continuity into Jen's conversation. Any downstream CRM linkage remains unconfirmed because no forms were submitted. (https://mls-client.com/40136BD6)\n- **Existing local files contain reply and attribution designs, not operating proof.** [VERIFIED] — Four saved replies exist locally; installation and use are unconfirmed. The lead-path audit defines qualified DM, consultation, signed-client, and closing stages, but current outcomes are unattributed. Funnel rates remain placeholders. (ENGINE-V2 · lead-path audit · FUNNEL-MATH)\n- **The live positioning and current system canon disagree.** [VERIFIED] — The approved direction uses First Home Valley with ICPs 6, 3, and 2. BRAND.yaml still points to ENGINE-V2 as canon; ENGINE-V2 says the niche is the place, not the person, and BRAND.yaml bans the phrase 'your first home.' Downstream production could silently revert unless this authority order is reconciled. (BRAND.yaml · ENGINE-V2 · 6-3-2 architecture)\n\n## what exists versus what operates\n- **HIGH VALUE · LOW PROOF**: Saved replies ([VERIFIED] Written locally; installation and use unverified.), 6-3-2 diagnostic ([VERIFIED] Strong concept; requires blocker routing before build.), Lender coordination ([VERIFIED] Archive proves past introductions; no current protocol.)\n- **HIGH VALUE · OPERATING**: Buyer utilities ([VERIFIED] MLS search and calculators work as self-serve tools, but not as a conversion chain.)\n- **LOW VALUE · LOW PROOF**: Nurture ([VERIFIED] A branch is described; cadence, messages, owner, and channel are not built.), CRM attribution ([VERIFIED] Fields exist on paper; no populated lead object is evidenced.), Booking ([VERIFIED] No public scheduler found and no internal booking receipt located.)\n- **OPERATING · DISTRACTING**: Linktree sprawl ([VERIFIED] Nine destinations dilute the buyer's next move.), MyBPM store first ([VERIFIED] Personal expression is on-brand, but it occupies the highest-intent link position.)\n\n## the diagnostic passes conditionally\n_TWELVE BUYER JOURNEYS_\nClean examples passed: two W-2 buyers aligning payment and commutes; a solo buyer needing decision support; and a mixed W-2/1099 buyer organizing a lender-ready question.\n\nOverlap examples exposed the flaw: siblings co-buying with variable income and a newly self-employed buyer purchasing with a W-2 partner both belong to #6 and #2. A single-choice identity branch loses material context.\n\nNon-fit examples needed the revised safeguards: a low-intent 18+ month browser, a represented out-of-area buyer seeking an underwriting answer, and a buyer asking for subjective neighborhood-safety guidance need nurture, route-out, or an objective-criteria redirect—not a consultation push.\n\n## the revised diagnostic contract\nPreserve 6-3-2 as the strategy while making the buyer experience accurate, useful, and low-burden.\n1. **Route by blocker, not identity** — Use four opening choices: coordinating with another buyer; buying on my own; organizing nonstandard income; or not sure.\n2. **Allow one optional secondary tag** — A #6-primary, #2-secondary buyer receives the coordination result while Jen sees the income-documentation context.\n3. **Use five structured taps and one optional sentence** — Primary blocker, optional secondary blocker, SFV/commute anchor, timeline, and stage; then 'What feels hardest right now?' Do not repeat these questions in DM.\n4. **Deliver value before qualification** — Each route names one next decision. After delivery, ask whether the buyer wants Jen's help.\n5. **Check representation and consent after the result** — Before offering services, ask whether the buyer is already working under a buyer-representation agreement and whether follow-up is welcome.\n6. **Use three service states** — Active conversation, nurture fit, and route out. These are service-routing states, not demographic or financial scores.\n7. **Keep financial and legal detail out of Instagram** — No exact income, credit score, tax returns, bank records, Social Security numbers, another buyer's private details, eligibility predictions, or legal conclusions.\n\n## the strongest 6-3-2 proof\n- **#6 — two first-time buyers moved from rate fear to an accepted first offer below list.** [LIKELY] — Media 2923821348360719921. The buyers saved for a year, worried about 5–6% rates, and Jen connected them with a lender, helped ease the concern, found a home within weeks, and participated in an offer accepted below list. This proves co-buyer readiness and Jen's coordination, not dual income, two borrowers, or relationship disagreement. (https://www.instagram.com/p/CiTgAZ3vo4x/)\n- **#3 — a singular first-time buyer was guided through a frightening pandemic purchase.** [LIKELY] — Media 2322295603977088389. The caption says the team helped her from beginning to end and describes a smooth, successful close. It does not prove that she bought alone, what Jen personally handled, or SFV relevance; the source indicates Palmdale. Jen must confirm those facts before this becomes a Solo Decision Support story. (https://www.instagram.com/p/CA6c4w6gW2F/)\n- **#2 — Jen has lived empathy, but no archived creative-income buyer case.** [VERIFIED] — Media 2381170337418068334 documents Jen's family-business background, non-9-to-5 life, operating without steady income, and simultaneous real-estate and clothing work. Across 2,779 captions, the proof pass found no self-employed, freelance, 1099, variable-income, or mortgage-documentation client case. This supports empathy only—not underwriting expertise or a client outcome. (https://www.instagram.com/p/CELnc5PgEFu/)\n\n## the smallest honest next build\n1. **Reconcile the authority order** — [VERIFIED] Make First Home Valley + 6-3-2 the explicit current strategy without erasing Jen's broader Valley identity or Listing Launch property proof.\n```\nDecision patch only; no content production yet.\n```\n   touches: _active/clients/jen-listings/brand_context/BRAND.yaml · _active/clients/jen-listings/06-system/ENGINE-V2.md\n   receipt: No live production route can interpret first-time-buyer framing as forbidden.\n2. **Close the three proof gaps with Jen** — Ask three short memory questions: whether the #6 case used two incomes, whether the #3 client bought alone and what Jen carried, and which real transaction best represents a self-employed or mixed-income buyer.\n```\nCapture exact facts and permissions; do not draft around unknowns.\n```\n   touches: _active/clients/jen-listings/06-system/content-intelligence/story-bank.json\n   receipt: Each selected story has a source ID, Jen-action facts, privacy state, and proof ceiling.\n3. **Review the private diagnostic prototype** — The five-step interaction, four micro-results, representation check, consent choices, and Jen reply protocol are now built locally.\n```\nWatch five people complete it without explanation before any public link change.\n```\n   touches: _active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html · _active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md\n   receipt: The deterministic test passes 12/12; human comprehension and commercial conversion remain untested.\n4. **Pilot 20–30 real conversations** — Use a manual path so buyer language and Jen's workload decide what deserves automation.\n```\nTrack source post, primary/secondary route, readiness state, consultation, correction, and later business outcome.\n```\n   touches: _active/clients/jen-listings/06-system/FUNNEL-MATH.md\n   receipt: A populated attribution record exists; attention and commercial evidence remain separate.\n\n## one system, bounded expert roles\n_COMPOSITION LEDGER_\nMike Sherrard owns the attention-to-conversation path; his decision change is one manual path instead of a collection of tools. Kallaway owns content jobs and buyer-quality attention; his decision change is blocker-based routing with primary and secondary tags. Jun Yuh owns sourced story packets; his decision change is to withhold unsupported #2 client proof and cap #6 and #3 claims. Alyssa Stalker checks the Instagram-native handoff and lead quality; her decision change is value before qualification and a human reply before booking. Jen remains the voice, privacy, and relationship authority.\n\nThe main Jen conductor reconciles these contributions. No additional expert rewrites every asset, and no name counts as proof unless it changed a decision recorded here.\n\n## what remains unconfirmed\n_TRUTH + PRIVACY BOUNDARY_\nThe audit did not open Jen's DMs, submit any calculator, inspect private CRM data, alter Instagram, change Linktree, or publish anything. Saved replies, legacy automations, booking software, CRM ownership, current lender roster, and actual content-sourced consultations remain unconfirmed. Comments and Highlights were excluded at Farrice's direction. The live profile reports 2,780 posts; the proof scan covered 2,779 archived captions, so one live post or caption state is outside this proof pass.\n\nCalifornia DRE guidance supports a human-reviewed, privacy-conscious flow and requires buyer-broker agreements as soon as practicable and no later than an offer; Jen and her broker should approve the final operational wording. Fair-housing redirects must use objective, buyer-defined property and commute criteria rather than subjective claims about neighborhood safety or demographics.\n\nCommercial status is UNTESTED. Likes, views, comments, taps, polished tools, and archived transaction stories do not establish attributable leads or closings.\n\n## the connected source rail\n- [ARCHITECTURE] Jen 6-3-2 Lead System Architecture — _active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md\n- [STORY BANK] Jen Story Bank — _active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv\n- [PROOF] Service Proof Library — _active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md\n- [INTERVIEW] Jen 6-3-2 Proof Voice Notes — _active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md\n- [PROTOTYPE] First Home Valley Diagnostic — Private Prototype — _active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md\n- [INTERACTIVE] Open the working diagnostic — _active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html\n- [PLAYBOOK] Winning Agent Playbook — _active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md\n- [DRE] Buyer representation advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html\n- [DRE] AI in California real estate advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html\n- [CRD] California fair-housing protections — https://calcivilrights.ca.gov/housing/\n\n## Source ledger\n1. Jen Instagram profile — https://www.instagram.com/_jiing/ (retrieved 2026-09-04, VERIFIED; used for: live bio, link, pinned and recent buyer CTA audit)\n2. Jen Linktree — https://linktr.ee/_jiing (retrieved 2026-09-04, VERIFIED; used for: live destination and button-order audit)\n3. MLS Client landing page — https://mls-client.com/40136BD6 (retrieved 2026-09-04, VERIFIED; used for: buyer utility path audit)\n4. California DRE buyer representation advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html (retrieved 2026-09-04, VERIFIED; used for: representation handoff boundary)\n5. California DRE AI advisory — https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html (retrieved 2026-09-04, VERIFIED; used for: human oversight, privacy, scope, and truthful communications)\n6. California Civil Rights Department housing guidance — https://calcivilrights.ca.gov/housing/ (retrieved 2026-09-04, VERIFIED; used for: fair-housing audience and neighborhood-question safeguards)\n7. Jen source archive — https://www.instagram.com/p/CiTgAZ3vo4x/ (retrieved 2026-09-04, LIKELY; used for: #6 strongest provisional proof)\n8. Jen source archive — https://www.instagram.com/p/CA6c4w6gW2F/ (retrieved 2026-09-04, LIKELY; used for: #3 strongest provisional proof)\n9. Jen source archive — https://www.instagram.com/p/CELnc5PgEFu/ (retrieved 2026-09-04, VERIFIED; used for: #2 empathy source and proof gap)\n\n## Context pack (agent feed)\n- `_active/clients/jen-listings/06-system/content-intelligence/Jen 6-3-2 Lead System Architecture.md` — approved strategy architecture\n- `_active/clients/jen-listings/06-system/content-intelligence/story-bank.json` — source-traced story bank\n- `_active/clients/jen-listings/06-system/content-intelligence/Jen Story Bank.csv` — curated story index\n- `_active/clients/jen-listings/06-system/content-intelligence/Service Proof Library.md` — service proof index\n- `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md` — prior lead-path evidence\n- `_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md` — conversion and content-system precedent\n- `_active/clients/jen-listings/06-system/ENGINE-V2.md` — current operating canon requiring reconciliation\n- `_active/clients/jen-listings/brand_context/BRAND.yaml` — reconciled downstream brand routing\n- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/Jen 6-3-2 Proof Voice Notes.md` — voice-note proof retrieval packet\n- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/First Home Valley Diagnostic - Private Prototype.md` — prototype operating and test specification\n- `_active/clients/jen-listings/06-system/content-intelligence/lead-system/first-home-valley-diagnostic/index.html` — working private diagnostic\n- `_active/clients/jen-listings/06-system/FUNNEL-MATH.md` — playbook · Pilot 20–30 real conversations\n- https://www.instagram.com/_jiing/ — live signed-in profile · sep 4\n- https://linktr.ee/_jiing — live Linktree · 9 links\n- https://mls-client.com/40136BD6 — live read-only path check\n- https://www.instagram.com/p/CiTgAZ3vo4x/ — JEN-STORY-2923821348360719921\n- https://www.instagram.com/p/CA6c4w6gW2F/ — JEN-SRC-2322295603977088389\n- https://www.instagram.com/p/CELnc5PgEFu/ — JEN-SRC-2381170337418068334\n- https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html — Buyer representation advisory\n- https://www.dre.ca.gov/Licensees/Advisories/Advisory_2026_03_17_AI_in_California_Real_Estate.html — AI in California real estate advisory\n- https://calcivilrights.ca.gov/housing/ — California fair-housing protections\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = false;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-dual-income-icp";
+  if (location.protocol.indexOf('http') === 0 && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var relPath = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return uri.slice(PREFIX.length);
+    };
+    var HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ LIVE = !!(j && j.pulse && j.root === REPO_ROOT); return LIVE; })
+      .catch(function(){ LIVE = false; return false; });
+    var browserRoute = function(uri){
+      var rel = relPath(uri);
+      if (!rel) return null;
+      return (LIVE ? '/repo/' : '/') + rel;
+    };
+    HANDSHAKE.then(function(){
+      // Images must be same-origin or they render as broken glyphs. Generic
+      // repo-root preview servers use /<path>; Pulse uses /repo/<path>.
+      document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+        var r = browserRoute(img.getAttribute('src'));
+        if (r) img.setAttribute('src', r);
+      });
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        ev.preventDefault();
+        HANDSHAKE.then(function(){
+          var repo = browserRoute(href);
+          if (repo && INLINE.test(repo.split('?')[0])){
+            window.location = repo;
+            return;
+          }
+          if (!LIVE){ window.location = href; return; }
+          fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                            body: JSON.stringify({action:'open-path', args:{uri: href}})})
+            .then(function(r){ return r.json(); })
+            .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+            .catch(function(){ toast('open failed'); });
+        });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

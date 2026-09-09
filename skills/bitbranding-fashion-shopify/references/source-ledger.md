@@ -1,10 +1,41 @@
 # BitBranding (Christian Pinyon) — Source Ledger
 
-Claim-by-claim provenance for `skills/bitbranding-fashion-shopify/`. Ground truth is a
-single extraction file: `extractions/BitBranding/transcript.txt` (55,127 bytes,
-confirmed via `wc -c` during this repair — verbatim inspected via Python substring
-search, not assumed). The file is a single-line raw transcript (0 newlines per `wc -l`),
-so citations below are by exact substring match rather than line number.
+Claim-by-claim provenance for `skills/bitbranding-fashion-shopify/`. Ground truth now
+has two bounded source packages:
+
+1. `extractions/BitBranding/transcript.txt` — original collection-page source, a
+   single-line raw transcript with no embedded metadata.
+2. `extractions/video-context/fwv1l_kdW18/` — 2026-08-27 product-page source with
+   metadata, native captions, 1,100 timestamped segments, ten manually reviewed
+   screen-share frames, uncertainty report, and mastery extraction.
+
+The second package expands the existing owner; it does not rewrite or weaken the
+original collection-page provenance.
+
+## PDP Expansion Verification (run 2026-08-30)
+
+| Check | Result |
+|---|---|
+| Public video identity | `fwv1l_kdW18`, BitBranding, `I Rebuilt a Shopify Product Page Without a Developer or Page Builder`, 40:27, uploaded 2026-08-27 |
+| Transcript evidence | Native YouTube captions captured; 1,100 parsed segments and 16,042 clean transcript words |
+| Visual evidence | Ten retained and manually reviewed screen-share frames covering module architecture, dossier, questions, blueprint, connector, first-pass gaps, repair, editor result, and size chart |
+| Intake proof | `execution/verify_video_context_source_package.py extractions/video-context/fwv1l_kdW18` |
+| Existing-coverage decision | Expanded `bitbranding-fashion-shopify`; no new agent or parallel Shopify skill |
+
+## PDP Claim Boundaries
+
+| Claim or mechanic | Label | Basis |
+|---|---|---|
+| Eleven apparel PDP modules mapped to buyer objections | VERIFIED IN SOURCE | Spoken explanation plus retained module-stack frame around 05:04 |
+| Customer/product/fit/return/voice/reference dossier before build | VERIFIED IN SOURCE | Spoken sequence and retained dossier/context frames around 13:31 and 16:24 |
+| Ask questions before building and flag missing facts | VERIFIED IN SOURCE | Visible prompt and visible blueprint response around 20:32-22:39 |
+| Use a uniquely named duplicated draft theme | VERIFIED IN SOURCE | Spoken workflow and Shopify connector/theme frames around 24:30-25:58 |
+| First mutation still required a defect-led repair pass | VERIFIED IN SOURCE | Visible first-pass gaps and numbered repair prompt around 25:58-29:20 |
+| Re-read current state before later mutations | VERIFIED IN SOURCE | Spoken warning about incremental uploads and stale state in the repair segment |
+| Base page converted just under 1% | SOURCE-REPORTED | Creator statement; no analytics export or independent audit in the package |
+| Connector availability and Shopify limitations remain current | UNCONFIRMED CURRENT | Demonstrated and described on 2026-08-27; temporally unstable and requires live verification |
+| The rebuilt page improves conversion, revenue, or returns | UNTESTED | No post-launch experiment or business receipt supplied; source explicitly says the model cannot know conversion |
+| Connector writes, app installation, or publication are authorized | NO PERMISSION | The extraction/build run is local only |
 
 ## Absence / Presence Verification (run 2026-07-17)
 

@@ -245,6 +245,71 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 
 ---
 
+### Patterns from BigDeal × Seth Godin — *The Knot* interview (2026-08-12)
+
+> Source package: `extractions/video-context/o8yD6nt71Cs/`. The 65:47 interview has a 12,705-word auto-caption transcript, 1,978 timestamped segments, and 13 sampled frames verifying the dominant two-person studio format. External anecdotes and figures remain source claims unless independently verified. The gap-diff refused to duplicate existing problem/situation, but-to-and, SVA, strategic-quitting, qualified-feedback, and role-identity material. The six patterns below are the source's useful additions or compositions.
+
+#### Pattern 30: Decision-Once Craft
+**Execute**: Convert recurring craft from a daily motivation question into one bounded standing decision. Set the cadence, minimum spec, review date, and four-week term once; on execution days decide only what to make, not whether to show up. This extends Pattern 13 from isolated identity action into a durable production posture.
+**Success Metric**: A four-week cadence with no daily go/no-go debate and no more than one missed repetition.
+
+#### Pattern 31: Feedback-Sponsor Audit
+**Execute**: Before optimizing a metric, ask who made it easy to see and who benefits when it rises. Platform likes, comments, views, rankings, and internal dashboards are incentive systems, not neutral truth. Name the real behavior the proxy is supposed to represent and replace it when the sponsor's interest and the intended change diverge.
+**Success Metric**: Every decision-driving metric has a named sponsor, intended behavior, and directly observed replacement signal when the proxy is weak.
+
+#### Pattern 32: Four-Horsemen Protection Diagnosis
+**Execute**: Treat mediocre or stuck behavior as protected by one primary posture: deniability avoids ownership, helplessness avoids agency, contempt avoids care, and fear avoids exposure. Diagnose the protection before prescribing action, then remove only enough protection for the smallest useful move.
+**Success Metric**: One primary posture is named, with one action that makes it unavailable without demanding total personality change.
+
+#### Pattern 33: Actual-Risk Ladder
+**Execute**: Separate felt risk from actual downside. Put on the pessimist hat first to cap financial, social, and time loss; then put on the optimist hat to ask what becomes possible. Design the smallest generous experiment that can change a decision while keeping failure visible to as few people as necessary.
+**Success Metric**: The first experiment carries explicit downside caps, produces one decision-relevant signal, and can be completed without betting the project or identity.
+
+#### Pattern 34: Entanglement Truth-to-Habit
+**Execute**: Name the old decision, status demand, memory, or credit requirement currently being treated as a fact. State the incompatible demand plainly, remove any optional identity/credit condition, and install a four-week replacement habit. Truth exposes the entanglement; repeated behavior builds the new identity.
+**Success Metric**: One hidden requirement is named, one optional condition removed, and one replacement practice sustained for four weeks.
+
+#### Pattern 35: Root-Post Diagnosis
+**Execute**: In a complicated knot, search for the one assumption, incentive, or old commitment organizing several visible strands. Ask which single fact, if no longer treated as binding, would make at least two symptoms easier. Test that candidate before optimizing every symptom separately.
+**Success Metric**: The diagnosis names one load-bearing assumption and at least two downstream effects that change when it is removed.
+
+### Patterns from Digital Cut × Seth Godin — AI Creative Practice (2026-09-01)
+
+> Source: complete 62:09 interview at `extractions/video-context/DHTgH34inHY/`. Direct mechanics are timestamp-backed in `evidence-ledger.md`; external anecdotes and numerical claims remain verified as stated in the interview only.
+
+#### Pattern 36: Human Projects, AI Tasks
+**Execute**: Keep the desired change, audience, consequential judgment, protected constraints, quality threshold, release, and recovery with one human outcome owner. Give AI bounded tasks with exact inputs, output shape, acceptance test, reviewer, prohibited actions, and stop condition. If a packet contains the objective itself, it is still a project and must be rewritten.
+**Success Metric**: Every AI assignment can fail or be rejected without surrendering the project decision; one human can explain and defend the result.
+
+#### Pattern 37: System-Gap Creative Search
+**Execute**: When a real system is implicated, step out exactly one level: name who benefits, who is underserved, what friction repeats, and where one small intervention could change the pattern. Choose the gap nearest the smallest viable audience and cheapest to test, then return to artifact design.
+**Success Metric**: One evidence-labeled system gap produces one testable leverage point; systems analysis does not become a substitute for making.
+
+#### Pattern 38: Proud Artifact Threshold
+**Execute**: Permit abundant rough internal exploration, but define one usable artifact with a user, moment of use, promised change, minimum spec, and proof requirement. Only human-selected work that clears the threshold crosses the publishing boundary. The test is not “did AI make this?” but “will I put my name on this because it serves?”
+**Success Metric**: The public artifact is useful to a named audience and owned by a human; raw generation volume never counts as completion.
+
+#### Pattern 39: Three-Rung Cheap Failure Ladder
+**Execute**: Preallocate one failure budget across internal proof, smallest-audience use, and bounded release. Each rung adds only enough cost and exposure to change the next decision. Stop if the test is informationally empty, the cap is breached, or the publishing boundary is not approved.
+**Success Metric**: Exactly three progressively exposed tests carry time, money, visibility, signal, decision, and stop rules inside a shared survivable cap.
+
+#### Pattern 40: Traction-Granted Expansion
+**Execute**: Let qualified audience behavior grant the right to do more. Look for successful use, return, repeat, commitment, payment, adoption, or referral against a precommitted threshold. Treat applause, impressions, model scores, and production volume as diagnostics unless they directly predict the desired change.
+**Success Metric**: Every experiment ends in STOP, ITERATE, SCALE, or KILL; scale occurs only after observed traction meets the threshold.
+
+#### Hidden Knowledge (2026-08-12 additions)
+
+**Insight**: Rejection quality is a stronger learning signal than rejection count. Generic refusal becoming specific, invitational, or redirected shows whether the offer is approaching relevance.
+**Deploy**: Log refusal specificity and revise after repeated reasons; do not celebrate attempt volume without evidence the work changed.
+
+**Insight**: The safest useful experiment is not the smallest possible act. It is the smallest act that can still change a decision.
+**Deploy**: Reject tests that are emotionally easy but informationally empty; require a named next decision before running one.
+
+**Insight**: “Stuck” often describes a system working successfully to protect comfort, status, or deniability.
+**Deploy**: Ask what the current arrangement protects before asking how to force more motivation.
+
+---
+
 ## Anti-Patterns (Sourced)
 
 > Failure modes Godin names explicitly as the wrong move, not inferred. Each anchor is either a verbatim quote checked against `extractions/seth-godin/transcript.txt` (Entrepreneur Studio podcast, Chris Allen interview) or a citation into this file's own dated tranches (2026-07-01 / 2026-07-10), which were spot-checked this repair pass against their named source conversations inside `_archive/claude-export-2026-07-01.tar.gz` (see `references/source-ledger.md` for the full audit trail).

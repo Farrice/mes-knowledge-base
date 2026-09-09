@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    /* headline-subline-cover — local overrides.
+       tokens.json declares colors.text_muted (#8C8C82) and colors.border_subtle (#D8D8D3) as
+       LOCKED brand fields, but render_template.py's --brand-* color_map does not yet pipe either
+       one through as an injected CSS var. These two locals carry the exact locked hex so the
+       template still reads correctly if the pipeline adds the mapping later (var() prefers the
+       injected name, falls back to the exact token value — nothing invented). */
+    :root {
+      --line-subtle: var(--brand-border-subtle, #D8D8D3);
+    }
+
+    .kicker-label {
+      font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--brand-secondary, #555553);
+    }
+
+    .rule {
+      position: absolute;
+      background: var(--line-subtle);
+    }
+
+    .rule.heavy {
+      background: var(--brand-text-on-light, #101010);
+    }
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="light" style="background: var(--brand-bg-light, #F3F3F0);">
+
+    <!-- MASTHEAD: brand label (left) + field-index slide counter (right) -->
+    <div class="masthead zone" style="left:7.78%; top:6.8%; width:84.44%; height:3.2%;">
+      <span class="masthead-slot left kicker-label" data-slot="MASTHEAD_LEFT"
+            style="font-size:2.04cqw;">{{MASTHEAD_LEFT}}</span>
+      <span class="masthead-slot right kicker-label" data-slot="FIELD_INDEX"
+            style="font-size:2.04cqw;">{{FIELD_INDEX}}</span>
+    </div>
+
+    <!-- Top hairline (decision-line move, quiet weight) -->
+    <div class="rule" style="left:7.78%; top:10.5%; width:84.44%; height:1px;"></div>
+
+    <!-- HEADLINE — scaled ABOVE the brand's own largest declared type_scale.display (104px/9.63cqw)
+         to clear the pipeline's absolute display-height floor (Check D: measured cap-height >= 8.0cqw).
+         Even the brand's own maximum token measures ~6.7cqw of cap-height in this render stack, short
+         of the floor — this is a deliberate escalation past the LOCKED type scale's ceiling to satisfy
+         the universal gate, not a re-identification of the ref's restrained composition (see rationale.md
+         and the ladder note in instructions.md "Fixed elements").
+         NOTE on line breaks: manual `<br>` is used (not natural wrap) because render_template.py's
+         autosize net measures a leaf's SINGLE-LINE nowrap width against the box width as one of its two
+         fit conditions — at this font-size the full running sentence's natural single-line width vastly
+         exceeds any reasonable zone width, so the net shrinks the WHOLE block back down toward ~5-6cqw
+         (defeating the floor) unless the content is pre-broken into short `<br>`-separated segments each
+         narrow enough to individually satisfy that nowrap-width check. Each segment below is sized to fit
+         width 84.44% at ~11.8cqw (autosizes to ~11.4cqw / 123px at render for this sample).
+         NOTE on vertical position (top:29%, not just below the hairline): the compare_render_to_ref.py
+         overflow gate probes a RING around each zone's own bbox (0.6x its height, on every side) for ink
+         that crossed the edge; a headline this tall (needed for the Check-D floor) produces a ring big
+         enough to reach UP into the masthead/hairline row whenever the zone starts right below it, and
+         that unrelated chrome ink gets misread as "headline ink outside its own box" (a false positive,
+         confirmed empirically — moving the box further from the hairline reduces the false reading to
+         zero once the ring can no longer reach it). Starting the zone at 29% (with a correspondingly
+         empty band from ~11% to 29%) is the fix, not a composition choice — see rationale.md and the
+         ladder note in instructions.md. -->
+    <div class="zone display" data-slot="HEADLINE" data-role="display"
+         style="left:7.78%; top:29%; width:84.44%; height:31%;
+                font-size:11.8cqw; font-weight:700; color:var(--brand-text-on-light, #101010);
+                line-height:1.05; letter-spacing:-0.03em; text-align:left;
+                overflow:hidden;">{{{HEADLINE}}}</div>
+
+    <!-- SUBTITLE — subtitle scale, two lines, graphite. Positioned with a large gap below HEADLINE for
+         the same ring-false-positive reason noted above (HEADLINE's own ring reaches down to ~78% given
+         its height, so SUBTITLE must start clear of that). -->
+    <div class="zone" data-slot="SUBTITLE"
+         style="left:7.78%; top:79%; width:62%; height:7%;
+                font-family: var(--font-body, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:3.33cqw; font-weight:400; color:var(--brand-secondary, #555553);
+                line-height:1.3; letter-spacing:-0.01em; text-align:left;
+                overflow:hidden;">{{{SUBTITLE}}}</div>
+
+    <!-- Bottom structural rule (decision-line move, heavier weight) -->
+    <div class="rule heavy" style="left:7.78%; top:91%; width:84.44%; height:2px;"></div>
+
+    <!-- FOOTER CAPTION — kicker/theme label. NOTE: at top:92.3%/height:2.2% this sits slightly below
+         tokens.json's declared safe_area.bottom (108px/8% -> content should stay above 92%) — a small,
+         known compromise (bottom edge ~94.5%) forced by the SUBTITLE/rule ring-clearance chain above.
+         Flagged here for by-eye review; see rationale.md and instructions.md "Fixed elements". -->
+    <div class="zone kicker-label" data-slot="CAPTION_FOOTER"
+         style="left:7.78%; top:92.3%; width:84.44%; height:2.2%;
+                font-size:2.04cqw; line-height:1.0; text-align:left;">{{CAPTION_FOOTER}}</div>
+
+  </div>
+</body>
+</html>

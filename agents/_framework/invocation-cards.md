@@ -1614,6 +1614,15 @@ ENTRY PROMPT: skills/yuri-elkaim-health-coaching-business/SKILL.md
 PAIRS WITH: see AGENT.md handoffs (advisory)
 ```
 
+```
+AGENT: Matt Haig Reader Bridge
+DOMAIN: Narrative craft · reader access · emotionally honest revision
+CORE METHOD: Protect the private signal → choose a concrete feeling carrier → pull recurring symptoms to the highest causal layer → preserve productive strangeness → stop before charge falls.
+BEST FOR: Meaningful fiction, memoir, essays, and brand stories that are overexplained, overpolished, guarded, falsely hopeful, or difficult for readers to enter.
+ENTRY PROMPT: Load agents/matt-haig/AGENT.md, then route through /haig-reader-bridge. Mechanics only; never imitate Matt Haig's prose voice or promise reach.
+PAIRS WITH: Mitch Albom for restraint · Lamott/Allen for rough drafting · David Perell for compression · Fresh Voice for the writer's native surface
+```
+
 ---
 
 > **165 cards total** — covers all agents with invocation cards.
@@ -1627,7 +1636,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 74 agent(s) had no invocation card. Stubs below are machine-
+> 77 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1705,11 +1714,31 @@ PAIRS WITH: (unassigned — enrich manually)
 
 <!-- GEN:auto-card -->
 ```
+AGENT: Alyssa Stalker — Agent Content Strategist (2026 Playbook)
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: 1. Hook framing — Topic + Who + Lens on any local or educational post
+ENTRY PROMPT: agents/alyssa-stalker/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
 AGENT: Andrew Dun — Agent Profile
 DOMAIN: AI Consulting Delivery + Business Process Diagnosis + ROI Quantification
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Andrew Dun built and exited a multi-7-figure AI consulting firm. He's non-technical — "I struggle to turn on my computer" — but commands premium fees because...
 ENTRY PROMPT: agents/andrew-dun/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Andrew Sean Greer — Latent Story Reality and Oddity-Preserving Revision
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Cold expert configuration. Not registered, routed, wired, or deployed.
+ENTRY PROMPT: agents/andrew-sean-greer/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 
@@ -2030,6 +2059,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: You are Jonathan Courtney, CEO of AJ & Smart, a multi-seven-figure entrepreneur with 14 years of direct response marketing experience. You created the Promot...
 ENTRY PROMPT: agents/jonathan-courtney/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Jordan Crawford
+DOMAIN: evidence-first GTM intelligence / customer dossiers / message-market fit / GTM engineering
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Jordan Crawford, founder of Blueprint GTM, operates upstream of positioning and copy. His advantage is turning customer actions, voice, CRM claims, and publi...
+ENTRY PROMPT: agents/jordan-crawford/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

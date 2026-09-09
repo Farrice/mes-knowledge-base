@@ -42,24 +42,43 @@ Usage:
     python3 execution/social_to_notion.py <url> [--db content|knowledge|captures]
         [--dry-run] [--transcript-file PATH] [--tags tag1,tag2]
         [--no-transcript] [--limit N]
+    python3 execution/social_to_notion.py --watch-packet PATH [--topics a,b]
+        [--inspection-receipt PATH] [--dry-run]
 
 Exit codes: 0 ok, 1 failure, 2 skip/unsupported (bad host, LinkedIn, etc.)
 """
 
 import argparse
+import hashlib
 import importlib.util
 import json
+import math
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 BASE = Path(__file__).parent.parent
 ENV_PATH = BASE / ".env"
 
 MAX_APIFY_CALLS = 3
+WATCH_PACKET_SCHEMA = "watch-video-intelligence/v1"
+WATCH_RECEIPT_SCHEMA = "watch-visual-inspection/v1"
+EVIDENCE_STATES = {
+    "TRANSCRIPT_ONLY",
+    "VISUAL_CAPTURED_UNREVIEWED",
+    "PARTIAL_VISUAL_VERIFIED",
+    "VISUAL_VERIFIED",
+}
+SHA256_RE = re.compile(r"[0-9a-f]{64}")
+MAX_NOTION_TIMELINE_ROWS = 60
+MAX_NOTION_TRANSCRIPT_CHARS = 250_000
+MAX_NOTION_TRANSCRIPT_JSON_BYTES = 140_000
+MAX_NOTION_TIMELINE_FIELD_JSON_BYTES = 800
+MAX_NOTION_REQUEST_BYTES = 450_000
 
 LINKEDIN_MESSAGE = (
     "LinkedIn scraping is not in the approved actor whitelist — see "
@@ -85,6 +104,573 @@ def load_env(env_path: Optional[Path] = None):
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+# ---------------------------------------------------------------------------
+# /watch packet bridge (no reacquisition)
+# ---------------------------------------------------------------------------
+
+def canonical_post_url(url: str) -> str:
+    """Return one public YouTube dedup URL for the v1 /watch bridge."""
+    value = str(url or "").strip()
+    parsed = urlparse(value)
+    if parsed.scheme not in ("http", "https") or not parsed.hostname:
+        raise ValueError("watch packets require a public http(s) canonical URL for Notion sync")
+
+    host = parsed.hostname.lower()
+    host = host[4:] if host.startswith("www.") else host
+    if host == "m.youtube.com":
+        host = "youtube.com"
+    video_id = None
+    if host == "youtu.be":
+        video_id = parsed.path.strip("/").split("/")[0]
+    elif host == "youtube.com" or host.endswith(".youtube.com"):
+        video_id = (parse_qs(parsed.query).get("v") or [None])[0]
+        if not video_id:
+            match = re.match(r"^/(?:shorts|embed|v|live)/([A-Za-z0-9_-]{11})(?:/|$)", parsed.path)
+            video_id = match.group(1) if match else None
+    if video_id and re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+        return f"https://www.youtube.com/watch?v={video_id}"
+    raise ValueError("watch-packet Notion sync v1 supports exact public YouTube video URLs only")
+
+
+def normalize_topics(*values, limit: int = 12) -> list[str]:
+    """Normalize caller/packet topics without inventing a second taxonomy."""
+    topics: list[str] = []
+    for value in values:
+        if not value:
+            continue
+        candidates = value.split(",") if isinstance(value, str) else value
+        for candidate in candidates:
+            topic = " ".join(str(candidate).strip().split())[:60]
+            if topic and topic.casefold() not in {item.casefold() for item in topics}:
+                topics.append(topic)
+            if len(topics) >= limit:
+                return topics
+    return topics
+
+
+def _json_sha256(value) -> str:
+    payload = json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def _file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _ocr_integrity_rows(rows: list) -> list[dict]:
+    return [
+        {
+            "timestamp_seconds": row.get("timestamp_seconds"),
+            "status": row.get("status"),
+            "text": row.get("text") or "",
+        }
+        for row in rows
+        if isinstance(row, dict)
+    ]
+
+
+def _frame_integrity_rows(rows: list) -> list[dict]:
+    return [
+        {
+            "timestamp_seconds": row.get("timestamp_seconds"),
+            "reason": row.get("reason"),
+            "width": row.get("width"),
+            "height": row.get("height"),
+            "sha256": row.get("sha256"),
+        }
+        for row in rows
+        if isinstance(row, dict)
+    ]
+
+
+def _alignment_integrity_rows(rows: list) -> list[dict]:
+    return [
+        {
+            "timestamp_seconds": row.get("timestamp_seconds"),
+            "sha256": row.get("sha256"),
+            "reason": row.get("reason"),
+            "width": row.get("width"),
+            "height": row.get("height"),
+            "review_status": row.get("review_status"),
+            "alignment_method": row.get("alignment_method"),
+            "alignment_distance_seconds": row.get("alignment_distance_seconds"),
+            "transcript": [
+                {
+                    "start": segment.get("start"),
+                    "end": segment.get("end"),
+                    "text": segment.get("text") or "",
+                }
+                for segment in row.get("transcript") or []
+            ],
+            "ocr": {
+                "status": (row.get("ocr") or {}).get("status"),
+                "text": (row.get("ocr") or {}).get("text") or "",
+            },
+        }
+        for row in rows
+        if isinstance(row, dict)
+    ]
+
+
+def _source_integrity_metadata(source: dict) -> dict:
+    is_url_source = source.get("kind") == "url"
+    return {
+        "kind": source.get("kind"),
+        "id": source.get("id") if is_url_source else None,
+        "canonical_url": source.get("canonical_url") if is_url_source else None,
+        "title": source.get("title") if is_url_source else None,
+        "uploader": source.get("uploader") if is_url_source else None,
+        "published": source.get("published") if is_url_source else None,
+    }
+
+
+def _ocr_meta_integrity(ocr: dict) -> dict:
+    return {
+        "status": ocr.get("status"),
+        "reason": ocr.get("reason"),
+        "attempted": ocr.get("attempted"),
+        "succeeded": ocr.get("succeeded"),
+        "nonempty": ocr.get("nonempty"),
+        "failed": ocr.get("failed"),
+    }
+
+
+def _direct_media_integrity(acquisition: dict) -> dict:
+    direct = acquisition.get("direct_media") or {}
+    return {"status": direct.get("status"), "reason": direct.get("reason")}
+
+
+def _transcript_meta_integrity(transcript: dict) -> dict:
+    return {
+        "status": transcript.get("status"),
+        "source": transcript.get("source"),
+        "segment_count": transcript.get("segment_count"),
+    }
+
+
+def _visual_meta_integrity(visual: dict) -> dict:
+    return {
+        "status": visual.get("status"),
+        "evidence_label": visual.get("evidence_label"),
+        "captured_count": visual.get("captured_count"),
+        "reviewed_count": visual.get("reviewed_count"),
+        "engine": visual.get("engine"),
+        "candidate_count": visual.get("candidate_count"),
+    }
+
+
+def validate_watch_packet(packet: dict, *, verify_artifacts: bool = True) -> None:
+    """Validate schema shape plus the producer's content-bound integrity basis."""
+    if not isinstance(packet, dict) or packet.get("schema_version") != WATCH_PACKET_SCHEMA:
+        raise ValueError(f"watch packet must use schema_version {WATCH_PACKET_SCHEMA}")
+    fingerprint = str(packet.get("fingerprint") or "")
+    packet_id = str(packet.get("packet_id") or "")
+    if not SHA256_RE.fullmatch(fingerprint) or not packet_id.endswith(fingerprint[:16]):
+        raise ValueError("watch packet is missing a valid packet_id/fingerprint binding")
+
+    visual = packet.get("visual") or {}
+    frames = visual.get("frames")
+    if not isinstance(frames, list):
+        raise ValueError("watch packet visual.frames must be a list")
+    captured_count = int(visual.get("captured_count") or 0)
+    if captured_count != len(frames):
+        raise ValueError("watch packet captured_count does not match actual frame rows")
+    frame_keys = set()
+    frame_timestamps = set()
+    for frame in frames:
+        if not isinstance(frame, dict) or not SHA256_RE.fullmatch(str(frame.get("sha256") or "")):
+            raise ValueError("every captured frame must carry a SHA256 digest")
+        path_text = str(frame.get("path") or "").strip()
+        timestamp = float(frame.get("timestamp_seconds") or 0)
+        if not path_text or not math.isfinite(timestamp) or timestamp < 0:
+            raise ValueError("every captured frame requires a path and finite nonnegative timestamp")
+        rounded_timestamp = round(timestamp, 3)
+        if rounded_timestamp in frame_timestamps:
+            raise ValueError("watch packet contains duplicate frame timestamps")
+        frame_timestamps.add(rounded_timestamp)
+        key = (str(Path(path_text).resolve()), rounded_timestamp)
+        if key in frame_keys:
+            raise ValueError("watch packet contains duplicate frame path/timestamp rows")
+        frame_keys.add(key)
+        if verify_artifacts:
+            path = Path(path_text).expanduser().resolve()
+            if not path.exists() or not path.is_file() or _file_sha256(path) != frame["sha256"]:
+                raise ValueError(f"captured frame artifact is missing or changed: {path}")
+
+    transcript = packet.get("transcript") or {}
+    segments = transcript.get("segments")
+    if not isinstance(segments, list) or int(transcript.get("segment_count") or 0) != len(segments):
+        raise ValueError("watch packet transcript segment_count does not match its rows")
+    for segment in segments:
+        if not isinstance(segment, dict):
+            raise ValueError("watch packet transcript segments must be objects")
+        start = float(segment.get("start") or 0)
+        end = float(segment.get("end") if segment.get("end") is not None else start)
+        if not math.isfinite(start) or not math.isfinite(end) or start < 0 or end < start:
+            raise ValueError("watch packet transcript timestamps must be finite and ordered")
+    transcript_text = transcript.get("text")
+    if transcript_text is not None and not isinstance(transcript_text, str):
+        raise ValueError("watch packet transcript.text must be a string or null")
+    expected_transcript_status = "pass" if segments else "unavailable"
+    if transcript.get("status") != expected_transcript_status:
+        raise ValueError("watch packet transcript status does not match its evidence rows")
+
+    ocr = packet.get("ocr") or {}
+    ocr_rows = ocr.get("rows") or []
+    if not isinstance(ocr_rows, list):
+        raise ValueError("watch packet ocr.rows must be a list")
+    attempted = int(ocr.get("attempted") or 0)
+    nonempty = int(ocr.get("nonempty") or 0)
+    if attempted != len(ocr_rows) or nonempty != sum(
+        1 for row in ocr_rows if isinstance(row, dict) and str(row.get("text") or "").strip()
+    ):
+        raise ValueError("watch packet OCR counts do not match its evidence rows")
+    ocr_by_frame = {}
+    for row in ocr_rows:
+        if not isinstance(row, dict):
+            raise ValueError("watch packet OCR rows must be objects")
+        path_text = str(row.get("path") or "").strip()
+        timestamp = float(row.get("timestamp_seconds") or 0)
+        if not path_text or not math.isfinite(timestamp) or timestamp < 0:
+            raise ValueError("watch packet OCR rows require a path and finite timestamp")
+        key = (str(Path(path_text).resolve()), round(timestamp, 3))
+        if key in ocr_by_frame:
+            raise ValueError("watch packet contains duplicate OCR rows")
+        ocr_by_frame[key] = {
+            "status": row.get("status"),
+            "text": row.get("text") or "",
+        }
+
+    alignment_frames = (packet.get("alignment") or {}).get("frames") or []
+    if not isinstance(alignment_frames, list) or (frames and len(alignment_frames) != len(frames)):
+        raise ValueError("watch packet alignment row count does not match captured frames")
+    frame_by_alignment_key = {
+        (round(float(row.get("timestamp_seconds") or 0), 3), row.get("sha256")): row
+        for row in frames
+    }
+    transcript_members = {
+        (
+            float(row.get("start") or 0),
+            float(row.get("end") if row.get("end") is not None else row.get("start") or 0),
+            str(row.get("text") or ""),
+        )
+        for row in segments
+    }
+    aligned_keys = set()
+    for row in alignment_frames:
+        if not isinstance(row, dict):
+            raise ValueError("watch packet alignment rows must be objects")
+        key = (round(float(row.get("timestamp_seconds") or 0), 3), row.get("sha256"))
+        if key in aligned_keys or key not in frame_by_alignment_key:
+            raise ValueError("watch packet alignment rows do not map uniquely to captured frames")
+        aligned_keys.add(key)
+        frame = frame_by_alignment_key[key]
+        if str(Path(str(row.get("path") or "")).resolve()) != str(Path(str(frame.get("path") or "")).resolve()):
+            raise ValueError("watch packet alignment path does not match its captured frame")
+        if row.get("reason") != (frame.get("reason") or "selected"):
+            raise ValueError("watch packet alignment reason does not match its captured frame")
+        if row.get("width") != frame.get("width") or row.get("height") != frame.get("height"):
+            raise ValueError("watch packet alignment dimensions do not match its captured frame")
+        if row.get("review_status") != "not_inspected":
+            raise ValueError("watch packet alignment rows cannot self-claim visual review")
+        distance = row.get("alignment_distance_seconds")
+        if distance is not None and (not math.isfinite(float(distance)) or float(distance) < 0):
+            raise ValueError("watch packet alignment distance must be null or finite and nonnegative")
+        for aligned_segment in row.get("transcript") or []:
+            member = (
+                float(aligned_segment.get("start") or 0),
+                float(aligned_segment.get("end") if aligned_segment.get("end") is not None else aligned_segment.get("start") or 0),
+                str(aligned_segment.get("text") or ""),
+            )
+            if member not in transcript_members:
+                raise ValueError("watch packet alignment contains transcript evidence absent from transcript.segments")
+        ocr_key = (str(Path(str(frame.get("path") or "")).resolve()), key[0])
+        expected_ocr = ocr_by_frame.get(ocr_key, {"status": "not_run", "text": ""})
+        actual_ocr = {
+            "status": (row.get("ocr") or {}).get("status"),
+            "text": (row.get("ocr") or {}).get("text") or "",
+        }
+        if actual_ocr != expected_ocr:
+            raise ValueError("watch packet alignment OCR does not match its OCR evidence row")
+    if aligned_keys != set(frame_by_alignment_key):
+        raise ValueError("watch packet alignment rows do not cover the captured frames")
+    expected_visual = (
+        ("captured_unreviewed", "VISUALS_EXTRACTED_NOT_INSPECTED")
+        if frames else
+        ("unavailable", "TRANSCRIPT_ONLY" if segments else "NO_EVIDENCE")
+    )
+    if int(visual.get("reviewed_count") or 0) != 0 or (
+        visual.get("status"), visual.get("evidence_label")
+    ) != expected_visual:
+        raise ValueError("watch packet visual proof state does not match its unreviewed evidence")
+
+    integrity = packet.get("integrity") or {}
+    basis = integrity.get("basis")
+    if integrity.get("algorithm") != "sha256" or not isinstance(basis, dict):
+        raise ValueError("watch packet is missing its watch-capture-integrity/v1 basis")
+    source = packet.get("source") or {}
+    if source.get("kind") == "url":
+        if source.get("identity") != source.get("canonical_url") or source.get("content_sha256") is not None:
+            raise ValueError("watch URL source identity is not bound to its canonical URL")
+    elif source.get("kind") == "local":
+        content_sha = str(source.get("content_sha256") or "")
+        if not SHA256_RE.fullmatch(content_sha) or source.get("identity") != f"sha256:{content_sha}":
+            raise ValueError("watch local source identity is not bound to its content SHA256")
+    else:
+        raise ValueError("watch packet source.kind must be url or local")
+    acquisition = packet.get("acquisition") or {}
+    limitations = packet.get("limitations") or []
+    if not isinstance(limitations, list) or not all(isinstance(item, str) for item in limitations):
+        raise ValueError("watch packet limitations must be a list of strings")
+    expected_basis = {
+        "schema_version": "watch-capture-integrity/v1",
+        "source_identity": source.get("identity"),
+        "source_content_sha256": source.get("content_sha256"),
+        "source_metadata": _source_integrity_metadata(source),
+        "scope": packet.get("scope") or {},
+        "capture_config": packet.get("capture") or {},
+        "transcript_sha256": _json_sha256(segments),
+        "transcript_text_sha256": _json_sha256(transcript_text or ""),
+        "transcript_meta_sha256": _json_sha256(_transcript_meta_integrity(transcript)),
+        "frames": _frame_integrity_rows(frames),
+        "ocr_sha256": _json_sha256(_ocr_integrity_rows(ocr_rows)),
+        "ocr_meta_sha256": _json_sha256(_ocr_meta_integrity(ocr)),
+        "alignment_sha256": _json_sha256(_alignment_integrity_rows(alignment_frames)),
+        "visual_source": acquisition.get("visual_source"),
+        "visual_meta_sha256": _json_sha256(_visual_meta_integrity(visual)),
+        "direct_media_sha256": _json_sha256(_direct_media_integrity(acquisition)),
+        "limitations_sha256": _json_sha256(limitations),
+    }
+    if basis != expected_basis or _json_sha256(basis) != fingerprint:
+        raise ValueError("watch packet fingerprint does not match its evidence content")
+
+
+def _validate_inspection_receipt(receipt: dict, packet: dict) -> None:
+    validate_watch_packet(packet)
+    if not isinstance(receipt, dict) or receipt.get("schema_version") != WATCH_RECEIPT_SCHEMA:
+        raise ValueError(f"inspection receipt must use schema_version {WATCH_RECEIPT_SCHEMA}")
+    state = receipt.get("review_state")
+    if state not in {"PARTIAL_VISUAL_VERIFIED", "VISUAL_VERIFIED"}:
+        raise ValueError("inspection receipt review_state must be PARTIAL_VISUAL_VERIFIED or VISUAL_VERIFIED")
+    source_id = str((packet.get("source") or {}).get("id") or "")
+    if source_id and str(receipt.get("source_id") or "") != source_id:
+        raise ValueError("inspection receipt source_id does not match the watch packet")
+    if str(receipt.get("packet_fingerprint") or "") != str(packet.get("fingerprint") or ""):
+        raise ValueError("inspection receipt fingerprint does not match the watch packet")
+
+    packet_frames = (packet.get("visual") or {}).get("frames") or []
+    captured = int(receipt.get("captured_count") or 0)
+    reviewed = int(receipt.get("reviewed_count") or 0)
+    reviewed_frames = receipt.get("reviewed_frames")
+    if not isinstance(reviewed_frames, list) or len(reviewed_frames) != reviewed:
+        raise ValueError("inspection receipt reviewed_count does not match reviewed frame rows")
+    if captured != len(packet_frames) or reviewed < 1 or reviewed > captured:
+        raise ValueError("inspection receipt has invalid captured/reviewed counts")
+
+    available = {
+        (Path(str(row.get("path") or "")).name, round(float(row.get("timestamp_seconds") or 0), 3), row.get("sha256"))
+        for row in packet_frames
+    }
+    seen = set()
+    for row in reviewed_frames:
+        key = (
+            Path(str(row.get("path") or "")).name,
+            round(float(row.get("timestamp_seconds") or 0), 3),
+            row.get("sha256"),
+        )
+        if key not in available or key in seen:
+            raise ValueError("inspection receipt contains an unmapped or duplicate reviewed frame")
+        if not str(row.get("observation") or "").strip():
+            raise ValueError("every reviewed frame requires a nonblank observation")
+        seen.add(key)
+    if state == "VISUAL_VERIFIED" and seen != available:
+        raise ValueError("VISUAL_VERIFIED requires every captured frame to be reviewed")
+    if state == "VISUAL_VERIFIED" and (packet.get("acquisition") or {}).get("visual_source") == "storyboard":
+        raise ValueError("sparse storyboard evidence cannot be promoted to VISUAL_VERIFIED")
+
+
+def _watch_sync_fingerprint(packet: dict, evidence_state: str, topics: list[str], receipt: Optional[dict]) -> str:
+    reviewed = []
+    if receipt:
+        reviewed = [
+            {
+                "path": Path(str(row.get("path") or "")).name,
+                "timestamp_seconds": row.get("timestamp_seconds"),
+                "sha256": row.get("sha256"),
+                "observation": str(row.get("observation") or "").strip(),
+            }
+            for row in receipt.get("reviewed_frames") or []
+        ]
+    return _json_sha256({
+        "packet_fingerprint": packet["fingerprint"],
+        "evidence_state": evidence_state,
+        "topics": topics,
+        "coverage_limit": (receipt or {}).get("coverage_limit"),
+        "reviewed_frames": reviewed,
+    })
+
+
+def load_watch_packet(path: str | Path) -> dict:
+    packet_path = Path(path).expanduser().resolve()
+    try:
+        packet = json.loads(packet_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"could not read watch packet: {exc}") from exc
+    validate_watch_packet(packet)
+    packet["_packet_path"] = str(packet_path)
+    return packet
+
+
+def load_inspection_receipt(path: str | Path, packet: dict) -> dict:
+    receipt_path = Path(path).expanduser().resolve()
+    try:
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"could not read visual inspection receipt: {exc}") from exc
+    _validate_inspection_receipt(receipt, packet)
+    receipt["_receipt_path"] = str(receipt_path)
+    return receipt
+
+
+def _first_spoken_line(transcript: dict, title: str) -> str:
+    segments = transcript.get("segments") if isinstance(transcript.get("segments"), list) else []
+    for row in segments:
+        text = " ".join(str(row.get("text") or "").split())
+        if text:
+            return text[:500]
+    for line in str(transcript.get("text") or "").splitlines():
+        text = re.sub(r"^\[[^]]+\]\s*", "", line).strip()
+        if text:
+            return text[:500]
+    return title[:500]
+
+
+def normalize_published_date(value) -> Optional[str]:
+    if value in (None, ""):
+        return None
+    compact = None
+    if isinstance(value, int) and not isinstance(value, bool):
+        compact = str(value)
+    elif isinstance(value, float) and math.isfinite(value) and value.is_integer():
+        compact = str(int(value))
+    else:
+        compact = str(value).strip()
+    if re.fullmatch(r"\d{8}", compact):
+        try:
+            return datetime.strptime(compact, "%Y%m%d").date().isoformat()
+        except ValueError:
+            return None
+    if isinstance(value, (int, float)) and math.isfinite(float(value)):
+        try:
+            return datetime.fromtimestamp(float(value), tz=timezone.utc).date().isoformat()
+        except (OverflowError, OSError, ValueError):
+            return None
+    text = str(value).strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}", text):
+        try:
+            return datetime.fromisoformat(text[:10]).date().isoformat()
+        except ValueError:
+            return None
+    return None
+
+
+def watch_packet_to_record(
+    packet: dict,
+    *,
+    topics: str | list[str] = "",
+    inspection_receipt: Optional[dict] = None,
+) -> dict:
+    validate_watch_packet(packet)
+    if inspection_receipt:
+        _validate_inspection_receipt(inspection_receipt, packet)
+    source = packet.get("source") or {}
+    canonical_url = canonical_post_url(source.get("canonical_url") or "")
+    transcript = packet.get("transcript") or {}
+    visual = packet.get("visual") or {}
+    ocr = packet.get("ocr") or {}
+    acquisition = packet.get("acquisition") or {}
+    alignment = packet.get("alignment") or {}
+    segments = transcript.get("segments") if isinstance(transcript.get("segments"), list) else []
+    transcript_text = str(transcript.get("text") or "").strip()
+    if not transcript_text and segments:
+        transcript_text = "\n".join(str(row.get("text") or "").strip() for row in segments).strip()
+    captured_count = int(visual.get("captured_count") or 0)
+    if captured_count:
+        evidence_state = "VISUAL_CAPTURED_UNREVIEWED"
+    elif transcript_text or segments:
+        evidence_state = "TRANSCRIPT_ONLY"
+    else:
+        raise ValueError("watch packet contains neither transcript nor visual evidence")
+    if inspection_receipt:
+        evidence_state = inspection_receipt["review_state"]
+
+    title = str(source.get("title") or source.get("id") or canonical_url)
+    raw_duration = (packet.get("scope") or {}).get("duration_seconds")
+    duration = None if raw_duration is None else float(raw_duration)
+    if duration is not None and (not math.isfinite(duration) or duration < 0):
+        raise ValueError("watch packet duration_seconds must be a finite nonnegative number")
+    packet_topics = ((packet.get("catalog") or {}).get("topics") or [])
+    direct_media = acquisition.get("direct_media") or {}
+    analysis = (
+        f"Evidence: {evidence_state}. Visual route: {acquisition.get('visual_source') or 'none'}. "
+        f"Transcript: {len(segments)} segments. OCR: {int(ocr.get('nonempty') or 0)} non-empty "
+        f"of {int(ocr.get('attempted') or 0)} attempted. Direct media: "
+        f"{direct_media.get('status') or 'unknown'}"
+    )[:1900]
+
+    observations = {}
+    if inspection_receipt:
+        observations = {
+            round(float(row.get("timestamp_seconds") or 0.0), 3): str(row.get("observation") or "").strip()
+            for row in inspection_receipt.get("reviewed_frames") or []
+        }
+    timeline = []
+    for row in alignment.get("frames") or visual.get("frames") or []:
+        item = dict(row)
+        stamp = round(float(item.get("timestamp_seconds") or 0.0), 3)
+        if observations.get(stamp):
+            item["review_observation"] = observations[stamp]
+        timeline.append(item)
+
+    normalized_topics = normalize_topics(packet_topics, topics)
+    sync_fingerprint = _watch_sync_fingerprint(
+        packet, evidence_state, normalized_topics, inspection_receipt
+    )
+    return {
+        "packet_id": packet["packet_id"],
+        "fingerprint": packet["fingerprint"],
+        "sync_fingerprint": sync_fingerprint,
+        "packet_path": packet.get("_packet_path"),
+        "inspection_receipt_path": inspection_receipt.get("_receipt_path") if inspection_receipt else None,
+        # canonical_post_url() is deliberately YouTube-only for bridge v1.
+        "platform": "YouTube",
+        "url": canonical_url,
+        "source_id": source.get("id"),
+        "title": title,
+        "creator": source.get("uploader"),
+        "published": normalize_published_date(source.get("published")),
+        "duration_seconds": duration,
+        "type": "Short" if duration is not None and 0 < duration <= 60 else "Video",
+        "scraped": now_iso()[:10],
+        "hook": _first_spoken_line(transcript, title),
+        "analysis": analysis,
+        "batch": f"watch:{packet['fingerprint']}",
+        "evidence_state": evidence_state,
+        "topics": normalized_topics,
+        "transcript": transcript_text,
+        "transcript_segments": segments,
+        "timeline": timeline,
+        "acquisition": acquisition,
+        "ocr": ocr,
+        "limitations": list(packet.get("limitations") or []),
+        "inspection": inspection_receipt,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -535,6 +1121,334 @@ def build_notion_payload(record: dict, notion_api, db_id: str, args) -> dict:
     return {"properties": properties, "children": children}
 
 
+def _timestamp_label(seconds: float) -> str:
+    whole = max(0, int(float(seconds or 0)))
+    return f"{whole // 60:02d}:{whole % 60:02d}"
+
+
+def _even_sample_rows(rows: list, limit: int) -> list:
+    if len(rows) <= limit:
+        return list(rows)
+    if limit <= 1:
+        return [rows[0]]
+    indices = sorted({round(i * (len(rows) - 1) / (limit - 1)) for i in range(limit)})
+    return [rows[index] for index in indices]
+
+
+def _json_wire_bytes(value) -> int:
+    """Match requests' default JSON serialization, including Unicode escapes."""
+    return len(json.dumps(value, separators=(",", ":"), allow_nan=False).encode("utf-8"))
+
+
+def _truncate_json_string(value, max_bytes: int) -> str:
+    """Return the longest prefix whose requests-style JSON string fits."""
+    text = str(value or "")
+    if _json_wire_bytes(text) <= max_bytes:
+        return text
+    low, high = 0, len(text)
+    while low < high:
+        midpoint = (low + high + 1) // 2
+        if _json_wire_bytes(text[:midpoint]) <= max_bytes:
+            low = midpoint
+        else:
+            high = midpoint - 1
+    return text[:low]
+
+
+def build_social_intel_payload(record: dict, notion_api, db_id: str) -> dict:
+    """Build the existing Social Intelligence schema from one /watch packet."""
+    props_wanted = {
+        "Name": {"title": {}},
+        "Creator": {"rich_text": {}},
+        "Platform": {"select": {"options": [{"name": "YouTube"}]}},
+        "Type": {"select": {"options": [{"name": "Video"}, {"name": "Short"}]}},
+        "Post URL": {"url": {}},
+        "Duration (s)": {"number": {"format": "number"}},
+        "Posted": {"date": {}},
+        "Scraped": {"date": {}},
+        "Hook": {"rich_text": {}},
+        "Analysis": {"rich_text": {}},
+        "Batch": {"rich_text": {}},
+        "Watch Fingerprint": {"rich_text": {}},
+        "Evidence State": {"select": {"options": [{"name": item} for item in sorted(EVIDENCE_STATES)]}},
+        "Topics": {"multi_select": {}},
+        "Extract Candidate": {"checkbox": {}},
+    }
+    available = notion_api._ensure_properties(db_id, props_wanted)
+    essential = {
+        "Name", "Platform", "Type", "Post URL", "Scraped", "Analysis", "Batch",
+        "Watch Fingerprint", "Evidence State", "Topics", "Extract Candidate",
+    }
+    missing = sorted(essential - set(available))
+    if missing:
+        raise RuntimeError(f"Social Intelligence schema is missing required properties: {', '.join(missing)}")
+
+    properties = {
+        "Name": notion_api.title(record["title"][:500]),
+        "Platform": notion_api.select(record["platform"]),
+        "Type": notion_api.select(record["type"]),
+        "Post URL": {"url": record["url"]},
+        "Scraped": notion_api.date(record["scraped"]),
+        "Analysis": notion_api.rich_text(record["analysis"][:1900]),
+        "Batch": notion_api.rich_text(record["batch"]),
+        "Watch Fingerprint": notion_api.rich_text(record["sync_fingerprint"]),
+        "Evidence State": notion_api.select(record["evidence_state"]),
+        "Topics": notion_api.multi_select(record["topics"]),
+        "Extract Candidate": notion_api.checkbox(False),
+    }
+    if "Creator" in available and record.get("creator"):
+        properties["Creator"] = notion_api.rich_text(str(record["creator"])[:1900])
+    if "Duration (s)" in available and record.get("duration_seconds"):
+        properties["Duration (s)"] = notion_api.number(record["duration_seconds"])
+    if "Posted" in available and record.get("published"):
+        properties["Posted"] = notion_api.date(str(record["published"])[:10])
+    if "Hook" in available and record.get("hook"):
+        properties["Hook"] = notion_api.rich_text(record["hook"][:1900])
+
+    children = [
+        {"object": "block", "type": "embed", "embed": {"url": record["url"]}},
+        notion_api.heading2("Evidence Summary"),
+        notion_api.bullet(f"Evidence state: {record['evidence_state']}"),
+        notion_api.bullet(f"Acquisition route: {record['acquisition'].get('visual_source') or 'none'}"),
+        notion_api.bullet(f"Transcript segments: {len(record['transcript_segments'])}"),
+        notion_api.bullet(
+            f"OCR: {int(record['ocr'].get('nonempty') or 0)} non-empty of "
+            f"{int(record['ocr'].get('attempted') or 0)} attempted"
+        ),
+    ]
+    if record.get("inspection") and record["inspection"].get("coverage_limit"):
+        children.append(notion_api.bullet(f"Review coverage: {record['inspection']['coverage_limit']}"))
+
+    timeline_rows = _even_sample_rows(record.get("timeline") or [], MAX_NOTION_TIMELINE_ROWS)
+    if timeline_rows:
+        children.append(notion_api.heading2("Timestamped Visual Timeline"))
+        if len(timeline_rows) < len(record["timeline"]):
+            children.append(notion_api.bullet(
+                f"Showing {len(timeline_rows)} evenly spaced rows from {len(record['timeline'])}; full evidence remains in the packet."
+            ))
+        for row in timeline_rows:
+            timestamp = _timestamp_label(row.get("timestamp_seconds") or 0)
+            parts = [f"[{timestamp}]", str(row.get("reason") or "frame")]
+            ocr = row.get("ocr") or {}
+            if isinstance(ocr, dict) and str(ocr.get("text") or "").strip():
+                observed_text = _truncate_json_string(
+                    " ".join(str(ocr["text"]).split()), MAX_NOTION_TIMELINE_FIELD_JSON_BYTES
+                )
+                parts.append(f"On-screen text: {observed_text}")
+            spoken = row.get("transcript") if isinstance(row.get("transcript"), list) else []
+            spoken_text = " ".join(str(item.get("text") or "").strip() for item in spoken).strip()
+            if spoken_text:
+                parts.append(
+                    f"Spoken: {_truncate_json_string(spoken_text, MAX_NOTION_TIMELINE_FIELD_JSON_BYTES)}"
+                )
+            if row.get("review_observation"):
+                parts.append(
+                    "Reviewed observation: "
+                    + _truncate_json_string(
+                        row["review_observation"], MAX_NOTION_TIMELINE_FIELD_JSON_BYTES
+                    )
+                )
+            frame_name = Path(str(row.get("path") or "")).name
+            if frame_name:
+                parts.append(f"Local artifact: {frame_name}")
+            children.append(notion_api.para(" | ".join(parts)))
+
+    children.append(notion_api.heading2("Transcript"))
+    if record.get("transcript"):
+        transcript_body = _truncate_json_string(
+            record["transcript"][:MAX_NOTION_TRANSCRIPT_CHARS],
+            MAX_NOTION_TRANSCRIPT_JSON_BYTES,
+        )
+        for chunk in chunk_text(transcript_body, 150_000):
+            children.append(notion_api.para(chunk))
+        if len(record["transcript"]) > len(transcript_body):
+            children.append(notion_api.para(
+                f"Transcript truncated in Notion to a size-safe {len(transcript_body):,}-character excerpt; "
+                "the full transcript remains in the watch packet."
+            ))
+    else:
+        children.append(notion_api.para("(no transcript available)"))
+
+    children.append(notion_api.heading2("Source Ledger"))
+    children.append(notion_api.bullet(f"Packet: {record['packet_id']}"))
+    children.append(notion_api.bullet(f"Fingerprint: {record['fingerprint']}"))
+    children.append(notion_api.bullet(f"Watch sync fingerprint: {record['sync_fingerprint']}"))
+    direct = record["acquisition"].get("direct_media") or {}
+    children.append(notion_api.bullet(f"Direct media: {direct.get('status') or 'unknown'}"))
+    if direct.get("reason"):
+        children.append(notion_api.bullet(f"Fallback reason: {direct['reason']}"))
+    if record.get("packet_path"):
+        children.append(notion_api.bullet(f"Local package pointer: {Path(record['packet_path']).name}"))
+    if record.get("inspection_receipt_path"):
+        children.append(notion_api.bullet(
+            f"Inspection receipt: {Path(record['inspection_receipt_path']).name}"
+        ))
+    limitations = list(record.get("limitations") or [])
+    limitation_label = "Capture-time limitation" if record.get("inspection") else "Limitation"
+    for reason in limitations[:20]:
+        children.append(notion_api.bullet(
+            limitation_label + ": "
+            + _truncate_json_string(reason, MAX_NOTION_TIMELINE_FIELD_JSON_BYTES)
+        ))
+    if len(limitations) > 20:
+        children.append(notion_api.bullet(
+            f"Showing 20 of {len(limitations)} limitations; the complete list remains in the watch packet."
+        ))
+
+    refresh_children = [
+        notion_api.heading2(f"Watch Refresh — {now_iso()}"),
+        notion_api.para(f"WATCH_SYNC:{record['sync_fingerprint']}"),
+        notion_api.bullet(f"Evidence state: {record['evidence_state']}"),
+        notion_api.bullet(f"Topics: {', '.join(record['topics']) or '(none)'}"),
+        notion_api.bullet(f"Capture packet: {record['packet_id']}"),
+    ]
+    if record.get("inspection") and record["inspection"].get("coverage_limit"):
+        refresh_children.append(notion_api.bullet(
+            f"Review coverage: {record['inspection']['coverage_limit']}"
+        ))
+    for row in timeline_rows:
+        if row.get("review_observation"):
+            refresh_children.append(notion_api.para(
+                f"[{_timestamp_label(row.get('timestamp_seconds') or 0)}] Reviewed observation: "
+                f"{_truncate_json_string(row['review_observation'], MAX_NOTION_TIMELINE_FIELD_JSON_BYTES)}"
+            ))
+    if len(children) > 90:
+        raise RuntimeError(f"watch packet produced {len(children)} Notion blocks; bounded payload limit is 90")
+    create_request_bytes = _json_wire_bytes({
+        "parent": {"database_id": db_id},
+        "properties": properties,
+        "children": children,
+    })
+    refresh_request_bytes = _json_wire_bytes({"children": refresh_children})
+    if max(create_request_bytes, refresh_request_bytes) > MAX_NOTION_REQUEST_BYTES:
+        raise RuntimeError(
+            "watch packet exceeds the size-safe Notion request envelope; the full evidence remains in the local packet"
+        )
+    return {
+        "properties": properties,
+        "children": children,
+        "refresh_children": refresh_children,
+        "request_bytes": {
+            "create": create_request_bytes,
+            "refresh": refresh_request_bytes,
+        },
+    }
+
+
+def _plain_rich_text(prop: dict) -> str:
+    if not isinstance(prop, dict):
+        return ""
+    rows = prop.get("rich_text") or prop.get("title") or []
+    text = []
+    for row in rows:
+        text.append(str(row.get("plain_text") or (row.get("text") or {}).get("content") or ""))
+    return "".join(text)
+
+
+def append_block_batches(notion_api, page_id: str, blocks: list[dict]) -> None:
+    for i in range(0, len(blocks), 90):
+        notion_api._request(
+            "PATCH",
+            f"/blocks/{page_id}/children",
+            {"children": blocks[i:i + 90]},
+        )
+
+
+def _block_plain_text(block: dict) -> str:
+    block_type = str(block.get("type") or "")
+    content = block.get(block_type) if block_type else None
+    rows = content.get("rich_text") if isinstance(content, dict) else []
+    return _plain_rich_text({"rich_text": rows or []})
+
+
+def has_watch_sync_marker(notion_api, page_id: str, sync_fingerprint: str) -> bool:
+    marker = f"WATCH_SYNC:{sync_fingerprint}"
+    cursor = None
+    for _ in range(100):
+        page = notion_api.list_block_children(page_id, start_cursor=cursor, page_size=100)
+        if any(marker in _block_plain_text(block) for block in page.get("results") or []):
+            return True
+        if not page.get("has_more"):
+            return False
+        cursor = page.get("next_cursor")
+        if not cursor:
+            return False
+    raise RuntimeError("Notion block marker scan exceeded 10,000 blocks")
+
+
+def query_social_intel_matches(notion_api, db_id: str, canonical_url: str) -> list[dict]:
+    try:
+        query = notion_api.query_database(
+            db_id,
+            filter={"property": "Post URL", "url": {"equals": canonical_url}},
+            page_size=3,
+        )
+    except Exception as exc:
+        raise RuntimeError(f"Social Intelligence dedup query failed; no page was written: {exc}") from exc
+    matches = query.get("results") or []
+    if len(matches) > 1:
+        raise RuntimeError(f"duplicate audit failed: {len(matches)} pages already use {canonical_url}; no write performed")
+    return matches
+
+
+_UNQUERIED = object()
+
+
+def upsert_social_intel_page(
+    notion_api,
+    db_id: str,
+    payload: dict,
+    canonical_url: str,
+    sync_fingerprint: str,
+    *,
+    matches=_UNQUERIED,
+) -> dict:
+    """Fail-closed exact-URL upsert; never create after a failed dedup query."""
+    if matches is _UNQUERIED:
+        matches = query_social_intel_matches(notion_api, db_id, canonical_url)
+    if not matches:
+        page_url = create_notion_page(notion_api, db_id, payload)
+        return {"action": "created", "notion_url": page_url}
+
+    page = matches[0]
+    existing_fingerprint = _plain_rich_text(
+        (page.get("properties") or {}).get("Watch Fingerprint") or {}
+    )
+    if existing_fingerprint == sync_fingerprint:
+        return {"action": "unchanged", "notion_url": page.get("url")}
+
+    # Keep human-edited title/creator/hook intact on refresh; update only the
+    # evidence-owned fields and append a versioned body section.
+    refresh_keys = {
+        "Platform", "Type", "Post URL", "Duration (s)", "Posted", "Scraped",
+        "Watch Fingerprint", "Evidence State", "Topics",
+    }
+    refresh_properties = {
+        key: value for key, value in payload["properties"].items() if key in refresh_keys
+    }
+    # A visible machine marker makes the multi-call refresh retry-safe: if
+    # append succeeded but property update failed, the next run sees the body
+    # marker and only completes the property update.
+    if not has_watch_sync_marker(notion_api, page["id"], sync_fingerprint):
+        append_block_batches(notion_api, page["id"], payload["refresh_children"])
+    notion_api.update_page(page["id"], refresh_properties)
+    return {"action": "updated", "notion_url": page.get("url")}
+
+
+def sync_social_intel_record(notion_api, db_id: str, record: dict) -> dict:
+    """Query before any schema/data mutation, then build and upsert."""
+    matches = query_social_intel_matches(notion_api, db_id, record["url"])
+    payload = build_social_intel_payload(record, notion_api, db_id)
+    return upsert_social_intel_page(
+        notion_api,
+        db_id,
+        payload,
+        record["url"],
+        record["sync_fingerprint"],
+        matches=matches,
+    )
+
+
 def create_notion_page(notion_api, db_id: str, payload: dict) -> str:
     """Create page with first <=90 blocks, then append the rest in batches
     of <=90 (Notion caps children at 100 blocks per API call)."""
@@ -561,11 +1475,17 @@ def main():
         prog="social_to_notion.py",
         description="One command: social URL -> rich Notion page (metadata + embed + transcript + stats + ledger).",
     )
-    parser.add_argument("url", help="Social URL (YouTube, TikTok, Instagram, Reddit)")
+    parser.add_argument("url", nargs="?", help="Social URL (YouTube, TikTok, Instagram, Reddit)")
     parser.add_argument("--db", default="content", choices=["content", "knowledge", "captures"],
                         help="Target Notion database (default: content)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Acquire but never call Notion — print the payload as JSON")
+    parser.add_argument("--watch-packet", default=None,
+                        help="Use a watch-video-intelligence/v1 packet without reacquiring the source")
+    parser.add_argument("--inspection-receipt", default=None,
+                        help="Optional validated watch-visual-inspection/v1 receipt")
+    parser.add_argument("--topics", default="",
+                        help="Comma-separated Social Intelligence topics for --watch-packet")
     parser.add_argument("--transcript-file", default=None,
                         help="Inject a transcript from disk (enables fully offline testing)")
     parser.add_argument("--tags", default="", help="Comma-separated tags")
@@ -576,6 +1496,82 @@ def main():
     args = parser.parse_args()
 
     load_env()
+
+    if args.watch_packet and args.url:
+        parser.error("provide either a positional social URL or --watch-packet, not both")
+    if not args.watch_packet and not args.url:
+        parser.error("a positional social URL or --watch-packet is required")
+    if args.inspection_receipt and not args.watch_packet:
+        parser.error("--inspection-receipt requires --watch-packet")
+
+    if args.watch_packet:
+        # Packet mode intentionally branches before Apify or any URL
+        # acquisition.  Dry-run imports static builders only and makes zero
+        # API/network calls.
+        try:
+            from execution.notion_api import NotionAPI, DB_IDS
+        except ImportError:
+            sys.path.insert(0, str(BASE))
+            from execution.notion_api import NotionAPI, DB_IDS
+        try:
+            packet = load_watch_packet(args.watch_packet)
+            receipt = (
+                load_inspection_receipt(args.inspection_receipt, packet)
+                if args.inspection_receipt else None
+            )
+            record = watch_packet_to_record(packet, topics=args.topics, inspection_receipt=receipt)
+        except ValueError as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            sys.exit(1)
+
+        if args.dry_run:
+            class _DrySocialNotion:
+                title = staticmethod(NotionAPI.title)
+                rich_text = staticmethod(NotionAPI.rich_text)
+                select = staticmethod(NotionAPI.select)
+                multi_select = staticmethod(NotionAPI.multi_select)
+                number = staticmethod(NotionAPI.number)
+                date = staticmethod(NotionAPI.date)
+                checkbox = staticmethod(NotionAPI.checkbox)
+                heading2 = staticmethod(NotionAPI.heading2)
+                para = staticmethod(NotionAPI.para)
+                bullet = staticmethod(NotionAPI.bullet)
+
+                def _ensure_properties(self, database_id, required):
+                    return set(required.keys())
+
+            payload = build_social_intel_payload(record, _DrySocialNotion(), "dry-run-social-intel")
+            print(json.dumps({
+                "status": "dry_run",
+                "database": "social_intel",
+                "record": record,
+                "notion_payload": {
+                    "properties": payload["properties"],
+                    "first_blocks": payload["children"][:90],
+                    "block_count": len(payload["children"]),
+                    "additional_batches": max(0, (len(payload["children"]) - 1) // 90),
+                },
+            }, indent=2, default=str))
+            sys.exit(0)
+
+        db_id = DB_IDS.get("social_intel", "")
+        if not db_id:
+            print("ERROR: NOTION_DB_SOCIAL_INTEL is not configured in .env.", file=sys.stderr)
+            sys.exit(1)
+        try:
+            notion_api = NotionAPI()
+            result = sync_social_intel_record(notion_api, db_id, record)
+        except Exception as exc:
+            print(f"ERROR: Social Intelligence sync failed: {exc}", file=sys.stderr)
+            sys.exit(1)
+        print(json.dumps({
+            "status": "ok",
+            "packet_id": record["packet_id"],
+            "evidence_state": record["evidence_state"],
+            "topics": record["topics"],
+            **result,
+        }, indent=2))
+        sys.exit(0)
 
     platform = route_platform(args.url)
 

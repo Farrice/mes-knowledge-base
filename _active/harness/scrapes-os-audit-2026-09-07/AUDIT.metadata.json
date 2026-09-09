@@ -1,0 +1,9 @@
+{
+  "title": "Scrapes vs Antigravity: the operating system decision",
+  "artifact_type": "audit",
+  "status": "accessible_audit_complete_vendor_runtime_untested",
+  "date": "2026-09-07",
+  "source": "AUDIT.md",
+  "evidence": "EVIDENCE.json",
+  "implementation_scope": "REPAIR-BRIEF.md"
+}

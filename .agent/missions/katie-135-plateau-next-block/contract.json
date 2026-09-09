@@ -1,0 +1,30 @@
+{
+  "slug": "katie-135-plateau-next-block",
+  "intent": "Diagnose Katie's 135-lb scale hold despite visible recomp; prescribe metabolism-safe path to 130; set next-block direction for Katie and Josh",
+  "serves": "client-delivery-carbon-torch",
+  "felt_standard": "she wants to get to 130 and i don't want to ruin her metabolism doing so",
+  "route": "alan-aragon-nutrition/rescue-stalled-progress (v2 contract: plateau-rescue-plan)",
+  "route_note": "Engine router overridden — marketing-tuned, scored LinkedIn cadence workflow for a physiology question",
+  "stack": {
+    "lead": "alan-aragon-nutrition (Tier 2: SKILL + genius + v2 prompt contract)",
+    "supports": ["michael-israetel-hypertrophy (standby)", "eugene-teo-training (standby)"],
+    "client_context": ["katie/programs/Katie_FullBody_Recomp_v2.md", "katie/README.md", "josh/programs/Josh_FullBody_GLP1_v2.md"]
+  },
+  "pattern": "solo-expert-loaded",
+  "expected_spawns": 0,
+  "tier": "T1",
+  "cost": "$0 local",
+  "data_reality": {
+    "scale": "hovers 134-135",
+    "visual": "leaner + strength up (coach-observed)",
+    "tape": "measurements exist off-repo, not yet in tracker",
+    "gallbladder_protocol": "NOT being taken (confirmed by Farrice 2026-08-12)",
+    "check_ins_logged": 0
+  },
+  "deliverable_paths": [
+    "_active/clients/josh-katie-fitness/katie/check-ins/2026-08-12-plateau-diagnosis.md",
+    "_active/clients/josh-katie-fitness/katie/NEXT-BLOCK-DIRECTION.md",
+    "_active/clients/josh-katie-fitness/josh/NEXT-BLOCK-DIRECTION.md"
+  ],
+  "gates": ["factual grounding (evidence labels)", "finalize via chain_runner.py"]
+}

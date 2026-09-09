@@ -6,6 +6,36 @@ type: genius-patterns
 
 # Nicolas Cole — Niche Positioning Genius Patterns
 
+> **2026 source correction:** Patterns 1–6 below remain useful local sharpening mechanics, but they are not the universal entry route. Cole's dedicated niche videos establish the upstream decision system below.
+
+## Source-Backed Operating Patterns
+
+1. **The niche is a reversible vehicle, not the creator's identity.** Skills transfer when the vehicle changes.
+2. **Category precedes brand.** People must understand the recognizable category before appreciating the distinctive brand.
+3. **Specificity creates legibility and adjacency.** Precise proof helps adjacent buyers infer fit; it does not necessarily shrink the market.
+4. **Specialization changes economics.** Repetition raises pricing power, delivery efficiency, capacity, and profit.
+5. **Repeated niche switching can scapegoat a skill gap.** Diagnose content, funnel, sales, and delivery before blaming the niche.
+6. **Cold-start creators earn signal through 30 pieces in 30 days.** Begin with several plausible topics, then compare relative response.
+7. **Relative lift beats absolute embarrassment.** Twenty views can matter against a ten-view baseline; it is directional signal, not demand proof.
+8. **Vary the winner by audience, problem, and outcome.** This creates the next focused experiment set.
+9. **Cold-start service providers choose service before industry.** The repeatable vehicle is easier to control than the first paying vertical.
+10. **Industry fluency creates information advantage.** Vernacular, rules, regulations, workflows, and buyer context reduce generic output.
+11. **Lead with one tip of spear; build a constellation behind it.** Coherence comes from the umbrella, not pretending adjacent interests do not exist.
+12. **Protect the factory.** Saying no preserves repeatability, capacity, and the specialization premium.
+
+### Deployment Logic
+
+- No evidence → create signal.
+- Existing evidence → compare it.
+- Service business → select and repeat a vehicle.
+- Creator business → publish and observe relative lift.
+- Advanced operator → lead with one umbrella and map adjacent territory.
+- Stalled operator → audit skill and capacity before pivoting.
+
+### Evidence Discipline
+
+`VERIFIED` means the source package supports the claim. `SELF-REPORTED` means Cole reports his own experience. `DERIVED` means Antigravity operationalized the source. `UNTESTED` awaits behavior. `NO EVENT` means no reply, sale, or payment occurred. Niche clarity must never be described as market validation.
+
 These are Cole's actual mental models, not labels. Each pattern is a way of thinking that unlocks a specific type of positioning problem.
 
 ---

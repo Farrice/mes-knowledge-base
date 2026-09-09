@@ -1,0 +1,83 @@
+{
+  "01": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "02": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "03": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "04": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "05": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "06": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "story-01": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "story-02": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  },
+  "story-03": {
+    "fonts": {
+      "playfair": true,
+      "jost": true,
+      "script": true
+    },
+    "images": true,
+    "clipped": []
+  }
+}

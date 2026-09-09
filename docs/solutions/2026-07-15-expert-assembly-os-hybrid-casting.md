@@ -1,3 +1,13 @@
+---
+date: 2026-07-15
+session: expert-assembly-os build
+name: expert-assembly-os-hybrid-casting
+problem_class: harness / expert panels / thin coverage
+domain: harness
+status: proven
+problem_signature: "a task needs an expert panel in a domain the roster barely covers, so the panel either seats irrelevant experts or invents composite personas with fabricated credentials, and the roadmap it produces has no observable success criteria"
+tags: [expert-panel, casting, personas, roadmap, assemble, coverage]
+---
 # Expert Assembly OS — Hybrid Casting + Bespoke Synthesis
 
 **Date**: 2026-07-15  

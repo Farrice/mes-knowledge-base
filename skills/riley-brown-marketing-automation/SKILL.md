@@ -18,6 +18,7 @@ Riley demos a **paid third-party stack** (ScrapeCreators, Foreplay, Firecrawl, B
 | Capability | Riley's tool (paid) | **Our route ($0 unless noted)** |
 |---|---|---|
 | Scrape a creator | ScrapeCreators | `/scrape-creator` → `social_intel.py` (Apify sc-* actors ~$0.005–0.25/run; yt-dlp captions free) |
+| Bank one already-watched public YouTube video | `/watch` evidence packet | `/social-to-notion --watch-packet ...` → same Social Intelligence DB; no second scrape |
 | Competitor ad-spy | Foreplay ($59–149/mo) | `/ad-spy` → Meta Ad Library via read-only Playwright, **$0** |
 | Winning-ad → creative | Paper.design | `/creative-from-winners` → Dara / Fantastic Studio / Canva / Higgsfield |
 | Brand-asset scrape | Firecrawl | `/brand-asset-scrape` → Tavily + Playwright, **$0** |

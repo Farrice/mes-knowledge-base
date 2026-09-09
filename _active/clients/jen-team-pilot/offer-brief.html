@@ -1,0 +1,171 @@
+<title>The Listing Launch Kit</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F7F8FA; --ink:#16181D; --muted:#5B6472; --steel:#3E6B8F;
+    --steel-soft:#E7EDF3; --rule:#E3E6EB; --card:#FFFFFF; --amber:#B07A2A;
+    --amber-soft:#F6EEDF; --quote-bg:#F0F3F6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#14161B; --ink:#E8EAEE; --muted:#9AA3B0; --steel:#7FA8CC;
+      --steel-soft:#1E2733; --rule:#2A2F38; --card:#1B1E25; --amber:#D9A050;
+      --amber-soft:#2C2416; --quote-bg:#1E232B;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14161B; --ink:#E8EAEE; --muted:#9AA3B0; --steel:#7FA8CC;
+    --steel-soft:#1E2733; --rule:#2A2F38; --card:#1B1E25; --amber:#D9A050;
+    --amber-soft:#2C2416; --quote-bg:#1E232B;
+  }
+  body{background:var(--paper); color:var(--ink); margin:0;
+    font-family:"Source Serif 4", Georgia, serif; font-size:17px; line-height:1.6;}
+  .wrap{max-width:700px; margin:0 auto; padding:56px 24px 80px;}
+  .eyebrow{font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--steel); margin:0 0 14px;}
+  h1{font-family:Archivo, "Helvetica Neue", sans-serif; font-weight:700; font-size:40px;
+    line-height:1.08; margin:0 0 10px; text-wrap:balance;}
+  .dek{color:var(--muted); font-size:18px; margin:0 0 8px;}
+  .meta{font-family:"IBM Plex Mono", monospace; font-size:12.5px; color:var(--muted);
+    border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    padding:10px 0; margin:28px 0 40px; display:flex; flex-wrap:wrap; gap:8px 24px;}
+  .meta b{color:var(--steel); font-weight:500;}
+  h2{font-family:Archivo, sans-serif; font-weight:600; font-size:22px; margin:52px 0 14px;
+    display:flex; align-items:baseline; gap:12px; text-wrap:balance;}
+  h2 .n{font-family:"IBM Plex Mono", monospace; font-size:13px; color:var(--steel); font-weight:500;}
+  h3{font-family:Archivo, sans-serif; font-weight:600; font-size:16px; margin:26px 0 8px;}
+  p{margin:0 0 14px;}
+  .price{font-family:"IBM Plex Mono", monospace; color:var(--steel); font-weight:500; white-space:nowrap;}
+  ol.kit{margin:0 0 18px; padding-left:0; counter-reset:kit; list-style:none;}
+  ol.kit li{counter-increment:kit; padding:13px 0 13px 44px; position:relative;
+    border-top:1px solid var(--rule);}
+  ol.kit li:last-child{border-bottom:1px solid var(--rule);}
+  ol.kit li::before{content:counter(kit,decimal-leading-zero);
+    font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--steel);
+    position:absolute; left:0; top:16px;}
+  ol.kit b{font-family:Archivo, sans-serif; font-weight:600; font-size:15.5px;}
+  .callout{background:var(--steel-soft); border-left:3px solid var(--steel);
+    padding:14px 18px; margin:18px 0; border-radius:0 4px 4px 0;}
+  .callout p{margin:0 0 8px;} .callout p:last-child{margin:0;}
+  .warn{background:var(--amber-soft); border-left:3px solid var(--amber);}
+  .warn b{color:var(--amber);}
+  blockquote{background:var(--quote-bg); margin:14px 0; padding:16px 20px;
+    border-radius:4px; font-style:italic; font-size:16.5px;}
+  blockquote .who{display:block; font-style:normal; font-family:"IBM Plex Mono", monospace;
+    font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:8px;}
+  .tablewrap{overflow-x:auto; margin:18px 0;}
+  table{border-collapse:collapse; width:100%; font-size:14.5px; min-width:640px;
+    font-family:Archivo, sans-serif;}
+  th{font-family:"IBM Plex Mono", monospace; font-size:11.5px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--muted); text-align:left; font-weight:500;
+    padding:8px 14px 8px 0; border-bottom:2px solid var(--steel);}
+  td{padding:10px 14px 10px 0; border-bottom:1px solid var(--rule); vertical-align:top;}
+  td:last-child, th:last-child{white-space:nowrap;}
+  code{font-family:"IBM Plex Mono", monospace; font-size:13px; background:var(--steel-soft);
+    padding:1px 5px; border-radius:3px;}
+  .math{display:flex; gap:10px; margin:18px 0; flex-wrap:wrap;}
+  .math div{flex:1; min-width:140px; background:var(--card); border:1px solid var(--rule);
+    border-radius:4px; padding:14px 16px;}
+  .math .k{font-family:"IBM Plex Mono", monospace; font-size:11.5px; text-transform:uppercase;
+    letter-spacing:.08em; color:var(--muted); display:block; margin-bottom:6px;}
+  .math .v{font-family:Archivo, sans-serif; font-weight:700; font-size:22px;
+    font-variant-numeric:tabular-nums;}
+  .math .ok .v{color:var(--steel);}
+  ul.obj{list-style:none; padding:0; margin:0 0 18px;}
+  ul.obj li{border-top:1px solid var(--rule); padding:12px 0;}
+  ul.obj li:last-child{border-bottom:1px solid var(--rule);}
+  ul.obj b{font-family:Archivo, sans-serif; font-size:15px;}
+  .foot{margin-top:56px; padding-top:16px; border-top:1px solid var(--rule);
+    font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Jen-Team Pilot · 30-Day Trial · Operator Brief</p>
+  <h1>The Listing Launch Kit</h1>
+  <p class="dek">One active listing becomes a complete, ready-to-film content package in 48 hours. Founding rate <span class="price">$200</span> for the first three agents on Jen's team; standard rate <span class="price">$450</span>.</p>
+  <div class="meta">
+    <span>Serves <b>revenue-5k-incumbency</b></span>
+    <span>Target <b>$600 / 30 days</b></span>
+    <span>Delivery cost <b>~2 hrs · $0 API</b></span>
+  </div>
+
+  <h2><span class="n">01</span>The Offer</h2>
+  <ol class="kit">
+    <li><b>Shoot Sheet.</b> Exactly what to film at the property, shot by shot, in one walkthrough. No videographer; a phone is fine.</li>
+    <li><b>Teleprompter Pack.</b> Three reel scripts in the agent's own voice, word for word, readable off the phone.</li>
+    <li><b>Caption + Hook Set.</b> Captions, hooks, and a carousel, each with two or three pick-one options.</li>
+    <li><b>Stories Sequence + DM Keyword.</b> A five-frame story arc ending in a keyword CTA ("DM me TOUR") so views turn into conversations.</li>
+    <li><b>Compliance Pass.</b> Every line screened against fair-housing language rules, with a don't-say list included.</li>
+  </ol>
+  <p>Delivered as one forwardable package: the SEND shape already proven with Jen. One text, pick-one options, don't-say list. They film, post, and answer DMs. That is their whole job.</p>
+  <div class="callout">
+    <p><b>Why this wedge, not a retainer:</b> a listing is urgent, attached to real money, and has a deadline. It is the easiest yes in an agent's world. A retainer asks for a relationship before trust exists.</p>
+  </div>
+  <h3>Fallback SKU — no active listing: Agent Engine Starter, same <span class="price">$200</span></h3>
+  <p>Profile curb-appeal fix (bio, pins, link, top of grid) plus ten ready-to-film scripts in their voice from their niche, plus a two-week posting calendar. Built on the Sherrard four-mistakes audit of why consistent posters get zero leads.</p>
+  <h3>Founding-rate terms</h3>
+  <p><span class="price">$200</span> instead of <span class="price">$450</span>, first three agents only, in exchange for (a) permission to screenshot results and (b) one sentence of feedback after the first kit posts. Paid up front, Zelle or Venmo. The low price is a trade, not a discount, so it never anchors as the real price.</p>
+  <h3>Ascension path (know it, don't pitch it yet)</h3>
+  <p>Kit at <span class="price">$200</span> founding → repeat kits at <span class="price">$450</span> → Monthly Content Engine at <span class="price">$500–750/mo</span> → team deal through Jen.</p>
+
+  <h2><span class="n">02</span>Positioning</h2>
+  <blockquote><span class="who">The one line — true and verifiable</span>
+  "I run the content system behind @realestatewithjing's listings: shoot sheets, scripts, captions, the whole package. I'm opening 3 founding spots for agents on the team."</blockquote>
+  <p>Proof objects on hand: the Willis, Armida, Moonseed, and Bothwell listing packages. Show one on your phone in 30 seconds, the shoot sheet next to the finished reel script. The work sells itself better than any claim about it.</p>
+  <div class="callout warn">
+    <p><b>Check first:</b> confirm with Jen that showing her packages to her own teammates is fine. Almost certainly yes, since it is her team and it flatters her system, but ask before the first pitch, not after.</p>
+  </div>
+
+  <h2><span class="n">03</span>The Pitch — you personalize, you send</h2>
+  <blockquote><span class="who">Agent with a live listing</span>
+  "Hey [name], you've got [address] coming up, right? I build the listing content for Jen (scripts, shoot list, captions, she just films). I'm opening 3 founding spots at $200 to do the same for agents on the team. Want me to send you what one package looks like?"</blockquote>
+  <blockquote><span class="who">Posting but getting nothing from it</span>
+  "Hey [name], I've watched your reels and you're consistent, which is 90% of the fight. The missing 10% is usually structure plus a capture step. I handle this for Jen. $200 founding rate: I fix your profile and hand you 10 scripts in your voice, ready to film. Want to see a before/after?"</blockquote>
+  <blockquote><span class="who">Warm and casual</span>
+  "Hey [name], random but real: I'm the one behind Jen's listing content. Taking on 3 agents at a founding rate before I open it up wider. If your next listing came with a full film-and-post kit for $200, would you use it?"</blockquote>
+  <p>Send rule: message, then when they say "show me," send one sample package plus a payment link. No calls needed at this price.</p>
+
+  <h2><span class="n">04</span>Delivery Process — the repeatable run</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Step</th><th>What happens</th><th>Route</th><th>Time</th></tr>
+    <tr><td><b>1 · Intake</b></td><td>One text form: address, MLS sheet, 5 photos, IG handle, "anything you refuse to say on camera"</td><td>form template</td><td>10 min (theirs)</td></tr>
+    <tr><td><b>2 · Voice card</b></td><td>Scrape their last 15 posts, build a mini voice card, pick the register (calm-warm vs. authority)</td><td>voice-scrape run</td><td>20 min</td></tr>
+    <tr><td><b>3 · Production</b></td><td>Shoot sheet, teleprompter pack, captions, carousel, stories, keyword CTA</td><td>Jen listing skill + Enrico expand</td><td>60–90 min</td></tr>
+    <tr><td><b>4 · Compliance</b></td><td>Fair-housing screen on every line; build the don't-say list</td><td>compliance pack</td><td>10 min</td></tr>
+    <tr><td><b>5 · Package</b></td><td>Assemble the SEND: one forwardable text, pick-one options, don't-say list</td><td>Jen SEND shape</td><td>15 min</td></tr>
+    <tr><td><b>6 · Follow-up</b></td><td>Day 3: "filmed yet? send the raw take, I'll tighten it." Day 7: results screenshot into proof bank</td><td>calendar reminder</td><td>10 min</td></tr>
+  </table></div>
+  <p><b>Economics:</b> about 2 hours per kit, $0 in paid API. Roughly <span class="price">$100/hr</span> at founding rate; <span class="price">$225/hr</span> at standard.</p>
+  <h3>Intake form (copy-paste)</h3>
+  <blockquote>Address + MLS link · 5 phone photos · Your IG handle · Who's the buyer for this home? · One thing about this property you'd tell a friend · Anything you won't say on camera</blockquote>
+
+  <h2><span class="n">05</span>30-Day Trial Plan</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Week</th><th>Moves</th></tr>
+    <tr><td><b>1</b></td><td>Jen check-in (sample permission), then pitch all 3 agents. Target: 2 paid intakes. First kit inside 48h of first payment.</td></tr>
+    <tr><td><b>2</b></td><td>Deliver remaining kits. Day-3 follow-ups. Collect the first posted reel.</td></tr>
+    <tr><td><b>3</b></td><td>Screenshots + feedback into the proof bank. Offer kit #2 at founding rate to whoever posted.</td></tr>
+    <tr><td><b>4</b></td><td>Verdict week. Count revenue and repeats; show Jen the live posts ("this is your system working"). Raise to $450, widen, or park.</td></tr>
+  </table></div>
+  <div class="math">
+    <div><span class="k">1 sale</span><span class="v">$200</span><br><small>under the floor</small></div>
+    <div class="ok"><span class="k">2 sales</span><span class="v">$400</span><br><small>floor cleared</small></div>
+    <div class="ok"><span class="k">3 sales</span><span class="v">$600</span><br><small>target hit</small></div>
+  </div>
+  <p>The plan needs <b>two yeses, not three</b>.</p>
+  <div class="callout">
+    <p><b>Kill criteria, decided now:</b> zero paid intakes after all 3 agents are pitched and followed up once means the channel is the problem, not the price. Park it and carry the learnings to the LinkedIn lane. Never drop below $200.</p>
+  </div>
+
+  <h2><span class="n">06</span>Objections + Risks</h2>
+  <ul class="obj">
+    <li><b>"My brokerage gives us marketing."</b> — "Templates with your headshot dropped in. This is scripts in your voice for your listing, ready to film tonight. Different animal."</li>
+    <li><b>"I don't have a listing right now."</b> — Fallback SKU, same price, same day.</li>
+    <li><b>Ghosting after "show me."</b> — One follow-up 48h later with the sample attached. Then stop; next agent.</li>
+    <li><b>Jen optics.</b> — Ask first. Frame: "I'm proving your system on the team so it's warm when you're ready."</li>
+    <li><b>"Can you also post it for me?"</b> — "That's the monthly engine. The founding kit gets you the package; posting stays yours."</li>
+    <li><b>Fair housing.</b> — The compliance pass is non-negotiable, and it doubles as a selling point: most agents have never had anyone screen their copy.</li>
+  </ul>
+
+  <p class="foot">Source of truth: _active/clients/jen-team-pilot/OFFER-BRIEF.md · Mission: jen-team-pilot-offer · Ink + Steel Blue</p>
+</div>

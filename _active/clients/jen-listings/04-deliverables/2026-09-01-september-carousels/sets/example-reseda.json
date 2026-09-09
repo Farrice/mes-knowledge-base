@@ -1,0 +1,15 @@
+{
+  "_about": "Example spec for new_set.py. Copy is placeholder shape only; write real copy to DESIGN.md / RULEBOOK.md rules (plain words with punch, facts sourced, her close on slide 7). Headline syntax: _italic phrase_ and | for a line break. Body syntax: **strong tail**.",
+  "stamp": "RESEDA &#183; 91335",
+  "stem": "DX",
+  "key": "reseda",
+  "slides": [
+    {"type": "cover", "photo": "california-bungalow-00.jpg", "caption": "RESEDA &#183; 91335", "headline": "everyone wants sherman oaks...|_my buyers close in reseda._", "dek": "why the first house is usually one neighborhood over.", "focus": "50% 45%"},
+    {"type": "keyed", "eyebrow": "THE PART NOBODY EXPLAINS", "italic": "one neighborhood over.", "sans": "same commute, different price.", "body": "reseda sits between the boulevard and the 101, ten minutes from the places people think they need to live... **the math is the story.**", "stops": [["price", "THE GAP"], ["bungalow", "WHAT YOU GET"], ["calendar", "HOW LONG IT SITS"], ["hill", "THE TRADE"]], "footer": "VERIFY EVERY NUMBER THE DAY YOU POST"},
+    {"type": "stat", "eyebrow": "01 &#183; THE GAP", "numeral": "$000K", "unit": "", "headline": "the number goes here, checked the day you post.", "body": "source line in the footer. never a number from memory.", "footer": "SOURCE: REDFIN, LAST 3 MONTHS"},
+    {"type": "dark", "eyebrow": "02 &#183; WHAT YOU GET", "headline": "a bungalow with|_a yard._", "body": "describe the house and the street, never who it's for. **the place, the process, the price.**", "photo": "california-bungalow-00.jpg", "caption": "RESEDA &#183; 91335", "footer": "PROPERTY, PLACE, PROCESS"},
+    {"type": "panels", "eyebrow": "03 &#183; HOW LONG IT SITS", "headline": "days on market, priced right vs. not.", "left": ["PRICED RIGHT", "under a month."], "right": ["PRICED HIGH", "two or three."], "body": "the buyer's window is the seller's mistake. **that's where we look.**", "footer": "CONFIRM WITH CURRENT MLS"},
+    {"type": "list", "eyebrow": "04 &#183; THE TRADE", "headline": "what you give up, honestly.", "rows": [["the dining scene", "SHERMAN OAKS WINS"], ["the price", "RESEDA WINS"], ["the commute", "EVEN"], ["the yard", "RESEDA WINS"]], "footer": "ONE REAL TRADE-OFF EARNS THE UPSIDE"},
+    {"type": "close", "photo": "jen-porch-vannuys.jpg", "caption": "JEN &#183; SAN FERNANDO VALLEY", "headline": "want to walk|_a few reseda homes?_", "body": "send me the street you keep circling. i'll build the list. i'm here for you... i do this to protect you and your best interest.", "source": "SOURCES: FILL IN THE DAY YOU POST", "focus": "50% 0%", "img_h": 380}
+  ]
+}

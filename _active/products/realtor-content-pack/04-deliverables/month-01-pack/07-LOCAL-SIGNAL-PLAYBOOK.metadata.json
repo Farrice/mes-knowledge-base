@@ -1,0 +1,10 @@
+{
+  "artifact_type": "playbook",
+  "title": "Realtor Local Signal Playbook",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "source_package": "extractions/video-context/eDGyKfiXsyQ",
+  "status": "local_proof_complete_market_performance_no_event",
+  "flagship_preserved": "Listing Launch System"
+}

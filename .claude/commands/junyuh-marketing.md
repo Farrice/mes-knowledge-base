@@ -1,5 +1,5 @@
 ---
-description: "Build a complete content marketing operating system"
+description: "Deploy Jun Yuh's expertise-to-story system using Problem-Pursuit-Payoff for content, offers, masterclasses, buyer response, and ROI-eligible learning"
 ---
 
-Read and execute the workflow at `.agent/workflows/junyuh-marketing.md` — Build a complete content marketing operating system
+Read and execute `.agent/workflows/junyuh-marketing.md` — deploy the connected Jun system across expertise-to-story, 3P mission campaigns, conversion, masterclasses, story memory, and performance learning.

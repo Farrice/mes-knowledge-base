@@ -61,6 +61,11 @@ State the primary communication job in one sentence. Classify it as connection, 
 
 Inventory the material that is actually available. Do not treat an objective, desired emotion, or plausible scene as evidence that an event occurred.
 
+For brand or sales work, separate a claim from seeable proof. If the requested
+transformation is something the audience would still have to imagine, read
+`references/chris-do-proof-before-story.md`; missing proof is an upstream
+acquisition problem, not permission to improve the story.
+
 Apply the input-sufficiency policy before routing. Missing presentation context is an explicit caveat, not permission to invent an audience or a reason to fail an otherwise truthful local draft.
 
 ### Phase 2: Decide narrative dosage
@@ -94,6 +99,12 @@ For `NO STORY`:
 1. Choose the direct domain or format owner.
 2. Shaan may contribute only frame, specificity, hierarchy, pacing, or plain-language compression.
 3. Prohibit protagonist arcs, dramatic scenes, false stakes, and emotionalized risk.
+4. When a brand or sales request failed specifically because it contains a
+   transformation claim but no seeable proof, route to
+   `/proof-portfolio-builder` with the proof-before-story handoff. The current
+   publishable asset remains `NO STORY`; return here only after proof exists.
+   Do not use this recovery route for incidents, procedures, specifications,
+   calculations, status, or evidence-sensitive domain analysis.
 
 ### Phase 4: Optional adjacent-field transfer
 
@@ -140,6 +151,10 @@ Execution prompt: `references/prompts-v2/shaan-story-deploy.md` — honor its Ou
 - Can every real-world detail trace to supplied facts or a named source?
 - Does `STORY FRAGMENT` preserve the evidence or direct-explanation spine?
 - Does `NO STORY` avoid narrative theater?
+- When brand or sales material contained only a transformation claim, did the
+  router preserve `NO STORY` and route to proof acquisition rather than polish?
+- Did direct and evidence-sensitive `NO STORY` cases avoid an irrelevant
+  proof-capture ritual?
 - Was Story Compass activated only after story was judged appropriate?
 - Was adjacent-field transfer limited to one named weakness, one mechanism, and one test?
 - Does the final asset satisfy the selected owner's own Quality Gate?

@@ -1,18 +1,32 @@
 {
   "slug": "mission-execution",
-  "title": "Execution — Lane Reconciler",
-  "compiled": "aug 9, 2026",
+  "title": "Handoff — System Health Audit + Repair (2026-08-24)",
+  "compiled": "sep 4, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
   "brief_md": "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
   "paths": [
     {
-      "path": ".agent/handoffs/2026-08-08-execution.md",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-execution.md",
+      "path": ".agent/handoffs/2026-08-24-execution.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md",
       "role": "playbook · Resume here"
     },
     {
+      "path": "guides/2026-08-21-handoff-execution.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-21-handoff-execution.md",
+      "role": "asset · GUIDE"
+    },
+    {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }

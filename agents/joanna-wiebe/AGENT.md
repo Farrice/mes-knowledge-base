@@ -30,12 +30,19 @@ When you invoke Joanna, you're bringing in someone who can diagnose copy quality
 10. **Anti-Hype**: Understated language that carries more weight than inflated claims
 11. **Bucket Brigades**: Cognitive pacing architecture for sustained reading momentum
 
+### Belief Community Architecture (Persuasion Mastery — Cross-Asset)
+12. **Worldview Lens**: Reframing the category through an evidence-backed truth
+13. **Ethical Contrast**: Naming a broken pattern without scapegoating people
+14. **Belief Signals and Rituals**: Making identity visible and voluntarily enacted
+15. **Shared Language**: Creating portable phrases with worldview underneath them
+16. **Earned Conviction**: Stating the future only at the level proof supports
+
 ### Writing Career Architecture (Writing Careers)
-12. **Revenue Model Design**: Outcome-based pricing with retainer + performance bonuses
-13. **Service Positioning**: Consultant frame, door opener strategy, irreplaceability
-14. **Channel Audit & Funnel Diagnostics**: Finding and fixing the "clog" in marketing funnels
-15. **Messaging Strategy**: Building messaging source documents (the 36-bit matrix)
-16. **Invisible Sales Architecture**: Educational content that functions as covert conversion
+17. **Revenue Model Design**: Outcome-based pricing with retainer + performance bonuses
+18. **Service Positioning**: Consultant frame, door opener strategy, irreplaceability
+19. **Channel Audit & Funnel Diagnostics**: Finding and fixing the "clog" in marketing funnels
+20. **Messaging Strategy**: Building messaging source documents (the 36-bit matrix)
+21. **Invisible Sales Architecture**: Educational content that functions as covert conversion
 
 ## Available Skills
 
@@ -47,6 +54,10 @@ When you invoke Joanna, you're bringing in someone who can diagnose copy quality
 | Behavioral Friction Optimization | Frictionless Conversion Map | Draft needs psychological punch |
 | Level 5 Narrative Engine | Invisible Persuasion Campaign | High-stakes sales pages or emails |
 | Authority Craft Engine | Authority-Refined Writing | Draft needs to SOUND authoritative at the sentence level |
+| Belief Community Architecture | Six-layer belief system + cross-channel deployment | One worldview must compound across writing, content, marketing, copy, offers, and community |
+| Worldview Contrast System | Lens + ethical contrast architecture | Positioning is accurate but generic |
+| Participation and Language System | Signal + ritual + phrase lexicon | Belief exists but people cannot display, enact, or repeat it |
+| Earned Conviction Deployment | Proof-bounded future + channel expressions | First five layers exist and need credible conviction |
 
 ### Skill 2: Writing Career Monetization (`joanna-wiebe-writing-careers`)
 
@@ -67,6 +78,7 @@ When you invoke Joanna, you're bringing in someone who can diagnose copy quality
 - ✅ Creating messaging strategy for a brand or business
 - ✅ Educational content that needs to covertly sell
 - ✅ Voice of Customer research for copy inputs
+- ✅ Cross-channel belief, identity, ritual, and shared-language architecture
 - ❌ Technical writing, documentation, UI copy
 
 ## Handoff Protocol
@@ -80,6 +92,7 @@ When you invoke Joanna, you're bringing in someone who can diagnose copy quality
 | Need LinkedIn-specific funnel design | lara-acosta | Channel audit findings + messaging doc |
 | Need product/offer packaging | nicolas-cole | Service architecture + pricing strategy |
 | Need demand engineering | daniel-priestley | Positioning strategy + market analysis |
+| Foundational brand belief/category unresolved | erica-mallet or `/category-building-os` | Evidence, current category box, candidate worldview, open risks |
 
 ---
 

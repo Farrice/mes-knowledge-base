@@ -62,6 +62,18 @@ Run `/ai-brain-discovery` (skill: `skills/ai-brain-discovery/`):
 
 Output: `_working/A3-discovery.md` — gap list with severity flags.
 
+### A4 — Design challenge ledger
+
+Translate the strongest evidence from A0-A3 into 2-5 design challenges. These are not aesthetic requests. Each row must state:
+
+- the observed evidence or canonical founder language;
+- the audience or business tension it creates;
+- the design challenge as a question (for example, "How might the identity feel technically credible without becoming clinical?");
+- the proof surface where a proposed answer can be tested;
+- what would falsify the direction.
+
+Output: `_working/A4-design-challenge-ledger.md`. This becomes the traceability input for Phase C; no visual direction may appear without pointing back to at least one row.
+
 ## Output Schema
 
 Phase A produces four artifacts, none of them client-facing — they exist to give Phase B a locked spine, not to be pasted anywhere:
@@ -70,6 +82,7 @@ Phase A produces four artifacts, none of them client-facing — they exist to gi
 - **`_working/A1-reconciliation.md`** — a conflict table (prior framing vs. founder docs, one row per disagreement), a resolved unified spine, and a verbatim-use "Crystallized Phrases" list. Every conflict row needs an explicit Resolution — no UNRESOLVED rows survive Phase A.
 - **`00-foundation/02-icp-master.md` (early draft)** — umbrella description + Profile #1 LOCKED (filled from canonical) + Profiles #2/#3 marked PROPOSED if not yet founder-adjudicated.
 - **`_working/A3-discovery.md`** — the 8-dimension gap list with severity flags (voice patterns not yet named, ICP states not yet mapped, mechanic-vs-metaphor confusion, etc.). A populated gap list is expected output, not a defect — an empty one is the actual red flag, since it usually means the diagnostic wasn't run seriously.
+- **`_working/A4-design-challenge-ledger.md`** — 2-5 evidence-backed design questions, each with its source, tension, intended proof surface, and falsifier.
 
 ## Quality gate (Phase A → B)
 
@@ -78,6 +91,7 @@ Before advancing to Phase B:
 - [ ] `_working/A1-reconciliation.md` exists and resolves all conflicts (no UNRESOLVED flags)
 - [ ] `00-foundation/02-icp-master.md` early draft has umbrella + ≥1 LOCKED profile
 - [ ] `_working/A3-discovery.md` exists with gap list (gaps OK; missing diagnostic NOT OK)
+- [ ] `_working/A4-design-challenge-ledger.md` exists, cites source evidence, and names a proving surface plus falsifier for every challenge
 - [ ] Founder has reviewed PROPOSED ICP profiles (or accepted PROPOSED status to proceed in parallel)
 
 If any unchecked, halt and resolve. Do not advance to Phase B with unresolved conflicts — they compound.

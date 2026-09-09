@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"type\":\"limited\",\"totalCredits\":1894,\"renewableCredits\":1544,\"maxRenewableCredits\":2000,\"renewableResetsAt\":\"2026-09-26T13:41:32Z\",\"addOnCredits\":350,\"maxAddOnCredits\":350,\"_credits\":{\"used\":0}}"
+    }
+  ],
+  "structuredContent": {
+    "type": "limited",
+    "totalCredits": 1894,
+    "renewableCredits": 1544,
+    "maxRenewableCredits": 2000,
+    "renewableResetsAt": "2026-09-26T13:41:32Z",
+    "addOnCredits": 350,
+    "maxAddOnCredits": 350
+  },
+  "isError": false
+}

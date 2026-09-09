@@ -19,9 +19,12 @@ that will not be adopted across thirty of them.
         return degraded("", "lane-reconciler receipt unreadable", e)
 
 `degraded()` RETURNS THE VALUE YOU GIVE IT — it drops into an existing
-`return ""` verbatim. It also appends a record to
-`.agent/health/degradations.jsonl` naming the module, function, line, and
-reason, so the hole is visible somewhere even when the surface cannot show it.
+`return ""` verbatim. It also appends a record naming the module, function,
+line, and reason, so the hole is visible somewhere even when the surface cannot
+show it. Authoring lanes use tracked `.agent/health/degradations.jsonl`;
+canonical integration main uses ignored
+`.agent/health/degradations-runtime.jsonl` so observation cannot block the next
+merge.
 
 It never raises and never blocks. A bug in this module must never be able to
 disturb the code that called it.
@@ -36,13 +39,48 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 import sys
+import tempfile
 from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LEDGER = ROOT / ".agent" / "health" / "degradations.jsonl"
+TRACKED_LEDGER = ROOT / ".agent" / "health" / "degradations.jsonl"
+RUNTIME_LEDGER = ROOT / ".agent" / "health" / "degradations-runtime.jsonl"
+# Kept mutable for callers/tests that intentionally redirect the recorder.
+LEDGER = TRACKED_LEDGER
 MAX_LINES = 2000
+
+
+def _on_integration_main() -> bool:
+    """True only for the canonical main checkout, never a worktree lane."""
+    try:
+        def probe(*args: str) -> subprocess.CompletedProcess[str]:
+            return subprocess.run(
+                ["git", "-C", str(ROOT), *args], capture_output=True,
+                text=True, timeout=10,
+            )
+
+        branch = probe("rev-parse", "--abbrev-ref", "HEAD")
+        git_dir = probe("rev-parse", "--path-format=absolute", "--git-dir")
+        common_dir = probe("rev-parse", "--path-format=absolute", "--git-common-dir")
+        return (
+            branch.returncode == git_dir.returncode == common_dir.returncode == 0
+            and branch.stdout.strip() == "main"
+            and Path(git_dir.stdout.strip()).resolve()
+            == Path(common_dir.stdout.strip()).resolve()
+        )
+    except Exception:
+        return False
+
+
+def _ledger_for(integration_main: bool | None = None) -> Path:
+    """Select runtime-only telemetry on main while preserving lane learning."""
+    if LEDGER != TRACKED_LEDGER:  # explicit caller/test override
+        return LEDGER
+    on_main = _on_integration_main() if integration_main is None else integration_main
+    return RUNTIME_LEDGER if on_main else TRACKED_LEDGER
 
 
 def _record(why: str, exc: BaseException | None, depth: int) -> None:
@@ -57,13 +95,14 @@ def _record(why: str, exc: BaseException | None, depth: int) -> None:
             "exc": f"{type(exc).__name__}: {exc}"[:200] if exc else None,
             "session": os.environ.get("CLAUDE_SESSION_ID", ""),
         }
-        LEDGER.parent.mkdir(parents=True, exist_ok=True)
-        with open(LEDGER, "a") as fh:
+        ledger = _ledger_for()
+        ledger.parent.mkdir(parents=True, exist_ok=True)
+        with open(ledger, "a") as fh:
             fh.write(json.dumps(entry) + "\n")
         # cheap trim so the ledger can never grow unbounded
-        if LEDGER.stat().st_size > 1_500_000:
-            lines = LEDGER.read_text().splitlines()[-MAX_LINES:]
-            LEDGER.write_text("\n".join(lines) + "\n")
+        if ledger.stat().st_size > 1_500_000:
+            lines = ledger.read_text().splitlines()[-MAX_LINES:]
+            ledger.write_text("\n".join(lines) + "\n")
     except Exception:
         pass  # DELIBERATE-QUIET: the degradation recorder must never itself raise
 
@@ -85,11 +124,16 @@ def degraded_html(why: str, exc: BaseException | None = None) -> str:
 
 
 def recent(limit: int = 20) -> list[dict]:
-    try:
-        lines = LEDGER.read_text().splitlines()[-limit:]
-        return [json.loads(l) for l in lines if l.strip()]
-    except (OSError, ValueError):
-        return []
+    paths = [_ledger_for()]
+    if LEDGER == TRACKED_LEDGER and _on_integration_main():
+        paths = [TRACKED_LEDGER, RUNTIME_LEDGER]
+    rows: list[dict] = []
+    for path in paths:
+        try:
+            rows.extend(json.loads(line) for line in path.read_text().splitlines() if line.strip())
+        except (OSError, ValueError):
+            continue
+    return rows[-limit:]
 
 
 def self_test() -> int:
@@ -101,24 +145,28 @@ def self_test() -> int:
         if not cond:
             bad.append(name)
 
-    before = len(recent(9999))
-    check("passes str through unchanged", degraded("", "selftest str") == "")
-    check("passes tuple through unchanged", degraded(("", 0), "selftest tuple") == ("", 0))
-    check("passes bool through unchanged", degraded(True, "selftest bool") is True)
-    after = recent(9999)
-    check("every call left a record", len(after) >= before + 3)
-    check("record names this module + function",
-          after and after[-1]["module"] == "degrade.py" and after[-1]["function"] == "self_test")
-    html = degraded_html("receipt unreadable")
-    check("html marker is VISIBLE, not empty", "unavailable" in html and len(html) > 20)
-    check("html marker is tagged for the detector", 'data-degraded="1"' in html)
-    # must never raise even when the ledger is unwritable
+    check("integration main selects runtime ledger", _ledger_for(True) == RUNTIME_LEDGER)
+    check("authoring lane selects tracked ledger", _ledger_for(False) == TRACKED_LEDGER)
     orig = globals()["LEDGER"]
-    try:
-        globals()["LEDGER"] = Path("/nonexistent-dir-xyz/degradations.jsonl")
-        check("survives an unwritable ledger", degraded("v", "unwritable") == "v")
-    finally:
-        globals()["LEDGER"] = orig
+    with tempfile.TemporaryDirectory() as temp:
+        globals()["LEDGER"] = Path(temp) / "degradations.jsonl"
+        try:
+            before = len(recent(9999))
+            check("passes str through unchanged", degraded("", "selftest str") == "")
+            check("passes tuple through unchanged", degraded(("", 0), "selftest tuple") == ("", 0))
+            check("passes bool through unchanged", degraded(True, "selftest bool") is True)
+            after = recent(9999)
+            check("every call left a record", len(after) >= before + 3)
+            check("record names this module + function",
+                  after and after[-1]["module"] == "degrade.py" and after[-1]["function"] == "self_test")
+            html = degraded_html("receipt unreadable")
+            check("html marker is VISIBLE, not empty", "unavailable" in html and len(html) > 20)
+            check("html marker is tagged for the detector", 'data-degraded="1"' in html)
+            # must never raise even when the ledger is unwritable
+            globals()["LEDGER"] = Path("/nonexistent-dir-xyz/degradations.jsonl")
+            check("survives an unwritable ledger", degraded("v", "unwritable") == "v")
+        finally:
+            globals()["LEDGER"] = orig
 
     print(f"degrade self-test: {'OK' if not bad else 'FAILED'} ({ok} passed, {len(bad)} failed)")
     for b in bad:

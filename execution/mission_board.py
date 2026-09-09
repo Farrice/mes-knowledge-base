@@ -91,7 +91,7 @@ def stage_pill(stage):
 
 def status_pill(status):
     cls = {"blocked": "crit", "active": "warn", "mid-build": "warn",
-           "ready": "ok", "done": "muted"}.get(status, "muted")
+           "ready": "ok", "done": "muted", "parked": "muted"}.get(status, "muted")
     return f'<span class="pill {cls}">{esc(status)}</span>' if status else ""
 
 
@@ -106,7 +106,11 @@ def idle_days(t, window_days):
 
 def why_needs_you(t, window_days=14):
     """The reason this thread is at the top — always a fact, never a vibe.
-    Returns (rank, reason); lower rank = more urgent. rank None = doesn't qualify."""
+    Returns (rank, reason); lower rank = more urgent. rank None = doesn't qualify.
+    Parked threads never qualify: parking is Farrice's deliberate shelving, and
+    surfacing it as urgent un-parks it in attention terms (bug fixed 2026-08-20)."""
+    if t.get("status") == "parked":
+        return None, ""
     if t.get("status") == "blocked":
         return 0, "handoff is marked blocked"
     for m in t.get("missions", []):

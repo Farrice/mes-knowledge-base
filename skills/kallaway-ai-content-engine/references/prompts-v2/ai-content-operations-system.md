@@ -20,6 +20,8 @@ This operationalizes genius Pattern 5 (Compound AI Workflow Architecture) and Pa
 - **[PLATFORMS]**: Which platforms are being served
 - **[CURRENT WORKFLOW]**: How content is currently produced (tools, process, bottlenecks)
 - **[AI TOOL STACK]**: Current AI tools available (Claude, Sandcastles, CapCut, etc.)
+- **[OWNED CORPUS SIZE]**: Number of published first-party pieces with usable performance data
+- **[HIGHEST AVAILABLE METRIC]**: Email conversions/qualified leads, relevant followers gained, or views only
 
 > Pre-Flight Gate: [TEAM SIZE] and [CONTENT VOLUME] are required. Other inputs can be diagnosed during the workflow.
 
@@ -35,6 +37,7 @@ This operationalizes genius Pattern 5 (Compound AI Workflow Architecture) and Pa
 1. Design the single research session so one Sandcastles export becomes the foundation for: Topic Mining (ranked categories + idea seeds, bi-weekly), Hook Writing (clustered formats + generated hooks, per topic), Deep Dive Research (background knowledge, per topic), Scripting (structures from winning patterns, per piece), Captions (from transcript analysis, per piece), Analytics (performance pattern recognition, weekly), Strategy (calendar recommendations, monthly).
 2. Recommend a research cadence — default bi-weekly for active channels, monthly for stable niches.
 3. Specify dataset storage and team access (shared Claude workspace, Notion, Google Sheets).
+4. Declare the learning state: `COLD_START` (<10 owned posts), `HYBRID` (10-19), or `OWNED_LEARNING` (20+). Schedule an owned-data audit at 10 and 20 posts and reduce reliance on competitor proxies as the corpus matures.
 
 ### Phase 3: Role Assignment
 Assign responsibilities using the Transactional-Creative Split, calibrated to [TEAM SIZE]:
@@ -56,8 +59,10 @@ Select and adapt from the four reference chains (add [CURRENT WORKFLOW]-specific
 ### Phase 5: Cadence & Calendar Design
 Build the operational rhythm across a Research Day (one full Sandcastles → Claude pipeline session per cadence), a Reaction Day (protected creative time — no meetings, no editing), Production Days (scripting → filming → editing, AI assists structure, human controls voice/performance), and Distribution Days (AI-optimized scheduled posting; analytics review feeds back into next research session). Produce a weekly template scaled to [CONTENT VOLUME].
 
+For each phase, declare the creative dial: AI/data may lead collection, clustering, and structural assistance; humans own source taste, business relevance, thesis, substance, voice, emotional calibration, and final visual-comprehension judgment.
+
 ### Phase 6: Measurement System
-Design tracking for all five operational metrics: Research-to-Reaction Ratio (target 80/20), Dataset Compound Rate (target 5+ downstream workflows per session), Creative Drain Score (target 8+/10 weekly self-assessment), Pipeline Velocity (target <7 days topic-validation to published), Hit Rate (% of content hitting 2x+ average performance on data-validated topics).
+Design tracking for the five operational metrics plus: the outcome ladder (email conversions/qualified leads > relevant followers > views), evidence class (`PRIVATE_OUTCOME`, `OWNED_PROXY`, `PUBLIC_PROXY`), cohort rejection rate, and owned-data transition checks at 10 and 20 posts. Automated intake may use 5x outlier and 2% engagement thresholds, but automated promotion into creative production is prohibited.
 
 ## Output Contract
 
@@ -68,7 +73,7 @@ Deliver the **AI Content Operations System** with exactly these seven components
 3. Role Assignment Matrix — who does what, with AI augmentation level per role
 4. Workflow Chain Library — 4+ production chains for different content types
 5. Weekly Calendar Template — day-by-day production rhythm with AI/human allocation
-6. Measurement Dashboard — 5 key metrics with targets and tracking method
+6. Measurement Dashboard — operational metrics, outcome ladder, evidence class, cohort rejection, and ownership-transition checks
 7. Tool Stack Recommendation — specific AI tools for each workflow phase
 
 ## Output Skeleton
@@ -106,6 +111,9 @@ Dataset Compound Rate | 5+ | [method]
 Creative Drain Score | 8+/10 | [method]
 Pipeline Velocity | <7 days | [method]
 Hit Rate | [X]% | [method]
+Outcome Ladder | conversions/leads > relevant followers > views | [method]
+Cohort Rejection Rate | [X]% | [method]
+Ownership Transition | checkpoints at 10 and 20 posts | [method]
 
 ## 7. Tool Stack Recommendation
 | Workflow Phase | Tool | Why |
@@ -119,6 +127,9 @@ Hit Rate | [X]% | [method]
 - Does the system explicitly handle 2x volume growth without requiring a redesign?
 - Does every team member/role have unambiguous clarity on what they do vs. what AI does?
 - Do all 5 measurement metrics have a concrete tracking mechanism, not just a target number?
+- Are views explicitly prevented from standing in for demand, conversion, or revenue?
+- Does the system reduce competitor weighting as the owned corpus reaches 10-20 posts?
+- Are automated 5x/2% filters limited to intake, with human creative promotion preserved?
 - Is dedicated creative reaction time explicitly blocked and protected in the weekly calendar?
 
 ## Deploy When

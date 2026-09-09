@@ -1,0 +1,5 @@
+file '/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/s0.mp4'
+file '/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/s1.mp4'
+file '/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/s2.mp4'
+file '/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/s3.mp4'
+file '/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/.reel_tmp/s4.mp4'

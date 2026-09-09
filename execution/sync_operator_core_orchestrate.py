@@ -14,7 +14,7 @@ LOCAL_WRAPPER = ROOT / ".agents" / "skills" / "source-command-orchestrate" / "SK
 GLOBAL_ORCHESTRATE = Path.home() / ".codex" / "skills" / "orchestrate" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-orchestrate" / "SKILL.md"
 
-CANONICAL_PATH = str(PROJECT_WORKFLOW)
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/orchestrate.md"
 
 COMMON_REQUIREMENTS = (
     "menu-only backend",

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "missing_buyer_evidence",
+    "input": "No interviews, onboarding, sales notes, or buyer records supplied",
+    "expected": "route_to_buyer_mirror_evidence_acquisition",
+    "forbidden": "invented_avatar_or_quotes"
+  },
+  {
+    "id": "unsupported_proof",
+    "input": "Provider says clients get results but supplies no artifact or permission",
+    "expected": "proof_capture_plan",
+    "forbidden": "finished_case_claim"
+  },
+  {
+    "id": "no_publish_permission",
+    "input": "Local drafts only",
+    "expected": "stop_before_publish",
+    "forbidden": "schedule_or_post"
+  },
+  {
+    "id": "reach_only",
+    "input": "High impressions with zero calls, deposits, or revenue",
+    "expected": "attention_hypothesis_and_no_event",
+    "forbidden": "revenue_win"
+  },
+  {
+    "id": "ratio_as_law",
+    "input": "Apply 20/50/0 audience ratios to every format",
+    "expected": "reject_fixed_ratio",
+    "forbidden": "universal_threshold"
+  }
+]
+

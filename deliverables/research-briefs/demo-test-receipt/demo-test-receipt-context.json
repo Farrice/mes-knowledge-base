@@ -1,0 +1,41 @@
+{
+  "slug": "demo-test-receipt",
+  "title": "the workflow holds when the case gets ugly",
+  "compiled": "aug 13, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.html",
+  "brief_md": "deliverables/research-briefs/demo-test-receipt/demo-test-receipt-brief.md",
+  "paths": [
+    {
+      "path": "deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json",
+      "role": "test receipt"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py",
+      "role": "workflow source"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
+      "role": "synthetic fixtures"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py",
+      "role": "regression tests"
+    }
+  ],
+  "urls": []
+}

@@ -104,6 +104,48 @@ Every successful repositioning Oren profiles involved creative bravery that felt
 
 ---
 
+## Personal Brand Creative Direction Extension
+
+Source: Oren John, *Become the creative director of your personal brand* (`tUlkycPTZm0`, 22:15). Verified package: `extractions/video-context/tUlkycPTZm0/`. The additions below extend this skill into personal-brand operating behavior; the existing identity, team, taste, and world-building owners retain their scopes.
+
+### Strategy -> Operations -> Direction
+
+Oren separates three roles before judging the work. Creative strategy generates concepts, briefs them, reads analytics, and improves the flywheel. Content operations adds scheduling, people, vendors, and asset flow. Full creative direction contains both and owns aesthetics, campaign through-lines, brand meaning, collaborators, merchandising, and the world around the personality.
+
+**Deploy:** Build the Role Ladder before any 90-day plan. A request that expects one person to ideate, schedule, produce, analyze, style, and architect the world is a scope defect. Assign the missing owner rather than hiding the gap inside a heroic job description.
+
+### The World-Over-Account Test
+
+The core account matters less than the founder, team, creators, UGC, influencers, customers, places, objects, and participatory surfaces that collectively carry the brand. Creative direction therefore enables the network; it does not merely police a feed.
+
+**Deploy:** Run the account-loss test. If the main platform disappeared tomorrow, what people, owned surfaces, events, objects, relationships, and recurring stories would preserve recognition and trust? A world that dies with one handle is an account strategy, not a brand world.
+
+### The Biweekly Conversational Mine
+
+Every two weeks, mine niche news, recent life, camera-roll evidence, one/three/five-year memories, outlier formats, and one AI provocation in conversation with the founder. The disagreement, correction, and exact phrasing are the source material. Notes and AI can preserve or organize that material; they may not invent it.
+
+**Deploy:** Produce 8-15 concepts, then tier Priority / Middle / Backburner / Reject. At least three must come from lived history. Every concept crosses one recurring Topic, one executable Format, and one real Story about an event, person, or product.
+
+### Authority Before Attention
+
+Personal Brand 2.0 uses teaching, career growth, earning power, and intellectual influence as the value layer. Lifestyle and attention can support the world, but they cannot substitute for the capability the audience gains.
+
+**Deploy:** Write the authority promise before the visual direction: what does the audience become more capable of because this person exists? Aesthetic choices that cannot sharpen that answer are decoration.
+
+### The Direction Toolkit
+
+Sets, lighting, type, color behavior, title systems, styling, recurring objects, collaborators, events, and campaign sequencing are reusable direction infrastructure. Their job is not to look expensive. Their job is to make the person recognizable, the story more legible, participation easier, or the distribution surface more powerful.
+
+**Deploy:** Lock the smallest reusable grammar that works across three formats. Give styling a two-pole narrative axis. Require every recurring location or object to serve at least three assets. Apply Tease -> Unveil -> Launch -> Sustain to meaningful personal-brand moments.
+
+### Core Craft Before Full Direction
+
+Oren's career advice contains a structural truth: design, editing, copywriting, or another maker craft gives direction consequence. Strategy, briefing, and operations are layered on top of execution literacy; vocabulary alone does not confer the right to direct.
+
+**Deploy:** Name the operator's strongest craft, their adjacent weakness, and the first bounded direction responsibility they can credibly own. Full creative-direction scope expands only as the operator can make or directly review the artifacts they brief.
+
+---
+
 ## Anti-Patterns
 
 Each failure below is something Oren would catch on sight — decoration mistaken for structure. Before shipping a repositioning, ask: would Oren recognize this as his method, or as someone using his vocabulary without doing the work?
@@ -114,6 +156,11 @@ Each failure below is something Oren would catch on sight — decoration mistake
 - **Never approve a direction the client accepts without hesitation.** The uncomfortably-authentic test: "if the repositioning doesn't make the client uncomfortable, it's not far enough" — comfort means the work never left the existing category's codes. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #7 ("The Uncomfortably Authentic Test").
 - **Never ship a visual identity fans can't remix.** If a stranger can't generate content that belongs in the brand's world using only its visual codes, "the vision can't extend" — Oren treats un-remixable identity as a design failure, not a taste preference. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #1 ("The Sharability Prerequisite").
 - **Never structure a creative collaboration as a one-way commission.** The test for any partnership is "did both sides leave with more fame, recognition, and creative capability than they entered with?" — a hire where only the client benefits fails Oren's collaboration standard even if the output looks identical. Source: extractions/oren/extraction-report-repositioning.md, Pattern 8 ("Elevation Through Artistic Collaboration").
+- **Never call a content calendar creative direction.** If the work ends at topics, hooks, scripts, and analytics, it is Creative Strategy; if it adds schedules and vendors, it is Content Operations. Direction must own the visual and narrative through-line across people, campaigns, collaborators, and surfaces. Source: `extractions/video-context/tUlkycPTZm0/`, ~05:08-06:59.
+- **Never treat the main account as the whole brand.** Oren's source claim is that "the world is the core driver"; a plan with no founder/team/creator/customer, physical, or participatory surface has missed the operating premise. Source: `extractions/video-context/tUlkycPTZm0/`, ~07:07-09:31.
+- **Never use AI to fabricate founder history or unreviewed founder voice.** AI may provoke, retrieve, capture, and organize; the biweekly room exists to surface the founder's actual judgment and phrasing. Source: `extractions/video-context/tUlkycPTZm0/`, ~13:32-16:36; see also `oren-taste-development` AI no-go boundary.
+- **Never prescribe styling as attractiveness or trend compliance.** Styling is a narrative signal that must be identity-safe and founder-approved. Source: `extractions/video-context/tUlkycPTZm0/`, ~18:28-19:01.
+- **Never convert Oren's examples into promised outcomes.** The 20%/60% post-rate contrast, creator budgets, fee ranges, program sales, client history, and advertising allocations are speaker-reported examples. They do not prove reach, conversion, revenue, or participation for a new brand.
 
 ## Hall of Fame Exemplars
 

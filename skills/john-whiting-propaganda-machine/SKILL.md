@@ -17,7 +17,7 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 
 ## ⚡ START HERE — The Propaganda Engine OS
 
-[`jw-engine`](workflows/jw-engine.md) is the operating system: **point it at any objective** (content, offer, service, launch, raw idea) and it deploys the whole formula end to end — classifies the objective ([`references/objective-router.md`](references/objective-router.md)), grounds and infers instead of demanding inputs, runs the propaganda sequence, stacks the right craft experts, gates every asset, and ships finished work. It rides on `/autopilot` + `/copy-engine` + `/supercomputer` and the expert roster — wiring, not rebuilding. The 18 workflows below are its components; reach for them individually when you want one tool, or fire `jw-engine` to run the machine.
+[`jw-engine`](workflows/jw-engine.md) is the operating system: **point it at any objective** (content, offer, service, launch, raw idea) and it deploys the whole formula end to end — classifies the objective ([`references/objective-router.md`](references/objective-router.md)), grounds and infers instead of demanding inputs, runs the propaganda sequence, stacks the right craft experts, gates every asset, and ships finished work. It rides on `/autopilot` + `/copy-engine` + `/supercomputer` and the expert roster — wiring, not rebuilding. The 19 workflows below are its components; reach for them individually when you want one tool, or fire `jw-engine` to run the machine.
 
 **`jw-engine` vs `jw-propaganda-machine`:** `jw-engine` takes *any* objective and picks the sequence; `jw-propaganda-machine` is *specifically* the sell-without-calls sequence — which `jw-engine` itself calls when it classifies a PIPELINE/OFFER objective. Start with `jw-engine` unless you already know you want the full no-calls build.
 
@@ -29,6 +29,7 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 | Workflow | Use when |
 |---|---|
 | [`jw-propaganda-machine`](workflows/jw-propaganda-machine.md) ★ | You want content to close sales with no calls — the hero orchestrator, sequences the sub-tools end to end |
+| [`jw-three-asset-close`](workflows/jw-three-asset-close.md) | You want a compact Model -> Machine -> Invite path that educates, qualifies, and closes a considered-purchase buyer asynchronously |
 | [`jw-objection-arsenal`](workflows/jw-objection-arsenal.md) | Prospects keep objecting/ghosting — mine every objection, convert each into a force-fed content asset |
 | [`jw-the-map`](workflows/jw-the-map.md) | The business feels off / vague — run the 7-component Point A→B diagnostic + reverse-engineer the track |
 | [`jw-data-bottleneck`](workflows/jw-data-bottleneck.md) | You don't know what to work on next — "what does the data say?" find the ONE right bottleneck |
@@ -74,6 +75,7 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 - **The one question:** "What does the data say to do?" (never "what do I feel like doing?")
 - **The bait-switch:** Sell them what they want, give them what they need.
 - **The inversion:** Move objection-handling OUT of the call and INTO content.
+- **The compact close:** Model sells the shift; Machine sells the vehicle; Invite qualifies the right buyer into an async decision.
 - **The filter:** Polarize. Tell wrong-fits to leave; tell your people "you're my people."
 - **The frequency:** 5×/day warmest (~600), 2×/week mid (~1,000), testimonial-led TOF.
 - **The voice rule:** Keep the confrontational spine. Cleaning the profanity is fine; neutering the confrontation defeats the mechanism.
@@ -88,16 +90,19 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 
 ## Execution Prompts (structure-pure v2)
 
-18 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+22 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **BIG DOMINO INSTALL KIT — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/big-domino-install-kit.md`
 - **DRIVER PROTOCOL — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/comfort-line-driver-protocol.md`
 - **CONTENT CADENCE BUILD — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/content-cadence-build.md`
 - **ONE-BOTTLENECK READ-OUT — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/data-bottleneck-readout.md`
 - **ETHICS GATE SCORECARD — [OPERATOR/ASSET SET]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/ethics-gate-scorecard.md`
+- **INVITE — [OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/invite-decision-document.md`
 - **LEAN-BACK CLOSE PLAYBOOK — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/lean-back-close-playbook.md`
 - **LURKER FUNNEL BUILD SHEET — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/lurker-funnel-build-sheet.md`
+- **MACHINE — [TITLE]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/machine-inspection-video.md`
 - **MAP DIAGNOSTIC — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/map-diagnostic.md`
+- **MODEL — [TITLE]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/model-belief-shift-video.md`
 - **OBJECTION ARSENAL LIBRARY — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/objection-arsenal-library.md`
 - **OFFER OPTIMIZER PACK — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/offer-optimizer-pack.md`
 - **ONE BEST CLIENT BRIEF — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/one-best-client-brief.md`
@@ -108,5 +113,6 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 - **TONE & AWARENESS LADDER BRIEF — [OPERATOR/OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/tone-awareness-ladder-brief.md`
 - **ENGINEERED BUSINESS-VEHICLE SPEC — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/vehicle-engineer-spec.md`
 - **WEALTHY COACH PLAN — [OPERATOR]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/wealthy-coach-plan.md`
+- **ZERO-CALL CLOSE PATH — [OFFER]** — `skills/john-whiting-propaganda-machine/references/prompts-v2/zero-call-close-path.md`
 
 <!-- END:execution-prompts -->

@@ -1,0 +1,360 @@
+{
+  "slug": "jen-brand-throughline-analytics",
+  "chip": "JEN SANTULAN · BRAND ANALYTICS",
+  "title": "the true *throughline*",
+  "dek": "The data does not support inventing another niche. It supports one experience promise: Jen makes people feel informed, protected, and taken care of because the whole move feels handled.",
+  "window": "90-day private Insights + 96-post public corpus",
+  "lens": "attention · trust · intent · experience",
+  "sources": "324 posts · 120 comments · private Insights",
+  "compiled": "sep 3, 2026",
+  "footer_left": "JEN SANTULAN · INTERNAL STRATEGY",
+  "footer_right": "DECISION BRIEF",
+  "category": "client: Jen Santulan",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the *correction*",
+      "kicker": "ONE PERSON, NOT FIVE NICHES",
+      "body": "Jen should not perform a crime-scene character, a market-pundit character, or a collection of clever franchises. Her differentiation is the experience of being represented by her: she notices what matters, explains it plainly, protects the decision, coordinates the next step, and lowers the emotional load.\n\nThe creative formats can change. The promise cannot."
+    },
+    {
+      "kind": "stats",
+      "heading": "what the numbers *say*",
+      "tag": "DESCRIPTIVE, NOT CAUSAL",
+      "items": [
+        {
+          "value": "197,425",
+          "label": "90D VIEWS",
+          "note": "attention already exists"
+        },
+        {
+          "value": "0.80%",
+          "label": "VIEW → PROFILE",
+          "note": "1,589 profile visits"
+        },
+        {
+          "value": "0.006%",
+          "label": "VIEW → LINK",
+          "note": "12 link taps"
+        },
+        {
+          "value": "2.1×",
+          "label": "LIFE-FIRST LIFT",
+          "note": "median likes vs property-first"
+        },
+        {
+          "value": "1 / 96",
+          "label": "EXPLICIT COMMENT CTA",
+          "note": "the handoff is nearly absent"
+        },
+        {
+          "value": "5.45×",
+          "label": "FEED SHARE EFFICIENCY",
+          "note": "interaction share ÷ view share"
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "how one personality becomes a *lead path*",
+      "caption": "Each surface has one job. The problem was asking every post to do all five.",
+      "steps": [
+        {
+          "title": "Her life opens the door",
+          "note": "Personal and feeling-first content earns recognition and reach."
+        },
+        {
+          "title": "Plain clarity earns trust",
+          "note": "She translates the street, number, choice, and tradeoff without performing expertise."
+        },
+        {
+          "title": "Visible care proves the experience",
+          "note": "Show what she anticipated, protected, coordinated, or removed from the client's plate."
+        },
+        {
+          "title": "Stories let people raise a hand",
+          "note": "Questions and replies turn private concern into permission for a conversation."
+        },
+        {
+          "title": "DM makes the promise real",
+          "note": "Send the street, the number, or what changed; Jen takes the next step from there."
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the thread line in the *evidence*",
+      "tag": "OBSERVATION → DECISION",
+      "rows": [
+        {
+          "claim": "Attention is not the primary problem",
+          "evidence": "Jen generated 197,425 views and reached 38,275 viewers in the 90-day private Insights window. The account is being seen.",
+          "source_label": "Jen Instagram Insights · 90 days",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Jen's human lens is the strongest discovery asset",
+          "evidence": "The audited personal/life-first set produced a 161-like median versus 78 for property-first posts, a 2.1× gap. Every bottom-quartile post in the accessible outlier window used the property as beat one.",
+          "source_label": "Jen outlier audit · accessible post sample",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "She does not lack proof; she lacks packaging",
+          "evidence": "Proof or result language appeared in 25 of Jen's 96 public captions (26.0%), versus 19 of 96 for Coffee & Contracts (19.8%). Jen has material to work with, but it is not consistently framed as the experience of being her client.",
+          "source_label": "96 vs 96 caption corpus",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The lead handoff is the clearest gap",
+          "evidence": "Only 1 of Jen's 96 captions used an explicit comment CTA. Across the private 90-day window, 1,589 profile visits produced 12 link taps. Content often ends before the viewer is given a natural next step.",
+          "source_label": "96-post corpus + private Insights",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Feed posts deserve a bigger job",
+          "evidence": "Feed posts generated only 3.1% of views but 16.9% of interactions. That is a 5.45 interaction-share efficiency index, directionally suggesting the feed is an underused depth and proof surface.",
+          "source_label": "Jen Instagram Insights · format shares",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "Local and cultural content creates better conversation than keyword capture alone",
+          "evidence": "In the 120-comment benchmark sample, local history, neighborhood, architecture, and balanced-market posts produced 60%–100% substantive-comment rates in their sampled sets. The keyword-guide post produced 0 substantive comments and 11 of 15 keyword-only comments.",
+          "source_label": "Local benchmark comment sample · n=120",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "bars",
+      "heading": "what earns *attention*",
+      "tag": "MEDIAN LIKES · AUDITED SAMPLE",
+      "caption": "Jen's life and emotional lens should open more posts; the home becomes beat two.",
+      "series": [
+        {
+          "label": "personal / life-first",
+          "note": "161 median likes",
+          "values": [161]
+        },
+        {
+          "label": "property-first",
+          "note": "78 median likes",
+          "values": [78]
+        }
+      ]
+    },
+    {
+      "kind": "bars",
+      "heading": "proof exists; the *handoff* does not",
+      "tag": "SHARE OF 96 PUBLIC CAPTIONS",
+      "caption": "Coffee & Contracts' visible advantage is not more proof. It is repeated conversion architecture.",
+      "series": [
+        {
+          "label": "Jen · proof / result language",
+          "note": "25 of 96 captions",
+          "values": [26.0]
+        },
+        {
+          "label": "Coffee & Contracts · proof / result language",
+          "note": "19 of 96 captions",
+          "values": [19.8]
+        },
+        {
+          "label": "Jen · explicit comment CTA",
+          "note": "1 of 96 captions",
+          "values": [1.0]
+        },
+        {
+          "label": "Coffee & Contracts · explicit comment CTA",
+          "note": "55 of 96 captions",
+          "values": [57.3]
+        }
+      ]
+    },
+    {
+      "kind": "matrix",
+      "heading": "the content *portfolio*",
+      "axes": {
+        "x": "more buyer / seller intent →",
+        "y": "↑ more attention / connection"
+      },
+      "quads": [
+        {
+          "label": "Lead with this",
+          "items": [
+            {
+              "name": "Life-first, real estate second",
+              "note": "A real Jen moment opens the post; her judgment gives it utility."
+            },
+            {
+              "name": "Local life with a decision inside it",
+              "note": "A street, routine, or Valley observation that helps someone choose."
+            }
+          ]
+        },
+        {
+          "label": "Deepen trust here",
+          "items": [
+            {
+              "name": "Client-experience proof",
+              "note": "What Jen handled, anticipated, translated, or protected."
+            },
+            {
+              "name": "Clear next-step posts",
+              "note": "What happens now, what can wait, and what she will do."
+            }
+          ]
+        },
+        {
+          "label": "Use with a bridge",
+          "items": [
+            {
+              "name": "Pure personal or culture",
+              "note": "Excellent recognition; add a business bridge only when it is honest."
+            },
+            {
+              "name": "Local discovery",
+              "note": "Creates conversation, then Stories or DM carries the lead path."
+            }
+          ]
+        },
+        {
+          "label": "Reduce or reframe",
+          "items": [
+            {
+              "name": "Property-first tours",
+              "note": "Low differentiation unless tied to a real person's decision."
+            },
+            {
+              "name": "Agent humor and keyword theater",
+              "note": "Can inflate reaction without proving buyer or seller intent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "three angles — one *brand*",
+      "kicker": "RECOMMENDATION",
+      "dek": "These should stack instead of competing. The promise is emotional, the proof is operational, and the CTA is concrete.",
+      "items": [
+        {
+          "action": "1. Brand promise — The whole move feels handled",
+          "why": "Best match for Jen's actual service: warm, anticipatory, protective, and low-friction. It is broad enough for buyers and sellers, but must be proven through specific client moments so it does not become generic luxury language."
+        },
+        {
+          "action": "2. Content proof — You'll always know what happens next",
+          "why": "Turns informing and empowering into a repeatable editorial standard. Every useful post should reduce uncertainty, clarify a choice, or show how Jen lowers the load."
+        },
+        {
+          "action": "3. Lead invitation — Send me the street or the number",
+          "why": "Makes the next action feel like Jen: specific, calm, and useful. It can serve buyers now, while seller variants use 'send me what changed' or 'send me the move you're trying to make.'"
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "five recurring proof *moments*",
+      "caption": "Internal story jobs, not public-facing franchise names.",
+      "steps": [
+        {
+          "title": "Before you have to ask",
+          "note": "The thing Jen anticipates or handles early."
+        },
+        {
+          "title": "Here is what happens next",
+          "note": "A calm, plain-language sequence for a real decision."
+        },
+        {
+          "title": "Why I told them to pause",
+          "note": "Protective judgment without fear, diagnosis, or pressure."
+        },
+        {
+          "title": "The part they did not have to carry",
+          "note": "The coordination and emotional load Jen removed."
+        },
+        {
+          "title": "A real street, a real number",
+          "note": "Local authority made concrete and useful."
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "what to *stop* doing",
+      "kicker": "KILL / PARK",
+      "items": [
+        {
+          "action": "Kill the crime-scene angle",
+          "why": "It is anxiety-heavy, costume-like, and asks Jen to play a personality she does not have. It also invites professional and brand risk."
+        },
+        {
+          "action": "Park public franchise names",
+          "why": "The system may use repeatable structures internally, but the audience should experience one Jen—not a menu of branded concepts."
+        },
+        {
+          "action": "Stop treating reach as lead proof",
+          "why": "Views and comments are attention signals. A qualified DM, property review, consultation, or client conversation is the lead-path event."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this still cannot *prove*",
+      "body": "The 30-day Insights window sits inside the 90-day window. It is a recent snapshot, not an independent before-and-after cohort.\n\nThe feed efficiency number is interaction share divided by view share, not a conventional per-post engagement rate. It is directional.\n\nPost-level saves, shares, qualified DMs, appointments, signed clients, and closed revenue are incomplete. No content angle is yet proven to generate clients.\n\nThe promise should be 'the move feels handled,' not a literal guarantee that Jen personally performs every specialist's work.\n\nLocal content must remain compliant with fair-housing rules and avoid ranking neighborhoods for protected classes."
+    },
+    {
+      "kind": "related",
+      "heading": "source trail",
+      "tag": "OPEN THE EVIDENCE",
+      "links": [
+        {
+          "k": "AUDIT",
+          "title": "Instagram lead-path audit",
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md"
+        },
+        {
+          "k": "CURRENT PLAYBOOK",
+          "title": "Winning-agent playbook — preserved pending correction",
+          "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md"
+        },
+        {
+          "k": "VOICE",
+          "title": "Jen voice profile",
+          "path": "_active/clients/jen-listings/brand_context/voice-profile.md"
+        },
+        {
+          "k": "ICP",
+          "title": "Jen buyer and seller context",
+          "path": "_active/clients/jen-listings/brand_context/icp.md"
+        }
+      ]
+    }
+  ],
+  "context": [
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-lead-path-audit.md",
+      "role": "primary analytics audit"
+    },
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/2026-09-03-jen-instagram-winning-agent-playbook.md",
+      "role": "current playbook preserved for revision"
+    },
+    {
+      "path": "_active/clients/jen-listings/brand_context/voice-profile.md",
+      "role": "client voice and service promise"
+    },
+    {
+      "path": "_active/clients/jen-listings/brand_context/icp.md",
+      "role": "buyer and seller context"
+    }
+  ],
+  "meta": {
+    "client": "Jen Santulan",
+    "status": "decision brief",
+    "evidence_window": "2026-09-03 analysis",
+    "positioning_verdict": "experience promise + operational proof + concrete invitation",
+    "recommendation": "The whole move feels handled"
+  }
+}

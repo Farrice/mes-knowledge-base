@@ -39,6 +39,8 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO_ROOT / "execution"))
+from tool_event import normalize_event, event_status, response_text, full_read_paths, produced_paths, relative_path, command_invokes
 SESSIONS_DIR = REPO_ROOT / ".agent" / "sessions"
 OBSERVE_LOG = SESSIONS_DIR / "observe-log.jsonl"
 MISSES_LOG = REPO_ROOT / "evolution_store" / "sub_agent_misses.jsonl"
@@ -455,18 +457,71 @@ def handle_prompt(payload: dict) -> None:
 # ──────────────────────────────────────────────────────────────────
 # posttool
 # ──────────────────────────────────────────────────────────────────
+def _invokes(payload: dict, script: str, action: str | None = None) -> bool:
+    tin = payload["tool_input"]
+    return command_invokes(str(tin.get("command", "")), script, action,
+                           root=REPO_ROOT,
+                           cwd=Path(str(tin.get("workdir") or payload.get("cwd") or REPO_ROOT)))
+
+
 def handle_posttool(payload: dict) -> None:
+    payload = normalize_event(payload)
     session_id = payload.get("session_id", "unknown")
     tool = payload.get("tool_name", "")
     tin = payload.get("tool_input") or {}
     ledger = _load(session_id)
-    changed = False
+    response = payload.get("tool_response")
+    pending = ledger.setdefault("shell_sessions", {})
+    if tool == "shell_poll":
+        shell_id = str(tin.get("session_id", ""))
+        original = pending.get(shell_id, {})
+        payload["tool_name"] = tool = "Bash"
+        payload["tool_input"] = tin = original.get("tool_input", {"command": ""})
+        payload["cwd"] = original.get("cwd", payload.get("cwd"))
+        # Polling proves completion but does not prove the model saw a whole
+        # file across chunks. Keep those reads partial until independently read.
+        if isinstance(response, dict):
+            payload["tool_response"] = response = {**response, "truncated": True}
+        completed = ledger.setdefault("completed_shell_sessions", [])
+        if shell_id and shell_id in completed:
+            sys.exit(0)
+        if isinstance(response, dict) and isinstance(response.get("exit_code"), int):
+            pending.pop(shell_id, None)
+            ledger["completed_shell_sessions"] = (completed + [shell_id])[-40:]
+    elif tool == "Bash" and isinstance(response, dict) and response.get("session_id") is not None and response.get("exit_code") is None:
+        pending[str(response["session_id"])] = {"tool_input": tin, "cwd": payload.get("cwd")}
+        ledger["shell_sessions"] = dict(list(pending.items())[-40:])
+    status = event_status(payload)
+    event_id = payload.get("tool_use_id") or payload.get("call_id")
+    # Some providers replay delivery. Dedupe only when a real event identity
+    # exists; identical commands without IDs can be legitimate repeated work.
+    record_key = f"{event_id}:{status}" if event_id else None
+    records = ledger.setdefault("execution_records", [])
+    if record_key and any(r.get("key") == record_key for r in records):
+        sys.exit(0)
+    observed_paths = produced_paths(payload)
+    record = {"tool": payload.get("native_tool_name", tool), "status": status,
+              "at": _now(), "paths": observed_paths}
+    if record_key:
+        record["key"] = record_key
+    response = payload.get("tool_response")
+    if isinstance(response, dict) and isinstance(response.get("exit_code"), int):
+        record["exit_code"] = response["exit_code"]
+    ledger["execution_records"] = (records + [record])[-80:]
+    changed = True
     loaded_expert_skill = None
+    full_paths = full_read_paths(payload)
+    record["full_read_paths"] = full_paths
+    if status in ("unknown", "running"):
+        _save(ledger)
+        sys.exit(0)
 
     # ── manifest: pure observation, never debt, never blocks ──────────────
     try:
-        if tool == "Read":
-            _fp = str(tin.get("file_path", ""))
+        for _path in full_paths:
+            _fp = relative_path(_path, payload, REPO_ROOT)
+            if _fp is None:
+                continue
             _m = _mf(ledger)
             _m["reads_total"] = int(_m.get("reads_total", 0)) + 1
             changed = True
@@ -482,29 +537,31 @@ def handle_posttool(payload: dict) -> None:
             _dr = re.search(r"/directives/([^/]+)\.md$", _fp)
             if _dr:
                 _mf_add(ledger, "directives_read", _dr.group(1))
-        elif tool == "Skill":
+        if tool == "Skill" and status == "succeeded":
             _mf_add(ledger, "skill_tool_calls", str(tin.get("skill", "")))
             changed = True
-        elif tool == "Bash":
+        elif tool == "Bash" and status == "succeeded":
             _c = str(tin.get("command", ""))
             for _sig, _label in GATE_SIGNATURES.items():
-                if _sig in _c and _mf_add(ledger, "gates_run", _label):
+                if _invokes(payload, _sig) and _mf_add(ledger, "gates_run", _label):
                     changed = True
-        elif tool.startswith("mcp__recall__"):
+        elif tool.startswith("mcp__recall__") and status == "succeeded":
             _m = _mf(ledger)
             _m["recall_calls"] = int(_m.get("recall_calls", 0)) + 1
             changed = True
     except Exception:
         pass
 
-    if tool == "Read":
-        fp = str(tin.get("file_path", ""))
+    for path in full_paths:
+        fp = relative_path(path, payload, REPO_ROOT)
+        if fp is None:
+            continue
         m = re.search(r"/skills/([^/]+)/(SKILL|genius|lens-card)\.md$", fp)
         if m and _is_expert_skill(m.group(1)):
             _add_debt(ledger, "skill_loaded", m.group(1))
-            loaded_expert_skill = m.group(1)
-            changed = True
-    elif tool == "Skill":
+            if _reconcile_routing_feedback(ledger, m.group(1)):
+                changed = True
+    if tool == "Skill" and status == "succeeded":
         name = str(tin.get("skill", "")).split(":")[-1]
         if name == "handoff":
             ledger["handoff_pending"] = True
@@ -513,21 +570,19 @@ def handle_posttool(payload: dict) -> None:
             _add_debt(ledger, "skill_loaded", name)
             loaded_expert_skill = name
             changed = True
-    elif tool in ("Write", "Edit", "NotebookEdit"):
-        fp = str(tin.get("file_path", tin.get("notebook_path", "")))
-        if fp and not INTERNAL_WRITE.search(fp):
-            ledger["produced"] = True
-            if fp not in ledger["produced_paths"]:
-                ledger["produced_paths"] = (ledger["produced_paths"] + [fp])[-10:]
-            changed = True
-            # Birth-wiring detection: verify new assets have firing paths
-            try:
-                _detect_birth_wiring(fp)
-            except Exception:
-                pass
-    elif tool in ("Task", "Agent"):
+    elif tool in ("Write", "Edit", "NotebookEdit", "apply_patch"):
+        for fp in observed_paths:
+            relative = relative_path(fp, payload, REPO_ROOT)
+            if relative and not INTERNAL_WRITE.search(relative):
+                ledger["produced"] = True
+                if fp not in ledger["produced_paths"]:
+                    ledger["produced_paths"] = (ledger["produced_paths"] + [fp])[-10:]
+                try:
+                    _detect_birth_wiring(fp)
+                except Exception:
+                    pass
+    elif tool in ("Task", "Agent", "spawn_agent") and status == "succeeded":
         ledger["subagent_spawns"] += 1
-        changed = True
     elif tool == "Bash":
         tool_response = payload.get("tool_response", "")
         blob = json.dumps(tool_response) + str(tin.get("command", ""))
@@ -542,7 +597,7 @@ def handle_posttool(payload: dict) -> None:
         # comparison (session_ledger_report), never satisfying a skill_loaded
         # expectation. Fail-safe: pure detection, never raises.
         try:
-            if re.search(r"\b(grep|rg|sed|awk|head|tail|cat)\b", _cmd):
+            if status == "succeeded" and not full_paths and re.search(r"\b(grep|rg|sed|awk|head|tail|cat)\b", _cmd):
                 for _sk in set(re.findall(r"skills/([a-z0-9\-]+)/(?:genius|lens-card|SKILL)\.md", _cmd)):
                     if _is_expert_skill(_sk) and not any(
                         d["type"] in ("skill_loaded", "skill_grepped") and d["name"] == _sk
@@ -574,24 +629,8 @@ def handle_posttool(payload: dict) -> None:
         #   3. Fallback ONLY when that field is absent: conservative marker
         #      match against the RESPONSE OUTPUT (stdout+stderr fields only).
         #      Never the command text — `grep -rn "Error:"` must not self-flag.
-        _resp = tool_response if isinstance(tool_response, dict) else None
-        _resp_out = ((str(_resp.get("stdout", "")) + "\n" + str(_resp.get("stderr", "")))
-                     if _resp is not None else str(tool_response))
-        _is_error = None
-        if _resp is not None:
-            if _resp.get("interrupted") is True:
-                _is_error = True
-            else:
-                _rci = _resp.get("returnCodeInterpretation")
-                if isinstance(_rci, str) and _rci:
-                    _is_error = _rci.startswith("Command failed")
-        if _is_error is None:
-            _fail_markers = (
-                "command not found", "Traceback (most recent call last)",
-                "Error:", "FAILED", "fatal:", "No such file or directory",
-                "Permission denied", "ModuleNotFoundError", "SyntaxError",
-            )
-            _is_error = any(marker in _resp_out for marker in _fail_markers)
+        _resp_out = response_text(payload)
+        _is_error = status == "failed"
 
         if _is_error:
             ledger["bash_fail_streak"] = ledger.get("bash_fail_streak", 0) + 1
@@ -612,22 +651,22 @@ def handle_posttool(payload: dict) -> None:
         # the response output must carry the marker at line start — so
         # cat-ing/grep-ing a file that merely CONTAINS the marker text can
         # never false-clear real debt.
-        if ("solution_recorder.py" in _cmd and "save" in _cmd
+        if (status == "succeeded" and _invokes(payload, "solution_recorder.py", "save")
                 and re.search(r"^SOLUTION CARD SAVED: docs/solutions/", _resp_out, re.MULTILINE)):
             if ledger.get("learning_debt"):
                 ledger["learning_debt"] = []
             ledger["solution_cards_saved"] = ledger.get("solution_cards_saved", 0) + 1
             changed = True
 
-        if "chain_runner.py" in blob and "finalize" in blob:
-            if "CHAIN FINALIZE" in blob:
+        if _invokes(payload, "chain_runner.py", "finalize"):
+            if status == "succeeded" and re.search(r"^\s*CHAIN FINALIZE", _resp_out, re.M):
                 ledger["finalized_at"] = _now()
                 changed = True
             elif "FINALIZE FAILED" in blob:
                 ledger.setdefault("finalize_failures", 0)
                 ledger["finalize_failures"] += 1
                 changed = True
-        if "handoff_store.py" in blob and ("saved:" in blob or "already stored" in blob):
+        if status == "succeeded" and _invokes(payload, "handoff_store.py", "save") and re.search(r"^\s*(?:saved:|already stored)", _resp_out, re.M):
             ledger["handoff_pending"] = False
             ledger["handoff_saved_at"] = _now()
             # Any successful handoff save makes the work recoverable by name in
@@ -641,18 +680,18 @@ def handle_posttool(payload: dict) -> None:
         # chain_runner's auto-pin inside finalize (prints "CHAIN PINNED"). Keeps the
         # Stop hook's pin backstop quiet. Mirrors the finalize-detection pattern above.
         _pin_via_store = (
-            "handoff_store.py" in _cmd
+            status == "succeeded" and _invokes(payload, "handoff_store.py")
             and ("--pin" in _cmd or bool(re.search(r"handoff_store\.py\s+pin\b", _cmd)))
-            and ("annotated" in blob or ("pinned:" in blob and "unpinned:" not in blob))
+            and re.search(r"^\s*(?:annotated|pinned:)", _resp_out, re.M)
         )
-        if _pin_via_store or "CHAIN PINNED" in blob:
+        if _pin_via_store or (status == "succeeded" and _invokes(payload, "chain_runner.py", "finalize") and re.search(r"^\s*CHAIN PINNED", _resp_out, re.M)):
             ledger["session_pinned"] = True
             ledger["session_pinned_at"] = _now()
             changed = True
         # Closeout-spine detection — mirrors the finalize-detection pattern above.
         # Lets the SessionEnd hook backstop (session_end_hook.py) know the spine
         # already ran this session, so it doesn't re-run in degraded mode.
-        if "CLOSEOUT SPINE COMPLETE" in blob or "end_session_closeout.py" in _cmd:
+        if status == "succeeded" and _invokes(payload, "end_session_closeout.py") and re.search(r"^CLOSEOUT SPINE COMPLETE", _resp_out, re.M):
             ledger["closeout_ran"] = True
             changed = True
 
@@ -801,6 +840,56 @@ def handle_stop(payload: dict) -> None:
             pass
         print(f"[ledger observe] {ld_reason}", file=sys.stderr)
         # fall through — this never blocks (observe-only per Farrice's ask)
+
+    # LIBRARIAN: file the session's work in the permanent catalog — every stop,
+    # both harnesses, zero commands (Farrice's ruling 2026-08-20: "if I don't
+    # run /go these things still need to happen"). Receipt-keyed (produced_paths),
+    # best-effort, never blocks.
+    if ledger.get("produced_paths") and not ledger.get("cataloged"):
+        try:
+            import subprocess
+            title, thread = _derive_title_thread(ledger)
+            subprocess.run(
+                [sys.executable, str(REPO_ROOT / "execution" / "work_catalog.py"),
+                 "add", thread, "--title", title],
+                capture_output=True, text=True, timeout=15, cwd=str(REPO_ROOT))
+            ledger["cataloged"] = True
+            _save(ledger)
+        except Exception:
+            pass  # the nightly merge is the safety net
+
+    # LIBRARIAN: narrate at death — the three lines only this session can write.
+    # Single-fire (narrative_asked), receipt-keyed, resolves the moment a real
+    # handoff_store save lands (that sets session_pinned above). Fires regardless
+    # of ENFORCE: Farrice's explicit 2026-08-20 ruling IS the re-arm decision the
+    # Compass requires ("this should be built in and work on its own"). A session
+    # that ignores it still exits on the next stop — the auto-pin stub below then
+    # carries the honest narrative-missing marker the briefs surface.
+    if (ledger.get("produced_paths") and not ledger.get("session_pinned")
+            and not ledger.get("narrative_asked") and not stop_active):
+        ledger["narrative_asked"] = True
+        _save(ledger)
+        title, thread = _derive_title_thread(ledger)
+        narr_reason = (
+            "LIBRARIAN — one deposit before you close (this is what makes the work "
+            "findable and resumable later; the catalog and mission briefs mine it):\n\n"
+            f"Write a SHORT handoff for thread `{thread}` with three sections —\n"
+            "  ## Purpose        (what this session was actually doing, one or two lines)\n"
+            "  ## Current State  (what moved · what is uncertain · latest proof)\n"
+            "  ## Remaining Priority  (the single next move)\n\n"
+            "Save it in one command (write the file to the temp dir first):\n"
+            f"    python3 execution/handoff_store.py save <file.md> --thread {thread} "
+            f"--slug {thread} --status active --hint \"<one-line resume hint>\"\n\n"
+            "Then stop again — this fires once per session, never loops."
+        )
+        try:
+            with open(OBSERVE_LOG, "a") as f:
+                f.write(json.dumps({"ts": _now(), "session_id": session_id,
+                                    "event": "narrative_asked", "thread": thread}) + "\n")
+        except Exception:
+            pass
+        print(json.dumps({"decision": "block", "reason": narr_reason}))
+        sys.exit(0)
 
     # Session AUTO-PIN backstop — independent of finalize debt. Fires when a durable
     # artifact shipped but no titled pin was recorded (chain_runner.finalize /

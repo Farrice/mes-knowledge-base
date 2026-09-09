@@ -1,0 +1,27 @@
+{
+  "shortform-marketing": {
+    "label": "Short-form Marketing",
+    "seeds": [
+      "@kallawaymarketing",
+      "@AlexHormozi",
+      "@GaryVee"
+    ]
+  },
+  "farrice-parallax": {
+    "label": "Supplement & Performance Brand Growth",
+    "seeds": [
+      "@DavieFogarty",
+      "@foundr",
+      "@chewonthisdtc",
+      "@SabriSubyOfficial",
+      "@suplifulofficial",
+      "@mywifequitherjob",
+      "@learnwithshopify",
+      "@kallaway",
+      "@AlexHormozi",
+      "@ChaseChappell",
+      "@MarketingOperators",
+      "@commonthreadco"
+    ]
+  }
+}

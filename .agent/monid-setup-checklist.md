@@ -71,7 +71,7 @@ Codex uses its own MCP configuration. Add Monid:
 3. Add credit card or prepaid balance
 4. **Suggested**: Start with $10 (good for ~300+ exploratory queries)
 
-**Note**: Cost-gate will allow up to $5.00 per query (approve via token for higher). Monthly cap: $25.00.
+**Note**: Every paid run is quoted. Up to $0.50 passes locally, above $0.50 requires explicit approval, no task or tranche may exceed $3.00, and the monthly hard stop is $10.00.
 
 ---
 
@@ -108,10 +108,10 @@ python3 execution/monid_client.py budget-status         # should show GREEN
 
 ## Safety Nets
 
-- **Monthly budget**: $25.00 (auto-resets 1st of month)
-- **Per-run cap**: $5.00 (override with approval token: `cost_gate.py approve --service monid --minutes 15`)
-- **Cost-gate hook**: Pre-flight gate on all monid_client.py calls
-- **Fallback**: If budget exhausted, route to Apify or Perplexity per `directives/monid-usage-policy.md`
+- **Monthly hard stop**: $10.00 (auto-resets 1st of month)
+- **Per-task/tranche cap**: $3.00; explicit approval required above $0.50
+- **Cost-gate hook**: Pre-flight gate on paid `monid run` only; discovery, inspection, balance, quote, and status are free
+- **Fallback**: Narrow the task or use open-web research. Apify is not an active fallback.
 
 **Cost tracking**: Every query logged to `.agent/monid-usage.json` (actual cost from Monid response).
 

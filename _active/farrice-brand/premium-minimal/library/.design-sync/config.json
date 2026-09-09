@@ -1,0 +1,27 @@
+{
+  "pkg": "@farrice/premium-minimal",
+  "globalName": "FarricePremiumMinimal",
+  "projectId": "077c3fae-5aa2-452e-8e92-073c33c6abc2",
+  "shape": "package",
+  "buildCmd": "npm run build",
+  "srcDir": "src",
+  "tsconfig": "tsconfig.json",
+  "cssEntry": "dist/premium-minimal.css",
+  "docsDir": "docs",
+  "guidelinesGlob": ["dist/guidelines/*.md"],
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "Surface": { "cardMode": "column" },
+    "Grid": { "cardMode": "column" },
+    "Column": { "cardMode": "column" },
+    "DecisionLine": { "cardMode": "column" },
+    "Masthead": { "cardMode": "column" },
+    "FieldIndex": { "cardMode": "column" },
+    "Display": { "cardMode": "column" },
+    "FunctionalLabel": { "cardMode": "column" },
+    "Secondary": { "cardMode": "column" },
+    "RouteSet": { "cardMode": "column" },
+    "ProofBoundary": { "cardMode": "column" },
+    "DarkRecommendation": { "cardMode": "column" }
+  }
+}

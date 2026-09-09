@@ -78,6 +78,15 @@ Every skill system must define these fields before it is treated as deployed:
 - **Open risk**: [none or exact limitation]
 ```
 
+## Recipient-Native Handoff (SHADOW)
+
+Use `signal-fidelity-minimal-contract.md` only to prevent material execution
+loss. Human collaborators receive the natural handoff and public readers
+receive the native artifact unchanged. An AI agent may receive the bounded
+six-field execution capsule when a must-survive instruction, limit, proof
+state, owner, or stop condition could otherwise be lost. Do not show a second
+receipt when the native handoff already carries the meaning.
+
 ## Context Policy
 
 - Keep orchestrator instructions compact and explicit.
@@ -119,4 +128,4 @@ The first pilot is `/source-to-skill-system`, grounded in `extractions/video-con
 
 ## Last Updated
 
-2026-08-08
+2026-09-01

@@ -388,15 +388,20 @@ def duplicate_reason(candidate: Candidate) -> str:
     entries = get_local_performance_entries()
     candidate_title = normalize(candidate.title)
     for entry in entries:
-        entry_title = normalize(str(entry.get("Output", "")))
+        entry_title = normalize(str(entry.get("output") or entry.get("Output") or ""))
         same_title = candidate_title and (candidate_title == entry_title or candidate_title in entry_title or entry_title in candidate_title)
-        same_workflow = candidate.workflow and candidate.workflow == entry.get("Workflow")
-        same_skill = candidate.skill and candidate.skill == entry.get("Skill")
-        same_source = candidate.source_artifact and candidate.source_artifact == entry.get("Source Artifact")
+        entry_workflow = entry.get("workflow") or entry.get("Workflow")
+        entry_skill = entry.get("skill") or entry.get("Skill")
+        entry_date = entry.get("date") or entry.get("Date") or ""
+        entry_id = entry.get("local_id") or entry.get("Local ID") or "existing entry"
+        same_workflow = candidate.workflow and candidate.workflow == entry_workflow
+        same_skill = candidate.skill and candidate.skill == entry_skill
+        entry_source = entry.get("source_artifact") or entry.get("Source Artifact")
+        same_source = candidate.source_artifact and candidate.source_artifact == entry_source
         if same_source or (same_title and (same_workflow or same_skill)):
-            return f"duplicate of {entry.get('Local ID', 'existing entry')}"
-        if same_workflow and entry.get("Date") >= (date.today() - timedelta(days=3)).isoformat():
-            return f"recent workflow already logged as {entry.get('Local ID', 'existing entry')}"
+            return f"duplicate of {entry_id}"
+        if same_workflow and entry_date >= (date.today() - timedelta(days=3)).isoformat():
+            return f"recent workflow already logged as {entry_id}"
     for row in read_jsonl(INBOX_PATH):
         if row.get("fingerprint") == candidate.fingerprint:
             return f"already in inbox as {row.get('draft_id', candidate.fingerprint)}"

@@ -1,0 +1,30 @@
+{
+  "slug": "realtor-pack-elevation",
+  "intent": "STAGE 1: offer cleanup - redesign the realtor-pack offer to be solo-deliverable, audience-suited, credibly promised, priced to what buyers pay. STAGE 2 (after Farrice verdict): elevate cold-touch copy on the cleaned offer.",
+  "serves": "revenue-5k-incumbency",
+  "parent": "realtor-pack-ignition",
+  "born_from_verdict": "reads well / not bad - elevation directive: more persuasive, psychologically driven, trigger-hitting; test waters under umbrella per Priestley before full build",
+  "launch_shape": "HYBRID (Farrice-approved): waitlist page public face (founding cohort cap 20) + direct founding-rate checkout offered to first repliers in outreach bump",
+  "route": "/copy-engine",
+  "pattern": "solo (one fresh pen)",
+  "tier": "T2",
+  "cost": "$0",
+  "expected_spawns": 2,
+  "stack": [
+    "alex-hormozi (grand slam offer)",
+    "jason-fladlien (offer anatomy)",
+    "alen-sultanic (primal positioning)",
+    "daniel-priestley-oversubscribed",
+    "jh-offer-audit"
+  ],
+  "pen_seat": "Opus 5 fresh-context executor",
+  "deliverable_paths": [
+    "_active/products/realtor-content-pack/03-storefront/05-waitlist-page.md",
+    "_active/products/realtor-content-pack/03-storefront/06-founding-checkout.md",
+    "_active/products/realtor-content-pack/05-outreach/03-outreach-scripts.md"
+  ],
+  "untouched": [
+    "04-deliverables/month-01-pack/ (post-purchase product)"
+  ],
+  "sequencing_reset": "Farrice 2026-08-24: no promises that do not make sense; offer must be pluggable and deliverable before copy elevation; solo operator - no massive community/user management"
+}

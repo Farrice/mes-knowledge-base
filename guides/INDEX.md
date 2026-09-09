@@ -9,6 +9,47 @@
 ## By use case
 
 | I want to… | Go to |
+| **Preserve operator intent across strategy, handoffs, and AI execution** | |
+| Keep a consequential premise intact without adding visible process everywhere | [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md) — recipient-specific, optional, non-blocking |
+| Verify that public content stays native and AI handoffs retain their boundaries | [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md) — `verify_signal_fidelity_minimal.py` |
+| **Build and choose a high-taste moodboard direction** | |
+| Turn a campaign, shoot, event, product, or other visual brief into three actual boards and a blind decision | [Mood-Board Orchestrator](2026-09-01-mood-board-orchestrator-repair.md) — `/mood-board` |
+| Turn brand discovery into three client-ready directions with proving-surface evidence | [Andrew Lane Design Systems](../.agent/workflows/andrew-lane-design-systems.md) — `/andrew-lane-design-systems` |
+| Check whether moodboard routing or ownership drifted | [Mood-Board Orchestrator](2026-09-01-mood-board-orchestrator-repair.md) — `verify_mood_board_orchestrator.py` |
+| **Resume the live Control-Beater buyer test without changing the offer** | |
+| Classify an acceptance, reply, decline, or no-event checkpoint and prepare the next manual message | [Control-Beater Buyer Test](2026-09-01-control-beater-buyer-test.md) — preserve the $500 test locks and stop before external send |
+| **Run content strategy / produce sellable strategy reports (Growth Blueprint OS)** | |
+| Run a full strategy engagement on any niche (self or client) | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `/growth-blueprint`, chain `/gb-interview → … → /gb-blueprint` |
+| Get live niche data for $0 before any strategy work | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `outlier_radar.py add-channels` + `refresh` |
+| Produce the client package / PDFs / lead magnet | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `export_growth_package.py package`, `build_lead_magnet.py` |
+| Turn the intake funnel live / process a submission | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — FARRICE-WHEN-BACK.md, `intake_bridge.py`, `/gb-intake` |
+| **Carry emotionally necessary material to readers without flattening it (Matt Haig Reader Bridge)** | |
+| Diagnose why a meaningful passage is not reaching the reader | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-bridge` |
+| Turn a reader-friction diagnosis into a complete revision | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-access-rewrite` |
+| Protect private taste from trend, review, or prestige pressure | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-taste-boundary` |
+| Prove a Reader Bridge result or recheck A-tier integrity | [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md) — `/haig-reader-bridge-proof` + deterministic verifier |
+| **Search Notion from recall without the network / control Codex automations** | |
+| Recall across all 9 stores incl. the Notion local mirror | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `memory_facade.py "<query>" --top 10` |
+| See/pause what ChatGPT desktop schedules on this Mac | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `automation_control_status.py` + dual-store pause |
+| Diagnose "app quit unexpectedly" pop-ups | [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md) — `.ips` `responsibleProc` forensics |
+| **Deploy Joanna Wiebe across copy, belief, messaging, and writing-business work** | |
+| Invoke Joanna by name and let the system select the right capability | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe` |
+| Use Joanna's complete extracted expertise on one high-stakes asset | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe full deployment: ...` |
+| Build a worldview, ethical contrast, ritual, shared language, and earned conviction | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/belief-community-architecture` |
+| Repair a missing Joanna command in Codex or Claude | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — runtime verification and recovery |
+| **Work from one command center + never lose work (Homebase + Librarian)** | |
+| Open the one page to work from (Focus · Launch · Library) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `/homebase` → http://127.0.0.1:8765/ |
+| Find something half-remembered from any past work | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `work_catalog.py find "<words>"` or `/catalog` |
+| Kill or park a thread (and know the difference) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — kill=hidden, park=quiet+resumable |
+| Understand/repair the nightly chain + judged analyst layer | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — nightly capability section, restore-not-discard |
+| **Model seating + Intent Brief Default (Opus 5 gap resolution)** | |
+| Understand why Opus 5 felt horrible and what seat it now holds | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — mental model + seating ruling |
+| Debug why the intent-brief/fresh-pen card did or didn't fire | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — command table (pipe a payload through steering_loop_hook.py) |
+| Re-run a blind model taste test on any artifact | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — Composition table, blind A/B method |
+| **Run or repair the COS Standing Board** | |
+| Resume the mid-build expert-council briefing repair | [COS Standing Board](2026-08-16-cos-standing-board.md) — `/resume cos-standing-board` |
+| Verify an Operator Primer against the known failure set | [COS Standing Board](2026-08-16-cos-standing-board.md) — `verify_cos_primer_gate.py` then `cos_primer_gate.py check` |
+| Understand what is preserved versus still unconfirmed | [COS Standing Board](2026-08-16-cos-standing-board.md) — see Honest edges + Resume sequence |
 | **Build ads rooted in consumer psychology (Ad Psychology Engine)** | |
 | Pick the psychological tactic before any format talk | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-tactic-select` (front door `/oren-dara`) |
 | Mine a live ad's comments into next round's messaging | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-comment-mine` (virtue map + verbatim bank) |
@@ -112,10 +153,9 @@
 | Turn customer language and destination constraints into a controlled static test slate | [Alex Cooper Static Acquisition System](2026-08-01-alex-copper-static-acquisition.md) |
 | Know when missing proof should hold production instead of being invented around | [Alex Cooper Static Acquisition System](2026-08-01-alex-copper-static-acquisition.md) |
 | **Codex closeout / handoff identity / safe branch checkpoint** | |
-| Close a Codex task with an exact handoff and native rename/pin/archive behavior | [Codex-Native End Session](2026-08-11-codex-native-end-session.md) — `/end-session` |
-| Keep the permanent operator lane while resolving temporary-lane debt | [Codex-Native End Session](2026-08-11-codex-native-end-session.md) — lane disposition + `worktree_lane.py list` |
-| Commit only task-owned files without silently pushing | [Codex-Native End Session](2026-08-11-codex-native-end-session.md) — `commit-local` is the default |
-| Diagnose why a completed task stayed pinned or unarchived | [Codex-Native End Session](2026-08-11-codex-native-end-session.md) — inspect `git`, `lane_action`, and `task_actions` in the receipt |
+| Close a Codex task with an exact resume handoff and native rename/pin/archive behavior | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
+| Commit and push only task-owned files from a dedicated `codex/*` worktree | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
+| Diagnose why a completed task stayed unarchived or Git synchronization was held | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
 | **Feedback loop + rendition control (Co-Creation Layer + Pen Protocol)** | |
 | Understand why the reply names a MODE / how to override it (`mode X`) | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
 | Know what the 🛑 SPIRAL BRAKE means and the three allowed moves | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
@@ -276,9 +316,20 @@
 
 ## Chronology
 
+- **2026-09-01 — [Signal Fidelity SHADOW](2026-09-01-signal-fidelity-shadow.md)** (operator-guide) — source-grounded co-creation insight reduced to a silent recipient-specific companion: public content remains native, human handoffs remain natural, AI agents receive a bounded execution capsule, and consequential strategy may receive a three-line decision spine. Integrated and verifier-backed; promotion and long-horizon impact remain parked / `NO EVENT`.
+- **2026-09-01 — [Mood-Board Orchestrator](2026-09-01-mood-board-orchestrator-repair.md)** (operator-guide) — repaired `/mood-board` into a reference-first conductor for three actual visual boards, one proving surface, blind choice, and winner-only downstream handoff; 8 positive routes, 4 rejection controls, and 101 assertions pass; human taste and revision-drift proof remain open.
+- **2026-09-01 — [Control-Beater Buyer Test](2026-09-01-control-beater-buyer-test.md)** (session-brief) — converted the revenue bottleneck from preparation into two manually sent, price-visible LinkedIn introductions while preserving the exact $500 pilot locks and truthful counters. Zero exact-offer exposures and zero buyer events remain; the next move is event classification, not an offer rewrite.
+- **2026-08-29 — [Matt Haig Reader Bridge](2026-08-29-matt-haig-reader-bridge.md)** (operator-guide) — A-tier, Farrice-calibrated narrative-craft system from the 2026 Haig–Perell interview: protect the private signal, give feeling a concrete carrier, repair the highest causal layer, and stop before access costs charge. Eleven routes, seven born-v2 prompts, four-piece reference corpus, EVAL-066 human PASS, and a cold-safe verifier; market observation remains `NO EVENT`.
+- **2026-08-28 — [Browser Crash Automations + Second Brain Merge](2026-08-28-follow-up-monitor.md)** (operator-guide) — daily Chrome/Firefox/Playwright "quit unexpectedly" pop-ups root-caused to ChatGPT desktop's local Codex automations launching browsers from a windowless background context (`responsibleProc` forensics on `.ips` crash reports); both daily briefs paused dual-store (toml + sqlite), the two-week-failing 10-minute merge heartbeat deleted, and the merge it was starving **landed**: `codex/notion-second-brain-reliability` union-merged into `memory_facade.py` — recall now spans 9 stores including the network-free **notion local mirror** (verifier 11/11 PASS, live smoke hit). Doctrine: a stuck retry automation is an alarm clock, not the work. Open: origin +9 divergence recovery, crash-free-morning confirmation.
+- **2026-08-28 — [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md)** (operator-guide) — Kallaway forge: six source skills extracted and run as the baseline; the retained suite adds the $0 outlier radar, 10 workflows, reader-pure client pipeline, lead magnet, intake funnel, and manual-fire enrichment. Reconciliation now binds it to the Kallaway AI research controls through signal-pack v2 and excludes parked runtime debris.
+- **2026-08-23 — [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md)** (operator-guide) — source-grounded belief-community extension, named adaptive/full expert front door, five globally verified Codex/Claude routes, and proof-bounded deployment rules.
+- **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
+
 *(newest first)*
 
-- 2026-08-11 — [Codex-Native End Session](2026-08-11-codex-native-end-session.md) — made `/end-session` the safe Codex closeout: exact named handoff, manifest-scoped local commit, permanent operator-lane preservation, temporary-lane merge/park action, native task lifecycle receipt, and explicit approval boundaries for push, `main`, and global receipts. The workflow closed itself in commit `4ad2bf464`: eight verifiers passed, no push or global write occurred, and the operator lane remained available
+- 2026-08-20 — [Tommy Clark LinkedIn OS closeout](2026-08-20-tommy-clark-2026.md) — exact handoff verified; A-tier felt verdict and first live Three-Moat audit remain open
+- 2026-08-20 — [System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-harness-opus5-diagnosis.md) — the 4.8→5 gap measured instead of vibed: Fable-seat re-probe (scope expansion reproduced 9-calls-vs-0; verbosity harness-amplified, not Opus-specific) + blind 3-seat taste A/B where **Opus's ghostwritten take rated GREAT and Fable's TERRIBLE** (n=1, voice_ratchet) — his Opus pain is interaction ergonomics, never artifact taste. Seating ruling written into both dialect cards (Fable/Sonnet conduct, Opus executes dispatched work incl. creative prose; Sonnet card got its missing machine-dialect block). Shipped the **Intent Brief Default** (plan-mode co-shaped): raw ask → INTENT BRIEF card (≤10-line brief, confirm, fresh dispatch), artifact ask → FRESH PEN clean-room card, sharp ask → mirror and go — injected per-prompt via `steering_loop_hook.py`, 5-path sabotage-tested. Plus the noise diet: SessionStart 8 hooks → `session_brief.py` digest; 7 mention-based hookify stop/warn rules disabled (receipts-only law for future warn rules). Core doctrine: *quality is working conditions, not model choice — settled brief, clean head, one shot; and seat by disposition: conductor ≠ pen*
+
 - 2026-08-08 — [Ad Psychology Engine — Oren×Dara Forge + First Deployments](2026-08-08-oren-dara-ad-psychology.md) — the Cannes 2026 Oren John × Dara Denney video (28:33, watched with 17 transcript-cue frames) forged into `skills/oren-dara-ad-psychology/`: **six frame-verified tactics** (taboo/mirroring with the lived-experience veto that killed URO's "golden nugget" statics, justification math, armchair investigation with designed rage-bait + comment virtue-mining, prove-it-in-frame, visual psychology, credible explainer) as the mechanism layer UPSTREAM of `dara-denney-meta-ads`' vessel layer — 10 workflows, 10 born-v2 prompts, heartbeat 6/6, blind-pass EVAL-048 model-PASS (A-tier awaits Farrice). Deployed same session: the MyBPM **Sunday/Monday tee ad pair** (mirroring static spec, KEEP verdict; shoot-ready yapper script; render cost-gate-blocked and surfaced, not bypassed), **3 LinkedIn founder-mirror concepts** (prose CLEAN after one gate-forced rewrite; two practitioner receipts gate publication), and the **P2M Ad Psychology Audit module** (Stage-2, six-tactic spine). Scars banked: the forge ran lock-free in a scratchpad staging tree while a sibling held the tree lock, then rsynced in atomically (`docs/solutions/2026-07-19-staged-forge-under-foreign-lock.md`); `creative_router.py` regex-matched "no people" as a people task. Core doctrine: *you don't inject desire into cold traffic — you license, mirror, prove, or authorize what the customer already thinks; and the comment section is the product*
 
 - 2026-08-08 — [Loss-Alarm False Positives — Audited, Repair Specced](2026-08-08-loss-alarm-repair.md) — a diagnostic session that took the two loudest session-open alarms (565 broken citations, 104 EMPTY-ABSORB files) and classified every one of the 669 flags against git history instead of trusting the counters. **Verdict: zero confirmed content losses.** The EMPTY-ABSORB check compares branch-created files against *current* main HEAD rather than the merge commit's own tree, so the 2026-08-07 arena sweep's legitimate moves re-flagged every prior merge in the window — compared correctly, all four merges absorbed **0 dropped files**. The citation scanner has three separate false-positive generators: it mangles `~/` (reporting the extant `~/.agents/.skill-lock.json` as missing — **the only BINDING-tier finding, and it is false**), it counts illustrative example paths inside extracted expert prompts as pointers (`ROSTER-YYYY-MM-DD.md`, `deliverables/carousel_scripts/YOUR_FILE.md` — 61 of 106 phantoms), and it scans `_legacy-prompts/` as well as the `prompts/` mirror it duplicates (28 more). All 19 DELETED targets verified as intentional restructures, 12 of them `riley-brown-marketing-automation` workflow renames from the v2 forge rebuild. Fixing the three drops 565 → ~420, of which ~383 are one mechanical repoint — and **65 of the 565 sit in dated RECORD files that per LIVING-vs-RECORD must not be repointed at all.** Two real findings fell out sideways: `skills/patrick-debois-cdlc/` cites ten execution scripts that were never built (four workflows non-operational), and Fable 5's absence from the VS Code extension is a bundled-binary pin (extension ships its own `claude` v2.1.156 with **0** hits for `claude-fable-5`; PATH CLI is v2.1.220 with **32**) — not plan, entitlement, or ZDR. Core doctrine: *an alarm that measures against a moving baseline trains you to ignore it — and the cost of a false loss signal is that the real one arrives looking identical*
@@ -356,6 +407,33 @@
 
 
 ## Pending enrichment
+- [2026-09-05 — Content: Farrice Niche Brief - Evidence-Led Direction](2026-09-05-farrice-nicolas-cole-niche-brief.md) — verified first application of the Nicolas Cole niche system; the golden brief is preserved and client productization is parked
+- [2026-09-03 — Handoff · studio-preview-wrapper · 2026-09-03 · status: ready (for a fresh executor session)](2026-09-03-handoff-studio-preview-wrapper-2026-09-03-status-ready-for-a.md) — operator-guide stub, needs enrichment
+- [2026-09-02 — 2026-09-02-jen-canvas](2026-09-02-2026-09-02-jen-canvas.md) — operator-guide stub, needs enrichment
+- [2026-09-01 — Handoff — cowork-skills-port + jen-content-os map](2026-09-01-handoff-cowork-skills-port-jen-content-os-map.md) — operator-guide stub, needs enrichment
+- [2026-08-31 — Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.](2026-08-31-direction-1-performance-evidence-journal-alpine-bio-owns-sci.md) — operator-guide stub, needs enrichment
+- [2026-08-31 — 2026-08-31-proposed-diffs](2026-08-31-2026-08-31-proposed-diffs.md) — operator-guide stub, needs enrichment
+- [2026-08-30 — Jen Santulan / First Home Valley — Session Handoff](2026-08-30-jen-santulan-first-home-valley-session-handoff.md) — operator-guide stub, needs enrichment
+- [2026-08-29 — Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, honest attribution (filming by her videographer, system underneath is the product)](2026-08-29-listing-launch-kit-landing-page-premium-minimal-brand-4-real.md) — operator-guide stub, needs enrichment
+- [2026-08-29 — Revenue: Madison AI Engagement - Draft Reply](2026-08-29-madison-ai-engagement.md) — operator-guide stub, needs enrichment
+- [2026-08-29 — Extraction: Matt Haig Reader Bridge - Merged and A-Tier Verified](2026-08-29-extraction-matt-haig-reader-bridge-merged-and-a-tier-verifie.md) — operator-guide stub, needs enrichment
+- [2026-08-27 — Knowledge Thread Handoff — 2026-08-27](2026-08-27-knowledge-thread-handoff-2026-08-27.md) — operator-guide stub, needs enrichment
+- [2026-08-27 — Angle Map Listening Engine — 2026-08-27 daily run (Thursday)](2026-08-27-angle-map-listening-engine-2026-08-27-daily-run-thursday.md) — operator-guide stub, needs enrichment
+- [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment
+- [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
+- [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment
+- [2026-08-23 — Session State Anchor](2026-08-23-session-state-anchor.md) — operator-guide stub, needs enrichment
+- [2026-08-21 — Handoff — execution](2026-08-21-handoff-execution.md) — operator-guide stub, needs enrichment
+- [2026-08-21 — Homebase 2.0 — Agentic OS Cockpit](2026-08-21-homebase-2-0-agentic-os-cockpit.md) — operator-guide stub, needs enrichment
+- [2026-08-21 — Extraction: Tommy Clark LinkedIn OS - 2026 Strategy Harvested](2026-08-21-guides-empty-slug-fix.md) — session-brief stub, needs enrichment
+- (none)
+- [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-system-opus-5-gap-diagnosis-resolved-defaults-installed.md) — session-brief stub, needs enrichment
+- [2026-08-17 — Proposed Diffs](2026-08-17-.md) — operator-guide stub, needs enrichment
+- [2026-08-16 — Revenue: Claim Check Funnel - Ready to Launch](2026-08-16-geo-content.md) — operator-guide stub, needs enrichment
+- [2026-08-16 — Knowledge — Latest Exec Cut](2026-08-16-.md) — operator-guide stub, needs enrichment
+- [2026-08-15 — Knowledge — Angle Map Listening Brief](2026-08-15-.md) — operator-guide stub, needs enrichment
+- [2026-08-11 — Knowledge — Latest Exec Cut](2026-08-11-.md) — operator-guide stub, needs enrichment
+- [2026-08-10 — Execution — Apify Client](2026-08-10-.md) — operator-guide stub, needs enrichment
 - [2026-08-09 — Knowledge — Latest Exec Cut](2026-08-09-.md) — operator-guide stub, needs enrichment
 - [2026-08-08 — Knowledge — Angle Map Listening Brief](2026-08-08-.md) — operator-guide stub, needs enrichment
 - [2026-08-07 — Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards](2026-08-07-mission-control.md) — operator-guide stub, needs enrichment

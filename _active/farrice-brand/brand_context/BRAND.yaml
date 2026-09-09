@@ -1,0 +1,35 @@
+# BRAND.yaml — Farrice Cain (owner brand). Read by execution/scrapes_brand.py.
+# The Scrapes skills read the ROOT brand_context/ by default; this manifest
+# declares that root as Farrice's and names the pens that own his copy seams.
+brand: farrice
+display: Farrice Cain
+kind: owner
+aliases: [farrice, farrice cain, my brand, for me, for my brand, fresh, frbpm, my linkedin, my carousel]
+
+brand_context: brand_context                    # repo root (populated from FARRICE-MASTER-CONTEXT + VOICE-CARD, 2026-09-02)
+output_base: projects/00-social-content         # Scrapes default; runs land in {date}/{slug}/
+research_cache: projects/str-trending-research  # shared cache; briefs are written with slug prefix "farrice--"
+template_pools:
+  linkedin-carousel: brand_context/templates/linkedin-carousel   # built by ssc-template-builder from visual_refs (his approval in Template Studio)
+renderer_fallback: null                          # premium-minimal/package/templates/carousel/*.svg are rendered artifacts, not a renderer; the pool is the path
+
+voice:
+  dial: BLEND                                   # VOICE-CARD §7: identity anchors + Voice Law + banned moves HARD; craft/metaphor WELCOME
+  card: _active/farrice-brand/voice/VOICE-CARD.md
+  register_atlas: _active/farrice-brand/voice/REGISTER-ATLAS.md
+  calibration_log: _active/farrice-brand/voice/calibration-log.md   # voice_ratchet.py add
+pens:
+  hook: luke-iha-vicious-hooks                  # consequence first, open loop, Germanic words, stakes
+  integrator: farrice-voice-card-blend          # ONE pen writes caption + slide script with the VOICE-CARD layer loaded
+  veto: farrice-as-himself                      # his read is the veto; machine floor = claim_audit --strict + prose_classifier check
+  long_form_only: [georgi, nicolas-cole]        # never on a carousel hook
+research: execution/research.py                 # receipts; Gemini → Perplexity → free floor. Never str-trending-research (no XAI/Groq keys)
+never:
+  - AI-slop ban bank violations (directives/ai-slop-ban-bank.md)
+  - unverified claims about real people, products, or studies
+  - cheap question sign-offs
+  - a hook written from the Scrapes formulas alone (they are the shape check, not the pen)
+notes: |
+  Positioning canon is ratified — never regenerate positioning.md from a Scrapes run.
+  First blind bar: one supplement teardown carousel vs the current LinkedIn carousel path
+  (PRECEDENCE-MAP.md blind bar #1). Farrice taps the winner.

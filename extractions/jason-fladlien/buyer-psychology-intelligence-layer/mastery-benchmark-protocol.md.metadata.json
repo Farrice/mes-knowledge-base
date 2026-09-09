@@ -1,0 +1,12 @@
+{
+  "title": "Sales and Buyer Psychology Mastery Benchmark Protocol",
+  "artifactType": "benchmark-protocol",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "COLD_CANDIDATE",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false,
+  "benchmarkEventOccurred": false
+}

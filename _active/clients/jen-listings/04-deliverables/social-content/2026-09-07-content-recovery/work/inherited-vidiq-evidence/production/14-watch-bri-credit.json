@@ -1,0 +1,18 @@
+{
+  "key": "14-watch-bri-credit",
+  "url": "https://www.instagram.com/reel/Dch4AtcNy8l/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_7c575573-1bb0-4bbf-b7bb-281a6394ee2f\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_7c575573-1bb0-4bbf-b7bb-281a6394ee2f\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_7c575573-1bb0-4bbf-b7bb-281a6394ee2f",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_7c575573-1bb0-4bbf-b7bb-281a6394ee2f\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

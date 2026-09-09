@@ -34,6 +34,8 @@ Enrico Incarnati is an Instagram growth coach who works exclusively with real es
 10. **Listing Showcase Transformation** — Specs → lifestyle storytelling
 11. **Team Scalability** — Individual format discovery + shared asset infrastructure
 12. **Save-Magnet Architecture** — Digital Clipboard format optimized for bookmarks
+13. **Local Signal → Original POV → Conversation** — Source current local life, filter through agent conviction and production fit, then separate attention from pipeline evidence
+14. **Transaction → Proof Story → Qualified Conversation** — Convert resolved casework into permission-safe evidence, choose the lightest truthful story format, and attribute downstream business outcomes
 
 ## Workflows
 
@@ -59,6 +61,12 @@ Enrico Incarnati is an Instagram growth coach who works exclusively with real es
 | 09 | `/enrico-audit` | 360° Instagram audit with scoring and transformation plan |
 | 10 | `/enrico-team` | Deploy system across a team or brokerage |
 
+### Connected Source Expansion
+| # | Command | Description |
+|---|---------|-------------|
+| 11 | `/enrico-local-signal-loop` | Turn local sources, transferable formats, and lived observations into original content with a human conversation path |
+| 12 | `/enrico-proof-story` | Turn resolved transaction judgment into evidence-rich Reels, captions, carousels, or bounded live-series recaps |
+
 ### Recommended Execution Order
 
 **For an individual agent:**
@@ -67,8 +75,10 @@ Enrico Incarnati is an Instagram growth coach who works exclusively with real es
 3. `/enrico-format` → Discover signature format
 4. `/enrico-leads` → Build lead capture system
 5. `/enrico-stories` → Set up stories engine
-6. `/enrico-expand` → Generate first content batch
-7. `/enrico-sprint` → Weekly production mode
+6. `/enrico-local-signal-loop` → Select source-grounded, voice-compatible premises
+7. `/enrico-proof-story` → Mine resolved casework and choose a truth-safe story format
+8. `/enrico-expand` → Remix accepted premises into platform-native formats
+9. `/enrico-sprint` → Weekly production mode
 
 **For @_jiing / MyHouseSellers:**
 1. `/enrico-audit @_jiing` → Baseline audit
@@ -87,9 +97,12 @@ Enrico Incarnati is an Instagram growth coach who works exclusively with real es
 | **Nathan Gotch** | SEO × local Instagram discovery | `/enrico-proximity` → Gotch local SEO |
 | **Grace Beverley** | Multi-platform atomization | `/enrico-expand` → Grace platform-native adaptation |
 | **Kallaway** | A/B testing content format performance | `/enrico-sprint` → Lego Brick testing methodology |
+| **Mike Sherrard** | Local-signal selection, authentic positioning, and attention-to-conversation handoff | `/enrico-local-signal-loop` → `/mike-sherrard-audit-content-conversion` when conversion is weak |
 | **Dai Media** | Consumer posture profiling for buyer personas | `/enrico-format` → Dai buyer psychology layer |
 | **Sabri Suby** | Paid amplification of organic winners | Top organic content → Sabri paid media system |
 | **Eric Roth** | Cinematic narrative depth in listing showcases | `/enrico-listing` → Roth visual prose |
+| **Shaan Puri** | Narrative dosage and truth boundary | `/enrico-proof-story` → `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` before polishing |
+| **00 Social Content** | Platform-native production and real-asset-first visuals | Approved Proof Story Packet → social production pipeline; no synthetic transaction proof |
 
 ## Reference Files
 
@@ -97,6 +110,7 @@ Enrico Incarnati is an Instagram growth coach who works exclusively with real es
 - `references/signature-format-examples.md` — Hall of Fame formats + discovery framework
 - `references/content-expansion-templates.md` — All 5 expansion pack templates
 - `references/profile-optimization-checklist.md` — Full scoring rubric for Digital Curb Appeal
+- `references/marie-lee-transaction-story-mechanics.md` — Timestamped source mechanics, evidence boundaries, and transfer rules
 
 ## API & Revenue Context
 
@@ -109,17 +123,19 @@ This skill serves the real estate vertical of Farrice's business:
 
 ## Execution Prompts (structure-pure v2)
 
-10 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+12 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Enrico Incarnati — Content Expansion Pack (5-Format Remix)** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/content-expansion-pack.md`
 - **Enrico Incarnati — Digital Curb Appeal Profile Optimization** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/digital-curb-appeal-profile-optimization.md`
 - **Enrico Incarnati — 360° Instagram Audit & Transformation Roadmap** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/instagram-360-audit.md`
 - **Enrico Incarnati — Lead Magnet & ManyChat Pipeline** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/lead-magnet-manychat-pipeline.md`
 - **Enrico Incarnati — Listing Showcase Script Pack** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/listing-showcase-script-pack.md`
+- **LOCAL-SIGNAL RUN: [AGENT] — [MARKET]** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/local-signal-content-loop.md`
 - **Enrico Incarnati — Proximity Play Blueprint (Mayor of Your City)** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/proximity-play-blueprint.md`
 - **SIGNATURE FORMAT BLUEPRINT** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/signature-format-blueprint.md`
 - **Enrico Incarnati — Stories-to-Clients Weekly Calendar** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/stories-to-clients-calendar.md`
 - **Enrico Incarnati — Team/Brokerage Deployment & Pitch Package** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/team-deployment-pitch-package.md`
+- **Enrico Incarnati — Transaction-to-Proof Story Pack** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/transaction-to-proof-story-pack.md`
 - **Enrico Incarnati — Weekly Content Sprint (Sequenced)** — `skills/enrico-incarnati-instagram-realestate/references/prompts-v2/weekly-content-sprint.md`
 
 <!-- END:execution-prompts -->

@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "evaluation_type": "frozen reporting-versus-decision-intelligence comparison",
+  "disclosure": "Synthetic structural proof only. The cases test decision change, causal restraint, insight density, explanation burden, and creative-range preservation; they are not production receipts.",
+  "rubric": [
+    "decision_change",
+    "causal_restraint",
+    "insight_density",
+    "explanation_burden",
+    "creative_range_preservation"
+  ],
+  "cases": [
+    {
+      "id": "art-critique",
+      "task_type": "creative_review",
+      "input": "Critique a supplied editorial portrait whose face, hands, and background all carry similar contrast.",
+      "reporting_only": "The portrait uses a muted palette, centered composition, soft light, and repeated high-contrast edges.",
+      "decision_intelligence": {
+        "observation": "VERIFIED from the supplied image: facial features, hands, and background edges compete at thumbnail size.",
+        "inference": "The equal contrast likely splits the eye path, weakening the intended facial focal point.",
+        "alternatives": [
+          "The distributed attention may be intentional to create unease.",
+          "The problem may be scale-specific rather than present at full resolution."
+        ],
+        "decision_delta": "Preserve the composition and reduce only the background edge contrast before changing color, crop, or pose.",
+        "confirming_evidence": "A grayscale thumbnail test produces a clear face-first eye path.",
+        "disconfirming_evidence": "Viewers still enter through the hands, or the intended unsettled reading becomes weaker.",
+        "visible_result": "One focal-hierarchy diagnosis, one reversible edit, and one thumbnail check."
+      },
+      "judgment": {
+        "decision_change": "MATERIAL",
+        "causal_restraint": "PASS",
+        "insight_density": "PASS",
+        "explanation_burden": "LOW",
+        "creative_range_preservation": "PRESERVED"
+      }
+    },
+    {
+      "id": "research-synthesis",
+      "task_type": "research",
+      "input": "Synthesize five customer interviews that mention setup time, handoff confusion, and distrust of automated recommendations.",
+      "reporting_only": "Customers mentioned setup time three times, handoff confusion four times, and distrust twice.",
+      "decision_intelligence": {
+        "observation": "VERIFIED within the supplied interviews: handoff confusion spans four accounts and appears before trust complaints.",
+        "inference": "The evidence suggests the adoption problem may be loss of ownership at the handoff, not automation aversion alone.",
+        "alternatives": [
+          "The sample may overrepresent complex implementations.",
+          "Product reliability problems may be expressed as handoff distrust."
+        ],
+        "decision_delta": "Test an owner-visible handoff and explanation step before investing in broader trust messaging.",
+        "confirming_evidence": "Activation and retained use improve specifically for accounts receiving the revised handoff.",
+        "disconfirming_evidence": "Trust objections remain unchanged after handoff clarity improves, or reliability incidents explain the pattern better.",
+        "visible_result": "One cross-interview pattern, bounded mechanism, decision, and discriminating test."
+      },
+      "judgment": {
+        "decision_change": "MATERIAL",
+        "causal_restraint": "PASS",
+        "insight_density": "PASS",
+        "explanation_burden": "LOW",
+        "creative_range_preservation": "PRESERVED"
+      }
+    },
+    {
+      "id": "harness-system-status",
+      "task_type": "system_readout",
+      "input": "Interpret a worktree health report that says Sovereign Memory is missing and session/routing state is dormant.",
+      "reporting_only": "Sovereign Memory is MISSING; Session State and Routing Intelligence are DORMANT.",
+      "decision_intelligence": {
+        "observation": "VERIFIED: the first worktree readout lacked local runtime paths while canonical main contained the database, goals, and session-state files.",
+        "inference": "The red status was primarily a lane-provisioning failure, not evidence that canonical memory had disappeared.",
+        "alternatives": [
+          "The health script could intentionally ignore shared runtime state.",
+          "A link could exist but point to stale or incompatible data."
+        ],
+        "decision_delta": "Bootstrap and re-run the same readout before repairing memory or feedback systems.",
+        "confirming_evidence": "After bootstrap, Sovereign Memory, Session State, and Routing Intelligence become ACTIVE and constitution lint clears.",
+        "disconfirming_evidence": "The same systems remain missing after valid links exist, or canonical main shows the same absence.",
+        "visible_result": "Provisioning diagnosis, reversible repair, and before/after proof."
+      },
+      "judgment": {
+        "decision_change": "MATERIAL",
+        "causal_restraint": "PASS",
+        "insight_density": "PASS",
+        "explanation_burden": "LOW",
+        "creative_range_preservation": "PRESERVED"
+      }
+    },
+    {
+      "id": "content-ideation",
+      "task_type": "creative_ideation",
+      "input": "Generate content directions from supplied audience notes showing operators celebrate AI speed but privately redo outputs they cannot defend.",
+      "reporting_only": "Topics: AI productivity, prompt tips, human oversight, quality control, and automation mistakes.",
+      "decision_intelligence": {
+        "observation": "VERIFIED within the supplied notes: public speed language coexists with private rework and accountability anxiety.",
+        "inference": "The live tension is not human versus AI; it is borrowed speed versus owned judgment.",
+        "alternatives": [
+          "Rework may reflect weak tools rather than accountability anxiety.",
+          "The notes may overrepresent expert operators with unusually high taste."
+        ],
+        "decision_delta": "Explore three divergent concepts—confession, visual split-screen, and operating doctrine—around the same tension rather than publishing a generic prompt-tips list.",
+        "confirming_evidence": "A small audience test produces recognition language about rework, defensibility, or ownership rather than generic AI agreement.",
+        "disconfirming_evidence": "The audience responds only to tool-specific utility, or the accountability frame feels imposed rather than recognized.",
+        "visible_result": "Signal, tension, three differentiated vessels, why-now relevance, and one recognition test without prescribing the final creative."
+      },
+      "judgment": {
+        "decision_change": "MATERIAL",
+        "causal_restraint": "PASS",
+        "insight_density": "PASS",
+        "explanation_burden": "LOW",
+        "creative_range_preservation": "PRESERVED"
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "direct-factual-answer",
+      "input": "What status did the verifier print?",
+      "expected_stop": "REPORTING",
+      "reason": "The requested fact is sufficient; interpretation would add burden without changing a decision."
+    },
+    {
+      "id": "pure-production",
+      "input": "Resize the supplied image to 1200 by 628 without changing its content.",
+      "expected_stop": "ARTIFACT",
+      "reason": "The job is mechanical production; analysis would displace the requested artifact."
+    },
+    {
+      "id": "unsupported-causality",
+      "input": "One conversion-rate number fell. State the exact cause.",
+      "expected_stop": "EVIDENCE_LIMIT",
+      "reason": "A single observation cannot support exact causal diagnosis; name the gap or a reversible test."
+    },
+    {
+      "id": "low-evidence-ideation",
+      "input": "With no audience evidence, diagnose what my market secretly believes and turn it into content.",
+      "expected_stop": "HYPOTHESIS",
+      "reason": "Low evidence permits exploratory angles, not a confident audience diagnosis."
+    }
+  ]
+}

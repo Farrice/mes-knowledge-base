@@ -61,32 +61,38 @@ Follow `semantic_libraries/antigravity/primitives/agent-arsenal-routing-contract
 
 These are seed candidates, not a closed menu. Confirm the final path through router lookup, stacking evidence, and objective fit.
 
+- /deep-research-os
 - /deep-research
-- /deep-research-gemini
 - /research-landscape
 - /research-sprint
-- /research-swarm
-- /parallel-research
 - /competitor-intel
 - /icp-deep-dive
 - /generate-brief
 - /grounding-pass
+- /ground-truth
+- /adversarial-review
 
 ## Current/Deep Research Routing Rule
 
 When the objective depends on recent, current, up-to-date, factual, market,
-competitor, client, revenue, strategy, or system-critical claims, do not choose a
-single shallow research path. Package a swarm/deep-research stack and make the
-approval boundary explicit:
+competitor, client, revenue, strategy, or system-critical claims, local harness
+context cannot establish what is true now. Route to
+`/deep-research-os --free-first` and run the Free-First Research Mission
+sequentially in the active Codex thread:
 
-- **Breadth scan**: `/research-swarm` for market, audience, and internal-system coverage.
-- **Custom live angles**: `/parallel-research --angles` when the user names dimensions such as competitors, pricing, buyer psychology, or category trends.
-- **Deep single-question truth**: `/deep-research-gemini` first, with `/deep-research` as fallback.
-- **Verification**: `/ground-truth-agent` plus `python3 execution/research_quality_gate.py` for claim labeling, source ledger review, recency checks, and contradiction scan.
+- **Live discovery**: use Codex native web search and opened full pages first.
+- **Bounded gap filling**: use Tavily Search/Extract only at basic depth, only
+  after the zero-dollar account boundary is confirmed, and never Tavily Research.
+- **Dated signals**: pull public RSS/Atom on demand; do not create a schedule.
+- **Local intelligence**: use relevant skills and local context to sharpen the
+  questions and interpretation, never as current-world evidence.
+- **Verification**: apply `/ground-truth`, `/adversarial-review`, and
+  `python3 execution/research_quality_gate.py` for source, recency,
+  contradiction, and claim-label checks.
 
-For Autopilot handoffs, recommend the stack and provide the exact approval
-prompt. Do not launch subagents, paid tools, external research, or verification
-runs until Farrice explicitly approves execution after the checkpoint.
+Native read-only web research can execute without an extra approval checkpoint.
+Do not launch Apify, paid accelerators, schedules, background workers, or real
+subagents in Free-First mode.
 
 ## Tool Permissions
 
@@ -94,13 +100,19 @@ runs until Farrice explicitly approves execution after the checkpoint.
 - Local reads of `AGENT_INDEX.md`, `SKILL_INDEX.md`, `CODEX.md`, relevant workflows, and state files.
 - Local routing tools: `execution/command_menu.py`, `execution/workflow_router.py`, `execution/expert_router.py`, `execution/context_retriever.py`, `execution/tool_router.py`.
 - Knowledge reads: `execution/knowledge_compiler.py stats`, `execution/knowledge_compiler.py briefing`, and existing compiled reports.
+- Codex native web search and opened public pages for read-only current research.
+- On-demand public RSS/Atom reads that create no schedule or monitor.
 
-### Budget or Tool Gated
-- Gemini, Perplexity, NotebookLM, Apify, Higgsfield/Fal, browser automation, external research, and other paid or quota-bound tools.
-- Run the relevant budget/preflight check before recommending or using these tools.
+### Zero-Dollar Boundary Required
+- Tavily Search/Extract only, pinned to basic depth and bounded by the
+  Free-First contract. Fail closed until the account cannot create a dollar
+  charge; never use Tavily Research from this mode.
 
 ### Human Approval Required
-- Publishing, outreach, external writes, client/contact actions, paid API-heavy runs, destructive edits, broad rewrites, or changes outside `/Users/farricecain/Google Antigravity`.
+- Publishing, outreach, external writes, client/contact actions, paid or
+  quota-heavy accelerators, authenticated/private scraping, browser automation,
+  destructive edits, broad rewrites, schedules, real subagents, or changes
+  outside `/Users/farricecain/Google Antigravity`.
 
 ## Special Policy
 
@@ -112,17 +124,17 @@ Factual outputs must follow `directives/verification-agent-protocol.md`: claim i
 2. **Route the arsenal**: use local routers, stacking evidence, and the seed workflow list before loading full files.
 3. **Choose the path**: select fast useful win, deep build, or council/red-team path.
 4. **Produce or sequence**: either produce the deliverable directly or return the exact command order.
-5. **Run the excellence gate**: apply `/excellence-gate` before final output.
+5. **Run the excellence gate**: apply `/excellence-latch` before final output.
 6. **Escalate when needed**: trigger Red Team, Ground Truth, Research, Data, or Evolution handoff when conditions match.
 7. **Update lightweight state**: record only the useful routing lesson or recurring gap.
 
 ## Universal Excellence Gate
 
-Before final output, apply `/excellence-gate` with this agent's domain lens. If the output is generic, shallow, unsupported, derivative, or merely professional, revise before final. Do not present weak work with a confident tone.
+Before final output, apply `/excellence-latch` with this agent's domain lens. If the output is generic, shallow, unsupported, derivative, or merely professional, revise before final. Do not present weak work with a confident tone.
 
 ## Red-Team Triggers
 
-Route to `/red-team-agent` or `/adversarial-review` when the output is client-facing, factual/research-heavy, revenue-critical, publishable, changes the system, or carries high confidence with weak evidence.
+Route to `/adversarial-review` when the output is client-facing, factual/research-heavy, revenue-critical, publishable, changes the system, or carries high confidence with weak evidence.
 
 ## State Snapshot
 

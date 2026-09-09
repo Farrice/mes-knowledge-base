@@ -1,0 +1,63 @@
+{
+  "verdict": "PASS",
+  "checks": 11,
+  "passed": 11,
+  "failed": [],
+  "details": [
+    {
+      "name": "one_active_primary",
+      "passed": true,
+      "detail": "Launch Control and canon name the same primary."
+    },
+    {
+      "name": "price_consistency",
+      "passed": true,
+      "detail": "Landing and canon use $1,500 / $750 + $750."
+    },
+    {
+      "name": "old_primary_parked",
+      "passed": true,
+      "detail": "Old Angle Map canon is explicitly parked and linked."
+    },
+    {
+      "name": "supplement_secondary",
+      "passed": true,
+      "detail": "Supplement adapter is prepared but not front-facing."
+    },
+    {
+      "name": "proof_disclosure",
+      "passed": true,
+      "detail": "Market proof is not represented as exact-offer validation."
+    },
+    {
+      "name": "no_revenue_guarantee",
+      "passed": true,
+      "detail": "Offer promise is behavior-bounded."
+    },
+    {
+      "name": "human_hold",
+      "passed": true,
+      "detail": "Canon and test output both require a human."
+    },
+    {
+      "name": "demo_inspected",
+      "passed": true,
+      "detail": "All fixture outputs and holds passed."
+    },
+    {
+      "name": "ai_removal_test",
+      "passed": true,
+      "detail": "Offer remains intelligible without AI."
+    },
+    {
+      "name": "cta_present",
+      "passed": true,
+      "detail": "One consistent next step."
+    },
+    {
+      "name": "external_placeholders",
+      "passed": true,
+      "detail": "No invented booking destination."
+    }
+  ]
+}

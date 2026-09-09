@@ -1,0 +1,1397 @@
+# Video Context Ledger
+
+Evidence boundary: spoken auto-caption evidence only; visual and OCR evidence unavailable.
+
+- **00:00:01** — Matt Hag sold more than 10 million copies of his book, The Midnight
+- **00:00:03** — copies of his book, The Midnight Library. And I just checked on Amazon.
+- **00:00:05** — Library. And I just checked on Amazon. It has more than 288,000
+- **00:00:07** — It has more than 288,000 reviews. This book was a total hit, a
+- **00:00:10** — reviews. This book was a total hit, a smashing success. So, I invited Matt on
+- **00:00:11** — smashing success. So, I invited Matt on the show to ask him how he does it.
+- **00:00:13** — the show to ask him how he does it. What's his writing process? How does he
+- **00:00:15** — What's his writing process? How does he tell great stories? But also, given how
+- **00:00:18** — tell great stories? But also, given how successful he's been, I had to ask, is
+- **00:00:20** — successful he's been, I had to ask, is it okay to write for the mass market?
+- **00:00:22** — it okay to write for the mass market? Like, are you betraying the craft of
+- **00:00:24** — Like, are you betraying the craft of writing if you're explicitly trying to
+- **00:00:26** — writing if you're explicitly trying to reach as many people [music] as
+- **00:00:27** — reach as many people [music] as possible?
+- **00:00:29** — possible? Can you walk me through how a book
+- **00:00:32** — Can you walk me through how a book actually gets written? Like how long
+- **00:00:35** — actually gets written? Like how long does it take? Where do you write? When
+- **00:00:37** — does it take? Where do you write? When do you write? Are you somebody who
+- **00:00:39** — do you write? Are you somebody who writes 250 words every day? A thousand
+- **00:00:41** — writes 250 words every day? A thousand words every day? Are you a little bit
+- **00:00:42** — words every day? Are you a little bit more stop start?
+- **00:00:44** — more stop start? &gt;&gt; I'm totally stop start. I'm a lot of
+- **00:00:47** — &gt;&gt; I'm totally stop start. I'm a lot of stop. [laughter]
+- **00:00:49** — stop. [laughter] Like it's weird because I'm seen as
+- **00:00:51** — Like it's weird because I'm seen as prolific, but I spend most of
+- **00:00:52** — prolific, but I spend most of &gt;&gt; a lot of stop. A little bit [laughter]
+- **00:00:53** — &gt;&gt; a lot of stop. A little bit [laughter] of start. A lot of stop. A little bit of
+- **00:00:55** — of start. A lot of stop. A little bit of start.
+- **00:00:55** — start. &gt;&gt; Yeah, it's 90% stop. That's it.
+- **00:00:59** — &gt;&gt; Yeah, it's 90% stop. That's it. But I'm I it's a very I swing between
+- **00:01:02** — But I'm I it's a very I swing between two extremes. So a lot of it is trying
+- **00:01:05** — two extremes. So a lot of it is trying to think of an idea.
+- **00:01:08** — to think of an idea. Writer's block for me is not knowing
+- **00:01:10** — Writer's block for me is not knowing which idea to choose.
+- **00:01:13** — which idea to choose. &gt;&gt; I don't have a a great detector at
+- **00:01:16** — &gt;&gt; I don't have a a great detector at knowing which idea is going to work. I
+- **00:01:19** — knowing which idea is going to work. I have to sort of end up writing them to
+- **00:01:21** — have to sort of end up writing them to know. But they linger in my brain until
+- **00:01:23** — know. But they linger in my brain until they're developed enough to write.
+- **00:01:24** — they're developed enough to write. &gt;&gt; And these are story ideas, character
+- **00:01:26** — &gt;&gt; And these are story ideas, character ideas. What kind of ideas? story ideas
+- **00:01:29** — ideas. What kind of ideas? story ideas sometimes titles just hanging there
+- **00:01:32** — sometimes titles just hanging there which I think that's a good title but I
+- **00:01:34** — which I think that's a good title but I just need an idea for it like for ages I
+- **00:01:37** — just need an idea for it like for ages I was I had this uh title the memory thief
+- **00:01:41** — was I had this uh title the memory thief but I thought who's memory who's the
+- **00:01:43** — but I thought who's memory who's the thief wh why why is this in my head and
+- **00:01:45** — thief wh why why is this in my head and you know so you you can have a title
+- **00:01:48** — you know so you you can have a title without an idea but sometimes the
+- **00:01:50** — without an idea but sometimes the title's the thing that comes last it
+- **00:01:51** — title's the thing that comes last it just depends but a lot of it is just
+- **00:01:53** — just depends but a lot of it is just percolating in your in your brain so
+- **00:01:56** — percolating in your in your brain so there's a lot of work that doesn't feel
+- **00:01:58** — there's a lot of work that doesn't feel like work and you're sort of beating
+- **00:02:00** — like work and you're sort of beating yourself up because you think why aren't
+- **00:02:01** — yourself up because you think why aren't they working but actually that turns out
+- **00:02:03** — they working but actually that turns out to be the most important work because
+- **00:02:05** — to be the most important work because you are actually thinking about stuff
+- **00:02:07** — you are actually thinking about stuff and it's that classic thing like when
+- **00:02:09** — and it's that classic thing like when you're sat in front of a word document
+- **00:02:11** — you're sat in front of a word document you just can't get inspiration so you
+- **00:02:15** — you just can't get inspiration so you you need to be away it's often when I'm
+- **00:02:17** — you need to be away it's often when I'm in another country or when I'm traveling
+- **00:02:21** — in another country or when I'm traveling that I'll just get an idea it it you
+- **00:02:24** — that I'll just get an idea it it you need to be taken out of yourself a
+- **00:02:26** — need to be taken out of yourself a little
+- **00:02:27** — little to get it. So, I swing from that sort of
+- **00:02:30** — to get it. So, I swing from that sort of state of thinking and percolating and
+- **00:02:33** — state of thinking and percolating and beating myself up about not working
+- **00:02:36** — beating myself up about not working while secretly working to then getting
+- **00:02:38** — while secretly working to then getting the idea and then uh worried that I
+- **00:02:42** — the idea and then uh worried that I won't remember it all. And that's when I
+- **00:02:44** — won't remember it all. And that's when I sort of rush and uh write and have the
+- **00:02:47** — sort of rush and uh write and have the impulse to write because it's the
+- **00:02:49** — impulse to write because it's the impulse to get it all down while it's
+- **00:02:51** — impulse to get it all down while it's still in your head.
+- **00:02:53** — still in your head. and then first draft revision, working
+- **00:02:55** — and then first draft revision, working with an editor. How does that go?
+- **00:02:57** — with an editor. How does that go? &gt;&gt; Um, well, I've had the same editor for
+- **00:03:00** — &gt;&gt; Um, well, I've had the same editor for 15 years now. So, I think it really
+- **00:03:03** — 15 years now. So, I think it really helps to have a good relationship with
+- **00:03:05** — helps to have a good relationship with your ed editor because then you know
+- **00:03:08** — your ed editor because then you know them. You know their taste. You know
+- **00:03:12** — them. You know their taste. You know when to listen to them and when to sort
+- **00:03:14** — when to listen to them and when to sort of fight your own corner. Um, and you
+- **00:03:18** — of fight your own corner. Um, and you you you know when they're saying
+- **00:03:19** — you you know when they're saying something which a general reader would
+- **00:03:21** — something which a general reader would think versus when it's them as a person,
+- **00:03:24** — think versus when it's them as a person, you know what I mean? So you know them
+- **00:03:26** — you know what I mean? So you know them well enough know what is their specific
+- **00:03:28** — well enough know what is their specific taste versus what could be a general
+- **00:03:30** — taste versus what could be a general point that lots of people would make. So
+- **00:03:34** — point that lots of people would make. So um it's a lot of conversations, a lot of
+- **00:03:36** — um it's a lot of conversations, a lot of phone conversations, a lot of back and
+- **00:03:38** — phone conversations, a lot of back and forth. He's a nice guy, my editor,
+- **00:03:40** — forth. He's a nice guy, my editor, Francis Bikmore. Um and so he's
+- **00:03:43** — Francis Bikmore. Um and so he's sometimes a bit too nice. So, I have to
+- **00:03:44** — sometimes a bit too nice. So, I have to get to what he's actually saying. I say
+- **00:03:46** — get to what he's actually saying. I say be a bit more brutal. Uh, I know how to
+- **00:03:49** — be a bit more brutal. Uh, I know how to translate what he's saying and what he
+- **00:03:50** — translate what he's saying and what he means. And sometimes in editing, it's
+- **00:03:54** — means. And sometimes in editing, it's easier to be brutal. Um, because often
+- **00:03:59** — easier to be brutal. Um, because often like there's a temptation to sort of
+- **00:04:01** — like there's a temptation to sort of like correct sentences and correct lines
+- **00:04:04** — like correct sentences and correct lines and correct a little scene when really
+- **00:04:08** — and correct a little scene when really there's a bigger problem. It's not the
+- **00:04:10** — there's a bigger problem. It's not the thing that's happening on that specific
+- **00:04:11** — thing that's happening on that specific page. it's actually speaking to a bigger
+- **00:04:14** — page. it's actually speaking to a bigger problem. What famously happens um with
+- **00:04:18** — problem. What famously happens um with me and my editor is he will say a few
+- **00:04:20** — me and my editor is he will say a few things thinking I'm going to change a
+- **00:04:22** — things thinking I'm going to change a paragraph here, a paragraph there, and
+- **00:04:24** — paragraph here, a paragraph there, and then suddenly I'll have wiped out 50,000
+- **00:04:26** — then suddenly I'll have wiped out 50,000 words cuz I'm just like, you know, if if
+- **00:04:29** — words cuz I'm just like, you know, if if you're spotting a little problem there,
+- **00:04:31** — you're spotting a little problem there, I'm going to like pull at that and
+- **00:04:32** — I'm going to like pull at that and think, what is that problem about? Oh,
+- **00:04:34** — think, what is that problem about? Oh, it's about that whole character doesn't
+- **00:04:35** — it's about that whole character doesn't need to be there or that whole premise.
+- **00:04:38** — need to be there or that whole premise. I mean, with a novel I write called The
+- **00:04:39** — I mean, with a novel I write called The Humans, I think I deleted
+- **00:04:44** — Humans, I think I deleted 40, it was a small novel to start with.
+- **00:04:47** — 40, it was a small novel to start with. It was about 80,000 words. And so 40,000
+- **00:04:50** — It was about 80,000 words. And so 40,000 of those went and then another 55,000
+- **00:04:54** — of those went and then another 55,000 were added between the first and second
+- **00:04:57** — were added between the first and second draft. And and it's strange because you
+- **00:04:59** — draft. And and it's strange because you will click send on your first draft
+- **00:05:00** — will click send on your first draft thinking it's the most perfect,
+- **00:05:03** — thinking it's the most perfect, complete, finished thing that you can
+- **00:05:06** — complete, finished thing that you can do. you think you actually feel like it
+- **00:05:08** — do. you think you actually feel like it isn't a first draft because you've got
+- **00:05:10** — isn't a first draft because you've got you've known it and you've gone through
+- **00:05:11** — you've known it and you've gone through it and you've been editing as you go.
+- **00:05:13** — it and you've been editing as you go. &gt;&gt; You've lived inside of it.
+- **00:05:14** — &gt;&gt; You've lived inside of it. &gt;&gt; You've lived inside of it. So, it's it's
+- **00:05:16** — &gt;&gt; You've lived inside of it. So, it's it's called technically a first draft, but it
+- **00:05:18** — called technically a first draft, but it doesn't actually feel like a first draft
+- **00:05:19** — doesn't actually feel like a first draft in your head. It feels like something
+- **00:05:21** — in your head. It feels like something you've just gone through and gone
+- **00:05:22** — you've just gone through and gone through and you think this time my
+- **00:05:24** — through and you think this time my editor is going to faint in wonder and
+- **00:05:27** — editor is going to faint in wonder and think this is perfect but nothing to do.
+- **00:05:30** — think this is perfect but nothing to do. And obviously that's not what happens.
+- **00:05:32** — And obviously that's not what happens. What happens is that that there is stuff
+- **00:05:34** — What happens is that that there is stuff to do, but it's needed those outside
+- **00:05:36** — to do, but it's needed those outside eyes to see it. And it's an interesting
+- **00:05:39** — eyes to see it. And it's an interesting art editing because you have to go in
+- **00:05:41** — art editing because you have to go in knowing there's no such thing as
+- **00:05:43** — knowing there's no such thing as perfection. You have to go in knowing
+- **00:05:45** — perfection. You have to go in knowing there's no perfect novel that you can
+- **00:05:48** — there's no perfect novel that you can reach. And also understanding that there
+- **00:05:50** — reach. And also understanding that there comes a point that each draft you're
+- **00:05:52** — comes a point that each draft you're improving things
+- **00:05:54** — improving things could start to make it worse. Like
+- **00:05:57** — could start to make it worse. Like there's a diminishing returns that
+- **00:05:58** — there's a diminishing returns that happens with me. is like the fourth or
+- **00:06:01** — happens with me. is like the fourth or fifth round after that
+- **00:06:04** — fifth round after that you're you're getting so far away from
+- **00:06:07** — you're you're getting so far away from the thing you started with that it's
+- **00:06:09** — the thing you started with that it's getting worse and you see it in the film
+- **00:06:11** — getting worse and you see it in the film industry all the time when things have
+- **00:06:12** — industry all the time when things have just been too meddled with
+- **00:06:14** — just been too meddled with &gt;&gt; and this is a lot of people's complaint
+- **00:06:16** — &gt;&gt; and this is a lot of people's complaint about electronic music I was getting a
+- **00:06:17** — about electronic music I was getting a haircut yesterday just listening to
+- **00:06:19** — haircut yesterday just listening to super pop EDM and I was like it feels
+- **00:06:23** — super pop EDM and I was like it feels flat it's too perfect you know like all
+- **00:06:25** — flat it's too perfect you know like all the notes hit on the fours and the
+- **00:06:27** — the notes hit on the fours and the eights
+- **00:06:28** — eights &gt;&gt; and there's none of the you know we go
+- **00:06:30** — &gt;&gt; and there's none of the you know we go out to a pub here in London tonight and
+- **00:06:32** — out to a pub here in London tonight and you hear some of the like a really good
+- **00:06:34** — you hear some of the like a really good live band. There's a messiness, there's
+- **00:06:37** — live band. There's a messiness, there's a chaos that kind of comes from it that
+- **00:06:39** — a chaos that kind of comes from it that is very human,
+- **00:06:40** — is very human, &gt;&gt; but something about it feels more alive.
+- **00:06:43** — &gt;&gt; but something about it feels more alive. &gt;&gt; Yeah, exactly. And this is my one and
+- **00:06:46** — &gt;&gt; Yeah, exactly. And this is my one and only optimistic take about AI is it's
+- **00:06:49** — only optimistic take about AI is it's going to make humans be more human.
+- **00:06:52** — going to make humans be more human. We're going to realize we can't do what
+- **00:06:54** — We're going to realize we can't do what AI is doing and we don't work like AI.
+- **00:06:57** — AI is doing and we don't work like AI. We're actually work like the opposite of
+- **00:06:59** — We're actually work like the opposite of AI. We're going to become more human and
+- **00:07:01** — AI. We're going to become more human and I feel like the taste is going to be for
+- **00:07:03** — I feel like the taste is going to be for weirder stuff. If you think about what
+- **00:07:05** — weirder stuff. If you think about what AI is, AI is looking at everything
+- **00:07:07** — AI is, AI is looking at everything that's gone before. True creativity is
+- **00:07:10** — that's gone before. True creativity is going to become more valuable, i.e.
+- **00:07:11** — going to become more valuable, i.e. creating new stuff, things that AI can't
+- **00:07:14** — creating new stuff, things that AI can't do because it doesn't exist and it's
+- **00:07:16** — do because it doesn't exist and it's only knowing what's existed and we're
+- **00:07:18** — only knowing what's existed and we're trying to create things that haven't
+- **00:07:19** — trying to create things that haven't existed. So I think this sort of trend
+- **00:07:24** — existed. So I think this sort of trend of looking backwards at what trends were
+- **00:07:26** — of looking backwards at what trends were and what things eventually isn't going
+- **00:07:28** — and what things eventually isn't going to work anymore because AI can do all of
+- **00:07:31** — to work anymore because AI can do all of that. We're going to have to find new
+- **00:07:33** — that. We're going to have to find new messy human things. And it's interesting
+- **00:07:36** — messy human things. And it's interesting to me from the sort of creative
+- **00:07:39** — to me from the sort of creative standpoint to look at the difference
+- **00:07:41** — standpoint to look at the difference fundamentally different nature of AI to
+- **00:07:45** — fundamentally different nature of AI to human evolution. Like life famously
+- **00:07:49** — human evolution. Like life famously evolves through mistakes and mutations
+- **00:07:51** — evolves through mistakes and mutations and that's how DNA works. Whereas AI is
+- **00:07:53** — and that's how DNA works. Whereas AI is set up to be a perfectionist. It sort of
+- **00:07:56** — set up to be a perfectionist. It sort of wheels out all mistakes. Any equivalent
+- **00:07:58** — wheels out all mistakes. Any equivalent of mutation it stops. So we evolve in
+- **00:08:01** — of mutation it stops. So we evolve in fundamentally opposite ways. Life and
+- **00:08:04** — fundamentally opposite ways. Life and technology evolves in fundamentally
+- **00:08:06** — technology evolves in fundamentally opposite ways. And I think there's a
+- **00:08:09** — opposite ways. And I think there's a sort of optimism there that actually
+- **00:08:10** — sort of optimism there that actually being human is something quite different
+- **00:08:13** — being human is something quite different that AI won't be able to replicate
+- **00:08:15** — that AI won't be able to replicate because we we we create more beautiful
+- **00:08:19** — because we we we create more beautiful mistakes.
+- **00:08:21** — mistakes. &gt;&gt; So take me forward 20, 30 years.
+- **00:08:24** — &gt;&gt; So take me forward 20, 30 years. We're looking at the books that people
+- **00:08:26** — We're looking at the books that people are reading. How are they different in
+- **00:08:28** — are reading. How are they different in that world where AI is all around us
+- **00:08:31** — that world where AI is all around us than the books that we're reading now?
+- **00:08:33** — than the books that we're reading now? I mean
+- **00:08:35** — I mean I have no idea but [laughter]
+- **00:08:39** — I have no idea but [laughter] so I know that but the romantic in you
+- **00:08:42** — so I know that but the romantic in you will answer this question in me will
+- **00:08:44** — will answer this question in me will answer this question and say that I
+- **00:08:46** — answer this question and say that I think for me personally and for a lot of
+- **00:08:48** — think for me personally and for a lot of people the moment you know a human
+- **00:08:53** — people the moment you know a human hasn't created something a human hasn't
+- **00:08:57** — hasn't created something a human hasn't felt something a human hasn't gone
+- **00:08:59** — felt something a human hasn't gone through the pain that's being written
+- **00:09:01** — through the pain that's being written about then it becomes somehow how
+- **00:09:03** — about then it becomes somehow how automatically less or redundant. Like
+- **00:09:06** — automatically less or redundant. Like &gt;&gt; part of me when I'm hearing a song, when
+- **00:09:08** — &gt;&gt; part of me when I'm hearing a song, when I'm watching a film, when I'm seeing an
+- **00:09:10** — I'm watching a film, when I'm seeing an actor, when I'm reading a book, part of
+- **00:09:13** — actor, when I'm reading a book, part of that power is knowing there's a humanity
+- **00:09:16** — that power is knowing there's a humanity behind it, knowing there's an
+- **00:09:17** — behind it, knowing there's an articulation. You know, I felt a lot
+- **00:09:19** — articulation. You know, I felt a lot like everyone, I felt a lot of pain in
+- **00:09:20** — like everyone, I felt a lot of pain in my life. And one of the reasons I'm
+- **00:09:22** — my life. And one of the reasons I'm drawn to art is to ease that pain and to
+- **00:09:26** — drawn to art is to ease that pain and to feel understood and feel less alone. And
+- **00:09:28** — feel understood and feel less alone. And if art is there to make us feel less
+- **00:09:31** — if art is there to make us feel less alone, then how is AI, which is making
+- **00:09:35** — alone, then how is AI, which is making us feel more alone, going to help with
+- **00:09:37** — us feel more alone, going to help with that? We're going to need other humans
+- **00:09:39** — that? We're going to need other humans more, we're going to need art more as
+- **00:09:42** — more, we're going to need art more as our world changes in the face of
+- **00:09:44** — our world changes in the face of technology. So the romantic in me feels
+- **00:09:47** — technology. So the romantic in me feels that books made by humans even if it
+- **00:09:49** — that books made by humans even if it becomes like you know humanmade as a
+- **00:09:53** — becomes like you know humanmade as a sticker like organic or fair trade
+- **00:09:55** — sticker like organic or fair trade onward I think there will always be a uh
+- **00:10:00** — onward I think there will always be a uh value of being human for humans. So art
+- **00:10:03** — value of being human for humans. So art will always have its place as a human
+- **00:10:05** — will always have its place as a human form. This is what I hope. I hope that
+- **00:10:07** — form. This is what I hope. I hope that things become out of sheer rarity maybe,
+- **00:10:10** — things become out of sheer rarity maybe, but as we're more clogged up, as our
+- **00:10:11** — but as we're more clogged up, as our inboxes and as the internet is more
+- **00:10:14** — inboxes and as the internet is more clogged up with this artificial stuff,
+- **00:10:16** — clogged up with this artificial stuff, the our eyes and ears will be so much
+- **00:10:21** — the our eyes and ears will be so much more craving um the sort of beautiful
+- **00:10:24** — more craving um the sort of beautiful inauthentic
+- **00:10:26** — inauthentic authentic messy chaos.
+- **00:10:28** — authentic messy chaos. &gt;&gt; I'm so desperate for it, man. just like
+- **00:10:31** — &gt;&gt; I'm so desperate for it, man. just like to read writing where when I read it, I
+- **00:10:34** — to read writing where when I read it, I feel the voice, the soul, the
+- **00:10:36** — feel the voice, the soul, the personality of whoever that is on the
+- **00:10:38** — personality of whoever that is on the other side where it's like I'm getting
+- **00:10:40** — other side where it's like I'm getting you. I'm getting Matt. I'm getting David
+- **00:10:43** — you. I'm getting Matt. I'm getting David in this email and I can feel your
+- **00:10:47** — in this email and I can feel your presence through these words.
+- **00:10:49** — presence through these words. &gt;&gt; And I think we'll be more forgiving of
+- **00:10:51** — &gt;&gt; And I think we'll be more forgiving of mistakes. I think we'll be more
+- **00:10:53** — mistakes. I think we'll be more forgiving of imperfections. We might,
+- **00:10:54** — forgiving of imperfections. We might, you know, like uh young people have
+- **00:10:56** — you know, like uh young people have famously been feeling this pressure
+- **00:10:58** — famously been feeling this pressure about looking perfect and everything
+- **00:11:00** — about looking perfect and everything else and and that's going to fade away,
+- **00:11:01** — else and and that's going to fade away, I think, because we we're going to
+- **00:11:03** — I think, because we we're going to realize we either fail to compete with
+- **00:11:06** — realize we either fail to compete with AI or we just value what we are
+- **00:11:09** — AI or we just value what we are inherently in ourselves. And I think
+- **00:11:10** — inherently in ourselves. And I think that's the only way we can go.
+- **00:11:12** — that's the only way we can go. &gt;&gt; When you think of school, what comes to
+- **00:11:13** — &gt;&gt; When you think of school, what comes to mind? For me, it was lectures, homework,
+- **00:11:16** — mind? For me, it was lectures, homework, sitting at a desk. And the worst part is
+- **00:11:18** — sitting at a desk. And the worst part is it doesn't even work. 54% of Americans
+- **00:11:22** — it doesn't even work. 54% of Americans read below a sixth grade level. That's
+- **00:11:24** — read below a sixth grade level. That's over half of Americans. We need
+- **00:11:28** — over half of Americans. We need something new. And that's why I'm
+- **00:11:29** — something new. And that's why I'm excited to have Alpha School as the
+- **00:11:31** — excited to have Alpha School as the flagship sponsor for How I Write. At
+- **00:11:33** — flagship sponsor for How I Write. At Alpha, you go to school and do all your
+- **00:11:35** — Alpha, you go to school and do all your academics at only 2 hours per day. So
+- **00:11:38** — academics at only 2 hours per day. So that then you can spend the rest of the
+- **00:11:39** — that then you can spend the rest of the day learning life skills like launching
+- **00:11:41** — day learning life skills like launching a business, writing a musical, or giving
+- **00:11:44** — a business, writing a musical, or giving a TED talk. You know, the kind of things
+- **00:11:46** — a TED talk. You know, the kind of things that make you a capable and well-rounded
+- **00:11:48** — that make you a capable and well-rounded person. and it's working. They have
+- **00:11:51** — person. and it's working. They have academics figured out. Alpha classes
+- **00:11:53** — academics figured out. Alpha classes test in the top 1% nationally and more
+- **00:11:56** — test in the top 1% nationally and more than 90% of alpha students say they love
+- **00:11:58** — than 90% of alpha students say they love school. Now, I used to live in Austin
+- **00:12:00** — school. Now, I used to live in Austin where alpha school started and I was
+- **00:12:02** — where alpha school started and I was consistently blown away with what was
+- **00:12:05** — consistently blown away with what was happening there. [music] I personally
+- **00:12:06** — happening there. [music] I personally mentored a bunch of Alpha students and
+- **00:12:08** — mentored a bunch of Alpha students and what stood out to me is how much the
+- **00:12:10** — what stood out to me is how much the team believes in the potential of kids
+- **00:12:12** — team believes in the potential of kids way more than what I ever got in school.
+- **00:12:15** — way more than what I ever got in school. Alpha's approach and the success it's
+- **00:12:17** — Alpha's approach and the success it's already having is why it's the most
+- **00:12:19** — already having is why it's the most talked about K- through2 school in the
+- **00:12:20** — talked about K- through2 school in the world right now. And it's also where I
+- **00:12:23** — world right now. And it's also where I want to send my kids to school one day.
+- **00:12:24** — want to send my kids to school one day. So, if you want to learn more, go to
+- **00:12:26** — So, if you want to learn more, go to go.alpha.school/h
+- **00:12:32** — how I write. What I hope doesn't happen is that it
+- **00:12:34** — What I hope doesn't happen is that it becomes like modern art where it becomes
+- **00:12:37** — becomes like modern art where it becomes about the shock and it becomes about the
+- **00:12:39** — about the shock and it becomes about the novelty and it becomes about look at
+- **00:12:41** — novelty and it becomes about look at what I did that no one else has ever
+- **00:12:42** — what I did that no one else has ever done before.
+- **00:12:43** — done before. &gt;&gt; Yeah. Right. Right. Right. Yeah, but I I
+- **00:12:46** — &gt;&gt; Yeah. Right. Right. Right. Yeah, but I I I think again that that you know AI
+- **00:12:49** — I think again that that you know AI could almost replicate that. I feel like
+- **00:12:52** — could almost replicate that. I feel like true human feeling like when I'm talking
+- **00:12:54** — true human feeling like when I'm talking about creating something new, it's not
+- **00:12:56** — about creating something new, it's not like you know coming up with a new form,
+- **00:12:58** — like you know coming up with a new form, a new media. It's literally just trying
+- **00:13:01** — a new media. It's literally just trying to articulate emotions in a way that
+- **00:13:04** — to articulate emotions in a way that haven't been articulated before or a
+- **00:13:05** — haven't been articulated before or a story that has been told in a different
+- **00:13:07** — story that has been told in a different way. Because if you're not creating
+- **00:13:09** — way. Because if you're not creating something
+- **00:13:10** — something new, if you're creating things that have
+- **00:13:12** — new, if you're creating things that have already been written exactly as they
+- **00:13:14** — already been written exactly as they are, then where's the impulse to write
+- **00:13:16** — are, then where's the impulse to write them? You might as well just, you know,
+- **00:13:18** — them? You might as well just, you know, read what's already been. So, I think
+- **00:13:19** — read what's already been. So, I think it's essentially, you know, creativity
+- **00:13:22** — it's essentially, you know, creativity is essentially anti-AII
+- **00:13:26** — is essentially anti-AII from the get-go because it's about
+- **00:13:29** — from the get-go because it's about creating stuff that's not there.
+- **00:13:32** — creating stuff that's not there. You think about short words and long
+- **00:13:34** — You think about short words and long words and you have a line that I like
+- **00:13:36** — words and you have a line that I like that sparrows fly higher than peacocks.
+- **00:13:40** — that sparrows fly higher than peacocks. &gt;&gt; Oh yeah, I do like short words. My
+- **00:13:42** — &gt;&gt; Oh yeah, I do like short words. My favorite word is probably home. I like
+- **00:13:45** — favorite word is probably home. I like sky. I like love. I like mono syllables.
+- **00:13:48** — sky. I like love. I like mono syllables. I think in British writing tradition,
+- **00:13:52** — I think in British writing tradition, certainly in the last 100 years, we're
+- **00:13:54** — certainly in the last 100 years, we're encouraged to always value the less used
+- **00:13:59** — encouraged to always value the less used word. Um, and I'm quite the opposite.
+- **00:14:03** — word. Um, and I'm quite the opposite. But I can remember at school my English
+- **00:14:05** — But I can remember at school my English teacher always used to say, you know,
+- **00:14:08** — teacher always used to say, you know, you must never use nice. You must never
+- **00:14:11** — you must never use nice. You must never say the word nice. And I think why?
+- **00:14:14** — say the word nice. And I think why? Because people do use the word nice. And
+- **00:14:16** — Because people do use the word nice. And I actually like the word nice. It can it
+- **00:14:19** — I actually like the word nice. It can it can be a lazy word, but nice is a word
+- **00:14:21** — can be a lazy word, but nice is a word with lots of sort of subtleties to it as
+- **00:14:23** — with lots of sort of subtleties to it as well. So, I don't think there's any word
+- **00:14:25** — well. So, I don't think there's any word that you definitely shouldn't use by
+- **00:14:28** — that you definitely shouldn't use by virtue of it being overused. I just
+- **00:14:31** — virtue of it being overused. I just think it's how you use it. And I also
+- **00:14:32** — think it's how you use it. And I also think there's something very accessible
+- **00:14:34** — think there's something very accessible about simple words. And if you've got a
+- **00:14:36** — about simple words. And if you've got a word like home or sky, it's just got an
+- **00:14:39** — word like home or sky, it's just got an infinite sort of archetypal power to it.
+- **00:14:42** — infinite sort of archetypal power to it. I think that's just everyone has their
+- **00:14:44** — I think that's just everyone has their own understanding of it.
+- **00:14:47** — own understanding of it. &gt;&gt; An infinite archetypal power. What do
+- **00:14:49** — &gt;&gt; An infinite archetypal power. What do you mean by that? Well, I mean like if
+- **00:14:51** — you mean by that? Well, I mean like if we think about the power of language
+- **00:14:53** — we think about the power of language being something that brings people
+- **00:14:55** — being something that brings people together and connects people, then
+- **00:14:58** — together and connects people, then within language, the most simple
+- **00:15:00** — within language, the most simple concepts and the most simple words are
+- **00:15:02** — concepts and the most simple words are possibly the most powerful ones cuz
+- **00:15:04** — possibly the most powerful ones cuz they're the most shared and they're the
+- **00:15:07** — they're the most shared and they're the most understood. And I always find, I
+- **00:15:11** — most understood. And I always find, I don't know why, but if you end a chapter
+- **00:15:13** — don't know why, but if you end a chapter of a book with one of those words like
+- **00:15:16** — of a book with one of those words like sky or home, it just leaves on a nice
+- **00:15:19** — sky or home, it just leaves on a nice little note of kind of universality.
+- **00:15:23** — little note of kind of universality. &gt;&gt; Mhm. What is it that you love about
+- **00:15:25** — &gt;&gt; Mhm. What is it that you love about first drafts but then get frustrated
+- **00:15:27** — first drafts but then get frustrated with in the editing process?
+- **00:15:30** — with in the editing process? &gt;&gt; A first draft is new. You know, if you
+- **00:15:34** — &gt;&gt; A first draft is new. You know, if you think about a novel being something new,
+- **00:15:37** — think about a novel being something new, I mean, that's why you're writing a
+- **00:15:38** — I mean, that's why you're writing a novel. That's what a novel means. That's
+- **00:15:40** — novel. That's what a novel means. That's why, you know, the impulse to write is
+- **00:15:43** — why, you know, the impulse to write is to put something new into the world. A
+- **00:15:45** — to put something new into the world. A first draft, everything is new. It's new
+- **00:15:48** — first draft, everything is new. It's new to you. So, that's as close as you'll
+- **00:15:50** — to you. So, that's as close as you'll get to being a reader of your novel in
+- **00:15:53** — get to being a reader of your novel in the first draft because you're sort of
+- **00:15:56** — the first draft because you're sort of reading from your own imagination and
+- **00:15:57** — reading from your own imagination and dictating what's there. So I like first
+- **00:16:01** — dictating what's there. So I like first drafts because they're not boring to
+- **00:16:03** — drafts because they're not boring to write. Whereas editing can become by its
+- **00:16:07** — write. Whereas editing can become by its very nature monotonous, repetitive and
+- **00:16:10** — very nature monotonous, repetitive and familiar. Whereas uh when you're writing
+- **00:16:13** — familiar. Whereas uh when you're writing a first draft, you're sort of you're
+- **00:16:16** — a first draft, you're sort of you're fishing your own imagination. You're
+- **00:16:19** — fishing your own imagination. You're like on the banks of your own
+- **00:16:20** — like on the banks of your own imagination and you're um waiting to see
+- **00:16:24** — imagination and you're um waiting to see what's there. Because I've written
+- **00:16:26** — what's there. Because I've written non-fiction and fiction. And the
+- **00:16:29** — non-fiction and fiction. And the difference between writing non-fiction
+- **00:16:32** — difference between writing non-fiction in first draft and fiction is that with
+- **00:16:35** — in first draft and fiction is that with non-fiction you are confined to
+- **00:16:37** — non-fiction you are confined to literally what you know and not just
+- **00:16:39** — literally what you know and not just that to what you absolutely know you
+- **00:16:42** — that to what you absolutely know you know. Whereas with fiction I think it's
+- **00:16:45** — know. Whereas with fiction I think it's much more mysterious. I think you're
+- **00:16:49** — much more mysterious. I think you're writing what you know but you're writing
+- **00:16:51** — writing what you know but you're writing what you don't know you know. So you're
+- **00:16:53** — what you don't know you know. So you're sort of waiting to see what's there and
+- **00:16:55** — sort of waiting to see what's there and and you sort of discover more things
+- **00:16:57** — and you sort of discover more things about yourself and your imagination.
+- **00:16:59** — about yourself and your imagination. It's it's like entering your own dreams,
+- **00:17:01** — It's it's like entering your own dreams, isn't it? Fiction versus non-fiction
+- **00:17:04** — isn't it? Fiction versus non-fiction where you're in the land of sort of
+- **00:17:06** — where you're in the land of sort of shared objective reality, whereas
+- **00:17:09** — shared objective reality, whereas fiction is much sort of like trippier in
+- **00:17:12** — fiction is much sort of like trippier in a way and you're going into your sort of
+- **00:17:13** — a way and you're going into your sort of own subconscious.
+- **00:17:15** — own subconscious. &gt;&gt; Wow. The idea of entering your own dream
+- **00:17:17** — &gt;&gt; Wow. The idea of entering your own dream is crazy. Describe that.
+- **00:17:20** — is crazy. Describe that. Well, like I think it doesn't happen all
+- **00:17:23** — Well, like I think it doesn't happen all the time, but you can reach a kind of
+- **00:17:25** — the time, but you can reach a kind of like flow state in the middle of writing
+- **00:17:27** — like flow state in the middle of writing a first draft where you're not
+- **00:17:31** — a first draft where you're not consciously
+- **00:17:32** — consciously thinking around the writing. You're not
+- **00:17:35** — thinking around the writing. You're not sort of aware of what you're doing.
+- **00:17:37** — sort of aware of what you're doing. You're just writing. If you're doing
+- **00:17:38** — You're just writing. If you're doing anything often enough and you're getting
+- **00:17:41** — anything often enough and you're getting proficient at it, you can reach a point
+- **00:17:43** — proficient at it, you can reach a point where it's becoming quite unconscious.
+- **00:17:46** — where it's becoming quite unconscious. And I've noticed with writing fiction,
+- **00:17:49** — And I've noticed with writing fiction, that's the point where interesting stuff
+- **00:17:51** — that's the point where interesting stuff can happen, where it's almost automatic
+- **00:17:54** — can happen, where it's almost automatic and is not planned. I'm not a planner.
+- **00:17:57** — and is not planned. I'm not a planner. I, you know, I like to know roughly what
+- **00:17:59** — I, you know, I like to know roughly what I'm writing. I like to have a title. I
+- **00:18:01** — I'm writing. I like to have a title. I like to know a concept and my
+- **00:18:02** — like to know a concept and my characters, but beyond that, I'm not
+- **00:18:04** — characters, but beyond that, I'm not someone who sort of linearly writes down
+- **00:18:08** — someone who sort of linearly writes down chronological order what what's going
+- **00:18:10** — chronological order what what's going on.
+- **00:18:12** — on. &gt;&gt; So then when you're when it's working
+- **00:18:14** — &gt;&gt; So then when you're when it's working for you, what are you feeling?
+- **00:18:17** — for you, what are you feeling? um
+- **00:18:20** — um a feeling like excitement, but I but
+- **00:18:24** — a feeling like excitement, but I but there's also a kind of
+- **00:18:27** — there's also a kind of anxiety that sets in and a kind of
+- **00:18:30** — anxiety that sets in and a kind of feeling of like putting pressure on
+- **00:18:32** — feeling of like putting pressure on yourself because with me it is
+- **00:18:35** — yourself because with me it is equivalent to being a reader in a in the
+- **00:18:37** — equivalent to being a reader in a in the sense that you you have a story in your
+- **00:18:39** — sense that you you have a story in your mind and you're trying to dictate it and
+- **00:18:41** — mind and you're trying to dictate it and you're experiencing it for the first
+- **00:18:43** — you're experiencing it for the first time and you're rushing in in the sense
+- **00:18:46** — time and you're rushing in in the sense that you're trying to get it all down
+- **00:18:47** — that you're trying to get it all down before you forget it. So, you have the
+- **00:18:49** — before you forget it. So, you have the book in your head and you've got the
+- **00:18:51** — book in your head and you've got the sort of duty to get it down before it's
+- **00:18:53** — sort of duty to get it down before it's gone. This is my problem with first
+- **00:18:55** — gone. This is my problem with first drafts. I I generally love first drafts,
+- **00:18:57** — drafts. I I generally love first drafts, but my problem with them is that mine
+- **00:19:00** — but my problem with them is that mine tend to be quite rushed, you know? It's
+- **00:19:03** — tend to be quite rushed, you know? It's like a six-year-old coming in to say
+- **00:19:05** — like a six-year-old coming in to say what just happened in the sand pit and
+- **00:19:07** — what just happened in the sand pit and like saying and then and then Sammy
+- **00:19:10** — like saying and then and then Sammy pushed me over and this happened and
+- **00:19:12** — pushed me over and this happened and that happened and then and then and
+- **00:19:13** — that happened and then and then and then. So every sentence pretty much
+- **00:19:16** — then. So every sentence pretty much starts with and then you know I was just
+- **00:19:18** — starts with and then you know I was just sort of garbled writing it writing it
+- **00:19:20** — sort of garbled writing it writing it rush. I even have and then tattooed on
+- **00:19:22** — rush. I even have and then tattooed on my wrist [laughter]
+- **00:19:25** — my wrist [laughter] just to remind me that this is something
+- **00:19:26** — just to remind me that this is something I do. I possibly shouldn't but there's
+- **00:19:29** — I do. I possibly shouldn't but there's an always and then in life but um yeah
+- **00:19:32** — an always and then in life but um yeah so and then is is my is my weakness of
+- **00:19:35** — so and then is is my is my weakness of just like always s of like uh rushing.
+- **00:19:38** — just like always s of like uh rushing. But uh the flip side is that that that
+- **00:19:41** — But uh the flip side is that that that [sighs]
+- **00:19:42** — [sighs] [gasps]
+- **00:19:43** — [gasps] means you're sort of like not lingering
+- **00:19:45** — means you're sort of like not lingering on stuff you don't need to linger on.
+- **00:19:47** — on stuff you don't need to linger on. You're getting the story down and then
+- **00:19:49** — You're getting the story down and then you can embellish in the sort of editing
+- **00:19:51** — you can embellish in the sort of editing process.
+- **00:19:52** — process. &gt;&gt; So implied in what you're saying is the
+- **00:19:54** — &gt;&gt; So implied in what you're saying is the thing that is
+- **00:19:57** — thing that is pulling you is the plot, the story.
+- **00:19:59** — pulling you is the plot, the story. Well, I suppose with me, with my
+- **00:20:01** — Well, I suppose with me, with my writing, I want people to feel something
+- **00:20:04** — writing, I want people to feel something and to to get something out of it that's
+- **00:20:07** — and to to get something out of it that's slightly more than a story, but the
+- **00:20:09** — slightly more than a story, but the story is the vehicle to get them there
+- **00:20:12** — story is the vehicle to get them there to that feeling. So, I feel like for me,
+- **00:20:14** — to that feeling. So, I feel like for me, a story is a way of carrying an emotion,
+- **00:20:18** — a story is a way of carrying an emotion, a thought
+- **00:20:20** — a thought in the best way that I can manage to
+- **00:20:23** — in the best way that I can manage to deliver it to someone else.
+- **00:20:24** — deliver it to someone else. &gt;&gt; So, break that down how that would show
+- **00:20:26** — &gt;&gt; So, break that down how that would show up differently in different books for
+- **00:20:27** — up differently in different books for you. Even though I'm seen as quite a I
+- **00:20:29** — you. Even though I'm seen as quite a I think quite an uplifting optimistic
+- **00:20:32** — think quite an uplifting optimistic writer in recent years in my earlier
+- **00:20:35** — writer in recent years in my earlier books they were quite depressing. I mean
+- **00:20:37** — books they were quite depressing. I mean I wrote a book my third book which you
+- **00:20:40** — I wrote a book my third book which you won't have read no one has read. It's
+- **00:20:42** — won't have read no one has read. It's called the possession of Mr. Cave. It's
+- **00:20:44** — called the possession of Mr. Cave. It's like the most depressing book I think
+- **00:20:47** — like the most depressing book I think anyone's ever written. Everyone dies in
+- **00:20:49** — anyone's ever written. Everyone dies in it. There's literally no hope. I would
+- **00:20:51** — it. There's literally no hope. I would recommend no one to read this book. But
+- **00:20:53** — recommend no one to read this book. But it was [laughter]
+- **00:20:54** — it was [laughter] it was it it wasn't badly written. I
+- **00:20:58** — it was it it wasn't badly written. I don't think it was just so pointless and
+- **00:21:01** — don't think it was just so pointless and so depressing.
+- **00:21:03** — so depressing. And I was quite depressed when I was
+- **00:21:05** — And I was quite depressed when I was writing it. So So I that is an example
+- **00:21:08** — writing it. So So I that is an example of the extreme, you know, how how you
+- **00:21:11** — of the extreme, you know, how how you can ex feel extremely low and that be
+- **00:21:14** — can ex feel extremely low and that be reflected in the work. Now when I'm
+- **00:21:17** — reflected in the work. Now when I'm writing something uplifting, it's not
+- **00:21:18** — writing something uplifting, it's not because I'm feeling necessarily really
+- **00:21:20** — because I'm feeling necessarily really happy. It's because I'm wanting to do
+- **00:21:25** — happy. It's because I'm wanting to do something a bit more difficult than when
+- **00:21:26** — something a bit more difficult than when I was younger and actually to to go into
+- **00:21:29** — I was younger and actually to to go into sort of like the tricky areas of life
+- **00:21:30** — sort of like the tricky areas of life and try and find some sort of authentic
+- **00:21:33** — and try and find some sort of authentic optimism.
+- **00:21:35** — optimism. Not an easy optimism, not all unicorns
+- **00:21:37** — Not an easy optimism, not all unicorns and rainbows, but to try and find
+- **00:21:40** — and rainbows, but to try and find something within the reality and
+- **00:21:43** — something within the reality and depression and darkness of life, but to
+- **00:21:45** — depression and darkness of life, but to try and find some light or hope in there
+- **00:21:47** — try and find some light or hope in there just because basically I think that's a
+- **00:21:50** — just because basically I think that's a more useful thing to do with the one
+- **00:21:52** — more useful thing to do with the one life we have to actually put something
+- **00:21:54** — life we have to actually put something that can gives give someone a little bit
+- **00:21:56** — that can gives give someone a little bit of hope or a little bit of uh optimism.
+- **00:22:01** — of hope or a little bit of uh optimism. &gt;&gt; We're talking about what pulls you as a
+- **00:22:03** — &gt;&gt; We're talking about what pulls you as a writer. How would a premise pull you?
+- **00:22:05** — writer. How would a premise pull you? Cuz a question that's being asked, an
+- **00:22:08** — Cuz a question that's being asked, an idea that you're exploring.
+- **00:22:11** — idea that you're exploring. &gt;&gt; Yeah, a concept uh for me is everything.
+- **00:22:15** — &gt;&gt; Yeah, a concept uh for me is everything. Like uh if I get a concept that seems
+- **00:22:19** — Like uh if I get a concept that seems simple enough that I can just articulate
+- **00:22:21** — simple enough that I can just articulate it quite easily in a sentence, I think,
+- **00:22:24** — it quite easily in a sentence, I think, okay, that that's good. That's I'm not
+- **00:22:27** — okay, that that's good. That's I'm not having to overthink the concept. It's
+- **00:22:29** — having to overthink the concept. It's there is neat. you know, doesn't happen
+- **00:22:31** — there is neat. you know, doesn't happen often, but when you get it, you kind of
+- **00:22:34** — often, but when you get it, you kind of uh
+- **00:22:34** — uh &gt;&gt; like Midnight Library for
+- **00:22:36** — &gt;&gt; like Midnight Library for &gt;&gt; Midnight Library was definitely one
+- **00:22:38** — &gt;&gt; Midnight Library was definitely one where I thought that is a very uh simple
+- **00:22:43** — where I thought that is a very uh simple idea, but I had that idea for a long
+- **00:22:45** — idea, but I had that idea for a long time. It became simpler when I had the
+- **00:22:47** — time. It became simpler when I had the title because for a while I didn't have
+- **00:22:49** — title because for a while I didn't have the title. I just had this idea of a
+- **00:22:51** — the title. I just had this idea of a library. I think the original title was
+- **00:22:54** — library. I think the original title was the library of lost lives which would
+- **00:22:56** — the library of lost lives which would have been much too sort of long and
+- **00:23:00** — have been much too sort of long and uh a bit I don't know pretentious but
+- **00:23:03** — uh a bit I don't know pretentious but the midnight library just shrunk it and
+- **00:23:05** — the midnight library just shrunk it and just made it a simpler concept. So that
+- **00:23:06** — just made it a simpler concept. So that was an example of a sort of like the
+- **00:23:09** — was an example of a sort of like the right title simplifying the concept.
+- **00:23:13** — right title simplifying the concept. &gt;&gt; What's wrong with pretentious?
+- **00:23:15** — &gt;&gt; What's wrong with pretentious? Um there's nothing wrong with like
+- **00:23:19** — Um there's nothing wrong with like uh
+- **00:23:20** — uh difficulty or complexity,
+- **00:23:24** — difficulty or complexity, but when it's
+- **00:23:26** — but when it's just to sort of impress for no other
+- **00:23:31** — just to sort of impress for no other purpose than just to impress and say,
+- **00:23:33** — purpose than just to impress and say, "Aren't I a clever person? Aren't I a
+- **00:23:34** — "Aren't I a clever person? Aren't I a clever writer?" Then I think, what's the
+- **00:23:37** — clever writer?" Then I think, what's the point of it? Um so, and it's a trait I
+- **00:23:41** — point of it? Um so, and it's a trait I used to have when I started out. I think
+- **00:23:43** — used to have when I started out. I think there's two two temptations a writer has
+- **00:23:47** — there's two two temptations a writer has that can make you go wrong or go off
+- **00:23:50** — that can make you go wrong or go off track or stop you being yourself. One is
+- **00:23:53** — track or stop you being yourself. One is the desire
+- **00:23:54** — the desire to be too popular, too
+- **00:23:59** — to be too popular, too liked, too uh you you know too much of a
+- **00:24:02** — liked, too uh you you know too much of a people pleaser on the page. And the
+- **00:24:04** — people pleaser on the page. And the other thing is to desire to be taken
+- **00:24:07** — other thing is to desire to be taken seriously to
+- **00:24:10** — seriously to I don't know to be seen as a proper
+- **00:24:12** — I don't know to be seen as a proper writer to be awards worthy to get the
+- **00:24:15** — writer to be awards worthy to get the big reviews and that at various points
+- **00:24:17** — big reviews and that at various points in my career I've fallen victim to both
+- **00:24:20** — in my career I've fallen victim to both of those traps I feel um out of certain
+- **00:24:24** — of those traps I feel um out of certain insecurities at different points. So the
+- **00:24:27** — insecurities at different points. So the commercial trap I suppose and then the
+- **00:24:30** — commercial trap I suppose and then the capital L literary trap and to write
+- **00:24:34** — capital L literary trap and to write purely
+- **00:24:35** — purely I think you kind of just have to just
+- **00:24:37** — I think you kind of just have to just find a sort of inner voice that is
+- **00:24:39** — find a sort of inner voice that is immune to both of those temptations and
+- **00:24:43** — immune to both of those temptations and that doesn't mean that someone else
+- **00:24:45** — that doesn't mean that someone else reading it might think oh this is too
+- **00:24:47** — reading it might think oh this is too commercial or this is too literary or
+- **00:24:49** — commercial or this is too literary or this is too pretentious but it means you
+- **00:24:50** — this is too pretentious but it means you writing it wrote it from a pure place.
+- **00:24:53** — writing it wrote it from a pure place. At what point in your career did you
+- **00:24:55** — At what point in your career did you feel like you could transcend at least
+- **00:24:57** — feel like you could transcend at least the commercial instincts? Did you come
+- **00:25:00** — the commercial instincts? Did you come out of the gate saying I need to make
+- **00:25:01** — out of the gate saying I need to make money from this?
+- **00:25:03** — money from this? &gt;&gt; Well, one very simple uh
+- **00:25:08** — &gt;&gt; Well, one very simple uh understanding is that the moment you
+- **00:25:11** — understanding is that the moment you try and be commercial or try and
+- **00:25:14** — try and be commercial or try and research a market is the moment you will
+- **00:25:17** — research a market is the moment you will fail to be commercial and fail to reach
+- **00:25:20** — fail to be commercial and fail to reach the market. So there's a paradox
+- **00:25:22** — the market. So there's a paradox inherent in that. I notice in publishing
+- **00:25:25** — inherent in that. I notice in publishing a lot and it's understandable and it's
+- **00:25:27** — a lot and it's understandable and it's there in every industry that it becomes
+- **00:25:30** — there in every industry that it becomes quite backwards looking by its nature.
+- **00:25:34** — quite backwards looking by its nature. trends will be dictated on the basis of
+- **00:25:37** — trends will be dictated on the basis of what sold last year and even what sold
+- **00:25:40** — what sold last year and even what sold last year is actually going further back
+- **00:25:42** — last year is actually going further back in time because it was um taken on and
+- **00:25:47** — in time because it was um taken on and edited two years ago and written 3 years
+- **00:25:51** — edited two years ago and written 3 years ago and conceived four five years ago or
+- **00:25:53** — ago and conceived four five years ago or a decade ago. So by looking at the
+- **00:25:56** — a decade ago. So by looking at the market going out and just looking at the
+- **00:25:58** — market going out and just looking at the tables in a bookstore you're just
+- **00:25:59** — tables in a bookstore you're just looking at the past really. You're not
+- **00:26:02** — looking at the past really. You're not looking at if you started writing a book
+- **00:26:04** — looking at if you started writing a book now and that book's all right. It's
+- **00:26:05** — now and that book's all right. It's going to be on tables in 5 years time.
+- **00:26:07** — going to be on tables in 5 years time. So that's not the market. That's that's
+- **00:26:10** — So that's not the market. That's that's the past from where you're going to be.
+- **00:26:12** — the past from where you're going to be. So So thinking commercially,
+- **00:26:15** — So So thinking commercially, I don't even know what that means in
+- **00:26:17** — I don't even know what that means in that sense because we don't know the
+- **00:26:19** — that sense because we don't know the future of the market. So you the only
+- **00:26:21** — future of the market. So you the only reader you're going to know is yourself.
+- **00:26:23** — reader you're going to know is yourself. So you just have to be honest about the
+- **00:26:26** — So you just have to be honest about the book you would want to read and that you
+- **00:26:28** — book you would want to read and that you would want to write. And hopefully those
+- **00:26:30** — would want to write. And hopefully those two things are the same thing. And when
+- **00:26:32** — two things are the same thing. And when that happens, then that's one to do.
+- **00:26:36** — that happens, then that's one to do. &gt;&gt; What if I came to you and I was like,
+- **00:26:38** — &gt;&gt; What if I came to you and I was like, dude, I am being honest. Like, I think
+- **00:26:41** — dude, I am being honest. Like, I think this is good. It's just it's just not
+- **00:26:43** — this is good. It's just it's just not working. No one is buying what I'm
+- **00:26:45** — working. No one is buying what I'm making. Help me. That was my situation.
+- **00:26:49** — making. Help me. That was my situation. like I I was the the big sort of
+- **00:26:52** — like I I was the the big sort of breakthrough novel I suppose for me was
+- **00:26:54** — breakthrough novel I suppose for me was The Midnight Library, but that was like
+- **00:26:56** — The Midnight Library, but that was like book number 20 in terms of everything.
+- **00:27:00** — book number 20 in terms of everything. Um, so I had written a lot of books. I'd
+- **00:27:04** — Um, so I had written a lot of books. I'd been rejected by a lot of publishers.
+- **00:27:06** — been rejected by a lot of publishers. I'd been dropped by a couple of
+- **00:27:08** — I'd been dropped by a couple of publishers, but still
+- **00:27:12** — publishers, but still I had to just find what I wanted to
+- **00:27:15** — I had to just find what I wanted to write because I had no no other way to
+- **00:27:17** — write because I had no no other way to write. And I'm very ADHD.
+- **00:27:19** — write. And I'm very ADHD. So for me, I can't write what I don't
+- **00:27:22** — So for me, I can't write what I don't want to write cuz I'm just too bored.
+- **00:27:24** — want to write cuz I'm just too bored. You know, I I I can't just be motivated
+- **00:27:26** — You know, I I I can't just be motivated by a deadline or necessity. I have to
+- **00:27:28** — by a deadline or necessity. I have to actually enjoy it because, you know,
+- **00:27:32** — actually enjoy it because, you know, otherwise I get too distracted and I
+- **00:27:34** — otherwise I get too distracted and I there's more interesting things. So it
+- **00:27:36** — there's more interesting things. So it has to be the most interesting thing for
+- **00:27:38** — has to be the most interesting thing for me to write. And often actually one of
+- **00:27:40** — me to write. And often actually one of the best things for me in terms of my
+- **00:27:43** — the best things for me in terms of my career was being dropped because I was
+- **00:27:44** — career was being dropped because I was dropped by a publisher. A tough point in
+- **00:27:47** — dropped by a publisher. A tough point in my life cuz we just had our first child
+- **00:27:49** — my life cuz we just had our first child and we had zero money and lots of debt.
+- **00:27:52** — and we had zero money and lots of debt. So we had a lot of financial pressure
+- **00:27:55** — So we had a lot of financial pressure which would make you think you were
+- **00:27:56** — which would make you think you were going to try and write something safe
+- **00:27:58** — going to try and write something safe and commercial. But that was the point.
+- **00:28:01** — and commercial. But that was the point. For some strange reason I just wrote my
+- **00:28:04** — For some strange reason I just wrote my first attempt at ignoring all that. I
+- **00:28:07** — first attempt at ignoring all that. I wrote a book which had elements of
+- **00:28:09** — wrote a book which had elements of science fiction, was strange tonally. It
+- **00:28:12** — science fiction, was strange tonally. It went from comedy to serious. It had an
+- **00:28:15** — went from comedy to serious. It had an alien in it as a central character. It
+- **00:28:17** — alien in it as a central character. It was called The Humans. It was a very odd
+- **00:28:21** — was called The Humans. It was a very odd book to write at that time. It didn't
+- **00:28:23** — book to write at that time. It didn't fit in the market because it wasn't pure
+- **00:28:25** — fit in the market because it wasn't pure science fiction. It wasn't a pure
+- **00:28:27** — science fiction. It wasn't a pure literary book. It wasn't purely comedy.
+- **00:28:30** — literary book. It wasn't purely comedy. It wasn't purely romantic. It was lots
+- **00:28:31** — It wasn't purely romantic. It was lots of different things, but it was very
+- **00:28:33** — of different things, but it was very much me and all my influences in one
+- **00:28:36** — much me and all my influences in one sort of pot. And that became at that
+- **00:28:39** — sort of pot. And that became at that point, certainly in the UK,
+- **00:28:41** — point, certainly in the UK, by far my most successful book. Because
+- **00:28:44** — by far my most successful book. Because I'd been dropped, I was had a kind of
+- **00:28:45** — I'd been dropped, I was had a kind of like Devil May Care feeling like, well,
+- **00:28:48** — like Devil May Care feeling like, well, probably no one's going to read this
+- **00:28:49** — probably no one's going to read this anyway, so if I'm writing something, I
+- **00:28:51** — anyway, so if I'm writing something, I might as well just write it for me. And
+- **00:28:54** — might as well just write it for me. And often when you get into that mode and
+- **00:28:57** — often when you get into that mode and you feel a little bit of nervousness in
+- **00:28:59** — you feel a little bit of nervousness in your stomach about what you're writing,
+- **00:29:01** — your stomach about what you're writing, that tends to be the one. When you lean
+- **00:29:03** — that tends to be the one. When you lean into the nervousness, the anxiety, the
+- **00:29:07** — into the nervousness, the anxiety, the self-consciousness, and actually just
+- **00:29:09** — self-consciousness, and actually just push past it, that's the point at which
+- **00:29:12** — push past it, that's the point at which you think, "Oh, this is going to work
+- **00:29:13** — you think, "Oh, this is going to work for me."
+- **00:29:15** — for me." With that book, what stood out to me was
+- **00:29:20** — With that book, what stood out to me was something I see over and over is this
+- **00:29:23** — something I see over and over is this idea of you're going to write about
+- **00:29:25** — idea of you're going to write about something that's disconnected from you,
+- **00:29:28** — something that's disconnected from you, but then in that disconnection, you then
+- **00:29:30** — but then in that disconnection, you then have the freedom to write about things
+- **00:29:31** — have the freedom to write about things that are very intimate.
+- **00:29:33** — that are very intimate. &gt;&gt; Yes.
+- **00:29:34** — &gt;&gt; Yes. &gt;&gt; Talk to me about that.
+- **00:29:35** — &gt;&gt; Talk to me about that. &gt;&gt; Totally. Well, yeah. Like that was
+- **00:29:38** — &gt;&gt; Totally. Well, yeah. Like that was weirdly my most personal book. The
+- **00:29:41** — weirdly my most personal book. The Humans was my most personal book, but it
+- **00:29:43** — Humans was my most personal book, but it was also my most fantastical in the
+- **00:29:47** — was also my most fantastical in the sense that it was literally about an
+- **00:29:48** — sense that it was literally about an alien from another planet coming to
+- **00:29:51** — alien from another planet coming to Earth to destroy humanity. So, it wasn't
+- **00:29:54** — Earth to destroy humanity. So, it wasn't my life.
+- **00:29:57** — my life. Weirdly, it wasn't my life. But it also
+- **00:30:01** — Weirdly, it wasn't my life. But it also was an example of when you're writing
+- **00:30:04** — was an example of when you're writing fiction, discovering things about
+- **00:30:08** — fiction, discovering things about yourself that you don't know about
+- **00:30:10** — yourself that you don't know about yourself. And this in quite a literal
+- **00:30:12** — yourself. And this in quite a literal sense, like a lot of people read that
+- **00:30:14** — sense, like a lot of people read that book and said to me, "Oh, thank you for
+- **00:30:16** — book and said to me, "Oh, thank you for writing a fable of autism. Thank you for
+- **00:30:20** — writing a fable of autism. Thank you for writing a book about what it feels like
+- **00:30:22** — writing a book about what it feels like to be autistic." I was like, I hadn't
+- **00:30:24** — to be autistic." I was like, I hadn't written a book about autism. What are
+- **00:30:26** — written a book about autism. What are you talking about? And then years later,
+- **00:30:29** — you talking about? And then years later, after my son, who who presented very
+- **00:30:32** — after my son, who who presented very clearly as autist diagnosed with autism,
+- **00:30:35** — clearly as autist diagnosed with autism, I went along thinking I was just going
+- **00:30:37** — I went along thinking I was just going to get diagnosed with ADHD and then I
+- **00:30:39** — to get diagnosed with ADHD and then I was the psychiatrist also told me I was
+- **00:30:41** — was the psychiatrist also told me I was autistic. I was thinking maybe I was
+- **00:30:43** — autistic. I was thinking maybe I was maybe I was writing
+- **00:30:46** — maybe I was writing about what it feels like to be neurode
+- **00:30:49** — about what it feels like to be neurode divergent via this alien in a human body
+- **00:30:53** — divergent via this alien in a human body who doesn't understand human rules. And
+- **00:30:54** — who doesn't understand human rules. And maybe that's what I was writing, but I
+- **00:30:55** — maybe that's what I was writing, but I didn't know I was writing that. I
+- **00:30:56** — didn't know I was writing that. I thought I was writing Douglas Adams
+- **00:30:58** — thought I was writing Douglas Adams tribute about an alien coming to Earth.
+- **00:31:01** — tribute about an alien coming to Earth. And but that's what I find addictive
+- **00:31:03** — And but that's what I find addictive about creating stuff. I I think that
+- **00:31:06** — about creating stuff. I I think that unknown
+- **00:31:07** — unknown sort of lagoon that you're sort of like
+- **00:31:10** — sort of lagoon that you're sort of like sat beside and then watching things
+- **00:31:13** — sat beside and then watching things bubble up. Yeah. That's what's sort of
+- **00:31:15** — bubble up. Yeah. That's what's sort of tantalizing about it. You know, there's
+- **00:31:16** — tantalizing about it. You know, there's a point in your career where it becomes
+- **00:31:18** — a point in your career where it becomes a career where there's contracts,
+- **00:31:21** — a career where there's contracts, there's deadlines, there's advances,
+- **00:31:24** — there's deadlines, there's advances, there's expectation, there's a
+- **00:31:26** — there's expectation, there's a readership. And then you start to think,
+- **00:31:29** — readership. And then you start to think, you start to question, am I writing for
+- **00:31:32** — you start to question, am I writing for the right reasons? Am I do I would I
+- **00:31:35** — the right reasons? Am I do I would I still be a writer if this wasn't a job
+- **00:31:39** — still be a writer if this wasn't a job and this was a hobby? Would I still go
+- **00:31:41** — and this was a hobby? Would I still go away and just write stories? You never
+- **00:31:44** — away and just write stories? You never 100% know the honest answer to that. But
+- **00:31:47** — 100% know the honest answer to that. But I think genuinely in my case I would
+- **00:31:50** — I think genuinely in my case I would because after the Midnight Library I had
+- **00:31:52** — because after the Midnight Library I had a kind of mental health wobble. I gave
+- **00:31:54** — a kind of mental health wobble. I gave up alcohol. I um had therapy for the
+- **00:31:58** — up alcohol. I um had therapy for the first time in my life. I should have had
+- **00:31:59** — first time in my life. I should have had it about 20 years before
+- **00:32:00** — it about 20 years before &gt;&gt; after the book came out. after the book
+- **00:32:02** — &gt;&gt; after the book came out. after the book came out
+- **00:32:03** — came out &gt;&gt; after it was successful. Uh well it was
+- **00:32:06** — &gt;&gt; after it was successful. Uh well it was successful but I I don't think it was to
+- **00:32:08** — successful but I I don't think it was to do with that necessarily other than the
+- **00:32:11** — do with that necessarily other than the fact that
+- **00:32:13** — fact that &gt;&gt; when you have success you can have this
+- **00:32:15** — &gt;&gt; when you have success you can have this sort of sudden guilt if you're not
+- **00:32:16** — sort of sudden guilt if you're not feeling happy all the time cuz you're
+- **00:32:18** — feeling happy all the time cuz you're like other people think well what have
+- **00:32:19** — like other people think well what have you got to worry about but my yeah you
+- **00:32:21** — you got to worry about but my yeah you know I had various stuff my dad was
+- **00:32:23** — know I had various stuff my dad was going through cancer um we we my son was
+- **00:32:27** — going through cancer um we we my son was ill for a while and you know just lots
+- **00:32:29** — ill for a while and you know just lots of life stresses were going on
+- **00:32:31** — of life stresses were going on simultaneously at the same time this
+- **00:32:33** — simultaneously at the same time this other great dream was being fulfilled
+- **00:32:35** — other great dream was being fulfilled and I had this big successful novel. So,
+- **00:32:39** — and I had this big successful novel. So, it was just a lot. It was it was it was
+- **00:32:41** — it was just a lot. It was it was it was a sort of time to get therapy. But I
+- **00:32:44** — a sort of time to get therapy. But I also thought that was possibly the time
+- **00:32:46** — also thought that was possibly the time to step away from writing. I thought I
+- **00:32:48** — to step away from writing. I thought I don't need to write in the way I used to
+- **00:32:51** — don't need to write in the way I used to for, you know, as a job. I could step
+- **00:32:54** — for, you know, as a job. I could step away for a while. I could just sort of
+- **00:32:56** — away for a while. I could just sort of leave it there. And so, I had about 6
+- **00:32:59** — leave it there. And so, I had about 6 months to a year not writing.
+- **00:33:02** — months to a year not writing. But I found
+- **00:33:05** — But I found I had nowhere to sort of like hook
+- **00:33:09** — I had nowhere to sort of like hook myself to sort of like place this energy
+- **00:33:13** — myself to sort of like place this energy in in terms of my own mind. And so I did
+- **00:33:16** — in in terms of my own mind. And so I did end up writing and I wrote a very
+- **00:33:18** — end up writing and I wrote a very strange novel called of a life
+- **00:33:19** — strange novel called of a life impossible. And that I feel it was
+- **00:33:23** — impossible. And that I feel it was almost like writing a first novel again
+- **00:33:25** — almost like writing a first novel again because I I was genuinely writing that
+- **00:33:27** — because I I was genuinely writing that for me. It wasn't a very outward-f
+- **00:33:30** — for me. It wasn't a very outward-f facing novel. It wasn't a very reader
+- **00:33:32** — facing novel. It wasn't a very reader centric novel. It was just me getting
+- **00:33:35** — centric novel. It was just me getting stuff out and um but it was it was kind
+- **00:33:39** — stuff out and um but it was it was kind of therapy. It was kind of like just
+- **00:33:41** — of therapy. It was kind of like just ordering the world in a way that I
+- **00:33:44** — ordering the world in a way that I couldn't otherwise.
+- **00:33:46** — couldn't otherwise. Yeah. What are the adjectives that you
+- **00:33:50** — Yeah. What are the adjectives that you feel like you're embodying when you're
+- **00:33:54** — feel like you're embodying when you're pulled into a story? Is it curiosity? Is
+- **00:33:57** — pulled into a story? Is it curiosity? Is it play? Is it wonder? Is it kind of
+- **00:33:59** — it play? Is it wonder? Is it kind of like fantastical?
+- **00:34:01** — like fantastical? &gt;&gt; I do like fantasy and I like realism,
+- **00:34:03** — &gt;&gt; I do like fantasy and I like realism, but I like having one foot in both. But
+- **00:34:06** — but I like having one foot in both. But my my safe space, the place I like to
+- **00:34:09** — my my safe space, the place I like to work in is where it's a recognizable
+- **00:34:12** — work in is where it's a recognizable real world, but something odd is going
+- **00:34:15** — real world, but something odd is going on within that real world. And I also
+- **00:34:17** — on within that real world. And I also think now in like um the 2020s it's
+- **00:34:22** — think now in like um the 2020s it's increasingly hard I feel some people can
+- **00:34:25** — increasingly hard I feel some people can do it very well to write about objective
+- **00:34:28** — do it very well to write about objective reality because I feel like in the
+- **00:34:32** — reality because I feel like in the internet age in our increasingly divided
+- **00:34:35** — internet age in our increasingly divided society it's hard to agree to have a
+- **00:34:39** — society it's hard to agree to have a consensus to have a unifying idea of
+- **00:34:42** — consensus to have a unifying idea of what reality
+- **00:34:44** — what reality is. And how would this show up in a
+- **00:34:46** — is. And how would this show up in a novel?
+- **00:34:48** — novel? &gt;&gt; Well, in a novel,
+- **00:34:50** — &gt;&gt; Well, in a novel, the re the way the reason I like to
+- **00:34:53** — the re the way the reason I like to write a sort of recognizable reality
+- **00:34:57** — write a sort of recognizable reality that has something surreal happening in
+- **00:35:00** — that has something surreal happening in it or something that couldn't quite
+- **00:35:02** — it or something that couldn't quite necessarily happen is because I think
+- **00:35:04** — necessarily happen is because I think that is almost more realistic to me now
+- **00:35:07** — that is almost more realistic to me now because we're all in our own little
+- **00:35:09** — because we're all in our own little reality bubbles that aren't necessarily
+- **00:35:12** — reality bubbles that aren't necessarily capital R reality. So it seems almost
+- **00:35:15** — capital R reality. So it seems almost arrogant I feel to just sort of write a
+- **00:35:18** — arrogant I feel to just sort of write a novel and say this is reality or this is
+- **00:35:21** — novel and say this is reality or this is what London is or British life is
+- **00:35:24** — what London is or British life is because it's like I feel everyone has a
+- **00:35:26** — because it's like I feel everyone has a different version of what that is.
+- **00:35:28** — different version of what that is. Whereas when you're write putting a
+- **00:35:30** — Whereas when you're write putting a little bit of fantasy in there, you're
+- **00:35:32** — little bit of fantasy in there, you're suddenly entering the land of uh dreams
+- **00:35:35** — suddenly entering the land of uh dreams and I feel like dreams are not only
+- **00:35:39** — and I feel like dreams are not only safer in that sense, they're also
+- **00:35:42** — safer in that sense, they're also uh more revealing and you can actually
+- **00:35:46** — uh more revealing and you can actually you can bring um very different types of
+- **00:35:49** — you can bring um very different types of readers together. I think the thing I'm
+- **00:35:51** — readers together. I think the thing I'm proudest most of in terms of my career
+- **00:35:54** — proudest most of in terms of my career is that I don't have a specific
+- **00:35:59** — is that I don't have a specific reader. Like when I I do a book event,
+- **00:36:01** — reader. Like when I I do a book event, I've got, you know, men, women, young
+- **00:36:04** — I've got, you know, men, women, young people, old people, you know, I don't
+- **00:36:05** — people, old people, you know, I don't have a specific reader. And that I think
+- **00:36:08** — have a specific reader. And that I think for me is the thing I'm proudest of. But
+- **00:36:11** — for me is the thing I'm proudest of. But I don't have a set demographic because
+- **00:36:15** — I don't have a set demographic because what I'm trying to do when I'm writing
+- **00:36:16** — what I'm trying to do when I'm writing is to try and reach that level of shared
+- **00:36:19** — is to try and reach that level of shared empathy and understanding between
+- **00:36:21** — empathy and understanding between people.
+- **00:36:22** — people. &gt;&gt; Mhm. How did writing children's books
+- **00:36:26** — &gt;&gt; Mhm. How did writing children's books help you get there?
+- **00:36:28** — help you get there? &gt;&gt; Writing children's books to me is the
+- **00:36:31** — &gt;&gt; Writing children's books to me is the purest kind of writing. Um I feel like
+- **00:36:34** — purest kind of writing. Um I feel like children genuinely are the best readers
+- **00:36:37** — children genuinely are the best readers in the sense that they are so close to
+- **00:36:41** — in the sense that they are so close to their imaginations. So yes, obviously if
+- **00:36:43** — their imaginations. So yes, obviously if you're writing the children's books,
+- **00:36:45** — you're writing the children's books, there's stuff you can't write about and
+- **00:36:47** — there's stuff you can't write about and shouldn't write about and you have to be
+- **00:36:49** — shouldn't write about and you have to be aware of that. And also there's a sense
+- **00:36:52** — aware of that. And also there's a sense of responsibility when you're writing
+- **00:36:53** — of responsibility when you're writing for children. But at the same time,
+- **00:36:55** — for children. But at the same time, there's also great freedom because
+- **00:36:58** — there's also great freedom because children are so willing to go with the
+- **00:36:59** — children are so willing to go with the daydream. They're so willing. You can
+- **00:37:02** — daydream. They're so willing. You can have a sort of real world setting. You
+- **00:37:04** — have a sort of real world setting. You can set a novel in London and then have
+- **00:37:06** — can set a novel in London and then have a unicorn walk down the street and the
+- **00:37:09** — a unicorn walk down the street and the child will be so willing to believe in
+- **00:37:10** — child will be so willing to believe in that unicorn [laughter] that they will
+- **00:37:12** — that unicorn [laughter] that they will go with a unicorn. If you do that in an
+- **00:37:14** — go with a unicorn. If you do that in an adult novel, you would have to have an
+- **00:37:16** — adult novel, you would have to have an essay on quantum physics about how it
+- **00:37:18** — essay on quantum physics about how it could be possible. And to the extent,
+- **00:37:20** — could be possible. And to the extent, this is how much I value writing for
+- **00:37:23** — this is how much I value writing for children and children as readers. If I'm
+- **00:37:25** — children and children as readers. If I'm stuck writing a novel for adults, I try
+- **00:37:29** — stuck writing a novel for adults, I try and think what would be the children's
+- **00:37:31** — and think what would be the children's story version of this. So with like the
+- **00:37:34** — story version of this. So with like the last book I I wrote, The Midnight Train,
+- **00:37:38** — last book I I wrote, The Midnight Train, the first draft of which was very adult.
+- **00:37:41** — the first draft of which was very adult. It was actually about AI. It was a sort
+- **00:37:43** — It was actually about AI. It was a sort of AI dystopian story and it just wasn't
+- **00:37:46** — of AI dystopian story and it just wasn't working at all. And I thought, what
+- **00:37:49** — working at all. And I thought, what could I bring from sort of like
+- **00:37:51** — could I bring from sort of like children's literature? And that, you
+- **00:37:53** — children's literature? And that, you know, children's books often have a
+- **00:37:54** — know, children's books often have a magical train or railways in them. It's
+- **00:37:57** — magical train or railways in them. It's kind of like, you know, the railway
+- **00:37:59** — kind of like, you know, the railway children, Harry Potter, you've got um
+- **00:38:02** — children, Harry Potter, you've got um Polar Express. Yeah. You've got a lot of
+- **00:38:04** — Polar Express. Yeah. You've got a lot of magic trains in children's books. So,
+- **00:38:06** — magic trains in children's books. So, that was one of the things that led me
+- **00:38:08** — that was one of the things that led me towards the train.
+- **00:38:10** — towards the train. &gt;&gt; Cuz that's the way things happen in the
+- **00:38:12** — &gt;&gt; Cuz that's the way things happen in the Polar Express. I love that book.
+- **00:38:15** — Polar Express. I love that book. &gt;&gt; Yeah.
+- **00:38:16** — &gt;&gt; Yeah. &gt;&gt; Oh my goodness.
+- **00:38:17** — &gt;&gt; Oh my goodness. &gt;&gt; Yeah. And there's something about that
+- **00:38:19** — &gt;&gt; Yeah. And there's something about that like as a as a child wanting to step on
+- **00:38:21** — like as a as a child wanting to step on board for a magical adventure and going
+- **00:38:24** — board for a magical adventure and going somewhere. And that's kind of like what
+- **00:38:26** — somewhere. And that's kind of like what stories do, isn't it? When you're a
+- **00:38:27** — stories do, isn't it? When you're a child, you literally the power of a book
+- **00:38:29** — child, you literally the power of a book as a child. It's why so many like when
+- **00:38:31** — as a child. It's why so many like when people talk about their favorite books,
+- **00:38:33** — people talk about their favorite books, there's always a children's classic in
+- **00:38:36** — there's always a children's classic in there. I'll always talk about Winnie the
+- **00:38:38** — there. I'll always talk about Winnie the Pooh or, you know, because the books
+- **00:38:39** — Pooh or, you know, because the books that you read when you were younger.
+- **00:38:41** — that you read when you were younger. &gt;&gt; What do you love about Winnie the Pooh?
+- **00:38:43** — &gt;&gt; What do you love about Winnie the Pooh? Winnie the Pooh is a book I loved as a
+- **00:38:46** — Winnie the Pooh is a book I loved as a child and then I loved again when I was
+- **00:38:48** — child and then I loved again when I was 24 years old having a breakdown at my
+- **00:38:50** — 24 years old having a breakdown at my parents house and I was agrophobic and I
+- **00:38:53** — parents house and I was agrophobic and I couldn't leave the house and I just had
+- **00:38:54** — couldn't leave the house and I just had a load of children's books on the
+- **00:38:56** — a load of children's books on the shelves cuz they were my old books and
+- **00:38:59** — shelves cuz they were my old books and it was so comforting to read. I think
+- **00:39:02** — it was so comforting to read. I think it's the ultimate self-help book that's
+- **00:39:05** — it's the ultimate self-help book that's ever been written. You have to remember
+- **00:39:07** — ever been written. You have to remember a mil had been in the first world war.
+- **00:39:10** — a mil had been in the first world war. He had been at the battle of Assam. He
+- **00:39:13** — He had been at the battle of Assam. He had what we now call PTSD. He was going
+- **00:39:16** — had what we now call PTSD. He was going through a lot of uh mental trauma. And
+- **00:39:19** — through a lot of uh mental trauma. And yet he wrote what is arguably the most
+- **00:39:21** — yet he wrote what is arguably the most comforting book that and um house poo
+- **00:39:25** — comforting book that and um house poo corner two books and further stories
+- **00:39:28** — corner two books and further stories that were so comforting and so uh
+- **00:39:31** — that were so comforting and so uh fulfilling I think. And I think one of
+- **00:39:33** — fulfilling I think. And I think one of the reasons is that every character in
+- **00:39:36** — the reasons is that every character in those books is an archetype of a
+- **00:39:39** — those books is an archetype of a different mental state. With our sort of
+- **00:39:41** — different mental state. With our sort of 2020s language, you can go through and
+- **00:39:44** — 2020s language, you can go through and give them all either
+- **00:39:46** — give them all either um mental health characteristic or a
+- **00:39:49** — um mental health characteristic or a neurode divergence quite easily. So
+- **00:39:51** — neurode divergence quite easily. So you'd have uh Piglet with anxiety,
+- **00:39:54** — you'd have uh Piglet with anxiety, Eeyore with depression,
+- **00:39:56** — Eeyore with depression, Tiger ADHD,
+- **00:39:59** — Tiger ADHD, Owl's dyslexia and narcissistic
+- **00:40:01** — Owl's dyslexia and narcissistic personality who I would argue is an
+- **00:40:04** — personality who I would argue is an addict, you know, for honey, gets
+- **00:40:06** — addict, you know, for honey, gets himself into all sorts of scrapes.
+- **00:40:08** — himself into all sorts of scrapes. You've got Christopher Robin who's
+- **00:40:10** — You've got Christopher Robin who's having a uh mass hallucination event in
+- **00:40:13** — having a uh mass hallucination event in the forest. And so I I genuinely think
+- **00:40:16** — the forest. And so I I genuinely think like he wasn't necessarily consciously
+- **00:40:18** — like he wasn't necessarily consciously doing this, but I feel like 100 acre
+- **00:40:20** — doing this, but I feel like 100 acre wood
+- **00:40:21** — wood was created by a mil as his own kind of
+- **00:40:25** — was created by a mil as his own kind of like escape, the thing that could keep
+- **00:40:28** — like escape, the thing that could keep him sane by escaping into this other
+- **00:40:31** — him sane by escaping into this other world. And I think often it's the most
+- **00:40:33** — world. And I think often it's the most uh troubled or difficult minds are
+- **00:40:36** — uh troubled or difficult minds are creating the most comforting stuff. You
+- **00:40:39** — creating the most comforting stuff. You always think that the sort of tortured
+- **00:40:41** — always think that the sort of tortured geniuses will create
+- **00:40:44** — geniuses will create the darkest,
+- **00:40:46** — the darkest, strangest works, but often the impulse
+- **00:40:48** — strangest works, but often the impulse is to go the other way is to create a
+- **00:40:50** — is to go the other way is to create a sort of lands where you feel safe and
+- **00:40:53** — sort of lands where you feel safe and comfortable.
+- **00:40:54** — comfortable. &gt;&gt; Walk me through a little bit more of
+- **00:40:57** — &gt;&gt; Walk me through a little bit more of having written children's stories, what
+- **00:41:00** — having written children's stories, what that showed you that then you applied
+- **00:41:03** — that showed you that then you applied into novels for adults.
+- **00:41:05** — into novels for adults. &gt;&gt; What isn't talked about a lot when
+- **00:41:06** — &gt;&gt; What isn't talked about a lot when people talk about writing? um certainly
+- **00:41:09** — people talk about writing? um certainly in traditional writing advice is
+- **00:41:11** — in traditional writing advice is feeling. And I think feelings are
+- **00:41:14** — feeling. And I think feelings are contagious. Very often what you're
+- **00:41:17** — contagious. Very often what you're feeling as you're writing is the feeling
+- **00:41:19** — feeling as you're writing is the feeling that the reader has when they're
+- **00:41:20** — that the reader has when they're reading. So if you're feeling genuinely
+- **00:41:25** — reading. So if you're feeling genuinely happy and you're enjoying writing a
+- **00:41:27** — happy and you're enjoying writing a story, then
+- **00:41:30** — story, then hopefully the reader at the end will
+- **00:41:32** — hopefully the reader at the end will feel that. This is especially true true
+- **00:41:34** — feel that. This is especially true true with children's books. like you have to
+- **00:41:36** — with children's books. like you have to like if you're writing a sort of silly
+- **00:41:38** — like if you're writing a sort of silly scene with some sort of rude elf or
+- **00:41:40** — scene with some sort of rude elf or something then you're writing that
+- **00:41:41** — something then you're writing that scene. If if you're just writing it
+- **00:41:44** — scene. If if you're just writing it because you have to write it and you
+- **00:41:45** — because you have to write it and you want to write a thousand words a day and
+- **00:41:47** — want to write a thousand words a day and this is your thousand words then it's
+- **00:41:49** — this is your thousand words then it's not going to have that feeling. You've
+- **00:41:51** — not going to have that feeling. You've got to enjoy what you're writing and it
+- **00:41:55** — got to enjoy what you're writing and it will be better writing in that sense.
+- **00:41:58** — will be better writing in that sense. Um, editing is different obviously, but
+- **00:42:01** — Um, editing is different obviously, but when you're when you're creating the
+- **00:42:04** — when you're when you're creating the bulk of that scene, you've got to try
+- **00:42:06** — bulk of that scene, you've got to try and uh
+- **00:42:08** — and uh feel what you're wanting the scene
+- **00:42:12** — feel what you're wanting the scene to feel.
+- **00:42:13** — to feel. &gt;&gt; Is there room for excruciating agony and
+- **00:42:17** — &gt;&gt; Is there room for excruciating agony and maybe, hey, actually that is a good
+- **00:42:19** — maybe, hey, actually that is a good place to write from, or is it like, no,
+- **00:42:21** — place to write from, or is it like, no, you got to process that and be somewhere
+- **00:42:22** — you got to process that and be somewhere else?
+- **00:42:23** — else? &gt;&gt; No, I think so. I think obviously, you
+- **00:42:26** — &gt;&gt; No, I think so. I think obviously, you know, like in art when people are
+- **00:42:29** — know, like in art when people are watching this the scream and standing in
+- **00:42:31** — watching this the scream and standing in front of it, then they're they're
+- **00:42:33** — front of it, then they're they're feeling some of the sort of panic
+- **00:42:36** — feeling some of the sort of panic disorder or whatever Monk was going
+- **00:42:37** — disorder or whatever Monk was going through, they're feeling some of that.
+- **00:42:39** — through, they're feeling some of that. And I I feel like the same with books
+- **00:42:41** — And I I feel like the same with books and often often there's a comfort in
+- **00:42:45** — and often often there's a comfort in knowing a character or an author went
+- **00:42:48** — knowing a character or an author went through something when you're reading
+- **00:42:49** — through something when you're reading it.
+- **00:42:50** — it. &gt;&gt; When you're writing, do you think about
+- **00:42:52** — &gt;&gt; When you're writing, do you think about originality? One thing that I realized
+- **00:42:54** — originality? One thing that I realized very early on is that so many ideas you
+- **00:42:58** — very early on is that so many ideas you think of are unique have been you know
+- **00:43:01** — think of are unique have been you know done. There's a balance between
+- **00:43:04** — done. There's a balance between uh understanding that you know there are
+- **00:43:07** — uh understanding that you know there are no new stories in one sense. You know
+- **00:43:09** — no new stories in one sense. You know the hero's journey and that those sort
+- **00:43:11** — the hero's journey and that those sort of archetypes are there in lots and lots
+- **00:43:13** — of archetypes are there in lots and lots of uh things. Yeah. the the ways of
+- **00:43:15** — of uh things. Yeah. the the ways of telling them uh is is what's important
+- **00:43:18** — telling them uh is is what's important and the emotions carried through them um
+- **00:43:21** — and the emotions carried through them um are what's important. So you have to
+- **00:43:23** — are what's important. So you have to think about uh originality. But with me
+- **00:43:26** — think about uh originality. But with me it's again it's an ADHD thing I think of
+- **00:43:29** — it's again it's an ADHD thing I think of just not wanting to bore myself. One
+- **00:43:30** — just not wanting to bore myself. One thing that becomes harder as you as you
+- **00:43:32** — thing that becomes harder as you as you write uh more stories is is finding
+- **00:43:36** — write uh more stories is is finding newness within your own work even on a
+- **00:43:39** — newness within your own work even on a simple level like
+- **00:43:40** — simple level like &gt;&gt; like it's even a originality contest
+- **00:43:42** — &gt;&gt; like it's even a originality contest with yourself.
+- **00:43:43** — with yourself. &gt;&gt; Yes. and you realize how much you've
+- **00:43:47** — &gt;&gt; Yes. and you realize how much you've already written, how many characters
+- **00:43:49** — already written, how many characters names you've given, you know, like to
+- **00:43:51** — names you've given, you know, like to try, you don't want to call a character
+- **00:43:53** — try, you don't want to call a character something that you've called a character
+- **00:43:55** — something that you've called a character in another book. The one character I
+- **00:43:58** — in another book. The one character I find hard to write, the one narrator I
+- **00:44:00** — find hard to write, the one narrator I find hard to write certainly is someone
+- **00:44:03** — find hard to write certainly is someone who is like me, sort of like a
+- **00:44:07** — who is like me, sort of like a middle-aged man,
+- **00:44:09** — middle-aged man, uh, like myself, I find very hard to
+- **00:44:13** — uh, like myself, I find very hard to write. And in fact, the first draft of
+- **00:44:15** — write. And in fact, the first draft of the Midnight Library, it wasn't Norah
+- **00:44:19** — the Midnight Library, it wasn't Norah being the main character, it was a man
+- **00:44:21** — being the main character, it was a man called Adam.
+- **00:44:24** — called Adam. and I nearly gave up on the book just
+- **00:44:27** — and I nearly gave up on the book just because I could not see this person. And
+- **00:44:31** — because I could not see this person. And I think it's like how sometimes you
+- **00:44:33** — I think it's like how sometimes you don't know what you look like because
+- **00:44:35** — don't know what you look like because you've seen yourself too much. You you
+- **00:44:37** — you've seen yourself too much. You you know if you look at yourself in the
+- **00:44:38** — know if you look at yourself in the mirror or you look at a word too long,
+- **00:44:40** — mirror or you look at a word too long, it starts to lose its meaning. And I
+- **00:44:42** — it starts to lose its meaning. And I think when I'm writing someone who is
+- **00:44:44** — think when I'm writing someone who is basically me,
+- **00:44:46** — basically me, uh two things happen. one, it stops
+- **00:44:48** — uh two things happen. one, it stops being a character because it's just me
+- **00:44:51** — being a character because it's just me and you you don't really see yourself as
+- **00:44:53** — and you you don't really see yourself as a character. You're just a very complex
+- **00:44:56** — a character. You're just a very complex state of existence. And then the other
+- **00:44:59** — state of existence. And then the other thing that happened was
+- **00:45:02** — thing that happened was I was a bit guarded because it was me.
+- **00:45:05** — I was a bit guarded because it was me. It was like writing non-fiction. So by
+- **00:45:08** — It was like writing non-fiction. So by changing the gender, changing the age
+- **00:45:10** — changing the gender, changing the age and location a little bit as well, it
+- **00:45:13** — and location a little bit as well, it suddenly wasn't me. And therefore,
+- **00:45:16** — suddenly wasn't me. And therefore, paradoxically, I put more of myself in
+- **00:45:18** — paradoxically, I put more of myself in terms of my experience of mental illness
+- **00:45:21** — terms of my experience of mental illness in terms of like feelings about regret
+- **00:45:25** — in terms of like feelings about regret and guilt and that sort of stuff. More
+- **00:45:26** — and guilt and that sort of stuff. More of me went into this character as soon
+- **00:45:28** — of me went into this character as soon as it wasn't me.
+- **00:45:30** — as it wasn't me. &gt;&gt; You said this that I thought was
+- **00:45:32** — &gt;&gt; You said this that I thought was interesting about sales numbers. If we
+- **00:45:35** — interesting about sales numbers. If we were number two in the bestseller
+- **00:45:37** — were number two in the bestseller charts, the only book we would ever be
+- **00:45:39** — charts, the only book we would ever be thinking about is the one selling more.
+- **00:45:42** — thinking about is the one selling more. &gt;&gt; Well, I think I wrote that before.
+- **00:45:44** — &gt;&gt; Well, I think I wrote that before. I'd ever been number one for a start and
+- **00:45:46** — I'd ever been number one for a start and I wrote that in my 30s. I'm very
+- **00:45:48** — I wrote that in my 30s. I'm very ambitious and um
+- **00:45:52** — ambitious and um I think
+- **00:45:54** — I think I don't know if that's a universal
+- **00:45:55** — I don't know if that's a universal thing, but that's definitely something
+- **00:45:56** — thing, but that's definitely something I've always felt in my career. There's
+- **00:45:59** — I've always felt in my career. There's always another level that I'm looking up
+- **00:46:02** — always another level that I'm looking up to. As I've got older,
+- **00:46:05** — to. As I've got older, I've been more aware of that and I've
+- **00:46:07** — I've been more aware of that and I've resisted it a little bit more. Um
+- **00:46:10** — resisted it a little bit more. Um because I I I I sensed a pattern in my
+- **00:46:13** — because I I I I sensed a pattern in my career where before I was published, I
+- **00:46:15** — career where before I was published, I thought I'm going to be happy forever if
+- **00:46:16** — thought I'm going to be happy forever if I'm published. If I get my name on a
+- **00:46:18** — I'm published. If I get my name on a book, I will be happy forever. I'll be
+- **00:46:20** — book, I will be happy forever. I'll be satisfied. That validation will be there
+- **00:46:23** — satisfied. That validation will be there forever. And you know, two weeks later,
+- **00:46:27** — forever. And you know, two weeks later, there's something else. You want to be
+- **00:46:29** — there's something else. You want to be on the tables in the bookstore. You want
+- **00:46:30** — on the tables in the bookstore. You want to be in the window of the bookstore.
+- **00:46:32** — to be in the window of the bookstore. You want to be in the Sunday Times
+- **00:46:34** — You want to be in the Sunday Times bestseller list. or then you want to be
+- **00:46:38** — bestseller list. or then you want to be international. You want a foreign
+- **00:46:41** — international. You want a foreign publisher to take you on. You want to be
+- **00:46:43** — publisher to take you on. You want to be on their charts. You want to be on the
+- **00:46:45** — on their charts. You want to be on the New York Times list. You want to be on
+- **00:46:46** — New York Times list. You want to be on the number one of the New York Times
+- **00:46:47** — the number one of the New York Times list. You want an adaptation because
+- **00:46:49** — list. You want an adaptation because someone else is having an adaptation.
+- **00:46:51** — someone else is having an adaptation. You know, it's endless when you do that.
+- **00:46:53** — You know, it's endless when you do that. There's always when you're plugged into
+- **00:46:55** — There's always when you're plugged into that, there's always another level. And
+- **00:46:58** — that, there's always another level. And I'm not saying it's totally useless
+- **00:47:00** — I'm not saying it's totally useless because it's it gives you drive and it
+- **00:47:03** — because it's it gives you drive and it gives you a hunger, but you need to have
+- **00:47:07** — gives you a hunger, but you need to have more than that. You need to have
+- **00:47:09** — more than that. You need to have something innate in you that wants to
+- **00:47:12** — something innate in you that wants to articulate something. I think for a
+- **00:47:14** — articulate something. I think for a while actually we think of ourselves as
+- **00:47:17** — while actually we think of ourselves as ambitious in a very crude sense. But
+- **00:47:19** — ambitious in a very crude sense. But when we delve into our ambition, it's
+- **00:47:22** — when we delve into our ambition, it's about something else. It's not just
+- **00:47:24** — about something else. It's not just about money or status in those crude
+- **00:47:26** — about money or status in those crude ways. And I think for me, my own
+- **00:47:28** — ways. And I think for me, my own experience about mental illness and
+- **00:47:30** — experience about mental illness and being a troubled teenager played a big
+- **00:47:32** — being a troubled teenager played a big part in in my ambition because I think
+- **00:47:36** — part in in my ambition because I think one of my incentives to write is to be
+- **00:47:40** — one of my incentives to write is to be understood. So obviously if you're
+- **00:47:43** — understood. So obviously if you're selling a lot of books or you got a lot
+- **00:47:44** — selling a lot of books or you got a lot of readers, then that gives you
+- **00:47:47** — of readers, then that gives you something else. It makes you feel like,
+- **00:47:49** — something else. It makes you feel like, oh, I'm accepted or I'm understood by
+- **00:47:53** — oh, I'm accepted or I'm understood by these people. I'm not that weirdo I once
+- **00:47:56** — these people. I'm not that weirdo I once thought I was or if I am a weirdo I
+- **00:47:58** — thought I was or if I am a weirdo I found these other weirdos who share
+- **00:48:00** — found these other weirdos who share these weird thoughts. So I think that's
+- **00:48:03** — these weird thoughts. So I think that's part of my ambition as well because I
+- **00:48:05** — part of my ambition as well because I realized I don't there were choices I
+- **00:48:07** — realized I don't there were choices I could have made certainly about 10 years
+- **00:48:09** — could have made certainly about 10 years ago where I was offered like more money
+- **00:48:13** — ago where I was offered like more money by a bigger publisher in the UK to write
+- **00:48:16** — by a bigger publisher in the UK to write something that I wasn't 100% comfortable
+- **00:48:18** — something that I wasn't 100% comfortable with in terms of non-fiction
+- **00:48:21** — with in terms of non-fiction and I said no to it and I think since
+- **00:48:24** — and I said no to it and I think since then I've been quite proud to define my
+- **00:48:27** — then I've been quite proud to define my career by what I'm saying no to as well
+- **00:48:30** — career by what I'm saying no to as well as what I'm saying yes to I'm saying
+- **00:48:33** — as what I'm saying yes to I'm saying I've said no to a lot lots of things and
+- **00:48:36** — I've said no to a lot lots of things and even to in terms of film adaptations and
+- **00:48:38** — even to in terms of film adaptations and things like that and I think you know
+- **00:48:41** — things like that and I think you know that's not a selfless thing that's not a
+- **00:48:44** — that's not a selfless thing that's not a humble thing that is simply
+- **00:48:48** — humble thing that is simply not getting any kind of buzz or kick out
+- **00:48:52** — not getting any kind of buzz or kick out of doing stuff that doesn't feel like me
+- **00:48:55** — of doing stuff that doesn't feel like me before I wrote uh novels I had a brief
+- **00:49:00** — before I wrote uh novels I had a brief career for about a couple of years
+- **00:49:03** — career for about a couple of years writing books about marketing and
+- **00:49:06** — writing books about marketing and business for a business publisher while
+- **00:49:09** — business for a business publisher while I was very far from being a business
+- **00:49:12** — I was very far from being a business person. But I was just a sort of jobbing
+- **00:49:14** — person. But I was just a sort of jobbing writer who'd written a column in a
+- **00:49:17** — writer who'd written a column in a magazine. I was writing a newsletter for
+- **00:49:20** — magazine. I was writing a newsletter for my girlfriend who was setting up a PR
+- **00:49:23** — my girlfriend who was setting up a PR company
+- **00:49:24** — company and I got commissioned to write these
+- **00:49:27** — and I got commissioned to write these business books and it just felt so
+- **00:49:34** — business books and it just felt so pointless and such a drag to just write
+- **00:49:38** — pointless and such a drag to just write words for the sake of writing words for
+- **00:49:40** — words for the sake of writing words for the sake of a check. And obviously it
+- **00:49:42** — the sake of a check. And obviously it needed the money and I don't resent
+- **00:49:43** — needed the money and I don't resent that. And it taught me some good things
+- **00:49:45** — that. And it taught me some good things about meeting deadlines and stuff like
+- **00:49:46** — about meeting deadlines and stuff like that. But in terms of my own impulse to
+- **00:49:49** — that. But in terms of my own impulse to write
+- **00:49:52** — write during that time of writing stuff I
+- **00:49:54** — during that time of writing stuff I really didn't want to write my impulse
+- **00:49:56** — really didn't want to write my impulse to write stuff I did want to write just
+- **00:49:58** — to write stuff I did want to write just grew and grew and grew. So I think for
+- **00:50:00** — grew and grew and grew. So I think for me now I understand what my ambition
+- **00:50:02** — me now I understand what my ambition was. My ambition was to be read
+- **00:50:06** — was. My ambition was to be read definitely I'm not one of those writers
+- **00:50:07** — definitely I'm not one of those writers who says I just write for myself. I
+- **00:50:09** — who says I just write for myself. I write to be read but to be read and
+- **00:50:11** — write to be read but to be read and understood as me. So I don't really see
+- **00:50:15** — understood as me. So I don't really see this difference. People say you know
+- **00:50:17** — this difference. People say you know like you either write for readers of for
+- **00:50:19** — like you either write for readers of for yourself. No I write for readers
+- **00:50:23** — yourself. No I write for readers to understand
+- **00:50:26** — to understand what's going on inside me. So I write to
+- **00:50:29** — what's going on inside me. So I write to be understood in a sense. So so writing
+- **00:50:31** — be understood in a sense. So so writing for readers I'm writing for myself is
+- **00:50:33** — for readers I'm writing for myself is kind of the same impulse.
+- **00:50:37** — kind of the same impulse. talk to me about your relationship with
+- **00:50:39** — talk to me about your relationship with the publishing industry itself because
+- **00:50:41** — the publishing industry itself because you referenced this Keats poem about the
+- **00:50:45** — you referenced this Keats poem about the sweet shop standing outside looking in
+- **00:50:48** — sweet shop standing outside looking in &gt;&gt; a sweet shop window and you know pressed
+- **00:50:52** — &gt;&gt; a sweet shop window and you know pressed against a glass cuz uh yeah I used to
+- **00:50:55** — against a glass cuz uh yeah I used to study like romantic literature at
+- **00:50:57** — study like romantic literature at university and I was always drawn to
+- **00:50:59** — university and I was always drawn to Keats because even Keats by today's
+- **00:51:02** — Keats because even Keats by today's standards would be seen as quite posh
+- **00:51:05** — standards would be seen as quite posh and upper middle ass.
+- **00:51:07** — and upper middle ass. Um he he he was a little bit outside and
+- **00:51:09** — Um he he he was a little bit outside and he was famously looked down on by Lord
+- **00:51:11** — he was famously looked down on by Lord Byron who called him like piss a bed
+- **00:51:14** — Byron who called him like piss a bed Keats and you know [laughter] you just
+- **00:51:16** — Keats and you know [laughter] you just you just saw him writing about this sort
+- **00:51:18** — you just saw him writing about this sort of delicate sort of like what he he he
+- **00:51:22** — of delicate sort of like what he he he seemed saw as sort of feminine stuff
+- **00:51:24** — seemed saw as sort of feminine stuff rather than writing about wars and
+- **00:51:26** — rather than writing about wars and heroes. And in terms of the publishing
+- **00:51:28** — heroes. And in terms of the publishing industry
+- **00:51:30** — industry I've always uh I don't I don't really
+- **00:51:33** — I've always uh I don't I don't really know. I I I I think I struggled for a
+- **00:51:35** — know. I I I I think I struggled for a while working out what type of writer I
+- **00:51:37** — while working out what type of writer I am because I think in the UK especially
+- **00:51:39** — am because I think in the UK especially books are very related to uh class. I
+- **00:51:44** — books are very related to uh class. I was someone who when I was growing up I
+- **00:51:46** — was someone who when I was growing up I never knew where I fit in personally and
+- **00:51:49** — never knew where I fit in personally and I think this comes from my mom who was
+- **00:51:50** — I think this comes from my mom who was adopted so she never knew her parents
+- **00:51:53** — adopted so she never knew her parents and was very sort of class conscious. I
+- **00:51:56** — and was very sort of class conscious. I grew up in a working-class town. I was
+- **00:51:57** — grew up in a working-class town. I was considered quite posh because my mom was
+- **00:52:00** — considered quite posh because my mom was a teacher, my dad was an architect.
+- **00:52:03** — a teacher, my dad was an architect. And then you start writing books and
+- **00:52:06** — And then you start writing books and enter the publishing industry and think,
+- **00:52:08** — enter the publishing industry and think, well, I didn't go to an expensive
+- **00:52:10** — well, I didn't go to an expensive school. I didn't go to the top
+- **00:52:12** — school. I didn't go to the top university. So, you know, you suddenly
+- **00:52:15** — university. So, you know, you suddenly feel like you're at the lower end. So, I
+- **00:52:17** — feel like you're at the lower end. So, I I I never knew my position. And in terms
+- **00:52:20** — I I never knew my position. And in terms of my own influences in terms of
+- **00:52:22** — of my own influences in terms of writing, you know, at university, you
+- **00:52:25** — writing, you know, at university, you study all the sort of like your Virginia
+- **00:52:27** — study all the sort of like your Virginia Wolf, TSL,
+- **00:52:28** — Wolf, TSL, um, everyone else. But my own influences
+- **00:52:32** — um, everyone else. But my own influences would be from everything from children's
+- **00:52:34** — would be from everything from children's books, choose your own adventure
+- **00:52:36** — books, choose your own adventure stories, John Hughes movies,
+- **00:52:38** — stories, John Hughes movies, &gt;&gt; Bourhees.
+- **00:52:39** — &gt;&gt; Bourhees. &gt;&gt; Yeah. Yeah. Yeah. And, uh, Bourhees
+- **00:52:41** — &gt;&gt; Yeah. Yeah. Yeah. And, uh, Bourhees definitely. I think in my early days
+- **00:52:44** — definitely. I think in my early days because I was published by a very
+- **00:52:45** — because I was published by a very highbrow uh publisher uh for my first
+- **00:52:49** — highbrow uh publisher uh for my first three novels. I was very uh
+- **00:52:52** — three novels. I was very uh self-consciously literary to an extent
+- **00:52:55** — self-consciously literary to an extent that I wasn't being truly myself. Took
+- **00:52:57** — that I wasn't being truly myself. Took me to being sort of dropped and left a
+- **00:53:00** — me to being sort of dropped and left a little bit on the metaphorical scrappy
+- **00:53:01** — little bit on the metaphorical scrappy to actually find find myself. And I I
+- **00:53:05** — to actually find find myself. And I I still wouldn't say I necessarily feel
+- **00:53:07** — still wouldn't say I necessarily feel like I I belong in any one particular
+- **00:53:10** — like I I belong in any one particular box, but I actually like that feeling.
+- **00:53:12** — box, but I actually like that feeling. Now,
+- **00:53:13** — Now, &gt;&gt; let's end here. Stories are easy. The
+- **00:53:15** — &gt;&gt; let's end here. Stories are easy. The plot of every book ever. Someone is
+- **00:53:17** — plot of every book ever. Someone is looking for something. The commercial
+- **00:53:19** — looking for something. The commercial version, they find it. The literary
+- **00:53:22** — version, they find it. The literary version, they don't find it. That's it.
+- **00:53:25** — version, they don't find it. That's it. &gt;&gt; Yeah. I mean, that is it. [laughter]
+- **00:53:27** — &gt;&gt; Yeah. I mean, that is it. [laughter] I think I think that's it. And I like
+- **00:53:30** — I think I think that's it. And I like and there's a sort of commercial
+- **00:53:32** — and there's a sort of commercial literary version where they kind of find
+- **00:53:33** — literary version where they kind of find it or they maybe find it in the next
+- **00:53:35** — it or they maybe find it in the next unwritten chapter. But no, I I uh I I I
+- **00:53:39** — unwritten chapter. But no, I I uh I I I like to demystify uh the process. And
+- **00:53:42** — like to demystify uh the process. And there's a I I think I feel like
+- **00:53:45** — there's a I I think I feel like sometimes the difference between
+- **00:53:47** — sometimes the difference between literary and commercial is the
+- **00:53:49** — literary and commercial is the difference between comfort and
+- **00:53:52** — difference between comfort and discomfort. And it's like what's wrong
+- **00:53:54** — discomfort. And it's like what's wrong with comfort? What's wrong with hope?
+- **00:53:56** — with comfort? What's wrong with hope? what's wrong with a bit of positivity
+- **00:53:57** — what's wrong with a bit of positivity from time to time. And you know, I think
+- **00:54:00** — from time to time. And you know, I think it's very interesting often that it
+- **00:54:03** — it's very interesting often that it comes from a certain type of like critic
+- **00:54:05** — comes from a certain type of like critic this idea that sentimentality is the
+- **00:54:09** — this idea that sentimentality is the very worst thing anything can be. I can
+- **00:54:13** — very worst thing anything can be. I can remember in the 1980s he was a music
+- **00:54:15** — remember in the 1980s he was a music magazine um which is still going but it
+- **00:54:19** — magazine um which is still going but it was enemy was like the bible in Britain
+- **00:54:21** — was enemy was like the bible in Britain for sort of like bands and um the
+- **00:54:25** — for sort of like bands and um the critics could be very harsh.
+- **00:54:27** — critics could be very harsh. &gt;&gt; What sticks out to me about that story
+- **00:54:28** — &gt;&gt; What sticks out to me about that story is trusting your instinct. You're like
+- **00:54:31** — is trusting your instinct. You're like but I just like the song.
+- **00:54:32** — but I just like the song. &gt;&gt; That song has brought me so much joy in
+- **00:54:34** — &gt;&gt; That song has brought me so much joy in my life. Like I don't care what the
+- **00:54:36** — my life. Like I don't care what the critics have to say. And that probably
+- **00:54:38** — critics have to say. And that probably applies to my art too.
+- **00:54:39** — applies to my art too. &gt;&gt; Exactly. Trusting feelings. trusting
+- **00:54:42** — &gt;&gt; Exactly. Trusting feelings. trusting your own feelings, trusting readers,
+- **00:54:45** — your own feelings, trusting readers, trusting yourself. I I I think it's
+- **00:54:47** — trusting yourself. I I I think it's about that and not needing
+- **00:54:50** — about that and not needing a real or imaginary gateke keepers
+- **00:54:54** — a real or imaginary gateke keepers approval before you can trust your own
+- **00:54:57** — approval before you can trust your own opinions. And I think that's what you
+- **00:54:59** — opinions. And I think that's what you need as a writer and possibly as a human
+- **00:55:02** — need as a writer and possibly as a human being, just that ability to kind of like
+- **00:55:05** — being, just that ability to kind of like trust yourself.
+- **00:55:06** — trust yourself. &gt;&gt; Yeah. Yeah, I was talking to a friend
+- **00:55:07** — &gt;&gt; Yeah. Yeah, I was talking to a friend the other day who I think is an amazing
+- **00:55:10** — the other day who I think is an amazing writer, an amazing writer. And I was
+- **00:55:13** — writer, an amazing writer. And I was saying that I'd just gone to the Lou and
+- **00:55:15** — saying that I'd just gone to the Lou and I didn't like it that much. And he goes,
+- **00:55:16** — I didn't like it that much. And he goes, "Yeah, cuz cuz 17th and 18th century
+- **00:55:18** — "Yeah, cuz cuz 17th and 18th century French painting is crap. There was
+- **00:55:21** — French painting is crap. There was nothing good made in 200 years there."
+- **00:55:23** — nothing good made in 200 years there." And I don't know if he's right. I don't
+- **00:55:26** — And I don't know if he's right. I don't know if he's wrong. He knows a lot about
+- **00:55:29** — know if he's wrong. He knows a lot about art. But you know what? He trusts his
+- **00:55:32** — art. But you know what? He trusts his own taste enough to say something so
+- **00:55:34** — own taste enough to say something so bold. and he can back it up in terms of
+- **00:55:38** — bold. and he can back it up in terms of his knowledge of art history. And I was
+- **00:55:40** — his knowledge of art history. And I was like, that is cool to
+- **00:55:46** — like, that is cool to be as in tune with your own sense of
+- **00:55:48** — be as in tune with your own sense of what is good and bad, and not be so
+- **00:55:51** — what is good and bad, and not be so caught up in what the critics have to
+- **00:55:52** — caught up in what the critics have to say, what society says you should and
+- **00:55:54** — say, what society says you should and shouldn't think.
+- **00:55:55** — shouldn't think. &gt;&gt; Yeah. Or, you know, I tell I tell my son
+- **00:55:57** — &gt;&gt; Yeah. Or, you know, I tell I tell my son this a lot cuz he'll go on like Reddit
+- **00:56:00** — this a lot cuz he'll go on like Reddit and and work out what the collective
+- **00:56:02** — and and work out what the collective opinion is like. just what did you feel
+- **00:56:05** — opinion is like. just what did you feel when you listened to that or when you
+- **00:56:07** — when you listened to that or when you read that? And that is your correct
+- **00:56:09** — read that? And that is your correct response to that. And I try and remember
+- **00:56:12** — response to that. And I try and remember what I feel as I'm sort of sending off
+- **00:56:15** — what I feel as I'm sort of sending off my book before anyone's read it. What
+- **00:56:17** — my book before anyone's read it. What what's my actual feelings about this?
+- **00:56:19** — what's my actual feelings about this? Because it's so easy to have your mind
+- **00:56:22** — Because it's so easy to have your mind turned, you know, with that sort of
+- **00:56:25** — turned, you know, with that sort of outward view, but you've got to sort of
+- **00:56:27** — outward view, but you've got to sort of like trust and be a bit stubborn. I
+- **00:56:30** — like trust and be a bit stubborn. I think you know writers can be quite
+- **00:56:32** — think you know writers can be quite difficult people but that difficulty has
+- **00:56:34** — difficult people but that difficulty has a use. It's to protect to put a boundary
+- **00:56:37** — a use. It's to protect to put a boundary around yourself to actually have those
+- **00:56:39** — around yourself to actually have those battles with like commercial interests
+- **00:56:43** — battles with like commercial interests or people pushing you one way or the
+- **00:56:45** — or people pushing you one way or the other way to actually say no I want to
+- **00:56:47** — other way to actually say no I want to do this.
+- **00:56:48** — do this. &gt;&gt; Yeah.
+- **00:56:50** — &gt;&gt; Yeah. &gt;&gt; Great to meet you Matt.
+- **00:56:51** — &gt;&gt; Great to meet you Matt. &gt;&gt; You too. Thank you. That was a good one.
+- **00:56:53** — &gt;&gt; You too. Thank you. That was a good one. Thank you.

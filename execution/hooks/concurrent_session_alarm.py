@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """Concurrent-session alarm (SessionStart hook) — the Golden Rule as a mechanism.
 
-v2 (2026-08-06, parallel-session-lanes build): lanes are automatic now.
+v3 (2026-08-30, integration-only-main repair): every writer gets a lane.
 - Sees siblings ACROSS ALL WORKTREES (each tree's path flattens to a different
   ~/.claude/projects/ dir, so the v1 scan was blind to lane siblings).
-- In the MAIN tree with a fresh main-tree sibling: emits the AUTO-LANE
-  directive — the newer session (this one, at startup) moves itself into a
-  worktree lane via EnterWorktree; bootstrap + merge-back are automatic.
+- In the MAIN tree: emits the AUTO-LANE directive before any write, even for
+  the first session. Main is an integration surface, not an authoring tree.
 - In a LANE: informational line naming the lane and the auto-merge promise.
 - FULL-POWER WATCHDOG: surfaces fresh hook-failure beacons and degraded lanes
   (.agent/hook-failures.log + lanes.json health) so silent harness
@@ -114,40 +113,41 @@ def main():
               f"worktree lane '{branch}' — single writer by construction, full harness power "
               f"(bootstrap parity ran at SessionStart). Work merges back to main automatically "
               f"at end-session; conflicts park the branch with one line. No lock needed here.")
-    elif fresh_main:
+    else:
         fresh_main.sort(key=lambda t: t[1])
-        listing = ", ".join(f"{sid[:8]}… ({age:.0f}m ago)" for sid, age in fresh_main[:4])
-        if source == "startup":
-            # Deterministic tiebreak: at startup this session is the NEWEST on
-            # the tree, so it is the one that moves. A resumed/compacted session
-            # may be the original first driver — those get a warning, not a move.
-            print(
-                f"AUTO-LANE (deterministic, from concurrent_session_alarm.py): a first driver "
-                f"already holds the main tree — {len(fresh_main)} fresh session(s): {listing}. "
-                f"{lock_line}. Before ANY write, call the EnterWorktree tool now (name: a short "
-                f"mission slug). Bootstrap is automatic (hooks provision .env/.venv/MCP/memory "
-                f"and prove FULL POWER); your work auto-merges back to main at end-session. "
-                f"This replaces the old manual golden rule — lanes ARE the rule now."
+        sibling_note = ""
+        if fresh_main:
+            listing = ", ".join(
+                f"{sid[:8]}… ({age:.0f}m ago)" for sid, age in fresh_main[:4]
             )
-        else:
-            print(
-                f"⚠ CONCURRENT SESSION ALARM (deterministic, from concurrent_session_alarm.py): "
-                f"{len(fresh_main)} other session(s) active on the main tree within {WINDOW_MIN} "
-                f"min — {listing}. {lock_line}. This session resumed here (source={source}), so "
-                f"it may be the original driver — coordinate: claim the lock before multi-file "
-                f"work (python3 execution/session_lock.py claim \"<mission>\") or move to a lane "
-                f"(EnterWorktree). If files change that this session didn't write, apply "
-                f"docs/solutions/2026-07-15-concurrent-session-race-accept-repair-dedupe.md "
-                f"(accept → repair → dedupe, never revert)."
+            sibling_note = (
+                f" {len(fresh_main)} fresh main session(s) also detected: {listing}."
             )
-    elif lock_fresh:
         print(
-            f"⚠ SESSION LOCK ALARM (deterministic, from concurrent_session_alarm.py): a FRESH "
-            f"lock exists on the main tree with no fresh Claude sibling — likely a Codex session "
-            f"or an autonomous run. {lock_line}. Either move to a lane (EnterWorktree — bootstrap "
-            f"and merge-back are automatic) or wait for `python3 execution/session_lock.py check` "
-            f"to clear before build/forge/multi-file work (directives/merge-discipline.md)."
+            f"AUTO-LANE (deterministic, from concurrent_session_alarm.py): main is "
+            f"integration-only (source={source}). Read-only inspection may continue here; "
+            f"before ANY write, call the EnterWorktree tool now (name: a short mission slug). "
+            f"Bootstrap is automatic (hooks provision .env/.venv/MCP/memory and prove FULL "
+            f"POWER); clean work auto-merges into main and conflicts park safely.{sibling_note} "
+            f"{lock_line}."
         )
+        try:
+            import subprocess
+            dirty = subprocess.run(
+                ["git", "-C", str(main_tree), "status", "--porcelain", "--untracked-files=no"],
+                capture_output=True, text=True, timeout=10,
+            )
+            rows = [line for line in dirty.stdout.splitlines() if line.strip()]
+            if rows:
+                paths = ", ".join(line[3:] for line in rows[:5])
+                extra = f" +{len(rows) - 5} more" if len(rows) > 5 else ""
+                print(
+                    f"⚠ MAIN DIRTY: {len(rows)} tracked change(s) already exist on the "
+                    f"integration tree — {paths}{extra}. Do not add more work here; preserve "
+                    f"and reconcile the existing paths before merging any lane."
+                )
+        except Exception:
+            pass
 
     # Lane siblings are informational — they can't collide with this tree.
     if fresh_lane_sessions and not in_lane:

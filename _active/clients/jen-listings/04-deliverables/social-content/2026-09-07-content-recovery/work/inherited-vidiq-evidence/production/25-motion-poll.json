@@ -1,0 +1,13 @@
+{
+  "mcpJobId": "job_aeeacb35-7e01-4c89-bee1-9e0bae9a816e",
+  "toolName": "vidiq_motion_graphics",
+  "status": "completed",
+  "result": {
+    "width": 1080,
+    "height": 1920,
+    "videoUrl": "https://remotionlambda-useast1-2ei5ch6f3q.s3.us-east-1.amazonaws.com/renders/268me3fijx/out.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAQLTYEZQZ74OAPNXW%2F20260906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260906T232845Z&X-Amz-Expires=43200&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGgaCXVzLWVhc3QtMSJGMEQCIGbRf%2BpnXo5rNhydhqaDFcco6JsW%2FDDlGPG95q4N0RxtAiB8O46CLr1DPCgYMlBUe0v2KOBOacyohWdwpoW4l8uU%2FSqABQgwEAAaDDAyNDk0ODAzNDYxMSIMq8CTf47ex2dV7tpAKt0EyLiHnNMbG9bWWlEONcpfBNT1epz7d6P2wtJkX7Pm5C2M0t5YxqXXVwZltKmN4iPGIlYK0FO8twIz3TizBUWx2O7Y8bhiWkEsfSj5jHqKkzm%2FWYKNjrYTrJ32G3%2FheqxUF35FaucuhJlG9ND2j9epQUbJu71fnpKWHvGsJpv86AiNGLXTvfQx%2Bp1llYtWOxdP1y3B7PjEm1FdbD9IXCAJDuQcYUHlio%2F3tSRKBWNzxLLc5iodOPBaz27d8XB0cBXd4KAD2gFNpyMg5nTVNcaBuAD%2FIGe6CU%2FOLZuzWkslm4mT1f3crGsjMt5ZBkieOHAPzS7poe5I92v7pJLMCipKP47QQX6R1obi5JN%2FTmPF8%2BbgEA5tkJ%2B18NGWD2C6DrKHnfKvFbvC4Fw9HtPZMDPAHrXow1m%2F8KKuJaGyBZGPcNDWhWENhLOzFkq5ufYwhV97EnIrOIqofSW5EueTAWpeMp7EQBhzMxS1y1%2B2uHOKQBWg1ev3QMjGSLFwE%2B7Qv5OoedZnQTjaVSju1s5ekOytqsO2%2FFs3fqLVM7XhlQ5Mr6rCdQ8IsUT9uhMAw4E0tWhrMikKb7HCen%2BYSBAGZe8ukZGchBZZOtvCSA9iRRsm3%2Feb5b15vHocQ%2FUHyQCackQ7O2jsKZcGv%2FUET5CIV2ablXRdngl6dfI7JI0f7%2FIyXGJNm8b4smLi%2F9yl4fXsJ2UG%2FH4Fnnqk0zHOu%2FSqF1nLjm%2Bu63rsKUDXhMy1g1YccIqYOa0pPrnbWt6soo5qfySL3rPMJd5D%2FZG4%2BIFZjNCgbagK%2FDIurzLGVV0ImlYwre731AY6mQEwetveRTweBr8YGc%2FsZq%2BpPbUAFSnByhUL6T50YOBi%2B6sLtVNB8P753GoKe9DGDXV3xHS0KErYYydZjSGB61jLzyWQvXrwk6eHJ4qWfgohH0BulZv3bh8TVEKAkXGVCelxqbbvramYDq26%2FhT9ZXZtp6JWvzEdBFyFKh2o7QOV1y28Pbd8fttmPCQEx2kitl27HKdzKNk4jMY%3D&X-Amz-Signature=ae59d5bba8aabf0766358ede9bcec245b9f27715c93a30e3589ef6ed8f282ee3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+    "durationSeconds": 18
+  },
+  "refunded": false,
+  "message": null
+}

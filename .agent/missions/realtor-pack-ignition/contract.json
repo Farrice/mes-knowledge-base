@@ -1,0 +1,22 @@
+{
+  "slug": "realtor-pack-ignition",
+  "intent": "Ignite Pick A: hybrid realtor content-pack subscription (general monthly pack, listing-content flagship) — month-1 pack + storefront package + 50-contact outreach list",
+  "serves": "revenue-5k-incumbency",
+  "source_brief": ".claude/worktrees/cash-paths-research/deliverables/research-briefs/income-master-2026-08/income-master-2026-08-brief.md",
+  "vertical_lock": "hybrid: general monthly agent pack (Social Broker demand shape) with listing-launch template system as flagship differentiator (Farrice-approved 2026-08-24)",
+  "route": "/supercomputer",
+  "pattern": "fleet",
+  "tier": "T2",
+  "cost": "$0",
+  "expected_spawns": 3,
+  "stack": ["mike-sherrard-realtor-branding", "enrico-incarnati", "cardinal-mason", "skills/jen-santulan-listing-content"],
+  "gates": ["prose_classifier on outward copy", "grounding labels on pricing/market claims", "fair-housing screen", "chain_runner finalize"],
+  "deliverable_paths": [
+    "_active/products/realtor-content-pack/04-deliverables/month-01-pack/",
+    "_active/products/realtor-content-pack/03-storefront/",
+    "_active/products/realtor-content-pack/05-outreach/"
+  ],
+  "hard_boundaries": ["Stripe account/products are Farrice's hands - paste-ready package only", "SENDS STAY HUMAN - list + scripts prepared, he sends"],
+  "pricing": {"practitioner": "$39-59/mo", "agency_whitelabel": "$100-190/mo", "founding_annual": "$470"},
+  "receipt": "storefront paste-ready + month-1 pack + 50-contact outreach list"
+}

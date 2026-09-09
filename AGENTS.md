@@ -3,7 +3,7 @@
 Self-contained: Codex does NOT auto-follow file pointers, so everything load-bearing is in THIS file. `CODEX.md` is the Codex-native operating authority for this workspace; read it as the expanded harness contract when repairing routing, hooks, command surfaces, or Operator Core behavior. Deep reference (read on demand, never assume loaded): `GEMINI.md`, `CLAUDE.md`, `PRODUCTION_CORE.md`, `OPERATING_MANUAL.md`.
 
 <!-- BEGIN:shared-golden-rule -->
-> **⚠️ GOLDEN RULE — ONE WRITER PER TREE; LANES ARE AUTOMATIC (2026-08-06).** The first session keeps the main tree. Every additional session — Claude Code or Codex — works in its own git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: the SessionStart AUTO-LANE directive tells a second session to call EnterWorktree before any write — obey it. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge back to main at end-session when clean** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Never two writers in one tree — the lane machinery exists so nobody has to be the second one. (Old failure this retires: "apply one fix, another breaks", root-caused 2026-06-30.)
+> **⚠️ GOLDEN RULE — MAIN IS INTEGRATION-ONLY; EVERY WRITER GETS A LANE (2026-08-30).** Ordinary Claude Code and Codex sessions never author in the main checkout, including the first session. Read-only inspection may remain on main; before the first write, create or enter a git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: obey the SessionStart AUTO-LANE directive and call EnterWorktree. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge into clean main when ready** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Main is reserved for audited integration, reconciliation, and lock-aware scheduled maintenance. (This closes the dirty-main merge dependency left by the 2026-08-06 one-writer-per-tree rule.)
 <!-- END:shared-golden-rule -->
 <!-- Shared blocks are GENERATED from directives/constitution/shared-blocks.md — edit there, then `python3 execution/constitution_compiler.py sync` (apex W3, 2026-07-29). -->
 
@@ -19,7 +19,7 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
 - Intermediates → `.tmp/` (never commit).
 
 ## Codex lane protocol (2026-08-06 — the golden rule, automated)
-When the main tree is busy (`python3 execution/session_lock.py check` blocked, or a fresh Claude session is live there), take a lane instead of waiting:
+For any session that may write, take a lane before the first write; main is integration-only. Read-only inspection may remain on main:
 1. `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `cd` into it.
 2. `python3 execution/worktree_lane.py bootstrap` — bare python3, stdlib-only; symlinks `.env`/`.venv`/MCP/memory/budget trackers from main and prints `LANE READY … FULL POWER` (or names exactly what's degraded). Never hand-copy those files.
 3. Work normally — full harness, no lock needed (a lane is single-writer by construction).
@@ -40,6 +40,30 @@ When the main tree is busy (`python3 execution/session_lock.py check` blocked, o
 3. **Meet raw input like a thinking partner.** When Farrice gives a dump or half-thought: build on it, verify it, connect it to what's on disk, push back where he's wrong. Never park it waiting for more instructions. **Work in visible beats — surface shaping questions (tappable options, one decision each) at genuine forks; he prefers back-and-forth over long silent autonomy, which runs only when he explicitly grants it (2026-07-29).**
 4. **Follow rules for their goal, never their letter.** A ban list can only make work less wrong; only intent makes it land (v3 profile-copy scar, 2026-07-29). If you're obeying a rule and can't name the goal it serves right now, flag the rule instead of obeying it.
 <!-- END:shared-partner-posture -->
+
+<!-- BEGIN:shared-analysts-truth-standard -->
+### Analyst's Truth Standard (ACTIVE ADVISORY)
+
+For meaningful synthesis, evaluation, strategy, creative ideation or review,
+research, system readouts, and decisions, silently check whether the result has
+stopped at reporting. Continue to analysis, diagnosis, or decision intelligence
+only while the next layer materially changes what the operator should believe,
+choose, make, test, or inspect. Separate verified observation from labeled
+inference; keep plausible alternatives alive; name the decision delta and what
+would confirm, weaken, or reverse it.
+
+For ideation, preserve surprise and the native craft owner's range. Use audience
+or cultural signal, tension or mechanism, differentiated angle, why it matters
+now, proposed artifact, and smallest validation test as an internal lens—not a
+mandatory visible template. Direct factual answers, simple retrieval,
+mechanical work, and pure production may stop earlier. Low evidence permits a
+hypothesis or evidence gap, never confident causality. Keep only evidence,
+meaningful inference, a decision, the requested artifact, or a test in the
+visible result. This companion may improve or recommend; it may not reroute,
+block, add required questions, inflate the output, or override the native owner.
+Canonical detail and proof live in
+`semantic_libraries/antigravity/primitives/analysts-truth-standard.md`.
+<!-- END:shared-analysts-truth-standard -->
 
 ## The Chain (every deliverable request — the working method, not a checkpoint)
 
@@ -84,13 +108,16 @@ When the main tree is busy (`python3 execution/session_lock.py check` blocked, o
 Anything shipping in Farrice's own voice (posts, editions, Notes, emails, DMs, bios): read `_active/farrice-brand/voice/VOICE-CARD.md` and apply the dial mode (default BLEND — "better version of me," never blanket mimicry) BEFORE the content workflow runs. The 2026-07-13 golden-brief A/B showed Codex output loses his texture exactly when this load is skipped.
 
 ## Per-Exchange Steering (unified with Claude Code — amnesty 2026-07-29, contradiction C6)
-When an exchange SHIPS something, close with Next Moves (Deepen / Adjacent / Act)
-+ a 1-line Operator Lesson. **Skip on answers, diagnostics, corrections,
+When an exchange SHIPS something, close with a visible recommended task title,
+exactly three ranked Next Moves, and a 1-line Operator Lesson. Each move must
+name a specific outcome, explain why it is the right continuation, include a
+copy-ready prompt, state the expected artifact/decision/proof event, and give
+one inspectable quality bar. **Skip on answers, diagnostics, corrections,
 conversation, terse asks, and mechanical turns — THE skip list lives in
 `directives/steering-loop.md` §1; this file no longer carries its own variant**
 (the old "every meaningful answer, no skips" rule here contradicted both other
 surfaces and padded conversational turns). Deep closeouts (builds, strategy,
-client work, real next decisions) may use the full Insightful Momentum format;
+client work, real next decisions) must use the full Insightful Momentum intelligence;
 `execution/contextual_next_prompts.py --objective "..."` helps when it fits.
 A skipped block is fine; a padded block is a failure.
 
@@ -120,6 +147,11 @@ Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.age
 - **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
 - **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
 <!-- END:shared-agent-skills -->
+<!-- BEGIN:shared-scrapes-skill-systems -->
+## Scrapes Skill Systems (vendored 2026-09-02)
+
+Simon Scrapes' 36-skill **Skill Systems** live in `.claude/skills/<name>/` (Claude Code mounts each as `/<name>`; Codex sees them through `.agents/skills/<name>` symlinks). Pipelines: `/00-social-content` · `/00-longform-to-shortform` · `/00-slides` · `/00-youtube-to-ebook`. Foundation: `/mkt-brand-voice` reads `brand_context/` (populated from `FARRICE-MASTER-CONTEXT.md` + `VOICE-CARD.md`, never by interview); `/mkt-visual-identity` is Farrice's run (approval gates). Rules: **never edit inside a Scrapes skill folder** (`.installed.json` hashes gate updates; update with `npx @scrapes/installer`, npm token required) — extend through `brand_context/` and wrappers. `.claude/agents/ssc-*` + `l2s-*` are the product's own workers (standing exception to the no-subagents rule, Farrice 2026-09-02); in Codex, run them inline by reading the agent `.md` as the prompt. **Not wired on purpose:** `tool-publisher`, `tool-zernio-social`, `mkt-short-form-posting` auto-post (sends stay human); `tool-linkedin-scraper` needs Apify (retired). Precedence vs home-built skills: `_active/harness/scrapes-skill-systems/PRECEDENCE-MAP.md`.
+<!-- END:shared-scrapes-skill-systems -->
 
 ## Visual Delivery — the Briefing Room (universal harness, 2026-08-06)
 

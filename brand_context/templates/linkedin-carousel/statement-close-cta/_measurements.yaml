@@ -1,0 +1,37 @@
+canvas: [1080, 1350]
+elements:
+  - id: MASTHEAD_LEFT
+    bbox_pct: [7, 5.6, 46, 1.6]
+    color_role: muted-on-dark
+    type: caption
+    font_size_cqw: 2.0
+  - id: PAGE_INDEX
+    bbox_pct: [59, 5.6, 34, 1.6]
+    color_role: muted-on-dark
+    type: caption
+    font_size_cqw: 2.0
+  - id: DECISION_LINE
+    bbox_pct: [8, 9.6, 84, 0.2]
+    color_role: border-subtle
+    type: rule
+    font_size_cqw: null
+  - id: HEADLINE
+    bbox_pct: [8, 25.8, 91, 22]
+    color_role: text-on-dark
+    type: display
+    font_size_cqw: 9.6
+  - id: ROUTE_GRAMMAR
+    bbox_pct: [7, 58.8, 86, 15.2]
+    color_role: mixed
+    type: graphic
+    font_size_cqw: 2.0
+  - id: FOOTER_CAPTION
+    bbox_pct: [7, 85.2, 76, 1.7]
+    color_role: muted-on-dark
+    type: caption
+    font_size_cqw: 2.0
+  - id: RECOMMENDATION_NAME
+    bbox_pct: [7, 89.5, 21, 2.7]
+    color_role: text-on-dark
+    type: display
+    font_size_cqw: 3.6

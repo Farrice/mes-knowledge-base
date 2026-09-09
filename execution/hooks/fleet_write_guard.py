@@ -36,8 +36,8 @@ def main():
     except (OSError, ValueError):
         return 0
 
-    ttl = float(s.get("ttl_min", 90)) * 60
-    if time.time() - float(s.get("claimed", 0)) > ttl:
+    ttl = float(s.get("ttl_min") or 90) * 60
+    if time.time() - float(s.get("claimed") or 0) > ttl:
         return 0  # stale fleet sentinel never blocks
 
     file_path = (payload.get("tool_input") or {}).get("file_path", "")

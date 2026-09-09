@@ -6,7 +6,12 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import harness_status  # type: ignore  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +32,23 @@ def run(args: list[str]) -> str:
 
 
 def main() -> int:
+    stale_working, stale_findings = harness_status.current_state_findings(
+        {"updated_at": "2000-01-01T00:00:00+00:00"},
+        {"updated_at": "2000-01-01T00:00:00+00:00"},
+        {"slug": "finished-example", "status": "complete"},
+    )
+    if stale_working or len(stale_findings) != 3:
+        raise AssertionError(f"stale-state negative control failed: {stale_working}, {stale_findings}")
+
+    fresh = datetime.now(timezone.utc).isoformat()
+    fresh_working, fresh_stale = harness_status.current_state_findings(
+        {"updated_at": fresh},
+        {"updated_at": fresh},
+        {"slug": "active-example", "status": "active"},
+    )
+    if fresh_stale or len(fresh_working) != 3:
+        raise AssertionError(f"fresh-state control failed: {fresh_working}, {fresh_stale}")
+
     raw = run([sys.executable, "execution/operator_core_fast_proof.py", "--json", "--strict"])
     data = json.loads(raw)
     if data["summary"]["status"] not in {"PASS", "STALE"}:
@@ -62,6 +84,7 @@ def main() -> int:
     print("- fast proof JSON is parseable")
     print("- all required proof checks are present")
     print("- no failing fast-proof checks")
+    print("- stale intent and completed-mission controls cannot report fresh")
     return 0
 
 

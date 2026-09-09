@@ -1,0 +1,60 @@
+{
+  "slug": "angle-brief-2026-08-10",
+  "title": "the room that corrects you",
+  "compiled": "aug 10, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/angle-brief-2026-08-10/angle-brief-2026-08-10-brief.html",
+  "brief_md": "deliverables/research-briefs/angle-brief-2026-08-10/angle-brief-2026-08-10-brief.md",
+  "paths": [
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/CAMPAIGN.md",
+      "role": "active revenue work — offer ladder + mission queue"
+    },
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "voice base layer for all deploy blocks"
+    },
+    {
+      "path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.md",
+      "role": "resonance + roster source"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.linkedin.com/posts/gisenberg_16-things-that-will-be-normal-in-3-years-activity-7486407182108827648-SnE0",
+      "label": "gisenberg · 531r / 181c · 101 comments sampled"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/justinwelsh_dont-give-your-energy-to-nonsense-to-things-activity-7491848197754146817-1ng8",
+      "label": "justinwelsh · 484r / 311c"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/justinwelsh_most-people-are-waiting-to-start-living-activity-7492547391313752064-nV4Y",
+      "label": "justinwelsh · 1,128r / 564c"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/gisenberg_every-startup-should-have-a-daily-markdown-activity-7490129203418435585-L40e",
+      "label": "gisenberg · 467r / 107c · 60 insight per 1,000"
+    },
+    {
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/",
+      "label": "zeitgeist ai-consulting · aug 10 · plus the 3-day-running \"confident bluffing\" thread"
+    },
+    {
+      "url": "https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/",
+      "label": "zeitgeist supplement-brands · aug 9 · 10 ads / 10 threads"
+    }
+  ]
+}

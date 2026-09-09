@@ -98,14 +98,16 @@ RUNTIME_REQUIRED_TEXT = (
 
 RESEARCH_INTELLIGENCE_REQUIRED_TEXT = (
     "Current/Deep Research Routing Rule",
-    "single shallow research path",
-    "/research-swarm",
-    "/parallel-research --angles",
-    "/deep-research-gemini",
-    "/deep-research",
-    "/ground-truth-agent",
+    "context cannot establish what is true now",
+    "/deep-research-os --free-first",
+    "Codex native web search and opened full pages first",
+    "Tavily Search/Extract",
+    "never Tavily Research",
+    "public RSS/Atom on demand",
+    "/ground-truth",
+    "/adversarial-review",
     "research_quality_gate.py",
-    "Do not launch subagents",
+    "Do not launch Apify, paid accelerators, schedules, background workers, or real",
 )
 
 ORCHESTRATE_REQUIRED_TEXT = (
@@ -593,17 +595,17 @@ def check_local_helpers() -> list[str]:
     return results
 
 
-def check_research_swarm_contract() -> list[str]:
+def check_free_first_research_contract() -> list[str]:
     files = [
         ROOT / "agents" / "research-intelligence-agent" / "AGENT.md",
         ROOT / ".agent" / "workflows" / "research-intelligence-agent.md",
     ]
     results = []
     for path in files:
-        content = require_text(path, RESEARCH_INTELLIGENCE_REQUIRED_TEXT, "research swarm text")
+        content = require_text(path, RESEARCH_INTELLIGENCE_REQUIRED_TEXT, "free-first research text")
         if not content:
             raise AssertionError(f"Empty research file: {path}")
-        results.append(f"research swarm routing contract present: {path.relative_to(ROOT)}")
+        results.append(f"free-first research routing contract present: {path.relative_to(ROOT)}")
     return results
 
 
@@ -925,7 +927,7 @@ def main() -> int:
         ("required text", check_required_text),
         ("autopilot runtime preflight", check_autopilot_runtime_preflight),
         ("local helpers", check_local_helpers),
-        ("research swarm contract", check_research_swarm_contract),
+        ("free-first research contract", check_free_first_research_contract),
         ("orchestrate menu-only contract", check_orchestrate_menu_only_contract),
         ("end-session closeout contract", check_end_session_closeout_contract),
         ("health-check status contract", check_health_check_status_contract),

@@ -1,0 +1,30 @@
+{
+  "schema_version": "shadow-routing-disambiguation-results/v1",
+  "status": "PASS_BOUNDED_WORKSPACE_REPAIR",
+  "route_changed": "shadow-market-validation-report",
+  "signal_fidelity_changed": false,
+  "global_files_changed": false,
+  "merge_authorized": false,
+  "regression_controls": {
+    "unrelated_shadow_experiments_suppressed": "4/4",
+    "light_shadow_design_suppressed": "1/1",
+    "real_shadow_market_intents_preserved": "3/3"
+  },
+  "workspace_verification": {
+    "dedicated_disambiguation": "PASS",
+    "autopilot_routing": "PASS",
+    "autopilot_runtime_preflight": "PASS",
+    "skill_system_contract": "PASS",
+    "codex_authority": "PASS",
+    "subagent_approval_language": "PASS",
+    "platform_lint": "PASS",
+    "operator_core_status": "PASS_14_OF_14",
+    "system_control_plane_golden_queries": "PASS_85_CHECKS"
+  },
+  "preexisting_out_of_scope_failures": [
+    "Global end-session wrapper lacks current closeout wording.",
+    "Global AGENTS lacks current explicit-subagent-authorization wording.",
+    "Full control-plane verifier stops when it reaches those global alignment checks."
+  ],
+  "separate_unfixed_gap": "Explicit slash invocation of shadow-market-validation-report is not resolved by the generic command alias helper; this predates and is independent of the SHADOW fuzzy-match defect."
+}

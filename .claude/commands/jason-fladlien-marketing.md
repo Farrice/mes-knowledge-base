@@ -1,5 +1,5 @@
 ---
-description: "Deploys Jason Fladlien's offer design and persuasion practice — Success by Subtraction, Fear-First Conversion, Incomparable Offer Engineering, Radical Candor as Scarcity, and source-traceable TERMS diagnosis across Time, Effort, Routine, Money, and Status. 38 workflow files ac..."
+description: "Deploys Jason Fladlien's offer design and persuasion practice — Success by Subtraction, Fear-First Conversion, Incomparable Offer Engineering, Radical Candor as Scarcity, and source-traceable TERMS diagnosis across Time, Effort, Routine, Money, and Status. 39 workflow files ac..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

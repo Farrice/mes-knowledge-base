@@ -1,0 +1,1446 @@
+{
+  "source": "/Users/farricecain/Documents/Codex/2026-09-07/jen-content-studio",
+  "destinations": [
+    "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-content-recovery-20260907/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery"
+  ],
+  "scope": "Every existing project file, including outputs and work. Manifest and final receipt verified separately.",
+  "files": [
+    {
+      "path": "outputs/CONTINUE-JEN.md",
+      "bytes": 7149,
+      "sha256": "541fb9d4bcd424343b8dfbcafb9c879aa3386c211e18237820dfc426c0ad7146"
+    },
+    {
+      "path": "outputs/GOOGLE-ANTIGRAVITY-START.md",
+      "bytes": 3898,
+      "sha256": "1c786651072e201974b995f2ca55f5acb2454624c6fab59fcf69b99eba099a50"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/PUBLIC-COPY.txt",
+      "bytes": 1425,
+      "sha256": "19e91faa5741fffd454b24f9a6abec43eecfd0f46300483644c8d256fdfe5168"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/caption.txt",
+      "bytes": 714,
+      "sha256": "37d46961f5a859338d3ce7f251165c92f8bf3eaf0db6855443b94c57aa59cb93"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/contact-sheet.jpg",
+      "bytes": 345842,
+      "sha256": "a6c9437373bff351d7b2dbb1b54d4c35947daf18d47c0737bd47126e9180d8d0"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/post.json",
+      "bytes": 7901,
+      "sha256": "a118432e8ef130d956dfb4c2f24a9447d3d609df7d3b9e1a2f6a2df18086aaf9"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/01.html",
+      "bytes": 5035,
+      "sha256": "f5b6350567c00ca6e3cb2dbf3f9fa80322ecc5b729f4937349816052e62b24dc"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/02.html",
+      "bytes": 4265,
+      "sha256": "a610826de4792f96e111dbc9df934d381a1378ccfe9d054bd215a544c5fb58db"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/03.html",
+      "bytes": 4276,
+      "sha256": "d47ae591aad0c991ac88c7ea6af2de3a9c7c24abb1a7e93d64b973e08ad85a87"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/04.html",
+      "bytes": 4264,
+      "sha256": "87fda75a413c38459fe4cdaf854d2e4e39f0f58ad67c3032a6faa8051d33db3f"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/05.html",
+      "bytes": 4265,
+      "sha256": "d005ea4e90b7ee846535ae4f94cf61dd93759ca456d39a75ef331353d41cb523"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/.tmp/06.html",
+      "bytes": 4126,
+      "sha256": "419842c99ac71eece754b7dbabc6bcafae7f95448d26add50bcdc6c7394ddbb5"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/01.png",
+      "bytes": 1717196,
+      "sha256": "092dc8b199b0d56f4a8c83aa53d4e000481e23ddb8a30924ae37bd8180846651"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/02.png",
+      "bytes": 1123414,
+      "sha256": "8c5d65609dd37d319e611444b498bc5241693b0c067a64b8f109334c13646756"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/03.png",
+      "bytes": 1259089,
+      "sha256": "15e33e6cb504e9f5b1630ace2b92084d10a4d320f1eeee5b8369d20b47a6bb3d"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/04.png",
+      "bytes": 1181514,
+      "sha256": "dc299f6693548957d800d3c4df7dc98256a48e92f370608fcd37c6e89c878cd5"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/05.png",
+      "bytes": 1100371,
+      "sha256": "4b54e88a9d8f9e55bdd69445203b53b57f540acfd9af18876fa01c6f27f965c2"
+    },
+    {
+      "path": "outputs/approved-assets/codewords/renders/06.png",
+      "bytes": 1265636,
+      "sha256": "ae593b2155886f81c55de8584369f7aeb046366c632869e16bbcf36ebd05f5f1"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/PUBLIC-COPY.txt",
+      "bytes": 1497,
+      "sha256": "494f01352c99555b95bfdfdd9817a24c8e572fb97edb5f4b947635effc17322e"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/caption.txt",
+      "bytes": 1071,
+      "sha256": "80f829466f53e61c174f0e6284bccad90938fcb08b8a1363838ee96380e9086e"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/contact-sheet.jpg",
+      "bytes": 363243,
+      "sha256": "062f17b5b6dd5a36986262b1d1cf4ee828f1ead868acd8d0ae6f1d7e9712656d"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/post.json",
+      "bytes": 8347,
+      "sha256": "a6ef33976dfbda6b948a863427f8780575531a121e289b5a2f504bb84634f32d"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/01.html",
+      "bytes": 5018,
+      "sha256": "0b4c51980aedeb506e609a269b9747818d5c0f26d11668729f7b47e0df9ba588"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/02.html",
+      "bytes": 4313,
+      "sha256": "c5797f0eb801366eb1feeba91cbcec5abbc2c048772206f83446f1467691e7b0"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/03.html",
+      "bytes": 4302,
+      "sha256": "8bf2018f7afffa493f8ee1f04c2c76b8886705edbf995b17d67c41ae0cf7edf8"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/04.html",
+      "bytes": 4305,
+      "sha256": "c03bf0e777b2b195bd7e7dd9c182ac7af0ff41998092b5aad22f21f9895ddd04"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/05.html",
+      "bytes": 4268,
+      "sha256": "959c03b760178fae0f4e404d862c3e82aec6d5c6686ca3cef0582c8d26d520de"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/.tmp/06.html",
+      "bytes": 4115,
+      "sha256": "2d6b29e9d5c8ff7bbff4d1c1550021bc954850852ee6ccc0c9a9b359e6bf7d29"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/01.png",
+      "bytes": 1698130,
+      "sha256": "61f62c869990e7b6e18696506b3de8bbc93893696517bc97069312836775962f"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/02.png",
+      "bytes": 1137603,
+      "sha256": "c7067045ec07f8c060e2ca73fb441f0cfe319abf86ce1049307335859e56cb29"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/03.png",
+      "bytes": 1121883,
+      "sha256": "4485cb48c722c7685f9a19cff378608f50ac1664c28901661c3185f80371de10"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/04.png",
+      "bytes": 1262984,
+      "sha256": "9d8065c511e74feed1957aecc558d9f8c5a98f847744959324baae031dd0942f"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/05.png",
+      "bytes": 1240178,
+      "sha256": "9d73ee3fe625618c66b0847796a338a07abc3e62ab4c1bfd03cb278196cb8af7"
+    },
+    {
+      "path": "outputs/approved-assets/negotiation/renders/06.png",
+      "bytes": 1259142,
+      "sha256": "964c2ca7eb80120f02c751f3b4705260c83db9b8c1f1022765ed1bab0147ba10"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/GOLDEN-REFERENCE.json",
+      "bytes": 4156,
+      "sha256": "a158b285cc8adfacead48faf2840d5123eb6c4dc37f3b44455569a7004aca632"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/PHOTO-CREDITS.md",
+      "bytes": 2193,
+      "sha256": "39bfc2eefcb948d2cf8ab87a2226ad10d614f1ef010e00b7cbcb9ffed466d6a1"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/POSTING.md",
+      "bytes": 855,
+      "sha256": "f172fd07c431d48154edf0580c4b6aca474293a5481c1b149bd629644c4797aa"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/PUBLIC-COPY.txt",
+      "bytes": 1626,
+      "sha256": "9fc0bd7f4f4240824d7ecb655accd42dede0ec8666db811a84c7638a0af6ca1d"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/QA.json",
+      "bytes": 1280,
+      "sha256": "7a6b06fcb2fe85f3c52d0b316722629875e6199e0e029539ed485e8b0a7063cf"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/VERIFICATION.md",
+      "bytes": 1381,
+      "sha256": "760af1991c22730ed812e1a19cef1a692a58b1157c0b1b9ff0681fc586ee2886"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/asset-manifest.json",
+      "bytes": 2099,
+      "sha256": "e7cfde4d965bf121d6d7e6d678734a669aa2677256212c249ecd232bbce94205"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/101.jpg",
+      "bytes": 438369,
+      "sha256": "376ca6f185f536868d4f1fab0cf24f299cc4ae7d2bae9623b436273accd1d127"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/coffee.jpg",
+      "bytes": 566383,
+      "sha256": "cf0ce3f22f2e1e90519a6b7a27fe12b3e8ef1dc814ea515d230237f9aa6fe110"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/house.jpg",
+      "bytes": 199411,
+      "sha256": "2110393cebed036aa029c8c40022d8ef7a676a4ac7bedecfe8c3548c019459f8"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/kitchen.jpg",
+      "bytes": 140850,
+      "sha256": "475deb10095ee5b90228024c08d8616e025f6726bf4a04ad09f4ff91650b788f"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/script-css.txt",
+      "bytes": 220,
+      "sha256": "730af53a9bc0255c9ee954496bbdd8588928a0541cd3dca41b2fa18af2af97a4"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/script.woff2",
+      "bytes": 144584,
+      "sha256": "3683830e3bb3f1a2138b6098f8663ca5ceb66b1f397a4f30639aae139e344bb8"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/street.jpg",
+      "bytes": 51501,
+      "sha256": "237f946531ed554cbc7c0eaafa409a807de3b51e33c56c7fa777104adcb3ffcf"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/assets/street2.jpg",
+      "bytes": 61355,
+      "sha256": "867177be3958cc3bec2d31d54a6b42cba3180abc260c1e62875da54b2e253a0d"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/build.py",
+      "bytes": 6896,
+      "sha256": "9a7686b674b3c225e6d75255fe8bf292024d298765e3921359b6dd1815af9462"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/caption.md",
+      "bytes": 845,
+      "sha256": "2f0fe1eb6e1834d682773a0fa9b6aa8e1079f3311f3c4a223eafac229fae0da4"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/caption.txt",
+      "bytes": 845,
+      "sha256": "2f0fe1eb6e1834d682773a0fa9b6aa8e1079f3311f3c4a223eafac229fae0da4"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/contact-sheet.jpg",
+      "bytes": 332210,
+      "sha256": "b11f8a60cdaaa31b94d18d39c4903093376134813c5273e30ed3ebee30f1c8df"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/jen-kitchen-101-lifestyle.zip",
+      "bytes": 11223538,
+      "sha256": "490172b6de659dd0ae814edd13aa2429db41a63efc443e0c448add5c9e8ea7fd"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/pipeline-log.md",
+      "bytes": 1584,
+      "sha256": "e5ada9047a21e6f89f7e5d0dfbadab41522f95d62fd7a61233b3770cc3a2840e"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/post.yaml",
+      "bytes": 138,
+      "sha256": "96d24de6307e8d0944e9ef5c86aa5b49ef84b2d899f871ddcadaa69447c26ec8"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/01.html",
+      "bytes": 4699,
+      "sha256": "42cd8e03a8f44b36ddcae776be59c868cc29fa35db5251ec91c772d8cf5d8397"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/02.html",
+      "bytes": 3942,
+      "sha256": "ef21ede39a0e059a2e8dee17b3bda214b0d05ee951ec610667b614cd325c7e5a"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/03.html",
+      "bytes": 3955,
+      "sha256": "60b9c449d03838db99078bdbcdae9b1b7cef45a0a041b52deca1da8479a2f3d3"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/04.html",
+      "bytes": 4014,
+      "sha256": "ed72d328af7579b093b93f4a42f197bbd3bfca3fc9ab21a50f7292c61d77d12b"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/05.html",
+      "bytes": 3983,
+      "sha256": "b5f1a0aab2bcceaa2cc60915e5dfa445277fe16bc4d15683a21f5ca9b8ac1cb2"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/06.html",
+      "bytes": 3827,
+      "sha256": "254a9f6cb8c7472e6fbd6bc0b25f3e8c3277f56fc98f655015cd578837432cb1"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-01.html",
+      "bytes": 5334,
+      "sha256": "59c2b691c97fac29b55d65fbccbff5c8988225acdd29385c60a612e460e918e1"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-02.html",
+      "bytes": 4577,
+      "sha256": "d8fac25c9d3335095f0d8e7a0298d16d9534e4e3acb95ed25b133bca88a73e32"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-03.html",
+      "bytes": 4590,
+      "sha256": "28d816f2634366a864c15c45ffd5dad5172676c8b71a1a16bbb42052fa1fab12"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-04.html",
+      "bytes": 4649,
+      "sha256": "e8944e1b20cafa8bdc44e746e810a9520806c57d5a264fb407e2fd088aefcc6f"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-05.html",
+      "bytes": 4618,
+      "sha256": "b86e9397dddae001f84cdbe9b180e64bc428b816969f6d97183b82d9129e1936"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-06.html",
+      "bytes": 4462,
+      "sha256": "f14305da786ee5f6258301c4cbd2b3453bd9cf429f3a4161e6b8b6fb60d8630a"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-story-01.html",
+      "bytes": 4303,
+      "sha256": "65c0a0297ff192c883a3c744d00cd5a8545bf82446a68d016c8da956be1371ad"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-story-02.html",
+      "bytes": 4298,
+      "sha256": "5875eb90c44ba44211722ba6eab45198cbdbc7be75c2056240fd3eb2ed83c375"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/qa-story-03.html",
+      "bytes": 4319,
+      "sha256": "fad8aa2a8f79952ce31916d93a1358fbc4c53bc4a10f9c183bd71ef4d20eb283"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/story-01.html",
+      "bytes": 3668,
+      "sha256": "23d17740d33627bb5bdea490d2cd69d0d18cd4a3a46091b9e5fd8eef064dbfa4"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/story-02.html",
+      "bytes": 3663,
+      "sha256": "6608e4a136bf3b3a887240f3f53e611b26eb8710a41693326ade856314436dd1"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/.tmp/story-03.html",
+      "bytes": 3684,
+      "sha256": "bda64ea732831e51fb237f9d5eb5778c04942cf7dbae9a3d12aee9e8dc032b1d"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/01.png",
+      "bytes": 1483501,
+      "sha256": "cb261df2804507d34c9cb94286575d43088c84852ee90d5c53a351bcf879a773"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/02.png",
+      "bytes": 1204517,
+      "sha256": "c2ba9cb18e3f82b570455dc0464241e4ff7f93ea21453b330270c2e013bf6fa0"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/03.png",
+      "bytes": 1215695,
+      "sha256": "ab00609ecac1bedeb610c469e3b2a32dd6353e607512b269691682360faa86b6"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/04.png",
+      "bytes": 1122361,
+      "sha256": "4c0b0c66311a072e37371f0cda1bc4343ac0a96a7c376bde9e1069ef89868007"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/05.png",
+      "bytes": 1206657,
+      "sha256": "12825e106e639c16cb40512f267535335d650f36da57d2550fca608d18d7d675"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/06.png",
+      "bytes": 1167899,
+      "sha256": "111ec45866bff249ad05696ddb6121a86df6cef1ae613ff7ed6243c7168c8257"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/story-01.png",
+      "bytes": 1130916,
+      "sha256": "c156b7c088bee0dda0f3c957727c11eb5f849dda293c068e63142e3c338ef150"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/story-02.png",
+      "bytes": 1264328,
+      "sha256": "4336e2d1dec8c98dd9a430930e6245a2e9aac3fd8448e3c6686f3a0237b71adf"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/renders/story-03.png",
+      "bytes": 1422890,
+      "sha256": "ebee3d16b19795048655f7d03c14d82cb5a8b1eb91d28a0e945bfefe12430769"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/saved-reply.txt",
+      "bytes": 297,
+      "sha256": "8628416e33bbc483c61bfe7884dc89fe0dc4b37a81914a1a0f07af684b404eeb"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/slide-plan.json",
+      "bytes": 3002,
+      "sha256": "4cc3ced14218ed8542282575a2027fac845fdf90b007da797a66bea50a26761a"
+    },
+    {
+      "path": "outputs/approved-assets/visual-reference/kitchen-101-lifestyle/stories-preview.jpg",
+      "bytes": 217084,
+      "sha256": "16d960c1545a83f72a201433741460bd21b2dd7866dcb9aab2ed0cf8630efe1f"
+    },
+    {
+      "path": "outputs/jen-approved-execution-brief.md",
+      "bytes": 5947,
+      "sha256": "304dd10c8087382284f3b68d234dbecf6b08f34f64e3ff434f4431c02ae9a423"
+    },
+    {
+      "path": "outputs/jen-approved-post-recovery.md",
+      "bytes": 5154,
+      "sha256": "f60ae60780e70de0f1abc6f9091e577b2f97933a257a0ada6ea5137fa4345269"
+    },
+    {
+      "path": "outputs/jen-approved-post-recovery.metadata.json",
+      "bytes": 183,
+      "sha256": "112e0e3c086eaab58eb8f38dff84f7dc32d92581b8bdded46f69c1a0cf10635e"
+    },
+    {
+      "path": "outputs/jen-asking-again.md",
+      "bytes": 1294,
+      "sha256": "9a49863f03c746c54541c30de0a2325db6e851bb6618267d6fdb2461dc9f89d3"
+    },
+    {
+      "path": "outputs/jen-asking-again.metadata.json",
+      "bytes": 262,
+      "sha256": "5a5625aac9e4745b39bd99f4b6fd104659e4401c8ad0eaca189e9a44824d9ad7"
+    },
+    {
+      "path": "outputs/jen-broll-source-adaptations.md",
+      "bytes": 4483,
+      "sha256": "180980b1ba95d837a87a6539980a4aa8e56761aa78e23f5d206ac45223b7545f"
+    },
+    {
+      "path": "outputs/jen-broll-source-adaptations.metadata.json",
+      "bytes": 363,
+      "sha256": "964978be9fd31d9879a6095c0b3d0178ce19fd19919a1c9a9d43d8a305158a21"
+    },
+    {
+      "path": "outputs/jen-conversation-recovery.md",
+      "bytes": 1384,
+      "sha256": "fbd0834adf02181bb703f390e7a2cdd4d61ead6b23d9e5e2ac1f682139032080"
+    },
+    {
+      "path": "outputs/jen-conversation-recovery.metadata.json",
+      "bytes": 159,
+      "sha256": "fd064f5515d8e5eefc07501872a14968667ed94b51aeb7793271d72638fd7829"
+    },
+    {
+      "path": "outputs/jen-execution-transfer-review.md",
+      "bytes": 5671,
+      "sha256": "967e7a093ce40c91276f5bdb63dc7b17751e12e2ca392ea0268ca31f3bacc654"
+    },
+    {
+      "path": "outputs/jen-execution-transfer-review.metadata.json",
+      "bytes": 158,
+      "sha256": "fc870b387865041c997a0398950ca791d91e247dbb6cea9cbfe24778991184c9"
+    },
+    {
+      "path": "outputs/jen-open-house-review.md",
+      "bytes": 3466,
+      "sha256": "6b4444ac18de214f5e9818b831933fd861bff35f9999976c0548c75e16ffabeb"
+    },
+    {
+      "path": "outputs/jen-open-house-review.metadata.json",
+      "bytes": 183,
+      "sha256": "9d8425d8389df7116779c4de69c5551a60555d730314ebbc5a01fb75645297be"
+    },
+    {
+      "path": "outputs/jen-rent-this-one-review.md",
+      "bytes": 2277,
+      "sha256": "d6009b637690cb7f335b62bcf307436f717f721ac2ab7fa05d9a9e0e7e87c02c"
+    },
+    {
+      "path": "outputs/jen-rent-this-one-review.metadata.json",
+      "bytes": 165,
+      "sha256": "2d558c9511a3715878b5a1a900297200dbd3b6417a02ebdacc7e02d540f56db1"
+    },
+    {
+      "path": "outputs/jen-source-fit-correction.md",
+      "bytes": 4993,
+      "sha256": "379eaae79354cda34e3e5767b84cdbd1f8158dceb11972529d5419cf1b4d2f1d"
+    },
+    {
+      "path": "outputs/jen-source-fit-correction.metadata.json",
+      "bytes": 179,
+      "sha256": "259af2031d92a946a3ec1d75a48048830c901f90dc1e111328aae9cb129ea7bc"
+    },
+    {
+      "path": "outputs/jen-source-review.md",
+      "bytes": 6773,
+      "sha256": "20ea890b6fc45d7352c8722dc8f21b31b75d8dc218a119fe297daf09b79b81e0"
+    },
+    {
+      "path": "outputs/jen-source-review.metadata.json",
+      "bytes": 184,
+      "sha256": "b13cf5bcf4207432d6527c3f8cdc2246adbc4c3a11976ce864e8890fd352088c"
+    },
+    {
+      "path": "outputs/jen-two-pair-review.md",
+      "bytes": 2655,
+      "sha256": "16ebcc5604ad3db0c84a28146dd8a0cde3b8ab37e668f578b06f9b834457c9c1"
+    },
+    {
+      "path": "outputs/jen-two-pair-review.metadata.json",
+      "bytes": 214,
+      "sha256": "613b1269fef854017db9bdc5c0c300fdda0a00d65c1d5b176f0de3be14dfd05a"
+    },
+    {
+      "path": "outputs/references/creative-direction.md",
+      "bytes": 3768,
+      "sha256": "5ebfe88de883251ad04c1f4eee7e079cb4610016aab54085e94807a31b20067d"
+    },
+    {
+      "path": "outputs/references/writing-source-packet.md",
+      "bytes": 6704,
+      "sha256": "76a5aa559940cc2f27c7e6822f5f63142871d8c5b6223f0490684794f82c6303"
+    },
+    {
+      "path": "outputs/research/01-positioning-dossier.md",
+      "bytes": 11004,
+      "sha256": "650f81f7c545e62da4a9e6236c0fc5c6f977fb6b63bb15cbd1140488e18d770d"
+    },
+    {
+      "path": "outputs/research/01-positioning-dossier.metadata.json",
+      "bytes": 216,
+      "sha256": "133a42e08871c47ffe7e77295932d388055a116bf1d1e135722bb8f35b6baf9c"
+    },
+    {
+      "path": "outputs/research/02-audience-bullseye.md",
+      "bytes": 10741,
+      "sha256": "2b40554af53d6b403c431e98bd33db0a2930b47d6337e2a0e4b9e29ef308aca2"
+    },
+    {
+      "path": "outputs/research/02-audience-bullseye.metadata.json",
+      "bytes": 204,
+      "sha256": "52a1c234789a646642be5510cd3d2712a68a65d84481bf0b049b5a3ed4693c4e"
+    },
+    {
+      "path": "outputs/research/03-positioning-opportunity-map.md",
+      "bytes": 9559,
+      "sha256": "749d98ef6acbca8f1c17ec3962012e76d256e364e4856f9ec8449026794aa1ea"
+    },
+    {
+      "path": "outputs/research/03-positioning-opportunity-map.metadata.json",
+      "bytes": 214,
+      "sha256": "3da9c607768dae49d0e88c5efa7c65275091712900433e5191a31255e354ba77"
+    },
+    {
+      "path": "outputs/research/04-ai-topic-mining-report.md",
+      "bytes": 34984,
+      "sha256": "69958ab271fe6cd75dd2ffd7ea6f3101776cb4edc59e96655b3b32c132949230"
+    },
+    {
+      "path": "outputs/research/04-ai-topic-mining-report.metadata.json",
+      "bytes": 206,
+      "sha256": "a2088a6a883cfe19b78f953c555f66d6d50e96f9789633936c9267ffa366d39e"
+    },
+    {
+      "path": "outputs/research/05-hook-and-messaging-library.md",
+      "bytes": 9999,
+      "sha256": "2b1b46e5ac098d8d65e40160222988e322fafb4b9e82fbafe30296cca0cd2920"
+    },
+    {
+      "path": "outputs/research/05-hook-and-messaging-library.metadata.json",
+      "bytes": 202,
+      "sha256": "5c0c9398e4ea415b1c2a39893a14936cd0423a83171624999e1fffda17f6e1c4"
+    },
+    {
+      "path": "outputs/research/06-format-playbook.md",
+      "bytes": 8957,
+      "sha256": "5f8a57cb672035397727222bb45df87f1216fb6c6969fb8f1f958ec2492b7460"
+    },
+    {
+      "path": "outputs/research/06-format-playbook.metadata.json",
+      "bytes": 202,
+      "sha256": "6965c46670819c13984d40e15e2a36575c13907e123d19d01e65123104422e7f"
+    },
+    {
+      "path": "outputs/research/07-creative-brief-bank.md",
+      "bytes": 12701,
+      "sha256": "dea5bbd8d1e9f3eaf5deab31737be2456a94bd55a31db722b75a78ff1703d077"
+    },
+    {
+      "path": "outputs/research/07-creative-brief-bank.metadata.json",
+      "bytes": 232,
+      "sha256": "22ce6427702cc963ae750c2f0b095d5fbe6ab7cd638f5e56fb1b47a6651f54d1"
+    },
+    {
+      "path": "outputs/research/08-content-blueprint.md",
+      "bytes": 12427,
+      "sha256": "50a257c10ad74c72b8127d2a982e86c3d510304b330cc99a3d975576072606cf"
+    },
+    {
+      "path": "outputs/research/08-content-blueprint.metadata.json",
+      "bytes": 204,
+      "sha256": "7d67cd4ff88db38da5b6028032dab40dcce3a0c929004e0b77b2f2f655c2e3b2"
+    },
+    {
+      "path": "outputs/research/operator/01-positioning-dossier.prose-check.txt",
+      "bytes": 848,
+      "sha256": "661d46115847e02ed3ebe8235a14635de91585d6719ac4344ede805787a405bc"
+    },
+    {
+      "path": "outputs/research/operator/02-audience-bullseye.prose-check.txt",
+      "bytes": 647,
+      "sha256": "165a20fa2ad088be437abdf88d12dfd5253c65fd9d282a306aa4361bd4a46001"
+    },
+    {
+      "path": "outputs/research/operator/03-positioning-opportunity-map.prose-check.txt",
+      "bytes": 436,
+      "sha256": "3695a2c2837131d27d0ed06cc846648741ed8479073274557c6d5949a02e937f"
+    },
+    {
+      "path": "outputs/research/operator/04-ai-topic-mining-report.prose-check.txt",
+      "bytes": 436,
+      "sha256": "d0268bb703ef5c2e0d2bbc8a34f96b40177dff9cac21319a7309a177d84b74ee"
+    },
+    {
+      "path": "outputs/research/operator/05-hook-and-messaging-library.prose-check.txt",
+      "bytes": 579,
+      "sha256": "11b05c2d7c75a33c9541273d345ec3efaf16dac572b22a8924303ff3727f36ad"
+    },
+    {
+      "path": "outputs/research/operator/06-format-playbook.prose-check.txt",
+      "bytes": 727,
+      "sha256": "dc37679296aec5e15b34c6979b37deff49df578ec0fe1edb0fa0c29633fb69bf"
+    },
+    {
+      "path": "outputs/research/operator/07-creative-brief-bank.prose-check.txt",
+      "bytes": 749,
+      "sha256": "221b2077afa5f99c6d7d8f6395c5c48e171ed5e7e43a02d8fc1aa09008a3a4ac"
+    },
+    {
+      "path": "outputs/research/operator/08-content-blueprint.prose-check.txt",
+      "bytes": 436,
+      "sha256": "a0d7e6464d34fc4dfe9a4b28825be9fbfc35f2eb0ead77fabeef71fa446097b9"
+    },
+    {
+      "path": "outputs/research/operator/audience-language.json",
+      "bytes": 107430,
+      "sha256": "1d0253f663b9bb51ffdd9d2e62b778a595253c32a387a052cfc09484727c46e1"
+    },
+    {
+      "path": "outputs/research/operator/build_data.py",
+      "bytes": 10192,
+      "sha256": "9d14a06a0aa1c354ee12e7e3d1a72cb99fb92d9e4c1c7efb3802e53615bc747b"
+    },
+    {
+      "path": "outputs/research/operator/bullseye.svg",
+      "bytes": 1982,
+      "sha256": "57ad97fb5095906c760bd0cf7584ed0a302adbeed0799252374773cee5933e4c"
+    },
+    {
+      "path": "outputs/research/operator/current-audience-excerpts.json",
+      "bytes": 3305,
+      "sha256": "000c3d35931c8e4c35b522ef9334659d991fe0ea9630a44a075abacccf2198c5"
+    },
+    {
+      "path": "outputs/research/operator/current-source-ledger.json",
+      "bytes": 4812,
+      "sha256": "2b4ec41df270da8da34d7b88198374bb7d33d1b7b545c1351a7882d5a86e338f"
+    },
+    {
+      "path": "outputs/research/operator/data-summary.json",
+      "bytes": 734,
+      "sha256": "93f7a4bef897861b3f7b6740ff2443e3f99f239e26726d02869d264d1d0efd41"
+    },
+    {
+      "path": "outputs/research/operator/finish_package.py",
+      "bytes": 18377,
+      "sha256": "289a4da9b7d690dbd8dc0b88fa443203eface93e6c9f00b50a6b3cc75dd9b38b"
+    },
+    {
+      "path": "outputs/research/operator/fresh_condo_detail.txt",
+      "bytes": 16688,
+      "sha256": "6c990574619d76f82c51ae47c53622d759e4951c109afda850191579859d2af4"
+    },
+    {
+      "path": "outputs/research/operator/fresh_condo_primary.txt",
+      "bytes": 33741,
+      "sha256": "7315b8ff3e3dbcee7b7e6951c54fa7e7414f10f2cd22243230c8e571b22d2daf"
+    },
+    {
+      "path": "outputs/research/operator/fresh_sources_1.txt",
+      "bytes": 31302,
+      "sha256": "3fde74b794c26209b93cd9c276e0c26af193cf089d72e3cf905acbdb91da4814"
+    },
+    {
+      "path": "outputs/research/operator/fresh_sources_2.txt",
+      "bytes": 28639,
+      "sha256": "e27c1c20e3483585fba87eb9855f7a235d538e4b2f3c4d94c9a9062da04c50de"
+    },
+    {
+      "path": "outputs/research/operator/fresh_sources_3.txt",
+      "bytes": 28866,
+      "sha256": "67c2c7b97d204ebe9344bce352a2799b3ce1c7e6d3db712f1334544001579e16"
+    },
+    {
+      "path": "outputs/research/operator/input-hashes.json",
+      "bytes": 9198,
+      "sha256": "b700bcbd34668caee73600efbc7a3e4aed499563dbbaa016192a0cdd3bb20404"
+    },
+    {
+      "path": "outputs/research/operator/manifest.json",
+      "bytes": 4663,
+      "sha256": "8c1f7c80b6e51ac1181db5fe574e5504b3c15f52b8e817c30d49521082933443"
+    },
+    {
+      "path": "outputs/research/operator/prose-review.json",
+      "bytes": 3954,
+      "sha256": "9f95226fc1422ba89048937c16e8494e4e80a348458420723180d2beefd1b760"
+    },
+    {
+      "path": "outputs/research/operator/radar-input.json",
+      "bytes": 38663,
+      "sha256": "04be00b5f44b16ca7f81419a5c9562805126847ab419acd08db2d35edf0b552a"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/book-and-content-opportunity-map.md",
+      "bytes": 3317,
+      "sha256": "557ec6e51afc52b0b4754f30e34910a67fb9c5c952f43b9ffff98a01fa144285"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/book-and-content-opportunity-map.md.metadata.json",
+      "bytes": 328,
+      "sha256": "7d572c0dd79c3d6d2a73242b883986318c5ba50062246f564d6cefc091365a24"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/creative-reaction-brief.md",
+      "bytes": 9249,
+      "sha256": "278fc96d3d6ecfd804e85c8bedb81e0b50fa55c2ea33bbd5ab097abacb82a5ae"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/creative-reaction-brief.md.metadata.json",
+      "bytes": 319,
+      "sha256": "a18a2d1dfcbf60aa9e2b17ae3904824b2af56432a4f4d3f6f25891f0314f76a0"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/hook-pattern-report.md",
+      "bytes": 6547,
+      "sha256": "45ddf69b5d9c4adcd19e72b3830ccc0225f665e27572d401a7ae0171a89ef225"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/hook-pattern-report.md.metadata.json",
+      "bytes": 315,
+      "sha256": "bc6d7b297a7ee9a8c196dcac2cf0f235bb5ecdb1da57fee05e28d0dcc51d57cd"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/normalized-signals.json",
+      "bytes": 109198,
+      "sha256": "39209878ec7ea0b41454feb411ab6cc3da2af0f65e6e6c1c0305ae027abd6957"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/outlier-ledger.csv",
+      "bytes": 17297,
+      "sha256": "54309448da68193497d769dae0b75230589941088a6d53e1bdaeaea8dc1a3ea2"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/run-receipt.json",
+      "bytes": 2455,
+      "sha256": "962c4e76ccda2b1026d2d357c82e57f38ff6ca703a78a56b8cbb3ba184cd9f82"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/run-receipt.md",
+      "bytes": 1945,
+      "sha256": "07a45568fd96d382ecafe6c4d4934e96ad3b714c711b24ce8295a5812ea4b1e5"
+    },
+    {
+      "path": "outputs/research/operator/radar-raw/run-receipt.md.metadata.json",
+      "bytes": 307,
+      "sha256": "97e8f7e3f4740635c3131828e4edebe72a655b626efaf27447c8adf3b0509df6"
+    },
+    {
+      "path": "outputs/research/operator/reference-top-50.json",
+      "bytes": 70132,
+      "sha256": "b8191e0ee9af85cbdfb378fea0eff7c40a32e7a5eb62c9f7c1cdeff2e589c899"
+    },
+    {
+      "path": "outputs/research/operator/selected-buyer-quotes.json",
+      "bytes": 8181,
+      "sha256": "d0a9f5ac9595a3d4de407f1d89f03c27d535d04a3717bf50793bbfad357d6b43"
+    },
+    {
+      "path": "outputs/research/operator/source-ledger.csv",
+      "bytes": 92801,
+      "sha256": "c144db7805f7b08158d8f2add06f25ab2093a97ba30d1ee9101699ce91f4888f"
+    },
+    {
+      "path": "outputs/research/operator/source-ledger.json",
+      "bytes": 332650,
+      "sha256": "01c975da1baff8f347896bfe3c3edd952557bca7b61338a2713552cd02fe2df2"
+    },
+    {
+      "path": "outputs/research/operator/topic-bank.json",
+      "bytes": 15898,
+      "sha256": "b2e01b53b30aad315793476eab81bb029277dce4d5bec837f22c7e3515d24b16"
+    },
+    {
+      "path": "outputs/research/operator/verification.json",
+      "bytes": 862,
+      "sha256": "8bc0097563adfe322b8213b12db01210458c1f393426b2eb5fd197b04a4ee24f"
+    },
+    {
+      "path": "outputs/research/operator/verify_package.py",
+      "bytes": 4327,
+      "sha256": "7ed1a91fdf8702ec0ca179f4962b819ec2c9a612c9bd815e847d63d8f9fb9054"
+    },
+    {
+      "path": "outputs/research/operator/write_documents.py",
+      "bytes": 81180,
+      "sha256": "6e1e965a78aeb33444545092b4e0be10f242e20041a20ea391d678d16e33006f"
+    },
+    {
+      "path": "work/caption-classifier-result.json",
+      "bytes": 216,
+      "sha256": "78aaf71d5d07ce73c48bca0092cd169d67b2bf81c49aeb7b755ee02b25713bdc"
+    },
+    {
+      "path": "work/caption-review.md",
+      "bytes": 1364,
+      "sha256": "a864eee734d7302568788bf1f42a99ca5a4423c9a6ec8b790237d28bd14b305d"
+    },
+    {
+      "path": "work/caption.txt",
+      "bytes": 779,
+      "sha256": "905fda0eea77b1a40e36f9a4e58627bcb38c51cccc309d4dbf8b5a59199c0964"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/broll-nate.json",
+      "bytes": 6029,
+      "sha256": "d1e5e194ade31e27cb157f04dd778f2ae5d75afa7a06241aa07b6862b77ea3a9"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/broll-rachael.json",
+      "bytes": 6307,
+      "sha256": "b98103213d6d553b42fbe72514623ec27347f8f6549f086266defe79761c8438"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/controls-submits.json",
+      "bytes": 685,
+      "sha256": "80913c91f2944a0ec95c59be8a72cbd4926b372527f56d296112342f1cfa0b96"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/nate-strong.json",
+      "bytes": 4829,
+      "sha256": "dddc2e3bb5c01a9135efe34a0f4e39f00199544e89fa695cc400f67fba48dafb"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/nate-weaker.json",
+      "bytes": 5073,
+      "sha256": "f6e60abc88c4271e7f19ab4a58cc1ea3e46354215e41b8ee10c2181fe9e8a3cc"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/profile-natesoetaert.realestate.json",
+      "bytes": 4892,
+      "sha256": "afc050a2cfff0c09bc2ea5bd6ce5eb53020f21c06f6fc9a1e3a433dabdb8469d"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/profile-rachaelnovak.json",
+      "bytes": 5219,
+      "sha256": "d450c0fd85d21612b44430d634c16b61f2f26ca51288baac635a1163f9c76e03"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/profile-tripsmortgagetips.json",
+      "bytes": 4851,
+      "sha256": "127fb418e87c7025ab98d0d78eb55f25eb43f7e0c09543088d64ba5eb2aa10ac"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/search-3.json",
+      "bytes": 15292,
+      "sha256": "84c94a80cfe7350039bc8bf8edea1a3c0505fa753b75fa19b591417c8d1a016e"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/searches-1-2.json",
+      "bytes": 25375,
+      "sha256": "7ca5db453102145dbe22547b594b574cb66a54192d74e6e215697e5ea7398bb6"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/talk-control-retry.json",
+      "bytes": 274,
+      "sha256": "74384f9977d0dcca83814e6b55359708f9a894cf0d4835c2683616e06ec8908b"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/talk-controls-submits.json",
+      "bytes": 379,
+      "sha256": "cf572592b69ec321628498e8e788c881cc2aedc606bce8d4da77c87e7c91c379"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/trips-higher.json",
+      "bytes": 5592,
+      "sha256": "577533b5954d1d53519832b05988fb9d56fd1374ff12b7c8aa8e28c5384431c1"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/trips-lower.json",
+      "bytes": 3979,
+      "sha256": "2f964c4025e146b5e7b8e0df271feb159d24aa8b14d5dd50ee1d1aa84ddc5123"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/watch-submissions.json",
+      "bytes": 3536,
+      "sha256": "490760d8658eb5440110ac19113721c6d8e849ca69fb09c804c01e1c5cb0b1e3"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/yap-logan.json",
+      "bytes": 6572,
+      "sha256": "aafb6f2705c9a204eaaeab0a82deb2b55152f5677d4c37b8b58b2250d7974c75"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/format-lab/yap-trips.json",
+      "bytes": 6407,
+      "sha256": "8bc8408cf386e6e031e97f935893bf242b8938bf2216fdf00ed41d21492a112b"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/01-programs.json",
+      "bytes": 13102,
+      "sha256": "ac97e509904e6906fa448a5e3ffa04ee2183410c25bf80750ba5e4075548b5d6"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/02-real-numbers.json",
+      "bytes": 13460,
+      "sha256": "47e1e3eae1dad56ac3f2458024ebb8a3ad5cfbfaa17647a34f50dbfbff4321b5"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/03-client-reveal.json",
+      "bytes": 13915,
+      "sha256": "8f38ccac0c012a9ad0350c54228089325f0f8efb2097920f28e42a554f8adf02"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/04-bri-profile.json",
+      "bytes": 5389,
+      "sha256": "70aeb29f3c3206e9beef7c1ae3b75d496e5476d9c0ccabf76f650fc0397d0650"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/05-myths.json",
+      "bytes": 13252,
+      "sha256": "20759b3efa435c0e429e6f806e5519955d18671ddc6126fd772045d52f311094"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/06-relatable.json",
+      "bytes": 12893,
+      "sha256": "4165d2f522200faf2e5c4f719b23538ab8afb48b25b470b2a4086f4879ffb5c7"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/07-diagrams.json",
+      "bytes": 12839,
+      "sha256": "dd3347b9e1d00443a300ec74f2e3c9a9ade7a9d9b826685dd3eea5cfcbc00119"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/08-gstavo-profile.json",
+      "bytes": 4460,
+      "sha256": "b5283695f09b5e3a648eee258cfa002cbcca86d0e9101eae1d30d04b03a58274"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/09-kolor-profile.json",
+      "bytes": 4424,
+      "sha256": "c32b641c3ec199dfd62e5c886a1fd05ec8f66f2d3c1167d83a69d9db64c04813"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/10-youtube-local.json",
+      "bytes": 31595,
+      "sha256": "eae96859cfecb360a7c78f30fc35d8f6592db5b0227c5316047261afeb00679e"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/11-youtube-selected.json",
+      "bytes": 451,
+      "sha256": "c888f01ec1744664a26a342ca51032e272cf3f9b1993c2eeda04e5a727f212f1"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/12-watch-bri-winner-poll.json",
+      "bytes": 1632,
+      "sha256": "5019442aa1645d0a9bb869b3ee7dfa0b9e40e50d260f50360cdadb6e3b0180f9"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/12-watch-bri-winner.json",
+      "bytes": 833,
+      "sha256": "adf8403dc91bfde2a729d03bfe26ea0a52aa39d36360b33d8439dc594a581c96"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/13-watch-bri-low-poll.json",
+      "bytes": 1512,
+      "sha256": "30485874063db45333343a9be2279553c9be114dc0d5f82a8e283ae9807fccc6"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/13-watch-bri-low.json",
+      "bytes": 830,
+      "sha256": "dcedbe5691c436022ec228b8125d23f4f49b298ed4b4f2fde9673e86cd5011cb"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/14-watch-bri-credit-poll.json",
+      "bytes": 2321,
+      "sha256": "2a88e8a90ba215b623673b8ef89ca50bfc043d05c1c9be0a1ac074413601a923"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/14-watch-bri-credit.json",
+      "bytes": 833,
+      "sha256": "a4e0f45ff4983e3b8783a74d458607abc2d00d4f514cc36f8af35e1b74b6f93d"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/15-watch-kolor-reveal-poll.json",
+      "bytes": 3050,
+      "sha256": "a7329e057684fbd8e953c47226c245ae96d7e846e4145d84bfcb78601de94ec5"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/15-watch-kolor-reveal.json",
+      "bytes": 835,
+      "sha256": "89bd59a1eda4666b305fd51427e6ceafd156b975285e1d7c45cb7e71efec1e66"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/16-comments-ca.json",
+      "bytes": 51158,
+      "sha256": "3dbcc48177611b2f15330056002985fd36ab6782d658525859790ad122290d69"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/17-comments-costs.json",
+      "bytes": 8139,
+      "sha256": "852e4a5eaef8c60829842f7da3df4724da303fb86e9ca0f10e1b6c48f959c7d7"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/18-comments-lowdown.json",
+      "bytes": 31243,
+      "sha256": "5c4472228bb82fc6a081b34982b47b5b0a244daaba54507480ccc4ad4745b03a"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/19-watch-kolor-normal-poll.json",
+      "bytes": 2158,
+      "sha256": "96ad13e75bd36872b150afd7dcb83349b830dc2f619dc7a1430a54eeab2a27c4"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/19-watch-kolor-normal.json",
+      "bytes": 835,
+      "sha256": "0267173b9f8377e8c2ea411ee24d002753581a868ef5cd2f4f943968f5a52d76"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/20-watch-kina-poll.json",
+      "bytes": 276,
+      "sha256": "b10dfd5313d8b03f52a7c991b2cc93c8d4e64a0184adc4a2cc44d2308882a145"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/20-watch-kina.json",
+      "bytes": 827,
+      "sha256": "2a9cc261e0b501aa1ada3887c62914daefe9245a1300082e925e00e8e9b39e54"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/21-watch-california-poll.json",
+      "bytes": 3768,
+      "sha256": "6e95d8763a74fa8a4273c0a09ac404dd2d4c189a49ed0ee06b529588a6f76efd"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/21-watch-california.json",
+      "bytes": 833,
+      "sha256": "85617ea8a01bde1073d088c70c7c673b6b4aaf97f3bbb5f10e87023c7fb94cfd"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/22-watch-blinds-poll.json",
+      "bytes": 1442,
+      "sha256": "5ea7ecaff3a9638961a132b7760b1b6eb6995a235a827838151b831bdb8ea2fb"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/22-watch-blinds.json",
+      "bytes": 829,
+      "sha256": "d0692c8e2ce8c9380f4960f4395df3ab101049af697260f676049e251ae555ae"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/23-watch-call-reveal-poll.json",
+      "bytes": 4300,
+      "sha256": "74a1f9e152f30f5a2d824939ea4711de27bc68c0d4faa5c297e935210bfb0f6b"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/23-watch-call-reveal.json",
+      "bytes": 851,
+      "sha256": "682b31d73300a309c0aebbf4cb93172a2ebcca48b4143827836d73f47de0f207"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/24-motion-submit.json",
+      "bytes": 4473,
+      "sha256": "383983c67f604608e3ef3fe306c7f991be0ee395276bc211a0b64c7637d45ce4"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/25-motion-poll.json",
+      "bytes": 2005,
+      "sha256": "0492009029b0a3a99859d60cc34704bd6179f15b3885697938fc9765e1ce48c8"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/25-motion-submit.json",
+      "bytes": 4273,
+      "sha256": "76dbf6580fd250154ded9fabcb120a1ab4ff66bc98e776299bcaf6b619113b32"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/26-watch-jen-affordability-poll.json",
+      "bytes": 8353,
+      "sha256": "534aac0ade7474ffb51104186420ab6afc3f524824822bbc7101c1d36b4c3258"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/26-watch-jen-affordability.json",
+      "bytes": 840,
+      "sha256": "0bb9ac3e7d76892702189a954fb4acdb29d5af5fa9ffa8e31fdcb99efd572717"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/27-watch-jen-wishlist-poll.json",
+      "bytes": 5162,
+      "sha256": "7ecf2d3fe026d1f8fc34fa538d411fcbe96f938ac94b2cb06c8c63d2bfcc07a9"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/27-watch-jen-wishlist.json",
+      "bytes": 835,
+      "sha256": "f00ee621cd41b8d4b7180e0dd85e5d45bb28739c8df1a70b26d0b204dd685452"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-carligerber-profile.json",
+      "bytes": 5303,
+      "sha256": "e6e7faabe429ad9b6d657e365a790e29bb51436e4b84be589211fed651298e9f"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-comment-relatable.json",
+      "bytes": 13676,
+      "sha256": "5f11eeba6755b650e01f0fc87d72a649b708eb5fad9fdc68e1bafda2cd4bea9a"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-compare-relatable.json",
+      "bytes": 14144,
+      "sha256": "84f11dcdcc47caa12700f3e5b5fd4b8bf62edef639e6acf68861f0dd53c6c487"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-local-relatable.json",
+      "bytes": 13849,
+      "sha256": "aace2d21268483df16b5ff569a0c6c89a2883ddc2c4166b869e2e7304ed916b1"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-localhook-relatable.json",
+      "bytes": 13381,
+      "sha256": "31512faf3e347cf3910c5b621be496447b33ec40ee96a51d68f974573e509db8"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-codewords.json",
+      "bytes": 19621,
+      "sha256": "36e415fec59bcc29009d8dbe7d889aa1ee00b77ab0671e77d26c908886d0d025"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-local-food.json",
+      "bytes": 23186,
+      "sha256": "231ebc61cf8a8b43478dda38f5df879f9e22f79120932e037c95b0bec7223e7c"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-local-shop.json",
+      "bytes": 15820,
+      "sha256": "79e5ef18c3dc14558223190dc0a48fdfff173a6df7653fe5659259abcd3c8ca6"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-neighborhood.json",
+      "bytes": 20984,
+      "sha256": "28b21611cd4e60be75e311020c8a0dcd0c1792ac0b44a28c9947908da4334694"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-pov-houses.json",
+      "bytes": 9914,
+      "sha256": "f21dc829b8cafb2cc29047799012f1348423251669de2185490498fe9ef3a8ea"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-question-proof.json",
+      "bytes": 239299,
+      "sha256": "a99827d5232acef49767cb5f557827d50639482725e4b0944ad8205a9bc72f8f"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-seller-story.json",
+      "bytes": 20158,
+      "sha256": "d22732150356b35b7771c70cbf19299520453980713db5ec2ca698f82f385a3e"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-poll-sfv-shop.json",
+      "bytes": 26384,
+      "sha256": "8ae793f31251afb677eb54e777b424445dceb632bfd0cee0db58ad752813bc0c"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-pov-relatable.json",
+      "bytes": 13538,
+      "sha256": "627ecbb279eb50d8eb53bd6257130532ce332a44638c9d19dc8c8a8ab92e7a60"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-resource-relatable.json",
+      "bytes": 13582,
+      "sha256": "aa3375f45a6ee0e9f3f26fd0a188a4a3e84d53d0aa349799643383d621109443"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-seller-relatable.json",
+      "bytes": 13609,
+      "sha256": "dce4a4d52feff5ec91937b6e4f0ebafb557be771c07623b9744503630bd9aec3"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-stephanieeoliverarealtor-profile.json",
+      "bytes": 5448,
+      "sha256": "7b9ce334d4eb3a6e45dd3007c7dced2c8a2493403486aced02c10dc70d665e44"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-story-relatable.json",
+      "bytes": 13874,
+      "sha256": "8fc00eb1669a8411dde0bcdb3c4052a0ce50d6997eee545e1afcfae97ce831c1"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-codewords.json",
+      "bytes": 823,
+      "sha256": "7c6bc9517d8abb839b9474b3f9f3f6b93f8a523c5475ab236dd31bfa3e685646"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-local-food.json",
+      "bytes": 824,
+      "sha256": "d2d9b37014a3305201425350e6889aa66d9a2a340d412411484c0900528246f7"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-local-shop.json",
+      "bytes": 824,
+      "sha256": "471a2eb47f3c0b1b21bc03f4565390754055e9f83f3ebfdf4cb0d4b2706c4c3d"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-neighborhood.json",
+      "bytes": 826,
+      "sha256": "3839b456fcb52e755bdcbbfcc952f102d64262119187632ff937c9daf2429995"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-pov-houses.json",
+      "bytes": 824,
+      "sha256": "72b079c6c3f47704a205aa26ed95f0395fd48e466a4fdf72aa7662c92896a76d"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-question-proof.json",
+      "bytes": 855,
+      "sha256": "8327dc09d6b4bb14c83ee4ee5bc7b644eee2a6bd48a362a102ee3ce9906112a7"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-seller-story.json",
+      "bytes": 826,
+      "sha256": "20c36914418602af5763bfdb436dd627d26dff40cb2d18f51694e8c9272d80be"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/exp-watch-sfv-shop.json",
+      "bytes": 822,
+      "sha256": "c6e32b4394db82b0da56856f65c9b66f71e7666adad98f3353460fff75615811"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/final-balance.json",
+      "bytes": 554,
+      "sha256": "e3e2971b3d836b293ea66f92160188613d9fda4ca954e6358fa95d5a8166a095"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/01-buyer-concepts-success.json",
+      "bytes": 11115,
+      "sha256": "f891ffb3886f029abd87140b60444d0b031c530b6198678d32b2cf8240167f76"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/02-faceless-formats-success.json",
+      "bytes": 10968,
+      "sha256": "e86fd73eb7ec495a7c9ed3c031190c6eba428d6ed57fff8146f9ce49ea5597a3"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/03-visual-explainers-success.json",
+      "bytes": 10813,
+      "sha256": "c9e13862a59cea4ec4ed9f48102f35e2fa46722392d4ea24ce066c4a90f518ef"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/04-reveal-crossover-success.json",
+      "bytes": 11349,
+      "sha256": "a8166a4e74505b174904cdcad5289c47be430471f66258bca5d1de0d037bd298"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/05-jen-reels-success.json",
+      "bytes": 5200,
+      "sha256": "6710c3faee68d502eef4dc9ccb2525f21531e5929763eae2b5f12dd728e15818"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/06-watch-mikko-poll-1.json",
+      "bytes": 2144,
+      "sha256": "904893108c1fe492cf2230d3d9df6de6b68557d5d0f9caffa3ea01b685c3a5e4"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/07-watch-jessica-poll-1.json",
+      "bytes": 1852,
+      "sha256": "81d640fbf679b5a36d5ab4108543f359071644ac135dc63c991bf98fba998a8a"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/08-watch-moneyletter-poll-1.json",
+      "bytes": 3070,
+      "sha256": "c9618c21b7ebca37a88621f210acab9c8131be170e3b0f90378b9a099ee244a6"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/09-watch-giggle-poll-1.json",
+      "bytes": 1703,
+      "sha256": "7dbebe4167f8960737ae2fb6a4533d403063961b8a777601115ff13b1e2e7c09"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/10-watch-brickhome-poll-1.json",
+      "bytes": 2067,
+      "sha256": "bddf888adb59108fd05db82dde5de4c0ac67ec4d1b40eb2385420b5034cc4b9f"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/inherited/11-watch-space-poll-1.json",
+      "bytes": 2132,
+      "sha256": "52abd7738fca4889e414306f673bc67247506cac1c4a64582a6bfca14e72c5d8"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/production/instagram-comments.json",
+      "bytes": 7852,
+      "sha256": "ed83fd1fce86e9204624131c68ec66f5a9d709279cced495602cbf84844917f2"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/resonance-sources/draft-review-rejection.json",
+      "bytes": 381,
+      "sha256": "b5f9437a196acbfe50c16fc8e3569ed4216055ac806b208db2bdc16de0e08089"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/resonance-sources/full-caption-reading-notes.json",
+      "bytes": 2949,
+      "sha256": "cd0c4fdfe27868b18c36bb6554d2a8040045641d9b3e3200bc3eb83d42a0183d"
+    },
+    {
+      "path": "work/inherited-vidiq-evidence/resonance-sources/vidiq-research.json",
+      "bytes": 82720,
+      "sha256": "c95c42d5e73de27a345625349abbb42e7a84957c585f87602eaeb593cccaa81b"
+    },
+    {
+      "path": "work/inherited-vidiq-source-map.json",
+      "bytes": 39227,
+      "sha256": "5dd9f3da6e7cce9da2b844aa4bc75496e8d7a263ffc82a86bace3ed6a91cd1e0"
+    },
+    {
+      "path": "work/jen-approved-trace.json",
+      "bytes": 2906,
+      "sha256": "4f7681b00a7ea597ef3e94a202cd8c94e9799210c63257cab4bf237908913494"
+    },
+    {
+      "path": "work/jen-broll-adaptations-review.md",
+      "bytes": 1657,
+      "sha256": "3946eaebf318ff1ebcc18ad4cbbaf5ff5c5124276d854f2552afc01b8b7b9882"
+    },
+    {
+      "path": "work/jen-conversation-history.json",
+      "bytes": 82053,
+      "sha256": "c9f610455469d628e876092823040286f00dca54d32aebf85ade2ecbdf6d3eca"
+    },
+    {
+      "path": "work/jen-current-raw-intent.txt",
+      "bytes": 1232,
+      "sha256": "52826435337dcdc1b0d2a8f2b10be58ee2635d961c8800c29dd36273a698951a"
+    },
+    {
+      "path": "work/jen-open-house-caption.txt",
+      "bytes": 825,
+      "sha256": "f82fc296d6414fa0a76440fecdf165b8096e470e65fad1986e2219e53ab7444e"
+    },
+    {
+      "path": "work/jen-open-house-source-gate.md",
+      "bytes": 1211,
+      "sha256": "fc2ec328bcf5c90f14ca01ec3d044dd969e852b2bc7b4d3d346a9da769a31156"
+    },
+    {
+      "path": "work/jen-recovery-packet.md",
+      "bytes": 4490,
+      "sha256": "df45f913cb0d60281337a2cb267ed866c00dc985ec4f0deb93b31cf031719e95"
+    },
+    {
+      "path": "work/jen-recovery-raw-packet.json",
+      "bytes": 10104,
+      "sha256": "964c930173d19ded810045499592cc7eb2ad00d87e47ad02e5613e7b9e9af457"
+    },
+    {
+      "path": "work/jen-recovery-run-packet.json",
+      "bytes": 15682,
+      "sha256": "dd0594a7d477112653b98c0b322124977679ac27e47ec2e9a58298cb1be79802"
+    },
+    {
+      "path": "work/jen-vidiq-fit-run-packet.json",
+      "bytes": 13554,
+      "sha256": "dba8e1f4bf9a4058270ebeccf70e2aff62df26f3d3e4ad9d466ad06b0e0895f8"
+    },
+    {
+      "path": "work/jen-vidiq-source-pass.json",
+      "bytes": 71745,
+      "sha256": "0b3fdf442d8191f569ad6b1340179c8c34605f280d3d5caeea3121880c73185d"
+    },
+    {
+      "path": "work/marianne-mahjong-source-reading.md",
+      "bytes": 3005,
+      "sha256": "7bdb63c21d7120d9a989a839bf94c551ac1d6e16e64425513966b9fd2844ad92"
+    },
+    {
+      "path": "work/removal-receipt.json",
+      "bytes": 26388,
+      "sha256": "9925994bcebcc4f74b88d56a98a70dd0358171700ef518b6ec66f2f0b9458893"
+    },
+    {
+      "path": "work/rent-this-one-caption.txt",
+      "bytes": 988,
+      "sha256": "b0ebf8ee460dd730f51af07ad52e1f632fafdfa19c11007688379cdf116f983f"
+    },
+    {
+      "path": "work/research-copy-verification.json",
+      "bytes": 3712,
+      "sha256": "4d474e320b18f540017afc4dd4207abcae9485eeda99ab3a17b84c8a7819340f"
+    },
+    {
+      "path": "work/transfer_jen_project.py",
+      "bytes": 5199,
+      "sha256": "67e16a14a09c5542e515ef8f21fc64355d6fc1625b0d0e56a8e042a41370e6c2"
+    },
+    {
+      "path": "work/two-pair-review-notes.md",
+      "bytes": 2191,
+      "sha256": "965e437e9be009779749bc44b0a97e67f020526e2124c938e42da4b161651a0d"
+    }
+  ],
+  "approved_sha256": "9a49863f03c746c54541c30de0a2325db6e851bb6618267d6fdb2461dc9f89d3"
+}

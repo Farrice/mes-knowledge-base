@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_shared/styles.css">
+<style>
+  /* --signature-accent: tokens.json colors.signature_accent (#FF2D2D) — the brand's ONE
+     unlocked accent, sanctioned for exactly one use: the script-signature overlay on the
+     cover/close frames of the editorial style (moves.md #10). render_template.py's brand-kit
+     CSS-var injection does not carry an arbitrary `signature_accent` key (only the fixed
+     colors.{accent,primary,bg_*,text_*} schema — see render_template.py `color_map`), so this
+     one-off token is declared locally instead of via var(--brand-accent) (which resolves to
+     ink #101010 on this brand, NOT the signature color — tokens.json: "accent == ink on
+     purpose"). Never reused anywhere else in this template. */
+  .signature-cover { --signature-accent: #FF2D2D; }
+
+  .editorial-topbar {
+    position: absolute;
+    left: 7.78%; right: 7.78%; top: 5.33%;
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--brand-display, "Helvetica Neue", Helvetica, Arial, sans-serif);
+  }
+  .editorial-topbar .category {
+    font-weight: 700; font-size: 2.41cqw; letter-spacing: -0.01em;
+    color: var(--brand-text-on-light);
+  }
+  .editorial-topbar .date-row {
+    display: flex; align-items: center; gap: 2.04cqw;
+  }
+  .editorial-topbar .date {
+    font-weight: 400; font-size: 2.04cqw; color: var(--brand-text-on-light);
+  }
+  .editorial-topbar .arrow {
+    font-size: 2.78cqw; line-height: 1; color: var(--brand-text-on-light);
+  }
+
+  .headline-word {
+    position: absolute;
+    left: 0; width: 100%; top: 33.7%;
+    text-align: center;
+    font-family: var(--brand-display, "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-weight: 700;
+    font-size: 22.04cqw;   /* ceiling — render_template.py's autosize net shrinks longer
+                              per-post hook words down to fit; this authored size is the max,
+                              matched exactly to the ref's own 238px word. */
+    line-height: 0.86;
+    letter-spacing: -0.065em;
+    text-transform: lowercase;  /* the design's giant word is ALWAYS lowercase (moves.md #10) */
+    color: var(--brand-text-on-light);
+    z-index: 1;
+  }
+
+  .signature {
+    position: absolute;
+    left: 22.22%; top: 40%;
+    font-family: "Snell Roundhand", "Zapfino", cursive;  /* interim system script placeholder
+      until Farrice's real handwriting SVG lands (moves.md #10; matches the source composition
+      file _editorial.css exactly) */
+    font-weight: 700;
+    font-size: 10.74cqw;
+    color: var(--signature-accent);
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+    transform: rotate(-7deg);
+    transform-origin: left center;
+    z-index: 2;
+  }
+
+  .editorial-foot {
+    position: absolute;
+    left: 7.78%; right: 7.78%; bottom: 4.74%;
+    display: flex; justify-content: space-between;
+    font-family: var(--brand-display, "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-weight: 400;
+    font-size: 1.85cqw;
+    color: var(--brand-text-on-light);
+  }
+</style>
+</head>
+<body>
+  <div class="slide signature-cover" data-surface="light" style="background: var(--brand-bg-light);">
+
+    <!-- HEADER — series/category title (left) + publish date + fixed arrow glyph (right) -->
+    <div class="editorial-topbar">
+      <span class="category" data-slot="CATEGORY">{{CATEGORY}}</span>
+      <span class="date-row">
+        <span class="date" data-slot="DATE">{{DATE}}</span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </span>
+    </div>
+
+    <!-- GIANT DISPLAY WORD — the per-post hook/topic. box-grows (no fixed height): a longer
+         word wraps within the fixed-width zone rather than overflowing; render_template.py's
+         autosize net enforces the width fit down to a legible floor. -->
+    <div class="headline-word" data-slot="HEADLINE_WORD">{{{HEADLINE_WORD}}}</div>
+
+    <!-- SCRIPT SIGNATURE — fixed brand mark (moves.md #10), overlaid diagonally on the giant
+         word. Never varies per post. -->
+    <div class="signature" data-slot="SIGNATURE">{{SIGNATURE}}</div>
+
+    <!-- FOOTER — 4-item credit strip: author / owned URL / niche descriptor / standing CTA -->
+    <div class="editorial-foot">
+      <span data-slot="AUTHOR_NAME">{{AUTHOR_NAME}}</span>
+      <span data-slot="SITE_URL">{{SITE_URL}}</span>
+      <span data-slot="NICHE_LABEL">{{NICHE_LABEL}}</span>
+      <span data-slot="CTA_LABEL">{{CTA_LABEL}}</span>
+    </div>
+
+  </div>
+</body>
+</html>

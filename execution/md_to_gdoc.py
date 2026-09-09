@@ -32,7 +32,10 @@ import re
 import json
 import subprocess
 import tempfile
+from datetime import date
 from pathlib import Path
+
+from google_doc_lifecycle import content_hash, lookup, record
 
 try:
     import markdown
@@ -303,12 +306,16 @@ def upload_html_as_gdoc(html_path, name, folder_id=None):
 
     result = subprocess.run(cmd_copy, capture_output=True, text=True)
 
-    # Step 3: Delete temp HTML file
+    # Step 3: Delete temp HTML file. gws otherwise leaves an empty
+    # download.html response in the working directory for this 204 response.
+    delete_response = Path(html_path).with_suffix('.delete-response')
     cmd_delete = [
         'gws', 'drive', 'files', 'delete',
-        '--params', json.dumps({"fileId": temp_file_id})
+        '--params', json.dumps({"fileId": temp_file_id}),
+        '--output', str(delete_response),
     ]
     subprocess.run(cmd_delete, capture_output=True, text=True)
+    delete_response.unlink(missing_ok=True)
 
     if result.returncode != 0 or 'error' in result.stdout.lower():
         print(f"  ✗ Error converting {name}: {result.stdout[:200]}")
@@ -322,6 +329,30 @@ def upload_html_as_gdoc(html_path, name, folder_id=None):
     except json.JSONDecodeError:
         print(f"  ✗ Error parsing conversion response for {name}")
         return None
+
+
+def update_html_gdoc(html_path, existing):
+    """Replace one living Google Doc while preserving its ID and revisions."""
+    doc_id = existing.get('doc_id') or existing.get('id')
+    if not doc_id:
+        return None
+    result = subprocess.run([
+        'gws', 'drive', 'files', 'update',
+        '--params', json.dumps({"fileId": doc_id, "fields": "id,name,webViewLink"}),
+        '--upload', str(html_path), '--upload-content-type', 'text/html',
+    ], capture_output=True, text=True)
+    if result.returncode != 0 or '"error"' in (result.stdout or '').lower():
+        print(f"  ✗ Error updating living Google Doc {doc_id}: {result.stderr[:200]}")
+        return None
+    try:
+        data = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return None
+    data.setdefault('id', doc_id)
+    data.setdefault('webViewLink', existing.get('link') or
+                    f"https://docs.google.com/document/d/{doc_id}/edit")
+    print(f"  ✓ Updated living Google Doc → {data['webViewLink']}")
+    return data
 
 
 def set_pageless(doc_id):
@@ -359,8 +390,9 @@ def set_pageless(doc_id):
     return True
 
 
-def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
-    """Convert a single markdown file and upload as Google Doc."""
+def convert_and_upload(md_path, folder_id=None, name=None, pageless=True,
+                       new_milestone=False, existing_doc_id=None):
+    """Convert Markdown to one living Google Doc, updating it on later runs."""
     md_path = Path(md_path)
 
     with open(md_path, 'r', encoding='utf-8') as f:
@@ -369,8 +401,12 @@ def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
     # Convert to HTML
     html_content = md_to_html(md_text)
 
-    # Write to temp file
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8') as f:
+    # gws only uploads files from the active workspace. Keep conversion
+    # intermediates inside the repo instead of macOS's private temp directory.
+    staging_dir = Path.cwd() / '.tmp'
+    staging_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False,
+                                     encoding='utf-8', dir=staging_dir) as f:
         f.write(html_content)
         html_path = f.name
 
@@ -384,7 +420,24 @@ def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
         else:
             doc_name = name
 
-        result = upload_html_as_gdoc(html_path, doc_name, folder_id)
+        if new_milestone and not re.match(r'^\d{4}-\d{2}-\d{2}[-_ ]', doc_name):
+            doc_name = f"{date.today().isoformat()} — {doc_name}"
+        source_hash = content_hash(md_text)
+        existing = None if new_milestone else lookup(md_path, folder_id, doc_name)
+        if existing_doc_id and not new_milestone:
+            existing = {"doc_id": existing_doc_id,
+                        "link": f"https://docs.google.com/document/d/{existing_doc_id}/edit"}
+        if existing and existing.get('source_hash') == source_hash:
+            result = {"id": existing['doc_id'], "name": doc_name,
+                      "webViewLink": existing.get('link')}
+            print(f"  ✓ Unchanged — reused living Google Doc → {result['webViewLink']}")
+        elif existing:
+            result = update_html_gdoc(html_path, existing)
+        else:
+            result = upload_html_as_gdoc(html_path, doc_name, folder_id)
+        if result and not new_milestone:
+            record(md_path, folder_id, doc_name, result.get('id'), source_hash,
+                   result.get('webViewLink'))
 
         # Apply pageless format
         if result and pageless:
@@ -541,6 +594,10 @@ if __name__ == '__main__':
                         help='Walk input dir and mirror subfolder structure into Drive (BOS build pipeline)')
     parser.add_argument('--drive-parent', help='Drive parent folder ID (alias for --parent-id when used with --mirror-folders)')
     parser.add_argument('--exclude-dirs', help='Comma-separated list of subfolder names to skip when mirroring (default: _working)')
+    parser.add_argument('--new-milestone', action='store_true',
+                        help='create a separate date-led Doc instead of updating the living Doc')
+    parser.add_argument('--doc-id',
+                        help='adopt an existing Google Doc as the living export (single-file mode)')
 
     args = parser.parse_args()
     input_path = Path(args.input)
@@ -573,6 +630,9 @@ if __name__ == '__main__':
                 f.write(html)
             print(f"  ✓ {input_path.name} → {out.name}")
     elif input_path.is_dir():
+        if args.doc_id or args.new_milestone:
+            print("Error: --doc-id and --new-milestone are single-file controls")
+            sys.exit(1)
         batch_convert_and_upload(
             input_path,
             folder_id=args.folder_id,
@@ -580,7 +640,8 @@ if __name__ == '__main__':
             parent_id=args.parent_id
         )
     elif input_path.is_file():
-        convert_and_upload(input_path, folder_id=args.folder_id, name=args.name)
+        convert_and_upload(input_path, folder_id=args.folder_id, name=args.name,
+                           new_milestone=args.new_milestone, existing_doc_id=args.doc_id)
     else:
         print(f"Error: {input_path} not found")
         sys.exit(1)

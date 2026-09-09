@@ -1,3 +1,13 @@
+---
+date: 2026-07-26
+session: forge dialect claude-opus-5 probe battery
+name: subagent-inherits-claude-md-and-runs-the-chain
+problem_class: harness / subagent dispatch / unasked side effects
+domain: harness
+status: proven
+problem_signature: "a subagent handed a one-line brief burns enormous token counts, runs the whole Chain, self-scores itself, and writes a live Notion row nobody asked for — it inherited CLAUDE.md and read the constitution's steps as binding on itself"
+tags: [subagent, opus-5, dispatch, notion, chain, scope]
+---
 # Solution Card — a subagent inherits CLAUDE.md and executes its side effects unasked
 
 **Date**: 2026-07-26 · **Domain**: system fix (subagent dispatch / Opus 5 dialect) · **Status**: SOLVED (prompt-level guard; protocol edit pending)

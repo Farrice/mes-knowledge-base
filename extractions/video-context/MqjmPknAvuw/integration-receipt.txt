@@ -1,0 +1,8 @@
+2026-09-06
+Verified build sealed at e242864d0 on codex/dan-koe-video-system.
+Standard worktree_lane.py merge --no-push --no-teardown result:
+LANE PARKED: main integration tree dirty (109 tracked changes).
+No force merge, main cleanup, remote push or global activation performed.
+The source package, tool and workflow are usable in this preserved lane.
+After main is reconciled by its owner:
+python3 execution/worktree_lane.py merge --lane codex/dan-koe-video-system --no-push --no-teardown

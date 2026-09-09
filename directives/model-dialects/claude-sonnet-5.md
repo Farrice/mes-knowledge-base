@@ -53,3 +53,33 @@ P1 PASS · P2 PASS (exact 40) · P3 PASS · P4 FAIL (silent rule override, unfla
 ## Re-probe Triggers
 Provider version bump past `claude-sonnet-5` · fixture replay flags cross-skill drift on
 Sonnet-run work · Sonnet assigned a new class of forge work.
+
+## Machine-Readable Dialect (consumed by `steering_loop_hook.py` — the bound injector)
+
+Added 2026-08-20: the card had NO machine block, so the injector was silent for Sonnet-conducted
+sessions — a live gap once Sonnet becomes the post-2026-08-31 interactive conductor (seating
+ruling, opus card § Fable-Seat Re-probe). Inject lines built from the 2026-07 battery plus the
+2026-08-20 Fable-seat probes (verbose under harness context; exact-count miss at 43/40; silent
+rule override P4).
+
+<!-- BEGIN:machine-dialect -->
+```json
+{
+  "model_match": ["claude-sonnet-5", "sonnet-5", "sonnet"],
+  "inject": {
+    "deliverable": [
+      "State the length/scale you will hold in ONE line, then hold it; restate any binding rule inside the task block — you resolve rule conflicts silently (P4), so surface them instead. Scope = exactly the ask."
+    ],
+    "conversational": [
+      "Direct answer first, conversational scale — injected context invites expansion; resist it (2026-08-20 probe: ~380w on a bare question)."
+    ],
+    "delegation": [
+      "Conduct by the book (Conductor Ladder: doctrine table + existing scripts, no novel orchestration); dispatch briefs carry verbatim: \"{negative_brief}\"."
+    ]
+  },
+  "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",
+  "probe_evidence": "2026-07 battery (P4 FAIL silent override, P6 fuller default) + 2026-08-20 Fable-seat re-probe (43/40 exact-count miss, harness-amplified verbosity, clean P9 containment)"
+}
+```
+<!-- END:machine-dialect -->
+

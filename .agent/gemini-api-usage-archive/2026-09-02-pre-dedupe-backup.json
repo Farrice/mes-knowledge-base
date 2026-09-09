@@ -1,0 +1,40 @@
+{
+    "prepaid_ceiling_usd": 10.0,
+    "current_month": "2026-09",
+    "usage": {
+        "total_queries": 2,
+        "estimated_cost_usd": 1.0,
+        "queries": [
+            {
+                "timestamp": "2026-09-02T14:51:48.072711+00:00",
+                "type": "research",
+                "agent": "deep-research-preview-04-2026",
+                "description": "What Instagram content is actually generating buyer and seller leads for residential real estate agents in Los Angeles and the San Fernando Valley in 2026, for a solo agent serving buyers and sellers ",
+                "task_context": "Jen Santulan, @_jiing, San Fernando Valley realtor. Retooling her content system after she rejected a line-drawing design system and a weekly voice memo. She wants her own full-bleed-photo white-serif look, will experiment with talking reels, wants buyers and sellers, no account access (she posts). The working thesis to test: the niche is the place plus price band, the Valley at 800K and up, not the buyer type.",
+                "estimated_cost": 0.5,
+                "duration_seconds": 821.17,
+                "interaction_id": "v1_ChdxRFNZYXZxRU1fV25tdGtQOE5iRDZRdxIXcURTWWF2cUVNX1dubXRrUDhOYkQ2UXc"
+            },
+            {
+                "timestamp": "2026-09-02T14:53:46.242885+00:00",
+                "type": "research",
+                "agent": "deep-research-preview-04-2026",
+                "description": "",
+                "task_context": "swarm-parallel-gemini",
+                "estimated_cost": 0.5,
+                "duration_seconds": 0.0,
+                "interaction_id": "v1_ChdxRFNZYXZxRU1fV25tdGtQOE5iRDZRdxIXcURTWWF2cUVNX1dubXRrUDhOYkQ2UXc"
+            }
+        ]
+    },
+    "alerts": {
+        "warn_at_percent": 80,
+        "block_at_percent": 95
+    },
+    "loop_detection": {
+        "current_task_query_count": 1,
+        "current_task_name": "swarm-parallel-gemini",
+        "last_query_timestamp": "2026-09-02T14:53:46.242885+00:00"
+    },
+    "notes": "Defense-in-depth tracker. Ultra subscription should cover most calls at $0. This tracks estimated spend against the $10 prepaid ceiling as a last-resort check. See directives/google-api-usage-policy.md."
+}

@@ -1,0 +1,21 @@
+{
+  "video_id": "kY-t009NMWU",
+  "title": "The Only Way To Grow on Instagram FAST (to make $20k+)",
+  "creator": "heyDominik",
+  "url": "https://www.youtube.com/watch?v=kY-t009NMWU",
+  "duration_seconds": 8190,
+  "captured_at": "2026-09-03",
+  "capture_modes": [
+    "public_metadata",
+    "100_scene_aware_frames",
+    "openai_whisper_2088_timestamped_segments",
+    "user_supplied_framework_and_case_notes"
+  ],
+  "transcript_status": "TRANSCRIBED_OPENAI_WHISPER_RUNTIME_RECEIPT",
+  "transcript_segments": 2088,
+  "transcription_model": "whisper-1",
+  "transcription_cost_ceiling_usd": 0.82,
+  "transcript_persistence": "WATCH_SCRIPT_EMITTED_RUNTIME_REPORT_BUT_NO_TRANSCRIPT_FILE",
+  "visual_status": "PARTIAL_SPARSE_FULL_VIDEO_SCAN",
+  "commercial_claim_status": "SOURCE_REPORTED_UNVERIFIED"
+}

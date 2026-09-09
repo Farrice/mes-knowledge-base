@@ -1,0 +1,177 @@
+[
+  {
+    "type": "observed_spoken",
+    "start": "00:03:03",
+    "end": "00:04:27",
+    "claim": "The rebrand uses Double Diamond divergence and convergence across Discover, Define, Develop, and Deliver.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:04:27",
+    "end": "00:09:00",
+    "claim": "Discovery combines goals, customer research, user profiles, journeys, values, personality, and positioning.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:09:00",
+    "end": "00:10:46",
+    "claim": "Research is synthesized into explicit design challenges before design exploration begins.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:11:53",
+    "end": "00:13:53",
+    "claim": "Develop begins with multiple stylescapes that coordinate the full visual direction before refinement.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:13:53",
+    "end": "00:17:59",
+    "claim": "Website, typography, color, photography, messaging, and product direction are refined in context.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "start": "00:17:59",
+    "end": "00:22:28",
+    "claim": "Deliver converts the chosen direction into guidelines and applies it across web, packaging, studio, content, and product surfaces.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:03:04",
+    "end": "00:03:04",
+    "claim": "Confirms divergence and convergence are explicit at both problem and solution stages.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:04:48",
+    "end": "00:04:48",
+    "claim": "Shows discovery is collaborative and grounded in people close to customers and products.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:06:27",
+    "end": "00:06:27",
+    "claim": "Shows research is converted into structured user and perception artifacts.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:07:34",
+    "end": "00:07:34",
+    "claim": "Shows verbal identity is derived during definition, not appended after visual design.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:09:33",
+    "end": "00:09:33",
+    "claim": "Shows discovery outputs become explicit design challenges before solution exploration.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:12:25",
+    "end": "00:12:25",
+    "claim": "Shows a stylescape as a coordinated direction candidate rather than isolated component choices.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:12:52",
+    "end": "00:12:52",
+    "claim": "Confirms direction choice is made at a whole-system level before component refinement.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:13:22",
+    "end": "00:13:22",
+    "claim": "Shows the selected direction being tested against a real touchpoint.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:14:46",
+    "end": "00:14:46",
+    "claim": "Shows typography is selected in context, not as a detached font specimen.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:15:17",
+    "end": "00:15:17",
+    "claim": "Shows color decisions are validated in application rather than swatches alone.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:15:56",
+    "end": "00:15:56",
+    "claim": "Shows image direction is articulated as a range of visual behaviors.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:18:52",
+    "end": "00:18:52",
+    "claim": "Shows the chosen direction has been converted into a reusable system document.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:19:15",
+    "end": "00:19:15",
+    "claim": "Shows system rules include both tokens and an explanation of intended use.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:19:38",
+    "end": "00:19:38",
+    "claim": "Shows identity consistency across photographic and editorial components.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:20:02",
+    "end": "00:20:02",
+    "claim": "Shows the brand is validated beyond a style guide through channel applications.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:20:12",
+    "end": "00:20:12",
+    "claim": "Shows the same direction survives physical-space application.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:20:32",
+    "end": "00:20:32",
+    "claim": "Shows delivery as an integrated system review rather than a logo reveal.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:21:33",
+    "end": "00:21:33",
+    "claim": "Shows the identity driving a live digital product surface.",
+    "status": "VERIFIED_VISUAL"
+  },
+  {
+    "type": "observed_visual",
+    "start": "00:22:06",
+    "end": "00:22:06",
+    "claim": "Shows the brand system changing the ongoing production environment.",
+    "status": "VERIFIED_VISUAL"
+  }
+]

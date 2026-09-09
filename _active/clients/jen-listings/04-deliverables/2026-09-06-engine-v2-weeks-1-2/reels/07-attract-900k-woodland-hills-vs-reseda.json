@@ -1,0 +1,43 @@
+{
+  "out": "07-attract-900k-woodland-hills-vs-reseda",
+  "lockup": true,
+  "out_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-21",
+  "beats": [
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/suburban-neighborhood-aerial-02.jpg",
+      "line": "$900K in woodland hills.<br>$900K in reseda.<br>same week.",
+      "size": 79,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/california-bungalow-00.jpg",
+      "line": "woodland hills. $900,000.<br>3 bed. 2 bath.<br>1,160 square feet.",
+      "size": 76,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/front-door-house-00.jpg",
+      "line": "reseda. $899,000.<br>4 bed. 3 bath.<br>1,625 square feet.",
+      "size": 88,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/valley-street-01.jpg",
+      "line": "465 more square feet<br>and a fourth bedroom...<br>for a thousand dollars less.",
+      "size": 68,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "/Users/farricecain/Google Antigravity/.claude/worktrees/broke-agent-2026-playbook-forge/_active/clients/jen-listings/04-deliverables/2026-09-01-september-carousels/img/jen-porch-vannuys.jpg",
+      "line": "send me your number<br>and the zip. i&#8217;ll send<br>the two i&#8217;d go see first.",
+      "size": 76,
+      "hand": "my DMs are open &#8594;",
+      "secs": 5,
+      "zoom": "in"
+    }
+  ]
+}

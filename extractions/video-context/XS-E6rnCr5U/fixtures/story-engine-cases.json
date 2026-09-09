@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "id": "positive_full_social",
+      "work_type": "social",
+      "problem": "The consultant kept publishing broad wellness advice that funded performance brands could not safely reuse.",
+      "pursuit": "He began pairing each idea with a named evidence source, a claim boundary, and one buyer-use case.",
+      "payoff": "The content became specific enough to demonstrate a claim-safe content service.",
+      "want": "Make his expertise legible to funded health and performance brands.",
+      "obstacle": "Generic posts hid the difference between his work and commodity content.",
+      "turn": "He treated evidence boundaries as part of the creative, not a compliance pass at the end.",
+      "change": "His posts became proof of method rather than disconnected advice.",
+      "privacy_sensitive": false,
+      "expected": "FULL_STORY_CANDIDATE"
+    },
+    {
+      "id": "unresolved_supported_awareness",
+      "work_type": "social",
+      "problem": "A creator noticed that every weekly post felt like a performance.",
+      "pursuit": "She tracked which topics she would discuss without an audience and removed the rest for one month.",
+      "payoff": "She still has not found the final format, but she now knows the problem is topic ownership rather than discipline.",
+      "want": "Build a body of work she can sustain.",
+      "obstacle": "Her calendar rewarded output volume instead of genuine interest.",
+      "turn": "The month-long log separated low energy from low conviction.",
+      "change": "Her diagnosis changed, even though the journey remains open.",
+      "privacy_sensitive": false,
+      "expected": "FULL_STORY_CANDIDATE"
+    },
+    {
+      "id": "negative_incident_status",
+      "work_type": "incident",
+      "problem": "The publishing queue stopped after an expired credential.",
+      "pursuit": "The operator restored the credential and replayed the failed item.",
+      "payoff": "The queue is processing again.",
+      "want": "Restore service.",
+      "obstacle": "Authentication failed.",
+      "turn": "Credential replacement succeeded.",
+      "change": "Queue health returned.",
+      "privacy_sensitive": false,
+      "expected": "NO_STORY"
+    },
+    {
+      "id": "sensitive_privacy_fragment",
+      "work_type": "social",
+      "problem": "A private family event changed how the teller thinks about ambition.",
+      "pursuit": "The teller rebuilt the weekly schedule around one explicitly supplied boundary.",
+      "payoff": "The new schedule protects the relationship without naming the event or the other person.",
+      "want": "Explain a change in work philosophy.",
+      "obstacle": "The triggering event and third-party details are withheld.",
+      "turn": "The teller chose a new boundary.",
+      "change": "The teller's own operating behavior changed.",
+      "privacy_sensitive": true,
+      "third_party_details": "WITHHELD",
+      "expected": "STORY_FRAGMENT_CANDIDATE"
+    },
+    {
+      "id": "missing_pursuit",
+      "work_type": "social",
+      "problem": "The creator felt invisible despite posting every day.",
+      "pursuit": "",
+      "payoff": "Engagement later improved.",
+      "want": "Become recognizable.",
+      "obstacle": "The posts were generic.",
+      "turn": "",
+      "change": "Engagement changed, but the causal path is unknown.",
+      "privacy_sensitive": false,
+      "expected": "NEEDS_SOURCE"
+    },
+    {
+      "id": "documented_contrast_unknown_turn",
+      "work_type": "social",
+      "problem": "A 2018 offer used an outcome-heavy promise the operator now rejects.",
+      "pursuit": "A 2026 artifact states the operator's current evidence-bound messaging standard.",
+      "payoff": "The dated contrast demonstrates a changed position without documenting when or why the change occurred.",
+      "want": "Explain the origin of a claim-safe point of view.",
+      "obstacle": "No sourced conversion scene or causal chronology exists between the two artifacts.",
+      "turn": "",
+      "change": "The position changed; the causal path remains unknown.",
+      "moment_type": "DOCUMENTED_CONTRAST",
+      "experience_evidence": true,
+      "method_evidence": true,
+      "deliverable_evidence": true,
+      "market_evidence": false,
+      "expected_proof_ceiling": "DELIVERABLE",
+      "privacy_sensitive": false,
+      "expected": "STORY_FRAGMENT_CANDIDATE"
+    }
+  ]
+}

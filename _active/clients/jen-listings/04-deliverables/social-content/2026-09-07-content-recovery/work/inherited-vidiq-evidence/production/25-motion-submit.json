@@ -1,0 +1,163 @@
+{
+  "request": {
+    "durationSeconds": 18,
+    "outputPreset": "shorts-9-16",
+    "background": {
+      "kind": "color",
+      "color": "#f7f5f2"
+    },
+    "theme": {
+      "fontFamily": "Jost",
+      "palette": {
+        "bg": "#f7f5f2",
+        "text": "#1e3a5f",
+        "accent": "#6985a0",
+        "muted": "#6985a0"
+      },
+      "shadow": false,
+      "radius": 0
+    },
+    "root": {
+      "type": "stack",
+      "direction": "column",
+      "align": "start",
+      "justify": "center",
+      "style": {
+        "padding": 0.085,
+        "gap": 0.035
+      },
+      "children": [
+        {
+          "type": "text",
+          "sizeRel": 0.018,
+          "weight": 500,
+          "color": "#6985a0",
+          "value": "JEN SANTULAN  /  THE VALLEY"
+        },
+        {
+          "type": "text",
+          "fontFamily": "Playfair Display",
+          "sizeRel": 0.063,
+          "weight": 400,
+          "color": "#1e3a5f",
+          "value": "the house fund\nhas more than\none job."
+        },
+        {
+          "type": "box",
+          "color": "#1e3a5f",
+          "style": {
+            "width": 0.83,
+            "padding": 0.026
+          },
+          "animations": [
+            {
+              "type": "slideIn",
+              "startSeconds": 3,
+              "durationSeconds": 0.6,
+              "from": 0.05
+            },
+            {
+              "type": "fade",
+              "startSeconds": 3,
+              "durationSeconds": 0.4
+            }
+          ],
+          "child": {
+            "type": "text",
+            "sizeRel": 0.035,
+            "color": "#f7f5f2",
+            "value": "01   down payment"
+          }
+        },
+        {
+          "type": "box",
+          "color": "#1e3a5f",
+          "style": {
+            "width": 0.83,
+            "padding": 0.026
+          },
+          "animations": [
+            {
+              "type": "slideIn",
+              "startSeconds": 6,
+              "durationSeconds": 0.6,
+              "from": 0.05
+            },
+            {
+              "type": "fade",
+              "startSeconds": 6,
+              "durationSeconds": 0.4
+            }
+          ],
+          "child": {
+            "type": "text",
+            "sizeRel": 0.035,
+            "color": "#f7f5f2",
+            "value": "02   closing costs"
+          }
+        },
+        {
+          "type": "box",
+          "color": "#6985a0",
+          "style": {
+            "width": 0.83,
+            "padding": 0.026
+          },
+          "animations": [
+            {
+              "type": "slideIn",
+              "startSeconds": 10,
+              "durationSeconds": 0.6,
+              "from": 0.05
+            },
+            {
+              "type": "fade",
+              "startSeconds": 10,
+              "durationSeconds": 0.4
+            }
+          ],
+          "child": {
+            "type": "text",
+            "sizeRel": 0.031,
+            "color": "#f7f5f2",
+            "value": "03   the move + a cushion"
+          }
+        },
+        {
+          "type": "text",
+          "fontFamily": "Playfair Display",
+          "sizeRel": 0.033,
+          "color": "#1e3a5f",
+          "animations": [
+            {
+              "type": "fade",
+              "startSeconds": 14,
+              "durationSeconds": 0.5
+            }
+          ],
+          "value": "let’s look at the whole move."
+        },
+        {
+          "type": "text",
+          "sizeRel": 0.017,
+          "color": "#6985a0",
+          "value": "Equity Union · DRE #01914509"
+        }
+      ]
+    }
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_aeeacb35-7e01-4c89-bee1-9e0bae9a816e\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_aeeacb35-7e01-4c89-bee1-9e0bae9a816e\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":5}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_aeeacb35-7e01-4c89-bee1-9e0bae9a816e",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_aeeacb35-7e01-4c89-bee1-9e0bae9a816e\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

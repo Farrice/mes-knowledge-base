@@ -1,0 +1,27 @@
+{
+  "slide_id": "slide-01",
+  "template_id": null,
+  "template_pool": null,
+  "source_template_dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/templates/linkedin-carousel/two-photo-list-body",
+  "data": {
+    "PHOTO_MAIN_PATH": "assets/photo-main-sample.png",
+    "PHOTO_SECOND_PATH": "assets/photo-second-sample.png",
+    "TITLE": "Creative Teardown",
+    "DATE": "03 Sep, 2026",
+    "HEADLINE": "what<br>changed",
+    "BODY": "Across three years of creative rounds the format changed every quarter. The argument underneath did not move once.",
+    "ITEM_1_LABEL": "2024 · studio statics",
+    "ITEM_1_BODY": "Product on white, the ingredient count in the headline.",
+    "ITEM_2_LABEL": "2025 · creator UGC",
+    "ITEM_2_BODY": "Same claim, now spoken by a stranger in a kitchen.",
+    "ITEM_3_LABEL": "2026 · dynamic variants",
+    "ITEM_3_BODY": "Same claim, cut into a thousand modular frames.",
+    "FOOTER_NAME": "Farrice Cain",
+    "FOOTER_URL": "parallaxletter.substack.com",
+    "FOOTER_DESCRIPTOR": "Supplement + performance brands",
+    "FOOTER_CTA": "DM ANGLE",
+    "MASTHEAD_LEFT": "FARRICE CAIN",
+    "MASTHEAD_CENTER": "",
+    "MASTHEAD_RIGHT": "CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS"
+  }
+}

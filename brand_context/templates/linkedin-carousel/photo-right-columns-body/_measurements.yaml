@@ -1,0 +1,100 @@
+source: authored-html-zones, bboxes CORRECTED against the actual rendered preview.png ink
+  extents (pixel-measured via a row/column ink scan), not the original pixel-exact HTML-source
+  guess — the flex-based masthead/footer rows do not sit at the naive guessed coordinates.
+canvas: [1080, 1350]
+elements:
+  - id: SERIES_TITLE
+    bbox_pct: [7.78, 5.33, 40.0, 3.0]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.41
+
+  - id: DATE
+    bbox_pct: [75.0, 5.5, 18.0, 3.0]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04
+
+  - id: PHOTO_MAIN
+    bbox_pct: [50.0, 11.11, 42.22, 45.93]
+    color_role: image
+    type: image
+    font_size_cqw: null
+
+  - id: HEADLINE
+    bbox_pct: [7.5, 40.5, 41.3, 16.3]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 10.93
+
+  - id: BODY
+    bbox_pct: [7.78, 60.3, 84.44, 7.0]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 2.41
+
+  - id: DIVIDER
+    bbox_pct: [7.78, 72.59, 84.44, 0.1]
+    color_role: border-subtle
+    type: rule
+    font_size_cqw: null
+
+  - id: ITEM_1_TITLE
+    bbox_pct: [7.78, 75.3, 17.9, 2.6]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.41
+
+  - id: ITEM_1_TEXT
+    bbox_pct: [7.78, 78.5, 25.0, 6.2]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 1.94
+
+  - id: ITEM_2_TITLE
+    bbox_pct: [37.41, 75.3, 16.1, 2.6]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.41
+
+  - id: ITEM_2_TEXT
+    bbox_pct: [37.41, 78.5, 25.0, 4.5]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 1.94
+
+  - id: ITEM_3_TITLE
+    bbox_pct: [67.04, 75.3, 18.5, 2.6]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.41
+
+  - id: ITEM_3_TEXT
+    bbox_pct: [67.04, 78.5, 25.0, 4.5]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 1.94
+
+  - id: FOOTER_NAME
+    bbox_pct: [7.78, 93.8, 11.5, 1.8]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+
+  - id: FOOTER_LINK
+    bbox_pct: [22.3, 93.8, 24.0, 1.8]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+
+  - id: FOOTER_TOPIC
+    bbox_pct: [49.3, 93.8, 30.5, 1.8]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+
+  - id: FOOTER_CTA
+    bbox_pct: [82.8, 93.8, 10.7, 1.8]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85

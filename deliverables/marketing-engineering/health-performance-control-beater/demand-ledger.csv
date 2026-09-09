@@ -1,0 +1,2 @@
+date,buyer_or_brand,fit_state,qualified_exposure,substantive_reply,fit_conversation,exact_proposal,sold,collected_usd,delivery_state,launch_state,results_state,rejection_or_correction,notes
+UNSTARTED,NO_EVENT,UNVERIFIED,0,0,0,0,0,0,NOT_STARTED,NOT_STARTED,NO_EVENT,,Draft-only baseline; no external action authorized

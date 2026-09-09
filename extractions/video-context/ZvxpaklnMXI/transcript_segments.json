@@ -1,0 +1,2396 @@
+[
+  {
+    "start": "00:00:00.960",
+    "end": "00:00:05.360",
+    "start_seconds": 0.96,
+    "end_seconds": 5.36,
+    "text": "At the start of 2025, I joined Mode as their Chief Design Officer.",
+    "source_text": "At the start of 2025, I joined Mode as their Chief Design Officer.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:05.360",
+    "end": "00:00:10.880",
+    "start_seconds": 5.36,
+    "end_seconds": 10.88,
+    "text": "My first task? Reimagining the company's brand. But where do you begin?",
+    "source_text": "My first task? Reimagining the company's brand. But where do you begin?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:10.880",
+    "end": "00:00:13.920",
+    "start_seconds": 10.88,
+    "end_seconds": 13.92,
+    "text": "How do you position your brand to stand out from competitors?",
+    "source_text": "How do you position your brand to stand out from competitors?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:13.920",
+    "end": "00:00:19.120",
+    "start_seconds": 13.92,
+    "end_seconds": 19.12,
+    "text": "Why risk changing something that already works? And how can a rebrand transform a",
+    "source_text": "Why risk changing something that already works? And how can a rebrand transform a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:19.120",
+    "end": "00:00:24.400",
+    "start_seconds": 19.12,
+    "end_seconds": 24.4,
+    "text": "business and shape its future products? Hello, I'm Matthew Encina. In this video,",
+    "source_text": "business and shape its future products? Hello, I'm Matthew Encina. In this video,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:24.400",
+    "end": "00:00:28.720",
+    "start_seconds": 24.4,
+    "end_seconds": 28.72,
+    "text": "I’ll walk you through the process of building a brand, from start to finish.",
+    "source_text": "I’ll walk you through the process of building a brand, from start to finish.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:28.720",
+    "end": "00:00:31.920",
+    "start_seconds": 28.72,
+    "end_seconds": 31.92,
+    "text": "Thanks to Shopify for sponsoring this video.",
+    "source_text": "Thanks to Shopify for sponsoring this video.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:31.920",
+    "end": "00:00:36.000",
+    "start_seconds": 31.92,
+    "end_seconds": 36.0,
+    "text": "Before we begin, I’ll give a little context on how we got here.",
+    "source_text": "Before we begin, I’ll give a little context on how we got here.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:36.000",
+    "end": "00:00:41.120",
+    "start_seconds": 36.0,
+    "end_seconds": 41.12,
+    "text": "The story of Mode begins when our founder Jaicob discovers mechanical keyboards while",
+    "source_text": "The story of Mode begins when our founder Jaicob discovers mechanical keyboards while",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:41.120",
+    "end": "00:00:45.520",
+    "start_seconds": 41.12,
+    "end_seconds": 45.52,
+    "text": "working as a software engineer. What starts as a hobby—building his first",
+    "source_text": "working as a software engineer. What starts as a hobby—building his first",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:45.520",
+    "end": "00:00:50.480",
+    "start_seconds": 45.52,
+    "end_seconds": 50.48,
+    "text": "custom keyboard—evolves into a quest for the perfect typing experience.",
+    "source_text": "custom keyboard—evolves into a quest for the perfect typing experience.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:50.480",
+    "end": "00:00:55.600",
+    "start_seconds": 50.48,
+    "end_seconds": 55.6,
+    "text": "This obsession sparks ideas that lead to late-night designing, which becomes Mode's",
+    "source_text": "This obsession sparks ideas that lead to late-night designing, which becomes Mode's",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:55.600",
+    "end": "00:01:02.000",
+    "start_seconds": 55.6,
+    "end_seconds": 62.0,
+    "text": "first product: a batch of 50 keyboards. No outside investments. No crowdfunding.",
+    "source_text": "first product: a batch of 50 keyboards. No outside investments. No crowdfunding.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:02.000",
+    "end": "00:01:04.880",
+    "start_seconds": 62.0,
+    "end_seconds": 64.88,
+    "text": "No guarantee of success. The keyboard isn't",
+    "source_text": "No guarantee of success. The keyboard isn't",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:04.880",
+    "end": "00:01:10.880",
+    "start_seconds": 64.88,
+    "end_seconds": 70.88,
+    "text": "perfect—first attempts rarely are—but 50 incredible humans take a chance on Mode.",
+    "source_text": "perfect—first attempts rarely are—but 50 incredible humans take a chance on Mode.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:10.880",
+    "end": "00:01:17.200",
+    "start_seconds": 70.88,
+    "end_seconds": 77.2,
+    "text": "Since then, Mode has grown steadily, reinvesting in better keyboards with each production run.",
+    "source_text": "Since then, Mode has grown steadily, reinvesting in better keyboards with each production run.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:17.200",
+    "end": "00:01:23.680",
+    "start_seconds": 77.2,
+    "end_seconds": 83.68,
+    "text": "Now, five years later, it has transformed from a side project into a company with a clear vision:",
+    "source_text": "Now, five years later, it has transformed from a side project into a company with a clear vision:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:23.680",
+    "end": "00:01:29.120",
+    "start_seconds": 83.68,
+    "end_seconds": 89.12,
+    "text": "Mode isn't just about keyboards—it's about how thoughtful design transforms everyday",
+    "source_text": "Mode isn't just about keyboards—it's about how thoughtful design transforms everyday",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:29.120",
+    "end": "00:01:35.040",
+    "start_seconds": 89.12,
+    "end_seconds": 95.03999999999999,
+    "text": "experiences. This vision comes to life through our small, dedicated remote team across Boston,",
+    "source_text": "experiences. This vision comes to life through our small, dedicated remote team across Boston,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:35.040",
+    "end": "00:01:39.120",
+    "start_seconds": 95.03999999999999,
+    "end_seconds": 99.12,
+    "text": "San Francisco, and Los Angeles. That’s where I come in.",
+    "source_text": "San Francisco, and Los Angeles. That’s where I come in.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:39.120",
+    "end": "00:01:44.800",
+    "start_seconds": 99.12,
+    "end_seconds": 104.8,
+    "text": "As a creative professional in design, advertising, and branding since 2003, I've collaborated with",
+    "source_text": "As a creative professional in design, advertising, and branding since 2003, I've collaborated with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:44.800",
+    "end": "00:01:49.840",
+    "start_seconds": 104.8,
+    "end_seconds": 109.84,
+    "text": "some of the biggest brands in the world. My path takes an unexpected turn when my",
+    "source_text": "some of the biggest brands in the world. My path takes an unexpected turn when my",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:49.840",
+    "end": "00:01:54.560",
+    "start_seconds": 109.84,
+    "end_seconds": 114.56,
+    "text": "own keyboard obsession leads me to explore industrial product design.",
+    "source_text": "own keyboard obsession leads me to explore industrial product design.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:54.560",
+    "end": "00:01:59.920",
+    "start_seconds": 114.56,
+    "end_seconds": 119.92,
+    "text": "In 2022, I discover Mode and instantly connect with their design aesthetic.",
+    "source_text": "In 2022, I discover Mode and instantly connect with their design aesthetic.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:01:59.920",
+    "end": "00:02:04.160",
+    "start_seconds": 119.92,
+    "end_seconds": 124.16,
+    "text": "As a DIY project, I create an oak accent piece for their Sonnet",
+    "source_text": "As a DIY project, I create an oak accent piece for their Sonnet",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:04.160",
+    "end": "00:02:06.400",
+    "start_seconds": 124.16,
+    "end_seconds": 126.4,
+    "text": "keyboard—I love how wood brings warmth to tech peripherals. This becomes an official",
+    "source_text": "keyboard—I love how wood brings warmth to tech peripherals. This becomes an official",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:06.400",
+    "end": "00:02:13.040",
+    "start_seconds": 126.4,
+    "end_seconds": 133.04,
+    "text": "Mode product and leads to a bigger project: designing an entire keyboard from scratch.",
+    "source_text": "Mode product and leads to a bigger project: designing an entire keyboard from scratch.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:13.040",
+    "end": "00:02:16.880",
+    "start_seconds": 133.04,
+    "end_seconds": 136.88,
+    "text": "These successes, combined with my experience, pave the way for me",
+    "source_text": "These successes, combined with my experience, pave the way for me",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:16.880",
+    "end": "00:02:23.600",
+    "start_seconds": 136.88,
+    "end_seconds": 143.6,
+    "text": "to join Mode as Chief Design Officer in 2025, where I now lead the brand and product vision.",
+    "source_text": "to join Mode as Chief Design Officer in 2025, where I now lead the brand and product vision.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:23.600",
+    "end": "00:02:28.480",
+    "start_seconds": 143.6,
+    "end_seconds": 148.48,
+    "text": "It's a huge responsibility, but I'm thrilled by what’s next.",
+    "source_text": "It's a huge responsibility, but I'm thrilled by what’s next.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:28.480",
+    "end": "00:02:33.120",
+    "start_seconds": 148.48,
+    "end_seconds": 153.12,
+    "text": "You might be wondering: if a company is doing well, why change anything?",
+    "source_text": "You might be wondering: if a company is doing well, why change anything?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:33.120",
+    "end": "00:02:37.600",
+    "start_seconds": 153.12,
+    "end_seconds": 157.6,
+    "text": "Over the last five years, we’ve grown and developed clearer opinions on what we want",
+    "source_text": "Over the last five years, we’ve grown and developed clearer opinions on what we want",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:37.600",
+    "end": "00:02:43.360",
+    "start_seconds": 157.6,
+    "end_seconds": 163.36,
+    "text": "Mode to be, what values drive our product design, and how we want to do business.",
+    "source_text": "Mode to be, what values drive our product design, and how we want to do business.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:43.360",
+    "end": "00:02:48.400",
+    "start_seconds": 163.36,
+    "end_seconds": 168.4,
+    "text": "So we want to update the brand to reflect that. The questions on our minds are:",
+    "source_text": "So we want to update the brand to reflect that. The questions on our minds are:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:48.400",
+    "end": "00:02:53.040",
+    "start_seconds": 168.4,
+    "end_seconds": 173.04,
+    "text": "Where have we been in the last five years, and what’s our vision for Mode in the future?",
+    "source_text": "Where have we been in the last five years, and what’s our vision for Mode in the future?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:53.040",
+    "end": "00:02:57.360",
+    "start_seconds": 173.04,
+    "end_seconds": 177.36,
+    "text": "How might we position our brand and products to be distinct in the marketplace?",
+    "source_text": "How might we position our brand and products to be distinct in the marketplace?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:02:57.360",
+    "end": "00:03:01.440",
+    "start_seconds": 177.36,
+    "end_seconds": 181.44,
+    "text": "What‘s worth keeping and what needs to change for our business to grow?",
+    "source_text": "What‘s worth keeping and what needs to change for our business to grow?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:01.440",
+    "end": "00:03:04.000",
+    "start_seconds": 181.44,
+    "end_seconds": 184.0,
+    "text": "And this is where the branding process comes in.",
+    "source_text": "And this is where the branding process comes in.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:04.000",
+    "end": "00:03:08.400",
+    "start_seconds": 184.0,
+    "end_seconds": 188.4,
+    "text": "While most people associate a brand with its logo, colors, and typefaces,",
+    "source_text": "While most people associate a brand with its logo, colors, and typefaces,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:08.400",
+    "end": "00:03:11.520",
+    "start_seconds": 188.4,
+    "end_seconds": 191.52,
+    "text": "it's so much more than that. \"A brand is a person's gut",
+    "source_text": "it's so much more than that. \"A brand is a person's gut",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:11.520",
+    "end": "00:03:17.120",
+    "start_seconds": 191.52,
+    "end_seconds": 197.12,
+    "text": "feeling about a product, service, or company.\" Every touchpoint and interaction shapes how",
+    "source_text": "feeling about a product, service, or company.\" Every touchpoint and interaction shapes how",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:17.120",
+    "end": "00:03:20.560",
+    "start_seconds": 197.12,
+    "end_seconds": 200.56,
+    "text": "customers perceive the brand. A strong brand:",
+    "source_text": "customers perceive the brand. A strong brand:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:20.560",
+    "end": "00:03:24.480",
+    "start_seconds": 200.56,
+    "end_seconds": 204.48,
+    "text": "Has an outstanding reputation Is perceived as valuable",
+    "source_text": "Has an outstanding reputation Is perceived as valuable",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:24.480",
+    "end": "00:03:28.880",
+    "start_seconds": 204.48,
+    "end_seconds": 208.88,
+    "text": "Stands out from competitors Forms genuine connections with customers",
+    "source_text": "Stands out from competitors Forms genuine connections with customers",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:28.880",
+    "end": "00:03:34.160",
+    "start_seconds": 208.88,
+    "end_seconds": 214.16,
+    "text": "Our branding process examines all aspects of our business—positioning, product,",
+    "source_text": "Our branding process examines all aspects of our business—positioning, product,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:34.160",
+    "end": "00:03:38.800",
+    "start_seconds": 214.16,
+    "end_seconds": 218.8,
+    "text": "culture, and customers—to determine what changes will help us achieve our goals.",
+    "source_text": "culture, and customers—to determine what changes will help us achieve our goals.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:38.800",
+    "end": "00:03:44.320",
+    "start_seconds": 218.8,
+    "end_seconds": 224.32,
+    "text": "This process takes several weeks and follows the Double Diamond framework.",
+    "source_text": "This process takes several weeks and follows the Double Diamond framework.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:44.320",
+    "end": "00:03:50.240",
+    "start_seconds": 224.32,
+    "end_seconds": 230.24,
+    "text": "A brand refresh is no easy task, and while I'm up for the challenge, it's always good to",
+    "source_text": "A brand refresh is no easy task, and while I'm up for the challenge, it's always good to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:50.240",
+    "end": "00:03:56.640",
+    "start_seconds": 230.24,
+    "end_seconds": 236.64,
+    "text": "have an extra creative mind to collaborate with. This is Ben Burns, an old co-worker and friend.",
+    "source_text": "have an extra creative mind to collaborate with. This is Ben Burns, an old co-worker and friend.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:03:56.640",
+    "end": "00:04:01.120",
+    "start_seconds": 236.64,
+    "end_seconds": 241.12,
+    "text": "He's a well-rounded creative with excellent taste. As the former Digital Director at",
+    "source_text": "He's a well-rounded creative with excellent taste. As the former Digital Director at",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:01.120",
+    "end": "00:04:06.160",
+    "start_seconds": 241.12,
+    "end_seconds": 246.16,
+    "text": "Blind and Chief Operating Officer at The Futur, we collaborated on numerous client",
+    "source_text": "Blind and Chief Operating Officer at The Futur, we collaborated on numerous client",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:06.160",
+    "end": "00:04:10.640",
+    "start_seconds": 246.16,
+    "end_seconds": 250.64,
+    "text": "projects and digital products together. When Ben became available for design work,",
+    "source_text": "projects and digital products together. When Ben became available for design work,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:10.640",
+    "end": "00:04:15.280",
+    "start_seconds": 250.64,
+    "end_seconds": 255.28,
+    "text": "I jumped at the chance to bring him on board to facilitate our branding process.",
+    "source_text": "I jumped at the chance to bring him on board to facilitate our branding process.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:15.280",
+    "end": "00:04:18.080",
+    "start_seconds": 255.28,
+    "end_seconds": 258.08,
+    "text": "With Ben's involvement, I can focus on crafting",
+    "source_text": "With Ben's involvement, I can focus on crafting",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:18.080",
+    "end": "00:04:22.240",
+    "start_seconds": 258.08,
+    "end_seconds": 262.24,
+    "text": "the brand vision while he provides an objective outside perspective,",
+    "source_text": "the brand vision while he provides an objective outside perspective,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:22.240",
+    "end": "00:04:28.240",
+    "start_seconds": 262.24,
+    "end_seconds": 268.24,
+    "text": "serving as both a sounding board for ideas and a skilled hand in bringing them to life.",
+    "source_text": "serving as both a sounding board for ideas and a skilled hand in bringing them to life.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:28.240",
+    "end": "00:04:33.280",
+    "start_seconds": 268.24,
+    "end_seconds": 273.28,
+    "text": "First, we begin with the Discover Phase. We expand our understanding of the brand vision,",
+    "source_text": "First, we begin with the Discover Phase. We expand our understanding of the brand vision,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:33.280",
+    "end": "00:04:39.600",
+    "start_seconds": 273.28,
+    "end_seconds": 279.6,
+    "text": "business goals, and challenges while gathering data on products, customers, and the market.",
+    "source_text": "business goals, and challenges while gathering data on products, customers, and the market.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:40.400",
+    "end": "00:04:43.760",
+    "start_seconds": 280.4,
+    "end_seconds": 283.76,
+    "text": "We kick off our Discovery process by getting the team together at",
+    "source_text": "We kick off our Discovery process by getting the team together at",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:43.760",
+    "end": "00:04:50.480",
+    "start_seconds": 283.76,
+    "end_seconds": 290.48,
+    "text": "my LA studio. The crew includes Jaicob (our CEO), Xris (our Head of Marketing), myself,",
+    "source_text": "my LA studio. The crew includes Jaicob (our CEO), Xris (our Head of Marketing), myself,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:50.480",
+    "end": "00:04:55.440",
+    "start_seconds": 290.48,
+    "end_seconds": 295.44,
+    "text": "and Ben, who guides us through the session. Before jumping into the brand exercises,",
+    "source_text": "and Ben, who guides us through the session. Before jumping into the brand exercises,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:04:55.440",
+    "end": "00:05:01.120",
+    "start_seconds": 295.44,
+    "end_seconds": 301.12,
+    "text": "we took some time to align on our bigger company goals. Here's what rose to the top:",
+    "source_text": "we took some time to align on our bigger company goals. Here's what rose to the top:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:01.120",
+    "end": "00:05:05.920",
+    "start_seconds": 301.12,
+    "end_seconds": 305.92,
+    "text": "Establish a distinct brand voice with a clear identity and point of view.",
+    "source_text": "Establish a distinct brand voice with a clear identity and point of view.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:05.920",
+    "end": "00:05:10.960",
+    "start_seconds": 305.92,
+    "end_seconds": 310.96,
+    "text": "deepen our understanding of current customers while identifying and planning for new ones.",
+    "source_text": "deepen our understanding of current customers while identifying and planning for new ones.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:10.960",
+    "end": "00:05:15.920",
+    "start_seconds": 310.96,
+    "end_seconds": 315.92,
+    "text": "Update and refine our product catalog to better serve our customers and reflect our brand.",
+    "source_text": "Update and refine our product catalog to better serve our customers and reflect our brand.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:15.920",
+    "end": "00:05:21.200",
+    "start_seconds": 315.92,
+    "end_seconds": 321.2,
+    "text": "And, increase revenue over the next 5 years to invest in more challenging projects.",
+    "source_text": "And, increase revenue over the next 5 years to invest in more challenging projects.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:21.200",
+    "end": "00:05:26.560",
+    "start_seconds": 321.2,
+    "end_seconds": 326.56,
+    "text": "Before our meetup, we spend weeks gathering research and data. We analyze website traffic,",
+    "source_text": "Before our meetup, we spend weeks gathering research and data. We analyze website traffic,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:26.560",
+    "end": "00:05:32.000",
+    "start_seconds": 326.56,
+    "end_seconds": 332.0,
+    "text": "sales data, and conduct customer surveys within the keyboard community to understand",
+    "source_text": "sales data, and conduct customer surveys within the keyboard community to understand",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:32.000",
+    "end": "00:05:36.560",
+    "start_seconds": 332.0,
+    "end_seconds": 336.56,
+    "text": "trends and preferences. We also do in-depth video interviews with",
+    "source_text": "trends and preferences. We also do in-depth video interviews with",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:36.560",
+    "end": "00:05:41.680",
+    "start_seconds": 336.56,
+    "end_seconds": 341.68,
+    "text": "specific community members to learn why they buy or pass on our products.",
+    "source_text": "specific community members to learn why they buy or pass on our products.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:41.680",
+    "end": "00:05:46.480",
+    "start_seconds": 341.68,
+    "end_seconds": 346.48,
+    "text": "These insights inform our in-person user exercises, where we identify and",
+    "source_text": "These insights inform our in-person user exercises, where we identify and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:46.480",
+    "end": "00:05:51.360",
+    "start_seconds": 346.48,
+    "end_seconds": 351.36,
+    "text": "segment our current and future customer base to better understand who we serve.",
+    "source_text": "segment our current and future customer base to better understand who we serve.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:51.360",
+    "end": "00:05:56.880",
+    "start_seconds": 351.36,
+    "end_seconds": 356.88,
+    "text": "We know our current customers–many by name– so we focus our exercises on how we can attract",
+    "source_text": "We know our current customers–many by name– so we focus our exercises on how we can attract",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:05:56.880",
+    "end": "00:06:03.280",
+    "start_seconds": 356.88,
+    "end_seconds": 363.28,
+    "text": "new ones. Our research helps us create detailed user personas with names and stories that reveal",
+    "source_text": "new ones. Our research helps us create detailed user personas with names and stories that reveal",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:03.280",
+    "end": "00:06:08.640",
+    "start_seconds": 363.28,
+    "end_seconds": 368.64,
+    "text": "what matters to these potential customers. We then map how each customer type interacts",
+    "source_text": "what matters to these potential customers. We then map how each customer type interacts",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:08.640",
+    "end": "00:06:14.240",
+    "start_seconds": 368.64,
+    "end_seconds": 374.24,
+    "text": "with our brand from discovery to purchase, noting what influences their decisions and",
+    "source_text": "with our brand from discovery to purchase, noting what influences their decisions and",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:14.240",
+    "end": "00:06:15.840",
+    "start_seconds": 374.24,
+    "end_seconds": 375.84,
+    "text": "what holds them back. This helps us spot hurdles we need to address.",
+    "source_text": "what holds them back. This helps us spot hurdles we need to address.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:15.840",
+    "end": "00:06:21.600",
+    "start_seconds": 375.84,
+    "end_seconds": 381.6,
+    "text": "There were many customers we considered, but here are two examples of personas and their journeys:",
+    "source_text": "There were many customers we considered, but here are two examples of personas and their journeys:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:21.600",
+    "end": "00:06:28.000",
+    "start_seconds": 381.6,
+    "end_seconds": 388.0,
+    "text": "First is Tim, an experienced UX Design Manager in Austin, Texas. He extensively researches products",
+    "source_text": "First is Tim, an experienced UX Design Manager in Austin, Texas. He extensively researches products",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:28.000",
+    "end": "00:06:34.240",
+    "start_seconds": 388.0,
+    "end_seconds": 394.24,
+    "text": "before purchasing. Tim values quality, community, and knowing the people behind the brands. As a",
+    "source_text": "before purchasing. Tim values quality, community, and knowing the people behind the brands. As a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:34.240",
+    "end": "00:06:39.200",
+    "start_seconds": 394.24,
+    "end_seconds": 399.2,
+    "text": "hobby enthusiast, he’d likely enjoy building our keyboard kits. For customers like Tim,",
+    "source_text": "hobby enthusiast, he’d likely enjoy building our keyboard kits. For customers like Tim,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:39.200",
+    "end": "00:06:45.280",
+    "start_seconds": 399.2,
+    "end_seconds": 405.28,
+    "text": "we need detailed product information available and to make the community around our brand visible.",
+    "source_text": "we need detailed product information available and to make the community around our brand visible.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:45.280",
+    "end": "00:06:50.560",
+    "start_seconds": 405.28,
+    "end_seconds": 410.56,
+    "text": "Then there's Jay, a young software engineer in San Francisco, California who's seeking a",
+    "source_text": "Then there's Jay, a young software engineer in San Francisco, California who's seeking a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:50.560",
+    "end": "00:06:55.280",
+    "start_seconds": 410.56,
+    "end_seconds": 415.28,
+    "text": "workspace upgrade. Jay is busy, so he doesn’t want to spend a lot of time trying to find a",
+    "source_text": "workspace upgrade. Jay is busy, so he doesn’t want to spend a lot of time trying to find a",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:06:55.280",
+    "end": "00:07:00.960",
+    "start_seconds": 415.28,
+    "end_seconds": 420.96,
+    "text": "better keyboard. He relies on influencer and publication recommendations. For him,",
+    "source_text": "better keyboard. He relies on influencer and publication recommendations. For him,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:00.960",
+    "end": "00:07:07.680",
+    "start_seconds": 420.96,
+    "end_seconds": 427.68,
+    "text": "we need a simple purchase process with clear guidance and the option for ready-to-use products.",
+    "source_text": "we need a simple purchase process with clear guidance and the option for ready-to-use products.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:07.680",
+    "end": "00:07:12.560",
+    "start_seconds": 427.68,
+    "end_seconds": 432.56,
+    "text": "Looking at different user types gives us a valuable perspective on improving our products",
+    "source_text": "Looking at different user types gives us a valuable perspective on improving our products",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:12.560",
+    "end": "00:07:20.000",
+    "start_seconds": 432.56,
+    "end_seconds": 440.0,
+    "text": "and customer experience. With these insights, we now turn our focus inward to examine our brand.",
+    "source_text": "and customer experience. With these insights, we now turn our focus inward to examine our brand.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:20.000",
+    "end": "00:07:26.080",
+    "start_seconds": 440.0,
+    "end_seconds": 446.08,
+    "text": "In the next series of exercises, we examine our brand through multiple lenses: values and beliefs,",
+    "source_text": "In the next series of exercises, we examine our brand through multiple lenses: values and beliefs,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:26.080",
+    "end": "00:07:30.000",
+    "start_seconds": 446.08,
+    "end_seconds": 450.0,
+    "text": "features and benefits, voice and tone, and look and feel.",
+    "source_text": "features and benefits, voice and tone, and look and feel.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:30.000",
+    "end": "00:07:33.440",
+    "start_seconds": 450.0,
+    "end_seconds": 453.44,
+    "text": "Using focused prompts, our team brainstorms freely.",
+    "source_text": "Using focused prompts, our team brainstorms freely.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:33.440",
+    "end": "00:07:38.560",
+    "start_seconds": 453.44,
+    "end_seconds": 458.56,
+    "text": "We group similar ideas and prioritize what resonates most deeply. The word",
+    "source_text": "We group similar ideas and prioritize what resonates most deeply. The word",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:38.560",
+    "end": "00:07:42.960",
+    "start_seconds": 458.56,
+    "end_seconds": 462.96,
+    "text": "clusters reveal clear themes that shape our brand's characteristics. These are",
+    "source_text": "clusters reveal clear themes that shape our brand's characteristics. These are",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:42.960",
+    "end": "00:07:48.720",
+    "start_seconds": 462.96,
+    "end_seconds": 468.72,
+    "text": "attributes we currently embody and ideals we will continue to pursue as we grow the brand.",
+    "source_text": "attributes we currently embody and ideals we will continue to pursue as we grow the brand.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:48.720",
+    "end": "00:07:53.280",
+    "start_seconds": 468.72,
+    "end_seconds": 473.28,
+    "text": "Using the brand attributes defined from our prompts, we analyze our positioning",
+    "source_text": "Using the brand attributes defined from our prompts, we analyze our positioning",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:53.280",
+    "end": "00:07:57.200",
+    "start_seconds": 473.28,
+    "end_seconds": 477.2,
+    "text": "in the competitive landscape. Positioning is the space a brand",
+    "source_text": "in the competitive landscape. Positioning is the space a brand",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:07:57.200",
+    "end": "00:08:01.920",
+    "start_seconds": 477.2,
+    "end_seconds": 481.92,
+    "text": "occupies in the hearts and minds of customers, relative to competitors.",
+    "source_text": "occupies in the hearts and minds of customers, relative to competitors.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:01.920",
+    "end": "00:08:07.920",
+    "start_seconds": 481.92,
+    "end_seconds": 487.92,
+    "text": "For our exercise, we create an X&Y map with opposing brand qualities. We plot both our",
+    "source_text": "For our exercise, we create an X&Y map with opposing brand qualities. We plot both our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:07.920",
+    "end": "00:08:13.280",
+    "start_seconds": 487.92,
+    "end_seconds": 493.28,
+    "text": "competitors and brands from other industries to visualize where we stand in the market.",
+    "source_text": "competitors and brands from other industries to visualize where we stand in the market.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:13.280",
+    "end": "00:08:19.280",
+    "start_seconds": 493.28,
+    "end_seconds": 499.28,
+    "text": "For our voice, we ask: Are we understated or outspoken? Are we an opaque company",
+    "source_text": "For our voice, we ask: Are we understated or outspoken? Are we an opaque company",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:19.280",
+    "end": "00:08:23.360",
+    "start_seconds": 499.28,
+    "end_seconds": 503.36,
+    "text": "or more transparent and human? For our aesthetic: Are we warm",
+    "source_text": "or more transparent and human? For our aesthetic: Are we warm",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:23.360",
+    "end": "00:08:29.600",
+    "start_seconds": 503.36,
+    "end_seconds": 509.6,
+    "text": "and inviting or stark and industrial? Are we highly curated or raw and unedited?",
+    "source_text": "and inviting or stark and industrial? Are we highly curated or raw and unedited?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:29.600",
+    "end": "00:08:33.360",
+    "start_seconds": 509.6,
+    "end_seconds": 513.36,
+    "text": "Are our products expensive, or are they budget options?",
+    "source_text": "Are our products expensive, or are they budget options?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:33.360",
+    "end": "00:08:39.840",
+    "start_seconds": 513.36,
+    "end_seconds": 519.84,
+    "text": "Are they considered premium or the standard? What we find is eye-opening and sparks a lot",
+    "source_text": "Are they considered premium or the standard? What we find is eye-opening and sparks a lot",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:39.840",
+    "end": "00:08:45.840",
+    "start_seconds": 519.84,
+    "end_seconds": 525.84,
+    "text": "of discussion. In some areas, we are swimming in a crowded pool without much to set us apart.",
+    "source_text": "of discussion. In some areas, we are swimming in a crowded pool without much to set us apart.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:45.840",
+    "end": "00:08:50.960",
+    "start_seconds": 525.84,
+    "end_seconds": 530.96,
+    "text": "This realization pushes us to ask important questions: How can we carve out our own",
+    "source_text": "This realization pushes us to ask important questions: How can we carve out our own",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:50.960",
+    "end": "00:08:55.680",
+    "start_seconds": 530.96,
+    "end_seconds": 535.68,
+    "text": "unique space? What do we need to change to create distinction from our competitors?",
+    "source_text": "unique space? What do we need to change to create distinction from our competitors?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:08:55.680",
+    "end": "00:09:01.760",
+    "start_seconds": 535.68,
+    "end_seconds": 541.76,
+    "text": "This helps us refine our brand positioning as we wrap up our work for the Discovery Phase.",
+    "source_text": "This helps us refine our brand positioning as we wrap up our work for the Discovery Phase.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:01.760",
+    "end": "00:09:05.680",
+    "start_seconds": 541.76,
+    "end_seconds": 545.68,
+    "text": "Moving into the Define phase, we synthesize everything we learned",
+    "source_text": "Moving into the Define phase, we synthesize everything we learned",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:05.680",
+    "end": "00:09:08.400",
+    "start_seconds": 545.68,
+    "end_seconds": 548.4,
+    "text": "during Discovery to clarify our design challenge.",
+    "source_text": "during Discovery to clarify our design challenge.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:09.680",
+    "end": "00:09:14.400",
+    "start_seconds": 549.68,
+    "end_seconds": 554.4,
+    "text": "The research and discussions helped us understand our business better and where we",
+    "source_text": "The research and discussions helped us understand our business better and where we",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:14.400",
+    "end": "00:09:20.160",
+    "start_seconds": 554.4,
+    "end_seconds": 560.16,
+    "text": "fit in the market. These insights come together during our LA meeting, but become even clearer",
+    "source_text": "fit in the market. These insights come together during our LA meeting, but become even clearer",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:20.160",
+    "end": "00:09:26.400",
+    "start_seconds": 560.16,
+    "end_seconds": 566.4,
+    "text": "as we reflect on them over the following weeks. What emerges is a clear vision for Mode's future.",
+    "source_text": "as we reflect on them over the following weeks. What emerges is a clear vision for Mode's future.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:26.400",
+    "end": "00:09:32.840",
+    "start_seconds": 566.4,
+    "end_seconds": 572.84,
+    "text": "We start seeing patterns and themes that resonate with everyone on the team. Ideas like \"Warm Tech\"",
+    "source_text": "We start seeing patterns and themes that resonate with everyone on the team. Ideas like \"Warm Tech\"",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:32.840",
+    "end": "00:09:39.600",
+    "start_seconds": 572.84,
+    "end_seconds": 579.6,
+    "text": "- making technology feel more human and inviting. \"Creating joy in everyday experiences\" - because",
+    "source_text": "- making technology feel more human and inviting. \"Creating joy in everyday experiences\" - because",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:39.600",
+    "end": "00:09:44.400",
+    "start_seconds": 579.6,
+    "end_seconds": 584.4,
+    "text": "keyboards shouldn't just be functional, they should bring delight. And \"making products",
+    "source_text": "keyboards shouldn't just be functional, they should bring delight. And \"making products",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:44.400",
+    "end": "00:09:51.200",
+    "start_seconds": 584.4,
+    "end_seconds": 591.2,
+    "text": "that deserve to exist\" - focusing on quality and innovation rather than just adding to the noise.",
+    "source_text": "that deserve to exist\" - focusing on quality and innovation rather than just adding to the noise.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:51.200",
+    "end": "00:09:56.560",
+    "start_seconds": 591.2,
+    "end_seconds": 596.56,
+    "text": "But having a vision isn't enough. We have to make some tough decisions about our product lineup.",
+    "source_text": "But having a vision isn't enough. We have to make some tough decisions about our product lineup.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:09:56.560",
+    "end": "00:10:01.600",
+    "start_seconds": 596.56,
+    "end_seconds": 601.6,
+    "text": "This means taking a hard look at our current offerings and being honest about what needs to",
+    "source_text": "This means taking a hard look at our current offerings and being honest about what needs to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:01.600",
+    "end": "00:10:07.280",
+    "start_seconds": 601.6,
+    "end_seconds": 607.28,
+    "text": "change. As a result, we're discontinuing certain products to sharpen our focus on better ones.",
+    "source_text": "change. As a result, we're discontinuing certain products to sharpen our focus on better ones.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:07.280",
+    "end": "00:10:13.680",
+    "start_seconds": 607.28,
+    "end_seconds": 613.68,
+    "text": "We also know our visual identity, messaging, and website need a complete overhaul to better serve",
+    "source_text": "We also know our visual identity, messaging, and website need a complete overhaul to better serve",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:13.680",
+    "end": "00:10:19.440",
+    "start_seconds": 613.68,
+    "end_seconds": 619.44,
+    "text": "our customers and reflect our new direction. In this Define Phase, we have a clear set of",
+    "source_text": "our customers and reflect our new direction. In this Define Phase, we have a clear set of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:19.440",
+    "end": "00:10:23.200",
+    "start_seconds": 619.44,
+    "end_seconds": 623.2,
+    "text": "Design Challenges to address in the rest of the process:",
+    "source_text": "Design Challenges to address in the rest of the process:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:23.200",
+    "end": "00:10:26.880",
+    "start_seconds": 623.2,
+    "end_seconds": 626.88,
+    "text": "How might we create products that feel thoughtfully crafted rather",
+    "source_text": "How might we create products that feel thoughtfully crafted rather",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:26.880",
+    "end": "00:10:31.760",
+    "start_seconds": 626.88,
+    "end_seconds": 631.76,
+    "text": "than mass-produced—objects that bring joy and warmth to people's spaces?",
+    "source_text": "than mass-produced—objects that bring joy and warmth to people's spaces?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:31.760",
+    "end": "00:10:36.640",
+    "start_seconds": 631.76,
+    "end_seconds": 636.64,
+    "text": "How might we design a brand identity that feels high-end and curated while",
+    "source_text": "How might we design a brand identity that feels high-end and curated while",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:36.640",
+    "end": "00:10:41.440",
+    "start_seconds": 636.64,
+    "end_seconds": 641.44,
+    "text": "still feeling humble and human? How might we design a website",
+    "source_text": "still feeling humble and human? How might we design a website",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:41.440",
+    "end": "00:10:47.520",
+    "start_seconds": 641.44,
+    "end_seconds": 647.52,
+    "text": "that seamlessly guides both newcomers and experienced enthusiasts through their journey?",
+    "source_text": "that seamlessly guides both newcomers and experienced enthusiasts through their journey?",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:47.520",
+    "end": "00:10:51.920",
+    "start_seconds": 647.52,
+    "end_seconds": 651.92,
+    "text": "We want the shopping experience to be simple and smooth, so we use Shopify,",
+    "source_text": "We want the shopping experience to be simple and smooth, so we use Shopify,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:51.920",
+    "end": "00:10:54.960",
+    "start_seconds": 651.92,
+    "end_seconds": 654.96,
+    "text": "the sponsor of this video. Shopify is a powerful set",
+    "source_text": "the sponsor of this video. Shopify is a powerful set",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:10:54.960",
+    "end": "00:11:00.000",
+    "start_seconds": 654.96,
+    "end_seconds": 660.0,
+    "text": "of tools that helps you start and manage your business, whether online or in-person.",
+    "source_text": "of tools that helps you start and manage your business, whether online or in-person.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:00.000",
+    "end": "00:11:05.280",
+    "start_seconds": 660.0,
+    "end_seconds": 665.28,
+    "text": "When Mode started its keyboard business in 2019, managing an e-commerce operation",
+    "source_text": "When Mode started its keyboard business in 2019, managing an e-commerce operation",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:05.280",
+    "end": "00:11:09.600",
+    "start_seconds": 665.28,
+    "end_seconds": 669.6,
+    "text": "while developing its first product felt overwhelming. Thanks to Shopify,",
+    "source_text": "while developing its first product felt overwhelming. Thanks to Shopify,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:09.600",
+    "end": "00:11:14.400",
+    "start_seconds": 669.6,
+    "end_seconds": 674.4,
+    "text": "setting up a store was simple, letting Mode focus on delivering their first product.",
+    "source_text": "setting up a store was simple, letting Mode focus on delivering their first product.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:14.400",
+    "end": "00:11:19.840",
+    "start_seconds": 674.4,
+    "end_seconds": 679.84,
+    "text": "As Mode grew, maintaining enough capital to fund orders became crucial for operations.",
+    "source_text": "As Mode grew, maintaining enough capital to fund orders became crucial for operations.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:19.840",
+    "end": "00:11:25.200",
+    "start_seconds": 679.84,
+    "end_seconds": 685.2,
+    "text": "Shopify Capital provides flexible funding that you can repay as you sell, accessible at every",
+    "source_text": "Shopify Capital provides flexible funding that you can repay as you sell, accessible at every",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:25.200",
+    "end": "00:11:30.480",
+    "start_seconds": 685.2,
+    "end_seconds": 690.48,
+    "text": "stage of growth, right from your dashboard. This enables businesses like ours to seize",
+    "source_text": "stage of growth, right from your dashboard. This enables businesses like ours to seize",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:30.480",
+    "end": "00:11:33.920",
+    "start_seconds": 690.48,
+    "end_seconds": 693.92,
+    "text": "opportunities by improving cash flow—especially when investing",
+    "source_text": "opportunities by improving cash flow—especially when investing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:33.920",
+    "end": "00:11:38.000",
+    "start_seconds": 693.92,
+    "end_seconds": 698.0,
+    "text": "in inventory to maintain steady sales. Shopify is there for you when you’re just",
+    "source_text": "in inventory to maintain steady sales. Shopify is there for you when you’re just",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:38.000",
+    "end": "00:11:43.120",
+    "start_seconds": 698.0,
+    "end_seconds": 703.12,
+    "text": "starting out, and grows with your business. It has apps to build and customize your store",
+    "source_text": "starting out, and grows with your business. It has apps to build and customize your store",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:43.120",
+    "end": "00:11:48.160",
+    "start_seconds": 703.12,
+    "end_seconds": 708.16,
+    "text": "and ways to connect and sell natively on social platforms to meet your customers where they are.",
+    "source_text": "and ways to connect and sell natively on social platforms to meet your customers where they are.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:48.160",
+    "end": "00:11:55.120",
+    "start_seconds": 708.16,
+    "end_seconds": 715.12,
+    "text": "Thanks to Shopify for sponsoring this video. Go to shopify.com/matthewencina to learn more.",
+    "source_text": "Thanks to Shopify for sponsoring this video. Go to shopify.com/matthewencina to learn more.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:11:55.120",
+    "end": "00:12:00.640",
+    "start_seconds": 715.12,
+    "end_seconds": 720.64,
+    "text": "Now that we have our direction, we move into expansive exploration in the Develop Phase,",
+    "source_text": "Now that we have our direction, we move into expansive exploration in the Develop Phase,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:00.640",
+    "end": "00:12:05.760",
+    "start_seconds": 720.64,
+    "end_seconds": 725.76,
+    "text": "exploring ideas for the new brand and creating solutions that address our goals.",
+    "source_text": "exploring ideas for the new brand and creating solutions that address our goals.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:05.760",
+    "end": "00:12:10.000",
+    "start_seconds": 725.76,
+    "end_seconds": 730.0,
+    "text": "We begin with stylescapes, which are carefully curated mood boards.",
+    "source_text": "We begin with stylescapes, which are carefully curated mood boards.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:10.000",
+    "end": "00:12:15.840",
+    "start_seconds": 730.0,
+    "end_seconds": 735.84,
+    "text": "This is a process Ben and I use to transform abstract ideas into concrete visuals, allowing",
+    "source_text": "This is a process Ben and I use to transform abstract ideas into concrete visuals, allowing",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:15.840",
+    "end": "00:12:21.440",
+    "start_seconds": 735.84,
+    "end_seconds": 741.44,
+    "text": "us to explore different design directions quickly before we invest time in custom design work.",
+    "source_text": "us to explore different design directions quickly before we invest time in custom design work.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:21.440",
+    "end": "00:12:27.120",
+    "start_seconds": 741.44,
+    "end_seconds": 747.12,
+    "text": "Drawing from our Discovery and Define phases, we identify key themes that shape each direction.",
+    "source_text": "Drawing from our Discovery and Define phases, we identify key themes that shape each direction.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:27.120",
+    "end": "00:12:32.400",
+    "start_seconds": 747.12,
+    "end_seconds": 752.4,
+    "text": "We gather visual references that match these themes, adjust them to create visual harmony,",
+    "source_text": "We gather visual references that match these themes, adjust them to create visual harmony,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:32.400",
+    "end": "00:12:37.280",
+    "start_seconds": 752.4,
+    "end_seconds": 757.28,
+    "text": "and arrange them on a wide layout. Stylescapes provide a preview of how the",
+    "source_text": "and arrange them on a wide layout. Stylescapes provide a preview of how the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:37.280",
+    "end": "00:12:41.920",
+    "start_seconds": 757.28,
+    "end_seconds": 761.92,
+    "text": "brand looks across different touchpoints, from packaging to digital screens.",
+    "source_text": "brand looks across different touchpoints, from packaging to digital screens.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:41.920",
+    "end": "00:12:45.680",
+    "start_seconds": 761.92,
+    "end_seconds": 765.68,
+    "text": "We develop three distinct directions to present to the Mode team:",
+    "source_text": "We develop three distinct directions to present to the Mode team:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:45.680",
+    "end": "00:12:51.600",
+    "start_seconds": 765.68,
+    "end_seconds": 771.6,
+    "text": "First, there’s \"Serious Fun\" - clean, curated, and colorful",
+    "source_text": "First, there’s \"Serious Fun\" - clean, curated, and colorful",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:51.600",
+    "end": "00:12:58.880",
+    "start_seconds": 771.6,
+    "end_seconds": 778.88,
+    "text": "Next, \"Crafted Narrative\" - inspired by editorial design with rich, contrasting colors",
+    "source_text": "Next, \"Crafted Narrative\" - inspired by editorial design with rich, contrasting colors",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:12:58.880",
+    "end": "00:13:05.680",
+    "start_seconds": 778.88,
+    "end_seconds": 785.68,
+    "text": "Lastly, \"Bits of Joy\" - bright and fun, with a modern take at nostalgic lo-fi graphics",
+    "source_text": "Lastly, \"Bits of Joy\" - bright and fun, with a modern take at nostalgic lo-fi graphics",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:05.680",
+    "end": "00:13:10.160",
+    "start_seconds": 785.68,
+    "end_seconds": 790.16,
+    "text": "During the presentation, we look for what resonates with the team and how well each",
+    "source_text": "During the presentation, we look for what resonates with the team and how well each",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:10.160",
+    "end": "00:13:15.600",
+    "start_seconds": 790.16,
+    "end_seconds": 795.6,
+    "text": "direction matches our defined brand values. The second direction proves to be most popular,",
+    "source_text": "direction matches our defined brand values. The second direction proves to be most popular,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:15.600",
+    "end": "00:13:19.440",
+    "start_seconds": 795.6,
+    "end_seconds": 799.44,
+    "text": "particularly for its dark green palette and typography choices.",
+    "source_text": "particularly for its dark green palette and typography choices.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:19.440",
+    "end": "00:13:22.320",
+    "start_seconds": 799.44,
+    "end_seconds": 802.32,
+    "text": "The team also likes elements from the other directions,",
+    "source_text": "The team also likes elements from the other directions,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:22.320",
+    "end": "00:13:27.360",
+    "start_seconds": 802.32,
+    "end_seconds": 807.36,
+    "text": "including the bitmap typefaces from \"Bits of Joy\" and illustrations from \"Serious Fun.\"",
+    "source_text": "including the bitmap typefaces from \"Bits of Joy\" and illustrations from \"Serious Fun.\"",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:27.360",
+    "end": "00:13:31.680",
+    "start_seconds": 807.36,
+    "end_seconds": 811.68,
+    "text": "Based on this feedback, we combine the best elements to create our final stylescape,",
+    "source_text": "Based on this feedback, we combine the best elements to create our final stylescape,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:31.680",
+    "end": "00:13:36.880",
+    "start_seconds": 811.68,
+    "end_seconds": 816.88,
+    "text": "\"The Story of Craft.\" This direction features editorial-inspired typography,",
+    "source_text": "\"The Story of Craft.\" This direction features editorial-inspired typography,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:36.880",
+    "end": "00:13:42.240",
+    "start_seconds": 816.88,
+    "end_seconds": 822.24,
+    "text": "hand-drawn elements, and maker marks that showcase our craftsmanship. Rich colors,",
+    "source_text": "hand-drawn elements, and maker marks that showcase our craftsmanship. Rich colors,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:42.240",
+    "end": "00:13:47.680",
+    "start_seconds": 822.24,
+    "end_seconds": 827.68,
+    "text": "warm tones, and imagery highlight how our products bring joy to spaces.",
+    "source_text": "warm tones, and imagery highlight how our products bring joy to spaces.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:47.680",
+    "end": "00:13:53.360",
+    "start_seconds": 827.68,
+    "end_seconds": 833.36,
+    "text": "This stylescape serves as our foundation for developing the complete visual identity.",
+    "source_text": "This stylescape serves as our foundation for developing the complete visual identity.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:13:54.320",
+    "end": "00:14:00.000",
+    "start_seconds": 834.32,
+    "end_seconds": 840.0,
+    "text": "The first design project we take on is the website. It’s the largest asset we need to create,",
+    "source_text": "The first design project we take on is the website. It’s the largest asset we need to create,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:00.000",
+    "end": "00:14:04.400",
+    "start_seconds": 840.0,
+    "end_seconds": 844.4,
+    "text": "but also has the most opportunities to figure out many aspects of the brand,",
+    "source_text": "but also has the most opportunities to figure out many aspects of the brand,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:04.400",
+    "end": "00:14:10.000",
+    "start_seconds": 844.4,
+    "end_seconds": 850.0,
+    "text": "like typography, imagery, and colors. The goal is to create an experience that reflects our",
+    "source_text": "like typography, imagery, and colors. The goal is to create an experience that reflects our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:10.000",
+    "end": "00:14:15.600",
+    "start_seconds": 850.0,
+    "end_seconds": 855.6,
+    "text": "new brand and feels intuitive, whether you're a first-time visitor or a keyboard enthusiast.",
+    "source_text": "new brand and feels intuitive, whether you're a first-time visitor or a keyboard enthusiast.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:15.600",
+    "end": "00:14:19.840",
+    "start_seconds": 855.6,
+    "end_seconds": 859.84,
+    "text": "First, we create a sitemap, a bird's eye view of every page on the website.",
+    "source_text": "First, we create a sitemap, a bird's eye view of every page on the website.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:19.840",
+    "end": "00:14:24.320",
+    "start_seconds": 859.84,
+    "end_seconds": 864.32,
+    "text": "It's challenging to think through, but it allows us to plan for all the various paths",
+    "source_text": "It's challenging to think through, but it allows us to plan for all the various paths",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:24.320",
+    "end": "00:14:29.200",
+    "start_seconds": 864.32,
+    "end_seconds": 869.2,
+    "text": "a user can take on our site. This process allows us to test different user journeys,",
+    "source_text": "a user can take on our site. This process allows us to test different user journeys,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:29.200",
+    "end": "00:14:32.640",
+    "start_seconds": 869.2,
+    "end_seconds": 872.64,
+    "text": "ensuring customers can easily find what they're looking for.",
+    "source_text": "ensuring customers can easily find what they're looking for.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:32.640",
+    "end": "00:14:37.920",
+    "start_seconds": 872.64,
+    "end_seconds": 877.92,
+    "text": "Next, we create two key pages using placeholder content. This gives us a sense of the overall",
+    "source_text": "Next, we create two key pages using placeholder content. This gives us a sense of the overall",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:37.920",
+    "end": "00:14:45.520",
+    "start_seconds": 877.92,
+    "end_seconds": 885.52,
+    "text": "aesthetic and the components we need, like menus, typography styles, buttons, galleries, and more.",
+    "source_text": "aesthetic and the components we need, like menus, typography styles, buttons, galleries, and more.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:45.520",
+    "end": "00:14:48.880",
+    "start_seconds": 885.52,
+    "end_seconds": 888.88,
+    "text": "Once we’re happy with these two pages, it takes us a few weeks to",
+    "source_text": "Once we’re happy with these two pages, it takes us a few weeks to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:48.880",
+    "end": "00:14:54.320",
+    "start_seconds": 888.88,
+    "end_seconds": 894.32,
+    "text": "create and refine the rest of the website. Typography plays a big part of any brand",
+    "source_text": "create and refine the rest of the website. Typography plays a big part of any brand",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:14:54.320",
+    "end": "00:15:00.160",
+    "start_seconds": 894.32,
+    "end_seconds": 900.16,
+    "text": "identity. In our stylescapes, we determine that we want to use a combination of serif and sans-serif,",
+    "source_text": "identity. In our stylescapes, we determine that we want to use a combination of serif and sans-serif,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:00.160",
+    "end": "00:15:06.320",
+    "start_seconds": 900.16,
+    "end_seconds": 906.32,
+    "text": "for our header and body copy, and selective use of bitmap-style typefaces as a fun nod to the",
+    "source_text": "for our header and body copy, and selective use of bitmap-style typefaces as a fun nod to the",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:06.320",
+    "end": "00:15:11.280",
+    "start_seconds": 906.32,
+    "end_seconds": 911.28,
+    "text": "history of computing and mechanical keyboards. We can test different typeface combinations in",
+    "source_text": "history of computing and mechanical keyboards. We can test different typeface combinations in",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:11.280",
+    "end": "00:15:16.000",
+    "start_seconds": 911.28,
+    "end_seconds": 916.0,
+    "text": "a type specimen, and look at them in context on our sample webpages. We finally choose",
+    "source_text": "a type specimen, and look at them in context on our sample webpages. We finally choose",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:16.000",
+    "end": "00:15:22.720",
+    "start_seconds": 916.0,
+    "end_seconds": 922.72,
+    "text": "to add a monospace font for technical copy to highlight the engineering aspects of our work.",
+    "source_text": "to add a monospace font for technical copy to highlight the engineering aspects of our work.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:22.720",
+    "end": "00:15:27.200",
+    "start_seconds": 922.72,
+    "end_seconds": 927.2,
+    "text": "Next is choosing our colors for the brand, which is more complex than you",
+    "source_text": "Next is choosing our colors for the brand, which is more complex than you",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:27.200",
+    "end": "00:15:31.840",
+    "start_seconds": 927.2,
+    "end_seconds": 931.84,
+    "text": "might think. We need a palette that works across all of our brand collateral - from",
+    "source_text": "might think. We need a palette that works across all of our brand collateral - from",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:31.840",
+    "end": "00:15:37.120",
+    "start_seconds": 931.84,
+    "end_seconds": 937.12,
+    "text": "physical packaging to our website on screen. For the main color, we all fell in love with this",
+    "source_text": "physical packaging to our website on screen. For the main color, we all fell in love with this",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:37.120",
+    "end": "00:15:43.440",
+    "start_seconds": 937.12,
+    "end_seconds": 943.44,
+    "text": "deep green. It’s bold yet calming because of its ties to nature. To support this, we choose a set",
+    "source_text": "deep green. It’s bold yet calming because of its ties to nature. To support this, we choose a set",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:43.440",
+    "end": "00:15:49.280",
+    "start_seconds": 943.44,
+    "end_seconds": 949.28,
+    "text": "of secondary colors that can be used as accents. Ben and I spend multiple sessions reviewing color",
+    "source_text": "of secondary colors that can be used as accents. Ben and I spend multiple sessions reviewing color",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:49.280",
+    "end": "00:15:54.320",
+    "start_seconds": 949.28,
+    "end_seconds": 954.32,
+    "text": "swatches and combinations. This is one of the most intense parts of the process because it",
+    "source_text": "swatches and combinations. This is one of the most intense parts of the process because it",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:15:54.320",
+    "end": "00:16:00.880",
+    "start_seconds": 954.32,
+    "end_seconds": 960.88,
+    "text": "impacts so many aspects of the brand and business. It’s so important to get right.",
+    "source_text": "impacts so many aspects of the brand and business. It’s so important to get right.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:00.880",
+    "end": "00:16:06.240",
+    "start_seconds": 960.88,
+    "end_seconds": 966.24,
+    "text": "Photography plays a crucial role in bringing our brand to life. I pull together reference",
+    "source_text": "Photography plays a crucial role in bringing our brand to life. I pull together reference",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:06.240",
+    "end": "00:16:11.760",
+    "start_seconds": 966.24,
+    "end_seconds": 971.76,
+    "text": "images that best capture these qualities and spend time thinking about the key principles",
+    "source_text": "images that best capture these qualities and spend time thinking about the key principles",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:11.760",
+    "end": "00:16:15.600",
+    "start_seconds": 971.76,
+    "end_seconds": 975.6,
+    "text": "for our photography style. Strong directional lighting",
+    "source_text": "for our photography style. Strong directional lighting",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:15.600",
+    "end": "00:16:21.920",
+    "start_seconds": 975.6,
+    "end_seconds": 981.92,
+    "text": "Warm and natural tones with subtle film grain Scenes that feel lived-in but not messy",
+    "source_text": "Warm and natural tones with subtle film grain Scenes that feel lived-in but not messy",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:21.920",
+    "end": "00:16:25.680",
+    "start_seconds": 981.92,
+    "end_seconds": 985.68,
+    "text": "People featured in a way that doesn't detract from the product",
+    "source_text": "People featured in a way that doesn't detract from the product",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:25.680",
+    "end": "00:16:28.720",
+    "start_seconds": 985.68,
+    "end_seconds": 988.72,
+    "text": "These rules and references should provide enough guidance for our",
+    "source_text": "These rules and references should provide enough guidance for our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:28.720",
+    "end": "00:16:33.840",
+    "start_seconds": 988.72,
+    "end_seconds": 993.84,
+    "text": "team to capture photos and videos that fit our new brand direction.",
+    "source_text": "team to capture photos and videos that fit our new brand direction.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:33.840",
+    "end": "00:16:37.920",
+    "start_seconds": 993.84,
+    "end_seconds": 997.92,
+    "text": "Crafting our brand voice is another challenging task. We want to sound",
+    "source_text": "Crafting our brand voice is another challenging task. We want to sound",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:37.920",
+    "end": "00:16:44.080",
+    "start_seconds": 997.92,
+    "end_seconds": 1004.08,
+    "text": "professional but not corporate, friendly but not fake - a difficult balance to strike. The",
+    "source_text": "professional but not corporate, friendly but not fake - a difficult balance to strike. The",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:44.080",
+    "end": "00:16:49.920",
+    "start_seconds": 1004.08,
+    "end_seconds": 1009.92,
+    "text": "keyboard world is full of technical jargon, so we make a conscious effort to use clear,",
+    "source_text": "keyboard world is full of technical jargon, so we make a conscious effort to use clear,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:49.920",
+    "end": "00:16:55.120",
+    "start_seconds": 1009.92,
+    "end_seconds": 1015.12,
+    "text": "simple language that anyone can understand. Using a Notion document, we collaborate to",
+    "source_text": "simple language that anyone can understand. Using a Notion document, we collaborate to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:16:55.120",
+    "end": "00:17:00.000",
+    "start_seconds": 1015.12,
+    "end_seconds": 1020.0,
+    "text": "write and refine our core messages, making sure our word choices feel authentic to who we",
+    "source_text": "write and refine our core messages, making sure our word choices feel authentic to who we",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:00.000",
+    "end": "00:17:07.840",
+    "start_seconds": 1020.0,
+    "end_seconds": 1027.84,
+    "text": "are. This means avoiding marketing buzzwords and focusing on honest, straightforward communication.",
+    "source_text": "are. This means avoiding marketing buzzwords and focusing on honest, straightforward communication.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:07.840",
+    "end": "00:17:13.440",
+    "start_seconds": 1027.84,
+    "end_seconds": 1033.44,
+    "text": "With the key aspects of our brand identity developed, I shift my focus onto the product.",
+    "source_text": "With the key aspects of our brand identity developed, I shift my focus onto the product.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:13.440",
+    "end": "00:17:19.280",
+    "start_seconds": 1033.44,
+    "end_seconds": 1039.28,
+    "text": "Our new brand concept of \"Warm Tech\" has become the north star of our product design. While most",
+    "source_text": "Our new brand concept of \"Warm Tech\" has become the north star of our product design. While most",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:19.280",
+    "end": "00:17:24.240",
+    "start_seconds": 1039.28,
+    "end_seconds": 1044.24,
+    "text": "tech feels cold and manufactured, we want our products to feel crafted and human.",
+    "source_text": "tech feels cold and manufactured, we want our products to feel crafted and human.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:24.240",
+    "end": "00:17:28.800",
+    "start_seconds": 1044.24,
+    "end_seconds": 1048.8,
+    "text": "As one customer tells us during interviews, \"a nice keyboard can be like a piece of",
+    "source_text": "As one customer tells us during interviews, \"a nice keyboard can be like a piece of",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:28.800",
+    "end": "00:17:33.920",
+    "start_seconds": 1048.8,
+    "end_seconds": 1053.92,
+    "text": "furniture that ties the room together.\" This insight deeply resonates with our",
+    "source_text": "furniture that ties the room together.\" This insight deeply resonates with our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:33.920",
+    "end": "00:17:39.120",
+    "start_seconds": 1053.92,
+    "end_seconds": 1059.12,
+    "text": "vision and becomes a guiding principle that shapes our product design. Like a well-chosen",
+    "source_text": "vision and becomes a guiding principle that shapes our product design. Like a well-chosen",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:39.120",
+    "end": "00:17:44.800",
+    "start_seconds": 1059.12,
+    "end_seconds": 1064.8,
+    "text": "piece of furniture transforms a room, a carefully crafted keyboard should elevate your workspace",
+    "source_text": "piece of furniture transforms a room, a carefully crafted keyboard should elevate your workspace",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:44.800",
+    "end": "00:17:50.480",
+    "start_seconds": 1064.8,
+    "end_seconds": 1070.48,
+    "text": "while bringing joy to your everyday experience. I start by exploring different forms, colors,",
+    "source_text": "while bringing joy to your everyday experience. I start by exploring different forms, colors,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:50.480",
+    "end": "00:17:53.680",
+    "start_seconds": 1070.48,
+    "end_seconds": 1073.68,
+    "text": "materials, and finishes we can use on our products.",
+    "source_text": "materials, and finishes we can use on our products.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:17:53.680",
+    "end": "00:18:01.120",
+    "start_seconds": 1073.68,
+    "end_seconds": 1081.12,
+    "text": "Then I take these as inspiration to begin the lengthy process of designing our next keyboard.",
+    "source_text": "Then I take these as inspiration to begin the lengthy process of designing our next keyboard.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:01.120",
+    "end": "00:18:04.240",
+    "start_seconds": 1081.12,
+    "end_seconds": 1084.24,
+    "text": "We are now in the final phase of the rebranding process:",
+    "source_text": "We are now in the final phase of the rebranding process:",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:04.240",
+    "end": "00:18:10.800",
+    "start_seconds": 1084.24,
+    "end_seconds": 1090.8,
+    "text": "Deliver. We refine our best concepts into a clear brand strategy and refreshed identity system.",
+    "source_text": "Deliver. We refine our best concepts into a clear brand strategy and refreshed identity system.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:10.800",
+    "end": "00:18:15.840",
+    "start_seconds": 1090.8,
+    "end_seconds": 1095.84,
+    "text": "The biggest challenge in this phase is getting all the small details right. While reaching",
+    "source_text": "The biggest challenge in this phase is getting all the small details right. While reaching",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:15.840",
+    "end": "00:18:23.200",
+    "start_seconds": 1095.84,
+    "end_seconds": 1103.2,
+    "text": "90% completion is relatively straightforward, the final 10% takes the most time and effort.",
+    "source_text": "90% completion is relatively straightforward, the final 10% takes the most time and effort.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:23.200",
+    "end": "00:18:29.120",
+    "start_seconds": 1103.2,
+    "end_seconds": 1109.12,
+    "text": "We're four months into the process, and the more we make, the more we learn. As we know better, we",
+    "source_text": "We're four months into the process, and the more we make, the more we learn. As we know better, we",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:29.120",
+    "end": "00:18:35.280",
+    "start_seconds": 1109.12,
+    "end_seconds": 1115.28,
+    "text": "iterate on our earliest work to ensure everything is cohesive and drives us toward our goals.",
+    "source_text": "iterate on our earliest work to ensure everything is cohesive and drives us toward our goals.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:35.280",
+    "end": "00:18:39.760",
+    "start_seconds": 1115.28,
+    "end_seconds": 1119.76,
+    "text": "The delivery phase will take months to roll out fully, and we’ll continue to work on it,",
+    "source_text": "The delivery phase will take months to roll out fully, and we’ll continue to work on it,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:39.760",
+    "end": "00:18:44.400",
+    "start_seconds": 1119.76,
+    "end_seconds": 1124.4,
+    "text": "beyond this video. For now, let me show you what we've accomplished so far.",
+    "source_text": "beyond this video. For now, let me show you what we've accomplished so far.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:49.840",
+    "end": "00:18:54.800",
+    "start_seconds": 1129.84,
+    "end_seconds": 1134.8,
+    "text": "First, we've finalized our brand identity guidelines. This gives us a clear framework",
+    "source_text": "First, we've finalized our brand identity guidelines. This gives us a clear framework",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:18:54.800",
+    "end": "00:19:01.200",
+    "start_seconds": 1134.8,
+    "end_seconds": 1141.2,
+    "text": "for how we present ourselves to the world. Starting with the logo usage: We kept our",
+    "source_text": "for how we present ourselves to the world. Starting with the logo usage: We kept our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:01.200",
+    "end": "00:19:06.320",
+    "start_seconds": 1141.2,
+    "end_seconds": 1146.32,
+    "text": "existing logo because it works well, and we’ve built brand equity around it. It wasn’t something",
+    "source_text": "existing logo because it works well, and we’ve built brand equity around it. It wasn’t something",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:06.320",
+    "end": "00:19:11.840",
+    "start_seconds": 1146.32,
+    "end_seconds": 1151.84,
+    "text": "I felt needed changing so we focused on slight refinements, and detailed usage.",
+    "source_text": "I felt needed changing so we focused on slight refinements, and detailed usage.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:11.840",
+    "end": "00:19:17.600",
+    "start_seconds": 1151.84,
+    "end_seconds": 1157.6,
+    "text": "We’ve developed a cohesive visual language with carefully chosen typography, colors,",
+    "source_text": "We’ve developed a cohesive visual language with carefully chosen typography, colors,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:17.600",
+    "end": "00:19:25.440",
+    "start_seconds": 1157.6,
+    "end_seconds": 1165.44,
+    "text": "and imagery. One aspect that has grown since our stylescape exploration is the lo-fi bitmap",
+    "source_text": "and imagery. One aspect that has grown since our stylescape exploration is the lo-fi bitmap",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:25.440",
+    "end": "00:19:31.520",
+    "start_seconds": 1165.44,
+    "end_seconds": 1171.52,
+    "text": "imagery, inspired by retro computing, tapping into the history of mechanical keyboards. We’re calling",
+    "source_text": "imagery, inspired by retro computing, tapping into the history of mechanical keyboards. We’re calling",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:31.520",
+    "end": "00:19:36.800",
+    "start_seconds": 1171.52,
+    "end_seconds": 1176.8,
+    "text": "this the “alter-ego” of our brand. This drives the language of our custom-made iconography,",
+    "source_text": "this the “alter-ego” of our brand. This drives the language of our custom-made iconography,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:36.800",
+    "end": "00:19:43.360",
+    "start_seconds": 1176.8,
+    "end_seconds": 1183.36,
+    "text": "logo variant, and is a fun way to process photos. To shape how our brand speaks, we establish clear",
+    "source_text": "logo variant, and is a fun way to process photos. To shape how our brand speaks, we establish clear",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:43.360",
+    "end": "00:19:48.480",
+    "start_seconds": 1183.36,
+    "end_seconds": 1188.48,
+    "text": "language rules that create a distinctive voice and tone that feels human, confident,",
+    "source_text": "language rules that create a distinctive voice and tone that feels human, confident,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:48.480",
+    "end": "00:19:54.160",
+    "start_seconds": 1188.48,
+    "end_seconds": 1194.16,
+    "text": "and helpful. This includes messaging samples we can use on the website and in marketing.",
+    "source_text": "and helpful. This includes messaging samples we can use on the website and in marketing.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:54.160",
+    "end": "00:19:58.240",
+    "start_seconds": 1194.16,
+    "end_seconds": 1198.24,
+    "text": "We also have a separate guide of brand expressions. A showcase of our brand",
+    "source_text": "We also have a separate guide of brand expressions. A showcase of our brand",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:19:58.240",
+    "end": "00:20:02.560",
+    "start_seconds": 1198.24,
+    "end_seconds": 1202.56,
+    "text": "across physical and digital platforms to explore different ways it can look",
+    "source_text": "across physical and digital platforms to explore different ways it can look",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:02.560",
+    "end": "00:20:08.080",
+    "start_seconds": 1202.56,
+    "end_seconds": 1208.08,
+    "text": "and feel. These aren’t meant to be final products, but rather are thought-starters",
+    "source_text": "and feel. These aren’t meant to be final products, but rather are thought-starters",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:08.080",
+    "end": "00:20:15.120",
+    "start_seconds": 1208.08,
+    "end_seconds": 1215.12,
+    "text": "to draw from when creating assets for future product launches and events.",
+    "source_text": "to draw from when creating assets for future product launches and events.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:18.160",
+    "end": "00:20:22.880",
+    "start_seconds": 1218.16,
+    "end_seconds": 1222.88,
+    "text": "Through this entire branding process, we’ve crafted our vision and strategy.",
+    "source_text": "Through this entire branding process, we’ve crafted our vision and strategy.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:22.880",
+    "end": "00:20:28.400",
+    "start_seconds": 1222.88,
+    "end_seconds": 1228.4,
+    "text": "Our core mission is to bring joy to workspaces and everyday experiences. Creating products",
+    "source_text": "Our core mission is to bring joy to workspaces and everyday experiences. Creating products",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:28.400",
+    "end": "00:20:35.360",
+    "start_seconds": 1228.4,
+    "end_seconds": 1235.36,
+    "text": "that deserve to exist and carving out our \"warm tech\" niche to stand apart from competitors. This",
+    "source_text": "that deserve to exist and carving out our \"warm tech\" niche to stand apart from competitors. This",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:35.360",
+    "end": "00:20:40.720",
+    "start_seconds": 1235.36,
+    "end_seconds": 1240.72,
+    "text": "changes how we approach our products, as we take a more curated approach in developing a thoughtfully",
+    "source_text": "changes how we approach our products, as we take a more curated approach in developing a thoughtfully",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:40.720",
+    "end": "00:20:46.480",
+    "start_seconds": 1240.72,
+    "end_seconds": 1246.48,
+    "text": "designed ecosystem of keyboards and accessories. For marketing, we’ll emphasize transparency to",
+    "source_text": "designed ecosystem of keyboards and accessories. For marketing, we’ll emphasize transparency to",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:46.480",
+    "end": "00:20:51.120",
+    "start_seconds": 1246.48,
+    "end_seconds": 1251.12,
+    "text": "connect with our audience by sharing more of our story, behind-the-scenes content,",
+    "source_text": "connect with our audience by sharing more of our story, behind-the-scenes content,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:51.120",
+    "end": "00:20:56.000",
+    "start_seconds": 1251.12,
+    "end_seconds": 1256.0,
+    "text": "and introducing the team behind our brand. One of the most valuable insights from our",
+    "source_text": "and introducing the team behind our brand. One of the most valuable insights from our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:20:56.000",
+    "end": "00:21:01.760",
+    "start_seconds": 1256.0,
+    "end_seconds": 1261.76,
+    "text": "customer research: people connect with our brand when they experience our keyboards firsthand. The",
+    "source_text": "customer research: people connect with our brand when they experience our keyboards firsthand. The",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:01.760",
+    "end": "00:21:07.200",
+    "start_seconds": 1261.76,
+    "end_seconds": 1267.2,
+    "text": "\"aha moment\" occurs when they see and type on our products. That's why we plan to attend more",
+    "source_text": "\"aha moment\" occurs when they see and type on our products. That's why we plan to attend more",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:07.200",
+    "end": "00:21:12.960",
+    "start_seconds": 1267.2,
+    "end_seconds": 1272.96,
+    "text": "in-person creative and tech events to create meaningful connections and grow our community.",
+    "source_text": "in-person creative and tech events to create meaningful connections and grow our community.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:13.520",
+    "end": "00:21:17.360",
+    "start_seconds": 1273.52,
+    "end_seconds": 1277.36,
+    "text": "With a strong brand and business foundation in place, we're working",
+    "source_text": "With a strong brand and business foundation in place, we're working",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:17.360",
+    "end": "00:21:23.440",
+    "start_seconds": 1277.36,
+    "end_seconds": 1283.44,
+    "text": "on several exciting ongoing projects. Our website redesign is complete. It’s",
+    "source_text": "on several exciting ongoing projects. Our website redesign is complete. It’s",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:23.440",
+    "end": "00:21:29.040",
+    "start_seconds": 1283.44,
+    "end_seconds": 1289.04,
+    "text": "a massive change from where we were before, to where we’re going as a brand. We’ve warmed up",
+    "source_text": "a massive change from where we were before, to where we’re going as a brand. We’ve warmed up",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:29.040",
+    "end": "00:21:34.800",
+    "start_seconds": 1289.04,
+    "end_seconds": 1294.8,
+    "text": "the appearance of the site, simplified many of the purchasing processes for customers like Jay,",
+    "source_text": "the appearance of the site, simplified many of the purchasing processes for customers like Jay,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:34.800",
+    "end": "00:21:40.240",
+    "start_seconds": 1294.8,
+    "end_seconds": 1300.24,
+    "text": "and expanded areas that share more about our brand for our curious customers like Tim.",
+    "source_text": "and expanded areas that share more about our brand for our curious customers like Tim.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:40.240",
+    "end": "00:21:45.760",
+    "start_seconds": 1300.24,
+    "end_seconds": 1305.76,
+    "text": "Development of the site is currently in progress and will roll out slowly through the year. You",
+    "source_text": "Development of the site is currently in progress and will roll out slowly through the year. You",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:45.760",
+    "end": "00:21:52.000",
+    "start_seconds": 1305.76,
+    "end_seconds": 1312.0,
+    "text": "can follow our updates on modedesigns.com. We're taking the first steps in developing more",
+    "source_text": "can follow our updates on modedesigns.com. We're taking the first steps in developing more",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:52.000",
+    "end": "00:21:57.600",
+    "start_seconds": 1312.0,
+    "end_seconds": 1317.6,
+    "text": "eco-friendly packaging, starting with our next run of the Encore keyboard, releasing this summer.",
+    "source_text": "eco-friendly packaging, starting with our next run of the Encore keyboard, releasing this summer.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:21:57.600",
+    "end": "00:22:04.240",
+    "start_seconds": 1317.6,
+    "end_seconds": 1324.24,
+    "text": "We're moving away from foam inserts to recyclable molded pulp and will feature our new brand look.",
+    "source_text": "We're moving away from foam inserts to recyclable molded pulp and will feature our new brand look.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:04.240",
+    "end": "00:22:09.840",
+    "start_seconds": 1324.24,
+    "end_seconds": 1329.84,
+    "text": "Xris and Andrew in Boston have built a new studio setup to capture photos and videos,",
+    "source_text": "Xris and Andrew in Boston have built a new studio setup to capture photos and videos,",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:09.840",
+    "end": "00:22:14.000",
+    "start_seconds": 1329.84,
+    "end_seconds": 1334.0,
+    "text": "which will be rolling out on our site and in future content.",
+    "source_text": "which will be rolling out on our site and in future content.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:14.000",
+    "end": "00:22:19.360",
+    "start_seconds": 1334.0,
+    "end_seconds": 1339.36,
+    "text": "And the most exciting news: the next generation of our products is taking shape. We’ve finished",
+    "source_text": "And the most exciting news: the next generation of our products is taking shape. We’ve finished",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:19.360",
+    "end": "00:22:24.640",
+    "start_seconds": 1339.36,
+    "end_seconds": 1344.64,
+    "text": "most of the design of our next keyboard, and now we’re working with engineers to complete a full",
+    "source_text": "most of the design of our next keyboard, and now we’re working with engineers to complete a full",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:24.640",
+    "end": "00:22:30.400",
+    "start_seconds": 1344.64,
+    "end_seconds": 1350.4,
+    "text": "overhaul of components to strengthen our position as innovators in the mechanical keyboard space.",
+    "source_text": "overhaul of components to strengthen our position as innovators in the mechanical keyboard space.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:31.200",
+    "end": "00:22:35.040",
+    "start_seconds": 1351.2,
+    "end_seconds": 1355.04,
+    "text": "We still have more work ahead, and it will take time to see the impact of our",
+    "source_text": "We still have more work ahead, and it will take time to see the impact of our",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:35.040",
+    "end": "00:22:40.000",
+    "start_seconds": 1355.04,
+    "end_seconds": 1360.0,
+    "text": "efforts. I plan to share updates about our projects and processes on this channel. If",
+    "source_text": "efforts. I plan to share updates about our projects and processes on this channel. If",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:40.000",
+    "end": "00:22:44.880",
+    "start_seconds": 1360.0,
+    "end_seconds": 1364.88,
+    "text": "you’d like more content like this, let me know in the comments and subscribe to follow along.",
+    "source_text": "you’d like more content like this, let me know in the comments and subscribe to follow along.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:44.880",
+    "end": "00:22:49.520",
+    "start_seconds": 1364.88,
+    "end_seconds": 1369.52,
+    "text": "Ben Burns will also be creating content about this project on his channel. Give him a follow",
+    "source_text": "Ben Burns will also be creating content about this project on his channel. Give him a follow",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:49.520",
+    "end": "00:22:54.640",
+    "start_seconds": 1369.52,
+    "end_seconds": 1374.64,
+    "text": "if you’d like more insights from his perspective. Check the description for links to everything.",
+    "source_text": "if you’d like more insights from his perspective. Check the description for links to everything.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:54.640",
+    "end": "00:22:58.640",
+    "start_seconds": 1374.64,
+    "end_seconds": 1378.64,
+    "text": "If you have any questions, ask, and I'll do my best to answer them.",
+    "source_text": "If you have any questions, ask, and I'll do my best to answer them.",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:22:58.640",
+    "end": "00:23:03.840",
+    "start_seconds": 1378.64,
+    "end_seconds": 1383.84,
+    "text": "With that out of the way, it's time to get back to work.",
+    "source_text": "With that out of the way, it's time to get back to work.",
+    "caption_overlap_words": 0
+  }
+]

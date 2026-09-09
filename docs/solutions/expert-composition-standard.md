@@ -1,3 +1,12 @@
+---
+date: 2026-07-06
+name: expert-composition-standard
+problem_class: harness / expert composition / expert soup
+domain: harness
+status: proven
+problem_signature: "a task pulls in many experts, skills, workflows, or gates and the output comes back patched together, overconfident, or still generic — expert soup, too many agents, a hammer instead of a scalpel, not interwoven"
+tags: [experts, composition, orchestration, governor, ownership, routing]
+---
 # Expert Composition Standard
 
 Use this pattern when a task needs many experts, skills, workflows, or gates and the output risks becoming expert soup.

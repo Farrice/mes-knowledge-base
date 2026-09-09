@@ -1,0 +1,82 @@
+{
+  "dispatch_prompt": "Run the guarded closeout for this existing task. Inspect its exact lane and preserve all unfinished work. Do not merge or push main; do not archive, unpin, delete, or edit global files. Run the canonical /end-session handoff and verification path only when safe. Report task status (active, blocked, ready, mid-build, or done), lane/branch, dirty paths, unique commits, handoff verification, coordinator receipt, and requested native task actions. A title or prior claim is not proof. If done is not proven, keep the task unarchived.",
+  "generated_at": "2026-09-02T01:09:43.782998+00:00",
+  "limit": 8,
+  "safety": {
+    "archive": false,
+    "delete": false,
+    "global_write": false,
+    "merge_main": false,
+    "push_main": false,
+    "unpin": false
+  },
+  "schema_version": "bulk-closeout-wave/v1",
+  "selected_count": 8,
+  "selection_rule": "exact/evidence/high-title match; non-active lane; safest states first",
+  "tasks": [
+    {
+      "branch": "codex/personal-brand-direction-diagnostic",
+      "id": "01a05697-7122-7e83-a623-563e08dc5302",
+      "lane_state": "awaiting-merge",
+      "match_confidence": "high-title-match",
+      "requested_closeout_status": "ready",
+      "title": "Brand: Oren Extraction-Personal Brand Direction - Blind Tes\u2026"
+    },
+    {
+      "branch": "codex/systems-thinking-global-shadow",
+      "id": "019fe1b9-2507-7e73-b462-da4f90aee3e3",
+      "lane_state": "awaiting-merge",
+      "match_confidence": "branch-evidence",
+      "requested_closeout_status": "ready",
+      "title": "Extraction: Systems Thinking Intelligence - Shadow Layer As\u2026"
+    },
+    {
+      "branch": "claude/vigilant-leakey-5f6293",
+      "id": "019ff137-aafc-7502-8a26-65fa7ceb2836",
+      "lane_state": "conflicted",
+      "match_confidence": "exact-cwd",
+      "requested_closeout_status": "blocked",
+      "title": "Research: Luke Carter Design Catalog - Style Vault Extensio\u2026"
+    },
+    {
+      "branch": "codex/zero-momentum-offer",
+      "id": "019ff930-3f9f-7230-9ccf-ae9225e8b4ae",
+      "lane_state": "conflicted",
+      "match_confidence": "high-title-match",
+      "requested_closeout_status": "blocked",
+      "title": "Revenue: Zero-Momentum AI Offer - Market-Proven Launch Kit"
+    },
+    {
+      "branch": "codex/linkedin-800k-os",
+      "id": "01a04c53-2a74-7363-ae72-c1e4f58908af",
+      "lane_state": "conflicted",
+      "match_confidence": "high-title-match",
+      "requested_closeout_status": "blocked",
+      "title": "LinkedIn: Farrice Profile - First 10-Post Test"
+    },
+    {
+      "branch": "codex/joanna-brand-voice-moat",
+      "id": "01a05857-6b35-7342-be20-6b3053a8184f",
+      "lane_state": "conflicted",
+      "match_confidence": "branch-evidence",
+      "requested_closeout_status": "blocked",
+      "title": "Brand: Client Voice Discovery - Demo Workflow"
+    },
+    {
+      "branch": "codex/marketing-engineering-service-recovery",
+      "id": "01a0599b-a3d8-7101-a6df-418dcac5dc1a",
+      "lane_state": "conflicted",
+      "match_confidence": "branch-evidence",
+      "requested_closeout_status": "blocked",
+      "title": "Revenue: Health Marketing Engineering Pilot - Readiness and\u2026"
+    },
+    {
+      "branch": "codex/nicolas-cole-20m-course-lessons",
+      "id": "01a05900-82e9-7942-9f2e-127f6ce5fd44",
+      "lane_state": "conflicted",
+      "match_confidence": "branch-evidence",
+      "requested_closeout_status": "blocked",
+      "title": "Revenue: Creative Strategy Offer - Outcome Context Repair"
+    }
+  ]
+}

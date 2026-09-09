@@ -1,3 +1,13 @@
+---
+date: 2026-08-09
+session: briefing room portability fix
+name: briefing-room-card-portability
+problem_class: infra / generated index / path portability
+domain: infra
+status: proven
+problem_signature: "a brief rendered inside a worktree lane shows up in the generated Briefing Room but clicking its card returns 404, because the index encoded a checkout-specific absolute path that the ROOT-jailed live server cannot serve"
+tags: [briefing-room, worktree, paths, portability, verification, server]
+---
 # Solution Card — Briefing Room cards across worktrees
 
 **Problem:** A visual brief rendered in an isolated worktree appeared in that

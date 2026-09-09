@@ -1,0 +1,91 @@
+# slide_plan · blind-bar-01-take-c-greens · from ssc-designer (2026-09-03), orchestrator corrections applied:
+#   - `&lt;br&gt;` in the designer's YAML unescaped back to literal <br> (the copy's line breaks)
+#   - SOURCE_LABEL / EVIDENCE_LABEL shortened to one line; FOOTER_TOPIC on the close is the CTA word (Take B render evidence)
+# Everything else verbatim. Anonymized composite: no brand name or logo in any image. No AI this run.
+brand_lock: "farrice (Farrice Cain, owner) — brand_context=/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context output_base=projects/00-social-content"
+template_pool: linkedin-carousel
+evidence_root: /Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/brand_context/visual-identity/compositions/editorial/evidence
+slides:
+  - n: 1
+    template_id: signature-cover
+    render_mode: TEMPLATE
+    slots:
+      CATEGORY: "Creative Teardown · the greens aisle"
+      DATE: "03 Sep, 2026"
+      HEADLINE_WORD: "greens"
+  - n: 2
+    template_id: word-photo-band-body
+    render_mode: HYBRID_REAL
+    slots:
+      HEADER_TITLE: "Creative Teardown"
+      HEADER_DATE: "03 Sep, 2026"
+      HEADLINE: "three lines"
+      SUBTITLE: "Open any greens brand's ads. One scoop. A number of ingredients, 75 or 85 or 91 depending on the bag. Daily, foundational, complete. Different costumes, one sentence."
+      PHOTO_MAIN_PATH: "{evidence_root}/huel-greens/crop-numbers.png"
+      SOURCE_LABEL: "Source · a greens brand's product page, 03 Sep 2026"
+  - n: 3
+    template_id: photo-right-columns-body
+    render_mode: HYBRID_REAL
+    slots:
+      SERIES_TITLE: "Creative Teardown"
+      DATE: "03 Sep, 2026"
+      PHOTO_MAIN: "{evidence_root}/huel-greens/crop-scoop.png"
+      PHOTO_MAIN_PATH: "{evidence_root}/huel-greens/crop-scoop.png"
+      HEADLINE: "the<br>count"
+      BODY: "Every bag in the aisle leads with how many things are in the scoop. When everyone owns the same claim, nobody does. The count became the category's wallpaper, and the teams kept painting it."
+      ITEM_1_TITLE: "Ingredient truth"
+      ITEM_1_TEXT: "What the formula can honestly carry, and what it cannot."
+      ITEM_2_TITLE: "Buyer tension"
+      ITEM_2_TEXT: "The fear the buyer holds before they read the label."
+      ITEM_3_TITLE: "Proof boundary"
+      ITEM_3_TEXT: "Where the evidence stops and the adjective begins."
+  - n: 4
+    template_id: photo-left-list-body
+    render_mode: HYBRID_REAL
+    slots:
+      KICKER: "Creative Teardown"
+      DATE_LABEL: "03 Sep, 2026 →"
+      PHOTO_MAIN_PATH: "{evidence_root}/huel-greens/crop-bubbles.png"
+      HEADLINE: "three<br>angles"
+      SUBHEAD: "The same powder can argue three different things. Only one is worth funding first."
+      LIST_1_LABEL: "Count"
+      LIST_1_BODY: "Seventy-five, eighty-five, ninety-one. A category, not an argument."
+      LIST_2_LABEL: "Outcome"
+      LIST_2_BODY: "What a person feels by week three. Honest, specific, rarely in the ads."
+      LIST_3_LABEL: "Ritual"
+      LIST_3_BODY: "The morning glass. The one argument nobody has led with."
+  - n: 5
+    template_id: two-photo-list-body
+    render_mode: HYBRID_REAL
+    slots:
+      TITLE: "Creative Teardown"
+      DATE: "03 Sep, 2026"
+      HEADLINE: "what<br>changed"
+      BODY: "Across the aisle the format moves every quarter. The sentence underneath stays put."
+      ITEM_1_LABEL: "Statics"
+      ITEM_1_BODY: "Product on white, the count in the headline."
+      ITEM_2_LABEL: "Creator reads"
+      ITEM_2_BODY: "The same claim, spoken by a stranger in a kitchen."
+      ITEM_3_LABEL: "Line extensions"
+      ITEM_3_BODY: "A new SKU, a new set of ads, the same road."
+      PHOTO_MAIN_PATH: "{evidence_root}/huel-greens/crop-scoop.png"
+      PHOTO_SECOND_PATH: "{evidence_root}/huel-greens/crop-bubbles.png"
+  - n: 6
+    template_id: evidence-crop-body
+    render_mode: HYBRID_REAL
+    slots:
+      SERIES_TITLE: "Creative Teardown"
+      POST_DATE: "03 Sep, 2026"
+      PHOTO_MAIN: "{evidence_root}/huel-greens/crop-subscribe.png"
+      PHOTO_MAIN_PATH: "{evidence_root}/huel-greens/crop-subscribe.png"
+      EVIDENCE_LABEL: "Evidence · a greens brand's checkout, 03 Sep 2026"
+      VERDICT_WORD: "the miss"
+      ANALYSIS_BODY: "Subscription-first funnels ask a stranger for a monthly commitment before the product has argued for month three. The buyer's fear was never the count. It is whether the glass is still on the counter in March. Nobody in the aisle is arguing for that."
+  - n: 7
+    template_id: signature-close-cta
+    render_mode: TEMPLATE
+    slots:
+      SERIES_TITLE: "Creative Teardown"
+      MASTHEAD_DATE: "03 Sep, 2026 →"
+      HEADLINE_WORD: "dm angle"
+      FOOTER_TOPIC: "DM ANGLE"

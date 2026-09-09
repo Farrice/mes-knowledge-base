@@ -1,0 +1,13 @@
+{
+  "method_cases": [
+    {"id":"repeatable_method","pursuit":"Attach one source, one claim boundary, and one buyer-use case to each idea.","steps":3,"decision_rules":1,"output":"claim-safe content card","market_evidence":false,"expected":"METHOD_CANDIDATE"},
+    {"id":"vague_advice","pursuit":"Stay consistent and believe in yourself.","steps":0,"decision_rules":0,"output":"","market_evidence":false,"expected":"NEEDS_SOURCE"},
+    {"id":"missing_pursuit","pursuit":"","steps":0,"decision_rules":0,"output":"","market_evidence":false,"expected":"NO_OFFER"},
+    {"id":"buyer_event","pursuit":"Run five problem interviews, code repeated language, and test one paid pilot.","steps":3,"decision_rules":1,"output":"paid pilot","market_evidence":true,"expected":"OFFER_HYPOTHESIS"}
+  ],
+  "angle_cases": [
+    {"id":"distinct","angles":[{"lens":"mental","problem":"scattered attention","pursuit":"trained before focused work","payoff":"reported steadier concentration"},{"lens":"physical","problem":"poor recovery","pursuit":"changed sleep and training load","payoff":"reported better recovery"}],"expected_count":2},
+    {"id":"duplicates","angles":[{"lens":"mental","problem":"low focus","pursuit":"trained before work","payoff":"better focus"},{"lens":"mental","problem":"poor concentration","pursuit":"lifted before working","payoff":"improved concentration"}],"expected_count":1}
+  ]
+}
+

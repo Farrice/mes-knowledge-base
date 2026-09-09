@@ -1,0 +1,20 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",    "title": "Buyers 1 · Hook",    "x": 0,    "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Buyer2.dc.html",  "title": "Buyers 2 · Myth",    "x": 1180, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Buyer3.dc.html",  "title": "Buyers 3 · CalHFA",  "x": 2360, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Buyer4.dc.html",  "title": "Buyers 4 · 20% programs", "x": 3540, "y": 0, "w": 1080, "h": 1350 },
+    { "file": "Buyer5.dc.html",  "title": "Buyers 5 · Closing costs", "x": 4720, "y": 0, "w": 1080, "h": 1350 },
+    { "file": "Buyer6.dc.html",  "title": "Buyers 6 · CTA",     "x": 5900, "y": 0,    "w": 1080, "h": 1350 },
+    { "file": "Seller1.dc.html", "title": "Sellers 1 · Hook",   "x": 0,    "y": 1520, "w": 1080, "h": 1350 },
+    { "file": "Seller2.dc.html", "title": "Sellers 2 · Instinct", "x": 1180, "y": 1520, "w": 1080, "h": 1350 },
+    { "file": "Seller3.dc.html", "title": "Sellers 3 · ROI bars", "x": 2360, "y": 1520, "w": 1080, "h": 1350 },
+    { "file": "Seller4.dc.html", "title": "Sellers 4 · Maintenance", "x": 3540, "y": 1520, "w": 1080, "h": 1350 },
+    { "file": "Seller5.dc.html", "title": "Sellers 5 · Pricing", "x": 4720, "y": 1520, "w": 1080, "h": 1350 },
+    { "file": "Seller6.dc.html", "title": "Sellers 6 · CTA",    "x": 5900, "y": 1520, "w": 1080, "h": 1350 }
+  ],
+  "annotations": [
+    { "id": "poc-note", "x": 0, "y": -260, "w": 900, "text": "PROOF OF CONCEPT — two carousels in Jen's two brand lanes.\nTop row: @_jiing first-time-buyer carousel (calm-warm lane).\nBottom row: House Sellers seller carousel (team lane).\nStat slides carry sample figures with sources — Jen verifies numbers before anything posts.\nEvery slide exports as its own PNG (Export in the toolbar)." }
+  ],
+  "launch": { "view": "canvas" }
+}

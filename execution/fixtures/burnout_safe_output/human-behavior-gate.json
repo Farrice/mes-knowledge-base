@@ -1,0 +1,100 @@
+{
+  "schema_version": "burnout-safe-output-human-gate/v0.1",
+  "purpose": "Blind human review of the compact presentation without inferring behavior success from structural tests.",
+  "revision_required": true,
+  "revision_reason": "The pilot won three comparisons and tied two, but the total presentation felt overengineered compared with the existing global Clear Depth and Three Contextual Next Prompts behavior. Narrow the pilot to artifact comprehension only.",
+  "preserve": [
+    "Global Clear Depth conversational output",
+    "Global Three Contextual Next Prompts",
+    "Full backend reasoning depth and initiative"
+  ],
+  "change": "Adapt the presentation inside substantial documents and artifacts to their information shape.",
+  "required_example_count": 5,
+  "examples": [
+    {
+      "id": "HBG-001",
+      "task_type": "system-decision",
+      "prompt": "Approve the workspace-only shadow pilot architecture.",
+      "pilot_case_id": "BSO-004",
+      "pilot_position": "Y",
+      "control_response": "The recommended architecture is a comprehensive communication-system implementation that combines Clear Depth, Steering Compass, context health, artifact authority, and task management. We should create a new contract, update the relevant authority layers, add deterministic fixtures, run sabotage tests, establish a behavior gate, and then consider promotion after validation.\n\nThe system will remain isolated from global Codex and should avoid hooks initially. It is also important to remember that structural verification is not the same as actual behavior. The next steps are to implement the files, create the test corpus, run every verifier, assess the results, and prepare a final receipt for review.",
+      "ratings": {
+        "understood_and_actionable": null,
+        "no_decode_burden": null,
+        "top_rank_correct": null,
+        "equal_recommendation_depth": null,
+        "depth_preserved": null,
+        "preferred_variant": "Y",
+        "notes": "Preferred Y. Overall pilot still requires refinement because the combined system feels overengineered."
+      }
+    },
+    {
+      "id": "HBG-002",
+      "task_type": "artifact-delivery",
+      "prompt": "Deliver the approved client brief and identify the current version.",
+      "pilot_case_id": "BSO-005",
+      "pilot_position": "X",
+      "control_response": "I completed the client brief and included the proof notes, current authority label, and the relevant claim-risk language. The work rebuilt successfully, and there are several supporting artifacts available for your review. You should inspect the latest version, compare the historical version if needed, and then decide whether the two claims are sufficiently safe.\n\nFrom here, we could finalize the brief, create a claim-review template, build a reusable client workflow, or package the process for future use. The main issue is that the artifact is nearly complete but still contains two approval-sensitive claims.",
+      "ratings": {
+        "understood_and_actionable": null,
+        "no_decode_burden": null,
+        "top_rank_correct": null,
+        "equal_recommendation_depth": null,
+        "depth_preserved": null,
+        "preferred_variant": "TIE",
+        "notes": "Tie. Existing global output behavior should remain untouched."
+      }
+    },
+    {
+      "id": "HBG-003",
+      "task_type": "authority-conflict",
+      "prompt": "Which LinkedIn offer file should we use?",
+      "pilot_case_id": "BSO-009",
+      "pilot_position": "Y",
+      "control_response": "There are multiple possible offer files, and the latest modified file may be the best candidate, but the workspace has historical artifacts and competing versions. I would recommend reviewing the newest file first and comparing it against the previous offer documents. We should probably choose one as canonical, archive older versions, and update the folder so future sessions know what to use.\n\nPotential next steps include auditing the files, creating an authority map, cleaning the directory, or building a more durable artifact-management system.",
+      "ratings": {
+        "understood_and_actionable": null,
+        "no_decode_burden": null,
+        "top_rank_correct": null,
+        "equal_recommendation_depth": null,
+        "depth_preserved": null,
+        "preferred_variant": "Y",
+        "notes": "Preferred Y. Preserve the authority-conflict clarity without adopting the full presentation system."
+      }
+    },
+    {
+      "id": "HBG-004",
+      "task_type": "context-recovery",
+      "prompt": "While revising this offer, let's also redesign the whole content system.",
+      "pilot_case_id": "BSO-014",
+      "pilot_position": "X",
+      "control_response": "We can handle both. The offer revision and content-system redesign are related, so it may be efficient to think about them together. I would start by mapping the content system, identifying its components, and then connecting those decisions back to the offer. We could create a separate planning document, spin up another task for the system architecture, and use a handoff so nothing is lost.\n\nThis will require additional context, but it could produce a more comprehensive result than finishing the offer in isolation.",
+      "ratings": {
+        "understood_and_actionable": null,
+        "no_decode_burden": null,
+        "top_rank_correct": null,
+        "equal_recommendation_depth": null,
+        "depth_preserved": null,
+        "preferred_variant": "X",
+        "notes": "Preferred X. The broader pilot treatment did not feel natural enough."
+      }
+    },
+    {
+      "id": "HBG-005",
+      "task_type": "commercial-validation",
+      "prompt": "The draft is safe but has never been tested with a real buyer.",
+      "pilot_case_id": "BSO-017",
+      "pilot_position": "Y",
+      "control_response": "The offer needs validation. We should consider creating outreach assets, researching more prospects, improving the positioning, building a CRM workflow, and preparing a campaign. There are several directions available depending on how much time you want to invest.\n\nUse Now: continue refining the offer. Harden: audit the proof and buyer fit. Expand: build an acquisition system. These steps will help make the offer more complete and reusable.",
+      "ratings": {
+        "understood_and_actionable": null,
+        "no_decode_burden": null,
+        "top_rank_correct": null,
+        "equal_recommendation_depth": null,
+        "depth_preserved": null,
+        "preferred_variant": "TIE",
+        "notes": "Tie. Do not reimplement or constrain the successful global three-prompt closeout."
+      }
+    }
+  ]
+}

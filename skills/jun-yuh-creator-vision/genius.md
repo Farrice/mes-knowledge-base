@@ -123,7 +123,60 @@ Specifically:
 
 ---
 
+## Masterclass Expansion — The Lived-Story Operating Loop
+
+This additive layer is grounded in `extractions/video-context/XS-E6rnCr5U/` and indexed claim by claim in `references/storytelling-masterclass-ledger.md`. It sharpens the earlier 3P material without replacing Creator Vision or the existing story-dosage owner.
+
+### The complete loop
+
+`bounded moment -> LIFE retrieval -> Safe / Real / Raw -> Problem / Pursuit / Payoff -> mission -> format`
+
+- **LIFE retrieves; it does not force a topic.** Search Love, Identity, Fitness, and Earnings for one specific lived moment.
+- **Safe / Real / Raw controls depth.** Safe is the obvious account. Real is the explicitly supplied tension underneath it. Raw is the quiet truth the operator chooses to authorize. `WITHHELD` and `[NEEDS SOURCE]` are healthy states.
+- **Pursuit carries the transferable method.** Problem creates recognition, but Pursuit shows what was tried, learned, changed, or systemized. That is often where creator IP becomes useful.
+- **Payoff does not require triumph.** A supported change in awareness, a new decision, or an honest unresolved state can close the loop. Never manufacture victory.
+- **Mission precedes format.** One asset attracts, nurtures, positions, or converts. It does not pretend to optimize all four at once.
+- **Format is packaging.** Silent Film, Split-Screen Reel, Advice at Age, Old Me/New Me, Problem Statement Reel, and Split-Screen Carousel place the 3Ps differently; none can rescue unsupported material.
+
+### Truth and privacy boundary
+
+The model is an interviewer, not a biographer. It may organize supplied facts and ask one focused question. It may not invent emotion, motive, dialogue, chronology, transformation, or third-party interiority. The teller's own evolution can remain while a triggering event, identity, or third-party detail is withheld.
+
+Visuals require the same honesty. `EMOTION-MATCHED ILLUSTRATIVE FOOTAGE` may amplify feeling but may not imply that it depicts the historical event. Use authorized archive or contemporaneous evidence when a factual visual claim matters.
+
+### Ownership boundary
+
+Jun owns upstream story-material mining and personal-brand/social formatting. Shaan's system remains the cross-domain narrative-dosage owner: `FULL STORY`, `STORY FRAGMENT`, or `NO STORY`. This prevents a storytelling expert from turning every deliverable into a protagonist arc.
+
 ## Hidden Knowledge
+
+### Selling-course expansion — method recovery and angle perception
+
+This additive layer is grounded in `extractions/video-context/6r-HF9K030A/` and indexed in `references/selling-course-ledger.md`.
+
+- A sourced Pursuit can become a `METHOD_CANDIDATE` only when it has repeatable actions, a decision rule or learned correction, and an observable output.
+- The three recovery questions target repeated unnoticed behavior, exact step-by-step advice to a friend with the same Problem, and mistakes corrected before success.
+- Naming a method improves transfer and recall. It does not prove novelty, buyer demand, or results.
+- A commercial Method Card may become an `OFFER_HYPOTHESIS`; `/ml-validate-offer` remains the next owner until buyer behavior exists.
+- One lived moment may support several meaning lenses. Each retained angle needs its own fact-traced 3P. Hook rewrites and paraphrases are not new angles.
+- A supported Payoff may seed the next Problem, creating continuity without inventing a new event.
+
+The state spine is: `NO_OFFER → NEEDS_SOURCE → METHOD_CANDIDATE → OFFER_HYPOTHESIS`. Market validation is deliberately outside this spine.
+
+### Full deployment layer — story as a content-marketing system
+
+The two masterclasses together support a wider operating chain than a single story draft:
+
+`lived problem → pursuit/method → supported payoff → identification → trust → belief → next action → observed behavior`
+
+- **Expertise needs a reason to care.** Information alone may be correct and still fail to attract attention. A sourced Problem makes the expertise selectively relevant; the Pursuit shows how the expert actually thinks and works.
+- **Story missions differ.** ATTRACT creates recognition, NURTURE reveals the Pursuit, POSITION demonstrates judgment, and CONVERT connects the supported method and Payoff to a coherent next action. These are separate asset jobs.
+- **Task adapters preserve truth.** Services, physical products, coaching, founder stories, and education use the same 3P spine but require different evidence. Product efficacy, client results, and student outcomes may never be borrowed from the teller's own Payoff.
+- **A CTA sits behind the story.** The source explicitly demonstrates a call to action following story content. The CTA captures a next step; it does not turn story quality into demand proof.
+- **Promise is downstream synthesis.** Jun's source formula is Problem/Pursuit/Payoff. A Promise may be derived from the desired supported Payoff plus the Pursuit mechanism and its boundaries, but it is not Jun's fourth P and cannot exceed the proof ceiling.
+- **The masterclass is itself a selling demonstration.** Its reusable jobs are lived authority, audience mirroring, useful teaching, examples, a quick win, implementation gap, offer vehicle, proof, objections, and a decision close. Jun's price, guarantee, bonuses, urgency, and claimed results are not reusable defaults.
+- **Story perception compounds through memory.** Store bounded moments, meanings, missions, and results. A supported Payoff may seed the next Problem, but the causal bridge remains a hypothesis until another lived event supports it.
+- **ROI needs commercial evidence.** Attention, recognition, intent, sale, and collected revenue are distinct states. ROI is eligible only when attributable cost and revenue are supplied.
 
 - **The Pain-First Psychological Anchor**: Humans connect primarily through shared struggle. Starting content by flexing lavish success actively alienates viewers. Starting with specific, visceral pain (anxiety, failure, loneliness) engineers immediate empathy and makes the eventual success/authority earned and championable.
 - **Timestamp Inevitability**: Placing a year or age (e.g., "Age 22") on the first frame unconsciously trains the viewer's brain to anticipate a resolution (e.g., "Age 26"). This creates an open psychological loop that forces retention until the narrative anchor resolves.

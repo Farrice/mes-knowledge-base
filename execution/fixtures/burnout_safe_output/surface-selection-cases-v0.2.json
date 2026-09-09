@@ -1,0 +1,78 @@
+{
+  "schema_version": "artifact-surface-selection/v0.2",
+  "required_case_count": 8,
+  "cases": [
+    {
+      "id": "SS-001",
+      "content_shape": "immediate_answer",
+      "user_job": "Understand one answer and continue the conversation.",
+      "primary_surface": "conversation",
+      "supporting_representation": "none",
+      "why": "A reusable container would add retrieval and editing ceremony without improving this immediate answer.",
+      "avoid": "Do not turn a normal reply into an artifact or writing block."
+    },
+    {
+      "id": "SS-002",
+      "content_shape": "finished_reusable_prose",
+      "user_job": "Edit, copy, send, post, or reuse a finished piece of writing.",
+      "primary_surface": "writing_block",
+      "supporting_representation": "none",
+      "why": "The native editable block makes the finished prose directly usable without creating a separate document.",
+      "avoid": "Do not use the block for explanations, plans, code, or unfinished thinking."
+    },
+    {
+      "id": "SS-003",
+      "content_shape": "durable_knowledge",
+      "user_job": "Retrieve and progressively explore a strategy, research brief, audit, or playbook.",
+      "primary_surface": "native_artifact",
+      "supporting_representation": "decision_table",
+      "why": "A durable artifact preserves authority and depth while the decision table shortens the first reading pass.",
+      "avoid": "Do not duplicate the artifact as slides, a dashboard, and a writing block."
+    },
+    {
+      "id": "SS-004",
+      "content_shape": "dependent_execution",
+      "user_job": "Keep operator and Codex aligned across dependencies, loops, gates, and state changes.",
+      "primary_surface": "native_artifact",
+      "supporting_representation": "decision_flow",
+      "why": "The artifact preserves detail while the flow externalizes the shared execution state that keeps work on track.",
+      "avoid": "Do not draw a flow for a simple linear list with no branch, loop, gate, or state change."
+    },
+    {
+      "id": "SS-005",
+      "content_shape": "quantitative_data",
+      "user_job": "Calculate, compare, filter, or inspect real rows and trends.",
+      "primary_surface": "spreadsheet",
+      "supporting_representation": "earned_chart",
+      "why": "The spreadsheet keeps the numbers inspectable and the chart earns its place only when comparison or change is real.",
+      "avoid": "Do not create a chart from invented, flat, or non-comparable numbers."
+    },
+    {
+      "id": "SS-006",
+      "content_shape": "presentation_story",
+      "user_job": "Deliver a sequenced visual story to an audience.",
+      "primary_surface": "slides",
+      "supporting_representation": "visual_sequence",
+      "why": "Slides are justified when pacing, audience delivery, and the sequence of visual reveals are part of the outcome.",
+      "avoid": "Do not turn an internal memo or simple list into a deck."
+    },
+    {
+      "id": "SS-007",
+      "content_shape": "live_interactive_state",
+      "user_job": "Inspect changing status or act through several linked controls and views.",
+      "primary_surface": "briefing_room",
+      "supporting_representation": "interactive_controls",
+      "why": "A live surface is useful only when state changes or controls make a static artifact materially weaker.",
+      "avoid": "Do not build a dashboard for a static document."
+    },
+    {
+      "id": "SS-008",
+      "content_shape": "visual_concept",
+      "user_job": "Understand or create composition, mood, form, spatial relationships, or visual identity.",
+      "primary_surface": "generated_visual",
+      "supporting_representation": "visual_variants",
+      "why": "The concept is inherently visual, so an image communicates what additional prose cannot efficiently embody.",
+      "avoid": "Do not replace nuanced reasoning with a decorative image."
+    }
+  ]
+}

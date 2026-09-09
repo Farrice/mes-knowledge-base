@@ -10,6 +10,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "execution"))
+
+import savant_control_room  # type: ignore  # noqa: E402
 
 
 def run(args: list[str]) -> str:
@@ -48,7 +51,10 @@ def main() -> int:
     if "ai-employee-os" not in data["plugin_readiness"]["scores"]:
         raise AssertionError("control room plugin readiness missing ai-employee-os")
 
-    plain = run([sys.executable, "execution/savant_control_room.py", "--plain"])
+    # The JSON and plain CLI modes render the same control-room payload. Build
+    # it once through the real CLI, then verify the plain renderer directly so
+    # this check does not repeat every expensive status scan.
+    plain = savant_control_room.render_plain(data)
     for snippet in (
         "# Savant Control Room",
         "## Fast Proof",

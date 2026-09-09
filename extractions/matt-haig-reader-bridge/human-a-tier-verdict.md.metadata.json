@@ -1,0 +1,13 @@
+{
+  "artifact_type": "human-promotion-verdict",
+  "title": "Matt Haig Reader Bridge — Human A-Tier Verdict",
+  "source_id": "WKQDevJ6XTk",
+  "status": "a-tier-promoted",
+  "human_eval": "EVAL-066",
+  "chain_trace": "trace_20260828_192010_matt-haig-reader-bridge.json",
+  "chain_score": 8.67,
+  "promotion_path": "preferred",
+  "voice_imitation": false,
+  "market_observed": false,
+  "created_at": "2026-08-28"
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "fixture-client",
+  "chip": "RESEARCH BRIEF · MARKET SIGNALS",
+  "title": "where the *demand* actually is",
+  "dek": "A synthetic fixture brief that exercises every section kind the client template supports. Content is placeholder-grade on purpose; layout and design-contract compliance are what this file tests.",
+  "window": "last 30 days",
+  "lens": "category · creative · channels",
+  "sources": "~80 posts + press",
+  "compiled": "aug 27, 2026",
+  "footer_left": "FARRICE CAIN",
+  "footer_right": "prepared for sandcastle labs",
+  "run_cost_usd": 0.12,
+  "stack": ["search", "social"],
+  "sections": [
+    {"kind": "summary", "heading": "the big picture", "kicker": "WHAT'S FORMING",
+     "body": "Attention in the category is consolidating around proof-led creative. The brands gaining share are the ones publishing evidence, not adjectives.\n\nThis brief maps where that shift is visible and what to do about it in the next two weeks."},
+    {"kind": "prose", "heading": "context",
+     "body": "Three months ago the feed was dominated by lifestyle framing. Today the top-performing posts open with a number.\n\nThat flip happened without any single large account driving it, which suggests audience-side fatigue rather than a copycat wave."},
+    {"kind": "evidence", "heading": "what the data says", "tag": "THE EVIDENCE",
+     "rows": [
+       {"claim": "Proof-led hooks outperform lifestyle hooks in this category",
+        "evidence": "Across the 40 top posts of the window, openers carrying a number averaged roughly twice the engagement of adjective-led openers.",
+        "source_url": "https://example.com/category-report",
+        "source_label": "category report · aug 2026", "confidence": "VERIFIED"},
+       {"claim": "Interest is shifting from brand terms to problem terms",
+        "evidence": "Search interest for the two leading problem phrases grew through the window while brand-name queries stayed flat.",
+        "source_url": "https://example.com/search-trends",
+        "source_label": "search trends · 30d", "confidence": "LIKELY"}
+     ]},
+    {"kind": "bars", "heading": "search demand", "caption": "same scale, very different shapes",
+     "series": [
+       {"label": "problem phrase", "note": "climbing all month", "values": [2, 3, 4, 6, 7, 9]},
+       {"label": "brand phrase", "note": "flat", "values": [4, 4, 3, 4, 4, 4]}
+     ]},
+    {"kind": "bars", "heading": "where the posts land", "caption": "engagement per format, shared scale",
+     "series": [
+       {"label": "proof-led static", "note": "the current winner", "values": [9]},
+       {"label": "founder video", "values": [6]},
+       {"label": "lifestyle carousel", "values": [2]}
+     ]},
+    {"kind": "stats", "heading": "by the numbers",
+     "items": [
+       {"value": "40", "unit": "posts", "label": "TOP OF WINDOW", "note": "ranked by engagement"},
+       {"value": "2.1", "unit": "x", "label": "PROOF-HOOK LIFT", "note": "vs adjective openers"},
+       {"value": "14", "unit": "days", "label": "RECOMMENDED TEST", "note": "one format, one claim"}
+     ]},
+    {"kind": "spark", "heading": "momentum", "caption": "each trend scaled to its own range",
+     "series": [
+       {"label": "problem phrase", "values": [1, 2, 2, 4, 5, 7, 8], "value": "8", "unit": "index", "note": "weekly"},
+       {"label": "brand phrase", "values": [5, 4, 5, 4, 5, 4, 4], "value": "4", "unit": "index", "note": "weekly"}
+     ]},
+    {"kind": "matrix", "heading": "where things sit",
+     "axes": {"x": "effort →", "y": "↑ impact"},
+     "quads": [
+       {"label": "HIGH IMPACT · LOW EFFORT", "items": [{"name": "proof-led statics", "note": "reuse existing evidence"}]},
+       {"label": "HIGH IMPACT · HIGH EFFORT", "items": [{"name": "founder video series", "note": "needs a recurring slot"}]},
+       {"label": "LOW IMPACT · LOW EFFORT", "items": [{"name": "reposting press", "note": "fine as filler"}]},
+       {"label": "LOW IMPACT · HIGH EFFORT", "items": [{"name": "lifestyle carousels", "note": "the fading format"}]}
+     ]},
+    {"kind": "flow", "heading": "the pipeline", "caption": "two weeks, one claim at a time",
+     "steps": [
+       {"title": "pick one claim", "note": "strongest verified number"},
+       {"title": "ship three statics", "note": "same claim, three frames"},
+       {"title": "read the spread", "note": "keep the winner, cut the rest"}
+     ]},
+    {"kind": "progress", "heading": "where this stands", "note": "one stage live at a time",
+     "stages": [
+       {"label": "research", "state": "done"},
+       {"label": "creative", "state": "current", "note": "statics in draft"},
+       {"label": "test", "state": "todo"},
+       {"label": "scale", "state": "todo"}
+     ]},
+    {"kind": "timeline", "heading": "how we got here",
+     "items": [
+       {"date": "2026-08-05", "title": "signal first spotted", "body": "proof-led posts started outranking lifestyle posts.", "done": true},
+       {"date": "2026-08-18", "title": "pattern confirmed", "body": "second read of the window showed the same spread.", "done": true},
+       {"date": "2026-09-01", "title": "test window opens", "body": "first three statics scheduled."}
+     ]},
+    {"kind": "playbook", "heading": "the playbook", "tag": "RUN THIS",
+     "plays": [
+       {"title": "brief the designer on the proof static",
+        "intent": "one claim, one number, one frame — nothing else on the canvas.",
+        "command": "Design brief: headline carries the verified number. Sub-line names the source. No lifestyle imagery.",
+        "touches": ["deliverables/creative/proof-static-v1.png"],
+        "receipt": "three drafts back within 48 hours"},
+       {"title": "schedule the two-week test",
+        "intent": "same claim across three frames so the read is clean.",
+        "command": "Schedule: post one static every 4 days for 14 days. Hold all other campaign changes.",
+        "receipt": "engagement spread per frame at day 14"}
+     ]},
+    {"kind": "assets", "heading": "linked assets", "tag": "THE RAIL",
+     "items": [
+       {"title": "proof static, draft one", "role": "STATIC", "path": "deliverables/creative/proof-static-v1.png",
+        "note": "first frame of the test set"},
+       {"title": "claim source sheet", "role": "REFERENCE", "path": "deliverables/creative/claim-sources.pdf",
+        "note": "every number with where it came from"}
+     ]},
+    {"kind": "deploy", "heading": "deploy blocks", "tag": "COPY-PASTE",
+     "blocks": [
+       {"label": "post copy · frame one",
+        "text": "Most brands in this category lead with a feeling.\nThe top posts this month led with a number.\nHere is ours: [verified claim]."}
+     ]},
+    {"kind": "decision", "heading": "where the lane actually *is*", "kicker": "THE OPENING",
+     "dek": "what the data supports doing, in order.",
+     "items": [
+       {"action": "lead every asset with the verified number", "why": "proof-led openers ran at roughly twice the engagement of adjective-led openers across the window."},
+       {"action": "run one claim for two weeks before rotating", "why": "the flat brand-phrase trend says awareness is not the constraint; conviction is."},
+       {"action": "retire the lifestyle carousel format", "why": "it sits in the low-impact, high-effort quadrant of this window's map."}
+     ]},
+    {"kind": "caveats", "heading": "what this *isn't*", "kicker": "CAVEATS WORTH KEEPING",
+     "body": "This is a 30-day read of one category, not a forecast. The engagement lift is measured on public posts, so paid performance may differ. Treat every number here as a reason to run the two-week test, not as the test's result.",
+     "cta": {"label": "OKAY, RUN THE TEST", "href": "#deploy-blocks"}},
+    {"kind": "related", "heading": "swings to", "tag": "CONNECTED",
+     "links": [
+       {"k": "WEB", "title": "category report, full text", "href": "https://example.com/category-report"},
+       {"k": "BRIEF", "title": "internal-only companion brief", "path": "deliverables/research-briefs/fixture-client/fixture-client-brief.html"}
+     ]}
+  ],
+  "ledger": [
+    {"source": "Category engagement report", "url": "https://example.com/category-report",
+     "retrieved": "2026-08-26", "used_for": "proof-hook lift claim", "confidence": "VERIFIED"},
+    {"source": "Search trends export", "url": "https://example.com/search-trends",
+     "retrieved": "2026-08-26", "used_for": "demand-shape section", "confidence": "LIKELY"}
+  ],
+  "context": [
+    {"path": "FARRICE-MASTER-CONTEXT.md", "role": "canonical identity"}
+  ]
+}

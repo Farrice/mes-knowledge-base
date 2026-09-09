@@ -1,0 +1,18 @@
+{
+  "key": "seller-story",
+  "url": "https://www.instagram.com/reel/DcWyZ1aIpbb/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_a2df7bc6-4d44-49ec-99c0-4c3954a9fcba\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_a2df7bc6-4d44-49ec-99c0-4c3954a9fcba\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_a2df7bc6-4d44-49ec-99c0-4c3954a9fcba",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_a2df7bc6-4d44-49ec-99c0-4c3954a9fcba\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

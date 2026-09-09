@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the part under the three words · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-thesis-this-week">the thesis this week</a><a href="#what-pulled-hand-raises">what pulled hand-raises</a><a href="#who-gets-answered">who gets answered</a><a href="#icp-verbatim-their-words-not-a-better-version-of-them">icp verbatim — their words, not a better version of them</a><a href="#angles-for-what-s-live">angles for what&#x27;s live</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ANGLE BRIEF · SIGNAL SCOUT + ZEITGEIST · EDITION 003</span>
+    <h1 class="display">the part <em>under</em> the three words</h1>
+    <p class="dek">four separate rooms this week corrected their creator with the same sentence: the visible move is not the mechanism. the raise, the prompt, the category noun, the supplement. every time, the room reached past the tactic and named the thing that has to already exist underneath it. that thing is what farrice sells. grounded in 1,057 engagers across 6 posts, plus one zeitgeist lane that is two days stale and three that are four.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">scout run aug 13 · zeitgeist aug 11 (ai-consulting) + aug 9 (supplements, jen)</span></div>
+      <div><span class="k">Lens</span><span class="v">hooks · angles · live campaign work</span></div>
+      <div><span class="k">Sources</span><span class="v">6 posts · 1,057 engagers · 1 fresh lane, 3 stale</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 13, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-thesis-this-week"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the thesis this week</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>Greg Isenberg posted that the best prompt for AI agents is three words. It pulled 241 reactions, the smallest post in this pull, and every one of the five top comments said the same thing back to him. Context. Permissions. Boundaries. Verification. One of them put it in four words: &quot;chaos with better branding.&quot; Nobody argued with the three words. They argued that the three words are the last part, not the first.</p><p>The same correction ran under Justin Welsh, in a completely different room, on a completely different subject. Under a post about raises, the most substantive pushback in the sample reads: &quot;They want the leverage of going direct without first building the leverage that makes going direct possible.&quot; Same shape. The move everyone can see is not the mechanism, and the room says so before the creator does.</p><p>It is running in the lanes too. Tuesday&#x27;s ai-consulting pull returned ten profiles under the query &quot;AI consultant&quot; and exactly one of them sells AI consulting, and that one opens by moving the problem off the tool: &quot;The problem is not access to AI. The problem is knowing where AI belongs, what should stay human.&quot; Four days back in the supplement lane, a buyer writes that most experts say take magnesium and leave you guessing which one to buy.</p><p>Four rooms, one sentence. The instruction is free and the substrate is the product. That is the Angle Map, described this week by people who have never heard of it.</p></div></section><section class="blk" id="what-pulled-hand-raises"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what pulled hand-raises</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>All five top comments on the three-word-prompt post answer it with the same missing layer, and none of them dispute the prompt.</h3><p>241 reactions, 58 comments, the smallest post in the pull. The five most-reacted comments in a 56-comment sample: &quot;It&#x27;s how much context and autonomy have to exist behind those three words for them to actually work… permissions, boundaries, verification, and accountability&quot; (founder, AI research advisory) · &quot;&#x27;Do smart things&#x27; only works when the agents have context, goals, permissions, and boundaries... Without that, it becomes chaos with better branding&quot; (physician, digital-health CEO) · &quot;We might be making this more difficult than it needs to be&quot; · &quot;the watchdog concept will become much more common once agents can monitor across systems&quot; · &quot;The best prompt is : be smart and lazy&quot;. Four of five name the substrate; the fifth jokes.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE" target="_blank" rel="noopener">gisenberg · 241r / 58c · 56 comments sampled ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The identical correction appears in the career room, on raises, from someone with no AI in their headline.</h3><p>Under &quot;Most raises at work are pretty darn small.&quot; (3,481 reactions, 1,116 comments), a top-ranked comment reads: &quot;removing the middleman only works once you&#x27;ve built enough proof that people seek you out directly. That&#x27;s the part most people skip. They want the leverage of going direct without first building the leverage that makes going direct possible.&quot; Author headline: &quot;I write about why your discipline fails.&quot; A second in the same sample: &quot;Building on the other side requires different skills than excelling inside a system. That gap is wider than most realize.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF" target="_blank" rel="noopener">justinwelsh · 3,481r / 1,116c · 101 comments sampled ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The insight tap splits the two rooms by roughly four to one, and it is now a two-run finding, not a one-day observation.</h3><p>Today: Isenberg&#x27;s three posts take 72 insight reactions on 1,054 total (68.3 per 1,000); Welsh&#x27;s three take 124 on 7,435 (16.7 per 1,000). The bands do not overlap post by post — Isenberg&#x27;s lowest is 59.9, Welsh&#x27;s highest is 20.6. The aug 10 run produced the same separation across a different six posts (86.4 against 14.9). Insight is the only reaction on LinkedIn that costs the reader a judgment.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">ROSTER-2026-08-13.json + ROSTER-2026-08-10.json · reaction mixes, 10 distinct posts</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>A post&#x27;s reaction mix barely moves as it ages, which is what makes the insight rate worth reading at all.</h3><p>Two posts appear in both runs, three days apart. The markdown-file post went 467 reactions / 28 insight on aug 10 to 484 / 29 on aug 13 — 60.0 per 1,000 to 59.9. &quot;Forget virtual reality&quot; went 322 / 24 to 329 / 25 — 74.5 to 76.0. New reactions arrive in the same proportions the post already had. The rate is a property of the post, not an artifact of when the scout looked.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">ROSTER-2026-08-10.json vs ROSTER-2026-08-13.json · same 2 post URLs</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The smallest Welsh post drew 553 comments against 701 reactions and 7 reposts. The room answered it and did not pass it on.</h3><p>&quot;The older I get, the more I realize time is more valuable than money.&quot; — 701 reactions, 553 comments, 7 reposts. That is 78.9 comments per 100 reactions, the highest ratio across both runs, against 32.1 and 39.8 on his two larger posts the same morning, which took 98 and 126 reposts. The aug 10 run had the same shape in the same slot: 484 reactions, 311 comments, 5 reposts.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za" target="_blank" rel="noopener">justinwelsh · 701r / 553c / 7 reposts ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>1,057 people engaged and 43 of them showed up on more than one post. Four of the six heaviest are ICP.</h3><p>Of 1,057 unique engagers, 482 commented in the sampled comments; 43 commented on two or more of the six posts and 6 commented on three. All four top-scored engagers (11 points) are ICP-matched and hit three posts each: a SaaS-for-non-technical-founders builder, an AE-turned-coder founder, a B2B growth-decision consultant, and a production AI-agent builder. 361 of the 1,057 carry an ICP-matching headline, 34.2%.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">ROSTER-2026-08-13.json · roster scoring, comment=3 / reaction=1 / ICP-title +2</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The category noun keeps failing to sort, and the one profile that reads cleanly makes the same substrate move the comment sections are making.</h3><p>Tuesday&#x27;s LinkedIn pull on &quot;AI consultant&quot; returned ten profiles; one sells AI consulting, down from three of ten the day before. Its first three lines: &quot;The problem is not access to AI. The problem is knowing where AI belongs, what should stay human and which workflows are worth building first.&quot; Two other legible profiles open by refusing the category outright: &quot;Most brand consultants get hired by a company. I get hired by the person the company answers to&quot; and &quot;Not a consultant.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s" target="_blank" rel="noopener">zeitgeist ai-consulting · aug 11 · two days stale ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>In the supplement lane the buyers describe the same gap in grocery-store language: the instruction is free, the naming is the value.</h3><p>r/RhondaPatrick, in the aug 9 pull: &quot;Most experts say &#x27;take magnesium&#x27; and leave you guessing which one to buy. Rhonda names the specific brand for nearly everything and explains why. Her reasons are usually NSF certification (clean), third-party testing, or clinical studies using that exact product.&quot; Four days old, and the lane has produced no brief since.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/" target="_blank" rel="noopener">zeitgeist supplement-brands · aug 9 · four days stale ↗</a></div></div></div></section><section class="blk" id="who-gets-answered"><div class="sechead"><span class="secnum">03</span><h2 class="sec">who gets <em>answered</em></h2></div><div class="bars-card"><div class="hbar-row"><div class="hbar-label">the older i get, time is more valuable than money<span class="hnote">welsh · 701r · 7 reposts</span></div><div class="hbar-track"><i style="width:100%"></i></div><div class="hbar-val">78.9</div></div><div class="hbar-row"><div class="hbar-label">your time doesn&#x27;t disappear all at once<span class="hnote">welsh · 3,253r · 126 reposts</span></div><div class="hbar-track"><i style="width:50%"></i></div><div class="hbar-val">39.8</div></div><div class="hbar-row"><div class="hbar-label">most raises at work are pretty darn small<span class="hnote">welsh · 3,481r · 98 reposts</span></div><div class="hbar-track"><i style="width:41%"></i></div><div class="hbar-val">32.1</div></div><div class="hbar-row"><div class="hbar-label">forget virtual reality, the next big thing is actual reality<span class="hnote">gisenberg · 329r · 11 reposts</span></div><div class="hbar-track"><i style="width:33%"></i></div><div class="hbar-val">25.8</div></div><div class="hbar-row"><div class="hbar-label">the best prompt for ai agents is only 3 words<span class="hnote">gisenberg · 241r · 7 reposts</span></div><div class="hbar-track"><i style="width:31%"></i></div><div class="hbar-val">24.1</div></div><div class="hbar-row"><div class="hbar-label">every startup should have a daily markdown file<span class="hnote">gisenberg · 484r · 18 reposts</span></div><div class="hbar-track"><i style="width:29%"></i></div><div class="hbar-val">22.9</div></div></div><div class="bars-caption">comments per 100 reactions, per post. the two smallest posts in the set pulled the most reply per unit of reach, and the smallest one took 7 reposts against 553 comments. reach and conversation moved in opposite directions for the second run running.</div></section><section class="blk" id="icp-verbatim-their-words-not-a-better-version-of-them"><div class="sechead"><span class="secnum">04</span><h2 class="sec">icp verbatim — their words, not a better version of them</h2><span class="sectag">STEAL THESE EXACTLY</span></div><p>Six lines from the comment sample, quoted exactly as written, emoji and all. Ship them as-is or leave them. The elevation pass is the silent failure.</p><p>&quot;Without that, it becomes chaos with better branding.&quot; — physician, digital-health CEO, on what happens to a three-word prompt with no context behind it</p><p>&quot;They want the leverage of going direct without first building the leverage that makes going direct possible.&quot; — writer on why discipline fails</p><p>&quot;The real problem is often not having less time, but giving it away too easily.&quot; — ghostwriter turning LinkedIn into an inbound channel</p><p>&quot;Being busy used to look impressive.</p><p>Now an empty afternoon feels like the real flex. 😇&quot; — YouTube SEO strategist for podcast founders</p><p>&quot;At some point, a full calendar stops feeling like proof that things are going well and starts feeling like something you want to protect your life from.&quot; — leadership strategist for founders and executives</p><p>&quot;Mental Peace over money.&quot; — writer, three words, 553-comment thread</p><p>Two registers under one week. The builder room talks in nouns that have to exist before anything works: context, permissions, boundaries, verification. The career room talks in what a calendar feels like. Both are describing something missing underneath a thing they already have.</p></section><section class="decision" id="angles-for-what-s-live"><span class="kicker">THE OPENING</span><h2>angles for what&#x27;s <em>live</em></h2><p class="dek">each angle ties to a piece of active work and to a row above. ranked by what today&#x27;s data supports, not by what would be fun to write.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>CASH LAUNCH / ANGLE MAP — say in the offer line that you sell the layer under the claim, not the claim. The room named it for you this week.</h3><p>Four of five top comments on the 241-reaction prompt post answered a three-word instruction with the same list: context, permissions, boundaries, verification. Four days earlier a supplement buyer wrote that most experts say take magnesium and leave you guessing which one to buy, and that what makes Rhonda Patrick useful is NSF certification, third-party testing, clinical studies using that exact product. Same complaint, two categories. The $750 Angle Map is the naming-and-testing layer for a brand&#x27;s claim, and the offer copy currently sells the map rather than the thing the map is made of.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>CONTENT — write the post that hands the buyer the substrate test, and use the room&#x27;s four words for the failure state.</h3><p>&quot;Without that, it becomes chaos with better branding&quot; is a stranger&#x27;s sentence, sitting in public, describing exactly what a proof-free claim does to a brand. The post is the checklist under any confident instruction: what has to already be true for this to work. That post is answerable, and the answerable posts are the ones this room replies to — 553 comments on 701 reactions, 7 reposts.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>POSITIONING — the 14-day-old profile mission has its second day of evidence. This needs a verdict, not a twelfth variant.</h3><p>Tuesday&#x27;s pull returned one of ten &quot;AI consultant&quot; profiles actually selling AI consulting, down from three of ten the day before, and the one that reads cleanly opens by moving the problem off the tool: &quot;The problem is not access to AI. The problem is knowing where AI belongs, what should stay human.&quot; The first sentence has to carry what the category noun stopped carrying. The spiral brake is armed and the evidence is now two days deep.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>PARALLAX — the time-ownership register, in their words. Not the naptime frame and not leftover energy; both are spent.</h3><p>Three Welsh posts on one subject pulled 7,435 reactions and 2,964 comments this week, and the comment language is a room re-measuring success in units of time it still owns: &quot;an empty afternoon feels like the real flex,&quot; &quot;a full calendar stops feeling like proof that things are going well.&quot; That sits directly on the 08-04 thought-bank line about having all the capability and not being able to release it. The pattern ships; the family autobiography does not.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>CONTENT — design the next post to be answered rather than forwarded, and stop reading reposts as the win.</h3><p>The smallest post in the set took 553 comments and 7 reposts. The two big ones took 98 and 126 reposts at a third of the reply rate. The aug 10 run showed the identical split in the same slot (311 comments, 5 reposts). Reposting is a broadcast; replying is a hand going up, and hand-raises are what the scout can actually see and score.</p></div></div><div class="dec-item"><span class="n">06</span><div><h3>OPS — retry the zeitgeist lanes today instead of blaming the actors, and fix the receipt that reports a dead run as a run.</h3><p>All four actors failed at 09:23 with the same connection error to api.apify.com. Thirty-seven minutes later the scout made 14 Apify calls from this same machine and returned 1,057 engagers. That is a window, not a broken stack. Meanwhile .agent/zeitgeist-state.json lists last_run 2026-08-13 for ai-consulting and 2026-08-12 for the other three, and not one of those runs wrote a brief — the state file is green off zero live pulls, which is the exact failure class the verification spine exists to kill.</p></div></div><div class="dec-item"><span class="n">07</span><div><h3>JEN — hold all market content again. Monday&#x27;s recommendation to fix the lane query before this run did not happen.</h3><p>The Jen lane&#x27;s last brief is aug 9, where one of fifteen items touched San Fernando Valley real estate and two matched a city in the Philippines. Its aug 12 attempt returned 0 live pulls of 3 and wrote nothing. There is still nothing here to be right about, and a second unexecuted fix is worth more attention than the lane&#x27;s content would have been.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">06</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE · DRAFTS ONLY</span></div><div class="deploy"><div class="bar"><span class="k">hook — the substrate (dense, 149 chars, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>Five people corrected the same AI post this morning, and all five landed on the same sentence: three words only work if the context is already there.</pre></div><div class="deploy"><div class="bar"><span class="k">hook — answered not forwarded (stacked, 39 + 58, prose-checked CLEAN; line 2 is a read, not a measurement)</span><button class="copybtn" type="button">copy</button></div><pre>701 reactions. 553 comments. 7 reposts.
+People do not forward the thing that costs them something.</pre></div><div class="deploy"><div class="bar"><span class="k">hook — proof before going direct (punchy + context, 46 + 44, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>Someone corrected Justin Welsh in his comments.
+The proof has to exist before you go direct.</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Ranked by how much they should discount what you just read.</p><p>First, the comment reads rest on samples ranked by the comments&#x27; own reaction counts — about 101 of 1,116 and 56 of 58. A keyword-gated comment flood would be invisible in a sample ranked that way, which matters most for the 553-comment post: I never saw that post&#x27;s body, only its first line, so a question close or a comment-for-the-link mechanic is a live alternative explanation for the whole conversation-ratio read. The counts are VERIFIED. The reading of them is not. Comment text is also truncated at roughly 300 characters, so two quotes above end where the scraper stopped.</p><p>Second, the four-to-one insight split is replicated and still confounded. Two creators, two subject families, two audiences, twelve posts across two runs. It is a clean observation about these posts, not a controlled test of format.</p><p>Third, none of these are his people. Second-degree engagers on other creators&#x27; posts, no post of Farrice&#x27;s anywhere in the sample. The scout cannot see impressions, saves, DMs, who scrolled past, or anything off LinkedIn. Nobody in this file has been contacted by any system.</p><p>Fourth, three of the four zeitgeist lanes are four days stale and the fourth is two. The aug 12 run returned 0 live pulls across all four lanes and the aug 13 ai-consulting run returned 0 of 4, both on connection errors, so no lane has produced a brief since aug 11. Every zeitgeist claim above is carry-over, and none of it is engagement data — those lanes read what is being said, never what performed.</p><p>Fifth, the 384 engagers who appear in both this roster and Monday&#x27;s are a real count with a mechanical cause: two of the six posts were sampled in both runs, so an unknown share of that overlap is the same post being read twice. The within-run number is the clean one — 43 people on two or more posts, 6 on three.</p><p>Sixth, the thought-bank connection is a connection only. The 08-04 items are raw and unprocessed; nothing was moved, marked, or consumed to write this.</p><p>Seventh, this is edition 003 and it deliberately does not reuse edition 002&#x27;s correction-economy thesis, the naptime or leftover-energy Parallax doors, or the claim-ledger angle. Where the same underlying data reappears, it is doing different work.</p></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">08</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.00 — stack: signal-scout · zeitgeist · thought-bank</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Signal Scout roster — _active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md + .json</td><td>—</td><td>2026-08-13</td><td>6 posts, 1,057 unique engagers, all per-post reaction mixes, comment and repost counts, the five top comments per post, the insight split, conversation ratios, the multi-post engager counts and ICP share. Listening-only; nobody in it has been contacted. Run cost $0.00 against the Apify tracker (9.3386 before and after, month to date $9.34 of $29).</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Prior roster — _active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.json</td><td>—</td><td>2026-08-10</td><td>the two repeated post URLs for the mix-stability check, the aug 10 insight split for replication, and the 311-comment / 5-repost precedent in the same slot.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Zeitgeist — ai-consulting-linkedin, aug 11 brief</td><td><a href="https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s</a></td><td>2026-08-11</td><td>the 1-of-10 category count, the Murtić opening, the two refusal openings. Two days stale; the lane has failed to pull since.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Zeitgeist — supplement-brands, aug 9 brief</td><td><a href="https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/" target="_blank" rel="noopener">https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/</a></td><td>2026-08-09</td><td>the take-magnesium buyer quote and the certification / third-party-testing vocabulary. Four days stale.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>Zeitgeist — jen-sfv-realestate, aug 9 brief + .agent/zeitgeist-run.log + .agent/zeitgeist-state.json</td><td>—</td><td>2026-08-13</td><td>establishing that the lane is still broken and still unfixed: the aug 9 geography failure, the aug 12 zero-pull attempt, and the state file reporting last_run dates for runs that wrote nothing. No market claim drawn from it.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>Thought bank — _active/farrice-brand/thought-bank/inbox/2026-08-04.md</td><td>—</td><td>2026-08-04</td><td>connection only, for the Parallax time-ownership angle (the line about holding the capability and not being able to release it). Unprocessed, unmoved, unmarked.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>07</td><td>Active work — _active/linkedin/CAMPAIGN.md (offer ladder + mission queue)</td><td>—</td><td>2026-08-13</td><td>which angles serve live revenue work: the $750 Angle Map ladder, the open profile-copy mission and its armed spiral brake, the send-before-build rule.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>08</td><td>Craft loads — VOICE-CARD.md v1.4 · kallaway hook-engineering-matrix · kallaway trend-hook-radar · diandra 20-five-format-hook-architect</td><td>—</td><td>2026-08-13</td><td>hook construction, format ceilings and character validation on the deploy blocks. Diandra used for hook format only, per the standing separation. All three blocks prose-checked CLEAN at 0/10.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>09</td><td>Prior editions — .tmp/angle-brief/angle-brief-2026-08-06.json + angle-brief-2026-08-10.json</td><td>—</td><td>2026-08-10</td><td>content-ecosystem awareness: the naptime, leftover-energy, claim-ledger, name-the-enemy and correction-economy angles were spent in 001 and 002 and are deliberately not repeated.</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">09</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/CAMPAIGN.md">_active/linkedin/CAMPAIGN.md</a></td><td>active revenue work — offer ladder + mission queue</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md">_active/farrice-brand/voice/VOICE-CARD.md</a></td><td>voice base layer for all deploy blocks</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md">_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md</a></td><td>resonance + roster source</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/zeitgeist-run.log">.agent/zeitgeist-run.log</a></td><td>lane health — two consecutive zero-pull days</td></tr><tr><td>05</td><td><a href="https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE" target="_blank" rel="noopener">https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE</a></td><td>gisenberg · 241r / 58c · 56 comments sampled</td></tr><tr><td>06</td><td><a href="https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF" target="_blank" rel="noopener">https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF</a></td><td>justinwelsh · 3,481r / 1,116c · 101 comments sampled</td></tr><tr><td>07</td><td><a href="https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za" target="_blank" rel="noopener">https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za</a></td><td>justinwelsh · 701r / 553c / 7 reposts</td></tr><tr><td>08</td><td><a href="https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s</a></td><td>zeitgeist ai-consulting · aug 11 · two days stale</td></tr><tr><td>09</td><td><a href="https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/" target="_blank" rel="noopener">https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/</a></td><td>zeitgeist supplement-brands · aug 9 · four days stale</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;angle-brief-2026-08-13&quot;,
+  &quot;title&quot;: &quot;the part under the three words&quot;,
+  &quot;compiled&quot;: &quot;aug 13, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/linkedin/CAMPAIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/CAMPAIGN.md&quot;,
+      &quot;role&quot;: &quot;active revenue work — offer ladder + mission queue&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;role&quot;: &quot;voice base layer for all deploy blocks&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md&quot;,
+      &quot;role&quot;: &quot;resonance + roster source&quot;
+    },
+    {
+      &quot;path&quot;: &quot;.agent/zeitgeist-run.log&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.agent/zeitgeist-run.log&quot;,
+      &quot;role&quot;: &quot;lane health — two consecutive zero-pull days&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE&quot;,
+      &quot;label&quot;: &quot;gisenberg · 241r / 58c · 56 comments sampled&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF&quot;,
+      &quot;label&quot;: &quot;justinwelsh · 3,481r / 1,116c · 101 comments sampled&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za&quot;,
+      &quot;label&quot;: &quot;justinwelsh · 701r / 553c / 7 reposts&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s&quot;,
+      &quot;label&quot;: &quot;zeitgeist ai-consulting · aug 11 · two days stale&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/&quot;,
+      &quot;label&quot;: &quot;zeitgeist supplement-brands · aug 9 · four days stale&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY RESEARCH</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-context.json\nCOMPILED: aug 13, 2026\n\n# the part under the three words\n\n> ANGLE BRIEF · SIGNAL SCOUT + ZEITGEIST · EDITION 003 · window: scout run aug 13 · zeitgeist aug 11 (ai-consulting) + aug 9 (supplements, jen) · lens: hooks · angles · live campaign work · sources: 6 posts · 1,057 engagers · 1 fresh lane, 3 stale · compiled: aug 13, 2026\n\nfour separate rooms this week corrected their creator with the same sentence: the visible move is not the mechanism. the raise, the prompt, the category noun, the supplement. every time, the room reached past the tactic and named the thing that has to already exist underneath it. that thing is what farrice sells. grounded in 1,057 engagers across 6 posts, plus one zeitgeist lane that is two days stale and three that are four.\n\n## the thesis this week\n_WHAT'S FORMING_\nGreg Isenberg posted that the best prompt for AI agents is three words. It pulled 241 reactions, the smallest post in this pull, and every one of the five top comments said the same thing back to him. Context. Permissions. Boundaries. Verification. One of them put it in four words: \"chaos with better branding.\" Nobody argued with the three words. They argued that the three words are the last part, not the first.\n\nThe same correction ran under Justin Welsh, in a completely different room, on a completely different subject. Under a post about raises, the most substantive pushback in the sample reads: \"They want the leverage of going direct without first building the leverage that makes going direct possible.\" Same shape. The move everyone can see is not the mechanism, and the room says so before the creator does.\n\nIt is running in the lanes too. Tuesday's ai-consulting pull returned ten profiles under the query \"AI consultant\" and exactly one of them sells AI consulting, and that one opens by moving the problem off the tool: \"The problem is not access to AI. The problem is knowing where AI belongs, what should stay human.\" Four days back in the supplement lane, a buyer writes that most experts say take magnesium and leave you guessing which one to buy.\n\nFour rooms, one sentence. The instruction is free and the substrate is the product. That is the Angle Map, described this week by people who have never heard of it.\n\n## what pulled hand-raises\n- **All five top comments on the three-word-prompt post answer it with the same missing layer, and none of them dispute the prompt.** [VERIFIED] — 241 reactions, 58 comments, the smallest post in the pull. The five most-reacted comments in a 56-comment sample: \"It's how much context and autonomy have to exist behind those three words for them to actually work… permissions, boundaries, verification, and accountability\" (founder, AI research advisory) · \"'Do smart things' only works when the agents have context, goals, permissions, and boundaries... Without that, it becomes chaos with better branding\" (physician, digital-health CEO) · \"We might be making this more difficult than it needs to be\" · \"the watchdog concept will become much more common once agents can monitor across systems\" · \"The best prompt is : be smart and lazy\". Four of five name the substrate; the fifth jokes. (https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE)\n- **The identical correction appears in the career room, on raises, from someone with no AI in their headline.** [VERIFIED] — Under \"Most raises at work are pretty darn small.\" (3,481 reactions, 1,116 comments), a top-ranked comment reads: \"removing the middleman only works once you've built enough proof that people seek you out directly. That's the part most people skip. They want the leverage of going direct without first building the leverage that makes going direct possible.\" Author headline: \"I write about why your discipline fails.\" A second in the same sample: \"Building on the other side requires different skills than excelling inside a system. That gap is wider than most realize.\" (https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF)\n- **The insight tap splits the two rooms by roughly four to one, and it is now a two-run finding, not a one-day observation.** [VERIFIED] — Today: Isenberg's three posts take 72 insight reactions on 1,054 total (68.3 per 1,000); Welsh's three take 124 on 7,435 (16.7 per 1,000). The bands do not overlap post by post — Isenberg's lowest is 59.9, Welsh's highest is 20.6. The aug 10 run produced the same separation across a different six posts (86.4 against 14.9). Insight is the only reaction on LinkedIn that costs the reader a judgment. (ROSTER-2026-08-13.json + ROSTER-2026-08-10.json · reaction mixes, 10 distinct posts)\n- **A post's reaction mix barely moves as it ages, which is what makes the insight rate worth reading at all.** [VERIFIED] — Two posts appear in both runs, three days apart. The markdown-file post went 467 reactions / 28 insight on aug 10 to 484 / 29 on aug 13 — 60.0 per 1,000 to 59.9. \"Forget virtual reality\" went 322 / 24 to 329 / 25 — 74.5 to 76.0. New reactions arrive in the same proportions the post already had. The rate is a property of the post, not an artifact of when the scout looked. (ROSTER-2026-08-10.json vs ROSTER-2026-08-13.json · same 2 post URLs)\n- **The smallest Welsh post drew 553 comments against 701 reactions and 7 reposts. The room answered it and did not pass it on.** [LIKELY] — \"The older I get, the more I realize time is more valuable than money.\" — 701 reactions, 553 comments, 7 reposts. That is 78.9 comments per 100 reactions, the highest ratio across both runs, against 32.1 and 39.8 on his two larger posts the same morning, which took 98 and 126 reposts. The aug 10 run had the same shape in the same slot: 484 reactions, 311 comments, 5 reposts. (https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za)\n- **1,057 people engaged and 43 of them showed up on more than one post. Four of the six heaviest are ICP.** [VERIFIED] — Of 1,057 unique engagers, 482 commented in the sampled comments; 43 commented on two or more of the six posts and 6 commented on three. All four top-scored engagers (11 points) are ICP-matched and hit three posts each: a SaaS-for-non-technical-founders builder, an AE-turned-coder founder, a B2B growth-decision consultant, and a production AI-agent builder. 361 of the 1,057 carry an ICP-matching headline, 34.2%. (ROSTER-2026-08-13.json · roster scoring, comment=3 / reaction=1 / ICP-title +2)\n- **The category noun keeps failing to sort, and the one profile that reads cleanly makes the same substrate move the comment sections are making.** [VERIFIED] — Tuesday's LinkedIn pull on \"AI consultant\" returned ten profiles; one sells AI consulting, down from three of ten the day before. Its first three lines: \"The problem is not access to AI. The problem is knowing where AI belongs, what should stay human and which workflows are worth building first.\" Two other legible profiles open by refusing the category outright: \"Most brand consultants get hired by a company. I get hired by the person the company answers to\" and \"Not a consultant.\" (https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s)\n- **In the supplement lane the buyers describe the same gap in grocery-store language: the instruction is free, the naming is the value.** [VERIFIED] — r/RhondaPatrick, in the aug 9 pull: \"Most experts say 'take magnesium' and leave you guessing which one to buy. Rhonda names the specific brand for nearly everything and explains why. Her reasons are usually NSF certification (clean), third-party testing, or clinical studies using that exact product.\" Four days old, and the lane has produced no brief since. (https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/)\n\n## who gets answered\n- the older i get, time is more valuable than money: 78.9 (welsh · 701r · 7 reposts)\n- your time doesn't disappear all at once: 39.8 (welsh · 3,253r · 126 reposts)\n- most raises at work are pretty darn small: 32.1 (welsh · 3,481r · 98 reposts)\n- forget virtual reality, the next big thing is actual reality: 25.8 (gisenberg · 329r · 11 reposts)\n- the best prompt for ai agents is only 3 words: 24.1 (gisenberg · 241r · 7 reposts)\n- every startup should have a daily markdown file: 22.9 (gisenberg · 484r · 18 reposts)\n_comments per 100 reactions, per post. the two smallest posts in the set pulled the most reply per unit of reach, and the smallest one took 7 reposts against 553 comments. reach and conversation moved in opposite directions for the second run running._\n\n## icp verbatim — their words, not a better version of them\nSix lines from the comment sample, quoted exactly as written, emoji and all. Ship them as-is or leave them. The elevation pass is the silent failure.\n\n\"Without that, it becomes chaos with better branding.\" — physician, digital-health CEO, on what happens to a three-word prompt with no context behind it\n\n\"They want the leverage of going direct without first building the leverage that makes going direct possible.\" — writer on why discipline fails\n\n\"The real problem is often not having less time, but giving it away too easily.\" — ghostwriter turning LinkedIn into an inbound channel\n\n\"Being busy used to look impressive.\n\nNow an empty afternoon feels like the real flex. 😇\" — YouTube SEO strategist for podcast founders\n\n\"At some point, a full calendar stops feeling like proof that things are going well and starts feeling like something you want to protect your life from.\" — leadership strategist for founders and executives\n\n\"Mental Peace over money.\" — writer, three words, 553-comment thread\n\nTwo registers under one week. The builder room talks in nouns that have to exist before anything works: context, permissions, boundaries, verification. The career room talks in what a calendar feels like. Both are describing something missing underneath a thing they already have.\n\n## angles for what's live\neach angle ties to a piece of active work and to a row above. ranked by what today's data supports, not by what would be fun to write.\n1. **CASH LAUNCH / ANGLE MAP — say in the offer line that you sell the layer under the claim, not the claim. The room named it for you this week.** — Four of five top comments on the 241-reaction prompt post answered a three-word instruction with the same list: context, permissions, boundaries, verification. Four days earlier a supplement buyer wrote that most experts say take magnesium and leave you guessing which one to buy, and that what makes Rhonda Patrick useful is NSF certification, third-party testing, clinical studies using that exact product. Same complaint, two categories. The $750 Angle Map is the naming-and-testing layer for a brand's claim, and the offer copy currently sells the map rather than the thing the map is made of.\n2. **CONTENT — write the post that hands the buyer the substrate test, and use the room's four words for the failure state.** — \"Without that, it becomes chaos with better branding\" is a stranger's sentence, sitting in public, describing exactly what a proof-free claim does to a brand. The post is the checklist under any confident instruction: what has to already be true for this to work. That post is answerable, and the answerable posts are the ones this room replies to — 553 comments on 701 reactions, 7 reposts.\n3. **POSITIONING — the 14-day-old profile mission has its second day of evidence. This needs a verdict, not a twelfth variant.** — Tuesday's pull returned one of ten \"AI consultant\" profiles actually selling AI consulting, down from three of ten the day before, and the one that reads cleanly opens by moving the problem off the tool: \"The problem is not access to AI. The problem is knowing where AI belongs, what should stay human.\" The first sentence has to carry what the category noun stopped carrying. The spiral brake is armed and the evidence is now two days deep.\n4. **PARALLAX — the time-ownership register, in their words. Not the naptime frame and not leftover energy; both are spent.** — Three Welsh posts on one subject pulled 7,435 reactions and 2,964 comments this week, and the comment language is a room re-measuring success in units of time it still owns: \"an empty afternoon feels like the real flex,\" \"a full calendar stops feeling like proof that things are going well.\" That sits directly on the 08-04 thought-bank line about having all the capability and not being able to release it. The pattern ships; the family autobiography does not.\n5. **CONTENT — design the next post to be answered rather than forwarded, and stop reading reposts as the win.** — The smallest post in the set took 553 comments and 7 reposts. The two big ones took 98 and 126 reposts at a third of the reply rate. The aug 10 run showed the identical split in the same slot (311 comments, 5 reposts). Reposting is a broadcast; replying is a hand going up, and hand-raises are what the scout can actually see and score.\n6. **OPS — retry the zeitgeist lanes today instead of blaming the actors, and fix the receipt that reports a dead run as a run.** — All four actors failed at 09:23 with the same connection error to api.apify.com. Thirty-seven minutes later the scout made 14 Apify calls from this same machine and returned 1,057 engagers. That is a window, not a broken stack. Meanwhile .agent/zeitgeist-state.json lists last_run 2026-08-13 for ai-consulting and 2026-08-12 for the other three, and not one of those runs wrote a brief — the state file is green off zero live pulls, which is the exact failure class the verification spine exists to kill.\n7. **JEN — hold all market content again. Monday's recommendation to fix the lane query before this run did not happen.** — The Jen lane's last brief is aug 9, where one of fifteen items touched San Fernando Valley real estate and two matched a city in the Philippines. Its aug 12 attempt returned 0 live pulls of 3 and wrote nothing. There is still nothing here to be right about, and a second unexecuted fix is worth more attention than the lane's content would have been.\n\n## deploy blocks\n**hook — the substrate (dense, 149 chars, prose-checked CLEAN)**\n```\nFive people corrected the same AI post this morning, and all five landed on the same sentence: three words only work if the context is already there.\n```\n**hook — answered not forwarded (stacked, 39 + 58, prose-checked CLEAN; line 2 is a read, not a measurement)**\n```\n701 reactions. 553 comments. 7 reposts.\nPeople do not forward the thing that costs them something.\n```\n**hook — proof before going direct (punchy + context, 46 + 44, prose-checked CLEAN)**\n```\nSomeone corrected Justin Welsh in his comments.\nThe proof has to exist before you go direct.\n```\n\n## what this isn't\n_CAVEATS WORTH KEEPING_\nRanked by how much they should discount what you just read.\n\nFirst, the comment reads rest on samples ranked by the comments' own reaction counts — about 101 of 1,116 and 56 of 58. A keyword-gated comment flood would be invisible in a sample ranked that way, which matters most for the 553-comment post: I never saw that post's body, only its first line, so a question close or a comment-for-the-link mechanic is a live alternative explanation for the whole conversation-ratio read. The counts are VERIFIED. The reading of them is not. Comment text is also truncated at roughly 300 characters, so two quotes above end where the scraper stopped.\n\nSecond, the four-to-one insight split is replicated and still confounded. Two creators, two subject families, two audiences, twelve posts across two runs. It is a clean observation about these posts, not a controlled test of format.\n\nThird, none of these are his people. Second-degree engagers on other creators' posts, no post of Farrice's anywhere in the sample. The scout cannot see impressions, saves, DMs, who scrolled past, or anything off LinkedIn. Nobody in this file has been contacted by any system.\n\nFourth, three of the four zeitgeist lanes are four days stale and the fourth is two. The aug 12 run returned 0 live pulls across all four lanes and the aug 13 ai-consulting run returned 0 of 4, both on connection errors, so no lane has produced a brief since aug 11. Every zeitgeist claim above is carry-over, and none of it is engagement data — those lanes read what is being said, never what performed.\n\nFifth, the 384 engagers who appear in both this roster and Monday's are a real count with a mechanical cause: two of the six posts were sampled in both runs, so an unknown share of that overlap is the same post being read twice. The within-run number is the clean one — 43 people on two or more posts, 6 on three.\n\nSixth, the thought-bank connection is a connection only. The 08-04 items are raw and unprocessed; nothing was moved, marked, or consumed to write this.\n\nSeventh, this is edition 003 and it deliberately does not reuse edition 002's correction-economy thesis, the naptime or leftover-energy Parallax doors, or the claim-ledger angle. Where the same underlying data reappears, it is doing different work.\n\n## Source ledger\n1. Signal Scout roster — _active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md + .json (retrieved 2026-08-13, VERIFIED; used for: 6 posts, 1,057 unique engagers, all per-post reaction mixes, comment and repost counts, the five top comments per post, the insight split, conversation ratios, the multi-post engager counts and ICP share. Listening-only; nobody in it has been contacted. Run cost $0.00 against the Apify tracker (9.3386 before and after, month to date $9.34 of $29).)\n2. Prior roster — _active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.json (retrieved 2026-08-10, VERIFIED; used for: the two repeated post URLs for the mix-stability check, the aug 10 insight split for replication, and the 311-comment / 5-repost precedent in the same slot.)\n3. Zeitgeist — ai-consulting-linkedin, aug 11 brief — https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s (retrieved 2026-08-11, VERIFIED; used for: the 1-of-10 category count, the Murtić opening, the two refusal openings. Two days stale; the lane has failed to pull since.)\n4. Zeitgeist — supplement-brands, aug 9 brief — https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/ (retrieved 2026-08-09, VERIFIED; used for: the take-magnesium buyer quote and the certification / third-party-testing vocabulary. Four days stale.)\n5. Zeitgeist — jen-sfv-realestate, aug 9 brief + .agent/zeitgeist-run.log + .agent/zeitgeist-state.json (retrieved 2026-08-13, VERIFIED; used for: establishing that the lane is still broken and still unfixed: the aug 9 geography failure, the aug 12 zero-pull attempt, and the state file reporting last_run dates for runs that wrote nothing. No market claim drawn from it.)\n6. Thought bank — _active/farrice-brand/thought-bank/inbox/2026-08-04.md (retrieved 2026-08-04, VERIFIED; used for: connection only, for the Parallax time-ownership angle (the line about holding the capability and not being able to release it). Unprocessed, unmoved, unmarked.)\n7. Active work — _active/linkedin/CAMPAIGN.md (offer ladder + mission queue) (retrieved 2026-08-13, VERIFIED; used for: which angles serve live revenue work: the $750 Angle Map ladder, the open profile-copy mission and its armed spiral brake, the send-before-build rule.)\n8. Craft loads — VOICE-CARD.md v1.4 · kallaway hook-engineering-matrix · kallaway trend-hook-radar · diandra 20-five-format-hook-architect (retrieved 2026-08-13, VERIFIED; used for: hook construction, format ceilings and character validation on the deploy blocks. Diandra used for hook format only, per the standing separation. All three blocks prose-checked CLEAN at 0/10.)\n9. Prior editions — .tmp/angle-brief/angle-brief-2026-08-06.json + angle-brief-2026-08-10.json (retrieved 2026-08-10, VERIFIED; used for: content-ecosystem awareness: the naptime, leftover-energy, claim-ledger, name-the-enemy and correction-economy angles were spent in 001 and 002 and are deliberately not repeated.)\n\n## Context pack (agent feed)\n- `_active/linkedin/CAMPAIGN.md` — active revenue work — offer ladder + mission queue\n- `_active/farrice-brand/voice/VOICE-CARD.md` — voice base layer for all deploy blocks\n- `_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md` — resonance + roster source\n- `.agent/zeitgeist-run.log` — lane health — two consecutive zero-pull days\n- https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE — gisenberg · 241r / 58c · 56 comments sampled\n- https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF — justinwelsh · 3,481r / 1,116c · 101 comments sampled\n- https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za — justinwelsh · 701r / 553c / 7 reposts\n- https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s — zeitgeist ai-consulting · aug 11 · two days stale\n- https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/ — zeitgeist supplement-brands · aug 9 · four days stale\n\n_run cost $0.00 — stack: signal-scout · zeitgeist · thought-bank_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

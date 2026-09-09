@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "handle": "mybpm-sublevel-heavyweight-tee-dubstep-streetwear",
+      "launch_status": "verified_visual_lead_sample_still_required",
+      "short_description": "A 330 gsm heavyweight tee cut with a relaxed unisex silhouette. Sublevel is a quiet recognition signal for the people who know what the room feels like when the bass moves through concrete.",
+      "known_public_claims": ["330 gsm / 9.7 oz", "100% cotton", "relaxed unisex fit"],
+      "verification_needed": ["production sample", "fiber label", "wash test", "size measurements", "fulfillment lead time"]
+    },
+    {
+      "handle": null,
+      "current_title": "Dance Music Lovers Club Hoodie",
+      "launch_status": "sample_gate",
+      "verification_needed": ["blank weight", "fiber content", "decoration quality", "fit", "wash test", "on-body photography", "fulfillment lead time"]
+    },
+    {
+      "handle": null,
+      "current_title": "MyBPM Signature Bucket Hat",
+      "launch_status": "sample_gate",
+      "verification_needed": ["structure", "decoration quality", "fit range", "inventory", "on-body photography"]
+    },
+    {
+      "handle": null,
+      "current_title": "One Defined Tee reissue — selection pending",
+      "launch_status": "concept_and_sample_gate",
+      "verification_needed": ["one selected genre", "premium blank", "new product handle", "sample", "on-body photography"]
+    }
+  ]
+}

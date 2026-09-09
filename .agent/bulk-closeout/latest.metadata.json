@@ -1,0 +1,9 @@
+{
+  "artifact_type": "operator_audit",
+  "title": "Bulk Closeout Audit",
+  "status": "verified",
+  "source": "execution/bulk_closeout_control.py",
+  "primary_view": ".agent/bulk-closeout/latest.md",
+  "machine_receipt": ".agent/bulk-closeout/latest.json",
+  "wave_receipt": ".agent/bulk-closeout/wave-1-receipt.json"
+}

@@ -16,6 +16,7 @@ Brock Johnson is an Instagram Growth Strategist and creator of "Build Your Tribe
 3. **Specificity-as-Relatability**: The more specific, the more relatable—counterintuitive truth
 4. **Hook Science**: 5-8 words, 5th grade level, negative words when possible
 5. **NAPs Strategy**: Niche-Adjacent Posts that tap into pop culture while relating to your niche
+6. **Say–Do–Need Message Bridge**: Package the audience's stated desire and demonstrated choices around the system or behavior that actually creates progress—without bait-and-switch delivery
 
 ## Available Skills
 

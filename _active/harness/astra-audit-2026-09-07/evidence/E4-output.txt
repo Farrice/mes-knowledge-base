@@ -1,0 +1,4 @@
+claimed: abcdef
+PARKED probe.md: tier T2 requires Farrice's nod (T2/T3 never auto-run)
+claimed: abcdef
+Verified: T2 card parked; original body byte-for-byte preserved; execution forbidden by test trap. Lock claim/release mocked; real queue untouched.

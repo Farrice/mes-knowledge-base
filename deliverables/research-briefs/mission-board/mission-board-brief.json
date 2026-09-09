@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "131 sessions swept",
-  "compiled": "aug 9, 2026",
+  "sources": "406 sessions swept",
+  "compiled": "sep 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "The board is heavy on production and thin on outcomes: most live threads hold finished work that is ready to go out, and almost none carry a recorded result from sending it. The real split across the board is between threads waiting on a decision and threads waiting on a send.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "58",
+          "value": "16",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "161",
+          "value": "0",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "248",
+          "value": "272",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "131",
+          "value": "406",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -56,39 +56,18 @@
             0,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0
-          ],
-          "value": "3",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             2,
+            1,
+            1,
+            1,
             0,
-            6,
             2,
-            4
+            3,
+            1
           ],
-          "value": "14",
+          "value": "12",
           "note": "per day"
         },
         {
@@ -102,14 +81,14 @@
             0,
             0,
             0,
-            53,
+            51,
             0,
             0,
-            14,
-            108,
-            1
+            0,
+            0,
+            0
           ],
-          "value": "176",
+          "value": "51",
           "note": "per day"
         }
       ],
@@ -121,63 +100,57 @@
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
         {
-          "label": "video studio edit bay",
-          "values": [
-            52
-          ]
-        },
-        {
           "label": "linkedin",
           "values": [
-            11
-          ]
-        },
-        {
-          "label": "teardown 1 fresh",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "farrice brand",
-          "values": [
-            127
-          ]
-        },
-        {
-          "label": "extract forge",
-          "values": [
-            33
-          ]
-        },
-        {
-          "label": "angle map listening engine v4 1",
-          "values": [
             9
           ]
         },
         {
-          "label": "01 listing content",
+          "label": "harness",
           "values": [
-            9
+            2
           ]
         },
         {
           "label": "system audit",
           "values": [
-            27
+            6
           ]
         },
         {
-          "label": "go",
+          "label": "video studio edit bay",
           "values": [
-            12
+            40
           ]
         },
         {
-          "label": "writers room",
+          "label": "first 10k",
+          "values": [
+            9
+          ]
+        },
+        {
+          "label": "visual workflow",
           "values": [
             6
+          ]
+        },
+        {
+          "label": "landing page",
+          "values": [
+            3
+          ]
+        },
+        {
+          "label": "extract forge",
+          "values": [
+            3
+          ]
+        },
+        {
+          "label": "listing content",
+          "values": [
+            3
           ]
         }
       ]
@@ -188,24 +161,39 @@
       "tag": "OPEN ONE",
       "links": [
         {
-          "k": "READY",
-          "title": "video studio edit bay",
-          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
-        },
-        {
           "k": "ACTIVE",
           "title": "linkedin",
           "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "teardown 1 fresh",
-          "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html"
+          "title": "harness",
+          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "farrice brand",
-          "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html"
+          "title": "system audit",
+          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "video studio edit bay",
+          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "first 10k",
+          "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "visual workflow",
+          "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "landing page",
+          "path": "deliverables/research-briefs/mission-landing-page/mission-landing-page-brief.html"
         },
         {
           "k": "READY",
@@ -214,28 +202,8 @@
         },
         {
           "k": "ACTIVE",
-          "title": "angle map listening engine v4 1",
-          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "01 listing content",
-          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "go",
-          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "writers room",
-          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+          "title": "listing content",
+          "path": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html"
         },
         {
           "k": "READY",
@@ -244,8 +212,13 @@
         },
         {
           "k": "ACTIVE",
-          "title": "execution",
-          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "mission",
+          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
         }
       ]
     },
@@ -255,75 +228,39 @@
       "tag": "NO LIVE THREAD",
       "items": [
         {
-          "date": "2026-08-08",
-          "title": "Research",
-          "body": "Graph engineering re-research (3-agent parallel sweep) + lane reconciler daemon build",
+          "date": "2026-09-02",
+          "title": "junyuh-marketing",
+          "body": "Jun Yuh cross-skill composition and highest-leverage build map",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "one-liner",
-          "body": "Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni",
+          "date": "2026-09-02",
+          "title": "content-marketing-playbook",
+          "body": "Jun Yuh cross-skill stack map for Farrice personal and business content, including the missing Format Intelligence Lab, conditional craft adapters, productized ",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "deep-research",
-          "body": "Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vi",
+          "date": "2026-08-29",
+          "title": "offer-packaging",
+          "body": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "briefs",
-          "body": "Readout OS: research-brief system re-skinned to Farrice Cain Premium Minimal (Ink+Steel Blue report dialect), enriched with playbook/assets/timeline/flow/stats/",
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "god-agent-delta",
-          "body": "Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-auth) + launchd 30-min poll + latency-class seating rule. Har",
+          "date": "2026-08-29",
+          "title": "website-wireframe-generator",
+          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
           "done": true
         },
         {
-          "date": "2026-08-06",
-          "title": "god-agent-delta",
-          "body": "God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card, notify channel) + offer red-team artifact with SEQUENCE verd",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "oracle-board",
-          "body": "Oracle Board v2: live clickable cockpit extending the pulse localhost pattern — 3 new allow-listed actions w/ CLI twins, system-activity strip, ROI splits, dril",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "extract-and-build",
-          "body": "Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_local.py (WhisperX), edit_bay.py (7 subcommands), video_qa.py",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "worktree-lanes",
-          "body": "Parallel Session Lanes OS (golden rule automated: shim+bootstrap+parity+auto-merge) + retirement of all 17 legacy worktrees with ~2,900 files of stranded work r",
-          "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "zeitgeist",
-          "body": "Ambient zeitgeist engine: /zeitgeist daily (launchd live), pulse sub-budget wired after never being used, reddit 400 root-caused+fixed, ambient live-data ground",
-          "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "briefs",
-          "body": "Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apify actors schema-verified live, $5/run cap) + Monid wired on ",
-          "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "01-extract-virtuoso-mastery",
-          "body": "Eddy Ballesteros Monid research-brief extraction: MES 3.0 W01 report + frame-cited brief-anatomy teardown + monid-facts capture (37 frames watched, 10 patterns,",
+          "date": "2026-08-29",
+          "title": "watch-and-extract",
+          "body": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
           "done": true
         }
       ]
@@ -332,7 +269,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board counts what was made, not what worked — a thread can look busy and still have nothing recorded on the far side of a send. Some threads clear the promotion bar on a stale handoff alone and carry no activity this window, and a thread's own header describes work from a different arena than its records.\n\n202 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, health performance ip library, one liner.\n\n218 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n262 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer packaging, create, angle map listening engine v4 1, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind.\n\n338 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

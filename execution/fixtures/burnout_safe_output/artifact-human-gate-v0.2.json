@@ -1,0 +1,43 @@
+{
+  "schema_version": "artifact-comprehension-human-gate/v0.2",
+  "purpose": "Blind human review of artifact comprehension without changing conversational output or closeouts.",
+  "revision_required": true,
+  "revision_reason": "All three artifact structures were preferred, but AHG-002 and AHG-003 need the strongest insights from their prose controls restored with less jargon and higher value per word.",
+  "preservation_lock": {
+    "keep": "AHG-001 unchanged; AHG-002 X structure; AHG-003 Y structure; the strongest commercial and implementation insight from each prose control.",
+    "change": "Restore lost insight with fewer words and less system language.",
+    "do_not_disturb": "Global Clear Depth, ordinary replies, closeouts, and Three Contextual Next Prompts.",
+    "risk": "Compression becomes shallow or restored depth becomes another text wall.",
+    "gate": "Targeted blind rerun of AHG-002 and AHG-003 only."
+  },
+  "required_example_count": 3,
+  "examples": [
+    {
+      "id": "AHG-001",
+      "task_type": "strategy",
+      "prompt": "Show the chosen offer direction, tradeoffs, and immediate action.",
+      "pilot_case_id": "AC-001",
+      "pilot_position": "Y",
+      "control_response": "The recommended direction is to keep one proof-led offer as the primary owner while testing different message angles within that offer. This is preferable to running three simultaneous offers because it reduces proof risk and keeps the work closer to revenue. More preparation should not be the priority because it does not produce buyer evidence. The next action is to run one buyer-facing test, although the demand assumption remains untested and should not be described as validated.",
+      "ratings": {"faster_to_understand": null, "depth_preserved": null, "easier_to_act": null, "representation_earned": null, "preferred_variant": "Y", "notes": "Preferred Y. Preserve unchanged as the good example."}
+    },
+    {
+      "id": "AHG-002",
+      "task_type": "research",
+      "prompt": "Summarize the demand evidence without overstating buyer validation.",
+      "pilot_case_id": "AC-004",
+      "pilot_position": "X",
+      "control_response": "The current evidence suggests that buyers discuss the problem, based on the interview set, so there is enough support to continue exploring the category. However, there is no payment event demonstrating that buyers will purchase this specific package. That means category attention should not be treated as willingness to pay. The practical implication is to continue only through a paid test, with the buyer-response assumption clearly labeled as untested.",
+      "ratings": {"faster_to_understand": null, "depth_preserved": null, "easier_to_act": null, "representation_earned": null, "preferred_variant": "X", "notes": "Keep X structure and restore the strongest insights from Y."}
+    },
+    {
+      "id": "AHG-003",
+      "task_type": "implementation",
+      "prompt": "Show how to build and validate the pilot while preserving the stop boundary.",
+      "pilot_case_id": "AC-006",
+      "pilot_position": "Y",
+      "control_response": "The pilot should first preserve the successful global behavior and then build artifact-only fixtures. After the fixtures exist, negative controls should be run before collecting human artifact ratings. Only after those stages should there be an explicit promotion decision. The process must stop before merge, hook changes, or global activation, and each stage should retain its verifier and rollback note.",
+      "ratings": {"faster_to_understand": null, "depth_preserved": null, "easier_to_act": null, "representation_earned": null, "preferred_variant": "Y", "notes": "Keep Y structure and restore X insights with less jargon, more value per word, and tighter phrasing."}
+    }
+  ]
+}

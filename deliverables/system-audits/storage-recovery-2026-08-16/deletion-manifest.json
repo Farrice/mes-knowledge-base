@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "duplicate-batch-2026-08-16-001",
+  "status": "verified_pending_explicit_approval",
+  "verification_method": "SHA-256 for files; sorted relative-path, logical-size, and file-SHA-256 manifest plus diff -qr for directory trees",
+  "approval": {
+    "move_to_trash": "pending_explicit_batch_001_approval",
+    "empty_this_batch_from_trash": "not_requested_until_successful_in_trash_reverification"
+  },
+  "canonical_precedence": [
+    "actively_referenced_path",
+    "organized_non_numbered_path",
+    "richer_provenance_or_license_metadata",
+    "cleanest_original_filename"
+  ],
+  "rollback_route": "Restore each named item from the mission-specific Trash batch to its recorded source path before Trash is emptied.",
+  "trash_batch_root": "/Users/farricecain/.Trash/storage-recovery-batch-001",
+  "candidate_count": 11,
+  "expected_reclaim_logical_bytes": 12019921558,
+  "expected_reclaim_allocated_512_blocks": 23480488,
+  "expected_reclaim_allocated_bytes": 12022009856,
+  "expected_reclaim_allocated_gib": 11.196,
+  "items": [
+    {
+      "id": "style-bender-zip-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Style Bender For Photoshop.zip",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/style-bender-zip-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop.zip",
+      "logical_bytes": 3041851999,
+      "allocated_512_blocks": 5941120,
+      "allocated_bytes": 3041853440,
+      "sha256": "0ec65dccd73ee2bf3657463b5461af00dae5ad0dea873a41dda243a2a70ec9c3",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "kalypso-uuid-zip-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/9592d114-2a17-4ebc-8d80-17c7a87043ab.zip",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/kalypso-uuid-zip-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Kalypso - Instagram Carousel Package (V2).zip",
+      "logical_bytes": 1882218933,
+      "allocated_512_blocks": 3676216,
+      "allocated_bytes": 1882222592,
+      "sha256": "a6d714b489270ea5cc3c9357539aeb90703c3a670ea1657b8722ed186d028342",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "claude-installer-1-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/Claude (1).dmg",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/claude-installer-1-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/Claude (3).dmg",
+      "logical_bytes": 350324289,
+      "allocated_512_blocks": 688248,
+      "allocated_bytes": 352382976,
+      "sha256": "1cc85282abeff55344989fdaf6af06577a487190ddc700e6c03e390fc92e10b5",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "claude-installer-2-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/Claude (2).dmg",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/claude-installer-2-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/Claude (3).dmg",
+      "logical_bytes": 350324289,
+      "allocated_512_blocks": 684232,
+      "allocated_bytes": 350326784,
+      "sha256": "1cc85282abeff55344989fdaf6af06577a487190ddc700e6c03e390fc92e10b5",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "style-bender-psd-1-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop 2/Style 1.psd",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/style-bender-psd-1-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop/Style 1.psd",
+      "logical_bytes": 1235126020,
+      "allocated_512_blocks": 2412360,
+      "allocated_bytes": 1235128320,
+      "sha256": "e948c3919e722f9cac1cb60f893f9349174c02f72cd68ebf772c7080da3f3eb0",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "style-bender-psd-2-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop 2/Style 2.psd",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/style-bender-psd-2-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop/Style 2.psd",
+      "logical_bytes": 2099088232,
+      "allocated_512_blocks": 4099784,
+      "allocated_bytes": 2099089408,
+      "sha256": "6da198beb52cd4be07aec6b59545b5f470b72e2fd2bd2d3a11f96a2260354cc3",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "style-bender-psd-3-extra",
+      "item_type": "file",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop 2/Style 3.psd",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/style-bender-psd-3-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Templates/Style Bender Template For Photoshop-1696955105011/Style Bender For Photoshop/Style 3.psd",
+      "logical_bytes": 1827750454,
+      "allocated_512_blocks": 3569832,
+      "allocated_bytes": 1827753984,
+      "sha256": "a50834c9691d5aa5a8be1be1ebba7e3184419cf1cdf62672024f8595f8745439",
+      "classification": "exact_duplicate",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore from Trash to source_path."
+    },
+    {
+      "id": "modelled-oversized-tshirt-tree-extra",
+      "item_type": "directory_tree",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate-2.1-o42fxj (1)",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/modelled-oversized-tshirt-tree-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate-2.1-o42fxj",
+      "file_count": 4,
+      "logical_bytes": 631055503,
+      "allocated_512_blocks": 1232544,
+      "allocated_bytes": 631062528,
+      "tree_sha256": "b2348e98db9f99810e8d8b9e74a3100f58d6487c675c35c400ac8acc77651d6b",
+      "diff_qr_exit": 0,
+      "file_hashes": [
+        {"relative_path": "Back-Angled-Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate.psd", "sha256": "d2dbc85e65979e7ae40290575ba84c8e1801ec7d4ab007e27334dce4dd56415c"},
+        {"relative_path": "Back_View-Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate.psd", "sha256": "367e5b3da61492a46877941d0567903b063373c41ef0be160b30f08376bd2d36"},
+        {"relative_path": "Front-Angled-Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate.psd", "sha256": "9a4bb2dc92f95d90254a71e0e921748762dde167938cf89499fb0baa531a54ef"},
+        {"relative_path": "Front-Modelled-Oversized-T-Shirt-Mockup-By-Studio-Innate.psd", "sha256": "5db4ac3f96d64ea3c675ca2601937540554d8f99f20b79eaa9255d92974dbced"}
+      ],
+      "classification": "exact_duplicate_tree",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore the directory from Trash to source_path."
+    },
+    {
+      "id": "closeup-tshirt-tree-extra",
+      "item_type": "directory_tree",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/closeup-texture-tshirt-mockup-with-color-changeable (1)",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/closeup-tshirt-tree-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/closeup-texture-tshirt-mockup-with-color-changeable",
+      "file_count": 2,
+      "logical_bytes": 221775832,
+      "allocated_512_blocks": 433160,
+      "allocated_bytes": 221777920,
+      "tree_sha256": "fc9dfdb8db7a0db76db5f6f3822fa322b66563f1b90fc70356d0fde5170117ab",
+      "diff_qr_exit": 0,
+      "file_hashes": [
+        {"relative_path": "7_realistic_tshirt_mockups.jpg", "sha256": "3f918c33be618330a03f0d21e6a2cd7efe636d77bef3418fe057a5e575564373"},
+        {"relative_path": "7_realistic_tshirt_mockups.psd", "sha256": "5bc800f6eb22cd65279c689fa3575d710569f382c2446922877e018df44b0864"}
+      ],
+      "classification": "exact_duplicate_tree",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore the directory from Trash to source_path."
+    },
+    {
+      "id": "printed-cotton-tree-extra",
+      "item_type": "directory_tree",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/editable-mockup-realist-printed-catton (1)",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/printed-cotton-tree-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/editable-mockup-realist-printed-catton",
+      "file_count": 2,
+      "logical_bytes": 203211066,
+      "allocated_512_blocks": 396904,
+      "allocated_bytes": 203214848,
+      "tree_sha256": "dc34aaad222c69876f62a21adf566ab104929c61b44f9f3b50ce84c1a3480c7b",
+      "diff_qr_exit": 0,
+      "file_hashes": [
+        {"relative_path": "2_printed_extreme_closeup_mockup.jpg", "sha256": "a0522a7c84da4a353954f1bc6bb2e21b21523e0c10370124b825286b571ee0cd"},
+        {"relative_path": "2_printed_extreme_closeup_mockup.psd", "sha256": "0577f2d531047eec658cfae380772f0ddd1c5bf2fcba3ae86f7a394254919108"}
+      ],
+      "classification": "exact_duplicate_tree",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore the directory from Trash to source_path."
+    },
+    {
+      "id": "screen-printing-closeup-tree-extra",
+      "item_type": "directory_tree",
+      "source_path": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/editable-extreme-closeup-mockup-screen-printing-looks (1)",
+      "trash_path": "/Users/farricecain/.Trash/storage-recovery-batch-001/screen-printing-closeup-tree-extra",
+      "retained_canonical": "/Users/farricecain/Downloads/02_Design_Assets/Mockups/editable-extreme-closeup-mockup-screen-printing-looks",
+      "file_count": 2,
+      "logical_bytes": 177194941,
+      "allocated_512_blocks": 346088,
+      "allocated_bytes": 177197056,
+      "tree_sha256": "b7288342542f34f9c5d91e6298e8c46e9276adac666bff706798d7b3dcbe871b",
+      "diff_qr_exit": 0,
+      "file_hashes": [
+        {"relative_path": "1_printed_extreme_closeup_mockup.jpg", "sha256": "c4a5dd22663fdb97e2d3fe9d4a9af356d4d3adb70715885c44566964a8ad972e"},
+        {"relative_path": "1_printed_extreme_closeup_mockup.psd", "sha256": "05ffacbb8ae778dc0c43037b946c5f246f3d5847fc7817b3d5da1e563fe03fc3"}
+      ],
+      "classification": "exact_duplicate_tree",
+      "approval": "pending_explicit_approval",
+      "rollback_route": "Restore the directory from Trash to source_path."
+    }
+  ],
+  "negative_controls": [
+    {
+      "label": "Hoodie V.2 (1)",
+      "classification": "not_an_exact_duplicate",
+      "required_disposition": "keep",
+      "canonical_root": "/Users/farricecain/Downloads/02_Design_Assets/Hoodie V.2",
+      "review_root": "/Users/farricecain/Downloads/02_Design_Assets/Hoodie V.2 (1)",
+      "canonical_file_count": 8,
+      "review_file_count": 9,
+      "extra_file": "/Users/farricecain/Downloads/02_Design_Assets/Hoodie V.2 (1)/MyBPM Template-Hoodie Vol2 Back Mockup Irhasalfahad.psd",
+      "extra_file_logical_bytes": 172314827,
+      "extra_file_allocated_bytes": 172318720,
+      "extra_file_sha256": "109458219e9b7464a219db4be87bacf2ffd91dbee3421b3be1a298e9363533ea",
+      "diff_qr_exit": 1,
+      "automatic_delete": false
+    }
+  ]
+}

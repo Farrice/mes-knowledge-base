@@ -1,0 +1,101 @@
+[
+  {
+    "id": "W01",
+    "title": "CalHFA Dream For All",
+    "url": "https://www.calhfa.ca.gov/dream/index.htm",
+    "source_date": "Live page; May 20, 2026 update; registration closed March 16",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Current program status",
+    "decision": "Replace apply-now angle with status and alternatives; shared appreciation is not a grant"
+  },
+  {
+    "id": "W02",
+    "title": "C.A.R. July 2026 market report",
+    "url": "https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/July2026HomeSales",
+    "source_date": "Published August 17, 2026; observation month July",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Official industry report",
+    "decision": "County/metro are not SFV; no individual listing prediction"
+  },
+  {
+    "id": "W03",
+    "title": "California DOI residential insurance guide",
+    "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm",
+    "source_date": "Revised January 2026; page read September 7",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Official consumer guidance",
+    "decision": "Coverage and price are separate questions; no property quote implied"
+  },
+  {
+    "id": "W04",
+    "title": "LA first-home mistakes discussion",
+    "url": "https://www.reddit.com/r/LosAngelesRealEstate/comments/1vxqmex/whats_the_biggest_mistake_you_made_buying_your/",
+    "source_date": "Search index: August 25, 2026; opened page says 1d ago; exact day unresolved",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Agent-initiated discussion with self-reported buyer comments",
+    "decision": "Current-year qualitative signal; regret-seeking prompt biases sample; agent replies separate"
+  },
+  {
+    "id": "W05",
+    "title": "LA inventory discussion",
+    "url": "https://www.reddit.com/r/LosAngelesRealEstate/comments/1vxa380/has_la_housing_inventory_increased_in_2026/",
+    "source_date": "Search index: August 24\u201325, 2026; relative page times differ",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Commercial poster analysis + discussion",
+    "decision": "Local statistics unverified; useful lead to primary condo-policy documents only"
+  },
+  {
+    "id": "W06",
+    "title": "Dream For All discussion",
+    "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1tisqil/ca_dream_for_all_updates_mega_thread/",
+    "source_date": "2026 cycle; exact dates of selected replies unavailable",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Public participant self-reports",
+    "decision": "Waitlist uncertainty is language evidence; forecasts not program facts"
+  },
+  {
+    "id": "W07",
+    "title": "Fannie Mae LL-2026-03",
+    "url": "https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements",
+    "source_date": "March 18, 2026; effective dates August 3, 2026 and January 4, 2027",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Primary lender letter; page 3 text and screenshot requested",
+    "decision": "Keep current and future rules separate; no universal condo eligibility claim"
+  },
+  {
+    "id": "W08",
+    "title": "Fannie Mae project standards",
+    "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards",
+    "source_date": "Updated August 5, 2026",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Primary current guide result",
+    "decision": "Qualifying waiver exceptions prevent blanket claims"
+  },
+  {
+    "id": "W09",
+    "title": "CFPB home budget guidance",
+    "url": "https://www.consumerfinance.gov/owning-a-home/prepare/figure-out-how-much-you-want-to-spend/",
+    "source_date": "Updated February 18, 2026; page read September 7",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Official consumer guidance",
+    "decision": "Complete-cost framing; no personalized financial verdict"
+  },
+  {
+    "id": "W10",
+    "title": "SFV condo versus house discussion",
+    "url": "https://www.reddit.com/r/SFV/comments/1tq96p1/looking_for_home_buying_advice_and_a_realtor_in/",
+    "source_date": "Opened page says 3mo ago; precise day not recovered",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Public local buyer question",
+    "decision": "Supports a concrete situation, not prevalence or demand"
+  },
+  {
+    "id": "W11",
+    "title": "California DOI coverage expansion alert",
+    "url": "https://www.insurance.ca.gov/0400-news/0102-alerts/2026/Insurance-surge-expanding-options-for-Ca.cfm",
+    "source_date": "July 23, 2026 per official alert index; live page checked",
+    "retrieved_at": "2026-09-07",
+    "source_type": "Official current-event context",
+    "decision": "Some expansion starts January 2027; no claim all homes can now get coverage"
+  }
+]

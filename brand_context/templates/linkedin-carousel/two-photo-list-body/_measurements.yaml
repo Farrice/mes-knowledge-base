@@ -1,0 +1,71 @@
+elements:
+  - id: TITLE
+    bbox_pct: [7.78, 5.33, 35, 2.6]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 2.41
+  - id: DATE
+    bbox_pct: [66, 5.33, 26.44, 2.8]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 2.04
+  - id: HEADLINE
+    bbox_pct: [7.78, 12.59, 43, 20]
+    color_role: text_on_light
+    type: display
+    font_size_cqw: 10.37
+  - id: BODY
+    bbox_pct: [7.78, 32.59, 40.74, 15]
+    color_role: text_on_light
+    type: body
+    font_size_cqw: 2.22
+  - id: ITEM_1_LABEL
+    bbox_pct: [7.78, 48.89, 40.74, 2.6]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 2.41
+  - id: ITEM_1_BODY
+    bbox_pct: [7.78, 51.9, 40.74, 4]
+    color_role: text_on_light
+    type: body
+    font_size_cqw: 1.94
+  - id: ITEM_2_LABEL
+    bbox_pct: [7.78, 60.74, 40.74, 2.6]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 2.41
+  - id: ITEM_2_BODY
+    bbox_pct: [7.78, 63.75, 40.74, 4]
+    color_role: text_on_light
+    type: body
+    font_size_cqw: 1.94
+  - id: ITEM_3_LABEL
+    bbox_pct: [7.78, 72.59, 40.74, 2.6]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 2.41
+  - id: ITEM_3_BODY
+    bbox_pct: [7.78, 75.6, 40.74, 4]
+    color_role: text_on_light
+    type: body
+    font_size_cqw: 1.94
+  - id: FOOTER_NAME
+    bbox_pct: [7.78, 93.26, 18, 2.2]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 1.85
+  - id: FOOTER_URL
+    bbox_pct: [28, 93.26, 22, 2.2]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 1.85
+  - id: FOOTER_DESCRIPTOR
+    bbox_pct: [52, 93.26, 26, 2.2]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 1.85
+  - id: FOOTER_CTA
+    bbox_pct: [80.22, 93.26, 12, 2.2]
+    color_role: text_on_light
+    type: label
+    font_size_cqw: 1.85

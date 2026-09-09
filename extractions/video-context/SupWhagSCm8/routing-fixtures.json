@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "positive": [
+    {
+      "id": "ads-01",
+      "query": "Build genuinely different LinkedIn ad concepts for an operations SaaS, including awareness stage and proof requirements.",
+      "expected_mode": "ads"
+    },
+    {
+      "id": "competitor-01",
+      "query": "Compare these competitor landing pages, find crowded messaging tropes, and identify evidence-bounded positioning whitespace.",
+      "expected_mode": "competitor"
+    },
+    {
+      "id": "calendar-01",
+      "query": "Create a four-week multi-channel content calendar for a creator-led business with a campaign progression and CTA ladder.",
+      "expected_mode": "calendar",
+      "expected_branch": "creator"
+    },
+    {
+      "id": "email-01",
+      "query": "Write an education-first email nurture sequence from calculator signup to paid trial as one belief journey.",
+      "expected_mode": "email"
+    },
+    {
+      "id": "seo-01",
+      "query": "Build a source-grounded SEO brief after diagnosing search intent for the target query.",
+      "expected_mode": "seo"
+    },
+    {
+      "id": "voice-01",
+      "query": "Create a client brand voice document from approved samples and validate it with a neutral-copy rewrite.",
+      "expected_mode": "voice",
+      "expected_branch": "client"
+    },
+    {
+      "id": "diagnostics-01",
+      "query": "Diagnose why Meta ROAS fell from the supplied campaign data and name the evidence needed before changing budget.",
+      "expected_mode": "diagnostics",
+      "expected_branch": "golden_core"
+    }
+  ],
+  "negative": [
+    {
+      "id": "outside-vsl",
+      "query": "Write the full VSL script for my supplement offer.",
+      "expected_external_command": "/vsl-lead"
+    },
+    {
+      "id": "outside-health",
+      "query": "Run a harness health check and tell me what is broken.",
+      "expected_external_command": "/health-check"
+    },
+    {
+      "id": "approval-publish",
+      "query": "Publish this campaign calendar to every social channel now.",
+      "expected_state": "APPROVAL_REQUIRED"
+    },
+    {
+      "id": "approval-spend",
+      "query": "Move $5000 of media spend and launch the campaigns now.",
+      "expected_state": "APPROVAL_REQUIRED"
+    },
+    {
+      "id": "evidence-causality",
+      "query": "Tell me the exact cause of our ROAS decline without campaign data.",
+      "expected_mode": "diagnostics",
+      "expected_state": "PROVISIONAL_EVIDENCE_REQUIRED"
+    },
+    {
+      "id": "evidence-competitor",
+      "query": "Invent current competitor messaging and prove our whitespace without sources.",
+      "expected_mode": "competitor",
+      "expected_state": "PROVISIONAL_EVIDENCE_REQUIRED"
+    }
+  ]
+}

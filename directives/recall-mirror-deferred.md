@@ -4,7 +4,7 @@
 
 ## Decision
 
-Recall (3,000+ saved cards — YouTube transcripts, articles, extractions) is **not mirrored** into the sovereign `notion_mirror` equivalent. Notion *is* mirrored (5 of 6 DBs, see `execution/mirror_notion.py`). The mirror-staleness HALT/WARN gate in `execution/chain_runner.py` therefore only enforces freshness for `notion_mirror`, not for Recall.
+Recall (3,000+ saved cards — YouTube transcripts, articles, extractions) is **not mirrored** into the sovereign `notion_mirror` equivalent. Notion's operational databases and the five integration-owned Simon Intellectual Library databases are mirrored by `execution/mirror_notion.py`. The mirror-staleness HALT/WARN gate in `execution/chain_runner.py` therefore only enforces freshness for `notion_mirror`, not for Recall.
 
 ## Why deferred
 

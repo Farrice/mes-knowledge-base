@@ -2,7 +2,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": "Bash|exec_command|Write|Edit|NotebookEdit|apply_patch",
         "hooks": [
           {
             "type": "command",
@@ -24,12 +24,22 @@
     ],
     "PostToolUse": [
       {
-        "matcher": "Read|Skill|Write|Edit|NotebookEdit|Task|Agent|Bash",
+        "matcher": "Read|Skill|Write|Edit|NotebookEdit|Task|Agent|Bash|exec_command|apply_patch|spawn_agent|write_stdin",
         "hooks": [
           {
             "type": "command",
             "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger posttool",
             "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" artifact-placement",
+            "timeout": 5
           }
         ]
       }

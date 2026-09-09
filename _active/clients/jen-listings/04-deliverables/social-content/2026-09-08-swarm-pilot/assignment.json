@@ -1,0 +1,140 @@
+{
+  "id": "jen-broll-1",
+  "client": "jen",
+  "objective": "Create the first new Jen B-roll post on the distinct real buyer situation in source-inspection.md. Better content and less human effort are unproven until human comparison.",
+  "output": "Complete on-screen text, full conversational caption, ordinary footage direction and cover treatment; source-to-adaptation note separately. Return the finished writing, not a planning template.",
+  "preserve": "Exact approved Jen register and original accepted assets; extraction and V2 methods unchanged; no invented personal/client anecdotes.",
+  "constraints": [
+    "No spoken script, paid calls, extra filming, external writes or publishing.",
+    "Do not claim to have rendered, selected available footage or received approval without evidence.",
+    "Keep copy original and grounded; no topic swap, source imitation, or rejected premise revival.",
+    "Use provided full selected methods. Their workshop output formats are internal working aids; the assignment governs the reader-facing artifact.",
+    "Two revision rounds maximum. No model quality score is a human preference or approval.",
+    "Source/reference input is frozen: do not add new external research during the paired production run. Both routes have identical provided evidence.",
+    "Use anti-slop pre-draft grounding and post-draft judgment. Named anchor is Jen and the concrete sourced buyer situation; do not force an artificial brand name or number into the caption."
+  ],
+  "context": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/source-inspection.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Live complete reference, actual buyer problem, specific assignment and limits"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/references/writing-source-packet.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Full original external caption and Jen writing provenance; historic B-only status superseded by approved specimen"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-asking-again.md",
+      "kind": "approved_example",
+      "client": "jen",
+      "relevance": "Full explicitly approved Jen conversational register"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-approved-execution-brief.md",
+      "kind": "correction",
+      "client": "jen",
+      "relevance": "Current client intent and scope; no invented source-to-Jen fit"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/SKILL.md",
+      "kind": "skill",
+      "client": "shared",
+      "relevance": "Canonical strategy owner and workflow map",
+      "start_line": 1,
+      "end_line": 47
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Decompose the execution rather than copying a topic",
+      "start_line": 41,
+      "end_line": 72
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Qualify attention claims honestly",
+      "start_line": 119,
+      "end_line": 137
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Same-format transfer",
+      "start_line": 188,
+      "end_line": 200
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Avoid creator-copying anti-patterns",
+      "start_line": 850,
+      "end_line": 862
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/workflows/viral-pattern-extraction.md",
+      "kind": "workflow",
+      "client": "shared",
+      "relevance": "Full source analysis workflow, source grades are editorial hypotheses"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_02_reverse_engineer.md",
+      "kind": "execution_prompt",
+      "client": "shared",
+      "relevance": "Full approved V2 method with creative latitude"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-word-mastery/SKILL.md",
+      "kind": "skill",
+      "client": "shared",
+      "relevance": "Writing mechanics owner and workflow choice",
+      "start_line": 1,
+      "end_line": 47
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-word-mastery/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Likeable expertise without inventing personal admissions",
+      "start_line": 124,
+      "end_line": 181
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-word-mastery/workflows/believability-audit.md",
+      "kind": "workflow",
+      "client": "shared",
+      "relevance": "Check for inauthentic voice while preserving concrete detail"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/skills/kallaway-word-mastery/references/prompts-v2/believability-audit.md",
+      "kind": "execution_prompt",
+      "client": "shared",
+      "relevance": "Full selected writing execution contract"
+    },
+    {
+      "path": "/Users/farricecain/.codex/skills/anti-slop/SKILL.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Pre/post writing checks; no blanket template imposed on Jen"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-swarm-jen-proof/directives/ai-slop-ban-bank.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Judgment-only language scan; client voice remains the creative standard"
+    }
+  ],
+  "excluded_examples": [
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-open-house-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-rent-this-one-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-two-pair-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-broll-source-adaptations.md"
+  ]
+}

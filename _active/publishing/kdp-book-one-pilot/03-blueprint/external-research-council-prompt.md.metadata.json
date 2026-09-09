@@ -1,0 +1,13 @@
+{
+  "artifact_type": "research_mission_prompt",
+  "title": "Independent KDP Opportunity Research Mission",
+  "project": "kdp-book-one-pilot",
+  "status": "ready",
+  "created_at": "2026-08-26",
+  "source_artifacts": [
+    "02-research/coauthor-analytics-rerun-2026-08-24.md",
+    "03-blueprint/80-20-product-layout-and-launch-plan.md"
+  ],
+  "publication_state": "NO_PERMISSION",
+  "commercial_event": "NO_EVENT"
+}

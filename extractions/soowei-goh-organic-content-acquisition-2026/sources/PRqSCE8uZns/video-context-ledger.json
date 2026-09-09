@@ -1,0 +1,11 @@
+[
+  {"timestamp":"02:32-04:03","type":"observed_spoken_visual","text":"Top-of-funnel packaging uses the overlap between the ideal client and a wider dream follower.","evidence":"transcript + frames/02m22s-audience-overlap-sketch.jpg"},
+  {"timestamp":"07:12-07:45","type":"observed_spoken_visual","text":"An I made it asset documents an achieved desired outcome recognizable to both audiences.","evidence":"transcript + frames/07m12s-i-made-it-sop.jpg"},
+  {"timestamp":"09:01-09:14","type":"observed_spoken_visual","text":"Title, visual, and verbal hooks are designed as one opening.","evidence":"transcript + frames/09m01s-triple-hook-sop.jpg"},
+  {"timestamp":"12:49-13:42","type":"observed_spoken","text":"A proven format is differentiated using evidence about why clients chose the creator.","evidence":"transcript"},
+  {"timestamp":"17:23-18:06","type":"observed_spoken_visual","text":"Repeated why questions uncover deeper favorite-client resonance.","evidence":"transcript + frames/17m23s-root-cause-questioning.jpg"},
+  {"timestamp":"26:20-26:51","type":"observed_spoken","text":"Middle-funnel ideas are checked for belief change, broad-enough hook, and clear message.","evidence":"transcript"},
+  {"timestamp":"32:12-32:48","type":"observed_spoken_visual","text":"The demonstrated script progressively removes the wider audience while retaining the ideal client.","evidence":"transcript + frames/32m12s-script-narrowing-sketch.jpg"},
+  {"timestamp":"33:48-34:28","type":"observed_spoken","text":"Familiar media packaging is used to carry niche education.","evidence":"transcript"}
+]
+

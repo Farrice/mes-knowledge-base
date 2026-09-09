@@ -61,6 +61,26 @@
 
 ---
 
+## CS-03 — “The second price” (2026-08-26 anatomy audit) — **9.1 CRAFT / PERMISSION GATE OPEN**
+
+**What it is:** A flagship LinkedIn teardown of Ritual's subscription price versus its Costco price (`_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md`). It turns a shopper's arithmetic into a message-strategy problem: once retail publishes a second price, the subscription needs a reason to exist beyond price.
+
+**Scores (Watkins rubric):** **9.1 composite** · Attention 9.5 · 3 C's 9 · Teach 9 · Leave-wanting 9 · Subtraction 9 · Recognition 9 · North Star: clean four-for-four · Flow Gate: PASS.
+
+**What's firing (with proof):**
+- **A complete story in one opening line** — `A woman in a Costco aisle is doing arithmetic on her phone.` Character, action, location, and an unanswered question arrive together.
+- **The hidden business mechanism** — `Landing a retail account does not add a channel. It publishes a second price for the same product.` Distribution becomes a message decision, not a logistics update.
+- **The question migrates into the reader's building** — `Someone in the building has to decide what the subscription is for now.` The post answers its own case while opening a live decision the operator still has to make.
+- **Runnable residue** — `Open your subscription page next to your retail price and write the sentence that survives both.` The close creates Monday-morning behavior instead of asking for engagement.
+
+**Transferable moves:** shopper arithmetic as strategy scene; concede the legitimate channel economics before naming the message cost; turn a two-price comparison into a one-sentence survival test; make the buyer's next thought (`We have not written that sentence`) the real conversion event.
+
+**Evidence boundary:** the source file records both prices as verified against Ritual's live pages on 2026-08-16, but prices can drift. Refresh before publication. The file also binds the named-brand Pillar-1 teardown protocol: **send to Ritual before publishing.** A 9.1 craft score does not waive permission or freshness.
+
+**Elevation doors left open:** a scalpel pass could reduce the explanatory concession by one sentence; a blank-page take could stay entirely inside the loyal subscriber's point of view. Neither should replace this version without Farrice's felt verdict and the named-brand decision.
+
+---
+
 ## How to add an entry
 
 When any piece scores felt 9-10/10 (or gate 9+ with Farrice's nod): run `/bw-anatomy-audit` on it, compress the audit into this entry format, append here, and cross-link from the project. Then — and this is the point — *leave the elevation doors listed*, so the next session can pick up a scalpel or a blank page with equal legitimacy.

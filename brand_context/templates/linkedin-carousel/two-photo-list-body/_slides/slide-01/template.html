@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../_shared/styles.css">
+  <style>
+    /* two-photo-list-body — editorial style. See rationale.md for the per-block reads.
+       No [ai-image-zone] block: PHOTO_MAIN_PATH / PHOTO_SECOND_PATH are real-upload slots
+       (photo_zones[].source: user-uploaded-asset) — brand policy forbids AI/stock imagery
+       in evidence photo zones (REVIEW-NOTES.md 2026-09-03; moves.md #8; tokens.json prohibited). */
+    .item h4 {
+      font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 700;
+      font-size: 2.41cqw;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6%;
+      color: var(--brand-text-on-light);
+    }
+    .item p {
+      font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+      font-weight: 400;
+      font-size: 1.94cqw;
+      line-height: 1.3;
+      color: var(--brand-text-on-light);
+    }
+    .photo-frame {
+      overflow: hidden;
+    }
+    /* img fit is authored INLINE on each <img> (not as a class rule here) — each
+       .photo-frame is itself a small bounded rectangle (~40% canvas width), so the
+       fill-its-own-parent pattern is correct at any frame size; kept inline so it never
+       reads as a full-canvas image rule. */
+  </style>
+</head>
+<body>
+  <div class="slide" data-surface="light">
+    <!-- BACKGROUND — pure CSS solid fill, no AI generation (rationale.md: form a-framed-image, edit_mode none) -->
+    <div class="bg" style="position:absolute; inset:0; background: var(--brand-bg-light);"></div>
+
+    <!-- HEADER — 2-slot flex row: series title (left), date + arrow (right) -->
+    <div class="masthead" data-slot="HEADER"
+         style="left:7.78%; top:5.33%; width:84.44%; height:2.8%;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:2.41cqw; color: var(--brand-text-on-light);">
+      <span class="masthead-slot left" data-slot="TITLE"
+            style="font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2.41cqw; font-weight:700; letter-spacing:-0.01em;
+                   color: var(--brand-text-on-light);">{{TITLE}}</span>
+      <span class="masthead-slot right"
+            style="display:flex; align-items:baseline; gap:2cqw;
+                   font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                   font-size:2.04cqw; font-weight:400; color: var(--brand-text-on-light);">
+        <span data-slot="DATE">{{DATE}}</span>
+        <span aria-hidden="true" style="font-size:2.78cqw; line-height:1;">→</span>
+      </span>
+    </div>
+
+    <!-- HEADLINE — giant lowercase 2-line display word, the editorial style's signature move -->
+    <div class="zone display" data-slot="HEADLINE"
+         style="position:absolute; left:7.78%; top:12.59%; width:43%; max-height:20%; overflow:hidden;
+                font-size:10.37cqw; font-weight:700; line-height:0.92; letter-spacing:-0.05em;
+                color: var(--brand-text-on-light); text-align:left;">{{{HEADLINE}}}</div>
+
+    <!-- BODY — intro paragraph -->
+    <div class="zone body" data-slot="BODY"
+         style="position:absolute; left:7.78%; top:32.59%; width:40.74%; max-height:15%; overflow:hidden;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:2.22cqw; font-weight:400; line-height:1.34;
+                color: var(--brand-text-on-light); text-align:left;">{{{BODY}}}</div>
+
+    <!-- LIST ITEM 1 -->
+    <div class="item" style="position:absolute; left:7.78%; top:48.89%; width:40.74%;">
+      <h4 data-slot="ITEM_1_LABEL">{{ITEM_1_LABEL}}</h4>
+      <p data-slot="ITEM_1_BODY">{{{ITEM_1_BODY}}}</p>
+    </div>
+
+    <!-- LIST ITEM 2 -->
+    <div class="item" style="position:absolute; left:7.78%; top:60.74%; width:40.74%;">
+      <h4 data-slot="ITEM_2_LABEL">{{ITEM_2_LABEL}}</h4>
+      <p data-slot="ITEM_2_BODY">{{{ITEM_2_BODY}}}</p>
+    </div>
+
+    <!-- LIST ITEM 3 -->
+    <div class="item" style="position:absolute; left:7.78%; top:72.59%; width:40.74%;">
+      <h4 data-slot="ITEM_3_LABEL">{{ITEM_3_LABEL}}</h4>
+      <p data-slot="ITEM_3_BODY">{{{ITEM_3_BODY}}}</p>
+    </div>
+
+    <!-- PHOTO 1 — real evidence crop, user-uploaded-asset (no [ai-image-zone] block; see rationale.md §③/§④) -->
+    <div class="photo-frame" data-slot="PHOTO_MAIN" data-zone="photo"
+         style="position:absolute; left:51.85%; top:11.11%; width:40.37%; height:37.04%;">
+      <img src="{{PHOTO_MAIN_PATH}}" alt="" style="width:100%; height:100%; object-fit:cover; display:block;">
+    </div>
+
+    <!-- PHOTO 2 — real evidence crop, user-uploaded-asset -->
+    <div class="photo-frame" data-slot="PHOTO_SECOND" data-zone="photo"
+         style="position:absolute; left:51.85%; top:49.63%; width:40.37%; height:39.26%;">
+      <img src="{{PHOTO_SECOND_PATH}}" alt="" style="width:100%; height:100%; object-fit:cover; display:block;">
+    </div>
+
+    <!-- FOOTER — 4-slot flex row: author identity, URL, descriptor, CTA -->
+    <div class="masthead" data-slot="FOOTER"
+         style="left:7.78%; top:93.26%; width:84.44%; height:2.2%;
+                font-family: var(--font-display, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+                font-size:1.85cqw; font-weight:400; color: var(--brand-text-on-light);">
+      <span data-slot="FOOTER_NAME">{{FOOTER_NAME}}</span>
+      <span data-slot="FOOTER_URL">{{FOOTER_URL}}</span>
+      <span data-slot="FOOTER_DESCRIPTOR">{{FOOTER_DESCRIPTOR}}</span>
+      <span data-slot="FOOTER_CTA">{{FOOTER_CTA}}</span>
+    </div>
+  </div>
+</body>
+</html>

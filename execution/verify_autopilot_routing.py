@@ -3,11 +3,14 @@
 
 from __future__ import annotations
 
+import json
 import os
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
+
+from command_aliases import resolve_explicit_command_alias
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -24,7 +27,7 @@ FRONT_DOOR_CHOICE_QUERIES = [
 ]
 LAUNCHPAD_SOURCE_SYSTEM_QUERY = "turn this video source into a co-creative launchpad OS for the harness"
 MENU_BACKEND_QUERY = "show me the menu of options"
-RESEARCH_STACK_QUERY = "research swarm parallel research latest market intelligence deep research gemini"
+RESEARCH_STACK_QUERY = "Research the current market for AI lead generation tools with live sources"
 
 CRITICAL_ROUTES = ["autopilot", "source-to-skill-system", "orchestrate", "routing-intelligence", "self-evolve", "skill-anneal"]
 REPEATABILITY_ROUTES = ["repeatability-spine", "autopilot", "system-audit", "publishable-copy-gate", "self-evolve", "skill-anneal"]
@@ -33,7 +36,14 @@ REVENUE_ROUTES = ["first-10k", "revenue-offer-agent", "client-acquire", "zero-to
 SKILL_SYSTEM_ROUTES = ["source-to-skill-system", "extraction-governor-agent", "mission", "autopilot", "self-evolve", "skill-anneal"]
 FRONT_DOOR_CHOICE_ROUTES = ["autopilot", "orchestrate", "routing-intelligence", "knowledge-librarian", "mission"]
 MENU_BACKEND_ROUTES = ["orchestrate", "autopilot"]
-RESEARCH_STACK_ROUTES = ["research-swarm", "parallel-research", "deep-research-gemini", "deep-research"]
+RESEARCH_STACK_ROUTES = [
+    "deep-research-os",
+    "research-intelligence-agent",
+    "deep-research",
+    "ground-truth",
+    "adversarial-review",
+]
+RETIRED_RESEARCH_ROUTES = {"research-swarm", "parallel-research", "deep-research-gemini"}
 
 
 def run(args: list[str], env: dict[str, str] | None = None) -> str:
@@ -112,6 +122,65 @@ def check_research_stack_routing() -> None:
     router = parse_workflow_router(run([sys.executable, "execution/workflow_router.py", "search", RESEARCH_STACK_QUERY]))
     assert_contains(menu, RESEARCH_STACK_ROUTES, "command_menu research stack")
     assert_contains(router, RESEARCH_STACK_ROUTES, "workflow_router research stack")
+    leaked = RETIRED_RESEARCH_ROUTES & (set(menu) | set(router))
+    if leaked:
+        raise AssertionError(f"retired paid/delegated research routes leaked into Free-First stack: {sorted(leaked)}")
+
+
+def check_literal_command_alias() -> None:
+    alias_query = "/ai-topic-mining"
+    expected = "ai-topic-mining-engine"
+    check_route_pair(alias_query, {expected}, [expected], "literal command alias")
+    check_route_pair(
+        "/ai-topic-mining system audit benchmarks",
+        {expected},
+        [expected, "system-audit"],
+        "explicit alias beats trailing semantic terms",
+    )
+    check_route_pair(
+        "audit routing behavior for the /ai-topic-mining alias",
+        {"system-audit"},
+        ["system-audit"],
+        "incidental alias mention preserves control routing",
+    )
+
+    if resolve_explicit_command_alias("run /ai-topic-mining health performance") != (
+        "ai-topic-mining",
+        expected,
+    ):
+        raise AssertionError("verb-led /ai-topic-mining alias did not resolve")
+    for negative in (
+        "make literal /ai-topic-mining intent resolve reliably",
+        "compare /ai-topic-mining with /ai-hook-extractor",
+        "/ai-topic-mining-engine",
+    ):
+        if resolve_explicit_command_alias(negative) is not None:
+            raise AssertionError(f"incidental or canonical command was treated as an alias: {negative!r}")
+
+    preflight = json.loads(
+        run([sys.executable, "execution/codex_operator_preflight.py", alias_query, "--json"])
+    )
+    if preflight["chosen_path"]["owner"] != expected:
+        raise AssertionError("preflight did not lock the explicit alias to the canonical route")
+    if preflight["execution_decision"]["status"] != "Run Locally":
+        raise AssertionError("explicit alias still pauses as low-clarity prose")
+    if preflight["co_creative_launchpad"]["pause_or_run"]["requires_pause"]:
+        raise AssertionError("launchpad still pauses an explicit command selection")
+    if preflight["route_candidates"][0]["source"] != "explicit-command-alias":
+        raise AssertionError("preflight lost explicit alias provenance")
+    if preflight["local_next_action"]["mode"] != "execute_explicit_command":
+        raise AssertionError("preflight did not hand the alias to its canonical workflow")
+
+    hook = subprocess.run(
+        [sys.executable, "execution/skill_router_hook.py"],
+        cwd=ROOT,
+        input=json.dumps({"prompt": alias_query, "session_id": "literal-alias-test"}),
+        text=True,
+        capture_output=True,
+        check=True,
+    )
+    if f"EXPLICIT COMMAND ALIAS: {alias_query} resolves to /{expected}" not in hook.stdout:
+        raise AssertionError("prompt hook did not inject the canonical alias target")
 
 
 def check_routing_governor() -> None:
@@ -162,6 +231,7 @@ def check_autopilot_contract() -> None:
         "Running now",
         "Needs judgment",
         "Blocked by risk",
+        "Blocked by configuration",
         "Plan only",
         "Run Prompt",
         "Run Receipt",
@@ -188,6 +258,8 @@ def check_runtime_preflight() -> None:
         "plan-mode-pauses: route=/autopilot, lane=general, status=Plan only",
         "publish-risk-blocks: route=/autopilot, lane=general, status=Blocked by risk",
         "plugin-packaging: route=/plugin-readiness-audit, lane=plugin-packaging, status=Running now",
+        "current-market-research-free-first: route=/deep-research-os, lane=deep-research-os, status=Running now",
+        "negative-control: nonexistent route and verifier cannot inherit Running now",
     ]
     missing = [item for item in required if item not in output]
     if missing:
@@ -216,6 +288,7 @@ def main() -> int:
     checks = [
         ("routing order", check_routing),
         ("research stack routing", check_research_stack_routing),
+        ("literal command alias", check_literal_command_alias),
         ("routing governor evaluation", check_routing_governor),
         ("misroute feedback capture", check_misroute_feedback),
         ("Autopilot intent-to-outcome contract", check_autopilot_contract),

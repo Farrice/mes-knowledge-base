@@ -1,6 +1,12 @@
 ---
 description: Mission Control — the live board of every working thread, needs-you first, with resume/close buttons
+status: superseded
+superseded_by: homebase
 ---
+> **RETIRED AS A SURFACE (2026-08-20, two-surfaces collapse).** The Homebase at
+> http://127.0.0.1:8765/ absorbed this board's cards and actions; /missions now
+> redirects there. The generator survives as a library/CLI. Spec: .agent/workflows/homebase.md
+
 
 # /mission-control
 

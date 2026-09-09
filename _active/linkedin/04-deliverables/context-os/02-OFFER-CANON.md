@@ -1,6 +1,9 @@
 ---
-status: canonical
+status: parked_as_primary
+superseded_primary_by: deliverables/zero-momentum-ai-offer/offer-canon.md
 ---
+
+> **PARKED AS PRIMARY — 2026-08-13.** The active commercialization test is the Lead-to-Proposal Proof Sprint. Preserve this Angle Map canon as supporting IP for the parked Supplement Evidence-to-Message adapter; do not blend its prices or promises into the active services offer.
 
 # Offer Canon — verbatim promises, prices, boundaries
 

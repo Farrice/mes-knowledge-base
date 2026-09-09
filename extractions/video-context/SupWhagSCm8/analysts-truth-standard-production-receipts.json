@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "status": "PROMOTED_ACTIVE_ADVISORY",
+  "required": 3,
+  "current": 3,
+  "constraints": {
+    "distinct_task_types": true,
+    "creative_use_required": true,
+    "analytical_use_required": true,
+    "blind_comparison_required": true,
+    "factual_or_causal_regression_allowed": false,
+    "added_question_burden_allowed": false,
+    "creative_range_must_be_preserved": true,
+    "explicit_farrice_approval_required": true
+  },
+  "promotion_approval": {
+    "date": "2026-09-01",
+    "source": "current Codex task",
+    "user_direction": "I trust your judgment on how to integrate and merge it into main so that I can start utilizing and seeing its use."
+  },
+  "receipt_schema": {
+    "id": "string",
+    "date": "YYYY-MM-DD",
+    "task_type": "string",
+    "real_job": "string",
+    "source_packet": "path or approved inputs",
+    "native_owner": "string",
+    "finished_artifact": "path or artifact id",
+    "observed_decision_change": "string",
+    "causal_restraint_result": "PASS|FAIL|PARTIAL",
+    "explanation_burden_result": "LOW|HIGH",
+    "creative_range_result": "PRESERVED|CONSTRAINED|NOT_APPLICABLE",
+    "blind_comparison_result": "TREATMENT|BASELINE|TIE",
+    "verdict": "KEEP_SHADOW|REVISE_SHADOW|RETIRE|PROMOTION_CANDIDATE",
+    "reviewer": "string"
+  },
+  "receipts": [
+    {
+      "id": "ATS-PR-001",
+      "date": "2026-09-01",
+      "task_type": "creative_ideation",
+      "real_job": "Choose a decision-grade LinkedIn concept from the August 13 substrate signal",
+      "source_packet": "deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.md",
+      "native_owner": "Briar Cochran Content Science — Idea Venn Gate",
+      "finished_artifact": "extractions/video-context/SupWhagSCm8/analysts-truth-standard-production-cycle-01/treatment-brief.md",
+      "observed_decision_change": "Changed a general substrate-checklist recommendation into a six-decision readiness-test concept, held publication pending a signal refresh, and added a falsifiable comprehension test.",
+      "causal_restraint_result": "PASS",
+      "explanation_burden_result": "LOW",
+      "creative_range_result": "PRESERVED",
+      "blind_comparison_result": "TREATMENT",
+      "verdict": "KEEP_SHADOW",
+      "reviewer": "Codex label-blinded declared-rubric review; no independent human preference panel"
+    },
+    {
+      "id": "ATS-PR-002",
+      "date": "2026-09-01",
+      "task_type": "analytical_diagnosis",
+      "real_job": "Decide which Intelligent Output Surface mappings have earned activation",
+      "source_packet": "deliverables/system-audits/2026-09-01-intelligent-output-surface-map.md",
+      "native_owner": "System Audit — Artifact Comprehension contract",
+      "finished_artifact": "extractions/video-context/SupWhagSCm8/analysts-truth-standard-production-cycle-02/treatment-brief.md",
+      "observed_decision_change": "Changed a broad all-surface SHADOW preference into bounded activation for clear cases, observation for mixed cases, a safe fallback, and explicit rollback conditions.",
+      "causal_restraint_result": "PASS",
+      "explanation_burden_result": "LOW",
+      "creative_range_result": "NOT_APPLICABLE",
+      "blind_comparison_result": "TREATMENT",
+      "verdict": "KEEP_SHADOW",
+      "reviewer": "Codex label-blinded declared-rubric review; no independent human preference panel"
+    },
+    {
+      "id": "ATS-PR-003",
+      "date": "2026-09-01",
+      "task_type": "strategic_decision",
+      "real_job": "Make the locked Lead-to-Proposal offer test interpretable without reopening approved variables",
+      "source_packet": "deliverables/zero-momentum-ai-offer/offer-tournament.md",
+      "native_owner": "Zero-Momentum AI Offer Launch Control with Alex Hormozi strategic focus",
+      "finished_artifact": "extractions/video-context/SupWhagSCm8/analysts-truth-standard-production-cycle-03/treatment-brief.md",
+      "observed_decision_change": "Preserved the selected offer while separating list, message, call, offer, and payment evidence and naming the precommitted reversal gate.",
+      "causal_restraint_result": "PASS",
+      "explanation_burden_result": "LOW",
+      "creative_range_result": "NOT_APPLICABLE",
+      "blind_comparison_result": "TREATMENT",
+      "verdict": "PROMOTION_CANDIDATE",
+      "reviewer": "Codex label-blinded declared-rubric review; no independent human preference panel"
+    }
+  ]
+}

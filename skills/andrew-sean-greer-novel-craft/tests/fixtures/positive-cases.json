@@ -1,0 +1,69 @@
+{
+  "proof_boundary": "Synthetic frozen fixtures test method behavior and host-constraint preservation only.",
+  "cases": [
+    {
+      "id": "FIC-01",
+      "domain": "fiction",
+      "task": "unordered novel fragments",
+      "route": ["echo-map", "crossword-assemble", "reader-invention"],
+      "input": [
+        "Mara finds a hotel key in her dead mother's sugar bowl; room 214 is stamped on it.",
+        "As a child Mara watched her mother fold hotel towels into swans after every family trip.",
+        "In room 214 Mara meets no lover or criminal; she finds a closet filled with repaired hotel linens and a ledger of anonymous mending.",
+        "At the funeral Mara cannot remember a single story her mother told about herself.",
+        "Mara has spent her adult life throwing damaged clothes away."
+      ],
+      "locks": ["No secret affair", "No crime", "Room 214 contains repaired linens and a mending ledger", "Do not explain the mother's motive conclusively"],
+      "success": ["linen/repair echo transforms", "missing scene is constrained by fragments", "motive remains fairly inferable"]
+    },
+    {
+      "id": "FIC-02",
+      "domain": "fiction",
+      "task": "relationship story with unearned surreal ending",
+      "route": ["editor-patient", "more-mermaid", "lacquer-revision"],
+      "input": "Eli and Noor are dividing their apartment after a separation. The draft is realistic until the last paragraph, when a rain cloud enters the kitchen and follows Eli home.",
+      "locks": ["Keep the rain cloud", "No reconciliation", "No supernatural explanation", "The cloud must become emotionally earned"],
+      "success": ["all five oddity treatments compared", "prepare chosen", "earlier humidity/weather traces make ending inevitable without explanation"]
+    },
+    {
+      "id": "DOM-01",
+      "domain": "health education",
+      "task": "bounded explainer",
+      "route": ["human-evidence", "reader-invention"],
+      "frozen_facts": ["Fixture claim H1: the habit is optional, not treatment", "Fixture claim H2: stop if symptoms occur", "Fixture claim H3: consult a qualified clinician for individual advice"],
+      "locks": ["No dosage", "No disease claim", "All H labels preserved"]
+    },
+    {
+      "id": "DOM-02",
+      "domain": "strategy memo",
+      "task": "make consequence felt without changing evidence",
+      "route": ["echo-map", "human-evidence"],
+      "frozen_facts": ["Support tickets rose from 140 to 224 per week", "60% of the increase appeared after the onboarding change", "The data does not prove causation", "Recommendation: run a two-week rollback test"],
+      "locks": ["Keep numbers", "Keep non-causal caveat", "Keep recommendation"]
+    },
+    {
+      "id": "DOM-03",
+      "domain": "founder story",
+      "task": "verified origin vignette",
+      "route": ["human-evidence", "narrator-distance"],
+      "frozen_facts": ["Founder missed three vendor invoices in one month", "Spreadsheet row was named Friday rescue", "First prototype only highlighted invoices due within seven days", "No customer or revenue event exists"],
+      "locks": ["No invented dialogue", "No traction", "No heroic childhood backstory"]
+    },
+    {
+      "id": "DOM-04",
+      "domain": "60-second script",
+      "task": "spoken explainer",
+      "route": ["form-permission", "surprise-movement"],
+      "frozen_facts": ["A meeting-note tool turns a transcript into a draft follow-up", "A human reviews before send", "CTA is Try the demo"],
+      "locks": ["115-145 words", "Say human review", "CTA exactly once", "No performance metrics"]
+    },
+    {
+      "id": "DOM-05",
+      "domain": "sales page",
+      "task": "proof-poor offer with honest story treatment",
+      "route": ["human-evidence", "surprise-movement"],
+      "frozen_facts": ["Product organizes interview notes into themes", "User must review every theme", "No buyer, revenue, or outcome event exists"],
+      "locks": ["Heading UNTESTED / NO EVENT", "No testimonial", "No outcome guarantee", "CTA Join the pilot"]
+    }
+  ]
+}

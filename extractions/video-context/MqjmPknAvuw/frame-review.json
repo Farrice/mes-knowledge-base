@@ -1,0 +1,289 @@
+{
+  "reviewer": "Codex main thread",
+  "mode": "visual inspection",
+  "uniform_frames": [
+    {
+      "seconds": 0.0,
+      "path": "frames/00000.000.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Opening presenter"
+    },
+    {
+      "seconds": 48.24,
+      "path": "frames/00048.240.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Platform positioning"
+    },
+    {
+      "seconds": 96.481,
+      "path": "frames/00096.481.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Example image posts"
+    },
+    {
+      "seconds": 144.721,
+      "path": "frames/00144.721.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Social-proof explanation"
+    },
+    {
+      "seconds": 192.961,
+      "path": "frames/00192.961.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "LinkedIn Post Studio overview"
+    },
+    {
+      "seconds": 241.202,
+      "path": "frames/00241.202.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Image format discovery"
+    },
+    {
+      "seconds": 289.442,
+      "path": "frames/00289.442.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Dan account and analytics on screen"
+    },
+    {
+      "seconds": 337.683,
+      "path": "frames/00337.683.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Creator search"
+    },
+    {
+      "seconds": 385.923,
+      "path": "frames/00385.923.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Free image tool screen"
+    },
+    {
+      "seconds": 434.163,
+      "path": "frames/00434.163.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Seed and platform variants"
+    },
+    {
+      "seconds": 482.404,
+      "path": "frames/00482.404.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Platform variant navigation"
+    },
+    {
+      "seconds": 530.644,
+      "path": "frames/00530.644.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Three caption angles"
+    },
+    {
+      "seconds": 578.884,
+      "path": "frames/00578.884.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Generated caption"
+    },
+    {
+      "seconds": 627.125,
+      "path": "frames/00627.125.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Generated caption and human editing discussion"
+    },
+    {
+      "seconds": 675.365,
+      "path": "frames/00675.365.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Discover reference posts"
+    },
+    {
+      "seconds": 723.605,
+      "path": "frames/00723.605.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reference examples"
+    },
+    {
+      "seconds": 771.846,
+      "path": "frames/00771.846.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Save-to-board dialog"
+    },
+    {
+      "seconds": 820.086,
+      "path": "frames/00820.086.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Saved-board navigation"
+    },
+    {
+      "seconds": 868.326,
+      "path": "frames/00868.326.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Four-post swipe file"
+    },
+    {
+      "seconds": 916.567,
+      "path": "frames/00916.567.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Analysis prompt in chat"
+    },
+    {
+      "seconds": 964.807,
+      "path": "frames/00964.807.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Analysis prompt held"
+    },
+    {
+      "seconds": 1013.048,
+      "path": "frames/01013.048.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Analysis prompt held"
+    },
+    {
+      "seconds": 1061.288,
+      "path": "frames/01061.288.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Skill-creator menu during analysis"
+    },
+    {
+      "seconds": 1109.528,
+      "path": "frames/01109.528.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Generated breakdown document"
+    },
+    {
+      "seconds": 1157.769,
+      "path": "frames/01157.769.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Fresh chat and breakdown reference"
+    },
+    {
+      "seconds": 1206.009,
+      "path": "frames/01206.009.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Interview response and skill menu"
+    },
+    {
+      "seconds": 1254.249,
+      "path": "frames/01254.249.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Domain story audience goal questions"
+    },
+    {
+      "seconds": 1302.49,
+      "path": "frames/01302.490.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Personal brand strategist references"
+    },
+    {
+      "seconds": 1350.73,
+      "path": "frames/01350.730.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reused context discussion"
+    },
+    {
+      "seconds": 1398.97,
+      "path": "frames/01398.970.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reading library"
+    },
+    {
+      "seconds": 1447.211,
+      "path": "frames/01447.211.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reader mode and article"
+    },
+    {
+      "seconds": 1495.451,
+      "path": "frames/01495.451.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Growth transition"
+    },
+    {
+      "seconds": 1543.691,
+      "path": "frames/01543.691.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Bootcamp discussion"
+    },
+    {
+      "seconds": 1591.932,
+      "path": "frames/01591.932.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reply strategy"
+    },
+    {
+      "seconds": 1640.172,
+      "path": "frames/01640.172.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Reply quality"
+    },
+    {
+      "seconds": 1688.413,
+      "path": "frames/01688.413.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Personal context in replies"
+    },
+    {
+      "seconds": 1736.653,
+      "path": "frames/01736.653.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Attributed commentary"
+    },
+    {
+      "seconds": 1784.893,
+      "path": "frames/01784.893.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Creator-sharing possibility"
+    },
+    {
+      "seconds": 1833.134,
+      "path": "frames/01833.134.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Idea quality"
+    },
+    {
+      "seconds": 1881.374,
+      "path": "frames/01881.374.jpg",
+      "reason": "uniform",
+      "reviewed": true,
+      "observation": "Closing presenter"
+    }
+  ],
+  "scene_frames_reviewed": 14,
+  "reviewed_count": 54,
+  "limits": "Sampled frames, not continuous frame-by-frame review"
+}

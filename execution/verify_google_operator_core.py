@@ -7,6 +7,7 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +15,18 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = Path.home() / ".codex" / "config.toml"
 HOOKS_PATH = ROOT / ".codex" / "hooks.json"
+
+STORAGE_RECOVERY_PROMPT = (
+    "Implement the preservation-first Mac recovery plan: verify exact duplicates, "
+    "migrate cold archives to streamed Google Drive until at least 150 GiB is free, "
+    "then run free-first offer research; no unapproved deletion or publishing"
+)
+
+SYSTEM_RELIABILITY_PROMPT = (
+    "Test and confirm the living-document and Google Docs lifecycle fix, keep a "
+    "temporary read-only watch on iCloud upload completion and disk space, and "
+    "recommend only essential follow-up without overbuilding."
+)
 
 HOT_ROUTES = [
     "mission",
@@ -33,6 +46,9 @@ PROBES = [
     ("Codex hooks are not firing", "system-audit"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Codex explains and plans instead of executing safe local next actions", "system-audit"),
+    (STORAGE_RECOVERY_PROMPT, "system-audit"),
+    (SYSTEM_RELIABILITY_PROMPT, "system-audit"),
+    ("Run free-first offer research", "deep-research-os"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Implement the Google Antigravity global access layer in Codex, reconcile routing and hot/cold policy first, then package the skill manifest as a personal plugin without context rot.", "system-audit"),
     ("Implement a global skill manifest and personal plugin for Google Antigravity.", "source-to-skill-system"),
@@ -71,9 +87,11 @@ PROBES = [
 HOOK_STATE_SUFFIXES = [
     "pre_tool_use:0:0",
     "pre_tool_use:0:1",
+    "pre_tool_use:0:2",
     "post_tool_use:0:0",
     "user_prompt_submit:0:0",
     "user_prompt_submit:0:1",
+    "user_prompt_submit:0:2",
     "stop:0:0",
 ]
 
@@ -168,39 +186,74 @@ def check_hook_parity() -> list[str]:
                 if command:
                     commands.append(command)
 
-    # 8 = 6 original + 2 orphan hooks wired in Wave 1 (commit 3790f3014).
-    if len(commands) != 8:
-        fail(f"Expected 8 hook commands, found {len(commands)}")
+    if len(commands) != 9:
+        fail(f"Expected 9 hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("Every Codex hook command must call codex_hook_runner.py")
     if not any("dangerous-git" in command for command in commands):
         fail("Codex hook bridge is missing dangerous-git protection")
+    if not any("artifact-placement" in command for command in commands):
+        fail("Codex hook bridge is missing document-placement hygiene")
+    pretool_matchers = [str(group.get("matcher") or "")
+                        for group in data.get("hooks", {}).get("PreToolUse", [])]
+    if not any(all(name in matcher for name in ("Bash", "Write", "Edit", "apply_patch"))
+               for matcher in pretool_matchers):
+        fail("Main-write guard matcher does not cover Bash and native write tools")
+    dangerous_guard = (ROOT / ".codex" / "tools" / "codex_dangerous_git_guard.py").read_text()
+    if "main_write_verdict" not in dangerous_guard:
+        fail("Codex dangerous-git bridge is missing main-write ownership enforcement")
     if any("CLAUDE_PROJECT_DIR" in command for command in commands):
         fail(".codex/hooks.json still directly depends on CLAUDE_PROJECT_DIR")
-    receipts.append("hooks.json uses codex_hook_runner.py for all 8 hooks, including dangerous-git")
+    receipts.append(
+        "hooks.json keeps 9 trusted commands and extends dangerous-git with main-write ownership"
+    )
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
+    state_hook_paths = [HOOKS_PATH]
+    for command in commands:
+        match = re.search(r'"([^"]*codex_hook_runner\.py)"', command)
+        if not match:
+            continue
+        candidate = Path(match.group(1)).parent.parent / "hooks.json"
+        if candidate not in state_hook_paths:
+            state_hook_paths.append(candidate)
+
     missing_optional: list[str] = []
+    trusted_state_path: Path | None = None
     for suffix in HOOK_STATE_SUFFIXES:
-        key = f'{HOOKS_PATH}:{suffix}'
-        header = f'[hooks.state."{key}"]'
-        marker = config.find(header)
-        if marker == -1:
+        matches: list[tuple[Path, int]] = []
+        for hooks_path in state_hook_paths:
+            key = f'{hooks_path}:{suffix}'
+            header = f'[hooks.state."{key}"]'
+            marker = config.find(header)
+            if marker != -1:
+                matches.append((hooks_path, marker))
+        if not matches:
+            key = f'{HOOKS_PATH}:{suffix}'
             if suffix == "pre_tool_use:0:1":
                 missing_optional.append(key)
                 continue
             fail(f"Missing current-root hook state: {key}")
+        hooks_path, marker = matches[0]
+        key = f'{hooks_path}:{suffix}'
         next_header = config.find("\n[", marker + 1)
         block = config[marker:] if next_header == -1 else config[marker:next_header]
-        if "enabled = true" not in block.lower():
+        block_lower = block.lower()
+        if "trusted_hash" not in block_lower:
+            fail(f"Current-root hook state is not trusted: {key}")
+        if "enabled = false" in block_lower:
+            key = f'{hooks_path}:{suffix}'
             if suffix == "pre_tool_use:0:1":
                 missing_optional.append(key)
                 continue
-            fail(f"Current-root hook state is not enabled: {key}")
+            fail(f"Current-root hook state is explicitly disabled: {key}")
+        trusted_state_path = hooks_path
     if missing_optional:
         receipts.append("dangerous-git hook trust is pending desktop consent in ~/.codex/config.toml")
     else:
-        receipts.append("current-root hook states enabled in ~/.codex/config.toml")
+        receipts.append(
+            f"Codex hook states trusted and not disabled via {trusted_state_path or HOOKS_PATH}"
+        )
 
     skill_payload = json.dumps(
         {
@@ -275,6 +328,61 @@ def check_hook_parity() -> list[str]:
     return receipts
 
 
+def check_integration_only_main() -> list[str]:
+    """A fresh main checkout must route writers to a lane even with no sibling."""
+    receipts: list[str] = []
+    hook = ROOT / "execution" / "hooks" / "concurrent_session_alarm.py"
+    with tempfile.TemporaryDirectory(prefix="antigravity-integration-main-") as tmp:
+        temp_root = Path(tmp)
+        init = subprocess.run(
+            ["git", "init", "-q", str(temp_root)], text=True, capture_output=True
+        )
+        if init.returncode != 0:
+            fail(f"temporary git init failed: {init.stderr.strip()}")
+        subprocess.run(["git", "-C", str(temp_root), "config", "user.email", "guard@example.test"])
+        subprocess.run(["git", "-C", str(temp_root), "config", "user.name", "Guard Test"])
+        tracked = temp_root / "tracked.md"
+        tracked.write_text("baseline\n", encoding="utf-8")
+        subprocess.run(["git", "-C", str(temp_root), "add", "tracked.md"])
+        subprocess.run(["git", "-C", str(temp_root), "commit", "-qm", "baseline"])
+        for source in ("startup", "resume"):
+            payload = json.dumps(
+                {
+                    "session_id": f"verify-integration-main-{source}",
+                    "source": source,
+                    "cwd": str(temp_root),
+                }
+            )
+            proc = subprocess.run(
+                [sys.executable, str(hook)],
+                cwd=temp_root,
+                text=True,
+                capture_output=True,
+                input=payload,
+            )
+            if proc.returncode != 0:
+                fail(f"integration-only hook failed ({source}): {proc.stderr.strip()}")
+            if "AUTO-LANE" not in proc.stdout or "integration-only" not in proc.stdout:
+                fail(
+                    f"fresh main did not route {source} session to a lane: "
+                    f"{proc.stdout.strip() or '<no output>'}"
+                )
+        receipts.append("fresh and resumed main sessions route writers to AUTO-LANE")
+
+        tracked.write_text("dirty\n", encoding="utf-8")
+        payload = json.dumps(
+            {"session_id": "verify-dirty-main", "source": "startup", "cwd": str(temp_root)}
+        )
+        proc = subprocess.run(
+            [sys.executable, str(hook)], cwd=temp_root, text=True,
+            capture_output=True, input=payload,
+        )
+        if "MAIN DIRTY" not in proc.stdout or "tracked.md" not in proc.stdout:
+            fail(f"dirty main was not surfaced with exact paths: {proc.stdout.strip()}")
+        receipts.append("dirty main is surfaced at session start with exact tracked paths")
+    return receipts
+
+
 def check_preflight_schema() -> dict[str, Any]:
     proc = run(
         [
@@ -309,9 +417,85 @@ def check_preflight_schema() -> dict[str, Any]:
         fail("Preflight local_next_action should default to patch_and_verify")
     gate_text = json.dumps(data["manual_gate_checklist"]).lower()
     receipt_text = json.dumps(data).lower()
-    if "codex_hook_runner.py" not in gate_text or "enabled" not in gate_text or "codex hook bridge configured" not in receipt_text:
+    if (
+        "codex_hook_runner.py" not in gate_text
+        or "trusted" not in gate_text
+        or "not explicitly disabled" not in gate_text
+        or "codex hook bridge configured" not in receipt_text
+    ):
         fail("Preflight manual gates do not make Codex hook bridge requirements explicit")
     return data
+
+
+def check_storage_recovery_routing() -> list[str]:
+    receipts: list[str] = []
+    probes = (
+        (STORAGE_RECOVERY_PROMPT, "system-audit", True),
+        (SYSTEM_RELIABILITY_PROMPT, "system-audit", True),
+        ("Create a Google Drive offer for archive recovery clients", "", False),
+        ("Write a Google Doc about iCloud upload trends", "", False),
+        ("Run free-first offer research", "deep-research-os", True),
+    )
+    for query, expected, exact in probes:
+        proc = run(
+            [
+                sys.executable,
+                "execution/codex_operator_preflight.py",
+                query,
+                "--json",
+            ]
+        )
+        if proc.returncode != 0:
+            fail(f"storage-routing preflight failed for {query!r}: {proc.stderr.strip()}")
+        data = json.loads(proc.stdout)
+        owner = data["chosen_path"].get("owner")
+        if exact and owner != expected:
+            fail(f"Storage-routing probe {query!r} expected /{expected}, got /{owner}")
+        if not exact and owner == "system-audit":
+            fail(f"Storage-routing negative control over-routed to /system-audit: {query!r}")
+        if query == STORAGE_RECOVERY_PROMPT:
+            risks = data["intent_lock"].get("risk_reasons") or []
+            if risks:
+                fail(f"Storage deny clause incorrectly triggered risk gates: {risks}")
+            if not data["execution_decision"].get("can_execute_now"):
+                fail("Storage preflight should permit safe local work before action-specific gates")
+        receipts.append(f"{query} -> /{owner}")
+    return receipts
+
+
+def check_risk_constraint_parsing() -> list[str]:
+    from codex_operator_preflight import risk_reasons
+
+    cases = (
+        ("No unapproved deletion or publishing.", []),
+        ("Do not publish or delete anything.", []),
+        ("Research locally without publishing or deleting files.", []),
+        ("Create a publisher brief.", []),
+        ("Publish the approved report.", ["external write"]),
+        ("Delete the verified duplicates.", ["destructive action"]),
+        ("Do not publish, but delete the approved duplicates.", ["destructive action"]),
+        ("Never delete originals; publish the approved report.", ["external write"]),
+        ("Never delete originals; then delete only verified duplicates.", ["destructive action"]),
+        ("Do not publish yet; then publish after approval.", ["external write"]),
+    )
+    receipts: list[str] = []
+    for query, expected in cases:
+        actual = risk_reasons(query)
+        if actual != expected:
+            fail(f"Risk parser probe {query!r} expected {expected}, got {actual}")
+        receipts.append(f"{query} -> {actual}")
+    for query in ("Publish the approved report.", "Delete the verified duplicates."):
+        proc = run(
+            [sys.executable, "execution/codex_operator_preflight.py", query, "--json"]
+        )
+        if proc.returncode != 0:
+            fail(f"Positive risk preflight failed for {query!r}: {proc.stderr.strip()}")
+        data = json.loads(proc.stdout)
+        if data["execution_decision"].get("can_execute_now"):
+            fail(f"Positive risk preflight did not block {query!r}")
+        if data["execution_decision"].get("status") != "Blocked":
+            fail(f"Positive risk preflight status was not Blocked for {query!r}")
+    return receipts
 
 
 def check_quality_preflight() -> dict[str, Any]:
@@ -483,7 +667,10 @@ def main() -> int:
         ("router_probes", check_router_probes),
         ("routing_enforcer", check_routing_enforcer),
         ("hook_parity", check_hook_parity),
+        ("integration_only_main", check_integration_only_main),
         ("preflight_schema", check_preflight_schema),
+        ("storage_recovery_routing", check_storage_recovery_routing),
+        ("risk_constraint_parsing", check_risk_constraint_parsing),
         ("quality_preflight", check_quality_preflight),
         ("regression_preflight", check_regression_preflight),
         ("context_failure_preflight", check_context_failure_preflight),

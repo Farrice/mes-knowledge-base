@@ -1,0 +1,49 @@
+{
+  "status": "SEALED_FOR_HUMAN_REVIEW_NO_EVENT",
+  "packet_sha256": "ff077f5881ce9b4e4d41b22816595c4d5696703dd66e57a80aefc138a3f01018",
+  "cases": {
+    "FIC-01": {
+      "X": "baseline",
+      "Y": "candidate",
+      "X_sha256": "0ced299f41754111c44e1f7ee05531db6d511ce12c443da17384d16ffca812fd",
+      "Y_sha256": "d785004d62f027021f5045b41a82f7bb24d71f2b9e6b31cac7682da93a635edd"
+    },
+    "FIC-02": {
+      "X": "candidate",
+      "Y": "baseline",
+      "X_sha256": "1595b4a5b60cf622eeb84fd8dc65d394d9af50c3b5d79f9c81bd3620c2b02027",
+      "Y_sha256": "bbc57770ba00dabcdccb52e54dbe12a46cf3cfd15f9aeb60ec981b98a1e304f2"
+    },
+    "DOM-01": {
+      "X": "candidate",
+      "Y": "baseline",
+      "X_sha256": "64878654b7d0b66dadadc88be3ae7f75928878697322c19317a5131380ed0d4b",
+      "Y_sha256": "20f07648b130f275060cfcb4357cffdbb0f77847aa1b827be9573e469d02500e"
+    },
+    "DOM-02": {
+      "X": "baseline",
+      "Y": "candidate",
+      "X_sha256": "20fc7977a6fd92e33dd673dbbc81d1e6772fd1c5a87267625f7012f983f2a592",
+      "Y_sha256": "99e5736ffd5a5357af769bb7bc2a3ffe6e31d9652ca6f83440884dd3ea84c712"
+    },
+    "DOM-03": {
+      "X": "candidate",
+      "Y": "baseline",
+      "X_sha256": "6f8f14fbb6cdc8b5f79f4de95fb79cb646c1f37131b3ea51b59a799cab6587f9",
+      "Y_sha256": "a8ede529f812dc5a74134d752fc23204612504630b44d5c489bd5afd9c673787"
+    },
+    "DOM-04": {
+      "X": "candidate",
+      "Y": "baseline",
+      "X_sha256": "199d0f38dced70560631eb87767cb0dc816b6c2d215c4f2b45d41c657e9e812c",
+      "Y_sha256": "9ae7546b0800722f153ca19a845a3ecdc6c72c5de3a5e3e98be6d7614401acdf"
+    },
+    "DOM-05": {
+      "X": "candidate",
+      "Y": "baseline",
+      "X_sha256": "04d92f82d96c666ee9f28172fc02daa93489c8ff2fe3808db7cdb6b1f766f326",
+      "Y_sha256": "a5d7d0ef9394c2202356d457899b049ada0f31ad1cef37e8aa2a7a174946947d"
+    }
+  },
+  "warning": "Opening this file before scoring breaks evaluator blinding. No verdict exists yet."
+}

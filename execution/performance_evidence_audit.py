@@ -117,11 +117,11 @@ def has_existing_duplicate(row: dict[str, Any], committed: list[dict[str, Any]])
     workflow = normalize(row.get("workflow"))
     source = str(row.get("source_artifact") or "")
     for entry in committed:
-        entry_source = str(entry.get("Source Artifact") or "")
+        entry_source = str(entry.get("source_artifact") or entry.get("Source Artifact") or "")
         if source and source == entry_source:
             return True
-        entry_title = normalize(entry.get("Output"))
-        entry_workflow = normalize(entry.get("Workflow"))
+        entry_title = normalize(entry.get("output") or entry.get("Output"))
+        entry_workflow = normalize(entry.get("workflow") or entry.get("Workflow"))
         if title and workflow and title == entry_title and workflow == entry_workflow:
             return True
     return False

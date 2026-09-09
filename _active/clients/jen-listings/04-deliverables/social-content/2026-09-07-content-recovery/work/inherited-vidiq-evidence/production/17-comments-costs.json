@@ -1,0 +1,135 @@
+{
+  "request": {
+    "videoId": "o6v__5PyxRo",
+    "maxResult": 30,
+    "order": "relevance"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"videoId\":\"o6v__5PyxRo\",\"comments\":[{\"topComment\":{\"author\":\"@smokinweasel\",\"authorChannelUrl\":\"http://www.youtube.com/@smokinweasel\",\"text\":\"I did the first time Home buyer program on a house that was 355,000 and only had to put down a total of 4,000 just for the earnest money.\",\"likeCount\":9,\"publishedAt\":\"2025-04-09T21:34:14Z\"},\"replyCount\":1,\"replies\":[{\"author\":\"@Otto760\",\"authorChannelUrl\":\"http://www.youtube.com/@Otto760\",\"text\":\"The selling party likely paid closing cost and you must’ve had perfect credit otherwise idk how that worked\",\"likeCount\":0,\"publishedAt\":\"2025-04-11T09:23:19Z\"}]},{\"topComment\":{\"author\":\"@salvadorrodriguez6741\",\"authorChannelUrl\":\"http://www.youtube.com/@salvadorrodriguez6741\",\"text\":\"It’s easy for them they’re not making your payments you still have to live in the NOW\",\"likeCount\":1,\"publishedAt\":\"2026-01-11T06:16:42Z\"},\"replyCount\":0,\"replies\":[]},{\"topComment\":{\"author\":\"@Btx154\",\"authorChannelUrl\":\"http://www.youtube.com/@Btx154\",\"text\":\"So what is the Mortgage going to be the real question?\",\"likeCount\":3,\"publishedAt\":\"2025-04-09T21:26:22Z\"},\"replyCount\":4,\"replies\":[{\"author\":\"@goatmonarch\",\"authorChannelUrl\":\"http://www.youtube.com/@goatmonarch\",\"text\":\"in total its probably going to be 55% for where this area\",\"likeCount\":0,\"publishedAt\":\"2025-04-09T21:29:58Z\"},{\"author\":\"@Otto760\",\"authorChannelUrl\":\"http://www.youtube.com/@Otto760\",\"text\":\"Depends on the interest rate and loan term. But very high, probably around 4-5k a month\",\"likeCount\":0,\"publishedAt\":\"2025-04-11T09:23:59Z\"},{\"author\":\"@detmostwant\",\"authorChannelUrl\":\"http://www.youtube.com/@detmostwant\",\"text\":\"On a 30 year fixed rate at 6.5% roughly $3,000 a month. If you only put 3% down on a 400k home you will pay approximately 1.1 million for that home over the 30 year term.\",\"likeCount\":0,\"publishedAt\":\"2025-04-11T10:38:37Z\"},{\"author\":\"@chandlerharris1595\",\"authorChannelUrl\":\"http://www.youtube.com/@chandlerharris1595\",\"text\":\"Mine was 365 and it’s 2306\",\"likeCount\":0,\"publishedAt\":\"2025-11-09T19:19:09Z\"}]},{\"topComment\":{\"author\":\"@Pendragon44321\",\"authorChannelUrl\":\"http://www.youtube.com/@Pendragon44321\",\"text\":\"WHO IS ABLE TO BUY 400K HOUSE?!?!?\",\"likeCount\":2,\"publishedAt\":\"2025-04-13T02:38:42Z\"},\"replyCount\":3,\"replies\":[{\"author\":\"@JacobGeekOfficial\",\"authorChannelUrl\":\"http://www.youtube.com/@JacobGeekOfficial\",\"text\":\"?\",\"likeCount\":0,\"publishedAt\":\"2026-04-01T12:51:36Z\"},{\"author\":\"@EllipticSand\",\"authorChannelUrl\":\"http://www.youtube.com/@EllipticSand\",\"text\":\"Average price of a home in the US nowadays\",\"likeCount\":1,\"publishedAt\":\"2026-04-11T05:28:25Z\"},{\"author\":\"@antiquarian1773\",\"authorChannelUrl\":\"http://www.youtube.com/@antiquarian1773\",\"text\":\"Not you\",\"likeCount\":0,\"publishedAt\":\"2026-07-31T17:54:09Z\"}]},{\"topComment\":{\"author\":\"@BigRed2\",\"authorChannelUrl\":\"http://www.youtube.com/@BigRed2\",\"text\":\"Their Mortgage is over $3k😂😂😂\",\"likeCount\":1,\"publishedAt\":\"2025-04-18T16:41:25Z\"},\"replyCount\":0,\"replies\":[]}],\"_credits\":{\"used\":5}}"
+      }
+    ],
+    "structuredContent": {
+      "videoId": "o6v__5PyxRo",
+      "comments": [
+        {
+          "topComment": {
+            "author": "@smokinweasel",
+            "authorChannelUrl": "http://www.youtube.com/@smokinweasel",
+            "text": "I did the first time Home buyer program on a house that was 355,000 and only had to put down a total of 4,000 just for the earnest money.",
+            "likeCount": 9,
+            "publishedAt": "2025-04-09T21:34:14Z"
+          },
+          "replyCount": 1,
+          "replies": [
+            {
+              "author": "@Otto760",
+              "authorChannelUrl": "http://www.youtube.com/@Otto760",
+              "text": "The selling party likely paid closing cost and you must’ve had perfect credit otherwise idk how that worked",
+              "likeCount": 0,
+              "publishedAt": "2025-04-11T09:23:19Z"
+            }
+          ]
+        },
+        {
+          "topComment": {
+            "author": "@salvadorrodriguez6741",
+            "authorChannelUrl": "http://www.youtube.com/@salvadorrodriguez6741",
+            "text": "It’s easy for them they’re not making your payments you still have to live in the NOW",
+            "likeCount": 1,
+            "publishedAt": "2026-01-11T06:16:42Z"
+          },
+          "replyCount": 0,
+          "replies": []
+        },
+        {
+          "topComment": {
+            "author": "@Btx154",
+            "authorChannelUrl": "http://www.youtube.com/@Btx154",
+            "text": "So what is the Mortgage going to be the real question?",
+            "likeCount": 3,
+            "publishedAt": "2025-04-09T21:26:22Z"
+          },
+          "replyCount": 4,
+          "replies": [
+            {
+              "author": "@goatmonarch",
+              "authorChannelUrl": "http://www.youtube.com/@goatmonarch",
+              "text": "in total its probably going to be 55% for where this area",
+              "likeCount": 0,
+              "publishedAt": "2025-04-09T21:29:58Z"
+            },
+            {
+              "author": "@Otto760",
+              "authorChannelUrl": "http://www.youtube.com/@Otto760",
+              "text": "Depends on the interest rate and loan term. But very high, probably around 4-5k a month",
+              "likeCount": 0,
+              "publishedAt": "2025-04-11T09:23:59Z"
+            },
+            {
+              "author": "@detmostwant",
+              "authorChannelUrl": "http://www.youtube.com/@detmostwant",
+              "text": "On a 30 year fixed rate at 6.5% roughly $3,000 a month. If you only put 3% down on a 400k home you will pay approximately 1.1 million for that home over the 30 year term.",
+              "likeCount": 0,
+              "publishedAt": "2025-04-11T10:38:37Z"
+            },
+            {
+              "author": "@chandlerharris1595",
+              "authorChannelUrl": "http://www.youtube.com/@chandlerharris1595",
+              "text": "Mine was 365 and it’s 2306",
+              "likeCount": 0,
+              "publishedAt": "2025-11-09T19:19:09Z"
+            }
+          ]
+        },
+        {
+          "topComment": {
+            "author": "@Pendragon44321",
+            "authorChannelUrl": "http://www.youtube.com/@Pendragon44321",
+            "text": "WHO IS ABLE TO BUY 400K HOUSE?!?!?",
+            "likeCount": 2,
+            "publishedAt": "2025-04-13T02:38:42Z"
+          },
+          "replyCount": 3,
+          "replies": [
+            {
+              "author": "@JacobGeekOfficial",
+              "authorChannelUrl": "http://www.youtube.com/@JacobGeekOfficial",
+              "text": "?",
+              "likeCount": 0,
+              "publishedAt": "2026-04-01T12:51:36Z"
+            },
+            {
+              "author": "@EllipticSand",
+              "authorChannelUrl": "http://www.youtube.com/@EllipticSand",
+              "text": "Average price of a home in the US nowadays",
+              "likeCount": 1,
+              "publishedAt": "2026-04-11T05:28:25Z"
+            },
+            {
+              "author": "@antiquarian1773",
+              "authorChannelUrl": "http://www.youtube.com/@antiquarian1773",
+              "text": "Not you",
+              "likeCount": 0,
+              "publishedAt": "2026-07-31T17:54:09Z"
+            }
+          ]
+        },
+        {
+          "topComment": {
+            "author": "@BigRed2",
+            "authorChannelUrl": "http://www.youtube.com/@BigRed2",
+            "text": "Their Mortgage is over $3k😂😂😂",
+            "likeCount": 1,
+            "publishedAt": "2025-04-18T16:41:25Z"
+          },
+          "replyCount": 0,
+          "replies": []
+        }
+      ]
+    },
+    "isError": false
+  }
+}

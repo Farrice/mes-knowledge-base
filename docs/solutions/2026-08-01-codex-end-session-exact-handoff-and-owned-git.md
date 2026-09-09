@@ -1,3 +1,13 @@
+---
+date: 2026-08-01
+session: codex end-session hardening
+name: codex-end-session-exact-handoff-and-owned-git
+problem_class: harness / closeout / identity and ownership
+domain: harness
+status: proven
+problem_signature: "the closeout picks the newest temp handoff and commits whatever is dirty in the tree, so another task's handoff can be stored under this task's name and unrelated or closeout-generated changes get swept into the same commit and push"
+tags: [codex, end-session, handoff, git, commit-gate, verification]
+---
 # Solution Card — Exact handoff identity plus manifest-owned Git
 
 **Date**: 2026-08-01 · **Domain**: system fix (Codex session lifecycle) · **Status**: SOLVED

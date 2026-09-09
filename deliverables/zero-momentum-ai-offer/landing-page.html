@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lead-to-Proposal Proof Sprint | Farrice Cain</title>
+  <meta name="description" content="A five-business-day workflow build for agencies and consultancies whose warm inquiries stall before proposal and follow-up.">
+  <link rel="icon" href="../../_active/farrice-brand/parallax-design-system/assets/favicon.svg" type="image/svg+xml">
+  <style>
+    :root{
+      --ink:#1c1c1e;
+      --violet:#7b61ff;
+      --violet-on-light:#6d50f3;
+      --violet-on-dark:#8f79ff;
+      --paper:#f5f0eb;
+      --display:'Helvetica Neue',Helvetica,Arial,-apple-system,BlinkMacSystemFont,sans-serif;
+      --body:'Helvetica Neue',Helvetica,Arial,-apple-system,BlinkMacSystemFont,sans-serif;
+      --mono:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;
+      --line-dark:color-mix(in srgb,var(--ink) 18%,transparent);
+      --line-light:color-mix(in srgb,var(--paper) 20%,transparent);
+      --muted-dark:color-mix(in srgb,var(--ink) 66%,transparent);
+      --muted-light:color-mix(in srgb,var(--paper) 68%,transparent);
+      --page:1184px;
+      --gutter:32px;
+      --section:80px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--paper)}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    button,a{font:inherit}
+    button{color:inherit}
+    a{color:inherit}
+    ::selection{background:var(--violet);color:var(--paper)}
+    :focus-visible{outline:2px solid var(--violet);outline-offset:4px}
+    .skip-link{position:fixed;z-index:100;top:-80px;left:20px;background:var(--violet-on-light);color:var(--paper);padding:14px 18px;font:700 12px/1 var(--mono);text-transform:uppercase;letter-spacing:.07em;text-decoration:none}
+    .skip-link:focus{top:20px}
+    .shell{width:min(var(--page),calc(100% - (var(--gutter) * 2)));margin-inline:auto}
+    .eyebrow{margin:0;font:700 11px/1.35 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+    .eyebrow.violet{color:var(--violet-on-light)}
+    .dark .eyebrow.violet,.demo .eyebrow.violet,.acceptance-box .eyebrow.violet,.apply .eyebrow.violet{color:var(--violet-on-dark)}
+    .button{min-height:50px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);border-radius:2px;padding:0 22px;font:700 12px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .16s,color .16s,border-color .16s}
+    .button:disabled{cursor:wait;opacity:.62}
+    .button-primary{background:var(--violet-on-light);border-color:var(--violet-on-light);color:var(--paper)}
+    .button-primary:hover{background:var(--ink);border-color:var(--ink)}
+    .button-secondary{background:transparent;color:var(--ink)}
+    .button-secondary:hover{background:var(--ink);color:var(--paper)}
+    .site-header{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:1px solid var(--line-dark)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{flex:0 0 auto}
+    .brand img{width:166px;height:auto}
+    .nav-links{display:flex;align-items:center;gap:28px;margin-left:auto}
+    .nav-links a{font:700 11px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-decoration:none;padding:12px 0;border-bottom:1px solid transparent}
+    .nav-links a:hover{border-color:var(--violet)}
+    .nav .button{min-height:44px;padding-inline:18px}
+
+    .hero{padding:70px 0 64px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(430px,.94fr);gap:68px;align-items:start}
+    .hero h1{font:700 clamp(48px,5.25vw,68px)/.98 var(--display);letter-spacing:-.035em;margin:18px 0 24px;max-width:760px}
+    .hero-lede{font-size:20px;line-height:1.52;max-width:620px;margin:0;color:var(--muted-dark)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+    .terms-line{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:26px;padding-top:20px;border-top:1px solid var(--line-dark);font:700 11px/1.4 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .terms-line span{white-space:nowrap}
+    .terms-line b{color:var(--violet-on-light);font-weight:700}
+
+    .demo{background:var(--ink);color:var(--paper);border-top:3px solid var(--violet);min-height:560px;display:flex;flex-direction:column}
+    .demo-top{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:22px 24px;border-bottom:1px solid var(--line-light)}
+    .demo-title{margin:5px 0 0;font:700 18px/1.2 var(--display)}
+    .demo-status{display:flex;align-items:center;gap:8px;font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted-light)}
+    .status-dot{width:8px;height:8px;background:var(--violet)}
+    .inquiry{margin:24px;border:1px solid var(--line-light);padding:20px}
+    .inquiry-head{display:flex;justify-content:space-between;gap:20px;padding-bottom:14px;border-bottom:1px solid var(--line-light)}
+    .inquiry-head strong{font:700 17px/1.2 var(--display)}
+    .inquiry-head span,.meta-row{font:400 10px/1.45 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light)}
+    .inquiry-copy{margin:16px 0 0;font-size:16px;line-height:1.5;color:var(--muted-light)}
+    .workflow-list{list-style:none;margin:0 24px;padding:0;border-top:1px solid var(--line-light)}
+    .workflow-step{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:12px;align-items:center;min-height:50px;border-bottom:1px solid var(--line-light);font:700 11px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light)}
+    .workflow-step .index{color:var(--muted-light)}
+    .workflow-step .state{font-size:9px;text-align:right}
+    .workflow-step.is-active,.workflow-step.is-complete{color:var(--paper)}
+    .workflow-step.is-active .index{color:var(--violet-on-dark)}
+    .workflow-step.is-active .state{color:var(--violet-on-dark)}
+    .workflow-step.is-complete .state{color:var(--paper)}
+    .demo-result{margin:20px 24px 0;padding:16px;border-left:2px solid var(--violet);background:color-mix(in srgb,var(--paper) 5%,transparent)}
+    .demo-result p{margin:5px 0 0;font-size:15px;line-height:1.45;color:var(--muted-light)}
+    .demo-actions{margin-top:auto;padding:20px 24px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .demo-actions .button{border-color:var(--paper);color:var(--paper);background:transparent;min-height:46px}
+    .demo-actions .button:hover{background:var(--paper);color:var(--ink)}
+    .demo-hold{font:700 9px/1.45 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-align:right;color:var(--muted-light);max-width:22ch}
+
+    .proof-strip{border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark)}
+    .proof-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+    .proof-item{padding:22px 24px 22px 0;border-right:1px solid var(--line-dark)}
+    .proof-item:not(:first-child){padding-left:24px}
+    .proof-item:last-child{border-right:0}
+    .proof-item strong{display:block;font:700 21px/1.15 var(--display);margin-bottom:5px}
+    .proof-item span{font:400 10px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted-dark)}
+
+    .section{padding:var(--section) 0}
+    .section-head{display:grid;grid-template-columns:4fr 7fr;gap:70px;align-items:start;margin-bottom:50px}
+    .section-head h2{font:700 clamp(36px,4vw,52px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 0;max-width:720px}
+    .section-head p{font-size:19px;line-height:1.55;margin:2px 0 0;color:var(--muted-dark);max-width:620px}
+    .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+    .problem{padding:28px 30px 0 0;min-height:220px;border-right:1px solid var(--line-dark)}
+    .problem:not(:first-child){padding-left:30px}
+    .problem:last-child{border-right:0}
+    .problem .number{font:700 10px/1 var(--mono);letter-spacing:.08em;color:var(--violet-on-light)}
+    .problem h3{font:700 24px/1.12 var(--display);letter-spacing:-.01em;margin:22px 0 12px}
+    .problem p{margin:0;color:var(--muted-dark)}
+
+    .dark{background:var(--ink);color:var(--paper)}
+    .dark .section-head p{color:var(--muted-light)}
+    .build-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--paper)}
+    .build-step{padding:30px 32px 0 0;min-height:300px;border-right:1px solid var(--line-light)}
+    .build-step:not(:first-child){padding-left:32px}
+    .build-step:last-child{border-right:0}
+    .build-step .day{font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--violet-on-dark)}
+    .build-step h3{font:700 26px/1.12 var(--display);margin:22px 0 14px}
+    .build-step p{margin:0;color:var(--muted-light)}
+    .build-step ul{margin:22px 0 0;padding:0;list-style:none}
+    .build-step li{padding:10px 0;border-top:1px solid var(--line-light);font:400 11px/1.4 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted-light)}
+
+    .evidence-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:70px;align-items:start}
+    .evidence-copy h2{font:700 clamp(36px,4vw,52px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 22px}
+    .evidence-copy>p{font-size:19px;margin:0;color:var(--muted-dark);max-width:560px}
+    .proof-state{margin-top:30px;padding:20px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line-dark)}
+    .proof-state strong{display:block;font:700 13px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--violet-on-light);margin-bottom:8px}
+    .proof-state p{margin:0;font-size:15px;line-height:1.5;color:var(--muted-dark)}
+    .test-table{border-top:1px solid var(--ink)}
+    .test-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:16px 0;border-bottom:1px solid var(--line-dark);align-items:center}
+    .test-row span{font:700 11px/1.35 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .test-row strong{font:700 15px/1 var(--display);text-align:right}
+    .test-row strong.pass{color:var(--violet-on-light)}
+
+    .scope-section{padding-top:0}
+    .scope-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+    .scope-col{padding:28px 36px 0 0}
+    .scope-col+ .scope-col{padding-left:36px;border-left:1px solid var(--line-dark)}
+    .scope-col h3{font:700 22px/1.15 var(--display);margin:12px 0 22px}
+    .scope-list{list-style:none;padding:0;margin:0}
+    .scope-list li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line-dark);font-size:16px;line-height:1.4}
+    .scope-list b{font:700 10px/1.5 var(--mono);color:var(--violet-on-light)}
+    .acceptance-box{margin-top:48px;background:var(--ink);color:var(--paper);padding:38px 42px;display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.68fr);gap:64px;align-items:center}
+    .acceptance-box h3{font:700 31px/1.08 var(--display);letter-spacing:-.02em;margin:8px 0 0}
+    .acceptance-box p{margin:0;color:var(--muted-light)}
+
+    .faq-grid{display:grid;grid-template-columns:4fr 7fr;gap:70px;align-items:start}
+    .faq-intro h2{font:700 clamp(36px,4vw,50px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 18px}
+    .faq-intro p{margin:0;color:var(--muted-dark);max-width:400px}
+    details{border-top:1px solid var(--ink)}
+    details:last-child{border-bottom:1px solid var(--ink)}
+    summary{cursor:pointer;list-style:none;position:relative;padding:20px 42px 20px 0;font:700 18px/1.3 var(--display)}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:'+';position:absolute;right:2px;top:18px;font:700 22px/1 var(--display);color:var(--violet-on-light)}
+    details[open] summary:after{content:'−'}
+    details p{max-width:650px;margin:0;padding:0 42px 22px 0;color:var(--muted-dark)}
+
+    .apply{background:var(--ink);color:var(--paper);padding:82px 0}
+    .apply-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(340px,.8fr);gap:70px;align-items:end}
+    .apply h2{font:700 clamp(40px,4.8vw,62px)/1 var(--display);letter-spacing:-.03em;margin:12px 0 22px;max-width:760px}
+    .apply-copy>p{font-size:19px;margin:0;max-width:620px;color:var(--muted-light)}
+    .apply-actions{margin-top:30px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+    .apply-actions .button-primary:hover{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+    .booking-note{font:400 10px/1.45 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light);max-width:30ch}
+    .review-card{border-top:2px solid var(--violet)}
+    .review-row{display:grid;grid-template-columns:1fr auto;gap:24px;padding:14px 0;border-bottom:1px solid var(--line-light);font:700 10px/1.4 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .review-row span{color:var(--muted-light)}
+    .review-row strong{text-align:right}
+    .booking-status{margin-top:14px;color:var(--paper);font-size:14px;line-height:1.45}
+    [hidden]{display:none!important}
+
+    footer{background:var(--ink);color:var(--paper);border-top:1px solid var(--line-light);padding:28px 0 34px}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .footer-inner img{width:144px}
+    .footer-inner p{margin:0;text-align:right;font:400 9px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted-light)}
+
+    @media (max-width:980px){
+      :root{--section:68px;--gutter:24px}
+      .hero{padding:68px 0}
+      .hero-grid{grid-template-columns:1fr;gap:52px}
+      .hero-copy{max-width:780px}
+      .demo{max-width:680px;min-height:540px}
+      .section-head,.faq-grid{grid-template-columns:1fr;gap:24px}
+      .section-head{margin-bottom:40px}
+      .evidence-grid{grid-template-columns:1fr;gap:48px}
+      .acceptance-box{grid-template-columns:1fr;gap:24px}
+      .apply-grid{grid-template-columns:1fr;gap:46px}
+      .review-card{max-width:600px}
+    }
+    @media (max-width:720px){
+      :root{--section:56px;--gutter:20px}
+      .nav{height:66px}
+      .brand img{width:146px}
+      .nav-links{display:none}
+      .nav .button{min-height:44px;padding-inline:14px;font-size:10px}
+      .hero{padding:58px 0 60px}
+      .hero h1{font-size:clamp(40px,11.7vw,44px);margin-top:14px}
+      .hero-lede{font-size:18px}
+      .hero-actions{display:grid;grid-template-columns:1fr}
+      .button{width:100%}
+      .terms-line{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+      .demo{min-height:0}
+      .demo-top,.inquiry,.demo-actions{padding-left:18px;padding-right:18px}
+      .inquiry{margin:18px}
+      .workflow-list{margin-inline:18px}
+      .demo-result{margin-inline:18px}
+      .demo-actions{display:block}
+      .demo-actions .button{width:100%}
+      .demo-hold{text-align:left;max-width:none;margin-top:14px}
+      .proof-grid{grid-template-columns:1fr 1fr}
+      .proof-item{padding:18px 16px 18px 0}
+      .proof-item:not(:first-child){padding-left:16px}
+      .proof-item:nth-child(2){border-right:0}
+      .proof-item:nth-child(n+3){border-top:1px solid var(--line-dark)}
+      .proof-item:nth-child(3){padding-left:0}
+      .section-head h2,.evidence-copy h2,.faq-intro h2{font-size:38px}
+      .section-head p,.evidence-copy>p{font-size:17px}
+      .problem-grid,.build-grid,.scope-grid{grid-template-columns:1fr}
+      .problem,.problem:not(:first-child),.build-step,.build-step:not(:first-child){min-height:0;padding:22px 0 26px;border-right:0;border-bottom:1px solid var(--line-dark)}
+      .problem:last-child{border-bottom:0}
+      .build-step,.build-step:not(:first-child){border-bottom-color:var(--line-light)}
+      .build-step:last-child{border-bottom:0}
+      .scope-col,.scope-col+ .scope-col{padding:26px 0 0;border-left:0}
+      .scope-col+ .scope-col{margin-top:38px}
+      .acceptance-box{padding:30px 24px;margin-top:38px}
+      .acceptance-box h3{font-size:27px}
+      .apply{padding:56px 0}
+      .apply h2{font-size:42px}
+      .apply-copy>p{font-size:17px}
+      .apply-actions{display:block}
+      .booking-note{display:block;margin-top:14px;max-width:none}
+      .footer-inner{display:block}
+      .footer-inner p{text-align:left;margin-top:20px}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to offer</a>
+  <header class="site-header">
+    <nav class="shell nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Parallax home"><img src="../../_active/farrice-brand/parallax-design-system/assets/wordmark-on-light.svg" alt="Parallax"></a>
+      <div class="nav-links"><a href="#problem">The problem</a><a href="#build">What you get</a><a href="#proof">How it works</a><a href="#terms">Price</a></div>
+      <a class="button button-primary" href="#apply">Workflow Loss Review</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow violet">Five-day lead-to-proposal sprint</p>
+          <h1 id="hero-title">Warm leads should not disappear between inquiry and proposal.</h1>
+          <p class="hero-lede">I help small agencies turn incoming leads into clear, review-ready proposals with consistent follow-up. In five business days, you get one complete workflow built inside the tools you already use.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#apply">Review your lead workflow</a><a class="button button-secondary" href="#demo">See how it works</a></div>
+          <div class="terms-line" aria-label="Sprint terms"><span><b>$1,500</b> complete sprint</span><span><b>$750</b> to begin</span><span><b>5</b> business days</span><span><b>1</b> workflow</span></div>
+        </div>
+
+        <div class="demo" id="demo" aria-label="Interactive lead-to-proposal example">
+          <div class="demo-top"><div><p class="eyebrow violet">See the workflow in action</p><p class="demo-title">Northstar Studio inquiry</p></div><div class="demo-status"><span class="status-dot" aria-hidden="true"></span><span id="demo-status">Ready</span></div></div>
+          <article class="inquiry"><div class="inquiry-head"><strong>Brand strategy engagement</strong><span>Inbound / 09:14</span></div><p class="inquiry-copy">“We need a proposal next week. The scope covers positioning, messaging, and a launch workshop. Budget is approved, but procurement needs the vendor details.”</p></article>
+          <ol class="workflow-list" aria-label="Lead-to-proposal stages">
+            <li class="workflow-step" data-step="0"><span class="index">01</span><span>Inquiry received</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="1"><span class="index">02</span><span>Key details organized</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="2"><span class="index">03</span><span>Proposal prepared</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="3"><span class="index">04</span><span>Follow-up scheduled</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="4"><span class="index">05</span><span>Ready for your approval</span><span class="state">Waiting</span></li>
+          </ol>
+          <div class="demo-result" aria-live="polite"><p class="eyebrow violet">What changes</p><p id="demo-result">See one inquiry move from first contact to a proposal ready for review.</p></div>
+          <div class="demo-actions"><button class="button" id="run-demo" type="button">Run the example</button><span class="demo-hold">Nothing is sent without your approval.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Lead-to-proposal outcomes"><div class="shell proof-grid"><div class="proof-item"><strong>One clear path</strong><span>From inquiry to proposal</span></div><div class="proof-item"><strong>Faster follow-up</strong><span>A clear owner and next step</span></div><div class="proof-item"><strong>Proposal ready</strong><span>Built from your template</span></div><div class="proof-item"><strong>You stay in control</strong><span>Nothing sends without approval</span></div></div></section>
+
+    <section class="section" id="problem" aria-labelledby="problem-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">The problem</p><h2 id="problem-title">The lead is warm. The handoff is not.</h2></div><p>When details live across email, forms, notes, and your CRM, the team loses time rebuilding the story. Proposals slow down, follow-up becomes inconsistent, and warm prospects wait.</p></div><div class="problem-grid"><article class="problem"><span class="number">01 / No clear owner</span><h3>Everyone can see the lead. Nobody owns the next step.</h3><p>Questions, notes, and decisions sit in different places while the inquiry waits for somebody to move it forward.</p></article><article class="problem"><span class="number">02 / Proposal delay</span><h3>The proposal starts before the details are ready.</h3><p>Missing information surfaces late, creating more email, more rework, and another delay for the buyer.</p></article><article class="problem"><span class="number">03 / Inconsistent follow-up</span><h3>The next move depends on memory.</h3><p>Without a clear owner and due date, follow-up happens late—or not at all.</p></article></div></div></section>
+
+    <section class="section dark" id="build" aria-labelledby="build-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">What you get</p><h2 id="build-title">A working lead-to-proposal system in five business days.</h2></div><p>I build the workflow inside the tools you already use, test it with your team, and hand it over ready to run.</p></div><div class="build-grid"><article class="build-step"><span class="day">Days 01–02</span><h3>Find where leads stall</h3><p>We review one recent inquiry and trace what happens from first contact through proposal and follow-up.</p><ul><li>Workflow review</li><li>Current process map</li><li>Required-information checklist</li></ul></article><article class="build-step"><span class="day">Days 02–04</span><h3>Build the complete workflow</h3><p>I connect your intake, proposal template, follow-up tasks, and lead record into one clear operating path.</p><ul><li>One complete workflow</li><li>Up to two system connections</li><li>Your proposal template</li></ul></article><article class="build-step"><span class="day">Day 05</span><h3>Test it and hand it over</h3><p>We run realistic scenarios together, confirm what happens at each step, and make sure your team can operate it.</p><ul><li>Tested workflow</li><li>Team walkthrough and guide</li><li>14 days of correction support</li></ul></article></div></div></section>
+
+    <section class="section" id="proof" aria-labelledby="proof-title"><div class="shell evidence-grid"><div class="evidence-copy"><p class="eyebrow violet">Before the final payment</p><h2 id="proof-title">See the workflow working before you pay the final $750.</h2><p>We run an agreed demonstration together. You see how a new inquiry is organized, how missing details are handled, how the proposal is prepared, and where your approval is required.</p><div class="proof-state"><strong>Current proof</strong><p>This is a new offer without client results or testimonials. The working demonstration shows what the workflow does; it does not guarantee revenue or sales.</p></div></div><div class="test-table" aria-label="What the demonstration shows"><div class="test-row"><span>New inquiry</span><strong class="pass">Organized</strong></div><div class="test-row"><span>Missing details</span><strong>Flagged</strong></div><div class="test-row"><span>Proposal</span><strong>Prepared</strong></div><div class="test-row"><span>Follow-up</span><strong>Assigned</strong></div><div class="test-row"><span>Anything unclear</span><strong>Held for review</strong></div><div class="test-row"><span>Send without approval</span><strong class="pass">Blocked</strong></div></div></div></section>
+
+    <section class="section scope-section" id="terms" aria-labelledby="terms-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">Price and deliverables</p><h2 id="terms-title">Know exactly what the $1,500 covers.</h2></div><p>One team. One lead-to-proposal workflow. Five business days.</p></div><div class="scope-grid"><div class="scope-col"><p class="eyebrow violet">Included</p><h3>Your complete five-day build</h3><ul class="scope-list"><li><b>01</b><span>Workflow review with the people who handle your leads</span></li><li><b>02</b><span>Process map and required-information checklist</span></li><li><b>03</b><span>One complete lead-to-proposal workflow</span></li><li><b>04</b><span>Up to two system connections</span></li><li><b>05</b><span>Your existing proposal template connected</span></li><li><b>06</b><span>Testing, team walkthrough, guide, and 14-day correction support</span></li></ul></div><div class="scope-col"><p class="eyebrow">Not included</p><h3>Work outside this sprint</h3><ul class="scope-list"><li><b>01</b><span>Custom software or application development</span></li><li><b>02</b><span>Lead generation, advertising, or outbound campaigns</span></li><li><b>03</b><span>Company-wide or multi-department transformation</span></li><li><b>04</b><span>Ongoing IT support or regulated-data workflows</span></li><li><b>05</b><span>Automatic proposal or message sending</span></li></ul></div></div><div class="acceptance-box"><div><p class="eyebrow violet">Payment protection</p><h3>Pay the final $750 after the agreed demonstration passes.</h3></div><p>If the workflow does not pass the agreed demonstration by the delivery deadline, you keep the workflow review and findings and owe no final balance.</p></div></div></section>
+
+    <section class="section" aria-labelledby="faq-title"><div class="shell faq-grid"><div class="faq-intro"><p class="eyebrow violet">Fit check</p><h2 id="faq-title">Know before you book.</h2><p>This is for a team with real inquiries and an existing proposal process that needs to move faster.</p></div><div><details><summary>Is this right if we have no leads yet?</summary><p>No. This sprint improves what happens after an inquiry arrives. It does not create demand or replace lead generation.</p></details><details><summary>Will it send proposals automatically?</summary><p>No. You review and approve every proposal or external message before anything is sent.</p></details><details><summary>Do I need a new CRM or automation platform?</summary><p>No. The starting point is the tools you already use, with up to two system connections included.</p></details><details><summary>What should I bring to the review?</summary><p>Bring one recent inquiry that moved too slowly, your proposal template, and the tools your team uses to move the lead forward.</p></details></div></div></section>
+
+    <section class="apply" id="apply" aria-labelledby="apply-title"><div class="shell apply-grid"><div class="apply-copy"><p class="eyebrow violet">The next move</p><h2 id="apply-title">Bring one inquiry that should have moved faster.</h2><p>In 20 minutes, we will identify where it stalled, what the finished workflow needs to do, and whether the five-day sprint is the right fit.</p><div class="apply-actions"><button class="button button-primary" id="booking-button" type="button" aria-controls="booking-status">Request the Workflow Loss Review</button><span class="booking-note">Local launch draft. No booking or payment destination is connected.</span></div><p class="booking-status" id="booking-status" tabindex="-1" hidden>The review flow is ready. Connect Farrice’s confirmed booking URL before deployment.</p></div><aside class="review-card" aria-label="Founding pilot terms"><div class="review-row"><span>Workflow Loss Review</span><strong>20 minutes</strong></div><div class="review-row"><span>Five-day sprint</span><strong>$1,500</strong></div><div class="review-row"><span>To begin</span><strong>$750</strong></div><div class="review-row"><span>After the demonstration</span><strong>$750</strong></div><div class="review-row"><span>Initial capacity</span><strong>3 clients</strong></div></aside></div></section>
+  </main>
+
+  <footer><div class="shell footer-inner"><img src="../../_active/farrice-brand/parallax-design-system/assets/wordmark.svg" alt="Parallax"><p>Farrice Cain · Lead-to-Proposal Proof Sprint<br>Local proof surface · August 2026</p></div></footer>
+
+  <script>
+    (() => {
+      const runButton = document.querySelector('#run-demo');
+      const status = document.querySelector('#demo-status');
+      const result = document.querySelector('#demo-result');
+      const steps = [...document.querySelectorAll('.workflow-step')];
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const messages = [
+        'The inquiry is captured with the important details in one place.',
+        'Missing information is identified before it slows down the proposal.',
+        'A proposal is prepared from your approved template.',
+        'The next follow-up is assigned with a clear owner and due date.',
+        'The proposal is ready for your approval. Nothing has been sent.'
+      ];
+      let timers = [];
+
+      function resetDemo(){
+        timers.forEach(window.clearTimeout);
+        timers = [];
+        steps.forEach(step => {
+          step.classList.remove('is-active','is-complete');
+          step.querySelector('.state').textContent = 'Waiting';
+        });
+      }
+
+      function activateStep(index){
+        steps.forEach((step,stepIndex) => {
+          step.classList.toggle('is-complete',stepIndex < index);
+          step.classList.toggle('is-active',stepIndex === index);
+          step.querySelector('.state').textContent = stepIndex < index ? 'Done' : stepIndex === index ? (index === steps.length - 1 ? 'Ready' : 'Moving') : 'Waiting';
+        });
+        status.textContent = index === steps.length - 1 ? 'Ready for your approval' : `Step ${index + 1} of ${steps.length}`;
+        result.textContent = messages[index];
+        if(index === steps.length - 1){
+          runButton.textContent = 'Run the example again';
+          runButton.disabled = false;
+        }
+      }
+
+      runButton.addEventListener('click',() => {
+        resetDemo();
+        runButton.disabled = true;
+        runButton.textContent = 'Running…';
+        messages.forEach((_,index) => {
+          const delay = reduceMotion ? 0 : index * 430;
+          timers.push(window.setTimeout(() => activateStep(index),delay));
+        });
+      });
+
+      const bookingButton = document.querySelector('#booking-button');
+      const bookingStatus = document.querySelector('#booking-status');
+      bookingButton.addEventListener('click',() => {
+        bookingStatus.hidden = false;
+        bookingStatus.focus();
+        bookingButton.textContent = 'Booking connection pending';
+      });
+    })();
+  </script>
+</body>
+</html>

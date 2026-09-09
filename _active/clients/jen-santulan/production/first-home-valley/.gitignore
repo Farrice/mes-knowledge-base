@@ -1,0 +1,15 @@
+# Regenerable bulk — kept out of git, reproducible from the scripts + provenance.jsonl
+imagery/raw/
+imagery/shortlist/
+imagery/contact-sheet/
+imagery/.thumbs/
+
+# Rendered stills and the seeded canvas page rebuild from the .dc.html sources
+canvas-v2/png/
+canvas-v2/.tmp/
+canvas-v2/first-home-valley-visual.html
+png/
+
+# Tracked on purpose: imagery/prepared/ (what the artboards actually embed),
+# imagery/provenance.jsonl (licence + source audit trail), every script,
+# and the canvas-v2/*.dc.html sources.

@@ -421,6 +421,9 @@ HOOK_UNOBSERVABLE = {
     "session_end_hook.py": "SessionEnd — fires after ledgers close",
     "campaign_beacon.py": "print-only SessionStart announcement of active campaign + next mission",
     "superseded_read_guard.py": "print-only PostToolUse redirect on superseded/archived file Read",
+    "py.sh": "wrapper/resolver for multi-worktree Python invocation — no observable side effects beyond delegation",
+    "session_brief.py": "print-only SessionStart aggregator (condenses child hook output to one line per domain)",
+    "worktree_lane.py": "orchestration script for worktree bootstrap/parity — executes during initialization",
 }
 # Feed file -> (producer description, max age days; None = exists-only).
 FEED_FRESHNESS = {

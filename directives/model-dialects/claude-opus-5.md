@@ -89,10 +89,36 @@ Admin mode: subagent (8 isolated `model: opus` dispatches). Conductor-scored —
 > Opus 5 subagents). Contexts were isolated, but this is not cross-tier independent scoring.
 > Re-score P2/P6/P9 from a Fable seat when one is available.
 
+## Fable-Seat Re-probe (2026-08-20 — independent scoring, satisfies the caveat below)
+Conductor: Fable 5 main loop; targets: Opus 5 + Sonnet 5 subagents, identical bare prompts,
+harness-embedded. Findings:
+- **P2 regressed, family-wide.** "Exactly 40 words" → Opus 43 words + meta-preamble ("I'll answer
+  directly."); Sonnet also 43. Exact-count bounds now miss on BOTH tiers — the July "hits bounds
+  exactly" finding no longer holds.
+- **P6 reframed: verbosity is substantially HARNESS-amplified, not Opus-specific.** Bare "what
+  does git rebase do?" → Opus ~400w with diagram + repo caveats, Sonnet ~380w with diagram + repo
+  caveats. July's contrast (Sonnet = 4 sentences) did not reproduce; injected CLAUDE.md context
+  invites repo-specific expansion from every model. Only per-prompt dialect injection counteracts.
+- **P9 reproduced, softer.** Identical 2-sentence email-opener ask: Sonnet = 0 tool calls, 25s,
+  delivered 2 sentences. Opus = 9 tool calls, 86s, read offer canon + ICP dossier, ran
+  prose_classifier, returned TWO takes + grounding notes + push-back. No Notion write and no
+  self-run Chain this time (July's worst side effects absent), but deliverable-scope expansion
+  stands: Opus behaves as a senior operator who overrides sizing instructions.
+- **NEW — blind taste A/B (n=1): Opus prose PASSES Farrice's bar.** Three seats (Opus/Sonnet/
+  Fable), identical LinkedIn ghostwrite brief, VOICE-CARD loaded, blind labels. Verdict: Opus
+  take GREAT, Sonnet take GREAT, Fable take TERRIBLE ("no sentence rhythm" — staccato fragment
+  stacking). Logged to voice_ratchet 2026-08-20. **The "worst time with Opus 5" is interaction
+  ergonomics (scope + verbosity in live sessions), NOT artifact-level taste.**
+
+**Seating consequence (2026-08-20):** front seat for interactive sessions = Fable when available,
+else Sonnet 5 (containment proven). Opus 5 = dispatched executor under the negative brief —
+*including creative drafting*, where it is blind-verified at Farrice's bar. Post-2026-08-31
+steady state: Sonnet 5 conducts interactive work; Opus 5 executes dispatched work.
+
 ## Re-probe Triggers
 Provider version bump past `claude-opus-5` · fixture replay flags cross-skill drift on Opus-run
-work · Opus assigned a new class of forge work · a Fable seat becomes available for independent
-re-scoring of the verbosity and scope-containment findings.
+work · Opus assigned a new class of forge work · taste A/B sample grows past n=1 with a
+contradicting verdict.
 
 ## Machine-Readable Dialect (consumed by `steering_loop_hook.py` — the bound injector)
 

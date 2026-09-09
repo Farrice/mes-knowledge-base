@@ -1,0 +1,14 @@
+{
+  "objective": "Recover opt-in expert production and prepare first Jen blind comparison",
+  "owner": "system-audit",
+  "approval": "User explicitly requested implementation of full plan including bounded native-agent comparisons",
+  "permitted_writes": "isolated lane; selective integration; no global/external/paid writes",
+  "preserve": "extraction, original/V2 prompts, approved client assets",
+  "stop": "First paired B-roll packages ready for human quality/effort assessment; later pieces wait for acceptance",
+  "revision_cap": 2,
+  "repair_cap": 1,
+  "adoption": "all 3 quality wins AND lower measured human effort with no regression",
+  "subagents": "source strategist, solo baseline, craft owner, independent editor; no delegated file edits",
+  "proof": "tests, live message exchange, complete contribution receipts, anonymized artifacts; adoption remains unproven until human outcomes",
+  "rollback": "revert owned change set only"
+}

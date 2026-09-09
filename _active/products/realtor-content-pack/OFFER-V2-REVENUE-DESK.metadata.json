@@ -1,0 +1,10 @@
+{
+  "artifact_type": "offer_proposal",
+  "title": "Realtor AI Revenue Desk Founding Pilot",
+  "status": "proposed_not_approved",
+  "test_window_hours": 72,
+  "founding_seats": 3,
+  "price_hypothesis_usd": 750,
+  "deposit_hypothesis_usd": 250,
+  "external_actions": "none"
+}

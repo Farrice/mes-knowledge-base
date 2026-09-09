@@ -1,0 +1,11 @@
+{
+  "title": "Sales and Buyer Psychology Mastery Expansion Receipt",
+  "artifactType": "implementation-receipt",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "COLD_DEVELOPMENT",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false
+}

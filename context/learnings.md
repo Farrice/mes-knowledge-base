@@ -1,0 +1,45 @@
+# Learnings (Scrapes Skill Systems self-improvement hook — LIVING)
+
+> Every Scrapes skill except `00-social-content` reads and writes this file at
+> `{decoupled_base}/context/learnings.md` (contract: `.claude/skills/meta-skill-creator/SKILL.md`
+> "Self-improvement"). Until 2026-09-02 the file did not exist, so the hook was
+> declared but dead. Our front-door workflows (`/social-carousel`, `/social-post`,
+> `/social-repurpose`, `/deck-build`, `/video-to-shorts`, `/video-to-ebook`) append
+> one entry per run under their skill's heading, and READ the last three entries
+> before starting, so run N+1 begins where run N ended.
+>
+> Entry shape (one line, newest last): `- YYYY-MM-DD · <brand> · <slug> · <what to keep / what to change> · verdict: <Farrice's felt verdict or pending>`
+> Brand-specific taste lives with the brand (calibration-log.md, voice-profile.md); this file holds
+> pipeline lessons that transfer across brands.
+
+# General
+- 2026-09-02 · all · wiring · Scrapes pipelines own machinery; copy seams are ours (PRECEDENCE-MAP.md "Craft-room routing"). Scenario A ("finished text, just the images") is the supported hand-off point · verdict: ratified by Farrice
+- 2026-09-02 · all · brand lock · every run resolves the brand through `execution/scrapes_brand.py` first and echoes the BRAND LOCK line into pipeline-log.md; ambiguity asks, never guesses · verdict: ratified by Farrice
+
+## 00-social-content
+- 2026-09-03 · farrice · editorial style (8 templates) · reference-led build worked cleanly: author the 4:5 frames as HTML first (`compositions/editorial/frames/`), render to `visual_refs/editorial/`, then one builder per frame. Builders found the source HTML and ported 1:1 (Check D 0% delta), all `solid-css`/`a-framed-image`, $0. They honored moves #8/#9 and refused AI in evidence/portrait zones on their own. Gate false positives recur on tight editorial grids (Check B raster-fill, ring-probe overflow) and are now a known class, not a defect. Photo slots are real-upload (`PHOTO_MAIN_PATH`); a preview with a placeholder is re-rendered with `--data` · verdict: frames approved with notes by Farrice; templates await his Studio Approve
+- 2026-09-03 · farrice · template pool linkedin-carousel · 4 refs (Premium Minimal frames) → 4 templates, all `solid-css` pure HTML, $0 GPT Image. Builders fought Check D's absolute 8.0cqw display floor (the brand's restrained h1 is ~6.7cqw): headlines scaled up 40–60% vs refs; `compare_render_to_ref.py` ring probe throws false OVERFLOW on tight typographic layouts; Check B keyword heuristic trips on negated prose ("no AI image"). Keep: pure-HTML route for typographic brands. Change: expect the display-floor escalation and judge it by eye in the Studio · verdict: Farrice 2026-09-03 "typography, spacing, hierarchy done poorly on some" → craft pass back to the refs' 72px h1 and ref positions (pool REVIEW-NOTES.md). For typographic brands: treat the builder's Check D floor as a known distortion and plan the post-build craft pass as a standard step
+- 2026-09-02 · jen · still-renting v1 · hook written from the Scrapes first-slide formulas alone read 6/10; v2 with Alyssa placement + Luke grip is the take to judge. Formulas = shape check, not the pen · verdict: v2 pending Farrice
+- 2026-09-03 · Blind bar 01 (farrice, Scenario A, editorial pool, $0 images). KEEP: our pens → claim_audit --strict + classifier on the caption alone → ssc-designer with the slide script as inspiration_pool and "copy is FINAL" → it returned every slot verbatim (both takes) and resolved photos to our evidence crops as USER_ASSET tier 5. CHANGE: (1) designer YAML HTML-escapes <br> as &lt;br&gt; — unescape before render; (2) its story-framework audit flags 25-word body caps, the TEMPLATE cover, energy curve and tonal alternation on every editorial run — style-inherent, read as noise for this pool, never rewrite copy to satisfy them; (3) slot ergonomics learned from Take B: SOURCE_LABEL/EVIDENCE_LABEL ≤ ~50 chars (they render uppercase letterspaced; one line or they clip), VERDICT_WORD and the band HEADLINE one line only (the band subtitle sits directly under a one-line display word), FOOTER_TOPIC on signature-close-cta is the short CTA word, portrait photo slots (two-photo, photo-right) take portrait crops and the band/evidence slots take wide crops. Verdict: pending Farrice (JUDGING-SURFACE.html).
+- 2026-09-03 · Blind bar 01 VERDICT (Farrice): take A (AG1 named, fight picked) = the floor, "11 out of 10"; take B (AG1, symptom→decision) = close second, best screenshot handling; take C (anonymized composite) = 9, "safe... in the middle content gets killed and buried", keep only for client-privacy moments. Open critique on all three: composition/proportion busy on some slides, hierarchy uneven, some evidence screenshots cut off (object-fit cover on crops whose ratio differs from the slot). He wants an operator-only VERIFICATION hub per run (claims, sources, crops), never on the slides. Recipe: docs/solutions/2026-09-03-teardown-carousel-copy-lock-evidence-crops.md
+- 2026-09-03 · Template Studio (content_studio.py --mode template) is the weak seam, per Farrice after reviewing the pool: the canvas is not shown at the true 4:5 crop, there is no LinkedIn/Instagram preview of the finished slide (Scrapes' own demos have one), and the comment flow (pill → composer → Save) reads as broken to him; he wants a box that pops, type, submit. Do NOT edit inside .claude/skills; if it matters, wrap: a thin preview page of ours (true-size PNG per platform + a plain comment box that writes comments.json) or take approvals as a tapped list. Approvals meanwhile recorded straight in manifest.json (11 approved, portrait-statement-cta retired: "low-quality graphic design and taste").
+- 2026-09-03 · farrice · the wrap landed: `execution/studio_preview.py` (`--pool` / `--run`) is now the review surface — true 4:5 PNG inside real-width LinkedIn (555px) and Instagram (468px) feed cards, plain comment box → Submit → `comments.json` in the vendor's exact shape, Approve/Retire writing `manifest.json` + `styles.json` atomically. stdlib only, $0, nothing inside `.claude/skills/` touched. Two shapes worth remembering: the vendor comment record is `{id, xPct, yPct, zone, text}` with **no timestamp key** — the id suffix is base-36 epoch-ms and that is the only clock; and run slides key off the PNG stem (`slide-01`), matching `preview_editor.py`. Tests `tests/test_studio_preview.py` sabotage both directions (an overwriting comment writer, and a naive in-place manifest write that leaves half a file) · verdict: standing, his taps pending
+
+## str-trending-research
+- 2026-09-02 · all · replaced by `execution/research.py` (receipts, budgets). Our brief is written into `projects/str-trending-research/{date}/{brand}--{slug}.md` in their brief-template shape so the pipeline's cache check finds it · verdict: standing
+
+## tool-humanizer
+- 2026-09-02 · all · may run first in `deep` mode against the brand's voice-profile.md; `prose_classifier.py check` remains the gate. Blind bar #2 pending · verdict: pending
+
+## tool-fact-checker
+- 2026-09-02 · all · optional second pass; `claim_audit.py check --strict` is the veto · verdict: standing
+
+## viz-image-gen
+- 2026-09-03 · farrice · render_template.py autosize · the fit test requires the text's SINGLE-LINE width ≤ box, so a headline that wraps naturally is shrunk toward its floor (72→37px seen). Pass headlines with explicit `<br>` per line; `--no-autosize` exists for our own renders · verdict: standing
+- 2026-09-02 · all · every AI slide prompt passes the craft-map master (nano-banana / gpt-image-2 director) before generation; `openai_budget_guard.py check` before every GPT Image call; $15/mo cap · verdict: standing
+- 2026-09-03 · render_template.py `--data` must be a JSON FILE path for real slide copy: an inline JSON string longer than the OS filename limit crashes `load_data_arg` (`p.exists()` → Errno 63 File name too long) before parsing. Write `slide-NN.data.json` next to the PNG and pass the path. Also: run the renderer as `uv run --quiet --with playwright python .claude/skills/viz-image-gen/scripts/render_template.py …`; the lane venv and system python3 have no playwright. (Take B render, blind bar 01)
+
+## mkt-content-repurposing
+## 00-slides
+## 00-longform-to-shortform
+## 00-youtube-to-ebook

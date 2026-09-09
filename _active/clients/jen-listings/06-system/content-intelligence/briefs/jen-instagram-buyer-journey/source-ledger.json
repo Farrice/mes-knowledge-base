@@ -1,0 +1,157 @@
+{
+  "retrieved": "2026-09-04",
+  "method": "Read-only web search/open; no private account access; no paid provider calls",
+  "sources": [
+    {
+      "id": "meta-sharing",
+      "title": "Meta Instagram sharing and navigation",
+      "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "published_or_data_date": "2025-09-28",
+      "source_type": "official",
+      "status": "VERIFIED published statement; Jen account UI unconfirmed",
+      "decision_use": "Messaging is the leading photo/video sharing method; do not generalize India UI rollout."
+    },
+    {
+      "id": "meta-ranking",
+      "title": "Meta Feed system card",
+      "url": "https://ai.meta.com/tools/system-cards/instagram-feed-ranking/",
+      "published_or_data_date": "2022-02-23",
+      "source_type": "official",
+      "status": "VERIFIED dated explanation; current weights unconfirmed",
+      "decision_use": "Multiple predictions; a save does not guarantee next-post exposure."
+    },
+    {
+      "id": "meta-ai",
+      "title": "Meta ranking explanation",
+      "url": "https://about.fb.com/news/2023/06/how-ai-ranks-content-on-facebook-and-instagram/amp/",
+      "published_or_data_date": "2023-06",
+      "source_type": "official",
+      "status": "VERIFIED published explanation",
+      "decision_use": "Sharing one input among many."
+    },
+    {
+      "id": "meta-stories",
+      "title": "Meta Blueprint Stories interaction",
+      "url": "https://fbp.exceedlms.com/student/path/287735-invite-audience-to-interact-instagram-stories",
+      "published_or_data_date": null,
+      "source_type": "official_training",
+      "status": "VERIFIED documented controls; account availability unconfirmed",
+      "decision_use": "Poll and question stickers; use topic feedback separately from conversation."
+    },
+    {
+      "id": "meta-links",
+      "title": "Meta Story link expansion",
+      "url": "https://about.fb.com/ja/news/2021/10/linkaccessstickers/",
+      "published_or_data_date": "2021-10-28",
+      "source_type": "official",
+      "status": "VERIFIED historical rollout; account access unconfirmed",
+      "decision_use": "Direct link sticker can remove bio menu; restrictions exist."
+    },
+    {
+      "id": "meta-requests",
+      "title": "Meta message settings",
+      "url": "https://about.fb.com/news/2024/01/introducing-stricter-message-settings-for-teens-on-instagram-and-facebook/",
+      "published_or_data_date": "2024-01; updated 2024-11",
+      "source_type": "official",
+      "status": "VERIFIED published text-only request restriction",
+      "decision_use": "Do not require image/audio in initial message request."
+    },
+    {
+      "id": "buffer",
+      "title": "2026 State of Social Media Engagement",
+      "url": "https://buffer.com/resources/state-of-social-media-engagement-2026/",
+      "published_or_data_date": "2026 report; data through 2025-12-03; some older format windows",
+      "source_type": "original_observational_analysis",
+      "status": "VERIFIED report; not causal or representative of all Instagram",
+      "decision_use": "Format engagement and reply association; not a Jen conversion forecast."
+    },
+    {
+      "id": "alyssa-site",
+      "title": "Alyssa Curnutt agent page",
+      "url": "https://alyssacurnutt.com/about",
+      "published_or_data_date": null,
+      "source_type": "agent_owned",
+      "status": "VERIFIED visible public positioning",
+      "decision_use": "Local identity and Instagram connected on agent site."
+    },
+    {
+      "id": "alyssa-review",
+      "title": "Zillow buyer review",
+      "url": "https://www.zillow.com/profile/alyssacurnutt",
+      "published_or_data_date": "2026-05-18 review",
+      "source_type": "buyer_authored_review",
+      "status": "VERIFIED review text; LIKELY self-reported discovery",
+      "decision_use": "Reviewer explicitly says found through Instagram; no DM path or causal claim."
+    },
+    {
+      "id": "jimmy",
+      "title": "Jimmy Conover relocation page",
+      "url": "https://jimmy-conover.com/",
+      "published_or_data_date": null,
+      "source_type": "practitioner_owned",
+      "status": "VERIFIED visible offer; completion untested",
+      "decision_use": "External call destination names a specific outcome for 12-month movers."
+    },
+    {
+      "id": "bam",
+      "title": "Jimmy Conover manual DM interview report",
+      "url": "https://nowbam.com/the-dm-script-that-turns-new-followers-into-real-estate-leads/",
+      "published_or_data_date": "2026-08-13",
+      "source_type": "trade_interview_report",
+      "status": "VERIFIED published method; outcome attribution UNCONFIRMED",
+      "decision_use": "Personal questions and recap; do not adopt unsolicited new-follower outreach."
+    },
+    {
+      "id": "manychat-re",
+      "title": "Manychat real-estate article",
+      "url": "https://manychat.com/blog/how-real-estate-agents-get-leads-on-social-media/",
+      "published_or_data_date": "2026-07-13",
+      "source_type": "vendor_interview_and_embedded_examples",
+      "status": "VERIFIED published examples; execution/results vendor-reported",
+      "decision_use": "Kurt Harfmann GUIDE CTA; Alexis coaching differs from residential buyer service."
+    },
+    {
+      "id": "manychat-jenna",
+      "title": "Manychat Jenna Kutcher case",
+      "url": "https://manychat.com/blog/success-stories/jenna-kutcher/",
+      "published_or_data_date": null,
+      "source_type": "vendor_case_study",
+      "status": "VERIFIED publication; reported sales not independently audited",
+      "decision_use": "Keyword-to-resource method should not be rejected for familiarity; different offer."
+    },
+    {
+      "id": "dre",
+      "title": "California DRE representation advisory",
+      "url": "https://www.dre.ca.gov/Licensees/Advisories/Advisory_2024_11_14_Changes_to_Buyer_Representation.html",
+      "published_or_data_date": "2024-11-14",
+      "source_type": "regulator",
+      "status": "VERIFIED published guidance; broker application required",
+      "decision_use": "State timing and association touring rule differ; DM checkbox is not agreement."
+    },
+    {
+      "id": "crd",
+      "title": "California CRD housing",
+      "url": "https://calcivilrights.ca.gov/housing/",
+      "published_or_data_date": null,
+      "source_type": "regulator",
+      "status": "VERIFIED published protections",
+      "decision_use": "Objective buyer-selected criteria; no protected-class scoring or steering."
+    }
+  ],
+  "local_sources": [
+    "../../Jen 6-3-2 Lead System Architecture.md",
+    "../../lead-system/First Home Valley Diagnostic - Private Prototype.md",
+    "../../lead-system/verification-receipt.json",
+    "../jen-632-conversion-evidence/jen-632-conversion-evidence-brief.md",
+    "../../../ENGINE-V2.md",
+    "../../../../brand_context/BRAND.yaml",
+    "../../../../brand_context/voice-profile.md"
+  ],
+  "access_limits": [
+    "Instagram Ranking Explained returned 429; did not cite as inspected.",
+    "Direct practitioner Instagram pages unavailable; used accessible owned pages and explicitly qualified reports.",
+    "Meta developer private-reply docs inaccessible; no API window or eligibility claims made.",
+    "No Jen DM, Story controls, Insights, CRM, booking, or lender protocol inspected in this task."
+  ],
+  "time_sensitive_caution": "Historical feature releases confirm documented mechanics, not current per-account availability. Current field comparison remains untested."
+}

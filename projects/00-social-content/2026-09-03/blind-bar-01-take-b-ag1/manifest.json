@@ -1,0 +1,69 @@
+{
+  "take": "B",
+  "brand": "farrice",
+  "slides": [
+    {
+      "n": 1,
+      "template_id": "signature-cover",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-01.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "fatigue"
+    },
+    {
+      "n": 2,
+      "template_id": "word-photo-band-body",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-02.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "the symptoms"
+    },
+    {
+      "n": 3,
+      "template_id": "photo-right-columns-body",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-03.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "the wrong<br>diagnosis"
+    },
+    {
+      "n": 4,
+      "template_id": "photo-left-list-body",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-04.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "the<br>argument"
+    },
+    {
+      "n": 5,
+      "template_id": "two-photo-list-body",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-05.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "who is<br>arguing it"
+    },
+    {
+      "n": 6,
+      "template_id": "evidence-crop-body",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-06.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "march"
+    },
+    {
+      "n": 7,
+      "template_id": "signature-close-cta",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/scrapes-routing/projects/00-social-content/2026-09-03/blind-bar-01-take-b-ag1/slide-07.png",
+      "src": "brand-renderer:render_template.py",
+      "model": "none",
+      "cost_usd": 0.0,
+      "prompt": "dm angle"
+    }
+  ]
+}

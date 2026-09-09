@@ -1,0 +1,17 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    FLAGGED
+  AI Score:   5/10
+  Words:      1205
+  Signals:    2
+  Rhythm CV:  1.8 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 11 parallel blocks found
+    [3.0] structural_emoji — **Best for:** T02, T05, T09, T, **Best for:** T03, T06, T13 an, **Best for:** T01 and a truthf
+
+  This prose reads AI-generated. Expert Standard capped at 6. Rewrite with: shorter sentences, active voice, specific details over abstractions, and the expert's actual vocabulary (not AI vocabulary).
+============================================================
+

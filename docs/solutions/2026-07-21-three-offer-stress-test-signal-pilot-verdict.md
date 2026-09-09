@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: three-offer stress test
+name: three-offer-stress-test-signal-pilot-verdict
+problem_class: offer strategy / offer selection / sprint spine
+domain: clients
+status: proven
+problem_signature: "several offers all feel stronger than the one that just died and one has to be picked as the revenue sprint spine, but the pick keeps being made on enthusiasm instead of receipts, and the last two plans produced deliverables instead of sends"
+tags: [offer, red-team, sprint, pricing, evidence, send-before-build]
+---
 # Solution Card — Three-Offer Market Stress Test → Signal Pilot survives modified
 
 **Date:** 2026-07-21 (evening; follows the morning Alignment Audit kill)

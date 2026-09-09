@@ -1,0 +1,29 @@
+{
+  "exactly_eight_artifacts": true,
+  "local_links_checked": 47,
+  "local_links_exist": true,
+  "source_records": 239,
+  "source_ids_unique": true,
+  "topic_count": 23,
+  "reference_queue_count": 50,
+  "verbatim_quotes_match": true,
+  "source_date_counts": {
+    "unknown": 158,
+    "2026": 75,
+    "2022": 2,
+    "2025": 3,
+    "2024": 1
+  },
+  "original_inputs_unchanged": true,
+  "changed_inputs": [],
+  "source_file_pointers_missing": [],
+  "bullseye_svg_parses": true,
+  "prose_check_run_on_eight": true,
+  "raw_prose_flags_preserved": true,
+  "current_context_sources": 11,
+  "current_listening_excerpts": 6,
+  "structural_status": "PASS",
+  "errors": [],
+  "content_review": "Research complete with explicit evidence limits. Jen reactions, new-copy taste approval, current format performance and conversions remain untested.",
+  "paid_credits_used": 0
+}

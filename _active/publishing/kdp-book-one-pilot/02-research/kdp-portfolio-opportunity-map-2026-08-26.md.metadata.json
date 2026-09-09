@@ -1,0 +1,11 @@
+{
+  "artifact_type": "research_decision_brief",
+  "title": "KDP Portfolio Opportunity Map",
+  "created_at": "2026-08-26",
+  "status": "research_pass_decision_unapproved",
+  "owner": "deep-research-os",
+  "commercial_state": "NO_EVENT",
+  "permission_state": "NO_PERMISSION",
+  "primary_recommendation": "Validate the Civilian Strength gold unit and one secondary fieldbook prototype before any full portfolio build",
+  "evidence_receipt": ".tmp/research-missions/find-the-strongest-ethical-repeatable-kdp-book-and-book-series-o-20260826T073943Z/research-receipt.json"
+}

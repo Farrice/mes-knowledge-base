@@ -1,0 +1,48 @@
+{
+  "handle": "@_JIING",
+  "location": "SAN FERNANDO VALLEY",
+  "status": "proof-only",
+  "sources": ["Evergreen creative proof; no volatile market claims."],
+  "proofs": {
+    "after-hours-guide": {
+      "series": "THE VALLEY ADDRESS BOOK",
+      "slides": [
+        {"type": "cover", "eyebrow": "A LOCAL GUIDE", "headline": "The places that make a neighborhood feel lived in", "body": "Three details I notice before I ever talk about price.", "image": "assets/proof/vannuys-street-scene.jpg"},
+        {"type": "feature", "eyebrow": "01 · AFTER WORK", "headline": "See what the block feels like when the day slows down", "body": "A neighborhood should support the life you actually live—not only look good during a showing.", "image": "assets/proof/valley-street-01.jpg"},
+        {"type": "close", "eyebrow": "JEN'S NOTE", "headline": "The right home is also the right ordinary Tuesday", "cta": "Tell me what your normal week needs to make easier.", "image": "assets/proof/california-bungalow-00.jpg"}
+      ]
+    },
+    "sunlit-local-notes": {
+      "series": "LOCAL NOTES",
+      "slides": [
+        {"type": "cover", "eyebrow": "THE VALLEY FIELD GUIDE", "headline": "Three quiet tests for a neighborhood", "body": "The small things that tell me more than a polished open house.", "image": "assets/proof/valley-street-01.jpg"},
+        {"type": "feature", "eyebrow": "TEST 01", "headline": "Try the Saturday routine", "body": "Coffee, groceries, parking, one real errand. Does the area make your normal life feel easier?", "image": "assets/proof/vannuys-street-scene.jpg"},
+        {"type": "close", "eyebrow": "SAVE THIS", "headline": "Choose the routine before the room count", "cta": "Bring me the life you want the address to support.", "image": "assets/proof/palm-tree-sunset-city-02.jpg"}
+      ]
+    },
+    "quiet-home-editorial": {
+      "series": "HOME, HONESTLY",
+      "slides": [
+        {"type": "cover", "eyebrow": "A NOTE FROM JEN", "headline": "A house should support your real life", "body": "Not the version of it you perform during a showing.", "image": "assets/proof/jen-porch-vannuys.jpg"},
+        {"type": "feature", "eyebrow": "LOOK FOR THE ORDINARY", "headline": "Where does the quiet land?", "body": "Morning light. The walk to the car. The place your bags go when you come home tired. Those details are not small.", "image": "assets/proof/sunlight-through-window-floor-00.jpg"},
+        {"type": "close", "eyebrow": "THE QUESTION I ASK", "headline": "Can you picture a normal week here?", "cta": "If the answer is still fuzzy, we keep looking.", "image": "assets/proof/jen-portrait.jpg"}
+      ]
+    },
+    "valley-moments": {
+      "series": "VALLEY MOMENTS",
+      "slides": [
+        {"type": "cover", "eyebrow": "SMALL THINGS, BIG FIT", "headline": "The commute isn't the whole story", "accent": "your actual day", "body": "The best neighborhood test starts after you arrive.", "image": "assets/proof/vannuys-street-scene.jpg"},
+        {"type": "feature", "eyebrow": "MOMENT 01", "headline": "Notice the return home", "accent": "the feeling", "body": "The turn onto your street. The last errand. The five minutes before the front door.", "image": "assets/proof/palm-tree-sunset-city-02.jpg"},
+        {"type": "close", "eyebrow": "THE REALIZATION", "headline": "A location works when your life fits inside it", "accent": "without forcing it", "cta": "Start with your routine. Then we find the map.", "image": "assets/proof/valley-street-01.jpg"}
+      ]
+    },
+    "hidden-address-journal": {
+      "series": "THE HIDDEN ADDRESS JOURNAL",
+      "slides": [
+        {"type": "cover", "eyebrow": "VALLEY EDITION", "headline": "The hidden value is outside the front door", "body": "A home lives in a block, a routine, and a set of small returns.", "image": "assets/proof/california-bungalow-00.jpg"},
+        {"type": "feature", "eyebrow": "ADDRESS NOTE 01", "headline": "Read the block with the house", "body": "The light, the approach, the neighboring scale, the place you naturally slow down.", "image": "assets/proof/vannuys-street-scene.jpg", "insets": ["assets/proof/sunlight-through-window-floor-00.jpg", "assets/proof/valley-street-01.jpg"]},
+        {"type": "close", "eyebrow": "NEXT EDITION", "headline": "The address is only the beginning", "cta": "Tell me which Valley block you want me to read next.", "image": "assets/proof/jen-porch-vannuys.jpg"}
+      ]
+    }
+  }
+}

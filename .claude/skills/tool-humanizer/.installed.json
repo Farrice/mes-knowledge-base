@@ -1,0 +1,13 @@
+{
+  "version": "1.1.0",
+  "installed_at": "2026-09-02T21:05:11.187Z",
+  "installer_version": "3.1.0",
+  "files": {
+    "CHANGELOG.md": "sha256:d525f39dfb61f8cd36718055a2b52fa9471a5ea1c99dd0ea5a7652ba14a1ca92",
+    "SKILL.md": "sha256:3fdba548ae2de4465843a865c2448a2246a81251c9a9c76b2707ec48be7a1920",
+    "references/pattern-library.md": "sha256:14fd4283102ff75e8fdf4e23e17233bc4b1fc7b6dbd2e57a4febdf8150092e8a",
+    "references/quality-gate.md": "sha256:4575af22fabe3d1514174233e6653afdec180b45536f071dbdba502281da4588",
+    "references/replacement-guide.md": "sha256:11c4942730b502798fd6fe2f44ff7b58a06d24279884f309d9f2903674972c5f",
+    "skill-pack/config/sys-config.md": "sha256:dd293318b3bd2da0e5fcc8faf33e525ff209afe757c9427a6cf1fb8d3aba6e0d"
+  }
+}

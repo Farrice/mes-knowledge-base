@@ -1,0 +1,30 @@
+{
+  "artifact": "Jen 6-3-2 private lead system",
+  "verified_at": "2026-09-04",
+  "status": "PASS_FOR_PRIVATE_REVIEW_NOT_AUTO_PUBLISH",
+  "canon": {
+    "engine_v2_reconciled": true,
+    "brand_yaml_reconciled": true,
+    "yaml_parse": "PASS",
+    "brand_isolation": "PASS",
+    "visual_token_gate": "PARKED_PRE_EXISTING_MISSING_TOKENS_JSON"
+  },
+  "proof_interview": {
+    "source_traced_cases": ["6", "3"],
+    "creative_income_case": "OPEN_HUMAN_PROOF_GAP",
+    "claim_audit": "PASS",
+    "fair_housing_lint": "PASS"
+  },
+  "diagnostic": {
+    "automated_journeys_expected": 12,
+    "automated_journeys_passed": 12,
+    "browser_review": "PASS_MOBILE_FLOW_AND_OPTIONAL_NOTE",
+    "buyer_copy_classifier": "CLEAN_0_OF_10",
+    "fair_housing_lint": "PASS",
+    "saves_or_transmits_answers": false,
+    "human_comprehension_tests": "NOT_RUN"
+  },
+  "commercial_proof": "NO_EVENT",
+  "external_actions": [],
+  "paid_spend_usd": 0
+}

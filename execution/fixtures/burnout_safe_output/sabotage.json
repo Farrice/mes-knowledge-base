@@ -1,0 +1,30 @@
+{
+  "schema_version": "burnout-safe-output-sabotage/v0.1",
+  "required_sabotage_count": 24,
+  "cases": [
+    {"id": "SAB-001", "target": "BSO-004", "mutation": "remove_proof", "expected_failure": "proof is mandatory"},
+    {"id": "SAB-002", "target": "BSO-004", "mutation": "invalid_proof_state", "expected_failure": "proof state is controlled"},
+    {"id": "SAB-003", "target": "BSO-004", "mutation": "empty_verdict", "expected_failure": "empty card rows are forbidden"},
+    {"id": "SAB-004", "target": "BSO-004", "mutation": "reorder_card_labels", "expected_failure": "card labels have fixed order"},
+    {"id": "SAB-005", "target": "BSO-004", "mutation": "add_empty_need", "expected_failure": "empty optional rows must be omitted"},
+    {"id": "SAB-006", "target": "BSO-001", "mutation": "card_on_tiny_turn", "expected_failure": "tiny turns must not overfire"},
+    {"id": "SAB-007", "target": "BSO-004", "mutation": "remove_material_card", "expected_failure": "material decisions need a card"},
+    {"id": "SAB-008", "target": "BSO-009", "mutation": "conflict_with_use_this", "expected_failure": "conflict must not guess authority"},
+    {"id": "SAB-009", "target": "BSO-012", "mutation": "select_superseded_authority", "expected_failure": "superseded artifacts cannot become current silently"},
+    {"id": "SAB-010", "target": "BSO-014", "mutation": "amber_creates_task", "expected_failure": "AMBER stays inside the task"},
+    {"id": "SAB-011", "target": "BSO-014", "mutation": "amber_pauses_work", "expected_failure": "AMBER warns without interruption"},
+    {"id": "SAB-012", "target": "BSO-015", "mutation": "red_continues_work", "expected_failure": "RED preserves and pauses"},
+    {"id": "SAB-013", "target": "BSO-015", "mutation": "red_auto_creates_task", "expected_failure": "RED cannot create a task without approval"},
+    {"id": "SAB-014", "target": "BSO-004", "mutation": "fixed_visible_title", "expected_failure": "visible recommendation titles cannot be canned"},
+    {"id": "SAB-015", "target": "BSO-004", "mutation": "generic_prompt", "expected_failure": "prompts must be session-specific"},
+    {"id": "SAB-016", "target": "BSO-004", "mutation": "remove_operator_insight", "expected_failure": "recommendations require operator insight"},
+    {"id": "SAB-017", "target": "BSO-004", "mutation": "remove_hidden_gap", "expected_failure": "recommendations require a hidden gap"},
+    {"id": "SAB-018", "target": "BSO-004", "mutation": "remove_capability", "expected_failure": "recommendations require a capability"},
+    {"id": "SAB-019", "target": "BSO-004", "mutation": "remove_quality_bar", "expected_failure": "recommendations require a quality bar"},
+    {"id": "SAB-020", "target": "BSO-004", "mutation": "remove_skip_condition", "expected_failure": "recommendations require a skip condition"},
+    {"id": "SAB-021", "target": "BSO-017", "mutation": "wrong_rank_order", "expected_failure": "ranking must match the live context"},
+    {"id": "SAB-022", "target": "BSO-018", "mutation": "collapse_third_recommendation", "expected_failure": "ranking cannot reduce recommendation depth"},
+    {"id": "SAB-023", "target": "BSO-016", "mutation": "existing_task_sprawl", "expected_failure": "checkpoints cannot create visible task or file piles"},
+    {"id": "SAB-024", "target": "HUMAN_GATE", "mutation": "stored_behavior_pass", "expected_failure": "behavior status must be computed from ratings"}
+  ]
+}

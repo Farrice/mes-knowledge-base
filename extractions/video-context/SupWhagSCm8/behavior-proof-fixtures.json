@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "evaluation_type": "frozen synthetic baseline-versus-integrated structural comparison",
+  "disclosure": "This proves routing, evidence discipline, decision usefulness, and causal restraint on frozen cases. It is not independent market proof or a production receipt.",
+  "rubric": [
+    "artifact_structure",
+    "decision_usefulness",
+    "evidence_provenance",
+    "claim_or_causal_restraint",
+    "next_test",
+    "insight_density"
+  ],
+  "cases": [
+    {
+      "id": "competitor-messaging",
+      "input": "Three supplied SaaS homepage excerpts plus a challenger product brief. Identify messaging gaps and propose two directions.",
+      "weakness": "A generic model can summarize pages and invent whitespace without alternatives, status quo, or proof.",
+      "baseline": {
+        "blind_label": "B",
+        "artifact": "Three brand summaries, a list of six possible gaps, and two hero headlines presented as opportunities.",
+        "evidence_state": "not separated",
+        "next_test": "none"
+      },
+      "integrated": {
+        "blind_label": "A",
+        "artifact": "Source inventory; like-for-like messaging matrix; product, non-product, and status-quo alternatives; crowded-trope verdict; whitespace classified as supported or research hypothesis; two directions with proof requirements.",
+        "evidence_state": "source rows, unknowns, and untested hypotheses separated",
+        "next_test": "five buyer or lost-deal checks against the proposed differentiators"
+      },
+      "blind_winner": "A",
+      "result": "INTEGRATED_WIN"
+    },
+    {
+      "id": "email-nurture",
+      "input": "An ecommerce calculator signup should become a paid trial through a five-email sequence.",
+      "weakness": "A generic sequence repeats benefits and escalates CTA pressure without mapping belief or proof.",
+      "baseline": {
+        "blind_label": "A",
+        "artifact": "Five emails with varied subject lines, feature summaries, and a trial CTA in each message.",
+        "evidence_state": "voice and proof assumed",
+        "next_test": "test subject lines"
+      },
+      "integrated": {
+        "blind_label": "B",
+        "artifact": "Reader-entry state; belief and objection journey; five education-first emails with standalone value; proof placement; CTA-intensity progression; voice-reference dependency; test map.",
+        "evidence_state": "proof, urgency, testimonial, and voice dependencies explicit",
+        "next_test": "reply or click signal per belief transition before trial conversion"
+      },
+      "blind_winner": "B",
+      "result": "INTEGRATED_WIN"
+    },
+    {
+      "id": "campaign-diagnostics",
+      "input": "Three channels provide spend, impressions, clicks, conversions, and attributed revenue. Recommend next month's allocation.",
+      "weakness": "A generic analysis can restate ROAS and treat attribution correlations as causal truth.",
+      "baseline": {
+        "blind_label": "B",
+        "artifact": "Rank channels by ROAS, cut the lowest, and move the full amount to the highest performer.",
+        "evidence_state": "platform attribution treated as truth",
+        "next_test": "monitor results"
+      },
+      "integrated": {
+        "blind_label": "A",
+        "artifact": "Metric decomposition; observed efficiency differences; alternative funnel and attribution explanations; causal-confidence statement; reversible allocation band; confirming signal; stop and rollback condition.",
+        "evidence_state": "observed, inferred, unknown, and untested separated",
+        "next_test": "time-bounded holdout or staged reallocation with precommitted success and rollback thresholds"
+      },
+      "blind_winner": "A",
+      "result": "INTEGRATED_WIN"
+    }
+  ]
+}

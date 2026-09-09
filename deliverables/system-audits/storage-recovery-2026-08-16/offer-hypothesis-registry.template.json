@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "mission_status": "blocked_until_150_gib_available",
+  "research_mode": "deep-research-os--free-first--max",
+  "cost_usd": 0.0,
+  "market_event_state": "UNTESTED / NO EVENT",
+  "hypotheses": [
+    {
+      "offer": "REPLACE_ME",
+      "buyer": "REPLACE_ME",
+      "trigger": "REPLACE_ME",
+      "evidence_status": "UNVERIFIED",
+      "proof_burden": "REPLACE_ME",
+      "counterevidence": [],
+      "disposition": "OPEN"
+    }
+  ],
+  "decision": {
+    "primary_offer": null,
+    "primary_buyer": null,
+    "promise": null,
+    "price_hypothesis": null,
+    "acceptance_test": null,
+    "make_right": null,
+    "locked": [],
+    "parked": [],
+    "next_action": null
+  },
+  "scoreboard": {
+    "qualified_exposures": 0,
+    "conversations": 0,
+    "paid_starts": 0,
+    "collected_cash_usd": 0,
+    "kill_gate": "Twenty qualified conversations with zero paid starts parks the offer and activates the runner-up."
+  }
+}

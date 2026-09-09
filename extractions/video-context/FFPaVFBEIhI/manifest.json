@@ -1,0 +1,93 @@
+{
+  "video_id": "FFPaVFBEIhI",
+  "proof_boundary": "transcript capture integrity only",
+  "segments": 1464,
+  "words": 8632,
+  "files": [
+    {
+      "path": "analysis.md",
+      "bytes": 5130,
+      "sha256": "81554198241118ecd2c094863ed1de45f825c12ab792ae696d97cb5747ebec55"
+    },
+    {
+      "path": "behavior-proof.md",
+      "bytes": 4092,
+      "sha256": "18c24ff2f1e75861fa0b898fd677774556419d7e25365a8937946bfd98e0fa21"
+    },
+    {
+      "path": "behavior-proof.metadata.json",
+      "bytes": 265,
+      "sha256": "5c5004f2ee8e5000c6570459c10fad0a8e259b2c49865ec98a380dbd683c66f7"
+    },
+    {
+      "path": "build_source_package.py",
+      "bytes": 7153,
+      "sha256": "f9a73cfe4e544cd29cd2acba2852857dad8ddcb61321c8c67868661e403a3041"
+    },
+    {
+      "path": "frame-notes.md",
+      "bytes": 72,
+      "sha256": "62ce19220f39ffd97bd01a95baa1c8b62f52876d8b82b2333c7938c93ba481fe"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 329,
+      "sha256": "c49258b2088b221145009589646b84779b63252f81de6fb77e9cd5b1e1440653"
+    },
+    {
+      "path": "ocr-notes.md",
+      "bytes": 62,
+      "sha256": "41d32fb249114842dc8c56463ee079ada6bb9753270ec6bdaa90c1abe94d6b0c"
+    },
+    {
+      "path": "skill-system-contract.md",
+      "bytes": 4044,
+      "sha256": "4fb59f8ee5afefb1fc5b4002380630283d2a5d5601e9319b1ac8151bef3a6aa3"
+    },
+    {
+      "path": "skill-system-contract.metadata.json",
+      "bytes": 236,
+      "sha256": "81fe4ffc78e43dc7c46ae37d23eb197905451877c847ffced6747c3823adcbc9"
+    },
+    {
+      "path": "transcript.txt",
+      "bytes": 45036,
+      "sha256": "a493d70c8bc774c460d4849ee45903af3368c215fe3f6acbda907ea4590b373e"
+    },
+    {
+      "path": "transcript.vtt",
+      "bytes": 447681,
+      "sha256": "7c77d5f5eb2dd0cd584265d4ed9cf3000a21457d859adec704d7e5aed874d26f"
+    },
+    {
+      "path": "transcript_segments.json",
+      "bytes": 292975,
+      "sha256": "da2f042f9c8ebda577391305be926a3e788379a7d4d123e33bb7119fdf78c67e"
+    },
+    {
+      "path": "uncertainty-report.md",
+      "bytes": 400,
+      "sha256": "52f5f4cec2ffd61486723d497cd455235eef8491918bf75d985d55ee9a51f44d"
+    },
+    {
+      "path": "video-context-ledger.json",
+      "bytes": 341384,
+      "sha256": "e4f4ef17182cfe149f957fd3597d53b1d0bb6e3bed6d84200e43ce50833834fe"
+    },
+    {
+      "path": "video-context-ledger.md",
+      "bytes": 165514,
+      "sha256": "60c133bdd656e66c5f392070bf4e9f2e17e1eca2692f33515e954dc9e5d4dbba"
+    },
+    {
+      "path": "virtuoso-mastery-extraction.md",
+      "bytes": 12445,
+      "sha256": "47a1dd81cc660c0d00e1042c0d83fa90a0f815487d661e1f382cf0d15be9a59a"
+    },
+    {
+      "path": "virtuoso-mastery-extraction.metadata.json",
+      "bytes": 242,
+      "sha256": "35d4168a1029640a7a5d51006a40b75a6126bf711228cac8ddad1892c9ab98e0"
+    }
+  ]
+}

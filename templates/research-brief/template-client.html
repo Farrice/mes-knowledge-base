@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>{{TITLE_PLAIN}}</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — outward contract (package/02-DESIGN-CONTRACT.md) ── */
+  :root{
+    --canvas:#F3F3F0;   /* default background */
+    --paper:#FAFAF8;    /* lifted field */
+    --ink:#101010;      /* primary text and recommendation */
+    --graphite:#555553; /* secondary text */
+    --line:#D8D8D3;     /* rules and quiet structure */
+    --stone:#8C8C82;    /* large indices and nonessential labels only */
+    --white:#FFFFFF;    /* dark-page text only */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace; /* <pre> verbatim text only */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--canvas); color:var(--ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  em{ font-family:inherit; font-style:normal; font-weight:500 } /* accent = 500 weight, upright */
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* functional label voice: uppercase, +0.16em tracking, medium weight */
+  .lab, .kicker, .sectag, .chip, .trust .k, .conf, .bars-caption, .brief-nav a, .navtool,
+  .deploy .bar .k, .copybtn, .livebtn, .cta, .asset .role, .tl-item .date, .stat .lab,
+  .sparklab, .plab, .matrix-axes, .matrix .quad .qlab, .swing a .k, .ledger th,
+  .play .receipt b, footer.brief{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.16em; font-weight:500 }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--canvas);
+    border-bottom:1px solid var(--line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:16px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-size:9.5px; color:var(--graphite); text-decoration:none }
+  .brief-nav a:hover{ color:var(--ink) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:14px }
+  .navtool{ font-size:9.5px; cursor:pointer; color:var(--graphite); user-select:none }
+  .navtool:hover, .navtool.cp{ color:var(--ink) }
+  .navtool.done{ color:var(--ink); border-bottom:1px solid var(--ink) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--paper);
+    font-family:var(--sans); font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:500;
+    padding:9px 20px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-size:9.5px; letter-spacing:.18em; color:var(--ink);
+    border-top:2px solid var(--ink); padding-top:8px }
+  .kicker{ font-size:10px; letter-spacing:.18em; color:var(--stone); display:block }
+  h1.display{ font-size:54px; line-height:1.04; letter-spacing:-.025em; font-weight:700; margin:22px 0 0; max-width:14ch }
+  .dek{ font-size:16px; line-height:1.55; color:var(--graphite); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--graphite) }
+  strong{ color:var(--ink); font-weight:500 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ink); border-bottom:1px solid var(--line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--line); padding-left:14px }
+  .trust .k{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-size:12px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  h2.sec{ font-size:26px; letter-spacing:-.02em; font-weight:700; flex:1 }
+  .sectag{ font-size:8.5px; color:var(--stone); white-space:nowrap }
+
+  .panel{ background:var(--paper); padding:18px 20px; margin-top:8px; border:1px solid var(--line) }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows — the checkmark glyph is suppressed on this surface */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 0; padding:16px 0; border-bottom:1px solid var(--line); align-items:start }
+  .ev .mark{ display:none }
+  .ev h3{ font-size:15px; font-weight:500; letter-spacing:-.005em; line-height:1.35; color:var(--ink) }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-size:11px; color:var(--graphite); text-decoration:underline; text-underline-offset:2px }
+  .srcref:hover{ color:var(--ink) }
+  .conf{ font-size:8px; letter-spacing:.14em; padding:2px 7px }
+  .conf.verified{ color:var(--ink); border:1px solid var(--ink) }
+  .conf.likely{ color:var(--graphite); border:1px solid var(--graphite) }
+  .conf.unconfirmed{ color:var(--stone); border:1px solid var(--stone) }
+
+  /* decision layer — the one dark interruption on this surface */
+  .decision{ background:var(--ink); color:var(--white); padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--white); opacity:.55 }
+  .decision h2{ font-size:32px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--white) }
+  .decision .dek{ color:var(--white); opacity:.75; font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--graphite); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-size:12px; letter-spacing:.08em; color:var(--stone); min-width:24px; margin-top:3px; font-weight:500 }
+  .dec-item h3{ font-size:16px; font-weight:500; color:var(--white); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--white); opacity:.72; margin-top:4px }
+
+  /* bars — same-scale small multiples, data in ink */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--paper); border:1px solid var(--line); padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:500 }
+  .bars-card .note{ font-size:11.5px; color:var(--stone); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ink); min-height:2px }
+  .bars-caption{ font-size:9px; letter-spacing:.12em; color:var(--stone); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--line) }
+  .hbar-label{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--stone); margin-top:1px }
+  .hbar-track{ height:12px; background:var(--canvas); border:1px solid var(--line); overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ink) }
+  .hbar-track i.zero{ background:var(--stone) }
+  .hbar-val{ font-size:11px; color:var(--graphite); text-align:right; font-weight:500 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks — verbatim copy-paste text keeps monospace for legibility */
+  .deploy{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:8px 14px }
+  .deploy .bar .k{ font-size:9px; color:var(--graphite) }
+  .copybtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--line); padding:4px 10px; color:var(--graphite) }
+  .copybtn:hover{ border-color:var(--ink); color:var(--ink) }
+  .copybtn.done{ border-color:var(--ink); color:var(--ink) }
+  .livebtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--graphite); padding:3px 10px; color:var(--graphite); margin-right:6px }
+  .livebtn:hover{ background:var(--ink); border-color:var(--ink); color:var(--paper) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink);
+    white-space:pre-wrap; word-break:break-word; background:var(--paper) }
+
+  /* caveats */
+  .caveats h2{ font-size:26px; font-weight:700; letter-spacing:-.02em; color:var(--ink) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-size:10px; letter-spacing:.18em;
+    color:var(--ink); border:1px solid var(--ink); padding:10px 20px; text-decoration:none }
+  .cta:hover{ background:var(--ink); color:var(--paper) }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-size:8.5px; color:var(--stone); padding:0 10px 8px 0; border-bottom:1px solid var(--ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--graphite); padding:9px 10px 9px 0; border-bottom:1px solid var(--line); vertical-align:top }
+  .ledger td a{ color:var(--graphite); text-decoration:underline; text-underline-offset:2px; word-break:break-all }
+  .ledger td a:hover{ color:var(--ink) }
+
+  /* playbook — numbered plays with command + receipt */
+  .play{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:9px 14px }
+  .play .head .n{ font-size:11px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  .play .head h3{ font-size:13.5px; font-weight:500; flex:1; line-height:1.3; color:var(--ink) }
+  .play .body{ padding:12px 14px 14px; background:var(--paper) }
+  .play .intent{ font-size:12px; color:var(--graphite); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--canvas); border:1px solid var(--line); padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-size:10px; color:var(--stone); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--graphite) }
+  .play .receipt b{ font-size:8.5px; color:var(--stone); margin-right:8px }
+
+  /* asset rail */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--line); background:var(--paper); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-size:8.5px; color:var(--stone) }
+  .asset h3{ font-size:13px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .asset img{ max-width:100%; border:1px solid var(--line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-size:10px; color:var(--stone); word-break:break-all; flex:1 }
+
+  /* timeline */
+  .timeline{ margin-top:14px; border-left:2px solid var(--line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px;
+    background:var(--canvas); border:2px solid var(--ink) }
+  .tl-item.done::before{ background:var(--ink) }
+  .tl-item .date{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step sequence */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--paper); border:1px solid var(--line); padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-size:10px; letter-spacing:.08em; color:var(--stone); display:block; margin-bottom:3px; font-weight:500 }
+  .flow .step h3{ font-size:12.5px; font-weight:500; line-height:1.3; color:var(--ink) }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--graphite) }
+  .flow .arrow{ align-self:center; color:var(--stone); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ink) }
+  .stat .num small{ font-size:14px; font-weight:500; color:var(--stone) }
+  .stat .lab{ font-size:8.5px; color:var(--stone); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--graphite); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple trend lines, data in ink */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--paper); border:1px solid var(--line); padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-size:8.5px; color:var(--stone) }
+  .sparknote{ font-size:10px; color:var(--stone); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ink); opacity:.06; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--stone); stroke-width:1; opacity:.6 }
+  .sparkbase{ stroke:var(--line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:500; color:var(--stone); letter-spacing:0 }
+
+  /* progress — segmented stage bar, hueless */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; background:var(--line) }
+  .ptrack .pseg.done{ background:var(--ink) }
+  .ptrack .pseg.current{ background:var(--ink); opacity:.4 }
+  .ptrack .pseg.blocked{ background:var(--stone) }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-size:8px; letter-spacing:.13em; color:var(--stone); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--graphite) }
+  .plab.current{ color:var(--ink); font-weight:700 }
+  .plab.blocked{ color:var(--graphite) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; background:var(--ink); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none;
+    font-weight:400; color:var(--stone); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-size:8.5px; color:var(--stone); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line);
+    overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--paper); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-size:8px; color:var(--stone); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--stone) }
+
+  /* related — quiet swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--line); padding:9px 13px; text-decoration:none; background:var(--paper); max-width:100% }
+  .swing a .k{ font-size:8px; color:var(--stone); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ink) }
+
+  /* footer — brand mark left, "prepared for" line right */
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+    gap:16px; font-size:9px; letter-spacing:.16em; color:var(--stone) }
+  footer.brief span:first-child{ color:var(--ink) }
+
+  @media (max-width:640px){
+    .brief-nav{ position:static } /* a wrapped sticky index would blanket a small screen */
+    h1.display{ font-size:36px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    @page{ margin:16mm }
+    body{ background:var(--white) }
+    .brief-nav, #toast, .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+    section.blk{ margin-top:44px }
+    a{ color:inherit }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row">{{NAV}}<span class="navtools">{{NAVTOOLS}}</span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">{{CHIP}}</span>
+    <h1 class="display">{{TITLE}}</h1>
+    <p class="dek">{{DEK}}</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">{{WINDOW}}</span></div>
+      <div><span class="k">Lens</span><span class="v">{{LENS}}</span></div>
+      <div><span class="k">Sources</span><span class="v">{{SOURCES}}</span></div>
+      <div><span class="k">Compiled</span><span class="v">{{COMPILED}}</span></div>
+    </div>
+  </header>
+
+  {{SECTIONS}}
+
+  <footer class="brief">
+    <span>{{FOOTER_LEFT}}</span>
+    <span>{{FOOTER_RIGHT}}</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+{{PAGEPACK}}
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        function done(){ toast('copied'); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+  /* No live-action or repo-link wiring on this surface: --client renders are
+     share-stripped, so a client page carries no write affordances and no local paths. */
+})();
+</script>
+</body>
+</html>

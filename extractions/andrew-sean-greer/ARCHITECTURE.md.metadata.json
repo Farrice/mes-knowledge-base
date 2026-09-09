@@ -1,0 +1,14 @@
+{
+  "artifact_type": "skill_system_architecture",
+  "expert": "Andrew Sean Greer",
+  "proposed_skill": "andrew-sean-greer-novel-craft",
+  "proposed_agent": "andrew-sean-greer",
+  "proposed_front_door": "/greer-story-feels-real",
+  "proposed_workflows": 12,
+  "proposed_practitioner_prompts": 7,
+  "phase": 4,
+  "status": "checkpoint_ready",
+  "implementation_status": "not_authorized",
+  "deployment_status": "not_authorized",
+  "created_at": "2026-08-18"
+}

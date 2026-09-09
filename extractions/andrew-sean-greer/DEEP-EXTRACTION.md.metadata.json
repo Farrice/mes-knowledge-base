@@ -1,0 +1,14 @@
+{
+  "artifact_type": "deep_extraction",
+  "expert": "Andrew Sean Greer",
+  "source_url": "https://www.youtube.com/watch?v=0kkAl04_0og",
+  "depth_tier": "deep",
+  "genius_patterns": 18,
+  "hidden_knowledge_items": 12,
+  "signature_moves": 10,
+  "rubric_criteria": 10,
+  "phase": 3,
+  "status": "complete",
+  "implementation_status": "not_started",
+  "created_at": "2026-08-18"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "worktree-retirement-2026-08-17-001",
+  "status": "live_remote_verified_pending_explicit_approval",
+  "verification_method": "git ls-remote only; no fetch or local-ref mutation",
+  "retirement_method": "python3 execution/worktree_lane.py teardown --lane <branch>; never manual directory deletion and never --force",
+  "expected_reclaim_kib": 19246156,
+  "expected_reclaim_gib": 18.3546,
+  "branch_preservation": "Each local branch remains after parked-and-pushed teardown; its exact HEAD also exists on origin.",
+  "approval": "pending_explicit_eight_lane_retirement_approval",
+  "eligible_lanes": [
+    {
+      "branch": "codex/briefing-room-card-integrity",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/briefing-room-card-integrity",
+      "head": "87e5923486354b6cbe58f0e1463839ffdee829e1",
+      "remote_head": "87e5923486354b6cbe58f0e1463839ffdee829e1",
+      "unique_commits_vs_main": 2,
+      "physical_kib": 2438404,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/creative-strategy-demand-20260811",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811",
+      "head": "560e7c03ca4872781b22d372d0e93626e114d2dc",
+      "remote_head": "560e7c03ca4872781b22d372d0e93626e114d2dc",
+      "unique_commits_vs_main": 1,
+      "physical_kib": 2439960,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/expert-practice-os-closeout",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/expert-practice-os-closeout",
+      "head": "be1fcdc3e25e033a8dccdc7c6c7ec58fc5dfd812",
+      "remote_head": "be1fcdc3e25e033a8dccdc7c6c7ec58fc5dfd812",
+      "unique_commits_vs_main": 2,
+      "physical_kib": 1967024,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/notion-second-brain-reliability",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/notion-second-brain-reliability",
+      "head": "3c56e9d56234b34bc997b8941abc63b1c804bac0",
+      "remote_head": "3c56e9d56234b34bc997b8941abc63b1c804bac0",
+      "unique_commits_vs_main": 2,
+      "physical_kib": 2440472,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/operator-card-packaging",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/operator-card-packaging",
+      "head": "03a086137bd77ac8ea7affa442cb9db45d8b7522",
+      "remote_head": "03a086137bd77ac8ea7affa442cb9db45d8b7522",
+      "unique_commits_vs_main": 1,
+      "physical_kib": 2542224,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/portable-brief-export",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/portable-brief-export",
+      "head": "ff1c5ee38b481d74a4d2c443986ed550e095b254",
+      "remote_head": "ff1c5ee38b481d74a4d2c443986ed550e095b254",
+      "unique_commits_vs_main": 5,
+      "physical_kib": 2441188,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/priestley-universal-closeout",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/priestley-universal-closeout",
+      "head": "98bde4a46f7f98cdadd26f44d1aaa8c5272ddbaf",
+      "remote_head": "98bde4a46f7f98cdadd26f44d1aaa8c5272ddbaf",
+      "unique_commits_vs_main": 2,
+      "physical_kib": 2536592,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    },
+    {
+      "branch": "codex/systems-thinking-global-shadow",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/systems-thinking-global-shadow",
+      "head": "d8c077882700c71159a10f11f84a59db99cb74d3",
+      "remote_head": "d8c077882700c71159a10f11f84a59db99cb74d3",
+      "unique_commits_vs_main": 2,
+      "physical_kib": 2440292,
+      "decision": "REMOTE_PRESERVED_ELIGIBLE"
+    }
+  ],
+  "protected_outside_tmp": {
+    "total_gib": 13.82,
+    "worktree_count": 6,
+    "decision": "PROTECT",
+    "reasons": [
+      "task ownership requires closeout",
+      "dirty or untracked work is not remote-preserved",
+      "active Claude ownership",
+      "Operator Core requires its own retirement decision"
+    ]
+  }
+}

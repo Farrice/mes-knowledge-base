@@ -60,6 +60,54 @@
 | "authenticity is a crock no one wants you to be authentic" (Lewis Howes interview, timestamp 12:32) | **VERIFIED** | Found this session via full-archive content scan (not previously in `extractions/`): `_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/97b5eb7a-ccd4-42d5-b49d-e74bcd79632a.md`, title "Seth Godin: 'Why SPENDING MORE Time & Energy WON'T Make You SUCCESSFUL!' \| Seth Godin & Lewis Howes," created 2025-07-13, transcript timestamp 12:32. This upgrades genius.md's pre-existing Pattern 9 quote ("Authenticity is a crock") from previously-unverifiable to VERIFIED — a genuine Godin quote, just not from the file the extraction report implied. |
 | Pattern 28 "smallest nudge possible that is still scaffolding" (referenced in calibration section) | **LIKELY** | Pre-existing genius.md content, tranche 2 (2026-07-10) — source conversation located by title, not re-verified verbatim this pass (see Patterns 26-29 row above). |
 
-## Workflow Files (01-08)
+## Workflow Files (01-09)
 
 No factual claims requiring verification — workflows are process instructions built on the Patterns/Tacit Knowledge above, not independent claims. The only change made to workflows 01-05 this pass was a heading rename (`## Output Template` → `## Output Contract`) to match the house style already used in workflow 08 — no content, quote, or claim was altered.
+
+## 2026-08-12 BigDeal Interview Addition (Workflow 09)
+
+| Source | Location | Status |
+|---|---|---|
+| YouTube metadata | `extractions/video-context/o8yD6nt71Cs/metadata.json` | **VERIFIED** — public title, channel, duration, upload date, chapter map |
+| Auto-caption source | `extractions/video-context/o8yD6nt71Cs/transcript.vtt` | **VERIFIED AS SOURCE EVIDENCE** — auto-generated captions; transcription errors remain possible |
+| Clean reading transcript | `extractions/video-context/o8yD6nt71Cs/transcript.txt` | **VERIFIED DERIVATIVE** — 12,705 words reconstructed from timestamped JSON captions |
+| Timestamped segments | `extractions/video-context/o8yD6nt71Cs/transcript_segments.json` | **VERIFIED DERIVATIVE** — 1,978 non-empty caption segments |
+| Visual format sample | `extractions/video-context/o8yD6nt71Cs/frames/`, `contact-sheet.jpg`, `frame-notes.md` | **PARTIAL VISUAL VERIFIED** — 13 evenly sampled frames confirm a studio interview; no complete frame crawl/OCR pass |
+| Evidence map and limits | `video-context-ledger.md`, `uncertainty-report.md` in the same package | **VERIFIED LOCAL ARTIFACTS** |
+
+### Gap-Diff Ledger
+
+| Mechanic | Disposition | Reason |
+|---|---|---|
+| Problems vs situations; but-to-and; SVA; invisible-failure test; strategic quitting; qualified feedback; public role | **RECONFIRMED, NOT DUPLICATED** | Already encoded across Patterns 3-5, 9, 13, 22-27 and `seth-godin-marketing-mind` |
+| Decision-once craft; feedback-sponsor audit; four-horsemen protection diagnosis; actual-risk ladder; entanglement truth-to-habit; root-post diagnosis | **ADDED AS PATTERNS 30-35** | Source-backed additions or materially new composition |
+| Full problem-to-action sequence | **ADDED AS WORKFLOW 09** | Existing components lacked one end-to-end intervention from tangled state to experiment, signal, habit, and handoff |
+| New Seth Godin skill | **REJECTED** | Existing `seth-godin-philosophy` is the correct owner; a new skill would duplicate the stack |
+
+### Claim Boundary
+
+Workflow 09 depends on the source's operating mechanics, not on unverified interview anecdotes or biographical numbers. Any external claim from the interview remains **UNCONFIRMED** unless independently sourced.
+
+## 2026-09-01 Digital Cut AI Creative Practice Addition (Workflow 10)
+
+| Source | Location | Status |
+|---|---|---|
+| YouTube metadata | `extractions/video-context/DHTgH34inHY/metadata.json` | **VERIFIED SOURCE METADATA** — 3,729 seconds, complete-video scope, chapter map preserved |
+| Native captions | `extractions/video-context/DHTgH34inHY/transcript.vtt` | **VERIFIED AS SOURCE EVIDENCE** — native English automatic captions; transcription and attribution limits remain |
+| Clean reading transcript | `extractions/video-context/DHTgH34inHY/transcript.txt` | **VERIFIED DERIVATIVE** — 10,969 words reconstructed from rolling captions |
+| Timestamped segments | `extractions/video-context/DHTgH34inHY/transcript_segments.json` | **VERIFIED DERIVATIVE** — exactly 1,574 caption cues |
+| Visual references | `extractions/video-context/DHTgH34inHY/frames/`, `visual-references.md` | **PARTIAL VISUAL VERIFIED** — seven inspected studio-interview frames; no slide/UI/procedure claim admitted |
+| Checksums and source boundary | `manifest.json`, `evidence-ledger.md`, `uncertainty-report.md` in the same package | **VERIFIED LOCAL ARTIFACTS** |
+
+### Gap-Diff Ledger
+
+| Mechanic | Disposition | Reason |
+|---|---|---|
+| SVA, shipping, public role, qualified feedback, reversible experiments, brand promise, AI permission | **RECONFIRMED, NOT DUPLICATED** | Existing Godin philosophy, marketing-mind, and brand owners already encode them |
+| Human projects / AI tasks; system-gap search; proud-artifact threshold; three-rung cheap failure; traction-granted expansion | **ADDED AS PATTERNS 36–40** | Source-backed distinctions that were not composed into one existing practice |
+| Full AI Creative Practice sequence | **ADDED AS WORKFLOW 10** | The existing arsenal lacked one path from human ownership through bounded AI execution to a traction verdict |
+| New agent, skill, primitive, global mirror, self-evolution behavior | **REJECTED** | Existing owner fit is strong and production receipts are zero |
+
+### Claim Boundary
+
+Workflow 10 uses direct operating mechanics at `evidence-ledger.md` rows S01–S17. Historical anecdotes, publication figures, sales figures, and quantitative AI productivity claims remain **VERIFIED AS STATED IN THE INTERVIEW ONLY** and are not promoted into doctrine.

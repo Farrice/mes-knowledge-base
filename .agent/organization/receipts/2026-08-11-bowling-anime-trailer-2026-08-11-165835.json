@@ -1,0 +1,37 @@
+{
+  "applied_at": "2026-08-11T23:58:35+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/ASSET_MANIFEST.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/06-system/ASSET_MANIFEST.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_CANON_LOCK.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/04-deliverables/MIDNIGHT_OIL_CANON_LOCK.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_OPENART_UPLOAD_PACK.zip",
+      "to": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/01-source/MIDNIGHT_OIL_OPENART_UPLOAD_PACK.zip"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/OPENART_DIRECTOR_PROMPT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/04-deliverables/OPENART_DIRECTOR_PROMPT.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/ASSET_MANIFEST.md",
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_CANON_LOCK.md",
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_OPENART_UPLOAD_PACK.zip",
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/OPENART_DIRECTOR_PROMPT.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer",
+  "project_slug": "bowling-anime-trailer",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-11.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/06-system/ASSET_MANIFEST.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

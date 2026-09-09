@@ -1,0 +1,7 @@
+{
+  "artifact_type": "content_anatomy_audit",
+  "title": "DWA v2 + Latest Three LinkedIn Posts — Ben Watkins Audit",
+  "status": "complete",
+  "primary_workflow": "/bw-anatomy-audit",
+  "ledger_entries_added": ["CS-03"]
+}

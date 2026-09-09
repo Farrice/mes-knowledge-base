@@ -100,7 +100,7 @@ changes require an Agentic Engineering Packet; self-improvement, maintenance,
 cleanup, or evolution changes require a Goal Packet. Prefer companion OS layers
 over duplicate expert skills when improving existing control-plane behavior. Do
 not create hot skills, global mirrors, external writes, new dependencies, or
-broad workflow mutations without explicit approval and validation. Real Codex
+broad workflow mutations without explicit approval and validation; real Codex
 subagents require explicit authorization.
 
 In short: evidence and existing-route fit first, no hot skill promotion, no new

@@ -1,0 +1,30 @@
+{
+  "band": "MID",
+  "corpus_words": 7963,
+  "extension": false,
+  "yields": {
+    "patterns": 12,
+    "hidden": 7,
+    "exemplars": 4,
+    "deliverables": 7,
+    "stacking_hits": 6
+  },
+  "workflows": 7,
+  "tiers": {
+    "tier1_foundation": 3,
+    "tier2_practitioner": 2,
+    "tier3_stacking": 2
+  },
+  "prompts_floor": 7,
+  "references": [
+    "source-quotes.md (verbatim quote bank + claims ledger)",
+    "cross-domain-patterns.md",
+    "provenance ledger (grep-verified anchors)",
+    "genius-patterns.md",
+    "hidden-knowledge.md"
+  ],
+  "orchestrator_eligible": false,
+  "agent": "required (AGENT.md + memory + front door via sync_registries)",
+  "fidelity": "full",
+  "note": "Floors are minimums earned by the corpus; scale up when yields demand it."
+}

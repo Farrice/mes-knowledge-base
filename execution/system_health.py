@@ -57,7 +57,10 @@ def check_performance_log():
         api = NotionAPI()
         sorts = [{'property': 'Date', 'direction': 'descending'}]
         result = api.query_database(PERFORMANCE_DB_ID, sorts=sorts, page_size=100)
-        pages = result.get('results', [])
+        # A missing/malformed response is not an empty database.
+        if not isinstance(result, dict) or not isinstance(result.get('results'), list):
+            raise ValueError('Performance Log response has no valid results list')
+        pages = result['results']
 
         if not pages:
             return {
@@ -65,7 +68,7 @@ def check_performance_log():
                 'health': 'Critical',
                 'count': 0,
                 'last_date': 'Never',
-                'message': 'Zero entries. The feedback loop has never fired.',
+                'message': 'Query succeeded with zero current entries; prior activity is not established.',
             }
 
         # Extract last date
@@ -111,10 +114,10 @@ def check_performance_log():
         }
     except Exception as e:
         return {
-            'status': 'ERROR',
+            'status': 'UNKNOWN',
             'health': 'Unknown',
-            'count': 0,
-            'last_date': 'Error',
+            'count': None,
+            'last_date': 'Unknown',
             'message': f'Could not query Performance Log: {e}',
         }
 
@@ -351,10 +354,15 @@ def generate_health_report(quick=False):
     memory = check_memory()
 
     # Derive cascade status
-    perf_count = perf_log.get('count', 0)
-    phase2_ready = perf_count >= 20
-    phase3_ready = False  # Would need to check evolution log
-    phase4_ready = perf_count >= 5  # Can run with minimal data
+    perf_count = perf_log.get('count')
+    perf_known = (perf_log.get('status') not in ('ERROR', 'UNKNOWN')
+                  and type(perf_count) is int and perf_count >= 0)
+    if not perf_known:
+        perf_count = None
+    phase2_ready = perf_known and perf_count >= 20
+    # The evolution log is not inspected here, so Phase 3 is unmeasured.
+    phase4_ready = perf_known and perf_count >= 5
+    count_display = str(perf_count) if perf_known else 'UNKNOWN'
 
     report = []
     report.append("# Antigravity System Health Report")
@@ -366,14 +374,18 @@ def generate_health_report(quick=False):
     report.append("")
     report.append("| System | Status | Last Active | Entries | Health |")
     report.append("|--------|--------|-------------|---------|--------|")
-    report.append(f"| Performance Log (Phase 1) | {perf_log['status']} | {perf_log['last_date']} | {perf_log['count']} | {perf_log['health']} |")
+    report.append(f"| Performance Log (Phase 1) | {perf_log['status']} | {perf_log['last_date']} | {count_display} | {perf_log['health']} |")
 
-    phase2_status = 'READY' if phase2_ready else f'BLOCKED ({perf_count}/20 entries)'
-    report.append(f"| Skill Evolution (Phase 2) | {phase2_status} | — | — | {'Ready' if phase2_ready else 'Waiting'} |")
+    phase2_status = ('UNKNOWN' if not perf_known else
+                     'READY' if phase2_ready else f'BLOCKED ({perf_count}/20 entries)')
+    phase2_health = 'Unknown' if not perf_known else 'Ready' if phase2_ready else 'Waiting'
+    report.append(f"| Skill Evolution (Phase 2) | {phase2_status} | — | — | {phase2_health} |")
 
-    report.append(f"| Cross-Pollination (Phase 3) | {'READY' if phase3_ready else 'BLOCKED'} | — | — | {'Ready' if phase3_ready else 'Needs Phase 2'} |")
+    report.append("| Cross-Pollination (Phase 3) | UNMEASURED | — | — | Evolution log not checked |")
 
-    report.append(f"| Gap Detection (Phase 4) | {'READY' if phase4_ready else 'BLOCKED'} | — | — | {'Ready' if phase4_ready else 'Needs data'} |")
+    phase4_status = 'UNKNOWN' if not perf_known else 'READY' if phase4_ready else 'BLOCKED'
+    phase4_health = 'Unknown' if not perf_known else 'Ready' if phase4_ready else 'Needs data'
+    report.append(f"| Gap Detection (Phase 4) | {phase4_status} | — | — | {phase4_health} |")
 
     report.append(f"| Session State | {session['status']} | {session['message'].split(':', 1)[-1].strip() if ':' in session['message'] else '—'} | — | {session['health']} |")
 
@@ -450,10 +462,10 @@ def generate_health_report(quick=False):
     report.append("## Cascade Dependencies")
     report.append("")
     report.append(f"```")
-    report.append(f"Performance Log ({perf_count} entries)")
-    report.append(f"  └─> Skill Evolution (needs 20+) {'READY' if phase2_ready else f'[{perf_count}/20]'}")
-    report.append(f"        └─> Cross-Pollination (needs evolution data) {'READY' if phase3_ready else '[waiting]'}")
-    report.append(f"              └─> Gap Detection (monthly) {'READY' if phase4_ready else '[waiting]'}")
+    report.append(f"Performance Log ({count_display} entries)")
+    report.append(f"  └─> Skill Evolution (needs 20+) {phase2_status}")
+    report.append("        └─> Cross-Pollination (evolution log not checked) UNMEASURED")
+    report.append(f"              └─> Gap Detection (monthly) {phase4_status}")
     report.append(f"```")
     report.append("")
 
@@ -462,7 +474,11 @@ def generate_health_report(quick=False):
     report.append("")
 
     actions = []
-    if perf_count == 0:
+    if not perf_known:
+        actions.append("**UNKNOWN**: Performance Log could not be measured. "
+                       + perf_log.get('message', 'No valid count was returned.')
+                       + ' Restore query access before assessing entry counts or dependent readiness.')
+    elif perf_count == 0:
         actions.append("**CRITICAL**: Start logging performance entries. Run the Quality Gate after your next expert-driven output, then log with `python execution/log_performance.py log \"description\" --skill X --type Y --quality N --status Keep`")
     elif perf_count < 20:
         actions.append(f"**IN PROGRESS**: {perf_count}/20 performance entries logged. Need {20 - perf_count} more to unlock Skill Evolution (Phase 2).")
@@ -493,7 +509,7 @@ def generate_health_report(quick=False):
         actions.append(f"**REVIEW**: {memory['flagged_pending']} distilled memories awaiting human approval. Run `python3 execution/memory_review.py list`.")
 
     if not actions:
-        actions.append("All systems operational. Keep logging performance data to maintain the feedback loop.")
+        actions.append("No action indicated by measured checks. Cross-Pollination remains unmeasured.")
 
     for i, action in enumerate(actions, 1):
         report.append(f"{i}. {action}")

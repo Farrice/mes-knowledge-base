@@ -275,6 +275,11 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
     ready_actions = codex_close.task_actions_for("ready", manifest["title"], True, False)
     done_actions = codex_close.task_actions_for("done", manifest["title"], True, False)
     failed_done = codex_close.task_actions_for("done", manifest["title"], False, False)
+    requested_rename = codex_close.task_actions_for(
+        "ready", manifest["title"], True, False, rename_requested=True,
+    )
+    require(not ready_actions["rename"], "closeout must preserve the initial sidebar title")
+    require(requested_rename["rename"], "an explicit rename request must remain available")
     require(ready_actions["pin"] and not ready_actions["archive"], "ready task lifecycle incorrect")
     require(done_actions["archive"] and not done_actions["pin"], "verified done task should archive")
     require(failed_done["pin"] and not failed_done["archive"],
@@ -291,6 +296,7 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
         "persistent operator lane preserves; temporary lane surfaces merge approval",
         "local receipts are canonical unless a global write is explicitly enabled",
         "main, unowned dirt, divergence, and deletion states block Git",
+        "closeout preserves sidebar titles unless a rename is explicitly requested",
         "ready tasks pin; only verified done tasks archive",
     ]
 
@@ -402,13 +408,22 @@ def check_organization(tmp: Path) -> list[str]:
     require(not codex_close.is_closeout_generated(
         "execution/unrelated_generated.py", "organization-fixture"
     ), "unrelated generated path must not be recognized as closeout-owned")
+    require(codex_close.is_closeout_generated(
+        ".agent/health/degradations.jsonl", "organization-fixture"
+    ), "closeout degradation receipts should remain stageable")
     self_heal = (ROOT / "execution" / "self_heal.py").read_text(encoding="utf-8")
     require('"--no-cache" not in sys.argv' in self_heal,
             "Codex self-heal review requires a non-mutating report mode")
     commands = codex_close.default_verifiers(ROOT)
     require(any("--section" in row and "end-session" in row for row in commands),
             "Codex Git gate must use the scoped End-session control-plane verifier")
-    return ["explicit owned artifact moves apply; uncertain files queue for review"]
+    spine_source = (ROOT / "execution" / "end_session_closeout.py").read_text(encoding="utf-8")
+    require("Codex closeout does not regenerate broad mission briefs" in spine_source,
+            "Codex-owned closeout must not regenerate unrelated mission briefs")
+    return [
+        "explicit owned artifact moves apply; uncertain files queue for review",
+        "Codex-owned closeout skips broad mission-brief regeneration",
+    ]
 
 
 def main() -> int:

@@ -1,0 +1,52 @@
+canvas: [1080, 1350]
+elements:
+  - id: KICKER
+    bbox_pct: [7.78, 5.33, 45, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.41
+  - id: DATE
+    bbox_pct: [60, 5.33, 32.22, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04
+  - id: PHOTO_MAIN
+    bbox_pct: [7.78, 11.11, 84.44, 41.48]
+    color_role: mixed
+    type: image
+    font_size_cqw: null
+  - id: HEADLINE
+    bbox_pct: [7.78, 57.04, 84.44, 15]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 8.52
+  - id: SUBTITLE
+    bbox_pct: [7.78, 74.81, 55.56, 7]
+    color_role: text-on-light
+    type: body
+    font_size_cqw: 2.22
+  - id: CTA_LABEL
+    bbox_pct: [68, 74.96, 24.22, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.22
+  - id: FOOTER_NAME
+    bbox_pct: [7.78, 93.0, 18, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+  - id: FOOTER_DOMAIN
+    bbox_pct: [27, 93.0, 24, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+  - id: FOOTER_DESCRIPTOR
+    bbox_pct: [52, 93.0, 24, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85
+  - id: FOOTER_CTA
+    bbox_pct: [78, 93.0, 14.22, 3]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.85

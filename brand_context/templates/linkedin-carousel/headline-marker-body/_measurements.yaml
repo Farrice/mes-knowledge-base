@@ -1,0 +1,57 @@
+source: authored-html-zones (bboxes re-measured from the rendered preview.png ink extents, not guessed)
+canvas: [1080, 1350]
+elements:
+  - id: MASTHEAD_LEFT
+    bbox_pct: [7.8, 5.4, 20.0, 2.2]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 2.04
+
+  - id: PAGE_INDEX
+    bbox_pct: [83.3, 5.4, 9.8, 2.2]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 2.04
+
+  - id: DIVIDER
+    bbox_pct: [7.78, 9.4, 84.44, 0.1]
+    color_role: secondary
+    type: rule
+    font_size_cqw: null
+
+  - id: HEADLINE
+    bbox_pct: [7.5, 21.5, 81.0, 9.5]
+    color_role: text-on-light
+    type: display
+    font_size_cqw: 9.8
+
+  - id: ROUTE_DIAGRAM_ZONE
+    bbox_pct: [7.78, 60.0, 84.7, 14.5]
+    color_role: mixed
+    type: vector
+    font_size_cqw: null
+    notes: "full route/track diagram band (3 label+line rows) — non-text graphic device; type=vector is skipped by the per-slot overflow/line-count read (like DIVIDER's type=rule) but still counts toward the dead-space content band, honestly reflecting the vertical space this distinctive element occupies"
+
+  - id: ROUTE_1_LABEL
+    bbox_pct: [90.7, 60.9, 2.1, 1.0]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 1.7
+
+  - id: ROUTE_2_LABEL
+    bbox_pct: [84.3, 65.85, 8.7, 1.05]
+    color_role: text-on-light
+    type: caption
+    font_size_cqw: 1.7
+
+  - id: ROUTE_3_LABEL
+    bbox_pct: [90.7, 71.2, 2.3, 1.0]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 1.7
+
+  - id: FOOTER_CAPTION
+    bbox_pct: [7.8, 89.3, 53.5, 1.6]
+    color_role: secondary
+    type: caption
+    font_size_cqw: 1.9

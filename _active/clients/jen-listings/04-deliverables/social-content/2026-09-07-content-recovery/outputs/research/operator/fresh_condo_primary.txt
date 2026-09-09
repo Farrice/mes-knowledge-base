@@ -1,0 +1,320 @@
+Full Review Process | Fannie Mae (https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process)
+citeturn7search0 [wordlim: 200] Published: last month; Crawled: 3 days ago; # B4-2.2-01, Full Review Process (08/05/2026) ... No Fannie Mae Review  | Lender can certify the project or subject legal phase based on the Selling Guide requirements. ... When CPM displays a delivery restriction for a specific project, lenders may only sell loans that comply with the stated restrictions, even if the loan receives a CPM Approved by Fannie Mae message in DU.
+
+# B4-2.2-01, Full Review Process (08/05/2026)
+
+Introduction
+
+This topic contains information on general eligibility requirements for the Full Review process, including:
+
+  * Overview
+  * Unit and Project Types Eligible for Full Review
+  * Condo Project Manager (CPM)
+  * CPM Status Designations
+  * CPM Delivery Restrictions Notifications
+  * CPM Approved by Fannie Mae Message in DU
+  * Additional Obligations of the Lender for Projects Approved by Fannie Mae
+  * Full Review Eligibility Requirements
+  * Additional Requirements - For Condo Projects Consisting of Manufactured Homes
+  * Replacement Reserve Studies
+
+* * *
+
+#### Overview
+
+The Full Review process is a method for the review of new and established condo projects, co-op projects, and certain manufactured home projects. Lenders performing a Full Review must ensure that the project meets all applicable eligibility requirements.
+
+* * *
+
+#### Unit and Project Types Eligible for Full Review
+
+A Full Review may be performed when the unit securing the loan is an attached unit located in one of the following project types:
+
+  * an established condo project, or
+  * a new or newly converted condo project.
+
+A Full Review may also be performed when the property securing the loan is a manufactured home in a new or established condo project that is not subject to a community land trust, ground lease, or shared equity arrangement.
+
+These projects may also be reviewed by Fannie Mae through the PERS process (see B4-2.2-04, Project Eligibility Review Service (PERS)B4-2.2-04, Project Eligibility Review Service (PERS)).
+
+Full Review requirements for units in co-op projects are addressed in  B4-2.3-02, Co-op Project EligibilityB4-2.3-02, Co-op Project Eligibility.
+
+* * *
+
+#### Condo Project Manager (CPM)
+
+Lenders must use CPM to assist in their Full Review of a condo project (except for projects containing manufactured homes). CPM is a Web-based tool designed to facilitate the lender's review of the project to determine if it meets Fannie Mae's project eligibility requirements. The lender must complete their own certification in CPM and document the loan file with the CPM decision by including the unexpired CPM Certification in the file.
+
+CPM certifications are based solely on the data that the lender enters into CPM. The lender is responsible for reviewing the applicable project documentation to obtain the information needed to complete the project review and enter the data into CPM. The lender is also responsible for ensuring that all data entered into CPM is correct and that the project meets all applicable Fannie Mae eligibility requirements.
+
+CPM is available on Fannie Mae's website.
+
+* * *
+
+#### CPM Status Designations
+
+The table below describes the status designations that are available in CPM for each project.
+
+Status Designation  | Definition
+--- | ---
+Certified by Lender  | Loans in the project are eligible for sale by the certifying lender with a valid and unexpired certification as of the note date.
+Approved by Fannie Mae  | Project has been approved by Fannie Mae, and loans may be sold by the lender with a valid and unexpired approval as of the note date. This status may include projects approved through the PERS or other Fannie Mae approval processes.
+Conditional Approval  | Project has been approved by Fannie Mae through the PERS process subject to certain conditions being met. Loans in this project cannot be sold to Fannie Mae until an Approved by Fannie Mae status has been issued.
+No Fannie Mae Review  | Lender can certify the project or subject legal phase based on the Selling Guide requirements.
+Unavailable  | Project has been determined by Fannie Mae to be ineligible. Loans for units in this project cannot be sold to Fannie Mae.
+
+> Note: Lenders are responsible for verifying and documenting that the project meets the applicable insurance requirements described in Chapters B7-3 and B7-4. Fannie Mae does not review insurance policies as part of the review process, including when the loan has received a CPM Approved by Fannie Mae message in DU.
+
+ 
+
+* * *
+
+#### Full Review Eligibility Requirements
+
+When determining the eligibility of a condo project on the basis of a Full Review, lenders must ensure the condo project meets the eligibility requirements described in the following table.
+
+✓  | Full Review Eligibility Requirements
+--- | ---
+   | The project meets the Requirements Applicable to All Properties in a Condo, Co-op, or PUD Project described in B4-2.1-01, General Information on Project StandardsB4-2.1-01, General Information on Project Standards.
+   | The project must not be an ineligible project as described in  B4-2.1-03, Ineligible ProjectsB4-2.1-03, Ineligible Projects.
+   | No more than 15% of the total units in a project are 60 days or more past due on common expense assessments (also known as HOA fees). 
+While Fannie Mae does not require that a standard format be used for the reserve study, the following items must be addressed:
+
+  * all major components and elements of the project’s common areas for which repair, maintenance, or replacement is expected;
+  * the condition and remaining useful life of each major component;
+  * an estimate of the cost of repair, replacement, restoration, or maintenance of major components;
+  * an estimate of the total annual contributions required to defray costs (minus the existing reserves funded for this purpose), including inflation;
+  * an analysis of existing funded reserves; and
+  * a suggested reserve funding plan.
+
+
+Recent Related Announcements
+
+The table below provides references to the Announcements that are related to this topic.
+
+Announcements  | Issue Date
+--- | ---
+Announcement SEL-2026-07  | August 05, 2026
+Announcement SEL-2025-02  | April 02, 2025
+Announcement SEL-2024-07  | November 06, 2024
+Announcement SEL-2023-06  | July 05, 2023
+Announcement SEL-2023-02  | March 01, 2023
+Announcement SEL-2022-02  | March 02, 2022
+--------------------------------------------------------------------------------
+General Information on Project Standards | Fannie Mae (https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards)
+citeturn7search1 [wordlim: 200] Published: last month; Crawled: 3 days ago; # B4-2.1-01, General Information on Project Standards (08/05/2026) ... If a lender determines that a project does not meet all of Fannie Mae’s project eligibility criteria, but feels that the project has merit and warrants additional consideration, the lender may request an exception (see  B4-2.2-05, Projects with Special Considerations B4-2.2-05, Projects with Special Considerations, for additional information). ...   * Fannie Mae Review through the standard Project Eligibility Review Service (PERS) process ... > Note: Attached units in a five- to ten-unit condo project that is part of a larger development or master association must be reviewed using the Full Review method.
+
+# B4-2.1-01, General Information on Project Standards (08/05/2026)
+
+Introduction
+
+This topic contains general information on Fannie Mae’s project standards, including:
+
+  * Fannie Mae’s Project Risk Overview
+  * Project Documentation
+  * Condominium Project Questionnaire
+  * Project Types
+  * Project Review Methods
+  * Waiver of Project Review
+  * Requirements Applicable to All Properties in a Condo, Co-op, or PUD Project
+  * Priority of Common Expense Assessments
+  * Delivery Requirements
+  * Expiration for Project Reviews
+  * Uniform Appraisal Dataset (UAD) 3.6 Policy
+
+* * *
+
+#### Fannie Mae’s Project Risk Overview
+
+The quality of mortgages secured by units in condo, co-op, and planned unit development (PUD) projects can be influenced by certain characteristics of the project or by the project as a whole. Before delivering a loan secured by an individual unit in a project, the lender must determine that the project meets Fannie Mae's eligibility requirements.
+Attached condo unit in an established project, including a five- to ten-unit project that is part of a larger development or master association.  | 
+
+  * Full Review (with CPM),
+  * FHA Project Approval (HUD Review and Approval Process only), or
+  * Fannie Mae Review through the streamlined PERS process (for established condo projects)
+Unit in a new or established two- to four-unit condo project.Units in a new or established five- to ten-unit condo project that is not part of a larger development or master association.
+
+> Note: Attached units in a five- to ten-unit condo project that is part of a larger development or master association must be reviewed using the Full Review method.
+
+ | Project review is waived, with the exception of some basic requirements that apply.
+Detached unit in a new or established condo project  | Project review is waived, with the exception of some basic requirements that may apply.
+Unit in a co-op project  | 
+
+  * Full Review
+  * Fannie Mae Review through the standard PERS process
+--------------------------------------------------------------------------------
+MPF Program Updates | MPF (https://www.fhlbmpf.com/program-guidelines/mpf-program-updates)
+citeturn7search2 [wordlim: 200] Published: 4 days ago; Crawled: yesterday; Effective August 24, the MPF Program will offer new pricing options under the MPF Xtra® product for both mandatory and best-efforts delivery commitments. ... Fannie Mae published SEL-2026-07, incorporating updates previously communicated in Lender Letter LL-2026-03 and PERS requirements for manufactured housing.
+
+Aug 24, 2026
+
+MPF Announcement 2026-53
+
+Effective August 24, the MPF Program will offer new pricing options under the MPF Xtra® product for both mandatory and best-efforts delivery commitments.
+
+Aug 20, 2026
+
+MPF Announcement 2026-52
+
+MPF Exhibit GG has been updated to reflect the realignment and removal of steps no longer part of QC’s process.
+
+Aug 19, 2026
+
+MPF Announcement 2026-51
+
+Fannie Mae has issued Servicing Guide Announcement SVC-2026-05, which reflects the property insurance servicing updates previously communicated through Lender Letter LL-2026-03.
+
+Aug 11, 2026
+
+MPF Announcement 2026-49
+
+Updated the MPF Traditional Selling Guide to provide guidance on the transition to the redesigned Uniform Residential Appraisal Report.
+
+Aug 07, 2026
+
+MPF Announcement 2026-50
+
+Fannie Mae published SEL-2026-07, incorporating updates previously communicated in Lender Letter LL-2026-03 and PERS requirements for manufactured housing.
+
+Aug 06, 2026
+
+MPF Announcement 2026-48
+--------------------------------------------------------------------------------
+Announcement SEL-2026-07: Selling Guide Updates — Reglith (https://reglith.com/updates/announcement-sel-2026-07-selling-guide-updates-sel-2026-07)
+citeturn7search3 [wordlim: 200] Published: last month; Crawled: today; August 5, 2026 ... Source: https://singlefamily.fanniemae.com/news-events/announcement-sel-2026-07-selling-guide-updates
+
+Federal National Mortgage Association
+
+# Announcement SEL-2026-07: Selling Guide Updates
+
+August 5, 2026
+
+## Summary
+
+This Lender Letter updates Fannie Mae's project standards and property insurance requirements for Single-Family sellers and servicers. Key changes expand the Waiver of Project Review to projects with ten or fewer units, retire PERS review in Florida, investor concentration limits, and the Limited Review process, and increase replacement reserve requirements from 10% to 15% of annual budgeted income. Property insurance requirements are simplified by retiring replacement cost documentation, roof replacement cost, and inflation guard requirements, with varying effective dates through January 2027.
+
+AI-generated summary · Aug 29, 2026. Verify with your compliance counsel before acting.
+
+How this was generated
+
+We record the exact prompt, model, and output for every AI response so it can be audited for accuracy.
+
+Lender Letter (LL-2026-03) March 18, 2026
+
+To: All Fannie Mae Single-Family Sellers/Servicers Updates to Project Standards & Property Insurance Requirements
+--------------------------------------------------------------------------------
+TENAlert Compliance and Regulatory News - TENA Companies, Inc. (https://www.tenaco.com/tenalert/)
+citeturn7search4 [wordlim: 200] Crawled: today; Freddie Mac issued Bulletin 2026-12 (Bulletin) announcing revisions to the Single-Family Seller/Servicer Guide. ... ### Fannie Mae Issues Selling Guide Announcement SEL-2026-07 ... Per the Announcement, Fannie Mae: All revisions are effective August
+
+Read More »
+
+### VA Authorizes Certain Servicers to use a Non-Judicial Foreclosure Process to Discharge Properties from a VA Partial Claim Interest
+
+August 12, 2026
+
+VA issued Circular 26-26-2, authorizing certain servicers to use a non-judicial foreclosure process to discharge properties from a VA partial claim interest. Per the Circular,
+
+Read More »
+
+### Fannie Mae Issues Selling Guide Announcement SEL-2026-07
+
+August 7, 2026
+
+Fannie Mae issued Selling Guide Announcement SEL-2026-07 (Announcement), setting forth updates to the Selling Guide. Per the Announcement, Fannie Mae: All revisions are effective August
+
+Read More »
+
+### Freddie Mac Issues Bulletin 2026-10: Selling Updates
+
+August 7, 2026
+
+Freddie Mac issued Bulletin 2026-10 (Bulletin) announcing revisions to the Single-Family Seller/Servicer Guide. Per the Bulletin, Freddie Mac announced that when accumulated assets are used
+
+Read More »
+
+« Previous Page 1 Page2 Page3 … Page163 Next »
+--------------------------------------------------------------------------------
+Ineligible Projects | Fannie Mae (https://selling-guide.fanniemae.com/sel/b4-2.1-03/ineligible-projects)
+citeturn7search5 [wordlim: 200] Published: last month; Crawled: 3 days ago;   * Single-Entity Ownership ... Fannie Mae will not purchase or securitize mortgage loans that are secured by units in certain condo or co-op projects if those projects have characteristics that make the project ineligible. ... Announcement SEL-2026-07  | August 05, 2026 ... Announcement SEL-2023-06  | July 05, 2023
+#### Projects Terminating or Involved in Insolvency Proceedings
+
+A project must not be the subject of an action that would cause the project to cease to exist, including termination, deconversion, or dissolution of the project's legal structure. In addition, a project must not be the subject of a voluntary or involuntary bankruptcy, insolvency, liquidation, or receivership proceeding, or any substantially similar action under state or federal law. This includes any project that has voted or is in the process of voting on any of the actions or proceedings described above.
+
+* * *
+
+Recent Related Announcements
+
+The table below provides references to recently issued Announcements that are related to this topic.
+
+Announcements  | Issue Date
+--- | ---
+Announcement SEL-2026-07  | August 05, 2026
+Announcement SEL-2025-06  | August 06, 2025
+Announcement SEL-2025-05  | July 02, 2025
+Announcement SEL-2025-02  | April 02, 2025
+Announcement SEL-2024-07  | November 06, 2024
+Announcement SEL-2023-06  | July 05, 2023
+Announcement SEL-2020-06  | October 07, 2020
+Announcement SEL-2018-05  | June 05, 2018--------------------------------------------------------------------------------
+Regulatory Corpus — verbatim U.S. mortgage regulations & obligations (https://www.claudeforcompliance.com/regs/)
+citeturn7search6 [wordlim: 200] Crawled: today;   * Fannie Mae Announcement SEL-2026-07 (August 5, 2026) — Selling Guide Update · 1 provision ...   * Freddie Mac Single-Family Seller/Servicer Guide Bulletin 2026-2 (Servicing) · 1 provision
+  * Fannie Mae Announcement SEL-2026-06 (June 3, 2026) — Selling Guide Update · 1 provision
+  * Fannie Mae Announcement SEL-2026-07 (August 5, 2026) — Selling Guide Update · 1 provision
+▸ FNMA Servicing Guide 318 regs · 384 obligations
+
+Servicer operations, escrow, investor reporting, default management — Parts A–F.
+
+Download this group:
+
+.xlsx .csv .zip
+
+▸ Part A — Setting Up Servicer Operations 54 regs · 75 obligations
+
+Download this group:
+
+.xlsx .csv .zip
+
+▸ A1 15 regs · 16 obligations
+
+Download this group:
+
+.xlsx .csv .zip
+
+  * Fannie Mae Servicing Guide A1-1-01 — Application and Approval of Seller/Servicer · 1 provision
+  * Fannie Mae Servicing Guide A1-1-02 — Representation and Warranty Requirements · 1 provision
+  * Fannie Mae Servicing Guide A1-1-03 — Evaluating a Servicer's Performance · 1 provision
+  * Fannie Mae Servicing Guide A1-2-01 — Servicer's Termination of the Lender Contract · 1 provision
+--------------------------------------------------------------------------------
+A cooperative questionnaire package | Averbrook (https://averbrook.com/sample-coop)
+citeturn7search7 [wordlim: 200] Published: 3 weeks ago; Crawled: last week; A co-op is tested on adequate replacement and operating reserves plus the audited cash-flow rules (COOP-10-CASH-FLOW), not on a percentage of assessment income, and LL-2026-03 does not reach co-ops  | B4-2.2 Full Review Process (08/05/2026) [verified]; 15% floor: LL-2026-03 (2026-03-18), applications on or after 2027-01-04 [verified; also Freddie Bulletin 2026-C and 5701.5 (01/04/27 version)] ... Budget adequacy  | PASS  | assessments established ($2,419,200 budgeted) with a named replacement-reserve line ($145,000); reserve floor graded in FIN-01; qualitative items to confirm: budget consistent with the nature of the project, line items appropriate to project type and status, adequate funding for insurance deductibles (no formula in the Guide)  | B4-2.2-02 Full Review Eligibility Requirements (June 3, 2026 guide): budget 'is adequate (that is, it includes allocations for line items pertinent to the type of condo project)' [verified primary]; Freddie 5701.5(b) / 5701.6(c) [verified primary]
+--------------------------------------------------------------------------------
+Majestic Maxi Lidingo | Naudic | Shop Now | Women's Fashion Australia (https://naudic.com/products/majestic-maxi-lidingo)
+citeturn7search8 [wordlim: 200] Crawled: 3 months ago; Full Review ... 08/05/2026
+--------------------------------------------------------------------------------
+Florida condo sales rise 11% in July, but prices stagnant | Andrew Durden posted on the topic | LinkedIn (https://www.linkedin.com/posts/andrewcdurden_floridarealestate-condofinancing-nonqm-activity-7495870550951645185-q1Vs)
+citeturn7search9 [wordlim: 200] Crawled: last week; Source is the Florida Realtors July 2026 statewide release: https://www.floridarealtors.org/news-media/news-articles/2026/08/florida-home-sales-rise-11th-straight-month The August 5 change is Fannie Mae Announcement SEL-2026-07.
+--------------------------------------------------------------------------------
+Dulcinea Zulueta, Manila (2026) (https://www.glartent.com/PH/Manila/107003151334042/Dulcinea-Zulueta)
+citeturn7search10 [wordlim: 200] Published: 3 months ago; Crawled: last month; Image: Forgive me Father for now I stan the Pharisees.Full review at xiyal8r.substack.com##### 08/05/2026
+--------------------------------------------------------------------------------
+U.S. Bank Lender Information | REI Oklahoma (https://www.reiok.org/homeownership/us-bank-lender-information/)
+citeturn7search11 [wordlim: 200] Crawled: today; August 2026 ...   * Fannie Mae HFA Preferred Update ...   * SEL-2026-029: Multiple Topics
+--------------------------------------------------------------------------------
+Time to lift the international sanctions on Syria? (https://www.europarl.europa.eu/thinktank/es/research/advanced-search/pdf?keywords=1016)
+citeturn7search12 [wordlim: 200] Published: 4 months ago; Parliament has demanded a full review of more centralised EU-level oversight of sanctions implementation and a full ban on liquefied natural gas (LNG) imports, among other measures. ... 08-05-2026
+--------------------------------------------------------------------------------
+Displaced Ukrainians: Challenges and outlook for integration in the EU (https://www.europarl.europa.eu/thinktank/de/research/advanced-search/pdf?keywords=7206)
+citeturn7search13 [wordlim: 200] Published: 4 months ago; Furthermore, in 2024 the EU adopted two new regimes of sanctions, addressing human rights violations and repression in Russia (May 2024), and responding to Russia's destabilising activities ('hybrid attacks') abroad (October 2024). ... Parliament has demanded a full review of more centralised EU-level oversight of sanctions implementation and a full ban on liquefied natural gas (LNG) imports, among other measures. ... 08-05-2026
+--------------------------------------------------------------------------------
+278 (https://english.prescrire.org/en/C44A03938C833408D637CCDBAC9C349A/Download.aspx)
+citeturn7search14 [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago; • Our 2026 review of drugs to avoid covers all the drugs examined by Prescrire between 2010 and 2025 that are authorised in the European Union or in France. ... Full review freely available at english.prescrire.org ... Downloaded from english.prescrire.org on 08/05/2026
+--------------------------------------------------------------------------------
+Waitara Community Board Agenda (15 May 2026) - Agenda (https://www.npdc.govt.nz/media/xq0cvvhc/ecm_9787065_v1_waitara-community-board-agenda-15-may-2026.pdf)
+citeturn7search15 [wordlim: 200] Published: 3 months ago; years, with a full review ... Version: 1, Version Date: 08/05/2026
+--------------------------------------------------------------------------------
+Application Pedigrees for May 20, 2026 (https://cprit.texas.gov/media/xwxe04tj/05202026_pedigrees_website.pdf)
+citeturn7search16 [wordlim: 200] Published: 3 months ago; ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Category | Compliance Requirement | Information | Attestation Date --- | --- | --- | --- ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Pre-Receipt | RFA Approved by CSO | 08/04/2025 | 03/10/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | RFA published in Texas.gov eGrants | 08/05/2025 | 03/10/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | CPRIT Application Receipt System (CARS) opened | 09/09/2025 | 03/10/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | CPRIT Application Receipt System (CARS) closed | 12/02/2025 | 03/10/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Date application submitted | 11/18/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Method of submission | CARS | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Within receipt period | YES | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Request for extension to submit application after CARS closed | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Request for extension for late application submission accepted | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Receipt, Referral, and Assignment | Administrative review notification | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Donation(s) made to CPRIT / foundation | NO | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Assigned to primary reviewers | 01/21/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Applicant notified of review panel assignment | 01/15/2026 | 03/10/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 1 COI signed | 12/28/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 2 COI signed | 12/22/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 3 COI signed | 01/05/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary (Advocate) Reviewer 4 COI signed | 12/30/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Preliminary Evaluation | Primary Reviewer 1 critique submitted | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 2 critique submitted | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 3 critique submitted | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary (Advocate) Reviewer 4 critique submitted | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI indicated by non-primary reviewer | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Preliminary Evaluation score summary sent to Chair | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Recommended for full review | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Applicant notified of outcome | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Peer Review Meeting | Assigned to primary reviewers | 01/21/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 1 COI signed | 12/28/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 2 COI signed | 12/22/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 3 COI signed | 01/05/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary (Advocate) Reviewer 4 COI signed | 12/30/2025 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 1 critique submitted | 02/23/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 2 critique submitted | 02/20/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary Reviewer 3 critique submitted | 02/23/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Primary (Advocate) Reviewer 4 critique submitted | 02/16/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI indicated by non-primary reviewer | NONE | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI recused from participation | N/A | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Discussed at Peer Review Meeting | YES | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Peer Review Meeting | 03/04/2026 | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Post review statements signed | 03/04/2026 | 03/27/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Third Party Observer Report | 03/11/2026 | 03/23/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Score report delivered to CSO | 03/25/2026 | 03/27/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Score report delivered to CSO (revised) | 04/15/2026 | 04/15/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Recommended for SRC review | YES | 03/11/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Final SRC Recommendation | COI indicated by SRC member | NONE | 04/13/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI recused from participation | N/A | 04/13/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | SRC Meeting | 04/09/2026 | 04/13/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Third Party Observer Report | 04/10/2026 | 04/16/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Recommended for grant award | YES | 04/13/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | SRC Chair Notification to PIC and OC | 04/21/2026 | 04/22/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics PIC Review | COI indicated by PIC member | none | 05/06/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI recused from participation | N/A | 05/06/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | PIC Review Meeting | 05/06/2026 | 05/06/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Recommended for grant award | YES | 05/06/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics Oversight Committee Approval | CEO Notification to Oversight Committee | 05/08/2026 | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI Indicated by Oversight Committee member | None | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | COI Recused from participation | N/A | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Donation(s) made to CPRIT / foundation | NO | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Presented to CPRIT Oversight Committee | 05/20/2026 | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Award approved by Oversight Committee | YES | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Authority to advance funds requested | NO | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics | Advance authority approved by Oversight Committee | NO | 05/21/2026 ORGANIZATION: The Methodist Hospital Research Institute PANEL NAME: 26.2 Imaging Technology and Informatics CPRIT retains the identity of the attesting party.
+--------------------------------------------------------------------------------
+Lender Letter LL-2026-03 Updates to Project Standards & Property Insurance Requirements (https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements)
+citeturn7view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 9; Source: open({"ref_id":"https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements","lineno":null}); Total lines: 292
+

@@ -1,7 +1,7 @@
 ---
 name: "Alex Cooper Creative Strategy Skill"
 description: "A comprehensive creative strategy and business-building system based on Alex Cooper's expertise. Contains deterministic prompts for research, strategy, production, optimization, premium client acquisition, AI creative operations, organic format arbitrage, and evidence-backed static acquisition."
-version: "2.2"
+version: "2.3"
 format: "completion-engine"
 workflows: 7
 expert: "Alex Cooper (AdCrate — youtube.com/@alexcooperadcrate)"
@@ -12,6 +12,21 @@ expert: "Alex Cooper (AdCrate — youtube.com/@alexcooperadcrate)"
 > **Identity note**: The expert is **Alex Cooper** of AdCrate (youtube.com/@alexcooperadcrate). The directory name `alex-copper-creative-strategy` preserves a long-standing typo and is kept for compatibility — do not rename.
 
 This skill provides a **complete operating system for modern performance creative AND business building**. It moves beyond "guessing" to a systematic approach for research, strategy, production, iteration, and premium client acquisition. It includes 24 repaired Crown Jewel prompts plus a born-v2 static-acquisition prompt, organized across 7 workflows, with the 2026 AI-reinvention and static-ads primary-source layers.
+
+## Shared Compounding Intelligence
+
+Alex is the first consumer, not the owner, of the shared Creative Strategy
+Intelligence Layer. Before research, optimization, reporting, or creative
+direction, retrieve approved project lessons with:
+
+```bash
+python3 execution/creative_intelligence.py recall "[product audience mechanic]" --project "[project-slug]"
+```
+
+Use `skills/trigger-event-creative-strategy/` when the task needs exact
+intolerable customer moments. Real outcomes and explicit feedback enter the
+append-only evidence ledger and existing human-reviewed memory queue; they do
+not patch this skill or the Alex agent directly.
 
 ## Available Workflows
 

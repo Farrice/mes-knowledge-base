@@ -1,3 +1,13 @@
+---
+date: 2026-07-28
+session: About v13 writers-room
+name: writers-room-pen-protocol
+problem_class: content / ensemble / committee editing
+domain: content
+status: proven
+problem_signature: "a fully loaded multi-expert room still produces output that reads bland, flat, generic, and seamed — every lens applies its own pass to the same body, nobody holds the pen, and adding more experts makes it worse"
+tags: [writers-room, ensemble, pen-protocol, voice, editing, lens-cards]
+---
 # Solution Card — Writers' Room Pen Protocol: committee editing is the template trap
 
 **Date:** 2026-07-28 · **Domain:** content system / orchestration · **Session:** About v13 writers-room

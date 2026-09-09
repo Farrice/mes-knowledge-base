@@ -758,3 +758,98 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-09 05:00]` **compile** | Full compilation — 1078 files, 3,478,101 words, 56 lint issues
 - `[2026-08-09 11:08]` **finalize** | Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-08-09 11:08]` **finalize** | Selective main integration completed: preserved unrelated main-tree work, integrated only the verifi | strategy | system-audit — composite:6.0 status:Needs Improvement
+- `[2026-08-09 15:48]` **finalize** | Five radically divergent surreal poster concept directions about time, spanning typographic minimali | general | creative-direction — composite:7.0 status:Needs Improvement
+- `[2026-08-09 15:49]` **finalize** | Five independent surreal poster concepts about time; each uses a different governing metaphor, emoti | general | creative-direction — composite:9.0 status:Keep
+- `[2026-08-11 13:12]` **finalize** | OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six requ | general | creative-director — composite:7.0 status:Needs Improvement
+- `[2026-08-11 13:13]` **finalize** | OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime | general | creative-director — composite:6.67 status:Needs Improvement
+- `[2026-08-11 16:05]` **finalize** | Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt | general | curious-refuge — composite:7.33 status:Needs Improvement
+- `[2026-08-11 16:05]` **finalize** | Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt | general | curious-refuge — composite:8.67 status:Keep
+- `[2026-08-11 23:30]` **finalize** | Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explic | general | jordan-crawford — composite:7.33 status:Needs Improvement
+- `[2026-08-11 23:32]` **finalize** | Direct verdict: do not select The Angle Map as the primary offer from current evidence; test a marke | general | jordan-crawford — composite:8.67 status:Keep
+- `[2026-08-12 02:25]` **finalize** | Zero-based offer verdict: park the Angle Map as the primary cash offer. Pursue a bounded One-Workflo | general | andrew-dun — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:26]` **finalize** | For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed pai | general | andrew-dun — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:33]` **finalize** | Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos f | general | alan-aragon — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:41]` **finalize** | New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-m | general | alan-aragon — composite:7.0 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:7.33 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:7.33 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:9.0 status:Keep
+- `[2026-08-12 03:10]` **finalize** | Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-positio | general | michael-israetel — composite:7.0 status:Needs Improvement
+- `[2026-08-12 04:42]` **finalize** | Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 se | general | michael-israetel — composite:7.0 status:Needs Improvement
+- `[2026-08-10 16:14]` **lint** | Lint scan — 82 issues (50 errors, 20 warnings) — Files scanned: 1078
+- `[2026-08-16 08:02]` **lint** | Lint scan — 66 issues (24 errors, 30 warnings) — Files scanned: 1138
+- `[2026-08-16 08:02]` **compile** | Full compilation — 1138 files, 3,603,261 words, 66 lint issues
+- `[2026-08-16 10:09]` **finalize** | Angle Map Listening Brief 2026-08-16 (Sunday, education chapter): the second price — entering club/m | general | Oren Operational Systems — composite:6.67 status:Needs Improvement
+- `[2026-08-17 00:50]` **finalize** | Preservation-first Mac recovery control package, exact duplicate and worktree manifests, Drive recei | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-08-17 16:12]` **lint** | Lint scan — 92 issues (50 errors, 30 warnings) — Files scanned: 1138
+- `[2026-08-18 10:09]` **finalize** | Andrew Sean Greer Deep Extraction and skill-system Architecture checkpoint | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
+- `[2026-08-18 10:10]` **finalize** | Andrew Sean Greer Deep Extraction and skill-system Architecture checkpoint, validated revision | general | andrew-sean-greer — composite:7.8 status:Keep
+- `[2026-08-18 10:30]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
+- `[2026-08-18 10:31]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:8.0 status:Keep
+- `[2026-08-20 21:35]` **finalize** | Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent  | general | readout-os — composite:7.0 status:Needs Improvement
+- `[2026-08-21 10:25]` **finalize** | Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-bra | general | none — composite:7.0 status:Needs Improvement
+- `[2026-08-21 11:19]` **finalize** | Second-brain full install: harvested Kieran Flanagan sequel video, proved dormancy root cause (docum | general | none — composite:7.0 status:Needs Improvement
+- `[2026-08-23 07:59]` **lint** | Lint scan — 67 issues (24 errors, 31 warnings) — Files scanned: 1150
+- `[2026-08-23 07:59]` **compile** | Full compilation — 1150 files, 3,652,525 words, 67 lint issues
+- `[2026-08-23 09:09]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.0 status:Needs Improvement
+- `[2026-08-23 09:10]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.9 status:Keep
+- `[2026-08-24 10:15]` **finalize** | Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-da | general | sean-dollwet — composite:7.0 status:Needs Improvement
+- `[2026-08-24 10:16]` **finalize** | Research-backed decision brief for Farrice's first ebook: select two candidate books, choose one Boo | general | sean-dollwet — composite:8.33 status:Keep
+- `[2026-08-24 12:12]` **finalize** | Chrome CoAuthor analytics rerun that corrected Book One from Hybrid Athlete After 40 to a civilian M | general | sean-dollwet — composite:8.67 status:Keep
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:7.33 status:Needs Improvement
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:8.67 status:Keep
+- `[2026-08-24 15:26]` **finalize** | Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-r | content | mike-sherrard + enrico-incarnati + cardinal-mason + jen-listing-engine — composite:8.33 status:Keep
+- `[2026-08-24 21:23]` **finalize** | Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged v | general | kashef-wargame + hormozi/fladlien-frame — composite:9.0 status:Keep
+- `[2026-08-25 18:07]` **finalize** | Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI  | brand | extract-mastery + mike-sherrard — composite:8.67 status:Keep
+- `[2026-08-25 20:25]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:7.0 status:Needs Improvement
+- `[2026-08-25 20:26]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:8.0 status:Keep
+- `[2026-08-24 20:54]` **finalize** | Jun Yuh — connected storytelling skill-system expansion | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-08-25 15:32]` **finalize** | Hardened the connected Jun Story Engine with one authorized live-field packet, a three-asset commerc | general | Jun Yuh Creator Vision — composite:7.0 status:Needs Improvement
+- `[2026-08-26 00:54]` **finalize** | KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterev | research | deep-research-os — composite:6.33 status:Needs Improvement
+- `[2026-08-26 00:57]` **finalize** | KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterev | research | deep-research-os — composite:7.0 status:Needs Improvement
+- `[2026-08-26 09:49]` **finalize** | Evidence-backed architecture verdict on the missing mastery-transfer and surpassing proof spine acro | general | MES 3.0 with Source-to-Skill System — composite:9.0 status:Keep
+- `[2026-08-11 21:04]` **finalize** | Notion Second Brain end-to-end reliability live smoke | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-08-28 12:11]` **finalize** | 2026-08-28 Angle Map Listening Brief, source receipt, Friday synthesis, flagship post, and finished  | general | Oren Operational Systems — composite:7.0 status:Needs Improvement
+- `[2026-08-28 16:03]` **finalize** | Angle Map Brief Repair Plan: creative-director format, four-artifact architecture, implementation ph | general | Ciel Strategic Intelligence — composite:7.7 status:Keep
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:7.33 status:Needs Improvement
+- `[2026-08-28 16:18]` **finalize** | Angle Map Director Brief shadow repair, verifier fixtures, and isolated handoff flagship | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-08-29 06:14]` **finalize** | Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, | general | enrico-incarnati — composite:6.0 status:Needs Improvement
+- `[2026-08-29 06:43]` **finalize** | Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objecti | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:7.33 status:Needs Improvement
+- `[2026-08-29 07:17]` **finalize** | Madison paid-engagement iMessage reply grounded in the full direct thread | general | first-10k — composite:9.0 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 07:58]` **finalize** | Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squar | brand | donald-miller-storybrand — composite:8.33 status:Keep
+- `[2026-08-29 08:14]` **finalize** | Coach Cooz homepage conversion copy v2 and Squarespace implementation specification | copywriting | stefan-georgi-dopamine-copy — composite:8.0 status:Keep
+- `[2026-08-29 08:18]` **finalize** | Sherrard Claude-Design video extraction (watched: transcript + 6 frames) -> workflow 04 market-deman | brand | mike-sherrard — composite:6.0 status:Needs Improvement
+- `[2026-08-29 09:16]` **finalize** | Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps name | general | jay-sun-films — composite:5.67 status:Needs Improvement
+- `[2026-08-29 09:34]` **finalize** | Acusio Bivona premium local website pre-rewrite copy brief | general | luke-iha-avatar-machine — composite:8.0 status:Keep
+- `[2026-08-29 12:18]` **finalize** | Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG po | brand | farrice-brand — composite:6.0 status:Needs Improvement
+- `[2026-08-30 05:00]` **lint** | Lint scan — 70 issues (24 errors, 34 warnings) — Files scanned: 1205
+- `[2026-08-30 05:00]` **compile** | Full compilation — 1205 files, 3,780,688 words, 70 lint issues
+- `[2026-08-25 10:01]` **finalize** | Connected Dara Denney creative-format intelligence system with source package, 27th workflow, prompt | general | dara-denney — composite:7.8 status:Keep
+- `[2026-08-30 23:51]` **finalize** | Source-grounded Jun Pursuit-to-Offer and Story Angle expansion with mastery extraction, prompts, rou | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-08-30 23:51]` **finalize** | Connected Jun skill-system expansion: source package, mastery extraction, pursuit method branch, ang | general | extract-mastery — composite:7.77 status:Keep
+- `[2026-08-31 23:37]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:7.0 status:Needs Improvement
+- `[2026-08-31 23:38]` **finalize** | Brand Direction Decision Spine source-to-skill integration | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-09-01 13:09]` **finalize** | Realtor Local-Signal Content System with source package, connected Enrico workflow, deterministic se | general | enrico-incarnati — composite:8.67 status:Keep
+- `[2026-09-01 15:56]` **finalize** | Safe dirty-tree recovery, guarded lane reconciliation, and explicit-push boundary repair | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-09-01 16:25]` **finalize** | Implemented integration-only main write ownership guard with Claude and Codex hook parity, exact dir | strategy | system-audit — composite:7.33 status:Needs Improvement
+- `[2026-09-01 16:25]` **finalize** | Dirty-main prevention now enforces the user's actual operating need: Farrice can move quickly across | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-09-01 23:05]` **finalize** | Farrice Story Engine Forge audit, personal four-state live proof, and cold-routing repair | general | Jun Yuh — composite:7.0 status:Needs Improvement
+- `[2026-09-02 01:27]` **finalize** | Jun Format Intelligence OS with autonomous Farrice campaign and claim-safe client installation | general | jun-yuh-creator-vision — composite:6.0 status:Needs Improvement
+- `[2026-09-02 01:31]` **finalize** | Farrice Zero-to-Hero proof-first campaign | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-09-02 08:17]` **finalize** | Jen Engine v2 weeks 1-2: six finished posts in the photo look, captions, saved replies, facts ledger | content | jen-santulan-listing-content — composite:6.33 status:Needs Improvement
+- `[2026-09-02 10:35]` **finalize** | Jen Valley Editions: Tarzana Edition 01 — five Local Gem frames + five other-grammar covers, content | content | jen-santulan-listing-content — composite:6.0 status:Needs Improvement
+- `[2026-09-02 09:56]` **finalize** | Alyssa Stalker (Coffee & Contracts) x The Broke Agent — 2026 agent content playbook mastery extracti | content | alyssa-stalker — composite:7.33 status:Needs Improvement
+- `[2026-09-02 10:26]` **finalize** | Jen Santulan @_jiing outlier audit card — first live run of alyssa-stalker 01-outlier-audit on publi | content | alyssa-stalker — composite:6.67 status:Needs Improvement
+- `[2026-09-02 10:38]` **finalize** | Jen content OS layer: funnel math to 3 closings/mo, ENGINE-V2 amendments (Connect district, monthly  | content | alyssa-stalker — composite:7.33 status:Needs Improvement
+- `[2026-09-02 11:00]` **finalize** | Jen OS full run: week 3 (Sept 21) produced end to end — Redfin comps + Tarzana market fact pulled an | general | jen-santulan — composite:7.33 status:Needs Improvement
+- `[2026-09-02 22:29]` **finalize** | Scrapes Skill Systems routed from intent: six front doors, BRAND LOCK (scrapes_brand.py), vendor ski | general | harness-architect — composite:6.0 status:Needs Improvement
+- `[2026-09-03 07:46]` **finalize** | Blind bar 01: three supplement-teardown carousels for Farrice's brand (A: AG1 via Scrapes Scenario A | content | Luke Iha + Farrice VOICE-CARD BLEND (copy); Scrapes ssc-designer/ssc-image-generator (A, C); render_template.py direct (B) — composite:6.0 status:Needs Improvement
+- `[2026-09-04 06:45]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:7.0 status:Needs Improvement
+- `[2026-09-04 06:46]` **finalize** | Extended Nicolas Cole niche positioning into a source-grounded niche discovery and content system wi | strategy | nicolas-cole — composite:8.0 status:Keep
+- `[2026-09-04 16:34]` **finalize** | Jen 6-3-2 integration: reviewed two completed tasks, selected native-first pilot and first carousel, | content | jen-santulan — composite:8.33 status:Keep
+- `[2026-09-06 16:22]` **finalize** | Dan Koe LinkedIn source extension plus free video fallback and process audit | general | dan-koe — composite:7.0 status:Needs Improvement
+- `[2026-09-06 17:42]` **finalize** | Five real LinkedIn references, personal writing guide, and AI capability versus revenue draft | general | dan-koe — composite:7.0 status:Needs Improvement
+- `[2026-09-08 18:22]` **finalize** | Outcome ownership hook implementation and controlled delivery verification; main integration pending | strategy | system-audit — composite:6.67 status:Needs Improvement
+- `[2026-09-08 21:23]` **finalize** | Opt-in expert production recovered and verified; first Jen solo versus team B-roll pair ready for hu | content | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-09-08 21:10]` **finalize** | Revised the rejected AI revenue post around a concrete rejection-example diagnostic | general | dan-koe — composite:7.0 status:Needs Improvement

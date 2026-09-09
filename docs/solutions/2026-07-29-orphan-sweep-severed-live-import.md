@@ -1,3 +1,13 @@
+---
+date: 2026-07-29
+session: harness-apex metabolism audit
+name: orphan-sweep-severed-live-import
+problem_class: harness / cleanup sweep / severed import
+domain: harness
+status: proven
+problem_signature: "a cleanup or orphan sweep archives a file that IS imported; the import sits inside a bare try/except pass so nothing errors, and a downstream health or report artifact silently freezes with no alarm"
+tags: [orphan-sweep, imports, health-metrics, classifier, archive, silent-failure]
+---
 # Solution Card — orphan sweep archived a live module because verdicts predated the scanner fix in the same commit
 
 **Problem signature:** a cleanup/orphan sweep archives a file that IS imported; the import sits inside `try/except Exception: pass`, so nothing errors and a downstream artifact silently freezes. Symptom: a health/report artifact stops updating with no alarm.

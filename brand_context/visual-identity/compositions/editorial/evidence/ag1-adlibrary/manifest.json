@@ -1,0 +1,8 @@
+{
+  "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=AG1&search_type=keyword_unordered&media_type=all",
+  "screenshot_path": "brand_context/visual-identity/compositions/editorial/evidence/ag1-adlibrary/screenshot.png",
+  "width": 3200,
+  "height": 2400,
+  "backend": "playwright",
+  "timestamp": "2026-09-03T06:03:10.482757"
+}

@@ -1,0 +1,17 @@
+{
+  "preservation_lock": {
+    "source": "Farrice closeout standard plus the June 2026 verified Insightful Momentum surface",
+    "keep": [
+      "a visible retrieval title using [Domain]: [Specific Object] - [Outcome]",
+      "exactly three ranked and session-specific continuation prompts",
+      "materially different leverage paths rather than three versions of continue",
+      "a copy-ready prompt for every move",
+      "an explicit expected artifact, decision, proof event, or changed state for every move",
+      "one inspectable quality bar for every move",
+      "the hidden gap and capability reveal that make the recommendation intelligent"
+    ],
+    "do_not_reduce_to": "three generic labels plus copy-ready prompts with no retrieval title, expected outcome, or acceptance test"
+  },
+  "negative_control": "## 3 Next Prompts\n1. **Audit the repair** — make sure everything works.\n   **Prompt:** \"Audit the system.\"\n2. **Run a test** — test the workflow.\n   **Prompt:** \"Run a test.\"\n3. **Keep main clean** — prevent future drift.\n   **Prompt:** \"Keep the repository clean.\"",
+  "positive_control": "**Recommended task title:** System: Closeout Intelligence - Restore High-Value Next Prompts\n\n## 3 Next Prompts\n1. **Prove the repaired closeout in a fresh task**\n   **Prompt:** \"Run a fresh-task visible-surface smoke test against the repaired closeout contract.\"\n   **Expected outcome:** A captured response containing the title, three differentiated prompts, and explicit outcomes.\n   **Quality bar:** The visible response passes the closeout surface verifier with zero missing fields.\n2. **Exercise the Nicolas Cole system on Farrice's niche**\n   **Prompt:** \"Use the Nicolas Cole niche system to produce my first evidence-backed niche brief.\"\n   **Expected outcome:** A scored niche brief with positioning, content territories, proof gaps, and a validation plan.\n   **Quality bar:** Every recommendation traces to supplied evidence or is labeled as a hypothesis.\n3. **Turn the closeout standard into a durable benchmark**\n   **Prompt:** \"Package the good and bad closeout examples into a regression benchmark and add it to operator-core verification.\"\n   **Expected outcome:** A reusable positive/negative fixture exercised by the central verifier.\n   **Quality bar:** The positive control passes and the shallow negative control fails for the intended reasons."
+}

@@ -11,7 +11,7 @@
 > a fleet check instead of surfacing months later.
 
 <!-- BEGIN:shared-golden-rule -->
-> **⚠️ GOLDEN RULE — ONE WRITER PER TREE; LANES ARE AUTOMATIC (2026-08-06).** The first session keeps the main tree. Every additional session — Claude Code or Codex — works in its own git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: the SessionStart AUTO-LANE directive tells a second session to call EnterWorktree before any write — obey it. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge back to main at end-session when clean** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Never two writers in one tree — the lane machinery exists so nobody has to be the second one. (Old failure this retires: "apply one fix, another breaks", root-caused 2026-06-30.)
+> **⚠️ GOLDEN RULE — MAIN IS INTEGRATION-ONLY; EVERY WRITER GETS A LANE (2026-08-30).** Ordinary Claude Code and Codex sessions never author in the main checkout, including the first session. Read-only inspection may remain on main; before the first write, create or enter a git worktree **lane** with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by `execution/worktree_lane.py bootstrap`). Claude: obey the SessionStart AUTO-LANE directive and call EnterWorktree. Codex: `git worktree add .tmp/codex-worktrees/<slug> -b codex/<slug>` then `python3 execution/worktree_lane.py bootstrap`. Lanes **auto-merge into clean main when ready** (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — `worktree_lane.py merge --lane <branch>` resolves. Main is reserved for audited integration, reconciliation, and lock-aware scheduled maintenance. (This closes the dirty-main merge dependency left by the 2026-08-06 one-writer-per-tree rule.)
 <!-- END:shared-golden-rule -->
 
 <!-- BEGIN:shared-compass -->
@@ -33,6 +33,30 @@
 4. **Follow rules for their goal, never their letter.** A ban list can only make work less wrong; only intent makes it land (v3 profile-copy scar, 2026-07-29). If you're obeying a rule and can't name the goal it serves right now, flag the rule instead of obeying it.
 <!-- END:shared-partner-posture -->
 
+<!-- BEGIN:shared-analysts-truth-standard -->
+### Analyst's Truth Standard (ACTIVE ADVISORY)
+
+For meaningful synthesis, evaluation, strategy, creative ideation or review,
+research, system readouts, and decisions, silently check whether the result has
+stopped at reporting. Continue to analysis, diagnosis, or decision intelligence
+only while the next layer materially changes what the operator should believe,
+choose, make, test, or inspect. Separate verified observation from labeled
+inference; keep plausible alternatives alive; name the decision delta and what
+would confirm, weaken, or reverse it.
+
+For ideation, preserve surprise and the native craft owner's range. Use audience
+or cultural signal, tension or mechanism, differentiated angle, why it matters
+now, proposed artifact, and smallest validation test as an internal lens—not a
+mandatory visible template. Direct factual answers, simple retrieval,
+mechanical work, and pure production may stop earlier. Low evidence permits a
+hypothesis or evidence gap, never confident causality. Keep only evidence,
+meaningful inference, a decision, the requested artifact, or a test in the
+visible result. This companion may improve or recommend; it may not reroute,
+block, add required questions, inflate the output, or override the native owner.
+Canonical detail and proof live in
+`semantic_libraries/antigravity/primitives/analysts-truth-standard.md`.
+<!-- END:shared-analysts-truth-standard -->
+
 <!-- BEGIN:shared-agent-skills -->
 ## Agent skills (Matt Pocock engineering flow)
 
@@ -42,3 +66,9 @@ Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.age
 - **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
 - **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
 <!-- END:shared-agent-skills -->
+
+<!-- BEGIN:shared-scrapes-skill-systems -->
+## Scrapes Skill Systems (vendored 2026-09-02)
+
+Simon Scrapes' 36-skill **Skill Systems** live in `.claude/skills/<name>/` (Claude Code mounts each as `/<name>`; Codex sees them through `.agents/skills/<name>` symlinks). Pipelines: `/00-social-content` · `/00-longform-to-shortform` · `/00-slides` · `/00-youtube-to-ebook`. Foundation: `/mkt-brand-voice` reads `brand_context/` (populated from `FARRICE-MASTER-CONTEXT.md` + `VOICE-CARD.md`, never by interview); `/mkt-visual-identity` is Farrice's run (approval gates). Rules: **never edit inside a Scrapes skill folder** (`.installed.json` hashes gate updates; update with `npx @scrapes/installer`, npm token required) — extend through `brand_context/` and wrappers. `.claude/agents/ssc-*` + `l2s-*` are the product's own workers (standing exception to the no-subagents rule, Farrice 2026-09-02); in Codex, run them inline by reading the agent `.md` as the prompt. **Not wired on purpose:** `tool-publisher`, `tool-zernio-social`, `mkt-short-form-posting` auto-post (sends stay human); `tool-linkedin-scraper` needs Apify (retired). Precedence vs home-built skills: `_active/harness/scrapes-skill-systems/PRECEDENCE-MAP.md`.
+<!-- END:shared-scrapes-skill-systems -->

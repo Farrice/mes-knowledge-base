@@ -1,0 +1,1 @@
+{"_schema": "reserved v0 (Wave-2 consumer)", "fields": ["batch", "date", "bucket", "slot", "video_url", "views_24h_note", "views_7d", "outlier_vs_own_baseline", "working_unit_events", "working_unit_kind", "dollars_attributed", "decision", "decided_at"], "rules": "no verdict <24h; no demotion before batches 2-3; dollars decide"}

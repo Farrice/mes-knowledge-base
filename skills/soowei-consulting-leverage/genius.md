@@ -81,6 +81,56 @@ Specifically:
 **Success Metric**: After 10 engagements, 60%+ of new client delivery uses existing playbook modules rather than custom-built work. Each engagement makes the next one faster AND better.
 **Provenance note**: unlike Patterns 1-15, this pattern is not traceable to a verbatim line in the three SooWei transcripts recovered for this repair (see `references/source-ledger.md`) — labeled LIKELY (a plausible extension of Pattern 14's SOP obsession, not a confirmed SooWei quote).
 
+## Pattern 17: The Four-Stage Trust Sequence
+**Execute**: Diagnose content in order: admirable, likable, credible, trustable. Do not answer a trust deficit with more educational value until the earlier missing stage is named.
+**Success Metric**: Every planned asset has one primary trust job and supplied evidence for that job.
+**Source**: `Y388trCakrs` 06:41–07:33 — VERIFIED as SooWei's stated sequence.
+
+## Pattern 18: Buyer Mirror Funnel Attribution
+**Execute**: Ask what created discovery, first serious attention, conviction, the final push to book, hesitation, and the choice of this provider. Preserve the answers as separate signals instead of blending them into an invented avatar.
+**Success Metric**: Every content recommendation traces to verbatim buyer evidence or is marked UNTESTED.
+**Source**: `Y388trCakrs` 09:49–12:10 — VERIFIED.
+
+## Pattern 19: The Dream-Follower Overlap
+**Execute**: Find a lived interest or desired outcome shared by the buyer and a wider adjacent follower. Use it to earn initial attention, then qualify rather than continue speaking to everyone.
+**Success Metric**: The opening has legitimate adjacent appeal and the conclusion is unmistakably for the buyer.
+**Source**: `PRqSCE8uZns` 02:32–04:03 — VERIFIED as source method; transfer remains UNTESTED.
+
+## Pattern 20: Progressive Audience Narrowing
+**Execute**: Open at the buyer/adjacent-audience overlap, introduce buyer-specific problems and language after the hook, and finish at full buyer relevance. SooWei's 20/50/0 ratios are a demonstrated example, not a universal formula.
+**Success Metric**: Each script beat names who should remain and why; no fixed ratio is presented as law.
+**Source**: `PRqSCE8uZns` 32:12–32:48 — VERIFIED demonstration.
+
+## Pattern 21: The Coordinated Three-Hook Opening
+**Execute**: Make title, first visual, and first spoken line open one curiosity loop from three angles. Reject openings where one element repeats or contradicts another.
+**Success Metric**: The viewer can understand the tension with audio on or off, and each hook contributes new information.
+**Source**: `PRqSCE8uZns` 09:01–09:14 — VERIFIED.
+
+## Pattern 22: Proof Must Pay the Viewer
+**Execute**: Turn client evidence into a useful walkthrough: situation, decision, mechanism, observable result, limitation, and transferable lesson. A testimonial that only praises the provider is unfinished.
+**Success Metric**: The viewer receives a decision or method even if they never buy.
+**Source**: `Y388trCakrs` 19:38–20:10 — VERIFIED source principle; output structure is a bounded synthesis.
+
+## Pattern 23: Mechanics First, Owned Twist Second
+**Execute**: Strip a proven format down to its attention mechanics, then rebuild it around Buyer Mirror differentiation and actual proof. Copying topic, phrasing, or identity fails.
+**Success Metric**: The format lineage is visible, but another provider cannot use the asset unchanged.
+**Source**: `PRqSCE8uZns` 12:49–13:42 — VERIFIED.
+
+## Pattern 24: The Two-Pipeline Media Company
+**Execute**: Separate pre-production decisions—evidence, concept, packaging, ownership—from post-production decisions—editing, publishing handoff, retention review, repurposing, and learning. Join them through explicit artifacts.
+**Success Metric**: Every asset has an owner, input, output, gate, and post-publication learning destination.
+**Source**: `Y388trCakrs` 22:19–23:05 — VERIFIED.
+
+## Pattern 25: Retention-Spike Repurposing
+**Execute**: Select clips from observed long-form attention spikes and complete thoughts, then adapt the opening for the destination platform. Do not clip moments merely because they sound quotable.
+**Success Metric**: Every repurposed clip cites its source interval and the signal that justified selection.
+**Source**: `Y388trCakrs` 29:56–30:04 — VERIFIED.
+
+## Pattern 26: Post-Publish Is Pre-Production
+**Execute**: Review weekly outliers, retention moments, objections, responses, and buyer events. Convert them into keep, cut, test, and evidence-gap decisions for the next cycle.
+**Success Metric**: Each review changes a future concept, packaging choice, proof need, or audience hypothesis.
+**Source**: `Y388trCakrs` 30:27–30:35 — VERIFIED.
+
 ---
 
 ## Anti-Patterns (Sourced)
@@ -94,6 +144,11 @@ Specifically:
 - **Never leave gaps between stacked calls "to breathe"** — 2026-01-17 transcript: "It's that awkward period. Get rid of it." (source: SooWei $2M-consulting transcript, .md, archived).
 - **Don't run appointment-setting and content creation as disconnected departments** — 2026-01-17 transcript: "your appointment center doesn't even talk to the content person. Why? Like, why?" (source: SooWei $2M-consulting transcript, .md, archived).
 - **Never make direct income-outcome claims in marketing copy** — 2026-01-17 transcript: "I don't make any claims. I'm like, these are the results I get. You decide the claim that you want for yourself." (source: SooWei $2M-consulting transcript, .md, archived).
+- **Do not skip from attention to credibility and call it trust** — `Y388trCakrs` 06:41–07:33: trust is described as a sequence; more teaching cannot substitute for missing admiration or likability.
+- **Do not turn the dream follower into the final audience** — `PRqSCE8uZns` 32:12–32:48: broad attention is intentionally narrowed until the buyer remains.
+- **Do not stage an achievement only to manufacture content** — `PRqSCE8uZns` 07:12–07:45: the “I made it” format documents an achieved reality; it is not permission to fabricate lifestyle proof.
+- **Do not copy the skin of a viral format** — `PRqSCE8uZns` 12:49–13:42: preserve the mechanics and rebuild the difference from why clients chose you.
+- **Do not call views a business result** — `Y388trCakrs` 29:56–30:35 supports retention and weekly learning as content signals; booked calls, deposits, and revenue require separate evidence.
 
 ---
 
@@ -118,6 +173,9 @@ Specifically:
 *   **The "Objection-to-Content Loop"**: Upon hearing a recurring question, hesitation, or objection from prospects or clients (via sales calls, DMs, or team feedback), SooWei's immediate instinct is to ask, "How can we turn this into a piece of content?" They then assign or draft content specifically designed to address and pre-empt that objection. → **Deploy when**: Reviewing sales data, engaging with prospects, or during team syncs where common client challenges are discussed.
 *   **The "Pre-Commitment Trigger"**: When identifying internal resistance or procrastination towards a high-leverage but uncomfortable strategic move (e.g., investing in a new system, hiring a crucial team member), SooWei immediately applies a financial forcing function: paying upfront for a retainer, booking non-refundable travel, or committing publicly to a deadline. → **Deploy when**: Experiencing inertia on a critical growth initiative or sensing a bottleneck that requires external commitment.
 *   **The "Desired Reality Mirror"**: Before drafting any public-facing content, marketing copy, or personal brand messaging, SooWei mentally maps out the ICP's deepest aspirational lifestyle, status symbols, and emotional goals. They then craft the message to subtly reflect or demonstrate that desired reality through their own actions, results, or narrative, rather than making direct claims. → **Deploy when**: Ideating new content, refining brand voice, or preparing for any public communication.
+*   **The "Earliest Missing Trust Stage" Diagnosis**: Before recommending another post, SooWei identifies whether the audience lacks a reason to admire, like, believe, or trust the provider, then assigns the next asset to that job. → **Deploy when**: Content gets attention or praise but does not create buyer movement.
+*   **The "Three Hooks, One Loop" Check**: Before filming, SooWei reads the title, freezes the first frame, and says the opening line aloud. If they do not create one coherent open loop, the asset is not ready. → **Deploy when**: Packaging a video or short-form asset.
+*   **The "Post-Publish Pre-Production" Review**: After publishing, SooWei treats retention spikes, questions, and buyer events as inputs to the next brief rather than as a vanity report. → **Deploy when**: Running a weekly content review.
 
 ## Expert-Specific Quality Rubric
 
@@ -130,3 +188,7 @@ Specifically:
 | **Desired Reality Resonance**      | Messaging focuses on generic benefits or features, failing to connect with the ICP's deeper aspirations. | Touches on aspirational elements but lacks concrete demonstration or deep understanding of ICP's specific status markers. | Messaging deeply understands and subtly reflects the ICP's desired lifestyle, status markers, and emotional goals, making the expert's life a compelling, aspirational mirror. |
 | **Claim-to-Proof Ratio**           | Relies heavily on unsubstantiated claims or vague promises without clear evidence. | Provides some proof points but still includes direct claims that could lead to expectation mismatch. | All claims are either explicitly demonstrated through track record, client results (with disclaimers), or framed as observed outcomes, embodying "Zero-Claims Marketing." |
 | **Time-Freedom Architecture**      | The output suggests more manual work or increased operational engagement from the expert for implementation. | The output aims for time-saving but requires significant initial setup or ongoing expert oversight to maintain. | The output's ultimate design actively reduces the expert's direct operational involvement over time, creating more "Leader Days" and uncapped output focus as a core outcome. |
+| **Buyer-Evidence Traceability** | Audience claims are invented or generic. | Some recommendations cite buyer language, but assumptions remain blended with evidence. | Every attention, conviction, and booking decision traces to verbatim evidence or is explicitly marked UNTESTED. |
+| **Trust-Stage Precision** | Every asset tries to educate or sell. | The portfolio includes different content types but lacks a diagnosed sequence. | Each asset has one primary trust-stage job, the stages compound, and no later-stage proof substitutes for an earlier missing relationship. |
+| **Attention-to-Buyer Integrity** | Broad reach dilutes the offer or attracts the wrong audience. | The asset includes buyer details but does not control when narrowing happens. | The opening earns adjacent attention, the body progressively qualifies, and the ending is unmistakably for the buyer. |
+| **Learning-Loop Consequence** | Reports metrics without changing a decision. | Names winners and losers with plausible lessons. | Connects observed attention and buyer events to explicit keep, cut, test, and evidence-gap decisions for the next cycle. |

@@ -1,0 +1,2 @@
+comment_id,media_id,curated_text_redacted,intent_type,qualified_hand_raise,privacy_state,build_state
+SCOPE_NOTE,,Comments and replies were waived by the operator; no audience-language corpus is represented in this baseline archive.,scope_note,False,no_comment_data,FINAL_CANDIDATE

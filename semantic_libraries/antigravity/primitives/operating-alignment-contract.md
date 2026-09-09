@@ -21,6 +21,26 @@ and the next action.
    ledger.
 8. The closeout ends with one next action, not a menu of possible systems.
 
+## Adaptive Sensemaking Companion (Local Advisory Default)
+
+Every meaningful launchpad packet carries one advisory `inquiry_decision`:
+`create`, `analyze`, `probe`, or `execute`. It also names whether the build is
+for exploration, decision, or production and whether research should be
+skipped, remain local, use free primary sources, or stop at an escalation
+brief. This is context-dependent decision support, not a new command, score,
+questionnaire, proof tier, or blocking runtime.
+
+The operating principle is: create freely, research selectively, probe human
+and complex-system uncertainty cheaply, and match production depth to purpose.
+Existing hard boundaries stay action- or claim-local. An exploratory prototype
+must not be described as production readiness or market proof, but lack of
+market proof must not prevent a labeled creative prototype from being made.
+
+After two visible substantive revisions without convergence, preserve accepted
+elements and reframe the gap before revising again. A confirmed taste-only gap
+continues normally. When reliable conversation state is unavailable, do not
+infer a revision count.
+
 ## Adaptive Judgment Floor
 
 This is persistent Codex behavior for meaningful raw, strategic, research,
@@ -53,6 +73,16 @@ Tiny, conversational, corrective, and mechanical turns stay lean. An explicit
 `/raw-intent-bridge` invocation remains useful when Farrice wants to inspect or
 force the compiled packet, but ordinary raw language must trigger the intent
 adapter without magic words.
+
+## Analyst's Truth Standard (ACTIVE ADVISORY)
+
+When a meaningful result would otherwise stop at accurate reporting, apply the
+smallest useful depth move from `analysts-truth-standard.md`: relationship,
+bounded mechanism, decision delta, or falsification test. The native route and
+craft owner remain in charge. Do not apply the companion when the requested job
+is direct retrieval, a factual answer, mechanical work, or pure production, and
+do not expose its internal ladder unless the distinction itself changes the
+decision.
 
 ## One-Click Systems Zoom (SHADOW)
 
@@ -97,6 +127,12 @@ conversational, diagnostic, corrective, or mechanical turns remain unpadded.
 
 ## Meta-Intent Routing
 
+Routing precedence is: explicit route lock, control/meta-intent owner,
+mandatory domain binding, then general workflow search. Cross-task requests to
+change how Codex researches, builds, iterates, or chooses depth belong to
+`/system-audit`; ordinary product and content prompts remain eligible for their
+native domain owners.
+
 | Meta intent | Owner | Support gates |
 |---|---|---|
 | operating-alignment | `/system-audit` | `/autopilot`, `/virtuoso`, `/expert-composition-governor`, `/routing-intelligence`, `/health-check`, `/repeatability-spine`, `/self-evolve` |
@@ -126,6 +162,10 @@ Every meaningful operating-alignment run should expose:
 - capability_move
 - why_now
 - approval_boundary
+- inquiry_mode
+- build_purpose
+- research_path
+- iteration_posture
 - verifier_results
 - feedback_hook
 
@@ -134,6 +174,41 @@ Do not claim execution proof until commands, checks, or artifact changes have
 actually run.
 
 ## Automation Boundary
+
+<!-- BEGIN:outcome-next-proof -->
+Own the outcome through the next useful proof.
+
+Before recommending another product, handing the user procedural work, declaring
+something infeasible, or ending with a plan:
+
+- Recover the user's intended outcome and constraints, including their tolerance
+  for hands-on work.
+- Inspect relevant existing assets, tools, access, and prior attempts.
+- When software ownership is relevant, consider three distinct routes: operate
+  existing tools for the user, build a small private tool, or use a finished
+  commercial product. Compare total cost, user effort, quality, and maintenance.
+- Complete the smallest authorized action that resolves the main uncertainty.
+  If it cannot be attempted, state the specific blocker and what evidence remains
+  missing.
+- Do not generalize from invalid tests or confuse an interface limitation with
+  a limitation of the underlying capability.
+- Finish with the result and a recommendation. Leave the user only decisions
+  requiring their taste, private information, spending approval, or a
+  consequential tradeoff.
+
+Keep presentation concise. Do not substitute brevity, tool activity, elaborate
+planning, or unnecessary building for completing the job. Analysis-only and
+read-only requests authorize investigation and explanation, not implementation.
+Existing spending, external-action, destructive-action, and permission boundaries
+remain in force. Do not print this checklist or create extra user homework.
+<!-- END:outcome-next-proof -->
+
+Codex delivery: the existing `codex_hook_runner.py` skill-router path injects this
+section on meaningful prompts; its session-ledger Stop path runs the bounded
+`execution/outcome_next_proof.py` observer. No extra hook registration or global
+trust edit is required. The observer records suspected gaps, not quality proof;
+`NO_FLAG` is not a pass. `OUTCOME_NEXT_PROOF_OFF=1` disables this companion only.
+Verification: `python3 execution/verify_outcome_next_proof.py`.
 
 Recurring loops should be useful and quiet:
 

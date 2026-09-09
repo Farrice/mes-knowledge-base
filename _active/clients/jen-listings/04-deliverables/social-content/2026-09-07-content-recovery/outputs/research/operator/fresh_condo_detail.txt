@@ -1,0 +1,174 @@
+Lender Letter LL-2026-03 Updates to Project Standards & Property Insurance Requirements (https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements)
+citeturn8view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 9; Source: open({"ref_id":"turn7view0","lineno":72}); Total lines: 292
+L14@P0: operational simplicity. These updates will help ensure borrowers and homeowners’ associations have access to insurance
+L15@P0: that is compliant with Fannie Mae’s insurance requirements. They also balance the strengthened project standards
+L16@P0: requirements designed to promote the financial resilience and long-term sustainability of condo projects.
+L18@P0: We are updating certain project standards throughout Selling Guide Chapter B4-2, Project Standards and property insurance
+L19@P0: requirements and related lender and servicer responsibilities throughout Selling Guide Chapter B7-3, Property and Flood
+L20@P0: Insurance and Servicing Guide Chapter B2, Property Insurance Requirements. Lenders and servicers must continue to refer to
+L21@P0: existing requirements in these Chapters unless otherwise updated with this Lender Letter. This Lender Letter provides
+L22@P0: information about the following:
+L23@P0: Project Standards Updates
+L24@P0: ▪ Expansion of Waiver of Project Review
+L25@P0: ▪ Retirement of PERS review for new condo projects with attached units in Florida
+L26@P0: ▪ Retirement of investor concentration limits
+L27@P0: ▪ Retirement of the Limited Review process
+L28@P0: ▪ Enhanced reserve study requirements
+L29@P0: ▪ Increased replacement reserve requirements
+L30@P0: Property Insurance Updates
+L31@P0: ▪ Policies Applicable to Sellers and Sellers/Servicers
+L32@P0: • Property Insurance Requirements for One-to Four-Unit Properties
+L33@P0: • Master Property Insurance Requirements for Project Developments
+L34@P0: • Individual Property Insurance Requirements for a Unit in a Project Development
+L35@P0: ▪ Additional Policies Applicable to Servicers Only
+L36@P0: • Property Insurance Requirements for One- to Four-Unit Properties
+L37@P0-1: • General Requirements© 2026 Fannie Mae LL-2026-03 Page 2 of 9
+L38@P1: Project StandardsUpdates
+L39@P1: In 2023, we incorporated significant deferred maintenance and unsafe condition (i.e., critical repairs) requirements for condo
+L40@P1: projects into the Selling Guide. Since then, we have seen a correlation between condo projects with underfunded reserves for
+L41@P1: capital expenditures and those in need of critical repairs. Condo projects with inadequate reserves typically do not have the
+L42@P1: requisite resources to maintain the physical condition of the project or to fund unexpected operating expenses. As a result, unit
+L43@P1: owners can experience substantial financial hardship from unexpected special assessments or higher regular assessments or
+L44@P1: dues, leading to mortgage default or foreclosure.
+L45@P1: Our revised requirements are intended to improve the financial health of condo projects and promote long-term sustainable
+L46@P1: homeownership.
+L47@P1: Expansion of Waiver of Project Review
+L48@P1: We are expanding eligibility for a Waiver of Project Review to include new and established projects with ten or fewer units. For
+L49@P1: projects consisting of five- to ten-units, the project must not be part of a master association or larger development. Lenders who
+L50@P1: use this option must comply with all Requirements that Apply When the Project Review is Waived in Selling Guide B4-2.1-02, Waiver
+L51@P1: of Project Review. This includes, but is not limited to, the following:
+L52@P1: • the project does not have an “Unavailable” status in Condo Project ManagerTM (CPM™),
+L53@P1: • the project meets all applicable insurance requirements in Selling Guide B7-3, Property and Flood Insurance, and
+L54@P1: • there are no critical repairs or evacuation orders in place if the loan is a Fannie Mae to Fannie Mae limited cash-out
+L55@P1: refinance.
+L56@P1: N O T E : As stated in Selling Guide B7-4-01, General Liability Insurance Requirements for Project Developments, general
+L57@P1: liability and fidelity insurance are not required for condo projects that qualify for a Waiver of Project Review.
+L58@P1: Effective: Lenders may take advantage of this change immediately. The Desktop Underwriter® (DU®) messages related to Waiver
+L59@P1: of Project Review will be updated in a future release.
+L60@P1: Retirement of PERS review for new condo projects with attached units in Florida
+L61@P1: We are retiring the requirement that new or newly converted projects with attached units in Florida must be submitted to Fannie
+L62@P1: Mae’s Project Eligibility Review Service (PERS). Approval of these projects, like all other new projects with attached units, can be
+L63@P1: reviewed under the lender-delegated Full Review process.
+L64@P1: Effective: Lenders may take advantage of this change immediately. Regarding the state-specific project review guidelines, CPM
+L65@P1: has been updated and DU messages will be updated in a future release.
+L66@P1: Retirement of investor concentration limits
+L67@P1: We are retiring the investment property concentration limit of 50% in established projects reviewed as part of the Full Review
+L68@P1: option on investor loans.
+L69@P1: N O T E : The presale requirement that at least 50% of the total units in the project or subject legal phase must have been
+L70@P1: conveyed or be under contract for sale to principal residence or second home purchasers still applies as described in Selling
+L71@P1: Guide B4-2.2-03, Full Review: Additional Eligibility Requirements for Units in New and Newly Converted Condo Projects.
+L72@P1: Effective: Lenders may take advantage of this change immediately. Regarding the investor concentration guidelines, CPM has
+L73@P1-2: been updated and DU messages will be updated in a future release.© 2026 Fannie Mae LL-2026-03 Page 3 of 9
+L74@P2: Retirement of the Limited Review process
+L75@P2: We are retiring the Limited Review process. Established projects previously eligible for Limited Review must now be reviewed
+L76@P2: using the Full Review process or, when applicable, the Waiver of Project Review process in Selling Guide B4-2.1-02, Waiver of
+L77@P2: Project Review.
+L78@P2: N O T E : This change effectively retires the remaining geographic restrictions that apply to the state of Florida. Geographic
+L79@P2: restrictions remain in effect until the Limited Review process is retired on August 3, 2026.
+L80@P2: Effective: Lenders may implement the retirement of Limited Review immediately but must do so for all loan applications dated
+L81@P2: on or after Aug. 3, 2026. DU messages related to the Limited Review process will be updated in a future release.
+L82@P2: Enhanced reserve study requirements
+L83@P2: Current policy allows lenders to obtain a reserve study to demonstrate a project has sufficient reserves when it is not budgeting
+L84@P2: for replacement reserves that meet our Selling Guide requirements. We are updating this policy to clarify when lenders use this
+L85@P2: flexibility, they must verify the project’s budget includes the highest recommended reserve allocation amount in the reserve
+L86@P2: study to adequately cover the costs identified.
+L87@P2: N O T E : Lenders are no longer permitted to use the baseline funding method which is the option that allows the reserve cash
+L88@P2: balance to approach but never fall below zero.
+L89@P2: Effective: Lenders are encouraged to implement this change immediately but must do so for all loan applications dated on or
+L90@P2: after Aug. 3, 2026.
+L91@P2: Increased replacement reserve requirements
+L92@P2: We are revising our reserve allocation requirement for capital expenditures and deferred maintenance from a minimum of 10% to
+L93@P2: a minimum of 15% of the annual budgeted income assessment. All other requirements related to replacement reserves and the
+L94@P2: review of budget adequacy remained unchanged.
+L95@P2: Effective: Lenders must comply with this requirement when utilizing the Full Review process for all loan applications dated on or
+L96@P2: after Jan. 4, 2027. CPM lender certifications will be updated in a future release.
+L97@P2: Property Insurance Updates
+L98@P2: In February 2024, we made clarifications to our property insurance requirements. Since publication of these clarifications, we
+L99@P2: have heard concerns from industry partners about lenders’ and servicers’ ability to comply with certain property insurance
+L100@P2: requirements. In response to this feedback, we conducted extensive market outreach and are making various updates to our
+L101@P2: requirements as a result of these collaborative efforts.
+L102@P2: Policies Applicable to Sellers & Sellers/Servicers
+L103@P2: Property Insurance Requirements for One-to Four-Unit Properties
+L104@P2: Coverage sufficiency
+L105@P2: We are retiring the requirements related to documenting the replacement cost value to verify the property insurance policy
+L106@P2-3: coverage amount contained in Determining the Required Coverage Amount in Selling Guide B7-3-02, Property Insurance © 2026 Fannie Mae LL-2026-03 Page 4 of 9
+L107@P3: Requirements for One-to Four-Unit Properties in their entirety. We are also retiring the requirement to insure roofs on a
+L108@P3: replacement cost basis, as described in Coverage Requirements in Selling Guide, B7-3-02, Property Insurance Requirements for
+L109@P3: One-to Four-Unit Properties.
+L110@P3: With this Lender Letter, the requirement for coverage sufficiency is as follows:
+L111@P3: The property insurance policy must provide coverage on a replacement cost basis, with the exception of roofs; property insurance
+L112@P3: policies that provide such terms of coverage will be deemed to provide sufficient coverage.
+L113@P3: N O T E : Roofs must be insured, but do not have to be insured on a replacement cost basis.
+L114@P3: N O T E : Fannie Mae recognizes that some insurers may issue policies that provide coverage on an actual cash value basis for
+L115@P3: personal property and structures that are not buildings. In the event the lender or servicer sees such terms in a property
+L116@P3: insurance policy covering a one- to four-unit property, this is acceptable.
+L117@P3: All other requirements in Coverage Requirements in Selling Guide B7-3-02, Property Insurance Requirements for One-to Four-Unit
+L118@P3: Properties remain unchanged.
+L119@P3: Effective: These changes are effective immediately.
+L120@P3: Master Property Insurance Requirements for Project Developments
+L121@P3: Coverage sufficiency
+L122@P3: We are revising the requirements related to documenting the replacement cost value to verify the master property insurance
+L123@P3: policy coverage amount contained in Determining the Required Coverage Amount in Selling Guide B7-3-03, Master Property
+L124@P3: Insurance Requirements for Project Developments in their entirety. Additionally, we are retiring the requirement to insure roofs
+L125@P3: on a replacement cost basis, as described in Coverage Requirements in Selling Guide B7-3-03, Master Property Insurance
+L126@P3: Requirements for Project Developments. Last, we are retiring the requirement that project developments have inflation guard
+L127@P3: coverage as described in Special Coverage Requirements for Project Developments in Selling Guide B7-3-03, Master Property
+L128@P3: Insurance Requirements for Project Developments.
+L129@P3: With this Lender Letter, the following table describes the coverage sufficiency requirements for master property insurance
+L130@P3-4: policies.© 2026 Fannie Mae LL-2026-03 Page 5 of 9
+L131@P4: Requirements to Confirm Coverage Sufficiency for Project Developments
+L132@P4: Coverage sufficiency The master property insurance policy coverage amount must equal at least 100% of the estimated
+L133@P4: replacement cost value of the project improvements, including common elements and residential
+L134@P4: structures.
+L135@P4: The lender or servicer may rely on any one of the following to document that the coverage amount is
+L136@P4: sufficient:
+L137@P4: • guaranteed replacement cost coverage, or its equivalent;
+L138@P4: • extended replacement cost coverage, or its equivalent;
+L139@P4: • a replacement cost value estimate provided by the insurer;
+L140@P4: • the project’s insurance risk appraisal; or
+L141@P4: • a statement from the insurer or other applicable professional with appropriate expertise to
+L142@P4: make such a determination.
+L143@P4: Loss settlement The master property insurance policy must provide coverage on a replacement cost basis, with the
+L144@P4: exception of roofs.
+L145@P4: N O T E : Roofs must be insured, but do not have to be insured on a replacement cost basis.
+L146@P4: N O T E : Fannie Mae recognizes that some insurers may issue policies that provide coverage on
+L147@P4: an actual cash value basis for personal property and certain property elements. In the event the
+L148@P4: lender or servicer sees such terms in a master property insurance policy covering a project
+L149@P4: development, this is acceptable.
+L150@P4: N O T E : See Acceptable Evidence of Master Property Insurance Policies in Servicing Guide B-2-03, Master Property Insurance
+L151@P4: Requirements for Project Developments for additional servicer options related to property insurance covering project
+L152@P4: developments.
+L153@P4: All other requirements in Coverage Requirements and Special Coverage Requirements for Project Developments in Selling Guide B7-
+L154@P4: 3-03, Master Property Insurance Requirements for Project Developments remain unchanged.
+L155@P4: Effective: These changes are effective immediately.
+L156@P4: Deductible requirements
+L157@P4: We are updating our requirements related to per unit deductibles in Deductible Requirements in Selling Guide B7-3-03, Master
+L158@P4: Property Insurance Requirements for Project Developments.
+L159@P4: With this Lender Letter, the maximum allowable per unit deductible for all required property insurance perils covered by a master
+L160@P4: property insurance policy is $50,000 per unit.
+L161@P4: N O T E : When the master property insurance policy has a per unit deductible, the borrower must have a unit owners property
+L162@P4: insurance policy, in accordance with the requirements set forth in “Determining when a policy is required & coverage
+L163@P4: sufficiency” in “Individual Property Insurance Requirements for a Unit in a Project Development” below.
+L164@P4: All other requirements in Deductible Requirements in Selling Guide B7-3-03, Master Property Insurance Requirements for Project
+L165@P4-5: Developments remain unchanged.© 2026 Fannie Mae LL-2026-03 Page 6 of 9
+L166@P5: Effective: Lenders are encouraged to implement these changes immediately but must do so for all loans with application dates
+L167@P5: on or after July 1, 2026.
+L168@P5: Individual Property Insurance Requirements for a Unit in a Project Development
+L169@P5: Determining when a policy is required & coverage sufficiency
+L170@P5: We are replacing the requirements related to when a borrower is required to obtain an individual property insurance policy, as
+L171@P5: described in Determining if an Individual Property Insurance Policy on a Unit in a Project Development is Required in Selling Guide
+L172@P5: B7-3-04, Individual Property Insurance Requirements for a Unit in a Project Development, in their entirety. Additionally, we are
+L173@P5: replacing the requirements related to coverage sufficiency, as described in Determining the Required Coverage Amount in Selling
+L174@P5: Guide B7-3-04, Individual Property Insurance Requirements for a Unit in a Project Development, in their entirety.
+L175@P5: With this Lender Letter, the following table describes requirements for individual property insurance policies.
+L176@P5: Requirements for Individual Property Insurance Policies
+L177@P5: Determining when a unit
+L178@P5: owners property insurance
+L179@P5: policy is required
+L180@P5: The borrower must have a unit owners property insurance policy when:
+L181@P5: • any portion of the interior of the unit or improvements to the unit are not covered by the
+L182@P5: master property insurance policy, or
+L183@P5: • the master property insurance policy includes a per unit deductible.
+--------------------------------------------------------------------------------
+ (https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements)
+citeturn8view1 

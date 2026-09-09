@@ -1,0 +1,11 @@
+[
+  {"timestamp":"06:41-07:33","type":"observed_spoken","text":"Trust is sequenced through admirable, likable, credible, and trustable stages.","evidence":"transcript"},
+  {"timestamp":"08:14-09:07","type":"observed_visual","text":"A slide prompts three concrete reasons the audience can admire the creator.","evidence":"frames/08m14s-admirability-proof-prompts.jpg"},
+  {"timestamp":"09:49-12:10","type":"observed_spoken","text":"Buyer Mirror questions identify choice, first serious attention, and last pre-booking content.","evidence":"transcript"},
+  {"timestamp":"10:07","type":"observed_visual","text":"The unique-mechanism slide explicitly points back to client choice evidence.","evidence":"frames/10m07s-unique-mechanism-buyer-mirror.jpg"},
+  {"timestamp":"19:38-20:10","type":"observed_spoken_visual","text":"Showing rather than telling is paired with a client-value content example.","evidence":"transcript + frames/20m10s-client-value-video-example.jpg"},
+  {"timestamp":"23:03-23:05","type":"observed_spoken_visual","text":"The content operation is organized into two pipelines.","evidence":"transcript + frames/23m03s-two-pipeline-content-system.jpg"},
+  {"timestamp":"29:56-30:04","type":"observed_spoken_visual","text":"A long-form retention spike is used to select a short-form clip.","evidence":"transcript + frames/29m58s-retention-spike-repurposing.jpg"},
+  {"timestamp":"30:27-30:35","type":"observed_spoken_visual","text":"Weekly review feeds performance evidence into the next production cycle.","evidence":"transcript + frames/30m32s-post-publish-feedback-loop.jpg"}
+]
+

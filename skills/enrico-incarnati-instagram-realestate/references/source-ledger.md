@@ -13,6 +13,16 @@ Every claim in this skill traced to its source, labeled VERIFIED / LIKELY / UNCO
 
 **Conclusion**: `extractions/enrico-incarnati/transcript.txt` is the ONLY primary source for Enrico Incarnati's teaching in this system. No second transcript, article, or course exists in the codebase as of this repair pass.
 
+## Connected Source Expansion: Marie Lee Transaction Stories (2026-09-03)
+
+This source does not alter claims attributed to Enrico. It supplies an additive, source-labeled workflow under Enrico's existing Instagram-for-real-estate ownership.
+
+| Source | Evidence captured | Allowed transfer | Boundary |
+|---|---|---|---|
+| The Broke Agent interview with Marie Lee, `https://www.youtube.com/watch?v=LO3NwPogTjQ` | Full native-caption review, 53-frame scene scan, 30 targeted frame checks, timestamped synthesis | Transaction case capture, format routing, proof ordering, production economy, trust-vs-demand distinction | Performance and causal claims remain `SOURCE_REPORTED`; no result guarantee or persona imitation |
+
+Source-specific mechanics and timestamps: `references/marie-lee-transaction-story-mechanics.md`. Inspectable extraction package: `extractions/video-context/LO3NwPogTjQ/`.
+
 ## Claim-by-Claim Ledger
 
 | Claim | Location in skill | Status | Basis |

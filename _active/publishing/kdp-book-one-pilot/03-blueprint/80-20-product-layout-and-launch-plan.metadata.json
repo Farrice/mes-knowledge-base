@@ -1,0 +1,11 @@
+{
+  "artifact_type": "strategy",
+  "title": "Book One 80/20 Product, Layout, and Launch Plan",
+  "status": "decision-ready",
+  "created_at": "2026-08-24",
+  "project": "kdp-book-one-pilot",
+  "primary_decision": "go-as-trust-led-pilot",
+  "working_title": "The Civilian Strength Manual After 50",
+  "cover_board": "cover-concept-board-v1.png",
+  "evidence_labels": ["verified", "likely", "unconfirmed", "untested", "no-event"]
+}

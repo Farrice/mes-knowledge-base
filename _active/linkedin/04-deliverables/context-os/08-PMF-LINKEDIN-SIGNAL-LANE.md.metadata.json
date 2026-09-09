@@ -1,0 +1,22 @@
+{
+  "title": "LinkedIn PMF Signal Lane: 15-Ad Creative Test Pack",
+  "artifact_type": "strategy_map",
+  "created_at": "2026-08-18",
+  "owner_route": "caleb-ralston-personal-brand",
+  "audience": "Farrice Cain and the LinkedIn PMF operating system",
+  "primary_offer": "15-Ad Creative Test Pack",
+  "status": "draft_strategy_unexecuted",
+  "proof_state": "UNTESTED / NO EVENT",
+  "source_file": "08-PMF-LINKEDIN-SIGNAL-LANE.md",
+  "workflows": [
+    "caleb-brand-journey",
+    "caleb-association-audit",
+    "caleb-sandbag-strategy"
+  ],
+  "risk_notes": [
+    "No profile rewrite, publishing, outreach, proposal, or payment setup was performed.",
+    "The current PMF recommendation is a test hypothesis sourced from a temporary research worktree.",
+    "The existing named prospect pool is trigger-verified but not yet qualified for this Pack.",
+    "Attention and engagement are not treated as product-market-fit evidence."
+  ]
+}

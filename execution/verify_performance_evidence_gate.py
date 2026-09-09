@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import inspect
 import subprocess
 import sys
 import tempfile
@@ -14,6 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "execution"))
 
 import performance_evidence_audit as gate  # type: ignore  # noqa: E402
+import session_log_registrar as registrar  # type: ignore  # noqa: E402
+from log_performance import log_output  # type: ignore  # noqa: E402
 
 
 def write_jsonl(path: Path, rows: list[dict]) -> None:
@@ -181,6 +184,53 @@ def check_promote_block(tmp: Path) -> str:
     return "registrar promote fails closed"
 
 
+def check_registrar_logger_contract() -> str:
+    supported = set(inspect.signature(log_output).parameters)
+    metadata = {
+        "lane", "source_artifact", "registration_source",
+        "auto_confidence", "review_state",
+    }
+    missing = metadata - supported
+    if missing:
+        raise AssertionError(f"performance logger missing registrar metadata: {sorted(missing)}")
+    captured: dict = {}
+    original = registrar.log_output
+    try:
+        registrar.log_output = lambda **kwargs: captured.update(kwargs) or {"local_id": "fixture"}
+        registrar.commit_candidate(
+            registrar.Candidate(
+                title="Verified registrar contract",
+                lane="System",
+                source_artifact="proof.md",
+                registration_source="end-session",
+                auto_confidence=0.91,
+                review_state="committed",
+            ),
+            dry_run=False,
+        )
+    finally:
+        registrar.log_output = original
+    if not metadata <= set(captured):
+        raise AssertionError("registrar did not pass its evidence metadata to the logger")
+    return "registrar metadata matches performance logger"
+
+
+def check_lowercase_local_duplicate_contract() -> str:
+    committed = [{
+        "output": "Verified registrar contract",
+        "workflow": "performance-evidence",
+        "source_artifact": "proof.md",
+    }]
+    row = {
+        "title": "Verified registrar contract",
+        "workflow": "performance-evidence",
+        "source_artifact": "proof.md",
+    }
+    if not gate.has_existing_duplicate(row, committed):
+        raise AssertionError("lowercase local-first evidence did not deduplicate")
+    return "local-first lowercase evidence deduplicates"
+
+
 def main() -> int:
     with tempfile.TemporaryDirectory() as temp:
         tmp = Path(temp)
@@ -189,6 +239,8 @@ def main() -> int:
             check_live_inbox_not_auto_promotable(),
             check_cli(tmp / "cli"),
             check_promote_block(tmp / "promote"),
+            check_registrar_logger_contract(),
+            check_lowercase_local_duplicate_contract(),
         ]
     print("PERFORMANCE EVIDENCE GATE VERIFICATION PASS")
     for check in checks:

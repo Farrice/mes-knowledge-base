@@ -1,3 +1,13 @@
+---
+date: 2026-07-28
+session: About rebuild
+name: co-creation-enforcement-layer
+problem_class: harness / steering / unmeasured doctrine
+domain: harness
+status: proven
+problem_signature: "the same co-creation failure repeats with the doctrine fully documented and live — round after round of variants optimized against the last complaint instead of verifying the feedback — because nothing counts renditions, rejections, or whether a question was asked before producing"
+tags: [co-creation, steering-hook, spiral-brake, feedback, counters, doctrine]
+---
 # Solution Card — Co-Creation Enforcement Layer: a doctrine without a counter is a vibe
 
 **Date:** 2026-07-28 · **Domain:** harness / steering · **Session:** About rebuild (ee1d3250)

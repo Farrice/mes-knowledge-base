@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: verifier-fleet triage
+name: verifier-text-pin-triage-pattern
+problem_class: harness / verifiers / stale text pins
+domain: harness
+status: proven
+problem_signature: "a large batch of fleet verifiers goes red at once and most of them pinned exact prose sentences inside living docs that were deliberately rewritten — the behavior they guard still works but the pin died, and some assert schemes that were never committed at all"
+tags: [verifiers, fleet, triage, pinning, health, archive]
+---
 # Verifier fleet triage — text-pin contracts rot against living docs; pin behaviors on stable anchors
 
 **Date**: 2026-07-21 · **Session**: verifier-fleet triage (30 failing → 16 fixed, 14 proposed-archive) · **Domain**: system / verification
