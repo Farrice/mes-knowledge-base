@@ -1,14 +1,20 @@
 {
-  "status": "PARKED_NOT_INSTALLED",
-  "branch": "codex/outcome-next-proof",
-  "commit": "d769f4584f03790006a67880bf0e79c30fd82a0a",
+  "status": "INSTALLED_AND_CONTROLLED_PATHS_VERIFIED",
+  "installed_main_commit": "018f2ff351a1ed6d6c80cec38e3c3e9d486700ae",
   "focused_tests": 22,
   "focused_result": "PASS",
-  "real_adapter_prompt_delivery": "PASS_CONTROLLED_PROBE",
-  "authority": "PASS",
-  "operator_core": "PASS",
-  "main_guard": "86 unrelated tracked changes",
-  "main_companion_present": false,
+  "real_main_prompt_delivery": "PASS",
+  "real_main_stop_observation": "PASS",
+  "stop_fixture_flags": [
+    "provider_recommendation_without_observed_inspection",
+    "requested_build_route_omitted"
+  ],
+  "hook_registration_unchanged": true,
+  "recovery_branch": "worktree-main-dirty-preserve-20260908-outcome-proof-recovery",
+  "preserved_files_hash_verified": 86,
+  "untracked_entries_preserved": 45,
+  "native_automatic_next_turn_delivery": "NOT_YET_OBSERVED",
   "human_behavior_quality": "UNTESTED",
-  "next_action": "Approval required to preserve/reconcile foreign main changes before guarded integration; do not force merge."
+  "installed_authority": "PASS",
+  "installed_operator_core": "PASS"
 }
