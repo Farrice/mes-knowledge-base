@@ -1,5 +1,7 @@
 ---
-description: "/jen-full-pipeline — End-to-end execution of Jen's 7-stage content pipeline — from intake answers through export. Entry point for full runs; stage-specific workflows available separately."
+description: "SUPERSEDED 2026-09-02 → use /jen (.agent/workflows/jen.md). /jen-full-pipeline was the 7-stage intake-driven pipeline Jen refused; kept only as a pointer."
+status: superseded
+superseded_by: .agent/workflows/jen.md
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
