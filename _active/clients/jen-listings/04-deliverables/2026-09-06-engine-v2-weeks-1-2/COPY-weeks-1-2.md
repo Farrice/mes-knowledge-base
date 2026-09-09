@@ -5,11 +5,33 @@ Operator file. Same words as the Drive folders; here so the fair-housing lint an
 
 ## week-of-2026-09-07
 
-> message: hey babe, week 1 is in the folder: three posts, tue / thu / sat. open, post, done.
-thursday is your "just breathe" line from the voice memo. if a word isn't you, tell me and it changes before it posts 🤍
+> message: hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. open, post, done.
+if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍
 
 
-### 01-attract-what-850k-buys · reel · attract · tue sept 8 · 7:30am
+### 00-broll-one-more-question · reel · connect · wed sept 9 · 6:30pm
+
+- beat 1: “Sorry, one more question…”
+- beat 2: You’re buying an $800K house. You can ask me whatever you need.
+
+**caption**
+
+you can delete the “sorry to bother you” part 😂
+
+and the “i know you already explained this” part. you’re allowed to understand something while we’re on the phone and then hang up and go… wait.
+
+sometimes you don’t realize what you’re unsure about until someone asks how the house stuff is going and you try to explain it out loud.
+
+text me. even if all you have is a screenshot with “???” underneath. we can start there.
+
+i talk about this stuff every day. you’re buying a home while you also have work tomorrow and still haven’t figured out dinner. i’m expecting questions.
+
+and if i explain something and you’re still lost, please tell me. i can try another way. you don’t have to politely let me finish and then go ask google what i meant.
+
+*reply routing: a question or a screenshot arrives → answer it in her own words the same evening (this post IS the promise). 'same' → saved reply 4 shape, then ask what they're looking at.*
+
+
+### 01-attract-what-850k-buys · reel · attract · HOLD · re-pull the three comps (FACTS.md rows 01/03 are dated sept 2; prices move) then slot tue sept 15 · 7:30am
 
 - beat 1: you keep saving the finished ones.
 - beat 2: so. what $850K actually buys in the valley this week.
@@ -65,7 +87,7 @@ if it's late and the numbers are loud, send me the number, buying or selling. we
 *reply routing: a number or a quote → saved reply 3. 'same' or a feeling → her words: 'i know. send me the number when you're up. we'll look together.'*
 
 
-### 03-convert-5421-bothwell · reel · convert · sat sept 12 · 9:00am
+### 03-convert-5421-bothwell · reel · convert · sat sept 12 · 9:00am (HOLD until Jen confirms the Bothwell listing is hers to post)
 
 - beat 1: Most New Construction in the Valley Is One Big Box.
 - beat 2: This Is Three Buildings on One Lot. Tarzana.

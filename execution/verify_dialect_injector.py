@@ -191,6 +191,29 @@ def run_checks():
                        timeout=30)
     check("garbage_stdin_exit_zero", r.returncode == 0)
 
+    # ── gpt-6-astra card + Codex resolution (2026-09-09 port) ───────────
+    # Pinned here, never read from the card: the Codex model id and the
+    # route line the card must carry (the Astra base prompt dropped it).
+    PIN_ASTRA = "gpt-6-astra"
+    PIN_ASTRA_ROUTE = "ANSWER / DIAGNOSE / BUILD"
+    astra_card = REPO_ROOT / "directives" / "model-dialects" / "gpt-6-astra.md"
+    check("astra_card_exists", astra_card.exists())
+    out, _ = run_hook({**sid, "prompt": "this caption is weak, fix it",
+                       "model": PIN_ASTRA})
+    check("astra_deliverable_injects",
+          f"card: {PIN_ASTRA}" in out and "class: deliverable" in out)
+    check("astra_carries_route_rule", PIN_ASTRA_ROUTE in out)
+    check("astra_carries_negative_brief", PIN_NEGATIVE_BRIEF in out)
+    # Under Codex with no model anywhere, the Claude default seat must NOT
+    # fire (an Opus card at a GPT model is a wrong correction). Config.toml
+    # resolution is machine-specific, so the pin is only "never Opus".
+    MODEL_CACHE.unlink(missing_ok=True)
+    out, rc = run_hook({**sid, "prompt": "draft the offer page copy"},
+                       {"CODEX_PROJECT_DIR": str(REPO_ROOT)})
+    check("codex_never_defaults_to_claude_card",
+          rc == 0 and f"card: {PIN_DEFAULT_MODEL}" not in out)
+    MODEL_CACHE.unlink(missing_ok=True)
+
     # ── Structural (AST, never string-match) ─────────────────────────────
     tree = ast.parse(HOOK.read_text())
     fns = {n.name: n for n in ast.walk(tree) if isinstance(n, ast.FunctionDef)}

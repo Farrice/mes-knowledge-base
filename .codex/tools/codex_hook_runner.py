@@ -78,7 +78,47 @@ TARGETS = {
     "active-tool-lock": ("execution/hooks/active_tool_lock.py", ["codex"]),
     "guard-stranded": ("execution/hooks/guard_stranded_deliverables.py", ["check"]),
     "artifact-placement": ("execution/hooks/artifact_placement_hook.py", []),
+    # Alignment parity port (2026-09-09, gpt-6-astra regression): the steering
+    # hooks Claude Code already runs, now fired by Codex through this runner.
+    "steering-loop": ("execution/hooks/steering_loop_hook.py", None),
+    "session-brief": ("execution/hooks/session_brief.py", []),
+    "session-alarm": ("execution/hooks/concurrent_session_alarm.py", []),
+    "lane-bootstrap": ("execution/worktree_lane.py", ["bootstrap", "--if-needed"]),
+    "superseded-read": ("execution/hooks/superseded_read_guard.py", []),
 }
+
+# Codex requires hookSpecificOutput.hookEventName on every context-bearing
+# reply (stricter than Claude Code, which accepts bare stdout on
+# UserPromptSubmit/SessionStart). Targets listed here print plain text; the
+# runner wraps it into the envelope for the event named.
+PLAIN_STDOUT_EVENT = {
+    "steering-loop": "UserPromptSubmit",   # `stop` mode prints nothing
+    "session-brief": "SessionStart",
+    "session-alarm": "SessionStart",
+    "lane-bootstrap": "SessionStart",
+    "superseded-read": "PostToolUse",
+}
+
+
+def _wrap_plain_stdout(target_name: str, args: list[str], stdout: str) -> str:
+    """Wrap plain-text stdout into Codex's hookSpecificOutput envelope. JSON
+    stdout passes through untouched; empty stdout stays empty; the Stop mode
+    of the steering loop is observe-only and emits nothing."""
+    event = PLAIN_STDOUT_EVENT.get(target_name)
+    if not event or not stdout.strip():
+        return stdout
+    if target_name == "steering-loop" and args and args[0] != "prompt":
+        return stdout
+    try:
+        parsed = json.loads(stdout)
+        if isinstance(parsed, dict):
+            return stdout
+    except (json.JSONDecodeError, ValueError):
+        pass
+    return json.dumps({"hookSpecificOutput": {
+        "hookEventName": event,
+        "additionalContext": stdout.rstrip("\n"),
+    }})
 
 
 def _python(repo_root: Path) -> str:
@@ -115,6 +155,9 @@ def main() -> int:
     env = os.environ.copy()
     env["CLAUDE_PROJECT_DIR"] = str(repo_root)
     env["CODEX_PROJECT_DIR"] = str(repo_root)
+    # Tell shared hooks which harness fired them (dialect card resolution
+    # reads the Codex config.toml model under Codex, never the Claude seat).
+    env["ANTIGRAVITY_HARNESS"] = "codex"
 
     proc = subprocess.run(
         [_python(repo_root), str(script_path), *args],
@@ -125,6 +168,7 @@ def main() -> int:
         env=env,
     )
     stdout, stderr = proc.stdout, proc.stderr
+    stdout = _wrap_plain_stdout(target_name, list(args), stdout)
     # Reuse trusted prompt/stop registrations. The companion may add context or
     # advisory observations, never replace a target's decision or exit status.
     try:

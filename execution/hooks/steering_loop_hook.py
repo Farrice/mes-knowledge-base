@@ -171,12 +171,51 @@ def _dialect_cards_dir() -> Path:
     return Path(d) if d else DIALECT_CARDS_DIR
 
 
+def _under_codex(payload: dict) -> bool:
+    """True when the hook is being fired by Codex (the runner sets
+    CODEX_PROJECT_DIR; the Desktop app sets CODEX_HOME/CODEX_CLI_PATH).
+    Claude Code sets none of these."""
+    # The Codex runner (.codex/tools/codex_hook_runner.py) sets these two;
+    # Claude Code sets neither. They win over any inherited shell state.
+    if os.environ.get("ANTIGRAVITY_HARNESS", "").lower() == "codex":
+        return True
+    if os.environ.get("CODEX_PROJECT_DIR"):
+        return True
+    if str(payload.get("harness") or "").lower() == "codex":
+        return True
+    if os.environ.get("CLAUDE_CODE_ENTRYPOINT"):
+        return False
+    return bool(os.environ.get("CODEX_HOME") or os.environ.get("CODEX_CLI_PATH"))
+
+
+def _codex_config_model() -> str:
+    """Read `model = "..."` from the Codex config: repo `.codex/config.toml`
+    overrides `~/.codex/config.toml`. Plain regex, no toml dependency."""
+    candidates = [REPO_ROOT / ".codex" / "config.toml",
+                  Path.home() / ".codex" / "config.toml"]
+    for cfg in candidates:
+        try:
+            text = cfg.read_text(errors="replace")
+        except Exception:
+            continue
+        mm = re.search(r'^\s*model\s*=\s*"([^"]+)"', text, re.M)
+        if mm:
+            return mm.group(1).strip()
+    return ""
+
+
 def _active_model(payload: dict) -> str:
     """Resolve the ACTIVE model id. Order: payload → env → transcript →
-    cache → default seat. Never raises."""
+    cache → default seat. Never raises. Under Codex (2026-09-09, the
+    gpt-6-astra port): payload → Codex config.toml → "" (honest silence —
+    the Claude default seat must never inject an Opus card at a GPT model)."""
     m = payload.get("model")
     if isinstance(m, dict):
         m = m.get("id") or m.get("model")
+    if _under_codex(payload):
+        if not m:
+            m = _codex_config_model()
+        return str(m or "")
     if not m:
         m = os.environ.get("CLAUDE_MODEL") or os.environ.get("ANTHROPIC_MODEL")
     if not m:
@@ -235,7 +274,7 @@ def _load_dialect(model_id: str):
             if not isinstance(data, dict):
                 continue
             for pat in data.get("model_match") or []:
-                if pat and str(pat) in model_id:
+                if pat and model_id and str(pat) in model_id:
                     return data
     except Exception:
         return None

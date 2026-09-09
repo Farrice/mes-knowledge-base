@@ -34,15 +34,48 @@ WEEKS = [
         # once per line this week, never stamped. READ.md and AMPLIFY.md in the week folder carry the receipts.
         "folder": "week-of-2026-09-07",
         "message": (
-            "hey babe, week 1 is in the folder: three posts, tue / thu / sat. open, post, done.\n"
-            "thursday is your \"just breathe\" line from the voice memo. if a word isn't you, tell me and it changes before it posts 🤍"
+            "hey babe, week 1 is in the folder. the first one is the \"one more question\" reel, it's ready to post tonight. thursday is your \"just breathe\" line from the voice memo. open, post, done.\n"
+            "if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍"
         ),
         "posts": [
+            {
+                # THE approved specimen (Farrice 2026-09-07: "This is the register. This is so good! I love this. This is it!").
+                # Copy verbatim from 04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-asking-again.md.
+                # First post to Jen's Drive folder (his decision 2026-09-09). Photo-motion on her own listing interiors until she
+                # drops one ordinary clip of herself in folder 02; then the same two beats go over her clip and the file is swapped.
+                "id": "00-broll-one-more-question",
+                "kind": "reel",
+                "job": "connect",
+                "day": "wed sept 9 \u00b7 6:30pm",
+                "story": "first frame to stories at 6:35pm, no sticker; the question is the story",
+                "collab": "none",
+                "first_comment": "text me. even if all you have is a screenshot with \"???\" underneath.",
+                "beats": [
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-02-living.jpg", "line": "&#8220;Sorry, one more<br>question&#8230;&#8221;", "size": 100, "secs": 4, "zoom": "in",
+                     "swap": "hers (Bothwell living room); replace with her ordinary clip when it lands in folder 02"},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-04-kitchen.jpg", "line": "You&#8217;re buying<br>an $800K house.<br>You can ask me<br>whatever you need.", "size": 86, "secs": 6.5, "zoom": "out",
+                     "swap": "hers (Bothwell kitchen); same clip, second beat"},
+                ],
+                "caption": (
+                    "you can delete the \u201csorry to bother you\u201d part \U0001F602\n"
+                    "\n"
+                    "and the \u201ci know you already explained this\u201d part. you\u2019re allowed to understand something while we\u2019re on the phone and then hang up and go\u2026 wait.\n"
+                    "\n"
+                    "sometimes you don\u2019t realize what you\u2019re unsure about until someone asks how the house stuff is going and you try to explain it out loud.\n"
+                    "\n"
+                    "text me. even if all you have is a screenshot with \u201c???\u201d underneath. we can start there.\n"
+                    "\n"
+                    "i talk about this stuff every day. you\u2019re buying a home while you also have work tomorrow and still haven\u2019t figured out dinner. i\u2019m expecting questions.\n"
+                    "\n"
+                    "and if i explain something and you\u2019re still lost, please tell me. i can try another way. you don\u2019t have to politely let me finish and then go ask google what i meant."
+                ),
+                "reply": "a question or a screenshot arrives \u2192 answer it in her own words the same evening (this post IS the promise). 'same' \u2192 saved reply 4 shape, then ask what they're looking at.",
+            },
             {
                 "id": "01-attract-what-850k-buys",
                 "kind": "reel",
                 "job": "attract",
-                "day": "tue sept 8 · 7:30am",
+                "day": "HOLD · re-pull the three comps (FACTS.md rows 01/03 are dated sept 2; prices move) then slot tue sept 15 · 7:30am",
                 "story": "first frame to stories at 7:35am with the sticker: \"send me your number\"",
                 "collab": "none (other agents' listings; never tag them)",
                 "first_comment": "the three are tarzana, lake balboa, van nuys. send me your number and i'll send the addresses.",
@@ -122,7 +155,7 @@ WEEKS = [
                 "id": "03-convert-5421-bothwell",
                 "kind": "reel",
                 "job": "convert",
-                "day": "sat sept 12 · 9:00am",
+                "day": "sat sept 12 · 9:00am (HOLD until Jen confirms the Bothwell listing is hers to post)",
                 "story": "first frame to stories at 9:05am, no sticker; the address card is the story",
                 "collab": "invite @myhousesellers as collaborator (team listing, co-listed with marty azoulay)",
                 "first_comment": "three structures, one lot. private showings this weekend, DM me.",

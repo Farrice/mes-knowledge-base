@@ -50,10 +50,11 @@ MSG = {w: (WEEKS / w / "MESSAGE-to-jen.txt").read_text().strip() for w in ["week
 SAVED = (WEEKS / "week-of-2026-09-21" / "saved-replies.txt").read_text().strip()
 
 POSTS = [
- ("week-of-2026-09-07", "Week 1 · drop Sun Sept 6 · re-run 9/2 through /jen (hook rule, voice bank, attract / connect / convert)", [
-   ("01-attract-what-850k-buys", "attract", "reel · 25.5 s", "tue sept 8 · 7:30am", "you keep saving the finished ones.", "01-attract-what-850k-buys", ["sunlight-through-window-floor-00","valley-street-01","california-bungalow-00","suburban-neighborhood-aerial-02","front-door-house-00","jen-porch-vannuys"], "a number → saved reply 3 · an address → saved reply 1 · 'same' → her words"),
+ ("week-of-2026-09-07", "Week 1 · in Drive 04 on Wed Sept 9 · the approved specimen leads; comps and Bothwell on HOLD", [
+   ("00-broll-one-more-question", "connect", "reel · 10.5 s · her photos", "wed sept 9 · 6:30pm · FIRST POST", "“Sorry, one more question…” / You’re buying an $800K house. You can ask me whatever you need.", "00-broll-one-more-question", ["listing-02-living (hers)","listing-04-kitchen (hers)"], "a question or a screenshot → answer it in her own words the same evening (this post IS the promise) · 'same' → saved reply 4 shape"),
+   ("01-attract-what-850k-buys", "attract", "reel · 25.5 s", "HOLD · re-pull comps, then tue sept 15 · 7:30am", "you keep saving the finished ones.", "01-attract-what-850k-buys", ["sunlight-through-window-floor-00","valley-street-01","california-bungalow-00","suburban-neighborhood-aerial-02","front-door-house-00","jen-porch-vannuys"], "a number → saved reply 3 · an address → saved reply 1 · 'same' → her words"),
    ("02-connect-just-breathe", "connect", "card · 3 slides · her photos", "thu sept 10 · 6:30pm", "just breathe.", "02-connect-just-breathe-1", ["listing-03-pool (hers)","listing-02-living (hers)","jen-headshot-studio (hers, no type)"], "a number → saved reply 3 · 'same' → her words: 'send me the number when you're up'"),
-   ("03-convert-5421-bothwell", "convert", "reel · 22 s", "sat sept 12 · 9:00am", "Most New Construction in the Valley Is One Big Box.", "03-convert-5421-bothwell", ["sfv-aerial-nara","california-bungalow-00","sunlight-through-window-floor-00","front-door-house-00","jen-frontdoor"], "a showing request → her own words, same evening · collab tag @myhousesellers"),
+   ("03-convert-5421-bothwell", "convert", "reel · 22 s", "sat sept 12 · 9:00am · HOLD until Jen confirms Bothwell", "Most New Construction in the Valley Is One Big Box.", "03-convert-5421-bothwell", ["sfv-aerial-nara","california-bungalow-00","sunlight-through-window-floor-00","front-door-house-00","jen-frontdoor"], "a showing request → her own words, same evening · collab tag @myhousesellers"),
  ]),
  ("week-of-2026-09-14", "Week 2 · drop Sun Sept 13", [
    ("04-attract-900k-two-zips", "attract", "reel · 23 s", "tue sept 15 · 7:30am", "$900K in sherman oaks. $900K in van nuys. same week.", "04-attract-900k-two-zips", ["vannuys-blvd-2024","california-bungalow-00","front-door-house-00","suburban-neighborhood-aerial-02","jen-porch-vannuys"], "a zip or a number → saved reply 3 · an address → saved reply 1"),
@@ -92,7 +93,7 @@ def post_card(pid, district, fmt, day, hook, thumb, photos, routing):
     <span class="chip {district}">{district}</span>
     <span class="mono">{esc(day)}</span>
     <span class="mono dim">{esc(fmt)}</span>
-    <span class="badge placeholder">placeholder photos</span>
+    <span class="badge {'hers' if photos and all('(hers' in x for x in photos) else 'placeholder'}">{'her photos' if photos and all('(hers' in x for x in photos) else 'placeholder photos'}</span>
   </div>
   <h3 class="hook">{esc(hook)}</h3>
   {gallery}

@@ -44,6 +44,7 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 
 | Asset | Status | Where | Re-check |
 |---|---|---|---|
+| "sorry, one more question…" (B-roll reel, THE approved specimen) | rendered 2026-09-09 as photo-motion on her Bothwell interiors (10s, two beats, her lockup); first post to Drive 04 / week-of-2026-09-07; awaiting Jen's thumbs-up, NOT posted | `week-of-2026-09-07/00-broll-one-more-question.mp4` + `-cover.jpg`; copy in `social-content/2026-09-07-content-recovery/outputs/jen-asking-again.md` | swap beats onto her ordinary clip when one lands in Drive 02 |
 | just breathe (two-beat card) | rendered on her photos, week of 2026-09-07 slot thu 9/10 (moved up on the 2026-09-02 re-run); NOT posted as of 2026-09-09 | `week-of-2026-09-07/02-connect-*`; copy in `connect-posts-01/COPY.md` 01 | Jen-seat lines (the 11pm scene) need her thumbs-up |
 | lipstick remodel (single card) | copy ready | same, 02 | "touch three things" is drafted |
 | everything works out (two-beat card, Wilmington $20K credits story) | copy ready | same, 03 | team story: "our clients," never "my" |

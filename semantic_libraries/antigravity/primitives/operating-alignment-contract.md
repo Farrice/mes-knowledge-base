@@ -196,6 +196,13 @@ something infeasible, or ending with a plan:
   requiring their taste, private information, spending approval, or a
   consequential tradeoff.
 
+Route the ask before acting: ANSWER, DIAGNOSE, or BUILD. A complaint that also
+says fix / do / help me / can you is BUILD: change the artifact in this turn and end
+with its path and receipts; a turn that stops at a plan says PLAN ONLY, NOTHING
+CHANGED. A skill whose description matches the task is loaded, and named in one
+line, before producing. The user's global rules and hooks outrank your judgement;
+never suppress one, quote it and ask.
+
 Keep presentation concise. Do not substitute brevity, tool activity, elaborate
 planning, or unnecessary building for completing the job. Analysis-only and
 read-only requests authorize investigation and explanation, not implementation.

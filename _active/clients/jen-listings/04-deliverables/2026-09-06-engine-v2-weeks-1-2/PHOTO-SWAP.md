@@ -4,6 +4,8 @@ Every frame below is a placeholder from the cleared pool. When her shoots land i
 
 | week | frame | placeholder now | what replaces it |
 |---|---|---|---|
+| week-of-2026-09-07 | 00-broll-one-more-question.mp4 · beat 1 | `../../../06-system/valley-editions/photos/jen/listing-02-living.jpg` | hers (Bothwell living room); replace with her ordinary clip when it lands in folder 02 |
+| week-of-2026-09-07 | 00-broll-one-more-question.mp4 · beat 2 | `../../../06-system/valley-editions/photos/jen/listing-04-kitchen.jpg` | hers (Bothwell kitchen); same clip, second beat |
 | week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 1 | `sunlight-through-window-floor-00.jpg` | a white-oak kitchen or a soft modern interior from any listing shoot (folder 01) |
 | week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 2 | `valley-street-01.jpg` | a valley-floor street from the drive (folder 02) |
 | week-of-2026-09-07 | 01-attract-what-850k-buys.mp4 · beat 3 | `california-bungalow-00.jpg` | an exterior from a listing shoot, single story |
