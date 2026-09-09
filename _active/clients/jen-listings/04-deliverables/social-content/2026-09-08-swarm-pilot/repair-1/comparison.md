@@ -1,5 +1,7 @@
 # Jen — revised hook and caption comparison
 
+**Rejected by Farrice. Review evidence only; excluded from production exemplars.**
+
 ### Version 1
 
 ## On-screen text

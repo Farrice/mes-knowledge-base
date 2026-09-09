@@ -6,14 +6,14 @@
   "cases": [
     {
       "id": "broll-1",
-      "status": "REJECTED_BY_FARRICE",
+      "status": "REJECTED_AFTER_BOUNDED_REPAIR",
       "matched_inputs_verified": true,
       "approved_standard_met": false,
       "no_regression": false,
       "human_review": {
         "reviewer": "Farrice",
         "preferred": "neither",
-        "evidence": "repair-1/feedback.md: complete verbatim September 9 verdict; B okay but not great is not approval."
+        "evidence": "repair-1/farrice-rejection.md: second human verdict rejects both repaired hook/caption pairs; previous initial rejection preserved separately."
       },
       "effort": {
         "solo_minutes": null,
@@ -47,10 +47,10 @@
       },
       "repair": {
         "id": "repair-1",
-        "status": "AWAITING_ANONYMIZED_HUMAN_REVIEW",
+        "status": "REJECTED_BY_FARRICE",
         "shared_input_hash": "85f491b5ad4fb7f65974f832d9b629f717156356e5272103c1ac53dad5ab19c9",
         "human_feedback_round": 1,
-        "evaluation": "PENDING_NEW_HUMAN_REVIEW",
+        "evaluation": "FAILED_QUALITY_COMPARISON",
         "source_failure": "Initial brief converted early planning into actual property comparison; corrected from complete primary source.",
         "first_drafts_locked_independently": true,
         "editor_preflight_before_draft": true,
@@ -65,7 +65,13 @@
           "team": "4d1dcfc517f9b32fe5d01cc1ae20118ad43ec6c5fc807124ac7e5983bb65e3ab"
         },
         "comparison": "repair-1/comparison.md",
-        "completed_utc": "2026-09-09T17:06:18.880075+00:00"
+        "completed_utc": "2026-09-09T17:06:18.880075+00:00",
+        "human_review": {
+          "reviewer": "Farrice",
+          "preferred": "neither",
+          "evidence": "repair-1/farrice-rejection.md: second human verdict rejects both repaired hook/caption pairs; previous initial rejection preserved separately."
+        },
+        "further_paired_production": "NOT_AUTHORIZED_BY_ORIGINAL_BOUNDED_PLAN"
       }
     },
     {
@@ -106,6 +112,13 @@
       "human_effort_minutes": null,
       "total_elapsed_seconds": null,
       "meaning": "No invented elapsed duration or active-human timing."
+    },
+    "post_rejection_audit": {
+      "read_only_diagnostic_workers": 1,
+      "new_production_workers": 0,
+      "new_variants": 0,
+      "token_usage": "UNMEASURED",
+      "purpose": "Independent audit of actual brief, specialist contributions and hook-to-payoff mismatch."
     }
   },
   "feedback": [
@@ -115,7 +128,14 @@
       "path": "repair-1/feedback.md",
       "accepted": false,
       "active_human_minutes": null
+    },
+    {
+      "date": "2026-09-09",
+      "scope": "broll-1-repair-1",
+      "path": "repair-1/farrice-rejection.md",
+      "accepted": false,
+      "active_human_minutes": null
     }
   ],
-  "adoption_note": "Initial measured case remains rejected. The one bounded repair is ready for review; no new human result or measured effort yet."
+  "adoption_note": "Both original routes and the one bounded repair were rejected. Retain current method; no further comparison run launched. Traceable diagnosis completed."
 }

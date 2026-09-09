@@ -21,7 +21,7 @@ The corrected packet supplies the entire inspected buyer account, the complete e
 
 The prior rejected drafts remain excluded from production exemplars. Approved copy, carousels, visual benchmarks, canonical extraction, V2 prompts and global settings are preserved. New copy is review-only. No new footage or Reel was rendered, no client approval obtained, and nothing was delivered to Jen or published. The second B-roll and carousel remain gated on acceptance.
 
-The one bounded repair is awaiting a new human result. The last observed comparison failed, so the current method remains in use; the swarm has not earned adoption. Passing context checks, direct messages, a prose classifier or an agent's judgment does not change that result.
+Farrice rejected both repaired versions. The one bounded repair is exhausted. The current method remains in use; the swarm has not earned adoption. See craft-failure-trace.md for the completed comparison against the approved specimen and farrice-rejection.md for the full verdict. Passing context checks, direct messages, a prose classifier or an agent's judgment does not change that result.
 
 ## Execution evidence
 

@@ -11,7 +11,7 @@
   },
   "editorial_judgment": "Current worry replaces invented shame; actual early stage and source constraints retained; no neighbor-noise guarantee; one coherent hook and conversational caption per route. This is conductor judgment, not human approval.",
   "copy_gate": "PASS_FOR_DRAFT_REVIEW_ONLY",
-  "human_result": "PENDING",
+  "human_result": "REJECTED_BOTH",
   "rendered_reel": false,
   "preservation": {
     "status": "PASS",
@@ -24,5 +24,7 @@
     "combined_comparison_classifier": "WARNING 3.0 with two separately reviewed emoji-bearing variants in one file; individual variants CLEAN 1.5 each",
     "notion": "SKIPPED",
     "directive_side_effects": "Only this run auto-updated three activation counters; those exact changes restored to lane baseline."
-  }
+  },
+  "copy_gate_superseded_by_human": true,
+  "current_status": "REJECTED_REVIEW_EVIDENCE_ONLY"
 }
