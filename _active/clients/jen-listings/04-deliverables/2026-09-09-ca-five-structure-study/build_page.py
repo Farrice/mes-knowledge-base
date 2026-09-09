@@ -56,7 +56,7 @@ def convert(md):
             m = re.match(r"\*\*(Card \d · [^*]+)\*\* \(([^)]+)\)", l)
             body = lines[i + 1] if i + 1 < len(lines) else ""
             i += 1
-            parts = [p.strip() for p in re.split(r"(?<=\.) (?=(?:Format|Hook formula|Beat map|CTA|Jen ICP angle):)", body)]
+            parts = [p.strip() for p in re.split(r"(?<=[.\"\u201d]) (?=(?:Format|Hook formula|Beat map|CTA|Jen ICP angle):)", body)]
             pairs = []
             for p in parts:
                 m2 = re.match(r"(Format|Hook formula|Beat map|CTA|Jen ICP angle):\s*(.*)", p, re.S)
