@@ -591,13 +591,19 @@ def _mirror_block(prompt: str, mode) -> str:
             "Taste bar (voice/register rules in play) · Pen seat (Executor "
             "Registry) · Open questions (ONLY ones that change execution) — "
             "and present it for confirm/edit, plus ONE senior-partner "
-            "push-back if a real fork is live. On his confirm or edit: "
-            "artifact-shaped work dispatches to ONE fresh-context executor "
-            "carrying \"no Chain, no finalize, no Notion, no Next Moves, "
-            "return only the artifact\"; he iterates on the FINAL product — "
-            "rejection = fix the brief, dispatch fresh, never iterate "
-            "in-thread. \"Just do it\" = skip the confirm beat, never the "
-            "fresh dispatch.")
+            "push-back if a real fork is live. "
+            + ("On his confirm or edit: execute the brief YOURSELF in the "
+               "next turn, in full, to a file (Codex: no executor dispatch, "
+               "no subagent you wait on); he iterates on the FINAL product — "
+               "rejection = fix the brief, rewrite from it. \"Just do it\" = "
+               "skip the confirm beat."
+               if _CODEX else
+               "On his confirm or edit: artifact-shaped work dispatches to "
+               "ONE fresh-context executor carrying \"no Chain, no finalize, "
+               "no Notion, no Next Moves, return only the artifact\"; he "
+               "iterates on the FINAL product — rejection = fix the brief, "
+               "dispatch fresh, never iterate in-thread. \"Just do it\" = "
+               "skip the confirm beat, never the fresh dispatch."))
     return (
         "🪞 INTENT MIRROR (universal — every substantive ask): open the reply "
         "with a 1-3 line mirror of what you're reading — deliverable · "
@@ -740,7 +746,12 @@ def _cc_stop_observe(session_id: str, raw: str, exchange: int) -> None:
 # ──────────────────────────────────────────────────────────────────
 # prompt (UserPromptSubmit)
 # ──────────────────────────────────────────────────────────────────
+_CODEX = False  # set per prompt by handle_prompt; card text adapts to the harness
+
+
 def handle_prompt(payload: dict) -> None:
+    global _CODEX
+    _CODEX = _under_codex(payload)
     session_id = payload.get("session_id") or "unknown"
     prompt = payload.get("prompt") or ""
 
@@ -792,11 +803,20 @@ def handle_prompt(payload: dict) -> None:
         # switch (previously CO_CREATION_OFF re-enabled this longer block —
         # the off switch ADDED words; the trap is fixed here).
         if (_taste or _foggy) and not _execute and not cc_block and not _cc_off():
-            co_creation = (
-                "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
-                "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
-                "ask ONE question past his frame before producing; two rejected "
-                "takes = back to source input. 'Just do it' = EXECUTE dial.\n")
+            if _CODEX:
+                # Astra already over-asks (OpenAI's Astra guide); a question
+                # gate before producing turns into a clarification stall.
+                co_creation = (
+                    "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
+                    "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
+                    "state the ONE assumption that matters in a line, then produce; "
+                    "two rejected takes = back to source input.\n")
+            else:
+                co_creation = (
+                    "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
+                    "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
+                    "ask ONE question past his frame before producing; two rejected "
+                    "takes = back to source input. 'Just do it' = EXECUTE dial.\n")
     except Exception:
         co_creation = ""
 
@@ -810,7 +830,24 @@ def handle_prompt(payload: dict) -> None:
     try:
         # Suppress when the INTENT BRIEF card already fired this prompt —
         # that card carries the same dispatch rule (approved plan 2026-08-20).
-        if "INTENT BRIEF" not in cc_block:
+        if _CODEX and "INTENT BRIEF" not in cc_block and _CC_APPROVAL_RE.search(prompt.lower()) is None:
+            # Codex has no Opus/Sonnet executor seat. The Claude FRESH PEN
+            # card ("never produce in-thread, dispatch an executor") made
+            # Astra spawn a subagent and wait_agent-timeout twice (Madison/
+            # DSC, 2026-09-09). On Codex the model IS the pen.
+            _pl = prompt.lower()
+            if re.search(
+                r"\b(write|draft|ghostwrite|rewrite|revise|produce|generate|"
+                r"build)\b.{0,60}\b(post|copy|email|edition|newsletter|caption|"
+                r"script|headline|hook|bio|carousel|about section|sales page|"
+                r"landing|opener|thread|article|essay|brief|report|analysis|"
+                r"doc|deck|page|plan|extraction|one.?pager|proposal)\b", _pl):
+                fresh_pen = (
+                    "PEN (Codex): you are the pen. Write the artifact yourself in "
+                    "THIS turn, to a file; no executor dispatch, no subagent you "
+                    "then wait on. A subagent only for independent research you "
+                    "do not block on.\n")
+        elif "INTENT BRIEF" not in cc_block:
             _pl = prompt.lower()
             _pen_execute = re.search(
                 r"\b(just do it|just run|go ahead|proceed|ship it|no questions|"
@@ -869,7 +906,7 @@ def handle_prompt(payload: dict) -> None:
             "never block.\n")
     # Amnesty 2026-07-29: tip fires 1-in-5 prompts, not every prompt.
     tip = ""
-    if count % 5 == 1:
+    if count % 5 == 1 and not _CODEX:  # tips are Claude-flavored (Fable/Sonnet seats)
         tip = f"Harness tip: {TIPS[(count - 1) % len(TIPS)]}"
     block = (cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
     if block:
