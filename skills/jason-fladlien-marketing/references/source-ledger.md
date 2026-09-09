@@ -167,3 +167,7 @@ UNCONFIRMED items deliberately excluded from genius.md tranche 3: exact Hormozi 
 - `Resistance`, `Relative`, and `External` are observed with added system guardrails against vulnerability targeting, enemy manufacture, fake status, compelled sharing, and permissionless reuse.
 - A screenshot proves only the event it accurately depicts. It does not automatically prove attribution, repeatability, consent, conversion, demand, or revenue.
 - Primary-burden selection, the three-change ceiling, cross-term non-regression, the five-stage permission chain, and market-state reporting are Antigravity runtime controls, not Jason claims.
+
+## 2026-09-09: Delivery influence
+
+Source: https://www.youtube.com/watch?v=iRLZ5v4UasQ — Jason Fladlien, The $50K/day Skill AI Can NEVER Replace, 38 minutes. Full automatic captions plus 18 sampled frames inspected. Package: `extractions/jason-fladlien/delivery-influence-2026-09-09/`. Seventeen source mechanics feed `references/delivery-influence.md` and `/fladlien-delivery`; four medium-specific v2 prompts. Earnings, causal psychology, audience responses and performance claims remain source-reported. Proof lab is an applied draft transformation, not market validation or independent cold-agent replay.

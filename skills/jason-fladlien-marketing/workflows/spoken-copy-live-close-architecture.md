@@ -91,3 +91,7 @@ Write the actual scripts, marked for vocal delivery.
 5. **Radical Candor Opener**: Does the opening establish the "I'm selling you" frame within 60 seconds?
 
 > **🛡️ Anti-Pattern Check**: Reject written-copy-disguised-as-spoken, formal language, and closes that would sound robotic when spoken aloud.
+
+## Optional source-backed delivery pass
+
+When the draft's reception or medium translation is the unresolved gap, run `skills/jason-fladlien-marketing/workflows/delivery-influence.md` once in the matching mode. It preserves this workflow's purpose and approved claims. Read `references/delivery-influence.md`; do not copy live crowd-response techniques into text.

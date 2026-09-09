@@ -512,3 +512,7 @@ Fladlien sent the complete "Persuasive Patterns" document via Instagram DM (publ
 
 - **Source mechanics**: Jason separately teaches decision, tangible, and ideal wins; habit, order, and context; positive-intent check-ins; and earned visible progress or screenshot moments. These can shape Time, Routine, and Status before purchase.
 - **Antigravity adaptation**: Treat those as independent conditional modules. A screenshot becomes reusable proof only after separate usage, observed outcome, voluntary sharing, named permission, and external-reuse gates. Invoke the internal `offer-adoption-and-proof-loop` only for modules supported by a named trigger and count its accepted changes inside the public three-change ceiling.
+
+## Delivery influence expansion (2026-09-09)
+
+The 38-minute iRLZ5v4UasQ source demonstrates relevance renewal, movable rehearsed points, inspectable demonstrations, medium-specific participation, optional modules and complete endings. Runtime reference: `references/delivery-influence.md`; workflow: `workflows/delivery-influence.md`. Preserve the existing native owner. Spoken repetition is not a default for written copy; laughter and applause are not purchase proof. See the source ledger for observed versus inferred boundaries.
