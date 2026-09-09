@@ -1,0 +1,42 @@
+{
+  "id": "broll-1",
+  "status": "REJECTED_BY_FARRICE",
+  "matched_inputs_verified": true,
+  "approved_standard_met": false,
+  "no_regression": false,
+  "human_review": {
+    "reviewer": "Farrice",
+    "preferred": "neither",
+    "evidence": "repair-1/feedback.md: complete verbatim September 9 verdict; B okay but not great is not approval."
+  },
+  "effort": {
+    "solo_minutes": null,
+    "swarm_minutes": null,
+    "basis": null,
+    "evidence": null
+  },
+  "states": {
+    "copy_approval": "REJECTED",
+    "rendered_availability": "NOT_RENDERED",
+    "client_approval": "PENDING",
+    "delivery": "LOCAL_REVIEW_ONLY",
+    "publishing": "NOT_POSTED"
+  },
+  "revision_rounds": {
+    "solo": 0,
+    "swarm": 0
+  },
+  "input_hash": "c29a26b6c133dfcbc9aea26a5df96ac5eb6f5e024cd8992aa71e3ac61dc03aa4",
+  "draft_hashes": {
+    "solo-1.md": "f4f500cebe121de308814bdf636597052c872d732860b422df8950bbca61ce21",
+    "craft-1.md": "7fb645af4d5b039dd84a150908b822f50e1be7327e14d9af201a730b5db5815c",
+    "craft-2.md": "f826d1b9bc5b57770ff088072a45b17a48000dd259144635fa83e8f1528e36d6"
+  },
+  "internal_team_revision_rounds": 1,
+  "integration_coverage": "COVERAGE_VERIFIED",
+  "copy_checks": {
+    "solo": "CLEAN",
+    "swarm": "CLEAN",
+    "meaning": "deterministic prose check only; no quality approval"
+  }
+}

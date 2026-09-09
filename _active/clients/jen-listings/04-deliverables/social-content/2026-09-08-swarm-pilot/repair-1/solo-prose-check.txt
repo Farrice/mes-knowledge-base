@@ -1,0 +1,16 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    CLEAN
+  AI Score:   1.5/10
+  Words:      161
+  Signals:    1
+  Rhythm CV:  0.82 (varied)
+
+  DETECTED PATTERNS:
+    [1.5] structural_emoji — r for so long 😅
+
+  Prose passes the AI-detection check. Expert Standard scoring is uncapped.
+============================================================
+

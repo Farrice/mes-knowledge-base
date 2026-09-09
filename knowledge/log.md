@@ -855,3 +855,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-08 21:10]` **finalize** | Revised the rejected AI revenue post around a concrete rejection-example diagnostic | general | dan-koe — composite:7.0 status:Needs Improvement
 - `[2026-09-02 13:06]` **finalize** | Jen content-system reset: diagnostic brief + one spine (/jen nine steps), CONTENT-MIX from extractio | content | alyssa-stalker-agent-content-playbook — composite:6.33 status:Needs Improvement
 - `[2026-09-09 11:50]` **finalize** | Codex/Astra regression diagnosis + fix (gpt-6-astra card, Execution Bias Contract restore, steering  | content | alyssa-stalker — composite:6.33 status:Needs Improvement
+- `[2026-09-09 10:06]` **finalize** | Jen first B-roll: bounded repair after both initial drafts were rejected; two anonymous hook and cap | general | kallaway — composite:7.0 status:Needs Improvement
+- `[2026-09-09 10:33]` **finalize** | Jen swarm post-rejection audit: traced supplied expertise, failed editorial acceptance and hook-to-p | content | kallaway — composite:7.0 status:Needs Improvement
+- `[2026-09-09 10:53]` **finalize** | Jen routing diagnosis and one complete single-writer draft for human review; swarm adoption remains  | content | alyssa-stalker — composite:7.0 status:Needs Improvement

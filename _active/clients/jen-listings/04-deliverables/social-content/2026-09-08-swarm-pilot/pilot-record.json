@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "scope": "Jen content studio opt-in production comparison",
-  "repair_attempts": 0,
-  "adoption": "UNPROVEN",
+  "repair_attempts": 1,
+  "adoption": "RETAIN_CURRENT_METHOD",
   "cases": [
     {
       "id": "broll-1",
-      "status": "AWAITING_HUMAN_COMPARISON",
+      "status": "REJECTED_AFTER_BOUNDED_REPAIR",
       "matched_inputs_verified": true,
-      "approved_standard_met": null,
-      "no_regression": null,
+      "approved_standard_met": false,
+      "no_regression": false,
       "human_review": {
-        "reviewer": null,
-        "preferred": null,
-        "evidence": null
+        "reviewer": "Farrice",
+        "preferred": "neither",
+        "evidence": "repair-1/farrice-rejection.md: second human verdict rejects both repaired hook/caption pairs; previous initial rejection preserved separately."
       },
       "effort": {
         "solo_minutes": null,
@@ -22,15 +22,15 @@
         "evidence": null
       },
       "states": {
-        "copy_approval": "PENDING",
+        "copy_approval": "REJECTED",
         "rendered_availability": "NOT_RENDERED",
         "client_approval": "PENDING",
         "delivery": "LOCAL_REVIEW_ONLY",
         "publishing": "NOT_POSTED"
       },
       "revision_rounds": {
-        "solo": 0,
-        "swarm": 0
+        "solo": 1,
+        "swarm": 1
       },
       "input_hash": "c29a26b6c133dfcbc9aea26a5df96ac5eb6f5e024cd8992aa71e3ac61dc03aa4",
       "draft_hashes": {
@@ -44,6 +44,34 @@
         "solo": "CLEAN",
         "swarm": "CLEAN",
         "meaning": "deterministic prose check only; no quality approval"
+      },
+      "repair": {
+        "id": "repair-1",
+        "status": "REJECTED_BY_FARRICE",
+        "shared_input_hash": "85f491b5ad4fb7f65974f832d9b629f717156356e5272103c1ac53dad5ab19c9",
+        "human_feedback_round": 1,
+        "evaluation": "FAILED_QUALITY_COMPARISON",
+        "source_failure": "Initial brief converted early planning into actual property comparison; corrected from complete primary source.",
+        "first_drafts_locked_independently": true,
+        "editor_preflight_before_draft": true,
+        "internal_team_revision_rounds": 1,
+        "copy_checks": {
+          "solo": "CLEAN",
+          "team": "CLEAN"
+        },
+        "checks_meaning": "Structural/editorial only; new human quality and effort result remains pending.",
+        "draft_hashes": {
+          "solo": "60854cd10e8c3f09f108cdf20401702370332f4c987b8cd60038a400f6af4eae",
+          "team": "4d1dcfc517f9b32fe5d01cc1ae20118ad43ec6c5fc807124ac7e5983bb65e3ab"
+        },
+        "comparison": "repair-1/comparison.md",
+        "completed_utc": "2026-09-09T17:06:18.880075+00:00",
+        "human_review": {
+          "reviewer": "Farrice",
+          "preferred": "neither",
+          "evidence": "repair-1/farrice-rejection.md: second human verdict rejects both repaired hook/caption pairs; previous initial rejection preserved separately."
+        },
+        "further_paired_production": "NOT_AUTHORIZED_BY_ORIGINAL_BOUNDED_PLAN"
       }
     },
     {
@@ -70,7 +98,44 @@
     "native_agent_tasks": 4,
     "unique_production_specialists": 3,
     "parent_file_edit_owner": true,
-    "integration_receipt_correction": "Writer detected summarized source handoff; exact original recovered from sender; no false byte-exact transcript claim."
+    "integration_receipt_correction": "Writer detected summarized source handoff; exact original recovered from sender; no false byte-exact transcript claim.",
+    "repair_1": {
+      "native_workers": 4,
+      "roles": "source strategist, independent solo executor, craft owner, independent editor",
+      "model": "inherited parent setting, no overrides",
+      "token_usage": "UNMEASURED",
+      "paid_calls": 0,
+      "source_to_craft": "full body via shared conductor packet; source reactivation failed agent thread limit",
+      "craft_to_editor": "full draft direct message reported delivered",
+      "editor_to_craft": "full review and revised positions direct message reported delivered",
+      "original_native_message_bytes": "UNVERIFIED; full text captured from tool-visible contributions",
+      "human_effort_minutes": null,
+      "total_elapsed_seconds": null,
+      "meaning": "No invented elapsed duration or active-human timing."
+    },
+    "post_rejection_audit": {
+      "read_only_diagnostic_workers": 1,
+      "new_production_workers": 0,
+      "new_variants": 0,
+      "token_usage": "UNMEASURED",
+      "purpose": "Independent audit of actual brief, specialist contributions and hook-to-payoff mismatch."
+    }
   },
-  "feedback": []
+  "feedback": [
+    {
+      "date": "2026-09-09",
+      "scope": "broll-1",
+      "path": "repair-1/feedback.md",
+      "accepted": false,
+      "active_human_minutes": null
+    },
+    {
+      "date": "2026-09-09",
+      "scope": "broll-1-repair-1",
+      "path": "repair-1/farrice-rejection.md",
+      "accepted": false,
+      "active_human_minutes": null
+    }
+  ],
+  "adoption_note": "Both original routes and the one bounded repair were rejected. Retain current method; no further comparison run launched. Traceable diagnosis completed."
 }

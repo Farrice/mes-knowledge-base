@@ -1,0 +1,20 @@
+{
+  "final_artifact": "## On-screen text\n\n\u201cwhat if i buy my first home and the neighbors are just as loud?\u201d\n\n## Caption\n\nhow much of your neighbors\u2019 business can you hear from your couch? \ud83d\ude02\n\nbecause wanting to finish a movie without an argument coming through the floor doesn\u2019t sound like a wild request to me.\n\nand if your rent is actually a good deal, i get why \u201cjust move\u201d isn\u2019t much of an answer.\n\ntell me that when we talk about what you\u2019re looking for. i\u2019ll ask about the budget and bedrooms, but i also want to know what you\u2019re hoping will be different when you get home.\n\nyou can be months away, still going back and forth between a house and a condo. you don\u2019t have to finish figuring that out before you call me. i can help with that part too.\n",
+  "decisions": {
+    "repair-source-1": {
+      "action": "accept",
+      "reason": "Retain early planning and actual account, not invented property scenes.",
+      "affected_passage": "Entire post; quiet movie, rent and months-away ending."
+    },
+    "repair-craft-1": {
+      "action": "accept",
+      "reason": "Partially preserved by owner; couch and movie passages retained verbatim, invented self-doubt rejected.",
+      "affected_passage": "First two caption paragraphs retained; hook and ending revised."
+    },
+    "repair-editor-1": {
+      "action": "accept",
+      "reason": "Accepted actual unresolved worry, good-rent complication and distinct final purpose; owner revised conditional rent and early-planning ending.",
+      "affected_passage": "Hook; rent paragraph; final two paragraphs."
+    }
+  }
+}

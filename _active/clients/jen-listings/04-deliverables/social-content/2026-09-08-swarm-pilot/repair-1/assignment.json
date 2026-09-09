@@ -1,0 +1,125 @@
+{
+  "id": "jen-broll-1-repair-1",
+  "client": "jen",
+  "objective": "Repair the first rejected Jen B-roll post as one coherent hook-to-caption experience grounded in the actual early-stage buyer story. Write with the clarity, rhythm, personality and conversational specificity of the approved Jen specimen. Source language is evidence; all copy is original.",
+  "output": "Exactly two sections: On-screen text and Caption. One complete readable on-screen hook followed by the full conversational caption. No beat labels, reply overlay, spoken script, footage, cover, lesson template, explanation or mandatory CTA in public copy.",
+  "preserve": "Approved original Jen specimen, carousels, visuals, extraction and V2 files unchanged. Keep curiosity and immediate comprehensibility together, then earn the caption payoff. Preserve actual buyer stage and source limits; no invented Jen client history.",
+  "constraints": [
+    "Apply the whole feedback, not separate keyword fixes. Fifth-grade comprehension does not mean childish diction, arbitrary shortness or removing craft.",
+    "The prospective buyer is planning about ten months ahead and estimates condo versus house possibilities. Do not invent active listings, finished kitchens, listing photos, a showing or placed furniture. Illustrative language must not claim Jen observed an actual client.",
+    "The source suggests a major buying decision can carry a modest wish for an ordinary quiet evening. This is a source-backed creative interpretation, not proof of their sole motive or a universal buyer claim.",
+    "One unresolved human tension can carry the post. A property-type comparison is optional, not the assigned argument. No guarantees that detached homes are quiet, or claims about noise at an unseen condo.",
+    "Both routes receive this same frozen packet. No new external research, other-route inspection, extra agents, spending, publishing or file edits. Return complete work to the conductor.",
+    "Use the full selected methods and approved specimen as craft resources. Do not force sentence patterns, same paragraph count, mandatory model-analysis deliverables, pseudo-scientific claims, named anchors in public copy, or a different industry from the exercise onto this client assignment.",
+    "Gate A: anchor=Jen and inspected SFV buyer account; artifacts=actual thread, complete external reference, approved Jen specimen; stakes=homebuying while avoiding recurring daily frustration; mechanism=an ordinary recurring experience can define what a buyer needs a new home to change. Gate B is a separate editorial check, not human approval.",
+    "This is one bounded repair after both initial variants failed. One complete first draft per route; team editor may give one full revision contribution. No infinite optimization. Neither quality superiority nor saved human time is established."
+  ],
+  "context": [
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/repair-1/feedback.md",
+      "kind": "correction",
+      "client": "jen",
+      "relevance": "Full current user taste verdict; overrides historical beat/output instructions"
+    },
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/repair-1/buyer-source.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Complete actual buyer story and OP comments with limits; source interpretation remains separate"
+    },
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/repair-1/source-strategist.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Full recovered source diagnosis, shared equally with both routes before drafting"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-asking-again.md",
+      "kind": "approved_example",
+      "client": "jen",
+      "relevance": "Entire approved Jen specimen. The voice and conversational movement are authority; current output is one hook and caption"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/references/writing-source-packet.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Complete external execution caption, not Jen copy; historical unapproved Caption B excluded",
+      "start_line": 24,
+      "end_line": 41
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/references/writing-source-packet.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Primary Jen voice excerpts; actual words over persona summary",
+      "start_line": 54,
+      "end_line": 66
+    },
+    {
+      "path": "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/source-inspection.md",
+      "kind": "source",
+      "client": "jen",
+      "relevance": "Previously inspected visual, caption, response and performance limitations; original mistaken buyer assignment is intentionally excluded",
+      "start_line": 1,
+      "end_line": 32
+    },
+    {
+      "path": "skills/kallaway-word-mastery/SKILL.md",
+      "kind": "skill",
+      "client": "shared",
+      "relevance": "Canonical craft owner map and selected execution prompt interface",
+      "start_line": 1,
+      "end_line": 47
+    },
+    {
+      "path": "skills/kallaway-word-mastery/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Conversational recipient, sentence compression and rhythm guidance as craft aids, not forced ratios",
+      "start_line": 47,
+      "end_line": 123
+    },
+    {
+      "path": "skills/kallaway-word-mastery/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Copy-speech and voice fingerprint",
+      "start_line": 207,
+      "end_line": 239
+    },
+    {
+      "path": "skills/kallaway-word-mastery/genius.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Relevant complete anti-pattern and self-audit sections",
+      "start_line": 348,
+      "end_line": 381
+    },
+    {
+      "path": "skills/kallaway-word-mastery/workflows/copy-speech-exercise.md",
+      "kind": "workflow",
+      "client": "shared",
+      "relevance": "Full rhythm-transfer workflow: use macro movement and original expression; loosen template when it forces the writing"
+    },
+    {
+      "path": "skills/kallaway-word-mastery/references/prompts-v2/copy-speech-exercise.md",
+      "kind": "execution_prompt",
+      "client": "shared",
+      "relevance": "Full selected approved V2. Its training exercise domain constraint and workshop outputs do not replace this authorized same-domain client adaptation"
+    },
+    {
+      "path": "/Users/farricecain/.codex/skills/anti-slop/SKILL.md",
+      "kind": "method",
+      "client": "shared",
+      "relevance": "Pre-draft source grounding and post-draft judgment; client output overrides scoring table delivery and compulsory rhetorical devices"
+    }
+  ],
+  "excluded_examples": [
+    "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/version-A.md",
+    "_active/clients/jen-listings/04-deliverables/social-content/2026-09-08-swarm-pilot/version-B.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-open-house-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-rent-this-one-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-two-pair-review.md",
+    "/Users/farricecain/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-07-content-recovery/outputs/jen-broll-source-adaptations.md"
+  ]
+}
