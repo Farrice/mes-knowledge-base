@@ -20,8 +20,8 @@ Every frame below is a placeholder from the cleared pool. When her shoots land i
 | week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 3 | `sunlight-through-window-floor-00.jpg` | Bothwell living room, pocket doors open |
 | week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 4 | `front-door-house-00.jpg` | the Bothwell ADU exterior or its kitchen |
 | week-of-2026-09-07 | 03-convert-5421-bothwell.mp4 · beat 5 | `jen-frontdoor.jpg` | her at the Bothwell front door (folder 01 or 03) |
-| week-of-2026-09-14 | 11-broll-it-was-so-quiet.mp4 · beat 1 | `../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg` | hers (Bothwell exterior, daylight); replace with her ordinary clip of a street when one lands in folder 02 |
-| week-of-2026-09-14 | 11-broll-it-was-so-quiet.mp4 · beat 2 | `../../../06-system/valley-editions/photos/jen/listing-03-pool.jpg` | hers (Bothwell backyard at dusk); same clip, second beat |
+| week-of-2026-09-14 | 11-broll-kitchens-at-midnight.mp4 · beat 1 | `../../../06-system/valley-editions/photos/jen/listing-04-kitchen.jpg` | hers (Bothwell kitchen: the kind of kitchen people screenshot); her ordinary kitchen clip when one lands in folder 02 |
+| week-of-2026-09-14 | 11-broll-kitchens-at-midnight.mp4 · beat 2 | `../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg` | hers (Bothwell exterior, daylight); a real front door from any of her shoots |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 1 | `vannuys-blvd-2024.jpg` | a wide valley frame from the drive (folder 02) or a drone frame (01) |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 2 | `california-bungalow-00.jpg` | a small cottage exterior from any shoot |
 | week-of-2026-09-14 | 04-attract-900k-two-zips.mp4 · beat 3 | `front-door-house-00.jpg` | a front elevation from a listing shoot |

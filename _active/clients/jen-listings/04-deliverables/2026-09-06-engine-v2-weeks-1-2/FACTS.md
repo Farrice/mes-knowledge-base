@@ -67,5 +67,23 @@ Every number in the nine posts, where it came from, and what to re-check on send
 | 11 B-roll | "i drive it myself before we write the offer. then we compare notes." · "sometimes the notes say keep looking" | Jen-seat (her practice, our words) | drafted 2026-09-09 | Jen thumbs-up before tue sept 15 |
 | 11 B-roll | "you saw it at 1pm on a saturday… everyone at the beach or at costco" | Jen-seat scene | drafted 2026-09-09 | Jen thumbs-up |
 
+## 2026-09-09 (evening) · post 11 take 2, "kitchens at midnight" (Card 1 rebuild; absorbs post 01)
+
+Read on Redfin 2026-09-09 (Tarzana neighborhood page, house, $800K–$950K; 4 in Tarzana proper + nearby). Other agents' listings: neighborhood, price, specs only; addresses go out in her DM.
+
+| used in | claim | label | source | re-check |
+|---|---|---|---|---|
+| 11 caption | 18276 Rosita, Tarzana 91356 · $899,999 · 3 bd / 2 ba · 1,121 sq ft · "overlooking El Caballero Country Club" | VERIFIED | Redfin Tarzana filtered search, read 2026-09-09 | still active Sept 14? |
+| 11 caption | 6324 Tampa, Tarzana 91335 · $859,900 · 3 bd / 1.5 ba · 1,136 sq ft · 7,296 sq ft lot (lot from the Sept 2 row) · was $869,000 on Sept 2 | VERIFIED (price change observed between the two reads) | same; Sept 2 row above | still active Sept 14? price again? |
+| 11 caption | 6714 Rhea, Reseda 91335 · $869,000 · 3 bd / 2 ba · 1,332 sq ft (shows in the Tarzana search as nearby; "right on the tarzana line" is the honest label) | VERIFIED | same | still active Sept 14? |
+| 11 caption | "$850K to $900K" band, "this week" | VERIFIED (the three above) | | re-pull the morning of Sept 15 |
+| 11 on screen | "$850K house in tarzana" | the band (ENGINE-V2 §1) + the three above | | none |
+| 11 caption | "sometimes the budget and the wish list just need a little… meeting in the middle." | HERS (her 2026-07-21 caption, verbatim; not a stamp-bank line; drawn once this week) | jen-real-voice-profile.md | none |
+| 11 caption | "you send them to your person at midnight and neither of you says anything" · on screen "if you keep screenshotting kitchens at midnight…" | Jen-seat scene (the midnight-screenshot behavior was already a flagged Jen-seat line in post 01) | | Jen thumbs-up |
+| 11 on screen | "i'll send you the three i'd go see" | Jen-seat (her offer, our words; matches saved reply 3's shape) | | Jen thumbs-up |
+| not used | 6319 Aura, Tarzana · $925,000 · 3/1.5 · 1,435 (Equity Union, her brokerage, not hers) · 18811 Topham, Reseda · $899,000 · 4/4 · 2,108 (gated) · 6521 Baird · 6616 Yolanda · 19541 Victory · 20146 Hartland (Winnetka, $849,000) · 6657 Sylvia | banked, VERIFIED 2026-09-09 | same page | Aura: ask before use |
+
+Take 1 of post 11 ("we loved it. it was so quiet." → "drive the street at 9pm tonight") was rejected by Farrice 2026-09-09; its rows above stay as the record. Two takes on one post: if this one fails, back to the input, never a third.
+
 Realism gate (ENGINE-V2 §3), both topics: she would say it in these words (yes / yes) · a stranger can act on it at their stage (a screenshot of a listing line; a drive down a street with only an address: yes / yes) · every fact dated and sourced or hers (yes / yes). Passed 2, killed 0.
 

@@ -28,7 +28,7 @@ and if i explain something and you’re still lost, please tell me. i can try an
 *reply routing: a question or a screenshot arrives → answer it in her own words the same evening (this post IS the promise). 'same' → saved reply 4 shape, then ask what they're looking at.*
 
 
-### 01-attract-what-850k-buys · reel · attract · HOLD · re-pull the three comps (FACTS.md rows 01/03 are dated sept 2; prices move) then slot tue sept 15 · 7:30am
+### 01-attract-what-850k-buys · reel · attract · SUPERSEDED 2026-09-09 by week 2's tuesday post (11, the Card 1 rebuild with sept 9 comps); do not post
 
 - beat 1: you keep saving the finished ones.
 - beat 2: so. what $850K actually buys in the valley this week.

@@ -78,7 +78,7 @@ WEEKS = [
                 "id": "01-attract-what-850k-buys",
                 "kind": "reel",
                 "job": "attract",
-                "day": "HOLD · re-pull the three comps (FACTS.md rows 01/03 are dated sept 2; prices move) then slot tue sept 15 · 7:30am",
+                "day": "SUPERSEDED 2026-09-09 by week 2's tuesday post (11, the Card 1 rebuild with sept 9 comps); do not post",
                 "story": "first frame to stories at 7:35am with the sticker: \"send me your number\"",
                 "collab": "none (other agents' listings; never tag them)",
                 "first_comment": "the three are tarzana, lake balboa, van nuys. send me your number and i'll send the addresses.",
@@ -248,35 +248,43 @@ WEEKS = [
                 # specimen: the buyer's own sentence on screen, her reply with the stake ($800K), the reason withheld; the caption keeps the
                 # promise and previews working with her. Who-clause this week (CONTENT-MIX experiment): a household leaving an apartment,
                 # from the verbatim SFV buyer thread (repair-1/buyer-source.md), never quoted. Her photos only: Bothwell exterior + pool.
-                "id": "11-broll-it-was-so-quiet",
+                # Take 2 (2026-09-09, after Farrice's verdict on take 1: "aesthetic great, on-screen text terrible"). Rebuilt from the CA-five
+                # study's Card 1, the taste callout (WINNERS row 12, @samarnesonhome "If you love the Practical Magic house…", 67.1K):
+                # the reader's taste opens, her reply with the stake and the place is beat 2, the three real houses are the caption's payoff.
+                # Comps read on Redfin 2026-09-09 (FACTS.md); other agents' listings → neighborhood, price, specs, never the address.
+                # This absorbs the HOLD post 01 (same grammar, done right); 01 is superseded. Take 1's copy lives in git history.
+                "id": "11-broll-kitchens-at-midnight",
                 "kind": "reel",
-                "job": "connect",
+                "job": "attract",
                 "day": "tue sept 15 · 6:30pm",
-                "story": "first frame to stories at 6:35pm, no sticker; the quote is the story",
-                "collab": "none",
-                "first_comment": "tell me the street and what time you saw it. i'll tell you which drive to do first.",
+                "story": "first frame to stories at 6:35pm with the sticker: \"send me your number\"",
+                "collab": "none (other agents' listings; never tag them)",
+                "first_comment": "the three are all tarzana or right on the line. send me your number and i'll send you the addresses.",
                 "beats": [
-                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg", "line": "&#8220;We loved it.<br>It was so quiet.&#8221;", "size": 100, "secs": 4, "zoom": "in",
-                     "swap": "hers (Bothwell exterior, daylight); replace with her ordinary clip of a street when one lands in folder 02"},
-                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-03-pool.jpg", "line": "You&#8217;re buying<br>an $800K house.<br>Drive the street<br>at 9pm tonight.", "size": 86, "secs": 6.5, "zoom": "out",
-                     "swap": "hers (Bothwell backyard at dusk); same clip, second beat"},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-04-kitchen.jpg", "line": "if you keep screenshotting<br>kitchens at midnight&#8230;", "size": 92, "secs": 4, "zoom": "in",
+                     "swap": "hers (Bothwell kitchen: the kind of kitchen people screenshot); her ordinary kitchen clip when one lands in folder 02"},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg", "line": "you&#8217;re buying<br>an $850K house<br>in tarzana. i&#8217;ll send you<br>the three i&#8217;d go see.", "size": 86, "secs": 6.5, "zoom": "out",
+                     "swap": "hers (Bothwell exterior, daylight); a real front door from any of her shoots"},
                 ],
                 "caption": (
-                    "you saw it at 1pm on a saturday. sun out, street empty, everyone at the beach or at costco. of course it was quiet.\n"
+                    "you keep screenshotting the finished ones. white oak, the big island, the light at 4pm. you send them to your person at midnight and neither of you says anything.\n"
                     "\n"
-                    "go back at 9 on a tuesday. don’t get out of the car. windows down.\n"
+                    "so here’s what $850K to $900K actually buys in tarzana this week. three real houses, on the market right now, none of them mine:\n"
                     "\n"
-                    "who’s home. is there anywhere to park. is somebody’s speaker going. is there a dog two doors down who has opinions about your car.\n"
+                    "$899,999 · tarzana. 3 bed, 2 bath, 1,121 sq ft. it looks out over the country club.\n"
+                    "$859,900 · tarzana. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. it was $869,000 last week.\n"
+                    "$869,000 · reseda, right on the tarzana line. 3 bed, 2 bath, 1,332 sq ft.\n"
                     "\n"
-                    "then once at 7am, because the 101 sounds different at 7am. and once at 3pm, so you know which way the living room faces before a valley august tells you.\n"
+                    "none of them is the screenshot. all three are a front door at a real number.\n"
                     "\n"
-                    "if the whole reason you’re leaving the apartment is the people downstairs... the 9pm drive is the one that matters. tuesday nights come with the house.\n"
+                    "sometimes the budget and the wish list just need a little… meeting in the middle.\n"
                     "\n"
-                    "i drive it myself before we write the offer. then we compare notes. sometimes the notes say “keep looking,” and that’s fine. that’s what the drive is for.\n"
+                    "send this to your person. or send me your number, buying or selling, and i’ll send you the three addresses and what i’d check first at each one.\n"
                     "\n"
-                    "tell me the street and what time you saw it. i’ll tell you which drive to do first."
+                    "prices from redfin, sept 9, 2026. they move… one of these already did.\n"
+                    "#tarzana #reseda #sanfernandovalley #SFV"
                 ),
-                "reply": "a street and a time → her own words the same evening (which drive first, and what to listen for). an address → saved reply 1. 'we did this' or 'same' → ask what they heard.",
+                "reply": "a number → saved reply 3 (looking / a number), then the three addresses in her DM. an address → saved reply 1. 'same' or a screenshot → her words: 'send me the number and i'll make the folder real.'",
             },
             {
                 "id": "04-attract-900k-two-zips",
