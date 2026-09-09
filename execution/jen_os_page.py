@@ -9,8 +9,15 @@ LANE = pathlib.Path(__file__).resolve().parents[1]
 WEEKS = LANE / "_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2"
 OUT = pathlib.Path(sys.argv[2])
 
+MISSING = []
+
 def img(name):
     p = T / (name + ".jpg")
+    if not p.exists():
+        # a render that is not on this tree (e.g. edition-01 lives in a gitignored out/); show a labeled blank, never crash
+        MISSING.append(name)
+        svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><rect width="4" height="5" fill="#C9D4E2"/><text x="2" y="2.6" font-size=".35" text-anchor="middle" fill="#1E3A5F">not rendered</text></svg>'
+        return "data:image/svg+xml;base64," + base64.b64encode(svg.encode()).decode()
     return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
 
 def esc(s): return html.escape(s)
@@ -43,10 +50,10 @@ MSG = {w: (WEEKS / w / "MESSAGE-to-jen.txt").read_text().strip() for w in ["week
 SAVED = (WEEKS / "week-of-2026-09-21" / "saved-replies.txt").read_text().strip()
 
 POSTS = [
- ("week-of-2026-09-07", "Week 1 · drop Sun Sept 6", [
-   ("01-attract-what-850k-buys", "attract", "reel · 22 s", "tue sept 8 · 7:30am", "what $850K actually buys in the valley this week.", "01-attract-what-850k-buys", ["valley-street-01","california-bungalow-00","suburban-neighborhood-aerial-02","front-door-house-00","jen-porch-vannuys"], "a number → saved reply 3 · an address → saved reply 1"),
-   ("02-position-not-the-number-that-matters", "position", "card · 3 slides", "thu sept 10 · 6:30pm", "6.66% this week. not the number that matters.", "02-position-not-the-number-that-matters-1", ["vannuys-blvd-2024","sunlight-through-window-floor-00","jen-porch-vannuys"], "a quote or a number → saved reply 3 · 'hi' → saved reply 4"),
-   ("03-convert-5421-bothwell", "convert", "reel · 18 s", "sat sept 12 · 9:00am", "Three Structures. One Lot. Tarzana.", "03-convert-5421-bothwell", ["sfv-aerial-nara","sunlight-through-window-floor-00","california-bungalow-00","jen-frontdoor"], "a showing request → her own words, same evening"),
+ ("week-of-2026-09-07", "Week 1 · drop Sun Sept 6 · re-run 9/2 through /jen (hook rule, voice bank, attract / connect / convert)", [
+   ("01-attract-what-850k-buys", "attract", "reel · 25.5 s", "tue sept 8 · 7:30am", "you keep saving the finished ones.", "01-attract-what-850k-buys", ["sunlight-through-window-floor-00","valley-street-01","california-bungalow-00","suburban-neighborhood-aerial-02","front-door-house-00","jen-porch-vannuys"], "a number → saved reply 3 · an address → saved reply 1 · 'same' → her words"),
+   ("02-connect-just-breathe", "connect", "card · 3 slides · her photos", "thu sept 10 · 6:30pm", "just breathe.", "02-connect-just-breathe-1", ["listing-03-pool (hers)","listing-02-living (hers)","jen-headshot-studio (hers, no type)"], "a number → saved reply 3 · 'same' → her words: 'send me the number when you're up'"),
+   ("03-convert-5421-bothwell", "convert", "reel · 22 s", "sat sept 12 · 9:00am", "Most New Construction in the Valley Is One Big Box.", "03-convert-5421-bothwell", ["sfv-aerial-nara","california-bungalow-00","sunlight-through-window-floor-00","front-door-house-00","jen-frontdoor"], "a showing request → her own words, same evening · collab tag @myhousesellers"),
  ]),
  ("week-of-2026-09-14", "Week 2 · drop Sun Sept 13", [
    ("04-attract-900k-two-zips", "attract", "reel · 23 s", "tue sept 15 · 7:30am", "$900K in sherman oaks. $900K in van nuys. same week.", "04-attract-900k-two-zips", ["vannuys-blvd-2024","california-bungalow-00","front-door-house-00","suburban-neighborhood-aerial-02","jen-porch-vannuys"], "a zip or a number → saved reply 3 · an address → saved reply 1"),
@@ -61,7 +68,7 @@ POSTS = [
 ]
 
 CARD_SLIDES = {
- "02-position-not-the-number-that-matters": 3, "06-position-tarzana-median-sellers": 3,
+ "02-connect-just-breathe": 3, "06-position-tarzana-median-sellers": 3,
  "08-position-two-markets-one-street": 3, "09-connect-just-breathe": 2,
 }
 
@@ -113,8 +120,8 @@ for folder, label, posts in POSTS:
 # ---------- her assets
 MEMOS = [
  ("1 · a house you couldn't stop thinking about", "“lipstick remodel” · “you could feel the quality... the stone, the handles, the doors and the windows”", "Connect post 02 (copy ready, not built)", "unused on the grid"),
- ("2 · a buyer who panics at night", "“just breathe. take a step back. let's sleep on it” · lender quote · buydowns, “how we structure the loan”", "Week 1 post 02 · Week 3 post 09", "used twice"),
- ("3 · what people tease you about saying", "“i'm here for you. that's my job. i do this to protect you and your best interest.” · “everything works out exactly the way it's supposed to” · “this, this, and this, and we'll go from there”", "the close: 9 of 9 captions · signature line: 1 · recap habit: saved replies", "over-used: the close is in every caption"),
+ ("2 · a buyer who panics at night", "“just breathe. take a step back. let's sleep on it” · lender quote · buydowns, “how we structure the loan”", "Week 1 post 02 (Connect) · Week 3 post 09 (the same post; week 3 gets a different Connect when it re-runs)", "used"),
+ ("3 · what people tease you about saying", "“i'm here for you. that's my job. i do this to protect you and your best interest.” · “everything works out exactly the way it's supposed to” · “this, this, and this, and we'll go from there”", "the close: week 1 once (post 02) · weeks 2–3 still 6 of 6 until re-run · recap habit: saved replies", "bank, drawn once a week (stamp-lint enforces)"),
  ("4 · what makes you cringe", "“top producer” · “30 years in business” · credentials on camera", "rule: no credentials anywhere", "used as a rule"),
  ("5 · the most impressive home", "“i've sold an $80 million home... a regular three-bedroom on malibu beach” · “i am a sucker for a view of skylines”", "Connect post 04 (copy ready) · photo taste for the look", "unused on the grid"),
 ]
@@ -166,13 +173,16 @@ ed_html = "".join(f'<figure><img src="{img(f)}" alt="{esc(c)}"><figcaption>{esc(
 eds_html = "".join(f'<figure><img src="{img(f)}" alt="{esc(c)}"><figcaption>{esc(c)}</figcaption></figure>' for f, c in EDS)
 
 STAGES = [
- ("Research", "Redfin comps and market pages, Freddie Mac rates, CA Dept of Insurance. Read the day of the build, dated.", "FACTS.md · RESEARCH-PACK.md", "us"),
- ("Copy", "Her words from the archive first; the realism gate (would she say it, can a stranger act on it, is it dated and sourced); one job per post; the door open at the end.", "build_weeks.py WEEKS list", "us"),
- ("Gates", "Fair-housing lint. Prose classifier. The Jen-as-herself seat over every line she has not said verbatim.", "fair_housing_lint.py · prose_classifier.py", "us"),
- ("Build", "Cards and photo-motion reels rendered from the same photo bank and type. Photos are placeholders until hers arrive.", "week-of-YYYY-MM-DD/ · PHOTO-SWAP.md", "script"),
- ("Drop", "Sunday. The week folder: files, one text to her, captions, a day plan, the saved replies.", "Drive · Jen · Content Drop / 04", "us"),
+ ("0 · Load", "Seven files, in order, before a word is written: the operating doc, the mix, the vault, her voice profile, the calibration log, the client card, the last pulse.", "/jen step 0 · LOAD: 7/7", "us"),
+ ("1 · Read", "What the account moved on last month decides this week's three slots. Shares come from the extractions, never from taste.", "CONTENT-MIX.md · pulse · outlier audit", "us"),
+ ("2 · Research", "Redfin comps and market pages, Freddie Mac rates, CA Dept of Insurance. Read the day of the build, dated, labeled. The realism gate on every topic.", "FACTS.md · RESEARCH-PACK.md", "us"),
+ ("3 · Write", "One pen, her seat first. Every hook opens on her or the reader; the number or the house is beat 2. Her verbatim lines are a bank drawn once a week, never a stamp.", "build_weeks.py WEEKS list", "us"),
+ ("4 · Amplify", "Six seats critique, one pen integrates: Alyssa, Luke Iha, Sam Parr, Kallaway, Georgi, then Jen-as-herself with the veto. Plain words with punch.", "AMPLIFY.md in the week folder", "us"),
+ ("5 · Check", "Fair-housing lint (hard). Prose classifier (nudge). Stamp-lint: a sentence in two posts of one week fails the week (hard).", "fair_housing_lint.py · prose_classifier.py · jen_stamp_lint.py", "script"),
+ ("6 · Render", "Cards and photo-motion reels from one generator family. Photos are placeholders until hers arrive.", "week-of-YYYY-MM-DD/ · PHOTO-SWAP.md", "script"),
+ ("7 · Deliver", "This page, then the Sunday folder: files, one text to her, captions, the day plan with story slide, collab tag and first comment, the saved replies.", "Drive · Jen · Content Drop / 04", "us"),
  ("Her two moves", "A thumbs-up on the preview (30 seconds). Same-evening replies from the saved replies. Nothing else.", "iMessage · Instagram", "Jen"),
- ("Read", "Monday pulse of public numbers. First of the month: outlier audit, her four numbers into the funnel, one line back to her.", "jen_pulse.py · jen-outlier-audit.md · FUNNEL-MATH.md", "us"),
+ ("8 · Learn", "Monday pulse of public numbers. First of the month: outlier audit, her four numbers into the funnel, vault rows, one line back to her.", "jen_pulse.py · jen-outlier-audit.md · FUNNEL-MATH.md", "us"),
 ]
 stages_html = "".join(f'''<li><span class="who {w.replace(" ","-")}">{esc(w)}</span><h4>{esc(n)}</h4><p>{esc(d)}</p><code>{esc(f)}</code></li>''' for n, d, f, w in STAGES)
 
@@ -263,7 +273,7 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
 <header class="hero">
   <div>
     <h1>The Valley OS</h1>
-    <p>Jen's content system as of Sept 2, 2026: how it runs, the nine posts it has produced, which of her own assets it uses, and the places it is not working yet. Every frame on this page is the actual render.</p>
+    <p>Jen's content system as of Sept 2, 2026, after the reset to one spine: how it runs, the nine posts it has produced (week 1 re-run through the new order), which of her own assets it uses, and the places it is not working yet. Every frame on this page is the actual render.</p>
   </div>
   <div class="stat">
     <div><b>9</b><span>posts built, 3 weeks</span></div>
@@ -279,7 +289,8 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
     <li><b>We ship the system, not the posts.</b> Coffee &amp; Contracts shows a post, then a calendar, then a price. Tonight produced funnel math, amendments, a vault, and a contract before anything you could flick through. This page is the first place the posts sit side by side.</li>
     <li><b>The cards cannot look like her yet.</b> Every weekly frame runs on a CC0 pool photo or a 360-pixel image of Jen from her old grid. Her twelve real photos are only in Edition 01. Drive folder 01 is still empty. The generator is not the ceiling; the inputs are.</li>
     <li><b>Two generators, two looks.</b> The weekly cards (centered serif over a full-bleed photo) and the editions (six Canva grammars) are not one wardrobe. Whichever you prefer from the other session should become the only one.</li>
-    <li><b>Her close is in nine of nine captions.</b> “i'm here for you. that's my job.” is her best line, and it is now a template. She rejected “templatized packaging”; repeating her own sentence every post is the same thing wearing her voice. One in three, at most.</li>
+    <li><b>Her close was in nine of nine captions.</b> “i'm here for you. that's my job.” is her best line, and it had become a template. Fixed Sept 2 for week 1 (it appears once, on the Connect post; the attract post closes “i've got you,” the listing closes on the showing); a stamp-lint now fails any week where a sentence repeats across posts. Weeks 2 and 3 still carry the old stamp until they go through the same door.</li>
+    <li><b>Every week-1 hook now opens on her or on you, not on the house.</b> Her account's own numbers: life-first hooks beat property-first two to one; every bottom-quartile post led with the property. “you keep saving the finished ones” before the three prices; “just breathe” before the buydown; the one-big-box thesis before the address.</li>
     <li><b>Three of five voice memos are unused on the grid.</b> Lipstick remodel, the $80M beach house, the skyline: written, not built. The two memos that are used carry the same two lines.</li>
     <li><b>No Jen since “hated it.”</b> Two rebuilds, zero thumbs-up. The system is optimized for operator legibility, not for the two humans who decide: your verdict and her yes.</li>
     <li><b>Zero stories, zero bio change, zero pinned post, zero Insights.</b> Those are the parts of Coffee &amp; Contracts that make the feed feel alive and measurable. We built the feed posts and the reply layer and stopped.</li>
@@ -288,7 +299,7 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
 
 <section class="block" id="machine">
   <h2>The machine</h2>
-  <p class="lede">One loop, seven stages. Jen appears in exactly one of them.</p>
+  <p class="lede">One front door, <code>/jen</code>, nine steps in a fixed order with a receipt after each. Jen appears in exactly one of them. Reset Sept 2: the three competing engines are archived; this is the only order.</p>
   <ul class="stages">{stages_html}</ul>
 </section>
 
@@ -325,6 +336,8 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
   <h2>Gates and receipts</h2>
   <div class="tablewrap"><table><thead><tr><th>check</th><th>result</th><th>what it means</th></tr></thead><tbody>
   <tr><td>Fair-housing lint, all nine captions and frames</td><td><span class="state used">pass</span></td><td>no steering language, no protected-class targeting</td></tr>
+  <tr><td>Stamp-lint, week 1 (re-run)</td><td><span class="state used">pass</span></td><td>no sentence appears in two posts; the close once, “i've got you” once, no “my DMs are open” tail</td></tr>
+  <tr><td>Stamp-lint, weeks 2–3 (not yet re-run)</td><td><span class="state none">fail</span></td><td>the close in 6 of 6; “my DMs are open” in 6 of 6; queued for the same door</td></tr>
   <tr><td>Prose classifier, week 3 captions</td><td><span class="state used">clean 0/10</span></td><td>after removing three “here's what” lead-ins and two repeated ask tails</td></tr>
   <tr><td>Facts ledger</td><td><span class="state used">17 rows</span></td><td>every number read from Redfin, Freddie Mac, or CDI on the build day, with a re-check date</td></tr>
   <tr><td>Realism gate</td><td><span class="state used">applied</span></td><td>condo and light-rail topics dead; insurance, rates, “just breathe” pass</td></tr>
