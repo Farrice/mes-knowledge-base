@@ -208,3 +208,7 @@ CONVERSATIONAL PERSUASION COPY OUTPUT
 - [ ] Radical candor creates trust, not anxiety
 - [ ] Self-selection triggers work (the right people act, wrong people self-filter)
 - [ ] You'd send this exact copy to your smartest friend without feeling embarrassed
+
+## Optional source-backed delivery pass
+
+When the draft's reception or medium translation is the unresolved gap, run `skills/jason-fladlien-marketing/workflows/delivery-influence.md` once in the matching mode. It preserves this workflow's purpose and approved claims. Read `references/delivery-influence.md`; do not copy live crowd-response techniques into text.

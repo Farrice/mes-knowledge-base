@@ -1,0 +1,155 @@
+[
+  {
+    "id": "D01",
+    "start": 59,
+    "end": 127,
+    "name": "Earn relevance before biography",
+    "observed": "He abandons a long introduction and explains why webinar mechanics matter even to people who never run webinars.",
+    "application": "Open with the receiver\u2019s usable outcome; demonstrate competence before listing credentials.",
+    "check": "First paragraph makes the task and audience fit identifiable."
+  },
+  {
+    "id": "D02",
+    "start": 174,
+    "end": 245,
+    "name": "Invite participation with a real job",
+    "observed": "A short answer and a pause make a lecture conversational. He explicitly describes compliance as his goal.",
+    "application": "Use a question that checks understanding or elicits evidence. In text, replace crowd response with a concrete self-check. Agreement is not purchase consent.",
+    "check": "Each question changes the next step or helps the reader apply the point."
+  },
+  {
+    "id": "D03",
+    "start": 279,
+    "end": 368,
+    "name": "Rehearse the portable sentence",
+    "observed": "He states a compact line, asks listeners to write it, repeats it and lets them finish it. He recommends a bank of 25 rehearsed lines.",
+    "application": "Build a precise, memorable sentence from the mechanism, then prove it. Spoken work may repeat; text gets one strongest version.",
+    "check": "A reviewer can recall the decision rule without needing its slogan."
+  },
+  {
+    "id": "D04",
+    "start": 370,
+    "end": 431,
+    "name": "Prepare receptivity before the payoff",
+    "observed": "He creates anticipation before giving his risk-centered offer insight and comments on vocal changes.",
+    "application": "Establish the unresolved decision before giving the answer. Curiosity must pay off in a usable distinction, not a larger promise.",
+    "check": "Setup earns its space by making the next point easier to use."
+  },
+  {
+    "id": "D05",
+    "start": 432,
+    "end": 547,
+    "name": "Repeat through variation",
+    "observed": "Repeated examples establish cadence; he interrupts that cadence and pairs reward with risk.",
+    "application": "Change examples or delivery emphasis while preserving the core rule. Avoid anaphora as default written decoration.",
+    "check": "Each repetition adds application, evidence or orientation."
+  },
+  {
+    "id": "D06",
+    "start": 553,
+    "end": 675,
+    "name": "Renew relevance at transitions",
+    "observed": "He broadens webinars to VSLs and offer documents, then explains that the map needs local adjustment.",
+    "application": "At a topic change, translate the lesson into the receiver\u2019s actual task. State what varies and what survives.",
+    "check": "A non-webinar user receives a usable application, not just reassurance."
+  },
+  {
+    "id": "D07",
+    "start": 676,
+    "end": 701,
+    "name": "Set up each deliverable before the offer",
+    "observed": "Community is preceded by the problem of working alone and a comparative example before it is offered.",
+    "application": "Map each offer component to a demonstrated need. Use actual cases or labeled hypotheticals; do not invent winners and losers.",
+    "check": "Every paid component has an earlier need/proof anchor and clear terms."
+  },
+  {
+    "id": "D08",
+    "start": 703,
+    "end": 833,
+    "name": "Prepare modules; adapt their placement",
+    "observed": "He describes departing from slides when a relevant idea emerges; the example handles only the most valuable done-for-you step.",
+    "application": "Know the material in modules; adapt sequence to explicit questions. Do not fake spontaneity or claim a prerecorded aside arose live.",
+    "check": "Optional module names the observable cue that justifies adding it."
+  },
+  {
+    "id": "D09",
+    "start": 834,
+    "end": 1016,
+    "name": "Let the demonstration carry authority",
+    "observed": "He performs the very coaching pattern he is describing, then explains that audience response caused him to extend it.",
+    "application": "Show an actual transformation of the material. For copy, rewrite a sentence; for video, show the work; for sales, diagnose a supplied example.",
+    "check": "The audience can inspect an input and an output, not merely a credentials claim."
+  },
+  {
+    "id": "D10",
+    "start": 1016,
+    "end": 1179,
+    "name": "Challenge with audience-fit warmth",
+    "observed": "He denounces fake scarcity and discusses profanity and laughter in the context of this particular audience.",
+    "application": "Challenge a supported assumption with language appropriate to the receiver. Warmth can be plain acknowledgment; jokes and profanity are optional.",
+    "check": "No joke demeans the buyer or makes an unsupported assertion appear proven."
+  },
+  {
+    "id": "D11",
+    "start": 1180,
+    "end": 1359,
+    "name": "Separate the room from its customers",
+    "observed": "He tells growth-oriented attendees that their own motives may differ from those of their customers, then illustrates an exaggerated failure fear.",
+    "application": "Distinguish the audience\u2019s stated objective from end-customer evidence. Label any third-person scenario; never diagnose an unspoken fear.",
+    "check": "Buyer language is sourced or explicitly a hypothesis; the example has a practical next step."
+  },
+  {
+    "id": "D12",
+    "start": 1359,
+    "end": 1484,
+    "name": "Teach before inviting paid help; shrink the promise",
+    "observed": "He offers a free lesson first and a later choice to work together. Next he explains a smaller promise in terms his audience can grasp.",
+    "application": "Make the free step genuinely usable. Offer a bounded paid outcome whose scope and proof are visible.",
+    "check": "The reader can take the free action and decline the paid option without losing information."
+  },
+  {
+    "id": "D13",
+    "start": 1484,
+    "end": 1572,
+    "name": "Replace conventional wisdom with a demonstrable possibility",
+    "observed": "He challenges the need for ever larger claims and describes a tone of detached amusement.",
+    "application": "Name a real assumption, its limits, and the evidence for an alternative. Steady tone cannot upgrade uncertain claims.",
+    "check": "The counterclaim has support; no invented universal belief or guaranteed lift."
+  },
+  {
+    "id": "D14",
+    "start": 1577,
+    "end": 1774,
+    "name": "Use disruptions as live material",
+    "observed": "He comments on a light change and recounts responding to an AV failure; then distinguishes teaching words from demonstrating behavior.",
+    "application": "Prepare recovery branches: acknowledge disruption, preserve the point, continue. In edited media use a genuine visible event, not fabricated live feedback.",
+    "check": "Recovery retains the argument and the audience knows what happened."
+  },
+  {
+    "id": "D15",
+    "start": 1776,
+    "end": 1982,
+    "name": "Build a concrete demonstration and ask permission to extend",
+    "observed": "He describes a memorable firewalk example, then asks to share another two-minute section.",
+    "application": "Choose a safe, inspectable demonstration relevant to the claim. Acknowledge useful work, offer an optional extension, respect a no.",
+    "check": "Demonstration proves the specific point; extension has an honest time bound."
+  },
+  {
+    "id": "D16",
+    "start": 1985,
+    "end": 2077,
+    "name": "Remove friction before adding capability",
+    "observed": "He describes removing unnecessary work, optimizing what remains and adding the least required capability. He connects a host callback to premium expectations.",
+    "application": "Reuse the smallest sufficient asset; make the benefit tangible before expanding the offer. Use callbacks only to events that actually occurred.",
+    "check": "The proposed next step has lower burden and does not invent status or endorsements."
+  },
+  {
+    "id": "D17",
+    "start": 2078,
+    "end": 2279,
+    "name": "Plan the ending before optional material",
+    "observed": "He prepares bonus slides and a second high ending; ends the social example with a request to act and share results.",
+    "application": "Build a complete main ending and, if needed, a complete encore ending. Attach aspiration to one executable next action.",
+    "check": "Removing the bonus still leaves a finished close; no administrative tail dilutes the action."
+  }
+]
