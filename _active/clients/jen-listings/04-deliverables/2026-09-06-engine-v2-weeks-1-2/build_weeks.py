@@ -18,6 +18,9 @@ sys.path.insert(0, str(SEPT))
 from gen_photo import HEAD_PHOTO, FRAME, photo, lockup, serif, hand, body  # noqa: E402
 
 IMG = SEPT / "img"
+# the approved code-words carousel (Farrice 2026-09-07, 8/10) is rendered by the recovery package's own generator; its six
+# PNGs are copied in as-is (kind "carousel"), never re-rendered here, so the approved design survives byte for byte.
+CODEWORDS = HERE.parent / "social-content/2026-09-07-content-recovery/outputs/approved-assets/codewords/renders"
 CHROME = sorted(glob.glob(os.path.expanduser(
     "~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/chrome-headless-shell")))[-1]
 NO_VIDEO = "--no-video" in sys.argv
@@ -34,7 +37,7 @@ WEEKS = [
         # once per line this week, never stamped. READ.md and AMPLIFY.md in the week folder carry the receipts.
         "folder": "week-of-2026-09-07",
         "message": (
-            "hey babe, week 1 is in the folder. the first one is the \"one more question\" reel, it's ready to post tonight. thursday is your \"just breathe\" line from the voice memo. open, post, done.\n"
+            "hey babe, week 1 is in the folder. the first one is the \"one more question\" reel, it's ready to post tonight. thursday is your \"just breathe\" line from the voice memo. saturday is the \"realtor code words\" post, six slides. open, post, done.\n"
             "if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍"
         ),
         "posts": [
@@ -155,7 +158,7 @@ WEEKS = [
                 "id": "03-convert-5421-bothwell",
                 "kind": "reel",
                 "job": "convert",
-                "day": "sat sept 12 · 9:00am (HOLD until Jen confirms the Bothwell listing is hers to post)",
+                "day": "HOLD · until Jen confirms the Bothwell listing is hers to post (was sat sept 12; that slot now runs the code-words post) then re-slot",
                 "story": "first frame to stories at 9:05am, no sticker; the address card is the story",
                 "collab": "invite @myhousesellers as collaborator (team listing, co-listed with marty azoulay)",
                 "first_comment": "three structures, one lot. private showings this weekend, DM me.",
@@ -186,20 +189,100 @@ WEEKS = [
                 ),
                 "reply": "a showing request → reply in her own words, same evening; no saved reply needed (she does this daily).",
             },
+            {
+                # The approved code-words carousel (Farrice 2026-09-07: 8/10; visual system = approved-assets/visual-reference/GOLDEN-REFERENCE.json,
+                # "10 out of 10"). Adapted from WINNERS row #5 (@battlebornsteve "Realtor code words Pt. 2", 3.0M views). Slides are the
+                # recovery package's renders, copied in. 2026-09-09 (his decision): the caption close moves from the keyword ("comment DECODE",
+                # Jen finds keyword CTAs cheesy) to her open door with a concrete thing to send; #FirstTimeHomeBuyer dropped (ENGINE-V2 §1).
+                # Everything else in the caption is the approved text, untouched. Slide 6 still reads "comment DECODE" and stays as approved
+                # unless Jen winces; the reply routing covers a DECODE comment either way.
+                "id": "10-position-code-words",
+                "kind": "carousel",
+                "job": "position",
+                "day": "sat sept 12 · 9:00am",
+                "story": "slide 1 to stories at 9:05am with the question sticker: \"which listing word gets you?\"",
+                "collab": "none",
+                "first_comment": "screenshot the line in the listing you keep re-reading and send it to me. i'll tell you what it usually means.",
+                "files": [CODEWORDS / f"{i:02d}.png" for i in range(1, 7)],
+                "slides_text": [
+                    "realtor code words. the Valley edition. what the listing actually means.",
+                    "“cozy” isn’t a measurement. bring the tape measure. Check the room dimensions before you plan the furniture.",
+                    "“original condition.” original what? Ask when the roof, plumbing and electrical were last updated. The kitchen is only one part.",
+                    "“close to the 101.” listen for yourself. Stand outside. Then inside. Windows open, windows closed. Does it work for you?",
+                    "“great potential.” price the project. What work does it need? Get a qualified estimate before you plan the renovation.",
+                    "save this before your next tour. read between the lines. comment DECODE for the full listing translator + the questions to take with you.",
+                ],
+                "photos": ["listing-01-exterior (hers)", "kitchen (approved plate)", "street2 (approved plate)", "listing-02-living (hers)",
+                           "101 (approved plate)", "coffee (approved plate)", "listing-04-kitchen (hers)"],
+                "caption": (
+                    "“cozy.” “original condition.” “great potential.”\n"
+                    "\n"
+                    "the listing gives you the adjectives. you still need the answers.\n"
+                    "\n"
+                    "cozy? check the room dimensions.\n"
+                    "original condition? ask about the roof, plumbing and electrical—not just the kitchen.\n"
+                    "close to the 101? listen from inside and outside.\n"
+                    "great potential? find out what the work actually costs.\n"
+                    "\n"
+                    "none of those phrases automatically makes it a bad house. they tell us what to look at more closely.\n"
+                    "\n"
+                    "save this for your next tour. and if a listing has a line you keep re-reading... screenshot it and send it to me. i'll tell you what it usually means and what i'd ask about it.\n"
+                    "\n"
+                    "Jennifer Santulan · Equity Union · DRE #01914509\n"
+                    "#SanFernandoValleyRealEstate #ValleyRealtor"
+                ),
+                "reply": "a screenshot or a listing line arrives → answer in her own words the same evening: what it usually means, plus the one question she'd ask. 'DECODE' in the comments (slide 6 still says it) → DM them the four lines from the caption with the question beside each; no file needed. an address → saved reply 1.",
+            },
         ],
     },
     {
         "folder": "week-of-2026-09-14",
         "message": (
-            "week 2 is in the folder: three posts, tue / thu / sat. same as last week... open, post, done.\n"
-            "the thursday one is about the october 15 insurance change, so it goes out on time. reply here if a line isn't you 🤍"
+            "week 2 is in the folder. tuesday is the \"we loved it, it was so quiet\" reel... same look as the first one. thursday is the october 15 insurance change, so it goes out on time. open, post, done.\n"
+            "reply here if a line isn't you 🤍"
         ),
         "posts": [
+            {
+                # 2026-09-09, through /jen. Built on WINNERS row #2 (@carligerber "drive the neighborhood at 7 AM, 3 PM, 9 PM", 598.8K views,
+                # 212× her median; independently replicated by row #6 @stephaford1, 775.5K, 175×). Grammar and floor from row #1, the approved
+                # specimen: the buyer's own sentence on screen, her reply with the stake ($800K), the reason withheld; the caption keeps the
+                # promise and previews working with her. Who-clause this week (CONTENT-MIX experiment): a household leaving an apartment,
+                # from the verbatim SFV buyer thread (repair-1/buyer-source.md), never quoted. Her photos only: Bothwell exterior + pool.
+                "id": "11-broll-it-was-so-quiet",
+                "kind": "reel",
+                "job": "connect",
+                "day": "tue sept 15 · 6:30pm",
+                "story": "first frame to stories at 6:35pm, no sticker; the quote is the story",
+                "collab": "none",
+                "first_comment": "tell me the street and what time you saw it. i'll tell you which drive to do first.",
+                "beats": [
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg", "line": "&#8220;We loved it.<br>It was so quiet.&#8221;", "size": 100, "secs": 4, "zoom": "in",
+                     "swap": "hers (Bothwell exterior, daylight); replace with her ordinary clip of a street when one lands in folder 02"},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-03-pool.jpg", "line": "You&#8217;re buying<br>an $800K house.<br>Drive the street<br>at 9pm tonight.", "size": 86, "secs": 6.5, "zoom": "out",
+                     "swap": "hers (Bothwell backyard at dusk); same clip, second beat"},
+                ],
+                "caption": (
+                    "you saw it at 1pm on a saturday. sun out, street empty, everyone at the beach or at costco. of course it was quiet.\n"
+                    "\n"
+                    "go back at 9 on a tuesday. don’t get out of the car. windows down.\n"
+                    "\n"
+                    "who’s home. is there anywhere to park. is somebody’s speaker going. is there a dog two doors down who has opinions about your car.\n"
+                    "\n"
+                    "then once at 7am, because the 101 sounds different at 7am. and once at 3pm, so you know which way the living room faces before a valley august tells you.\n"
+                    "\n"
+                    "if the whole reason you’re leaving the apartment is the people downstairs... the 9pm drive is the one that matters. tuesday nights come with the house.\n"
+                    "\n"
+                    "i drive it myself before we write the offer. then we compare notes. sometimes the notes say “keep looking,” and that’s fine. that’s what the drive is for.\n"
+                    "\n"
+                    "tell me the street and what time you saw it. i’ll tell you which drive to do first."
+                ),
+                "reply": "a street and a time → her own words the same evening (which drive first, and what to listen for). an address → saved reply 1. 'we did this' or 'same' → ask what they heard.",
+            },
             {
                 "id": "04-attract-900k-two-zips",
                 "kind": "reel",
                 "job": "attract",
-                "day": "tue sept 15 · 7:30am",
+                "day": "HOLD · re-pull the two comps (FACTS.md rows 04 are dated sept 2; prices move) then slot",
                 "beats": [
                     {"photo": "vannuys-blvd-2024.jpg", "line": "$900K in sherman oaks.<br>$900K in van nuys.<br>same week.", "size": 90, "secs": 4.5, "zoom": "in",
                      "swap": "a wide valley frame from the drive (folder 02) or a drone frame (01)"},
@@ -527,6 +610,13 @@ def main():
                     print(f"  {png.name} ({png.stat().st_size // 1024} KB)")
                     swap_rows.append((wk["folder"], png.name, s["photo"], s["swap"]))
                     copy_md.append(f"- slide {i}: {_strip(s['html']())}")
+            elif p["kind"] == "carousel":
+                # pre-rendered by another generator family member; copied in, never re-rendered (approved design preserved)
+                for i, (src, txt) in enumerate(zip(p["files"], p["slides_text"]), 1):
+                    png = wdir / f"{p['id']}-{i}.png"
+                    shutil.copyfile(src, png)
+                    print(f"  {png.name} (copied, {png.stat().st_size // 1024} KB)")
+                    copy_md.append(f"- slide {i}: {txt}")
             else:
                 build_reel(p, wdir)
                 for i, b in enumerate(p["beats"], 1):

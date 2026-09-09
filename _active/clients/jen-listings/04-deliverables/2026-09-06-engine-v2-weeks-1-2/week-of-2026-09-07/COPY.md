@@ -2,7 +2,7 @@
 
 ## week-of-2026-09-07
 
-> message: hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. open, post, done.
+> message: hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. saturday is the "realtor code words" post, six slides. open, post, done.
 if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍
 
 
@@ -84,7 +84,7 @@ if it's late and the numbers are loud, send me the number, buying or selling. we
 *reply routing: a number or a quote → saved reply 3. 'same' or a feeling → her words: 'i know. send me the number when you're up. we'll look together.'*
 
 
-### 03-convert-5421-bothwell · reel · convert · sat sept 12 · 9:00am (HOLD until Jen confirms the Bothwell listing is hers to post)
+### 03-convert-5421-bothwell · reel · convert · HOLD · until Jen confirms the Bothwell listing is hers to post (was sat sept 12; that slot now runs the code-words post) then re-slot
 
 - beat 1: Most New Construction in the Valley Is One Big Box.
 - beat 2: This Is Three Buildings on One Lot. Tarzana.
@@ -107,4 +107,34 @@ private showings this weekend. DM me and we'll set a time.
 #tarzana #newconstruction #sanfernandovalley #luxuryrealestate #losangelesrealestate
 
 *reply routing: a showing request → reply in her own words, same evening; no saved reply needed (she does this daily).*
+
+
+### 10-position-code-words · carousel · position · sat sept 12 · 9:00am
+
+- slide 1: realtor code words. the Valley edition. what the listing actually means.
+- slide 2: “cozy” isn’t a measurement. bring the tape measure. Check the room dimensions before you plan the furniture.
+- slide 3: “original condition.” original what? Ask when the roof, plumbing and electrical were last updated. The kitchen is only one part.
+- slide 4: “close to the 101.” listen for yourself. Stand outside. Then inside. Windows open, windows closed. Does it work for you?
+- slide 5: “great potential.” price the project. What work does it need? Get a qualified estimate before you plan the renovation.
+- slide 6: save this before your next tour. read between the lines. comment DECODE for the full listing translator + the questions to take with you.
+
+**caption**
+
+“cozy.” “original condition.” “great potential.”
+
+the listing gives you the adjectives. you still need the answers.
+
+cozy? check the room dimensions.
+original condition? ask about the roof, plumbing and electrical—not just the kitchen.
+close to the 101? listen from inside and outside.
+great potential? find out what the work actually costs.
+
+none of those phrases automatically makes it a bad house. they tell us what to look at more closely.
+
+save this for your next tour. and if a listing has a line you keep re-reading... screenshot it and send it to me. i'll tell you what it usually means and what i'd ask about it.
+
+Jennifer Santulan · Equity Union · DRE #01914509
+#SanFernandoValleyRealEstate #ValleyRealtor
+
+*reply routing: a screenshot or a listing line arrives → answer in her own words the same evening: what it usually means, plus the one question she'd ask. 'DECODE' in the comments (slide 6 still says it) → DM them the four lines from the caption with the question beside each; no file needed. an address → saved reply 1.*
 

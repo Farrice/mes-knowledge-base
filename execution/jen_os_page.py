@@ -50,14 +50,16 @@ MSG = {w: (WEEKS / w / "MESSAGE-to-jen.txt").read_text().strip() for w in ["week
 SAVED = (WEEKS / "week-of-2026-09-21" / "saved-replies.txt").read_text().strip()
 
 POSTS = [
- ("week-of-2026-09-07", "Week 1 · in Drive 04 on Wed Sept 9 · the approved specimen leads; comps and Bothwell on HOLD", [
+ ("week-of-2026-09-07", "Week 1 · in Drive 04 · wed the specimen, thu just breathe, sat the code-words post · comps and Bothwell on HOLD", [
    ("00-broll-one-more-question", "connect", "reel · 10.5 s · her photos", "wed sept 9 · 6:30pm · FIRST POST", "“Sorry, one more question…” / You’re buying an $800K house. You can ask me whatever you need.", "00-broll-one-more-question", ["listing-02-living (hers)","listing-04-kitchen (hers)"], "a question or a screenshot → answer it in her own words the same evening (this post IS the promise) · 'same' → saved reply 4 shape"),
    ("01-attract-what-850k-buys", "attract", "reel · 25.5 s", "HOLD · re-pull comps, then tue sept 15 · 7:30am", "you keep saving the finished ones.", "01-attract-what-850k-buys", ["sunlight-through-window-floor-00","valley-street-01","california-bungalow-00","suburban-neighborhood-aerial-02","front-door-house-00","jen-porch-vannuys"], "a number → saved reply 3 · an address → saved reply 1 · 'same' → her words"),
    ("02-connect-just-breathe", "connect", "card · 3 slides · her photos", "thu sept 10 · 6:30pm", "just breathe.", "02-connect-just-breathe-1", ["listing-03-pool (hers)","listing-02-living (hers)","jen-headshot-studio (hers, no type)"], "a number → saved reply 3 · 'same' → her words: 'send me the number when you're up'"),
-   ("03-convert-5421-bothwell", "convert", "reel · 22 s", "sat sept 12 · 9:00am · HOLD until Jen confirms Bothwell", "Most New Construction in the Valley Is One Big Box.", "03-convert-5421-bothwell", ["sfv-aerial-nara","california-bungalow-00","sunlight-through-window-floor-00","front-door-house-00","jen-frontdoor"], "a showing request → her own words, same evening · collab tag @myhousesellers"),
+   ("10-position-code-words", "position", "carousel · 6 slides · approved 8/10 (Sept 7)", "sat sept 12 · 9:00am · in Drive 04", "“cozy.” “original condition.” “great potential.” / realtor code words, the Valley edition.", "10-position-code-words-1", ["listing-01-exterior (hers)","kitchen (approved plate)","street2 (approved plate)","listing-02-living (hers)","101 (approved plate)","coffee (approved plate)","listing-04-kitchen (hers)"], "a screenshot or a listing line → her own words the same evening (what it usually means + the one question to ask) · 'DECODE' in the comments (slide 6 still says it) → DM the four caption lines · an address → saved reply 1"),
+   ("03-convert-5421-bothwell", "convert", "reel · 22 s", "HOLD until Jen confirms Bothwell is hers to post (was sat sept 12)", "Most New Construction in the Valley Is One Big Box.", "03-convert-5421-bothwell", ["sfv-aerial-nara","california-bungalow-00","sunlight-through-window-floor-00","front-door-house-00","jen-frontdoor"], "a showing request → her own words, same evening · collab tag @myhousesellers"),
  ]),
- ("week-of-2026-09-14", "Week 2 · drop Sun Sept 13", [
-   ("04-attract-900k-two-zips", "attract", "reel · 23 s", "tue sept 15 · 7:30am", "$900K in sherman oaks. $900K in van nuys. same week.", "04-attract-900k-two-zips", ["vannuys-blvd-2024","california-bungalow-00","front-door-house-00","suburban-neighborhood-aerial-02","jen-porch-vannuys"], "a zip or a number → saved reply 3 · an address → saved reply 1"),
+ ("week-of-2026-09-14", "Week 2 · the new tuesday reel awaits your verdict; no Drive folder until then", [
+   ("11-broll-it-was-so-quiet", "connect", "reel · 10.5 s · her photos · built on WINNERS #2 (Carli Gerber, 212× median) in the specimen's grammar", "tue sept 15 · 6:30pm · VERDICT PENDING", "“We loved it. It was so quiet.” / You’re buying an $800K house. Drive the street at 9pm tonight.", "11-broll-it-was-so-quiet", ["listing-01-exterior (hers)","listing-03-pool (hers)"], "a street and a time → her own words the same evening (which drive first, what to listen for) · an address → saved reply 1 · 'same' → ask what they heard"),
+   ("04-attract-900k-two-zips", "attract", "reel · 23 s", "HOLD · re-pull the two comps (dated sept 2), then slot", "$900K in sherman oaks. $900K in van nuys. same week.", "04-attract-900k-two-zips", ["vannuys-blvd-2024","california-bungalow-00","front-door-house-00","suburban-neighborhood-aerial-02","jen-porch-vannuys"], "a zip or a number → saved reply 3 · an address → saved reply 1"),
    ("05-position-insurance-before-the-offer", "position", "reel · 18.5 s", "thu sept 17 · 6:30pm", "fully approved... and the insurance quote still moves your payment.", "05-position-insurance-before-the-offer", ["vannuys-blvd-2024","california-bungalow-00","house-key-lock-00","jen-porch-vannuys"], "an address → saved reply 1, then 2 the next day"),
    ("06-position-tarzana-median-sellers", "position", "card · 3 slides", "sat sept 19 · 9:00am", "tarzana sold for 14.5% less this july than last july.", "06-position-tarzana-median-sellers-1", ["sfv-aerial-nara","valley-street-01","jen-frontdoor"], "a street or 'what's mine worth' → saved reply 2"),
  ]),
@@ -71,7 +73,15 @@ POSTS = [
 CARD_SLIDES = {
  "02-connect-just-breathe": 3, "06-position-tarzana-median-sellers": 3,
  "08-position-two-markets-one-street": 3, "09-connect-just-breathe": 2,
+ "10-position-code-words": 6,
 }
+
+def badge(photos):
+    if photos and all("(hers" in x for x in photos):
+        return "hers", "her photos"
+    if photos and all("(hers" in x or "(approved" in x for x in photos):
+        return "hers", "her photos + approved plates"
+    return "placeholder", "placeholder photos"
 
 def post_card(pid, district, fmt, day, hook, thumb, photos, routing):
     cap = CAP.get(pid, "")
@@ -93,7 +103,7 @@ def post_card(pid, district, fmt, day, hook, thumb, photos, routing):
     <span class="chip {district}">{district}</span>
     <span class="mono">{esc(day)}</span>
     <span class="mono dim">{esc(fmt)}</span>
-    <span class="badge {'hers' if photos and all('(hers' in x for x in photos) else 'placeholder'}">{'her photos' if photos and all('(hers' in x for x in photos) else 'placeholder photos'}</span>
+    <span class="badge {badge(photos)[0]}">{badge(photos)[1]}</span>
   </div>
   <h3 class="hook">{esc(hook)}</h3>
   {gallery}
@@ -134,10 +144,10 @@ HERS = [
  ("jen-client-family-selfie", "clients, 414px", "none: inset only"),
  ("jen-client-newhomeowner-kid", "new homeowner, 414px", "none: inset only"),
  ("jen-client-pool-house", "pool house, 414px", "none: inset only"),
- ("listing-01-exterior", "5421 Bothwell exterior", "Edition 01 frame 3"),
- ("listing-02-living", "Bothwell living, pocket doors", "Edition 01 frame 3 inset"),
- ("listing-03-pool", "Bothwell pool at dusk", "Edition 01 frames 3, 5"),
- ("listing-04-kitchen", "Bothwell kitchen", "Connect 02 plan"),
+ ("listing-01-exterior", "5421 Bothwell exterior", "post 11 beat 1 · code-words slide 1 · Edition 01 frame 3"),
+ ("listing-02-living", "Bothwell living, pocket doors", "post 00 beat 1 · post 02 · code-words slide 2 · Edition 01 frame 3 inset"),
+ ("listing-03-pool", "Bothwell pool at dusk", "post 11 beat 2 · post 02 · Edition 01 frames 3, 5"),
+ ("listing-04-kitchen", "Bothwell kitchen", "post 00 beat 2 · code-words slide 6"),
  ("listing-home-gym-pool", "older listing gym/pool", "none: would mislead"),
 ]
 POOL_USED = {
@@ -174,11 +184,11 @@ ed_html = "".join(f'<figure><img src="{img(f)}" alt="{esc(c)}"><figcaption>{esc(
 eds_html = "".join(f'<figure><img src="{img(f)}" alt="{esc(c)}"><figcaption>{esc(c)}</figcaption></figure>' for f, c in EDS)
 
 STAGES = [
- ("0 · Load", "Seven files, in order, before a word is written: the operating doc, the mix, the vault, her voice profile, the calibration log, the client card, the last pulse.", "/jen step 0 · LOAD: 7/7", "us"),
+ ("0 · Load", "Eight files, in order, before a word is written: the operating doc, the mix, the vault, her voice profile, the calibration log, the client card, the last pulse, and WINNERS.md (the evidence sheet: the specimen, the reel look, eleven verified references, her own outliers).", "/jen step 0 · LOAD: 8/8", "us"),
  ("1 · Read", "What the account moved on last month decides this week's three slots. Shares come from the extractions, never from taste.", "CONTENT-MIX.md · pulse · outlier audit", "us"),
  ("2 · Research", "Redfin comps and market pages, Freddie Mac rates, CA Dept of Insurance. Read the day of the build, dated, labeled. The realism gate on every topic.", "FACTS.md · RESEARCH-PACK.md", "us"),
  ("3 · Write", "One pen, her seat first. Every hook opens on her or the reader; the number or the house is beat 2. Her verbatim lines are a bank drawn once a week, never a stamp.", "build_weeks.py WEEKS list", "us"),
- ("4 · Amplify", "Six seats critique, one pen integrates: Alyssa, Luke Iha, Sam Parr, Kallaway, Georgi, then Jen-as-herself with the veto. Plain words with punch.", "AMPLIFY.md in the week folder", "us"),
+ ("4 · Amplify", "Phase 1: one pen, one check. The pen loads two craft files (Alyssa's hook reframe, Luke Iha's hooks) and makes one sharpening pass; then Jen-as-herself reads it aloud and reverts any line she would not say. No expert room until her numbers say the copy is the problem.", "AMPLIFY.md in the week folder", "us"),
  ("5 · Check", "Fair-housing lint (hard). Prose classifier (nudge). Stamp-lint: a sentence in two posts of one week fails the week (hard).", "fair_housing_lint.py · prose_classifier.py · jen_stamp_lint.py", "script"),
  ("6 · Render", "Cards and photo-motion reels from one generator family. Photos are placeholders until hers arrive.", "week-of-YYYY-MM-DD/ · PHOTO-SWAP.md", "script"),
  ("7 · Deliver", "This page, then the Sunday folder: files, one text to her, captions, the day plan with story slide, collab tag and first comment, the saved replies.", "Drive · Jen · Content Drop / 04", "us"),
@@ -274,11 +284,11 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
 <header class="hero">
   <div>
     <h1>The Valley OS</h1>
-    <p>Jen's content system as of Sept 2, 2026, after the reset to one spine: how it runs, the nine posts it has produced (week 1 re-run through the new order), which of her own assets it uses, and the places it is not working yet. Every frame on this page is the actual render.</p>
+    <p>Jen's content system as of Sept 9, 2026, after the reset to one spine: how it runs, the eleven posts it has produced (week 1 in Drive; the new tuesday reel awaiting your verdict), which of her own assets it uses, and the places it is not working yet. Every frame on this page is the actual render.</p>
   </div>
   <div class="stat">
-    <div><b>9</b><span>posts built, 3 weeks</span></div>
-    <div><b>0</b><span>posted or approved by Jen</span></div>
+    <div><b>11</b><span>posts built, 3 weeks</span></div>
+    <div><b>3</b><span>in her Drive folder (wed · thu · sat), 0 posted</span></div>
     <div><b>5 / 12</b><span>of her photos in use</span></div>
   </div>
 </header>
@@ -306,7 +316,7 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
 
 <section class="block" id="month">
   <h2>The month, as she would see it</h2>
-  <p class="lede">Three drops, nine posts. Open any card for the caption as it posts, the reel beat by beat, and what happens when someone writes back. The dashed badge means the photos are placeholders from the cleared pool.</p>
+  <p class="lede">Three drops, eleven posts. Open any card for the caption as it posts, the reel beat by beat, and what happens when someone writes back. The dashed badge means the photos are placeholders from the cleared pool.</p>
   {weeks_html}
   <h4>the saved replies she pastes</h4>
   <pre class="caption">{esc(SAVED)}</pre>
@@ -337,13 +347,15 @@ figcaption .ok{{color:var(--good)}} figcaption .no{{color:var(--bad)}}
   <h2>Gates and receipts</h2>
   <div class="tablewrap"><table><thead><tr><th>check</th><th>result</th><th>what it means</th></tr></thead><tbody>
   <tr><td>Fair-housing lint, all nine captions and frames</td><td><span class="state used">pass</span></td><td>no steering language, no protected-class targeting</td></tr>
-  <tr><td>Stamp-lint, week 1 (re-run)</td><td><span class="state used">pass</span></td><td>no sentence appears in two posts; the close once, “i've got you” once, no “my DMs are open” tail</td></tr>
-  <tr><td>Stamp-lint, weeks 2–3 (not yet re-run)</td><td><span class="state none">fail</span></td><td>the close in 6 of 6; “my DMs are open” in 6 of 6; queued for the same door</td></tr>
+  <tr><td>Stamp-lint, week 1 (6 posts, incl. the code-words post)</td><td><span class="state used">pass</span></td><td>no sentence appears in two posts; the close once, “i've got you” once, no “my DMs are open” tail</td></tr>
+  <tr><td>Stamp-lint, weeks 2–3 (not yet re-run)</td><td><span class="state none">fail</span></td><td>the close in 6 of 6; “my DMs are open” in 6 of 6; queued for the same door. The new tuesday reel (post 11) adds no repeat: no bank line, its own close.</td></tr>
+  <tr><td>Code-words caption, Sept 9 fix</td><td><span class="state used">done</span></td><td>keyword close (“comment DECODE”) → her open door (“screenshot it and send it to me”); #FirstTimeHomeBuyer dropped; slide 6 unchanged unless Jen winces; classifier 0/10</td></tr>
+  <tr><td>Post 11, the two frames</td><td><span class="state used">looked at</span></td><td>type on the house and the sky, no face; her Bothwell exterior and pool; lockup at the foot; 10.5 s</td></tr>
   <tr><td>Prose classifier, week 3 captions</td><td><span class="state used">clean 0/10</span></td><td>after removing three “here's what” lead-ins and two repeated ask tails</td></tr>
   <tr><td>Facts ledger</td><td><span class="state used">17 rows</span></td><td>every number read from Redfin, Freddie Mac, or CDI on the build day, with a re-check date</td></tr>
   <tr><td>Realism gate</td><td><span class="state used">applied</span></td><td>condo and light-rail topics dead; insurance, rates, “just breathe” pass</td></tr>
   <tr><td>Type on a face</td><td><span class="state banked">1 fixed</span></td><td>week 3 card 08-3 re-pointed after the headline landed on her face</td></tr>
-  <tr><td>Jen-as-herself seat</td><td><span class="state banked">3 lines flagged</span></td><td>the 11pm scene, “touch three things,” the $80M line: need her thumbs-up</td></tr>
+  <tr><td>Jen-as-herself seat</td><td><span class="state banked">6 lines flagged</span></td><td>the 11pm scene, “touch three things,” the $80M line; post 11: “i drive it myself before we write the offer,” “sometimes the notes say keep looking,” the beach-or-costco saturday: need her thumbs-up</td></tr>
   <tr><td>Public pulse, Sept 2</td><td><span class="state used">2,660 followers</span></td><td>median 2,642 views · 125 likes · 15 comments across her last 12 reels</td></tr>
   <tr><td>Outlier audit</td><td><span class="state used">done</span></td><td>life-first hooks 2× property-first; the one real-estate breakout was comfort-shaped; zero local content</td></tr>
   <tr><td>Finalize composite</td><td><span class="state banked">7.33 marginal</span></td><td>honest: placeholders and unverified funnel rates cap it</td></tr>

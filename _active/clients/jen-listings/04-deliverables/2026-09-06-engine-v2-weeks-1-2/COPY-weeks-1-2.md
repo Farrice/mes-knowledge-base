@@ -5,7 +5,7 @@ Operator file. Same words as the Drive folders; here so the fair-housing lint an
 
 ## week-of-2026-09-07
 
-> message: hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. open, post, done.
+> message: hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. saturday is the "realtor code words" post, six slides. open, post, done.
 if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍
 
 
@@ -87,7 +87,7 @@ if it's late and the numbers are loud, send me the number, buying or selling. we
 *reply routing: a number or a quote → saved reply 3. 'same' or a feeling → her words: 'i know. send me the number when you're up. we'll look together.'*
 
 
-### 03-convert-5421-bothwell · reel · convert · sat sept 12 · 9:00am (HOLD until Jen confirms the Bothwell listing is hers to post)
+### 03-convert-5421-bothwell · reel · convert · HOLD · until Jen confirms the Bothwell listing is hers to post (was sat sept 12; that slot now runs the code-words post) then re-slot
 
 - beat 1: Most New Construction in the Valley Is One Big Box.
 - beat 2: This Is Three Buildings on One Lot. Tarzana.
@@ -112,13 +112,67 @@ private showings this weekend. DM me and we'll set a time.
 *reply routing: a showing request → reply in her own words, same evening; no saved reply needed (she does this daily).*
 
 
+### 10-position-code-words · carousel · position · sat sept 12 · 9:00am
+
+- slide 1: realtor code words. the Valley edition. what the listing actually means.
+- slide 2: “cozy” isn’t a measurement. bring the tape measure. Check the room dimensions before you plan the furniture.
+- slide 3: “original condition.” original what? Ask when the roof, plumbing and electrical were last updated. The kitchen is only one part.
+- slide 4: “close to the 101.” listen for yourself. Stand outside. Then inside. Windows open, windows closed. Does it work for you?
+- slide 5: “great potential.” price the project. What work does it need? Get a qualified estimate before you plan the renovation.
+- slide 6: save this before your next tour. read between the lines. comment DECODE for the full listing translator + the questions to take with you.
+
+**caption**
+
+“cozy.” “original condition.” “great potential.”
+
+the listing gives you the adjectives. you still need the answers.
+
+cozy? check the room dimensions.
+original condition? ask about the roof, plumbing and electrical—not just the kitchen.
+close to the 101? listen from inside and outside.
+great potential? find out what the work actually costs.
+
+none of those phrases automatically makes it a bad house. they tell us what to look at more closely.
+
+save this for your next tour. and if a listing has a line you keep re-reading... screenshot it and send it to me. i'll tell you what it usually means and what i'd ask about it.
+
+Jennifer Santulan · Equity Union · DRE #01914509
+#SanFernandoValleyRealEstate #ValleyRealtor
+
+*reply routing: a screenshot or a listing line arrives → answer in her own words the same evening: what it usually means, plus the one question she'd ask. 'DECODE' in the comments (slide 6 still says it) → DM them the four lines from the caption with the question beside each; no file needed. an address → saved reply 1.*
+
+
 ## week-of-2026-09-14
 
-> message: week 2 is in the folder: three posts, tue / thu / sat. same as last week... open, post, done.
-the thursday one is about the october 15 insurance change, so it goes out on time. reply here if a line isn't you 🤍
+> message: week 2 is in the folder. tuesday is the "we loved it, it was so quiet" reel... same look as the first one. thursday is the october 15 insurance change, so it goes out on time. open, post, done.
+reply here if a line isn't you 🤍
 
 
-### 04-attract-900k-two-zips · reel · attract · tue sept 15 · 7:30am
+### 11-broll-it-was-so-quiet · reel · connect · tue sept 15 · 6:30pm
+
+- beat 1: “We loved it. It was so quiet.”
+- beat 2: You’re buying an $800K house. Drive the street at 9pm tonight.
+
+**caption**
+
+you saw it at 1pm on a saturday. sun out, street empty, everyone at the beach or at costco. of course it was quiet.
+
+go back at 9 on a tuesday. don’t get out of the car. windows down.
+
+who’s home. is there anywhere to park. is somebody’s speaker going. is there a dog two doors down who has opinions about your car.
+
+then once at 7am, because the 101 sounds different at 7am. and once at 3pm, so you know which way the living room faces before a valley august tells you.
+
+if the whole reason you’re leaving the apartment is the people downstairs... the 9pm drive is the one that matters. tuesday nights come with the house.
+
+i drive it myself before we write the offer. then we compare notes. sometimes the notes say “keep looking,” and that’s fine. that’s what the drive is for.
+
+tell me the street and what time you saw it. i’ll tell you which drive to do first.
+
+*reply routing: a street and a time → her own words the same evening (which drive first, and what to listen for). an address → saved reply 1. 'we did this' or 'same' → ask what they heard.*
+
+
+### 04-attract-900k-two-zips · reel · attract · HOLD · re-pull the two comps (FACTS.md rows 04 are dated sept 2; prices move) then slot
 
 - beat 1: $900K in sherman oaks. $900K in van nuys. same week.
 - beat 2: sherman oaks. $899,900. 1 bed. 1 bath. a big lot and a plan.

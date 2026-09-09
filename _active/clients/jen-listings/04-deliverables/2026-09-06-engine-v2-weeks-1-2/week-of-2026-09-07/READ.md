@@ -9,3 +9,11 @@ Receipts:
 - `LOAD: 7/7 · voice source = jen-real-voice-profile.md · calibration rows = 17`
 - `READ: slots = attract / connect / convert · experiment = who-clause · evidence = outlier audit 2026-09-02`
 - `RESEARCH: 6 claims ledgered (FACTS.md rows 01, 03; connect = HERS memo 2 + 2 Jen-seat lines) · UNCONFIRMED in copy = 0 · realism gate: 3 topics passed, 0 killed`
+
+## 2026-09-09 · saturday re-slot
+
+Bothwell (03) stays HOLD; the saturday slot goes to the approved code-words post (10, position: one piece of market literacy translated in her register; Farrice 2026-09-07, 8/10). The week now posts wed 00 · thu 02 · sat 10; the comps post (01) and Bothwell (03) hold.
+
+- `LOAD: 8/8 · voice source = jen-real-voice-profile.md · calibration rows = 24 · winners = 11 reference rows + 3 own outliers`
+- `READ: slots = connect / connect / position · experiment = who-clause · evidence = outlier audit 2026-09-02`
+- `RESEARCH: 3 claims ledgered for post 10 (FACTS.md 2026-09-09 section; DRE VERIFIED) · UNCONFIRMED in copy = 0 · realism gate: passed at approval`

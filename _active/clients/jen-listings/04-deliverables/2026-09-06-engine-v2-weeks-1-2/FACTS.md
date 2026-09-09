@@ -53,3 +53,19 @@ Every number in the nine posts, where it came from, and what to re-check on send
 - 01-attract comps are dated sept 2 → HOLD; re-pull the three listings the day it posts (they move).
 - 03-convert Bothwell → HOLD until Jen confirms it is hers to post (co-listed with Marty Azoulay).
 
+## 2026-09-09 · sat 9/12 code-words (10) + tue 9/15 B-roll (11)
+
+| used in | claim | label | source | re-check |
+|---|---|---|---|---|
+| 10 code-words, every frame + caption | Jennifer Santulan · Equity Union · DRE #01914509 | VERIFIED | coldwellbanker.com 5421 Bothwell listing page (`edition-01/RESEARCH-PACK.md`, listing agents row, read 2026-09-02) | none |
+| 10 code-words | "cozy," "original condition," "close to the 101," "great potential" as listing phrases; roof / plumbing / electrical as the three systems to ask about | LIKELY (common listing language; no number claimed) | adapted from WINNERS row #5 @battlebornsteve "Realtor code words Pt. 2" (3.0M views, 1,205× median); approved by Farrice 2026-09-07 at 8/10 | none |
+| 10 code-words | no number on any frame or in the caption | n/a | | |
+| 11 B-roll, on screen | "$800K" | HERS / the band (ENGINE-V2 §1 niche statement; the approved specimen carries the same line) | `jen-asking-again.md` | none |
+| 11 B-roll | the three drive times, 7am / 3pm / 9pm | a practice, not a fact | WINNERS row #2 @carligerber (598.8K views, 212× median) + row #6 @stephaford1 (775.5K, 175×) | none |
+| 11 B-roll | "the 101 sounds different at 7am" · a west-facing room heats up in a Valley august | VERIFIED as general knowledge (morning commute peak on the 101; afternoon sun on west glazing); no number claimed | Farrice 2026-09-04: "oh, I hate taking the 101" (WINNERS §2) | none |
+| 11 B-roll | who-clause: "leaving the apartment because of the people downstairs" | buyer evidence (verbatim SFV buyer, Reddit r/SFV, retrieved 2026-09-08: downstairs neighbors "scream and fight constantly," bass every weekend, "a stand alone home would certainly fix all that") | `social-content/2026-09-08-swarm-pilot/repair-1/buyer-source.md` | none; never quoted, never claimed as her client |
+| 11 B-roll | "i drive it myself before we write the offer. then we compare notes." · "sometimes the notes say keep looking" | Jen-seat (her practice, our words) | drafted 2026-09-09 | Jen thumbs-up before tue sept 15 |
+| 11 B-roll | "you saw it at 1pm on a saturday… everyone at the beach or at costco" | Jen-seat scene | drafted 2026-09-09 | Jen thumbs-up |
+
+Realism gate (ENGINE-V2 §3), both topics: she would say it in these words (yes / yes) · a stranger can act on it at their stage (a screenshot of a listing line; a drive down a street with only an address: yes / yes) · every fact dated and sourced or hers (yes / yes). Passed 2, killed 0.
+

@@ -37,6 +37,7 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 | four Tarzana sales Aug 21–28, $840K–$950K, 36–119 days | banked, VERIFIED | RESEARCH-PACK §4 | monthly |
 | Sherman Oaks median $1,524,480 Jul 2026 | banked | FACTS.md | monthly |
 | the buydown translator (permanent vs 3-2-1, "how we structure the loan") | banked, her words | voice memo 2 | none |
+| realtor code words, the Valley edition (6-slide carousel; "cozy," "original condition," "close to the 101," "great potential") | shipped to Drive 04 / week-of-2026-09-07 on 2026-09-09 for sat 9/12; approved 8/10 (Farrice 2026-09-07); caption close = her open door (screenshot the line, send it), #FirstTimeHomeBuyer off; slide 6 still says "comment DECODE" (stays unless Jen winces); NOT posted | `week-of-2026-09-07/10-position-code-words-*.png`; source renders `social-content/2026-09-07-content-recovery/outputs/approved-assets/codewords/`; built on WINNERS row #5 | a DECODE comment is answered by DM with the four caption lines; no file to send |
 | Van Nuys light rail | dead (her opinion not on file; footage unreliable) | reset memo | never revive without her take |
 | condo (building must qualify) | dead | ENGINE-V2 §3 | never |
 
@@ -46,6 +47,7 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 |---|---|---|---|
 | "sorry, one more question…" (B-roll reel, THE approved specimen) | rendered 2026-09-09 as photo-motion on her Bothwell interiors (10s, two beats, her lockup); first post to Drive 04 / week-of-2026-09-07; awaiting Jen's thumbs-up, NOT posted | `week-of-2026-09-07/00-broll-one-more-question.mp4` + `-cover.jpg`; copy in `social-content/2026-09-07-content-recovery/outputs/jen-asking-again.md` | swap beats onto her ordinary clip when one lands in Drive 02 |
 | just breathe (two-beat card) | rendered on her photos, week of 2026-09-07 slot thu 9/10 (moved up on the 2026-09-02 re-run); NOT posted as of 2026-09-09 | `week-of-2026-09-07/02-connect-*`; copy in `connect-posts-01/COPY.md` 01 | Jen-seat lines (the 11pm scene) need her thumbs-up |
+| "we loved it. it was so quiet." → "drive the street at 9pm tonight" (B-roll reel, two beats, her Bothwell exterior + pool) | built 2026-09-09 for tue 9/15, awaiting Farrice's verdict (triad); NO Drive folder for week-of-2026-09-14 until then | `week-of-2026-09-14/11-broll-it-was-so-quiet.mp4` (spec `reels/11-broll-it-was-so-quiet.json`); built on WINNERS row #2 (Carli Gerber 7am/3pm/9pm, replicated by #6) in the specimen's grammar; who-clause = a household leaving an apartment | Jen-seat lines ("i drive it myself before we write the offer," "keep looking," the costco saturday) need her thumbs-up |
 | lipstick remodel (single card) | copy ready | same, 02 | "touch three things" is drafted |
 | everything works out (two-beat card, Wilmington $20K credits story) | copy ready | same, 03 | team story: "our clients," never "my" |
 | not my thing ($80M beach house vs a valley view) | copy ready | same, 04 | plate pending; "$80 million" line pending her comfort |

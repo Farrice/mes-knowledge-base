@@ -52,3 +52,15 @@ Receipt: `AMPLIFY 03: 6 seats · 3 edits integrated · Jen-seat flagged 0 · rev
 | i've got you | 1 | 01 |
 | everything works out exactly the way it's supposed to. | 0 | banked for a later Connect |
 | my DMs are open | 0 | retired as a tail; the ask is concrete instead |
+
+## 10 · position · code-words carousel · the caption close only (2026-09-09; Phase 1 shape: one pen, one check)
+
+The approved text (Farrice 2026-09-07, 8/10) is untouched except the close and the hashtags. Old close: "comment DECODE and i'll send you the full listing translator, with the questions to ask beside each phrase." Keyword asks read as cheesy to Jen (memory: intake question design) and the "full listing translator" is the caption itself.
+
+| pass | what changed | kept? |
+|---|---|---|
+| Alyssa, who + lens | Who = "a listing has a line you keep re-reading" (a private state). Lens = hers: "what it usually means and what i'd ask about it." | yes |
+| Luke Iha | No throat-clearing added; the ask is one concrete thing to send (a screenshot of the line), the same door the approved specimen opened ("a screenshot with ??? underneath"), in a different sentence so the week's stamp-lint stays clean. | yes |
+| Jen-as-herself check | "screenshot it and send it to me" and "i'll tell you what it usually means" are her lexicon (send me, i'll tell you, my DMs are open). The em-dash in "electrical—not just the kitchen" is in the approved text; left as approved (her rule prefers ellipses; flagged, not changed). #FirstTimeHomeBuyer dropped (ENGINE-V2 §1). No bank line. | 0 reverted |
+
+Receipt: `AMPLIFY: one pen · 1 line sharpened (the close) · Jen check reverted 0`

@@ -2,11 +2,35 @@
 
 ## week-of-2026-09-14
 
-> message: week 2 is in the folder: three posts, tue / thu / sat. same as last week... open, post, done.
-the thursday one is about the october 15 insurance change, so it goes out on time. reply here if a line isn't you 🤍
+> message: week 2 is in the folder. tuesday is the "we loved it, it was so quiet" reel... same look as the first one. thursday is the october 15 insurance change, so it goes out on time. open, post, done.
+reply here if a line isn't you 🤍
 
 
-### 04-attract-900k-two-zips · reel · attract · tue sept 15 · 7:30am
+### 11-broll-it-was-so-quiet · reel · connect · tue sept 15 · 6:30pm
+
+- beat 1: “We loved it. It was so quiet.”
+- beat 2: You’re buying an $800K house. Drive the street at 9pm tonight.
+
+**caption**
+
+you saw it at 1pm on a saturday. sun out, street empty, everyone at the beach or at costco. of course it was quiet.
+
+go back at 9 on a tuesday. don’t get out of the car. windows down.
+
+who’s home. is there anywhere to park. is somebody’s speaker going. is there a dog two doors down who has opinions about your car.
+
+then once at 7am, because the 101 sounds different at 7am. and once at 3pm, so you know which way the living room faces before a valley august tells you.
+
+if the whole reason you’re leaving the apartment is the people downstairs... the 9pm drive is the one that matters. tuesday nights come with the house.
+
+i drive it myself before we write the offer. then we compare notes. sometimes the notes say “keep looking,” and that’s fine. that’s what the drive is for.
+
+tell me the street and what time you saw it. i’ll tell you which drive to do first.
+
+*reply routing: a street and a time → her own words the same evening (which drive first, and what to listen for). an address → saved reply 1. 'we did this' or 'same' → ask what they heard.*
+
+
+### 04-attract-900k-two-zips · reel · attract · HOLD · re-pull the two comps (FACTS.md rows 04 are dated sept 2; prices move) then slot
 
 - beat 1: $900K in sherman oaks. $900K in van nuys. same week.
 - beat 2: sherman oaks. $899,900. 1 bed. 1 bath. a big lot and a plan.
