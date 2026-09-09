@@ -1,0 +1,8 @@
+{
+  "recovery_branch": "worktree-main-dirty-preserve-20260908-outcome-proof-recovery",
+  "recovery_commit": "5107e932f066c32de87f056ef5fe0f240030ae84",
+  "tracked_verified": 86,
+  "hash_mismatches": [],
+  "untracked_entries_verified": 45,
+  "missing_untracked": []
+}
