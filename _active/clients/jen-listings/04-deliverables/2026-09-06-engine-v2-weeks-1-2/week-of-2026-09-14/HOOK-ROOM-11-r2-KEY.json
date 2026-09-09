@@ -1,0 +1,17 @@
+{
+  "order": [
+    "F11",
+    "F9",
+    "L11",
+    "L10",
+    "K14",
+    "SPECIMEN",
+    "H10",
+    "L9",
+    "L4",
+    "L14",
+    "K4"
+  ],
+  "seed": 1109,
+  "note": "open after tapping; entry n = order[n-1]"
+}

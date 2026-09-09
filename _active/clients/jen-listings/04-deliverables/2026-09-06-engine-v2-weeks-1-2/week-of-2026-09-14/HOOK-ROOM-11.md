@@ -61,3 +61,11 @@ Fair-housing lint runs on the finalist file before the surface is built. Stamp-l
 - The winning pair replaces take 2's beats in `build_weeks.py` (caption stays; it already pays off any of the eight); rebuild, render, frames looked at, page republished, then the week 2 Drive folder.
 - His verdicts on the winner and on the ones he hated go to `jen-calibration-log.md` and `voice_ratchet.py add`, verbatim.
 - If the specimen wins outright over all eight, the room failed and the next round starts from the input (a different card), never a third take on this one.
+
+## Verdict (Farrice, 2026-09-09, same evening)
+
+"in the hook room 2 is still the best." Entry 2 = the SPECIMEN. The eight pairs lost to the bar 8–0. Per the protocol the room failed: back to the input, never a third take on this post. Diagnosis in the calibration log: every pair was invented from a concept; the specimen was harvested from an overheard sentence and answered with a relationship line, not a price.
+
+## Round 2 (2026-09-09, later the same evening): harvested sentences, her reply
+
+Farrice tapped five overheard sentences from the harvest list: 14 "i thought i needed perfect credit and 20% down" (her own caption, her buyers' belief) · 11 "my rent is $2,100, so buying never made sense until now" (r/SFV buyer) · 10 "nobody i know has ever done this" (r/SFV buyer, "family" softened to "i know" for the lint) · 4 "should we wait for rates to come down?" (Sept 3 LA comment sample) · 9 "how do i know which agent to trust?" (same). Beat 1 = the sentence in quotes, as the specimen does it. The four pens wrote only beat 2, her reply: permission with a stake, never a pitch, never a forecast. Twenty written, ten survived the cull (two per sentence), the specimen seeded as the eleventh, shuffled (seed 1109). Entries in `HOOK-ROOM-11-R2-entries.json`, key in `HOOK-ROOM-11-r2-KEY.json`. Sources for her replies: her caption ("people buy homes every day with less money down than they expected"), voice memo 2 ("what did your lender actually quote you"), voice memo 3 (her close, used once), the Wilmington walk-away (team, VERIFIED). Cuts: any reply that forecast rates, promised a payment, or carried a credential.

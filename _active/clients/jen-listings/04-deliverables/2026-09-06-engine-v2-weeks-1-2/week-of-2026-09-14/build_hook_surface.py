@@ -3,12 +3,13 @@
   python3 build_hook_surface.py   # writes .tmp/valley-os/hook-room-11.html + HOOK-ROOM-11-KEY.json beside this file
 Cards are drawn the way the reel draws them: white Playfair over a dark wash of her two photos (kitchen, exterior), her lockup at the foot.
 """
-import base64, html, json, pathlib, random, subprocess
+import base64, html, json, pathlib, random, subprocess, sys
 
 HERE = pathlib.Path(__file__).parent
 ROOT = pathlib.Path(__file__).resolve().parents[6]
 PH = ROOT / "_active/clients/jen-listings/06-system/valley-editions/photos/jen"
-OUT = ROOT / ".tmp/valley-os/hook-room-11.html"
+TAG = sys.argv[2] if len(sys.argv) > 2 else "11"
+OUT = ROOT / f".tmp/valley-os/hook-room-{TAG}.html"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 ENTRIES = {
@@ -31,11 +32,13 @@ def thumb(name, w=540):
     dst.unlink()
     return "data:image/jpeg;base64," + b
 
+if len(sys.argv) > 1 and sys.argv[1].endswith(".json"):
+    ENTRIES = json.load(open(sys.argv[1]))
 KITCHEN, EXTERIOR = thumb("listing-04-kitchen.jpg"), thumb("listing-01-exterior.jpg")
 keys = list(ENTRIES)
 random.seed(1109)
 random.shuffle(keys)
-json.dump({"order": keys, "seed": 1109, "note": "open after tapping; entry n = order[n-1]"}, open(HERE / "HOOK-ROOM-11-KEY.json", "w"), indent=2)
+json.dump({"order": keys, "seed": 1109, "note": "open after tapping; entry n = order[n-1]"}, open(HERE / f"HOOK-ROOM-{TAG}-KEY.json", "w"), indent=2)
 
 def card(n, k):
     b1, b2 = ENTRIES[k]
@@ -70,14 +73,14 @@ p.lede{color:var(--muted);max-width:70ch;margin:.2rem 0 1.6rem}
 """
 
 body = "".join(card(i + 1, k) for i, k in enumerate(keys))
-page = f'''<title>Hook Room 11</title>
+page = f'''<title>Hook Room {TAG}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jost:wght@400;500&family=Playfair+Display&display=swap">
 <style>{CSS}</style>
 <main>
-<h1>Hook Room 11</h1>
-<p class="lede">Nine two-beat pairs for the tuesday reel, drawn the way the reel draws them. One of the nine is the approved specimen, unlabeled. Tap the pair that makes you say "damn, that's me," and name any you hate. The key opens after.</p>
+<h1>Hook Room {TAG}</h1>
+<p class="lede">{"Eleven" if len(ENTRIES) == 11 else "Nine"} two-beat pairs for the tuesday reel, drawn the way the reel draws them. One of the nine is the approved specimen, unlabeled. Tap the pair that makes you say "damn, that's me," and name any you hate. The key opens after.</p>
 <div class="grid">{body}</div>
-<p class="foot">Beat 1 sits over her Bothwell kitchen, beat 2 over her Bothwell exterior, exactly as the render will. The caption under every pair is the same: three real Tarzana houses read on Redfin Sept 9, her "meeting in the middle" line once, a share ask, the number door.</p>
+<p class="foot">Beat 1 is the buyer's own sentence; beat 2 is her reply. Photos are stand-ins for the surface; the render picks her photo per pair. The caption is written after your tap.</p>
 </main>'''
 OUT.write_text(page)
 print(OUT, len(page) // 1024, "KB; order written to HOOK-ROOM-11-KEY.json")
