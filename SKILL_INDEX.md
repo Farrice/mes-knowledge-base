@@ -161,7 +161,7 @@
 | `jake-thornhill-interest-stacking` | **jake-thornhill-interest-stacking** | interest stacking mastery | 0 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
-| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 38 | 26 |
+| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 39 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jay-sun-films-video-craft` | **jay-sun-films-video-craft** | deployable now for shoot sheets and edit direction, interview gaps listed for full harvest, video craft (observed) | 0 | 0 |
 | `jen-engine` | **jen-engine** | real estate content production (la / sfv), wires demand research, video planning | 1 | 0 |
