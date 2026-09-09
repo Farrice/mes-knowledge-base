@@ -1,6 +1,6 @@
 # Direction 1 Performance Evidence Journal
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: sep 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: sep 9, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: shipped — a deliverable was finalized. In the last 14 days: 2 deliverables finalized.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 9d ago.
 
 Next: Resume the `visual-workflow` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (visual-workflow)._
 
 ## the state, as the last session left it
-Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -26,7 +26,7 @@ Do not rebuild:
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+1. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Direction 1 Performance Evidence Journal: Alpine Bio owns scientific blueprint structure; Operate contributes a bounded ledger grid; Integrated Biosciences contributes mono evidence labels. Preserve Premium Minimal canvas, Helvetica Neue, open space, proof boundaries, and dark recommendation; add no new brand palette. Direction 2 Peak State Cinema: 21 TSI owns motion-blurred human photography and dark full-bleed composition; WHOOP contributes precision readouts; SAPGOODENERGY contributes CTA-only orange. Direction 3 Private Performance House: Oura owns linen, brushed-metal imagery, and warm materiality; Function contributes organic lab trust; A Better Lou contributes amber-only interaction and mature portraiture. Verdict: choose Direction 1 as a vertical Health Performance mode inside Premium Minimal, because the brand sells edited judgment and inspectable proof to established health and performance marketers. Do not create a parallel brand system. Directions 2 and 3 require deliberate rebrands and risk category sameness.
@@ -66,7 +66,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **9 d**
 
 ## lifecycle
 
@@ -85,7 +85,7 @@ Five searches; 30+ previews; nine full Refero systems; canonical Premium Minimal
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 18 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

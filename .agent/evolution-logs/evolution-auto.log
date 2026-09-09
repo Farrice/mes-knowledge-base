@@ -4353,3 +4353,216 @@
     }
   ]
 }
+{
+  "run_at": "2026-09-09T07:00:05.272617",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-09-09.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "jen-santulan-listing-content": 1.47,
+            "enrico-incarnati-instagram-realestate": 1.11,
+            "design-md": 0.82,
+            "grace-andrews-media-company": 1.08,
+            "kallaway-hook-mastery": 1.08
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 36.1
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    },
+    {
+      "monthly": {
+        "cycle": "monthly",
+        "gap_analysis": {
+          "summary": {
+            "total_performance_entries": 100,
+            "total_skills": 424,
+            "used_skills": 51,
+            "dead_skills": 398,
+            "gap_log_entries": 4,
+            "analysis_date": "2026-09-09"
+          },
+          "low_performing_skills": [],
+          "dead_skills_count": 398,
+          "dead_skills_sample": [
+            "adam-enfroy-affiliate-marketing",
+            "adam-sandler-second-brain-gtm",
+            "ai-carousel-content-engine",
+            "ai-chris-lee-zero-testimonial-sales",
+            "ai-creative-studio",
+            "alen-sultanic-copywriting",
+            "alex-content-science",
+            "alex-copper-creative-strategy",
+            "alex-hormozi-business",
+            "alex-m-smith-natural-strategy",
+            "alex-myatt-creative-engine",
+            "alex-suzuki-digital-product-revenue-os",
+            "algorithmic-art",
+            "ali-abdaal-action-bias",
+            "andreessen-horowitz-new-media",
+            "andrew-dun-vibe-consulting",
+            "andrew-lane-design-systems",
+            "andrew-sean-greer-novel-craft",
+            "andrew-stanton-audience-engineering",
+            "andrew-wilkinson-ai-entrepreneurship"
+          ],
+          "weak_task_types": [],
+          "recurring_gaps": [],
+          "task_type_coverage": {
+            "Content": {
+              "count": 13,
+              "skills_used": [
+                "_active/farrice-brand/premium-minimal",
+                "fresh-voice-system",
+                "health-performance-listening",
+                "jen-engine",
+                "john-whiting-propaganda-machine",
+                "josh-sanders-linkedin-growth",
+                "maria-wendt-digital-products",
+                "skills/jen-santulan-listing-content",
+                "vendor:00-social-content",
+                "voice-os"
+              ],
+              "avg_quality": 6.9
+            },
+            "System": {
+              "count": 26,
+              "skills_used": [
+                "alyssa-stalker-agent-content-playbook",
+                "chief-of-staff-os",
+                "deep-research-os",
+                "design-md",
+                "directives",
+                "execution",
+                "extract-mastery",
+                "generate",
+                "homebase",
+                "linkedin-launch",
+                "none",
+                "scrapes-skill-systems",
+                "skills/alyssa-stalker-agent-content-playbook",
+                "system-audit",
+                "video-studio"
+              ],
+              "avg_quality": 7.5
+            },
+            "Client Work": {
+              "count": 19,
+              "skills_used": [
+                "_shared/realtor-editorial-system",
+                "alan-aragon-nutrition",
+                "jen-engine",
+                "jen-santulan-listing-content",
+                "michael-israetel-hypertrophy",
+                "skills/enrico-incarnati-instagram-realestate",
+                "skills/jen-santulan-listing-content",
+                "strength-conditioning"
+              ],
+              "avg_quality": 7.2
+            },
+            "Analysis": {
+              "count": 5,
+              "skills_used": [
+                "_active/farrice-brand/voice",
+                "alyssa-stalker-agent-content-playbook",
+                "extract-mastery",
+                "system-audit"
+              ],
+              "avg_quality": 7.0
+            },
+            "Extraction": {
+              "count": 14,
+              "skills_used": [
+                "alyssa-stalker-agent-content-playbook",
+                "benoit-vatere",
+                "cody-schneider-signal-outbound",
+                "daniel-priestley-oversubscribed",
+                "extract-mastery",
+                "growth-blueprint-os",
+                "kallaway-hook-mastery",
+                "oren-norton-world-building",
+                "oren-slop-era-creative-strategy",
+                "sean-vosler",
+                "skills/jay-sun-films-video-craft",
+                "skills/mike-sherrard-realtor-branding"
+              ],
+              "avg_quality": 7.0
+            },
+            "Strategy": {
+              "count": 13,
+              "skills_used": [
+                "daniel-priestley-oversubscribed",
+                "donald-miller-storybrand",
+                "enrico-incarnati-instagram-realestate",
+                "maria-wendt-digital-products",
+                "mark-kashef-wargame-os",
+                "offer-redteam",
+                "skills/enrico-incarnati-instagram-realestate"
+              ],
+              "avg_quality": 7.9
+            },
+            "Creative": {
+              "count": 1,
+              "skills_used": [
+                "skills/creative-direction"
+              ],
+              "avg_quality": 6.7
+            },
+            "Research": {
+              "count": 9,
+              "skills_used": [
+                "deep-research-os",
+                "listening-engine-v4.1",
+                "nba-betting-edge",
+                "sean-vosler",
+                "skills/maria-wendt",
+                "style-vault"
+              ],
+              "avg_quality": 7.3
+            }
+          },
+          "recommendations": [
+            {
+              "priority": "LOW",
+              "type": "DEAD_SKILLS",
+              "action": "398 skills have never been used. Consider auditing for relevance or archiving unused skills."
+            }
+          ]
+        },
+        "status": "ok",
+        "phase2_card": {
+          "status": "emitted",
+          "card": "card-phase2-2026-09-09.md",
+          "skill": "jen-santulan-listing-content",
+          "tier": "T2",
+          "queued_count": 2
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-09-07T07:00:06.594006",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    }
+  ]
+}

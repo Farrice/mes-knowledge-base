@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 40 assets",
-  "compiled": "sep 8, 2026",
+  "compiled": "sep 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "- Next session should do: Run Pilot P1 — a Parallax essay → VOX-style explainer end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 graphics through the taste gate, source free B-roll, mix, caption, export 3 formats, run the QA loop, deliver a publish-ready package for him to post.\n\n- Not in scope: Rebuilding any part of the studio (it is verified live). Voice cloning or TTS narration (banned by his ruling). Higgsfield anything (retired). Auto-publishing (he posts).\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 40 assets generated.\n\nHandoff status is ready. Last activity 4d ago.\n\nNext: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record"
+      "body": "- Next session should do: Run Pilot P1 — a Parallax essay → VOX-style explainer end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 graphics through the taste gate, source free B-roll, mix, caption, export 3 formats, run the QA loop, deliver a publish-ready package for him to post.\n\n- Not in scope: Rebuilding any part of the studio (it is verified live). Voice cloning or TTS narration (banned by his ruling). Higgsfield anything (retired). Auto-publishing (he posts).\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 40 assets generated.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record"
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "- Objective: Give Farrice a conversational in-house video studio so production time stops being his content bottleneck — VOX explainers, shorts, LinkedIn video at credible quality from a laptop.\n\n- What is already done:\n\n  - Source video watched with 54 frames + full MES 3.0 extraction filed; folded into the existing brad-bonanno corpus (no duplicate expert minted).\n\n  - Execution layer built and verified live: `execution/transcribe_local.py` (WhisperX local, word-level), `execution/edit_bay.py` (probe · cutlist-apply · overlay · captions-burn · audio-mix · transcode · qa-probe), `execution/video_qa.py` (seam-targeted inspect · fixlist-validate · apply-log), `execution/broll_source.py` (Pexels/Pixabay + owned-first search).\n\n  - Skill layer built: `skills/video-studio/` — SKILL.md, 6 workflows, REVIEW.md picky-editor contract, cutlist/fixlist schemas, caption-style presets, global + brand style files, graphics-taste canon.\n\n  - E2E proof at $0: 90s of real footage → transcript (310 timed words) → 6-shot cutlist → 1920×1080 render → burned captions → vertical + LinkedIn exports → qa-probe caught a genuine −17 LUFS defect → audio-mix → all six checks pass.\n\n  - Higgsfield fully retired across `creative_router.py` (people → `fal-people`, cinema → seedance-720p, virality → manual-review), craft-map, `skills/generate/SKILL.md`, and the routing memory.\n\n  - Memories written: `project_video-studio-edit-bay.md` + MEMORY.md row; `feedback_visual-tool-routing.md` updated for the retirement.\n\n  - Commits on main: `7d43c4fb6` (build) · `ea01feaa3` (close-out) · `c8f605811` (taste layer) — pushed.\n\n- What is uncertain or stale:\n\n  - HyperFrames is cloned but NOT wired (`_active/video-studio/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.\n\n  - Stock B-roll is untested — `broll_source.py` has never made a live API call (no keys yet).\n\n  - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.\n\n[…trimmed — full text in the handoff]\n\nHandoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.\n\nRisk notes:\n- Concurrent sessions: two sibling sessions edited files in this tree during the build and committed mid-work (golden rule violated). Check `git status` and the session lock before writing; a sibling also pushed between commits.\n\n- ffmpeg trap: Homebrew's ffmpeg on this Mac lacks libass — it cannot burn captions or draw text. The full static build at `tools/bin/ffmpeg` is preferred automatically by the scripts; never hardcode `/opt/homebrew/bin/ffmpeg` for filter work.\n\n- WhisperX SSL: the wrapper wires certifi itself now; if alignment-model downloads still fail, that's the cause to check first.\n\n[…trimmed — full text in the handoff]"
+      "body": "- Objective: Give Farrice a conversational in-house video studio so production time stops being his content bottleneck — VOX explainers, shorts, LinkedIn video at credible quality from a laptop.\n\n- What is already done:\n\n  - Source video watched with 54 frames + full MES 3.0 extraction filed; folded into the existing brad-bonanno corpus (no duplicate expert minted).\n\n  - Execution layer built and verified live: `execution/transcribe_local.py` (WhisperX local, word-level), `execution/edit_bay.py` (probe · cutlist-apply · overlay · captions-burn · audio-mix · transcode · qa-probe), `execution/video_qa.py` (seam-targeted inspect · fixlist-validate · apply-log), `execution/broll_source.py` (Pexels/Pixabay + owned-first search).\n\n  - Skill layer built: `skills/video-studio/` — SKILL.md, 6 workflows, REVIEW.md picky-editor contract, cutlist/fixlist schemas, caption-style presets, global + brand style files, graphics-taste canon.\n\n  - E2E proof at $0: 90s of real footage → transcript (310 timed words) → 6-shot cutlist → 1920×1080 render → burned captions → vertical + LinkedIn exports → qa-probe caught a genuine −17 LUFS defect → audio-mix → all six checks pass.\n\n  - Higgsfield fully retired across `creative_router.py` (people → `fal-people`, cinema → seedance-720p, virality → manual-review), craft-map, `skills/generate/SKILL.md`, and the routing memory.\n\n  - Memories written: `project_video-studio-edit-bay.md` + MEMORY.md row; `feedback_visual-tool-routing.md` updated for the retirement.\n\n  - Commits on main: `7d43c4fb6` (build) · `ea01feaa3` (close-out) · `c8f605811` (taste layer) — pushed.\n\n- What is uncertain or stale:\n\n  - HyperFrames is cloned but NOT wired (`_active/video-studio/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.\n\n  - Stock B-roll is untested — `broll_source.py` has never made a live API call (no keys yet).\n\n  - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.\n\n[…trimmed — full text in the handoff]\n\nHandoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.\n\nRisk notes:\n- Concurrent sessions: two sibling sessions edited files in this tree during the build and committed mid-work (golden rule violated). Check `git status` and the session lock before writing; a sibling also pushed between commits.\n\n- ffmpeg trap: Homebrew's ffmpeg on this Mac lacks libass — it cannot burn captions or draw text. The full static build at `tools/bin/ffmpeg` is preferred automatically by the scripts; never hardcode `/opt/homebrew/bin/ffmpeg` for filter work.\n\n- WhisperX SSL: the wrapper wires certifi itself now; if alignment-model downloads still fail, that's the cause to check first.\n\n[…trimmed — full text in the handoff]"
     },
     {
       "kind": "decision",
@@ -99,7 +99,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "4",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -121,8 +121,8 @@
             0,
             0,
             0,
-            0,
             40,
+            0,
             0,
             0,
             0,
@@ -213,7 +213,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 18 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"
