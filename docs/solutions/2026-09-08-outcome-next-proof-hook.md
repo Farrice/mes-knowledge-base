@@ -3,7 +3,7 @@ name: Own the outcome through the next useful proof
 problem_signature: capable executor prematurely recommends services or hands work back before checking execution access and the smallest private build
 domain: system
 date: 2026-09-08
-status: verified-in-lane
+status: installed-controlled-paths-verified
 ---
 
 # Outcome ownership hook
@@ -56,10 +56,23 @@ to the existing observation log rather than copying conversation content.
 ## Installation boundary
 
 Developed in `codex/outcome-next-proof` using the prescribed lane bootstrap.
-The shared main checkout contained unrelated tracked changes before this work.
-Only a successful guarded integration and a main-path probe establish installed
-status. Never describe a parked lane as live. See the lane's
-`.scratch/outcome-next-proof/` receipts for the actual integration result.
+The first guarded integration parked on 86 unrelated tracked changes. Farrice
+then explicitly authorized the existing preservation procedure. No foreign
+writer lock was active; an integration lock protected the operation. All 86
+files were verified byte-for-byte against recovery commit
+`5107e932f066c32de87f056ef5fe0f240030ae84`; 45 untracked entries stayed in place.
+The recovery branch is
+`worktree-main-dirty-preserve-20260908-outcome-proof-recovery`.
+
+Guarded local integration succeeded at main commit
+`018f2ff351a1ed6d6c80cec38e3c3e9d486700ae`. All 22 focused tests passed on main.
+Controlled calls through main's real adapter and real router/ledger targets
+verified prompt delivery and Stop observation of the unsupported-provider and
+omitted-build-route fixtures. The `.codex/hooks.json` registration is unchanged.
+See `.scratch/outcome-next-proof/integration.json` and preservation receipts.
+
+Installed does not mean behavioral improvement is proven: automatic delivery
+on the next ordinary user turn and actual output quality remain unobserved.
 
 ## Reuse
 
