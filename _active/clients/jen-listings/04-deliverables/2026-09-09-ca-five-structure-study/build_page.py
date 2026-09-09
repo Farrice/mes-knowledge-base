@@ -54,6 +54,11 @@ def convert(md):
         elif l.startswith("**Card "):
             title, _, rest = l.partition("**\n") if "**\n" in l else (l.strip("*"), "", "")
             m = re.match(r"\*\*(Card \d · [^*]+)\*\* \(([^)]+)\)", l)
+            if not m:
+                # section 6: a full-copy card header; the paragraphs that follow render as normal text
+                out.append(f'<h3 class="copyhead">{inline(l.strip("*"))}</h3>')
+                i += 1
+                continue
             body = lines[i + 1] if i + 1 < len(lines) else ""
             i += 1
             parts = [p.strip() for p in re.split(r"(?<=[.\"\u201d]) (?=(?:Format|Hook formula|Beat map|CTA|Jen ICP angle):)", body)]
@@ -102,6 +107,7 @@ td{vertical-align:top;padding:.7rem .7rem;border-bottom:1px solid var(--line);li
 nav{display:flex;flex-wrap:wrap;gap:.3rem 1.1rem;font-size:13px;margin:1.2rem 0 2rem;padding-bottom:1rem;border-bottom:1px solid var(--line)}
 nav a{color:var(--steel-2);text-decoration:none}
 nav a:hover,nav a:focus-visible{text-decoration:underline;outline:none}
+.copyhead{margin:2rem 0 .5rem;color:var(--steel);border-top:1px solid var(--line);padding-top:1.2rem}
 .lede{color:var(--muted);max-width:70ch;margin:0 0 .5rem}
 @media (max-width:640px){.card dl div{grid-template-columns:1fr}}
 """
