@@ -6,7 +6,7 @@ Cards are drawn the way the reel draws them: white Playfair over a dark wash of 
 import base64, html, json, pathlib, random, subprocess
 
 HERE = pathlib.Path(__file__).parent
-ROOT = pathlib.Path(__file__).resolve().parents[5]
+ROOT = pathlib.Path(__file__).resolve().parents[6]
 PH = ROOT / "_active/clients/jen-listings/06-system/valley-editions/photos/jen"
 OUT = ROOT / ".tmp/valley-os/hook-room-11.html"
 OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -26,7 +26,7 @@ ENTRIES = {
 def thumb(name, w=540):
     src = PH / name
     dst = pathlib.Path("/private/tmp/claude-501/-Users-farricecain-Google-Antigravity--claude-worktrees-sweet-chatterjee-785901/fb507082-9a9a-4eef-8f82-1d1363b9f994/scratchpad") / f"{src.stem}-{w}.jpg"
-    subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "70", "--resampleWidth", str(w), str(src), "--out", str(dst)], check=True, capture_output=True)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-vf", f"scale={w}:-1", "-q:v", "5", str(dst)], check=True, capture_output=True)
     b = base64.b64encode(dst.read_bytes()).decode()
     dst.unlink()
     return "data:image/jpeg;base64," + b
