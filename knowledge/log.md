@@ -851,3 +851,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-06 16:22]` **finalize** | Dan Koe LinkedIn source extension plus free video fallback and process audit | general | dan-koe — composite:7.0 status:Needs Improvement
 - `[2026-09-06 17:42]` **finalize** | Five real LinkedIn references, personal writing guide, and AI capability versus revenue draft | general | dan-koe — composite:7.0 status:Needs Improvement
 - `[2026-09-08 18:22]` **finalize** | Outcome ownership hook implementation and controlled delivery verification; main integration pending | strategy | system-audit — composite:6.67 status:Needs Improvement
+- `[2026-09-08 21:10]` **finalize** | Revised the rejected AI revenue post around a concrete rejection-example diagnostic | general | dan-koe — composite:7.0 status:Needs Improvement
