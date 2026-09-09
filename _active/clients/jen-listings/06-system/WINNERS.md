@@ -32,6 +32,18 @@ Recovered 2026-09-09 from the Sept 1–9 Codex sessions, the content-recovery pa
 | 10 | @kayleysimslife | static video, text contrast | 72.9K · 61× median (1.2K) · 687 followers | "Me: 'I'm not buying anything else for our first house until we get the keys.' Also me:" | pure self-recognition humor. Not surfaced. VERIFIED (search only) |
 | 11 | @melissa_dallas_realtor 704.8K/82× · @jennbeckre 536.4K/12.5× · @always__aira 474.3K/203× · @meres_mortgage 437.6K/22× | listing ad · static list · lip-sync listicle · grant explainer | as shown | "$13,000 is all you need…" · "The $160,000 Mistake…" · "9 Red Flags…" · "First Time Homebuyer Grant $15,750" | **All rejected**: "matched the medium without matching the register." VERIFIED |
 
+Rows added 2026-09-09 from the CA-five study (`04-deliverables/2026-09-09-ca-five-structure-study/STUDY.md`; numbers from VidIQ that day):
+
+| # | Creator / post | Format | Performance | Hook (verbatim) | Verdict |
+|---|---|---|---|---|---|
+| 12 | @samarnesonhome `instagram.com/reel/DbvjhP0urV-/` | photo-motion listing reel, 12 serif cards, share caption | 67.1K plays · 3.8K likes · 90 comments (posted 2026-08-07); her recent median ≈ 25–30K | "If you love the Practical Magic house…" → price and place on card 2 | Taste-callout grammar: the reader's taste opens, the house is evidence, the ask is a share. Card 1 of the study. Caption from the reels-tab excerpt, not the watch. VERIFIED |
+| 13 | @samarnesonhome `instagram.com/reel/DcObmvMuI60/` | one serif card for the whole reel | 28.8K · 2.2K · 53 (2026-08-19) | "10/10 would take a midcentury over a modern farmhouse >" | First-person opinion, house as evidence, lowercase. Card 2 of the study; the closest grammar to Jen's register after the specimen. VERIFIED |
+| 14 | @tyler.therealtor `instagram.com/reel/Dc9RDDovDdm/` | talking head + one question card | 43.1K · 2K · 115 (2026-09-06) | "Why have you never seen a lake in Toluca Lake?" | The question-you've-driven-past grammar on a Valley place. Only the on-screen question transfers; talking head is banned for Jen. VERIFIED (watched) |
+| 15 | @takesunset `instagram.com/reel/Dad0UxxzLns/` | one card, no CTA | 237.8K · 27.2K · 114 (2026-07-06) ≈ 9× her recent median | "A 1974 Atrium" on screen; caption opens on a wish (bring back entryways like this) | The wish in first person is what travels; the found-space format does not. Evidence for rule 7, not a template. VERIFIED |
+| 16 | @takesunset `instagram.com/reel/DcUVpSFhjnD/` | one POV card over a backyard; open house in the caption | 16K · 12 comments (2026-08-21) | "POV your house is the hang out spot" | Convert grammar: the life the house makes possible, then the address and the showing. Card 5 of the study. VERIFIED (watched) |
+
+Rejected in the same study: @takesunset SOLD reel `DZ7tnaOuyMa` (13.2K, half median; proof packaged as gratitude + credits, but property-first) · @robertbearcedeno pinned `C6STW0KJEXa` (115.2K from a drone over a new build; stacked-door funnel caption) · @tyler.therealtor lore reels (`DcjfedJBwxi` 60.7K, no buyer decision inside).
+
 Two same-creator experiments to remember: Nate Soetaert first-meal post 85,143 plays vs house-poor warning 2,169 (39×, same creator, same day). Trips Mortgage worked-example post 12,186 plays / 229 likes / 23 comments vs broad reassurance 3,594 / 96 / 3, and the lower-reach post had the higher like rate (26.7 vs 18.8 per 1,000). **Reach and resonance are different axes.**
 
 ## 4. Jen's own outliers (`04-deliverables/jen-outlier-audit.md`, 2026-09-02, public data)
@@ -71,7 +83,9 @@ Audit hypothesis: "This account moves when the hook is Jen's life or a feeling h
 - Source ledger: 239 records, 136 search-only, 64 profile-only, 24 video-analysis-reviewed, 3 with full captions read.
 - Zero conversion or lead evidence for Jen or any reference. Her saves/reach need her Insights export.
 - Jen has not confirmed the who-clause; the audit's 30-day test never ran.
-- VidIQ credits last seen: 1,689 (20 of an approved 30 spent). Not standing permission.
+- VidIQ credits last seen: 1,607 on 2026-09-09 after the CA-five study (approved cap 100; 5 reels-tab calls + 7 watches). Not standing permission.
+- CA-five study 2026-09-09: reels tabs pulled for @takesunset, @tyler.therealtor, @robertbearcedeno, @samarnesonhome (raw in `2026-09-09-ca-five-structure-study/raw-vidiq-2026-09-09.md`); @selenehanna returned zero reels. Watched: DbvjhP0urV-, DcObmvMuI60, Dc9RDDovDdm, DcwYx6mv8Q0, Dad0UxxzLns, DcUVpSFhjnD, DZ7tnaOuyMa. Do not re-spend on these. The other fifteen roster handles were not pulled.
+- What every winning on-screen line here has in common: a feeling, a wish, an opinion, or a question in first person. None is an instruction (post 11's failure, 2026-09-09).
 
 ## 7. File index
 
