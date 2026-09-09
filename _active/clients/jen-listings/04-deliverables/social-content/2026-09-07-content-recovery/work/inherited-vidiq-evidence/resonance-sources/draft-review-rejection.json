@@ -1,0 +1,7 @@
+{
+  "status": "blocked-before-execution",
+  "call": "vidiq_watch_shortform_content with unpublished Jen draft text",
+  "reason": "Automatic approval review required specific authorization for exporting unpublished sensitive client drafts.",
+  "response": "Do not retry or send drafts through another path. Main thread completed editorial revision locally.",
+  "listed_charge": 0
+}

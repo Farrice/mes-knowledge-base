@@ -1,0 +1,45 @@
+[
+  {
+    "creator": "terra.wrightknudsen",
+    "url": "https://www.instagram.com/reel/DC7A7aWv9Nl/",
+    "access": "Complete caption read directly from Instagram rendered UI, IAB tab 5; watch tool had no caption.",
+    "excerpt": "Living on an island (while working in the city and travelling regularly) seemed BANANAS",
+    "summary": "Her husband proposed Bainbridge Island ten years earlier; she initially laughed. She describes slower pace, community, living partly by the ferry schedule and learning from active older neighbors. The caption admits a real practical inconvenience before describing the benefits. It also contains a longest-lifespan claim that we did not verify and will not import.",
+    "decision": "Use desired life versus recurring tradeoff. Do not invent Jen's residence history, peer demographic claims or the source's health superlative.",
+    "snapshot": {
+      "plays_vidiq": 556869,
+      "likes_browser": 3137,
+      "comments_browser": 77,
+      "reposts_browser": 1
+    }
+  },
+  {
+    "creator": "iamstacierihl",
+    "url": "https://www.instagram.com/reel/Dadpa0OhHAU/",
+    "access": "Complete caption read directly from Instagram rendered UI, IAB tab 6; watch tool had no caption.",
+    "excerpt": "What you’re pre-approved for is usually WAY more than you can actually afford.",
+    "summary": "Caption gives 28/36 budgeting percentages, a suggested twenty-point credit adjustment, lower-partner-score framing, and a free class CTA. It addresses approval versus comfort but uses suspicion about banks and oversimplifies underwriting.",
+    "decision": "Keep the actual-payment concern. Reject hidden-bank rhetoric, universal ratios and arbitrary credit adjustment. Use CFPB complete-budget guidance instead.",
+    "snapshot": {
+      "search_views": 506500,
+      "search_median_multiple": 18.4,
+      "likes_browser": 1176,
+      "comments_browser": 118,
+      "reposts_browser": 7
+    }
+  },
+  {
+    "creator": "karime215",
+    "url": "https://www.instagram.com/reel/DcwRrZ6NZJI/",
+    "access": "Complete caption appeared in rendered Instagram recommendations on tab 5; exact post matched by subsequent VidIQ profile shortcode/caption. Watch then received this caption explicitly as supplied context.",
+    "excerpt": "It’s your money, your monthly payment, your home… not mine.",
+    "summary": "She welcomes questions buyers might feel embarrassed to repeat, invites asking for terms to be explained, and puts the decision's ownership with the buyer. She would rather answer many questions than have a buyer stay quiet because they think they ought to know.",
+    "decision": "Use dignity and permission as the product. Jen can help the cautious partner speak without being cast as the obstacle. No copied story, pet-name voice or exact source phrasing.",
+    "snapshot": {
+      "plays_vidiq": 39547,
+      "likes_browser": 1298,
+      "comments_browser": 29,
+      "reposts_browser": 65
+    }
+  }
+]

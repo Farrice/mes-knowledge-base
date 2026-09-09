@@ -1,0 +1,18 @@
+{
+  "key": "26-watch-jen-affordability",
+  "url": "https://www.instagram.com/reel/Db33yOnS6ig/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_58b0d164-b267-4545-8d7a-de0708f30a51\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_58b0d164-b267-4545-8d7a-de0708f30a51\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_58b0d164-b267-4545-8d7a-de0708f30a51",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_58b0d164-b267-4545-8d7a-de0708f30a51\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

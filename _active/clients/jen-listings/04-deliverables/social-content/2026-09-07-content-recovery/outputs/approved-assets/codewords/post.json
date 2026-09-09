@@ -1,0 +1,254 @@
+{
+  "id": "V01",
+  "assets": {
+    "street.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/street.jpg",
+    "listing-02-living.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-02-living.jpg",
+    "coffee.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/coffee.jpg",
+    "101.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/101.jpg",
+    "street2.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/street2.jpg",
+    "listing-01-exterior.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-01-exterior.jpg",
+    "house.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/house.jpg",
+    "listing-04-kitchen.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-04-kitchen.jpg",
+    "kitchen.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/kitchen.jpg",
+    "jen-headshot-studio.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/jen-headshot-studio.jpg"
+  },
+  "slides": [
+    {
+      "photos": [
+        {
+          "name": "listing-01-exterior.jpg",
+          "y": 0,
+          "h": 440,
+          "wash": 0.33,
+          "pos": "center"
+        },
+        {
+          "name": "kitchen.jpg",
+          "y": 440,
+          "h": 480,
+          "wash": 0.47,
+          "pos": "center"
+        },
+        {
+          "name": "street2.jpg",
+          "y": 920,
+          "h": 430,
+          "wash": 0.35,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "realtor code words.",
+          "y": 235,
+          "size": 72,
+          "x": 45,
+          "w": 990,
+          "cls": "serif center"
+        },
+        {
+          "s": "the Valley edition",
+          "y": 477,
+          "size": 101,
+          "x": 45,
+          "w": 990,
+          "cls": "script center"
+        },
+        {
+          "s": "what the listing<br>actually means.",
+          "y": 630,
+          "size": 99,
+          "x": 45,
+          "w": 990,
+          "cls": "serif center"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "listing-02-living.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "“cozy” isn’t<br>a measurement.",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "bring the tape measure.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "Check the room dimensions<br>before you plan the furniture.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "kitchen.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "“original<br>condition.”",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "original what?",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "Ask when the roof, plumbing<br>and electrical were last updated.<br>The kitchen is only one part.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "101.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "“close to<br>the 101.”",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "listen for yourself.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "Stand outside. Then inside.<br>Windows open, windows closed.<br>Does it work for you?",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "coffee.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "“great<br>potential.”",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "price the project.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "What work does it need?<br>Get a qualified estimate before<br>you plan the renovation.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "listing-04-kitchen.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "save this before<br>your next tour.",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "read between the lines.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "comment DECODE for the full<br>listing translator + the questions<br>to take with you.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    }
+  ],
+  "caption": "“cozy.” “original condition.” “great potential.”\n\nthe listing gives you the adjectives. you still need the answers.\n\ncozy? check the room dimensions.\noriginal condition? ask about the roof, plumbing and electrical—not just the kitchen.\nclose to the 101? listen from inside and outside.\ngreat potential? find out what the work actually costs.\n\nnone of those phrases automatically makes it a bad house. they tell us what to look at more closely.\n\nsave this for your next tour. comment DECODE and i’ll send you the full listing translator, with the questions to ask beside each phrase.\n\nJennifer Santulan · Equity Union · DRE #01914509\n#SanFernandoValleyRealEstate #FirstTimeHomeBuyer #ValleyRealtor"
+}

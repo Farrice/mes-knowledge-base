@@ -1,0 +1,13 @@
+[
+  {
+    "key": "trips-higher",
+    "response": {
+      "mcpJobId": "job_788f4288-9b5b-448d-b0e5-00a98722f384",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_788f4288-9b5b-448d-b0e5-00a98722f384\" to check progress and retrieve the result."
+    }
+  },
+  {
+    "key": "trips-lower"
+  }
+]

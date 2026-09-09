@@ -1,0 +1,29 @@
+{
+  "original_sources": 228,
+  "normalized_sources": 239,
+  "original_review_counts": {
+    "SEARCH_ONLY": 136,
+    "VIDEO_ANALYSIS_REVIEWED": 24,
+    "VIDEO_UNAVAILABLE_REFUNDED": 1,
+    "PROFILE_ONLY": 64,
+    "COMMENTS_COLLECTED": 3
+  },
+  "language_records": 158,
+  "language_platforms": {
+    "YouTube": 131,
+    "Instagram": 27
+  },
+  "language_triage": {
+    "Cash upfront / financing comparison": 15,
+    "Ongoing cost / financial comfort": 18,
+    "Other / contextual / unclassified": 92,
+    "Distrust / hidden downside": 7,
+    "Needs explanation": 2,
+    "CTA response or short reaction": 24
+  },
+  "radar_rows": 68,
+  "top50": 50,
+  "paid_credits_used": 0,
+  "owned_snapshot_rows": 12,
+  "private_outcomes_supplied": 0
+}

@@ -1,0 +1,18 @@
+{
+  "key": "20-watch-kina",
+  "url": "https://www.instagram.com/reel/DaeISNIvf3s/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_eae75225-006a-4406-b90c-4f3b0888118c\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_eae75225-006a-4406-b90c-4f3b0888118c\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_eae75225-006a-4406-b90c-4f3b0888118c",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_eae75225-006a-4406-b90c-4f3b0888118c\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

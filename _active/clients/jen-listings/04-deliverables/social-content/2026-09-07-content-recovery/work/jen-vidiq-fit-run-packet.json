@@ -1,0 +1,210 @@
+{
+  "schema_version": "raw-intent-run-packet/v1",
+  "raw_intent": "This isn't bad, but I'm not also blown away or like, \"Yes, we nailed it like the other one!\" I can see it. I think there'll be some pushback from Jen on the relevance of this and the delivery. Is this actually something that would resonate with her ICP and first-time homebuyers in the San Fernando Valley? I see where you reference and grab this from, but then again, when I talked about the references, is there a reason why you keep ignoring the VidIQ MCP and not leveraging that? I think it has better data and going straight to Instagram.\n\nUnless you're able to quickly do what you've been doing in the references that you're grabbing from, I think it might not be what I'm aiming for when it comes to real estate: finding proven real estate winners and being able to translate them and deploy them for ourselves. Again, we keep running into this issue where I don't know how to prompt you, and it feels like a lot of the core things that I've built to help with this (our global settings and steering and all that) are just not even helping me right now. I feel like I'm on an island trying to figure this out and dealing with something that's too smart for me to understand, communicate with, and get the result that I want.",
+  "mode": "auto",
+  "predicted_need": "Route the request through /steering-compass with enough intent clarity to act safely.",
+  "center": "The /steering-compass outcome, with proof and handoff included.",
+  "success_standard": "/steering-compass produces the requested artifact or action and verifies it.",
+  "constraints": [
+    "Stop before external, paid, destructive, global, public, connector-write, or real-subagent action."
+  ],
+  "missing_inputs": [],
+  "questions_that_change_execution": [],
+  "container_decision": {
+    "move": "continue",
+    "destination": "current-task",
+    "reason": "Preparation can continue safely, but the next state-changing action crosses an approval boundary."
+  },
+  "capability_move": {
+    "visible": true,
+    "recommendation": "Prepare the publish or send action, then request approval.",
+    "action": "Complete the local draft/checklist and stop before the external action."
+  },
+  "why_now": "The work is ready to approach an external state change.",
+  "approval_boundary": "Explicit approval is required before publish, send, outreach, connector write, paid, destructive, or global action.",
+  "auto_task_creation": false,
+  "chosen_route": "steering-compass",
+  "route_owner": "Steering Compass",
+  "support_gates": [
+    "orchestrate",
+    "routing-intelligence",
+    "knowledge-librarian",
+    "autopilot",
+    "end-session",
+    "source-to-skill-system",
+    "skill-anneal",
+    "creative-quality-audit-system",
+    "ground-truth",
+    "design-to-code-execution"
+  ],
+  "composition_slots": [
+    {
+      "slot": "Spine",
+      "asset": "Steering Compass",
+      "job": "Own the final outcome through /steering-compass.",
+      "evidence": "primary_route=/steering-compass"
+    },
+    {
+      "slot": "Differentiator",
+      "asset": "enrico-incarnati + luke-iha",
+      "job": "Add the non-obvious compound advantage only if it changes the output.",
+      "evidence": "execution/expert_router.py COMPOUNDS"
+    },
+    {
+      "slot": "Mechanism",
+      "asset": "/autopilot",
+      "job": "Operationalize the route through the strongest support gate.",
+      "evidence": "/autopilot, /end-session, /source-to-skill-system, /skill-anneal, /creative-quality-audit-system, /ground-truth, /design-to-code-execution"
+    },
+    {
+      "slot": "Craft",
+      "asset": "owner integration pass",
+      "job": "Make the final output read or behave as one system, not stitched parts.",
+      "evidence": "Expert Composition Contract: one owner, bounded specialists, integration pass"
+    },
+    {
+      "slot": "Risk Gate",
+      "asset": "python3 execution/verify_autopilot_routing.py",
+      "job": "Catch broken trust, weak claims, overclaiming, or regression before closeout.",
+      "evidence": "python3 execution/verify_autopilot_routing.py, python3 execution/codex_harness_check.py"
+    }
+  ],
+  "context_plan": {
+    "hot": [
+      "execution/raw_intent_run_packet.py",
+      "semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md",
+      "execution/co_creative_launchpad.py",
+      "execution/virtuoso_orchestration.py",
+      ".agent/workflows/autopilot.md"
+    ],
+    "on_demand": [
+      ".agent/workflows/source-to-skill-system.md",
+      ".agents/skills/source-command-virtuoso/SKILL.md",
+      "execution/routing_governor.py",
+      "execution/workflow_router.py",
+      "execution/plugin_readiness_audit.py"
+    ],
+    "cold": [
+      "full migrated command library",
+      "plugin marketplace files",
+      "global ~/.codex mirrors"
+    ],
+    "skip": [
+      "external writes",
+      "plugin marketplace edits",
+      "global ~/.codex writes during normal packet runs",
+      "real Codex subagents",
+      "destructive cleanup"
+    ],
+    "mode": "auto",
+    "handoff": "Use /steering-compass with the packet fields; load only the support gate needed for the next step."
+  },
+  "execution_decision": {
+    "status": "Blocked by risk",
+    "first_action": "Blocked by risk gate before execution.",
+    "approval_needed": "Approve the named risk gate before execution: paid/budget, global/external-workspace",
+    "risk_reasons": [
+      "paid/budget",
+      "global/external-workspace"
+    ],
+    "safe_to_run": false
+  },
+  "first_safe_action": "/steering-compass This isn't bad, but I'm not also blown away or like, \"Yes, we nailed it like the other one!\" I can see it. I think there'll be some pushback from Jen on the relevance of this and the delivery. Is this actually something that would resonate with her ICP and first-time homebuyers in the San Fernando Valley? I see where you reference and grab this from, but then again, when I talked about the references, is there a reason why you keep ignoring the VidIQ MCP and not leveraging that? I think it has better data and going straight to Instagram.\n\nUnless you're able to quickly do what you've been doing in the references that you're grabbing from, I think it might not be what I'm aiming for when it comes to real estate: finding proven real estate winners and being able to translate them and deploy them for ourselves. Again, we keep running into this issue where I don't know how to prompt you, and it feels like a lot of the core things that I've built to help with this (our global settings and steering and all that) are just not even helping me right now. I feel like I'm on an island trying to figure this out and dealing with something that's too smart for me to understand, communicate with, and get the result that I want.",
+  "verification_plan": [
+    "python3 execution/verify_raw_intent_global_skill.py",
+    "python3 execution/verify_raw_intent_bridge_command.py",
+    "python3 execution/verify_raw_intent_run_packet.py",
+    "python3 execution/routing_governor.py evaluate \"raw intent virtuoso bridge steering-compass\"",
+    "python3 execution/verify_autopilot_runtime_preflight.py",
+    "python3 execution/verify_virtuoso_orchestration.py",
+    "python3 execution/verify_google_operator_core.py",
+    "python3 execution/verify_autopilot_routing.py",
+    "python3 execution/codex_harness_check.py",
+    "python3 execution/plugin_readiness_audit.py --stdout autopilot mission orchestrate"
+  ],
+  "operator_run_prompt": "/steering-compass This isn't bad, but I'm not also blown away or like, \"Yes, we nailed it like the other one!\" I can see it. I think there'll be some pushback from Jen on the relevance of this and the delivery. Is this actually something that would resonate with her ICP and first-time homebuyers in the San Fernando Valley? I see where you reference and grab this from, but then again, when I talked about the references, is there a reason why you keep ignoring the VidIQ MCP and not leveraging that? I think it has better data and going straight to Instagram.\n\nUnless you're able to quickly do what you've been doing in the references that you're grabbing from, I think it might not be what I'm aiming for when it comes to real estate: finding proven real estate winners and being able to translate them and deploy them for ourselves. Again, we keep running into this issue where I don't know how to prompt you, and it feels like a lot of the core things that I've built to help with this (our global settings and steering and all that) are just not even helping me right now. I feel like I'm on an island trying to figure this out and dealing with something that's too smart for me to understand, communicate with, and get the result that I want.",
+  "mission_card": {
+    "serves": "health-rebuild",
+    "note": "target match: from, keep, issue",
+    "tier": "T1 auto"
+  },
+  "plugin_packaging_verdict": {
+    "status": "deferred",
+    "target": "antigravity-operator-core",
+    "reason": "Package only after local cold-start proof passes for revenue, creative, system, and regression fixtures.",
+    "next_check": "python3 execution/plugin_readiness_audit.py --stdout autopilot mission orchestrate",
+    "v1_boundary": "No plugin marketplace edits, no new plugin, and no unapproved global ~/.codex writes."
+  },
+  "global_access_trace": {
+    "matched": false,
+    "route": "",
+    "lane": "",
+    "stage": "",
+    "support_gates": [],
+    "reason": "",
+    "evidence": [],
+    "confidence": 0
+  },
+  "virtuoso_trace": {
+    "primary_route": "steering-compass",
+    "owner": "Steering Compass",
+    "meta_intent": "steering-compass",
+    "support_gates": [
+      "autopilot",
+      "end-session",
+      "source-to-skill-system",
+      "skill-anneal",
+      "creative-quality-audit-system",
+      "ground-truth",
+      "design-to-code-execution"
+    ],
+    "recommended_stack": {
+      "query": "This isn't bad, but I'm not also blown away or like, \"Yes, we nailed it like the other one!\" I can see it. I think there'll be some pushback from Jen on the relevance of this and the delivery. Is this actually something that would resonate with her ICP and first-time homebuyers in the San Fernando Valley? I see where you reference and grab this from, but then again, when I talked about the references, is there a reason why you keep ignoring the VidIQ MCP and not leveraging that? I think it has better data and going straight to Instagram.\n\nUnless you're able to quickly do what you've been doing in the references that you're grabbing from, I think it might not be what I'm aiming for when it comes to real estate: finding proven real estate winners and being able to translate them and deploy them for ourselves. Again, we keep running into this issue where I don't know how to prompt you, and it feels like a lot of the core things that I've built to help with this (our global settings and steering and all that) are just not even helping me right now. I feel like I'm on an island trying to figure this out and dealing with something that's too smart for me to understand, communicate with, and get the result that I want.",
+      "recommended_stack": "enrico-incarnati + luke-iha",
+      "recommendation": "enrico-incarnati + luke-iha",
+      "stack": [
+        "enrico-incarnati",
+        "luke-iha"
+      ],
+      "compound_effect": "Proof-stacked real estate — strategy + proof engineering for leads",
+      "effect": "Proof-stacked real estate — strategy + proof engineering for leads",
+      "evidence_source": "execution/expert_router.py COMPOUNDS",
+      "trigger_match": "real estate conversion",
+      "confidence": "medium",
+      "skip_reason": "",
+      "policy": "Stack is surfaced as support evidence only; primary routing still decides the workflow."
+    },
+    "execution_decision": {
+      "status": "Blocked by risk",
+      "first_action": "Blocked by risk gate before execution.",
+      "approval_needed": "Approve the named risk gate before execution: paid/budget, global/external-workspace",
+      "risk_reasons": [
+        "paid/budget",
+        "global/external-workspace"
+      ],
+      "safe_to_run": false
+    }
+  },
+  "current_workspace_execution": {
+    "center": "Recover source-led Jen writing for first-time SFV buyers, then transfer the complete project to Google Antigravity as requested.",
+    "owner": "Main assistant: bounded source-selection audit and creative judgment",
+    "preservation": "Exact approved jen-asking-again.md; do not use failed candidates as seeds.",
+    "budget": {
+      "approved_credits_max": 30,
+      "approval": "Explicit user reply: Approve up to 30 credits",
+      "search_calls_completed": 3,
+      "profile_calls_completed": 1,
+      "credits_expected_used": 20
+    },
+    "first_safe_action_completed": "Verified VidIQ availability, corrected active candidate status, inspected existing evidence, ran source discovery and read the closest real-estate caption.",
+    "next_action": "Preserve search evidence and source-selection verdict; migrate the project with verified copies into a dedicated current Google Antigravity worktree.",
+    "constraints": [
+      "No new studio or skill",
+      "No publishing or outreach",
+      "No subagents",
+      "Do not attribute draft failures to workspace location without evidence",
+      "Do not overwrite unrelated Google Antigravity changes"
+    ],
+    "compiler_scope_note": "Compiler route suggestions and mission metadata are advisory. No mission was logged; no global harness repair is authorized or executed."
+  }
+}

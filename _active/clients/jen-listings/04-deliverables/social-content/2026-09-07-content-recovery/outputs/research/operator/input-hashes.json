@@ -1,0 +1,122 @@
+[
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/sources.json",
+    "sha256": "cef2b1003ba47d5569a523fec0d069c689a367be07c11aa28da48a67498c925a"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/audience-comments.json",
+    "sha256": "a35ebf47301dd084e63a5032928a9eae41e0acf5313b14f12b481b6f51bc657a"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/BENCHMARKS.json",
+    "sha256": "8cf69b88863f70bbcc1ceb6dd0fbed337744ea4d1405dd49e7e1b4942e654952"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/broll-resonance-pass/evidence/vidiq-research.json",
+    "sha256": "c95c42d5e73de27a345625349abbb42e7a84957c585f87602eaeb593cccaa81b"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/broll-resonance-pass/evidence/full-caption-reading-notes.json",
+    "sha256": "cd0c4fdfe27868b18c36bb6554d2a8040045641d9b3e3200bc3eb83d42a0183d"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/sources/vidiq-social-listening.md",
+    "sha256": "50ffbcf0b858a96ba56caad0abfa797232e7d0cf484b280ac2f477234afe57c6"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/sources/vidiq-playbook-v1.md",
+    "sha256": "4e03a194f8192c2fee54954ff02e6e4edd89d709c44fc904a01e9a28d6a7fb64"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/sources/vidiq-vault-v2.md",
+    "sha256": "b66b736b2f2b9527dce38a3f80aadb8accb34ce5147a8c6c57098e7c3f3c9ad7"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/sources/vidiq-system-v3.md",
+    "sha256": "3c8135f8b9bc07937355be3fae406d15e0d24ebee36a78491635d659e5c54a90"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/brand_context/CREATIVE-DIRECTION.md",
+    "sha256": "e01854ec24141f27447024cc48d68d8c59701dd7c96357abcb9a46066b4a1871"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/skills/jen-santulan-listing-content/references/jen-real-voice-profile.md",
+    "sha256": "3a6850a2bcec42d21cf549694f61bdee1ca138b32ebaa18e3fa219b4fb1b8c24"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/06-system/content-intelligence/Jen First-Time Buyer ICP Options.md",
+    "sha256": "be40b9d48ed2a9202cfc560d585e08ab1a7ff03c1cb648774c8f5814bb1091fe"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/06-system/content-intelligence/Jen First-Time Buyer ICP Source Ledger.md",
+    "sha256": "e965d393f19d7154ed89130769c84cc79c3730f27b6a16ffadd7b754281149af"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/broll-rachael.json",
+    "sha256": "b98103213d6d553b42fbe72514623ec27347f8f6549f086266defe79761c8438"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/broll-nate.json",
+    "sha256": "d1e5e194ade31e27cb157f04dd778f2ae5d75afa7a06241aa07b6862b77ea3a9"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/yap-logan.json",
+    "sha256": "aafb6f2705c9a204eaaeab0a82deb2b55152f5677d4c37b8b58b2250d7974c75"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/yap-trips.json",
+    "sha256": "8bc8408cf386e6e031e97f935893bf242b8938bf2216fdf00ed41d21492a112b"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/profile-natesoetaert.realestate.json",
+    "sha256": "afc050a2cfff0c09bc2ea5bd6ce5eb53020f21c06f6fc9a1e3a433dabdb8469d"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/nate-strong.json",
+    "sha256": "dddc2e3bb5c01a9135efe34a0f4e39f00199544e89fa695cc400f67fba48dafb"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/nate-weaker.json",
+    "sha256": "f6e60abc88c4271e7f19ab4a58cc1ea3e46354215e41b8ee10c2181fe9e8a3cc"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/search-3.json",
+    "sha256": "84c94a80cfe7350039bc8bf8edea1a3c0505fa753b75fa19b591417c8d1a016e"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/talk-control-retry.json",
+    "sha256": "74384f9977d0dcca83814e6b55359708f9a894cf0d4835c2683616e06ec8908b"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/profile-tripsmortgagetips.json",
+    "sha256": "127fb418e87c7025ab98d0d78eb55f25eb43f7e0c09543088d64ba5eb2aa10ac"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/trips-lower.json",
+    "sha256": "2f964c4025e146b5e7b8e0df271feb159d24aa8b14d5dd50ee1d1aa84ddc5123"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/controls-submits.json",
+    "sha256": "80913c91f2944a0ec95c59be8a72cbd4926b372527f56d296112342f1cfa0b96"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/searches-1-2.json",
+    "sha256": "7ca5db453102145dbe22547b594b574cb66a54192d74e6e215697e5ea7398bb6"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/watch-submissions.json",
+    "sha256": "490760d8658eb5440110ac19113721c6d8e849ca69fb09c804c01e1c5cb0b1e3"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/talk-controls-submits.json",
+    "sha256": "cf572592b69ec321628498e8e788c881cc2aedc606bce8d4da77c87e7c91c379"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/trips-higher.json",
+    "sha256": "577533b5954d1d53519832b05988fb9d56fd1374ff12b7c8aa8e28c5384431c1"
+  },
+  {
+    "path": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/reel-format-lab/evidence/profile-rachaelnovak.json",
+    "sha256": "d450c0fd85d21612b44430d634c16b61f2f26ca51288baac635a1163f9c76e03"
+  }
+]

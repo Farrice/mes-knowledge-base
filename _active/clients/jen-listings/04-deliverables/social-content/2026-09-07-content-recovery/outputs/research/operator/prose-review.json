@@ -1,0 +1,72 @@
+[
+  {
+    "file": "01-positioning-dossier.md",
+    "raw_verdict": "FLAGGED",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 11 parallel blocks found",
+      "[1.5] aphoristic_endings \u2014 [voice](</Users/farricecain/.codex/workt, [language](</Users/farricecain/.codex/wo, [Document 2](</Users/farricecain/.codex/",
+      "[3.0] structural_emoji \u2014 lways a catch \ud83d\ude02, ## Pain \u2192 useful content \u2192 ser"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "02-audience-bullseye.md",
+    "raw_verdict": "FLAGGED",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 14 parallel blocks found",
+      "[2.0] internal_anaphora \u2014 'tests' x3"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "03-positioning-opportunity-map.md",
+    "raw_verdict": "WARNING",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 18 parallel blocks found"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "04-ai-topic-mining-report.md",
+    "raw_verdict": "WARNING",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 55 parallel blocks found"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "05-hook-and-messaging-library.md",
+    "raw_verdict": "WARNING",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 14 parallel blocks found",
+      "[1.5] town_crier_register \u2014 HOW MUCH DO YOU NEED TO MAKE TO AFFORD"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "06-format-playbook.md",
+    "raw_verdict": "FLAGGED",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 11 parallel blocks found",
+      "[3.0] structural_emoji \u2014 **Best for:** T02, T05, T09, T, **Best for:** T03, T06, T13 an, **Best for:** T01 and a truthf"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "07-creative-brief-bank.md",
+    "raw_verdict": "FLAGGED",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 4 parallel blocks found",
+      "[3.0] aphoristic_endings \u2014 No invented repair estimate., [regret](https://www.reddit.com/r/LosAng, [@logan_the_lender reference](https://ww"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  },
+  {
+    "file": "08-content-blueprint.md",
+    "raw_verdict": "WARNING",
+    "flags": [
+      "[2.0] parallel_structure_overuse \u2014 20 parallel blocks found"
+    ],
+    "editorial_disposition": "Reviewed: structured research tables, exact source quotations and citation lines account for detected patterns; preserve evidence and scanability. These are research briefs, not approved social copy."
+  }
+]

@@ -1,0 +1,9 @@
+brand: jen
+platform: instagram
+scenario: A
+status: draft
+format: carousel
+render_path: brand-renderer
+slides: 6
+stories: 3
+publish: false

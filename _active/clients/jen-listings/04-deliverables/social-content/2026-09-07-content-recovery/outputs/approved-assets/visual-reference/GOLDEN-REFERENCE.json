@@ -1,0 +1,59 @@
+{
+  "status": "human_approved_aesthetic_10_of_10",
+  "user": "Farrice",
+  "feedback": "I need us to capture this and know that this is probably the closest to perfect we've gotten. This is definitely 10 out of 10! It's really good. There are just a few minor things that we need to change when it comes to the legibility of the font that's in the cursive. It's hard to read and kind of blends too much. Maybe the composition on a few other things, but overall, it's the closest we've ever gotten",
+  "original": "_active/clients/jen-listings/04-deliverables/social-content/2026-09-04/kitchen-101-lifestyle",
+  "preserve": [
+    "real scene-specific photography",
+    "three-strip cover",
+    "editorial serif and restrained script",
+    "cream and soft blue over navy photo washes",
+    "recognition before advice",
+    "specific local context",
+    "consistent Jen attribution"
+  ],
+  "targeted_changes": [
+    "script legibility",
+    "minor composition only where inspection finds a problem"
+  ],
+  "not_proven": [
+    "repeatability of audience reception",
+    "Instagram engagement",
+    "lead generation"
+  ],
+  "sha256": {
+    "build.py": "9a7686b674b3c225e6d75255fe8bf292024d298765e3921359b6dd1815af9462",
+    "caption.md": "2f0fe1eb6e1834d682773a0fa9b6aa8e1079f3311f3c4a223eafac229fae0da4",
+    "QA.json": "7a6b06fcb2fe85f3c52d0b316722629875e6199e0e029539ed485e8b0a7063cf",
+    "saved-reply.txt": "8628416e33bbc483c61bfe7884dc89fe0dc4b37a81914a1a0f07af684b404eeb",
+    "jen-kitchen-101-lifestyle.zip": "490172b6de659dd0ae814edd13aa2429db41a63efc443e0c448add5c9e8ea7fd",
+    "asset-manifest.json": "e7cfde4d965bf121d6d7e6d678734a669aa2677256212c249ecd232bbce94205",
+    "PHOTO-CREDITS.md": "39bfc2eefcb948d2cf8ab87a2226ad10d614f1ef010e00b7cbcb9ffed466d6a1",
+    "VERIFICATION.md": "760af1991c22730ed812e1a19cef1a692a58b1157c0b1b9ff0681fc586ee2886",
+    "pipeline-log.md": "e5ada9047a21e6f89f7e5d0dfbadab41522f95d62fd7a61233b3770cc3a2840e",
+    "caption.txt": "2f0fe1eb6e1834d682773a0fa9b6aa8e1079f3311f3c4a223eafac229fae0da4",
+    "contact-sheet.jpg": "b11f8a60cdaaa31b94d18d39c4903093376134813c5273e30ed3ebee30f1c8df",
+    "post.yaml": "96d24de6307e8d0944e9ef5c86aa5b49ef84b2d899f871ddcadaa69447c26ec8",
+    "slide-plan.json": "4cc3ced14218ed8542282575a2027fac845fdf90b007da797a66bea50a26761a",
+    "POSTING.md": "f172fd07c431d48154edf0580c4b6aca474293a5481c1b149bd629644c4797aa",
+    "stories-preview.jpg": "16d960c1545a83f72a201433741460bd21b2dd7866dcb9aab2ed0cf8630efe1f",
+    "PUBLIC-COPY.txt": "9fc0bd7f4f4240824d7ecb655accd42dede0ec8666db811a84c7638a0af6ca1d",
+    "renders/01.png": "cb261df2804507d34c9cb94286575d43088c84852ee90d5c53a351bcf879a773",
+    "renders/03.png": "ab00609ecac1bedeb610c469e3b2a32dd6353e607512b269691682360faa86b6",
+    "renders/02.png": "c2ba9cb18e3f82b570455dc0464241e4ff7f93ea21453b330270c2e013bf6fa0",
+    "renders/06.png": "111ec45866bff249ad05696ddb6121a86df6cef1ae613ff7ed6243c7168c8257",
+    "renders/05.png": "12825e106e639c16cb40512f267535335d650f36da57d2550fca608d18d7d675",
+    "renders/04.png": "4c0b0c66311a072e37371f0cda1bc4343ac0a96a7c376bde9e1069ef89868007",
+    "renders/story-02.png": "4336e2d1dec8c98dd9a430930e6245a2e9aac3fd8448e3c6686f3a0237b71adf",
+    "renders/story-03.png": "ebee3d16b19795048655f7d03c14d82cb5a8b1eb91d28a0e945bfefe12430769",
+    "renders/story-01.png": "c156b7c088bee0dda0f3c957727c11eb5f849dda293c068e63142e3c338ef150",
+    "assets/street.jpg": "237f946531ed554cbc7c0eaafa409a807de3b51e33c56c7fa777104adcb3ffcf",
+    "assets/coffee.jpg": "cf0ce3f22f2e1e90519a6b7a27fe12b3e8ef1dc814ea515d230237f9aa6fe110",
+    "assets/101.jpg": "376ca6f185f536868d4f1fab0cf24f299cc4ae7d2bae9623b436273accd1d127",
+    "assets/street2.jpg": "867177be3958cc3bec2d31d54a6b42cba3180abc260c1e62875da54b2e253a0d",
+    "assets/house.jpg": "2110393cebed036aa029c8c40022d8ef7a676a4ac7bedecfe8c3548c019459f8",
+    "assets/script.woff2": "3683830e3bb3f1a2138b6098f8663ca5ceb66b1f397a4f30639aae139e344bb8",
+    "assets/kitchen.jpg": "475deb10095ee5b90228024c08d8616e025f6726bf4a04ad09f4ff91650b788f",
+    "assets/script-css.txt": "730af53a9bc0255c9ee954496bbdd8588928a0541cd3dca41b2fa18af2af97a4"
+  }
+}

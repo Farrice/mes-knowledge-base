@@ -11,7 +11,11 @@
   "footer_right": "@farricecain",
   "category": "angles",
   "priority": 1,
-  "stack": ["signal-scout", "zeitgeist", "thought-bank"],
+  "stack": [
+    "signal-scout",
+    "zeitgeist",
+    "thought-bank"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -85,12 +89,48 @@
       "heading": "who earns the *insight* tap",
       "caption": "insight reactions per 1,000 total reactions, per post. the three builder posts sit above the three life posts with no overlap. insight is the only tap that costs the reader a judgment.",
       "series": [
-        {"label": "16 things that will be normal in 3 years", "note": "gisenberg · 531r", "values": [117]},
-        {"label": "forget virtual reality, the next big thing is actual reality", "note": "gisenberg · 322r", "values": [75]},
-        {"label": "every startup should have a daily markdown file", "note": "gisenberg · 467r", "values": [60]},
-        {"label": "don't give your energy to nonsense", "note": "welsh · 484r", "values": [29]},
-        {"label": "most people have one financial plan and zero backup", "note": "welsh · 2,830r", "values": [14]},
-        {"label": "most people are waiting to start living", "note": "welsh · 1,128r", "values": [10]}
+        {
+          "label": "16 things that will be normal in 3 years",
+          "note": "gisenberg · 531r",
+          "values": [
+            117
+          ]
+        },
+        {
+          "label": "forget virtual reality, the next big thing is actual reality",
+          "note": "gisenberg · 322r",
+          "values": [
+            75
+          ]
+        },
+        {
+          "label": "every startup should have a daily markdown file",
+          "note": "gisenberg · 467r",
+          "values": [
+            60
+          ]
+        },
+        {
+          "label": "don't give your energy to nonsense",
+          "note": "welsh · 484r",
+          "values": [
+            29
+          ]
+        },
+        {
+          "label": "most people have one financial plan and zero backup",
+          "note": "welsh · 2,830r",
+          "values": [
+            14
+          ]
+        },
+        {
+          "label": "most people are waiting to start living",
+          "note": "welsh · 1,128r",
+          "values": [
+            10
+          ]
+        }
       ]
     },
     {
@@ -218,8 +258,18 @@
     }
   ],
   "context": [
-    {"path": "_active/linkedin/CAMPAIGN.md", "role": "active revenue work — offer ladder + mission queue"},
-    {"path": "_active/farrice-brand/voice/VOICE-CARD.md", "role": "voice base layer for all deploy blocks"},
-    {"path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.md", "role": "resonance + roster source"}
-  ]
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "role": "active revenue work — offer ladder + mission queue"
+    },
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "voice base layer for all deploy blocks"
+    },
+    {
+      "path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-10.md",
+      "role": "resonance + roster source"
+    }
+  ],
+  "status": "archived"
 }

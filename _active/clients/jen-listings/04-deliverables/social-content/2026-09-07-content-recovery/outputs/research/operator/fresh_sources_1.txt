@@ -1,0 +1,600 @@
+California Dream For All | Shared Appreciation Loan (https://www.calhfa.ca.gov/dream/index.htm)
+citeturn2view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.calhfa.ca.gov/dream/index.htm","lineno":null}); Total lines: 144
+L0: California Dream For All Shared Appreciation Loan
+L1: 
+L2: Fraud Alert:
+L3: Please be aware of potential scams. CalHFA will only require you to provide information through your DFA Portal. Do not click text or email links if they are suspicious, instead, visit your DFA portal at cite0†www.dreamforall.org†calhfa.dreamforallvoucher.org for the latest communications on your application.
+L4: 
+L5: cite1†Image†www.facebook.com cite2†Image†ib.adnxs.com cite3†Image†s.amazon-adsystem.com cite4†Skip to main content L6:   * Introduction
+L7:   * cite5†Other Homebuyer Programs L8: # California Dream For All Shared Appreciation Loan
+L9: 
+L10: cite6†Program Highlights | cite7†Eligibility | cite8†Next Steps | cite9†Documents Needed | cite10†Program FAQ | cite11†Video Spotlight | cite12†Shared Appreciation Examples L11: 
+L12: cite13†Interest Rate | cite14†Homebuyer Education |
+L13: 
+L14: The Dream For All Shared Appreciation Loan is a down payment and/or closing cost assistance program for first-generation homebuyers, used with the Dream For All Conventional first mortgage.
+L15: When the home is sold, transferred or the first mortgage is paid in full, the homebuyer repays the original down payment loan, plus a share of the appreciation in the value of the home.
+L16: 
+L17: Program Updates
+L18: 
+L19: 05/20/2026 - The next round of DFA vouchers have been released. If you submitted an application, please log into the cite15†DFA Portal†calhfa.dreamforallvoucher.org to check your status.
+L20: ## Program Highlights
+L21: 
+L22:   * Offers up to 20% for down payment or closing costs, not to exceed $150,000
+L23:   * Homebuyer must register for a voucher. A randomized drawing will select registrants who will receive the voucher. This will not be first come, first served.
+L24: ## Eligibility
+L25: 
+L26:   * One borrower must be a cite16†first-generation homebuyer .
+L27:   * One borrower must be current resident of California.
+L28:   * All borrowers must be cite17†first-time homebuyers .
+L29:   * Combined household income must meet cite18†CalHFA Income Limits for the county you are purchasing in.
+L30: ## Next Steps
+L31:   * Applications have been audited and voucher statuses have been updated. Applicants should log into their account on the DFA portal to check their status.
+L32:     * Not Selected: You can still work with a cite19†CalHFA Approved Lender and explore other CalHFA down payment assistance options like cite20†MyHome and cite21†CalPLUS with ZIP .
+L33:     * Waitlist: check your cite15†voucher portal account†calhfa.dreamforallvoucher.org periodically and monitor your email. If a voucher position becomes available and you are next on the waitlist, your status will change to Voucher Issued, and you will be notified right away by email.
+L34:     * Voucher Issued: You will see this status if you are randomly selected to receive a voucher! We will email detailed instructions and next steps to you along with your voucher.
+L35:   * Take the 1-hour California Dream For All education course which covers what shared appreciation is and how it affects your mortgage repayment. This course is delivered online and is free. Visit cite22†calhfadreamforall.com†www.calhfadreamforall.com to get signed up and learn about shared appreciation now.
+L36: ## Documents Needed
+L37:   * cite23†California Dream For All (DFA) Lender Pre-Approval Letter L38:   * Government ID: Passports, driver’s license, state-issued ID, military ID, permanent residence cards, visas or employment authorization documents
+L39:   * Foster care documentation (if applicable): Foster Care Verification Form/Letter or court documents
+L40:   * The DFA Voucher application will require information for both parents of the designated first-generation borrower(s) including:
+L41:     * Name
+L42:     * Date of birth
+L43:     * Date of death (if applicable)
+L44:     * Current address
+L45:   * Proof of parent relationship
+L46:     * Birth Certificate
+L47:     * Adoption papers
+L48:   * cite24†Sign up for our enews†public.govdelivery.com to get updates
+L49: cite25†back to top L50: ## Video Spotlight
+L51: 
+L52: cite26†Another housing dream come true with CalHFA†www.youtube.com L53: 
+L54: The Arteaga-Sánchez family talks about how their homeownership dreams came true after 20 years. (05:30)
+L55: 
+L56: cite27†Otro sueño de ser dueño se hace una realidad con CalHFA†www.youtube.com L57: 
+L58: La familia Arteaga-Sánchez conversa de como sus sueños de ser dueños de su propia casa se hacía una realidad después de 20 años (05:30)
+L59: 
+L60: ## Program FAQ
+L61: ### California Dream For All Shared Appreciation Loan
+L62: 
+L63: When will I hear if I was successful in receiving a "Dream for All" voucher?
+L64:   * CalHFA is expecting it will take several weeks to process and audit applications and conduct the randomized drawing.
+L65:   * You will be notified through your portal account and email.
+L66:   * All applicants will receive a notification, whether they were selected, waitlist, or not selected, but it may take several weeks as we work through the review and audit process, so please keep checking your portal account and email.
+L67: 
+L68: After March 16, 2026 can I apply for a Dream for All voucher?
+L69: No the portal is closed. Please check with your lender for other cite28†downpayment assistance programs that may be available to you.
+L70: 
+L71: After March 16, 2026, can I still update my application?
+L72:   * If you submitted your application and your status shows Application Received, and you have received a request for additional information, yes, you will be able to upload the additional information requested. Otherwise, no changes can be made after the application has been submitted.
+L73:   * If you started an application but never submitted it, unfortunately, you will not be able to submit it because the portal closed on March 16th and no new applications can be submitted.
+L74: If my application is in "Not Selected" status, can I cancel my application and start a new one?
+L75: 
+L76: The portal closed on March 16, 2026 and no new applications can be started.
+L77: 
+L78: cite25†back to top L79: ## Shared Appreciation Examples
+L80: 
+L81: Shared Appreciation is a little more complex than a typical mortgage loan, so we’ve put together a few examples for you.
+L82: 
+L83: Shared Appreciation Examples
+L84: Example 1
+L85: ---
+L86:  | Borrower is a moderate-income homebuyer
+L87:   * Dream For All provides a loan for 20% of the home purchase price.
+L88:   * The homeowner pays back the original loan amount plus 20% of any appreciation in the value of the home.
+L89: Example 2
+L90: ---
+L91:  | Borrower income less than or equal to 80% AMI using the HomeReady Lookup Tool
+L92:   * Reduced (0.75:1) program appreciation share
+L93:   * Program appreciation share is equal to 0.75 times the Shared Appreciation Loan Amount (i.e., the original principal amount) as a percentage of the home value
+L94:   * Dream For All provides a loan for 20% of the home purchase price.
+L95:   * The homeowner pays back the original loan amount plus 15% of any appreciation in the value of the home
+L96: 
+L97: 
+L98: 
+L99: cite25†back to top L100: ## Interest Rate
+L101: 
+L102: What is the interest rate?
+L103: Interest rates will vary depending on your financial circumstances, lender fees, and other factors. Interest rates can also change daily. We recommend that you check with a cite19†CalHFA-approved loan officer to receive an accurate rate quote for this program.
+L104: CalHFA does not lend money directly to consumers. CalHFA works through and uses approved lenders to qualify consumers and to make all mortgage loans. The fees you pay could be different depending on the lender and the program. cite29†View sample Annual Percentage Rates (APRs) here .
+L105: 
+L106: cite25†back to top L107: ## Homebuyer Education Requirement
+L108: 
+L109: CalHFA firmly believes that homebuyer education and counseling is critical to the success and happiness of a homeowner, and requires homebuyer education and counseling for first-time homebuyers using a CalHFA program.
+L110: 
+L111: Who has to take this Homebuyer Education and Counseling course?
+L112: 
+L113: Only one occupying first-time borrower on each loan transaction.
+L114: 
+L115: How do I take this education and counseling course?
+L116:   * ONLINE: cite30†eHome's eight-hour Homebuyer Education†calhfa.ehomeamerica.org and Counseling course is the only online course accepted by CalHFA. (fee: $100) Other online courses like Frameworks and HomeView are not acceptable because they do not provide a one-hour, 1-on-1 counseling follow-up session.
+L117: 
+L118: OR
+L119:   * IN-PERSON or VIRTUAL: Live Homebuyer Education and Counseling in-person or virtually though cite31†NeighborWorks America†www.neighborworks.org or any cite32†HUD-Approved Housing Counseling Agency†answers.hud.gov L120: (fee: varies by agency)
+L121: 
+L122: AND
+L123: 
+L124: California Dream For All Shared Appreciation Loan Education
+L125: 
+L126:   * ONLINE: The cite22†California Dream For All education†www.calhfadreamforall.com is free and online only.
+L127: 
+L128: cite25†back to top L129: 
+L130: cite15†DFA Voucher Portal†calhfa.dreamforallvoucher.org L131: The application period for the opportunity to receive a DFA loan voucher is now CLOSED. If you submitted an application, please log into the cite15†DFA Voucher Portal†calhfa.dreamforallvoucher.org to check your status.
+L132: 
+L133: * * *
+L134: 
+L135: Latest Video
+L136: 
+L137: Another housing dream come true with CalHFA.
+L138: 
+L139: * * *
+L140: 
+L141: cite33†Image: Updates Icon Dream For All Updates
+L142: 
+L143: Sign up for cite24†CalHFA eNews Updates†public.govdelivery.com --------------------------------------------------------------------------------
+July 2026 Home Sales and Price Report (https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/July2026HomeSales)
+citeturn2view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.car.org/aboutus/mediacenter/newsreleases/2026releases/July2026HomeSales","lineno":null}); Total lines: 1436
+L0: x
+L1: #####
+L2: 
+L3: Your C.A.R.
+L4: 
+L5: * * *
+L6: 
+L7: cite0†Californians for Homeownership L8: 
+L9: Californians for Homeownership was founded in response to the Legislature’s call to fight local anti-housing policies and expand affordable housing for millions of Californians.
+L10: 
+L11: * * *
+L12: 
+L13: cite1†CARES L14: 
+L15: CARES is C.A.R’s philanthropic framework to amplify the work, coordinate fundraising and broaden support of C.A.R.’s four charitable causes – Housing Affordability Fund, Scholarship Foundation, Education Foundation, and Disaster Relief Fund.
+L16: 
+L17: * * *
+L18: cite2†Champions of Home Impact Awards L19: 
+L20: The Champions of Home Impact Awards honor California REALTORS® who have made a significant impact on their communities through volunteer efforts.
+L21: 
+L22: * * *
+L23: 
+L24: cite3†Housing Affordability Fund Program L25: 
+L26: HAF plays an active role in addressing the ongoing housing affordability challenges facing California.
+L27: 
+L28: cite4†Make A Donation to HAF L29: 
+L30: * * *
+L31: 
+L32: cite5†Disaster Relief: Grant Programs & Resources L33: C.A.R. stands ready to assist REALTORS® who have been impacted by wildfires through its Disaster Relief Fund and NAR's REALTORS® Relief Foundation.
+L34: 
+L35: cite6†California Disaster Resources L36: 
+L37: * * *
+L38: 
+L39: cite7†Scholarship Foundation L40: 
+L41: Scholarships for California students planning to pursue a career in real estate.
+L42: 
+L43: * * *
+L44: 
+L45: cite8†Education Foundation L46: 
+L47: Grants for California REALTORS® and residents pursuing real estate education.
+L48: 
+L49: * * *
+L50: 
+L51: cite9†Diversity and Inclusion Programs L52: Find out more information on key diversity and inclusion programs and projects available.
+L53: 
+L54: cite10†Fair Housing cite11†Latino Professionals Network cite12†WomanUP!® L55: 
+L56: * * *
+L57: 
+L58: cite13†Young Professionals Network L59: 
+L60: New to the industry? YPN is a network to sharpen your skills, heighten your leadership, and connect with fellow REALTORS®.
+L61: 
+L62: cite14†Rising Star Award L63: 
+L64: * * *
+L65: 
+L66: cite15†Guide to Benefits L67: 
+L68: Download and share the official 2026 C.A.R. Member Benefits Guide.
+L69: 
+L70: cite16†NAR Member Discounts cite17†C.A.R. Insurance Products L71: 
+L72: * * *
+L73: cite18†For New Members L74: 
+L75: As a C.A.R. member you may have questions about your association and the industry. Find the answers here.
+L76: 
+L77: cite19†New Member FAQs cite20†Glossary cite21†Service Providers L78: 
+L79: * * *
+L80: 
+L81: cite22†Membership Dues and Value L82: 
+L83: C.A.R. provides tremendous member value through its innovative tools, services and education. Learn more about C.A.R. membership and dues and NAR membership and dues.
+L84: 
+L85: * * *
+L86: 
+L87: cite23†Consumer Ad Campaign L88: C.A.R.'s annual consumer advertising campaign creates awareness of the REALTOR® brand and demonstrates the many benefits of the consumer-REALTOR® relationship.
+L89: 
+L90: * * *
+L91: 
+L92: cite24†Smart Zone L93: 
+L94: Smart Zone provides tools and insights necessary to convey your unique value proposition, effectively market your services, keep your clients abreast of current real estate market trends and help you achieve success in a dynamic industry.
+L95: 
+L96: * * *
+L97: 
+L98: cite25†2026 C.A.R. Leadership Team L99: 
+L100: Meet the 2026 C.A.R. Leadership Team
+L101: cite26†President's Message L102: 
+L103: * * *
+L104: 
+L105: cite27†C.A.R. Mission Statement L106: 
+L107: C.A.R. is a statewide trade association dedicated to the advancement of professionalism in real estate.
+L108: 
+L109: cite28†Annual Report L110: 
+L111: * * *
+L112: 
+L113: cite29†C.A.R. Impact Report L114: 
+L115: The CALIFORNIA ASSOCIATION OF REALTORS® is committed to bring you tools and information to help you succeed. Here are some of the innovative tools, services and education C.A.R. provided to help you achieve your professional goals.
+L116: 
+L117: * * *
+L118: 
+L119: cite30†Media Center L120: C.A.R.'s Media Center houses the Association's news releases, media guidelines, and logos.
+L121: 
+L122: cite31†News Releases L123: 
+L124: * * *
+L125: 
+L126: cite32†Careers L127: 
+L128: Discover rewarding job opportunities, a collaborative work culture, and meaningful ways to make an impact on an industry that matters.
+L129: 
+L130: * * *
+L131: 
+L132: cite33†Partner With Us L133: 
+L134: Partner With Us
+L135: 
+L136: * * *
+L137: 
+L138: cite34†Advertise With Us L139: 
+L140: Learn about advertising with C.A.R.
+L141: 
+L142: * * *
+L143: 
+L144: cite35†Customer Service L145: Looking for additional assistance? The Customer Contact Center is looking forward to serving you Monday through Friday between the hours of 8:30 a.m. and 4:45 p.m.
+L146: 
+L147: * * *
+L148: 
+L149: cite36†Rosters & Directories L150: 
+L151: Need help finding the right person? Try searching through our various rosters & directories.
+L152: 
+L153: * * *
+L154: 
+L155: cite37†Make a Difference L156: 
+L157: cite38†Member Benefits L158: 
+L159: cite39†About Us L160: 
+L161: cite40†Contact Us L162: 
+L163: cite41†Transaction Center L164: 
+L165: cite41†Learn & Thrive L166: 
+L167: cite41†Industry 360° L168: 
+L169: cite41†Your C.A.R. L170: 
+L171: [Button: Sign In ]
+L172: 
+L173: Search
+L174: 
+L175: Transactions
+L176: Business Tools
+L177: 
+L178: Risk Management
+L179: 
+L180: Helplines
+L181: 
+L182: Education
+L183: 
+L184: Meetings & Events
+L185: 
+L186: Marketing Tools
+L187: 
+L188: Knowledge Center
+L189: 
+L190: Market Data
+L191: 
+L192: MLS / Professional Standards
+L193: 
+L194: Political Advocacy
+L195: 
+L196: Make a Difference
+L197: 
+L198: Member Benefits
+L199: 
+L200: About Us
+L201: 
+L202: Contact Us
+L203: 
+L204: * * *
+L205: 
+L206: cite42†Transactions L207: 
+L208: * * *
+L209: 
+L210: Time to bring it home. Complete transactions and contracts electronically through zipForm®.
+L211: 
+L212: cite42†VIEW MORE L213: 
+L214: cite43†REALTOR® Secure Transaction L215: Realtor® Secure Transaction is your place to discover, access and master the essential tools for a modern, efficient and secure transaction.
+L216: 
+L217: * * *
+L218: 
+L219: cite44†Transactions - zipForm Edition L220: 
+L221: Transaction management and forms software with all the must-have features, including current statewide contracts, local forms, and more.
+L222: 
+L223: cite45†Transaction Products cite46†Service Providers cite47†Forms Libraries cite48†Training and Support L224: 
+L225: * * *
+L226: 
+L227: cite49†Forms Tutor® L228: Free advice to help you understand the form you're using with Forms Tutor®.
+L229: 
+L230: * * *
+L231: 
+L232: cite50†Standard Forms L233: 
+L234: C.A.R. Standard Forms are developed by the C.A.R. Legal Department which gathers input from real estate professionals and attorneys to create user-friendly, comprehensive, and dependable forms.
+L235: 
+L236: * * *
+L237: 
+L238: cite51†Transaction Coordinator Directory L239: C.A.R. now hosts an official Directory of Transaction Coordinators. These real estate professionals meet strict requirements, including completion of C.A.R.’s 17+ hour Certified TC program.
+L240: 
+L241: * * *
+L242: 
+L243: cite52†Business Tools L244: 
+L245: * * *
+L246: 
+L247: We're here to help, people! Business products and tools to empower REALTORS®.
+L248: 
+L249: cite52†VIEW MORE L250: 
+L251: cite53†Partner Program L252: 
+L253: Your one-stop-source for exclusive offers, discounts, and free trials.
+L254: 
+L255: * * *
+L256: 
+L257: cite54†Leasing Resource Center L258: Everything you need for a successful property management & leasing business
+L259: 
+L260: * * *
+L261: 
+L262: cite55†Member Profitability Hub L263: 
+L264: A collection of educational and technology resources designed to help you achieve profitability and better prepare for your financial present and future.
+L265: 
+L266: * * *
+L267: 
+L268: cite56†Risk Management L269: 
+L270: * * *
+L271: 
+L272: Q: Where do I go to get legal questions answered? A: Easy, look to the right!
+L273: 
+L274: cite56†VIEW MORE L275: 
+L276: cite57†Member Legal Services L277: Ever wish you could have an attorney to help you navigate your deals? You can! Learn more about how the attorneys of C.A.R.’s Legal Services group can support you in your business.
+L278: 
+L279: * * *
+L280: 
+L281: cite58†Legal Q&As, New Laws, and Disclosure Charts L282: 
+L283: Legal articles, many in question and answer format, are currently available on over 150 subjects in 50-plus categories.
+L284: 
+L285: * * *
+L286: 
+L287: cite59†Legal Quick Guides L288: 
+L289: Quick Guides (1-page articles) and PowerPoint presentations on key legal topics.
+L290: 
+L291: * * *
+L292: 
+L293: cite60†Legal Live Webinars L294: Wish you could catch up on California real estate law without having to read even more documents? Relax and watch a video as C.A.R.’s Legal Live Webinars bring you up-to-date on the hottest topics in real estate law.
+L295: 
+L296: * * *
+L297: 
+L298: cite61†Legal Matters Podcast L299: 
+L300: Driving to your next meeting? Let our attorneys update you on how to protect yourself and your clients. Subscribe to the Legal Matters Podcast and get the most critical information delivered right to your device.
+L301: 
+L302: * * *
+L303: 
+L304: cite62†Legal Action Fund L305: The Legal Action Fund advocates the REALTOR® point of view and assists in lawsuits pivotal to the real estate industry. Learn more about how the Legal Action Fund supports you in your business.
+L306: 
+L307: * * *
+L308: 
+L309: cite63†Popular Legal Topics L310: 
+L311: Need help on a legal issue? First, pick one of the topics.
+L312: 
+L313: * * *
+L314: 
+L315: cite64†Legal Resources L316: 
+L317: Important industry cases, resources and information
+L318: 
+L319: cite65†Antitrust Pamphlet: Antitrust Compliance and REALTORS® cite66†Cases by Category cite67†Small Claims Court L320: 
+L321: * * *
+L322: cite68†Miscellaneous/Contacts L323: 
+L324: Current legal developments, C.A.R. legal products and services.
+L325: 
+L326: cite69†Realegal® L327: 
+L328: * * *
+L329: 
+L330: cite70†Helplines L331: 
+L332: * * *
+L333: 
+L334: Help, I need backup! Whether it's legal or financial help you need, C.A.R.'s got your back with these resources.
+L335: 
+L336: cite70†VIEW MORE L337: 
+L338: cite71†Ombudsman Hotline L339: 
+L340: If you're a member looking to resolve a minor dispute or communication issue with another REALTOR^{®}, a C.A.R. ombudsman may be able to help!
+L341: 
+L342: * * *
+L343: 
+L344: cite72†Peer-to-Peer Ethics L345: C.A.R. REALTOR® volunteers are specially trained to answer member questions about the Code of Ethics and provide information and limited counseling on its proper interpretation.
+L346: 
+L347: * * *
+L348: 
+L349: cite73†C.A.R. Statewide Ombudsman Applications L350: 
+L351: Members-only access to C.A.R. Statewide Ombudsman application.
+L352: 
+L353: * * *
+L354: 
+L355: cite74†Transaction Rescue™ L356: Your lifeline to the lending community, formerly the Finance Helpline and Mortgage Rescue™. Find contacts and answers to all mortgage questions and transaction issues. Get help today!
+L357: 
+L358: * * *
+L359: 
+L360: cite75†Customer Contact Center L361: 
+L362: Need assistance on Transactions – zipForm Edition, purchasing a course, or other general membership questions? The Customer Contact Center is only a phone call away.
+L363: 
+L364: * * *
+L365: 
+L366: cite76†Insurance Helpline L367: The helpline offers your clients resources on homeowners insurance carriers, escrow impounds, the Calif. FAIR Plan, inspections, disaster relief, and assistance with closing transactions.
+L368: 
+L369: * * *
+L370: 
+L371: cite77†Dispute Resolution Center L372: 
+L373: The C.A.R. Dispute Resolution Center for Real Estate has mediators to assist buyers and sellers (as well as other parties to real estate transactions) in resolving their disputes.
+L374: 
+L375: * * *
+L376: 
+L377: cite78†Legal Hotline L378: Did you know that for zero dollars and zero cents, you can speak with an attorney about your transaction? If you don't believe us, check it out yourself.
+L379: 
+L380: * * *
+L381: 
+L382: cite79†Education L383: 
+L384: * * *
+L385: 
+L386: We offer a wide array of real estate educational courses, certifications & designations in various formats.
+L387: 
+L388: cite79†VIEW MORE L389: 
+L390: cite80†License Renewal L391: 
+L392: Easily renew your real estate license with the FREE 45 hour online license renewal package from C.A.R.
+L393: 
+L394: * * *
+L395: 
+L396: cite81†Designations / Certifications L397: Distinguish yourself by learning how to build a business that specializes in niche markets to nearly double your earning potential in various real estate sectors
+L398: 
+L399: * * *
+L400: 
+L401: cite82†Course Calendar L402: 
+L403: Browse our class schedule to find when and where to take real estate courses.
+L404: 
+L405: cite83†Classes by Topic cite84†Online Bundles L406: 
+L407: * * *
+L408: 
+L409: cite85†How to get a Real Estate License for Salesperson or Brokers L410: Prepare to earn your real estate license with our online courses. Get your California real estate license with OnlineEd. Price match guarantee. Mobile friendly. DRE-approved. Instructor Support. Start immediately!
+L411: 
+L412: * * *
+L413: 
+L414: cite86†NMLS Approved Education for California Mortgage Licensees L415: 
+L416: Complete your eight-hour NMLS license renewal requirement through our NMLS-approved provider, OnlineEd
+L417: 
+L418: * * *
+L419: 
+L420: cite87†Meetings & Events L421: 
+L422: * * *
+L423: 
+L424: Mark your calendars for our yearly meetings and events!
+L425: 
+L426: cite87†VIEW MORE L427: cite88†C.A.R. Board of Directors and Committees L428: 
+L429: The main Business Meetings page provides key links for Directors and Committee Members. The next C.A.R. Business Meeting is scheduled for October 6-9, 2026 in Long Beach.
+L430: 
+L431: cite89†Current Meeting Materials cite90†Business Meeting Program L432: 
+L433: * * *
+L434: 
+L435: cite91†NAR Meetings L436: 
+L437: Check out NAR's upcoming meetings and conference schedule.
+L438: 
+L439: * * *
+L440: 
+L441: cite92†REimagine!® L442: REimagine!® Real Estate Conference & Expo is where learning takes center stage and where business solutions and connections are at the forefront of the real estate industry.
+L443: 
+L444: * * *
+L445: 
+L446: cite93†Calendar L447: 
+L448: Your one-stop calendar for C.A.R. and industry events.
+L449: 
+L450: * * *
+L451: 
+L452: cite94†Marketing Tools L453: 
+L454: * * *
+L455: 
+L456: You're the brand! Use our marketing tools to tell your story.
+L457: 
+L458: cite94†VIEW MORE L459: 
+L460: cite95†For Your Clients L461: A one-stop shop for tools and and resources to educate consumers about the intricacies of buying and selling a home and how a REALTOR® can help.
+L462: 
+L463: cite96†Prop 19 cite97†Down Payment Resource Directory cite98†Infographics cite99†Tax Reform One Sheets L464: 
+L465: * * *
+L466: 
+L467: cite100†Charts & Graphs L468: 
+L469: Explore and interact with the latest market statistics.
+L470: 
+L471: cite101†Housing Market Summary cite102†County Market Updates cite103†Housing Perspective cite104†Impact of LA Wildfires cite105†Market at a Glance L472: 
+L473: * * *
+L474: 
+L475: cite106†Digital Tools L476: Marketing tools from C.A.R.'s consumer advertising campaign
+L477: 
+L478: * * *
+L479: 
+L480: cite107†Knowledge Center L481: 
+L482: * * *
+L483: 
+L484: Got knowledge? All the info you need on California’s housing market, economy, and issues impacting the industry.
+L485: 
+L486: cite107†VIEW MORE L487: 
+L488: cite108†For Brokers/Managers L489: 
+L490: This information is designed for Real Estate Brokers and Office Managers to assist you in supporting your real estate business.
+L491: 
+L492: * * *
+L493: 
+L494: cite109†AI Resources L495: Resources to help you stay informed about the evolving role of artificial intelligence in real estate
+L496: 
+L497: * * *
+L498: 
+L499: cite110†Homeowners Insurance Resources L500: 
+L501: Discover homeowner insurance resources from C.A.R. to help navigate California's wildfire-related insurance crisis. Access expert-led webinars, podcasts, and support tools for both REALTORS® and consumers seeking guidance on maintaining or finding coverage.
+L502: 
+L503: * * *
+L504: 
+L505: cite111†Team Services Program L506: We provide information and resources to support Real Estate Team Leaders in navigating their roles and ensuring compliance.
+L507: 
+L508: * * *
+L509: 
+L510: cite112†Center for California Real Estate L511: 
+L512: CCRE's mission is to advance industry knowledge and innovation with an emphasis on convening key experts and influence-makers.
+L513: 
+L514: * * *
+L515: 
+L516: cite113†Multimedia Library L517: 
+L518: From webinars to videos and podcasts to blogs, C.A.R. keeps you in the know.
+L519: 
+L520: cite114†Videos cite115†Webinars cite116†Podcasts L521: 
+L522: * * *
+L523: 
+L524: cite117†Publications L525: C.A.R. publishes various newsletters throughout the year. Formerly, C.A.R. also published a magazine, for which past issues are still available.
+L526: 
+L527: * * *
+L528: 
+L529: cite118†Market Data L530: 
+L531: * * *
+L532: 
+L533: Be trendy -- stay current with our latest market forecasts and data analyses.
+L534: 
+L535: cite118†VIEW MORE L536: 
+L537: cite119†Housing Market Forecast L538: 
+L539: The latest housing market forecast and projection to what lays ahead.
+L540: 
+L541: * * *
+L542: 
+L543: cite120†Data & Statistics L544: 
+L545: View the latest sales and price numbers. Find out where sales will be in upcoming months.
+L546: 
+L547: * * *
+L548: cite121†Housing Matters Podcast L549: 
+L550: Your housing hub for market analysis, economic trends, and housing news.
+L551: 
+L552: * * *
+L553: 
+L554: cite122†Market Minute Write-Up L555: 
+L556: Get a roundup of weekly economic and market news that matters to real estate and your business.
+L557: 
+L558: * * *
+L559: 
+L560: cite123†Interactive Market Stats L561: 
+L562: Gain insights through interactive dashboards and downloadable infographic reports.
+L563: 
+L564: cite124†Shareable Reports cite125†Interactive Dashboards L565: 
+L566: * * *
+L567: 
+L568: cite126†Speeches & Presentations L569: Catch up with the latest outreaches and webinars by the Research and Economics team.
+L570: 
+L571: * * *
+L572: 
+L573: cite127†Surveys & Reports L574: 
+L575: C.A.R. conducts survey research with members and consumers on a regular basis to get a better understanding of the housing market and the real estate industry.
+L576: 
+L577: * * *
+L578: 
+--------------------------------------------------------------------------------
+CA Dream For All Updates - Mega Thread : r/FirstTimeHomeBuyer (https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1tisqil/ca_dream_for_all_updates_mega_thread/)
+citeturn2view2 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({"ref_id":"https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1tisqil/ca_dream_for_all_updates_mega_thread/","lineno":null}); Total lines: 2293
+

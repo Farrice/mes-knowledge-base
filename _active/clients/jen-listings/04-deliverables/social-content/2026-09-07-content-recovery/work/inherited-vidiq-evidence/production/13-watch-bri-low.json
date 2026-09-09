@@ -1,0 +1,18 @@
+{
+  "key": "13-watch-bri-low",
+  "url": "https://www.instagram.com/reel/DcfBQOoMXde/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_bdf0dcd1-526e-4860-af8f-455308cd75b4\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_bdf0dcd1-526e-4860-af8f-455308cd75b4\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_bdf0dcd1-526e-4860-af8f-455308cd75b4",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_bdf0dcd1-526e-4860-af8f-455308cd75b4\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

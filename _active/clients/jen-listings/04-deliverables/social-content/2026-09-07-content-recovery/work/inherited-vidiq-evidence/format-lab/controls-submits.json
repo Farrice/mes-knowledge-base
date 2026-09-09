@@ -1,0 +1,18 @@
+[
+  {
+    "key": "nate-strong",
+    "response": {
+      "mcpJobId": "job_96a0d6de-c8d0-4b35-a9cc-ada39cbab077",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_96a0d6de-c8d0-4b35-a9cc-ada39cbab077\" to check progress and retrieve the result."
+    }
+  },
+  {
+    "key": "nate-weaker",
+    "response": {
+      "mcpJobId": "job_ff61e1e6-c3c2-418b-9077-90f5e4f2093a",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_ff61e1e6-c3c2-418b-9077-90f5e4f2093a\" to check progress and retrieve the result."
+    }
+  }
+]

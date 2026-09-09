@@ -1,0 +1,162 @@
+{
+  "key": "10-youtube-local",
+  "tool": "vidiq_youtube_search",
+  "args": {
+    "query": "California first time home buyer closing costs down payment San Fernando Valley",
+    "type": [
+      "video"
+    ],
+    "limit": 8,
+    "order": "relevance",
+    "regionCode": "US"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"results\":[{\"kind\":\"video\",\"id\":\"-0oIODQQBk8\",\"title\":\"🏡 Closing Costs & Realtor Fees in 2025 | San Fernando Valley Real Estate\",\"description\":\"Buying a home in 2025? One of the biggest searches right now is:\\n✔ “How much are closing costs?”\\n✔ “Do I really have to pay my realtor?”\\n✔ “What’s included in my mortgage payment?”\\n\\nIn this video, I’ll break it down:\\n💰 Closing costs = 2–3% (insurance, title, tax impounds).\\n🏡 Realtor fees — why they matter, and how buyers can negotiate sellers to pay.\\n📊 What your monthly payment really includes: principal, interest, taxes, and insurance.\\n\\n👉 Don’t sit on the sidelines. Reach out today — I’ll connect you with trusted lenders and help you find your perfect place to call home in the San Fernando Valley.\\n\\n📱 Call/Text: 818-415-3657\\n📨 Email: Cari@Cari4Homes.com\\n🌐 More at: https://burbankneighborhoods.co\\n\\n0:00 – How much are closing costs in California?\\n0:05 – Common buyer questions (closing costs, realtor fees, surprises)\\n0:15 – Breaking down closing costs (2–3% of purchase price)\\n0:25 – What’s included: insurance, title, impound account\\n0:35 – Realtor fees: what’s changed & how to negotiate\\n0:45 – Smart planning & saving tips for buyers\\n0:55 – Call to action: let’s connect & find your perfect home\",\"channelId\":\"UCPj7evP1w7PWvXB3huSv7bw\",\"channelTitle\":\"Buying & Selling the San Fernando Valley & Beyond\",\"publishedAt\":\"2025-09-14T16:12:08Z\",\"thumbnail\":\"https://i.ytimg.com/vi/-0oIODQQBk8/maxresdefault.jpg\",\"viewCount\":17,\"duration\":\"PT2M4S\",\"likeCount\":0,\"commentCount\":0,\"subscriberCount\":171,\"vph\":null,\"outlierScore\":2.8333333333333335},{\"kind\":\"video\",\"id\":\"pLGFeJzCLbU\",\"title\":\"First-Time Buyer? Here's What Nobody Tells You About Buying in California\",\"description\":\"Everyone talks about down payments and mortgage rates. Nobody talks about the things that actually catch first-time buyers off guard in California. In this video I cover the facts, the surprises, and the things your agent, your lender, and Google probably didn't tell you before you started.\\n\\nIf you're thinking about buying a home in Southern California, Santa Clarita, the San Fernando Valley,  or anywhere in LA County, watch this before you make any moves.\\n\\n🎁 Free Southern California Buyer's Guide, email me and I'll send it today: luckydeleonhomes@gmail.com\\n\\n📞 Ready to talk about your situation? Call or text: 661-568-0185\\n🔗 Free Buyer's Guide download: [ADD LINK WHEN READY]\\n🏠 CalHFA Down Payment Assistance: https://www.calhfa.ca.gov\\n📊 Check school ratings: https://www.greatschools.org\\n\\nChapters:\\n0:00 – The question nobody asks before buying\\n0:38 – The pre-approval trap\\n2:05 – What your monthly payment actually looks like\\n3:43 – The emotional rollercoaster nobody warns you about\\n4:44 – What happens when your offer gets rejected\\n5:57 – The inspection reality\\n7:14 – Wire fraud — the risk nobody talks about\\n8:45 – What changes the moment you own\\n10:13 – Final thoughts\\n\\n\\n#FirstTimeHomeBuyer #CaliforniaRealEstate #HomeBuyingTips #SouthernCaliforniaRealEstate #SantaClaritaRealEstate\",\"channelId\":\"UCAH3FroyohS4zqrJeJxeJAw\",\"channelTitle\":\"Lucky de Leon | Santa Clarita Real Estate\",\"publishedAt\":\"2026-06-30T16:00:02Z\",\"thumbnail\":\"https://i.ytimg.com/vi/pLGFeJzCLbU/maxresdefault.jpg\",\"viewCount\":17,\"duration\":\"PT11M42S\",\"likeCount\":1,\"commentCount\":0,\"subscriberCount\":56,\"vph\":0.0058823529411764705,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"hHZGqPUOYAQ\",\"title\":\"Real Estate Terms Every First-Time Buyer in California Must Know\",\"description\":\"Buying a home is exciting — but all the real estate jargon can make it feel overwhelming. Terms like escrow, contingencies, or appraisal can sound confusing if you haven’t been through the process before.\\n\\nThat’s why in this video, I’m breaking down the key real estate terms every buyer needs to know. I’ll explain them in simple, everyday language with examples you can actually relate to.\\n\\nHere’s what you’ll learn:\\n✔ What an earnest money deposit is and why it matters\\n✔ How contingencies protect you as a buyer\\n✔ What happens during inspections and appraisals\\n✔ What closing costs include\\n✔ The roles of escrow, title, pre-approval, and more\\n\\nWhether you’re a first-time buyer or just want to feel more confident in the home buying process, this video will help you understand the terms and feel prepared for your journey.\\n\\n🏡 Buying a home should feel exciting — not confusing.\\n\\n📌 Subscribe for more real estate tips and buyer advice: https://www.youtube.com/@LuckydeLeonHomes\\n\\n📌 Looking to buy a home in Los Angeles, Santa Clarita or San Fernando Valley? I’d love to help — reach out anytime. (661) 568-0185\\n\\n0:00 Buying a home?\\n0:27 Earnest Money Deposit  \\n1:00 Contingencies  \\n1:33 Appraisal  \\n1:58 Inspection  \\n2:24 Closing Costs  \\n2:54 Escrow  \\n3:18 Title  \\n3:38 Pre-Approval  \\n4:01 Possession Date  \\n4:19 Final thoughts\",\"channelId\":\"UCAH3FroyohS4zqrJeJxeJAw\",\"channelTitle\":\"Lucky de Leon | Santa Clarita Real Estate\",\"publishedAt\":\"2025-09-17T01:00:44Z\",\"thumbnail\":\"https://i.ytimg.com/vi/hHZGqPUOYAQ/maxresdefault.jpg\",\"viewCount\":27,\"duration\":\"PT4M53S\",\"likeCount\":5,\"commentCount\":0,\"subscriberCount\":56,\"vph\":0.0007116424708226587,\"outlierScore\":1.3364682588788517},{\"kind\":\"video\",\"id\":\"QlppH5yCdZo\",\"title\":\"San Fernando Valley Real Estate – Cost of living\",\"description\":\"In this weeks video, we show you the cost of living in the san Fernando valley, house, condo, and antelope valley home, Watch to find out how much down payment you need, what your monthly payment will be. We go over monthly payments, interest rates, down payments, closing costs, & MORE! Watch to find out what homes are going for, in different program options!\\n\\nWe are the Top Real Estate Agents In The San Fernando Valley!\\n\\n \\n\\nGive me a call or text if there's anything at all we can do for you at \\n818-472-5491. Looking forward to hearing from you! 😊\\n\\n \\n\\nAlexis Quezada\\n\\nCitiwide Realty Group\\n\\nRealtor / Lender / General Contractor\\n\\nDRE#02008076 / NMLS#1752430\\n\\nwww.quezadarealestate.com\\n\\nwww.soldbyquezadateam.info\",\"channelId\":\"UCOePsgDLq2__Nz34DI_lZLQ\",\"channelTitle\":\"Quezada Realty Inc.\",\"publishedAt\":\"2020-07-11T00:00:08Z\",\"thumbnail\":\"https://i.ytimg.com/vi/QlppH5yCdZo/maxresdefault.jpg\",\"viewCount\":249,\"duration\":\"PT10M29S\",\"likeCount\":4,\"commentCount\":0,\"subscriberCount\":24,\"vph\":null,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"9f1NjwmnnDo\",\"title\":\"5 Mistakes That Could Doom A First-Time Homebuyer\",\"description\":\"Thinking about buying your first home? 🏡 Before you dive into the market, there are 5 essential things every first-time homebuyer needs to know — and in this video, I’m breaking them all down in a simple, no-nonsense way. To See More Like This Please Click On This Link https://www.youtube.com/watch?v=8LNJ9kaQ8DY&list=PLOlQLfv8cYI53ENHA2n0O3Lq4oZVjSxyG\\n\\nIn this video we’ll cover:\\n\\nHow to understand your true home buying budget\\n\\nWhy getting pre-approved matters more than you think\\n\\nWhat to know about your down payment options\\n\\nThe hidden closing costs first-time buyers often miss\\n\\nHow to research your local real estate market like a pro\\n\\nAs a local real estate expert in Chatsworth, Porter Ranch, Northridge, and Simi Valley, I’m here to guide you through every step. Whether you’re months out or ready to buy now, these tips will help you feel more confident and informed.\\n\\n👉 Subscribe for weekly videos on real estate tips, market updates, and life in the Valley!\\n#FirstTimeHomebuyer, #HomeBuyingTips, #MrChatsworthRealEstate\\n\\nPlease Visit: \\nWebsite: https://mrchatsworth.com/\\nFacebook: https://www.facebook.com/MrChatsworth\\nLinkedIn: https://www.linkedin.com/company/mrchatsworth/\\nInstagram: https://www.instagram.com/mrchatsworthofficial/\\nPinterest: https://www.pinterest.com/MrChatsworthofficial/\\nYouTube: https://www.youtube.com/channel/UCg2jRaq6Qiuh2x_joFEX_2g\\n\\nKeywords: \\nHomebuyers \\nHomes For Sale In The San Fernando Valley \\nHomebuying Tips\\nSFV Home Values\\nMr. Chatsworth  \\nRealtor in Chatsworth  \\nChatsworth CA Realtors  \\nChatsworth California Realtors  \\nChatsworth Realtor near me  \\nBest Chatsworth Realtor  \\nChatsworth Real Estate agency  \\nChatsworth Real estate agent  \\nChatsworth Realtor  \\nRealtor Chatsworth  \\nReal Estate agent in Chatsworth  \\nReal Estate agent in Chatsworth CA  \\nBest Realtor in Chatsworth  \\nBest Chatsworth  \\nreal estate agents  \\nFrank Spencer Realtor  \\nFrank Spencer Chatsworth Realtor  \\nFrank Spencer Realtor in Chatsworth\",\"channelId\":\"UCg2jRaq6Qiuh2x_joFEX_2g\",\"channelTitle\":\"Mr. Chatsworth Real Estate\",\"publishedAt\":\"2025-05-08T14:00:14Z\",\"thumbnail\":\"https://i.ytimg.com/vi/9f1NjwmnnDo/maxresdefault.jpg\",\"viewCount\":51,\"duration\":\"PT4M45S\",\"likeCount\":3,\"commentCount\":2,\"subscriberCount\":407,\"vph\":0.00019331142470520006,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"ZkB-zfU92mU\",\"title\":\"Seller paid closing costs #realestate #losangeles #realtor\",\"description\":\"A popular point of conversation these days are Seller Paid closing costs (for a Buyer). While this may be something that can be negotiated for a Buyer in a transaction (which wasn’t the case this time last year), it may not always work out. \\n\\nDepending on your loan type and down payment, the amount of allowable potential seller contribution will vary. In addition to that, some Sellers may not be willing to concede on price.\",\"channelId\":\"UCEOBPWGnfrqskizp4cw0xwQ\",\"channelTitle\":\"Living in San Fernando Valley | Scott Himelstein\",\"publishedAt\":\"2023-02-15T21:48:56Z\",\"thumbnail\":\"https://i.ytimg.com/vi/ZkB-zfU92mU/maxresdefault.jpg\",\"viewCount\":105,\"duration\":\"PT45S\",\"likeCount\":1,\"commentCount\":0,\"subscriberCount\":13600,\"vph\":null,\"outlierScore\":null},{\"kind\":\"video\",\"id\":\"nNzc6TpZKTY\",\"title\":\"First-Time Home Buyer Roadmap 🏡 From Dream to Keys\",\"description\":\"Buying your first home? 🏡\\nHere’s your step-by-step roadmap from dream to keys, everything you need to know about credit, down payment, pre-approval, home search, and closing.\\n\\nIn this video, I walk you through the full first-time home buyer journey so you can move forward with confidence:\\n\\n✔️ How to prepare your finances and improve your credit\\n✔️ What preapproval really means (and why it matters)\\n✔️ How to find the right home without feeling overwhelmed\\n✔️ What to expect during inspections, appraisal, and closing\\n✔️ Common pitfalls to avoid and how to stay on track\\n\\n📘 Free guide: 7 Things I Wish I Knew Before Buying a Home\\n👉 Download it here: [https://drive.google.com/file/d/17E6AItATPNKdl1NynuCA5pO8HpGMp6BH/view?usp=drive_link]\\n\\nI’m Lucky de Leon, Your Local Realtor® with Keller Williams VIP Properties, helping first-time buyers across Santa Clarita, San Fernando Valley and Los Angeles County turn their home goals into reality, with less stress and more clarity.\\n\\nSubscribe for more:\\n✔️ Real estate tips made simple\\n✔️ Local housing insights\\n✔️ Buyer & seller roadmaps\\n\\n#firsttimehomebuyer  #homebuyingtips  #santaclaritarealestate  #luckydeleon  #realestateexplained  #homebuying2025  #losangelesrealestate \\n\\n0:00 – Introduction\\n00:46 – Step 1: Get Financially Ready\\n01:33 – Step 2: Get Pre-approved\\n02:15 – Step 3: Start Your Search\\n02:50 – Step 4: Making an Offer & Negotiating\\n03:16 – Step 5: Inspections and Appraisal\\n03:47 – Step 6: Closing Day \\n04:07 – Final Thoughts\",\"channelId\":\"UCAH3FroyohS4zqrJeJxeJAw\",\"channelTitle\":\"Lucky de Leon | Santa Clarita Real Estate\",\"publishedAt\":\"2025-11-13T00:01:02Z\",\"thumbnail\":\"https://i.ytimg.com/vi/nNzc6TpZKTY/maxresdefault.jpg\",\"viewCount\":643,\"duration\":\"PT4M51S\",\"likeCount\":3,\"commentCount\":0,\"subscriberCount\":56,\"vph\":0.007792597032818822,\"outlierScore\":9.094445033768254},{\"kind\":\"video\",\"id\":\"HQe_zUAHenk\",\"title\":\"Buying a Home in the San Fernando Valley | EVERYTHING YOU NEED TO KNOW ABOUT THE SAN FERNANDO VALLEY\",\"description\":\"Are you looking to move to the San Fernando Valley? Are you buying a home in the San Fernando Valley in Los Angeles, California? This is the video for you! 6 things you NEED to know before moving to San Fernando Valley in Los Angeles. Living in the San Fernando Valley is a great option for one of Los Angeles' best suburbs!\\nContact Us:👇👇👇  Subscribe👉👉👉  YouTube.com/@UCHT_CFl9OeMSrytBLN0El8w \\n📱Call or Text: 818-518-4671\\n📨Email: kyle.scott@exprealty.com\\n\\n======\\nIf this is your first time to this channel, and you want to know everything about eating, sleeping, working, playing, the good, and the bad of living in the San Fernando Valley in Los Angeles, California, then subscribe▶ and tap the bell🛎 for notifications so you can be the first to know about the current market in Los Angeles.😁   \\n\\n======\\nEasy Video Navigation:\\n0:03 Tip #1 \\n0:05 Tip #2 \\n0:11 Tip #3 \\n0:21 Tip #4 \\n0:30 Tip #5 \\n0:39 Tip #6 \\n0:52 Closing\\n\\n======\\nWe get calls and emails everyday of people just like you, looking for help on making their move to Los Angeles and we absolutely love it.😍 Whether you are moving in 9 days or 90 days, give us a call☎, shoot us a text📝, or send us an email📨 so we can help you make a smooth move to the Los Angeles, California.\\n\\n======\\nBest Schools in the San Fernando Valley: bit.ly/3GUfksE\\nMore About the San Fernando Valley: bit.ly/3Wsjz4m\\nSan Fernando Valley Census Data: bit.ly/3kluz64\\n\\n**All stats, data, house pricing, and anything else mentioned is always subject to change and is provided merely as an example at the time of this recording\\n\\n======\\nKyle Scott, Los Angeles California Real Estate Agent, eXp Realty\\nCalifornia Real Estate License #02106430\\n\\n#sanfernandovalleyrealestate #sanfernandovalley #livinginthesanfernandovalley #northridge #sanfernandovalleyexplained #losangeles #losangelesrealestate #seller #sellersagent #selling #homesale #homebuyers #realestate #realestateagent #realestatetips #realestatelife\",\"channelId\":\"UCHT_CFl9OeMSrytBLN0El8w\",\"channelTitle\":\"LIVING IN THE SAN FERNANDO VALLEY\",\"publishedAt\":\"2023-03-03T00:41:59Z\",\"thumbnail\":\"https://i.ytimg.com/vi/HQe_zUAHenk/maxresdefault.jpg\",\"viewCount\":116,\"duration\":\"PT1M6S\",\"likeCount\":5,\"commentCount\":0,\"subscriberCount\":275,\"vph\":null,\"outlierScore\":8.285714285714286}],\"_credits\":{\"used\":5}}"
+      }
+    ],
+    "structuredContent": {
+      "results": [
+        {
+          "kind": "video",
+          "id": "-0oIODQQBk8",
+          "title": "🏡 Closing Costs & Realtor Fees in 2025 | San Fernando Valley Real Estate",
+          "description": "Buying a home in 2025? One of the biggest searches right now is:\n✔ “How much are closing costs?”\n✔ “Do I really have to pay my realtor?”\n✔ “What’s included in my mortgage payment?”\n\nIn this video, I’ll break it down:\n💰 Closing costs = 2–3% (insurance, title, tax impounds).\n🏡 Realtor fees — why they matter, and how buyers can negotiate sellers to pay.\n📊 What your monthly payment really includes: principal, interest, taxes, and insurance.\n\n👉 Don’t sit on the sidelines. Reach out today — I’ll connect you with trusted lenders and help you find your perfect place to call home in the San Fernando Valley.\n\n📱 Call/Text: 818-415-3657\n📨 Email: Cari@Cari4Homes.com\n🌐 More at: https://burbankneighborhoods.co\n\n0:00 – How much are closing costs in California?\n0:05 – Common buyer questions (closing costs, realtor fees, surprises)\n0:15 – Breaking down closing costs (2–3% of purchase price)\n0:25 – What’s included: insurance, title, impound account\n0:35 – Realtor fees: what’s changed & how to negotiate\n0:45 – Smart planning & saving tips for buyers\n0:55 – Call to action: let’s connect & find your perfect home",
+          "channelId": "UCPj7evP1w7PWvXB3huSv7bw",
+          "channelTitle": "Buying & Selling the San Fernando Valley & Beyond",
+          "publishedAt": "2025-09-14T16:12:08Z",
+          "thumbnail": "https://i.ytimg.com/vi/-0oIODQQBk8/maxresdefault.jpg",
+          "viewCount": 17,
+          "duration": "PT2M4S",
+          "likeCount": 0,
+          "commentCount": 0,
+          "subscriberCount": 171,
+          "vph": null,
+          "outlierScore": 2.8333333333333335
+        },
+        {
+          "kind": "video",
+          "id": "pLGFeJzCLbU",
+          "title": "First-Time Buyer? Here's What Nobody Tells You About Buying in California",
+          "description": "Everyone talks about down payments and mortgage rates. Nobody talks about the things that actually catch first-time buyers off guard in California. In this video I cover the facts, the surprises, and the things your agent, your lender, and Google probably didn't tell you before you started.\n\nIf you're thinking about buying a home in Southern California, Santa Clarita, the San Fernando Valley,  or anywhere in LA County, watch this before you make any moves.\n\n🎁 Free Southern California Buyer's Guide, email me and I'll send it today: luckydeleonhomes@gmail.com\n\n📞 Ready to talk about your situation? Call or text: 661-568-0185\n🔗 Free Buyer's Guide download: [ADD LINK WHEN READY]\n🏠 CalHFA Down Payment Assistance: https://www.calhfa.ca.gov\n📊 Check school ratings: https://www.greatschools.org\n\nChapters:\n0:00 – The question nobody asks before buying\n0:38 – The pre-approval trap\n2:05 – What your monthly payment actually looks like\n3:43 – The emotional rollercoaster nobody warns you about\n4:44 – What happens when your offer gets rejected\n5:57 – The inspection reality\n7:14 – Wire fraud — the risk nobody talks about\n8:45 – What changes the moment you own\n10:13 – Final thoughts\n\n\n#FirstTimeHomeBuyer #CaliforniaRealEstate #HomeBuyingTips #SouthernCaliforniaRealEstate #SantaClaritaRealEstate",
+          "channelId": "UCAH3FroyohS4zqrJeJxeJAw",
+          "channelTitle": "Lucky de Leon | Santa Clarita Real Estate",
+          "publishedAt": "2026-06-30T16:00:02Z",
+          "thumbnail": "https://i.ytimg.com/vi/pLGFeJzCLbU/maxresdefault.jpg",
+          "viewCount": 17,
+          "duration": "PT11M42S",
+          "likeCount": 1,
+          "commentCount": 0,
+          "subscriberCount": 56,
+          "vph": 0.0058823529411764705,
+          "outlierScore": null
+        },
+        {
+          "kind": "video",
+          "id": "hHZGqPUOYAQ",
+          "title": "Real Estate Terms Every First-Time Buyer in California Must Know",
+          "description": "Buying a home is exciting — but all the real estate jargon can make it feel overwhelming. Terms like escrow, contingencies, or appraisal can sound confusing if you haven’t been through the process before.\n\nThat’s why in this video, I’m breaking down the key real estate terms every buyer needs to know. I’ll explain them in simple, everyday language with examples you can actually relate to.\n\nHere’s what you’ll learn:\n✔ What an earnest money deposit is and why it matters\n✔ How contingencies protect you as a buyer\n✔ What happens during inspections and appraisals\n✔ What closing costs include\n✔ The roles of escrow, title, pre-approval, and more\n\nWhether you’re a first-time buyer or just want to feel more confident in the home buying process, this video will help you understand the terms and feel prepared for your journey.\n\n🏡 Buying a home should feel exciting — not confusing.\n\n📌 Subscribe for more real estate tips and buyer advice: https://www.youtube.com/@LuckydeLeonHomes\n\n📌 Looking to buy a home in Los Angeles, Santa Clarita or San Fernando Valley? I’d love to help — reach out anytime. (661) 568-0185\n\n0:00 Buying a home?\n0:27 Earnest Money Deposit  \n1:00 Contingencies  \n1:33 Appraisal  \n1:58 Inspection  \n2:24 Closing Costs  \n2:54 Escrow  \n3:18 Title  \n3:38 Pre-Approval  \n4:01 Possession Date  \n4:19 Final thoughts",
+          "channelId": "UCAH3FroyohS4zqrJeJxeJAw",
+          "channelTitle": "Lucky de Leon | Santa Clarita Real Estate",
+          "publishedAt": "2025-09-17T01:00:44Z",
+          "thumbnail": "https://i.ytimg.com/vi/hHZGqPUOYAQ/maxresdefault.jpg",
+          "viewCount": 27,
+          "duration": "PT4M53S",
+          "likeCount": 5,
+          "commentCount": 0,
+          "subscriberCount": 56,
+          "vph": 0.0007116424708226587,
+          "outlierScore": 1.3364682588788517
+        },
+        {
+          "kind": "video",
+          "id": "QlppH5yCdZo",
+          "title": "San Fernando Valley Real Estate – Cost of living",
+          "description": "In this weeks video, we show you the cost of living in the san Fernando valley, house, condo, and antelope valley home, Watch to find out how much down payment you need, what your monthly payment will be. We go over monthly payments, interest rates, down payments, closing costs, & MORE! Watch to find out what homes are going for, in different program options!\n\nWe are the Top Real Estate Agents In The San Fernando Valley!\n\n \n\nGive me a call or text if there's anything at all we can do for you at \n818-472-5491. Looking forward to hearing from you! 😊\n\n \n\nAlexis Quezada\n\nCitiwide Realty Group\n\nRealtor / Lender / General Contractor\n\nDRE#02008076 / NMLS#1752430\n\nwww.quezadarealestate.com\n\nwww.soldbyquezadateam.info",
+          "channelId": "UCOePsgDLq2__Nz34DI_lZLQ",
+          "channelTitle": "Quezada Realty Inc.",
+          "publishedAt": "2020-07-11T00:00:08Z",
+          "thumbnail": "https://i.ytimg.com/vi/QlppH5yCdZo/maxresdefault.jpg",
+          "viewCount": 249,
+          "duration": "PT10M29S",
+          "likeCount": 4,
+          "commentCount": 0,
+          "subscriberCount": 24,
+          "vph": null,
+          "outlierScore": null
+        },
+        {
+          "kind": "video",
+          "id": "9f1NjwmnnDo",
+          "title": "5 Mistakes That Could Doom A First-Time Homebuyer",
+          "description": "Thinking about buying your first home? 🏡 Before you dive into the market, there are 5 essential things every first-time homebuyer needs to know — and in this video, I’m breaking them all down in a simple, no-nonsense way. To See More Like This Please Click On This Link https://www.youtube.com/watch?v=8LNJ9kaQ8DY&list=PLOlQLfv8cYI53ENHA2n0O3Lq4oZVjSxyG\n\nIn this video we’ll cover:\n\nHow to understand your true home buying budget\n\nWhy getting pre-approved matters more than you think\n\nWhat to know about your down payment options\n\nThe hidden closing costs first-time buyers often miss\n\nHow to research your local real estate market like a pro\n\nAs a local real estate expert in Chatsworth, Porter Ranch, Northridge, and Simi Valley, I’m here to guide you through every step. Whether you’re months out or ready to buy now, these tips will help you feel more confident and informed.\n\n👉 Subscribe for weekly videos on real estate tips, market updates, and life in the Valley!\n#FirstTimeHomebuyer, #HomeBuyingTips, #MrChatsworthRealEstate\n\nPlease Visit: \nWebsite: https://mrchatsworth.com/\nFacebook: https://www.facebook.com/MrChatsworth\nLinkedIn: https://www.linkedin.com/company/mrchatsworth/\nInstagram: https://www.instagram.com/mrchatsworthofficial/\nPinterest: https://www.pinterest.com/MrChatsworthofficial/\nYouTube: https://www.youtube.com/channel/UCg2jRaq6Qiuh2x_joFEX_2g\n\nKeywords: \nHomebuyers \nHomes For Sale In The San Fernando Valley \nHomebuying Tips\nSFV Home Values\nMr. Chatsworth  \nRealtor in Chatsworth  \nChatsworth CA Realtors  \nChatsworth California Realtors  \nChatsworth Realtor near me  \nBest Chatsworth Realtor  \nChatsworth Real Estate agency  \nChatsworth Real estate agent  \nChatsworth Realtor  \nRealtor Chatsworth  \nReal Estate agent in Chatsworth  \nReal Estate agent in Chatsworth CA  \nBest Realtor in Chatsworth  \nBest Chatsworth  \nreal estate agents  \nFrank Spencer Realtor  \nFrank Spencer Chatsworth Realtor  \nFrank Spencer Realtor in Chatsworth",
+          "channelId": "UCg2jRaq6Qiuh2x_joFEX_2g",
+          "channelTitle": "Mr. Chatsworth Real Estate",
+          "publishedAt": "2025-05-08T14:00:14Z",
+          "thumbnail": "https://i.ytimg.com/vi/9f1NjwmnnDo/maxresdefault.jpg",
+          "viewCount": 51,
+          "duration": "PT4M45S",
+          "likeCount": 3,
+          "commentCount": 2,
+          "subscriberCount": 407,
+          "vph": 0.00019331142470520006,
+          "outlierScore": null
+        },
+        {
+          "kind": "video",
+          "id": "ZkB-zfU92mU",
+          "title": "Seller paid closing costs #realestate #losangeles #realtor",
+          "description": "A popular point of conversation these days are Seller Paid closing costs (for a Buyer). While this may be something that can be negotiated for a Buyer in a transaction (which wasn’t the case this time last year), it may not always work out. \n\nDepending on your loan type and down payment, the amount of allowable potential seller contribution will vary. In addition to that, some Sellers may not be willing to concede on price.",
+          "channelId": "UCEOBPWGnfrqskizp4cw0xwQ",
+          "channelTitle": "Living in San Fernando Valley | Scott Himelstein",
+          "publishedAt": "2023-02-15T21:48:56Z",
+          "thumbnail": "https://i.ytimg.com/vi/ZkB-zfU92mU/maxresdefault.jpg",
+          "viewCount": 105,
+          "duration": "PT45S",
+          "likeCount": 1,
+          "commentCount": 0,
+          "subscriberCount": 13600,
+          "vph": null,
+          "outlierScore": null
+        },
+        {
+          "kind": "video",
+          "id": "nNzc6TpZKTY",
+          "title": "First-Time Home Buyer Roadmap 🏡 From Dream to Keys",
+          "description": "Buying your first home? 🏡\nHere’s your step-by-step roadmap from dream to keys, everything you need to know about credit, down payment, pre-approval, home search, and closing.\n\nIn this video, I walk you through the full first-time home buyer journey so you can move forward with confidence:\n\n✔️ How to prepare your finances and improve your credit\n✔️ What preapproval really means (and why it matters)\n✔️ How to find the right home without feeling overwhelmed\n✔️ What to expect during inspections, appraisal, and closing\n✔️ Common pitfalls to avoid and how to stay on track\n\n📘 Free guide: 7 Things I Wish I Knew Before Buying a Home\n👉 Download it here: [https://drive.google.com/file/d/17E6AItATPNKdl1NynuCA5pO8HpGMp6BH/view?usp=drive_link]\n\nI’m Lucky de Leon, Your Local Realtor® with Keller Williams VIP Properties, helping first-time buyers across Santa Clarita, San Fernando Valley and Los Angeles County turn their home goals into reality, with less stress and more clarity.\n\nSubscribe for more:\n✔️ Real estate tips made simple\n✔️ Local housing insights\n✔️ Buyer & seller roadmaps\n\n#firsttimehomebuyer  #homebuyingtips  #santaclaritarealestate  #luckydeleon  #realestateexplained  #homebuying2025  #losangelesrealestate \n\n0:00 – Introduction\n00:46 – Step 1: Get Financially Ready\n01:33 – Step 2: Get Pre-approved\n02:15 – Step 3: Start Your Search\n02:50 – Step 4: Making an Offer & Negotiating\n03:16 – Step 5: Inspections and Appraisal\n03:47 – Step 6: Closing Day \n04:07 – Final Thoughts",
+          "channelId": "UCAH3FroyohS4zqrJeJxeJAw",
+          "channelTitle": "Lucky de Leon | Santa Clarita Real Estate",
+          "publishedAt": "2025-11-13T00:01:02Z",
+          "thumbnail": "https://i.ytimg.com/vi/nNzc6TpZKTY/maxresdefault.jpg",
+          "viewCount": 643,
+          "duration": "PT4M51S",
+          "likeCount": 3,
+          "commentCount": 0,
+          "subscriberCount": 56,
+          "vph": 0.007792597032818822,
+          "outlierScore": 9.094445033768254
+        },
+        {
+          "kind": "video",
+          "id": "HQe_zUAHenk",
+          "title": "Buying a Home in the San Fernando Valley | EVERYTHING YOU NEED TO KNOW ABOUT THE SAN FERNANDO VALLEY",
+          "description": "Are you looking to move to the San Fernando Valley? Are you buying a home in the San Fernando Valley in Los Angeles, California? This is the video for you! 6 things you NEED to know before moving to San Fernando Valley in Los Angeles. Living in the San Fernando Valley is a great option for one of Los Angeles' best suburbs!\nContact Us:👇👇👇  Subscribe👉👉👉  YouTube.com/@UCHT_CFl9OeMSrytBLN0El8w \n📱Call or Text: 818-518-4671\n📨Email: kyle.scott@exprealty.com\n\n======\nIf this is your first time to this channel, and you want to know everything about eating, sleeping, working, playing, the good, and the bad of living in the San Fernando Valley in Los Angeles, California, then subscribe▶ and tap the bell🛎 for notifications so you can be the first to know about the current market in Los Angeles.😁   \n\n======\nEasy Video Navigation:\n0:03 Tip #1 \n0:05 Tip #2 \n0:11 Tip #3 \n0:21 Tip #4 \n0:30 Tip #5 \n0:39 Tip #6 \n0:52 Closing\n\n======\nWe get calls and emails everyday of people just like you, looking for help on making their move to Los Angeles and we absolutely love it.😍 Whether you are moving in 9 days or 90 days, give us a call☎, shoot us a text📝, or send us an email📨 so we can help you make a smooth move to the Los Angeles, California.\n\n======\nBest Schools in the San Fernando Valley: bit.ly/3GUfksE\nMore About the San Fernando Valley: bit.ly/3Wsjz4m\nSan Fernando Valley Census Data: bit.ly/3kluz64\n\n**All stats, data, house pricing, and anything else mentioned is always subject to change and is provided merely as an example at the time of this recording\n\n======\nKyle Scott, Los Angeles California Real Estate Agent, eXp Realty\nCalifornia Real Estate License #02106430\n\n#sanfernandovalleyrealestate #sanfernandovalley #livinginthesanfernandovalley #northridge #sanfernandovalleyexplained #losangeles #losangelesrealestate #seller #sellersagent #selling #homesale #homebuyers #realestate #realestateagent #realestatetips #realestatelife",
+          "channelId": "UCHT_CFl9OeMSrytBLN0El8w",
+          "channelTitle": "LIVING IN THE SAN FERNANDO VALLEY",
+          "publishedAt": "2023-03-03T00:41:59Z",
+          "thumbnail": "https://i.ytimg.com/vi/HQe_zUAHenk/maxresdefault.jpg",
+          "viewCount": 116,
+          "duration": "PT1M6S",
+          "likeCount": 5,
+          "commentCount": 0,
+          "subscriberCount": 275,
+          "vph": null,
+          "outlierScore": 8.285714285714286
+        }
+      ]
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "V02",
+  "assets": {
+    "street.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/street.jpg",
+    "listing-02-living.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-02-living.jpg",
+    "coffee.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/coffee.jpg",
+    "101.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/101.jpg",
+    "street2.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/street2.jpg",
+    "listing-01-exterior.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-01-exterior.jpg",
+    "house.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/house.jpg",
+    "listing-04-kitchen.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/listing-04-kitchen.jpg",
+    "kitchen.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/kitchen.jpg",
+    "jen-headshot-studio.jpg": "/Users/farricecain/.codex/worktrees/35aa/Google Antigravity/_active/clients/jen-listings/04-deliverables/social-content/2026-09-06-vidiq-production-run/faithful-rebuild/assets/jen-headshot-studio.jpg"
+  },
+  "slides": [
+    {
+      "photos": [
+        {
+          "name": "listing-01-exterior.jpg",
+          "y": 0,
+          "h": 440,
+          "wash": 0.33,
+          "pos": "center"
+        },
+        {
+          "name": "kitchen.jpg",
+          "y": 440,
+          "h": 480,
+          "wash": 0.47,
+          "pos": "center"
+        },
+        {
+          "name": "street2.jpg",
+          "y": 920,
+          "h": 430,
+          "wash": 0.35,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "$10,000 off the price…",
+          "y": 235,
+          "size": 72,
+          "x": 45,
+          "w": 990,
+          "cls": "serif center"
+        },
+        {
+          "s": "or",
+          "y": 477,
+          "size": 101,
+          "x": 45,
+          "w": 990,
+          "cls": "script center"
+        },
+        {
+          "s": "…$10,000<br>toward closing?",
+          "y": 630,
+          "size": 99,
+          "x": 45,
+          "w": 990,
+          "cls": "serif center"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "listing-02-living.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "a lower price<br>can mean a<br>smaller loan.",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "less borrowed.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "Borrow $10,000 less → about $63/month<br>less in principal + interest.*<br>*Example: 6.5% fixed, 30 years.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "coffee.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "a seller credit<br>can reduce your<br>cash to close.",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "more cash left.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "An eligible $10,000 credit can cover<br>$10,000 of closing costs.<br>Your lender checks the limits.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "kitchen.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "“what will i<br>have left after<br>we close?”",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "start there.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "If cash is the concern, compare<br>the credit. If payment is the concern,<br>compare the lower loan amount.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "street.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "ask your lender<br>to show you<br>both versions.",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "same home. two options.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "Cash to close.<br>Monthly payment.<br>Savings left afterward.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    },
+    {
+      "photos": [
+        {
+          "name": "listing-04-kitchen.jpg",
+          "y": 0,
+          "h": 1350,
+          "wash": 0.44,
+          "pos": "center"
+        }
+      ],
+      "text": [
+        {
+          "s": "before you ask<br>for $10,000 off,",
+          "y": 245,
+          "size": 96,
+          "x": 86,
+          "w": 908,
+          "cls": "serif"
+        },
+        {
+          "s": "compare this.",
+          "y": 685,
+          "size": 94,
+          "x": 86,
+          "w": 908,
+          "cls": "script"
+        },
+        {
+          "s": "comment NEGOTIATE for the<br>side-by-side guide.<br>Terms depend on the loan + seller.",
+          "y": 945,
+          "size": 42,
+          "x": 86,
+          "w": 908,
+          "cls": "sans"
+        }
+      ]
+    }
+  ],
+  "caption": "$10,000 off sounds like the obvious win. but what if the part keeping you up is how much cash you’ll have left after closing?\n\na lower price can mean a smaller loan. a seller credit can cover eligible closing costs, so you bring less cash to closing.\n\nhere’s the scale: borrowing $10,000 less at an illustrative 6.5% fixed rate over 30 years lowers principal and interest by about $63 a month. that is not the same as an eligible $10,000 closing-cost credit.\n\ni’d want you to see both: the cash you bring, the monthly payment and what’s left in your account afterward. then we can ask for the concession that actually helps you.\n\ncomment NEGOTIATE and i’ll send you the side-by-side guide.\n\nExample only, not a rate quote. A $10,000 price cut may reduce the loan by less than $10,000 depending on the down payment. Credit limits and eligible costs depend on the loan; seller agreement is required. Taxes, insurance and other costs are separate.\n\nJennifer Santulan · Equity Union · DRE #01914509\n#SanFernandoValleyRealEstate #HomeBuyingTips #FirstTimeHomeBuyer"
+}

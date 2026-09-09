@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "415 sessions swept",
-  "compiled": "sep 8, 2026",
+  "sources": "406 sessions swept",
+  "compiled": "sep 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.\n\nNeeds a decision: recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,11 +28,11 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "17",
+          "value": "16",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "16",
+          "value": "0",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "415",
+          "value": "406",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -56,39 +56,18 @@
             0,
             0,
             0,
+            1,
             0,
-            1,
-            1,
-            4,
+            2,
             1,
             1,
             1,
             0,
             2,
-            3
+            3,
+            1
           ],
-          "value": "14",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            4,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "5",
+          "value": "12",
           "note": "per day"
         },
         {
@@ -102,8 +81,8 @@
             0,
             0,
             0,
-            0,
             51,
+            0,
             0,
             0,
             0,
@@ -121,6 +100,12 @@
       "caption": "weighted: deliverables ×3 + files + assets",
       "series": [
         {
+          "label": "linkedin",
+          "values": [
+            9
+          ]
+        },
+        {
           "label": "harness",
           "values": [
             2
@@ -133,21 +118,9 @@
           ]
         },
         {
-          "label": "linkedin",
-          "values": [
-            9
-          ]
-        },
-        {
           "label": "video studio edit bay",
           "values": [
             40
-          ]
-        },
-        {
-          "label": "recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity",
-          "values": [
-            5
           ]
         },
         {
@@ -173,6 +146,12 @@
           "values": [
             3
           ]
+        },
+        {
+          "label": "listing content",
+          "values": [
+            3
+          ]
         }
       ]
     },
@@ -181,6 +160,11 @@
       "heading": "every live *thread*",
       "tag": "OPEN ONE",
       "links": [
+        {
+          "k": "ACTIVE",
+          "title": "linkedin",
+          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
+        },
         {
           "k": "ACTIVE",
           "title": "harness",
@@ -192,19 +176,9 @@
           "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "linkedin",
-          "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
-        },
-        {
           "k": "READY",
           "title": "video studio edit bay",
           "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
-        },
-        {
-          "k": "BUILD",
-          "title": "recover jen santulan s established brand and prior two concept strategy from local history and current public instagram evidence preserve her existing identity",
-          "path": "deliverables/research-briefs/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity/mission-recover-jen-santulan-s-established-brand-and-prior-two-concept-strategy-from-local-history-and-current-public-instagram-evidence-preserve-her-existing-identity-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -225,6 +199,11 @@
           "k": "READY",
           "title": "extract forge",
           "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "listing content",
+          "path": "deliverables/research-briefs/mission-listing-content/mission-listing-content-brief.html"
         },
         {
           "k": "READY",
@@ -262,12 +241,6 @@
         },
         {
           "date": "2026-08-29",
-          "title": "listing-content",
-          "body": "Demo Listing Launch Kit on fictional SFV listing: 10-shot shoot sheet, 3 teleprompter reels (objection-first hooks, one proof each), pick-one captions + carouse",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
           "title": "offer-packaging",
           "body": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
           "done": true
@@ -289,12 +262,6 @@
           "title": "watch-and-extract",
           "body": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
           "done": true
-        },
-        {
-          "date": "2026-08-26",
-          "title": "deep-research-os",
-          "body": "KDP portfolio opportunity map with 38 candidates, three decision dossiers, unit economics, counterevidence, and seven-day validation sprint",
-          "done": true
         }
       ]
     },
@@ -302,7 +269,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n262 more threads cleared the bar but sit below the 12-card ceiling and were not carded: listing content, offer packaging, deep research, create, angle map listening engine v4 1, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, god agent offer, readout os.\n\n340 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n262 more threads cleared the bar but sit below the 12-card ceiling and were not carded: offer packaging, create, angle map listening engine v4 1, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind.\n\n338 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

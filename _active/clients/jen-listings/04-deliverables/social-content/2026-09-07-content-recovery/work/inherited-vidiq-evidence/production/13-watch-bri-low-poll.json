@@ -1,0 +1,14 @@
+{
+  "mcpJobId": "job_bdf0dcd1-526e-4860-af8f-455308cd75b4",
+  "toolName": "vidiq_watch_shortform_content",
+  "status": "completed",
+  "result": {
+    "platform": "instagram",
+    "contentId": "DcfBQOoMXde",
+    "canonicalUrl": "https://www.instagram.com/reel/DcfBQOoMXde/",
+    "analysisText": "### Scene 1: Direct-to-Camera Question\n**(00:00-00:05):** A medium close-up shot shows a woman with dark hair in micro braids looking slightly off-camera before glancing down and back up with a subtle smile. She sits against a plain, neutral wall under warm interior lighting. The shot is a single continuous shot with text overlaid across the lower third of the frame.\n- **Spoken:** `none`\n- **Delivery:** none\n- **On-screen text:** \"Think you need perfect credit, a huge down payment, and thousands in savings to buy a home? Let's talk.\"\n\n### Audio\n- **First 1-2 seconds:** A high-pitched, melodic synth bell and chime intro begins immediately.\n- **Overall:** Ambient electronic instrumental / chime-driven background track with no spoken voiceover.\n\n### Summary\n- The video addresses common misconceptions regarding homebuying requirements, including credit score, down payments, and savings.\n- A single continuous shot displays a woman reacting silently to the camera with changing expressions.\n- The entire message is delivered visually via text overlay paired with a light, melodic instrumental audio track.",
+    "durationSeconds": 6.24399995803833
+  },
+  "refunded": false,
+  "message": null
+}

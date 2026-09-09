@@ -1,0 +1,82 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "key": "broll-rachael",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"mcpJobId\":\"job_e19c683f-68ae-4616-816d-1829bba0c409\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_e19c683f-68ae-4616-816d-1829bba0c409\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+          }
+        ],
+        "structuredContent": {
+          "mcpJobId": "job_e19c683f-68ae-4616-816d-1829bba0c409",
+          "status": "inprogress",
+          "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_e19c683f-68ae-4616-816d-1829bba0c409\" to check progress and retrieve the result."
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "key": "broll-nate",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"mcpJobId\":\"job_6aa35109-5656-4a86-8db6-48da7d40fd7b\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_6aa35109-5656-4a86-8db6-48da7d40fd7b\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+          }
+        ],
+        "structuredContent": {
+          "mcpJobId": "job_6aa35109-5656-4a86-8db6-48da7d40fd7b",
+          "status": "inprogress",
+          "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_6aa35109-5656-4a86-8db6-48da7d40fd7b\" to check progress and retrieve the result."
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "key": "yap-logan",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"mcpJobId\":\"job_8795ad9d-461d-42a1-bf22-c286f7c358d5\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_8795ad9d-461d-42a1-bf22-c286f7c358d5\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+          }
+        ],
+        "structuredContent": {
+          "mcpJobId": "job_8795ad9d-461d-42a1-bf22-c286f7c358d5",
+          "status": "inprogress",
+          "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_8795ad9d-461d-42a1-bf22-c286f7c358d5\" to check progress and retrieve the result."
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "key": "yap-trips",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"mcpJobId\":\"job_fb9910f0-abf7-4e47-a116-81372e42ee3b\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_fb9910f0-abf7-4e47-a116-81372e42ee3b\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+          }
+        ],
+        "structuredContent": {
+          "mcpJobId": "job_fb9910f0-abf7-4e47-a116-81372e42ee3b",
+          "status": "inprogress",
+          "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_fb9910f0-abf7-4e47-a116-81372e42ee3b\" to check progress and retrieve the result."
+        },
+        "isError": false
+      }
+    }
+  }
+]

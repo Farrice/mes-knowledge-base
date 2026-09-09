@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (3517 Commands)
+# 🚀 Antigravity Workflows — Complete Index (3516 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type a slash command directly.
 
@@ -9,7 +9,6 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 |---------|-------------|
 | `/seo-keyword-audit` | Audit a keyword for buyer intent using linguistic analysis and live SERP validation |
 | `/deep-research` | Perplexity Deep Research + 3 parallel specialist agents (pattern hunter, psychology miner, contrarian scout) + adversarial challenge + McKinsey-grade strategic intelligence report |
-| `/fladlien-delivery` | Jason Fladlien delivery pass for written content, recorded media, live sales and focused audits |
 | `/copy-engine` | Cold-start → converting copy. Grounds a market ONCE in real research + social listening (cost-previewed, ~$0.50–2.50 / often $0 under Ultra), caches it, then assembles + proof-verifies world-class copy. Every later iteration/refinement reuses the cache at **$0**. "Ground Once, Refine Free." |
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
@@ -1927,3 +1926,5 @@ Names only — run `/arsenal <task>` for what each one does.
 ---
 
 > **Quick tip:** Don't see what you need? Just describe what you want to do and the system will find the right workflow — or build a new one.
+
+| `/fladlien-delivery` | Jason Fladlien delivery pass for written content, recorded media, live sales and focused audits |

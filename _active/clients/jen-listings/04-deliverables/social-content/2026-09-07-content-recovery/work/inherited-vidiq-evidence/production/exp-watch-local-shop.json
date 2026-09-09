@@ -1,0 +1,18 @@
+{
+  "key": "local-shop",
+  "url": "https://www.instagram.com/reel/DbMUBmlhKKr/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_5790bab3-7998-4476-87d0-eabf4ed71b4d\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_5790bab3-7998-4476-87d0-eabf4ed71b4d\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_5790bab3-7998-4476-87d0-eabf4ed71b4d",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_5790bab3-7998-4476-87d0-eabf4ed71b4d\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mcpJobId": "job_0e143aaf-71e6-41ca-9ed5-1e860f8410a8",
+  "status": "inprogress",
+  "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_0e143aaf-71e6-41ca-9ed5-1e860f8410a8\" to check progress and retrieve the result."
+}

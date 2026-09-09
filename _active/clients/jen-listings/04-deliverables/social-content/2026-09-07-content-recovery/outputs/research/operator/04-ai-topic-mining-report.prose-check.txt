@@ -1,0 +1,16 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    WARNING
+  AI Score:   2/10
+  Words:      4155
+  Signals:    1
+  Rhythm CV:  3.11 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 55 parallel blocks found
+
+  Review these before finalizing: 
+============================================================
+

@@ -1,0 +1,18 @@
+{
+  "key": "12-watch-bri-winner",
+  "url": "https://www.instagram.com/reel/DcrQaT-tVyQ/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_fbd862bb-431b-434b-913a-ff4b525565ae\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_fbd862bb-431b-434b-913a-ff4b525565ae\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_fbd862bb-431b-434b-913a-ff4b525565ae",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_fbd862bb-431b-434b-913a-ff4b525565ae\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

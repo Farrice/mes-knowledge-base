@@ -1,0 +1,18 @@
+{
+  "key": "question-proof",
+  "url": "https://www.tiktok.com/@christianatherealtor/video/7668367393843858719",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_5d800cc1-9e09-43fe-928f-ec7efdc84f3a\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_5d800cc1-9e09-43fe-928f-ec7efdc84f3a\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_5d800cc1-9e09-43fe-928f-ec7efdc84f3a",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_5d800cc1-9e09-43fe-928f-ec7efdc84f3a\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

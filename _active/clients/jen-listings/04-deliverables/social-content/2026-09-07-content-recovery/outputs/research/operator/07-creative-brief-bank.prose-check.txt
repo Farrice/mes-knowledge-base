@@ -1,0 +1,17 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    FLAGGED
+  AI Score:   5.0/10
+  Words:      1717
+  Signals:    2
+  Rhythm CV:  0.89 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 4 parallel blocks found
+    [3.0] aphoristic_endings — No invented repair estimate., [regret](https://www.reddit.com/r/LosAng, [@logan_the_lender reference](https://ww
+
+  This prose reads AI-generated. Expert Standard capped at 6. Rewrite with: shorter sentences, active voice, specific details over abstractions, and the expert's actual vocabulary (not AI vocabulary).
+============================================================
+

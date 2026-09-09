@@ -1,0 +1,17 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    FLAGGED
+  AI Score:   4.0/10
+  Words:      1496
+  Signals:    2
+  Rhythm CV:  2.02 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 14 parallel blocks found
+    [2.0] internal_anaphora — 'tests' x3
+
+  This prose reads AI-generated. Expert Standard capped at 6. Rewrite with: shorter sentences, active voice, specific details over abstractions, and the expert's actual vocabulary (not AI vocabulary).
+============================================================
+

@@ -1,0 +1,38 @@
+{
+  "original_log": "/Users/farricecain/.codex/sessions/2026/09/07/rollout-2026-09-07T08-18-16-01a07c72-da57-7f73-a995-745e6ad1c96d.jsonl",
+  "evidence": [
+    {
+      "line": 122,
+      "timestamp": "2026-09-07T15:22:49.026Z",
+      "event": "original caption delivered",
+      "caption": "you can delete the “sorry to bother you” part 😂\n\nand the “i know you already explained this” part. you’re allowed to understand something while we’re on the phone and then hang up and go… wait.\n\nsometimes you don’t realize what you’re unsure about until someone asks how the house stuff is going and you try to explain it out loud.\n\ntext me. even if all you have is a screenshot with “???” underneath. we can start there.\n\ni talk about this stuff every day. you’re buying a home while you also have work tomorrow and still haven’t figured out dinner. i’m expecting questions.\n\nand if i explain something and you’re still lost, please tell me. i can try another way. you don’t have to politely let me finish and then go ask google what i meant."
+    },
+    {
+      "line": 132,
+      "timestamp": "2026-09-07T15:30:31.704Z",
+      "event": "user approved",
+      "text": "This is the register. This is so good! I love this. This is it!"
+    },
+    {
+      "line": 148,
+      "timestamp": "2026-09-07T15:31:27.870Z",
+      "event": "post-approval expansion",
+      "text": "We got here by giving the buyer a real conversational reply and letting Jen’s humor come through in how she responds. I’ll capture what made this caption work, then develop three new on-screen-text and caption pairs with different jobs: recognition, comparison, and reassurance.\n"
+    },
+    {
+      "line": 177,
+      "timestamp": "2026-09-07T15:34:45.106Z",
+      "event": "post-approval expansion",
+      "text": "Yes—the thing to preserve is a repeatable way of producing the work, with this caption as a concrete standard. It needs to accept either a topic or research, find the human situation, and develop the on-screen text and caption together. I’m using the Source-to-Skill-System workflow to build that reusable flow locally, with Jen’s voice as one specific application and checks that catch a return to generic copy.\n"
+    }
+  ],
+  "approved_caption_exact_match": true,
+  "approved_file_sha256": "9a49863f03c746c54541c30de0a2325db6e851bb6618267d6fdb2461dc9f89d3",
+  "preservation_lock": {
+    "keep": "Exact approved overlay, caption, filming note, full source packet and user verdict.",
+    "change": "Current continuation and candidate statuses only.",
+    "do_not_disturb": "Approved visuals and research; user-edited candidate; original source worktrees.",
+    "risk": "Mistaking preservation for demonstrated repeatability, or selecting high-view references with different conversational purpose.",
+    "gate": "No new content production in this recovery turn."
+  }
+}

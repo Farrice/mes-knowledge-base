@@ -1,0 +1,17 @@
+
+============================================================
+  PROSE CLASSIFICATION
+============================================================
+  Verdict:    WARNING
+  AI Score:   3.5/10
+  Words:      1316
+  Signals:    2
+  Rhythm CV:  1.89 (varied)
+
+  DETECTED PATTERNS:
+    [2.0] parallel_structure_overuse — 14 parallel blocks found
+    [1.5] town_crier_register — HOW MUCH DO YOU NEED TO MAKE TO AFFORD
+
+  Review these before finalizing: Lower the register — whisper the secret, don't shout the billboard
+============================================================
+

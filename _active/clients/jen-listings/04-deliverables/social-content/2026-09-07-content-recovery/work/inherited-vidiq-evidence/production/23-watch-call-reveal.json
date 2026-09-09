@@ -1,0 +1,18 @@
+{
+  "key": "23-watch-call-reveal",
+  "url": "https://www.tiktok.com/@g_stavotpg/video/7672914220735925534",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_1a301b9b-e03f-40ce-9285-41b74356c427\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_1a301b9b-e03f-40ce-9285-41b74356c427\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_1a301b9b-e03f-40ce-9285-41b74356c427",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_1a301b9b-e03f-40ce-9285-41b74356c427\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

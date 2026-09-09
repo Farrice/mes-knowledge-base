@@ -1,0 +1,18 @@
+{
+  "key": "22-watch-blinds",
+  "url": "https://www.instagram.com/reel/Dax4JjkOdcN/",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mcpJobId\":\"job_1f3f2c7f-ae37-456e-8911-8231009d2b62\",\"status\":\"inprogress\",\"message\":\"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \\\"job_1f3f2c7f-ae37-456e-8911-8231009d2b62\\\" to check progress and retrieve the result.\",\"_credits\":{\"used\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "mcpJobId": "job_1f3f2c7f-ae37-456e-8911-8231009d2b62",
+      "status": "inprogress",
+      "message": "Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_1f3f2c7f-ae37-456e-8911-8231009d2b62\" to check progress and retrieve the result."
+    },
+    "isError": false
+  }
+}

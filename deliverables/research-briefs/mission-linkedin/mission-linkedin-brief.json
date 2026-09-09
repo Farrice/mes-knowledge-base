@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 9 assets",
-  "compiled": "sep 8, 2026",
+  "compiled": "sep 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 31d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 32d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -103,7 +103,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "4",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -125,8 +125,8 @@
             0,
             0,
             0,
-            0,
             9,
+            0,
             0,
             0,
             0,
@@ -231,9 +231,9 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-09-07",
-          "title": "commit b6ca8e252",
-          "body": "Merge branch 'codex/scrapes-os-audit-20260907'\u000099511607894726a75f0cb2bfab630ea04c0d2355",
+          "date": "2026-09-08",
+          "title": "commit 57eb5bb26",
+          "body": "Merge branch 'codex/dan-koe-payoff-proof'\u00009b327b95636cfee5255f369e94b68308eccf15f6",
           "done": true
         }
       ]
@@ -314,7 +314,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 18 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

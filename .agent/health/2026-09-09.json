@@ -1,0 +1,263 @@
+{
+  "ts": "2026-09-09T06:15:05",
+  "date": "2026-09-09",
+  "deep": false,
+  "context_injection": {
+    "claude_md_bytes": 22109,
+    "memory_md_bytes": 18909,
+    "memory_md_entries": 130,
+    "master_context_bytes": 30914,
+    "total_bytes": 71932,
+    "memory_dir_files": 222,
+    "memory_dir_bytes": 664888
+  },
+  "assets": {
+    "skills": 424,
+    "workflows": 2872,
+    "agents": 242,
+    "directives": 97,
+    "execution_scripts": 455,
+    "verify_scripts": 125,
+    "hooks": 18,
+    "solution_cards": 112
+  },
+  "tmp": {
+    "bytes": 15474176334,
+    "files": 200039
+  },
+  "ledgers": {
+    "observe_log_bytes": 5034178,
+    "steering_observe_bytes": 82440,
+    "missions_bytes": 134827,
+    "content_finish_bytes": 129424
+  },
+  "verification_misses_total": 7,
+  "mcp_calls_30d": 45,
+  "mcp_paid_calls_30d": 45,
+  "steering_misses_7d": 62,
+  "session_ledger": {
+    "events": 1451,
+    "debted_sessions": 192,
+    "noise_factor": 7.6,
+    "zero_spawn_sessions": 135,
+    "latest_week": [
+      "2026-W37",
+      4
+    ]
+  },
+  "git": {
+    "remote_branches": 102,
+    "stashes": 8,
+    "dirty_files": 120
+  },
+  "active_stale_files_60d": 2789,
+  "hooks_config": {
+    "hash": "8255c84fc4f7bbbf",
+    "baseline_hash": "8e5f9a19a3927019",
+    "drifted": true,
+    "evidence_age_days": {
+      "session_ledger": 0.4,
+      "steering_loop": 2.1
+    }
+  },
+  "pending_review": {
+    "pending": 0,
+    "approved": 14,
+    "rejected": 0
+  },
+  "governance": {
+    "CLAUDE.md": 22109,
+    "CODEX.md": 28979,
+    "AGENTS.md": 23805,
+    "GEMINI.md": 14730,
+    "SLASH_COMMANDS.md": 206720,
+    "SKILL_INDEX.md": 78035,
+    "AGENT_INDEX.md": 50641,
+    "DOMAIN_REGISTRY.md": 50821,
+    "PRODUCTION_CORE.md": 3892,
+    "FARRICE-MASTER-CONTEXT.md": 30914,
+    "child_claude_md": {
+      "count": 595,
+      "bytes": 6315441
+    },
+    "agent_md": {
+      "count": 241,
+      "bytes": 1393708,
+      "largest": "kallaway"
+    }
+  },
+  "launchd": {
+    "com.antigravity.angle-map-listening": {
+      "weekly": false,
+      "log_age_days": 12.8,
+      "last_exit": 1,
+      "log_path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log"
+    },
+    "com.antigravity.citation-integrity": {
+      "weekly": true,
+      "log_age_days": 1.5,
+      "last_exit": 1,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/citation-integrity.log"
+    },
+    "com.antigravity.cos-notify": {
+      "weekly": false,
+      "log_age_days": 0.4,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/cos-notify.log"
+    },
+    "com.antigravity.cos-prep": {
+      "weekly": false,
+      "log_age_days": 1.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/prep.log"
+    },
+    "com.antigravity.daily-health-audit": {
+      "weekly": false,
+      "log_age_days": 0.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/health/daily-audit.log"
+    },
+    "com.antigravity.distill-weekly": {
+      "weekly": true,
+      "log_age_days": 3.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/distill-weekly.log"
+    },
+    "com.antigravity.event-listener": {
+      "weekly": false,
+      "log_age_days": 0.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/event-listener.log"
+    },
+    "com.antigravity.evolution-auto": {
+      "weekly": false,
+      "log_age_days": 0.4,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/evolution-logs/evolution-auto.log"
+    },
+    "com.antigravity.harvest-memory-daily": {
+      "weekly": false,
+      "log_age_days": 0.9,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/harvest-memory-daily.log"
+    },
+    "com.antigravity.health-metrics": {
+      "weekly": false,
+      "log_age_days": 4.0,
+      "last_exit": -15,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/health/collector.log"
+    },
+    "com.antigravity.knowledge-compiler-weekly": {
+      "weekly": true,
+      "log_age_days": 3.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/knowledge-compiler-weekly.log"
+    },
+    "com.antigravity.lane-reconciler": {
+      "weekly": false,
+      "log_age_days": 0.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/lane-reconciler.log"
+    },
+    "com.antigravity.memory-backup": {
+      "weekly": false,
+      "log_age_days": 0.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/launchd.log"
+    },
+    "com.antigravity.memory-maintenance": {
+      "weekly": false,
+      "log_age_days": 0.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/maintenance.log"
+    },
+    "com.antigravity.memory-review-nudge": {
+      "weekly": true,
+      "log_age_days": 1.5,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/memory-review-nudge.log"
+    },
+    "com.antigravity.menu-parity": {
+      "weekly": false,
+      "log_age_days": 1.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/sessions/menu-parity.log"
+    },
+    "com.antigravity.mirror-nightly": {
+      "weekly": false,
+      "log_age_days": 0.2,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/mirror-nightly.log"
+    },
+    "com.antigravity.mission-runner": {
+      "weekly": false,
+      "log_age_days": 0.2,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/mission-queue/launchd-stdout.log"
+    },
+    "com.antigravity.outcome-chase": {
+      "weekly": true,
+      "log_age_days": 3.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/outcome-chase.log"
+    },
+    "com.antigravity.pulse-serve": {
+      "weekly": false,
+      "log_age_days": 0.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/pulse/serve.log"
+    },
+    "com.antigravity.session-sweep": {
+      "weekly": false,
+      "log_age_days": 0.1,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/sweep/session-sweep.log"
+    },
+    "com.antigravity.shelf-report": {
+      "weekly": true,
+      "log_age_days": 1.5,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/catalog/shelf-report.log"
+    },
+    "com.antigravity.skills-sync": {
+      "weekly": true,
+      "log_age_days": 3.2,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/.agents/skill-sync-stdout.log"
+    },
+    "com.antigravity.verify-fleet": {
+      "weekly": true,
+      "log_age_days": 1.5,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
+    },
+    "com.antigravity.weekly-harness-cards": {
+      "weekly": true,
+      "log_age_days": 2.4,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/weekly-cards.log"
+    }
+  },
+  "verify_fleet": {
+    "ts": "2026-08-30T05:36:29.336727",
+    "age_days": 10.0,
+    "failing": 21,
+    "total": 97
+  },
+  "flags": [
+    "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log",
+    "routine com.antigravity.citation-integrity: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log",
+    "routine com.antigravity.health-metrics: last exit -15 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/collector.log",
+    ".tmp at 15,474MB / 200,039 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
+    "observe-log.jsonl at 5.0MB \u2014 rotation due (gzip to .agent/sessions/archive/); keeps ledger greppable, archives history",
+    "102 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
+    "hook config drifted vs blessed baseline \u2014 diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately",
+    "_active/ holds 2789 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
+    "CLAUDE.md at 22KB (injected every session) \u2014 compress per claude-md-optimization playbook; rules preserved, tokens back",
+    "launchd com.antigravity.angle-map-listening: log silent 13d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
+    "launchd com.antigravity.health-metrics: log silent 4d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.health-metrics`",
+    "verifier fleet: 21/97 failing (run 2026-08-30) \u2014 each is a contract the system claims to hold; triage in weekly closeout",
+    "session context injection grew 34% in ~1mo (54KB \u2192 72KB) \u2014 every session pays this; trim or justify",
+    "skills grew +60 in ~1mo with growth unchecked \u2014 pair new builds with archive passes or the routing surface dilutes"
+  ]
+}
