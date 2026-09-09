@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "scope": "Jen content studio opt-in production comparison",
+  "repair_attempts": 0,
+  "adoption": "UNPROVEN",
+  "cases": [
+    {
+      "id": "broll-1",
+      "status": "AWAITING_HUMAN_COMPARISON",
+      "matched_inputs_verified": true,
+      "approved_standard_met": null,
+      "no_regression": null,
+      "human_review": {
+        "reviewer": null,
+        "preferred": null,
+        "evidence": null
+      },
+      "effort": {
+        "solo_minutes": null,
+        "swarm_minutes": null,
+        "basis": null,
+        "evidence": null
+      },
+      "states": {
+        "copy_approval": "PENDING",
+        "rendered_availability": "NOT_RENDERED",
+        "client_approval": "PENDING",
+        "delivery": "LOCAL_REVIEW_ONLY",
+        "publishing": "NOT_POSTED"
+      },
+      "revision_rounds": {
+        "solo": 0,
+        "swarm": 0
+      },
+      "input_hash": "c29a26b6c133dfcbc9aea26a5df96ac5eb6f5e024cd8992aa71e3ac61dc03aa4",
+      "draft_hashes": {
+        "solo-1.md": "f4f500cebe121de308814bdf636597052c872d732860b422df8950bbca61ce21",
+        "craft-1.md": "7fb645af4d5b039dd84a150908b822f50e1be7327e14d9af201a730b5db5815c",
+        "craft-2.md": "f826d1b9bc5b57770ff088072a45b17a48000dd259144635fa83e8f1528e36d6"
+      },
+      "internal_team_revision_rounds": 1,
+      "integration_coverage": "COVERAGE_VERIFIED",
+      "copy_checks": {
+        "solo": "CLEAN",
+        "swarm": "CLEAN",
+        "meaning": "deterministic prose check only; no quality approval"
+      }
+    },
+    {
+      "id": "broll-2",
+      "status": "WAITING_FOR_FIRST_ACCEPTANCE"
+    },
+    {
+      "id": "carousel-1",
+      "status": "WAITING_FOR_BROLL_ACCEPTANCE"
+    }
+  ],
+  "telemetry": {
+    "model": "inherited parent model; no overrides",
+    "token_usage": "UNMEASURED",
+    "source_preflight_agents": 1,
+    "solo_executors": 1,
+    "production_roles_planned": 3,
+    "paid_calls": 0,
+    "native_dispatch": "OBSERVED",
+    "native_peer_exchange": "OBSERVED_SOURCE_TO_CRAFT, CRAFT_TO_EDITOR, EDITOR_TO_CRAFT; SOURCE_ACK_RETURN_FAILED_RUNTIME_LIMIT",
+    "claude_live_execution": "NOT_RUN",
+    "direct_message_limit": "source acknowledgment: agent thread limit reached; full reply retained via root",
+    "independent_editor_timing": "brief fully read; craft message arrived before initial diagnostic was sent",
+    "native_agent_tasks": 4,
+    "unique_production_specialists": 3,
+    "parent_file_edit_owner": true,
+    "integration_receipt_correction": "Writer detected summarized source handoff; exact original recovered from sender; no false byte-exact transcript claim."
+  },
+  "feedback": []
+}
