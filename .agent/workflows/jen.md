@@ -20,7 +20,7 @@ Never for: a listing URL drop with no week context (that is Convert district ins
 
 ### 0 · LOAD — hard prerequisite
 
-Read, in this order, and print `LOAD: 7/7` (or the count you actually read; below 7 = stop and say why):
+Read, in this order, and print `LOAD: 8/8` (or the count you actually read; below 8 = stop and say why):
 
 1. `_active/clients/jen-listings/06-system/ENGINE-V2.md` (identity, the deal, realism gate, districts, formats, look, cadence, reply layer)
 2. `_active/clients/jen-listings/06-system/CONTENT-MIX.md` (the extraction-derived shares and the hook rule)
@@ -29,8 +29,9 @@ Read, in this order, and print `LOAD: 7/7` (or the count you actually read; belo
 5. `skills/jen-santulan-listing-content/references/jen-calibration-log.md` (his and her PASS/FAIL verdicts; outranks defaults)
 6. `_active/clients/jen-listings/CLAUDE.md` (register ladder, fair-housing floor, anti-patterns)
 7. `_active/clients/jen-listings/06-system/pulse/latest.md` (what the account did last)
+8. `_active/clients/jen-listings/06-system/WINNERS.md` (the evidence sheet: the approved specimen, the reel look, every verified reference with numbers, Farrice's verdicts on the mechanism, the gaps not to re-spend on)
 
-Receipt: `LOAD: 7/7 · voice source = jen-real-voice-profile.md · calibration rows = N`
+Receipt: `LOAD: 8/8 · voice source = jen-real-voice-profile.md · calibration rows = N · winners = N rows`
 
 ### 1 · READ — the data decides the slots
 
@@ -51,6 +52,8 @@ Sources in order: her listing data (MLS via Jen), Redfin/Freddie Mac/CDI pages r
 Receipt: `RESEARCH: N claims ledgered · UNCONFIRMED = 0 in copy · realism gate: N topics passed, N killed`
 
 ### 3 · WRITE — one pen, her seat first
+
+Before a word: name the WINNERS.md row (or Jen's own outlier) the post is built on and the on-screen line that carries 80% of the attention; the caption is the payoff and the preview of working with her (Farrice 2026-09-09). No inspected complete source = no post.
 
 One post at a time. Jen-as-herself seat writes first (her register from the voice profile: lowercase, ellipses, soft landings, one emoji max, invitation asks). Then the hook rule from `CONTENT-MIX.md`: the hook opens on her or the reader's situation; the number or the house is beat 2. One job per post. The door open at the end with a concrete thing to send (a street, a number, a photo, "hi").
 
