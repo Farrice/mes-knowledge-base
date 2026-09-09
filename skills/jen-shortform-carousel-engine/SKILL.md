@@ -1,6 +1,6 @@
 ---
 name: jen-shortform-carousel-engine
-description: "Demand-first short-form content + branded Instagram carousel pipeline for Jen's LA real estate business (research → plan → scripts → carousels)"
+description: "ARCHIVED 2026-09-02 — do not use; every Jen Santulan content ask goes through .agent/workflows/jen.md (/jen). Historical: short-form carousel engine with zero workflows."
 status: archived
 superseded_by: .agent/workflows/jen.md
 archived_reason: "2026-09-02 reset. Zero workflow files; its /sf-* commands were never minted; its research step is covered by ENGINE-V2 §3 realism gate + FACTS.md, its calendar by /alyssa-stalker-content-mix-planner. One spine: /jen."

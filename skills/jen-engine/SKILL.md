@@ -1,6 +1,6 @@
 ---
 name: jen-engine
-description: "End-to-end content orchestration for Jen Santulan's listings — 7-stage pipeline from brain-load intake through design export. Wires demand research, video planning, scriptwriting, and carousel design into a single forwardable production system with 2 human gates. Default entry: /jen-engine <listing|market|topic> for full pipeline, or stage-specific: /jen-research, /jen-plan, /jen-scripts, /jen-design."
+description: "ARCHIVED 2026-09-02 — do not use; every Jen Santulan content ask goes through .agent/workflows/jen.md (/jen). Historical: 7-stage listing pipeline with an intake questionnaire Jen refused."
 version: "1.0"
 format: orchestration-engine
 domain: Real estate content production (LA / SFV)
