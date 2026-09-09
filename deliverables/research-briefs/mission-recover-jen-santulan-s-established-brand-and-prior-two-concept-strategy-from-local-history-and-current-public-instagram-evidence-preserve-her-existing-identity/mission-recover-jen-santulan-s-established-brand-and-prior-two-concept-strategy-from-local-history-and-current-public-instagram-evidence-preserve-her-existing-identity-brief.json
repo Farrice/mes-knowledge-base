@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "3 sessions · 5 files · 0 assets",
-  "compiled": "sep 4, 2026",
+  "compiled": "sep 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity 3d ago."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 5 files written.\n\n Last activity 7d ago."
     },
     {
       "kind": "decision",
@@ -27,6 +27,10 @@
         {
           "action": "Close or park: Recover Jen Santulan's established brand and prior two-concept strategy from loc",
           "why": "Open mission (compiled), serves orphan."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 7 days while the handoff is still open. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -104,7 +108,7 @@
           "note": "codex"
         },
         {
-          "value": "3",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -124,12 +128,12 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
             1,
             2,
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ],
@@ -145,14 +149,14 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
             4,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "value": "5",
@@ -268,7 +272,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 14 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 18 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

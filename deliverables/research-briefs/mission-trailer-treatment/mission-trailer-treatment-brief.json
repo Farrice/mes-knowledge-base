@@ -185,5 +185,6 @@
       "kicker": "READ THE EDGES",
       "body": "Two of the three recorded deliverables look like versions of the same prompt rather than distinct outputs, so the actual finished count may be smaller than it reads. Nothing in the pack states whether any video was ever generated.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }

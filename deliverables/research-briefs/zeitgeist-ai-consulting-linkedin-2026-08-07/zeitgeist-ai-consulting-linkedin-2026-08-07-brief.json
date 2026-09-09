@@ -10,7 +10,11 @@
   "footer_left": "ANTIGRAVITY ZEITGEIST",
   "footer_right": "@farricecain",
   "run_cost_usd": 0.0257,
-  "stack": ["linkedin-search", "threads-search", "twitter"],
+  "stack": [
+    "linkedin-search",
+    "threads-search",
+    "twitter"
+  ],
   "category": "zeitgeist",
   "priority": 3,
   "sections": [
@@ -24,10 +28,30 @@
       "kind": "stats",
       "heading": "the pull, honestly",
       "items": [
-        {"value": "29", "unit": "items", "label": "RETURNED ACROSS 3 LIVE PULLS", "note": "$0.0257 total"},
-        {"value": "15", "unit": "mock", "label": "X / TWITTER ACTOR", "note": "KaitoEasyAPI billing placeholders — zero real posts"},
-        {"value": "14", "unit": "usable", "label": "10 LINKEDIN PROFILES + 4 THREADS POSTS", "note": "the entire evidence base below"},
-        {"value": "0", "unit": "of 10", "label": "PROFILES NAMING AN OFFER OR PRICE", "note": "the opening"}
+        {
+          "value": "29",
+          "unit": "items",
+          "label": "RETURNED ACROSS 3 LIVE PULLS",
+          "note": "$0.0257 total"
+        },
+        {
+          "value": "15",
+          "unit": "mock",
+          "label": "X / TWITTER ACTOR",
+          "note": "KaitoEasyAPI billing placeholders — zero real posts"
+        },
+        {
+          "value": "14",
+          "unit": "usable",
+          "label": "10 LINKEDIN PROFILES + 4 THREADS POSTS",
+          "note": "the entire evidence base below"
+        },
+        {
+          "value": "0",
+          "unit": "of 10",
+          "label": "PROFILES NAMING AN OFFER OR PRICE",
+          "note": "the opening"
+        }
       ]
     },
     {
@@ -156,7 +180,10 @@
       "heading": "what this *isn't*",
       "kicker": "CAVEATS WORTH KEEPING",
       "body": "Rank this brief's data from most to least reliable.\n\nMost reliable: the ten LinkedIn profile summaries and the four Threads post texts. Those are verbatim from the pull, each with a resolvable URL, and the quotes above are unedited.\n\nLess reliable: every pattern claim drawn across those profiles. Ten results from a single query is a sample, not a census, and LinkedIn people-search ranking is opaque. A different query string would likely return a different ten.\n\nNot reliable at all: anything about X today. The twitter actor returned fifteen identical KaitoEasyAPI billing placeholders and no posts, so silence from that lane means the actor failed, not that the conversation stopped. The Reddit pull failed separately with a 400 Bad Request and contributed nothing.\n\nMissing entirely: engagement. No item in this pull carries a like, reply, or view count, so nothing here is ranked by performance. It is ranked only by what was said and when. Recency is uneven too: of four Threads posts, the dates are today, a month ago, five weeks ago, and October 2025.\n\nThis is a single-day snapshot of a daily lane. Treat today's shape as a hypothesis and check it against tomorrow's pull before building a week on it.",
-      "cta": {"label": "OKAY, SO MAKE THE POST", "href": "#deploy-blocks"}
+      "cta": {
+        "label": "OKAY, SO MAKE THE POST",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
@@ -184,5 +211,6 @@
       "used_for": "nothing — pull failed with 400 Bad Request",
       "confidence": "UNCONFIRMED"
     }
-  ]
+  ],
+  "status": "archived"
 }
