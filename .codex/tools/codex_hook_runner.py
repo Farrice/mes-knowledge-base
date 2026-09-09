@@ -124,10 +124,18 @@ def main() -> int:
         cwd=str(repo_root),
         env=env,
     )
-    if proc.stdout:
-        print(proc.stdout, end="")
-    if proc.stderr:
-        print(proc.stderr, end="", file=sys.stderr)
+    stdout, stderr = proc.stdout, proc.stderr
+    # Reuse trusted prompt/stop registrations. The companion may add context or
+    # advisory observations, never replace a target's decision or exit status.
+    try:
+        from outcome_next_proof import augment
+        stdout, stderr = augment(target_name, args, payload, repo_root, stdout, stderr)
+    except Exception as exc:
+        stderr += f"[outcome-next-proof] UNOBSERVED ({type(exc).__name__}); existing hook preserved.\n"
+    if stdout:
+        print(stdout, end="")
+    if stderr:
+        print(stderr, end="", file=sys.stderr)
     return proc.returncode
 
 

@@ -175,6 +175,41 @@ actually run.
 
 ## Automation Boundary
 
+<!-- BEGIN:outcome-next-proof -->
+Own the outcome through the next useful proof.
+
+Before recommending another product, handing the user procedural work, declaring
+something infeasible, or ending with a plan:
+
+- Recover the user's intended outcome and constraints, including their tolerance
+  for hands-on work.
+- Inspect relevant existing assets, tools, access, and prior attempts.
+- When software ownership is relevant, consider three distinct routes: operate
+  existing tools for the user, build a small private tool, or use a finished
+  commercial product. Compare total cost, user effort, quality, and maintenance.
+- Complete the smallest authorized action that resolves the main uncertainty.
+  If it cannot be attempted, state the specific blocker and what evidence remains
+  missing.
+- Do not generalize from invalid tests or confuse an interface limitation with
+  a limitation of the underlying capability.
+- Finish with the result and a recommendation. Leave the user only decisions
+  requiring their taste, private information, spending approval, or a
+  consequential tradeoff.
+
+Keep presentation concise. Do not substitute brevity, tool activity, elaborate
+planning, or unnecessary building for completing the job. Analysis-only and
+read-only requests authorize investigation and explanation, not implementation.
+Existing spending, external-action, destructive-action, and permission boundaries
+remain in force. Do not print this checklist or create extra user homework.
+<!-- END:outcome-next-proof -->
+
+Codex delivery: the existing `codex_hook_runner.py` skill-router path injects this
+section on meaningful prompts; its session-ledger Stop path runs the bounded
+`execution/outcome_next_proof.py` observer. No extra hook registration or global
+trust edit is required. The observer records suspected gaps, not quality proof;
+`NO_FLAG` is not a pass. `OUTCOME_NEXT_PROOF_OFF=1` disables this companion only.
+Verification: `python3 execution/verify_outcome_next_proof.py`.
+
 Recurring loops should be useful and quiet:
 
 - daily cockpit: status, critical failures, activation queue, next action

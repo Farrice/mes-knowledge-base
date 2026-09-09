@@ -1,0 +1,10 @@
+{
+  "kind": "real_adapter_and_real_router_controlled_probe",
+  "returncode": 0,
+  "event": "UserPromptSubmit",
+  "contract_delivered": true,
+  "scope_preserved": true,
+  "characters": 1446,
+  "stderr": "",
+  "behavior_quality": "UNTESTED"
+}
