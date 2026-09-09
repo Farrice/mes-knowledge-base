@@ -227,5 +227,5 @@
       "body": "The failure note is compressed and does not say which part of the brief failed, so the repair scope is unknown until you open it. The record does not say whether the scheduled job is still running or whether it stopped after the failure.\n\nThe judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "active"
+  "status": "archived"
 }

@@ -1,21 +1,21 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: sep 4, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 0 assets · compiled: sep 8, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 2 session(s), the handoff store, the finalize ledger and the asset manifest.
+Everything this thread has produced, where it stands, and the next move — assembled from 6 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 2 deliverables finalized.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 6 sessions, 2 deliverables finalized.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity today.
 
 Next: Resume the `system-audit` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (system-audit)._
 
 ## the state, as the last session left it
-Handoff written 64d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 68d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## resume · park · kill
 1. **Resume here** — Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
@@ -55,8 +55,8 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- SESSIONS: **2** (codex)
-- DAYS ACTIVE: **7 d**
+- SESSIONS: **6** (codex)
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 
@@ -65,6 +65,10 @@ SHIPPED IN WINDOW:
 
 
 ## how it got here
+- 2026-09-07 · **codex session** — System: Scrapes vs Antigravity OS - Astra Reliability Audit
+- 2026-09-07 · **codex session** — System: Astra Harness - Capability and Operating Audit
+- 2026-09-06 · **codex session** — System: Antigravity Harness - Evidence and Unhobbling Audit
+- 2026-09-04 · **codex session** — Client: Jen 6-3-2 System - Audit & Proof
 - 2026-09-02 · **codex session** — System: Jun Content OS - Capability Failure Audit
 - 2026-09-01 · **codex session** — System: Signal Fidelity - Contract and Proof Audit
 - 2026-08-30 · **Finalized · system-audit** — Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, real writer evidence, and sabotage verifier
@@ -80,7 +84,7 @@ Shadow-only dual render preserves full brief authority; isolated handoff returne
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 14 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 18 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
