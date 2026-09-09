@@ -37,6 +37,10 @@ codex exec --skip-git-repo-check --sandbox read-only "Run exactly one shell comm
 ```
 Then grep the newest `~/.codex/sessions/2026/MM/DD/rollout-*.jsonl` for `card: gpt-6-astra` and `SESSION BRIEF`. Runner-level probe without Codex: pipe a UserPromptSubmit payload into `codex_hook_runner.py steering-loop prompt` and expect the JSON envelope with the card.
 
+# Same-day follow-up: the echo after a confirmed brief (Madison/DSC session)
+
+Fresh Codex session, perfect brief, then on "This does match the scope and brief… I want you to execute" Astra replied "Captured your refinement verbatim" and stopped. Cause was the ported steering hook, not the model: `_cc_work_mode()` classified the long approval as CAPTURE (>400 chars, no "?", no "can you/please"), the card said "capture verbatim, confirm in ONE line, no unpacking", and Astra obeyed it exactly. On the next turn the mirror would have re-issued the INTENT BRIEF card ("do NOT produce yet") — the second echo trap. Fix in `steering_loop_hook.py`: `_CC_APPROVAL_RE` (match the scope/brief, approved, go ahead, proceed, execute, ship it, let's go, I want you to, this is it, perfect) routes to BUILD-NEW and `_mirror_block()` returns a BRIEF CONFIRMED card instead of a new brief. Proven both directions with `steering_loop_hook.py test-mirror`. Lesson: Astra follows injected cards literally, so a classifier miss on Claude (where the model quietly overrode it) becomes a full stop on Codex.
+
 # Reuse
 
 Any model swap on Codex = new card in `directives/model-dialects/` with `model_match` and the `config.toml` id; no hook code changes. If a future base prompt restores the routing table, the card's deliverable lines can shrink; the re-probe triggers are in the card.

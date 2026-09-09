@@ -476,10 +476,28 @@ def _cc_work_mode(prompt: str, is_feedback: bool):
         return "IDEATE"
     if _DELIVERABLE_RE.search(pl):
         return "BUILD-NEW"
+    # 2026-09-09 scar (Madison/DSC session on Codex): a long approval of a
+    # brief ("This does match the scope and brief… I want to send them
+    # something now") classified as CAPTURE, and Astra obeyed the card to
+    # the letter — ran thought_bank capture, replied "Captured verbatim",
+    # did nothing. An approval, a go, or a stated want is an instruction to
+    # act, never a dump. Those words route to BUILD-NEW; CAPTURE keeps only
+    # the genuine reflective dump.
+    if _CC_APPROVAL_RE.search(pl):
+        return "BUILD-NEW"
     if len(pl) > 400 and "?" not in pl and not re.search(
             r"\b(can you|please|need you|help me)\b", pl):
         return "CAPTURE"
     return None
+
+
+# Strong approval / go signals only — a reflective dump can say "make it
+# smaller" or "I want to be visible"; those are not instructions to act.
+_CC_APPROVAL_RE = re.compile(
+    r"(\bmatch(es)? the (scope|brief)\b|\bapproved\b|\bgo ahead\b|\bproceed\b|"
+    r"\bexecute\b|\bship it\b|\bjust do it\b|\blet'?s (go|do this|build|send|start)\b|"
+    r"\b(i|we) want (you|us) to\b|\bi want to send\b|\bthis is it[.!]|"
+    r"\bperfect[.!]|^yes[.!,]|\byes,? (do|go|send|build)\b)")
 
 
 # Amnesty 2026-07-29: cards compressed to one line each (LEAN ruling). The
@@ -551,6 +569,16 @@ def _mirror_block(prompt: str, mode) -> str:
     """
     if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING"):
         return ""
+    # 2026-09-09 (Madison/DSC scar, Codex): when he has CONFIRMED a brief
+    # ("this does match the scope and brief… execute"), the confirm beat is
+    # over. Re-issuing the INTENT BRIEF card here told Astra to compile
+    # another brief and wait — the echo he saw. Approval = execute now.
+    if _CC_APPROVAL_RE.search(prompt.lower()):
+        return (
+            "✅ BRIEF CONFIRMED (his words): the confirm beat is done. Execute "
+            "the brief in THIS turn — no new brief, no re-mirror beyond one "
+            "line, no capture. Fold any refinement he added into the work and "
+            "end with the artifact path + receipts.")
     if _mirror_signals(prompt) >= 2:
         # Upgraded 2026-08-20 (Farrice, approved plan "Intent Brief Default"):
         # raw intent → compiled brief → his confirm → fresh-context execution.
