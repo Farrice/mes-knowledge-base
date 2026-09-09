@@ -1,0 +1,14 @@
+{
+  "status": "PARKED_NOT_INSTALLED",
+  "branch": "codex/outcome-next-proof",
+  "commit": "d769f4584f03790006a67880bf0e79c30fd82a0a",
+  "focused_tests": 22,
+  "focused_result": "PASS",
+  "real_adapter_prompt_delivery": "PASS_CONTROLLED_PROBE",
+  "authority": "PASS",
+  "operator_core": "PASS",
+  "main_guard": "86 unrelated tracked changes",
+  "main_companion_present": false,
+  "human_behavior_quality": "UNTESTED",
+  "next_action": "Approval required to preserve/reconcile foreign main changes before guarded integration; do not force merge."
+}
