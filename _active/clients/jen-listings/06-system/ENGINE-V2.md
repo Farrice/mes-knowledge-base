@@ -143,6 +143,8 @@ Every reusable asset, indexed by district with a status, lives in `VAULT.md` (li
 
 The look in §6 is the rule; the current generator family is `06-system/valley-editions/` (`DESIGN.md`, `CANVA-GRAMMAR.md`, `editions.py`, six Canva grammars, her photo bank). Weekly cards and reels still build through `build_weeks.py`, which imports the September `gen_photo.py`. One family, two entry points; never a third generator.
 
+**The reel baseline (Farrice 2026-09-09: "a win aesthetically… It is a win"):** `04-deliverables/2026-09-01-september-carousels/build_reel.py` fed by a spec in `04-deliverables/2026-09-06-engine-v2-weeks-1-2/reels/<id>.json` — 1080×1920, one of HER photos per beat (`06-system/valley-editions/photos/jen/`), one white Playfair serif line centered (size 86–104, `<br>` breaks), optional Caveat hand line, her lockup at the foot, 4–6.5s per beat with a slow zoom in/out, silent (audio added in Instagram). Reference render: `week-of-2026-09-07/00-broll-one-more-question.mp4`. Vary the photo and the words; never the grammar. On both harnesses the same command renders it: `python3 build_reel.py reels/<id>.json` from the september-carousels folder.
+
 ## 16. The order (added 2026-09-02; the only front door is `/jen`)
 
 Why: three engines claimed this pipeline and none was the door; weeks 1–3 stamped her close on nine of nine posts; the outlier audit ran after the posts were written. Farrice: "they haven't been firing in the order of operations that they should be." The order below is mechanized in `.agent/workflows/jen.md`; each step prints a receipt and the next step does not start without it.

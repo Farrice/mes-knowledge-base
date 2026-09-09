@@ -148,6 +148,7 @@ Astra's base prompt dropped two rules Sol carried (skill-on-match = must; the an
 - Task/Agent sub-agent spawning → when unavailable, execute sequentially and report `--sub-agents 0`; when available and explicitly authorized, use read-only diagnostic/validation subagents by default and keep the main thread responsible for edits.
 
 ## Known routes (internalized)
+- **Jen Santulan content (any ask)** → read and execute `.agent/workflows/jen.md` (the ONE front door, nine steps with receipts; client context `_active/clients/jen-listings/CLAUDE.md`, operating model `06-system/ENGINE-V2.md`, approved specimen + reel baseline named there). Never `/jen-engine`, `/jen-full-pipeline`, or a new generator.
 LinkedIn → Lara Acosta (`skills/lara-acosta-*`) · copywriting → Luke Iha / Stefan Georgi · ghostwriting → Nicolas Cole · brand → Oren/Grace · content psychology → Kallaway · SEO → Nathan Gotch · ambiguous/multi-domain → read `DOMAIN_REGISTRY.md`.
 
 <!-- BEGIN:shared-agent-skills -->
