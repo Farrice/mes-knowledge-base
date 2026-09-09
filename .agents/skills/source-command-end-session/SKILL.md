@@ -33,6 +33,10 @@ This project wrapper follows `.agent/workflows/end-session.md` as the canonical 
 - Bare `ready` and `done` are status words, never commands
 
 
+Codex-native safety defaults come from the canonical workflow: commit locally,
+preserve the dedicated operator lane, surface temporary-lane merge or park work,
+and require explicit approval for push or global receipt writes.
+
 ## Command Template
 
 Read and execute the workflow at `.agent/workflows/end-session.md` — Clean workspace, organize assets, generate handoff
