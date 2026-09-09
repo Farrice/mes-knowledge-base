@@ -1,0 +1,8 @@
+{
+  "title": "AI workflow payoff test",
+  "artifact_type": "document",
+  "created": "2026-09-08",
+  "status": "awaiting_author_review",
+  "baseline": "../2026-09-06-reference-lab/draft.md",
+  "baseline_verdict": "rejected_by_author_no_insight_or_payoff"
+}
