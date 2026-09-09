@@ -1,0 +1,28 @@
+{
+  "prose_checks": {
+    "solo": "CLEAN",
+    "team": "CLEAN"
+  },
+  "integration_coverage": {
+    "status": "COVERAGE_VERIFIED",
+    "errors": [],
+    "quality": "HUMAN_REVIEW_REQUIRED",
+    "original_message_check": "UNVERIFIED"
+  },
+  "editorial_judgment": "Current worry replaces invented shame; actual early stage and source constraints retained; no neighbor-noise guarantee; one coherent hook and conversational caption per route. This is conductor judgment, not human approval.",
+  "copy_gate": "PASS_FOR_DRAFT_REVIEW_ONLY",
+  "human_result": "PENDING",
+  "rendered_reel": false,
+  "preservation": {
+    "status": "PASS",
+    "files_checked": 7,
+    "changes": [],
+    "scope": "Exact approved specimen, brief, source packet, selected canonical skill and V2 materials; read-only source assets."
+  },
+  "finalize": {
+    "status": "MARGINAL self-assessment 7; new human review pending",
+    "combined_comparison_classifier": "WARNING 3.0 with two separately reviewed emoji-bearing variants in one file; individual variants CLEAN 1.5 each",
+    "notion": "SKIPPED",
+    "directive_side_effects": "Only this run auto-updated three activation counters; those exact changes restored to lane baseline."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "RETAIN_CURRENT_METHOD",
+  "gaps": [
+    "broll-1: active human effort unmeasured",
+    "broll-2: matched_inputs_verified unverified",
+    "broll-2: no_regression unverified",
+    "broll-2: approved_standard_met unverified",
+    "broll-2: recorded Farrice review required",
+    "broll-2: active human effort unmeasured",
+    "broll-2: feedback application unverified",
+    "carousel-1: matched_inputs_verified unverified",
+    "carousel-1: no_regression unverified",
+    "carousel-1: approved_standard_met unverified",
+    "carousel-1: recorded Farrice review required",
+    "carousel-1: active human effort unmeasured",
+    "carousel-1: feedback application unverified"
+  ],
+  "failures": [
+    "broll-1: no_regression failed",
+    "broll-1: approved_standard_met failed",
+    "broll-1: no swarm quality win"
+  ],
+  "basis": "recorded evidence; no automated creative judgment",
+  "global_rollout": false
+}
