@@ -71,9 +71,11 @@ Receipt: `WRITE: 3 posts · bank lines used = <list> · no line used twice`
 
 The pen loads exactly two craft files and nothing else: `skills/alyssa-stalker-agent-content-playbook/workflows/03-hook-reframe.md` (Topic + Who + Lens on the hook) and `skills/luke-iha-vicious-hooks/genius.md` (the assumption the hook breaks; delete the throat-clearing; short words). It makes one sharpening pass per post: the hook names the fear or the wish, the middle holds attention, the close is hers. Never jargon without a six-word gloss. Never "top producer," never credentials, never urgency, never an attack hook.
 
-Then the Jen-as-herself check, from `jen-real-voice-profile.md` + `jen-calibration-log.md` + the ChatGPT extraction outputs (`06-system/jen-chatgpt-outputs/`, when they exist): read each post aloud as her; any line she would not say reverts. That is the whole step. More seats return only if her numbers say the copy is the problem (Phase 2+, `06-system/PHASES.md`).
+Then the Jen-as-herself check, from `jen-real-voice-profile.md` + `jen-calibration-log.md` + the ChatGPT extraction outputs (`06-system/jen-chatgpt-outputs/`, when they exist): read each post aloud as her; any line she would not say reverts. More seats return only if her numbers say the copy is the problem (Phase 2+, `06-system/PHASES.md`).
 
-Receipt: `AMPLIFY: one pen · N lines sharpened · Jen check reverted N lines`
+**The hook room for the on-screen line (Farrice's decision, 2026-09-09 evening).** His words: "we're not bringing our best social media experts to write compelling hooks and on-screen text… missing the craftsmanship." The on-screen line carries 80% of the post, so it gets pens, not one pass: four named pens (Kallaway `skills/kallaway-hook-mastery/genius.md`, Forsyth `skills/mark-forsyth-rhetoric/genius.md`, Harding `skills/paul-harding-lyric-prose/genius.md`, Luke Iha `skills/luke-iha-vicious-hooks/genius.md`) each write five beat pairs for the chosen card against the specimen; one integrator culls in context against the bar (`directives/blind-bar-protocol.md`: set each beside the specimen, drop what is instantly weaker; record every cut and why); the eight survivors go to a blind judging surface with the specimen seeded unlabeled and shuffled, key in a sidecar; Farrice taps; his verdicts ratchet. Pens write, never critique; no room of commentators (the Sept 2 "expert soup" was critics). Record: `week-of-*/HOOK-ROOM-<id>.md`; surface builder `build_hook_surface.py`. The caption stays one pen. If the specimen beats all eight, the room failed: back to the input, never a third take.
+
+Receipt: `AMPLIFY: one pen on the caption · hook room: 4 pens · 20 pairs · 8 to the surface · Jen check reverted N lines`
 
 ### 5 · CHECK — mechanical, in this order
 

@@ -37,7 +37,7 @@ Rule for every phase: nothing from a later phase is touched until the current ph
 |---|---|---|
 | `skills/jen-engine` (intake questionnaire + 20 talking-head videos) | she refused both premises | archived by frontmatter |
 | `skills/jen-shortform-carousel-engine` (zero workflows, unminted commands) | dead surface | archived by frontmatter |
-| The six-seat "amplify room" (Alyssa, Luke Iha, Sam Parr, Kallaway, Georgi + Jen) | expert soup, added today, removed today | `/jen` step 4 = one pen + one check |
+| The six-seat "amplify room" (Alyssa, Luke Iha, Sam Parr, Kallaway, Georgi + Jen) | expert soup, added today, removed today | `/jen` step 4 = one pen + one check on the caption. **Amended 2026-09-09 (Farrice): the on-screen line gets a hook room of four pens + a blind bar, because "we're not bringing our best social media experts to write compelling hooks and on-screen text." Pens write takes; nobody critiques. See `/jen` step 4 and `week-of-2026-09-14/HOOK-ROOM-11.md`.** |
 | Every other skill that routes to "Jen" (enrico, sherrard, satori listing frame, meg listing copy, jenny hoyos, the old listing wrappers) | not loaded in Phase 1; `/jen` is the only door | routing left as-is; the door is the fix |
 | Eight Jen branches, three generators of `new_set.py`, tracked `.reel_tmp` renders | fragmentation | branches: Farrice deletes on main; copies: leave, never run |
 | The March "warm-enthusiastic, emoji-rich, @realestatewithjing" voice paragraph | wrong voice; the July scrape and Sept memos win | rewritten in client `CLAUDE.md` |
