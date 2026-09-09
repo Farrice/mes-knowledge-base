@@ -112,7 +112,7 @@ nav a:hover,nav a:focus-visible{text-decoration:underline;outline:none}
 @media (max-width:640px){.card dl div{grid-template-columns:1fr}}
 """
 
-NAV = '<nav><a href="#the-table">The table</a><a href="#1-top-5-hook-formulas-ranked-by-how-often-they-appear-across-the-48-reels-on-the-four-live-reels-tabs">Hook formulas</a><a href="#2-top-3-cta-patterns">CTA patterns</a><a href="#3-the-proof-post-pattern-closings-and-process-without-bragging">Proof pattern</a><a href="#4-what-not-to-copy-for-a-warm-valley-brand">What not to copy</a><a href="#5-five-structure-cards">Structure cards</a><a href="#what-this-says-about-post-11">Post 11</a><a href="#credits-and-gaps">Credits and gaps</a></nav>'
+NAV = '<nav><a href="#the-table">The table</a><a href="#1-top-5-hook-formulas-ranked-by-how-often-they-appear-across-the-48-reels-on-the-four-live-reels-tabs">Hook formulas</a><a href="#2-top-3-cta-patterns">CTA patterns</a><a href="#3-the-proof-post-pattern-closings-and-process-without-bragging">Proof pattern</a><a href="#4-what-not-to-copy-for-a-warm-valley-brand">What not to copy</a><a href="#5-five-structure-cards">Structure cards</a><a href="#6-complete-copy-for-each-card-added-2026-09-09-evening-on-farrice-s-ask-an-asset-to-send-to-her-so-she-can-make-the-content-right-now">Complete copy</a><a href="#what-this-says-about-post-11">Post 11</a><a href="#credits-and-gaps">Credits and gaps</a></nav>'
 
 body = convert(SRC)
 body = body.replace("</h1>", "</h1>" + NAV, 1)
