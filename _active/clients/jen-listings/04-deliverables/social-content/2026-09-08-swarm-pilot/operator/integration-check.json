@@ -1,0 +1,8 @@
+{
+  "status": "COVERAGE_VERIFIED",
+  "errors": [],
+  "quality": "HUMAN_REVIEW_REQUIRED",
+  "original_message_check": "UNVERIFIED",
+  "source_receipt_correction": "Initial root handoff contained a source summary; writer caught it, used original direct message, and root recovered full wording from source author before delivery.",
+  "native_raw_byte_transcript": "NOT_CAPTURED; persisted artifact formatting normalized; no byte-exact transcript claim"
+}

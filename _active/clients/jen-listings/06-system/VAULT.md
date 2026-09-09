@@ -2,6 +2,16 @@
 
 Month two is assembled from this table, not re-invented. Status words: **shipped** (in a Drive week folder or posted) · **built** (rendered, awaiting a verdict) · **copy ready** (words done, render pending) · **banked** (fact or line verified, no post yet) · **dead** (failed the realism gate; do not revive).
 
+## Review-only production pilot — September 8, 2026
+
+[First expert-production A/B comparison](../04-deliverables/social-content/2026-09-08-swarm-pilot/comparison.md)
+contains two unapproved B-roll writing packages. Do not retrieve either as an
+approved exemplar. The [pilot record](../04-deliverables/social-content/2026-09-08-swarm-pilot/pilot-record.json)
+keeps copy approval, rendered availability, client approval, delivery and posting
+separate. Human preference and active preparation time are pending; adoption is
+unproven. Historical `shipped` labels below are unchanged and do not independently
+establish that a post was published.
+
 Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · Convert ~15.
 
 ## Attract (locals share it; price signal in the hook)

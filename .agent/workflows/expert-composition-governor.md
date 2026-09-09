@@ -116,6 +116,15 @@ Use at most one expert per slot:
 
 ### 4. Run Specialist Passes
 
+**Opt-in finished-artifact production:** When the user explicitly authorizes an
+expert production team or matched solo/team comparison, use the production
+companion in `directives/agent-mailroom.md` and compile the common assignment with
+`execution/persona_team.py production --packet <path>`. The diagnostic return
+shape below does not cap a maker's finished artifact. Source strategist, craft
+owner and independent editor retain full evidence, drafts, revised positions and
+per-contribution acceptance decisions. Existing council and extraction defaults
+remain unchanged; input/coverage checks are not creative-quality proof.
+
 Each specialist returns only:
 
 - diagnosis,
