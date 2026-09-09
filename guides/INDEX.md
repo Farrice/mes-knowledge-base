@@ -407,6 +407,7 @@
 
 
 ## Pending enrichment
+- [2026-09-09 — Clients — Jen Fthb 30 Day Publishable Pack](2026-09-09-clients-jen-fthb-30-day-publishable-pack.md) — operator-guide stub, needs enrichment
 - [2026-09-09 — Proposed Diffs](2026-09-09-proposed-diffs.md) — operator-guide stub, needs enrichment
 - [2026-09-05 — Content: Farrice Niche Brief - Evidence-Led Direction](2026-09-05-farrice-nicolas-cole-niche-brief.md) — verified first application of the Nicolas Cole niche system; the golden brief is preserved and client productization is parked
 - [2026-09-03 — Handoff · studio-preview-wrapper · 2026-09-03 · status: ready (for a fresh executor session)](2026-09-03-handoff-studio-preview-wrapper-2026-09-03-status-ready-for-a.md) — operator-guide stub, needs enrichment
