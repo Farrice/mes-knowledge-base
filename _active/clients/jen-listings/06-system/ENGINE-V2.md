@@ -151,7 +151,7 @@ Why: three engines claimed this pipeline and none was the door; weeks 1–3 stam
 
 | # | Step | Reads / runs | Receipt |
 |---|---|---|---|
-| 0 | LOAD | this doc · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · client `CLAUDE.md` · `pulse/latest.md` | `LOAD: 7/7` |
+| 0 | LOAD | this doc · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · client `CLAUDE.md` · `pulse/latest.md` · `WINNERS.md` (evidence sheet) | `LOAD: 8/8` |
 | 1 | READ | `CONTENT-MIX.md` shares + last pulse + outlier audit → one line naming what the account moves on and the week's slots | `READ: slots · experiment · evidence` |
 | 2 | RESEARCH | `FACTS.md` rows for every claim (dated, sourced, labeled); realism gate §3 on every topic | `RESEARCH: N claims · 0 UNCONFIRMED in copy` |
 | 3 | WRITE | one pen, Jen-as-herself seat first; hook rule from `CONTENT-MIX.md`; the voice bank drawn once per week per line, never stamped | `WRITE: 3 posts · bank lines used` |

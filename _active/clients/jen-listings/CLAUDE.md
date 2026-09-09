@@ -28,7 +28,7 @@ Calm-warm, lowercase, sincere, gently funny. Ellipses over em-dashes; soft landi
 
 ## What to load (all of it, in this order, before writing a word)
 
-`/jen` step 0 reads: `ENGINE-V2.md` · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · this file · `06-system/pulse/latest.md`. Facts ledger: `04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md` (extend it). Funnel and read loop: `06-system/FUNNEL-MATH.md`, `execution/jen_pulse.py`, `/alyssa-stalker-outlier-audit`.
+`/jen` step 0 reads: `ENGINE-V2.md` · `CONTENT-MIX.md` · `VAULT.md` · `jen-real-voice-profile.md` · `jen-calibration-log.md` · this file · `06-system/pulse/latest.md` · `06-system/WINNERS.md` (the evidence sheet; the approved specimen and the reel look are named there). Facts ledger: `04-deliverables/2026-09-06-engine-v2-weeks-1-2/FACTS.md` (extend it). Funnel and read loop: `06-system/FUNNEL-MATH.md`, `execution/jen_pulse.py`, `/alyssa-stalker-outlier-audit`.
 
 Amplify step, Phase 1: ONE pen (Alyssa hook-reframe + Luke Iha hooks, nothing else) and ONE check (Jen-as-herself from the voice profile, the memos, and her ChatGPT extractions). No expert room. Phases and the audit of what survives: `06-system/PHASES.md`.
 
