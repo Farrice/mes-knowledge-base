@@ -42,6 +42,16 @@ EXEC = ROOT / "execution"
 CACHE_DIR = ROOT / ".agent" / "canvas" / "cache"
 PY = sys.executable or "python3"
 
+
+def _env() -> dict:
+    """Prefer the repo venv's yt-dlp over a stale brew copy (TikTok broke on
+    2026.07.04, works on 2026.08.19 — 2026-09-10). PATH-prepend, nothing global."""
+    env = dict(os.environ)
+    vbin = str(ROOT / ".venv" / "bin")
+    if os.path.isdir(vbin):
+        env["PATH"] = vbin + os.pathsep + env.get("PATH", "")
+    return env
+
 VIDEO_HOSTS = ("youtube.com", "youtu.be", "tiktok.com", "instagram.com", "vimeo.com",
                "facebook.com", "fb.watch", "x.com", "twitter.com", "loom.com")
 YOUTUBE_HOSTS = ("youtube.com", "youtu.be")
@@ -81,15 +91,30 @@ def _load_module(path: Path, name: str):
     return mod
 
 
+def _oembed_meta(url: str) -> dict:
+    """Title + channel from YouTube's oEmbed endpoint: ~0.3s, no download.
+    (yt-dlp's metadata pass on the same video measured 20+ s — 2026-09-10.)"""
+    try:
+        import requests  # in .venv, carries its own CA bundle
+        r = requests.get("https://www.youtube.com/oembed",
+                         params={"url": url, "format": "json"}, timeout=8)
+        if r.ok:
+            j = r.json()
+            return {"title": j.get("title", ""), "channel": j.get("author_name", "")}
+    except Exception:
+        pass
+    return {}
+
+
 def _ytdlp_meta(url: str) -> dict:
-    """Title/channel/duration without downloading. ~1s. Empty dict on failure."""
+    """Title/channel/duration without downloading. Slow (20 s+); only a fallback."""
     if not shutil.which("yt-dlp"):
         return {}
     try:
         r = subprocess.run(
             ["yt-dlp", "--skip-download", "--no-warnings", "--print",
              "%(title)s\t%(channel)s\t%(duration)s\t%(upload_date)s", "--", url],
-            capture_output=True, text=True, timeout=60)
+            capture_output=True, text=True, timeout=60, env=_env())
         line = (r.stdout or "").strip().splitlines()
         if not line:
             return {}
@@ -115,7 +140,7 @@ def _youtube_fast(url: str):
     ft = _load_module(EXEC / "fetch-transcript.py", "fetch_transcript_mod")
     vid = ft.extract_video_id(url)
     text = ft.fetch_transcript(vid)
-    meta = _ytdlp_meta(url)
+    meta = _oembed_meta(url) or _ytdlp_meta(url)
     meta.update({"video_id": vid, "transcript_source": "youtube_captions_api"})
     return meta.get("title") or f"YouTube {vid}", text, meta
 
@@ -127,7 +152,7 @@ def _watch_free(source: str, key: str):
     if out.exists():
         shutil.rmtree(out)  # acquire() demands an empty dir
     r = subprocess.run([PY, str(EXEC / "watch_free.py"), source, "--out-dir", str(out),
-                        "--frames", "0"], capture_output=True, text=True, timeout=2400)
+                        "--frames", "0"], capture_output=True, text=True, timeout=2400, env=_env())
     tpath = out / "transcript.txt"
     if r.returncode != 0 or not tpath.exists():
         tail = (r.stderr or r.stdout or "")[-400:]
@@ -170,10 +195,11 @@ def _whisper_audio(path: Path, key: str):
 def _pdf(source: str, key: str):
     from pypdf import PdfReader  # in .venv
     if _is_url(source):
-        import urllib.request
+        import requests  # urllib on this python has no CA bundle; requests does
         local = CACHE_DIR / f"{key}.pdf"
-        with urllib.request.urlopen(source, timeout=60) as r, open(local, "wb") as f:
-            f.write(r.read())
+        r = requests.get(source, timeout=60)
+        r.raise_for_status()
+        local.write_bytes(r.content)
     else:
         local = Path(source).expanduser().resolve()
     reader = PdfReader(str(local))

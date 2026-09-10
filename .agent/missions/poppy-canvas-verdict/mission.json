@@ -1,0 +1,186 @@
+{
+  "activation_queue": [
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "curl http://127.0.0.1:8766/canvas \u2192 200 (lane server, --idle 0); 8765 = main, no /canvas until merge \u2014 that was the 'cannot reach the server'",
+      "expected_artifact": "the local version serves on a port he can open today; the \"can't reach the server\" class of failure is closed with a receipt (curl 200)",
+      "id": "L1",
+      "kind": "lane",
+      "next_action": "L7 lands it on 8765 after the absorb packet",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:06:10+00:00",
+      "validation_assertion": "",
+      "workflow": "Reachable now"
+    },
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": ".agent/missions/poppy-canvas-verdict/parity-fixture.md (stand-in: Hormozi 4 latest \u2192 hooks; his real fixture arrives via packet 1)",
+      "expected_artifact": "the exact job he runs in the paid tool (his tab, or his URLs + ask), written as a fixture: inputs, the ask, what a good answer contains",
+      "id": "L2",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:06:10+00:00",
+      "validation_assertion": "",
+      "workflow": "Parity spec"
+    },
+    {
+      "after": [
+        "L2"
+      ],
+      "blocker": "",
+      "evidence_path": "parity-fixture.md Run 1: ingest 16s, reply 15.2s Sonnet est 0.32 USD on plan, 34,380 ctx tokens, first lines quoted, garble flagged; board .agent/canvas/boards/hormozi-test.json",
+      "expected_artifact": "the fixture through the local version; time, tokens, cost, and the answer beside the paid tool's",
+      "id": "L3",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:06:10+00:00",
+      "validation_assertion": "",
+      "workflow": "Parity run"
+    },
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "ingestion-edges.md: YouTube video PASS 1-11s \u00b7 YouTube channel list PASS 1s \u00b7 TikTok profile list PASS 1s \u00b7 TikTok video FAIL (yt-dlp format/impersonation; vendor = vidIQ watch) \u00b7 IG profile FAIL yt-dlp / PASS vidIQ 5cr \u00b7 IG reel FAIL yt-dlp / vendor vidIQ \u00b7 PDF PASS \u00b7 article PASS \u00b7 voice note PASS 2.5s local whisper",
+      "expected_artifact": "every input type the paid tool takes (YouTube, TikTok, IG, PDF, article, voice note, profile page) tried once; pass / fail / needs-vendor per row",
+      "id": "L4",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:06:10+00:00",
+      "validation_assertion": "",
+      "workflow": "Ingestion edges"
+    },
+    {
+      "after": [
+        "L3",
+        "L4"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/missions/poppy-canvas-verdict/cost-table.md \u2014 keep $66-90/mo vs canvas $0-2/mo; heavy session $0 marginal on plan; build 1 session spent, ~1 left for option A",
+      "expected_artifact": "keep vs build vs hybrid, monthly, with the marginal cost of one heavy session; build hours so far and remaining polish named",
+      "id": "L5",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:07:39+00:00",
+      "validation_assertion": "",
+      "workflow": "Cost table"
+    },
+    {
+      "after": [
+        "L5"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/missions/poppy-canvas-verdict/verdict-memo.md \u2014 Do: one real job this week, let the trial lapse; Don't: chase parity; Wrong-if: IG/TikTok-heavy, latency kills the feel, or the tab habit never forms",
+      "expected_artifact": "Do / Don't / Wrong-if in his words' plain register; what would reverse it",
+      "id": "L6",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:07:39+00:00",
+      "validation_assertion": "",
+      "workflow": "Verdict memo"
+    },
+    {
+      "after": [
+        "L1"
+      ],
+      "blocker": "packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
+      "evidence_path": "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
+      "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
+      "id": "L7",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "blocked",
+      "updated_at": "2026-09-10T13:07:39+00:00",
+      "validation_assertion": "",
+      "workflow": "Land it"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [],
+    "required": false,
+    "root": "",
+    "type": "none"
+  },
+  "context_requirements": [],
+  "created_at": "2026-09-10T13:03:59+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ],
+    "planned_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "proof_artifacts": [
+      "curl http://127.0.0.1:8766/canvas \u2192 200 (lane server, --idle 0); 8765 = main, no /canvas until merge \u2014 that was the 'cannot reach the server'",
+      ".agent/missions/poppy-canvas-verdict/parity-fixture.md (stand-in: Hormozi 4 latest \u2192 hooks; his real fixture arrives via packet 1)",
+      "parity-fixture.md Run 1: ingest 16s, reply 15.2s Sonnet est 0.32 USD on plan, 34,380 ctx tokens, first lines quoted, garble flagged; board .agent/canvas/boards/hormozi-test.json",
+      "ingestion-edges.md: YouTube video PASS 1-11s \u00b7 YouTube channel list PASS 1s \u00b7 TikTok profile list PASS 1s \u00b7 TikTok video FAIL (yt-dlp format/impersonation; vendor = vidIQ watch) \u00b7 IG profile FAIL yt-dlp / PASS vidIQ 5cr \u00b7 IG reel FAIL yt-dlp / vendor vidIQ \u00b7 PDF PASS \u00b7 article PASS \u00b7 voice note PASS 2.5s local whisper",
+      ".agent/missions/poppy-canvas-verdict/cost-table.md \u2014 keep $66-90/mo vs canvas $0-2/mo; heavy session $0 marginal on plan; build 1 session spent, ~1 left for option A",
+      ".agent/missions/poppy-canvas-verdict/verdict-memo.md \u2014 Do: one real job this week, let the trial lapse; Don't: chase parity; Wrong-if: IG/TikTok-heavy, latency kills the feel, or the tab habit never forms",
+      "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)"
+    ],
+    "resume_command": "/mission resume poppy-canvas-verdict",
+    "skipped_lanes": [
+      "L7: packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile"
+    ],
+    "validators_run": []
+  },
+  "goal": "A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on",
+  "handoffs": [],
+  "job": {
+    "harness": "claude",
+    "opened_at": "2026-09-10T06:03:59-07:00",
+    "opened_by": "claude",
+    "recipe": "tool-build-vs-buy-verdict",
+    "serves": "orphan"
+  },
+  "librarian": {
+    "notes": "",
+    "required": false,
+    "status": "not_applicable"
+  },
+  "mode": "system",
+  "name": "Tool build-vs-buy verdict",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "",
+    "next_command": "python3 execution/job_board.py next poppy-canvas-verdict",
+    "notes": "",
+    "required": false,
+    "resume_command": "/mission resume poppy-canvas-verdict",
+    "state_sources": [
+      ".agent/missions/poppy-canvas-verdict/mission.json",
+      ".agent/intent-memory/current.json",
+      ".agent/system-cohesion-state.json"
+    ]
+  },
+  "slug": "poppy-canvas-verdict",
+  "status": "active",
+  "updated_at": "2026-09-10T13:07:39+00:00",
+  "validation_assertions": []
+}
