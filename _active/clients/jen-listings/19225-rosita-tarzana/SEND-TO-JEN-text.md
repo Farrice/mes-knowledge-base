@@ -1,19 +1,25 @@
-hey babe, 19225 rosita. five intros. pick the one you'd actually say, read it on the walk in 🤍
+hey babe, 19225 rosita. seven openers, each one is the first line you say on the walk in and it runs straight into the intro. pick the one that sounds like you 🤍
 
-1 · WHAT IT BUYS
-"people ask me all the time what almost five million actually buys in the valley. this. this is what it buys. sixty-five hundred square feet on one floor… six bedrooms, seven baths, and you never touch a stair. a flat half acre south of the boulevard, which almost doesn't exist. a heated pool, a spa, an outdoor kitchen, and guest quarters with their own kitchen. eleven cars in the driveway. and it's ten minutes from everything you'd drive to encino for. come see it 🏡"
+1 · COUNT THE STAIRS
+"count the stairs in this six bedroom house. go ahead… i'll wait. there aren't any. every one of the six bedrooms sits on this single floor, tarzana, flat half acre out back with a heated pool and a fireplace built right into the yard. the great room opens straight through sliding doors to all of it. if a one-story this size sounds impossible, that's usually the reaction. i'd love to show you around. 🏡"
 
-2 · THE PHOTOS
-"the best thing about this house doesn't show up in the photos. it's the walk. front door to the last bedroom, sixty-five hundred square feet, and you never climb a single stair. the back wall opens and the pool is right there, basically in your living room. the guest quarters have their own kitchen, so someone can stay a month and you'd never know. the photos are gorgeous… the walk is the reason you buy it. come walk it with me."
+2 · THE DINNER
+"eleven cars showed up to a dinner and every one parked. no circling the block, no double-parking on rosita, no valet. this motor court holds eleven cars on its own. past the front door there's a heated pool and spa, an outdoor fireplace, and a full outdoor kitchen under its own pavilion. the kind of setup where the party just… moves outside on its own. come see where everyone actually parks."
 
-3 · THE TWO THINGS
-"this house has two things almost nothing in the valley has at the same time. one… sixty-five hundred square feet on a single floor. everybody builds up at this size. this one stayed down. two… a flat half acre south of the boulevard. south of ventura usually means a hillside. this one, you could land a plane on. add a heated pool, a spa, an outdoor kitchen, guest quarters with their own kitchen, and a driveway that parks eleven cars. come see it 🏡"
+3 · THE WALL
+"you don't walk out to the pool… it walks in to you. the whole back wall of the great room slides open, and the yard just… comes inside. heated pool, spa, an outdoor kitchen under the pavilion, a fireplace going while you cook. there's no line between indoors and out here, just one long room that happens to end at the grill. come see how it feels to open that wall yourself."
 
-4 · YOU DON'T HAVE TO LEAVE
-"you think you have to leave the valley for a house like this. you don't. this is tarzana. sixty-five hundred square feet, six bedrooms, one floor, a flat half acre south of the boulevard. a pool the living room opens onto, an outdoor kitchen, guest quarters with their own kitchen, and a driveway that swallows eleven cars. westside money… twenty minutes closer to your actual life. i'd love to show you 🤝"
+4 · I WANT IT
+"i'll admit, i want the guest quarters for myself. they've got their own kitchen and their own living room, like a second home someone tucked onto the back of this flat lot. six bedrooms total, seven baths, every single one on this same level, not a stair in sight. let's chat about who wins the argument over who gets it. 🤝"
 
-5 · THE HOST
-"if you're the one who always ends up hosting… this is your house. eleven cars in the driveway, so nobody's on the street. the back wall opens and the whole party moves to the pool, the spa, the outdoor kitchen, the fireplace. six bedrooms on one floor for everyone who stays. guest quarters with their own kitchen for the ones who stay too long. sixty-five hundred square feet in tarzana, flat half acre, south of the boulevard. come see it… and bring people."
+5 · THE GUEST WHO STAYS
+"you know the guest who never wants to leave? this house was basically built for them. the guest quarters have their own kitchen and their own living room, so nobody's tripping over anyone. out back there's a heated pool and spa, an outdoor kitchen under the pavilion, and the whole place sits on one flat level, six bedrooms, not a single stair between them. i'd love to show you around, guest quarters included. 🏡"
+
+6 · THE ISLAND
+"this island is bigger than my first apartment. the waterfall edge alone could seat the whole dinner, and there's a pro range behind me that means business. the guest quarters have their own kitchen and their own living room, so nobody's sharing a coffee maker. it's a house built for people who actually visit and stay a while. i'd love to show you around."
+
+7 · TINY LOTS
+"everyone tells me tarzana lots are tiny. then i found this one. just under half an acre, flat, with eleven parking spots on a paver motor court that doesn't feel like a driveway, it feels like an entrance. inside, six bedrooms and seven baths, all on one story, and out back a heated pool, a spa, and an outdoor kitchen under its own pavilion. i'd love to walk you through it. 🏡"
 
 CLOSE (same for all, by the pool): "19225 rosita, tarzana. four point eight. i'm jen santulan with equity union… dm me 'rosita' and i'll get you in this week."
 
