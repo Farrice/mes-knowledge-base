@@ -1,5 +1,5 @@
 # Knowledge Index
-*1260 sources | 3,675,917 words | Updated: 2026-08-30*
+*1260 sources | 3,675,946 words | Updated: 2026-08-31*
 
 ---
 
@@ -647,7 +647,7 @@
 - [video-context-ledger](../extractions/video-context/B90eANIJ2XI/video-context-ledger.md) — 31,692 words
 - [video-context-ledger](../extractions/video-context/WKQDevJ6XTk/video-context-ledger.md) — 23,657 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words
-- [log](log.md) — 20,434 words
+- [log](log.md) — 20,463 words
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/H_TvNSNbRiU/video-context-ledger.md) [jason-fladlien] — 16,634 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words

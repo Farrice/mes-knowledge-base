@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-30 (chain_runner finalize for jen-santulan-listing-content) |
-| **Last Activated** | 2026-08-30 (chain_runner finalize for jen-santulan-listing-content) |
-| **Activation Count** | 896 |
-| **30-Day Review Date** | 2026-09-29 |
+| **Last Activated** | 2026-08-31 (chain_runner finalize for ai-carousel-content-engine) |
+| **Last Activated** | 2026-08-31 (chain_runner finalize for ai-carousel-content-engine) |
+| **Activation Count** | 905 |
+| **30-Day Review Date** | 2026-09-30 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
