@@ -100,10 +100,10 @@
       "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
       "id": "L7",
       "kind": "lane",
-      "next_action": "",
+      "next_action": "absorb main, then worktree_lane.py merge --lane worktree-poppy-canvas",
       "owner": "claude",
-      "status": "blocked",
-      "updated_at": "2026-09-10T13:07:39+00:00",
+      "status": "active",
+      "updated_at": "2026-09-10T13:15:49+00:00",
       "validation_assertion": "",
       "workflow": "Land it"
     }
@@ -181,6 +181,6 @@
   },
   "slug": "poppy-canvas-verdict",
   "status": "active",
-  "updated_at": "2026-09-10T13:07:39+00:00",
+  "updated_at": "2026-09-10T13:15:49+00:00",
   "validation_assertions": []
 }
