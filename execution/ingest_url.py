@@ -48,9 +48,14 @@ def _env() -> dict:
     """Prefer the repo venv's yt-dlp over a stale brew copy (TikTok broke on
     2026.07.04, works on 2026.08.19 — 2026-09-10). PATH-prepend, nothing global."""
     env = dict(os.environ)
-    vbin = str(ROOT / ".venv" / "bin")
-    if os.path.isdir(vbin):
-        env["PATH"] = vbin + os.pathsep + env.get("PATH", "")
+    # launchd starts pulse_serve with a bare PATH (/usr/bin:/bin:...), so the
+    # detached jobs it spawns could not find claude / codex / ffmpeg / yt-dlp
+    # ("claude CLI not on PATH" on 8765, 2026-09-10). Add the user tool dirs.
+    home = Path.home()
+    extra = [str(ROOT / ".venv" / "bin"), str(home / ".npm-global" / "bin"), str(home / ".local" / "bin"),
+             str(home / ".bun" / "bin"), "/opt/homebrew/bin", "/usr/local/bin"]
+    have = env.get("PATH", "").split(os.pathsep)
+    env["PATH"] = os.pathsep.join([d for d in extra if os.path.isdir(d) and d not in have] + have)
     return env
 
 VIDEO_HOSTS = ("youtube.com", "youtu.be", "tiktok.com", "instagram.com", "vimeo.com",

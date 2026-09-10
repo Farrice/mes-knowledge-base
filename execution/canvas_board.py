@@ -534,20 +534,28 @@ RESEARCH_SYSTEM = (
 )
 
 
+def _tool_env() -> dict:
+    """PATH with the user's tool dirs (npm-global, homebrew, venv…). launchd
+    gives pulse_serve a bare PATH; every seat and ingest job goes through this."""
+    import ingest_url
+    return ingest_url._env()
+
+
 def _seat_claude(model_arg: str, effort: str, full_prompt: str, research: bool = False) -> dict:
-    if not shutil.which("claude"):
-        raise RuntimeError("claude CLI not on PATH")
+    env = dict(_tool_env(), DISABLE_AUTO_COMPACT="1")
+    claude = shutil.which("claude", path=env["PATH"])
+    if not claude:
+        raise RuntimeError("claude CLI not found (looked in ~/.npm-global/bin, /opt/homebrew/bin, ~/.local/bin)")
     # --tools "": no tool calls at all; scratch cwd: no CLAUDE.md/hooks. Pure model.
     # research=True opens exactly the two web tools (still no file/shell tools).
     # (--bare would also skip the login keychain → "Not logged in"; do not add it.)
-    cmd = ["claude", "-p", "--tools", RESEARCH_TOOLS if research else "",
+    cmd = [claude, "-p", "--tools", RESEARCH_TOOLS if research else "",
            "--model", model_arg, "--effort", effort,
            "--output-format", "json", "--no-session-persistence",
            "--append-system-prompt", SYSTEM + (RESEARCH_SYSTEM if research else "")]
     # One-shot call: nothing to compact. The user's settings.json sets
     # CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50, which made a 77K-token prompt at
     # --effort high "thrash" (2026-09-10, Jen board). Disable it for the seat.
-    env = dict(os.environ, DISABLE_AUTO_COMPACT="1")
     env.pop("CLAUDE_AUTOCOMPACT_PCT_OVERRIDE", None)
     r = subprocess.run(cmd, input=full_prompt, capture_output=True, text=True,
                        timeout=CLAUDE_TIMEOUT_S, cwd=_scratch_dir(), env=env)
@@ -580,18 +588,20 @@ def _seat_gemini(tier: str, effort: str, full_prompt: str) -> dict:
 
 
 def _seat_codex(model_arg, effort: str, full_prompt: str) -> dict:
-    if not shutil.which("codex"):
-        raise RuntimeError("codex CLI not on PATH")
+    env = _tool_env()
+    codex = shutil.which("codex", path=env["PATH"])
+    if not codex:
+        raise RuntimeError("codex CLI not found (looked in ~/.npm-global/bin, /opt/homebrew/bin, ~/.local/bin)")
     with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, dir=_scratch_dir()) as f:
         out_path = f.name
-    cmd = ["codex", "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only",
+    cmd = [codex, "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only",
            "-C", str(_scratch_dir()), "-c", f"model_reasoning_effort={effort}",
            "-o", out_path]
     if model_arg:
         cmd += ["-m", model_arg]
     cmd.append("-")  # prompt from stdin
     r = subprocess.run(cmd, input=f"{SYSTEM}\n\n{full_prompt}", capture_output=True,
-                       text=True, timeout=CLAUDE_TIMEOUT_S)
+                       text=True, timeout=CLAUDE_TIMEOUT_S, env=env)
     text = ""
     try:
         text = Path(out_path).read_text(encoding="utf-8").strip()
