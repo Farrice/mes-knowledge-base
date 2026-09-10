@@ -1,0 +1,186 @@
+{
+  "activation_queue": [
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "_active/clients/jen-listings/19225-rosita-tarzana/claims-ledger.json",
+      "expected_artifact": "detect URL/address/paste, mint slug; Playwright fetch \u2192 paste fallback; `execution/listing_intel.py parse|diff|ledger --slug <s>`",
+      "id": "L1",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:21:38+00:00",
+      "validation_assertion": "",
+      "workflow": "Intake"
+    },
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "_active/clients/jen-listings/19225-rosita-tarzana/19225-rosita-SHOOT-SHEET.md",
+      "expected_artifact": "`python3 execution/research.py \"<area + segment>\" --depth standard --json`",
+      "id": "L2",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:21:38+00:00",
+      "validation_assertion": "",
+      "workflow": "Market read"
+    },
+    {
+      "after": [
+        "L1",
+        "L2"
+      ],
+      "blocker": "",
+      "evidence_path": "_active/clients/jen-listings/19225-rosita-tarzana/19225-rosita-SHOOT-SHEET.md",
+      "expected_artifact": "register + buyer map from `listing-package.md` (Quiet Flex Elite vs FTHB calm-warm), no script yet",
+      "id": "L3",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:21:38+00:00",
+      "validation_assertion": "",
+      "workflow": "Strategy"
+    },
+    {
+      "after": [
+        "L3"
+      ],
+      "blocker": "",
+      "evidence_path": "_active/clients/jen-listings/19225-rosita-tarzana/hooks-v3-pen.md",
+      "expected_artifact": "six via `skills/jen-santulan-listing-content/references/prompts-v2/listing-hook-set.md`",
+      "id": "L4",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:27:05+00:00",
+      "validation_assertion": "",
+      "workflow": "Generate hooks"
+    },
+    {
+      "after": [
+        "L4"
+      ],
+      "blocker": "",
+      "evidence_path": "_active/clients/jen-listings/19225-rosita-tarzana/SEND-TO-JEN-text.md",
+      "expected_artifact": "`listing-send-package.md` \u2192 `<slug>/SEND-TO-JEN-text.md`; Gigi family: `engine/gen_slides.py` \u2192 `render.py` \u2192 `review_sheet.py` \u2192 `build_canvas.py`",
+      "id": "L5",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:27:05+00:00",
+      "validation_assertion": "",
+      "workflow": "Package"
+    },
+    {
+      "after": [
+        "L5"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/fair-housing-lint.jsonl",
+      "expected_artifact": "`execution/fair_housing_lint.py check`, `execution/client_package_lint.py`, `execution/prose_classifier.py check`, in-run Blind Bar self-check",
+      "id": "L6",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:27:05+00:00",
+      "validation_assertion": "",
+      "workflow": "Gates"
+    },
+    {
+      "after": [
+        "L6"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/session-state.md",
+      "expected_artifact": "`execution/chain_runner.py finalize \u2026 --content-file <slug>/SEND-TO-JEN-text.md`",
+      "id": "L7",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T18:27:13+00:00",
+      "validation_assertion": "",
+      "workflow": "Finalize"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [],
+    "required": false,
+    "root": "",
+    "type": "none"
+  },
+  "context_requirements": [],
+  "created_at": "2026-09-10T18:20:42+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "planned_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "proof_artifacts": [
+      "_active/clients/jen-listings/19225-rosita-tarzana/claims-ledger.json",
+      "_active/clients/jen-listings/19225-rosita-tarzana/19225-rosita-SHOOT-SHEET.md",
+      "_active/clients/jen-listings/19225-rosita-tarzana/hooks-v3-pen.md",
+      "_active/clients/jen-listings/19225-rosita-tarzana/SEND-TO-JEN-text.md",
+      ".agent/fair-housing-lint.jsonl",
+      ".agent/session-state.md"
+    ],
+    "resume_command": "/mission resume rosita-listing-hooks",
+    "skipped_lanes": [],
+    "validators_run": []
+  },
+  "goal": "Hooks and short intro scripts for 19225 Rosita that stop the scroll, sound like Jen, and she would actually film: one text she picks from",
+  "handoffs": [],
+  "job": {
+    "harness": "claude",
+    "opened_at": "2026-09-10T11:20:42-07:00",
+    "opened_by": "claude",
+    "recipe": "listing-launch-package",
+    "serves": "Jen Santulan"
+  },
+  "librarian": {
+    "notes": "",
+    "required": false,
+    "status": "not_applicable"
+  },
+  "mode": "client",
+  "name": "Listing launch package",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "",
+    "next_command": "python3 execution/job_board.py next rosita-listing-hooks",
+    "notes": "",
+    "required": true,
+    "resume_command": "/mission resume rosita-listing-hooks",
+    "state_sources": [
+      ".agent/missions/rosita-listing-hooks/mission.json",
+      ".agent/intent-memory/current.json",
+      ".agent/system-cohesion-state.json"
+    ]
+  },
+  "slug": "rosita-listing-hooks",
+  "status": "active",
+  "updated_at": "2026-09-10T18:27:13+00:00",
+  "validation_assertions": []
+}
