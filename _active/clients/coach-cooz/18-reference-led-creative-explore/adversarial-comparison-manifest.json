@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../skills/reference-led-creative-system/references/direction-manifest.schema.json",
+  "run_id": "coach-cooz-current-vs-long-set-2026-09-01",
+  "title": "Coach Cooz Website — Current Preview vs. The Long Set",
+  "choice_gate": "RECOMMENDED · UNCHOSEN",
+  "recommended_id": "CURRENT",
+  "selected_id": null,
+  "directions": [
+    {
+      "id": "CURRENT",
+      "name": "Current Black/Gold Preview",
+      "thesis": "A built, Acusio-first premium coaching page with explicit offer, location, life constraint, adaptive mechanism, and email action.",
+      "preview_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/luke-copy-instincts/extractions/luke-iha-copy-instincts/field-tests/coach-cooz-site-preview/proof/voice-memo-final/desktop-1440.png",
+      "primary_reference": {
+        "title": "Verified local Coach Cooz preview"
+      }
+    },
+    {
+      "id": "B",
+      "name": "The Long Set",
+      "thesis": "A proposed light-canvas, documentary coaching direction that frames a central inquiry with real human training imagery.",
+      "preview_path": "previews/direction-b-the-long-set.jpg",
+      "primary_reference": {
+        "title": "Strava",
+        "uuid": "94a3b2a6-2f79-4721-a2f5-6c5baaff8db9",
+        "source_url": "https://www.strava.com/"
+      }
+    }
+  ]
+}

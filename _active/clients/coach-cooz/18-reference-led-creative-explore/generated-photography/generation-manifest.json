@@ -1,0 +1,52 @@
+{
+  "project": "Coach Cooz website photography gap fill",
+  "generated_at": "2026-09-01",
+  "decision_state": "all_directions_unchosen",
+  "public_use_state": "HELD",
+  "truth_lock": "Synthetic atmosphere only. Never present as client proof, a documented session, Acusio's exact facility, or a real coaching relationship.",
+  "assets": [
+    {
+      "file": "01-before-first-client-room-synthetic.png",
+      "brief_slot": 11,
+      "role": "before-first-client room atmosphere",
+      "people": false,
+      "synthetic": true,
+      "sha256": "7c267cf4b703215d058d9ae6b17eeecc6a0006843edf784109678a8d9e0baef0"
+    },
+    {
+      "file": "02-plan-detail-synthetic.png",
+      "brief_slot": 6,
+      "role": "sanitized plan-detail atmosphere",
+      "people": false,
+      "synthetic": true,
+      "sha256": "75071177b8b790840d1735fa04b4a058fc25f60071f461152771ac86328be778"
+    },
+    {
+      "file": "03-work-detail-synthetic.png",
+      "brief_slot": 7,
+      "role": "equipment and work-detail atmosphere",
+      "people": false,
+      "synthetic": true,
+      "sha256": "f1d09e9032bbe6600e7ba2b1030b18725024f6090ce3dc9e321348af14c32f9e"
+    },
+    {
+      "file": "04-quiet-close-synthetic.png",
+      "brief_slot": 12,
+      "role": "quiet-close atmosphere",
+      "people": false,
+      "synthetic": true,
+      "sha256": "b525abeb4dd8241f2e43667aa2c48ebc6b2c4fc28b44799aeafbddbd2007abbf"
+    }
+  ],
+  "excluded_generation": [
+    "Acusio identity or face",
+    "fictional client",
+    "coaching cue",
+    "observation",
+    "adjustment",
+    "working set",
+    "between-set exchange",
+    "transition",
+    "testimonial or result proof"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "coach-cooz-website-explore-2026-09-01",
+  "title": "Coach Cooz Website — Refero Direction Choice Pack",
+  "captured_at": "2026-09-02T04:56:37.263742+00:00",
+  "manifest": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/direction-manifest.json",
+  "status": "PASS",
+  "direction_count": 3,
+  "directions": [
+    {
+      "id": "A",
+      "name": "The Iron Practice",
+      "primary_title": "Riptype Foundry",
+      "reference_uuid": "86016c71-d8a8-4627-9bc9-ac6371106605",
+      "source": "https://images.refero.design/styles/www.riptype.xyz/86016c71-d8a8-4627-9bc9-ac6371106605/preview_0.jpg",
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/previews/direction-a-the-iron-practice.jpg",
+      "width": 1440,
+      "height": 900,
+      "source_format": "JPEG",
+      "output_format": "JPEG",
+      "bytes": 199165,
+      "sha256": "fddd557db84161777646f7b326e8fe73bd4e6d293411c7700adbe8315c892f01",
+      "status": "VISIBLE"
+    },
+    {
+      "id": "B",
+      "name": "The Long Set",
+      "primary_title": "Strava",
+      "reference_uuid": "94a3b2a6-2f79-4721-a2f5-6c5baaff8db9",
+      "source": "https://images.refero.design/styles/strava.com/94a3b2a6-2f79-4721-a2f5-6c5baaff8db9/preview_0.jpg",
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/previews/direction-b-the-long-set.jpg",
+      "width": 1440,
+      "height": 900,
+      "source_format": "JPEG",
+      "output_format": "JPEG",
+      "bytes": 196897,
+      "sha256": "ad5f248533db0d32541f8345f3e282fc7233986b27d6a7b4aac8d06384edfb16",
+      "status": "VISIBLE"
+    },
+    {
+      "id": "C",
+      "name": "One Coach, In Frame",
+      "primary_title": "Sequel",
+      "reference_uuid": "50c47480-9451-420b-a372-eb42eda75e56",
+      "source": "https://images.refero.design/styles/sequel.co/50c47480-9451-420b-a372-eb42eda75e56/preview_0.jpg",
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/previews/direction-c-one-coach-in-frame.jpg",
+      "width": 1440,
+      "height": 900,
+      "source_format": "JPEG",
+      "output_format": "JPEG",
+      "bytes": 75339,
+      "sha256": "6aa04734153524b5fe53c8065f000023e3809ddb84f67964494a3222346c92ae",
+      "status": "VISIBLE"
+    }
+  ],
+  "contact_sheet": {
+    "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/previews/direction-contact-sheet.png",
+    "bytes": 335805,
+    "sha256": "353a5729105bea5d1c0072ccecbee9a2b3dc37115976e9dbb9f5288714835e21"
+  },
+  "choice_gate": "VISIBLE · UNCHOSEN"
+}

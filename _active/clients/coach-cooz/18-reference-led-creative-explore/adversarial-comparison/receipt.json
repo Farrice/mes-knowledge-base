@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "coach-cooz-current-vs-long-set-2026-09-01",
+  "title": "Coach Cooz Website — Current Preview vs. The Long Set",
+  "captured_at": "2026-09-02T05:18:02.387219+00:00",
+  "manifest": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/adversarial-comparison-manifest.json",
+  "status": "PASS",
+  "direction_count": 2,
+  "directions": [
+    {
+      "id": "CURRENT",
+      "name": "Current Black/Gold Preview",
+      "primary_title": "Verified local Coach Cooz preview",
+      "reference_uuid": "",
+      "source": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/luke-copy-instincts/extractions/luke-iha-copy-instincts/field-tests/coach-cooz-site-preview/proof/voice-memo-final/desktop-1440.png",
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/adversarial-comparison/direction-current-current-black-gold-preview.jpg",
+      "width": 1440,
+      "height": 900,
+      "source_format": "PNG",
+      "output_format": "JPEG",
+      "bytes": 170741,
+      "sha256": "0b1ed9dcad227f3e1ba5dfabdb602ae43300bb57bdf1e362f2dbb9f9ac4c80fa",
+      "status": "VISIBLE"
+    },
+    {
+      "id": "B",
+      "name": "The Long Set",
+      "primary_title": "Strava",
+      "reference_uuid": "94a3b2a6-2f79-4721-a2f5-6c5baaff8db9",
+      "source": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/previews/direction-b-the-long-set.jpg",
+      "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/adversarial-comparison/direction-b-the-long-set.jpg",
+      "width": 1440,
+      "height": 900,
+      "source_format": "JPEG",
+      "output_format": "JPEG",
+      "bytes": 196573,
+      "sha256": "c5da12237ec3d534b9c8735012f48a0b867889c7c08c402ee72f016452eb345c",
+      "status": "VISIBLE"
+    }
+  ],
+  "contact_sheet": {
+    "local_path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/health-performance-evidence-journal/_active/clients/coach-cooz/18-reference-led-creative-explore/adversarial-comparison/direction-contact-sheet.png",
+    "bytes": 237636,
+    "sha256": "061d351d265723ad8ef6b49448feb906eee3d4e82cc7ae5514c0cf9f6f5efe86"
+  },
+  "choice_gate": "VISIBLE · UNCHOSEN"
+}

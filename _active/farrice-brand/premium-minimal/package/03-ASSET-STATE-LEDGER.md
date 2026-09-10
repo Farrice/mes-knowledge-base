@@ -23,6 +23,7 @@
 | Proof-boundary card | Review | Fictional demonstration, not client proof |
 | Twelve-page personal-brand field guide | Review | System reference; parent design language is approved |
 | Original portrait | Approved identity source | Crop and scale only; never regenerate the face |
+| `fc-pm1_li-featured-angle-map-evidence_review_v02.png` + `.svg` | **Approved** | Exact LinkedIn Featured position-2 visual; approval does not authorize upload or publication |
 
 ## Locked decisions
 
@@ -61,4 +62,3 @@ Only Farrice Cain can promote an asset. Record every promotion in `CHANGELOG.md`
 - date;
 - exact decision language; and
 - any superseded file.
-
