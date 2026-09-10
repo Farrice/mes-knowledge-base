@@ -566,3 +566,4 @@
 {"ts": "2026-08-28T23:16:32Z", "label": "angle-map-director-handoff", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('one \u2026 one \u2026 one') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-28T23:16:52Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-28T23:18:12Z", "label": "angle-map-director-handoff", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-30T15:16:05Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
