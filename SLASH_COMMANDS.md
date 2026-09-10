@@ -147,6 +147,13 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🎤 Delivery & Influence Architecture — Jason Fladlien (1)
+| Command | What It Does |
+|---------|-------------|
+| `/fladlien-delivery` | Jason Fladlien delivery pass for written content, recorded media, live sales and focused audits |
+
+---
+
 ## 🧪 Perception Engineering & Behavioral Economics — Rory Sutherland (17)
 
 **Cross-Expert Stacks** (8) — Sutherland's perception substrate fused with other masters:
