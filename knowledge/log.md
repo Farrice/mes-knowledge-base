@@ -858,3 +858,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-09 10:06]` **finalize** | Jen first B-roll: bounded repair after both initial drafts were rejected; two anonymous hook and cap | general | kallaway — composite:7.0 status:Needs Improvement
 - `[2026-09-09 10:33]` **finalize** | Jen swarm post-rejection audit: traced supplied expertise, failed editorial acceptance and hook-to-p | content | kallaway — composite:7.0 status:Needs Improvement
 - `[2026-09-09 10:53]` **finalize** | Jen routing diagnosis and one complete single-writer draft for human review; swarm adoption remains  | content | alyssa-stalker — composite:7.0 status:Needs Improvement
+- `[2026-09-09 17:55]` **finalize** | Import list: 36 Scrapes Skill Systems read on 8 dimensions vs our spine; 8 ranked structural imports | general | none — composite:6.33 status:Needs Improvement
+- `[2026-09-09 19:07]` **finalize** | Import #1 built and proven: run_log.py (receipt/manifest/check), build_weeks writes run.yaml + reel  | general | none — composite:6.67 status:Needs Improvement

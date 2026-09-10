@@ -147,6 +147,8 @@ The look in §6 is the rule; the current generator family is `06-system/valley-e
 
 ## 16. The order (added 2026-09-02; the only front door is `/jen`)
 
+> **2026-09-09:** every receipt below is written into the week folder (`<week>/pipeline-log.md`) with `python3 execution/run_log.py receipt`, RENDER writes `<week>/run.yaml`, and the Valley OS page reads both. `python3 execution/run_log.py check <week>` is the definition of done. Same commands on Claude Code and Codex. Details: `.agent/workflows/jen.md`.
+
 Why: three engines claimed this pipeline and none was the door; weeks 1–3 stamped her close on nine of nine posts; the outlier audit ran after the posts were written. Farrice: "they haven't been firing in the order of operations that they should be." The order below is mechanized in `.agent/workflows/jen.md`; each step prints a receipt and the next step does not start without it.
 
 | # | Step | Reads / runs | Receipt |

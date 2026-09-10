@@ -120,15 +120,15 @@ the thursday one is about the october 15 insurance change, so it goes out on tim
 
 ### 04-attract-900k-two-zips · reel · attract · tue sept 15 · 7:30am
 
-- beat 1: $900K in sherman oaks. $900K in van nuys. same week.
+- beat 1: you keep switching between two zips. same budget, every night.
 - beat 2: sherman oaks. $899,900. 1 bed. 1 bath. a big lot and a plan.
 - beat 3: van nuys. $888,000. 4 bed. 2 bath. 1,576 square feet.
 - beat 4: neither one is wrong. they’re two different ten-year plans.
-- beat 5: tell me the zip you keep coming back to. i’ll tell you what it costs. · *my DMs are open →*
+- beat 5: tell me the zip you keep coming back to. i’ll tell you what it costs. · *send me the zip →*
 
 **caption**
 
-$900K in sherman oaks vs. $900K in van nuys, same week, both on the market right now:
+if you keep switching between two zips with the same budget, this is the week to look at both. $900K in sherman oaks vs. $900K in van nuys, both on the market right now:
 
 sherman oaks... $899,900. 1 bed, 1 bath, on a big lot. you're buying the dirt and the zip, and building the house later.
 van nuys... $888,000. 4 bed, 2 bath, 1,576 sq ft. you're buying the house, and the zip most people scroll past.
@@ -138,9 +138,7 @@ how long you're staying (under five years, the zip matters less than you think).
 whether you'd ever build or add on (a lot is a plan, not a house).
 what the insurance quote looks like at each address (i get it before we write, not in escrow).
 
-tell me the zip you keep coming back to. i'll tell you what it actually costs this month, buying or selling.
-
-i'm here for you. that's my job. i do this to protect you and your best interest.
+tell me the zip you keep coming back to. i'll tell you what it actually costs this month, buying or selling. let's chat.
 
 prices from the MLS, sept 2, 2026. they move.
 #shermanoaks #vannuys #sanfernandovalley #valleyrealestate #SFV
@@ -153,7 +151,7 @@ prices from the MLS, sept 2, 2026. they move.
 - beat 1: fully approved... and the insurance quote still moves your payment.
 - beat 2: in the hills, i get the quote before we write the offer.
 - beat 3: october 15: the state’s backup fire policy goes up 29.1%.
-- beat 4: send me the street. i’ll tell you what i’d check first. · *my DMs are open →*
+- beat 4: send me the street. i’ll tell you what i’d check first. · *before the 15th →*
 
 **caption**
 
@@ -171,7 +169,6 @@ source: california dept of insurance, oct 15, 2026.
 
 my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
 
-i'm here for you. that's my job. i do this to protect you and your best interest.
 approved and insured are two different yeses.
 
 #SFV #sanfernandovalleyrealtor #losangelesrealestate #shermanoaks #woodlandhills
@@ -181,20 +178,20 @@ approved and insured are two different yeses.
 
 ### 06-position-tarzana-median-sellers · card · position (seller side) · sat sept 19 · 9:00am
 
-- slide 1: tarzana sold for 14.5% less this july than last july. 
-   and that’s still not your number →
-- slide 2: why the median lies to sellers 
+- slide 1: if you own in tarzana, that headline hit your phone too. 
+   and it’s still not your number →
+- slide 2: tarzana median, july: down 14.5% in a year 
    the median is half the valley. your house is one street. 
    a median is the middle of every sale, from a $650,000 fixer to a $19,999,000 estate. one big month at the top and the whole number moves. 
    what a home like yours closed for this summer, three streets over, is the number that decides your list price.
 - slide 3: send me the street. not the address... just the street. 
    i’ll tell you what homes like yours actually closed for this summer, and what i’d list at. no pitch, no pressure. 
    i’m here for you. that’s my job. i do this to protect you and your best interest. 
-   my DMs are open →
+   send me the street →
 
 **caption**
 
-tarzana's median sale price was $949,676 in july... 14.5% below last july. if you own here, that headline hit your phone too. it's still not your number.
+if you own in tarzana, that headline hit your phone too: the median sale price was $949,676 in july, 14.5% below last july. it's still not your number.
 
 a median is the middle of every sale, from a $650,000 fixer to a $19,999,000 estate. a few big closings at the top one month and the whole number moves. your house didn't.
 

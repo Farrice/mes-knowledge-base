@@ -14,5 +14,7 @@ State the scale in one line: one source video, N clips (their scorer picks; cap 
 4. **Our floor** — no TTS, no voice clone (his VO only). Clip captions run `python3 execution/prose_classifier.py check` on the package text. Any on-screen claim in the package gets a claim tag.
 5. **Compound** — `asset_index.py` line per rendered clip (src=scrapes/vid-ffmpeg-edit, cost 0 unless illustrated); learnings entry under `## 00-longform-to-shortform`; `chain_runner.py finalize --skill vendor:00-longform-to-shortform --workflow video-to-shorts`; handoff on `<brand>-video`.
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=video-to-shorts --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Auto-post. TTS or cloned voice. Edit inside `.claude/skills/*`. Skip the brand lock because "it's obviously his video".

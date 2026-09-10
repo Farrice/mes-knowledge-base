@@ -32,7 +32,7 @@ def frame(mp4, name, w):
     return dst
 
 made = []
-for wk in ["week-of-2026-09-07", "week-of-2026-09-14", "week-of-2026-09-21"]:
+for wk in sorted(p.name for p in WEEKS.glob("week-of-*") if (p / "run.yaml").exists()):
     for p in sorted((WEEKS / wk).glob("*.png")):
         made.append(thumb(p, p.stem, 560))
     for m in sorted((WEEKS / wk).glob("*.mp4")):
