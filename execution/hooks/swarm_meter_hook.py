@@ -74,6 +74,24 @@ def run_hook(payload: dict):
         prompt = tool_input.get("prompt") or ""
         brief_bytes = len(prompt)
         label = tool_input.get("description") or tool_input.get("name") or "unlabeled"
+        # A seat the runbook already reserved via `swarm_meter.py price` (label =
+        # description minus the "[swarm:<run>]" prefix, not yet charged) passes
+        # WITHOUT a second reservation. Otherwise the CLI price step plus this
+        # hook double-book every seat and SEAT_CAP fires on the 3rd of 4 seats
+        # (jen-proof-01, 2026-09-09). Unpriced dispatches are still priced and
+        # gated here; reconcile matches the same stripped label.
+        prefix = f"[swarm:{active_run}]"
+        if label.startswith(prefix):
+            bare = label[len(prefix):].strip()
+            run = swarm_meter.load_run(active_run)
+            reserved = [s for s in run["seats"] if s["label"] == bare and s.get("actual_usd") is None]
+            if reserved:
+                if brief_bytes > run["max_brief_bytes"]:
+                    raise swarm_meter.SwarmMeterError(
+                        "BRIEF_TOO_BIG", f"{brief_bytes} bytes > max {run['max_brief_bytes']}")
+                s0 = reserved[0]
+                return 0, (f"PRICE {s0['seat']} {bare} est=${s0['est_usd']:.2f} "
+                           f"(reserved via `swarm_meter.py price`; not re-reserved)")
         result = swarm_meter.do_price(active_run, seat, brief_bytes, label=label)
         note = " [UNCONFIRMED PRICING]" if result["unconfirmed"] else ""
         lines = [f"PRICE {result['seat']} {result['label']} est=${result['est_usd']:.2f} "
@@ -153,6 +171,20 @@ def self_test() -> int:
         code, msg = run_hook(agent_payload(7000, desc="seat-e"))
         results.append(("e_brief_too_big_exit_2",
                          code == 2 and "BRIEF_TOO_BIG" in msg, f"code={code} msg={msg!r}"))
+
+        # (f) seat already reserved via CLI `price` -> allowed, NOT re-reserved;
+        #     an unpriced label on the same run still reserves a new seat
+        swarm_meter.do_open("run-f", "claude", 10.0)
+        swarm_meter.do_price("run-f", "sonnet", 5000, label="lens-f")
+        code, msg = run_hook(agent_payload(5000, desc="[swarm:run-f] lens-f"))
+        n_after = len(swarm_meter.load_run("run-f")["seats"])
+        results.append(("f_cli_reserved_not_double_booked",
+                         code == 0 and n_after == 1 and "not re-reserved" in msg,
+                         f"code={code} seats={n_after} msg={msg!r}"))
+        code, msg = run_hook(agent_payload(5000, desc="[swarm:run-f] lens-unpriced"))
+        n_after = len(swarm_meter.load_run("run-f")["seats"])
+        results.append(("f2_unpriced_label_still_reserves",
+                         code == 0 and n_after == 2, f"code={code} seats={n_after} msg={msg!r}"))
     finally:
         if old_home is None:
             os.environ.pop("SWARM_METER_HOME", None)

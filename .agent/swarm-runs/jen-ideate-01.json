@@ -1,0 +1,53 @@
+{
+  "run_id": "jen-ideate-01",
+  "harness": "claude",
+  "budget_usd": 10.0,
+  "warn_usd": 7.0,
+  "spent_est_usd": 0.2091,
+  "spent_actual_usd": 6.4072,
+  "seats": [
+    {
+      "label": "voc-fresh-pull",
+      "seat": "sonnet",
+      "brief_bytes": 2653,
+      "est_usd": 0.056,
+      "actual_usd": 3.6185,
+      "in_tokens": 6057896,
+      "out_tokens": 6833
+    },
+    {
+      "label": "ideate-alyssa",
+      "seat": "sonnet",
+      "brief_bytes": 6000,
+      "est_usd": 0.051,
+      "actual_usd": 0.9587,
+      "in_tokens": 262370,
+      "out_tokens": 17097
+    },
+    {
+      "label": "ideate-kallaway",
+      "seat": "sonnet",
+      "brief_bytes": 6065,
+      "est_usd": 0.051,
+      "actual_usd": 0.9065,
+      "in_tokens": 262452,
+      "out_tokens": 13599
+    },
+    {
+      "label": "ideate-jen",
+      "seat": "sonnet",
+      "brief_bytes": 6121,
+      "est_usd": 0.0511,
+      "actual_usd": 0.9235,
+      "in_tokens": 262462,
+      "out_tokens": 14730
+    }
+  ],
+  "rounds": 0,
+  "max_seats": 4,
+  "max_rounds": 3,
+  "max_brief_bytes": 6144,
+  "opened_ts": "2026-09-10T02:22:08.930047+00:00",
+  "closed_ts": null,
+  "status": "OPEN"
+}

@@ -1,0 +1,44 @@
+{
+  "_schema": "swarm-usage-v1",
+  "limits": {
+    "max_seats": 4,
+    "max_rounds": 3,
+    "max_brief_bytes": 6144,
+    "warn_ratio": 0.7
+  },
+  "pricing_usd_per_mtok": {
+    "opus": {
+      "in": 5,
+      "out": 25
+    },
+    "sonnet": {
+      "in": 3,
+      "out": 15
+    },
+    "haiku": {
+      "in": 1,
+      "out": 5
+    },
+    "gpt-6-astra": {
+      "in": 5,
+      "out": 25,
+      "unconfirmed": true
+    }
+  },
+  "state": {
+    "active_run": "jen-ideate-01"
+  },
+  "log": [
+    {
+      "run_id": "jen-proof-01",
+      "harness": "claude",
+      "closed_ts": "2026-09-10T02:12:49.169792+00:00",
+      "status": "CLOSED",
+      "cost_usd": 2.2699,
+      "basis": "actual",
+      "seats": 3,
+      "rounds": 0,
+      "dissent": 3
+    }
+  ]
+}
