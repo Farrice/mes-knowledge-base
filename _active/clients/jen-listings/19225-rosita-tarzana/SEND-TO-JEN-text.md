@@ -1,75 +1,20 @@
-hey babe, 19225 rosita. pick one hook (1–5). film it two ways: the quick reel and the 60-second walk. everything else is the same for all five 🤍
+hey babe, 19225 rosita. five intros. pick the one you'd actually say, read it on the walk in 🤍
 
-$4.8M · 6 bed / 7 bath · 6,500 sq ft · one floor · flat half acre · pool + spa · outdoor kitchen · guest quarters with their own kitchen · 11-car motor court
+1 · WHAT IT BUYS
+"people ask me all the time what almost five million actually buys in the valley. this. this is what it buys. sixty-five hundred square feet on one floor… six bedrooms, seven baths, and you never touch a stair. a flat half acre south of the boulevard, which almost doesn't exist. a heated pool, a spa, an outdoor kitchen, and guest quarters with their own kitchen. eleven cars in the driveway. and it's ten minutes from everything you'd drive to encino for. come see it 🏡"
 
-━━━━━━━━━━━━━━━━━━
-PICK YOUR HOOK
-━━━━━━━━━━━━━━━━━━
+2 · THE PHOTOS
+"the best thing about this house doesn't show up in the photos. it's the walk. front door to the last bedroom, sixty-five hundred square feet, and you never climb a single stair. the back wall opens and the pool is right there, basically in your living room. the guest quarters have their own kitchen, so someone can stay a month and you'd never know. the photos are gorgeous… the walk is the reason you buy it. come walk it with me."
 
-1 · THE DARE
-where: front door, hands up like "go ahead"
-say: "find me another sixty-five hundred square feet on one floor in tarzana… i'll wait."
-on screen: Find Me Another One / I'll Wait
+3 · THE TWO THINGS
+"this house has two things almost nothing in the valley has at the same time. one… sixty-five hundred square feet on a single floor. everybody builds up at this size. this one stayed down. two… a flat half acre south of the boulevard. south of ventura usually means a hillside. this one, you could land a plane on. add a heated pool, a spa, an outdoor kitchen, guest quarters with their own kitchen, and a driveway that parks eleven cars. come see it 🏡"
 
-2 · THE PAINT JOB
-where: front door, open it on the last word
-say: "four point eight is a lot to pay for a paint job. this isn't that."
-on screen: Not A / Lipstick Remodel
+4 · YOU DON'T HAVE TO LEAVE
+"you think you have to leave the valley for a house like this. you don't. this is tarzana. sixty-five hundred square feet, six bedrooms, one floor, a flat half acre south of the boulevard. a pool the living room opens onto, an outdoor kitchen, guest quarters with their own kitchen, and a driveway that swallows eleven cars. westside money… twenty minutes closer to your actual life. i'd love to show you 🤝"
 
-3 · THE FRIENDS
-where: motor court at dusk, house lit behind you
-say: "this is the tarzana house your calabasas friends will swear they saw first."
-on screen: Your Calabasas Friends / Haven't Seen This Yet
+5 · THE HOST
+"if you're the one who always ends up hosting… this is your house. eleven cars in the driveway, so nobody's on the street. the back wall opens and the whole party moves to the pool, the spa, the outdoor kitchen, the fireplace. six bedrooms on one floor for everyone who stays. guest quarters with their own kitchen for the ones who stay too long. sixty-five hundred square feet in tarzana, flat half acre, south of the boulevard. come see it… and bring people."
 
-4 · THE PEACE TREATY
-where: main kitchen island, then cut to the guest kitchen
-say: "two kitchens on one lot. that's not a feature… that's a peace treaty."
-on screen: Two Kitchens / One Address
+CLOSE (same for all, by the pool): "19225 rosita, tarzana. four point eight. i'm jen santulan with equity union… dm me 'rosita' and i'll get you in this week."
 
-5 · THE PARKING LOT
-where: walking the motor court, counting with your hand
-say: "privacy in tarzana isn't a gate. it's a driveway the size of a parking lot."
-on screen: 11 Cars / Zero On The Street
-
-━━━━━━━━━━━━━━━━━━
-THE QUICK REEL (15 sec) · hook + these two lines + b-roll
-━━━━━━━━━━━━━━━━━━
-
-after any hook, say:
-"six bedrooms, seven baths, sixty-five hundred square feet… and not one stair. half an acre south of the boulevard, and it's flat."
-then cut to: pool at dusk → guest kitchen → motor court.
-end card: 19225 Rosita · $4,800,000 · DM me "rosita"
-
-━━━━━━━━━━━━━━━━━━
-THE 60-SECOND WALK · hook, then these stops, ~8 sec each
-━━━━━━━━━━━━━━━━━━
-
-stop 1 · motor court: "eleven cars fit out here. i counted. nothing you own ever sits on the street."
-stop 2 · front door → hall: "and from this door to the last bedroom, you never touch a stair."
-stop 3 · great room, doors open: "the whole back wall opens. the pool is basically in the living room."
-stop 4 · kitchen island: "this is kitchen one. the island, the range, the room right off it."
-stop 5 · guest kitchen: "this is kitchen two. its own living room. its own front half of the day."
-stop 6 · backyard: "heated pool, spa, outdoor kitchen, outdoor fireplace… on a flat half acre south of the boulevard. that combination is the rare part."
-close · by the pool: "19225 rosita, tarzana. four point eight. i'm jen santulan with equity union… dm me 'rosita' and i'll get you in this week."
-
-━━━━━━━━━━━━━━━━━━
-CAPTION (one for both)
-━━━━━━━━━━━━━━━━━━
-
-nobody builds 6,500 square feet on one floor anymore. somebody did.
-
-six bedrooms, seven baths, every one of them on one level. a flat half acre south of the boulevard. a motor court that parks eleven cars. guest quarters with their own kitchen. heated pool, spa, outdoor kitchen, outdoor fireplace.
-
-if you've been quietly counting stairs on every tour… you can stop.
-
-📍 19225 rosita st, tarzana · $4,800,000
-dm me "rosita" and i'll get you in this week.
-listed by marty azoulay & shane zvulun | equity union
-. . .
-#tarzana #encino #calabasas #woodlandhills #sanfernandovalleyrealtor #losangelesrealestate #luxuryrealestate #JustListed
-
-━━━━━━━━━━━━━━━━━━
-two things
-━━━━━━━━━━━━━━━━━━
-• marty and shane are the listing agents. get marty's okay before it goes up under your name.
-• don't say on camera: the 2022 price · the zestimate · the countertop material (say "the island") · "detached" (say guest quarters) · "new construction" (say remodeled) · "garage" (there isn't one) · schools, or who the house is "for"
+two things: get marty's okay before it goes up under your name (it's his and shane's listing). and on camera skip the 2022 price, the zestimate, the countertop material, "detached," "new construction," "garage," and schools.
