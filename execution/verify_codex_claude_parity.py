@@ -321,6 +321,14 @@ def check_prompt_hook() -> list[str]:
     receipts.append("ambient browser metadata is ignored while creative feedback routes normally")
 
     context_note = hook_context(CONTEXT_NOTE_PROMPT)
+    # The outcome-next-proof companion (codex_hook_runner → augment) fires on
+    # every meaningful prompt by design (≥7 words); it is not routing context.
+    # Strip it, then assert nothing ELSE (routing suggestions, control
+    # overrides) was emitted for a context-only follow-up.
+    import re as _re
+    context_note = _re.sub(
+        r"Own the outcome through the next useful proof\..*?create extra user homework\.",
+        "", context_note, flags=_re.S).strip()
     if context_note:
         fail(f"context-only follow-up should not emit routing context: {context_note}")
     receipts.append("context-only KU follow-up stays quiet")
