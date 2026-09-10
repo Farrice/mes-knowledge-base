@@ -859,3 +859,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-09 10:33]` **finalize** | Jen swarm post-rejection audit: traced supplied expertise, failed editorial acceptance and hook-to-p | content | kallaway — composite:7.0 status:Needs Improvement
 - `[2026-09-09 10:53]` **finalize** | Jen routing diagnosis and one complete single-writer draft for human review; swarm adoption remains  | content | alyssa-stalker — composite:7.0 status:Needs Improvement
 - `[2026-09-01 14:24]` **finalize** | Gigi Mironova: full /jen-engine 7-stage dry run — VOICE/BRAIN, demand report, 20-video calendar, scr | general | Jen Santulan — composite:5.33 status:Needs Improvement
+- `[2026-09-03 07:45]` **finalize** | AI Council application, Upwork and Fiverr storefront fields, and ranked free-channel acquisition map | general | luke-iha-client-mastery — composite:8.33 status:Keep
+- `[2026-09-03 12:41]` **finalize** | Research-backed AI Council proposal with attached one-page newsletter spec sample | copywriting | luke-iha-copy-blocks — composite:6.67 status:Needs Improvement
+- `[2026-09-03 12:42]` **finalize** | Research-backed AI Council proposal with attached one-page newsletter spec sample | copywriting | luke-iha-copy-blocks — composite:8.33 status:Keep
+- `[2026-09-03 13:01]` **finalize** | Final pre-send audit of the AI Council Upwork proposal and tailored newsletter sample | copywriting | luke-iha-copy-blocks — composite:7.33 status:Needs Improvement
+- `[2026-09-03 13:01]` **finalize** | Audited AI Council Upwork proposal is submission-ready: all required fields are complete, the one-pa | copywriting | luke-iha-copy-blocks — composite:9.0 status:Keep
