@@ -1,0 +1,16 @@
+{
+  "artifact_type": "lead_conversion_asset",
+  "title": "Jen SFV Condo-vs-House Decision Map",
+  "client": "Jennifer Santulan",
+  "created_at": "2026-09-09T00:00:00-07:00",
+  "updated_at": "2026-09-09T00:00:00-07:00",
+  "purpose": "Lead-conversion clarity tool sent to first-time buyers weighing condo vs. house purchase",
+  "primary_icp": "Valley Tradeoff Buyer",
+  "sections": 9,
+  "owner": "Jen Santulan / Kallaway",
+  "status": "ready_to_deploy",
+  "deployment_method": "shared via DM response to Valley Tradeoff posts, email, or in-call walkthrough",
+  "linked_content": "Jen Valley Tradeoff 30-Day Test Pack (posts 1-10 lead paths reference this asset)",
+  "commercial_event": "NO EVENT",
+  "paid_cost_usd": 0.0
+}
