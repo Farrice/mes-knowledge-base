@@ -148,6 +148,7 @@ button{font:inherit}
 .compose select{font:inherit;font-size:11px;color:var(--ink);background:var(--ground);border:1px solid var(--line);border-radius:999px;padding:4px 9px}
 .compose .k{font-family:var(--mono);font-size:9px;color:var(--muted);white-space:nowrap}
 .compose label.k{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:3px 8px;cursor:pointer}
+.compose select.voice.on{border-color:color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--ink)}
 .compose .chip{font-size:10.5px;border:1px solid color-mix(in srgb,var(--warn) 60%,transparent);color:var(--ink);background:color-mix(in srgb,var(--warn) 14%,transparent);border-radius:999px;padding:3px 9px;white-space:nowrap;max-width:160px;overflow:hidden;text-overflow:ellipsis}
 .compose button{margin-left:auto;font-size:12px;color:var(--ground);background:var(--accent);border:0;border-radius:999px;padding:6px 14px;cursor:pointer}
 .compose button:disabled{opacity:.45;cursor:default}
@@ -188,6 +189,7 @@ JS = r"""
   const LIVE = location.protocol.indexOf('http') === 0;
   let B = JSON.parse(document.getElementById('boarddata').textContent);
   const MODELS = JSON.parse(document.getElementById('modeldata').textContent);
+  let VOICES = JSON.parse(document.getElementById('voicedata').textContent);
   const stage = document.getElementById('stage');
   const NS = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(NS, 'svg');
@@ -337,12 +339,13 @@ JS = r"""
     const opts = Object.keys(MODELS).map(m => `<option value="${esc(m)}"${m === n.model ? ' selected' : ''}>${esc(m)}</option>`).join('');
     const effs = (MODELS[n.model] ? MODELS[n.model].efforts : ['medium']).map(e => `<option value="${esc(e)}"${e === n.effort ? ' selected' : ''}>${esc(e)}</option>`).join('');
     const turns = (c.turns || []).map((t, i) => {
-      const meta = t.role === 'assistant' ? `<div class="m">${esc(t.model)}/${esc(t.effort)}${t.research ? ' · 🔎 web' : ''} · ${esc(t.seconds)}s · ${costLabel(t)} · ${Number(t.context_tokens || 0).toLocaleString()} ctx tok · ${Number(t.sources || 0)} src</div>` : '';
+      const meta = t.role === 'assistant' ? `<div class="m">${esc(t.model)}/${esc(t.effort)}${t.research ? ' · 🔎 web' : ''}${t.voice ? ' · 🗣 ' + esc(t.voice) : ''} · ${esc(t.seconds)}s · ${costLabel(t)} · ${Number(t.context_tokens || 0).toLocaleString()} ctx tok · ${Number(t.sources || 0)} src</div>` : '';
       const body = t.role === 'user' ? esc(t.text) : `<div class="md">${md(t.text)}</div>`;
       return `<div class="turn ${t.role === 'user' ? 'user' : 'assistant'}"><span class="cp" data-copy="${i}" title="copy as text">⧉</span>${body}${meta}</div>`;
     }).join('');
     const busy = n.status === 'running';
     const skills = upstream(n).filter(m => m.type === 'note').map(m => `<span class="chip" title="wired note (acts as a skill / system prompt)">✎ ${esc(m.title)}</span>`).join('');
+    const vopts = VOICES.map(v => `<option value="${esc(v.key)}"${(n.voice || '') === v.key ? ' selected' : ''}>${esc(v.key ? '🗣 ' + v.title : v.title)}</option>`).join('') + '<option value="__add">＋ add a voice…</option>';
     const cvs = (n.convos || []).map(x => `<div class="cv${x.id === c.id ? ' on' : ''}" data-cv="${esc(x.id)}" title="${esc(x.title)}"><span>${esc(x.title)}</span>${x.id === c.id ? `<b data-cvren title="rename">✎</b><b data-cvdel title="delete">×</b>` : ''}</div>`).join('');
     return `<div class="chatwrap">
         <div class="convos"><button class="nc" data-newcv>+ new conversation</button><div class="lab">conversations</div><div class="lst">${cvs}</div></div>
@@ -353,6 +356,7 @@ JS = r"""
             <textarea data-draft placeholder="${busy ? 'thinking…' : 'ask about everything wired in · ⌘⏎ to send'}"${busy ? ' disabled' : ''}>${esc(drafts[n.id] || '')}</textarea>
             <div class="row"><select data-model title="model">${opts}</select><select data-effort title="effort">${effs}</select>
             <label class="k" title="let the Claude seat search the live web (WebSearch/WebFetch) before it answers"><input type="checkbox" data-research${n.research ? ' checked' : ''}${(MODELS[n.model] || {}).seat === 'claude' ? '' : ' disabled'}> 🔎 research</label>
+            <select data-voice class="voice${n.voice ? ' on' : ''}" title="brand voice for this chat — rides in front of the sources on every turn; 'no voice' = plain model">${vopts}</select>
             ${skills}<span class="k">${esc(ctxLabel(n))}</span>
             <button data-send${busy ? ' disabled' : ''}>${busy ? '…' : 'send'}</button></div>
           </div>
@@ -405,9 +409,18 @@ JS = r"""
 
   function bindChat(root, n) {
     const ta = root.querySelector('[data-draft]'), send = root.querySelector('[data-send]');
-    const ms = root.querySelector('[data-model]'), es = root.querySelector('[data-effort]'), rs = root.querySelector('[data-research]');
+    const ms = root.querySelector('[data-model]'), es = root.querySelector('[data-effort]'), rs = root.querySelector('[data-research]'), vs = root.querySelector('[data-voice]');
     const stop = ev => ev.stopPropagation();
-    [ta, ms, es, rs].forEach(el => el.addEventListener('mousedown', stop));
+    [ta, ms, es, rs, vs].forEach(el => el.addEventListener('mousedown', stop));
+    vs.addEventListener('change', async () => {
+      if (vs.value === '__add') {
+        vs.value = n.voice || '';
+        const title = (prompt('name this voice (e.g. "My.BPM", "Andrea — Resonance")') || '').trim(); if (!title) return;
+        openPaste(0, 0, 'paste the voice / brand text here — who is speaking, how they sound, what they never say. it becomes a reusable voice for any chat.', {voice: {title, node: n}});
+        return;
+      }
+      const j = await act('canvas.model', {id: n.id, voice: vs.value}); if (j.ok) { n.voice = j.voice || ''; drawNodes(); toast(n.voice ? 'voice: ' + n.voice : 'voice off — plain model'); }
+    });
     root.querySelectorAll('.convos, .turns').forEach(el => el.addEventListener('mousedown', stop));
     ta.addEventListener('input', () => { drafts[n.id] = ta.value; });
     ta.addEventListener('keydown', ev => { if ((ev.metaKey || ev.ctrlKey) && ev.key === 'Enter') { ev.preventDefault(); send.click(); } });
@@ -519,8 +532,8 @@ JS = r"""
 
   // ---------- add things (rail + modal) ----------
   const modal = document.getElementById('modal'), pasteTa = document.getElementById('paste');
-  let pasteAt = {x: 40, y: 40};
-  function openPaste(x, y, hint) { pasteAt = {x, y}; pasteTa.value = ''; pasteTa.placeholder = hint || pasteTa.dataset.ph; modal.classList.add('on'); setTimeout(() => pasteTa.focus(), 30); }
+  let pasteAt = {x: 40, y: 40}, modalMode = null;
+  function openPaste(x, y, hint, mode) { pasteAt = {x, y}; modalMode = mode || null; pasteTa.value = ''; pasteTa.placeholder = hint || pasteTa.dataset.ph; document.getElementById('mtitle').textContent = mode && mode.voice ? 'ADD VOICE · ' + mode.voice.title : 'ADD SOURCE'; modal.classList.add('on'); setTimeout(() => pasteTa.focus(), 30); }
   function visibleSpot(fx, fy) { const r = stage.getBoundingClientRect(); return toWorld(r.left + r.width * fx, r.top + r.height * fy); }
   async function addAt(action, args, fx, fy) { const w = visibleSpot(fx, fy); const j = await act(action, Object.assign({x: w.x, y: w.y}, args)); if (j.ok && j.node) { B.nodes.push(j.node); drawNodes(); } return j; }
   document.getElementById('r-chat').addEventListener('click', () => addAt('canvas.add_chat', {}, 0.5, 0.2));
@@ -544,6 +557,12 @@ JS = r"""
   pasteTa.addEventListener('keydown', ev => { if ((ev.metaKey || ev.ctrlKey) && ev.key === 'Enter') document.getElementById('pgo').click(); if (ev.key === 'Escape') modal.classList.remove('on'); });
   document.getElementById('pgo').addEventListener('click', async () => {
     const v = pasteTa.value.trim(); if (!v) return; modal.classList.remove('on');
+    if (modalMode && modalMode.voice) {
+      const {title, node: n} = modalMode.voice; modalMode = null;
+      const j = await act('canvas.add_voice', {title, key: title, text: v});
+      if (j.ok) { VOICES = j.voices || VOICES; const j2 = await act('canvas.model', {id: n.id, voice: j.voice.key}); if (j2.ok) n.voice = j.voice.key; drawNodes(); toast('voice added: ' + j.voice.title); }
+      return;
+    }
     const lines = v.split(/\n+/).map(s => s.trim()).filter(Boolean);
     const allUrls = lines.length > 1 && lines.every(s => /^https?:\/\//.test(s));
     const items = allUrls ? lines : [v];
@@ -609,6 +628,7 @@ def render(slug: str) -> str:
     data = json.dumps(board, separators=(",", ":")).replace("</", "<\\/")
     models = {k: {"seat": v[0], "default_effort": v[2], "efforts": v[3]} for k, v in cb.MODELS.items()}
     mdata = json.dumps(models, separators=(",", ":")).replace("</", "<\\/")
+    vdata = json.dumps(cb.list_voices(), separators=(",", ":")).replace("</", "<\\/")
     import html as _h
     opts = "".join(
         f'<option value="{_h.escape(b["slug"])}"{" selected" if b["slug"] == slug else ""}>'
@@ -648,7 +668,7 @@ def render(slug: str) -> str:
 <div class="zoom"><button id="zfit" title="fit all">⛶</button><button id="zin" title="zoom in">+</button><button id="zout" title="zoom out">−</button><button id="ztheme" title="light / dark">◐</button></div>
 <div id="full"></div>
 <div id="modal"><div class="box">
-  <div class="kicker">ADD SOURCE</div>
+  <div class="kicker" id="mtitle">ADD SOURCE</div>
   <textarea id="paste" data-ph="{ph}" placeholder="{ph}"></textarea>
   <div class="row"><button id="pcancel">cancel</button><button id="pgo" class="go">add · ⌘⏎</button></div>
 </div></div>
@@ -656,6 +676,7 @@ def render(slug: str) -> str:
 <div id="toast"></div>
 <script id="boarddata" type="application/json">{data}</script>
 <script id="modeldata" type="application/json">{mdata}</script>
+<script id="voicedata" type="application/json">{vdata}</script>
 <script>
 {JS}
 </script>"""

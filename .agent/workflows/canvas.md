@@ -40,7 +40,13 @@ Source cards show a thumbnail, platform badge, token count and a `transcript`
 expander. A chat card is a panel: conversations on the left (each keeps its own
 thread, all read the same wired sources; the first ask names the thread), the
 thread on the right with replies rendered (tables, bold, lists, code blocks
-with copy), then model · effort · 🔎 research · send. ⤢ or `f` = fullscreen
+with copy), then model · effort · 🔎 research · 🗣 voice · send. **Voice** is
+Poppy's skill chip made ours: `no voice` (plain model) · Farrice (portable
+voice card) · Jen (voice profile) · any custom voice you add from the same
+menu (`＋ add a voice…` → name → paste the text; saved to
+`.agent/canvas/voices/<key>.md`). The voice rides in front of the sources on
+every turn, for every seat, and the reply footer shows which one was on.
+Nothing is hard-wired to a client. ⤢ or `f` = fullscreen
 chat, Esc closes. Bottom-right: fit · + · − · ◐ light/dark.
 
 
@@ -64,6 +70,13 @@ python3 execution/canvas_board.py demo                           # seed the demo
 `execution/ingest_url.py` (router + cache) · `execution/canvas_board.py`
 (board file, DAG walk, seats) · `execution/canvas_render.py` (the page) ·
 routes + `canvas.*` actions in `execution/pulse_serve.py`.
+
+## Known limits
+
+TikTok / Instagram single videos are login-walled for downloaders: the card
+says so plainly; use the profile card for the listing or paste the caption as
+text (vidIQ watch can transcribe for credits). Instagram profile cards wait on
+the vidIQ path.
 
 ## Not in v1
 

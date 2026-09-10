@@ -50,7 +50,8 @@ ROOT = Path(__file__).resolve().parent.parent
 EXEC = ROOT / "execution"
 BOARDS = ROOT / ".agent" / "canvas" / "boards"
 SCRATCH = Path(os.environ.get("CANVAS_SCRATCH") or "~/.cache/antigravity-canvas").expanduser()
-PY = sys.executable or "python3"
+_VENV_PY = ROOT / ".venv" / "bin" / "python3"
+PY = str(_VENV_PY) if _VENV_PY.exists() else (sys.executable or "python3")  # ingestion deps live in the venv
 sys.path.insert(0, str(EXEC))
 
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9_-]{0,63}$")
@@ -66,6 +67,61 @@ MODELS = {
     "gpt":          ("codex",  None,      "medium", ["low", "medium", "high", "xhigh"]),
 }
 DEFAULT_MODEL = "sonnet"
+
+# Brand voices — Poppy's "skill chip", made ours. A chat node carries `voice`
+# (a key below, or "" for none). The voice text rides in front of the sources
+# on every turn, for every seat. Defaults point at the repo's living canon;
+# custom voices are markdown files in .agent/canvas/voices/<key>.md (first
+# line = title). Nothing is hard-wired to a client (Farrice, 2026-09-10).
+VOICES_DIR = ROOT / ".agent" / "canvas" / "voices"
+VOICES_DEFAULT = {
+    "farrice": ("Farrice Cain — portable voice card", ROOT / "_active" / "farrice-brand" / "voice" / "PORTABLE-VOICE-CARD.md"),
+    "jen": ("Jen Santulan — SFV realtor", ROOT / "_active" / "clients" / "jen-listings" / "brand_context" / "voice-profile.md"),
+}
+VOICE_KEY_RE = re.compile(r"^[a-z0-9][a-z0-9_-]{0,40}$")
+
+
+def list_voices() -> list[dict]:
+    out = [{"key": "", "title": "no voice (plain)", "chars": 0}]
+    for k, (title, p) in VOICES_DEFAULT.items():
+        if p.exists():
+            out.append({"key": k, "title": title, "chars": len(p.read_text(encoding="utf-8", errors="ignore"))})
+    if VOICES_DIR.exists():
+        for p in sorted(VOICES_DIR.glob("*.md")):
+            if p.stem in VOICES_DEFAULT or not VOICE_KEY_RE.match(p.stem):
+                continue
+            txt = p.read_text(encoding="utf-8", errors="ignore")
+            first = txt.strip().splitlines()[0].lstrip("# ").strip() if txt.strip() else p.stem
+            out.append({"key": p.stem, "title": first[:60] or p.stem, "chars": len(txt)})
+    return out
+
+
+def voice_text(key: str) -> str:
+    if not key:
+        return ""
+    if key in VOICES_DEFAULT:
+        p = VOICES_DEFAULT[key][1]
+    else:
+        if not VOICE_KEY_RE.match(key):
+            raise ValueError(f"bad voice key {key!r}")
+        p = VOICES_DIR / f"{key}.md"
+    if not p.exists():
+        raise FileNotFoundError(f"voice {key!r} has no file")
+    return p.read_text(encoding="utf-8", errors="ignore").strip()
+
+
+def add_voice(key: str, title: str, text: str) -> dict:
+    key = re.sub(r"[^a-z0-9_-]+", "-", key.strip().lower()).strip("-")[:40]
+    if not VOICE_KEY_RE.match(key) or key in VOICES_DEFAULT:
+        raise ValueError("voice key: letters, digits, dashes; not a built-in name")
+    if not text.strip():
+        raise ValueError("empty voice text")
+    VOICES_DIR.mkdir(parents=True, exist_ok=True)
+    body = text.strip()
+    if not body.startswith("#"):
+        body = f"# {title.strip() or key}\n\n{body}"
+    (VOICES_DIR / f"{key}.md").write_text(body + "\n", encoding="utf-8")
+    return {"key": key, "title": title.strip() or key, "chars": len(body)}
 CLAUDE_TIMEOUT_S = 900
 NODE_W, NODE_H = 300, 180
 CHAT_W, CHAT_H = 420, 320
@@ -359,10 +415,14 @@ def move(board: dict, nid: str, x=None, y=None, w=None, h=None) -> dict:
 
 
 def set_model(board: dict, nid: str, model: str | None = None, effort: str | None = None,
-              research: bool | None = None) -> dict:
+              research: bool | None = None, voice: str | None = None) -> dict:
     n = _node(board, nid)
     if research is not None:
         n["research"] = bool(research)  # web tools for the Claude seat only (see _seat_claude)
+    if voice is not None:
+        if voice:
+            voice_text(voice)  # raises if unknown
+        n["voice"] = voice
     if model:
         if model not in MODELS:
             raise ValueError(f"unknown model {model!r}")
@@ -440,6 +500,11 @@ def build_prompt(board: dict, chat_id: str, prompt: str) -> tuple[str, dict]:
     chat = _node(board, chat_id)
     ctx = context_for(board, chat_id)
     parts = []
+    vt = voice_text(chat.get("voice") or "") if chat.get("voice") else ""
+    if vt:
+        parts.append("BRAND VOICE — write everything in this voice; it outranks the sources' style\n"
+                     "===========================================================================\n\n" + vt)
+    ctx["voice"] = chat.get("voice") or ""
     if ctx["context"]:
         parts.append(ctx["context"])
     hist = chat_turns(chat)
@@ -571,6 +636,7 @@ def run_chat(slug: str, chat_id: str, prompt: str) -> dict:
             res = _seat_codex(model_arg, effort, full_prompt)
         turn = {"role": "assistant", "text": res["text"], "model": model, "seat": seat,
                 "effort": effort, "research": bool(chat.get("research")) and seat == "claude",
+                "voice": chat.get("voice") or "",
                 "cost_usd": res.get("cost_usd"), "seconds": round(time.time() - t0, 1),
                 "context_tokens": ctx["tokens_est"], "sources": ctx["sources"], "ts": _now()}
         board = load(slug)

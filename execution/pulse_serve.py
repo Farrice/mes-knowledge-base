@@ -55,7 +55,11 @@ LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
 BRAIN = os.path.join(ROOT, ".agent", "brain", "brain.html")
 INTEL = os.path.join(ROOT, "_active", "farrice-brand", "intelligence", "index.html")
 CANVAS_BOARDS = os.path.join(ROOT, ".agent", "canvas", "boards")
-PY = sys.executable or "python3"
+_VENV_PY = os.path.join(ROOT, ".venv", "bin", "python3")
+# Detached canvas jobs (ingest, chat) need the repo venv (yt-dlp, trafilatura,
+# pypdf, youtube-transcript-api). launchd starts this server with the system
+# python, which has none of them — article/PDF cards died silently (2026-09-10).
+PY = _VENV_PY if os.path.exists(_VENV_PY) else (sys.executable or "python3")
 
 LAST_HIT = time.time()
 
@@ -144,7 +148,7 @@ ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snoo
            # chat turns spawn detached, same pattern as run_skill
            "canvas.new_board", "canvas.add_source", "canvas.add_chat", "canvas.add_note",
            "canvas.edge", "canvas.unedge", "canvas.move", "canvas.delete", "canvas.model",
-           "canvas.edit", "canvas.run_chat", "canvas.convo", "canvas.add_profile", "canvas.board_title"}
+           "canvas.edit", "canvas.run_chat", "canvas.convo", "canvas.add_profile", "canvas.board_title", "canvas.add_voice"}
 
 
 def _run_skill(args):
@@ -294,10 +298,20 @@ def _canvas_action(action, args):
             return {"ok": True}
         if op == "model":
             research = args.get("research")
+            voice = args.get("voice")
             n = cb.set_model(board, nid, args.get("model") or None, args.get("effort") or None,
-                             research=None if research is None else bool(research))
+                             research=None if research is None else bool(research),
+                             voice=None if voice is None else str(voice))
             cb.save(board)
-            return {"ok": True, "model": n["model"], "effort": n["effort"], "research": bool(n.get("research"))}
+            return {"ok": True, "model": n["model"], "effort": n["effort"], "research": bool(n.get("research")),
+                    "voice": n.get("voice") or ""}
+        if op == "add_voice":
+            try:
+                v = cb.add_voice(str(args.get("key") or args.get("title") or ""), str(args.get("title") or ""),
+                                 str(args.get("text") or ""))
+            except (ValueError, OSError) as e:
+                return {"ok": False, "error": str(e)[:200]}
+            return {"ok": True, "voice": v, "voices": cb.list_voices()}
         if op == "edit":
             cb.edit_text(board, nid, args.get("text"), args.get("title"))
             cb.save(board)
