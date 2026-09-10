@@ -7,19 +7,19 @@ Rule (Farrice, 2026-09-09): anything that merges clean lands with a one-line rec
 | Branch | ahead | what it holds | receipt |
 |---|---|---|---|
 | worktree-gigi-engine-run | 13 | Gigi nine-stage listing engine (demand report → carousel specs → render → judging page), 110-claim audit, BRAIN/VOICE | MERGED 15 commits / 369 files |
-| codex/gigi-character-rebuild | 24 | The Calm Closer character system, property dossier launch system, editorial study, Unit 124 photography | pending |
-| codex/rello-proof-pack | 6 | public-source creative proof pack, gatedrop spec | pending |
-| codex/upwork-fiverr-cash-offers | 9 | marketplace cash sprint package, storefront + free channel kit, AI Council sample | pending |
-| worktree-deep-research-ledger-fix | 4 | deep-research ledger fix, `main_drift_absorb.py`, `lane_reconciler.py` probe (overlaps main's lane_reconciler) | pending (path-reconcile if it parks) |
-| codex/solo-performance-creative-offer | 1 | solo performance creative test pack | pending |
-| codex/oren-norton-arsenal | 3 | artifact-forge workflow + decision-table artifact pack | pending |
-| codex/layout-composition-intelligence | 3 | satori composition brief owner + blind bakeoff | pending |
-| codex/personal-brand-direction-diagnostic | 3 | 90-day creative direction + blind direction board | pending |
-| codex/linkedin-800k-os | 5 | LinkedIn growth OS + first ten posts | pending |
-| codex/pmf-health-linkedin-research | 1 | PMF verdict + source ledger | pending |
-| codex/systems-thinking-global-shadow | 2 | `verify_global_adaptive_judgment_floor.py` canary | pending |
-| codex/nicolas-cole-first-dollar | 1 | first-dollar workflow + agent | pending |
-| codex/signal-fidelity-shadow | 6 | six adversarial fixtures for the shadow fidelity layer | pending |
+| codex/gigi-character-rebuild | 24 | The Calm Closer character system, property dossier launch system, editorial study, Unit 124 photography | PARKED by Law-3 (it deleted main's .agent state files) → merged into lane jen-launch-0909 with main as base, dropped files restored; lands with the lane |
+| codex/rello-proof-pack | 6 | public-source creative proof pack, gatedrop spec | PARKED by Law-3 (deleted 4 recurring reports) → merged into lane with main as base; lands with the lane |
+| codex/upwork-fiverr-cash-offers | 9 | marketplace cash sprint package, storefront + free channel kit, AI Council sample | MERGED 11 commits / 20 files |
+| worktree-deep-research-ledger-fix | 4 | deep-research ledger fix, `main_drift_absorb.py`, `lane_reconciler.py` probe | PARKED (conflicts in a scratchpad handoff + .gitignore) → merged into lane, .gitignore union, main as base; lands with the lane. `main_drift_absorb.py` now exists |
+| codex/solo-performance-creative-offer | 1 | solo performance creative test pack | MERGED 3 commits / 37 files |
+| codex/oren-norton-arsenal | 3 | artifact-forge workflow + decision-table artifact pack | MERGED 4 commits / 62 files |
+| codex/layout-composition-intelligence | 3 | satori composition brief owner + blind bakeoff | MERGED 5 commits / 70 files |
+| codex/personal-brand-direction-diagnostic | 3 | 90-day creative direction + blind direction board | MERGED 6 commits / 21 files |
+| codex/linkedin-800k-os | 5 | LinkedIn growth OS + first ten posts | MERGED 9 commits / 247 files |
+| codex/pmf-health-linkedin-research | 1 | PMF verdict + source ledger | PARKED (conflicts: research-briefs index.html, cost_gate_hook.py) → REVIEW: inspect the cost_gate_hook diff before landing |
+| codex/systems-thinking-global-shadow | 2 | `verify_global_adaptive_judgment_floor.py` canary | MERGED 6 commits / 29 files |
+| codex/nicolas-cole-first-dollar | 1 | first-dollar workflow + agent | MERGED 4 commits / 51 files |
+| codex/signal-fidelity-shadow | 6 | six adversarial fixtures for the shadow fidelity layer | PARKED (conflicts in two semantic primitives) → REVIEW: take main's primitives, keep the fixtures |
 
 ## REVIEW — my call per row (his tap to proceed)
 

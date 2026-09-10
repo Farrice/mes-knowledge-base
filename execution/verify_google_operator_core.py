@@ -186,14 +186,22 @@ def check_hook_parity() -> list[str]:
                 if command:
                     commands.append(command)
 
-    if len(commands) != 9:
-        fail(f"Expected 9 hook commands, found {len(commands)}")
+    # 2026-09-09 alignment parity port: 9 original commands + steering-loop
+    # (prompt + stop), session-brief, session-alarm, lane-bootstrap,
+    # superseded-read = 15. The count is pinned so a silent hooks.json edit
+    # (which also invalidates Desktop trust) is caught here.
+    if len(commands) != 15:
+        fail(f"Expected 15 hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("Every Codex hook command must call codex_hook_runner.py")
     if not any("dangerous-git" in command for command in commands):
         fail("Codex hook bridge is missing dangerous-git protection")
     if not any("artifact-placement" in command for command in commands):
         fail("Codex hook bridge is missing document-placement hygiene")
+    for ported in ("steering-loop prompt", "steering-loop stop", "session-brief",
+                   "session-alarm", "lane-bootstrap", "superseded-read"):
+        if not any(ported in command for command in commands):
+            fail(f"Codex hook bridge lost the ported alignment hook: {ported}")
     pretool_matchers = [str(group.get("matcher") or "")
                         for group in data.get("hooks", {}).get("PreToolUse", [])]
     if not any(all(name in matcher for name in ("Bash", "Write", "Edit", "apply_patch"))
@@ -205,7 +213,7 @@ def check_hook_parity() -> list[str]:
     if any("CLAUDE_PROJECT_DIR" in command for command in commands):
         fail(".codex/hooks.json still directly depends on CLAUDE_PROJECT_DIR")
     receipts.append(
-        "hooks.json keeps 9 trusted commands and extends dangerous-git with main-write ownership"
+        "hooks.json keeps 15 trusted commands (9 guards + 6 ported alignment hooks) and extends dangerous-git with main-write ownership"
     )
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
@@ -635,6 +643,27 @@ def check_subagent_approval_language() -> None:
         fail(f"subagent approval verifier failed: {proc.stdout or proc.stderr}")
 
 
+def check_swarm_meter() -> None:
+    """2026-09-09: the critique swarm's $10 stop must hold both directions."""
+    proc = run([sys.executable, "execution/verify_swarm_meter.py"])
+    if proc.returncode != 0:
+        fail(f"swarm meter verifier failed: {proc.stdout[-800:] or proc.stderr[-800:]}")
+
+
+def check_harness_behavior_report() -> None:
+    """2026-09-09: calls/turn per model must be computable from the archive (regression sentinel)."""
+    proc = run([sys.executable, "execution/verify_harness_behavior_report.py"])
+    if proc.returncode != 0:
+        fail(f"harness behavior report verifier failed: {proc.stdout[-800:] or proc.stderr[-800:]}")
+
+
+def check_persona_critique() -> None:
+    """2026-09-09: seat briefs ≤6 KB, caps, digest with dissent preserved."""
+    proc = run([sys.executable, "execution/verify_persona_critique.py"])
+    if proc.returncode != 0:
+        fail(f"persona critique verifier failed: {proc.stdout[-800:] or proc.stderr[-800:]}")
+
+
 def check_global_execution_bias_bridge() -> None:
     proc = run([sys.executable, "execution/verify_global_execution_bias_bridge.py"])
     if proc.returncode != 0:
@@ -677,6 +706,9 @@ def main() -> int:
         ("contextual_prompts", check_contextual_prompts),
         ("run_receipt", check_run_receipt),
         ("subagent_approval_language", check_subagent_approval_language),
+        ("swarm_meter", check_swarm_meter),
+        ("harness_behavior_report", check_harness_behavior_report),
+        ("persona_critique", check_persona_critique),
         ("global_execution_bias_bridge", check_global_execution_bias_bridge),
         ("global_adaptive_judgment_floor", check_global_adaptive_judgment_floor),
         ("steering_compass_quality", check_steering_compass_quality),

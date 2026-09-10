@@ -60,6 +60,9 @@ python3 execution/verify_codex_authority.py               # CODEX.md/AGENTS.md a
 python3 execution/verify_autopilot_runtime_preflight.py
 python3 execution/verify_skill_system_contract.py
 python3 execution/verify_subagent_approval_language.py
+python3 execution/verify_swarm_meter.py                   # critique swarm meter: both directions + hook self-test (2026-09-09)
+python3 execution/verify_harness_behavior_report.py       # calls/turn + writes/turn per model from the episodic archive
+python3 execution/verify_persona_critique.py              # ≤6 KB seat briefs, caps, digest with dissent preserved
 python3 execution/platform_compiler.py lint --json        # constitution drift/lint — expect {"failures": []}
 python3 execution/codex_operator_preflight.py "<raw intent>" --plain   # manual hook-equivalent gate
 ```
@@ -254,6 +257,9 @@ python3 execution/operator_core_status.py --plain
 python3 execution/verify_operator_core_status.py
 python3 execution/verify_system_control_plane.py
 python3 execution/verify_subagent_approval_language.py
+python3 execution/verify_swarm_meter.py
+python3 execution/verify_harness_behavior_report.py
+python3 execution/verify_persona_critique.py
 python3 execution/codex_live_surface_audit.py --strict
 python3 execution/codex_harness_check.py
 ```

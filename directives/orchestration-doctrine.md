@@ -98,6 +98,19 @@ never date-suffixed variants (one exception: Haiku 4.5's real API ID IS date-suf
 model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
 verification source, never memory).
 
+### Codex seating (2026-09-09 — closes the Astra audit's P2 "seating not mapped")
+
+On Codex the active model (`gpt-6-astra` as of Sept 2026) is **conductor and pen in one seat**: it
+routes, writes, integrates, and verifies in the main thread. The Claude registry above (Fable /
+Opus / Sonnet / Haiku) does not exist there and must never be copied literally into a Codex brief
+(scar: Sept 7–9, Astra tried to "dispatch an executor" and spawned a subagent it then waited on).
+Codex-native subagents (`spawn_agent` / `wait_agent` / `send_message` / `followup_task`) are
+**research and critique seats only**, read-only, each priced by `execution/swarm_meter.py` before
+it spawns and filed with a Delegation Receipt (`CODEX.md` § subagents). The hop ladder still
+applies (a human receives hop 0; Farrice's felt verdict is the taste gate), and the
+latency-class rule below still applies. Per-model corrections come from
+`directives/model-dialects/gpt-6-astra.md`, injected per prompt by the ported steering hook.
+
 ### Latency-Class Seating (adopted 2026-08-06 — God Agent delta move #5; goal: right cost per urgency, scar: none — preventive)
 
 Seat by **latency class**, not just capability: **interactive work** (Farrice waiting on the answer) seats for speed at the capability floor the task needs; **async work** (overnight missions, mission-queue cards, launchd jobs — nobody waiting) seats for accuracy per dollar — prefer a cheaper/slower seat at higher effort over a premium seat at default effort, and batch-shaped async work (many independent units) is the first candidate for the cheapest quality-bearing seat. One-line test when dispatching: *is a human waiting?* No → optimize $/quality, never wall-clock.

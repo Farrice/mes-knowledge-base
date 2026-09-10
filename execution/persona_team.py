@@ -229,6 +229,185 @@ def close_session(members: List[str], question: str, verdict: str, session: str,
     return {"memory_written": written, "no_agent_dir": skipped}
 
 
+# ── Critique swarm: read-only seats against a named bar (directives/swarm-usage-policy.md) ──
+# Verification never gets its own seat, with one Mailroom-shaped exception: a critique swarm
+# may seat at most 4 read-only seats, each returning the single biggest gap against a named
+# bar artifact (never adjectives), with dissent logged verbatim. Bench = the skill library:
+# a seat is cast with ONE skill's SKILL.md (agents/_framework/seats/<slug>.md overrides it).
+
+SEATS_DIR_DEFAULT = AGENTS / "_framework" / "seats"
+SKILLS_ROOT_DEFAULT = ROOT / "skills"
+CRITIQUE_BYTE_CAP = 6144
+CRITIQUE_LENS_CAP = 1024
+MAX_CRITIQUE_LENSES = 4
+
+CRITIQUE_READ_ONLY = (
+    "This assignment is read-only: return text and evidence to the conductor; do not edit "
+    "files, spawn agents, finalize, publish or spend."
+)
+
+GAP_CONTRACT = (
+    'Return ONLY this JSON: {"biggest_gap": <one sentence>, '
+    '"evidence_lines": ["artifact:L<n> <quote>", "bar:L<n> <quote>"], '
+    '"proposed_fix": <at most 3 lines>, "dissent": <what you disagree with in the brief or '
+    'the bar, or "none because ...">}. A gap you cannot tie to a quoted artifact line AND a '
+    'quoted bar line is not a gap; return biggest_gap: null. Adjectives are not evidence.'
+)
+
+
+def _critique_messaging(platform: str) -> str:
+    """Reuses expert_production.py's codex/claude messaging-shape split."""
+    if platform == "codex":
+        return ("Use collaboration.send_message(target=<canonical peer task name>, "
+                 "message=<full contribution>). Only the conductor dispatches. Native messages "
+                 "do not guarantee an idle peer restarts; the conductor uses followup_task when needed.")
+    return "Use native SendMessage to named teammates; the conductor owns Agent dispatch."
+
+
+def _slice_bar_lines(text: str, spec: Optional[str]) -> str:
+    """`--bar-lines a-b`: 1-indexed inclusive slice. No/invalid spec = whole file."""
+    if not spec:
+        return text
+    m = re.match(r"^\s*(\d+)\s*-\s*(\d+)\s*$", spec)
+    if not m:
+        return text
+    start, end = int(m.group(1)), int(m.group(2))
+    lines = text.splitlines(keepends=True)
+    start = max(1, start)
+    end = min(len(lines), end)
+    if start > end:
+        return ""
+    return "".join(lines[start - 1:end])
+
+
+def _critique_lens_text(slug: str, seat_prompts_dir: Path, skills_root: Path) -> str:
+    """Seat prompt file wins; else the skill library (SKILL.md + genius.md excerpt)."""
+    seat_file = seat_prompts_dir / f"{slug}.md"
+    if seat_file.exists():
+        return _read_capped(seat_file, CRITIQUE_LENS_CAP)
+    skill_md = skills_root / slug / "SKILL.md"
+    text = _read_capped(skill_md, CRITIQUE_LENS_CAP) if skill_md.exists() else ""
+    genius_md = skills_root / slug / "genius.md"
+    if genius_md.exists():
+        genius_text = _read_capped(genius_md, CRITIQUE_LENS_CAP)
+        if genius_text:
+            text = f"{text}\n\n{genius_text}".strip() if text else genius_text
+    return text
+
+
+def build_critique_plan(artifact: str, bar: str, lenses: List[str], run_id: str, platform: str,
+                        out_dir: str, bar_lines: Optional[str] = None,
+                        seat_prompts_dir: Optional[str] = None,
+                        skills_root: Optional[str] = None) -> Dict:
+    """Compile read-only critique seat briefs against a named bar. No dispatch, no writes
+    outside `out_dir`. Each seat brief opens with `[swarm:<run-id>] <lens>` on line 1 so the
+    meter's reconcile can match it, and carries the full artifact + bar slice + lens + the
+    GAP_CONTRACT output shape. Oversize briefs and lenses beyond the 4-seat cap write nothing."""
+    artifact_path = Path(artifact).resolve()
+    bar_path = Path(bar).resolve()
+    out = Path(out_dir).resolve()
+    out.mkdir(parents=True, exist_ok=True)
+    seats_dir = Path(seat_prompts_dir).resolve() if seat_prompts_dir else SEATS_DIR_DEFAULT
+    skroot = Path(skills_root).resolve() if skills_root else SKILLS_ROOT_DEFAULT
+
+    artifact_text = artifact_path.read_text(encoding="utf-8", errors="ignore")
+    bar_text = _slice_bar_lines(bar_path.read_text(encoding="utf-8", errors="ignore"), bar_lines)
+    messaging = _critique_messaging(platform)
+
+    seats: List[Dict] = []
+    for i, lens in enumerate(lenses):
+        if i >= MAX_CRITIQUE_LENSES:
+            seats.append({"lens": lens, "brief_path": None, "bytes": 0, "status": "SEAT_CAP"})
+            continue
+        lens_text = _critique_lens_text(lens, seats_dir, skroot)
+        header = f"[swarm:{run_id}] {lens}"
+        brief = "\n\n".join([
+            header,
+            "## ARTIFACT\n" + artifact_text,
+            "## BAR\n" + bar_text,
+            "## LENS\n" + lens_text,
+            messaging,
+            CRITIQUE_READ_ONLY,
+            GAP_CONTRACT,
+        ])
+        nbytes = len(brief.encode("utf-8"))
+        if nbytes > CRITIQUE_BYTE_CAP:
+            seats.append({"lens": lens, "brief_path": None, "bytes": nbytes, "status": "INPUT_GAP"})
+            continue
+        brief_path = out / f"{lens}-brief.md"
+        brief_path.write_text(brief, encoding="utf-8")
+        seats.append({"lens": lens, "brief_path": str(brief_path), "bytes": nbytes, "status": "READY"})
+
+    plan = {"run_id": run_id, "artifact": str(artifact_path), "bar": str(bar_path),
+            "seats": seats, "platform": platform}
+    (out / "critique-plan.json").write_text(json.dumps(plan, indent=2), encoding="utf-8")
+    return plan
+
+
+def critique_digest(seat_outputs: List[Dict]) -> Dict:
+    """Fold GAP_CONTRACT seat outputs (each with a `lens` key) into a Composition Ledger
+    digest. Crux = the gap named by >=2 seats verbatim, else the first non-null gap."""
+    gaps: List[Dict] = []
+    dissent_log: List[Dict] = []
+    null_seats: List[str] = []
+    gap_to_lenses: Dict[str, List[str]] = {}
+    gap_order: List[str] = []
+
+    for so in seat_outputs:
+        lens = so.get("lens")
+        gap = so.get("biggest_gap")
+        if gap is None or (isinstance(gap, str) and not gap.strip()):
+            null_seats.append(lens)
+        else:
+            gaps.append({
+                "lens": lens,
+                "biggest_gap": gap,
+                "evidence_lines": so.get("evidence_lines", []),
+                "proposed_fix": so.get("proposed_fix"),
+            })
+            if gap not in gap_to_lenses:
+                gap_to_lenses[gap] = []
+                gap_order.append(gap)
+            gap_to_lenses[gap].append(lens)
+        dissent = so.get("dissent")
+        if isinstance(dissent, str) and dissent.strip() and not dissent.strip().lower().startswith("none"):
+            dissent_log.append({"lens": lens, "dissent": dissent})
+
+    crux = None
+    for gap_text in gap_order:
+        if len(gap_to_lenses[gap_text]) >= 2:
+            crux = gap_text
+            break
+    if crux is None and gaps:
+        crux = gaps[0]["biggest_gap"]
+
+    return {"crux": crux, "gaps": gaps, "dissent_log": dissent_log,
+            "null_seats": null_seats, "cost": None}
+
+
+def render_ledger(digest: Dict) -> str:
+    """Composition Ledger markdown: lens · gap · disposition (blank for the pen) · evidence."""
+    lines = ["| lens | gap | disposition | evidence |", "|---|---|---|---|"]
+    for g in digest.get("gaps", []):
+        evidence = "; ".join(g.get("evidence_lines") or [])
+        lines.append(f"| {g.get('lens', '')} | {g.get('biggest_gap', '')} | | {evidence} |")
+    return "\n".join(lines)
+
+
+def _load_seat_outputs(outputs_dir: Path) -> List[Dict]:
+    """Read `<lens>.json` seat-output files from a directory; lens defaults to the filename."""
+    seat_outputs: List[Dict] = []
+    for f in sorted(outputs_dir.glob("*.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        data = dict(data)
+        data.setdefault("lens", f.stem)
+        seat_outputs.append(data)
+    return seat_outputs
+
+
 if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser(prog="persona_team.py")
@@ -254,8 +433,24 @@ if __name__ == "__main__":
     close.add_argument("--session", required=True, help="path to the session digest")
     close.add_argument("--positions", default=None, help="JSON dict slug→position")
 
+    critique = sub.add_parser("critique", help="compile read-only critique seat briefs against a named bar")
+    critique.add_argument("--artifact", required=True)
+    critique.add_argument("--bar", required=True)
+    critique.add_argument("--bar-lines", default=None, help="1-indexed inclusive slice, e.g. 4-18")
+    critique.add_argument("--lenses", required=True, help="comma-separated skill/seat slugs, max 4")
+    critique.add_argument("--run", required=True, help="run-id, e.g. from swarm_meter.py open")
+    critique.add_argument("--platform", choices=["codex", "claude"], required=True)
+    critique.add_argument("--out", required=True)
+    critique.add_argument("--seat-prompts-dir", default=None,
+                          help="default agents/_framework/seats")
+    critique.add_argument("--skills-root", default=None, help="default skills/ (test override)")
+
+    digest = sub.add_parser("digest", help="fold critique seat outputs into a Composition Ledger digest")
+    digest.add_argument("--outputs", required=True, help="dir of <lens>.json seat-output files")
+
     argv = sys.argv[1:]
-    if argv and argv[0] not in {"cast", "production", "evaluate", "close-session", "-h", "--help"}:
+    if argv and argv[0] not in {"cast", "production", "evaluate", "close-session",
+                                 "critique", "digest", "-h", "--help"}:
         argv = ["cast"] + argv  # bare "<task>" convenience
     a = p.parse_args(argv)
 
@@ -273,5 +468,18 @@ if __name__ == "__main__":
         print(json.dumps(close_session(
             [m.strip() for m in a.members.split(",") if m.strip()],
             a.question, a.verdict, a.session, pos), indent=2))
+    elif a.cmd == "critique":
+        lenses = [s.strip() for s in a.lenses.split(",") if s.strip()]
+        plan = build_critique_plan(
+            artifact=a.artifact, bar=a.bar, lenses=lenses, run_id=a.run,
+            platform=a.platform, out_dir=a.out, bar_lines=a.bar_lines,
+            seat_prompts_dir=a.seat_prompts_dir, skills_root=a.skills_root,
+        )
+        print(json.dumps(plan, indent=2))
+        ready = sum(1 for s in plan["seats"] if s["status"] == "READY")
+        sys.exit(0 if ready >= 1 else 1)
+    elif a.cmd == "digest":
+        seat_outputs = _load_seat_outputs(Path(a.outputs).resolve())
+        print(json.dumps(critique_digest(seat_outputs), indent=2))
     else:
         print(json.dumps(build_team_plan(a.task, a.mode, a.seats, a.commons), indent=2))
