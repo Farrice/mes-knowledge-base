@@ -1,6 +1,6 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 0 assets · compiled: sep 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 0 assets · compiled: sep 10, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 6 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 6 sessions, 2 deliverables finalized.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
 Next: Resume the `system-audit` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (system-audit)._
 
 ## the state, as the last session left it
-Handoff written 69d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 70d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## resume · park · kill
 1. **Resume here** — Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.
@@ -56,7 +56,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **6** (codex)
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## momentum
 
@@ -84,7 +84,7 @@ Shadow-only dual render preserves full brief authority; isolated handoff returne
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 20 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

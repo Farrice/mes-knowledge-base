@@ -146,3 +146,6 @@ released
 claimed: 5b6a9a94e269  (heartbeat every wave: session_lock.py heartbeat 5b6a9a94e269)
 no pending cards
 released
+claimed: f65d1ecb139e  (heartbeat every wave: session_lock.py heartbeat f65d1ecb139e)
+PARKED card-phase2-2026-09-09.md: tier T2 requires Farrice's nod (T2/T3 never auto-run)
+released
