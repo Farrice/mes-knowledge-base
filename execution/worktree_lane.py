@@ -80,8 +80,12 @@ GENERATORS = [("generate_slash_commands.py", []),
 
 # ── git plumbing ────────────────────────────────────────────────────
 def _git(cwd, *args, timeout=60):
+    # core.quotepath=false: git otherwise octal-escapes non-ASCII paths in
+    # listings, so the Law-3 audit's `cat-file -e HEAD:<path>` on a quoted
+    # name fails and parks the lane claiming a drop (2026-09-09, a Cyrillic
+    # Gigi cover). Raw UTF-8 paths round-trip through every helper here.
     try:
-        r = subprocess.run(["git", "-C", str(cwd), *args],
+        r = subprocess.run(["git", "-C", str(cwd), "-c", "core.quotepath=false", *args],
                            capture_output=True, text=True, timeout=timeout)
         return r.returncode, r.stdout.strip(), r.stderr.strip()
     except Exception as e:  # pragma: no cover
@@ -412,8 +416,9 @@ def run_parity(lane: Path, main: Path, record=False):
             for hook in group.get("hooks", [])
             if hook.get("command")
         ]
-        if len(codex_commands) != 9:
-            d.append(f"Codex hooks.json expected 9 commands, found {len(codex_commands)}")
+        # 15 since the 2026-09-09 alignment parity port (9 guards + 6 ported hooks)
+        if len(codex_commands) != 15:
+            d.append(f"Codex hooks.json expected 15 commands, found {len(codex_commands)}")
         if not codex_commands or not all("codex_hook_runner.py" in command for command in codex_commands):
             d.append("Codex hook commands do not all use codex_hook_runner.py")
         for command in codex_commands:

@@ -321,6 +321,14 @@ def check_prompt_hook() -> list[str]:
     receipts.append("ambient browser metadata is ignored while creative feedback routes normally")
 
     context_note = hook_context(CONTEXT_NOTE_PROMPT)
+    # The outcome-next-proof companion (codex_hook_runner → augment) fires on
+    # every meaningful prompt by design (≥7 words); it is not routing context.
+    # Strip it, then assert nothing ELSE (routing suggestions, control
+    # overrides) was emitted for a context-only follow-up.
+    import re as _re
+    context_note = _re.sub(
+        r"Own the outcome through the next useful proof\..*?create extra user homework\.",
+        "", context_note, flags=_re.S).strip()
     if context_note:
         fail(f"context-only follow-up should not emit routing context: {context_note}")
     receipts.append("context-only KU follow-up stays quiet")
@@ -354,9 +362,16 @@ def check_hook_bridge() -> list[str]:
         "session-ledger prompt",
         "guard-stranded",
         "session-ledger stop",
+        # 2026-09-09 alignment parity port (Claude's steering + session hooks on Codex)
+        "steering-loop prompt",
+        "steering-loop stop",
+        "session-brief",
+        "session-alarm",
+        "lane-bootstrap",
+        "superseded-read",
     )
-    if len(commands) != 9:
-        fail(f"expected 9 Codex hook commands, found {len(commands)}")
+    if len(commands) != 15:
+        fail(f"expected 15 Codex hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("every Codex hook command must call codex_hook_runner.py")
     for target in expected_targets:
