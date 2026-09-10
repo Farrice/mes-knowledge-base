@@ -855,3 +855,14 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-08 21:10]` **finalize** | Revised the rejected AI revenue post around a concrete rejection-example diagnostic | general | dan-koe — composite:7.0 status:Needs Improvement
 - `[2026-09-02 13:06]` **finalize** | Jen content-system reset: diagnostic brief + one spine (/jen nine steps), CONTENT-MIX from extractio | content | alyssa-stalker-agent-content-playbook — composite:6.33 status:Needs Improvement
 - `[2026-09-09 11:50]` **finalize** | Codex/Astra regression diagnosis + fix (gpt-6-astra card, Execution Bias Contract restore, steering  | content | alyssa-stalker — composite:6.33 status:Needs Improvement
+- `[2026-08-30 21:53]` **finalize** | Gigi Mironova concept: 13-board oxblood-register deck (6-slide escrow carousel + Russian twin + 4 re | general — composite:8.33 status:Keep
+- `[2026-08-30 23:55]` **finalize** | Gigi Mironova v4: the finished Listing Launch Kit for unit 124 — carousel with computed rent-vs-own  | content — composite:8.33 status:Keep
+- `[2026-08-31 09:02]` **finalize** | Gigi Same Door v4: The Calm Closer visual character, 21 rebuilt social assets, one character board,  | general | Andrew Lane — composite:8.33 status:Keep
+- `[2026-08-31 10:54]` **finalize** | Gigi Property Dossier launch system, identity gift deck, and image art-direction standard | content | Creative Direction — composite:5.67 status:Needs Improvement
+- `[2026-08-31 10:55]` **finalize** | Gigi Property Dossier launch system, identity gift deck, and image art-direction standard | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 12:29]` **finalize** | Gigi three-board gift package, captions, identity overview, delivery note, and Listing Launch invita | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 12:30]` **finalize** | Gigi three-board gift package, captions, identity overview, delivery note, and Listing Launch invita | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:05]` **finalize** | House Sellers navy close slide and clean four-board Gigi gift sequence | general | anti-slop — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:05]` **finalize** | _active/clients/gigi-mironova/production/gift-package/deliver/04-next-listing.png | general | anti-slop — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:48]` **finalize** | Post-ready four-slide Unit 124 Instagram carousel with buyer-facing DM 124 CTA, caption, and alt tex | content | ai-carousel-content-engine — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:48]` **finalize** | _active/clients/gigi-mironova/production/gift-package/post-ready/04-contact-gigi.png | content | ai-carousel-content-engine — composite:6.67 status:Needs Improvement

@@ -15,3 +15,13 @@
 {"ts": "2026-09-04T23:33:45Z", "file": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/03-public-copy.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-09-04T23:33:46Z", "file": "_active/clients/jen-listings/04-deliverables/2026-09-04-first-wave/04-public-copy.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-09-09T18:44:12Z", "file": "_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-07/COPY.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T15:55:17Z", "file": ".tmp/gigi-v4-client-copy.txt", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T17:54:33Z", "file": "_active/clients/gigi-mironova/production/listing-launch-system/ART-DIRECTION.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:26:58Z", "file": "_active/clients/gigi-mironova/production/gift-package/CAPTIONS.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:26:58Z", "file": "_active/clients/gigi-mironova/production/gift-package/DELIVERY-NOTE.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:26:58Z", "file": "_active/clients/gigi-mironova/production/gift-package/LISTING-LAUNCH-INVITATION.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:29:40Z", "file": "_active/clients/gigi-mironova/production/gift-package/CAPTIONS.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:33:23Z", "file": "_active/clients/gigi-mironova/production/gift-package/deliver/CAPTIONS.txt", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T19:34:01Z", "file": "_active/clients/gigi-mironova/production/gift-package/deliver/CAPTIONS.txt", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T20:45:18Z", "file": "_active/clients/gigi-mironova/production/gift-package/POST-CAPTION.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-08-31T20:45:18Z", "file": "_active/clients/gigi-mironova/production/gift-package/FINAL-SLIDE-COPY.txt", "verdict": "PASS", "findings": []}
