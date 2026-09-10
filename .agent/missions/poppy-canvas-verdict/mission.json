@@ -16,15 +16,15 @@
     },
     {
       "after": [],
-      "blocker": "",
-      "evidence_path": ".agent/missions/poppy-canvas-verdict/parity-fixture.md (stand-in: Hormozi 4 latest \u2192 hooks; his real fixture arrives via packet 1)",
+      "blocker": "packet 1 answered A but macOS Screen Recording is not granted to the Claude app and the Chrome extension is not connected \u2014 grant one, or paste the Jen URLs + ask",
+      "evidence_path": "stand-in fixture on disk; request_access(Google Chrome) refused by macOS",
       "expected_artifact": "the exact job he runs in the paid tool (his tab, or his URLs + ask), written as a fixture: inputs, the ask, what a good answer contains",
       "id": "L2",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "complete",
-      "updated_at": "2026-09-10T13:06:10+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T13:21:55+00:00",
       "validation_assertion": "",
       "workflow": "Parity spec"
     },
@@ -96,14 +96,14 @@
         "L1"
       ],
       "blocker": "packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
-      "evidence_path": "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
+      "evidence_path": "worktree_lane.py merge \u2192 LANE MERGED 6 commits / 26 files; launchctl kickstart pulse-serve; curl http://127.0.0.1:8765/canvas \u2192 200; Homebase tile live",
       "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
       "id": "L7",
       "kind": "lane",
       "next_action": "absorb main, then worktree_lane.py merge --lane worktree-poppy-canvas",
       "owner": "claude",
-      "status": "active",
-      "updated_at": "2026-09-10T13:15:49+00:00",
+      "status": "complete",
+      "updated_at": "2026-09-10T13:21:55+00:00",
       "validation_assertion": "",
       "workflow": "Land it"
     }
@@ -124,7 +124,8 @@
       "L3",
       "L4",
       "L5",
-      "L6"
+      "L6",
+      "L7"
     ],
     "planned_lanes": [
       "L1",
@@ -142,11 +143,14 @@
       "ingestion-edges.md: YouTube video PASS 1-11s \u00b7 YouTube channel list PASS 1s \u00b7 TikTok profile list PASS 1s \u00b7 TikTok video FAIL (yt-dlp format/impersonation; vendor = vidIQ watch) \u00b7 IG profile FAIL yt-dlp / PASS vidIQ 5cr \u00b7 IG reel FAIL yt-dlp / vendor vidIQ \u00b7 PDF PASS \u00b7 article PASS \u00b7 voice note PASS 2.5s local whisper",
       ".agent/missions/poppy-canvas-verdict/cost-table.md \u2014 keep $66-90/mo vs canvas $0-2/mo; heavy session $0 marginal on plan; build 1 session spent, ~1 left for option A",
       ".agent/missions/poppy-canvas-verdict/verdict-memo.md \u2014 Do: one real job this week, let the trial lapse; Don't: chase parity; Wrong-if: IG/TikTok-heavy, latency kills the feel, or the tab habit never forms",
-      "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)"
+      "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
+      "worktree_lane.py merge \u2192 LANE MERGED 6 commits / 26 files; launchctl kickstart pulse-serve; curl http://127.0.0.1:8765/canvas \u2192 200; Homebase tile live",
+      "stand-in fixture on disk; request_access(Google Chrome) refused by macOS"
     ],
     "resume_command": "/mission resume poppy-canvas-verdict",
     "skipped_lanes": [
-      "L7: packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile"
+      "L7: packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
+      "L2: packet 1 answered A but macOS Screen Recording is not granted to the Claude app and the Chrome extension is not connected \u2014 grant one, or paste the Jen URLs + ask"
     ],
     "validators_run": []
   },
@@ -181,6 +185,6 @@
   },
   "slug": "poppy-canvas-verdict",
   "status": "active",
-  "updated_at": "2026-09-10T13:15:49+00:00",
+  "updated_at": "2026-09-10T13:21:55+00:00",
   "validation_assertions": []
 }

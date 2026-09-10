@@ -26,3 +26,10 @@ Recommend: A
 If no answer: B — 8766 stays up (--idle 0) until you say otherwise
 
 Answer (Farrice, 2026-09-10T06:15:14-07:00): A — land it on 8765 (absorb + merge)
+
+## Packet 4 — L2 · open · 2026-09-10T06:22:09-07:00
+Choice: How do I get eyes on your Poppy board for the Jen parity test? macOS refused screen access and the Chrome extension is not connected.
+Irreversible? no
+Options: A: System Settings → Privacy & Security → Screen Recording → enable Claude, then say 'look again' | B: install the Claude in Chrome extension and sign in, then say 'look again' | C: paste the Jen source URLs + the ask you gave Poppy here
+Recommend: C — fastest, and the fixture is then exactly your words
+If no answer: stand-in fixture stays; Jen work proceeds on the canvas without the side-by-side
