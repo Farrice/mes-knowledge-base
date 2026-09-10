@@ -1,0 +1,41 @@
+{
+  "slug": "rello-creative-test-autopsy",
+  "title": "Rello: creatine has a Tuesday problem",
+  "compiled": "September 3, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-brief.html",
+  "brief_md": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://relloco.com/products/chocolate-protein-bar?variant=47322736722107",
+      "label": "Rello product page"
+    },
+    {
+      "url": "https://relloco.com/pages/about-us",
+      "label": "Rello brand story"
+    },
+    {
+      "url": "https://info.nsf.org/Certified/BannedSub/Listings.asp?Company=C0882007&Standard=306",
+      "label": "NSF official listing"
+    },
+    {
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered",
+      "label": "Meta Ad Library · checked Sep 3"
+    },
+    {
+      "url": "https://relloco.com/",
+      "label": "Rello homepage + public-ad synthesis"
+    },
+    {
+      "url": "https://www.prweb.com/releases/rello-launches-first-of-its-kind-protein-bars-and-shakes-powered-by-patented-soluble-creatine-technology-302698282.html",
+      "label": "Rello launch release"
+    }
+  ]
+}

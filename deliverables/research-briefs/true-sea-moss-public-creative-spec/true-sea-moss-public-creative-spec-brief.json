@@ -1,0 +1,58 @@
+{
+  "slug": "true-sea-moss-public-creative-spec",
+  "chip": "Founder proof object · public-source only",
+  "title": "True Sea Moss: the next ad should begin with a *batch number*",
+  "dek": "A recall changes the order of persuasion. Current operational proof has to answer the trust question before another benefit stack can matter.",
+  "window": "Public sources checked September 3, 2026",
+  "lens": "Functional food · trust repair · regulated claims",
+  "sources": "True Sea Moss site + Whole Foods release + FDA recall record",
+  "compiled": "September 3, 2026",
+  "footer_left": "FARRICE CAIN · PUBLIC SPEC WORK",
+  "footer_right": "TRUE SEA MOSS · NOT CLIENT WORK",
+  "category": "client: prospect specimen",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "my strategic *read*",
+      "kicker": "Status · hold",
+      "body": "The public homepage leads with scale, ocean sourcing, daily ritual, and a wide benefit stack. A January 2026 FDA-posted recall involving all flavors and sizes manufactured before January 9 is also easy for a skeptical buyer to find. The FDA now marks that recall completed and terminated, but the current homepage does not visibly explain the operational change.\n\nMy read: the recall creates trust debt, and trust debt changes the order of persuasion. The buyer's first unresolved question becomes what changed, not what sea moss might do. More benefit copy would increase the burden of belief. The strongest future creative may therefore be an operational proof object rather than an ad claim. That direction remains blocked until current manufacturing evidence exists and is approved for use."
+    },
+    {
+      "kind": "evidence",
+      "heading": "why the read is *defensible*",
+      "rows": [
+        {"claim": "The recall is a verified public trust event.", "evidence": "The FDA record says Diva Fam recalled all flavors, sizes, and batch numbers of True Sea Moss gel manufactured before January 9, 2026 because of missing regulatory authorization and temperature-monitoring records. The FDA page says the recall has been completed and terminated; no illnesses were reported in the announcement.", "source_url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/diva-fam-inc-announces-voluntary-recall-sea-moss-gel-superfood-products-due-possible-health-risk", "source_label": "FDA recall record", "confidence": "VERIFIED"},
+        {"claim": "The brand subsequently announced a Whole Foods expansion.", "evidence": "An April 22 release says three sea moss gels entered select Whole Foods stores and emphasizes transparent production and consciously sourced ingredients.", "source_url": "https://www.prnewswire.com/news-releases/true-sea-moss-expands-retail-presence-with-launch-at-whole-foods-market-stores-302750726.html", "source_label": "Whole Foods launch release", "confidence": "VERIFIED"},
+        {"claim": "The current homepage spreads attention across scale, sourcing, ritual, and many benefits.", "evidence": "The site cites customer and subscriber numbers, wildcrafted sourcing, energy, focus, digestion, immune support, metabolism, skin, hair, and daily minerals.", "source_url": "https://trueseamoss.com/", "source_label": "True Sea Moss homepage", "confidence": "VERIFIED"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "two territories, one *blocked*",
+      "items": [
+        {"action": "A · The batch is the ad · BLOCKED", "why": "Put a current batch number, date, and changed process on screen. Let operations carry the persuasion instead of asking a founder or creator to say trust us. This cannot be scripted from public information and becomes viable only after operations and counsel approve the evidence and exact language."},
+        {"action": "B · One spoon, one fruit-forward ritual", "why": "Demonstrate texture, serving behavior, refrigeration, and a single flavor in an ordinary routine. Keep the promise at product use and sensory experience. Do not stack immune, energy, gut, skin, hair, and metabolism claims into the same ad."}
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "six sample *openings*",
+      "tag": "Directions · not cleared copy",
+      "blocks": [
+        {"label": "Concept A · operational proof · blocked", "text": "A1  The next True Sea Moss ad should open on a batch number.\n\nA2  After a recall, trust us is copy. Here is the current batch is proof.\n\nA3  Put the jar, the date, and the changed process in one frame."},
+        {"label": "Concept B · taste and ritual", "text": "B1  One spoonful people can picture beats seven benefits they have to believe.\n\nB2  Start with the fruit, the texture, and the place it earns in the fridge.\n\nB3  Before the benefit stack, make the ritual real."}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "where public evidence *stops*",
+      "body": "No-launch hold: current manufacturing authorization, pH controls, temperature-monitoring procedures, batch traceability, testing records, recall-cohort exclusion, retailer status, approved response language, and claim substantiation remain unavailable in the reviewed public sources. A private operational repair may exist; this review cannot establish it.\n\nNo safety, purity, detox, disease, immune, microbiome, metabolic, or body-outcome claim should be drafted from this public research. Paid creative work cannot begin yet. The first engagement input is current-batch evidence plus operations and counsel approval."
+    }
+  ],
+  "ledger": [
+    {"source": "FDA recall record", "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/diva-fam-inc-announces-voluntary-recall-sea-moss-gel-superfood-products-due-possible-health-risk", "retrieved": "2026-09-03", "used_for": "Recall scope, reason, current terminated status", "confidence": "VERIFIED"},
+    {"source": "True Sea Moss homepage", "url": "https://trueseamoss.com/", "retrieved": "2026-09-03", "used_for": "Current public positioning and benefit breadth", "confidence": "VERIFIED"},
+    {"source": "Whole Foods launch release", "url": "https://www.prnewswire.com/news-releases/true-sea-moss-expands-retail-presence-with-launch-at-whole-foods-market-stores-302750726.html", "retrieved": "2026-09-03", "used_for": "Post-recall retail trigger and public trust language", "confidence": "VERIFIED"}
+  ]
+}
