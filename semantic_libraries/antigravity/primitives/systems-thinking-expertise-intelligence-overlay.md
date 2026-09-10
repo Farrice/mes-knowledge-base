@@ -113,9 +113,14 @@ Keep it cold or remove it if it produces generic abstraction, duplicates current
 
 A strong use changes at least one of these: route, architecture, craft ownership, reusable default, review boundary, recovery plan, or maintenance decision. If none changes, the overlay should remain silent.
 
+Preserve approved primaries, material inherited premises, locked terms, and the
+nearest reversible step. The overlay may sharpen decisions around them, but it
+must not silently change a premise or bundle dependent actions beyond the next
+safe step without new evidence or explicit approval.
+
 ## Last Updated
 
-2026-08-08
+2026-08-09
 
 Re-run the verifier and review the production receipts before changing this
 date, status, integration scope, or promotion boundary.
