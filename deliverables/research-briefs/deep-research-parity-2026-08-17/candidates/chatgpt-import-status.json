@@ -1,0 +1,18 @@
+{
+  "schema_version": "research-receipt/v1",
+  "provider": "chatgpt-native",
+  "engine": "chatgpt-deep-research-subscription",
+  "run_id": null,
+  "estimated_cost_usd": 0.0,
+  "actual_cost_usd": 0.0,
+  "incremental_api_cost_usd": 0.0,
+  "billing_verification": "subscription candidate; no API call from workspace",
+  "interaction_started": false,
+  "stop_reason": "authenticated consumer Deep Research UI is not callable from this workspace",
+  "candidate_status": "EXPORT PENDING",
+  "required_imports": [
+    "Markdown or report export",
+    "resolved citations or source list",
+    "elapsed time if available"
+  ]
+}

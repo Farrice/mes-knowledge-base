@@ -1,0 +1,20 @@
+{
+  "schema_version": "research-receipt/v1",
+  "provider": "gemini-native",
+  "engine": "gemini-deep-research-standard",
+  "run_id": null,
+  "started_at": null,
+  "completed_at": "2026-08-17T21:03:45Z",
+  "elapsed_seconds": 0,
+  "source_count": 0,
+  "domain_count": 0,
+  "resolved_citations": 0,
+  "estimated_cost_usd": 0.0,
+  "actual_cost_usd": 0.0,
+  "pending_exposure_usd": 0.0,
+  "billing_verification": "BLOCKED: provider-side hard ceiling not machine verified",
+  "interaction_started": false,
+  "retry_allowed": false,
+  "stop_reason": "blocked before start by unknown or unbounded provider cost",
+  "candidate_status": "NOT RUN"
+}

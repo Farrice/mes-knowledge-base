@@ -18,7 +18,8 @@ Services covered:
   higgsfield-virality     → virality predictor
   veo-3                   → Veo 3.1 video via Google Flow (Gemini Ultra quota)
   gemini-image            → Gemini Image (Ultra quota)
-  gemini-text             → Gemini text (Ultra quota, effectively free)
+  gemini-text             → Gemini text (quota path; verify account separately)
+  gemini-deep-research    → Gemini Deep Research API (separately billed)
 
 Exit codes:
   0 = APPROVED (auto-fire OK)
@@ -90,10 +91,12 @@ SERVICES = {
                              "desc": "Gemini text (Ultra, effectively unlimited)"},
 
     # ─── Unified research engine (execution/research.py) ───
-    # Gemini Deep Research rides the Ultra text pool (≈$0 marginal). Perplexity is
-    # paid fallback. The native floor is free and needs no service entry.
-    "gemini-deep-research": {"type": "quota", "quota_units": 1, "quota_pool": "ultra-text",
-                             "desc": "Gemini Deep Research (Ultra-covered accelerator)"},
+    # Consumer Gemini subscriptions do not establish that API calls are free.
+    # Google publishes a typical standard-run range, not a hard request maximum.
+    # The parity runtime therefore adds a stricter machine-verified provider-cap
+    # check before this shared cost gate is even reached.
+    "gemini-deep-research": {"type": "paid", "est_usd": 3.00, "ceiling_usd": 3.00,
+                             "desc": "Gemini Deep Research standard API (typical estimate; billing separate)"},
     "perplexity-research":  {"type": "paid", "est_usd": 0.25, "ceiling_usd": 1.00,
                              "desc": "Perplexity sonar-deep-research (fallback accelerator)"},
 

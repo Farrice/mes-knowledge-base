@@ -1,0 +1,19 @@
+{
+  "file": "deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md",
+  "overall_pass": true,
+  "overall_score": 80,
+  "depth": "deep",
+  "metrics": {
+    "total_urls": 21,
+    "unique_domains": 13,
+    "detected_depth": "deep",
+    "min_sources_expected": 15,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "67% (2/3)",
+    "naked_claims": 1,
+    "hedge_ratio": "0.0 per 1000 words"
+  },
+  "critical_issues": [],
+  "validated_at": "2026-08-17T10:43:05",
+  "gate": "research_quality_gate.py"
+}

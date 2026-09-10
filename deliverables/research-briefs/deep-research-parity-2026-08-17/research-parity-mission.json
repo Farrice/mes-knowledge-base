@@ -1,0 +1,57 @@
+{
+  "schema_version": "research-parity/v1",
+  "mission_id": "linkedin-health-offer-pmf-parity-2026-08-17",
+  "exact_question": "As of August 17, 2026, which of the recent Lead-to-Proposal Proof Sprint, 15-Ad Creative Test Pack, and supplement evidence-to-message AI workflow should Farrice validate next through LinkedIn, for which ICP and buyer avatar, based on current paid problems and resisted or non-purchased framings? Resolve the positioning, productized offer, LinkedIn distribution and demonstration proof plan, and explicit kill gates without reviving The Angle Map or treating category activity as payment evidence for Farrice's exact offer.",
+  "as_of_date": "2026-08-17",
+  "depth": "deep",
+  "candidates": [
+    {
+      "name": "Lead-to-Proposal Proof Sprint",
+      "definition": "A five-day bounded workflow implementation for a service business, converting qualified inbound or outbound lead information into a reviewable proposal draft and follow-up path; separate fastest-cash hypothesis, not assumed to control the health-facing LinkedIn identity."
+    },
+    {
+      "name": "15-Ad Creative Test Pack",
+      "definition": "Five materially different creative concepts, three launch-ready Meta static variants per concept, a launch map, and one readout for one already-advertising health or performance SKU; current health-facing test-now hypothesis."
+    },
+    {
+      "name": "Supplement Evidence-to-Message AI Workflow",
+      "definition": "A bounded human-reviewed workflow that turns approved supplement evidence, customer language, and claim constraints into traceable message hypotheses and creative briefs; earned expansion hypothesis after paid delivery."
+    }
+  ],
+  "parked_concepts": [
+    "The Angle Map"
+  ],
+  "authority_sources": [
+    "deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md",
+    "deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md",
+    "deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md"
+  ],
+  "decision_criteria": [
+    "Define the economic ICP, buying committee, user avatar, trigger event, qualification and disqualification conditions.",
+    "Separate current paid problems and public category spend from evidence that Farrice's exact offer will be purchased.",
+    "Identify resisted, non-purchased, commoditized, over-broad, or risk-amplifying framings and why buyers avoid them.",
+    "Recommend one next validation offer and preserve the other candidates' correct strategic roles.",
+    "Specify positioning, scope, price hypothesis, exclusions, proof object, buyer-facing risk reversal, and operating burden.",
+    "Design LinkedIn as distribution, demonstration, proof, qualification, and learning infrastructure rather than reach-only content.",
+    "Define payment, conversation, delivery, claim-safety, and opportunity-cost kill gates.",
+    "Seek counterevidence and resolve conflicts between public market evidence and recent local offer authority."
+  ],
+  "proof_state": "UNTESTED / NO EVENT",
+  "spending_policy": {
+    "absolute_cap_usd": 10.0,
+    "authorization_cap_usd": 8.0,
+    "reporting_lag_reserve_usd": 2.0,
+    "gemini_standard_calls_max": 1,
+    "gemini_max_allowed": false,
+    "openai_api_allowed": false,
+    "paid_retries_allowed": false,
+    "automatic_provider_fallback_allowed": false,
+    "unknown_or_unbounded_cost_action": "BLOCK_BEFORE_START",
+    "gemini_billing_verification": {
+      "machine_verified_hard_ceiling": false,
+      "verified_remaining_ceiling_usd": null,
+      "verification_source": "No machine-readable provider-side hard ceiling available in the workspace; local ledger is not a billing cap.",
+      "verified_at": null
+    }
+  }
+}

@@ -874,3 +874,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-03 05:32]` **finalize** | Buyer-confidence edit of six supplement creative proof briefs plus repeatable evidence-to-meaning an | general | dara-denney — composite:8.67 status:Keep
 - `[2026-09-03 06:16]` **finalize** | Repaired the single Rello founder-facing creative Proof Note after a user-rated 3/10 regression | copywriting | cardinal-mason — composite:8.67 status:Keep
 - `[2026-09-03 06:38]` **finalize** | Rello first-three-second concept storyboard and approved golden-specimen workflow patch | general | curious-refuge — composite:9.33 status:Keep
+- `[2026-08-17 10:42]` **finalize** | Deep PMF decision brief for LinkedIn-led health-performance offers, with ICP, avatar manifold, paid  | general | research-intelligence-agent — composite:8.67 status:Keep
+- `[2026-08-17 11:16]` **finalize** | Corrected recent-offer LinkedIn PMF verdict with cross-session authority ledger, current market evid | research | research-intelligence-agent — composite:6.67 status:Needs Improvement
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep
