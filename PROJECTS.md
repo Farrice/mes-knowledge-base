@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-09-09 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-09-10 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -20,12 +20,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `bowling-anime-trailer` | _active/ | `_active/bowling-anime-trailer/INDEX.md` | 2026-08-24 | active* |
+| `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-12 | active* |
 
 ## Parked
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-09 | parked* |
 | `video-studio` | _active/ | `_active/video-studio/INDEX.md` | 2026-08-09 | parked* |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-08-08 | parked* |
 | `wagering` | _active/ | `_active/wagering/INDEX.md` | 2026-08-08 | parked* |
@@ -36,7 +36,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 _none_
 
-**18 projects** — 12 active, 6 parked, 0 done.
+**18 projects** — 13 active, 5 parked, 0 done.
 
 ## Needs judgment
 
@@ -48,8 +48,4 @@ Contradictions only — not a list of unstamped projects.
 - **missing_index** — `_active/products`: no INDEX.md — project has no entry point
 - **missing_index** — `projects/00-social-content`: no INDEX.md — project has no entry point
 - **missing_index** — `projects/str-trending-research`: no INDEX.md — project has no entry point
-| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-08 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-08 | active |
-| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-08 | active* |
-| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-07 | active* |
-| `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |
+
