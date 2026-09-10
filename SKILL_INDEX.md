@@ -103,7 +103,7 @@
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
 | `deya-business-systems` | **deya-business-systems** | problem-severity pricing, remarkable offer engineering, beta price ladders | 3 | 0 |
 | `dhar-mann-transformational-storytelling` | **Dhar Mann: Transformational Community Storytelling** | storytelling, youtube, creator strategy | 9 | 0 |
-| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 22 | 0 |
+| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 23 | 0 |
 | `diandra-escobar-linkedin-mastery` | **diandra-escobar-linkedin-mastery** | the linkedin journey system + domain arsenal | 0 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
@@ -361,7 +361,7 @@
 | `sam-vander-wielen` | **sam-vander-wielen** | webinar launch, live webinar, course launch | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai-powered info product launch methodology from serial entrepreneur samuel th..., ai product launch system | 4 | 11 |
 | `sarah-levinger-ad-psychology` | **sarah-levinger-ad-psychology** | emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting | 3 | 0 |
-| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | the design-thinking brain: originates concepts and color systems, then engineers composition, layout | 26 | 0 |
+| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | v2 adds the generative layer, v3 adds the layout and contrast layer, design-thinking + composition + color engine | 27 | 0 |
 | `sean-dollwet-kdp-publishing` | **sean-dollwet-kdp-publishing** | sean dollwet's demand-first amazon kdp system, extended with a zero-to-book-one conductor, current policy and rights gates | 11 | 0 |
 | `sean-kochel-ai-business` | **Sean Kochel: AI Business Mastery** | sean kochel's ai business mastery: why ai products don't sell, persuasion architecture, and trust-building systems | 4 | 23 |
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | sean kochel's systematic research-to-design-to-build pipeline for landing pag..., design-first web building | 2 | 6 |
