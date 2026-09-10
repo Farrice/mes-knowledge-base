@@ -136,6 +136,7 @@ genuinely separate deliverables — don't split one ask into a mini-mission.
 | Mission shape | Conductor |
 |---|---|
 | Single content/copy piece | `/create` (+ v2 prompt contract + voice layer if Farrice-named) |
+| Job-shaped (multi-lane, multi-session, hands-off; he wants packets not status) | `/job` (manager loop, 2026-09-09) |
 | Multi-deliverable mission | `/supercomputer` |
 | Campaign (multi-asset, multi-platform) | `/jw-engine` |
 | Fleet-shaped work (10+ units / 3+ workstreams) | Workflow engine per doctrine (scout → agents → gate) |

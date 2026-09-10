@@ -26,6 +26,7 @@ session. Wired via .claude/settings.json.
 """
 
 import json
+import subprocess
 import os
 import re
 import sys
@@ -457,17 +458,56 @@ def _cc_feedback(prompt: str, stems: dict) -> bool:
 
 
 _CC_MODE_OVERRIDE_RE = re.compile(
-    r"\bmode (build-new|refine-existing|ideate|decide|capture)\b", re.I)
+    r"\bmode (build-new|refine-existing|ideate|decide|capture|job-handoff)\b", re.I)
+
+
+# ── Job-shaped handoff detector (2026-09-09, Nate B Jones manager loop) ──
+# Fires on the ask that is bigger than a prompt: a delegation verb + breadth
+# (several deliverables, several systems, or a sequence). The card it emits is
+# the brief — the manager loop runs until job_board.py says MAY END. Scar:
+# 54 open missions, oldest 41d, compiled by /go and never driven. Deterministic,
+# nudge-not-cage; `mode job-handoff` forces it, feedback turns never reach it.
+_JOB_VERB_RE = re.compile(
+    r"\b(handle|take care of|own (this|it)|run (this|it|the whole|the entire)|"
+    r"end.to.end|soup to nuts|from start to finish|see it through|"
+    r"until (it'?s |it is )?done|get (this|it|all of (this|it)) done|make (this|it) happen|"
+    r"hand(ing)? (this|it|that) (off|over)|hands.off|manage (it|this|yourself)|"
+    r"go (out|off) and|cover (all|every) (the )?gaps?|take (this|it) (from here|over)|"
+    r"set (you|fable|astra|codex) (off|loose) on)\b")
+_JOB_SYSTEM_RE = re.compile(
+    r"\b(linkedin|substack|notion|gmail|email|calendar|shopify|github|codex|claude code|"
+    r"website|drive|stripe|canva|instagram|youtube|dropbox|airtable|slack|harness|"
+    r"the repo|worktree|homebase)\b")
+_JOB_SEQ_RE = re.compile(
+    r"\b(then|after that|once .{0,40}?(done|ready|approved)|finally|first .{0,60}? then|"
+    r"step (one|two|1|2)|phase (one|two|1|2))\b")
+
+
+def _job_shaped(pl: str) -> bool:
+    """A job-shaped ask: ≥200 chars, a delegation verb, and breadth ≥2 of
+    {≥2 deliverable words, ≥2 systems, ≥2 sequence markers}. Never fires on a
+    bare `run <workflow>`."""
+    if len(pl) < 200 or re.match(r"^\s*run \S+\s*$", pl):
+        return False
+    if not _JOB_VERB_RE.search(pl):
+        return False
+    deliverables = {m.group(0) for m in _DELIVERABLE_RE.finditer(pl)}
+    systems = {m.group(0) for m in _JOB_SYSTEM_RE.finditer(pl)}
+    seq = _JOB_SEQ_RE.findall(pl)
+    breadth = (len(deliverables) >= 2) + (len(systems) >= 2) + (len(seq) >= 2)
+    return breadth >= 2
 
 
 def _cc_work_mode(prompt: str, is_feedback: bool):
-    """BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
+    """JOB-HANDOFF | BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
     pl = prompt.lower().strip()
     m = _CC_MODE_OVERRIDE_RE.search(pl)
     if m:
         return m.group(1).upper()
     if is_feedback:
         return "REFINE-EXISTING"
+    if _job_shaped(pl):
+        return "JOB-HANDOFF"
     if re.search(r"\b(should (i|we)|which (one|of these|way|take)|pick (one|a|the)|"
                  r"choose|decide|gut.?check|or should)\b", pl):
         return "DECIDE"
@@ -523,6 +563,29 @@ _CC_MODE_CARDS = {
 }
 
 
+# JOB-HANDOFF cards — one per harness (Astra follows cards literally, 2026-09-09
+# scar: a Claude-shaped "dispatch an executor" line becomes a full stop on Codex).
+_JOB_CARDS = {
+    "claude": (
+        "Job-shaped ask → /job (Nate manager loop): match a recipe "
+        "(python3 execution/recipe_cards.py match \"<ask>\") or forge one from the "
+        "workflows that already run the job; interview ONCE (batched, ≤5 questions, "
+        "disk-first, only what changes execution); python3 execution/job_board.py open; "
+        "then run the manager loop — keep every unblocked lane moving (writes = you, "
+        "serial; read-only lanes = background Sonnet seats carrying the negative brief), "
+        "batch questions into DECISION PACKETS (job_board.py packet add), and END THE "
+        "TURN ONLY when `job_board.py next` prints MAY END. Deliver packets + receipts, "
+        "not status. This card IS the brief — no separate brief card, no fresh-pen dispatch."),
+    "codex": (
+        "Job-shaped ask → /job (Nate manager loop; single seat): match a recipe "
+        "(python3 execution/recipe_cards.py match) or forge one; interview ONCE "
+        "(batched, ≤5, disk-first); python3 execution/job_board.py open; then run the "
+        "lanes IN ORDER OF READINESS IN THIS TURN — a lane that ends in a diagnosis is "
+        "not done: build it, or mark it `--status blocked --blocker \"<decision needed>\"` "
+        "with a DECISION PACKET; end the turn only when `job_board.py next` prints MAY "
+        "END, closing with the packets + receipts. This card IS the brief."),
+}
+
 # ── Universal Intent Mirror (Farrice ruling 2026-08-02: "Mirror + one push-back") ──
 # Every raw/word-vomit ask, ANY domain, gets a ≤5-line "what I heard" card plus
 # exactly one senior-partner push-back BEFORE work starts. Sharp, specific asks
@@ -567,7 +630,7 @@ def _mirror_block(prompt: str, mode) -> str:
     REFINE-EXISTING (its card already mandates restating his verdicts —
     that IS the mirror for feedback turns).
     """
-    if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING"):
+    if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING", "JOB-HANDOFF"):
         return ""
     # 2026-09-09 (Madison/DSC scar, Codex): when he has CONFIRMED a brief
     # ("this does match the scope and brief… execute"), the confirm beat is
@@ -650,6 +713,8 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     mode = _cc_work_mode(prompt, is_feedback)
     if mode:
         card = _CC_MODE_CARDS.get(mode) or ""
+        if mode == "JOB-HANDOFF":
+            card = _JOB_CARDS["codex" if _CODEX else "claude"]
         lines.append(f"MODE {mode} (say 'mode X' to override): {card}".rstrip())
 
     mirror = _mirror_block(prompt, mode)
@@ -837,7 +902,7 @@ def handle_prompt(payload: dict) -> None:
     try:
         # Suppress when the INTENT BRIEF card already fired this prompt —
         # that card carries the same dispatch rule (approved plan 2026-08-20).
-        if _CODEX and "INTENT BRIEF" not in cc_block and _CC_APPROVAL_RE.search(prompt.lower()) is None:
+        if _CODEX and "INTENT BRIEF" not in cc_block and "MODE JOB-HANDOFF" not in cc_block and _CC_APPROVAL_RE.search(prompt.lower()) is None:
             # Codex has no Opus/Sonnet executor seat. The Claude FRESH PEN
             # card ("never produce in-thread, dispatch an executor") made
             # Astra spawn a subagent and wait_agent-timeout twice (Madison/
@@ -854,7 +919,7 @@ def handle_prompt(payload: dict) -> None:
                     "THIS turn, to a file; no executor dispatch, no subagent you "
                     "then wait on. A subagent only for independent research you "
                     "do not block on.\n")
-        elif "INTENT BRIEF" not in cc_block:
+        elif "INTENT BRIEF" not in cc_block and "MODE JOB-HANDOFF" not in cc_block:
             _pl = prompt.lower()
             _pen_execute = re.search(
                 r"\b(just do it|just run|go ahead|proceed|ship it|no questions|"
@@ -924,6 +989,37 @@ def handle_prompt(payload: dict) -> None:
 # ──────────────────────────────────────────────────────────────────
 # stop (Stop — observe only)
 # ──────────────────────────────────────────────────────────────────
+
+def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
+    """Observe-only (2026-09-09, manager loop): when an open job still has a
+    runnable lane and the turn ended without a DECISION PACKET, log it. Never
+    blocks — the log is what makes the "hand it back every turn" habit visible."""
+    try:
+        missions = AGENT_DIR / "missions"
+        if not missions.exists():
+            return
+        jobs = [d for d in missions.iterdir() if (d / "card.md").exists() and (d / "mission.json").exists()]
+        if not jobs:
+            return
+        board = Path(__file__).resolve().parents[1] / "job_board.py"
+        for d in jobs:
+            try:
+                st = json.loads((d / "mission.json").read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if st.get("status") in ("complete", "closed", "parked"):
+                continue
+            out = subprocess.run([sys.executable, str(board), "next", d.name],
+                                 capture_output=True, text=True, timeout=10).stdout
+            if "TURN MUST CONTINUE" in out and "DECISION PACKET" not in (last_text or ""):
+                _append_observe({
+                    "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
+                    "event": "job-turn-ended-unblocked", "job": d.name,
+                    "runnable": out.splitlines()[0][:160] if out else "",
+                })
+    except Exception:
+        return
+
 def handle_stop(payload: dict) -> None:
     if bool(payload.get("stop_hook_active")):
         sys.exit(0)
@@ -968,6 +1064,13 @@ def handle_stop(payload: dict) -> None:
     try:
         if not _cc_off():
             _cc_stop_observe(session_id, raw, exchange)
+    except Exception:
+        pass
+
+    # Manager-loop observer (2026-09-09): a job turn that ended with runnable
+    # lanes and no DECISION PACKET is the exact habit this build exists to end.
+    try:
+        _job_stop_observe(session_id, last_text, exchange)
     except Exception:
         pass
 
