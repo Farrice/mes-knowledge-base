@@ -96,14 +96,14 @@
         "L1"
       ],
       "blocker": "packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
-      "evidence_path": "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
+      "evidence_path": "/canvas reachable at http://127.0.0.1:8765/canvas; worktree-poppy-canvas merged to main at e95048ccd",
       "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
       "id": "L7",
       "kind": "lane",
       "next_action": "absorb main, then worktree_lane.py merge --lane worktree-poppy-canvas",
       "owner": "claude",
-      "status": "active",
-      "updated_at": "2026-09-10T13:15:49+00:00",
+      "status": "complete",
+      "updated_at": "2026-09-10T14:21:32+00:00",
       "validation_assertion": "",
       "workflow": "Land it"
     }
@@ -124,7 +124,8 @@
       "L3",
       "L4",
       "L5",
-      "L6"
+      "L6",
+      "L7"
     ],
     "planned_lanes": [
       "L1",
@@ -142,7 +143,8 @@
       "ingestion-edges.md: YouTube video PASS 1-11s \u00b7 YouTube channel list PASS 1s \u00b7 TikTok profile list PASS 1s \u00b7 TikTok video FAIL (yt-dlp format/impersonation; vendor = vidIQ watch) \u00b7 IG profile FAIL yt-dlp / PASS vidIQ 5cr \u00b7 IG reel FAIL yt-dlp / vendor vidIQ \u00b7 PDF PASS \u00b7 article PASS \u00b7 voice note PASS 2.5s local whisper",
       ".agent/missions/poppy-canvas-verdict/cost-table.md \u2014 keep $66-90/mo vs canvas $0-2/mo; heavy session $0 marginal on plan; build 1 session spent, ~1 left for option A",
       ".agent/missions/poppy-canvas-verdict/verdict-memo.md \u2014 Do: one real job this week, let the trial lapse; Don't: chase parity; Wrong-if: IG/TikTok-heavy, latency kills the feel, or the tab habit never forms",
-      "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)"
+      "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
+      "/canvas reachable at http://127.0.0.1:8765/canvas; worktree-poppy-canvas merged to main at e95048ccd"
     ],
     "resume_command": "/mission resume poppy-canvas-verdict",
     "skipped_lanes": [
@@ -153,11 +155,13 @@
   "goal": "A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on",
   "handoffs": [],
   "job": {
+    "closed_at": "2026-09-10T07:21:47-07:00",
     "harness": "claude",
     "opened_at": "2026-09-10T06:03:59-07:00",
     "opened_by": "claude",
     "recipe": "tool-build-vs-buy-verdict",
-    "serves": "orphan"
+    "serves": "orphan",
+    "verdict": "good"
   },
   "librarian": {
     "notes": "",
@@ -180,7 +184,7 @@
     ]
   },
   "slug": "poppy-canvas-verdict",
-  "status": "active",
-  "updated_at": "2026-09-10T13:15:49+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-10T14:21:47+00:00",
   "validation_assertions": []
 }
