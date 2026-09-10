@@ -16,7 +16,7 @@ Where each piece is:
 What only you can decide:
   1. <question>  A) <option>  B) <option>  → I'd pick A because <plain reason>.
 
-If you do nothing: <stuck stays stuck, waiting keeps waiting, due date lands>.
+If you do nothing: <what stays stuck, what keeps waiting, what comes due>.
 
 Next thing I'll do unless you say otherwise: <one thing this seat can do now>.
 ```
