@@ -1,10 +1,46 @@
+# JOB PACKET — mission-backlog-triage · for claude · generated 2026-09-10T05:34:21-07:00 on claude (branch worktree-manager-loop-harvest)
+
+## Resume
+- `python3 execution/job_board.py resume mission-backlog-triage` then follow `skills/nate-b-jones-manager-loop/workflows/manager-loop-run.md`
+- end the turn only when `python3 execution/job_board.py next mission-backlog-triage` prints MAY END
+
+## Rules that travel
+- Keep every unblocked lane moving; batch questions into DECISION PACKETS; deliver packets + receipts, not status.
+- Never publish, send, spend, delete outside the repo, or ship AS Farrice without approval (the card's `Needs approval`).
+- Dispatch briefs carry verbatim: "no Chain, no finalize, no Notion, no Next Moves, return only the artifact".
+
+## Lanes now
+| id | status | owner | after | expected | evidence | blocker |
+|---|---|---|---|---|---|---|
+| L1 | complete | claude | — | Board read | scratchpad/open-missions.json |  |
+| L2 | complete | claude | L1 | Evidence per mission | scratchpad/evidence-a.json+evidence-b.json |  |
+| L3 | complete | claude | L2 | Classify | scratchpad/triage.json |  |
+| L4 | complete | claude | L3 | Close the mechanical ones | /Users/farricecain/Google Antigravity/.agent/missi |  |
+| L5 | complete | claude | L3 | Park the live ones | .agent/handoffs/2026-09-10-god-agent-offer.md |  |
+| L6 | blocked | claude | L3 | Packets for his calls | .agent/missions/mission-backlog-triage/decisions.m | packet #1: Kith-style MyBPM site — finish / park / |
+| L7 | complete | claude | L4,L5,L6 | Regenerate + receipt | /Users/farricecain/Google Antigravity/.agent/pulse |  |
+runnable: none · waiting on deps: none · blocked on Farrice: L6 · done: L1, L2, L3, L4, L5, L7
+
+## Decision packets open
+## Packet 1 — L6 · open · 2026-09-10T05:33:43-07:00
+Choice: I'm going to continue our work, and I need to know your plan or how we are going to execute replicating and bu
+Irreversible? no — kill deletes nothing on disk
+Options: A finish it / B park it / C kill it — evidence: scratchpad/fetch_kith.sh, kith_batch.sh (session 10ae8b5a) - earlier Kith reference-scraping scripts, 2026-08-07, precedes this mission
+Recommend: Kith-style site for MyBPM: prep exists, no build; MyBPM is an open founder decision (memory) — finish / park / kill is his
+If no answer: stays open; re-asked at the next triage
+
+## Decisions answered
+none
+
+## Card
+<!-- instance of recipes/mission-backlog-triage.md · opened 2026-09-10T05:20:34-07:00 by claude on claude · goal: Drain the 54 open missions: finish, park, or kill each; packets only for the calls that are Farrice's; zero open missions older than 14 days without a park handoff -->
 ---
 job: mission-backlog-triage
 name: Mission backlog triage
 family: harness
 tier_default: T1
-runs: 1
-last_ratchet: 2026-09-10
+runs: 0
+last_ratchet: never
 ---
 
 ## The job
@@ -49,4 +85,5 @@ Deleting deliverables or handoff files · anything touching a client-facing thre
 Zero open missions older than 14 days without a park handoff · before/after counts in the receipt · every packet answered or explicitly held · `pulse_dashboard.py --open` shows the finisher rule satisfied (≤3 open).
 
 ## Ratchet log
-- 2026-09-10 — first run: main's missions.jsonl is per-tree (gitignored) — closes must target the main checkout's copy, not the lane's; evidence lanes normalize whitespace in keys — match on normalized text; reuse existing handoff thread names for parks; expect ~half of a stale backlog to be finished work nobody closed
+- none yet
+

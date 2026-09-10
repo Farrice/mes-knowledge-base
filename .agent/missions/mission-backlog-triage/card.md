@@ -1,10 +1,11 @@
+<!-- instance of recipes/mission-backlog-triage.md · opened 2026-09-10T05:20:34-07:00 by claude on claude · goal: Drain the 54 open missions: finish, park, or kill each; packets only for the calls that are Farrice's; zero open missions older than 14 days without a park handoff -->
 ---
 job: mission-backlog-triage
 name: Mission backlog triage
 family: harness
 tier_default: T1
-runs: 1
-last_ratchet: 2026-09-10
+runs: 0
+last_ratchet: never
 ---
 
 ## The job
@@ -49,4 +50,4 @@ Deleting deliverables or handoff files · anything touching a client-facing thre
 Zero open missions older than 14 days without a park handoff · before/after counts in the receipt · every packet answered or explicitly held · `pulse_dashboard.py --open` shows the finisher rule satisfied (≤3 open).
 
 ## Ratchet log
-- 2026-09-10 — first run: main's missions.jsonl is per-tree (gitignored) — closes must target the main checkout's copy, not the lane's; evidence lanes normalize whitespace in keys — match on normalized text; reuse existing handoff thread names for parks; expect ~half of a stale backlog to be finished work nobody closed
+- none yet

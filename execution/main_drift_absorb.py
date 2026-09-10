@@ -48,6 +48,9 @@ RECEIPT_REL = Path(".agent") / "health" / "main-drift-absorb.json"
 STATE_PREFIXES = (
     ".agent/", "evolution_store/", "knowledge/compiled/", "deliverables/research-briefs/",
     "_active/farrice-brand/intelligence/", "_active/knowledge/", ".claude/commands/",
+    # 2026-09-10: the organization sweep (launchd, 06:00) rewrites its alias map on main —
+    # machine state, not human work. Without this line one stamped file aborted every absorb.
+    "_system/organization/",
 )
 STATE_SUFFIXES = (".log", ".jsonl")
 GENERATED_TOP = {
