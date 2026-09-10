@@ -256,7 +256,13 @@ def _fetch_rows(conn, cutoff_iso: str):
 
 
 def _group_by_model(rows):
+    # Shadow reviewers (Codex's codex-auto-review guardian) are not agent
+    # turns: near-zero tool calls by design. They would win "most turns"
+    # and sit on the vitals tile, so they are excluded at the source.
     by_model = defaultdict(list)
+    rows = [r for r in rows
+            if "auto-review" not in str(r["model"] or "").lower()
+            and "auto_review" not in str(r["model"] or "").lower()]
     for r in rows:
         by_model[r["model"] or "(unknown)"].append(r)
     return by_model

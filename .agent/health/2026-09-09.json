@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-09T17:54:41",
+  "ts": "2026-09-09T17:57:30",
   "date": "2026-09-09",
   "deep": false,
   "context_injection": {
@@ -9,7 +9,7 @@
     "master_context_bytes": 30914,
     "total_bytes": 72741,
     "memory_dir_files": 225,
-    "memory_dir_bytes": 676116
+    "memory_dir_bytes": 677679
   },
   "assets": {
     "skills": 424,
@@ -37,7 +37,7 @@
   "steering_misses_7d": 0,
   "harness_behavior": {
     "window": "last 7d",
-    "generated": "2026-09-09T17:54:56",
+    "generated": "2026-09-09T17:57:43",
     "by_model": {
       "claude-sonnet-5": {
         "harness": "claude",
@@ -74,15 +74,6 @@
         "prose_chars_per_call": 359.1,
         "pct_turns_le3_calls": 31.3,
         "pct_final_with_artifact_path": 34.8
-      },
-      "codex-auto-review": {
-        "harness": "codex",
-        "turns": 364,
-        "calls_per_turn": 0.01,
-        "writes_per_turn": 0.0,
-        "prose_chars_per_call": 17811.8,
-        "pct_turns_le3_calls": 100.0,
-        "pct_final_with_artifact_path": 0.0
       },
       "gpt-5.6-luna": {
         "harness": "codex",
@@ -126,7 +117,6 @@
       "claude-fable-5-1": 20.85,
       "claude-opus-5": 15.71,
       "gpt-6-astra": 11.5,
-      "codex-auto-review": 0.01,
       "gpt-5.6-luna": 8.64,
       "claude-opus-4-5-20251101": 30.33,
       "gpt-5.6-sol": 31.34,
@@ -149,7 +139,7 @@
   "git": {
     "remote_branches": 106,
     "stashes": 8,
-    "dirty_files": 11
+    "dirty_files": 4
   },
   "active_stale_files_60d": 0,
   "hooks_config": {
