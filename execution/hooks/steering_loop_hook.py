@@ -1005,26 +1005,30 @@ def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
     runnable lane and the turn ended without a DECISION PACKET, log it. Never
     blocks — the log is what makes the "hand it back every turn" habit visible."""
     try:
-        missions = AGENT_DIR / "missions"
-        if not missions.exists():
+        board = Path(__file__).resolve().parents[1] / "job_board.py"
+        if not board.exists():
             return
-        jobs = [d for d in missions.iterdir() if (d / "card.md").exists() and (d / "mission.json").exists()]
+        # 2026-09-10: ask the board for the open jobs — it resolves to the MAIN
+        # checkout's state from any lane, so this observer sees the same board
+        # every session sees (a lane-local directory scan missed jobs opened elsewhere)
+        raw = subprocess.run([sys.executable, str(board), "status", "--json"],
+                             capture_output=True, text=True, timeout=15).stdout
+        try:
+            jobs = [j for j in json.loads(raw or "[]") if j.get("status") not in ("complete", "closed", "parked")]
+        except Exception:
+            jobs = []
         if not jobs:
             return
-        board = Path(__file__).resolve().parents[1] / "job_board.py"
-        for d in jobs:
-            try:
-                st = json.loads((d / "mission.json").read_text(encoding="utf-8"))
-            except Exception:
+        for j in jobs:
+            name = j.get("slug") or ""
+            if not name:
                 continue
-            if st.get("status") in ("complete", "closed", "parked"):
-                continue
-            out = subprocess.run([sys.executable, str(board), "next", d.name],
+            out = subprocess.run([sys.executable, str(board), "next", name],
                                  capture_output=True, text=True, timeout=10).stdout
             if "TURN MUST CONTINUE" in out and "DECISION PACKET" not in (last_text or ""):
                 _append_observe({
                     "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
-                    "event": "job-turn-ended-unblocked", "job": d.name,
+                    "event": "job-turn-ended-unblocked", "job": name,
                     "runnable": out.splitlines()[0][:160] if out else "",
                 })
             # 2026-09-10: a job whose plan is still pending must have been SHOWN — the
@@ -1032,7 +1036,7 @@ def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
             if out.startswith("PLAN PENDING") and "JOB PLAN" not in (last_text or ""):
                 _append_observe({
                     "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
-                    "event": "job-plan-not-shown", "job": d.name,
+                    "event": "job-plan-not-shown", "job": name,
                 })
     except Exception:
         return
