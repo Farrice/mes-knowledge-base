@@ -3,7 +3,7 @@ job: tool-build-vs-buy-verdict
 name: Tool build-vs-buy verdict
 family: harness
 tier_default: T1
-runs: 1
+runs: 3
 last_ratchet: 2026-09-10
 ---
 
@@ -50,4 +50,4 @@ Worktree lane · `.venv` · pulse_serve port · the paid tool's trial still acti
 He has used the local version on one real job · cost table with receipts · memo delivered · lane merged or the trial port documented · his verdict recorded.
 
 ## Ratchet log
-- none yet
+- 2026-09-10 — mis-matched onto the Coach Cooz website job on Codex (score 14, no interview); recipe_cards.py now prints WEAK MATCH under a floor and job_board.py open holds at PLAN PENDING until his go
