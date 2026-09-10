@@ -568,21 +568,31 @@ _CC_MODE_CARDS = {
 _JOB_CARDS = {
     "claude": (
         "Job-shaped ask → /job (Nate manager loop): match a recipe "
-        "(python3 execution/recipe_cards.py match \"<ask>\") or forge one from the "
-        "workflows that already run the job; interview ONCE (batched, ≤5 questions, "
-        "disk-first, only what changes execution); python3 execution/job_board.py open; "
-        "then run the manager loop — keep every unblocked lane moving (writes = you, "
-        "serial; read-only lanes = background Sonnet seats carrying the negative brief), "
-        "batch questions into DECISION PACKETS (job_board.py packet add), and END THE "
-        "TURN ONLY when `job_board.py next` prints MAY END. Deliver packets + receipts, "
-        "not status. This card IS the brief — no separate brief card, no fresh-pen dispatch."),
+        "(python3 execution/recipe_cards.py match \"<ask>\") — a WEAK MATCH means forge a "
+        "card from the workflows that already run the job, never run the matched card's "
+        "lanes; interview ONCE (batched, ≤5 questions, disk-first, only what changes "
+        "execution); python3 execution/job_board.py open — it prints a JOB PLAN; THE OPENING "
+        "TURN'S REPLY IS THAT PLAN (goal, lanes as what-I'll-do, questions, approvals) and "
+        "the turn ends there; lanes start next turn after `job_board.py go <slug>` records "
+        "his nod (`open --go` only when he said 'just do it'). Then run the manager loop — "
+        "keep every unblocked lane moving (writes = you, serial; read-only lanes = "
+        "background Sonnet seats carrying the negative brief), close every lane with "
+        "`lane … --status --did \"what was done / found / skipped\" --evidence` and ECHO its "
+        "LANE RECEIPT line in the reply, batch questions into DECISION PACKETS "
+        "(job_board.py packet add), and END THE TURN ONLY when `job_board.py next` prints "
+        "MAY END. Deliver plan → receipts → packets, never bare status. This card IS the "
+        "brief — no separate brief card, no fresh-pen dispatch."),
     "codex": (
         "Job-shaped ask → /job (Nate manager loop; single seat): match a recipe "
-        "(python3 execution/recipe_cards.py match) or forge one; interview ONCE "
-        "(batched, ≤5, disk-first); python3 execution/job_board.py open; then run the "
-        "lanes IN ORDER OF READINESS IN THIS TURN — a lane that ends in a diagnosis is "
-        "not done: build it, or mark it `--status blocked --blocker \"<decision needed>\"` "
-        "with a DECISION PACKET; end the turn only when `job_board.py next` prints MAY "
+        "(python3 execution/recipe_cards.py match) — WEAK MATCH = forge a card, never run "
+        "the matched card's lanes; interview ONCE (batched, ≤5, disk-first); python3 "
+        "execution/job_board.py open — it prints a JOB PLAN; REPLY WITH THAT PLAN AND END "
+        "THE TURN (lanes start only after `job_board.py go <slug>` records his nod; "
+        "`open --go` only when he said 'just do it'). After go: run the lanes IN ORDER OF "
+        "READINESS IN THIS TURN — a lane that ends in a diagnosis is not done: build it, or "
+        "mark it `--status blocked --blocker \"<decision needed>\"` with a DECISION PACKET; "
+        "close every lane with `--did \"what was done / found / skipped\" --evidence` and "
+        "ECHO its LANE RECEIPT line; end the turn only when `job_board.py next` prints MAY "
         "END, closing with the packets + receipts. This card IS the brief."),
 }
 
@@ -1016,6 +1026,13 @@ def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
                     "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
                     "event": "job-turn-ended-unblocked", "job": d.name,
                     "runnable": out.splitlines()[0][:160] if out else "",
+                })
+            # 2026-09-10: a job whose plan is still pending must have been SHOWN — the
+            # reply carries the JOB PLAN block. Observe-only, like everything here.
+            if out.startswith("PLAN PENDING") and "JOB PLAN" not in (last_text or ""):
+                _append_observe({
+                    "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
+                    "event": "job-plan-not-shown", "job": d.name,
                 })
     except Exception:
         return

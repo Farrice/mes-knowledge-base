@@ -22,10 +22,26 @@ any lane is runnable, and MAY END only when every lane is complete, skipped, or
 blocked on a decision that is his. Nothing here blocks (compass doctrine) —
 the manager reads the line and acts.
 
+Two more things made physical on 2026-09-10 (scar: the Coach Cooz job ran the
+Poppy card's lanes on a website audit, no interview, no trace — "it just does
+things"):
+  plan.md   `open` writes and prints a JOB PLAN (goal · recipe + match verdict ·
+            every lane as "what I'll do" · questions · approvals). `next` prints
+            PLAN PENDING until `go <slug>` records his nod (`open --go` = "just do
+            it"). The opening turn's reply IS the plan; lanes start next turn.
+  trace.md  a timeline. Every open / go / lane change / packet / close writes a
+            line; the manager adds `log` lines (did / found / skipped). `trace`
+            prints it, `status --all --trace` and Homebase show the tail. He reads
+            the trace to learn the process and to step in at any line.
+
 Usage:
-  python3 execution/job_board.py open <slug> --recipe <recipe> [--goal "..."] [--owner claude|codex|chat] [--serves <goal-id>]
+  python3 execution/job_board.py open <slug> --recipe <recipe> [--goal "..."] [--owner claude|codex|chat] [--serves <goal-id>] [--go]
+  python3 execution/job_board.py plan <slug>                              # re-print the JOB PLAN (plan.md)
+  python3 execution/job_board.py go <slug> [--note "his words"]           # his nod → lanes may start
+  python3 execution/job_board.py log <slug> <lane|-> "<did / found / skipped>" [--kind did|found|skipped|note]
+  python3 execution/job_board.py trace <slug> [--last N] | trace --all [--last N]
   python3 execution/job_board.py lanes <slug>
-  python3 execution/job_board.py lane <slug> <id> [--status S] [--evidence P] [--blocker B] [--owner O] [--next N]
+  python3 execution/job_board.py lane <slug> <id> [--status S] [--evidence P] [--did "..."] [--blocker B] [--owner O] [--next N]
   python3 execution/job_board.py next <slug>
   python3 execution/job_board.py packet <slug> add --lane L --choice "..." --options "A … / B …" --recommend "A — why" [--irreversible "..."] [--if-none "..."]
   python3 execution/job_board.py packet <slug> answer <n> "<his words>"
@@ -209,6 +225,60 @@ def append_mission_line(slug: str, status: str, mission: str, serves: str = "orp
         fh.write(json.dumps(line, ensure_ascii=False) + "\n")
 
 
+def plan_path(slug: str) -> Path:
+    return mc.mission_dir(slug) / "plan.md"
+
+
+def trace_path(slug: str) -> Path:
+    return mc.mission_dir(slug) / "trace.md"
+
+
+def plan_state(state: dict) -> str:
+    """'pending' | 'confirmed'. Jobs opened before plan.md existed carry no key → confirmed."""
+    return (state.get("job") or {}).get("plan") or "confirmed"
+
+
+def trace_add(slug: str, lane: str, kind: str, text: str, who: str | None = None) -> str:
+    """Append one timeline line to trace.md (creates the file). Returns the line."""
+    tp = trace_path(slug)
+    tp.parent.mkdir(parents=True, exist_ok=True)
+    if not tp.exists():
+        tp.write_text(f"# Trace — {slug}\n\nWhat was done, found, skipped, asked and answered — "
+                      f"one line each, oldest first.\n\n", encoding="utf-8")
+    who = who or harness()
+    line = f"- {now_iso()} · {lane or '-'} · {kind} · {' '.join(str(text).split())} · [{who}]"
+    with open(tp, "a", encoding="utf-8") as fh:
+        fh.write(line + "\n")
+    return line
+
+
+def trace_lines(slug: str) -> list[str]:
+    tp = trace_path(slug)
+    if not tp.exists():
+        return []
+    return [l for l in tp.read_text(encoding="utf-8").splitlines() if l.startswith("- ")]
+
+
+def plan_text(slug: str, card: dict, recipe: str, goal: str, match_note: str) -> str:
+    secs = card["sections"]
+    lines = [f"JOB PLAN — {slug}", f"Goal: {goal}", f"Recipe: {recipe} · {match_note}", "",
+             "What I'll do (lanes):"]
+    for l in card["lanes"]:
+        dep = f"after {', '.join(l['after'])}" if l["after"] else "parallel"
+        lines.append(f"  {l['id']} {l['name']} [{dep}] — {l['desc']}")
+    ask = [x.strip() for x in secs.get("Ask me first", "").splitlines() if x.strip().startswith("-")]
+    lines += ["", "Questions I need answered before lane 1 (only ones that change the plan):"]
+    lines += [f"  {x.lstrip('- ').strip()}" for x in ask] or ["  none — everything is on disk"]
+    alone = " ".join(secs.get("Handles alone", "").split())
+    back = [x.strip().lstrip("- ") for x in secs.get("Comes back when", "").splitlines() if x.strip()]
+    appr = " ".join(secs.get("Needs approval", "").split())
+    lines += ["", f"I handle alone: {alone or '—'}", "I come back with a packet when:"]
+    lines += [f"  - {b}" for b in back] or ["  - (the card names nothing)"]
+    lines += [f"Needs your approval: {appr or '—'}", "",
+              f"Reply 'go' (or edit any line) to start lane 1 · python3 execution/job_board.py go {slug}"]
+    return "\n".join(lines) + "\n"
+
+
 def lane_table(state: dict) -> str:
     rows = ["| id | status | owner | after | expected | evidence | blocker |", "|---|---|---|---|---|---|---|"]
     for l in lanes_of(state):
@@ -269,10 +339,89 @@ def cmd_open(a):
     append_mission_line(slug, "compiled", goal, serves=a.serves,
                         tier=card["frontmatter"].get("tier_default", "T1"),
                         expected_spawns=len([l for l in card["lanes"] if not l["after"]]))
+    # match verdict on HIS goal sentence — a weak match is said out loud in the plan
+    rows = rc.match(goal, top=3)
+    v = rc.verdict(rows)
+    top = rows[0]["slug"] if rows else None
+    if v["confident"] and top == recipe:
+        match_note = f"CONFIDENT match ({v['reason']})"
+    elif top == recipe:
+        match_note = f"WEAK match ({v['reason']}) — check that the lanes below fit before saying go"
+    else:
+        match_note = (f"chosen by hand (the matcher's top pick was {top}: {v['reason']})"
+                      if top else "chosen by hand (the matcher scored nothing)")
+    ptxt = plan_text(slug, card, recipe, goal, match_note)
+    with locked(slug):
+        state = mc.read_state(slug)
+        state["job"]["plan"] = "confirmed" if a.go else "pending"
+        state["job"]["match"] = {"top": top, "confident": v["confident"], "reason": v["reason"]}
+        write(slug, state)
+        plan_path(slug).write_text(ptxt, encoding="utf-8")
+        trace_add(slug, "-", "opened", f"recipe {recipe} · {len(card['lanes'])} lanes · {match_note}", a.owner)
+        if a.go:
+            trace_add(slug, "-", "go", "opened with --go (his 'just do it')", a.owner)
     print(f"JOB OPEN — {slug} (recipe {recipe}, {len(card['lanes'])} lanes, owner {a.owner}, {harness()})")
-    print(f"  card: {mc.rel(mc.mission_dir(slug) / 'card.md')}")
-    print(lane_table(state))
+    print(f"  card: {mc.rel(mc.mission_dir(slug) / 'card.md')} · plan: {mc.rel(plan_path(slug))} · "
+          f"trace: {mc.rel(trace_path(slug))}")
+    print()
+    print(ptxt)
     return cmd_next(argparse.Namespace(slug=slug))
+
+
+def cmd_plan(a):
+    pp = plan_path(a.slug)
+    st = read(a.slug)
+    if not pp.exists():
+        print(f"no plan.md for {a.slug} (opened before plans existed) — lanes: job_board.py lanes {a.slug}")
+        return 0
+    print(pp.read_text(encoding="utf-8"))
+    print(f"plan: {plan_state(st)}")
+    return 0
+
+
+def cmd_go(a):
+    with locked(a.slug):
+        state = read(a.slug)
+        if plan_state(state) == "confirmed":
+            print(f"  {a.slug}: plan already confirmed")
+        else:
+            state.setdefault("job", {})["plan"] = "confirmed"
+            state["job"]["go_at"] = now_iso()
+            write(a.slug, state)
+        trace_add(a.slug, "-", "go", a.note or "his nod", "farrice")
+        dp = decisions_path(a.slug)
+        with open(dp, "a", encoding="utf-8") as fh:
+            fh.write(f"\n## Plan confirmed · {now_iso()}\n{a.note or 'his nod'}\n")
+    print(f"GO — {a.slug}: lanes may start")
+    return cmd_next(argparse.Namespace(slug=a.slug))
+
+
+def cmd_log(a):
+    if not mc.state_path(a.slug).exists():
+        print(f"no job '{a.slug}'")
+        return 1
+    print(trace_add(a.slug, a.lane if a.lane != "-" else "-", a.kind, a.text))
+    return 0
+
+
+def cmd_trace(a):
+    slugs = job_slugs() if a.all else [a.slug]
+    if a.all and not slugs:
+        print("TRACE: no jobs open")
+        return 0
+    for s_ in slugs:
+        if not s_:
+            print("trace needs a slug or --all")
+            return 1
+        ls = trace_lines(s_)
+        tail = ls[-a.last:] if a.last else ls
+        cut = f", last {a.last}" if a.last and len(ls) > a.last else ""
+        print(f"TRACE — {s_} ({len(ls)} line(s){cut}) · {mc.rel(trace_path(s_))}")
+        for l in tail:
+            print("  " + l[2:])
+        if not ls:
+            print("  (empty — opened before traces existed, or nothing logged yet)")
+    return 0
 
 
 def cmd_lanes(a):
@@ -292,6 +441,7 @@ def cmd_lane(a):
         if lane is None:
             print(f"no lane '{a.id}' in {a.slug}")
             return 1
+        before = lane.get("status")
         if a.status:
             if a.status not in mc.ACTIVATION_STATUSES:
                 print(f"status must be one of {mc.ACTIVATION_STATUSES}")
@@ -305,11 +455,35 @@ def cmd_lane(a):
             lane["owner"] = a.owner
         if a.next is not None:
             lane["next_action"] = a.next
+        if a.did is not None:
+            lane["did"] = a.did
         lane["updated_at"] = mc.now()
+        nudges = []
         if lane["status"] == "blocked" and not lane.get("blocker"):
-            print("  nudge: a blocked lane names its blocker (--blocker \"<decision needed>\")")
+            nudges.append("a blocked lane names its blocker (--blocker \"<decision needed>\")")
+        if lane["status"] == "complete" and not lane.get("evidence_path"):
+            nudges.append("complete with no --evidence path: the trace will say only 'complete'")
+        if lane["status"] in ("complete", "skipped", "blocked") and not lane.get("did"):
+            nudges.append("no --did line: say what was done / found / skipped so he can read it in the trace")
         write(a.slug, state)
-    print(f"  {a.slug}/{a.id} → {lane['status']}" + (f" · evidence {lane['evidence_path']}" if lane.get("evidence_path") else ""))
+        if a.status or a.did or a.evidence or a.blocker:
+            what = []
+            if a.status and a.status != before:
+                what.append(f"{before} → {a.status}")
+            if a.did:
+                what.append(f"did: {a.did}")
+            if a.evidence:
+                what.append(f"evidence: {a.evidence}")
+            if a.blocker:
+                what.append(f"blocker: {a.blocker}")
+            trace_add(a.slug, a.id, a.status or "update", " · ".join(what) or "touched")
+    for n in nudges:
+        print(f"  nudge: {n}")
+    receipt = (f"LANE RECEIPT — {a.slug}/{a.id} {lane.get('workflow') or ''}: {lane['status']}"
+               + (f" · did: {lane['did']}" if lane.get("did") else "")
+               + (f" · evidence: {lane['evidence_path']}" if lane.get("evidence_path") else "")
+               + (f" · blocker: {lane['blocker']}" if lane.get("blocker") else ""))
+    print(receipt)
     return 0
 
 
@@ -317,6 +491,10 @@ def cmd_next(a):
     state = read(a.slug)
     c = classify(state)
     ops = open_packets(a.slug)
+    if plan_state(state) == "pending" and state.get("status") not in ("complete", "closed", "parked"):
+        print(f"PLAN PENDING — {a.slug}: the reply IS the plan ({mc.rel(plan_path(a.slug))}); the turn ends there. "
+              f"Lanes start on his nod: python3 execution/job_board.py go {a.slug}")
+        return 0
     if c["runnable"]:
         ids = ", ".join(f"{l['id']} {l.get('workflow') or ''}".strip() for l in c["runnable"])
         print(f"TURN MUST CONTINUE — {a.slug}: runnable lanes: {ids}")
@@ -365,6 +543,7 @@ def cmd_packet(a):
             dp.parent.mkdir(parents=True, exist_ok=True)
             with open(dp, "a", encoding="utf-8") as fh:
                 fh.write(block)
+            trace_add(slug, a.lane, "asked", f"packet #{n}: {a.choice}")
         print(f"DECISION PACKET — {slug}/{a.lane} · #{n}\nChoice: {a.choice}\nIrreversible? {a.irreversible or 'no'}\n"
               f"Options: {a.options}\nRecommend: {a.recommend}\nIf no answer: {a.if_none or 'the lane stays blocked; everything else keeps moving'}")
         return 0
@@ -385,6 +564,7 @@ def cmd_packet(a):
             answer = f"\nAnswer (Farrice, {now_iso()}): {a.text}\n"
             text = text[:head.start()] + new_head + text[head.end():ins].rstrip("\n") + "\n" + answer + text[ins:]
             dp.write_text(text, encoding="utf-8")
+            trace_add(slug, head.group(1), "answered", f"packet #{a.n}: {a.text}", "farrice")
         print(f"  packet #{a.n} answered — unblock the lane: job_board.py lane {slug} {head.group(1)} --status active")
         return 0
     return 1
@@ -420,6 +600,8 @@ def portable_text(slug: str, target: str) -> str:
     lines += [p["body"] for p in ops] or ["none"]
     lines += ["", "## Decisions answered"]
     lines += [p["body"] for p in answered] or ["none"]
+    tl = trace_lines(slug)
+    lines += ["", f"## Trace (last {min(12, len(tl))} of {len(tl)})"] + (tl[-12:] or ["none"])
     lines += ["", "## Card", card]
     return "\n".join(lines) + "\n"
 
@@ -482,6 +664,12 @@ def cmd_resume(a):
           f"opened {(state.get('job') or {}).get('opened_at')} by {(state.get('job') or {}).get('opened_by')}")
     print(card.strip()[:4000])
     print("\n" + lane_table(state))
+    tl = trace_lines(slug)
+    if tl:
+        print(f"\nTRACE (last {min(8, len(tl))} of {len(tl)}):")
+        for l in tl[-8:]:
+            print("  " + l[2:])
+    print(f"plan: {plan_state(state)}")
     ops = open_packets(slug)
     if ops:
         print(f"\nDECISION PACKETS OPEN ({len(ops)}):")
@@ -498,7 +686,8 @@ def job_summary(slug: str) -> dict:
     return {"slug": slug, "status": state.get("status"), "recipe": (state.get("job") or {}).get("recipe"),
             "lanes": len(lanes_of(state)), "runnable": len(c["runnable"]), "waiting_deps": len(c["waiting_deps"]),
             "blocked": len(c["blocked"]), "done": len(c["done"]), "packets": len(open_packets(slug)),
-            "owners": owners, "opened": (state.get("job") or {}).get("opened_at", "")[:10]}
+            "owners": owners, "opened": (state.get("job") or {}).get("opened_at", "")[:10],
+            "plan": plan_state(state), "last": (trace_lines(slug) or ["- "])[-1][2:]}
 
 
 def cmd_status(a):
@@ -509,8 +698,11 @@ def cmd_status(a):
     print("JOBS (manager loop) — lanes: runnable / queued / blocked-on-you / done · packets = decisions waiting")
     for s in slugs:
         j = job_summary(s)
+        flag = "  PLAN PENDING (say go)" if j["plan"] == "pending" else ""
         print(f"  {j['slug']:<32} {j['status']:<9} {j['runnable']}/{j['waiting_deps']}/{j['blocked']}/{j['done']} of {j['lanes']}"
-              f"  packets={j['packets']}  owners={','.join(j['owners']) or '—'}  opened {j['opened']}  recipe={j['recipe']}")
+              f"  packets={j['packets']}  owners={','.join(j['owners']) or '—'}  opened {j['opened']}  recipe={j['recipe']}{flag}")
+        if getattr(a, "trace", False) and j["last"]:
+            print(f"      last: {j['last'][:150]}")
     return 0
 
 
@@ -520,8 +712,11 @@ def cmd_brief(_a=None):
         return 0
     js = [job_summary(s) for s in slugs]
     packets_total = sum(j["packets"] for j in js)
-    runnable_total = sum(j["runnable"] for j in js)
+    runnable_total = sum(j["runnable"] for j in js if j["plan"] != "pending")
+    plans_pending = sum(1 for j in js if j["plan"] == "pending")
     head = f"JOBS: {len(js)} open"
+    if plans_pending:
+        head += f" · {plans_pending} plan(s) waiting for your go"
     if packets_total:
         head += f" · {packets_total} decision packet(s) waiting for you"
     if runnable_total:
@@ -559,6 +754,7 @@ def cmd_close(a):
         state["job"]["verdict"] = a.verdict
         write(slug, state)
         (mc.mission_dir(slug) / "closeout.md").write_text(closeout, encoding="utf-8")
+        trace_add(slug, "-", "closed", f"done: {a.done} · verdict: {a.verdict or 'unasked'}")
     # ratchet the recipe (LIVING doc, updated in place)
     if recipe and rc.card_path(recipe).exists():
         p = rc.card_path(recipe)
@@ -625,11 +821,20 @@ def main(argv=None):
     s = sub.add_parser("open"); s.add_argument("slug"); s.add_argument("--recipe", required=True)
     s.add_argument("--goal"); s.add_argument("--owner", default=harness()); s.add_argument("--serves", default="orphan")
     s.add_argument("--mode", default="general", choices=["general", "client", "personal", "code", "research", "system"])
-    s.add_argument("--force", action="store_true"); s.set_defaults(fn=cmd_open)
+    s.add_argument("--force", action="store_true")
+    s.add_argument("--go", action="store_true", help="skip the plan beat (his 'just do it')")
+    s.set_defaults(fn=cmd_open)
+    s = sub.add_parser("plan"); s.add_argument("slug"); s.set_defaults(fn=cmd_plan)
+    s = sub.add_parser("go"); s.add_argument("slug"); s.add_argument("--note"); s.set_defaults(fn=cmd_go)
+    s = sub.add_parser("log"); s.add_argument("slug"); s.add_argument("lane"); s.add_argument("text")
+    s.add_argument("--kind", default="did", choices=["did", "found", "skipped", "note", "asked", "answered"])
+    s.set_defaults(fn=cmd_log)
+    s = sub.add_parser("trace"); s.add_argument("slug", nargs="?"); s.add_argument("--all", action="store_true")
+    s.add_argument("--last", type=int, default=0); s.set_defaults(fn=cmd_trace)
     s = sub.add_parser("lanes"); s.add_argument("slug"); s.set_defaults(fn=cmd_lanes)
     s = sub.add_parser("lane"); s.add_argument("slug"); s.add_argument("id"); s.add_argument("--status")
-    s.add_argument("--evidence"); s.add_argument("--blocker"); s.add_argument("--owner"); s.add_argument("--next")
-    s.set_defaults(fn=cmd_lane)
+    s.add_argument("--evidence"); s.add_argument("--did"); s.add_argument("--blocker"); s.add_argument("--owner")
+    s.add_argument("--next"); s.set_defaults(fn=cmd_lane)
     s = sub.add_parser("next"); s.add_argument("slug"); s.set_defaults(fn=cmd_next)
     s = sub.add_parser("packet"); s.add_argument("slug"); s.add_argument("action", choices=["add", "answer", "list"])
     s.add_argument("n", nargs="?", type=int); s.add_argument("text", nargs="?")
@@ -640,7 +845,7 @@ def main(argv=None):
     s.set_defaults(fn=cmd_handoff)
     s = sub.add_parser("resume"); s.add_argument("slug"); s.set_defaults(fn=cmd_resume)
     s = sub.add_parser("status"); s.add_argument("slug", nargs="?"); s.add_argument("--all", action="store_true")
-    s.set_defaults(fn=cmd_status)
+    s.add_argument("--trace", action="store_true", help="add each job's last trace line"); s.set_defaults(fn=cmd_status)
     s = sub.add_parser("close"); s.add_argument("slug")
     for f in ("done", "aligned", "unauthorized", "approvals"):
         s.add_argument(f"--{f}", required=True)

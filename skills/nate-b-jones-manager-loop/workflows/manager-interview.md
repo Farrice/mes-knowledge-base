@@ -34,9 +34,12 @@ first** section — those are the candidate questions, already tied to disk loca
    parts that don't apply", 22:59), add the approvals he named, note decisions already made.
 5. **Open the board.** `python3 execution/job_board.py open <slug> --recipe <recipe> --goal "<his
    outcome sentence>"`, then paste the filled card over `.agent/missions/<slug>/card.md`.
-6. **Confirm beat (the one alignment point).** Show the card's `The job` + lanes + `Comes back
-   when` in ≤10 lines. His nod, or "just do it", starts the loop. This replaces the INTENT BRIEF
-   for job-shaped work — never two briefs.
+6. **Confirm beat (the one alignment point) — physical since 2026-09-10.** `job_board.py open`
+   prints the JOB PLAN (goal · recipe + match verdict · lanes as "what I'll do" · questions ·
+   approvals) and writes `plan.md`; `next` prints PLAN PENDING until `job_board.py go <slug>`.
+   The reply of the opening turn is that plan plus the interview questions; the turn ends there.
+   His nod or edit → `go --note "<his words>"`; "just do it" in the ask → `open --go`. This
+   replaces the INTENT BRIEF for job-shaped work — never two briefs.
 
 ## Output Contract
 ```

@@ -136,6 +136,34 @@ def match(ask: str, top: int = 3) -> list[dict]:
     return scored[:top]
 
 
+# Match floor (2026-09-10 scar): the Coach Cooz job matched the Poppy card on a
+# score of 14 and ran Poppy lanes on a website audit. Calibrated on this library:
+# right matches score 13-28 and lead the runner-up 3x+ (triage 13/4, Poppy 28/5,
+# harvest 26/2, MyBPM 15/2) or sit high beside a true sibling (Jen weekly 20/12);
+# the wrong one scored 11-14 with a runner-up close behind (11/7, 14/10, 6/5).
+# A weak match is a forge signal, never a plan.
+MATCH_STRONG = 15      # at or above: confident on score alone
+MATCH_FLOOR = 10       # below: weak no matter what
+MATCH_MARGIN = 2.0     # between: confident only when the top leads the runner-up by this
+
+
+def verdict(rows: list[dict]) -> dict:
+    """{'confident': bool, 'reason': str, 'slug': top or None}."""
+    if not rows:
+        return {"confident": False, "reason": "no card scored", "slug": None}
+    top = rows[0]
+    second = rows[1]["score"] if len(rows) > 1 else 0
+    sc = top["score"]
+    if sc >= MATCH_STRONG:
+        return {"confident": True, "slug": top["slug"], "reason": f"score {sc} is at or above {MATCH_STRONG}"}
+    if sc < MATCH_FLOOR:
+        return {"confident": False, "slug": top["slug"], "reason": f"top score {sc} is under the floor {MATCH_FLOOR}"}
+    if second and sc < MATCH_MARGIN * second:
+        return {"confident": False, "slug": top["slug"],
+                "reason": f"top score {sc} does not lead the runner-up ({second}) by {MATCH_MARGIN:g}x"}
+    return {"confident": True, "slug": top["slug"], "reason": f"score {sc} leads the runner-up ({second}) by {MATCH_MARGIN:g}x+"}
+
+
 # ── lint ──────────────────────────────────────────────────────────────────
 def lint(slug: str) -> list[str]:
     errs = []
@@ -251,15 +279,21 @@ def cmd_show(a):
 
 def cmd_match(a):
     rows = match(a.ask, top=a.top)
+    v = verdict(rows)
     if a.json:
-        print(json.dumps(rows, indent=2))
+        print(json.dumps({"rows": rows, "verdict": v}, indent=2))
         return 0
     if not rows:
-        print("RECIPE MATCH: none — forge one (recipe-card-forge) and save it to recipes/")
+        print("RECIPE MATCH: none — WEAK MATCH: forge one (recipe-card-forge) and save it to recipes/")
         return 0
     print("RECIPE MATCH (highest first):")
     for r in rows:
         print(f"  {r['slug']:<34} score={r['score']:<3} {r['family']:<17} {r['name']}")
+    if v["confident"]:
+        print(f"CONFIDENT MATCH — {v['slug']} ({v['reason']})")
+    else:
+        print(f"WEAK MATCH — {v['reason']}. Do not run {v['slug']}'s lanes on this ask: forge a card "
+              f"(recipe-card-forge), save it to recipes/, and show it in the JOB PLAN.")
     return 0
 
 

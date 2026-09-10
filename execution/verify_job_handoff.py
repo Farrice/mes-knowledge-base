@@ -11,6 +11,14 @@ Covers (2026-09-09, verification-spine rule — every new check fires both ways)
   3. Stop observer: a transcript ending with runnable lanes and no DECISION PACKET
      logs `job-turn-ended-unblocked`; with all lanes blocked it logs nothing.
   4. Portable packet carries every open lane and packet.
+  5. (2026-09-10, Coach Cooz scar) Plan beat: `open` prints a JOB PLAN and writes
+     plan.md; `next` holds at PLAN PENDING until `go`; `open --go` skips the beat;
+     a pre-plan job (no key) is not held. Trace: lane closes and `log` lines land
+     in trace.md; `trace` prints them; `--brief` counts a pending plan. Match floor:
+     the Cooz ask is WEAK, the triage ask is CONFIDENT. Hook cards carry the plan
+     beat and LANE RECEIPT on both harnesses. Stop observer logs job-plan-not-shown
+     when a pending plan's turn ended without the JOB PLAN block, nothing when the
+     block was in the reply.
 
 Pinned expectations are hardcoded here, never read from the artifact under test.
 Telemetry the hook writes is snapshotted and restored. Exit 0 pass, 1 fail.
@@ -39,6 +47,14 @@ PIN_CODEX = "single seat"
 PIN_END = "MAY END"
 PIN_CONTINUE = "TURN MUST CONTINUE"
 PIN_EVENT = "job-turn-ended-unblocked"
+PIN_PLAN = "JOB PLAN"
+PIN_PENDING = "PLAN PENDING"
+PIN_RECEIPT = "LANE RECEIPT"
+PIN_PLAN_EVENT = "job-plan-not-shown"
+RECIPES = REPO / "execution" / "recipe_cards.py"
+COOZ_ASK = ("Recover voice memo, measure current site output, design premium mobile-ready preview, "
+            "build Brent referral proposal")
+TRIAGE_ASK = "triage the 54 open missions: finish, park, or kill each"
 
 JOB = ("I want you to take this whole thing and handle it end to end. Watch the video, extract the concepts "
        "into a skill, then wire it into the harness and Codex so it fires from the hook, then write the recipe "
@@ -133,9 +149,14 @@ def main():
         check("claude job-shaped → no INTENT BRIEF card", PIN_BRIEF not in out)
         check("claude job-shaped → no fresh-pen card", not any(p in out for p in PIN_PEN))
         check("claude job-shaped → card names MAY END", PIN_END in out)
+        check("claude card carries the plan beat (JOB PLAN + go)", PIN_PLAN in out and "job_board.py go" in out)
+        check("claude card carries LANE RECEIPT + --did", PIN_RECEIPT in out and "--did" in out)
+        check("claude card names the WEAK MATCH rule", "WEAK MATCH" in out)
         out_c = fire(JOB, codex=True)
         check("codex job-shaped → MODE JOB-HANDOFF single seat", PIN_MODE in out_c and PIN_CODEX in out_c, out_c[:200])
         check("codex job-shaped → no PEN (Codex) card", "PEN (Codex)" not in out_c)
+        check("codex card carries the plan beat + LANE RECEIPT", PIN_PLAN in out_c and PIN_RECEIPT in out_c
+              and "job_board.py go" in out_c)
         check("near-miss (no delegation verb) → no job card", PIN_MODE not in fire(NEG_NO_VERB))
         check("reflective dump → no job card", PIN_MODE not in fire(NEG_DUMP))
         check("slash prompt → no job card", PIN_MODE not in fire("/go " + JOB))
@@ -201,6 +222,69 @@ def main():
             rc, out = board(["next", "j-done"], root)
             check("all terminal → MAY END (close it)", out.startswith(PIN_END) and "close" in out, out[:160])
 
+            print("== plan beat + trace (2026-09-10)")
+            check("pre-plan job (no plan key) is not held", PIN_PENDING not in board(["next", "j-open"], root)[1])
+            rc, out = board(["open", "j-plan", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK], root)
+            check("open prints a JOB PLAN", rc == 0 and PIN_PLAN in out and "What I'll do" in out, out[:200])
+            check("open's plan names the match verdict", "CONFIDENT match" in out, out[:200])
+            check("open ends at PLAN PENDING, not TURN MUST CONTINUE", PIN_PENDING in out and PIN_CONTINUE not in out)
+            pp = root / ".agent" / "missions" / "j-plan" / "plan.md"
+            check("plan.md written", pp.exists() and PIN_PLAN in pp.read_text())
+            rc, out = board(["next", "j-plan"], root)
+            check("next holds at PLAN PENDING before go", out.startswith(PIN_PENDING), out[:160])
+            rc, out = board(["--brief"], root)
+            check("--brief counts the plan waiting for his go", "plan(s) waiting for your go" in out, out[:160])
+            rc, out = board(["status", "--all"], root)
+            check("status flags PLAN PENDING", "PLAN PENDING" in out, out[:200])
+            rc, out = board(["go", "j-plan", "--note", "go — skip Notion"], root)
+            check("go releases the lanes → TURN MUST CONTINUE", PIN_CONTINUE in out, out[:160])
+            dec = (root / ".agent" / "missions" / "j-plan" / "decisions.md").read_text()
+            check("go records his words in decisions.md", "Plan confirmed" in dec and "skip Notion" in dec)
+            rc, out = board(["lane", "j-plan", "L1", "--status", "complete", "--did",
+                             "read the board; found 3 stale; skipped 1", "--evidence", "x.md"], root)
+            check("lane close prints a LANE RECEIPT with did + evidence",
+                  PIN_RECEIPT in out and "found 3 stale" in out and "x.md" in out, out[:200])
+            rc, out = board(["lane", "j-plan", "L2", "--status", "complete"], root)
+            check("lane close without --did nudges (never blocks)", rc == 0 and "no --did" in out, out[:200])
+            rc, out = board(["log", "j-plan", "L3", "oldest mission is 41d", "--kind", "found"], root)
+            check("log appends a trace line", rc == 0 and "· found ·" in out, out[:160])
+            tp = root / ".agent" / "missions" / "j-plan" / "trace.md"
+            tt = tp.read_text() if tp.exists() else ""
+            check("trace.md holds open, go, lane close and log lines",
+                  all(k in tt for k in ("· opened ·", "· go ·", "found 3 stale", "oldest mission is 41d")), tt[:300])
+            rc, out = board(["trace", "j-plan", "--last", "2"], root)
+            check("trace --last 2 prints the two newest lines",
+                  "oldest mission is 41d" in out and "found 3 stale" not in out, out[:300])
+            rc, out = board(["status", "--all", "--trace"], root)
+            check("status --trace shows each job's last line", "last:" in out, out[:300])
+            rc, out = board(["open", "j-go", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--go"], root)
+            check("open --go skips the beat → TURN MUST CONTINUE", PIN_CONTINUE in out and PIN_PENDING not in out, out[-200:])
+            rc, out = board(["open", "j-hand", "--recipe", "mission-backlog-triage", "--goal", COOZ_ASK], root)
+            check("open with a hand-picked recipe says so in the plan", "chosen by hand" in out, out[:300])
+            rc, out = board(["handoff", "j-plan", "--to", "chat"], root)
+            ptxt = (root / ".agent" / "missions" / "j-plan" / "portable.md").read_text()
+            check("portable packet carries the trace tail", "## Trace" in ptxt and "found 3 stale" in ptxt)
+
+            print("== match floor")
+            # the pinned calibration (the Cooz ask itself now has its own card, so the
+            # scar is pinned as the score shapes it produced, not as a live library query)
+            vcode = ("import sys; sys.path.insert(0, r'%s'); import recipe_cards as rc\n"
+                     "rows = lambda a, b: [{'slug': 'x', 'score': a}, {'slug': 'y', 'score': b}]\n"
+                     "print(rc.verdict(rows(11, 7))['confident'], rc.verdict(rows(14, 10))['confident'], "
+                     "rc.verdict(rows(6, 5))['confident'], rc.verdict(rows(13, 4))['confident'], "
+                     "rc.verdict(rows(20, 12))['confident'], rc.verdict(rows(15, 2))['confident'], "
+                     "rc.verdict([])['confident'])") % str(REPO / "execution")
+            r = subprocess.run([sys.executable, "-c", vcode], capture_output=True, text=True, cwd=str(REPO))
+            check("verdict pins the scar: 11/7, 14/10, 6/5 WEAK; 13/4, 20/12, 15/2 CONFIDENT; empty WEAK",
+                  r.stdout.split() == ["False", "False", "False", "True", "True", "True", "False"], (r.stdout + r.stderr)[:200])
+            r = subprocess.run([sys.executable, str(RECIPES), "match", COOZ_ASK], capture_output=True, text=True, cwd=str(REPO))
+            check("Cooz ask now lands on its own forged card, CONFIDENT",
+                  "CONFIDENT MATCH" in r.stdout and "client-site-authority-and-referral-deal" in r.stdout, r.stdout[-200:])
+            r = subprocess.run([sys.executable, str(RECIPES), "match", TRIAGE_ASK], capture_output=True, text=True, cwd=str(REPO))
+            check("triage ask → CONFIDENT MATCH", "CONFIDENT MATCH" in r.stdout and "mission-backlog-triage" in r.stdout, r.stdout[-200:])
+            r = subprocess.run([sys.executable, str(RECIPES), "match", "xyzzy plugh"], capture_output=True, text=True, cwd=str(REPO))
+            check("nonsense ask → WEAK MATCH, no card run", "WEAK MATCH" in r.stdout, r.stdout[-200:])
+
             print("== stop observer")
             obs = REPO / ".agent" / "sessions" / "steering-observe.jsonl"
 
@@ -243,6 +327,35 @@ def main():
                     capture_output=True, text=True, env=env, cwd=str(REPO), timeout=60)
                 after2 = count_tmp_events()
                 check("all lanes blocked → nothing logged", after2 == after, f"after={after} after2={after2}")
+
+                def count_plan_events():
+                    if not obs.exists():
+                        return 0
+                    return sum(1 for ln in obs.read_text().splitlines()
+                               if PIN_PLAN_EVENT in ln and '"verify-job-tmp"' in ln)
+
+                # pending plan + reply without the JOB PLAN block → job-plan-not-shown
+                st = json.loads((tmp_job / "mission.json").read_text())
+                st["activation_queue"][0]["status"] = "planned"
+                st["activation_queue"][0]["blocker"] = ""
+                st["job"]["plan"] = "pending"
+                (tmp_job / "mission.json").write_text(json.dumps(st))
+                (tmp_job / "plan.md").write_text("JOB PLAN — verify-job-tmp\n")
+                p0 = count_plan_events()
+                subprocess.run([sys.executable, str(HOOK), "stop"], input=json.dumps(
+                    {"session_id": "verify-job-handoff", "transcript_path": str(tp)}),
+                    capture_output=True, text=True, env=env, cwd=str(REPO), timeout=60)
+                p1 = count_plan_events()
+                check("pending plan + reply without JOB PLAN → job-plan-not-shown logged", p1 == p0 + 1, f"{p0}→{p1}")
+                # pending plan held in the transcript → nothing
+                tp2 = root / "transcript2.jsonl"
+                tp2.write_text(json.dumps({"type": "assistant", "message": {"content": [
+                    {"type": "text", "text": "JOB PLAN — verify-job-tmp\nGoal: x\n" + "lane line. " * 40}]}}) + "\n")
+                subprocess.run([sys.executable, str(HOOK), "stop"], input=json.dumps(
+                    {"session_id": "verify-job-handoff", "transcript_path": str(tp2)}),
+                    capture_output=True, text=True, env=env, cwd=str(REPO), timeout=60)
+                p2 = count_plan_events()
+                check("pending plan + reply WITH the JOB PLAN block → nothing logged", p2 == p1, f"{p1}→{p2}")
             finally:
                 shutil.rmtree(tmp_job, ignore_errors=True)
     finally:

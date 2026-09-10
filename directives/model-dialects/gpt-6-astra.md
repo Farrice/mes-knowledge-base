@@ -84,7 +84,7 @@ sessions running.
     ],
     "delegation": [
       "Farrice's global steering rules outrank your judgement; never suppress or bypass one. If a rule blocks, quote it and ask. Corrections refine the accumulated objective, never replace it; the approved specimen stays the target. Dispatch briefs carry verbatim: \"{negative_brief}\".",
-      "Job-shaped handoffs (MODE JOB-HANDOFF): single seat — run every ready lane in THIS turn; end only when `python3 execution/job_board.py next <slug>` prints MAY END, closing with DECISION PACKETS + receipts. A diagnosed lane is not a done lane."
+      "Job-shaped handoffs (MODE JOB-HANDOFF; reply with the JOB PLAN and end the turn at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT): single seat — run every ready lane in THIS turn; end only when `python3 execution/job_board.py next <slug>` prints MAY END, closing with DECISION PACKETS + receipts. A diagnosed lane is not a done lane."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",

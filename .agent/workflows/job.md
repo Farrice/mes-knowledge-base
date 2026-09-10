@@ -34,19 +34,30 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
    `python3 execution/recipe_cards.py match "<ask>"` and `python3 execution/job_board.py status --all`
    first; an open job or mission that matches is continued, never recompiled.
    TASK → route direct (`/go` or the named workflow), no board. DECISION → one packet, no lanes.
-2. **Recipe** — match, or forge one from the workflows that already run the job
-   (`recipe-card-forge.md`); save to `recipes/` so the next run matches.
+2. **Recipe** — `recipe_cards.py match` prints CONFIDENT MATCH or WEAK MATCH. **A weak match
+   is a forge signal, never a plan**: forge a card from the workflows that already run the job
+   (`recipe-card-forge.md`), save it to `recipes/`, and the plan beat shows it. Never run a
+   matched card's lanes on an ask they were not written for.
 3. **Interview once** — `manager-interview.md`: disk-first, ≤5 questions, only what changes
    execution. Then `python3 execution/job_board.py open <slug> --recipe <recipe> --goal "<his
    outcome sentence>"` and paste the filled card over `.agent/missions/<slug>/card.md`.
-   The ten-line confirm beat is the one alignment point; his nod or "just do it" starts the loop.
-   This card IS the brief — never a second INTENT BRIEF, never a fresh-pen dispatch.
+   **`open` prints a JOB PLAN and writes `plan.md`. The opening turn's reply IS that plan**
+   (goal · recipe + match verdict · every lane as "what I'll do" · the questions · approvals) and
+   the turn ends there — `next` prints PLAN PENDING until his nod. His "go" (or any edit) →
+   `python3 execution/job_board.py go <slug> --note "<his words>"`, then the loop. `open --go`
+   only when he said "just do it" in the ask. This card IS the brief — never a second INTENT
+   BRIEF, never a fresh-pen dispatch. (Scar 2026-09-10: Coach Cooz ran the Poppy card's lanes
+   with no plan shown and no interview — "it just does things".)
 4. **Run** — `manager-loop-run.md`, every cycle: `job_board.py next` → dispatch all runnable
    lanes (writes = you, serial; read-only lanes = background Sonnet seats on Claude Code; Codex =
-   in order, this turn) → close lanes with evidence paths → breakage per the card's row →
-   approvals become packets → `job_board.py checkpoint <slug>` at turn end.
-   **End the turn only when `job_board.py next <slug>` prints MAY END.** The reply is packets +
-   receipts + one progress line.
+   in order, this turn) → close every lane with `job_board.py lane <slug> <id> --status … --did
+   "what was done / found / skipped" --evidence <path>` and **echo its LANE RECEIPT line in the
+   reply** → `job_board.py log <slug> <lane> "…" --kind found|skipped` for anything he should be
+   able to read later → breakage per the card's row → approvals become packets →
+   `job_board.py checkpoint <slug>` at turn end.
+   **End the turn only when `job_board.py next <slug>` prints MAY END.** The reply is receipts +
+   packets + one progress line; the trace (`job_board.py trace <slug>`) is how he sees what was
+   covered and what was not.
 5. **Answers** — when he answers a packet in chat, `job_board.py packet <slug> answer <n>
    "<his words>"`, unblock the lane, continue.
 6. **Closeout** — `job-closeout.md` → `job_board.py close …`; last line verbatim
@@ -55,8 +66,8 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
 
 ## Harness rules
 
-- **Disk is the only truth.** `.agent/missions/<slug>/{card.md, mission.json, decisions.md,
-  portable.md}`. `/job resume <slug>` on either harness reloads from disk, never from a transcript.
+- **Disk is the only truth.** `.agent/missions/<slug>/{card.md, plan.md, trace.md, mission.json,
+  decisions.md, portable.md}`. `/job resume <slug>` on either harness reloads from disk, never from a transcript.
 - **Alone or together.** Fable usage out mid-job → `job_board.py handoff <slug> --to codex`, open
   Codex, `/job resume <slug>`. Reverse identical. `--to chat` = a paste-anywhere packet for ChatGPT
   / claude.ai; results come back as `LANE <id> RESULT` blocks he files with `job_board.py lane`.
