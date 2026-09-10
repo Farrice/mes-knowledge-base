@@ -903,3 +903,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep
 - `[2026-09-09 17:55]` **finalize** | Import list: 36 Scrapes Skill Systems read on 8 dimensions vs our spine; 8 ranked structural imports | general | none — composite:6.33 status:Needs Improvement
 - `[2026-09-09 19:07]` **finalize** | Import #1 built and proven: run_log.py (receipt/manifest/check), build_weeks writes run.yaml + reel  | general | none — composite:6.67 status:Needs Improvement
+- `[2026-09-09 19:58]` **finalize** | Manager loop + recipe cards: /job front door, job_board.py MAY END turn-end rule, recipes/ library,  | general | Nate B Jones — composite:6.67 status:Needs Improvement
