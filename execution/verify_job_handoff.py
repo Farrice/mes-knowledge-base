@@ -40,7 +40,10 @@ TELEMETRY = [
     REPO / ".agent" / "sessions" / "steering-observe.jsonl",
     REPO / ".agent" / "active-model.json",
 ]
-PIN_MODE = "MODE JOB-HANDOFF"
+# the mode LINE, not the bare phrase: the dialect card may mention the mode by name
+# on every prompt (main-only blind spot found 2026-09-10 — the lane had no
+# active-model.json, so no dialect card, so 31/31 there and 3 FAILs on main)
+PIN_MODE = "MODE JOB-HANDOFF (say"
 PIN_BRIEF = "📋 INTENT BRIEF"
 PIN_PEN = ("FRESH PEN", "PEN (Codex)")
 PIN_CODEX = "single seat"
@@ -143,7 +146,16 @@ def lane(i, status, after=None, blocker=""):
 def main():
     snap = snapshot()
     try:
+        # make the lane look like main: the dialect injector only fires when
+        # .agent/active-model.json exists (restored from the snapshot at the end)
+        am = REPO / ".agent" / "active-model.json"
+        if not am.exists():
+            am.parent.mkdir(parents=True, exist_ok=True)
+            am.write_text(json.dumps({"model": "claude-fable-5-1", "ts": "2026-09-10T00:00:00"}))
         print("== hook fire path")
+        probe = fire(NEG_NO_VERB)
+        check("dialect card is injected during this run (main-like conditions)", "MODEL DIALECT" in probe, probe[:160])
+        check("dialect card never carries the bare mode marker", "MODE JOB-HANDOFF" not in probe.replace(PIN_MODE, ""), probe[:300])
         out = fire(JOB)
         check("claude job-shaped → MODE JOB-HANDOFF", PIN_MODE in out, out[:200])
         check("claude job-shaped → no INTENT BRIEF card", PIN_BRIEF not in out)
@@ -284,6 +296,18 @@ def main():
             check("triage ask → CONFIDENT MATCH", "CONFIDENT MATCH" in r.stdout and "mission-backlog-triage" in r.stdout, r.stdout[-200:])
             r = subprocess.run([sys.executable, str(RECIPES), "match", "xyzzy plugh"], capture_output=True, text=True, cwd=str(REPO))
             check("nonsense ask → WEAK MATCH, no card run", "WEAK MATCH" in r.stdout, r.stdout[-200:])
+            # recipe lint sabotage: "[after L3]" without the colon silently parallelises a lane
+            bad = REPO / "recipes" / "zz-verify-bad-after.md"
+            good = (REPO / "recipes" / "mission-backlog-triage.md").read_text()
+            try:
+                bad.write_text(good.replace("job: mission-backlog-triage", "job: zz-verify-bad-after", 1)
+                               .replace("[after: L1]", "[after L1]", 1))
+                r = subprocess.run([sys.executable, str(RECIPES), "lint", "zz-verify-bad-after"], capture_output=True, text=True, cwd=str(REPO))
+                check("recipe lint catches '[after L1]' without the colon", r.returncode == 1 and "without the colon" in r.stdout, r.stdout[-200:])
+            finally:
+                bad.unlink(missing_ok=True)
+            r = subprocess.run([sys.executable, str(RECIPES), "lint"], capture_output=True, text=True, cwd=str(REPO))
+            check("recipe library lints clean", r.returncode == 0, r.stdout[-200:])
 
             print("== stop observer")
             obs = REPO / ".agent" / "sessions" / "steering-observe.jsonl"

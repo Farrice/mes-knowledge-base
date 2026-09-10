@@ -191,6 +191,10 @@ def lint(slug: str) -> list[str]:
         for a in l["after"]:
             if a not in ids:
                 errs.append(f"{slug}: lane {l['id']} depends on unknown lane {a}")
+        # 2026-09-10: "[after L3]" (no colon) parses as plain text — the lane silently
+        # becomes parallel and the board runs everything at once. Catch it here.
+        if re.search(r"\[after\s+L\d", l["desc"]):
+            errs.append(f"{slug}: lane {l['id']} has '[after L…]' without the colon — write '[after: L…]'")
     body = p.read_text(encoding="utf-8")
     if len(body.splitlines()) > 140:
         errs.append(f"{slug}: {len(body.splitlines())} lines — a card fits on one page (≤140)")
