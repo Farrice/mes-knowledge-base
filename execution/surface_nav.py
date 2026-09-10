@@ -37,6 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HOME_BASES = {
     "homebase": ("🏠 homebase",      ROOT / ".agent" / "homebase" / "homebase.html"),
     "brain":   ("🧠 brain",          ROOT / ".agent" / "brain" / "brain.html"),
+    "canvas":  ("🗂 canvas",         ROOT / ".agent" / "canvas" / "canvas.html"),
     "library": ("🏛 library",       ROOT / ".agent" / "catalog" / "library.html"),
     "briefs":  ("📋 briefing room",  ROOT / "deliverables" / "research-briefs" / "index.html"),
     "assets":  ("🎨 asset board",    ROOT / ".agent" / "assets" / "assets-board.html"),
@@ -52,6 +53,7 @@ HOME_BASES = {
 ROUTES = {
     "homebase": "/",
     "brain": "/brain",
+    "canvas": "/canvas",
     "library": "/library",
     "briefs": "/room",
     "assets": "/assets",

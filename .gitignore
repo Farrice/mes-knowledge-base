@@ -236,3 +236,6 @@ _active/video-studio/hyperframes-studio/
 .agent/logs/stranded-restore.log
 .agent/gemini-api-usage-archive/
 .agent/health/main-drift-absorb.json
+
+# canvas boards + ingestion cache (2026-09-10): user data, transcripts — never committed
+.agent/canvas/
