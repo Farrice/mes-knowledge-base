@@ -5,3 +5,17 @@
 {"ts": "2026-08-29T16:36:22Z", "file": "/tmp/slide-copy.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-08-29T16:45:36Z", "file": "/tmp/slide-copy-v2.txt", "verdict": "PASS", "findings": []}
 {"ts": "2026-09-01T14:10:30Z", "file": "_active/clients/jen-team-pilot/COWORK-CREATIVE-BRIEF.md", "verdict": "FAIL", "findings": [{"rule": "safety-code-words", "severity": "fail", "match": "low-crime", "line_no": 90, "why": "'Safe'/'low crime' is documented code language for racial steering \u2014 HARD ban regardless of intent.", "fix_hint": "Cut it. Point to verifiable location facts (cul-de-sac, gated entry as a feature, HOA) if relevant."}]}
+{"ts": "2026-09-01T21:17:26Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-A.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:17:37Z", "file": ".tmp-carousel-copy.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:17:54Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-A.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:19:00Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-B.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:19:59Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-B.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:20:11Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-A.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:20:11Z", "file": "_active/clients/gigi-mironova/engine/SCRIPT-PACK-B.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:21:44Z", "file": "_active/clients/gigi-mironova/engine/SEND-PACKAGE.md", "verdict": "PASS", "findings": [{"rule": "absolute-environment-claims", "severity": "warn", "match": "quiet neighborhood", "line_no": 108, "why": "Unverifiable environment absolute stated as fact ('quiet cul-de-sac' is a location fact \u2014 not flagged).", "fix_hint": "Anchor to a verifiable feature (end of a cul-de-sac, double-pane windows) or soften to observation."}]}
+{"ts": "2026-09-01T21:59:04Z", "file": "_active/clients/gigi-mironova/engine/cal/SCRIPT-PACK-CAL.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T21:59:04Z", "file": "_active/clients/gigi-mironova/engine/cal/SEND-124.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T22:01:13Z", "file": "_active/clients/gigi-mironova/engine/cal/SCRIPT-PACK-CAL.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T22:01:17Z", "file": "_active/clients/gigi-mironova/engine/cal/SEND-124.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T22:16:40Z", "file": ".tmp/gigi-cal-copy.md", "verdict": "PASS", "findings": []}
+{"ts": "2026-09-01T22:21:57Z", "file": "_active/clients/gigi-mironova/engine/cal/SEND-124.md", "verdict": "PASS", "findings": []}
