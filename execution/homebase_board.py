@@ -741,6 +741,7 @@ def micro_apps():
     dual-mode pattern as everywhere else (file:// href + data-route)."""
     apps = [
         ("🧠", "second brain", ".agent/brain/brain.html", "/brain", "workspace graph"),
+        ("🗂", "canvas", ".agent/canvas/canvas.html", "/canvas", "sources → chat, wired"),
         ("🎛", "intelligence", "_active/farrice-brand/intelligence/index.html",
          "/intelligence", "farrice intel layer"),
         ("🏛", "library", ".agent/catalog/library.html", "/library", "permanent catalog"),

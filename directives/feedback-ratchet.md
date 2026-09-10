@@ -141,8 +141,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-09 (chain_runner finalize for nate-b-jones-manager-loop) |
-| **Last Activated** | 2026-09-09 (chain_runner finalize for nate-b-jones-manager-loop) |
+| **Last Activated** | 2026-09-10 (chain_runner finalize for none) |
+| **Last Activated** | 2026-09-10 (chain_runner finalize for none) |
 | **Activation Count** | 930 |
 
 **Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.
