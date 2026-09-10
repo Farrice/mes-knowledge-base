@@ -32,9 +32,9 @@ The LIFT System is Satori's acronym and sequenced audit pattern over four canoni
 
 ---
 
-## I — Eye Choreography (Internal Rhythm)
+## I — Internal Rhythm (Eye Choreography)
 
-**Definition**: The journey from leverage point through supporting elements is choreographed, not accidental. Predictable spacing builds trust; deliberate disruption re-engages attention.
+**Definition**: Spacing, alignment, and contrast establish a trusted rhythm; eye choreography is the mechanism that carries the viewer from the leverage point through supporting elements. Predictable spacing builds trust; deliberate disruption re-engages attention.
 
 ### Components
 - **Predictable spacing** — consistent margins/gutters relax the brain

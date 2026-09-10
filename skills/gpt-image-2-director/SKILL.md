@@ -18,6 +18,10 @@ GPT Image 2.0's actual strengths drive how its prompts should be written. Know t
 
 Your prompts should lean into the strengths: information density, layout precision, text, and design systems.
 
+## Composition Inheritance
+
+Before writing Format A or Format C for a taste-bearing multi-element design, run or inherit `/satori-composition-brief`. Translate its leverage point, internal rhythm/eye path, grid commitment, movement, friction budget, and transfer adaptations into the prompt's actual layout fields. Do not let structured JSON invent a generic composition merely because it can place many objects precisely. Format B single-scene images may skip this layer unless their arrangement or multi-format adaptation is itself the design problem.
+
 ## Three prompt formats
 
 Pick one based on the user's concept. If the concept fits multiple, pick the one best suited to the subject — don't hedge.
