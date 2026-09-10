@@ -2,7 +2,9 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-09-03 · creative-proof-note-evidence-to-emotion · Public-source creative briefs were accurate and visually strong but stopped at reporting, producing generic hooks and safe scripts; the workflow needed an evidence-to-meaning pass, bounded copy specialists, and a client-versus-paid boundary.
 - 2026-09-02 · five-reference-jen-design-systems · turn five visually distinct social reference packs into repeatable Jen design systems without flattening them into one brand template
+- 2026-09-02 · 2026-09-02-one-page-system-readout-beats-markdown · 
 - 2026-09-02 · social-content-studio-failed-promotion-postmortem · A source-grounded content command passes structural checks but adds little unique value, crosses its owner's authorship boundary, and produces generic pilot output.
 - 2026-09-01 · connected-mood-board-front-door-orchestrator · A mood-board front door exists, but generic brief routes outrank it and its text-only output never composes the reference, taste, visual-production, proving-surface, and downstream capabilities already built.
 - 2026-09-01 · story-engine-personal-proof · A source-forged story engine passed structural checks but its true personal range was obscured by constructed fixtures, one fragment-only commercial proof, and a failed post-extraction style experiment.
