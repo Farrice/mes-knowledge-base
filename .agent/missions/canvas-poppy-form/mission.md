@@ -6,7 +6,7 @@
 - Status: active
 - Goal: Make /canvas look, feel and operate like Poppy so Farrice actually uses it: rail, thumbnail cards, profile card, chat panel with conversations + fullscreen, rendered replies with copy; every control proven in the browser, then landed on 8765
 - Created: 2026-09-10T16:23:45+00:00
-- Updated: 2026-09-10T16:26:25+00:00
+- Updated: 2026-09-10T16:47:02+00:00
 - Librarian: not_applicable
 
 ## Validation Contract
@@ -35,13 +35,13 @@
 | L4 | claude | Ingestion edges | complete | every input type the paid tool takes (YouTube, TikTok, IG, PDF, article, voice note, profile page) tried once; pass / fail / needs-vendor per row | profile card (YouTube channel / TikTok profile → latest N via yt-dlp, 4 posts in ~3 s; IG refused with a clear message), md renderer (tables, bold, lists, code blocks w/ copy, details), transcript expand, thumbnails via i.ytimg / favicon |  |  |  |
 | L5 | claude | Cost table | complete | keep vs build vs hybrid, monthly, with the marginal cost of one heavy session; build hours so far and remaining polish named | cost unchanged: $0 build spend beyond the plan; one Gemini test turn ≈ $0.001 |  |  |  |
 | L6 | claude | Verdict memo | complete | Do / Don't / Wrong-if in his words' plain register; what would reverse it | readout in chat; remaining polish listed (streaming impossible on plan; IG profile via vidIQ later) |  |  |  |
-| L7 | claude | Land it | blocked | merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval |  |  | merge parked: main dirty — needs `python3 execution/main_drift_absorb.py` (his), then `worktree_lane.py merge --lane worktree-poppy-canvas` + `launchctl kickstart -k gui/501/com.antigravity.pulse-serve` |  |
+| L7 | claude | Land it | complete | merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval | main clean (absorb: nothing to absorb); lane merged 6 commits / 19 files; launchctl kickstart pulse-serve; 8765 /canvas/jen-sfv 200 with rail + conversations + copy blocks present; 8766 stopped; lane torn down |  | merge parked: main dirty — needs `python3 execution/main_drift_absorb.py` (his), then `worktree_lane.py merge --lane worktree-poppy-canvas` + `launchctl kickstart -k gui/501/com.antigravity.pulse-serve` |  |
 
 ## Execution Receipt
 - Planned lanes: L1, L2, L3, L4, L5, L6, L7
-- Executed lanes: L1, L2, L3, L4, L5, L6
+- Executed lanes: L1, L2, L3, L4, L5, L6, L7
 - Skipped or blocked lanes: L7: merge parked: main dirty — needs `python3 execution/main_drift_absorb.py` (his), then `worktree_lane.py merge --lane worktree-poppy-canvas` + `launchctl kickstart -k gui/501/com.antigravity.pulse-serve`
-- Proof artifacts: lane server 8766 serves the Poppy-form page (curl 200); 8765 gets it on merge, spec = his Poppy board read in full: rail, thumbnail cards, profile card, chat panel w/ conversations + skill chip + fullscreen, dotted wires, zoom rail, rendered replies w/ copy (.agent/missions/poppy-canvas-verdict/jen-poppy-thread-raw.md), browser test in the Claude Browser pane: + new conversation, new chat, note, fullscreen, theme, compose send → Gemini reply landed + markdown table rendered; server test canvas_ui_actions_test.py 19/19 actions ok incl. loop refusal, profile card (YouTube channel / TikTok profile → latest N via yt-dlp, 4 posts in ~3 s; IG refused with a clear message), md renderer (tables, bold, lists, code blocks w/ copy, details), transcript expand, thumbnails via i.ytimg / favicon, cost unchanged: $0 build spend beyond the plan; one Gemini test turn ≈ $0.001, readout in chat; remaining polish listed (streaming impossible on plan; IG profile via vidIQ later)
+- Proof artifacts: lane server 8766 serves the Poppy-form page (curl 200); 8765 gets it on merge, spec = his Poppy board read in full: rail, thumbnail cards, profile card, chat panel w/ conversations + skill chip + fullscreen, dotted wires, zoom rail, rendered replies w/ copy (.agent/missions/poppy-canvas-verdict/jen-poppy-thread-raw.md), browser test in the Claude Browser pane: + new conversation, new chat, note, fullscreen, theme, compose send → Gemini reply landed + markdown table rendered; server test canvas_ui_actions_test.py 19/19 actions ok incl. loop refusal, profile card (YouTube channel / TikTok profile → latest N via yt-dlp, 4 posts in ~3 s; IG refused with a clear message), md renderer (tables, bold, lists, code blocks w/ copy, details), transcript expand, thumbnails via i.ytimg / favicon, cost unchanged: $0 build spend beyond the plan; one Gemini test turn ≈ $0.001, readout in chat; remaining polish listed (streaming impossible on plan; IG profile via vidIQ later), main clean (absorb: nothing to absorb); lane merged 6 commits / 19 files; launchctl kickstart pulse-serve; 8765 /canvas/jen-sfv 200 with rail + conversations + copy blocks present; 8766 stopped; lane torn down
 - Validators run: [none]
 - Resume command: /mission resume canvas-poppy-form
 

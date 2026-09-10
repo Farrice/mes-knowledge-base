@@ -40,7 +40,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 EXEC = ROOT / "execution"
 CACHE_DIR = ROOT / ".agent" / "canvas" / "cache"
-PY = sys.executable or "python3"
+_VENV_PY = Path(__file__).resolve().parent.parent / ".venv" / "bin" / "python3"
+PY = str(_VENV_PY) if _VENV_PY.exists() else (sys.executable or "python3")  # deps live in the venv
 
 
 def _env() -> dict:
@@ -156,7 +157,12 @@ def _watch_free(source: str, key: str):
     tpath = out / "transcript.txt"
     if r.returncode != 0 or not tpath.exists():
         tail = (r.stderr or r.stdout or "")[-400:]
-        raise RuntimeError(f"watch_free failed: {tail.strip()}")
+        host = urlparse(source).netloc.lower()
+        if "tiktok.com" in host or "instagram.com" in host:
+            raise RuntimeError("TikTok and Instagram videos are login-walled for downloaders, so the words "
+                               "can't be pulled for free here. Use the profile card for the listing, or paste "
+                               "the caption/transcript as text. (vidIQ 'watch' can transcribe them for credits.)")
+        raise RuntimeError(f"video fetch failed: {tail.strip()[-200:]}")
     text = tpath.read_text(encoding="utf-8").strip()
     meta = {}
     mpath = out / "metadata.json"

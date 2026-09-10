@@ -96,14 +96,14 @@
         "L1"
       ],
       "blocker": "merge parked: main dirty \u2014 needs `python3 execution/main_drift_absorb.py` (his), then `worktree_lane.py merge --lane worktree-poppy-canvas` + `launchctl kickstart -k gui/501/com.antigravity.pulse-serve`",
-      "evidence_path": "",
+      "evidence_path": "main clean (absorb: nothing to absorb); lane merged 6 commits / 19 files; launchctl kickstart pulse-serve; 8765 /canvas/jen-sfv 200 with rail + conversations + copy blocks present; 8766 stopped; lane torn down",
       "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
       "id": "L7",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "blocked",
-      "updated_at": "2026-09-10T16:26:25+00:00",
+      "status": "complete",
+      "updated_at": "2026-09-10T16:47:02+00:00",
       "validation_assertion": "",
       "workflow": "Land it"
     }
@@ -124,7 +124,8 @@
       "L3",
       "L4",
       "L5",
-      "L6"
+      "L6",
+      "L7"
     ],
     "planned_lanes": [
       "L1",
@@ -141,7 +142,8 @@
       "browser test in the Claude Browser pane: + new conversation, new chat, note, fullscreen, theme, compose send \u2192 Gemini reply landed + markdown table rendered; server test canvas_ui_actions_test.py 19/19 actions ok incl. loop refusal",
       "profile card (YouTube channel / TikTok profile \u2192 latest N via yt-dlp, 4 posts in ~3 s; IG refused with a clear message), md renderer (tables, bold, lists, code blocks w/ copy, details), transcript expand, thumbnails via i.ytimg / favicon",
       "cost unchanged: $0 build spend beyond the plan; one Gemini test turn \u2248 $0.001",
-      "readout in chat; remaining polish listed (streaming impossible on plan; IG profile via vidIQ later)"
+      "readout in chat; remaining polish listed (streaming impossible on plan; IG profile via vidIQ later)",
+      "main clean (absorb: nothing to absorb); lane merged 6 commits / 19 files; launchctl kickstart pulse-serve; 8765 /canvas/jen-sfv 200 with rail + conversations + copy blocks present; 8766 stopped; lane torn down"
     ],
     "resume_command": "/mission resume canvas-poppy-form",
     "skipped_lanes": [
@@ -180,6 +182,6 @@
   },
   "slug": "canvas-poppy-form",
   "status": "active",
-  "updated_at": "2026-09-10T16:26:25+00:00",
+  "updated_at": "2026-09-10T16:47:02+00:00",
   "validation_assertions": []
 }
