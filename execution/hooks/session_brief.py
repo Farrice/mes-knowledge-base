@@ -38,6 +38,10 @@ CHILDREN = [
      "_active/linkedin/CAMPAIGN.md"),
     ("missions", [PY, str(ROOT / "execution" / "pulse_dashboard.py"), "--open", "--alarm"],
      "python3 execution/pulse_dashboard.py --open"),
+    # Manager-loop jobs (2026-09-09): the one line that keeps hands-off work
+    # visible — open jobs, lanes still runnable, decision packets waiting on him.
+    ("jobs", [PY, str(ROOT / "execution" / "job_board.py"), "--brief"],
+     "python3 execution/job_board.py status --all"),
     ("voice", [PY, str(ROOT / "execution" / "voice_ratchet.py"), "nudge"],
      "python3 execution/voice_ratchet.py nudge"),
     ("library", [PY, str(ROOT / "execution" / "work_catalog.py"), "nudge"],

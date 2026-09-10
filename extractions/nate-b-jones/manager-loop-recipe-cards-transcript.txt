@@ -1,0 +1,738 @@
+# Nate B Jones — "There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin."
+# Source: https://www.youtube.com/watch?v=ix8SsXjBc7M · 26:58 · YouTube original-English auto captions · pulled 2026-09-09
+# Expert: Nate B Jones | Transcribed by: YouTube captions (rolling duplicates collapsed)
+
+[00:00] Chad GPT6 code named Astra shipped.
+[00:03] Everybody had a video up right away. I
+[00:05] decided to spend a few days just handing
+[00:08] it work instead of making a video right
+[00:09] away because one, not everybody had
+[00:12] access to it. And two, I don't care what
+[00:16] Astra can build per se. I care whether
+[00:18] it actually lifts work off the desk.
+[00:20] Astra is the first model that makes me
+[00:22] look at that work and say, "Why am I
+[00:25] still doing this myself?" And so we're
+[00:27] going to walk through a real job in this
+[00:29] video. I'm going to show you how far
+[00:31] Astra got before it needed me, where I'm
+[00:34] still valuable, how I manage super
+[00:36] longrunning week-long tasks, and I'm
+[00:40] going to show you how you expand your
+[00:42] imagination from there. And this is what
+[00:43] really matters, how you think about the
+[00:45] jobs in your life that you can give to
+[00:48] Astra that you could never give to AI
+[00:49] before. So let let me give you an
+[00:51] example here. How much pain is there in
+[00:53] a household move? I actually did
+[00:54] research for this. There's over 20 hours
+[00:56] of pure administrative tasks in an
+[00:59] average move. And I I look at that and
+[01:01] I'm like, this is the first time we've
+[01:04] had an agent that can actually cover
+[01:06] that entire task list without you having
+[01:09] to prompt it along the way for every
+[01:11] single task. So, let's jump into it. All
+[01:13] of us move. In the United States, people
+[01:15] move on average every two years or less.
+[01:18] You have to find the right house. You
+[01:20] have to compare schools. You have to
+[01:22] find maybe a doctor, maybe a
+[01:23] pediatrician if you have kids. You have
+[01:25] to prepare for your DMV appointment if
+[01:27] you're going to a new state. You have to
+[01:28] change your utilities over. You have to
+[01:30] find records, fill out forms, chase all
+[01:32] those dates down. And there's
+[01:34] dependencies, right? There's some things
+[01:35] you have to update first and then other
+[01:36] stuff later. And somehow all of this has
+[01:39] to happen while you're actually moving
+[01:41] your entire life. So, what's interesting
+[01:44] here is OpenAI showed Astra doing
+[01:46] several pieces of exactly this kind of
+[01:49] work in their launch. They showed it
+[01:50] hunting for apartments. They showed it
+[01:52] comparing kindergarten options. They
+[01:54] showed it preparing a DMV appointment in
+[01:56] the pediatrician run they showed it
+[01:58] actually moved from Google Maps to the
+[02:00] practice website and filled in the
+[02:02] contact form. So it does pieces of this.
+[02:06] But what I think I love about the move
+[02:07] example is it helps me to give you a
+[02:10] visceral sense of how big this model can
+[02:13] be. Now don't misunderstand me. I'm not
+[02:16] saying that you can or should turn on
+[02:18] Astra say here's my credit card and just
+[02:21] let it move the family while you go to
+[02:23] sleep. No one is trying to say that. I
+[02:25] am not saying that here. But I am saying
+[02:29] that you can throw that scale of work at
+[02:32] Astra. You can actually throw it a move
+[02:34] if you're moving and it's going to make
+[02:36] a huge dent in the massive amount of
+[02:39] life administration work that goes with
+[02:42] a decision like that. And so the
+[02:43] question I want you to think about in
+[02:45] this video is as we walk through this
+[02:47] example, what is that kind of big work
+[02:50] that I can throw at this model? Because
+[02:53] your first port of call is it should be
+[02:55] now can Astra do this? Can I give this
+[02:58] to Astra? Do I have to do it or can
+[03:00] Astra do it? And I want you to think
+[03:01] about Astra as sort of like it it should
+[03:03] be a default. Astra should be something
+[03:04] where you can just lean in and say, you
+[03:06] know what, I'm going to I'm just going
+[03:07] to throw it at Astra and see if it can
+[03:08] do it. Now, there's a couple of
+[03:10] approaches here. If you already know
+[03:12] what you want, it's super easy to say,
+[03:15] you know what? I'm just going to throw a
+[03:17] contained part of this task, say finding
+[03:20] a doctor right at Astra. Check out the
+[03:22] doctors that I have near uh where I'm
+[03:24] going to live. Use their websites. I
+[03:27] don't want a random list someone posted
+[03:28] three years ago. Verify the addresses,
+[03:30] verify the emails, prepare all of that
+[03:32] for me to review and make a
+[03:34] recommendation. that is something that
+[03:36] is already within the realm of claude
+[03:38] models, of GLM models, of open AI
+[03:41] models. You define the task and they go
+[03:42] after it. You can do the same thing with
+[03:44] a number of other sections of the move,
+[03:46] right? You can tackle vehicles that way.
+[03:48] You can tackle uh government
+[03:49] appointments and and moving
+[03:51] appointments. So, those things are
+[03:52] already things where maybe you didn't
+[03:54] realize it, but the model in your pocket
+[03:56] can do it now, whether or not you have
+[03:58] chat GPT6. And the key to recognize with
+[04:00] that one is that that is sort of
+[04:02] taskshaped. You don't need a management
+[04:04] system for that. You don't need another
+[04:06] agent to check on that. You can give it
+[04:09] to Astra. You can probably give it to a
+[04:11] cheaper model and it'll get it done.
+[04:14] What's the difference? You might wonder.
+[04:15] Astra will do it faster. Astra will do
+[04:17] it at a higher degree of quality. This,
+[04:19] by the way, is where if you're checking
+[04:21] in on the Claude side of things, the
+[04:23] Claude Code comparison starts to matter.
+[04:26] So, think back if you've used Claude
+[04:28] code. Do you remember what changed in
+[04:31] December? It wasn't just that the model
+[04:34] could write better code. There was this
+[04:35] moment at the end of December where we
+[04:37] all realized that we went from, hey, it
+[04:41] can code a little piece of this and that
+[04:43] to, oh wow, I just ask it for something
+[04:46] and it goes. And Claude code just
+[04:48] exploded in December of last year and
+[04:50] into the spring. And before Claude Code,
+[04:53] most of us used an AI coding tool by
+[04:55] asking for pieces and we would write
+[04:57] prompts for that. Do you remember that?
+[04:58] Write this function, explain this error,
+[05:00] give me the code. It was very sort of
+[05:02] iterative clawed code working better
+[05:05] change the relationship that we have
+[05:07] with technology because you can give it
+[05:09] a job and it can move around inside the
+[05:11] environment technically until the job is
+[05:14] done the code is written. I think for
+[05:16] knowledge work what we are going through
+[05:19] this week and next week is that clawed
+[05:21] code moment. So to circle back to Astra
+[05:24] this is a claude code moment for
+[05:25] knowledge work. Up to now, most of us
+[05:28] have used AI for knowledge work in the
+[05:30] old way, right? The pre- December Claude
+[05:32] code way, like write me a moving
+[05:34] checklist. Compare these different
+[05:36] neighborhoods. Draft an email to the
+[05:40] school to ask about enrollment. And the
+[05:42] model will come back with an output and
+[05:43] I will evaluate it and I'll ask again
+[05:45] and I'll iterate and there's some
+[05:47] computer use in there and you can use a
+[05:49] variety of different models to get at
+[05:50] that. As I've been saying, you can use
+[05:51] GLM or cloud or or you can use OpenAI
+[05:54] and Codex. Astra changes that
+[05:57] relationship to work. I can give it a
+[06:00] piece of the actual outcome, the thing I
+[06:02] want done, a good chunk of it, and let
+[06:04] it jump across the gap between systems
+[06:07] it has to do to get that done. The
+[06:08] address can be in a doc, the practice
+[06:10] list can be in Google Maps. The current
+[06:12] patient information can be on 17
+[06:14] different websites. The deadline can be
+[06:16] in an email. Astra is able to use the
+[06:19] computer very quickly to move through
+[06:21] those places and to keep choosing what
+[06:24] to do next instead of stopping after
+[06:27] every answer and handing the job back to
+[06:29] me. The thing that changes daily life is
+[06:31] that you can give the model work that
+[06:33] eats time, that eats an hour, that eats
+[06:36] four hours, that eats your Saturday, and
+[06:38] the model can actually do that work and
+[06:41] finish it. It'll hit a bad website.
+[06:43] It'll try another route. It'll discover
+[06:45] that a doc is missing. It's going to
+[06:46] keep going on the parts that aren't
+[06:48] blocked. It can ask one question without
+[06:51] necessarily abandoning the other six
+[06:52] pieces because it has good memory. And
+[06:54] so this is just not going to feel like
+[06:56] driving a chatbot anymore. This is going
+[06:58] to feel like you are giving a team a
+[07:02] perspective and asking them to do a job
+[07:04] for you. You're it's like you have a
+[07:06] team of like super agents in your pocket
+[07:08] and you're like, "Hey, can you go take
+[07:10] care of this for me?" That's that's the
+[07:11] world we're living in. And so if I come
+[07:14] back to this whole move conversation,
+[07:17] what we're talking about is giving the
+[07:18] entire task to Astra and how you manage
+[07:21] that. And there are actually specific
+[07:23] techniques for that that we're going to
+[07:24] get into later in this video. So stay
+[07:26] tuned. This is where I'm going to tell
+[07:28] you how you actually get that big
+[07:29] outcome that I talked about at the top
+[07:31] of the video done. That the secret to
+[07:32] getting the full move done is agent
+[07:35] supervision. When I was playing with
+[07:37] Astra, that's what popped out to me. So,
+[07:39] if you want to get the whole move
+[07:41] planned out and you have to get housing,
+[07:42] you have to get a neighborhood search
+[07:43] and a doctor search and they're all
+[07:45] entangled and you want to find the right
+[07:46] combination, you have to compare utility
+[07:48] plans, you have to look at the DMV and
+[07:49] put a whole moving plan together. And if
+[07:52] the move date shifts, half the work
+[07:53] shifts with it, but the other half
+[07:55] doesn't, we have to be able to give the
+[07:59] agent an ongoing multi-dimensional
+[08:03] checklist that is too hard to explain in
+[08:06] a prompt. That's what I'm talking about
+[08:08] here. Astra is capable of working across
+[08:10] the whole thing, but we can't prompt it
+[08:13] because it's too hard to prompt. And
+[08:15] that's what makes it an absolute
+[08:16] monster. But the longer the agent run
+[08:19] gets, the more the pieces depend on one
+[08:21] another, the more the management of the
+[08:23] work becomes the work. Yeah, I do want
+[08:26] to move across the country, but it's
+[08:27] hard, right? And that's as far as we
+[08:29] get. And then we struggle with like,
+[08:30] okay, if I were to define this for an
+[08:31] agent, how do I even prompt? It's really
+[08:33] difficult. Nobody wants to sit down
+[08:34] before a household move and write an
+[08:37] approval matrix and a 14-part spec for
+[08:39] an AI. If we don't have that, if we
+[08:41] don't have that consistency and
+[08:43] confidence, what I find when I chat with
+[08:45] people is that they're like, I I don't
+[08:47] know that I can trust the agent to do
+[08:48] that. Why would I trust the agent to do
+[08:49] that? You have to have confidence to
+[08:52] give the agent a task. The agent is
+[08:55] hungry for a task. And therein lies the
+[08:57] gap. So the problem space really simply
+[08:59] is that these agents can now do work so
+[09:02] complicated we as humans have trouble
+[09:04] defining it in ways that they need. So
+[09:06] we need an agent to help us. We need an
+[09:08] agent to help us with management. What
+[09:09] does that look like? How do we get that
+[09:11] world into an agent? This is new for us
+[09:13] as people. It's a new skill. So I am
+[09:15] calling this technique the manager loop.
+[09:18] I have talked about manager loops before
+[09:20] and I've seen them work well in earlier
+[09:23] versions of models. It's a proven
+[09:25] technique where you have a complicated
+[09:27] task and you ask like your chief of
+[09:28] staff agent, which I have talked about
+[09:30] on this channel, and your chief of staff
+[09:32] agent manages agents for you. It has
+[09:34] worked well. Well, you can take that
+[09:37] same technique here with Astra to handle
+[09:39] even more complex work. I don't tell a
+[09:42] great project manager which website to
+[09:44] open or how to do a spreadsheet. I tell
+[09:47] them this is what I need to have done
+[09:50] and please come back when it's done. And
+[09:51] if you have questions, let me know. One
+[09:53] of the specific techniques I really want
+[09:55] to call out is this idea of agent
+[09:58] supervision. And that's a very
+[09:59] controversial thing. Some people just
+[10:01] want to have human supervised. I am of
+[10:02] the belief that there are going to be
+[10:05] enough agents out there doing enough
+[10:07] complex things that we have to have a
+[10:09] model of agent supervision that is
+[10:11] responsible because intelligence is
+[10:13] scaling so fast. And then we as humans
+[10:16] have to make sure we build that in a way
+[10:18] that ensures that the overall result and
+[10:21] outcome are trustworthy and good for us
+[10:23] as people. And that's not so crazy. You
+[10:25] don't have to have a separate app for
+[10:27] that. You can do that in codeex. You can
+[10:29] do that in chat gpt work. It will just
+[10:32] spin up a sub agent and get to work for
+[10:34] you. That is also Astra. It's not going
+[10:36] to be a problem. Matt Schumer actually
+[10:38] demonstrated this in a really fun way
+[10:39] when he showed a 3D model of Manhattan
+[10:42] on X that was highly highly detailed at
+[10:45] the street level and he used an Astro
+[10:48] management agent and an Astro execution
+[10:51] agent to get through the detail street
+[10:52] by street so that the model just didn't
+[10:55] burn out on him going through every
+[10:57] single street in Manhattan. And I I
+[11:00] think that's a good example, not because
+[11:01] the 3D model is useful for us on a daily
+[11:04] basis, but because it shows the degree
+[11:06] of complexity this model can take and
+[11:09] why it's important to have management to
+[11:11] keep you focused on the next task. So,
+[11:13] bring this back to the move. Let's say I
+[11:15] tell the manager agent, I need to move
+[11:18] my household to Seattle by June 1st, and
+[11:22] I don't want to lose a week of my life
+[11:24] in forms. The manager can then ask you
+[11:28] questions that change that job. Who's
+[11:30] moving? What can we spend? What kind of
+[11:33] home do we need? Which neighborhoods are
+[11:35] you thinking about? What are your
+[11:36] criteria for neighborhoods and moving?
+[11:38] Are schools involved? Doctors, vehicles,
+[11:41] pets? Which decisions have already been
+[11:43] made? Which accounts and documents can
+[11:45] the agents use? Where do I want them to
+[11:47] stop and come back to me? And I don't
+[11:50] have to think of all that up here in my
+[11:51] head, right? I can actually be
+[11:54] interviewed in a very human way and come
+[11:56] back with answers and then the manager
+[11:58] turns those answers into work for a
+[12:01] dedicated Astra execution agent. Housing
+[12:04] can start while it gathers the school
+[12:06] information. The doctor search can get
+[12:07] spun up using neighborhoods that uh you
+[12:11] know pass your first housing review. The
+[12:13] DMV prep can begin as soon as the
+[12:16] destination then and the vehicle details
+[12:18] are known and you have a move date and
+[12:19] you actually know that you're going to
+[12:20] be there and you have an address. The
+[12:22] overall Astra move manager can then keep
+[12:24] track of all of that. So you don't have
+[12:27] to sit there and run every piece by hand
+[12:29] and you have one agent to talk to, not
+[12:31] 15. And Astra can just chew through that
+[12:33] work. I actually like ran this with
+[12:34] Astra. I simulated a move. It can move
+[12:36] from the map to the practice website. It
+[12:39] can check the official DMV requirements.
+[12:41] It can carry the dates into the
+[12:43] calendar. It is doing all of the stuff
+[12:45] on your computer that you want to do but
+[12:49] fast, accurate, completely without
+[12:52] bothering you. And it gives you because
+[12:54] of this manager loop, one one agent to
+[12:57] talk to. And this is this is what makes
+[13:00] me confident that I can explain this to
+[13:02] my 5-year-old kid. I can say, "All you
+[13:05] have to do is tell this little agent in
+[13:07] the computer what you want. It can be as
+[13:08] hard as you want to do. Let that agent
+[13:11] ask you what it needs. let it give that
+[13:13] work to all of its worker agents and
+[13:16] then just see how it does, right? You
+[13:18] get to make the choices you want to
+[13:19] make. You get to be in charge. This is
+[13:21] much closer. This world we live in now,
+[13:24] this is closer to how we already work
+[13:26] with capable people. I approve the
+[13:28] important choices with a colleague and
+[13:30] then they work out how to run the job.
+[13:32] Astra makes that colleague relationship
+[13:34] feel really intuitive, but now you're
+[13:37] working with the computer and software.
+[13:39] And so the manager loop can turn one
+[13:42] very sort of highle sentence I want to
+[13:44] move to Seattle into a whole list of
+[13:46] jobs and then it can delegate that to
+[13:48] astro execution agents and reliably
+[13:51] drive it through. And so my experience
+[13:53] as a human is then can I just say what I
+[13:55] want in normal language? I'll answer a
+[13:57] few questions if you have them. I'll
+[13:59] approve your overall direction and then
+[14:01] I'm going to walk away. Astra is the
+[14:03] first super agent through the door.
+[14:04] There's a bunch that are coming. Fable
+[14:06] 5.1 is right on the edge of that. I know
+[14:08] Anthropic has more coming. The Chinese
+[14:10] models are coming, too. This is the
+[14:11] world we're going to live in, way beyond
+[14:13] chat GPT. And you might wonder, how is
+[14:15] this different from agents we've had
+[14:17] before, Nate? You've talked about agents
+[14:18] on this channel. Of course, we've had
+[14:20] agents before. I'm not pretending
+[14:22] nobody's ever built a longunning
+[14:23] workflow or nobody's ever managed
+[14:25] agents. But what's different here is the
+[14:28] breadth of the work, the length of time
+[14:31] the agent can focus and stay with it,
+[14:33] the number of tools it can move across,
+[14:35] the quality of decisions it can make
+[14:37] while the plan changes, and its ability
+[14:40] to go back and look at memory with high
+[14:42] fidelity and adjust. That is a new thing
+[14:45] that unlocks qualitatively new work. And
+[14:48] this is why Astra can change daily life.
+[14:50] Most of us don't want a digital employee
+[14:53] we have to manage all day. That feels
+[14:54] like work. Daily life is going to change
+[14:57] when a tool like Astra can actually just
+[15:00] take care of it for us. Think about why
+[15:02] we postpone work that feels like
+[15:03] drudgery, like taxes, like moving. It's
+[15:07] usually not because there's one
+[15:08] impossible question we can't face. It's
+[15:10] because our brains are facing a chain of
+[15:13] little decisions that are maybe hundreds
+[15:14] or thousands long and we can't order
+[15:16] them and they're spread across websites
+[15:17] and emails and attachments and calendars
+[15:19] and we're just exhausted. And the
+[15:21] exhausting part is that we have to hold
+[15:23] all of that in our head to get that work
+[15:25] done. Until now, we were the ones that
+[15:28] had to connect those dots. And even with
+[15:30] agents that were capable, we still had
+[15:32] to connect a lot of the dots. Astra can
+[15:35] do the work between the problem I give
+[15:38] it and the decisions that still belong
+[15:41] to me. And that is not a slightly better
+[15:43] chatbot. That is a different
+[15:45] relationship to computing. And this is
+[15:47] also where I get that big model smell
+[15:49] from Astra. It is a new pre-train. So it
+[15:51] makes sense. Astra can read between the
+[15:53] lines. Astra can follow a consequence
+[15:56] upstream. Astra can stay with a messy
+[15:59] problem before I have made all of the
+[16:01] edges neat for it. Right? I don't have
+[16:02] to define the edges. Astra can kind of
+[16:04] like dig in. Astra can take something
+[16:06] that is a little ambiguous, a little bit
+[16:08] human, a little bit incomplete, and just
+[16:10] chew on it like a dog with a bone and go
+[16:12] after until it gets it done. That's the
+[16:13] big model smell I'm referring to where
+[16:16] where the method can change, the
+[16:17] memories can update, the goal even can
+[16:19] evolve, and Astra is able to kind of
+[16:21] keep that job intact and keep rolling
+[16:24] forward. You feel it over time, right?
+[16:27] Because the work is so messy. It's sort
+[16:29] of human scale and the model is able to
+[16:32] take your thinking and your stress and
+[16:34] like help you actually solve it. Now,
+[16:36] Astra is not the only one that can read
+[16:37] between the lines. I called out actually
+[16:39] that Fable 5.1 is very very good at
+[16:41] that. Astra can feel a little bit more
+[16:44] literal at the beginning. And so if I
+[16:47] were looking for what can help me like
+[16:50] really wrestle with a problem and think
+[16:52] it through when I don't have a goal, I
+[16:54] would still go to Fable to kind of like
+[16:55] chew on that and then I would kick it
+[16:57] over to Astra when it's a little more
+[16:58] defined. But Astra gives me a sense of
+[17:02] how to take a massive amount of context.
+[17:04] So much of what I've been talking about
+[17:06] in this video is a massive amount of
+[17:07] context. The facts are changing. It's
+[17:09] hard to make sense of. And then Astra
+[17:12] can come up with an insight that
+[17:14] encompasses so much information
+[17:16] processing. I probably didn't see that
+[17:17] pattern. So Astra is really really good
+[17:20] at that kind of work where it's between
+[17:22] the lines, but it's between the lines
+[17:23] because it is so much information. In a
+[17:26] sense, the manager loop is there as much
+[17:28] to manage you as it is to manage the
+[17:30] model. But realistically, a lot of what
+[17:32] we want is is it done? Did the actions
+[17:35] you take line up with what I told you to
+[17:37] do? Did you take any unauthorized
+[17:38] actions? Did you let me know when you
+[17:40] needed approval? Those are the things we
+[17:42] tend to care about. Now, what still
+[17:43] belongs to you and me? We've talked
+[17:45] about the task level stuff you can
+[17:46] delegate to Astra and why it's faster
+[17:48] and more complete probably than a bunch
+[17:50] of other models you've used. We've
+[17:51] talked about this manager loop and how I
+[17:53] think it's really a key to getting at
+[17:55] these massive post-prompting tasks. The
+[17:58] third piece is what do we still need to
+[18:00] do? And and that's the the the number
+[18:02] one question I get in these videos. Like
+[18:04] people write me and they're like, Nate,
+[18:06] what do I do now? Like I'm out of a job.
+[18:08] Astra is so good. Look, I disagree.
+[18:11] Astra can research homes. Astra can
+[18:14] compare the options. Hey, I Astra
+[18:16] doesn't get to pick the house. Sorry. I
+[18:18] pick the house. You pick the house. If
+[18:21] you're giving it a complex task, it's
+[18:24] your call. And so what you need to do is
+[18:28] get comfortable with a world where those
+[18:30] kinds of decisions that really matter
+[18:33] are going to be the only things that
+[18:37] only you can do. because another agent
+[18:39] can do a lot of the checking for you to
+[18:41] get those options developed. An agent
+[18:43] can do a lot of the grunt work to get
+[18:45] that ready so that you understand what
+[18:48] what is irreversible about your choice
+[18:50] and where you can actually explore
+[18:52] options further. I don't believe that we
+[18:54] need to attach a bunch of special madeup
+[18:58] value to having a person inside every
+[19:00] step. I want to bring the person back to
+[19:03] the choice, the risk, the responsibility
+[19:05] that is ours as humans. I want us to
+[19:08] embrace that because that's not going
+[19:10] anywhere no matter how smart these
+[19:12] agents get and we are going to then be
+[19:14] freed to effectively do more. I think we
+[19:18] are going to accelerate our rate of
+[19:19] decisions as people. We are going to
+[19:22] have more decisions to make because
+[19:24] Astra is going to widen out our options.
+[19:26] And so, of course, that begs the
+[19:27] question, if you start to see the world
+[19:29] this way as a series of decisions, and
+[19:32] you need to trust Astra or something
+[19:34] like it with a big task that is bigger
+[19:36] than a prompt, what do you hand the
+[19:39] agent? I don't think a master prompt is
+[19:41] the answer. I've said that in this
+[19:42] video. Yes, we'll still prompt agents.
+[19:45] prompts aren't disappearing per se, but
+[19:49] you cannot construct the scale of job
+[19:52] we're talking about in one beautiful
+[19:55] paragraph and have it have enough
+[19:57] instructions to to handle a job that
+[19:59] takes a week. So, for this next
+[20:01] generation of models, I think we need
+[20:04] something postprompt. We need something
+[20:06] that goes beyond what a prompt does, but
+[20:08] isn't so long we can't manage it. I
+[20:10] think we need something beyond what a
+[20:12] prompt does, but it still has to be
+[20:14] something we can read. I'm calling these
+[20:17] recipe cards. I like to cook and it just
+[20:20] makes sense to me. A recipe card names a
+[20:24] real job. It shows all of the jobs
+[20:27] inside it, at least as a sketch. It
+[20:29] tells the agent what to ask you for,
+[20:33] what the agent can handle, when the
+[20:35] agent ought to come back, and which
+[20:37] actions need your approval. You can copy
+[20:40] it into Astra or to any manager agent.
+[20:43] It can answer the questions for your
+[20:45] situation and ask you and interview you
+[20:48] and make sure it understands the problem
+[20:50] and then it can get moving. Now, why
+[20:51] does this matter? Why do we care about a
+[20:53] new form factor that Nate has labeled
+[20:55] recipe cards? Whatever you call it, it
+[20:58] matters because most of us don't really
+[21:02] naturally look at tasks and like break
+[21:05] them out like that. That's very hard,
+[21:07] right? We see an apartment search or a
+[21:09] school decision or utility counts and
+[21:10] our brains just kind of like phase over.
+[21:13] We're tired. The static comes. A recipe
+[21:16] card puts those things all together and
+[21:19] says, "This is a kind of work you can
+[21:22] give an agent that is pre-broken out and
+[21:25] you can adjust it as needed and get
+[21:27] going on this massive task." And so, I'm
+[21:29] going to give you a short version that
+[21:31] you can copy exactly as is. Say
+[21:34] something like this. I need to move my
+[21:36] household to X city by Y date. I don't
+[21:39] want to lose a week of my life to forms
+[21:42] or two weeks. Please start this task by
+[21:45] showing me which parts of the move you
+[21:47] can handle completely. Ask me about
+[21:50] who's moving, about the budget, about
+[21:52] the kind of home that I'm going to move
+[21:54] to, about schools, doctors, vehicles,
+[21:57] pets, utilities, anything else that
+[21:59] might change that job. And then I want
+[22:02] you agent to manage the work. You handle
+[22:04] the research, the comparison, the
+[22:06] appointments, the form prep, and you use
+[22:08] other agents when that helps you get the
+[22:10] job done. Your job is to keep working on
+[22:12] parts that aren't blocked. Your job is
+[22:14] to bring me the choices or approvals
+[22:16] that still need me. Do not make me
+[22:19] manage the step by step. You are the
+[22:21] central point of contact for this task.
+[22:24] And that's it. That's enough to begin
+[22:26] because the manager agent starts to turn
+[22:28] your answers into the actual assignment.
+[22:30] And then you can review it as you go. If
+[22:32] you're wondering, is that really it? I
+[22:34] did put together a larger card because I
+[22:36] think that a full card for these kinds
+[22:38] of tasks needs to go farther. And so,
+[22:41] whatever you want to call these things,
+[22:43] that is what we have to bridge to help
+[22:47] all of us understand what to do with the
+[22:49] power of these agents. I'm calling them
+[22:51] recipe cards. And yes, the full card
+[22:52] that I've written out does go deeper. It
+[22:55] shows the manager agent how to divide
+[22:57] out the task, the move in this case, how
+[22:59] to remove the parts that don't apply,
+[23:01] how to run independent work at the same
+[23:03] time. It names the information and
+[23:05] access the agents will probably need. It
+[23:08] says what the agent can do without
+[23:10] interrupting me and where it has to
+[23:12] stop. It says what should come back and
+[23:14] it says what to do when the work like
+[23:17] breaks and you start to run into issues.
+[23:19] If a login fails, if a document is
+[23:21] missing, if sources disagree or a
+[23:23] website blocks an agent, the card, the
+[23:26] recipe card, whatever you want to call
+[23:27] it, tells the agents how to keep going
+[23:29] and when to ask for help. Essentially,
+[23:32] it's a map to the work. That's what I'm
+[23:34] calling a recipe card. And because I
+[23:36] think the action that the agent can take
+[23:40] is only limited by our imagination, I
+[23:43] jumped in and got excited. I am
+[23:44] publishing 23 of those complete long-
+[23:48] form recipe cards in the paid Substack
+[23:51] guide. I'm not going to read them all to
+[23:53] you because we'd be here all morning. Uh
+[23:55] but the guide is where I can show you
+[23:58] the work that you can actually give
+[23:59] Astra at home and inside a business. And
+[24:01] they're very specific because I don't
+[24:03] want you to make 3D Blender models if
+[24:05] you don't care to do that. I want you to
+[24:07] have something with enough detail to run
+[24:09] with it and be able to just say that's
+[24:11] what I want to do. 23 different recipe
+[24:13] cards that you can go after. And so
+[24:15] every one of those is going to show
+[24:17] what's inside the job, the question that
+[24:19] your manager agent needs to ask for a
+[24:21] big job, what information or access
+[24:23] Astro will probably need. And of course,
+[24:25] you can modify them. If you live
+[24:27] internationally, it's going to look
+[24:28] differently than if you live in the US.
+[24:30] There's always things you can do to
+[24:32] adjust, but these are going to give you
+[24:33] that critical starting point. It's like
+[24:35] Tinder and and Flint. Tinder and matches
+[24:37] to get the fire going for how you use
+[24:39] these agents. And so my goal in this
+[24:41] video has been to give you the way to
+[24:43] think about Astra to give you a complete
+[24:45] worked example which you've been able to
+[24:48] see for moving to help you understand
+[24:51] how I encapsulate that into a simple
+[24:55] structure that I give Astra why it
+[24:57] matters to give Astra that kind of task
+[25:01] because of Astra's capabilities because
+[25:03] Astra is too powerful and the value of
+[25:06] what it can do is too big to not take
+[25:07] that shot. You want to have a chance to
+[25:11] give Astra work that's actually big
+[25:12] enough for it. That's what I light up
+[25:14] about. And so when you look at a job, I
+[25:16] want you to start asking these three
+[25:18] questions. Can Astra just take this? If
+[25:21] the whole job crosses a tremendous
+[25:23] amount of like sites, documents,
+[25:25] decisions, if it's absolutely massive,
+[25:27] do I need an agent to supervise it? If
+[25:29] so, what kind of recipe card does that
+[25:31] agent need? Which choices still belong
+[25:33] with me? Don't forget that one. But
+[25:36] whatever you do, be courageous enough to
+[25:39] at least think about starting with the
+[25:41] whole job. Don't break it down. Astra's
+[25:44] big enough. Astra's big enough. Let
+[25:46] Astra do the work. And make sure you
+[25:48] tell Astra to keep the decisions that
+[25:51] ought to be yours yours. And then start
+[25:54] looking around at the rest of your life,
+[25:56] maybe your business, and asking the
+[25:59] question that is going to matter in the
+[26:00] second half of this year. What is the
+[26:02] work I can give this that multiplies me?
+[26:04] that makes me feel like me but more.
+[26:07] That makes me feel like I'm I have an
+[26:09] extension of myself that helps me to do
+[26:11] more. I'm saying you want to be more.
+[26:14] Let these AI tools multiply your impact.
+[26:16] Let these AI tools help you to get this
+[26:19] work done. That's the feeling I get with
+[26:20] Astra. I was actually talking with uh a
+[26:23] photographer just a couple of days ago
+[26:26] and she was telling me how she was an AI
+[26:28] skeptic because of course photography
+[26:30] and this and that and she has come
+[26:31] around and what she said really stuck
+[26:33] with me. She said, "When I am using AI,
+[26:37] I feel like I am more like and I can
+[26:40] tell when it's duplicative and
+[26:42] derivative and it's not me, and I can
+[26:43] tell when it is me, and it's helping me
+[26:45] extend my thinking faster. This is how
+[26:47] to use it. This is how to go after it.
+[26:49] The world is your oyster. What are you
+[26:51] going to build? What are you going to go
+[26:52] after? What are you going to do? Tell me
+[26:54] in the comments.

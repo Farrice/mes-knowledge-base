@@ -1,0 +1,212 @@
+{
+  "activation_queue": [
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "directives/recipe-card-standard.md",
+      "expected_artifact": "directives/recipe-card-standard.md + recipes/source-to-skill-harvest.md",
+      "id": "T1",
+      "kind": "lane",
+      "next_action": "write the standard and this job's own card",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:36:33+00:00",
+      "validation_assertion": "",
+      "workflow": "recipe-card-forge"
+    },
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "execution/job_board.py",
+      "expected_artifact": "execution/recipe_cards.py + execution/job_board.py + session_brief jobs line",
+      "id": "T2",
+      "kind": "lane",
+      "next_action": "board CLI incl. handoff/portable/status --all",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:43:28+00:00",
+      "validation_assertion": "",
+      "workflow": "build"
+    },
+    {
+      "after": [
+        "T2"
+      ],
+      "blocker": "",
+      "evidence_path": "execution/hooks/steering_loop_hook.py",
+      "expected_artifact": "steering_loop_hook.py JOB-HANDOFF mode + Stop observe + dialect lines",
+      "id": "T3",
+      "kind": "lane",
+      "next_action": "detector + two card variants",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:48:31+00:00",
+      "validation_assertion": "",
+      "workflow": "build"
+    },
+    {
+      "after": [
+        "T3"
+      ],
+      "blocker": "",
+      "evidence_path": "execution/verify_job_handoff.py",
+      "expected_artifact": "execution/verify_job_handoff.py + parity job prompt",
+      "id": "T4",
+      "kind": "lane",
+      "next_action": "sabotage both directions",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:48:31+00:00",
+      "validation_assertion": "",
+      "workflow": "verify"
+    },
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "skills/nate-b-jones-manager-loop/SKILL.md",
+      "expected_artifact": "skills/nate-b-jones-manager-loop/ (6 workflows, prompts-v2) + registration",
+      "id": "T5",
+      "kind": "lane",
+      "next_action": "/extract on the transcript",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:54:47+00:00",
+      "validation_assertion": "",
+      "workflow": "extract"
+    },
+    {
+      "after": [
+        "T5"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/workflows/job.md",
+      "expected_artifact": ".agent/workflows/job.md + /go route row + 7 seed recipes",
+      "id": "T6",
+      "kind": "lane",
+      "next_action": "front door + seeds",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:56:02+00:00",
+      "validation_assertion": "",
+      "workflow": "build"
+    },
+    {
+      "after": [
+        "T2",
+        "T6"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/handoffs/2026-09-09-manager-loop-harvest.md",
+      "expected_artifact": "global bridges + Homebase JOBS panel + cross-harness lane round-trip",
+      "id": "T6b",
+      "kind": "lane",
+      "next_action": "back on claude",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:57:04+00:00",
+      "validation_assertion": "",
+      "workflow": "build"
+    },
+    {
+      "after": [
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T6b"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/missions/manager-loop-harvest/closeout.md",
+      "expected_artifact": "four-question closeout, ratchet, memory, verdict",
+      "id": "T7",
+      "kind": "lane",
+      "next_action": "after all lanes",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T02:58:18+00:00",
+      "validation_assertion": "",
+      "workflow": "job-closeout"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [],
+    "required": false,
+    "root": "",
+    "type": "none"
+  },
+  "context_requirements": [],
+  "created_at": "2026-09-10T02:33:06+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T6b",
+      "T7"
+    ],
+    "planned_lanes": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T6b",
+      "T7"
+    ],
+    "proof_artifacts": [
+      "directives/recipe-card-standard.md",
+      "execution/job_board.py",
+      "execution/hooks/steering_loop_hook.py",
+      "execution/verify_job_handoff.py",
+      "skills/nate-b-jones-manager-loop/SKILL.md",
+      ".agent/workflows/job.md",
+      ".agent/handoffs/2026-09-09-manager-loop-harvest.md",
+      ".agent/missions/manager-loop-harvest/closeout.md"
+    ],
+    "resume_command": "/mission resume manager-loop-harvest",
+    "skipped_lanes": [],
+    "validators_run": []
+  },
+  "goal": "Harvest Nate B Jones's manager loop + recipe cards video into a native /job capability that runs hands-off in Claude Code and Codex, independently or together",
+  "handoffs": [],
+  "job": {
+    "closed_at": "2026-09-09T19:58:18-07:00",
+    "harness": "claude",
+    "last_note": "codex touched T6b",
+    "note": "Job #1 \u2014 opened by hand before job_board.py existed (dogfood)",
+    "opened_at": "2026-09-09T19:33:07-07:00",
+    "opened_by": "claude",
+    "recipe": "source-to-skill-harvest",
+    "serves": "orphan",
+    "verdict": null
+  },
+  "librarian": {
+    "notes": "",
+    "required": false,
+    "status": "not_applicable"
+  },
+  "mode": "code",
+  "name": "Manager Loop Harvest",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "",
+    "next_command": "python3 execution/job_board.py lanes manager-loop-harvest",
+    "notes": "",
+    "required": false,
+    "resume_command": "/mission resume manager-loop-harvest",
+    "state_sources": [
+      ".agent/missions/manager-loop-harvest/mission.json",
+      ".agent/intent-memory/current.json",
+      ".agent/system-cohesion-state.json"
+    ]
+  },
+  "slug": "manager-loop-harvest",
+  "status": "complete",
+  "updated_at": "2026-09-10T02:58:18+00:00",
+  "validation_assertions": []
+}

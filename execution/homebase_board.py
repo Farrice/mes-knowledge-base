@@ -245,6 +245,39 @@ def resume_strip():
     return "".join(cards)
 
 
+def jobs_panel():
+    """Manager-loop jobs (2026-09-09): every open job across sessions and harnesses —
+    lanes runnable / blocked-on-him / done, packets waiting. Reads the board, never
+    a second store; silent-clean when nothing is open."""
+    try:
+        import job_board as jb
+        slugs = jb.job_slugs()
+    except Exception as e:
+        return degraded_html("jobs panel unavailable — python3 execution/job_board.py status --all", e), 0, 0
+    if not slugs:
+        return '<div class="empty">no jobs open — /job "&lt;raw ask&gt;" hands one off</div>', 0, 0
+    cards, packets_total = [], 0
+    for slug in slugs:
+        try:
+            j = jb.job_summary(slug)
+        except Exception:
+            continue
+        packets_total += j["packets"]
+        pill = (f'<span class="pill warn">{j["packets"]} decision(s) for you</span>' if j["packets"]
+                else (f'<span class="pill ok">{j["runnable"]} lane(s) running</span>' if j["runnable"]
+                      else '<span class="pill muted">waiting</span>'))
+        card_rel = f".agent/missions/{slug}/card.md"
+        cards.append(
+            f'<div class="mcard"><div class="row1"><h3>{esc(slug)}</h3>{pill}</div>'
+            f'<p class="last">{j["done"]}/{j["lanes"]} lanes done · {j["blocked"]} blocked on you · '
+            f'{j["waiting_deps"]} queued · owners {esc(",".join(j["owners"]) or "—")} · recipe {esc(str(j["recipe"]))}</p>'
+            f'<div class="meta"><span class="m">opened {esc(j["opened"] or "—")}</span><span class="acts">'
+            f'<button class="copybtn" type="button" data-copy="python3 execution/job_board.py resume {esc(slug)}">copy resume</button>'
+            f'<a class="actbtn alink" href="{esc((Path(ROOT) / card_rel).as_uri())}" data-repo="/repo/{esc(card_rel)}">card ↗</a>'
+            f'</span></div></div>')
+    return "".join(cards), len(slugs), packets_total
+
+
 def system_counts():
     try:
         h = json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
@@ -1251,6 +1284,7 @@ def main():
         sys_line = f"{sys_line} · {radar_line}" if sys_line else radar_line
 
     resume_html = resume_strip()
+    jobs_html, jobs_n, jobs_packets = jobs_panel()
     library_uri = Path(ROOT, ".agent", "catalog", "library.html").as_uri()
     intel_uri = Path(ROOT, "_active", "farrice-brand", "intelligence", "index.html").as_uri()
 
@@ -1344,6 +1378,9 @@ def main():
     <section class="widget" data-wid="needs" id="w-needs"><span class="grip" title="drag to reorder">⠿</span>
       <h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>
       <div class="wbody">{needs_html}</div></section>
+    <section class="widget" data-wid="jobs" id="w-jobs"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Jobs — {jobs_n} open · {jobs_packets} decision(s) waiting</h2>
+      <div class="wbody">{jobs_html}</div></section>
     <section class="widget" data-wid="deck" id="w-deck"><span class="grip" title="drag to reorder">⠿</span>
       <h2>Skills deck</h2><div class="wbody">{deck_html}</div></section>
     <section class="widget" data-wid="routines" id="w-routines"><span class="grip" title="drag to reorder">⠿</span>

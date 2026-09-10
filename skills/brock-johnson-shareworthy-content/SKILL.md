@@ -31,12 +31,13 @@ Beat the Instagram algorithm by making it irrelevant. Create content so good tha
 
 ## Execution Prompts (structure-pure v2)
 
-6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+7 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **BROCK JOHNSON — ALGORITHM TRANSCENDENCE PLAYBOOK** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/algorithm-transcendence-playbook.md`
 - **BROCK JOHNSON — CONTENT FORMAT ARCHITECT** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/content-format-architect.md`
 - **BROCK JOHNSON — ENGAGEMENT PSYCHOLOGY SYSTEM** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/engagement-psychology-system.md`
 - **BROCK JOHNSON — HOOK SCIENCE ENGINEER** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/hook-science-engineer.md`
+- **BROCK JOHNSON — SAY–DO–NEED MESSAGE BRIDGE** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/say-do-need-message-bridge.md`
 - **BROCK JOHNSON — SHAREWORTHY CONTENT GENERATOR** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/shareworthy-content-generator.md`
 - **BROCK JOHNSON — VIRAL SHARE OPTIMIZER** — `skills/brock-johnson-shareworthy-content/references/prompts-v2/viral-share-optimizer.md`
 
