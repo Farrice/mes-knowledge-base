@@ -178,6 +178,9 @@ substantive system outputs, not just councils (memory: default-output-register-d
 - Pass tokens exist to kill wasted turns: a dry meeting ends in one round.
 - Every live session's digest records measured token/agent counts. Nothing about live mode becomes
   a default until Farrice confirms the measured number is worth it (3-run review).
+- **Critique swarm (2026-09-09):** the same seat caps and digest contract apply to the metered
+  critique/research swarm in `directives/swarm-usage-policy.md` (`swarm_meter.py`, $10 hard stop,
+  one pen writes, Farrice judges). That runbook is `.agent/workflows/swarm-critique.md`.
 
 ## Session close (identity accumulates)
 

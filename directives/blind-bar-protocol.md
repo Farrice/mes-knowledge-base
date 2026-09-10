@@ -29,7 +29,7 @@ Task / Build Method / **Bar** — the third line the gauntlet grammar got right.
 ## Cost discipline (Farrice, 2026-08-05: "not burning through tokens recklessly")
 
 - **Deterministic first, always**: `prose_classifier.py` / `voice_evaluator.py` / lints run before any model-judged pass — they are free and catch the cheap failures.
-- **In-context only.** The pass is one structured reasoning step in the producing loop: ~5–15k tokens. Zero subagents, zero fresh contexts, zero fleets. Fresh-context reviewers remain governed by the existing law (Farrice asks / compromised context).
+- **In-context only.** The pass is one structured reasoning step in the producing loop: ~5–15k tokens. Zero subagents, zero fresh contexts, zero fleets. Fresh-context reviewers remain governed by the existing law (Farrice asks / compromised context). One exception since 2026-09-09: the metered critique swarm (`directives/swarm-usage-policy.md`) may seat ≤4 read-only critics against a named bar; it is invoked deliberately, never auto-routed, and never replaces this pass for solo work.
 - **Fires only on**: taste-bearing deliverables headed to Farrice or a client (content, copy, client packages) that HAVE a named reference. Never on: answers, diagnostics, system work, corrections, drafts he asked to see raw, or anything without a real Bar artifact.
 - **The full gauntlet** (worker+critic agent pairs, hours-long loops) is reserved for screenshot-verifiable builds on Farrice's explicit ask only — it is a spend decision, his to make, every time.
 - **Receipt**: finalize notes carry `BlindBar: PASS|FAIL(gap: …)|N/A(no ref) — <n> rounds`. No silent passes; a skipped bar is written N/A, never implied.

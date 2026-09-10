@@ -75,7 +75,9 @@ an ARTIFACT — `Bar: <golden ref / rubric-anchor example / register exemplar pa
 counts as done.` — or explicitly `Bar: none`. Adjectives ("high quality", "on-brand") are not a
 bar; an unanchored quality loop polishes the wrong target (KetoneIQ edge). The Blind Bar pass
 itself runs in-context in the producing loop, never as a spawned critic (Seating Charter stands:
-verification never gets its own seat).
+verification never gets its own seat — **one exception, Farrice 2026-09-09: the budgeted,
+bar-anchored critique swarm in `directives/swarm-usage-policy.md`**; ≤4 read-only seats, ≤3
+rounds, one pen writes, Farrice judges, $10 hard stop).
 
 ### Executor Model Registry (hard-coded 2026-07-24 — Farrice standing instruction; update on model launches)
 
@@ -124,7 +126,8 @@ receipt check lives inside `/weekly-closeout` (existing consumer), nowhere else.
 the consumer — either the closed-list hop-0 artifact, or the 3+ downstream turns that consume the
 dispatch. A Fable-written artifact outside the closed list = a **misseat**, logged and read in
 `/weekly-closeout` as a trend, never a quota. Verification never gets its own seat: the main
-loop verifies (dialect law), a spawned reviewer only on Farrice's ask or a compromised context.
+loop verifies (dialect law), a spawned reviewer only on Farrice's ask or a compromised context —
+or inside a metered critique swarm per `directives/swarm-usage-policy.md` (2026-09-09).
 
 **Fable-absent degradation (Farrice 2026-07-28 — the ORIGINAL intent of this charter: Opus 5 is
 the default seat and must deliver Fable-grade conducting when no Fable seat exists):** the
