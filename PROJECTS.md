@@ -48,4 +48,8 @@ Contradictions only — not a list of unstamped projects.
 - **missing_index** — `_active/products`: no INDEX.md — project has no entry point
 - **missing_index** — `projects/00-social-content`: no INDEX.md — project has no entry point
 - **missing_index** — `projects/str-trending-research`: no INDEX.md — project has no entry point
-
+| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-08 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-08 | active |
+| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-08 | active* |
+| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-07 | active* |
+| `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-08-30 | active* |
