@@ -110,3 +110,4 @@ One line per card: date · name · problem_signature.
 - 2026-07-07 · Zero-Survivor Phantom Deliverable in Fan-Out Pipelines · fan-out workflow where all workers at a stage die still reports complete and returns a deliverable path that was never written
 - 2026-07-06 · expert-composition-standard · a task pulls in many experts, skills, workflows, or gates and the output comes back patched together, overconfident, or still generic — expert soup, too many agents, a hammer instead of a scalpel, not interwoven
 - 2026-08-29 · linkedin-zero-to-840k-growth-os · Turn a YouTube video and full HubSpot guide into a source-grounded, runnable LinkedIn growth operating system for personal and client accounts
+- 2026-08-31 · youtube-nicolas-cole-first-dollar-skill-system · Turn a mostly talking-head YouTube source into a source-grounded connected skill system without duplicating existing Nicolas Cole revenue capabilities or confusing implementation proof with market proof.
