@@ -21,6 +21,39 @@ hey babe, 19225 rosita. seven openers, each one is the first line you say on the
 7 · TINY LOTS
 "everyone tells me tarzana lots are tiny. then i found this one. just under half an acre, flat, with eleven parking spots on a paver motor court that doesn't feel like a driveway, it feels like an entrance. inside, six bedrooms and seven baths, all on one story, and out back a heated pool, a spa, and an outdoor kitchen under its own pavilion. i'd love to walk you through it. 🏡"
 
-CLOSE (same for all, by the pool): "19225 rosita, tarzana. four point eight. i'm jen santulan with equity union… dm me 'rosita' and i'll get you in this week."
+THEN THE TOUR. whichever opener you pick, say its turn line, then walk the stops. skip the stop you already covered in the opener.
+
+turn lines:
+1 · "okay… come walk it with me."
+2 · "let's go in."
+3 · "start at the front with me, i'll bring you back out here."
+4 · "but let's start at the front door."
+5 · "let me show you the rest of the house first."
+6 · "let's back up to the front and do this properly."
+7 · "come see what's on it."
+
+the stops (one or two lines each, your words, in your order):
+
+FRONT · the motor court
+"eleven cars park here. nobody's on the street, ever."
+
+GREAT ROOM · walk in
+"sixty-five hundred square feet, and all of it on this floor. you will never climb a stair in this house."
+
+KITCHEN · touch the island
+"full remodel. waterfall island, pro range. this is where everyone ends up."
+
+THE WALL · slide it open, keep walking
+"and then the whole back wall goes away… heated pool, spa, a fireplace out here, and a real kitchen under the pavilion. flat half acre, south of the boulevard."
+
+BEDROOMS · hallway walk
+"six bedrooms, seven full baths, every one of them on this level. nobody's upstairs because there is no upstairs."
+
+GUEST QUARTERS · open the door
+"their own kitchen, their own living room. someone can stay a month and you'd never cross paths."
+
+CLOSE (by the pool): "19225 rosita, tarzana. four point eight. i'm jen santulan with equity union… dm me 'rosita' and i'll get you in this week."
+
+timing: opener about 15 seconds, tour about 35, close about 8. if it runs long, cut the kitchen stop first.
 
 two things: get marty's okay before it goes up under your name (it's his and shane's listing). and on camera skip the 2022 price, the zestimate, the countertop material, "detached," "new construction," "garage," and schools.
