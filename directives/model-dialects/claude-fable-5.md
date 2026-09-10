@@ -63,7 +63,7 @@ fixture replay flags drift on Fable-conducted work · the seating charter change
     ],
     "delegation": [
       "Fable conducts — delegate mechanical/parallel tracks to cheaper seats; dispatch briefs carry verbatim: \"{negative_brief}\" (subagents inherit CLAUDE.md side effects).",
-      "Job-shaped handoffs (MODE JOB-HANDOFF) run the manager loop: the turn ends only when `python3 execution/job_board.py next <slug>` prints MAY END; questions batch into DECISION PACKETS; read-only lanes seat Sonnet in the background, writes stay with you."
+      "Job-shaped handoffs (MODE JOB-HANDOFF; the opening turn's reply is the JOB PLAN and ends at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT) run the manager loop: the turn ends only when `python3 execution/job_board.py next <slug>` prints MAY END; questions batch into DECISION PACKETS; read-only lanes seat Sonnet in the background, writes stay with you."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",

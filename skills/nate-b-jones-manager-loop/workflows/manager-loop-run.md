@@ -44,22 +44,27 @@ card (`card.md`), especially `Comes back when`, `Needs approval`, `When it break
 6. **Questions accumulate**: `job_board.py packet <slug> add --lane L --choice … --options "A …
    / B …" --recommend "A — why" [--irreversible …] [--if-none …]`. Mid-run `AskUserQuestion`
    only for a T3 action.
-7. **Checkpoint at every turn end**: `job_board.py checkpoint <slug>` (portable packet + handoff
+7. **Trace every close (2026-09-10).** A lane closes with `job_board.py lane <slug> <id>
+   --status complete|skipped|blocked --did "what was done / found / skipped" --evidence <path>`;
+   the LANE RECEIPT line it prints goes in the reply verbatim. Findings he should be able to
+   read later: `job_board.py log <slug> <lane> "…" --kind found|skipped`. `job_board.py trace
+   <slug>` is his view of what was covered and what was not.
+8. **Checkpoint at every turn end**: `job_board.py checkpoint <slug>` (portable packet + handoff
    store, so `/resume` and the other harness reload from disk).
-8. **End the turn** when `next` prints MAY END — reply = open packets (verbatim from the board)
+9. **End the turn** when `next` prints MAY END — reply = open packets (verbatim from the board)
    + receipts (paths) + one progress line. Then `job-closeout` when all lanes are terminal.
 
 ## Output Contract (the turn-end reply)
 ```
 JOB — <slug>: <done>/<lanes> lanes done · <blocked> waiting on you · next: <MAY END line>
+LANE RECEIPT — … (one line per lane closed this turn, verbatim from job_board.py lane)
 DECISION PACKET(S): <pasted from job_board.py packet list, open only> | none
-Receipts: <path per finished lane>
 Checkpoint: <handoff line>
 ```
 
 ## Quality Gate
 1. `job_board.py next` printed MAY END before the reply was written.
-2. Every complete lane has an evidence path that exists.
+2. Every complete lane has an evidence path that exists and a `--did` line in the trace.
 3. Every blocked lane has a packet; every packet has a recommendation and an if-no-answer line.
 4. No T2/T3 action was taken without a recorded approval (his words in `decisions.md`).
 5. The reply contains no status prose that isn't a packet, a receipt, or the one progress line.

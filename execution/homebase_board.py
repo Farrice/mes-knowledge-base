@@ -263,14 +263,24 @@ def jobs_panel():
         except Exception:
             continue
         packets_total += j["packets"]
-        pill = (f'<span class="pill warn">{j["packets"]} decision(s) for you</span>' if j["packets"]
-                else (f'<span class="pill ok">{j["runnable"]} lane(s) running</span>' if j["runnable"]
-                      else '<span class="pill muted">waiting</span>'))
+        plan_pending = j.get("plan") == "pending"
+        if plan_pending:
+            packets_total += 1  # a plan waiting for his go is a decision for him
+        pill = ('<span class="pill warn">plan waiting for your go</span>' if plan_pending
+                else (f'<span class="pill warn">{j["packets"]} decision(s) for you</span>' if j["packets"]
+                      else (f'<span class="pill ok">{j["runnable"]} lane(s) running</span>' if j["runnable"]
+                            else '<span class="pill muted">waiting</span>')))
         card_rel = f".agent/missions/{slug}/card.md"
+        # 2026-09-10: the last trace line — what was just done / found / skipped — so he
+        # can see the work without opening a session (job_board.py trace <slug> for all of it)
+        last = (j.get("last") or "").strip()
+        last_html = (f'<p class="last" title="python3 execution/job_board.py trace {esc(slug)}">'
+                     f'↳ {esc(last[:160])}</p>' if last else "")
         cards.append(
             f'<div class="mcard"><div class="row1"><h3>{esc(slug)}</h3>{pill}</div>'
             f'<p class="last">{j["done"]}/{j["lanes"]} lanes done · {j["blocked"]} blocked on you · '
             f'{j["waiting_deps"]} queued · owners {esc(",".join(j["owners"]) or "—")} · recipe {esc(str(j["recipe"]))}</p>'
+            f'{last_html}'
             f'<div class="meta"><span class="m">opened {esc(j["opened"] or "—")}</span><span class="acts">'
             f'<button class="copybtn" type="button" data-copy="python3 execution/job_board.py resume {esc(slug)}">copy resume</button>'
             f'<a class="actbtn alink" href="{esc((Path(ROOT) / card_rel).as_uri())}" data-repo="/repo/{esc(card_rel)}">card ↗</a>'
