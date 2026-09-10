@@ -80,8 +80,12 @@ GENERATORS = [("generate_slash_commands.py", []),
 
 # ── git plumbing ────────────────────────────────────────────────────
 def _git(cwd, *args, timeout=60):
+    # core.quotepath=false: git otherwise octal-escapes non-ASCII paths in
+    # listings, so the Law-3 audit's `cat-file -e HEAD:<path>` on a quoted
+    # name fails and parks the lane claiming a drop (2026-09-09, a Cyrillic
+    # Gigi cover). Raw UTF-8 paths round-trip through every helper here.
     try:
-        r = subprocess.run(["git", "-C", str(cwd), *args],
+        r = subprocess.run(["git", "-C", str(cwd), "-c", "core.quotepath=false", *args],
                            capture_output=True, text=True, timeout=timeout)
         return r.returncode, r.stdout.strip(), r.stderr.strip()
     except Exception as e:  # pragma: no cover
