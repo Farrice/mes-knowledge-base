@@ -89,8 +89,8 @@
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "blocked",
-      "updated_at": "2026-09-10T12:34:09+00:00",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:46:26+00:00",
       "validation_assertion": "",
       "workflow": "Packets for his calls"
     },
@@ -129,7 +129,8 @@
       "L3",
       "L4",
       "L5",
-      "L7"
+      "L7",
+      "L6"
     ],
     "planned_lanes": [
       "L1",
@@ -158,12 +159,14 @@
   "goal": "Drain the 54 open missions: finish, park, or kill each; packets only for the calls that are Farrice's; zero open missions older than 14 days without a park handoff",
   "handoffs": [],
   "job": {
+    "closed_at": "2026-09-10T05:46:50-07:00",
     "harness": "claude",
     "last_note": "54 \u2192 2 open; 29 closed as done, 14 killed, 7 superseded, 3 parked, 1 packet open",
     "opened_at": "2026-09-10T05:20:34-07:00",
     "opened_by": "claude",
     "recipe": "mission-backlog-triage",
-    "serves": "orphan"
+    "serves": "orphan",
+    "verdict": "good"
   },
   "librarian": {
     "notes": "",
@@ -186,7 +189,7 @@
     ]
   },
   "slug": "mission-backlog-triage",
-  "status": "active",
-  "updated_at": "2026-09-10T12:34:21+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-10T12:46:50+00:00",
   "validation_assertions": []
 }

@@ -3,8 +3,8 @@ job: mission-backlog-triage
 name: Mission backlog triage
 family: harness
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 1
+last_ratchet: 2026-09-10
 ---
 
 ## The job
@@ -49,4 +49,4 @@ Deleting deliverables or handoff files · anything touching a client-facing thre
 Zero open missions older than 14 days without a park handoff · before/after counts in the receipt · every packet answered or explicitly held · `pulse_dashboard.py --open` shows the finisher rule satisfied (≤3 open).
 
 ## Ratchet log
-- none yet
+- 2026-09-10 — first run: main's missions.jsonl is per-tree (gitignored) — closes must target the main checkout's copy, not the lane's; evidence lanes normalize whitespace in keys — match on normalized text; reuse existing handoff thread names for parks; expect ~half of a stale backlog to be finished work nobody closed
