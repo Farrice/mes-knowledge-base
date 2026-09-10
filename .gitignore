@@ -234,3 +234,5 @@ _active/video-studio/hyperframes-studio/
 
 # per-prompt hook log (guard_stranded_deliverables.py appends every prompt) — tracked copies dirtied main on every message and parked every lane merge (2026-09-02)
 .agent/logs/stranded-restore.log
+.agent/gemini-api-usage-archive/
+.agent/health/main-drift-absorb.json

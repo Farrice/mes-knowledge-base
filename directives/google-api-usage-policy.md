@@ -72,6 +72,16 @@ Surprise bills are physically impossible. Three independent systems must all fai
 - Deduct from tracked prepaid balance
 - If Ultra covers call → cost = 0 but log the query anyway for volume tracking
 
+**Ledger mechanics (2026-09-02 audit — a $0.50 run completed, `research.py` printed only the receipt, the body was lost, and the recovery re-fetch double-logged the spend):**
+- `pending[]` — every interaction is written here the moment it has an id, BEFORE polling. A timeout, a killed process, or a harness Bash cap cannot lose money silently: the row carries `recover: python3 execution/research.py gemini-collect --id <id>`. In-flight `est_cost` counts against `budget_remaining()`.
+- **Once per id.** `research()` and `collect()` charge an interaction id exactly once. A recovery re-fetch returns the body at `estimated_cost: 0.0` and writes nothing.
+- **Body persisted first.** Validated text + citations land in `.tmp/research/gemini/<interaction_id>.md` before any caller sees them; `research.py` also writes every result (any engine) to `.tmp/research/<ts>-<slug>.md` and names the path on the receipt (`Report body:`). The receipt is the summary; the file is the product.
+- **Poll cap 30 min** (was 15). Google: most tasks finish under 20 min, hard max 60. On timeout the id stays `pending`.
+- **Month rollover archives** the outgoing ledger to `.agent/gemini-api-usage-archive/<YYYY-MM>.json` and carries `pending` forward. `cost-gate-log.jsonl` remains the all-time cross-service record.
+- Verifier: `python3 execution/verify_deep_research_ledger.py` (no network; sabotage-checked both directions).
+
+**⚠ OPEN (2026-09-02): the cost constants are guesses, not measurements.** `EST_COST_PER_QUERY` says $0.50 standard / $1.50 max. Google's own doc estimates ~$1–3 per standard task and ~$3–7 per Max task (pay-as-you-go on Gemini 3.1 Pro rates + ~80/160 grounded searches). 52 runs since June are tracked at ~$8.50 total under a $10 prepaid ceiling that would have tripped after ~5 runs at Google's rate — so either Ultra absorbs the calls at $0 or a billing account is attached and Layer 2 is not holding. Resolve by reading AI Studio → Settings → Billing, then either (a) read real token usage from the Interactions response, or (b) set the constants to Google's ranges. Until then treat every tracked $ figure as UNCONFIRMED.
+
 ---
 
 ## Cost Model (Estimates)

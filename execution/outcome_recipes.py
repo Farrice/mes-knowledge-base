@@ -131,6 +131,7 @@ RECIPES: dict[str, OutcomeRecipe] = {
         artifact="source-backed research package with plan, evidence ledger, claim table, social listening, and synthesis",
         verifiers=(
             "python3 execution/verify_deep_research_os.py",
+            "python3 execution/verify_deep_research_ledger.py",
             "python3 execution/verify_free_first_research_mission.py",
         ),
         plugin_ladder="workflow and cold command wrapper first; promote only after repeated receipts",
