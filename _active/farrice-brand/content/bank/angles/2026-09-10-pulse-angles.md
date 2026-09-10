@@ -1,0 +1,10 @@
+# Pulse Angle Bank — 2026-09-10 (loop run #12)
+> 6 angles from `research_outputs/market-pulse/2026-09-10-pulse.md`. Pillars: P1 Message Before the Money · P2 Claim-Safe Is a Growth Lever · P3 The Body Doesn't Read Your Deck · P4 The Sea of Same · P5 The Machine Is Reading Your Label.
+> Caution flag: the TruHeight angles (P1, P2) comment on a publicly filed, publicly finalized FTC order and its own stated terms — factual commentary on public regulatory action, not a claim-risk assertion beyond what TruHeight itself settled. TruHeight is a Dream 100 hot-list brand; per the teardown rule, any DM version stays observational and never reads as outreach timed to their legal exposure — whether to attempt outreach at all is flagged for Farrice's call in the pulse report, not assumed here. The NORTH Performance, Medici/David Protein, and SlimFast angles comment on publicly announced launches, funding, and repositioning — no named-live-prospect critique.
+
+1. (P1) A kids' supplement brand just got a federal price tag for a sentence it never proof-checked: $4 million, suspended to $750K for inability to pay.
+2. (P2) The FTC didn't just ban the claim. It banned the fake reviews and bot profiles a brand built to keep propping the claim up — one weak sentence, three separate violations stacked underneath it.
+3. (P3) Thirty athletes just co-signed a supplement brand with a combined hundred million followers. None of them have written the label copy yet, and the body decides if "Foundation" and "Ultra" mean anything after the third week.
+4. (P4) A protein-bar founder just raised $250 million to run the identical growth playbook on candy, then chips. Read the messaging before you assume a new brand is a new voice.
+5. (P4) SlimFast just spent five million pounds rewriting itself for GLP-1 users. Whoever wrote that copy just set the default words the rest of the category will borrow.
+6. (P5) Thirty athletes, a hundred million followers, zero AI-search footprint — yet. Ask ChatGPT about this brand today. There's nothing to find. Ask again after launch.
