@@ -356,8 +356,13 @@ def _seat_claude(model_arg: str, effort: str, full_prompt: str) -> dict:
     cmd = ["claude", "-p", "--tools", "", "--model", model_arg, "--effort", effort,
            "--output-format", "json", "--no-session-persistence",
            "--append-system-prompt", SYSTEM]
+    # One-shot call: nothing to compact. The user's settings.json sets
+    # CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50, which made a 77K-token prompt at
+    # --effort high "thrash" (2026-09-10, Jen board). Disable it for the seat.
+    env = dict(os.environ, DISABLE_AUTO_COMPACT="1")
+    env.pop("CLAUDE_AUTOCOMPACT_PCT_OVERRIDE", None)
     r = subprocess.run(cmd, input=full_prompt, capture_output=True, text=True,
-                       timeout=CLAUDE_TIMEOUT_S, cwd=_scratch_dir())
+                       timeout=CLAUDE_TIMEOUT_S, cwd=_scratch_dir(), env=env)
     out = r.stdout or ""
     try:
         j = json.loads(out)
