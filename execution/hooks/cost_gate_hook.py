@@ -91,6 +91,8 @@ PAID_PATTERNS = [
     (re.compile(r"python3?\s+\S*generate_media\.py\s+run\b"), _generic_service),
     (re.compile(r"python3?\s+\S*deep_research_(?:client|engine)\.py\b"),
      lambda c: "gemini-deep-research"),
+    (re.compile(r"python3?\s+\S*research\.py\s+(?:gemini-start\b|run\b[^\n;]*--mode[= ]gemini\b)"),
+     lambda c: "gemini-deep-research"),
     (re.compile(r"python3?\s+\S*perplexity_client\.py\s.*--research|curl\b[^|;]*sonar-deep-research"),
      lambda c: "perplexity-research"),
     (re.compile(r"python3?\s+\S*monid_client\.py\b"), lambda c: "monid"),
@@ -199,6 +201,8 @@ def self_test() -> int:
         "python3 execution/generate_media.py index --file out.png --model gpt-image-2",
         "grep -r 'sonar-deep-research' directives/",
         "git diff execution/fal_video_seedance.py",
+        "python3 execution/research.py run --mission mission.json --mode codex-native",
+        "python3 execution/research.py bakeoff --mission mission.json --candidates-dir out --out-dir grade",
     ]
     must_match = [
         ("python3 execution/fal_video_seedance.py --image a.png --prompt 'x' "
@@ -213,6 +217,9 @@ def self_test() -> int:
         ("python3 execution/generate_media.py run --model recraft-v3 --prompt 'x'",
          "fal-generic"),
         ("skills/fantastic-posters/gen.sh \"brief\" --style=swiss", "fal-poster"),
+        ("python3 execution/research.py run --mission mission.json --mode gemini --out-dir out",
+         "gemini-deep-research"),
+        ("python3 execution/research.py gemini-start --query 'x'", "gemini-deep-research"),
     ]
 
     def resolve(cmd):

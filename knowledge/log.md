@@ -780,3 +780,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-16 08:02]` **compile** | Full compilation — 1138 files, 3,603,261 words, 66 lint issues
 - `[2026-08-16 10:09]` **finalize** | Angle Map Listening Brief 2026-08-16 (Sunday, education chapter): the second price — entering club/m | general | Oren Operational Systems — composite:6.67 status:Needs Improvement
 - `[2026-08-17 00:50]` **finalize** | Preservation-first Mac recovery control package, exact duplicate and worktree manifests, Drive recei | strategy | system-audit — composite:7.0 status:Needs Improvement
+- `[2026-08-17 10:42]` **finalize** | Deep PMF decision brief for LinkedIn-led health-performance offers, with ICP, avatar manifold, paid  | general | research-intelligence-agent — composite:8.67 status:Keep
+- `[2026-08-17 11:16]` **finalize** | Corrected recent-offer LinkedIn PMF verdict with cross-session authority ledger, current market evid | research | research-intelligence-agent — composite:6.67 status:Needs Improvement
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep

@@ -2,12 +2,14 @@
 """
 Deep Research Client — Gemini Interactions API wrapper for Antigravity workflows.
 
-Calls Google's Deep Research API (released Dec 2025, Max variant April 2026).
-Uses the Ultra-linked AI Studio key (GOOGLE_AI_STUDIO_KEY) — billed against
-Ultra subscription coverage with $10 prepaid balance as defense-in-depth.
+Calls Google's Deep Research Agent API through the Interactions endpoint.
+``GOOGLE_AI_STUDIO_KEY`` identifies the dedicated research credential; it does
+not prove consumer-subscription coverage. API billing is tracked separately and
+must be guarded by the calling Research OS mission.
 
 Billing pathway: see directives/google-api-usage-policy.md
-Three layers of defense guarantee surprise bills are physically impossible.
+The client records conservative provider exposure. A mission-level hard cap is
+required before live bakeoff execution.
 
 Usage:
     from deep_research_client import DeepResearchClient, load_env
@@ -15,10 +17,10 @@ Usage:
     load_env()
     client = DeepResearchClient()
 
-    # Standard Deep Research (faster, ~$0.25-0.50)
+    # Standard Deep Research (Google currently estimates ~$1-$3 typical)
     result = client.research("AI consulting market 2026", mode="standard")
 
-    # Deep Research Max (comprehensive, ~$0.50-1.50)
+    # Deep Research Max (Google currently estimates ~$3-$7 typical)
     result = client.research("Premium coaching offer positioning", mode="max")
 
     print(result.text)
@@ -50,7 +52,7 @@ BASE_PATH = Path(__file__).parent.parent
 ENV_PATH = BASE_PATH / ".env"
 USAGE_FILE = BASE_PATH / ".agent" / "gemini-api-usage.json"
 
-# Defense Layer 3: prepaid ceiling. Anything more is a code bug.
+# Local tracking ceiling. This is not proof of a provider-side billing cap.
 PREPAID_CEILING_USD = 10.00
 
 # Hard block threshold — BudgetExhaustedError fires below this.
@@ -78,11 +80,11 @@ AGENT_IDS = {
     "max": "deep-research-max-preview-04-2026",
 }
 
-# Conservative estimates. Real billing tracked via prepaid balance,
-# these are for budget arithmetic before the call completes.
+# Conservative estimates from Google's current public Deep Research Agent
+# documentation. They are typical ranges, not provider-enforced maxima.
 EST_COST_PER_QUERY = {
-    "standard": 0.50,
-    "max": 1.50,
+    "standard": 3.00,
+    "max": 7.00,
 }
 
 
@@ -124,9 +126,9 @@ class DeepResearchClient:
         self.api_key = api_key or os.environ.get("GOOGLE_AI_STUDIO_KEY", "")
         if not self.api_key:
             raise ValueError(
-                "GOOGLE_AI_STUDIO_KEY not found. This is the Ultra-linked AI Studio key. "
-                "Generate it at https://aistudio.google.com/ from an account linked to Google AI Ultra. "
-                "Add it to .env. See directives/google-api-usage-policy.md."
+                "GOOGLE_AI_STUDIO_KEY not found. Configure the dedicated Google AI Studio key "
+                "through the approved secret path. API billing is separate from the Gemini app "
+                "subscription; see directives/google-api-usage-policy.md."
             )
         self.call_count = 0
         self.total_cost = 0.0
@@ -138,6 +140,7 @@ class DeepResearchClient:
         query: str,
         *,
         mode: str = "standard",
+        spend_authorization: Optional[Dict[str, Any]] = None,
         task_context: str = "",
         query_type: str = "research",
         poll_interval_seconds: int = 10,
@@ -168,15 +171,19 @@ class DeepResearchClient:
         if mode not in AGENT_IDS:
             raise ValueError(f"Unknown mode: {mode}. Use 'standard' or 'max'.")
 
+        # A local usage estimate cannot authorize provider spend. The unified
+        # Research OS issues a mission-scoped reservation only after its
+        # provider-ceiling and application-budget checks pass.
+        self._validate_spend_authorization(spend_authorization, mode)
+
         # ---- Pre-flight defense Layer 3: prepaid balance check ----
         remaining = self.budget_remaining()
         est_cost = EST_COST_PER_QUERY[mode]
 
-        if remaining < MIN_BALANCE_USD:
+        if remaining < est_cost:
             raise BudgetExhaustedError(
                 f"Deep Research budget too low (${remaining:.2f} remaining, "
-                f"need at least ${MIN_BALANCE_USD:.2f}). "
-                f"Fall back to Perplexity via perplexity_client.py."
+                f"need the full ${est_cost:.2f} conservative reservation)."
             )
 
         # Per-task cap — Deep Research calls are heavy, 5 per task is generous
@@ -190,11 +197,12 @@ class DeepResearchClient:
                 f"Collapse queries or switch tasks."
             )
 
-        # If the estimated cost would drop us below MIN_BALANCE, downgrade mode
+        # Never silently downgrade a paid mode: the requested engine is part of
+        # the sealed benchmark contract.
         if mode == "max" and (remaining - est_cost) < MIN_BALANCE_USD:
-            print(f"  ⚠️  Max mode would exhaust budget. Downgrading to standard.")
-            mode = "standard"
-            est_cost = EST_COST_PER_QUERY[mode]
+            raise BudgetExhaustedError(
+                f"Max mode would breach the local tracking reserve (${remaining:.2f} remaining)."
+            )
 
         # ---- Start the interaction ----
         start = time.monotonic()
@@ -238,7 +246,7 @@ class DeepResearchClient:
                 raise BudgetExhaustedError(
                     f"Deep Research start failed (HTTP {status}) — likely billing/quota. "
                     f"Response: {body}. Check directives/google-api-usage-policy.md; "
-                    f"Ultra may not have covered the call AND prepaid is exhausted."
+                    f"API billing or quota blocked the call; consumer subscription coverage is not assumed."
                 ) from e
             raise RuntimeError(
                 f"Deep Research start failed (HTTP {status}). Response: {body}"
@@ -288,22 +296,21 @@ class DeepResearchClient:
         # for every Gemini Deep Research consumer in the system.)
         text, citations = self._parse_final(final_data)
 
-        # --- Success gate: validate content BEFORE any cost accounting ---
-        # The honest-accounting fix. A 'completed' interaction that yielded no
-        # usable text must NOT increment cost, must NOT log as a real query, and
-        # must return status="failed" so the dispatcher degrades to the floor.
-        # (Previously this only blanked the text but still logged $0.50 spend and
-        # returned status="completed" — the exact false-usage / false-PASS bug.)
+        # --- Success gate: report validity and provider exposure are separate ---
+        # A completed interaction may still consume billable tokens even when
+        # its body fails our quality gate. Record conservative exposure, return
+        # status="failed", and forbid the caller from treating it as research.
         ok, reason = validate_engine_text(text, citations)
         if not ok:
-            self._log_failure(
+            self._log_usage(
                 query=query,
                 agent=AGENT_IDS[mode],
-                reason=reason,
+                estimated_cost=est_cost,
                 duration_seconds=round(duration, 2),
                 task_context=task_context,
                 query_type=query_type,
                 interaction_id=interaction_id,
+                result_status=f"invalid:{reason}",
             )
             return DeepResearchResult(
                 text="",
@@ -311,7 +318,7 @@ class DeepResearchClient:
                 agent=AGENT_IDS[mode],
                 query=query,
                 interaction_id=interaction_id,
-                estimated_cost=0.0,
+                estimated_cost=est_cost,
                 duration_seconds=round(duration, 2),
                 status="failed",
             )
@@ -328,6 +335,7 @@ class DeepResearchClient:
             task_context=task_context,
             query_type=query_type,
             interaction_id=interaction_id,
+            result_status="completed",
         )
 
         return DeepResearchResult(
@@ -393,39 +401,16 @@ class DeepResearchClient:
     def start_async(self, query: str, *, mode: str = "standard",
                     enable_google_search: bool = True,
                     enable_url_context: bool = True) -> str:
-        """Fire a Deep Research interaction and return its id IMMEDIATELY (no poll).
-        Lets the swarm run Gemini in parallel in the background. $0 to start.
-        Raises BudgetExhaustedError if balance too low, RuntimeError on API error."""
-        if mode not in AGENT_IDS:
-            raise ValueError(f"Unknown mode: {mode}")
-        if self.budget_remaining() < MIN_BALANCE_USD:
-            raise BudgetExhaustedError(
-                f"Deep Research budget too low (${self.budget_remaining():.2f}).")
-        headers = {"Content-Type": "application/json", "x-goog-api-key": self.api_key}
-        tools = []
-        if enable_google_search:
-            tools.append({"type": "google_search"})
-        if enable_url_context:
-            tools.append({"type": "url_context"})
-        payload: Dict[str, Any] = {
-            "agent": AGENT_IDS[mode], "input": query, "background": True,
-            "agent_config": {"type": "deep-research", "thinking_summaries": "auto"},
-        }
-        if tools:
-            payload["tools"] = tools
-        try:
-            resp = requests.post(f"{self.BASE_URL}/interactions", json=payload,
-                                 headers=headers, timeout=60)
-            resp.raise_for_status()
-            iid = resp.json().get("id")
-        except requests.HTTPError as e:
-            status = e.response.status_code if e.response else "?"
-            if status in (402, 403, 429):
-                raise BudgetExhaustedError(f"Deep Research start failed (HTTP {status}).") from e
-            raise RuntimeError(f"Deep Research start failed (HTTP {status}).") from e
-        if not iid:
-            raise RuntimeError("No interaction id in start response.")
-        return iid
+        """Retired uncapped start surface.
+
+        The standard `research()` method still uses the provider's background
+        Interactions API internally, but it first validates a mission-scoped
+        reservation. Collection remains available for historical interactions.
+        """
+        raise BudgetExhaustedError(
+            "Uncapped Gemini background starts are retired. Use `research.py run --mode gemini` "
+            "with a frozen mission and verified provider ceiling."
+        )
 
     def collect(self, interaction_id: str, *, query: str = "", mode: str = "standard",
                 task_context: str = "swarm-parallel-gemini") -> DeepResearchResult:
@@ -450,28 +435,35 @@ class DeepResearchClient:
                                       estimated_cost=0.0, duration_seconds=0.0,
                                       status="in_progress")
         if status == "failed":
-            self._log_failure(query=query, agent=AGENT_IDS.get(mode, ""), reason="interaction_failed",
-                              duration_seconds=0.0, task_context=task_context,
-                              query_type="research", interaction_id=interaction_id)
+            self._log_usage(query=query, agent=AGENT_IDS.get(mode, ""),
+                            estimated_cost=EST_COST_PER_QUERY.get(mode, 3.0),
+                            duration_seconds=0.0, task_context=task_context,
+                            query_type="research", interaction_id=interaction_id,
+                            result_status="provider_failed")
             return DeepResearchResult(text="", citations=[], agent=AGENT_IDS.get(mode, ""),
                                       query=query, interaction_id=interaction_id,
-                                      estimated_cost=0.0, duration_seconds=0.0, status="failed")
+                                      estimated_cost=EST_COST_PER_QUERY.get(mode, 3.0),
+                                      duration_seconds=0.0, status="failed")
         # completed
         text, citations = self._parse_final(data)
         ok, reason = validate_engine_text(text, citations)
         if not ok:
-            self._log_failure(query=query, agent=AGENT_IDS.get(mode, ""), reason=reason,
-                              duration_seconds=0.0, task_context=task_context,
-                              query_type="research", interaction_id=interaction_id)
+            self._log_usage(query=query, agent=AGENT_IDS.get(mode, ""),
+                            estimated_cost=EST_COST_PER_QUERY.get(mode, 3.0),
+                            duration_seconds=0.0, task_context=task_context,
+                            query_type="research", interaction_id=interaction_id,
+                            result_status=f"invalid:{reason}")
             return DeepResearchResult(text="", citations=citations, agent=AGENT_IDS.get(mode, ""),
                                       query=query, interaction_id=interaction_id,
-                                      estimated_cost=0.0, duration_seconds=0.0, status="failed")
-        est_cost = EST_COST_PER_QUERY.get(mode, 0.5)
+                                      estimated_cost=EST_COST_PER_QUERY.get(mode, 3.0),
+                                      duration_seconds=0.0, status="failed")
+        est_cost = EST_COST_PER_QUERY.get(mode, 3.0)
         self.call_count += 1
         self.total_cost += est_cost
         self._log_usage(query=query, agent=AGENT_IDS[mode], estimated_cost=est_cost,
                         duration_seconds=0.0, task_context=task_context,
-                        query_type="research", interaction_id=interaction_id)
+                        query_type="research", interaction_id=interaction_id,
+                        result_status="completed")
         return DeepResearchResult(text=text.strip(), citations=citations, agent=AGENT_IDS[mode],
                                   query=query, interaction_id=interaction_id,
                                   estimated_cost=est_cost, duration_seconds=0.0, status="completed")
@@ -486,7 +478,16 @@ class DeepResearchClient:
         if usage.get("current_month") != current_month:
             return PREPAID_CEILING_USD
 
-        spent = usage.get("usage", {}).get("estimated_cost_usd", 0)
+        queries = usage.get("usage", {}).get("queries", []) or []
+        seen = set()
+        spent = 0.0
+        for row in queries:
+            interaction = row.get("interaction_id")
+            key = interaction or f"legacy:{row.get('timestamp')}:{row.get('description')}"
+            if key in seen:
+                continue
+            seen.add(key)
+            spent += float(row.get("estimated_cost", 0.0) or 0.0)
         return PREPAID_CEILING_USD - spent
 
     def usage_summary(self) -> Dict[str, Any]:
@@ -507,6 +508,51 @@ class DeepResearchClient:
         except (json.JSONDecodeError, OSError):
             return {}
 
+    @staticmethod
+    def _validate_spend_authorization(
+        authorization: Optional[Dict[str, Any]], mode: str
+    ) -> None:
+        """Require a live Research OS reservation before provider start."""
+        if mode != "standard":
+            raise BudgetExhaustedError("Only Gemini standard is eligible; Gemini Max is blocked.")
+        if not isinstance(authorization, dict):
+            raise BudgetExhaustedError(
+                "Gemini provider start lacks a Research OS spend reservation. "
+                "Use `research.py run --mode gemini`."
+            )
+        ledger_path = Path(str(authorization.get("ledger_path", "")))
+        reservation_id = str(authorization.get("reservation_id", ""))
+        mission_id = str(authorization.get("mission_id", ""))
+        if not ledger_path.is_file() or not reservation_id or not mission_id:
+            raise BudgetExhaustedError("Gemini spend reservation is incomplete or unavailable.")
+        try:
+            ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise BudgetExhaustedError("Gemini spend ledger cannot be verified.") from exc
+        if ledger.get("mission_id") != mission_id:
+            raise BudgetExhaustedError("Gemini spend reservation belongs to another mission.")
+        if float(ledger.get("absolute_cap_usd", -1)) != 10.0:
+            raise BudgetExhaustedError("Gemini spend ledger does not preserve the ten-dollar absolute cap.")
+        if float(ledger.get("authorization_cap_usd", -1)) != 8.0:
+            raise BudgetExhaustedError("Gemini spend ledger does not preserve the eight-dollar authorization cap.")
+        exposure = float(ledger.get("recorded_spend_usd", 0.0)) + float(
+            ledger.get("pending_upper_bound_usd", 0.0)
+        )
+        if exposure > 8.0:
+            raise BudgetExhaustedError("Gemini recorded plus pending exposure exceeds the authorization cap.")
+        rows = [
+            row for row in ledger.get("provider_calls", [])
+            if row.get("reservation_id") == reservation_id
+        ]
+        if len(rows) != 1:
+            raise BudgetExhaustedError("Gemini spend reservation is missing or duplicated.")
+        row = rows[0]
+        billing = row.get("billing_verification", {})
+        if row.get("provider") != "gemini" or row.get("mode") != "standard" or row.get("status") != "reserved":
+            raise BudgetExhaustedError("Gemini spend reservation is not an active standard reservation.")
+        if not bool(billing.get("machine_verified_hard_ceiling")):
+            raise BudgetExhaustedError("Gemini provider hard ceiling is not machine verified.")
+
     def _log_usage(
         self,
         *,
@@ -517,8 +563,13 @@ class DeepResearchClient:
         task_context: str,
         query_type: str,
         interaction_id: str,
+        result_status: str = "completed",
     ):
-        """Append a query record to the usage file."""
+        """Append one provider interaction, idempotently.
+
+        Interaction IDs are the accounting key. Polling/collecting an already
+        recorded interaction must never burn the estimate twice.
+        """
         usage = self._read_usage()
         current_month = datetime.now().strftime("%Y-%m")
 
@@ -538,9 +589,8 @@ class DeepResearchClient:
                     "last_query_timestamp": "",
                 },
                 "notes": (
-                    "Defense-in-depth tracker. Ultra subscription should cover most "
-                    "calls at $0. This tracks estimated spend against the $10 prepaid "
-                    "ceiling as a last-resort check. See directives/google-api-usage-policy.md."
+                    "Local conservative exposure tracker. It is not proof of a provider-side hard cap "
+                    "or consumer-subscription coverage. See directives/google-api-usage-policy.md."
                 ),
             }
 
@@ -548,6 +598,11 @@ class DeepResearchClient:
             "usage",
             {"total_queries": 0, "estimated_cost_usd": 0.0, "queries": []},
         )
+        if interaction_id and any(
+            row.get("interaction_id") == interaction_id
+            for row in usage_data.get("queries", [])
+        ):
+            return False
         usage_data["total_queries"] = usage_data.get("total_queries", 0) + 1
         usage_data["estimated_cost_usd"] = round(
             usage_data.get("estimated_cost_usd", 0) + estimated_cost, 4
@@ -563,6 +618,7 @@ class DeepResearchClient:
             "estimated_cost": estimated_cost,
             "duration_seconds": duration_seconds,
             "interaction_id": interaction_id,
+            "result_status": result_status,
         })
 
         loop = usage.setdefault("loop_detection", {})
@@ -575,6 +631,7 @@ class DeepResearchClient:
 
         USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
         USAGE_FILE.write_text(json.dumps(usage, indent=4))
+        return True
 
     def _log_failure(
         self,
@@ -587,13 +644,7 @@ class DeepResearchClient:
         query_type: str,
         interaction_id: str,
     ):
-        """Record a failed/empty Deep Research call WITHOUT burning budget.
-
-        This is the honest-accounting half of the success gate. A completed
-        interaction that produced no usable text is a FAILURE — it must stay
-        visible (so 'did Gemini actually deliver?' is answerable) but must never
-        touch estimated_cost_usd, the queries array, or loop_detection counts.
-        """
+        """Record a failure known to occur before a billable interaction starts."""
         usage = self._read_usage()
         failures = usage.setdefault("failures", [])
         failures.append({

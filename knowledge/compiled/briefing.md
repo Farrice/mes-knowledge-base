@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-08-16 | 1138 sources | 3,603,261 words*
+*Generated: 2026-08-17 | 1112 sources | 3,390,820 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 19,197 words — `knowledge/log.md`
-- **amplification-report** (research [jason-fladlien]) — 1,238 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/amplification-report.md`
-- **architecture** (copywriting [jason-fladlien]) — 1,553 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/architecture.md`
-- **behavior-proof** (copywriting [jason-fladlien]) — 2,054 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/behavior-proof.md`
-- **canonical-admission-map** (research [jason-fladlien]) — 3,120 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-admission-map.md`
-- **canonical-deployment-receipt** (research [jason-fladlien]) — 1,105 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-deployment-receipt.md`
-- **development-behavior-proof** (copywriting [jason-fladlien]) — 1,376 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-behavior-proof.md`
-- **development-benchmark** (sales [lara-acosta]) — 1,468 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-benchmark.md`
-- **implementation-receipt** (systems [jason-fladlien]) — 969 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/implementation-receipt.md`
+- **march_2026_briefing** (seo) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
+- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
+- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
+- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
+- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
+- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [april-dunford]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 362 | nathan-gotch |
+| content | 341 | nathan-gotch |
 | copywriting | 197 | jason-fladlien |
 | general | 123 | nick-saraev |
-| screenwriting | 118 | connelly |
-| strategy | 113 | april-dunford |
+| screenwriting | 117 | connelly |
+| strategy | 111 | april-dunford |
 | brand | 66 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
-| research | 41 | jason-fladlien |
-| sales | 14 | dai-media |
+| research | 40 | jason-fladlien |
+| sales | 13 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

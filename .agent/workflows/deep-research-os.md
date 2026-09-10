@@ -50,6 +50,41 @@ The contract lives at
 This is a companion execution path under the existing owner, not a new command
 surface or competing research system.
 
+## Unified Modes
+
+`/deep-research-os` is the sole owner of the parity runtime. Modes are explicit
+and provider execution never happens through generic routing:
+
+| Mode | Behavior | Provider API spend |
+|---|---|---:|
+| `auto` | Selects `codex-native`; it never escalates automatically. | $0 |
+| `codex-native` | Native web loop, claim evidence, gap closure, counterevidence, citation verification, authority resolution. | $0 |
+| `gemini` | One standard managed-agent challenger after billing and cost gates. No Max, retry, or fallback. | Capped, explicit |
+| `benchmark-import` | Validates a native ChatGPT or Gemini subscription export and preserves citations/provenance. | $0 incremental API cost |
+| `ensemble` | Bakeoff-only staging/comparison. It never selects or fires candidates automatically. | Candidate-specific |
+
+The OpenAI API adapter is parked for this benchmark because it is not the
+consumer ChatGPT Deep Research subscription feature. Native ChatGPT Deep
+Research enters through `benchmark-import`.
+
+Unified entrypoints:
+
+```bash
+python3 execution/research.py run --mission [mission.json] \
+  --mode auto --depth deep --max-total-provider-spend 10
+
+python3 execution/research.py bakeoff --mission [mission.json] \
+  --candidates-dir [candidate-dir] --out-dir [bakeoff-dir] \
+  --blind --max-total-provider-spend 10
+```
+
+The parity companion normalizes `ResearchMission`, `ResearchClaim`,
+`ResearchReceipt`, and `ResearchResult` data through
+`execution/research_bakeoff.py`. It enforces a $10 absolute ceiling, an $8
+application authorization ceiling, a $2 reporting-lag reserve, one Gemini
+standard interaction, interaction-ID idempotency, and fail-closed unknown
+billing state. A local ledger is not represented as a provider billing cap.
+
 For Kimi-style research, `/deep-research-os` remains the owner and
 `/kimi-swarm` is only the packet compiler: it decomposes the objective, casts
 expert research angles, emits worker briefs, and hands sourced findings back to
@@ -255,7 +290,9 @@ Choose the smallest stack that covers the research job.
 |---|---|
 | Current research in Codex with no paid tools or subagents | Free-First Research Mission under `/deep-research-os` |
 | One deep, current question | `/deep-research` |
-| Gemini-first deep research | `/deep-research-gemini` |
+| Explicit Gemini standard calibration challenger | `research.py run --mode gemini` after billing and cost gates |
+| Native ChatGPT/Gemini subscription output | `research.py run --mode benchmark-import` |
+| Blind parity comparison | `research.py bakeoff` / `research_bakeoff.py bakeoff` |
 | Market + audience + system scan | `/research-swarm` |
 | Custom independent angles | `/parallel-research --angles` |
 | Competitor positioning/pricing/content gaps | `/competitor-intel` |
@@ -304,18 +341,20 @@ python3 execution/free_first_research.py ingest --mission .tmp/research-missions
 python3 execution/free_first_research.py verify --mission .tmp/research-missions/[mission-id] --require-receipt
 ```
 
-Provider-backed entrypoint only after explicit approval for that provider and
-cost boundary:
+Provider-backed entrypoint only after explicit approval for that provider, a
+machine-verified provider hard ceiling, and the shared cost boundary:
 
 ```bash
-python3 execution/research.py "[research question]" --depth quick|standard|deep|max
+python3 execution/research.py run --mission [mission.json] --mode gemini \
+  --depth deep --max-total-provider-spend 10 --provider-spend-approved
 ```
 
-Unified receipt-bearing research entrypoint:
+Native/import/ensemble entrypoints:
 
 ```bash
-python3 execution/research.py plan --query "[research question]" --depth standard
-python3 execution/research.py ingest --findings .tmp/research/<slug>/native-findings.jsonl --query "[research question]" --depth standard --swarm
+python3 execution/research.py run --mission [mission.json] --mode codex-native --depth deep --max-total-provider-spend 10
+python3 execution/research.py run --mission [mission.json] --mode benchmark-import --report [export.md] --receipt [receipt.json]
+python3 execution/research.py run --mission [mission.json] --mode ensemble --depth deep --max-total-provider-spend 10
 ```
 
 For local-only research, search the workspace and existing compiled knowledge
@@ -380,11 +419,30 @@ Every final report uses claim labels:
 Run the quality gate before downstream use:
 
 ```bash
-python3 execution/research_quality_gate.py validate [final_report.md] --strict --source-ledger [source_ledger.md]
+python3 execution/research_quality_gate.py validate [final_report.md] --strict --depth deep --receipt
 ```
 
 If the gate fails, revise the research or downgrade the claim. Do not launder
 weak evidence into confident strategy.
+
+Strict validation without an explicit `--depth` fails closed. A report cannot
+inherit a three-source or `unknown` floor merely because its heading omitted a
+depth label.
+
+## Deep-Research Parity Verdict
+
+Blind grading retains URLs and removes provider identities. Score weights are:
+citation accuracy 20, authority resolution 20, decision usefulness 20,
+counterevidence 15, source breadth/quality 10, cost 10, and time 5.
+
+Codex-native is `EQUIVALENT` only at 85/100 or higher, within five points of
+the best sealed provider, with at least 90% verified load-bearing claims, 100%
+support for pricing/statistical/regulatory/health factual claims, 80% citation
+and authority dimension scores, meaningful counterevidence, preserved parked
+concepts, and a decision-useful ICP/offer/LinkedIn proof/kill-gate result.
+Until all three candidates and claim audits exist, the verdict remains
+`PARTIAL`. Missing provider access or an unverified billing ceiling is not a
+reason to weaken the standard.
 
 ### 10. Package The Output
 
