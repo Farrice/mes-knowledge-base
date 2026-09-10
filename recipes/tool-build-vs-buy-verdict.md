@@ -3,8 +3,8 @@ job: tool-build-vs-buy-verdict
 name: Tool build-vs-buy verdict
 family: harness
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 1
+last_ratchet: 2026-09-10
 ---
 
 ## The job

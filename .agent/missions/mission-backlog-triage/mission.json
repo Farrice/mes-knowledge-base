@@ -1,0 +1,195 @@
+{
+  "activation_queue": [
+    {
+      "after": [],
+      "blocker": "",
+      "evidence_path": "scratchpad/open-missions.json",
+      "expected_artifact": "`python3 execution/pulse_dashboard.py --open`; `handoff_store.py list --rich --all`; `job_board.py status --all`",
+      "id": "L1",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:22:34+00:00",
+      "validation_assertion": "",
+      "workflow": "Board read"
+    },
+    {
+      "after": [
+        "L1"
+      ],
+      "blocker": "",
+      "evidence_path": "scratchpad/evidence-a.json+evidence-b.json",
+      "expected_artifact": "for each open line: what shipped (deliverable paths, git log, catalog `work_catalog.py`), last handoff, days idle",
+      "id": "L2",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:33:14+00:00",
+      "validation_assertion": "",
+      "workflow": "Evidence per mission"
+    },
+    {
+      "after": [
+        "L2"
+      ],
+      "blocker": "",
+      "evidence_path": "scratchpad/triage.json",
+      "expected_artifact": "DONE-UNCLOSED (write the done line) / DUPLICATE (close to the survivor) / STALE-DEAD (kill) / LIVE (park with hint) / HIS-CALL (packet)",
+      "id": "L3",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:33:45+00:00",
+      "validation_assertion": "",
+      "workflow": "Classify"
+    },
+    {
+      "after": [
+        "L3"
+      ],
+      "blocker": "",
+      "evidence_path": "/Users/farricecain/Google Antigravity/.agent/missions.jsonl",
+      "expected_artifact": "done lines appended to `.agent/missions.jsonl`; duplicates closed with `outcome: superseded by <slug>`",
+      "id": "L4",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:34:09+00:00",
+      "validation_assertion": "",
+      "workflow": "Close the mechanical ones"
+    },
+    {
+      "after": [
+        "L3"
+      ],
+      "blocker": "",
+      "evidence_path": ".agent/handoffs/2026-09-10-god-agent-offer.md",
+      "expected_artifact": "`python3 execution/pulse_actions.py park <slug> --reason \"\u2026\"`; rich parks also `handoff_store.py save --thread <slug> --status blocked --hint \u2026 --unfinished \u2026`",
+      "id": "L5",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:34:09+00:00",
+      "validation_assertion": "",
+      "workflow": "Park the live ones"
+    },
+    {
+      "after": [
+        "L3"
+      ],
+      "blocker": "packet #1: Kith-style MyBPM site \u2014 finish / park / kill is his",
+      "evidence_path": ".agent/missions/mission-backlog-triage/decisions.md",
+      "expected_artifact": "one per HIS-CALL mission: finish / park / kill with the evidence line",
+      "id": "L6",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:46:26+00:00",
+      "validation_assertion": "",
+      "workflow": "Packets for his calls"
+    },
+    {
+      "after": [
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "blocker": "",
+      "evidence_path": "/Users/farricecain/Google Antigravity/.agent/pulse/pulse-board.html",
+      "expected_artifact": "pulse board regen, `session_brief` missions line, one closing table (before/after counts)",
+      "id": "L7",
+      "kind": "lane",
+      "next_action": "",
+      "owner": "claude",
+      "status": "complete",
+      "updated_at": "2026-09-10T12:34:21+00:00",
+      "validation_assertion": "",
+      "workflow": "Regenerate + receipt"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [],
+    "required": false,
+    "root": "",
+    "type": "none"
+  },
+  "context_requirements": [],
+  "created_at": "2026-09-10T12:20:34+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L7",
+      "L6"
+    ],
+    "planned_lanes": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7"
+    ],
+    "proof_artifacts": [
+      "scratchpad/open-missions.json",
+      "scratchpad/evidence-a.json+evidence-b.json",
+      "scratchpad/triage.json",
+      "/Users/farricecain/Google Antigravity/.agent/missions.jsonl",
+      ".agent/handoffs/2026-09-10-god-agent-offer.md",
+      ".agent/missions/mission-backlog-triage/decisions.md",
+      "/Users/farricecain/Google Antigravity/.agent/pulse/pulse-board.html"
+    ],
+    "resume_command": "/mission resume mission-backlog-triage",
+    "skipped_lanes": [
+      "L6: packet #1: Kith-style MyBPM site \u2014 finish / park / kill is his"
+    ],
+    "validators_run": []
+  },
+  "goal": "Drain the 54 open missions: finish, park, or kill each; packets only for the calls that are Farrice's; zero open missions older than 14 days without a park handoff",
+  "handoffs": [],
+  "job": {
+    "closed_at": "2026-09-10T05:46:50-07:00",
+    "harness": "claude",
+    "last_note": "54 \u2192 2 open; 29 closed as done, 14 killed, 7 superseded, 3 parked, 1 packet open",
+    "opened_at": "2026-09-10T05:20:34-07:00",
+    "opened_by": "claude",
+    "recipe": "mission-backlog-triage",
+    "serves": "orphan",
+    "verdict": "good"
+  },
+  "librarian": {
+    "notes": "",
+    "required": false,
+    "status": "not_applicable"
+  },
+  "mode": "system",
+  "name": "Mission backlog triage",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "",
+    "next_command": "python3 execution/job_board.py next mission-backlog-triage",
+    "notes": "",
+    "required": false,
+    "resume_command": "/mission resume mission-backlog-triage",
+    "state_sources": [
+      ".agent/missions/mission-backlog-triage/mission.json",
+      ".agent/intent-memory/current.json",
+      ".agent/system-cohesion-state.json"
+    ]
+  },
+  "slug": "mission-backlog-triage",
+  "status": "complete",
+  "updated_at": "2026-09-10T12:46:50+00:00",
+  "validation_assertions": []
+}

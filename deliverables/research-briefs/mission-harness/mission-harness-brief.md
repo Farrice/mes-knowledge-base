@@ -1,6 +1,6 @@
 # Harness — Cockpit
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 5 sessions · 0 files · 2 assets · compiled: sep 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 4 sessions · 0 files · 2 assets · compiled: sep 10, 2026
 
 This one is done being useful for now. Building more of it is how the sprint dies.
 
@@ -8,16 +8,16 @@ This one is done being useful for now. Building more of it is how the sprint die
 _CURRENT POSITION_
 The system-building thread has been quiet for nearly two weeks and that is the right outcome, not a problem — the last real work here closed with your own verdict of good and the sprint does not need more machinery.
 
-Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 2 assets generated.
+Stage: build — files are moving; nothing finalized. In the last 14 days: 4 sessions, 2 assets generated.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
 Next: Leave this parked and touch it only when a specific sprint task hits friction you can name in one sentence.
 
 ## the state, as the last session left it
 Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.
 
-Handoff written 20d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 21d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -58,8 +58,8 @@ RESUME HERE: Harness — Cockpit
 
 ## by the numbers
 - ASSETS GENERATED: **2**
-- SESSIONS: **5** (codex)
-- DAYS ACTIVE: **7 d**
+- SESSIONS: **4** (codex)
+- DAYS ACTIVE: **6 d**
 
 ## momentum
 
@@ -77,7 +77,6 @@ RESUME HERE: Harness — Cockpit
 - 2026-09-07 · **codex session** — Audit GPT-6 harness readiness
 - 2026-09-06 · **codex session** — System: Antigravity Harness Intelligence…
 - 2026-09-03 · **codex session** — System: Sprint Recovery & Harness De-Hobbling…
-- 2026-09-01 · **codex session** — Design: Layout & Composition Intelligence - Harness Integra…
 
 ## the record
 - **Build an expert-assembly skill system for the Antigravity harness extending /convene, coun** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Expert Assembly OS /assemble (missions.jsonl · done)
@@ -93,7 +92,7 @@ RESUME HERE: Harness — Cockpit
 _READ THE EDGES_
 The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.
 
-The judged analysis above is 19 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 20 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

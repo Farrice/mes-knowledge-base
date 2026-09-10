@@ -558,6 +558,18 @@
       "moved_at": "2026-07-29T04:13:04+00:00",
       "project": "harness-apex-2026-07-07"
     },
+    "/Users/farricecain/Google Antigravity/_active/harness/DESIGN-PREVIEW.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/harness/04-deliverables/DESIGN-PREVIEW.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-09-10T13:00:24+00:00",
+      "project": "harness"
+    },
+    "/Users/farricecain/Google Antigravity/_active/harness/PRIVATE-OS-COMPARISON.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/harness/04-deliverables/PRIVATE-OS-COMPARISON.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-09-10T13:00:24+00:00",
+      "project": "harness"
+    },
     "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/CANON.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/04-deliverables/CANON.md",
       "lifecycle": "deliverable",
@@ -2161,6 +2173,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-30T12:31:48+00:00",
+  "updated_at": "2026-09-10T13:00:24+00:00",
   "version": 1
 }
