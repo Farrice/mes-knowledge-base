@@ -13,7 +13,7 @@ once) plus its own history. Pick the seat per chat node:
 
 | seat | runs through | cost |
 |---|---|---|
-| sonnet · opus · fable | `claude -p` headless, scratch cwd, no tools | on the Claude Code plan (est. shown) |
+| sonnet · opus · fable | `claude -p` headless, scratch cwd, no tools — tick **🔎 research** on the chat node to open WebSearch/WebFetch only (live numbers, URLs beside them) | on the Claude Code plan (est. shown) |
 | gemini-flash · gemini-pro | `execution/gemini_client.py` | cents, ledgered |
 | gpt | `codex exec` headless | on the ChatGPT plan |
 
@@ -30,7 +30,19 @@ open "http://127.0.0.1:8765/canvas"
 picker in the top bar creates new boards. Boards live in
 `.agent/canvas/boards/<slug>.json` (gitignored — user data, transcripts).
 
-## On the board
+## On the board (Poppy-form, 2026-09-10)
+
+Left rail: 💬 chat · ▶ YouTube/TikTok link · 👤 creator profile (channel or
+TikTok handle → latest posts, each addable with +) · 🌐 article/PDF link ·
+📄 file on this Mac · 🎤 voice note · ✎ note (wire it into a chat and it acts
+as that chat's skill / system prompt — shown as a chip on the compose row).
+Source cards show a thumbnail, platform badge, token count and a `transcript`
+expander. A chat card is a panel: conversations on the left (each keeps its own
+thread, all read the same wired sources; the first ask names the thread), the
+thread on the right with replies rendered (tables, bold, lists, code blocks
+with copy), then model · effort · 🔎 research · send. ⤢ or `f` = fullscreen
+chat, Esc closes. Bottom-right: fit · + · − · ◐ light/dark.
+
 
 wheel = zoom · drag empty = pan · drag a card's head = move · drag the ● on a
 card's right edge onto another card = wire · click a wire = cut · double-click

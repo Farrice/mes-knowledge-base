@@ -16,15 +16,15 @@
     },
     {
       "after": [],
-      "blocker": "",
-      "evidence_path": ".agent/missions/poppy-canvas-verdict/parity-fixture.md (stand-in: Hormozi 4 latest \u2192 hooks; his real fixture arrives via packet 1)",
+      "blocker": "packet 1 answered A but macOS Screen Recording is not granted to the Claude app and the Chrome extension is not connected \u2014 grant one, or paste the Jen URLs + ask",
+      "evidence_path": ".agent/missions/poppy-canvas-verdict/parity-fixture.md (Jen board observed + Run 2), jen-poppy-thread-raw.md, jen-poppy-thread-full.txt, jen-poppy-thread-2-instagram-agent-structure.md",
       "expected_artifact": "the exact job he runs in the paid tool (his tab, or his URLs + ask), written as a fixture: inputs, the ask, what a good answer contains",
       "id": "L2",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
       "status": "complete",
-      "updated_at": "2026-09-10T13:06:10+00:00",
+      "updated_at": "2026-09-10T15:17:35+00:00",
       "validation_assertion": "",
       "workflow": "Parity spec"
     },
@@ -33,14 +33,14 @@
         "L2"
       ],
       "blocker": "",
-      "evidence_path": "parity-fixture.md Run 1: ingest 16s, reply 15.2s Sonnet est 0.32 USD on plan, 34,380 ctx tokens, first lines quoted, garble flagged; board .agent/canvas/boards/hormozi-test.json",
+      "evidence_path": "Run 2 on his real fixture: board jen-sfv, 5 Poppy videos + voice note, 77K tok, 355 s, est $5.13 on plan; reply jen-canvas-reply-run1.md; gap = no web tool in seat; autocompact thrash bug fixed in canvas_board._seat_claude",
       "expected_artifact": "the fixture through the local version; time, tokens, cost, and the answer beside the paid tool's",
       "id": "L3",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
       "status": "complete",
-      "updated_at": "2026-09-10T13:06:10+00:00",
+      "updated_at": "2026-09-10T15:17:35+00:00",
       "validation_assertion": "",
       "workflow": "Parity run"
     },
@@ -96,14 +96,14 @@
         "L1"
       ],
       "blocker": "packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
-      "evidence_path": "/canvas reachable at http://127.0.0.1:8765/canvas; worktree-poppy-canvas merged to main at e95048ccd",
+      "evidence_path": "worktree_lane.py merge \u2192 LANE MERGED 6 commits / 26 files; launchctl kickstart pulse-serve; curl http://127.0.0.1:8765/canvas \u2192 200; Homebase tile live",
       "expected_artifact": "merge the lane so the always-on server has it; Homebase tile live; needs the merge-over-dirty-main approval",
       "id": "L7",
       "kind": "lane",
       "next_action": "absorb main, then worktree_lane.py merge --lane worktree-poppy-canvas",
       "owner": "claude",
       "status": "complete",
-      "updated_at": "2026-09-10T14:21:32+00:00",
+      "updated_at": "2026-09-10T13:21:55+00:00",
       "validation_assertion": "",
       "workflow": "Land it"
     }
@@ -144,24 +144,26 @@
       ".agent/missions/poppy-canvas-verdict/cost-table.md \u2014 keep $66-90/mo vs canvas $0-2/mo; heavy session $0 marginal on plan; build 1 session spent, ~1 left for option A",
       ".agent/missions/poppy-canvas-verdict/verdict-memo.md \u2014 Do: one real job this week, let the trial lapse; Don't: chase parity; Wrong-if: IG/TikTok-heavy, latency kills the feel, or the tab habit never forms",
       "worktree_lane.py merge \u2192 LANE PARKED (main dirty, 71 tracked changes)",
-      "/canvas reachable at http://127.0.0.1:8765/canvas; worktree-poppy-canvas merged to main at e95048ccd"
+      "worktree_lane.py merge \u2192 LANE MERGED 6 commits / 26 files; launchctl kickstart pulse-serve; curl http://127.0.0.1:8765/canvas \u2192 200; Homebase tile live",
+      "stand-in fixture on disk; request_access(Google Chrome) refused by macOS",
+      ".agent/missions/poppy-canvas-verdict/parity-fixture.md (Jen board observed + Run 2), jen-poppy-thread-raw.md, jen-poppy-thread-full.txt, jen-poppy-thread-2-instagram-agent-structure.md",
+      "Run 2 on his real fixture: board jen-sfv, 5 Poppy videos + voice note, 77K tok, 355 s, est $5.13 on plan; reply jen-canvas-reply-run1.md; gap = no web tool in seat; autocompact thrash bug fixed in canvas_board._seat_claude"
     ],
     "resume_command": "/mission resume poppy-canvas-verdict",
     "skipped_lanes": [
-      "L7: packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile"
+      "L7: packet 3 \u2014 absorb main + merge is his to run; 8766 serves meanwhile",
+      "L2: packet 1 answered A but macOS Screen Recording is not granted to the Claude app and the Chrome extension is not connected \u2014 grant one, or paste the Jen URLs + ask"
     ],
     "validators_run": []
   },
   "goal": "A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on",
   "handoffs": [],
   "job": {
-    "closed_at": "2026-09-10T07:21:47-07:00",
     "harness": "claude",
     "opened_at": "2026-09-10T06:03:59-07:00",
     "opened_by": "claude",
     "recipe": "tool-build-vs-buy-verdict",
-    "serves": "orphan",
-    "verdict": "good"
+    "serves": "orphan"
   },
   "librarian": {
     "notes": "",
@@ -184,7 +186,7 @@
     ]
   },
   "slug": "poppy-canvas-verdict",
-  "status": "complete",
-  "updated_at": "2026-09-10T14:21:47+00:00",
+  "status": "active",
+  "updated_at": "2026-09-10T15:17:35+00:00",
   "validation_assertions": []
 }

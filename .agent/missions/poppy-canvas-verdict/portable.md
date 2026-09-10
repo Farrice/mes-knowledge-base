@@ -1,4 +1,4 @@
-# JOB PACKET — poppy-canvas-verdict · for claude · generated 2026-09-10T06:07:39-07:00 on claude (branch worktree-poppy-canvas)
+# JOB PACKET — poppy-canvas-verdict · for claude · generated 2026-09-10T06:21:56-07:00 on claude (branch worktree-poppy-canvas)
 
 ## Resume
 - `python3 execution/job_board.py resume poppy-canvas-verdict` then follow `skills/nate-b-jones-manager-loop/workflows/manager-loop-run.md`
@@ -13,36 +13,42 @@
 | id | status | owner | after | expected | evidence | blocker |
 |---|---|---|---|---|---|---|
 | L1 | complete | claude | — | Reachable now | curl http://127.0.0.1:8766/canvas → 200 (lane serv |  |
-| L2 | complete | claude | — | Parity spec | .agent/missions/poppy-canvas-verdict/parity-fixtur |  |
+| L2 | blocked | claude | — | Parity spec | stand-in fixture on disk; request_access(Google Ch | packet 1 answered A but macOS Screen Recording is  |
 | L3 | complete | claude | L2 | Parity run | parity-fixture.md Run 1: ingest 16s, reply 15.2s S |  |
 | L4 | complete | claude | — | Ingestion edges | ingestion-edges.md: YouTube video PASS 1-11s · You |  |
 | L5 | complete | claude | L3,L4 | Cost table | .agent/missions/poppy-canvas-verdict/cost-table.md |  |
 | L6 | complete | claude | L5 | Verdict memo | .agent/missions/poppy-canvas-verdict/verdict-memo. |  |
-| L7 | blocked | claude | L1 | Land it | worktree_lane.py merge → LANE PARKED (main dirty,  | packet 3 — absorb main + merge is his to run; 8766 |
-runnable: none · waiting on deps: none · blocked on Farrice: L7 · done: L1, L2, L3, L4, L5, L6
+| L7 | complete | claude | L1 | Land it | worktree_lane.py merge → LANE MERGED 6 commits / 2 | packet 3 — absorb main + merge is his to run; 8766 |
+runnable: none · waiting on deps: none · blocked on Farrice: L2 · done: L1, L3, L4, L5, L6, L7
 
 ## Decision packets open
-## Packet 1 — L2 · open · 2026-09-10T06:06:27-07:00
+none
+
+## Decisions answered
+## Packet 1 — L2 · answered · 2026-09-10T06:06:27-07:00
 Choice: May I read your open Poppy tab (Claude in Chrome, read-only) so the parity fixture is your exact job, not the Hormozi stand-in?
 Irreversible? no
 Options: A: yes, read the tab | B: no — I paste the URLs + the ask here | C: the stand-in is enough
 Recommend: A
 If no answer: stand-in fixture stays; verdict rests on mechanism, not your exact job
-## Packet 2 — L6 · open · 2026-09-10T06:06:30-07:00
+
+Answer (Farrice, 2026-09-10T06:15:14-07:00): A — read the Poppy tab; the Jen social-content session pushed to Notion is the best use he's had of it
+## Packet 2 — L6 · answered · 2026-09-10T06:06:30-07:00
 Choice: What does 'worth it' mean here? It sets how much more gets built.
 Irreversible? no
 Options: A: replaces Poppy for creator-video analysis + drafting → cancel Poppy at trial end, build stops at polish | B: must match Poppy feature-for-feature (IG/TikTok transcripts, images, streaming) → more build + vidIQ credits | C: answer only → keep Poppy, park the canvas
 Recommend: A
 If no answer: A
-## Packet 3 — L7 · open · 2026-09-10T06:06:33-07:00
+
+Answer (Farrice, 2026-09-10T06:15:14-07:00): A — replace Poppy for creator-video analysis + drafting; build stops at polish
+## Packet 3 — L7 · answered · 2026-09-10T06:06:33-07:00
 Choice: Where does the canvas live for the trial week? Landing on the always-on 8765 needs main hygiene first (71 generated files from scheduled jobs, no hand work in them): python3 execution/main_drift_absorb.py then python3 execution/worktree_lane.py merge --lane worktree-poppy-canvas
 Irreversible? no
 Options: A: you run the absorb + merge now → /canvas on 8765 + Homebase tile | B: use the lane port 8766 for the week, merge later
 Recommend: A
 If no answer: B — 8766 stays up (--idle 0) until you say otherwise
 
-## Decisions answered
-none
+Answer (Farrice, 2026-09-10T06:15:14-07:00): A — land it on 8765 (absorb + merge)
 
 ## Card
 <!-- instance of recipes/tool-build-vs-buy-verdict.md · opened 2026-09-10T06:03:59-07:00 by claude on claude · goal: A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on -->
