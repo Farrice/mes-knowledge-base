@@ -354,9 +354,16 @@ def check_hook_bridge() -> list[str]:
         "session-ledger prompt",
         "guard-stranded",
         "session-ledger stop",
+        # 2026-09-09 alignment parity port (Claude's steering + session hooks on Codex)
+        "steering-loop prompt",
+        "steering-loop stop",
+        "session-brief",
+        "session-alarm",
+        "lane-bootstrap",
+        "superseded-read",
     )
-    if len(commands) != 9:
-        fail(f"expected 9 Codex hook commands, found {len(commands)}")
+    if len(commands) != 15:
+        fail(f"expected 15 Codex hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("every Codex hook command must call codex_hook_runner.py")
     for target in expected_targets:

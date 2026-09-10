@@ -416,8 +416,9 @@ def run_parity(lane: Path, main: Path, record=False):
             for hook in group.get("hooks", [])
             if hook.get("command")
         ]
-        if len(codex_commands) != 9:
-            d.append(f"Codex hooks.json expected 9 commands, found {len(codex_commands)}")
+        # 15 since the 2026-09-09 alignment parity port (9 guards + 6 ported hooks)
+        if len(codex_commands) != 15:
+            d.append(f"Codex hooks.json expected 15 commands, found {len(codex_commands)}")
         if not codex_commands or not all("codex_hook_runner.py" in command for command in codex_commands):
             d.append("Codex hook commands do not all use codex_hook_runner.py")
         for command in codex_commands:
