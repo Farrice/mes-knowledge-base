@@ -274,9 +274,11 @@ def _canvas_action(action, args):
             cb.save(board)
             return {"ok": True}
         if op == "model":
-            n = cb.set_model(board, nid, args.get("model") or None, args.get("effort") or None)
+            research = args.get("research")
+            n = cb.set_model(board, nid, args.get("model") or None, args.get("effort") or None,
+                             research=None if research is None else bool(research))
             cb.save(board)
-            return {"ok": True, "model": n["model"], "effort": n["effort"]}
+            return {"ok": True, "model": n["model"], "effort": n["effort"], "research": bool(n.get("research"))}
         if op == "edit":
             cb.edit_text(board, nid, args.get("text"), args.get("title"))
             cb.save(board)

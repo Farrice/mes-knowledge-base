@@ -13,7 +13,7 @@ once) plus its own history. Pick the seat per chat node:
 
 | seat | runs through | cost |
 |---|---|---|
-| sonnet · opus · fable | `claude -p` headless, scratch cwd, no tools | on the Claude Code plan (est. shown) |
+| sonnet · opus · fable | `claude -p` headless, scratch cwd, no tools — tick **🔎 research** on the chat node to open WebSearch/WebFetch only (live numbers, URLs beside them) | on the Claude Code plan (est. shown) |
 | gemini-flash · gemini-pro | `execution/gemini_client.py` | cents, ledgered |
 | gpt | `codex exec` headless | on the ChatGPT plan |
 

@@ -248,8 +248,11 @@ def move(board: dict, nid: str, x=None, y=None, w=None, h=None) -> dict:
     return n
 
 
-def set_model(board: dict, nid: str, model: str | None = None, effort: str | None = None) -> dict:
+def set_model(board: dict, nid: str, model: str | None = None, effort: str | None = None,
+              research: bool | None = None) -> dict:
     n = _node(board, nid)
+    if research is not None:
+        n["research"] = bool(research)  # web tools for the Claude seat only (see _seat_claude)
     if model:
         if model not in MODELS:
             raise ValueError(f"unknown model {model!r}")
@@ -348,14 +351,24 @@ def _scratch_dir() -> Path:
     return SCRATCH
 
 
-def _seat_claude(model_arg: str, effort: str, full_prompt: str) -> dict:
+RESEARCH_TOOLS = "WebSearch,WebFetch"
+RESEARCH_SYSTEM = (
+    " Research is ON for this node: before you state a current number, price, "
+    "limit, date or program status, check it on the live web with WebSearch/WebFetch "
+    "and put the source URL beside it. Mark anything you could not verify UNCONFIRMED."
+)
+
+
+def _seat_claude(model_arg: str, effort: str, full_prompt: str, research: bool = False) -> dict:
     if not shutil.which("claude"):
         raise RuntimeError("claude CLI not on PATH")
     # --tools "": no tool calls at all; scratch cwd: no CLAUDE.md/hooks. Pure model.
+    # research=True opens exactly the two web tools (still no file/shell tools).
     # (--bare would also skip the login keychain → "Not logged in"; do not add it.)
-    cmd = ["claude", "-p", "--tools", "", "--model", model_arg, "--effort", effort,
+    cmd = ["claude", "-p", "--tools", RESEARCH_TOOLS if research else "",
+           "--model", model_arg, "--effort", effort,
            "--output-format", "json", "--no-session-persistence",
-           "--append-system-prompt", SYSTEM]
+           "--append-system-prompt", SYSTEM + (RESEARCH_SYSTEM if research else "")]
     # One-shot call: nothing to compact. The user's settings.json sets
     # CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50, which made a 77K-token prompt at
     # --effort high "thrash" (2026-09-10, Jen board). Disable it for the seat.
@@ -440,13 +453,14 @@ def run_chat(slug: str, chat_id: str, prompt: str) -> dict:
     t0 = time.time()
     try:
         if seat == "claude":
-            res = _seat_claude(model_arg, effort, full_prompt)
+            res = _seat_claude(model_arg, effort, full_prompt, research=bool(chat.get("research")))
         elif seat == "gemini":
             res = _seat_gemini(model_arg, effort, full_prompt)
         else:
             res = _seat_codex(model_arg, effort, full_prompt)
         turn = {"role": "assistant", "text": res["text"], "model": model, "seat": seat,
-                "effort": effort, "cost_usd": res.get("cost_usd"), "seconds": round(time.time() - t0, 1),
+                "effort": effort, "research": bool(chat.get("research")) and seat == "claude",
+                "cost_usd": res.get("cost_usd"), "seconds": round(time.time() - t0, 1),
                 "context_tokens": ctx["tokens_est"], "sources": ctx["sources"], "ts": _now()}
         board = load(slug)
         chat = _node(board, chat_id)

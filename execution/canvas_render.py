@@ -183,7 +183,7 @@ JS = r"""
       const opts = Object.keys(MODELS).map(m => `<option value="${esc(m)}"${m === n.model ? ' selected' : ''}>${esc(m)}</option>`).join('');
       const effs = (MODELS[n.model] ? MODELS[n.model].efforts : ['medium']).map(e => `<option value="${esc(e)}"${e === n.effort ? ' selected' : ''}>${esc(e)}</option>`).join('');
       const turns = (n.turns || []).map(t => {
-        const meta = t.role === 'assistant' ? `<div class="m">${esc(t.model)}/${esc(t.effort)} · ${esc(t.seconds)}s · ${costLabel(t)} · ${Number(t.context_tokens || 0).toLocaleString()} ctx tok · ${Number(t.sources || 0)} src</div>` : '';
+        const meta = t.role === 'assistant' ? `<div class="m">${esc(t.model)}/${esc(t.effort)}${t.research ? ' · 🔎 web' : ''} · ${esc(t.seconds)}s · ${costLabel(t)} · ${Number(t.context_tokens || 0).toLocaleString()} ctx tok · ${Number(t.sources || 0)} src</div>` : '';
         return `<div class="turn ${t.role === 'user' ? 'user' : 'assistant'}">${esc(t.text)}${meta}</div>`;
       }).join('');
       const busy = n.status === 'running';
@@ -192,6 +192,7 @@ JS = r"""
         <div class="compose">
           <textarea data-draft placeholder="${busy ? 'thinking…' : 'ask about everything upstream · ⌘⏎ to send'}"${busy ? ' disabled' : ''}>${esc(drafts[n.id] || '')}</textarea>
           <div class="row"><select data-model>${opts}</select><select data-effort>${effs}</select>
+          <label class="k" title="let the Claude seat search the live web (WebSearch/WebFetch) before it answers"><input type="checkbox" data-research${n.research ? ' checked' : ''}${(MODELS[n.model] || {}).seat === 'claude' ? '' : ' disabled'}> 🔎 research</label>
           <span class="k">${esc(ctxLabel(n))}</span>
           <button data-send${busy ? ' disabled' : ''}>${busy ? '…' : 'send'}</button></div>
         </div>`;
@@ -268,6 +269,9 @@ JS = r"""
       ms.addEventListener('mousedown', ev => ev.stopPropagation()); es.addEventListener('mousedown', ev => ev.stopPropagation());
       ms.addEventListener('change', async () => { const j = await act('canvas.model', {id: n.id, model: ms.value}); if (j.ok) { n.model = j.model || ms.value; n.effort = j.effort || n.effort; drawNodes(); } });
       es.addEventListener('change', async () => { const j = await act('canvas.model', {id: n.id, effort: es.value}); if (j.ok) n.effort = es.value; });
+      const rs = fo.querySelector('[data-research]');
+      rs.addEventListener('mousedown', ev => ev.stopPropagation());
+      rs.addEventListener('change', async () => { const j = await act('canvas.model', {id: n.id, research: rs.checked}); if (j.ok) { n.research = !!j.research; toast(n.research ? 'research on: Claude will search the web before answering' : 'research off'); } });
       send.addEventListener('click', async ev => {
         ev.stopPropagation(); const text = (ta.value || '').trim(); if (!text) return;
         const j = await act('canvas.run_chat', {id: n.id, prompt: text});
