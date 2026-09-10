@@ -43,3 +43,6 @@
 ## 00-slides
 ## 00-longform-to-shortform
 ## 00-youtube-to-ebook
+
+## /jen
+- 2026-09-09 · jen · week-of-2026-09-14 re-run · the run folder is the state: run_log.py receipts per step + run.yaml from build_weeks.py; jen_os_page.py reads both (POSTS/MEMOS/HERS/OTHER tables deleted). Re-run changed copy where the rules fire: her close 3/3 → 1, "my DMs are open" 3/3 → 1, two number-first hooks re-opened on the reader. Classifier reads COPY.md (list shape) as 8/10 while captions.txt is 1.5/10 CLEAN: run it on captions for the real read. Sat slot deviates from the mix (position, not attract) · verdict: pending Farrice (READ.md carries the tap)

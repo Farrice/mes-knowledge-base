@@ -9,6 +9,7 @@ PHOTO-SWAP.md maps every frame to the shot that replaces it.
 
   python3 build_weeks.py            # cards + reels + captions + replies + swap map
   python3 build_weeks.py --no-video # skip ffmpeg (fast copy/QA loop)
+Every week folder also gets run.yaml (the manifest the Valley OS page reads) and a <id>-cover.png still per reel.
 """
 import glob, json, os, pathlib, shutil, subprocess, sys
 
@@ -16,6 +17,10 @@ HERE = pathlib.Path(__file__).parent
 SEPT = HERE.parent / "2026-09-01-september-carousels"
 sys.path.insert(0, str(SEPT))
 from gen_photo import HEAD_PHOTO, FRAME, photo, lockup, serif, hand, body  # noqa: E402
+from build_reel import overlay_html  # noqa: E402  (reel cover still, no ffmpeg)
+_ROOT = next(d for d in HERE.parents if (d / "execution" / "run_log.py").exists())
+sys.path.insert(0, str(_ROOT / "execution"))
+import run_log  # noqa: E402  (run.yaml + pipeline-log.md: the run folder is the state)
 
 IMG = SEPT / "img"
 CHROME = sorted(glob.glob(os.path.expanduser(
@@ -33,6 +38,7 @@ WEEKS = [
         # reader's situation (CONTENT-MIX.md hook rule); the slot mix is attract / connect / convert; the voice bank is drawn
         # once per line this week, never stamped. READ.md and AMPLIFY.md in the week folder carry the receipts.
         "folder": "week-of-2026-09-07",
+        "label": 'Week 1 · in Drive 04 on Wed Sept 9 · the approved specimen leads; comps and Bothwell on HOLD',
         "message": (
             "hey babe, week 1 is in the folder. the first one is the \"one more question\" reel, it's ready to post tonight. thursday is your \"just breathe\" line from the voice memo. open, post, done.\n"
             "if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍"
@@ -113,6 +119,7 @@ WEEKS = [
             },
             {
                 "id": "02-connect-just-breathe",
+                "hook": 'just breathe.',
                 "kind": "card",
                 "job": "connect",
                 "day": "thu sept 10 · 6:30pm",
@@ -190,6 +197,7 @@ WEEKS = [
     },
     {
         "folder": "week-of-2026-09-14",
+        "label": 'Week 2 · drop Sun Sept 13 · re-run through /jen 2026-09-09',
         "message": (
             "week 2 is in the folder: three posts, tue / thu / sat. same as last week... open, post, done.\n"
             "the thursday one is about the october 15 insurance change, so it goes out on time. reply here if a line isn't you 🤍"
@@ -201,7 +209,7 @@ WEEKS = [
                 "job": "attract",
                 "day": "tue sept 15 · 7:30am",
                 "beats": [
-                    {"photo": "vannuys-blvd-2024.jpg", "line": "$900K in sherman oaks.<br>$900K in van nuys.<br>same week.", "size": 90, "secs": 4.5, "zoom": "in",
+                    {"photo": "vannuys-blvd-2024.jpg", "line": "you keep switching<br>between two zips.<br>same budget, every night.", "size": 90, "secs": 4.5, "zoom": "in",
                      "swap": "a wide valley frame from the drive (folder 02) or a drone frame (01)"},
                     {"photo": "california-bungalow-00.jpg", "line": "sherman oaks. $899,900.<br>1 bed. 1 bath.<br>a big lot and a plan.", "size": 88, "secs": 4.5, "zoom": "out",
                      "swap": "a small cottage exterior from any shoot"},
@@ -209,11 +217,11 @@ WEEKS = [
                      "swap": "a front elevation from a listing shoot"},
                     {"photo": "suburban-neighborhood-aerial-02.jpg", "line": "neither one is wrong.<br>they&#8217;re two different<br>ten-year plans.", "size": 90, "secs": 4.5, "zoom": "out",
                      "swap": "a drone frame from any shoot"},
-                    {"photo": "jen-porch-vannuys.jpg", "line": "tell me the zip you<br>keep coming back to.<br>i&#8217;ll tell you what it costs.", "size": 84, "hand": "my DMs are open &#8594;", "secs": 5, "zoom": "in",
+                    {"photo": "jen-porch-vannuys.jpg", "line": "tell me the zip you<br>keep coming back to.<br>i&#8217;ll tell you what it costs.", "size": 84, "hand": "send me the zip &#8594;", "secs": 5, "zoom": "in",
                      "swap": "her at a front door (folder 03)"},
                 ],
                 "caption": (
-                    "$900K in sherman oaks vs. $900K in van nuys, same week, both on the market right now:\n"
+                    "if you keep switching between two zips with the same budget, this is the week to look at both. $900K in sherman oaks vs. $900K in van nuys, both on the market right now:\n"
                     "\n"
                     "sherman oaks... $899,900. 1 bed, 1 bath, on a big lot. you're buying the dirt and the zip, and building the house later.\n"
                     "van nuys... $888,000. 4 bed, 2 bath, 1,576 sq ft. you're buying the house, and the zip most people scroll past.\n"
@@ -223,9 +231,7 @@ WEEKS = [
                     "whether you'd ever build or add on (a lot is a plan, not a house).\n"
                     "what the insurance quote looks like at each address (i get it before we write, not in escrow).\n"
                     "\n"
-                    "tell me the zip you keep coming back to. i'll tell you what it actually costs this month, buying or selling.\n"
-                    "\n"
-                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
+                    "tell me the zip you keep coming back to. i'll tell you what it actually costs this month, buying or selling. let's chat.\n"
                     "\n"
                     "prices from the MLS, sept 2, 2026. they move.\n"
                     "#shermanoaks #vannuys #sanfernandovalley #valleyrealestate #SFV"
@@ -244,7 +250,7 @@ WEEKS = [
                      "swap": "a hillside listing exterior (folder 01)"},
                     {"photo": "house-key-lock-00.jpg", "line": "october 15: the state&#8217;s<br>backup fire policy<br>goes up 29.1%.", "size": 92, "secs": 4.5, "zoom": "in",
                      "swap": "a front door or key frame from any shoot"},
-                    {"photo": "jen-porch-vannuys.jpg", "line": "send me the street.<br>i&#8217;ll tell you what<br>i&#8217;d check first.", "size": 92, "hand": "my DMs are open &#8594;", "secs": 5, "zoom": "in",
+                    {"photo": "jen-porch-vannuys.jpg", "line": "send me the street.<br>i&#8217;ll tell you what<br>i&#8217;d check first.", "size": 92, "hand": "before the 15th &#8594;", "secs": 5, "zoom": "in",
                      "swap": "her at a front door (folder 03)"},
                 ],
                 "caption": (
@@ -262,7 +268,6 @@ WEEKS = [
                     "\n"
                     "my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.\n"
                     "\n"
-                    "i'm here for you. that's my job. i do this to protect you and your best interest.\n"
                     "approved and insured are two different yeses.\n"
                     "\n"
                     "#SFV #sanfernandovalleyrealtor #losangelesrealestate #shermanoaks #woodlandhills"
@@ -271,17 +276,18 @@ WEEKS = [
             },
             {
                 "id": "06-position-tarzana-median-sellers",
+                "hook": 'if you own in tarzana, that headline hit your phone too.',
                 "kind": "card",
                 "job": "position (seller side)",
                 "day": "sat sept 19 · 9:00am",
                 "slides": [
                     {"photo": "sfv-aerial-nara.jpg", "pos": "50% 50%", "wash": 0.46,
                      "swap": "a drone frame over tarzana or the valley floor (folder 01)",
-                     "html": lambda: f'''{serif("tarzana sold for<br>14.5% less this july<br>than last july.", size=86)}
-    {hand("and that&#8217;s still not your number &#8594;", size=46)}'''},
+                     "html": lambda: f'''{serif("if you own in tarzana,<br>that headline hit<br>your phone too.", size=86)}
+    {hand("and it&#8217;s still not your number &#8594;", size=46)}'''},
                     {"photo": "valley-street-01.jpg", "pos": "50% 50%", "wash": 0.50,
                      "swap": "a residential street from the drive (folder 02)",
-                     "html": lambda: f'''{hand("why the median lies to sellers", size=50)}
+                     "html": lambda: f'''{hand("tarzana median, july: down 14.5% in a year", size=46)}
     {serif("the median is<br>half the valley.<br>your house is one street.", size=80)}
     {body("a median is the middle of every sale, from a $650,000 fixer to a $19,999,000 estate. one big month at the top and the whole number moves.", size=31)}
     {body("<b style='font-weight: 500;'>what a home like yours closed for this summer, three streets over, is the number that decides your list price.</b>", size=29, width=720)}'''},
@@ -290,10 +296,10 @@ WEEKS = [
                      "html": lambda: f'''{serif("send me the street.<br>not the address...<br>just the street.", size=84)}
     {body("i&#8217;ll tell you what homes like yours actually closed for this summer, and what i&#8217;d list at. no pitch, no pressure.", size=31, width=720)}
     {body("i&#8217;m here for you. that&#8217;s my job.<br>i do this to protect you and your best interest.", size=29, width=720)}
-    {hand("my DMs are open &#8594;", size=50)}'''},
+    {hand("send me the street &#8594;", size=50)}'''},
                 ],
                 "caption": (
-                    "tarzana's median sale price was $949,676 in july... 14.5% below last july. if you own here, that headline hit your phone too. it's still not your number.\n"
+                    "if you own in tarzana, that headline hit your phone too: the median sale price was $949,676 in july, 14.5% below last july. it's still not your number.\n"
                     "\n"
                     "a median is the middle of every sale, from a $650,000 fixer to a $19,999,000 estate. a few big closings at the top one month and the whole number moves. your house didn't.\n"
                     "\n"
@@ -314,6 +320,7 @@ WEEKS = [
         # week 3 (added 2026-09-02, first full run of the OS): attract / position / connect.
         # Connect is the fourth district (ENGINE-V2 §4); copy from her voice memos, see connect-posts-01/COPY.md.
         "folder": "week-of-2026-09-21",
+        "label": 'Week 3 · drop Sun Sept 20 · first full OS run',
         "message": (
             "week 3 is in the folder: three posts, tue / thu / sat. same as before... open, post, done.\n"
             "saturday's is you talking a client off the ledge at 11pm. it's your words from the voice memo. reply here if a line isn't you 🤍"
@@ -360,6 +367,7 @@ WEEKS = [
             },
             {
                 "id": "08-position-two-markets-one-street",
+                "hook": 'two markets on the same tarzana street.',
                 "kind": "card",
                 "job": "position (both sides)",
                 "day": "thu sept 24 · 6:30pm",
@@ -401,6 +409,7 @@ WEEKS = [
             },
             {
                 "id": "09-connect-just-breathe",
+                "hook": 'just breathe.',
                 "kind": "card",
                 "job": "connect",
                 "day": "sat sept 26 · 9:00am",
@@ -498,6 +507,82 @@ def build_reel(post, out_dir):
     print("  " + r.stdout.strip())
 
 
+def _hers(photo: str) -> bool:
+    return "photos/jen/" in photo
+
+
+def _photo_names(post):
+    items = post.get("beats") or post.get("slides") or []
+    names = []
+    for it in items:
+        stem = pathlib.Path(it["photo"]).stem
+        names.append(stem + (" (hers)" if _hers(it["photo"]) else ""))
+    return names
+
+
+def post_manifest(p):
+    """One run.yaml entry per post, derived from the same data the renderer used (never hand-copied)."""
+    photos = _photo_names(p)
+    hers = bool(photos) and all(x.endswith("(hers)") for x in photos)
+    if p["kind"] == "reel":
+        secs = sum(float(b.get("secs", 4)) for b in p["beats"])
+        fmt = f"reel · {secs:g} s"
+        hook = p.get("hook") or _strip(p["beats"][0]["line"])
+        thumb = f"{p['id']}-cover"
+        slides = 0
+    else:
+        fmt = f"card · {len(p['slides'])} slides"
+        hook = p.get("hook") or _strip(p["slides"][0]["html"]())
+        thumb = f"{p['id']}-1"
+        slides = len(p["slides"])
+    if hers:
+        fmt += " · her photos"
+    entry = {
+        "id": p["id"], "district": p["job"].split(" ")[0], "job": p["job"], "format": p["kind"],
+        "format_note": fmt, "day": p["day"], "hook": hook, "thumb": thumb, "slides": slides,
+        "photos": photos, "photo_source": "hers" if hers else "placeholder",
+        "caption": p["caption"], "reply": p["reply"],
+    }
+    for k in ("story", "collab", "first_comment"):
+        if p.get(k):
+            entry[k] = p[k]
+    return entry
+
+
+def write_run_yaml(wk, wdir):
+    """RENDER writes the manifest the page reads. Status and receipts are owned by /jen, so they are never
+    overwritten here (write_manifest merges)."""
+    data = {
+        "brand": "jen", "door": "jen", "kind": "week", "label": wk["label"], "message": wk["message"],
+        "render_path": "build_weeks.py" + (" --no-video" if NO_VIDEO else ""), "cost_usd": 0,
+        "facts_ledger": "../FACTS.md", "photo_swap": "../PHOTO-SWAP.md",
+        "posts": [post_manifest(p) for p in wk["posts"]],
+    }
+    run_log.write_manifest(wdir, data, steps=run_log.DEFAULT_STEPS["jen"])
+    print(f"  run.yaml ({len(data['posts'])} posts)")
+
+
+def reel_cover(post, wdir):
+    """A 1080x1920 still of beat 1 (photo + the same overlay the reel uses) so the page can show the reel
+    without the mp4 (mp4s live in Drive only). Free, no ffmpeg."""
+    b = post["beats"][0]
+    src = (IMG / b["photo"]).resolve().as_uri()
+    overlay = overlay_html(b["line"], b.get("hand", ""), True, fit(b["line"], b.get("size", 104)))
+    overlay = overlay.replace("background:transparent", "background:#1E2430")
+    overlay = overlay.replace('<div style="position:absolute;inset:0;background:linear-gradient',
+                              f'<img src="{src}" style="position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;">'
+                              '<div style="position:absolute;inset:0;background:linear-gradient', 1)
+    tmp = HERE / ".render_tmp"
+    tmp.mkdir(exist_ok=True)
+    shim = tmp / f"{post['id']}-cover.html"
+    shim.write_text(overlay)
+    png = wdir / f"{post['id']}-cover.png"
+    subprocess.run([CHROME, "--headless", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+                    "--window-size=1080,1920", "--virtual-time-budget=4000", f"--screenshot={png}", shim.as_uri()],
+                   check=True, capture_output=True)
+    print(f"  {png.name} ({png.stat().st_size // 1024} KB)")
+
+
 def main():
     swap_rows, copy_md = [], ["# jen engine v2 · weeks 1 to 3 · the copy\n",
                               "Operator file. Same words as the Drive folders; here so the fair-housing lint and the classifier can read them in one pass.\n"]
@@ -529,6 +614,7 @@ def main():
                     copy_md.append(f"- slide {i}: {_strip(s['html']())}")
             else:
                 build_reel(p, wdir)
+                reel_cover(p, wdir)
                 for i, b in enumerate(p["beats"], 1):
                     swap_rows.append((wk["folder"], f"{p['id']}.mp4 · beat {i}", b["photo"], b["swap"]))
                     copy_md.append(f"- beat {i}: {_strip(b['line'])}" + (f" · *{_strip(b['hand'])}*" if b.get("hand") else ""))
@@ -537,6 +623,7 @@ def main():
         (wdir / "captions.txt").write_text("\n".join(captions))
         # per-week copy file so /jen step 5 (fair-housing lint, classifier, stamp-lint) can read ONE week at a time
         (wdir / "COPY.md").write_text(f"# {wk['folder']} · the copy (operator file)\n" + "\n".join(copy_md[week_start:]) + "\n")
+        write_run_yaml(wk, wdir)
     (HERE / "COPY-weeks-1-2.md").write_text("\n".join(copy_md))
     lines = ["# photo swap map\n",
              "Every frame below is a placeholder from the cleared pool. When her shoots land in Drive folder 01 (and her portraits in 03), drop the named shot into `img/` under the placeholder's filename, or point the beat at the new file, and re-run `python3 build_weeks.py`. Nothing else changes.\n",

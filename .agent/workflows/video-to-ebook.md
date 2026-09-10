@@ -14,5 +14,7 @@ State the scale in one line: one video, one article (~N words), PDF.
 4. **Our gate** — `python3 execution/prose_classifier.py check <final-article.md>` after their humanizer. FLAGGED never renders.
 5. **Compound** — learnings entry under `## 00-youtube-to-ebook`; `chain_runner.py finalize --skill vendor:00-youtube-to-ebook --workflow video-to-ebook --type Content --factual N`; handoff on `<brand>-longform`.
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=video-to-ebook --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Ship their fact-check as the veto. Skip the human review. Edit inside `.claude/skills/*`.

@@ -15,5 +15,7 @@ State the scale in one line: one post (platform, single image or text), one bran
 5. **Scrapes Scenario A** — invoke `00-social-content` with the finished post + "generate the image for this post"; pass `brand_context_path`, `template_pool`, `output_base` from BRAND.yaml; `--brand-context` on every render call; craft-map master on the image concept before `ssc-image-generator`. Content Studio approval is Farrice's.
 6. **Compound** — `social-carousel.md` Step 5 (asset manifest line, learnings entry, `chain_runner.py finalize --workflow social-post`, handoff on `<brand>-social`).
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=social-post --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Post or schedule. Run a client through Farrice's voice card. Let the Scrapes draft phase write the words. Edit inside `.claude/skills/*`.

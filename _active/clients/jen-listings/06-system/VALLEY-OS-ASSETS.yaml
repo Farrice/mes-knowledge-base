@@ -1,0 +1,129 @@
+# VALLEY-OS-ASSETS.yaml · LIVING · her assets, used / unused (read by execution/jen_os_page.py)
+schema: valley-os-assets/1
+note: "LIVING (no date in the name): her assets and where each landed. Edit in place as assets arrive or get used. Read by execution/jen_os_page.py; per-run data lives in each week's run.yaml, never here."
+memos:
+  - memo: 1 · a house you couldn't stop thinking about
+    lines: "“lipstick remodel” · “you could feel the quality... the stone, the handles, the doors and the windows”"
+    where: Connect post 02 (copy ready, not built)
+    state: unused on the grid
+  - memo: 2 · a buyer who panics at night
+    lines: "“just breathe. take a step back. let's sleep on it” · lender quote · buydowns, “how we structure the loan”"
+    where: "Week 1 post 02 (Connect) · Week 3 post 09 (the same post; week 3 gets a different Connect when it re-runs)"
+    state: used
+  - memo: 3 · what people tease you about saying
+    lines: "“i'm here for you. that's my job. i do this to protect you and your best interest.” · “everything works out exactly the way it's supposed to” · “this, this, and this, and we'll go from there”"
+    where: "the close: week 1 once (post 02) · week 2 once (post 06, re-run 2026-09-09) · week 3 still 3 of 3 until re-run · recap habit: saved replies"
+    state: bank, drawn once a week (stamp-lint enforces)
+  - memo: 4 · what makes you cringe
+    lines: "“top producer” · “30 years in business” · credentials on camera"
+    where: "rule: no credentials anywhere"
+    state: used as a rule
+  - memo: 5 · the most impressive home
+    lines: "“i've sold an $80 million home... a regular three-bedroom on malibu beach” · “i am a sucker for a view of skylines”"
+    where: Connect post 04 (copy ready) · photo taste for the look
+    state: unused on the grid
+photos:
+  - file: jen-headshot-studio
+    what: "studio headshot 2048²"
+    used: Edition 01 cover · week 1 post 02
+  - file: jen-closing-day-selfie
+    what: closing day, three faces
+    used: "none: no type-safe crop"
+  - file: jen-client-kitchen-sold
+    what: kitchen, family, SOLD sign
+    used: "none: faces in the type zone"
+  - file: jen-client-couple-dogs-selfie
+    what: clients + dogs, 414px
+    used: "none: inset only"
+  - file: jen-client-family-selfie
+    what: clients, 414px
+    used: "none: inset only"
+  - file: jen-client-newhomeowner-kid
+    what: new homeowner, 414px
+    used: "none: inset only"
+  - file: jen-client-pool-house
+    what: pool house, 414px
+    used: "none: inset only"
+  - file: listing-01-exterior
+    what: 5421 Bothwell exterior
+    used: Edition 01 frame 3
+  - file: listing-02-living
+    what: Bothwell living, pocket doors
+    used: Edition 01 frame 3 inset · week 1 posts 00, 02
+  - file: listing-03-pool
+    what: Bothwell pool at dusk
+    used: Edition 01 frames 3, 5 · week 1 post 02
+  - file: listing-04-kitchen
+    what: Bothwell kitchen
+    used: week 1 post 00
+  - file: listing-home-gym-pool
+    what: older listing gym/pool
+    used: "none: would mislead"
+pool:
+  - file: vannuys-blvd-2024
+    used: posts 02, 04, 05
+  - file: sunlight-through-window-floor-00
+    used: posts 02, 03
+  - file: jen-porch-vannuys
+    used: posts 01, 02, 04, 05, 07, 08, 09 (her, 2025 grid)
+  - file: sfv-aerial-nara
+    used: posts 03, 06, 08 (1930s archive aerial)
+  - file: california-bungalow-00
+    used: posts 01, 03, 04, 05, 07
+  - file: front-door-house-00
+    used: posts 01, 04, 07
+  - file: valley-street-01
+    used: posts 01, 06, 07, 08
+  - file: suburban-neighborhood-aerial-02
+    used: posts 01, 04, 07
+  - file: jen-frontdoor
+    used: posts 03, 06 (360px, her reel cover)
+  - file: house-key-lock-00
+    used: post 05
+  - file: palm-tree-sunset-city-02
+    used: post 09
+  - file: jen-portrait
+    used: none (280px)
+  - file: apartment-building-dusk-03
+    used: none
+  - file: vannuys-street-scene
+    used: none
+  - file: vannuys-valerio-2024
+    used: none
+other:
+  - asset: Register ladder (calm-warm lowercase · Quiet Flex Title Case on luxury)
+    state: used
+    note: "post 03 runs Title Case; every other caption lowercase"
+  - asset: Palette navy / steel / cream, no orange
+    state: used
+    note: cards and editions both hold it
+  - asset: "Her listings: 5421 Bothwell"
+    state: used
+    note: post 03 + Edition 01 frame 3
+  - asset: "Her listings: 5200 Armida · 1654 Moonseed · 6853 Willis"
+    state: banked
+    note: "shoot sheets exist; Armida status unconfirmed"
+  - asset: Saved replies (4)
+    state: built, unmeasured
+    note: "in every week folder; no DM count has come back yet"
+  - asset: "Bio line “Your Valley agent. $800K and up, buying or selling.”"
+    state: not done
+    note: "her bio still reads “raver vibes, boy mom life”"
+  - asset: Pinned post + the valley file (three one-pagers)
+    state: not done
+    note: "ENGINE-V2 §9 names it; nothing rendered"
+  - asset: Stories
+    state: none
+    note: "Coffee & Contracts runs stories daily; we have zero"
+  - asset: Her Insights (saves, reach, follows)
+    state: none
+    note: pulse reads public views/likes/comments only
+  - asset: Scheduling access (Meta Business Suite)
+    state: none
+    note: she posts the files by hand until then
+  - asset: "Her listing photography → Drive folder 01"
+    state: none
+    note: the single biggest reason the cards look generic
+  - asset: A thumbs-up from Jen on anything since Sept 2
+    state: none
+    note: two rebuilds without her in the loop
