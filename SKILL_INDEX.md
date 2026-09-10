@@ -276,6 +276,7 @@
 | `nate-b-jones-auto-improvement-loops` | **nate-b-jones-auto-improvement-loops** | ai/automation — self-improving agent systems, designs, deploys, and safeguards self-improving agent systems using nate b, for agent coordination use nate-b-jones-orchestration-intelligence | 8 | 0 |
 | `nate-b-jones-context-engineering` | **nate-b-jones-context-engineering** | ai/automation — context, memory architecture, architects memory and context systems for agentic systems using nate b | 6 | 0 |
 | `nate-b-jones-intent-engineering` | **Nate B Jones Intent Engineering** | disambiguation protocols, and interpretation-execution separation | 4 | 7 |
+| `nate-b-jones-manager-loop` | **Nate B Jones Manager Loop** | hand an ambiguous job-shaped ask to one manager agent that interviews once, runs the unblocked lanes in parallel, batches questions into decision packets | 6 | 0 |
 | `nate-b-jones-orchestration-intelligence` | **nate-b-jones-orchestration-intelligence** | ai/automation — multi-agent orchestration, designs, audits, and optimizes multi-agent orchestration using nate b, classifies work by domain verifiability to determine safe delegation | 12 | 0 |
 | `nate-b-jones-trust-architecture` | **Nate B Jones - AI Trust Architecture** | zero-trust agentic architecture & systemic hallucination defense, ai trust architecture | 5 | 12 |
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | acquire ai workflow clients without an audience by leveraging asymmetric trus..., ai client acquisition | 1 | 3 |
