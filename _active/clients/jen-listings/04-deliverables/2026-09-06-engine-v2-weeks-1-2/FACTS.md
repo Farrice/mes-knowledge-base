@@ -67,3 +67,5 @@ Every number in the nine posts, where it came from, and what to re-check on send
 | rosita intro | listing agents Marty Azoulay + Shane Zvulun, Equity Union; Jen not on the listing | VERIFIED | Zillow + Redfin | HOLD until Jen confirms clearance (same as Bothwell) |
 | rosita intro | open house Sat 1–4pm | LIKELY (date not shown) | Redfin | confirm with Marty before caption |
 | rosita intro | last sale $2,200,000 (2022-01-28), +118%; Zestimate $3,325,600; Redfin est $4,772,176; MLS "tile counters" vs slab in photos; "only two flat lots on Rosita"; "detached" | UNCONFIRMED / ambush — never in copy | ledger + diff | Q&A prep only |
+| rosita intro | "$960K down" on-screen line = 20% × $4,800,000 list | MATH (arithmetic on the VERIFIED list price; not a lender figure, never "your down payment") | script #8, DISTRIBUTION-PACK.md | on screen only, never spoken as advice |
+| rosita intro | winning-format rules (speak at 0:00, claim on screen ≥3s, number in hook, price first or last word, mid-tour tease, comment keyword) | VERIFIED pattern across 6 watched + 40 outlier reels, VidIQ 2026-09-10 | 06-system/LISTING-REEL-WINNERS.md | filming notes to Jen |
