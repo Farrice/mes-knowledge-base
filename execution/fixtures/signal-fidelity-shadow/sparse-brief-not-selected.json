@@ -1,0 +1,12 @@
+{
+  "selected_for_review": false,
+  "signal_contract": {
+    "recipient": "internal operator",
+    "intended_change": "rename one local fixture",
+    "human_owner": "Farrice",
+    "must_survive": []
+  },
+  "artifact_text": "Rename complete.",
+  "playback_text": "",
+  "owner_approved_changes": []
+}

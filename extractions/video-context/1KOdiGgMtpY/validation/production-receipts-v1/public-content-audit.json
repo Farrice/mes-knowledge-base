@@ -1,0 +1,53 @@
+{
+  "recipient_mode": "public_content",
+  "selected_for_review": true,
+  "signal_contract": {
+    "recipient": "funded health or performance brand operator reading the LinkedIn audit",
+    "intended_change": "recognize that ranking and answer-engine citation differ and consider a bounded visibility audit",
+    "source_of_conviction": "the post reports 24 scored runs across two surfaces with transcript receipts",
+    "promise": "show the visibility gap and a one-page citation opportunity",
+    "limit": "the artifact measures visibility, not vitamin quality, and ran below the author's three-surface standard",
+    "proof_state": "SOURCE_LABELED",
+    "human_owner": "Farrice",
+    "source_path": "_active/linkedin/04-deliverables/content-os/hiya-aeo-teardown/linkedin-post.md",
+    "must_survive": [
+      {
+        "id": "twenty-four-runs",
+        "kind": "claim",
+        "match_policy": "literal",
+        "markers": ["24 scored runs"],
+        "required_in": ["artifact"]
+      },
+      {
+        "id": "one-page-fix",
+        "kind": "decision",
+        "match_policy": "literal",
+        "markers": ["one page, not a content calendar"],
+        "required_in": ["artifact"]
+      },
+      {
+        "id": "visibility-boundary",
+        "kind": "limit",
+        "match_policy": "literal",
+        "markers": ["measured visibility, not vitamins"],
+        "required_in": ["artifact"]
+      },
+      {
+        "id": "surface-boundary",
+        "kind": "limit",
+        "match_policy": "literal",
+        "markers": ["below my own 3-surface standard"],
+        "required_in": ["artifact"]
+      },
+      {
+        "id": "voice-and-scene",
+        "kind": "creative_meaning",
+        "match_policy": "manual",
+        "markers": ["Instagram retargeting for health brands is so fast now it feels like your phone is listening"],
+        "required_in": ["artifact"]
+      }
+    ]
+  },
+  "artifact_proof_state": "SOURCE_LABELED",
+  "playback_text": ""
+}

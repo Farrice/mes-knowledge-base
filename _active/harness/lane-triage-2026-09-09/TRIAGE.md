@@ -16,10 +16,10 @@ Rule (Farrice, 2026-09-09): anything that merges clean lands with a one-line rec
 | codex/layout-composition-intelligence | 3 | satori composition brief owner + blind bakeoff | MERGED 5 commits / 70 files |
 | codex/personal-brand-direction-diagnostic | 3 | 90-day creative direction + blind direction board | MERGED 6 commits / 21 files |
 | codex/linkedin-800k-os | 5 | LinkedIn growth OS + first ten posts | MERGED 9 commits / 247 files |
-| codex/pmf-health-linkedin-research | 1 | PMF verdict + source ledger | PARKED (conflicts: research-briefs index.html, cost_gate_hook.py) → REVIEW: inspect the cost_gate_hook diff before landing |
+| codex/pmf-health-linkedin-research | 1 | PMF verdict + source ledger | PARKED → merged into lane; main as base except `cost_gate_hook.py` (took the branch's research.py gemini patterns; self-test OK 13/9); lands with the lane |
 | codex/systems-thinking-global-shadow | 2 | `verify_global_adaptive_judgment_floor.py` canary | MERGED 6 commits / 29 files |
 | codex/nicolas-cole-first-dollar | 1 | first-dollar workflow + agent | MERGED 4 commits / 51 files |
-| codex/signal-fidelity-shadow | 6 | six adversarial fixtures for the shadow fidelity layer | PARKED (conflicts in two semantic primitives) → REVIEW: take main's primitives, keep the fixtures |
+| codex/signal-fidelity-shadow | 6 | six adversarial fixtures for the shadow fidelity layer | PARKED → merged into lane; main's primitives kept with the branch's two SHADOW sections appended (advisory, optional); fixtures land with the lane |
 
 ## REVIEW — my call per row (his tap to proceed)
 

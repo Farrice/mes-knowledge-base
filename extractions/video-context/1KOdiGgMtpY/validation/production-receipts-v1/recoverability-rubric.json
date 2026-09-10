@@ -1,0 +1,69 @@
+{
+  "schema_version": "signal-fidelity-recoverability-rubric/v1",
+  "dimensions": [
+    "recipient",
+    "intended_change",
+    "source_of_conviction",
+    "promise",
+    "limit",
+    "proof_state"
+  ],
+  "artifacts": {
+    "strategy_native": {
+      "path": "strategy-native.md",
+      "markers": {
+        "recipient": ["Farrice"],
+        "intended_change": ["seven-day proof sprint"],
+        "source_of_conviction": ["outreach and portfolio proof"],
+        "promise": ["first $500"],
+        "limit": ["assumptions, not results"],
+        "proof_state": ["no payment event"]
+      }
+    },
+    "strategy_signal": {
+      "path": "strategy-signal.md",
+      "markers": {
+        "recipient": ["Farrice"],
+        "intended_change": ["Prepare three Authority Flywheel demonstrations"],
+        "source_of_conviction": ["free work can do double duty"],
+        "promise": ["one paid 30-day pilot"],
+        "limit": ["assumptions"],
+        "proof_state": ["NO EVENT"]
+      }
+    },
+    "handoff_human": {
+      "path": "handoff-human.md",
+      "markers": {
+        "recipient": ["Resume the Jen-Team Pilot"],
+        "intended_change": ["don't rebuild the brief", "don’t rebuild the brief"],
+        "source_of_conviction": ["easy to explain, deliver, and stop"],
+        "promise": ["$200 founding Listing Launch Kit"],
+        "limit": ["not to expand it into a larger service system"],
+        "proof_state": ["not demand-proven"]
+      }
+    },
+    "handoff_ai_agent": {
+      "path": "handoff-ai-agent.md",
+      "markers": {
+        "recipient": ["Next AI agent"],
+        "intended_change": ["Complete the existing Jen-Team Pilot package"],
+        "source_of_conviction": ["bounded founding offer needs"],
+        "promise": ["$200 founding Listing Launch Kit"],
+        "limit": ["Do not rebuild shipped material"],
+        "proof_state": ["UNTESTED"]
+      }
+    },
+    "public_content": {
+      "path": "_active/linkedin/04-deliverables/content-os/hiya-aeo-teardown/linkedin-post.md",
+      "root_relative": true,
+      "markers": {
+        "recipient": ["funded health or performance brand"],
+        "intended_change": ["Ranking and getting cited are different games now"],
+        "source_of_conviction": ["24 scored runs"],
+        "promise": ["The fix is one page"],
+        "limit": ["measured visibility, not vitamins"],
+        "proof_state": ["every claim carries a label"]
+      }
+    }
+  }
+}

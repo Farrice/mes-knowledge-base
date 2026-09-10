@@ -50,6 +50,21 @@ the problem choice, review boundary, quality judgment, and recovery path. Tool
 use is not sufficient fluency when nobody can explain, diagnose, or repair the
 result.
 
+## Recipient Playback (SHADOW)
+
+After a selected material AI transformation or handoff, the Agentic Engineering
+owner may optionally use `signal-fidelity-shadow-contract.md` to compare an
+unfamiliar recipient's supplied playback with the human-owned checksum. Return
+only inspectable gaps, evidence, uncertainty, and an optional owner review cue.
+Marker absence is not semantic proof, accurate playback is not outcome proof,
+and an owner-approved adaptation must remain distinguishable from distortion.
+This review cannot block execution or promote itself into automatic activation.
+Deliver the receipt according to the selected recipient: explicit structure for
+`ai_agent` execution and selected consequential `strategy`; a cold sidecar for
+`human`; and an owner-only audit for `public_content`. The last two preserve the
+native artifact exactly and do not expose review structure merely to show that
+the check ran.
+
 ## Default Agentic Engineering Packet
 
 Before mutation-capable work, fill this compact packet or reference an existing Goal Packet that covers it:

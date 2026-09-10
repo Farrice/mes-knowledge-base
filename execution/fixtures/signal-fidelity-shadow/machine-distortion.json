@@ -1,0 +1,32 @@
+{
+  "signal_contract": {
+    "recipient": "Buyer evaluating a monitoring product",
+    "intended_change": "Understand the narrow evaluated reduction in nighttime pages",
+    "source_of_conviction": "A bounded evaluation observed fewer pages while keeping suppression inspectable",
+    "promise": "The evaluation observed 90 percent fewer pages",
+    "limit": "The result is one narrow evaluation and every suppressed alert remains visible",
+    "proof_state": "UNTESTED",
+    "human_owner": "Product founder",
+    "source_path": "extractions/video-context/1KOdiGgMtpY/video-context-ledger.md",
+    "must_survive": [
+      {
+        "id": "narrow-evaluation",
+        "kind": "detail",
+        "meaning": "The result came from one narrow evaluation",
+        "markers": ["narrow evaluation"],
+        "required_in": ["artifact", "playback"]
+      },
+      {
+        "id": "suppression-visible-limit",
+        "kind": "limit",
+        "meaning": "Every suppressed alert remains inspectable",
+        "markers": ["suppressed alert remains visible"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "Get 90 percent fewer pages with intelligent AI-native monitoring.",
+  "artifact_proof_state": "VERIFIED",
+  "playback_text": "The product guarantees 90 percent fewer pages.",
+  "owner_approved_changes": []
+}
