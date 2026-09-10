@@ -876,3 +876,28 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-30 08:07]` **finalize** | Recovered and compared Farrice Cain's recent LinkedIn profile and offer decision lineage against the | general | knowledge-librarian — composite:7.0 status:Needs Improvement
 - `[2026-08-30 08:08]` **finalize** | Recovered and compared Farrice Cain's recent LinkedIn profile and offer decision lineage against the | general | knowledge-librarian — composite:7.67 status:Needs Improvement
 - `[2026-08-30 08:16]` **finalize** | Corrected Farrice LinkedIn profile blend around the creative strategist and Control-Beater ad-static | content | diandra-escobar-linkedin-mastery — composite:8.33 status:Keep
+- `[2026-08-30 21:53]` **finalize** | Gigi Mironova concept: 13-board oxblood-register deck (6-slide escrow carousel + Russian twin + 4 re | general — composite:8.33 status:Keep
+- `[2026-08-30 23:55]` **finalize** | Gigi Mironova v4: the finished Listing Launch Kit for unit 124 — carousel with computed rent-vs-own  | content — composite:8.33 status:Keep
+- `[2026-08-31 09:02]` **finalize** | Gigi Same Door v4: The Calm Closer visual character, 21 rebuilt social assets, one character board,  | general | Andrew Lane — composite:8.33 status:Keep
+- `[2026-08-31 10:54]` **finalize** | Gigi Property Dossier launch system, identity gift deck, and image art-direction standard | content | Creative Direction — composite:5.67 status:Needs Improvement
+- `[2026-08-31 10:55]` **finalize** | Gigi Property Dossier launch system, identity gift deck, and image art-direction standard | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 12:29]` **finalize** | Gigi three-board gift package, captions, identity overview, delivery note, and Listing Launch invita | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 12:30]` **finalize** | Gigi three-board gift package, captions, identity overview, delivery note, and Listing Launch invita | content | Creative Direction — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:05]` **finalize** | House Sellers navy close slide and clean four-board Gigi gift sequence | general | anti-slop — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:05]` **finalize** | _active/clients/gigi-mironova/production/gift-package/deliver/04-next-listing.png | general | anti-slop — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:48]` **finalize** | Post-ready four-slide Unit 124 Instagram carousel with buyer-facing DM 124 CTA, caption, and alt tex | content | ai-carousel-content-engine — composite:6.67 status:Needs Improvement
+- `[2026-08-31 13:48]` **finalize** | _active/clients/gigi-mironova/production/gift-package/post-ready/04-contact-gigi.png | content | ai-carousel-content-engine — composite:6.67 status:Needs Improvement
+- `[2026-09-03 04:27]` **finalize** | Rello public-source Creative Test Autopsy specimen plus five founder-specific public creative specs | general | dara-denney — composite:7.33 status:Needs Improvement
+- `[2026-09-03 04:27]` **finalize** | Rello public-source Creative Test Autopsy specimen plus five founder-specific public creative specs | general | dara-denney — composite:7.33 status:Needs Improvement
+- `[2026-09-03 04:30]` **finalize** | Rello public-source Creative Test Autopsy specimen plus five founder-specific public creative specs | general | dara-denney — composite:7.33 status:Needs Improvement
+- `[2026-09-03 04:31]` **finalize** | Rello public-source Creative Test Autopsy specimen plus five founder-specific public creative specs | general | dara-denney — composite:7.33 status:Needs Improvement
+- `[2026-09-03 04:33]` **finalize** | Rello public-source Creative Test Autopsy specimen plus five founder-specific public creative specs | general | dara-denney — composite:8.67 status:Keep
+- `[2026-09-03 05:32]` **finalize** | Buyer-confidence edit of six supplement creative proof briefs plus repeatable evidence-to-meaning an | general | dara-denney — composite:8.67 status:Keep
+- `[2026-09-03 06:16]` **finalize** | Repaired the single Rello founder-facing creative Proof Note after a user-rated 3/10 regression | copywriting | cardinal-mason — composite:8.67 status:Keep
+- `[2026-09-03 06:38]` **finalize** | Rello first-three-second concept storyboard and approved golden-specimen workflow patch | general | curious-refuge — composite:9.33 status:Keep
+- `[2026-08-17 10:42]` **finalize** | Deep PMF decision brief for LinkedIn-led health-performance offers, with ICP, avatar manifold, paid  | general | research-intelligence-agent — composite:8.67 status:Keep
+- `[2026-08-17 11:16]` **finalize** | Corrected recent-offer LinkedIn PMF verdict with cross-session authority ledger, current market evid | research | research-intelligence-agent — composite:6.67 status:Needs Improvement
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 11:17]` **finalize** | Corrected the Research OS against the actual August 9-13 offer sessions, diagnosed the stale Angle M | research | research-intelligence-agent — composite:8.0 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep
+- `[2026-08-17 17:15]` **finalize** | Research OS deep-research parity implementation, sealed corrected LinkedIn-health PMF report, capped | research | deep-research-os — composite:8.67 status:Keep

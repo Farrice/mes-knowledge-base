@@ -1,0 +1,32 @@
+{
+  "signal_contract": {
+    "recipient": "SRE evaluating an alert-suppression product",
+    "intended_change": "Trust meaningful nighttime pages because noise is suppressed transparently",
+    "source_of_conviction": "Operators lose trust when alerting systems wake them for noise",
+    "promise": "Fewer meaningless pages",
+    "limit": "Every suppressed alert stays visible and reversible",
+    "proof_state": "UNTESTED",
+    "human_owner": "Product founder",
+    "source_path": "extractions/video-context/1KOdiGgMtpY/video-context-ledger.md",
+    "must_survive": [
+      {
+        "id": "quiet-trust",
+        "kind": "detail",
+        "meaning": "Trust is earned through silence on noise",
+        "markers": ["trust the page", "silence on noise"],
+        "required_in": ["artifact", "playback"]
+      },
+      {
+        "id": "visible-reversible-limit",
+        "kind": "limit",
+        "meaning": "Suppression is inspectable and overridable",
+        "markers": ["visible and reversible", "inspect and overrule"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "Reduce meaningless pages so the SRE can trust the page. Every silence is visible and reversible.",
+  "artifact_proof_state": "UNTESTED",
+  "playback_text": "It helps an SRE trust the page by staying quiet on noise, while every suppression remains visible and reversible.",
+  "owner_approved_changes": []
+}

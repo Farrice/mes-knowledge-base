@@ -664,16 +664,23 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
             hot = (n >= 5 or rej >= 3)
             prefix = ("ESCALATION — this loop has already burned "
                       f"{n} renditions. " if hot else "")
+            moves = (
+                "(a) fresh crack from SOURCE INPUT with a different "
+                "architecture, (b) ONE question to Farrice on the fork, (c) "
+                "present existing takes for a pick, (d) restart from the "
+                "source in a clean thread with the brief rewritten (2 "
+                "rejections on taste work = the brief is the problem)."
+                if _CODEX else
+                "(a) fresh crack from SOURCE INPUT with a different "
+                "architecture, (b) ONE AskUserQuestion gut-check on the fork, "
+                "(c) present existing takes for a pick, (d) /fresh-pen — "
+                "compile a run packet and move the mission to a clean session "
+                "(2 rejections on taste work = the pen is the problem).")
             lines.append(
                 f"🛑 SPIRAL BRAKE (deterministic): '{s}' is at rendition {n} "
                 f"with {rej} rejected take(s) this session. {prefix}Do NOT "
-                "produce another variant. Allowed moves: (a) fresh crack from "
-                "SOURCE INPUT with a different architecture, (b) ONE "
-                "AskUserQuestion gut-check on the fork, (c) present existing "
-                "takes for a pick, (d) /fresh-pen — compile a run packet and "
-                "move the mission to a clean session (2 rejections on taste "
-                "work = the pen is the problem). Name the rendition count to "
-                "Farrice out loud.")
+                f"produce another variant. Allowed moves: {moves} Name the "
+                "rendition count to Farrice out loud.")
             if hot:
                 _append_observe({
                     "ts": _now_iso_utc(), "session_id": session_id,

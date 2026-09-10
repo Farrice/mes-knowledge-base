@@ -1,0 +1,25 @@
+{
+  "signal_contract": {
+    "recipient": "Health brand operator",
+    "intended_change": "Inspect one AI visibility and trust gap",
+    "source_of_conviction": "",
+    "promise": "One observable diagnostic gap",
+    "limit": "Public-source read, not a paid-client result",
+    "proof_state": "UNTESTED",
+    "human_owner": "Farrice",
+    "source_path": "_active/linkedin/06-automation/health-performance-ai-search-week-1/content-packet-v3-high-taste.md",
+    "must_survive": [
+      {
+        "id": "public-source-limit",
+        "kind": "limit",
+        "meaning": "The audit is based only on public sources",
+        "markers": ["public-source read"],
+        "required_in": ["artifact"]
+      }
+    ]
+  },
+  "artifact_text": "This is a public-source read of the first gap.",
+  "artifact_proof_state": "UNTESTED",
+  "playback_text": "",
+  "owner_approved_changes": []
+}

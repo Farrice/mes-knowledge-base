@@ -1,0 +1,38 @@
+{
+  "schema_version": "signal-fidelity-human-blind-result/v1",
+  "status": "RECORDED",
+  "evaluator": "Farrice",
+  "evaluator_independent_of_builder": true,
+  "submitted_verdict": {
+    "strategy": "A",
+    "content": "B",
+    "handoff_human": "B",
+    "handoff_ai_agent": "A",
+    "burden": "B"
+  },
+  "label_reveal": {
+    "A": "Signal Fidelity treatment",
+    "B": "native baseline"
+  },
+  "interpreted_results": {
+    "strategy": "treatment_win",
+    "content": "baseline_win",
+    "handoff": "recipient_split",
+    "burden": "baseline_win"
+  },
+  "operator_reasoning": {
+    "handoff_human": "B had more conversational understanding and readability that could be actionable.",
+    "handoff_ai_agent": "A was more specific and direct for an AI agent executing the handoff."
+  },
+  "general_blind_preferred": false,
+  "bounded_treatment_preference": [
+    "consequential strategy compression",
+    "AI-agent execution handoff"
+  ],
+  "bounded_baseline_preference": [
+    "reader-facing creative content",
+    "human-facing handoff",
+    "lower-burden presentation"
+  ],
+  "proof_state": "INDEPENDENT_HUMAN_SPLIT_RESULT"
+}

@@ -71,6 +71,18 @@ def check_boundary_language() -> None:
         "execution/codex_operator_preflight.py",
         ["subagent_approval_packet_present", "real subagents", "read-only diagnostic subagents"],
     )
+    # 2026-09-09: the metered critique swarm is the one sanctioned exception to
+    # "verification never gets its own seat" — its boundary language must hold.
+    require_text(
+        ".agent/workflows/swarm-critique.md",
+        ["one pen writes", "named bar", "read-only", "swarm_meter.py price",
+         "delegation receipt", "never auto-routed"],
+    )
+    require_text(
+        "directives/swarm-usage-policy.md",
+        ["one pen writes", "farrice is the only judge", "hard stop", "max 4 seats",
+         "no judge seat"],
+    )
     require_text(
         "execution/run_receipt.py",
         ["subagents_requested", "subagent_boundary"],

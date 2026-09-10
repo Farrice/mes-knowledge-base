@@ -591,3 +591,13 @@
 {"ts": "2026-09-02T08:29:47Z", "label": "jun-format-intelligence-proof", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('sometimes \u2026 sometimes \u2026 sometimes') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-09-02T08:31:43Z", "label": "farrice-zero-to-hero-campaign", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-30T15:16:05Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-03T11:32:31Z", "label": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-copy.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": []}
+{"ts": "2026-09-03T11:32:51Z", "label": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-copy.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-03T12:27:35Z", "label": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-copy.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-03T12:30:45Z", "label": "deliverables/research-briefs/rello-public-creative-spec/rello-public-creative-spec-brief.md", "verdict": "FAIL", "fails": ["13 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "Triple-beat anaphora ('https \u2026 https \u2026 https') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-09-03T12:30:45Z", "label": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-copy.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-03T12:31:27Z", "label": "deliverables/research-briefs/rello-creative-test-autopsy/rello-creative-test-autopsy-copy.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-03T13:11:52Z", "label": "rello-proof-note", "verdict": "FAIL", "fails": ["13 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "Triple-beat anaphora ('https \u2026 https \u2026 https') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-09-03T13:13:38Z", "label": "rello-proof-note-copy", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-09-03T13:15:24Z", "label": "rello-proof-note-copy", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('if \u2026 if \u2026 if') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-09-03T13:15:48Z", "label": "rello-proof-note-copy", "verdict": "CLEAN", "fails": [], "warns": []}

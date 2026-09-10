@@ -1,0 +1,258 @@
+{
+  "schema_version": "research-claims/v1",
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "DTC.SUPPLY publicly lists a $950 one-SKU sprint with 15 static ads across five concepts.",
+      "source_url": "https://dtc.supply/",
+      "support_passage": "The pricing section names $950 per sprint, one SKU, five concepts, fifteen statics, and three revision rounds.",
+      "authority_class": "seller_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Growth Collective publicly prices a creative strategy package at $3,500 monthly with 15 static and six video assets.",
+      "source_url": "https://www.wearegrowth.co/pricing",
+      "support_passage": "The creative strategy tier lists the monthly amount and exact asset counts for brands under a stated spend band.",
+      "authority_class": "seller_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Low-cost static supply makes asset count alone a weak differentiation.",
+      "source_url": "https://scaleperformancestudio.com/pricing",
+      "support_passage": "The supplier lists about twenty statics in a thirty-euro trial and much larger monthly static volumes.",
+      "authority_class": "seller_primary",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C04",
+      "claim": "Performance creative is commonly packaged around concepts, variations, testing, and iteration.",
+      "source_url": "https://inbeat.agency/blog/performance-creative-pricing-guide",
+      "support_passage": "The guide describes multiple concepts and variations as the operating model and publishes current format prices.",
+      "authority_class": "seller_research",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C05",
+      "claim": "Middle-market AI demand includes workflow development and outside implementation help.",
+      "source_url": "https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html",
+      "support_passage": "RSM reports workflow development use, implementation difficulty, and seventy percent saying they need outside help.",
+      "authority_class": "survey_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C06",
+      "claim": "Broad AI use has not translated into broad scaling or enterprise EBIT impact.",
+      "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai?os=roku..",
+      "support_passage": "The survey reports eighty-eight percent regular use, roughly one-third scaling, and thirty-nine percent with any EBIT impact.",
+      "authority_class": "survey_primary",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Workflow redesign and governance matter more than generic tool access.",
+      "source_url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value",
+      "support_passage": "The survey links value with workflow redesign, process embedding, feedback, trust, governance, training, and KPIs.",
+      "authority_class": "survey_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C08",
+      "claim": "Generative AI use warrants defined human roles, oversight, testing, and provenance.",
+      "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "support_passage": "NIST frames the profile around trustworthy design, development, use, evaluation, and risk management across the AI lifecycle.",
+      "authority_class": "government_primary",
+      "stance": "limitation",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Health advertisers are responsible for express and implied claims and the ad's net impression.",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "support_passage": "FTC says marketers must identify express and implied messages, assess the ad as a whole, and substantiate each reasonable interpretation.",
+      "authority_class": "regulator_primary",
+      "stance": "limitation",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Supplement claim support must relate to the specific claim and the totality of evidence.",
+      "source_url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-substantiation-dietary-supplement-claims-made-under-section-403r-6-federal-food",
+      "support_passage": "FDA guidance names claim meaning, evidence relationship, evidence quality, and totality as substantiation considerations.",
+      "authority_class": "regulator_primary",
+      "stance": "limitation",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C11",
+      "claim": "FDA distinguishes health, nutrient-content, and structure-function claims and applies different oversight paths.",
+      "source_url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/label-claims-conventional-foods-and-dietary-supplements",
+      "support_passage": "The page defines the three claim categories and explains authorization and qualification routes.",
+      "authority_class": "regulator_primary",
+      "stance": "limitation",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C12",
+      "claim": "LinkedIn thought leadership is used during vendor evaluation by both target and hidden buyers.",
+      "source_url": "https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers",
+      "support_passage": "LinkedIn reports fifty-six percent of target buyers and fifty-five percent of hidden buyers use it for vendor evaluation.",
+      "authority_class": "platform_research",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Hidden buyers can stall deals and evaluate trust and risk beyond the primary user's criteria.",
+      "source_url": "https://www.edelman.com/expertise/Business-Marketing/2025-b2b-thought-leadership-report",
+      "support_passage": "Edelman describes nearly two thousand professionals and hidden buyers who influence alignment, trust, and vendor consideration.",
+      "authority_class": "survey_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Proposal automation is a concrete workflow category spanning CRM, pricing, approvals, documents, and signatures.",
+      "source_url": "https://zapier.com/automations/sales/proposal-management",
+      "support_passage": "Zapier's proposal workflow page covers quote creation, approval routing, CRM updates, e-signature, alerts, and audit trails.",
+      "authority_class": "product_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": false
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Public AI automation services package discovery, implementation, training, support, and recurring maintenance.",
+      "source_url": "https://www.johsolutions.com/pricing",
+      "support_passage": "The vendor lists a $1,500 discovery, implementation from $3,500, documentation, training, support, and retainers.",
+      "authority_class": "seller_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C16",
+      "claim": "Proposal automation implementation is publicly sold from several thousand dollars but varies with complexity.",
+      "source_url": "https://ustechautomations.com/resources/blog/automate-consulting-proposal-generation-2026",
+      "support_passage": "The vendor lists implementation tiers from $3,500 to $15,000 and names data quality, adoption, and maintenance costs.",
+      "authority_class": "seller_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C17",
+      "claim": "A current buyer account shows resistance to generic automation expertise without reliability proof.",
+      "source_url": "https://www.reddit.com/r/DigitalMarketing/comments/1tp3jth/paid_7800_for_a_marketing_automation_expert_got/",
+      "support_passage": "The buyer reports a failed $7,800 engagement and asks for error handling, monitoring, logging, replay, and scope proof.",
+      "authority_class": "public_buyer_voice",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": false
+    },
+    {
+      "claim_id": "C18",
+      "claim": "Some small proposal-workflow buyers prefer low monthly software spend and resist customization overhead.",
+      "source_url": "https://www.reddit.com/r/CRMSoftware/comments/1q7xqph/crm_recommendation_customerspecific_pricing/",
+      "support_passage": "The buyer seeks custom proposal and invoice automation within a forty-to-seventy-dollar monthly budget and rejects added overhead.",
+      "authority_class": "public_buyer_voice",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C19",
+      "claim": "Large simultaneous creative batches may dilute learning in low-volume accounts.",
+      "source_url": "https://www.reddit.com/r/FacebookAds/comments/1r64l5w/testing_and_scaling_digital_products_with_meta_ads/",
+      "support_passage": "Practitioners repeatedly recommend only a few new ads at a time when purchase volume is thin.",
+      "authority_class": "public_practitioner_voice",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": false
+    },
+    {
+      "claim_id": "C20",
+      "claim": "AI-assisted supplement creative and compliance is already an emerging product category but current polish is not payment proof.",
+      "source_url": "https://claimoria.com/",
+      "support_passage": "The site lists early-access prices and features while also stating the checkout is coming soon and the tool cannot certify compliance.",
+      "authority_class": "seller_prelaunch",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": true
+    },
+    {
+      "claim_id": "C21",
+      "claim": "Supplement agencies explicitly sell creative strategy that combines research, testing, scaling, and compliance awareness.",
+      "source_url": "https://mhigrowthengine.com/supplement-brands-dtc-creative-strategy-agency/",
+      "support_passage": "The agency describes research-to-brief work, systematic testing, supplement focus, and claim-sensitive messaging.",
+      "authority_class": "seller_primary",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": false,
+      "high_risk": false
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Compliance-first supplement creative processes use claims documentation, reviewer signoff, and structured testing.",
+      "source_url": "https://www.attnagency.com/blog/supplement-brand-creative-compliance",
+      "support_passage": "The agency describes claim substantiation inputs, legal review, message testing, baseline assets, and a production review process.",
+      "authority_class": "seller_research",
+      "stance": "support",
+      "verification_status": "VERIFIED",
+      "load_bearing": false,
+      "high_risk": false
+    },
+    {
+      "claim_id": "C23",
+      "claim": "In-house AI workflows can reduce willingness to pay for raw static production.",
+      "source_url": "https://www.reddit.com/r/DigitalMarketing/comments/1uwfefd/you_shouldnt_be_paying_more_than_15_for_static/",
+      "support_passage": "A current practitioner describes replacing agency static production with an AI workflow and saving monthly production cost.",
+      "authority_class": "public_practitioner_voice",
+      "stance": "counter",
+      "verification_status": "VERIFIED",
+      "load_bearing": true,
+      "high_risk": false
+    }
+  ]
+}

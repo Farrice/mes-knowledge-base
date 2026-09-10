@@ -1,0 +1,94 @@
+{
+  "schema_version": "signal-fidelity-real-work-pilot/v1",
+  "status": "PRECOMMITTED_NOT_RUN",
+  "seed": "signal-fidelity-pilot-v1-2026-08-31",
+  "promotion_eligible": false,
+  "automatic_enforcement": false,
+  "canonical_state_mutation_allowed": false,
+  "subagents_authorized": false,
+  "independent_human_required": true,
+  "conclusion_ceiling": "ADVANCE_TO_HUMAN_BLIND",
+  "arms": {
+    "baseline": "Native owner instructions and frozen source only",
+    "treatment": "Same instructions and source plus the compact Signal Contract"
+  },
+  "cases": [
+    {
+      "id": "strategy",
+      "task": "Compress the offer test map into an activation memo of at most 160 words.",
+      "source_path": "_active/linkedin/04-deliverables/offer-test-map.md",
+      "source_sha256": "f69a4dff9e5c174e9077b292eba35a310c4d283827f00cd39bb01cf19c5f5506",
+      "word_cap": 160,
+      "proof_state": "NO EVENT",
+      "signal_contract": {
+        "recipient": "Farrice operating the crossover offer tests",
+        "intended_change": "launch the smallest demand tests without building new offers first",
+        "source_of_conviction": "payment behavior is the truth instrument and the stable umbrella must not fragment",
+        "promise": "identify which adjacent offer deserves real delivery investment",
+        "limit": "interest is not demand; no more than two concurrent tests; tests cannot displace the core ladder",
+        "proof_state": "NO EVENT",
+        "human_owner": "Farrice",
+        "source_path": "_active/linkedin/04-deliverables/offer-test-map.md",
+        "must_survive": [
+          {"id": "no-build", "kind": "limit", "match_policy": "literal", "markers": ["never a build", "no build"], "required_in": ["artifact"]},
+          {"id": "payment-truth", "kind": "limit", "match_policy": "literal", "markers": ["payment", "paid", "deposit", "prepaid"], "required_in": ["artifact"]},
+          {"id": "two-test-cap", "kind": "limit", "match_policy": "literal", "markers": ["two concurrent", "max 2", "no more than two"], "required_in": ["artifact"]},
+          {"id": "t1-gate", "kind": "decision", "match_policy": "literal", "markers": ["3 paid", "three paid"], "required_in": ["artifact"]},
+          {"id": "umbrella-falsifier", "kind": "decision", "match_policy": "literal", "markers": ["we know our message, we need volume", "can't get ads approved"], "required_in": ["artifact"]}
+        ]
+      }
+    },
+    {
+      "id": "content",
+      "task": "Compress the elevated AI-boom post into a publishable LinkedIn post of at most 170 words while preserving its voice, proof boundaries, and action.",
+      "source_path": "_active/linkedin/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md",
+      "source_sha256": "e0fc9b9db7ce4deabbb6f6b83fde0a767da384ea59beaf8c64dcdb24ba13adf7",
+      "word_cap": 170,
+      "proof_state": "VERIFIED",
+      "signal_contract": {
+        "recipient": "wellness founder using AI for content",
+        "intended_change": "separate machine-readable discovery from human-earned trust and audit both",
+        "source_of_conviction": "content abundance has made recognizable human judgment more valuable",
+        "promise": "show the two-funnel reversal and give the reader a test they can run this week",
+        "limit": "do not imply all AI-assisted content is untrustworthy or overstate the cited study",
+        "proof_state": "VERIFIED",
+        "human_owner": "Farrice",
+        "source_path": "_active/linkedin/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md",
+        "must_survive": [
+          {"id": "human-scene", "kind": "creative_meaning", "match_policy": "manual", "markers": ["who actually wrote it"], "required_in": ["artifact"]},
+          {"id": "two-funnel-frame", "kind": "creative_meaning", "match_policy": "manual", "markers": ["two funnels"], "required_in": ["artifact"]},
+          {"id": "study-boundary", "kind": "claim", "match_policy": "literal", "markers": ["3,800", "3800"], "required_in": ["artifact"]},
+          {"id": "ag1-hedge", "kind": "limit", "match_policy": "literal", "markers": ["reportedly"], "required_in": ["artifact"]},
+          {"id": "humanity-line", "kind": "creative_meaning", "match_policy": "manual", "markers": ["the cheaper your content gets, the more your humanity is worth"], "required_in": ["artifact"]},
+          {"id": "two-number-test", "kind": "creative_meaning", "match_policy": "manual", "markers": ["last ten posts"], "required_in": ["artifact"]}
+        ]
+      }
+    },
+    {
+      "id": "handoff",
+      "task": "Compress the visual-workflow handoff into a next-session packet of at most 135 words.",
+      "source_path": ".agent/handoffs/2026-08-31-visual-workflow.md",
+      "source_sha256": "582fa037015ecae791553035cf7fa7551526555d73b482ad9a5e1912c6f35290",
+      "word_cap": 135,
+      "proof_state": "UNTESTED",
+      "signal_contract": {
+        "recipient": "the next visual-workflow operator",
+        "intended_change": "continue Direction 1 without rebuilding the visual strategy or creating a parallel brand system",
+        "source_of_conviction": "Direction 1 best expresses edited judgment and inspectable proof for established health and performance marketers",
+        "promise": "a vertical Health Performance mode inside Premium Minimal",
+        "limit": "no new palette and no parallel brand system; Directions 2 and 3 remain deliberate rebrands",
+        "proof_state": "UNTESTED",
+        "human_owner": "Farrice",
+        "source_path": ".agent/handoffs/2026-08-31-visual-workflow.md",
+        "must_survive": [
+          {"id": "direction-one", "kind": "decision", "match_policy": "literal", "markers": ["Direction 1", "Performance Evidence Journal"], "required_in": ["artifact"]},
+          {"id": "premium-parent", "kind": "limit", "match_policy": "literal", "markers": ["Premium Minimal"], "required_in": ["artifact"]},
+          {"id": "palette-lock", "kind": "limit", "match_policy": "literal", "markers": ["no new brand palette", "no new palette"], "required_in": ["artifact"]},
+          {"id": "parallel-ban", "kind": "limit", "match_policy": "literal", "markers": ["no parallel brand system", "do not create a parallel brand system"], "required_in": ["artifact"]},
+          {"id": "owners", "kind": "handoff", "match_policy": "literal", "markers": ["Alpine Bio", "Operate", "Integrated Biosciences"], "required_in": ["artifact"]},
+          {"id": "rebrand-risk", "kind": "decision", "match_policy": "literal", "markers": ["deliberate rebrands"], "required_in": ["artifact"]}
+        ]
+      }
+    }
+  ]
+}

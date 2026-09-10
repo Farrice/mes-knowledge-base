@@ -481,12 +481,41 @@ def vitals(active_n, needs_n, due_n, threads_promoted, sweep_age):
     live = next((d for d in receipts
                  if d.get("state") == "running" and _receipt_age_min(d) < 35), None)
     deck_s, deck_cls = ("running", "warn") if live else ("idle", "muted")
+
+    # Harness behavior tile: measured calls/turn for the most-active model
+    # (execution/harness_behavior_report.py via .agent/health/latest.json's
+    # harness_behavior key) — crit/warn on a drop vs its 14d baseline, never
+    # a silent gap when the field is missing or came back UNKNOWN.
+    hb_val, hb_label, hb_cls = "UNKNOWN", "harness calls/turn", "muted"
+    try:
+        hb = (json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
+                             encoding="utf-8")).get("harness_behavior") or {})
+        by_model = hb.get("by_model") or {}
+        if hb.get("status") != "UNKNOWN" and by_model:
+            model, stats = max(by_model.items(), key=lambda kv: kv[1].get("turns", 0))
+            cpt = stats.get("calls_per_turn")
+            baseline = (hb.get("baseline_14d") or {}).get(model)
+            hb_val = str(cpt)
+            hb_label = f"{model} · 14d median {baseline if baseline is not None else 'n/a'}"
+            if baseline and baseline > 0:
+                if cpt < 0.7 * baseline:
+                    hb_cls = "crit"
+                elif cpt < 0.85 * baseline:
+                    hb_cls = "warn"
+                else:
+                    hb_cls = "ok"
+            else:
+                hb_cls = "ok"
+    except Exception:
+        pass
+
     tiles = [
         (str(active_n), "missions live", "", None),
         (str(needs_n), "need you", "warn" if needs_n else "ok", "w-needs"),
         (str(due_n), "outcomes due", "warn" if due_n > 20 else "", "outcomes-sec"),
         (str(dark), "routines dark", "crit" if dark else "ok", "w-routines"),
         (deck_s, "deck", deck_cls, "w-deck"),
+        (hb_val, hb_label, hb_cls, None),
         (esc(sweep_age), "sweep age", "", None),
     ]
     out = []

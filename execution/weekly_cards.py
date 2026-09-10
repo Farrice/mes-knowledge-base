@@ -82,10 +82,71 @@ def fresh_feedback_memories(days=7):
     return out
 
 
+def _measured_harness_block():
+    """Pre-fill E1/E2/E5 evidence with execution/harness_behavior_report.py
+    numbers (7d window) so the weekly eval grades against measured deltas,
+    never bare instructions or file presence (the 2026-09-07 evidence-
+    correction scar this eval set already carries). UNKNOWN — no db, no
+    readable archives — degrades to an explicit unavailable line in that
+    slot, never a PASS."""
+    try:
+        from harness_behavior_report import summary as _hb_summary
+        hb = _hb_summary(days=7)
+    except Exception as e:
+        hb = {"status": "UNKNOWN", "reason": f"{type(e).__name__}: {e}"}
+
+    if hb.get("status") == "UNKNOWN":
+        unavailable = f"MEASUREMENT UNAVAILABLE: {hb.get('reason', 'no reason given')}"
+        return [
+            "## Measured (harness_behavior_report, 7d)",
+            unavailable,
+            "",
+            f"- E1 evidence (router fires / calls-per-turn): {unavailable}",
+            f"- E2 evidence (intent mirror / turns needing >3 calls): {unavailable}",
+            f"- E5 evidence (verbosity register / prose per call): {unavailable}",
+        ]
+
+    lines = [
+        "## Measured (harness_behavior_report, 7d)",
+        f"Generated {hb['generated']} · window: {hb['window']} — grade E1/E2/E5 against",
+        "these measured deltas, not instructions or file presence.",
+        "",
+        "| model | harness | turns | calls/turn | writes/turn | prose/call | %<=3 calls | %final w/ path |",
+        "|---|---|---:|---:|---:|---:|---:|---:|",
+    ]
+    for model, mm in sorted(hb["by_model"].items(), key=lambda kv: -kv[1]["turns"]):
+        lines.append(
+            f"| {model} | {mm['harness']} | {mm['turns']} | {mm['calls_per_turn']} | "
+            f"{mm['writes_per_turn']} | {mm['prose_chars_per_call']} | "
+            f"{mm['pct_turns_le3_calls']}% | {mm['pct_final_with_artifact_path']}% |"
+        )
+    if hb.get("flags"):
+        lines += ["", "Flags (>30% calls/turn drop vs 14d baseline):"]
+        lines += [f"- {f}" for f in hb["flags"]]
+    lines.append("")
+
+    top_model, top_stats = max(hb["by_model"].items(), key=lambda kv: kv[1]["turns"])
+    baseline = (hb.get("baseline_14d") or {}).get(top_model)
+    lines += [
+        f"- E1 evidence (router fires / calls-per-turn): {top_model} calls/turn "
+        f"{top_stats['calls_per_turn']}"
+        + (f" vs 14d median {baseline}" if baseline is not None else " (no 14d baseline yet)")
+        + " — a collapse toward 0 is a routing regression; the number alone is not proof of a pass.",
+        f"- E2 evidence (intent mirror / turns needing >3 calls): {top_model} "
+        f"{top_stats['pct_turns_le3_calls']}% of turns needed <=3 calls — read alongside the "
+        "actual transcript; a high share with no mirror text argues against E2, not for it.",
+        f"- E5 evidence (verbosity register / prose per call): {top_model} "
+        f"{top_stats['prose_chars_per_call']} chars/call — compare against E5's <=120-word "
+        "(~700 char) expectation; a rising figure flags register drift.",
+    ]
+    return lines
+
+
 def mint_evals():
     exists, name = already_minted('harness-evals')
     if exists:
         return None
+    measured = _measured_harness_block()
     return write_card(name, [
         f"# Mission Card — Weekly harness behavioral evals ({week_tag()})",
         "Tier: T1",
@@ -99,6 +160,8 @@ def mint_evals():
         "",
         "## Context to load first",
         "- `evolution_store/harness_evals/eval_set_v1.md` (the eval definitions + scorecard format)",
+        "",
+        *measured,
         "",
         "## Constraints",
         "- DRAFTS AND FILES ONLY. Nothing transmitted, posted, or purchased.",

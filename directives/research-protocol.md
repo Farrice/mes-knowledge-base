@@ -21,11 +21,11 @@ Two orderings: **depth-first** (for insight-grade research, the default for Stan
 
 | Priority | Tool | Cost | When to Use |
 |----------|------|------|-------------|
-| **1** | **Gemini Deep Research** (`deep_research_client.py`, via `/deep-research-gemini`) | $0 under Ultra; ~$0.25-1.50/query on prepaid | **Primary** for foundation research, strategic intelligence, any research feeding downstream decisions. 93.3% DeepSearchQA accuracy. Budget-gated via 3-layer defense. |
-| 2 | Gemini Deep Research Max (same client, `--mode max`) | $0 under Ultra; ~$0.50-1.50/query | When maximum comprehensiveness matters over speed. |
-| 3 | `perplexity_client.py` (sonar-deep-research) | ~$0.25/query | **Fallback only** — when Gemini Deep Research is rate-limited, errors, or budget-exhausted. Tag output as "Perplexity fallback." |
-| 4 | Tavily MCP (`tavily_search`) | Free* | Structured search supplementation. Unlimited within plan. |
-| 5 | `search_web` + `read_url_content` | Free | Supplementation when Deep Research results need URL-level verification. |
+| **1** | **Codex-native Deep Research** (`/deep-research-os --mode auto|codex-native`) | $0 provider API spend | Primary: adaptive questions, native web search/page reads, claim ledger, two gap rounds, counterevidence, and citation verification. |
+| 2 | Native ChatGPT/Gemini subscription export + `benchmark-import` | $0 incremental API cost | Use when the consumer Deep Research UI is preferable; import preserves citations and runs the Research OS audit. |
+| 3 | Gemini Deep Research standard API (`--mode gemini`) | Typically ~$1-$3; API billing separate | Explicit calibration challenger only, with one call, no retry, and a machine-verified provider ceiling. |
+| 4 | Tavily Search/Extract | Account-dependent | Bounded source-recovery leg only after its zero-dollar boundary is verified. |
+| 5 | Other paid research providers | Provider-dependent | Explicit escalation only; never an automatic fallback. |
 
 *Tavily free tier: 1,000 calls/month.
 
@@ -37,7 +37,7 @@ Two orderings: **depth-first** (for insight-grade research, the default for Stan
 | 2 | `perplexity_ask` (Sonar MCP) | ~$0.01 | Single fact-check with citation, quick synthesis of a narrow question. |
 | 3 | Tavily MCP | Free | Structured alternative to Perplexity ask. |
 
-**Rule**: If the task is Standard or Deep depth, default to Gemini Deep Research. Do NOT start with Perplexity for foundation work — it has historically produced shallower synthesis that misses the insight layer.
+**Rule**: Standard and Deep research default to Codex-native. Provider research is never activated by generic routing and never silently falls through to another paid provider.
 
 ---
 
@@ -73,8 +73,8 @@ Two orderings: **depth-first** (for insight-grade research, the default for Stan
 
 ### Deep (Strategic Intelligence)
 - **When**: User explicitly requests deep research, strategy briefs, critical decisions
-- **Tools**: Full deep-research workflow (see `.agent/workflows/deep-research.md`; the multi-wave engine is `.agent/workflows/deep-research-swarm.workflow.js`)
-- **Cost**: $0 — Gemini Deep Research is Ultra-quota-covered (fire it as a background accelerator on every deep/max run via `research.py gemini-start`); Perplexity is DEAD, never propose paid credits
+- **Tools**: `/deep-research-os` Codex-native loop; provider challengers or subscription imports only when explicitly selected
+- **Cost**: $0 provider API spend by default; any provider escalation receives its own receipt and fail-closed cap
 - **Time**: 15-40 minutes (2 gap-fill waves + independent verification — single-pass "deep" is a contradiction)
 - **Source minimum**: 15 across 6+ domains, full-page reads (snippets count half)
 
@@ -112,12 +112,12 @@ Save resources — don't research when:
 
 ## Swarm Research Protocol
 
-For any research deeper than Quick, use the decompose-parallel-synthesize pattern:
+For any research deeper than Quick, use the decompose-gather-gap-close-verify-synthesize pattern. Parallel workers are optional and still require explicit authorization:
 
 1. **Decompose**: Break the question into 4-6 sub-questions using `deep_research_engine.py --decompose-only`
-2. **Research in parallel**: Each sub-question gets its own research track with `search_web` + `read_url_content` — full-page reads, never snippet-only. JS-rendered/login-gated primary sources route to the Playwright lane, never dropped silently.
+2. **Gather**: Each sub-question gets its own research track with native web search + full-page reads, never snippet-only. Inaccessible sources are logged as evidence gaps rather than silently dropped.
 3. **Gap-fill**: a completeness critic names material gaps; follow-up agents close them (rounds per the depth contract — standard 1, deep 2, max 3)
-4. **Verify**: every load-bearing claim attacked by an agent that did NOT find it (refute-default; REFUTED claims dropped)
+4. **Verify**: every load-bearing claim is reopened and checked against its cited page; a separate agent may do this only when explicitly authorized
 5. **Synthesize**: cross-reference findings across all tracks, flag contradictions
 6. **Quality gate**: `research_quality_gate.py validate <report> --depth <tier> --receipt` — the receipt feeds `chain_runner.py finalize --depth-receipt`
 
@@ -138,11 +138,11 @@ Full protocol: `.agent/workflows/deep-research.md` (note: `swarm-research.md` is
 
 ## Budget Management
 
-- **Monthly Perplexity budget**: $30 (tracked in `.agent/perplexity-usage.json`)
-- **Deep research calls**: ~$0.25 each via `sonar-deep-research`
-- **Target allocation**: 80% free tier (`search_web` + `read_url_content`), 20% premium
-- **Budget check before premium calls**: Always run `perplexity_client.budget_remaining()`
-- **When budget is low**: Fall back to free-tier-only using swarm research workflow
+- **Default allocation**: 100% Codex-native provider-free execution.
+- **Provider calls**: explicit mode only; no background accelerator and no automatic fallback.
+- **$10 bakeoff**: `$8` application authorization ceiling plus `$2` reporting-lag reserve; unknown or unbounded provider cost means do not run.
+- **Gemini bakeoff**: one standard interaction maximum, no Max and no paid retry.
+- **Subscription exports**: record `incremental API cost: $0`; do not call the subscription universally free.
 
 ---
 

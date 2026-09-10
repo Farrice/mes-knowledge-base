@@ -390,6 +390,19 @@ def main():
     path = Path(args.file)
     report = gate.validate_markdown(path, strict=args.strict)
 
+    # Strict research is not allowed to inherit the historical content-sniffed
+    # "unknown / three sources" floor. Callers must declare the requested depth
+    # so the deterministic depth contract can be applied.
+    if args.strict and not args.depth:
+        report.metrics["detected_depth"] = "UNSPECIFIED"
+        report.metrics["min_sources_expected"] = "explicit --depth required"
+        report.issues.append(QualityIssue(
+            severity="critical",
+            category="depth_contract",
+            message="STRICT RESEARCH DEPTH UNSPECIFIED: pass --depth quick|standard|deep|max",
+            suggestion="Re-run the gate with the mission's frozen requested depth.",
+        ))
+
     # Explicit-depth override (2026-07-26 shallow-research fix): the depth
     # contract is the single source of truth for floors. Re-judge the source
     # count against the contract, replacing the content-sniffed guess.

@@ -1,0 +1,25 @@
+{
+  "signal_contract": {
+    "recipient": "health brand founder",
+    "intended_change": "treat visible human judgment as the scarce half of an AI-enabled funnel",
+    "source_of_conviction": "the creator has watched polished automation weaken buyer trust",
+    "promise": "show why human signal becomes more valuable as content becomes cheaper",
+    "limit": "do not claim that all AI-assisted content destroys trust",
+    "proof_state": "LIKELY",
+    "human_owner": "Farrice",
+    "source_path": "_active/linkedin/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md",
+    "must_survive": [
+      {
+        "id": "trust-compass",
+        "kind": "creative_meaning",
+        "match_policy": "manual",
+        "markers": ["human judgment becomes scarcer"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "The machines can flood the river. They still cannot choose which water a person should trust.",
+  "playback_text": "The metaphor suggests abundance from machines and a remaining human responsibility for judgment.",
+  "artifact_proof_state": "LIKELY",
+  "owner_approved_changes": []
+}
