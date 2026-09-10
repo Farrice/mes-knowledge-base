@@ -149,6 +149,7 @@ button{font:inherit}
 .compose .k{font-family:var(--mono);font-size:9px;color:var(--muted);white-space:nowrap}
 .compose label.k{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:3px 8px;cursor:pointer}
 .compose select.voice.on{border-color:color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--ink)}
+.compose .chip b{font-weight:400;color:var(--muted);cursor:pointer;padding-left:3px}.compose .chip b:hover{color:var(--crit)}
 .compose .chip{font-size:10.5px;border:1px solid color-mix(in srgb,var(--warn) 60%,transparent);color:var(--ink);background:color-mix(in srgb,var(--warn) 14%,transparent);border-radius:999px;padding:3px 9px;white-space:nowrap;max-width:160px;overflow:hidden;text-overflow:ellipsis}
 .compose button{margin-left:auto;font-size:12px;color:var(--ground);background:var(--accent);border:0;border-radius:999px;padding:6px 14px;cursor:pointer}
 .compose button:disabled{opacity:.45;cursor:default}
@@ -344,7 +345,9 @@ JS = r"""
       return `<div class="turn ${t.role === 'user' ? 'user' : 'assistant'}"><span class="cp" data-copy="${i}" title="copy as text">⧉</span>${body}${meta}</div>`;
     }).join('');
     const busy = n.status === 'running';
-    const skills = upstream(n).filter(m => m.type === 'note').map(m => `<span class="chip" title="wired note (acts as a skill / system prompt)">✎ ${esc(m.title)}</span>`).join('');
+    // Wired notes are SOURCES (they feed the model regardless of the voice menu); show them as
+    // "note:" chips with an × that cuts the wire, so nothing looks locked in.
+    const skills = upstream(n).filter(m => m.type === 'note').map(m => `<span class="chip note" title="wired note — its text goes in as a source on every turn; × cuts the wire">✎ note: ${esc(m.title)} <b data-unwire="${esc(m.id)}" title="cut this note's wire">×</b></span>`).join('');
     const vopts = VOICES.map(v => `<option value="${esc(v.key)}"${(n.voice || '') === v.key ? ' selected' : ''}>${esc(v.key ? '🗣 ' + v.title : v.title)}</option>`).join('') + '<option value="__add">＋ add a voice…</option>';
     const cvs = (n.convos || []).map(x => `<div class="cv${x.id === c.id ? ' on' : ''}" data-cv="${esc(x.id)}" title="${esc(x.title)}"><span>${esc(x.title)}</span>${x.id === c.id ? `<b data-cvren title="rename">✎</b><b data-cvdel title="delete">×</b>` : ''}</div>`).join('');
     return `<div class="chatwrap">
@@ -433,6 +436,12 @@ JS = r"""
       if (j.ok) { ta.value = ''; drafts[n.id] = ''; n.status = 'running'; n.error = null; convo(n).turns.push({role: 'user', text}); drawNodes(); }
     });
     root.querySelectorAll('[data-copy]').forEach(el => el.addEventListener('click', ev => { ev.stopPropagation(); const t = convo(n).turns[+el.dataset.copy]; if (t) navigator.clipboard.writeText(t.text).then(() => toast('copied')); }));
+    root.querySelectorAll('[data-unwire]').forEach(el => el.addEventListener('click', async ev => {
+      ev.stopPropagation(); const from = el.dataset.unwire;
+      const direct = B.edges.some(e => e.from === from && e.to === n.id);
+      if (!direct) { toast('that note reaches this chat through another card — cut the wire on the board'); return; }
+      const j = await act('canvas.unedge', {from, to: n.id}); if (j.ok) { B.edges = B.edges.filter(e => !(e.from === from && e.to === n.id)); drawNodes(); toast('note unwired'); }
+    }));
     bindCopyBlocks(root);
     root.querySelector('[data-newcv]').addEventListener('click', async ev => { ev.stopPropagation(); const j = await act('canvas.convo', {id: n.id, op: 'new'}); if (j.ok && j.node) { Object.assign(n, j.node); drawNodes(); } });
     root.querySelectorAll('[data-cv]').forEach(el => el.addEventListener('click', async ev => {
