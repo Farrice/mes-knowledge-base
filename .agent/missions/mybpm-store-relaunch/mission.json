@@ -2,29 +2,29 @@
   "activation_queue": [
     {
       "after": [],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "desktop + mobile screenshots of the unpublished preview (`https://mybpm.store/?preview_theme_id=158270324891`) beside `preview/design-board.html`; the three things to look at, in his and Jen's words",
       "id": "L1",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Look review packet"
     },
     {
       "after": [],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "per `03-capsule-selection.md`: Sublevel tee leads; hoodie, bucket hat, Defined tee need physical samples; list what each still needs (sample, measurements, material claim, photos)",
       "id": "L2",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Capsule proof"
     },
@@ -32,15 +32,15 @@
       "after": [
         "L1"
       ],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "per `05-build-and-launch.md` \u00a73: collection `DROP 001 / SUBLEVEL`, menu New Drop / Shop / Editorial / About, metafields from `04-content-and-data.md`, populate from `data/product-data-packet.json`, real social links only",
       "id": "L3",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Store config"
     },
@@ -48,15 +48,15 @@
       "after": [
         "L1"
       ],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "remove the dead `thisnew` / `popcustoms` supplier scripts, hide mockup-only products from primary nav, reconcile policy pages",
       "id": "L4",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Cleanup"
     },
@@ -65,29 +65,29 @@
         "L3",
         "L4"
       ],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "`06-qa.md` blocking checks: test order through payment sandbox, tax, shipping, fulfillment route, purchase events fire once, rollback copy of the live Ira theme identified",
       "id": "L5",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Transactional QA"
     },
     {
       "after": [],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "the unsolved part (memory 2026-07-25): a blank/supplier whose silhouettes read as real streetwear, landed cost per piece, price, margin per the four products; DTG ruled out",
       "id": "L6",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Sourcing + unit economics"
     },
@@ -97,15 +97,15 @@
         "L5",
         "L6"
       ],
-      "blocker": "",
+      "blocker": "parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
       "evidence_path": "",
       "expected_artifact": "everything green \u2192 one packet: publish v2, keep Ira as rollback",
       "id": "L7",
       "kind": "lane",
       "next_action": "",
       "owner": "claude",
-      "status": "planned",
-      "updated_at": "2026-09-10T12:48:03+00:00",
+      "status": "blocked",
+      "updated_at": "2026-09-10T12:54:33+00:00",
       "validation_assertion": "",
       "workflow": "Publish packet"
     }
@@ -132,7 +132,15 @@
     ],
     "proof_artifacts": [],
     "resume_command": "/mission resume mybpm-store-relaunch",
-    "skipped_lanes": [],
+    "skipped_lanes": [
+      "L1: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L2: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L3: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L4: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L5: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L6: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch",
+      "L7: parked for a dedicated MyBPM session (his call 2026-09-10); resume with /job resume mybpm-store-relaunch"
+    ],
     "validators_run": []
   },
   "goal": "Take the built, unpublished MyBPM v2 theme live as a store that sells a four-piece drop, with his and Jen's approval on the look and every checkout check passed",
@@ -166,6 +174,6 @@
   },
   "slug": "mybpm-store-relaunch",
   "status": "active",
-  "updated_at": "2026-09-10T12:48:03+00:00",
+  "updated_at": "2026-09-10T12:54:33+00:00",
   "validation_assertions": []
 }

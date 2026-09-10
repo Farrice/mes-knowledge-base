@@ -1,3 +1,49 @@
+# JOB PACKET — mybpm-store-relaunch · for claude · generated 2026-09-10T05:54:33-07:00 on claude (branch worktree-manager-loop-harvest)
+
+## Resume
+- `python3 execution/job_board.py resume mybpm-store-relaunch` then follow `skills/nate-b-jones-manager-loop/workflows/manager-loop-run.md`
+- end the turn only when `python3 execution/job_board.py next mybpm-store-relaunch` prints MAY END
+
+## Rules that travel
+- Keep every unblocked lane moving; batch questions into DECISION PACKETS; deliver packets + receipts, not status.
+- Never publish, send, spend, delete outside the repo, or ship AS Farrice without approval (the card's `Needs approval`).
+- Dispatch briefs carry verbatim: "no Chain, no finalize, no Notion, no Next Moves, return only the artifact".
+
+## Lanes now
+| id | status | owner | after | expected | evidence | blocker |
+|---|---|---|---|---|---|---|
+| L1 | blocked | claude | — | Look review packet |  | parked for a dedicated MyBPM session (his call 202 |
+| L2 | blocked | claude | — | Capsule proof |  | parked for a dedicated MyBPM session (his call 202 |
+| L3 | blocked | claude | L1 | Store config |  | parked for a dedicated MyBPM session (his call 202 |
+| L4 | blocked | claude | L1 | Cleanup |  | parked for a dedicated MyBPM session (his call 202 |
+| L5 | blocked | claude | L3,L4 | Transactional QA |  | parked for a dedicated MyBPM session (his call 202 |
+| L6 | blocked | claude | — | Sourcing + unit economics |  | parked for a dedicated MyBPM session (his call 202 |
+| L7 | blocked | claude | L2,L5,L6 | Publish packet |  | parked for a dedicated MyBPM session (his call 202 |
+runnable: none · waiting on deps: none · blocked on Farrice: L1, L2, L3, L4, L5, L6, L7 · done: none
+
+## Decision packets open
+none
+
+## Decisions answered
+## Packet 1 — L1 · answered · 2026-09-10T05:54:33-07:00
+Choice: Look direction as built (white canvas, black structure, acid signal, Kith restraint) — approve, review, or rebuild?
+Irreversible? no
+Options: A approve / B review with Jen / C rebuild
+Recommend: B — review with Jen first
+If no answer: nothing downstream starts
+
+Answer (Farrice, 2026-09-10T05:54:33-07:00): Not ready. The build from Codex/Work is far from finished; the Sublevel tee was a concept, not a real product linked on the site. Acid signal is OUT — no lime green, no tackiness. The store needs a dedicated session with its own context; we are not finishing it here. This session = the usefulness of recipe cards + manager loop.
+## Packet 2 — L6 · answered · 2026-09-10T05:54:33-07:00
+Choice: Sample/photo budget and supplier for the drop
+Irreversible? no
+Options: A tee only / B fund four / C math first; supplier: research vs named
+Recommend: C — margin math first; research the supplier
+If no answer: sourcing lane runs free research only
+
+Answer (Farrice, 2026-09-10T05:54:33-07:00): Budget: not sure yet — run the sourcing and margin math first (free). Supplier: research it.
+
+## Card
+<!-- instance of recipes/mybpm-store-relaunch.md · opened 2026-09-10T05:48:03-07:00 by claude on claude · goal: Take the built, unpublished MyBPM v2 theme live as a store that sells a four-piece drop, with his and Jen's approval on the look and every checkout check passed -->
 ---
 job: mybpm-store-relaunch
 name: MyBPM store relaunch (premium Shopify v2)
@@ -8,7 +54,7 @@ last_ratchet: never
 ---
 
 ## The job
-Take the MyBPM v2 theme (uploaded unpublished, Theme Check clean, but far from finished and with the acid signal removed) through a real review of design, layout, and how the store functions, then to a live store that can sell a first drop — with Farrice and Jen's approval on the look, every checkout check passed, and no publish or spend he didn't say yes to. Runs in its own dedicated session with the Shopify context loaded.
+Take the already-built MyBPM v2 theme (uploaded, unpublished, Theme Check clean) from staging to a live store that can sell a four-piece drop, with Farrice and Jen's approval on the look and every checkout check passed, without a single publish or spend he didn't say yes to.
 
 ## Sub-jobs / lanes
 - L1 Look review packet — desktop + mobile screenshots of the unpublished preview (`https://mybpm.store/?preview_theme_id=158270324891`) beside `preview/design-board.html`; the three things to look at, in his and Jen's words [parallel]
@@ -52,4 +98,5 @@ Shopify CLI auth to `mybpm.store` (his login) · the relaunch package `_active/m
 Unpublished theme reviewed and approved on desktop + mobile · `06-qa.md` blocking list all checked with evidence · collection + menu + metafields live on the staging theme · sourcing sheet with landed cost and margin per product · publish packet answered, and if yes: v2 published, Ira identified as rollback, first test order receipt.
 
 ## Ratchet log
-- 2026-09-10 — first open (parked same day, his call): the "built" v2 theme is NOT near ready — the Sublevel tee was a concept, never a real product linked on the site; **acid signal (#D7FF2F) is OUT** — drop it from `DESIGN.md` and every section before any review; the store needs its own dedicated session with the Shopify context loaded (the Shopify MCP tools ARE available in Claude Code: shop info, products, collections, GraphQL — use them to review the live store and the unpublished theme instead of trusting the receipt); budget undecided → run sourcing + margin math free first; supplier → research. Ask-me-first Q1 is answered NO; re-ask only after a rebuilt look.
+- none yet
+
