@@ -4566,3 +4566,75 @@
     }
   ]
 }
+{
+  "run_at": "2026-09-10T07:00:04.100745",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-09-09T07:00:05.958529",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-09-07T07:00:06.594006",
+      "reason": "not_due_yet",
+      "days_remaining": 4.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-09-09T07:00:08.169161",
+      "reason": "not_due_yet",
+      "days_remaining": 29.0
+    }
+  ]
+}
+{
+  "run_at": "2026-09-10T07:17:20.764502",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-09-10.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "jen-santulan-listing-content": 1.4,
+            "enrico-incarnati-instagram-realestate": 1.14,
+            "design-md": 0.79,
+            "grace-andrews-media-company": 1.11,
+            "kallaway-hook-mastery": 1.11
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 60.4
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-09-07T07:00:06.594006",
+      "reason": "not_due_yet",
+      "days_remaining": 3.99
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-09-09T07:00:08.169161",
+      "reason": "not_due_yet",
+      "days_remaining": 28.99
+    }
+  ]
+}
