@@ -144,7 +144,7 @@ ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snoo
            # chat turns spawn detached, same pattern as run_skill
            "canvas.new_board", "canvas.add_source", "canvas.add_chat", "canvas.add_note",
            "canvas.edge", "canvas.unedge", "canvas.move", "canvas.delete", "canvas.model",
-           "canvas.edit", "canvas.run_chat"}
+           "canvas.edit", "canvas.run_chat", "canvas.convo", "canvas.add_profile", "canvas.board_title"}
 
 
 def _run_skill(args):
@@ -240,6 +240,10 @@ def _canvas_action(action, args):
             return {"ok": True, "slug": slug}
         board = cb.load(slug)
         nid = str(args.get("id") or "")
+        if op == "board_title":
+            board["title"] = str(args.get("title") or board.get("title") or slug)[:120]
+            cb.save(board)
+            return {"ok": True, "title": board["title"]}
         if op == "add_source":
             src = str(args.get("source") or "").strip()
             if not src:
@@ -257,6 +261,21 @@ def _canvas_action(action, args):
             n = cb.add_note(board, str(args.get("text") or ""), num("x", 40), num("y", 260))
             cb.save(board)
             return {"ok": True, "node": n}
+        if op == "add_profile":
+            url = str(args.get("source") or "").strip()
+            if not url.startswith("http"):
+                return {"ok": False, "error": "paste a YouTube channel or TikTok profile URL"}
+            try:
+                n = cb.add_profile(board, url, num("x", 40), num("y", 40), int(num("limit", 10)))
+            except (RuntimeError, subprocess.TimeoutExpired) as e:
+                return {"ok": False, "error": f"profile listing failed: {str(e)[-200:]}"}
+            cb.save(board)
+            return {"ok": True, "node": n}
+        if op == "convo":
+            c = cb.convo_op(board, nid, str(args.get("op") or "switch"), str(args.get("cid") or ""),
+                            args.get("title"))
+            cb.save(board)
+            return {"ok": True, "active": c["id"], "node": cb._node(board, nid)}
         if op == "edge":
             ok = cb.add_edge(board, str(args.get("from") or ""), str(args.get("to") or ""))
             cb.save(board)

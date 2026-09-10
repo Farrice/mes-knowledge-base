@@ -124,7 +124,68 @@ def load(slug: str, create: bool = False) -> dict:
             save(b)
             return b
         raise FileNotFoundError(f"no board: {slug}")
-    return json.loads(p.read_text(encoding="utf-8"))
+    return _migrate(json.loads(p.read_text(encoding="utf-8")))
+
+
+def _migrate(board: dict) -> dict:
+    """v1 chat nodes kept one `turns` list; Poppy-form chats hold several
+    conversations. Wrap the old list once; `chat_turns()` is the accessor."""
+    for n in board.get("nodes", []):
+        if n.get("type") == "chat" and "convos" not in n:
+            n["convos"] = [{"id": _nid("cv"), "title": "Conversation 1",
+                            "turns": n.pop("turns", []) or [], "created": n.get("created", _now())}]
+            n["active"] = n["convos"][0]["id"]
+    return board
+
+
+def active_convo(n: dict) -> dict:
+    if "convos" not in n:
+        _migrate({"nodes": [n]})
+    for c in n["convos"]:
+        if c["id"] == n.get("active"):
+            return c
+    n["active"] = n["convos"][0]["id"]
+    return n["convos"][0]
+
+
+def chat_turns(n: dict) -> list:
+    return active_convo(n)["turns"]
+
+
+def add_convo(board: dict, nid: str, title: str | None = None) -> dict:
+    n = _node(board, nid)
+    active_convo(n)
+    c = {"id": _nid("cv"), "title": title or f"Conversation {len(n['convos']) + 1}",
+         "turns": [], "created": _now()}
+    n["convos"].append(c)
+    n["active"] = c["id"]
+    n["status"] = "idle"
+    n["error"] = None
+    return c
+
+
+def convo_op(board: dict, nid: str, op: str, cid: str = "", title: str | None = None) -> dict:
+    n = _node(board, nid)
+    active_convo(n)
+    if op == "new":
+        return add_convo(board, nid, title)
+    c = next((c for c in n["convos"] if c["id"] == cid), None)
+    if c is None:
+        raise KeyError(f"no conversation {cid}")
+    if op == "switch":
+        n["active"] = c["id"]
+    elif op == "rename":
+        c["title"] = (title or c["title"])[:120]
+    elif op == "delete":
+        if len(n["convos"]) == 1:
+            c["turns"] = []
+        else:
+            n["convos"] = [x for x in n["convos"] if x["id"] != cid]
+            if n["active"] == cid:
+                n["active"] = n["convos"][-1]["id"]
+    else:
+        raise ValueError(f"unknown convo op {op!r}")
+    return active_convo(n)
 
 
 def save(board: dict) -> Path:
@@ -201,10 +262,59 @@ def add_chat(board: dict, x: float = 420, y: float = 40, model: str = DEFAULT_MO
              title: str = "chat") -> dict:
     if model not in MODELS:
         raise ValueError(f"unknown model {model!r}; choose from {', '.join(MODELS)}")
+    cid = _nid("cv")
     n = {"id": _nid("chat"), "type": "chat", "seq": _next_seq(board),
          "x": x, "y": y, "w": CHAT_W, "h": CHAT_H, "title": title,
-         "model": model, "effort": MODELS[model][2], "turns": [],
-         "created": _now(), "status": "idle"}
+         "model": model, "effort": MODELS[model][2],
+         "convos": [{"id": cid, "title": "Conversation 1", "turns": [], "created": _now()}],
+         "active": cid, "created": _now(), "status": "idle"}
+    board["nodes"].append(n)
+    return n
+
+
+def list_profile(url: str, limit: int = 10) -> list[dict]:
+    """A creator's latest posts, free: yt-dlp --flat-playlist (YouTube channels,
+    TikTok profiles; ~1-3 s). Instagram is login-walled here — vidIQ path later."""
+    import ingest_url
+    if "instagram.com" in url:
+        raise ValueError("Instagram profiles need the vidIQ connector (not wired yet); paste single reel URLs instead")
+    u = url.rstrip("/")
+    if "youtube.com" in u and not u.endswith("/videos") and "/playlist" not in u:
+        u += "/videos"
+    ytdlp = shutil.which("yt-dlp", path=ingest_url._env().get("PATH")) or "yt-dlp"
+    fmt = "%(url)s\t%(id)s\t%(title)s\t%(view_count)s\t%(duration)s\t%(upload_date)s"
+    r = subprocess.run([ytdlp, "--flat-playlist", "-I", f"1:{int(limit)}", "--print", fmt, "--", u],
+                       capture_output=True, text=True, timeout=60, env=ingest_url._env())
+    posts = []
+    for line in (r.stdout or "").splitlines():
+        p = line.split("\t")
+        if len(p) < 6 or not p[0].startswith("http"):
+            continue
+        def _n(v):
+            try:
+                return int(float(v))
+            except (TypeError, ValueError):
+                return None
+        vid = p[1]
+        thumb = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg" if "youtube.com" in p[0] or "youtu.be" in p[0] else ""
+        posts.append({"url": p[0], "id": vid, "title": p[2], "views": _n(p[3]),
+                      "duration_s": _n(p[4]), "date": p[5] if p[5] != "NA" else "", "thumb": thumb})
+    if not posts:
+        raise RuntimeError((r.stderr or "no posts found")[-300:].strip())
+    return posts
+
+
+def add_profile(board: dict, url: str, x: float = 40, y: float = 40, limit: int = 10) -> dict:
+    """Poppy's profile card: handle → latest posts with views. The listing text
+    is also context (a chat wired to it knows what the creator posts)."""
+    posts = list_profile(url, limit)
+    handle = re.sub(r"^https?://(www\.)?", "", url).rstrip("/")
+    lines = [f"- {p['title']} · {p['views'] or '?'} views · {p['duration_s'] or '?'} s · {p['url']}" for p in posts]
+    text = f"{handle} — latest {len(posts)} posts (yt-dlp flat listing)\n" + "\n".join(lines)
+    n = {"id": _nid("prof"), "type": "profile", "seq": _next_seq(board),
+         "x": x, "y": y, "w": NODE_W, "h": 360, "title": handle, "kind": "profile",
+         "source": url[:500], "text": text, "tokens": max(0, len(text) // 4), "posts": posts,
+         "meta": {"fetched": _now()}, "created": _now(), "status": "idle"}
     board["nodes"].append(n)
     return n
 
@@ -314,7 +424,7 @@ def context_for(board: dict, chat_id: str) -> dict:
                 head += f"\n{src}"
             blocks.append(f"{head}\n\n{n['text'].strip()}")
         elif n["type"] == "chat":
-            for t in n.get("turns", []):
+            for t in chat_turns(n):
                 upstream_turns.append(f"[{n.get('title', 'chat')} · {t['role']}] {t['text']}")
     ctx = ""
     if blocks:
@@ -323,7 +433,7 @@ def context_for(board: dict, chat_id: str) -> dict:
         ctx += ("\n\n" if ctx else "") + "UPSTREAM CONVERSATION\n=====================\n\n" + "\n\n".join(upstream_turns)
     return {"context": ctx, "sources": idx, "upstream_turns": len(upstream_turns),
             "ancestors": ancestors(board, chat_id), "tokens_est": max(0, len(ctx) // 4),
-            "history_turns": len(chat.get("turns", []))}
+            "history_turns": len(chat_turns(chat))}
 
 
 def build_prompt(board: dict, chat_id: str, prompt: str) -> tuple[str, dict]:
@@ -332,7 +442,7 @@ def build_prompt(board: dict, chat_id: str, prompt: str) -> tuple[str, dict]:
     parts = []
     if ctx["context"]:
         parts.append(ctx["context"])
-    hist = chat.get("turns", [])
+    hist = chat_turns(chat)
     if hist:
         lines = [f"{t['role'].upper()}: {t['text']}" for t in hist]
         parts.append("CONVERSATION SO FAR\n===================\n\n" + "\n\n".join(lines))
@@ -445,7 +555,8 @@ def run_chat(slug: str, chat_id: str, prompt: str) -> dict:
     effort = chat.get("effort") if chat.get("effort") in choices else default_effort
     full_prompt, ctx = build_prompt(board, chat_id, prompt)
 
-    chat.setdefault("turns", []).append({"role": "user", "text": prompt.strip(), "ts": _now()})
+    convo_id = active_convo(chat)["id"]
+    chat_turns(chat).append({"role": "user", "text": prompt.strip(), "ts": _now()})
     chat["status"] = "running"
     chat["error"] = None
     save(board)
@@ -464,14 +575,18 @@ def run_chat(slug: str, chat_id: str, prompt: str) -> dict:
                 "context_tokens": ctx["tokens_est"], "sources": ctx["sources"], "ts": _now()}
         board = load(slug)
         chat = _node(board, chat_id)
-        chat["turns"].append(turn)
+        convo = next((c for c in chat["convos"] if c["id"] == convo_id), None) or active_convo(chat)
+        convo["turns"].append(turn)
+        if convo["title"].startswith("Conversation ") and len(convo["turns"]) == 2:
+            convo["title"] = prompt.strip().replace("\n", " ")[:48]  # Poppy names the thread by its first ask
         chat["status"] = "idle"
         save(board)
         return turn
     except Exception as e:
         board = load(slug)
         chat = _node(board, chat_id)
-        turns = chat.get("turns", [])
+        convo = next((c for c in chat["convos"] if c["id"] == convo_id), None) or active_convo(chat)
+        turns = convo["turns"]
         if turns and turns[-1].get("role") == "user" and turns[-1].get("text") == prompt.strip():
             turns.pop()  # the ask did not land; keep the board honest so a retry is not doubled
         chat["status"] = "error"
