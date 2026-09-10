@@ -51,3 +51,8 @@ For JOB, the next action is `manager-interview` — never production.
 2. Does a JOB verdict name at least two lanes that could run at the same time? If not, it may
    be a TASK with a long description.
 3. Is anything in STAYS HIS a fact (researchable) rather than a verdict? Move it to the lanes.
+
+## Board rule for DECISION (2026-09-10)
+A DECISION is still opened on the board — one lane on `recipes/decision-packet.md` (`open <slug>
+--recipe decision-packet --go`), one packet, lane blocked on his answer. It shows in the session
+brief and on Homebase like any job; a decision that lives only in a chat reply is lost.

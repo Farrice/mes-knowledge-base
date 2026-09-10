@@ -55,6 +55,15 @@ PIN_PENDING = "PLAN PENDING"
 PIN_RECEIPT = "LANE RECEIPT"
 PIN_PLAN_EVENT = "job-plan-not-shown"
 RECIPES = REPO / "execution" / "recipe_cards.py"
+
+
+def main_checkout() -> Path:
+    """Where the shared board must live: the main checkout (parent of the git common dir)."""
+    r = subprocess.run(["git", "rev-parse", "--git-common-dir"], cwd=str(REPO), capture_output=True, text=True)
+    common = Path(r.stdout.strip())
+    if not common.is_absolute():
+        common = (REPO / common).resolve()
+    return common.parent.resolve() if common.name == ".git" else REPO
 COOZ_ASK = ("Recover voice memo, measure current site output, design premium mobile-ready preview, "
             "build Brent referral proposal")
 TRIAGE_ASK = "triage the 54 open missions: finish, park, or kill each"
@@ -309,6 +318,62 @@ def main():
             r = subprocess.run([sys.executable, str(RECIPES), "lint"], capture_output=True, text=True, cwd=str(REPO))
             check("recipe library lints clean", r.returncode == 0, r.stdout[-200:])
 
+            print("== one board across lanes (2026-09-10)")
+            main_root = main_checkout()
+            in_lane = main_root != REPO.resolve()
+            r = subprocess.run([sys.executable, "-c", "import sys; sys.path.insert(0, r'%s'); import job_board as jb; print(jb.STATE_ROOT)"
+                                % str(REPO / "execution")], capture_output=True, text=True, cwd=str(REPO),
+                               env={k: v for k, v in os.environ.items() if k != "ANTIGRAVITY_ROOT"})
+            check(f"STATE_ROOT resolves to the main checkout ({'from a lane' if in_lane else 'on main'})",
+                  r.stdout.strip() == str(main_root), (r.stdout + r.stderr)[:200])
+            r = subprocess.run([sys.executable, "-c", "import sys; sys.path.insert(0, r'%s'); import job_board as jb; print(jb.STATE_ROOT)"
+                                % str(REPO / "execution")], capture_output=True, text=True, cwd=str(REPO),
+                               env=dict(os.environ, ANTIGRAVITY_ROOT=td))
+            check("ANTIGRAVITY_ROOT still overrides the board root", r.stdout.strip() == str(Path(td).resolve()), (r.stdout + r.stderr)[:200])
+            if in_lane:
+                env_clean = {k: v for k, v in os.environ.items() if k != "ANTIGRAVITY_ROOT"}
+                lane_out = subprocess.run([sys.executable, str(BOARD), "status", "--all", "--json"], capture_output=True, text=True, env=env_clean, cwd=str(REPO)).stdout
+                # main's copy may predate --json (before this lane merges): read its plain table
+                main_out = subprocess.run([sys.executable, str(main_root / "execution" / "job_board.py"), "status", "--all"], capture_output=True, text=True, env=env_clean, cwd=str(main_root)).stdout
+                import re as _re
+                try:
+                    ls_ = sorted(j["slug"] for j in json.loads(lane_out))
+                except Exception:
+                    ls_ = ["lane-parse-error"]
+                ms_ = sorted(m.group(1) for m in _re.finditer(r"^\s{2}(\S+)\s+(active|complete|parked|closed)\b", main_out, _re.M))
+                check("lane board == main board (same slugs)", ls_ == ms_ and ls_, f"lane={ls_[:4]} main={ms_[:4]}")
+            else:
+                check("lane board == main board (running on main: trivially same)", True)
+            # shape check, --force note, writer nudge, finished-not-closed, decision recipe
+            rc, out = board(["open", "j-shape", "--recipe", "mission-backlog-triage", "--goal",
+                             "Should I buy the vidIQ upgrade or Sandcastles or LinkedIn Pro with the $600 left?"], root)
+            check("decision-shaped goal on a many-lane recipe → shape check in the plan", "Shape check" in out and "DECISION" in out, out[:300])
+            rc, out = board(["open", "j-plan2", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK], root)
+            check("job-shaped goal → no shape check", "Shape check" not in out)
+            rc, out = board(["open", "j-plan2", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--force"], root)
+            check("open --force says the lanes reset", "--force re-opens" in out and "progress is gone" in out, out[:200])
+            sp = root / ".agent" / "missions" / "j-plan" / "mission.json"
+            st = json.loads(sp.read_text())
+            st.setdefault("job", {})["last_writer"] = {"branch": "some-other-lane", "harness": "codex", "ts": st["job"].get("go_at") or "2026-09-10T00:00:00+00:00"}
+            import datetime as _d
+            st["job"]["last_writer"]["ts"] = _d.datetime.now().astimezone().isoformat(timespec="seconds")
+            sp.write_text(json.dumps(st))
+            rc, out = board(["lane", "j-plan", "L3", "--status", "active"], root)
+            check("write after another branch wrote minutes ago → one-session-per-job nudge", "another session" in out and "some-other-lane" in out, out[:200])
+            rc, out = board(["lane", "j-plan", "L3", "--status", "active"], root)
+            check("same branch writing again → no nudge", "another session" not in out, out[:200])
+            seed_job(root, "j-fin", [lane("L1", "complete"), lane("L2", "complete")])
+            rc, out = board(["--brief"], root)
+            check("--brief counts a finished-but-not-closed job", "finished but not closed" in out, out[:200])
+            rc, out = board(["status", "--all"], root)
+            check("status flags FINISHED, NOT CLOSED", "FINISHED, NOT CLOSED" in out, out[:300])
+            rc, out = board(["open", "j-dec", "--recipe", "decision-packet", "--goal", "Should I buy X or Y", "--go"], root)
+            check("decision-packet recipe opens as one lane", rc == 0 and "1 lanes" in out, out[:200])
+            board(["packet", "j-dec", "add", "--lane", "L1", "--choice", "X or Y", "--options", "A X / B Y", "--recommend", "A — cheaper"], root)
+            rc, out = board(["lane", "j-dec", "L1", "--status", "blocked", "--blocker", "his answer", "--did", "priced both"], root)
+            rc, out = board(["next", "j-dec"], root)
+            check("decision job → MAY END with the packet open", out.startswith(PIN_END) and "packets open: 1" in out, out[:200])
+
             print("== stop observer")
             obs = REPO / ".agent" / "sessions" / "steering-observe.jsonl"
 
@@ -328,9 +393,10 @@ def main():
             # pointing the hook's job scan at the temp root via a symlinked .agent/missions? The
             # observer reads STATE_DIR.parent/missions — the REPO's. Use a temp job in the repo
             # store instead and clean it up.
-            tmp_job = REPO / ".agent" / "missions" / "verify-job-tmp"
+            main_root = main_checkout()
+            tmp_job = main_root / ".agent" / "missions" / "verify-job-tmp"
             try:
-                seed_job(REPO, "verify-job-tmp", [lane("L1", "planned")])
+                seed_job(main_root, "verify-job-tmp", [lane("L1", "planned")])
                 tp = root / "transcript.jsonl"
                 tp.write_text(json.dumps({"type": "assistant", "message": {"content": [
                     {"type": "text", "text": "Worked on lane one. " * 40}]}}) + "\n")

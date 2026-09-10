@@ -15,6 +15,8 @@ mission dir `.agent/missions/<slug>/` that carries:
 
 Zero new stores. Same file, same CLI, under Claude Code and Codex, so either
 harness can open, drive, hand off, or resume a job without the other existing.
+ONE BOARD: state always lives in the MAIN checkout (`resolve_state_root`), so a
+job opened from any worktree lane is on the same board every session sees.
 Every mission.json write takes a file lock (two writers never lose a lane).
 
 The one rule this board makes physical: `next` prints TURN MUST CONTINUE while
@@ -67,15 +69,43 @@ import sys
 from contextlib import contextmanager
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1]          # this checkout: code + recipes travel with the branch
 EXEC = ROOT / "execution"
 if str(EXEC) not in sys.path:
     sys.path.insert(0, str(EXEC))
 
+
+def resolve_state_root() -> Path:
+    """ONE BOARD ACROSS EVERY LANE (2026-09-10). Job state lives in the MAIN checkout's
+    `.agent/missions/` no matter which worktree lane the session sits in — otherwise a
+    job opened in a lane is invisible to every other session until the lane merges
+    (seen: lane board 4 jobs, main board 8). ANTIGRAVITY_ROOT still wins (verifiers,
+    temp roots)."""
+    env = os.environ.get("ANTIGRAVITY_ROOT")
+    if env:
+        return Path(env).expanduser().resolve()
+    try:
+        out = subprocess.run(["git", "rev-parse", "--git-common-dir"], cwd=str(ROOT),
+                             capture_output=True, text=True, timeout=5).stdout.strip()
+        if out:
+            common = Path(out)
+            if not common.is_absolute():
+                common = (ROOT / common).resolve()
+            if common.name == ".git" and common.parent.is_dir():
+                return common.parent.resolve()
+    except Exception:
+        pass
+    return ROOT
+
+
+STATE_ROOT = resolve_state_root()
+# mission_control reads ANTIGRAVITY_ROOT at import; its subprocesses inherit it too
+os.environ["ANTIGRAVITY_ROOT"] = str(STATE_ROOT)
+
 import mission_control as mc  # noqa: E402
 import recipe_cards as rc  # noqa: E402
 
-MISSIONS_JSONL = ROOT / ".agent" / "missions.jsonl"
+MISSIONS_JSONL = STATE_ROOT / ".agent" / "missions.jsonl"
 TERMINAL = {"complete", "skipped"}
 WAITING = {"blocked"}
 RUNNABLE_STATES = {"planned", "active"}
@@ -172,6 +202,36 @@ def classify(state: dict) -> dict:
     return {"runnable": runnable, "waiting_deps": truly_waiting, "blocked": blocked, "done": done}
 
 
+def stamp_writer(state: dict) -> dict | None:
+    """Record who wrote last (branch + harness + time); return the PREVIOUS stamp when it
+    came from another branch within 30 minutes — the 'two sessions on one job' nudge."""
+    job = state.setdefault("job", {})
+    prev = job.get("last_writer") or {}
+    cur = {"branch": git_branch(), "harness": harness(), "ts": now_iso()}
+    job["last_writer"] = cur
+    if prev and prev.get("branch") and prev["branch"] != cur["branch"]:
+        try:
+            age = (_dt.datetime.fromisoformat(cur["ts"]) - _dt.datetime.fromisoformat(prev["ts"])).total_seconds()
+        except Exception:
+            age = 10 ** 9
+        if age < 30 * 60:
+            prev["age_min"] = int(age // 60)
+            return prev
+    return None
+
+
+def writer_nudge(prev: dict | None, slug: str) -> None:
+    if prev:
+        print(f"  nudge: another session (branch {prev['branch']}, {prev.get('harness', '?')}) wrote to {slug} "
+              f"{prev['age_min']} min ago — one session per job: resume there, or hand off first")
+
+
+def finished_unclosed(state: dict) -> bool:
+    c = classify(state)
+    lanes = lanes_of(state)
+    return bool(lanes) and len(c["done"]) == len(lanes) and state.get("status") not in ("complete", "closed", "parked")
+
+
 def decisions_path(slug: str) -> Path:
     return mc.mission_dir(slug) / "decisions.md"
 
@@ -261,8 +321,12 @@ def trace_lines(slug: str) -> list[str]:
 
 def plan_text(slug: str, card: dict, recipe: str, goal: str, match_note: str) -> str:
     secs = card["sections"]
-    lines = [f"JOB PLAN — {slug}", f"Goal: {goal}", f"Recipe: {recipe} · {match_note}", "",
-             "What I'll do (lanes):"]
+    lines = [f"JOB PLAN — {slug}", f"Goal: {goal}", f"Recipe: {recipe} · {match_note}"]
+    if re.match(r"^\s*(decide|should (i|we)|which|whether|do i|is it worth|what should i)\b", goal, re.I) \
+            and len(card["lanes"]) > 2:
+        lines.append("Shape check: this goal reads like a DECISION. If one packet answers it, this is not a job — "
+                     "use recipes/decision-packet.md (one lane, one packet) instead of running these lanes.")
+    lines += ["", "What I'll do (lanes):"]
     for l in card["lanes"]:
         dep = f"after {', '.join(l['after'])}" if l["after"] else "parallel"
         lines.append(f"  {l['id']} {l['name']} [{dep}] — {l['desc']}")
@@ -303,9 +367,13 @@ def cmd_open(a):
     card = rc.parse(recipe)
     goal = a.goal or card["sections"].get("The job", "").strip().splitlines()[0]
     slug = a.slug
-    if mc.state_path(slug).exists() and not a.force:
+    existed = mc.state_path(slug).exists()
+    if existed and not a.force:
         print(f"job '{slug}' already exists — job_board.py resume {slug} (or --force)")
         return 1
+    if existed:
+        print(f"  NOTE: --force re-opens '{slug}': every lane resets to planned and lane progress is gone "
+              f"(trace.md and decisions.md are kept)")
     cmd = [sys.executable, str(EXEC / "mission_control.py"), "create", "--name", card["frontmatter"].get("name", slug),
            "--slug", slug, "--goal", goal, "--mode", a.mode,
            "--next-command", f"python3 execution/job_board.py next {slug}"]
@@ -355,6 +423,7 @@ def cmd_open(a):
         state = mc.read_state(slug)
         state["job"]["plan"] = "confirmed" if a.go else "pending"
         state["job"]["match"] = {"top": top, "confident": v["confident"], "reason": v["reason"]}
+        stamp_writer(state)
         write(slug, state)
         plan_path(slug).write_text(ptxt, encoding="utf-8")
         trace_add(slug, "-", "opened", f"recipe {recipe} · {len(card['lanes'])} lanes · {match_note}", a.owner)
@@ -382,12 +451,14 @@ def cmd_plan(a):
 def cmd_go(a):
     with locked(a.slug):
         state = read(a.slug)
+        prev = stamp_writer(state)
         if plan_state(state) == "confirmed":
             print(f"  {a.slug}: plan already confirmed")
         else:
             state.setdefault("job", {})["plan"] = "confirmed"
             state["job"]["go_at"] = now_iso()
-            write(a.slug, state)
+        write(a.slug, state)
+        writer_nudge(prev, a.slug)
         trace_add(a.slug, "-", "go", a.note or "his nod", "farrice")
         dp = decisions_path(a.slug)
         with open(dp, "a", encoding="utf-8") as fh:
@@ -465,7 +536,9 @@ def cmd_lane(a):
             nudges.append("complete with no --evidence path: the trace will say only 'complete'")
         if lane["status"] in ("complete", "skipped", "blocked") and not lane.get("did"):
             nudges.append("no --did line: say what was done / found / skipped so he can read it in the trace")
+        prev = stamp_writer(state)
         write(a.slug, state)
+        writer_nudge(prev, a.slug)
         if a.status or a.did or a.evidence or a.blocker:
             what = []
             if a.status and a.status != before:
@@ -687,18 +760,24 @@ def job_summary(slug: str) -> dict:
             "lanes": len(lanes_of(state)), "runnable": len(c["runnable"]), "waiting_deps": len(c["waiting_deps"]),
             "blocked": len(c["blocked"]), "done": len(c["done"]), "packets": len(open_packets(slug)),
             "owners": owners, "opened": (state.get("job") or {}).get("opened_at", "")[:10],
-            "plan": plan_state(state), "last": (trace_lines(slug) or ["- "])[-1][2:]}
+            "plan": plan_state(state), "last": (trace_lines(slug) or ["- "])[-1][2:],
+            "finished_unclosed": finished_unclosed(state)}
 
 
 def cmd_status(a):
     slugs = [a.slug] if a.slug else job_slugs(include_closed=a.all)
+    if getattr(a, "json", False):
+        print(json.dumps([job_summary(s_) for s_ in slugs], indent=2))
+        return 0
     if not slugs:
         print("JOBS: none open")
         return 0
+    print(f"  board: {STATE_ROOT / '.agent' / 'missions'}" + ("" if STATE_ROOT == ROOT else f"  (shared with main; code from {ROOT.name})"))
     print("JOBS (manager loop) — lanes: runnable / queued / blocked-on-you / done · packets = decisions waiting")
     for s in slugs:
         j = job_summary(s)
-        flag = "  PLAN PENDING (say go)" if j["plan"] == "pending" else ""
+        flag = ("  PLAN PENDING (say go)" if j["plan"] == "pending"
+                else (f"  FINISHED, NOT CLOSED (job_board.py close {j['slug']} …)" if j["finished_unclosed"] else ""))
         print(f"  {j['slug']:<32} {j['status']:<9} {j['runnable']}/{j['waiting_deps']}/{j['blocked']}/{j['done']} of {j['lanes']}"
               f"  packets={j['packets']}  owners={','.join(j['owners']) or '—'}  opened {j['opened']}  recipe={j['recipe']}{flag}")
         if getattr(a, "trace", False) and j["last"]:
@@ -714,9 +793,12 @@ def cmd_brief(_a=None):
     packets_total = sum(j["packets"] for j in js)
     runnable_total = sum(j["runnable"] for j in js if j["plan"] != "pending")
     plans_pending = sum(1 for j in js if j["plan"] == "pending")
+    unclosed = sum(1 for j in js if j["finished_unclosed"])
     head = f"JOBS: {len(js)} open"
     if plans_pending:
         head += f" · {plans_pending} plan(s) waiting for your go"
+    if unclosed:
+        head += f" · {unclosed} finished but not closed"
     if packets_total:
         head += f" · {packets_total} decision packet(s) waiting for you"
     if runnable_total:
@@ -845,7 +927,8 @@ def main(argv=None):
     s.set_defaults(fn=cmd_handoff)
     s = sub.add_parser("resume"); s.add_argument("slug"); s.set_defaults(fn=cmd_resume)
     s = sub.add_parser("status"); s.add_argument("slug", nargs="?"); s.add_argument("--all", action="store_true")
-    s.add_argument("--trace", action="store_true", help="add each job's last trace line"); s.set_defaults(fn=cmd_status)
+    s.add_argument("--trace", action="store_true", help="add each job's last trace line")
+    s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_status)
     s = sub.add_parser("close"); s.add_argument("slug")
     for f in ("done", "aligned", "unauthorized", "approvals"):
         s.add_argument(f"--{f}", required=True)

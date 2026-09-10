@@ -33,7 +33,11 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
 1. **Triage** — `skills/nate-b-jones-manager-loop/workflows/job-triage.md`. Run
    `python3 execution/recipe_cards.py match "<ask>"` and `python3 execution/job_board.py status --all`
    first; an open job or mission that matches is continued, never recompiled.
-   TASK → route direct (`/go` or the named workflow), no board. DECISION → one packet, no lanes.
+   TASK → route direct (`/go` or the named workflow), no board. DECISION → still on the board,
+   as ONE lane: `job_board.py open <slug> --recipe decision-packet --go`, research, `packet add`,
+   `lane L1 --status blocked --blocker "his answer"` → MAY END with the packet. (Scar 2026-09-10:
+   a $600 tool-allocation question became a seven-lane Poppy job; a decision that lives only in
+   a chat reply never shows on Homebase or the session brief.)
 2. **Recipe** — `recipe_cards.py match` prints CONFIDENT MATCH or WEAK MATCH. **A weak match
    is a forge signal, never a plan**: forge a card from the workflows that already run the job
    (`recipe-card-forge.md`), save it to `recipes/`, and the plan beat shows it. Never run a
@@ -66,8 +70,15 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
 
 ## Harness rules
 
-- **Disk is the only truth.** `.agent/missions/<slug>/{card.md, plan.md, trace.md, mission.json,
-  decisions.md, portable.md}`. `/job resume <slug>` on either harness reloads from disk, never from a transcript.
+- **Disk is the only truth, and there is ONE board.** `.agent/missions/<slug>/{card.md, plan.md,
+  trace.md, mission.json, decisions.md, portable.md}` in the MAIN checkout, from every lane
+  (`job_board.py` resolves the state root through the git common dir; scar 2026-09-10: a lane
+  saw 4 jobs, main saw 8). Code and recipes travel with the branch; state does not.
+- **Parallel is fine; one session per job.** Different jobs in different sessions, Claude or
+  Codex, any lane — yes. The same job in two sessions at once — no: they would do lanes twice.
+  The board nudges when another branch wrote to the job minutes ago; hand off or resume there.
+- **Finished is not closed.** `--brief` and `status` flag a job whose lanes are all done but that
+  was never closed — close it (`job_board.py close …`) so the recipe ratchets and the board clears. `/job resume <slug>` on either harness reloads from disk, never from a transcript.
 - **Alone or together.** Fable usage out mid-job → `job_board.py handoff <slug> --to codex`, open
   Codex, `/job resume <slug>`. Reverse identical. `--to chat` = a paste-anywhere packet for ChatGPT
   / claude.ai; results come back as `LANE <id> RESULT` blocks he files with `job_board.py lane`.
