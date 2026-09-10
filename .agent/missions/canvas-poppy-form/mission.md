@@ -3,10 +3,10 @@
 ## Charter
 - Slug: canvas-poppy-form
 - Mode: code
-- Status: active
+- Status: complete
 - Goal: Make /canvas look, feel and operate like Poppy so Farrice actually uses it: rail, thumbnail cards, profile card, chat panel with conversations + fullscreen, rendered replies with copy; every control proven in the browser, then landed on 8765
 - Created: 2026-09-10T16:23:45+00:00
-- Updated: 2026-09-10T16:47:02+00:00
+- Updated: 2026-09-10T23:45:35+00:00
 - Librarian: not_applicable
 
 ## Validation Contract

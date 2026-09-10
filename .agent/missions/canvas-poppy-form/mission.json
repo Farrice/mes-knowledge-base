@@ -154,11 +154,13 @@
   "goal": "Make /canvas look, feel and operate like Poppy so Farrice actually uses it: rail, thumbnail cards, profile card, chat panel with conversations + fullscreen, rendered replies with copy; every control proven in the browser, then landed on 8765",
   "handoffs": [],
   "job": {
+    "closed_at": "2026-09-10T16:45:35-07:00",
     "harness": "claude",
     "opened_at": "2026-09-10T09:23:45-07:00",
     "opened_by": "claude",
     "recipe": "tool-build-vs-buy-verdict",
-    "serves": "orphan"
+    "serves": "orphan",
+    "verdict": null
   },
   "librarian": {
     "notes": "",
@@ -181,7 +183,7 @@
     ]
   },
   "slug": "canvas-poppy-form",
-  "status": "active",
-  "updated_at": "2026-09-10T16:47:02+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-10T23:45:35+00:00",
   "validation_assertions": []
 }

@@ -3,10 +3,10 @@
 ## Charter
 - Slug: poppy-canvas-verdict
 - Mode: system
-- Status: active
+- Status: complete
 - Goal: A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on
 - Created: 2026-09-10T13:03:59+00:00
-- Updated: 2026-09-10T15:17:35+00:00
+- Updated: 2026-09-10T23:45:35+00:00
 - Librarian: not_applicable
 
 ## Validation Contract

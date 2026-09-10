@@ -159,11 +159,13 @@
   "goal": "A working /canvas he can use for a week in place of Poppy, a parity test on his real workflow, a true monthly cost table, and a build-vs-buy verdict he can act on",
   "handoffs": [],
   "job": {
+    "closed_at": "2026-09-10T16:45:35-07:00",
     "harness": "claude",
     "opened_at": "2026-09-10T06:03:59-07:00",
     "opened_by": "claude",
     "recipe": "tool-build-vs-buy-verdict",
-    "serves": "orphan"
+    "serves": "orphan",
+    "verdict": null
   },
   "librarian": {
     "notes": "",
@@ -186,7 +188,7 @@
     ]
   },
   "slug": "poppy-canvas-verdict",
-  "status": "active",
-  "updated_at": "2026-09-10T15:17:35+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-10T23:45:35+00:00",
   "validation_assertions": []
 }
