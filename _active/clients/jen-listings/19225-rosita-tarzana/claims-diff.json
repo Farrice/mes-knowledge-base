@@ -1,0 +1,8 @@
+[
+  {
+    "check": "price_jump_ambush",
+    "severity": "risk",
+    "detail": "Remodel-gap ambush: list $4,800,000 is +118.2% over last sale $2,200,000 (2022-01-28)",
+    "fallback_line": "Frame the price around the full reimagining, never appreciation \u2014 buyers WILL pull the sale history."
+  }
+]

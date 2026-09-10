@@ -53,3 +53,17 @@ Every number in the nine posts, where it came from, and what to re-check on send
 - 01-attract comps are dated sept 2 → HOLD; re-pull the three listings the day it posts (they move).
 - 03-convert Bothwell → HOLD until Jen confirms it is hers to post (co-listed with Marty Azoulay).
 
+
+## 2026-09-10 · 19225 Rosita St, Tarzana — intro reel (convert)
+
+| post | fact | label | source | check |
+|---|---|---|---|---|
+| rosita intro | $4,800,000 · 6 bd / 7 ba · 6,500 sq ft · 0.49 acre · single story, all 6 bedrooms on the main level · built 1952 · MLS SR26195670 | VERIFIED | Zillow JSON-LD + facts, Redfin, 2026-09-10 | none |
+| rosita intro | heated pool + spa, outdoor fireplace, guest/maid's quarters, 11 uncovered parking spaces, no garage listed | VERIFIED | MLS description + facts | none |
+| rosita intro | outdoor kitchen; guest quarters have their own kitchen + living room; great room opens on pocket doors | VERIFIED by photo | listing photos 50–51, 52–59, 9 (`19225-rosita-tarzana/photos/`) | none |
+| rosita intro | south of Ventura Blvd; flat lot | VERIFIED | geo 34.1559/−118.5517; aerials 71–72; 2021 listing text | none |
+| rosita intro | "most builders at this size go up" / "the one buyers ask me for and almost never get" | Jen-seat (thesis, opinion) | Quiet Flex register, Armida PASS species | Jen thumbs-up |
+| rosita intro | $738/sq ft vs 2026 Tarzana closed sales ≥5,000 sf at $598–$875/sf | LIKELY (Redfin comp panel, not a CMA) | Redfin 2026-09-10 | not on a frame |
+| rosita intro | listing agents Marty Azoulay + Shane Zvulun, Equity Union; Jen not on the listing | VERIFIED | Zillow + Redfin | HOLD until Jen confirms clearance (same as Bothwell) |
+| rosita intro | open house Sat 1–4pm | LIKELY (date not shown) | Redfin | confirm with Marty before caption |
+| rosita intro | last sale $2,200,000 (2022-01-28), +118%; Zestimate $3,325,600; Redfin est $4,772,176; MLS "tile counters" vs slab in photos; "only two flat lots on Rosita"; "detached" | UNCONFIRMED / ambush — never in copy | ledger + diff | Q&A prep only |

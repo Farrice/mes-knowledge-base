@@ -1,0 +1,177 @@
+[
+  {
+    "claim": "Listed at $4,800,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "6 bed / 7 bath total",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "6500 sqft",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "0.49 acre lot",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Built 1952",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "1 story",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Single Family Residence",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "MLS #SR26195670",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Pool",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Fireplace",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Central air",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Zestimate $3,325,600",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Wilbur Charter For Enriched Academics (K-5, rated 8/10, 0.7 mi)",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Gaspar De Portola Middle School (6-8, rated 9/10, 1.0 mi)",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Taft Charter High (9-12, rated 9/10, 1.4 mi)",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Listed for sale 2026-09-10 at $4,800,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Rental listing removed 2026-06-05 at $30,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Listed for rent 2026-05-29 at $30,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Listed for rent 2026-02-20 at $30,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Sold 2022-01-28 at $2,200,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Listed for sale 2021-12-16 at $2,200,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Listing removed 2018-07-24 at $1,449,000",
+    "source": "mls_field",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "$738/sqft",
+    "source": "derived",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": null
+  },
+  {
+    "claim": "Remodel-gap ambush: list $4,800,000 is +118.2% over last sale $2,200,000 (2022-01-28)",
+    "source": "derived",
+    "confidence": "VERIFIED",
+    "contradiction": false,
+    "fallback_line": "Frame the price around the full reimagining, never appreciation \u2014 buyers WILL pull the sale history."
+  },
+  {
+    "claim": "Price vs area median (needs market receipts)",
+    "source": "external",
+    "confidence": "UNCONFIRMED",
+    "contradiction": false,
+    "fallback_line": "Fill from research receipts before speaking to market position."
+  }
+]

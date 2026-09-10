@@ -1,0 +1,117 @@
+{
+  "slug": "19225-rosita-tarzana",
+  "address": "19225 Rosita St",
+  "city": "Tarzana",
+  "zip": "91356",
+  "price": 4800000,
+  "beds": 6,
+  "baths": 7,
+  "baths_full": 7,
+  "baths_half": 0,
+  "beds_main": 6,
+  "baths_main": 7,
+  "sqft": 6500,
+  "lot_acres": 0.49,
+  "lot_sqft": 21379,
+  "year_built": 1952,
+  "stories": 1,
+  "property_type": "Single Family Residence",
+  "mls": "SR26195670",
+  "brokerage": "Equity Union",
+  "description": "Set within a private and desirable Tarzana setting, this exceptional single-story residence offers an impressive combination of scale, comfort, and resort-style living. Situated on an approximately 21,379-square-foot lot, the property features approximately 6,500 square feet of living space, 6 bedrooms, and 7 bathrooms. The thoughtfully designed interior features an open floor plan with high and cathedral ceilings, built-in features, and abundant natural light. The remodeled kitchen offers generous cabinetry, pots-and-pan drawers, tile countertops, a utility sink, built-in range, microwave, refrigerator, and warming drawer, opening seamlessly to the family room. Multiple living spaces include a formal entry, living room, dining room, family room, den, and great room. The primary suite features a walk-in closet, while all six bedrooms are conveniently located on the main level. The private backyard is designed for entertaining and relaxation, featuring a heated in-ground pool and spa with an outdoor fireplace. Approximately 11 uncovered parking spaces provide exceptional convenience for residents and guests. Additional features include central air and heating, individual laundry room, upgraded bathrooms, guest/maid's quarters, and no common walls. Ideally located near shopping, dining, entertainment, and major transportation routes, this distinctive Tarzana residence offers exceptional space, privacy, and indoor-outdoor living.",
+  "zestimate": 3325600,
+  "rent_zestimate": null,
+  "walk_score": null,
+  "parsed_at": "2026-09-10T11:02:21",
+  "source": "json",
+  "agents": [
+    "Marty Azoulay"
+  ],
+  "open_houses": [],
+  "photos": [
+    "photos/p01.jpg",
+    "photos/p02.jpg",
+    "photos/p03.jpg",
+    "photos/p04.jpg",
+    "photos/p05.jpg"
+  ],
+  "price_history": [
+    {
+      "date": "2026-09-10",
+      "event": "Listed for sale",
+      "price": 4800000
+    },
+    {
+      "date": "2026-06-05",
+      "event": "Rental listing removed",
+      "price": 30000
+    },
+    {
+      "date": "2026-05-29",
+      "event": "Listed for rent",
+      "price": 30000
+    },
+    {
+      "date": "2026-02-20",
+      "event": "Listed for rent",
+      "price": 30000
+    },
+    {
+      "date": "2022-01-28",
+      "event": "Sold",
+      "price": 2200000
+    },
+    {
+      "date": "2021-12-16",
+      "event": "Listed for sale",
+      "price": 2200000
+    },
+    {
+      "date": "2018-07-24",
+      "event": "Listing removed",
+      "price": 1449000
+    }
+  ],
+  "schools": [
+    {
+      "name": "Wilbur Charter For Enriched Academics",
+      "grades": "K-5",
+      "distance_mi": 0.7,
+      "rating": 8
+    },
+    {
+      "name": "Gaspar De Portola Middle School",
+      "grades": "6-8",
+      "distance_mi": 1.0,
+      "rating": 9
+    },
+    {
+      "name": "Taft Charter High",
+      "grades": "9-12",
+      "distance_mi": 1.4,
+      "rating": 9
+    }
+  ],
+  "adu": {
+    "present": false,
+    "beds": null,
+    "baths": null,
+    "sqft": null,
+    "has_kitchen": null
+  },
+  "features": {
+    "pool": true,
+    "spa": true,
+    "basement": null,
+    "fireplace": true,
+    "garage_spaces": 0,
+    "central_air": true,
+    "single_story": true,
+    "outdoor_kitchen": null,
+    "furnished": null
+  },
+  "tax": {
+    "assessed": 2381349,
+    "annual": null
+  }
+}

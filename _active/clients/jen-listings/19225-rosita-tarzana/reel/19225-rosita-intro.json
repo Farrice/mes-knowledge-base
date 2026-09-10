@@ -1,0 +1,50 @@
+{
+  "out": "19225-rosita-intro",
+  "lockup": true,
+  "out_dir": "../../19225-rosita-tarzana/reel",
+  "beats": [
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r01.jpg",
+      "line": "At 6,500 Square Feet,<br>Most Builders Go Up.",
+      "size": 96,
+      "secs": 4,
+      "zoom": "in"
+    },
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r04.jpg",
+      "line": "This One Stayed<br>On One Floor.<br>All Six Bedrooms.",
+      "size": 91,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r73.jpg",
+      "line": "Half An Acre<br>South Of The Boulevard.<br>And It Is Flat.",
+      "size": 91,
+      "secs": 4.5,
+      "zoom": "in"
+    },
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r53.jpg",
+      "line": "Guest Quarters<br>With Their Own Kitchen.",
+      "size": 96,
+      "secs": 4.5,
+      "zoom": "out"
+    },
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r74.jpg",
+      "line": "Heated Pool. Spa.<br>Outdoor Kitchen.<br>Eleven Cars Off The Street.",
+      "size": 86,
+      "secs": 5,
+      "zoom": "in"
+    },
+    {
+      "photo": "../../19225-rosita-tarzana/photos/r02.jpg",
+      "line": "19225 Rosita St.<br>Tarzana.<br>$4,800,000.",
+      "size": 100,
+      "hand": "DM for a private showing &#8594;",
+      "secs": 5,
+      "zoom": "out"
+    }
+  ]
+}
