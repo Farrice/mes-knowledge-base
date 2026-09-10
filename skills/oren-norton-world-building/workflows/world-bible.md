@@ -25,12 +25,13 @@ Run the canonical build sequence (genius.md), producing each artifact:
 2. **Oppose**: the category king's attributes, inverted axis by axis (plastic→glass, squeezed→scooped, Americana→English) → positioning skeleton.
 3. **Fantasy sentence**: "This world sells the fantasy of ______" — socially rooted, competitor-excluding, post-predicting.
 4. **Setting**: time span + place + class + technology of the moment + who holds the camera. Specific enough to set-dress a shoot from the paragraph alone.
-5. **Institutions**: 2–4 by fictionalized adjacency, each with a name, implied founding history, and what unmade content/products it could host.
-6. **Vernacular bank**: 15–25 words/phrases that belong to this world (shrimp captains, not "synergy") + the in-world speaking register (who speaks, from what year, in what institutional voice).
-7. **Prop specs**: the 5 highest-leverage objects, each with a zoom-in-test description down to material and typography (steel tablet, not 4×6 card).
-8. **Initiation mechanic**: how joining confers a playable role (see initiation-mechanic workflow for deep design; sketch it here).
-9. **Character**: who personifies the values; the two watchwords they embody (integrity + charm pattern); the team's in-world roles.
-10. **Calibration**: artist–craft–hack check — where does the story stay legible, where is the job-to-be-done satisfied (the Amazon listing still matters) — then name the one place to commit a notch HARDER.
+5. **Customer casting**: the customer is the hero, not the brand. Define their before-state, crisis/tension, transformed self, playable role, costume, props, and supporting cast. The cinematic detail must let them imagine what they look and feel like after transformation.
+6. **Institutions**: 2–4 by fictionalized adjacency, each with a name, implied founding history, and what unmade content/products it could host.
+7. **Vernacular bank**: 15–25 words/phrases that belong to this world (shrimp captains, not "synergy") + the in-world speaking register (who speaks, from what year, in what institutional voice).
+8. **Artifact portfolio**: specify the 5 highest-leverage objects at zoom-in grade and name their participant behavior. For a full credential/costume/document/talisman/back-office/campaign portfolio, route to `/artifact-forge`.
+9. **Initiation mechanic**: how joining confers a playable role (see initiation-mechanic workflow for deep design; sketch it here).
+10. **Values character**: who personifies the values; the two watchwords they embody (integrity + charm pattern); the team's in-world roles. This character supports the customer-hero; it does not replace them.
+11. **Calibration**: artist–craft–hack check — where does the story stay legible, where is the job-to-be-done satisfied (the Amazon listing still matters) — then name the one place to commit a notch HARDER.
 
 ## Content Type Adaptations
 | Subject | Emphasis |
@@ -41,11 +42,12 @@ Run the canonical build sequence (genius.md), producing each artifact:
 | Pre-product startup | World-before-product: lore and positioning BEFORE spec decisions |
 
 ## Output Requirements
-One world-bible document with the ten numbered artifacts, closing with the Hotel Test battery answered in-world (proof the world is vivid) and the rubric self-score (genius.md table).
+One world-bible document with the complete sequence, closing with the Hotel Test battery answered in-world (proof the world is vivid) and the rubric self-score (genius.md table).
 Execution prompt: references/prompts-v2/world-bible.md
 
 ## Quality Gate (genius.md anti-patterns)
 - Fantasy sentence excludes competitors and predicts customer posts — no vibe words.
+- The customer is cast as hero with a specific before/after and performable role; the brand is not the protagonist.
 - Every institution passes "just enough real, just enough fantasy."
 - No touchpoint left in the normal world; the packing slip is specified.
 - Lore reads as play, not whiteboard.

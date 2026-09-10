@@ -1,6 +1,6 @@
 # Genius Context — Scott Norton × Oren John: Brand World-Building
 
-Source: "The world building playbook for brands" (orenmeetsworld, 40:37, 2026-08-05) — watched with visual context, extracted same day. Full dossier: `extractions/oren-norton-brand-world-building/extraction-report.md`.
+Source: "The world building playbook for brands" (orenmeetsworld, 40:37, 2026-08-05) — watched with visual context, extracted same day, and independently re-watched on 2026-08-31. Full dossier: `extractions/oren-norton-brand-world-building/extraction-report.md`. Durable evidence: `extractions/video-context/6r82EmpIb7s/`. Complete capability coverage: `references/source-mechanics-ledger.md`.
 
 **Scott Norton**: founded Sir Kensington's in college, invented its entire fictional heritage before making the first jar, sold to Unilever; advisor/investor in Vacation (the consensus best-in-class world-builder); operating partner at Anthos. Teaches with regret data, not just wins. **Oren John**: the arsenal's brand bench; here contributing the practitioner exercises (vernacular bank, shelf reading, Brand Trip Test).
 
@@ -31,6 +31,7 @@ Marketing used to assume communication between buyer and seller. Now products ar
 - **Stories are the operating system**: humans organize meaning through stories, not facts or data; brands hijack story neurocircuitry; the fantasy always bottoms out in social inclusion (not severed, not mocked, included, respected).
 - **Play is the generative state**: lore is invented in play register, stays oral, and "changes every time I tell it." Canon the spine; improvise the flesh. Whiteboard-register lore is dead on arrival.
 - **The world outlives the campaign**: institutions imply a past and a future. Design for implied history.
+- **Artifacts are behavior interfaces**: derive each object from fantasy → institution → role → job. The object succeeds when ownership changes what the participant does, carries, wears, displays, shares, or calls themselves.
 - **Under-commitment is the dominant failure mode**: Norton's only regret is not committing harder, longer. Nobody regrets over-commitment.
 
 ## Diagnostics

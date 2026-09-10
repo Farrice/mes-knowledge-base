@@ -1,0 +1,20 @@
+{
+  "artifact_type": "brand_world_artifact_system",
+  "created_at": "2026-08-31",
+  "lifecycle": "provisional",
+  "owner": "Farrice Cain",
+  "primary_offer": "Angle Map / Benefit Crowding Audit",
+  "public_umbrella": "Farrice Cain",
+  "route": "oren-norton-world-building/artifact-forge",
+  "status": "human_taste_approval_required",
+  "verification": {
+    "artifact_forge_contract": "pass",
+    "factual_grounding": "pass",
+    "format_guard": "pass",
+    "routing": "pass_artifact_forge",
+    "source_package": "pass",
+    "skill_audit": "pass_7_of_7",
+    "skill_system_contract": "pass",
+    "global_operator_core_alignment": "fail_missing_global_subagent_authorization_sentence"
+  }
+}

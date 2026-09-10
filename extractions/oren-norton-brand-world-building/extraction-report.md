@@ -2,7 +2,7 @@
 
 ## Content Assessment
 
-- **Source**: Video interview, 40:37 ("The world building playbook for brands," orenmeetsworld, 2026-08-05). Transcript ≈7.5k spoken words (sponsor segment 14:26–17:06 excluded from core) + 24 targeted frames (`visual-context.md`).
+- **Source**: Video interview, 40:37 ("The world building playbook for brands," orenmeetsworld, 2026-08-05). Native captions (1,200 timestamped segments; sponsor segment 14:26–17:06 excluded from core) + 100 inspected scene-aware frames + 24 retained exhibits (`extractions/video-context/6r82EmpIb7s/`).
 - **Experts**: **Scott Norton** — founded Sir Kensington's (sold to Unilever 2017), advisor/investor in Vacation, operating partner at Anthos. Primary methodology carrier. **Oren John** — host; contributes practitioner exercises. Existing 10-skill bench; this is his world-building layer finally made explicit.
 - **Domain**: Brand world-building — the successor discipline to identity marketing. Related: positioning, lore design, initiation mechanics, retail/shelf strategy, film craft transfer.
 - **Depth Tier**: Deep (forge-forced; corpus RICH by density — near-zero filler, every segment carries method).
