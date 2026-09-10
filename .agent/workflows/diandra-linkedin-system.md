@@ -23,6 +23,13 @@ Hook-format source package: `extractions/video-context/Zc4E_K48v48/`
 - The current package is transcript-backed only. Do not claim frame or OCR evidence from it.
 - The universal command for this layer is `/attention-hijack-hooks`.
 
+Zero-to-scale source package: `extractions/video-context/GKbNTGLfd34/`
+
+- Use this package when the request spans profile, content selection, hooks, peer feedback, analytics, and repeated 100-post learning cycles.
+- It contains a verified transcript package, reviewed visual cue set, the full HubSpot guide, and the linked 10-hook deck.
+- Treat the reported 1K-to-840K result as source-attributed. Do not promise the same outcome or timeline.
+- Runtime owner: `skills/diandra-escobar-linkedin-growth/workflows/23-zero-to-840k-operating-system.md` and `execution/linkedin_growth_os.py`.
+
 ## Inputs
 
 Ask only for missing details that change the plan:
@@ -47,6 +54,7 @@ Produce a LinkedIn Operating Plan with:
 7. Comment flywheel and engagement list design.
 8. Validation checklist for weeks 1, 4, 8, and 12.
 9. Next command sequence.
+10. For zero-to-scale or client operating-system requests: validated local workspace, ranked idea queue, post ledger, and 10/100-post review loop.
 
 ## Step Order
 
@@ -147,6 +155,17 @@ Review signals:
 - Which conversion posts created DMs or calls?
 - Which comments drove profile views or relationships?
 - Which topic lanes are becoming obvious to the audience?
+
+### 8. Rule-of-100 Operating Loop
+
+For zero-to-scale or full-client-system requests, run workflow 23 after the profile and semantic foundation:
+
+- Initialize and validate one account workspace with `execution/linkedin_growth_os.py`.
+- Add and score 20 sourced ideas every two weeks.
+- Preserve the body-first production line; use the Ben Meer hook families only when their claims are true.
+- Keep peer draft feedback separate from public engagement and forbid coordinated engagement.
+- Review after every 10 posts and retain the top 10 patterns after every 100 posts.
+- Record leads and attributed revenue alongside reach so follower growth does not become the sole success test.
 
 ## Human Checkpoints
 

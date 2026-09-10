@@ -590,3 +590,4 @@
 {"ts": "2026-09-02T08:29:22Z", "label": "jun-format-intelligence-proof", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('slide \u2026 slide \u2026 slide') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-09-02T08:29:47Z", "label": "jun-format-intelligence-proof", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('sometimes \u2026 sometimes \u2026 sometimes') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-09-02T08:31:43Z", "label": "farrice-zero-to-hero-campaign", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-30T15:16:05Z", "label": "publishable-copy", "verdict": "CLEAN", "fails": [], "warns": []}

@@ -868,3 +868,11 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-11 23:59]` **finalize** | Buyer-ready 15-Ad Creative Test Pack for a zero-audience solo operator, with fixed scope, modeled pr | strategy | alex-cooper — composite:8.67 status:Keep
 - `[2026-09-01 00:24]` **finalize** | Blind MYBPM STILL SYNCED composition bake-off across desktop, square, and vertical | general | satori-graphics — composite:6.67 status:Needs Improvement
 - `[2026-09-01 00:25]` **finalize** | Blind MYBPM STILL SYNCED composition bake-off with exact content parity, sealed randomized route ass | general | satori-graphics — composite:7.0 status:Needs Improvement
+- `[2026-08-29 05:11]` **finalize** | Farrice Cain LinkedIn profile architecture, ranked 20-idea bank, first ten-post draft learning block | content | Diandra Escobar — composite:7.0 status:Needs Improvement
+- `[2026-08-29 05:12]` **finalize** | Farrice Cain LinkedIn human taste-test packet with profile architecture, ranked idea bank, and ten d | content | Diandra Escobar — composite:7.0 status:Needs Improvement
+- `[2026-08-29 05:13]` **finalize** | Farrice Cain LinkedIn OS draft deployment and human taste-test packet | content | Diandra Escobar — composite:7.0 status:Needs Improvement
+- `[2026-08-29 06:43]` **finalize** | LinkedIn profile v2 tension pass with copy-block audit and human taste-test update | copywriting | luke-iha — composite:8.33 status:Keep
+- `[2026-08-29 06:43]` **finalize** | LinkedIn profile v2 tension pass with copy-block audit and human taste-test update | copywriting | luke-iha — composite:8.33 status:Keep
+- `[2026-08-30 08:07]` **finalize** | Recovered and compared Farrice Cain's recent LinkedIn profile and offer decision lineage against the | general | knowledge-librarian — composite:7.0 status:Needs Improvement
+- `[2026-08-30 08:08]` **finalize** | Recovered and compared Farrice Cain's recent LinkedIn profile and offer decision lineage against the | general | knowledge-librarian — composite:7.67 status:Needs Improvement
+- `[2026-08-30 08:16]` **finalize** | Corrected Farrice LinkedIn profile blend around the creative strategist and Control-Beater ad-static | content | diandra-escobar-linkedin-mastery — composite:8.33 status:Keep

@@ -1480,3 +1480,26 @@
 ## Seo (42 files)
 ## Research (36 files)
 ## Sales (12 files)
+*1185 sources | 3,570,257 words | Updated: 2026-08-30*
+## Content (365 files)
+- [index](index.md) — 7,083 words
+- [video-context-ledger](../extractions/video-context/GKbNTGLfd34/video-context-ledger.md) — 5,338 words
+- [hubspot-full-content](../extractions/video-context/GKbNTGLfd34/hubspot-full-content.md) — 2,938 words
+- [virtuoso-mastery-extraction-report](../extractions/video-context/GKbNTGLfd34/virtuoso-mastery-extraction-report.md) — 1,812 words
+- [transcendence-opportunity-dossier](../extractions/video-context/GKbNTGLfd34/transcendence-opportunity-dossier.md) — 732 words
+- [source-to-skill-contract](../extractions/video-context/GKbNTGLfd34/source-to-skill-contract.md) [april-dunford] — 464 words
+- [crown-jewel-prompt-suite](../extractions/video-context/GKbNTGLfd34/crown-jewel-prompt-suite.md) — 352 words
+- [uncertainty-report](../extractions/video-context/GKbNTGLfd34/uncertainty-report.md) — 52 words
+## Copywriting (218 files)
+- [deep-extraction](../extractions/video-context/GKbNTGLfd34/deep-extraction.md) — 571 words
+- [behavior-proof](../extractions/video-context/GKbNTGLfd34/behavior-proof.md) — 255 words
+- [hook-deck-transcript](../extractions/video-context/GKbNTGLfd34/hook-deck-transcript.md) — 224 words
+## General (132 files)
+- [log](log.md) — 20,279 words
+## Screenwriting (129 files)
+## Strategy (115 files)
+## Brand (67 files)
+## Systems (61 files)
+## Seo (43 files)
+## Research (42 files)
+## Sales (13 files)

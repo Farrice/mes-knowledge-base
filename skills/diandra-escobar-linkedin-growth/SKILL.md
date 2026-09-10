@@ -88,6 +88,7 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 |---|---------|----------|----------|
 | 21 | [Re-Hook Teardown](workflows/21-rehook-teardown.md) | Client-facing diagnostic for 1-10 flopped posts — failure mode + buried gap + 3 validated rebuilds each + the one habit to fix. The productized service ([deployment kit](references/rehook-teardown-kit.md)) | Lead magnet, paid hook audit, client onboarding, or reclaiming reach from your own back catalog |
 | 22 | [Post Finisher (Production Line)](workflows/22-post-finisher.md) | One publish-ready post from a topic OR draft: writes body (if needed) → save-architecture (conditional) → format-validated hook → AI-signal confirmation, assembled with receipts | You want the whole line run in one pass instead of firing four workflows by hand |
+| 23 | [Zero-to-840K LinkedIn Operating System](workflows/23-zero-to-840k-operating-system.md) | Runnable account workspace + 100-post learning loop + proof-bounded growth plan | Starting, resetting, or operating a personal/client account from profile through measurement |
 
 ---
 
@@ -126,6 +127,7 @@ The full post-production sequence. **Order is load-bearing** because of body-fir
 - **Hook Writing Rules**: [references/hook-writing-rules.md](references/hook-writing-rules.md) — Diandra's 40 named hook-writing rules
 - **Hook Examples Library**: [references/hook-examples-library.md](references/hook-examples-library.md) — her 131 annotated hooks (primary source) + the computable Width Scoring Guide
 - **Re-Hook Teardown Kit**: [references/rehook-teardown-kit.md](references/rehook-teardown-kit.md) — offer, pricing ladder, outreach copy, client deliverable template (for workflow 21)
+- **Ben Meer + HubSpot Growth Layer**: [references/ben-meer-hubspot-growth-layer.md](references/ben-meer-hubspot-growth-layer.md) — idea scoring, 10 hook families, ethical peer feedback, profile story, and Rule-of-100 loop (for workflow 23)
 - **Decision Framework**: [genius.md § Decision Framework](genius.md) — confirm this is the right expert
 - **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs
 - **Quality Rubric**: [genius.md § Quality Rubric](genius.md) — score outputs across 7 criteria
@@ -135,7 +137,7 @@ The full post-production sequence. **Order is load-bearing** because of body-fir
 
 ## Execution Prompts (structure-pure v2)
 
-18 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+19 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Diandra Escobar — AI-Optimized Headline Engineer** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/ai-headline-engineer.md`
 - **Diandra Escobar — Algorithm Suppression Audit** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/algorithm-suppression-audit.md`
@@ -155,5 +157,6 @@ The full post-production sequence. **Order is load-bearing** because of body-fir
 - **Diandra Escobar — Re-Hook Teardown** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/rehook-teardown.md`
 - **Diandra Escobar — Save-Worthy Content Architect** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/save-worthy-content-architect.md`
 - **Diandra Escobar — 90-Day Semantic Lane Strategy** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/semantic-lane-strategy.md`
+- **[Account] LinkedIn operating system** — `skills/diandra-escobar-linkedin-growth/references/prompts-v2/zero-to-840k-operating-system.md`
 
 <!-- END:execution-prompts -->
