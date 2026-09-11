@@ -905,3 +905,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-09 19:07]` **finalize** | Import #1 built and proven: run_log.py (receipt/manifest/check), build_weeks writes run.yaml + reel  | general | none — composite:6.67 status:Needs Improvement
 - `[2026-09-10 05:48]` **finalize** | The Canvas: local Poppy.ai replica — ingest_url.py (YouTube/article/PDF/media/text, cached), canvas_ | general | none — composite:6.33 status:Needs Improvement
 - `[2026-09-09 19:58]` **finalize** | Manager loop + recipe cards: /job front door, job_board.py MAY END turn-end rule, recipes/ library,  | general | Nate B Jones — composite:6.67 status:Needs Improvement
+- `[2026-09-10 21:24]` **finalize** | IMPORT-LIST memo: eight-dimension comparison of the 36 vendored skills against our spine, eight rank | general | none — composite:6.33 status:Needs Improvement

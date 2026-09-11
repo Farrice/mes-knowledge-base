@@ -83,6 +83,7 @@ The one pipeline with a real fact seam and per-stage files (`draft-article.md` �
 **After a run (Step 5):**
 | Write | Loop it feeds | Existing owner |
 |---|---|---|
+| `run_log.py receipt <run> <STEP> "<text>"` as each step ends, `run_log.py manifest <run>` from the renderer's own data, `run_log.py check <run>` = done (2026-09-09, IMPORT-LIST #1) | the run folder is the state: `/resume`, the page generator, and Codex all read `<run>/run.yaml` + `pipeline-log.md` instead of chat | `execution/run_log.py` |
 | one `asset_index.py` manifest line per slide/clip (`src`, `model`, `prompt`=image concept, `cost_usd`, `path`) + `asset_gallery.py --quick` | Assets board; copy-path + prompt provenance (sacred) | `execution/asset_index.py` contract `:20-25` |
 | one line under `## <skill>` in `context/learnings.md` | their declared self-improvement hook, now live; read at the next Step 0 | `meta-skill-creator/SKILL.md` contract |
 | `chain_runner.py finalize --skill vendor:<skill> --workflow <door> --type Content\|Client Work --factual N` | `.agent/finalize-runtime.jsonl` → `evolution_orchestrator.py` (skill weights, binding review queue) → Notion performance log | `execution/chain_runner.py:2283-2350` |
@@ -108,4 +109,4 @@ Blind bars still open (Farrice taps): #1 carousel (one supplement teardown, `/so
 
 ## 8. Files this design owns
 
-`execution/scrapes_brand.py` · `execution/find_skill.py` (vendor glob) · `execution/skill_router_hook.py` (tags) · `execution/routing_enforcer.py` (six bindings) · `directives/routing-bindings.md` (six rows) · `.agent/workflows/{social-carousel,social-post,social-repurpose,deck-build,video-to-shorts,video-to-ebook}.md` · `context/learnings.md` · `_active/farrice-brand/brand_context/BRAND.yaml` · `_active/clients/jen-listings/brand_context/BRAND.yaml` · `_active/clients/andrea-dj/brand_context/BRAND.yaml` · `tests/test_scrapes_routing.py`.
+`execution/run_log.py` (run folder = state, 2026-09-09) · `execution/scrapes_brand.py` · `execution/find_skill.py` (vendor glob) · `execution/skill_router_hook.py` (tags) · `execution/routing_enforcer.py` (six bindings) · `directives/routing-bindings.md` (six rows) · `.agent/workflows/{social-carousel,social-post,social-repurpose,deck-build,video-to-shorts,video-to-ebook}.md` · `context/learnings.md` · `_active/farrice-brand/brand_context/BRAND.yaml` · `_active/clients/jen-listings/brand_context/BRAND.yaml` · `_active/clients/andrea-dj/brand_context/BRAND.yaml` · `tests/test_scrapes_routing.py`.
