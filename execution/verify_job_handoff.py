@@ -203,6 +203,16 @@ def main():
                   (r.stdout or r.stderr)[:200])
             check("codex runner emits the single-seat variant", PIN_CODEX in ctx)
 
+        # the Codex bridges are what Astra reads literally — they must carry the plan beat
+        for rel in (".agents/skills/job/SKILL.md", ".claude/commands/job.md"):
+            txt = (REPO / rel).read_text(errors="replace") if (REPO / rel).exists() else ""
+            need = ("JOB PLAN", "PLAN PENDING") if "agents" in rel else ("job.md",)
+            check(f"{rel} carries {' + '.join(need)}", all(n in txt for n in need), txt[:120])
+        gb = Path.home() / ".codex" / "skills" / "job" / "SKILL.md"
+        if gb.exists():
+            gt = gb.read_text(errors="replace")
+            check("~/.codex/skills/job bridge carries the plan beat", "JOB PLAN" in gt and "PLAN PENDING" in gt, gt[:120])
+
         print("== board")
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
