@@ -12,7 +12,12 @@ Use this skill for every job-shaped handoff, on Codex or Claude Code.
 Read and execute the workflow at `.agent/workflows/job.md`. Load
 `skills/nate-b-jones-manager-loop/genius.md` first.
 
-Codex is a single seat: run lanes in order of readiness in THIS turn; a lane that ends in a
+Codex is a single seat. FIRST TURN: `job_board.py open` prints a JOB PLAN — reply with that plan
+(plus the interview questions) and END THE TURN; `next` prints PLAN PENDING until his go →
+`job_board.py go <slug> --note "<his words>"`. A WEAK MATCH from `recipe_cards.py match` means
+forge a card, never run the matched card's lanes. AFTER GO: run lanes in order of readiness in
+THIS turn, close each with `lane … --status --did "what was done / found / skipped" --evidence`
+and echo its LANE RECEIPT line; a lane that ends in a
 diagnosis is not done — build it, or mark it `--status blocked --blocker "<decision needed>"`
 with a DECISION PACKET. End the turn only when `job_board.py next` prints MAY END. Job state
 lives on disk under `.agent/missions/<slug>/`; `/job resume <slug>` reloads it. Write only in a
