@@ -253,38 +253,37 @@ WEEKS = [
                 # the reader's taste opens, her reply with the stake and the place is beat 2, the three real houses are the caption's payoff.
                 # Comps read on Redfin 2026-09-09 (FACTS.md); other agents' listings → neighborhood, price, specs, never the address.
                 # This absorbs the HOLD post 01 (same grammar, done right); 01 is superseded. Take 1's copy lives in git history.
-                "id": "11-broll-kitchens-at-midnight",
+                # hook room 11 round 2, Farrice's tap 2026-09-11: pair F9 (Forsyth). beat 1 = an overheard buyer sentence (Sept 3 LA comment sample);
+                # beat 2 = her reply with the stake. the kitchens-at-midnight line (hook room round 1) lost 8–0 to the specimen and is retired.
+                "id": "11-broll-which-agent-to-trust",
                 "kind": "reel",
                 "job": "attract",
                 "day": "tue sept 15 · 6:30pm",
-                "story": "first frame to stories at 6:35pm with the sticker: \"send me your number\"",
-                "collab": "none (other agents' listings; never tag them)",
-                "first_comment": "the three are all tarzana or right on the line. send me your number and i'll send you the addresses.",
+                "story": "first frame to stories at 6:35pm with the sticker: \"send me the listing you're not sure about\"",
+                "collab": "none (team story told as \"our clients\"; no tag)",
+                "first_comment": "if you're in the \"is this the one?\" stage… send me the listing. i'll tell you what i'd ask before you fall any harder.",
                 "beats": [
-                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-04-kitchen.jpg", "line": "if you keep screenshotting<br>kitchens at midnight&#8230;", "size": 92, "secs": 4, "zoom": "in",
-                     "swap": "hers (Bothwell kitchen: the kind of kitchen people screenshot); her ordinary kitchen clip when one lands in folder 02"},
-                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg", "line": "you&#8217;re buying<br>an $850K house<br>in tarzana. i&#8217;ll send you<br>the three i&#8217;d go see.", "size": 86, "secs": 6.5, "zoom": "out",
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-02-living.jpg", "line": "&#8220;how do i know<br>which agent<br>to trust?&#8221;", "size": 92, "secs": 4, "zoom": "in",
+                     "swap": "hers (Bothwell living room); any ordinary interior clip from folder 02"},
+                    {"photo": "../../../06-system/valley-editions/photos/jen/listing-01-exterior.jpg", "line": "trust the one<br>who tells you<br>to walk away<br>from the house<br>you loved.", "size": 84, "secs": 6.5, "zoom": "out",
                      "swap": "hers (Bothwell exterior, daylight); a real front door from any of her shoots"},
                 ],
                 "caption": (
-                    "you keep screenshotting the finished ones. white oak, the big island, the light at 4pm. you send them to your person at midnight and neither of you says anything.\n"
+                    "nobody asks me this to my face. they ask it at 11pm, in the group chat, after the third open house where the agent said “it won’t last.”\n"
                     "\n"
-                    "so here’s what $850K to $900K actually buys in tarzana this week. three real houses, on the market right now, none of them mine:\n"
+                    "so here’s the tell.\n"
                     "\n"
-                    "$899,999 · tarzana. 3 bed, 2 bath, 1,121 sq ft. it looks out over the country club.\n"
-                    "$859,900 · tarzana. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. it was $869,000 last week.\n"
-                    "$869,000 · reseda, right on the tarzana line. 3 bed, 2 bath, 1,332 sq ft.\n"
+                    "this summer our clients found a house they loved. the inspection came back. and the answer was… let’s walk. not “let’s negotiate.” not “every house has something.” walk.\n"
                     "\n"
-                    "none of them is the screenshot. all three are a front door at a real number.\n"
+                    "they were sad about it for a week or so. then they found the one they actually bought, and the seller covered over $20K in credits. wilmington, july. it’s on our team page.\n"
                     "\n"
-                    "sometimes the budget and the wish list just need a little… meeting in the middle.\n"
+                    "that’s the job. not talking you into a house. sometimes it’s talking you out of one while you’re still in love with it, and being the unpopular one for a week.\n"
                     "\n"
-                    "send this to your person. or send me your number, buying or selling, and i’ll send you the three addresses and what i’d check first at each one.\n"
+                    "if you’re somewhere in the “is this the one?” stage… send me the listing. i’ll tell you what i’d ask before you fall any harder. or just say hi 🏡\n"
                     "\n"
-                    "prices from redfin, sept 9, 2026. they move… one of these already did.\n"
-                    "#tarzana #reseda #sanfernandovalley #SFV"
+                    "#sanfernandovalley #SFV #losangelesrealestate"
                 ),
-                "reply": "a number → saved reply 3 (looking / a number), then the three addresses in her DM. an address → saved reply 1. 'same' or a screenshot → her words: 'send me the number and i'll make the folder real.'",
+                "reply": "a listing link or address → saved reply 1 (what i'd ask first, in her DM). 'how did you know to walk' → her words: 'the inspection told us. i just said it out loud.' 'same' or a screenshot → 'send it. we can start there.'",
             },
             {
                 "id": "04-attract-900k-two-zips",

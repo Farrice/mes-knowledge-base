@@ -69,3 +69,13 @@ Fair-housing lint runs on the finalist file before the surface is built. Stamp-l
 ## Round 2 (2026-09-09, later the same evening): harvested sentences, her reply
 
 Farrice tapped five overheard sentences from the harvest list: 14 "i thought i needed perfect credit and 20% down" (her own caption, her buyers' belief) · 11 "my rent is $2,100, so buying never made sense until now" (r/SFV buyer) · 10 "nobody i know has ever done this" (r/SFV buyer, "family" softened to "i know" for the lint) · 4 "should we wait for rates to come down?" (Sept 3 LA comment sample) · 9 "how do i know which agent to trust?" (same). Beat 1 = the sentence in quotes, as the specimen does it. The four pens wrote only beat 2, her reply: permission with a stake, never a pitch, never a forecast. Twenty written, ten survived the cull (two per sentence), the specimen seeded as the eleventh, shuffled (seed 1109). Entries in `HOOK-ROOM-11-R2-entries.json`, key in `HOOK-ROOM-11-r2-KEY.json`. Sources for her replies: her caption ("people buy homes every day with less money down than they expected"), voice memo 2 ("what did your lender actually quote you"), voice memo 3 (her close, used once), the Wilmington walk-away (team, VERIFIED). Cuts: any reply that forecast rates, promised a payment, or carried a credential.
+
+## Round 2 verdict (Farrice, 2026-09-11)
+
+His picks, "not in any order": 1, 2, 5, 6, 11 → F11 · F9 · K14 · **the specimen** · K4. Rejected: L11, L10, H10, L9, L4, L14 (every Luke Iha and Harding pair). His words: "these nailed more the conversational nature and the two-beat formula of this, and that they could both work independent of each other… It should be more of our specimens than the other ones. The other ones are still too disjointed, forced, and contrived."
+
+What the room learned: the specimen sat inside his five, so the bar held and four pairs reached it. All four came from the plain-reply pens (Forsyth, Kallaway); the punch pen and the lyric pen lost every entry across both rounds. Ratcheted (`voice_ratchet.py add --client jen`, PASS + FAIL) and a RULE row in the calibration log.
+
+Disposition: **F9 → post 11, tue 9/15** (`11-broll-which-agent-to-trust`; attract; the buyer asks it before they have an agent, and the caption needs no market number). F11, K14, K4 → VAULT as approved on-screen lines for the next attract slots. The kitchens-at-midnight render is deleted (a rejected take; record stays in this file and FACTS.md).
+
+Receipt: `AMPLIFY: one pen on the caption · hook room round 2: 4 pens · 20 written · 10 to the surface + specimen · Farrice PASS 4 (+ specimen) FAIL 6 · Jen check reverted 0`

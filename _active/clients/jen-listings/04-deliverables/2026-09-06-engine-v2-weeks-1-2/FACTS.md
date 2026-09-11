@@ -87,3 +87,19 @@ Take 1 of post 11 ("we loved it. it was so quiet." → "drive the street at 9pm 
 
 Realism gate (ENGINE-V2 §3), both topics: she would say it in these words (yes / yes) · a stranger can act on it at their stage (a screenshot of a listing line; a drive down a street with only an address: yes / yes) · every fact dated and sourced or hers (yes / yes). Passed 2, killed 0.
 
+
+## 2026-09-11 · post 11, the line that passed (F9) and its caption
+
+The kitchens-at-midnight line lost hook room round 1 (8–0 to the specimen); its Redfin rows above stay as the record and are not in copy. Post 11 is now `11-broll-which-agent-to-trust`.
+
+| used in | claim | label | source | re-check |
+|---|---|---|---|---|
+| 11 on screen, beat 1 | “how do i know which agent to trust?” | buyer evidence (overheard; a comment in the Sept 3 LA comment sample, translated to her lowercase) | `HOOK-ROOM-11.md` round 2 harvest | none; never claimed as her client |
+| 11 on screen, beat 2 | trust the one who tells you to walk away from the house you loved. | Jen-seat (her practice in our words; Forsyth pen; Farrice PASS 2026-09-11) | hook room 11 round 2 | Jen thumbs-up before tue sept 15 |
+| 11 caption | our clients found a house they loved, the inspection came back, they walked; then found the one they bought and negotiated over $20K in seller credits; Wilmington, July | VERIFIED (team post @myhousesellers “Just Sold, Wilmington CA,” 2026-07-28; she is Director of Operations, so “our clients,” never “my”) | `connect-posts-01/COPY.md` row; VAULT “Wilmington just-sold” | consent for any client detail beyond the team post |
+| 11 caption | “the answer was… let’s walk.” · “not ‘let’s negotiate.’ not ‘every house has something.’” | Jen-seat (how she would say the team’s decision) | drafted 2026-09-11 | Jen thumbs-up |
+| 11 caption | “they were sad about it for a week or so” · “being the unpopular one for a week” | Jen-seat colour; no client claim beyond the team post | drafted 2026-09-11 | Jen thumbs-up; cut if she winces |
+| 11 caption | “they ask it at 11pm, in the group chat, after the third open house where the agent said ‘it won’t last.’” | Jen-seat scene (the urgency line is the industry cliché she never uses; ENGINE-V2 never-urgency) | drafted 2026-09-11 | none |
+| 11 caption | “send me the listing. i’ll tell you what i’d ask before you fall any harder.” | Jen-seat door (one concrete thing to send: the listing; matches saved reply 1) | drafted 2026-09-11 | Jen thumbs-up |
+
+Realism gate (ENGINE-V2 §3): she would say it in these words (yes: the team story is hers to tell as “our clients”; the walk-away is her stated job, memo 3) · a stranger can act on it at their stage (send a listing link: yes) · every fact dated and sourced or hers (Wilmington 2026-07-28 VERIFIED; the rest Jen-seat, flagged). Passed 1, killed 0. No bank line drawn this post.

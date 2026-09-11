@@ -8,3 +8,7 @@ Receipts:
 
 - `LOAD: 8/8 · voice source = jen-real-voice-profile.md · calibration rows = 24 · winners = 11 reference rows + 3 own outliers`
 - `READ: slots = connect / position / position · experiment = who-clause (a household leaving an apartment) · evidence = outlier audit 2026-09-02`
+- `WRITE: post 11 rebuilt on the round-2 line (F9) · bank lines used = none · caption = one pen, Wilmington walk-away as “our clients”` (2026-09-11)
+- `AMPLIFY: one pen on the caption · hook room round 2: 4 pens · 20 written · 10 + specimen to the surface · Farrice PASS 4 (+ specimen) FAIL 6 · Jen check reverted 0` (2026-09-11)
+- `CHECK: fair-housing PASS (caption context) · classifier 3.5/10 on post 11 alone (flags: hashtag line, her one emoji) · stamp-lint FAIL on the three HOLD posts only (old close in 04/05/06, queued re-run); post 11 repeats nothing` (2026-09-11)
+- `RENDER: 1 reel spec · 11-broll-which-agent-to-trust.mp4 10 s · placeholders = 0 (both frames hers: Bothwell living, Bothwell exterior)` (2026-09-11)

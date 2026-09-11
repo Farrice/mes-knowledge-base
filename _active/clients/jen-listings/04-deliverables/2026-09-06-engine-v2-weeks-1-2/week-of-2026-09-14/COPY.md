@@ -6,31 +6,28 @@
 reply here if a line isn't you 🤍
 
 
-### 11-broll-kitchens-at-midnight · reel · attract · tue sept 15 · 6:30pm
+### 11-broll-which-agent-to-trust · reel · attract · tue sept 15 · 6:30pm
 
-- beat 1: if you keep screenshotting kitchens at midnight…
-- beat 2: you’re buying an $850K house in tarzana. i’ll send you the three i’d go see.
+- beat 1: “how do i know which agent to trust?”
+- beat 2: trust the one who tells you to walk away from the house you loved.
 
 **caption**
 
-you keep screenshotting the finished ones. white oak, the big island, the light at 4pm. you send them to your person at midnight and neither of you says anything.
+nobody asks me this to my face. they ask it at 11pm, in the group chat, after the third open house where the agent said “it won’t last.”
 
-so here’s what $850K to $900K actually buys in tarzana this week. three real houses, on the market right now, none of them mine:
+so here’s the tell.
 
-$899,999 · tarzana. 3 bed, 2 bath, 1,121 sq ft. it looks out over the country club.
-$859,900 · tarzana. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. it was $869,000 last week.
-$869,000 · reseda, right on the tarzana line. 3 bed, 2 bath, 1,332 sq ft.
+this summer our clients found a house they loved. the inspection came back. and the answer was… let’s walk. not “let’s negotiate.” not “every house has something.” walk.
 
-none of them is the screenshot. all three are a front door at a real number.
+they were sad about it for a week or so. then they found the one they actually bought, and the seller covered over $20K in credits. wilmington, july. it’s on our team page.
 
-sometimes the budget and the wish list just need a little… meeting in the middle.
+that’s the job. not talking you into a house. sometimes it’s talking you out of one while you’re still in love with it, and being the unpopular one for a week.
 
-send this to your person. or send me your number, buying or selling, and i’ll send you the three addresses and what i’d check first at each one.
+if you’re somewhere in the “is this the one?” stage… send me the listing. i’ll tell you what i’d ask before you fall any harder. or just say hi 🏡
 
-prices from redfin, sept 9, 2026. they move… one of these already did.
-#tarzana #reseda #sanfernandovalley #SFV
+#sanfernandovalley #SFV #losangelesrealestate
 
-*reply routing: a number → saved reply 3 (looking / a number), then the three addresses in her DM. an address → saved reply 1. 'same' or a screenshot → her words: 'send me the number and i'll make the folder real.'*
+*reply routing: a listing link or address → saved reply 1 (what i'd ask first, in her DM). 'how did you know to walk' → her words: 'the inspection told us. i just said it out loud.' 'same' or a screenshot → 'send it. we can start there.'*
 
 
 ### 04-attract-900k-two-zips · reel · attract · HOLD · re-pull the two comps (FACTS.md rows 04 are dated sept 2; prices move) then slot

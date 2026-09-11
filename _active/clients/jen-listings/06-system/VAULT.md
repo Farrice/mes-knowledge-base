@@ -89,3 +89,12 @@ Districts per `ENGINE-V2.md` §4: Attract ~35 · Position ~30 · Connect ~20 · 
 | cleared Valley pool (CC0/PD) | banked | `04-deliverables/2026-09-01-september-carousels/img/` |
 | plates A–E (Laidrey storefront, espresso bar, cup, Tarzana street, porch step) + a Valley-view plate for Connect 04 | pending cost gate (~$1–3) | style vault key for Jen, realism lint |
 | her listing photography, Drive folder 01 | waiting on Farrice | Drive · Jen · Content Drop |
+
+## Approved on-screen lines (the hook-room bank; each beat stands alone)
+
+| Pair | Beat 1 (overheard, in quotes) | Beat 2 (her reply) | Status | Source |
+|---|---|---|---|---|
+| F9 | “how do i know which agent to trust?” | trust the one who tells you to walk away from the house you loved. | carded: post 11, tue 9/15 | Sept 3 LA comment sample · Forsyth pen · Farrice PASS 2026-09-11 |
+| F11 | “my rent is $2,100, so buying never made sense until now.” | cheap rent is a reason to wait. it is never a reason to never. | banked for an attract slot; caption still to write (one pen) | r/SFV buyer · Forsyth pen · Farrice PASS 2026-09-11 |
+| K14 | “i thought i needed perfect credit and 20% down.” | people buy homes every day with less down than they expected. ask me what yours would be. | banked; beat 2 is HERS (July caption, verbatim shape) | her caption · Kallaway pen · Farrice PASS 2026-09-11 |
+| K4 | “should we wait for rates to come down?” | nobody knows. what we know is what your lender quoted you today. send me that number. | banked; pairs with the 6.66% rate post when a rate week comes | Sept 3 LA comment sample · voice memo 2 · Kallaway pen · Farrice PASS 2026-09-11 |

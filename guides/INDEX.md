@@ -407,6 +407,7 @@
 
 
 ## Pending enrichment
+- [2026-09-10 — References — Jen Calibration Log](2026-09-10-references-jen-calibration-log.md) — session-brief stub, needs enrichment
 - [2026-09-09 — Proposed Diffs](2026-09-09-proposed-diffs.md) — operator-guide stub, needs enrichment
 - [2026-09-05 — Content: Farrice Niche Brief - Evidence-Led Direction](2026-09-05-farrice-nicolas-cole-niche-brief.md) — verified first application of the Nicolas Cole niche system; the golden brief is preserved and client productization is parked
 - [2026-09-03 — Handoff · studio-preview-wrapper · 2026-09-03 · status: ready (for a fresh executor session)](2026-09-03-handoff-studio-preview-wrapper-2026-09-03-status-ready-for-a.md) — operator-guide stub, needs enrichment

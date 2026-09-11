@@ -14,3 +14,13 @@ Row it is built on: WINNERS #2 (@carligerber, action on screen, reasons in capti
 | Jen-as-herself check | "of course it was quiet." deadpan, hers ("so. much. blood."). "don't get out of the car. windows down." is her recap habit (this, this, and this). "a dog two doors down who has opinions about your car" is her gently-funny register ("a better text-back rate than your ex"). "i drive it myself before we write the offer. then we compare notes." and "sometimes the notes say keep looking" are Jen-seat: her practice in our words, flagged for her thumbs-up in FACTS.md. "everyone at the beach or at costco" is a Jen-seat scene, low risk, flagged. No bank line used. Zero emoji (her ceiling is one; the specimen carried one, this one does not need it). Nothing reverted. | 0 reverted · 3 lines flagged |
 
 Receipt: `AMPLIFY: one pen · 3 lines sharpened · Jen check reverted 0 (flagged 3 Jen-seat lines)`
+
+## Post 11, second line (2026-09-11): the caption for pair F9
+
+| Pass | What changed | Kept? |
+|---|---|---|
+| Alyssa hook-reframe (Topic + Who + Lens) | Topic: how a buyer picks an agent. Who: the $800K+ buyer before they have one, asking the group chat at 11pm. Lens: the tell is the walk-away, not the close. The caption opens where the question is actually asked (not to her face) so the reader sees themself before she answers. | yes |
+| Luke Iha, delete the throat-clearing | First draft opened with “great question.” Cut. First draft said “the receipts” for the team post; not her word, replaced with “it’s on our team page.” First draft closed “let’s chat” (bank line); replaced with the concrete thing to send (the listing) + “or just say hi.” | yes |
+| Jen-as-herself check | “so here’s the tell.” is her deadpan (“so. much. blood.”). “the answer was… let’s walk.” is her ellipsis landing. “our clients” not “my clients” (team story, she is Director of Operations). One emoji, at the landing (🏡). No bank line. Nothing reverted; four Jen-seat lines flagged in FACTS.md for her thumbs-up. | 0 reverted · 4 flagged |
+
+Receipt: `AMPLIFY: one pen on the caption · hook room round 2: 4 pens · 20 written · 10 + specimen to the surface · Farrice PASS 4 (+ specimen) FAIL 6 · Jen check reverted 0`
