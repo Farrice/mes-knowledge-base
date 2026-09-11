@@ -118,7 +118,14 @@ def now_iso() -> str:
 
 
 def harness() -> str:
-    return "codex" if os.environ.get("ANTIGRAVITY_HARNESS", "").lower() == "codex" else "claude"
+    """Who is running this command. Codex's own shell does not carry ANTIGRAVITY_HARNESS
+    (that is set only for hook runs), but it does carry CODEX_THREAD_ID / CODEX_SANDBOX
+    (probed live 2026-09-10 — Astra's lane writes had been stamped [claude])."""
+    if os.environ.get("ANTIGRAVITY_HARNESS", "").lower() == "codex":
+        return "codex"
+    if os.environ.get("CODEX_THREAD_ID") or os.environ.get("CODEX_SANDBOX"):
+        return "codex"
+    return "claude"
 
 
 def git_branch() -> str:

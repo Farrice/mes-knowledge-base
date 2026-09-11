@@ -3,8 +3,8 @@ job: client-site-authority-and-referral-deal
 name: Client site to authority piece + referral deal
 family: client-content
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 1
+last_ratchet: 2026-09-10
 ---
 
 ## The job
@@ -53,4 +53,4 @@ iMessage access or the pasted memo · the client's site URL and platform · the 
 Voice memo transcribed and quoted in the brief · site numbers with receipts · domain-owner site numbers with receipts · one recommended deal shape with math · a preview he can open on his phone · two one-page proposals, unsent · trace shows what was measured and what was skipped.
 
 ## Ratchet log
-- none yet
+- 2026-09-10 — first open was a duplicate of a Codex-lane job invisible from main (per-tree board); one-board fix + lane refresh close that class

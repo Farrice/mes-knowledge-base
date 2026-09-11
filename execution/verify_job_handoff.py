@@ -279,6 +279,10 @@ def main():
             check("lane close without --did nudges (never blocks)", rc == 0 and "no --did" in out, out[:200])
             rc, out = board(["log", "j-plan", "L3", "oldest mission is 41d", "--kind", "found"], root)
             check("log appends a trace line", rc == 0 and "· found ·" in out, out[:160])
+            env_cx = dict(os.environ, ANTIGRAVITY_ROOT=str(root), JOB_BOARD_SKIP_HANDOFF_STORE="1", CODEX_THREAD_ID="t-verify")
+            env_cx.pop("ANTIGRAVITY_HARNESS", None)
+            r = subprocess.run([sys.executable, str(BOARD), "log", "j-plan", "L3", "from astra's shell"], capture_output=True, text=True, env=env_cx, cwd=str(REPO))
+            check("a write from Codex's own shell is stamped [codex]", "· [codex]" in r.stdout, r.stdout[:160])
             tp = root / ".agent" / "missions" / "j-plan" / "trace.md"
             tt = tp.read_text() if tp.exists() else ""
             check("trace.md holds open, go, lane close and log lines",
