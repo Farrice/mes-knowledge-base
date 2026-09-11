@@ -232,3 +232,44 @@ def test_preserve_refuses_when_main_mid_merge(repo, monkeypatch, capsys):
     assert rc == 1
     assert "mid-merge" in capsys.readouterr().err
     git(repo.main, "merge", "--abort")
+
+
+# ── refresh (2026-09-10): merge main INTO a lane so it stops running stale code ──
+def refresh_args(branch=None, **kw):
+    base = dict(lane=branch, all=False, dry_run=False, allow_dirty=False)
+    base.update(kw)
+    return types.SimpleNamespace(**base)
+
+
+def test_refresh_brings_main_commits_into_lane(repo, monkeypatch):
+    (repo.main / "other.md").write_text("o\nmain moved on\n")
+    _commit_all(repo.main, "main edit")
+    monkeypatch.setattr(wl, "main_root", lambda cwd=None: repo.main)
+    assert wl.lane_behind(repo.main, repo.branch) == 1
+    rc = wl.cmd_refresh(refresh_args(repo.branch))
+    assert rc == 0
+    assert "main moved on" in (repo.lane / "other.md").read_text()
+    assert wl.lane_behind(repo.main, repo.branch) == 0
+    assert git(repo.main, "status", "--porcelain").stdout.strip() == ""   # main untouched
+
+
+def test_refresh_skips_dirty_lane_unless_allowed(repo, monkeypatch):
+    (repo.main / "other.md").write_text("o\nmain moved on\n")
+    _commit_all(repo.main, "main edit")
+    (repo.lane / "doc.md").write_text("line 1\nline 2\nlane wip\n")   # uncommitted, non-overlapping
+    monkeypatch.setattr(wl, "main_root", lambda cwd=None: repo.main)
+    assert wl.cmd_refresh(refresh_args(repo.branch)) == 1
+    assert "main moved on" not in (repo.lane / "other.md").read_text()
+    assert wl.cmd_refresh(refresh_args(repo.branch, allow_dirty=True)) == 0
+    assert "main moved on" in (repo.lane / "other.md").read_text()
+    assert "lane wip" in (repo.lane / "doc.md").read_text()          # wip survives
+
+
+def test_refresh_conflict_aborts_and_leaves_lane_unchanged(repo, monkeypatch):
+    _conflict(repo)
+    monkeypatch.setattr(wl, "main_root", lambda cwd=None: repo.main)
+    before = git(repo.lane, "rev-parse", "HEAD").stdout.strip()
+    assert wl.cmd_refresh(refresh_args(repo.branch)) == 1
+    assert git(repo.lane, "rev-parse", "HEAD").stdout.strip() == before
+    assert not _mid_merge(repo.lane)
+    assert "LANE line 1" in (repo.lane / "doc.md").read_text()
