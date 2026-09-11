@@ -21,6 +21,19 @@ His read is right on both halves. Their structure flows better because every pip
 
 ## 2. Ranked imports (eight; each says what it must NOT replace)
 
+**Status board (2026-09-10; update this table, not the items):**
+
+| # | State | Where it lives now | Still open |
+|---|---|---|---|
+| 1 | PROVEN | `execution/run_log.py`; `run.yaml` on three Jen weeks; `/jen` + six doors carry the line | week-of-09-21 re-run; `/social-carousel` steps list |
+| 2 | landed on `/jen` | `jen.md` "The order" table (Skipped when) | same table on the six doors |
+| 3 | landed on `/jen` LOAD | `jen.md` LOAD table | levels in `BRAND.yaml` `voice.canon`; ORCHESTRATION-DESIGN §5 pre-run loads |
+| 4 | landed on `/jen` | `jen.md` "When to use / Never for" | six doors; `find_skill.py` weighting `triggers:` / `never_for:` |
+| 5 | landed on `/jen` AMPLIFY | `jen.md` dispatch contract | `/social-carousel` Step 4 table; fresh-pen `Returns:` field |
+| 6 | landed on `/jen` | `jen.md` "fix lands in the file that owns it" + dated Rules | six doors |
+| 7 | not started | — | `directives/quality_gate.md` template (declaration style only, zero new blocks) |
+| 8 | not started | — | `skills/<name>/evals/evals.json` for the five most-routed skills |
+
 **1. The run folder is the state: `run.yaml` plus a per-run `pipeline-log.md`.**
 *PROVEN 2026-09-09 on Jen's week-of-2026-09-14: `execution/run_log.py`, `build_weeks.py` writes `run.yaml`, `jen_os_page.py` reads it, the six Scrapes doors carry the same line; 40 tests; recipe `docs/solutions/2026-09-09-run-folder-is-the-state.md`.*
 What: one machine-readable manifest per run (their `post.yaml` keys plus ours: the BRAND LOCK line, claim tags, cost, render path, status) and one log where every step appends its receipt line and a `Reasoning:` line, sub-agents included. Shows it: `00-social-content/SKILL.md:63-73,84-86`; `00-youtube-to-ebook/SKILL.md:52-63,219-220` (draft → fact-check report → reviewed → final, all on disk even on failure). Lands: `.agent/workflows/jen.md` steps 0 to 8 write their receipt lines into `<week>/pipeline-log.md` and step 7 writes `run.yaml`; the six doors' Step 5 does the same; `execution/jen_os_page.py` reads `run.yaml` instead of its hand-edited `POSTS` / `MEMOS` / `HERS` / `OTHER` tables (`jen_os_page.py:52-155`). Proof: one `/jen week` run regenerates the Valley OS page with zero table edits, and `/resume` shows the log. Must NOT replace: living-vs-record placement, the `finalize` JSONL (evolution reads it), the `asset_index` manifest (run.yaml points at it), the Artifact URL.
