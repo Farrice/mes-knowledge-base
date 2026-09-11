@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MYBPM — Blind Composition Bake-off</title>
+  <style>
+    :root {
+      --ink: #0a0a0a;
+      --paper: #f7f7f4;
+      --white: #ffffff;
+      --gray: #5a5a56;
+      --border: #d8d8d2;
+      --acid: #d7ff2f;
+      --board: #e7e7e2;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--board); color: var(--ink); }
+    body { font-family: Inter, Helvetica, Arial, sans-serif; }
+    .page { width: 2048px; margin: 0 auto; padding: 72px 64px 84px; }
+    .board-head { display: grid; grid-template-columns: 1fr auto; align-items: end; border-bottom: 2px solid var(--ink); padding-bottom: 24px; margin-bottom: 48px; }
+    .board-head h1 { font-size: 42px; line-height: .95; letter-spacing: -.055em; margin: 0 0 12px; text-transform: uppercase; }
+    .board-head p { margin: 0; color: var(--gray); font-size: 18px; letter-spacing: .02em; }
+    .blind-stamp { border: 2px solid var(--ink); padding: 13px 17px 12px; font-weight: 800; font-size: 16px; letter-spacing: .12em; text-transform: uppercase; }
+    .candidate { margin: 0 0 56px; }
+    .candidate-head { display: flex; align-items: center; gap: 18px; margin: 0 0 18px; }
+    .candidate-head h2 { margin: 0; font-size: 24px; letter-spacing: .12em; text-transform: uppercase; }
+    .candidate-head span { color: var(--gray); font-size: 14px; letter-spacing: .12em; text-transform: uppercase; }
+    .format-grid { display: grid; grid-template-columns: 960px 500px 360px; gap: 28px; align-items: start; }
+    .format-label { margin: 0 0 9px; font-size: 12px; font-weight: 800; color: var(--gray); letter-spacing: .14em; text-transform: uppercase; }
+    .artboard { position: relative; overflow: hidden; background: var(--paper); border: 1px solid #c9c9c3; }
+    .desktop { width: 960px; height: 540px; }
+    .square { width: 500px; height: 500px; }
+    .vertical { width: 360px; height: 640px; }
+    .label, .data, .footer, .wordmark { position: absolute; z-index: 4; text-transform: uppercase; }
+    .label, .data, .footer { font-size: 11px; font-weight: 750; letter-spacing: .13em; }
+    .wordmark { font-weight: 900; letter-spacing: -.075em; line-height: .8; }
+    .wordmark .y { display: inline-block; font-size: .78em; vertical-align: .02em; }
+    .headline { position: absolute; z-index: 2; margin: 0; font-weight: 950; text-transform: uppercase; letter-spacing: -.085em; line-height: .76; }
+    .support { position: absolute; z-index: 5; text-transform: uppercase; font-weight: 850; line-height: .92; letter-spacing: -.04em; }
+    .trace { position: absolute; z-index: 3; overflow: visible; }
+    .trace .quiet { fill: none; stroke: var(--ink); stroke-width: 2; vector-effect: non-scaling-stroke; }
+    .trace .signal { fill: none; stroke: var(--acid); stroke-width: 8; stroke-linecap: square; stroke-linejoin: miter; vector-effect: non-scaling-stroke; }
+    .rule { position: absolute; background: var(--ink); z-index: 4; }
+
+    /* Candidate A: asymmetry, grid break, directional movement, format-specific recomposition. */
+    .a.desktop .label { top: 30px; left: 34px; }
+    .a.desktop .wordmark { top: 28px; right: 32px; font-size: 27px; }
+    .a.desktop .headline { left: 27px; top: 126px; font-size: 138px; white-space: nowrap; }
+    .a.desktop .trace { left: 0; top: 236px; width: 960px; height: 120px; }
+    .a.desktop .support { left: 610px; top: 368px; width: 300px; font-size: 33px; }
+    .a.desktop .data { left: 35px; bottom: 29px; }
+    .a.desktop .footer { right: 32px; bottom: 29px; }
+    .a.desktop .rule { left: 475px; top: 35px; width: 1px; height: 66px; }
+
+    .a.square .label { top: 26px; left: 26px; }
+    .a.square .wordmark { top: 25px; right: 23px; font-size: 25px; }
+    .a.square .headline { left: 18px; top: 132px; font-size: 100px; }
+    .a.square .headline span { display: block; }
+    .a.square .headline .synced { margin-left: 80px; }
+    .a.square .trace { left: -10px; top: 251px; width: 540px; height: 105px; transform: rotate(-5deg); }
+    .a.square .support { left: 27px; bottom: 71px; width: 180px; font-size: 24px; }
+    .a.square .data { right: 25px; bottom: 28px; }
+    .a.square .footer { left: 27px; bottom: 28px; }
+
+    .a.vertical .label { top: 24px; left: 24px; }
+    .a.vertical .wordmark { top: 24px; right: 20px; font-size: 23px; }
+    .a.vertical .headline { left: -5px; top: 136px; font-size: 91px; transform: rotate(-90deg) translateX(-100%); transform-origin: left top; white-space: nowrap; }
+    .a.vertical .trace { left: 115px; top: 72px; width: 190px; height: 430px; transform: rotate(90deg); }
+    .a.vertical .support { right: 22px; top: 317px; width: 144px; font-size: 26px; }
+    .a.vertical .data { right: 22px; bottom: 58px; }
+    .a.vertical .footer { right: 22px; bottom: 26px; }
+    .a.vertical .rule { right: 23px; top: 92px; width: 1px; height: 124px; }
+
+    /* Candidate B: competent centered modular stack, consistently restacked. */
+    .b .label { top: 28px; left: 30px; }
+    .b .wordmark { top: 27px; right: 28px; font-size: 27px; }
+    .b .headline { left: 50%; transform: translateX(-50%); text-align: center; white-space: nowrap; }
+    .b .support { left: 50%; transform: translateX(-50%); text-align: center; white-space: nowrap; }
+    .b .data { left: 29px; bottom: 28px; }
+    .b .footer { right: 28px; bottom: 28px; }
+    .b .rule { left: 29px; right: 28px; bottom: 54px; height: 1px; }
+    .b.desktop .headline { top: 133px; font-size: 111px; }
+    .b.desktop .trace { left: 130px; top: 250px; width: 700px; height: 92px; }
+    .b.desktop .support { top: 367px; font-size: 27px; }
+    .b.square .label { left: 24px; top: 25px; }
+    .b.square .wordmark { top: 24px; right: 23px; font-size: 25px; }
+    .b.square .headline { top: 136px; font-size: 75px; }
+    .b.square .headline span { display: block; }
+    .b.square .trace { left: 53px; top: 267px; width: 394px; height: 74px; }
+    .b.square .support { top: 365px; font-size: 22px; }
+    .b.square .data { left: 24px; bottom: 24px; }
+    .b.square .footer { right: 23px; bottom: 24px; }
+    .b.square .rule { left: 24px; right: 23px; bottom: 49px; }
+    .b.vertical .label { left: 23px; top: 24px; }
+    .b.vertical .wordmark { top: 23px; right: 21px; font-size: 23px; }
+    .b.vertical .headline { top: 175px; font-size: 61px; }
+    .b.vertical .headline span { display: block; }
+    .b.vertical .trace { left: 36px; top: 318px; width: 288px; height: 78px; }
+    .b.vertical .support { top: 430px; font-size: 22px; }
+    .b.vertical .support span { display: block; }
+    .b.vertical .data { left: 23px; bottom: 24px; }
+    .b.vertical .footer { right: 21px; bottom: 24px; }
+    .b.vertical .rule { left: 23px; right: 21px; bottom: 49px; }
+
+    .board-foot { display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; padding-top: 22px; border-top: 2px solid var(--ink); }
+    .board-foot p { margin: 0; font-size: 16px; color: var(--gray); }
+    .verdict { color: var(--ink) !important; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <main class="page" id="bakeoff-board">
+    <header class="board-head">
+      <div>
+        <h1>MYBPM — STILL SYNCED</h1>
+        <p>Same copy · same palette · same motif · different composition system</p>
+      </div>
+      <div class="blind-stamp">Blind bake-off / 01</div>
+    </header>
+
+    <section class="candidate" id="design-a-board">
+      <div class="candidate-head"><h2>Design A</h2><span>Desktop · Square · Vertical</span></div>
+      <div class="format-grid">
+        <div><p class="format-label">Desktop / 16:9</p><article class="artboard desktop a">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div><div class="rule"></div>
+          <h3 class="headline">Still Synced</h3>
+          <svg class="trace" viewBox="0 0 960 120" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 62 L333 62"/><path class="signal" d="M333 62 L365 62 L383 14 L405 108 L428 39 L451 75 L479 62 L960 62"/></svg>
+          <div class="support">Met strangers.<br>Found family.</div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+        <div><p class="format-label">Square / 1:1</p><article class="artboard square a">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div>
+          <h3 class="headline"><span>Still</span><span class="synced">Synced</span></h3>
+          <svg class="trace" viewBox="0 0 540 105" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 53 L177 53"/><path class="signal" d="M177 53 L204 53 L220 8 L238 96 L258 32 L279 68 L301 53 L540 53"/></svg>
+          <div class="support">Met strangers.<br>Found family.</div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+        <div><p class="format-label">Vertical / 9:16</p><article class="artboard vertical a">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div><div class="rule"></div>
+          <h3 class="headline">Still Synced</h3>
+          <svg class="trace" viewBox="0 0 190 430" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 215 L64 215"/><path class="signal" d="M64 215 L80 215 L93 148 L105 292 L119 177 L134 238 L148 215 L190 215"/></svg>
+          <div class="support">Met strangers.<br>Found family.</div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+      </div>
+    </section>
+
+    <section class="candidate" id="design-b-board">
+      <div class="candidate-head"><h2>Design B</h2><span>Desktop · Square · Vertical</span></div>
+      <div class="format-grid">
+        <div><p class="format-label">Desktop / 16:9</p><article class="artboard desktop b">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div>
+          <h3 class="headline">Still Synced</h3>
+          <svg class="trace" viewBox="0 0 700 92" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 46 L238 46"/><path class="signal" d="M238 46 L265 46 L282 8 L301 84 L321 26 L341 58 L365 46 L700 46"/></svg>
+          <div class="support">Met strangers. Found family.</div><div class="rule"></div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+        <div><p class="format-label">Square / 1:1</p><article class="artboard square b">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div>
+          <h3 class="headline"><span>Still</span><span>Synced</span></h3>
+          <svg class="trace" viewBox="0 0 394 74" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 37 L132 37"/><path class="signal" d="M132 37 L148 37 L161 5 L175 69 L191 20 L207 48 L224 37 L394 37"/></svg>
+          <div class="support">Met strangers. Found family.</div><div class="rule"></div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+        <div><p class="format-label">Vertical / 9:16</p><article class="artboard vertical b">
+          <div class="label">Week 1 / Still Synced</div><div class="wordmark">M<span class="y">Y</span>BPM</div>
+          <h3 class="headline"><span>Still</span><span>Synced</span></h3>
+          <svg class="trace" viewBox="0 0 288 78" preserveAspectRatio="none" aria-hidden="true"><path class="quiet" d="M0 39 L96 39"/><path class="signal" d="M96 39 L110 39 L122 6 L136 72 L151 22 L166 51 L181 39 L288 39"/></svg>
+          <div class="support"><span>Met strangers.</span><span>Found family.</span></div><div class="rule"></div><div class="data">03:17 / 128 BPM</div><div class="footer">Night Society</div>
+        </article></div>
+      </div>
+    </section>
+
+    <footer class="board-foot"><p>No route labels are shown. The assignment stays sealed until the taste verdict.</p><p class="verdict">Choose A · B · Neither</p></footer>
+  </main>
+</body>
+</html>

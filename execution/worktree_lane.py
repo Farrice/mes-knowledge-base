@@ -80,8 +80,12 @@ GENERATORS = [("generate_slash_commands.py", []),
 
 # ── git plumbing ────────────────────────────────────────────────────
 def _git(cwd, *args, timeout=60):
+    # core.quotepath=false: git otherwise octal-escapes non-ASCII paths in
+    # listings, so the Law-3 audit's `cat-file -e HEAD:<path>` on a quoted
+    # name fails and parks the lane claiming a drop (2026-09-09, a Cyrillic
+    # Gigi cover). Raw UTF-8 paths round-trip through every helper here.
     try:
-        r = subprocess.run(["git", "-C", str(cwd), *args],
+        r = subprocess.run(["git", "-C", str(cwd), "-c", "core.quotepath=false", *args],
                            capture_output=True, text=True, timeout=timeout)
         return r.returncode, r.stdout.strip(), r.stderr.strip()
     except Exception as e:  # pragma: no cover
@@ -412,8 +416,9 @@ def run_parity(lane: Path, main: Path, record=False):
             for hook in group.get("hooks", [])
             if hook.get("command")
         ]
-        if len(codex_commands) != 9:
-            d.append(f"Codex hooks.json expected 9 commands, found {len(codex_commands)}")
+        # 15 since the 2026-09-09 alignment parity port (9 guards + 6 ported hooks)
+        if len(codex_commands) != 15:
+            d.append(f"Codex hooks.json expected 15 commands, found {len(codex_commands)}")
         if not codex_commands or not all("codex_hook_runner.py" in command for command in codex_commands):
             d.append("Codex hook commands do not all use codex_hook_runner.py")
         for command in codex_commands:
@@ -1127,6 +1132,65 @@ def cmd_preserve(args) -> int:
     return 0
 
 
+def lane_behind(main: Path, branch: str) -> int:
+    """Commits on main that this lane's branch does not have."""
+    rc, out, _ = _git(main, "rev-list", "--count", f"{branch}..main")
+    try:
+        return int(out) if rc == 0 else -1
+    except ValueError:
+        return -1
+
+
+def cmd_refresh(args) -> int:
+    """Merge main INTO a lane so it stops running stale code (2026-09-10 scar: a
+    Codex lane created at 15:06 still ran the old job_board.py at 15:45 and told
+    Astra the shared job did not exist; Astra improvised). Never touches main.
+    A conflict aborts the merge and says so — the lane is unchanged."""
+    main = main_root()
+    lanes = active_lanes(main)
+    if args.lane:
+        targets = {args.lane: lanes.get(args.lane)}
+        if targets[args.lane] is None:
+            print(f"no active lane '{args.lane}' — worktree_lane.py list")
+            return 1
+    elif args.all:
+        targets = dict(lanes)
+    else:
+        cwd = Path.cwd()
+        if not is_lane(cwd):
+            print("refresh: run it inside a lane, or pass --lane <branch> / --all")
+            return 1
+        targets = {current_branch(cwd): tree_root(cwd)}
+    rc_all = 0
+    for branch, path in sorted(targets.items()):
+        n = lane_behind(main, branch)
+        if n == 0:
+            print(f"REFRESH {branch}: up to date with main")
+            continue
+        if n < 0:
+            print(f"REFRESH {branch}: cannot compare with main")
+            rc_all = 1
+            continue
+        rc, out, _ = _git(path, "status", "--porcelain", "--untracked-files=no")
+        if rc == 0 and out.strip() and not args.allow_dirty:
+            print(f"REFRESH {branch}: SKIPPED — {len(out.splitlines())} uncommitted tracked change(s) in the lane; "
+                  f"commit them there first (or --allow-dirty to try the merge anyway)")
+            rc_all = 1
+            continue
+        if args.dry_run:
+            print(f"REFRESH {branch}: behind main by {n} commit(s) — would merge main in (dry run)")
+            continue
+        rc, out, err = _git(path, "merge", "--no-edit", "-m", f"refresh: merge main into {branch}", "main", timeout=300)
+        if rc == 0:
+            print(f"REFRESHED {branch}: merged {n} commit(s) from main")
+        else:
+            _git(path, "merge", "--abort")
+            print(f"REFRESH {branch}: CONFLICT — merge aborted, lane unchanged. Resolve by hand inside the lane: "
+                  f"git merge main  (details: {(err or out)[:160]})")
+            rc_all = 1
+    return rc_all
+
+
 def cmd_teardown(args) -> int:
     main = main_root()
     lanes = active_lanes(main)
@@ -1176,6 +1240,10 @@ def cmd_doctor(args) -> int:
         if state == "LEGACY":
             notes.append("unregistered — merge or park by hand once, "
                          "or `bootstrap` inside it to adopt")
+        behind = lane_behind(main, branch)
+        if behind > 0:
+            notes.append(f"behind main by {behind} commit(s) — stale code: "
+                         f"python3 execution/worktree_lane.py refresh --lane {branch}")
         broken = []
         for rel in SHARED_LINKS + SPEND_LINKS:
             p = path / rel
@@ -1282,6 +1350,13 @@ def main() -> int:
     pv.add_argument("--push", action="store_true", help="push the preserve branch to origin")
     pv.add_argument("--lock-token", dest="lock_token")
     pv.set_defaults(fn=cmd_preserve)
+
+    rf = sub.add_parser("refresh", help="merge main INTO a lane so it runs current code (never touches main)")
+    rf.add_argument("--lane", help="branch name (default: the lane you're in)")
+    rf.add_argument("--all", action="store_true", help="every active lane")
+    rf.add_argument("--dry-run", action="store_true", dest="dry_run")
+    rf.add_argument("--allow-dirty", action="store_true", dest="allow_dirty")
+    rf.set_defaults(fn=cmd_refresh)
 
     t = sub.add_parser("teardown")
     t.add_argument("--lane")

@@ -1,0 +1,14 @@
+{
+  "artifact_type": "strategy",
+  "title": "Upwork and Fiverr cash sprint",
+  "status": "ready_for_review",
+  "created_at": "2026-09-03",
+  "owner": "Farrice Cain",
+  "external_actions_taken": false,
+  "verification": {
+    "live_profile_review": true,
+    "live_job_review": true,
+    "claim_audit": "pass",
+    "prose_check": "pass"
+  }
+}

@@ -48,7 +48,7 @@ If any item is missing, **halt scoring** and route to `/satori-why-before-what` 
 - Identify any competing leverage candidates → these are friction with the wrong dimension
 - **Score 1-10** (anchor: 10 = unmistakable in <1 sec, 6 = needs 4-5 sec, 4 = ambiguous)
 
-#### I — Eye Choreography
+#### I — Internal Rhythm (Eye Choreography)
 - Trace the eye journey: where does the eye go 1st, 2nd, 3rd?
 - Test: Is spacing predictable enough to trust?
 - Test: Is there at least one deliberate disruption that re-engages?
@@ -144,7 +144,7 @@ Add findings to the directive list.
 | **Poster** | Strong on L+T; F often overdone | Multiple competing leverage points |
 | **Web hero** | Strong on T; weak on F | No friction = boring; too much = chaos |
 | **Listing reel frame** | Strong on L (price + bedrooms); T critical (mobile + thumbnail) | Hierarchy lost at thumbnail |
-| **Slide deck** | Strong on E choreography; weak on T (rarely tested cross-format) | Slides break in screenshot/share-card |
+| **Slide deck** | Strong on I/internal rhythm; weak on T (rarely tested cross-format) | Slides break in screenshot/share-card |
 | **Social tile** | T (square ↔ vertical) is everything | Concept built for one aspect ratio only |
 | **Ad creative** | L (CTA) must be unmistakable | Decoration outweighs CTA |
 | **Logo** | DOES NOT APPLY — use `/satori-logo-concept` | Don't try to LIFT a logo |

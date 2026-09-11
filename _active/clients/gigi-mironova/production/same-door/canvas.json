@@ -1,0 +1,183 @@
+{
+  "artboards": [
+    {
+      "file": "C1.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C1 \u00b7 Same Door"
+    },
+    {
+      "file": "C2.dc.html",
+      "x": 1200,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C2 \u00b7 The Math"
+    },
+    {
+      "file": "C3.dc.html",
+      "x": 2400,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C3 \u00b7 The 620"
+    },
+    {
+      "file": "C4.dc.html",
+      "x": 3600,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C4 \u00b7 Equity"
+    },
+    {
+      "file": "C5.dc.html",
+      "x": 4800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C5 \u00b7 Three Documents"
+    },
+    {
+      "file": "C5RU.dc.html",
+      "x": 6000,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C5 \u00b7 Three Documents \u00b7 RU"
+    },
+    {
+      "file": "C6.dc.html",
+      "x": 7200,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "C6 \u00b7 CTA"
+    },
+    {
+      "file": "R1.dc.html",
+      "x": 0,
+      "y": 1520,
+      "w": 1080,
+      "h": 1350,
+      "title": "Reel 1 Cover"
+    },
+    {
+      "file": "R2.dc.html",
+      "x": 1200,
+      "y": 1520,
+      "w": 1080,
+      "h": 1350,
+      "title": "Reel 2 Cover"
+    },
+    {
+      "file": "R3.dc.html",
+      "x": 2400,
+      "y": 1520,
+      "w": 1080,
+      "h": 1350,
+      "title": "Reel 3 Cover \u00b7 RU"
+    },
+    {
+      "file": "R4.dc.html",
+      "x": 3600,
+      "y": 1520,
+      "w": 1080,
+      "h": 1350,
+      "title": "Reel 4 Cover \u00b7 Portrait"
+    },
+    {
+      "file": "D1.dc.html",
+      "x": 0,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D1 \u00b7 Net Hook"
+    },
+    {
+      "file": "D2.dc.html",
+      "x": 1200,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D2 \u00b7 Two Numbers"
+    },
+    {
+      "file": "D3.dc.html",
+      "x": 2400,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D3 \u00b7 Two Markets"
+    },
+    {
+      "file": "D4.dc.html",
+      "x": 3600,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D4 \u00b7 The Question"
+    },
+    {
+      "file": "D5.dc.html",
+      "x": 4800,
+      "y": 3040,
+      "w": 1080,
+      "h": 1350,
+      "title": "D5 \u00b7 Net CTA"
+    },
+    {
+      "file": "K1.dc.html",
+      "x": 0,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K1 \u00b7 Clock Hook"
+    },
+    {
+      "file": "K2.dc.html",
+      "x": 1200,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K2 \u00b7 Three Clocks"
+    },
+    {
+      "file": "K3.dc.html",
+      "x": 2400,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K3 \u00b7 Day Zero"
+    },
+    {
+      "file": "K4.dc.html",
+      "x": 3600,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K4 \u00b7 The Move"
+    },
+    {
+      "file": "K5.dc.html",
+      "x": 4800,
+      "y": 4560,
+      "w": 1080,
+      "h": 1350,
+      "title": "K5 \u00b7 Clock CTA"
+    },
+    {
+      "file": "character-board.html",
+      "x": 0,
+      "y": 6080,
+      "w": 1080,
+      "h": 1350,
+      "title": "Character \u00b7 The Calm Closer"
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

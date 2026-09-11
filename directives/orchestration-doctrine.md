@@ -75,7 +75,9 @@ an ARTIFACT — `Bar: <golden ref / rubric-anchor example / register exemplar pa
 counts as done.` — or explicitly `Bar: none`. Adjectives ("high quality", "on-brand") are not a
 bar; an unanchored quality loop polishes the wrong target (KetoneIQ edge). The Blind Bar pass
 itself runs in-context in the producing loop, never as a spawned critic (Seating Charter stands:
-verification never gets its own seat).
+verification never gets its own seat — **one exception, Farrice 2026-09-09: the budgeted,
+bar-anchored critique swarm in `directives/swarm-usage-policy.md`**; ≤4 read-only seats, ≤3
+rounds, one pen writes, Farrice judges, $10 hard stop).
 
 ### Executor Model Registry (hard-coded 2026-07-24 — Farrice standing instruction; update on model launches)
 
@@ -95,6 +97,19 @@ never date-suffixed variants (one exception: Haiku 4.5's real API ID IS date-suf
 — load it before writing dispatch prompts for a seat you haven't used this session; (4) on a new
 model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
 verification source, never memory).
+
+### Codex seating (2026-09-09 — closes the Astra audit's P2 "seating not mapped")
+
+On Codex the active model (`gpt-6-astra` as of Sept 2026) is **conductor and pen in one seat**: it
+routes, writes, integrates, and verifies in the main thread. The Claude registry above (Fable /
+Opus / Sonnet / Haiku) does not exist there and must never be copied literally into a Codex brief
+(scar: Sept 7–9, Astra tried to "dispatch an executor" and spawned a subagent it then waited on).
+Codex-native subagents (`spawn_agent` / `wait_agent` / `send_message` / `followup_task`) are
+**research and critique seats only**, read-only, each priced by `execution/swarm_meter.py` before
+it spawns and filed with a Delegation Receipt (`CODEX.md` § subagents). The hop ladder still
+applies (a human receives hop 0; Farrice's felt verdict is the taste gate), and the
+latency-class rule below still applies. Per-model corrections come from
+`directives/model-dialects/gpt-6-astra.md`, injected per prompt by the ported steering hook.
 
 ### Latency-Class Seating (adopted 2026-08-06 — God Agent delta move #5; goal: right cost per urgency, scar: none — preventive)
 
@@ -124,7 +139,8 @@ receipt check lives inside `/weekly-closeout` (existing consumer), nowhere else.
 the consumer — either the closed-list hop-0 artifact, or the 3+ downstream turns that consume the
 dispatch. A Fable-written artifact outside the closed list = a **misseat**, logged and read in
 `/weekly-closeout` as a trend, never a quota. Verification never gets its own seat: the main
-loop verifies (dialect law), a spawned reviewer only on Farrice's ask or a compromised context.
+loop verifies (dialect law), a spawned reviewer only on Farrice's ask or a compromised context —
+or inside a metered critique swarm per `directives/swarm-usage-policy.md` (2026-09-09).
 
 **Fable-absent degradation (Farrice 2026-07-28 — the ORIGINAL intent of this charter: Opus 5 is
 the default seat and must deliver Fable-grade conducting when no Fable seat exists):** the

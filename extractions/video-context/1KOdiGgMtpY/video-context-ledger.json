@@ -1,0 +1,52 @@
+[
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:28-00:03:58",
+    "claim": "AI is a convergence machine; the signal layer requires knowing what is specifically yours and emitting it without distortion."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:28-00:05:44",
+    "claim": "The most buildable thing and the most valuable thing are often different; the model can build what it is pointed at but cannot choose the worthy target for the operator."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:03-00:09:43",
+    "claim": "Learnable taste is insufficient by itself; durable judgment comes from future-facing conviction or relationship and domain context the model cannot observe."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:01-00:10:09",
+    "claim": "Knowing the signal is only half the job; it must travel from the creator's head into the head of the person it is for."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:22-00:13:27",
+    "claim": "Source distortion occurs when founders compress familiar context past legibility and delete the customer pain that makes the technical work matter."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:28-00:14:53",
+    "claim": "Organization distortion moves signal toward the average across management, legal, sales, and delegation handoffs; the proposed remedy is a thin function that carries original intent intact rather than more bureaucracy."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:55-00:15:29",
+    "claim": "Machine distortion occurs when AI remixes a careful claim, evidence, and scope into derivative formats until a narrow result is heard as a broad promise."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:05-00:16:53",
+    "claim": "Define the signal in one sentence with the limit built in and keep the promise and scope welded so the honest boundary cannot be edited out."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:55-00:17:21",
+    "claim": "Before scaling, ask an unfamiliar recipient to describe the product back; the gap between what they heard and what was meant is impending distortion."
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:42-00:19:19",
+    "claim": "The ultimate outcome is trust, which is relational rather than fully gradable; humans define and protect the signal while AI handles convergent work around it."
+  }
+]

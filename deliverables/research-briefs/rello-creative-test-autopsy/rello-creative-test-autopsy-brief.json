@@ -1,0 +1,161 @@
+{
+  "slug": "rello-creative-test-autopsy",
+  "chip": "Proof specimen · public-source only",
+  "title": "Rello: creatine has a *Tuesday problem*",
+  "dek": "A buyer-inspectable Creative Test Autopsy showing how product truth becomes a human tension, a sharper point of view, and a controlled test without inventing account performance or health claims.",
+  "window": "Public sources checked September 3, 2026",
+  "lens": "Meta creative strategy · sports nutrition · claim-safe spec work",
+  "sources": "Rello site + Meta Ad Library + NSF + launch release",
+  "compiled": "September 3, 2026",
+  "footer_left": "FARRICE CAIN · CREATIVE TEST AUTOPSY",
+  "footer_right": "SPECIMEN · NOT CLIENT WORK",
+  "category": "client: prospect specimen",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the *diagnosis*",
+      "kicker": "Decision, not decoration",
+      "body": "Rello is qualified for a public-source specimen. The brand has a live DTC product, nationwide Sprouts availability, current NSF Certified for Sport listings for both bar flavors, and active Meta advertising.\n\nFour active Rello ads found in the Meta Ad Library use the same primary text and near-identical lo-fi creator pattern. The visible work makes a rational case by combining protein, creatine, clean ingredients, strength, recovery, energy, and everyday performance. Rello's origin story contains the more human opening: nutrition should not feel like a second job.\n\nINTERPRETATION: buyers may believe in creatine and still abandon the tub because the routine breaks before the ingredient does. The missed emotion is the quiet self-blame of another half-finished habit. That makes adherence friction worth testing against the current product-led control. A discipline-first explanation remains plausible, so this is a falsifiable creative hypothesis rather than an account diagnosis."
+    },
+    {
+      "kind": "stats",
+      "heading": "qualification at a glance",
+      "items": [
+        {"value": "4", "unit": "active ads", "label": "Public Meta sample", "note": "Rello ads located September 3, 2026"},
+        {"value": "20g", "unit": "protein", "label": "PER BAR", "note": "Current Chocolate Crunch product page"},
+        {"value": "1.2g", "unit": "creatine", "label": "PER BAR", "note": "Current product page and ad copy"},
+        {"value": "2", "unit": "bar flavors", "label": "NSF LISTED", "note": "Current NSF Certified for Sport listing"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the public evidence *supports*",
+      "tag": "SOURCE LEDGER",
+      "rows": [
+        {
+          "claim": "Rello has a live, purchasable protein-bar offer.",
+          "evidence": "Chocolate Crunch is listed at $53.99 for 12 bars. The page states 20g protein, 1.2g creatine, 9g fiber, and 260 calories per bar.",
+          "source_url": "https://relloco.com/products/chocolate-protein-bar?variant=47322736722107",
+          "source_label": "Rello product page",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The strongest owned-message mechanism is reduced supplement friction.",
+          "evidence": "Rello says it started because nutrition should not feel like a second job and frames its products as a way to avoid powders, messy scoops, and separate products.",
+          "source_url": "https://relloco.com/pages/about-us",
+          "source_label": "Rello brand story",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The product has current third-party sport certification evidence.",
+          "evidence": "NSF's listing, current September 2, 2026, includes Rello Chocolate Crunch and Vanilla Crisp protein bars under Certified for Sport.",
+          "source_url": "https://info.nsf.org/Certified/BannedSub/Listings.asp?Company=C0882007&Standard=306",
+          "source_label": "NSF official listing",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Rello is actively advertising on Meta.",
+          "evidence": "The public Ad Library showed active Rello ads with Library IDs 1599041291569235, 3006942762998068, 2234300803807908, and 1593562705754643, started August 12-18, 2026.",
+          "source_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered",
+          "source_label": "Meta Ad Library · checked Sep 3",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The visible active sample concentrates on one creative pattern.",
+          "evidence": "All four observed ads repeat the same primary copy beginning with 20g protein plus 1.2g creatine and use approximately 41-43 second lo-fi creator videos. Public visibility does not reveal spend or results.",
+          "source_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered",
+          "source_label": "Meta Ad Library · public sample",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "A narrower habit-friction message is a defensible next test.",
+          "evidence": "This is an inference from the repeated active copy and the brand's own origin language. It is not evidence that the current ads underperform.",
+          "source_url": "https://relloco.com/",
+          "source_label": "Rello homepage + public-ad synthesis",
+          "confidence": "LIKELY"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "two concepts worth *testing*",
+      "kicker": "One job per concept",
+      "dek": "Concept A isolates the strongest owned mechanism. Concept B preserves the product's performance breadth but gives it a cleaner entry point.",
+      "items": [
+        {
+          "action": "A · The tub you meant to finish",
+          "why": "Target: creatine-aware active professionals with a half-used powder and a routine that keeps losing to real mornings. Tension: every missed scoop feels like a discipline failure. Emotional release: fix the format instead of blaming the person. Proof: current label facts, portable format, and NSF listing. Best first vessel: lo-fi creator scene built around the abandoned tub."
+        },
+        {
+          "action": "B · Make the snack earn its place",
+          "why": "Target: practical optimizers who resent carrying several single-job products. Tension: a gym-bag snack should do more than occupy space. Promise: 20g protein plus 1.2g creatine in one bar. Proof: product panel and ingredient list. Best first vessel: headliner static, then a matched creator video if the message earns a second test."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "six *hooks*",
+      "tag": "Spec copy · brand review required",
+      "blocks": [
+        {
+          "label": "Concept A · private recognition",
+          "text": "A1  Your half-used creatine tub may have a format problem.\n\nA2  The best supplement routine is the one that survives a late Tuesday.\n\nA3  You remembered the gym bag. The creatine is still on the counter."
+        },
+        {
+          "label": "Concept B · useful ambition",
+          "text": "B1  If a snack takes up room in your gym bag, make it earn the space.\n\nB2  This bar brought 20 grams of protein. It also brought creatine.\n\nB3  A protein bar for people who hate carrying the rest of the routine."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "one creator *script*",
+      "tag": "CONCEPT A · 35-45 SECONDS",
+      "blocks": [
+        {
+          "label": "Lo-fi product demonstration",
+          "text": "OPEN · 6:42 a.m. Close on a half-used creatine tub. A hand grabs keys and a gym bag, then leaves the scoop behind.\n\nVOICE: The creatine tub is still half-full. Your calendar is not.\n\nTENSION · Follow the rushed kitchen exit. Keep the tub framed on the counter.\n\nVOICE: By the time you leave for work, the routine has already asked for a scoop, a shaker, water, timing, and a memory your morning did not have.\n\nTURN · The hand drops a Rello bar into the side pocket of the bag.\n\nVOICE: Rello puts 20 grams of protein and 1.2 grams of creatine into a bar that can leave the house with you.\n\nPROOF · Tight shots of the current wrapper and nutrition panel.\n\nVOICE: The current bar also lists 9 grams of fiber. Both flavors appear in NSF's Certified for Sport directory.\n\nBOUNDARY · Creator holds the bar; no transformation imagery or outcome promise.\n\nVOICE: It does not replace a complete supplement plan, and one amount will not fit everyone. It gives one part of the routine a better chance of surviving the day.\n\nCTA · If the tub keeps winning the counter, read the label and see whether Rello fits the day.\n\nPRODUCTION NOTE · First-person experience is allowed only when true and documented. Final spoken claims and NSF mark usage require brand approval."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "one static *brief*",
+      "tag": "HEADLINER · CONCEPT A",
+      "blocks": [
+        {
+          "label": "1:1 and 4:5 production specification",
+          "text": "GOAL · Make a familiar failure visible before presenting the product.\n\nHEADLINE · Creatine, for people who keep forgetting creatine.\n\nSUPPORT · 20g protein · 1.2g creatine · 9g fiber\n\nPROOF CHIP · NSF Certified for Sport, only after the exact mark usage is approved.\n\nVISUAL HIERARCHY · Headline first. A sharp wrapper and broken-open bar sit inside an open gym bag. The half-used tub remains behind on the kitchen counter, small but recognizable.\n\nCTA · Meet Rello\n\nDESIGN · High contrast, restrained package palette, generous empty space, no athlete collage, and no benefit-icon cloud.\n\nONE-SECOND TEST · A stranger should understand that Rello puts creatine into a protein bar for an easier-to-carry routine.\n\nHOLD BACK · strength gains, cognition, longevity, skin, gut, energy, recovery, cost savings, and replacement claims. Those would turn one tension back into a product inventory."
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "the test *sequence*",
+      "caption": "Keep the message and vessel tests separate.",
+      "steps": [
+        {"title": "0 · Claim lock", "note": "Brand approves the exact label facts, NSF mark usage, creator language, offer, and landing-page match before production."},
+        {"title": "1 · Hook test", "note": "Keep the Concept A body, creator, edit, CTA, audience, and offer constant. Change only A1, A2, or A3."},
+        {"title": "2 · Read the signal", "note": "The media buyer defines spend sufficiency and evaluates hold, click, conversion, and downstream quality. Public spec work supplies no threshold."},
+        {"title": "3 · Format swap", "note": "Move the winning Concept A wording into the headliner static. This tests video versus static without changing the core message."},
+        {"title": "4 · Concept challenger", "note": "Only after a usable vessel signal, introduce Concept B in the same winning format. Do not change concept and format together."},
+        {"title": "5 · Learning record", "note": "Log what ran, spend, audience, dates, hook definition, conversion result, fatigue state, and the next decision."}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "strict proof *boundaries*",
+      "kicker": "What this specimen cannot know",
+      "body": "VERIFIED: current product facts, public brand language, current NSF listings, Sprouts availability, and the four active Meta ads observed.\n\nLIKELY: habit friction is underrepresented in the visible active sample and deserves a controlled test.\n\nPLAUSIBLE ALTERNATIVE: the existing product-led message may already match the strongest buyer motivation, or inconsistent use may not be a meaningful objection for Rello's actual customers.\n\nUNCONFIRMED: spend, CTR, hold rate, CPA, ROAS, audience breakdown, conversion volume, creative winner status, customer objections, creator rights, inventory depth, contribution margin, landing-page performance, and approved claims.\n\nREVERSAL CONDITION: if account data or customer language shows no adherence friction, or if the current control clearly outperforms the habit concept under matched conditions, retire this angle. Active does not mean winning; repeated copy does not mean fatigue; public-facing language does not prove demand. No concept launches until the client supplies account context, approved claims, production constraints, and an approval owner."
+    }
+  ],
+  "ledger": [
+    {"source": "Rello homepage", "url": "https://relloco.com/", "retrieved": "2026-09-03", "used_for": "Current positioning and product mechanism", "confidence": "VERIFIED"},
+    {"source": "Rello Chocolate Crunch product page", "url": "https://relloco.com/products/chocolate-protein-bar?variant=47322736722107", "retrieved": "2026-09-03", "used_for": "Price, nutrition facts, ingredients, offer", "confidence": "VERIFIED"},
+    {"source": "Rello About", "url": "https://relloco.com/pages/about-us", "retrieved": "2026-09-03", "used_for": "Origin story and reduced-friction mechanism", "confidence": "VERIFIED"},
+    {"source": "Meta Ad Library", "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rello&search_type=keyword_unordered", "retrieved": "2026-09-03", "used_for": "Active-ad inventory and visible creative pattern", "confidence": "VERIFIED"},
+    {"source": "NSF Certified for Sport listing", "url": "https://info.nsf.org/Certified/BannedSub/Listings.asp?Company=C0882007&Standard=306", "retrieved": "2026-09-03", "used_for": "Current third-party product listing", "confidence": "VERIFIED"},
+    {"source": "Rello launch release", "url": "https://www.prweb.com/releases/rello-launches-first-of-its-kind-protein-bars-and-shakes-powered-by-patented-soluble-creatine-technology-302698282.html", "retrieved": "2026-09-03", "used_for": "Founder, retail launch, original product thesis", "confidence": "VERIFIED"}
+  ]
+}

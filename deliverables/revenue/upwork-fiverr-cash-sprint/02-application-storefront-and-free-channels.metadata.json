@@ -1,0 +1,32 @@
+{
+  "artifact_type": "revenue_activation_kit",
+  "title": "AI Council application, storefront kit, and free-channel map",
+  "status": "ready_for_approval",
+  "created_at": "2026-09-03",
+  "external_actions_taken": true,
+  "external_actions": [
+    "Updated Upwork profile overview",
+    "Corrected Upwork employment company and title",
+    "Updated Upwork employment description",
+    "Added seven Google AI certifications with Coursera verification links",
+    "Filled but did not submit the AI Council proposal form",
+    "Added two existing Upwork portfolio highlights and Google Prompting Essentials V1 to the unsent proposal"
+  ],
+  "verification": {
+    "claim_audit": "pass",
+    "export_format_guard": "pass",
+    "proposal_copy": "pass; only warning is the Farrice signature line",
+    "upwork_project_summary": "clean",
+    "fiverr_gig_description": "clean"
+  },
+  "pending_assets": [
+    "premium health carousel images from Claude session"
+  ],
+  "approval_required_for": [
+    "submit Upwork proposal",
+    "publish Upwork Project Catalog project",
+    "publish Fiverr Gig",
+    "upload samples",
+    "send outreach"
+  ]
+}

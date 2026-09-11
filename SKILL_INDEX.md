@@ -103,7 +103,7 @@
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
 | `deya-business-systems` | **deya-business-systems** | problem-severity pricing, remarkable offer engineering, beta price ladders | 3 | 0 |
 | `dhar-mann-transformational-storytelling` | **Dhar Mann: Transformational Community Storytelling** | storytelling, youtube, creator strategy | 9 | 0 |
-| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 22 | 0 |
+| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 23 | 0 |
 | `diandra-escobar-linkedin-mastery` | **diandra-escobar-linkedin-mastery** | the linkedin journey system + domain arsenal | 0 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
@@ -115,6 +115,7 @@
 | `donald-miller-storybrand` | **Donald Miller — StoryBrand Mastery** | narrative copy, one-liners, messaging audits | 9 | 0 |
 | `dr-k-consciousness` | **Dr. K Consciousness** | integrates vedantic philosophy and clinical psychology using dr, for lighter action-bias breakthrough use ali-abdaal-action-bias | 11 | 0 |
 | `dr-kriukow-humanization` | **Dr. Kriukow AI Humanization** | humanizes ai-written prose using dr, use when ai-drafted content needs to pass gptzero / originality, for the structural-tells ban list use the writers-room workflow | 2 | 4 |
+| `eli5` | **eli5** | operator cognition — plain-words state narration for a burnt-out brain, farrice's brain is overloaded and he needs to know what is happening, what is..., /eli5 [herejobsall] — explain what is going on like i'm a fifth grader | 1 | 0 |
 | `enrico-incarnati-instagram-realestate` | **Enrico Incarnati — Instagram for Real Estate** | complete instagram content and lead generation system for real estate agents, instagram for real estate | 12 | 0 |
 | `eric-roth-screenwriting-mastery` | **Eric Roth Screenwriting Mastery** | oscar-level screenwriting craft from the writer of forrest gump, the insider, munich | 14 | 0 |
 | `eric-roth-writing-mastery` | **Eric Roth Writing Mastery** | cross-domain deployment of oscar-level writing craft for social media, content writing, copywriting | 12 | 0 |
@@ -276,6 +277,7 @@
 | `nate-b-jones-auto-improvement-loops` | **nate-b-jones-auto-improvement-loops** | ai/automation — self-improving agent systems, designs, deploys, and safeguards self-improving agent systems using nate b, for agent coordination use nate-b-jones-orchestration-intelligence | 8 | 0 |
 | `nate-b-jones-context-engineering` | **nate-b-jones-context-engineering** | ai/automation — context, memory architecture, architects memory and context systems for agentic systems using nate b | 6 | 0 |
 | `nate-b-jones-intent-engineering` | **Nate B Jones Intent Engineering** | disambiguation protocols, and interpretation-execution separation | 4 | 7 |
+| `nate-b-jones-manager-loop` | **Nate B Jones Manager Loop** | hand an ambiguous job-shaped ask to one manager agent that interviews once, runs the unblocked lanes in parallel, batches questions into decision packets | 6 | 0 |
 | `nate-b-jones-orchestration-intelligence` | **nate-b-jones-orchestration-intelligence** | ai/automation — multi-agent orchestration, designs, audits, and optimizes multi-agent orchestration using nate b, classifies work by domain verifiability to determine safe delegation | 12 | 0 |
 | `nate-b-jones-trust-architecture` | **Nate B Jones - AI Trust Architecture** | zero-trust agentic architecture & systemic hallucination defense, ai trust architecture | 5 | 12 |
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | acquire ai workflow clients without an audience by leveraging asymmetric trus..., ai client acquisition | 1 | 3 |
@@ -290,6 +292,7 @@
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** | land ghostwriting clients from zero — 30-day sprint blueprint, no-portfolio strategies, leaks/faucets network mapping | 5 | 9 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | use when choosing or pricing a digital product, or building a product ladder, digital product creation strategy | 3 | 6 |
 | `nicolas-cole-edan-writing-mechanics` | **Nicolas Cole EDAN Writing Mechanics** | writing mechanics, narrative composition, paragraph architecture | 8 | 0 |
+| `nicolas-cole-first-dollar-system` | **nicolas-cole-first-dollar-system** | first-dollar sequencing, knowledge monetization, congruent audience-to-offer systems | 5 | 0 |
 | `nicolas-cole-library-first-writing` | **nicolas-cole-library-first-writing** | build an owned content library by selecting the right next writing format, moving through cole's compression-to-reuse skill ladder, and saving proof and reusable material back | 2 | 0 |
 | `nicolas-cole-newsletter-flywheel` | **Nicolas Cole Newsletter Flywheel** | newsletter strategy, substack architecture, content flywheel design | 17 | 0 |
 | `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche discovery, specialization, content creation | 11 | 1 |
@@ -309,7 +312,7 @@
 | `oren-identity-brand-os` | **Oren — Identity Brand OS** | identity-first brand marketing from zero to cult following to 1, 000 true fans to scale, for any creator or founder | 14 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents | 3 | 9 |
 | `oren-marketing-mastery` | **oren-marketing-mastery** |  | 0 | 0 |
-| `oren-norton-world-building` | **Oren × Norton — Brand World-Building** | scott norton (sir kensington's founder, film-mechanics ladder (setting→institutions→props), growth by initiation | 10 | 0 |
+| `oren-norton-world-building` | **Oren × Norton — Brand World-Building** | scott norton (sir kensington's founder, film-mechanics ladder (setting→institutions→props), growth by initiation | 11 | 0 |
 | `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 13 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, personal-brand worlds, brand counterpositioning | 6 | 7 |
@@ -341,6 +344,7 @@
 | `ray-amjad-agentic-ladder` | **Ray Amjad — Agentic Coding Ladder** | trust = artifacts, never claims, agentic coding ladder | 9 | 0 |
 | `re-compliance-pack` | **re-compliance-pack** | real estate compliance (fair housing, transaction management, disclosure) | 1 | 0 |
 | `react-components` | **react:components** | converts stitch designs into modular vite and react components using system-l... | 0 | 0 |
+| `reference-led-creative-system` | **reference-led-creative-system** | one reference lock, production assets, and a regression-safe replay path | 0 | 0 |
 | `reid-hoffman-ai-strategy` | **reid-hoffman-ai-strategy** | single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance | 3 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
 | `riley-brown-marketing-automation` | **riley-brown-marketing-automation** | composable skills wrapped around scraper apis, examples-over-instructions (retrieve verified exemplars, don't prompt harder) | 12 | 0 |
@@ -361,7 +365,7 @@
 | `sam-vander-wielen` | **sam-vander-wielen** | webinar launch, live webinar, course launch | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai-powered info product launch methodology from serial entrepreneur samuel th..., ai product launch system | 4 | 11 |
 | `sarah-levinger-ad-psychology` | **sarah-levinger-ad-psychology** | emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting | 3 | 0 |
-| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | the design-thinking brain: originates concepts and color systems, then engineers composition, layout | 26 | 0 |
+| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | v2 adds the generative layer, v3 adds the layout and contrast layer, design-thinking + composition + color engine | 27 | 0 |
 | `sean-dollwet-kdp-publishing` | **sean-dollwet-kdp-publishing** | sean dollwet's demand-first amazon kdp system, extended with a zero-to-book-one conductor, current policy and rights gates | 11 | 0 |
 | `sean-kochel-ai-business` | **Sean Kochel: AI Business Mastery** | sean kochel's ai business mastery: why ai products don't sell, persuasion architecture, and trust-building systems | 4 | 23 |
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | sean kochel's systematic research-to-design-to-build pipeline for landing pag..., design-first web building | 2 | 6 |

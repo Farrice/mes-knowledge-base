@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">The Angle Map LinkedIn Featured explainer</title>
+  <description id="description">A Premium Minimal offer cover for choosing the campaign argument before another funded creative round.</description>
+  <rect width="1920" height="1080" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { font-weight: 700; letter-spacing: -.025em; }
+    .secondary { font-weight: 400; }
+  </style>
+
+  <text x="120" y="88" font-size="24" fill="#101010" class="label">THE ANGLE MAP</text>
+  <text x="1800" y="88" font-size="20" fill="#555553" text-anchor="end" class="label">FARRICE CAIN · OFFER MODE</text>
+  <line x1="120" y1="132" x2="1800" y2="132" stroke="#D8D8D3" stroke-width="2"/>
+
+  <text x="120" y="220" font-size="18" fill="#555553" class="label">FEATURED / 02 · BEFORE ANOTHER CREATIVE ROUND</text>
+  <text x="1800" y="238" font-size="112" fill="#8C8C82" text-anchor="end" class="display">03</text>
+
+  <text x="120" y="380" font-size="104" fill="#101010" class="display">Choose the argument before you fund</text>
+  <text x="120" y="492" font-size="84" fill="#101010" class="display">another round of creative.</text>
+  <text x="120" y="592" font-size="30" fill="#555553" class="secondary">One 60-minute live read. Three named campaign angles. One lead recommendation.</text>
+
+  <line x1="120" y1="700" x2="680" y2="700" stroke="#555553" stroke-width="2"/>
+  <line x1="680" y1="700" x2="1240" y2="700" stroke="#555553" stroke-width="2"/>
+  <line x1="1240" y1="700" x2="1800" y2="700" stroke="#101010" stroke-width="6"/>
+  <line x1="680" y1="700" x2="680" y2="920" stroke="#D8D8D3" stroke-width="2"/>
+  <line x1="1240" y1="700" x2="1240" y2="920" stroke="#D8D8D3" stroke-width="2"/>
+  <line x1="120" y1="920" x2="1800" y2="920" stroke="#D8D8D3" stroke-width="2"/>
+
+  <text x="120" y="752" font-size="16" fill="#8C8C82" class="label">01</text>
+  <text x="120" y="804" font-size="18" fill="#555553" class="label">READ</text>
+  <text x="120" y="854" font-size="30" fill="#101010" class="secondary">One live product or campaign message.</text>
+
+  <text x="716" y="752" font-size="16" fill="#8C8C82" class="label">02</text>
+  <text x="716" y="804" font-size="18" fill="#555553" class="label">MAP</text>
+  <text x="716" y="854" font-size="30" fill="#101010" class="secondary">Three materially different angles.</text>
+
+  <text x="1276" y="752" font-size="16" fill="#101010" class="label">03 · LEAD</text>
+  <text x="1276" y="804" font-size="18" fill="#101010" class="label">DECIDE</text>
+  <text x="1276" y="854" font-size="30" fill="#101010" class="secondary">The lead angle to build first.</text>
+
+  <text x="120" y="1012" font-size="18" fill="#555553" class="label">$750 PREPAID · WITHIN 48 HOURS AFTER PAYMENT + COMPLETE INPUTS</text>
+  <text x="1800" y="1012" font-size="22" fill="#101010" text-anchor="end" class="label">DM ANGLE</text>
+</svg>

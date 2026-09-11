@@ -1,7 +1,7 @@
-# References — Jen Calibration Log
+# References — Format Ladder
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/.claude/worktrees/sweet-chatterjee-785901/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/HOOK-ROOM-11.md, /Users/farricecain/Google Antigravity/.claude/worktrees/sweet-chatterjee-785901/_active/clients/jen-listings/04-deliverables/2026-09-06-engine-v2-weeks-1-2/week-of-2026-09-14/build_hook_surface.py, /Users/farricecain/Google Antigravity/.claude/worktrees/sweet-chatterjee-785901/_active/clients/jen-listings/06-system/PHASES.md, /Users/farricecain/Google Antigravity/.claude/worktrees/sweet-chatterjee-785901/_active/clients/jen-listings/06-system/ENGINE-V2.md, /Users/farricecain/Google Antigravity/.claude/worktrees/sweet-chatterjee-785901/skills/jen-santulan-listing-content/references/jen-calibration-log.md
+**Artifacts:** /Users/farricecain/Google Antigravity/.claude/worktrees/vigorous-neumann-ac815e/execution/eli5_state.py, /Users/farricecain/Google Antigravity/.claude/worktrees/vigorous-neumann-ac815e/skills/eli5/SKILL.md, /Users/farricecain/Google Antigravity/.claude/worktrees/vigorous-neumann-ac815e/skills/eli5/workflows/eli5.md, /Users/farricecain/Google Antigravity/.claude/worktrees/vigorous-neumann-ac815e/skills/eli5/references/output-shape.md, /Users/farricecain/Google Antigravity/.claude/worktrees/vigorous-neumann-ac815e/skills/eli5/references/format-ladder.md
 
 **Retrieve:** `/resume references`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

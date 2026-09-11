@@ -19,6 +19,8 @@ Ours wins on **expert depth in Farrice's own domain**: positioning (Dunford + Pr
 
 The bridge: Scrapes skills read `brand_context/`. We populated it from our canon. So the Scrapes pipelines run on our depth without either side being edited.
 
+The reverse direction, structure we take from them without touching their folders, is ranked in `IMPORT-LIST.md` (2026-09-09). Precedence per skill stays here; that file only says which of their *shapes* our doors adopt. #1 (the run folder is the state: `run.yaml` + `pipeline-log.md`, `execution/run_log.py`) landed the same day.
+
 ## The 36, one row each
 
 | Scrapes skill | Job | Nearest ours | Verdict | Why |

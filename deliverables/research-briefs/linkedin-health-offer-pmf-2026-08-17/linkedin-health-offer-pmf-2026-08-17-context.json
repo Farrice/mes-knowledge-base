@@ -1,0 +1,29 @@
+{
+  "slug": "linkedin-health-offer-pmf-2026-08-17",
+  "title": "this angle-map verdict was invalidated",
+  "compiled": "aug 17, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/linkedin-health-offer-pmf-2026-08-17/linkedin-health-offer-pmf-2026-08-17-brief.html",
+  "brief_md": "deliverables/research-briefs/linkedin-health-offer-pmf-2026-08-17/linkedin-health-offer-pmf-2026-08-17-brief.md",
+  "paths": [
+    {
+      "path": "deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md",
+      "role": "corrected PMF verdict"
+    },
+    {
+      "path": "deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md",
+      "role": "preserved failed example"
+    }
+  ],
+  "urls": []
+}

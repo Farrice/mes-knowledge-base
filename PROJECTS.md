@@ -20,12 +20,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `bowling-anime-trailer` | _active/ | `_active/bowling-anime-trailer/INDEX.md` | 2026-08-24 | active* |
+| `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-12 | active* |
 
 ## Parked
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-08-09 | parked* |
 | `video-studio` | _active/ | `_active/video-studio/INDEX.md` | 2026-08-09 | parked* |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-08-08 | parked* |
 | `wagering` | _active/ | `_active/wagering/INDEX.md` | 2026-08-08 | parked* |
@@ -36,7 +36,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 _none_
 
-**18 projects** — 12 active, 6 parked, 0 done.
+**18 projects** — 13 active, 5 parked, 0 done.
 
 ## Needs judgment
 

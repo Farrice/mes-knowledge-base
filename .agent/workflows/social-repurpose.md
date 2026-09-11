@@ -18,5 +18,7 @@ State the scale in one line: source piece → N platforms (name them), one brand
 5. **Blind bar #3 (until decided)** — when the source is a Parallax edition, also run `/atomize` on the same input and hand Farrice both, unlabeled. Log his tap in `context/learnings.md`.
 6. **Compound** — learnings entry, `chain_runner.py finalize --skill vendor:mkt-content-repurposing --workflow social-repurpose`, handoff on `<brand>-social`.
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=social-repurpose --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Post or schedule. Literal copy across platforms. Drop a verbatim buyer line for a smoother paraphrase. Edit inside `.claude/skills/*`.

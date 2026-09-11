@@ -1,0 +1,25 @@
+{
+  "signal_contract": {
+    "recipient": "creative director",
+    "intended_change": "preserve a deliberately unresolved emotional implication",
+    "source_of_conviction": "the owner wants the audience to complete the thought rather than receive an explanation",
+    "promise": "retain productive ambiguity",
+    "limit": "do not turn ambiguity into an unsupported factual claim",
+    "proof_state": "UNTESTED",
+    "human_owner": "Farrice",
+    "source_path": "owner-approved creative brief",
+    "must_survive": [
+      {
+        "id": "open-meaning",
+        "kind": "creative_meaning",
+        "match_policy": "manual",
+        "markers": ["the reader completes the thought"],
+        "required_in": ["artifact", "playback"]
+      }
+    ]
+  },
+  "artifact_text": "One of those numbers is too low. You already know which one.",
+  "playback_text": "The ending withholds the answer so the reader must locate the problem personally.",
+  "artifact_proof_state": "UNTESTED",
+  "owner_approved_changes": []
+}

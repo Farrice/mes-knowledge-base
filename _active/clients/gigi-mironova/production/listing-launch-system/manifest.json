@@ -1,0 +1,49 @@
+{
+  "concept": "Property Dossier launch system",
+  "assets": {
+    "01-reveal": {
+      "width": 1080,
+      "height": 1350
+    },
+    "02-feature": {
+      "width": 1080,
+      "height": 1350
+    },
+    "03-financial": {
+      "width": 1080,
+      "height": 1350
+    },
+    "04-open-house": {
+      "width": 1080,
+      "height": 1350
+    },
+    "image-standard": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-01": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-02": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-03": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-04": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-05": {
+      "width": 1080,
+      "height": 1350
+    },
+    "gift-06": {
+      "width": 1080,
+      "height": 1350
+    }
+  }
+}

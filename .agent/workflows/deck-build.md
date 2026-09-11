@@ -14,5 +14,7 @@ State the scale in one line: one deck, ~N slides, one brand, PDF yes/no.
 4. **Classifier** — `python3 execution/prose_classifier.py check <outline.md>` on the speaker-facing text.
 5. **Compound** — append under `## 00-slides` in `context/learnings.md`; `chain_runner.py finalize --skill vendor:00-slides --workflow deck-build`; handoff on `<brand>-decks`.
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=deck-build --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Render a readout as a deck. Regenerate a brand's positioning inside a deck. Edit inside `.claude/skills/*`.

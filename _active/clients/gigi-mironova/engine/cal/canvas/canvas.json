@@ -1,0 +1,167 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 1/7",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-02.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 2/7",
+      "x": 1180,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-03.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 3/7",
+      "x": 2360,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-04.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 4/7",
+      "x": 3540,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-05.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 5/7",
+      "x": 4720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-06.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 6/7",
+      "x": 5900,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c01-read-before-you-tour-07.dc.html",
+      "title": "c01-read-before-you-tour \u00b7 7/7",
+      "x": 7080,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-01.dc.html",
+      "title": "c02-five-pages \u00b7 1/7",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-02.dc.html",
+      "title": "c02-five-pages \u00b7 2/7",
+      "x": 1180,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-03.dc.html",
+      "title": "c02-five-pages \u00b7 3/7",
+      "x": 2360,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-04.dc.html",
+      "title": "c02-five-pages \u00b7 4/7",
+      "x": 3540,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-05.dc.html",
+      "title": "c02-five-pages \u00b7 5/7",
+      "x": 4720,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-06.dc.html",
+      "title": "c02-five-pages \u00b7 6/7",
+      "x": 5900,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c02-five-pages-07.dc.html",
+      "title": "c02-five-pages \u00b7 7/7",
+      "x": 7080,
+      "y": 1560,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-01.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 1/6",
+      "x": 0,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-02.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 2/6",
+      "x": 1180,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-03.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 3/6",
+      "x": 2360,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-04.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 4/6",
+      "x": 3540,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-05.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 5/6",
+      "x": 4720,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "c06-sell-with-tenant-06.dc.html",
+      "title": "c06-sell-with-tenant \u00b7 6/6",
+      "x": 5900,
+      "y": 3120,
+      "w": 1080,
+      "h": 1350
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

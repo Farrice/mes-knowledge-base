@@ -245,6 +245,49 @@ def resume_strip():
     return "".join(cards)
 
 
+def jobs_panel():
+    """Manager-loop jobs (2026-09-09): every open job across sessions and harnesses —
+    lanes runnable / blocked-on-him / done, packets waiting. Reads the board, never
+    a second store; silent-clean when nothing is open."""
+    try:
+        import job_board as jb
+        slugs = jb.job_slugs()
+    except Exception as e:
+        return degraded_html("jobs panel unavailable — python3 execution/job_board.py status --all", e), 0, 0
+    if not slugs:
+        return '<div class="empty">no jobs open — /job "&lt;raw ask&gt;" hands one off</div>', 0, 0
+    cards, packets_total = [], 0
+    for slug in slugs:
+        try:
+            j = jb.job_summary(slug)
+        except Exception:
+            continue
+        packets_total += j["packets"]
+        plan_pending = j.get("plan") == "pending"
+        if plan_pending:
+            packets_total += 1  # a plan waiting for his go is a decision for him
+        pill = ('<span class="pill warn">plan waiting for your go</span>' if plan_pending
+                else (f'<span class="pill warn">{j["packets"]} decision(s) for you</span>' if j["packets"]
+                      else (f'<span class="pill ok">{j["runnable"]} lane(s) running</span>' if j["runnable"]
+                            else '<span class="pill muted">waiting</span>')))
+        card_rel = f".agent/missions/{slug}/card.md"
+        # 2026-09-10: the last trace line — what was just done / found / skipped — so he
+        # can see the work without opening a session (job_board.py trace <slug> for all of it)
+        last = (j.get("last") or "").strip()
+        last_html = (f'<p class="last" title="python3 execution/job_board.py trace {esc(slug)}">'
+                     f'↳ {esc(last[:160])}</p>' if last else "")
+        cards.append(
+            f'<div class="mcard"><div class="row1"><h3>{esc(slug)}</h3>{pill}</div>'
+            f'<p class="last">{j["done"]}/{j["lanes"]} lanes done · {j["blocked"]} blocked on you · '
+            f'{j["waiting_deps"]} queued · owners {esc(",".join(j["owners"]) or "—")} · recipe {esc(str(j["recipe"]))}</p>'
+            f'{last_html}'
+            f'<div class="meta"><span class="m">opened {esc(j["opened"] or "—")}</span><span class="acts">'
+            f'<button class="copybtn" type="button" data-copy="python3 execution/job_board.py resume {esc(slug)}">copy resume</button>'
+            f'<a class="actbtn alink" href="{esc((Path(ROOT) / card_rel).as_uri())}" data-repo="/repo/{esc(card_rel)}">card ↗</a>'
+            f'</span></div></div>')
+    return "".join(cards), len(slugs), packets_total
+
+
 def system_counts():
     try:
         h = json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
@@ -481,12 +524,41 @@ def vitals(active_n, needs_n, due_n, threads_promoted, sweep_age):
     live = next((d for d in receipts
                  if d.get("state") == "running" and _receipt_age_min(d) < 35), None)
     deck_s, deck_cls = ("running", "warn") if live else ("idle", "muted")
+
+    # Harness behavior tile: measured calls/turn for the most-active model
+    # (execution/harness_behavior_report.py via .agent/health/latest.json's
+    # harness_behavior key) — crit/warn on a drop vs its 14d baseline, never
+    # a silent gap when the field is missing or came back UNKNOWN.
+    hb_val, hb_label, hb_cls = "UNKNOWN", "harness calls/turn", "muted"
+    try:
+        hb = (json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
+                             encoding="utf-8")).get("harness_behavior") or {})
+        by_model = hb.get("by_model") or {}
+        if hb.get("status") != "UNKNOWN" and by_model:
+            model, stats = max(by_model.items(), key=lambda kv: kv[1].get("turns", 0))
+            cpt = stats.get("calls_per_turn")
+            baseline = (hb.get("baseline_14d") or {}).get(model)
+            hb_val = str(cpt)
+            hb_label = f"{model} · 14d median {baseline if baseline is not None else 'n/a'}"
+            if baseline and baseline > 0:
+                if cpt < 0.7 * baseline:
+                    hb_cls = "crit"
+                elif cpt < 0.85 * baseline:
+                    hb_cls = "warn"
+                else:
+                    hb_cls = "ok"
+            else:
+                hb_cls = "ok"
+    except Exception:
+        pass
+
     tiles = [
         (str(active_n), "missions live", "", None),
         (str(needs_n), "need you", "warn" if needs_n else "ok", "w-needs"),
         (str(due_n), "outcomes due", "warn" if due_n > 20 else "", "outcomes-sec"),
         (str(dark), "routines dark", "crit" if dark else "ok", "w-routines"),
         (deck_s, "deck", deck_cls, "w-deck"),
+        (hb_val, hb_label, hb_cls, None),
         (esc(sweep_age), "sweep age", "", None),
     ]
     out = []
@@ -679,6 +751,7 @@ def micro_apps():
     dual-mode pattern as everywhere else (file:// href + data-route)."""
     apps = [
         ("🧠", "second brain", ".agent/brain/brain.html", "/brain", "workspace graph"),
+        ("🗂", "canvas", ".agent/canvas/canvas.html", "/canvas", "sources → chat, wired"),
         ("🎛", "intelligence", "_active/farrice-brand/intelligence/index.html",
          "/intelligence", "farrice intel layer"),
         ("🏛", "library", ".agent/catalog/library.html", "/library", "permanent catalog"),
@@ -1221,6 +1294,7 @@ def main():
         sys_line = f"{sys_line} · {radar_line}" if sys_line else radar_line
 
     resume_html = resume_strip()
+    jobs_html, jobs_n, jobs_packets = jobs_panel()
     library_uri = Path(ROOT, ".agent", "catalog", "library.html").as_uri()
     intel_uri = Path(ROOT, "_active", "farrice-brand", "intelligence", "index.html").as_uri()
 
@@ -1314,6 +1388,9 @@ def main():
     <section class="widget" data-wid="needs" id="w-needs"><span class="grip" title="drag to reorder">⠿</span>
       <h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>
       <div class="wbody">{needs_html}</div></section>
+    <section class="widget" data-wid="jobs" id="w-jobs"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Jobs — {jobs_n} open · {jobs_packets} decision(s) waiting</h2>
+      <div class="wbody">{jobs_html}</div></section>
     <section class="widget" data-wid="deck" id="w-deck"><span class="grip" title="drag to reorder">⠿</span>
       <h2>Skills deck</h2><div class="wbody">{deck_html}</div></section>
     <section class="widget" data-wid="routines" id="w-routines"><span class="grip" title="drag to reorder">⠿</span>

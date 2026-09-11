@@ -10,7 +10,12 @@
   "footer_left": "ANTIGRAVITY ZEITGEIST",
   "footer_right": "@farricecain",
   "run_cost_usd": 0.158,
-  "stack": ["linkedin-search", "reddit", "threads-search", "twitter"],
+  "stack": [
+    "linkedin-search",
+    "reddit",
+    "threads-search",
+    "twitter"
+  ],
   "category": "zeitgeist",
   "priority": 3,
   "sections": [
@@ -24,11 +29,36 @@
       "kind": "stats",
       "heading": "the pull, honestly",
       "items": [
-        {"value": "41", "unit": "items", "label": "4 LIVE PULLS", "note": "15 of them were mock placeholders"},
-        {"value": "26", "unit": "usable", "label": "63% OF THE PULL", "note": "X contributed zero"},
-        {"value": "14", "unit": "new", "label": "VS. PRIOR 4 DAYS", "note": "8 profiles + 6 threads posts"},
-        {"value": "1", "unit": "same-day", "label": "OF 26 USABLE ITEMS", "note": "one threads post, 13:18Z"},
-        {"value": "1/10", "unit": "on category", "label": "DOWN FROM 3/10", "note": "second straight day of drift"}
+        {
+          "value": "41",
+          "unit": "items",
+          "label": "4 LIVE PULLS",
+          "note": "15 of them were mock placeholders"
+        },
+        {
+          "value": "26",
+          "unit": "usable",
+          "label": "63% OF THE PULL",
+          "note": "X contributed zero"
+        },
+        {
+          "value": "14",
+          "unit": "new",
+          "label": "VS. PRIOR 4 DAYS",
+          "note": "8 profiles + 6 threads posts"
+        },
+        {
+          "value": "1",
+          "unit": "same-day",
+          "label": "OF 26 USABLE ITEMS",
+          "note": "one threads post, 13:18Z"
+        },
+        {
+          "value": "1/10",
+          "unit": "on category",
+          "label": "DOWN FROM 3/10",
+          "note": "second straight day of drift"
+        }
       ]
     },
     {
@@ -155,7 +185,10 @@
       "heading": "what this *isn't*",
       "kicker": "CAVEATS WORTH KEEPING",
       "body": "Ranked by how much weight each part of this brief can carry.\n\nStrongest: the LinkedIn profile text. Ten summaries, quoted directly, eight of them new to this lane. The 1-of-10 count is my read of who sells AI consulting versus who merely surfaced under the term — a reasonable person could score it 2 by counting Goebel's AI platform. The direction across two days is not in dispute; the exact integer is.\n\nWeaker: LinkedIn URLs in this brief are opaque ACwAA-form URNs returned by the scraper. They are what the API gave; I did not open them to confirm they resolve.\n\nWeaker still: everything Reddit. Today's pull is a verbatim ten-of-ten repeat of yesterday's, nine of ten repeat since aug 8. The three-day persistence of the bluffing thread is inferred from repeat retrieval, not from a rank field — the pack carries no upvote or rank data, so \"held a top-ten slot\" means \"was returned again,\" nothing more.\n\nWeakest: Threads. Six items, one written today, the rest ranging from nine months to three weeks old. The search is matching on topic and ignoring recency, which makes any \"right now\" claim from that source unsafe. The guide-versus-build read rests on a single three-week-old post and is labelled UNCONFIRMED.\n\nMissing entirely: X. Fifteen of fifteen items were mock billing placeholders, so this lane ran on three sources today, not four. That actor needs checking before the next run.\n\nAlso true of every engagement figure anywhere in this brief: point-in-time, single-day snapshot, no trend line behind it.",
-      "cta": {"label": "OKAY, SO WRITE THE OPENER", "href": "#deploy-blocks"}
+      "cta": {
+        "label": "OKAY, SO WRITE THE OPENER",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
@@ -183,5 +216,6 @@
       "used_for": "Nothing. All 15 objects were type \"mock_tweet\", id -1, carrying KaitoEasyAPI billing placeholder text. Recorded here so the zero is visible rather than silent.",
       "confidence": "VERIFIED"
     }
-  ]
+  ],
+  "status": "archived"
 }

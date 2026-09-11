@@ -1,0 +1,12 @@
+{
+  "title": "Coach Cooz Photography Library Audit",
+  "artifact_type": "creative_audit",
+  "status": "complete_with_holds",
+  "decision_state": "all_directions_unchosen",
+  "primary_source": "photography-library-audit.md",
+  "visual_evidence": [
+    "generated-photography/existing-library-audit-contact-sheet.jpg",
+    "generated-photography/generated-b-roll-contact-sheet.jpg"
+  ],
+  "external_actions": false
+}

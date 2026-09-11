@@ -39,7 +39,8 @@ or fallback: `python3 execution/pulse_serve.py --open`.
 
 ## Routes (pulse_serve.py)
 
-`/` homebase · `/brain` second-brain graph · `/room` briefs · `/library`
+`/` homebase · `/brain` second-brain graph · `/canvas` sources→chat board
+(`/canvas`, 2026-09-10) · `/room` briefs · `/library`
 catalog · `/assets` asset board · `/oracle` · `/repo/<path>` files. `/pulse`
 and `/missions` are RETIRED (two-surfaces collapse, 2026-08-20) and
 302-redirect here.

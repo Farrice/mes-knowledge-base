@@ -194,6 +194,17 @@ def collect_metrics(deep: bool = False) -> dict:
         # hid the severed import for a full day. A missing consumer is a flag.
         m["session_ledger_error"] = f"{type(e).__name__}: {e}"[:160]
 
+    # Harness behavior (2026-09-09): measured calls/turn, writes/turn, prose
+    # density per model over a 7d window (execution/harness_behavior_report.py)
+    # — same non-swallowing pattern as session_ledger above. A missing db,
+    # unreadable archives, or any other failure degrades to an explicit
+    # UNKNOWN, never a silent zero.
+    try:
+        from harness_behavior_report import summary as _hb_summary
+        m["harness_behavior"] = _hb_summary(days=7)
+    except Exception as e:
+        m["harness_behavior"] = {"status": "UNKNOWN", "reason": f"{type(e).__name__}: {e}"[:160]}
+
     remote_branches = [b for b in _git("branch", "-r", "--format=%(refname:short)").splitlines()
                        if b.strip() and not b.strip().endswith("/HEAD")]
     m["git"] = {
@@ -522,6 +533,15 @@ def evaluate_flags(m: dict, history: list) -> list:
         flag("verifier fleet has no fresh run (>8d or never) — "
              "`python3 execution/verify_fleet.py` on the Sunday train")
 
+    # Harness behavior: pass the report's own flags through (>30% calls/turn
+    # drop vs 14d baseline) so they print with the other ⚑ lines. UNKNOWN
+    # (no db, no readable archives) is silent here — it's a data-gap, not a
+    # behavioral regression to nudge on.
+    hb = m.get("harness_behavior") or {}
+    if hb.get("status") != "UNKNOWN":
+        for f in hb.get("flags", []):
+            flag(f)
+
     # Trend flags need a comparable entry ≥28d old.
     old = next((h for h in history
                 if h.get("date", "9999") <= (datetime.now().date() - timedelta(days=28)).isoformat()
@@ -613,6 +633,20 @@ def _prune():
         p.unlink(missing_ok=True)
 
 
+def _harness_vitals_line(m: dict) -> str:
+    """One line: measured calls/turn for the model with the most turns in
+    the harness_behavior_report window, vs its 14d baseline. None if the
+    snapshot predates this field or the report came back UNKNOWN."""
+    hb = m.get("harness_behavior") or {}
+    by_model = hb.get("by_model") or {}
+    if hb.get("status") == "UNKNOWN" or not by_model:
+        return None
+    model, stats = max(by_model.items(), key=lambda kv: kv[1].get("turns", 0))
+    baseline = (hb.get("baseline_14d") or {}).get(model)
+    baseline_s = baseline if baseline is not None else "n/a"
+    return f"harness: {model} calls/turn {stats.get('calls_per_turn')} (14d median {baseline_s})"
+
+
 def cmd_flags() -> int:
     try:
         m = json.loads(LATEST.read_text())
@@ -622,6 +656,9 @@ def cmd_flags() -> int:
     age_h = (datetime.now() - datetime.fromisoformat(m["ts"])).total_seconds() / 3600
     print(f"System Vitals — snapshot {m['date']} ({age_h:.0f}h old)"
           + (" [DEEP]" if m.get("deep") else ""))
+    hv = _harness_vitals_line(m)
+    if hv:
+        print(f"  {hv}")
     if not m.get("flags"):
         print("  ✅ all green")
     for fl in m.get("flags", []):

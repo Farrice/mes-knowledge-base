@@ -6,6 +6,9 @@ GET  /            Pulse board          — regenerated on every hit
 GET  /room        Briefing Room
 GET  /missions    Mission Control
 GET  /oracle      Oracle
+GET  /canvas[/<slug>[.json]]
+                  Canvas — Poppy-style whiteboard of source/chat nodes
+                  (2026-09-10); .json returns the raw board for live refresh
 GET  /repo/<repo-relative-path>
                   Any file inside the repo, ROOT-jailed. This is what makes the
                   boards actually navigable: brief pages, thumbnails, md mirrors
@@ -51,7 +54,12 @@ ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
 LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
 BRAIN = os.path.join(ROOT, ".agent", "brain", "brain.html")
 INTEL = os.path.join(ROOT, "_active", "farrice-brand", "intelligence", "index.html")
-PY = sys.executable or "python3"
+CANVAS_BOARDS = os.path.join(ROOT, ".agent", "canvas", "boards")
+_VENV_PY = os.path.join(ROOT, ".venv", "bin", "python3")
+# Detached canvas jobs (ingest, chat) need the repo venv (yt-dlp, trafilatura,
+# pypdf, youtube-transcript-api). launchd starts this server with the system
+# python, which has none of them — article/PDF cards died silently (2026-09-10).
+PY = _VENV_PY if os.path.exists(_VENV_PY) else (sys.executable or "python3")
 
 LAST_HIT = time.time()
 
@@ -122,10 +130,25 @@ def _mtime(p):
         return 0
 
 
+def _canvas_mtime():
+    """Newest board file — the signal the canvas page polls so a reply written
+    by a detached `claude -p` run appears without a manual refresh."""
+    try:
+        return max((e.stat().st_mtime for e in os.scandir(CANVAS_BOARDS)
+                    if e.is_file() and e.name.endswith(".json")), default=0)
+    except OSError:
+        return 0
+
+
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
            "thread-archive", "open-path", "brief-archive", "brief-unarchive",
            "oracle-closes", "oracle-gate", "oracle-note", "refresh", "kill",
-           "run_skill"}
+           "run_skill",
+           # canvas (2026-09-10): cheap mutations run in-process; ingestion and
+           # chat turns spawn detached, same pattern as run_skill
+           "canvas.new_board", "canvas.add_source", "canvas.add_chat", "canvas.add_note",
+           "canvas.edge", "canvas.unedge", "canvas.move", "canvas.delete", "canvas.model",
+           "canvas.edit", "canvas.run_chat", "canvas.convo", "canvas.add_profile", "canvas.board_title", "canvas.add_voice"}
 
 
 def _run_skill(args):
@@ -195,7 +218,125 @@ def _open_path(uri):
     return True
 
 
+def _canvas_action(action, args):
+    """Board mutations. Slug and node ids are validated by canvas_board (regex
+    slug, lookup-by-id); the POST payload is never used as a path or a shell
+    argument. Long jobs (ingest, chat) run detached so the POST returns at once
+    and the page picks the result up via /ping canvas_mtime."""
+    sys.path.insert(0, os.path.join(ROOT, "execution"))
+    import canvas_board as cb
+    op = action.split(".", 1)[1]
+    slug = str(args.get("slug") or "")
+    cb_py = os.path.join(ROOT, "execution", "canvas_board.py")
+
+    def spawn(*argv):
+        subprocess.Popen([PY, cb_py] + list(argv), stdout=subprocess.DEVNULL,
+                         stderr=subprocess.DEVNULL, start_new_session=True, cwd=ROOT)
+
+    def num(k, d):
+        try:
+            return float(args.get(k, d))
+        except (TypeError, ValueError):
+            return d
+    try:
+        if op == "new_board":
+            cb.load(slug, create=True)
+            return {"ok": True, "slug": slug}
+        board = cb.load(slug)
+        nid = str(args.get("id") or "")
+        if op == "board_title":
+            board["title"] = str(args.get("title") or board.get("title") or slug)[:120]
+            cb.save(board)
+            return {"ok": True, "title": board["title"]}
+        if op == "add_source":
+            src = str(args.get("source") or "").strip()
+            if not src:
+                return {"ok": False, "error": "empty source"}
+            n = cb.add_pending_source(board, src, num("x", 40), num("y", 40))
+            cb.save(board)
+            spawn("fill", slug, n["id"])
+            return {"ok": True, "node": n}
+        if op == "add_chat":
+            model = str(args.get("model") or cb.DEFAULT_MODEL)
+            n = cb.add_chat(board, num("x", 420), num("y", 40), model)
+            cb.save(board)
+            return {"ok": True, "node": n}
+        if op == "add_note":
+            n = cb.add_note(board, str(args.get("text") or ""), num("x", 40), num("y", 260))
+            cb.save(board)
+            return {"ok": True, "node": n}
+        if op == "add_profile":
+            url = str(args.get("source") or "").strip()
+            if not url.startswith("http"):
+                return {"ok": False, "error": "paste a YouTube channel or TikTok profile URL"}
+            try:
+                n = cb.add_profile(board, url, num("x", 40), num("y", 40), int(num("limit", 10)))
+            except (RuntimeError, subprocess.TimeoutExpired) as e:
+                return {"ok": False, "error": f"profile listing failed: {str(e)[-200:]}"}
+            cb.save(board)
+            return {"ok": True, "node": n}
+        if op == "convo":
+            c = cb.convo_op(board, nid, str(args.get("op") or "switch"), str(args.get("cid") or ""),
+                            args.get("title"))
+            cb.save(board)
+            return {"ok": True, "active": c["id"], "node": cb._node(board, nid)}
+        if op == "edge":
+            ok = cb.add_edge(board, str(args.get("from") or ""), str(args.get("to") or ""))
+            cb.save(board)
+            return {"ok": ok, "error": None if ok else "that wire would make a loop"}
+        if op == "unedge":
+            cb.remove_edge(board, str(args.get("from") or ""), str(args.get("to") or ""))
+            cb.save(board)
+            return {"ok": True}
+        if op == "move":
+            cb.move(board, nid, args.get("x"), args.get("y"), args.get("w"), args.get("h"))
+            cb.save(board)
+            return {"ok": True}
+        if op == "delete":
+            cb.remove_node(board, nid)
+            cb.save(board)
+            return {"ok": True}
+        if op == "model":
+            research = args.get("research")
+            voice = args.get("voice")
+            n = cb.set_model(board, nid, args.get("model") or None, args.get("effort") or None,
+                             research=None if research is None else bool(research),
+                             voice=None if voice is None else str(voice))
+            cb.save(board)
+            return {"ok": True, "model": n["model"], "effort": n["effort"], "research": bool(n.get("research")),
+                    "voice": n.get("voice") or ""}
+        if op == "add_voice":
+            try:
+                v = cb.add_voice(str(args.get("key") or args.get("title") or ""), str(args.get("title") or ""),
+                                 str(args.get("text") or ""))
+            except (ValueError, OSError) as e:
+                return {"ok": False, "error": str(e)[:200]}
+            return {"ok": True, "voice": v, "voices": cb.list_voices()}
+        if op == "edit":
+            cb.edit_text(board, nid, args.get("text"), args.get("title"))
+            cb.save(board)
+            return {"ok": True}
+        if op == "run_chat":
+            prompt = str(args.get("prompt") or "").strip()
+            n = cb._node(board, nid)
+            if n.get("type") != "chat":
+                return {"ok": False, "error": "not a chat node"}
+            if not prompt:
+                return {"ok": False, "error": "empty prompt"}
+            if n.get("status") == "running":
+                return {"ok": False, "error": "already thinking"}
+            n["status"] = "running"
+            cb.save(board)
+            spawn("run", slug, nid, prompt)
+            return {"ok": True}
+        return {"ok": False, "error": "unknown canvas op"}
+    except (KeyError, ValueError, FileNotFoundError) as e:
+        return {"ok": False, "error": str(e)[:200]}
+
+
 def dispatch(action, args):
+    if action.startswith("canvas."):
+        return _canvas_action(action, args)
     if action == "open-path":
         return _open_path(args.get("uri", ""))
     if action == "refresh":
@@ -290,6 +431,36 @@ class Handler(BaseHTTPRequestHandler):
             self._send(500, f"{label} missing: {e} — try: python3 execution/"
                             f"{ {'missions': 'mission_board.py'}.get(which, 'pulse_dashboard.py') }")
 
+    def _serve_canvas(self, route):
+        """/canvas → newest board · /canvas/<slug> → that board ·
+        /canvas/<slug>.json → raw board (the page's live-refresh source).
+        Only `demo` is created on GET; other boards come from canvas.new_board."""
+        sys.path.insert(0, os.path.join(ROOT, "execution"))
+        import canvas_board as cb
+        import canvas_render as cr
+        rest = urllib.parse.unquote(route[len("/canvas"):]).strip("/")
+        want_json = rest.endswith(".json")
+        slug = rest[:-5] if want_json else rest
+        if not slug:
+            boards = cb.list_boards()
+            slug = boards[0]["slug"] if boards else "demo"
+        if not cb.SLUG_RE.match(slug):
+            self._send(404, "bad board slug", "text/plain; charset=utf-8")
+            return
+        if not cb.board_path(slug).exists():
+            if slug == "demo":
+                cb.demo()
+            else:
+                self._send(404, f"no board: {slug}", "text/plain; charset=utf-8")
+                return
+        if want_json:
+            self._send(200, json.dumps(cb.load(slug)), "application/json")
+            return
+        try:
+            self._send(200, cr.render(slug))
+        except Exception as e:
+            self._send(500, f"canvas render failed: {e}", "text/plain; charset=utf-8")
+
     def do_GET(self):
         self._touch()
         if not self._same_origin():
@@ -311,7 +482,8 @@ class Handler(BaseHTTPRequestHandler):
                                         "assets_mtime": _mtime(ASSETS),
                                         "library_mtime": _mtime(LIBRARY),
                                         "brain_mtime": _mtime(BRAIN),
-                                        "intel_mtime": _mtime(INTEL)}), "application/json")
+                                        "intel_mtime": _mtime(INTEL),
+                                        "canvas_mtime": _canvas_mtime()}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -334,6 +506,9 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/intelligence"):
             self._serve_board("intelligence", INTEL, "intelligence layer")
             return
+        if route == "/canvas" or route.startswith("/canvas/"):
+            self._serve_canvas(route)
+            return
         if route.startswith(("/pulse", "/missions")):
             # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
             # memory and old links land on the Homebase instead of a 404.
@@ -345,7 +520,7 @@ class Handler(BaseHTTPRequestHandler):
         if route in HOME_PATHS:
             self._serve_board("homebase", HOMEBASE, "homebase")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /brain · /intelligence · /room · /library · /assets · /oracle · /repo/<path>",
+        self._send(404, f"no route: {route}\n\ntry / · /brain · /canvas · /intelligence · /room · /library · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):

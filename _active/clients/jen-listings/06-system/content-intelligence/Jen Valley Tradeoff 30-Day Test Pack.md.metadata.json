@@ -1,0 +1,20 @@
+{
+  "artifact_type": "content_playbook",
+  "title": "Jen Valley Tradeoff 30-Day Test Pack",
+  "client": "Jennifer Santulan",
+  "created_at": "2026-09-09T00:00:00-07:00",
+  "updated_at": "2026-09-09T00:00:00-07:00",
+  "post_count": 10,
+  "primary_icp": "Valley Tradeoff Buyer",
+  "format_system": "four_repeatable_formats",
+  "owner": "Jun + Kallaway",
+  "status": "ready_to_deploy",
+  "tested": false,
+  "measurement_gates": [
+    "8-12_DMs_per_post",
+    "3x_consultation_conversion_vs_average",
+    "signed_client_attribution_90day"
+  ],
+  "commercial_event": "NO EVENT",
+  "paid_cost_usd": 0.0
+}

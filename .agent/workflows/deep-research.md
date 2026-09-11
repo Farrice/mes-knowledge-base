@@ -10,9 +10,15 @@ description: Deep Research
 > explicitly requests this legacy provider-backed mode and separately
 > authorizes its cost and real-subagent boundaries.
 
-Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity sonar-deep-research (fallback)** as the foundation layer, 3 parallel specialist agents (Pattern Hunter, Psychology Miner, Contrarian Scout) to deepen each angle grounded in real data, synthesis with contradiction resolution, adversarial challenge round, and a McKinsey-grade Strategic Intelligence Report.
+This document is historical implementation guidance, not the active provider
+router. `/deep-research-os` now owns `auto`, `codex-native`, `gemini`,
+`benchmark-import`, and `ensemble`. Generic research never activates this
+Gemini/Perplexity/subagent stack; provider calls and real subagents each retain
+their explicit approval and cost gates.
 
-**Foundation backend (as of 2026-06-01 — Unified Research Engine)**: This workflow now invokes **`execution/research.py`** as the single foundation call. The engine runs **Gemini-first → Perplexity → Claude bedrock floor** internally, logs cost honestly (failed/empty calls cost $0 and never burn budget), and returns a **Research Receipt** showing exactly which engine served the foundation, what failed, what depth was achieved, and what it cost. The bedrock floor (WebSearch + WebFetch + Tavily) means this workflow **cannot break** — if both accelerators fail, the native floor catches it and the receipt says so. **Every report must lead with the Research Receipt** so the reader knows the grounding depth before trusting it.
+Deploy the legacy stack only after that explicit escalation. Its historical Gemini-first/Perplexity-fallback language below must not be interpreted as automatic runtime behavior.
+
+**Current backend authority (2026-08-17):** `execution/research.py run --mode auto` resolves to Codex-native. Explicit Gemini mode is one standard call only after billing/cost gates; it has no paid retry or provider fallback. A provider interaction that starts may be billable even if its report is invalid. Every report still carries a Research Receipt.
 
 **The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself is the unfair advantage. Every decision downstream (product, pricing, positioning, copy) should have a high likelihood of success because the foundation is grounded in truth.
 
@@ -44,17 +50,16 @@ Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity s
 
 ## Steps
 
-### Step 0 — Budget Gate (handled by the engine)
+### Step 0 — Budget Gate (active owner: `/deep-research-os`)
 
-**You no longer hand-gate budget here.** The unified engine (`execution/research.py`,
-Step 2) does Gemini-first → Perplexity → free bedrock floor internally, each gated on
-its own budget. Gemini is $0 under Ultra; Perplexity fires only if Gemini fails AND
-budget ≥ $0.50; the floor is always free. A failed/empty accelerator costs **$0** and
-is recorded as a failure — never as spend. The Research Receipt reports the actual path.
+The active engine does not run this historical fallback chain. Select one
+explicit mode through `/deep-research-os`. Gemini API billing is separate unless
+proven otherwise; a failed or invalid report after interaction start may still
+create provider exposure. No paid retry or fallback is allowed in the parity run.
 
-There is **no "both budgets exhausted → can't research" state** anymore: the bedrock
-floor (WebSearch + WebFetch + Tavily) is always available at $0, so research always
-returns a real, sourced result or an honest FAILED — it never silently produces nothing.
+Codex-native remains available at $0 provider API spend. If provider access is
+blocked, the candidate may still complete, but the provider comparison remains
+partial rather than inheriting a weaker parity standard.
 
 ### Step 1 — Scope & Deploy Plan
 
@@ -102,21 +107,17 @@ Wait for user approval.
 
 ### Step 2 — Deep Research Foundation (Unified Engine)
 
-**For `deep`/`max` depth, the PRIMARY is the native expert SWARM** — run the Workflow tool
-with `.agent/workflows/deep-research-swarm.workflow.js` and `args: {query, depth}`. It
-decomposes → casts world-class expert personas (Alen Sultanic / April Dunford / McRaney /
-Harry Dry / …) → fans out 10-12 (deep) or up to ~36 (max) parallel subagents → gap-fill loop
-→ adversarial verify → synthesizes collective insight, **$0 incremental**, with Gemini Deep
-Research merging in parallel. It returns the honest Research Receipt + the cited brief.
+For all depths, the active primary is the Codex-native loop: decompose, gather
+opened pages, close gaps, seek counterevidence, verify citations, resolve
+authority, and synthesize. Real subagents remain explicit-approval only.
 
-For `quick`/`standard` (or a fast single call), use the dispatcher directly — Gemini-first →
-Perplexity → bedrock floor, same receipt:
+Use the dispatcher directly:
 
 ```bash
-cd "/Users/farricecain/Google Antigravity" && python3 execution/research.py "[FOUNDATION QUERY]" --depth standard --task-context "deep-research"
+cd "/Users/farricecain/Google Antigravity" && python3 execution/research.py run --mode codex-native --query "[FOUNDATION QUERY]" --depth standard --max-total-provider-spend 10
 ```
 
-- Use `--depth max` for maximum comprehensiveness (Gemini Deep Research Max when available).
+- Gemini Max is excluded from the $10 parity bakeoff.
 - The printed **Research Receipt** tells you which engine served the foundation
   (`gemini_deep` / `perplexity` / `native`), the status (`REAL` / `DEGRADED` / `FAILED`),
   provenance %, and `$` cost. **Copy the receipt verbatim into the top of the final report.**
@@ -416,8 +417,8 @@ research_outputs/
 ## Error Handling
 
 - **1 agent fails**: Synthesize from 2 agents + foundation. Note the gap in the report.
-- **Perplexity query fails**: Fall back to `sonar-pro` for that query. If all Perplexity fails, degrade to `/research-sprint`.
-- **Budget exhausted mid-run**: Complete with whatever foundation data was gathered. Note in report: "Partial deep research — [N] of 3 Perplexity queries completed."
+- **Provider query fails**: Record the stop reason. Do not retry or activate another paid provider.
+- **Budget or billing gate fails**: Continue with Codex-native evidence only and label the provider comparison partial.
 - **All agents return low-confidence results**: Flag in the report. Recommend follow-up research with specific questions to investigate.
 
 ---
@@ -426,13 +427,11 @@ research_outputs/
 
 | Component | Cost | Time |
 |-----------|------|------|
-| Gemini Deep Research (Ultra quota) | $0 | 5-15 minutes |
-| Perplexity (DEAD — never propose paid credits) | n/a | n/a |
-| 3 Parallel Agents (`search_web` + `read_url_content`) | Free | 2-5 minutes |
+| Codex-native Deep Research | $0 provider API spend | 15-40 minutes |
+| Gemini Deep Research standard API | Typically $1-$3; hard ceiling must be verified | Provider-managed |
+| Real subagents | Not used unless separately approved | n/a |
 | Synthesis + Adversarial | Free | 1-2 minutes |
-| **Total** | **$0.50-0.75** | **4-8 minutes** |
-
-At $30/month budget = **40-60 deep research runs per month**.
+| **Default total** | **$0 provider API spend** | **15-40 minutes** |
 
 ---
 

@@ -26,6 +26,7 @@ session. Wired via .claude/settings.json.
 """
 
 import json
+import subprocess
 import os
 import re
 import sys
@@ -457,17 +458,56 @@ def _cc_feedback(prompt: str, stems: dict) -> bool:
 
 
 _CC_MODE_OVERRIDE_RE = re.compile(
-    r"\bmode (build-new|refine-existing|ideate|decide|capture)\b", re.I)
+    r"\bmode (build-new|refine-existing|ideate|decide|capture|job-handoff)\b", re.I)
+
+
+# ── Job-shaped handoff detector (2026-09-09, Nate B Jones manager loop) ──
+# Fires on the ask that is bigger than a prompt: a delegation verb + breadth
+# (several deliverables, several systems, or a sequence). The card it emits is
+# the brief — the manager loop runs until job_board.py says MAY END. Scar:
+# 54 open missions, oldest 41d, compiled by /go and never driven. Deterministic,
+# nudge-not-cage; `mode job-handoff` forces it, feedback turns never reach it.
+_JOB_VERB_RE = re.compile(
+    r"\b(handle|take care of|own (this|it)|run (this|it|the whole|the entire)|"
+    r"end.to.end|soup to nuts|from start to finish|see it through|"
+    r"until (it'?s |it is )?done|get (this|it|all of (this|it)) done|make (this|it) happen|"
+    r"hand(ing)? (this|it|that) (off|over)|hands.off|manage (it|this|yourself)|"
+    r"go (out|off) and|cover (all|every) (the )?gaps?|take (this|it) (from here|over)|"
+    r"set (you|fable|astra|codex) (off|loose) on)\b")
+_JOB_SYSTEM_RE = re.compile(
+    r"\b(linkedin|substack|notion|gmail|email|calendar|shopify|github|codex|claude code|"
+    r"website|drive|stripe|canva|instagram|youtube|dropbox|airtable|slack|harness|"
+    r"the repo|worktree|homebase)\b")
+_JOB_SEQ_RE = re.compile(
+    r"\b(then|after that|once .{0,40}?(done|ready|approved)|finally|first .{0,60}? then|"
+    r"step (one|two|1|2)|phase (one|two|1|2))\b")
+
+
+def _job_shaped(pl: str) -> bool:
+    """A job-shaped ask: ≥200 chars, a delegation verb, and breadth ≥2 of
+    {≥2 deliverable words, ≥2 systems, ≥2 sequence markers}. Never fires on a
+    bare `run <workflow>`."""
+    if len(pl) < 200 or re.match(r"^\s*run \S+\s*$", pl):
+        return False
+    if not _JOB_VERB_RE.search(pl):
+        return False
+    deliverables = {m.group(0) for m in _DELIVERABLE_RE.finditer(pl)}
+    systems = {m.group(0) for m in _JOB_SYSTEM_RE.finditer(pl)}
+    seq = _JOB_SEQ_RE.findall(pl)
+    breadth = (len(deliverables) >= 2) + (len(systems) >= 2) + (len(seq) >= 2)
+    return breadth >= 2
 
 
 def _cc_work_mode(prompt: str, is_feedback: bool):
-    """BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
+    """JOB-HANDOFF | BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
     pl = prompt.lower().strip()
     m = _CC_MODE_OVERRIDE_RE.search(pl)
     if m:
         return m.group(1).upper()
     if is_feedback:
         return "REFINE-EXISTING"
+    if _job_shaped(pl):
+        return "JOB-HANDOFF"
     if re.search(r"\b(should (i|we)|which (one|of these|way|take)|pick (one|a|the)|"
                  r"choose|decide|gut.?check|or should)\b", pl):
         return "DECIDE"
@@ -476,10 +516,28 @@ def _cc_work_mode(prompt: str, is_feedback: bool):
         return "IDEATE"
     if _DELIVERABLE_RE.search(pl):
         return "BUILD-NEW"
+    # 2026-09-09 scar (Madison/DSC session on Codex): a long approval of a
+    # brief ("This does match the scope and brief… I want to send them
+    # something now") classified as CAPTURE, and Astra obeyed the card to
+    # the letter — ran thought_bank capture, replied "Captured verbatim",
+    # did nothing. An approval, a go, or a stated want is an instruction to
+    # act, never a dump. Those words route to BUILD-NEW; CAPTURE keeps only
+    # the genuine reflective dump.
+    if _CC_APPROVAL_RE.search(pl):
+        return "BUILD-NEW"
     if len(pl) > 400 and "?" not in pl and not re.search(
             r"\b(can you|please|need you|help me)\b", pl):
         return "CAPTURE"
     return None
+
+
+# Strong approval / go signals only — a reflective dump can say "make it
+# smaller" or "I want to be visible"; those are not instructions to act.
+_CC_APPROVAL_RE = re.compile(
+    r"(\bmatch(es)? the (scope|brief)\b|\bapproved\b|\bgo ahead\b|\bproceed\b|"
+    r"\bexecute\b|\bship it\b|\bjust do it\b|\blet'?s (go|do this|build|send|start)\b|"
+    r"\b(i|we) want (you|us) to\b|\bi want to send\b|\bthis is it[.!]|"
+    r"\bperfect[.!]|^yes[.!,]|\byes,? (do|go|send|build)\b)")
 
 
 # Amnesty 2026-07-29: cards compressed to one line each (LEAN ruling). The
@@ -504,6 +562,39 @@ _CC_MODE_CARDS = {
         "ONE line, no unpacking unless asked."),
 }
 
+
+# JOB-HANDOFF cards — one per harness (Astra follows cards literally, 2026-09-09
+# scar: a Claude-shaped "dispatch an executor" line becomes a full stop on Codex).
+_JOB_CARDS = {
+    "claude": (
+        "Job-shaped ask → /job (Nate manager loop): match a recipe "
+        "(python3 execution/recipe_cards.py match \"<ask>\") — a WEAK MATCH means forge a "
+        "card from the workflows that already run the job, never run the matched card's "
+        "lanes; interview ONCE (batched, ≤5 questions, disk-first, only what changes "
+        "execution); python3 execution/job_board.py open — it prints a JOB PLAN; THE OPENING "
+        "TURN'S REPLY IS THAT PLAN (goal, lanes as what-I'll-do, questions, approvals) and "
+        "the turn ends there; lanes start next turn after `job_board.py go <slug>` records "
+        "his nod (`open --go` only when he said 'just do it'). Then run the manager loop — "
+        "keep every unblocked lane moving (writes = you, serial; read-only lanes = "
+        "background Sonnet seats carrying the negative brief), close every lane with "
+        "`lane … --status --did \"what was done / found / skipped\" --evidence` and ECHO its "
+        "LANE RECEIPT line in the reply, batch questions into DECISION PACKETS "
+        "(job_board.py packet add), and END THE TURN ONLY when `job_board.py next` prints "
+        "MAY END. Deliver plan → receipts → packets, never bare status. This card IS the "
+        "brief — no separate brief card, no fresh-pen dispatch."),
+    "codex": (
+        "Job-shaped ask → /job (Nate manager loop; single seat): match a recipe "
+        "(python3 execution/recipe_cards.py match) — WEAK MATCH = forge a card, never run "
+        "the matched card's lanes; interview ONCE (batched, ≤5, disk-first); python3 "
+        "execution/job_board.py open — it prints a JOB PLAN; REPLY WITH THAT PLAN AND END "
+        "THE TURN (lanes start only after `job_board.py go <slug>` records his nod; "
+        "`open --go` only when he said 'just do it'). After go: run the lanes IN ORDER OF "
+        "READINESS IN THIS TURN — a lane that ends in a diagnosis is not done: build it, or "
+        "mark it `--status blocked --blocker \"<decision needed>\"` with a DECISION PACKET; "
+        "close every lane with `--did \"what was done / found / skipped\" --evidence` and "
+        "ECHO its LANE RECEIPT line; end the turn only when `job_board.py next` prints MAY "
+        "END, closing with the packets + receipts. This card IS the brief."),
+}
 
 # ── Universal Intent Mirror (Farrice ruling 2026-08-02: "Mirror + one push-back") ──
 # Every raw/word-vomit ask, ANY domain, gets a ≤5-line "what I heard" card plus
@@ -549,8 +640,18 @@ def _mirror_block(prompt: str, mode) -> str:
     REFINE-EXISTING (its card already mandates restating his verdicts —
     that IS the mirror for feedback turns).
     """
-    if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING"):
+    if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING", "JOB-HANDOFF"):
         return ""
+    # 2026-09-09 (Madison/DSC scar, Codex): when he has CONFIRMED a brief
+    # ("this does match the scope and brief… execute"), the confirm beat is
+    # over. Re-issuing the INTENT BRIEF card here told Astra to compile
+    # another brief and wait — the echo he saw. Approval = execute now.
+    if _CC_APPROVAL_RE.search(prompt.lower()):
+        return (
+            "✅ BRIEF CONFIRMED (his words): the confirm beat is done. Execute "
+            "the brief in THIS turn — no new brief, no re-mirror beyond one "
+            "line, no capture. Fold any refinement he added into the work and "
+            "end with the artifact path + receipts.")
     if _mirror_signals(prompt) >= 2:
         # Upgraded 2026-08-20 (Farrice, approved plan "Intent Brief Default"):
         # raw intent → compiled brief → his confirm → fresh-context execution.
@@ -563,13 +664,19 @@ def _mirror_block(prompt: str, mode) -> str:
             "Taste bar (voice/register rules in play) · Pen seat (Executor "
             "Registry) · Open questions (ONLY ones that change execution) — "
             "and present it for confirm/edit, plus ONE senior-partner "
-            "push-back if a real fork is live. On his confirm or edit: "
-            "artifact-shaped work dispatches to ONE fresh-context executor "
-            "carrying \"no Chain, no finalize, no Notion, no Next Moves, "
-            "return only the artifact\"; he iterates on the FINAL product — "
-            "rejection = fix the brief, dispatch fresh, never iterate "
-            "in-thread. \"Just do it\" = skip the confirm beat, never the "
-            "fresh dispatch.")
+            "push-back if a real fork is live. "
+            + ("On his confirm or edit: execute the brief YOURSELF in the "
+               "next turn, in full, to a file (Codex: no executor dispatch, "
+               "no subagent you wait on); he iterates on the FINAL product — "
+               "rejection = fix the brief, rewrite from it. \"Just do it\" = "
+               "skip the confirm beat."
+               if _CODEX else
+               "On his confirm or edit: artifact-shaped work dispatches to "
+               "ONE fresh-context executor carrying \"no Chain, no finalize, "
+               "no Notion, no Next Moves, return only the artifact\"; he "
+               "iterates on the FINAL product — rejection = fix the brief, "
+               "dispatch fresh, never iterate in-thread. \"Just do it\" = "
+               "skip the confirm beat, never the fresh dispatch."))
     return (
         "🪞 INTENT MIRROR (universal — every substantive ask): open the reply "
         "with a 1-3 line mirror of what you're reading — deliverable · "
@@ -616,6 +723,8 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     mode = _cc_work_mode(prompt, is_feedback)
     if mode:
         card = _CC_MODE_CARDS.get(mode) or ""
+        if mode == "JOB-HANDOFF":
+            card = _JOB_CARDS["codex" if _CODEX else "claude"]
         lines.append(f"MODE {mode} (say 'mode X' to override): {card}".rstrip())
 
     mirror = _mirror_block(prompt, mode)
@@ -630,16 +739,23 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
             hot = (n >= 5 or rej >= 3)
             prefix = ("ESCALATION — this loop has already burned "
                       f"{n} renditions. " if hot else "")
+            moves = (
+                "(a) fresh crack from SOURCE INPUT with a different "
+                "architecture, (b) ONE question to Farrice on the fork, (c) "
+                "present existing takes for a pick, (d) restart from the "
+                "source in a clean thread with the brief rewritten (2 "
+                "rejections on taste work = the brief is the problem)."
+                if _CODEX else
+                "(a) fresh crack from SOURCE INPUT with a different "
+                "architecture, (b) ONE AskUserQuestion gut-check on the fork, "
+                "(c) present existing takes for a pick, (d) /fresh-pen — "
+                "compile a run packet and move the mission to a clean session "
+                "(2 rejections on taste work = the pen is the problem).")
             lines.append(
                 f"🛑 SPIRAL BRAKE (deterministic): '{s}' is at rendition {n} "
                 f"with {rej} rejected take(s) this session. {prefix}Do NOT "
-                "produce another variant. Allowed moves: (a) fresh crack from "
-                "SOURCE INPUT with a different architecture, (b) ONE "
-                "AskUserQuestion gut-check on the fork, (c) present existing "
-                "takes for a pick, (d) /fresh-pen — compile a run packet and "
-                "move the mission to a clean session (2 rejections on taste "
-                "work = the pen is the problem). Name the rendition count to "
-                "Farrice out loud.")
+                f"produce another variant. Allowed moves: {moves} Name the "
+                "rendition count to Farrice out loud.")
             if hot:
                 _append_observe({
                     "ts": _now_iso_utc(), "session_id": session_id,
@@ -712,7 +828,12 @@ def _cc_stop_observe(session_id: str, raw: str, exchange: int) -> None:
 # ──────────────────────────────────────────────────────────────────
 # prompt (UserPromptSubmit)
 # ──────────────────────────────────────────────────────────────────
+_CODEX = False  # set per prompt by handle_prompt; card text adapts to the harness
+
+
 def handle_prompt(payload: dict) -> None:
+    global _CODEX
+    _CODEX = _under_codex(payload)
     session_id = payload.get("session_id") or "unknown"
     prompt = payload.get("prompt") or ""
 
@@ -764,11 +885,20 @@ def handle_prompt(payload: dict) -> None:
         # switch (previously CO_CREATION_OFF re-enabled this longer block —
         # the off switch ADDED words; the trap is fixed here).
         if (_taste or _foggy) and not _execute and not cc_block and not _cc_off():
-            co_creation = (
-                "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
-                "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
-                "ask ONE question past his frame before producing; two rejected "
-                "takes = back to source input. 'Just do it' = EXECUTE dial.\n")
+            if _CODEX:
+                # Astra already over-asks (OpenAI's Astra guide); a question
+                # gate before producing turns into a clarification stall.
+                co_creation = (
+                    "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
+                    "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
+                    "state the ONE assumption that matters in a line, then produce; "
+                    "two rejected takes = back to source input.\n")
+            else:
+                co_creation = (
+                    "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
+                    "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
+                    "ask ONE question past his frame before producing; two rejected "
+                    "takes = back to source input. 'Just do it' = EXECUTE dial.\n")
     except Exception:
         co_creation = ""
 
@@ -782,7 +912,24 @@ def handle_prompt(payload: dict) -> None:
     try:
         # Suppress when the INTENT BRIEF card already fired this prompt —
         # that card carries the same dispatch rule (approved plan 2026-08-20).
-        if "INTENT BRIEF" not in cc_block:
+        if _CODEX and "INTENT BRIEF" not in cc_block and "MODE JOB-HANDOFF" not in cc_block and _CC_APPROVAL_RE.search(prompt.lower()) is None:
+            # Codex has no Opus/Sonnet executor seat. The Claude FRESH PEN
+            # card ("never produce in-thread, dispatch an executor") made
+            # Astra spawn a subagent and wait_agent-timeout twice (Madison/
+            # DSC, 2026-09-09). On Codex the model IS the pen.
+            _pl = prompt.lower()
+            if re.search(
+                r"\b(write|draft|ghostwrite|rewrite|revise|produce|generate|"
+                r"build)\b.{0,60}\b(post|copy|email|edition|newsletter|caption|"
+                r"script|headline|hook|bio|carousel|about section|sales page|"
+                r"landing|opener|thread|article|essay|brief|report|analysis|"
+                r"doc|deck|page|plan|extraction|one.?pager|proposal)\b", _pl):
+                fresh_pen = (
+                    "PEN (Codex): you are the pen. Write the artifact yourself in "
+                    "THIS turn, to a file; no executor dispatch, no subagent you "
+                    "then wait on. A subagent only for independent research you "
+                    "do not block on.\n")
+        elif "INTENT BRIEF" not in cc_block and "MODE JOB-HANDOFF" not in cc_block:
             _pl = prompt.lower()
             _pen_execute = re.search(
                 r"\b(just do it|just run|go ahead|proceed|ship it|no questions|"
@@ -841,7 +988,7 @@ def handle_prompt(payload: dict) -> None:
             "never block.\n")
     # Amnesty 2026-07-29: tip fires 1-in-5 prompts, not every prompt.
     tip = ""
-    if count % 5 == 1:
+    if count % 5 == 1 and not _CODEX:  # tips are Claude-flavored (Fable/Sonnet seats)
         tip = f"Harness tip: {TIPS[(count - 1) % len(TIPS)]}"
     block = (cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
     if block:
@@ -852,6 +999,48 @@ def handle_prompt(payload: dict) -> None:
 # ──────────────────────────────────────────────────────────────────
 # stop (Stop — observe only)
 # ──────────────────────────────────────────────────────────────────
+
+def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
+    """Observe-only (2026-09-09, manager loop): when an open job still has a
+    runnable lane and the turn ended without a DECISION PACKET, log it. Never
+    blocks — the log is what makes the "hand it back every turn" habit visible."""
+    try:
+        board = Path(__file__).resolve().parents[1] / "job_board.py"
+        if not board.exists():
+            return
+        # 2026-09-10: ask the board for the open jobs — it resolves to the MAIN
+        # checkout's state from any lane, so this observer sees the same board
+        # every session sees (a lane-local directory scan missed jobs opened elsewhere)
+        raw = subprocess.run([sys.executable, str(board), "status", "--json"],
+                             capture_output=True, text=True, timeout=15).stdout
+        try:
+            jobs = [j for j in json.loads(raw or "[]") if j.get("status") not in ("complete", "closed", "parked")]
+        except Exception:
+            jobs = []
+        if not jobs:
+            return
+        for j in jobs:
+            name = j.get("slug") or ""
+            if not name:
+                continue
+            out = subprocess.run([sys.executable, str(board), "next", name],
+                                 capture_output=True, text=True, timeout=10).stdout
+            if "TURN MUST CONTINUE" in out and "DECISION PACKET" not in (last_text or ""):
+                _append_observe({
+                    "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
+                    "event": "job-turn-ended-unblocked", "job": name,
+                    "runnable": out.splitlines()[0][:160] if out else "",
+                })
+            # 2026-09-10: a job whose plan is still pending must have been SHOWN — the
+            # reply carries the JOB PLAN block. Observe-only, like everything here.
+            if out.startswith("PLAN PENDING") and "JOB PLAN" not in (last_text or ""):
+                _append_observe({
+                    "ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
+                    "event": "job-plan-not-shown", "job": name,
+                })
+    except Exception:
+        return
+
 def handle_stop(payload: dict) -> None:
     if bool(payload.get("stop_hook_active")):
         sys.exit(0)
@@ -896,6 +1085,13 @@ def handle_stop(payload: dict) -> None:
     try:
         if not _cc_off():
             _cc_stop_observe(session_id, raw, exchange)
+    except Exception:
+        pass
+
+    # Manager-loop observer (2026-09-09): a job turn that ended with runnable
+    # lanes and no DECISION PACKET is the exact habit this build exists to end.
+    try:
+        _job_stop_observe(session_id, last_text, exchange)
     except Exception:
         pass
 

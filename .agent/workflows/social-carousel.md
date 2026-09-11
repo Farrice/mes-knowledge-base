@@ -69,5 +69,7 @@ Two steps his critique added (binding from run 02 on):
 4. `python3 execution/handoff_store.py save --thread <brand>-social --status <shipped|draft> --hint "<slug>: what needs his tap"`.
 5. When Farrice gives a felt verdict on the hook: `python3 execution/voice_ratchet.py add --verdict pass|fail --line "<hook>" --why "<his words>"` (Farrice's brand only; client verdicts go to the client's calibration notes).
 
+**The run folder is the state (2026-09-09, IMPORT-LIST.md #1):** before finalize, `python3 execution/run_log.py manifest <run_dir> --set brand=<brand> --set door=social-carousel --set kind=<carousel|post|repurpose|deck|shorts|ebook> --set status=<draft|delivered> --set cost_usd=<n> --steps <this door's step names>` and one `run_log.py receipt <run_dir> <STEP> "<text>"` per step above (`--skip` when a step did not run); `run_log.py check <run_dir>` must PASS before the handoff. Same commands on Claude Code and Codex.
+
 ## Never
 Edit inside `.claude/skills/*`. Post or schedule (sends stay human; `tool-publisher` stays off). Run a client's copy through Farrice's voice card. Let the Scrapes draft phase write a client's words. Start without the BRAND LOCK line.

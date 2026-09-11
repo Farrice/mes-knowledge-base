@@ -1,0 +1,17 @@
+{
+  "test": "MYBPM STILL SYNCED composition bake-off",
+  "assignment": {
+    "A": "composition-intelligence",
+    "B": "old-route-baseline"
+  },
+  "reveal_policy": "Do not reveal until Farrice submits a taste verdict.",
+  "controls": [
+    "same campaign",
+    "same copy",
+    "same palette",
+    "same type family",
+    "same EKG motif",
+    "same output formats"
+  ],
+  "variable": "layout and composition system only"
+}

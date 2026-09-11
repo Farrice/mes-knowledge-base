@@ -1,0 +1,189 @@
+schema: antigravity-run/1
+brand: jen
+door: jen
+run: week-of-2026-09-07
+kind: week
+status: draft
+built: "2026-09-09"
+steps:
+  - LOAD
+  - READ
+  - RESEARCH
+  - WRITE
+  - AMPLIFY
+  - CHECK
+  - RENDER
+  - DELIVER
+  - LEARN
+label: "Week 1 · in Drive 04 on Wed Sept 9 · the approved specimen leads; comps and Bothwell on HOLD"
+message: |-
+  hey babe, week 1 is in the folder. the first one is the "one more question" reel, it's ready to post tonight. thursday is your "just breathe" line from the voice memo. saturday is the "realtor code words" post, six slides. open, post, done.
+  if you have one ordinary clip of you in a house on your phone, drop it in the 02 folder and i'll put the words over that instead. if a word isn't you, tell me and it changes before it posts 🤍
+render_path: build_weeks.py --no-video
+cost_usd: 0
+facts_ledger: "../FACTS.md"
+photo_swap: "../PHOTO-SWAP.md"
+posts:
+  - id: 00-broll-one-more-question
+    district: connect
+    job: connect
+    format: reel
+    format_note: reel · 10.5 s · her photos
+    day: "wed sept 9 · 6:30pm"
+    hook: "“Sorry, one more question…”"
+    thumb: 00-broll-one-more-question-cover
+    slides: 0
+    photos:
+      - listing-02-living (hers)
+      - listing-04-kitchen (hers)
+    photo_source: hers
+    caption: |-
+      you can delete the “sorry to bother you” part 😂
+
+      and the “i know you already explained this” part. you’re allowed to understand something while we’re on the phone and then hang up and go… wait.
+
+      sometimes you don’t realize what you’re unsure about until someone asks how the house stuff is going and you try to explain it out loud.
+
+      text me. even if all you have is a screenshot with “???” underneath. we can start there.
+
+      i talk about this stuff every day. you’re buying a home while you also have work tomorrow and still haven’t figured out dinner. i’m expecting questions.
+
+      and if i explain something and you’re still lost, please tell me. i can try another way. you don’t have to politely let me finish and then go ask google what i meant.
+    reply: "a question or a screenshot arrives → answer it in her own words the same evening (this post IS the promise). 'same' → saved reply 4 shape, then ask what they're looking at."
+    story: "first frame to stories at 6:35pm, no sticker; the question is the story"
+    collab: none
+    first_comment: "text me. even if all you have is a screenshot with \"???\" underneath."
+  - id: 01-attract-what-850k-buys
+    district: attract
+    job: attract
+    format: reel
+    format_note: reel · 25.5 s
+    day: "SUPERSEDED 2026-09-09 by week 2's tuesday post (11, the Card 1 rebuild with sept 9 comps); do not post"
+    hook: you keep saving the finished ones.
+    thumb: 01-attract-what-850k-buys-cover
+    slides: 0
+    photos:
+      - sunlight-through-window-floor-00
+      - valley-street-01
+      - california-bungalow-00
+      - suburban-neighborhood-aerial-02
+      - front-door-house-00
+      - jen-porch-vannuys
+    photo_source: placeholder
+    caption: |-
+      if you've got a folder of saved listings you've never toured... same. the finished ones. white oak, soft, modern, the kitchen you screenshot for your person at midnight.
+
+      so. what $850K actually buys in the valley this week. three homes on the market right now, none of them mine:
+
+      tarzana... $869,000. 3 bed, 1.5 bath, 1,136 sq ft on a 7,296 sq ft lot. room in the back for an ADU... a small second home you can build later.
+      lake balboa... $850,000. 3 bed, 1 bath, 1,126 sq ft, a few blocks from the lake.
+      van nuys... $815,000. 4 bed, 1.5 bath, 1,390 sq ft, and a pool.
+
+      none of them look like the saved folder. all three are a real front door at a real number, and the number is the part nobody posts.
+
+      send me your number, buying or selling. i'll send you the three i'd go see this weekend and what i'd check first at each one. i've got you 🏡
+
+      prices from the MLS, sept 2, 2026. they move.
+      #sanfernandovalley #tarzana #vannuys #lakebalboa #valleyrealestate #SFV
+    reply: "a number arrives → saved reply 3 (looking / a number). an address arrives → saved reply 1. 'same' → her words: 'send me the number and i'll make the folder real.'"
+    story: "first frame to stories at 7:35am with the sticker: \"send me your number\""
+    collab: "none (other agents' listings; never tag them)"
+    first_comment: the three are tarzana, lake balboa, van nuys. send me your number and i'll send the addresses.
+  - id: 02-connect-just-breathe
+    district: connect
+    job: connect
+    format: card
+    format_note: card · 3 slides · her photos
+    day: "thu sept 10 · 6:30pm"
+    hook: just breathe.
+    thumb: 02-connect-just-breathe-1
+    slides: 3
+    photos:
+      - listing-03-pool (hers)
+      - listing-02-living (hers)
+      - jen-headshot-studio (hers)
+    photo_source: hers
+    caption: |-
+      if the numbers are loud at night, i say the same thing to every client: just breathe. take a step back. let's sleep on it and talk in the morning. nothing you decide at 11pm with the calculator app open counts as a decision.
+
+      in the morning i ask two things. what did your lender actually quote you, not the number on the news. and have we looked at a buydown... that's someone paying a little now so your rate is lower, for good or just for the first couple of years. there's usually a way to structure the loan for the you that exists right now, not a version of you who makes more later.
+
+      i'm here for you. that's my job. i do this to protect you and your best interest.
+
+      if it's late and the numbers are loud, send me the number, buying or selling. we'll look at it in the morning. or just say "same."
+
+      #sanfernandovalley #SFV #valleyrealestate #mortgagerates
+    reply: "a number or a quote → saved reply 3. 'same' or a feeling → her words: 'i know. send me the number when you're up. we'll look together.'"
+    story: "slide 1 to stories at 6:35pm with the question sticker: \"what's the number keeping you up?\""
+    collab: none
+    first_comment: this is what i actually say on the phone. the buydown thing is real, ask me.
+  - id: 03-convert-5421-bothwell
+    district: convert
+    job: convert
+    format: reel
+    format_note: reel · 22 s
+    day: "HOLD · until Jen confirms the Bothwell listing is hers to post (was sat sept 12; that slot now runs the code-words post) then re-slot"
+    hook: Most New Construction in the Valley Is One Big Box.
+    thumb: 03-convert-5421-bothwell-cover
+    slides: 0
+    photos:
+      - sfv-aerial-nara
+      - california-bungalow-00
+      - sunlight-through-window-floor-00
+      - front-door-house-00
+      - jen-frontdoor
+    photo_source: placeholder
+    caption: |-
+      If You've Toured Six New Builds This Year and They've All Blurred Into One Big Box... This One Won't.
+
+      5421 bothwell rd, tarzana. three buildings on one lot: a 5,468 sq ft main house, an 882 sq ft guest house with its own kitchen, and a 238 sq ft rec room. 6,588 sq ft in total.
+
+      white oak floors and real white oak cabinetry. taj mahal quartzite in the kitchen, thermador and sub-zero. venetian plaster in the office, the theater, and the primary bath. pocket doors from the living room straight out to the pool and a half basketball court. eleven-foot ceilings downstairs.
+
+      $5,695,000. co-listed with marty azoulay, equity union.
+
+      private showings this weekend. DM me and we'll set a time.
+
+      #tarzana #newconstruction #sanfernandovalley #luxuryrealestate #losangelesrealestate
+    reply: "a showing request → reply in her own words, same evening; no saved reply needed (she does this daily)."
+    story: "first frame to stories at 9:05am, no sticker; the address card is the story"
+    collab: invite @myhousesellers as collaborator (team listing, co-listed with marty azoulay)
+    first_comment: three structures, one lot. private showings this weekend, DM me.
+  - id: 10-position-code-words
+    district: position
+    job: position
+    format: carousel
+    format_note: carousel · 6 slides · approved design, her photos + approved plates
+    day: "sat sept 12 · 9:00am"
+    hook: realtor code words. the Valley edition. what the listing actually means.
+    thumb: 10-position-code-words-1
+    slides: 6
+    photos:
+      - "01"
+      - "02"
+      - "03"
+      - "04"
+      - "05"
+      - "06"
+    photo_source: placeholder
+    caption: |-
+      “cozy.” “original condition.” “great potential.”
+
+      the listing gives you the adjectives. you still need the answers.
+
+      cozy? check the room dimensions.
+      original condition? ask about the roof, plumbing and electrical—not just the kitchen.
+      close to the 101? listen from inside and outside.
+      great potential? find out what the work actually costs.
+
+      none of those phrases automatically makes it a bad house. they tell us what to look at more closely.
+
+      save this for your next tour. and if a listing has a line you keep re-reading... screenshot it and send it to me. i'll tell you what it usually means and what i'd ask about it.
+
+      Jennifer Santulan · Equity Union · DRE #01914509
+      #SanFernandoValleyRealEstate #ValleyRealtor
+    reply: "a screenshot or a listing line arrives → answer in her own words the same evening: what it usually means, plus the one question she'd ask. 'DECODE' in the comments (slide 6 still says it) → DM them the four lines from the caption with the question beside each; no file needed. an address → saved reply 1."
+    story: "slide 1 to stories at 9:05am with the question sticker: \"which listing word gets you?\""
+    collab: none
+    first_comment: screenshot the line in the listing you keep re-reading and send it to me. i'll tell you what it usually means.
+updated: "2026-09-11"

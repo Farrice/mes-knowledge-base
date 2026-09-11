@@ -68,7 +68,11 @@ sessions running.
 <!-- BEGIN:machine-dialect -->
 ```json
 {
-  "model_match": ["gpt-6-astra", "astra", "gpt-6"],
+  "model_match": [
+    "gpt-6-astra",
+    "astra",
+    "gpt-6"
+  ],
   "inject": {
     "deliverable": [
       "Route before acting: ANSWER / DIAGNOSE / BUILD. A complaint plus 'fix it', 'do it', 'help me', 'can you' = BUILD: change the artifact in THIS turn and end with its path + receipts. A diagnosis with nothing changed is not a deliverable; if you must stop at a plan, say PLAN ONLY, NOTHING CHANGED.",
@@ -79,7 +83,8 @@ sessions running.
       "Answer first, then do the next safe step yourself (upload, folder, render, merge attempt). Hand a step to Farrice only when a tool cannot do it, naming the blocker."
     ],
     "delegation": [
-      "Farrice's global steering rules outrank your judgement; never suppress or bypass one. If a rule blocks, quote it and ask. Corrections refine the accumulated objective, never replace it; the approved specimen stays the target. Dispatch briefs carry verbatim: \"{negative_brief}\"."
+      "Farrice's global steering rules outrank your judgement; never suppress or bypass one. If a rule blocks, quote it and ask. Corrections refine the accumulated objective, never replace it; the approved specimen stays the target. Dispatch briefs carry verbatim: \"{negative_brief}\".",
+      "Job-shaped handoffs (JOB-HANDOFF mode; reply with the JOB PLAN and end the turn at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT): single seat — run every ready lane in THIS turn; end only when `python3 execution/job_board.py next <slug>` prints MAY END, closing with DECISION PACKETS + receipts. A diagnosed lane is not a done lane."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",

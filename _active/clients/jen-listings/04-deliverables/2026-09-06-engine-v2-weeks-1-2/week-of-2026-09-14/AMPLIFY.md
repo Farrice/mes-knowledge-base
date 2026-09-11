@@ -1,19 +1,42 @@
-# AMPLIFY · week-of-2026-09-14 · post 11 only (operator file)
+# AMPLIFY · week-of-2026-09-14 · the craft room (operator file, re-run 2026-09-09)
 
-Phase 1 shape (Farrice 2026-09-02, second pass: "expert soup"): ONE pen, ONE check. The pen loaded exactly two craft files, `skills/alyssa-stalker-agent-content-playbook/workflows/03-hook-reframe.md` and `skills/luke-iha-vicious-hooks/genius.md`, and made one sharpening pass. Then the Jen-as-herself check from `jen-real-voice-profile.md` + `jen-calibration-log.md`.
+Phase 1 shape (Farrice 2026-09-02): ONE pen, ONE check. The pen loaded exactly two files: Alyssa `03-hook-reframe.md` (Topic + Who + Lens) and Luke Iha `genius.md` (consequence first, delete the throat-clearing, short words). The check: Jen-as-herself from `jen-real-voice-profile.md` + `jen-calibration-log.md`.
 
-## 11 · connect · B-roll · "We loved it. It was so quiet." → "Drive the street at 9pm tonight."
+## 04 · attract · reel
 
-Row it is built on: WINNERS #2 (@carligerber, action on screen, reasons in caption; 598.8K views, 212× median; replicated by #6). Grammar and floor: #1, the approved specimen (the buyer's own sentence, her reply with the stake, the reason withheld). Own-outlier evidence: budget-vs-wishlist, the one real-estate post on her grid that broke out, was a relatable feeling (38 comments, 2.9× median).
-
-| pass | what changed | kept? |
+| pass | what changed | why |
 |---|---|---|
-| Alyssa, Topic + Who + Lens | Topic held (drive the street). Who on screen = the couple who fell for a house at a weekend tour ("we loved it"); who in the caption = a household leaving an apartment because of the people downstairs (this month's who-clause, from the verbatim SFV buyer thread). Lens = hers: "the 9pm drive is the one that matters." Comfort shape: the feeling first, the offer withheld until the last two lines. | yes |
-| Luke Iha, delete the throat-clearing | Beat 1 opens on the buyer's sentence, no hedge. First draft of beat 2 read "Drive the street at 9pm before you make an offer" (five lines at 76px after `fit()`); cut to four lines, "at 9pm tonight," reason moved to the caption where it belongs (never resolve it on screen). Germanic words throughout: loved, quiet, drive, street, park, dog, home. Prediction test on the two beats: a stranger cannot say why 9pm (parking? noise? people?), so the loop holds. Stake in frame: $800K. | yes |
-| Luke Iha, consequence first | First draft closed the who-clause paragraph with "you're not buying the house. you're buying a tuesday night in it." (an it's-not-X-it's-Y reversal, ban-bank shape). Replaced with "tuesday nights come with the house." | yes |
-| Jen-as-herself check | "of course it was quiet." deadpan, hers ("so. much. blood."). "don't get out of the car. windows down." is her recap habit (this, this, and this). "a dog two doors down who has opinions about your car" is her gently-funny register ("a better text-back rate than your ex"). "i drive it myself before we write the offer. then we compare notes." and "sometimes the notes say keep looking" are Jen-seat: her practice in our words, flagged for her thumbs-up in FACTS.md. "everyone at the beach or at costco" is a Jen-seat scene, low risk, flagged. No bank line used. Zero emoji (her ceiling is one; the specimen carried one, this one does not need it). Nothing reverted. | 0 reverted · 3 lines flagged |
+| the pen | beat 1 "$900K in sherman oaks. $900K in van nuys. same week." → "you keep switching between two zips. same budget, every night." | the hook opened on the number (CONTENT-MIX hook rule; every bottom-quartile post on her grid opens on the property). Alyssa: topic held, who = the buyer flipping between two zips, lens = private state ("every night"). Luke: the reader's own behavior in line one, the loop stays open (which two zips, what happens). the $ moves to beat 2 where it was already carried. |
+| the pen | caption line 1 now opens "if you keep switching between two zips with the same budget…" and the $900K comparison is the second clause | same rule, in the caption |
+| the pen | hand line "my DMs are open →" → "send me the zip →"; close "i'm here for you. that's my job…" → "let's chat." | bank lines once a week: her close goes to 06, "my DMs are open" to 05; "let's chat" is hers (lexicon IN) |
+| Jen check | "every night" is a Jen-seat scene, not her words | flagged for her thumbs-up, not reverted (same treatment as week 1's "11pm" line); everything else is her register (lowercase, plain, invitation) |
 
-Receipt: `AMPLIFY: one pen · 3 lines sharpened · Jen check reverted 0 (flagged 3 Jen-seat lines)`
+Lines changed: 4 · reverted: 0 · flagged for Jen: 1
+
+## 05 · position · reel
+
+| pass | what changed | why |
+|---|---|---|
+| the pen | hook "fully approved... and the insurance quote still moves your payment." held | opens on the reader's situation; passes the hook rule as written |
+| the pen | hand line "my DMs are open →" → "before the 15th →" | the deadline is the consequence; "my DMs are open" stays once, in this caption |
+| the pen | dropped the stamped close; "approved and insured are two different yeses." is the close | one bank close per week (06 carries it); the Jen-seat line is the stronger last line here |
+| Jen check | nothing to revert | "before the 15th" is a calm deadline, not urgency-bait (no "hurry", no caps) |
+
+Lines changed: 2 · reverted: 0 · flagged for Jen: 0
+
+## 06 · position (seller side) · card
+
+| pass | what changed | why |
+|---|---|---|
+| the pen | slide 1 "tarzana sold for 14.5% less this july than last july." → "if you own in tarzana, that headline hit your phone too." · hand "and that's still not your number →" → "and it's still not your number →" | number-first hook; now opens on the owner. Luke: recognition in line one ("that headline hit your phone too"), the loop is "then what IS my number" |
+| the pen | slide 2 kicker "why the median lies to sellers" → "tarzana median, july: down 14.5% in a year" | the number is beat 2, on the frame where the mechanism is explained |
+| the pen | caption line 1 reordered: owner first, the $949,676 / 14.5% second | same rule |
+| the pen | hand line on slide 3 "my DMs are open →" → "send me the street →"; her full close stays on this post | the one bank close this week sits on the seller post, where "protect your best interest" is literal |
+| Jen check | nothing to revert | "not the address, just the street" is hers (saved reply 2 shape) |
+
+Lines changed: 4 · reverted: 0 · flagged for Jen: 0
+
+Receipt: `AMPLIFY: one pen · 10 lines sharpened · Jen check reverted 0 lines (1 flagged for her thumbs-up)`
 
 ## Post 11, second line (2026-09-11): the caption for pair F9
 

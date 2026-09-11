@@ -1,0 +1,64 @@
+{
+  "slug": "corrected-recent-offer-pmf-2026-08-17",
+  "title": "the recent offer worth testing now",
+  "compiled": "aug 17, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.html",
+  "brief_md": "deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.md",
+  "paths": [
+    {
+      "path": "deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md",
+      "role": "full corrected PMF verdict"
+    },
+    {
+      "path": "deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md",
+      "role": "current sources and local authority ledger"
+    },
+    {
+      "path": "deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md",
+      "role": "preserved failed example"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://dtc.supply/",
+      "label": "DTC.SUPPLY"
+    },
+    {
+      "url": "https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/",
+      "label": "Marketplace signal"
+    },
+    {
+      "url": "https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html",
+      "label": "RSM"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "label": "FTC + FDA"
+    },
+    {
+      "url": "https://structured.agency/services/ugc-creative-strategy-that-drives-growth",
+      "label": "Structured UGC"
+    },
+    {
+      "url": "https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers",
+      "label": "LinkedIn hidden-buyer research"
+    },
+    {
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+      "label": "FDA Structure/Function Claims"
+    }
+  ]
+}

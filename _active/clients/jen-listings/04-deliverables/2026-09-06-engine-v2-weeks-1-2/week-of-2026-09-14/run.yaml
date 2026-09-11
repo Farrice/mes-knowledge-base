@@ -1,0 +1,153 @@
+schema: antigravity-run/1
+brand: jen
+door: jen
+run: week-of-2026-09-14
+kind: week
+status: delivered
+built: "2026-09-09"
+steps:
+  - LOAD
+  - READ
+  - RESEARCH
+  - WRITE
+  - AMPLIFY
+  - CHECK
+  - RENDER
+  - DELIVER
+  - LEARN
+label: Week 2 · drop Sun Sept 13 · re-run through /jen 2026-09-09
+message: |-
+  week 2 is in the folder. tuesday is the "we loved it, it was so quiet" reel... same look as the first one. thursday is the october 15 insurance change, so it goes out on time. open, post, done.
+  reply here if a line isn't you 🤍
+render_path: build_weeks.py --no-video
+cost_usd: 0
+facts_ledger: "../FACTS.md"
+photo_swap: "../PHOTO-SWAP.md"
+posts:
+  - id: 11-broll-which-agent-to-trust
+    district: attract
+    job: attract
+    format: reel
+    format_note: reel · 10.5 s · her photos
+    day: "tue sept 15 · 6:30pm"
+    hook: "“how do i know which agent to trust?”"
+    thumb: 11-broll-which-agent-to-trust-cover
+    slides: 0
+    photos:
+      - listing-02-living (hers)
+      - listing-01-exterior (hers)
+    photo_source: hers
+    caption: |-
+      nobody asks me this to my face. they ask it at 11pm, in the group chat, after the third open house where the agent said “it won’t last.”
+
+      so here’s the tell.
+
+      this summer our clients found a house they loved. the inspection came back. and the answer was… let’s walk. not “let’s negotiate.” not “every house has something.” walk.
+
+      they were sad about it for a week or so. then they found the one they actually bought, and the seller covered over $20K in credits. wilmington, july. it’s on our team page.
+
+      that’s the job. not talking you into a house. sometimes it’s talking you out of one while you’re still in love with it, and being the unpopular one for a week.
+
+      if you’re somewhere in the “is this the one?” stage… send me the listing. i’ll tell you what i’d ask before you fall any harder. or just say hi 🏡
+
+      #sanfernandovalley #SFV #losangelesrealestate
+    reply: "a listing link or address → saved reply 1 (what i'd ask first, in her DM). 'how did you know to walk' → her words: 'the inspection told us. i just said it out loud.' 'same' or a screenshot → 'send it. we can start there.'"
+    story: "first frame to stories at 6:35pm with the sticker: \"send me the listing you're not sure about\""
+    collab: "none (team story told as \"our clients\"; no tag)"
+    first_comment: "if you're in the \"is this the one?\" stage… send me the listing. i'll tell you what i'd ask before you fall any harder."
+  - id: 04-attract-900k-two-zips
+    district: attract
+    job: attract
+    format: reel
+    format_note: reel · 23 s
+    day: "HOLD · re-pull the two comps (FACTS.md rows 04 are dated sept 2; prices move) then slot"
+    hook: you keep switching between two zips. same budget, every night.
+    thumb: 04-attract-900k-two-zips-cover
+    slides: 0
+    photos:
+      - vannuys-blvd-2024
+      - california-bungalow-00
+      - front-door-house-00
+      - suburban-neighborhood-aerial-02
+      - jen-porch-vannuys
+    photo_source: placeholder
+    caption: |-
+      if you keep switching between two zips with the same budget, this is the week to look at both. $900K in sherman oaks vs. $900K in van nuys, both on the market right now:
+
+      sherman oaks... $899,900. 1 bed, 1 bath, on a big lot. you're buying the dirt and the zip, and building the house later.
+      van nuys... $888,000. 4 bed, 2 bath, 1,576 sq ft. you're buying the house, and the zip most people scroll past.
+
+      neither one is wrong. they're two different ten-year plans. three things i'd want to know before you pick:
+      how long you're staying (under five years, the zip matters less than you think).
+      whether you'd ever build or add on (a lot is a plan, not a house).
+      what the insurance quote looks like at each address (i get it before we write, not in escrow).
+
+      tell me the zip you keep coming back to. i'll tell you what it actually costs this month, buying or selling. let's chat.
+
+      prices from the MLS, sept 2, 2026. they move.
+      #shermanoaks #vannuys #sanfernandovalley #valleyrealestate #SFV
+    reply: "a zip or a number arrives → saved reply 3. an address → saved reply 1."
+  - id: 05-position-insurance-before-the-offer
+    district: position
+    job: position
+    format: reel
+    format_note: reel · 18.5 s
+    day: "thu sept 17 · 6:30pm"
+    hook: fully approved... and the insurance quote still moves your payment.
+    thumb: 05-position-insurance-before-the-offer-cover
+    slides: 0
+    photos:
+      - vannuys-blvd-2024
+      - california-bungalow-00
+      - house-key-lock-00
+      - jen-porch-vannuys
+    photo_source: placeholder
+    caption: |-
+      the insurance quote now comes before the offer, not once we're in escrow with the clock already running.
+
+      on october 15, 2026 the california FAIR plan rises 29.1% on average. it's the state's backup fire policy, what you get when no regular company will cover the house. the increase is weighted to wildfire risk... hillside and canyon homes can see far more.
+
+      the day your policy starts decides the rate. start before the 15th and you generally keep today's rate for the whole term.
+
+      valley floor? most homes still get a regular company.
+
+      selling a hillside home this fall? the same quote is the first thing your buyer's lender will ask about. worth knowing before the sign goes up.
+
+      source: california dept of insurance, oct 15, 2026.
+
+      my DMs are open... send me the address. or just the street, if that's as far as you've gotten. i'll tell you which paper i'd read first.
+
+      approved and insured are two different yeses.
+
+      #SFV #sanfernandovalleyrealtor #losangelesrealestate #shermanoaks #woodlandhills
+    reply: "an address → saved reply 1, then 2 the next day. 'is this true for my house' → saved reply 2 shape."
+  - id: 06-position-tarzana-median-sellers
+    district: position
+    job: position (seller side)
+    format: card
+    format_note: card · 3 slides
+    day: "sat sept 19 · 9:00am"
+    hook: if you own in tarzana, that headline hit your phone too.
+    thumb: 06-position-tarzana-median-sellers-1
+    slides: 3
+    photos:
+      - sfv-aerial-nara
+      - valley-street-01
+      - jen-frontdoor
+    photo_source: placeholder
+    caption: |-
+      if you own in tarzana, that headline hit your phone too: the median sale price was $949,676 in july, 14.5% below last july. it's still not your number.
+
+      a median is the middle of every sale, from a $650,000 fixer to a $19,999,000 estate. a few big closings at the top one month and the whole number moves. your house didn't.
+
+      the number that actually decides your list price: what homes like yours closed for this summer, three streets in every direction. same bed count, same era, same condition. that's a list of five or six addresses, not a percentage.
+
+      send me the street. not the address, just the street. i'll pull what closed around you this summer and tell you what i'd list at. no pitch, no pressure... and if the honest answer is "wait," i'll say that too.
+
+      i'm here for you. that's my job. i do this to protect you and your best interest.
+
+      source: redfin, all home types, july 2026 vs july 2025.
+      #tarzana #sanfernandovalley #valleyrealestate #homevalue #SFV
+    reply: "a street or 'what's mine worth' → saved reply 2 (the seller one)."
+updated: "2026-09-11"
+page_url: "https://claude.ai/code/artifact/09e562ac-1bff-4ffe-9e89-a608217c61e3"

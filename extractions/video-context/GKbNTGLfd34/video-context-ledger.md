@@ -1,0 +1,333 @@
+# Video context ledger
+
+- `00:00:01.990` **observed_spoken**: Most of you assume that the people growing the fastest on LinkedIn are more
+- `00:00:04.790` **observed_spoken**: growing the fastest on LinkedIn are more senior, more credentialed, more
+- `00:00:06.710` **observed_spoken**: senior, more credentialed, more connected. They don't have a bigger
+- `00:00:09.110` **observed_spoken**: connected. They don't have a bigger network than you. The people actually
+- `00:00:11.150` **observed_spoken**: network than you. The people actually growing are just running a proven system
+- `00:00:14.230` **observed_spoken**: growing are just running a proven system you don't even know exists. Until now.
+- `00:00:17.270` **observed_spoken**: you don't even know exists. Until now. I'm going to show you the exact
+- `00:00:19.030` **observed_spoken**: I'm going to show you the exact seven-step LinkedIn growth system that
+- `00:00:21.870` **observed_spoken**: seven-step LinkedIn growth system that this guy used to go from 1,000 followers
+- `00:00:25.270` **observed_spoken**: this guy used to go from 1,000 followers to almost a million in under 3 years.
+- `00:00:28.750` **observed_spoken**: to almost a million in under 3 years. He's not an influencer. He didn't go
+- `00:00:30.830` **observed_spoken**: He's not an influencer. He didn't go viral. Ben Meer is someone who built a
+- `00:00:33.670` **observed_spoken**: viral. Ben Meer is someone who built a repeatable system, ran it until it
+- `00:00:36.110` **observed_spoken**: repeatable system, ran it until it worked, and now he's helping others use
+- `00:00:38.910` **observed_spoken**: worked, and now he's helping others use it to do the same. He put the whole
+- `00:00:40.710` **observed_spoken**: it to do the same. He put the whole system into a free guide. I linked it in
+- `00:00:43.110` **observed_spoken**: system into a free guide. I linked it in the description for you. It goes deeper
+- `00:00:45.550` **observed_spoken**: the description for you. It goes deeper on everything that we're going to chat
+- `00:00:47.070` **observed_spoken**: on everything that we're going to chat about and also includes free templates,
+- `00:00:49.510` **observed_spoken**: about and also includes free templates, frameworks, and specific examples. So,
+- `00:00:52.270` **observed_spoken**: frameworks, and specific examples. So, grab it now. You're going to want it so
+- `00:00:53.950` **observed_spoken**: grab it now. You're going to want it so you aren't starting from scratch. We are
+- `00:00:55.950` **observed_spoken**: you aren't starting from scratch. We are going to cover these seven reasons that
+- `00:00:57.990` **observed_spoken**: going to cover these seven reasons that your LinkedIn isn't growing and the
+- `00:01:00.510` **observed_spoken**: your LinkedIn isn't growing and the exact fixes to change that starting
+- `00:01:03.110` **observed_spoken**: exact fixes to change that starting today. But, let's get the bad news out
+- `00:01:05.310` **observed_spoken**: today. But, let's get the bad news out of the way first. I'm sorry. I do not
+- `00:01:07.790` **observed_spoken**: of the way first. I'm sorry. I do not love it, either.
+- `00:01:15.230` **observed_spoken**: Your LinkedIn profile may be working against you before you even post. The
+- `00:01:18.510` **observed_spoken**: against you before you even post. The LinkedIn algorithm changed in early
+- `00:01:20.430` **observed_spoken**: LinkedIn algorithm changed in early 2026. Again, I know. It used to show
+- `00:01:24.150` **observed_spoken**: 2026. Again, I know. It used to show your content to people you know. Now, it
+- `00:01:27.030` **observed_spoken**: your content to people you know. Now, it shows your content to people interested
+- `00:01:29.190` **observed_spoken**: shows your content to people interested in your topic, whether they follow you
+- `00:01:31.310` **observed_spoken**: in your topic, whether they follow you or not. Sounds good in theory, but only
+- `00:01:34.590` **observed_spoken**: or not. Sounds good in theory, but only if you know how it works. So, once you
+- `00:01:36.630` **observed_spoken**: if you know how it works. So, once you post, LinkedIn reads your profile, your
+- `00:01:39.110` **observed_spoken**: post, LinkedIn reads your profile, your headline, your about section, your
+- `00:01:41.030` **observed_spoken**: headline, your about section, your experience, and it cross-references all
+- `00:01:43.870` **observed_spoken**: experience, and it cross-references all of it against what you just posted. If
+- `00:01:46.150` **observed_spoken**: of it against what you just posted. If they match, LinkedIn says, "This person
+- `00:01:48.750` **observed_spoken**: they match, LinkedIn says, "This person knows what they're talking about. Let me
+- `00:01:50.390` **observed_spoken**: knows what they're talking about. Let me show this to more people." If they don't
+- `00:01:52.590` **observed_spoken**: show this to more people." If they don't match, LinkedIn limits how far your post
+- `00:01:55.270` **observed_spoken**: match, LinkedIn limits how far your post travels. So, if you have been noticing a
+- `00:01:58.310` **observed_spoken**: travels. So, if you have been noticing a decline in your reach, this may be the
+- `00:02:00.510` **observed_spoken**: decline in your reach, this may be the culprit. Easy fix though, the first
+- `00:02:02.710` **observed_spoken**: culprit. Easy fix though, the first thing that you need to do to grow on
+- `00:02:04.310` **observed_spoken**: thing that you need to do to grow on LinkedIn is make sure that your profile
+- `00:02:06.550` **observed_spoken**: LinkedIn is make sure that your profile is actually set up to work with the new
+- `00:02:08.550` **observed_spoken**: is actually set up to work with the new algorithm instead of against it. Part
+- `00:02:10.830` **observed_spoken**: algorithm instead of against it. Part six of the guide walks you through
+- `00:02:12.470` **observed_spoken**: six of the guide walks you through exactly how to create a compelling
+- `00:02:14.510` **observed_spoken**: exactly how to create a compelling profile that is designed to convert. I
+- `00:02:17.030` **observed_spoken**: profile that is designed to convert. I also did a full video on exactly this.
+- `00:02:19.710` **observed_spoken**: also did a full video on exactly this. I'm going to link it in the description
+- `00:02:21.030` **observed_spoken**: I'm going to link it in the description for you and I'll also link it on screen
+- `00:02:23.630` **observed_spoken**: for you and I'll also link it on screen at the end of this video so that you can
+- `00:02:25.350` **observed_spoken**: at the end of this video so that you can watch it next. It walks you through how
+- `00:02:27.670` **observed_spoken**: watch it next. It walks you through how to set up every element to work with the
+- `00:02:29.710` **observed_spoken**: to set up every element to work with the new algorithm. But for now, the most
+- `00:02:31.710` **observed_spoken**: new algorithm. But for now, the most important thing to rewrite is your
+- `00:02:33.790` **observed_spoken**: important thing to rewrite is your headline following this formula.
+- `00:02:36.830` **observed_spoken**: headline following this formula. What you do,
+- `00:02:38.350` **observed_spoken**: What you do, who you help, the result they get. You
+- `00:02:40.750` **observed_spoken**: who you help, the result they get. You see, this headline tells the algorithm
+- `00:02:43.230` **observed_spoken**: see, this headline tells the algorithm nothing, but this headline tells it
+- `00:02:46.030` **observed_spoken**: nothing, but this headline tells it everything. Get that right and the
+- `00:02:48.430` **observed_spoken**: everything. Get that right and the algorithm starts working in your favor.
+- `00:02:50.710` **observed_spoken**: algorithm starts working in your favor. Now, you think once your profile is set,
+- `00:02:52.950` **observed_spoken**: Now, you think once your profile is set, you are ready to post, but in reality,
+- `00:02:56.190` **observed_spoken**: you are ready to post, but in reality, the moment someone sees your post, you
+- `00:02:58.510` **observed_spoken**: the moment someone sees your post, you have already won or lost them.
+- `00:03:09.030` **observed_spoken**: It took me 6 years of blaming my network and the algorithm every time a post
+- `00:03:11.430` **observed_spoken**: and the algorithm every time a post flopped to learn that it was actually my
+- `00:03:15.030` **observed_spoken**: flopped to learn that it was actually my fault.
+- `00:03:16.430` **observed_spoken**: fault. Oops.
+- `00:03:17.630` **observed_spoken**: Oops. My content wasn't getting read because I
+- `00:03:19.590` **observed_spoken**: My content wasn't getting read because I wasn't following the two-line rule. You
+- `00:03:22.230` **observed_spoken**: wasn't following the two-line rule. You get two lines on your post before the
+- `00:03:24.230` **observed_spoken**: get two lines on your post before the see more button cuts you off. So, your
+- `00:03:26.870` **observed_spoken**: see more button cuts you off. So, your hook is the single highest leverage
+- `00:03:29.430` **observed_spoken**: hook is the single highest leverage skill in all of content creation on
+- `00:03:31.790` **observed_spoken**: skill in all of content creation on LinkedIn. So, how do you actually write
+- `00:03:34.190` **observed_spoken**: LinkedIn. So, how do you actually write an opening line that makes someone stop?
+- `00:03:36.870` **observed_spoken**: an opening line that makes someone stop? Ben Meer studied the posts that
+- `00:03:38.710` **observed_spoken**: Ben Meer studied the posts that performed the best on LinkedIn and broke
+- `00:03:40.990` **observed_spoken**: performed the best on LinkedIn and broke it down into 10 proven frameworks.
+- `00:03:43.990` **observed_spoken**: it down into 10 proven frameworks. They're all listed in the guide with a
+- `00:03:45.590` **observed_spoken**: They're all listed in the guide with a full walk-through on each. You can be
+- `00:03:47.790` **observed_spoken**: full walk-through on each. You can be the judge of if they actually work or
+- `00:03:49.630` **observed_spoken**: the judge of if they actually work or not because plot twist, I have been
+- `00:03:52.270` **observed_spoken**: not because plot twist, I have been using them on you throughout this whole
+- `00:03:54.190` **observed_spoken**: using them on you throughout this whole video and you're still here.
+- `00:03:56.630` **observed_spoken**: video and you're still here. So,
+- `00:03:58.390` **observed_spoken**: So, I'm going to give you a certain number
+- `00:04:00.990` **observed_spoken**: I'm going to give you a certain number of ways to get this result in this
+- `00:04:04.950` **observed_spoken**: of ways to get this result in this amount of time. We are going to cover
+- `00:04:06.790` **observed_spoken**: amount of time. We are going to cover the seven reasons that your LinkedIn
+- `00:04:09.230` **observed_spoken**: the seven reasons that your LinkedIn isn't growing and the exact fixes to
+- `00:04:11.990` **observed_spoken**: isn't growing and the exact fixes to change that starting today. It took me X
+- `00:04:15.190` **observed_spoken**: change that starting today. It took me X years to learn this thing. It took me
+- `00:04:18.070` **observed_spoken**: years to learn this thing. It took me six years of blaming my network and the
+- `00:04:20.830` **observed_spoken**: six years of blaming my network and the algorithm every time a post flopped to
+- `00:04:24.190` **observed_spoken**: algorithm every time a post flopped to learn that it was actually my fault.
+- `00:04:29.070` **observed_spoken**: learn that it was actually my fault. Now, before you hit publish on anything,
+- `00:04:31.910` **observed_spoken**: Now, before you hit publish on anything, ask yourself, is this surprising or is
+- `00:04:34.230` **observed_spoken**: ask yourself, is this surprising or is it actionable? Because the best LinkedIn
+- `00:04:36.710` **observed_spoken**: it actionable? Because the best LinkedIn content always falls into one of those
+- `00:04:39.350` **observed_spoken**: content always falls into one of those two categories. Once you've got a hook
+- `00:04:41.790` **observed_spoken**: two categories. Once you've got a hook that stops someone, they click see more
+- `00:04:44.670` **observed_spoken**: that stops someone, they click see more and what happens in the next 30 seconds
+- `00:04:46.990` **observed_spoken**: and what happens in the next 30 seconds determines whether they read the end or
+- `00:04:49.470` **observed_spoken**: determines whether they read the end or scroll away.
+- `00:04:57.470` **observed_spoken**: Every single LinkedIn growth tutorial talks about how to hook someone into
+- `00:04:59.270` **observed_spoken**: talks about how to hook someone into reading your post, but nobody talks
+- `00:05:01.670` **observed_spoken**: reading your post, but nobody talks about how to actually keep them reading.
+- `00:05:04.070` **observed_spoken**: about how to actually keep them reading. So, what makes someone read all the way
+- `00:05:06.590` **observed_spoken**: So, what makes someone read all the way to the end of a LinkedIn post? The posts
+- `00:05:08.750` **observed_spoken**: to the end of a LinkedIn post? The posts that perform best on LinkedIn aren't
+- `00:05:10.670` **observed_spoken**: that perform best on LinkedIn aren't just well-written, they are dopamine
+- `00:05:13.310` **observed_spoken**: just well-written, they are dopamine dense. Ben Meer defines dopamine density
+- `00:05:16.310` **observed_spoken**: dense. Ben Meer defines dopamine density as how much psychological reward a post
+- `00:05:19.070` **observed_spoken**: as how much psychological reward a post delivers per unit of time. The more
+- `00:05:21.710` **observed_spoken**: delivers per unit of time. The more reward packed into every line, the
+- `00:05:23.950` **observed_spoken**: reward packed into every line, the harder it is to stop reading. Here are
+- `00:05:26.150` **observed_spoken**: harder it is to stop reading. Here are three ways that you can do this. One,
+- `00:05:28.870` **observed_spoken**: three ways that you can do this. One, coin a term. Take a familiar concept and
+- `00:05:31.950` **observed_spoken**: coin a term. Take a familiar concept and give it a name. My content wasn't
+- `00:05:33.870` **observed_spoken**: give it a name. My content wasn't getting read because I wasn't following
+- `00:05:35.750` **observed_spoken**: getting read because I wasn't following the two-line rule. You get two lines on
+- `00:05:38.550` **observed_spoken**: the two-line rule. You get two lines on your post before the see more button
+- `00:05:40.430` **observed_spoken**: your post before the see more button cuts you off. Names make ideas easier to
+- `00:05:43.310` **observed_spoken**: cuts you off. Names make ideas easier to remember and share and when someone
+- `00:05:45.310` **observed_spoken**: remember and share and when someone shares your coined term, they are
+- `00:05:47.150` **observed_spoken**: shares your coined term, they are spreading your brand along with it. Two,
+- `00:05:49.590` **observed_spoken**: spreading your brand along with it. Two, take the reader on a journey. Tell
+- `00:05:51.990` **observed_spoken**: take the reader on a journey. Tell stories with intention, obstacles, and
+- `00:05:54.270` **observed_spoken**: stories with intention, obstacles, and resolution. Most LinkedIn posts skip
+- `00:05:56.990` **observed_spoken**: resolution. Most LinkedIn posts skip straight to the insight and wonder why
+- `00:05:58.750` **observed_spoken**: straight to the insight and wonder why nobody feels anything. The insight
+- `00:06:01.310` **observed_spoken**: nobody feels anything. The insight without the tension is just information.
+- `00:06:04.190` **observed_spoken**: without the tension is just information. The tension is what makes it a story.
+- `00:06:06.790` **observed_spoken**: The tension is what makes it a story. Three, have a contrarian take. Not edgy
+- `00:06:09.990` **observed_spoken**: Three, have a contrarian take. Not edgy for the sake of it, actually true, just
+- `00:06:12.830` **observed_spoken**: for the sake of it, actually true, just unexpected. The posts that make people
+- `00:06:14.910` **observed_spoken**: unexpected. The posts that make people stop mid-scroll are the ones where the
+- `00:06:16.830` **observed_spoken**: stop mid-scroll are the ones where the reader thinks,
+- `00:06:18.310` **observed_spoken**: reader thinks, "Wait a second. Is that Is that right?"
+- `00:06:21.750` **observed_spoken**: "Wait a second. Is that Is that right?" And then read to the end to find out.
+- `00:06:23.790` **observed_spoken**: And then read to the end to find out. There are three other techniques listed
+- `00:06:25.750` **observed_spoken**: There are three other techniques listed in the guide to help you implement this.
+- `00:06:27.790` **observed_spoken**: in the guide to help you implement this. So, now you know how to write a great
+- `00:06:29.870` **observed_spoken**: So, now you know how to write a great post, but once you start, I'm going to
+- `00:06:32.350` **observed_spoken**: post, but once you start, I'm going to be honest, it is really hard to keep
+- `00:06:35.110` **observed_spoken**: be honest, it is really hard to keep going.
+- `00:06:42.750` **observed_spoken**: Here's the part of the system I didn't expect. Before Ben Meer gets into any of
+- `00:06:46.270` **observed_spoken**: expect. Before Ben Meer gets into any of the tactics, he spends an entire section
+- `00:06:49.150` **observed_spoken**: the tactics, he spends an entire section on how to install the mindset you'll
+- `00:06:50.990` **observed_spoken**: on how to install the mindset you'll need to play the long game on LinkedIn.
+- `00:06:53.390` **observed_spoken**: need to play the long game on LinkedIn. Here are three of the mindset shifts
+- `00:06:55.270` **observed_spoken**: Here are three of the mindset shifts that I think are the most important for
+- `00:06:57.990` **observed_spoken**: that I think are the most important for growth. Most people trying to grow on
+- `00:07:00.470` **observed_spoken**: growth. Most people trying to grow on LinkedIn quit before they've even given
+- `00:07:02.830` **observed_spoken**: LinkedIn quit before they've even given themselves a chance. The beginning
+- `00:07:04.830` **observed_spoken**: themselves a chance. The beginning stages feel slow because you're laying
+- `00:07:06.990` **observed_spoken**: stages feel slow because you're laying foundations that you can't see yet.
+- `00:07:09.550` **observed_spoken**: foundations that you can't see yet. Learning the craft and figuring out your
+- `00:07:11.350` **observed_spoken**: Learning the craft and figuring out your voice. Remember that compounding doesn't
+- `00:07:14.150` **observed_spoken**: voice. Remember that compounding doesn't show up on a graph until it does, and
+- `00:07:16.830` **observed_spoken**: show up on a graph until it does, and then it's dramatic. So, stick with it.
+- `00:07:20.350` **observed_spoken**: then it's dramatic. So, stick with it. Expect imposter syndrome and keep going
+- `00:07:22.910` **observed_spoken**: Expect imposter syndrome and keep going anyway. Every creator that you admire
+- `00:07:25.830` **observed_spoken**: anyway. Every creator that you admire still feels it. The question to ask
+- `00:07:28.390` **observed_spoken**: still feels it. The question to ask yourself isn't, "Am I qualified to post
+- `00:07:31.110` **observed_spoken**: yourself isn't, "Am I qualified to post this?" It's "Could this help one
+- `00:07:34.070` **observed_spoken**: this?" It's "Could this help one person?" If yes, then post it, and stop
+- `00:07:38.150` **observed_spoken**: person?" If yes, then post it, and stop focusing on outcomes that you can't
+- `00:07:39.910` **observed_spoken**: focusing on outcomes that you can't control.
+- `00:07:41.150` **observed_spoken**: control. I'm looking at the marketers in the
+- `00:07:42.790` **observed_spoken**: I'm looking at the marketers in the room. Follower count, impression
+- `00:07:45.110` **observed_spoken**: room. Follower count, impression numbers, like counts, these are outputs.
+- `00:07:48.230` **observed_spoken**: numbers, like counts, these are outputs. Focus on the inputs instead. Write good
+- `00:07:50.750` **observed_spoken**: Focus on the inputs instead. Write good posts, build a real network, refine your
+- `00:07:53.550` **observed_spoken**: posts, build a real network, refine your craft. The outcomes follow, they just
+- `00:07:56.270` **observed_spoken**: craft. The outcomes follow, they just follow on a delay. And most people quit
+- `00:07:58.590` **observed_spoken**: follow on a delay. And most people quit before that delay resolves. Now, mindset
+- `00:08:01.750` **observed_spoken**: before that delay resolves. Now, mindset is a super hard thing to work on when
+- `00:08:04.510` **observed_spoken**: is a super hard thing to work on when all of your posts are flopping. Why are
+- `00:08:07.790` **observed_spoken**: all of your posts are flopping. Why are all your posts flopping?
+- `00:08:16.710` **observed_spoken**: If you're a marketer with limited time, which is most of us, spending 3 hours on
+- `00:08:20.150` **observed_spoken**: which is most of us, spending 3 hours on a post that gets 12 impressions isn't a
+- `00:08:22.830` **observed_spoken**: a post that gets 12 impressions isn't a content strategy. It becomes a morale
+- `00:08:26.310` **observed_spoken**: content strategy. It becomes a morale problem. You probably have a million
+- `00:08:28.470` **observed_spoken**: problem. You probably have a million post ideas in your head. So, how do you
+- `00:08:30.790` **observed_spoken**: post ideas in your head. So, how do you actually narrow down which ones to spend
+- `00:08:33.350` **observed_spoken**: actually narrow down which ones to spend time on? You want to be able to
+- `00:08:35.030` **observed_spoken**: time on? You want to be able to prioritize your ideas based on the time
+- `00:08:37.590` **observed_spoken**: prioritize your ideas based on the time they take to create and viral potential.
+- `00:08:40.670` **observed_spoken**: they take to create and viral potential. Ben Meer created a scoring system for
+- `00:08:42.830` **observed_spoken**: Ben Meer created a scoring system for this. He calls it the smart post
+- `00:08:44.830` **observed_spoken**: this. He calls it the smart post algorithm. Every idea in your head gets
+- `00:08:47.350` **observed_spoken**: algorithm. Every idea in your head gets scored between one and five in both
+- `00:08:49.670` **observed_spoken**: scored between one and five in both categories, time to create and viral
+- `00:08:52.190` **observed_spoken**: categories, time to create and viral potential. Add those numbers together
+- `00:08:54.190` **observed_spoken**: potential. Add those numbers together and the highest combined score is what
+- `00:08:56.590` **observed_spoken**: and the highest combined score is what you write first. This system doesn't
+- `00:08:58.630` **observed_spoken**: you write first. This system doesn't just tell you what to write, it stops
+- `00:09:00.750` **observed_spoken**: just tell you what to write, it stops you from wasting your best creative
+- `00:09:02.590` **observed_spoken**: you from wasting your best creative energy on your least effective ideas.
+- `00:09:05.230` **observed_spoken**: energy on your least effective ideas. Once you score a few posts, you will
+- `00:09:07.150` **observed_spoken**: Once you score a few posts, you will quickly find out that your best ideas
+- `00:09:09.470` **observed_spoken**: quickly find out that your best ideas are the ones that take longer to write.
+- `00:09:11.910` **observed_spoken**: are the ones that take longer to write. But there is a way to maximize that time
+- `00:09:14.270` **observed_spoken**: But there is a way to maximize that time and turn those ideas into your easiest
+- `00:09:17.110` **observed_spoken**: and turn those ideas into your easiest growth move.
+- `00:09:24.430` **observed_spoken**: If you want to hack the LinkedIn algorithm, there is one tool that you
+- `00:09:26.670` **observed_spoken**: algorithm, there is one tool that you should be going all-in on, LinkedIn
+- `00:09:29.790` **observed_spoken**: should be going all-in on, LinkedIn newsletters. Once you create one, every
+- `00:09:32.830` **observed_spoken**: newsletters. Once you create one, every time you have a new connection, they are
+- `00:09:35.150` **observed_spoken**: time you have a new connection, they are going to be prompted to subscribe. I've
+- `00:09:37.230` **observed_spoken**: going to be prompted to subscribe. I've posted about my newsletter like maybe
+- `00:09:39.590` **observed_spoken**: posted about my newsletter like maybe twice and I have almost 500 subscribers.
+- `00:09:42.710` **observed_spoken**: twice and I have almost 500 subscribers. It is the easiest social media growth
+- `00:09:45.190` **observed_spoken**: It is the easiest social media growth tactic that I have ever tried and here's
+- `00:09:47.270` **observed_spoken**: tactic that I have ever tried and here's why it matters. Every time you publish
+- `00:09:49.390` **observed_spoken**: why it matters. Every time you publish an edition, LinkedIn sends a push
+- `00:09:51.710` **observed_spoken**: an edition, LinkedIn sends a push notification, an in-app alert, and an
+- `00:09:54.590` **observed_spoken**: notification, an in-app alert, and an email directly to every single
+- `00:09:56.790` **observed_spoken**: email directly to every single subscriber. You are literally bypassing
+- `00:09:59.350` **observed_spoken**: subscriber. You are literally bypassing the algorithm to reach your audience.
+- `00:10:01.350` **observed_spoken**: the algorithm to reach your audience. So, here's how to turn your best post
+- `00:10:03.310` **observed_spoken**: So, here's how to turn your best post ideas into a full content system. Take
+- `00:10:06.430` **observed_spoken**: ideas into a full content system. Take that high viral, slow to create idea,
+- `00:10:09.190` **observed_spoken**: that high viral, slow to create idea, write it as a newsletter. Go deep, add
+- `00:10:11.510` **observed_spoken**: write it as a newsletter. Go deep, add frameworks, the examples, the full
+- `00:10:13.870` **observed_spoken**: frameworks, the examples, the full context. Then, take that newsletter and
+- `00:10:17.070` **observed_spoken**: context. Then, take that newsletter and pull the single most surprising or
+- `00:10:19.190` **observed_spoken**: pull the single most surprising or actionable insight. Turn that into a
+- `00:10:21.950` **observed_spoken**: actionable insight. Turn that into a LinkedIn post that sends people to the
+- `00:10:24.190` **observed_spoken**: LinkedIn post that sends people to the full newsletter for a deeper dive. You
+- `00:10:26.870` **observed_spoken**: full newsletter for a deeper dive. You can even use AI to help with this part.
+- `00:10:29.150` **observed_spoken**: can even use AI to help with this part. One idea, two pieces of content. A feed
+- `00:10:32.270` **observed_spoken**: One idea, two pieces of content. A feed post that builds reach and a newsletter
+- `00:10:34.630` **observed_spoken**: post that builds reach and a newsletter that builds a subscriber list you own.
+- `00:10:37.030` **observed_spoken**: that builds a subscriber list you own. That is the compounding move that most
+- `00:10:39.470` **observed_spoken**: That is the compounding move that most people on the platform never figure out.
+- `00:10:42.070` **observed_spoken**: people on the platform never figure out. I have a full video walking you through
+- `00:10:43.710` **observed_spoken**: I have a full video walking you through exactly how to set up your LinkedIn
+- `00:10:45.470` **observed_spoken**: exactly how to set up your LinkedIn newsletter and I will link it in the
+- `00:10:47.550` **observed_spoken**: newsletter and I will link it in the description for you. Okay, you know what
+- `00:10:49.510` **observed_spoken**: description for you. Okay, you know what to write, how to prioritize it, and how
+- `00:10:51.630` **observed_spoken**: to write, how to prioritize it, and how to make your best ideas go further. But,
+- `00:10:53.710` **observed_spoken**: to make your best ideas go further. But, there is one thing that separates the
+- `00:10:55.510` **observed_spoken**: there is one thing that separates the people who plateau from the people who
+- `00:10:58.070` **observed_spoken**: people who plateau from the people who actually compound.
+- `00:11:07.030` **observed_spoken**: Growing on LinkedIn is not about doing more. It's about learning faster than
+- `00:11:09.510` **observed_spoken**: more. It's about learning faster than everyone else. Most people just post and
+- `00:11:12.790` **observed_spoken**: everyone else. Most people just post and hope. They never look back at what
+- `00:11:15.270` **observed_spoken**: hope. They never look back at what worked and why. The creators who
+- `00:11:17.510` **observed_spoken**: worked and why. The creators who compound are running a feedback loop on
+- `00:11:20.190` **observed_spoken**: compound are running a feedback loop on repeat. There are four numbers in your
+- `00:11:22.430` **observed_spoken**: repeat. There are four numbers in your analytics that actually matter.
+- `00:11:24.590` **observed_spoken**: analytics that actually matter. Impressions, is the algorithm amplifying
+- `00:11:27.150` **observed_spoken**: Impressions, is the algorithm amplifying you or not? Follower growth, weekly
+- `00:11:29.830` **observed_spoken**: you or not? Follower growth, weekly spikes tell you exactly which content
+- `00:11:32.230` **observed_spoken**: spikes tell you exactly which content type is attracting new people. Saves,
+- `00:11:34.910` **observed_spoken**: type is attracting new people. Saves, one of the most powerful signals on the
+- `00:11:37.470` **observed_spoken**: one of the most powerful signals on the platform. High saves tell LinkedIn that
+- `00:11:40.150` **observed_spoken**: platform. High saves tell LinkedIn that this post is worth keeping and it gets
+- `00:11:42.590` **observed_spoken**: this post is worth keeping and it gets boosted accordingly. And the strongest
+- `00:11:45.270` **observed_spoken**: boosted accordingly. And the strongest signal of all, reposts. When someone
+- `00:11:48.630` **observed_spoken**: signal of all, reposts. When someone reposts your content, they are not just
+- `00:11:50.830` **observed_spoken**: reposts your content, they are not just engaging. They're telling the algorithm,
+- `00:11:53.710` **observed_spoken**: engaging. They're telling the algorithm, "Send this to everyone who looks like
+- `00:11:55.990` **observed_spoken**: "Send this to everyone who looks like me." One repost does more for your
+- `00:11:58.190` **observed_spoken**: me." One repost does more for your distribution than 50 likes. If you're
+- `00:12:00.670` **observed_spoken**: distribution than 50 likes. If you're not tracking reposts, you don't actually
+- `00:12:03.470` **observed_spoken**: not tracking reposts, you don't actually know which of your posts work the best.
+- `00:12:06.270` **observed_spoken**: know which of your posts work the best. Close the loop with the rule of 100.
+- `00:12:09.110` **observed_spoken**: Close the loop with the rule of 100. Post 100 pieces of content, analyze your
+- `00:12:11.750` **observed_spoken**: Post 100 pieces of content, analyze your top 10, what format, what hook type,
+- `00:12:13.910` **observed_spoken**: top 10, what format, what hook type, what topic. Double down on all three,
+- `00:12:16.790` **observed_spoken**: what topic. Double down on all three, post the next 100, repeat. That is how
+- `00:12:20.190` **observed_spoken**: post the next 100, repeat. That is how you compound your growth. Most people
+- `00:12:22.470` **observed_spoken**: you compound your growth. Most people are out here treating LinkedIn growth
+- `00:12:24.310` **observed_spoken**: are out here treating LinkedIn growth like a mystery. They post
+- `00:12:25.750` **observed_spoken**: like a mystery. They post inconsistently, write on random topics,
+- `00:12:28.190` **observed_spoken**: inconsistently, write on random topics, use weak hooks, and wonder why nothing
+- `00:12:31.230` **observed_spoken**: use weak hooks, and wonder why nothing sticks. The answer is never talent. It
+- `00:12:34.310` **observed_spoken**: sticks. The answer is never talent. It is the absence of a system. Ben Meer's
+- `00:12:36.950` **observed_spoken**: is the absence of a system. Ben Meer's full seven-part LinkedIn growth system
+- `00:12:39.270` **observed_spoken**: full seven-part LinkedIn growth system is free to download. It's in the
+- `00:12:40.750` **observed_spoken**: is free to download. It's in the description and it goes deeper on
+- `00:12:42.870` **observed_spoken**: description and it goes deeper on everything that we covered and has
+- `00:12:44.590` **observed_spoken**: everything that we covered and has actual templates and frameworks so that
+- `00:12:47.070` **observed_spoken**: actual templates and frameworks so that you're not starting from scratch.
+- `00:12:49.270` **observed_spoken**: you're not starting from scratch. If this video is going to help you grow
+- `00:12:51.030` **observed_spoken**: If this video is going to help you grow on LinkedIn, hit like so I know. And if
+- `00:12:53.830` **observed_spoken**: on LinkedIn, hit like so I know. And if you want a new marketing breakdown every
+- `00:12:55.830` **observed_spoken**: you want a new marketing breakdown every single week, then subscribe to HubSpot
+- `00:12:57.950` **observed_spoken**: single week, then subscribe to HubSpot Marketing for weekly videos and free
+- `00:13:00.070` **observed_spoken**: Marketing for weekly videos and free resources to help keep your strategy
+- `00:13:02.150` **observed_spoken**: resources to help keep your strategy ahead. And like I promised, the video
+- `00:13:04.590` **observed_spoken**: ahead. And like I promised, the video that shows you how to set up your
+- `00:13:05.910` **observed_spoken**: that shows you how to set up your LinkedIn profile for the 2026 algorithm
+- `00:13:08.630` **observed_spoken**: LinkedIn profile for the 2026 algorithm will be linked on screen here in a
+- `00:13:10.550` **observed_spoken**: will be linked on screen here in a second for you to watch next. It is the
+- `00:13:12.710` **observed_spoken**: second for you to watch next. It is the first piece that you need to nail before
+- `00:13:15.030` **observed_spoken**: first piece that you need to nail before expecting any kind of growth on
+- `00:13:16.750` **observed_spoken**: expecting any kind of growth on LinkedIn. Thanks so much for hanging out
+- `00:13:18.430` **observed_spoken**: LinkedIn. Thanks so much for hanging out with me. My name is Bridget O'Rourke.
+- `00:13:20.710` **observed_spoken**: with me. My name is Bridget O'Rourke. Feel free to connect with me online and
+- `00:13:22.350` **observed_spoken**: Feel free to connect with me online and I will see you in the next one.
+- `00:13:24.470` **observed_spoken**: I will see you in the next one. Bye.
+- `00:13:32.390` **observed_spoken**: &gt;&gt; Thank you. Thank Thank you.
+- `156` **observed_visual**: Profile headline comparison
+- `163` **observed_visual**: Strong headline formula
+- `238` **observed_visual**: Hook framework deck
+- `326` **observed_visual**: Dopamine density
+- `349` **observed_visual**: Intentional story framework
+- `366` **observed_visual**: Story tension
+- `520` **observed_visual**: Smart Post matrix
+- `527` **observed_visual**: Idea scoring example
+- `564` **observed_visual**: Newsletter flywheel
+- `603` **observed_visual**: Newsletter conversion
+- `682` **observed_visual**: Analytics metrics
+- `726` **observed_visual**: Analytics dashboard
+- `n/a` **uncertainty**: English captions are auto-generated and may contain recognition errors.
+- `n/a` **uncertainty**: 95 scene-selected frames and 12 cue frames were human-inspected; OCR was not run.
+- `n/a` **uncertainty**: Performance and algorithm claims are source-attributed, not independently causal proof.

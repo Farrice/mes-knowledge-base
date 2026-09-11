@@ -1,0 +1,23 @@
+{
+  "schema_version": "research-receipt/v1",
+  "provider": "codex-native",
+  "engine": "codex-host-native-web",
+  "run_id": "codex-native-linkedin-health-pmf-20260817-01",
+  "started_at": "2026-08-17T20:42:00Z",
+  "completed_at": "2026-08-17T21:03:45Z",
+  "elapsed_seconds": 1305,
+  "elapsed_time_state": "task-window measurement rounded to the nearest minute at start",
+  "source_count": 23,
+  "domain_count": 18,
+  "resolved_citations": 23,
+  "estimated_cost_usd": 0.0,
+  "actual_cost_usd": 0.0,
+  "incremental_api_cost_usd": 0.0,
+  "billing_verification": "no provider API call executed",
+  "provider_calls": [],
+  "gap_closing_rounds": 2,
+  "counterevidence_search_executed": true,
+  "authority_resolution_executed": true,
+  "stop_reason": "sealed report complete",
+  "proof_state": "UNTESTED / NO EVENT"
+}

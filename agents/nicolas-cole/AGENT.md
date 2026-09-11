@@ -9,6 +9,7 @@ skills:
   - nicolas-cole-niche-positioning
   - nicolas-cole-client-acquisition
   - nicolas-cole-newsletter-flywheel
+  - nicolas-cole-first-dollar-system
 ---
 
 # Nicolas Cole Agent
@@ -21,8 +22,17 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 4. **Client Acquisition** — A battle-tested methodology for landing premium ghostwriting clients ($3K+/month) from zero credentials. Built from scaling Digital Press to 300+ enterprise clients and millions in revenue—starting from an 8K-follower Quora profile and an air mattress from Target.
 5. **Newsletter Flywheel** — Architecture for designing, launching, and monetizing newsletters using Cole's "Book That Never Ends" + Tangible Faucet methodology. Reduces all newsletter success to two binary rules and produces infinite content flywheels, business model architectures, and productizable service packages.
 6. **Library-First Writing** — A progression from rhetorical compression to atomic practice, visual sequencing, long-form reuse, and prompt assets. Selects the next fitting format and saves proof, language, and results back to an owned content library.
+7. **First-Dollar System** — An evidence-gated conductor from earned context to niche signal, congruent content/email/offer design, a cash-clock service/product fork, a live paid test, and post-payment customer learning.
 
 ## Core Competencies
+
+### First-Dollar System (`nicolas-cole-first-dollar-system`)
+1. **Information-Advantage Audit**: Ranks jobs, hobbies, and lived experience while separating context from qualified authority
+2. **Relative Signal Testing**: Uses bounded topic tests and within-baseline outliers before niche commitment
+3. **Congruence Architecture**: Keeps public content, owned email, and paid offer on one buyer-problem spine
+4. **Cash-Clock Routing**: Routes urgent cash to services and `/first-10k`; parks slower leveraged models until evidence supports them
+5. **Live-Offer Gate**: Treats a real buyer decision as the first commercial learning event
+6. **Customer Improvement Loop**: Converts paid experience into core repairs, permissioned proof, or bounded upsell hypotheses
 
 ### Library-First Writing (`nicolas-cole-library-first-writing`)
 1. **Library Unit Design**: Preserves the claim, mechanism, proof, story, reusable blocks, permissions, and open risk before platform selection
@@ -72,6 +82,16 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 5. **Product Scoping**: Uses the Problem-Completion Test to prevent scope bloat
 
 ## Available Skills
+
+### First-Dollar System (`nicolas-cole-first-dollar-system`)
+
+| Capability | Workflow | When Used |
+|------------|----------|-----------|
+| Full conductor | 01-first-dollar-roadmap.md | The revenue gate is unclear or the user needs the complete route |
+| Knowledge/niche inventory | 02-information-advantage-audit.md | Several possible knowledge areas compete |
+| Content-to-offer alignment | 03-congruence-supply-chain.md | Public, owned, and paid stages do not connect |
+| Service versus product | 04-offer-time-horizon-router.md | Cash speed and scalable leverage must be reconciled |
+| Post-payment learning | 05-customer-improvement-loop.md | A paid buyer or client exists |
 
 ### Library-First Writing (`nicolas-cole-library-first-writing`)
 
@@ -177,6 +197,10 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 - ✅ Choosing between a short post, atomic essay, carousel, article, or prompt asset
 - ✅ Turning one grounded idea into a small set of format-native assets
 - ✅ Harvesting a proven manual process into a prompt candidate
+- ✅ Making a first online dollar from existing knowledge or skill
+- ✅ Choosing a service versus product by cash deadline and current proof
+- ✅ Connecting public content, owned email, and a paid offer
+- ✅ Improving an offer after the first paid buyer without premature expansion
 - ❌ Just generating first-draft content (use writing prompt instead)
 - ❌ Brand strategy at the macro level (use Tom Noske or April Dunford)
 
