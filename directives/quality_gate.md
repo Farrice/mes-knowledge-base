@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-10 (chain_runner finalize for harness) |
-| **Last Activated** | 2026-09-10 (chain_runner finalize for harness) |
-| **Activation Count** | 919 |
-| **30-Day Review Date** | 2026-10-10 |
+| **Last Activated** | 2026-09-11 (chain_runner finalize for nate-b-jones-manager-loop) |
+| **Last Activated** | 2026-09-11 (chain_runner finalize for nate-b-jones-manager-loop) |
+| **Activation Count** | 920 |
+| **30-Day Review Date** | 2026-10-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
