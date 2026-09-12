@@ -19,7 +19,8 @@ is on screen — no worktree work, no Photoshop, no research. FIRST TURN: `open`
 `job_board.py go <slug> --note "<his words>"`. A WEAK MATCH from `recipe_cards.py match` means
 forge a card, never run the matched card's lanes. AFTER GO: run lanes in order of readiness in
 THIS turn, close each with `lane … --status --did "what was done / found / skipped" --evidence`
-and echo its LANE RECEIPT line; a lane that ends in a
+and echo its LANE RECEIPT line (`job_board.py dispatch <slug>` writes the per-lane brief files
+first; run each brief inline, write `lanes/<id>.result.md`, close with `--result … --seat astra`); a lane that ends in a
 diagnosis is not done — build it, or mark it `--status blocked --blocker "<decision needed>"`
 with a DECISION PACKET. End the turn only when `job_board.py next` prints MAY END. Job state
 lives on disk under `.agent/missions/<slug>/`; `/job resume <slug>` reloads it. Write only in a

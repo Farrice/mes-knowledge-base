@@ -604,6 +604,46 @@ def _job_prework_block(prompt: str) -> list[str]:
     return out
 
 
+def _job_context_line(prompt: str) -> str:
+    """One line carrying the open job into a PLAIN prompt (no /job typed): a pending
+    plan (his reply is probably the go), open packets (record the answer), runnable
+    lanes (this is not new work). Answers "do I have to fire /job every time?" — no:
+    the board follows him. Jobs touched in the last 24h only; never on a /job prompt."""
+    try:
+        if _explicit_job(prompt)[0] or (prompt or "").strip().startswith(("/", "@")):
+            return ""
+        exe = Path(__file__).resolve().parents[1]
+        r = subprocess.run([sys.executable, str(exe / "job_board.py"), "status", "--json"],
+                           capture_output=True, text=True, timeout=8, cwd=str(REPO_ROOT))
+        jobs = [j for j in json.loads(r.stdout or "[]") if j.get("status") not in ("complete", "closed", "parked")]
+        now = datetime.now(timezone.utc)
+        parts = []
+        # most recently written job first — the one he is most likely replying to
+        jobs.sort(key=lambda j: str(j.get("last") or "").split(" ")[0], reverse=True)
+        for j in jobs:
+            last = str(j.get("last") or "")
+            try:
+                ts = datetime.fromisoformat(last.split(" ")[0].strip())
+                if ts.tzinfo is None:
+                    ts = ts.astimezone()
+                if (now - ts).total_seconds() > 86400:
+                    continue
+            except Exception:
+                continue
+            s = j.get("slug")
+            if j.get("plan") == "pending":
+                parts.append(f"{s}: PLAN PENDING — if this reply is his go/edit: `python3 execution/job_board.py go {s} --note \"<his words>\"` then run the lanes")
+            elif int(j.get("packets") or 0) > 0:
+                parts.append(f"{s}: {j['packets']} packet(s) open — if this reply answers one: `python3 execution/job_board.py packet {s} answer <n> \"<his words>\"`, unblock, continue")
+            elif int(j.get("runnable") or 0) > 0:
+                parts.append(f"{s}: {j['runnable']} runnable lane(s) — this is not new work: `python3 execution/job_board.py next {s}` and keep the loop moving")
+        if not parts:
+            return ""
+        return "JOB CONTEXT (board, deterministic): " + " · ".join(parts[:3]) + "\n"
+    except Exception:
+        return ""
+
+
 def _job_observer_relay(session_id: str, since_iso: str) -> str:
     """One visible line for last turn's job observer events (plan never shown / turn
     ended with runnable lanes and no packet). Scar 2026-09-11: eight
@@ -1162,7 +1202,13 @@ def handle_prompt(payload: dict) -> None:
         relay = _job_observer_relay(session_id, prev_updated)
     except Exception:
         relay = ""
-    block = (relay + cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
+    jobctx = ""
+    try:
+        if "MODE JOB-HANDOFF" not in cc_block:
+            jobctx = _job_context_line(prompt)
+    except Exception:
+        jobctx = ""
+    block = (relay + jobctx + cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
     if block:
         print(block)
     sys.exit(0)
