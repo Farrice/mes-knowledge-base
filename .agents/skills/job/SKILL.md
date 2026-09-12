@@ -12,7 +12,9 @@ Use this skill for every job-shaped handoff, on Codex or Claude Code.
 Read and execute the workflow at `.agent/workflows/job.md`. Load
 `skills/nate-b-jones-manager-loop/genius.md` first.
 
-Codex is a single seat. FIRST TURN: `job_board.py open` prints a JOB PLAN — reply with that plan
+Codex is a single seat. FIRST TOOL CALL of a new job = `python3 execution/job_board.py open …`
+(after `recipe_cards.py match`; WEAK = forge the card first). Nothing else runs before the plan
+is on screen — no worktree work, no Photoshop, no research. FIRST TURN: `open` prints a JOB PLAN — reply with that plan
 (plus the interview questions) and END THE TURN; `next` prints PLAN PENDING until his go →
 `job_board.py go <slug> --note "<his words>"`. A WEAK MATCH from `recipe_cards.py match` means
 forge a card, never run the matched card's lanes. AFTER GO: run lanes in order of readiness in
@@ -25,4 +27,5 @@ Codex lane worktree (GOLDEN RULE). T2/T3 actions (publish, send, spend, delete, 
 always wait behind a packet.
 
 Never: a status update where a packet was owed; a second brief after the card; a fresh-pen
-dispatch; running a task-shaped ask through the board.
+dispatch; running a task-shaped ask through the board; starting the work before the plan.
+Taste work (design, copy, voice): the board still opens, but lanes run as visible beats.
