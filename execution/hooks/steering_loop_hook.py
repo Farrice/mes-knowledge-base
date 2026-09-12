@@ -498,12 +498,173 @@ def _job_shaped(pl: str) -> bool:
     return breadth >= 2
 
 
+# ── Explicit /job invocation (2026-09-11, JJ-3 invitation scar) ──────────
+# `[$job](…SKILL.md)` + a short ask + an image on Codex: the card above only
+# fired on the ≥200-char heuristic, and `_cc_prompt_block` returns "" for any
+# "/" prompt — so an EXPLICIT /job got no card at all. Astra read the skill
+# prose and went straight to Photoshop: no board entry, no plan, no questions
+# (`job-plan-not-shown` logged 8× on the Cooz job, read by nobody). Explicit
+# invocation now always fires, the hook does the deterministic pre-work (recipe
+# match + open jobs) so the first tool call is `open`, and last turn's observer
+# events are relayed as one visible line. Nudge, never a cage.
+_JOB_EXPLICIT_RE = re.compile(
+    r"(?:^|\n|## My request:)\s*(?:<command-message>job</command-message>\s*"
+    r"<command-name>/job</command-name>\s*(?:<command-args>)?|\[\$job\]\([^)]*\)|"
+    r"\$job\b|/job\b|job:)\s*", re.I)
+_JOB_SUBCMD_RE = re.compile(
+    r"^(resume|status|next|packet|handoff|close|recipes|plan|trace|go|lanes|log)\b", re.I)
+_JOB_TASTE_RE = re.compile(
+    r"\b(invitation|invite|design|logo|poster|flyer|banner|layout|mockup|copy|headline|"
+    r"hook|voice|tagline|caption|script|visual|illustration|thumbnail|brand look|"
+    r"party pack|carousel|reel)\b", re.I)
+_JOB_SLUG_STOP = {"the", "a", "an", "and", "for", "with", "this", "that", "into", "from", "of",
+                  "to", "my", "our", "i", "we", "you", "it", "is", "are", "be", "need", "want",
+                  "us", "on", "in", "me", "please", "can", "could", "would", "like", "get",
+                  "make", "just", "then", "there", "here", "have", "has", "all", "some"}
+
+
+def _explicit_job(prompt: str):
+    """(is_explicit, subcommand|None, ask) — the ask with every $skill mention stripped."""
+    m = _JOB_EXPLICIT_RE.search(prompt or "")
+    if not m:
+        return False, None, ""
+    rest = prompt[m.end():]
+    rest = re.sub(r"\[\$[\w-]+\]\([^)]*\)|\$[\w-]+\b", " ", rest)
+    rest = re.sub(r"</?command-args>", " ", rest)
+    rest = " ".join(rest.split())
+    sm = _JOB_SUBCMD_RE.match(rest)
+    return True, (sm.group(1).lower() if sm else None), rest
+
+
+def _job_slug_suggestion(ask: str) -> str:
+    words = [w for w in re.findall(r"[a-z0-9]+", ask.lower()) if w not in _JOB_SLUG_STOP]
+    return "-".join(words[:4]) or "new-job"
+
+
+def _job_prework_block(prompt: str) -> list[str]:
+    """Deterministic pre-work for a job turn: recipe match verdict, open jobs that
+    look like this ask, slug suggestion, the exact first command, taste shape check."""
+    explicit, sub_, ask = _explicit_job(prompt)
+    if not explicit:
+        ask = " ".join((prompt or "").split())
+    if sub_:
+        return [f"JOB CONTINUE (explicit /job {sub_}): FIRST tool call this turn = "
+                f"`python3 execution/job_board.py {sub_} …` (resume reloads from disk, never from "
+                "the transcript); the reply is its output plus every LANE RECEIPT and packet this "
+                "turn produces; end only on MAY END."]
+    exe = Path(__file__).resolve().parents[1]
+    out = ["JOB PRE-WORK (deterministic — the hook already ran these; do not skip to the work):"]
+    try:
+        r = subprocess.run([sys.executable, str(exe / "recipe_cards.py"), "match", ask[:600], "--json"],
+                           capture_output=True, text=True, timeout=8, cwd=str(REPO_ROOT))
+        d = json.loads(r.stdout or "{}")
+        v = d.get("verdict") or {}
+        rows = d.get("rows") or []
+        top = rows[0] if rows else None
+        if top and v.get("confident"):
+            out.append(f"  recipe: CONFIDENT MATCH {top['slug']} ({v.get('reason', '')}) → open on it")
+        elif top:
+            out.append(f"  recipe: WEAK MATCH (top {top['slug']} score {top.get('score')}; {v.get('reason', '')}) "
+                       f"→ FORGE a card first (recipes/<slug>.md with Ask-me-first filled, "
+                       f"recipe-card-forge.md); never run {top['slug']}'s lanes on this ask")
+        else:
+            out.append("  recipe: no match → forge a card first (recipe-card-forge.md)")
+    except Exception:
+        out.append("  recipe: matcher unavailable → run python3 execution/recipe_cards.py match \"<ask>\"")
+    try:
+        r = subprocess.run([sys.executable, str(exe / "job_board.py"), "status", "--json"],
+                           capture_output=True, text=True, timeout=8, cwd=str(REPO_ROOT))
+        jobs = [j for j in json.loads(r.stdout or "[]")
+                if j.get("status") not in ("complete", "closed", "parked")]
+        terms = set(re.findall(r"[a-z]{4,}", ask.lower())) - _JOB_SLUG_STOP
+        hits = []
+        for j in jobs:
+            jt = set(re.findall(r"[a-z]{4,}", ((j.get("slug") or "") + " " + (j.get("recipe") or "")).replace("-", " ")))
+            if len(terms & jt) >= 2:
+                hits.append(j["slug"])
+        if hits:
+            out.append("  open jobs that look like this ask: " + ", ".join(hits) +
+                       " → CONTINUE that one (python3 execution/job_board.py resume <slug>); never open a second job for it")
+        elif jobs:
+            out.append(f"  open jobs: {len(jobs)} ({', '.join(j['slug'] for j in jobs[:5])}) — none match this ask; a new job is right")
+        else:
+            out.append("  open jobs: none")
+    except Exception:
+        pass
+    out.append(f"  slug suggestion: {_job_slug_suggestion(ask)}")
+    out.append("  FIRST tool call this turn = `python3 execution/job_board.py open <slug> --recipe <recipe> "
+               "--goal \"<his outcome sentence>\" [--found \"<path>: <answer>\" …] [--ask \"<question>\" …]` "
+               "— the JOB PLAN it prints IS the reply, carrying an INTERVIEW block (Found on disk: … / "
+               "Questions: … or 'none, because …'). No file is touched and no lane runs before that plan "
+               "is on screen; the turn ends at PLAN PENDING.")
+    if _JOB_TASTE_RE.search(ask):
+        out.append("  Shape check: this reads as TASTE work (design/copy/voice). Still open the board — it is "
+                   "the trace — but run the lanes as visible beats (one take → his verdict → next), never "
+                   "hands-off; /jam is the right engine for the taste lanes.")
+    return out
+
+
+def _job_observer_relay(session_id: str, since_iso: str) -> str:
+    """One visible line for last turn's job observer events (plan never shown / turn
+    ended with runnable lanes and no packet). Scar 2026-09-11: eight
+    job-plan-not-shown events on one job, read by nobody."""
+    try:
+        if not OBSERVE_LOG.exists():
+            return ""
+        since = None
+        if since_iso:
+            try:
+                since = datetime.fromisoformat(since_iso)
+                if since.tzinfo is None:
+                    since = since.astimezone()
+            except Exception:
+                since = None
+        now = datetime.now(timezone.utc)
+        hits = {}
+        for ln in OBSERVE_LOG.read_text(errors="replace").splitlines()[-300:]:
+            try:
+                rec = json.loads(ln)
+            except Exception:
+                continue
+            ev = rec.get("event")
+            if ev not in ("job-plan-not-shown", "job-turn-ended-unblocked"):
+                continue
+            if rec.get("session_id") != session_id:
+                continue
+            try:
+                ts = datetime.fromisoformat(rec.get("ts", ""))
+                if ts.tzinfo is None:
+                    ts = ts.astimezone()
+            except Exception:
+                continue
+            if since is not None and ts <= since:
+                continue
+            if (now - ts).total_seconds() > 86400:
+                continue
+            hits[(rec.get("job") or "?", ev)] = rec
+        if not hits:
+            return ""
+        parts = []
+        for job, ev in hits:
+            if ev == "job-plan-not-shown":
+                parts.append(f"{job}: the JOB PLAN was never shown → show it now "
+                             f"(python3 execution/job_board.py plan {job}) and wait for his go")
+            else:
+                parts.append(f"{job}: last turn ended with runnable lanes and no packet → continue them "
+                             f"(python3 execution/job_board.py next {job}) or write the packet")
+        return "⚠ LAST TURN (job observer, deterministic): " + " · ".join(parts) + "\n"
+    except Exception:
+        return ""
+
+
 def _cc_work_mode(prompt: str, is_feedback: bool):
     """JOB-HANDOFF | BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
     pl = prompt.lower().strip()
     m = _CC_MODE_OVERRIDE_RE.search(pl)
     if m:
         return m.group(1).upper()
+    if _explicit_job(prompt)[0]:
+        return "JOB-HANDOFF"
     if is_feedback:
         return "REFINE-EXISTING"
     if _job_shaped(pl):
@@ -691,7 +852,7 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     # Slash/system commands already name their route — a mode card is redundant
     # and the brake is noise there (live-fire calibration, first firing was on
     # /end-session). Bare-name workflow invocations still pass through.
-    if prompt.strip().startswith(("/", "@")):
+    if prompt.strip().startswith(("/", "@")) and not _explicit_job(prompt)[0]:
         return ""
     renditions = _cc_renditions(session_id)
     is_feedback = _cc_feedback(prompt, renditions)
@@ -726,6 +887,11 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
         if mode == "JOB-HANDOFF":
             card = _JOB_CARDS["codex" if _CODEX else "claude"]
         lines.append(f"MODE {mode} (say 'mode X' to override): {card}".rstrip())
+        if mode == "JOB-HANDOFF":
+            try:
+                lines.extend(_job_prework_block(prompt))
+            except Exception:
+                pass
 
     mirror = _mirror_block(prompt, mode)
     if mirror:
@@ -839,6 +1005,7 @@ def handle_prompt(payload: dict) -> None:
 
     state = _load_state()
     entry = state.get(session_id) or {"count": 0, "updated": ""}
+    prev_updated = str(entry.get("updated") or "")
     entry["count"] = int(entry.get("count", 0)) + 1
     entry["updated"] = _now_iso()
     state[session_id] = entry
@@ -990,7 +1157,12 @@ def handle_prompt(payload: dict) -> None:
     tip = ""
     if count % 5 == 1 and not _CODEX:  # tips are Claude-flavored (Fable/Sonnet seats)
         tip = f"Harness tip: {TIPS[(count - 1) % len(TIPS)]}"
-    block = (cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
+    relay = ""
+    try:
+        relay = _job_observer_relay(session_id, prev_updated)
+    except Exception:
+        relay = ""
+    block = (relay + cc_block + co_creation + fresh_pen + dialect + steering + tip).rstrip()
     if block:
         print(block)
     sys.exit(0)

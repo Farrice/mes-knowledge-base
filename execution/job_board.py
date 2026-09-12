@@ -326,7 +326,8 @@ def trace_lines(slug: str) -> list[str]:
     return [l for l in tp.read_text(encoding="utf-8").splitlines() if l.startswith("- ")]
 
 
-def plan_text(slug: str, card: dict, recipe: str, goal: str, match_note: str) -> str:
+def plan_text(slug: str, card: dict, recipe: str, goal: str, match_note: str,
+              extra_ask=None, found=None) -> str:
     secs = card["sections"]
     lines = [f"JOB PLAN — {slug}", f"Goal: {goal}", f"Recipe: {recipe} · {match_note}"]
     if re.match(r"^\s*(decide|should (i|we)|which|whether|do i|is it worth|what should i)\b", goal, re.I) \
@@ -338,8 +339,12 @@ def plan_text(slug: str, card: dict, recipe: str, goal: str, match_note: str) ->
         dep = f"after {', '.join(l['after'])}" if l["after"] else "parallel"
         lines.append(f"  {l['id']} {l['name']} [{dep}] — {l['desc']}")
     ask = [x.strip() for x in secs.get("Ask me first", "").splitlines() if x.strip().startswith("-")]
+    ask = [x.lstrip('- ').strip() for x in ask] + [q.strip() for q in (extra_ask or []) if q.strip()]
+    if found:
+        lines += ["", "Found on disk (interview questions answered without asking):"]
+        lines += [f"  - {f.strip()}" for f in found if f.strip()]
     lines += ["", "Questions I need answered before lane 1 (only ones that change the plan):"]
-    lines += [f"  {x.lstrip('- ').strip()}" for x in ask] or ["  none — everything is on disk"]
+    lines += [f"  {x}" for x in ask] or ["  none — everything is on disk"]
     alone = " ".join(secs.get("Handles alone", "").split())
     back = [x.strip().lstrip("- ") for x in secs.get("Comes back when", "").splitlines() if x.strip()]
     appr = " ".join(secs.get("Needs approval", "").split())
@@ -425,7 +430,8 @@ def cmd_open(a):
     else:
         match_note = (f"chosen by hand (the matcher's top pick was {top}: {v['reason']})"
                       if top else "chosen by hand (the matcher scored nothing)")
-    ptxt = plan_text(slug, card, recipe, goal, match_note)
+    ptxt = plan_text(slug, card, recipe, goal, match_note,
+                     extra_ask=getattr(a, "ask", None), found=getattr(a, "found", None))
     with locked(slug):
         state = mc.read_state(slug)
         state["job"]["plan"] = "confirmed" if a.go else "pending"
@@ -912,6 +918,8 @@ def main(argv=None):
     s.add_argument("--mode", default="general", choices=["general", "client", "personal", "code", "research", "system"])
     s.add_argument("--force", action="store_true")
     s.add_argument("--go", action="store_true", help="skip the plan beat (his 'just do it')")
+    s.add_argument("--ask", action="append", help="interview question that survived disk-first (repeatable)")
+    s.add_argument("--found", action="append", help="'<path>: <answer>' found on disk instead of asked (repeatable)")
     s.set_defaults(fn=cmd_open)
     s = sub.add_parser("plan"); s.add_argument("slug"); s.set_defaults(fn=cmd_plan)
     s = sub.add_parser("go"); s.add_argument("slug"); s.add_argument("--note"); s.set_defaults(fn=cmd_go)

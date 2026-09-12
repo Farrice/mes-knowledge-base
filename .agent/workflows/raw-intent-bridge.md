@@ -19,6 +19,12 @@ and not a competing router.
 > companion surface. Its Stage 0 Vision Translation is canonical and now
 > also lives in /go's Mission Card as the Felt-standard line.
 
+> **Stand-down rule (2026-09-11):** when the same message carries `$job`/`/job`, or a job for
+> this work is already open on the board (`python3 execution/job_board.py status`), the bridge
+> stands down. Stage 0 may feed the job's goal sentence; the packet/first-safe-action path does
+> not run — the JOB PLAN is the packet. (Scar: `$job $raw-intent-bridge` stacked on the JJ-3
+> invitation; Astra took the bridge's "first safe action" and skipped the board.)
+
 ## Invocation Contract
 
 Accepted forms are equivalent:

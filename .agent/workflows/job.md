@@ -52,6 +52,12 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
    only when he said "just do it" in the ask. This card IS the brief — never a second INTENT
    BRIEF, never a fresh-pen dispatch. (Scar 2026-09-10: Coach Cooz ran the Poppy card's lanes
    with no plan shown and no interview — "it just does things".)
+   **The interview is always visible, even when zero questions survive.** `open --found
+   "<path>: <answer>"` records what disk answered; `open --ask "<question>"` records what
+   survived; the plan prints both. "none — everything is on disk" must be earned by `--found`
+   lines, never asserted. (Scar 2026-09-11: the JJ-3 invitation on Codex — `$job` was typed,
+   the skill prose was read, and Astra went straight to Photoshop: no board, no plan, no
+   question. The hook now does the pre-work itself and names the first tool call.)
 4. **Run** — `manager-loop-run.md`, every cycle: `job_board.py next` → dispatch all runnable
    lanes (writes = you, serial; read-only lanes = background Sonnet seats on Claude Code; Codex =
    in order, this turn) → close every lane with `job_board.py lane <slug> <id> --status … --did
@@ -67,6 +73,28 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
 6. **Closeout** — `job-closeout.md` → `job_board.py close …`; last line verbatim
    `Verdict on this one — good / marginal / off?`; `/extract-approach` if something non-trivial
    was cracked.
+
+## How to use it (operator guide, 2026-09-11)
+
+- **Fire `/job` once per job, at the top.** It opens the board. Everything you say after that
+  inside the same job is an answer, an edit, or a verdict — plain words, no prefix. Re-firing
+  `/job` mid-job either re-triages or opens a second job for the same work (the board nudges).
+- **What you should SEE, every time.** Turn 1: `JOB PLAN` (goal · recipe verdict · lanes as
+  what-I'll-do · Found on disk · Questions · approvals) and the turn ends. Your `go`. Then every
+  turn: `LANE RECEIPT` lines (did / found / skipped + evidence path) and `DECISION PACKET`s,
+  ending only on `MAY END`. If a turn shows none of those, the hook relays it on your next
+  prompt (`⚠ LAST TURN (job observer)`) — that line is the system admitting it went silent.
+  Anytime: `python3 execution/job_board.py trace <slug>` or Homebase → Jobs.
+- **Taste work is a jam, not a hands-off job.** An invitation, a logo, a post, a voice line:
+  `/job` may still open the board (the trace is worth having), but the lanes run as visible
+  beats — one take, your verdict, next (`/jam`). Hands-off is for jobs with a checkable outcome.
+- **Do not stack `$raw-intent-bridge` on `$job`.** The bridge is the Codex twin of `/go`
+  (task-shaped). Two front doors in one message = Astra picks the lighter one and skips the
+  board. The better results you felt came from its Stage 0 mirror (anchor · deliverable ·
+  felt standard) — the hook's Intent Mirror already does that on every raw ask.
+- **Debt check.** Firing `/job` on a task costs nothing in code, but a job that never reached
+  the board leaves no trace, no receipts, no recipe ratchet — you cannot resume it, hand it
+  off, or learn from it. That is the only debt, and it is the one this workflow exists to end.
 
 ## Harness rules
 
