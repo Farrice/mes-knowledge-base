@@ -3,8 +3,8 @@ job: decision-packet
 name: Decision packet (a choice that is his, on the board)
 family: harness
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 5
+last_ratchet: 2026-09-11
 ---
 
 ## The job
@@ -40,4 +40,8 @@ The ask verbatim · `.agent/*.json` spend trackers · usage-policy directives ·
 One packet on the board (Choice · Irreversible? · Options + recommendation · If no answer) · every figure labelled VERIFIED / LIKELY / UNCONFIRMED · lane L1 blocked on his answer · after his answer: lane complete with the answer as evidence, job closed.
 
 ## Ratchet log
-- none yet
+- 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
+- 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
+- 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
+- 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
+- 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence

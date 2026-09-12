@@ -586,8 +586,8 @@ def main():
             print("== headless run + copy relay (2026-09-11)")
             rc, out = board(["open", "j-run", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--go"], root)
             rc, out = board(["run", "j-run", "--harness", "claude", "--dry-run"], root)
-            check("run --dry-run (claude) pins --model sonnet, --permission-mode acceptEdits, /job resume <slug>",
-                  rc == 0 and "--model sonnet" in out and "--permission-mode acceptEdits" in out
+            check("run --dry-run (claude) pins --model opus, --permission-mode acceptEdits, /job resume <slug>",
+                  rc == 0 and "--model opus" in out and "--permission-mode acceptEdits" in out
                   and "/job resume j-run" in out, out[:400])
             rc, out = board(["run", "j-run", "--harness", "codex", "--dry-run"], root)
             check("run --dry-run (codex) swaps to codex exec + $job resume <slug>",
@@ -684,8 +684,8 @@ def main():
             print("== worker seats (2026-09-11)")
             rc, out = board(["open", "j-worker", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--go"], root)
             rc, out = board(["worker", "j-worker", "--lanes", "L1", "--dry-run"], root)
-            check("worker --dry-run (claude) prints [dry-run], claude -p, --model sonnet, WORKER SEAT on job <slug>",
-                  rc == 0 and "[dry-run]" in out and "claude -p" in out and "--model sonnet" in out
+            check("worker --dry-run (claude) prints [dry-run], claude -p, --model opus (write lane default), WORKER SEAT on job <slug>",
+                  rc == 0 and "[dry-run]" in out and "claude -p" in out and "--model opus" in out
                   and "WORKER SEAT on job j-worker" in out, out[:400])
             rc, out = board(["worker", "j-worker", "--lanes", "L1", "--harness", "codex",
                              "--model", "gpt-5-mini", "--dry-run"], root)

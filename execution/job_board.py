@@ -53,7 +53,7 @@ Usage:
   python3 execution/job_board.py resume <slug>
   python3 execution/job_board.py status [--all] [slug]
   python3 execution/job_board.py dispatch <slug> [--lane L2]             # worker brief per runnable lane + seat
-  python3 execution/job_board.py run <slug> [--harness codex] [--max-turns 6] [--max-minutes 90] [--model sonnet]  # headless to MAY END, from a lane
+  python3 execution/job_board.py run <slug> [--harness codex] [--max-turns 6] [--max-minutes 90] [--model opus]  # headless to MAY END, from a lane
   python3 execution/job_board.py --brief                                 # one line for session_brief
   python3 execution/job_board.py close <slug> --done "..." --aligned "..." --unauthorized "..." --approvals "..." [--verdict good|marginal|off] [--ratchet "..."] [--force]
   python3 execution/job_board.py lint <slug>
@@ -687,9 +687,10 @@ def _runner_cmd(a, slug: str, turn: int, cwd: Path, last_md: Path) -> list[str]:
     cmd = ["claude", "-p", prompt, "--permission-mode", a.permission_mode]
     if a.allowed_tools:
         cmd += ["--allowedTools"] + a.allowed_tools.split(",")
-    # headless pen default = sonnet (live-fire packet 2026-09-11, his 'use our usage smartly'):
-    # an unattended run must never inherit an Opus/Fable session silently. --model overrides.
-    cmd += ["--model", a.model or "sonnet"]
+    # headless pen default = opus (Farrice 2026-09-11: "best intelligence available as the starting
+    # base"); manager turns judge, so they get the best Claude pen below Fable. Never inherits the
+    # calling session's model silently. --model overrides (sonnet for cheap grind).
+    cmd += ["--model", a.model or "opus"]
     if a.claude_max_turns:
         cmd += ["--max-turns", str(a.claude_max_turns)]
     return cmd
@@ -774,8 +775,23 @@ WORKER_PROMPT = ("You are a WORKER SEAT on job {slug}, lane {lane} — headless,
 def _worker_seat_name(a) -> str:
     if a.harness == "codex":
         return "codex"
-    m = (a.model or "sonnet").lower()
+    m = (a.model or "opus").lower()
     return m if m in SEATS else "sonnet"
+
+
+def _brief_kind(brief: Path) -> str:
+    """'read' when the dispatched brief says read-only research lane, else 'write'."""
+    try:
+        return "read" if "read-only research lane" in brief.read_text(errors="replace") else "write"
+    except Exception:
+        return "write"
+
+
+def _claude_worker_model(a, brief: Path) -> str:
+    """Farrice 2026-09-11: best pen as the base — write lanes seat opus, read/grind lanes seat sonnet."""
+    if a.model:
+        return a.model
+    return "sonnet" if _brief_kind(brief) == "read" else "opus"
 
 
 def _worker_cmd(a, slug: str, lane_id: str, brief: Path, result: Path, cwd: Path, last_md: Path) -> list[str]:
@@ -790,7 +806,7 @@ def _worker_cmd(a, slug: str, lane_id: str, brief: Path, result: Path, cwd: Path
     cmd = ["claude", "-p", prompt, "--permission-mode", a.permission_mode]
     if a.allowed_tools:
         cmd += ["--allowedTools"] + a.allowed_tools.split(",")
-    cmd += ["--model", a.model or "sonnet"]
+    cmd += ["--model", _claude_worker_model(a, brief)]
     if a.claude_max_turns:
         cmd += ["--max-turns", str(a.claude_max_turns)]
     return cmd
@@ -803,7 +819,7 @@ def _run_one_worker(a, slug: str, lane_id: str, cwd: Path, runs: Path) -> dict:
     last_md = runs / f"{ts}-{lane_id}-worker.last.md"
     cmd = _worker_cmd(a, slug, lane_id, brief, result, cwd, last_md)
     shown = " ".join(c if len(c) < 90 else c[:87] + "…" for c in cmd)
-    seat = f"{a.harness}/{a.model or ('sonnet' if a.harness == 'claude' else 'config model')}"
+    seat = f"{a.harness}/{a.model or (_claude_worker_model(a, brief) if a.harness == 'claude' else 'astra (config model)')}"
     if a.dry_run:
         return {"lane": lane_id, "dry": shown, "seat": seat}
     env = dict(os.environ)
@@ -893,7 +909,7 @@ def _file_worker_result(slug: str, lane_id: str, result: Path, seat_name: str, s
 
 def cmd_worker(a):
     """Headless worker seats: one lane brief each, in parallel, on a cheaper pen. Claude Code:
-    `claude -p --model sonnet` (default). Codex: `codex exec -m <model>` — Codex has no native
+    `claude -p` (opus for write lanes, sonnet for read lanes). Codex: `codex exec` on Astra, `-m` for a cheaper pen — Codex has no native
     subagents (codex-cli 0.154.0, checked 2026-09-11), so this IS how Astra delegates down."""
     slug = a.slug
     state = read(slug)
@@ -928,7 +944,7 @@ def cmd_worker(a):
         return 1
     runs = mc.mission_dir(slug) / "runs"
     runs.mkdir(parents=True, exist_ok=True)
-    print(f"WORKERS — {slug} · {a.harness}/{a.model or ('sonnet' if a.harness == 'claude' else 'config model')} · "
+    print(f"WORKERS — {slug} · {a.harness}/{a.model or ('opus write / sonnet read' if a.harness == 'claude' else 'astra (config model)')} · "
           f"lanes {','.join(runnable)} · parallel {min(a.parallel, len(runnable))} · max {a.max_minutes} min each · cwd {cwd}")
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=max(1, min(a.parallel, len(runnable)))) as pool:
@@ -1408,7 +1424,7 @@ def main(argv=None):
     s.add_argument("--max-turns", dest="max_turns", type=int, default=6)
     s.add_argument("--max-minutes", dest="max_minutes", type=int, default=90)
     s.add_argument("--cwd", help="lane worktree to run in (default: this checkout; main is refused)")
-    s.add_argument("--model", help="pen for the headless turns (claude: e.g. sonnet; codex: -m)")
+    s.add_argument("--model", help="pen for the headless turns (claude: opus default, sonnet for grind; codex: Astra from config, -m gpt-5.6-sol for grind)")
     s.add_argument("--permission-mode", dest="permission_mode", default="acceptEdits")
     s.add_argument("--allowed-tools", dest="allowed_tools",
                    default="Bash(python3:*),Bash(ls:*),Bash(cat:*),Bash(grep:*),Read,Write,Edit,Glob,Grep")
@@ -1416,10 +1432,10 @@ def main(argv=None):
     s.add_argument("--allow-main", dest="allow_main", action="store_true")
     s.add_argument("--dry-run", dest="dry_run", action="store_true")
     s.set_defaults(fn=cmd_run)
-    s = sub.add_parser("worker", help="headless worker seats: one lane brief each on a cheaper pen (claude -p sonnet | codex exec -m), in parallel, receipts in runs/")
+    s = sub.add_parser("worker", help="headless worker seats: one lane brief each (claude -p: opus write / sonnet read | codex exec: Astra, -m for a cheaper pen), in parallel, receipts in runs/")
     s.add_argument("slug"); s.add_argument("--lanes", required=True, help="comma list, e.g. L2,L3")
     s.add_argument("--harness", choices=["claude", "codex"], default="claude")
-    s.add_argument("--model", help="claude: sonnet (default) | haiku | opus; codex: any model on his plan (passed as -m)")
+    s.add_argument("--model", help="claude: opus for write lanes, sonnet for read lanes by default (override: sonnet | haiku | opus); codex: Astra from config by default, -m gpt-5.6-sol for cheap grind")
     s.add_argument("--max-minutes", dest="max_minutes", type=int, default=30, help="per lane")
     s.add_argument("--parallel", type=int, default=3)
     s.add_argument("--cwd", help="lane worktree to run in (default: this checkout; main is refused)")
