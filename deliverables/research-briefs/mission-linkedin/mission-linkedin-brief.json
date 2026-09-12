@@ -4,9 +4,9 @@
   "title": "Linkedin — Execution *Checklist*",
   "dek": "Everything is written. The only thing missing is the part where a stranger reads it.",
   "window": "last 14 days",
-  "lens": "claude",
-  "sources": "0 sessions · 0 files · 9 assets",
-  "compiled": "sep 10, 2026",
+  "lens": "codex",
+  "sources": "2 sessions · 0 files · 9 assets",
+  "compiled": "sep 11, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 9 assets generated.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
+      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 9 assets generated.\n\nHandoff status is active. Last activity 4d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -103,7 +103,12 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "6",
+          "value": "2",
+          "label": "SESSIONS",
+          "note": "codex"
+        },
+        {
+          "value": "10",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -115,6 +120,28 @@
       "caption": "daily, last 14 days — each series scaled to itself",
       "series": [
         {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "2",
+          "unit": "total",
+          "note": "per day"
+        },
+        {
           "label": "assets",
           "values": [
             0,
@@ -123,8 +150,8 @@
             0,
             0,
             0,
-            0,
             9,
+            0,
             0,
             0,
             0,
@@ -231,6 +258,25 @@
       ]
     },
     {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-09-06",
+          "title": "codex session",
+          "body": "Extraction: Dan Koe Video - LinkedIn Skill System and Workf…",
+          "done": true
+        },
+        {
+          "date": "2026-08-31",
+          "title": "codex session",
+          "body": "Design: Performance Evidence Journal - LinkedIn Featured",
+          "done": true
+        }
+      ]
+    },
+    {
       "kind": "evidence",
       "heading": "the *record*",
       "tag": "HOW IT ENDED",
@@ -306,7 +352,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 20 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.\n\nThe judged analysis above is 21 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Linkedin — Execution Checklist
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 9 assets · compiled: sep 10, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 9 assets · compiled: sep 11, 2026
 
 Everything is written. The only thing missing is the part where a stranger reads it.
 
@@ -8,16 +8,16 @@ Everything is written. The only thing missing is the part where a stranger reads
 _CURRENT POSITION_
 This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.
 
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 9 assets generated.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 sessions, 9 assets generated.
 
-Handoff status is active. Last activity 6d ago.
+Handoff status is active. Last activity 4d ago.
 
 Next: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else.
 
 ## the state, as the last session left it
 Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.
 
-Handoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -59,7 +59,8 @@ RESUME HERE: Linkedin — Execution Checklist
 
 ## by the numbers
 - ASSETS GENERATED: **9**
-- DAYS ACTIVE: **6 d**
+- SESSIONS: **2** (codex)
+- DAYS ACTIVE: **10 d**
 
 ## momentum
 
@@ -79,6 +80,10 @@ RESUME HERE: Linkedin — Execution Checklist
 - **carousel01-cover_recraft-v3_20260802-141930.png** [IMAGE] `_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png` — sep 3, 2026
 - **2026-08-29-linkedin-zero-to-840k-growth-os.md** [SOLUTION] `docs/solutions/2026-08-29-linkedin-zero-to-840k-growth-os.md`
 
+## how it got here
+- 2026-09-06 · **codex session** — Extraction: Dan Koe Video - LinkedIn Skill System and Workf…
+- 2026-08-31 · **codex session** — Design: Performance Evidence Journal - LinkedIn Featured
+
 ## the record
 - **Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)** [VERIFIED] — v2 shipped beside v1; prose-clean body; feedback banked as memory + voice-ratchet FAIL entry (missions.jsonl · done)
 - **Is the AI rush over? Research the real market demand across AI consulting, AI creative str** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): superseded: 07-21 red-team + 07-28 research (missions.jsonl · done)
@@ -97,7 +102,7 @@ RESUME HERE: Linkedin — Execution Checklist
 _READ THE EDGES_
 The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.
 
-The judged analysis above is 20 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 21 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
