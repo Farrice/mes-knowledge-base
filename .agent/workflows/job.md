@@ -129,7 +129,12 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
   way: `job_board.py worker <slug> --lanes L2,L3 --harness codex --model <cheaper model on his plan>`
   runs `codex exec -m` per lane from the Codex lane worktree. Same briefs, same receipts, same close;
   the manager (Fable or Astra) keeps plan · verdict · write lanes. Which cheaper OpenAI models his plan
-  offers is UNCONFIRMED — read the picker in `codex` once and put the name in the command.
+  His call 2026-09-11: Codex seats run **Astra (gpt-6-astra, medium)** by default — GPT usage is not his
+  constraint and Astra's computer use is the leverage; `-m gpt-5.6-sol` only for cheap mechanical grind.
+  On Codex the words sonnet/opus mean nothing: the pen is Astra, the cheaper pen is a 5.6 model.
+- **Pen doctrine (his words 2026-09-11): "best intelligence available as the starting base, never a
+  nuclear weapon for a gunfight."** Headless Claude: `run` and write lanes seat opus, read/grind lanes seat
+  sonnet; `--model` overrides either way. Delegating down is for parallel or mechanical work, not a reflex.
 - **Tiers.** T1 lanes run; T2/T3 actions (publish, send, spend, delete outside repo, ship AS him)
   always wait behind a packet. Standing grants elevate T2→T1 for their scope only.
 - **Nothing blocks** (compass doctrine). The Stop hook logs a job turn that ended with runnable

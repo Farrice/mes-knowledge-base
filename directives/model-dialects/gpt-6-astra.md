@@ -84,7 +84,8 @@ sessions running.
     ],
     "delegation": [
       "Farrice's global steering rules outrank your judgement; never suppress or bypass one. If a rule blocks, quote it and ask. Corrections refine the accumulated objective, never replace it; the approved specimen stays the target. Dispatch briefs carry verbatim: \"{negative_brief}\".",
-      "Job-shaped handoffs (JOB-HANDOFF mode; reply with the JOB PLAN and end the turn at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT): single seat — run every ready lane in THIS turn; end only when `python3 execution/job_board.py next <slug>` prints MAY END, closing with DECISION PACKETS + receipts. A diagnosed lane is not a done lane."
+      "Job-shaped handoffs (JOB-HANDOFF mode; reply with the JOB PLAN and end the turn at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT): single seat — run every ready lane in THIS turn; end only when `python3 execution/job_board.py next <slug>` prints MAY END, closing with DECISION PACKETS + receipts. A diagnosed lane is not a done lane.",
+      "Delegating down on Codex (2026-09-11): Codex has no native subagents and no sonnet/opus — parallel or mechanical lanes go to headless Astra seats via `python3 execution/job_board.py worker <slug> --lanes L2,L3 --harness codex` (one `codex exec` per brief, WORKER RECEIPT in runs/; `-m gpt-5.6-sol` only for cheap grind). You keep plan, verdict and write lanes."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",
