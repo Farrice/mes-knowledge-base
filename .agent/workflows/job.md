@@ -132,6 +132,8 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
   His call 2026-09-11: Codex seats run **Astra (gpt-6-astra, medium)** by default — GPT usage is not his
   constraint and Astra's computer use is the leverage; `-m gpt-5.6-sol` only for cheap mechanical grind.
   On Codex the words sonnet/opus mean nothing: the pen is Astra, the cheaper pen is a 5.6 model.
+- **Operator playbook:** `directives/two-harness-operator-playbook.md` — the six plays, the decision ladder,
+  what burns what, the daily rhythm. Living doc; update in place.
 - **Pen doctrine (his words 2026-09-11): "best intelligence available as the starting base, never a
   nuclear weapon for a gunfight."** Headless Claude: `run` and write lanes seat opus, read/grind lanes seat
   sonnet; `--model` overrides either way. Delegating down is for parallel or mechanical work, not a reflex.
