@@ -25,15 +25,23 @@ card (`card.md`), especially `Comes back when`, `Needs approval`, `When it break
 
 ## Workflow — one cycle, repeated until MAY END
 1. **Read the board**: `job_board.py next <slug>` → the runnable lanes.
-2. **Dispatch every runnable lane at once.**
-   - *Write / creative / judgment lanes*: you, now, serially (Fable does the writing; on Codex
-     the model is the pen). Mark `--status active` first.
-   - *Read-only / research / verification lanes* (Claude Code): background `Agent` on a Sonnet
-     seat carrying the worker envelope (`directives/worker-envelope-standard.md`) and the
-     negative brief verbatim — "no Chain, no finalize, no Notion, no Next Moves, return only the
-     artifact" — returning ≤20 lines + paths. Keep working the write lanes while they run;
+2. **Dispatch every runnable lane at once — mechanically (2026-09-11).**
+   `python3 execution/job_board.py dispatch <slug>` writes ONE brief per runnable lane
+   (`.agent/missions/<slug>/lanes/<id>.brief.md`: goal, lane, deps + their evidence, recipe
+   Needs / Done means / When-it-breaks, the result contract, the envelope, the negative brief
+   verbatim), classifies it read vs write, records the seat, and prints the exact call.
+   (Scar: 36/36 lanes across every job were owner=claude, run serially — the "Sonnet seat"
+   was prose.)
+   - *Read lanes* (Claude Code): the printed `Agent(model="sonnet", run_in_background=true,
+     prompt="Read and execute <brief>…")` call, verbatim. The seat writes
+     `lanes/<id>.result.md`; you close FROM that file: `lane <slug> <id> --status complete
+     --result lanes/<id>.result.md --seat sonnet --did "…"` (the board refuses to treat a
+     missing result file as delivery). Keep the write lanes moving while seats run;
      `Monitor` / `ScheduleWakeup` only when nothing else is runnable.
-   - *Codex*: run lanes in order of readiness in this turn; no seat you wait on.
+   - *Write / creative / judgment lanes*: you, now, serially, against the brief as your
+     checklist; close with `--seat fable`. Mark `--status active` first.
+   - *Codex*: `dispatch` prints "run inline"; run each brief in order of readiness in THIS
+     turn, write the result file, close with `--seat astra`.
 3. **Close each lane with a receipt**: `job_board.py lane <slug> <id> --status complete
    --evidence <path>`. No path, no complete.
 4. **Breakage → the card's row.** Login fails, doc missing, sources disagree, site blocks, bar

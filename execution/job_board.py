@@ -52,6 +52,7 @@ Usage:
   python3 execution/job_board.py handoff <slug> --to codex|claude|chat   # portable.md + handoff store
   python3 execution/job_board.py resume <slug>
   python3 execution/job_board.py status [--all] [slug]
+  python3 execution/job_board.py dispatch <slug> [--lane L2]             # worker brief per runnable lane + seat
   python3 execution/job_board.py --brief                                 # one line for session_brief
   python3 execution/job_board.py close <slug> --done "..." --aligned "..." --unauthorized "..." --approvals "..." [--verdict good|marginal|off] [--ratchet "..."] [--force]
   python3 execution/job_board.py lint <slug>
@@ -518,6 +519,132 @@ def cmd_lanes(a):
     return 0
 
 
+
+# ── Worker dispatch (2026-09-11) ───────────────────────────────────────────
+# Scar: 36/36 lanes across every job were owner=claude, run serially by the
+# manager — the "background Sonnet seat" existed only as prose in
+# manager-loop-run.md. Nate's loop is manager + workers (T6). `dispatch` makes
+# the worker brief a FILE the manager hands to a seat, records the seat, and
+# gives the seat a result contract the board can close a lane from.
+_READ_ONLY_RE = re.compile(
+    r"\b(read|research|audit|verify|scan|gather|measure|check|list|inventory|pull|fetch|"
+    r"collect|compare|classify|evidence|map|survey|review|watch|listen|transcribe|search|"
+    r"find|look|benchmark|price|count|score|harvest|mine|extract)\b", re.I)
+_WRITE_RE = re.compile(
+    r"\b(write|draft|build|ship|publish|send|post|edit|rewrite|design|render|close|park|"
+    r"kill|commit|merge|regenerate|create|compose|produce|forge|update|delete|move|migrate|"
+    r"install|wire|deploy|record|register|append|save)\b", re.I)
+NEGATIVE_BRIEF = "no Chain, no finalize, no Notion, no Next Moves, return only the artifact"
+SEATS = ("sonnet", "haiku", "fable", "opus", "astra", "claude", "codex", "manager")
+
+
+def lane_kind(lane: dict) -> str:
+    """'read' → a background research seat can run it; 'write' → the manager runs it."""
+    text = f"{lane.get('workflow') or ''} {lane.get('expected_artifact') or ''}"
+    w = len(_WRITE_RE.findall(text))
+    r = len(_READ_ONLY_RE.findall(text))
+    if w and w >= r:
+        return "write"
+    return "read" if r else "write"
+
+
+def lanes_dir(slug: str) -> Path:
+    return mc.mission_dir(slug) / "lanes"
+
+
+def _resolve_path(p: str, slug: str) -> Path | None:
+    """Absolute, or relative to the job dir, the main checkout, or this checkout."""
+    if not p:
+        return None
+    cand = [Path(p)] if Path(p).is_absolute() else [
+        mc.mission_dir(slug) / p, STATE_ROOT / p, ROOT / p]
+    for c in cand:
+        if c.exists():
+            return c
+    return None
+
+
+def brief_text(slug: str, state: dict, lane: dict, secs: dict, kind: str, seat: str) -> str:
+    goal = state.get("goal") or ""
+    deps = []
+    for did in lane.get("after") or []:
+        d = lane_by_id(state, did)
+        if d:
+            deps.append(f"{did} {d.get('workflow') or ''}: {d.get('status')}"
+                        + (f" · evidence: {d.get('evidence_path')}" if d.get("evidence_path") else ""))
+    result = lanes_dir(slug) / f"{lane['id']}.result.md"
+    needs = " ".join(secs.get("Needs", "").split()) or "—"
+    done = " ".join(secs.get("Done means", "").split()) or "—"
+    breaks = [l for l in secs.get("When it breaks", "").splitlines() if l.strip().startswith("|")]
+    lines = [f"# LANE BRIEF — {slug} / {lane['id']} {lane.get('workflow') or ''}", "",
+             f"Job goal: {goal}", f"Lane: {lane.get('expected_artifact') or ''}",
+             f"Kind: {'read-only research lane (background seat: ' + seat + ')' if kind == 'read' else 'write lane (the manager runs it; this brief is its checklist)'}",
+             "Depends on: " + ("; ".join(deps) if deps else "nothing — runnable now"), "",
+             "## Look first (recipe: Needs)", needs, "", "## Done means", done, ""]
+    if breaks:
+        lines += ["## When it breaks (keep-going move first; ask only at the threshold)"] + breaks + [""]
+    lines += ["## Output contract",
+              f"Write your result to: {result}",
+              "≤20 lines + paths: what you found / did; every evidence path ABSOLUTE; anything not verified "
+              "labeled UNCONFIRMED; a question only Farrice can answer as a `PACKET:` line (choice · options · "
+              "recommendation · what happens if he says nothing). Never invent provenance; an absence claim "
+              "names the searches you ran. The manager closes this lane FROM this file.", "",
+              "## Envelope (directives/worker-envelope-standard.md)",
+              "Git read-only. Write ONLY the result file above" +
+              (" (a write lane's other outputs are named by the manager, never chosen by the seat)." if kind == "write" else "."),
+              f"Negative brief, verbatim: {NEGATIVE_BRIEF}.", ""]
+    return "\n".join(lines)
+
+
+def cmd_dispatch(a):
+    state = read(a.slug)
+    if plan_state(state) == "pending":
+        print(f"PLAN PENDING — {a.slug}: dispatch after his go (python3 execution/job_board.py go {a.slug})")
+        return 0
+    c = classify(state)
+    targets = [l for l in c["runnable"] if not a.lane or l["id"] == a.lane]
+    if a.lane and not targets:
+        l = lane_by_id(state, a.lane)
+        print(f"lane {a.lane} is not runnable now ({(l or {}).get('status')})" if l else f"no lane {a.lane}")
+        return 1
+    if not targets:
+        print(f"DISPATCH — {a.slug}: no runnable lanes (python3 execution/job_board.py next {a.slug})")
+        return 0
+    recipe = (state.get("job") or {}).get("recipe") or ""
+    secs = rc.parse(recipe)["sections"] if recipe and rc.card_path(recipe).exists() else {}
+    ld = lanes_dir(a.slug)
+    ld.mkdir(parents=True, exist_ok=True)
+    codex = harness() == "codex"
+    print(f"DISPATCH — {a.slug}: {len(targets)} runnable lane(s) · briefs in {mc.rel(ld)}")
+    with locked(a.slug):
+        state = read(a.slug)
+        for l in targets:
+            lane = lane_by_id(state, l["id"])
+            kind = lane_kind(lane)
+            seat = a.seat or ("astra" if codex else ("sonnet" if kind == "read" else "manager"))
+            bp = ld / f"{lane['id']}.brief.md"
+            bp.write_text(brief_text(a.slug, state, lane, secs, kind, seat), encoding="utf-8")
+            lane["brief_path"] = str(bp)
+            lane["kind"] = kind
+            lane["seat"] = seat
+            lane["updated_at"] = mc.now()
+            trace_add(a.slug, lane["id"], "dispatched", f"kind {kind} · seat {seat} · brief {mc.rel(bp)}")
+            res = ld / f"{lane['id']}.result.md"
+            close = (f"python3 execution/job_board.py lane {a.slug} {lane['id']} --status complete "
+                     f"--result {mc.rel(res)} --seat {seat} --did \"<what was done / found / skipped>\"")
+            print(f"  {lane['id']} {lane.get('workflow') or ''} [{kind} → seat: {seat}] brief: {mc.rel(bp)}")
+            if codex:
+                print(f"     run the brief inline NOW, write {mc.rel(res)}, then: {close}")
+            elif kind == "read":
+                print(f"     Agent(subagent_type=\"general-purpose\", model=\"sonnet\", run_in_background=true, "
+                      f"prompt=\"Read and execute {bp}. {NEGATIVE_BRIEF}.\") → when it lands: {close}")
+            else:
+                print(f"     you run it (serial, this turn) against the brief; then: {close.replace('--seat ' + seat, '--seat fable')}")
+        stamp_writer(state)
+        write(a.slug, state)
+    print(f"  keep the write lanes moving while seats run; end only on MAY END (python3 execution/job_board.py next {a.slug})")
+    return 0
+
 def cmd_lane(a):
     with locked(a.slug):
         state = read(a.slug)
@@ -541,8 +668,33 @@ def cmd_lane(a):
             lane["next_action"] = a.next
         if a.did is not None:
             lane["did"] = a.did
+        if getattr(a, "seat", None):
+            lane["seat"] = a.seat
+        result_first = ""
+        if getattr(a, "result", None):
+            rp = _resolve_path(a.result, a.slug)
+            if rp is None:
+                lane.setdefault("nudges", [])
+                result_missing = True
+            else:
+                result_missing = False
+                lane["result_path"] = str(rp)
+                if not lane.get("evidence_path"):
+                    lane["evidence_path"] = str(rp)
+                try:
+                    body = [x.strip() for x in rp.read_text(encoding="utf-8", errors="replace").splitlines()
+                            if x.strip() and not x.strip().startswith("#")]
+                    result_first = body[0][:160] if body else ""
+                except Exception:
+                    result_first = ""
+        else:
+            result_missing = False
         lane["updated_at"] = mc.now()
         nudges = []
+        if result_missing:
+            nudges.append(f"--result {a.result}: no such file (absolute, or relative to the job dir / main checkout) — the seat did not deliver; do not close this lane on its word")
+        if a.evidence and _resolve_path(a.evidence, a.slug) is None:
+            nudges.append(f"--evidence {a.evidence}: not found on disk — a receipt must point at a file that exists")
         if lane["status"] == "blocked" and not lane.get("blocker"):
             nudges.append("a blocked lane names its blocker (--blocker \"<decision needed>\")")
         if lane["status"] == "complete" and not lane.get("evidence_path"):
@@ -562,10 +714,16 @@ def cmd_lane(a):
                 what.append(f"evidence: {a.evidence}")
             if a.blocker:
                 what.append(f"blocker: {a.blocker}")
-            trace_add(a.slug, a.id, a.status or "update", " · ".join(what) or "touched")
+            if getattr(a, "result", None) and not result_missing:
+                what.append(f"result: {a.result}")
+            trace_add(a.slug, a.id, a.status or "update", " · ".join(what) or "touched",
+                      who=(getattr(a, "seat", None) or None))
+            if result_first:
+                trace_add(a.slug, a.id, "found", result_first, who=(getattr(a, "seat", None) or None))
     for n in nudges:
         print(f"  nudge: {n}")
     receipt = (f"LANE RECEIPT — {a.slug}/{a.id} {lane.get('workflow') or ''}: {lane['status']}"
+               + (f" · seat: {lane['seat']}" if lane.get("seat") else "")
                + (f" · did: {lane['did']}" if lane.get("did") else "")
                + (f" · evidence: {lane['evidence_path']}" if lane.get("evidence_path") else "")
                + (f" · blocker: {lane['blocker']}" if lane.get("blocker") else ""))
@@ -584,6 +742,8 @@ def cmd_next(a):
     if c["runnable"]:
         ids = ", ".join(f"{l['id']} {l.get('workflow') or ''}".strip() for l in c["runnable"])
         print(f"TURN MUST CONTINUE — {a.slug}: runnable lanes: {ids}")
+        if any(not l.get("brief_path") for l in c["runnable"]):
+            print(f"  dispatch them (worker briefs + seats): python3 execution/job_board.py dispatch {a.slug}")
         if c["waiting_deps"]:
             print("  queued behind them: " + ", ".join(l["id"] for l in c["waiting_deps"]))
         if ops:
@@ -931,7 +1091,13 @@ def main(argv=None):
     s = sub.add_parser("lanes"); s.add_argument("slug"); s.set_defaults(fn=cmd_lanes)
     s = sub.add_parser("lane"); s.add_argument("slug"); s.add_argument("id"); s.add_argument("--status")
     s.add_argument("--evidence"); s.add_argument("--did"); s.add_argument("--blocker"); s.add_argument("--owner")
-    s.add_argument("--next"); s.set_defaults(fn=cmd_lane)
+    s.add_argument("--next")
+    s.add_argument("--result", help="the seat's result file (lanes/<id>.result.md); becomes evidence if none given")
+    s.add_argument("--seat", choices=SEATS, help="who ran the lane (shows in the trace and receipt)")
+    s.set_defaults(fn=cmd_lane)
+    s = sub.add_parser("dispatch", help="write a worker brief per runnable lane, suggest a seat, record it")
+    s.add_argument("slug"); s.add_argument("--lane"); s.add_argument("--seat", choices=SEATS)
+    s.set_defaults(fn=cmd_dispatch)
     s = sub.add_parser("next"); s.add_argument("slug"); s.set_defaults(fn=cmd_next)
     s = sub.add_parser("packet"); s.add_argument("slug"); s.add_argument("action", choices=["add", "answer", "list"])
     s.add_argument("n", nargs="?", type=int); s.add_argument("text", nargs="?")

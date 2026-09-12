@@ -58,9 +58,11 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
    lines, never asserted. (Scar 2026-09-11: the JJ-3 invitation on Codex — `$job` was typed,
    the skill prose was read, and Astra went straight to Photoshop: no board, no plan, no
    question. The hook now does the pre-work itself and names the first tool call.)
-4. **Run** — `manager-loop-run.md`, every cycle: `job_board.py next` → dispatch all runnable
-   lanes (writes = you, serial; read-only lanes = background Sonnet seats on Claude Code; Codex =
-   in order, this turn) → close every lane with `job_board.py lane <slug> <id> --status … --did
+4. **Run** — `manager-loop-run.md`, every cycle: `job_board.py next` → `job_board.py dispatch
+   <slug>` (one worker brief file per runnable lane, read vs write, seat recorded, the exact
+   Agent call printed — 2026-09-11; writes = you, serial; read lanes = background Sonnet seats
+   on Claude Code; Codex = inline, in order, this turn) → seats deliver `lanes/<id>.result.md`
+   → close every lane with `job_board.py lane <slug> <id> --status … --result <file> --seat … --did
    "what was done / found / skipped" --evidence <path>` and **echo its LANE RECEIPT line in the
    reply** → `job_board.py log <slug> <lane> "…" --kind found|skipped` for anything he should be
    able to read later → breakage per the card's row → approvals become packets →
@@ -77,8 +79,10 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
 ## How to use it (operator guide, 2026-09-11)
 
 - **Fire `/job` once per job, at the top.** It opens the board. Everything you say after that
-  inside the same job is an answer, an edit, or a verdict — plain words, no prefix. Re-firing
-  `/job` mid-job either re-triages or opens a second job for the same work (the board nudges).
+  inside the same job is an answer, an edit, or a verdict — plain words, no prefix: the hook
+  carries the open job into every plain prompt (`JOB CONTEXT` line — pending plan, open
+  packets, runnable lanes). Re-firing `/job` mid-job either re-triages or opens a second job
+  for the same work (the board nudges).
 - **What you should SEE, every time.** Turn 1: `JOB PLAN` (goal · recipe verdict · lanes as
   what-I'll-do · Found on disk · Questions · approvals) and the turn ends. Your `go`. Then every
   turn: `LANE RECEIPT` lines (did / found / skipped + evidence path) and `DECISION PACKET`s,
