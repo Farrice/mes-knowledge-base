@@ -667,7 +667,7 @@ def _job_observer_relay(session_id: str, since_iso: str) -> str:
             except Exception:
                 continue
             ev = rec.get("event")
-            if ev not in ("job-plan-not-shown", "job-turn-ended-unblocked"):
+            if ev not in ("job-plan-not-shown", "job-turn-ended-unblocked", "copy-shipped-ungated"):
                 continue
             if rec.get("session_id") != session_id:
                 continue
@@ -681,11 +681,16 @@ def _job_observer_relay(session_id: str, since_iso: str) -> str:
                 continue
             if (now - ts).total_seconds() > 86400:
                 continue
-            hits[(rec.get("job") or "?", ev)] = rec
+            hits[(rec.get("job") or ",".join(rec.get("paths") or []) or "?", ev)] = rec
         if not hits:
             return ""
         parts = []
         for job, ev in hits:
+            if ev == "copy-shipped-ungated":
+                paths = job.split(",")
+                parts.append("copy written with NO content-finish-gate run: " + ", ".join(Path(p).name for p in paths[:3])
+                             + " → python3 execution/content_finish_gate.py check --file <path> --label <name> before it ships")
+                continue
             if ev == "job-plan-not-shown":
                 parts.append(f"{job}: the JOB PLAN was never shown → show it now "
                              f"(python3 execution/job_board.py plan {job}) and wait for his go")
@@ -1259,6 +1264,57 @@ def _job_stop_observe(session_id: str, last_text: str, exchange: int) -> None:
     except Exception:
         return
 
+_COPY_PATH_RE = re.compile(
+    r"(deliverables/|/04-deliverables/|/drafts?/|/posts?/|/copy/|/editions?/)[^\s]*\.(md|txt)$|"
+    r"[^/\s]*(post|copy|edition|caption|email|script|hook|headline|newsletter|carousel|about|bio)[^/\s]*\.(md|txt)$", re.I)
+_COPY_EXCLUDE_DIR_RE = re.compile(r"(/\.agent/|/\.tmp/|/recipes/|/directives/|/docs/|/memory/|/skills/|/execution/|/\.scratch/)", re.I)
+_COPY_EXCLUDE_NAME_RE = re.compile(r"(README|CLAUDE|AGENTS|START-HERE|receipt|trace|plan\.md|result\.md|brief\.md)", re.I)
+
+
+def _copy_excluded(fp: str) -> bool:
+    """Lane paths contain ".claude/worktrees/…" — filename words must match the basename only
+    (probe 2026-09-11: the old single regex excluded every artifact written from a lane)."""
+    return bool(_COPY_EXCLUDE_DIR_RE.search(fp) or _COPY_EXCLUDE_NAME_RE.search(Path(fp).name))
+
+
+def _copy_stop_observe(session_id: str, raw: str, exchange: int) -> None:
+    """Observe-only (2026-09-11, agent-loops-real L5): copy artifacts written this turn
+    (Write/Edit tool calls in the transcript) with no content_finish_gate log line naming
+    them. The gate had a real log and no caller; this makes the skip visible."""
+    try:
+        written = []
+        for line in raw.splitlines():
+            line = line.strip()
+            if not line or '"tool_use"' not in line:
+                continue
+            try:
+                rec = json.loads(line)
+            except Exception:
+                continue
+            msg = rec.get("message") or {}
+            for c in (msg.get("content") or []) if isinstance(msg, dict) else []:
+                if not isinstance(c, dict) or c.get("type") != "tool_use" or c.get("name") not in ("Write", "Edit"):
+                    continue
+                fp = str((c.get("input") or {}).get("file_path") or "")
+                if fp and _COPY_PATH_RE.search(fp) and not _copy_excluded(fp) and fp not in written:
+                    written.append(fp)
+        if not written:
+            return
+        log = Path(__file__).resolve().parents[2] / ".agent" / "content-finish-log.jsonl"
+        gated = ""
+        try:
+            gated = "\n".join(log.read_text(errors="replace").splitlines()[-300:])
+        except Exception:
+            gated = ""
+        ungated = [p for p in written if Path(p).name not in gated and p not in gated]
+        if not ungated:
+            return
+        _append_observe({"ts": _now_iso_utc(), "session_id": session_id, "exchange": exchange,
+                         "event": "copy-shipped-ungated", "paths": ungated[:6]})
+    except Exception:
+        return
+
+
 def handle_stop(payload: dict) -> None:
     if bool(payload.get("stop_hook_active")):
         sys.exit(0)
@@ -1310,6 +1366,10 @@ def handle_stop(payload: dict) -> None:
     # lanes and no DECISION PACKET is the exact habit this build exists to end.
     try:
         _job_stop_observe(session_id, last_text, exchange)
+    except Exception:
+        pass
+    try:
+        _copy_stop_observe(session_id, raw, exchange)
     except Exception:
         pass
 

@@ -1,5 +1,10 @@
 ---
 description: Thin publishable-copy gate for client-facing or revenue copy; routes through the existing high-taste wrapper, copy owner, claim-safety, anti-slop, and finalize checks
+
+> **2026-09-11:** the gate's runner is `python3 execution/content_finish_gate.py check --file <path> --label <name>`
+> (log: `.agent/content-finish-log.jsonl`); verifier `python3 execution/verify_content_finish_gate.py`. The Stop
+> observer logs `copy-shipped-ungated` when a copy artifact is written with no gate line for it, and the next
+> prompt relays it — a skipped floor is now visible, never silent.
 ---
 
 # /publishable-copy-gate

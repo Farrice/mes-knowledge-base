@@ -60,6 +60,10 @@ Token signature of unscoped dispatch: P4 = 333k and P5 = 120k subagent tokens fo
 ~973k across the battery. Four of eight probes triggered unrequested tool use.
 
 ## Prompting Adjustments
+- **Executor of Fable boards (2026-09-11, his scar: "terrible time steering it").** Opus 5 is
+  steered by the board, not by him: Fable writes card · plan · briefs · contracts; Opus runs
+  `/job resume <slug>` (or headless `job_board.py run <slug> --harness claude --model opus`) and
+  executes. No board = job-shaped ask opens one by the book (`/job`) before any work.
 - **DO** hand it bare v2 Output Contracts — it honors bounds exactly, no scaffolding (P1, P3).
 - **DO** drop the "restate binding rules next to the ask" tax at this tier; it flags conflicts
   itself. Keep the tax for Sonnet/Haiku (P4).
@@ -135,7 +139,8 @@ silent (fail-safe), it never breaks a session.
   "model_match": ["claude-opus-5", "opus-5"],
   "inject": {
     "deliverable": [
-      "State the length/scale you will hold in ONE line, then hold it; scope = exactly what was asked, sized to the loaded expert's exemplars (P2/P6/P9). Mistaken ask → one sentence, keep going."
+      "State the length/scale you will hold in ONE line, then hold it; scope = exactly what was asked, sized to the loaded expert's exemplars (P2/P6/P9). Mistaken ask → one sentence, keep going.",
+      "BOARD-FIRST (Farrice 2026-09-11): when JOB CONTEXT names a job or `.agent/missions/<slug>/plan.md` exists for this ask, you are the executor of a Fable-authored board — `/job resume <slug>`, run the lane briefs by their result contracts in readiness order, write `lanes/<id>.result.md`, close each with `job_board.py lane … --result`, route every judgment call into a DECISION PACKET, and never re-plan, re-interview, or widen scope. The plan on disk outranks your own."
     ],
     "conversational": [
       "Direct answer first, conversational scale, no unrequested expansion (P6)."

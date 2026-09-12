@@ -1,9 +1,14 @@
 ---
 description: Two-axis deliverable review — Voice ∥ Brief — run as parallel subagents and reported side by side, never merged. Use before delivery on any taste-bearing or client-facing deliverable.
 tier: system
+status: superseded
+superseded_by: publishable-copy-gate
 ---
 
 # /two-axis-verify — Voice ∥ Brief
+
+> **Superseded 2026-09-11 → `/publishable-copy-gate`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/publishable-copy-gate` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 Adapted from Matt Pocock's two-axis `/code-review` (Standards ∥ Spec). The structural insight: a piece can nail the voice and miss the brief, or deliver the brief in a voice that isn't yours — **merging the axes lets one mask the other**, so they run as parallel subagents and report separately.
 

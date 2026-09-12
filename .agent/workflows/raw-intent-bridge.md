@@ -1,8 +1,14 @@
 ---
-description: Compile messy entrepreneurial intent into a Codex-ready run packet with predicted need, objective, quality bar, route, support gates, first safe action, proof plan, and plugin-packaging boundary
+description: "(superseded 2026-09-11 → /autopilot) Raw intent bridge — messy raw intent, half-thought, or Codex-bound task → Translation Card → run packet + first safe action. Now /autopilot Stage 0 on the same packet compiler; kept as the record of the Translation Card discipline."
+status: superseded
+superseded_by: autopilot
 ---
 
 # /raw-intent-bridge - Raw Intent Virtuoso Bridge
+
+> **Superseded 2026-09-11 by `/autopilot`** (the one task door, both harnesses). Stage 0 below is
+> verbatim what `/autopilot` Stage 0 runs; the compiler call is identical. Typing `/raw-intent-bridge`
+> or `$raw-intent-bridge` = run `/autopilot`. Stacking it on `$job` = the bridge stands down.
 
 Put `/raw-intent-bridge` before any rough context when Farrice needs Codex to
 translate natural operator language into a deterministic run packet before

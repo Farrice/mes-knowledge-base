@@ -115,6 +115,21 @@ Every subcommand is a thin call into `python3 execution/job_board.py …` /
   Codex, `/job resume <slug>`. Reverse identical. `--to chat` = a paste-anywhere packet for ChatGPT
   / claude.ai; results come back as `LANE <id> RESULT` blocks he files with `job_board.py lane`.
   One writer per tree stands: Codex writes in its own lane worktree; lane ownership is recorded.
+- **Executor mode (any conductor below Fable — Opus 5, Sonnet, Codex/Astra; 2026-09-11).** The
+  board is the brain. `/job resume <slug>` → read card.md, plan.md, `lanes/<id>.brief.md`; run lanes in
+  readiness order by their result contracts; write `lanes/<id>.result.md`; close with `job_board.py lane
+  … --result --seat <model>`; every judgment call → DECISION PACKET; never re-plan, re-interview, or
+  widen scope — Fable's plan on disk outranks yours. Walk-away form: `job_board.py run <slug> --harness
+  claude --model opus` (Claude sub) or `--harness codex` (ChatGPT sub). This is how the subscriptions
+  get spent once Fable is out — his scar: Opus 5 raw is unsteerable; Opus 5 on a board is not.
+- **Delegating down on BOTH harnesses (2026-09-11).** Claude Code: `dispatch` + a Sonnet seat via the
+  Agent tool (in-session) or `job_board.py worker <slug> --lanes L2,L3` (headless `claude -p --model
+  sonnet`, parallel, one brief each, WORKER RECEIPT in `runs/`, `--auto-close` closes lanes whose result
+  file appeared). Codex has NO native subagents (codex-cli 0.154.0, checked) — Astra delegates the same
+  way: `job_board.py worker <slug> --lanes L2,L3 --harness codex --model <cheaper model on his plan>`
+  runs `codex exec -m` per lane from the Codex lane worktree. Same briefs, same receipts, same close;
+  the manager (Fable or Astra) keeps plan · verdict · write lanes. Which cheaper OpenAI models his plan
+  offers is UNCONFIRMED — read the picker in `codex` once and put the name in the command.
 - **Tiers.** T1 lanes run; T2/T3 actions (publish, send, spend, delete outside repo, ship AS him)
   always wait behind a packet. Standing grants elevate T2→T1 for their scope only.
 - **Nothing blocks** (compass doctrine). The Stop hook logs a job turn that ended with runnable

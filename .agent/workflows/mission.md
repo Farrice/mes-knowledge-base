@@ -1,8 +1,14 @@
 ---
-description: Mission OS - plan, validate, execute, and govern long-running agent work
+description: Mission OS - plan, validate, execute, and govern long-running agent work (a live door — Farrice 2026-09-11: it worked; /job drives jobs on the same store)
 ---
 
 # /mission - Mission OS
+
+> **2026-09-11 — stays a live door (his verdict: "one of the few that worked as intended").** `/job`
+> drives job-shaped work on the same store (`mission_control.py`, `.agent/missions/<slug>/`) with lanes,
+> dispatch, packets, MAY END and a headless `run`; `/mission` remains the explicit mission-control door
+> and its validation contract. Same store, two doors, no conflict: a mission opened here shows on the
+> same board.
 
 Run a Factory-inspired but Codex-native mission layer for client-facing, personal, research, and build work.
 

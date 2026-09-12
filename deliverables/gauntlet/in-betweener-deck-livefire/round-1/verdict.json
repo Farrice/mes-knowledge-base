@@ -1,0 +1,8 @@
+{
+  "verdict": "INCOMPARABLE",
+  "gap": "No external comparison deck was supplied for this live-fire drill (bar=self); judged against production floor instead of blind A/B",
+  "evidence": "Real-scroll screenshots at desktop/tablet/mobile (hero, mid-content, close) show no horizontal overflow (scrollWidth==clientWidth at 375 and 768), readable serif/sans/mono type and good contrast at all 3 breakpoints, no cut-off content. One tooling finding: the attached fullPage:true PNGs duplicate the hero/logline block (verified false-positive \u2014 DOM has exactly 1 hero, 1 logline via querySelectorAll; a real-scroll screenshot at the same scrollY shows correct distinct content), so the attached round-1 PNGs are not a faithful single-frame representation of the page even though VISUAL VERIFIED; future rounds on 100vh-section pages should sample real scroll positions, not rely on fullPage capture. Minor cosmetic: gold scrollbar thumb (::-webkit-scrollbar-thumb) renders as a thin gold sliver at the right edge in every shot \u2014 intentional brand styling, not a defect.",
+  "preserve": "cinematic dark/gold palette, serif display type, generous negative space",
+  "visual": "VISUAL VERIFIED",
+  "ts": "2026-09-11T21:50:49-07:00"
+}

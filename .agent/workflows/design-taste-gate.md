@@ -1,8 +1,13 @@
 ---
 description: Multi-lens taste audit on a finished
+status: superseded
+superseded_by: design-gauntlet
 ---
 
 # /design-taste-gate — Design Quality Critique & Refinement
+
+> **Superseded 2026-09-11 → `/design-gauntlet`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/design-gauntlet` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 Takes a description of a finished or in-progress design and runs a multi-expert quality audit. Outputs specific, actionable refinement directives — not vague feedback, but exact changes formatted for copy-paste into Pencil or any design tool.
 

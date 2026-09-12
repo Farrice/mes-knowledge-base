@@ -685,13 +685,21 @@ def build_index():
         h1 = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
         full_name = h1.group(1) if h1 else name
 
-        index.append({
+        entry = {
             "name": name,
             "full_name": full_name,
             "description": desc,
             "size": len(content),
             "path": str(f),
-        })
+        }
+        # 2026-09-11: superseded pointer (status: superseded + superseded_by: <name>) — the
+        # search layer swaps a superseded hit for its live target so retired doors never win.
+        fm = content.split("\n---", 2)[0] if content.startswith("---") else ""
+        if re.search(r"^status:\s*superseded\s*$", fm, re.MULTILINE):
+            by = re.search(r"^superseded_by:\s*([\w\-./]+)\s*$", fm, re.MULTILINE)
+            if by:
+                entry["superseded_by"] = by.group(1).strip().lstrip("/")
+        index.append(entry)
 
     INDEX_CACHE = index
     return index
@@ -878,8 +886,24 @@ def search_workflows(query, top_n=10):
                 "binding_signal": signal,
             }))
 
+    scored = _apply_supersession(scored, index)
     scored.sort(key=lambda x: (-x[0], x[1]["name"]))
     return scored[:top_n]
+
+
+def _apply_supersession(scored, index):
+    """Swap each superseded hit for its `superseded_by` target at the same score (one hop; a
+    missing or self-pointing target leaves the hit alone). Duplicates keep the higher score."""
+    by_name = {wf["name"]: wf for wf in index}
+    best = {}
+    for score, wf in scored:
+        target = wf.get("superseded_by")
+        if target and target != wf["name"] and target in by_name:
+            wf = dict(by_name[target], via=wf["name"])
+        name = wf["name"]
+        if name not in best or score > best[name][0]:
+            best[name] = (score, wf)
+    return list(best.values())
 
 
 def domain_lookup(domain):
