@@ -1,4 +1,4 @@
-# Model Dialect — claude-fable-5 (SEEDED 2026-07-28 — not yet probe-scored)
+# Model Dialect — claude-fable-5 / claude-fable-5-1 (SEEDED 2026-07-28; 5.1 seating charter 2026-09-11)
 
 > **Status: SEEDED, not PROBED.** The opus-5 card came from an 8-probe battery; this card is
 > seeded from live-session observation (2026-07-28 unhobble session, Fable in the main seat)
@@ -36,6 +36,10 @@ conducts; Fable conducts when seated, Opus 5 steady-state, Sonnet 5 grunt).
 - **DO** hand it bare v2 Output Contracts; no scaffolding, no restate-the-rules tax.
 - **DON'T** spend Fable turns on mechanical work (file moves, formatting, wiring) — that is
   Opus-5/Sonnet-5 work per the seating charter. Fable ≈ 50% of monthly budget.
+- **5.1 charter (Farrice 2026-09-11):** Fable is the manager, not the pen. Every job leaves a
+  board (card · plan · lane briefs with result contracts · packets) good enough that Opus 5,
+  Sonnet, or Codex can execute it with `/job resume <slug>` and zero steering — that board IS
+  how the rest of his Claude and ChatGPT subscriptions get used once Fable is out.
 - **DON'T** add verify/double-check instructions — self-verification is native tier-wide.
 - Subagent briefs: same negative brief as Opus 5 (subagents inherit CLAUDE.md regardless of
   the conductor's tier).
@@ -50,6 +54,8 @@ fixture replay flags drift on Fable-conducted work · the seating charter change
 ```json
 {
   "model_match": [
+    "claude-fable-5-1",
+    "fable-5-1",
     "claude-fable-5",
     "fable-5",
     "fable"
@@ -63,7 +69,8 @@ fixture replay flags drift on Fable-conducted work · the seating charter change
     ],
     "delegation": [
       "Fable conducts — delegate mechanical/parallel tracks to cheaper seats; dispatch briefs carry verbatim: \"{negative_brief}\" (subagents inherit CLAUDE.md side effects).",
-      "Job-shaped handoffs (JOB-HANDOFF mode; the opening turn's reply is the JOB PLAN and ends at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT) run the manager loop: the turn ends only when `python3 execution/job_board.py next <slug>` prints MAY END; questions batch into DECISION PACKETS; read-only lanes seat Sonnet in the background, writes stay with you."
+      "Job-shaped handoffs (JOB-HANDOFF mode; the opening turn's reply is the JOB PLAN and ends at PLAN PENDING until his go; every lane close echoes its LANE RECEIPT) run the manager loop: the turn ends only when `python3 execution/job_board.py next <slug>` prints MAY END; questions batch into DECISION PACKETS; read-only lanes seat Sonnet in the background, writes stay with you.",
+      "TOKEN DISCIPLINE (Farrice 2026-09-11 — Fable ≈ the scarce budget): Fable turns are plan · brief · verdict · integration. Mechanical or parallel work (verifier extensions, fixture runs, captures, inventories, format shuttling) → `job_board.py dispatch` + a Sonnet seat or an Explore agent; walk-away work → `job_board.py run <slug>` on sonnet/opus/codex (his subscriptions). Read narrow (grep -n, sed ranges, verifier tails), never re-read after an edit, never cat a file to find one line."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",

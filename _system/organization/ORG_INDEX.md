@@ -1,7 +1,7 @@
 # Global Artifact Organization
 
-Last updated: 2026-08-30T12:32:06+00:00
-Total indexed files: 46010
+Last updated: 2026-09-12T04:34:57+00:00
+Total indexed files: 40706
 
 ## Permitted Project Shape (instantiated only when populated)
 
@@ -19,35 +19,35 @@ Active projects live under `_active/<project-slug>/`. These are the *permitted* 
 
 ## Counts By Root
 
-- `_active`: 15601
-- `skills`: 13292
-- `.agent`: 5359
-- `extractions`: 4608
-- `.agents`: 2591
-- `documents_codex`: 2373
-- `execution`: 539
-- `deliverables`: 476
-- `agents`: 455
-- `knowledge`: 205
-- `docs`: 132
-- `directives`: 113
+- `skills`: 13554
+- `_active`: 10124
+- `.agent`: 4579
+- `extractions`: 4352
+- `.agents`: 2713
+- `documents_codex`: 2652
+- `deliverables`: 752
+- `execution`: 658
+- `agents`: 458
+- `knowledge`: 206
+- `docs`: 162
+- `directives`: 118
+- `projects`: 110
+- `_system`: 104
 - `research_outputs`: 100
-- `_system`: 98
-- `semantic_libraries`: 49
+- `semantic_libraries`: 54
 - `strategy_briefs`: 10
-- `projects`: 9
 
 ## Counts By Domain
 
-- `System`: 20174
-- `Creative`: 6587
-- `Extraction`: 13177
-- `Revenue`: 1040
-- `Client`: 966
-- `Research`: 1947
-- `Content`: 1115
-- `Ops`: 238
-- `Personal`: 766
+- `System`: 18810
+- `Creative`: 2953
+- `Extraction`: 12877
+- `Revenue`: 1933
+- `Client`: 1078
+- `Research`: 811
+- `Content`: 1363
+- `Ops`: 240
+- `Personal`: 641
 
 ## Router Commands
 

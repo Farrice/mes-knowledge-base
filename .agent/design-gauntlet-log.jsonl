@@ -1,0 +1,11 @@
+{"ts": "2026-09-11T21:18:49-07:00", "event": "open", "slug": "probe", "artifact": "/tmp/x.html", "mode": "Precision Polish", "dir": "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/af3ef887-0400-4a2b-ba02-aabee32406d7/scratchpad/gauntlet-probe/probe"}
+{"ts": "2026-09-11T21:18:49-07:00", "event": "shoot-unverified", "slug": "probe", "round": 1, "reason": "python playwright not installed"}
+{"ts": "2026-09-11T21:18:49-07:00", "event": "attach", "slug": "probe", "round": 1, "state": "VISUAL VERIFIED"}
+{"ts": "2026-09-11T21:18:49-07:00", "event": "verdict", "slug": "probe", "round": 1, "verdict": "B", "visual": "VISUAL VERIFIED"}
+{"ts": "2026-09-11T21:18:49-07:00", "event": "repair", "slug": "probe", "round": 1, "n": 1}
+{"ts": "2026-09-11T21:18:49-07:00", "event": "close", "slug": "probe", "verdict": "PASS", "rounds": 1, "repairs": 1, "receipt": "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/af3ef887-0400-4a2b-ba02-aabee32406d7/scratchpad/gauntlet-probe/probe/GAUNTLET-RECEIPT.md"}
+{"ts": "2026-09-11T21:41:07-07:00", "event": "open", "slug": "in-betweener-deck-livefire", "artifact": "deliverables/IN-BETWEENER_pitch_deck.html", "mode": "Precision Polish", "dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/job-visibility-fix/deliverables/gauntlet/in-betweener-deck-livefire"}
+{"ts": "2026-09-11T21:41:12-07:00", "event": "shoot-unverified", "slug": "in-betweener-deck-livefire", "round": 1, "reason": "python playwright not installed"}
+{"ts": "2026-09-11T21:42:29-07:00", "event": "attach", "slug": "in-betweener-deck-livefire", "round": 1, "state": "VISUAL VERIFIED"}
+{"ts": "2026-09-11T21:50:49-07:00", "event": "verdict", "slug": "in-betweener-deck-livefire", "round": 1, "verdict": "INCOMPARABLE", "visual": "VISUAL VERIFIED"}
+{"ts": "2026-09-11T21:51:01-07:00", "event": "close", "slug": "in-betweener-deck-livefire", "verdict": "PASS", "rounds": 1, "repairs": 0, "receipt": "/Users/farricecain/Google Antigravity/.claude/worktrees/job-visibility-fix/deliverables/gauntlet/in-betweener-deck-livefire/GAUNTLET-RECEIPT.md"}

@@ -1,8 +1,14 @@
 ---
-description: The Maestro front door — compile any raw dump into an engine-backed, expert-loaded Mission Card, sign off on the preflight, run it per doctrine, close with a verdict
+description: The preflight variant of the task door (= /autopilot --preflight, 2026-09-11) — compile a raw dump into an engine-backed Mission Card, WAIT for sign-off, run it per doctrine, close with a verdict. For task-shaped asks without a sign-off beat use /autopilot.
 ---
 
 # /go - The Maestro Front Door (v3, 2026-07-21)
+
+> **2026-09-11 — one task door.** `/go` is now `/autopilot --preflight`: the same mirror → compile →
+> route → gates → run → receipt spine (`.agent/workflows/autopilot.md`), with Stage 0.5's MISSION CARD
+> sign-off switched ON. Job-shaped asks go to `/job`, deliberation to `/convene`. The stages below
+> remain the spec of the card, the continuity check, expert composition, and the mission log; read
+> them when the preflight is wanted, not for every task (Farrice: the always-on sign-off was a tax).
 
 `/go "<messy thought>"` turns an underspecified dump into a routed, executed
 deliverable — compiled by the SAME deterministic engines the Codex path uses

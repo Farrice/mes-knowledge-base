@@ -601,3 +601,4 @@
 {"ts": "2026-09-03T13:13:38Z", "label": "rello-proof-note-copy", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-09-03T13:15:24Z", "label": "rello-proof-note-copy", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('if \u2026 if \u2026 if') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-09-03T13:15:48Z", "label": "rello-proof-note-copy", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-09-12T04:51:21Z", "label": "jenny-transfer-post-v2-livefire", "verdict": "FAIL", "fails": ["33 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}

@@ -1,5 +1,9 @@
 ---
 description: Stress-test deliverable Creator+Critic agent pair before shipping
+
+> **Receipt rule (2026-09-11):** this loop has no script; its receipt is the file it MUST write —
+> `.tmp/adversarial-review/review-<slug>.md` (creator take · critic findings · verdict · what changed). A review
+> that produced no file did not run. `adversarial-refine` is superseded by this workflow.
 ---
 
 # /adversarial-review -- Ship-Ready Quality Gate

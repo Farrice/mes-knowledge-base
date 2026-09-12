@@ -53,6 +53,7 @@ Usage:
   python3 execution/job_board.py resume <slug>
   python3 execution/job_board.py status [--all] [slug]
   python3 execution/job_board.py dispatch <slug> [--lane L2]             # worker brief per runnable lane + seat
+  python3 execution/job_board.py run <slug> [--harness codex] [--max-turns 6] [--max-minutes 90] [--model sonnet]  # headless to MAY END, from a lane
   python3 execution/job_board.py --brief                                 # one line for session_brief
   python3 execution/job_board.py close <slug> --done "..." --aligned "..." --unauthorized "..." --approvals "..." [--verdict good|marginal|off] [--ratchet "..."] [--force]
   python3 execution/job_board.py lint <slug>
@@ -645,6 +646,313 @@ def cmd_dispatch(a):
     print(f"  keep the write lanes moving while seats run; end only on MAY END (python3 execution/job_board.py next {a.slug})")
     return 0
 
+
+# ── Headless runner (2026-09-11, lane L3 of agent-loops-real) ──────────────
+# Nate's 20-hour shape: the manager keeps working after Farrice walks away.
+# `run` loops `claude -p "/job resume <slug>"` (or `codex exec "$job resume …"`)
+# from a LANE worktree until the board prints MAY END, with one receipt per
+# turn under runs/ and a stop on two turns without board progress. Rides the
+# subscriptions (his call 2026-09-11): the caps are turns and minutes; dollars
+# are guarded per call by the cost gate inside the lanes.
+import hashlib as _hashlib
+import time as _time
+
+RUN_PROMPT = ("/job resume {slug} — you are the manager running unattended (headless turn {turn}/{max_turns}). "
+              "Run the manager loop from disk: `python3 execution/job_board.py next {slug}`, dispatch runnable lanes "
+              "(`job_board.py dispatch {slug}`), do the write lanes yourself, close every lane with --did/--result/--seat, "
+              "batch every question into DECISION PACKETS (`job_board.py packet {slug} add …`) — never ask in chat, nobody "
+              "is watching — checkpoint, and end the turn only when `job_board.py next {slug}` prints MAY END. "
+              "Writes stay inside this worktree; no git commit/push; no paid API calls without the cost gate.")
+
+
+def _board_fingerprint(slug: str) -> str:
+    h = _hashlib.sha256()
+    for p in (mc.state_path(slug), trace_path(slug), decisions_path(slug)):
+        try:
+            h.update(p.read_bytes())
+        except Exception:
+            h.update(b"-")
+    return h.hexdigest()[:16]
+
+
+def _runner_cmd(a, slug: str, turn: int, cwd: Path, last_md: Path) -> list[str]:
+    prompt = RUN_PROMPT.format(slug=slug, turn=turn, max_turns=a.max_turns)
+    if a.harness == "codex":
+        writable = f'sandbox_workspace_write.writable_roots=["{STATE_ROOT / ".agent"}"]'
+        cmd = ["codex", "exec", "--skip-git-repo-check", "-s", "workspace-write", "-c", writable,
+               "-c", 'approval_policy="never"', "-C", str(cwd), "-o", str(last_md)]
+        if a.model:
+            cmd += ["-m", a.model]
+        return cmd + [prompt.replace("/job resume", "$job resume", 1)]
+    cmd = ["claude", "-p", prompt, "--permission-mode", a.permission_mode]
+    if a.allowed_tools:
+        cmd += ["--allowedTools"] + a.allowed_tools.split(",")
+    # headless pen default = sonnet (live-fire packet 2026-09-11, his 'use our usage smartly'):
+    # an unattended run must never inherit an Opus/Fable session silently. --model overrides.
+    cmd += ["--model", a.model or "sonnet"]
+    if a.claude_max_turns:
+        cmd += ["--max-turns", str(a.claude_max_turns)]
+    return cmd
+
+
+def cmd_run(a):
+    slug = a.slug
+    state = read(slug)
+    if plan_state(state) == "pending":
+        print(f"PLAN PENDING — {slug}: a headless run needs his go first (python3 execution/job_board.py go {slug})")
+        return 1
+    cwd = Path(a.cwd).resolve() if a.cwd else ROOT
+    if cwd.resolve() == STATE_ROOT.resolve() and not a.allow_main:
+        print(f"REFUSED — {cwd} is the main checkout (integration-only). Run from a lane worktree or pass --cwd <lane> "
+              f"(python3 execution/worktree_lane.py bootstrap). --allow-main overrides, on your head.")
+        return 1
+    runs = mc.mission_dir(slug) / "runs"
+    runs.mkdir(parents=True, exist_ok=True)
+    started = _time.time()
+    deadline = started + a.max_minutes * 60
+    stalls = 0
+    last_next = ""
+    print(f"RUN — {slug} · harness {a.harness} · max {a.max_turns} turn(s) / {a.max_minutes} min · cwd {cwd} · receipts {mc.rel(runs)}")
+    for turn in range(1, a.max_turns + 1):
+        remaining = deadline - _time.time()
+        if remaining <= 30:
+            print(f"  stop: minute cap reached before turn {turn}")
+            break
+        before = _board_fingerprint(slug)
+        ts = _dt.datetime.now().strftime("%Y%m%dT%H%M%S")
+        last_md = runs / f"{ts}-turn{turn}.last.md"
+        cmd = _runner_cmd(a, slug, turn, cwd, last_md)
+        shown = " ".join(c if len(c) < 90 else c[:87] + "…" for c in cmd)
+        if a.dry_run:
+            print(f"  [dry-run] turn {turn}: {shown}")
+            continue
+        t0 = _time.time()
+        env = dict(os.environ)
+        env.setdefault("ANTIGRAVITY_HARNESS", a.harness)
+        env["JOB_RUNNER"] = "1"
+        try:
+            r = subprocess.run(cmd, cwd=str(cwd), capture_output=True, text=True, timeout=remaining, env=env)
+            out, err, code = r.stdout, r.stderr, r.returncode
+        except subprocess.TimeoutExpired as e:
+            out, err, code = (e.stdout or "") if isinstance(e.stdout, str) else "", "timeout", 124
+        except FileNotFoundError:
+            out, err, code = "", f"{cmd[0]} not on PATH", 127
+        dur = int(_time.time() - t0)
+        nxt = subprocess.run([sys.executable, str(EXEC / "job_board.py"), "next", slug], capture_output=True,
+                             text=True, cwd=str(ROOT)).stdout.strip()
+        last_next = nxt.splitlines()[0] if nxt else ""
+        changed = _board_fingerprint(slug) != before
+        tail = "\n".join((out or "").splitlines()[-40:])
+        rp = runs / f"{ts}-turn{turn}.md"
+        rp.write_text(f"# RUN RECEIPT — {slug} · turn {turn}/{a.max_turns} · {a.harness}\n\n"
+                      f"- when: {ts} · duration: {dur}s · exit: {code}\n- cwd: {cwd}\n- cmd: {shown}\n"
+                      f"- board progress: {'yes' if changed else 'NO'}\n- next: {last_next}\n"
+                      + (f"- stderr: {err.strip()[:400]}\n" if err and err.strip() else "")
+                      + f"\n## output (last 40 lines)\n\n```\n{tail}\n```\n", encoding="utf-8")
+        trace_add(slug, "-", "run", f"turn {turn} · {a.harness} · exit {code} · {dur}s · "
+                  f"{'progress' if changed else 'no progress'} · next: {last_next[:80]} · receipt {mc.rel(rp)}", a.harness)
+        print(f"  turn {turn}: exit {code} · {dur}s · {'progress' if changed else 'NO progress'} · {last_next[:100]}")
+        if code == 127:
+            break
+        if "MAY END" in last_next:
+            print(f"  stop: board says MAY END")
+            break
+        stalls = 0 if changed else stalls + 1
+        if stalls >= 2:
+            print(f"  stop: two turns without board progress (stuck lane — read the receipt)")
+            break
+    print(f"RUN DONE — {slug}: {last_next or '(dry run)'} · receipts: {mc.rel(runs)}")
+    return 0
+
+
+WORKER_PROMPT = ("You are a WORKER SEAT on job {slug}, lane {lane} — headless, nobody is watching. Read your brief at "
+                 "{brief} and do exactly that lane, nothing else. Write your result to {result} following the brief's "
+                 "output contract, then reply with ONLY the result path and a 3-line summary. {negative}. Git read-only; "
+                 "no commits; no paid API calls; never ask in chat — a question is a `PACKET:` line in the result file.")
+
+
+def _worker_seat_name(a) -> str:
+    if a.harness == "codex":
+        return "codex"
+    m = (a.model or "sonnet").lower()
+    return m if m in SEATS else "sonnet"
+
+
+def _worker_cmd(a, slug: str, lane_id: str, brief: Path, result: Path, cwd: Path, last_md: Path) -> list[str]:
+    prompt = WORKER_PROMPT.format(slug=slug, lane=lane_id, brief=brief, result=result, negative=NEGATIVE_BRIEF)
+    if a.harness == "codex":
+        writable = f'sandbox_workspace_write.writable_roots=["{STATE_ROOT / ".agent"}"]'
+        cmd = ["codex", "exec", "--skip-git-repo-check", "-s", "workspace-write", "-c", writable,
+               "-c", 'approval_policy="never"', "-C", str(cwd), "-o", str(last_md)]
+        if a.model:
+            cmd += ["-m", a.model]
+        return cmd + [prompt]
+    cmd = ["claude", "-p", prompt, "--permission-mode", a.permission_mode]
+    if a.allowed_tools:
+        cmd += ["--allowedTools"] + a.allowed_tools.split(",")
+    cmd += ["--model", a.model or "sonnet"]
+    if a.claude_max_turns:
+        cmd += ["--max-turns", str(a.claude_max_turns)]
+    return cmd
+
+
+def _run_one_worker(a, slug: str, lane_id: str, cwd: Path, runs: Path) -> dict:
+    brief = lanes_dir(slug) / f"{lane_id}.brief.md"
+    result = lanes_dir(slug) / f"{lane_id}.result.md"
+    ts = _dt.datetime.now().strftime("%Y%m%dT%H%M%S")
+    last_md = runs / f"{ts}-{lane_id}-worker.last.md"
+    cmd = _worker_cmd(a, slug, lane_id, brief, result, cwd, last_md)
+    shown = " ".join(c if len(c) < 90 else c[:87] + "…" for c in cmd)
+    seat = f"{a.harness}/{a.model or ('sonnet' if a.harness == 'claude' else 'config model')}"
+    if a.dry_run:
+        return {"lane": lane_id, "dry": shown, "seat": seat}
+    env = dict(os.environ)
+    env.setdefault("ANTIGRAVITY_HARNESS", a.harness)
+    env["JOB_RUNNER"] = "1"
+    t0 = _time.time()
+    try:
+        r = subprocess.run(cmd, cwd=str(cwd), capture_output=True, text=True, timeout=a.max_minutes * 60, env=env)
+        out, err, code = r.stdout, r.stderr, r.returncode
+    except subprocess.TimeoutExpired as e:
+        out, err, code = (e.stdout or "") if isinstance(e.stdout, str) else "", "timeout", 124
+    except FileNotFoundError:
+        out, err, code = "", f"{cmd[0]} not on PATH", 127
+    dur = int(_time.time() - t0)
+    has_result = result.exists()
+    tail = "\n".join((out or "").splitlines()[-30:])
+    rp = runs / f"{ts}-{lane_id}-worker.md"
+    rp.write_text(f"# WORKER RECEIPT — {slug} · lane {lane_id} · seat {seat}\n\n"
+                  f"- when: {ts} · duration: {dur}s · exit: {code}\n- cwd: {cwd}\n- cmd: {shown}\n"
+                  f"- brief: {brief}\n- result file: {'written' if has_result else 'MISSING'} → {result}\n"
+                  + (f"- stderr: {err.strip()[:400]}\n" if err and err.strip() else "")
+                  + f"\n## output (last 30 lines)\n\n```\n{tail}\n```\n", encoding="utf-8")
+    trace_add(slug, lane_id, "worker", f"seat {seat} · exit {code} · {dur}s · result "
+              f"{'written' if has_result else 'MISSING'} · receipt {mc.rel(rp)}", a.harness)
+    return {"lane": lane_id, "code": code, "dur": dur, "result": has_result, "receipt": rp, "seat": seat}
+
+
+def _packets_in_result(result: Path) -> list[dict]:
+    """Parse `PACKET:` lines a worker seat wrote (brief contract: choice · options · recommendation ·
+    what happens if he says nothing). Tolerant: missing parts point at the result file."""
+    out = []
+    try:
+        lines = result.read_text(errors="replace").splitlines()
+    except Exception:
+        return out
+    for ln in lines:
+        s = ln.strip()
+        if not s.upper().startswith("PACKET:"):
+            continue
+        body = s.split(":", 1)[1].strip()
+        parts = [p.strip() for p in re.split(r"\s+·\s+|\s+\|\s+", body) if p.strip()]
+        pk = {"choice": parts[0] if parts else body[:160], "options": "", "recommend": "", "if_none": "", "irreversible": ""}
+        for p in parts[1:]:
+            low = p.lower()
+            if low.startswith("options"):
+                pk["options"] = p.split(":", 1)[1].strip() if ":" in p else p
+            elif low.startswith("recommend"):
+                pk["recommend"] = p.split(":", 1)[1].strip() if ":" in p else p
+            elif low.startswith("if no answer") or low.startswith("if none"):
+                pk["if_none"] = p.split(":", 1)[1].strip() if ":" in p else p
+            elif low.startswith("irreversible"):
+                pk["irreversible"] = p.split("?", 1)[1].strip() if "?" in p else p
+        pk["options"] = pk["options"] or f"see {result}"
+        pk["recommend"] = pk["recommend"] or f"see {result}"
+        out.append(pk)
+    return out
+
+
+def _file_worker_result(slug: str, lane_id: str, result: Path, seat_name: str, seat_label: str) -> str:
+    """Close or block a lane from a worker's result file. Returns the receipt/packet line to print."""
+    pks = _packets_in_result(result)
+    if pks:
+        first = None
+        for pk in pks:
+            args = [sys.executable, str(EXEC / "job_board.py"), "packet", slug, "add", "--lane", lane_id,
+                    "--choice", pk["choice"][:300], "--options", pk["options"][:600], "--recommend", pk["recommend"][:400]]
+            if pk["if_none"]:
+                args += ["--if-none", pk["if_none"][:300]]
+            if pk["irreversible"]:
+                args += ["--irreversible", pk["irreversible"][:80]]
+            r = subprocess.run(args, capture_output=True, text=True, cwd=str(ROOT))
+            head = (r.stdout.strip().splitlines() or [""])[0]
+            first = first or head
+        subprocess.run([sys.executable, str(EXEC / "job_board.py"), "lane", slug, lane_id, "--status", "blocked",
+                        "--blocker", f"decision packet from worker seat {seat_label}: {pks[0]['choice'][:120]}",
+                        "--result", str(result), "--seat", seat_name,
+                        "--did", f"worker seat {seat_label} (headless) — result on disk, {len(pks)} packet(s) filed"],
+                       capture_output=True, text=True, cwd=str(ROOT))
+        return f"{first or 'DECISION PACKET filed'} → lane {lane_id} BLOCKED on his answer"
+    r = subprocess.run([sys.executable, str(EXEC / "job_board.py"), "lane", slug, lane_id, "--status", "complete",
+                        "--result", str(result), "--seat", seat_name,
+                        "--did", f"worker seat {seat_label} (headless) — result file on disk"],
+                       capture_output=True, text=True, cwd=str(ROOT))
+    receipt = [l for l in r.stdout.splitlines() if "LANE RECEIPT" in l]
+    return receipt[-1] if receipt else (r.stdout.strip().splitlines()[-1] if r.stdout.strip() else "(closed)")
+
+
+def cmd_worker(a):
+    """Headless worker seats: one lane brief each, in parallel, on a cheaper pen. Claude Code:
+    `claude -p --model sonnet` (default). Codex: `codex exec -m <model>` — Codex has no native
+    subagents (codex-cli 0.154.0, checked 2026-09-11), so this IS how Astra delegates down."""
+    slug = a.slug
+    state = read(slug)
+    if plan_state(state) == "pending":
+        print(f"PLAN PENDING — {slug}: worker seats need his go first (python3 execution/job_board.py go {slug})")
+        return 1
+    cwd = Path(a.cwd).resolve() if a.cwd else ROOT
+    if cwd.resolve() == STATE_ROOT.resolve() and not a.allow_main:
+        print(f"REFUSED — {cwd} is the main checkout (integration-only). Run from a lane worktree or pass --cwd <lane>. "
+              f"--allow-main overrides, on your head.")
+        return 1
+    lane_ids = [x.strip() for x in (a.lanes or "").split(",") if x.strip()]
+    if not lane_ids:
+        print("--lanes L2,L3 required")
+        return 1
+    missing = [l for l in lane_ids if lane_by_id(state, l) is None]
+    if missing:
+        print(f"no lane {missing} in {slug}")
+        return 1
+    seat_name = _worker_seat_name(a)
+    for lid in lane_ids:
+        if not (lanes_dir(slug) / f"{lid}.brief.md").exists() and not a.dry_run:
+            subprocess.run([sys.executable, str(EXEC / "job_board.py"), "dispatch", slug, "--lane", lid, "--seat", seat_name],
+                           capture_output=True, text=True, cwd=str(ROOT))
+    runnable = []
+    for lid in lane_ids:
+        if a.dry_run or (lanes_dir(slug) / f"{lid}.brief.md").exists():
+            runnable.append(lid)
+        else:
+            print(f"  skip {lid}: no brief (lane not runnable yet? python3 execution/job_board.py next {slug})")
+    if not runnable:
+        return 1
+    runs = mc.mission_dir(slug) / "runs"
+    runs.mkdir(parents=True, exist_ok=True)
+    print(f"WORKERS — {slug} · {a.harness}/{a.model or ('sonnet' if a.harness == 'claude' else 'config model')} · "
+          f"lanes {','.join(runnable)} · parallel {min(a.parallel, len(runnable))} · max {a.max_minutes} min each · cwd {cwd}")
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=max(1, min(a.parallel, len(runnable)))) as pool:
+        results = list(pool.map(lambda lid: _run_one_worker(a, slug, lid, cwd, runs), runnable))
+    rc = 0
+    for res in results:
+        if "dry" in res:
+            print(f"  [dry-run] {res['lane']} ({res['seat']}): {res['dry']}")
+            continue
+        state_line = f"  {res['lane']}: exit {res['code']} · {res['dur']}s · result {'written' if res['result'] else 'MISSING'} · receipt {mc.rel(res['receipt'])}"
+        print(state_line)
+        if res["result"] and a.auto_close:
+            print("  " + _file_worker_result(slug, res["lane"], lanes_dir(slug) / f"{res['lane']}.result.md", seat_name, res["seat"]))
+        elif res["result"]:
+            pks = _packets_in_result(lanes_dir(slug) / f"{res['lane']}.result.md")
+            if pks:
+                print(f"  → {res['lane']} result carries {len(pks)} PACKET line(s): file them (job_board.py packet {slug} add …) and mark the lane blocked, or re-run with --auto-close")
+        elif not res["result"]:
+            rc = 1
+            print(f"  → {res['lane']} left open: the manager reads the receipt and decides (re-run, narrow the brief, or do it yourself)")
+    return rc
+
+
+
 def cmd_lane(a):
     with locked(a.slug):
         state = read(a.slug)
@@ -1095,6 +1403,35 @@ def main(argv=None):
     s.add_argument("--result", help="the seat's result file (lanes/<id>.result.md); becomes evidence if none given")
     s.add_argument("--seat", choices=SEATS, help="who ran the lane (shows in the trace and receipt)")
     s.set_defaults(fn=cmd_lane)
+    s = sub.add_parser("run", help="headless: loop claude -p / codex exec '/job resume' from a lane until MAY END")
+    s.add_argument("slug"); s.add_argument("--harness", choices=["claude", "codex"], default="claude")
+    s.add_argument("--max-turns", dest="max_turns", type=int, default=6)
+    s.add_argument("--max-minutes", dest="max_minutes", type=int, default=90)
+    s.add_argument("--cwd", help="lane worktree to run in (default: this checkout; main is refused)")
+    s.add_argument("--model", help="pen for the headless turns (claude: e.g. sonnet; codex: -m)")
+    s.add_argument("--permission-mode", dest="permission_mode", default="acceptEdits")
+    s.add_argument("--allowed-tools", dest="allowed_tools",
+                   default="Bash(python3:*),Bash(ls:*),Bash(cat:*),Bash(grep:*),Read,Write,Edit,Glob,Grep")
+    s.add_argument("--claude-max-turns", dest="claude_max_turns", type=int, default=0, help="claude -p --max-turns per headless turn (0 = unlimited)")
+    s.add_argument("--allow-main", dest="allow_main", action="store_true")
+    s.add_argument("--dry-run", dest="dry_run", action="store_true")
+    s.set_defaults(fn=cmd_run)
+    s = sub.add_parser("worker", help="headless worker seats: one lane brief each on a cheaper pen (claude -p sonnet | codex exec -m), in parallel, receipts in runs/")
+    s.add_argument("slug"); s.add_argument("--lanes", required=True, help="comma list, e.g. L2,L3")
+    s.add_argument("--harness", choices=["claude", "codex"], default="claude")
+    s.add_argument("--model", help="claude: sonnet (default) | haiku | opus; codex: any model on his plan (passed as -m)")
+    s.add_argument("--max-minutes", dest="max_minutes", type=int, default=30, help="per lane")
+    s.add_argument("--parallel", type=int, default=3)
+    s.add_argument("--cwd", help="lane worktree to run in (default: this checkout; main is refused)")
+    s.add_argument("--permission-mode", dest="permission_mode", default="acceptEdits")
+    s.add_argument("--allowed-tools", dest="allowed_tools",
+                   default="Bash(python3:*),Bash(ls:*),Bash(cat:*),Bash(grep:*),Read,Write,Edit,Glob,Grep")
+    s.add_argument("--claude-max-turns", dest="claude_max_turns", type=int, default=0)
+    s.add_argument("--auto-close", dest="auto_close", action="store_true",
+                   help="close each lane whose result file appeared (seat recorded); otherwise the manager closes from the result file")
+    s.add_argument("--allow-main", dest="allow_main", action="store_true")
+    s.add_argument("--dry-run", dest="dry_run", action="store_true")
+    s.set_defaults(fn=cmd_worker)
     s = sub.add_parser("dispatch", help="write a worker brief per runnable lane, suggest a seat, record it")
     s.add_argument("slug"); s.add_argument("--lane"); s.add_argument("--seat", choices=SEATS)
     s.set_defaults(fn=cmd_dispatch)

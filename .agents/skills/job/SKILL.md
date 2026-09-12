@@ -23,7 +23,10 @@ and echo its LANE RECEIPT line (`job_board.py dispatch <slug>` writes the per-la
 first; run each brief inline, write `lanes/<id>.result.md`, close with `--result … --seat astra`); a lane that ends in a
 diagnosis is not done — build it, or mark it `--status blocked --blocker "<decision needed>"`
 with a DECISION PACKET. End the turn only when `job_board.py next` prints MAY END. Job state
-lives on disk under `.agent/missions/<slug>/`; `/job resume <slug>` reloads it. Write only in a
+lives on disk under `.agent/missions/<slug>/`; `/job resume <slug>` reloads it — and on a board Fable
+already planned, resume means EXECUTE the lane briefs by contract (never re-plan; judgment → packet).
+Delegate down with `python3 execution/job_board.py worker <slug> --lanes L2,L3 [--harness codex --model <m>]`
+(headless seats, one brief each, receipts in runs/). Write only in a
 Codex lane worktree (GOLDEN RULE). T2/T3 actions (publish, send, spend, delete, ship AS Farrice)
 always wait behind a packet.
 

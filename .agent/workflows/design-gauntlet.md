@@ -6,6 +6,13 @@ description: "/design-gauntlet — improve a renderable design against a named r
 
 Thin command bridge only. The canonical behavior owner is `skills/jack-roberts-design-mastery/workflows/design-gauntlet.md`.
 
+**Runner (2026-09-11 — the loop is a state machine on disk, not chat output):** every phase is a
+`python3 execution/design_gauntlet.py` transition — `open` (fingerprint) → `shoot` (screenshots at 1440/768/375,
+or a CAPTURE-PLAN when no headless renderer exists; capture with the Playwright MCP and `attach`) → `verdict`
+(refused until the round is VISUAL VERIFIED) → `repair` (cap 2) → `shoot` again → `close --risks`. Receipt:
+`gauntlet/<slug>/GAUNTLET-RECEIPT.md`; run log: `.agent/design-gauntlet-log.jsonl`; verifier:
+`python3 execution/verify_design_gauntlet.py`. A gauntlet with no receipt did not run.
+
 ## Invocation
 
 ```text

@@ -1,4 +1,13 @@
+---
+description: "Creative Review (superseded → /design-gauntlet)"
+status: superseded
+superseded_by: design-gauntlet
+---
+
 # Creative Review
+
+> **Superseded 2026-09-11 → `/design-gauntlet`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/design-gauntlet` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 Senior creative director critique of any visual work — designs, photos, videos, brand assets, AI-generated content, campaigns. Uses the Virgil Test, technical assessment, and strategic evaluation to provide specific, actionable improvements with revised AI prompts.
 

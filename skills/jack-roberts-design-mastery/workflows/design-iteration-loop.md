@@ -1,4 +1,13 @@
+---
+description: "Design Iteration Loop (superseded → /design-gauntlet)"
+status: superseded
+superseded_by: design-gauntlet
+---
+
 # Design Iteration Loop
+
+> **Superseded 2026-09-11 → `/design-gauntlet`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/design-gauntlet` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 > The structured micro-polish process that takes an 80% draft to 100% — Jack Roberts' Step 4 methodology for refinement without starting over.
 

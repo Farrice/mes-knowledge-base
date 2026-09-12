@@ -56,6 +56,7 @@ TELEMETRY = [
     REPO / ".agent" / "co-creation-state.json",
     REPO / ".agent" / "sessions" / "steering-observe.jsonl",
     REPO / ".agent" / "active-model.json",
+    REPO / ".agent" / "content-finish-log.jsonl",
 ]
 # the mode LINE, not the bare phrase: the dialect card may mention the mode by name
 # on every prompt (main-only blind spot found 2026-09-10 — the lane had no
@@ -581,6 +582,123 @@ def main():
                 check("pending plan + reply WITH the JOB PLAN block → nothing logged", p2 == p1, f"{p1}→{p2}")
             finally:
                 shutil.rmtree(tmp_job, ignore_errors=True)
+
+            print("== headless run + copy relay (2026-09-11)")
+            rc, out = board(["open", "j-run", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--go"], root)
+            rc, out = board(["run", "j-run", "--harness", "claude", "--dry-run"], root)
+            check("run --dry-run (claude) pins --model sonnet, --permission-mode acceptEdits, /job resume <slug>",
+                  rc == 0 and "--model sonnet" in out and "--permission-mode acceptEdits" in out
+                  and "/job resume j-run" in out, out[:400])
+            rc, out = board(["run", "j-run", "--harness", "codex", "--dry-run"], root)
+            check("run --dry-run (codex) swaps to codex exec + $job resume <slug>",
+                  rc == 0 and "codex exec" in out and "$job resume j-run" in out, out[:400])
+            rc, out = board(["open", "j-run-pending", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK], root)
+            rc, out = board(["run", "j-run-pending", "--harness", "claude", "--dry-run"], root)
+            check("run refuses on a pending plan with its exact refusal text",
+                  rc == 1 and out.startswith("PLAN PENDING") and "needs his go first" in out
+                  and "job_board.py go j-run-pending" in out, out[:300])
+
+            # unit-pin the exclude-regex fix (2026-09-11 lane-write scar): the exclude-name
+            # regex must match the basename only, never the full path — a lane checkout's
+            # own path contains "/.claude/worktrees/…" and must not swallow every artifact.
+            vcode = ("import sys; sys.path.insert(0, r'%s'); import steering_loop_hook as sh\n"
+                     "print(sh._copy_excluded('/Users/x/Google Antigravity/.claude/worktrees/job-visibility-fix/"
+                     "deliverables/probe/linkedin-post-draft.md'))") % str(HOOK.parent)
+            r = subprocess.run([sys.executable, "-c", vcode], capture_output=True, text=True, cwd=str(REPO))
+            check("copy path inside a lane (/.claude/worktrees/…) is NOT excluded — name regex matches basename only",
+                  r.stdout.strip() == "False", (r.stdout + r.stderr)[:200])
+
+            def fire_as(sid, text):
+                env = dict(os.environ, CLAUDE_PROJECT_DIR=str(REPO)); env.pop("ANTIGRAVITY_HARNESS", None)
+                r = subprocess.run([sys.executable, str(HOOK), "prompt"],
+                                   input=json.dumps({"session_id": sid, "prompt": text, "cwd": str(REPO)}),
+                                   capture_output=True, text=True, env=env, cwd=str(REPO), timeout=60)
+                return r.stdout
+
+            def stop_with_writes(sid, paths, last_text="done"):
+                lines = []
+                for p in paths:
+                    lines.append(json.dumps({"type": "assistant", "message": {"content": [
+                        {"type": "tool_use", "name": "Write", "input": {"file_path": p, "content": "x"}}]}}))
+                lines.append(json.dumps({"type": "assistant", "message": {"content": [{"type": "text", "text": last_text}]}}))
+                tp = root / f"copy-transcript-{sid}.jsonl"
+                tp.write_text("\n".join(lines), encoding="utf-8")
+                env = dict(os.environ, CLAUDE_PROJECT_DIR=str(REPO)); env.pop("ANTIGRAVITY_HARNESS", None)
+                r = subprocess.run([sys.executable, str(HOOK), "stop"], input=json.dumps(
+                    {"session_id": sid, "transcript_path": str(tp), "cwd": str(REPO)}),
+                    capture_output=True, text=True, env=env, cwd=str(REPO), timeout=60)
+                return r.stdout + r.stderr
+
+            obs_path = REPO / ".agent" / "sessions" / "steering-observe.jsonl"
+
+            def copy_events(sid):
+                if not obs_path.exists():
+                    return []
+                out = []
+                for ln in obs_path.read_text(errors="replace").splitlines():
+                    if not ln.strip():
+                        continue
+                    try:
+                        rec = json.loads(ln)
+                    except Exception:
+                        continue
+                    if rec.get("session_id") == sid and rec.get("event") == "copy-shipped-ungated":
+                        out.append(rec)
+                return out
+
+            csid = "verify-copy-" + str(int(_time.time()))
+            fire_as(csid, "write the linkedin post")
+            _time.sleep(1.1)
+            stop_with_writes(csid, [str(REPO / "deliverables/probe/linkedin-post-draft.md"),
+                                     str(REPO / "execution/not_copy.py"),
+                                     str(REPO / ".agent/missions/x/plan.md")])
+            recs = copy_events(csid)
+            rec = recs[0] if recs else None
+            check("ungated copy Write → copy-shipped-ungated logged, carrying only the copy path "
+                  "(execution/ and .agent/…plan.md writes excluded)",
+                  rec is not None and any("linkedin-post-draft.md" in p for p in rec.get("paths", []))
+                  and not any("not_copy.py" in p for p in rec.get("paths", []))
+                  and not any(p.endswith("missions/x/plan.md") for p in rec.get("paths", [])),
+                  json.dumps(rec)[:300] if rec else "no record logged")
+
+            _time.sleep(1.1)
+            rel = fire_as(csid, "looks good")
+            check("copy relay (prompt side) → ⚠ LAST TURN (job observer + NO content-finish-gate",
+                  PIN_RELAY in rel and "NO content-finish-gate" in rel, rel[:300])
+            rel2 = fire_as(csid, "and now?")
+            check("copy relay fires once, not on the next prompt", PIN_RELAY not in rel2, rel2[:200])
+
+            gated_path = REPO / "deliverables" / "probe" / "gated-post.md"
+            finish_log = REPO / ".agent" / "content-finish-log.jsonl"
+            finish_log.parent.mkdir(parents=True, exist_ok=True)
+            with open(finish_log, "a") as fh:
+                fh.write(json.dumps({"ts": "now", "label": str(gated_path), "verdict": "CLEAN",
+                                     "fails": [], "warns": []}) + "\n")
+            gsid = "verify-copy-gated-" + str(int(_time.time()))
+            fire_as(gsid, "write the gated post")
+            _time.sleep(1.1)
+            stop_with_writes(gsid, [str(gated_path)])
+            check("copy path with a content-finish-gate line already logged → nothing logged",
+                  copy_events(gsid) == [])
+
+            print("== worker seats (2026-09-11)")
+            rc, out = board(["open", "j-worker", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK, "--go"], root)
+            rc, out = board(["worker", "j-worker", "--lanes", "L1", "--dry-run"], root)
+            check("worker --dry-run (claude) prints [dry-run], claude -p, --model sonnet, WORKER SEAT on job <slug>",
+                  rc == 0 and "[dry-run]" in out and "claude -p" in out and "--model sonnet" in out
+                  and "WORKER SEAT on job j-worker" in out, out[:400])
+            rc, out = board(["worker", "j-worker", "--lanes", "L1", "--harness", "codex",
+                             "--model", "gpt-5-mini", "--dry-run"], root)
+            check("worker --dry-run (codex, --model gpt-5-mini) prints codex exec, -m gpt-5-mini, -o",
+                  rc == 0 and "codex exec" in out and "-m gpt-5-mini" in out and "-o " in out, out[:400])
+            rc, out = board(["open", "j-worker-pending", "--recipe", "mission-backlog-triage", "--goal", TRIAGE_ASK], root)
+            rc, out = board(["worker", "j-worker-pending", "--lanes", "L1", "--dry-run"], root)
+            check("worker on a pending-plan job refuses with its exact refusal text",
+                  rc != 0 and out.startswith("PLAN PENDING") and "worker seats need his go first" in out
+                  and "job_board.py go j-worker-pending" in out, out[:300])
+            rc, out = board(["worker", "j-worker", "--lanes", "L99", "--dry-run"], root)
+            check("worker with a missing lane refuses and names it",
+                  rc != 0 and "L99" in out, out[:200])
     finally:
         restore(snap)
     print(f"\nverify_job_handoff: {PASS} pass, {FAIL} fail")

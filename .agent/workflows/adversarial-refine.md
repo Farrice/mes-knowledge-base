@@ -1,8 +1,13 @@
 ---
 description: Stress-test any idea, strategy, content, or argument
+status: superseded
+superseded_by: adversarial-review
 ---
 
 # /adversarial-refine — Bulletproof Your Ideas Before Publishing
+
+> **Superseded 2026-09-11 → `/adversarial-review`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/adversarial-review` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 Run any draft idea, strategy, content, or argument through Dan Koe's 5-vector adversarial refinement protocol. Eliminates blind spots, surfaces hidden assumptions, and strengthens your work before it faces the real world.
 

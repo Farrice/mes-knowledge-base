@@ -1,8 +1,13 @@
 ---
 description: The meta-skill for the agent era
+status: superseded
+superseded_by: publishable-copy-gate
 ---
 
 # /sniff-check — Agent Output Quality Protocol Builder
+
+> **Superseded 2026-09-11 → `/publishable-copy-gate`** (agent-loops-real L1/L2: this loop had no runner and no receipt of
+> ever running; `/publishable-copy-gate` is the cluster survivor with the receipt path). Kept as the record of the method.
 
 Create evaluation protocols that detect agent quality without requiring domain expertise.
 

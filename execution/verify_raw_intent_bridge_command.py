@@ -73,10 +73,12 @@ def verify_files() -> None:
 def verify_discovery() -> None:
     workflows = command_menu.build_index()
     menu_hits = [workflow.name for _, workflow in command_menu.search(workflows, "/raw-intent-bridge messy Codex run packet", 5)]
-    require(menu_hits and menu_hits[0] == COMMAND, f"command_menu did not rank /{COMMAND} first: {menu_hits}")
+    # 2026-09-11: the bridge is superseded by /autopilot (its Stage 0 lives there); discovery must
+    # surface the door that now answers the ask — either name satisfies.
+    require(menu_hits and menu_hits[0] in (COMMAND, "autopilot"), f"command_menu did not rank /{COMMAND} or /autopilot first: {menu_hits}")
 
     router_hits = [workflow["name"] for _, workflow in workflow_router.search_workflows("/raw-intent-bridge messy Codex run packet", 5)]
-    require(COMMAND in router_hits[:3], f"workflow_router did not surface /{COMMAND}: {router_hits}")
+    require(COMMAND in router_hits[:3] or "autopilot" in router_hits[:3], f"workflow_router did not surface /{COMMAND} or /autopilot: {router_hits}")
 
 
 def verify_packet_cli() -> None:

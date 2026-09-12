@@ -3,8 +3,8 @@ job: agent-loops-real
 name: Make the agent loops real (audit, runner, recipes)
 family: harness
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 1
+last_ratchet: 2026-09-11
 ---
 
 ## The job
@@ -52,4 +52,4 @@ Retiring any workflow he named as loved · any paid API call in live fire · pus
 Every advertised loop carries one of three labels with a receipt path: RUNS (receipt of a real run) · REPAIRED (runner + receipt + verifier) · RETIRED (superseded pointer). `job_board.py run` finished one real job to MAY END unattended. Ten new cards lint clean. Verifier green.
 
 ## Ratchet log
-- none yet
+- 2026-09-11 — every lane that seats a worker names the seat in its result file; --auto-close treats a PACKET line as BLOCKED not complete (fixed); copy artifacts written from a lane path were invisible to the ungated-ship observer until the basename-only exclude fix — probe every observer with a lane path
