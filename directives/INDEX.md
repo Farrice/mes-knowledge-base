@@ -142,3 +142,4 @@ A future automation can populate this section nightly via a script that walks th
 ---
 
 *Last updated: 2026-04-24. Generated as part of Fix 6 from the system audit at `_active/harness/system-audit/audit-2026-04-24.md`.*
+- `two-harness-operator-playbook.md` — how to run Claude Code + Codex as one shop: doors, seats, headless workers/runner, handoff, what burns what (2026-09-11)
