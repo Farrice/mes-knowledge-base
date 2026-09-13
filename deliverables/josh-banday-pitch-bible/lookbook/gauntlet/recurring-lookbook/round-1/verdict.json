@@ -1,0 +1,8 @@
+{
+  "verdict": "INCOMPARABLE",
+  "gap": "bar=self (no reference lookbook supplied); judged against the production floor. Desktop 1440 and tablet 768 via headless Chrome, mobile 375x812 via Playwright true mobile emulation: 19 embedded images all load (0 broken via document.images), scrollWidth==clientWidth at 375 (no element wider than the viewport), type readable at all three widths, black/gold contrast held. One repair applied in-lane before the shot: the rotated SCROLL indicator collided with the wrapped hero meta at 375, now hidden under 640px. Known capture caveat: headless desktop Chrome at --window-size=375 lays the page out wider and clips, so mobile.png is the Playwright capture, not the Chrome one.",
+  "evidence": "deliverables/josh-banday-pitch-bible/lookbook/gauntlet/recurring-lookbook/round-1/desktop.png; tablet.png; mobile.png; desktop-long.png (1440x9000 of the print variant, every section visible incl. all five comp strips)",
+  "preserve": "cinematic dark/gold palette, serif display type, negative space, gauntlet-passed layout",
+  "visual": "VISUAL VERIFIED",
+  "ts": "2026-09-12T17:10:21-07:00"
+}

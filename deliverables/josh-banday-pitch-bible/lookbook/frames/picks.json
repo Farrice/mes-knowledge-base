@@ -1,0 +1,18 @@
+{
+  "01-hero-key-art": 1,
+  "02-stage-7": 1,
+  "03-craft-services": 3,
+  "04-trailer-village": 2,
+  "05-writers-room": 1,
+  "06-parking-lot": 1,
+  "07-production-offices": 2,
+  "_why": {
+    "01": "t1: the mark is the subject; set falls off behind it; cleanest beam",
+    "02": "t1: standing crew silhouette + monitor glow, set reads as a real sitcom apartment",
+    "03": "t1: overhead tent light and morning haze; edited so the stage door reads 7 not 4",
+    "04": "t2: the hierarchy reads left-to-right, big gleaming units down to the dented shared one with a chair",
+    "05": "t1: index cards and whiteboard grid legible as shapes, coat on the hook",
+    "06": "t1: the lone car sits in its own pool of light",
+    "07": "t2: desk lamp foreground, conference room behind blinds, schedule grid"
+  }
+}

@@ -1,0 +1,15 @@
+# derived / heavy intermediates — the picked frames, assets, HTML, PDF and receipts are committed
+.jpg-cache/
+frames/thumbs/
+frames/contact-sheet.html
+frames/run.log
+gauntlet/**/*-long.png
+# unpicked takes (records only; picks.json names the keepers)
+frames/01-hero-key-art-t2.png
+frames/02-stage-7-t2.png
+frames/03-craft-services-t1.png
+frames/03-craft-services-t2.png
+frames/04-trailer-village-t1.png
+frames/05-writers-room-t2.png
+frames/06-parking-lot-t2.png
+frames/07-production-offices-t1.png

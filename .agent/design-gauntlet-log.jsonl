@@ -9,3 +9,8 @@
 {"ts": "2026-09-11T21:42:29-07:00", "event": "attach", "slug": "in-betweener-deck-livefire", "round": 1, "state": "VISUAL VERIFIED"}
 {"ts": "2026-09-11T21:50:49-07:00", "event": "verdict", "slug": "in-betweener-deck-livefire", "round": 1, "verdict": "INCOMPARABLE", "visual": "VISUAL VERIFIED"}
 {"ts": "2026-09-11T21:51:01-07:00", "event": "close", "slug": "in-betweener-deck-livefire", "verdict": "PASS", "rounds": 1, "repairs": 0, "receipt": "/Users/farricecain/Google Antigravity/.claude/worktrees/job-visibility-fix/deliverables/gauntlet/in-betweener-deck-livefire/GAUNTLET-RECEIPT.md"}
+{"ts": "2026-09-12T17:03:43-07:00", "event": "open", "slug": "recurring-lookbook", "artifact": "deliverables/josh-banday-pitch-bible/lookbook/RECURRING_pitch_lookbook.html", "mode": "Precision Polish", "dir": "/Users/farricecain/Google Antigravity/.claude/worktrees/inbetweener-pitch-bible/deliverables/josh-banday-pitch-bible/lookbook/gauntlet/recurring-lookbook"}
+{"ts": "2026-09-12T17:03:43-07:00", "event": "shoot-unverified", "slug": "recurring-lookbook", "round": 1, "reason": "python playwright not installed"}
+{"ts": "2026-09-12T17:09:56-07:00", "event": "attach", "slug": "recurring-lookbook", "round": 1, "state": "VISUAL VERIFIED"}
+{"ts": "2026-09-12T17:10:21-07:00", "event": "verdict", "slug": "recurring-lookbook", "round": 1, "verdict": "INCOMPARABLE", "visual": "VISUAL VERIFIED"}
+{"ts": "2026-09-12T17:10:39-07:00", "event": "close", "slug": "recurring-lookbook", "verdict": "PASS", "rounds": 1, "repairs": 0, "receipt": "/Users/farricecain/Google Antigravity/.claude/worktrees/inbetweener-pitch-bible/deliverables/josh-banday-pitch-bible/lookbook/gauntlet/recurring-lookbook/GAUNTLET-RECEIPT.md"}
