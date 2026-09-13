@@ -14,20 +14,13 @@ outranks newer cumulative work. Proof, live in the repo the day this was
 written: CANON.md marked 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
 canonical while the actual current profile work was the 2026-08-06 rebuild.
 
-THE RULE THAT REPLACES THE STAMP:
+AUTHORITY RULE (2026-09-12). File dates and undated names are discovery hints,
+not approval or authority. Explicit parked/superseded/archived/retired status
+excludes a document from working candidates. Current authority comes from the
+project's decision-backed CANON/index and latest explicit user direction.
+Generated entry points are snapshots and can become stale.
 
-    A filename that LEADS with YYYY-MM-DD- is a RECORD.
-    It is never truth and is never built on.
-
-    A filename with no leading date is LIVING.
-    It sits at the bucket root and is updated in place.
-
-The marker is positional and machine-checkable, so nothing has to be
-maintained and nothing can lie. "Current" comes from git, never from a stamp.
-
-This module only READS (tree + git + frontmatter) and writes START-HERE.md /
-START-HERE.html. Because every value is derived at build time, the front door
-cannot go stale — the failure mode it replaces is structurally impossible here.
+This module reads tree, git, frontmatter, and sidecars and writes START-HERE.
 
 Usage:
     python3 execution/front_door.py build _active/linkedin/profile
@@ -60,7 +53,8 @@ RECORD_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})[-_]")
 
 SKIP_DIRS = {".git", "node_modules", ".venv", "__pycache__", ".DS_Store",
              "90-exports"}
-ARCHIVE_DIRS = {"99-archive", "_archive", "archive"}
+ARCHIVE_DIRS = {"99-archive", "_archive", "archive", "archived", "deprecated"}
+HISTORICAL_STATES = {"parked", "superseded", "archived", "retired", "deprecated"}
 
 # Pinned by name — contracts with other tools, never counted as living docs.
 PINNED = {"INDEX.md", "README.md", "CLAUDE.md", "RISKS.md", "CANON.md",
@@ -362,6 +356,25 @@ def scan(base: Path) -> dict:
             archived += 1
             continue
 
+        # Explicit lifecycle outranks name/date and applies to records too.
+        fm = {}
+        side = {}
+        try:
+            if p.suffix.lower() in DOC_SUFFIXES:
+                fm = frontmatter(p.read_text(errors="replace"))
+            metadata = Path(str(p) + ".metadata.json")
+            if metadata.exists():
+                side = json.loads(metadata.read_text())
+                if not isinstance(side, dict):
+                    raise ValueError("Lifecycle metadata must be an object")
+        except (OSError, ValueError):
+            drift.append(f"`{rel_proj}` has unreadable lifecycle metadata; excluded pending review")
+            continue
+        states = {str(fm.get("status", "")).lower(), str(side.get("status", "")).lower()}
+        if states & HISTORICAL_STATES:
+            archived += 1
+            continue
+
         ts = dates.get(rel_repo)
         if ts is None:
             try:
@@ -395,7 +408,7 @@ def scan(base: Path) -> dict:
             fm = {}
         if (fm.get("status") or "").lower() == "canonical":
             drift.append(f"`{rel_proj}` still carries `status: canonical` — "
-                         "delete the stamp; position and date are the truth now")
+                         "verify it against the latest explicit decision and living CANON/index")
         entry["slot"] = f"{bucket}/{_slot(p.stem)}"
         living.append(entry)
 
@@ -433,7 +446,7 @@ def scan(base: Path) -> dict:
     if len(claims) > 1:
         drift.append("**" + str(len(claims)) + " files claim to be the front door** — "
                      + ", ".join(f"`{c}`" for c in sorted(claims)[:6])
-                     + ". START-HERE.md is the front door; the rest are history.")
+                     + ". Reconcile their scope and decisions before selecting or retiring an entry point.")
 
     return {"base": base, "living": living, "records": records,
             "unabsorbed": unabsorbed, "homeless": homeless_detail,
@@ -463,17 +476,18 @@ def render_md(s: dict, broken: int | None) -> str:
     L.append(f"# {_title(base)} — start here")
     L.append("")
     L.append(f"*Generated {now} by `execution/front_door.py`. Do not edit — "
-             f"every line is derived from the tree and from git, so it cannot go stale. "
+             f"this is a snapshot of the tree and git, not a declaration of current authority. "
              f"Dates are when the file was last actually WORKED ON: a commit that "
              f"touches {BULK_COMMIT_FILES}+ files here is housekeeping and does not "
              f"count, so a date may read older than `git log`.*")
     L.append("")
-    L.append("> **Undated filename = LIVING** (current, update it in place). "
-             "**Filename leading with a date = RECORD** (a session receipt — "
-             "never truth, never build on it).")
+    L.append("> **Authority comes from explicit decisions and the project's current CANON/index.** "
+             "Undated names and recent modification dates do not establish authority. "
+             "Parked, superseded, archived, and retired documents are excluded. "
+             "Dated records are evidence, not automatic anchors.")
     L.append("")
 
-    L.append("## Live now")
+    L.append("## Working documents — verify current anchor")
     L.append("")
     if not s["living"]:
         L.append("*Nothing living here yet.*")
@@ -491,10 +505,9 @@ def render_md(s: dict, broken: int | None) -> str:
     if s["homeless"]:
         L.append("## ⚠ Folders with no living doc")
         L.append("")
-        L.append("Every file here is a dated record. There is nothing current "
-                 "to read or update — so the next session picks whichever "
-                 "snapshot it finds first. Promote one file to a living doc "
-                 "(drop the date from its name) or fold them into one.")
+        L.append("Only dated records were found here. Check the project CANON/index "
+                 "and explicit decisions for the current anchor. Do not promote "
+                 "a record merely by removing its date.")
         L.append("")
         for h in s["homeless"]:
             L.append(f"- `{h['bucket']}` — {h['count']} records, "
@@ -504,8 +517,9 @@ def render_md(s: dict, broken: int | None) -> str:
     if s["unabsorbed"]:
         L.append("## ⚠ Unabsorbed records")
         L.append("")
-        L.append("Session work newer than the living doc in the same folder. "
-                 "Fold it in, or the next session builds on the older truth.")
+        L.append("These records are newer than the undated documents in their folder. "
+                 "Check for decisions that require an update; recency alone "
+                 "does not authorize incorporating or replacing content.")
         L.append("")
         for e in s["unabsorbed"][:12]:
             L.append(f"- `{e['rel']}` ({e['date']}) — newer than everything "
@@ -515,8 +529,9 @@ def render_md(s: dict, broken: int | None) -> str:
     if s["competing"]:
         L.append("## Competing versions")
         L.append("")
-        L.append("Several undated files claim the same slot. One is the living "
-                 "doc; the rest belong in `99-archive/` or need a date prefix.")
+        L.append("Several undated files appear to share a purpose. Recover the "
+                 "latest explicit decision, identify the current anchor, and "
+                 "archive only confirmed superseded versions with successor pointers.")
         L.append("")
         for slot, items in sorted(s["competing"].items()):
             L.append(f"- **{slot}** — {len(items)} files: "
@@ -548,7 +563,7 @@ def render_md(s: dict, broken: int | None) -> str:
     L.append("")
     L.append(f"- living docs: {len(s['living'])}")
     L.append(f"- records: {len(s['records'])}")
-    L.append(f"- archived (not counted above): {s['archived']}")
+    L.append(f"- historical or parked (not counted above): {s['archived']}")
     if broken is not None:
         L.append(f"- broken links in this tree: {broken}")
     L.append("")
@@ -574,8 +589,8 @@ def build_brief(s: dict, broken: int | None) -> dict:
     sections: list[dict] = []
 
     dec_items = [{"action": f"{h['bucket']}/ has no living doc",
-                  "why": f"{h['count']} dated records, nothing current "
-                         f"(newest {h['newest']}). Promote one, or fold them into one."}
+                  "why": f"{h['count']} dated records (newest {h['newest']}). "
+                         "Resolve the current anchor from decisions before promotion."}
                  for h in s["homeless"]]
     dec_items += [{"action": e["rel"],
                    "why": f"{e['date']} — newer than everything living in {e['bucket']}"}
@@ -583,17 +598,17 @@ def build_brief(s: dict, broken: int | None) -> dict:
     if dec_items:
         sections.append({
             "kind": "decision",
-            "heading": "What has outrun its living doc",
-            "kicker": "FOLD THIS IN",
-            "dek": ("Until these are folded in, the next session builds on the "
-                    "older truth — the exact failure the canonical stamp used to cause."),
+            "heading": "Possible document reconciliation",
+            "kicker": "VERIFY THE DECISION",
+            "dek": ("These are date-based review hints. Confirm an explicit change "
+                    "before incorporating records or replacing a current document."),
             "items": dec_items[:10],
         })
 
     if s["living"]:
         sections.append({
             "kind": "assets",
-            "heading": "Live now",
+            "heading": "Working documents — verify current anchor",
             "tag": "THE LIVING SET",
             "items": [{"title": e["name"], "role": e["bucket"],
                        "note": f"touched {e['date']}", "path": e["path"]}
@@ -645,9 +660,8 @@ def build_brief(s: dict, broken: int | None) -> dict:
         "slug": base.name,
         "chip": f"START HERE · {arena.upper()}",
         "title": _title(base),
-        "dek": ("Undated filename = living and current. A filename leading with "
-                "a date is a record — a receipt of one session, never the truth "
-                "to build on."),
+        "dek": ("Working-document inventory. Resolve current authority from explicit decisions "
+                "and the project CANON/index. Dates and filenames alone do not establish authority."),
         "window": f"{len(s['living'])} living",
         "lens": arena,
         "sources": f"{len(s['living']) + len(s['records'])} docs",
