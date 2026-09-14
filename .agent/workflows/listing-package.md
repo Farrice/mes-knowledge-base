@@ -5,6 +5,8 @@ description: "/listing-package — URL/address/description in → the COMPLETE l
 
 # /listing-package — Listing URL → Complete Brief, One Shot
 
+For a finished cinematic property-film request (rather than hooks, scripts or a listing brief), delegate production to `.agent/workflows/jen-property-video.md`. Keep this workflow for the factual listing/copy package.
+
 Thin wrapper — the full methodology lives in the skill.
 
 ## Steps

@@ -1347,6 +1347,18 @@ BINDINGS = [
         ),
     },
     {
+        "id": "jen_property_video",
+        "signal_phrases": [
+            "bradford-style", "bradford vertical", "property video",
+            "property listing video", "listing video", "property walkthrough",
+            "listing walkthrough", "jen-property-video", "vertical real estate video",
+        ],
+        "mandatory_workflow": "jen-property-video",
+        "forbidden_workflows": [],
+        "negative_signals": ["video script only", "hooks only", "caption only"],
+        "reason": "A property-film request uses the approved vertical production workflow, not the listing copy package; adapt the craft to the new property and verify private assets before generation.",
+    },
+    {
         # 2026-08-05, Farrice-approved diff (listing-engine-v2 build). Signals
         # kept narrow and domain-naming per the amnesty lesson — no mood words.
         "id": "jen_listing_package",
