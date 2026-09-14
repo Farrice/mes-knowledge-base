@@ -1,0 +1,53 @@
+{
+  "run_id": "jen-broll-proof-sep10",
+  "harness": "claude",
+  "budget_usd": 10.0,
+  "warn_usd": 7.0,
+  "spent_est_usd": 0.1188,
+  "spent_actual_usd": 0.0,
+  "seats": [
+    {
+      "label": "bar-gap",
+      "seat": "sonnet",
+      "brief_bytes": 3575,
+      "est_usd": 0.0297,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "audience-jen-buyer",
+      "seat": "sonnet",
+      "brief_bytes": 3586,
+      "est_usd": 0.0297,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "voice-register",
+      "seat": "sonnet",
+      "brief_bytes": 3582,
+      "est_usd": 0.0297,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "craft-owner",
+      "seat": "sonnet",
+      "brief_bytes": 3579,
+      "est_usd": 0.0297,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    }
+  ],
+  "rounds": 0,
+  "max_seats": 4,
+  "max_rounds": 3,
+  "max_brief_bytes": 6144,
+  "opened_ts": "2026-09-10T12:26:24.553449+00:00",
+  "closed_ts": "2026-09-10T12:27:25.187333+00:00",
+  "status": "CLOSED"
+}

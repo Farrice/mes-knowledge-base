@@ -22,7 +22,7 @@ This command fronts the reliable engine. Execute it by invoking the **Workflow t
 - `scriptPath`: `.agent/workflows/collective-genius-council.workflow.js`
 - `args`: `{ "task": "<the user's task>", "mode": "<mode>" }`
 
-Before invoking: `python3 execution/swarm_meter.py open --run council-<slug> --budget 10 --harness claude`; after the outcome lands: `python3 execution/swarm_meter.py close --run council-<slug>`. Seating is fixed inside the engine (2026-09-14): Diverge/Deliberate/Learn seats = sonnet, Convene/Inner-Council/Converge/Synthesize = opus; nothing inherits the conductor.
+Before invoking: `python3 execution/swarm_meter.py open --run council-<slug> --budget 10 --harness claude`; after the outcome lands: `python3 execution/swarm_meter.py charge --run council-<slug> --label workflow-total --in <measured tokens> --out 0` then `close --run council-<slug>` (the PreToolUse meter hook is blind to Workflow-internal calls — VERIFIED 2026-09-14). Seating is fixed inside the engine (2026-09-14): Diverge/Deliberate/Learn seats = sonnet, Convene/Inner-Council/Converge/Synthesize = opus; nothing inherits the conductor.
 
 ### Modes (the presets all map here)
 | Mode | Shape | Fronted by |

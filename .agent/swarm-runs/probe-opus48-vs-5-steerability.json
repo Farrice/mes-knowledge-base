@@ -1,0 +1,16 @@
+{
+  "run_id": "probe-opus48-vs-5-steerability",
+  "harness": "claude",
+  "budget_usd": 10.0,
+  "warn_usd": 7.0,
+  "spent_est_usd": 0.0,
+  "spent_actual_usd": 0.0,
+  "seats": [],
+  "rounds": 0,
+  "max_seats": 4,
+  "max_rounds": 3,
+  "max_brief_bytes": 6144,
+  "opened_ts": "2026-09-14T17:07:05.394295+00:00",
+  "closed_ts": "2026-09-14T17:33:22.006092+00:00",
+  "status": "CLOSED"
+}
