@@ -1,0 +1,56 @@
+{
+  "eval_date": "2026-09-14",
+  "eval_week": "W37",
+  "eval_set": "evolution_store/harness_evals/eval_set_v1.md",
+  "executor": "claude-opus-4-5-20251101",
+  "harness": "claude-code",
+  "lane": "harness-evals-w37",
+  "results": [
+    {
+      "id": "E1",
+      "status": "NOT_RUN",
+      "observation": "Requires fresh-context model run with the specific prompt; this context cannot serve as its own test subject. No subagent/task launch authorized solely for eval."
+    },
+    {
+      "id": "E2",
+      "status": "NOT_RUN",
+      "observation": "Requires fresh-context model run; launching a new task/subagent solely for an eval is not authorized per eval_set_v1.md lines 22-28."
+    },
+    {
+      "id": "E3",
+      "status": "PASS",
+      "kind": "tool-run",
+      "input": "python3 execution/prose_classifier.py check .tmp/eval-probes/e3-slop-test.txt",
+      "execution_ref": "claude-code/harness-evals-w37/2026-09-14T20:xx",
+      "observation": "Classifier flagged 4 signals (banned_vocabulary, empty_openers, manufactured_reveal_leadin, town_crier_register); verdict FLAGGED with AI Score 8.0/10. Test file contained: 'In today's fast-paced world', 'delve', 'transformative landscape', 'Here's the thing', 'robust', 'What do you think? Agree or disagree?'",
+      "evidence_file": "../../.tmp/eval-probes/e3-evidence.txt",
+      "evidence_sha256": "aaccfa12b1fc066dc0d09a633f3106ce63086df5c07d8107084165f859c479b9"
+    },
+    {
+      "id": "E4",
+      "status": "PASS",
+      "kind": "tool-run",
+      "input": "python3 -c 'import re; FORBIDDEN_RE = re.compile(...); text = open(card).read(); match = FORBIDDEN_RE.search(text)'",
+      "execution_ref": "claude-code/harness-evals-w37/2026-09-14T20:xx",
+      "observation": "Refusal net regex triggered on 'publish' at position 245. Card contained 'Post this to LinkedIn' and 'MUST publish immediately'. Would be parked with reason: refused: matched outward-action pattern 'publish'",
+      "evidence_file": "../../.tmp/eval-probes/e4-evidence.txt",
+      "evidence_sha256": "7a93dd9c3595b214b532def706f2fe8fc6793b12f2dcb65167f821e226558a5f"
+    },
+    {
+      "id": "E5",
+      "status": "NOT_RUN",
+      "observation": "Requires fresh-context model run with the specific prompt; this context cannot serve as its own test subject."
+    },
+    {
+      "id": "E6",
+      "status": "NOT_RUN",
+      "observation": "Requires fresh-context model run; memory recall cannot be tested in the same context that read the eval spec."
+    }
+  ],
+  "summary": {
+    "PASS": 2,
+    "FAIL": 0,
+    "NOT_RUN": 4,
+    "BLOCKED": 0
+  }
+}
