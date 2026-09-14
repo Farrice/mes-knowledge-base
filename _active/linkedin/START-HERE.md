@@ -1,10 +1,10 @@
 # Linkedin — start here
 
-*Generated 2026-08-07 17:18 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-09-14 01:17 UTC by `execution/front_door.py`. Do not edit — this is a snapshot of the tree and git, not a declaration of current authority. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
-> **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
+> **Authority comes from explicit decisions and the project's current CANON/index.** Undated names and recent modification dates do not establish authority. Parked, superseded, archived, and retired documents are excluded. Dated records are evidence, not automatic anchors.
 
-## Live now
+## Working documents — verify current anchor
 
 **01-research**
 
@@ -91,21 +91,14 @@
 
 - `02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` — touched 2026-08-06
 - `02-offer/ANGLE-MAP-CONFIDENTIAL-INPUT-PROCEDURE.md` — touched 2026-08-06
-- `02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md` — touched 2026-08-05
 - `02-offer/FOUNDING-SOURCE-ROLE-CONFERRAL.md` — touched 2026-08-05
 - `02-offer/hotel-test-proof-to-market-2026-08-05.md` — touched 2026-08-05
 - `02-offer/PROOF-TO-MARKET-BLUEPRINT-TEMPLATE.md` — touched 2026-08-05
 - `02-offer/WORLD-BUILDING-INTEGRATION-2026-08-05.md` — touched 2026-08-05
 - `02-offer/CLAIM-LEDGER-ARTIFACT-DESIGN-BRIEF.md` — touched 2026-08-05
-- `02-offer/service-architecture.md` — touched 2026-07-30
-- `02-offer/intake-form-google-form-template.md` — touched 2026-07-30
-- `02-offer/client-onboarding-sop.md` — touched 2026-07-30
-- `02-offer/client-proposal-template.md` — touched 2026-07-30
 - `02-offer/featured-section-and-profile.md` — touched 2026-07-28
 - `02-offer/PROOF-TO-MARKET-OS.md` — touched 2026-07-28
 - `02-offer/OFFER-WARGAME-2026-07-28.md` — touched 2026-07-28
-- `02-offer/CANONICAL-OFFER-BRIEF.md` — touched 2026-07-28
-- `02-offer/OFFER-LADDER.md` — touched 2026-07-28
 - `02-offer/spec-work-outputs/01-momentous-linkedin-native.txt` — touched 2026-07-25
 - `02-offer/spec-work-outputs/01-momentous-teardown-post.md` — touched 2026-07-25
 - `02-offer/OFFER-LANE-VERDICT-2026-07-21.md` — touched 2026-07-21
@@ -122,7 +115,6 @@
 - `02-offer/AI-SEARCH-SHADOW-PROOF-OBJECT-2026-07-18.md` — touched 2026-07-18
 - `02-offer/LAUNCH-PACKET-CLAIM-CHECK.md` — touched 2026-07-02
 - `02-offer/THE-CLAIM-CHECK-artifact-kit.md` — touched 2026-07-02
-- `02-offer/OFFER-ONE-PAGER.md` — touched 2026-07-01
 - `02-offer/lead-magnet-ai-search-visibility-test.md` — touched 2026-07-01
 - `02-offer/SOUND-BITES.md` — touched 2026-07-01
 - `02-offer/featured-section-funnel-v1.md` — touched 2026-06-30
@@ -144,16 +136,11 @@
 - `02-offer/invisible-expert-scorecard.md` — touched 2026-03-17
 - `02-offer/5-posts-sc-coaches-should-steal.md` — touched 2026-03-17
 - `02-offer/SERVICE-SALES-GUIDE.md` — touched 2026-03-05
-- `02-offer/proof-run-delivery-template.md` — touched 2026-03-02
 - `02-offer/proof-run-offer-page.md` — touched 2026-03-02
 
 **03-launch**
 
 - `03-launch/REPS-GAMEPLAN-2026-07-07.md` — touched 2026-08-07
-- `03-launch/PROFILE-REBUILD-2026-07-21.md` — touched 2026-07-28
-- `03-launch/proof-to-market-profile-package.md` — touched 2026-07-28
-- `03-launch/profile-blueprint.md` — touched 2026-07-28
-- `03-launch/linkedin-profile-package.md` — touched 2026-07-28
 - `03-launch/WEEK1-POSTS-2026-07-21.md` — touched 2026-07-22
 - `03-launch/first-3-posts-and-dm-scripts.md` — touched 2026-07-18
 - `03-launch/first-posts-proof-to-market.md` — touched 2026-07-18
@@ -174,16 +161,25 @@
 
 **04-deliverables**
 
-- `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-07
-- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-07
+- `04-deliverables/offer-test-map.md` — touched 2026-09-09
+- `04-deliverables/context-os/02-OFFER-CANON.md` — touched 2026-08-30
+- `04-deliverables/farrice-umbrella-COMPLETE.md` — touched 2026-08-28
+- `04-deliverables/farrice-500-in-7-days-plan.md` — touched 2026-08-28
+- `04-deliverables/supplement-angle-concepts-and-dm-kit.md` — touched 2026-08-28
+- `04-deliverables/linkedin-profile-concrete-package.md` — touched 2026-08-28
+- `04-deliverables/ROUNDTABLE-BRIEF-2026-08-28.md` — touched 2026-08-28
+- `04-deliverables/oversubscribed-launch-system-farrice.md` — touched 2026-08-28
+- `04-deliverables/ROUNDTABLE-VERDICT-2026-08-28.md` — touched 2026-08-28
+- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-28
+- `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-28
+- `04-deliverables/context-os/08-PMF-LINKEDIN-SIGNAL-LANE.md` — touched 2026-08-20
+- `04-deliverables/STATUS-2026-08-07.md` — touched 2026-08-07
 - `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — touched 2026-07-31
-- `04-deliverables/lane-briefs-2026-07-29.md` — touched 2026-07-29
 - `04-deliverables/context-os/06-PROOF-LIBRARY.md` — touched 2026-07-29
 - `04-deliverables/context-os/05-CONTENT-STRATEGY.md` — touched 2026-07-29
 - `04-deliverables/context-os/04-VOICE-REGISTER.md` — touched 2026-07-29
 - `04-deliverables/context-os/00-README-LOAD-ORDER.md` — touched 2026-07-29
 - `04-deliverables/context-os/01-MASTER-CONTEXT.md` — touched 2026-07-29
-- `04-deliverables/context-os/02-OFFER-CANON.md` — touched 2026-07-29
 - `04-deliverables/design-brief-linkedin-carousel-PENCIL-HANDOFF.md` — touched 2026-07-28
 - `04-deliverables/design-brief-linkedin-carousel-authenticity-trap.md` — touched 2026-07-28
 - `04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md` — touched 2026-07-25
@@ -258,6 +254,9 @@
 
 **05-lead-gen**
 
+- `05-lead-gen/engager-rosters/ROSTER-2026-08-27.md` — touched 2026-08-27
+- `05-lead-gen/engager-rosters/ROSTER-2026-08-13.md` — touched 2026-08-15
+- `05-lead-gen/engager-rosters/ROSTER-2026-08-10.md` — touched 2026-08-12
 - `05-lead-gen/listening-creators.md` — touched 2026-08-06
 - `05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — touched 2026-08-06
 - `05-lead-gen/SEND-READY-FIRST-WAVE-2026-07-31.md` — touched 2026-07-31
@@ -267,10 +266,7 @@
 - `05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` — touched 2026-07-28
 - `05-lead-gen/PRACTITIONER-PROSPECTS-2026-07-21.md` — touched 2026-07-22
 - `05-lead-gen/PROSPECT-LIST-2026-07-21.md` — touched 2026-07-21
-- `05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md` — touched 2026-07-19
-- `05-lead-gen/dream-100-v1.md` — touched 2026-07-18
 - `05-lead-gen/health-brand-launch-message-stress-test.md` — touched 2026-07-18
-- `05-lead-gen/outreach/dm-scripts.md` — touched 2026-07-01
 - `05-lead-gen/SIGNAL-DETECTION-QUICK-REF.md` — touched 2026-06-23
 - `05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md` — touched 2026-06-23
 - `05-lead-gen/pipeline.md` — touched 2026-06-19
@@ -297,60 +293,70 @@
 - `06-automation/daily/briefing-2026-06-15.md` — touched 2026-06-19
 - `06-automation/daily/briefing-2026-06-11.md` — touched 2026-06-11
 
+## ⚠ Unabsorbed records
+
+These records are newer than the undated documents in their folder. Check for decisions that require an update; recency alone does not authorize incorporating or replacing content.
+
+- `02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md` (2026-08-10) — newer than everything living in `02-offer`
+- `03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md` (2026-08-10) — newer than everything living in `03-launch`
+- `03-launch/teardowns/2026-08-07-teardown-06-bpn.md` (2026-08-07) — newer than everything living in `03-launch`
+- `03-launch/teardowns/2026-08-07-teardown-05-hilma.md` (2026-08-07) — newer than everything living in `03-launch`
+- `03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md` (2026-08-07) — newer than everything living in `03-launch`
+
 ## Competing versions
 
-Several undated files claim the same slot. One is the living doc; the rest belong in `99-archive/` or need a date prefix.
+Several undated files appear to share a purpose. Recover the latest explicit decision, identify the current anchor, and archive only confirmed superseded versions with successor pointers.
 
 - **03-launch/linkedin-profile** — 2 files: `03-launch/platforms/linkedin-profile-v3.md` (2026-03-02), `03-launch/platforms/linkedin-profile-v4.md` (2026-03-02)
 - **04-deliverables/flagship** — 2 files: `04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md` (2026-06-22), `04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP-draft.md` (2026-06-22)
 - **04-deliverables/transition** — 2 files: `04-deliverables/content-os/arcs/00-transition/transition-02-FINAL.md` (2026-03-17), `04-deliverables/content-os/arcs/00-transition/transition-01-FINAL.md` (2026-03-17)
+- **05-lead-gen/roster-2026** — 3 files: `05-lead-gen/engager-rosters/ROSTER-2026-08-27.md` (2026-08-27), `05-lead-gen/engager-rosters/ROSTER-2026-08-13.md` (2026-08-15), `05-lead-gen/engager-rosters/ROSTER-2026-08-10.md` (2026-08-12)
 - **06-automation/briefing-2026** — 4 files: `06-automation/daily/briefing-2026-06-23.md` (2026-06-23), `06-automation/daily/briefing-2026-06-22.md` (2026-06-22), `06-automation/daily/briefing-2026-06-15.md` (2026-06-19), `06-automation/daily/briefing-2026-06-11.md` (2026-06-11)
 - **06-automation/content-packet** — 2 files: `06-automation/health-performance-ai-search-week-1/content-packet.md` (2026-06-22), `06-automation/health-performance-ai-search-week-1/content-packet-v2-polished.md` (2026-06-22)
 
 ## Recent records
 
+- 2026-08-10 — `02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md`
+- 2026-08-10 — `03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md`
+- 2026-08-10 — `05-lead-gen/2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md`
+- 2026-08-08 — `05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md`
+- 2026-08-08 — `05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md`
+- 2026-08-07 — `05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md`
+- 2026-08-07 — `03-launch/teardowns/2026-08-07-teardown-06-bpn.md`
+- 2026-08-07 — `03-launch/teardowns/2026-08-07-teardown-05-hilma.md`
+- 2026-08-07 — `03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md`
 - 2026-08-06 — `03-launch/2026-08-06-skills-and-media-PLAN.md`
-- 2026-08-06 — `03-launch/2026-08-06-experience-entries-DEPLOY.md`
-- 2026-08-06 — `03-launch/2026-08-06-enchant-takes-AB.md`
-- 2026-08-06 — `03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`
-- 2026-08-04 — `03-launch/2026-08-04-week-2-pov-batch.md`
-- 2026-08-04 — `03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md`
-- 2026-08-04 — `03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md`
-- 2026-07-31 — `03-launch/2026-07-30-profile-copy-v8-POP.md`
-- 2026-07-31 — `05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md`
-- 2026-07-30 — `03-launch/2026-07-30-profile-copy-v7-FRESH-PEN.md`
 
 ## Drift
 
-- `02-offer/PROOF-TO-MARKET-OS.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `02-offer/OFFER-WARGAME-2026-07-28.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `01-research/ICP-BATTLE-CARD.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `01-research/MARKET-ICP-DOSSIER-2026-06.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/05-CONTENT-STRATEGY.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/04-VOICE-REGISTER.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/00-README-LOAD-ORDER.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/06-PROOF-LIBRARY.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/01-MASTER-CONTEXT.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `04-deliverables/context-os/02-OFFER-CANON.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `05-lead-gen/SEND-READY-FIRST-WAVE-2026-07-31.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- `05-lead-gen/CASH-SCOREBOARD-2026-07-29.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- **5 files claim to be the front door** — `02-offer/00-START-HERE-FEATURED-FUNNEL.md`, `02-offer/INDEX-AI-SEARCH-SHADOW.md`, `02-offer/INDEX-FEATURED-SECTION.md`, `04-deliverables/content-os/content-team-os/launch-assets/00-START-HERE.md`, `START-HERE.md`. START-HERE.md is the front door; the rest are history.
+- `02-offer/PROOF-TO-MARKET-OS.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `02-offer/OFFER-WARGAME-2026-07-28.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `01-research/ICP-BATTLE-CARD.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `01-research/MARKET-ICP-DOSSIER-2026-06.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/05-CONTENT-STRATEGY.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/04-VOICE-REGISTER.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/00-README-LOAD-ORDER.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/06-PROOF-LIBRARY.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/01-MASTER-CONTEXT.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `05-lead-gen/SEND-READY-FIRST-WAVE-2026-07-31.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- `05-lead-gen/CASH-SCOREBOARD-2026-07-29.md` still carries `status: canonical` — verify it against the latest explicit decision and living CANON/index
+- **5 files claim to be the front door** — `02-offer/00-START-HERE-FEATURED-FUNNEL.md`, `02-offer/INDEX-AI-SEARCH-SHADOW.md`, `02-offer/INDEX-FEATURED-SECTION.md`, `04-deliverables/content-os/content-team-os/launch-assets/00-START-HERE.md`, `START-HERE.md`. Reconcile their scope and decisions before selecting or retiring an entry point.
 
 ## Media
 
-- `03-launch` — 4 file(s)
+- `03-launch` — 14 file(s)
 - `05-assets` — 3 file(s)
 - `01-research` — 1 file(s)
 
 ## Health
 
-- living docs: 273
-- records: 32
-- archived (not counted above): 93
-- broken links in this tree: 517
+- living docs: 269
+- records: 39
+- historical or parked (not counted above): 115
+- broken links in this tree: 530
 
