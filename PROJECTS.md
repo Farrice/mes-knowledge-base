@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-09-13 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-09-14 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -8,16 +8,16 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-11 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-11 | active |
-| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-11 | active* |
-| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-11 | active* |
+| `clients` | _active/ | `_active/clients/INDEX.md` | 2026-09-13 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-09-13 | active |
+| `harness` | _active/ | `_active/harness/INDEX.md` | 2026-09-13 | active* |
+| `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-09-13 | active* |
+| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-09-13 | active* |
 | `offer-strategy` | _active/ | `_active/offer-strategy/INDEX.md` | 2026-09-11 | active* |
 | `mybpm` | _active/ | `_active/mybpm/INDEX.md` | 2026-09-09 | active* |
 | `00-social-content` | projects/ | **— none —** | 2026-09-03 | active* |
 | `str-trending-research` | projects/ | **— none —** | 2026-09-03 | active* |
 | `products` | _active/ | **— none —** | 2026-09-01 | active* |
-| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-30 | active* |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-27 | active* |
 | `publishing` | _active/ | `_active/publishing/INDEX.md` | 2026-08-27 | active* |
 | `bowling-anime-trailer` | _active/ | `_active/bowling-anime-trailer/INDEX.md` | 2026-08-24 | active* |

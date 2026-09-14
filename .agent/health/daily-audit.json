@@ -1,18 +1,19 @@
 {
-  "timestamp": "2026-09-13T06:00:05.246570",
+  "timestamp": "2026-09-14T06:00:00.117059",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (18 projects, 6 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
-    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 0 need judgment"
+    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 2 need judgment"
   },
   "self_heal": {
     "exit": 0,
-    "findings": 20,
+    "findings": 21,
     "ids": [
       "born_intent_drift",
+      "stale_slash_commands",
       "platform_drift",
       "dead_hooks",
       "dead_launchd",
@@ -22,8 +23,7 @@
       "verify_dhar_mann_transformational_content_factory.py",
       "verify_execution_receipt.py",
       "verify_global_adaptive_judgment_floor.py",
-      "verify_google_operator_core.py",
-      "verify_harness_eval_evidence.py"
+      "verify_google_operator_core.py"
     ]
   },
   "brief_harvest": {
@@ -31,9 +31,9 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 0,
-    "coverage": "4069/4069",
-    "orphans_total": 21,
+    "new": 2,
+    "coverage": "4071/4071",
+    "orphans_total": 23,
     "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",

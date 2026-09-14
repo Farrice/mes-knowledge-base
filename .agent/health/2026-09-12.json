@@ -1,98 +1,89 @@
 {
-  "ts": "2026-09-14T06:15:00",
-  "date": "2026-09-14",
+  "ts": "2026-09-12T06:15:05",
+  "date": "2026-09-12",
   "deep": false,
   "context_injection": {
     "claude_md_bytes": 22693,
-    "memory_md_bytes": 15833,
+    "memory_md_bytes": 15737,
     "memory_md_entries": 92,
     "master_context_bytes": 30914,
-    "total_bytes": 69440,
+    "total_bytes": 69344,
     "memory_dir_files": 232,
-    "memory_dir_bytes": 716349
+    "memory_dir_bytes": 714644
   },
   "assets": {
     "skills": 428,
-    "workflows": 2892,
+    "workflows": 2891,
     "agents": 242,
     "directives": 100,
-    "execution_scripts": 488,
+    "execution_scripts": 487,
     "verify_scripts": 141,
     "hooks": 19,
     "solution_cards": 120
   },
   "tmp": {
-    "bytes": 15914170817,
-    "files": 200009
+    "bytes": 14623613530,
+    "files": 200000
   },
   "ledgers": {
-    "observe_log_bytes": 5065240,
-    "steering_observe_bytes": 123300,
-    "missions_bytes": 197118,
+    "observe_log_bytes": 5054674,
+    "steering_observe_bytes": 97689,
+    "missions_bytes": 187857,
     "content_finish_bytes": 132109
   },
   "verification_misses_total": 7,
-  "mcp_calls_30d": 59,
-  "mcp_paid_calls_30d": 59,
-  "steering_misses_7d": 178,
+  "mcp_calls_30d": 48,
+  "mcp_paid_calls_30d": 48,
+  "steering_misses_7d": 81,
   "session_ledger": {
-    "events": 1568,
-    "debted_sessions": 204,
-    "noise_factor": 7.7,
-    "zero_spawn_sessions": 147,
+    "events": 1529,
+    "debted_sessions": 200,
+    "noise_factor": 7.6,
+    "zero_spawn_sessions": 143,
     "latest_week": [
-      "2026-W38",
-      5
+      "2026-W37",
+      12
     ]
   },
   "harness_behavior": {
     "window": "last 7d",
-    "generated": "2026-09-14T06:15:17",
+    "generated": "2026-09-12T06:15:24",
     "by_model": {
       "gpt-6-astra": {
         "harness": "codex",
-        "turns": 179,
-        "calls_per_turn": 12.26,
-        "writes_per_turn": 0.44,
-        "prose_chars_per_call": 259.0,
-        "pct_turns_le3_calls": 31.8,
-        "pct_final_with_artifact_path": 29.1
+        "turns": 168,
+        "calls_per_turn": 11.1,
+        "writes_per_turn": 0.49,
+        "prose_chars_per_call": 306.2,
+        "pct_turns_le3_calls": 33.3,
+        "pct_final_with_artifact_path": 31.0
       },
       "claude-fable-5-1": {
         "harness": "claude",
-        "turns": 218,
-        "calls_per_turn": 24.49,
-        "writes_per_turn": 4.5,
-        "prose_chars_per_call": 86.5,
-        "pct_turns_le3_calls": 24.3,
-        "pct_final_with_artifact_path": 35.3
+        "turns": 196,
+        "calls_per_turn": 24.51,
+        "writes_per_turn": 4.45,
+        "prose_chars_per_call": 85.9,
+        "pct_turns_le3_calls": 26.0,
+        "pct_final_with_artifact_path": 32.7
+      },
+      "claude-sonnet-5": {
+        "harness": "claude",
+        "turns": 55,
+        "calls_per_turn": 33.05,
+        "writes_per_turn": 0.78,
+        "prose_chars_per_call": 259.6,
+        "pct_turns_le3_calls": 12.7,
+        "pct_final_with_artifact_path": 41.8
       },
       "(unknown)": {
         "harness": "codex",
-        "turns": 100,
+        "turns": 81,
         "calls_per_turn": 0.0,
         "writes_per_turn": 0.0,
         "prose_chars_per_call": 0.0,
         "pct_turns_le3_calls": 100.0,
-        "pct_final_with_artifact_path": 41.0
-      },
-      "claude-opus-5": {
-        "harness": "claude",
-        "turns": 22,
-        "calls_per_turn": 30.55,
-        "writes_per_turn": 0.0,
-        "prose_chars_per_call": 468.5,
-        "pct_turns_le3_calls": 0.0,
-        "pct_final_with_artifact_path": 90.9
-      },
-      "claude-sonnet-5": {
-        "harness": "claude",
-        "turns": 63,
-        "calls_per_turn": 34.33,
-        "writes_per_turn": 1.08,
-        "prose_chars_per_call": 222.4,
-        "pct_turns_le3_calls": 11.1,
-        "pct_final_with_artifact_path": 49.2
+        "pct_final_with_artifact_path": 38.3
       },
       "gpt-5.6-luna": {
         "harness": "codex",
@@ -105,52 +96,60 @@
       },
       "claude-opus-4-5-20251101": {
         "harness": "claude",
-        "turns": 1,
-        "calls_per_turn": 100.0,
-        "writes_per_turn": 23.0,
-        "prose_chars_per_call": 22.8,
+        "turns": 4,
+        "calls_per_turn": 47.5,
+        "writes_per_turn": 9.25,
+        "prose_chars_per_call": 75.3,
         "pct_turns_le3_calls": 0.0,
-        "pct_final_with_artifact_path": 100.0
+        "pct_final_with_artifact_path": 75.0
+      },
+      "claude-opus-5": {
+        "harness": "claude",
+        "turns": 21,
+        "calls_per_turn": 30.9,
+        "writes_per_turn": 0.0,
+        "prose_chars_per_call": 474.9,
+        "pct_turns_le3_calls": 0.0,
+        "pct_final_with_artifact_path": 90.5
       }
     },
     "baseline_14d": {
-      "gpt-6-astra": 12.46,
-      "claude-fable-5-1": 23.18,
+      "gpt-6-astra": 11.35,
+      "claude-fable-5-1": 23.1,
+      "claude-sonnet-5": 24.91,
       "(unknown)": 0.0,
-      "claude-opus-5": 19.15,
-      "claude-sonnet-5": 25.9,
       "gpt-5.6-luna": 8.85,
-      "claude-opus-4-5-20251101": 47.6,
-      "gpt-5.6-sol": 30.47,
+      "claude-opus-4-5-20251101": 37.3,
+      "claude-opus-5": 14.56,
+      "gpt-5.6-sol": 32.7,
       "claude-haiku-4-5-20251001": 18.0,
-      "claude-fable-5": 8.11
+      "claude-fable-5": 8.23
     },
     "flags": [],
     "skipped_archives": {
-      "/Users/farricecain/.config/superpowers/conversation-archive/2026/09/12/rollout-2026-09-12T20-36-20-01a098d6-5dbb-7f02-a788-f6adf0f3253b.jsonl": "too_large (236749518 bytes > 62914560)",
-      "/Users/farricecain/.config/superpowers/conversation-archive/2026/09/11/rollout-2026-09-11T23-24-05-01a09449-9460-7050-8238-a85811f391fb.jsonl": "too_large (168863506 bytes > 62914560)",
-      "/Users/farricecain/.config/superpowers/conversation-archive/2026/09/12/rollout-2026-09-12T13-53-59-01a09766-020d-70c2-940c-3743d234e5f0.jsonl": "too_large (92983356 bytes > 62914560)",
       "/Users/farricecain/.config/superpowers/conversation-archive/2026/09/11/rollout-2026-09-11T07-30-14-01a090e0-4fa5-7b83-b040-e57d91fd78c0.jsonl": "too_large (386805002 bytes > 62914560)",
       "/Users/farricecain/.config/superpowers/conversation-archive/-Users-farricecain-Google-Antigravity--claude-worktrees-jen-carousel-reel-concepts/2b62941f-ec17-4f39-b765-b099b1f03447.jsonl": "too_large (67262015 bytes > 62914560)",
+      "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/30/rollout-2026-08-30T23-09-01-01a0566f-7b7e-79e2-94d1-8c29e99fa994.jsonl": "too_large (78192043 bytes > 62914560)",
       "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/30/rollout-2026-08-30T22-29-19-01a0564b-1ed1-7092-a381-cc6cf1c756dc.jsonl": "too_large (93788072 bytes > 62914560)",
       "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/31/rollout-2026-08-31T11-57-38-01a0592f-291c-7ef1-9f70-f488bb62f427.jsonl": "too_large (96296672 bytes > 62914560)",
       "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/29/rollout-2026-08-29T21-09-48-01a050db-f715-7a40-ae0a-078fb6f522d4.jsonl": "too_large (176043625 bytes > 62914560)",
-      "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/30/rollout-2026-08-30T23-09-01-01a0566f-7b7e-79e2-94d1-8c29e99fa994.jsonl": "too_large (78192043 bytes > 62914560)"
+      "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/29/rollout-2026-08-29T12-23-04-01a04ef9-bd1e-7382-8952-3966750fdf53.jsonl": "too_large (63503337 bytes > 62914560)",
+      "/Users/farricecain/.config/superpowers/conversation-archive/2026/08/30/rollout-2026-08-30T04-47-10-01a0527e-b486-7502-a090-c8d1334357ad.jsonl": "too_large (223339980 bytes > 62914560)"
     }
   },
   "git": {
-    "remote_branches": 125,
+    "remote_branches": 119,
     "stashes": 9,
-    "dirty_files": 94
+    "dirty_files": 114
   },
-  "active_stale_files_60d": 2823,
+  "active_stale_files_60d": 2821,
   "hooks_config": {
     "hash": "7582e2766a2944c5",
     "baseline_hash": "8e5f9a19a3927019",
     "drifted": true,
     "evidence_age_days": {
-      "session_ledger": 0.2,
-      "steering_loop": 0.1
+      "session_ledger": 0.3,
+      "steering_loop": 0.3
     }
   },
   "pending_review": {
@@ -170,8 +169,8 @@
     "PRODUCTION_CORE.md": 3892,
     "FARRICE-MASTER-CONTEXT.md": 30914,
     "child_claude_md": {
-      "count": 705,
-      "bytes": 7549151
+      "count": 640,
+      "bytes": 6833301
     },
     "agent_md": {
       "count": 241,
@@ -182,19 +181,19 @@
   "launchd": {
     "com.antigravity.angle-map-listening": {
       "weekly": false,
-      "log_age_days": 17.8,
+      "log_age_days": 15.8,
       "last_exit": 1,
       "log_path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log"
     },
     "com.antigravity.citation-integrity": {
       "weekly": true,
-      "log_age_days": 0.5,
-      "last_exit": 1,
+      "log_age_days": 4.5,
+      "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/citation-integrity.log"
     },
     "com.antigravity.cos-notify": {
       "weekly": false,
-      "log_age_days": 0.5,
+      "log_age_days": 1.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/cos-notify.log"
     },
@@ -212,7 +211,7 @@
     },
     "com.antigravity.distill-weekly": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 6.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/distill-weekly.log"
     },
@@ -224,7 +223,7 @@
     },
     "com.antigravity.evolution-auto": {
       "weekly": false,
-      "log_age_days": 0.5,
+      "log_age_days": 1.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/evolution-logs/evolution-auto.log"
     },
@@ -236,13 +235,13 @@
     },
     "com.antigravity.health-metrics": {
       "weekly": false,
-      "log_age_days": 0.2,
-      "last_exit": 1,
+      "log_age_days": 1.0,
+      "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/collector.log"
     },
     "com.antigravity.knowledge-compiler-weekly": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 6.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/knowledge-compiler-weekly.log"
     },
@@ -266,7 +265,7 @@
     },
     "com.antigravity.memory-review-nudge": {
       "weekly": true,
-      "log_age_days": 6.5,
+      "log_age_days": 4.5,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/logs/memory-review-nudge.log"
     },
@@ -284,13 +283,13 @@
     },
     "com.antigravity.mission-runner": {
       "weekly": false,
-      "log_age_days": 0.1,
+      "log_age_days": 0.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/mission-queue/launchd-stdout.log"
     },
     "com.antigravity.outcome-chase": {
       "weekly": true,
-      "log_age_days": 1.1,
+      "log_age_days": 2.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/outcome-chase.log"
     },
@@ -308,48 +307,46 @@
     },
     "com.antigravity.shelf-report": {
       "weekly": true,
-      "log_age_days": 0.5,
+      "log_age_days": 4.5,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/catalog/shelf-report.log"
     },
     "com.antigravity.skills-sync": {
       "weekly": true,
-      "log_age_days": 1.2,
+      "log_age_days": 6.2,
       "last_exit": 0,
       "log_path": "/Users/farricecain/.agents/skill-sync-stdout.log"
     },
     "com.antigravity.verify-fleet": {
       "weekly": true,
-      "log_age_days": 0.5,
+      "log_age_days": 4.5,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
     },
     "com.antigravity.weekly-harness-cards": {
       "weekly": true,
-      "log_age_days": 0.4,
+      "log_age_days": 5.4,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/weekly-cards.log"
     }
   },
   "verify_fleet": {
-    "ts": "2026-09-13T05:34:54.762119",
-    "age_days": 1.0,
-    "failing": 15,
-    "total": 140
+    "ts": "2026-08-30T05:36:29.336727",
+    "age_days": 13.0,
+    "failing": 21,
+    "total": 97
   },
   "flags": [
     "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log",
-    "routine com.antigravity.citation-integrity: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log",
-    "routine com.antigravity.health-metrics: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/collector.log",
     "routine com.antigravity.pulse-serve: last exit -15 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/pulse/serve.log",
-    ".tmp at 15,914MB / 200,009 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
+    ".tmp at 14,624MB / 200,000 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
     "observe-log.jsonl at 5.1MB \u2014 rotation due (gzip to .agent/sessions/archive/); keeps ledger greppable, archives history",
-    "125 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
+    "119 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
     "hook config drifted vs blessed baseline \u2014 diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately",
-    "_active/ holds 2823 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
+    "_active/ holds 2821 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
     "CLAUDE.md at 23KB (injected every session) \u2014 compress per claude-md-optimization playbook; rules preserved, tokens back",
-    "launchd com.antigravity.angle-map-listening: log silent 18d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
-    "verifier fleet: 15/140 failing (run 2026-09-13) \u2014 each is a contract the system claims to hold; triage in weekly closeout",
+    "launchd com.antigravity.angle-map-listening: log silent 16d (cadence allows 2) \u2014 self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`",
+    "verifier fleet: 21/97 failing (run 2026-08-30) \u2014 each is a contract the system claims to hold; triage in weekly closeout",
     "session context injection grew 29% in ~1mo (54KB \u2192 69KB) \u2014 every session pays this; trim or justify",
     "skills grew +64 in ~1mo with growth unchecked \u2014 pair new builds with archive passes or the routing surface dilutes"
   ]

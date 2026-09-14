@@ -1107,3 +1107,7 @@ released
 {"session_sweep": "2026-09-13T02:45:05.404616", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 387, "threads_seen": 716, "threads_promoted": 12, "deliverables": 5, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 231}, "degraded": []}
 {"session_sweep": "2026-09-13T02:45:05.404616", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 387, "threads_seen": 716, "threads_promoted": 12, "deliverables": 5, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 231}, "degraded": []}
 === 2026-09-13 02:45:05 mission sweep end rc=0 ===
+=== 2026-09-14 02:45:02 mission sweep start ===
+BLOCKED: fresh lock held by another session — mission 'mission_runner overnight run' (heartbeat 897s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping tonight's sweep (one writer per tree)
+{"session_sweep": "2026-09-14T02:45:02.516464", "status": "skipped", "reason": "session lock held"}
