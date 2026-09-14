@@ -1,12 +1,43 @@
 # Wiki Lint Report
-*Generated: 2026-09-13 | 81 issues found*
+*Generated: 2026-09-14 | 112 issues found*
 
-**Errors**: 24 | **Warnings**: 45 | **Info**: 12
+**Errors**: 55 | **Warnings**: 45 | **Info**: 12
 
 ---
 
-## ERROR (24)
+## ERROR (55)
 
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/ron-lynch-v2/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/geoff-woods/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/riley-brown-god-agent/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/jeremy-haynes/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/mike-taylor/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/second-brain-seller/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v2-agentic-os/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/_unnamed-https-www-youtube-com-watch-v-7pqrrxrdr0c/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/kieran-flanagan-second-brain/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/real-estate-offer-enrichment/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/brad-bonanno-edit-bay/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/eddy-ballesteros/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/customer-lang-research/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v1-skills-upgrade/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/brad-bonanno/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/ryan-doser/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v2/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v3/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v1/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/oren-norton-brand-world-building/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/tommy-clark/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/daniel-priestley-sll-engine/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/oren-dara-ad-psychology/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/riley-brown/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/jay-video-craft/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/jay-video-craft-r2/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/jay-video-craft-r3/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/oren-john-identity-marketing/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/hilary-gridley/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/briar-cochran/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/wargame-source/visual-context.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [backward-dissolution-principle](knowledge/synthesis/backward-dissolution-principle.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [constraint-as-creative-input](knowledge/synthesis/constraint-as-creative-input.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [dwell-time-narrative-gravity](knowledge/synthesis/dwell-time-narrative-gravity.md) points to nonexistent file
@@ -26,11 +57,7 @@
 - **[dead_link]** `knowledge/index.md` — Link [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](knowledge/patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [FORMS.md](FORMS.md) points to nonexistent file
-- **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REFERENCE.md](REFERENCE.md) points to nonexistent file
-- **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [EXAMPLES.md](EXAMPLES.md) points to nonexistent file
-- **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [DOCX-JS.md](DOCX-JS.md) points to nonexistent file
-- **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REDLINING.md](REDLINING.md) points to nonexistent file
-- **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [OOXML.md](OOXML.md) points to nonexistent file
+- *... and 5 more*
 
 ## WARNING (45)
 
@@ -83,7 +110,7 @@
 ## INFO (12)
 
 - **[contradiction_zone]** `domain:seo` — 18 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:strategy` — 25 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:strategy` — 24 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:content` — 28 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:copywriting` — 22 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:general` — 28 files contain strong assertions — review for consistency
@@ -91,7 +118,7 @@
 - **[contradiction_zone]** `domain:research` — 23 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:systems` — 19 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:brand` — 24 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:sales` — 14 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:sales` — 13 files contain strong assertions — review for consistency
 - **[very_stale]** `multiple` — 449 files are >90 days old — candidates for archive
 - **[missing_frontmatter]** `multiple` — 1462/1576 files lack YAML frontmatter — limits metadata queries
 
