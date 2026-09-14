@@ -1,3 +1,5 @@
+// Seating (2026-09-14, job swarm-audit-and-manager-layer): workers = model 'sonnet', integrator/judge = 'opus'.
+// An omitted `model` inherits the conductor (Fable) — the token leak the audit found. See directives/swarm-usage-policy.md.
 export const meta = {
   name: 'collective-genius-council',
   description: 'A reliable multi-expert orchestrator for ANY creative/intelligence work. Convene a deliberately diverse cross-domain council (+ Farrice) → divergent takes → select the most complementary inner council → 2 rounds of genuine DELIBERATION (cross-talk, genius-loaded) → synthesize an outcome none could reach alone → emit a "How the Masters Thought" learning digest + append to the growing rubric. Holds the grounding floor; $0 incremental. The presets /council /roundtable /strike /campaign /deploy front this via args.mode.',
@@ -72,7 +74,7 @@ function divergePrompt(m, task) {
 phase('Convene')
 const plan = await agent(
   bash(`python3 execution/council_cast.py ${JSON.stringify(TASK)} --mode ${JSON.stringify(MODE)}`),
-  { label: 'convene', phase: 'Convene', schema: ROSTER_SCHEMA }
+  { label: 'convene', phase: 'Convene', schema: ROSTER_SCHEMA, model: 'opus' }
 )
 const roster = (plan && plan.roster) || []
 const innerSize = (plan && plan.inner_council_size) || 4
@@ -82,7 +84,7 @@ log(`Convened ${roster.length} voices across ${new Set(roster.map(r => r.domain_
 phase('Diverge')
 const takes = await parallel(
   roster.map((m) => () =>
-    agent(divergePrompt(m, TASK), { label: m.name, phase: 'Diverge', schema: TAKE_SCHEMA })
+    agent(divergePrompt(m, TASK), { label: m.name, phase: 'Diverge', schema: TAKE_SCHEMA, model: 'sonnet' })
       .then((r) => (r ? { name: m.name, domain: m.domain_group, wildcard: m.wildcard, genius_path: m.genius_path, ...r } : null))
   )
 )
@@ -94,7 +96,7 @@ const takesDigest = valid.map((t) => `- **${t.name}** [${t.domain}]: ${t.the_mov
 phase('Inner-Council')
 const sel = await agent(
   `From these ${valid.length} expert takes on the task "${TASK}", select the ${innerSize} most COMPLEMENTARY voices for a deliberating inner council — maximize cross-pollination and productive tension, not just the "best" takes. Favor seating at least one wildcard/outsider if it sharpens the collision.\n\nTakes:\n${valid.map((t) => `### ${t.name} [${t.domain}]\nangle: ${t.signature_angle}\nmove: ${t.the_move}`).join('\n\n')}\n\nReturn JSON {inner:[{name, why_seated}]} — why_seated = the specific tension/complement each brings.`,
-  { label: 'select-inner', phase: 'Inner-Council', schema: INNER_SCHEMA }
+  { label: 'select-inner', phase: 'Inner-Council', schema: INNER_SCHEMA, model: 'opus' }
 )
 // Robust name match (case-insensitive, strip "(you)"/punctuation, substring either way) —
 // the selector's strings rarely match take names byte-for-byte.
@@ -126,14 +128,14 @@ const roundA = await parallel(
     agent(
       (m.genius_path ? `First read your genius file for voice + signature moves: ${ROOT}/${m.genius_path}\n\n` : '') +
         `You are **${m.name}** in council deliberation on: ${TASK}\n\nYour own opening move: ${m.the_move}\n\nThe OTHER council members said:\n${otherTakes(m.name)}\n\nNow DELIBERATE — respond as yourself: where do you BUILD on someone, where do you CHALLENGE (name the real disagreement, don't smooth it over), and where do two of these ideas CROSS-POLLINATE into something none of you said alone? Then give your revised move if it changed.\nReturn JSON {response, build_on, challenge, cross_pollinate, revised_move}.`,
-      { label: `deliberate:${m.name}`, phase: 'Deliberate', schema: RESP_SCHEMA }
+      { label: `deliberate:${m.name}`, phase: 'Deliberate', schema: RESP_SCHEMA, model: 'sonnet' }
     ).then((r) => (r ? { name: m.name, ...r } : null))
   )
 )
 const deliberation = roundA.filter(Boolean)
 const converge = await agent(
   `You are the council facilitator. The inner council deliberated on: ${TASK}\n\nResponses:\n${deliberation.map((d) => `### ${d.name}\nbuilds: ${d.build_on}\nchallenges: ${d.challenge}\ncross-pollinates: ${d.cross_pollinate}`).join('\n\n')}\n\nConverge — but PRESERVE real disagreement (never blend to mush). Return JSON {crux (the one real tension that matters), net_new_principle (the insight that emerged ONLY from the combination — what no single member said), forks (genuine either/or choices for Farrice to decide), synthesis_direction}.`,
-  { label: 'converge', phase: 'Deliberate', schema: CONVERGE_SCHEMA }
+  { label: 'converge', phase: 'Deliberate', schema: CONVERGE_SCHEMA, model: 'opus' }
 )
 log(`Deliberated: net-new principle surfaced; ${(converge.forks || []).length} forks for your decision`)
 
@@ -151,7 +153,7 @@ const synthesis = await agent(
     `If you state any fact/number, it must be grounded or flagged as an assumption — do not fabricate.\n` +
     `Then write the full text to ${ROOT}/.tmp/council/${SLUG}-outcome.md (create dirs), and run ` +
     `\`python3 execution/grounding_guard.py ${ROOT}/.tmp/council/${SLUG}-outcome.md --task-type Strategy\` and report its verdict line. Return the outcome text + the grounding verdict.`,
-  { label: 'synthesize', phase: 'Synthesize' }
+  { label: 'synthesize', phase: 'Synthesize', model: 'opus' }
 )
 
 // ── Learn — "How the Masters Thought" digest + growing rubric ────────────
@@ -170,7 +172,7 @@ const learn = await agent(
     `STEP 2: write the digest to ${ROOT}/knowledge/council-sessions/<date>-${SLUG}.md (create dir).\n` +
     `STEP 3: APPEND one distilled line to ${ROOT}/knowledge/council-rubric.md (create it with an "# Council Rubric — Farrice's Growing Mental Models" header if absent) in the form: "- **<principle name>** (<date>, ${SLUG}): <one-line mental model> — from <domain A> × <domain B>." Read-then-append; never overwrite existing lines.\n` +
     `Return the digest text + confirm both file paths written.`,
-  { label: 'learn', phase: 'Learn' }
+  { label: 'learn', phase: 'Learn', model: 'sonnet' }
 )
 
 return {

@@ -54,7 +54,7 @@ The digest is `{crux, gaps, dissent_log (verbatim), null_seats, cost}`. Dissent 
 The pen integrates through the Composition Ledger (`.agent/workflows/expert-composition-governor.md`): every gap accepted / skipped / rejected with evidence, written to `.tmp/swarm/<id>/LEDGER.md`. One revision, v2 to a file. Coverage is not quality. Receipt: `PEN: v2 → <path> · ledger accepted=<n> skipped=<n> rejected=<n>`.
 
 ## 7 · JUDGE = Farrice, blind
-Blind the pair (`operator/blind-key.json` pattern: `{"A": "<v1|v2>", "B": "<v2|v1>"}`), show both, ask for the `/jam` grammar: `A` / `B` / `A but <dial>` / `mix` / `neither — <one word>`. One question, no argument. `neither` → one REVISE round from the source; a second `neither` → RETAIN solo, keep the meter. Receipt: `JUDGE: <verdict> · winner=<v1|v2>`.
+Blind the pair (`.tmp/swarm/<run-id>/blind-key.json`: `{"A": "<v1|v2>", "B": "<v2|v1>"}`), show both, ask for the `/jam` grammar: `A` / `B` / `A but <dial>` / `mix` / `neither — <one word>`. One question, no argument. `neither` → one REVISE round from the source; a second `neither` → RETAIN solo, keep the meter. Receipt: `JUDGE: <verdict> · winner=<v1|v2>`.
 
 ## 8 · RECEIPT
 ```

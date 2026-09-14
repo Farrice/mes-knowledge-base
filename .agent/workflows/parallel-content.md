@@ -61,6 +61,8 @@ Wait for user approval.
 
 Spawn one Task tool sub-agent per content piece **in a single message**:
 
+**Seat every call** (Dispatch Seating Law, 2026-09-14): each Task/Agent call carries `model: sonnet` (`haiku` only for mechanical shuttling). An unseated call inherits the conductor and spends Fable on worker-grade work.
+
 Each agent prompt:
 ```
 You are [Expert Name], writing a [format] about: [topic]

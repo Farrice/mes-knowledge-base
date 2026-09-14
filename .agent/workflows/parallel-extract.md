@@ -62,6 +62,8 @@ After fetch completes, sub-agents in Step 3 should be told to load `extractions/
 
 Spawn one Task tool sub-agent per extraction **in a single message** (this is what makes them parallel):
 
+**Seat every call** (Dispatch Seating Law, 2026-09-14): each Task/Agent call carries `model: sonnet` (`haiku` only for mechanical shuttling). An unseated call inherits the conductor and spends Fable on worker-grade work.
+
 Each sub-agent prompt:
 ```
 You are an extraction specialist. Read and execute these steps:

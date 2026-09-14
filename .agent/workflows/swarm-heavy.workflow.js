@@ -1,3 +1,5 @@
+// Seating (2026-09-14, job swarm-audit-and-manager-layer): workers = model 'sonnet', integrator/judge = 'opus'.
+// An omitted `model` inherits the conductor (Fable) — the token leak the audit found. See directives/swarm-usage-policy.md.
 export const meta = {
   name: 'swarm-heavy',
   description: 'Grok-Heavy/Kimi killer: N independent expert trajectories on ONE problem, reflective aggregation that PRESERVES dissent (never blend to mush), then adversarial claim verification. $0 incremental — Claude subagents only.',
@@ -180,7 +182,7 @@ const aggregate = await agent(
     `Produce a reflective aggregation across all takes — BUT preserve real disagreement (never blend to mush, per the convene doctrine). ` +
     `Write the full aggregation to ${outDirAbs}/aggregate.md, containing: the final answer, an explicit "Forks" section (positions that genuinely disagree — who holds them, what evidence would resolve each), and the top claims worth adversarial verification.\n\n` +
     `Return JSON {finalPosition, forks:[{question, positions, resolver}], topClaims:[{claim, tag, source}], filePath}.`,
-  { label: 'aggregate', phase: 'Aggregate', schema: AGGREGATE_SCHEMA }
+  { label: 'aggregate', phase: 'Aggregate', schema: AGGREGATE_SCHEMA, model: 'opus' }
 )
 // Zero-survivor guard: an aggregate that died never wrote aggregate.md —
 // never fall back to a fabricated path.
@@ -242,7 +244,7 @@ const assemble = await agent(
     `3. Claim ledger — every checked claim with its verdict and source; note which were corrected/removed from the Answer.\n` +
     `4. Task trace — every agent that ran (each Diverge expert, Aggregate, each Verify check), its file (if any), and a one-line summary.\n\n` +
     `Return JSON {deliverablePath, refutedCount, unconfirmedCount}.`,
-  { label: 'assemble', phase: 'Assemble', schema: ASSEMBLE_SCHEMA }
+  { label: 'assemble', phase: 'Assemble', schema: ASSEMBLE_SCHEMA, model: 'opus' }
 )
 const agentCount = workers.length + 1 /* aggregate */ + claimsToCheck.length + 1 /* assemble */
 
