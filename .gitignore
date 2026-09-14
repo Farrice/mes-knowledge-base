@@ -242,3 +242,5 @@ _active/video-studio/hyperframes-studio/
 
 # Private task checkpoint; client/course material is backed up separately.
 .agent/handoffs/2026-09-13-flow-property-social.md
+# Licensed property-video packs and client media stay local; public bridge only.
+.private/property-video/

@@ -1,0 +1,101 @@
+{
+  "creator": {
+    "file": "assets/creator/josh-banday-abc-notdeadyet-press-portrait-2280x3000.jpg",
+    "credit": "Photo · ABC / Pamela Littky",
+    "source": "https://www.detpress.com/abc/bios/josh-banday/",
+    "license": "Official ABC/Disney press-kit portrait (Not Dead Yet); press use, not CC. Placeholder until Josh supplies his own.",
+    "attribution": "ABC / Pamela Littky, Disney Entertainment Television press site"
+  },
+  "lead_comps": [
+    {
+      "name": "Jaboukie Young-White",
+      "known_for": "The Daily Show · Only Murders",
+      "file": "assets/cast/jaboukie-young-white.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2024-03-08_SXSW-2024_Variety-comedy-awards_05222.jpg",
+      "license": "CC BY 4.0",
+      "attribution": "Jay Dixit via Wikimedia Commons"
+    },
+    {
+      "name": "Jeremy Pope",
+      "known_for": "Hollywood · The Inspection",
+      "file": "assets/cast/jeremy-pope.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jeremy_Pope.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Btvway via Wikimedia Commons"
+    }
+  ],
+  "ensemble": {
+    "Marla Feld": [
+      {
+        "name": "June Diane Raphael",
+        "known_for": "Grace and Frankie",
+        "file": "assets/cast/june-diane-raphael.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:June_Diane_Raphael_by_Gage_Skidmore.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Gage Skidmore via Wikimedia Commons"
+      },
+      {
+        "name": "Casey Wilson",
+        "known_for": "Happy Endings",
+        "file": "assets/cast/casey-wilson.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Casey_Wilson_(47209187542).jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Greg2600 via Wikimedia Commons"
+      }
+    ],
+    "Scotty Yuen": [
+      {
+        "name": "Manny Jacinto",
+        "known_for": "The Good Place",
+        "file": "assets/cast/manny-jacinto.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Manny_Jacinto_(Balestra).jpg",
+        "license": "CC BY 3.0",
+        "attribution": "Item 7 via Wikimedia Commons"
+      },
+      {
+        "name": "Bowen Yang",
+        "known_for": "Saturday Night Live",
+        "file": "assets/cast/bowen-yang.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bowen_Yang_in_2025_by_Andrew_Lipovsky.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Andrew Lipovsky via Wikimedia Commons"
+      }
+    ],
+    "Dominique \"Dom\" Hall": [
+      {
+        "name": "Jasmine Cephas Jones",
+        "known_for": "Hamilton · Blindspotting",
+        "file": "assets/cast/jasmine-cephas-jones.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Jasmine_Cephas_Jones.jpg",
+        "license": "CC0",
+        "attribution": "Lauren Desberg via Wikimedia Commons"
+      },
+      {
+        "name": "Ayo Edebiri",
+        "known_for": "The Bear",
+        "file": "assets/cast/ayo-edebiri.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayo_Edebiri_(2018)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "E M via Wikimedia Commons"
+      }
+    ],
+    "Marco Santos": [
+      {
+        "name": "Xolo Maridueña",
+        "known_for": "Cobra Kai",
+        "file": "assets/cast/xolo-mariduena.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Xolo_Maridue%C3%B1a_(41151816374)_(cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Greg2600 via Wikimedia Commons"
+      },
+      {
+        "name": "Diego Tinoco",
+        "known_for": "On My Block",
+        "file": "assets/cast/diego-tinoco.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Diego_Tinoco_by_Gage_Skidmore.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Gage Skidmore via Wikimedia Commons"
+      }
+    ]
+  }
+}

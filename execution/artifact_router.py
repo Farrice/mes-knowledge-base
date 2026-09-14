@@ -555,7 +555,12 @@ def iter_scan_roots() -> list[Path]:
 
 
 def should_skip(path: Path) -> bool:
-    parts = set(path.parts)
+    # A checkout may itself live under .tmp (Codex lanes). Only directory
+    # names inside the governed root describe artifact lifecycle/exclusions.
+    relative = safe_relative(path, ROOT)
+    if relative is None:
+        relative = safe_relative(path, DOCUMENTS_CODEX)
+    parts = set(Path(relative).parts if relative is not None else path.parts)
     if parts & SKIP_DIR_NAMES:
         return True
     if path.name in SKIP_FILE_NAMES:
@@ -654,7 +659,7 @@ def infer_lifecycle(path: Path) -> tuple[str, str, list[str]]:
     suffix = path.suffix.lower()
     reasons: list[str] = []
 
-    if any(part.lower() in {"archive", "_archive", "archived", "deprecated", "_deprecated"} for part in path.parts):
+    if any(part.lower() in {"99-archive", "archive", "_archive", "archived", "deprecated", "_deprecated"} for part in path.parts):
         return "archive", "archive", ["path is archived or deprecated"]
     if path.name.endswith(".metadata.json"):
         return "metadata", "metadata", ["sidecar metadata"]

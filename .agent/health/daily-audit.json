@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T06:00:04.811909",
+  "timestamp": "2026-09-13T06:00:05.246570",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (18 projects, 6 drift items)"
@@ -10,7 +10,7 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 27,
+    "findings": 20,
     "ids": [
       "born_intent_drift",
       "platform_drift",
@@ -18,12 +18,12 @@
       "dead_launchd",
       "wiring_orphans",
       "org_drift",
+      "verify_creative_strategy_intelligence.py",
       "verify_dhar_mann_transformational_content_factory.py",
       "verify_execution_receipt.py",
-      "verify_global_steering_persistence.py",
+      "verify_global_adaptive_judgment_floor.py",
       "verify_google_operator_core.py",
-      "verify_operator_cockpit.py",
-      "verify_operator_core_end_session.py"
+      "verify_harness_eval_evidence.py"
     ]
   },
   "brief_harvest": {
@@ -31,8 +31,8 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 11,
-    "coverage": "4066/4066",
+    "new": 0,
+    "coverage": "4069/4069",
     "orphans_total": 21,
     "flips": [],
     "orphans_sample": [

@@ -1,28 +1,22 @@
 # Fleet Verification Report
-**Generated**: 2026-08-30T05:36:29.336727
+**Generated**: 2026-09-13T05:34:54.762119
 
-**Verifiers run**: 97 · FAIL 20 · PASS 76 · TIMEOUT 1
+**Verifiers run**: 140 · FAIL 15 · PASS 125
 
 ## 🚨 Verifiers not passing
 
-- **verify_autopilot_routing.py** — TIMEOUT: exceeded 180s
+- **verify_born_intent_drift.py** — FAIL: Deliberate? Review the diffs, then: python3 execution/verify_born_intent_drift.py --bless
+- **verify_creative_strategy_intelligence.py** — FAIL: VERDICT: FAIL (1 failure(s))
 - **verify_dhar_mann_transformational_content_factory.py** — FAIL: - NOTE: direct command search surfaces Dhar factory
-- **verify_execution_receipt.py** — FAIL:   - flagged session: no block decision — {"decision": "block", "reason": "LIBRARIAN \u2014 one deposit before you close (this is what makes the work findable and resumable later; the catalog and missi
-- **verify_global_steering_persistence.py** — FAIL: - check_global_agents: global AGENTS missing: Persistent Per-Exchange Steering, not command-only behavior, At the end of every meaningful exchange, Do not omit this just because the user did not invok
-- **verify_google_operator_core.py** — FAIL: - check_global_agents: global AGENTS missing: Persistent Per-Exchange Steering, not command-only behavior, At the end of every meaningful exchange, Do not omit this just because the user did not invok
-- **verify_operator_cockpit.py** — FAIL: subprocess.TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', 'execution/operator_cockpit.py', '--intent', 'engineering debt and user failure modes are creating bottl
-- **verify_operator_core_end_session.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_extraction_governor_agent.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_health_check.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_knowledge_librarian.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_repeatability_spine.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_routing_intelligence.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_self_evolve.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_skill_anneal.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_source_to_skill_system.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
-- **verify_operator_core_system_audit.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
+- **verify_execution_receipt.py** — FAIL:   - UNDER FLOOR fires on an absolute-path deliverable (regression) — ["HARNESS RED \u2014 verify fleet: 21 of 97 failing (ran 2026-08-30) \u2014 verify_autopilot_routing.py, verify_dhar_mann_transform
+- **verify_global_adaptive_judgment_floor.py** — FAIL: - check_no_competing_overlay_surfaces: overlay was added to a named command, skill, agent, hook, or routing surface: /Users/farricecain/Google Antigravity/.agent/workflows/godin-ai-creative-practice.m
+- **verify_google_operator_core.py** — FAIL: - check_no_competing_overlay_surfaces: overlay was added to a named command, skill, agent, hook, or routing surface: /Users/farricecain/Google Antigravity/.agent/workflows/godin-ai-creative-practice.m
+- **verify_harness_eval_evidence.py** — FAIL: verify_harness_eval_evidence.py: error: the following arguments are required: receipt
+- **verify_jason_buyer_psychology_overlay.py** — FAIL: - canonical admission builder failed: 'delivery-influence.md'
 - **verify_recall_mcp_auth.py** — FAIL: FileNotFoundError: [Errno 2] No such file or directory: 'codex'
-- **verify_sales_psychology_mastery_layer.py** — FAIL: - run-runtime-surface: fullSurfaceSha256: aa514a6125dc13aaba3d4abdf888ee1dcf3e34ccd9bd55150118923d0c6f9b60
+- **verify_research_parity.py** — FAIL: AssertionError: Gemini replay was not rejected as a duplicate
+- **verify_sales_psychology_mastery_layer.py** — FAIL: KeyError: 'delivery-influence.md'
 - **verify_search_content_mastery.py** — FAIL: }
-- **verify_steering_compass_quality.py** — FAIL: - check_global_bridge: Global AGENTS missing 'Insightful Momentum'
-- **verify_system_control_plane.py** — FAIL: - global AGENTS missing: real Codex subagents require explicit authorization
+- **verify_self_heal.py** — FAIL:   - verifier has not dirtied the working tree so far — the suite mutated tracked state
+- **verify_skill_evolution_candidate_freshness.py** — FAIL: - safe refresh command: python3 execution/skill_evolution_candidates.py scan --write
+- **verify_system_control_plane.py** — FAIL: AssertionError: /Users/farricecain/Google Antigravity/.agent/workflows/autopilot.md missing intent-to-outcome text: No global mirror, Google Antigravity edit, publishing, paid tool, destructive

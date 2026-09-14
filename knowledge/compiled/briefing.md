@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-09-03 | 1407 sources | 3,878,540 words*
+*Generated: 2026-09-13 | 1576 sources | 4,201,253 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **march_2026_briefing** (seo) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
-- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
-- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
-- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
-- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
-- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
-- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
-- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
-- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
-- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [april-dunford]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
+- **log** (general) — 22,482 words — `knowledge/log.md`
+- **index** (content) — 8,443 words — `knowledge/index.md`
+- **visual-context** (content) — 9,480 words — `extractions/_unnamed-https-www-youtube-com-watch-v-7pqrrxrdr0c/visual-context.md`
+- **example-written** (copywriting [stefan-georgi]) — 181 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/example-written.md`
+- **extraction-report** (sales [jason-fladlien]) — 2,427 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/extraction-report.md`
+- **proof-lab** (copywriting [jason-fladlien]) — 1,090 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/proof-lab.md`
+- **skill-system-contract** (copywriting [jason-fladlien]) — 497 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/skill-system-contract.md`
+- **source-ledger** (content [jason-fladlien]) — 1,063 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/source-ledger.md`
+- **uncertainty-report** (content [jason-fladlien]) — 185 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/uncertainty-report.md`
+- **validation** (seo [jason-fladlien]) — 304 words — `extractions/jason-fladlien/delivery-influence-2026-09-09/validation.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 439 | kallaway |
-| copywriting | 269 | jason-fladlien |
-| general | 151 | nick-saraev |
-| screenwriting | 148 | connelly |
-| strategy | 137 | april-dunford |
-| brand | 75 | oren-john |
-| systems | 72 | nick-saraev |
-| research | 52 | jason-fladlien |
-| seo | 49 | nathan-gotch |
-| sales | 15 | dai-media |
+| content | 516 | kallaway |
+| copywriting | 306 | jason-fladlien |
+| screenwriting | 167 | connelly |
+| general | 156 | nick-saraev |
+| strategy | 149 | april-dunford |
+| brand | 79 | oren-john |
+| systems | 77 | nick-saraev |
+| research | 55 | jason-fladlien |
+| seo | 51 | nathan-gotch |
+| sales | 20 | jason-fladlien |
 
 ## Deepest Knowledge Sources (by word count)
 

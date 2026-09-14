@@ -1,7 +1,7 @@
 # Overlap Report
-*Generated: 2026-08-30*
+*Generated: 2026-09-13*
 
-**2414 potential overlaps** detected.
+**3610 potential overlaps** detected.
 
 These file pairs share domain, expert, and significant naming overlap. Consider consolidating.
 
@@ -26,7 +26,7 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 4
 - **A**: `extractions/video-context/AaSyn9YSNYQ/visual-ledger.md`
 - **B**: `extractions/video-context/qzMAGdzra88/visual-ledger.md`
-- **Shared**: ledger, visual
+- **Shared**: visual, ledger
 - **Domain**: seo
 
 ### Overlap 5
@@ -104,31 +104,31 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 17
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md`
 - **B**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md`
-- **Shared**: 💎💎🧑🏽, claude, copper, reinventing, with, 💻, ai, !, strategy, creative, alex
+- **Shared**: claude, copper, alex, 💻, reinventing, creative, 💎💎🧑🏽, ai, with, strategy, !
 - **Domain**: strategy
 
 ### Overlap 18
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md`
 - **B**: `extractions/dara-denney/extraction-report-creative-strategy.md`
-- **Shared**: strategy, creative
+- **Shared**: creative, strategy
 - **Domain**: strategy
 
 ### Overlap 19
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md`
 - **B**: `extractions/dara-denney/visual-context-creative-strategy.md`
-- **Shared**: strategy, creative
+- **Shared**: creative, strategy
 - **Domain**: strategy
 
 ### Overlap 20
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md`
 - **B**: `extractions/dara-denney/extraction-report-creative-strategy.md`
-- **Shared**: strategy, creative
+- **Shared**: creative, strategy
 - **Domain**: strategy
 
 ### Overlap 21
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md`
 - **B**: `extractions/dara-denney/visual-context-creative-strategy.md`
-- **Shared**: strategy, creative
+- **Shared**: creative, strategy
 - **Domain**: strategy
 
 ### Overlap 22
@@ -138,49 +138,49 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 - **Domain**: strategy
 
 ### Overlap 23
+- **A**: `extractions/alex-cooper-compounding-creative-intelligence/00-START-HERE.md`
+- **B**: `extractions/alex-copper-static-ads/00-START-HERE.md`
+- **Shared**: here, start, 00
+- **Domain**: strategy
+
+### Overlap 24
 - **A**: `extractions/cody-schneider-signal-outbound/reference-corpus/2026-gtm-engineering-claude-code-crash-course.md`
 - **B**: `research_outputs/2026-07-14-claude-skills-business-deep-research.md`
 - **Shared**: claude, 2026
 - **Domain**: strategy
 
-### Overlap 24
+### Overlap 25
 - **A**: `extractions/dara-denney/extraction-report-creative-strategy.md`
 - **B**: `extractions/dara-denney/visual-context-creative-strategy.md`
-- **Shared**: strategy, creative
+- **Shared**: creative, strategy
 - **Domain**: strategy
 
-### Overlap 25
+### Overlap 26
 - **A**: `extractions/dara-denney/extraction-report-creative-strategy.md`
 - **B**: `extractions/jeremy-haynes/extraction-report.md`
 - **Shared**: extraction, report
 - **Domain**: strategy
 
-### Overlap 26
+### Overlap 27
 - **A**: `extractions/dara-denney/extraction-report-creative-strategy.md`
 - **B**: `extractions/omar-eltakrori/extraction-report.md`
 - **Shared**: extraction, report
 - **Domain**: strategy
 
-### Overlap 27
+### Overlap 28
+- **A**: `extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/behavior-proof.md`
+- **B**: `extractions/video-context/o8yD6nt71Cs/behavior-proof.md`
+- **Shared**: behavior, proof
+- **Domain**: strategy
+
+### Overlap 29
 - **A**: `extractions/jeremy-haynes/extraction-report.md`
 - **B**: `extractions/omar-eltakrori/extraction-report.md`
 - **Shared**: extraction, report
 - **Domain**: strategy
 
-### Overlap 28
-- **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
-- **B**: `extractions/jonathan-courtney/prompts-v2/01-promoter-blueprint-audit.md`
-- **Shared**: blueprint, promoter, audit, 01
-- **Domain**: strategy
-
-### Overlap 29
-- **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
-- **B**: `extractions/marc-andreessen-ben-horowitz/prompts/01-new-media-strategy-audit.md`
-- **Shared**: audit, 01
-- **Domain**: strategy
-
 ### Overlap 30
 - **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
-- **B**: `extractions/marc-andreessen-ben-horowitz/prompts-v2/01-new-media-strategy-audit.md`
-- **Shared**: audit, 01
+- **B**: `extractions/jonathan-courtney/prompts-v2/01-promoter-blueprint-audit.md`
+- **Shared**: promoter, audit, blueprint, 01
 - **Domain**: strategy

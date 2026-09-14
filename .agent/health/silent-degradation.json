@@ -1,6 +1,46 @@
 {
-  "ts": "2026-08-30T05:33:40",
+  "ts": "2026-09-13T05:34:18",
   "high": [
+    {
+      "file": "lane_reconciler.py",
+      "function": "load_registry",
+      "line": 184,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "lane_reconciler.py",
+      "function": "_parse_iso_epoch",
+      "line": 193,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "lane_reconciler.py",
+      "function": "lane_activity_epoch",
+      "line": 233,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "lane_reconciler.py",
+      "function": "worktree_state",
+      "line": 219,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "lane_reconciler.py",
+      "function": "lane_activity_epoch",
+      "line": 242,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
     {
       "file": "mission_brief.py",
       "function": "handoff_narrative",
@@ -26,6 +66,6 @@
       "marker_empty": false
     }
   ],
-  "info_count": 357,
-  "total": 360
+  "info_count": 410,
+  "total": 418
 }

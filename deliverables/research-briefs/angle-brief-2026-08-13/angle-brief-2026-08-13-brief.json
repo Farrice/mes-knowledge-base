@@ -12,7 +12,11 @@
   "run_cost_usd": 0.0,
   "category": "angles",
   "priority": 1,
-  "stack": ["signal-scout", "zeitgeist", "thought-bank"],
+  "stack": [
+    "signal-scout",
+    "zeitgeist",
+    "thought-bank"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -85,12 +89,48 @@
       "heading": "who gets *answered*",
       "caption": "comments per 100 reactions, per post. the two smallest posts in the set pulled the most reply per unit of reach, and the smallest one took 7 reposts against 553 comments. reach and conversation moved in opposite directions for the second run running.",
       "series": [
-        {"label": "the older i get, time is more valuable than money", "note": "welsh · 701r · 7 reposts", "values": [78.9]},
-        {"label": "your time doesn't disappear all at once", "note": "welsh · 3,253r · 126 reposts", "values": [39.8]},
-        {"label": "most raises at work are pretty darn small", "note": "welsh · 3,481r · 98 reposts", "values": [32.1]},
-        {"label": "forget virtual reality, the next big thing is actual reality", "note": "gisenberg · 329r · 11 reposts", "values": [25.8]},
-        {"label": "the best prompt for ai agents is only 3 words", "note": "gisenberg · 241r · 7 reposts", "values": [24.1]},
-        {"label": "every startup should have a daily markdown file", "note": "gisenberg · 484r · 18 reposts", "values": [22.9]}
+        {
+          "label": "the older i get, time is more valuable than money",
+          "note": "welsh · 701r · 7 reposts",
+          "values": [
+            78.9
+          ]
+        },
+        {
+          "label": "your time doesn't disappear all at once",
+          "note": "welsh · 3,253r · 126 reposts",
+          "values": [
+            39.8
+          ]
+        },
+        {
+          "label": "most raises at work are pretty darn small",
+          "note": "welsh · 3,481r · 98 reposts",
+          "values": [
+            32.1
+          ]
+        },
+        {
+          "label": "forget virtual reality, the next big thing is actual reality",
+          "note": "gisenberg · 329r · 11 reposts",
+          "values": [
+            25.8
+          ]
+        },
+        {
+          "label": "the best prompt for ai agents is only 3 words",
+          "note": "gisenberg · 241r · 7 reposts",
+          "values": [
+            24.1
+          ]
+        },
+        {
+          "label": "every startup should have a daily markdown file",
+          "note": "gisenberg · 484r · 18 reposts",
+          "values": [
+            22.9
+          ]
+        }
       ]
     },
     {
@@ -220,9 +260,22 @@
     }
   ],
   "context": [
-    {"path": "_active/linkedin/CAMPAIGN.md", "role": "active revenue work — offer ladder + mission queue"},
-    {"path": "_active/farrice-brand/voice/VOICE-CARD.md", "role": "voice base layer for all deploy blocks"},
-    {"path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md", "role": "resonance + roster source"},
-    {"path": ".agent/zeitgeist-run.log", "role": "lane health — two consecutive zero-pull days"}
-  ]
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "role": "active revenue work — offer ladder + mission queue"
+    },
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "voice base layer for all deploy blocks"
+    },
+    {
+      "path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md",
+      "role": "resonance + roster source"
+    },
+    {
+      "path": ".agent/zeitgeist-run.log",
+      "role": "lane health — two consecutive zero-pull days"
+    }
+  ],
+  "status": "archived"
 }

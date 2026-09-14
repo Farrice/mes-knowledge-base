@@ -3,12 +3,18 @@
 > **Inherits from**: `/Users/farricecain/Google Antigravity/CLAUDE.md` (The Chain, Architecture, Skill tiers, Quality Gate)
 > **Active since**: 2026-03 · **Reset**: 2026-09-02 (one spine, one order)
 > **Operating model (source of truth)**: `_active/clients/jen-listings/06-system/ENGINE-V2.md`
-> **The only front door**: `/jen` (`.agent/workflows/jen.md`) — nine steps in a fixed order with a receipt after each. Do not enter through `/jen-engine`, `/jen-full-pipeline`, `/listing-content`, `/buyer-education-story`, or `/neighborhood-deep-dive-carousel`; those skills are archived or demoted.
+> **Weekly content front door**: `/jen` (`.agent/workflows/jen.md`) — nine steps in a fixed order with a receipt after each. Do not enter through `/jen-engine`, `/jen-full-pipeline`, `/listing-content`, `/buyer-education-story`, or `/neighborhood-deep-dive-carousel`; those skills are archived or demoted.
 > **Voice source of truth**: `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md` + `jen-calibration-log.md`
 > **Mix**: `06-system/CONTENT-MIX.md` (extraction-derived shares + the hook rule)
 > **Domain**: LA real estate, San Fernando Valley, Instagram-first (**@_jiing**; never `@realestatewithjing`, never `#realestatewithjing`)
 
 ---
+
+## Cinematic property films
+
+For listing-photo-to-video films, load `.agents/skills/property-video-ai/SKILL.md` (globally available as `/property-video-ai` in Codex and Claude Code). Run `python3 execution/property_video_runtime.py status` from the canonical repository to locate the installed private workflow, approved standard, and asset index. That workflow owns film production; `/jen` continues to own weekly educational content and Jen’s voice.
+
+The current approved film standard is Armida’s wide marketing cut (Farrice: 10/10); Rosita remains the preserved 9/10 milestone. Use the private approval record to resolve scope. Weekly post hook rules do not override an explicitly requested exterior-to-interior property tour. Keep deliverables silent unless music is requested. Existing installation does not authorize new provider spending. Preserve property facts and the approved source assets; do not treat paid course material as public repository content.
 
 ## Identity (ENGINE-V2 §1)
 
