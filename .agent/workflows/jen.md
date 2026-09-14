@@ -10,6 +10,8 @@ Why the run folder (2026-09-09, IMPORT-LIST.md #1): the receipts used to be prin
 
 ## When to use / Never for
 
+**Property-film branch:** a listing URL plus a request for a cinematic walkthrough, Bradford-style vertical video or property-film batch routes to `.agent/workflows/jen-property-video.md`. Weekly educational/social posts continue through the nine steps below.
+
 Use: "jen week <date>", "build Jen's week", "one Jen post about <topic>", "what is Jen's account doing this month", "re-run week N through the spine".
 Never for: a listing URL drop with no week context (that is Convert district inside a week, or `/listing-package` for a one-off send package). Never a new generator, never a new skill, never a recurring ask on Jen (her deal is a thumbs-up and same-evening replies, ENGINE-V2 §2). Never `/social-carousel` for her weekly posts (that door is for Scrapes-rendered carousels; her weekly cards and reels render through `build_weeks.py`).
 

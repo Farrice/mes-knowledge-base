@@ -64,3 +64,7 @@ One-off listing send package (Convert district only): `skills/jen-santulan-listi
 ## Records, not truth
 
 `_active/clients/jen-santulan/` (May–July repositioning brief, YouTube engine) and `_active/clients/jen-team-pilot/` (brand card, POC carousels) are records of earlier passes. Read them for history; never build on them. Dated files in `06-system/` are session receipts.
+
+## Approved property-film production
+
+For listing URL-to-video work, use `.agent/workflows/jen-property-video.md` and the existing private `06-system/listing-video-workflow/SKILL.md`. Bradford v06 is the user-approved vertical standard; Armida remains the separate wide reference. Preserve roomy portrait framing, useful steady movement and restrained edits; adapt shot count and runtime to the property. Weekly social-content work keeps its existing `/jen` spine.

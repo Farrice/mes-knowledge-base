@@ -136,4 +136,5 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `social_listening_free_first` | /deep-research-os | 13 |
 | `unified_research` | /deep-research-os | 13 |
 | `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |
+| `jen_property_video` | /jen-property-video | 9 |
 | `jen_listing_package` | /listing-package | 11 |
