@@ -6,6 +6,7 @@ packs, media, prompts and production state are copied into an ignored local home
 """
 import argparse
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -116,9 +117,52 @@ def verify(repo):
         if not (home / CLIENT / rel).is_file(): failures.append('Missing renderer: ' + rel)
     return {'status': 'FAIL' if failures else 'PASS', 'files_checked': len(data['files']), 'failures': failures, 'current': data['current']}
 
+def relocate_replays(repo):
+    """Carry existing reviews across a path-only move after content verification."""
+    home = repo / PRIVATE
+    current = json.loads((home / 'CURRENT.json').read_text())
+    workflow = home / CLIENT / '06-system/listing-video-workflow'
+    spec = importlib.util.spec_from_file_location('listing_runtime', workflow / 'listing_workflow.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    def rewrite(value):
+        if isinstance(value, str):
+            for root in current['snapshot_roots']:
+                if value.startswith(root + '/'):
+                    return str(home) + value[len(root):]
+            return value
+        if isinstance(value, dict): return {k: rewrite(v) for k, v in value.items()}
+        if isinstance(value, list): return [rewrite(v) for v in value]
+        return value
+    results = []
+    folder = home / CLIENT / '04-deliverables/2026-09-12-armida-cinematic-v2'
+    for source in sorted(folder.glob('state-*.json')):
+        original = json.loads(source.read_text())
+        state = rewrite(original)
+        if module.next_action(original)['status'] != 'COMPLETE':
+            raise ValueError('Original replay is not complete: ' + str(source))
+        # Only paths change. Every visual byte and every trim/setting is retained.
+        for a, b in zip(original['scenes'], state['scenes']):
+            if digest(Path(a['file'])) != digest(Path(b['file'])):
+                raise ValueError('Relocated scene differs: ' + a['id'])
+        if digest(Path(original['output'])) != digest(Path(state['output'])):
+            raise ValueError('Relocated output differs')
+        if original.get('require_craft_review'):
+            state['craft_review']['scene_fingerprint'] = module.digest_scenes(state)
+        state['render_input_sha256'] = module.fingerprint(state)
+        state['path_migration'] = {'reason': 'Verified byte-identical relocation only; no new visual approval', 'source_manifest': str(source), 'source_sha256': digest(source)}
+        result = module.next_action(state)
+        if result['status'] != 'COMPLETE': raise ValueError(str(result))
+        target = home / 'runtime' / source.name
+        target.write_text(json.dumps(state, indent=2) + '\n')
+        results.append({'state': str(target), **result})
+    receipt = {'status': 'PASS', 'replays': results, 'generation_calls': 0}
+    (home / 'runtime/REPLAY-RECEIPT.json').write_text(json.dumps(receipt, indent=2) + '\n')
+    return receipt
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('action', choices=['install', 'verify', 'status'])
+    ap.add_argument('action', choices=['install', 'verify', 'status', 'relocate-replays'])
     ap.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[1])
     ap.add_argument('--rosita-root', type=Path)
     ap.add_argument('--armida-root', type=Path)
@@ -127,6 +171,7 @@ def main():
         if not args.rosita_root or not args.armida_root: ap.error('Both source roots are required')
         result = install(args.repo.resolve(), args.rosita_root.resolve(), args.armida_root.resolve())
     elif args.action == 'verify': result = verify(args.repo.resolve())
+    elif args.action == 'relocate-replays': result = relocate_replays(args.repo.resolve())
     else: result = json.loads((args.repo / PRIVATE / 'CURRENT.json').read_text())
     print(json.dumps(result, indent=2))
     return 1 if result.get('status') == 'FAIL' else 0
