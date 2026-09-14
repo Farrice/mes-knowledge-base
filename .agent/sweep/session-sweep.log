@@ -1042,3 +1042,68 @@ released
 {"session_sweep": "2026-09-11T02:45:06.769639", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 405, "threads_seen": 713, "threads_promoted": 12, "deliverables": 15, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 229}, "degraded": []}
 {"session_sweep": "2026-09-11T02:45:06.769639", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 405, "threads_seen": 713, "threads_promoted": 12, "deliverables": 15, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 229}, "degraded": []}
 === 2026-09-11 02:45:06 mission sweep end rc=0 ===
+=== 2026-09-12 02:45:04 mission sweep start ===
+claimed: 6fb7068183aa  (heartbeat every wave: session_lock.py heartbeat 6fb7068183aa)
+[session_sweep] window 14d — 399 sessions, 12/716 threads promoted, 6 deliverables, 2 artifacts, 272 assets
+  · coach-cooz                             outcome  handoff status: active
+  · harness                                build    handoff status: active, asset generated
+  · linkedin                               outcome  handoff status: active, asset generated
+  · create                                 build    handoff status: active, asset generated
+  · clients                                build    handoff status: active, asset generated
+  · visual-workflow                        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · listing-content                        outcome  handoff status: active
+  · readout-os                             research handoff status: ready
+  · extract-forge                          outcome  handoff status: ready
+  · writers-room                           outcome  handoff status: active
+  · mission                                outcome  handoff status: active
+[session_sweep] over the 12-card ceiling (230), not carded: system-audit, video-studio-edit-bay, first-10k, health-performance-geo-daily-brief, angle-map-listening-engine-v4-1, references, deliverables, offer-redteam, guides, teardown-1-fresh
+[session_sweep] shipped without a live thread: 4 (surfaces on the mission board)
+[session_sweep] below the bar (474): 1-client-jen-b-roll-post-approved-voice-continuation, 1654-moonseed-simi-hooks, adaptive-sensemaking-build-depth, agent-loops-real, analyze-sfv-realtor-content-system, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-brief-2026-08-13
+[session_sweep] wrote .agent/sweep/sweep-2026-09-12.json
+[work_catalog] 1652 rows (+20) · census rows folded: 12294 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-visual-workflow …
+[brief_synthesis] claude CLI not found — briefs stay facts-only (honest, not broken)
+[brief_synthesis] claude CLI not found — triage skipped (honest, not broken)
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-visual-workflow …
+[brief_library] auto-archived (mission > 14d): mission-geo-content
+[brief_library] auto-archived (angles > 30d): angle-brief-2026-08-13
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (79 briefs · routes verified · 49 active · 30 archived · 13 stale)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-09-12T02:45:08.267107", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 399, "threads_seen": 716, "threads_promoted": 12, "deliverables": 6, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 230}, "degraded": []}
+{"session_sweep": "2026-09-12T02:45:08.267107", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 399, "threads_seen": 716, "threads_promoted": 12, "deliverables": 6, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 230}, "degraded": []}
+=== 2026-09-12 02:45:08 mission sweep end rc=0 ===
+=== 2026-09-13 02:45:02 mission sweep start ===
+claimed: be35101a8bbe  (heartbeat every wave: session_lock.py heartbeat be35101a8bbe)
+[session_sweep] window 14d — 387 sessions, 12/716 threads promoted, 5 deliverables, 2 artifacts, 272 assets
+  · coach-cooz                             outcome  handoff status: active
+  · harness                                build    handoff status: active, asset generated
+  · linkedin                               outcome  handoff status: active, asset generated
+  · create                                 build    handoff status: active, asset generated
+  · clients                                build    handoff status: active, asset generated
+  · visual-workflow                        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · listing-content                        outcome  handoff status: active
+  · readout-os                             research handoff status: ready
+  · extract-forge                          outcome  handoff status: ready
+  · writers-room                           outcome  handoff status: active
+  · mission                                outcome  handoff status: active
+[session_sweep] over the 12-card ceiling (231), not carded: video-studio-edit-bay, first-10k, health-performance-geo-daily-brief, angle-map-listening-engine-v4-1, references, deliverables, offer-redteam, guides, teardown-1-fresh, global-org-sweep
+[session_sweep] shipped without a live thread: 3 (surfaces on the mission board)
+[session_sweep] below the bar (473): 1-client-jen-b-roll-post-approved-voice-continuation, 1654-moonseed-simi-hooks, adaptive-sensemaking-build-depth, agent-loops-real, analyze-sfv-realtor-content-system, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-brief-2026-08-13
+[session_sweep] wrote .agent/sweep/sweep-2026-09-13.json
+[work_catalog] 1668 rows (+16) · census rows folded: 13009 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-visual-workflow …
+[brief_synthesis] claude CLI not found — briefs stay facts-only (honest, not broken)
+[brief_synthesis] claude CLI not found — triage skipped (honest, not broken)
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-visual-workflow …
+[brief_library] auto-archived (mission > 14d): mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (79 briefs · routes verified · 48 active · 31 archived · 13 stale)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-09-13T02:45:05.404616", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 387, "threads_seen": 716, "threads_promoted": 12, "deliverables": 5, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 231}, "degraded": []}
+{"session_sweep": "2026-09-13T02:45:05.404616", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 387, "threads_seen": 716, "threads_promoted": 12, "deliverables": 5, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 231}, "degraded": []}
+=== 2026-09-13 02:45:05 mission sweep end rc=0 ===

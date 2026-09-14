@@ -907,3 +907,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-09 19:58]` **finalize** | Manager loop + recipe cards: /job front door, job_board.py MAY END turn-end rule, recipes/ library,  | general | Nate B Jones — composite:6.67 status:Needs Improvement
 - `[2026-09-10 21:24]` **finalize** | IMPORT-LIST memo: eight-dimension comparison of the 36 vendored skills against our spine, eight rank | general | none — composite:6.33 status:Needs Improvement
 - `[2026-09-11 18:09]` **finalize** | Root-caused and fixed the silent /job: explicit invocation now fires the JOB-HANDOFF card on both ha | general | nate-b-jones-manager-loop — composite:6.67 status:Needs Improvement
+- `[2026-09-13 05:00]` **lint** | Lint scan — 81 issues (24 errors, 45 warnings) — Files scanned: 1576
+- `[2026-09-13 05:00]` **compile** | Full compilation — 1576 files, 4,201,253 words, 81 lint issues

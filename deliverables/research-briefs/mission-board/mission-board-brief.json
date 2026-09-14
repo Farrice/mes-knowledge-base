@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "405 sessions swept",
-  "compiled": "sep 11, 2026",
+  "sources": "387 sessions swept",
+  "compiled": "sep 13, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,7 +28,7 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "15",
+          "value": "5",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "405",
+          "value": "387",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -52,8 +52,6 @@
         {
           "label": "sessions",
           "values": [
-            0,
-            2,
             2,
             4,
             2,
@@ -65,9 +63,11 @@
             1,
             2,
             0,
-            1
+            2,
+            0,
+            0
           ],
-          "value": "19",
+          "value": "18",
           "note": "per day"
         },
         {
@@ -77,9 +77,9 @@
             0,
             0,
             0,
-            0,
-            0,
             35,
+            0,
+            0,
             0,
             0,
             0,
@@ -124,27 +124,9 @@
           ]
         },
         {
-          "label": "first 10k",
-          "values": [
-            9
-          ]
-        },
-        {
           "label": "visual workflow",
           "values": [
             6
-          ]
-        },
-        {
-          "label": "listing content",
-          "values": [
-            3
-          ]
-        },
-        {
-          "label": "extract forge",
-          "values": [
-            3
           ]
         }
       ]
@@ -181,13 +163,13 @@
         },
         {
           "k": "ACTIVE",
-          "title": "first 10k",
-          "path": "deliverables/research-briefs/mission-first-10k/mission-first-10k-brief.html"
-        },
-        {
-          "k": "ACTIVE",
           "title": "visual workflow",
           "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "proof to market",
+          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -196,23 +178,23 @@
         },
         {
           "k": "READY",
-          "title": "extract forge",
-          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "proof to market",
-          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
-        },
-        {
-          "k": "READY",
           "title": "readout os",
           "path": "deliverables/research-briefs/mission-readout-os/mission-readout-os-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "extract forge",
+          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
         },
         {
           "k": "ACTIVE",
           "title": "writers room",
           "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "mission",
+          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
         }
       ]
     },
@@ -234,39 +216,9 @@
           "done": true
         },
         {
-          "date": "2026-08-30",
-          "title": "system-audit",
-          "body": "Automatic lane reconciliation repair: remove recurring main dirtiness, add quiet-window local auto-merge, stale-dirty preservation, fail-closed status checks, r",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
-          "title": "landing-page",
-          "body": "Listing Launch Kit landing page: Premium Minimal brand, 4 real Jen reel stills linking to live IG posts as proof, 5-section marketing anatomy, single CTA, hones",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
-          "title": "offer-packaging",
-          "body": "Jen-Team Pilot offer brief: Listing Launch Kit $200 founding offer + fallback SKU, positioning line, 3 pitch drafts, 6-step repeatable delivery process with har",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
-          "title": "website-wireframe-generator",
-          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
-          "title": "website-wireframe-generator",
-          "body": "Coach Cooz direct-message source synthesis, two website copy directions, recommended homepage, Squarespace redesign spec, and responsive preview",
-          "done": true
-        },
-        {
-          "date": "2026-08-29",
-          "title": "watch-and-extract",
-          "body": "Jay Sun Films harvest: 3 Jen collab reels watched (frames), observed craft skill (partial, gaps named), partner bundle doc w/ tier sketch + conversation agenda",
+          "date": "2026-08-31",
+          "title": "10",
+          "body": "Produced System: Conflict-lane reconciliation and stale-lane recovery audit",
           "done": true
         }
       ]
@@ -275,7 +227,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n229 more threads cleared the bar but sit below the 12-card ceiling and were not carded: mission, system audit, video studio edit bay, landing page, offer packaging, health performance geo daily brief, angle map listening engine v4 1, references, deliverables, offer redteam, guides, teardown 1 fresh.\n\n472 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n231 more threads cleared the bar but sit below the 12-card ceiling and were not carded: video studio edit bay, first 10k, health performance geo daily brief, angle map listening engine v4 1, references, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, solutions, profile copy fresh 0730 packet.\n\n473 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"
