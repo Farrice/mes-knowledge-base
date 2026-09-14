@@ -230,5 +230,6 @@
       "kicker": "READ THE EDGES",
       "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nThe judged analysis above is 8 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }
