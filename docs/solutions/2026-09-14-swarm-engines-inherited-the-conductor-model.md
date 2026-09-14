@@ -33,6 +33,10 @@ never fired (`.agent/swarm-usage.json` did not exist).
 Fable usage drops during a council or research swarm; `grep -c "model:"` in a `.workflow.js` is
 lower than `grep -c "agent("`. Any new engine: seat at authoring time, never rely on inheritance.
 
-## Still open
-Whether Workflow-internal `agent()` calls pass through the PreToolUse meter hook — answered by the
-first metered run (job packet #1 on the live probe).
+## Probe result (same day)
+Workflow-internal `agent()` calls do NOT pass through the PreToolUse meter hook: the probe run
+(`probe-opus48-vs-5-steerability`, 33 agents, 5,245,091 subagent tokens, 26 min, 0 errors) closed
+the meter at seats=0 cost=$0. The meter records only what you `charge` by hand from the conductor
+receipt; the spend dial for engines is `--effort` and the engine's runaway caps. Verify was 20 of 33
+agents and produced 2 refutations, one of which corrected a wrong GDPval number a Sonnet research
+seat had reported earlier the same day — the critique pass earns its cost.

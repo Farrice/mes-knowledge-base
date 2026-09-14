@@ -64,8 +64,9 @@ write only to their printed `outDir` under `.tmp/` (Law 1); the conductor merges
 
 **Open the meter** (swarm-usage-policy.md — every fan-out is metered, not only critique; added 2026-09-14):
 `python3 execution/swarm_meter.py open --run <slug> --budget 10 --harness claude`. While the run is open the
-PreToolUse hook prices every Agent call. UNCONFIRMED whether native-Workflow `agent()` calls pass through that
-hook — the first metered run answers it; until then the receipt's measured `--tokens` line is the floor.
+PreToolUse hook prices direct Agent calls only. **VERIFIED 2026-09-14 (probe run, 33 agents, 5.2M tokens): native-Workflow
+`agent()` calls do NOT pass through that hook — the meter closed at seats=0 cost=$0.** So the receipt's measured `--tokens`
+is the truth, and you charge it to the meter by hand before closing (next step).
 
 
 Fire the printed `scriptPath` with the printed `args` via the native Workflow tool,
@@ -96,8 +97,11 @@ receipt with REAL measured numbers — never estimates:
 python3 execution/swarm_conductor.py receipt --slug <slug> --status pass|partial|fail \
     --agents <measured sub-agents spawned> --tokens <measured tokens spent> \
     --deliverable <path> [--notes "..."]
+python3 execution/swarm_meter.py charge --run <slug> --label workflow-total --in <measured tokens> --out 0
 python3 execution/swarm_meter.py close --run <slug>
 ```
+The `charge` line is what makes `.agent/swarm-usage.json` honest for Workflow engines; the $10 cap cannot stop a
+Workflow mid-run (the hook is blind to it) — the cap is enforced by `--effort` and the engine's runaway caps, not by the meter.
 
 This lands the run in `.agent/run-receipts/` in the standard schema (owner `swarm`)
 with a per-run **Economics** section (agents spawned, tokens spent — the one honest

@@ -108,9 +108,11 @@ Rules that hold now:
   inherits the conductor (Fable). Anthropic's measured seating: Opus lead + Sonnet workers beat a
   single Opus by 90.2%; multi-agent ≈ 15× the tokens of a chat, so fan out only on parallel work.
 - **Meter every fan-out**: `swarm_meter.py open --run <slug> --budget 10 --harness claude` before
-  the Workflow call, `close` after (fronts `/swarm`, `/convene` carry the lines). Whether
-  Workflow-internal `agent()` calls pass the PreToolUse meter hook is UNCONFIRMED until the first
-  metered run — the receipt's measured `--tokens` is the floor.
+  the Workflow call, `charge --in <measured tokens>` then `close` after (fronts `/swarm`, `/convene`
+  carry the lines). VERIFIED 2026-09-14: Workflow-internal `agent()` calls do NOT pass the PreToolUse
+  meter hook (probe closed at $0 after 5.2M tokens), so the meter records, it cannot stop a run — the
+  real dial is `--effort` and the engine caps. Probe receipt: standard research run = 33 agents,
+  5.2M tokens, 26 min; Verify was 20 of the 33 agents and produced 2 refutations.
 - **Which harness**: Workflow engines run on Claude Code only; they spend the non-Fable half of the
   pool, which is the right half. On Codex there is no Workflow tool — swarm-shaped work there is
   `job_board.py worker --harness codex` (parallel Astra seats) or `/swarm-critique`'s Codex branch
