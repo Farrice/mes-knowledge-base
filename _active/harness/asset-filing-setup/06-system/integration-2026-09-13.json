@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "main_commit": "71803bd5bb5e5e72b8c3a31819be18527aad4d4b",
+  "repair_branch_commit": "ea5f3959950eff70e5dbd2a4e6cc27a3ba004e3e",
+  "preservation_commit": "5d3e5fad6de04713929b09f505367263fd9f9209",
+  "tracked_preserved_byte_for_byte": 90,
+  "append_only_original_lines_retained": [
+    "knowledge/log.md"
+  ],
+  "untracked_preserved": 236,
+  "preservation_failures": [],
+  "explicit_historical_documents_excluded": 20,
+  "live_markdown_and_html_match_verified_build": true,
+  "permanent_links": true,
+  "focused_checks_passed": 30,
+  "main_tracked_dirty": [],
+  "excluded_documents": [
+    "02-offer/service-architecture.md",
+    "02-offer/intake-form-google-form-template.md",
+    "02-offer/proof-run-delivery-template.md",
+    "02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md",
+    "02-offer/README.md",
+    "02-offer/OFFER-ONE-PAGER.md",
+    "02-offer/CANONICAL-OFFER-BRIEF.md",
+    "02-offer/client-onboarding-sop.md",
+    "02-offer/client-proposal-template.md",
+    "02-offer/OFFER-LADDER.md",
+    "03-launch/PROFILE-REBUILD-2026-07-21.md",
+    "03-launch/2026-07-27-profile-top-to-bottom.md",
+    "03-launch/proof-to-market-profile-package.md",
+    "03-launch/profile-blueprint.md",
+    "03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+    "03-launch/linkedin-profile-package.md",
+    "04-deliverables/lane-briefs-2026-07-29.md",
+    "05-lead-gen/dream-100-v1.md",
+    "05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md",
+    "05-lead-gen/outreach/dm-scripts.md"
+  ]
+}
