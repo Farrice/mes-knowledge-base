@@ -30,6 +30,28 @@
   },
   "log": [
     {
+      "run_id": "jen-broll-proof-sep10",
+      "harness": "claude",
+      "closed_ts": "2026-09-10T12:27:25.187333+00:00",
+      "status": "CLOSED",
+      "cost_usd": 0.1188,
+      "basis": "est",
+      "seats": 4,
+      "rounds": 0,
+      "dissent": 0
+    },
+    {
+      "run_id": "jen-broll-proof-v2",
+      "harness": "claude",
+      "closed_ts": "2026-09-10T12:29:26.675037+00:00",
+      "status": "CLOSED",
+      "cost_usd": 0.1092,
+      "basis": "est",
+      "seats": 4,
+      "rounds": 0,
+      "dissent": 0
+    },
+    {
       "run_id": "probe-opus48-vs-5-steerability",
       "harness": "claude",
       "closed_ts": "2026-09-14T17:33:22.006092+00:00",

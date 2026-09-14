@@ -1,0 +1,53 @@
+{
+  "run_id": "jen-broll-proof-v2",
+  "harness": "claude",
+  "budget_usd": 10.0,
+  "warn_usd": 7.0,
+  "spent_est_usd": 0.1092,
+  "spent_actual_usd": 0.0,
+  "seats": [
+    {
+      "label": "[swarm:jen-broll-proof-v2] bar-gap critic",
+      "seat": "sonnet",
+      "brief_bytes": 398,
+      "est_usd": 0.0273,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "[swarm:jen-broll-proof-v2] audience-jen-buyer critic",
+      "seat": "sonnet",
+      "brief_bytes": 409,
+      "est_usd": 0.0273,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "[swarm:jen-broll-proof-v2] voice-register critic",
+      "seat": "sonnet",
+      "brief_bytes": 405,
+      "est_usd": 0.0273,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    },
+    {
+      "label": "[swarm:jen-broll-proof-v2] craft-owner critic",
+      "seat": "sonnet",
+      "brief_bytes": 402,
+      "est_usd": 0.0273,
+      "actual_usd": null,
+      "in_tokens": null,
+      "out_tokens": null
+    }
+  ],
+  "rounds": 0,
+  "max_seats": 4,
+  "max_rounds": 3,
+  "max_brief_bytes": 6144,
+  "opened_ts": "2026-09-10T12:27:31.535530+00:00",
+  "closed_ts": "2026-09-10T12:29:26.675037+00:00",
+  "status": "CLOSED"
+}
