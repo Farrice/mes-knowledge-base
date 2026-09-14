@@ -39,7 +39,7 @@ If no decision provided, ask:
 
 ### 2. Generate Council Configuration
 
-Read and apply: `skills/mark-kashef-ai-councils/references/prompts/council-commander.md`
+Read and apply: `skills/mark-kashef-ai-councils/workflows/02-council-command-orchestration.md`
 
 Generate:
 - 3-4 perspective agents with behavioral mandates

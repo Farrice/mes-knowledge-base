@@ -1,3 +1,5 @@
+// Seating (2026-09-14, job swarm-audit-and-manager-layer): workers = model 'sonnet', integrator/judge = 'opus'.
+// An omitted `model` inherits the conductor (Fable) — the token leak the audit found. See directives/swarm-usage-policy.md.
 export const meta = {
   name: 'deep-research-swarm',
   description: 'Native expert-swarm deep research: decompose → cast world-class personas → parallel fan-out → gap-fill loop → adversarial verify → synthesize collective insight. $0 incremental (Claude subagents + Tavily + free tools); Gemini Deep Research merges in parallel. Kimi-style, honest receipt.',
@@ -92,14 +94,14 @@ function bash(cmd) {
 phase('Cast')
 const plan = await agent(
   bash(`python3 execution/research.py plan --query ${JSON.stringify(QUERY)} --depth ${JSON.stringify(DEPTH)}`),
-  { label: 'cast-plan', phase: 'Cast', schema: PLAN_SCHEMA }
+  { label: 'cast-plan', phase: 'Cast', schema: PLAN_SCHEMA, model: 'opus' }
 )
 const agentsSpec = (plan && plan.agents) || []
 // Fire Gemini Deep Research in the BACKGROUND (parallel, $0 to start).
 let gemId = ''
 const gem = await agent(
   bash(`python3 execution/research.py gemini-start --query ${JSON.stringify(QUERY)} --mode standard`),
-  { label: 'cast-gemini-start', phase: 'Cast', schema: { type: 'object', properties: { ok: { type: 'boolean' }, interaction_id: { type: 'string' } } } }
+  { label: 'cast-gemini-start', phase: 'Cast', schema: { type: 'object', properties: { ok: { type: 'boolean' }, interaction_id: { type: 'string' } } }, model: 'sonnet' }
 )
 if (gem && gem.ok && gem.interaction_id) gemId = gem.interaction_id
 log(`Cast ${agentsSpec.length} expert agents (intent=${plan ? plan.intent : '?'}); gemini bg=${gemId ? 'firing' : 'skipped'}`)
@@ -108,7 +110,7 @@ log(`Cast ${agentsSpec.length} expert agents (intent=${plan ? plan.intent : '?'}
 phase('Fan-out')
 const waveResults = await parallel(
   agentsSpec.map((a) => () =>
-    agent(buildPrompt(a, QUERY), { label: `${a.id}:${a.role}`, phase: 'Fan-out', schema: FINDINGS_SCHEMA })
+    agent(buildPrompt(a, QUERY), { label: `${a.id}:${a.role}`, phase: 'Fan-out', schema: FINDINGS_SCHEMA, model: 'sonnet' })
   )
 )
 let findings = []
@@ -141,7 +143,7 @@ if (pwTargets.length && DEPTH !== 'quick') {
           `URL: ${t.url}\nTask: ${t.task}\n\n` +
           `Extract the actual data on the page (prices, counts, listings, live records — whatever the task names). Read-only: never log in, never submit forms, never purchase.\n` +
           `Return 3-10 findings. EVERY finding needs source_url = the page you actually read. Plus angle_insight: what the primary source shows that secondary sources got wrong or missed.`,
-        { label: `playwright-${i + 1}`, phase: 'Fan-out', schema: FINDINGS_SCHEMA, agentType: 'general-purpose' }
+        { label: `playwright-${i + 1}`, phase: 'Fan-out', schema: FINDINGS_SCHEMA, agentType: 'general-purpose', model: 'sonnet' }
       )
     )
   )
@@ -168,7 +170,7 @@ while (wave < maxExtraWaves) {
     `You are a research completeness critic for: ${QUERY}\n\nAngle insights gathered so far:\n${insights.join('\n')}\n\nFindings count: ${findings.length}.\n\n` +
       `Name up to 4 IMPORTANT gaps still unanswered (missing angle, unverified key claim, missing data). ` +
       `Return JSON {gaps:[{role, lens, question, search_query}]}. If coverage is genuinely solid, return {gaps:[]}.`,
-    { label: `gap-critic-w${wave + 1}`, phase: 'Gap-fill', schema: { type: 'object', required: ['gaps'], properties: { gaps: { type: 'array', items: { type: 'object', properties: { role: { type: 'string' }, lens: { type: 'string' }, question: { type: 'string' }, search_query: { type: 'string' } } } } } } }
+    { label: `gap-critic-w${wave + 1}`, phase: 'Gap-fill', schema: { type: 'object', required: ['gaps'], properties: { gaps: { type: 'array', items: { type: 'object', properties: { role: { type: 'string' }, lens: { type: 'string' }, question: { type: 'string' }, search_query: { type: 'string' } } } } }, model: 'sonnet' } }
   )
   const gaps = (critic && critic.gaps) || []
   if (!gaps.length) { log(`Gap-fill wave ${wave + 1}: no material gaps — coverage solid.`); break }
@@ -179,7 +181,7 @@ while (wave < maxExtraWaves) {
           `Fill this gap for "${QUERY}": ${g.question}\n` +
           `Use tvly search/research + WebSearch + WebFetch. Suggested query: ${g.search_query || g.question}\n` +
           `Return JSON {findings:[...], angle_insight} — EVERY finding needs a real source_url.`,
-        { label: `gapfill-w${wave + 1}-${i + 1}`, phase: 'Gap-fill', schema: FINDINGS_SCHEMA }
+        { label: `gapfill-w${wave + 1}-${i + 1}`, phase: 'Gap-fill', schema: FINDINGS_SCHEMA, model: 'sonnet' }
       )
     )
   )
@@ -209,7 +211,7 @@ if (claims.length) {
         `Adversarially verify this claim — try to REFUTE it. Claim: "${f.claim}" (cited: ${f.source_url}).\n` +
           `Check INDEPENDENT sources via WebSearch/tvly. Return JSON {holds: true|false, note}. ` +
           `Default holds=false if you cannot independently corroborate.`,
-        { label: `verify-${i + 1}`, phase: 'Verify', schema: { type: 'object', required: ['holds'], properties: { holds: { type: 'boolean' }, note: { type: 'string' } } } }
+        { label: `verify-${i + 1}`, phase: 'Verify', schema: { type: 'object', required: ['holds'], properties: { holds: { type: 'boolean' }, note: { type: 'string' } }, model: 'sonnet' } }
       )
     )
   )
@@ -227,7 +229,7 @@ let gemText = ''
 if (gemId) {
   const col = await agent(
     bash(`python3 execution/research.py gemini-collect --id ${JSON.stringify(gemId)} --query ${JSON.stringify(QUERY)}`),
-    { label: 'gemini-collect', phase: 'Synthesize', schema: { type: 'object', properties: { status: { type: 'string' }, text: { type: 'string' } } } }
+    { label: 'gemini-collect', phase: 'Synthesize', schema: { type: 'object', properties: { status: { type: 'string' }, text: { type: 'string' } }, model: 'sonnet' } }
   )
   if (col && col.status === 'completed' && col.text) { gemText = col.text; log('Gemini background result MERGED ✓') }
   else { log(`Gemini background: ${col ? col.status : 'unknown'} — not merged (swarm stands alone)`) }
@@ -241,7 +243,7 @@ const receipt = await agent(
   `Create the directory .tmp/research/${SLUG}/ under ${ROOT} if needed, then write this EXACT content to .tmp/research/${SLUG}/native-findings.jsonl (one JSON object per line, verbatim):\n` +
     '```\n' + jsonl + '\n```\n' +
     `Then run and output ONLY the receipt it prints:\ncd "${ROOT}" && python3 execution/research.py ingest --findings .tmp/research/${SLUG}/native-findings.jsonl --query ${JSON.stringify(QUERY)} --depth ${JSON.stringify(DEPTH)} --swarm`,
-  { label: 'ingest-receipt', phase: 'Synthesize' }
+  { label: 'ingest-receipt', phase: 'Synthesize', model: 'sonnet', effort: 'low' }
 )
 
 const synthesis = await agent(
@@ -252,7 +254,7 @@ const synthesis = await agent(
     `1. EXECUTIVE TRUTH — the 3-5 most important, decision-grade findings.\n` +
     `2. COLLECTIVE INSIGHT BY ANGLE — what each expert lens surfaced that the others didn't.\n` +
     `3. CONTRARIAN / RISK — the 3 strongest counter-points or risks.`,
-  { label: 'synthesize', phase: 'Synthesize' }
+  { label: 'synthesize', phase: 'Synthesize', model: 'opus' }
 )
 
 return {

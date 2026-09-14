@@ -62,6 +62,12 @@ skipped, only the wait is.
 claim "swarm: <slug>"` — a fresh foreign lock blocks the launch, not the plan. Workers
 write only to their printed `outDir` under `.tmp/` (Law 1); the conductor merges serially.
 
+**Open the meter** (swarm-usage-policy.md — every fan-out is metered, not only critique; added 2026-09-14):
+`python3 execution/swarm_meter.py open --run <slug> --budget 10 --harness claude`. While the run is open the
+PreToolUse hook prices every Agent call. UNCONFIRMED whether native-Workflow `agent()` calls pass through that
+hook — the first metered run answers it; until then the receipt's measured `--tokens` line is the floor.
+
+
 Fire the printed `scriptPath` with the printed `args` via the native Workflow tool,
 `run_in_background` (unattended — no babysitting, no manual polling).
 
@@ -90,6 +96,7 @@ receipt with REAL measured numbers — never estimates:
 python3 execution/swarm_conductor.py receipt --slug <slug> --status pass|partial|fail \
     --agents <measured sub-agents spawned> --tokens <measured tokens spent> \
     --deliverable <path> [--notes "..."]
+python3 execution/swarm_meter.py close --run <slug>
 ```
 
 This lands the run in `.agent/run-receipts/` in the standard schema (owner `swarm`)

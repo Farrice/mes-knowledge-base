@@ -25,7 +25,7 @@ here exists and was live-fired on 2026-09-11. Update this file in place; never w
 | **Which pen?** | Claude: chair = Fable, else Opus 4.8 (brief only, never builds); pen = fresh Opus 5 from the brief; read lanes seat sonnet. Codex: Astra (gpt-6-astra, medium) for everything; `gpt-5.6-sol` only for cheap mechanical grind. |
 | **Which mode?** | In-session (you watch, visible beats) for taste work. Headless seats (`worker`) for parallel or mechanical lanes. Headless runner (`run`) when you want to walk away. Handoff (`handoff --to codex`) when Fable is out mid-job. |
 
-## The six plays
+## The seven plays
 
 ### Play 1 — A task: `/autopilot`
 ```
@@ -93,6 +93,31 @@ STOP                 return only the artifact; no verify pass, no options, no re
 ```
 Hand the job across when the pool is out: `job_board.py handoff <slug> --to codex` (then `$job resume <slug>`)
 or `--to chat`.
+
+### Play 7 — Swarms: what exists, where it runs, what it costs (audit 2026-09-14)
+The machinery exists and is not prose: four Workflow-tool engines (`collective-genius-council`,
+`swarm-heavy`, `swarm-research`, `deep-research-swarm` .workflow.js) each carry a manager phase
+(decompose/convene → integrate), a critique phase (adversarial Verify, or two-round Deliberate with
+forks kept), and file-based coordination (outDir manifests). `/swarm-critique` is the metered
+bar-anchored critique swarm. No shipped knowledge-work system does live agent-to-agent debate
+(Anthropic's own research system: independent workers, one integrator, one narrow verifier); the
+council engine's two rounds are the production-shaped ceiling, not a gap.
+
+Rules that hold now:
+- **Every `agent()` call is seated** — workers `sonnet`, integrator/judge `opus`. An omitted model
+  inherits the conductor (Fable). Anthropic's measured seating: Opus lead + Sonnet workers beat a
+  single Opus by 90.2%; multi-agent ≈ 15× the tokens of a chat, so fan out only on parallel work.
+- **Meter every fan-out**: `swarm_meter.py open --run <slug> --budget 10 --harness claude` before
+  the Workflow call, `close` after (fronts `/swarm`, `/convene` carry the lines). Whether
+  Workflow-internal `agent()` calls pass the PreToolUse meter hook is UNCONFIRMED until the first
+  metered run — the receipt's measured `--tokens` is the floor.
+- **Which harness**: Workflow engines run on Claude Code only; they spend the non-Fable half of the
+  pool, which is the right half. On Codex there is no Workflow tool — swarm-shaped work there is
+  `job_board.py worker --harness codex` (parallel Astra seats) or `/swarm-critique`'s Codex branch
+  (`spawn_agent` research/critique seats, priced by the same meter). Codex CLI subagents (GA
+  2026-03, TOML roles in `.codex/agents/`) are read-only research/critique seats per CODEX.md.
+- **Anti-patterns that burn tokens** (from the sources): vague briefs → duplicate research; fan-out
+  on sequential work; a full second review instead of a narrow verifier; uncapped spawning.
 
 ### Play 6 — Loops that leave receipts
 ```

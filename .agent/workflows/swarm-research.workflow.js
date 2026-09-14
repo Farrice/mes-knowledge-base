@@ -1,3 +1,5 @@
+// Seating (2026-09-14, job swarm-audit-and-manager-layer): workers = model 'sonnet', integrator/judge = 'opus'.
+// An omitted `model` inherits the conductor (Fable) — the token leak the audit found. See directives/swarm-usage-policy.md.
 export const meta = {
   name: 'swarm-research',
   description: 'Perplexity Deep Research killer: query decomposition → parallel search workers → gap-driven second round → adversarial claim verification → cited synthesis with a visible task trace. $0 incremental — WebSearch/WebFetch only, no paid Perplexity MCP calls.',
@@ -157,7 +159,7 @@ const decomposed = await agent(
   `Read the mission file first: ${missionAbs} (objective, constraints, plan checklist).\n\n` +
     `Decompose this research question into ${NUM_SUBTOPICS} subtopics, each with 2-3 concrete search queries and a "what would settle this" criterion.\n\n` +
     `QUESTION: ${QUESTION}\n\nReturn JSON {subtopics:[{name, queries:[...], settles}]}.`,
-  { label: 'decompose', phase: 'Decompose', schema: DECOMPOSE_SCHEMA }
+  { label: 'decompose', phase: 'Decompose', schema: DECOMPOSE_SCHEMA, model: 'opus' }
 )
 const subtopics = ((decomposed && decomposed.subtopics) || []).slice(0, NUM_SUBTOPICS)
 // Zero-survivor guard: no subtopics = the Sweep guard below could never fire
@@ -219,7 +221,7 @@ const gapCheck = await agent(
       ? `This is a "deep" run — if there are material gaps (missing angle, unverified key claim, missing data), propose up to 4 followupQueries as {name, queries}. If coverage is genuinely solid, return followups: [].`
       : `This is a "standard" run — report contradictions/unknowns for the record only; no followup sweep round will run regardless of what you return here.`) +
     `\n\nReturn JSON {contradictions:[...], followups:[{name, queries}]}.`,
-  { label: 'gap-check', phase: 'Gap check', schema: GAP_SCHEMA }
+  { label: 'gap-check', phase: 'Gap check', schema: GAP_SCHEMA, model: 'sonnet' }
 )
 const contradictions = (gapCheck && gapCheck.contradictions) || []
 const followups = (ALLOW_FOLLOWUP ? (gapCheck && gapCheck.followups) || [] : []).slice(0, 4)
@@ -304,7 +306,7 @@ const synth = await agent(
     `4. Source Inventory — every source URL used, grouped by subtopic.\n` +
     `5. Task Trace — every worker: subtopic, queries run, file.\n\n` +
     `Return JSON {deliverablePath, verifiedCount, unconfirmedCount, singleTruth (≤50 words)}.`,
-  { label: 'synthesize', phase: 'Synthesize', schema: SYNTH_SCHEMA }
+  { label: 'synthesize', phase: 'Synthesize', schema: SYNTH_SCHEMA, model: 'opus' }
 )
 const agentCount = 1 /* decompose */ + subtopics.length /* sweep */ + 1 /* gap-check */ + followups.length /* followup sweep */ + claimsToVerify.length /* verify */ + 1 /* synthesize */
 
