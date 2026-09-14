@@ -239,3 +239,6 @@ _active/video-studio/hyperframes-studio/
 
 # canvas boards + ingestion cache (2026-09-10): user data, transcripts — never committed
 .agent/canvas/
+
+# Licensed property-video packs and client media stay local; public bridge only.
+.private/property-video/
