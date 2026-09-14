@@ -119,6 +119,12 @@ else Sonnet 5 (containment proven). Opus 5 = dispatched executor under the negat
 *including creative drafting*, where it is blind-verified at Farrice's bar. Post-2026-08-31
 steady state: Sonnet 5 conducts interactive work; Opus 5 executes dispatched work.
 
+**Seating update (2026-09-14, job claude-seat-post-promo):** Opus 5 is the fresh-session PEN
+from a written brief or board; the CHAIR (fog → brief, verdicts) is Fable, else Opus 4.8 — his
+felt verdicts were good there and the harness was tuned for it. Never chair and pen in one window;
+never a mid-session model switch (cache is model-scoped). Playbook Play 5 carries the shape and the
+five-line brief card.
+
 ## Re-probe Triggers
 Provider version bump past `claude-opus-5` · fixture replay flags cross-skill drift on Opus-run
 work · Opus assigned a new class of forge work · taste A/B sample grows past n=1 with a

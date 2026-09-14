@@ -22,7 +22,7 @@ here exists and was live-fired on 2026-09-11. Update this file in place; never w
 |---|---|
 | **Which door?** | One owner, one deliverable, fits a session → `/autopilot <ask>`. Several deliverables, days, dependent lanes, "handle it" → `/job <ask>`. Tradeoffs across experts → `/convene`. Mission OS work → `/mission`. Never two doors in one message. |
 | **Which harness?** | You are already in one; stay there. Claude Code when the work is taste, synthesis, canonical-file surgery, or Fable is available. Codex when the work needs Astra's computer use, or your Fable usage is out, or the work is bounded repository grind on your ChatGPT plan. |
-| **Which pen?** | Claude: Fable conducts; write lanes seat opus, read lanes seat sonnet. Codex: Astra (gpt-6-astra, medium) for everything; `gpt-5.6-sol` only for cheap mechanical grind. |
+| **Which pen?** | Claude: chair = Fable, else Opus 4.8 (brief only, never builds); pen = fresh Opus 5 from the brief; read lanes seat sonnet. Codex: Astra (gpt-6-astra, medium) for everything; `gpt-5.6-sol` only for cheap mechanical grind. |
 | **Which mode?** | In-session (you watch, visible beats) for taste work. Headless seats (`worker`) for parallel or mechanical lanes. Headless runner (`run`) when you want to walk away. Handoff (`handoff --to codex`) when Fable is out mid-job. |
 
 ## The six plays
@@ -65,13 +65,34 @@ and refuses main. Receipts: `runs/<ts>-turn<N>.md`. Watch without a screen:
 python3 execution/job_board.py status <slug> --trace
 ```
 
-### Play 5 — Fable is out: keep the Claude sub working
-Opus 5 is unsteerable raw and fine on a board. Either resume in the same Claude session on Opus
-(`/job resume <slug>`: the Opus dialect card now injects BOARD-FIRST), or hand the job across:
+### Play 5 — Fable is out: the one shape (Farrice 2026-09-14, closes job claude-seat-post-promo)
+Since 2026-09-01 Fable 5/5.1 is capped at 50% of the weekly Max pool (support.claude.com/15424964);
+the other half is only spendable through non-Fable models. The chair and the pen are two seats,
+never one window. Same loop whether Fable is present or not:
+
+1. **Chair reads fog → one-page brief, then stops.** Fable when available, else **Opus 4.8** (still
+   live, no deprecation notice; pick by ID `/model claude-opus-4-8` if the picker hides it). Never
+   Opus 5 in the chair: it builds the moment it sees fog (08-20 probe: 9 tool calls on a 2-sentence ask).
+2. **Farrice edits the brief in his words** (two minutes — this is where taste enters).
+3. **Fresh Opus 5 session builds from the brief only** (blind-verified GREAT on copy 08-20; shipped
+   `studio_preview.py` + 15 tests from a written board 09-03). Job-shaped → the brief is a board and
+   Opus runs it headless (`job_board.py run`).
+4. **Critique the artifact, never the pen.** A rejection = one line changed in the brief → fresh pen.
+   Two rejected takes = the brief is wrong; stop and go back to the input (spiral brake).
+5. **Never switch models mid-session.** Cache is model-scoped (platform.claude.com prompt-caching):
+   the next turn re-reads the whole context uncached — a bite of the weekly pool for nothing the
+   fresh-pen shape does not already give.
+
+**Five-line Opus brief card** (what the pen must be handed, or it expands into the gaps):
 ```
-python3 execution/job_board.py handoff <slug> --to codex     # then in Codex: $job resume <slug>
-python3 execution/job_board.py handoff <slug> --to chat      # paste-anywhere packet for ChatGPT / claude.ai
+DELIVERABLE + SIZE   one thing, its length or count, one take
+FELT STANDARD        his words for what "right" feels like, plus the exemplar to load
+LOAD                 the 2-3 files that carry voice/offer/context — named, nothing else
+TASTE BAR / DON'T    the one move that would make him reject it
+STOP                 return only the artifact; no verify pass, no options, no research, no Chain
 ```
+Hand the job across when the pool is out: `job_board.py handoff <slug> --to codex` (then `$job resume <slug>`)
+or `--to chat`.
 
 ### Play 6 — Loops that leave receipts
 ```
