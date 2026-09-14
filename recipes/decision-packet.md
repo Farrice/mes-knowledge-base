@@ -3,8 +3,8 @@ job: decision-packet
 name: Decision packet (a choice that is his, on the board)
 family: harness
 tier_default: T1
-runs: 5
-last_ratchet: 2026-09-11
+runs: 6
+last_ratchet: 2026-09-14
 ---
 
 ## The job
@@ -45,3 +45,4 @@ One packet on the board (Choice · Irreversible? · Options + recommendation · 
 - 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
 - 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
 - 2026-09-11 — decision-packet: the worker seat writes the PACKET line, the manager files it, he answers in a sentence
+- 2026-09-14 — 2026-09-14 — decision-packet: a reframe after his first answer is the normal second beat, not a failure; a claim he brings mid-thread (mid-session model switch degrades work) gets verified against the vendor doc before it becomes an option; closed in 2 packets, 0 spend
