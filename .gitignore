@@ -247,3 +247,6 @@ _active/video-studio/hyperframes-studio/
 
 # Regenerated per-session views; immutable history lives in the runtime store.
 .working-context/
+
+# Private client media and delivery receipts; approved artifact remains local/Drive.
+/_active/clients/jen-listings/03-working-drafts/burnet-vertical-film/

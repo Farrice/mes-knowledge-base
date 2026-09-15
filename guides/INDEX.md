@@ -407,6 +407,7 @@
 
 
 ## Pending enrichment
+- [2026-09-15 — Client: Jen Burnet Listing Film - HQ Drive Delivery](2026-09-15-jen-burnet-property-film.md) — session-brief stub, needs enrichment
 - [2026-09-10 — References — Format Ladder](2026-09-10-references-format-ladder.md) — session-brief stub, needs enrichment
 - [2026-09-09 — Clients — Jen Fthb 30 Day Publishable Pack](2026-09-09-clients-jen-fthb-30-day-publishable-pack.md) — operator-guide stub, needs enrichment
 - [2026-09-09 — Proposed Diffs](2026-09-09-proposed-diffs.md) — operator-guide stub, needs enrichment
