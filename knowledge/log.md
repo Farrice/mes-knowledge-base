@@ -912,3 +912,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-12 16:33]` **finalize** | Installed Work asset filing guide and helper; nine regression checks plus real local import and retr | strategy | system-audit — composite:6.67 status:Needs Improvement
 - `[2026-09-12 17:02]` **finalize** | Installed task asset filing and decision-backed document history; saved four-folder permission profi | strategy | system-audit — composite:7.0 status:Needs Improvement
 - `[2026-09-13 18:21]` **finalize** | Activated the shared filing index repair and permanent LinkedIn entry points; verified 20 historical | general | repeatability-spine — composite:8.0 status:Keep
+- `[2026-09-13 23:50]` **finalize** | Bradford v06 approved format preservation, global entry point and verified HQ export | general | Luke/Andy property-film integration — composite:7.33 status:Needs Improvement
+- `[2026-09-13 23:52]` **finalize** | Bradford approved-video preservation and delivery export quality | general | Luke/Andy property-film integration — composite:8.67 status:Keep
