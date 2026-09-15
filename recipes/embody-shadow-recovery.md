@@ -3,8 +3,8 @@ job: embody-shadow-recovery
 name: Recover embody and approved SHADOW companions
 family: harness
 tier_default: T1
-runs: 0
-last_ratchet: never
+runs: 1
+last_ratchet: 2026-09-14
 ---
 
 ## The job
@@ -46,4 +46,4 @@ This Codex worktree; `.agent/workflows/system-audit.md`; `CODEX.md`; git objects
 Approved lineage recovered with exact sources; cause supported by git/session evidence; restored local `/embody` route passes relevant checks; SHADOW inventory has honest per-surface statuses; behavioral demonstrations preserve opt-in, no-save and native ownership boundaries; unresolved deployment is explicitly blocked with exact approval scope. Local repair never implies main/global deployment or field validation.
 
 ## Ratchet log
-- none yet
+- 2026-09-14 — Verify receiving-tree content and invocation after merge; recover historical approvals before changing a verifier. Preserve newer additions during restoration.

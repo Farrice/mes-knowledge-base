@@ -1,0 +1,1 @@
+PASS: 5 commands, 6 prompts, 2 cold-start proofs, economics/permission/owner boundaries

@@ -42,8 +42,9 @@
     "skills/oren-one-person-ai-marketer/workflows/17-funnel-test-loop.md",
     "skills/oren-slop-era-creative-strategy/workflows/funnel-hack.md"
   ],
-  "pending": [
-    ".agents/skills/source-command-oren/SKILL.md",
-    "skills/oren-one-person-ai-marketer/SKILL.md:e554b3937"
+  "pending": [],
+  "resolved": [
+    "Restored local Oren wrapper from 2fa9d6c03",
+    "Reconciled skill manifest with later workbench retained: 18 workflows and 19 prompts"
   ]
 }
