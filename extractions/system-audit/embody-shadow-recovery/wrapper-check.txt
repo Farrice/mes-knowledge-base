@@ -1,0 +1,14 @@
+
+🔍 Validating: source-command-embody
+============================================================
+
+📁 Codex Command Wrapper:
+  ✅ Codex wrapper directory: Present
+  ✅ SKILL.md: Present
+  ✅ Wrapper name: Matches directory
+  ✅ Canonical workflow: .agent/workflows/embody.md
+  ✅ SLASH_COMMANDS.md: Registered
+
+============================================================
+📊 Results: 5 passed, 0 warnings, 0 critical
+✅ Skill is fully valid!

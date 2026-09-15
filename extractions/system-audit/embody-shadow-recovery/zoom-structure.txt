@@ -1,0 +1,5 @@
+Systems Thinking Expertise Overlay: PASS
+- integrations: 6
+- cold-start behavior cases: 3
+- mode: SHADOW, non-blocking
+- source boundary: transcript-backed, visual/OCR unavailable

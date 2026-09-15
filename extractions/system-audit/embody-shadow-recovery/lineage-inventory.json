@@ -1,0 +1,183 @@
+{
+  "head": "7c6b79e3d076081d31e2073e294bb2c58afc0d09",
+  "original_commits": [
+    "8803266ee",
+    "2fa9d6c03"
+  ],
+  "paths": [
+    {
+      "path": ".agent/workflows/embody.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": ".agent/workflows/operator-school.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": ".agent/workflows/source-to-skill-system.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": ".agents/skills/source-command-embody/SKILL.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": ".agents/skills/source-command-embody/agents/openai.yaml",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": ".claude/commands/embody.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "CODEX.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "SLASH_COMMANDS.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "directives/feedback-ratchet.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "directives/quality_gate.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "directives/session-state-protocol.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "evolution_store/verdict_advisory.jsonl",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "execution/tests/test_mastery_transfer_proof_spine.py",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "execution/verify_embody_command.py",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "execution/verify_mastery_transfer_proof_spine.py",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/implementation-contract.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.json",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md.metadata.json",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-pilot.json",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md.metadata.json",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "knowledge/log.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/behavior-changing-extraction-contract.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/mastery-transfer-proof-spine.md",
+      "current_exists": false,
+      "at_head": false,
+      "at_main": false
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/skill-system-contract.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    },
+    {
+      "path": "skills/extract-mastery/workflows/03-design-transcendence-path.md",
+      "current_exists": true,
+      "at_head": true,
+      "at_main": true
+    }
+  ],
+  "merge_evidence": {
+    "c72f6981c": {
+      "c72f6981c^1": "",
+      "c72f6981c^2": "100644 blob 58f5086fae9bde98403bf11fed8709db7e38cb86\t.agent/workflows/embody.md",
+      "c72f6981c": ""
+    },
+    "683e55a32": {
+      "683e55a32^1": "",
+      "683e55a32^2": "100644 blob 58f5086fae9bde98403bf11fed8709db7e38cb86\t.agent/workflows/embody.md",
+      "683e55a32": ""
+    }
+  }
+}

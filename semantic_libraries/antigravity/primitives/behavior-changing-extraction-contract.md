@@ -35,6 +35,17 @@ Every capability-enhancing extraction must include a proof artifact matched to t
 
 This contract exists because a build can pass structural checks while failing the user's real objective. Registry sync, route discoverability, command bridge creation, and mechanics ledgers are necessary but not sufficient.
 
+## Proof Ceiling And Handoff
+
+A valid behavior proof can earn `TRANSFERRED` in the
+`mastery-transfer-proof-spine.md` ladder. It does not by itself prove that the
+capability generalizes, is independently preferred, works in the field, or
+surpasses a named baseline.
+
+When a build makes one of those higher claims, hand the existing proof artifacts
+to the Mastery Transfer Proof Spine. Preserve the first unearned state and next
+evidence action instead of inflating one successful transformation.
+
 ## Quality Gate
 
 Reject the extraction if:
@@ -46,6 +57,8 @@ Reject the extraction if:
 - it lists experts without integration evidence,
 - it creates documents that future agents still have to interpret manually,
 - or it calls a capability "deployed" before validation proves use.
+- or it calls one development-visible example generalized, field-valid, or
+  surpassing.
 
 ## Integration Points
 
@@ -53,8 +66,9 @@ Reject the extraction if:
 - `/extraction-governor-agent` owns warning when a proposed build lacks behavior proof.
 - `/repeatability-spine` owns repair when a prior extraction passed structurally but failed usefulness.
 - `/expert-composition-governor` owns preventing expert names from being treated as proof.
+- `mastery-transfer-proof-spine.md` owns evidence progression beyond one
+  behavior-changing proof.
 
 ## Last Updated
 
-2026-05-29
-
+2026-08-26

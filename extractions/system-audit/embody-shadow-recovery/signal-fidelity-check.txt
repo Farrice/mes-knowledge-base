@@ -1,0 +1,11 @@
+Signal Fidelity SHADOW: PASS
+- source package: present and bounded
+- owner integrations: 3 optional pointer-level references
+- positive control: preserved signal returns CLEAR
+- negative controls: source, handoff, machine, proof-state, and playback gaps detected
+- restraint control: owner-approved adaptation remains REVIEW and is not called distortion
+- creative restraint: metaphor and ambiguity route to manual review without distortion claims
+- burden restraint: explicitly unselected sparse work returns NOT_RUN with no questions
+- boundary syntax: coordinated negation is preserved without accepting positive boundary breaches
+- enforcement: none; valid packets exit 0
+- hot surfaces: none

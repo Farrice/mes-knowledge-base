@@ -33,3 +33,16 @@ Matt Pocock's `/teach` teaches *concepts*; this teaches **operator capability**:
 Open: read `learning-records/` + MISSION.md → pick the next lesson inside the zone of proximal development → teach the knowledge tight → drill the skill on a tight feedback loop → run one taste-ladder rung → write the learning record → name the next concrete step toward the deploy target.
 
 Week-scale domains get a `/wayfinder-work` map with the deploy target as destination — lessons and research hang off its tickets, and the school inherits the frontier discipline.
+
+## Explicit Embody Mode
+
+When Farrice explicitly invokes `/embody`, load `.agent/workflows/embody.md` and
+run its compact practice loop on one judgment from the named extraction,
+artifact, or current session. Embody mode uses retrieval, blind discrimination,
+near/far transfer, recovery, unaided performance, and teach-back. It does not
+require a persistent domain workspace unless Farrice asks to save the practice.
+
+`/embody` never auto-fires, never replaces a requested deliverable, and never
+promotes the source capability's proof state. Use full `/operator-school` when
+the goal is beginner-to-operator development with a sustained mission, taste
+ladder, learning records, and a real deploy target.

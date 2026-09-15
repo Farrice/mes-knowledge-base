@@ -36,8 +36,12 @@ Design the surpassing plan across all five pillars:
 
 ### Phase 3: Set Transcendence Validation + Next Move
 Define the validation bar and the immediate action:
-- **Minimum transcendence**: 5x improvement in one metric + 2 limitations eliminated + 1 innovation created + a measurable advantage.
-- **Full transcendence**: 10x across metrics + systematic superiority + market leadership + teaching capability.
+- **Minimum transcendence target hypothesis**: 5x improvement in one metric + 2 limitations eliminated + 1 innovation created + a measurable advantage.
+- **Full transcendence target hypothesis**: 10x across metrics + systematic superiority + market leadership + teaching capability.
+- Run the SHADOW `mastery-transfer-proof-spine.md` before presenting either
+  target as achieved. Name the comparison baseline, dimension, threshold,
+  measured result, held-out evidence, independent evaluator, field-event state,
+  and first unearned proof state.
 - Rank the opportunities and recommend the single highest-impact first move (the `/quick-wins` top pick), plus what to `/develop` next. Offer `/opportunities` (full analysis), `/develop [option]` (build the framework), `/quick-wins` (top 3 immediate actions).
 
 ## Output Contract
@@ -53,4 +57,6 @@ Format: structured markdown. Length: comprehensive; auto-split if >3000 tokens.
 - [ ] Constraint removal names a real limitation of the expert and the new capability/market it unlocks.
 - [ ] All five surpassing pillars addressed with concrete moves, not generic aspiration.
 - [ ] Transcendence validation bar stated (minimum: 5x/2 limits/1 innovation; full: 10x + teaching capability).
+- [ ] The 5x/10x bar is labeled `TARGET HYPOTHESIS` unless the Mastery Transfer
+  Proof Spine has earned `SURPASSING` on that named dimension.
 - [ ] A single ranked highest-impact first move is named — the plan is actionable today, never end at replication.

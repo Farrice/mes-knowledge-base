@@ -1,0 +1,102 @@
+{
+  "schema_version": "mastery-transfer-proof/v1",
+  "capability": "oren-funnel-flywheel",
+  "current_state": "TRANSFERRED",
+  "claim_boundary": "The Oren funnel-flywheel is source-grounded, runnable, and behavior-changing across two development cases. It is not independently generalized, blind-preferred, field-validated, market-proven, or surpassing.",
+  "next_gate": "Freeze new near-transfer, far-transfer, and negative-control cases before generation, then run an independent blinded baseline-versus-treatment comparison.",
+  "governance": {
+    "mode": "SHADOW",
+    "promotion_eligible": false,
+    "automatic_enforcement": false,
+    "owner": "/source-to-skill-system"
+  },
+  "proof_states": {
+    "CAPTURED": {
+      "status": "PASS",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/transcript.txt",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/uncertainty-report.md"
+      ]
+    },
+    "GROUNDED": {
+      "status": "PASS",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/timestamped-mechanics.md",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/blind-source-fidelity-review.md"
+      ]
+    },
+    "RUNNABLE": {
+      "status": "PASS",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_funnel_flywheel.py",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py"
+      ]
+    },
+    "TRANSFERRED": {
+      "status": "PASS",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-paid-social-creative-test-sprint.md",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-neutral-interior-design.md"
+      ]
+    },
+    "GENERALIZED": {
+      "status": "PARTIAL",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-fixtures.json",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/oren-front-door-validation-fixtures.json"
+      ],
+      "tests": {
+        "near_transfer": {
+          "status": "PASS",
+          "held_out": false,
+          "note": "Paid-social case was part of the development package."
+        },
+        "far_transfer": {
+          "status": "PASS",
+          "held_out": false,
+          "note": "Interior-design case demonstrates far transfer but was visible during development."
+        },
+        "negative_control": {
+          "status": "PASS",
+          "held_out": false,
+          "note": "ROAS, full-VSL, and lead-magnet handoffs passed as development controls."
+        }
+      }
+    },
+    "BLIND_PREFERRED": {
+      "status": "UNTESTED",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/blind-source-fidelity-review.md"
+      ],
+      "note": "The existing blind packet tests source fidelity, not independent preference against a baseline; formal embodiment corpus is not ready."
+    },
+    "FIELD_VALIDATED": {
+      "status": "NO_EVENT",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md"
+      ],
+      "note": "No live use, buyer response, deployment, sale, collection, or retention event occurred."
+    },
+    "SURPASSING": {
+      "status": "UNTESTED",
+      "evidence": [],
+      "note": "No predeclared baseline, dimension, threshold, measured comparison, or field outcome exists."
+    }
+  },
+  "field_events": {
+    "state": "NO_EVENT",
+    "real_uses": 0,
+    "observed_outcomes": 0,
+    "sent": 0,
+    "held": 0,
+    "sold": 0,
+    "collected": 0
+  },
+  "comparison": {
+    "baseline": "Pre-extension Oren one-person marketer system",
+    "dimension": "UNDECLARED",
+    "threshold": "UNDECLARED",
+    "measured_result": "UNTESTED"
+  }
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "path": ".agent/workflows/embody.md",
+    "source": "2fa9d6c03",
+    "sha256": "78cccc0031d5149e1ae1f5a29618cf9dca4d5db4959feca7dd51825d791703a2"
+  },
+  {
+    "path": ".claude/commands/embody.md",
+    "source": "2fa9d6c03",
+    "sha256": "9ce669117b3e0f1ca4ba18c81171a155407933204ba61ba9bd65f4e9f81e1e83"
+  },
+  {
+    "path": "execution/tests/test_mastery_transfer_proof_spine.py",
+    "source": "2fa9d6c03",
+    "sha256": "72e8592237fe09340ac205c6dac8904f1c899ee64457b84969684650db4f94b5"
+  },
+  {
+    "path": "execution/verify_embody_command.py",
+    "source": "2fa9d6c03",
+    "sha256": "3a93ad84c679334bd51fdcf6eb3ba368561aebf39d9cba5e7ed567a9c63ec20b"
+  },
+  {
+    "path": "execution/verify_mastery_transfer_proof_spine.py",
+    "source": "2fa9d6c03",
+    "sha256": "2a00c030f0b7d994711a5c13e5bbb64d1692c612f24a5de9f1508705903ed0a9"
+  },
+  {
+    "path": "extractions/mastery-transfer-proof-spine/implementation-contract.md",
+    "source": "2fa9d6c03",
+    "sha256": "b279b29f53a8bfc81402ee069e9eacd7949e93c75e5ea7598b3a04001285f67b"
+  },
+  {
+    "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.json",
+    "source": "2fa9d6c03",
+    "sha256": "edf55576b7424bac207db0ede1dd2ade61439f78eea5d40c316d1f11c98876d0"
+  },
+  {
+    "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md",
+    "source": "2fa9d6c03",
+    "sha256": "18fc1d0c95b48d1265d2b4336589de473cd767b5627d065be875067f60020751"
+  },
+  {
+    "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md.metadata.json",
+    "source": "2fa9d6c03",
+    "sha256": "1f74c3a61dcfbc1f5bd47a9ffd24215466513d6dd1192814e00d26be3686e853"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-pilot.json",
+    "source": "2fa9d6c03",
+    "sha256": "f1121bf455a06463ed66d407ce0ea60dbb51f283c476d61ea51452e4dda82fba"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md",
+    "source": "2fa9d6c03",
+    "sha256": "a0cbaa1745339df2646f30c12868f5f54208194426dbf2e43b022a09466b40e3"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md.metadata.json",
+    "source": "2fa9d6c03",
+    "sha256": "1852e016a48a1c186f930b66df0fe152e32ef2e439b744070cf295c31b71cf14"
+  },
+  {
+    "path": "semantic_libraries/antigravity/primitives/mastery-transfer-proof-spine.md",
+    "source": "2fa9d6c03",
+    "sha256": "47e0ad98e523a2fd58df93fe61e05874bb335c064e2049ca90818d969df4d7c7"
+  },
+  {
+    "path": ".agents/skills/source-command-embody/SKILL.md",
+    "source": "2fa9d6c03",
+    "sha256": "e94db8bea935c809538494a66a757e9349372653f41e684b520aeb223a64992a"
+  },
+  {
+    "path": ".agents/skills/source-command-embody/agents/openai.yaml",
+    "source": "2fa9d6c03",
+    "sha256": "f1888f6b45998fed1abdf158142f603047d991495e95bba2fd77a962138eb75e"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-neutral-interior-design.md",
+    "source": "2fa9d6c03",
+    "sha256": "922dd04fcd4f25926518fc5ae69d19ae940a015fcb30528acb0d276f6677287f",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-paid-social-creative-test-sprint.md",
+    "source": "2fa9d6c03",
+    "sha256": "ea29a2c2d7348184af5a629ec764a7718360f10be7c235f6d68ca492815f6ce7",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/blind-source-fidelity-review.md",
+    "source": "2fa9d6c03",
+    "sha256": "3f0b93ba929e118438c28cb3a510a7b131a04a1da2244d72abd445df70cdb490",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/oren-front-door-validation-fixtures.json",
+    "source": "2fa9d6c03",
+    "sha256": "5dc893e205408067551932f8cb60383b3a07fef03d2eda46320e32908a33eee9",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/timestamped-mechanics.md",
+    "source": "2fa9d6c03",
+    "sha256": "2d48d329196de2c10e00fc473663abba32efe9f25521c1d5f61749bd10150521",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/transcript.txt",
+    "source": "2fa9d6c03",
+    "sha256": "91f4c9b1854b24a6bc391ef994dd3aa1f932f06a354088365db76152d7898d6f",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/uncertainty-report.md",
+    "source": "2fa9d6c03",
+    "sha256": "fb491287c06a8dbf50bfe681be1125bad7dc70ccd28978cfd19505f243715ace",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_funnel_flywheel.py",
+    "source": "2fa9d6c03",
+    "sha256": "cd804b2cedb5076bb4a147476cbe71642a1c1fe2a42883dcda8213aedea2b412",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py",
+    "source": "2fa9d6c03",
+    "sha256": "a6124366d5b18cee943d30ce0f9105cad0ba1c5ae8a6313cf63b138cd44b21cf",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-fixtures.json",
+    "source": "2fa9d6c03",
+    "sha256": "e4f7bb5f1ff296d5fbac189e1ec2214bd7e843ca877d3f14964fa6b3eb247b04",
+    "role": "historical evidence dependency; not current runtime certification"
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md",
+    "source": "2fa9d6c03",
+    "sha256": "5076eb49276eb03e37da5f7e2cd705b0f333196c7c9f83464805094eabb68d17",
+    "role": "historical evidence dependency; not current runtime certification"
+  }
+]

@@ -1,0 +1,3 @@
+GOOGLE OPERATOR CORE VERIFICATION FAIL
+- global_adaptive_judgment_floor: global adaptive-judgment verifier failed: GLOBAL ADAPTIVE JUDGMENT FLOOR VERIFICATION FAIL
+- check_no_competing_overlay_surfaces: overlay was added to a named command, skill, agent, hook, or routing surface: /Users/farricecain/.codex/worktrees/432e/Google Antigravity/.agent/workflows/godin-ai-creative-practice.md

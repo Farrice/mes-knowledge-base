@@ -1,0 +1,2 @@
+RECOVERY INTEGRITY PASS: 26 original files hash-identical; seven integrations present; all 14 cycle evidence paths available; observation remains inert.
+Proof ceiling: structural integrity and historical evidence availability only; live operator learning and universal firing NOT_RUN/UNCONFIRMED.

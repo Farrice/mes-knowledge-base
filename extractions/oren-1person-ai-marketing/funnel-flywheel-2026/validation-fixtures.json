@@ -1,0 +1,30 @@
+{
+  "system": "oren-funnel-flywheel",
+  "required_commands": [
+    "oren-funnel-flywheel",
+    "oren-funnel-route",
+    "oren-capture-to-call",
+    "oren-offer-ladder",
+    "oren-funnel-test-loop"
+  ],
+  "required_prompts": [
+    "funnel-flywheel-blueprint.md",
+    "funnel-route-card.md",
+    "capture-to-call-brief.md",
+    "dm-to-call-conversation-map.md",
+    "offer-ladder-economics-handoff.md",
+    "funnel-test-learning-plan.md"
+  ],
+  "standard_outputs": [
+    "Route Card",
+    "Customer-Journey Map",
+    "Capture/Conversation Sequence",
+    "Offer Ladder",
+    "Automation Handoff",
+    "Measurement Plan",
+    "Assumption Ledger",
+    "Next-Test Queue"
+  ],
+  "commercial_case": "behavior-proof-paid-social-creative-test-sprint.md",
+  "neutral_case": "behavior-proof-neutral-interior-design.md"
+}

@@ -1,0 +1,5 @@
+SHADOW route disambiguation: PASS
+- unrelated SHADOW experiments: 4/4 suppressed from shadow-market routing
+- light-and-shadow design control: suppressed
+- real shadow-market intents: 3/3 preserved
+- Signal Fidelity files, routes, and promotion state: untouched
