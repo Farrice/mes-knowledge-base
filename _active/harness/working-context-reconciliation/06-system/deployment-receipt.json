@@ -1,5 +1,5 @@
 {
-  "status": "INSTALLED_NATIVE_FIRING_PENDING",
+  "status": "INSTALLED_EXISTING_RUNTIME_NOT_RELOADED",
   "date": "2026-09-15",
   "build_commit": "38851c6c0",
   "first_main_integration": "c6df30d8a",
@@ -193,7 +193,14 @@
     "issues": [],
     "observed_native_hook_events": 0,
     "native_resume_probe": "REFUSED: current thread already has an active writer; no bypass attempted",
-    "app_ui_probe": "UNAVAILABLE: computer-use tool prohibits controlling Codex"
+    "app_ui_probe": "UNAVAILABLE: computer-use tool prohibits controlling Codex",
+    "same_task_native_probe": {
+      "marker": "working-context-native-proof-20260915",
+      "delivery": "Codex app same-task message successfully delivered mid-turn",
+      "captured_by_new_prompt_hook": false,
+      "observed_native_hook_events": 0
+    },
+    "required_activation_step": "Reload Codex after active runs finish, then verify a real user turn and tool lifecycle; no restart was forced."
   },
   "limits": [
     "Native firing in this already-open task is unverified; a real subsequent lifecycle event is required.",
