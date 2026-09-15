@@ -244,3 +244,6 @@ _active/video-studio/hyperframes-studio/
 .agent/handoffs/2026-09-13-flow-property-social.md
 # Licensed property-video packs and client media stay local; public bridge only.
 .private/property-video/
+
+# Regenerated per-session views; immutable history lives in the runtime store.
+.working-context/

@@ -25,3 +25,15 @@ approval-gated.
 - Compile and then keep drafting here (a same-session "fresh pen" is a rendition with extra steps).
 - Ship a thin packet — it reproduces the failure in a cleaner room.
 - Inherit the parent transcript into the fresh session; the packet is the only bridge.
+
+
+## Every-turn reconciliation integration
+
+Before exporting this handoff, read the source session using
+`execution/working_context.py read --session <native-id> --harness codex|claude`.
+Resolve pending feedback and source drift first; then use `handoff` to obtain
+its exact session/revision/digest and active packet. Include that packet, the
+whole intended outcome, full positive references and exact approved components.
+Keep rejected bodies and old CURRENT/next-action instructions cold. Verify the
+packet again before a recipient uses it; a recipient initializes its own session
+rather than modifying the source. See `directives/working-context-reconciliation.md`.

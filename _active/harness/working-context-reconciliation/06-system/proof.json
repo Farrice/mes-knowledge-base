@@ -1,0 +1,137 @@
+{
+  "created_at": "2026-09-15T15:09:54.082977+00:00",
+  "scope": "OFFLINE PROTOCOL PROOF; no runtime installation or live Jen edits",
+  "tests": {
+    "run": 22,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "cross_domain_subcases": 5
+  },
+  "legacy_file": {
+    "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-icp-review-0914/_active/clients/jen-listings/03-working-drafts/2026-09-14-icp-review/99-archive/reconciliation-20260914-231237/CAROUSEL-CURRENT.md",
+    "sha256": "6e0a223ff0bc3a8ff06dc2d205f2f54dbe0fa9f8ff4dad958bbd9270f755fabe",
+    "finding": "COMPETING_CURRENT_LABELS",
+    "markers": [
+      {
+        "line": 3,
+        "text": "> CURRENT PACING PREVIEW: [v09 eight-slide copy](canva-carousel-v09-copy.md). v08 cohesion accepted, density rejected. Start from [CONTINUE-CREATIVE.md](CONTINUE-CREATIVE.md). Exact three-page Canva duplication blocked by automatic approval"
+      },
+      {
+        "line": 5,
+        "text": "> CURRENT COPY PREVIEW: [v08 — five-slide FOMO narrative](canva-carousel-v08-copy.md). v07 middle/close rejected for changing the subject. The earlier diagnostic’s street-noise/concern-testing prescription is also superseded by the explicit"
+      },
+      {
+        "line": 7,
+        "text": "> COPY PREVIEW v07: [complete six-slide copy](canva-carousel-v07-copy.md). User requested the entire copy; shown in conversation. Not yet applied to Canva. Saved design remains v06. Slides 1–2 locked; v07 middle/close await taste review."
+      },
+      {
+        "line": 11,
+        "text": "> CURRENT v06: saved slides 3–5 and aligned caption. Question-only cover and slide 2 preserved. Future uncertainty → specific concern → reasons and checks before an offer. Sources: canva-carousel-v06-copy.md and job-evidence/v06-question-ch"
+      },
+      {
+        "line": 15,
+        "text": "# Current carousel — v05"
+      },
+      {
+        "line": 26,
+        "text": "> **Latest: v04 copy review.** Farrice likes the v03 concept, narrative and format but rejects its disjointed execution. v04 preserves that narrative and reads as one continuous reply from Jen, with one yard example connecting the insight t"
+      }
+    ],
+    "distinct_versions": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "semantic_cause": "UNPROVEN; inspect decisions and actual consumer reads"
+  },
+  "live_scan": {
+    "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jen-icp-review-0914/_active/clients/jen-listings/03-working-drafts/2026-09-14-icp-review/CAROUSEL-CURRENT.md",
+    "sha256": "0017c7b1b75da13ff76fa90d9e934c66df380e4e90ec810fee65c7852244b76b",
+    "finding": "NO_STACK_DETECTED",
+    "markers": [],
+    "distinct_versions": [],
+    "semantic_cause": "UNPROVEN; inspect decisions and actual consumer reads"
+  },
+  "feedback_provenance": [
+    {
+      "line": 2759,
+      "timestamp": "2026-09-15T03:02:57.410Z",
+      "quote": "It's how people talk, so let's lock that in.",
+      "source": "/Users/farricecain/.codex/sessions/2026/09/14/rollout-2026-09-14T14-44-23-01a0a1e0-dcd8-7683-aa4f-31d2fe5096b0.jsonl",
+      "full_turn_sha256": "0451c5e52e4c88c31f8c5ef0853c8693903bf11643f03afc774a5937fadce8fe"
+    },
+    {
+      "line": 3097,
+      "timestamp": "2026-09-15T05:46:16.332Z",
+      "quote": "What are you hoping the next house would change?",
+      "source": "/Users/farricecain/.codex/sessions/2026/09/14/rollout-2026-09-14T14-44-23-01a0a1e0-dcd8-7683-aa4f-31d2fe5096b0.jsonl",
+      "full_turn_sha256": "7f76f26c857c1f9a067ffec541453c57af72d04764ce360e4ee65b7a64d60d38"
+    },
+    {
+      "line": 3222,
+      "timestamp": "2026-09-15T05:57:56.148Z",
+      "quote": "The copy still doesn't work:",
+      "source": "/Users/farricecain/.codex/sessions/2026/09/14/rollout-2026-09-14T14-44-23-01a0a1e0-dcd8-7683-aa4f-31d2fe5096b0.jsonl",
+      "full_turn_sha256": "7f5d5898a771f97b79682cc576ab9f67b02e3a0ddfda1a31dde53472a28f2071"
+    }
+  ],
+  "replay": {
+    "scope": "Historical state at the 22:57 rejection, not the later live direction.",
+    "semantic_mapping": "MANUALLY SUPPLIED; not autonomous language interpretation",
+    "result": {
+      "status": "CURRENT",
+      "owner": "jen-offline-proof",
+      "purpose": "one-carousel",
+      "revision": 4,
+      "goal": "Help a financially ready first-time buyer understand the fear of committing before a better house appears; one coherent conversation with an earned useful payoff.",
+      "active": [
+        {
+          "id": "opening",
+          "slot": "opening",
+          "path": "fixture:approved-opening",
+          "sha256": "3f727f4f5f3d2bad5fb3a6d3fc84ec5f23d4ee58eb40d0eea23631cc602b32fb",
+          "status": "approved",
+          "approved_excerpt": "what if a better house comes along? / it might."
+        }
+      ],
+      "next_action": {
+        "text": "Recompose the middle toward the whole buyer-fear objective, preserving the approved opening and consulting the full positive reference.",
+        "targets": [
+          "opening"
+        ]
+      },
+      "state_digest": "1a288cdd647684684ed02555b1f18860822c908467c3640cef11a99143c13a55"
+    }
+  },
+  "subsequent_restoration": {
+    "line": 3352,
+    "timestamp": "2026-09-15T06:09:32.107Z",
+    "quote": "Version 9 is okay",
+    "source": "/Users/farricecain/.codex/sessions/2026/09/14/rollout-2026-09-14T14-44-23-01a0a1e0-dcd8-7683-aa4f-31d2fe5096b0.jsonl",
+    "interpretation": "Later deliberate re-selection as useful baseline, not full approval."
+  },
+  "subsequent_human_outcome": {
+    "line": 3413,
+    "timestamp": "2026-09-15T06:15:21.800Z",
+    "quote": "omg this is it so much better 9/10 thank you thank you!",
+    "source": "/Users/farricecain/.codex/sessions/2026/09/14/rollout-2026-09-14T14-44-23-01a0a1e0-dcd8-7683-aa4f-31d2fe5096b0.jsonl",
+    "interpretation": "Positive human verdict after reconciliation; not a controlled causal experiment."
+  },
+  "source_preservation": {
+    "jen_file_unchanged": true,
+    "archived_jen_file_unchanged": true
+  },
+  "not_proven": [
+    "native hooks firing",
+    "every-turn host coverage",
+    "autonomous semantic reconciliation",
+    "transaction/crash/concurrent filesystem safety",
+    "global activation",
+    "compaction survival",
+    "creative quality improvement"
+  ]
+}
