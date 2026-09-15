@@ -1,43 +1,35 @@
 # Artifact Placement — Every Asset Into Its Populated Subfolder
 
-## The Living-vs-Record Rule (Farrice 2026-08-07 — read this first)
+## Current Authority and Revision History (2026-09-15 reconciliation)
 
-> **A filename that LEADS with `YYYY-MM-DD-` is a RECORD.**
-> It is a receipt of one session. It is never truth and is never built on.
->
-> **A filename with no leading date is LIVING.**
-> One per slot, it sits at the bucket root, and it is UPDATED IN PLACE.
+The latest explicit user decisions, interpreted within the whole accumulated
+intent, determine authority. Resolve the decision-backed current project index
+and its exact supporting documents. Filenames, dates, modification times,
+canonical labels and search rank are discovery hints, never approval or truth.
 
-That is the whole rule. It is positional and machine-checkable, so nothing has
-to be maintained and nothing can lie about itself.
+Maintain one coherent living view per purpose. Regenerate it after a revision;
+do not prepend a new CURRENT block over contradictory prior instructions.
+Preserve accepted components, distinguish candidates from approved outputs, and
+retire rejected direction from ordinary retrieval. A local correction must not
+become an unwanted global rule. Keep useful research for its evidenced role.
 
-**What it replaces, and why.** `status: canonical` became an over-powerful
-attractor: once a doc was stamped, every later session cited that frozen
-snapshot instead of the accumulated whole, so an old file outranked newer
-cumulative work. Farrice named this precisely — *"everything seems to refer
-back to that one document instead of it being collectively looked at as a
-whole."* The proof was live in the repo the day he said it: `CANON.md` marked a
-2026-07-28 profile doc canonical while the real work was the 2026-08-06
-rebuild. **`status: canonical` is retired.** `superseded_by:` survives for one
-narrow case — a doc that was *wrong*, not merely older. Older is the date rule's
-job now.
+Use the every-turn protocol in `directives/working-context-reconciliation.md`.
+The session model performs semantic reconciliation; `execution/working_context.py`
+checks receipt coverage, preservation, hashes and handoff freshness. Existing
+project CANON/START-HERE documents and the document-history helper remain their
+owners; the conversation view is not a competing project index.
 
-**How an agent decides what to read:** open `START-HERE.md`, then read the
-living docs it lists. Open a dated file only when you need the history of a
-decision, never as the thing to build on.
+Use Git or the existing document-history journal for ordinary edits. New files
+need a distinct purpose, meaningful review checkpoint or evidence change.
+When a replacement is authorized, preserve the previous bytes, archive through
+the existing filing/history tools, leave a short redirect, and reconcile known
+active pointers. Do not delete code or source material because copy was rejected.
+Never restore an older candidate merely because the newest candidate failed.
 
-**How work gets absorbed:** write the dated record, then edit the living doc in
-place. The front door reports any record newer than its bucket's living doc as
-*unabsorbed* — that is the standing detector for the trap above. Absorption is
-judgment and is never automated.
-
-**A new file must earn its existence.** Purpose, audience, approval state, or
-evidence changed materially: create a date-led milestone record, then absorb
-the decision into the living document. Editing passes, cleanup, formatting, and
-minor wording: update the living document in place. Git and Google Docs already
-hold revision history; do not create `v2`, `v3`, `final`, or `latest` as a
-substitute. Google Doc exporters keep one ignored source-to-Doc-ID registry and
-update that Doc unless `--new-milestone` is explicitly chosen.
+The former date-led-record/undated-truth heuristic is superseded by the user's
+newer decision-led filing contract in `/Users/farricecain/Work/ASSET-FILING.md`.
+Dated files can contain authoritative decisions; undated files can be stale.
+A new user decision can replace prior approval or explicitly restore a candidate.
 
 ## The Shape
 

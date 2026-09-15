@@ -594,7 +594,8 @@ def brief_text(slug: str, state: dict, lane: dict, secs: dict, kind: str, seat: 
               "Git read-only. Write ONLY the result file above" +
               (" (a write lane's other outputs are named by the manager, never chosen by the seat)." if kind == "write" else "."),
               f"Negative brief, verbatim: {NEGATIVE_BRIEF}.", ""]
-    return "\n".join(lines)
+    from working_context import job_context_note
+    return "\n".join(lines) + job_context_note()
 
 
 def cmd_dispatch(a):
@@ -1173,7 +1174,8 @@ def portable_text(slug: str, target: str) -> str:
     tl = trace_lines(slug)
     lines += ["", f"## Trace (last {min(12, len(tl))} of {len(tl)})"] + (tl[-12:] or ["none"])
     lines += ["", "## Card", card]
-    return "\n".join(lines) + "\n"
+    from working_context import job_context_note
+    return "\n".join(lines) + "\n" + job_context_note()
 
 
 def _save_handoff(slug: str, status: str, hint: str, unfinished: str) -> str:
