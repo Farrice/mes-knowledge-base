@@ -72,6 +72,14 @@ Use the clean transcript for reading and `transcript_segments.json` plus `video-
 | `/content-media-agent` | Build clips, posts, and scripts from timestamped evidence |
 | `/adversarial-review` | Separate claim, proof, contradiction, and uncertainty |
 
+## Opt-in content analyst pilot
+
+For on-demand content analysis, taste learning, bounded batch planning and
+original adaptation, read [Content analyst pilot](references/content-analyst-pilot.md).
+Execution prompt: `references/prompts-v2/content-analyst.md`.
+This extends the existing evidence discipline. Local spending controls use a
+simulator; paid Gemini calls are disabled pending a separately approved trial.
+
 ## Quick Reference
 
 - Genius context: [genius.md](genius.md)
@@ -84,8 +92,9 @@ Use the clean transcript for reading and `transcript_segments.json` plus `video-
 
 ## Execution Prompts (structure-pure v2)
 
-8 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+9 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
+- **Content Analyst — Evidence to Learning and Original Adaptation** — `skills/youtube-video-context-analysis/references/prompts-v2/content-analyst.md`
 - **Context Audit — [video title / id]** — `skills/youtube-video-context-analysis/references/prompts-v2/context-audit.md`
 - **Creative Reference Breakdown — [video title / id]** — `skills/youtube-video-context-analysis/references/prompts-v2/creative-reference-breakdown.md`
 - **frame-notes.md** — `skills/youtube-video-context-analysis/references/prompts-v2/frame-ledger.md`

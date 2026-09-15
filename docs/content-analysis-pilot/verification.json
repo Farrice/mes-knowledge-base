@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-14",
+  "scope": "OFFLINE_PILOT",
+  "test_command": "python3 -m unittest discover -s tests -p test_content_analysis_pilot.py -v",
+  "tests_passed": 19,
+  "tests_failed": 0,
+  "cli_example": "preview -> approve-simulation -> simulate -> repeat",
+  "repeat_added_calls": 0,
+  "real_api_calls": 0,
+  "real_spend_usd": "0",
+  "live_transport": "ABSENT_AND_DISABLED",
+  "quality_proof": "NOT_RUN",
+  "skill_validation": {
+    "critical": 0,
+    "warnings": 2,
+    "note": "Existing agent registration warnings; no new agent requested"
+  },
+  "prompt_structural_audit": "PASS",
+  "workflow_route": "video-creative-reference",
+  "integration_at_verification": "NOT_ATTEMPTED"
+}
