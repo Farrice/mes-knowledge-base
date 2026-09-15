@@ -1,0 +1,30 @@
+{
+  "band": "RICH",
+  "corpus_words": 39091,
+  "extension": false,
+  "yields": {
+    "patterns": 24,
+    "hidden": 8,
+    "exemplars": 4,
+    "deliverables": 14,
+    "stacking_hits": 3
+  },
+  "workflows": 14,
+  "tiers": {
+    "tier1_foundation": 4,
+    "tier2_practitioner": 7,
+    "tier3_stacking": 3
+  },
+  "prompts_floor": 14,
+  "references": [
+    "source-quotes.md (verbatim quote bank + claims ledger)",
+    "cross-domain-patterns.md",
+    "provenance ledger (grep-verified anchors)",
+    "genius-patterns.md",
+    "hidden-knowledge.md"
+  ],
+  "orchestrator_eligible": true,
+  "agent": "required (AGENT.md + memory + front door via sync_registries)",
+  "fidelity": "full",
+  "note": "Floors are minimums earned by the corpus; scale up when yields demand it."
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "full video, 0\u20139908s",
+  "mode": "static native Gemini video input; agentic navigation NOT_RUN",
+  "model": "gemini-3.8-flash",
+  "paid_attempts": 1,
+  "result": "TIMEOUT_NO_RESULT",
+  "quality_test": "FAILED_TO_COMPLETE",
+  "confirmed_invoice_cost_usd": null,
+  "usage_receipt": null,
+  "reserved_liability_usd": 1.25,
+  "authorized_total_usd": 10,
+  "automatic_retries": 0,
+  "further_paid_calls": "BLOCKED_PENDING_RECONCILIATION",
+  "caption_fallback": "complete independent source, not Gemini proof",
+  "request_sha256": "d3ae087f9b239b2ed828833ad457c944f4a51f9ddb223873176cb811ae93eb44",
+  "provider_interaction_id": null,
+  "error": "TimeoutError",
+  "ledger_path": "/Users/farricecain/Google Antigravity/.agent/content-analysis-pilot/live-trials/creative-strategist-z2uoa3bhjt0/ledger.json",
+  "agentic_cap_gap": "no verified total processing token cap exposed for model video navigation"
+}

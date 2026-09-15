@@ -1,0 +1,280 @@
+[
+  [
+    "pg-channel-diagnosis",
+    "Channel Diagnosis",
+    1,
+    [
+      "P01",
+      "P02",
+      "P03",
+      "P24"
+    ],
+    "[CHANNEL CONTEXT], [GOAL], [RECENT UPLOADS], [AVAILABLE ANALYTICS], [PRODUCTION CAPACITY]",
+    [
+      "Declare whether success means reach, qualified buyers, relationship or another concrete action. Do not silently substitute views for revenue.",
+      "Check watchability first: inspect supplied audio/video evidence or mark untested. Separate market ceiling, idea ceiling and execution capture; name the best-supported bottleneck.",
+      "Estimate the core floor from comparable ordinary uploads, with uncertainty. Separate it from potential new audience.",
+      "Choose one stage-appropriate intervention from the pendulum: basic quality, ideas/packaging, then higher production. Give a rejected alternative and the evidence that would reverse the choice."
+    ],
+    "One diagnosis with goal, observed evidence, three-ceiling map, pendulum stage, one intervention and validation test.",
+    "Goal: [outcome]\nEvidence: [facts and missing inputs]\nBottleneck: [chosen cause and alternatives]\nIntervention: [changed artifact]\nTest: [measure and stop condition]"
+  ],
+  [
+    "pg-ccn-slate",
+    "CCN Audience and Slate",
+    1,
+    [
+      "P05",
+      "P06",
+      "P08",
+      "P12"
+    ],
+    "[AUDIENCE], [CHANNEL PROMISE], [IDEA CANDIDATES], [RECENT TOPICS]",
+    [
+      "Describe core, casual and new by viewing familiarity. Keep buyer qualification as a separate dimension. A new viewer can still be an expert buyer.",
+      "For each candidate write the reason each group would click and stay. Find missing prerequisite knowledge and weave necessary context into action.",
+      "Compare neighboring topics through shared viewer motives. Treat the 80% overlap rule as a qualitative heuristic unless actual audience data exists.",
+      "Produce a coherent slate with a named experimental slot and a reason for each deliberate narrow business-purpose upload. Reject unrelated reach bait."
+    ],
+    "A slate table with CCN reasons, through-line, context repair, experiment status, goal and rejects.",
+    "Audience: [core / casual / new]\nThrough-line: [shared reason to return]\nSlate: [idea | CCN reasons | continuity | goal]\nRejects: [idea and why]\nUncertainty: [unmeasured overlap]"
+  ],
+  [
+    "pg-reference-analysis",
+    "Outlier Reference Analysis",
+    1,
+    [
+      "P04",
+      "P10",
+      "P11",
+      "P21"
+    ],
+    "[REFERENCE URLS OR EVIDENCE PACKAGES], [BASELINE UPLOADS], [TARGET AUDIENCE], [OWN ACCESS]",
+    [
+      "Reuse saved source evidence before any new video call. New paid analysis requires explicit batch approval and an enforceable budget; the trial grant is not reusable permission.",
+      "Calculate views relative to comparable creator history when supplied. Paddy uses approximately 3x as a research signal; absent baseline means candidate, not verified winner.",
+      "Compare outlier and ordinary neighboring uploads: topic, title, thumbnail situation, audience, access and release context. Separate visible observations, spoken claims and inferred causes.",
+      "Extract component mechanisms and assess Following / Strategy / Niche / Creator transfer with the existing Briar workflow when needed. Produce an original twist and list what cannot be borrowed."
+    ],
+    "A reference dossier with baseline math or missing-data flag, evidence timestamps, rival explanations, transfer verdict and original concept.",
+    "Reference: [URL, capture date]\nSignal: [views / baseline or unknown]\nEvidence: [spoken / visual / inferred]\nMechanism: [comparison-supported hypothesis]\nTransfer: [keep / subtract / change]\nOriginal concept: [premise and proof need]"
+  ],
+  [
+    "pg-idea-funnel",
+    "100 to 10 to 1 Idea Funnel",
+    1,
+    [
+      "P07",
+      "P10",
+      "P12",
+      "P13"
+    ],
+    "[GOAL], [AUDIENCE THROUGH-LINE], [REFERENCE BANK], [BUDGET AND ACCESS], [VIEW BASELINE]",
+    [
+      "Build a diverse raw pool from internal wins, external signals and explicitly labeled innovation. Use local reasoning; never create a paid loop to fill a quota.",
+      "For a full production decision, aim for 100 distinct premises. If evidence or scope supports fewer, show the actual count and call it a reduced run; never label 12 as 100.",
+      "Define roughly four or five elimination criteria: audience fit, clear packaging, feasibility, credible outcome potential and project-specific constraint. Calibrate overly loose or strict filters.",
+      "Develop ten survivors as one-page concepts: title options, rough thumbnail composition, logline, body skeleton, source hypothesis and cost/access needs. Reduced runs preserve the decision sequence with disclosed counts.",
+      "Choose one bet with a concrete reason and a falsification test. Declare expected performance as a hypothesis; do not invent historical support."
+    ],
+    "Raw idea pool, elimination ledger, finalist concept cards and one selected production bet with counts.",
+    "Counts: [raw \u2192 eligible \u2192 finalists \u2192 selected]\nCriteria: [tests and reasons]\nIdea ledger: [premise | source class | pass/reject]\nFinalist cards: [title / thumbnail / logline / skeleton / feasibility]\nSelected: [bet and why]\nReversal test: [evidence]"
+  ],
+  [
+    "pg-title-lab",
+    "Title Lab",
+    2,
+    [
+      "P07",
+      "P09",
+      "P20"
+    ],
+    "[SELECTED PREMISE], [FACTS AND PROOF], [AUDIENCE LANGUAGE], [THUMBNAIL CONCEPT]",
+    [
+      "Write at least ten genuinely different titles using story, comparison, consequence or a truthful contradiction. Do not merely change adjectives.",
+      "Use familiar words appropriate to the target audience. Preserve necessary specialist language when qualification is the goal. Read at a glance; avoid three competing mini-titles.",
+      "Pair titles with the thumbnail so each contributes information. Cut repetition unless it aids comprehension.",
+      "Choose one title and explain its open question and promised payoff. Treat brevity as a tool, not a hard 50-character rule. Reject any superlative or number lacking evidence."
+    ],
+    "Ten titles, paired thumbnail role, one selected title, rejected misleading options and payoff check.",
+    "Titles: [10 alternatives]\nSelected: [title]\nThumbnail contributes: [new information]\nOpen question: [question]\nPayoff evidence: [proof]\nRejected: [unsupported claims]"
+  ],
+  [
+    "pg-thumbnail-concepts",
+    "Thumbnail Concept Briefs",
+    2,
+    [
+      "P09",
+      "P15",
+      "P16",
+      "P17"
+    ],
+    "[LOCKED TITLE], [ACTUAL VIDEO], [AVAILABLE PEOPLE AND ASSETS], [BRAND CUES]",
+    [
+      "Define the unresolved action or thought that the click starts. Use click-to-unpause only where the actual content supports that situation.",
+      "Design three conceptually distinct compositions: different visual explanations of the premise, not cosmetic shirt-color variants.",
+      "For each specify subject, action, hierarchy, framing, crop, optional minimal text, truthful evidence and the title\u2019s complementary role. Remove elements that compete with the central question.",
+      "Preserve necessary recognition cues for an established channel. Flag missing source shots and hand a brief to the existing visual craft owner; never pretend a prose brief is a rendered image."
+    ],
+    "Three visual briefs with composition, evidence, capture needs and a glance-test checklist.",
+    "Concept A/B/C: [distinct scene]\nComposition: [subjects, action, hierarchy, framing]\nText: [minimal words or none]\nTitle relationship: [complement]\nEvidence and capture: [assets / missing shots]\nGlance check: [test]"
+  ],
+  [
+    "pg-packaging-capture",
+    "Packaging Capture Plan",
+    2,
+    [
+      "P13",
+      "P17"
+    ],
+    "[SELECTED IDEA], [TEN TITLES], [THREE CONCEPT BRIEFS], [SHOOT CONSTRAINTS]",
+    [
+      "Choose a provisional title before committing to production. Translate each thumbnail concept into images that must exist after the shoot.",
+      "Write shot requirements: location, person/object, angle, microexpression, action moment, lighting and crop-safe space. Allow several variants per concept, scaled to the actual production budget.",
+      "Check feasibility before filming: access, props, whether the image misrepresents events, and whether every promised outcome can be delivered.",
+      "Output a capture checklist and handoff for three finished designs. Do not require 50 paid designs simply because a large client once used them."
+    ],
+    "A shoot-ready thumbnail capture checklist and design handoff, tied to three concepts.",
+    "Selected title: [title]\nConcept \u2192 shot list: [angle / expression / action / crop]\nAccess and constraints: [requirements]\nProof capture: [promised evidence]\nDesign handoff: [three differentiated outputs]"
+  ],
+  [
+    "pg-intro-rewrite",
+    "Promise-First Intro",
+    2,
+    [
+      "P08",
+      "P22"
+    ],
+    "[TITLE AND THUMBNAIL PROMISE], [SOURCE SCRIPT OR FACTS], [FIRST BODY BEAT], [FORMAT]",
+    [
+      "Identify the exact expectation created by the package. In the first seconds confirm it verbally or visually using available proof.",
+      "Open a small set of answerable questions. Replace a list of agenda statements with interest in outcomes; defer biography and unnecessary setup.",
+      "Write a connecting line that begins the first substantive beat without an intro-ending reset. Seed any relationship a new viewer needs inside the action.",
+      "Normally keep the intro under 45 seconds; estimate duration from spoken length. A montage or longer setup needs a format-specific reason. Include a promise-to-payoff map for the editor."
+    ],
+    "One finished intro with visual cues, estimated duration, first body transition and promise/payoff map.",
+    "Package promise: [promise]\nIntro: [finished script with visual cues]\nEstimated duration: [seconds and basis]\nTransition: [first body beat]\nPayoff map: [question \u2192 actual answer location]"
+  ],
+  [
+    "pg-stakes-design",
+    "Audience-Relevant Stakes",
+    2,
+    [
+      "P09",
+      "P23"
+    ],
+    "[PREMISE], [AUDIENCE], [REAL CONSEQUENCES], [AVAILABLE PROOF]",
+    [
+      "Name why this viewer should care before selecting a storytelling structure. Distinguish curiosity about outcome from relevance of outcome.",
+      "Generate alternatives using genuine opposition, time, reward, uncertainty or cost of ignorance. Label hypothetical consequences as hypothetical.",
+      "Reject consequences that belong to the performer rather than the viewer\u2019s reason for watching; apply the source\u2019s investment/slime anti-example.",
+      "Write the strongest stakes line and integrate it into a brief scene or explanation. Do not invent money losses, danger, humiliation or fabricated antagonists."
+    ],
+    "Three stakes candidates, rejected mismatch, selected finished passage and proof requirements.",
+    "Viewer reason: [what matters]\nCandidates: [three truthful consequences]\nReject: [mismatch and why]\nSelected passage: [finished words / action]\nProof: [what supports the consequence]"
+  ],
+  [
+    "pg-launch-experiment",
+    "Launch Expectations and Test Plan",
+    2,
+    [
+      "P18",
+      "P19"
+    ],
+    "[SELECTED TITLE], [THREE THUMBNAILS], [COMPARABLE UPLOADS], [BUSINESS GOAL]",
+    [
+      "Before publishing, record expected first-hour/day/week outcomes as ranges, their evidence and the purpose of the upload. Unknown baselines stay unknown.",
+      "Start with one chosen title and three genuinely different thumbnail concepts. Verify current platform test availability before any live action; this workflow does not publish.",
+      "Define when to inspect results and what magnitude/context would justify a change. A recent-video rank is evidence relative to history, not a substitute for expectations.",
+      "Keep a working package; when the current package underperforms credible expectations, make one reasoned change and record it. Flag insufficient samples, traffic changes and attribution limits."
+    ],
+    "A pre-publish forecast, initial test configuration, intervention rules and change log template.",
+    "Upload goal: [goal]\nPredictions: [hour/day/week range and basis]\nInitial package: [title and three thumbnails]\nReview windows: [when and sufficient evidence]\nChange rule: [trigger / action / confounders]\nLog: [time, variable, evidence, outcome]"
+  ],
+  [
+    "pg-retention-diagnosis",
+    "Retention Diagnosis",
+    2,
+    [
+      "P01",
+      "P08",
+      "P21",
+      "P22",
+      "P23"
+    ],
+    "[RETENTION CURVE OR EXPORT], [VIDEO OR TIMESTAMPED SCRIPT], [TRAFFIC CONTEXT], [PRIOR VERSION]",
+    [
+      "If no actual retention data exists, produce a script risk audit and label it clearly; never draw an invented curve.",
+      "Compare curve shape and departures with the video: promise failure, missing context, irrelevant stakes, conclusion language or slow reset. Distinguish observation from causal hypothesis.",
+      "Account for changing audience mix: a broader distribution can lower aggregate CTR and average retention while increasing views.",
+      "Choose one repair at an evidenced moment and write the replacement passage or edit instruction. Specify what a future comparison would need to test that hypothesis."
+    ],
+    "A timestamped diagnostic table, one finished repair and a falsifiable comparison plan.",
+    "Evidence status: [curve available / risk audit only]\nTimestamp: [departure or script risk]\nObserved: [what exists]\nHypothesis: [cause and alternatives]\nRepair: [replacement]\nTest: [future evidence]"
+  ],
+  [
+    "pg-platform-transfer",
+    "Long-Form to Short-Form Transfer",
+    3,
+    [
+      "P01",
+      "P05",
+      "P11",
+      "P22",
+      "P23"
+    ],
+    "[SOURCE VIDEO EVIDENCE], [TARGET PLATFORM], [AUDIENCE], [ORIGINAL ANGLE]",
+    [
+      "Extract the long-form promise, audience motive, intrinsic stakes and necessary proof from timestamps. Separate these from thumbnail-click and long-intro mechanics.",
+      "For a served feed, convert the package promise into the opening visible/spoken moment; do not transplant a 45-second intro.",
+      "Load only the relevant existing Jenny Hoyos or Kallaway workflow for short-form execution after inspecting available skill paths. Give it the selected mechanism, not the entire expert corpus.",
+      "Produce an original short script and shot plan with a complete payoff, preserving factual boundaries. List what changed for platform and what remains untested."
+    ],
+    "One original short-form script, shot list, source map and transfer limitations.",
+    "Source mechanism: [timestamp and principle]\nPlatform change: [click \u2192 served-first-frame]\nScript: [finished short]\nShots: [capture list]\nPayoff: [answer]\nLimits: [hypotheses and missing proof]"
+  ],
+  [
+    "pg-creative-sprint",
+    "Connected Creative Strategy Sprint",
+    3,
+    [
+      "P02",
+      "P05",
+      "P10",
+      "P13",
+      "P17",
+      "P22",
+      "P24"
+    ],
+    "[PROJECT GOAL], [AUDIENCE], [SOURCE BANK], [PRODUCTION LIMITS], [KNOWN PERFORMANCE]",
+    [
+      "Paddy owns the strategy. Use Briar only to establish outlier/transfer evidence when that gap exists; preserve separate audience familiarity and commercial qualification.",
+      "Run channel diagnosis and audience map, then the idea funnel. Choose one premise before title/thumbnail/intro production; carry rejected alternatives and evidence forward.",
+      "Produce title options, three distinct thumbnail briefs, capture list and one complete intro with stakes. Load voice and visual masters only for their production task.",
+      "Prepare pre-publish expectations and measurement plan. Route final metadata to the existing YouTube content-package skill only after the promise is locked.",
+      "Deliver one coherent production packet and proof gaps. Paid perception, image generation, publishing and batch expansion remain explicit decisions; no automatic calls from this workflow."
+    ],
+    "A production packet with decision chain, final concept, titles, three thumbnail briefs, capture plan, intro and measurement plan.",
+    "Goal and audience: [decision]\nEvidence and cuts: [source bank / rejects]\nSelected concept: [premise and why]\nPackage: [titles + thumbnails]\nCapture: [shot list]\nIntro and payoff: [finished passage]\nExperiment: [expectation and proof gap]"
+  ],
+  [
+    "pg-learning-bank",
+    "Content Analyst Learning Bank",
+    3,
+    [
+      "P10",
+      "P11",
+      "P19",
+      "P24"
+    ],
+    "[ANALYZED REFERENCES], [USER TASTE VERDICTS IF ANY], [PERFORMANCE EVIDENCE], [NEXT CONTENT JOB]",
+    [
+      "Organize references by the problem they solve: idea, title, thumbnail, intro or retention. Store source URL and timestamps, evidence type and access/capture status.",
+      "Keep three separate assessments: measured performance, declared personal taste and inferred mechanism. Unknown taste is not learned preference.",
+      "Write a reusable move with trigger, action, counterexample, transfer limits and a pointer to the focused workflow. Deduplicate the same source and same analysis request before any retrieval.",
+      "Retrieve only the two or three references that change the next content decision; propose one original application. Do not schedule scans or turn the $10 trial into a standing allowance."
+    ],
+    "A searchable reference ledger and a small next-job retrieval packet, with taste/performance separation.",
+    "Reference ledger: [URL | timestamp | category | evidence | performance | taste]\nReusable move: [trigger / action / limit]\nNext job packet: [selected references and decision changed]\nReuse status: [cached / new access needed]"
+  ]
+]

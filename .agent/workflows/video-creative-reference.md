@@ -9,7 +9,8 @@ Create or use a video context package, then extract creative reference notes gro
 For **content analyst**, batch analysis, taste learning, original adaptation or
 explicit spending-control requests, first read
 `skills/youtube-video-context-analysis/references/content-analyst-pilot.md` and its
-execution prompt. This opt-in pilot is offline; it does not authorize Gemini,
+execution prompt. The general pilot is offline; its separate fixed-source trial has an unresolved
+request and grants no permission for other sources. This command does not authorize Gemini,
 Whisper, paid discovery or uploads. Existing source evidence can be used now.
 Execution prompt: `skills/youtube-video-context-analysis/references/prompts-v2/content-analyst.md`.
 For ordinary single-video work, the existing path below is unchanged.

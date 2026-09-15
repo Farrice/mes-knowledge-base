@@ -1,0 +1,49 @@
+{
+  "provider_status": "completed",
+  "local_transport_status": "timeout",
+  "recovery": "Google AI Studio matching request log; output JSON downloaded through UI",
+  "log_id": "v1_ChdYOXFvYW9IbURlZm9xdHNQd2VPR3FBVRIXWDlxb2FvSG1EZWZvcXRzUHdlT0dxQVU",
+  "source_url": "https://www.youtube.com/watch?v=Z2uoA3bhJT0",
+  "start_seconds": 0,
+  "end_seconds": 9908,
+  "processing": "static",
+  "fps": 1,
+  "model": "gemini-3.8-flash",
+  "usage": {
+    "total_tokens": 1014815,
+    "total_input_tokens": 0,
+    "total_cached_tokens": 0,
+    "total_output_tokens": 6052,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 1048427,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 39909
+          },
+          {
+            "modality": "video",
+            "tokens": 901622
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 6056
+          }
+        ]
+      }
+    ]
+  },
+  "estimate_usd": 0.80903,
+  "invoice_status": "NOT_VERIFIED",
+  "reserved_usd": 1.25,
+  "paid_attempts": 1,
+  "agentic": "NOT_RUN",
+  "precision_quality": "FAIL",
+  "source_fidelity": "PARTIAL",
+  "raw_response_sha256": "73247e4b7bc3cf23a2a1c0d0ae7c2c34534991cfd9396e90ade81d9d0929c27f"
+}

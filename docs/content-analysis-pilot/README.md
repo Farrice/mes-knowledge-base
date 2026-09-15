@@ -1,42 +1,47 @@
-# Your content analyst — local pilot
+# Content analyst: tested source extraction and optional Gemini perception
 
-**Built:** a shared analyst workflow and tested offline spending controls.
-**Not enabled:** Gemini video calls, paid uploads or automatic discovery.
-Your confirmed build did not authorize API spending. Live allowance remains $0.
+**Current result:** the complete 02:45:08 Paddy Galloway interview was sent to
+Gemini 3.8 Flash. Google completed the request; its response was recovered from
+AI Studio after a local timeout. Independent checks found wrong timestamps and
+unsupported rules. Keep captions and selective frame verification as the evidence
+base. This test does not justify replacing the existing watch workflow.
 
-## Use it in Codex or Claude Code
+One paid request; usage-derived estimate about $0.81; invoice unverified because
+Google's token counters conflict. A $1.25 reservation remains against this job's
+$10 cap. No retry, second inference, agentic navigation or recurring job ran.
 
-“Use `/video-creative-reference` in content analyst mode. Help me [discover
-references / understand my taste / extract lessons / create an original
-adaptation]. Reuse available evidence; show a preview before any paid work.”
+[Full test and costs](../../extractions/paddy-galloway/youtube-masterclass/gemini-quality-review.md) ·
+[Extraction](../../extractions/paddy-galloway/youtube-masterclass/youtube-masterclass-extraction.md) ·
+[Worked production packet](../../extractions/paddy-galloway/youtube-masterclass/applied-production-packet.md)
 
-The same reference guides both harnesses. Existing evidence packages, transcripts,
-screenshots and explicit taste notes can be analyzed now. Fresh Gemini video
-perception remains a separate trial. No global plugin or watch install was changed.
+## Use from Codex or Claude Code
 
-The result is a short brief: source evidence, performance versus a relevant
-baseline (or unknown), taste fit, the useful mechanism, one application and limits.
-It will not label content a proven winner from a polished video alone.
+Use `/video-creative-reference` in content analyst mode to discover references,
+analyze taste, extract a lesson or create an original adaptation from available
+evidence. It separates performance, taste, observed evidence and inference.
+Unsupported URLs require an accessible source file or platform-specific retrieval;
+there is no universal private-video access. A Gemini key is not permission to spend.
 
-## What the pilot proves
+Use `/pg-creative-sprint` for a connected production packet. Focused decisions use
+`/pg-title-lab`, `/pg-thumbnail-concepts`, `/pg-intro-rewrite` or the other commands
+in the Paddy skill. These workflows reason over supplied evidence and never start
+paid perception automatically. The original watch skill is preserved.
 
-- Exact sources, question, model, processing and limits are bound to a batch hash.
-- Even a small call requires an explicit simulation approval record.
-- The shared ledger reserves simulated cost before a child starts.
-- Duplicate/repeated requests reuse completed receipts; they don't dispatch again.
-- Expiry, source changes and altered previews stop execution.
-- A timeout, crash, missing usage or overrun stops the batch. Unknown charges stay
-  reserved across restarts; completed results remain available.
-- Calls and elapsed time are bounded; no automatic retries or provider fallback.
-- A key or an enable-live environment variable cannot turn this into a paid run.
+## Spending controls
 
-These tests establish local control behavior only. They do not establish real
-video quality, API billing entitlement or a hard provider-side cost ceiling.
-Other tools with the same API key are outside this pilot's boundary.
+The general `content_analysis_pilot.py` is still offline-only. Its preview and
+simulation approval do not permit real API calls. The separate
+`content_analysis_live_trial.py` is fixed to the approved Z2uoA3bhJT0 job and model.
+Its current unresolved usage hold prevents additional dispatch. Neither tool
+creates a recurring allowance or changes Google billing settings.
 
-## Offline example (Codex handles these commands)
+Both preserve liability on interrupted or uncertain attempts. Requests are hashed,
+state is shared across lanes, locks prevent concurrent dispatch, and completed
+requests reuse receipts. The fixed trial caps attempts and output, with no implicit
+retry or model fallback. Tests prove local controls, not a universal provider-side
+billing ceiling. Other programs using the same key are outside these controls.
 
-From the owning workspace checkout:
+## Offline example
 
 ```sh
 python3 execution/content_analysis_pilot.py preview docs/content-analysis-pilot/example-request.json
@@ -45,33 +50,21 @@ python3 execution/content_analysis_pilot.py simulate BATCH_HASH
 python3 execution/content_analysis_pilot.py status BATCH_HASH
 ```
 
-`BATCH_HASH` is the actual preview's full hash. The simulated dollar allowance
-is not API permission. Default simulation state is shared at the main checkout's
-`.agent/content-analysis-pilot/simulation.sqlite3`; tests use isolated temp stores.
-`--state-dir` is for isolated simulation tests only, never a way around liability.
-The pilot has no live transport, reads no API keys and makes no network requests.
+Use the actual preview hash. Shared simulation state lives in the main checkout at
+`.agent/content-analysis-pilot/simulation.sqlite3`. Test stores are isolated; they
+must never be used to evade real liability.
 
-A preview uses operator-declared video duration and a dated static token estimate;
-these are not probed or guaranteed costs. Agentic estimates explicitly carry
-UNVERIFIED cost bounds. Unknown platforms return a retrieval/native-reader gap.
+## Recovery and remaining limits
 
-## Failure recovery
+Do not treat a local timeout as remote cancellation. Preserve the original
+request, inspect its existing provider log and recover completed work before
+considering another request. Our full-video trial demonstrates that recovery path.
+Its counters require independent billing reconciliation; the ledger remains on
+hold. Do not delete it, release the reservation or change identifiers to retry.
 
-Run `status` and keep the receipt. A stopped batch cannot be reapproved or silently
-retried. Unresolved reservations block new dispatches in that simulation store.
-There is intentionally no automatic reset or refund path: reconciliation needs
-independent usage evidence. A future live adapter must implement and test that
-reviewed recovery path before running paid work. Never assume killing a local
-process cancelled a remote request or its bill.
+Agentic video navigation remains untested because a defensible total internal
+processing cap was not verified. No global plugin, autonomous watch replacement,
+background discovery, posting or image-generation integration was installed.
 
-## Next quality gate
-
-Separately approve one public-video trial and its maximum budget. Before calling
-Google, verify billing, current API limits and enforceable usage bounds, then add
-the live transport under those constraints. Test visual facts absent from the
-captions, timestamp accuracy, and recorded input/output/thinking/tool usage.
-If agentic execution lacks a defensible cap, keep it disabled and bring back the
-tradeoff. Do not silently spend on a supposedly safe estimate.
-
-[Contract](CONTRACT.md) ·
-[Analyst workflow](../../skills/youtube-video-context-analysis/references/content-analyst-pilot.md)
+[Original offline contract](CONTRACT.md) · [Approved trial contract](FULL-VIDEO-TRIAL-CONTRACT.md) ·
+[Analyst behavior](../../skills/youtube-video-context-analysis/references/content-analyst-pilot.md)
