@@ -1111,3 +1111,34 @@ released
 BLOCKED: fresh lock held by another session — mission 'mission_runner overnight run' (heartbeat 897s ago). One driver per tree; wait or coordinate with Farrice.
 lock blocked — skipping tonight's sweep (one writer per tree)
 {"session_sweep": "2026-09-14T02:45:02.516464", "status": "skipped", "reason": "session lock held"}
+=== 2026-09-15 02:45:05 mission sweep start ===
+claimed: 4dbe2ba65442  (heartbeat every wave: session_lock.py heartbeat 4dbe2ba65442)
+[session_sweep] window 14d — 319 sessions, 12/684 threads promoted, 2 deliverables, 2 artifacts, 272 assets
+  · harness                                build    handoff status: active, asset generated
+  · coach-cooz                             outcome  handoff status: active
+  · linkedin                               outcome  handoff status: active, asset generated
+  · create                                 build    handoff status: active, asset generated
+  · video-studio-edit-bay                  build    handoff status: ready, asset generated
+  · clients                                build    handoff status: active, asset generated
+  · proof-to-market                        research handoff status: ready
+  · listing-content                        outcome  handoff status: active
+  · readout-os                             research handoff status: ready
+  · extract-forge                          outcome  handoff status: ready
+  · writers-room                           outcome  handoff status: active
+  · mission                                outcome  handoff status: active
+[session_sweep] over the 12-card ceiling (242), not carded: health-performance-geo-daily-brief, angle-map-listening-engine-v4-1, references, deliverables, offer-redteam, guides, teardown-1-fresh, global-org-sweep, solutions, profile-copy-fresh-0730-packet
+[session_sweep] shipped without a live thread: 2 (surfaces on the mission board)
+[session_sweep] below the bar (430): 1-client-jen-b-roll-post-approved-voice-continuation, 1654-moonseed-simi-hooks, adaptive-sensemaking-build-depth, agent-loops-real, analyze-sfv-realtor-content-system, andy-luke-property-resource-library, angle-brief-2026-08-06, angle-brief-2026-08-10
+[session_sweep] wrote .agent/sweep/sweep-2026-09-15.json
+[work_catalog] 1724 rows (+56) · census rows folded: 13660 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-clients …
+[brief_synthesis] claude CLI not found — briefs stay facts-only (honest, not broken)
+[brief_synthesis] claude CLI not found — triage skipped (honest, not broken)
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-coach-cooz, mission-create, mission-clients …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (79 briefs · routes verified · 48 active · 31 archived · 13 stale)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-09-15T02:45:08.926018", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 319, "threads_seen": 684, "threads_promoted": 12, "deliverables": 2, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 242}, "degraded": []}
+{"session_sweep": "2026-09-15T02:45:08.926018", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 319, "threads_seen": 684, "threads_promoted": 12, "deliverables": 2, "artifacts": 2, "assets": 272, "artifacts_vanished": 0, "overflow": 242}, "degraded": []}
+=== 2026-09-15 02:45:08 mission sweep end rc=0 ===

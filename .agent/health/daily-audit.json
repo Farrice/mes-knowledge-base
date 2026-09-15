@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-09-14T06:00:00.117059",
+  "timestamp": "2026-09-15T06:00:05.371651",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (18 projects, 6 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
-    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 2 need judgment"
+    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 0 need judgment"
   },
   "self_heal": {
     "exit": 0,
     "findings": 21,
     "ids": [
       "born_intent_drift",
-      "stale_slash_commands",
       "platform_drift",
       "dead_hooks",
       "dead_launchd",
+      "stale_feeds",
       "wiring_orphans",
       "org_drift",
       "verify_creative_strategy_intelligence.py",
@@ -31,9 +31,9 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 2,
-    "coverage": "4071/4071",
-    "orphans_total": 23,
+    "new": 32,
+    "coverage": "4103/4103",
+    "orphans_total": 26,
     "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",
