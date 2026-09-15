@@ -1,7 +1,7 @@
 ---
 thread: jen-burnet-property-film
 status: done
-resume_hint: Creative and delivery work is complete. Finish authorized Git integration or record an explicit park. Preserve the lane with --no-teardown because private, ignored media lives there. Do not treat a pu
+resume_hint: Creative and delivery work is complete. User explicitly chose: Keep the commit local (recommended). No merge or push remains. The lane is deliberately retained as a private project home. Preserve the
 branch: codex/jen-burnet-film-delivery
 pin: false
 ---
@@ -18,14 +18,17 @@ Approved V04 delivered in place; original download matched the approved master. 
 Asset cleanup: 357 files / 196.1 MB reversibly archived. One active film; all 35 rebuild dependencies verified. Source originals untouched. Old versions are excluded from default retrieval. A stale source-photo hash was corrected against intake and the original; final video bytes are unchanged.
 
 ## Remaining priority
-Creative and delivery work is complete. Finish authorized Git integration or record an explicit park. Preserve the lane with --no-teardown because private, ignored media lives there. Do not treat a public Git push as a media backup. Do not send the text: the user requested a draft.
+Creative and delivery work is complete. User explicitly chose: Keep the commit local (recommended). No merge or push remains. The lane is deliberately retained as a private project home. Preserve the lane with --no-teardown because private, ignored media lives there. Do not treat a public Git push as a media backup. Do not send the text: the user requested a draft.
 
 ## Core paths
 - `recipes/jen-burnet-property-film.md`
 - `/Users/farricecain/.codex/worktrees/a9b6/Google Antigravity/_active/clients/jen-listings/03-working-drafts/burnet-vertical-film/INDEX.md`
 
 ## Do not rebuild
-The approved V04 is the current anchor, selected by the user's verdict, not modification time. Load the private project's CURRENT.json before any future changes. Do not open 99-archive for ordinary delivery. The public repository gets only this redacted closeout and the workflow recipe; no client media, private Drive URLs, prompts or provider IDs.
+The approved V04 is the current anchor, selected by the user's verdict, not modification time. Load the private project's CURRENT.json before any future changes. Do not open 99-archive for ordinary delivery. No files are to be pushed to the public repository. The user chose local-only closeout after review rejected publishing the named client/project summary.
+
+## Git disposition
+The first closeout commit is b5cc71ae82c2a7cd089f5b260aee27749fc977b6. Public push was rejected, then the user explicitly selected local-only. Final documentation may add a local closeout commit. No merge, push or teardown.
 
 ## Lessons and limitations
 - A technical or cadence PASS cannot establish perceived smoothness. Prefer a reviewed native-motion take when interpolation creates visible glitches.
