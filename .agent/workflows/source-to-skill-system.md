@@ -38,6 +38,8 @@ Preserve these invariants:
 - `/source-to-skill-system` turns source material into connected skill systems, not isolated mega-skills.
 - Evidence and existing-route fit come before building.
 - Every build needs the Skill System Contract fields before implementation.
+- Builds claiming transfer, generalization, field validity, or surpassing must
+  report the highest earned state from the SHADOW Mastery Transfer Proof Spine.
 - Agentic engineering changes require the Agentic Engineering Packet.
 - Self-improvement, maintenance, cleanup, or evolution changes require a Goal Packet.
 - Prefer companion OS layers over duplicate expert skills when source material improves existing control-plane behavior.
@@ -53,17 +55,18 @@ Preserve these invariants:
 4. `semantic_libraries/antigravity/primitives/agentic-engineering-loop-contract.md` when the source teaches agent harnesses, context engineering, review loops, dependency safety, source-code-as-truth, or launch/use-now behavior
 5. `semantic_libraries/antigravity/primitives/goal-loop-maintenance-contract.md` when the source teaches self-improvement, maintenance, cleanup, forge, or evolution loops
 6. `semantic_libraries/antigravity/primitives/behavior-changing-extraction-contract.md`
-7. `semantic_libraries/antigravity/primitives/co-creative-launchpad-contract.md` when the source improves prompt intent, co-creation, question quality, front-door routing, or pre-execution alignment
-8. `semantic_libraries/antigravity/primitives/how-i-write-harvest-spine.md` when the source is a `How I Write`-style expert writing, comedy, copy, storytelling, or communication interview
-9. `.agent/workflows/extraction-governor-agent.md`
-10. `extractions/video-context/FD53kEpLh9c/analysis.md` when running the pilot video
-11. `extractions/video-context/FD53kEpLh9c/video-context-ledger.md` for timestamped evidence
-12. `extractions/video-context/FD53kEpLh9c/uncertainty-report.md`
-13. `extractions/video-context/PzVV4X37ihg/analysis.md` only if the package is restored; otherwise mark source proof `UNAVAILABLE`
-14. `extractions/video-context/PzVV4X37ihg/video-context-ledger.md` only after restoration
-15. `extractions/video-context/PzVV4X37ihg/uncertainty-report.md` only after restoration
-16. `extractions/video-context/ogTLWGBc3cE/analysis.md` when running the Nate B. Jones co-creative launchpad harvest
-17. `extractions/video-context/ogTLWGBc3cE/video-context-ledger.md` for timestamped spoken evidence and source limits
+7. `semantic_libraries/antigravity/primitives/mastery-transfer-proof-spine.md` when the source is expected to replicate, transfer, generalize, or surpass expertise
+8. `semantic_libraries/antigravity/primitives/co-creative-launchpad-contract.md` when the source improves prompt intent, co-creation, question quality, front-door routing, or pre-execution alignment
+9. `semantic_libraries/antigravity/primitives/how-i-write-harvest-spine.md` when the source is a `How I Write`-style expert writing, comedy, copy, storytelling, or communication interview
+10. `.agent/workflows/extraction-governor-agent.md`
+11. `extractions/video-context/FD53kEpLh9c/analysis.md` when running the pilot video
+12. `extractions/video-context/FD53kEpLh9c/video-context-ledger.md` for timestamped evidence
+13. `extractions/video-context/FD53kEpLh9c/uncertainty-report.md`
+14. `extractions/video-context/PzVV4X37ihg/analysis.md` only if the package is restored; otherwise mark source proof `UNAVAILABLE`
+15. `extractions/video-context/PzVV4X37ihg/video-context-ledger.md` only after restoration
+16. `extractions/video-context/PzVV4X37ihg/uncertainty-report.md` only after restoration
+17. `extractions/video-context/ogTLWGBc3cE/analysis.md` when running the Nate B. Jones co-creative launchpad harvest
+18. `extractions/video-context/ogTLWGBc3cE/video-context-ledger.md` for timestamped spoken evidence and source limits
 
 ## Routing Stack
 
@@ -93,6 +96,7 @@ Every run must fill these fields before implementation:
 | Human checkpoint | Approval/review point or explicit skip reason |
 | Validation | Commands or checks to prove the system works |
 | Behavior-changing proof | Before/after, cold-start run, applied scenario, or transformed artifact proving the source changes real behavior |
+| Proof state | Highest earned state, first unearned state, claim boundary, and next evidence action when the build claims more than runnable behavior |
 | Result surface | How Farrice consumes the output |
 | Context policy | What stays hot, cold, or on-demand |
 | Reuse hook | Where this becomes a reusable route, skill, or primitive |
@@ -110,8 +114,9 @@ Every run must fill these fields before implementation:
 7. **Build the minimum durable surface**: semantic primitive, workflow, command bridge, reference, or skill.
 8. **Validate each boundary** with router checks, file checks, contract checks, and cold-start proof.
 9. **Require behavior-changing proof** before calling any capability-enhancing extraction complete. For copy, content, sales, or persuasion sources, this means a before/after transformation with diagnosis, source mechanic, behavior delta, proof object or proof gap, and next gate. For workflow, operations, or agent-system sources, this means a cold-start run that shows input, selected route, produced output, validation, and handoff.
-10. **For `How I Write`-style writing/comedy/storytelling harvests**, keep the reusable spine elastic: reuse gates and proof requirements, not a rigid expert template.
-11. **Close with starter route**: exact first command, first artifact, quality bar, and reuse hook.
+10. **Apply the SHADOW Mastery Transfer Proof Spine** when the build claims replication, transfer, generalization, field validity, or surpassing. Report the highest contiguous earned state; a cold-start proof is `RUNNABLE`, one realistic unfamiliar transformation may earn `TRANSFERRED`, and later states need their own evidence.
+11. **For `How I Write`-style writing/comedy/storytelling harvests**, keep the reusable spine elastic: reuse gates and proof requirements, not a rigid expert template.
+12. **Close with starter route**: exact first command, first artifact, quality bar, and reuse hook.
 
 When the source is a self-improvement or maintenance method, prefer a companion
 OS layer over a duplicate expert skill. Build the method into the relevant
@@ -173,6 +178,8 @@ Reject the run if it:
 - turns agentic engineering into a broad new command instead of an additive companion OS layer
 - installs or recommends new packages without a dependency safety gate when package risk is relevant
 - starts a review/fix loop without a measurable finish line or turn cap
+- promotes a development-visible example into generalization, field validity,
+  or surpassing without the required proof state
 
 ## Starter Invocation
 
@@ -191,6 +198,7 @@ python3 execution/verify_operator_core_source_to_skill_system.py
 python3 execution/validate_skill.py source-command-source-to-skill-system
 python3 execution/verify_skill_system_contract.py
 python3 execution/verify_behavior_changing_extraction_contract.py
+python3 execution/verify_mastery_transfer_proof_spine.py --pilot extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-pilot.json
 python3 execution/operator_core_status.py --plain
 python3 execution/verify_operator_core_status.py
 python3 execution/verify_system_control_plane.py

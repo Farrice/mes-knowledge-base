@@ -1,0 +1,6 @@
+interface:
+  display_name: "Embody"
+  short_description: "Practice one extracted judgment on demand"
+  default_prompt: "Use $source-command-embody to practice one judgment from this extraction or session."
+policy:
+  allow_implicit_invocation: false

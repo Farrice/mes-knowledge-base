@@ -4,6 +4,12 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## Explicit learning command
+
+| Command | What It Does |
+|---|---|
+| `/embody` | Practice one source-grounded judgment from this extraction, artifact, or session. Explicit-only; no learning record without `--save`. Owned by `/operator-school`. |
+
 ## 📊 Research & Strategy (19)
 | Command | What It Does |
 |---------|-------------|

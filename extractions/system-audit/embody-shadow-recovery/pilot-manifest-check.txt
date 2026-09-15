@@ -1,0 +1,8 @@
+MASTERY TRANSFER PROOF PASS
+{
+  "capability": "oren-funnel-flywheel",
+  "current_state": "TRANSFERRED",
+  "mode": "SHADOW",
+  "next_gate": "Freeze new near-transfer, far-transfer, and negative-control cases before generation, then run an independent blinded baseline-versus-treatment comparison.",
+  "promotion_eligible": false
+}
