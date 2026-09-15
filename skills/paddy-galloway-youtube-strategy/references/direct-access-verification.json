@@ -1,0 +1,20 @@
+{
+  "named_expert_entry": ".agents/skills/paddy-galloway/SKILL.md",
+  "direct_workflows": 14,
+  "canonical_skill": "skills/paddy-galloway-youtube-strategy",
+  "full_project_default": "pg-creative-sprint",
+  "status": "PASS",
+  "checks": [
+    "existing source/workflow verifier",
+    "all 15 Codex entry links",
+    "Claude and workspace front doors use full sprint",
+    "missing named entry rejected",
+    "missing title entry rejected",
+    "restored original passes"
+  ],
+  "limits": [
+    "structural and main-agent inspection, not independent expert-quality benchmark",
+    "Gemini historical precision issues unchanged",
+    "no new paid calls"
+  ]
+}
