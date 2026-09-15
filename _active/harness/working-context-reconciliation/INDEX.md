@@ -2,8 +2,9 @@
 
 Current source: `execution/working_context.py`; contract:
 `directives/working-context-reconciliation.md`.
-Deployment: authorized for local main and global Codex on 2026-09-15. No push.
-The deployment receipt records the receiving commit and native activation state.
+**Deployment: committed, merged to local main, globally installed and natively
+trusted in Codex. No push. Automatic firing in the already-open task remains
+unverified.** Read `06-system/deployment-receipt.json` for exact evidence and limits.
 
 ## What this maintains
 
