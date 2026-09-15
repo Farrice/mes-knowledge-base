@@ -1,0 +1,204 @@
+{
+  "status": "INSTALLED_NATIVE_FIRING_PENDING",
+  "date": "2026-09-15",
+  "build_commit": "38851c6c0",
+  "first_main_integration": "c6df30d8a",
+  "push": false,
+  "preserved_main_work": {
+    "branch": "worktree-main-dirty-preserve-20260915-context-reconciliation",
+    "tracked_paths": 66,
+    "merged_to_main": true,
+    "untracked_paths_left_untouched": 99
+  },
+  "receiving_file_sha256": {
+    ".agent/workflows/fresh-pen.md": "c9e20e64e95380742f67385629d0d737b3a521f9e80be0a6177d92d057d6a169",
+    ".agent/workflows/handoff.md": "31e73f9e3e3195437f5f0415b5f18083c07d413e62375651cda79a9b939deb4f",
+    ".gitignore": "296d38b0710ba1795634e5a42a2b893e26641acd39d7044e92c61ec2c6dd0451",
+    "_active/harness/working-context-reconciliation/06-system/proof.json": "d4c20951a6a3230adf93a037621ec4cc96e46f12a5e26709a8e34aacbfab43ea",
+    "_active/harness/working-context-reconciliation/06-system/reconciliation_model.py": "fb5b5a06ac6a7e130ee94572e52b401e9ca423718bc1e99e2c07b1823fe1c216",
+    "_active/harness/working-context-reconciliation/06-system/run_proof.py": "231cc701bbf4e7616e60f417625e4c87fe505fc5ebbc049d865326347d32509e",
+    "_active/harness/working-context-reconciliation/06-system/test_reconciliation_model.py": "0573dbbaf5778cb30b923e81462c712c327a055f1b86d9532fb788d55a025148",
+    "_active/harness/working-context-reconciliation/99-archive/2026-09-15-prototype-plan.md": "2558e36144b1b8c9075d69851cc969cac2b6eb0993e80fd288a4627e974abc98",
+    "_active/harness/working-context-reconciliation/INDEX.md": "dc75f51146df2130dbb61658e5259fea0de0d3459531c861802a381cea91964b",
+    "directives/artifact-placement.md": "9175561cd248404fc69d0c2d9f206c120aa53a7331e2c4e2c849138241925d7d",
+    "directives/working-context-reconciliation.md": "6de9c3af02f7bfa9d20b47ab26a5f690a13b6721efe1694925de923884c6c15d",
+    "execution/hooks/superseded_read_guard.py": "4dad45f6ad8b87ff7d963c771a9c151ed36e535a7375a3154d5bb60120db5d4a",
+    "execution/install_working_context.py": "b48d42722e8f9e827e35560e88fe46c64a03f0a5748db13ab4ad5c659c435252",
+    "execution/job_board.py": "fc544739d6fc02906393e9f38b0f639d40eb54d4e179f7ed2fcfc3e0d51451dd",
+    "execution/tests/test_working_context.py": "809e340ae7fdfc8b57427628af66871c4be036a0d1bda87893e20fedcbc4cd54",
+    "execution/tests/test_working_context_integration.py": "b98dab56056c2155d1f69e4507381d0a70181cbc5d06e005bcec012ec6bb6320",
+    "execution/working_context.py": "46482129625c3e7929707fdbd45c810c659480df98863f116a896087878229a6"
+  },
+  "global_installer": {
+    "root": "/Users/farricecain/Google Antigravity",
+    "applied": true,
+    "files": [
+      {
+        "path": "/Users/farricecain/.codex/hooks.json",
+        "before": "ee31f210ef5234bc781b696aedc8933375bbfbb50112f6e9233ce55cbce2b8ba",
+        "after": "017adf920a8469620d319a6aecfa8739304af49750fddf73645e7a43da566bab",
+        "backup": "/Users/farricecain/.codex/working-context/backups/20260915-081353/hooks.json"
+      },
+      {
+        "path": "/Users/farricecain/.codex/AGENTS.md",
+        "before": "fb3a5028c53f3b1594f523baedc994d567a0620cfe573c84008966f3007db51c",
+        "after": "1ce4e1273d164ff719f05dd43bd50f3ab5dcdc12e7ec728412806c7d65e8c96c",
+        "backup": "/Users/farricecain/.codex/working-context/backups/20260915-081353/AGENTS.md"
+      }
+    ],
+    "native_trust": "VERIFY_WITH_HOOKS_LIST",
+    "status": "INSTALLED",
+    "receipt": "/Users/farricecain/.codex/working-context/backups/20260915-081353/receipt.json"
+  },
+  "native_registration": [
+    {
+      "cwd": "/Users/farricecain/.codex/worktrees/432e/Google Antigravity",
+      "hooks": [
+        {
+          "event": "preToolUse",
+          "key": "/Users/farricecain/.codex/hooks.json:pre_tool_use:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:ba000be0ac1c6d54fe86f998bac324c4607ef12d4d3a08e89e8cf9d6086fb65b"
+        },
+        {
+          "event": "postToolUse",
+          "key": "/Users/farricecain/.codex/hooks.json:post_tool_use:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:6f0a1029421bb55901ba83a8e61040129564c3962f02d4b510effde1a411e321"
+        },
+        {
+          "event": "preCompact",
+          "key": "/Users/farricecain/.codex/hooks.json:pre_compact:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:374b34daa9a6e0ef63825b3b42f986bf8f0b6512bb75ea1a74851a23e919b845"
+        },
+        {
+          "event": "postCompact",
+          "key": "/Users/farricecain/.codex/hooks.json:post_compact:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:f9760f3cd65bf6eb98ee4353b34b25160c003f2e0aeb5ac1a2e228a150df2f24"
+        },
+        {
+          "event": "sessionStart",
+          "key": "/Users/farricecain/.codex/hooks.json:session_start:1:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:bac50decc8e5602010b3ea8f4d59bd13bf16d45023a10a76bcc225c97802b21c"
+        },
+        {
+          "event": "userPromptSubmit",
+          "key": "/Users/farricecain/.codex/hooks.json:user_prompt_submit:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:22db5b106cb9a35bacbce3e746558233b65e40d80c13a31d7158efaacf18cf1b"
+        },
+        {
+          "event": "stop",
+          "key": "/Users/farricecain/.codex/hooks.json:stop:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:6516d0e1b0698959a2bb03d78aa322bd493e10e5ae42e7179374bc2d59541244"
+        }
+      ]
+    },
+    {
+      "cwd": "/private/tmp",
+      "hooks": [
+        {
+          "event": "preToolUse",
+          "key": "/Users/farricecain/.codex/hooks.json:pre_tool_use:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:ba000be0ac1c6d54fe86f998bac324c4607ef12d4d3a08e89e8cf9d6086fb65b"
+        },
+        {
+          "event": "postToolUse",
+          "key": "/Users/farricecain/.codex/hooks.json:post_tool_use:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:6f0a1029421bb55901ba83a8e61040129564c3962f02d4b510effde1a411e321"
+        },
+        {
+          "event": "preCompact",
+          "key": "/Users/farricecain/.codex/hooks.json:pre_compact:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:374b34daa9a6e0ef63825b3b42f986bf8f0b6512bb75ea1a74851a23e919b845"
+        },
+        {
+          "event": "postCompact",
+          "key": "/Users/farricecain/.codex/hooks.json:post_compact:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:f9760f3cd65bf6eb98ee4353b34b25160c003f2e0aeb5ac1a2e228a150df2f24"
+        },
+        {
+          "event": "sessionStart",
+          "key": "/Users/farricecain/.codex/hooks.json:session_start:1:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:bac50decc8e5602010b3ea8f4d59bd13bf16d45023a10a76bcc225c97802b21c"
+        },
+        {
+          "event": "userPromptSubmit",
+          "key": "/Users/farricecain/.codex/hooks.json:user_prompt_submit:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:22db5b106cb9a35bacbce3e746558233b65e40d80c13a31d7158efaacf18cf1b"
+        },
+        {
+          "event": "stop",
+          "key": "/Users/farricecain/.codex/hooks.json:stop:0:0",
+          "enabled": true,
+          "trust": "trusted",
+          "hash": "sha256:6516d0e1b0698959a2bb03d78aa322bd493e10e5ae42e7179374bc2d59541244"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "runtime_and_integrations": "34 PASS",
+    "original_offline_prototype": "22 PASS",
+    "document_history": "15 PASS",
+    "project_filer": "PASS",
+    "google_operator_core": "PASS",
+    "installed_commands": {
+      "proof_kind": "SYNTHETIC_INSTALLED_COMMAND_REPLAY",
+      "turns": 10,
+      "commands": {
+        "SessionStart": 2,
+        "UserPromptSubmit": 10,
+        "PreToolUse": 10,
+        "PostToolUse": 10,
+        "Stop": 12,
+        "PreCompact": 1,
+        "PostCompact": 1
+      },
+      "status": "PASS",
+      "native_event_firing": "NOT_PROVEN",
+      "semantic_interpretation": "MANUAL_FIXTURE",
+      "model_calls": 0,
+      "user_tasks_created": 0
+    },
+    "full_job_handoff_suite": "NOT_COMPLETED: inherited seat expectations and production mission fixture; targeted brief/portable adapters pass"
+  },
+  "live_runtime": {
+    "imported_actual_prior_turns": 8,
+    "current_revision": 9,
+    "pending_turns": 0,
+    "issues": [],
+    "observed_native_hook_events": 0,
+    "native_resume_probe": "REFUSED: current thread already has an active writer; no bypass attempted",
+    "app_ui_probe": "UNAVAILABLE: computer-use tool prohibits controlling Codex"
+  },
+  "limits": [
+    "Native firing in this already-open task is unverified; a real subsequent lifecycle event is required.",
+    "Synthetic ten-turn and compaction command replay is not a ten-turn native or semantic test.",
+    "Claude adapter tested; global Claude hooks were not installed.",
+    "No guarantee of semantic perfection or universally improved creative output."
+  ]
+}
