@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "387 sessions swept",
-  "compiled": "sep 13, 2026",
+  "sources": "319 sessions swept",
+  "compiled": "sep 15, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,7 +28,7 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "5",
+          "value": "2",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "387",
+          "value": "319",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,8 +53,6 @@
           "label": "sessions",
           "values": [
             2,
-            4,
-            2,
             2,
             1,
             0,
@@ -65,9 +63,11 @@
             0,
             2,
             0,
-            0
+            0,
+            0,
+            1
           ],
-          "value": "18",
+          "value": "13",
           "note": "per day"
         },
         {
@@ -75,9 +75,9 @@
           "values": [
             0,
             0,
+            75,
             0,
             0,
-            35,
             0,
             0,
             0,
@@ -88,7 +88,7 @@
             0,
             0
           ],
-          "value": "35",
+          "value": "75",
           "note": "per day"
         }
       ],
@@ -118,15 +118,15 @@
           ]
         },
         {
-          "label": "clients",
+          "label": "video studio edit bay",
           "values": [
-            22
+            40
           ]
         },
         {
-          "label": "visual workflow",
+          "label": "clients",
           "values": [
-            6
+            22
           ]
         }
       ]
@@ -138,13 +138,13 @@
       "links": [
         {
           "k": "ACTIVE",
-          "title": "coach cooz",
-          "path": "deliverables/research-briefs/mission-coach-cooz/mission-coach-cooz-brief.html"
+          "title": "harness",
+          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "harness",
-          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
+          "title": "coach cooz",
+          "path": "deliverables/research-briefs/mission-coach-cooz/mission-coach-cooz-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -157,14 +157,14 @@
           "path": "deliverables/research-briefs/mission-create/mission-create-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "clients",
-          "path": "deliverables/research-briefs/mission-clients/mission-clients-brief.html"
+          "k": "READY",
+          "title": "video studio edit bay",
+          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
         },
         {
           "k": "ACTIVE",
-          "title": "visual workflow",
-          "path": "deliverables/research-briefs/mission-visual-workflow/mission-visual-workflow-brief.html"
+          "title": "clients",
+          "path": "deliverables/research-briefs/mission-clients/mission-clients-brief.html"
         },
         {
           "k": "READY",
@@ -214,12 +214,6 @@
           "title": "content-marketing-playbook",
           "body": "Jun Yuh cross-skill stack map for Farrice personal and business content, including the missing Format Intelligence Lab, conditional craft adapters, productized ",
           "done": true
-        },
-        {
-          "date": "2026-08-31",
-          "title": "10",
-          "body": "Produced System: Conflict-lane reconciliation and stale-lane recovery audit",
-          "done": true
         }
       ]
     },
@@ -227,7 +221,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n231 more threads cleared the bar but sit below the 12-card ceiling and were not carded: video studio edit bay, first 10k, health performance geo daily brief, angle map listening engine v4 1, references, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, solutions, profile copy fresh 0730 packet.\n\n473 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n242 more threads cleared the bar but sit below the 12-card ceiling and were not carded: health performance geo daily brief, angle map listening engine v4 1, references, deliverables, offer redteam, guides, teardown 1 fresh, global org sweep, solutions, profile copy fresh 0730 packet, dunford handshake haynes, godin marketing mind.\n\n430 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

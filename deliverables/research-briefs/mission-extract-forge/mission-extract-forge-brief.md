@@ -1,6 +1,6 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 13, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: sep 15, 2026
 
 Done and clean. Do not reopen it.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 40d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 42d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -108,7 +108,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 23 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 25 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

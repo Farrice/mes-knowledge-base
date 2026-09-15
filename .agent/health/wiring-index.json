@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T06:00:24.303691",
+ "generated": "2026-09-15T06:00:23.219427",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -11094,577 +11094,577 @@
   "workflow:kingmaker-sprint": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kishotenketsu-contrast-storytelling": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kj-rainey-build-value-chain": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kj-rainey-write-pain-driven-copy": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kling-multishot": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-alchemy": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-architecture-architect-domain-agent": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-architecture-build-mastery-pathway": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-librarian": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-search": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:knowledge-work-platform-adapter": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kunal-shah-audit-trust-status-dynamics": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:kunal-shah-map-motivation-rivers": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-abdce": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-audit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-connelly": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-critic": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-dialogue": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-10T06:00:06.691668"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-drafts": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-literary": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-observe": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-pressfield": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-reverence": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-unblock": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lamott-wright": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lane-discipline": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:launch-day": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:launch-monitor": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lead-magnet-profitability-optimization": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lead-reverse-engineer": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lead-to-close": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:learn-in-public-brand-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:learning-experience-productizer": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:legitimacy-ladder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:leo-sentiment-signal-optimization": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:level-5-narrative-and-identity-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:liam-linkedin-lead-magnet": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-advisor-board": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-advisor-build": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-brain-ladder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-compound-loop": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-extraction-bridge": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-grounding-gate": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-health-check": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-ingest": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-ingest-triage": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-kb-design": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-meta-agent": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-notion-port": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-retrieval-audit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-second-brain": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:library-token-slim": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lifestyle-business": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lindsay-ai-multi-channel-outreach-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lindsay-ai-sales-conversion-pipeline-system": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:linkedin-comedy-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:linkedin-cs-outreach": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:linkedin-daily": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:listing-content": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:literary-cornerstone-sprint": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:literary-edging": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:little-big-idea": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:live-authority-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lookalike-content": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:loop-chain-scripting": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:loop-density-optimizer": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:low-cognitive-load-message-gate": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:luisa-zhou-build-content-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:luisa-zhou-deliver-first-session": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:luke-alexander-build-context-profile": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:luke-alexander-structure-performance-deal": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-authenticity-engineering": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-conviction-copy": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-erogenous-zones": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-founder-brand-os": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-launch-comms": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-line-in-sand": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-m3-matrix": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-pr-crisis": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-reality-architect": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-strategic-wrongness": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-viral-trajectory": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lulu-zeitgeist-content": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:luxury-offer-architecture-strategy": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-brief-audit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-campaign-ecosystem": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-character-test": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-copy-pass": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-counter-identity": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-creative-brief": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-customer-media": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-customer-voice-mine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-deal-structure": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-discovery-protocol": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-drtv-vsl": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-identity-campaign": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-identity-posture": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-media-match": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-modular-script": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-perception-identity": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-price-architecture": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-product-prequalify": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-receive-the-draft": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-strategist-career": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-testimonial-relay": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-transformation-sell": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:lynch-umbrella-map": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:m2-studio-shot": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:m3-action-shot": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:m4-performance-shot": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:m5-atmospheric-shot": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:magnetic-authority-content-system": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:maintenance": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:management-playbook": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:manifesto": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:manifold-audit": {
    "status": "PROVEN",
@@ -18879,17 +18879,17 @@
   "workflow:compounding-gtm-unit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:cost-per-right-answer": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:gtm-learning-loop": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-08-11T06:00:09.302068"
+   "checked": "2026-09-15T06:00:18.593148"
   },
   "workflow:message-market-fit-test": {
    "status": "PROVEN",
@@ -20355,6 +20355,166 @@
    "status": "ORPHAN",
    "via": "no wrapper, not in SLASH_COMMANDS.md",
    "checked": "2026-09-14T06:00:20.543769"
+  },
+  "agent:paddy-galloway": {
+   "status": "PROVEN",
+   "via": "listed in AGENT_INDEX.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:content_analysis_live_trial.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:content_analysis_pilot.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('from content_analysis_pilot import')",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:tests/test_conditional_shadow_reference.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:tests/test_mastery_transfer_proof_spine.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:verify_embody_command.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:verify_mastery_transfer_proof_spine.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "execution:verify_paddy_galloway_system.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "skill:paddy-galloway-youtube-strategy": {
+   "status": "PROVEN",
+   "via": "listed in SKILL_INDEX.md (router-reachable)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:embody": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-capture-to-call": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-funnel-flywheel": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-funnel-route": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-funnel-test-loop": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-offer-ladder": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:oren-one": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:paddy-galloway": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-ccn-slate": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-channel-diagnosis": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-creative-sprint": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-idea-funnel": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-intro-rewrite": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-launch-experiment": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-learning-bank": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-packaging-capture": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-platform-transfer": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-reference-analysis": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-retention-diagnosis": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-stakes-design": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-thumbnail-concepts": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
+  },
+  "workflow:pg-title-lab": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-09-15T06:00:18.593148"
   }
  }
 }

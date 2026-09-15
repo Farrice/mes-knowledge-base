@@ -1636,7 +1636,7 @@ PAIRS WITH: Mitch Albom for restraint · Lamott/Allen for rough drafting · Davi
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 77 agent(s) had no invocation card. Stubs below are machine-
+> 78 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2189,6 +2189,16 @@ DOMAIN: slop-era creative strategy / premium brand building / consumer insight /
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Oren John: creative strategist and creative director; ex-SVP Marketing and VP Product across CPG, consumer electronics, and outdoors; leads creative teams at...
 ENTRY PROMPT: agents/oren-slop-era-creative-strategy/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Paddy Galloway — Source-Grounded Strategy Seat
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Read `skills/paddy-galloway-youtube-strategy/SKILL.md`, then genius.md and the single selected workflow. Default for an end-to-end job: pg-creative-sprint. T...
+ENTRY PROMPT: agents/paddy-galloway/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

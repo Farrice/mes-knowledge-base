@@ -1,6 +1,6 @@
 # Edit Bay Video Studio
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 40 assets · compiled: sep 10, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 40 assets · compiled: sep 15, 2026
 
 - Next session should do: Run Pilot P1 — a Parallax essay → VOX-style explainer end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 
 
@@ -12,7 +12,7 @@ _CURRENT POSITION_
 
 Stage: build — files are moving; nothing finalized. In the last 14 days: 40 assets generated.
 
-Handoff status is ready. Last activity 6d ago.
+Handoff status is ready. Last activity 11d ago.
 
 Next: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
 
@@ -45,7 +45,7 @@ Next: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotati
 
 […trimmed — full text in the handoff]
 
-Handoff written 35d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 40d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -66,6 +66,7 @@ Risk notes:
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
 1. **Finish what's open** — P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive
+2. **Decide: resume, park, or kill** — No recorded activity in 11 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
@@ -111,7 +112,7 @@ STILL OPEN: P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untes
 
 ## by the numbers
 - ASSETS GENERATED: **40**
-- DAYS ACTIVE: **6 d**
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 
@@ -133,7 +134,7 @@ STILL OPEN: P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untes
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 20 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 25 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
