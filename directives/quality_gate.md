@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-09-14 (chain_runner finalize for paddy-galloway-youtube-strategy) |
-| **Last Activated** | 2026-09-14 (chain_runner finalize for paddy-galloway-youtube-strategy) |
-| **Activation Count** | 925 |
-| **30-Day Review Date** | 2026-10-14 |
+| **Last Activated** | 2026-09-15 (chain_runner finalize for paddy-galloway-youtube-strategy) |
+| **Last Activated** | 2026-09-15 (chain_runner finalize for paddy-galloway-youtube-strategy) |
+| **Activation Count** | 926 |
+| **30-Day Review Date** | 2026-10-15 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -1,16 +1,32 @@
 ---
 name: paddy-galloway-youtube-strategy
 description: "Use when a YouTube idea needs audience fit, stronger packaging, a promise-first intro, or an evidence-based performance diagnosis; also for explicit transfer of these methods into original short-form content."
-version: "1.0"
+version: "1.1"
 format: completion-engine
 expert: Paddy Galloway
 domain: YouTube strategy, CCN audience, idea selection, thumbnails, titles, retention, creative analysis, outlier research
 when_to_use: "Before filming; choosing an idea; briefing thumbnails; rewriting an intro; diagnosing views; adapting references without copying."
 workflows: 14
+primary_workflow: pg-creative-sprint
 ---
 # Paddy Galloway — YouTube Strategy
 
 One expert system, fourteen focused workflows. Load one workflow at a time, or use `/pg-creative-sprint` to connect them. Start with [genius.md](genius.md). Full source: `extractions/paddy-galloway/youtube-masterclass/`.
+
+## Direct access to Paddy
+
+Start with `/paddy-galloway` (Codex skill: `$paddy-galloway`), or say
+“Paddy, help me with [the content decision].” Read `agents/paddy-galloway/AGENT.md`
+for the named expert's entry behavior. If a task is supplied, execute the matching
+workflow immediately; a full creative project uses `pg-creative-sprint`.
+
+Each `pg-*` workflow below also has its own Codex skill entry and Claude command.
+These are direct doors into the same source-grounded intelligence, not separate
+copies of the methods. [Plain-language menu](references/direct-access.md).
+For a teaching request, explain the matching source pattern, example, decision
+rule, exception and one application exercise. Other experts are optional support;
+Paddy's own methods can be used independently. No new Gemini call is needed to use
+the already extracted knowledge.
 
 ## When NOT to Use
 - Nutrition, legal or financial factual advice: route to the appropriate domain owner; this skill supplies communication structure only.

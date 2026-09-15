@@ -20,7 +20,12 @@ def verify(root=ROOT, hidden=frozenset()):
             if not exists(target): failures.append('missing '+target)
         if rel not in read(f'.agent/workflows/{slug}.md'): failures.append('unreachable '+slug)
         if f'.agent/workflows/{slug}.md' not in read(f'.claude/commands/{slug}.md'): failures.append('Claude bridge '+slug)
+        if f'.agent/workflows/{slug}.md' not in read(f'.agents/skills/{slug}/SKILL.md'): failures.append('Codex direct entry '+slug)
         if exists(p) and audit_file(root/p): failures.append('prompt contract '+slug)
+    if 'agents/paddy-galloway/AGENT.md' not in read('.agents/skills/paddy-galloway/SKILL.md'): failures.append('Paddy named entry')
+    if 'primary_workflow: pg-creative-sprint' not in read(f'{S}/SKILL.md'): failures.append('full sprint default')
+    for rel in ['.agent/workflows/paddy-galloway.md','.claude/commands/paddy-galloway.md']:
+        if f'{S}/workflows/pg-creative-sprint.md' not in read(rel): failures.append('wrong flagship '+rel)
     handoff=read('skills/youtube-video-context-analysis/references/content-analyst-pilot.md')
     if f'{S}/SKILL.md' not in handoff: failures.append('missing conditional analyst handoff')
     if not (root/'.agents/skills/paddy-galloway-youtube-strategy').resolve().samefile(root/S): failures.append('Codex skill link')

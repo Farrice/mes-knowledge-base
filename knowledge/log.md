@@ -915,3 +915,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-09-14 18:23]` **finalize** | Guarded local content analyst pilot: shared workflow, transactional simulation and 19 passing safety | general | youtube-video-context-analysis — composite:7.0 status:Needs Improvement
 - `[2026-09-14 23:10]` **finalize** | Paddy full-video extraction: 14 connected workflows, original production packet, recovered Gemini st | strategy | paddy-galloway — composite:7.0 status:Needs Improvement
 - `[2026-09-15 08:19]` **finalize** | Global working-context runtime installed; native firing remains unverified | system | system-audit — composite:8.0 status:Keep
+- `[2026-09-15 09:01]` **finalize** | Paddy named expert front door and 14 direct Codex task skills; corrected full-project default and pl | strategy | paddy-galloway — composite:7.0 status:Needs Improvement
