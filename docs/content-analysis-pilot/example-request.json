@@ -1,0 +1,13 @@
+{
+  "mode": "extract",
+  "question": "Find useful visual teaching techniques, cite the evidence, and propose one application exercise. This is a synthetic control test; do not fetch or watch anything.",
+  "model": "gemini-3.7-flash",
+  "processing": "agentic",
+  "resolution": "low",
+  "max_output_tokens": 4096,
+  "timeout_seconds": 10,
+  "items": [
+    {"source": "https://www.youtube.com/watch?v=abcdefghijk", "duration_seconds": 600},
+    {"source": "https://www.youtube.com/watch?v=lmnopqrstuv", "duration_seconds": 900}
+  ]
+}

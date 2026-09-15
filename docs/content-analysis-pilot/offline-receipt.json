@@ -1,0 +1,136 @@
+{
+  "proof": "OFFLINE_SIMULATION_ONLY",
+  "batch": "dc125330e9d694ba7427bb0ab1544a9d404eb0746ae3bfe86feb38c86fc51b5b",
+  "preview": {
+    "schema": 1,
+    "environment": "simulation",
+    "paid_execution": "DISABLED",
+    "mode": "extract",
+    "question": "Find useful visual teaching techniques, cite the evidence, and propose one application exercise. This is a synthetic control test; do not fetch or watch anything.",
+    "model": "gemini-3.7-flash",
+    "processing": "agentic",
+    "resolution": "low",
+    "max_output_tokens": 4096,
+    "timeout_seconds": 10,
+    "max_calls": 2,
+    "retries": 0,
+    "prompt_version": "content-analyst-pilot-v1",
+    "rates": [
+      "0.75",
+      "3.75"
+    ],
+    "pricing_expires_at": 1798761600.0,
+    "cost_status": "STATIC_ESTIMATE_NOT_PROVIDER_CAP",
+    "items": [
+      {
+        "source": {
+          "uri": "https://www.youtube.com/watch?v=abcdefghijk",
+          "route": "public-youtube-candidate",
+          "access": "NOT_CHECKED"
+        },
+        "duration_seconds": 600,
+        "duration_status": "DECLARED_NOT_PROBED",
+        "key": "39673ea8af5bc74a23901b96e2df17cf5805b435ac54223c1e71f8538d1beed2",
+        "estimated_input_tokens": 62210,
+        "reserve_micro_usd": 62018
+      },
+      {
+        "source": {
+          "uri": "https://www.youtube.com/watch?v=lmnopqrstuv",
+          "route": "public-youtube-candidate",
+          "access": "NOT_CHECKED"
+        },
+        "duration_seconds": 900,
+        "duration_status": "DECLARED_NOT_PROBED",
+        "key": "86f0c47898ece783e4a201fa76992a823dcffaa82e7f836e01c1ccdd33b91dcb",
+        "estimated_input_tokens": 92210,
+        "reserve_micro_usd": 84518
+      }
+    ],
+    "estimated_total_usd": "0.146536",
+    "agentic_cost_bound": "UNVERIFIED"
+  },
+  "approval": {
+    "batch": "dc125330e9d694ba7427bb0ab1544a9d404eb0746ae3bfe86feb38c86fc51b5b",
+    "status": "approved-for-simulation-only",
+    "simulated_budget_usd": "1.000000",
+    "paid_allowance_usd": "0"
+  },
+  "first_run": {
+    "batch": "dc125330e9d694ba7427bb0ab1544a9d404eb0746ae3bfe86feb38c86fc51b5b",
+    "status": "complete",
+    "environment": "simulation",
+    "paid_execution": "DISABLED",
+    "real_api_calls": 0,
+    "real_spend_usd": "0",
+    "simulated_liability_usd": "0.059828",
+    "all_batches_simulated_liability_usd": "0.059828",
+    "calls": [
+      {
+        "key": "39673ea8af5bc74a23901b96e2df17cf5805b435ac54223c1e71f8538d1beed2",
+        "batch_id": "dc125330e9d694ba7427bb0ab1544a9d404eb0746ae3bfe86feb38c86fc51b5b",
+        "status": "complete",
+        "reserved": 62018,
+        "actual": 24289,
+        "result": {
+          "environment": "simulation",
+          "evidence_status": "SYNTHETIC_NOT_OBSERVED",
+          "input_tokens": 31105,
+          "output_tokens": 256,
+          "text": "Synthetic control test only. No video was watched."
+        },
+        "error": null
+      },
+      {
+        "key": "86f0c47898ece783e4a201fa76992a823dcffaa82e7f836e01c1ccdd33b91dcb",
+        "batch_id": "dc125330e9d694ba7427bb0ab1544a9d404eb0746ae3bfe86feb38c86fc51b5b",
+        "status": "complete",
+        "reserved": 84518,
+        "actual": 35539,
+        "result": {
+          "environment": "simulation",
+          "evidence_status": "SYNTHETIC_NOT_OBSERVED",
+          "input_tokens": 46105,
+          "output_tokens": 256,
+          "text": "Synthetic control test only. No video was watched."
+        },
+        "error": null
+      }
+    ],
+    "planned_items": 2,
+    "items": [
+      {
+        "source": "https://www.youtube.com/watch?v=abcdefghijk",
+        "key": "39673ea8af5bc74a23901b96e2df17cf5805b435ac54223c1e71f8538d1beed2",
+        "status": "complete",
+        "reused": false,
+        "result": {
+          "environment": "simulation",
+          "evidence_status": "SYNTHETIC_NOT_OBSERVED",
+          "input_tokens": 31105,
+          "output_tokens": 256,
+          "text": "Synthetic control test only. No video was watched."
+        }
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=lmnopqrstuv",
+        "key": "86f0c47898ece783e4a201fa76992a823dcffaa82e7f836e01c1ccdd33b91dcb",
+        "status": "complete",
+        "reused": false,
+        "result": {
+          "environment": "simulation",
+          "evidence_status": "SYNTHETIC_NOT_OBSERVED",
+          "input_tokens": 46105,
+          "output_tokens": 256,
+          "text": "Synthetic control test only. No video was watched."
+        }
+      }
+    ],
+    "approval_note": "Farrice confirmed local simulated control tests; no paid API calls",
+    "quality_proof": "NOT_RUN"
+  },
+  "repeat_run_identical": true,
+  "live_video_quality": "NOT_RUN",
+  "real_spend_usd": "0",
+  "commands": "preview \u2192 approve-simulation \u2192 simulate \u2192 simulate (cached)"
+}
