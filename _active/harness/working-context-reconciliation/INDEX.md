@@ -3,8 +3,9 @@
 Current source: `execution/working_context.py`; contract:
 `directives/working-context-reconciliation.md`.
 **Deployment: committed, merged to local main, globally installed and natively
-trusted in Codex. No push. Automatic firing in the already-open task remains
-unverified.** Read `06-system/deployment-receipt.json` for exact evidence and limits.
+trusted in Codex. No push. This already-open runtime has not loaded the hooks:
+a same-task probe produced no native receipt. Reload Codex after active runs
+finish; live firing still requires verification.** Read `06-system/deployment-receipt.json` for exact evidence and limits.
 
 ## What this maintains
 
