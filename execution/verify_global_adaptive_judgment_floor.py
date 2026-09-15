@@ -60,6 +60,17 @@ ALLOWED_OVERLAY_SURFACE_REFERENCES = {
     ROOT / ".agent" / "workflows" / "operator-school.md",
 }
 
+# Explicitly approved in session 01a05ee6-7ea6-77e1-9a04-c14e3eb773c9
+# (2026-09-01): systems-thinking support only during system-gap diagnosis.
+# Permit this exact conditional sentence, not the file or arbitrary references.
+CONDITIONAL_OVERLAY_REFERENCES = {
+    ROOT / ".agent" / "workflows" / "godin-ai-creative-practice.md": (
+        "Load `semantic_libraries/antigravity/primitives/"
+        "systems-thinking-expertise-intelligence-overlay.md` only during "
+        "system-gap diagnosis when its activation test is met."
+    ),
+}
+
 OVERLAY_REFERENCE_TOKENS = (
     OVERLAY_SLUG,
     "systems-thinking shadow companion",
@@ -257,6 +268,11 @@ def check_no_competing_overlay_surfaces() -> None:
             if path in ALLOWED_OVERLAY_SURFACE_REFERENCES:
                 continue
             text = read(path).lower()
+            approved_reference = CONDITIONAL_OVERLAY_REFERENCES.get(path)
+            if approved_reference:
+                # One approved reference can be present. Additional or broadened
+                # activation language still reaches the forbidden-token check.
+                text = text.replace(approved_reference.lower(), "", 1)
             if any(token in text for token in OVERLAY_REFERENCE_TOKENS):
                 routed.append(str(path))
 

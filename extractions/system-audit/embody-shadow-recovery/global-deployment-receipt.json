@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Users/farricecain/.codex/skills/embody/SKILL.md",
+    "sha256": "296ffbda34478b15f0b815cce6845d0d1f21168365bcdc32ea0ba376a060b2b6"
+  },
+  {
+    "path": "/Users/farricecain/.codex/skills/embody/agents/openai.yaml",
+    "sha256": "b9f04ff5d3f08cefd0529dda15b98e785ac9d12999f9a51ec4d9b3e499b31447"
+  },
+  {
+    "path": "/Users/farricecain/.codex/skills/source-command-embody/SKILL.md",
+    "sha256": "ef051997dc78566eaa5dc76b1a3af0f63f0abde3e7c43727d428e79765191ac3"
+  },
+  {
+    "path": "/Users/farricecain/.codex/skills/source-command-embody/agents/openai.yaml",
+    "sha256": "f1888f6b45998fed1abdf158142f603047d991495e95bba2fd77a962138eb75e"
+  }
+]
