@@ -10,6 +10,18 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 |---|---|
 | `/embody` | Practice one source-grounded judgment from this extraction, artifact, or session. Explicit-only; no learning record without `--save`. Owned by `/operator-school`. |
 
+## Oren funnel and routing commands
+
+| Command | What It Does |
+|---|---|
+| `/oren` | Select one Oren owner for the purchased job; preserve specialist handoffs. |
+| `/oren-one` | Route lean marketing operations to the weekly OS or funnel workflow. |
+| `/oren-funnel-flywheel` | Architect acquisition through payment, fulfillment, retention and learning. |
+| `/oren-funnel-route` | Select the minimum viable funnel and reject mismatched routes. |
+| `/oren-capture-to-call` | Define qualification, booking, show-up and nurture handoffs without live sends. |
+| `/oren-offer-ladder` | Connect commitments while keeping proof and economics explicit. |
+| `/oren-funnel-test-loop` | Turn observed funnel evidence into a controlled test. |
+
 ## 📊 Research & Strategy (19)
 | Command | What It Does |
 |---------|-------------|

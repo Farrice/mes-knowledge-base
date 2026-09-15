@@ -1,0 +1,272 @@
+[
+  {
+    "path": ".agent/workflows/golden-core-diagnostic.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-capture-to-call.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-funnel-flywheel.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-funnel-route.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-funnel-test-loop.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-offer-ladder.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren-one.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agent/workflows/oren.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".agents/skills/source-command-oren/SKILL.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": ".claude/commands/oren-one.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": ".claude/commands/oren.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "agents/oren-taste-development/AGENT.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "agents/oren-taste-development/references/universal-route-map.json",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/README.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-neutral-interior-design.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-paid-social-creative-test-sprint.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/blind-source-fidelity-review.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/duplicate-route-map.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/extraction-manifest.json",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-extraction.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/metadata.json",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/oren-front-door-validation-fixtures.json",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/skill-system-contract.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/timestamped-mechanics.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/transcript.txt",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/uncertainty-report.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/universal-front-door-agentic-engineering-packet.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_funnel_flywheel.py",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-fixtures.json",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md",
+    "exists": true,
+    "same_as_approved": true
+  },
+  {
+    "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/video-context-ledger.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/benoit-vatere/workflows/golden-core-diagnostic.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-content-team-architecture/workflows/oren-content-flywheel.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/SKILL.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/genius.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/funnel-flywheel-source-ledger.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/genius-patterns.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/capture-to-call-brief.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/dm-to-call-conversation-map.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-flywheel-blueprint.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-route-card.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-test-learning-plan.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/offer-ladder-economics-handoff.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/quality-rubric.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/source-ledger.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/references/tool-stack.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/01-weekly-os-installer.md",
+    "exists": true,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/13-funnel-flywheel.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/14-funnel-route.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/15-capture-to-call.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/16-offer-ladder.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-one-person-ai-marketer/workflows/17-funnel-test-loop.md",
+    "exists": false,
+    "same_as_approved": false
+  },
+  {
+    "path": "skills/oren-slop-era-creative-strategy/workflows/funnel-hack.md",
+    "exists": true,
+    "same_as_approved": false
+  }
+]

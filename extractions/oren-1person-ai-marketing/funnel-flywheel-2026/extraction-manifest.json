@@ -1,0 +1,25 @@
+{
+  "band": "MID",
+  "corpus_words": 6988,
+  "extension": true,
+  "yields": {
+    "patterns": 12,
+    "hidden": 6,
+    "exemplars": 3,
+    "deliverables": 6,
+    "stacking_hits": 5
+  },
+  "workflows": 5,
+  "tiers": {
+    "placement": "into existing skill's tier table (Foundation for gates/audits, Practitioner for asset production, Stacking for cross-expert)"
+  },
+  "prompts_floor": 6,
+  "references": [
+    "source-quotes append (quote bank + claims-ledger entries)",
+    "provenance entries for new anti-pattern/exemplar anchors"
+  ],
+  "orchestrator_eligible": false,
+  "agent": "required (AGENT.md + memory + front door via sync_registries)",
+  "fidelity": "full",
+  "note": "Floors are minimums earned by the corpus; scale up when yields demand it."
+}

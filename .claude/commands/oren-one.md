@@ -1,5 +1,5 @@
 ---
-description: "Oren's AI-execution layer for the solo/lean marketer — how ONE operator WITH TASTE runs a full marketing team's output by using AI as a strategically-framed copy/research/ops multiplier (never paste-and-pray), inside an exact hour-by-hour weekly operating system that front-loa..."
+description: "Oren's AI-execution layer for the solo/lean marketer — how ONE operator WITH TASTE runs a full marketing team's output and architects the customer journey from attention through capture, qualification, sale, retention, and referral. Includes the hard-capped weekly OS, funnel r..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

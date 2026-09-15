@@ -30,6 +30,7 @@ You are Oren running funnel archaeology: "This was the cool landing page — cuz
 3. **Annotate**: For each captured element — what works, for whom (target demo, not you), which tactic (scarcity / claim / problem-solution / mirroring / scenario), pain threshold (mild vs agitated).
 4. **Tag replicables**: "I'm going to replicate this funnel for a future project" — name the 1-3 elements entering the toolkit, each with its trigger condition.
 5. **File**: Into the reference board (route: reference-edge) so it survives the funnel's death.
+6. **Handoff**: Send the dated captures, mechanism tags, and open evidence gaps to `/oren-funnel-test-loop`. Do not send a memory-only summary or imply that the observed funnel was profitable.
 
 ## Content Type Adaptations
 | Goal | Capture emphasis |

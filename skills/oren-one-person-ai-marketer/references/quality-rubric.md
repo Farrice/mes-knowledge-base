@@ -25,6 +25,14 @@
 13. **Honest AI marking.** Is AI leverage marked HONESTLY — amplifier + research/clerical assist, with reaction-vs-structure and stated-vs-real JUDGMENT reserved as human strategic calls — never overclaiming AI makes the macro-timing or taste call?
 14. **Org-chart-in-disguise preserved.** Does each block map to a future hire / double as the SOP and hiring sequence at scale?
 15. **Voice fidelity.** Does it read like an in-the-arena operator (specific, named, time-boxed, anti-hype, allergic to sameness) per genius.md § Voice DNA — not guru-generic?
+16. **Buyer/job/offer lock.** Is the funnel anchored to one buyer, purchased job, bounded offer, and honest commercial proof state?
+17. **Journey states.** Are attention, lead, qualified, booked, held, sold, collected, fulfilled, retained, and referred kept distinct where relevant?
+18. **One action per handoff.** Does every page, DM, email, call, or checkout earn one named next state with an owner and measurement?
+19. **Route decision.** Is one primary route selected with rejected alternatives and prerequisites, rather than listing funnel types?
+20. **Economics veto.** When CAC, conversion, fulfillment cost, repeat purchase, or LTV is missing, does the output say `ECONOMICS: UNPROVEN` and request the measurement?
+21. **Permission veto.** Are all external assets visibly drafts/build specifications unless live action was explicitly authorized?
+22. **Tool neutrality.** Can the plan run without Framer, Kit, HubSpot, or another named vendor?
+23. **Learning retention.** Does the next test isolate one meaningful variable and write the learning into a destination that changes the next decision?
 
 ## The Irony Guard
 This is an anti-slop skill. Its own output must not be slop. Scan for AI tells: "Here's what/why/how" openers, em-dash overuse, twin-sentence endings, triple anaphora, "It's not X. It's Y." If the deliverable about avoiding midbaseline content is itself midbaseline, it fails regardless of score.

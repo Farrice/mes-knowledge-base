@@ -58,3 +58,6 @@ The restored pilot references these missing historical evidence files. Restore t
 - `extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py`
 - `extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-fixtures.json`
 - `extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md`
+
+## Approved follow-up
+Farrice approved all three next actions: deploy e69cd2963 and four global wrappers without push; recover Oren runtime from e554b3937/ba73384d3; reconcile Godin verifier against approved integration. Preserve newer changes, exact original boundaries and existing SHADOW status. Targets for Oren are in oren-runtime-before.json; global verifier changes require negative-control tests.
