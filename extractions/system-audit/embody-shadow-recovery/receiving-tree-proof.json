@@ -1,0 +1,322 @@
+{
+  "main_head": "2dcab9d719630c8dcfe5b15d6754d65197fa1d11",
+  "deployed_commits": [
+    "e69cd2963",
+    "919ea6aed"
+  ],
+  "runtime_files_equal": 77,
+  "global_files_verified": 4,
+  "newer_workbench_preserved": true,
+  "index": "Helper regenerated index; all eight recovery commands verified present. Byte equality not expected for this generated surface.",
+  "remote_push_performed": false,
+  "files": [
+    {
+      "path": ".agent/workflows/embody.md",
+      "sha256": "78cccc0031d5149e1ae1f5a29618cf9dca4d5db4959feca7dd51825d791703a2"
+    },
+    {
+      "path": ".agent/workflows/golden-core-diagnostic.md",
+      "sha256": "c845ad2280fc3b7518d0698b8d94894b47eb31cd28917fd3f8f4941260c76251"
+    },
+    {
+      "path": ".agent/workflows/operator-school.md",
+      "sha256": "1f886626c55c64c088a0c071aa41716de1032f7e672d573e540f6d35f6945a53"
+    },
+    {
+      "path": ".agent/workflows/oren-capture-to-call.md",
+      "sha256": "c2065bfce654b203fc22b11db220a0222cd384edda37b7fff7211ca7feb6514c"
+    },
+    {
+      "path": ".agent/workflows/oren-funnel-flywheel.md",
+      "sha256": "d300bc13cbd983dfa3618a720daed6f8f7852d69b083cf9473ef9fc24c578894"
+    },
+    {
+      "path": ".agent/workflows/oren-funnel-route.md",
+      "sha256": "e62e5f96a165818e7896c62d27d03c6fbb9ada983bc46dffc73802fad4ac9e56"
+    },
+    {
+      "path": ".agent/workflows/oren-funnel-test-loop.md",
+      "sha256": "445fa9f96664dd92df1ad83eed3227d8d346c79077fd8e08e0b13cb2aac6214d"
+    },
+    {
+      "path": ".agent/workflows/oren-offer-ladder.md",
+      "sha256": "b72b7223d0388639c99e34ef0c080144b191cc122c0e3d36956cc3f7e97f157c"
+    },
+    {
+      "path": ".agent/workflows/oren-one.md",
+      "sha256": "8cd8b86a5d143d58c3106bd9f260265fc9157226c96a620987d342cb1b4b48d2"
+    },
+    {
+      "path": ".agent/workflows/oren.md",
+      "sha256": "b2ef148d91b8706833d3d781d83f042eda6e8d7ea8f768bad37fb991af3cdf05"
+    },
+    {
+      "path": ".agent/workflows/source-to-skill-system.md",
+      "sha256": "6f3c7c990e4f39b02c37ca1ce1049144bff84ab08bd0759fe48ce0a8ee99c8ab"
+    },
+    {
+      "path": ".agents/skills/source-command-embody/SKILL.md",
+      "sha256": "e94db8bea935c809538494a66a757e9349372653f41e684b520aeb223a64992a"
+    },
+    {
+      "path": ".agents/skills/source-command-embody/agents/openai.yaml",
+      "sha256": "f1888f6b45998fed1abdf158142f603047d991495e95bba2fd77a962138eb75e"
+    },
+    {
+      "path": ".agents/skills/source-command-oren/SKILL.md",
+      "sha256": "951c357d4ea8dd586af0f3912e269ed16ad42be6cfdaa02de2a1b9081002d97c"
+    },
+    {
+      "path": ".claude/commands/embody.md",
+      "sha256": "9ce669117b3e0f1ca4ba18c81171a155407933204ba61ba9bd65f4e9f81e1e83"
+    },
+    {
+      "path": ".claude/commands/oren-one.md",
+      "sha256": "4afa105539fa76f8ed1b69bea316438ca662c54c42f34454555aba5c82adab2c"
+    },
+    {
+      "path": ".claude/commands/oren.md",
+      "sha256": "6ff4e315bd0b8c88d3d578155862087e09839e96a69ba6260108ec2417e7a8ed"
+    },
+    {
+      "path": "CODEX.md",
+      "sha256": "3704a410ebf121adaf76bddc340ddd3c87c1bdacd8434eaf6c28601efa2496ee"
+    },
+    {
+      "path": "agents/oren-taste-development/AGENT.md",
+      "sha256": "e92cd031cb707c333e5a3ca10cbf0eb828f9cd4f49e25d929b2cde5c60514825"
+    },
+    {
+      "path": "agents/oren-taste-development/references/universal-route-map.json",
+      "sha256": "cd4cbabcaf8b2a5a9768183b4444b34b266495bbc9497972f097a9c89cd9f287"
+    },
+    {
+      "path": "execution/tests/test_conditional_shadow_reference.py",
+      "sha256": "d69052e4ce54ebd5ce3a73a6db913b80a86a08091eaf35112bcc54355bd4282c"
+    },
+    {
+      "path": "execution/tests/test_mastery_transfer_proof_spine.py",
+      "sha256": "72e8592237fe09340ac205c6dac8904f1c899ee64457b84969684650db4f94b5"
+    },
+    {
+      "path": "execution/verify_embody_command.py",
+      "sha256": "3a93ad84c679334bd51fdcf6eb3ba368561aebf39d9cba5e7ed567a9c63ec20b"
+    },
+    {
+      "path": "execution/verify_global_adaptive_judgment_floor.py",
+      "sha256": "66e16c68f2c452bfbacd2f74262c3a1dfd455bfc0cb33c5ae6971763389f5c29"
+    },
+    {
+      "path": "execution/verify_mastery_transfer_proof_spine.py",
+      "sha256": "2a00c030f0b7d994711a5c13e5bbb64d1692c612f24a5de9f1508705903ed0a9"
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/implementation-contract.md",
+      "sha256": "b279b29f53a8bfc81402ee069e9eacd7949e93c75e5ea7598b3a04001285f67b"
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.json",
+      "sha256": "edf55576b7424bac207db0ede1dd2ade61439f78eea5d40c316d1f11c98876d0"
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md",
+      "sha256": "18fc1d0c95b48d1265d2b4336589de473cd767b5627d065be875067f60020751"
+    },
+    {
+      "path": "extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md.metadata.json",
+      "sha256": "1f74c3a61dcfbc1f5bd47a9ffd24215466513d6dd1192814e00d26be3686e853"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/README.md",
+      "sha256": "451b1b33b77bd460008692443e624638e1fe4da316488a93d9a267bb138ee7ce"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-neutral-interior-design.md",
+      "sha256": "922dd04fcd4f25926518fc5ae69d19ae940a015fcb30528acb0d276f6677287f"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-paid-social-creative-test-sprint.md",
+      "sha256": "ea29a2c2d7348184af5a629ec764a7718360f10be7c235f6d68ca492815f6ce7"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/blind-source-fidelity-review.md",
+      "sha256": "3f0b93ba929e118438c28cb3a510a7b131a04a1da2244d72abd445df70cdb490"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/duplicate-route-map.md",
+      "sha256": "1c5bf17a22f5f3ca699c6b23d2027bc357e770058a5d7f576c886c3e9ecaf72f"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/extraction-manifest.json",
+      "sha256": "13ad704406a526d0aaa587957ddb7c399a22cddfa75fe7d0e4a0d2eabdc6c396"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-extraction.md",
+      "sha256": "4b5084969bc2a69b830ce15a7d7bd4064dbc107c9f40189d8585c3daa958863b"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-pilot.json",
+      "sha256": "f1121bf455a06463ed66d407ce0ea60dbb51f283c476d61ea51452e4dda82fba"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md",
+      "sha256": "a0cbaa1745339df2646f30c12868f5f54208194426dbf2e43b022a09466b40e3"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md.metadata.json",
+      "sha256": "1852e016a48a1c186f930b66df0fe152e32ef2e439b744070cf295c31b71cf14"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/metadata.json",
+      "sha256": "f44b4227596379886f6fa972ef821d6373e38e3e5fcd115391ab0a52ff61cbf8"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/oren-front-door-validation-fixtures.json",
+      "sha256": "5dc893e205408067551932f8cb60383b3a07fef03d2eda46320e32908a33eee9"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/skill-system-contract.md",
+      "sha256": "9abb306d055051fa152454a4f1669e61ad57d44dd969597152ddcc59948379dd"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/timestamped-mechanics.md",
+      "sha256": "2d48d329196de2c10e00fc473663abba32efe9f25521c1d5f61749bd10150521"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/transcript.txt",
+      "sha256": "91f4c9b1854b24a6bc391ef994dd3aa1f932f06a354088365db76152d7898d6f"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/uncertainty-report.md",
+      "sha256": "fb491287c06a8dbf50bfe681be1125bad7dc70ccd28978cfd19505f243715ace"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/universal-front-door-agentic-engineering-packet.md",
+      "sha256": "b10fa48a1eaaefd9959c9652073b9061e5bb2110e79e97b1c6faad1a86da2672"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_funnel_flywheel.py",
+      "sha256": "cd804b2cedb5076bb4a147476cbe71642a1c1fe2a42883dcda8213aedea2b412"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py",
+      "sha256": "a6124366d5b18cee943d30ce0f9105cad0ba1c5ae8a6313cf63b138cd44b21cf"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-fixtures.json",
+      "sha256": "e4f7bb5f1ff296d5fbac189e1ec2214bd7e843ca877d3f14964fa6b3eb247b04"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validation-report.md",
+      "sha256": "5076eb49276eb03e37da5f7e2cd705b0f333196c7c9f83464805094eabb68d17"
+    },
+    {
+      "path": "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/video-context-ledger.md",
+      "sha256": "4f80582eb9ff34cc6e5b52fd9a1147d54cac281a0c18f86fd7ea626838f41998"
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/behavior-changing-extraction-contract.md",
+      "sha256": "154bd55030caf42483cd6758b93a893c5df43284bbd98e91f54a9e2b426f2e58"
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/mastery-transfer-proof-spine.md",
+      "sha256": "47e0ad98e523a2fd58df93fe61e05874bb335c064e2049ca90818d969df4d7c7"
+    },
+    {
+      "path": "semantic_libraries/antigravity/primitives/skill-system-contract.md",
+      "sha256": "c5aa5ee8bce239798fd2b924837d0db85e86529bbda1cad1e35d798eeafec9d3"
+    },
+    {
+      "path": "skills/benoit-vatere/workflows/golden-core-diagnostic.md",
+      "sha256": "e7d3706af4fc4de62b08b42d7ffad978af4d9a01c6969f070f34c99e38ab25dc"
+    },
+    {
+      "path": "skills/extract-mastery/workflows/03-design-transcendence-path.md",
+      "sha256": "a657d5e29a3908b47925adeab0e76d14d719928cac5631e467d7c15cfc27c205"
+    },
+    {
+      "path": "skills/oren-content-team-architecture/workflows/oren-content-flywheel.md",
+      "sha256": "43a128cace067142f03be5e982108df2fe8ef0922edcc2e923b1cf96e661524a"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/SKILL.md",
+      "sha256": "f61590df004f7ce38b2bd6db182e99f519be5d9f178db236f5a751060301c409"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/genius.md",
+      "sha256": "e66eb9c183e536acdb161e6a6c9ff96c87aea2a282e80134aa605bb6cdd50dab"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/funnel-flywheel-source-ledger.md",
+      "sha256": "3a8dc95164ea2e96a940acc068b3a9a6812d289b1367a3925bd4e5d377f7c4f1"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/genius-patterns.md",
+      "sha256": "47073cd5dcb16fe54b094f8af2e1e7febee4882b0923b8a5a327eb0e151d3f47"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/capture-to-call-brief.md",
+      "sha256": "c8f82f7ded3b751a36230b440a726fcc470242b3fe249e185f2ba43f81d9b171"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/dm-to-call-conversation-map.md",
+      "sha256": "76a028cafa31134d8ec64641a91ec24f3d7454bea40b3e15fe9bc1e055917712"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-flywheel-blueprint.md",
+      "sha256": "f7eebcd7a71b1542989bd4e2c4baeafa11607c282bf64d12e2dd3501a0d1b25b"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-route-card.md",
+      "sha256": "644646eb91136f303f05a163870fbb0276b2bc9de91283e4f4cf1867f7fce32b"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/funnel-test-learning-plan.md",
+      "sha256": "6ed89aa1e2736af3624a538d8f8eeec35f2dd35abad8d05f6f09c86b8074df9f"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/prompts-v2/offer-ladder-economics-handoff.md",
+      "sha256": "5c99907b345f75860e8d966961f55fe0533dca597ac8ccb96f079057dd37dfbd"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/quality-rubric.md",
+      "sha256": "1f49ade59d6cdf44e3305ada98b30fad4d2abe615884194e893f3b1535993b22"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/source-ledger.md",
+      "sha256": "bfafe1e862e01857ea26bedf8ba74495111828506e9a2b28c70d52da2c09f63a"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/references/tool-stack.md",
+      "sha256": "971477812f081d2bc32672c16480fbb80640411d846536823dc87ec87f99865c"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/01-weekly-os-installer.md",
+      "sha256": "6412d9bc7a3ee81c8f2c2af61f516d12c93f7b51073fe3df7bf690cf0564ef12"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/13-funnel-flywheel.md",
+      "sha256": "e2cad6987a10b0b7f9856f6e0ee0cf6944dce9644d365304efaa33af297f4e85"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/14-funnel-route.md",
+      "sha256": "9e2b4626cf6e4f166abcfb1dad3a5fa7f2b53129f1c4a29edf98f4536059b1ff"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/15-capture-to-call.md",
+      "sha256": "b845b3702942cbd4f88698584566e2b814016db8a26e590f41698358f9e1ef78"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/16-offer-ladder.md",
+      "sha256": "68733ec14c5e0e8981e9a4b9be3f7759c09325d54d942e5f21c05a9fa85d4226"
+    },
+    {
+      "path": "skills/oren-one-person-ai-marketer/workflows/17-funnel-test-loop.md",
+      "sha256": "5dd9c2d1c50bcf4c0d5502bc2b2cd251aa7ef9cfe6ff917e6b0dfe3a5b18efe0"
+    },
+    {
+      "path": "skills/oren-slop-era-creative-strategy/workflows/funnel-hack.md",
+      "sha256": "6d3a8dda228bd6c1204b2814fa6de772e716fb7cac88964da16e475f26e70aeb"
+    }
+  ]
+}

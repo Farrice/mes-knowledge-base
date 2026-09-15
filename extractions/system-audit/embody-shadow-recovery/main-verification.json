@@ -1,0 +1,59 @@
+[
+  {
+    "command": [
+      "python3",
+      "execution/verify_embody_command.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-1.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_funnel_flywheel.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-2.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/validate_oren_front_door.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-3.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "execution/tests/test_conditional_shadow_reference.py",
+      "execution/tests/test_mastery_transfer_proof_spine.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-4.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "execution/verify_global_adaptive_judgment_floor.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-5.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "execution/verify_control_intent.py"
+    ],
+    "cwd": "/Users/farricecain/Google Antigravity",
+    "returncode": 0,
+    "output": "main-check-6.txt"
+  }
+]

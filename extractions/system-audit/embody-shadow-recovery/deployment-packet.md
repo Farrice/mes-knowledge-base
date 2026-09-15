@@ -1,5 +1,7 @@
 # Deployment decision — Embody recovery
 
+**APPROVED AND EXECUTED.** Farrice selected all three next prompts. e69cd2963 and 919ea6aed are integrated locally; four explicit-only global pointers installed. No push. The proposal below is retained as decision history; read readout.md for current state.
+
 ## Recommended decision
 Approve guarded local-main integration of this task's manifest-owned recovery changes, then install the four reviewed explicit-only wrapper files below. No remote push, broad activation or promotion is included.
 

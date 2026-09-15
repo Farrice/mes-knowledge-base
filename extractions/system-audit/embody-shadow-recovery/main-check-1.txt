@@ -1,0 +1,5 @@
+EMBODY COMMAND VERIFICATION PASS
+- owner: /operator-school
+- invocation: explicit-only /embody
+- persistence: off by default
+- deliberate-council negative control: /convene
