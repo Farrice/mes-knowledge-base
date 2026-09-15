@@ -1,0 +1,31 @@
+{
+  "structural_checks": "PASS",
+  "failures": [],
+  "negative_control_missing_command": true,
+  "negative_control_missing_handoff": true,
+  "restored_original_passes": true,
+  "behavioral_demonstration": "extractions/paddy-galloway/youtube-masterclass/applied-production-packet.md",
+  "demonstration_judge": "main agent; not independent/human blind pass",
+  "video_precision_quality": "FAIL; see gemini-quality-review.md",
+  "control_tests": {
+    "passed": 31,
+    "failed": 0
+  },
+  "skill_audit": {
+    "passed": 7,
+    "failed": 0
+  },
+  "manifest": {
+    "workflows": 14,
+    "prompts": 14,
+    "status": "PASS"
+  },
+  "born_v2_scope": {
+    "passed": 14,
+    "failed": 0
+  },
+  "human_blind_pass": "NOT_RUN: independent held-out corpus unavailable",
+  "copy_check": "opening draft CLEAN; planning tables manually reviewed separately",
+  "agentic_video": "NOT_RUN",
+  "billing": "UNRECONCILED; reserve retained"
+}

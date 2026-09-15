@@ -7,15 +7,20 @@ Claude Code read the same file. No extra agent, automation or paid model is star
 
 ## Current capability and boundary
 
-The local budget/state controls work against a simulator. `run` rejects live
-execution. Do not call Gemini directly to get around that rejection, treat a
-simulation approval as money permission, or assume the generic Gemini quota
-entry covers video API usage. Report real video quality as UNTESTED.
+The general pilot remains a simulator; `run` rejects live execution. The separate
+$10 job for Z2uoA3bhJT0 made one full-video static request. Google completed it,
+and its response was recovered from AI Studio after a local timeout. Independent
+checks found material timestamp and interpretation errors. Video input is verified;
+precise extraction quality failed the sample; agentic navigation is NOT_RUN.
+Usage suggests about $0.81 but conflicting counters leave billing unreconciled.
+A $1.25 reservation remains and further paid dispatch is blocked. Read
+`extractions/paddy-galloway/youtube-masterclass/gemini-quality-review.md`.
+Never bypass the pilot's live rejection or confuse an API key with permission.
 
 The analyst can work NOW from existing evidence packages, supplied screenshots,
 transcripts, public metrics already retrieved with authorized tools and explicit
 taste verdicts. Use the native model for interpretation; new video perception
-requires the future approved trial. Do not call generated fixture text evidence.
+requires a successfully completed and validated approved trial. Do not call generated fixture text evidence.
 
 ## Start with the user's job
 
@@ -56,8 +61,8 @@ analytics require verified connector access; an installed skill isn't access.
 
 ## Spend and failure contract
 
-Paid allowance is currently $0. The user confirmed the OFFLINE pilot, not a paid
-trial. No hidden retries, fallback model, automatic batch expansion or cron job.
+General paid allowance remains $0. The one separately authorized $10 job is
+fixed to Z2uoA3bhJT0; its unresolved request blocks further dispatch in that job. No hidden retries, fallback model, automatic batch expansion or cron job.
 
 Simulation approval must cite the exact batch hash, decision text, simulated
 budget and expiry. It is a local record, not cryptographic proof of human consent.
@@ -93,3 +98,31 @@ captions, locally checked timestamps, actual usage receipt and native agentic
 processing records. No quality or cost-savings claim until that test exists.
 
 Operator commands and controls: `docs/content-analysis-pilot/README.md`.
+
+## Optional creative-strategy handoff
+
+For Extract or Adapt requests about YouTube ideas, audience fit, titles, thumbnail
+briefs, intros or performance diagnosis, load
+`skills/paddy-galloway-youtube-strategy/SKILL.md` and `genius.md`, then exactly the
+matching workflow. `/pg-creative-sprint` connects a complete production packet.
+This handoff consumes the available evidence; it starts no perception, scraping
+or paid call. Other subjects retain their existing expert owner.
+
+Paddy owns the audience-to-package decision. Briar can qualify an outlier from
+comparable performance evidence; CCN familiarity is separate from buyer value.
+The platform-specific short-form owner controls served first-frame execution.
+The metadata packager receives the locked promise after creative strategy.
+When retention curves are absent, return a risk review, never a measured diagnosis.
+Performance, personal taste and transferable mechanism remain separate fields.
+
+## Recovered result: current status
+
+The single request completed remotely and its actual video response was recovered
+from Google AI Studio without another paid call. Independent checks found wrong
+timestamps and unsupported rules. Video-input processing is verified; precise
+extraction quality failed this sample. Static processing was tested; agentic was
+not. The usage-derived estimate is about $0.81, but billing remains unreconciled
+because Google's counters conflict. The $1.25 reservation and dispatch hold stay.
+Read `extractions/paddy-galloway/youtube-masterclass/gemini-quality-review.md` and
+`gemini-recovery-receipt.json` for the current evidence. Earlier timeout statements
+above describe the transport event, not the final provider status.

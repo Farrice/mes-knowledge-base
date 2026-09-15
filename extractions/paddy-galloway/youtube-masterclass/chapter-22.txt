@@ -1,0 +1,87 @@
+The One Thing AI Still Can't Do
+[02:16:10.159] the one that I just scrunched up in this
+[02:16:11.760] ball, or 30 million views, it is 30
+[02:16:14.159] million people that watch for 5 minutes
+[02:16:15.920] or 10 minutes. Like, where else can you
+[02:16:18.239] buy that? Like if I if I just sort of
+[02:16:20.159] said with money buy 30 million people
+[02:16:23.599] watching 10 minutes plus of a 20inut
+[02:16:26.719] video that's 10 minutes of them spending
+[02:16:29.280] time with you. Where else can you buy
+[02:16:30.560] that?
+[02:16:31.119] >> Yeah. I mean if you back into the CPMs
+[02:16:33.040] then again however much they're paying
+[02:16:35.040] you is probably not enough if you if you
+[02:16:36.800] back into the millions and millions of
+[02:16:38.479] views quite frankly. Pretty crazy. So
+[02:16:41.280] for everybody out there listening I
+[02:16:42.559] think it's pretty pretty clear. We're
+[02:16:43.599] going to repop up that pendulum. I think
+[02:16:44.960] the pendulum is great. It's start with
+[02:16:47.519] something. and get the technical down,
+[02:16:48.800] the audio, the video, and then basically
+[02:16:51.040] listen to this podcast three, four,
+[02:16:52.319] five, six, 10 times, download the PDF,
+[02:16:54.559] implement all the things that we talked
+[02:16:55.920] about, and then just swing back and
+[02:16:58.000] forth. I'd be remiss if we didn't talk
+[02:16:59.599] about AI. So, I'd love to just know how
+[02:17:01.280] do you integrate AI into your content,
+[02:17:03.439] your client's content? How do you see
+[02:17:04.719] AI?
+[02:17:05.439] >> So, I think I'm I'm one of those people
+[02:17:07.200] that's like kind of bullish and bearish
+[02:17:08.960] at the same time, which is like, and I'm
+[02:17:11.200] I'm sure people relate to this, which is
+[02:17:12.559] like you see some people say, "I'm using
+[02:17:14.080] AI for everything. It's great. It's
+[02:17:15.280] amazing. It's it's completely
+[02:17:16.399] transformed my content workflow. It's
+[02:17:18.160] it's everything. And then I see some
+[02:17:20.319] people and they're like, "Yeah, I'm not
+[02:17:21.280] using it at all." And I see both those
+[02:17:23.920] people winning. Like, you know, so I'm
+[02:17:25.920] It's quite hard to sometimes get through
+[02:17:28.639] the noise. We're using AI a lot in
+[02:17:32.399] pre-production. So when I said that 500
+[02:17:34.559] ideas, like it's amazing how useful AI
+[02:17:37.280] is in ideation. So, for example, like
+[02:17:39.920] Claude has a plugin where you can
+[02:17:42.559] connect the platforms like Vid IQ. I
+[02:17:45.120] think one of 10 might have that
+[02:17:46.240] connection yet. And you can connect it
+[02:17:47.599] through Claude and then actually talk to
+[02:17:49.120] Claude about outliers. Be like, "Okay,
+[02:17:51.120] I'm in the fitness niche. Go find the
+[02:17:53.359] top 20 most viewed videos in the last
+[02:17:56.000] 365 days that are focused on this
+[02:17:58.399] specific topic and then let's talk about
+[02:18:00.319] them, brainstorm around them together."
+[02:18:01.920] So we'll use claude and and gemini but
+[02:18:06.559] mainly claude a lot in the ideation
+[02:18:08.160] process right now. We use Gemini a lot
+[02:18:10.800] for image generation for thumbnails for
+[02:18:13.840] even just for like concepts for
+[02:18:15.519] thumbnail concepts. So we'll use Gemini
+[02:18:17.519] a lot in that in that sense. And then
+[02:18:20.880] honestly the one area I'm I'm curious
+[02:18:22.880] what you think about this, but the one
+[02:18:24.000] area we have not been able to like
+[02:18:26.880] successfully use AI is still writing
+[02:18:30.479] good content. Like we we get it like 80%
+[02:18:34.000] of the way there, but I think the 20% is
+[02:18:35.840] always still human. It's still like, you
+[02:18:37.519] know, the person getting on top. So
+[02:18:39.200] yeah, we'll use it a lot in
+[02:18:40.160] pre-production, but not as much in post
+[02:18:41.599] and and not as much in the in the
+[02:18:42.880] writing of content. Yeah, obviously I
+[02:18:44.960] use it for like outlines, but from a
+[02:18:46.479] Yeah, I don't use it for anything from a
+[02:18:47.760] writing perspective, but I have yet to
+[02:18:50.240] not be overly obsessed on the
+[02:18:51.840] pre-production side and make sure that
+[02:18:53.359] I'm putting in the time to really know
+[02:18:55.200] the guest. I almost am scared, quite
+[02:18:57.439] frankly, to just solely rely on AI in
+[02:18:59.760] the pre-production where my team

@@ -26,7 +26,8 @@ adaptation, not attributed to Riley or Google.
 - Performance snapshots with date and comparison basis, or UNKNOWN.
 - Farrice's explicit taste notes, or NOT_SUPPLIED.
 - Intended audience/product/topic for adaptation, or a clearly stated assumption.
-- Paid work status: disabled in this pilot; an API key is never approval.
+- Paid work status: general pilot disabled; any fixed-source exception needs its
+  own current receipt. An API key is never approval.
 
 ## Execution Protocol
 
@@ -45,7 +46,10 @@ adaptation, not attributed to Riley or Google.
 6. Adapt: transfer the mechanism to the user's actual subject/audience; change
    premise, examples and execution. Deliver one concrete original outline rather
    than a generic list of hooks. Keep a proposed performance effect hypothetical.
-7. For any unsupported claim, either narrow it to the captured evidence or expose
+7. For a YouTube creative-strategy Extract/Adapt job, use the conditional Paddy
+   handoff in `content-analyst-pilot.md`. Carry evidence types and proof gaps into
+   the chosen workflow. Keep perception and platform craft with their owners.
+8. For any unsupported claim, either narrow it to the captured evidence or expose
    the exact gap. Do not fill it by starting a paid call or unapproved source hunt.
 
 ## Output Contract

@@ -1,0 +1,31 @@
+✅ Trace logged: trace_20260914_231015_paddy-galloway-youtube-strategy.json
+   Component: paddy-galloway-youtube-strategy
+   Quality:   7.0/10
+  Logged: finalize | Paddy full-video extraction: 14 connected workflows, original production packet, recovered Gemini st
+
+============================================================
+  CHAIN FINALIZE — Steps 6-7 Complete
+============================================================
+  Output:     Paddy full-video extraction: 14 connected workflows, original production packet, recovered Gemini static test with precision failures and unreconciled usage
+  Expert:     paddy-galloway
+  Skill:      paddy-galloway-youtube-strategy
+  Composite:  7.0/10
+  Status:     Needs Improvement
+  ⚠️  QUALITY GATE MARGINAL — Composite: 7.0 (bimodal narrow band 7.0-7.5). Bimodal taste treats marginal as fail — retry or accept with eyes open.
+------------------------------------------------------------
+  Intent Alignment:       7.0/10
+  Expert Standard:        7.0/10
+  Adversarial Resilience: 7.0/10
+
+  Regression: Insufficient data (0 entries). Need 3+ for regression detection.
+
+  Notion:     Skipped (test mode)
+
+  Protocols activated: 3
+    • directives/quality_gate.md
+    • directives/feedback-ratchet.md
+    • directives/session-state-protocol.md
+  Session state: ✅ Written
+
+  🧾 Verification receipt: Main-agent verification: 31 automated control tests, full source endpoints and 14 command paths verified; visual precision failed sampled checks; independent human judgment NOT_RUN
+============================================================
